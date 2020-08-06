@@ -8,14 +8,14 @@ ms.date: 05/31/2017
 ms.topic: article
 ms.prod: windows-server
 ms.technology: identity-adfs
-ms.openlocfilehash: 62671800d923e95c6bc3f9c7efb0660974c438e2
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: a7304402b4be1710fbff9e29e2dd0094ba621095
+ms.sourcegitcommit: de8fea497201d8f3d995e733dfec1d13a16cb8fa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86954286"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87864299"
 ---
-# <a name="configure-claim-rules"></a>Настройка правил для утверждения
+# <a name="configure-claim-rules-in-ad-fs-for-windows-server"></a>Настройка правил утверждений в AD FS для Windows Server
 
 В \- модели удостоверений на основе утверждений функция службы федерации Active Directory (AD FS) \( AD FS в \) качестве служб федерации, — выдача маркера, содержащего набор утверждений. Правила утверждений управляют решениями относительно утверждений, которые AD FS проблемы. Правила утверждений и все данные конфигурации сервера хранятся в базе данных конфигурации AD FS.  
   
@@ -40,5 +40,5 @@ AD FS принимает решения на выдачу на основе св
   
 -   [Создание правила для отправки утверждений с помощью настраиваемого правила](Create-a-Rule-to-Send-Claims-Using-a-Custom-Rule.md)  
 
-## <a name="see-also"></a>См. также  
+## <a name="see-also"></a>См. также:  
 [Операции AD FS](../ad-fs-operations.md) 

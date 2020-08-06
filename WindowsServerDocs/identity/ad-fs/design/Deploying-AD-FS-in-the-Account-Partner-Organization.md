@@ -1,6 +1,6 @@
 ---
 ms.assetid: 8c3536b7-d091-4ee6-ad04-24713f070862
-title: Развертывание служб федерации Active Directory в партнерской организации по учетным записям
+title: Развертывание устаревших AD FS в организации партнера по учетным записям
 author: billmath
 ms.author: billmath
 manager: femila
@@ -8,16 +8,16 @@ ms.date: 05/31/2017
 ms.topic: article
 ms.prod: windows-server
 ms.technology: identity-adfs
-ms.openlocfilehash: 7a1d92a932638388ef50322078084c648c9dfdb9
-ms.sourcegitcommit: b00d7c8968c4adc8f699dbee694afe6ed36bc9de
+ms.openlocfilehash: 46b22a2b76896844c08f937304575a250582ccc9
+ms.sourcegitcommit: de8fea497201d8f3d995e733dfec1d13a16cb8fa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "80853197"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87863700"
 ---
-# <a name="deploying-ad-fs-in-the-account-partner-organization"></a>Развертывание служб федерации Active Directory в партнерской организации по учетным записям
+# <a name="deploying-legacy-ad-fs-in-the-account-partner-organization"></a>Развертывание устаревших AD FS в организации партнера по учетным записям
 
-Партнер по учетным записям в службы федерации Active Directory (AD FS) \(AD FS\) представляет организацию в отношении доверия федерации, которая физически хранит учетные записи пользователей в поддерживаемом хранилище атрибутов. Дополнительные сведения о поддерживаемых хранилищах атрибутов см. в разделе [роль хранилищ атрибутов](../../ad-fs/technical-reference/The-Role-of-Attribute-Stores.md).  
+Партнер по учетным записям в службы федерации Active Directory (AD FS) \( AD FS \) представляет организацию в отношении доверия федерации, которая физически хранит учетные записи пользователей в поддерживаемом хранилище атрибутов. Дополнительные сведения о поддерживаемых хранилищах атрибутов см. в разделе [роль хранилищ атрибутов](../../ad-fs/technical-reference/The-Role-of-Attribute-Stores.md).  
   
 Сервер федерации в организации партнера по учетным записям выполняет проверку подлинности локальных пользователей и создает маркеры безопасности, используемые партнером по ресурсам для принятия решений об авторизации. Затем проверяющие стороны, такие как веб-сайты и веб-службы, могут легко зарегистрироваться на сервере федерации и использовать выданные маркеры для проверки подлинности и контроля доступа.  
   
@@ -25,7 +25,7 @@ ms.locfileid: "80853197"
   
 Подробнее об установке и настройке партнерской организации по учетным записям см. в разделе [Checklist: Configuring the Account Partner Organization](../../ad-fs/deployment/Checklist--Configuring-the-Account-Partner-Organization.md).  
   
-## <a name="in-this-section"></a>В этом разделе  
+## <a name="in-this-section"></a>Содержание раздела  
   
 -   [Сведения о роли сервера федерации в организации партнера по учетным записям](Review-the-Role-of-the-Federation-Server-in-the-Account-Partner.md)  
   
@@ -33,5 +33,5 @@ ms.locfileid: "80853197"
   
 -   [Подготовка клиентских компьютеров к работе с партнером по учетным записям](Prepare-Client-Computers-in-the-Account-Partner.md)  
   
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также:
 [Руководство по разработке служб федерации Active Directory в Windows Server 2012](AD-FS-Design-Guide-in-Windows-Server-2012.md)

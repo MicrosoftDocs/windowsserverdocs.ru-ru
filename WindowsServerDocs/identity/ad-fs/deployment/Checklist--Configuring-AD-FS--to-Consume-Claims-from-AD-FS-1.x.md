@@ -1,6 +1,6 @@
 ---
 ms.assetid: e7f9e518-2d5d-4a0d-9147-34e1304f42ac
-title: Контрольный список — настройка AD FS для использования утверждений от AD FS 1. x
+title: Контрольный список. Настройка устаревших AD FS для использования утверждений от AD FS 1. x
 author: billmath
 manager: femila
 ms.date: 05/31/2017
@@ -8,12 +8,12 @@ ms.topic: article
 ms.prod: windows-server
 ms.technology: identity-adfs
 ms.author: billmath
-ms.openlocfilehash: cba16383b83fa8a53b28e4e1f70ffcebe63098d7
-ms.sourcegitcommit: 3632b72f63fe4e70eea6c2e97f17d54cb49566fd
+ms.openlocfilehash: 6d2326e546c658829512400c26ee7fbbeb8a8545
+ms.sourcegitcommit: de8fea497201d8f3d995e733dfec1d13a16cb8fa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87520113"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87864182"
 ---
 # <a name="checklist-configuring-ad-fs--to-consume-claims-from-ad-fs-1x"></a>Контрольный список: настройка AD FS для использования утверждений от AD FS 1. x
 

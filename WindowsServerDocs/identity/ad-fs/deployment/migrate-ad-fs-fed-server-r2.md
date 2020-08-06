@@ -1,5 +1,5 @@
 ---
-title: Перенос сервера федерации AD FS 2,0
+title: Перенос сервера федерации AD FS 2,0 на Windows Server 2012 R2
 description: Содержит сведения о миграции AD FS Server на Windows Server 2012 R2.
 author: billmath
 ms.author: billmath
@@ -8,12 +8,12 @@ ms.date: 07/10/2017
 ms.topic: article
 ms.prod: windows-server
 ms.technology: identity-adfs
-ms.openlocfilehash: 71577032c5f6f5a5bf56d485d31989db318c872f
-ms.sourcegitcommit: 3632b72f63fe4e70eea6c2e97f17d54cb49566fd
+ms.openlocfilehash: 568fdb25bedda48327c7fd147a980b21cda3d5c8
+ms.sourcegitcommit: de8fea497201d8f3d995e733dfec1d13a16cb8fa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87519963"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87863961"
 ---
 # <a name="migrate-the-ad-fs-20-federation-server-to-ad-fs-on-windows-server-2012-r2"></a>Миграция сервера федерации AD FS 2,0 в AD FS в Windows Server 2012 R2
 

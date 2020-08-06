@@ -1,6 +1,6 @@
 ---
 ms.assetid: 777aab65-c9c7-4dc9-a807-9ab73fac87b8
-title: Настройка защиты блокировки экстрасети AD FS
+title: Настройка защиты мягкой блокировки экстрасети AD FS
 author: billmath
 ms.author: billmath
 manager: femila
@@ -8,12 +8,12 @@ ms.date: 02/01/2019
 ms.topic: article
 ms.prod: windows-server
 ms.technology: identity-adfs
-ms.openlocfilehash: f49e4a7e27d5b224a86655e48f07df741f03e7b0
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: cc81ac2270a35268fb1547b39f83d1564be994fd
+ms.sourcegitcommit: de8fea497201d8f3d995e733dfec1d13a16cb8fa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86962646"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87863985"
 ---
 # <a name="configure-ad-fs-extranet-lockout-protection"></a>Настройка защиты блокировки экстрасети AD FS
 
@@ -90,7 +90,7 @@ Set-AdfsProperties -EnableExtranetLockout $true -ExtranetLockoutThreshold 15 -Ex
 - Чтобы избежать блокировки вредоносных учетных записей, необходимо **ExtranetLockoutThreshold**убедиться в том, что  <  **порог блокировки учетной записи** ExtranetLockoutThreshold и **ExtranetObservationWindow**  >  **Счетчик блокировки сброса** екстранетобсерватионвиндов.
 
 
-## <a name="additional-references"></a>Дополнительные ссылки  
+## <a name="additional-references"></a>Дополнительная справка  
 - [Рекомендации по обеспечению безопасности службы федерации Active Directory (AD FS)](../../ad-fs/deployment/best-practices-securing-ad-fs.md)
 - [Делегирование доступа к командлету Powershell AD FS пользователям без прав администратора](delegate-ad-fs-pshell-access.md)
 - [Set-AdfsProperties](/powershell/module/adfs/set-adfsproperties?view=win10-ps)

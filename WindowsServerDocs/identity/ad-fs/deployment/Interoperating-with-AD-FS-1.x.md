@@ -1,6 +1,6 @@
 ---
 ms.assetid: 97999892-29c6-4076-be19-5e5259d8ada6
-title: Развертывание серверов федерации
+title: Взаимодействие с AD FS 1.x
 author: billmath
 manager: femila
 ms.date: 05/31/2017
@@ -8,12 +8,12 @@ ms.topic: article
 ms.prod: windows-server
 ms.technology: identity-adfs
 ms.author: billmath
-ms.openlocfilehash: 83d13386368ff1d6447231d465e01bcceae61d47
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 8fb379ae626078be1fad026d2c0e9a5e90bc6824
+ms.sourcegitcommit: de8fea497201d8f3d995e733dfec1d13a16cb8fa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86963766"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87864225"
 ---
 # <a name="interoperating-with-ad-fs-1x"></a>Взаимодействие с AD FS 1.x
 
@@ -40,6 +40,6 @@ ms.locfileid: "86963766"
 |служба федерации URI|Идентификатор службы федерации  
 |URL-адрес конечной точки служба федерации|\-URL-адрес пассивной конечной точки WS Federation  
   
-## <a name="see-also"></a>См. также  
+## <a name="see-also"></a>См. также:  
 [Взаимодействие AD FS и AD FS 1. x](https://go.microsoft.com/fwlink/?LinkId=200776)  
   

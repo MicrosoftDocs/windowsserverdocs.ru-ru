@@ -8,12 +8,12 @@ ms.date: 07/29/2020
 ms.topic: article
 ms.prod: windows-server
 ms.technology: storage
-ms.openlocfilehash: c51394b96abbe451b57ab1388cf2d21126959a78
-ms.sourcegitcommit: acfdb7b2ad283d74f526972b47c371de903d2a3d
+ms.openlocfilehash: ddfcf45fa897fbed4a2475332b9706fc8d9fb634
+ms.sourcegitcommit: de8fea497201d8f3d995e733dfec1d13a16cb8fa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "87769712"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87864203"
 ---
 # <a name="storage-migration-service-known-issues"></a>Известные проблемы со службой миграции хранилища
 
@@ -30,7 +30,7 @@ ms.locfileid: "87769712"
 - Журналы приложений и служб \ Microsoft \ Windows \ Сторажемигратионсервице
 - Журналы приложений и служб \ Microsoft \ Windows \ Сторажемигратионсервице-proxy
 
-Если необходимо собрать эти журналы для просмотра в автономном режиме или для отправки в служба поддержки Майкрософт, в GitHub доступен сценарий PowerShell с открытым кодом.
+Если необходимо собрать эти журналы для просмотра в автономном режиме или для отправки в служба поддержки Майкрософт, в GitHub доступен сценарий PowerShell с открытым кодом:
 
  [Вспомогательная служба службы миграции хранилища](https://aka.ms/smslogs)
 
@@ -118,9 +118,9 @@ Warning: The destination proxy wasn't found.
 
 Если вы не установили прокси-службу службы миграции хранилища на конечный компьютер с Windows Server 2019, или на целевом компьютере установлена ОС Windows Server 2016 или Windows Server 2012 R2, это поведение предназначено для разработки. Мы рекомендуем перейти на компьютер под Windows Server 2019 с установленным прокси-сервером, чтобы значительно повысить производительность переноса.
 
-## <a name="certain-files-do-not-inventory-or-transfer-error-5-access-is-denied"></a>Некоторые файлы не передаются или переносятся, ошибка 5 "доступ запрещен"
+## <a name="certain-files-dont-inventory-or-transfer-error-5-access-is-denied"></a>Некоторые файлы не переносятся или передаются, ошибка 5 "доступ запрещен"
 
-При инвентаризации или передаче файлов из источника на конечные компьютеры файлы, из которых пользователь удалил разрешения группы администраторов, не смогут выполнить миграцию. Проверка службы миграции хранилища — Отладка прокси показывает:
+При инвентаризации или передаче файлов из источника на конечные компьютеры файлы, с которых пользователь удалил разрешения для группы "Администраторы", не смогут выполнить миграцию. Проверка службы миграции хранилища — Отладка прокси показывает:
 
 ```
 Log Name: Microsoft-Windows-StorageMigrationService-Proxy/Debug
@@ -152,39 +152,39 @@ at Microsoft.StorageMigration.Proxy.Service.Transfer.FileTransfer.TryTransfer()
 
 При использовании службы миграции хранилища для переноса файлов в новое место назначения и последующей настройки репликация DFS для репликации этих данных с помощью существующего сервера через предварительно заполненную репликацию или репликация DFS клонирование базы данных все файлы будут испытывать несоответствие хэша и повторно реплицироваться. Все потоки данных, потоки безопасности, размеры и атрибуты вполне соответствуют друг другу после использования службы миграции хранилища для их переноса. При проверке файлов с помощью ICACLS или репликация DFS журнала отладки клонирования базы данных выясняется:
 
+### <a name="source-file"></a>Исходный файл
 ```
-Source file:
-
   icacls d:\test\Source:
 
-  icacls d:\test\thatcher.png /save out.txt /t
-  thatcher.png
+  icacls d:\test\thatcher.png /save out.txt /t thatcher.png
   D:AI(A;;FA;;;BA)(A;;0x1200a9;;;DD)(A;;0x1301bf;;;DU)(A;ID;FA;;;BA)(A;ID;FA;;;SY)(A;ID;0x1200a9;;;BU)
-
-Destination file:
-
-  icacls d:\test\thatcher.png /save out.txt /t
-  thatcher.png
-  D:AI(A;;FA;;;BA)(A;;0x1301bf;;;DU)(A;;0x1200a9;;;DD)(A;ID;FA;;;BA)(A;ID;FA;;;SY)(A;ID;0x1200a9;;;BU)**S:PAINO_ACCESS_CONTROL**
-
-DFSR Debug Log:
-
-    20190308 10:18:53.116 3948 DBCL  4045 [WARN] DBClone::IDTableImportUpdate Mismatch record was found.
-
-    Local ACL hash:1BCDFE03-A18BCE01-D1AE9859-23A0A5F6
-    LastWriteTime:20190308 18:09:44.876
-    FileSizeLow:1131654
-    FileSizeHigh:0
-    Attributes:32
-
-    Clone ACL hash:**DDC4FCE4-DDF329C4-977CED6D-F4D72A5B**
-    LastWriteTime:20190308 18:09:44.876
-    FileSizeLow:1131654
-    FileSizeHigh:0
-    Attributes:32
 ```
 
-Эта проблема устранена с помощью обновления [KB4512534](https://support.microsoft.com/help/4512534/windows-10-update-kb4512534)
+### <a name="destination-file"></a>Целевой файл
+
+```
+  icacls d:\test\thatcher.png /save out.txt /t thatcher.png
+  D:AI(A;;FA;;;BA)(A;;0x1301bf;;;DU)(A;;0x1200a9;;;DD)(A;ID;FA;;;BA)(A;ID;FA;;;SY)(A;ID;0x1200a9;;;BU)**S:PAINO_ACCESS_CONTROL**
+```
+### <a name="dfsr-debug-log"></a>Журнал отладки DFSR
+
+```
+   20190308 10:18:53.116 3948 DBCL  4045 [WARN] DBClone::IDTableImportUpdate Mismatch record was found.
+
+   Local ACL hash:1BCDFE03-A18BCE01-D1AE9859-23A0A5F6
+   LastWriteTime:20190308 18:09:44.876
+   FileSizeLow:1131654
+   FileSizeHigh:0
+   Attributes:32
+
+   Clone ACL hash:**DDC4FCE4-DDF329C4-977CED6D-F4D72A5B**
+   LastWriteTime:20190308 18:09:44.876
+   FileSizeLow:1131654
+   FileSizeHigh:0
+   Attributes:32
+```
+
+Эта проблема устранена с помощью обновления [KB4512534](https://support.microsoft.com/help/4512534/windows-10-update-kb4512534) .
 
 ## <a name="error-couldnt-transfer-storage-on-any-of-the-endpoints-when-transferring-from-windows-server-2008-r2"></a>Ошибка "не удалось передать хранилище на любую из конечных точек" при передаче из Windows Server 2008 R2
 
@@ -195,11 +195,11 @@ Couldn't transfer storage on any of the endpoints.
 0x9044
 ```
 
-Эта ошибка возникает, если на компьютере под Windows Server 2008 R2 не установлено полное обновление со всеми критически важными и важными обновлениями Центр обновления Windows. Независимо от службы миграции хранилища, мы всегда рекомендуем установить исправление для безопасности компьютера под управлением Windows Server 2008 R2, так как эта операционная система не содержит улучшений безопасности более новых версий Windows Server.
+Эта ошибка возникает, если на компьютере под Windows Server 2008 R2 не установлено полное обновление со всеми критически важными и важными обновлениями Центр обновления Windows. Особенно важно, чтобы компьютер под управлением Windows Server 2008 R2 обновлялся в целях безопасности, так как эта операционная система не содержит улучшений безопасности более новых версий Windows Server.
 
 ## <a name="error-couldnt-transfer-storage-on-any-of-the-endpoints-and-check-if-the-source-device-is-online---we-couldnt-access-it"></a>Ошибка "не удалось переместить хранилище на любую из конечных точек" и "проверить, подключено ли исходное устройство к сети."
 
-При попытке переместить данные с исходного компьютера некоторые или все общие папки не передаются, со сводной ошибкой:
+При попытке пересылки данных с исходного компьютера некоторые или все общие папки не передаются, за которыми возникает ошибка:
 
 ```
 Couldn't transfer storage on any of the endpoints.
@@ -316,7 +316,7 @@ ServiceError0x9006,Microsoft.StorageMigration.Commands.UnregisterSmsProxyCommand
 2. Выполните следующую команду PowerShell для службы миграции хранилища на компьютере Orchestrator:
 
    ```PowerShell
-   Register-SMSProxy -ComputerName *destination server* -Force
+   Register-SMSProxy -ComputerName <destination server> -Force
    ```
 ## <a name="error-dll-was-not-found-when-running-inventory-from-a-cluster-node"></a>Ошибка "DLL не найдена" при выполнении инвентаризации с узла кластера
 
@@ -345,7 +345,7 @@ There are no more endpoints available from the endpoint mapper
 
 1. Откройте командную строку с повышенными привилегиями, в которой вы являетесь членом группы администраторов на сервере Orchestrator службы миграции хранилища, и выполните следующую команду:
 
-     ```
+     ```DOS
      TAKEOWN /d y /a /r /f c:\ProgramData\Microsoft\StorageMigrationService
 
      MD c:\ProgramData\Microsoft\StorageMigrationService\backup
@@ -383,7 +383,7 @@ at Microsoft.FailoverClusters.Framework.ClusterUtils.RenameFSNetName(SafeCluster
 at Microsoft.StorageMigration.Proxy.Cutover.CutoverUtils.RenameFSNetName(NetworkCredential networkCredential, Boolean isLocal, String clusterName, String fsResourceId, String nnResourceId, String newDnsName, CancellationToken ct)    [d:\os\src\base\dms\proxy\cutover\cutoverproxy\CutoverUtils.cs::RenameFSNetName::1510]
 ```
 
-Эта проблема вызвана отсутствием API в более ранних версиях Windows Server. В настоящее время невозможно перенести кластеры Windows Server 2008 и Windows Server 2003. Вы можете выполнять инвентаризацию и перенос без проблем в кластерах Windows Server 2008 R2, а затем вручную выполнять прямую миграцию путем изменения имени и IP-адреса ресурса исходного файлового сервера кластера вручную, а затем изменяя NetName конечного кластера и IP-адрес в соответствии с исходным источником.
+Эта проблема вызвана отсутствием API в более ранних версиях Windows Server. Сейчас нет способа перенести кластеры Windows Server 2008 и Windows Server 2003. Вы можете выполнять инвентаризацию и перенос без проблем в кластерах Windows Server 2008 R2, а затем вручную выполнять прямую миграцию путем изменения имени и IP-адреса ресурса исходного файлового сервера кластера вручную, а затем изменяя NetName конечного кластера и IP-адрес в соответствии с исходным источником.
 
 ## <a name="cutover-hangs-on-38-mapping-network-interfaces-on-the-source-computer-when-using-static-ips"></a>Прямую миграцию зависает на "38% сопоставлении сетевых интерфейсов на исходном компьютере..." При использовании статических IP-адресов
 
@@ -426,16 +426,14 @@ Guidance: Confirm that the Netlogon service on the computer is reachable through
 
 После завершения перемещения и последующей повторной пересылки одних и тех же данных вы можете не заметить значительного улучшения времени на перемещение, даже если на исходном сервере изменились небольшие данные.
 
-Это ожидаемое поведение при передаче очень большого количества файлов и вложенных папок. Размер данных не важен. Мы сначала внесли улучшения в это поведение в [KB4512534](https://support.microsoft.com/help/4512534/windows-10-update-kb4512534) и продолжаем оптимизировать производительность обмена. Чтобы еще больше настроить производительность, ознакомьтесь с [оптимизацией инвентаризации и производительности перемещения](./faq.md#optimizing-inventory-and-transfer-performance).
+Это ожидаемое поведение при передаче очень большого количества файлов и вложенных папок. Размер данных не важен. Мы сначала внесли улучшения в это поведение в [KB4512534](https://support.microsoft.com/help/4512534/windows-10-update-kb4512534) и продолжаем оптимизировать производительность обмена. Чтобы еще больше настроить производительность, ознакомьтесь с [оптимизацией инвентаризации и производительности перемещения](https://docs.microsoft.com/windows-server/storage/storage-migration-service/faq#optimizing-inventory-and-transfer-performance).
 
 ## <a name="data-does-not-transfer-user-renamed-when-migrating-to-or-from-a-domain-controller"></a>Данные не передаются, пользователь переименован при миграции на контроллер домена или с него
 
 После запуска перемещения с контроллера домена или на него выполните следующие действия.
 
  1. Данные не переносятся, и в месте назначения не создаются общие папки.
-
  2. В центре администрирования Windows отображается красный символ ошибки без сообщения об ошибке
-
  3. Для одного или нескольких пользователей AD и локальных групп домена изменилось имя и (или) пред-Windows 2000 атрибут входа
 
  4. Вы увидите событие 3509 в службе миграции хранилища Orchestrator:
@@ -536,7 +534,7 @@ Stack trace:
 
 На этом этапе служба миграции хранилища пытается выполнить удаленный доступ к реестру для определения конфигурации исходного компьютера, но она отклоняется исходным сервером, сообщающим, что путь реестра не существует. Для этого могут быть следующие причины:
 
- - На исходном компьютере не запущена служба удаленного реестра.
+ - Служба удаленного реестра не запущена на исходном компьютере.
  - брандмауэр не разрешает подключение удаленного реестра к исходному серверу из Orchestrator.
  - У учетной записи миграции источника отсутствуют разрешения на удаленный реестр для подключения к исходному компьютеру.
  - Учетная запись миграции источника не имеет разрешений на чтение в реестре исходного компьютера, в разделе "HKEY_LOCAL_MACHINE \Софтваре\микрософт\виндовс Нт\куррентверсион" или в разделе "HKEY_LOCAL_MACHINE \Систем\куррентконтролсет\сервицес\ланмансервер"
@@ -568,7 +566,7 @@ Guidance: Confirm that the Netlogon service on the computer is reachable through
 
 Эта проблема вызвана групповая политика, которая устанавливает следующее значение реестра на исходном компьютере: "HKEY_LOCAL_MACHINE \Софтваре\микрософт\виндовс\куррентверсион\полиЦиес\систем\локалаккаунттокенфилтерполици = 0"
 
-Этот параметр не является частью стандартного групповая политика. это надстройка, настроенная с помощью [набора средств обеспечения соответствия требованиям корпорации Майкрософт](https://www.microsoft.com/download/details.aspx?id=55319):
+Этот параметр не входит в стандартную групповая политика. это надстройка, настроенная с помощью [набора средств обеспечения соответствия требованиям корпорации Майкрософт](https://www.microsoft.com/download/details.aspx?id=55319):
 
 - Windows Server 2012 R2: "компьютер \ конфигурация Темплатес\скм: передайте хэш-Митигатионс\аппли ограничения UAC в локальные учетные записи при входе в сеть"
 
@@ -586,8 +584,7 @@ Guidance: Confirm that the Netlogon service on the computer is reachable through
 
 ## <a name="inventory-or-transfer-fail-when-using-credentials-from-a-different-domain"></a>Сбой инвентаризации или перемещения при использовании учетных данных из другого домена
 
-При попытке запуска инвентаризации или переноса с помощью службы миграции хранилища и нацеливания на Windows Server с использованием учетных данных миграции из домена, который не является целевым сервером, вы получаете одну или несколько следующих ошибок.
-
+При попытке запуска инвентаризации или переноса с помощью службы миграции хранилища и нацеливания на Windows Server с использованием учетных данных миграции из домена, не являющегося целевым сервером, появляются следующие ошибки.
 ```
 Exception from HRESULT:0x80131505
 

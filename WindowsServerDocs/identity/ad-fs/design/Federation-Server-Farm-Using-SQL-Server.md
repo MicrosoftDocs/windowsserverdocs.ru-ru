@@ -8,14 +8,14 @@ ms.date: 05/31/2017
 ms.topic: article
 ms.prod: windows-server
 ms.technology: identity-adfs
-ms.openlocfilehash: f3dedd53d75120a6a3e8087c345cd7dfa04ca35d
-ms.sourcegitcommit: 3632b72f63fe4e70eea6c2e97f17d54cb49566fd
+ms.openlocfilehash: 4527b6787531b3a349534092e3597a91dbebf78f
+ms.sourcegitcommit: de8fea497201d8f3d995e733dfec1d13a16cb8fa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87519943"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87864138"
 ---
-# <a name="federation-server-farm-using-sql-server"></a>Ферма серверов федерации с использованием SQL Server
+# <a name="legacy-ad-fs-federation-server-farm-using-sql-server"></a>Устаревшая AD FS ферма серверов федерации с помощью SQL Server
 
 Эта топология для службы федерации Active Directory (AD FS) \( AD FS \) отличается от фермы серверов федерации с использованием топологии развертывания внутренней базы данных \( WID Windows \) в том, что она не реплицирует данные на каждый сервер федерации в ферме. Вместо этого все серверы федерации в ферме могут считывать и записывать данные в общую базу данных, которая хранится на сервере, работающем Microsoft SQL Server, расположенном в корпоративной сети.
 
@@ -85,10 +85,10 @@ ms.locfileid: "87519943"
 
 Следующая таблица содержит сводку по использованию фермы WID:
 
-| 1-100 доверия RP | Более 100 доверий RP |
+| От 1 до 100 отношений доверия с проверяющей стороной | Более 100 отношений доверия с проверяющей стороной |
 |--|--|
-| **1-30 AD FS узлов:** Поддерживается WID | **1-30 AD FS узлов:** Не поддерживается при использовании WID-SQL |
-| **Более 30 AD FS узлов:** Не поддерживается при использовании WID-SQL | **Более 30 AD FS узлов:** Не поддерживается при использовании WID-SQL |
+| **1–30 узлов AD FS:** поддерживается для WID | **1–30 узлов AD FS:** не поддерживается для WID — требуется SQL |
+| **Более 30 узлов AD FS:** не поддерживается для WID — требуется SQL | **Более 30 узлов AD FS:** не поддерживается для WID — требуется SQL |
 
 ### <a name="alwayson-availability-groups"></a>Группы доступности AlwaysOn
 **Обзор**

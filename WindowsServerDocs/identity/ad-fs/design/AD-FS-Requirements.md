@@ -1,6 +1,6 @@
 ---
 ms.assetid: 8ce6e7c4-cf8e-4b55-980c-048fea28d50f
-title: Ферма серверов федерации с использованием SQL Server
+title: Требования к AD FS для Windows Server
 author: billmath
 ms.author: billmath
 manager: femila
@@ -8,14 +8,14 @@ ms.date: 05/31/2017
 ms.topic: article
 ms.prod: windows-server
 ms.technology: identity-adfs
-ms.openlocfilehash: 434d630ea3e521abdcffac6b8ce6479659b68ebc
-ms.sourcegitcommit: 3632b72f63fe4e70eea6c2e97f17d54cb49566fd
+ms.openlocfilehash: 4f36b1808ff58b29cbd7be852617689bff8bb146
+ms.sourcegitcommit: de8fea497201d8f3d995e733dfec1d13a16cb8fa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87519953"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87863787"
 ---
-# <a name="ad-fs-requirements"></a>Требования AD FS
+# <a name="ad-fs-requirements-for-windows-server"></a>Требования к AD FS для Windows Server
 
 Ниже приведены различные требования, которые должны быть соблюдены при развертывании AD FS.
 
@@ -144,10 +144,10 @@ ms.locfileid: "87519953"
 
 Следующая таблица содержит сводку по использованию фермы WID.  Используйте его для планирования реализации.
 
-| 1-100 доверия RP | Более 100 доверий RP |
+| От 1 до 100 отношений доверия с проверяющей стороной | Более 100 отношений доверия с проверяющей стороной |
 |--|--|
-| **1-30 AD FS узлов:** Поддерживается WID | **1-30 AD FS узлов:** Не поддерживается при использовании WID-SQL |
-| **Более 30 AD FS узлов:** Не поддерживается при использовании WID-SQL | **Более 30 AD FS узлов:** Не поддерживается при использовании WID-SQL |
+| **1–30 узлов AD FS:** поддерживается для WID | **1–30 узлов AD FS:** не поддерживается для WID — требуется SQL |
+| **Более 30 узлов AD FS:** не поддерживается для WID — требуется SQL | **Более 30 узлов AD FS:** не поддерживается для WID — требуется SQL |
 
 **SQL Server**
 
@@ -166,7 +166,7 @@ ms.locfileid: "87519953"
 
 Несколько ключевых браузеров и платформ прошли проверку на предмет подготовки к просмотру и функциональности, сведения о которых перечислены ниже. Браузеры и устройства, которые не включены в эту таблицу, по-прежнему поддерживаются, если они соответствуют приведенным выше требованиям:
 
-| **Браузеры** | **Платформ** |
+| **Браузеры** | **Платформы** |
 |--|--|
 | IE 10,0 | Windows 7, Windows 8.1, Windows Server 2008 R2, Windows Server 2012, Windows Server 2012 R2 |
 | IE 11,0 | Windows7, Windows 8.1, Windows Server 2008 R2, Windows Server 2012, Windows Server 2012 R2 |

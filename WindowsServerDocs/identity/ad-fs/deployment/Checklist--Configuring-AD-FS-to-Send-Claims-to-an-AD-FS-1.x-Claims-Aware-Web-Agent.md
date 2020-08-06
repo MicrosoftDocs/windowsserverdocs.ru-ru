@@ -1,6 +1,6 @@
 ---
 ms.assetid: 551c1a0d-8d30-41b4-9c4a-35a3337dd3bc
-title: Развертывание серверов федерации
+title: Настройка AD FS для отправки утверждений в веб-агент AD FS 1.x, поддерживающий утверждения
 author: billmath
 manager: femila
 ms.date: 05/31/2017
@@ -8,12 +8,12 @@ ms.topic: article
 ms.prod: windows-server
 ms.technology: identity-adfs
 ms.author: billmath
-ms.openlocfilehash: 85e6d625021b86983c734e9242d8ede574302e0c
-ms.sourcegitcommit: 3632b72f63fe4e70eea6c2e97f17d54cb49566fd
+ms.openlocfilehash: 61a2fb57e893615b0112592ce575a55ca3d6d71a
+ms.sourcegitcommit: de8fea497201d8f3d995e733dfec1d13a16cb8fa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87520103"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87864148"
 ---
 # <a name="checklist-configuring-ad-fs-to-send-claims-to-an-ad-fs-1x-claims-aware-web-agent"></a>Контрольный список: настройка AD FS для отправки утверждений в веб-агент AD FS 1.x, поддерживающий утверждения
 

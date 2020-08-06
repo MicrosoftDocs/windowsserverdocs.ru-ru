@@ -6,24 +6,24 @@ manager: dongill
 ms.technology: storage-spaces
 ms.topic: article
 author: cosmosdarwin
-ms.date: 06/26/2019
+ms.date: 07/24/2020
 ms.assetid: 8bd0d09a-0421-40a4-b752-40ecb5350ffd
-description: Общие сведения о Локальные дисковые пространства, компоненте Windows Server, который позволяет выполнять кластерные серверы с внутренним хранилищем в аппаратно-определенном решении для хранения.
+description: Общие сведения о Локальные дисковые пространства, компоненте Windows Server и Azure Stack ХЦИ, который позволяет выполнять кластерные серверы с внутренним хранилищем в аппаратно-определенном решении для хранения.
 ms.localizationpriority: medium
-ms.openlocfilehash: 4fb8700935306cbd007ab4afc61cf3eb54227130
-ms.sourcegitcommit: acfdb7b2ad283d74f526972b47c371de903d2a3d
+ms.openlocfilehash: 3fd86a8465d2fef59ccce73fc473790682f0d180
+ms.sourcegitcommit: de8fea497201d8f3d995e733dfec1d13a16cb8fa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "87768949"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87864325"
 ---
 # <a name="storage-spaces-direct-overview"></a>Обзор локальных дисковых пространств
 
->Применяется к: Windows Server 2019, Windows Server 2016
+>Область применения: Azure Stack ХЦИ, Windows Server 2019, Windows Server 2016
 
 Локальные дисковые пространства используют стандартные серверы с локально подключенными дисками для создания программно-определяемого хранилища с высоким уровнем доступности и масштабируемости, причем стоимость такого хранилища значительно ниже стоимости традиционных массивов SAN или NAS. Ее конвергенция или архитектура с поддержкой технологии Hyper-in значительно упрощает закупку и развертывание, в то время как такие функции, как кэширование, уровни хранилища и очисткиное кодирование, а также новейшие нововведения оборудования, такие как сетевые подключения RDMA и накопители NVMe, обеспечивают непревзойденную эффективность и производительность.
 
-Локальные дисковые пространства входит в сборки Windows Server 2019 Datacenter, Windows Server 2016 Datacenter и [Windows Server Insider Preview](https://insider.windows.com/for-business-getting-started-server/).
+Локальные дисковые пространства входит в [Azure Stack хЦи](/azure-stack/hci/), windows Server 2019 Datacenter, windows Server 2016 Datacenter и [сборки Windows Server Insider](https://insider.windows.com/for-business-getting-started-server/)Preview.
 
 Дополнительные сведения о других приложениях дисковых пространств, таких как общие кластеры SAS и изолированные серверы, см. в разделе [Обзор дисковых пространств](overview.md). Если вы ищете сведения об использовании дисковых пространств на компьютере с Windows 10, см. раздел [дисковые пространства в Windows 10](https://support.microsoft.com/help/12438/windows-10-storage-spaces).
 

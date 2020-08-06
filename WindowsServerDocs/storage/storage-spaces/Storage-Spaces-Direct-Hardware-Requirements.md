@@ -7,20 +7,20 @@ manager: eldenc
 ms.technology: storage-spaces
 ms.topic: article
 author: eldenchristensen
-ms.date: 06/24/2020
+ms.date: 07/24/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: 108e5a65b78370c40ba02da677e953eb2b122288
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 45ef438d58c9d36275f2e7a32ce93a383bd21a70
+ms.sourcegitcommit: de8fea497201d8f3d995e733dfec1d13a16cb8fa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86964586"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87864279"
 ---
 # <a name="storage-spaces-direct-hardware-requirements"></a>Требования к оборудованию для локальных дисковых пространств
 
 > Применяется к: Windows Server 2019, Windows Server 2016
 
-В этом разделе описываются минимальные требования к оборудованию для Локальные дисковые пространства.
+В этом разделе описаны минимальные требования к оборудованию для Локальные дисковые пространства в Windows Server. Требования к оборудованию для Azure Stack ХЦИ. Наша операционная система, предназначенная для развертываний гиперконвергентном с подключением к облаку, см. в разделе [перед развертыванием Azure Stack хЦи: определение требований к оборудованию](/azure-stack/hci/deploy/before-you-start#determine-hardware-requirements).
 
 Для рабочей среды корпорация Майкрософт рекомендует приобрести проверенное оборудование и программное обеспечение от наших партнеров, включая средства и процедуры развертывания. Эти решения разработаны, собраны и проверены в соответствии с эталонной архитектурой для обеспечения совместимости и надежности, что позволяет быстро приступить к работе. Решения для Windows Server 2019 см. на [веб-сайте Azure Stack хЦи Solutions](https://azure.microsoft.com/overview/azure-stack/hci). Для решений Windows Server 2016 ознакомьтесь с дополнительными сведениями по [Windows Server Software-Defined](https://microsoft.com/wssd).
 
