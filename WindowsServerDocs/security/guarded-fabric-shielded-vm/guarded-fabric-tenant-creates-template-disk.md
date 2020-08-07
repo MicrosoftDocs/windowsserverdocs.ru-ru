@@ -1,19 +1,17 @@
 ---
 title: Экранированные виртуальные машины для клиентов — Создание диска шаблона — необязательно
-ms.prod: windows-server
 ms.topic: article
 ms.assetid: c1992f8b-6f88-4dbc-b4a5-08368bba2787
 manager: dongill
 author: rpsqrd
 ms.author: ryanpu
-ms.technology: security-guarded-fabric
 ms.date: 08/29/2018
-ms.openlocfilehash: 7e76cb5b41e7800ce8b2725003dcb5ea90e84116
-ms.sourcegitcommit: acfdb7b2ad283d74f526972b47c371de903d2a3d
+ms.openlocfilehash: 95d8e64367d036cc81aeca0aeafe9b51862954af
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "87769652"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87936714"
 ---
 # <a name="shielded-vms-for-tenants---creating-a-template-disk-optional"></a>Экранированные виртуальные машины для клиентов — Создание диска шаблона (необязательно)
 

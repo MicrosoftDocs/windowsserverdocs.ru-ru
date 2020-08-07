@@ -1,19 +1,17 @@
 ---
 title: Расширения публикации для центра администрирования Windows
 description: Расширения публикации для центра администрирования Windows (проект Хонолулу)
-ms.technology: manage
 ms.topic: article
 author: daniellee-msft
 ms.author: jol
 ms.date: 09/18/2018
 ms.localizationpriority: medium
-ms.prod: windows-server
-ms.openlocfilehash: 357c37ec395e5c51f3c3f946414f38ea5f95e9e4
-ms.sourcegitcommit: eaf3fb57517b9110082edad356b12daf3345bb2c
+ms.openlocfilehash: c817a28494104a1bfed1d7e19eaebaa04fd5138e
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85593995"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87971971"
 ---
 # <a name="publishing-extensions"></a>Публикация расширений
 
@@ -93,7 +91,7 @@ ms.locfileid: "85593995"
     <licenseUrl>http://YourLicenseLink</licenseUrl>
     <iconUrl>http://YourLogoLink</iconUrl>
     <description>Hello World extension by Contoso</description>
-    <copyright>(c) Contoso. All rights reserved.</copyright> 
+    <copyright>(c) Contoso. All rights reserved.</copyright>
     <tags></tags>
   </metadata>
   <files>
@@ -107,16 +105,16 @@ ms.locfileid: "85593995"
 
 | Имя свойства | Обязательно/рекомендуется | Описание |
 | ---- | ---- | ---- |
-| packageType | Обязательно | Используйте "Виндовсадминцентерекстенсион", который является типом пакета NuGet, определенным для расширений центра администрирования Windows. |
-| идентификатор | Обязательно | Уникальный идентификатор пакета в веб-канале. Это значение должно соответствовать значению "Name" в manifest.jsфайла проекта.  Инструкции см. в разделе [Выбор уникального идентификатора пакета](https://docs.microsoft.com/nuget/create-packages/creating-a-package#choosing-a-unique-package-identifier-and-setting-the-version-number). |
+| packageType | Обязательное | Используйте "Виндовсадминцентерекстенсион", который является типом пакета NuGet, определенным для расширений центра администрирования Windows. |
+| идентификатор | Обязательное | Уникальный идентификатор пакета в веб-канале. Это значение должно соответствовать значению "Name" в manifest.jsфайла проекта.  Инструкции см. в разделе [Выбор уникального идентификатора пакета](https://docs.microsoft.com/nuget/create-packages/creating-a-package#choosing-a-unique-package-identifier-and-setting-the-version-number). |
 | title | Требуется для публикации в веб-канале центра администрирования Windows | Понятное имя пакета, отображаемое в диспетчере расширений центра администрирования Windows. |
-| version | Обязательно | Версия расширения. Рекомендуется использовать [семантическое управление версиями (соглашение SemVer)](http://semver.org/spec/v1.0.0.html) , но не является обязательным. |
-| authors | Обязательно | При публикации от имени компании используйте название вашей компании. |
-| description | Обязательно | Введите описание функциональных возможностей расширения. |
+| version | Обязательное | Версия расширения. Рекомендуется использовать [семантическое управление версиями (соглашение SemVer)](http://semver.org/spec/v1.0.0.html) , но не является обязательным. |
+| authors | Обязательное | При публикации от имени компании используйте название вашей компании. |
+| description | Обязательное | Введите описание функциональных возможностей расширения. |
 | iconUrl | Рекомендуется при публикации в веб-канале центра администрирования Windows | URL-адрес для значка, отображаемого в диспетчере расширений. |
 | projectUrl | Требуется для публикации в веб-канале центра администрирования Windows | URL-адрес веб-сайта расширения. Если у вас нет отдельного веб-сайта, используйте URL-адрес веб-страницы пакета в канале NuGet. |
 | licenseUrl | Требуется для публикации в веб-канале центра администрирования Windows | URL-адрес лицензионного соглашения для вашего расширения. |
-| files | Обязательно | Эти два параметра задают структуру папок, которую Центр администрирования Windows ожидает для расширений пользовательского интерфейса и подключаемых модулей шлюза. |
+| файлы | Обязательное | Эти два параметра задают структуру папок, которую Центр администрирования Windows ожидает для расширений пользовательского интерфейса и подключаемых модулей шлюза. |
 
 ### <a name="3-build-the-extension-nuget-package"></a>3. Создание пакета NuGet для расширения
 

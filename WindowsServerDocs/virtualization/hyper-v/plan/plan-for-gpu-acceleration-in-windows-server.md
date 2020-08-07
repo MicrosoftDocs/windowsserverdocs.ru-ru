@@ -1,19 +1,18 @@
 ---
 title: Планирование ускорения GPU в Windows Server
 description: Узнайте о различных технологиях Hyper-V для ускорения GPU, включая ДДА и RemoteFX.
-ms.prod: windows-server
 ms.reviewer: rickman
 author: rick-man
 ms.author: rickman
 manager: stevelee
 ms.topic: article
 ms.date: 07/14/2020
-ms.openlocfilehash: 0177ce6346741998a0a9f97817e3811561bb02fb
-ms.sourcegitcommit: acfdb7b2ad283d74f526972b47c371de903d2a3d
+ms.openlocfilehash: afdb856fc84bcee634381f04054a97f545056882
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "87768824"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87938797"
 ---
 # <a name="plan-for-gpu-acceleration-in-windows-server"></a>Планирование ускорения GPU в Windows Server
 
@@ -67,7 +66,7 @@ ms.locfileid: "87768824"
 
 При планировании развертывания необходимо учитывать следующие функциональные возможности и поддержку различий между технологиями виртуализации графики.
 
-| Описание: | RemoteFX vGPU | Дискретное назначение устройств |
+| Описание | RemoteFX vGPU | Дискретное назначение устройств |
 |--|--|--|
 | Модель ресурсов GPU | Выделенный или общий | Только выделенные |
 | Плотность виртуальных машин | Высокий (один или несколько графических процессоров для нескольких виртуальных машин) | Низкий (один или несколько GPU на одной виртуальной машине) |

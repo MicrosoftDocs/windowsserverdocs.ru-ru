@@ -1,20 +1,18 @@
 ---
 title: Основные понятия проверки подлинности Windows
 description: Безопасность Windows Server
-ms.prod: windows-server
-ms.technology: security-windows-auth
 ms.topic: article
 ms.assetid: 29d1db15-cae0-4e3d-9d8e-241ac206bb8b
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/12/2016
-ms.openlocfilehash: 0b26dca42d64338adeb8d818629e6a5f8b037f30
-ms.sourcegitcommit: 771db070a3a924c8265944e21bf9bd85350dd93c
+ms.openlocfilehash: ee204320696ac10eaf341df06d7c458198b3ec28
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85475241"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87936538"
 ---
 # <a name="windows-authentication-concepts"></a>Основные понятия проверки подлинности Windows
 

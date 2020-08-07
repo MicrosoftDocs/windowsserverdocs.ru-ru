@@ -5,16 +5,14 @@ author: allenma
 ms.author: allenma
 ms.date: 08/14/2018
 ms.topic: article
-ms.prod: windows-server-hyper-v
-ms.technology: virtualization
 ms.localizationpriority: low
 ms.assetid: 6cb13f84-cb50-4e60-a685-54f67c9146be
-ms.openlocfilehash: f82aab1b3a3af61afa08a1849392297ca5def2ab
-ms.sourcegitcommit: 9889f20270e8eb7508d06cbf844cba9159e39697
+ms.openlocfilehash: 954efafe3185cadb347384c3c93a2eb8ef895143
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "83551107"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87963560"
 ---
 # <a name="managing-hyper-v-hypervisor-scheduler-types"></a>Управление типами планировщика низкоуровневой оболочки Hyper-V
 
@@ -25,7 +23,7 @@ ms.locfileid: "83551107"
 > [!NOTE]
 > Обновления необходимы для использования функций планировщика гипервизора, описанных в этом документе. Дополнительные сведения см. в разделе [необходимые обновления](#required-updates).
 
-## <a name="background"></a>Фон
+## <a name="background"></a>Историческая справка
 
 Прежде чем обсуждать логику и элементы управления при планировании виртуальных процессоров Hyper-V, полезно ознакомиться с основными понятиями, изложенными в этой статье.
 
@@ -149,7 +147,7 @@ Windows Server 2016 Hyper-V по умолчанию использует кла�
 |Windows Server 2016 | 1607 | 2018,07 C | [KB4338822](https://support.microsoft.com/help/4338822/windows-10-update-kb4338822) |
 |Windows Server 2016 | 1703 | 2018,07 C | [KB4338827](https://support.microsoft.com/help/4338827/windows-10-update-kb4338827) |
 |Windows Server 2016 | 1709 | 2018,07 C | [KB4338817](https://support.microsoft.com/help/4338817/windows-10-update-kb4338817) |
-|Windows Server 2019 | 1804 | None | None |
+|Windows Server 2019 | 1804 | Отсутствуют | Отсутствуют |
 
 ## <a name="selecting-the-hypervisor-scheduler-type-on-windows-server"></a>Выбор типа планировщика низкоуровневой оболочки в Windows Server
 
@@ -164,7 +162,7 @@ bcdedit /set hypervisorschedulertype type
 Где `type` является одним из следующих:
 
 * Классическая
-* Ядро
+* Основные сведения
 * Root
 
 Чтобы изменения типа планировщика гипервизора вступили в силу, необходимо перезагрузить систему.

@@ -2,19 +2,17 @@
 title: Миграция с DirectAccess на Always On VPN
 description: Миграция с DirectAccess на Always On VPN требует определенного процесса миграции клиентов, что помогает свести к минимуму состояние гонки, возникающее из-за неупорядоченного выполнения этапов миграции.
 manager: dougkim
-ms.prod: windows-server
-ms.technology: networking-ras
 ms.topic: article
 ms.assetid: eeca4cf7-90f0-485d-843c-76c5885c54b0
 ms.author: lizross
 author: eross-msft
 ms.date: 06/07/2018
-ms.openlocfilehash: 68184fe43fd027ea24bd0e77623002ec88368e86
-ms.sourcegitcommit: 3632b72f63fe4e70eea6c2e97f17d54cb49566fd
+ms.openlocfilehash: a452c9ab1a24304a9acfec8357bc98a3d058e03c
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87517699"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87971751"
 ---
 # <a name="migrate-to-always-on-vpn-and-decommission-directaccess"></a>Вывод профиля DirectAccess из эксплуатации и его перенос в постоянно подключенный VPN-профиль
 
@@ -156,6 +154,6 @@ ms.locfileid: "87517699"
 
 5. **Удалите все сертификаты DirectAccess из служб Active Directory Certificate Services.** Если для реализации DirectAccess использовались сертификаты компьютеров, удалите опубликованные шаблоны из папки шаблоны сертификатов в консоли центра сертификации.
 
-## <a name="next-step"></a>Далее
+## <a name="next-step"></a>Следующий шаг
 
 Миграция с DirectAccess выполнена на Always On VPN.

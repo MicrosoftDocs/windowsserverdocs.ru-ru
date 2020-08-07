@@ -6,14 +6,12 @@ ms.author: joflore
 manager: mtillman
 ms.date: 05/31/2017
 ms.topic: article
-ms.prod: windows-server
-ms.technology: identity-adds
-ms.openlocfilehash: 186ad8d63a1d30ce56b1f6a2780893cfb744463d
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 96fd3dd2d090ef6b39b99962e6b639bf2abdcb62
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86962256"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87947745"
 ---
 # <a name="creating-an-organizational-unit-design"></a>Создание проекта подразделения
 
@@ -42,7 +40,7 @@ ms.locfileid: "86962256"
 
 Для листа, помогающего документировать структуру подразделения, скачайте Job_Aids_Designing_and_Deploying_Directory_and_Security_Services.zip из [вспомогательных средств для пакета развертывания Windows Server 2003](https://microsoft.com/download/details.aspx?id=9608) и откройте «определение подразделений для каждого домена» (DSSLOGI_9.doc).
 
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>Содержание раздела
 
 - [Общие сведения о понятиях проекта подразделения](../../ad-ds/plan/Reviewing-OU-Design-Concepts.md)
 

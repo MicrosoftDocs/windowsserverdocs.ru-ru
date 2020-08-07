@@ -2,25 +2,23 @@
 title: Настройка серверов содержимого служб Windows Server Update Services (WSUS)
 description: Эта статья является частью руководства по развертыванию BranchCache для Windows Server 2016, в котором демонстрируется развертывание службы BranchCache в распределенном и размещенном режимах кэша для оптимизации использования пропускной способности глобальной сети в филиалах.
 manager: brianlic
-ms.prod: windows-server
-ms.technology: networking-bc
 ms.topic: get-started-article
 ms.assetid: 9724aa8d-e4ae-404c-bee6-cef1534cd3ca
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 2993c78e85609ac720fd208971dda7ed67a3610d
-ms.sourcegitcommit: da7b9bce1eba369bcd156639276f6899714e279f
+ms.openlocfilehash: 2af2321a1f87eab1e29ecb6c483ee85c87b08ee7
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "80319164"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87971841"
 ---
 # <a name="configure-windows-server-update-services-wsus-content-servers"></a>Настройка серверов содержимого служб Windows Server Update Services (WSUS)
 
->Область применения: Windows Server (Semi-Annual Channel), Windows Server 2016
+>Применяется к: Windows Server (Semi-Annual Channel), Windows Server 2016
 
-После установки компонента BranchCache и запуска службы BranchCache серверы WSUS должны быть настроены для хранения файлов обновления на локальном компьютере. 
+После установки компонента BranchCache и запуска службы BranchCache серверы WSUS должны быть настроены для хранения файлов обновления на локальном компьютере.
 
-При настройке серверов WSUS для хранения файлов обновления на локальном компьютере метаданные обновлений и файлы обновления загружаются и хранятся непосредственно на сервере WSUS. Это гарантирует получение клиентскими компьютерами службы BranchCache файлов обновления продуктов Майкрософт с сервера WSUS, а не непосредственно с веб-сайта Центр обновления Майкрософт.  
-  
-Дополнительные сведения о синхронизации WSUS см. в разделе [Настройка синхронизации обновлений](https://technet.microsoft.com/library/mt612311.aspx) .  
+При настройке серверов WSUS для хранения файлов обновления на локальном компьютере метаданные обновлений и файлы обновления загружаются и хранятся непосредственно на сервере WSUS. Это гарантирует получение клиентскими компьютерами службы BranchCache файлов обновления продуктов Майкрософт с сервера WSUS, а не непосредственно с веб-сайта Центр обновления Майкрософт.
+
+Дополнительные сведения о синхронизации WSUS см. в разделе [Настройка синхронизации обновлений](https://technet.microsoft.com/library/mt612311.aspx) .

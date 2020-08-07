@@ -6,14 +6,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.prod: windows-server
-ms.technology: identity-adfs
-ms.openlocfilehash: a7da23b592f495b45e337520179d414900183a1b
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: eb41b8168024a231282716e5edd0bc59554d7da6
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86966616"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87937827"
 ---
 # <a name="the-role-of-claims"></a>Роль утверждений
 
@@ -55,12 +53,12 @@ ms.locfileid: "86966616"
 
 Тип утверждения предоставляет контекст для значения утверждения. Обычно он выражается в \( универсальном коде ресурса \) URI. AD FS может поддерживать любой тип утверждения, и по умолчанию для него настроены типы утверждений, приведенные в следующей таблице.
 
-|Имя|Описание|URI|
+|name|Описание|URI|
 |--------|---------------|-------|
 |\-Адрес электронной почты|Адрес электронной \- почты пользователя|http: \/ \/schemas.xmlsoap.org \/ WS \/ 2005 \/ 05 \/ \/ утверждений идентификации \/ EmailAddress|
 |Заданное имя|Заданное имя пользователя|http: \/ \/schemas.xmlsoap.org \/ WS \/ 2005 \/ 05 \/ Identity \/ claims \/ givenName|
-|Имя|Уникальное имя пользователя|http: \/ \/schemas.xmlsoap.org \/ WS \/ 2005 \/ 05 \/ Identity \/ claims \/ Name|
-|UPN|Имя участника-пользователя \( UPN \) пользователя|http: \/ \/schemas.xmlsoap.org \/ WS \/ 2005 \/ 05 \/ идентификационные \/ утверждения \/ UPN|
+|name|Уникальное имя пользователя|http: \/ \/schemas.xmlsoap.org \/ WS \/ 2005 \/ 05 \/ Identity \/ claims \/ Name|
+|Имя участника-пользователя|Имя участника-пользователя \( UPN \) пользователя|http: \/ \/schemas.xmlsoap.org \/ WS \/ 2005 \/ 05 \/ идентификационные \/ утверждения \/ UPN|
 |Общее имя|Общее имя пользователя|http: \/ \/schemas.xmlSOAP.org \/ утверждений \/ CommonName|
 |Адрес электронной почты AD FS 1. x E \-|Адрес электронной \- почты пользователя при взаимодействии с AD FS 1,1 или ADFS 1,0|http: \/ \/schemas.xmlSOAP.org \/ утверждений \/ EmailAddress|
 |Группа|Группа, членом которой является пользователь|http: \/ \/schemas.xml\/ группы утверждений SOAP.org \/|

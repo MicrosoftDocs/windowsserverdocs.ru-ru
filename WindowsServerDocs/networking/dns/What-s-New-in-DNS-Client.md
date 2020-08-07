@@ -2,18 +2,16 @@
 title: Новые возможности DNS-клиента в Windows Server
 description: В этом разделе приводятся общие сведения о новых возможностях DNS-клиента в Windows Server и Windows 10.
 manager: brianlic
-ms.prod: windows-server
-ms.technology: networking-dns
 ms.topic: article
 ms.assetid: 6edaba84-4595-4fd8-95d7-64d4d975a38a
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: f94f4dc5c85ba4f80b45e3c406c1e11d2da05d65
-ms.sourcegitcommit: 771db070a3a924c8265944e21bf9bd85350dd93c
+ms.openlocfilehash: 772fedf497691834e6b894f61bd01c284ec24c16
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85473931"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87971811"
 ---
 # <a name="whats-new-in-dns-client-in-windows-server-2016"></a>Новые возможности DNS-клиента в Windows Server 2016
 

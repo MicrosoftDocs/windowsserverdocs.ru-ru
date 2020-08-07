@@ -6,14 +6,12 @@ ms.author: billmath
 manager: mtillman
 ms.date: 09/19/2018
 ms.topic: article
-ms.prod: windows-server
-ms.technology: identity-adfs
-ms.openlocfilehash: ca13ebe29b0a9260302599110f333d166681abdb
-ms.sourcegitcommit: 6aff3d88ff22ea141a6ea6572a5ad8dd6321f199
+ms.openlocfilehash: 27b0232b65a3003dde9a5702ec45063781abd813
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71358556"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87947450"
 ---
 # <a name="ad-fs-paginated-sign-in"></a>AD FS для входа с разбивкой на страницы
 
@@ -62,6 +60,6 @@ ms.locfileid: "71358556"
 Параметры настройки будут по-прежнему применимы для AD FS 2019.
 Ниже приведены ссылки на другие документы для справки.
 
-• Для тех, кто не планирует обновлять свои серверы до AD FS 2019, но по-прежнему нужен новый проект: [Использование веб-темы Azure AD UX в службы федерации Active Directory (AD FS)](azure-ux-web-theme-in-ad-fs.md)
+• Для тех, кто не планирует обновлять свои серверы до AD FS 2019, но по-прежнему хочет создать новую конструкцию: [Использование веб-темы UX Azure AD в службы федерации Active Directory (AD FS)](azure-ux-web-theme-in-ad-fs.md)
 
-• Центральное расположение для настройки: [Настройка входа пользователя AD FS](ad-fs-user-sign-in-customization.md)
+• Центральное расположение для настройки: [AD FS Настройка входа пользователя](ad-fs-user-sign-in-customization.md) .

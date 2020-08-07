@@ -2,18 +2,16 @@
 title: Шаг 1. Настройка расширенной инфраструктуры DirectAccess
 description: Эта статья является частью руководств по развертыванию одного сервера DirectAccess с дополнительными параметрами для Windows Server 2016.
 manager: brianlic
-ms.prod: windows-server
-ms.technology: networking-da
 ms.topic: article
 ms.assetid: 43abc30a-300d-4752-b845-10a6b9f32244
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 3404908b590f27ea14a588e8c2652e61d0ed05fc
-ms.sourcegitcommit: 3632b72f63fe4e70eea6c2e97f17d54cb49566fd
+ms.openlocfilehash: 74a38d16bba173fc91790fbdb03026c679929d56
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87518150"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87955281"
 ---
 # <a name="step-1-configure-advanced-directaccess-infrastructure"></a>Шаг 1. Настройка расширенной инфраструктуры DirectAccess
 
@@ -549,7 +547,7 @@ Add-ADGroupMember -Identity DirectAccess_clients_group_name -Members <computer_n
 
 4.  Убедитесь, что клиенты DirectAccess во внутренней сети могут разрешить имя сервера сетевых расположений. Убедитесь, что это имя не разрешается клиентами DirectAccess в Интернете.
 
-## <a name="next-step"></a><a name="BKMK_Links"></a>Далее
+## <a name="next-step"></a><a name="BKMK_Links"></a>Следующий шаг
 
 -   [Шаг 2. Настройка расширенных серверов DirectAccess](da-adv-configure-s2-servers.md)
 

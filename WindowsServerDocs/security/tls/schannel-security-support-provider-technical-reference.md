@@ -1,20 +1,18 @@
 ---
 title: Технический справочник по поставщику поддержки безопасности Schannel
 description: Безопасность Windows Server
-ms.prod: windows-server
-ms.technology: security-tls-ssl
 ms.topic: article
 ms.assetid: 5bf9c4a5-cdc1-49eb-bf9a-8bf987410b63
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 08/08/2018
-ms.openlocfilehash: 6152a4e743e13b42081e4c69ceb92f8e740024b6
-ms.sourcegitcommit: 771db070a3a924c8265944e21bf9bd85350dd93c
+ms.openlocfilehash: be67621ca1fa96e79eb9302b8abfac08902abdc2
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85475291"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87936618"
 ---
 # <a name="schannel-security-support-provider-technical-reference"></a>Технический справочник по поставщику поддержки безопасности Schannel
 
