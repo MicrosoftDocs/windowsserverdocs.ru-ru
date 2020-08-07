@@ -26,7 +26,7 @@ bitsadmin /setpriority <job> <priority>
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | задание | Отображаемое имя задания или идентификатор GUID. |
 | priority | Задает приоритет задания, включая:<ul><li>FOREGROUND</li><li>HIGH.</li><li>NORMAL</li><li>LOW</li></ul> |

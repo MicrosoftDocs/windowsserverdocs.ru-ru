@@ -25,7 +25,7 @@ ms.locfileid: "87881637"
 u[nset] {bsasdel | crlf | delasbs | escape | localecho | logging | ntlm} [?]
 ```
 #### <a name="parameters"></a>Параметры
-|Параметр|Описание:|
+|Параметр|Описание|
 |-------|--------|
 |бсасдел|Отправляет **Backspace** в виде **Backspace**.|
 |CRLF|Отправляет клавишу **Ввод** в виде CR. Также называется режимом перевода строки.|

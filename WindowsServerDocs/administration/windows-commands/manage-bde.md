@@ -1,20 +1,18 @@
 ---
 title: manage-bde
 description: Справочная статья по команде Manage-bde, которая включает или выключает BitLocker, задает механизмы снятия блокировки, обновляет методы восстановления и разблокирует диски данных, защищенные BitLocker.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 276a7841-7289-48d4-a57d-bc7c300affbb
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: e7e248f507ca6d38248bc931cb3d1b98aa385c88
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: d1d910f9787d2a952a5e844c4aedb3d4c5ca53fa
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86956996"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87886567"
 ---
 # <a name="manage-bde"></a>manage-bde
 

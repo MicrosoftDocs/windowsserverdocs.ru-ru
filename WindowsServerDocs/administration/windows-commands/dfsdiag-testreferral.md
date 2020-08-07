@@ -38,7 +38,7 @@ dfsdiag /testreferral /DFSpath:<DFS path to get referrals> [/full]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | /Дфспас:`<path to get referrals>` | Может применяться один из перечисленных ниже типов.<ul><li>**Пусто:** Проверяет только доверенные домены.</li><li>`\\Domain:`Проверяет только ссылки на контроллеры домена.</li><li>`\\Domain\SYSvol:`Проверяет только ссылки SYSvol.</li><li>`\\Domain\NETLOGON:`Проверяет только ссылки NETLOGON.</li><li>`\\<domain or server>\<namespace root>:`Проверяет только корневые ссылки пространства имен.</li><li>`\\<domain or server>\<namespace root>\<DFS folder>:`Проверяет только ссылки на папку DFS (Link).</li></ul> |
 | /Full | Применимо только к доменным и корневым ссылкам. Проверяет согласованность сведений о связи сайтов между реестром и доменными службами Active Directory (AD DS). |

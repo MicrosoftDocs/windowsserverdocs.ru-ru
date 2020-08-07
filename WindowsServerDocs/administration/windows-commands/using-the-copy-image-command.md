@@ -32,7 +32,7 @@ wdsutil [Options] /copy-Imagmedia:<Image name> [/Server:<Server name>]
          [/Description:<Description>]
 ```
 ### <a name="parameters"></a>Параметры
-|Параметр|Описание:|
+|Параметр|Описание|
 |-------|--------|
 носител<Image name>|Задает имя копируемого образа.|
 |[/Server: <Server name> ]|Указывает имя сервера. Это может быть либо NetBIOS-имя, либо полное доменное имя (FQDN). Если имя сервера не указано, будет использоваться локальный сервер.|

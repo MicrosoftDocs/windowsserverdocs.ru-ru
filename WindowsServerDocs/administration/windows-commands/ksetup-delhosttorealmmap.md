@@ -28,7 +28,7 @@ ksetup /delhosttorealmmap <hostname> <realmname>
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | `<hostname>` | Указывает полное доменное имя компьютера. |
 | `<realmname>` | Указывает DNS-имя в верхнем регистре, например CORP. CONTOSO.COM. |

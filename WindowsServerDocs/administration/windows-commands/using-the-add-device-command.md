@@ -26,7 +26,7 @@ wdsutil /add-Device /Device:<Device name> /ID:<UUID | MAC address> [/ReferralSer
 [/User:<Domain\User | User@Domain>] [/JoinRights:{JoinOnly | Full}] [/JoinDomain:{Yes | No}] [/BootImagepath:<Relative path>] [/OU:<DN of OU>] [/Domain:<Domain>]
 ```
 ### <a name="parameters"></a>Параметры
-|Параметр|Описание:|
+|Параметр|Описание|
 |-------|--------|
 |Модем<computer name>|Указывает имя добавляемого компьютера.|
 |/ID: <UUID &#124; MAC-адрес>|Указывает идентификатор GUID/UUID или MAC-адрес компьютера. GUID/UUID должны быть в одном из двух форматов: двоичная строка или строка GUID. Пример:<p>Двоичная строка: **/ID: ACEFA3E81F20694E953EB2DAA1E8B1B6**<p>Строка GUID: **/ID: E8A3EFAC-201F-4E69-953E-B2DAA1E8B1B6**<p>MAC-адрес должен иметь следующий формат: **00B056882FDC** (без дефисов) или **00-B0-56-88-2F-DC** (с тире)|

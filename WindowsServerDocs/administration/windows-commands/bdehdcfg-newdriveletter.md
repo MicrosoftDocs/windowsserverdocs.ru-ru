@@ -26,7 +26,7 @@ bdehdcfg -target {default|unallocated|<drive_letter> shrink|<drive_letter> merge
 
 #### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | ---------| ----------- |
 | `<drive_letter>` | Определяет букву диска, которая будет назначена указанному целевому диску. |
 

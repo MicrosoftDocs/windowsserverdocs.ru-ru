@@ -28,7 +28,7 @@ logman create <counter | trace | alert | cfg | api> <[-n] <name>> [options]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | [logman create counter](logman-create-counter.md) | Создает сборщик данных счетчика. |
 | [logman create trace](logman-create-trace.md) | Создает сборщик данных трассировки. |

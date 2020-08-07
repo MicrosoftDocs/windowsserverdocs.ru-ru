@@ -54,7 +54,7 @@ ksetup
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | [ksetup setrealm](ksetup-setrealm.md) | Делает этот компьютер членом области Kerberos. |
 | [ksetup addkdc](ksetup-addkdc.md) | Определяет запись KDC для данной области. |

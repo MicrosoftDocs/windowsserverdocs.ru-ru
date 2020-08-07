@@ -30,7 +30,7 @@ bitsadmin /peers /list
 ```
 
 ### <a name="parameters"></a>Параметры
-| Параметр | Описание: |
+| Параметр | Описание |
 | -------------- | -------------- |
 | [bitsadmin peers и help](bitsadmin-peers-and-help.md) | Отображает сведения об использовании командной строки для параметров/Пирс. |
 | [bitsadmin peers и discover](bitsadmin-peers-and-discover.md) | Обнаружение одноранговых узлов еще раз. |

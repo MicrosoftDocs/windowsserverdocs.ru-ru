@@ -44,7 +44,7 @@ wdsutil [Options] /replace-Imagmedia:<Image name> [/Server:<Server name>]
          [/Description:<Image description>]
 ```
 ### <a name="parameters"></a>Параметры
-|Параметр|Описание:|
+|Параметр|Описание|
 |-------|--------|
 носител<Image name>|Указывает имя заменяемого образа.|
 |[/Server: <Server name> ]|Указывает имя сервера. Это может быть либо NetBIOS-имя, либо полное доменное имя (FQDN). Если имя сервера не указано, будет использоваться локальный сервер.|

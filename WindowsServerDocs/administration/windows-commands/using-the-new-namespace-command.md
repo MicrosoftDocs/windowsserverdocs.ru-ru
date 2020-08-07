@@ -32,7 +32,7 @@ wdsutil [Options] /New-Namespace [/Server:<Server name>]
          [/Clients:<Number of clients>]
 ```
 ### <a name="parameters"></a>Параметры
-|Параметр|Описание:|
+|Параметр|Описание|
 |-------|--------|
 |[/Server: <Server name> ]|Указывает имя сервера. Это может быть NetBIOS-имя или полное доменное имя (FQDN). Если имя сервера не указано, используется локальный сервер.|
 |FriendlyName<Friendly name>|Указывает понятное имя пространства имен.|

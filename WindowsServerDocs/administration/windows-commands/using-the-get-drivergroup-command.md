@@ -25,7 +25,7 @@ ms.locfileid: "87896960"
 wdsutil /Get-DriverGroup /DriverGroup:<Group Name> [/Server:<Server name>]
 ```
 ### <a name="parameters"></a>Параметры
-|Параметр|Описание:|
+|Параметр|Описание|
 |-------|--------|
 |/Дриверграуп:<Group Name>|Указывает имя группы драйверов.|
 |[/Server: <Server name> ]|Указывает имя сервера. Это может быть NetBIOS-имя или FQDN.  Если имя сервера не указано, используется локальный сервер.|

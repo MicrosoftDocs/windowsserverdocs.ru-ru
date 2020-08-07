@@ -1,20 +1,18 @@
 ---
 title: klist
 description: Справочная статья по команде klist, в которой отображается список кэшированных билетов Kerberos.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 4689b4a9-1740-47dd-9240-02105efca428
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: d1a8d3d18cbf008efab203bfcef39179da39e109
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 2e37946106d7c47f058fd42b9926e388ab830e47
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85931422"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87888187"
 ---
 # <a name="klist"></a>klist
 
@@ -47,7 +45,7 @@ klist [-lh <logonID.highpart>] [-li <logonID.lowpart>] tickets | tgt | purge | s
 | кдкоптионс | Отображает параметры центр распространения ключей (KDC), указанные в RFC 4120. |
 | /? | Отображает справку для этой команды. |
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 - Если параметры не указаны, **klist** извлекает все билеты для текущего пользователя.
 

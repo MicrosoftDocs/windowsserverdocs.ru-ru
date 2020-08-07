@@ -27,7 +27,7 @@ attributes volume
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | [attributes disk](attributes-disk.md) | Отображает, устанавливает или очищает атрибуты диска. |
 | [attributes volume](attributes-volume.md) | Отображает, устанавливает или очищает атрибуты тома. |

@@ -39,7 +39,7 @@ bitsadmin /cache /setexpirationtime
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | -------------- | -------------- |
 | [bitsadmin cache и help](bitsadmin-cache-and-help.md) | Отображает сведения об использовании командной строки для параметров/Cache. |
 | [bitsadmin cache и clear](bitsadmin-cache-clear.md) | Удаляет локальный кэш. |

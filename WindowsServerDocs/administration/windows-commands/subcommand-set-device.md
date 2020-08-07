@@ -26,7 +26,7 @@ wdsutil [Options] /Set-Device /Device:<Device name> [/ID:<UUID | MAC address>] [
 [/WdsClientUnattend:<Relative path>] [/User:<Domain\User | User@Domain>] [/JoinRights:{JoinOnly | Full}] [/JoinDomain:{Yes | No}] [/BootImagepath:<Relative path>] [/Domain:<Domain>] [/resetAccount]
 ```
 ### <a name="parameters"></a>Параметры
-|Параметр|Описание:|
+|Параметр|Описание|
 |-------|--------|
 |Модем<computer name>|Указывает имя компьютера (SAM-Account-Name).|
 |[/ID: <UUID &#124; MAC-адрес>]|Указывает идентификатор GUID/UUID или MAC-адрес компьютера. Это значение должно быть в одном из следующих трех форматов:<p>-Двоичная строка: **/ID: ACEFA3E81F20694E953EB2DAA1E8B1B6**<br />-GUID/UUID строка:/ID:**E8A3EFAC-201F-4E69-953E-B2DAA1E8B1B6**<br />— MAC-адрес: **00B056882FDC** (без дефисов) или **00-B0-56-88-2F-DC** (с тире)|

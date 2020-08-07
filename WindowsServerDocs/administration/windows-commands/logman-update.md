@@ -26,7 +26,7 @@ logman update <counter | trace | alert | cfg | api> <[-n] <name>> [options]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | ---------| ----------- |
 | [logman update counter](logman-update-counter.md) | Обновляет сборщик данных счетчика. |
 | [logman update alert](logman-update-alert.md) | Обновляет сборщик данных предупреждений. |

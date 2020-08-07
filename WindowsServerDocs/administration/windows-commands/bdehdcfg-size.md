@@ -29,7 +29,7 @@ bdehdcfg -target {default|unallocated|<drive_letter> shrink} -size <size_in_mb>
 
 #### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | `<size_in_mb>` | Указывает количество мегабайтов (МБ), используемых для новой секции. |
 

@@ -19,7 +19,7 @@ ms.locfileid: "87892383"
 > Область применения: Windows Server (половина ежегодного канала), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
 ## <a name="subcommands"></a>Подкоманды
-|субомманд|Описание:|
+|субомманд|Описание|
 |-------|--------|
 |[Использование команды Remove-Image](using-the-remove-image-command.md)|Удаляет образ загрузки или установки с сервера.|
 |[Использование команды Remove-Имажеграуп](using-the-remove-imagegroup-command.md)|Удаляет группу образов с сервера.|

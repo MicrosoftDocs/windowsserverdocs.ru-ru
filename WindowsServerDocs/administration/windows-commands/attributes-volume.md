@@ -28,7 +28,7 @@ attributes volume [{set | clear}] [{hidden | readonly | nodefaultdriveletter | s
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | ------- | -------- |
 | set | Задает указанный атрибут тома с фокусом. |
 | clear | Очищает указанный атрибут тома с фокусом. |
