@@ -1,20 +1,18 @@
 ---
 title: list writers
 description: Справочная статья по команде модуля записи списка, в которой перечислены модули записи в системе.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 1c30cbc4-f568-4fa7-b564-66c41d3ca82d
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: a3b4334d9f1f1a76b390a29a1b9cfd877da91185
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 1a7176c949eb20af3488abe772c6ba683e1789f8
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85931770"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87887552"
 ---
 # <a name="list-writers"></a>list writers
 
@@ -28,7 +26,7 @@ list writers [metadata | detailed | status]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | метаданные | Перечисляет удостоверение и состояние модулей записи, а также отображает метаданные, такие как сведения о компонентах и исключенные файлы. Это параметр по умолчанию. |
 | подробные сведения | Содержит те же сведения, что и **метаданные**, но также включает полный список файлов для всех компонентов. |

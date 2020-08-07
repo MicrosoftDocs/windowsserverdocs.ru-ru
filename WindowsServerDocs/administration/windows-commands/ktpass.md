@@ -1,20 +1,18 @@
 ---
 title: ktpass
 description: Справочная статья по команде ктпасс, которая настраивает имя участника на сервере для узла или службы в AD DS и создает keytab-файл, содержащий общий секретный ключ службы.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 47087676-311e-41f1-8414-199740d01444
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: fbf7b47f4f21a2c964d14dd1200b15ad635d7471
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 3bb523d35a1bbf2d15895201855a58e96ebb7772
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85931818"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87887648"
 ---
 # <a name="ktpass"></a>ktpass
 
@@ -44,7 +42,7 @@ ktpass
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ------------|
 | /out`<filename>` | Указывает имя создаваемого файла Kerberos версии 5. keytab. **Примечание.** Это keytab-файл, который передается на компьютер, на котором не установлена операционная система Windows, а затем заменяется или объединяется с существующим keytab-файлом */etc/krb5.keytab*. |
 | /princ `<principalname>` | Указывает имя участника в форме host/computer.contoso.com@CONTOSO.COM . **Предупреждение:** Этот параметр учитывает регистр. |
@@ -67,7 +65,7 @@ ktpass
 | `{-|+}setpass <password>` | Задает пароль пользователя при его предоставлении. Если используется рндпасс, вместо него создается случайный пароль. |
 | /? | Отображает справку для этой команды. |
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 - Службы, работающие в системах, которые не работают под управлением операционной системы Windows, можно настроить с учетными записями экземпляра службы в AD DS. Это позволяет любому клиенту Kerberos проходить проверку подлинности в службах, не работающих под управлением операционной системы Windows, с помощью Windows Кдкс.
 

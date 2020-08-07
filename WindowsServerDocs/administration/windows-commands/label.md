@@ -1,22 +1,20 @@
 ---
-title: label
+title: метка
 description: Справочная статья по команде Label, которая создает, изменяет или удаляет метку тома (то есть имя) диска.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: bbae8bdd-97d4-4566-9118-7c95aa07645f
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: f8c13285c5dc5030e96d7d334bb65d15f04dff86
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: e7656078b87a74db789ed85c10be9f30cabfd971
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85931810"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87887637"
 ---
-# <a name="label"></a>label
+# <a name="label"></a>метка
 
 Создает, изменяет или удаляет метку тома (то есть имя) диска. Если используется без параметров, команда **Label** изменяет метку текущего тома или удаляет существующую метку.
 
@@ -28,14 +26,14 @@ label [/mp] [<volume>] [<label>]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | /mp | Указывает, что том следует рассматривать как точку подключения или имя тома. |
 | `<volume>` | Указывает букву диска (за которой следует двоеточие), точку подключения или имя тома. Если указано имя тома, параметр **/MP** не требуется. |
 | `<label>` | Указывает метку для тома. |
 | /? | Отображение справки в командной строке. |
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 - Windows отображает метку тома и серийный номер (если они есть) в составе списка каталогов.
 

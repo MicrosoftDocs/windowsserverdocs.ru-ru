@@ -1,20 +1,18 @@
 ---
 title: bitsadmin addfileset
 description: Справочная статья по команде битсадмин аддфилесет, которая добавляет один или несколько файлов к указанному заданию.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 75466994-262f-4724-b14d-f813c5397675
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 861186dfc7ba1a230e1df05c98378d27bfff26b1
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 52a97817bd734a06ba787cb6faf17f2a03419da8
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85927088"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87894917"
 ---
 # <a name="bitsadmin-addfileset"></a>bitsadmin addfileset
 
@@ -28,7 +26,7 @@ bitsadmin /addfileset <job> <textfile>
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | задание | Отображаемое имя задания или идентификатор GUID. |
 | textfile | Текстовый файл, каждая строка которого содержит удаленное и локальное имя файла. **Примечание.** Имена должны быть разделены пробелами. Строки, начинающиеся с `#` символа, обрабатываются как комментарии. |

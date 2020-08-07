@@ -1,20 +1,18 @@
 ---
 title: list shadows
 description: Справочная статья по команде List Shadows, в которой перечислены постоянные и существующие непостоянные теневые копии, которые находятся в системе.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: fe568423-00ae-4ede-a1e7-07977cb50ad1
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: fcf1946f5b2424eb7aa13af51bd6ff13c43349c1
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: d06c529740d7137fb1bdc4cb8d7661eb3f69ffb7
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85931797"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87887574"
 ---
 # <a name="list-shadows"></a>list shadows
 
@@ -28,7 +26,7 @@ list shadows {all | set <setID> | id <shadowID>}
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | ---------- | ---------- |
 | все | Список всех теневых копий. |
 | параметр`<setID>` | Выводит список теневых копий, принадлежащих указанному ИДЕНТИФИКАТОРу набора теневых копий. |

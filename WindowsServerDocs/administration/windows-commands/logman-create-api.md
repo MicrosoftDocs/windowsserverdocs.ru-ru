@@ -1,20 +1,18 @@
 ---
 title: logman create api
 description: Справочная статья по команде Logman Create API, которая создает сборщик данных трассировки API.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 2ecc0a75-2613-464a-8616-c5dc404bb736
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 2294cb7ba7ab962dbba33b0e2612b8dee2d72004
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: a2e3e9291bcd113ced9c27eb7cc3449f715f9893
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85925430"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87887454"
 ---
 # <a name="logman-create-api"></a>logman create api
 
@@ -30,7 +28,7 @@ logman create api <[-n] <name>> [options]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | -s`<computer name>` | Выполняет команду на указанном удаленном компьютере. |
 | -config`<value>` | Указывает файл параметров, содержащий параметры команды. |
@@ -59,7 +57,7 @@ logman create api <[-n] <name>> [options]
 | -exe`<value>` | Указывает полный путь к исполняемому файлу для трассировки API. |
 | /? | Отображает контекстную справку. |
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 - Где [-] присутствует, Добавление дополнительного дефиса (-) инвертирует параметр.
 

@@ -1,20 +1,18 @@
 ---
 title: logman create cfg
 description: Справочная статья по команде Logman Create cfg, которая создает сборщик данных конфигурации.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: bfc87093-3ff5-4e19-aa93-d185fb8e2239
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: f4ae073561ddfc26f4a6a1af834113cff0cc9e29
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: d0932d4014109cbf10300940a391d4ce564d4163
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85932081"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87887412"
 ---
 # <a name="logman-create-cfg"></a>logman create cfg
 
@@ -30,7 +28,7 @@ logman create cfg <[-n] <name>> [options]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | -s`<computer name>` | Выполняет команду на указанном удаленном компьютере. |
 | -config`<value>` | Указывает файл параметров, содержащий параметры команды. |
@@ -56,7 +54,7 @@ logman create cfg <[-n] <name>> [options]
 | -ФТК`<path [path [...]]>` | Указывает полный путь к файлам для собраний. |
 | /? | Отображает контекстную справку. |
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 - Где [-] присутствует, Добавление дополнительного дефиса (-) инвертирует параметр.
 

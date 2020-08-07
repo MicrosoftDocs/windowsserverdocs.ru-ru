@@ -1,24 +1,22 @@
 ---
 title: Работа в режиме реплики служб WSUS
 description: Раздел "Настройка режима реплики" службы Windows Server Update Service (WSUS)
-ms.prod: windows-server
-ms.technology: manage-wsus
 ms.topic: article
 ms.assetid: d218cd6b-3b6b-4429-913b-31d412ce3356
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 0680cba35066d0fb752a714424729eed7f47211a
-ms.sourcegitcommit: b00d7c8968c4adc8f699dbee694afe6ed36bc9de
+ms.openlocfilehash: 6075ac4b141292d1159d109f4d3b92225632c959
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "80828617"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87879234"
 ---
 # <a name="running-wsus-replica-mode"></a>Работа в режиме реплики служб WSUS
 
->Область применения: Windows Server (половина ежегодного канала), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
+>Область применения. Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
 Сервер WSUS, работающий в режиме реплики, наследует утверждения обновлений и группы компьютеров, созданные на сервере администрирования. В сценарии, использующем режим реплики, обычно имеется один сервер администрирования, и одна или несколько серверов WSUS реплики распределены по всей Организации на основе сайта или организации топографии. Вы утверждаете обновления и создаете группы компьютеров на сервере администрирования, на котором серверы в режиме реплики будут зеркально отражены. Серверы в режиме реплики могут быть настроены только во время установки WSUS. Если вы реализовали этот сценарий, скорее всего, это важно в Организации, где управление утверждениями обновлений и группами компьютеров управляются централизованно.
 

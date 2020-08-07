@@ -1,18 +1,16 @@
 ---
 title: Обзор гибридного облака Windows Server для печати
 description: Гибридная печать в облаке позволяет ИТ-специалистам поддерживать требования к печати для BYOD или присоединенных к домену устройств.
-ms.prod: windows-server
-ms.technology: server-general
 ms.topic: conceptual
 author: trudyha
 ms.author: trudyha
 ms.date: 10/16/2017
-ms.openlocfilehash: df720b69e2124aa487958ccd28e365fdcf72def7
-ms.sourcegitcommit: 145cf75f89f4e7460e737861b7407b5cee7c6645
+ms.openlocfilehash: fc76aef0f7fbc9f3c1dd73b94c6510c0ad37034c
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "87409504"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87879412"
 ---
 # <a name="windows-server-hybrid-cloud-print-overview"></a>Обзор гибридного облака Windows Server для печати
 

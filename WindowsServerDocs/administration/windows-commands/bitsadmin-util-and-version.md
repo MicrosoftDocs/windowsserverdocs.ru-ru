@@ -1,20 +1,18 @@
 ---
 title: bitsadmin util и version
 description: Справочная статья по команде битсадмин util and Version, которая отображает версию службы BITS.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 98f17328-dfbd-4cbb-93c1-b8d424bc3f0a
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 9b0a1a6b6c866acafa8eaccd6ade170abd58bf01
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: c3490fe4e3eaa217b81287d8a2ed38a6fdb98279
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85927291"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87880796"
 ---
 # <a name="bitsadmin-util-and-version"></a>bitsadmin util и version
 
@@ -31,7 +29,7 @@ bitsadmin /util /version [/verbose]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | /verbose | Используйте этот параметр, чтобы отобразить версию файла для каждой библиотеки DLL, связанной с BITS, и проверить, может ли запускаться служба BITS.|
 

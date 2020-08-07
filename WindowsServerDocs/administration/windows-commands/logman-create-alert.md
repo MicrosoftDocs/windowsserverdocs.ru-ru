@@ -1,20 +1,18 @@
 ---
 title: logman create alert
 description: Справочная статья по команде Logman Create Alert, которая создает сборщик данных предупреждений.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 93e6fc2b-5bf5-413b-84b4-be8b9dd3a57d
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: cb2c1372caefd18e9625eedfe71538a78bfc84e4
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: a0e2dd1be058d4428c255d174826eb046acc3482
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85931642"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87887467"
 ---
 # <a name="logman-create-alert"></a>logman create alert
 
@@ -30,7 +28,7 @@ logman create alert <[-n] <name>> [options]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | -s`<computer name>` | Выполните команду на указанном удаленном компьютере. |
 | -config`<value>` | Указывает файл параметров, содержащий параметры команды. |
@@ -58,7 +56,7 @@ logman create alert <[-n] <name>> [options]
 | -[-] коне`<argument>` | Указывает аргументы задачи, которые будут использоваться с задачей, заданной с помощью-тн. |
 | /? | Отображает контекстную справку. |
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 - Где [-] присутствует, Добавление дополнительного дефиса (-) инвертирует параметр.
 

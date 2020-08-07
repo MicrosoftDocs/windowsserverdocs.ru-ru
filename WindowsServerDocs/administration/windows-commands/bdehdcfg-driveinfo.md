@@ -1,20 +1,18 @@
 ---
 title: bdehdcfg driveinfo
 description: Справочная статья по команде BdeHdCfg дривеинфо, которая отображает букву диска, общий размер, максимальный объем свободного пространства и характеристики секции.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: f2d065e7-eced-4509-a1a0-ee2521a7f02e
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 0063c73cd20aca8c8fe5cc21b245517475268c64
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: a4836105bf3141cef036aa4f2e2630ea266e150d
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85923486"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87895140"
 ---
 # <a name="bdehdcfg-driveinfo"></a>BdeHdCfg: дривеинфо
 
@@ -33,7 +31,7 @@ bdehdcfg -driveinfo <drive_letter>
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | <drive_letter> | Указывает букву диска, за которой следует двоеточие. |
 

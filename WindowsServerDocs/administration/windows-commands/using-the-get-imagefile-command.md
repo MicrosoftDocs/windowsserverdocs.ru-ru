@@ -1,20 +1,18 @@
 ---
 title: Get-ImageFile
 description: Справочная статья по Get-ImageFile, которая получает сведения об образах, содержащихся в WIM-файле образа Windows.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: e1e296fb-20cf-4a60-9db4-4cbac7d4dab5
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 127b5282b74020f002c7ccc55663fc2571584582
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 10b86929366cc8734a5ff155200fb3078f0cd5d4
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85932221"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87879379"
 ---
 # <a name="get-imagefile"></a>Get-ImageFile
 
@@ -28,7 +26,7 @@ WDSUTIL [Options] /Get-ImageFile /ImageFile:<wim file path> [/Detailed]
 
 ### <a name="parameters"></a>Параметры
 
-|Параметр|Описание|
+|Параметр|Описание:|
 |---------|-----------|
 |Изображения\<WIM file path>|Указывает полный путь и имя файла WIM.|
 |[/Детаилед]|Возвращает все метаданные изображения из каждого изображения. Если этот параметр не используется, поведение по умолчанию — возврат только имени, описания и имени файла изображения.|

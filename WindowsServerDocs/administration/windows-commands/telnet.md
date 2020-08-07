@@ -1,20 +1,18 @@
 ---
 title: telnet
 description: Справочная статья по Telnet, которая взаимодействует с компьютером, на котором работает служба Telnet-сервера.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: b70a6156-9413-4300-84ce-a34c467e2b4e
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 70c4eb44a654094410432dd9d37d0ad0082f5874
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: fd270011dfa3a0cfcef3cbdc41eb8140f409ff2d
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86958816"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87881608"
 ---
 # <a name="telnet"></a>telnet
 
@@ -27,7 +25,7 @@ ms.locfileid: "86958816"
 telnet [/a] [/e <EscapeChar>] [/f <FileName>] [/l <UserName>] [/t {vt100 | vt52 | ansi | vtnt}] [<Host> [<Port>]] [/?]
 ```
 #### <a name="parameters"></a>Параметры
-|Параметр|Описание|
+|Параметр|Описание:|
 |-------|--------|
 |/a|попытка автоматического входа в систему. То же, что и параметр/l, за исключением использования имени пользователя, выполнившего вход в систему.|
 |/e\<EscapeChar>|Escape-символ, используемый для ввода запроса клиента Telnet.|
@@ -37,7 +35,7 @@ telnet [/a] [/e <EscapeChar>] [/f <FileName>] [/l <UserName>] [/t {vt100 | vt52 
 |\<Host> [\<Port>]|Указывает имя узла или IP-адрес удаленного компьютера, к которому необходимо подключиться, и при необходимости используемый TCP-порт (по умолчанию это TCP-порт 23).|
 |/?|Отображение справки в командной строке. Кроме того, можно ввести/х.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 -   Для выполнения этой команды необходимо установить клиентское программное обеспечение Telnet. Дополнительные сведения см. в разделе [Установка Telnet](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc754293(v=ws.10)).
 -   Можно запустить Telnet без параметров, чтобы ввести контекст Telnet, указанный в командной строке Telnet (**Microsoft telnet>**). В командной строке Telnet можно использовать команды Telnet для управления компьютером, на котором выполняется клиент Telnet.
 

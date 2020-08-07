@@ -1,20 +1,18 @@
 ---
 title: bootcfg dbg1394
 description: Справочная статья по команде bootcfg dbg1394, которая настраивает отладку порта 1394 для указанной записи операционной системы.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 35724697-90dd-4dbe-85b0-337fbd369dcc
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: f1f71edbabbf85c301bec24138a805523975d3f6
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 334a6f280c3e9de529ed7cbf8d1430177ca09f33
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85926346"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87880715"
 ---
 # <a name="bootcfg-dbg1394"></a>bootcfg dbg1394
 
@@ -30,7 +28,7 @@ bootcfg /dbg1394 {on | off}[/s <computer> [/u <domain>\<user> /p <password>]] [/
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | `{on | off}` | Указывает значение для отладки порта 1394, включая:<ul><li>**on.** Включает поддержку удаленной отладки путем добавления параметра/dbg1394 к указанному `<osentrylinenum>` .</li><li>**автоном.** Отключает поддержку удаленной отладки путем удаления параметра/dbg1394 из указанного <osentrylinenum> .</li></ul> |
 | `/s <computer>` | Указывает имя или IP-адрес удаленного компьютера (не используйте обратную косую черту). По умолчанию это локальный компьютер. |

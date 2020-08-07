@@ -1,19 +1,17 @@
 ---
 title: Управление Windows Server
 description: Сведения о средствах, рекомендациях, а также инструкции по управлению Windows Server
-ms.prod: windows-server
-ms.technology: manage
 ms.topic: article
 author: lizap
 ms.author: elizapo
 ms.date: 03/16/2018
 ms.localizationpriority: medium
-ms.openlocfilehash: 60ef7ae8be2c8383dda2ef472a0bab6dd3bc9d85
-ms.sourcegitcommit: 145cf75f89f4e7460e737861b7407b5cee7c6645
+ms.openlocfilehash: 2edfddb644a2c92a05be8d2d943c089bf6774d06
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "87409464"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87879321"
 ---
 # <a name="manage-windows-server"></a>Управление Windows Server
 

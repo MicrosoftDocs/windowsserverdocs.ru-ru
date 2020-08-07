@@ -1,20 +1,18 @@
 ---
 title: bitsadmin addfile
 description: Справочная статья по команде битсадмин AddFile, которая добавляет файл к указанному заданию.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 1b31aa93-0364-465b-af36-754968825989
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 817a6d3af81d88e571db17c3f57dc129130b2783
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: c9bc00f1b63c559d048c9ae590df29f7421e42ec
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85927107"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87894938"
 ---
 # <a name="bitsadmin-addfile"></a>bitsadmin addfile
 
@@ -28,7 +26,7 @@ bitsadmin /addfile <job> <remoteURL> <localname>
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | задание | Отображаемое имя задания или идентификатор GUID. |
 | ремотеурл | URL-адрес файла на сервере. |

@@ -1,20 +1,18 @@
 ---
 title: wbadmin start systemstaterecovery
 description: Справочная статья по Wbadmin start systemstaterecovery, которая выполняет восстановление состояния системы в указанном расположении и из резервной копии.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 208b1be9-3452-4aba-bb49-46bc587fca96
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: c433871cb99018d10d064aac2f7a2098e0d42692
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: f77b3d91172ccf5c01abf18ac1beb5269933b27c
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86954436"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87879576"
 ---
 # <a name="wbadmin-start-systemstaterecovery"></a>wbadmin start systemstaterecovery
 
@@ -57,7 +55,7 @@ wbadmin start systemstaterecovery
 
 ### <a name="parameters"></a>Параметры
 
-|Параметр|Описание|
+|Параметр|Описание:|
 |---------|-----------|
 |-version|Указывает идентификатор версии восстанавливаемой резервной копии в формате мм/дд/гггг-чч: мм. Если вы не знакомы с идентификатором версии, введите **Wbadmin get versions**.|
 |-шовсуммари|Сообщает сводку о последнем восстановлении состояния системы (после перезапуска, необходимого для завершения операции). Этот параметр не может сопровождаться другими параметрами.|

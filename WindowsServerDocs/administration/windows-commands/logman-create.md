@@ -1,20 +1,18 @@
 ---
 title: logman create
 description: Справочная статья по команде Logman Create, которая создает счетчик, трассировку, сборщик данных конфигурации или API.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 972f0126-7bc4-4b14-9265-062864f3ffd4
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 695a101a0aa6a720b64ffee6617085d13b6e83d1
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: bd236b7ad78921c9f32094b5e595b4125fe2ec74
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85922324"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87887341"
 ---
 # <a name="logman-create"></a>logman create
 
@@ -30,7 +28,7 @@ logman create <counter | trace | alert | cfg | api> <[-n] <name>> [options]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | [logman create counter](logman-create-counter.md) | Создает сборщик данных счетчика. |
 | [logman create trace](logman-create-trace.md) | Создает сборщик данных трассировки. |

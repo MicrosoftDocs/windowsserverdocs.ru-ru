@@ -1,20 +1,18 @@
 ---
 title: bitsadmin util и repairservice
 description: Справочная статья по команде битсадмин util and репаирсервице, которая устраняет известные проблемы в различных версиях службы BITS.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 2ac7baeb-4340-4186-bfcb-66478195378d
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: cf62a9410765914187b6a60ff5376e8ff5aabe03
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 4d90e6328376f52e60b598d8c2324b59877415db
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85927342"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87880855"
 ---
 # <a name="bitsadmin-util-and-repairservice"></a>bitsadmin util и repairservice
 
@@ -31,7 +29,7 @@ bitsadmin /util /repairservice [/force]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | /Force | Необязательный элемент. Удаляет и создает службу снова.|
 

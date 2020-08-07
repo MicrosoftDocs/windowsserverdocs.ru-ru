@@ -1,20 +1,18 @@
 ---
 title: отмена инициализации сервера
 description: Справочная статья для отмены инициализации сервера, которая возвращает изменения, внесенные в сервер во время первоначальной настройки сервера.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 015efb04-fe84-469f-bd81-49d0046296b2
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: fdbe391a7335c347f05f9f9c06bbade3474fa30e
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 954c56d8a9c901431859e7a424c5df436ab6858a
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85935870"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87881455"
 ---
 # <a name="uninitialize-server"></a>отмена инициализации сервера
 
@@ -27,7 +25,7 @@ ms.locfileid: "85935870"
 wdsutil [Options] /Uninitialize-Server [/Server:<Server name>]
 ```
 ### <a name="parameters"></a>Параметры
-|Параметр|Описание|
+|Параметр|Описание:|
 |-------|--------|
 |[/Server: <Server name> ]|Указывает имя сервера. Это может быть либо NetBIOS-имя, либо полное доменное имя (FQDN). Если имя сервера не указано, будет использоваться локальный сервер.|
 ## <a name="examples"></a>Примеры

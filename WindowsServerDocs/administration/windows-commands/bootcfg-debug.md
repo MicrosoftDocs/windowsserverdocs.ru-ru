@@ -1,20 +1,18 @@
 ---
 title: bootcfg debug
 description: Справочная статья по команде bootcfg debug, которая добавляет или изменяет параметры отладки для указанной записи операционной системы.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 28afa5fb-a236-46e2-b1a4-a3c43a49c437
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: da4179d85d4e84918e75fb4c8490e229230412eb
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 8b3cbde64da67196a1067791e5dad3c2b02756d4
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85926318"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87880698"
 ---
 # <a name="bootcfg-debug"></a>bootcfg debug
 
@@ -33,7 +31,7 @@ bootcfg /debug {on | off | edit}[/s <computer> [/u <domain>\<user> /p <password>
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | `{on | off | edit}` | Указывает значение для отладки порта, включая:<ul><li>**on.** Включает поддержку удаленной отладки путем добавления параметра/Debug в указанный `<osentrylinenum>` .</li><li>**автоном.** Отключает поддержку удаленной отладки путем удаления параметра/Debug из указанного <osentrylinenum> .</li><li>**Редактор.** Позволяет изменять параметры порта и скорости передачи, изменяя значения, связанные с параметром/Debug для указанного <osentrylinenum> .</li></ul> |
 | `/s <computer>` | Указывает имя или IP-адрес удаленного компьютера (не используйте обратную косую черту). По умолчанию это локальный компьютер. |

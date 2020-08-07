@@ -1,20 +1,18 @@
 ---
 title: bitsadmin cache и info
 description: Справочная статья по команде кэша битсадмин и info, которая создает дамп определенной записи кэша.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 15975cbf-dba6-49ca-a725-d15ce1952de5
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: dabf9b229138bf1d39863643574c5509ffcfcd91
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 537c6173718d8c7deb421915b2ef9697472600a2
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85923263"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87894791"
 ---
 # <a name="bitsadmin-cache-and-info"></a>bitsadmin cache и info
 
@@ -28,7 +26,7 @@ bitsadmin /cache /info recordID [/verbose]
 
 ### <a name="parameters"></a>Параметры
 
-| парамретер | Описание |
+| парамретер | Описание: |
 | -------------- | -------------- |
 | recordID | Идентификатор GUID, связанный с записью кэша. |
 

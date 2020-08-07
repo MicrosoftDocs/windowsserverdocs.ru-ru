@@ -1,20 +1,18 @@
 ---
 title: Remove-Имажеграуп
 description: Справочная статья по Remove-Имажеграуп, которая удаляет группу образов с сервера.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 5b2c9813-5df2-4272-8449-26f3bb16f82b
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 3d11a24152250786e600332c5eea0a6ffebc4848
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 3398c5aeee09179bad519cdbe7fe5db6aea62cb9
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85933330"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87881238"
 ---
 # <a name="using-the-remove-imagegroup-command"></a>Использование команды Remove-Имажеграуп
 
@@ -27,7 +25,7 @@ ms.locfileid: "85933330"
 wdsutil [Options] /remove-ImageGroumediaGroup:<Image group name> [/Server:<Server name>]
 ```
 ### <a name="parameters"></a>Параметры
-|Параметр|Описание|
+|Параметр|Описание:|
 |-------|--------|
 Медиаграуп:<Image group name>|Указывает имя удаляемой группы образов|
 |[/Server: <Server name> ]|Указывает имя сервера. Это может быть либо NetBIOS-имя, либо полное доменное имя (FQDN). Если имя сервера не указано, будет использоваться локальный сервер.|

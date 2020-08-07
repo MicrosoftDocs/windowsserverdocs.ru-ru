@@ -1,24 +1,22 @@
 ---
 title: Управление клиентскими компьютерами и группами компьютеров служб WSUS
 description: Руководство по службам Windows Server Update Service (WSUS) — Управление клиентскими компьютерами и группами
-ms.prod: windows-server
-ms.technology: manage-wsus
 ms.topic: article
 ms.assetid: 4b1ea915-0f9f-4f0e-8913-a1dd460d07ab
 author: coreyp-at-msft
 ms.author: coreyp
 manager: lizapo
 ms.date: 10/16/2017
-ms.openlocfilehash: 3ac5a0c09d28de53430ded651b6da92ba92a1f68
-ms.sourcegitcommit: b00d7c8968c4adc8f699dbee694afe6ed36bc9de
+ms.openlocfilehash: 02aa39bda56d6b160a3600201ea8920823ce5f4d
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "80828631"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87879347"
 ---
 # <a name="managing-wsus-client-computers-and-wsus-computer-groups"></a>Управление клиентскими компьютерами и группами компьютеров служб WSUS
 
->Область применения: Windows Server 2019, Windows Server (половина ежегодного канала), Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
+>Область применения. Windows Server 2019, Windows Server (Semi-Annual Channel), Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
 Узел Компьютеры — это центральная точка доступа в консоли администрирования WSUS для управления клиентскими компьютерами и устройствами WSUS. В этом узле можно найти различные настроенные группы (а также группу по умолчанию, Неназначенные компьютеры).
 
