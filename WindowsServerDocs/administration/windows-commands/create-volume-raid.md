@@ -1,20 +1,18 @@
 ---
 title: create volume raid
 description: Справочная статья по команде создания тома RAID, которая создает том RAID-5, используя три или более указанных динамических диска.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 9f257950-9240-4d5f-9537-8ad653d48ebf
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 0c3b142e7fd678af04d1bc4e109ac399807da06e
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: ab2e936516e51e5f7650d1aea3694d2078237b79
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85929548"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87879832"
 ---
 # <a name="create-volume-raid"></a>create volume raid
 
@@ -30,7 +28,7 @@ create volume raid [size=<n>] disk=<n>,<n>,<n>[,<n>,...] [align=<n>] [noerr]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | Размер =`<n>` | Объем дискового пространства в мегабайтах (МБ), который будет занимать том на каждом диске. Если размер не указан, будет создан самый крупный том RAID-5. Диск с наименьшим доступным непрерывным свободным пространством определяет размер тома RAID-5 и тот же объем дискового пространства, выделенный для каждого диска. Фактический объем свободного дискового пространства на томе RAID-5 меньше, чем общий объем дискового пространства, так как для четности требуется некоторое дисковое пространство. |
 | диск =`<n>,<n>,<n>[,<n>,...]` | Динамические диски, на которых создается том RAID-5. Для создания тома RAID-5 необходимо по крайней мере три динамических диска. Объем пространства, равный `size=<n>` , выделяется на каждом диске. |

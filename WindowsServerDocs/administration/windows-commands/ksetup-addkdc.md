@@ -1,20 +1,18 @@
 ---
 title: ksetup addkdc
 description: Справочная статья по команде ksetup аддкдк, которая содержит сведения о центр распространения ключей (KDC) для данной области Kerberos.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 98bfc23a-14c4-401c-bcb3-9903c5cdde64
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 32839c0f8c1e408cfa6ab1e067c250551ee7b490
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 13f3a2e2343ae8161968d6968babc2cafd78e053
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85925567"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87888130"
 ---
 # <a name="ksetup-addkdc"></a>ksetup addkdc
 
@@ -33,7 +31,7 @@ ksetup /addkdc <realmname> [<KDCname>]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | `<realmname>` | Указывает DNS-имя в верхнем регистре, например CORP. CONTOSO.COM. Это значение также отображается как область по умолчанию при выполнении **ksetup** , а — область, в которую необходимо добавить другой KDC. |
 | `<KDCname>` | Задает нечувствительное к регистру полное доменное имя, например mitkdc.contoso.com. Если имя KDC не указано, DNS обнаружит Кдкс. |

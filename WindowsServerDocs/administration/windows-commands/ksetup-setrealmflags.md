@@ -1,20 +1,18 @@
 ---
 title: ksetup setrealmflags
 description: Справочная статья по команде ksetup сетреалмфлагс, которая задает флаги области для указанной области.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: bcb2824e-fba7-4ebe-be62-e62b4fae5b17
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: a28fa3e0ae99a2a4bd3384915b43e63ed0e66c0b
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 60d0cfc17fa10b7a5092daf00351a3c1e8667c81
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85930429"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87887682"
 ---
 # <a name="ksetup-setrealmflags"></a>ksetup setrealmflags
 
@@ -28,18 +26,18 @@ ksetup /setrealmflags <realmname> [sendaddress] [tcpsupported] [delegate] [ncsup
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | `<realmname>` | Указывает DNS-имя в верхнем регистре, например CORP. CONTOSO.COM. |
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 - Флаги сферы задают дополнительные возможности области Kerberos, которые не основаны на операционной системе Windows Server. Компьютеры под управлением Windows Server могут использовать сервер Kerberos для администрирования проверки подлинности в области Kerberos вместо использования домена под управлением операционной системы Windows Server. Эта запись устанавливает функции области и имеет следующие значения:
 
-| Значение | Флаг области | Описание |
+| Значение | Флаг области | Описание: |
 | ----- | ---------- | ----------- |
 | 0xF | Все | Заданы все флаги сферы. |
-| 0x00 | None | Флаги области не заданы, а дополнительные функции не включены. |
+| 0x00 | Нет | Флаги области не заданы, а дополнительные функции не включены. |
 | 0x01 | сендаддресс | IP-адрес будет включаться в билеты предоставления билетов. |
 | 0x02 | ткпсуппортед | В этой области поддерживаются протоколы TCP и UDP (User Datagram Protocol). |
 | 0x04 | delegate | Все пользователи в этой области являются доверенными для делегирования. |

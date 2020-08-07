@@ -1,20 +1,18 @@
 ---
 title: gpupdate
 description: Справочная статья по команде gpupdate, которая обновляет параметры групповая политика.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 2fd4e567-2ce1-4637-b611-c2f0895e5708
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 78ff3f50a53cfa8f2dd2e1050e6b904896b51cfd
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: bc17be77c17ad45dfa1ce8d8d112f86a46f67262
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85924601"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87888538"
 ---
 # <a name="gpupdate"></a>gpupdate
 
@@ -28,7 +26,7 @@ gpupdate [/target:{computer | user}] [/force] [/wait:<VALUE>] [/logoff] [/boot] 
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- |------------ |
 | /target:`{computer|user}` | Указывает, что обновляются только параметры политики "пользователь" или "только компьютер". По умолчанию параметры политики пользователя и компьютера обновляются. |
 | /Force | Повторно применяет все параметры политики. По умолчанию применяются только измененные параметры политики. |

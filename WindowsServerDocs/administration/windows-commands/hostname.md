@@ -1,20 +1,18 @@
 ---
 title: hostname
 description: Справочная статья для команды hostname, которая отображает имя узла в полном имени компьютера.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: b9e7aab4-8f8d-4e18-b5a2-8e81b34a8566
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: a1ac0e1955f431ef10c4189d05f031b54594cc88
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 5c17fdbdfc8f089bdaa00d2bab0bdb7f21bd0446
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85924539"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87888422"
 ---
 # <a name="hostname"></a>hostname
 
@@ -32,7 +30,7 @@ hostname
 ```
 
 ### <a name="parameters"></a>Параметры
-| Параметр | Описание |
+| Параметр | Description |
 | ------- | -------- |
 | /? | Отображение справки в командной строке. |
 

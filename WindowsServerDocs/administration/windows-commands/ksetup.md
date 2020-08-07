@@ -1,20 +1,18 @@
 ---
 title: ksetup
 description: Справочная статья по команде ksetup, которая выполняет задачи, связанные с настройкой и обслуживанием протокола Kerberos и центр распространения ключей (KDC) для поддержки сфер Kerberos.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 4e046f8a-811b-48dc-9a69-18d8e097f353
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: a0398d53516f81de68a7de5854ed2c996a78d1e5
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: fc51f90f553ea2478c0c8f78cf77f7373eb47d7f
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85922633"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87887676"
 ---
 # <a name="ksetup"></a>ksetup
 
@@ -56,7 +54,7 @@ ksetup
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | [ksetup setrealm](ksetup-setrealm.md) | Делает этот компьютер членом области Kerberos. |
 | [ksetup addkdc](ksetup-addkdc.md) | Определяет запись KDC для данной области. |

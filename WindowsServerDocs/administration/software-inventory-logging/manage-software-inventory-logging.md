@@ -1,20 +1,18 @@
 ---
 title: Управление журналом инвентаризации программного обеспечения
 description: Описание управления ведением журнала инвентаризации программного обеспечения
-ms.prod: windows-server
-ms.technology: manage-software-inventory-logging
 ms.topic: article
 ms.assetid: 812173d1-2904-42f4-a9e2-de19effec201
 author: brentfor
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 263a0fdfa5207924e170ebd198ce53749431e49d
-ms.sourcegitcommit: 145cf75f89f4e7460e737861b7407b5cee7c6645
+ms.openlocfilehash: 1df4ffbb0cdc79527bef0fd2e3400d78995d5474
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "87408823"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87895665"
 ---
 # <a name="manage-software-inventory-logging"></a>Управление журналом инвентаризации программного обеспечения
 
@@ -242,7 +240,7 @@ SystemManufacturer        : Microsoft Corporation
 
 Для поддержки такого использования функция ведения журнала инвентаризации программного обеспечения включает записи реестра, связанные с каждым настраиваемым параметром.  Эти значения реестра можно найти в разделе \ HKEY_LOCAL_MACHINE \\ софтваре\микрософт\виндовс\софтвареинвенторилоггинг.
 
-| Компонент | Имя значения | Данные | Соответствующий командлет (доступно только в работающей операционной системе) |
+| Функция | Имя значения | Данные | Соответствующий командлет (доступно только в работающей операционной системе) |
 | --- | --- | --- | --- |
 |Запуск и остановка функции|CollectionState|1 или 0|[Start-SilLogging](https://technet.microsoft.com/library/dn283391.aspx), [Stop-SilLogging](https://technet.microsoft.com/library/dn283394.aspx)|
 |Указывает целевую точку агрегирования в сети.|TargetUri|строка|[Set-SilLogging](https://technet.microsoft.com/library/dn283387.aspx) -TargetURI|
@@ -290,7 +288,7 @@ SystemManufacturer        : Microsoft Corporation
 
 ![Изображение примера выходного отчета](../media/software-inventory-logging/SILHyper-VExample2.png)
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также:
 Приступая [к работе с журналом](get-started-with-software-inventory-logging.md) 
  инвентаризации программного обеспечения Агрегатор журнала инвентаризации [программного обеспечения](software-inventory-logging-aggregator.md) 
  [Командлеты ведения журнала инвентаризации программного обеспечения в Windows PowerShell](https://technet.microsoft.com/library/dn283390.aspx) 

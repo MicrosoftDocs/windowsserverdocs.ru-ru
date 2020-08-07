@@ -1,20 +1,18 @@
 ---
 title: graftabl
 description: Справочная статья по команде graftabl, которая позволяет операционным системам Windows отображать расширенный набор символов в графическом режиме.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: b08351d4-3d24-490c-86f6-1252da11d923
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 9259833856ec5c6de402b0db0a4de4636a66f508
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: cd20baaca94c13e725cf3121ba7a9f4f9f5524b1
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85924592"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87888501"
 ---
 # <a name="graftabl"></a>graftabl
 
@@ -29,13 +27,13 @@ graftabl /status
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | `<codepage>` | Задает кодовую страницу для определения внешнего вида расширенных символов в графическом режиме. Допустимые идентификационные номера кодовых страниц:<ul><li>**437** — США</li><li>**850** -Многоязычная (латиница I)</li><li>**852** -славянские (латиница II)</li><li>**855** -кириллица (Русский)</li><li>**857** -Турецкий</li><li>**860** -Португальский</li><li>**861** -Исландская</li><li>**863** -Канада-французский</li><li>**865** -скандинавский</li><li>**866** -Русский</li><li>**869** — современный греческий</li></ul> |
 | /status | Отображает текущую кодовую страницу, используемую этой командой. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 - Команда **graftabl** влияет только на отображение расширенных символов указанной кодовой страницы. Она не изменяет фактическую кодовую страницу ввода консоли. Чтобы изменить кодовую страницу ввода консоли, используйте команду [mode](mode.md) или [chcp](chcp.md) .
 

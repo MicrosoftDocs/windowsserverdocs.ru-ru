@@ -1,20 +1,18 @@
 ---
 title: auditpol backup
 description: Справочная статья по команде auditpol backup, которая выполняет резервное копирование параметров политики аудита системы, параметров политики аудита на пользователя для всех пользователей и всех параметров аудита в текстовом файле с разделителями-запятыми (CSV).
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: dc84e581-aa0f-4c91-b13b-1d970bad5517
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 8678dbc80b664e3ab667f197f708fbbdbbe40dc7
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 6f1ddca1dc141e4905ae4b1cd6e9041d9c8c1ce0
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85923818"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87895464"
 ---
 # <a name="auditpol-backup"></a>auditpol backup
 
@@ -32,7 +30,7 @@ auditpol /backup /file:<filename>
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 |-----------|------------- |
 | /File | Указывает имя файла, в который будет создана резервная копия политики аудита. |
 | /? | Отображение справки в командной строке. |

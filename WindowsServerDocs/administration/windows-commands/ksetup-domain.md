@@ -1,20 +1,18 @@
 ---
 title: ksetup domain
 description: Справочная статья по команде домена ksetup, которая задает доменное имя для всех операций Kerberos.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 2ef766e3-6071-44f2-946b-22ea5b61a508
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 70454205f73375b11dc63e3496a2d7fc1bb3e50e
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 81135ed668da901c55e891cec4c8749687359818
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85926102"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87887935"
 ---
 # <a name="ksetup-domain"></a>ksetup domain
 
@@ -28,7 +26,7 @@ ksetup /domain <domainname>
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | `<domainname>` | Имя домена, для которого требуется установить соединение. Используйте полное доменное имя или простую форму имени, например contoso.com или contoso.|
 

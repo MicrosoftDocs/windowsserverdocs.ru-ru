@@ -1,20 +1,18 @@
 ---
 title: ksetup delrealmflags
 description: Справочная статья по команде ksetup делреалмфлагс, которая удаляет флаги сферы из указанной области.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 22053041-1eb4-47f5-bed9-3d5681bcde7d
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 9d3c81d1b034f6c53c33271c1c9e61a0fc5d4893
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 07d177f58f950b5e8e552e69c9f79054a379cc10
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85929176"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87887941"
 ---
 # <a name="ksetup-delrealmflags"></a>ksetup delrealmflags
 
@@ -28,18 +26,18 @@ ksetup /delrealmflags <realmname> [sendaddress] [tcpsupported] [delegate] [ncsup
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | `<realmname>` | Указывает DNS-имя в верхнем регистре, например CORP. CONTOSO.COM и указывается в качестве области по умолчанию или **области =** при запуске **ksetup** . |
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 - Флаги сферы задают дополнительные возможности области Kerberos, которые не основаны на операционной системе Windows Server. Компьютеры под управлением Windows Server могут использовать сервер Kerberos для администрирования проверки подлинности в области Kerberos вместо использования домена под управлением операционной системы Windows Server. Эта запись устанавливает функции области и имеет следующие значения:
 
-| Значение | Флаг области | Описание |
+| Значение | Флаг области | Описание: |
 | ----- | ---------- | ----------- |
 | 0xF | Все | Заданы все флаги сферы. |
-| 0x00 | None | Флаги области не заданы, а дополнительные функции не включены. |
+| 0x00 | Нет | Флаги области не заданы, а дополнительные функции не включены. |
 | 0x01 | сендаддресс | IP-адрес будет включаться в билеты предоставления билетов. |
 | 0x02 | ткпсуппортед | В этой области поддерживаются протоколы TCP и UDP (User Datagram Protocol). |
 | 0x04 | delegate | Все пользователи в этой области являются доверенными для делегирования. |

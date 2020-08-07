@@ -1,20 +1,18 @@
 ---
 title: at
 description: Справочная статья по команде at, которая планирует выполнение команд и программ на компьютере в указанное время и дату.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: ff18fd16-9437-4c53-8794-bfc67f5256b3
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 1ead4132b70cc98d9bdd7f478a8e3f18ab6da1aa
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: e8bd4ba389d072ca1f8054d9f691f434063a8df4
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85923932"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87895544"
 ---
 # <a name="at"></a>at
 
@@ -31,7 +29,7 @@ at [\computername] <time> [/interactive] [/every:date[,...] | /next:date[,...]] 
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | `\<computername\>` | Указывает удаленный компьютер. Если этот параметр не указан, **по** расписанию команды и программы на локальном компьютере. |
 | `<id>` | Указывает идентификационный номер, назначенный команде по расписанию. |
@@ -45,7 +43,7 @@ at [\computername] <time> [/interactive] [/every:date[,...] | /next:date[,...]] 
 | `<command>` | Указывает команду Windows, программу (т. е. exe-или COM-файл) или пакетную программу (файл. bat или. cmd), которую требуется выполнить. Если команде требуется путь в качестве аргумента, используйте абсолютный путь (то есть весь путь, начинающийся с буквы диска). Если команда находится на удаленном компьютере, укажите для имени сервера и общего ресурса нотацию UNC, а не букву удаленного диска. |
 | /? | Отображение справки в командной строке. |
 
-### <a name="remarks"></a>Комментарии
+### <a name="remarks"></a>Remarks
 
 - Эта команда не загружает cmd.exe автоматически перед выполнением команд. Если исполняемый файл (exe) не используется, необходимо явно загрузить cmd.exe в начале команды следующим образом:
 

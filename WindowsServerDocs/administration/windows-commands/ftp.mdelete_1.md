@@ -1,20 +1,18 @@
 ---
 title: ftp mdelete
 description: Справочная статья по команде FTP мделете, которая удаляет файлы на удаленном компьютере.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 8a80a8f5-e880-40a8-abc9-29a41836844f
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 0e763a1989ba820e4a4bb19842432368e17f1044
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 04172b8b69af40b7fa9056118a230671641a09fb
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86957286"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87888764"
 ---
 # <a name="ftp-mdelete"></a>ftp mdelete
 
@@ -29,7 +27,7 @@ mdelete <remotefile>[...]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | `<remotefile>` | Указывает удаленный файл для удаления. |
 

@@ -1,20 +1,18 @@
 ---
 title: if
 description: Справочная статья по команде if, которая выполняет условную обработку в пакетных программах.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 698b3fb9-532b-4c2b-af7f-179f8dc57131
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: dd55ebb6ae3562906efdc710f7a067a7e7514e59
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 3644c64d4159d9232ec58e747efc542dd903791e
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85924475"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87888369"
 ---
 # <a name="if"></a>if
 
@@ -38,7 +36,7 @@ if defined <variable> <command> [else <expression>]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- |------------ |
 | not | Указывает, что команда должна выполняться, только если условие имеет значение false. |
 | ERRORLEVEL`<number>` | Задает истинное условие, только если предыдущая программа, выполненная Cmd.exe, вернула код выхода, который больше или равен *Number*. |
@@ -52,7 +50,7 @@ if defined <variable> <command> [else <expression>]
 | `<expression>` | Задает команду командной строки и все параметры, которые будут переданы команде в предложении **else** . |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 - Если условие, указанное в предложении **If** , имеет значение true, выполняется команда, следующая за условием. Если условие имеет значение false, команда в предложении **If** игнорируется и команда выполняет любую команду, указанную в предложении **else** .
 

@@ -1,20 +1,18 @@
 ---
 title: неактивно
 description: Справочная статья по неактивной команде, которая помечает системный раздел или загрузочный раздел как неактивный на базовых дисках с основной загрузочной записью (MBR).
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: f4fb4695-4e66-4166-b4ab-2c86a4605580
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: f7e9679dee2bb8a75da14e1d7ee6c75b80bb1ef1
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 4e0c1a1bf56212da139fe03b74c10ebc4488d8e5
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86957136"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87888331"
 ---
 # <a name="inactive"></a>неактивно
 

@@ -1,20 +1,18 @@
 ---
 title: auditpol restore
 description: Справочная статья по команде auditpol restore, которая восстанавливает параметры политики аудита системы, параметры политики аудита на уровне пользователя для всех пользователей и все параметры аудита из файла, который синтаксически согласуется с форматом файла данных с разделителями-запятыми (CSV), который используется параметром/баккуп.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: ad73e520-484f-4cf1-a7f9-ae7488e9edf6
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: d7cd9f26189e9237910cfcbe5399c490ddf0c3c0
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 3a9f5b159280631c42cc22c6b59fd571a5550835
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85923675"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87895316"
 ---
 # <a name="auditpol-restore"></a>auditpol restore
 
@@ -32,7 +30,7 @@ auditpol /restore /file:<filename>
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | ------- | -------- |
 | /File | Указывает файл, из которого должна быть восстановлена политика аудита. Файл должен быть создан с помощью параметра/баккуп или должен быть синтаксически совместим с форматом CSV-файла, который используется параметром/баккуп. |
 | /? |Отображение справки в командной строке. |

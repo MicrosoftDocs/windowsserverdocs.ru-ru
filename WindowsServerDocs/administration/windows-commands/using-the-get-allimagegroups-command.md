@@ -1,20 +1,18 @@
 ---
 title: Get-Аллимажеграупс
 description: Справочная статья по Get-Аллимажеграупс, которая извлекает сведения обо всех группах образов на сервере и всех образах в этих группах образов.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 2ca06533-bcf5-4590-ac8e-263d6c9874f8
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: d5863ecc22ff5b96024cb3ba2bdbcac9f7ae8455
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 523c761df06d11f6c1af5488370b540af9bc7326
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85935182"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87879822"
 ---
 # <a name="get-allimagegroups"></a>Get-Аллимажеграупс
 
@@ -27,7 +25,7 @@ ms.locfileid: "85935182"
 wdsutil [Options] /Get-AllImageGroups [/Server:<Server name>] [/detailed]
 ```
 ### <a name="parameters"></a>Параметры
-|Параметр|Описание|
+|Параметр|Описание:|
 |-------|--------|
 |[/Server: <Server name> ]|Указывает имя сервера. Это может быть либо NetBIOS-имя, либо полное доменное имя (FQDN). Если имя сервера не указано, будет использоваться локальный сервер.|
 |[/детаилед]|Возвращает метаданные изображения из каждого изображения. Если этот параметр не используется, поведение по умолчанию — возврат только имени, описания и имени файла для каждого образа.|

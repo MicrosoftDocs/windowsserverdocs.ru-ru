@@ -1,20 +1,18 @@
 ---
 title: arp
 description: Справочная статья по команде ARP, которая отображает и изменяет записи в кэше протокола ARP, который используется для хранения IP-адресов и их разрешенных физических адресов.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 827e96eb-1945-483f-980f-714703456f7c
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 41f9ebde5faa3eda99402aa86a0aef5e55b42eba
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: c3e44d471fc31b14bf37b1c4911c0f465e31b3ac
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85924004"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87895570"
 ---
 # <a name="arp"></a>arp
 
@@ -30,7 +28,7 @@ arp [/a [<inetaddr>] [/n <ifaceaddr>]] [/g [<inetaddr>] [-n <ifaceaddr>]] [/d <i
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | `[/a [<inetaddr>] [/n <ifaceaddr>]` | Отображает текущие таблицы кэша ARP для всех интерфейсов. Параметр **/n** учитывает регистр. Чтобы отобразить запись кэша ARP для определенного IP-адреса, используйте **ARP/a** с параметром **инетаддр** , где **инетаддр** — это IP-адрес. Если **инетаддр** не указан, используется первый подходящий интерфейс. Чтобы отобразить таблицу кэша ARP для определенного интерфейса, используйте параметр **/n ифацеаддр** в сочетании с параметром **/a** , где **инетаддр** — это IP-адрес, назначенный интерфейсу. |
 | `[/g [<inetaddr>] [/n <ifaceaddr>]` | Идентично **/a**. |
@@ -38,7 +36,7 @@ arp [/a [<inetaddr>] [/n <ifaceaddr>]] [/g [<inetaddr>] [-n <ifaceaddr>]] [/d <i
 | `[/s <inetaddr> <etheraddr> [<ifaceaddr>]` | Добавляет статическую запись в кэш ARP, которая разрешает IP-адрес **инетаддр** с физическим адресом **есераддр**. Чтобы добавить статическую запись кэша ARP в таблицу для определенного интерфейса, используйте параметр **ифацеаддр** , где **ифацеаддр** — это IP-адрес, назначенный интерфейсу. |
 | /? | Отображение справки в командной строке. |
 
-### <a name="remarks"></a>Комментарии
+### <a name="remarks"></a>Remarks
 
 - IP-адреса для **инетаддр** и **ифацеаддр** выражаются в десятичной нотации.
 

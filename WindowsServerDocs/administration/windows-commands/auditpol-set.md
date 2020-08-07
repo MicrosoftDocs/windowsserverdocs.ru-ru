@@ -1,20 +1,18 @@
 ---
 title: auditpol set
 description: Справочная статья по команде auditpol Set, которая задает политику аудита для отдельных пользователей, политику аудита системы или параметры аудита.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: f4947486-87bd-48cb-ba81-7230c8e70895
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: bc42168d65116261d57053e0812cbb49e17021d5
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 06dcac123a56adbab93aab4dfa44fcc47d26220d
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85923696"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87895324"
 ---
 # <a name="auditpol-set"></a>auditpol set
 
@@ -38,7 +36,7 @@ auditpol /set
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | WMIC | Субъект безопасности, для которого задана политика аудита "на пользователя", заданная категорией или подкатегорией. Необходимо указать либо параметр Category, либо Подкатегория, в качестве идентификатора безопасности (SID) или имени. |
 | /include | Указывается с параметром/User; Указывает, что политика для пользователя будет создавать аудит, даже если он не задан политикой аудита системы. Этот параметр используется по умолчанию и применяется автоматически, если не указаны явно параметры/include и/Exclude. |

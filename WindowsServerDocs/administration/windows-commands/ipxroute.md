@@ -1,20 +1,18 @@
 ---
 title: ipxroute
 description: Справочная статья по команде ipxroute, которая отображает и изменяет сведения о таблицах маршрутизации, используемых протоколом IPX.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 3a30304f-655e-43d2-a4ac-7568abf8975c
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: a737ede8b56502cfbbf347d9f54fec848922badb
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 879ecb7c80f06982e779241ee874e294f583b5d7
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85924387"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87888250"
 ---
 # <a name="ipxroute"></a>ipxroute
 
@@ -33,7 +31,7 @@ ipxroute config
 ```
 
 ### <a name="parameters"></a>Параметры
-| Параметр | Описание |
+| Параметр | Описание: |
 | ------- | -------- |
 | серверах`[/type=x]` | Отображает таблицу точек доступа службы (SAP) для указанного типа сервера. значение **x** должно быть целым числом. Например, `/type=4` отображает все файловые серверы. Если не указать **/Type**, `ipxroute servers` отображает все типы серверов, перечисляя их по имени сервера. |
 | разрешение `{GUID | name}``{GUID | adaptername}` | Разрешает имя GUID в понятное имя или понятное имя его GUID. |

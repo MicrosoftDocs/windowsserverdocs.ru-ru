@@ -1,20 +1,18 @@
 ---
 title: add volume
 description: Справочная статья по команде "добавить том", которая добавляет тома в набор теневых копий, который представляет собой набор томов для теневого копирования.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: b7d4d35d-8bda-46d2-8df5-eb598cecaaba
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 3cd80a60fd3215a2234d4eb5be8a62da91e2cba4
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 374fec353397916fa76952401571dee92073dd59
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85924081"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87895599"
 ---
 # <a name="add-volume"></a>add volume
 
@@ -32,7 +30,7 @@ add volume <volume> [provider <providerid>]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | `<volume>` | Указывает том, добавляемый в набор теневых копий. Для создания теневой копии требуется по крайней мере один том. |
 | `[provider \<providerid>]` | Указывает идентификатор поставщика для зарегистрированного поставщика, который будет использоваться для создания теневой копии. Если **поставщик** не указан, используется поставщик по умолчанию. |

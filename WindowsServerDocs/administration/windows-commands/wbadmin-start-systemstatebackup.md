@@ -1,20 +1,18 @@
 ---
 title: wbadmin start systemstatebackup
 description: Справочная статья по Wbadmin start системстатебаккуп, которая создает резервную копию состояния системы на локальном компьютере и сохраняет ее в указанном расположении.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 998366c1-0a64-45e6-9ed3-4c3f5b8406f0
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 355dcff0f2b5ef3adc4f064651f0cea23a92d48f
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 386f5053dd547c4b5285a2b9a09cea76238dcf5b
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86954476"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87879650"
 ---
 # <a name="wbadmin-start-systemstatebackup"></a>wbadmin start systemstatebackup
 
@@ -37,12 +35,12 @@ wbadmin start systemstatebackup
 
 ### <a name="parameters"></a>Параметры
 
-|   Параметр   |                                                                                                                                                                                                                      Описание                                                                                                                                                                                                                      |
+|   Параметр   |                                                                                                                                                                                                                      Описание:                                                                                                                                                                                                                      |
 |---------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | -backupTarget | Указывает расположение, в котором будет храниться резервная копия. Для расположения хранилища требуется буква диска или том на основе GUID в формате: \\ \\ ? \волуме{*GUID*}.</br>Резервное копирование состояния системы в общую сетевую папку не поддерживается на компьютере под Windows Server 2008. Если сервер работает под управлением Windows Server 2008 R2 или более поздней версии, можно использовать команду Command **-backupTarget: \\ \\ сервернаме\шаредфолдер \\ ** для хранения резервных копий состояния системы. |
 |    -quiet     |                                                                                                                                                                                                   Выполняет подкоманду без запросов пользователю.                                                                                                                                                                                                    |
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Сведения о сохранении резервной копии состояния системы на том, который, в свою очередь, содержит файлы состояния системы, см. в статье 944530 базы знаний Майкрософт ( [https://go.microsoft.com/fwlink/?LinkId=110439](https://go.microsoft.com/fwlink/?LinkId=110439) ).
 

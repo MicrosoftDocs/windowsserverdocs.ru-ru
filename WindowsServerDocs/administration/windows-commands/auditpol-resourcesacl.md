@@ -1,20 +1,18 @@
 ---
 title: auditpol Ресаурцесакл
 description: Справочная статья по команде auditpol Ресаурцесакл, которая настраивает списки управления доступом к глобальным ресурсам системы (SACL).
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 28771ba7-967a-45e9-9bf0-b2a2673070f0
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 4558d18b065cd668294952131b494342d600aee0
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: b20c97fce42bb57613ac421eabc5ac7acf7a921d
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86955496"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87895354"
 ---
 # <a name="auditpol-resourcesacl"></a>auditpol Ресаурцесакл
 

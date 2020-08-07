@@ -1,20 +1,18 @@
 ---
 title: getmac
 description: Справочная статья по команде жетмак, которая возвращает MAC-адрес и список сетевых протоколов, связанных с каждым, локально или по сети.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: a749a348-7cd1-4336-9f33-bb42dd0e31e1
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 345daa310b075f8a094dd8a87e7c1c0d3694ab10
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 0ffc11e4aad7336e11cf65f8e51cdc155703c2dc
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85932346"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87888635"
 ---
 # <a name="getmac"></a>getmac
 
@@ -30,7 +28,7 @@ getmac[.exe][/s <computer> [/u <domain\<user> [/p <password>]]][/fo {table | lis
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- |------------ |
 | ключ`<computer>` | Указывает имя или IP-адрес удаленного компьютера (не используйте символы обратной косой черты). По умолчанию это локальный компьютер. |
 | /u`<domain>\<user>` | Выполняет команду с разрешениями учетной записи пользователя, указанного *пользователем* или *домен \*пользователь. По умолчанию заданы разрешения текущего вошедшего в систему пользователя на компьютере, выполняющем команду. |

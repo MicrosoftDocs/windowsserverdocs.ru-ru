@@ -1,20 +1,18 @@
 ---
 title: autochk
 description: Справочная статья по команде Autochk, которая выполняется при запуске компьютера и до Windows Server, начиная с проверки логической целостности файловой системы.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 8787e6a3-f023-4ea5-b2d1-61c6876d8aff
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 9cfb034f37f85b1e54e0cee2a8a4d128518c775a
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 91472aa7447c590aefcb4af58d1951e8e39225fe
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85923627"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87895283"
 ---
 # <a name="autochk"></a>autochk
 
@@ -28,7 +26,7 @@ ms.locfileid: "85923627"
 
 - Если том помечен как "грязный".
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!WARNING]
 > Программу командной строки **Autochk** нельзя запустить непосредственно из командной строки. Вместо этого используйте программу командной строки **chkntfs** , чтобы настроить способ запуска **Autochk** при запуске.

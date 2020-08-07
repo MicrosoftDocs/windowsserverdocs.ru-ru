@@ -1,20 +1,18 @@
 ---
 title: auditpol
 description: Справочная статья по команде auditpol, в которой отображаются сведения о функциях и средствах управления политиками аудита.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: a02cfb9d-732f-4e77-aeba-f18265daa3af
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: f3f503b957175ba2a3997202d83c171cf8683032
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 026dfb747f6013c6d2b6469eb2082819c4018504
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85923666"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87895292"
 ---
 # <a name="auditpol"></a>auditpol
 

@@ -1,20 +1,18 @@
 ---
 title: gpresult
 description: Справочная статья о команде gpresult, которая отображает результирующий набор политик (RSoP) для удаленного пользователя и компьютера.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: dfaa3adf-2c83-486c-86d6-23f93c5c883c
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: b55db74c0c8f9c527ade8412f50ef83ea675a5c6
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 5c65dd4799441dca44db24f532be66349b1249a5
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85924636"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87888570"
 ---
 # <a name="gpresult"></a>gpresult
 
@@ -33,7 +31,7 @@ gpresult [/s <system> [/u <username> [/p [<password>]]]] [/user [<targetdomain>\
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | ключ`<system>` | Указывает имя или IP-адрес удаленного компьютера. Не используйте обратные косые черты. По умолчанию это локальный компьютер. |
 | /u`<username>` | Использует учетные данные указанного пользователя для выполнения команды. Пользователь по умолчанию — это пользователь, который вошел в систему на компьютере, который выдает команду. |
@@ -47,7 +45,7 @@ gpresult [/s <system> [/u <username> [/p [<password>]]]] [/user [<targetdomain>\
 | /z | Отображает все доступные сведения о групповая политика. Сюда входят подробные параметры, которые были применены с приоритетом 1 и выше. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 - Групповая политика является основным средством администрирования для определения и контроля работы программ, сетевых ресурсов и операционной системы для пользователей и компьютеров в Организации. В среде Active Directory групповая политика применяется к пользователям или компьютерам на основе их членства в сайтах, доменах или подразделениях.
 

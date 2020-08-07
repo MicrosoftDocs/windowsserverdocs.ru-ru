@@ -1,20 +1,18 @@
 ---
 title: icacls
 description: Справочная статья по команде icacls, которая отображает или изменяет избирательные списки управления доступом (DACL) для указанных файлов и применяет сохраненные списки DACL к файлам в указанных каталогах.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 403edfcc-328a-479d-b641-80c290ccf73e
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 08/21/2018
-ms.openlocfilehash: 386e008ef7095cbef8d84b33682b494d8d6c9c52
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 5bb8842cdc91823a83d1b8ccfa305c6393433901
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85924527"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87888406"
 ---
 # <a name="icacls"></a>icacls
 
@@ -32,7 +30,7 @@ icacls <directory> [/substitute <sidold> <sidnew> [...]] [/restore <aclfile> [/c
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | `<filename>` | Указывает файл, для которого должны отображаться списки DACL. |
 | `<directory>` | Указывает каталог, в котором должны отображаться списки DACL. |
@@ -53,7 +51,7 @@ icacls <directory> [/substitute <sidold> <sidnew> [...]] [/restore <aclfile> [/c
 | /Restore `<ACLfile>` [/c] [/l] [/q] | Применяет сохраненные списки DACL из `<ACLfile>` к файлам в указанном каталоге. Требует использования с `<directory>` параметром. |
 | /инхеританцелевел:`[e | d | r]` | Задает уровень наследования, который может принимать следующие значение:<ul><li>**e** — включение наследования</li><li>**d** — отключение наследования и копирование записей ACE</li><li>**r** — удаляет все унаследованные ACE</li></ul> |
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 - Идентификаторы SID могут быть в виде числовых или понятных имен. Если используется числовая форма, прикреплять символ-шаблон **&#42;** к началу идентификатора SID.
 

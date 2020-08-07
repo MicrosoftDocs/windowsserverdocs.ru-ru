@@ -1,20 +1,18 @@
 ---
 title: bcdedit
 description: Справочная статья по команде bcdedit, которая создает новые магазины, изменяет существующие магазины и добавляет параметры меню загрузки.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: ab2da47d-3aac-44a0-b7fd-bd9561d61553
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 03/27/2018
-ms.openlocfilehash: 59d6a4eafe2eb3383cfeed9e1cbcb9d3e10fe376
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 0a24ce7f2503d06ce6c57270027328600d93e217
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86955816"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87895168"
 ---
 # <a name="bcdedit"></a>bcdedit
 
@@ -43,13 +41,13 @@ bcdedit /command [<argument1>] [<argument2>] ...
 
 ### <a name="general-bcdedit-command-line-options"></a>Общие параметры командной строки BCDEdit
 
-| Параметр | Описание |
+| Параметр | Description |
 | ------ | ----------- |
 | /? | Отображает список команд BCDEdit. При выполнении этой команды без аргумента отображается сводка доступных команд. Чтобы отобразить подробную справку по определенной команде, выполните команду **BCDEdit/?** `<command>`, где `<command>` — имя искомой команды для получения дополнительных сведений о. Например, **BCDEdit/? креатесторе** отображает подробную справку для команды креатесторе. |
 
 #### <a name="parameters-that-operate-on-a-store"></a>Параметры, которые работают с хранилищем
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | ------ | ----------- |
 | /креатесторе | Создает новое пустое хранилище данных конфигурации загрузки. Созданное хранилище не является системным хранилищем. |
 | /Export | Экспортирует содержимое системного хранилища в файл. Этот файл можно использовать позже для восстановления состояния системного хранилища. Эта команда допустима только для системного хранилища. |
