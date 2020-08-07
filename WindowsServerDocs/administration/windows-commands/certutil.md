@@ -1,20 +1,18 @@
 ---
 title: certutil
 description: Справочная статья по команде certutil, которая является программой командной строки, которая выводит дампы и отображает сведения о конфигурации центра сертификации (ЦС), настраивает службы сертификации, компоненты ЦС для резервного копирования и восстановления, а также проверяет сертификаты, пары ключей и цепочки сертификатов.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: c264ccf0-ba1e-412b-9dd3-d77dd9345ad9
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 12ef5e7fa5ff305b1670c2f88645f57500c4fb5b
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.openlocfilehash: 9f66bfb724a40a21bfaf323a54749f1d99c25e86
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87178590"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87880346"
 ---
 # <a name="certutil"></a>certutil
 

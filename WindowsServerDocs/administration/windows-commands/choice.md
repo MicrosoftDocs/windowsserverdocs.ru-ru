@@ -1,20 +1,18 @@
 ---
 title: choice
 description: Справочная статья по команде Choice, которая предлагает пользователю выбрать один элемент из списка односимвольных вариантов в пакетной программе, а затем возвращает индекс выбранного варианта.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: c65a9119-410b-4dcf-9fa7-4e07d2a7238b
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 745321c6388e6faa9de1ce1a8a24afe66514d259
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 6aec3af1966d0b7952f0bbb5880e373356117e42
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85929989"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87880256"
 ---
 # <a name="choice"></a>choice
 
@@ -28,7 +26,7 @@ choice [/c [<choice1><choice2><…>]] [/n] [/cs] [/t <timeout> /d <choice>] [/m 
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | ключей`<choice1><choice2><…>` | Указывает список создаваемых элементов. Допустимые варианты: a – z, A – Z, 0-9 и расширенные символы ASCII (128-254). Список по умолчанию — YN, который отображается как `[Y,N]?` . |
 | /n | Скрывает список вариантов, хотя варианты по-прежнему включены и текст сообщения (если оно указано параметром **/m**) по-прежнему отображается. |
@@ -38,7 +36,7 @@ choice [/c [<choice1><choice2><…>]] [/n] [/cs] [/t <timeout> /d <choice>] [/m 
 | /m`<text>` | Указывает сообщение, отображаемое перед списком вариантов. Если параметр **/m** не указан, отображается только запрос Choice. |
 | /? | Отображение справки в командной строке. |
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 - Переменной среды **ERRORLEVEL** присваивается индекс ключа, который пользователь выбирает из списка вариантов. Первый вариант в списке возвращает значение `1` , второе значение `2` и т. д. Если пользователь нажимает клавишу, которая является недопустимым, **выбирает** звук предупреждения.
 

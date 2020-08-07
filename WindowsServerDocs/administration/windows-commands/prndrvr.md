@@ -1,26 +1,24 @@
 ---
 title: prndrvr
 description: Справочная статья по команде прндрвр, которая добавляет, удаляет и перечисляет драйверы принтера.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 82b09e3e-bd38-4df1-9953-b0e9ee2565a3
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 4f256d003ac0884b100aedb24bbb55e663444911
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 2be35ef44b7c54a5b8390120cef65054c06008d2
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85924201"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87884755"
 ---
 # <a name="prndrvr"></a>prndrvr
 
 > Область применения: Windows Server (половина ежегодного канала), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
-Добавляет, удаляет и перечисляет драйверы принтера. Эта команда представляет собой Visual Basic сценарий, расположенный в `%WINdir%\System32\printing_Admin_Scripts\<language>` каталоге. Чтобы использовать эту команду в командной строке, введите **cscript** , а затем полный путь к файлу прндрвр или измените каталоги на соответствующую папку. Например, `cscript %WINdir%\System32\printing_Admin_Scripts\en-US\prndrvr`.
+Добавляет, удаляет и перечисляет драйверы принтера. Эта команда представляет собой Visual Basic сценарий, расположенный в `%WINdir%\System32\printing_Admin_Scripts\<language>` каталоге. Чтобы использовать эту команду в командной строке, введите **cscript** , а затем полный путь к файлу прндрвр или измените каталоги на соответствующую папку. Например: `cscript %WINdir%\System32\printing_Admin_Scripts\en-US\prndrvr`.
 
 При использовании без параметров **прндрвр** отображает справку командной строки.
 
@@ -32,7 +30,7 @@ cscript prndrvr {-a | -d | -l | -x | -?} [-m <model>] [-v {0|1|2|3}] [-e <enviro
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 |--|--|
 | -a | Устанавливает драйвер. |
 | -d | Удаляет драйвер. |
@@ -47,7 +45,7 @@ cscript prndrvr {-a | -d | -l | -x | -?} [-m <model>] [-v {0|1|2|3}] [-e <enviro
 | -i`<filename.inf>` | Указывает полный путь и имя файла драйвера, который вы хотите установить. Если не указать имя файла, сценарий использует один из файлов входящих INF-файла принтера в подкаталоге INF каталога Windows.<p>Если путь к драйверу не указан, сценарий выполняет поиск файлов драйверов в файле driver.cab. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 - Если предоставленные сведения содержат пробелы, заключите его в кавычки (например, "имя компьютера").
 

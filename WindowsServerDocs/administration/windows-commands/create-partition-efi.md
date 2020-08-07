@@ -1,20 +1,18 @@
 ---
 title: create partition efi
 description: Справочная статья по команде создания раздела EFI, которая создает системный раздел интерфейса EFI на диске с таблицей разделов GPT на компьютерах на базе процессоров Itanium.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 3cfc1fca-6515-4a4d-bfae-615fa8045ea9
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 05c811e7be32ed9e73b352161ef1e6f043f27048
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: e0307410648453a42c66e7327b5c671a702017e2
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85928881"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87880004"
 ---
 # <a name="create-partition-efi"></a>create partition efi
 
@@ -33,13 +31,13 @@ create partition efi [size=<n>] [offset=<n>] [noerr]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | Размер =`<n>` | Размер раздела в мегабайтах (МБ). Если размер не указан, раздел будет продолжаться до тех пор, пока в текущем регионе не останется свободного места. |
 | offset =`<n>` | Смещение в килобайтах (КБ), в котором создается секция. Если смещение не задано, раздел помещается в первый экстент диска, достаточно большой для его хранения. |
 | Noerr | Только для сценариев. При возникновении ошибки DiskPart продолжит обрабатывать команды, как если бы ошибка не возникала. Без этого параметра ошибка приводит к выходу из программы DiskPart с кодом ошибки. |
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 - Перед использованием команды " **создать** " необходимо добавить по крайней мере один том с помощью команды " **Добавить том** ".
 

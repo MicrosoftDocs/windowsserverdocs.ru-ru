@@ -1,26 +1,24 @@
 ---
 title: prnjobs
 description: Справочная статья по команде прнжобс, которая приостанавливает, возобновляет, отменяет и перечисляет задания печати.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 5ad34199-7a5a-40c1-8053-bccd5929df43
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 07/11/2018
-ms.openlocfilehash: 79ad0631a2d1c871664ecebc11c26f2e005ca772
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: d955f50761e1229e0a1acf21a9f2179525bd7ee4
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85924197"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87884740"
 ---
 # <a name="prnjobs"></a>prnjobs
 
 > Область применения: Windows Server (половина ежегодного канала), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
-Приостанавливает, возобновляет, отменяет и перечисляет задания печати. Эта команда представляет собой Visual Basic сценарий, расположенный в `%WINdir%\System32\printing_Admin_Scripts\<language>` каталоге. Чтобы использовать эту команду в командной строке, введите **cscript** , а затем полный путь к файлу прнжобс или измените каталоги на соответствующую папку. Например, `cscript %WINdir%\System32\printing_Admin_Scripts\en-US\prnjobs.vbs`.
+Приостанавливает, возобновляет, отменяет и перечисляет задания печати. Эта команда представляет собой Visual Basic сценарий, расположенный в `%WINdir%\System32\printing_Admin_Scripts\<language>` каталоге. Чтобы использовать эту команду в командной строке, введите **cscript** , а затем полный путь к файлу прнжобс или измените каталоги на соответствующую папку. Например: `cscript %WINdir%\System32\printing_Admin_Scripts\en-US\prnjobs.vbs`.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -30,7 +28,7 @@ cscript prnjobs {-z | -m | -x | -l | -?} [-s <Servername>] [-p <Printername>] [-
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 |--|--|
 | -Z | Приостанавливает задание печати, заданное параметром **-j** . |
 | -M | Возобновляет задание печати, заданное параметром **-j** . |
@@ -42,7 +40,7 @@ cscript prnjobs {-z | -m | -x | -l | -?} [-s <Servername>] [-p <Printername>] [-
 | -u `<Username>` -w`<password>` | Указывает учетную запись с разрешениями на подключение к компьютеру, на котором размещен принтер, которым требуется управлять. Все члены локальной группы администраторов целевого компьютера имеют эти разрешения, но разрешения также могут быть предоставлены другим пользователям. Если учетная запись не указана, для работы команды необходимо войти в систему с учетной записью с этими разрешениями. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 - Если предоставленные сведения содержат пробелы, заключите его в кавычки (например, "имя компьютера").
 

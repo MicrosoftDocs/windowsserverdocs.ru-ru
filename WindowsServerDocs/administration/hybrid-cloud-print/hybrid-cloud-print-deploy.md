@@ -1,20 +1,18 @@
 ---
 title: Развертывание функции Hybrid Cloud Print в Windows Server
 description: Настройка гибридной облачной печати (Майкрософт)
-ms.prod: windows-server
-ms.technology: windows server 2016
 ms.assetid: fc239aec-e719-47ea-92fc-d82a7247c5e9
 ms.topic: how-to
 author: msjimwu
 ms.author: coreyp
 manager: dongill
 ms.date: 3/15/2018
-ms.openlocfilehash: 9cee8a279be2030d4b911a0a7f456c2b855ca15e
-ms.sourcegitcommit: 145cf75f89f4e7460e737861b7407b5cee7c6645
+ms.openlocfilehash: 3e5b732beb502bb0bf365136947ff380caf71545
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "87409094"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87879915"
 ---
 # <a name="deploy-windows-server-hybrid-cloud-print"></a>Развертывание функции Hybrid Cloud Print в Windows Server
 
@@ -409,7 +407,7 @@ ms.locfileid: "87409094"
         - Азуретенантгуид = идентификатор каталога вашего клиента Azure AD.
         - Дисковериресаурцеид = URI идентификатора приложения для приложения службы обнаружения Mopria.
 
-    - Также можно ввести все необходимые значения параметров в командной строке. Синтаксис:
+    - Также можно ввести все необходимые значения параметров в командной строке. Синтаксис выглядит следующим образом.
 
         `Publish-CloudPrinter -Printer <string> -Manufacturer <string> -Model <string> -OrgLocation <string> -Sddl <string> -DiscoveryEndpoint <string> -PrintServerEndpoint <string> -AzureClientId <string> -AzureTenantGuid <string> -DiscoveryResourceId <string>`
 
@@ -446,7 +444,7 @@ ms.locfileid: "87409094"
 
 Ниже приведены распространенные проблемы при развертывании HCP.
 
-|Error |Рекомендуемые действия |
+|Ошибка |Рекомендуемые действия |
 |------|------|
 |Сбой сценария PowerShell Клаудпринтдеплой | <ul><li>Убедитесь, что Windows Server имеет Последнее обновление.</li><li>Если используется Windows Server Update Services (WSUS), см. статью [как создавать компоненты по запросу и языковые пакеты, доступные при использовании WSUS или SCCM](https://docs.microsoft.com/windows/deployment/update/fod-and-lang-packs).</li></ul> |
 |Сбой установки SQLite с сообщением: обнаружен цикл зависимостей для пакета "System. Data. SQLite" | Install-Package System. Data. SQLite. Core-ProviderName NuGet-СкипдепенденЦиес<br>Install-Package System. Data. SQLite. EF6-ProviderName NuGet-СкипдепенденЦиес<br>Install-Package System. Data. SQLite. LINQ-ProviderName NuGet-СкипдепенденЦиес<br><br>После успешной загрузки пакетов убедитесь, что они имеют одинаковую версию. В противном случае добавьте параметр-requiredversion в приведенные выше команды и присвойте им одинаковую версию. |

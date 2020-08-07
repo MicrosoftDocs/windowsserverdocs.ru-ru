@@ -1,20 +1,18 @@
 ---
 title: change logon
 description: Справочная статья по команде change logon, которая включает или отключает вход из сеансов клиентов или отображает текущее состояние входа в систему.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 41466260-aee9-4333-bcb6-178112c22afd
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 3604082a909986a5b89efb9feca2c5f6c8abbb53
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: f1196ec063ce6ab6d2ede64d58d22608e2e76c48
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86955326"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87880270"
 ---
 # <a name="change-logon"></a>change logon
 
@@ -33,7 +31,7 @@ change logon {/query | /enable | /disable | /drain | /drainuntilrestart}
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | /Query | Отображает текущее состояние входа в систему независимо от того, включено или отключено. |
 | разрешение | Включает вход из сеансов клиента, но не из консоли. |
@@ -42,7 +40,7 @@ change logon {/query | /enable | /disable | /drain | /drainuntilrestart}
 | /драинунтилрестарт | Отключает вход из новых клиентских сеансов, пока компьютер не будет перезагружен, но допускает повторное подключение к существующим сеансам. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 - При перезагрузке системы снова включаются входы в систему.
 

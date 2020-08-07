@@ -1,20 +1,18 @@
 ---
 title: create partition msr
 description: Справочная статья по созданию раздела MSR, который создает MSR-раздел на диске с таблицей разделов GUID (GPT).
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 04fba033-23cb-4521-bd5d-db96131f2e73
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 2714c47c467fda9c6ca3451331ab9bc7991d4591
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: b697aa278849e2cd084ef7e9378b7997032a820c
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85929641"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87879884"
 ---
 # <a name="create-partition-msr"></a>create partition msr
 
@@ -35,13 +33,13 @@ create partition msr [size=<n>] [offset=<n>] [noerr]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | Размер =`<n>` | Размер раздела в мегабайтах (МБ). Размер секции не меньше, чем в байтах, как указано в `<n>` . Если размер не указан, раздел будет продолжаться до тех пор, пока в текущем регионе не останется свободного места. |
 | offset =`<n>` | Задает смещение в килобайтах (КБ), в котором создается секция. Смещение округляется до полного заполнения любого размера сектора. Если смещение не задано, раздел помещается в первый экстент диска, достаточно большой для его хранения. |
 | Noerr | Только для сценариев. При возникновении ошибки DiskPart продолжит обрабатывать команды, как если бы ошибка не возникала. Без этого параметра ошибка приводит к выходу из программы DiskPart с кодом ошибки. |
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 - На дисках GPT, которые используются для загрузки операционной системы Windows, системный раздел EFI — это первый раздел на диске, за которым следует зарезервированный раздел Майкрософт. диски GPT, используемые только для хранения данных, не имеют системного раздела EFI. в этом случае зарезервированный раздел Майкрософт является первой секцией.
 

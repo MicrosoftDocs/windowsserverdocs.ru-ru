@@ -1,26 +1,24 @@
 ---
 title: pnpunattend
 description: Справочная статья по команде пнпунаттенд, которая осуществляет аудит драйверов устройств на компьютере, а также выполняет автоматическую установку драйверов.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 4fa88932-cff0-4dfc-936c-98c0e3dfbeb8
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 07/11/2018
-ms.openlocfilehash: cb01e2afa763d3e2c906d1b3ac5f194143caf114
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 72cb158804bcec3c57ef9bae8d21f8e15a7978d9
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85924244"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87884934"
 ---
 # <a name="pnpunattend"></a>pnpunattend
 
 Аудит компьютера для драйверов устройств и выполнение автоматической установки драйверов или поиск драйверов без установки и, при необходимости, передачи результатов в командную строку. Используйте эту команду, чтобы указать установку конкретных драйверов для конкретных устройств.
 
-## <a name="prerequisites"></a>Предварительные требования
+## <a name="prerequisites"></a>Предварительные условия
 
 Для более старых версий операционной системы Windows требуется предварительная подготовка. Перед использованием этой команды необходимо выполнить следующие задачи.
 
@@ -42,7 +40,7 @@ PnPUnattend.exe auditsystem [/help] [/?] [/h] [/s] [/l]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 |--|--|
 | auditSystem | Указывает установку драйвера в сети.<p>Требуется, за исключением случаев, когда эта команда выполняется с параметром **/Help** или **/?** параметров). |
 | /s | Необязательный элемент. Задает поиск драйверов без установки. |

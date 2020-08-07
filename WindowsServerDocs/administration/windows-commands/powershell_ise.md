@@ -1,20 +1,18 @@
 ---
 title: PowerShell_ise
 description: Справочная статья по команде PowerShell_ise, которая запускает сеанс интегрированной среды сценариев (ISE) Windows PowerShell.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 32c41b5b-a210-47d9-bd8c-91eb9830b4f0
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 24fc3c6dca5ba3fea872f625b2ef81f1c78f59fb
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: f82779d122d3fedf3dac7ecf51b6da0601373421
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86956576"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87884870"
 ---
 # <a name="powershell_ise"></a>PowerShell_ise
 
@@ -56,7 +54,7 @@ ms.locfileid: "86956576"
     PowerShell_Ise.exe /?
     ```
 
-### <a name="remarks"></a>Комментарии
+### <a name="remarks"></a>Remarks
 
 - Полный список параметров командной строки **PowerShell_ISE.exe** см. в разделе [about_PowerShell_Ise.Exe](/powershell/module/microsoft.powershell.core/about/about_powershell_ise_exe).
 

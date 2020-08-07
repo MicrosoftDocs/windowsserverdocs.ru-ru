@@ -1,20 +1,18 @@
 ---
 title: create volume simple
 description: Справочная статья по команде CREATE VOLUME Simple, которая создает простой том на указанном динамическом диске.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: da0f208d-7fda-471a-9db2-5de5ba5207c6
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 1e7924ca4394a64fd5a8d92577a3f3f62b917461
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: a434cc959eac79011cf57e2aca101ffc536b7633
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85929512"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87891622"
 ---
 # <a name="create-volume-simple"></a>create volume simple
 
@@ -30,7 +28,7 @@ create volume simple [size=<n>] [disk=<n>] [align=<n>] [noerr]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | Размер =`<n>`  | Размер тома в мегабайтах (МБ). Если размер не указан, новый том занимает оставшееся свободное пространство на диске. |
 | диск =`<n>`  | Динамический диск, на котором создается том. Если диск не указан, используется текущий диск. |

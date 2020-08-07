@@ -1,19 +1,17 @@
 ---
 title: Vssadmin List Shadows
 description: Описание команды vssadmin List Shadows.
-ms.prod: windows-server
 ms.topic: article
 author: JasonGerend
 ms.author: jgerend
-ms.technology: storage
 ms.date: 05/18/2018
 ms.localizationpriority: medium
-ms.openlocfilehash: ebe9056e1ae1393cebf0b1e2a719cd0c369b3e3e
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: d3616902fa0b971969e5e906d6dbb200c633d15a
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86954776"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87891794"
 ---
 # <a name="vssadmin-list-shadows"></a>Vssadmin List Shadows
 
@@ -29,7 +27,7 @@ vssadmin list shadows [/for=<ForVolumeSpec>] [/shadow=<ShadowID>]
 
 ### <a name="parameters"></a>Параметры
 
-|Параметр|Описание|
+|Параметр|Описание:|
 |---|---|
 |/фор =\<ForVolumeSpec>|Указывает, для какого тома будут перечислены теневые копии.|
 |/Шадов =\<ShadowID>|Выводит список теневых копий, заданных параметром Шадовид. Чтобы получить идентификатор теневой копии, используйте команду **vssadmin List Shadows** . При вводе идентификатора теневой копии используйте следующий формат, где каждый *X* представляет шестнадцатеричный символ:<br><br>XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX|

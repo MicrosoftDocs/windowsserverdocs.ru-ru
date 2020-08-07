@@ -1,20 +1,18 @@
 ---
 title: nslookup set root
 description: Справочная статья по команде nslookup set root, которая изменяет имя корневого сервера, используемого для запросов.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 8ad5393c-d4fd-4594-8187-576b1dcde60a
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 866cc0f9c7c7e4ea99416c1be1fd8de3d374ca64
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 69dd99b00e186a4338ec5c176d8fed128325b89e
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85935677"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87885523"
 ---
 # <a name="nslookup-set-root"></a>nslookup set root
 
@@ -33,7 +31,7 @@ set root=<rootserver>
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | ---------- | ---------- |
 | `<rootserver>` | Указывает новое имя для корневого сервера. Значение по умолчанию — **ns.NIC.DDN.MIL**. |
 | /? | Отображение справки в командной строке. |

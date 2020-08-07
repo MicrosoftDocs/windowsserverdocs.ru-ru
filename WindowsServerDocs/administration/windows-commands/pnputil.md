@@ -1,20 +1,18 @@
 ---
 title: pnputil
 description: Справочная статья по команде pnputil, которая добавляет пакеты драйверов, удаляет пакеты драйверов и перечисляет пакеты драйверов, которые находятся в хранилище драйверов, с помощью служебной программы pnputil.exe.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: fab686b8-09d3-4f6c-afa2-630e6036f44c
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 07/11/2018
-ms.openlocfilehash: 01b8aee1aa4dfb85b590c9d4abbec471fc437da8
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 4bd4a5ed4dcadb1011dfbf28647ba4f223249a34
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85930235"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87884921"
 ---
 # <a name="pnputil"></a>pnputil
 
@@ -28,7 +26,7 @@ pnputil.exe [-f | -i] [ -? | -a | -d | -e ] <INF name>
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 |--|--|
 | -a | Указывает, что добавляет определенный INF-файл. |
 | -d | Указывает, следует удалить указанный INF-файл. |

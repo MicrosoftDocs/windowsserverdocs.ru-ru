@@ -1,20 +1,18 @@
 ---
 title: создать секцию расширенной
 description: Справочная статья по расширенной команде CREATE PARTITION, которая создает дополнительный раздел на диске с фокусом.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 4ad7cb66-9c66-4153-b94e-1030a7225070
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 6acc766a6d9e2fd51bc9c6726d5dec2168ec7eef
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 7475eca6395c2f0cdc29fcadefe3bb8905761c99
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85929683"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87879993"
 ---
 # <a name="create-partition-extended"></a>создать секцию расширенной
 
@@ -35,7 +33,7 @@ create partition extended [size=<n>] [offset=<n>] [align=<n>] [noerr]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | Размер =`<n>` | Указывает размер раздела в мегабайтах (МБ). Если размер не указан, Секция будет продолжаться до тех пор, пока в расширенном разделе не будет свободного места. |
 | offset =`<n>` | Задает смещение в килобайтах (КБ), в котором создается секция. Если смещение не задано, раздел начнется в начале свободного места на диске, достаточного для размещения новой секции. |

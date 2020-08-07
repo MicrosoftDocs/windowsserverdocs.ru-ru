@@ -1,19 +1,17 @@
 ---
 title: Vssadmin удаление теней
 description: Описание команды vssadmin Delete Shadows.
-ms.prod: windows-server
 ms.topic: article
 author: JasonGerend
 ms.author: jgerend
-ms.technology: storage
 ms.date: 05/18/2018
 ms.localizationpriority: medium
-ms.openlocfilehash: 84135624377f589417c7524c40375ed8470d3269
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 884407cee82926b3b258afba5ab2e47dc640e10f
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86954797"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87891810"
 ---
 # <a name="vssadmin-delete-shadows"></a>Vssadmin удаление теней
 
@@ -29,7 +27,7 @@ vssadmin delete shadows /for=<ForVolumeSpec> [/oldest | /all | /shadow=<ShadowID
 
 ### <a name="parameters"></a>Параметры
 
-|Параметр|Описание|
+|Параметр|Описание:|
 |---|---|
 |/фор =\<ForVolumeSpec>|Указывает, какой из теневых копий тома будет удален.|
 |/олдест|Удаляет только самую старую теневую копию.|
@@ -37,7 +35,7 @@ vssadmin delete shadows /for=<ForVolumeSpec> [/oldest | /all | /shadow=<ShadowID
 |/Шадов =\<ShadowID>|Удаляет теневую копию, указанную параметром Шадовид. Чтобы получить идентификатор теневой копии, используйте команду **vssadmin List Shadows** . При вводе идентификатора теневой копии используйте следующий формат, где каждый *X* представляет шестнадцатеричный символ:<br><br>XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX|
 |/quiet|Указывает, что команда не будет отображать сообщения во время выполнения.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Удалять можно только теневые копии с типом, доступным для клиента.
 

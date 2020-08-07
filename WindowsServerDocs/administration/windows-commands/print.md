@@ -1,20 +1,18 @@
 ---
 title: print
 description: Справочная статья по команде Print, которая отправляет текстовый файл на принтер.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: aa2325d5-a993-4ed3-b996-255165452db8
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: a8e8cf07ca19af1cf0a0445b9feed06916be10c0
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: be955faa38af6a81ce5f61c255828470d906528c
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85926033"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87884838"
 ---
 # <a name="print"></a>print
 
@@ -31,7 +29,7 @@ print [/d:<printername>] [<drive>:][<path>]<filename>[ ...]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 |--|--|
 | /d`<printername>` | Задает принтер, на котором нужно напечатать задание. Для печати на локально подключенном принтере укажите порт на компьютере, к которому подключен принтер. Допустимые значения для параллельных портов: **LPT1**, **LPT2**и **LPT3**. Допустимые значения для последовательных портов: **COM1**, **COM2**, **COM3**и **COM4**. Сетевой принтер также можно указать с помощью его имени очереди ( `\\server_name\printer_name` ). Если принтер не указан, задание печати по умолчанию отправляется в **порт LPT1** . |
 | `<drive>`: | Указывает логический или физический диск, где находится файл, который требуется напечатать. Этот параметр не требуется, если файл, который требуется напечатать, находится на текущем диске. |

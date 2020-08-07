@@ -1,20 +1,18 @@
 ---
 title: Get-Аллимажес
 description: Справочная статья по Get-Аллимажес, которая извлекает сведения обо всех изображениях на сервере.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 19de3720-4315-415a-8dc6-486caa0b2100
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 9834552ebe6395f13333e81fbc2996a8ff49f39c
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 542de8f24f8bbb85a44fdefa9d25ca9acda66ba5
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85935169"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87892033"
 ---
 # <a name="get-allimages"></a>Get-Аллимажес
 
@@ -27,7 +25,7 @@ ms.locfileid: "85935169"
 wdsutil /Get-AllImages [/Server:<Server name>] /Show:{Boot | Install | LegacyRis | All} [/detailed]
 ```
 ### <a name="parameters"></a>Параметры
-|Параметр|Описание|
+|Параметр|Описание:|
 |-------|--------|
 |[/Server: <Server name> ]|Указывает имя сервера. Это может быть либо NetBIOS-имя, либо полное доменное имя (FQDN). Если имя сервера не указано, будет использоваться локальный сервер.|
 |/Show: {Загрузка &#124; установка &#124; Легацирис &#124; все}|-   **Boot** возвращает только загрузочные образы.<br />-   **Install** возвращает образы установки, а также сведения о группах образов, содержащих их.<br />-   **Легацирис** возвращает только образы служб удаленной установки (RIS).<br />-   **Все** возвращает сведения об образе загрузки, сведения об образе установки (включая сведения о группах образов) и сведения об образе RIS.|

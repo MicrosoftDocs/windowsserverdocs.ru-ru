@@ -1,20 +1,18 @@
 ---
 title: nslookup set vc
 description: Справочная статья по команде nslookup set VC, которая указывает, следует ли использовать виртуальный канал при отправке запросов на сервер.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: e9232c92-cd8d-4eff-8ae5-0647bd03bdcb
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: c289315c55c1611360bbc2b0ba9ef9a612ee9b64
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: ed8c20785bc97afa7028185597e79bca02262af5
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85930283"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87885451"
 ---
 # <a name="nslookup-set-vc"></a>nslookup set vc
 
@@ -29,7 +27,7 @@ set [no]vc
 ### <a name="parameters"></a>Параметры
 
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | ---------- | ---------- |
 | новк | Указывает, что никогда не следует использовать виртуальный канал при отправке запросов на сервер. Это значение по умолчанию. |
 | виртуаль | Задает постоянное использование виртуальной цепи при отправке запросов на сервер. |

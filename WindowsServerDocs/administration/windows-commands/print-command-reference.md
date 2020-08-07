@@ -1,20 +1,18 @@
 ---
 title: Справочник по программе командной строки для печати
 description: Справочная статья по использованию программ командной строки для печати.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 88d8fa87-6fa8-4774-9294-080b0157ea8d
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: aca9b6fd7763c5c9d07a8a741e80bc20131f2297
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 5f5d093393908cfcd81909d0a522f2ee423bcbad
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85926040"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87884858"
 ---
 # <a name="print-command-line-tool-reference"></a>Справочник по программе командной строки для печати
 
@@ -22,7 +20,7 @@ ms.locfileid: "85926040"
 
 Сведения и ссылки на каждый из связанных программ командной строки печати.
 
-| Команда | Описание |
+| Get-Help | Описание |
 |--|--|
 | [lpq](lpq.md) | Отображает состояние очереди печати на компьютере, на котором запущена управляющая программа LPR. |
 | [lpr](lpr.md) | Отправляет файл на устройство общего доступа к компьютеру или принтеру, работающее со службой LPD, в процессе подготовки к печати. |

@@ -1,20 +1,18 @@
 ---
 title: nslookup set domain
 description: Справочная статья по команде nslookup set domain, которая изменяет доменное имя DNS по умолчанию на указанное имя.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 9d4d28e8-6e88-42cc-801f-94e9d8e051f4
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: eaa12029beab301f955a4c9bed4595831f6ebf12
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: fbf2602f387af9a1f389bdcccc50b19a5b25c2ce
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85934413"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87885664"
 ---
 # <a name="nslookup-set-domain"></a>nslookup set domain
 
@@ -30,13 +28,13 @@ set domain=<domainname>
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | `<domainname>` | Указывает новое имя для доменного имени DNS по умолчанию. Значение по умолчанию — имя узла. |
 | /? | Отображение справки в командной строке. |
 | /help | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 - Доменное имя DNS по умолчанию добавляется к поисковому запросу в зависимости от состояния параметров **дефнаме** и **поиска** .
 

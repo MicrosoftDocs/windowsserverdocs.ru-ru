@@ -1,20 +1,18 @@
 ---
 title: wbadmin get versions
 description: Справочная статья по Wbadmin get versions, в которой перечислены сведения о доступных резервных копиях, которые хранятся на локальном компьютере или на другом компьютере.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: b986acc4-d083-4d32-9434-862314ed5e97
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 6d122176e37d7c49f9193477e348e44e039e9ac9
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 209244f18758a13838a27ffd2f44e871cf5971c1
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86954616"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87891722"
 ---
 # <a name="wbadmin-get-versions"></a>wbadmin get versions
 
@@ -34,12 +32,12 @@ wbadmin get versions
 
 ### <a name="parameters"></a>Параметры
 
-|Параметр|Описание|
+|Параметр|Описание:|
 |---------|-----------|
 |-backupTarget|Задает место хранения, в котором содержатся резервные копии, для которых требуется получить сведения. Используется для перечисления резервных копий, хранящихся в этом целевом расположении. Целевыми расположениями резервного копирования могут быть локально подключенные диски, тома, удаленные общие папки, съемные носители, такие как DVD-дисководы или другие оптические носители. Если программа **Wbadmin get versions** запущена на том же компьютере, где была создана резервная копия, этот параметр не требуется. Однако этот параметр необходим для получения сведений о резервной копии, созданной с другого компьютера.|
 |-Machine|Указывает компьютер, для которого требуется получить сведения о резервном копировании. Используется при хранении резервных копий нескольких компьютеров в одном расположении. Следует использовать, если указан **-backupTarget** .|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы получить список элементов, доступных для восстановления из определенной резервной копии, используйте **Wbadmin get Items**.
 

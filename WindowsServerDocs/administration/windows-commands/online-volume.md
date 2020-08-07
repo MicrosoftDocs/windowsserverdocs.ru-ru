@@ -1,20 +1,18 @@
 ---
 title: online volume
 description: Справочная статья по команде "оперативный том", которая принимает автономный том в состояние "в сети".
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 5da073fd-578d-4691-ad0f-605ba66e0c7e
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: f8205c86fa89795d5ecf207e90ea22542c176f8c
-ms.sourcegitcommit: 3632b72f63fe4e70eea6c2e97f17d54cb49566fd
+ms.openlocfilehash: b09730d3cc0cfe758c90c3ca57fd039282ba3fce
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87519643"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87885228"
 ---
 # <a name="online-volume"></a>online volume
 
@@ -34,7 +32,7 @@ online volume [noerr]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 |--|--|
 | Noerr | Только для сценариев. При возникновении ошибки DiskPart продолжит обрабатывать команды, как если бы ошибка не возникала. Без этого параметра ошибка приводит к выходу из программы DiskPart с кодом ошибки. |
 
