@@ -1,20 +1,18 @@
 ---
 title: Набор подкоманд — устройство
 description: Справочная статья по подкоманде Set-Device, которая изменяет атрибуты предварительно подготовленного компьютера.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 401567f8-eaeb-4a2d-b811-140bb007028d
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 2e75e0a2a4011e171fa548954bce2bbe942379c0
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 9593769d77d10eaff80b9d369e1f681f02c5d1fe
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85937203"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87882273"
 ---
 # <a name="subcommand-set-device"></a>Подкоманда: Set-Device
 
@@ -28,7 +26,7 @@ wdsutil [Options] /Set-Device /Device:<Device name> [/ID:<UUID | MAC address>] [
 [/WdsClientUnattend:<Relative path>] [/User:<Domain\User | User@Domain>] [/JoinRights:{JoinOnly | Full}] [/JoinDomain:{Yes | No}] [/BootImagepath:<Relative path>] [/Domain:<Domain>] [/resetAccount]
 ```
 ### <a name="parameters"></a>Параметры
-|Параметр|Описание|
+|Параметр|Описание:|
 |-------|--------|
 |Модем<computer name>|Указывает имя компьютера (SAM-Account-Name).|
 |[/ID: <UUID &#124; MAC-адрес>]|Указывает идентификатор GUID/UUID или MAC-адрес компьютера. Это значение должно быть в одном из следующих трех форматов:<p>-Двоичная строка: **/ID: ACEFA3E81F20694E953EB2DAA1E8B1B6**<br />-GUID/UUID строка:/ID:**E8A3EFAC-201F-4E69-953E-B2DAA1E8B1B6**<br />— MAC-адрес: **00B056882FDC** (без дефисов) или **00-B0-56-88-2F-DC** (с тире)|

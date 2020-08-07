@@ -1,18 +1,16 @@
 ---
 title: Настройка производительности для HTTP 1.1/2
 description: Рекомендации по настройке производительности для HTTP 1.1/2
-ms.prod: windows-server
-ms.technology: performance-tuning-guide
 ms.topic: article
 ms.author: ivanpash; gmonte
 author: phstee
 ms.date: 10/16/2017
-ms.openlocfilehash: a0a4464d7a13911ec9cc7d104b6fe9292a64586e
-ms.sourcegitcommit: 771db070a3a924c8265944e21bf9bd85350dd93c
+ms.openlocfilehash: 362ceea398e13c5e537d1d828b86eec8b5d66a8f
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85471249"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87896027"
 ---
 # <a name="performance-tuning-http-112"></a>Настройка производительности HTTP 1.1/2
 

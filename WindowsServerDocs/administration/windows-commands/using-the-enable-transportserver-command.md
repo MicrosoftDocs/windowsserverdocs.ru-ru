@@ -1,20 +1,18 @@
 ---
 title: Enable-Транспортсервер
 description: Справочная статья по Enable-Транспортсервер, которая включает все службы для транспортного сервера.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 9d79dba1-4b57-4a00-8cba-877e6b8618e6
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: d4cd87b78e7a84255593464fede553bc294138c7
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 3d49e8d39ea1e0de1a6f756ffa55e03f210100b4
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85936277"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87896413"
 ---
 # <a name="enable-transportserver"></a>Enable-Транспортсервер
 
@@ -27,7 +25,7 @@ ms.locfileid: "85936277"
 wdsutil [Options] /Enable-TransportServer [/Server:<Server name>]
 ```
 ### <a name="parameters"></a>Параметры
-|Параметр|Описание|
+|Параметр|Описание:|
 |-------|--------|
 |[/Server: <Server name> ]|Указывает имя транспортного сервера. Это может быть либо NetBIOS-имя, либо полное доменное имя (FQDN). Если имя не указано, будет использоваться локальный сервер.|
 ## <a name="examples"></a>Примеры

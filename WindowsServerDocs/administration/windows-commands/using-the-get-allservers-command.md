@@ -1,20 +1,18 @@
 ---
 title: Get-Аллсерверс
 description: Справочная статья по Get-Аллсерверс, которая извлекает сведения обо всех серверах служб развертывания Windows.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: fe2e3c69-8f2e-457d-af55-d249ebf70f53
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: a02515b138c9db6a1d320a4ad466700c15b84749
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 6218b3dba4e87758322a7d33865b9a1a69dcb9fa
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85935060"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87896385"
 ---
 # <a name="get-allservers"></a>Get-Аллсерверс
 
@@ -31,7 +29,7 @@ WDSUTIL [Options] /Get-AllServers /Show:{Config | Images | All} [/Detailed] [/Fo
 
 ### <a name="parameters"></a>Параметры
 
-|   Параметр   |                                                                                                                 Описание                                                                                                                  |
+|   Параметр   |                                                                                                                 Описание:                                                                                                                  |
 |---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | /Show: {config |                                                                                                                    Изображения                                                                                                                    |
 |  [/Детаилед]  | При использовании в сочетании с параметром **/Show: Images** или **/Show: ALL**возвращает все метаданные образа из каждого изображения. Если параметр **/детаилед** не указан, по умолчанию возвращается имя образа, описание и имя файла. |

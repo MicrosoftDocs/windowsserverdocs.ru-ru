@@ -1,20 +1,18 @@
 ---
 title: logman update counter
 description: Справочная статья по команде Logman Update Counter, которая обновляет существующие свойства сборщика данных счетчиков.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 607df6d5-876c-428d-a0b3-f59cb244e2ce
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 4bfeb3bf8e0bc88bdefcee308d5c77121477b095
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 53f6bd33e73c469960e99acddc044d0afea55dc7
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85928589"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87887188"
 ---
 # <a name="logman-update-counter"></a>logman update counter
 
@@ -31,7 +29,7 @@ logman update counter <[-n] <name>> [options]
 ### <a name="parameters"></a>Параметры
 
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | -s`<computer name>` | Выполните команду на указанном удаленном компьютере. |
 | -config`<value>` | Указывает файл параметров, содержащий параметры команды. |
@@ -57,7 +55,7 @@ logman update counter <[-n] <name>> [options]
 | -SC`<value>` | Указывает максимальное число выборок, которые должны быть собраны с помощью сборщика данных счетчика производительности. |
 | /? | Отображает контекстную справку. |
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 - Где [-] присутствует, Добавление дополнительного дефиса (-) инвертирует параметр.
 

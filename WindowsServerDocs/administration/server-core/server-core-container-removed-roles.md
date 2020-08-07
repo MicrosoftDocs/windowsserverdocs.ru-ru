@@ -1,27 +1,26 @@
 ---
 title: Роли, службы ролей и компоненты, отсутствующие в контейнерах Server Core — Windows Server, версия 1803
 description: Сведения о ролях и функциях, удаленных из образа контейнера Server Core для Windows Server.
-ms.prod: windows-server
 ms.mktglfcycl: manage
 ms.sitesec: library
 author: lizap
 ms.localizationpriority: medium
 ms.date: 05/07/2018
-ms.openlocfilehash: 41b5a9ac32066f1b2a41de84f66b9be79252c336
-ms.sourcegitcommit: 6aff3d88ff22ea141a6ea6572a5ad8dd6321f199
+ms.openlocfilehash: f577ebd805e5373a10dd43a3d5054f92d4881c7d
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71383413"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87895912"
 ---
 # <a name="roles-role-services-and-features-not-in-server-core-containers---windows-server-version-1803"></a>Роли, службы ролей и компоненты, отсутствующие в контейнерах Server Core — Windows Server, версия 1803
 
-> Относится к: Windows Server версии 1803
+> Применяется к: Windows Server версии 1803
 
-В Windows Server версии 1803 мы [уменьшили общий размер образа контейнера Server Core до **1,58 Гб**](https://blogs.technet.microsoft.com/virtualization/2018/01/22/a-smaller-windows-server-core-container-with-better-application-compatibility/). Мы сделали это, оптимизируя архитектуру и удалив вещи, которые не нужны в [контейнере Server Core](https://docs.microsoft.com/virtualization/windowscontainers/about/). Некоторые были вещи, которые не работали в контейнерах, некоторые были роли и функции, которые никто не использовал. 
+В Windows Server версии 1803 мы [уменьшили общий размер образа контейнера Server Core до **1,58 Гб**](https://blogs.technet.microsoft.com/virtualization/2018/01/22/a-smaller-windows-server-core-container-with-better-application-compatibility/). Мы сделали это, оптимизируя архитектуру и удалив вещи, которые не нужны в [контейнере Server Core](https://docs.microsoft.com/virtualization/windowscontainers/about/). Некоторые были вещи, которые не работали в контейнерах, некоторые были роли и функции, которые никто не использовал.
 
 > [!IMPORTANT]
-> Мы удалили их из образа **контейнера** Server Core, а не [самого ядра сервера](server-core-roles-and-services.md). 
+> Мы удалили их из образа **контейнера** Server Core, а не [самого ядра сервера](server-core-roles-and-services.md).
 
 Ниже приведен полный список функций и ролей, удаленных из образа контейнера Server Core.
 
@@ -110,7 +109,7 @@ ms.locfileid: "71383413"
 <br>Серверфорнфс — инфраструктура
 <br>ServerManager-Core-RSAT-Feature-Tools
 <br>сервермедиафаундатион
-<br>сервермигратион
+<br>ServerMigration
 <br>сессиондиректори
 <br>сетупандбутевентколлектион
 <br>шиелдедвмтулсадминпакк

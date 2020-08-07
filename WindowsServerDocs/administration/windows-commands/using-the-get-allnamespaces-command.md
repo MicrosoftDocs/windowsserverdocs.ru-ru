@@ -1,20 +1,18 @@
 ---
 title: Get-Аллнамеспацес
 description: Справочная статья по команде Get-Аллнамеспацес, в которой отображаются сведения обо всех пространствах имен на сервере.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: e8fe896d-a69a-4180-923b-9f18185f5941
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: de44d659657a8d6df10c0f2ea7b7fb2a670b7f88
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 470aab904f9404b8dbe99409445b0533fa83fedd
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85935057"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87896394"
 ---
 # <a name="get-allnamespaces"></a>Get-Аллнамеспацес
 

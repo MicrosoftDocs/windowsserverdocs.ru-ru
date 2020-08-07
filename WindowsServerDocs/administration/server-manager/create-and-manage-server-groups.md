@@ -1,24 +1,22 @@
 ---
-title: Создание групп серверов и управление ими
-description: Диспетчер сервера
-ms.prod: windows-server
-ms.technology: manage-server-manager
+title: Create and Manage Server Groups
+description: Диспетчер серверов
 ms.topic: article
 ms.assetid: 9d5b1be8-49fd-4ff7-9580-e4ff21fe4b17
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 2f4ad512c55bcd1391ad55bdbdeb9a2ba3bfd7f0
-ms.sourcegitcommit: b00d7c8968c4adc8f699dbee694afe6ed36bc9de
+ms.openlocfilehash: 496d950f8b73b141821963a028b01c71d5375447
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "80851547"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87895792"
 ---
 # <a name="create-and-manage-server-groups"></a>Создание групп серверов и управление ими
 
->Область применения: Windows Server (Semi-Annual Channel), Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
+>Область применения. Windows Server (Semi-Annual Channel), Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
 В этом разделе описывается создание пользовательских групп серверов, определяемых пользователем, в диспетчер сервера в Windows Server.
 
@@ -39,7 +37,7 @@ ms.locfileid: "80851547"
 
 #### <a name="to-edit-an-existing-server-group"></a>Изменение существующей группы серверов
 
-1.  Выполните одно из указанных ниже действий.
+1.  Выполните одно из следующих действий.
 
     -   В области навигации диспетчер сервера щелкните правой кнопкой мыши группу серверов и выберите команду **изменить группу серверов**.
 
@@ -54,7 +52,7 @@ ms.locfileid: "80851547"
 
 #### <a name="to-delete-an-existing-server-group"></a>Удаление существующей группы серверов
 
-1.  Выполните одно из указанных ниже действий.
+1.  Выполните одно из следующих действий.
 
     -   В области навигации диспетчер сервера щелкните правой кнопкой мыши группу серверов и выберите команду **Удалить группу серверов**.
 
@@ -67,9 +65,9 @@ ms.locfileid: "80851547"
 
 3.  После изменения группы нажмите кнопку **ОК**.
 
-## <a name="see-also"></a>См. также
-[Добавление серверов в диспетчер сервера](add-servers-to-server-manager.md)
-[Диспетчер сервера](server-manager.md)
+## <a name="see-also"></a>См. также:
+[Добавление серверов в Диспетчер сервера](add-servers-to-server-manager.md) 
+ [Диспетчер сервера](server-manager.md)
 
 
 

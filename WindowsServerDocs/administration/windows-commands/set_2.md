@@ -1,20 +1,18 @@
 ---
 title: set_2
 description: Справочная статья по set_2, которая задает контекст, параметры, режим подробного протоколирования и файл метаданных для создания теневых копий.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: acf24663-1a50-4321-b48d-1717655e9476
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 1b25b30ad729eb4e1cbf455f02cdacc76c0a3ab3
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 9eb5b2032028dbe54680e1c197dc2f6fc09f3886
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85934637"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87882551"
 ---
 # <a name="set_2"></a>set_2
 

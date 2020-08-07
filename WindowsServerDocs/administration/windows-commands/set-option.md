@@ -1,20 +1,18 @@
 ---
 title: Параметр SET
 description: Справочная статья по параметру SET, который задает параметры создания теневых копий.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 4d8d4921-9fdd-4a3c-bb0f-9df5458c4b84
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: b7944cd51adffabdc85bc6d419b527b1b643d4a8
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 148efa02509678de65af7b2555094fbcb2a3fb55
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85937080"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87882601"
 ---
 # <a name="set-option"></a>Параметр SET
 
@@ -28,7 +26,7 @@ set option {[differential | plex] [transportable] [[rollbackrecover] [txfrecover
 
 ### <a name="parameters"></a>Параметры
 
-|     Параметр     |                                                                                                  Описание                                                                                                  |
+|     Параметр     |                                                                                                  Описание:                                                                                                  |
 |-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |   [разностный   |                                                                                                     плексов                                                                                                     |
 |  переносимыми  |                       Указывает, что теневая копия еще не импортирована. Впоследствии файл metadata. CAB можно использовать для импорта теневой копии на тот же или другой компьютер.                       |

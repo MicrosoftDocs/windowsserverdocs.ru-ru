@@ -1,20 +1,18 @@
 ---
 title: wscript
 description: Справочная статья по WScript, которая предоставляет среду, в которой пользователи могут выполнять сценарии на различных языках, использующих разнообразные объектные модели для выполнения задач.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 2fbaf193-cdbd-414c-84c9-bb5720f84c29
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 08/21/2018
-ms.openlocfilehash: a07ad9b33000b17f5c6f41835a1a36531b3945af
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 4d3ab5d04423a093b280b8468c7e85aad3519dcb
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86958886"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87896443"
 ---
 # <a name="wscript"></a>wscript
 
@@ -30,7 +28,7 @@ wscript [<scriptname>] [/b] [/d] [/e:<engine>] [{/h:cscript|/h:wscript}] [/i] [/
 
 #### <a name="parameters"></a>Параметры
 
-|Параметр|Описание|
+|Параметр|Описание:|
 |---------|-----------|
 |scriptname|Указывает путь и имя файла скрипта.|
 |/b|Задает пакетный режим, при котором не отображаются предупреждения, ошибки сценариев или входные запросы. Это противоположность **/i**.|
@@ -48,7 +46,7 @@ wscript [<scriptname>] [/b] [/d] [/e:<engine>] [{/h:cscript|/h:wscript}] [/i] [/
 |скриптаргументс|Задает аргументы, передаваемые в скрипт. Каждому аргументу сценария должна предшествовать косая черта (/).|
 |/?|Отображает справку в командной строке.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 -   Для выполнения этой задачи не требуются административные учетные данные. Поэтому рекомендуется выполнять эту задачу от имени пользователя без административных учетных данных.
 -   Чтобы открыть окно командной строки, на **начальном экране** введите **cmd**, а затем щелкните **командную строку**.

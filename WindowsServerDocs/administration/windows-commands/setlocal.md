@@ -1,20 +1,18 @@
 ---
 title: setlocal
 description: Справочная статья по setlocal, которая начинает локализацию переменных среды в пакетном файле.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: e4e4b6d3-3f1a-4851-a782-25ee2470e16e
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 4e990cf931e72bd8f6972db448d24db08c2e5208
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 30b84c9dcaf741c57393e680d3f9c9cb7b92f19b
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85934613"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87882530"
 ---
 # <a name="setlocal"></a>setlocal
 
@@ -38,7 +36,7 @@ setlocal [enableextensions | disableextensions] [enabledelayedexpansion | disabl
 |дисабледелайедекспансион|Отключает расширение переменной среды с задержкой до тех пор, пока не будет обнаружена соответствующая команда **endlocal** , независимо от значения параметра до выполнения команды **setlocal** .|
 |/?|Отображение справки в командной строке.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 -   Использование команды **setlocal**
 

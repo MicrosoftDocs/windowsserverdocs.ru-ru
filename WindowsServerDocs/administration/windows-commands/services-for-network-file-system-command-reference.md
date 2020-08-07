@@ -1,20 +1,18 @@
 ---
 title: Справочник по командам службы для NFS
 description: Справочная статья для * * * *-
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 06c81f88-a672-4405-9b73-085f8933114c
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: bd729c6d363beaf31e7753ba01622b7ed9b395bf
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 4f471557214f51464c2f1285b64a76084ea1a487
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85937127"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87882710"
 ---
 # <a name="services-for-network-file-system-command-reference"></a>Справочник по командам службы для NFS
 
@@ -22,7 +20,7 @@ ms.locfileid: "85937127"
 Ниже приведен список программ командной строки NFS.
 
 
-| Команда | Описание |
+| Get-Help | Описание |
 | ------- | ----------- |
 | [mapadmin](mapadmin.md) | Управление сопоставление имен пользователей для служб Майкрософт для сетевой файловой системы. |
 | [Подключение](mount.md) | Подключите сетевые общие папки NFS. |

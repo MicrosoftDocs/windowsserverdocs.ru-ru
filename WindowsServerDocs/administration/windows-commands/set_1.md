@@ -1,20 +1,18 @@
 ---
 title: set
 description: Справочная статья по набору, который отображает, устанавливает или удаляет переменные среды cmd.exe.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 5fdd60d6-addf-4574-8c92-8aa53fa73d76
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 34c8abf01e7dbde7a8f175ac8691e5731a04be45
-ms.sourcegitcommit: 3632b72f63fe4e70eea6c2e97f17d54cb49566fd
+ms.openlocfilehash: 64d9668e3ff0b0b366a2009cdaa4f2eaf52edfa0
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87519663"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87882543"
 ---
 # <a name="set"></a>set
 
@@ -30,7 +28,7 @@ set /a <Variable>=<Expression>
 
 ### <a name="parameters"></a>Параметры
 
-|Параметр|Описание|
+|Параметр|Описание:|
 |---------|-----------|
 |\<Variable>|Задает переменную среды, которую необходимо задать или изменить.|
 |\<String>|Указывает строку, связываемую с указанной переменной среды.|
@@ -40,7 +38,7 @@ set /a <Variable>=<Expression>
 |\<Expression>|Задает числовое выражение. Допустимые операторы, которые можно использовать в *выражении*, см. в разделе Примечания.|
 |/?|Отображение справки в командной строке.|
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 - Использование **Set** с включенными расширениями команд
 

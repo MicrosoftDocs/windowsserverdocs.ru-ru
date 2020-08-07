@@ -1,18 +1,16 @@
 ---
 title: Конфигурация Hyper-V
 description: Вопросы настройки Hyper-V для настройки производительности
-ms.prod: windows-server
-ms.technology: performance-tuning-guide
 ms.topic: article
 ms.author: asmahi; sandysp; jopoulso
 author: phstee
 ms.date: 10/16/2017
-ms.openlocfilehash: 3fb1001c99e084ab69f37db9779e5d5ae7acf58e
-ms.sourcegitcommit: 771db070a3a924c8265944e21bf9bd85350dd93c
+ms.openlocfilehash: 02f2849b7259379ebf6beed927601b13966a7704
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85471439"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87896143"
 ---
 # <a name="hyper-v-configuration"></a>Конфигурация Hyper-V
 

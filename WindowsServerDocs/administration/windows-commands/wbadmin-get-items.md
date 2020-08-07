@@ -1,20 +1,18 @@
 ---
 title: wbadmin get items
 description: Справочная статья по Wbadmin get Items, в которой перечислены элементы, входящие в конкретную резервную копию.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 27d08ce3-6e06-4260-b264-fc1bde132d09
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 122fa2033ca553f50a7ddf380faa4a31dbb150cd
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 36f3ca0d114cd31b8211e63d9d9dc9c415c5b216
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86954646"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87896330"
 ---
 # <a name="wbadmin-get-items"></a>wbadmin get items
 
@@ -35,7 +33,7 @@ wbadmin get items
 
 ### <a name="parameters"></a>Параметры
 
-|Параметр|Описание|
+|Параметр|Описание:|
 |---------|-----------|
 |-version|Указывает версию резервной копии в формате мм/дд/гггг-чч: мм. Если информация о версии неизвестна, введите команду **Wbadmin get versions**.|
 |-backupTarget|Задает место хранения, в котором содержатся резервные копии, для которых необходимо получить сведения. Используется для перечисления резервных копий, хранящихся в этом целевом расположении. Целевыми расположениями резервного копирования может быть локальный подключенный диск или удаленная общая папка. Если программа **Wbadmin get Items**выполняется на том же компьютере, где была создана резервная копия, этот параметр не требуется. Однако этот параметр необходим для получения сведений о резервной копии, созданной с другого компьютера.|

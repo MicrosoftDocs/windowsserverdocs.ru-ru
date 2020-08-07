@@ -1,18 +1,16 @@
 ---
 title: Производительность процессора Hyper-V
 description: Вопросы производительности процессора при настройке производительности Hyper-V
-ms.prod: windows-server
-ms.technology: performance-tuning-guide
 ms.topic: article
 ms.author: asmahi; sandysp; jopoulso
 author: phstee
 ms.date: 10/16/2017
-ms.openlocfilehash: d165413dfbf89b2debd77806110ca80e9b6af7c8
-ms.sourcegitcommit: 771db070a3a924c8265944e21bf9bd85350dd93c
+ms.openlocfilehash: ab68975c84e1b299914e09045eddbc302ca9697f
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85471299"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87896078"
 ---
 # <a name="hyper-v-processor-performance"></a>Производительность процессора Hyper-V
 

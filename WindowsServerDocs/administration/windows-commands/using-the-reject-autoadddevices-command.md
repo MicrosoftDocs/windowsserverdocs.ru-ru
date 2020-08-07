@@ -1,20 +1,18 @@
 ---
 title: Отклонить — Аутоадддевицес
 description: Справочная статья по отклону Аутоадддевицес, которая отклоняет компьютеры, ожидающие административного утверждения.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: ea25a4b2-5fad-4360-9c47-c2c9df7ea31f
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 2b678f7a9fc875dfeebf735475db3adfb7ad9ae7
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 7b6b134b89040982325d55822583475fe91044cd
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85932420"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87896353"
 ---
 # <a name="reject-autoadddevices"></a>Отклонить — Аутоадддевицес
 
@@ -26,7 +24,7 @@ ms.locfileid: "85932420"
 wdsutil [Options] /Reject-AutoaddDevices [/Server:<Server name>] /RequestId:<Request ID or ALL>
 ```
 ### <a name="parameters"></a>Параметры
-|Параметр|Описание|
+|Параметр|Описание:|
 |-------|--------|
 |[/Server: <Server name> ]|Указывает имя сервера. Это может быть либо NetBIOS-имя, либо полное доменное имя (FQDN). Если имя сервера не указано, будет использоваться локальный сервер.|
 |/Рекуестид: идентификатор запроса <&#124; все>|Указывает идентификатор запроса, назначенный ожидающему компьютеру. Чтобы отклонить все ожидающие компьютеры, укажите **все**.|

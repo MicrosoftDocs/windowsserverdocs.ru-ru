@@ -1,20 +1,18 @@
 ---
 title: sort
 description: Справочная статья по сортировке, которая считывает ввод, сортирует данные и записывает результаты на экран, в файл или на другое устройство.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 77116469-4790-4442-8a21-9fa73b65ef9f
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: a3246745a2dceddec6cb1a66a4316ea7a8acb522
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: ec95133af8e9c2c617fedc3bf6a3085a6663b104
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85937067"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87882357"
 ---
 # <a name="sort"></a>sort
 
@@ -30,7 +28,7 @@ sort [/r] [/+<N>] [/m <Kilobytes>] [/l <Locale>] [/rec <Characters>] [[<Drive1>:
 
 ### <a name="parameters"></a>Параметры
 
-|Параметр|Описание|
+|Параметр|Описание:|
 |---------|-----------|
 |/r|Меняет порядок сортировки на обратный (т. е. Сортировка от Z к A и от 9 до 0).|
 |/+\<N>|Указывает номер позиции символа, где **Сортировка** будет начинать каждое сравнение. *N* может быть любым допустимым целым числом.|
@@ -42,7 +40,7 @@ sort [/r] [/+<N>] [/m <Kilobytes>] [/l <Locale>] [/rec <Characters>] [[<Drive1>:
 |/o [ \<Drive3> :] [ \<Path3> ]\<FileName3>|Указывает файл, в котором должны храниться отсортированные входные данные. Если этот параметр не указан, данные записываются в стандартный вывод. Указание выходного файла выполняется быстрее, чем перенаправление стандартных выходных данных в один и тот же файл.|
 |/?|Отображение справки в командной строке.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 -   Использование **/+** параметра командной строки
 

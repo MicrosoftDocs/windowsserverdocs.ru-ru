@@ -1,18 +1,16 @@
 ---
 title: Производительность операций ввода-вывода хранилища Hyper-V
 description: Вопросы производительности операций ввода-вывода хранилища в настройке производительности Hyper-V
-ms.prod: windows-server
-ms.technology: performance-tuning-guide
 ms.topic: article
 ms.author: asmahi; sandysp; jopoulso
 author: phstee
 ms.date: 10/16/2017
-ms.openlocfilehash: c77f084e06e71c9aafd658b59ff385af85ef0b9d
-ms.sourcegitcommit: 771db070a3a924c8265944e21bf9bd85350dd93c
+ms.openlocfilehash: 6322d7f32c78109623a06a7674c08f76a2d5d542
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85471319"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87896089"
 ---
 # <a name="hyper-v-storage-io-performance"></a>Производительность операций ввода-вывода хранилища Hyper-V
 

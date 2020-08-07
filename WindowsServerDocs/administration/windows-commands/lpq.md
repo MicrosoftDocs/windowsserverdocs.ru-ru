@@ -1,20 +1,18 @@
 ---
 title: lpq
 description: Справочная статья по команде lpq, которая отображает состояние очереди печати на компьютере, на котором запущена управляющая программа командной строки (LPD).
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: bb6abcc4-310a-4fa4-927b-4084b62ca02e
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 373b1af5acbc43cbf52c45667c6feb571f1855a8
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 550e94455ed7c57e723edb6608c42820e81fba0b
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85934551"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87887062"
 ---
 # <a name="lpq"></a>lpq
 
@@ -30,7 +28,7 @@ lpq -S <servername> -P <printername> [-l]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | -S`<servername>` | Указывает (по имени или IP-адресу) устройство общего доступа к компьютеру или принтеру, на котором размещена очередь печати LPD, с состоянием, которое необходимо отобразить. Этот параметр является обязательным и должен быть прописным. |
 | -P`<Printername>` | Указывает (по имени) принтер для очереди печати с состоянием, которое необходимо отобразить. Этот параметр является обязательным и должен быть прописным. |

@@ -1,20 +1,18 @@
 ---
 title: logoff
 description: Справочная статья по команде logoff, которая выполнит выход пользователя из сеанса на удаленный рабочий стол сервере узла сеансов и удалит сеанс.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 939f09cc-de8c-436c-a05d-aca5f2a06371
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: d154b767302f5c536e0a7efb30d99ac0a8e087d5
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: b8eb1b13d7eeddc03ead24bcda10062aea5e1cfe
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85927164"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87887073"
 ---
 # <a name="logoff"></a>logoff
 
@@ -29,7 +27,7 @@ logoff [<sessionname> | <sessionID>] [/server:<servername>] [/v]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | `<sessionname>` | Указывает имя сеанса. Это должен быть активный сеанс.|
 | `<sessionID>` | Указывает числовой идентификатор, определяющий сеанс на сервере. |
@@ -37,7 +35,7 @@ logoff [<sessionname> | <sessionID>] [/server:<servername>] [/v]
 | /v | Отображает сведения о выполняемых действиях. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 - Вы всегда можете выйти из сеанса, к которому в данный момент выполнен вход. Однако необходимо иметь разрешение « **полный** доступ» для выхода пользователей из других сеансов.
 

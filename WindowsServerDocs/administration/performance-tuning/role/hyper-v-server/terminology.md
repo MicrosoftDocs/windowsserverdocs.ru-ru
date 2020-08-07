@@ -1,18 +1,16 @@
 ---
 title: Терминология Hyper-V
 description: Терминология Hyper-v, полезная для настройки производительности Hyper-V
-ms.prod: windows-server
-ms.technology: performance-tuning-guide
 ms.topic: article
 ms.author: asmahi; sandysp; jopoulso
 author: phstee
 ms.date: 10/16/2017
-ms.openlocfilehash: bba2ef96be812c930fbf0c93d3c3c612fa9c9c5a
-ms.sourcegitcommit: 771db070a3a924c8265944e21bf9bd85350dd93c
+ms.openlocfilehash: 78552615dd67d79b8c0f4f700068fd302256a567
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85471269"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87896063"
 ---
 # <a name="hyper-v-terminology"></a>Терминология Hyper-V
 В этом разделе обобщены основные термины, относящиеся к технологиям виртуальных машин, используемым в рамках этой статьи по настройке производительности.

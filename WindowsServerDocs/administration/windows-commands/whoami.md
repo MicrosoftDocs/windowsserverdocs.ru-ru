@@ -1,20 +1,18 @@
 ---
 title: whoami
 description: Справочная статья для whoami, отображающая сведения о пользователе, группе и привилегии для пользователя, который в данный момент вошел в локальную систему.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 6e3f4d5c-f1f5-4429-b602-afad2b3488bf
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 7a8ab5b02ab8670145887bcbf1ecfaa5efac95ad
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: bdcef4072fe692f2717fe79814af926a2c151636
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85936587"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87896499"
 ---
 # <a name="whoami"></a>whoami
 
@@ -34,7 +32,7 @@ whoami /all [/fo <Format>] [/nh]
 
 ### <a name="parameters"></a>Параметры
 
-|Параметр|Описание|
+|Параметр|Описание:|
 |---------|-----------|
 |/упн|Отображает имя пользователя в формате имени участника-пользователя (UPN).|
 |/фкдн|Отображает имя пользователя в формате полного доменного имени (FQDN).|

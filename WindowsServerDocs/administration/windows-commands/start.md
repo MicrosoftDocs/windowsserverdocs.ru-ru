@@ -1,22 +1,20 @@
 ---
-title: start
+title: запуск
 description: Справочная статья для Start, которая запускает отдельное окно командной строки для запуска указанной программы или команды.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 0173f9b3-5cd7-4edb-b01e-d02193b4fadc
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: f8864edd1f108ac0408b6b9f899c72e70e22922f
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 54ec76cf6162cd887b21f99b6579fc123f4f614c
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85937057"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87882295"
 ---
-# <a name="start"></a>start
+# <a name="start"></a>запуск
 
 Запускает отдельное окно командной строки для запуска указанной программы или команды.
 
@@ -30,7 +28,7 @@ start [<Title>] [/d <Path>] [/i] [{/min | /max}] [{/separate | /shared}] [{/low 
 
 ### <a name="parameters"></a>Параметры
 
-|Параметр|Описание|
+|Параметр|Описание:|
 |---------|-----------|
 |\<Title>|Задает заголовок, отображаемый в строке заголовка окна командной строки.|
 |/d\<Path>|Указывает каталог запуска.|
@@ -46,7 +44,7 @@ start [<Title>] [/d <Path>] [/i] [{/min | /max}] [{/separate | /shared}] [{/low 
 |\<Parameter>...|Указывает параметры для передачи в команду или программу.|
 |/?|Отображение справки в командной строке.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 - Можно запускать неисполняемые файлы с помощью сопоставления файлов, вводя имя файла в виде команды.
 - При выполнении команды, содержащей строку CMD в качестве первого маркера без квалификатора расширения или пути, команда CMD заменяется значением переменной COMSPEC. Это не позволяет пользователям выбирать **cmd** из текущего каталога.

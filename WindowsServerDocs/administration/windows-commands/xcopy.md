@@ -1,20 +1,18 @@
 ---
 title: xcopy
 description: Справочная статья по Xcopy, в которой копируются файлы и каталоги, включая подкаталоги.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 76a310d7-9925-4571-a252-0e28960d5f89
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 01/05/2019
-ms.openlocfilehash: e33450cd330ac962c111b145d71c2595f926da2c
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 9d2ac59abbeb8caffb3b5d94bf514a7c6daca4e9
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85936059"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87896434"
 ---
 # <a name="xcopy"></a>xcopy
 
@@ -64,7 +62,7 @@ Xcopy <Source> [<Destination>] [/w] [/p] [/c] [/v] [/q] [/f] [/l] [/g] [/d [:MM-
 |/j|Копирует файлы без буферизации. Рекомендуется для очень больших файлов. Этот параметр был добавлен в Windows Server 2008 R2.|
 |/?|Отображение справки в командной строке.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 - Использование **/z**
 
@@ -213,5 +211,5 @@ rem  3 File(s) copied
 - [Команды](dir.md)
 - [Атрибуты](attrib.md)
 - [Экран](diskcopy.md)
-- [Наличии](if.md)
+- [Если оператор](if.md)
 - [Условные обозначения синтаксиса команд командной строки](command-line-syntax-key.md)

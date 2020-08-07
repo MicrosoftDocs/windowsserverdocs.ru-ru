@@ -1,20 +1,18 @@
 ---
 title: Get-Транспортсервер
 description: Справочная статья по команде Get-Транспортсервер, которая отображает сведения о указанном транспортном сервере.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: de634123-0179-41b2-9c6f-726508130ff5
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 115942290679decd8b8c660e4113576efb30123d
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: bebe03058544591d98dd827325b9740fb0fa65df
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85932176"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87896374"
 ---
 # <a name="get-transportserver"></a>Get-Транспортсервер
 
@@ -27,7 +25,7 @@ ms.locfileid: "85932176"
 wdsutil [Options] /Get-TransportServer [/Server:<Server name>] /Show:{Config}
 ```
 ### <a name="parameters"></a>Параметры
-|Параметр|Описание|
+|Параметр|Описание:|
 |-------|--------|
 |[/Server: <Server name> ]|Указывает имя сервера. Это может быть либо NetBIOS-имя, либо полное доменное имя (FQDN). Если имя сервера не указано, будет использоваться локальный сервер.|
 |/Show: {config}|Возвращает сведения о конфигурации указанного транспортного сервера.|

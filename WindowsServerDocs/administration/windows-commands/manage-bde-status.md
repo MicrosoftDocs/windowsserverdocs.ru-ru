@@ -1,20 +1,18 @@
 ---
 title: Управление — состояние BDE
 description: Справочная статья по команде Manage-bde status, которая предоставляет сведения обо всех дисках на компьютере независимо от того, защищены ли они с помощью BitLocker.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 1444a360-fabf-4dd3-b67f-188e6ea3fa5b
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 20430899b8259207f228219cf0d2ac516866714a
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: cab8f552cd633e5e71a13993fd2223062125f02f
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85922216"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87886698"
 ---
 # <a name="manage-bde-status"></a>Управление — состояние BDE
 
@@ -46,7 +44,7 @@ manage-bde -status [<drive>] [-protectionaserrorlevel] [-computername <name>] [{
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | `<drive>` | Представляет букву диска, за которой следует двоеточие. |
 | -протектионасеррорлевел | Приводит к тому, что программа командной строки Manage-bde отправляет код возврата **0** , если том защищен, и **1** , если этот том не защищен. чаще всего используется для пакетных сценариев, чтобы определить, защищен ли диск BitLocker. Можно также использовать параметр **-p** в качестве сокращенной версии этой команды. |

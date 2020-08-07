@@ -1,18 +1,16 @@
 ---
 title: Производительность операций ввода-вывода в сети Hyper-V
 description: Вопросы производительности сетевых операций ввода-вывода в настройке производительности Hyper-V
-ms.prod: windows-server
-ms.technology: performance-tuning-guide
 ms.topic: article
 ms.author: asmahi; sandysp; jopoulso
 author: phstee
 ms.date: 10/16/2017
-ms.openlocfilehash: dcf43bf41edada0a2e3df6fde825ff128a119a8f
-ms.sourcegitcommit: 771db070a3a924c8265944e21bf9bd85350dd93c
+ms.openlocfilehash: b21ed45b97b1bc657b8a77ac7731dd32f5090c3d
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85471359"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87896103"
 ---
 # <a name="hyper-v-network-io-performance"></a>Производительность операций ввода-вывода в сети Hyper-V
 

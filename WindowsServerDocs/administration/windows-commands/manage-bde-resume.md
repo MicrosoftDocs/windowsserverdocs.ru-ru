@@ -1,20 +1,18 @@
 ---
 title: Управление — возобновление BDE
 description: Справочная статья по команде "Управление возобновлением с помощью BDE", которая возобновляет шифрование или расшифровку BitLocker после приостановки.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: ca3cd1ca-6f2c-4190-b68f-27816635facb
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: d5bbdf58f290dc18c299a3cfdb8aca7bfd0e69e6
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 76eca472da7068511497a797aa31f91adad423ea
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85922297"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87886747"
 ---
 # <a name="manage-bde-resume"></a>Управление — возобновление BDE
 
@@ -28,7 +26,7 @@ manage-bde -resume [<drive>] [-computername <name>] [{-?|/?}] [{-help|-h}]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | `<drive>` | Представляет букву диска, за которой следует двоеточие. |
 | -ComputerName | Указывает, что manage-bde.exe будет использоваться для изменения защиты BitLocker на другом компьютере. Можно также использовать параметр **-CN** в качестве сокращенной версии этой команды. |

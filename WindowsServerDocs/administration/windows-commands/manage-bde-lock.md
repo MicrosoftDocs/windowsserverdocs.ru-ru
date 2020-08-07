@@ -1,20 +1,18 @@
 ---
 title: Управление — блокировка BDE
 description: Справочная статья по команде Manage-bde Lock, которая блокирует диск, защищенный BitLocker, чтобы предотвратить доступ к нему, если не указан ключ блокировки.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: b8858e61-3a7e-4d03-8c98-5c09853f35e8
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: b67342579c827ad195ddf506e529fbfb370a6d94
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 2a1c7fd743832caaacec46ff2fdc7008983b8472
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85931622"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87886858"
 ---
 # <a name="manage-bde-lock"></a>Управление — блокировка BDE
 
@@ -28,7 +26,7 @@ manage-bde -lock [<drive>] [-computername <name>] [{-?|/?}] [{-help|-h}]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | `<drive>` | Представляет букву диска, за которой следует двоеточие. |
 | -ComputerName | Указывает, что manage-bde.exe будет использоваться для изменения защиты BitLocker на другом компьютере. Можно также использовать параметр **-CN** в качестве сокращенной версии этой команды. |

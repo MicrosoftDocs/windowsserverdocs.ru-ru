@@ -1,20 +1,18 @@
 ---
 title: winsat mem
 description: Справочная статья по MEM в службе WinSAT, которая проверяет пропускную способность системной памяти в виде отражения больших объемов памяти для копирования буферов памяти, как используется при обработке мультимедийных данных.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 winms.topic: article
 ms.assetid: cda017bf-6193-43c1-b71f-e379c23e1152
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: f7ddb18a923358997d2882cce0d3ae1e261061ef
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 928c0b7389af4c2417fe62af1aeae4f9a90856a4
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85936098"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87896482"
 ---
 # <a name="winsat-mem"></a>winsat mem
 
@@ -32,7 +30,7 @@ winsat mem <parameters>
 
 ### <a name="parameters"></a>Параметры
 
-|Параметр|Описание|
+|Параметр|Описание:|
 |---------|-----------|
 |-Up|Принудительное тестирование памяти с использованием только одного потока. По умолчанию запускается один поток для каждого физического ЦП или ядра.|
 |-RN|Укажите, что потоки оценки должны выполняться с нормальным приоритетом. Значение по умолчанию — запуск с приоритетом 15.|
@@ -56,7 +54,7 @@ winsat mem <parameters>
   winsat mem -mint 4.0 -maxt 12.0 -buffersize 32MB -xml memtest.xml
   ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 -   Членство в группе локальных администраторов или эквивалентной является минимальным требованием для использования **WinSAT**. Команда должна быть выполнена из окна командной строки с повышенными привилегиями.
 -   Чтобы открыть окно командной строки с повышенными привилегиями, нажмите кнопку **Пуск**, выберите пункт **стандартные**, щелкните правой кнопкой мыши пункт **Командная строка**и выберите команду **Запуск от имени администратора**.

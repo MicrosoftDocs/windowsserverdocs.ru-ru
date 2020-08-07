@@ -1,22 +1,21 @@
 ---
 title: Роли, службы ролей и компоненты, отсутствующие в Windows Server — Server Core
 description: Сведения о ролях и компонентах, не включенных в вариант установки Server Core для Windows Server.
-ms.prod: windows-server
 ms.mktglfcycl: manage
 ms.sitesec: library
 author: lizap
 ms.localizationpriority: medium
 ms.date: 02/23/2018
-ms.openlocfilehash: ce8fd0edc426b673f873717a27e6045e3476170f
-ms.sourcegitcommit: 6aff3d88ff22ea141a6ea6572a5ad8dd6321f199
+ms.openlocfilehash: b2dd8012048d2a055fc412676874170395c597cd
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71383363"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87895875"
 ---
 # <a name="roles-role-services-and-features-not-in-windows-server---server-core"></a>Роли, службы ролей и компоненты, отсутствующие в Windows Server — Server Core
 
-> Относится к: Windows Server 2019, Windows Server 2016 и Windows Server (половина ежегодного канала)
+> Область применения: Windows Server 2019, Windows Server 2016 и Windows Server (половина ежегодного канала)
 
 Следующие роли, службы ролей и компоненты были удалены из варианта установки Server Core Windows Server. Используйте эти сведения, чтобы определить, работает ли параметр Server Core для вашей среды.
 

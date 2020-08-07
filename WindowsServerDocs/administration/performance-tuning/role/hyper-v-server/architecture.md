@@ -1,18 +1,16 @@
 ---
 title: Архитектура Hyper-V
 description: Архитектура Hyper-v кондсидератионс для настройки производительности
-ms.prod: windows-server
-ms.technology: performance-tuning-guide
 ms.topic: article
 ms.author: asmahi; sandysp; jopoulso
 author: phstee
 ms.date: 10/16/2017
-ms.openlocfilehash: fd154ef12bd356d872229cc5cb67a7b8d3e0e628
-ms.sourcegitcommit: 771db070a3a924c8265944e21bf9bd85350dd93c
+ms.openlocfilehash: 62b7d0a235285e0e85d38860f629dfe046eee0c6
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85471499"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87896164"
 ---
 # <a name="hyper-v-architecture"></a>Архитектура Hyper-V
 

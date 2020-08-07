@@ -1,18 +1,16 @@
 ---
 title: Вопросы создания модулей PowerShell
 description: Вопросы создания модулей PowerShell
-ms.prod: windows-server
-ms.technology: performance-tuning-guide
 ms.topic: article
 ms.author: jasonsh
 author: lzybkr
 ms.date: 10/16/2017
-ms.openlocfilehash: 25b202e56286b7c26c3150642a656eb31a120808
-ms.sourcegitcommit: b00d7c8968c4adc8f699dbee694afe6ed36bc9de
+ms.openlocfilehash: bb22009262cc1ae713846779c6b24402e3ed7928
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "80851937"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87896268"
 ---
 # <a name="powershell-module-authoring-considerations"></a>Вопросы создания модулей PowerShell
 
@@ -26,12 +24,12 @@ ms.locfileid: "80851937"
 Результаты анализа модулей кэшируются для каждого пользователя, но кэш недоступен при первом запуске, что является типичным сценарием с контейнерами.
 При анализе модуля, если экспортированные команды могут быть полностью определены из манифеста, можно избежать более дорогостоящего анализа модуля.
 
-### <a name="guidelines"></a>Руководство
+### <a name="guidelines"></a>Рекомендации
 
-* В манифесте модуля не используйте подстановочные знаки в записях `AliasesToExport`, `CmdletsToExport`и `FunctionsToExport`.
+* В манифесте модуля не используйте подстановочные знаки в `AliasesToExport` `CmdletsToExport` `FunctionsToExport` записях, и.
 
-* Если модуль не экспортирует команды определенного типа, явно укажите его в манифесте, указав `@()`.
-Отсутствующая или `$null` запись эквивалентна указанию `*`с подстановочными знаками.
+* Если модуль не экспортирует команды определенного типа, явно укажите его в манифесте, указав `@()` .
+Отсутствующий `$null` элемент or эквивалентен указанию подстановочного знака `*` .
 
 По возможности следует избегать следующих действий:
 
@@ -59,7 +57,7 @@ ms.locfileid: "80851937"
 
 При принятии решения о реализации модуля можно выбрать три основных варианта:
 
-* Двоичный ( C#обычно)
+* Двоичный (обычно C#)
 * Script (PowerShell)
 * CDXML (обтекание CIM XML-файла)
 

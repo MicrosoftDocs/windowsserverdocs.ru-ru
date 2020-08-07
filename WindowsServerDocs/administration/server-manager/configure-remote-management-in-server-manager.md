@@ -1,24 +1,22 @@
 ---
 title: Настройка удаленного управления в диспетчер сервера
-description: Диспетчер сервера
-ms.prod: windows-server
-ms.technology: manage-server-manager
+description: Диспетчер серверов
 ms.topic: article
 ms.assetid: 509182ed-c37d-4b81-84bc-aee43d006873
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 01bc2d2d262882c08d1213bae6149896a8b284ab
-ms.sourcegitcommit: b00d7c8968c4adc8f699dbee694afe6ed36bc9de
+ms.openlocfilehash: b0d2369bd42fc884b1a401fc1450dbe9d1e47663
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "80851567"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87895809"
 ---
 # <a name="configure-remote-management-in-server-manager"></a>Настройка удаленного управления в диспетчер сервера
 
->Область применения: Windows Server (Semi-Annual Channel), Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
+>Область применения. Windows Server (Semi-Annual Channel), Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
 В Windows Server можно использовать диспетчер сервера для выполнения задач управления на удаленных серверах. удаленное управление включено по умолчанию на серверах под управлением Windows Server 2016. Чтобы удаленно управлять сервером с помощью диспетчер сервера, необходимо добавить сервер в пул серверов диспетчер сервера.
 
@@ -29,8 +27,8 @@ ms.locfileid: "80851567"
 |Операционная система|Необходимое программное обеспечение|Управляемость|
 |----------|-----------|---------|
 | Windows Server 2012 R2 или Windows Server 2012 |-   [.NET Framework 4,6](https://www.microsoft.com/download/details.aspx?id=45497)<br />-   [Windows Management Framework 5,0](https://go.microsoft.com/fwlink/?LinkID=395058). В Windows Server 2012 R2, Windows Server 2012 и Windows Server 2008 R2 поставщики инструментарий управления Windows (WMI) загрузить обновления для пакета управления Microsoft Management Framework 5,0 (WMI). Обновленные поставщики WMI позволяют диспетчер сервера собираются сведения о ролях и компонентах, установленных на управляемых серверах. До применения обновления серверы, работающие под управлением Windows Server 2012 R2, Windows Server 2012 или Windows Server 2008 R2, имеют состояние управляемости **недоступно**.<br />— Обновление для повышения производительности, связанное с [статьей базы знаний 2682011](https://go.microsoft.com/fwlink/p/?LinkID=245487) , больше не требуется на серверах под управлением windows Server 2012 R2 или windows Server 2012.||
-| Windows Server 2008 R2 |-   [.NET Framework 4,5](https://www.microsoft.com/download/details.aspx?id=30653)<br />-   [Windows Management Framework 4,0](https://go.microsoft.com/fwlink/?LinkId=293881). Windows Management Framework 4,0 downloads Package Updates инструментарий управления Windows (WMI) (WMI) providers in Windows Server 2008 R2. Обновленные поставщики WMI позволяют диспетчер сервера собираются сведения о ролях и компонентах, установленных на управляемых серверах. До применения обновления серверы, работающие под управлением Windows Server 2008 R2, имеют состояние управляемости **недоступно**.<br />— Обновление производительности, связанное с [статьей базы знаний 2682011](https://go.microsoft.com/fwlink/p/?LinkID=245487) , позволяет диспетчер сервера собираются данные производительности с Windows Server 2008 R2.||
-| Windows Server 2008 |-   [.NET Framework 4](https://www.microsoft.com/download/en/details.aspx?id=17718)<br />-   [Windows Management framework 3,0](https://go.microsoft.com/fwlink/p/?LinkID=229019) . в windows Server 2008 поставщики Windows management Framework 3,0 скачивать пакеты обновления инструментарий управления Windows (WMI) (WMI). Обновленные поставщики WMI позволяют диспетчер сервера собираются сведения о ролях и компонентах, установленных на управляемых серверах. Пока обновление не будет применено, серверы, работающие под управлением Windows Server 2008, имеют состояние управляемости **недоступно. Проверьте более ранние версии запуска Windows Management Framework 3,0**.<br />— Обновление производительности, связанное с [статьей базы знаний 2682011](https://go.microsoft.com/fwlink/p/?LinkID=245487) , позволяет диспетчер сервера собираются данные производительности с Windows Server 2008.||
+| Windows Server 2008 R2 |-   [.NET Framework 4,5](https://www.microsoft.com/download/details.aspx?id=30653)<br />-   [Windows Management Framework 4,0](https://go.microsoft.com/fwlink/?LinkId=293881). Windows Management Framework 4,0 downloads Package Updates инструментарий управления Windows (WMI) (WMI) providers in Windows Server 2008 R2. Обновленные поставщики WMI позволяют диспетчер сервера собираются сведения о ролях и компонентах, установленных на управляемых серверах. До применения обновления серверы, работающие под управлением Windows Server 2008 R2, имеют состояние управляемости **недоступно**.<br />— Обновление производительности, связанное с [статьей базы знаний 2682011](https://go.microsoft.com/fwlink/p/?LinkID=245487) , позволяет диспетчер сервера собираются данные производительности с Windows Server 2008 R2.||
+| Windows Server 2008 |-   [.NET Framework 4](https://www.microsoft.com/download/en/details.aspx?id=17718)<br />-   [Windows Management Framework 3,0](https://go.microsoft.com/fwlink/p/?LinkID=229019) Windows Management Framework 3,0 downloads Package Updates инструментарий управления Windows (WMI) (WMI) providers in Windows Server 2008. Обновленные поставщики WMI позволяют диспетчер сервера собираются сведения о ролях и компонентах, установленных на управляемых серверах. Пока обновление не будет применено, серверы, работающие под управлением Windows Server 2008, имеют состояние управляемости **недоступно. Проверьте более ранние версии запуска Windows Management Framework 3,0**.<br />— Обновление производительности, связанное с [статьей базы знаний 2682011](https://go.microsoft.com/fwlink/p/?LinkID=245487) , позволяет диспетчер сервера собираются данные производительности с Windows Server 2008.||
 
 подробные сведения о добавлении серверов в рабочих группах для управления и управления удаленными серверами с компьютера рабочей группы, на котором работает диспетчер сервера, см. [в разделе Добавление серверов в Диспетчер сервера](add-servers-to-server-manager.md).
 
@@ -46,19 +44,19 @@ ms.locfileid: "80851567"
 
 -   Чтобы включить удаленное управление WinRM, выберите одну из следующих процедур.
 
-    -   [Включение удаленного управления диспетчер сервера с помощью интерфейса Windows](#to-enable-server-manager-remote-management-by-using-the-windows-interface)
+    -   [Включение удаленного управления диспетчера серверов с помощью интерфейса Windows](#to-enable-server-manager-remote-management-by-using-the-windows-interface)
 
-    -   [Включение удаленного управления диспетчер сервера с помощью Windows PowerShell](#to-enable-server-manager-remote-management-by-using-windows-powershell)
+    -   [Включение удаленного управления с помощью диспетчера сервера с использованием Windows PowerShell](#to-enable-server-manager-remote-management-by-using-windows-powershell)
 
-    -   [Включение диспетчер сервера удаленного управления с помощью командной строки](#to-enable-server-manager-remote-management-by-using-the-command-line)
+    -   [Включение удаленного управления диспетчера серверов с помощью командной строки](#to-enable-server-manager-remote-management-by-using-the-command-line)
 
-    -   [Включение диспетчер сервера и удаленного управления Windows PowerShell в более ранних выпусках Windows Server](#to-enable-server-manager-and-windows-powershell-remote-management-on-earlier-releases-of-windows-server)
+    -   [Включение удаленного управления с помощью диспетчера серверов и Windows PowerShell в более ранних выпусках Windows Server](#to-enable-server-manager-and-windows-powershell-remote-management-on-earlier-releases-of-windows-server)
 
 -   Чтобы отключить WinRM и диспетчер сервера удаленное управление, выберите одну из следующих процедур.
 
-    -   [Отключение удаленного управления с помощью групповая политика](#to-disable-remote-management-by-using-group-policy)
+    -   [Отключение удаленного управления с использованием групповой политики](#to-disable-remote-management-by-using-group-policy)
 
-    -   [Отключение удаленного управления с помощью файла ответов во время автоматической установки](#to-disable-remote-management-by-using-an-answer-file-during-unattended-installation)
+    -   [Отключение удаленного управления с использованием файла ответов во время автоматической установки](#to-disable-remote-management-by-using-an-answer-file-during-unattended-installation)
 
 -   Сведения о настройке удаленного управления с помощью DCOM см. в разделе [Настройка удаленного управления с помощью DCOM](#to-configure-mmc-or-other-tool-remote-management-over-dcom).
 
@@ -87,7 +85,7 @@ ms.locfileid: "80851567"
 
 2.  Введите следующую команду и нажмите клавишу **Ввод** , чтобы включить все необходимые исключения правил брандмауэра.
 
-    **Configure-SMremoting. exe — включить**
+    **Configure-SMremoting.exe — включить**
 
 ### <a name="to-enable-server-manager-remote-management-by-using-the-command-line"></a>Включение удаленного управления диспетчера серверов с помощью командной строки
 
@@ -95,19 +93,19 @@ ms.locfileid: "80851567"
 
 2.  Запустите следующий исполняемый файл.
 
-    **%windir%\system32\Configure-SMremoting.exe**
+    **% WINDIR% \system32\Configure-SMremoting.exe**
 
-3.  Выполните одно из следующих действий.
+3.  Используйте один из следующих вариантов:
 
-    -   Чтобы отключить удаленное управление, введите **Configure-SMremoting. exe-Disable**и нажмите клавишу **Ввод**.
+    -   Чтобы отключить удаленное управление, введите **Configure-SMremoting.exe-Disable**, а затем нажмите клавишу **Ввод**.
 
-    -   Чтобы включить удаленное управление, введите **Configure-SMremoting. exe-Enable**и нажмите клавишу **Ввод**.
+    -   Чтобы включить удаленное управление, введите **Configure-SMremoting.exe-Enable**, а затем нажмите клавишу **Ввод**.
 
-    -   Чтобы просмотреть текущий параметр удаленного управления, введите **Configure-SMremoting. exe-get**и нажмите клавишу ВВОД.
+    -   Чтобы просмотреть текущий параметр удаленного управления, введите **Configure-SMremoting.exe-Get**, а затем нажмите клавишу ВВОД.
 
 ### <a name="to-enable-server-manager-and-windows-powershell-remote-management-on-earlier-releases-of-windows-server"></a>Включение удаленного управления с помощью диспетчера серверов и Windows PowerShell в более ранних выпусках Windows Server
 
--   Выполните одно из следующих действий.
+-   Используйте один из следующих вариантов:
 
     -   Сведения о включении удаленного управления на серверах под управлением Windows Server 2012 см. в разделе [Включение удаленного управления Диспетчер сервера с помощью интерфейса Windows](#to-enable-server-manager-remote-management-by-using-the-windows-interface) в этой статье.
 
@@ -135,7 +133,7 @@ ms.locfileid: "80851567"
 
     -   удаленное управление журналом событий (RPC-EPMAP)
 
-4.  Щелкните правой кнопкой мыши отключенные правила, затем в контекстном меню выберите **Включить правило** .
+4.  Щелкните правой кнопкой мыши отключенные правила, затем в контекстном меню выберите **Включить правило**.
 
 5.  Закройте оснастку "Брандмауэр Windows в режиме повышенной безопасности".
 
@@ -151,7 +149,7 @@ ms.locfileid: "80851567"
 
 3.  Дважды щелкните **Разрешить удаленное управление сервером с помощью WinRM** в области содержимого.
 
-4.  В диалоговом окне параметра политики **Разрешить удаленное управление сервером с помощью WinRM** выберите **Отключено** , чтобы отключить удаленное управление. Нажмите кнопку **ОК** , чтобы сохранить изменения и закрыть диалоговое окно параметра политики.
+4.  В диалоговом окне параметра политики **Разрешить удаленное управление сервером с помощью WinRM** выберите **Отключено**, чтобы отключить удаленное управление. Нажмите кнопку **ОК**, чтобы сохранить изменения и закрыть диалоговое окно параметра политики.
 
 ### <a name="to-disable-remote-management-by-using-an-answer-file-during-unattended-installation"></a>Отключение удаленного управления с использованием файла ответов во время автоматической установки
 
@@ -163,7 +161,7 @@ ms.locfileid: "80851567"
 
     > [!NOTE]
     > Этот параметр отключает удаленное управление при установке операционной системы. Настройка этого параметра не мешает администратору включить диспетчер сервера удаленное управление на сервере после завершения установки операционной системы. Администраторы могут снова включить диспетчер сервера удаленное управление, выполнив действия, описанные в статье [Настройка удаленного управления Диспетчер сервера с помощью интерфейса Windows](#to-enable-server-manager-remote-management-by-using-the-windows-interface) или [Включение Диспетчер сервера удаленное управление с помощью Windows PowerShell](#to-enable-server-manager-remote-management-by-using-windows-powershell) в этом разделе.
-    > 
+    >
     > Если вы отключаете удаленное управление по умолчанию в ходе автоматической установки и не включаете удаленное управление на сервере после установки, серверы, к которым применяется этот файл ответов, не могут полностью управляться с помощью диспетчер сервера. Серверы, работающие под управлением Windows Server 2016, Windows Server 2012 R2 или Windows Server 2012 (и по умолчанию отключены удаленное управление), создают ошибки состояния управляемости в консоли диспетчер сервера после добавления в пул серверов диспетчер сервера.
 
 ## <a name="windows-remote-management-winrm-listener-settings"></a>Параметры прослушивателя удаленного управления Windows (WinRM)
@@ -183,10 +181,10 @@ ms.locfileid: "80851567"
 
 чтобы получить дополнительные сведения о настройке параметров прослушивателя WinRM, в командной строке введите **winrm help config**и нажмите клавишу ВВОД.
 
-## <a name="see-also"></a>См. также
-[Добавление серверов в диспетчер сервера](add-servers-to-server-manager.md)
-[Windows PowerShell: About_remote_Troubleshooting в техническом центре Windows Server](https://technet.microsoft.com/library/dd347642.aspx)
-[Описание контроля учетных записей пользователей](https://support.microsoft.com/kb/951016)
+## <a name="see-also"></a>См. также:
+[Добавление серверов в Диспетчер сервера](add-servers-to-server-manager.md) 
+ [Windows PowerShell: about_remote_Troubleshooting в техническом центре](https://technet.microsoft.com/library/dd347642.aspx) 
+ Windows Server [Описание контроля учетных записей пользователей](https://support.microsoft.com/kb/951016)
 
 
 

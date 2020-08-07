@@ -1,20 +1,18 @@
 ---
 title: Набор подкоманд-Дриверграуп
 description: Справочная статья по подкоманде Set-Дриверграуп, которая задает свойства существующей группы драйверов на сервере.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: e4ba9b1c-8c52-4fd5-969b-f7905611b364
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: bffd46298dce4313f9506129faf0684413c0d08a
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: a76277939906a5409bb109bdf52ed1403252acc9
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85937196"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87882252"
 ---
 # <a name="subcommand-set-drivergroup"></a>Подкоманда: Set-Дриверграуп
 
@@ -27,7 +25,7 @@ ms.locfileid: "85937196"
 wdsutil /Set-DriverGroup /DriverGroup:<Group Name> [/Server:<Server Name>] [/Name:<New Group Name>] [/Enabled:{Yes | No}] [/Applicability:{Matched | All}]
 ```
 ### <a name="parameters"></a>Параметры
-|Параметр|Описание|
+|Параметр|Описание:|
 |-------|--------|
 |/Дриверграуп:<Group Name>|Указывает имя группы драйверов.|
 |[/Server: <Server name> ]|Указывает имя сервера. Это может быть NetBIOS-имя или FQDN. Если имя сервера не указано, используется локальный сервер.|

@@ -1,20 +1,18 @@
 ---
 title: logman update trace
 description: Справочная статья по команде Logman Update Trace, которая обновляет свойства существующего сборщика данных трассировки событий.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: b7111f7f-4162-4d1a-8e53-d766db0ede1f
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 7eb8b034958e14009101848d0aca381cb915a579
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 7c95d9cf4a0c6f2665057c9056bcbef04dc70b37
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85933122"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87887178"
 ---
 # <a name="logman-update-trace"></a>logman update trace
 
@@ -30,7 +28,7 @@ logman update trace <[-n] <name>> [options]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | -s`<computer name>` | Выполняет команду на указанном удаленном компьютере. |
 | -config`<value>` | Указывает файл параметров, содержащий параметры команды. |
@@ -63,7 +61,7 @@ logman update trace <[-n] <name>> [options]
 | -Mode`<globalsequence|localsequence|pagedmemory>` | Указывает режим ведения журнала сеанса трассировки событий, в том числе:<ul><li>**Глобалсекуенце** — указывает, что трассировщик событий добавляет порядковый номер к каждому событию, которое оно получает независимо от того, какой сеанс трассировки получил событие.</li><li>**Локалсекуенце** — указывает, что трассировщик событий добавляет порядковые номера для событий, полученных в определенном сеансе трассировки. При использовании этого параметра повторяющиеся порядковые номера могут существовать во всех сеансах, но они будут уникальны в пределах каждого сеанса трассировки.</li><li>**Пажедмемори** — указывает, что трассировка событий использует страничную память, а не пул нестраничных памяти по умолчанию для выделения внутренних буферов.</li></ul> |
 | /? | Отображает контекстную справку. |
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 - Где [-] присутствует, Добавление дополнительного дефиса (-) инвертирует параметр.
 
