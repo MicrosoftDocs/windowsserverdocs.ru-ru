@@ -1,20 +1,18 @@
 ---
 title: Управление — BDE випефриспаце
 description: Справочная статья по команде Manage-bde випефриспаце, которая очищает свободное место на томе, удаляя фрагменты данных, которые могли существовать в пространстве.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: b8d83a2a-c5c8-4019-9041-23d1d6abf282
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 872c3722028af1612fb80e3b98650ee0a39261ce
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: ca4737eae6c152ac01e674efb3e674c88f5d1538
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85922179"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87886582"
 ---
 # <a name="manage-bde-wipefreespace"></a>Управление — BDE випефриспаце
 
@@ -28,7 +26,7 @@ manage-bde -wipefreespace|-w [<drive>] [-cancel] [-computername <name>] [{-?|/?}
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | `<drive>` | Представляет букву диска, за которой следует двоеточие. |
 | -Отмена | Отменяет очистку свободного пространства, которое находится в процессе. |

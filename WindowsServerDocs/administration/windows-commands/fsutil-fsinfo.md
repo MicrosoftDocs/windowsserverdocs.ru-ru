@@ -1,20 +1,18 @@
 ---
 title: Fsutil fsinfo
 description: Справочная статья по команде fsutil fsinfo, в которой перечислены все диски, запросы к типу диска, сведения о томе, запросы, сведения о томе NTFS, а также запросы к статистике файловой системы.
-ms.prod: windows-server
 manager: dmoss
 ms.author: toklima
 author: toklima
-ms.technology: storage
 ms.assetid: 7787a72e-a26b-415f-b700-a32806803478
 ms.topic: article
 ms.date: 10/16/2017
-ms.openlocfilehash: 0cb4e5b747e07c9409c7dbb80ac9950e765617bc
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 5642355769225fada014a98cce8d4533e72f7410
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85924733"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87889983"
 ---
 # <a name="fsutil-fsinfo"></a>fsutil fsinfo
 
@@ -34,7 +32,7 @@ fsutil fsinfo [volumeinfo] <rootpath>
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- |------------ |
 | диски | Список всех дисков компьютера. |
 | DriveType | Запрашивает диск и перечисляет его тип, например дисковод компакт-дисков. |

@@ -1,20 +1,18 @@
 ---
 title: fsutil sparse
 description: Справочная статья по команде fsutil sparse, которая управляет разреженными файлами.
-ms.prod: windows-server
 manager: dmoss
 ms.author: toklima
 author: toklima
-ms.technology: storage
 ms.assetid: 77545920-2d13-4f35-a4d1-14dbec8340dc
 ms.topic: article
 ms.date: 10/16/2017
-ms.openlocfilehash: c765b096f1b41b211d3a779d8f838aa56f31aeb8
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: d79144d3894e9e181ebd889ce7bf281b827dea26
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85925211"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87889838"
 ---
 # <a name="fsutil-sparse"></a>fsutil sparse
 
@@ -35,7 +33,7 @@ fsutil sparse [setrange] <filename> <beginningoffset> <length>
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | куерифлаг | Разреженные запросы. |
 | куериранже | Сканирует файл и ищет диапазоны, которые могут содержать ненулевые данные. |
@@ -45,7 +43,7 @@ fsutil sparse [setrange] <filename> <beginningoffset> <length>
 | `<beginningoffset>` | Задает смещение в файле для пометки как разреженного. |
 | `<length>` | Указывает длину области в файле, которая будет помечена как разреженная (в байтах). |
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 - Все осмысленные или ненулевые данные выделяются, а все незначимые данные (большие строки данных, состоящие из нулей) не выделяются.
 

@@ -1,20 +1,18 @@
 ---
 title: detail volume
 description: Справочная статья для подробного тома, в котором отображаются диски, на которых находится текущий том.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 38f2bc75-2ed6-4e80-aa74-ab83133db1cd
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: cb74b788c93f4de57ce8fcc017c096ba888cc7a1
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: ee55b923058ca1efecb76d267d2360ce6d415351
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85930682"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87891254"
 ---
 # <a name="detail-volume"></a>detail volume
 

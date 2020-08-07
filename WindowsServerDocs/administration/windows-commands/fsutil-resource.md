@@ -1,20 +1,18 @@
 ---
 title: fsutil resource
 description: Справочная статья по команде fsutil Resource, которая управляет диспетчер ресурсов транзакций и его поведением.
-ms.prod: windows-server
 manager: dmoss
 ms.author: toklima
 author: toklima
-ms.technology: storage
 ms.assetid: b198d8ca-a5b7-430f-8911-5cbb9f50484c
 ms.topic: article
 ms.date: 10/16/2017
-ms.openlocfilehash: c0be84f00df2e0010f6c2a318f605532a3bc4d23
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 85b52c1ad124ac47617948f1683038108214e2e3
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86958186"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87889872"
 ---
 # <a name="fsutil-resource"></a>fsutil resource
 
@@ -45,7 +43,7 @@ fsutil resource [stop] <rmrootpathname>
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | create | Создает дополнительный транзакционный диспетчер ресурсов. |
 | `<rmrootpathname>` | Указывает полный путь к диспетчер ресурсову корневого каталога транзакций. |

@@ -1,20 +1,18 @@
 ---
 title: mapadmin
 description: Справочная статья по команде мападмин, которая управляет сопоставление имен пользователей для служб Microsoft для сетевой файловой системы.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: b17332c7-8622-4223-9c43-2fb9cf4d992d
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: b2ebe5626057bd7f7ddac238360d171c87fd15c6
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 3334ae31b3abb85dcc3df046d8199c9b72ea3944
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85922182"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87886570"
 ---
 # <a name="mapadmin"></a>mapadmin
 
@@ -42,7 +40,7 @@ mapadmin [<computer>] [-u <user> [-p <password>]] listdomainmaps
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | `<computer>` | Указывает удаленный компьютер, на котором запущена служба сопоставление имен пользователей, которую требуется администрировать. Можно указать компьютер, используя имя службы Windows Internet Name Service (WINS) или имя DNS или IP-адрес. |
 | -u`<user>` | Указывает имя пользователя, учетные данные которого будут использоваться. Может потребоваться добавить доменное имя в имя пользователя в формате *домен \ имя_пользователя*. |
@@ -59,7 +57,7 @@ mapadmin [<computer>] [-u <user> [-p <password>]] listdomainmaps
 | ремоведомаинмап | Удаляет простое сопоставление между доменом Windows и NIS-доменом. Для этого параметра доступны следующие параметры и аргумент:<ul><li>**-d `<windowsdomain>` :** указывает домен Windows для удаляемой таблицы.</li><li>**-y `<NISdomain>` :** указывает домен NIS удаляемой таблицы.</li><li>**все:** Указывает, что необходимо удалить все простые карты между доменами Windows и NIS. Это также приведет к удалению любой простой схемы между доменом Windows и файлами паролей и групп.</li></ul> |
 | листдомаинмапс | Список доменов Windows, сопоставленных с доменами NIS или файлами паролей и групп. |
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 - Если не указать примечанием, команда **мападмин** отображает текущие параметры для сопоставление имен пользователей.
 

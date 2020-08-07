@@ -1,20 +1,18 @@
 ---
 title: finger
 description: Справочная статья по команде finger, которая отображает сведения о пользователях на указанном удаленном компьютере, на котором запущена служба или управляющая программа Finger.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 907ea637-5c6c-4752-84c2-46bbf2a68a33
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: fd629374b601686e91e5238ae8db060e0b6bf0f8
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 503b431905d764d371bff0c69eef9032fb0c8644
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85922425"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87890204"
 ---
 # <a name="finger"></a>finger
 
@@ -33,14 +31,14 @@ finger [-l] [<user>] [@<host>] [...]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | -l | Отображает сведения о пользователе в длинном формате списка. |
 | `<user>` | Указывает пользователя, сведения о котором требуется получить. Если параметр *User* не задан, эта команда отображает сведения обо всех пользователях на указанном компьютере. |
 | `@<host>` | Указывает удаленный компьютер, на котором запущена служба Finger, где вы ищете сведения о пользователе. Можно указать имя или IP-адрес компьютера. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 - Необходимо **Добавить префиксные** параметры с дефисом (-), а не косой чертой (/).
 

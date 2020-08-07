@@ -1,20 +1,18 @@
 ---
 title: diskcomp
 description: Справочная статья по команде diskcomp, которая сравнивает содержимое двух гибких дисков.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 4f56f534-a356-4daa-8b4f-38e089341e42
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: efd935d4630d9397d97863d6d373db3801a97b17
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 71401942f25d3f503639b2931f2f0ee49229e15b
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85929352"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87890980"
 ---
 # <a name="diskcomp"></a>diskcomp
 
@@ -28,12 +26,12 @@ diskcomp [<drive1>: [<drive2>:]]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | `<drive1>` | Указывает диск, содержащий один из гибких дисков. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 - Команда **diskcomp** работает только с гибкими дисками. Нельзя использовать **diskcomp** с жестким диском. Если для *диск1* или *диск2*указан жесткий диск, **команда diskcomp** выводит следующее сообщение об ошибке:
 

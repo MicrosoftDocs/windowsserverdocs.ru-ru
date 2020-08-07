@@ -1,20 +1,18 @@
 ---
 title: del
 description: Справочная статья по команде Del, которая удаляет один или несколько файлов.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 346eede2-2085-44f5-9936-6877b5d5a833
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: fe1ae558da0a4cb19159c68c67e1e72970e3b502
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: f909a212284f29fff15de0d02995b08b713cd889
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86958416"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87891494"
 ---
 # <a name="del"></a>del
 
@@ -34,7 +32,7 @@ erase [/p] [/f] [/s] [/q] [/a[:]<attributes>] <names>
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | `<names>` | Указывает список из одного или нескольких файлов или каталогов. Для удаления нескольких файлов можно использовать подстановочные знаки. Если указан каталог, все файлы в каталоге будут удалены. |
 | /p | Запрашивает подтверждение перед удалением указанного файла. |
@@ -44,7 +42,7 @@ erase [/p] [/f] [/s] [/q] [/a[:]<attributes>] <names>
 | /a [:]`<attributes>` | Удаляет файлы на основе следующих атрибутов файлов:<ul><li>файлы **r** только для чтения</li><li>**h** скрытые файлы</li><li>**я** не проиндексированные файлы содержимого</li><li>**системные файлы**</li><li>файлы **,** готовые к архивации</li><li>**l** точки повторного анализа</li><li>**-** Используется в качестве префикса, означающего "not"</li></ul>. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 - При использовании `del /p` команды вы увидите следующее сообщение:
 

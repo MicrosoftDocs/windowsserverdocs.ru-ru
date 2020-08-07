@@ -1,20 +1,18 @@
 ---
 title: fsutil usn
 description: Справочная статья по команде fsutil USN, которая управляет журналом изменений с порядковыми номерами обновлений (USN).
-ms.prod: windows-server
 manager: dmoss
 ms.author: toklima
 author: toklima
-ms.technology: storage
 ms.assetid: faad34aa-4ba1-4129-bc1f-08088399e2fa
 ms.topic: article
 ms.date: 10/16/2017
-ms.openlocfilehash: b3f71588c7221f0ba8e3659d9a1a1dd133971ce9
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: c2bbd130902812f9a44d2d762a074b67de5e8dac
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85930477"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87889775"
 ---
 # <a name="fsutil-usn"></a>fsutil usn
 
@@ -36,7 +34,7 @@ fsutil usn [readjournal] [c= <chunk-size> s=<file-size-threshold>] <volumepath>
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | креатежаурнал | Создает журнал изменений USN. |
 | m =`<maxsize>` | Указывает максимальный размер (в байтах), выделяемый файловой системой NTFS для журнала изменений. |
@@ -60,7 +58,7 @@ fsutil usn [readjournal] [c= <chunk-size> s=<file-size-threshold>] <volumepath>
 | максвер =`<number>` | Максимальная основная версия USN_RECORD, которую необходимо вернуть. Значение по умолчанию — 4. |
 | стартусн =`<USN number>` | USN, с которого начинается чтение журнала USN. По умолчанию равно 0. |
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 - Программы могут обратиться к журналу изменений USN, чтобы определить все изменения, внесенные в набор файлов. Журнал изменений USN гораздо эффективнее, чем проверка меток времени или регистрация для получения уведомлений о файлах. Журнал изменений USN включается и используется службой индексирования, службой репликации файлов (FRS), службами удаленной установки (RIS) и удаленным хранилищем.
 

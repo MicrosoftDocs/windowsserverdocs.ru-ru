@@ -1,20 +1,18 @@
 ---
 title: bitsadmin examples
 description: Примеры, демонстрирующие использование средства битсадмин для выполнения наиболее распространенных задач.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: cb8f8374-ba6e-4a68-85a1-9a95b8215354
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 05/31/2018
-ms.openlocfilehash: 1db9dd387d7b9cc39c582ce79e5163c83579b613
-ms.sourcegitcommit: 4f407b82435afe3111c215510b0ef797863f9cb4
+ms.openlocfilehash: 5cf827ebc96c2caf114a9605482a33636689dc25
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83819634"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87894583"
 ---
 # <a name="bitsadmin-examples"></a>bitsadmin examples
 
@@ -38,7 +36,7 @@ bitsadmin /create myDownloadJob
 
 Битсадмин возвращает идентификатор GUID, однозначно определяющий задание. Используйте идентификатор GUID или имя задания в последующих вызовах. Следующий текст — пример выходных данных.
 
-### <a name="sample-output"></a>Пример выходных данных
+### <a name="sample-output"></a>Пример полученных результатов
 
 `created job {C775D194-090F-431F-B5FB-8334D00D1CB6}`
 
@@ -92,7 +90,7 @@ bitsadmin /complete myDownloadJob
 bitsadmin /list
 ```
 
-### <a name="sample-output"></a>Пример выходных данных
+### <a name="sample-output"></a>Пример полученных результатов
 
 ```
 {6AF46E48-41D3-453F-B7AF-A694BBC823F7} job1 SUSPENDED 0 / 0 0 / 0
@@ -112,7 +110,7 @@ bitsadmin /monitor
 > [!NOTE]
 > Чтобы прервать обновление, нажмите клавиши CTRL + C.
 
-### <a name="sample-output"></a>Пример выходных данных
+### <a name="sample-output"></a>Пример полученных результатов
 
 ```
 MONITORING BACKGROUND COPY MANAGER(5 second refresh)
@@ -129,7 +127,7 @@ MONITORING BACKGROUND COPY MANAGER(5 second refresh)
 bitsadmin /info
 ```
 
-### <a name="sample-output"></a>Пример выходных данных
+### <a name="sample-output"></a>Пример полученных результатов
 
 ```
 GUID: {482FCAF0-74BF-469B-8929-5CCD028C9499} DISPLAY: myDownloadJob
@@ -158,7 +156,7 @@ NOTIFICATION COMMAND LINE: none
 bitsadmin /reset
 ```
 
-### <a name="sample-output"></a>Пример выходных данных
+### <a name="sample-output"></a>Пример полученных результатов
 
 ```
 {DC61A20C-44AB-4768-B175-8000D02545B9} canceled.

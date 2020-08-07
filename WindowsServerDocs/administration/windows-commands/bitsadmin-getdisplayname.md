@@ -1,20 +1,18 @@
 ---
 title: bitsadmin getdisplayname
 description: Справочная статья по команде битсадминического DisplayName, которая получает отображаемое имя указанного задания.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: e5c0e76c-4cc6-42d8-ac30-30bf3dc11b9b
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 4b0e768f377b9faa23eb59645cbecdc129f1e573
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 8ddc6e2f73062abca7c711a02c9c3a4f9c725bde
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85923049"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87894386"
 ---
 # <a name="bitsadmin-getdisplayname"></a>bitsadmin getdisplayname
 
@@ -28,7 +26,7 @@ bitsadmin /getdisplayname <job>
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | -------------- | -------------- |
 | задание | Отображаемое имя задания или идентификатор GUID. |
 

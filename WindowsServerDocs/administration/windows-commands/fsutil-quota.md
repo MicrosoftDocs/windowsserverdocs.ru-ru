@@ -1,20 +1,18 @@
 ---
 title: fsutil quota
 description: Справочная статья по команде fsutil Quota, которая управляет квотами дисков на томах NTFS для обеспечения более точного управления сетевыми хранилищами.
-ms.prod: windows-server
 manager: dmoss
 ms.author: toklima
 author: toklima
-ms.technology: storage
 ms.assetid: 21225c11-7c72-4ea2-96bd-e63d4beb3be5
 ms.topic: article
 ms.date: 10/16/2017
-ms.openlocfilehash: f757f822a903f6b5c6d221e17f87cf1e73d1555f
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 7edf7ac908df419611fb42dd819323b15c8ded4e
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85925221"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87889923"
 ---
 # <a name="fsutil-quota"></a>fsutil quota
 
@@ -35,7 +33,7 @@ fsutil quota [violations]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | disable | Отключает отслеживание и принудительное применение квот на указанном томе. |
 | используют | Принудительное использование квоты на указанном томе. |
@@ -48,7 +46,7 @@ fsutil quota [violations]
 | `<limit>` | Задает максимально допустимое использование места на диске (в байтах). Этот параметр является обязательным для `fsutil quota modify` команды. |
 | `<username>` | Указывает домен или имя пользователя. Этот параметр является обязательным для `fsutil quota modify` команды. |
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 - Квоты диска реализуются на уровне каждого тома, и они позволяют реализовать как жесткие, так и программные ограничения хранения для отдельных пользователей.
 

@@ -1,20 +1,18 @@
 ---
 title: fsutil objectid
 description: Справочная статья по команде fsutil ObjectID, которая управляет идентификаторами объектов для трассировки других объектов, таких как файлы, каталоги и ссылки.
-ms.prod: windows-server
 manager: dmoss
 ms.author: toklima
 author: toklima
-ms.technology: storage
 ms.assetid: 693ab895-9d0c-47c1-9f52-df5cd287842a
 ms.topic: article
 ms.date: 10/16/2017
-ms.openlocfilehash: 5ab0b95bdcde8bce51e1d5a2c14888229621fcaa
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: f24a434a3b48186baa1743cc6159cac39443231e
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85925247"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87889966"
 ---
 # <a name="fsutil-objectid"></a>fsutil objectid
 
@@ -36,7 +34,7 @@ fsutil objectid [set] <objectID> <birthvolumeID> <birthobjectID> <domainID> <fil
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | create | Создает идентификатор объекта, если в указанном файле еще нет такого идентификатора. Если у файла уже есть идентификатор объекта, эта подкоманда эквивалентна подкоманде **Query** . |
 | удалить | Удаляет идентификатор объекта. |
@@ -48,7 +46,7 @@ fsutil objectid [set] <objectID> <birthvolumeID> <birthobjectID> <domainID> <fil
 | `<domainID>` | 16-байтовый идентификатор домена в шестнадцатеричном формате. Это значение в настоящее время не используется и должно быть установлено в значение все нули. |
 | `<filename>` | Указывает полный путь к файлу, включая имя файла и расширение, например *C:\documents\filename.txt*. |
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 - Любой файл с идентификатором объекта также имеет идентификатор «рождения», идентификатор объекта «рождение» и идентификатор домена. При перемещении файла идентификатор объекта может измениться, но идентификаторы объекта "том рождения" и "объект рождения" остаются неизменными. Такое поведение позволяет операционной системе Windows всегда находить файл независимо от того, где он был перемещен.
 

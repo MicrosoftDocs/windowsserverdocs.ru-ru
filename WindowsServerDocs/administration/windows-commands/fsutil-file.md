@@ -1,20 +1,18 @@
 ---
 title: fsutil file
 description: Справочная статья по команде fsutil File, которая находит файл по имени пользователя, запрашивает выделенные диапазоны для файла, задает короткое имя файла, задает допустимую длину данных файла, задает нулевые данные для файла или создает новый файл.
-ms.prod: windows-server
 manager: dmoss
 ms.author: toklima
 author: toklima
-ms.technology: storage
 ms.assetid: 9f3dc104-dd69-4b03-b824-a29896780164
 ms.topic: article
 ms.date: 10/16/2017
-ms.openlocfilehash: 6909d381ef5dfebb343e70ad117a1a5b400481fa
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 92b048d0ad3a7cb1f0c21dabf3cc14dc9850a251
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85932294"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87889992"
 ---
 # <a name="fsutil-file"></a>fsutil file
 
@@ -42,7 +40,7 @@ fsutil file [setzerodata] offset=<offset> length=<length> <filename>
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | CreateNew | Создает файл с указанным именем и размером с содержимым, состоящим из нулей. |
 | `<length>` | Указывает допустимую длину данных файла. |
@@ -72,7 +70,7 @@ fsutil file [setzerodata] offset=<offset> length=<length> <filename>
 | `<datalength>` | Указывает длину файла в байтах. |
 | сетзеродата | Задает диапазон (заданный по *смещению* и *длине*) файла, равный нулю, что очищает файл. Если файл является разреженным, базовые единицы распределения будут отделены. |
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 - В файловой системе NTFS существует два важных понятия длины файла: маркер конца файла (EOF) и допустимая длина данных (ВДЛ). Значение EOF указывает фактическую длину файла. ВДЛ определяет длину допустимых данных на диске. Все операции чтения между ВДЛ и EOF автоматически возвращают значение 0, чтобы сохранить требование повторного использования объекта C2.
 

@@ -1,20 +1,18 @@
 ---
 title: fsutil 8dot3name
 description: Справочная статья по команде fsutil 8dot3name, которая запрашивает или изменяет параметры для краткого имени (имя 8dot3).
-ms.prod: windows-server
 manager: dmoss
 ms.author: toklima
 author: toklima
-ms.technology: storage
 ms.assetid: a0c6dbfe-d898-496d-9356-825f7fbd90ec
 ms.topic: article
 ms.date: 10/16/2017
-ms.openlocfilehash: 069f7fed72cfe50ef15c869b129dbf98363d9111
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 15d6b323248a51102b2ddcd6b2620722f22ae47a
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85922379"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87890085"
 ---
 # <a name="fsutil-8dot3name"></a>fsutil 8dot3name
 
@@ -44,7 +42,7 @@ fsutil 8dot3name [strip] [/t] [/s] [/f] [/l [<log file.] ] [/v] <directorypath>
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | Выбор`[<volumepath>]` | Запрашивает в файловой системе состояние создания короткого имени 8dot3.<p>Если *volumepath* не указан в качестве параметра, отображается параметр поведения создания 8dot3name по умолчанию для всех томов. |
 | наличия`<directorypath>` | Проверяет файлы, расположенные в указанном *DirectoryPath* , для разделов реестра, которые могут затронуты, если сокращенные имена 8dot3 были удалены из имен файлов. |

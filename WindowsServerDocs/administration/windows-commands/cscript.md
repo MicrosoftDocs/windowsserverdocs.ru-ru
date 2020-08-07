@@ -1,20 +1,18 @@
 ---
 title: cscript
 description: Справочная статья по команде cscript, которая запускает сценарий, чтобы он выполнялся в среде командной строки.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: fba3cbca-594e-4663-bb22-4ee0f63a1ac6
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: e7f6731c264fc5a22bee2d94b41a555431e48b42
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 3f6e27cae1531e0c10e8721d7f7fe11487406e35
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85928832"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87891540"
 ---
 # <a name="cscript"></a>cscript
 
@@ -33,7 +31,7 @@ cscript <scriptname.extension> [/b] [/d] [/e:<engine>] [{/h:cscript | /h:wscript
 
 #### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | имя_сценария. расширение | Указывает путь и имя файла скрипта с необязательным расширением имени файла. |
 | /b | Задает пакетный режим, при котором не отображаются предупреждения, ошибки сценариев или входные запросы. |
@@ -52,7 +50,7 @@ cscript <scriptname.extension> [/b] [/d] [/e:<engine>] [{/h:cscript | /h:wscript
 | /? | Отображает доступные параметры команды и предоставляет справку по их использованию. Это то же самое, что ввод **cscript.exe** без параметров и скрипта. |
 | скриптаргументс | Задает аргументы, передаваемые в скрипт. Каждому аргументу сценария должна предшествовать косая черта ( **/** ). |
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 - Каждый параметр является необязательным; Однако нельзя указать аргументы скрипта без указания скрипта. Если не указать скрипт или какие-либо аргументы скрипта, cscript.exe отображает синтаксис cscript.exe и допустимые параметры узла.
 

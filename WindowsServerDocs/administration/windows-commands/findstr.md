@@ -1,20 +1,18 @@
 ---
 title: findstr
 description: Справочная статья по команде findstr, которая выполняет поиск шаблонов текста в файлах.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: c2d803fb-4cd2-46a1-a1b7-6f5e0249c418
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: f0cf30f19ef23c1b3275b6b7632b03f0dd8e433a
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 1b1ef8139208397361a8c787686d2bc4c3b5ab43
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85931437"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87890233"
 ---
 # <a name="findstr"></a>findstr
 
@@ -28,7 +26,7 @@ findstr [/b] [/e] [/l | /r] [/s] [/i] [/x] [/v] [/n] [/m] [/o] [/p] [/f:<file>] 
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | /b | Соответствует шаблону текста, если он находится в начале строки. |
 | /e | Соответствует шаблону текста, если он находится в конце строки. |
@@ -52,7 +50,7 @@ findstr [/b] [/e] [/l | /r] [/s] [/i] [/x] [/v] [/n] [/m] [/o] [/p] [/f:<file>] 
 | `[\<drive>:][<path>]<filename>[ ...]` | Указывает расположение и файл или файлы для поиска. Требуется по крайней мере одно имя файла. |
 | /? | Отображает справку в командной строке. |
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 - Все параметры командной строки **findstr** должны предшествовать *строкам* и *именам файлов* в строке команды.
 

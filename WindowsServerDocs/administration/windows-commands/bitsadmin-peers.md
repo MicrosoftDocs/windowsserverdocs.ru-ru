@@ -1,20 +1,18 @@
 ---
 title: bitsadmin peers
 description: Справочная статья по команде битсадмин Peers, в которой перечислены параметры/Пирс.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 5effbd52-993a-4657-b331-596c64deb8fb
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 3e01a02c2615d353cbdaaa6980e86a965edce018
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 756368bfb9c1e718fcd494cb0aebc9337701ad9c
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85927997"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87893444"
 ---
 # <a name="bitsadmin-peers"></a>bitsadmin peers
 
@@ -32,7 +30,7 @@ bitsadmin /peers /list
 ```
 
 ### <a name="parameters"></a>Параметры
-| Параметр | Описание |
+| Параметр | Описание: |
 | -------------- | -------------- |
 | [bitsadmin peers и help](bitsadmin-peers-and-help.md) | Отображает сведения об использовании командной строки для параметров/Пирс. |
 | [bitsadmin peers и discover](bitsadmin-peers-and-discover.md) | Обнаружение одноранговых узлов еще раз. |

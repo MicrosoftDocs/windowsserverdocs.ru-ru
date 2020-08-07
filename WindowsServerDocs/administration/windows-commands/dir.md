@@ -1,20 +1,18 @@
 ---
 title: dir
 description: Справочная статья по команде dir, которая отображает список файлов и подкаталогов каталога.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: edcbf69b-eaa4-466e-b210-3dd8892f4d93
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 6abc9e1e760502047c5c740c72b79e302dd19249
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 51d36f0f5498c5c853df2d6663f52411037c13d4
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86958316"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87890983"
 ---
 # <a name="dir"></a>dir
 
@@ -30,7 +28,7 @@ dir [<drive>:][<path>][<filename>] [...] [/p] [/q] [/w] [/d] [/a[[:]<attributes>
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | `[<drive>:][<path>]` | Указывает диск и каталог, для которого требуется просмотреть список. |
 | `[<filename>]` | Указывает конкретный файл или группу файлов, для которых требуется просмотреть список. |
@@ -51,7 +49,7 @@ dir [<drive>:][<path>][<filename>] [...] [/p] [/q] [/w] [/d] [/a[[:]<attributes>
 | /r | Отображение альтернативных потоков данных файла. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 - Чтобы использовать несколько параметров *имени* файла, разделяйте имена файлов пробелами, запятыми или точками с запятой.
 

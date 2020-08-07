@@ -1,20 +1,18 @@
 ---
 title: Описание
 description: Справочная статья по команде Detail, которая отображает сведения о выбранном диске, разделе, томе или виртуальном жестком диске (VHD).
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 305755bd-1a51-486b-8515-62d3f227c291
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 37b464fb8815a1652dcac29d07e69fde9fd43576
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 23768b86f0ac3885b0cae92b62d06b830b893a8d
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85930670"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87891242"
 ---
 # <a name="detail"></a>Описание
 
@@ -31,7 +29,7 @@ detail vdisk
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | [Диск сведений](detail-disk.md) | Отображает свойства выбранного диска и тома на этом диске. |
 | [Подробное секционирование](detail-partition.md) | Отображает свойства выбранной секции. |

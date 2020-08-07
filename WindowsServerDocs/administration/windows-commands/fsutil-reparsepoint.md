@@ -1,20 +1,18 @@
 ---
 title: fsutil reparsepoint
 description: Справочная статья по команде fsutil репарсепоинт, которая запрашивает или удаляет точки повторного анализа.
-ms.prod: windows-server
 manager: dmoss
 ms.author: toklima
 author: toklima
-ms.technology: storage
 ms.assetid: fb95c8ee-a418-4520-a12a-7754ae947c3c
 ms.topic: article
 ms.date: 10/16/2017
-ms.openlocfilehash: edbbc578b6a84ebd4e342493e29cbe2bd5c5a2cd
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: b7742b7bb970394f0ef8602ae5c862c2ff9a1a41
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85931215"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87889889"
 ---
 # <a name="fsutil-reparsepoint"></a>fsutil reparsepoint
 
@@ -39,13 +37,13 @@ fsutil reparsepoint [delete] <filename>
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | query | Извлекает данные точки повторного анализа, связанные с файлом или каталогом, который определяется указанным маркером. |
 | удалить | Удаляет точку повторного анализа из файла или каталога, идентифицируемого указанным обработчиком, но не удаляет файл или каталог. |
 | `<filename>` | Указывает полный путь к файлу, включая имя файла и расширение, например *C:\documents\filename.txt*. |
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 - Когда программа задает точку повторного анализа, она сохраняет эти данные, а также тег повторного анализа, который однозначно определяет хранящиеся в нем данные. Когда файловая система открывает файл с точкой повторного анализа, он пытается найти связанный фильтр файловой системы. Если фильтр файловой системы найден, фильтр обрабатывает файл в соответствии с назначением данных повторного анализа. Если фильтр файловой системы не найден, операция **открытия файла** завершается ошибкой.
 

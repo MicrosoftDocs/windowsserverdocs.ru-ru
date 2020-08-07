@@ -1,20 +1,18 @@
 ---
 title: defrag
 description: Справочная статья по команде Defrag, которая находит и объединяет фрагментированные файлы на локальных томах для повышения производительности системы.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: aaf1d1ac-996a-4282-9b4d-1e8245ff162c
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 65c1d22bd45734a667bfc46840fe652e3f2f5314
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: c68edbb4511df12912adbc666201d5a381c06fe3
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86958436"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87891484"
 ---
 # <a name="defrag"></a>defrag
 
@@ -35,7 +33,7 @@ defrag <volume> [<parameters>]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | `<volume>` | Указывает букву диска или путь к точке подключения тома для дефрагментации или анализа. |
 | /a | Выполните анализ указанных томов. |
@@ -55,7 +53,7 @@ defrag <volume> [<parameters>]
 | /x | Выполните консолидацию свободного пространства на указанных томах. |
 | /? | Отображает эту справочную информацию. |
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 - Вы не можете дефрагментировать определенные тома или диски файловой системы, включая:
 

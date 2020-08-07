@@ -1,20 +1,18 @@
 ---
 title: freedisk
 description: Справочная статья по команде фридиск, которая проверяет, доступен ли указанный объем дискового пространства, прежде чем продолжить процесс установки.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 91c15166-5baa-4b80-9e0c-4cd815d00530
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: d0cfce52c2eaf0917f8169d959b61832bd1779e0
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: a6c5c09e35f852be9229180ae894356e127f8a03
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85924743"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87890094"
 ---
 # <a name="freedisk"></a>freedisk
 
@@ -30,7 +28,7 @@ freedisk [/s <computer> [/u [<domain>\]<user> [/p [<password>]]]] [/d <drive>] [
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | ключ`<computer>` | Указывает имя или IP-адрес удаленного компьютера (не используйте символы обратной косой черты). По умолчанию это локальный компьютер. Этот параметр применяется ко всем файлам и папкам, указанным в команде. |
 | /u`[<domain>\]<user>` | Запускает скрипт с разрешениями указанной учетной записи пользователя. По умолчанию заданы системные разрешения. |
@@ -38,7 +36,7 @@ freedisk [/s <computer> [/u [<domain>\]<user> [/p [<password>]]]] [/d <drive>] [
 | /d`<drive>` | Указывает диск, для которого необходимо определить доступность свободного пространства. Необходимо указать `<drive>` для удаленного компьютера. |
 | `<value>` | Проверяет наличие определенного объема свободного места на диске. Можно указать `<value>` в байтах, КБ, МБ, ГБ, ТБ, Pb, EB, ЗБ или ИБ. |
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 - Параметры командной строки **/s**, **/u**и **/p** доступны только при использовании параметра **/s**. Для предоставления пароля пользователя необходимо использовать **/p** и **/u**.
 

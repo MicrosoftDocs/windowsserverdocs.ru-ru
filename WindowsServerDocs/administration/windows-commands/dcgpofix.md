@@ -1,20 +1,18 @@
 ---
 title: dcgpofix
 description: Справочная статья по команде Dcgpofix, которая воссоздает объекты групповая политика по умолчанию (GPO) для домена.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 81d5fa65-2aea-49d3-b353-357441846c00
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: cf9e3c37c054c34d602e472a2c5f83e9a8b284b9
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: b4e2da750883dbffaa45fe1800249543cd8b9209
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85928801"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87891502"
 ---
 # <a name="dcgpofix"></a>dcgpofix
 
@@ -31,7 +29,7 @@ dcgpofix [/ignoreschema] [/target: {domain | dc | both}] [/?]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | /игноресчема | При выполнении этой команды игнорирует версию схемы Active Directory. В противном случае команда работает только в той же версии схемы, что и версия Windows, в которой была отправлена команда. |
 | `/target {domain | dc | both` | Указывает, следует ли использовать политику домена по умолчанию, политику контроллеров домена по умолчанию или политики обоих типов. |

@@ -1,20 +1,18 @@
 ---
 title: bitsadmin cache
 description: Справочная статья по команде кэша битсадмин, содержащей список коммутаторов кэша битсадмин.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 9ae4a283-a187-4fe3-b05c-4b53732c27cb
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 57b3897e89c70658d5b4015668d7b966222ce15d
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 45d2fb96a8e405f93b1bb63a4eec00d817c6b420
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85928412"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87894660"
 ---
 # <a name="bitsadmin-cache"></a>bitsadmin cache
 
@@ -41,7 +39,7 @@ bitsadmin /cache /setexpirationtime
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | -------------- | -------------- |
 | [bitsadmin cache и help](bitsadmin-cache-and-help.md) | Отображает сведения об использовании командной строки для параметров/Cache. |
 | [bitsadmin cache и clear](bitsadmin-cache-clear.md) | Удаляет локальный кэш. |
