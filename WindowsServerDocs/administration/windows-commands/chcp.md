@@ -1,20 +1,18 @@
 ---
 title: chcp
 description: Справочная статья по команде chcp, которая изменяет текущую кодовую страницу консоли.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: dc7b1c71-7b80-443d-9cf1-9bcf305aa1fd
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: a07d439a4738053ea9a76b4ca68fadec2a215ff0
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 21dcdc1e663656439bece576287877653d0dcd8c
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85930027"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87892813"
 ---
 # <a name="chcp"></a>chcp
 
@@ -28,7 +26,7 @@ chcp [<nnn>]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | `<nnn>` | Задает кодовую страницу. |
 | /? | Отображение справки в командной строке. |
@@ -46,11 +44,11 @@ chcp [<nnn>]
 | 861 | Исландский |
 | 863 | Канада — французский |
 | 865 | Скандинавская |
-| 866 | русском языке |
+| 866 | Русский |
 | 869 | Современный греческий |
 | 936 | Китайский |
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 - В окне командной строки, использующем растровые шрифты, правильно отображается только кодовая страница изготовителя оборудования (OEM), установленная вместе с Windows. Другие кодовые страницы отображаются правильно в полноэкранном режиме или в окнах командной строки, в которых используются шрифты TrueType.
 

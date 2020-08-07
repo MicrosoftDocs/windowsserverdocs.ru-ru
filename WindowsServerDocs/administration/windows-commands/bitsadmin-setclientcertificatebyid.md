@@ -1,20 +1,18 @@
 ---
 title: bitsadmin setclientcertificatebyid
 description: Справочная статья по команде битсадмин сетклиентцертификатебид, которая указывает идентификатор сертификата клиента, используемого для проверки подлинности клиента в запросе HTTPS (SSL).
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 8585a7a1-7472-437b-b04a-a11925782a3a
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: bfa3a65051cad9ef21f146888fc9d0e3e80f4023
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: e46219a52eda48ddb3e203730e6275fb5e534020
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85927883"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87893264"
 ---
 # <a name="bitsadmin-setclientcertificatebyid"></a>bitsadmin setclientcertificatebyid
 
@@ -28,7 +26,7 @@ bitsadmin /setclientcertificatebyid <job> <store_location> <store_name> <hexadec
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | -------------- | -------------- |
 | задание | Отображаемое имя задания или идентификатор GUID. |
 | store_location | Определяет расположение системного хранилища, используемого для поиска сертификата, в том числе:<ul><li>CURRENT_USER</li><li>LOCAL_MACHINE</li><li>CURRENT_SERVICE</li><li>Обслуживание</li><li>ПОЛЬЗОВАТЕЛИ</li><li>CURRENT_USER_GROUP_POLICY</li><li>LOCAL_MACHINE_GROUP_POLICY</li><li>LOCAL_MACHINE_ENTERPRISE.</li></ul> |

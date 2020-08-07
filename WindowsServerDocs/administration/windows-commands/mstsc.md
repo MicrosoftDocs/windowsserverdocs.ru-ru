@@ -1,20 +1,18 @@
 ---
 title: mstsc
 description: Справочная статья по команде MSTSC, которая создает подключения к удаленный рабочий стол серверам узлов сеансов или другим удаленным компьютерам, редактирует существующий файл конфигурации подключение к удаленному рабочему столу (. RDP) и переносит устаревшие файлы подключения, созданные с помощью диспетчера клиентских подключений, в новые RDP-файлы подключения.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 59801227-1e7e-4dbd-96e6-f54102a3ce92
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: cec9ef281c886964163c233022466d8478d65c79
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: abf4824c50b931944c96307f6c9df42e6924b638
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85934839"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87886158"
 ---
 # <a name="mstsc"></a>mstsc
 
@@ -32,7 +30,7 @@ mstsc.exe /migrate
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ------------|
 | `<connectionfile>` | Указывает имя RDP-файла для соединения. |
 | /v:`<server>[:<port>]` | Указывает удаленный компьютер и (необязательно) номер порта, к которому необходимо подключиться. |
@@ -46,7 +44,7 @@ mstsc.exe /migrate
 | /миграте | Переносит устаревшие файлы подключения, созданные с помощью диспетчера клиентских подключений, в новые RDP-файлы подключения. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 - Default. RDP хранится для каждого пользователя как скрытый файл в папке " **документы** " пользователя.
 

@@ -1,20 +1,18 @@
 ---
 title: msdt
 description: Справочная статья по команде MSDT, которая вызывает пакет устранения неполадок в командной строке или в составе автоматизированного скрипта и включает дополнительные параметры без ввода данных пользователем.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: ead1b672-a120-4e16-94aa-a8e13602c1d0
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: b5f00f34da20e9e151f093b919244fe3b49a85d6
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: e8ef856cd54b93c77d4e260a5e433c67407d9611
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86956896"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87886200"
 ---
 # <a name="msdt"></a>msdt
 

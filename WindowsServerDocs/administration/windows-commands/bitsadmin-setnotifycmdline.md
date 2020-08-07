@@ -1,20 +1,18 @@
 ---
 title: bitsadmin setnotifycmdline
 description: Справочная статья по команде битсадмин сетнотификмдлине, которая задает команду командной строки, которая будет выполняться, когда задание завершает передачу данных или когда задание переходит в состояние.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 415ae6ef-8549-48b2-9693-2368a6e24075
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: c4466a0011f7bb1648cb7e2a51113f0a3d21c7e5
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: a81b4521d8c765d85e6b4a92d0429b128f43198e
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85927653"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87893010"
 ---
 # <a name="bitsadmin-setnotifycmdline"></a>bitsadmin setnotifycmdline
 
@@ -31,7 +29,7 @@ bitsadmin /setnotifycmdline <job> <program_name> [program_parameters]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | задание | Отображаемое имя задания или идентификатор GUID. |
 | program_name | Имя команды, выполняемой по завершении задания. Это значение можно задать как NULL, но в этом случае *program_parameters* также должно иметь значение null. |

@@ -1,20 +1,18 @@
 ---
 title: retain
 description: Справочная статья для * * * *-
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: eeab0aef-2ba5-441a-a10d-bbef6f0d7e3e
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 958ee0de7bd69c9391407ec6f4a832e1262746a2
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 9a0205f3b67bd99ca590c7ffc6fbd04b0eefd94f
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85933071"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87883647"
 ---
 # <a name="retain"></a>retain
 
@@ -28,7 +26,7 @@ ms.locfileid: "85933071"
 retain
 ```
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 -   На динамическом диске с основной загрузочной записью эта команда создает запись раздела в основной загрузочной записи.
 -   На динамическом диске с таблицей разделов GPT эта команда создает запись секции в таблице разделов GUID.

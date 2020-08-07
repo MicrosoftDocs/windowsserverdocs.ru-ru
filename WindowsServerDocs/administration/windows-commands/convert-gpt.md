@@ -1,20 +1,18 @@
 ---
 title: convert gpt
 description: Справочная статья по команде Convert GPT, которая преобразует пустой базовый диск с стилем разделов основной загрузочной записи (MBR) в базовый диск с стилем разделов таблицы разделов GPT.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: b3b1b747-0a7a-4be2-8487-2c4be16ee190
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 2384ea5a94de64051dc45caecd88e08960b567b0
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: ec1066e0ac50536db915eed9df7a6076ba5f3879
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86958536"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87892580"
 ---
 # <a name="convert-gpt"></a>convert gpt
 
@@ -34,7 +32,7 @@ convert gpt [noerr]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | Noerr | Только для сценариев. При возникновении ошибки DiskPart продолжит обрабатывать команды, как если бы ошибка не возникала. Без этого параметра ошибка приводит к выходу из программы DiskPart с кодом ошибки. |
 

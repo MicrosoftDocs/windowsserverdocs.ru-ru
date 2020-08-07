@@ -1,20 +1,18 @@
 ---
 title: mklink
 description: Справочная статья по команде Mklink, которая создает символьную или жесткую связь в каталоге или файле.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 0ce4df22-2dbc-48fc-9c16-b721ae85f857
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 22c364a56c804fd71a4b633294491f6b9b084ca0
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 76c97032874fe23fea773dbf5e2d1d862a6048af
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86956986"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87886434"
 ---
 # <a name="mklink"></a>mklink
 
@@ -28,7 +26,7 @@ mklink [[/d] | [/h] | [/j]] <link> <target>
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | /d | Создает символьную ссылку каталога. По умолчанию эта команда создает символьную ссылку на файл. |
 | /h | Создает жесткую связь вместо символьной ссылки. |

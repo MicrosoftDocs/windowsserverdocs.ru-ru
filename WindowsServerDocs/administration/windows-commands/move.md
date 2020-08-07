@@ -1,20 +1,18 @@
 ---
 title: перенос
 description: Справочная статья по команде Move, которая перемещает один или несколько файлов из одного каталога в другой.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: fde290a8-d385-450f-8987-ee837fed667d
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 4cc1f7c04a54b78da7b24dbedad225a7326766cd
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 5ceeced7e734775138cc47cba9d36981a4433750
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85936308"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87886319"
 ---
 # <a name="move"></a>перенос
 
@@ -31,7 +29,7 @@ move [{/y|-y}] [<source>] [<target>]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | /y | Останавливает запрос подтверждения о том, что необходимо перезаписать существующий целевой файл. Этот параметр может быть предустановлен в переменной среды КОПИКМД. Эту предустановку можно переопределить с помощью параметра **-y** . По умолчанию перед перезаписыванием файлов выводится запрос, если только команда не выполняется в пакетном скрипте. |
 | -y | Запускает запрос подтверждения того, что необходимо перезаписать существующий целевой файл. |

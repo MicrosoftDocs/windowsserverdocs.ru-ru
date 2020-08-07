@@ -1,19 +1,17 @@
 ---
 title: bitsadmin sethelpertoken
 description: Справочная статья по команде битсадмин сеселпертокен, которая задает основной маркер текущей командной строки (или маркер произвольной учетной записи локального пользователя, если он указан) в качестве вспомогательного токена задания передачи BITS.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 03/01/2019
-ms.openlocfilehash: e9fe469b8ae4a8a553245b1e22d48ee2cacf23e3
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 15d0288919b16c038c3b310b6ea42c184b11b5a8
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86955706"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87893160"
 ---
 # <a name="bitsadmin-sethelpertoken"></a>bitsadmin sethelpertoken
 
@@ -30,7 +28,7 @@ bitsadmin /sethelpertoken <job> [<user_name@domain> <password>]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | задание | Отображаемое имя задания или идентификатор GUID. |
 | `<username@domain>` `<password>` | Необязательный элемент. Учетные данные локального пользователя, для которых используется токен. |

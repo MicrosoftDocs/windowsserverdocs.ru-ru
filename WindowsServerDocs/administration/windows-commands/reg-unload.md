@@ -1,20 +1,18 @@
 ---
 title: reg unload
 description: Справочная статья по команде reg unload, которая удаляет раздел реестра, загруженный с помощью операции загрузки reg.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 1d07791d-ca27-454e-9797-27d7e84c5048
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 6728f898bd8c2c65aff922943ccef58d4d9fd738
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 7d2ea6f5981ea613ae5e0d9d4dcae155464b505a
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85925988"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87883982"
 ---
 # <a name="reg-unload"></a>reg unload
 
@@ -28,19 +26,19 @@ reg unload <keyname>
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 |--|--|
 | `<keyname>` | Указывает полный путь к подразделу. Чтобы указать удаленный компьютер, включите имя компьютера (в формате `\\<computername>\` ) в состав имени *keyName*. Пропуск `\\<computername>\` приводит к тому, что по умолчанию операция выполняется на локальном компьютере. *KeyName* должен содержать допустимый корневой ключ. Допустимые корневые ключи для локального компьютера: **HKLM**, **HKCU**, **HKCR**, **HKU**и **хккк**. Если указан удаленный компьютер, допустимые корневые ключи: **HKLM** и **HKU**. Если имя раздела реестра содержит пробел, заключите имя ключа в кавычки. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 - Возвращаемые значения для операции **reg unload** :
 
     | Значение | Описание: |
     |--|--|
     | 0 | Успех |
-    | 1 | Failure |
+    | 1 | Сбой |
 
 ## <a name="examples"></a>Примеры
 

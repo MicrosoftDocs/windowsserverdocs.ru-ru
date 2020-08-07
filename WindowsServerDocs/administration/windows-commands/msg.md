@@ -1,20 +1,18 @@
 ---
 title: msg
 description: Справочная статья по команде MSG, которая отправляет сообщение пользователю на удаленный рабочий стол сервере узла сеансов
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 9501cf3e-568e-4982-9987-8daecc6c17ff
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 6eff557b1fb7eb2c5f67b2902762786bbfc839c1
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 044d6c7e6dbf7c92cb0c947fcb60eb79ab1db05b
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85934974"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87886196"
 ---
 # <a name="msg"></a>msg
 
@@ -33,7 +31,7 @@ msg {<username> | <sessionname> | <sessionID>| @<filename> | *} [/server:<server
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | `<username>` | Указывает имя пользователя, которому требуется получить сообщение. Если вы не укажете пользователя или сеанс, эта команда выведет сообщение об ошибке. При указании сеанса он должен быть активным. |
 | `<sessionname>` | Указывает имя сеанса, для которого требуется получить сообщение. Если вы не укажете пользователя или сеанс, эта команда выведет сообщение об ошибке. При указании сеанса он должен быть активным. |

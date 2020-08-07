@@ -1,19 +1,17 @@
 ---
 title: Vssadmin list writers
 description: Описание команды vssadmin list Writer.
-ms.prod: windows-server
 ms.topic: article
 author: JasonGerend
 ms.author: jgerend
-ms.technology: storage
 ms.date: 05/18/2018
 ms.localizationpriority: medium
-ms.openlocfilehash: b897fdc481faf69a423200030fe71a28529eb82d
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 74a242734c1e1a80e4dc69907ca1bc680dbc3417
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86954756"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87892352"
 ---
 # <a name="vssadmin-list-writers"></a>Vssadmin list writers
 

@@ -1,20 +1,18 @@
 ---
 title: reg save
 description: Справочная статья по команде reg save, которая сохраняет копию указанных подразделов, записей и значений реестра в указанном файле.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: b326482b-c8af-467d-a20c-0481eeda3d5c
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 4051d69819cfd3550d094de8e9d4bc73f77c4e4b
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 187811b277ca109ac3f3e1517aeb169bd8baca15
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85931037"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87884011"
 ---
 # <a name="reg-save"></a>reg save
 
@@ -28,14 +26,14 @@ reg save <keyname> <filename> [/y]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 |--|--|
 | `<keyname>` | Указывает полный путь к подразделу. Чтобы указать удаленный компьютер, включите имя компьютера (в формате `\\<computername>\` ) в состав имени *keyName*. Пропуск `\\<computername>\` приводит к тому, что по умолчанию операция выполняется на локальном компьютере. *KeyName* должен содержать допустимый корневой ключ. Допустимые корневые ключи для локального компьютера: **HKLM**, **HKCU**, **HKCR**, **HKU**и **хккк**. Если указан удаленный компьютер, допустимые корневые ключи: **HKLM** и **HKU**. Если имя раздела реестра содержит пробел, заключите имя ключа в кавычки. |
 | `<filename>` | Указывает имя и путь к созданному файлу. Если путь не указан, используется текущий путь. |
 | /y | Перезаписывает существующий файл с именем *filename* без запроса подтверждения. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 - Перед изменением любых записей реестра необходимо сохранить родительский подраздел с помощью команды **reg save** . В случае сбоя изменения можно восстановить исходный подраздел с помощью операции **восстановления reg** .
 
@@ -44,7 +42,7 @@ reg save <keyname> <filename> [/y]
     | Значение | Описание: |
     |--|--|
     | 0 | Успех |
-    | 1 | Failure |
+    | 1 | Сбой |
 
 ### <a name="examples"></a>Примеры
 

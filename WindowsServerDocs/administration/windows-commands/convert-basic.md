@@ -1,20 +1,18 @@
 ---
 title: convert basic
 description: Справочная статья по команде Convert Basic, которая преобразует пустой динамический диск в базовый.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 61329896-3b56-4959-8d58-45cbe18ba860
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: b169a2ed759d74042ba7ffb77d4da2c5b9b8c234
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 88ad686cd47bc9c347469697511a81f6cf4ae835
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86958556"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87892592"
 ---
 # <a name="convert-basic"></a>convert basic
 
@@ -34,7 +32,7 @@ convert basic [noerr]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | Noerr | Только для сценариев. При возникновении ошибки DiskPart продолжит обрабатывать команды, как если бы ошибка не возникала. Без этого параметра ошибка приводит к выходу из программы DiskPart с кодом ошибки. |
 

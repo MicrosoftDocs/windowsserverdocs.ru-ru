@@ -1,20 +1,18 @@
 ---
 title: chkdsk
 description: Справочная статья по команде Chkdsk, которая проверяет метаданные файловой системы и файловой системы тома на наличие логических и физических ошибок.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 62912a3c-d2cc-4ef6-9679-43709a286035
 author: jasongerend
 ms.author: jgerend
 manager: lizapo
 ms.date: 10/09/2019
-ms.openlocfilehash: b98699b7e0925b43c15a602b9c193be9301a14ce
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 34a32e22224168e92386408901571850973e6503
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85929992"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87892748"
 ---
 # <a name="chkdsk"></a>chkdsk
 
@@ -37,7 +35,7 @@ chkdsk [<volume>[[<path>]<filename>]] [/f] [/v] [/r] [/x] [/i] [/c] [/l[:<size>]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | `<volume>` | Указывает букву диска (с последующим двоеточием), точку подключения или имя тома. |
 | [ `[<path>]<filename>` | Используйте только с таблицей размещения файлов (FAT) и FAT32. Указывает расположение и имя файла или набора файлов, которые должна проверять **программа chkdsk** на наличие фрагментации. Вы можете использовать параметр **?** и **&#42;** подстановочных знаков для указания нескольких файлов. |
@@ -59,7 +57,7 @@ chkdsk [<volume>[[<path>]<filename>]] [/f] [/v] [/r] [/x] [/i] [/c] [/l[:<size>]
 | /маркклеан | Используйте только с FAT/FAT32/exFAT. Помечает том как чистый, если не было обнаружено повреждений, даже если параметр **/f** не указан. |
 | /? | Отображение справки в командной строке. |
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 - Параметр **/i** или **/c** сокращает время, необходимое для запуска **программы chkdsk** , пропуская определенные проверки тома.
 

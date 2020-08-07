@@ -1,20 +1,18 @@
 ---
 title: repair-bde
 description: Справочная статья для * * * *-
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 534dca1a-05f7-4ea8-ac24-4fe5f14f988a
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 5aaa915ef416130dd2017b8f0f35cd255d207678
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: c1ba55b5a1689ecfc6ebe8fb6ab3d02b717e7d38
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86956286"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87883760"
 ---
 # <a name="repair-bde"></a>repair-bde
 
@@ -39,7 +37,7 @@ repair-bde <InputVolume> <OutputVolumeorImage> [-rk] [–rp] [-pw] [–kp] [–l
 
 #### <a name="parameters"></a>Параметры
 
-|Параметр|Описание|
+|Параметр|Описание:|
 |---------|-----------|
 |\<InputVolume>|Определяет букву диска, зашифрованного с помощью BitLocker, который требуется восстановить. Буква диска должна содержать двоеточие; Например: **C:**.|
 |\<OutputVolumeorImage>|Указывает диск, на котором будет храниться содержимое восстановленного диска. Все сведения на выходном диске будут перезаписаны.|
@@ -51,7 +49,7 @@ repair-bde <InputVolume> <OutputVolumeorImage> [-rk] [–rp] [-pw] [–kp] [–l
 |-f|Принудительное отключение тома, даже если он не может быть заблокирован. Эта команда также может быть указана как **-Force**.|
 |-? или/?|Отображает справку в командной строке.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если путь к пакету ключей не указан, **Repair-bde** выполнит поиск ключевого пакета на диске. Однако если жесткий диск поврежден, то **Repair-bde** не сможет найти пакет и предложит указать путь.
 

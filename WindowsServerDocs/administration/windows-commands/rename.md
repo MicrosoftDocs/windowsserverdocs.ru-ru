@@ -1,20 +1,18 @@
 ---
 title: переименовать
 description: Справочная статья по команде Rename, которая переименовывает файл или каталог.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 7f2ea658-0fa9-4015-8031-22c2b0089231
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: cf7a962a83b7cf8f00ea4963e358c0329ae28c3b
-ms.sourcegitcommit: 145cf75f89f4e7460e737861b7407b5cee7c6645
+ms.openlocfilehash: a2ab634be010f470314658b25daac92c00d4706c
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "87409665"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87883790"
 ---
 # <a name="rename"></a>переименовать
 
@@ -33,7 +31,7 @@ rename [<drive>:][<path>]<filename1> <filename2>
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 |--|--|
 | `[<drive>:][<path>]<filename1>` | Указывает расположение и имя файла или набора файлов, которые требуется переименовать. *Имя_файла1* может содержать подстановочные знаки (**&#42;** и **?**). |
 | `<filename2>` | Указывает новое имя для файла. Для указания новых имен нескольких файлов можно использовать подстановочные знаки. |

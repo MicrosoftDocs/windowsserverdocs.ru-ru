@@ -1,20 +1,18 @@
 ---
 title: compact
 description: Справочная статья по команде Compact, которая отображает или изменяет сжатие файлов или каталогов в разделах NTFS.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 429b3752-df0a-43a4-a210-df2f3ad03c3b
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: c17f7c934ecd4b6988b3ab606059a2acd31b852b
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: a211d6839229ac22af10dd4c8fcf69b1d222a4fb
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85929009"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87892614"
 ---
 # <a name="compact"></a>compact
 
@@ -28,7 +26,7 @@ compact [/c | /u] [/s[:<dir>]] [/a] [/i] [/f] [/q] [<filename>[...]]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | /C | Сжимает указанный каталог или файл. |
 | /U | Распаковывает указанный каталог или файл. |
@@ -40,7 +38,7 @@ compact [/c | /u] [/s[:<dir>]] [/a] [/i] [/f] [/q] [<filename>[...]]
 | `<filename>` | Указывает файл или каталог. Можно использовать несколько имен файлов, а также **&#42;** и **?** подстановочные знаки. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 - Эта команда представляет собой версию функции сжатия файловой системы NTFS в командной строке. Состояние сжатия каталога указывает, будут ли файлы автоматически сжиматься при добавлении в каталог. Задание состояния сжатия каталога не обязательно приводит к изменению состояния сжатия файлов, которые уже находятся в каталоге.
 

@@ -1,20 +1,18 @@
 ---
 title: remove
 description: Справочная статья по команде Remove, которая удаляет букву диска или точку подключения из тома.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: b0886140-da8b-4231-8cb2-f280874d99c0
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 7fba062945effd49efa9987d2c7d23fc90552fd4
-ms.sourcegitcommit: 145cf75f89f4e7460e737861b7407b5cee7c6645
+ms.openlocfilehash: 469b3ac1783dfff5228778d11532448bee49346c
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "87409685"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87883835"
 ---
 # <a name="remove"></a>remove
 
@@ -33,7 +31,7 @@ remove [{letter=<drive> | mount=<path> [all]}] [noerr]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | Letter =`<drive>` | Буква диска для удаления. |
 | подключение =`<path>` | Путь к точке подключения для удаления. |

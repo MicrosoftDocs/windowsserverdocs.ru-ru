@@ -1,20 +1,18 @@
 ---
 title: bitsadmin setnoprogresstimeout
 description: Справочная статья по команде битсадмин сетнопрогресстимеаут, которая задает время в секундах, в течение которого служба пытается переместить файл после возникновения временной ошибки.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 7fac50d9-cc6b-46a4-a96f-fab751ee1756
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 9bb7ac4cd03148c533aa27f62a1c9770465673a5
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 521f841c3b60c95486fc6e92088a37ae2b7fde2f
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85927670"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87893016"
 ---
 # <a name="bitsadmin-setnoprogresstimeout"></a>bitsadmin setnoprogresstimeout
 
@@ -28,12 +26,12 @@ bitsadmin /setnoprogresstimeout <job> <timeoutvalue>
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | задание | Отображаемое имя задания или идентификатор GUID. |
 | тимеаутвалуе | Продолжительность времени, в течение которого служба BITS ожидает передачи файла после первой ошибки в секундах. |
 
-### <a name="remarks"></a>Комментарии
+### <a name="remarks"></a>Remarks
 
 - Интервал времени ожидания "не выполняется" начинается, когда задание сталкивается с первой временной ошибкой.
 

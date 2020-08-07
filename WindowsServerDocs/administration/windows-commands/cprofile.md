@@ -1,20 +1,18 @@
 ---
 title: cprofile
 description: Справочная статья по команде кпрофиле. Эта команда устарела и не гарантируется, что она будет поддерживаться в будущих выпусках Windows.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: d83742c0-9c38-4d24-8f63-2eaad0c3c382
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: ae4bf757e49dde88948812e6d97bc4c8b338c990
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: c29daf1520498002eea9efd90cfda343c45ed3fd
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86958426"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87892454"
 ---
 # <a name="cprofile"></a>cprofile
 

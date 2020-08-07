@@ -1,20 +1,18 @@
 ---
 title: reg query
 description: Справочная статья по команде reg query, которая возвращает список следующего уровня подразделов и записей, расположенных в указанном подразделе реестра.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 0e6a0d7c-ed9b-4318-833d-33f265a81f39
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 18b7c5223227e0cf19de22f8bc9886ae798f027f
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: c8d841b537137088d95ce2be375ed83e718fca20
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85931067"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87884055"
 ---
 # <a name="reg-query"></a>reg query
 
@@ -28,7 +26,7 @@ reg query <keyname> [{/v <Valuename> | /ve}] [/s] [/se <separator>] [/f <data>] 
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 |--|--|
 | `<keyname>` | Указывает полный путь к подразделу. Чтобы указать удаленный компьютер, включите имя компьютера (в формате `\\<computername>\` ) в состав имени *keyName*. Пропуск `\\<computername>\` приводит к тому, что по умолчанию операция выполняется на локальном компьютере. *KeyName* должен содержать допустимый корневой ключ. Допустимые корневые ключи для локального компьютера: **HKLM**, **HKCU**, **HKCR**, **HKU**и **хккк**. Если указан удаленный компьютер, допустимые корневые ключи: **HKLM** и **HKU**. Если имя раздела реестра содержит пробел, заключите имя ключа в кавычки. |
 | /v`<Valuename>` | Указывает имя значения реестра для запроса. Если этот параметр опущен, возвращаются все имена значений для *keyName* . Параметр *valueName* для этого параметра является необязательным, если также используется параметр **/f** . |
@@ -44,14 +42,14 @@ reg query <keyname> [{/v <Valuename> | /ve}] [/s] [/se <separator>] [/f <data>] 
 | /z | Задает включение числового эквивалента для типа реестра в результатах поиска. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 - Возвращаемые значения для операции с **запросом reg** :
 
     | Значение | Описание: |
     |--|--|
     | 0 | Успех |
-    | 1 | Failure |
+    | 1 | Сбой |
 
 ### <a name="examples"></a>Примеры
 

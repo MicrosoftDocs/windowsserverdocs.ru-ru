@@ -1,20 +1,18 @@
 ---
 title: regini
 description: Справочная статья по команде Регини, которая изменяет реестр из командной строки или сценария и применяет изменения, предустановленные в одном или нескольких текстовых файлах.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 5ff18dc3-5bd8-400a-b311-fd73a3267e8c
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 07/11/2018
-ms.openlocfilehash: 56e2d4505db56248b6e4ce9c11caaae1df9a4f08
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: d0653ca97ca4401cb24250bbce1c627b6c683982
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85931016"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87883960"
 ---
 # <a name="regini"></a>regini
 
@@ -30,7 +28,7 @@ regini [-m \\machinename | -h hivefile hiveroot][-i n] [-o outputwidth][-b] text
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 |--|--|
 | -m`<\\computername>` | Указывает имя удаленного компьютера с изменяемым реестром. Используйте формат ** \\ ComputerName**. |
 | -h`<hivefile hiveroot>` | Указывает куст локального реестра для изменения. Необходимо указать имя файла Hive и корневой каталог Hive в формате **хивефиле хиверут**. |
@@ -39,7 +37,7 @@ regini [-m \\machinename | -h hivefile hiveroot][-i n] [-o outputwidth][-b] text
 | -b | Указывает, что **regini.exe** выходные данные обратно совместимы с предыдущими версиями **regini.exe**. |
 | Textfiles | Указывает имя одного или нескольких текстовых файлов, содержащих данные реестра. В списке можно указать любое количество текстовых файлов в кодировке ANSI или Unicode. |
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 Следующие рекомендации применяются в основном к содержимому текстовых файлов, содержащих данные реестра, которые применяются с помощью **regini.exe**.
 

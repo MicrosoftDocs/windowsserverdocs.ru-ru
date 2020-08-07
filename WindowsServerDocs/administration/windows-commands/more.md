@@ -1,20 +1,18 @@
 ---
 title: многом другом
 description: Справочная статья, посвященная команде more, которая отображает один экран вывода за раз.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: ded14f6a-d82f-4aeb-a2d8-7ec1c94dfb8f
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 07/26/2019
-ms.openlocfilehash: ec7f8c29f71389a6b583fda805c32ddf872321b4
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 198f3f3f3b80282d876e4fdda9e7cde649a8c7da
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86956956"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87886371"
 ---
 # <a name="more"></a>многом другом
 
@@ -33,7 +31,7 @@ more [/c] [/p] [/s] [/t<n>] [+<n>] [<files>]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | `<command>` | Указывает команду, для которой необходимо отобразить выходные данные. |
 | /C | Очищает экран перед отображением страницы. |
@@ -45,7 +43,7 @@ more [/c] [/p] [/s] [/t<n>] [+<n>] [<files>]
 | `<files>` | Указывает список отображаемых файлов. Файлы должны быть разделены пробелами. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 - Следующие подкоманды принимаются в командной строке **More** ( `-- More --` ), включая:
 
