@@ -1,20 +1,18 @@
 ---
 title: nlbmgr
 description: Справочная статья по команде Nlbmgr, которая позволяет настраивать и администрировать кластеры балансировки сетевой нагрузки и все узлы кластера с одного компьютера с помощью диспетчера балансировки сетевой нагрузки.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 89cb8590-b7cf-4a27-89fa-0fa62ea1a1ca
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 19aca0285eca202b4e43a15b8e880f3672f0c846
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: ac0eeb423c5cd590befcce8d7f986fc6b6ebf7d1
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86956716"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87885945"
 ---
 # <a name="nlbmgr"></a>nlbmgr
 
@@ -32,7 +30,7 @@ nlbmgr [/noping][/hostlist <filename>][/autorefresh <interval>][/help | /?]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | /нопинг | Не позволяет диспетчеру балансировки сетевой нагрузки проверить связь с узлами перед попыткой связаться с ними через инструментарий управления Windows (WMI) (WMI). Используйте этот параметр, если на всех доступных сетевых адаптерах отключен протокол ICMP. Если диспетчер балансировки сетевой нагрузки пытается связаться с недоступным узлом, при использовании этого параметра будет возникать задержка. |
 | /хостлист`<filename>` | Загружает узлы, указанные в файле filename, в Диспетчер балансировки сетевой нагрузки. |

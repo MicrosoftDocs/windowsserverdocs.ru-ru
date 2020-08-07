@@ -1,20 +1,18 @@
 ---
 title: bitsadmin getmodificationtime
 description: Справочная статья по команде битсадмин жетмодификатионтиме, которая получает время последнего изменения задания или передачи данных.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: e543945e-92c4-491e-8c2d-344f8a3e342d
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 9055c0ac70bc2360601ecd1b1f91c8ad3908d704
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: d89d3382c738ffc473135579eb58590f06774d5c
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85928168"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87894168"
 ---
 # <a name="bitsadmin-getmodificationtime"></a>bitsadmin getmodificationtime
 
@@ -28,7 +26,7 @@ bitsadmin /getmodificationtime <job>
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | -------------- | -------------- |
 | задание | Отображаемое имя задания или идентификатор GUID. |
 

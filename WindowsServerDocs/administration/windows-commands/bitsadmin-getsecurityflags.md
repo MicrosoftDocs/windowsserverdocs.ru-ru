@@ -1,20 +1,18 @@
 ---
 title: bitsadmin getsecurityflags
 description: Справочная статья по команде битсадмин жетсекуритифлагс, которая сообщает о флагах безопасности HTTP для перенаправления URL-адресов и проверках, выполняемых на сертификате сервера во время перемещения.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: c2e73519-34f4-487b-af11-97d5d08ef9bb
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 8613f2bd293bdbf7680aa730ec6fc222ffcfe158
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: ec6b5f4a52f1ecbf40b9374dd96914d4334eaf07
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85926682"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87893862"
 ---
 # <a name="bitsadmin-getsecurityflags"></a>bitsadmin getsecurityflags
 
@@ -30,7 +28,7 @@ bitsadmin /getsecurityflags <job>
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | -------------- | -------------- |
 | задание | Отображаемое имя задания или идентификатор GUID. |
 

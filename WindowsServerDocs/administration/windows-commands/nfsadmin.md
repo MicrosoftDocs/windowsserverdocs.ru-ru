@@ -1,20 +1,18 @@
 ---
 title: nfsadmin
 description: Справочная статья по команде nfsadmin, которая управляет сервером для NFS и клиентом для NFS.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 7375b2cf-c6b8-45b5-abf6-6c10e462defd
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 968c3debfafd552f295591199366c5f6c10fde47
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 797096fd7ca17c04b28f1b7490f5a8b4a58b31f6
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86956776"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87885994"
 ---
 # <a name="nfsadmin"></a>nfsadmin
 
@@ -42,7 +40,7 @@ nfsadmin client [computername] [-u Username [-p Password]] config option[...]
 
 ### <a name="general-parameters"></a>Общие параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | computername | Указывает удаленный компьютер, который требуется администрировать. Можно указать компьютер, используя имя службы Windows Internet Name Service (WINS) или имя DNS или IP-адрес. |
 | -u имя пользователя | Указывает имя пользователя, учетные данные которого будут использоваться. Может потребоваться добавить доменное имя в имя пользователя в формате *домен \ имя_пользователя*. |
@@ -50,7 +48,7 @@ nfsadmin client [computername] [-u Username [-p Password]] config option[...]
 
 ### <a name="server-for-nfs-related-parameters"></a>Сервер для параметров, связанных с NFS
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | -l | Список всех блокировок, удерживаемых клиентами. |
 | -r`{client|all}` | Освобождает блокировки, удерживаемые клиентом, или, если все они указаны, всеми клиентами. |
@@ -67,7 +65,7 @@ nfsadmin client [computername] [-u Username [-p Password]] config option[...]
 
 ### <a name="client-for-nfs-related-parameters"></a>Клиент для параметров, связанных с NFS
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | запуск | Запускает службу клиента для NFS. |
 | stop | Останавливает службу клиента для NFS. |

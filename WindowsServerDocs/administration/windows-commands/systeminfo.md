@@ -1,20 +1,18 @@
 ---
 title: systeminfo
 description: Справочная статья о systeminfo, где отображаются подробные сведения о конфигурации компьютера и его операционной системы, включая конфигурацию операционной системы, сведения о безопасности, идентификатор продукта и свойства оборудования (например, ОЗУ, дисковое пространство и сетевые карты).
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 39954968-3c2e-4d3e-9d89-c9c43347461e
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 670fdb94a2ccb10476faccab8f265a5e4db060dd
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: b34e92a5035360cb600bfe73b405f0a7033b6196
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85932570"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87881906"
 ---
 # <a name="systeminfo"></a>systeminfo
 
@@ -30,7 +28,7 @@ Systeminfo [/s <Computer> [/u <Domain>\<UserName> [/p <Password>]]] [/fo {TABLE 
 
 ### <a name="parameters"></a>Параметры
 
-|Параметр|Описание|
+|Параметр|Описание:|
 |---------|-----------|
 |ключ\<Computer>|Указывает имя или IP-адрес удаленного компьютера (не используйте символы обратной косой черты). По умолчанию это локальный компьютер.|
 |/u\<Domain>\<UserName>|Выполняет команду с разрешениями учетной записи указанной учетной записи пользователя. Если параметр **/u** не указан, эта команда использует разрешения пользователя, который в данный момент вошел в систему на компьютере, выполняющем команду.|

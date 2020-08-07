@@ -4,15 +4,13 @@ description: Справочная статья по средству Рефсу�
 author: laknight5
 ms.author: laknight
 ms.date: 6/29/2020
-ms.prod: windows-server
-ms.technology: windows-commands
 ms.topic: article
-ms.openlocfilehash: 3afc96970bb0350a3c1168c520cc20ad4f2254af
-ms.sourcegitcommit: 145cf75f89f4e7460e737861b7407b5cee7c6645
+ms.openlocfilehash: d40faa165666a5836dc6e87589d27f8eb643479e
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "87409725"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87884218"
 ---
 # <a name="refsutil"></a>рефсутил
 
@@ -24,7 +22,7 @@ ms.locfileid: "87409725"
 
 ## <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 |--|--|
 | `<source volume>` | Указывает том ReFS для обработки. Буква диска должна иметь формат "L:" или необходимо указать путь к точке подключения тома. |
 | `<working directory>` | Указывает расположение для хранения временных данных и журналов. Он **не** должен располагаться на `<source volume>` . |

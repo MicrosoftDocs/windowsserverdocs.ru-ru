@@ -1,20 +1,18 @@
 ---
 title: quser
 description: Справочная статья по команде Кусер, которая отображает сведения о пользовательских сеансах на сервере узла сеансов удаленный рабочий стол.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 8056204f-ed11-4c91-bb1d-c799283a48a4
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 372622de4e94debcff019f2ab5b7cc793381aedf
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: dd56263e65ed9b6749f6d3d63c60bce32bb8ed53
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86956406"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87884387"
 ---
 # <a name="quser"></a>quser
 
@@ -45,7 +43,7 @@ quser [<username> | <sessionname> | <sessionID>] [/server:<servername>]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 |--|--|
 | `<username>` | Указывает имя входа пользователя, которому необходимо выполнить запрос. |
 | `<sessionname>` | Указывает имя сеанса, с которым необходимо выполнить запрос. |
@@ -53,7 +51,7 @@ quser [<username> | <sessionname> | <sessionID>] [/server:<servername>]
 | /server:`<servername>` | Указывает удаленный рабочий стол сервер узла сеансов, к которому требуется выполнить запрос. В противном случае используется текущий сервер узла сеансов удаленный рабочий стол. Этот параметр является обязательным только при использовании этой команды с удаленного сервера. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 - Чтобы использовать эту команду, необходимо иметь разрешение на полный доступ или специальное разрешение доступа.
 

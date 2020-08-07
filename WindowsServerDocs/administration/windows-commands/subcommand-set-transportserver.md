@@ -1,20 +1,18 @@
 ---
 title: Набор подкоманд-Транспортсервер
 description: Справочная статья по подкоманде Set-Транспортсервер, которая задает параметры конфигурации для транспортного сервера.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 7863225c-f4b2-4cd0-b929-78a454bef249
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: e678ac9f472666dcb5a49e5f0aad2bb9003cd3a5
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 9b7725101bcc2230a07c8082f9a57b85d411e80d
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85936970"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87882121"
 ---
 # <a name="subcommand-set-transportserver"></a>Подкоманда: Set-Транспортсервер
 
@@ -41,7 +39,7 @@ wdsutil [Options] /Set-TransportServer [/Server:<Server name>]
                  [/Fallback:{Yes | No}]
 ```
 ### <a name="parameters"></a>Параметры
-|Параметр|Описание|
+|Параметр|Описание:|
 |-------|--------|
 |[/Server: <Server name> ]|Указывает имя транспортного сервера. Это может быть NetBIOS-имя или полное доменное имя (FQDN). Если имя транспортного сервера не указано, используется локальный сервер.|
 |[/ObtainIpv4From: {DHCP &#124; Range}]|Задает источник IPv4-адресов следующим образом:<p>-[/Start: <IP address> ] задает начало диапазона IP-адресов. Этот параметр является обязательным и допустимым, только если для этого параметра задано значение **Range**.<br />-[/Енд: <IP address> ] задает конец диапазона IP-адресов. Этот параметр является обязательным и допустимым, только если для этого параметра задано значение **Range**.<br />-[/Стартпорт: <port> ] задает начало диапазона портов.<br />-[/Ендпорт: <port> ] задает конец диапазона портов.|

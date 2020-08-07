@@ -1,20 +1,18 @@
 ---
 title: nfsstat
 description: Справочная статья по команде нфсстат, в которой отображаются статистические сведения о сетевой файловой системе (NFS) и вызовах удаленного вызова процедур (RPC).
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: da7a9768-44bd-404b-97ee-c388d00dc395
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 0eb2836b15c24dc946953c0c82c4b3586971c5bc
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: ca87df561414a70091adc81ccd4e4ff11e583f02
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86956736"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87885964"
 ---
 # <a name="nfsstat"></a>nfsstat
 

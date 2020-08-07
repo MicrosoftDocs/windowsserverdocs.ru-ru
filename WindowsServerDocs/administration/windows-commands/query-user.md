@@ -1,20 +1,18 @@
 ---
 title: query user
 description: Справочная статья по команде запроса пользователя, которая отображает сведения о пользовательских сеансах на удаленный рабочий стол сервере узла сеансов.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: a670fb78-c055-464a-b61d-3a85632c52c5
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 6929f7828f82c50723ae0a8c658ee2c79e1f1499
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: ea760c32cc7955c96a363c994c2cb49227bceb2e
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86956456"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87884406"
 ---
 # <a name="query-user"></a>query user
 
@@ -45,7 +43,7 @@ query user [<username> | <sessionname> | <sessionID>] [/server:<servername>]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 |--|--|
 | `<username>` | Указывает имя входа пользователя, которому необходимо выполнить запрос. |
 | `<sessionname>` | Указывает имя сеанса, с которым необходимо выполнить запрос. |
@@ -53,7 +51,7 @@ query user [<username> | <sessionname> | <sessionID>] [/server:<servername>]
 | /server:`<servername>` | Указывает удаленный рабочий стол сервер узла сеансов, к которому требуется выполнить запрос. В противном случае используется текущий сервер узла сеансов удаленный рабочий стол. Этот параметр является обязательным только при использовании этой команды с удаленного сервера. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 - Чтобы использовать эту команду, необходимо иметь разрешение на полный доступ или специальное разрешение доступа.
 

@@ -1,20 +1,18 @@
 ---
 title: prompt
 description: Справочная статья по команде Prompt, которая настраивает Cmd.exe командной строки.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 3d98e965-02eb-46ad-9d0a-5dc44830373e
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 07/11/2018
-ms.openlocfilehash: 72ed82c316faddba9486649497c8c48f88e6da81
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: df849e70da973276360da6e81390466f0484f4b5
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85931145"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87884626"
 ---
 # <a name="prompt"></a>prompt
 
@@ -33,11 +31,11 @@ prompt [<text>]
 | `<text>` | Задает текст и сведения, которые необходимо включить в командную строку. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 - Сочетания символов, которые можно включить вместо или в дополнение к одной или нескольким символьным строкам в *текстовом* параметре:
 
-    | Символ | Описание |
+    | Знак | Описание |
     |--|--|
     | $q | = (Знак равенства) |
     | $$ | $ (Знак доллара) |
@@ -59,7 +57,7 @@ prompt [<text>]
 
 - Если расширения команд включены, команда **Prompt** поддерживает следующие символы форматирования:
 
-    | Символ | Описание |
+    | Знак | Описание |
     |--|--|
     | $+ | Ноль или более символов плюса ( **+** ) в зависимости от глубины стека **pushd** Directory (по одному символу для каждого уровня). |
     | $m | Удаленное имя, связанное с текущей буквой диска или пустой строкой, если текущий диск не является сетевым диском. |

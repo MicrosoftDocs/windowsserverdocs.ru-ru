@@ -1,20 +1,18 @@
 ---
 title: bitsadmin getnotifycmdline
 description: Справочная статья по команде битсадмин жетнотификмдлине, которая получает команду командной строки, которая выполняется, когда задание завершает передачу данных.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 90fa33e6-aca5-4a23-82bd-19a9f13f8416
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 233186edcdb10d98e1d1139ebd63943647b84ae4
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 5726147701e3ef09e40b3edf900a2e4d417f95cc
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85926998"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87894102"
 ---
 # <a name="bitsadmin-getnotifycmdline"></a>bitsadmin getnotifycmdline
 
@@ -31,7 +29,7 @@ bitsadmin /getnotifycmdline <job>
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | -------------- | -------------- |
 | задание | Отображаемое имя задания или идентификатор GUID. |
 

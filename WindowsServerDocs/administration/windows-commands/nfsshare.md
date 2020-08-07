@@ -1,20 +1,18 @@
 ---
 title: nfsshare
 description: Справочная статья по команде нфсшаре, которая управляет общими сетевыми ресурсами файловой системы (NFS).
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 437a2615-335a-442f-9713-d50d5f3983a3
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 9db04752ad7982f78dc72c02108fe706cdf2fa04
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 492b405468987f91f72019c710b8ae4eae4ff6fa
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86956766"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87885982"
 ---
 # <a name="nfsshare"></a>nfsshare
 
@@ -29,7 +27,7 @@ nfsshare {<sharename> | <drive>:<path> | * } /delete
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | -o провер =`{yes|no}` | Указывает, могут ли анонимные (несопоставленные) пользователи получить доступ к общему каталогу. |
 | -o RW =`[<host>[:<host>]...]` | Предоставляет доступ для чтения и записи к общему каталогу узлами или группами клиентов, заданными *узлом*. Имена узлов и групп необходимо разделять двоеточием (**:**). Если *узел* не указан, все узлы и группы клиентов (кроме тех, которые указаны с параметром **ro** ) получают доступ для чтения и записи. Если не задан ни параметр **ro** , ни режим **RW** , все клиенты имеют доступ на чтение и запись к общему каталогу. |
@@ -41,7 +39,7 @@ nfsshare {<sharename> | <drive>:<path> | * } /delete
 | /delete | Если указано *ShareName* или `<drive>:<path>` , этот параметр удаляет указанную общую папку. Если указан подстановочный знак (*), этот параметр удаляет все общие папки NFS. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 - Если параметр *ShareName* является единственным, эта команда выводит список свойств общего ресурса NFS, идентифицируемого *ShareName*.
 

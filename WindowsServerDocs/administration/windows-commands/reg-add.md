@@ -1,20 +1,18 @@
 ---
 title: reg add
 description: Справочная статья по команде reg Add, которая добавляет новый подраздел или запись в реестр.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: d9ad143e-dc10-4e2e-a229-408393c40079
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: db968e8fb55a4de73f5221f8149f794600f6884e
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 549c9e4ff0eb09e051debdee12003031a8443e18
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85933509"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87884207"
 ---
 # <a name="reg-add"></a>reg add
 
@@ -28,7 +26,7 @@ reg add <keyname> [{/v Valuename | /ve}] [/t datatype] [/s Separator] [/d Data] 
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 |--|--|
 | `<keyname>` | Задает полный путь к добавляемому подразделу или записи. Чтобы указать удаленный компьютер, включите имя компьютера (в формате `\\<computername>\` ) в состав имени *keyName*. Пропуск `\\<computername>\` приводит к тому, что по умолчанию операция выполняется на локальном компьютере. *KeyName* должен содержать допустимый корневой ключ. Допустимые корневые ключи для локального компьютера: **HKLM**, **HKCU**, **HKCR**, **HKU**и **хккк**. Если указан удаленный компьютер, допустимые корневые ключи: **HKLM** и **HKU**. Если имя раздела реестра содержит пробел, заключите имя ключа в кавычки. |
 | /v`<Valuename>` | Указывает имя для добавления записи в реестр. |
@@ -39,7 +37,7 @@ reg add <keyname> [{/v Valuename | /ve}] [/t datatype] [/s Separator] [/d Data] 
 | /f | Добавляет запись реестра без запроса подтверждения. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 - С этой операцией нельзя добавлять поддеревья. Эта версия **reg** не запрашивает подтверждение при добавлении подраздела.
 
@@ -48,7 +46,7 @@ reg add <keyname> [{/v Valuename | /ve}] [/t datatype] [/s Separator] [/d Data] 
 | Значение | Описание: |
 |--|--|
 | 0 | Успех |
-| 1 | Failure |
+| 1 | Сбой |
 
 - Для **REG_EXPAND_SZ** типа ключа используйте символ крышки ( **^** ) с **%** параметром/d.
 

@@ -1,20 +1,18 @@
 ---
 title: subst
 description: Сведения о связывании пути с буквой диска.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 3e69234c-2312-4343-868b-afc1017c622a
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 62ba0de33e69998e7d3e343b1e53c1de7e630e10
-ms.sourcegitcommit: ab64dc83fca28039416c26226815502d0193500c
+ms.openlocfilehash: 385359a49ee1cc4df95a17bef6c2aed4704a2dcd
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "82721611"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87881950"
 ---
 # <a name="subst"></a>subst
 
@@ -27,20 +25,20 @@ ms.locfileid: "82721611"
 ## <a name="syntax"></a>Синтаксис
 
 ```
-subst [<Drive1>: [<Drive2>:]<Path>] 
+subst [<Drive1>: [<Drive2>:]<Path>]
 subst <Drive1>: /d
 ```
 
 ### <a name="parameters"></a>Параметры
 
-|Параметр|Описание|
+|Параметр|Описание:|
 |---------|-----------|
-|\<> диск1:|Указывает виртуальный диск, которому необходимо назначить путь.|
-|[\<Диск2>:] \<> пути|Указывает физический диск и путь, который вы хотите назначить виртуальному диску.|
+|\<Drive1>:|Указывает виртуальный диск, которому необходимо назначить путь.|
+|[\<Drive2>:]\<Path>|Указывает физический диск и путь, который вы хотите назначить виртуальному диску.|
 |/d|Удаляет подставляемый (виртуальный) диск.|
 |/?|Отображение справки в командной строке.|
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 -   Следующие команды не работают и не должны использоваться на дисках, указанных в команде **subst** :
 
@@ -63,11 +61,11 @@ subst <Drive1>: /d
 
 Чтобы создать виртуальный диск Z для пути Б:\усер\бетти\формс, введите:
 ```
-subst z: b:\user\betty\forms 
+subst z: b:\user\betty\forms
 ```
 Вместо того чтобы вводить полный путь, можно получить доступ к этому каталогу, введя букву виртуального диска, а затем двоеточие, как показано ниже.
 ```
-z: 
+z:
 ```
 
 ## <a name="additional-references"></a>Дополнительные ссылки

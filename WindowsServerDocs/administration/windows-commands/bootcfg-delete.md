@@ -1,20 +1,18 @@
 ---
 title: bootcfg delete
 description: Справочная статья по команде bootcfg DELETE, которая удаляет запись операционной системы в разделе "операционные системы" файла Boot.ini.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 71382e29-9b39-41c8-9c23-cf0ff829440a
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: e2a4176cb0935938b4b174953d05cd09af3db62b
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 2426dde90402e65eb29c78d82562338a61248cf6
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85926284"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87880618"
 ---
 # <a name="bootcfg-delete"></a>bootcfg delete
 
@@ -30,7 +28,7 @@ bootcfg /delete [/s <computer> [/u <domain>\<user> /p <password>]] [/id <osentry
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | `/s <computer>` | Указывает имя или IP-адрес удаленного компьютера (не используйте обратную косую черту). По умолчанию это локальный компьютер. |
 | `/u <domain>\<user>`  | Выполняет команду с разрешениями учетной записи пользователя, указанного в параметре `<user>` или `<domain>\<user>` . По умолчанию заданы разрешения текущего вошедшего в систему пользователя на компьютере, выполняющем команду. |

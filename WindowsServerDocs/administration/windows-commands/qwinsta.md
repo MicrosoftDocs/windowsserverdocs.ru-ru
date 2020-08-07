@@ -1,20 +1,18 @@
 ---
 title: qwinsta
 description: Справочная статья по команде квинста, которая отображает сведения о сеансах на сервере узла сеансов удаленный рабочий стол.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: a793212a-7ecd-44cb-a77b-c5c2edb34979
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 45590cf9b6fdb5de40e4ab25bd444f847d203670
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 496088708d980ec2ad3253dc29aeec99b29a6d41
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86956376"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87884371"
 ---
 # <a name="qwinsta"></a>qwinsta
 
@@ -33,7 +31,7 @@ qwinsta [<sessionname> | <username> | <sessionID>] [/server:<servername>] [/mode
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 |--|--|
 | `<sessionname>` | Указывает имя сеанса, с которым необходимо выполнить запрос. |
 | `<username>` | Указывает имя пользователя, сеансы которого необходимо запросить. |
@@ -45,7 +43,7 @@ qwinsta [<sessionname> | <username> | <sessionID>] [/server:<servername>] [/mode
 | /Counter | Отображает сведения о текущих счетчиках, включая общее число созданных, отключенных и повторно подключенных сеансов. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 - Пользователь всегда может запрашивать сеанс, в который в данный момент вошел пользователь. Чтобы запросить другие сеансы, пользователь должен иметь специальное разрешение на доступ.
 

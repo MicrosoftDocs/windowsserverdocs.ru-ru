@@ -1,20 +1,18 @@
 ---
 title: reg delete
 description: Справочная статья по команде reg DELETE, которая удаляет подраздел или записи из реестра.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: cee05071-1607-4ab1-b8ab-65caebeb85c3
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: c8f90578cdd291f5788fc53223d9dc471f7a1458
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: da541f55117e287df81b53a45c923ed2ed3ae028
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85934650"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87884155"
 ---
 # <a name="reg-delete"></a>reg delete
 
@@ -28,7 +26,7 @@ reg delete <keyname> [{/v Valuename | /ve | /va}] [/f]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 |--|--|
 | `<keyname1>` | Задает полный путь к добавляемому подразделу или записи. Чтобы указать удаленный компьютер, включите имя компьютера (в формате `\\<computername>\` ) в состав имени *keyName*. Пропуск `\\<computername>\` приводит к тому, что по умолчанию операция выполняется на локальном компьютере. *KeyName* должен содержать допустимый корневой ключ. Допустимые корневые ключи для локального компьютера: **HKLM**, **HKCU**, **HKCR**, **HKU**и **хккк**. Если указан удаленный компьютер, допустимые корневые ключи: **HKLM** и **HKU**. Если имя раздела реестра содержит пробел, заключите имя ключа в кавычки. |
 | /v`<Valuename>` | Удаляет определенную запись в подразделе. Если запись не указана, все записи и подразделы в подразделе будут удалены. |
@@ -37,14 +35,14 @@ reg delete <keyname> [{/v Valuename | /ve | /va}] [/f]
 | /f | Удаляет существующий подраздел реестра или запись без запроса подтверждения. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 - Возвращаемые значения для операции **reg Delete** :
 
     | Значение | Описание: |
     |--|--|
     | 0 | Успех |
-    | 1 | Failure |
+    | 1 | Сбой |
 
 ### <a name="examples"></a>Примеры
 

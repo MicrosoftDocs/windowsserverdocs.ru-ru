@@ -1,26 +1,24 @@
 ---
 title: prnmngr
 description: Справочная статья по команде прнмнгр, которая добавляет, удаляет и перечисляет принтеры или подключения принтеров в дополнение к настройке и отображению принтера по умолчанию.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 39eee1a8-4b41-4c9f-941e-486495135eb8
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 07/11/2018
-ms.openlocfilehash: 562d25a95fa3ccd556b65d0a29b866557c842c55
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 53c49de622b38efc6e536d8113b58b43ffef2dbe
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85924176"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87884737"
 ---
 # <a name="prnmngr"></a>prnmngr
 
 > Область применения: Windows Server (половина ежегодного канала), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
-Добавляет, удаляет и перечисляет принтеры или подключения принтеров в дополнение к настройке и отображению принтера по умолчанию. Эта команда представляет собой Visual Basic сценарий, расположенный в `%WINdir%\System32\printing_Admin_Scripts\<language>` каталоге. Чтобы использовать эту команду в командной строке, введите **cscript** , а затем полный путь к файлу прнмнгр или измените каталоги на соответствующую папку. Например, `cscript %WINdir%\System32\printing_Admin_Scripts\en-US\prnmngr`.
+Добавляет, удаляет и перечисляет принтеры или подключения принтеров в дополнение к настройке и отображению принтера по умолчанию. Эта команда представляет собой Visual Basic сценарий, расположенный в `%WINdir%\System32\printing_Admin_Scripts\<language>` каталоге. Чтобы использовать эту команду в командной строке, введите **cscript** , а затем полный путь к файлу прнмнгр или измените каталоги на соответствующую папку. Например: `cscript %WINdir%\System32\printing_Admin_Scripts\en-US\prnmngr`.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -31,7 +29,7 @@ cscript prnmngr {-a | -d | -x | -g | -t | -l | -?}[c] [-s <Servername>] [-p <Pri
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 |--|--|
 | -a | Добавляет подключение к локальному принтеру. |
 | -d | Удаляет подключение принтера. |
@@ -47,7 +45,7 @@ cscript prnmngr {-a | -d | -x | -g | -t | -l | -?}[c] [-s <Servername>] [-p <Pri
 | -u `<Username>` -w`<password>` | Указывает учетную запись с разрешениями на подключение к компьютеру, на котором размещен принтер, которым требуется управлять. Все члены локальной группы администраторов целевого компьютера имеют эти разрешения, но разрешения также могут быть предоставлены другим пользователям. Если учетная запись не указана, для работы команды необходимо войти в систему с учетной записью с этими разрешениями. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 - Если предоставленные сведения содержат пробелы, заключите его в кавычки (например, "имя компьютера").
 

@@ -1,20 +1,18 @@
 ---
 title: rdpsign
 description: Справочная статья по команде рдпсигн, которая позволяет подписать файл протокол удаленного рабочего стола (. RDP).
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 4a6fa8ce-3d32-49a5-b056-bcc1a23391f5
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 07/11/2018
-ms.openlocfilehash: 5769e568d6cee062b354b4d8c7284808968a2b02
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: f937cd0bebd2c57c4eef44c9dbf803176f285c2f
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86956316"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87884325"
 ---
 # <a name="rdpsign"></a>rdpsign
 
@@ -33,7 +31,7 @@ rdpsign /sha1 <hash> [/q | /v |] [/l] <file_name.rdp>
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 |--|--|
 | /sha1`<hash>` | Задает отпечаток, который является хэшем алгоритм SHA-1 (SHA1) сертификата подписи, включенного в хранилище сертификатов. Используется в Windows Server 2012 R2 и более ранних версий. |
 | /sha256`<hash>` | Задает отпечаток, представляющий собой хэш-код безопасного хэш-алгоритма 256 (SHA256) сертификата подписи, включенного в хранилище сертификатов. Заменяет/SHA1 в Windows Server 2016 и более поздних версий. |
@@ -43,7 +41,7 @@ rdpsign /sha1 <hash> [/q | /v |] [/l] <file_name.rdp>
 | `<file_name.rdp>` | Имя RDP-файла. Необходимо указать RDP-файл (или файлы) для подписи, используя полное имя файла. Подстановочные знаки не допускаются. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 - Отпечаток сертификата SHA1 или SHA256 должен представлять собой доверенный издатель RDP-файла. Чтобы получить отпечаток сертификата, откройте оснастку " **Сертификаты** " и дважды щелкните нужный сертификат (в хранилище сертификатов на локальном компьютере или в хранилище личных сертификатов), перейдите на вкладку " **сведения** ", а затем в списке **полей** щелкните **отпечаток**.
 

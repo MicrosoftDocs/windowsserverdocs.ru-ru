@@ -1,20 +1,18 @@
 ---
 title: вызывает
 description: Справочная статья по команде Call, которая вызывает одну пакетную программу из другой без остановки родительской программы пакетной службы.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: d34a41dc-e6c7-4467-bf6a-15cec704833e
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 06/05/2018
-ms.openlocfilehash: e73199b9d5633d5b3f1f7b8afd2bd35eb826bfd7
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 7ff402f159dc69d683ad5c568ca2d31d753eb77c
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85924834"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87880389"
 ---
 # <a name="call"></a>вызывает
 
@@ -31,7 +29,7 @@ call [drive:][path]<filename> [<batchparameters>] [:<label> [<arguments>]]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | `[<drive>:][<path>]<filename>` | Указывает расположение и имя пакетной программы, которую необходимо вызвать. `<filename>`Параметр является обязательным и должен иметь расширение BAT или cmd. |
 | `<batchparameters>` | Указывает все данные командной строки, необходимые для пакетной программы. |
@@ -47,7 +45,7 @@ call [drive:][path]<filename> [<batchparameters>] [:<label> [<arguments>]]
 
 Можно использовать следующие необязательные синтаксисы в качестве подстановок для пакетных параметров (**% n**):
 
-| Параметр Batch | Описание |
+| Параметр Batch | Описание: |
 | --------------- | ----------- |
 | % ~ 1 | Развертывает **%1** и удаляет окружающие кавычки. |
 | % ~ F1 | Расширение **%1** до полного пути. |
@@ -63,7 +61,7 @@ call [drive:][path]<filename> [<batchparameters>] [:<label> [<arguments>]]
 
 В следующей таблице показано, как можно объединить модификаторы с пакетными параметрами для составных результатов.
 
-| Параметр Batch с модификатором | Описание |
+| Параметр Batch с модификатором | Описание: |
 | ----------------------------- | ----------- |
 | % ~ DP1 | Расширение **%1** до буквы диска и пути. |
 | % ~ nx1 | Развертывает **%1** только для имени файла и расширения. |
@@ -72,7 +70,7 @@ call [drive:][path]<filename> [<batchparameters>] [:<label> [<arguments>]]
 
 В приведенных выше примерах **%1** и Path могут быть заменены другими допустимыми значениями. **%~** Синтаксис завершается допустимым номером аргумента. **%~** Модификаторы нельзя использовать с **% &#42;**.
 
-### <a name="remarks"></a>Комментарии
+### <a name="remarks"></a>Remarks
 
 - Использование параметров пакетной службы:
 

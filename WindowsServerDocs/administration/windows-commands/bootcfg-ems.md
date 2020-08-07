@@ -1,20 +1,18 @@
 ---
 title: bootcfg ems
 description: Справочная статья по команде bootcfg EMS, которая позволяет пользователю добавлять или изменять параметры перенаправления консоли служб аварийного управления на удаленный компьютер.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 57abdc50-c64a-45f1-8470-3f8c3a51f743
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 9c24f8acf6beb368dd989e4b05c912b69c4e7b68
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: b3f703eefe9f9300d6576a9f4349d2fb275b2d57
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85926248"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87880577"
 ---
 # <a name="bootcfg-ems"></a>bootcfg ems
 
@@ -30,7 +28,7 @@ bootcfg /ems {on | off | edit}[/s <computer> [/u <domain>\<user> /p <password>]]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | `{on | off | edit}` | Указывает значение для перенаправления служб аварийного управления, включая:<ul><li>**on.** Включает удаленный выход для указанного `<osentrylinenum>` . Также добавляет параметр/redirect к указанному <osentrylinenum> и `redirect=com<X>` параметру в раздел [boot loader]. Значение `com<X>` задается параметром **/Port** .</li><li>**автоном.** Отключает вывод на удаленный компьютер. Также удаляет параметр/Redirect для указанного <osentrylinenum> и `redirect=com<X>` параметра из раздела [boot loader].</li><li>**Редактор.** Позволяет изменять параметры портов, изменяя `redirect=com<X>` параметр в разделе [boot loader]. Значение `com<X>` задается параметром **/Port** .</li></ul> |
 | `/s <computer>` | Указывает имя или IP-адрес удаленного компьютера (не используйте обратную косую черту). По умолчанию это локальный компьютер. |

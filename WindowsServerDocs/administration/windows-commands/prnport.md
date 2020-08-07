@@ -1,26 +1,24 @@
 ---
 title: prnport
 description: Справочная статья по команде прнпорт, которая создает, удаляет и перечисляет стандартные порты принтера TCP/IP, а также отображает и изменяет конфигурацию порта.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 6a0ec638-a21e-4a34-be5c-bd0f7ca89ffe
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 4b373547050d3d3dfb1d64160959c8dbb9e6f5c5
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: a8aa1729c84b54393a6154dd5fc4ba5a5e6834fc
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85931160"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87884704"
 ---
 # <a name="prnport"></a>prnport
 
 > Область применения: Windows Server (половина ежегодного канала), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
-Создание, удаление и перечисление стандартных портов принтера TCP/IP, а также отображение и изменение конфигурации портов. Эта команда представляет собой Visual Basic сценарий, расположенный в `%WINdir%\System32\printing_Admin_Scripts\<language>` каталоге. Чтобы использовать эту команду в командной строке, введите **cscript** , а затем полный путь к файлу прнпорт или измените каталоги на соответствующую папку. Например, `cscript %WINdir%\System32\printing_Admin_Scripts\en-US\prnport`.
+Создание, удаление и перечисление стандартных портов принтера TCP/IP, а также отображение и изменение конфигурации портов. Эта команда представляет собой Visual Basic сценарий, расположенный в `%WINdir%\System32\printing_Admin_Scripts\<language>` каталоге. Чтобы использовать эту команду в командной строке, введите **cscript** , а затем полный путь к файлу прнпорт или измените каталоги на соответствующую папку. Например: `cscript %WINdir%\System32\printing_Admin_Scripts\en-US\prnport`.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -30,7 +28,7 @@ cscript prnport {-a | -d | -l | -g | -t | -?} [-r <portname>] [-s <Servername>] 
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 |--|--|
 | -a | Создает стандартный порт принтера TCP/IP. |
 | -d | Удаляет стандартный порт принтера TCP/IP. |
@@ -50,7 +48,7 @@ cscript prnport {-a | -d | -l | -g | -t | -?} [-r <portname>] [-s <Servername>] 
 | -2`{e|-d}` | Указывает, включены ли двойные очереди (также называемые перекачкой) для портов TCP LPR. Двойная буферизация необходима, так как TCP LPR должен содержать точный счетчик байтов в управляющем файле, отправляемом на принтер, но протокол не может получить число от локального поставщика печати. Таким образом, если файл помещен в очередь печати TCP LPR, он также помещается в очередь как временный файл в каталог System32. TCP-порт LPR определяет размер временного файла и отправляет его на сервер, на котором работает LPD. Параметр **e** включает двойные очереди. Параметр **d** отключает двойные очереди. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 - Если предоставленные сведения содержат пробелы, заключите его в кавычки (например, "имя компьютера").
 

@@ -1,20 +1,18 @@
 ---
 title: query termserver
 description: Справочная статья по команде Query термсервер, в которой отображается список всех удаленный рабочий стол серверов узлов сеансов в сети.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 3b89d3b4-236f-4376-90b6-939a0ec4b288
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: e751ad4c229faf2e4dbd74ab216ee855023c858a
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 755220fc5c105b97ae7d210857b662095fd306da
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86956486"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87884411"
 ---
 # <a name="query-termserver"></a>query termserver
 
@@ -37,7 +35,7 @@ query termserver [<servername>] [/domain:<domain>] [/address] [/continue]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 |--|--|
 | `<servername>` | Указывает имя, идентифицирующее сервер узла сеансов удаленный рабочий стол. |
 | /Domain`<domain>` | Указывает домен для запроса серверов терминалов. Не нужно указывать домен, если выполняется запрос к домену, в котором вы работаете в данный момент. |

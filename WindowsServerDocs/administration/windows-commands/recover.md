@@ -1,20 +1,18 @@
 ---
 title: recover
 description: Справочная статья по команде Recover, которая восстанавливает читаемые данные с поврежденного или дефектного диска.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: cf9be2e3-90c8-4773-a201-dc503b91948e
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: ab7f502b046bf30a40b1fdd386c7faddc5c8f15a
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 0c3d709d76743df4c1a653f0f0a19e8319b0e0f1
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85931937"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87884318"
 ---
 # <a name="recover"></a>recover
 
@@ -30,7 +28,7 @@ recover [<drive>:][<path>]<filename>
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 |--|--|
 | `[<drive>:][<path>]<filename>` | Указывает имя файла (и расположение файла, если он не находится в текущем каталоге), который требуется восстановить. Требуется *имя файла* , а подстановочные знаки не поддерживаются. |
 | /? | Отображение справки в командной строке. |

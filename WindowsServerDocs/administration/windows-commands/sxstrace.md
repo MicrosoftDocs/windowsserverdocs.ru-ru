@@ -1,20 +1,18 @@
 ---
 title: sxstrace
 description: Узнайте, как диагностировать проблемы, связанные с параллельным выполнением.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: fcd26eeb-fbd9-4a86-b6a9-dfa5e9c6e4fc
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 88ea6ba9d7a8f9744997eb78be2309693a6267b5
-ms.sourcegitcommit: 4f407b82435afe3111c215510b0ef797863f9cb4
+ms.openlocfilehash: d1ed136e72569c2dfbe59cd2132e13c23f94da02
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83821154"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87881935"
 ---
 # <a name="sxstrace"></a>sxstrace
 
@@ -28,15 +26,15 @@ sxstrace [{[trace -logfile:<FileName> [-nostop]|[parse -logfile:<FileName> -outf
 ```
 
 #### <a name="parameters"></a>Параметры
-|Параметр|Описание|
+|Параметр|Description|
 |-------|--------|
 |трассировка|Включает трассировку для SxS (параллельно)|
 |-файл_журнала|Указывает необработанный файл журнала.|
-|\<Имя файла>|Сохраняет журнал трассировки в файле *filename*.|
+|\<FileName>|Сохраняет журнал трассировки в файле *filename*.|
 |-не останавливаться|Указывает отсутствие запроса на прекращение трассировки.|
 |parse|Преобразует необработанный файл трассировки.|
 |-файл|Указывает имя выходного файла.|
-|\<Парседфиле>|Указывает имя файла проанализированного файла.|
+|\<ParsedFile>|Указывает имя файла проанализированного файла.|
 |-filter|Позволяет фильтровать выходные данные.|
 |\<AppName>|Указывает имя приложения.|
 |стоптраце|Остановите трассировку, если она не была остановлена ранее.|
@@ -47,7 +45,7 @@ sxstrace [{[trace -logfile:<FileName> [-nostop]|[parse -logfile:<FileName> -outf
 ```
 sxstrace trace -logfile:sxstrace.etl
 ```
-Перевод необработанного файла трассировки в удобочитаемый формат и сохранение результата в файле **сксстраце. txt**:
+Перевести необработанный файл трассировки в удобочитаемый формат и сохранить результат в **sxstrace.txt**:
 ```
 sxstrace parse -logfile:sxstrace.etl -outfile:sxstrace.txt
 ```

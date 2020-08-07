@@ -1,20 +1,18 @@
 ---
 title: cacls
 description: Справочная статья по команде cacls. Эта команда устарела и не гарантируется, что она будет поддерживаться в будущих выпусках Windows.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: b5bdbaaa-4557-48b8-80df-e75ee0d2f27d
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 7719728f2c1cb7ce629e199a51ee211ea5781401
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 0a6033d6631fd3269f00f52df14fd5e94994b278
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85924840"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87880421"
 ---
 # <a name="cacls"></a>cacls
 
@@ -46,7 +44,7 @@ cacls <filename> [/t] [/m] [/l] [/s[:sddl]] [/e] [/c] [/g user:<perm>] [/r user 
 | [/d пользователь [...] | Запрет указанного доступа пользователя. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="sample-output"></a>Пример выходных данных
+#### <a name="sample-output"></a>Пример полученных результатов
 
 | Выходные данные | Запись управления доступом (ACE) применяется к |
 -------- | ------------------------------------- |
@@ -59,7 +57,7 @@ cacls <filename> [/t] [/m] [/l] [/s[:sddl]] [/e] [/c] [/g user:<perm>] [/r user 
 | ЭЛЕМЕНТ IO | Только во вложенных папках. |
 | Oi IO | Только файлы. |
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 - Можно использовать подстановочные знаки (**?** и **&#42;**) для указания нескольких файлов.
 

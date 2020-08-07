@@ -1,20 +1,18 @@
 ---
 title: bitsadmin getstate
 description: Справочная статья по команде битсадминического состояния, которая получает состояние указанного задания.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 1252d6cf-14ca-44df-beb2-930ff011f297
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: fd698727cba25f15a12a331f847e7f8436d3d54e
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 38ad3cedbd4dc9b0cc3d5e855ea4fabd1736b6aa
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85926679"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87893842"
 ---
 # <a name="bitsadmin-getstate"></a>bitsadmin getstate
 
