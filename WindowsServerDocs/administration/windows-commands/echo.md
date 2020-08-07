@@ -1,20 +1,18 @@
 ---
 title: echo (вывод на экран)
 description: Справочная статья по команде Echo, которая отображает сообщения или включает или отключает функцию вывода команд.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: fb9fcd0f-5e73-4504-aa95-78204e1a79d3
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: bc463efef38e07c1ce8b9ebee1ddd7bdfd7d3066
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: ff1b196a26b43eb51d5da613e0ac596d26c65d05
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85930525"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87890724"
 ---
 # <a name="echo"></a>echo (вывод на экран)
 
@@ -29,13 +27,13 @@ echo [on | off]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | [вкл. \| Откл.] | Включает или выключает функцию вывода команд. Команда по умолчанию включена. |
 | `<message>` | Задает текст, отображаемый на экране. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 - `echo <message>`Команда особенно полезна при отключенном **эхо** . Чтобы отобразить сообщение, которое содержит несколько строк без отображения команд, можно включить несколько `echo <message>` команд после команды **echo off** в пакетной программе.
 

@@ -1,20 +1,18 @@
 ---
 title: bitsadmin cache и setexpirationtime
 description: Справочная статья по битсадмин кэшу и команде сетекспиратионтиме, которая задает срок действия кэша.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 00ea6e4e-b707-4b31-88dd-b61a78565c8d
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 60372a74acc6ea5312afb5dafcb3ab7b3299f4d2
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 367088525366707797296d844f134dcf8a02def7
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85923252"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87894734"
 ---
 # <a name="bitsadmin-cache-and-setexpirationtime"></a>bitsadmin cache и setexpirationtime
 
@@ -30,7 +28,7 @@ bitsadmin /cache /setexpirationtime secs
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | -------------- | -------------- |
 | сек | Количество секунд до истечения срока действия кэша. |
 

@@ -1,20 +1,18 @@
 ---
 title: tscon
 description: Справочная статья по тскон, которая подключается к другому сеансу на сервере узла сеансов удаленный рабочий стол.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 315a9793-cd10-4987-bb68-89a9d13f7fce
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 83f8778d73d022ed41fcab14795eb3cdf41dc6cf
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 96f23a310d1cf9b1843194ee233b84f69c84bb0c
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86954946"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87897082"
 ---
 # <a name="tscon"></a>tscon
 
@@ -33,7 +31,7 @@ tscon {<SessionID> | <SessionName>} [/dest:<SessionName>] [/password:<pw> | /pas
 ```
 ### <a name="parameters"></a>Параметры
 
-|Параметр|Описание|
+|Параметр|Описание:|
 |-------|--------|
 |\<SessionID>|Указывает идентификатор сеанса, к которому необходимо подключиться. Если используется необязательный параметр **/dest:** < *SessionName*>, это идентификатор сеанса, к которому необходимо подключиться.|
 |\<SessionName>|Указывает имя сеанса, к которому необходимо подключиться.|
@@ -43,7 +41,7 @@ tscon {<SessionID> | <SessionName>} [/dest:<SessionName>] [/password:<pw> | /pas
 |/v|Отображает сведения о выполняемых действиях.|
 |/?|Отображение справки в командной строке.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 -   Для подключения к другому сеансу необходимо иметь разрешение «Полный доступ» или «подключение специального доступа».
 -   Параметр **/dest:** < *SessionName*> позволяет подключить сеанс другого пользователя к другому сеансу.
 -   Если пароль не указан в параметре <*пароль*>, а целевой сеанс принадлежит пользователю, отличному от текущего, **тскон** завершается с ошибкой.

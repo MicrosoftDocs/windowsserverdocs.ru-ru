@@ -1,20 +1,18 @@
 ---
 title: fc
 description: Справочная статья по команде FC, в которой сравниваются два файла или набора файлов и отображаются различия между ними.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 485fc3d8-b7c5-496d-87be-0011112f27d5
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 6d9e12853d2634f7e7bcbd976b6c301f8e02c0dc
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 72c71a76b168b96164ea6739adff974ba37a2308
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85930478"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87890370"
 ---
 # <a name="fc"></a>fc
 
@@ -29,7 +27,7 @@ fc /b [<drive1:>][<path1>]<filename1> [<drive2:>][<path2>]<filename2>
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | /a | Сокращает выходные данные сравнения ASCII. Вместо отображения всех строк, которые отличаются, **FC** отображает только первую и последнюю строку для каждого набора различий. |
 | /b | Сравнивает два файла в двоичном режиме, байт по байтам и не пытается повторно синхронизировать файлы после обнаружения несоответствия. Этот режим используется по умолчанию для сравнения файлов, имеющих следующие расширения файлов: exe, com, sys, obj, lib или bin. |
@@ -46,7 +44,7 @@ fc /b [<drive1:>][<path1>]<filename1> [<drive2:>][<path2>]<filename2>
 | `[<drive2>:][<path2>]<filename2>` | Указывает расположение и имя второго файла или набора сравниваемых файлов. требуется *имя_файла2* . |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 - Эта команда имплеметед by c:\WINDOWS\fc.exe. Эту команду можно использовать в PowerShell, но не забудьте проделать полный исполняемый файл (fc.exe), так как "FC" также является псевдонимом для формата Custom.
 

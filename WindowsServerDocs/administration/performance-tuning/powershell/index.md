@@ -1,18 +1,16 @@
 ---
 title: Обеспечение высокой производительности PowerShell
 description: Обеспечение высокой производительности PowerShell
-ms.prod: windows-server
-ms.technology: performance-tuning-guide
 ms.topic: landing-page
 ms.author: jasonsh
 author: lzybkr
 ms.date: 10/16/2017
-ms.openlocfilehash: 382305e2bd15ef6fcb038c3fa064bc2841eabae1
-ms.sourcegitcommit: 3a3d62f938322849f81ee9ec01186b3e7ab90fe0
+ms.openlocfilehash: 2bdb8ced125d8028a2eb8e67c1fb02a8883f31ac
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "80851957"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87896280"
 ---
 # <a name="performance-tuning-for-powershell"></a>Обеспечение высокой производительности PowerShell
 

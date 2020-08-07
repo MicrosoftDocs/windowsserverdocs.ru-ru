@@ -1,17 +1,15 @@
 ---
 title: diskpart
 description: Справочная статья по интерпретатору команд DiskPart, помогающему управлять дисками компьютера.
-ms.prod: windows-server
-ms.technology: storage
 author: jasongerend
 manager: elizapo
 ms.author: jgerend
-ms.openlocfilehash: 1df6abc3ab3ef99139ca50701bd45feab1e28f42
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 627f9254606b1ed70b198f6dd0096ccbff424c45
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86958276"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87890926"
 ---
 # <a name="diskpart"></a>diskpart
 
@@ -58,7 +56,7 @@ diskpart <parameter>
 
 Интерпретатор команд DiskPart позволяет выполнять следующие команды:
 
-| Команда | Описание |
+| Get-Help | Описание |
 | ------- | ----------- |
 | [active](active.md) | Помечает раздел диска как активный. |
 | [add](add.md) | Зеркально отображает простой том с фокусом на указанный диск. |

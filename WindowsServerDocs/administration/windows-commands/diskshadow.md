@@ -1,20 +1,18 @@
 ---
 title: Diskshadow
 description: Справочная статья по команде DiskShadow, которая представляет собой средство, которое предоставляет функциональные возможности, предоставляемые службой теневого копирования томов (VSS).
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: e962537d-b759-4368-b6f1-e8391cf7b221
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 02e2836cd69b1fe85ea4f86da125c95c9ca1e4ea
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 3170cde50208eb54d1657ceee0c409d76ed3b806
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85922793"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87890802"
 ---
 # <a name="diskshadow"></a>Diskshadow
 
@@ -43,7 +41,7 @@ diskshadow -s script.txt
 
 Можно выполнить следующие команды в интерпретаторе команд Diskshadow или в файле сценария. Для создания теневой копии требуется как минимум только **Add** и **CREATE** . Тем не менее, это лишает контекста и параметров, а также резервную копию и создает теневую копию без скрипта выполнения резервного копирования.
 
-| Команда | Описание |
+| Get-Help | Описание |
 | --------- | ----------- |
 | [команда Set](set_2.md) | Задает контекст, параметры, подробный режим и файл метаданных для создания теневых копий. |
 | [команда загрузки метаданных](load-metadata.md) | Загружает файл metadata. cab перед импортом транспортной теневой копии или загружает метаданные модуля записи в случае восстановления. |

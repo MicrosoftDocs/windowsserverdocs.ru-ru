@@ -1,20 +1,18 @@
 ---
 title: изменение;
 description: Справочная статья по команде Edit, запускающей редактор MS-DOS, что позволяет создавать и изменять текстовые файлы ASCII.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 4e0ff2e8-3518-47c1-8c69-5e93f895fa0e
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: a28af13c5f627010dce1321027b8a246560829f1
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 58d2819e9a96d30e1c4fc286679fbd807ad0caa1
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85930490"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87890714"
 ---
 # <a name="edit"></a>изменение;
 
@@ -28,7 +26,7 @@ edit [/b] [/h] [/r] [/s] [/<nnn>] [[<drive>:][<path>]<filename> [<filename2> [..
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | `[<drive>:][<path>]<filename> [<filename2> [...]]` | Указывает расположение и имя одного или нескольких текстовых файлов ASCII. Если файл не существует, редактор MS-DOS создаст его. Если файл существует, редактор MS-DOS открывает его и отображает его содержимое на экране. Параметр *filename* может содержать подстановочные знаки (**&#42;** и **?**). Несколько имен файлов следует разделять пробелами. |
 | /b | Заставляет режим монохромной, чтобы редактор MS-DOS отображался в черно-белом режиме. |
@@ -38,7 +36,7 @@ edit [/b] [/h] [/r] [/s] [/<nnn>] [[<drive>:][<path>]<filename> [<filename2> [..
 | `<nnn>` | Загружает двоичные файлы, заключив строки в *nnn* символов в ширину. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 - Для получения дополнительной справки откройте редактор MS-DOS и нажмите клавишу F1.
 

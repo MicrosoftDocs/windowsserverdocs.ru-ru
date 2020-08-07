@@ -1,19 +1,17 @@
 ---
 title: Обеспечение высокой производительности Локальных дисковых пространств
 description: Локальные дисковые пространства автоматически оптимизируют производительность на основе конфигурации кэша оборудования, которое вы используете, как описано в этом разделе.
-ms.prod: windows-server
-ms.technology: performance-tuning-guide
 ms.topic: article
 ms.assetid: 15a519fa-37cc-4d84-a9fe-097d33bb71ea
 author: phstee
 ms.author: vshankar; danlo; clausjor; stevenek
 ms.date: 4/14/2017
-ms.openlocfilehash: 42d05529aed6f1c5f9c5247a143e256fd52d056a
-ms.sourcegitcommit: 771db070a3a924c8265944e21bf9bd85350dd93c
+ms.openlocfilehash: 9430e9e71d9e39533d5bdacd72af4593fe34c59a
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85471199"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87895928"
 ---
 # <a name="performance-tuning-for-storage-spaces-direct"></a>Обеспечение высокой производительности Локальных дисковых пространств
 

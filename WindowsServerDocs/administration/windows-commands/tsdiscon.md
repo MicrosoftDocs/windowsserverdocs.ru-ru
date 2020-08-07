@@ -1,20 +1,18 @@
 ---
 title: tsdiscon
 description: Справочная статья по тсдискон, которая отключает сеанс от сервера узла сеансов удаленных рабочих столов.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 13139674-7dee-4965-8cac-32f4928e8b9a
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 3016bb5a146bf7c1d55ab93325debb11b0f6a81c
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: e81a1c7f68af0bb1d16ce64bb4985e3ddb8d18f2
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86954936"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87897075"
 ---
 # <a name="tsdiscon"></a>tsdiscon
 
@@ -34,7 +32,7 @@ tsdiscon [<SessionID> | <SessionName>] [/server:<ServerName>] [/v]
 
 ### <a name="parameters"></a>Параметры
 
-|Параметр|Описание|
+|Параметр|Описание:|
 |-------|--------|
 |\<SessionId>|Указывает идентификатор сеанса для отключения.|
 |\<SessionName>|Указывает имя сеанса для отключения.|
@@ -42,7 +40,7 @@ tsdiscon [<SessionID> | <SessionName>] [/server:<ServerName>] [/v]
 |/v|Отображает сведения о выполняемых действиях.|
 |/?|Отображение справки в командной строке.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 -   Для отключения другого пользователя от сеанса необходимо иметь разрешение "полный доступ" или "отключить специальное разрешение".
 -   Если идентификатор сеанса или имя сеанса не указаны, **тсдискон** отключает текущий сеанс.
 -   Все приложения, которые выполнялись в момент отключения сеанса, автоматически запускаются при повторном подключении к этому сеансу без потери данных. Используйте **Сброс сеанса** для завершения работающих приложений отключенного сеанса, но имейте в виду, что это может привести к потере данных в сеансе.
