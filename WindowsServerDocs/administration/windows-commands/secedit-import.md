@@ -1,20 +1,18 @@
 ---
 title: 'Secedit: импорт'
 description: Справочная статья для * * * *-
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 1dd59d4c-9d48-444a-871b-b957eb682597
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 0ec5cbfdb4c9561b9af8841a267138dd6149c2c2
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 38f6b55d8c6cec30fbaa7de1fa3295df5cbfc26d
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85936510"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87882947"
 ---
 # <a name="seceditimport"></a>Secedit: импорт
 
@@ -30,7 +28,7 @@ Secedit /import /db <database file name> /cfg <configuration file name> [/overwr
 
 #### <a name="parameters"></a>Параметры
 
-|Параметр|Описание|
+|Параметр|Описание:|
 |---------|-----------|
 |db|Обязательный.</br>Указывает путь и имя файла базы данных, содержащей сохраненную конфигурацию, в которую будет выполнен импорт.</br>Если имя файла указывает базу данных, для которой не был создан шаблон безопасности (представленный файлом конфигурации), `/cfg \<configuration file name>` необходимо также указать параметр командной строки.|
 |overwrite|Необязательный элемент.</br>Указывает, должен ли шаблон безопасности в параметре/cfg перезаписывать любой шаблон или составной шаблон, хранящийся в базе данных, вместо того, чтобы добавлять результаты в сохраненный шаблон.</br>Этот параметр командной строки допустим только в том случае, если `/cfg \<configuration file name>` используется параметр. Если он не указан, шаблон в параметре/cfg добавляется к сохраненному шаблону.|
@@ -40,7 +38,7 @@ Secedit /import /db <database file name> /cfg <configuration file name> [/overwr
 |log|Необязательный элемент.</br>Указывает путь и имя файла журнала для процесса.|
 |quiet|Необязательный элемент.</br>Подавляет вывод на экран и журнал. Вы по-прежнему можете просматривать результаты анализа с помощью оснастки "Настройка и анализ безопасности" консоли управления (MMC).|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Перед импортом INF-файла на другой компьютер выполните команду secedit/женератероллбакк в базе данных, в которой будет выполняться импорт, и Secedit/Validate в файле импорта, чтобы проверить его целостность.
 

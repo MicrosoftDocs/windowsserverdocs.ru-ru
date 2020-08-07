@@ -1,20 +1,18 @@
 ---
 title: unexpose
 description: Справочная статья по Unexpose, унекспосес теневую копию, которая была предоставлена с помощью команды предоставления.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 58dc7d0f-52e9-4587-9487-d3b4c3e52640
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 02edb1f2c9331a22473123f0327dbc84cb05a865
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 1c315639746db84d49afd72fc2be89e757c8fb95
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85937299"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87897064"
 ---
 # <a name="unexpose"></a>unexpose
 
@@ -30,14 +28,14 @@ unexpose {<ShadowID> | <Drive:> | <Share> | <MountPoint>}
 
 ### <a name="parameters"></a>Параметры
 
-|Параметр|Описание|
+|Параметр|Описание:|
 |---------|-----------|
 |\<ShadowID>|Унекспосес теневую копию, заданную по заданному ИДЕНТИФИКАТОРу теневой копии.|
 |\<Drive:>|Унекспосес теневую копию, связанную с заданной буквой диска (например, диск P).|
 |\<Share>|Унекспосес теневую копию, связанную с указанной общей папкой (например, \\ \\ *MachineName*) \) .|
 |\<MountPoint>|Унекспосес. теневую копию, связанную с указанной точкой подключения (например, К:\шадовкопи) \) .|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 -   Вместо *шадовид*можно использовать существующий псевдоним или переменную среды. Чтобы просмотреть существующие псевдонимы, используйте параметр **Добавить** без параметров.
 

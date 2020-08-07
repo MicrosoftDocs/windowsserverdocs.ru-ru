@@ -1,20 +1,18 @@
 ---
 title: ftp mget
 description: Справочная статья по команде FTP mget, которая копирует удаленные файлы на локальный компьютер, используя текущий тип перемещения файлов.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 6c85ae96-ec51-48a9-a227-7f02c7332c69
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: d9b0cfe0b55074f94941dfde7b864a643e7eadd9
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 9074df66e70961c74ef1b479f31ac316e34ff051
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86957736"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87889333"
 ---
 # <a name="ftp-mget"></a>ftp mget
 
@@ -30,7 +28,7 @@ mget <remotefile>[ ]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | `<remotefile>` | Указывает удаленные файлы, которые необходимо скопировать на локальный компьютер. |
 

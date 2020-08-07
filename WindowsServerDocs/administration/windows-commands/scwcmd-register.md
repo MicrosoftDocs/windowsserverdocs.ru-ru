@@ -1,20 +1,18 @@
 ---
 title: Команду scwcmd регистр
 description: Справочная статья для * * * *-
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: fe4d126a-9f27-4076-b7b1-fbefa45f378a
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 7917cfe8f71673ad45d8d3e32d29798757367c2a
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 227a59cd5a033f8bc6a30344a2c71afa435ab069
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85932646"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87883173"
 ---
 # <a name="scwcmd-register"></a>Scwcmd: register
 
@@ -30,7 +28,7 @@ scwcmd register /kbname:<MyApp> [/kbfile:<kb.xml>] [/kb:<path>] [/d]
 
 #### <a name="parameters"></a>Параметры
 
-|Параметр|Описание|
+|Параметр|Описание:|
 |---------|-----------|
 |/кбнаме:\<MyApp>|Указывает имя, под которым будет зарегистрировано расширение базы данных конфигурации безопасности. Этот параметр должен быть указан.|
 |/кбфиле:\<Kb.xml>|Указывает путь и имя файла базы данных конфигурации безопасности, который будет использоваться для расширения или настройки базовой базы данных конфигурации безопасности. Чтобы проверить соответствие файла базы данных конфигурации безопасности схеме SCW, используйте файл определения схемы%Виндир%\секурити\кбрегистратионинфо.КССД. Этот параметр следует указывать, если не указан параметр **/d** .|
@@ -38,7 +36,7 @@ scwcmd register /kbname:<MyApp> [/kbfile:<kb.xml>] [/kb:<path>] [/d]
 |/d|Отменяет регистрацию расширения базы данных конфигурации безопасности в базе данных конфигурации безопасности. Расширение для отмены регистрации задается параметром/кбнаме. (Параметр **/кбфиле** указывать не следует.) База данных настройки безопасности для отмены регистрации расширения задается параметром **/КБ** .|
 |/?|Отображение справки в командной строке.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Scwcmd.exe доступны только на компьютерах под управлением Windows Server 2008 R2, Windows Server 2008 или Windows Server 2003.
 

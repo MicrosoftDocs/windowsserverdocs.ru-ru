@@ -1,20 +1,18 @@
 ---
 title: Export-Image
 description: Справочная статья по Export-Image, которая экспортирует существующий образ из хранилища образов в другой файл образа Windows (WIM).
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: a9b8b467-0f2d-4754-8998-55503a262778
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 04ac9d5a7e58fb2f22f5b034ea35dee08bf2a01a
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 1f06ded887cf7fcd134ffb8d5b9bfbe588a584e1
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85935236"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87896986"
 ---
 # <a name="export-image"></a>Export-Image
 
@@ -45,7 +43,7 @@ wdsutil [Options] /Export-Imagmedia:<Image name> [/Server:<Server name>]
      [/Overwrite:{Yes | No | append}]
 ```
 ### <a name="parameters"></a>Параметры
-|Параметр|Описание|
+|Параметр|Описание:|
 |-------|--------|
 носител<Image name>|Указывает имя экспортируемого образа.|
 |[/Server: <Server name> ]|Указывает имя сервера. Это может быть либо NetBIOS-имя, либо полное доменное имя (FQDN). Если имя сервера не указано, будет использоваться локальный сервер.|

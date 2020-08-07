@@ -1,20 +1,18 @@
 ---
 title: Управление-BDE Unlock
 description: Справочная статья по команде Manage-bde Unlock, которая разблокирует диск, защищенный BitLocker, с помощью пароля восстановления или ключа восстановления.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 7852bf7d-9102-40be-adcb-71e8f4dfde72
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 1be2bf029a378015cd20f21c236c0d519f2e072a
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: d9b13e4ac27ab77a522d223749cd84e3b1bb11a6
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85922214"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87886647"
 ---
 # <a name="manage-bde-unlock"></a>Управление-BDE Unlock
 
@@ -28,7 +26,7 @@ manage-bde -unlock {-recoverypassword <password>|-recoverykey <pathtoexternalkey
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | -рековерипассворд | Указывает, что для разблокировки диска будет использоваться пароль восстановления. Можно также использовать параметр **-RP** в качестве сокращенной версии этой команды. |
 | `<password>` | Представляет пароль восстановления, который можно использовать для разблокировки диска. |

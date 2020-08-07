@@ -1,20 +1,18 @@
 ---
 title: создать-пространство имен
 description: Справочная статья по новому пространству имен, которая создает и настраивает новое пространство имен.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 6df60703-30bd-4d59-a8d9-9fe3efe96add
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 3afbdd195f21450508bfa6992fc73c7d360092c6
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: f96181b9ce85a80ccc3d1bd344105dcc1e7f8d2d
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85932411"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87896900"
 ---
 # <a name="new-namespace"></a>создать-пространство имен
 
@@ -34,7 +32,7 @@ wdsutil [Options] /New-Namespace [/Server:<Server name>]
          [/Clients:<Number of clients>]
 ```
 ### <a name="parameters"></a>Параметры
-|Параметр|Описание|
+|Параметр|Описание:|
 |-------|--------|
 |[/Server: <Server name> ]|Указывает имя сервера. Это может быть NetBIOS-имя или полное доменное имя (FQDN). Если имя сервера не указано, используется локальный сервер.|
 |FriendlyName<Friendly name>|Указывает понятное имя пространства имен.|

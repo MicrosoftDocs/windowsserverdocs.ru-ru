@@ -1,20 +1,18 @@
 ---
 title: 'Secedit: Настройка'
 description: Справочная статья для * * * *-
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: a92e68ca-003c-4219-8655-0e7734f5fab3
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: f2ab11a62d3c3b14be0d91345e6e18cc895d2c64
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 6da1afd83e1c50393581da932c894fa25d3f1583
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85926209"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87883014"
 ---
 # <a name="seceditconfigure"></a>Secedit: Настройка
 
@@ -30,7 +28,7 @@ Secedit /configure /db <database file name> [/cfg <configuration file name>] [/o
 
 #### <a name="parameters"></a>Параметры
 
-|Параметр|Описание|
+|Параметр|Описание:|
 |---------|-----------|
 |db|Обязательный.</br>Указывает путь и имя файла базы данных, содержащей сохраненную конфигурацию.</br>Если имя файла указывает базу данных, для которой не был создан шаблон безопасности (представленный файлом конфигурации), `/cfg \<configuration file name>` необходимо также указать параметр командной строки.|
 |cfg|Необязательный элемент.</br>Указывает путь и имя файла для шаблона безопасности, который будет импортирован в базу данных для анализа.</br>Этот параметр/cfg допустим только при использовании с `/db \<database file name>` параметром. Если этот параметр не указан, анализ выполняется для любой конфигурации, уже хранящейся в базе данных.|
@@ -39,7 +37,7 @@ Secedit /configure /db <database file name> [/cfg <configuration file name>] [/o
 |log|Необязательный элемент.</br>Указывает путь и имя файла журнала для процесса.|
 |quiet|Необязательный элемент.</br>Подавляет вывод на экран и журнал. Вы по-прежнему можете просматривать результаты анализа с помощью оснастки "Настройка и анализ безопасности" консоли управления (MMC).|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если путь к файлу журнала не указан, используется файл журнала по умолчанию (*системный_корневой_каталог*\Users UserAccount \ \* <em>документс\секурити\логс \* DatabaseName</em>. log).
 

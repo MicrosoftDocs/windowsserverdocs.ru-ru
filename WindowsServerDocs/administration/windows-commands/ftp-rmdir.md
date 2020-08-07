@@ -1,20 +1,18 @@
 ---
 title: ftp rmdir
 description: Справочная статья по команде FTP rmdir, которая удаляет корневой каталог.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: cf4778a4-9534-49c7-a061-850dc3504a67
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 3247a5b374a0e9ea541eb04974570c6691045de0
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: dfdb8f8638d12a70e526e7165367807260a4ca8f
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86957416"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87888956"
 ---
 # <a name="ftp-rmdir"></a>ftp rmdir
 
@@ -30,7 +28,7 @@ rmdir <directory>
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | `<directory>` | Задает имя каталога для удаления. |
 

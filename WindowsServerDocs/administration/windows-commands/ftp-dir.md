@@ -1,20 +1,18 @@
 ---
 title: ftp dir
 description: Справочная статья по команде FTP dir, которая отображает список файлов каталога и подкаталогов на удаленном компьютере.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: a29a92a5-7b79-4e6e-95cf-2ccb38bb6fb2
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 1c3ec103797a1683c6f2810da375b00b56b87414
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 0a4f65cee67ec91b6871649fece4f580684c2e3f
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86957876"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87889474"
 ---
 # <a name="ftp-dir"></a>ftp dir
 
@@ -30,7 +28,7 @@ dir [<remotedirectory>] [<localfile>]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | ------- | -------- |
 | `[<remotedirectory>]` | Указывает каталог, для которого требуется просмотреть список. Если каталог не указан, используется текущий рабочий каталог на удаленном компьютере. |
 | `[<localfile>]` | Указывает локальный файл, в котором будет храниться список каталогов. Если локальный файл не указан, результаты отображаются на экране. |

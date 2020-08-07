@@ -1,20 +1,18 @@
 ---
 title: Добавление устройства
 description: Справочная статья по надстройке Add-Device, которая предварительно наследует компьютер в доменных службах Active Directory. Предварительно подготовленные компьютеры также называются известными компьютерами.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 1e599cc4-464a-421b-b6bb-c101af154131
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 486cd3a567fe8742d680a77378d8f5a933b876ae
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: d23e5a2bc69b782e635fa9a47158274796715edf
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86954807"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87897012"
 ---
 # <a name="add-device"></a>Добавление устройства
 
@@ -28,10 +26,10 @@ wdsutil /add-Device /Device:<Device name> /ID:<UUID | MAC address> [/ReferralSer
 [/User:<Domain\User | User@Domain>] [/JoinRights:{JoinOnly | Full}] [/JoinDomain:{Yes | No}] [/BootImagepath:<Relative path>] [/OU:<DN of OU>] [/Domain:<Domain>]
 ```
 ### <a name="parameters"></a>Параметры
-|Параметр|Описание|
+|Параметр|Описание:|
 |-------|--------|
 |Модем<computer name>|Указывает имя добавляемого компьютера.|
-|/ID: <UUID &#124; MAC-адрес>|Указывает идентификатор GUID/UUID или MAC-адрес компьютера. GUID/UUID должны быть в одном из двух форматов: двоичная строка или строка GUID. Например.<p>Двоичная строка: **/ID: ACEFA3E81F20694E953EB2DAA1E8B1B6**<p>Строка GUID: **/ID: E8A3EFAC-201F-4E69-953E-B2DAA1E8B1B6**<p>MAC-адрес должен иметь следующий формат: **00B056882FDC** (без дефисов) или **00-B0-56-88-2F-DC** (с тире)|
+|/ID: <UUID &#124; MAC-адрес>|Указывает идентификатор GUID/UUID или MAC-адрес компьютера. GUID/UUID должны быть в одном из двух форматов: двоичная строка или строка GUID. Пример:<p>Двоичная строка: **/ID: ACEFA3E81F20694E953EB2DAA1E8B1B6**<p>Строка GUID: **/ID: E8A3EFAC-201F-4E69-953E-B2DAA1E8B1B6**<p>MAC-адрес должен иметь следующий формат: **00B056882FDC** (без дефисов) или **00-B0-56-88-2F-DC** (с тире)|
 |[/Реферралсервер: <Server name> ]|Указывает имя сервера, к которому нужно подключиться для загрузки программы сетевой загрузки и загрузочного образа с помощью тривиальных протокол FTP (TFTP).|
 |[/Бутпрограм: <Relative path> ]|Указывает относительный путь от папки remoteInstall к программе сетевой загрузки, которую должен получить этот компьютер. Например: boot\x86\pxeboot.com|
 |[/Вдсклиентунаттенд: <Relative path> ]|Указывает относительный путь от папки remoteInstall к файлу автоматической установки, который автоматизирует экраны установки клиента служб развертывания Windows.|

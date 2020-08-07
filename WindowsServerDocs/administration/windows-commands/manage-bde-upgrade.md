@@ -1,20 +1,18 @@
 ---
 title: Управление обновлением BDE
 description: Справочная статья по команде управления-BDE Upgrade, которая обновляет версию BitLocker.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 23bfa824-6ff0-44cc-9b8b-b199a769fb8d
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: be218d9954a1a2872e974206fe02082a8e17c163
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 33f4e243d14465d2bc89b5723a0d92a98489dc59
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85922114"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87886610"
 ---
 # <a name="manage-bde-upgrade"></a>Управление обновлением BDE
 
@@ -28,7 +26,7 @@ manage-bde -upgrade [<drive>] [-computername <name>] [{-?|/?}] [{-help|-h}]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | `<drive>` | Представляет букву диска, за которой следует двоеточие. |
 | -ComputerName | Указывает, что manage-bde.exe будет использоваться для изменения защиты BitLocker на другом компьютере. Можно также использовать параметр **-CN** в качестве сокращенной версии этой команды. |

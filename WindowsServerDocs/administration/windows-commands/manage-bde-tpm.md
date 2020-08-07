@@ -1,20 +1,18 @@
 ---
 title: Управление — TPM BDE
 description: Справочная статья по команде TPM Manage-bde, которая настраивает доверенный платформенный модуль (TPM) компьютера (TPM).
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 11a8530d-edd7-4fe3-ae81-b943766760fe
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 4eacf664a372d178a6391c8fa2359d2301484c36
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: d5a41ccff889fc729ce812523d64b9404378d32c
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86957036"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87886654"
 ---
 # <a name="manage-bde-tpm"></a>Управление — TPM BDE
 
@@ -30,7 +28,7 @@ manage-bde -tpm [-turnon] [-takeownership <ownerpassword>] [-computername <name>
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | -Турнон | Включает и активирует доверенный платформенный модуль, позволяя задать пароль владельца доверенного платформенного модуля. Можно также использовать **-t** в качестве сокращенной версии этой команды. |
 | -такеовнершип | Получает владение доверенным платформенным модулем, задавая пароль владельца. Можно также использовать параметр **-o** в качестве сокращенной версии этой команды. |

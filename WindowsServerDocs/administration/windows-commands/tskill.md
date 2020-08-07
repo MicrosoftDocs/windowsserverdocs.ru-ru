@@ -1,20 +1,18 @@
 ---
 title: tskill
 description: Справочная статья по тскилл, которая завершает процесс, выполняющийся в сеансе на удаленный рабочий стол сервере узла сеансов.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 08986e6a-6900-4ece-85a1-8f73b14db1b3 Lizap
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: b5e4e32bada68b8c7d931b8603fbf09eba45791d
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 9fe3db1f218bc95fab4f3f2d917575679ab81931
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86954886"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87896677"
 ---
 # <a name="tskill"></a>tskill
 
@@ -33,7 +31,7 @@ tskill {<ProcessID> | <ProcessName>} [/server:<ServerName>] [/id:<SessionID> | /
 
 ### <a name="parameters"></a>Параметры
 
-|Параметр|Описание|
+|Параметр|Описание:|
 |-------|--------|
 |\<ProcessID>|Указывает идентификатор процесса, который требуется завершить.|
 |\<ProcessName>|Указывает имя процесса, который требуется завершить. Этот параметр может содержать подстановочные знаки.|
@@ -43,7 +41,7 @@ tskill {<ProcessID> | <ProcessName>} [/server:<ServerName>] [/id:<SessionID> | /
 |/v|Отображает сведения о выполняемых действиях.|
 |/?|Отображение справки в командной строке.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 - Вы можете использовать **тскилл** , чтобы завершить только те процессы, которые принадлежат вам, если вы не являетесь администратором. Администраторы имеют полный доступ ко всем функциям **тскилл** и могут завершать процессы, работающие в других пользовательских сеансах.
 - При завершении всех процессов, выполняемых в сеансе, сеанс также завершается.
 - Если используются параметры *processName* и **/Server:**<em>ServerName</em> , необходимо также указать параметр **/ID:**<em>SessionID</em> или **/a** .

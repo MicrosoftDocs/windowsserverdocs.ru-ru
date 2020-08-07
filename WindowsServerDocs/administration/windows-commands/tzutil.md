@@ -1,20 +1,18 @@
 ---
 title: tzutil
 description: Справочная статья по tzutil, в которой отображается служебная программа часового пояса Windows.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: bcf6e007-c9b6-4df5-83c5-ed7b4b1b5913
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 99d88057c88a55aaf529d238088f8422c33e9ba7
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 4727423ed6752b3a0c2b578f5838a1108d1d14d4
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85937290"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87896634"
 ---
 # <a name="tzutil"></a>tzutil
 
@@ -27,14 +25,14 @@ ms.locfileid: "85937290"
 tzutil [/?] [/g] [/s <timeZoneID>[_dstoff]] [/l]
 ```
 #### <a name="parameters"></a>Параметры
-|Параметр|Описание|
+|Параметр|Description|
 |-------|--------|
 |/?|Отображение справки в командной строке.|
 |/g|Отображает текущий идентификатор часового пояса.|
 |/s \<timeZoneID> [_dstoff]|Задает текущий часовой пояс, используя указанный идентификатор часового пояса. Суффикс **_dstoff** отключает корректировки перехода на летнее время для часового пояса (если применимо).|
 |/l|Список всех допустимых идентификаторов часовых поясов и отображаемых имен. Выходные данные должны выглядеть следующим образом:<p>-   \<display name><br />-   \<time zone ID>|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 Код выхода **0** указывает, что команда выполнена успешно.
 
 ## <a name="examples"></a>Примеры

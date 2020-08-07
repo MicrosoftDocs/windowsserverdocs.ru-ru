@@ -1,20 +1,18 @@
 ---
 title: ftp mput
 description: Справочная статья по команде FTP мпут, которая копирует локальные файлы на удаленный компьютер, используя текущий тип перемещения файлов.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 980f15e7-7cf1-4813-9946-a8cc4edfb198
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: ca0b72fce2ce9408fa04e948c8116a0b9e153268
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: d2caf7e91341f470fc265d0d1dbf6a51b6fe99bb
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86957646"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87889231"
 ---
 # <a name="ftp-mput"></a>ftp mput
 
@@ -30,7 +28,7 @@ mput <localfile>[ ]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | `<localfile>` | Указывает локальный файл для копирования на удаленный компьютер. |
 

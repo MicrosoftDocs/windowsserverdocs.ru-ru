@@ -1,20 +1,18 @@
 ---
 title: 'Secedit: экспорт'
 description: Справочная статья для * * * *-
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 49a8b241-aa8c-45b7-844d-67a29fab708e
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: d2093b813a6aca5b03bf94c6f0943bc9ffa00346
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 5079ecc2874c1d834fb351ebb51bf140309e4248
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85924163"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87882980"
 ---
 # <a name="seceditexport"></a>Secedit: экспорт
 
@@ -30,7 +28,7 @@ Secedit /export /db <database file name> [/mergedpolicy] /cfg <configuration fil
 
 #### <a name="parameters"></a>Параметры
 
-|Параметр|Описание|
+|Параметр|Описание:|
 |---------|-----------|
 |db|Обязательный.</br>Указывает путь и имя файла базы данных, содержащей сохраненную конфигурацию, для которой будет выполняться анализ.</br>Если имя файла указывает базу данных, для которой не был создан шаблон безопасности (представленный файлом конфигурации), `/cfg \<configuration file name>` необходимо также указать параметр командной строки.|
 |мержедполици|Необязательный элемент.</br>Объединяет и экспортирует параметры безопасности домена и локальной политики.|
@@ -39,7 +37,7 @@ Secedit /export /db <database file name> [/mergedpolicy] /cfg <configuration fil
 |log|Необязательный элемент.</br>Указывает путь и имя файла журнала для процесса.|
 |quiet|Необязательный элемент.</br>Подавляет вывод на экран и журнал. Вы по-прежнему можете просматривать результаты анализа с помощью оснастки "Настройка и анализ безопасности" консоли управления (MMC).|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 С помощью этой команды можно создать резервную копию политик безопасности на локальном компьютере в дополнение к импорту параметров на другой компьютер.
 

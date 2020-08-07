@@ -1,20 +1,18 @@
 ---
 title: secedit
 description: Справочная статья для * * * *-
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 58ed57ed-08e3-403d-a363-0620b358637a
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 8e5918265feb7dc72759ea22d2f582e4754df96c
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 570590710ea10758fe35e1cc2160709885bb60eb
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85936489"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87882900"
 ---
 # <a name="secedit"></a>secedit
 
@@ -45,7 +43,7 @@ secedit
 |[Secedit:import](secedit-import.md)|Позволяет импортировать шаблон безопасности в базу данных, чтобы параметры, заданные в шаблоне, можно было применять к системе или анализировать в системе.|
 |[Secedit:validate](secedit-validate.md)|Позволяет проверить синтаксис шаблона безопасности.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для всех имен файлов используется текущий каталог, если путь не указан.
 

@@ -1,20 +1,18 @@
 ---
 title: tsprof
 description: Справочная статья по тспроф, которая копирует данные пользовательской конфигурации службы удаленных рабочих столов от одного пользователя к другому.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 27047868-b706-4208-b7e0-1437a2325dd3
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 3abaf2413348edd723962ad99a19be5aa435a495
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 43a9c986a58a28b8de8110789be99f157be9fb66
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86954876"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87896662"
 ---
 # <a name="tsprof"></a>tsprof
 
@@ -38,7 +36,7 @@ tsprof /q {/domain:<DomainName> | /local} <UserName>
 ```
 
 ### <a name="parameters"></a>Параметры
-|Параметр|Описание|
+|Параметр|Описание:|
 |-------|--------|
 |/update|Обновляет сведения о пути к профилю для <*имени пользователя*> в домене <*имя_домена*> *в <.*|
 |/Domain\<DomainName>|Указывает имя домена, в котором применяется операция.|
@@ -51,7 +49,7 @@ tsprof /q {/domain:<DomainName> | /local} <UserName>
 |/q|Отображает текущий путь к профилю пользователя, для которого требуется запросить путь к профилю сервера.|
 |/?|Отображение справки в командной строке.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 -   Команда **тспроф** доступна только в том случае, если служба роли сервера терминалов установлена на компьютере с windows Server 2008 или службой роли узла сеансов удаленных рабочих столов на компьютере под windows Server 2008 R2.
 
 ## <a name="examples"></a>Примеры

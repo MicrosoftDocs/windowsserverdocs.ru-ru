@@ -1,20 +1,18 @@
 ---
 title: Команды Windows
 description: Справочник
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: c703d07c-8227-4e86-94a6-8ef390f94cdc
 author: jasongerend
 ms.author: jgerend
 manager: dongill
 ms.date: 06/29/2020
-ms.prod: windows-server
-ms.openlocfilehash: a4de7f64601ec4c869c2ae0e6b5ec7a0d22aee2c
-ms.sourcegitcommit: 3d56b626dc2d163d2c7847c01e872bfbfcde0e12
+ms.openlocfilehash: f93d78571528ba721c92e28f2e482b163e355031
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87538536"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87896873"
 ---
 # <a name="windows-commands"></a>Команды Windows
 
@@ -22,7 +20,7 @@ ms.locfileid: "87538536"
 
 Этот набор документации описывает команды Windows, которые можно использовать для автоматизации задач с помощью скриптов или средств создания скриптов.
 
-## <a name="prerequisites"></a>Предварительные требования
+## <a name="prerequisites"></a>Предварительные условия
 
 Сведения, содержащиеся в этом разделе, применимы к:
 
@@ -65,7 +63,7 @@ PowerShell был разработан для расширения возмож�
 
 [Объект](#a)  |  [Б](#b)  |  [C](#c)  |  [Г](#d)  |  [Д](#e)  |  [F](#f)  |  [Ж](#g)  |  [З](#h)  |  [Я](#i)  |  [J](#j)  |  [Л](#k)  |  [L](#l)  |  [М](#m)  |  [N](#n)  |  [O](#o)  |  [P](#p)  |  [Вопросы и ответы](#q)  |  Язык [R](#r)  |  [С](#s)  |  [T](#t)  |  [U](#u)  |  [Версия](#v)  |  [Н](#w)  |  [X](#x) | Y | Гармошкой
 
-### <a name="a"></a>Объект
+### <a name="a"></a>A
 
 - [active](active.md)
 - [add](add.md)
@@ -339,7 +337,7 @@ PowerShell был разработан для расширения возмож�
 - [extend](extend.md)
 - [extract](extract.md)
 
-### <a name="f"></a>F
+### <a name="f"></a>C
 
 - [fc](fc.md)
 - [filesystems](filesystems.md)
@@ -548,7 +546,7 @@ PowerShell был разработан для расширения возмож�
 - [msinfo32](msinfo32.md)
 - [mstsc](mstsc.md)
 
-### <a name="n"></a>N
+### <a name="n"></a>Нет
 
 - [nbtstat](nbtstat.md)
 - [netcfg](netcfg.md)
@@ -598,7 +596,7 @@ PowerShell был разработан для расширения возмож�
   - [online volume](online-volume.md)
 - [openfiles](openfiles.md)
 
-### <a name="p"></a>P
+### <a name="p"></a>С
 
 - [pagefileconfig](pagefileconfig.md)
 - [path](path.md)

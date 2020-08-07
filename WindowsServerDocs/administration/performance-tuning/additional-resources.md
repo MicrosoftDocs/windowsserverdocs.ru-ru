@@ -1,18 +1,16 @@
 ---
 title: Дополнительные ресурсы по настройке производительности сервера
 description: Дополнительные ресурсы по настройке производительности сервера
-ms.prod: windows-server
-ms.technology: performance-tuning-guide
 ms.topic: article
 ms.author: phstee
 author: phstee
 ms.date: 10/16/2017
-ms.openlocfilehash: 3c011d3c6e75fb1d5212d9b1ec3c6e6c69fac5d6
-ms.sourcegitcommit: 3f9bcd188dda12dc5803defb47b2c3a907504255
+ms.openlocfilehash: 2b789fb3c5290c5f268c1e64f66fb25fd4856136
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "77001869"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87896760"
 ---
 # <a name="additional-performance-tuning-resources"></a>Дополнительные ресурсы по настройке производительности
 
@@ -51,7 +49,7 @@ ms.locfileid: "77001869"
 
 -   [Рекомендации по настройке производительности для служб Microsoft для сетевой файловой системы](https://technet.microsoft.com/library/bb463205.aspx)
 
--   [\[MS-ФССО\]: обзор системы служб доступа к файлам](https://download.microsoft.com/download/5/0/1/501ED102-E53F-4CE0-AA6B-B0F93629DDC6/Windows/%5bMS-FSSO%5d.pdf)
+-   [\[MS-ФССО \] : Общие сведения о системе служб доступа к файлам](https://download.microsoft.com/download/5/0/1/501ED102-E53F-4CE0-AA6B-B0F93629DDC6/Windows/%5bMS-FSSO%5d.pdf)
 
 -   [Отключение средства диагностики автонастройки TCP](https://support.microsoft.com/kb/967475)
 
@@ -63,7 +61,7 @@ ms.locfileid: "77001869"
 
 -   [Новые возможности Hyper-V в Windows Server 2016](https://technet.microsoft.com/windows-server-docs/compute/hyper-v/what-s-new-in-hyper-v-on-windows)
 
--   [Динамическая память по настройке Hyper-V](https://technet.microsoft.com/library/ff817651.aspx)
+-   [Руководство по настройке динамической памяти Hyper-V](https://technet.microsoft.com/library/ff817651.aspx)
 
 -   [Балансировка узлов NUMA](https://blogs.technet.com/b/winserverperformance/archive/2009/12/10/numa-node-balancing.aspx)
 
@@ -79,7 +77,7 @@ ms.locfileid: "77001869"
 
 ## <a name="print-server-tuning-resources"></a>Ресурсы по настройке сервера печати
 
--   [Масштабируемость сервера печати и планирование емкости](https://technet.microsoft.com/library/dn554243.aspx)
+-   [Print Server Scalability and Capacity Planning](https://technet.microsoft.com/library/dn554243.aspx)
 
 ## <a name="server-workload-tuning-resources"></a>Ресурсы по настройке рабочей нагрузки сервера
 
@@ -97,7 +95,7 @@ ms.locfileid: "77001869"
 
 -   [Настройка производительности для оперативной обработки транзакций (OLTP)](https://msdn.microsoft.com/library/windows/hardware/dn567642(v=vs.85).aspx)
 
--   [Как настроить SQL Server для использования программной архитектуры NUMA](https://go.microsoft.com/fwlink/?LinkId=98292)
+-   [Руководство. настроить SQL Server для использования программной архитектуры NUMA](https://go.microsoft.com/fwlink/?LinkId=98292)
 
 -   [Как сопоставлять порты TCP/IP с узлами NUMA](https://go.microsoft.com/fwlink/?LinkId=98293)
 

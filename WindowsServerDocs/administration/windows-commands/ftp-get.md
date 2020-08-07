@@ -1,20 +1,18 @@
 ---
 title: ftp get
 description: Справочная статья по команде FTP Get, которая копирует удаленный файл на локальный компьютер, используя текущий тип перемещения файлов.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: d70355c4-58ef-43e0-916b-c7ecf77e6ee4
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: a998786f5381dd5affc1bae900c0aa3fb33da49a
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: beff912251646bb3c9672921955515247c0b13f3
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86957836"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87889437"
 ---
 # <a name="ftp-get"></a>ftp get
 
@@ -33,7 +31,7 @@ get <remotefile> [<localfile>]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | `<remotefile>` | Указывает удаленный файл для копирования. |
 | `[<localfile>]` | Указывает имя файла, используемого на локальном компьютере. Если параметр *локальный_файл* не указан, файлу присваивается имя *ремотефиле*. |

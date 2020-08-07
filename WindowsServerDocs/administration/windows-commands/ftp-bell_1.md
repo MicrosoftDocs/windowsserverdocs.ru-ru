@@ -1,20 +1,18 @@
 ---
 title: ftp bell
 description: Справочная статья по команде FTP Bell, которая переключает звуковой звук после завершения каждой команды по переносу файлов.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: bfc00fb6-b3d0-42a1-ac6d-df46f89dc152
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 047778013ba341f31f01c7c806e5d36390967be8
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 37b07a86c9f22522c191b53d2602e878f1b4b0e8
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86958036"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87889626"
 ---
 # <a name="ftp-bell"></a>ftp bell
 

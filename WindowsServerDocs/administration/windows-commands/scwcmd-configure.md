@@ -1,20 +1,18 @@
 ---
 title: Настройка команду scwcmd
 description: Справочная статья для * * * *-
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 6528b9dc-3d82-4228-b734-ed717458d74c
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: e93c0566c28cc77074781b4670dac689795aeeb2
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 7556d28826b422b7693ba0770f1e4fa2e4a3a76d
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85932667"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87883216"
 ---
 # <a name="scwcmd-configure"></a>Scwcmd: configure
 
@@ -30,7 +28,7 @@ scwcmd configure [[[/m:<ComputerName> | /ou:<OuName>] /p:<Policy>] | /i:<Compute
 
 #### <a name="parameters"></a>Параметры
 
-|Параметр|Описание|
+|Параметр|Описание:|
 |---------|-----------|
 |/m\<ComputerName>|Указывает имя NetBIOS, DNS-имя или IP-адрес компьютера для настройки. Если указан параметр **/m** , необходимо также указать параметр **/p** .|
 |/OU\<OuName>|Указывает полное доменное имя подразделения (OU) в домен Active Directory Services. Если указан параметр **/OU** , необходимо также указать параметр **/p** . Все компьютеры в подразделении будут анализироваться в соответствии с заданной политикой.|
@@ -41,7 +39,7 @@ scwcmd configure [[[/m:<ComputerName> | /ou:<OuName>] /p:<Policy>] | /i:<Compute
 |/t:\<Threads>|Указывает количество одновременных операций настройки, которые должны поддерживаться в процессе настройки (DefaultValue = 40, MinValue = 1, MaxValue = 1000).|
 |/?|Отображение справки в командной строке.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Scwcmd.exe доступны только на компьютерах под управлением Windows Server 2008 R2, Windows Server 2008 или Windows Server 2003.
 

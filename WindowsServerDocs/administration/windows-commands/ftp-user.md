@@ -1,20 +1,18 @@
 ---
 title: ftp user
 description: Справочная статья по команде FTP User, которая указывает пользователя на удаленном компьютере.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 0a77bfeb-27a9-4f2f-a3c4-2fef529fb569
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 9b1eea449765b58461d410f0e015d4978c3ad016
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: bd015b7f84a6f5a4f3ee10a3cbe351a5bfa4a563
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86957357"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87888824"
 ---
 # <a name="ftp-user"></a>ftp user
 
@@ -30,7 +28,7 @@ user <username> [<password>] [<account>]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | `<username>` | Указывает имя пользователя для входа на удаленный компьютер. |
 | `[<password>]` | Указывает пароль для *имени пользователя*. Если пароль не указан, но является обязательным, команда **FTP** запрашивает пароль. |

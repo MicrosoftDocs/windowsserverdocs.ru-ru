@@ -1,20 +1,18 @@
 ---
 title: rsh
 description: Справочная статья для * * * *-
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 9e3b2b29-208d-4257-8379-0b4738274146
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 5a94d6c53697247048022f3745d09dd3ee1443db
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: dbd4f921239cf901841e7f5d1faa2d16c5064f01
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85932888"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87883448"
 ---
 # <a name="rsh"></a>rsh
 

@@ -1,20 +1,18 @@
 ---
 title: Миграция базы данных WSUS из (внутренняя база данных Windows) WID в SQL
 description: Раздел о службе Windows Server Update Service (WSUS). Перенос базы данных WSUS (SUSDB) из экземпляра внутренней базы данных Windows в локальный или удаленный экземпляр SQL Server.
-ms.prod: windows-server
-ms.technology: manage-wsus
 ms.topic: get-started article
 ms.assetid: 90e3464c-49d8-4861-96db-ee6f8a09g7dr
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dougkim
 ms.date: 07/25/2018
-ms.openlocfilehash: facd846dd0c20ee2e5001b0592651ce310e19097
-ms.sourcegitcommit: 29f7a4811b4d36d60b8b7c55ce57d4ee7d52e263
+ms.openlocfilehash: edebd8ea11a844fbe6d00ca7ce7a6a375d8e9a51
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83716889"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87896867"
 ---
 # <a name="migrating-the-wsus-database-from-wid-to-sql"></a>Миграция базы данных WSUS из WID в SQL
 
@@ -131,7 +129,7 @@ ms.locfileid: "83716889"
 #### <a name="database-permissions"></a>Разрешения базы данных
 
 1. Щелкните правой кнопкой мыши SUSDB
-2. Выбор **свойств**
+2. Выберите пункт **Свойства**.
 3. Щелкните **разрешения** .
 
 Должна быть указана учетная запись **NT Authority\Network Service** .
@@ -181,7 +179,7 @@ ms.locfileid: "83716889"
 ## <a name="uninstalling-the-wid-role-not-recommended"></a>Удаление роли WID (не рекомендуется)
 
 > [!WARNING]
-> При удалении роли WID также удаляется папка базы данных (**%systemdrive%\Program Files\Update сервицес\датабасе**), которая содержит сценарии, необходимые WSUSutil. exe для выполнения задач, выполняемых после установки. Если вы решили удалить роль WID, убедитесь, что создана резервная копия папки **%systemdrive%\Program Files\Update сервицес\датабасе** .
+> При удалении роли WID также удаляется папка базы данных (**%systemdrive%\Program Files\Update сервицес\датабасе**), содержащая скрипты, необходимые WSUSUtil.exe для выполнения задач, выполняемых после установки. Если вы решили удалить роль WID, убедитесь, что создана резервная копия папки **%systemdrive%\Program Files\Update сервицес\датабасе** .
 
 С помощью PowerShell:
 

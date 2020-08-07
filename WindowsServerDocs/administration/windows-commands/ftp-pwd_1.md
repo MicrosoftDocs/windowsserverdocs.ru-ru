@@ -1,20 +1,18 @@
 ---
 title: ftp pwd
 description: Справочная статья по команде FTP PWD, которая отображает текущий каталог удаленного компьютера.
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: bf40dede-5dd8-4d06-bfe4-17c8bada681f
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 60bc1815bdb85cfef9b9cb1e90bb53aa7e94b952
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: c229db2b7b245b2b6e5dd252015ec22ab223d73f
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86957576"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87889104"
 ---
 # <a name="ftp-pwd"></a>ftp pwd
 

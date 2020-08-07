@@ -1,20 +1,18 @@
 ---
 title: 'Secedit: анализ'
 description: Справочная статья для * * * *-
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 3430cf9d-1411-48b1-b5a9-2e47701dc87f
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 4514d4f98aca2d697dbbab9005020ef06e1878b6
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: 7514fdb22e62e4e7524b8e2e9725da12aa2ec83c
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85932605"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87883040"
 ---
 # <a name="seceditanalyze"></a>Secedit: анализ
 
@@ -30,7 +28,7 @@ Secedit /analyze /db <database file name> [/cfg <configuration file name>] [/ove
 
 #### <a name="parameters"></a>Параметры
 
-|Параметр|Описание|
+|Параметр|Описание:|
 |---------|-----------|
 |db|Обязательный.</br>Указывает путь и имя файла базы данных, содержащей сохраненную конфигурацию, для которой будет выполняться анализ.</br>Если имя файла указывает базу данных, для которой не был создан шаблон безопасности (представленный файлом конфигурации), `/cfg \<configuration file name>` необходимо также указать параметр командной строки.|
 |cfg|Необязательный элемент.</br>Указывает путь и имя файла для шаблона безопасности, который будет импортирован в базу данных для анализа.</br>Этот параметр/cfg допустим только при использовании с `/db \<database file name>` параметром. Если этот параметр не указан, анализ выполняется для любой конфигурации, уже хранящейся в базе данных.|
@@ -38,7 +36,7 @@ Secedit /analyze /db <database file name> [/cfg <configuration file name>] [/ove
 |log|Необязательный элемент.</br>Указывает путь и имя файла журнала, который будет использоваться в процессе.|
 |quiet|Необязательный элемент.</br>Подавляет вывод на экран. Вы по-прежнему можете просматривать результаты анализа с помощью оснастки "Настройка и анализ безопасности" консоли управления (MMC).|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Результаты анализа хранятся в отдельной области базы данных, и их можно просмотреть в оснастке «анализ и настройка безопасности» консоли управления (MMC).
 

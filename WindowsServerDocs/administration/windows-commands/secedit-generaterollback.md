@@ -1,20 +1,18 @@
 ---
 title: 'Secedit: женератероллбакк'
 description: Справочная статья для * * * *-
-ms.prod: windows-server
-ms.technology: manage-windows-commands
 ms.topic: article
 ms.assetid: 385a6799-51a7-4fe3-bd73-10c7998b6680
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 1dec7833853d3c0526997f1d3e1bd2113d114cf2
-ms.sourcegitcommit: 2afed2461574a3f53f84fc9ec28d86df3b335685
+ms.openlocfilehash: a5d7b21f47019e791ba541c17b99080c2324a43b
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85926177"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87882957"
 ---
 # <a name="seceditgeneraterollback"></a>Secedit: женератероллбакк
 
@@ -30,7 +28,7 @@ Secedit /generaterollback /db <database file name> /cfg <configuration file name
 
 #### <a name="parameters"></a>Параметры
 
-|Параметр|Описание|
+|Параметр|Описание:|
 |---------|-----------|
 |db|Обязательный.</br>Указывает путь и имя файла базы данных, содержащей сохраненную конфигурацию, для которой будет выполняться анализ.</br>Если имя файла указывает базу данных, для которой не был создан шаблон безопасности (представленный файлом конфигурации), `/cfg \<configuration file name>` необходимо также указать параметр командной строки.|
 |cfg|Обязательный.</br>Указывает путь и имя файла для шаблона безопасности, который будет импортирован в базу данных для анализа.</br>Этот параметр/cfg допустим только при использовании с `/db \<database file name>` параметром. Если этот параметр не указан, анализ выполняется для любой конфигурации, уже хранящейся в базе данных.|
@@ -38,7 +36,7 @@ Secedit /generaterollback /db <database file name> /cfg <configuration file name
 |log|Необязательный элемент.</br>Указывает путь и имя файла журнала для процесса.|
 |quiet|Необязательный элемент.</br>Подавляет вывод на экран и журнал. Вы по-прежнему можете просматривать результаты анализа с помощью оснастки "Настройка и анализ безопасности" консоли управления (MMC).|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если путь к файлу журнала не указан, используется файл журнала по умолчанию (*системный_корневой_каталог*\Users UserAccount \ \* <em>документс\секурити\логс \* DatabaseName</em>. log).
 

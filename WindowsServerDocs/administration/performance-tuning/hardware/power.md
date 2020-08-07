@@ -1,18 +1,16 @@
 ---
 title: Рекомендации по питанию оборудования Windows Server
 description: Рекомендации по питанию оборудования Windows Server.
-ms.prod: windows-server
-ms.technology: performance-tuning-guide
 ms.topic: conceptual
 ms.author: qizha;tristanb
 author: phstee
 ms.date: 10/16/2017
-ms.openlocfilehash: 0e110fbb41f44a4c8ac6ab014eeae44e542ade41
-ms.sourcegitcommit: 771db070a3a924c8265944e21bf9bd85350dd93c
+ms.openlocfilehash: ee380937e54faa77ec17f8ae47445089ba1eece8
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85471689"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87896722"
 ---
 # <a name="server-hardware-power-considerations"></a>Рекомендации по питанию серверного оборудования
 
@@ -64,7 +62,7 @@ Windows Server 2016 по умолчанию обеспечивает выбор�
 
 - Разъем процессора
 - узел NUMA
-- Ядро
+- Основные сведения
 - Логический процессор
 
 ![Терминология процессора](../media/perftune-guide-figure-1.png)
