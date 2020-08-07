@@ -1,19 +1,18 @@
 ---
 title: Добавление или удаление компьютеров
 description: Узнайте, как добавлять и удалять компьютеры из служб MultiPoint.
-ms.technology: multipoint-services
 ms.topic: article
 ms.assetid: 1c37739d-7ab0-4b80-8d05-0330e79fd631
 author: lizap
 manager: dongill
 ms.author: elizapo
 ms.date: 07/13/2017
-ms.openlocfilehash: 40905afb2bff790425586c3f54e9ee43bdd4fc52
-ms.sourcegitcommit: 145cf75f89f4e7460e737861b7407b5cee7c6645
+ms.openlocfilehash: 5b72655966cc1c16c2da3625c70cd31facf70056
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "87409845"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87970711"
 ---
 # <a name="add-or-remove-computers"></a>Добавление или удаление компьютеров
 С помощью диспетчера MultiPoint можно добавить другие компьютеры или удалить компьютеры из системы служб MultiPoint. Добавление других компьютеров в MultiPoint Manager позволяет MultiPoint Dashboard управлять сеансом любого пользователя, который вошел на соответствующий компьютер, точно так же, как и станциями MultiPoint.
@@ -46,6 +45,6 @@ ms.locfileid: "87409845"
 
     -   **Для удаления компьютера**: выберите в списке **Управляемые** компьютер, который нужно удалить из управления, и нажмите кнопку **Удалить**.
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также:
 [Управление системными задачами с помощью MultiPoint Manager](Manage-System-Tasks-Using-MultiPoint-Manager.md) 
  [Изменить параметры сервера](Edit-Server-Settings.md)

@@ -2,18 +2,16 @@
 title: Создание автоматически применяемой квоты
 description: В этой статье описывается процесс создания автоматически применяемой квоты на основе шаблона квоты
 ms.date: 7/7/2017
-ms.prod: windows-server
-ms.technology: storage
 ms.topic: article
 author: JasonGerend
 manager: brianlic
 ms.author: jgerend
-ms.openlocfilehash: 38354a6c6e39f58574a64c752bb86800f3fc3039
-ms.sourcegitcommit: 771db070a3a924c8265944e21bf9bd85350dd93c
+ms.openlocfilehash: b5ec19000e8fdb90fa413905dfd9ef4885347ed9
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85474071"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87935873"
 ---
 # <a name="create-an-auto-apply-quota"></a>Создание автоматически применяемой квоты
 
@@ -35,7 +33,7 @@ ms.locfileid: "85474071"
 
 5.  В разделе **Наследовать свойства из следующего шаблона квоты** выберите шаблон квоты, который вы хотите применить. Обратите внимание, что свойства каждого шаблона отображаются в разделе **Сводка свойств квоты**.
 
-6.  Нажмите кнопку **Создать**.
+6.  Нажмите **Создать**.
 
 > [!Note]
 > Можно проверить все автоматически созданные квоты, выбрав узел **Квоты**, а затем выбрав пункт **Обновить**. В родительском томе или папке отобразятся отдельные квоты для каждой вложенной папки и профили автоматически применяемых квот.

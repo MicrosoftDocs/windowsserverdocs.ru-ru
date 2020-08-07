@@ -1,19 +1,17 @@
 ---
 title: Ограничения масштабируемости для сервера цели iSCSI
 TOCTitle: iSCSI Target Server Scalability Limits
-ms.prod: windows-server
-ms.technology: storage-iscsi
 ms.topic: article
 author: JasonGerend
 manager: dougkim
 ms.author: jgerend
 ms.date: 09/11/2018
-ms.openlocfilehash: 7a6d23ebd82afc192a9c306420811860d74cf469
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 3867df04c83fe536473c227e43700a4758c1294e
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86961366"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87935861"
 ---
 # <a name="iscsi-target-server-scalability-limits"></a>Ограничения масштабируемости для сервера цели iSCSI
 
@@ -54,19 +52,19 @@ ms.locfileid: "86961366"
 <tr class="odd">
 <td><p>iSCSI них или виртуальные диски на экземпляре цели iSCSI</p></td>
 <td><p>256 (128 на Windows Server 2012)</p></td>
-<td><p>Да</p></td>
+<td><p>да</p></td>
 <td></td>
 </tr>
 <tr class="even">
 <td><p>Сеансы, которые могут одновременно подключаться к экземпляру цели iSCSI</p></td>
 <td><p>544 (512 на Windows Server 2012)</p></td>
-<td><p>Да</p></td>
+<td><p>да</p></td>
 <td></td>
 </tr>
 <tr class="odd">
 <td><p>Моментальные снимки на LU</p></td>
 <td><p>512</p></td>
-<td><p>Да</p></td>
+<td><p>да</p></td>
 <td><p>Существует ограничение в 512 моментальных снимков на независимый том приложений iSCSI.</p></td>
 </tr>
 <tr class="even">
@@ -249,7 +247,7 @@ ms.locfileid: "86961366"
 <tbody>
 <tr class="odd">
 <td><p>От инициатора iSCSI, который преобразует виртуальный диск из базового диска в динамический </p></td>
-<td><p>Да</p></td>
+<td><p>да</p></td>
 <td><p>Нет</p></td>
 <td></td>
 </tr>
@@ -264,28 +262,28 @@ ms.locfileid: "86961366"
 <td><p>Минимальный размер формата виртуального жесткого диска</p></td>
 <td><p>VHDX: 3 МБ</p>
 <p>. VHD: 8 МБ</p></td>
-<td><p>Да</p></td>
+<td><p>да</p></td>
 <td><p>Применяется ко всем поддерживаемым типам виртуальных жестких дисков: родительский, разностный и фиксированный.</p></td>
 </tr>
 <tr class="even">
 <td><p>Максимальный размер родительского VHD</p></td>
 <td><p>VHDX: 64 ТБ</p>
 <p>. VHD: 2 ТБ</p></td>
-<td><p>Да</p></td>
+<td><p>да</p></td>
 <td></td>
 </tr>
 <tr class="odd">
 <td><p>Фиксированный максимальный размер VHD</p></td>
 <td><p>VHDX: 64 ТБ</p>
 <p>. VHD: 16 ТБ</p></td>
-<td><p>Да</p></td>
+<td><p>да</p></td>
 <td></td>
 </tr>
 <tr class="even">
 <td><p>Максимальный размер разностного виртуального жесткого диска</p></td>
 <td><p>VHDX: 64 ТБ</p>
 <p>. VHD: 2 ТБ</p></td>
-<td><p>Да</p></td>
+<td><p>да</p></td>
 <td></td>
 </tr>
 <tr class="odd">
@@ -310,7 +308,7 @@ ms.locfileid: "86961366"
 <td><p>Динамический формат VHD</p></td>
 <td><p>VHDX: Да</p>
 <p>. VHD: Да (нет в Windows Server 2012)</p></td>
-<td><p>Да</p></td>
+<td><p>да</p></td>
 <td><p>Несопоставление не поддерживается&#39;t.</p></td>
 </tr>
 <tr class="odd">
@@ -461,7 +459,7 @@ ms.locfileid: "86961366"
 <tr class="odd">
 <td><p>Инициатор</p></td>
 <td><p>Windows Server 2012 R2</p></td>
-<td><p>Windows Server 2012</p></td>
+<td><p>Windows Server 2012</p></td>
 <td><p>Комментарии</p></td>
 </tr>
 <tr class="even">
@@ -531,7 +529,7 @@ ms.locfileid: "86961366"
 
   - Windows Server 2012 R2
 
-  - Windows Server 2012
+  - Windows Server 2012
 
   - Сетевой адаптер PCIe с Ипксе
 

@@ -1,17 +1,15 @@
 ---
-title: Удалить узел из активного членства отказоустойчивого кластера
+title: Удаление узла из активной принадлежности к отказоустойчивому кластеру
 description: В этой статье рассматривается проблема обнаружения узлов, удаленных из активного членства в отказоустойчивом кластере.
-ms.prod: windows-server
-ms.technology: server-general
 ms.date: 05/28/2020
 author: Deland-Han
 ms.author: delhan
-ms.openlocfilehash: 6613bf09c3588637cfe03cb7647e4fed358b760c
-ms.sourcegitcommit: ef089864980a1d4793a35cbf4cbdd02ce1962054
+ms.openlocfilehash: da46b39f853476676a06bcaaa20338dd1a178586
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84150332"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87935574"
 ---
 # <a name="nodes-being-removed-from-failover-cluster-membership-on-vmware-esx"></a>Узлы, удаляемые из состава отказоустойчивого кластера в VMWare ESX
 

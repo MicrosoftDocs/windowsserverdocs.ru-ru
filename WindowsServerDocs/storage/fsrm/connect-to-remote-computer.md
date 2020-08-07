@@ -2,18 +2,16 @@
 title: Подключение к удаленному компьютеру
 description: В этой статье описано, как подключиться к удаленному компьютеру, чтобы управлять ресурсами хранилища из диспетчера ресурсов файлового сервера
 ms.date: 7/7/2017
-ms.prod: windows-server
-ms.technology: storage
 ms.topic: article
 author: JasonGerend
 manager: brianlic
 ms.author: jgerend
-ms.openlocfilehash: 562164b461b4cd5db939b116feeb1bf21f78bad4
-ms.sourcegitcommit: 771db070a3a924c8265944e21bf9bd85350dd93c
+ms.openlocfilehash: a412fcc0e1979ed158f01f6fba17fb6a9c4a20c7
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85474131"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87935883"
 ---
 # <a name="connect-to-a-remote-computer"></a>Подключение к удаленному компьютеру
 

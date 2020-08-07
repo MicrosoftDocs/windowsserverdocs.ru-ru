@@ -1,18 +1,16 @@
 ---
 title: Вложенная устойчивость для Локальные дисковые пространства
-ms.prod: windows-server
 ms.author: jgerend
-manager: dansimp
-ms.technology: storagespaces
+manager: dansimpspaces
 ms.topic: article
 author: cosmosdarwin
 ms.date: 03/15/2019
-ms.openlocfilehash: 311edb38f4cdf1dac153d843811442d5eafbce05
-ms.sourcegitcommit: acfdb7b2ad283d74f526972b47c371de903d2a3d
+ms.openlocfilehash: 91d8cce64088855d2e8a0c89c1084077a252e26a
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "87769752"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87935960"
 ---
 # <a name="nested-resiliency-for-storage-spaces-direct"></a>Вложенная устойчивость для Локальные дисковые пространства
 
@@ -111,7 +109,7 @@ New-StorageTier -StoragePoolFriendlyName S2D* -FriendlyName NestedParity -Resili
 
 #### <a name="nested-two-way-mirror"></a>Вложенное двустороннее зеркало
 
-Чтобы использовать вложенное двустороннее зеркало, сослаться на `NestedMirror` шаблон уровня и укажите размер. Пример:
+Чтобы использовать вложенное двустороннее зеркало, сослаться на `NestedMirror` шаблон уровня и укажите размер. Например:
 
 ```PowerShell
 New-Volume -StoragePoolFriendlyName S2D* -FriendlyName Volume01 -StorageTierFriendlyNames NestedMirror -StorageTierSizes 500GB
@@ -147,7 +145,7 @@ Get-StorageSubSystem Cluster* | Set-StorageHealthSetting -Name "System.Storage.N
 
 | Ситуация                       | Поведение кэша                           | Может ли допускаться потери диска кэша? |
 |---------------------------------|------------------------------------------|--------------------------------|
-| Оба сервера                 | Операции чтения и записи в кэше, полная производительность | Да                            |
+| Оба сервера                 | Операции чтения и записи в кэше, полная производительность | да                            |
 | Сервер не работает, первые 30 минут   | Операции чтения и записи в кэше, полная производительность | Нет (временно)               |
 | Через первые 30 минут          | Только чтение кэша, затронутая производительность   | Да (после того как кэш записан на диски емкости)                           |
 

@@ -2,28 +2,26 @@
 title: Регистрация сервера политики сети в домене Active Directory
 description: Этот раздел можно использовать для регистрации сервера, на котором выполняется сервер политики сети, в Windows Server 2016 в домене по умолчанию NPS или в другом домене.
 manager: brianlic
-ms.prod: windows-server
-ms.technology: networking
 ms.topic: article
 ms.assetid: 2de954fd-a7d8-4cc6-85b1-b0c3c06f788f
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 63d630250b0b24937a3dfc01bcba7ec63faa3c3e
-ms.sourcegitcommit: da7b9bce1eba369bcd156639276f6899714e279f
+ms.openlocfilehash: 871e1f2563564e1c85287393cd4b587692a44db6
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "80315962"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87952151"
 ---
 # <a name="register-an-nps-in-an-active-directory-domain"></a>Регистрация сервера политики сети в домене Active Directory
 
->Область применения: Windows Server (Semi-Annual Channel), Windows Server 2016
+>Применяется к: Windows Server (Semi-Annual Channel), Windows Server 2016
 
 Этот раздел можно использовать для регистрации сервера, на котором выполняется сервер политики сети, в Windows Server 2016 в домене по умолчанию NPS или в другом домене.
 
 ## <a name="register-an-nps-in-its-default-domain"></a>Регистрация сервера политики сети в домене по умолчанию
 
-Эту процедуру можно использовать для регистрации NPS в домене, в котором сервер является членом домена. 
+Эту процедуру можно использовать для регистрации NPS в домене, в котором сервер является членом домена.
 
 НПСС должен быть зарегистрирован в Active Directory, чтобы они имели разрешение на чтение свойств входящих звонков учетных записей пользователей в процессе авторизации. При регистрации NPS сервер добавляется в группу **Серверы RAS и IAS** в Active Directory.
 
@@ -50,7 +48,7 @@ ms.locfileid: "80315962"
 
 1. На контроллере домена в диспетчер сервера выберите **средства**, а затем **Active Directory пользователи и компьютеры**. Откроется консоль Active Directory пользователи и компьютеры.
 
-2. В дереве консоли перейдите к домену, в котором NPS должен считывать данные учетной записи пользователя, а затем щелкните папку **Пользователи** . 
+2. В дереве консоли перейдите к домену, в котором NPS должен считывать данные учетной записи пользователя, а затем щелкните папку **Пользователи** .
 
 3. В области сведений щелкните правой кнопкой мыши **Серверы RAS и IAS**и выберите пункт **свойства**. Откроется диалоговое окно **свойства серверов RAS и IAS** .
 
@@ -59,9 +57,9 @@ ms.locfileid: "80315962"
 
 ### <a name="to-register-an-nps-in-another-domain-by-using-netsh-commands-for-nps"></a>Регистрация сервера политики сети в другом домене с помощью команд Netsh для NPS
 
-1. Откройте командную строку или Windows PowerShell. 
+1. Откройте командную строку или Windows PowerShell.
 
-2. В командной строке введите следующую команду: **netsh nps add registeredserver** &nbsp;*домен* &nbsp;*Server*, а затем нажмите клавишу ВВОД.
+2. В командной строке введите следующую команду: **netsh nps add registeredserver** &nbsp; *domain* &nbsp; *Server*и нажмите клавишу ВВОД.
 
 >[!NOTE]
 >В предыдущей команде *domain* — это доменное имя DNS домена, в котором вы хотите зарегистрировать NPS, а *Server* — имя компьютера NPS.

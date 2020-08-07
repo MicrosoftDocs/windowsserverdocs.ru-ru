@@ -1,20 +1,18 @@
 ---
 title: Устранение проблем vRSS
 description: Устраните проблемы vRSS, если вы не видите трафик балансировки нагрузки vRSS для виртуальной машины LPs.
-ms.prod: windows-server
-ms.technology: networking
 ms.topic: article
 ms.localizationpriority: medium
 manager: dougkim
 ms.author: lizross
 author: eross-msft
 ms.date: 09/04/2018
-ms.openlocfilehash: 1caedfcc5711df98836b3d373ebf4384fa1c7469
-ms.sourcegitcommit: b00d7c8968c4adc8f699dbee694afe6ed36bc9de
+ms.openlocfilehash: a7f0a3b190232cafb68e3a39104c357972831441
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "80858047"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87951954"
 ---
 # <a name="resolve-vrss-issues"></a>Устранение проблем vRSS
 
@@ -27,32 +25,32 @@ ms.locfileid: "80858047"
    Set-VMNetworkAdapter -ManagementOS -VrssEnabled $TRUE
    ```
 
-2. RSS отключен в виртуальной машине или на узле vNIC. Windows Server 2016 включает RSS по умолчанию; возможно, кто-то отключил его. 
+2. RSS отключен в виртуальной машине или на узле vNIC. Windows Server 2016 включает RSS по умолчанию; возможно, кто-то отключил его.
 
    - Enabled = **true**
 
-   **Просмотр текущих параметров:** 
+   **Просмотр текущих параметров:**
 
-   Выполните следующий командлет PowerShell на виртуальной машине\(для vRSS на виртуальной машине\) или на узле \(для узла\)vRSS vNIC.
+   Выполните следующий командлет PowerShell на виртуальной машине \( для vrss на виртуальной машине \) или на узле \( для vNIC узла vrss \) .
 
    ```PowerShell
    Get-NetAdapterRss
    ```
 
-   **Включите функцию:** 
+   **Включите функцию:**
 
    Чтобы изменить значение false на true, выполните следующий командлет PowerShell.
 
    ```PowerShell
    Enable-NetAdapterRss *
    ```
-   
-   Другим системным способом настройки RSS является использование Netsh. Применение 
-   
+
+   Другим системным способом настройки RSS является использование Netsh. Использование
+
     ```cmd
    netsh int tcp show global
    ```
-   
+
    чтобы убедиться, что RSS не отключен глобально. И при необходимости включите его. Этот параметр не затронут *-Нетадаптеррсс.
 
 3. Если после настройки vRSS обнаруживается ВММК, проверьте следующие параметры на каждом адаптере, подключенном к виртуальному коммутатору:
@@ -62,18 +60,18 @@ ms.locfileid: "80858047"
 
    ![вммк — включено](../../media/vmmq-enabled.png)
 
-   **Просмотр текущих параметров:** 
+   **Просмотр текущих параметров:**
 
    ```PowerShell
    Get-NetAdapterAdvancedProperty -Name NICName -DisplayName 'Virtual Switch RSS'
    ```
 
-   **Включите функцию:** 
+   **Включите функцию:**
 
    ```PowerShell
    Set-NetAdapterAdvancedProperty -Name NICName -DisplayName 'Virtual Switch RSS' -DisplayValue Enabled”
    ```
- 
+
 4. _(Windows Server 2019)_ Невозможно включить ВММК (Вммкенаблед = false) при задании для **врсскуеуесчедулингмоде** значения **dynamic**. Врсскуеуесчедулингмоде не меняется на Dynamic после включения ВММК.<p>**Врсскуеуесчедулингмоде** **динамического** требует поддержки драйвера при включенном вммк.  ВММК — это разгрузка размещения пакетов на логических процессорах и поэтому требует поддержки драйверов для использования динамического алгоритма.  Установите драйвер и встроенное по поставщика сетевых карт, поддерживающее динамическое ВММК.
 
 

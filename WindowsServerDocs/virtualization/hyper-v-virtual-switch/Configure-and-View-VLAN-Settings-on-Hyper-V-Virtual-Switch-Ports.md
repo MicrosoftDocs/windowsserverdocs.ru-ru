@@ -2,26 +2,24 @@
 title: Настройка и просмотр параметров виртуальной локальной сети на портах виртуального коммутатора Hyper-V
 description: С помощью этого раздела вы узнаете о рекомендациях по настройке и просмотру параметров виртуальной локальной сети (VLAN) на порте виртуального коммутатора Hyper-V в Windows Server 2016.
 manager: brianlic
-ms.prod: windows-server
-ms.technology: networking-hv-switch
 ms.topic: article
 ms.assetid: 69e0e28a-98ae-4ade-bd27-ce2ad7eb310f
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 083558762051283115211d10d32ebb6fd3ad3953
-ms.sourcegitcommit: da7b9bce1eba369bcd156639276f6899714e279f
+ms.openlocfilehash: 1f4812e05ff003d40b34b7bf757894f7e66aaa6e
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "80308036"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87950298"
 ---
 # <a name="configure-and-view-vlan-settings-on-hyper-v-virtual-switch-ports"></a>Настройка и просмотр параметров виртуальной локальной сети на портах виртуального коммутатора Hyper-V
 
->Область применения: Windows Server (Semi-Annual Channel), Windows Server 2016
+>Область применения. Windows Server (Semi-Annual Channel), Windows Server 2016
 
 С помощью этого раздела вы узнаете о рекомендациях по настройке и просмотру параметров виртуальной локальной сети (VLAN) на порте виртуального коммутатора Hyper-V.
 
-Если вы хотите настроить параметры виртуальной ЛС на портах виртуального коммутатора Hyper-V, можно использовать либо диспетчер Hyper-v, либо Windows&reg; Server 2016, либо System Center Virtual Machine Manager (VMM).
+Если вы хотите настроить параметры виртуальной ЛС на портах виртуального коммутатора Hyper-V, можно использовать &reg; Диспетчер Hyper-v или System Center Virtual Machine Manager (VMM) Windows Server 2016.
 
 Если вы используете VMM, VMM использует следующую команду Windows PowerShell для настройки порта коммутатора.
 
@@ -41,7 +39,7 @@ Set-VMNetworkAdapterVlan <VM-name|-managementOS> -Access -VlanID <vlan-value>
 
 Чтобы настроить и просмотреть параметры порта коммутатора виртуальной ЛС, необходимо выполнить следующие действия.
 
-- Если вы используете VMM или сетевой контроллер для настройки и управления сетью и развернули программно-определяемую сеть (SDN), необходимо использовать командлеты **вмнетворкадаптерисолатион** . 
+- Если вы используете VMM или сетевой контроллер для настройки и управления сетью и развернули программно-определяемую сеть (SDN), необходимо использовать командлеты **вмнетворкадаптерисолатион** .
 - Если вы используете диспетчер Hyper-V для Windows Server 2016 или командлеты Windows PowerShell и не развернули программно-определяемую сеть (SDN), необходимо использовать командлеты **вмнетворкадаптервлан** .
 
 ### <a name="possible-issues"></a>Возможные проблемы

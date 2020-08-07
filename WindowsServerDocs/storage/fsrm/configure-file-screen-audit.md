@@ -2,18 +2,16 @@
 title: Настройка аудита фильтра блокировки файлов
 description: В этой статье описывается процесс настройки аудита фильтра блокировки файлов для создания отчета аудита фильтра блокировки файлов
 ms.date: 7/7/2017
-ms.prod: windows-server
-ms.technology: storage
 ms.topic: article
 author: JasonGerend
 manager: brianlic
 ms.author: jgerend
-ms.openlocfilehash: cf1824e514c34ee89870daa6d15190bffd822a8b
-ms.sourcegitcommit: 771db070a3a924c8265944e21bf9bd85350dd93c
+ms.openlocfilehash: 822c483fc7f5f4518ca976b1f7d719b95730008f
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85475321"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87950689"
 ---
 # <a name="configure-file-screen-audit"></a>Настройка аудита фильтра блокировки файлов
 

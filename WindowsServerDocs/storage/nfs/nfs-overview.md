@@ -1,19 +1,17 @@
 ---
 title: Обзор NFS
 description: Описание сетевой файловой системы.
-ms.prod: windows-server
 ms.topic: article
 author: JasonGerend
 ms.author: jgerend
-ms.technology: storage
 ms.date: 07/09/2018
 ms.localizationpriority: medium
-ms.openlocfilehash: aff9fbdfa6dc97cb644e207efdae9c44533c320b
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.openlocfilehash: 0a8ba971fb7224333fb495971cb06d4b97d83a62
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87181750"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87950457"
 ---
 # <a name="network-file-system-overview"></a>Обзор NFS
 
@@ -51,7 +49,7 @@ Windows поддерживает несколько версий клиента 
 
 |Компонент или функция|Новинка или обновление|Описание|
 |---|---|---|
-|[NFS версии 4,1](#nfs-version-41)|Создать|Повышенная безопасность, производительность и совместимость по сравнению с NFS версии 3.|
+|[NFS версии 4,1](#nfs-version-41)|Оператор new|Повышенная безопасность, производительность и совместимость по сравнению с NFS версии 3.|
 |[Инфраструктура NFS](#nfs-infrastructure)|Обновлен|Улучшает развертывание и управляемость и повышает безопасность.|
 |[Постоянная доступность NFS версии 3](#nfs-version-3-continuous-availability)|Обновлен|Повышает постоянную доступность на клиентах NFS версии 3.|
 |[Улучшения развертывания и управляемости](#deployment-and-manageability-improvements)|Обновлен|Позволяет легко развертывать NFS и управлять ими с помощью новых командлетов Windows PowerShell и нового поставщика WMI.|
@@ -117,5 +115,5 @@ NFS версии 4,1 реализует все необходимые аспек
 |Тип содержимого|Ссылки|
 |---|---|
 |Развертывание|[Развертывание сетевой файловой системы](deploy-nfs.md)|
-|Operations|[Командлеты NFS в Windows PowerShell](/powershell/module/nfs/?view=win10-ps)|
+|Операции|[Командлеты NFS в Windows PowerShell](/powershell/module/nfs/?view=win10-ps)|
 |Связанные технологии|[Хранилище в Windows Server](../storage.yml)|

@@ -2,19 +2,17 @@
 title: Создание виртуальных рабочих столов Windows 10 Корпоративная для станций
 description: Узнайте, как создать рабочие столы Windows Server 2016 для станции
 ms.date: 07/22/2016
-ms.prod: windows-server
-ms.technology: multipoint-services
 ms.topic: article
 ms.assetid: 63f08b5b-c735-41f4-b6c8-411eff85a4ab
 author: evaseydl
 ms.author: evas
 manager: scottman
-ms.openlocfilehash: 6f6d7d3ef66e8943fbb39cfd96cff1b91ab413eb
-ms.sourcegitcommit: 145cf75f89f4e7460e737861b7407b5cee7c6645
+ms.openlocfilehash: fb36cb13f9a78ae028f1217dd667a106a81e5c94
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "87409825"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87937316"
 ---
 # <a name="create-windows-10-enterprise-virtual-desktops-for-stations"></a>Создание виртуальных рабочих столов Windows 10 Корпоративная для станций
 Эта необязательная конфигурация в службах MultiPoint в основном предназначена для ситуаций, когда приложению требуется собственный экземпляр клиентской операционной системы для каждого пользователя. К примерам относятся приложения, которые не могут быть установлены в Windows Server и приложения, на которых не будут запускаться несколько экземпляров на одном главном компьютере.
@@ -22,7 +20,7 @@ ms.locfileid: "87409825"
 > [!NOTE]
 > Эти виртуальные рабочие столы, также известные как VDI, гораздо больше потребляют ресурсы по сравнению с сеансами по умолчанию для рабочих столов служб MultiPoint, поэтому рекомендуется по возможности использовать сеансы служб MultiPoint по умолчанию.
 
-## <a name="prerequisites"></a>Обязательные условия
+## <a name="prerequisites"></a>Предварительные требования
 Чтобы подготовиться к созданию виртуальных рабочих столов станции, убедитесь, что система служб MultiPoint соответствует следующим требованиям.
 
 | Оборудование | Требования |

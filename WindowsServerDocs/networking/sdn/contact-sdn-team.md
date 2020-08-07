@@ -2,18 +2,16 @@
 title: Как связаться с рабочей группой Datacenter and Cloud Networking
 description: Эта страница предназначена для информирования клиентов о лучших методах достижения команды SDN в различных контекстах.
 manager: grcusanz
-ms.prod: windows-server
-ms.technology: networking-sdn
 ms.topic: article
 ms.assetid: f9945c55-c2d0-448f-86dd-8c734e1b2987
 ms.author: anpaul
 author: AnirbanPaul
-ms.openlocfilehash: 45baf6966fc0bc703dcf354e557b9d4eeab8e9d9
-ms.sourcegitcommit: 0ccc7b2caa1781f0c67e1a3cc52c0b0f6a175ad4
+ms.openlocfilehash: fe5b9bc8c8b3b888b3c11a72c39756374cde566c
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "87819585"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87970831"
 ---
 # <a name="contact-the-datacenter-and-cloud-networking-team"></a>Как связаться с рабочей группой Datacenter and Cloud Networking
 
@@ -37,7 +35,7 @@ ms.locfileid: "87819585"
 [Документацию по сетям контейнеров](https://docs.microsoft.com/virtualization/windowscontainers/manage-containers/container-networking) можно найти на [документация Майкрософт (Docs.Microsoft.com)](https://docs.microsoft.com/), которая содержит **встроенные функции комментирования**. Чтобы оставить или ответить на комментарий в Документация Майкрософт просто войти, прокрутите вниз до нижней части страницы Документация Майкрософт, на которую вы хотите создать ссылку, а затем внесите и отправьте комментарий.
 
 > [Документация Майкрософт](https://docs.microsoft.com/) — это новый унифицированный веб-сайт корпорации Майкрософт. Несмотря на то, что большая часть [документации по Sdn](https://technet.microsoft.com/windows-server-docs/networking/sdn/software-defined-networking) для нашей группы остается на TechNet, [Документация по сетям контейнера](https://docs.microsoft.com/virtualization/windowscontainers) теперь находится на документация Майкрософт.
-> 
+>
 > *В общем случае, если вы прийдете к разделу Документация Майкрософт, который потребует больше вопросов, просто оставьте комментарий на этой странице, чтобы поделиться своим мнением с командой Майкрософт, которая может помочь.*
 
 ## <a name="container-specific-forums"></a>Форумы для конкретных контейнеров
@@ -45,5 +43,5 @@ ms.locfileid: "87819585"
 - [Пользовательские голоса](https://windowsserver.uservoice.com/forums/304624-containers) — лучшие для *запросов функций*
 - [GitHub (репозиторий виртуализации)](https://github.com/Microsoft/Virtualization-Documentation) — лучшее для поиска *справки по устранению неполадок* и *создания отчетов об ошибках*
 
-### <a name="not-seeing-the-forum-for-you"></a>Не видите форум? 
+### <a name="not-seeing-the-forum-for-you"></a>Не видите форум?
 По возможности мы рекомендуем использовать наши общедоступные форумы, чтобы обширное сообщество могли получить преимущества от доступа к вопросам и комментариям, которые прибывают нашим образом. Однако мы также понимаем, что существуют ситуации, когда электронная почта — это просто предпочтительный способ приступить к работе с нами. Если вы используете одну из этих ситуаций, отправьте нам электронное письмо по адресу, sdn_feedback@microsoft.com и мы будем рады услышать вас.

@@ -2,31 +2,29 @@
 title: Подключение конечных точек контейнера к виртуальной сети клиента
 description: В этом разделе мы покажем, как подключить конечные точки контейнера к существующей виртуальной сети клиента, созданной с помощью SDN. Для создания сети контейнера на виртуальной машине клиента используется драйвер сети l2bridge (и, возможно, l2tunnel), доступный в подключаемом модуле Windows либнетворк для DOCKER.
 manager: grcusanz
-ms.prod: windows-server
-ms.technology: networking-sdn
 ms.topic: article
 ms.assetid: f7af1eb6-d035-4f74-a25b-d4b7e4ea9329
 ms.author: anpaul
 author: AnirbanPaul
 ms.date: 08/24/2018
-ms.openlocfilehash: 2b8927ec260b4f5a42aa59a25db1b18896ce91ef
-ms.sourcegitcommit: b00d7c8968c4adc8f699dbee694afe6ed36bc9de
+ms.openlocfilehash: fd05441ecc64c05778234dc00fa315bb406dfb40
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "80854537"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87970811"
 ---
 # <a name="connect-container-endpoints-to-a-tenant-virtual-network"></a>Подключение конечных точек контейнера к виртуальной сети клиента
 
->Область применения: Windows Server (Semi-Annual Channel), Windows Server 2016
+>Применяется к: Windows Server (Semi-Annual Channel), Windows Server 2016
 
 В этом разделе мы покажем, как подключить конечные точки контейнера к существующей виртуальной сети клиента, созданной с помощью SDN. Для создания сети контейнера на виртуальной машине клиента используется драйвер сети *l2bridge* (и, возможно, *l2tunnel*), доступный в подключаемом модуле Windows либнетворк для DOCKER.
 
-В разделе [драйверы сети контейнера](https://docs.microsoft.com/virtualization/windowscontainers/container-networking/network-drivers-topologies) мы обсуждали, что несколько сетевых драйверов доступны через DOCKER в Windows. Для SDN Используйте драйверы *l2bridge* и *l2tunnel* . Для обоих драйверов каждая конечная точка контейнера находится в той же виртуальной подсети, что и виртуальная машина узла контейнера (клиента). 
+В разделе [драйверы сети контейнера](https://docs.microsoft.com/virtualization/windowscontainers/container-networking/network-drivers-topologies) мы обсуждали, что несколько сетевых драйверов доступны через DOCKER в Windows. Для SDN Используйте драйверы *l2bridge* и *l2tunnel* . Для обоих драйверов каждая конечная точка контейнера находится в той же виртуальной подсети, что и виртуальная машина узла контейнера (клиента).
 
-Сетевая служба узла (HNS) через подключаемый модуль частного облака динамически назначает IP-адреса конечным точкам контейнера. Конечные точки контейнера имеют уникальные IP-адреса, но используют один и тот же MAC-адрес виртуальной машины узла контейнера (клиента) из-за преобразования адресов второго уровня. 
+Сетевая служба узла (HNS) через подключаемый модуль частного облака динамически назначает IP-адреса конечным точкам контейнера. Конечные точки контейнера имеют уникальные IP-адреса, но используют один и тот же MAC-адрес виртуальной машины узла контейнера (клиента) из-за преобразования адресов второго уровня.
 
-Политика сети (списки управления доступом, Инкапсуляция и качество обслуживания) для этих конечных точек контейнера применяется на физическом узле Hyper-V, полученном сетевым контроллером, и определяется в системах управления верхнего уровня. 
+Политика сети (списки управления доступом, Инкапсуляция и качество обслуживания) для этих конечных точек контейнера применяется на физическом узле Hyper-V, полученном сетевым контроллером, и определяется в системах управления верхнего уровня.
 
 Разница между драйверами *l2bridge* и *l2tunnel* :
 
@@ -48,19 +46,19 @@ ms.locfileid: "80854537"
 
    ```powershell
    # To install HyperV feature without checks for nested virtualization
-   dism /Online /Enable-Feature /FeatureName:Microsoft-Hyper-V /All 
+   dism /Online /Enable-Feature /FeatureName:Microsoft-Hyper-V /All
    ```
 
 >[!Note]
->[Вложенная виртуализация](https://msdn.microsoft.com/virtualization/hyperv_on_windows/user_guide/nesting) и предоставление расширений виртуализации не требуются, если не используются контейнеры Hyper-V. 
+>[Вложенная виртуализация](https://msdn.microsoft.com/virtualization/hyperv_on_windows/user_guide/nesting) и предоставление расширений виртуализации не требуются, если не используются контейнеры Hyper-V.
 
 
 ## <a name="workflow"></a>Рабочий процесс
 
-[1. Добавьте несколько IP-конфигураций в существующий ресурс NIC виртуальной машины с помощью сетевого контроллера (узла Hyper-V)](#1-add-multiple-ip-configurations)
-[2. Включите сетевой прокси-сервер на узле, чтобы выделить IP-адреса ЦС для конечных точек контейнера (узел Hyper-V)](#2-enable-the-network-proxy)
-[3. Установите подключаемый модуль частного облака, чтобы назначить IP-адреса ЦС конечным точкам контейнера (виртуальной машине узла контейнера)](#3-install-the-private-cloud-plug-in)
-[4. Создание сети *l2bridge* или *l2tunnel* с помощью DOCKER (виртуальная машина узла контейнера)](#4-create-an-l2bridge-container-network)
+[1. Добавьте несколько IP-конфигураций в существующий ресурс NIC виртуальной машины через сетевой контроллер (узел Hyper-V)](#1-add-multiple-ip-configurations) 
+ [2. Включите сетевой прокси-сервер на узле, чтобы выделить IP-адреса ЦС для конечных точек контейнера (узел Hyper-V)](#2-enable-the-network-proxy) 
+ [3. Установите подключаемый модуль частного облака, чтобы назначить IP-адреса ЦС конечным точкам контейнера (виртуальная машина узла контейнера)](#3-install-the-private-cloud-plug-in) 
+ [4. Создание сети *l2bridge* или *l2tunnel* с помощью DOCKER (виртуальная машина узла контейнера)](#4-create-an-l2bridge-container-network)
 
 >[!NOTE]
 >В ресурсах NIC виртуальной машины, созданных с помощью System Center Virtual Machine Manager, не поддерживается несколько IP-конфигураций. Рекомендуется использовать эти типы развертываний, которые создают ресурс NIC виртуальной машины из аппаратного контроллера управления с помощью сетевого контроллера PowerShell.
@@ -89,7 +87,7 @@ foreach ($i in 1..10)
     $props = new-object Microsoft.Windows.NetworkController.NetworkInterfaceIpConfigurationProperties
 
     $resourceid = "IP_192_168_1_1"
-    if ($i -eq 10) 
+    if ($i -eq 10)
     {
         $resourceid += "10"
         $ipstr = "192.168.1.110"
@@ -101,7 +99,7 @@ foreach ($i in 1..10)
     }
 
     $newipconfig.ResourceId = $resourceid
-    $props.PrivateIPAddress = $ipstr    
+    $props.PrivateIPAddress = $ipstr
 
     $props.PrivateIPAllocationMethod = "Static"
     $props.Subnet = new-object Microsoft.Windows.NetworkController.Subnet
@@ -117,9 +115,9 @@ New-NetworkControllerNetworkInterface -ResourceId $vmnic.ResourceId -Properties 
 ```
 
 ### <a name="2-enable-the-network-proxy"></a>2. Включите сетевой прокси-сервер.
-На этом шаге вы включите сетевой прокси-сервер, чтобы выделить несколько IP-адресов для виртуальной машины узла контейнера. 
+На этом шаге вы включите сетевой прокси-сервер, чтобы выделить несколько IP-адресов для виртуальной машины узла контейнера.
 
-Чтобы включить сетевой прокси-сервер, выполните сценарий [конфигуремкнп. ps1](https://github.com/Microsoft/SDN/blob/master/Containers/ConfigureMCNP.ps1) на **узле Hyper-V** , на котором размещена виртуальная машина узла контейнера (клиента).
+Чтобы включить сетевой прокси-сервер, запустите сценарий [ConfigureMCNP.ps1](https://github.com/Microsoft/SDN/blob/master/Containers/ConfigureMCNP.ps1) на **узле Hyper-V** , где размещается виртуальная машина узла контейнера (клиента).
 
 ```powershell
 PS C:\> ConfigureMCNP.ps1
@@ -128,7 +126,7 @@ PS C:\> ConfigureMCNP.ps1
 ### <a name="3-install-the-private-cloud-plug-in"></a>3. Установка подключаемого модуля частного облака
 На этом шаге вы установите подключаемый модуль, чтобы служба HNS могла взаимодействовать с сетевым прокси-сервером на узле Hyper-V.
 
-Чтобы установить подключаемый модуль, запустите сценарий [инсталлприватеклаудплугин. ps1](https://github.com/Microsoft/SDN/blob/master/Containers/InstallPrivateCloudPlugin.ps1) в **виртуальной машине узла контейнера (клиента)** .
+Чтобы установить подключаемый модуль, запустите скрипт [InstallPrivateCloudPlugin.ps1](https://github.com/Microsoft/SDN/blob/master/Containers/InstallPrivateCloudPlugin.ps1) в **виртуальной машине узла контейнера (клиента)**.
 
 
 ```powershell
@@ -136,13 +134,13 @@ PS C:\> InstallPrivateCloudPlugin.ps1
 ```
 
 ### <a name="4-create-an-l2bridge-container-network"></a>4. Создание сети контейнера *l2bridge*
-На этом шаге вы используете команду `docker network create` на **виртуальной машине узла контейнера (клиента)** для создания сети l2bridge. 
+На этом шаге вы используете `docker network create` команду на **виртуальной машине узла контейнера (клиента)** для создания сети l2bridge.
 
 ```powershell
 # Create the container network
 C:\> docker network create -d l2bridge --subnet="192.168.1.0/24" --gateway="192.168.1.1" MyContainerOverlayNetwork
 
-# Attach a container to the MyContainerOverlayNetwork 
+# Attach a container to the MyContainerOverlayNetwork
 C:\> docker run -it --network=MyContainerOverlayNetwork <image> <cmd>
 ```
 

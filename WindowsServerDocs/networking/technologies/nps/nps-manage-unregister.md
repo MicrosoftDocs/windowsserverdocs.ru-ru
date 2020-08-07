@@ -2,24 +2,22 @@
 title: Отмена регистрации сервера политики сети в домене Active Directory
 description: Этот раздел можно использовать для регистрации сервера, на котором выполняется сервер политики сети, в Windows Server 2016 в домене по умолчанию NPS или в другом домене.
 manager: brianlic
-ms.prod: windows-server
-ms.technology: networking
 ms.topic: article
 ms.assetid: 68a94616-3c29-45bd-bd33-e4c578f119e1
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 366e3e7eef6ac1e8682dd3064e0d133f21d1a8da
-ms.sourcegitcommit: da7b9bce1eba369bcd156639276f6899714e279f
+ms.openlocfilehash: 71bb0328e7265ad6981cdb3089e80572315b0fdd
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "80315896"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87952110"
 ---
 # <a name="unregister-an-nps-from-an-active-directory-domain"></a>Отмена регистрации сервера политики сети в домене Active Directory
 
->Область применения: Windows Server (Semi-Annual Channel), Windows Server 2016
+>Применяется к: Windows Server (Semi-Annual Channel), Windows Server 2016
 
-В процессе управления развертыванием NPS может оказаться полезным переместить сервер политики сети в другой домен, заменить NPS или снять с учета NPS. 
+В процессе управления развертыванием NPS может оказаться полезным переместить сервер политики сети в другой домен, заменить NPS или снять с учета NPS.
 
 При перемещении или списании NPS можно отменить регистрацию сервера политики сети в доменах Active Directory, в которых NPS имеет разрешение на чтение свойств учетных записей пользователей в Active Directory.
 

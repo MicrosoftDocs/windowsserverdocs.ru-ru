@@ -1,20 +1,18 @@
 ---
 title: Развертывание программно-определяемой сетевой инфраструктуры с помощью сценариев
-description: В этом разделе описывается развертывание инфраструктуры программно-определяемой сети (SDN) с помощью сценариев в Windows Server 2016. '
+description: В этом разделе описывается развертывание инфраструктуры программно-определяемой сети (SDN) с помощью сценариев в Windows Server 2016.
 manager: grcusanz
-ms.prod: windows-server
-ms.technology: networking-sdn
 ms.topic: get-started-article
 ms.assetid: 5ba5bb37-ece0-45cb-971b-f7149f658d19
 ms.author: anpaul
 author: AnirbanPaul
 ms.date: 08/23/2018
-ms.openlocfilehash: 22cb35f2cc39b997fef7b26a8a8db08a4c2c5698
-ms.sourcegitcommit: 3632b72f63fe4e70eea6c2e97f17d54cb49566fd
+ms.openlocfilehash: e671421225e9fa2d5e7461c795a9f7c9789efd88
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87517939"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87970821"
 ---
 # <a name="deploy-a-software-defined-network-infrastructure-using-scripts"></a>Развертывание инфраструктуры программно-конфигурируемой сети с помощью скриптов
 
@@ -66,7 +64,7 @@ ms.locfileid: "87517939"
 
 5. Используемых Разверните виртуальную машину для размещения служб домен Active Directory ([установите службы домен Active Directory Services (уровень 100)](https://technet.microsoft.com/library/hh472162.aspx) и DNS-сервер.
 
-    a. Подключите виртуальную машину Active Directory или DNS-сервера к виртуальной ЛС управления:
+    а. Подключите виртуальную машину Active Directory или DNS-сервера к виртуальной ЛС управления:
 
       ```PowerShell
       Set-VMNetworkAdapterIsolation -VMName "<VM Name>" -Access -VlanId <Management VLAN> -AllowUntaggedTraffic $True
@@ -83,10 +81,10 @@ ms.locfileid: "87517939"
    Set-DnsClientServerAddress -InterfaceAlias "vEthernet (<switch name>)" -ServerAddresses <DNS Server IP>
    ```
 
-   a. Щелкните правой кнопкой мыши **Пуск**, выберите пункт **система**, а затем щелкните **изменить параметры**.
+   а. Щелкните правой кнопкой мыши **Пуск**, выберите пункт **система**, а затем щелкните **изменить параметры**.
    b. Нажмите кнопку **Изменить**.
    c. Щелкните **домен** и укажите имя домена.  "" "d. Нажмите кнопку **ОК**.
-   д. При появлении запроса введите имя пользователя и пароль.
+   д) При появлении запроса введите имя пользователя и пароль.
    е) Перезапустите сервер.
 
 ### <a name="validation"></a>Проверка
@@ -184,11 +182,11 @@ ms.locfileid: "87517939"
 
 1.  Настройте файл SDNExpress\scripts\TenantConfig.psd1, изменив **<< замените >>** Теги на конкретные значения (например, имя образа VHD, имя сети сетевого контроллера, имя vSwitch и т. д., как ранее было определено в файле FabricConfig.psd1).
 
-2.  Выполните скрипт. Пример:
+2.  Выполните скрипт. Например:
 
     ``SDNExpress\scripts\SDNExpressTenant.ps1 -ConfigurationDataFile TenantConfig.psd1 -Verbose``
 
-3.  Чтобы отменить настройку, выполните тот же сценарий с параметром **Undo** . Пример:
+3.  Чтобы отменить настройку, выполните тот же сценарий с параметром **Undo** . Например:
 
     ``SDNExpress\scripts\SDNExpressTenant.ps1 -Undo -ConfigurationDataFile TenantConfig.psd1 -Verbose``
 

@@ -2,18 +2,16 @@
 title: Планирование мощности DirectAccess
 description: Этот раздел можно использовать для отчета о производительности сервера DirectAccess Windows Server 2012, чтобы помочь в планировании емкости для DirectAccess в Windows Server 2016.
 manager: brianlic
-ms.prod: windows-server
-ms.technology: networking-da
 ms.topic: article
 ms.assetid: 456e5971-3aa7-4a24-bc5d-0c21fec7687e
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 85ac9d40ec0de0a896e99d56679b325cdfc387ff
-ms.sourcegitcommit: 3632b72f63fe4e70eea6c2e97f17d54cb49566fd
+ms.openlocfilehash: 6df4005112601aefb1e508087ec66e7af44e52fd
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87517689"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87951409"
 ---
 # <a name="directaccess-capacity-planning"></a>Планирование мощности DirectAccess
 
@@ -25,7 +23,7 @@ ms.locfileid: "87517689"
 
 Эти результаты тестов показывают, что в Windows 8 клиенты Teredo демонстрируют большую производительность, чем клиенты IPHTTPS, но использование пропускной способности по сравнению с Windows 7 улучшено и для Teredo, и для IPHTTPS.
 
-![Результаты испытаний](../../media/DirectAccess-Capacity-Planning/DACapacityPlanning1.gif)
+![Результаты проверки](../../media/DirectAccess-Capacity-Planning/DACapacityPlanning1.gif)
 
 ## <a name="high-end-hardware-test-environment"></a>Тестовая среда оборудования с высоким быстродействием
 В следующей таблице показаны результаты в тестовой среде оборудования с высоким быстродействием. В этом документе приводится подробное описание и анализ всех результатов тестов.

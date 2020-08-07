@@ -1,19 +1,17 @@
 ---
 title: Репликация растянутого кластера с помощью общего хранилища
-ms.prod: windows-server
 manager: eldenc
 ms.author: nedpyle
-ms.technology: storage-replica
 ms.topic: get-started-article
 author: nedpyle
 ms.date: 04/26/2019
 ms.assetid: 6c5b9431-ede3-4438-8cf5-a0091a8633b0
-ms.openlocfilehash: dcccbd1efa7fa6f287349deb910dbbbc4b6fd706
-ms.sourcegitcommit: acfdb7b2ad283d74f526972b47c371de903d2a3d
+ms.openlocfilehash: fa5246aad79b9441b973cf864233ca8cfe0da7fa
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "87769612"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87950548"
 ---
 # <a name="stretch-cluster-replication-using-shared-storage"></a>Репликация растянутого кластера с помощью общего хранилища
 
@@ -182,7 +180,7 @@ ms.locfileid: "87769612"
    7. Добавьте интернет-хранилище в пустую роль с именем **New Role (2)** (Новая роль (2)).
    8. Теперь, когда установлены все хранилища с буквами дисков, можно оценить кластер с помощью `Test-SRTopology`.
 
-        Пример:
+        Например:
 
         ```
         MD c:\temp
@@ -250,7 +248,7 @@ ms.locfileid: "87769612"
    Set-ClusterResourceDependency -Resource “Cluster Name” -Dependency “[Cluster IP Address] or [NewIPAddress]”
    ```
 
-3. Настройте файловый ресурс-свидетель или облако-свидетель Azure в кластере, который указывает на общий ресурс, размещенный в контроллере домена или на другом независимом сервере. Пример:
+3. Настройте файловый ресурс-свидетель или облако-свидетель Azure в кластере, который указывает на общий ресурс, размещенный в контроллере домена или на другом независимом сервере. Например:
 
    ```PowerShell
    Set-ClusterQuorum -FileShareWitness \\someserver\someshare
@@ -391,7 +389,7 @@ ms.locfileid: "87769612"
     ```
 
 
-3. Настройте файловый ресурс-свидетель или облако-свидетель Azure в кластере, который указывает на общий ресурс, размещенный в контроллере домена или на другом независимом сервере. Пример:
+3. Настройте файловый ресурс-свидетель или облако-свидетель Azure в кластере, который указывает на общий ресурс, размещенный в контроллере домена или на другом независимом сервере. Например:
 
     ```PowerShell
     Set-ClusterQuorum -FileShareWitness \\someserver\someshare
@@ -408,7 +406,7 @@ ms.locfileid: "87769612"
 
 5. Убедитесь, что сеть кластера настроена оптимально.
 
-6.  Настройте роль файлового сервера. Пример:
+6.  Настройте роль файлового сервера. Например:
 
     ```PowerShell
     Get-ClusterResource
@@ -479,7 +477,7 @@ ms.locfileid: "87769612"
 
         1.  На исходном сервере выберите **Приложения и службы\Майкрософт\Windows\StorageReplica\Администратор** и просмотрите события 5015, 5002, 5004, 1237, 5001 и 2200.
 
-        2.  На конечном сервере выберите **Приложения и службы\Майкрософт\Windows\StorageReplica\Операционное** и дождитесь события 1215. Это событие сообщает количество скопированных байтов и время выполнения. Пример.
+        2.  На конечном сервере выберите **Приложения и службы\Майкрософт\Windows\StorageReplica\Операционное** и дождитесь события 1215. Это событие сообщает количество скопированных байтов и время выполнения. Пример
 
             ```
             Log Name:      Microsoft-Windows-StorageReplica/Operational
@@ -579,7 +577,7 @@ ms.locfileid: "87769612"
         Get-WinEvent -ProviderName Microsoft-Windows-StorageReplica -max 20
         ```
 
-    2.  На конечном сервере выполните следующую команду для просмотра событий реплики хранилища, которые показывают создание партнерства. Это событие сообщает количество скопированных байтов и время выполнения. Пример.
+    2.  На конечном сервере выполните следующую команду для просмотра событий реплики хранилища, которые показывают создание партнерства. Это событие сообщает количество скопированных байтов и время выполнения. Пример
 
         ```
         Get-WinEvent -ProviderName Microsoft-Windows-StorageReplica | Where-Object {$_.ID -eq "1215"} | fl
@@ -607,7 +605,7 @@ ms.locfileid: "87769612"
         Get-WinEvent -ProviderName Microsoft-Windows-StorageReplica | FL
         ```
 
-    4.  Кроме того, группа конечных серверов для реплики постоянно сообщает количество оставшихся байтов для копирования, и эти сведения можно запрашивать через PowerShell. Пример:
+    4.  Кроме того, группа конечных серверов для реплики постоянно сообщает количество оставшихся байтов для копирования, и эти сведения можно запрашивать через PowerShell. Например:
 
         ```PowerShell
         (Get-SRGroup).Replicas | Select-Object numofbytesremaining
@@ -802,6 +800,6 @@ ms.locfileid: "87769612"
 - [Реплика хранилища: известные проблемы](storage-replica-known-issues.md)
 - [Реплика хранилища: вопросы и ответы](storage-replica-frequently-asked-questions.md)
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также:
 - [Windows Server 2016](../../get-started/windows-server-2016.md)
 - [Локальные дисковые пространства в Windows Server 2016](../storage-spaces/storage-spaces-direct-overview.md)

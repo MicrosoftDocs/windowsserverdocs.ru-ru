@@ -1,18 +1,16 @@
 ---
 title: Общие сведения о дисковых пространствах
-ms.prod: windows-server
 ms.author: jgerend
 manager: dougkim
-ms.technology: storage-file-systems
 ms.topic: article
 author: jasongerend
 ms.date: 05/22/2018
-ms.openlocfilehash: 60cb186cda440c96eecade92e63a7e7ed9e509bb
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: a2423d83847494224febe5c28cd73935ca3a95ec
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86962066"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87935743"
 ---
 # <a name="storage-spaces-overview"></a>Общие сведения о дисковых пространствах
 

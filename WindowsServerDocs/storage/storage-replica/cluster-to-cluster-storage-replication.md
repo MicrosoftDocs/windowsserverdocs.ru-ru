@@ -1,20 +1,18 @@
 ---
 title: Межкластерная репликация хранилища
-ms.prod: windows-server
 manager: siroy
 ms.author: nedpyle
-ms.technology: storage-replica
 ms.topic: get-started-article
 ms.assetid: 834e8542-a67a-4ba0-9841-8a57727ef876
 author: nedpyle
 ms.date: 04/26/2019
 description: Использование реплики хранилища для репликации томов в одном кластере в другой кластер под Windows Server.
-ms.openlocfilehash: d99a7ebf933427e8e065f72261816610e62a433d
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 5de25151f0b49ac9cbf9d6be793c2ba0c6efb165
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86961246"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87950478"
 ---
 # <a name="cluster-to-cluster-storage-replication"></a>Межкластерная репликация хранилища
 
@@ -41,7 +39,7 @@ ms.locfileid: "86961246"
 
 **РИС 1. Межкластерная репликация**
 
-## <a name="prerequisites"></a>Обязательные условия
+## <a name="prerequisites"></a>Предварительные требования
 
 * Лес доменных служб Active Directory (не обязательно под управлением Windows Server 2016).
 * 4-128 серверы (два кластера серверов 2-64) под Windows Server 2019 или Windows Server 2016, Datacenter Edition. Если вы используете Windows Server 2019, вы можете использовать выпуск Standard Edition, если вы нормально реплицируете только один том размером до 2 ТБ.
@@ -194,7 +192,7 @@ ms.locfileid: "86961246"
     New-Cluster -Name SR-SRVCLUSB -Node SR-SRV03,SR-SRV04 -StaticAddress <your IP here>
     ```
 
-3.  Настройте файловый ресурс-свидетель или облачный свидетель (Azure) в каждом кластере, который указывает на общий ресурс, размещенный на контроллере домена или другом независимом сервере. Например.
+3.  Настройте файловый ресурс-свидетель или облачный свидетель (Azure) в каждом кластере, который указывает на общий ресурс, размещенный на контроллере домена или другом независимом сервере. Например:
 
     ```PowerShell
     Set-ClusterQuorum -FileShareWitness \\someserver\someshare
@@ -247,7 +245,7 @@ ms.locfileid: "86961246"
        ```PowerShell
        Get-WinEvent -ProviderName Microsoft-Windows-StorageReplica -max 20
        ```
-   2.  На конечном сервере выполните следующую команду для просмотра событий реплики хранилища, которые показывают создание партнерства. Это событие сообщает количество скопированных байтов и время выполнения. Пример.
+   2.  На конечном сервере выполните следующую команду для просмотра событий реплики хранилища, которые показывают создание партнерства. Это событие сообщает количество скопированных байтов и время выполнения. Пример
 
        ```powershell
        Get-WinEvent -ProviderName Microsoft-Windows-StorageReplica | Where-Object {$_.ID -eq "1215"} | Format-List
@@ -271,7 +269,7 @@ ms.locfileid: "86961246"
            Number of Bytes Recovered: 68583161856
            Elapsed Time (seconds): 117
        ```
-   3. Кроме того, группа конечных серверов для реплики постоянно сообщает количество оставшихся байтов для копирования, и эти сведения можно запрашивать через PowerShell. Например.
+   3. Кроме того, группа конечных серверов для реплики постоянно сообщает количество оставшихся байтов для копирования, и эти сведения можно запрашивать через PowerShell. Например:
 
       ```PowerShell
       (Get-SRGroup).Replicas | Select-Object numofbytesremaining

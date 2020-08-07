@@ -2,22 +2,20 @@
 title: Управление ресурсами удаленного хранилища
 description: В этой статье описывается, как управлять ресурсами хранилища на удаленном компьютере
 ms.date: 7/7/2017
-ms.prod: windows-server
-ms.technology: storage
 ms.topic: article
 author: JasonGerend
 manager: brianlic
 ms.author: jgerend
-ms.openlocfilehash: 5c6dc9c931e130e36e01655de05fbd209f50f3dc
-ms.sourcegitcommit: 6aff3d88ff22ea141a6ea6572a5ad8dd6321f199
+ms.openlocfilehash: 8498d55cbdeab609bb3526c9ef884e330148d714
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71394084"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87950638"
 ---
 # <a name="managing-remote-storage-resources"></a>Управление ресурсами удаленного хранилища
 
-> Относится к: Windows Server 2019, Windows Server 2016, Windows Server (половина ежегодного канала), Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2
+> Область применения: Windows Server 2019, Windows Server 2016, Windows Server (половина ежегодного канала), Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2
 
 Существует два способа управления ресурсами на удаленном компьютере.
 
@@ -29,12 +27,12 @@ ms.locfileid: "71394084"
 > [!Note]
 > Диспетчер ресурсов файлового сервера может управлять ресурсами на локальном или удаленном компьютере, однако не на обоих одновременно.
 
-Например, вы можете:
+Например, с их помощью можно выполнять следующее.
 
 -   Подключиться к другому компьютеру в домене с помощью оснастки MMC диспетчера ресурсов файлового сервера и просмотреть использование пространства хранилища на томе или папке, которые расположены на удаленном компьютере.
 -   Создать квоту и шаблоны фильтра блокировки файлов на локальном сервере, а затем использовать средства командной строки для импорта этих шаблонов на файловый сервер, расположенный в филиале.
 
-Этот раздел содержит следующие темы:
+Этот раздел содержит следующие подразделы:
 
 -   [Подключение к удаленному компьютеру](connect-to-remote-computer.md)
 -   [Программы командной строки](command-line-tools.md)
