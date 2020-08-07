@@ -6,14 +6,12 @@ ms.author: joflore
 manager: mtillman
 ms.date: 05/31/2017
 ms.topic: article
-ms.prod: windows-server
-ms.technology: identity-adds
-ms.openlocfilehash: 84d28ffec35bdc5dce22d797cb830f8b75068013
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 14c82049171c25d24836ec3cbed35dfe592885f6
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86966056"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87969941"
 ---
 # <a name="active-directory-domain-services-overview"></a>Обзор доменных служб Active Directory
 
@@ -42,14 +40,14 @@ Active Directory также включает:
 
 ## <a name="understanding-active-directory"></a>Основные сведения о Active Directory
  В этом разделе приводятся ссылки на основные понятия Active Directory:
- 
-* [Технологии структуры и хранения Active Directory](/previous-versions/windows/it-pro/windows-server-2003/cc759186(v=ws.10))
-* [Роли контроллера домена](/previous-versions/windows/it-pro/windows-server-2003/cc786438(v=ws.10)) 
-* [Схема Active Directory](/previous-versions/windows/it-pro/windows-server-2008-r2-and-2008/cc771796(v=ws.10))
-* [Представление о довериях](/previous-versions/windows/it-pro/windows-server-2008-r2-and-2008/cc771568(v=ws.10)) 
-* [Технологии репликации Active Directory](/previous-versions/windows/it-pro/windows-server-2003/cc776877(v=ws.10)) 
-* [Технологии поиска и публикации Active Directory](/previous-versions/windows/it-pro/windows-server-2003/cc775686(v=ws.10)) 
-* [Взаимодействие с DNS и групповая политика](/previous-versions/windows/it-pro/windows-server-2008-r2-and-2008/dd197486(v=ws.10))
-* [Основные сведения о схеме](/previous-versions/windows/it-pro/windows-server-2003/cc759402(v=ws.10)) 
 
-Подробный список концепций Active Directory см. в разделе [Общие сведения о Active Directory](/previous-versions/windows/it-pro/windows-server-2003/cc781408(v=ws.10)). 
+* [Технологии структуры и хранения Active Directory](/previous-versions/windows/it-pro/windows-server-2003/cc759186(v=ws.10))
+* [Роли контроллера домена](/previous-versions/windows/it-pro/windows-server-2003/cc786438(v=ws.10))
+* [Схема Active Directory](/previous-versions/windows/it-pro/windows-server-2008-r2-and-2008/cc771796(v=ws.10))
+* [Представление о довериях](/previous-versions/windows/it-pro/windows-server-2008-r2-and-2008/cc771568(v=ws.10))
+* [Технологии репликации Active Directory](/previous-versions/windows/it-pro/windows-server-2003/cc776877(v=ws.10))
+* [Технологии поиска и публикации Active Directory](/previous-versions/windows/it-pro/windows-server-2003/cc775686(v=ws.10))
+* [Взаимодействие с DNS и групповая политика](/previous-versions/windows/it-pro/windows-server-2008-r2-and-2008/dd197486(v=ws.10))
+* [Основные сведения о схеме](/previous-versions/windows/it-pro/windows-server-2003/cc759402(v=ws.10))
+
+Подробный список концепций Active Directory см. в разделе [Общие сведения о Active Directory](/previous-versions/windows/it-pro/windows-server-2003/cc781408(v=ws.10)).

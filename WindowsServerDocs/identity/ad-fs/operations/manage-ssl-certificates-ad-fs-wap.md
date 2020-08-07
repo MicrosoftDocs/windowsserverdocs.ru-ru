@@ -7,14 +7,12 @@ ms.author: billmath
 manager: samueld
 ms.date: 10/02/2017
 ms.topic: article
-ms.prod: windows-server
-ms.technology: identity-adfs
-ms.openlocfilehash: a982df8ce7d1f335a1c2242f277b1983573c9ee1
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: cc48e3efc783665921519272443e86620dcd4d4a
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86954207"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87962478"
 ---
 # <a name="managing-ssl-certificates-in-ad-fs-and-wap-in-windows-server-2016"></a>Управление SSL-сертификатами в AD FS и WAP в Windows Server 2016
 
@@ -124,6 +122,6 @@ $cred = Get-Credential
 Install-WebApplicationProxy -FederationServiceTrustCredential $cred -CertificateThumbprint '<thumbprint of new cert>' -FederationServiceName 'fs.contoso.com'
 ```
 
-## <a name="additional-references"></a>Дополнительные ссылки  
+## <a name="additional-references"></a>Дополнительная справка
 * [Поддержка привязки альтернативного имени узла для аутентификации сертификата в AD FS](../operations/AD-FS-support-for-alternate-hostname-binding-for-certificate-authentication.md)
 * [Сведения о свойствах AD FS и KeySpec сертификата](../technical-reference/AD-FS-and-KeySpec-Property.md)

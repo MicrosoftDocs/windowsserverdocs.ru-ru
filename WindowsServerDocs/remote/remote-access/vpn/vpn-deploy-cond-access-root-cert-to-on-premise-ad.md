@@ -1,19 +1,17 @@
 ---
 title: Развертывание корневых сертификатов условного доступа в локальном домене AD
-ms.prod: windows-server
-ms.technology: networking-ras
 ms.topic: article
 ms.date: 06/28/2019
 ms.author: v-tea
 author: Teresa-MOTIV
 ms.localizationpriority: medium
 ms.reviewer: deverette
-ms.openlocfilehash: cc3e96ff0ea98acbfafef5aba37f4e20a103f029
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 7edae0ac84e6ea11720f786c8a5188ebc6e8a522
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86959666"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87970171"
 ---
 # <a name="step-74-deploy-conditional-access-root-certificates-to-on-premises-ad"></a>Шаг 7.4. Развертывание корневых сертификатов условного доступа в локальную службу AD
 
@@ -34,7 +32,7 @@ ms.locfileid: "86959666"
    >[!NOTE]
    >Для сред, в которых VPN-сервер не присоединен к домену Active Directory, корневые сертификаты облака необходимо добавить в хранилище _доверенных корневых центров сертификации_ вручную.
 
-   | Команда | Описание |
+   | Get-Help | Описание |
    | --- | --- |
    | `certutil -dspublish -f VpnCert.cer RootCA` | Создает два **корневых контейнера ЦС Microsoft VPN** в контейнерах **CN = AIA** и **CN =** Certificate и публикует каждый корневой сертификат в качестве значения атрибута _сохранить_ обоих контейнеров **корневого ЦС Microsoft VPN (GEN 1** ). |
    | `certutil -dspublish -f VpnCert.cer NTAuthCA` | Создает один контейнер **CN = нтаусцертификатес** в контейнерах **CN = AIA** и **CN = Certification** и публикует каждый корневой сертификат в качестве значения атрибута _сохранить_ контейнера **CN = нтаусцертификатес** . |
@@ -54,6 +52,6 @@ ms.locfileid: "86959666"
       - Контейнер AIA
       - Контейнер центров сертификации
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 [Шаг 7,5. Создание профилей поддержка vpnv2 на основе OMA-DM на устройствах Windows 10](vpn-create-oma-dm-based-vpnv2-profiles.md). на этом шаге можно создать профили поддержка vpnv2 на основе OMA-DM с помощью Intune, чтобы развернуть политику конфигурации VPN-устройства. Если вы хотите использовать Microsoft Endpoint Configuration Manager или скрипт PowerShell для создания профилей поддержка vpnv2, см. Дополнительные сведения в разделе [Параметры CSP поддержка vpnv2](/windows/client-management/mdm/vpnv2-csp) .

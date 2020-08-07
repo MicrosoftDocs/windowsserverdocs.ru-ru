@@ -5,15 +5,13 @@ author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.prod: windows-server
-ms.technology: identity-adfs
 ms.author: billmath
-ms.openlocfilehash: 1ff5e943554d8962157a6df08cbc734fb71b9d08
-ms.sourcegitcommit: 3632b72f63fe4e70eea6c2e97f17d54cb49566fd
+ms.openlocfilehash: b51e81411ba45727d009946435c17d6a5c4888c4
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87520053"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87945604"
 ---
 # <a name="checklist-creating-claim-rules-for-a-relying-party-trust"></a>Контрольный список: создание правил утверждений для отношений доверия с проверяющей стороной
 

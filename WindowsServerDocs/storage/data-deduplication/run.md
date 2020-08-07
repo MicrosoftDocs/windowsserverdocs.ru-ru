@@ -1,19 +1,17 @@
 ---
 ms.assetid: f15c02d7-1cbd-4eba-a571-0ea34ab93ef4
 title: Выполнение дедупликации данных
-ms.technology: storage-deduplication
-ms.prod: windows-server
 ms.topic: article
 author: wmgries
 manager: klaasl
 ms.author: wgries
 ms.date: 09/15/2016
-ms.openlocfilehash: f75a20a8b69a863209f6e782bd34e48d8c12fe91
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: f382d229458f27795c09e0377e0f0b23ef7b395b
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86962166"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87936235"
 ---
 # <a name="running-data-deduplication"></a>Выполнение дедупликации данных
 
@@ -42,7 +40,7 @@ Start-DedupJob -Type Optimization -Volume <Your-Volume-Here> -Memory 100 -Cores 
 * Для [задания сбора мусора](understand.md#job-info-gc) проверьте `LastGarbageCollectionResult` (0 = Успех), `LastGarbageCollectionResultMessage`, и `LastGarbageCollectionTime` (должны быть указаны последние).
 * Для [задания очистки целостности](understand.md#job-info-scrubbing) проверьте `LastScrubbingResult` (0 = Успех), `LastScrubbingResultMessage`, и `LastScrubbingTime` (должны быть указаны последние).
 
-> [!Note]  
+> [!Note]
 > Дополнительные сведения об успешном выполнении и невыполнении заданий можно найти в средстве просмотра событий Windows в разделе `\Applications and Services Logs\Windows\Deduplication\Operational`.
 
 ### <a name="optimization-rates"></a><a id="monitoring-dedup-optimization-rates"></a>Уровни оптимизации
@@ -61,9 +59,9 @@ Start-DedupJob -Type Optimization -Volume <Your-Volume-Here> -Memory 100 -Cores 
 Start-DedupJob -Type Unoptimization -Volume <Desired-Volume>
 ```
 
-> [!Important]  
+> [!Important]
 > Если том не имеет достаточно места для хранения неоптимизированных данных, задание отмены оптимизации завершится сбоем.
 
 ## <a name="frequently-asked-questions"></a><a id="faq"></a>Часто задаваемые вопросы
-**Существует ли какой-либо доступный пакет управления System Center Operations Manager для отслеживания дедупликации данных?**  
+**Существует ли какой-либо доступный пакет управления System Center Operations Manager для отслеживания дедупликации данных?**
 Да. Дедупликацию данных можно отслеживать при помощи пакета управления System Center для File Server. Дополнительные сведения см. в [руководстве по пакету управления System Center для File Server 2012 R2](https://download.microsoft.com/download/6/F/7/6F7A33B9-9383-48ED-9252-23C2C8AD1BDA/MPGuide_FileServer2012R2.doc).

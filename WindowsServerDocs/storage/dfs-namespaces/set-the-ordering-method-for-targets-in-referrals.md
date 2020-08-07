@@ -2,18 +2,16 @@
 title: Задание метода сортировки конечных объектов в ссылках
 description: В этой статье рассматривается, как задать метода сортировки для конечных объектов в ссылках.
 ms.date: 6/5/2017
-ms.prod: windows-server
-ms.technology: storage
 ms.topic: article
 author: JasonGerend
 manager: brianlic
 ms.author: jgerend
-ms.openlocfilehash: a993d53611382dcd0007bfecae95da6221cf6016
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: e448a12659ca7aa9fbc4230dce51df4fbcd7bcf0
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86966806"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87936107"
 ---
 # <a name="set-the-ordering-method-for-targets-in-referrals"></a>Задание метода сортировки конечных объектов в ссылках
 

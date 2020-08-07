@@ -1,20 +1,18 @@
 ---
 title: Основы DHCP (протокол динамического конфигурирования узлов)
 description: ''
-ms.prod: windows-server
 manager: dcscontentpm
-ms.technology: server-general
 ms.date: 5/26/2020
 ms.topic: troubleshoot
 author: Deland-Han
 ms.author: delhan
 ms.reviewer: ''
-ms.openlocfilehash: 5a3247fad961f4b2d1cf6e354c29706708c8e330
-ms.sourcegitcommit: 145cf75f89f4e7460e737861b7407b5cee7c6645
+ms.openlocfilehash: 445663569fca7182e5343dd6f7ac677fd7f87f3b
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "87409815"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87970061"
 ---
 # <a name="dhcp-dynamic-host-configuration-protocol-basics"></a>Основы DHCP (протокол динамического конфигурирования узлов)
 
@@ -449,6 +447,6 @@ DHCP: Discover (xid=3ED14752)
 
 Для просмотра сведений о IP-адресе в клиенте Windows или Windows для рабочих групп используйте служебную программу IPCONFIG. Если клиент является Windows 95, используйте WINIPCFG.
 
-## <a name="references"></a>Справочные материалы
+## <a name="references"></a>Ссылки
 
 Дополнительные сведения о DHCP см. в разделе RFC1541 и RFC2131. Документы RFC могут быть получены через Интернет на многочисленных сайтах, например: [http://www.rfc-editor.org/](http://www.rfc-editor.org/) и[http://www.tech-nic.qc.ca/](http://www.tech-nic.qc.ca/)

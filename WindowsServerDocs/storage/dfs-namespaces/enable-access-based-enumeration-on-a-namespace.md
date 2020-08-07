@@ -2,18 +2,16 @@
 title: Включение перечисления на основе доступа для пространства имен
 description: В этой статье рассматривается, как включить перечисление на основе доступа для пространства имен.
 ms.date: 6/5/2017
-ms.prod: windows-server
-ms.technology: storage
 ms.topic: article
 author: JasonGerend
 manager: brianlic
 ms.author: jgerend
-ms.openlocfilehash: 04b023a931f8d66205a07f05bb8d3e955f8b83ca
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 507af0f3cdd76ab7af59092f8f099225c113edaa
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86964076"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87936128"
 ---
 # <a name="enable-access-based-enumeration-on-a-namespace"></a>Включение перечисления на основе доступа для пространства имен
 
@@ -95,7 +93,7 @@ ms.locfileid: "86964076"
 3. Для выполнения дополнительных задач в командной строке используйте следующие команды:
 
 
-| Команда | Описание |
+| Get-Help | Описание |
 |---|---|
 |[Dfsutil property sd deny](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd759150(v=ws.11))|Запрещает группе или пользователю просмотр папки.|
 |[Dfsutil property sd reset](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd759150(v=ws.11)) |Удаляет с папки все разрешения.|

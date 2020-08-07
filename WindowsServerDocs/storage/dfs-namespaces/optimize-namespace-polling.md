@@ -2,18 +2,16 @@
 title: Оптимизация опроса пространства имен
 description: В этой статье рассматривается оптимизация опроса пространства имен для поддержания согласованности доменного пространства имен на всех серверах пространства имен.
 ms.date: 6/5/2017
-ms.prod: windows-server
-ms.technology: storage
 ms.topic: article
 author: JasonGerend
 manager: brianlic
 ms.author: jgerend
-ms.openlocfilehash: 4ffcf974bd809d1692e16d632153c213081041c4
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: cc14dd4f8d6cd833642b87caa32353d4f8940b05
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86961236"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87936139"
 ---
 # <a name="optimize-namespace-polling"></a>Оптимизация опроса пространства имен
 

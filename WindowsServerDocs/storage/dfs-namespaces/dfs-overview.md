@@ -1,19 +1,17 @@
 ---
 title: Обзор пространств имен DFS
-ms.prod: windows-server
 ms.author: jgerend
 manager: daveba
-ms.technology: storage
 ms.topic: article
 author: jasongerend
 ms.date: 06/07/2019
 description: В этом разделе описываются пространства имен DFS — служба роли в Windows Server, которая позволяет объединять общие папки, находящиеся на разных серверах, в одно или несколько логически структурированных пространств имен.
-ms.openlocfilehash: 71c7f4e90a6a224586c90890a456fdf6f061ddf2
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.openlocfilehash: 54f26a605c15ab683dbe51f768e82bce2c00a290
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87182280"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87936194"
 ---
 # <a name="dfs-namespaces-overview"></a>Обзор пространств имен DFS
 
@@ -45,7 +43,7 @@ ms.locfileid: "87182280"
 - Windows Server 2019
 - Windows Server 2016
 - Windows Server 2012 R2
-- Windows Server 2012
+- Windows Server 2012
 - Выпуски Windows Server 2008 R2 Datacenter и Enterprise
 - Windows Server (Semi-Annual Channel)
 

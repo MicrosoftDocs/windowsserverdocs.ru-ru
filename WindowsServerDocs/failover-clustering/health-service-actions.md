@@ -1,18 +1,16 @@
 ---
 title: служба работоспособности действия
-ms.prod: windows-server
 manager: eldenc
 ms.author: cosdar
-ms.technology: storage-health-service
 ms.topic: article
 author: cosmosdarwin
 ms.date: 08/14/2017
-ms.openlocfilehash: 541b5cbbc18d3ea8619f34d9bcc8aeb34fd0066b
-ms.sourcegitcommit: 771db070a3a924c8265944e21bf9bd85350dd93c
+ms.openlocfilehash: 16e8a27dc38b8908ffb7ccac94f3bcc15a5c956f
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85473131"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87945797"
 ---
 # <a name="health-service-actions"></a>служба работоспособности действия
 
@@ -32,7 +30,7 @@ ms.locfileid: "85473131"
 Get-StorageHealthAction
 ```
 
-### <a name="coverage"></a>Покрытие
+### <a name="coverage"></a>Охват
 
 В Windows Server 2016 командлет **Get-сторажехеалсактион** может возвращать следующие сведения:
 

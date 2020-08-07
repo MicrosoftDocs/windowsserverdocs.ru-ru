@@ -1,22 +1,20 @@
 ---
-title: Общие рекомендации по устранению неполадок DHCP
+title: Общие рекомендации по устранению неполадок с DHCP
 description: В этом артилцее представлены общие рекомендации по устранению неполадок DHCP.
-ms.prod: windows-server
 ms.service: na
 manager: dcscontentpm
-ms.technology: server-general
 ms.date: 5/26/2020
 ms.topic: article
 author: Deland-Han
 ms.author: delhan
-ms.openlocfilehash: c0460791fef2451722af09e8bbe08b51a605f01b
-ms.sourcegitcommit: ef089864980a1d4793a35cbf4cbdd02ce1962054
+ms.openlocfilehash: 92b76748153f19419733c32c08a24d48e53d5647
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84150162"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87970051"
 ---
-# <a name="general-guidance-to-troubleshoot-dhcp"></a>Общие рекомендации по устранению неполадок DHCP
+# <a name="general-guidance-to-troubleshoot-dhcp"></a>Общие рекомендации по устранению неполадок с DHCP
 
 Прежде чем начать устранение неполадок, проверьте следующие элементы. Они могут помочь найти основную причину проблемы.
 
@@ -26,7 +24,7 @@ ms.locfileid: "84150162"
 
   - Есть ли какие либо сообщения об ошибках?
 
-  - Был ли DHCP-сервер запущен ранее или он никогда не работал?  
+  - Был ли DHCP-сервер запущен ранее или он никогда не работал?
     Если он работал ранее, все изменилось до начала проблемы. Например, было ли установлено обновление? Было ли сделано изменение в инфраструктуре?
 
   - Проблема является постоянной или временной? Если это нерегулярное время, когда она была выполнена в последний раз?

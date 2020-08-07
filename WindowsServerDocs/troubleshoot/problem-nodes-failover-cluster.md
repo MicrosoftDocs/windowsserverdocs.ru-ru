@@ -1,17 +1,15 @@
 ---
 title: Проблема с удалением узла
 description: В этой статье описываются проблемы, возникающие при удалении узлов из активного членства отказоустойчивого кластера.
-ms.prod: windows-server
-ms.technology: server-general
 ms.date: 05/28/2020
 author: Deland-Han
 ms.author: delhan
-ms.openlocfilehash: 08f5e7ef2ddd0f11abee7d0f21b56c3d5a601d3d
-ms.sourcegitcommit: 5fac756c2c9920757e33ef0a68528cda0c85dd04
+ms.openlocfilehash: e69b110db8f631b74c89e046f724367b4d60dbad
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84306523"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87970041"
 ---
 # <a name="having-a-problem-with-nodes-being-removed-from-active-failover-cluster-membership"></a>Возникла проблема с узлами, удаляемыми из активного членства отказоустойчивого кластера
 
