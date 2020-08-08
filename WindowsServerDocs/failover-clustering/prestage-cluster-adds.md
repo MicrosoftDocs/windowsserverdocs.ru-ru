@@ -1,22 +1,20 @@
 ---
-title: Подготовка кластерных объектов-компьютеров в доменных службах Active Directory
+title: Предварительная настройка объектов компьютеров кластера в домен Active Directory Services
 description: Предварительная настройка объектов компьютеров кластера в службах домен Active Directory.
-ms.prod: windows-server
 ms.topic: article
 author: JasonGerend
 ms.author: jgerend
 manager: lizross
-ms.technology: storage-failover-clustering
 ms.date: 05/09/2019
 ms.localizationpriority: medium
-ms.openlocfilehash: c0d8efc1bdb5a2c3a653afbe61b211f94658101d
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.openlocfilehash: 1f9255b0f3ca85a2c128549fbe9dc2c01c870b1b
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87181730"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87990759"
 ---
-# <a name="prestage-cluster-computer-objects-in-active-directory-domain-services"></a>Подготовка кластерных объектов-компьютеров в доменных службах Active Directory
+# <a name="prestage-cluster-computer-objects-in-active-directory-domain-services"></a>Предварительная настройка объектов компьютеров кластера в домен Active Directory Services
 
 > Применяется к: Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
@@ -78,7 +76,7 @@ ms.locfileid: "87181730"
    ![Предоставление полного доступа пользователю или группе, которые будут создавать кластер](media/prestage-cluster-adds/granting-full-control-to-the-user-create-the-cluster.png)
 
    **Рис. 2. Предоставление полного доступа пользователю или группе, которые будут создавать кластер**
-6. Щелкните **ОК**.
+6. Нажмите кнопку **OK**.
 
 После завершения этого шага пользователь, которому вы предоставили разрешение, сможет создать отказоустойчивый кластер. Однако если CNO расположен в подразделении, до завершения вами шага 3 пользователь не сможет создавать кластерные роли, которые требуют точку доступа клиента.
 
@@ -132,11 +130,11 @@ ms.locfileid: "87181730"
 8. В диалоговом окне **Выбор: пользователь, компьютер, учетная запись службы или группы** выберите **типы объектов**, установите флажок **Компьютеры** и нажмите кнопку **ОК**.
 9. В разделе **Введите имена объектов для выбора**введите имя CNO, выберите **Проверить имена**и нажмите кнопку **ОК**. Если появится предупреждающее сообщение о том, что вы собираетесь добавить отключенный объект, нажмите кнопку **ОК**.
 10. Убедитесь, что CNO выделен, после чего рядом с полем **Полный доступ** установите флажок **Разрешить**.
-11. Щелкните **ОК**.
+11. Нажмите кнопку **OK**.
 
 Теперь администратор отказоустойчивого кластера может создать кластерную роль с точкой доступа клиента, которая соответствует подготовленному имени VCO, и подключить ресурсы.
 
 ## <a name="more-information"></a>Дополнительные сведения
 
-- [Отказоустойчивая кластеризация](failover-clustering.md)
+- [Отказоустойчивая кластеризация](./failover-clustering-overview.md)
 - [Настройка учетных записей кластеров в Active Directory](configure-ad-accounts.md)

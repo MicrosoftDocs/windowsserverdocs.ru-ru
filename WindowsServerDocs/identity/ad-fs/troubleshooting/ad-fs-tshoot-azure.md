@@ -6,14 +6,12 @@ ms.author: billmath
 manager: mtillman
 ms.date: 03/01/2018
 ms.topic: article
-ms.prod: windows-server
-ms.technology: identity-adfs
-ms.openlocfilehash: b66d688052398ba76b6721e8bab0d0878be4959a
-ms.sourcegitcommit: 3632b72f63fe4e70eea6c2e97f17d54cb49566fd
+ms.openlocfilehash: d7941733ff2191e94c6c1e380d4349585a5c98d3
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87517709"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87956181"
 ---
 # <a name="ad-fs-troubleshooting---azure-ad"></a>Устранение неполадок AD FS в Azure AD
 С ростом облака многие компании были перемещены на использование Azure AD для различных приложений и служб.  Федерацию с Azure AD стало стандартной практикой во многих организациях.  В этом документе рассматриваются некоторые аспекты устранения неполадок, возникающих в этой Федерации.  Некоторые статьи в общем документе по устранению неполадок по-прежнему относятся к интеграции с Azure, поэтому в этом документе основное внимание уделяется работе с Azure AD и AD FS взаимодействием.
@@ -75,7 +73,7 @@ ms.locfileid: "87517709"
 |Клиент транспортного уровня (TLS)|urn: Oasis: Names: TC: SAML: 2.0: AC: Classes: Тлсклиент
 |Сертификат X.509|urn: Oasis: Names: TC: SAML: 2.0: AC: Classes: X509
 |Встроенная проверка подлинности Windows|urn: Federation: Authentication: Windows|
-|Kerberos|urn: Oasis: Names: TC: SAML: 2.0: AC: Classes: Kerberos|
+|Kerberos;|urn: Oasis: Names: TC: SAML: 2.0: AC: Classes: Kerberos|
 
 Чтобы убедиться, что метод проверки подлинности поддерживается на уровне AD FS, проверьте следующее.
 

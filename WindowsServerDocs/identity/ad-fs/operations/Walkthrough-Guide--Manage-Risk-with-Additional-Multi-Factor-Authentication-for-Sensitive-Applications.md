@@ -6,14 +6,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.prod: windows-server
-ms.technology: identity-adfs
-ms.openlocfilehash: be9eaa7b742f554539fa5bbd08f46d47a347c1ad
-ms.sourcegitcommit: f305bc5f1c5a44dac62f4288450af19f351f9576
+ms.openlocfilehash: f651f60b5ba9e871a88a2df15d87b6819e851642
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "87118572"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87956291"
 ---
 # <a name="walkthrough-guide-manage-risk-with-additional-multi-factor-authentication-for-sensitive-applications"></a>Пошаговое руководство: управление рисками для уязвимых приложений с помощью дополнительной многофакторной проверки подлинности
 
@@ -136,7 +134,7 @@ ms.locfileid: "87118572"
 
     3.  **Каталог** — клиент Windows Azure Active Directory, с которым связан поставщик многофакторной идентификации. Этот параметр является необязательным, так как не требуется, чтобы поставщик был связан с Windows Azure Active Directory при обеспечении безопасности локальных приложений.
 
-7.  При нажатии кнопки "Создать" будет создан поставщик многофакторной проверки подлинности и появится сообщение:  "Поставщик многофакторной проверки подлинности успешно создан".  Нажмите кнопку **Ок**.
+7.  При нажатии кнопки "Создать" будет создан поставщик многофакторной проверки подлинности и появится сообщение:  "Поставщик многофакторной проверки подлинности успешно создан".  Нажмите кнопку **ОК**.
 
 Затем вы должны загрузить сервер Windows Azure Multi-Factor Authentication. Для этого можно открыть портал Windows Azure Multi-Factor Authentication через портал Windows Azure.
 
@@ -183,9 +181,9 @@ ms.locfileid: "87118572"
 
     > [!NOTE]
     > Мастер установки **адаптера AD FS для Многофакторной идентификации** создает группу безопасности под названием **Администраторы PhoneFactor** в Active Directory и добавляет учетную запись службы AD FS для вашей службы федерации в эту группу.
-    > 
+    >
     > Рекомендуется убедиться на контроллере домена, что группа **Администраторы PhoneFactor** действительно создана и что учетная запись службы AD FS входит в эту группу.
-    > 
+    >
     > При необходимости добавьте учетную запись службы AD FS в группу **Администраторы PhoneFactor** на контроллере домена вручную.
 
     Для получения дополнительной информации об установке адаптера AD FS перейдите по ссылке справки в правом верхнем углу интерфейса сервера Multi-Factor Authentication.
@@ -246,6 +244,6 @@ ms.locfileid: "87118572"
 
     Если в качестве дополнительного метода проверки подлинности была настроена Многофакторной идентификация Microsoft Azure, то текст сообщения по умолчанию будет следующим:**Для завершения проверки подлинности на ваш телефон будет произведен звонок.** Дополнительную информацию о входе с использованием Windows Azure Multi-Factor Authentication и об использовании различных вариантов для предпочтительного метода проверки см. в разделе [Обзор Windows Azure Multi-Factor Authentication](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn280950(v=ws.11)).
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также:
 [Управление рисками с помощью дополнительной многофакторной проверки подлинности для конфиденциальных приложений](../../ad-fs/operations/Manage-Risk-with-Additional-Multi-Factor-Authentication-for-Sensitive-Applications.md) 
  [Настройка лабораторной среды для AD FS в Windows Server 2012 R2](../../ad-fs/deployment/Set-up-the-lab-environment-for-AD-FS-in-Windows-Server-2012-R2.md)

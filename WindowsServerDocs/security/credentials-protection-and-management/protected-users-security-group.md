@@ -1,20 +1,18 @@
 ---
 title: Группа безопасности "Защищенные пользователи"
 description: Безопасность Windows Server
-ms.prod: windows-server
-ms.technology: security-credential-protection
 ms.topic: article
 ms.assetid: 1b0b5180-f65a-43ac-8ef3-66014116f296
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/12/2016
-ms.openlocfilehash: cd849486e441c8315daa95db351bcd214b929759
-ms.sourcegitcommit: 3632b72f63fe4e70eea6c2e97f17d54cb49566fd
+ms.openlocfilehash: 450279f5af907e4643f8ee8c1ea0ff36edd9aea5
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87518010"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87948697"
 ---
 # <a name="protected-users-security-group"></a>Группа безопасности "Защищенные пользователи"
 
@@ -58,13 +56,13 @@ ms.locfileid: "87518010"
 
 В следующей таблице описываются свойства группы защищенных пользователей.
 
-|Атрибут|Значение|
+|attribute|Значение|
 |-------|-----|
 |Известный SID/RID|S-1-5-21-<domain>-525|
 |Тип|Глобальный домен|
 |Контейнер по умолчанию|CN=Пользователи, DC=<domain>, DC=|
-|элементы по умолчанию;|None|
-|Является членом по умолчанию.|None|
+|элементы по умолчанию;|Нет|
+|Является членом по умолчанию.|Нет|
 |Защита через ADMINSDHOLDER?|Нет|
 |Безопасно ли выходить за пределы контейнера по умолчанию?|да|
 |Безопасно ли делегировать управление этой группой не администраторам службы?|Нет|
@@ -110,7 +108,7 @@ ms.locfileid: "87518010"
 
 Подробную информацию см. в разделе [Настройка защищенных учетных записей](https://docs.microsoft.com/windows-server/identity/ad-ds/manage/how-to-configure-protected-accounts).
 
-## <a name="troubleshooting"></a>Устранение неполадок
+## <a name="troubleshooting"></a>Диагностика
 Для исправления событий, связанных с защищенными пользователями, имеется два операционных административных журнала. Эти новые журналы находятся в Просмотр событий и отключены по умолчанию и находятся в папке **Applications and Services логс\микрософт\виндовс\аусентикатион**.
 
 |Идентификатор события и журнал|Описание|

@@ -6,19 +6,17 @@ ms.author: billmath
 manager: mtillman
 ms.date: 02/22/2018
 ms.topic: article
-ms.prod: windows-server
-ms.technology: identity-adfs
-ms.openlocfilehash: 2162937498a5c16ce33b67ba5e478d2a6bb1a687
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 9d0cc816ce27130867988f51a097456bb37faef0
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86964986"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87964951"
 ---
 # <a name="identity-delegation-scenario-with-ad-fs"></a>Сценарий делегирования удостоверений с AD FS
 
 
-[Начиная с .NET Framework 4,5, Windows Identity Foundation (WIF) полностью интегрирована в .NET Framework. Версия WIF, описанная в этом разделе, WIF 3,5, является устаревшей и должна использоваться только при разработке на .NET Framework 3,5 с пакетом обновления 1 (SP1) или .NET Framework 4. Дополнительные сведения о WIF в .NET Framework 4,5, также известном как WIF 4,5, см. в документации по Windows Identity Foundation в руководстве по разработке .NET Framework 4,5.] 
+[Начиная с .NET Framework 4,5, Windows Identity Foundation (WIF) полностью интегрирована в .NET Framework. Версия WIF, описанная в этом разделе, WIF 3,5, является устаревшей и должна использоваться только при разработке на .NET Framework 3,5 с пакетом обновления 1 (SP1) или .NET Framework 4. Дополнительные сведения о WIF в .NET Framework 4,5, также известном как WIF 4,5, см. в документации по Windows Identity Foundation в руководстве по разработке .NET Framework 4,5.]
 
 В этом сценарии описывается приложение, которому требуется доступ к внутренним ресурсам, для которых требуется выполнение проверок управления доступом в цепочке делегирования удостоверений. Простая цепочка делегирования удостоверений обычно состоит из информации об исходном вызывающем объекте и идентификации непосредственных вызывающих объектов.
 
@@ -41,7 +39,7 @@ ms.locfileid: "86964986"
 - sts1: STS, который находится в роли поставщика утверждений, и выдает утверждения, ожидаемые приложением (web1). Он установил отношение доверия с Fabrikam.com, а также с приложением.
 - sts2: STS, который входит в роль поставщика удостоверений для Fabrikam.com и предоставляет конечную точку, которую сотрудник Fabrikam использует для проверки подлинности. Он установил отношение доверия с Contoso.com, чтобы сотрудники Fabrikam могли получать доступ к ресурсам в Contoso.com.
 
->[!NOTE] 
+>[!NOTE]
 >Термин "ActAs token", который часто используется в этом сценарии, относится к маркеру, выданному STS и содержащему удостоверение пользователя. Свойство Actor содержит удостоверение STS.
 
 Как показано на предыдущей схеме, последовательность в этом сценарии:
@@ -111,7 +109,7 @@ ChannelFactory<IService2Channel> factory = (ChannelFactory<IService2Channel>)App
 IService2Channel channel;
 lock (factory)
 {
-// Setup the ActAs to point to the caller's token so that we perform a 
+// Setup the ActAs to point to the caller's token so that we perform a
 // delegated call to the backend service
 // on behalf of the original caller.
     channel = factory.CreateChannelActingAs<IService2Channel>(callerToken);
@@ -136,7 +134,7 @@ try
 ```
 ## <a name="web-service-specific-changes"></a>Изменения, относящиеся к веб-службе
 
-Так как веб-служба построена с помощью WCF и включена для WIF, после настройки привязки с помощью Иссуедсекурититокенпараметерс с правильным адресом издателя проверка ActAs автоматически обрабатывается WIF. 
+Так как веб-служба построена с помощью WCF и включена для WIF, после настройки привязки с помощью Иссуедсекурититокенпараметерс с правильным адресом издателя проверка ActAs автоматически обрабатывается WIF.
 
 Веб-служба предоставляет конкретные методы, необходимые для приложения. Для службы не требуются конкретные изменения кода. В следующем примере кода показана конфигурация веб-службы с помощью Иссуедсекурититокенпараметерс:
 
@@ -182,5 +180,5 @@ using ( ServiceHost host = new ServiceHost( typeof( Service2 ), new Uri( "http:/
 }
 ```
 
-## <a name="next-steps"></a>Дальнейшие шаги
-[Разработка AD FS](../../ad-fs/AD-FS-Development.md)  
+## <a name="next-steps"></a>Next Steps
+[Разработка AD FS](../../ad-fs/AD-FS-Development.md)

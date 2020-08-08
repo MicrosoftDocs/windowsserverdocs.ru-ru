@@ -2,19 +2,17 @@
 title: Общие сведения о кластерном обновлении
 description: Обновление с поддержкой кластера (CAU) автоматизирует установку обновлений программного обеспечения в кластерах под управлением Windows Server.
 ms.topic: article
-ms.prod: windows-server
 manager: lizross
 author: JasonGerend
 ms.author: jgerend
-ms.technology: storage-failover-clustering
 ms.date: 08/06/2018
 ms.assetid: 3c2993b4-aa81-452b-a5c3-3724ad95d892
-ms.openlocfilehash: a889e19947d014bc2008417f64f6be5cc53112e6
-ms.sourcegitcommit: 145cf75f89f4e7460e737861b7407b5cee7c6645
+ms.openlocfilehash: defec4b34dfd0e2efa5724e499330c79b993bb60
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "87409895"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87990807"
 ---
 # <a name="cluster-aware-updating-overview"></a>Общие сведения о кластерном обновлении
 
@@ -80,7 +78,7 @@ CAU можно использовать во всех выпусках Windows S
 
 Для установки компонента "Средство отказоустойчивости кластеров" можно использовать следующие средства:
 - Мастер добавления ролей и компонентов в диспетчере сервера
-- [Install-WindowsFeature](https://docs.microsoft.com/powershell/module/servermanager/Install-WindowsFeature?view=winserver2012r2-ps&viewFallbackFrom=win10-ps)   Командлет Windows PowerShell
+- [Install-WindowsFeature](/powershell/module/servermanager/Install-WindowsFeature?view=winserver2012r2-ps&viewFallbackFrom=win10-ps)   Командлет Windows PowerShell
 - Программа командной строки "Система обслуживания образов развертывания и управления ими" (DISM)
 
 Дополнительные сведения см. [в разделе Установка компонента отказоустойчивой кластеризации](create-failover-cluster.md#install-the-failover-clustering-feature).
@@ -101,9 +99,9 @@ CAU можно использовать во всех выпусках Windows S
 ### <a name="enabling-self-updating-mode"></a>Включение режима самообновления
 Чтобы включить режим самообновления, необходимо добавить кластерную роль обновления с поддержкой кластера в отказоустойчивый кластер. Для этого используйте один из следующих методов.
 - В Диспетчер сервера выберите **инструменты**  >  **обновление с поддержкой кластера**, а затем в окне кластерное обновление выберите **настроить параметры самостоятельного обновления кластера**.
-- В сеансе PowerShell выполните командлет [Add-кауклустерроле](https://docs.microsoft.com/powershell/module/clusterawareupdating/Add-CauClusterRole?view=win10-ps) .
+- В сеансе PowerShell выполните командлет [Add-кауклустерроле](/powershell/module/clusterawareupdating/Add-CauClusterRole?view=win10-ps) .
 
-Чтобы удалить CAU, удалите компонент отказоустойчивой кластеризации или средства отказоустойчивой кластеризации с помощью диспетчер сервера, командлета [uninstall-WindowsFeature](https://docs.microsoft.com/powershell/module/servermanager/Uninstall-WindowsFeature?view=win10-ps) или \- средств командной строки DISM.
+Чтобы удалить CAU, удалите компонент отказоустойчивой кластеризации или средства отказоустойчивой кластеризации с помощью диспетчер сервера, командлета [uninstall-WindowsFeature](/powershell/module/servermanager/Uninstall-WindowsFeature?view=win10-ps) или \- средств командной строки DISM.
 
 ### <a name="additional-requirements-and-best-practices"></a>Дополнительные требования и рекомендации
 
@@ -134,8 +132,6 @@ CAU можно использовать во всех выпусках Windows S
 
 -   [Как работают подключаемые модули CAU \-](cluster-aware-updating-plug-ins.md)
 
--   [\-Командлеты обновления с поддержкой кластера в Windows PowerShell](https://docs.microsoft.com/powershell/module/clusterawareupdating/?view=win10-ps&viewFallbackFrom=winserverr2-ps)
+-   [\-Командлеты обновления с поддержкой кластера в Windows PowerShell](/powershell/module/clusterawareupdating/?view=win10-ps&viewFallbackFrom=winserverr2-ps)
 
 -   [\-Справочник по подключаемому модулю обновления с поддержкой кластера \-](/previous-versions/windows/desktop/mscs/cluster-aware-update-plug-in-interfaces-and-classes)
-
-

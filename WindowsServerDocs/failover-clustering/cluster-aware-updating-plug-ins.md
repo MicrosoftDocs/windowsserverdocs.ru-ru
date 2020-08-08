@@ -3,18 +3,16 @@ ms.assetid: d44d4430-41e2-483a-9685-92610cdef32a
 title: Как работают подключаемые модули обновления с поддержкой кластера
 description: Как использовать подключаемые модули для координации обновлений при использовании кластерного обновления в Windows Server для установки обновлений в кластере.
 ms.topic: article
-ms.prod: windows-server
 manager: lizross
 ms.author: jgerend
 author: JasonGerend
 ms.date: 04/28/2017
-ms.technology: storage-failover-clustering
-ms.openlocfilehash: ac09163eb40045289a68287aa3eace20ff714d09
-ms.sourcegitcommit: 145cf75f89f4e7460e737861b7407b5cee7c6645
+ms.openlocfilehash: 42ba496ce0d62a6a911f762f6ea7330001fb9031
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "87409584"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87990890"
 ---
 # <a name="how-cluster-aware-updating-plug-ins-work"></a>Как работают подключаемые модули обновления с поддержкой кластера
 
@@ -48,10 +46,10 @@ ms.locfileid: "87409584"
 
 |Командлет|Описание|
 |----------|---------------|
-|[Add-CauClusterRole](https://docs.microsoft.com/powershell/module/clusterawareupdating/add-cauclusterrole)|Добавляет кластерную роль CAU, которая предоставляет функции самостоятельного \- обновления в указанный кластер.|
-|[Invoke-CauRun](https://docs.microsoft.com/powershell/module/clusterawareupdating/invoke-caurun)|Проверяет наличие обновлений для узлов кластера и устанавливает их посредством прогона обновления в указанном кластере.|
-|[Invoke-CauScan](https://docs.microsoft.com/powershell/module/clusterawareupdating/invoke-causcan)|Проверяет наличие обновлений для узлов кластера и возвращает список начального набора обновлений, которые будут применены к каждому узлу указанного кластера.|
-|[Set-CauClusterRole](https://docs.microsoft.com/powershell/module/clusterawareupdating/set-cauclusterrole)|Задает свойства конфигурации для кластерной роли CAU в указанном кластере.|
+|[Add-CauClusterRole](/powershell/module/clusterawareupdating/add-cauclusterrole)|Добавляет кластерную роль CAU, которая предоставляет функции самостоятельного \- обновления в указанный кластер.|
+|[Invoke-CauRun](/powershell/module/clusterawareupdating/invoke-caurun)|Проверяет наличие обновлений для узлов кластера и устанавливает их посредством прогона обновления в указанном кластере.|
+|[Invoke-CauScan](/powershell/module/clusterawareupdating/invoke-causcan)|Проверяет наличие обновлений для узлов кластера и возвращает список начального набора обновлений, которые будут применены к каждому узлу указанного кластера.|
+|[Set-CauClusterRole](/powershell/module/clusterawareupdating/set-cauclusterrole)|Задает свойства конфигурации для кластерной роли CAU в указанном кластере.|
 
 Если параметр подключаемого модуля CAU не указан с \- помощью этих командлетов, по умолчанию используется подключаемый \- модуль **Microsoft. виндовсупдатеплугин**.
 
@@ -83,9 +81,9 @@ ms.locfileid: "87409584"
 
 |Командлет|Описание|
 |----------|---------------|
-|[Get-CauPlugin](https://docs.microsoft.com/powershell/module/clusterawareupdating/get-cauplugin)|Извлекает сведения об одном или нескольких подключаемых модулях обновления программного обеспечения \- , зарегистрированных на локальном компьютере.|
-|[Register-CauPlugin](https://docs.microsoft.com/powershell/module/clusterawareupdating/register-cauplugin)|Регистрирует подключаемый модуль обновления программного обеспечения CAU \- на локальном компьютере.|
-|[Unregister-CauPlugin](https://docs.microsoft.com/powershell/module/clusterawareupdating/unregister-cauplugin)|Удаляет подключаемый модуль обновления программного обеспечения \- из списка подключаемых модулей \- , которые могут использоваться в Cau. **Примечание.** \-Не удается отменить регистрацию подключаемых модулей, установленных с помощью Cau \( **Microsoft. виндовсупдатеплугин** и **Microsoft. хотфиксплугин** \) .|
+|[Get-CauPlugin](/powershell/module/clusterawareupdating/get-cauplugin)|Извлекает сведения об одном или нескольких подключаемых модулях обновления программного обеспечения \- , зарегистрированных на локальном компьютере.|
+|[Register-CauPlugin](/powershell/module/clusterawareupdating/register-cauplugin)|Регистрирует подключаемый модуль обновления программного обеспечения CAU \- на локальном компьютере.|
+|[Unregister-CauPlugin](/powershell/module/clusterawareupdating/unregister-cauplugin)|Удаляет подключаемый модуль обновления программного обеспечения \- из списка подключаемых модулей \- , которые могут использоваться в Cau. **Примечание.** \-Не удается отменить регистрацию подключаемых модулей, установленных с помощью Cau \( **Microsoft. виндовсупдатеплугин** и **Microsoft. хотфиксплугин** \) .|
 
 ## <a name="using-the-microsoftwindowsupdateplugin"></a><a name="BKMK_WUP"></a>Использование Microsoft. Виндовсупдатеплугин
 
@@ -406,7 +404,6 @@ ms.locfileid: "87409584"
 
 -   [Обзор обновления с поддержкой кластера](cluster-aware-updating.md)
 
--   [Командлеты Windows PowerShell для обновления с поддержкой кластера](https://docs.microsoft.com/powershell/module/clusterawareupdating)
+-   [Командлеты Windows PowerShell для обновления с поддержкой кластера](/powershell/module/clusterawareupdating)
 
--   [Справочник по подключаемым модулям для кластерного обновления](https://msdn.microsoft.com/library/hh418084.aspx)
-
+-   [Справочник по подключаемым модулям для кластерного обновления](/previous-versions/windows/desktop/mscs/cluster-aware-update-plug-in-interfaces-and-classes)

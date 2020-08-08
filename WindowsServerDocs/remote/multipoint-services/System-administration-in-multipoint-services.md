@@ -7,12 +7,12 @@ ms.assetid: 8fce1bcf-5459-43a2-957e-c1bc1749bca2
 author: evaseydl
 manager: scottman
 ms.author: evas
-ms.openlocfilehash: f12a4e6241860906c7f593d1b51f11eddda857dd
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 5bacb4bdd7aefe65579f7d6d42fb54208ca34b0b
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87951569"
+ms.locfileid: "87990376"
 ---
 # <a name="system-administration-in-multipoint-services"></a>Системное администрирование в службах MultiPoint
 Прежде чем приступить к работе с системой служб MultiPoint, рекомендуется выполнить некоторые базовые задачи системного администрирования.
@@ -20,4 +20,4 @@ ms.locfileid: "87951569"
 Используйте следующие сведения:
 
 [Настройка защиты диска](Configure-Disk-Protection-in-MultiPoint-services.md) 
- [Установка резервной копии сервера на компьютере со службами MultiPoint](Install-Server-Backup-on-your-MultiPoint-services-computer.md)
+ [Установка резервной копии сервера на компьютере со службами MultiPoint](./install-server-backup-on-multipoint.md)

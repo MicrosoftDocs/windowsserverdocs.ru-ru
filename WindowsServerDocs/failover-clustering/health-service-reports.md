@@ -1,18 +1,16 @@
 ---
 title: Отчеты служба работоспособности
-ms.prod: windows-server
 manager: eldenc
 ms.author: cosdar
-ms.technology: storage-health-service
 ms.topic: article
 author: cosmosdarwin
 ms.date: 10/05/2017
-ms.openlocfilehash: a1aedd4dc48abb38c33679f219a6825c6a9141bb
-ms.sourcegitcommit: 771db070a3a924c8265944e21bf9bd85350dd93c
+ms.openlocfilehash: 1e6b11bc73ef34e5247ca43140d3e2122e77ab61
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85473031"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87990784"
 ---
 # <a name="health-service-reports"></a>Отчеты служба работоспособности
 
@@ -46,7 +44,7 @@ Get-StorageNode -Name <Name> | Get-StorageHealthReport -Count <Count>
 
 ## <a name="usage-in-net-and-c"></a>Использование в .NET и C #
 
-### <a name="connect"></a>Подключение
+### <a name="connect"></a>Подключить
 
 Чтобы запросить служба работоспособности, необходимо будет установить **CimSession** с кластером. Для этого вам потребуются некоторые вещи, которые доступны только в полной среде .NET. Это означает, что вы не можете сделать это непосредственно из веб-приложения или с мобильных приложений. В этих примерах кода будет использоваться язык C \# , самый простой выбор для этого уровня доступа к данным.
 
@@ -109,7 +107,7 @@ public void DiscoverObjects(CimSession Session)
 
 Это те же объекты, которые вы получаете в PowerShell с помощью таких командлетов, как **Get-сторажесубсистем**, **Get-стораженоде**и **Get-Volume**.
 
-Вы можете получить доступ ко всем тем же свойствам, описанным в статье [классы API управления хранением](https://msdn.microsoft.com/library/windows/desktop/hh830612(v=vs.85).aspx).
+Вы можете получить доступ ко всем тем же свойствам, описанным в статье [классы API управления хранением](/previous-versions/windows/desktop/stormgmt/storage-management-api-classes).
 
 ```
 using System.Diagnostics;
@@ -129,7 +127,7 @@ foreach (CimInstance Node in Nodes)
 
 ### <a name="iobserveronnext"></a>IObserver. OnNext ()
 
-В этом примере кода используется [шаблон разработки наблюдателя](https://msdn.microsoft.com/library/ee850490(v=vs.110).aspx) для реализации наблюдателя, метод **OnNext ()** которого будет вызываться при поступлении каждого нового образца метрик. Его метод **Oncompleteed ()** будет вызываться, если потоковая передача завершается. Например, вы можете использовать его для повторного запуска потоковой передачи, чтобы он продолжал работать в течение неограниченного времени.
+В этом примере кода используется [шаблон разработки наблюдателя](/dotnet/standard/events/observer-design-pattern) для реализации наблюдателя, метод **OnNext ()** которого будет вызываться при поступлении каждого нового образца метрик. Его метод **Oncompleteed ()** будет вызываться, если потоковая передача завершается. Например, вы можете использовать его для повторного запуска потоковой передачи, чтобы он продолжал работать в течение неограниченного времени.
 
 ```
 class MetricsObserver<T> : IObserver<T>
@@ -211,21 +209,21 @@ public void BeginStreamingMetrics(CimSession Session, CimInstance HealthService,
 
 Каждая метрика имеет только три свойства в каждой таблице.
 
-| **Свойство** | **Пример**       |
+| **Property** | **Пример**       |
 | -------------|-------------------|
-| Имя         | иолатенциавераже  |
+| name         | иолатенциавераже  |
 | Значение        | 0,00021           |
 | единиц(ы)        | 3                 |
 
 Единицы измерения = {0, 1, 2, 3, 4}, где 0 = "bytes", 1 = "BytesPerSecond", 2 = "CountPerSecond", 3 = "секунды" или 4 = "процент".
 
-## <a name="coverage"></a>Покрытие
+## <a name="coverage"></a>Охват
 
 Ниже приведены метрики, доступные для каждой области в Windows Server 2016.
 
 ### <a name="msft_storagesubsystem"></a>MSFT_StorageSubSystem
 
-| **имя**;                        | **единиц(ы)** |
+| **Имя**                        | **единиц(ы)** |
 |---------------------------------|-----------|
 | CPUUsage                        | 4         |
 | капаЦитифисикалпуледаваилабле | 0         |
@@ -249,7 +247,7 @@ public void BeginStreamingMetrics(CimSession Session, CimInstance HealthService,
 
 ### <a name="msft_storagenode"></a>MSFT_StorageNode
 
-| **имя**;            | **единиц(ы)** |
+| **Имя**            | **единиц(ы)** |
 |---------------------|-----------|
 | CPUUsage            | 4         |
 | иолатенциавераже    | 3         |
@@ -266,7 +264,7 @@ public void BeginStreamingMetrics(CimSession Session, CimInstance HealthService,
 
 ### <a name="msft_volume"></a>MSFT_Volume
 
-| **имя**;            | **единиц(ы)** |
+| **Имя**            | **единиц(ы)** |
 |---------------------|-----------|
 | капаЦитяваилабле   | 0         |
 | капаЦититотал       | 0         |

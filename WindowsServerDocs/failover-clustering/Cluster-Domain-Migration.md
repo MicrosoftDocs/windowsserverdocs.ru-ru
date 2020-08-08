@@ -1,20 +1,18 @@
 ---
 title: Миграция междоменного кластера в Windows Server 2016/2019
 description: В этой статье описывается перемещение кластера Windows Server 2019 из одного домена в другой.
-ms.prod: windows-server
 manager: eldenc
-ms.technology: failover-clustering
 ms.topic: article
 author: johnmarlin-msft
 ms.author: johnmar
 ms.date: 01/18/2019
 ms.localizationpriority: medium
-ms.openlocfilehash: 6062dd987a136bc2be67c09efbe399bb8fae24f6
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.openlocfilehash: 32f7e62fd08080f8b56c9c495f374d5c927454bb
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87178530"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87990968"
 ---
 # <a name="failover-cluster-domain-migration"></a>Миграция домена отказоустойчивого кластера
 
@@ -65,7 +63,7 @@ ms.locfileid: "87178530"
 2. Используйте [Мастер миграции кластера](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc754481(v=ws.10)) для переноса всех ресурсов в новый кластер. Напоминание, это не приводит к копированию данных, поэтому необходимо выполнить отдельно.
 3. Списание или уничтожение старого кластера.
 
-В обоих вариантах в новом кластере должны быть установлены все [приложения, поддерживающие кластер](https://technet.microsoft.com/aa369082(v=vs.90)) , все драйверы и, возможно, тестирование, чтобы убедиться, что все будет работать правильно.  Этот процесс занимает много времени, если необходимо также переместить данные.
+В обоих вариантах в новом кластере должны быть установлены все [приложения, поддерживающие кластер](/previous-versions/windows/desktop/mscs/cluster-aware-applications) , все драйверы и, возможно, тестирование, чтобы убедиться, что все будет работать правильно.  Этот процесс занимает много времени, если необходимо также переместить данные.
 
 ## <a name="windows-server-2019"></a>Windows Server 2019
 
@@ -140,4 +138,3 @@ ms.locfileid: "87178530"
 ```
 New-ClusternameAccount : Cluster name account cannot be created.  This cluster contains a file share witness with invalid permissions for a cluster of type AdministrativeAccesssPoint ActiveDirectoryAndDns. To proceed, delete the file share witness.  After this you can create the cluster name account and recreate the file share witness.  The new file share witness will be automatically created with valid permissions.
 ```
-

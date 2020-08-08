@@ -1,19 +1,17 @@
 ---
 title: Управление инфраструктурой с технологией Hyper-in с помощью центра администрирования Windows
 description: Управление инфраструктурой с технологией Hyper-in с помощью центра администрирования Windows (Project Хонолулу)
-ms.technology: manage
 ms.topic: article
 author: daniellee-msft
 ms.author: jol
 ms.date: 03/01/2019
 ms.localizationpriority: medium
-ms.prod: windows-server
-ms.openlocfilehash: 8344fcb01a5d527dfce46118121fbf7623636549
-ms.sourcegitcommit: 3632b72f63fe4e70eea6c2e97f17d54cb49566fd
+ms.openlocfilehash: a2fd0e688d33265119c8dcb915d485e953507c80
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87519673"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87990483"
 ---
 # <a name="manage-hyper-converged-infrastructure-with-windows-admin-center"></a>Управление инфраструктурой с технологией Hyper-in с помощью центра администрирования Windows
 
@@ -21,7 +19,7 @@ ms.locfileid: "87519673"
 
 ## <a name="what-is-hyper-converged-infrastructure"></a>Что такое инфраструктура с технологией Hyper-in
 
-Инфраструктура с выгрузкой Hyper-in объединяет определяемые программные ресурсы вычислений, хранения и сети в один кластер для обеспечения высокопроизводительной, экономичной и простой в использовании масштабируемой виртуализации. Эта возможность появилась в Windows Server 2016 с [Локальные дисковые пространства](https://docs.microsoft.com/windows-server/storage/storage-spaces/storage-spaces-direct-overview), [программно-определяемой сетью](https://docs.microsoft.com/windows-server/networking/sdn/software-defined-networking) и [Hyper-V](https://docs.microsoft.com/windows-server/virtualization/hyper-v/hyper-v-on-windows-server).
+Инфраструктура с выгрузкой Hyper-in объединяет определяемые программные ресурсы вычислений, хранения и сети в один кластер для обеспечения высокопроизводительной, экономичной и простой в использовании масштабируемой виртуализации. Эта возможность появилась в Windows Server 2016 с [Локальные дисковые пространства](../../../storage/storage-spaces/storage-spaces-direct-overview.md), [программно-определяемой сетью](../../../networking/sdn/software-defined-networking.md) и [Hyper-V](../../../virtualization/hyper-v/hyper-v-on-windows-server.md).
 
 > [!Tip]
 > Хотите приобрести инфраструктуру с технологией Hyper-in? Корпорация Майкрософт рекомендует для наших партнеров использовать [определенные программные решения Windows Server](https://microsoft.com/wssd) . Они разработаны, собраны и проверены в соответствии с эталонной архитектурой для обеспечения совместимости и надежности, что позволяет быстро приступить к работе.
@@ -289,6 +287,6 @@ ms.locfileid: "87519673"
 ### <a name="additional-references"></a>Дополнительные ссылки
 
 - [Windows Admin Center](../overview.md);
-- [Локальные дисковые пространства](https://docs.microsoft.com/windows-server/storage/storage-spaces/storage-spaces-direct-overview)
-- [Hyper-V](https://docs.microsoft.com/windows-server/virtualization/hyper-v/hyper-v-on-windows-server)
-- [Программно-конфигурируемая сеть](https://docs.microsoft.com/windows-server/networking/sdn/software-defined-networking)
+- [Локальные дисковые пространства](../../../storage/storage-spaces/storage-spaces-direct-overview.md)
+- [Hyper-V](../../../virtualization/hyper-v/hyper-v-on-windows-server.md)
+- [Программно-конфигурируемая сеть](../../../networking/sdn/software-defined-networking.md)

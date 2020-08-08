@@ -5,20 +5,19 @@ ms.author: delhan
 manager: dcscontentpm
 ms.date: 11/12/2019
 ms.topic: article
-ms.prod: windows-server
-ms.openlocfilehash: c4c74fc5fef01c21d5c1818c212c004786caca66
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.openlocfilehash: 5e8618853e28c6deef4a15e84361e339c70bf052
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87182220"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87940338"
 ---
 # <a name="configuring-certificate-enrollment-web-service-for-certificate-key-based-renewal-on-a-custom-port"></a>Настройка веб-службы регистрации сертификатов для продления на основе ключей сертификата через настраиваемый порт
 
 > Авторы: Житеш сакур, мира Мохидин, технические рекомендации с группой Windows.
 Инженер службы поддержки Анкит тяги с группой Windows
 
-## <a name="summary"></a>Итоги
+## <a name="summary"></a>Сводка
 
 В этой статье приводятся пошаговые инструкции по реализации веб-служба политик регистрации сертификатов (CEP) и веб-служба регистрации сертификатов (CES) на настраиваемом порту, отличном от 443, для продления на основе ключа сертификата, чтобы воспользоваться функцией автоматического продления CEP и CES.
 
@@ -223,7 +222,7 @@ Set-ADUser -Identity cepcessvc -Add @{'msDS-AllowedToDelegateTo'=@('HOST/CA1.con
 
    CN = ЕНТКА, CN = службы регистрации, CN = открытые ключи Services, CN = Services, CN = Configuration, DC = contoso, DC = com
 
-3. Щелкните правой кнопкой мыши и измените объект CA. Измените атрибут **мспки-регистрации-Servers** , используя пользовательский порт с URI сервера CEP и CES, которые были найдены в параметрах приложения. Пример:
+3. Щелкните правой кнопкой мыши и измените объект CA. Измените атрибут **мспки-регистрации-Servers** , используя пользовательский порт с URI сервера CEP и CES, которые были найдены в параметрах приложения. Например:
 
    ```
    140https://cepces.contoso.com:49999/ENTCA_CES_UsernamePassword/service.svc/CES0
@@ -234,7 +233,7 @@ Set-ADUser -Identity cepcessvc -Add @{'msDS-AllowedToDelegateTo'=@('HOST/CA1.con
 
 #### <a name="configure-the-client-computer"></a>Настройте клиентский компьютер.
 
-На клиентском компьютере настройте политики регистрации и политику автоматической регистрации. Для этого выполните следующие действия.
+На клиентском компьютере настройте политики регистрации и политику автоматической регистрации. Для этого выполните следующие действия:
 
 1. Выберите **Пуск**  >  **выполнить**и введите **gpedit. msc**.
 
@@ -313,7 +312,7 @@ certreq -machine -q -enroll -cert <thumbprint> renew
 
 [Install-Адксенроллментвебсервице](/powershell/module/adcsdeployment/install-adcsenrollmentwebservice?view=win10-ps)
 
-См. также раздел
+См. также статью
 
 [Форум по обеспечению безопасности Windows Server](https://aka.ms/adcsforum)
 

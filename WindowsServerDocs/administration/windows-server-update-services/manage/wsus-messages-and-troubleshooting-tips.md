@@ -7,12 +7,12 @@ author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 7ce07e38a3a8a07f97959e782fd22c1d5472d338
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: cf3d0337dfa7360bdf8304c587c4ea31b7607e27
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87896771"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87990963"
 ---
 # <a name="wsus-messages-and-troubleshooting-tips"></a>Сообщения служб WSUS и советы по диагностике
 
@@ -69,7 +69,7 @@ ms.locfileid: "87896771"
 
 ## <a name="some-services-are-not-running-check-the-following-services"></a>Некоторые службы не работают. Проверьте следующие службы:
 
-- **Selfupdate:** Дополнительные сведения об устранении неполадок службы selfupdate см. в статье [Автоматическое обновление необходимо обновить](https://technet.microsoft.com/library/cc708554(v=ws.10).aspx) .
+- **Selfupdate:** Дополнительные сведения об устранении неполадок службы selfupdate см. в статье [Автоматическое обновление необходимо обновить](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc708554(v=ws.10)) .
 
 - **WSSUService.exe:** Эта служба упрощает синхронизацию. При возникновении проблем с синхронизацией откройте WSUSService.exe, нажав кнопку **Пуск**, выбрав пункт **Администрирование**, затем **службы**и находясь в списке служб **Windows Server Update Service** . Выполните следующие действия:
 

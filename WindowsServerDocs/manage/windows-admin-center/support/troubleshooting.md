@@ -6,12 +6,12 @@ author: jwwool
 ms.author: jeffrew
 ms.localizationpriority: medium
 ms.date: 06/07/2019
-ms.openlocfilehash: a7ef7eb2acf9a641babf5690119c61f452aaabbc
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 76b171b81ff01a7a16b700d720bf289fefddf0f7
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87937623"
+ms.locfileid: "87990211"
 ---
 # <a name="troubleshooting-windows-admin-center"></a>Устранение неполадок в Windows Admin Center
 
@@ -69,7 +69,7 @@ ms.locfileid: "87937623"
 
 * [Проверьте версию Windows](#check-the-windows-version)
 * Добавили ли вы правило для портов входящего трафика HTTPS?
-* [Дополнительные сведения об установке Windows Admin Center на виртуальной машине Azure](https://docs.microsoft.com/windows-server/manage/windows-admin-center/configure/azure-integration#use-a-windows-admin-center-gateway-deployed-in-azure)
+* [Дополнительные сведения об установке Windows Admin Center на виртуальной машине Azure](../azure/azure-integration.md)
 
 ### <a name="check-the-windows-version"></a>Проверьте версию Windows
 
@@ -237,4 +237,3 @@ netsh http delete urlacl url=https://+:443/
 * [Версия](#check-the-windows-version) Windows AC на компьютере, который вы **пытаетесь отладить**:
 * Какой браузер вы используете?
     * Если вы используете Google Chrome, какая у него версия? (Справка > О Google Chrome)
-

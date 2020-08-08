@@ -7,12 +7,12 @@ ms.assetid: 8510a709-001c-4eee-b6d6-c451e8a8a836
 author: kbdazure
 ms.author: kathydav
 ms.date: 10/11/2016
-ms.openlocfilehash: dea2da2d0a10839fd9fe69dbb7b3974290b85975
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: e44a60becc84e3b376797bd64ffe433ce44b8c55
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87963620"
+ms.locfileid: "87990359"
 ---
 # <a name="configure-virtual-local-area-networks-for-hyper-v"></a>Настройка виртуальных локальных сетей для Hyper-V
 Виртуальные локальные сети виртуальных \( ЛС \) предлагают один из способов изолировать сетевой трафик. Виртуальные ЛС настраиваются в коммутаторах и маршрутизаторах, поддерживающих 802.1 q. Если вы настроили несколько виртуальных ЛС и хотите, чтобы между ними происходил обмен данными, необходимо настроить сетевые устройства, чтобы это разрешить.
@@ -50,8 +50,8 @@ ms.locfileid: "87963620"
 
 - Подключите другие виртуальные сетевые адаптеры к соответствующим виртуальным коммутаторам и назначьте идентификаторы виртуальных ЛС. Убедитесь, что правильно настроены IP-адреса и что трафик, который нужно маршрутизировать через виртуальную ЛС, также использует правильный IP-адрес.
 
-- Настройте виртуальный сетевой адаптер в режиме магистрали с помощью командлета [Set \- вмнетворкадаптервлан](https://technet.microsoft.com/library/hh848475.aspx) .
+- Настройте виртуальный сетевой адаптер в режиме магистрали с помощью командлета [Set \- вмнетворкадаптервлан](/powershell/module/hyper-v/set-vmnetworkadaptervlan?view=win10-ps) .
 
 ## <a name="see-also"></a>См. также:
 
-[\-Виртуальный коммутатор Hyper V](https://technet.microsoft.com/windows-server-docs/networking/technologies/hyper-v-virtual-switch/hyper-v-virtual-switch)
+[\-Виртуальный коммутатор Hyper V](../../hyper-v-virtual-switch/hyper-v-virtual-switch.md)

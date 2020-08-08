@@ -6,12 +6,12 @@ author: nwashburn-ms
 ms.author: niwashbu
 ms.localizationpriority: medium
 ms.date: 02/15/2019
-ms.openlocfilehash: f03e97cb4c318a65b0daf4034f0f0cfd6fe053bf
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: c824b2ae8c43be4b5b33b79ce9ddb75dd03c9a9e
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87964610"
+ms.locfileid: "87990531"
 ---
 # <a name="get-started-with-windows-admin-center"></a>Приступая к работе с центром администрирования Windows
 
@@ -115,7 +115,7 @@ ms.locfileid: "87964610"
 
 **Решение "пароль локального администратора" (Lap)**
 
-Если в вашей среде используется [Lap](https://technet.microsoft.com/mt227395.aspx)и на компьютере под управлением Windows 10 установлен центр администрирования Windows, для проверки подлинности на управляемом узле можно использовать учетные данные Lap. **Если вы используете этот сценарий, оставьте** [отзыв](https://aka.ms/WACFeedback).
+Если в вашей среде используется [Lap](/previous-versions/mt227395(v=msdn.10))и на компьютере под управлением Windows 10 установлен центр администрирования Windows, для проверки подлинности на управляемом узле можно использовать учетные данные Lap. **Если вы используете этот сценарий, оставьте** [отзыв](https://aka.ms/WACFeedback).
 
 ## <a name="using-tags-to-organize-your-connections"></a>Использование тегов для Организации подключений
 

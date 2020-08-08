@@ -1,27 +1,25 @@
 ---
 title: Пример использования пакета SDK для центра администрирования Windows — ККТ
 description: Пример использования пакета SDK для центра администрирования Windows — ККТ
-ms.technology: extend
 ms.topic: article
 author: daniellee-msft
 ms.author: jol
 ms.date: 06/14/2019
 ms.localizationpriority: medium
-ms.prod: windows-server
-ms.openlocfilehash: 2922bcdd08fac7bf2179a0ebbad37c7151d660b3
-ms.sourcegitcommit: 6aff3d88ff22ea141a6ea6572a5ad8dd6321f199
+ms.openlocfilehash: 13f23a46647ec6cc2d8c2813c426f6372ead39ca
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71357247"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87964674"
 ---
 # <a name="qct-management-suite-extension"></a>Расширение ККТ Management Suite
 
 ## <a name="a-simple-path-to-server-infrastructure-management"></a>Простой путь к управлению инфраструктурой сервера
 
-Расширение ККТ Management Suite для центра администрирования Windows предоставляет единую панель панели мониторинга для мониторинга конфигураций системы и управления работоспособностью сервера в [сертифицированных системах ккт Azure Stack хЦи](https://go.qct.io/solutions/enterprise-private-cloud/qxstack-windows-server-cloud-ready-appliances/windows-server-software-defined-solution-wssd/) . [КУАНТАГРИД D52BQ-2U](https://www.qct.io/product/index/Server/rackmount-server/2U-Rackmount-Server/QuantaGrid-D52BQ-2U), [КУАНТАГРИД D52T-1ULH](https://www.qct.io/product/index/Storage/Storage-Server/1U-Storage-Server/QuantaGrid-D52T-1ULH) и [куантаплекс T21P-4U](https://www.qct.io/product/index/Storage/Storage-Server/4U-Storage-Server/QuantaPlex-T21P-4U).
+Расширение ККТ Management Suite для центра администрирования Windows предоставляет единую панель панели мониторинга для мониторинга конфигураций системы и управления работоспособностью сервера [ккт Azure Stack хЦи сертифицированные системы](https://go.qct.io/solutions/enterprise-private-cloud/qxstack-windows-server-cloud-ready-appliances/windows-server-software-defined-solution-wssd/) : [Куантагрид D52BQ-2U](https://www.qct.io/product/index/Server/rackmount-server/2U-Rackmount-Server/QuantaGrid-D52BQ-2U), [Куантагрид D52T-1ULH](https://www.qct.io/product/index/Storage/Storage-Server/1U-Storage-Server/QuantaGrid-D52T-1ULH) и [куантаплекс T21P-4U](https://www.qct.io/product/index/Storage/Storage-Server/4U-Storage-Server/QuantaPlex-T21P-4U).
 
-С точки во взаимодействиях клиентов с существующими функциями мониторинга и управления ККТ предоставляет исключительные, дополняющие функции и возможности, в том числе общие сведения о журналах системных событий, драйверах мониторинга и работоспособности компонентов оборудования для улучшения общего интерфейс управления.
+С точки во взаимодействиях клиентов с существующими функциями мониторинга и управления ККТ предоставляет исключительные, дополняющие функции и возможности, в том числе общие сведения о журналах системных событий, драйверах мониторинга и работоспособности компонентов оборудования для повышения общей функциональности управления.
 
 ![Расширение ККТ](../../media/extend-case-study-qct/D52T_DarkMode_Disk-Detail-General.PNG)
 

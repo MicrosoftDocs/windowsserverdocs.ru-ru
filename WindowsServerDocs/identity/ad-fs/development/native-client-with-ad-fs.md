@@ -7,14 +7,12 @@ ms.reviewer: anandy
 manager: mtillman
 ms.date: 07/17/2018
 ms.topic: article
-ms.prod: windows-server
-ms.technology: active-directory-federation-services
-ms.openlocfilehash: cecffe6ae789c4a7c8c9ff382e83d84ade8ef018
-ms.sourcegitcommit: 3632b72f63fe4e70eea6c2e97f17d54cb49566fd
+ms.openlocfilehash: 0cfb91269e0a55524346d7189d728848d9c6e670
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87519853"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87940471"
 ---
 # <a name="build-a-native-client-application-using-oauth-public-clients-with-ad-fs-2016-or-later"></a>Создание собственного клиентского приложения с помощью общедоступных клиентов OAuth с AD FS 2016 или более поздней версии
 
@@ -88,11 +86,11 @@ git clone https://github.com/Azure-Samples/active-directory-dotnet-native-deskto
 
 **App.config**
 
-* Добавьте ключ **Ida: Authority** со значением, описывающим службу AD FS. Например https://fs.contoso.com/adfs/.
+* Добавьте ключ **Ida: Authority** со значением, описывающим службу AD FS. Например, https://fs.contoso.com/adfs/
 * Измените **Ida: ClientID** Key на значение из **идентификатора клиента** на странице **приложения Native** во время создания группы приложений в AD FS. Например, 3f07368b-6efd-4f50-A330-d93853f4c855
-* Измените значение **TODO: TODO: тодолистресаурцеид** со значением **идентификатора** на странице **Настройка веб-API** во время создания группы приложений в AD FS. Например https://localhost:44321/.
-* Измените значение **TODO: тодолистбасеаддресс** со значением **идентификатора** на странице **Настройка веб-API** во время создания группы приложений в AD FS. Например https://localhost:44321/.
-* Задайте значение **Ida: RedirectUri** со ЗНАЧЕНИЕМ из **URI перенаправления** на странице **приложения Native** во время создания группы приложений в AD FS. Например https://ToDoListClient.
+* Измените значение **TODO: TODO: тодолистресаурцеид** со значением **идентификатора** на странице **Настройка веб-API** во время создания группы приложений в AD FS. Например, https://localhost:44321/
+* Измените значение **TODO: тодолистбасеаддресс** со значением **идентификатора** на странице **Настройка веб-API** во время создания группы приложений в AD FS. Например, https://localhost:44321/
+* Задайте значение **Ida: RedirectUri** со ЗНАЧЕНИЕМ из **URI перенаправления** на странице **приложения Native** во время создания группы приложений в AD FS. Например, https://ToDoListClient
 * Для удобства чтения можно удалить или закомментировать ключ для **Ida: клиент** и **Ida: аадинстанце**.
 
   ![Конфигурация приложения](media/native-client-with-ad-fs-2016/app_configfile.PNG)

@@ -7,12 +7,12 @@ author: coreyp-at-msft
 ms.author: coreyp
 manager: dougkim
 ms.date: 07/25/2018
-ms.openlocfilehash: edebd8ea11a844fbe6d00ca7ce7a6a375d8e9a51
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 7a5102ab622d051e87ca735e5a03f131d583838a
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87896867"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87991129"
 ---
 # <a name="migrating-the-wsus-database-from-wid-to-sql"></a>Миграция базы данных WSUS из WID в SQL
 
@@ -20,7 +20,7 @@ ms.locfileid: "87896867"
 
 Выполните следующие действия, чтобы перенести базу данных WSUS (SUSDB) из экземпляра внутренней базы данных Windows на локальный или удаленный экземпляр SQL Server.
 
-## <a name="prerequisites"></a>Предварительные условия
+## <a name="prerequisites"></a>Предварительные требования
 
 - Экземпляр SQL. Это может быть **MSSQLServer** или пользовательский экземпляр по умолчанию.
 - SQL Server Management Studio
@@ -78,7 +78,7 @@ ms.locfileid: "87896867"
     ![image4 ](images/image4.png) ![ image5](images/image5.png)
 
 > [!TIP]
-> Это также можно сделать с помощью Transact-SQL.  Дополнительные сведения о [присоединении базы данных](https://docs.microsoft.com/sql/relational-databases/databases/attach-a-database) см. в документации по SQL.
+> Это также можно сделать с помощью Transact-SQL.  Дополнительные сведения о [присоединении базы данных](/sql/relational-databases/databases/attach-a-database) см. в документации по SQL.
 >
 > Пример (использование путей из предыдущего примера):
 > ```sql

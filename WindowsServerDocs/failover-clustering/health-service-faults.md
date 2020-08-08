@@ -1,18 +1,16 @@
 ---
 title: Ошибки служба работоспособности
-ms.prod: windows-server
 manager: eldenc
 ms.author: cosdar
-ms.technology: storage-health-service
 ms.topic: article
 author: cosmosdarwin
 ms.date: 10/05/2017
-ms.openlocfilehash: de2e9939302c0b9937fb54b4082feeecf6de5295
-ms.sourcegitcommit: 771db070a3a924c8265944e21bf9bd85350dd93c
+ms.openlocfilehash: 5f35c52e6b4aaf382c80507ca562b52ce27da953
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85473111"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87990791"
 ---
 # <a name="health-service-faults"></a>Ошибки служба работоспособности
 
@@ -24,7 +22,7 @@ ms.locfileid: "85473111"
 
 Каждая ошибка содержит пять важных полей:
 
--   Severity
+-   Уровень серьезности
 -   Описание проблемы
 -   Рекомендуемые действия для устранения проблемы
 -   Сведения для идентификации сущности, вызвавшей сбой
@@ -72,7 +70,7 @@ Get-FileShare -Name <Name> | Debug-FileShare
 
 ## <a name="usage-in-net-and-c"></a>Использование в .NET и C #
 
-### <a name="connect"></a>Подключение
+### <a name="connect"></a>Подключить
 
 Чтобы запросить служба работоспособности, необходимо будет установить **CimSession** с кластером. Для этого вам потребуются некоторые вещи, которые доступны только в полной среде .NET. Это означает, что вы не можете сделать это непосредственно из веб-приложения или с мобильных приложений. В этих примерах кода будет использоваться язык C \# , самый простой выбор для этого уровня доступа к данным.
 
@@ -135,7 +133,7 @@ public void DiscoverObjects(CimSession Session)
 
 Это те же объекты, которые вы получаете в PowerShell с помощью таких командлетов, как **Get-сторажесубсистем**, **Get-стораженоде**и **Get-Volume**.
 
-Вы можете получить доступ ко всем тем же свойствам, описанным в статье [классы API управления хранением](https://msdn.microsoft.com/library/windows/desktop/hh830612(v=vs.85).aspx).
+Вы можете получить доступ ко всем тем же свойствам, описанным в статье [классы API управления хранением](/previous-versions/windows/desktop/stormgmt/storage-management-api-classes).
 
 ```
 using System.Diagnostics;
@@ -285,7 +283,7 @@ class FaultsObserver : IObserver
 
 В этой таблице представлено несколько ключевых свойств объекта fault. Для получения полной схемы изучите класс **MSFT \_ сторажедиагносересулт** в *сторажевми. mof*.
 
-| **Свойство**              | **Пример**                                                     |
+| **Property**              | **Пример**                                                     |
 |---------------------------|-----------------------------------------------------------------|
 | фаултид                   | {12345-12345-12345-12345-12345}                                 |
 | фаулттипе                 | Microsoft. Health. Фаулттипе. том. Capacity                      |
@@ -311,7 +309,7 @@ class FaultsObserver : IObserver
 
 Обратите внимание на **ChangeType**, который указывает, создается ли ошибка, удаляется или обновляется, и **фаултид**. Событие также содержит все свойства затронутой ошибки.
 
-| **Свойство**              | **Пример**                                                     |
+| **Property**              | **Пример**                                                     |
 |---------------------------|-----------------------------------------------------------------|
 | ChangeType                | 0                                                               |
 | фаултид                   | {12345-12345-12345-12345-12345}                                 |
@@ -324,7 +322,7 @@ class FaultsObserver : IObserver
 
 **ChangeType** ChangeType = {0, 1, 2} = {"Create", "Remove", "Update"}.
 
-## <a name="coverage"></a>Покрытие
+## <a name="coverage"></a>Охват
 
 В Windows Server 2016 служба работоспособности обеспечивает следующее покрытие ошибки:
 

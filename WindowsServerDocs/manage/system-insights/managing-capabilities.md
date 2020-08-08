@@ -1,19 +1,17 @@
 ---
 title: Управление возможностями
 description: System Insights предоставляет разнообразные параметры, которые можно настроить для каждой возможности, и эти параметры могут быть настроены для удовлетворения конкретных потребностей развертывания. В этом разделе описывается, как управлять различными параметрами для каждой из возможностей с помощью центра администрирования Windows или PowerShell, предоставляя основные примеры PowerShell и снимки экрана центра администрирования Windows для демонстрации настройки этих параметров.
-ms.prod: windows-server
-ms.technology: system-insights
 ms.topic: article
 author: gawatu
 ms.author: gawatu
 manager: mallikarjun.chadalapaka
 ms.date: 6/05/2018
-ms.openlocfilehash: 66745440094ccf55b774727320d59074139a7f33
-ms.sourcegitcommit: 771db070a3a924c8265944e21bf9bd85350dd93c
+ms.openlocfilehash: e82b27d2d746592b29b86a66ee34b21f8605a0d8
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85471785"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87940165"
 ---
 # <a name="managing-capabilities"></a>Управление возможностями
 
@@ -79,13 +77,13 @@ $Output.ForecastingResults
 ### <a name="using-the-event-log-to-retrieve-capability-results"></a>Использование журнала событий для получения результатов возможностей
 System Insights регистрирует событие каждый раз, когда возможность завершает прогноз. Эти события отображаются в канале **Microsoft-Windows-System-Insights/администратора** , а System Insights ПУБЛИКУЕТ разные идентификаторы событий для каждого состояния:
 
-| Состояние прогноза | Код события |
+| Состояние прогноза | Идентификатор события |
 | --------------- | --------------- |
 | ОК | 151 |
 | Предупреждение | 148 |
-| Критически важно | 150 |
+| Критический | 150 |
 | Ошибка | 149 |
-| Отсутствуют | 132 |
+| Нет | 132 |
 
 >[!TIP]
 >Используйте [Azure Monitor](https://azure.microsoft.com/services/monitor/) или [System Center Operations Manager](https://docs.microsoft.com/system-center/scom/welcome?view=sc-om-1807) для агрегирования этих событий и просмотра результатов прогноза в группе компьютеров.
