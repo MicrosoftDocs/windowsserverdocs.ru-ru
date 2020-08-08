@@ -2,18 +2,16 @@
 title: Шаг 3. Проверка развертывания с помощью удаленного доступа (VPN)
 description: Эта статья является частью инструкции по добавлению DirectAccess в существующее развертывание удаленного доступа (VPN) для Windows Server 2016.
 manager: brianlic
-ms.prod: windows-server
-ms.technology: networking-da
 ms.topic: article
 ms.assetid: 43ac612e-2e77-418c-8171-ebb2086b7cb6
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 9eb64024eb7ad9b80a1ba8c949939b33426ad6da
-ms.sourcegitcommit: 3632b72f63fe4e70eea6c2e97f17d54cb49566fd
+ms.openlocfilehash: 9da14f076f177e7e819c1529f9de647b5dde0500
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87518160"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87969221"
 ---
 # <a name="step-3-verify-the-remote-access-vpn-deployment"></a>Шаг 3. Проверка развертывания с помощью удаленного доступа (VPN)
 

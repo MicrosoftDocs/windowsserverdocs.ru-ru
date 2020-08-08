@@ -6,12 +6,12 @@ ms.topic: article
 ms.assetid: 398440ac-5988-41ce-b91e-eab343a255d3
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: e8722e5ff925bca1d99c39d7eb6bf360dc12c065
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 1e2db53f28ff5262778b36b8a5cb91e6062ca9c0
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87968701"
+ms.locfileid: "87995711"
 ---
 # <a name="hyper-v-virtual-switch"></a>Виртуальный коммутатор Hyper-V
 
@@ -26,13 +26,13 @@ ms.locfileid: "87968701"
 >
 > - [Управление виртуальным коммутатором Hyper-V](Manage-Hyper-V-Virtual-Switch.md)
 > - [Удаленный доступ к памяти (RDMA) и объединение внедренных коммутаторов](RDMA-and-Switch-Embedded-Teaming.md)
-> - [Командлеты группы сетевых коммутаторов в Windows PowerShell](https://docs.microsoft.com/powershell/module/netswitchteam/new-netswitchteam?view=win10-ps)
-> - [Новые возможности VMM 2016](https://docs.microsoft.com/system-center/vmm/whats-new#networking)
-> - [Настройка структуры сети VMM](https://docs.microsoft.com/system-center/vmm/manage-networks)
-> - [Форум по Hyper-V](https://docs.microsoft.com/answers/topics/windows-server-hyper-v.html)
-> - [Hyper-V: следует включить расширение виртуального переключения WFP, если оно требуется для сторонних расширений](https://docs.microsoft.com/answers/topics/windows-server-hyper-v.html)
+> - [Командлеты группы сетевых коммутаторов в Windows PowerShell](/powershell/module/netswitchteam/new-netswitchteam?view=win10-ps)
+> - [Новые возможности VMM 2016](/system-center/vmm/whats-new#networking)
+> - [Настройка структуры сети VMM](/system-center/vmm/manage-networks)
+> - [Форум по Hyper-V](/answers/topics/windows-server-hyper-v.html)
+> - [Hyper-V: следует включить расширение виртуального переключения WFP, если оно требуется для сторонних расширений](/answers/topics/windows-server-hyper-v.html)
 >
-> Дополнительные сведения о других сетевых технологиях см. [в статье сетевые подключения в Windows Server 2016](https://docs.microsoft.com/windows-server/networking/networking).
+> Дополнительные сведения о других сетевых технологиях см. [в статье сетевые подключения в Windows Server 2016](../../networking/index.yml).
 
 \-Виртуальный коммутатор Hyper v — это программный коммутатор уровня 2 Ethernet, доступный в диспетчере Hyper-v \- при установке роли Hyper- \- сервера.
 

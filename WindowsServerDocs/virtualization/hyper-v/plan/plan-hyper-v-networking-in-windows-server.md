@@ -6,12 +6,12 @@ ms.topic: article
 author: kbdazure
 ms.author: kathydav
 ms.date: 10/04/2016
-ms.openlocfilehash: 638b4879d7980d817863ad0cd45397ac4a095569
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: b31d942e8d7890a8f699f743bcd24953d2a3e760
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87948011"
+ms.locfileid: "87996065"
 ---
 # <a name="plan-for-hyper-v-networking-in-windows-server"></a>Планирование сетей Hyper-V в Windows Server
 
@@ -52,7 +52,7 @@ Hyper-V предлагает три типа виртуальных коммут
 
 Некоторые функции зависят от конкретных конфигураций сети или более эффективны при определенных конфигурациях. Эти данные следует учитывать при планировании или обновлении сетевой инфраструктуры.
 
-**Отказоустойчивая кластеризация** . рекомендуется изолировать трафик кластера и использовать Hyper-V Quality Service (QoS) на виртуальном коммутаторе. Дополнительные сведения см. в статье [рекомендации по сети для кластера Hyper-V](https://technet.microsoft.com/library/dn550728.aspx) .
+**Отказоустойчивая кластеризация** . рекомендуется изолировать трафик кластера и использовать Hyper-V Quality Service (QoS) на виртуальном коммутаторе. Дополнительные сведения см. в статье [рекомендации по сети для кластера Hyper-V](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn550728(v=ws.11)) .
 
 **Динамическая миграция** . Используйте параметры производительности, чтобы снизить нагрузку на сеть и ЦП и время, необходимое для выполнения динамической миграции. Инструкции см. в разделе [Настройка узлов для динамической миграции без отказоустойчивой кластеризации](../deploy/set-up-hosts-for-live-migration-without-failover-clustering.md).
 

@@ -1,20 +1,18 @@
 ---
 title: Виртуальная частная сеть (VPN)
 description: С помощью этого раздела вы узнаете о возможностях и функциях VPN в Windows Server 2016 и Windows 10.
-ms.prod: windows-server
-ms.technology: networking
 ms.topic: article
 ms.assetid: cd4908f0-0d6f-4c02-8f98-4dc88c3dcb65
 ms.date: 11/05/2018
 ms.author: v-tea
 author: Teresa-MOTIV
 ms.localizationpriority: medium
-ms.openlocfilehash: 35293f98dd36fc48750a811981dafe37a06af7c9
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 30f08f02bf7a06619b9a32206863a9ddefc0fc2d
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86959176"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87968921"
 ---
 # <a name="virtual-private-networking-vpn"></a>Виртуальная частная сеть (VPN)
 
@@ -38,7 +36,7 @@ ms.locfileid: "86959176"
 >Вы также можете развернуть шлюз RAS в качестве VPN-сервера с многопользовательским интерфейсом для использования с программно заданной сетью (SDN) или как сервер DirectAccess. Дополнительные сведения см. в статье [шлюз RAS](../ras-gateway/ras-gateway.md), [программно-определяемая сеть (SDN)](../../../networking/sdn/software-defined-networking.md)и [DirectAccess](../directaccess/directaccess.md).
 
 ## <a name="related-topics"></a>Связанные темы
-- [Always on функции и функции VPN](vpn-map-da.md). в этом разделе вы узнаете о функциях и функциях Always on VPN. 
+- [Always on функции и функции VPN](vpn-map-da.md). в этом разделе вы узнаете о функциях и функциях Always on VPN.
 
 - [Настройка туннелей VPN-устройств в Windows 10](vpn-device-tunnel-config.md): Always on VPN предоставляет возможность создания выделенного профиля VPN для устройства или компьютера. Always On VPN-подключения включают два типа туннелей: _туннель устройства_ и _туннель пользователя_. Туннель устройства используется для сценариев подключения предварительного входа и управления устройствами. Пользовательский туннель позволяет пользователям получать доступ к ресурсам Организации через VPN-серверы.
 

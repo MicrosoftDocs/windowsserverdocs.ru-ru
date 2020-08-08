@@ -7,18 +7,18 @@ ms.assetid: 623b7c21-dcbb-402e-8b5a-8e434cd225bd
 author: evaseydl
 manager: scottman
 ms.author: evas
-ms.openlocfilehash: 2956bd47bb2c4ac538b3b9828a6e5cdcef739eff
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 8e1f1249ac3670a550e70cc09a9862306fd85658
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87970501"
+ms.locfileid: "87995947"
 ---
 # <a name="join-the-multipoint-services-computer-to-a-domain-optional"></a>Присоединение компьютера служб MultiPoint к домену (необязательно)
 Если вы будете получать доступ к компьютеру служб MultiPoint через домен Active Directory, следующий шаг заключается в добавлении компьютера в домен.
 
 > [!IMPORTANT]
-> Перед присоединением компьютера к домену необходимо проверить часовой пояс. Инструкции см. [в разделе Установка даты, времени и](Set-the-date--time--and-time-zone.md)часового пояса.
+> Перед присоединением компьютера к домену необходимо проверить часовой пояс. Инструкции см. [в разделе Установка даты, времени и](./set-the-date-time.md)часового пояса.
 
 1.  На **начальном экране** откройте **Панель управления**. Щелкните **система и безопасность**, а затем — **система**.
 

@@ -7,12 +7,12 @@ author: lizap
 manager: dongill
 ms.author: elizapo
 ms.date: 08/04/2016
-ms.openlocfilehash: 342a374027abc3019b4fc01dbc91b676d63e922b
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 2469bbb35ce0e68801b28e221c05c285b4f1c464
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87970681"
+ms.locfileid: "87996341"
 ---
 # <a name="getting-started-with-multipoint-services"></a>начало работы со службами MultiPoint
 Система служб MultiPoint позволяет нескольким пользователям использовать несколько станций, которые физически подключены к одному компьютеру с помощью концентраторов станции. Каждая станция обычно состоит из центра станции, мыши, клавиатуры и монитора видео. Каждый пользователь на станции служб MultiPoint использует уникальный сеанс Windows для управления, который можно управлять с помощью MultiPoint Manager.
@@ -91,7 +91,7 @@ ms.locfileid: "87970681"
 
 ## <a name="see-also"></a>См. также:
 [Управление системой](managing-your-multipoint-services-system.md) 
- MultiPoint Server [Важные сведения о соответствии](Important-Information-about-Software-License-Compliance.md) 
+ MultiPoint Server [Важные сведения о соответствии](./multipoint-software-license-compliance.md) 
  лицензий на программное обеспечение [Управление системными задачами с помощью MultiPoint Manager](Manage-System-Tasks-Using-MultiPoint-Manager.md) 
  [Управление файлами пользователей](Manage-User-Files.md) 
  [Управление рабочими столами пользователей](manage-user-desktops-using-multipoint-dashboard.md) 
@@ -104,4 +104,3 @@ ms.locfileid: "87970681"
  [Управление рабочими столами пользователей с помощью панели мониторинга MultiPoint](Manage-User-Desktops-Using-MultiPoint-Dashboard.md) 
  [Управление системами MultiPoint с помощью панели мониторинга MultiPoint](Manage-MultiPoint-Systems-Using-MultiPoint-Dashboard.md) 
  [Устранение неполадок](Troubleshooting.md)
-

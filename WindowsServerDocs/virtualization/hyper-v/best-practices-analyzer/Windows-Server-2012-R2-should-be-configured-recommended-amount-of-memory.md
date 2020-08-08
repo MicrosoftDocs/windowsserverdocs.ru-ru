@@ -7,12 +7,12 @@ ms.topic: article
 ms.assetid: b383a3c9-3ab6-442e-abd8-0942a32b60f8
 author: kbdazure
 ms.date: 8/16/2016
-ms.openlocfilehash: 6d066345554636ec981c54c86c641766306ca10c
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: d122ead619a7b1f24d1de67cc67f297b42e1a8d8
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87948216"
+ms.locfileid: "87995675"
 ---
 # <a name="windows-server-2012-r2-should-be-configured-with-the-recommended-amount-of-memory"></a>Для Windows Server 2012 R2 следует настроить рекомендуемый объем памяти.
 
@@ -65,7 +65,4 @@ Set-VMMemory <MyVM> -StartupBytes 2GB
 ```
 
 ## <a name="see-also"></a>См. также:
-[Set-Вммемори](https://technet.microsoft.com/library/hh848572.aspx)
-
-
-
+[Set-Вммемори](/powershell/module/hyper-v/set-vmmemory?view=win10-ps)

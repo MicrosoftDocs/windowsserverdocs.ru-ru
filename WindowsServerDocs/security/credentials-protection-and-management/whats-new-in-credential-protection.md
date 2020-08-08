@@ -7,12 +7,12 @@ author: gitmichiko
 ms.author: michikos
 manager: dongill
 ms.date: 03/06/2017
-ms.openlocfilehash: 9522988946fbf5aa060ff81ab7a54077f5ca28f4
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 521562b938b002e4c5fe5ffee5fcd7c677551f98
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87948717"
+ms.locfileid: "87995760"
 ---
 # <a name="whats-new-in-credential-protection"></a>Новые возможности защиты учетных данных
 
@@ -24,7 +24,7 @@ ms.locfileid: "87948717"
 
 Начиная с Windows 10, версия 1607 в режиме изолированного пользователя входит в состав Hyper-V, поэтому она больше не устанавливается отдельно для развертывания Credential Guard.
 
-Дополнительные [сведения об Credential Guard](https://technet.microsoft.com/itpro/windows/keep-secure/credential-guard).
+Дополнительные [сведения об Credential Guard](/windows/security/identity-protection/credential-guard/credential-guard).
 
 
 ## <a name="remote-credential-guard-for-signed-in-user"></a>Удаленный Credential Guard для пользователя, выполнившего вход
@@ -33,7 +33,7 @@ ms.locfileid: "87948717"
 
 Начиная с Windows 10, версия 1703 Remote Credential Guard защищает предоставленные учетные данные пользователя при использовании удаленный рабочий стол.
 
-Дополнительные [сведения об удаленном Credential Guard](https://technet.microsoft.com/itpro/windows/keep-secure/remote-credential-guard).
+Дополнительные [сведения об удаленном Credential Guard](/windows/security/identity-protection/remote-credential-guard).
 
 ## <a name="domain-protections"></a>Защита домена
 
@@ -45,7 +45,7 @@ ms.locfileid: "87948717"
 
 Начиная с Windows Server 2016, Кдкс поддерживает проверку подлинности с использованием доверия Kerberos Key.
 
-Дополнительные [сведения о поддержке открытых ключей для устройств, присоединенных к домену, & доверительных отношений ключей Kerberos](https://technet.microsoft.com/windows-server-docs/security/kerberos/whats-new-in-kerberos-authentication).
+Дополнительные [сведения о поддержке открытых ключей для устройств, присоединенных к домену, & доверительных отношений ключей Kerberos](../kerberos/whats-new-in-kerberos-authentication.md).
 
 ### <a name="pkinit-freshness-extension-support"></a>Поддержка расширения PKINIT
 
@@ -53,7 +53,7 @@ ms.locfileid: "87948717"
 
 Начиная с Windows Server 2016, Кдкс может поддерживать свежее расширение PKInit.  По умолчанию Кдкс не будет предоставлять свежее расширение PKInit.
 
-Дополнительные [сведения о поддержке расширения PKINIT](https://technet.microsoft.com/windows-server-docs/security/kerberos/whats-new-in-kerberos-authentication).
+Дополнительные [сведения о поддержке расширения PKINIT](../kerberos/whats-new-in-kerberos-authentication.md).
 
 ### <a name="rolling-public-key-only-users-ntlm-secrets"></a>Пошаговые секреты NTLM пользователя только открытого ключа
 
@@ -80,4 +80,4 @@ ms.locfileid: "87948717"
 
 Конфигурация: в политике проверки подлинности щелкните **Разрешить проверку подлинности сети NTLM, если пользователь ограничен выбранными устройствами**.
 
-Дополнительные [сведения о политиках проверки подлинности](https://technet.microsoft.com/windows-server-docs/security/credentials-protection-and-management/authentication-policies-and-authentication-policy-silos).
+Дополнительные [сведения о политиках проверки подлинности](./authentication-policies-and-authentication-policy-silos.md).

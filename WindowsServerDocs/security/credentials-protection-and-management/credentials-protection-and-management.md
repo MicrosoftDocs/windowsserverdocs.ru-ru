@@ -7,12 +7,12 @@ author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/12/2016
-ms.openlocfilehash: 3dc1d0ae3658e4379d3a358211471ac7f675651c
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: be120eda25b4d01da60faa2af241cd3ce243abfc
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87948707"
+ms.locfileid: "87995824"
 ---
 # <a name="credentials-protection-and-management"></a>Защита учетных данных и управление ими
 
@@ -64,10 +64,7 @@ ms.locfileid: "87948707"
 
 Подробную информацию см. в разделе [Политики проверки подлинности и приемники команд политик проверки подлинности](authentication-policies-and-authentication-policy-silos.md).
 
-Подробную информацию о настройке защищенных учетных записей см. в разделе [Настройка защищенных учетных записей](https://docs.microsoft.com/windows-server/identity/ad-ds/manage/how-to-configure-protected-accounts).
+Подробную информацию о настройке защищенных учетных записей см. в разделе [Настройка защищенных учетных записей](../../identity/ad-ds/manage/how-to-configure-protected-accounts.md).
 
 ## <a name="additional-references"></a>Дополнительные ссылки
-Дополнительные сведения о соглашениях LSA и LSASS см. в разделе [Обзор входа в Windows и проверки подлинности](https://technet.microsoft.com/library/dn169029(v=ws.10).aspx).
-
-
-
+Дополнительные сведения о соглашениях LSA и LSASS см. в разделе [Обзор входа в Windows и проверки подлинности](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dn169029(v=ws.10)).

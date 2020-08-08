@@ -6,12 +6,12 @@ manager: dongill
 author: rpsqrd
 ms.author: ryanpu
 ms.date: 08/29/2018
-ms.openlocfilehash: 0535a15d0b21b62bb9f8b91729f773d1f4db0db0
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: fca3faca236a2fc5162d7a50ef02acad9b508226
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87966071"
+ms.locfileid: "87996306"
 ---
 # <a name="create-a-linux-shielded-vm-template-disk"></a>Создание диска шаблона экранированной виртуальной машины Linux
 
@@ -67,7 +67,7 @@ ms.locfileid: "87966071"
 4.  Откройте **Диспетчер Hyper-V** на компьютере управления и подключитесь к серверу виртуализации.
     Это можно сделать, щелкнув "подключиться к серверу...". на панели действия или щелкнув правой кнопкой мыши Диспетчер Hyper-V и выбрав команду "подключиться к серверу...". Укажите имя DNS для сервера Hyper-V и при необходимости учетные данные, необходимые для подключения к нему.
 
-5.  С помощью диспетчера Hyper-V [Настройте внешний коммутатор](https://docs.microsoft.com/windows-server/virtualization/hyper-v/get-started/create-a-virtual-switch-for-hyper-v-virtual-machines) на сервере виртуализации, чтобы виртуальная машина Linux могла получить доступ к Интернету для получения обновлений.
+5.  С помощью диспетчера Hyper-V [Настройте внешний коммутатор](../../virtualization/hyper-v/get-started/create-a-virtual-switch-for-hyper-v-virtual-machines.md) на сервере виртуализации, чтобы виртуальная машина Linux могла получить доступ к Интернету для получения обновлений.
 
 6.  Затем создайте новую виртуальную машину для установки ОС Linux на.
     На панели Действия щелкните **создать**  >  **виртуальную машину** , чтобы открыть мастер.
@@ -119,7 +119,7 @@ ms.locfileid: "87966071"
 
 13. Если вы планируете использовать System Center Virtual Machine Manager для развертывания виртуальных машин, установите Гостевой агент VMM, чтобы разрешить VMM специализацию операционной системы во время подготовки виртуальной машины.
     Специализация позволяет безопасно настроить каждую виртуальную машину с разными пользователями и ключами SSH, сетевые конфигурации и шаги выборочной установки.
-    Узнайте, как [получить и установить Гостевой агент VMM](https://docs.microsoft.com/system-center/vmm/vm-linux#install-the-vmm-guest-agent) в документации по VMM.
+    Узнайте, как [получить и установить Гостевой агент VMM](/system-center/vmm/vm-linux#install-the-vmm-guest-agent) в документации по VMM.
 
 14. Затем [добавьте в Диспетчер пакетов репозиторий программного обеспечения Microsoft Linux](../../administration/linux-package-repository-for-microsoft-software.md).
 
@@ -189,7 +189,7 @@ VHDX-файл, предоставленный для `-Path` параметра,
 
 > [!IMPORTANT]
 > Средства удаленного администрирования сервера, доступные в Windows Server 2016 или Windows 10, нельзя использовать для подготовки диска шаблона экранированной виртуальной машины Linux.
-> Для подготовки диска шаблона экранированной виртуальной машины Linux используйте командлет [Protect-темплатедиск](https://docs.microsoft.com/powershell/module/shieldedvmtemplate/protect-templatedisk?view=win10-ps) , доступный в windows Server 2019 версии 1709 или средства удаленного администрирования сервера
+> Для подготовки диска шаблона экранированной виртуальной машины Linux используйте командлет [Protect-темплатедиск](/powershell/module/shieldedvmtemplate/protect-templatedisk?view=win10-ps) , доступный в windows Server 2019 версии 1709 или средства удаленного администрирования сервера
 
 ```powershell
 # Replace "THUMBPRINT" with the thumbprint of your template disk signing certificate in the line below

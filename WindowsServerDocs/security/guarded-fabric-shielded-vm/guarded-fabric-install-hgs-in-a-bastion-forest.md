@@ -5,12 +5,12 @@ manager: dongill
 author: rpsqrd
 ms.author: ryanpu
 ms.date: 08/29/2018
-ms.openlocfilehash: cb2fe57963ac2786586d75df2a783945e2fb7d11
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 4e4bdf9c33d4511c470da50462469fadbd0641ce
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87963780"
+ms.locfileid: "87996235"
 ---
 # <a name="install-hgs-in-an-existing-bastion-forest"></a>Установка HGS в существующем лесу бастиона
 
@@ -41,7 +41,7 @@ ms.locfileid: "87963780"
 
 ## <a name="group-managed-service-account"></a>Групповая управляемая учетная запись службы
 
-Групповая управляемая учетная запись службы (gMSA) — это удостоверение, используемое службой HGS для получения и использования своих сертификатов. Для создания gMSA используйте [New-адсервицеаккаунт](https://technet.microsoft.com/itpro/powershell/windows/addsadministration/new-adserviceaccount) .
+Групповая управляемая учетная запись службы (gMSA) — это удостоверение, используемое службой HGS для получения и использования своих сертификатов. Для создания gMSA используйте [New-адсервицеаккаунт](/powershell/module/addsadministration/new-adserviceaccount?view=win10-ps) .
 Если это первый gMSA в домене, необходимо добавить корневой ключ службы распространения ключей.
 
 Каждому узлу HGS необходимо разрешить доступ к паролю gMSA.
@@ -72,7 +72,7 @@ New-ADServiceAccount -Name 'HGSgMSA' -DnsHostName 'HGSgMSA.yourdomain.com' -Prin
 
 > [!NOTE]
 > Групповые управляемые учетные записи служб доступны начиная с схемы Active Directory Windows Server 2012.
-> Дополнительные сведения см. в разделе [требования к групповой управляемой учетной записи службы](https://technet.microsoft.com/library/jj128431.aspx).
+> Дополнительные сведения см. в разделе [требования к групповой управляемой учетной записи службы](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj128431(v=ws.11)).
 
 ## <a name="jea-security-groups"></a>Группы безопасности JEA
 
@@ -81,7 +81,7 @@ New-ADServiceAccount -Name 'HGSgMSA' -DnsHostName 'HGSgMSA.yourdomain.com' -Prin
 Конфигурация конечной точки JEA состоит из двух групп безопасности, которые содержат администраторов HGS и проверяющих HGS.
 Пользователи, входящие в группу администраторов, могут добавлять, изменять и удалять политики в HGS. Рецензенты могут только просматривать текущую конфигурацию.
 
-Создайте 2 группы безопасности для этих групп JEA с помощью средств администрирования Active Directory или [New-ADGroup](https://technet.microsoft.com/itpro/powershell/windows/addsadministration/new-adgroup).
+Создайте 2 группы безопасности для этих групп JEA с помощью средств администрирования Active Directory или [New-ADGroup](/powershell/module/addsadministration/new-adgroup?view=win10-ps).
 
 ```powershell
 New-ADGroup -Name 'HgsJeaReviewers' -GroupScope DomainLocal
@@ -91,7 +91,7 @@ New-ADGroup -Name 'HgsJeaAdmins' -GroupScope DomainLocal
 ## <a name="cluster-objects"></a>Объекты кластера
 
 Если учетная запись, используемая для настройки HGS, не имеет разрешения на создание новых объектов-компьютеров в домене, необходимо предварительно разместить объекты кластера.
-Эти шаги описаны в разделе [Предварительная настройка объектов компьютеров кластера в домен Active Directory Services](https://technet.microsoft.com/library/dn466519(v=ws.11).aspx).
+Эти шаги описаны в разделе [Предварительная настройка объектов компьютеров кластера в домен Active Directory Services](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn466519(v=ws.11)).
 
 Чтобы настроить первый узел HGS, необходимо создать один объект имени кластера (CNO) и один объект виртуального компьютера (VCO).
 CNO представляет имя кластера и используется в основном для внутренних целей посредством отказоустойчивой кластеризации.
@@ -140,7 +140,7 @@ Set-Acl -Path $vcoPath -AclObject $acl
 
 **Имя политики:** Сетевая безопасность: Настройка типов шифрования, разрешенных для Kerberos
 
-**Действие**. Если эта политика настроена, необходимо обновить учетную запись gMSA с помощью [Set-адсервицеаккаунт](https://docs.microsoft.com/powershell/module/addsadministration/set-adserviceaccount?view=win10-ps) , чтобы использовать в этой политике только поддерживаемые типы шифрования. Например, если политика допускает только AES128 \_ HMAC \_ SHA1 и AES256 \_ HMAC \_ SHA1, следует запустить `Set-ADServiceAccount -Identity HGSgMSA -KerberosEncryptionType AES128,AES256` .
+**Действие**. Если эта политика настроена, необходимо обновить учетную запись gMSA с помощью [Set-адсервицеаккаунт](/powershell/module/addsadministration/set-adserviceaccount?view=win10-ps) , чтобы использовать в этой политике только поддерживаемые типы шифрования. Например, если политика допускает только AES128 \_ HMAC \_ SHA1 и AES256 \_ HMAC \_ SHA1, следует запустить `Set-ADServiceAccount -Identity HGSgMSA -KerberosEncryptionType AES128,AES256` .
 
 
 
@@ -149,4 +149,3 @@ Set-Acl -Path $vcoPath -AclObject $acl
 - Дальнейшие действия по настройке аттестации на основе TPM см. в статье [Инициализация кластера HGS с помощью режима TPM в существующем лесу бастиона](guarded-fabric-initialize-hgs-tpm-mode-bastion.md).
 - Дальнейшие действия по настройке аттестации ключа узла см. в статье [Инициализация кластера HGS с помощью режима ключей в существующем лесу бастиона](guarded-fabric-initialize-hgs-key-mode-bastion.md).
 - Дальнейшие действия по настройке аттестации на основе администратора (не рекомендуется в Windows Server 2019) см. в статье [Инициализация кластера HGS с помощью режима AD в существующем лесу бастиона](guarded-fabric-initialize-hgs-ad-mode-bastion.md).
-

@@ -6,12 +6,12 @@ manager: dongill
 author: rpsqrd
 ms.author: ryanpu
 ms.date: 08/29/2018
-ms.openlocfilehash: 7e62b5dab69676e15494ff531ffe0fce0e550c1a
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 3d6af6e6dea584485e2517d8e54c107c5cc2af90
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87970091"
+ms.locfileid: "87996272"
 ---
 # <a name="shielded-vms---hosting-service-provider-sets-up-windows-azure-pack"></a>Экранированные виртуальные машины: поставщик услуг размещения настраивает Microsoft Azure Pack
 
@@ -25,7 +25,7 @@ ms.locfileid: "87970091"
 
 1. Завершите настройку System Center 2016 — Virtual Machine Manager (VMM) для структуры размещения. Сюда входит настройка шаблонов виртуальных машин и облака виртуальных машин, которые будут доступны через Windows Azure Pack:
 
-    [Сценарий: развертывание защищенных узлов и экранированных виртуальных машин в VMM](https://technet.microsoft.com/system-center-docs/vmm/scenario/guarded-overview)
+    [Сценарий: развертывание защищенных узлов и экранированных виртуальных машин в VMM](/system-center/vmm/deploy-guarded-host-fabric?view=sc-vmm-2019)
 
 2. Установите и настройте System Center 2016-Service Provider Foundation (SPF). Это программное обеспечение позволяет Windows Azure Pack взаимодействовать с вашими серверами VMM:
 
@@ -44,7 +44,7 @@ ms.locfileid: "87970091"
 
 Установите и настройте Windows Azure Pack (WAP) на компьютере, где требуется разместить веб-портал для клиентов. Этот компьютер должен иметь доступ к SPF Server и быть доступен клиентам.
 
-1.  Проверка [системных требований WAP](https://technet.microsoft.com/library/dn296442.aspx) и установка [необходимого программного обеспечения](https://technet.microsoft.com/library/dn469335.aspx).
+1.  Проверка [системных требований WAP](/previous-versions/azure/windows-server-azure-pack/dn296442(v=technet.10)) и установка [необходимого программного обеспечения](/previous-versions/azure/windows-server-azure-pack/dn469335(v=technet.10)).
 
 2.  Скачайте и установите [установщик веб-платформы](https://www.microsoft.com/web/downloads/platform.aspx). Если компьютер не подключен к Интернету, следуйте инструкциям по установке в [автономном режиме](https://www.iis.net/learn/install/web-platform-installer/web-platform-installer-v4-command-line-webpicmdexe-rtw-release).
 
@@ -52,7 +52,7 @@ ms.locfileid: "87970091"
 
 4.  Выполните все шаги по установке. После завершения установки сайт конфигурации (*https:// &lt; вапсервер &gt; : 30101/*) откроется в веб-браузере. На этом веб-сайте укажите сведения о SQL Server и завершите настройку WAP.
 
-Дополнительные сведения о настройке Windows Azure Pack см. [в статье Установка экспресс развертывания Windows Azure Pack](https://technet.microsoft.com/dn296439.aspx).
+Дополнительные сведения о настройке Windows Azure Pack см. [в статье Установка экспресс развертывания Windows Azure Pack](/previous-versions/azure/windows-server-azure-pack/dn296439(v=technet.10)).
 
 > [!NOTE]
 > Если вы уже запустили Windows Azure Pack в своей среде, вы можете использовать существующую установку. Однако для работы с новейшими функциями экранированной виртуальной машины необходимо обновить установку по крайней мере с накопительным пакетом обновления 10.

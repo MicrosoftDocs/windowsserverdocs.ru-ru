@@ -5,12 +5,12 @@ ms.assetid: 8e7b77a4-1c6a-4c21-8844-0df89b63f68d
 author: brianlic-msft
 ms.author: brianlic
 ms.date: 10/12/2016
-ms.openlocfilehash: 8ed6e2aafeeca0486bdb45019ba879e391af9934
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: fc5b0a3e3b3da3b329baec37888fd04c9f3adc0e
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87936736"
+ms.locfileid: "87995731"
 ---
 # <a name="device-health-attestation"></a>Подтверждение работоспособности устройств
 
@@ -142,7 +142,7 @@ ms.locfileid: "87936736"
 
 ### <a name="install-the-signing-and-encryption-certificates"></a>Установка сертификатов подписи и шифрования
 
-Для установки сертификатов подписи и шифрования используйте следующий сценарий Windows PowerShell. Дополнительные сведения о отпечатке см. в разделе [как получить отпечаток сертификата](https://msdn.microsoft.com/library/ms734695.aspx).
+Для установки сертификатов подписи и шифрования используйте следующий сценарий Windows PowerShell. Дополнительные сведения о отпечатке см. в разделе [как получить отпечаток сертификата](/dotnet/framework/wcf/feature-details/how-to-retrieve-the-thumbprint-of-a-certificate).
 
 ```
 $key = Get-ChildItem Cert:\LocalMachine\My | Where-Object {$_.Thumbprint -like "<thumbprint>"}

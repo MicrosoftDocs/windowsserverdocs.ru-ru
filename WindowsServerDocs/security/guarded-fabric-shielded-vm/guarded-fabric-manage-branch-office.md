@@ -4,12 +4,12 @@ ms.topic: article
 manager: dongill
 author: rpsqrd
 ms.author: ryanpu
-ms.openlocfilehash: b56b2d4f74f18e68a3849b01e84b0aca5ca7412e
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 140888bdaa27d5040ff723b94df2e28f3bbab167
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87957912"
+ms.locfileid: "87996154"
 ---
 # <a name="branch-office-considerations"></a>Рекомендации для филиалов
 
@@ -39,7 +39,7 @@ Set-HgsClientConfiguration -KeyProtectionServerUrl 'https://hgs.primary.com/KeyP
 Кроме того, сертификаты, используемые для расшифровки доверенного платформенного модуля виртуальной машины, должны быть доступны в обеих кластерах HGS.
 Вы можете настроить каждый HGS с разными сертификатами и настроить виртуальную машину для доверия в обоих случаях или добавить общий набор сертификатов в оба кластера HGS.
 
-Дополнительные сведения о настройке HGS в филиале с помощью URL-адресов резервных узлов см. в записи блога [улучшена поддержка филиалов для экранированных виртуальных машин в Windows Server версии 1709](https://blogs.technet.microsoft.com/datacentersecurity/2017/11/15/improved-branch-office-support-for-shielded-vms-in-windows-server-version-1709/).
+Дополнительные сведения о настройке HGS в филиале с помощью URL-адресов резервных узлов см. в записи блога [улучшена поддержка филиалов для экранированных виртуальных машин в Windows Server версии 1709](/archive/blogs/datacentersecurity/improved-branch-office-support-for-shielded-vms-in-windows-server-version-1709).
 
 
 ## <a name="offline-mode"></a>Автономный режим

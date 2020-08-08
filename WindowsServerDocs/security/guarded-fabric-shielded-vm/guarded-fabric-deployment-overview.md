@@ -6,19 +6,19 @@ manager: dongill
 author: justinha
 ms.author: justinha
 ms.date: 01/30/2019
-ms.openlocfilehash: 8ddd4699358a6725ed5e2f80683a363a1120caf7
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 35e95204e076c0e0c96eb1669ff267b87ba7242a
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87944254"
+ms.locfileid: "87996332"
 ---
 # <a name="quick-start-for-guarded-fabric-deployment"></a>Краткое руководство по развертыванию защищенной структуры
 
 >Применяется к: Windows Server (Semi-Annual Channel), Windows Server 2016
 
 В этом разделе объясняется, что такое защищенная структура, ее требования и Сводка процесса развертывания.
-Подробные инструкции по развертыванию см. [в разделе Развертывание службы защиты узла для защищенных узлов и экранированных виртуальных машин](https://technet.microsoft.com/windows-server-docs/security/guarded-fabric-shielded-vm/guarded-fabric-deploying-hgs-overview).
+Подробные инструкции по развертыванию см. [в разделе Развертывание службы защиты узла для защищенных узлов и экранированных виртуальных машин](./guarded-fabric-deploying-hgs-overview.md).
 
 Предпочитаете видео? Ознакомьтесь с курсом Microsoft Virtual Academy, который [развертывает экранированные виртуальные машины и защищенную структуру с помощью Windows Server 2016](https://mva.microsoft.com/training-courses/deploying-shielded-vms-and-a-guarded-fabric-with-windows-server-2016-17131?l=WFLef7vUD_4604300474).
 
@@ -72,7 +72,7 @@ _Защищенная структура_ — это структура Hyper-V 
 
 ## <a name="step-1-deploy-the-hyper-v-hosts-running-windows-server-2016"></a>Шаг 1. развертывание узлов Hyper-V под управлением Windows Server 2016
 
-Узлы Hyper-V должны работать под управлением Windows Server 2016 Datacenter Edition или более поздней версии. При обновлении узлов можно [Перейти](https://technet.microsoft.com/windowsserver/dn527667.aspx) с выпуска Standard Edition на выпуск Datacenter.
+Узлы Hyper-V должны работать под управлением Windows Server 2016 Datacenter Edition или более поздней версии. При обновлении узлов можно [Перейти](../../get-started/installation-and-upgrade.md) с выпуска Standard Edition на выпуск Datacenter.
 
 ![Обновление узлов Hyper-V](../../security/media/Guarded-Fabric-Shielded-VM/guarded-fabric-deployment-step-one-upgrade-hyper-v.png)
 
@@ -159,7 +159,7 @@ Install-WindowsFeature RSAT-Shielded-VM-Tools -Restart
 
     ![Новая виртуальная машина, поддерживаемая шифрованием](../media/Guarded-Fabric-Shielded-VM/guarded-fabric-new-shielded-vm.png)
 
-Можно добавить дополнительные элементы управления, такие как VMM или Windows Azure Pack. Если вы хотите создать виртуальную машину, не устанавливая эти компоненты, см. статью Пошаговое руководство. [Создание экранированных виртуальных машин без VMM](https://blogs.technet.microsoft.com/datacentersecurity/2016/06/06/step-by-step-creating-shielded-vms-without-vmm/).
+Можно добавить дополнительные элементы управления, такие как VMM или Windows Azure Pack. Если вы хотите создать виртуальную машину, не устанавливая эти компоненты, см. статью Пошаговое руководство. [Создание экранированных виртуальных машин без VMM](/archive/blogs/datacentersecurity/step-by-step-creating-shielded-vms-without-vmm).
 
 ## <a name="step-6-create-a-shielded-vm"></a>Шаг 6. Создание экранированной виртуальной машины
 
