@@ -6,24 +6,22 @@ ms.author: joflore
 manager: mtillman
 ms.date: 05/31/2017
 ms.topic: article
-ms.prod: windows-server
-ms.technology: identity-adds
-ms.openlocfilehash: 3045226e6f740df2cd6407d6b84529cc0a61bcb6
-ms.sourcegitcommit: b00d7c8968c4adc8f699dbee694afe6ed36bc9de
+ms.openlocfilehash: 98265fc455b31d6940c07d975a6fb33b51d7f054
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "80824707"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87953211"
 ---
 # <a name="active-directory-administrative-center"></a>Центр администрирования Active Directory
 
->Область применения: Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
+>Область применения. Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
-Центр администрирования Active Directory (ADAC) в Windows Server содержит расширенные возможности управления. Эти новые возможности упрощают процесс управления доменными службами Active Directory (AD DS). Соответствующую вводную и дополнительную информацию см. в следующих статьях:  
-  
--   [Введение в центр администрирования Active Directory &#40;уровень улучшения 100&#41;](../../../ad-ds/get-started/adac/Introduction-to-Active-Directory-Administrative-Center-Enhancements--Level-100-.md)  
-  
--   [Расширенное управление AD DS с &#40;использованием центр администрирования Active Directory уровня 200&#41;](../../../ad-ds/get-started/adac/Advanced-AD-DS-Management-Using-Active-Directory-Administrative-Center--Level-200-.md)  
-  
+Центр администрирования Active Directory (ADAC) в Windows Server содержит расширенные возможности управления. Эти новые возможности упрощают процесс управления доменными службами Active Directory (AD DS). Соответствующую вводную и дополнительную информацию см. в следующих статьях:
+
+-   [Введение в улучшения центр администрирования Active Directory &#40;уровня 100&#41;](../../../ad-ds/get-started/adac/Introduction-to-Active-Directory-Administrative-Center-Enhancements--Level-100-.md)
+
+-   [Расширенное управление AD DS с использованием центр администрирования Active Directory &#40;уровня 200&#41;](../../../ad-ds/get-started/adac/Advanced-AD-DS-Management-Using-Active-Directory-Administrative-Center--Level-200-.md)
+
 
 

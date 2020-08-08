@@ -6,14 +6,12 @@ ms.author: joflore
 manager: mtillman
 ms.date: 05/31/2017
 ms.topic: article
-ms.prod: windows-server
-ms.technology: identity-adds
-ms.openlocfilehash: e16e08517285bc80c6913d96781fdbb84c3bce14
-ms.sourcegitcommit: 3632b72f63fe4e70eea6c2e97f17d54cb49566fd
+ms.openlocfilehash: 08065e153a7f0c09e305e87fc2d745b3daa0b3f0
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87518991"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87943873"
 ---
 # <a name="guidance-about-how-to-configure-protected-accounts"></a>Руководство по настройке защищенных учетных записей
 

@@ -6,14 +6,12 @@ author: MicrosoftGuyJFlo
 manager: mtillman
 ms.date: 08/09/2018
 ms.topic: article
-ms.prod: windows-server
-ms.technology: identity-adds
-ms.openlocfilehash: f211acd5e93f3f4654983e2c61d6b1a460415655
-ms.sourcegitcommit: 3632b72f63fe4e70eea6c2e97f17d54cb49566fd
+ms.openlocfilehash: f4c4cfa0fe56acc19f1a78a5b1140d90b585cce5
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87519382"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87953313"
 ---
 # <a name="upgrade-domain-controllers-to-windows-server-2012-r2-and-windows-server-2012"></a>Обновление контроллеров домена до Windows Server 2012 R2 и Windows Server 2012
 
@@ -75,7 +73,7 @@ ms.locfileid: "87519382"
 |-----------|---------------|
 |[Присоединение к рабочей области](../../ad-fs/operations/join-to-workplace-from-any-device-for-sso-and-seamless-second-factor-authentication-across-company-applications.md)|Позволяет информационным работникам подключаться к сети компании с личных устройств для доступа к корпоративным ресурсам и службам.|
 |[Прокси-сервер веб-приложения](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn280942(v=ws.11))|Предоставляет доступ к веб-приложению с помощью новой службы роли удаленного доступа.|
-|[Active Directory Federation Services](../../active-directory-federation-services.md) (Службы федерации Active Directory)|Развертывание служб федерации Active Directory упростилось. В них также реализован ряд улучшений, позволяющих пользователям получать доступ к ресурсам с личных устройств и помогающих ИТ-отделам контролировать доступ.|
+|[Службы федерации Active Directory (AD FS)](../../active-directory-federation-services.md)|Развертывание служб федерации Active Directory упростилось. В них также реализован ряд улучшений, позволяющих пользователям получать доступ к ресурсам с личных устройств и помогающих ИТ-отделам контролировать доступ.|
 |[Уникальность имен субъектов-служб и участников-пользователей](../manage/component-updates/spn-and-upn-uniqueness.md)|Контроллеры домена с ОС Windows Server 2012 R2 блокируют создание повторяющихся имен субъектов-служб и имен участников-пользователей.|
 |[Автоматический вход при перезапуске с помощью Winlogon (ARSO)](../manage/component-updates/winlogon-automatic-restart-sign-on--arso-.md)|Обеспечивает перезапуск и доступность приложений экрана блокировки на устройствах Windows 8.1.|
 |[Аттестация ключей доверенного платформенного модуля (TPM Key) Attestation](../manage/component-updates/tpm-key-attestation.md)|Позволяет ЦС включать в выдаваемый сертификат криптографическое подтверждение того, что закрытый ключ устройства, запросившего сертификат, защищен с помощью доверенного платформенного модуля (TPM).|
@@ -158,7 +156,7 @@ ms.locfileid: "87519382"
 |--|--|--|--|
 | AllowNT4Crypto | Выключено | Выключено | Сторонние клиенты SMB могут быть несовместимы с параметрами безопасности по умолчанию на контроллерах домена. В любом случае эти параметры можно настроить, чтобы разрешить взаимодействие, но только за счет ухудшения безопасности. Дополнительные сведения см. в [статье 942564](https://go.microsoft.com/fwlink/?LinkId=164558) базы знаний Майкрософт ( https://go.microsoft.com/fwlink/?LinkId=164558) . |
 | DES | Активировано | Выключено | [Статья 977321](https://go.microsoft.com/fwlink/?LinkId=177717) в базе знаний Майкрософт (https://go.microsoft.com/fwlink/?LinkId=177717) |
-| CBT/расширенная защита для встроенной проверки подлинности | Н/Д | Активировано | См. [рекомендации корпорации Майкрософт по безопасности (937811)](https://go.microsoft.com/fwlink/?LinkId=164559) ( https://go.microsoft.com/fwlink/?LinkId=164559) и [статью 976918](https://go.microsoft.com/fwlink/?LinkId=178251) в базе знаний Майкрософт () https://go.microsoft.com/fwlink/?LinkId=178251) .<p>При необходимости проверьте и установите исправление в [статье 977073](https://go.microsoft.com/fwlink/?LinkId=186394) ( https://go.microsoft.com/fwlink/?LinkId=186394) в базе знаний Майкрософт). |
+| CBT/расширенная защита для встроенной проверки подлинности | Н/Д | Включено | См. [рекомендации корпорации Майкрософт по безопасности (937811)](https://go.microsoft.com/fwlink/?LinkId=164559) ( https://go.microsoft.com/fwlink/?LinkId=164559) и [статью 976918](https://go.microsoft.com/fwlink/?LinkId=178251) в базе знаний Майкрософт () https://go.microsoft.com/fwlink/?LinkId=178251) .<p>При необходимости проверьте и установите исправление в [статье 977073](https://go.microsoft.com/fwlink/?LinkId=186394) ( https://go.microsoft.com/fwlink/?LinkId=186394) в базе знаний Майкрософт). |
 | LMv2 | Активировано | Выключено | [Статья 976918](https://go.microsoft.com/fwlink/?LinkId=178251) в базе знаний Майкрософт (https://go.microsoft.com/fwlink/?LinkId=178251) |
 
 ## <a name="operating-system-requirements"></a><a name="BKMK_SysReqs"></a>Требования к операционной системе
@@ -249,7 +247,7 @@ ms.locfileid: "87519382"
 
 Доменные службы Active Directory нельзя установить на сервере, на котором выполняются следующие роли или службы ролей:
 
-- Hyper-V Server
+- Сервер Hyper-V
 - Посредник подключений к удаленному рабочему столу
 
 ## <a name="operations-master-roles"></a><a name="BKMK_OpsMasters"></a>Роли хозяина операций

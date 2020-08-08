@@ -7,12 +7,12 @@ author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 4e9276acbad0f9e9d403d3e172b4935f1de43475
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: e3beb043272de304edfcac294bc9b831a60b1003
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87880351"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87993000"
 ---
 # <a name="certreq"></a>certreq
 
@@ -40,7 +40,7 @@ certreq –enroll –cert certId [options] renew [reusekeys]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | -------- | ----------- |
 | -Отправить | Отправляет запрос в центр сертификации. |
 | — получение`<requestid>` | Извлекает ответ на предыдущий запрос от центра сертификации. |
@@ -99,7 +99,7 @@ subject = CN=W2K8-BO-DC.contoso2.com
 
 Эта область INF-файла является обязательной для всех новых шаблонов запросов сертификатов и должна включать хотя бы один параметр со значением.
 
-| Ключ<sup>1</sup> | Описание: | Значение<sup>2</sup> | Пример |
+| Ключ<sup>1</sup> | Описание | Значение<sup>2</sup> | Пример |
 | --- | ---------- | ----- | ------- |
 | Тема | Несколько приложений используют сведения о субъекте в сертификате. Рекомендуется указывать значение для этого ключа. Если тема не задана, мы рекомендуем включить имя субъекта как часть расширения сертификата альтернативного имени субъекта. | Строковые значения относительного различающегося имени | Subject = CN = COMPUTER1. contoso. com subject = CN = John Smith, CN = Users, DC = contoso, DC = com |
 | Exportable | Если задано значение TRUE, закрытый ключ можно экспортировать вместе с сертификатом. Чтобы обеспечить высокий уровень безопасности, закрытые ключи не должны быть экспортированы. Однако в некоторых случаях это может потребоваться, если несколько компьютеров или пользователей должны совместно использовать один закрытый ключ. | `true | false` | `Exportable = TRUE`. Ключи CNG могут различать этот и экспортируемый текст. Ключи CAPI1 не могут быть. |
@@ -129,7 +129,7 @@ subject = CN=W2K8-BO-DC.contoso2.com
 | усиксистингкэйсет | Этот параметр используется, чтобы указать, что при создании запроса на сертификат следует использовать существующую пару ключей. Если для этого раздела задано значение TRUE, необходимо также указать имя для ключа Реневалцерт или KeyContainer. Не следует задавать экспортируемый ключ, так как нельзя изменить свойства существующего ключа. В этом случае материал ключа не создается при создании запроса на сертификат. | `true | false` | `UseExistingKeySet = true` |
 | кэйпротектион | Задает значение, указывающее, как защищен закрытый ключ перед использованием. | <ul><li>`XCN_NCRYPT_UI_NO_PROTCTION_FLAG -- 0`</li><li>`XCN_NCRYPT_UI_PROTECT_KEY_FLAG -- 1`</li><li>`XCN_NCRYPT_UI_FORCE_HIGH_PROTECTION_FLAG -- 2`</li></ul> | `KeyProtection = NCRYPT_UI_FORCE_HIGH_PROTECTION_FLAG` |
 | суппрессдефаултс | Задает логическое значение, указывающее, включаются ли в запрос расширения по умолчанию и атрибуты. Значения по умолчанию представлены идентификаторами объектов (OID). | `true | false` | `SuppressDefaults = true` |
-| FriendlyName | Понятное имя для нового сертификата. | Text | `FriendlyName = Server1` |
+| FriendlyName | Понятное имя для нового сертификата. | Текст | `FriendlyName = Server1` |
 | ValidityPeriodUnits | Указывает число единиц, которое будет использоваться с Валидитипериод. Примечание. используется, только если `request type=cert` . | Числовой | `ValidityPeriodUnits = 3` |
 | ValidityPeriod | Валидитипериод должен быть одновременным периодом английского языка (США). Примечание. используется, только если тип запроса — CERT. | `Years |  Months | Weeks | Days | Hours | Minutes | Seconds` | `ValidityPeriod = Years` |
 
@@ -317,7 +317,7 @@ certreq –enroll -machine –cert 61 2d 3c fe 00 00 00 00 00 05 renew
 
 ## <a name="formats"></a>Форматы
 
-| Форматы | Описание: |
+| Форматы | Описание |
 | ------- | ----------- |
 | рекуестфилеин | Имя входного файла в кодировке Base64: запрос сертификата PKCS #10, запрос на сертификат CMS, запрос на продление сертификата PKCS #7, сертификат X. 509 для перекрестной сертификации или запрос сертификата в формате тега KeyGen. |
 | рекуестфилеаут | Имя выходного файла в кодировке Base64. |
@@ -339,7 +339,7 @@ certreq –enroll -machine –cert 61 2d 3c fe 00 00 00 00 00 05 renew
 
 - [Как создать сертификат SSL веб-сервера вручную](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/how-to-create-a-web-server-ssl-certificate-manually/ba-p/1128529)
 
-- [Регистрация сертификата для агента System Center Operations Manager](https://docs.microsoft.com/system-center/scom/plan-planning-agent-deployment?view=sc-om-2019)
+- [Регистрация сертификата для агента System Center Operations Manager](/system-center/scom/plan-planning-agent-deployment?view=sc-om-2019)
 
 - [Обзор службы сертификации Active Directory](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831740(v=ws.11))
 

@@ -1,20 +1,18 @@
 ---
 title: NTLM Overview
 description: Безопасность Windows Server
-ms.prod: windows-server
-ms.technology: security-kerberos
 ms.topic: article
 ms.assetid: 773909fd-c0bc-498a-95fc-bb452ec04d90
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/12/2016
-ms.openlocfilehash: 972b5b8eb5e25382c2c9b7841cf0d0fe4db6e647
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.openlocfilehash: 4a86b2571ab586bf2289ba263346a791ea28b02e
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87181880"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87943884"
 ---
 # <a name="ntlm-overview"></a>NTLM Overview
 

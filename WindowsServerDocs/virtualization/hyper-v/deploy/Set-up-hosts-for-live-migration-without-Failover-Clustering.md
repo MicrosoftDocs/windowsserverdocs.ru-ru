@@ -7,12 +7,12 @@ ms.assetid: b5e3c405-cb76-4ff2-8042-c2284448c435
 author: kbdazure
 ms.author: kathydav
 ms.date: 9/30/2016
-ms.openlocfilehash: 7bcd4e625f340ba7358a8ce9bdd860581c390e96
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: e07910b6f822ca29769fb398434f83272867dbe7
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87948023"
+ms.locfileid: "87992707"
 ---
 # <a name="set-up-hosts-for-live-migration-without-failover-clustering"></a>Настройка узлов для динамической миграции без отказоустойчивой кластеризации
 
@@ -112,7 +112,7 @@ ms.locfileid: "87948023"
 
 ### <a name="use-windows-powershell-to-set-up-the-source-and-destination-computers-for-live-migration"></a>Настройка исходного и конечного компьютеров для динамической миграции с помощью Windows PowerShell
 
-Для настройки динамической миграции на некластеризованные узлы доступны три командлета: [Enable-вммигратион](https://technet.microsoft.com/library/hh848544.aspx), [Set-вммигратионнетворк](https://technet.microsoft.com/library/hh848467.aspx)и [Set-vmhost](https://technet.microsoft.com/library/hh848524.aspx). В этом примере используются все три и выполняется следующее:
+Для настройки динамической миграции на некластеризованные узлы доступны три командлета: [Enable-вммигратион](/powershell/module/hyper-v/enable-vmmigration?view=win10-ps), [Set-вммигратионнетворк](/powershell/module/hyper-v/set-vmmigrationnetwork?view=win10-ps)и [Set-vmhost](/powershell/module/hyper-v/set-vmhost?view=win10-ps). В этом примере используются все три и выполняется следующее:
   - Настройка динамической миграции на локальном узле
   - Разрешает входящий трафик миграции только в определенной сети
   - Выбирает Kerberos в качестве протокола проверки подлинности
@@ -139,7 +139,7 @@ PS C:\> Set-VMHost -VirtualMachineMigrationPerformanceOption SMB
 |----------|---------------|
     |TCP/IP|Копирует память виртуальной машины на целевой сервер через подключение TCP/IP.|
     |Сжатие|Сжимает содержимое памяти виртуальной машины перед копированием его на целевой сервер через подключение TCP/IP. **Примечание.** Это значение **по умолчанию** .|
-    |SMB|Копирует память виртуальной машины на целевой сервер через подключение SMB 3,0.<p>— SMB Direct используется, когда сетевые адаптеры на исходном и целевом серверах имеют включенные возможности удаленного доступа к памяти (RDMA).<br />— Многоканальный SMB автоматически обнаруживает и использует несколько подключений, если определена правильная конфигурация многоканального SMB.<p>Дополнительные сведения см. в статье [Увеличение производительности файлового сервера с помощью SMB Direct](https://technet.microsoft.com/library/jj134210(WS.11).aspx).|
+    |SMB|Копирует память виртуальной машины на целевой сервер через подключение SMB 3,0.<p>— SMB Direct используется, когда сетевые адаптеры на исходном и целевом серверах имеют включенные возможности удаленного доступа к памяти (RDMA).<br />— Многоканальный SMB автоматически обнаруживает и использует несколько подключений, если определена правильная конфигурация многоканального SMB.<p>Дополнительные сведения см. в статье [Увеличение производительности файлового сервера с помощью SMB Direct](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj134210(v=ws.11)).|
 
  ## <a name="next-steps"></a>Дальнейшие действия
 

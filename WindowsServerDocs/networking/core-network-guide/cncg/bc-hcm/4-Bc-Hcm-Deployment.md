@@ -2,18 +2,16 @@
 title: Развертывание режима размещенного кэша BranchCache
 description: Это краткое описание содержит инструкции по развертыванию BranchCache в режиме размещенного кэша на компьютерах под управлением Windows Server 2016 и Windows 10.
 manager: brianlic
-ms.prod: windows-server
-ms.technology: networking-bc
 ms.topic: article
 ms.assetid: c635fa48-d064-4b8b-9dce-9f26abfbcfa4
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 10aba87b82804234a91dbc011be75b45724a1e9d
-ms.sourcegitcommit: b00d7c8968c4adc8f699dbee694afe6ed36bc9de
+ms.openlocfilehash: 0da0e9044841af8e86ef629e505103dd0fdb0804
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "80861747"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87952594"
 ---
 # <a name="branchcache-hosted-cache-mode-deployment"></a>Развертывание режима размещенного кэша BranchCache
 
@@ -27,7 +25,7 @@ ms.locfileid: "80861747"
 
 - [Перемещение и изменение размера размещенного кэша &#40;необязательно&#41;](6-Bc-Move-Resize-Cache.md)
 
-- [Предварительное хэширование и загрузка содержимого на сервере &#40;размещенного кэша необязательно&#41;](7-Bc-Prehash-Preload.md)
+- [Предварительное хэширование и загрузка содержимого на сервере размещенного кэша &#40;необязательно&#41;](7-Bc-Prehash-Preload.md)
 
 - [Настройка автоматического обнаружения кэша на стороне клиента с помощью точки подключения службы](10-Bc-Client-By-Scp.md)
 

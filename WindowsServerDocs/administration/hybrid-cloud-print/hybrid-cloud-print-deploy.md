@@ -7,12 +7,12 @@ author: msjimwu
 ms.author: coreyp
 manager: dongill
 ms.date: 3/15/2018
-ms.openlocfilehash: 3e5b732beb502bb0bf365136947ff380caf71545
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 253cf78e39809473fc865de90915b6a9f870d098
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87879915"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87992768"
 ---
 # <a name="deploy-windows-server-hybrid-cloud-print"></a>Развертывание функции Hybrid Cloud Print в Windows Server
 
@@ -34,19 +34,19 @@ ms.locfileid: "87879915"
 
 - Компьютер под Active Directory Windows Server 2016 или более поздней версии.
 
-  Дополнительные сведения о настройке Active Directory см. [в статье Пошаговое руководство. настройка Active Directory в Windows Server 2016](https://blogs.technet.microsoft.com/canitpro/2017/02/22/step-by-step-setting-up-active-directory-in-windows-server-2016/) .
+  Дополнительные сведения о настройке Active Directory см. [в статье Пошаговое руководство. настройка Active Directory в Windows Server 2016](/archive/blogs/canitpro/step-by-step-setting-up-active-directory-in-windows-server-2016) .
 
 - Выделенный, присоединенный к домену компьютер Windows Server 2016 или более поздней версии, работающий как сервер печати.
 
 - Выделенный, присоединенный к домену компьютер Windows Server 2016 или более поздней версии, работающий как сервер соединителя.
 
-  Дополнительные сведения см. в статье [Знакомство с соединителями Azure AD application proxy](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-connectors) .
+  Дополнительные сведения см. в статье [Знакомство с соединителями Azure AD application proxy](/azure/active-directory/manage-apps/application-proxy-connectors) .
 
 - Для публикации принтеров в Windows 10 имеется обновление или более поздний компьютер.
 
 - Общедоступное доменное имя.
 
-  Вы можете использовать имя домена, созданное Azure (*имя_домена*. onmicrosoft.com), или приобрести собственное доменное имя. См. раздел [Добавление имени личного домена с помощью портала Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/add-custom-domain).
+  Вы можете использовать имя домена, созданное Azure (*имя_домена*. onmicrosoft.com), или приобрести собственное доменное имя. См. раздел [Добавление имени личного домена с помощью портала Azure Active Directory](/azure/active-directory/fundamentals/add-custom-domain).
 
 ## <a name="deployment-steps"></a>Шаги по развертыванию
 
@@ -54,13 +54,13 @@ ms.locfileid: "87879915"
 
 ### <a name="step-1---install-azure-ad-connect"></a>Шаг 1. Установка Azure AD Connect
 
-1. Azure AD Connect синхронизирует Azure AD с локальной службой AD. На компьютере Windows Server с Active Directory Скачайте и установите Azure AD Connect программное обеспечение с помощью стандартных параметров. См. раздел [Приступая к работе с Azure AD Connect с помощью стандартных параметров](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-express).
+1. Azure AD Connect синхронизирует Azure AD с локальной службой AD. На компьютере Windows Server с Active Directory Скачайте и установите Azure AD Connect программное обеспечение с помощью стандартных параметров. См. раздел [Приступая к работе с Azure AD Connect с помощью стандартных параметров](/azure/active-directory/hybrid/how-to-connect-install-express).
 
 ### <a name="step-2---install-application-proxy"></a>Шаг 2. Установка прокси приложения
 
 1. Прокси приложения позволяет пользователям в вашей организации получать доступ к локальным приложениям из облака. Установите прокси приложения на сервере соединителя.
-    - Инструкции по установке см. [в разделе Учебник. Добавление локального приложения для удаленного доступа через прокси приложения в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-add-on-premises-application).
-    - Если организация имеет сложную топологию сети, рекомендуется использовать выделенную группу соединителей. См. раздел [Публикация приложений в отдельных сетях и расположениях с помощью групп соединителей](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-connector-groups).
+    - Инструкции по установке см. [в разделе Учебник. Добавление локального приложения для удаленного доступа через прокси приложения в Azure Active Directory](/azure/active-directory/manage-apps/application-proxy-add-on-premises-application).
+    - Если организация имеет сложную топологию сети, рекомендуется использовать выделенную группу соединителей. См. раздел [Публикация приложений в отдельных сетях и расположениях с помощью групп соединителей](/azure/active-directory/manage-apps/application-proxy-connector-groups).
 
 ### <a name="step-3---register-and-configure-applications"></a>Шаг 3. Регистрация и настройка приложений
 
@@ -174,7 +174,7 @@ ms.locfileid: "87879915"
     - Установите следующие роли сервера:
         - Роль сервера печати
         - Службы IIS
-    - Дополнительные сведения об установке ролей сервера см. в [статье Установка ролей, служб ролей и компонентов с помощью мастера добавления ролей и](https://docs.microsoft.com/windows-server/administration/server-manager/install-or-uninstall-roles-role-services-or-features#BKMK_installarfw) компонентов.
+    - Дополнительные сведения об установке ролей сервера см. в [статье Установка ролей, служб ролей и компонентов с помощью мастера добавления ролей и](../server-manager/install-or-uninstall-roles-role-services-or-features.md#install-roles-role-services-and-features-by-using-the-add-roles-and-features-wizard) компонентов.
 
     ![Роли сервера печати](../media/hybrid-cloud-print/PrintServer-Roles.png)
 
@@ -297,13 +297,13 @@ ms.locfileid: "87879915"
         `sqlite3.exe MopriaDeviceDb.db .read MopriaSQLiteDb.sql`
 
     - В проводнике откройте свойства файла Моприадевицедб. DB, чтобы добавить пользователей или группы, которым разрешено публиковать в базе данных Mopria на вкладке Безопасность. Пользователи или группы должны существовать в локальной Active Directory и синхронизироваться с Azure AD.
-    - Если решение развертывается в домене, не поддерживающем маршрутизацию (например, *mydomain*. local), домен Azure AD (например, *имя_домена*. onmicrosoft.com или приобретенный от стороннего поставщика) необходимо добавить в качестве суффикса имени участника-пользователя в локальную Active Directory. Это так же, как пользователь, который будет публиковать принтеры (например admin@*имя_домена*. onmicrosoft.com), можно добавить в параметр безопасности файла базы данных. См. статью [Подготовка домена без поддержки маршрутизации для синхронизации каталогов](https://docs.microsoft.com/office365/enterprise/prepare-a-non-routable-domain-for-directory-synchronization).
+    - Если решение развертывается в домене, не поддерживающем маршрутизацию (например, *mydomain*. local), домен Azure AD (например, *имя_домена*. onmicrosoft.com или приобретенный от стороннего поставщика) необходимо добавить в качестве суффикса имени участника-пользователя в локальную Active Directory. Это так же, как пользователь, который будет публиковать принтеры (например admin@*имя_домена*. onmicrosoft.com), можно добавить в параметр безопасности файла базы данных. См. статью [Подготовка домена без поддержки маршрутизации для синхронизации каталогов](/office365/enterprise/prepare-a-non-routable-domain-for-directory-synchronization).
 
     ![Разделы реестра сервера печати Mopria](../media/hybrid-cloud-print/PrintServer-SQLiteDB.png)
 
 ### <a name="step-5-optional---configure-pre-authentication-with-azure-ad"></a>Шаг 5 \[ необязательный. \] Настройка предварительной проверки подлинности в Azure AD
 
-1. Проверьте документ [ограниченное делегирование Kerberos для единого входа в приложения с помощью прокси приложения](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-configure-single-sign-on-with-kcd).
+1. Проверьте документ [ограниченное делегирование Kerberos для единого входа в приложения с помощью прокси приложения](/azure/active-directory/manage-apps/application-proxy-configure-single-sign-on-with-kcd).
 
 2. Настройка локального Active Directory.
     - На Active Directory компьютере откройте диспетчер сервера и выберите **инструменты**  >  **Active Directory пользователи и компьютеры**.
@@ -357,7 +357,7 @@ ms.locfileid: "87879915"
 |URI ресурса службы обнаружения принтеров  |моприадисковериресаурцеид      |
 
 > [!NOTE]
-> Если группа политик печати в облаке недоступна, но поставщик MDM поддерживает параметры OMA-URI, можно задать те же политики.  Дополнительные сведения см. на [этой](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-enterprisecloudprint#enterprisecloudprint-cloudprintoauthauthority) вкладке.
+> Если группа политик печати в облаке недоступна, но поставщик MDM поддерживает параметры OMA-URI, можно задать те же политики.  Дополнительные сведения см. на [этой](/windows/client-management/mdm/policy-csp-enterprisecloudprint#enterprisecloudprint-cloudprintoauthauthority) вкладке.
 
 - Значения для OMA-URI
   - Клаудпринтоаусаусорити =./вендор/мсфт/Полици/конфиг/ентерприсеклаудпринт/клаудпринтоаусаусорити
@@ -440,15 +440,15 @@ ms.locfileid: "87879915"
 
 > Примечание. Если используется принтер Екппринттест, выходной файл можно найти на компьютере сервера печати в папке C: \\ екптестаутпут \\ екптестпринт. XPS.
 
-## <a name="troubleshooting"></a>Устранение неполадок
+## <a name="troubleshooting"></a>Диагностика
 
 Ниже приведены распространенные проблемы при развертывании HCP.
 
 |Ошибка |Рекомендуемые действия |
 |------|------|
-|Сбой сценария PowerShell Клаудпринтдеплой | <ul><li>Убедитесь, что Windows Server имеет Последнее обновление.</li><li>Если используется Windows Server Update Services (WSUS), см. статью [как создавать компоненты по запросу и языковые пакеты, доступные при использовании WSUS или SCCM](https://docs.microsoft.com/windows/deployment/update/fod-and-lang-packs).</li></ul> |
+|Сбой сценария PowerShell Клаудпринтдеплой | <ul><li>Убедитесь, что Windows Server имеет Последнее обновление.</li><li>Если используется Windows Server Update Services (WSUS), см. статью [как создавать компоненты по запросу и языковые пакеты, доступные при использовании WSUS или SCCM](/windows/deployment/update/fod-and-lang-packs).</li></ul> |
 |Сбой установки SQLite с сообщением: обнаружен цикл зависимостей для пакета "System. Data. SQLite" | Install-Package System. Data. SQLite. Core-ProviderName NuGet-СкипдепенденЦиес<br>Install-Package System. Data. SQLite. EF6-ProviderName NuGet-СкипдепенденЦиес<br>Install-Package System. Data. SQLite. LINQ-ProviderName NuGet-СкипдепенденЦиес<br><br>После успешной загрузки пакетов убедитесь, что они имеют одинаковую версию. В противном случае добавьте параметр-requiredversion в приведенные выше команды и присвойте им одинаковую версию. |
-|Не удалось опубликовать принтер | <ul><li>Для сквозной предварительной проверки подлинности убедитесь, что пользователю, публикующий принтер, предоставлено правильное разрешение для базы данных публикации.</li><li>Для предварительной проверки подлинности Azure AD убедитесь, что в службах IIS включена проверка подлинности Windows. См. шаг 5,3. Кроме того, сначала попробуйте пройти предварительную проверку подлинности. Если транзитная Предварительная проверка подлинности работает, скорее всего, эта ошибка связана с прокси приложения. См. статью [Устранение неполадок прокси-сервера приложений и сообщений об ошибках](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-troubleshoot). Обратите внимание, что переключение на сквозной сброс параметров единого входа. Перейдите к шагу 5, чтобы снова настроить предварительную проверку подлинности Azure AD.</li></ul> |
+|Не удалось опубликовать принтер | <ul><li>Для сквозной предварительной проверки подлинности убедитесь, что пользователю, публикующий принтер, предоставлено правильное разрешение для базы данных публикации.</li><li>Для предварительной проверки подлинности Azure AD убедитесь, что в службах IIS включена проверка подлинности Windows. См. шаг 5,3. Кроме того, сначала попробуйте пройти предварительную проверку подлинности. Если транзитная Предварительная проверка подлинности работает, скорее всего, эта ошибка связана с прокси приложения. См. статью [Устранение неполадок прокси-сервера приложений и сообщений об ошибках](/azure/active-directory/manage-apps/application-proxy-troubleshoot). Обратите внимание, что переключение на сквозной сброс параметров единого входа. Перейдите к шагу 5, чтобы снова настроить предварительную проверку подлинности Azure AD.</li></ul> |
 |Задания печати остаются в состоянии "Отправлено" в состояние принтера | <ul><li>Убедитесь, что TLS 1,2 включен на сервере соединителя. См. связанную статью в шаге 2,1.</li><li>Убедитесь, что HTTP2 отключен на сервере соединителя. См. связанную статью в шаге 2,1.</li></ul> |
 
 Ниже приведены расположения журналов, которые могут помочь в устранении неполадок.

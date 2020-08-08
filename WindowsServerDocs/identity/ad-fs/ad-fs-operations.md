@@ -6,20 +6,18 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.prod: windows-server
-ms.technology: identity-adfs
-ms.openlocfilehash: 3442ada27e8e01b72561850f724d7e28d740f43b
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 3fb672d9557e7f10245e8c29ea1585cf9f4aadf9
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86964966"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87953191"
 ---
 # <a name="ad-fs-operations"></a>Операции AD FS
 
 
 
-Этот документ содержит список всех операций с документацией для AD FS. 
+Этот документ содержит список всех операций с документацией для AD FS.
 
 ## <a name="service-configuration"></a>Конфигурация службы
 - [Обновление SSL-сертификатов в AD FS и WAP 2016](./operations/manage-ssl-certificates-ad-fs-wap.md)
@@ -29,7 +27,7 @@ ms.locfileid: "86964966"
 - [Настройка заголовков ответов безопасности HTTP с помощью AD FS 2019](../ad-fs/operations/customize-http-security-headers-ad-fs.md)
 - [Делегирование доступа к командлету Powershell AD FS пользователям без прав администратора](../ad-fs/operations/delegate-ad-fs-pshell-access.md)
 - [Точная настройка SQL и задержка адресов](../ad-fs/operations/adfs-sql-latency.md)
-- [Группы доступности AlwaysOn](../ad-fs/operations/ad-fs-always-on.md) 
+- [Группы доступности AlwaysOn](../ad-fs/operations/ad-fs-always-on.md)
 
 
 ## <a name="authentication-configuration"></a>Настройка проверки подлинности
@@ -55,7 +53,7 @@ ms.locfileid: "86964966"
 
 
 ### <a name="device"></a>Устройство
-- [Элементы управления аутентификацией устройств в AD FS](../ad-fs/operations/device-authentication-controls-in-AD-FS.md) 
+- [Элементы управления аутентификацией устройств в AD FS](../ad-fs/operations/device-authentication-controls-in-AD-FS.md)
 
 
 ## <a name="authorization-configuration"></a>Настройка авторизации
@@ -64,8 +62,8 @@ ms.locfileid: "86964966"
 
 ## <a name="rpt--cpt-configuration"></a>RPT & конфигурация КПТ
 - [Настройка AD FS для аутентификации пользователей, хранящихся в каталогах LDAP](../ad-fs/operations/Configure-AD-FS-to-authenticate-users-stored-in-LDAP-directories.md)
-- [Настройка правил для утверждения](../ad-fs/operations/Configure-Claim-Rules.md) 
-- [Создание отношения доверия с поставщиком утверждений](../ad-fs/operations/Create-a-Claims-Provider-Trust.md) 
+- [Настройка правил для утверждения](../ad-fs/operations/Configure-Claim-Rules.md)
+- [Создание отношения доверия с поставщиком утверждений](../ad-fs/operations/Create-a-Claims-Provider-Trust.md)
 - [Создание отношения доверия с проверяющей стороной, не поддерживающей утверждения](../ad-fs/operations/Create-a-Non-Claims-Aware-Relying-Party-Trust.md)
 - [Создание отношений доверия с проверяющей стороной](../ad-fs/operations/Create-a-Relying-Party-Trust.md)
 - [Настройка AD FS для работы с агрегированным поставщиком Федерации (например, редкими)](../ad-fs/operations/Improved-interoperability-with-SAML-2.0.md)
@@ -77,7 +75,7 @@ ms.locfileid: "86964966"
 - [Настройка AD FS для отправки утверждений об истечении срока действия пароля](../ad-fs/operations/Configure-AD-FS-to-Send-Password-Expiry-Claims.md)
 - [Настройка аутентификации в интрасети на основе форм для устройств, не поддерживающих WIA](../ad-fs/operations/Configure-intranet-forms-based-authentication-for-devices-that-do-not-support-WIA.md)
 
-## <a name="other"></a>Другое
+## <a name="other"></a>Другие
 - [Присоединение к рабочей области с любого устройства для единого входа и эффективная двухфакторная аутентификация в приложениях компании](../ad-fs/operations/Join-to-Workplace-from-Any-Device-for-SSO-and-Seamless-Second-Factor-Authentication-Across-Company-Applications.md)
 - [Управление рисками для уязвимых приложений с помощью дополнительной многофакторной аутентификации](../ad-fs/operations/Manage-Risk-with-Additional-Multi-Factor-Authentication-for-Sensitive-Applications.md)
 - [Управление рисками с использованием условного управления доступом](../ad-fs/operations/Manage-Risk-with-Conditional-Access-Control.md)
@@ -87,4 +85,4 @@ ms.locfileid: "86964966"
 - [Пошаговое руководство: Присоединение к рабочему месту с устройства Windows](../ad-fs/operations/Walkthrough--Workplace-Join-with-a-Windows-Device.md)
 - [Пошаговое руководство: Присоединение к рабочему месту с устройства iOS](../ad-fs/operations/Walkthrough--Workplace-Join-with-an-iOS-Device.md)
 
-  
+

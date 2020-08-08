@@ -1,18 +1,16 @@
 ---
 title: Устранение неполадок защищенной структуры
-ms.prod: windows-server
 ms.topic: article
 ms.assetid: 55e954ec-6a5f-4b42-b6a7-1006f3e24556
 manager: dongill
 author: rpsqrd
 ms.author: ryanpu
-ms.technology: security-guarded-fabric
-ms.openlocfilehash: 90803df1ea8ce98ba94b4d1d27ed5678acc33d4d
-ms.sourcegitcommit: 771db070a3a924c8265944e21bf9bd85350dd93c
+ms.openlocfilehash: 7601614850962e9b1f51ca2d805a6aa1a1e45bcb
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85474977"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87944054"
 ---
 # <a name="troubleshooting-a-guarded-fabric"></a>Устранение неполадок защищенной структуры
 

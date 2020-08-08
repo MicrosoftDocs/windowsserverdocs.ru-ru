@@ -1,18 +1,16 @@
 ---
 title: Устранение неполадок экранированных виртуальных машин
-ms.prod: windows-server
 ms.topic: article
 manager: dongill
 author: rpsqrd
 ms.author: ryanpu
-ms.technology: security-guarded-fabric
 ms.date: 10/3/2018
-ms.openlocfilehash: c80663256a2e3404666b739c0a81cd06ec3caced
-ms.sourcegitcommit: b00d7c8968c4adc8f699dbee694afe6ed36bc9de
+ms.openlocfilehash: 6bcc32aae736a927576de28a15ca532279d4753b
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "80856377"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87944014"
 ---
 # <a name="troubleshoot-shielded-vms"></a>Устранение неполадок экранированных виртуальных машин
 

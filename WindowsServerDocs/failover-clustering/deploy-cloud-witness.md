@@ -7,12 +7,12 @@ ms.topic: article
 author: JasonGerend
 ms.date: 01/18/2019
 description: Сведения об использовании Microsoft Azure для размещения следящего сервера для отказоустойчивого кластера Windows Server в облаке — как развернуть облачный следящий сервер.
-ms.openlocfilehash: 937fb6c2d4aaabfd6399a6bebdce50e351b78fc6
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: fa0fee044b0a5e702cb56816bf9a878f209d6117
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87950198"
+ms.locfileid: "87993015"
 ---
 # <a name="deploy-a-cloud-witness-for-a-failover-cluster"></a>Развертывание облака-свидетеля для отказоустойчивого кластера
 
@@ -111,7 +111,7 @@ ms.locfileid: "87950198"
 ![Снимок экрана: ссылки на конечные точки облачных свидетелей ](media/Deploy-a-Cloud-Witness-for-a-Failover-Cluster/CloudWitness_5.png)
  **рис. 5. ссылки URL-адресов конечной точки облачного свидетеля**
 
-Дополнительные сведения о создании учетных записей хранения Azure и управлении ими см. в статье [об учетных записях хранения Azure](https://azure.microsoft.com/documentation/articles/storage-create-storage-account/) .
+Дополнительные сведения о создании учетных записей хранения Azure и управлении ими см. в статье [об учетных записях хранения Azure](/azure/storage/common/storage-account-create) .
 
 ## <a name="configure-cloud-witness-as-a-quorum-witness-for-your-cluster"></a>Настройка облака-свидетеля в качестве следящего сервера кворума для кластера
 Конфигурация облака-свидетеля хорошо интегрирована в существующий мастер настройки кворума, встроенный в диспетчер отказоустойчивости кластеров.
@@ -146,7 +146,7 @@ ms.locfileid: "87950198"
 ### <a name="configuring-cloud-witness-using-powershell"></a>Настройка облака-свидетеля с помощью PowerShell
 Существующая команда PowerShell Set-Клустеркуорум имеет новые дополнительные параметры, соответствующие облаку следящего сервера.
 
-Вы можете настроить Cloud следящий сервер с помощью [`Set-ClusterQuorum`](https://technet.microsoft.com/library/ee461013.aspx) следующей команды PowerShell:
+Вы можете настроить Cloud следящий сервер с помощью [`Set-ClusterQuorum`](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee461013(v=technet.10)) следующей команды PowerShell:
 
 ```PowerShell
 Set-ClusterQuorum -CloudWitness -AccountName <StorageAccountName> -AccessKey <StorageAccountAccessKey>

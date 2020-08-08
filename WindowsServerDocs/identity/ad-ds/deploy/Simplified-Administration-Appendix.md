@@ -6,14 +6,12 @@ ms.author: joflore
 manager: mtillman
 ms.date: 05/31/2017
 ms.topic: article
-ms.prod: windows-server
-ms.technology: identity-adds
-ms.openlocfilehash: c92f2633bea6def335ab50f93f0c95b48b9677b0
-ms.sourcegitcommit: 3632b72f63fe4e70eea6c2e97f17d54cb49566fd
+ms.openlocfilehash: 3cef76347bcd5a341b96a71fed58d2fe0085a46c
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87519441"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87953410"
 ---
 # <a name="simplified-administration-appendix"></a>Приложение по упрощенному администрированию
 
@@ -96,7 +94,7 @@ Windows Server 2012 добавляет два дополнительных па�
 
 В следующей таблице описаны два новых пункта меню:
 
-|Menu Item|Объяснение|
+|Menu Item|Описание|
 |--|--|
 |Создание полной Нодефраг% s|Создание носителя IFM без дефрагментации полного контроллера домена AD или экземпляра AD/LDS в папке% s|
 |Создание полного SYSVOL Нодефраг% s|Создание носителя IFM с SYSVOL и без дефрагментации для полного контроллера домена AD в папке% s|

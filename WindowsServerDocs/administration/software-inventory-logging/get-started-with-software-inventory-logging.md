@@ -7,12 +7,12 @@ author: brentfor
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 940c5d7795ff4dcf84bad0727d1f92d155b3ea1b
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: a8584b5e2cf1048e0bba5c217aa3e6031600839a
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87895654"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87993051"
 ---
 # <a name="get-started-with-software-inventory-logging"></a>Приступая к работе с журналом инвентаризации программного обеспечения
 
@@ -39,9 +39,8 @@ ms.locfileid: "87895654"
 -   Статистическая обработка данных инвентаризации программного обеспечения и сервера для широкого спектра сценариев управления ресурсами программного обеспечения путем включения функции ведения журнала инвентаризации программного обеспечения для каждого сервера и выбора целевого URI веб-сервера и отпечатка сертификата для проверки подлинности.
 
 ## <a name="see-also"></a>См. также:
-[Агрегатор инвентаризации программного обеспечения](https://technet.microsoft.com/library/mt572043.aspx)<br>
+[Агрегатор инвентаризации программного обеспечения](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/mt572043(v=ws.11))<br>
 [Управление журналом инвентаризации программного обеспечения](manage-software-inventory-logging.md)<br>
-[Командлеты ведения журнала инвентаризации программного обеспечения в Windows PowerShell](https://technet.microsoft.com/library/dn283390.aspx)<br>
+[Командлеты ведения журнала инвентаризации программного обеспечения в Windows PowerShell](/powershell/module/softwareinventorylogging/?view=winserver2012R2-ps)<br>
 [Набор средств](https://www.microsoft.com/download/en/details.aspx?id=7826) 
  оценки и планирования Майкрософт [Средство управления многопользовательской активацией](https://blogs.technet.com/b/volume-licensing/)
-

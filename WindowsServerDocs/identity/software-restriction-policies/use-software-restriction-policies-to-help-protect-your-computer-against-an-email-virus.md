@@ -1,20 +1,18 @@
 ---
 title: Использование политик ограниченного использования программ для защиты компьютера от вирусов, распространяемых по электронной почте
 description: Безопасность Windows Server
-ms.prod: windows-server
-ms.technology: security-software-restriction-policies
 ms.topic: article
 ms.assetid: 02f23979-f832-4e46-bdea-21fd77db35b2
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/12/2016
-ms.openlocfilehash: 3b9f727107ac9d392b52ab683aca510849fc534a
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: de636bf4e1783d1d6aaf1b78a45442c80e0a6d27
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86964696"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87953001"
 ---
 # <a name="use-software-restriction-policies-to-help-protect-your-computer-against-an-email-virus"></a>Использование политик ограниченного использования программ для защиты компьютера от вирусов, распространяемых по электронной почте
 
@@ -25,7 +23,7 @@ ms.locfileid: "86964696"
 ## <a name="introduction"></a>Введение
 Политики ограниченного использования программ — это основанная на групповых политиках функция, которая выявляет программы, работающие на компьютерах в домене, и управляет возможностью выполнения этих программ. Эти политики позволяют создать конфигурацию со строгими ограничениями для компьютеров, где разрешается запуск только определенных приложений. Политики интегрируются с доменными службами Active Directory и групповой политикой, но также могут настраиваться на изолированных компьютерах. Сведения об отправной точке для набора исправлений безопасности см. в разделе [политики ограниченного использования программ](software-restriction-policies.md).
 
-Начиная с Windows Server 2008 R2 и Windows 7, вместо политики SRP или вместе с ней в рамках стратегии управления приложениями можно использовать Windows AppLocker. 
+Начиная с Windows Server 2008 R2 и Windows 7, вместо политики SRP или вместе с ней в рамках стратегии управления приложениями можно использовать Windows AppLocker.
 
 #### <a name="configure-srp-to-help-protect-against-an-e-mail-virus"></a>Настройка SRP для защиты от вирусов в электронной почте
 

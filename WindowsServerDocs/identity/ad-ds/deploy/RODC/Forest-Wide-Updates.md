@@ -6,14 +6,12 @@ ms.author: joflore
 manager: mtillman
 ms.date: 10/29/2018
 ms.topic: article
-ms.prod: windows-server
-ms.technology: identity-adds
-ms.openlocfilehash: fbdfc76f9ef9869da855e315387c29d6daccf636
-ms.sourcegitcommit: 3632b72f63fe4e70eea6c2e97f17d54cb49566fd
+ms.openlocfilehash: 5f5320129710749b271eee3097d80a6a246265f3
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87519431"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87953363"
 ---
 # <a name="forest-wide-updates"></a>Обновление на уровне леса
 

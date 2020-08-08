@@ -7,12 +7,12 @@ author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 9f66bfb724a40a21bfaf323a54749f1d99c25e86
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: afaf0c75350cfb4121d0ebc664469f4494afe8c7
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87880346"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87992952"
 ---
 # <a name="certutil"></a>certutil
 
@@ -765,7 +765,7 @@ certutil [options] -store [certificatestorename [certID [outputfile]]]
 
 Где:
 
-- **цертификатесторенаме** — это имя хранилища сертификатов. Пример:
+- **цертификатесторенаме** — это имя хранилища сертификатов. Например:
 
   - `My, CA (default), Root,`
 
@@ -799,7 +799,7 @@ certutil [options] -store [certificatestorename [certID [outputfile]]]
 
 - `-grouppolicy`Параметр позволяет получить доступ к хранилищу групповой политики компьютера.
 
-Пример:
+Например:
 
 - `-enterprise NTAuth`
 
@@ -936,7 +936,7 @@ certutil [options] -viewstore [certificatestorename [certID [outputfile]]]
 
 - `-grouppolicy`Параметр позволяет получить доступ к хранилищу групповой политики компьютера.
 
-Пример:
+Например:
 
 - `-enterprise NTAuth`
 
@@ -976,7 +976,7 @@ certutil [options] -viewdelstore [certificatestorename [certID [outputfile]]]
 
 - `-grouppolicy`Параметр позволяет получить доступ к хранилищу групповой политики компьютера.
 
-Пример:
+Например:
 
 - `-enterprise NTAuth`
 
@@ -1101,7 +1101,7 @@ certutil [options] -setcasites delete
 - Этот `-f` параметр можно использовать для переопределения ошибок проверки для указанного **SiteName** или для удаления всех ЦС sitename.
 
 > [!NOTE]
-> Дополнительные сведения о настройке центров сертификации для поддержки сайта служб домен Active Directory Services (AD DS) см. в разделе [сведения о поддержке сайта AD DS для клиентов AD CS и PKI](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831740(v=ws.11)).
+> Дополнительные сведения о настройке центров сертификации для поддержки сайта служб домен Active Directory Services (AD DS) см. в разделе [сведения о поддержке сайта AD DS для клиентов AD CS и PKI](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831740(v=ws.11)).
 
 ### <a name="-enrollmentserverurl"></a>-Енроллментсерверурл
 
@@ -1474,7 +1474,7 @@ certutil [options] -sign infilelist | serialnumber | CRL outfilelist [#hashalgor
 
 - **обжектидлист** — список имен ObjectID с разделителями-запятыми удаляемых файлов.
 
-- ** \@ екстенсионфиле** — это INF-файл, содержащий расширения для обновления или удаления. Пример:
+- ** \@ екстенсионфиле** — это INF-файл, содержащий расширения для обновления или удаления. Например:
 
   ```
   [Extensions]
