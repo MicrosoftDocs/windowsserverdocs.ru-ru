@@ -1,20 +1,18 @@
 ---
 title: Рекомендации по запуску Linux в Hyper-V
 description: Содержит рекомендации по запуску Linux на виртуальной машине.
-ms.prod: windows-server
 manager: dongill
-ms.technology: compute-hyper-v
 ms.topic: article
 ms.assetid: a08648eb-eea0-4e2b-87fb-52bfe8953491
 author: shirgall
 ms.author: kathydav
 ms.date: 04/15/2020
-ms.openlocfilehash: 75b471d4083ef1597d5edcc775ea6fc847992483
-ms.sourcegitcommit: 771db070a3a924c8265944e21bf9bd85350dd93c
+ms.openlocfilehash: b9a03ec24adf0b77ff4a6e477f550c63760c9d85
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85474471"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87989101"
 ---
 # <a name="best-practices-for-running-linux-on-hyper-v"></a>Рекомендации по запуску Linux в Hyper-V
 
@@ -100,8 +98,8 @@ Hyper-V позволяет сжимать файлы виртуального д
 
 * [Рекомендации по запуску FreeBSD в Hyper-V](Best-practices-for-running-FreeBSD-on-Hyper-V.md)
 
-* [Развертывание кластера Hyper-V](https://technet.microsoft.com/library/jj863389.aspx)
+* [Развертывание кластера Hyper-V](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj863389(v=ws.11))
 
-* [Создание образов Linux для Azure](https://docs.microsoft.com/azure/virtual-machines/linux/create-upload-generic)
+* [Создание образов Linux для Azure](/azure/virtual-machines/linux/create-upload-generic)
 
-* [Оптимизация виртуальной машины Linux в Azure](https://docs.microsoft.com/azure/virtual-machines/linux/optimization)
+* [Оптимизация виртуальной машины Linux в Azure](/azure/virtual-machines/linux/optimization)

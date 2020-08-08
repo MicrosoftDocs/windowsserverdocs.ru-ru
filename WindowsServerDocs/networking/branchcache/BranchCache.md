@@ -6,12 +6,12 @@ ms.topic: article
 ms.assetid: a4587cff-c086-49f1-a0bf-cd74b8a44440
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 64ec120f552c5a95b69e9ac635e861507805b281
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: d03169b3af61dd4925b0ca2f972faff496955b9d
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87971961"
+ms.locfileid: "87989230"
 ---
 # <a name="branchcache"></a>BranchCache
 
@@ -143,7 +143,7 @@ BranchCache работает в двух режимах: в режиме рас�
 > [!NOTE]
 > Поскольку некоторые веб-прокси не могут обрабатывать нестандартные заголовки кодировки содержимого, рекомендуется использовать BranchCache с протоколом HTTPS, а не HTTP.
 
-= = = = = = = — Дополнительные сведения об облачных технологиях в Windows Server 2016 см. в разделе [программно определяемая сеть &#40;SDN&#41;](../sdn/Software-Defined-Networking--SDN-.md).
+= = = = = = = — Дополнительные сведения об облачных технологиях в Windows Server 2016 см. в разделе [программно определяемая сеть &#40;SDN&#41;](../sdn/software-defined-networking.md).
 
 ## <a name="content-information-versions"></a><a name="bkmk_version"></a>Версии сведений о содержимом
 

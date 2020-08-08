@@ -1,20 +1,18 @@
 ---
 title: Экспорт и импорт виртуальных машин
 description: Здесь показано, как экспортировать и импортировать виртуальные машины с помощью диспетчера Hyper-V или Windows PowerShell.
-ms.prod: windows-server
 author: kbdazure
 ms.author: kathydav
 manager: dongill
-ms.technology: compute-hyper-v
 ms.date: 12/13/2016
 ms.topic: article
 ms.assetid: 7fd996f5-1ea9-4b16-9776-85fb39a3aa34
-ms.openlocfilehash: f1b321c04ad0b7541f21b444499b13fd2b4e4a6d
-ms.sourcegitcommit: 32f810c5429804c384d788c680afac427976e351
+ms.openlocfilehash: 674c1640ced07df731b8667658fdbf3e5500e28d
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83203554"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87988942"
 ---
 # <a name="export-and-import-virtual-machines"></a>Экспорт и импорт виртуальных машин
 
@@ -38,13 +36,13 @@ ms.locfileid: "83203554"
 
 ### <a name="using-powershell"></a>Использование PowerShell
 
-Откройте сеанс от имени администратора и выполните команду, как показано ниже, после замены \< имени \> и пути виртуальной машины \< \> :
+Откройте сеанс от имени администратора и выполните команду, как показано ниже, после замены \<vm name\> и \<path\> :
 
 ```powershell
 Export-VM -Name \<vm name\> -Path \<path\>
 ```
 
-Дополнительные сведения см. в разделе [Export-VM](https://docs.microsoft.com/powershell/module/hyper-v/export-vm).
+Дополнительные сведения см. в разделе [Export-VM](/powershell/module/hyper-v/export-vm).
 
 ## <a name="import-a-virtual-machine"></a>Импорт виртуальной машины
 
@@ -58,7 +56,7 @@ Export-VM -Name \<vm name\> -Path \<path\>
 
 1. В меню **действия** в диспетчере Hyper-V щелкните **Импорт виртуальной машины**.
 
-2. Нажмите кнопку **Далее**.
+2. Щелкните **Далее**.
 
 3. Выберите папку, содержащую экспортированные файлы, и нажмите кнопку **Далее**.
 
@@ -96,7 +94,7 @@ Import-VM -Path 'C:\<vm export path>\2B91FEB3-F1E0-4FFF-B8BE-29CED892A95A.vmcx' 
 Import-VM -Path 'C:\<vm export path>\2B91FEB3-F1E0-4FFF-B8BE-29CED892A95A.vmcx' -Copy -GenerateNewId
 ```
 
-Дополнительные сведения см. в статье [Импорт-виртуальная машина](https://docs.microsoft.com/powershell/module/hyper-v/import-vm).
+Дополнительные сведения см. в статье [Импорт-виртуальная машина](/powershell/module/hyper-v/import-vm).
 
 ### <a name="import-types"></a>Типы импорта
 
@@ -107,4 +105,3 @@ Hyper-V предлагает три типа импорта:
 - **Восстановите виртуальную машину** . Восстановите виртуальную машину в выбранное расположение или используйте по умолчанию Hyper-V. Этот тип импорта создает копию экспортированных файлов и перемещает их в выбранное расположение. При импорте идентификатор виртуальной машины такой же, как и при экспорте. Поэтому, если виртуальная машина уже запущена в Hyper-V, ее необходимо удалить перед завершением импорта. После завершения импорта экспортированные файлы остаются неизменными и могут быть удалены или импортированы снова.
 
 - **Копировать виртуальную машину** — аналогично типу восстановления в, в котором выбирается расположение для файлов. Разница заключается в том, что импортированная виртуальная машина имеет новый уникальный идентификатор. Это означает, что виртуальную машину можно импортировать на один узел несколько раз.
-

@@ -2,24 +2,22 @@
 title: Использование политики DNS для применения фильтров к запросам DNS
 description: Этот раздел является частью руководств по сценариям политики DNS для Windows Server 2016.
 manager: brianlic
-ms.prod: windows-server
-ms.technology: networking-dns
 ms.topic: article
 ms.assetid: b86beeac-b0bb-4373-b462-ad6fa6cbedfa
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 45dad1eb40caba7ac304fc640e3d56044254f08c
-ms.sourcegitcommit: da7b9bce1eba369bcd156639276f6899714e279f
+ms.openlocfilehash: 81afa40adc51a89a12e096000de1f11f13730df6
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "80317832"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87964180"
 ---
 # <a name="use-dns-policy-for-applying-filters-on-dns-queries"></a>Использование политики DNS для применения фильтров к запросам DNS
 
->Область применения: Windows Server (Semi-Annual Channel), Windows Server 2016
+>Применяется к: Windows Server (Semi-Annual Channel), Windows Server 2016
 
-С помощью этого раздела вы узнаете, как настроить политику DNS в Windows Server&reg; 2016 для создания фильтров запросов на основе заданных вами условий. 
+С помощью этого раздела вы узнаете, как настроить политику DNS в Windows Server &reg; 2016 для создания фильтров запросов на основе предоставленных условий.
 
 Фильтры запросов в политике DNS позволяют настроить DNS-сервер на отправку пользовательского способа на основе DNS-запроса и DNS-клиента, отправляющего запрос DNS.
 
@@ -30,20 +28,20 @@ ms.locfileid: "80317832"
 ## <a name="query-filter-criteria"></a><a name="bkmk_criteria"></a>Условия фильтра запросов
 Фильтры запросов можно создавать с помощью любых логических сочетаний (и/или/или не) следующих критериев.
 
-|Имя|Описание|
+|name|Описание|
 |-----------------|---------------------|
 |Подсеть клиента|Имя предопределенной клиентской подсети. Используется для проверки подсети, из которой был отправлен запрос.|
 |Транспортный протокол|Транспортный протокол, используемый в запросе. Возможные значения: UDP и TCP.|
-|Протокол Интернета|Сетевой протокол, используемый в запросе. Возможные значения: IPv4 и IPv6.|
+|протокол IP|Сетевой протокол, используемый в запросе. Возможные значения: IPv4 и IPv6.|
 |IP-адрес интерфейса сервера|IP-адрес сетевого интерфейса DNS-сервера, получившего запрос DNS.|
-|FQDN|Полное доменное имя записи в запросе с возможностью использования подстановочных знаков.|
-|Тип запроса|Тип записи, запрашиваемой \(A, SRV, TXT и т. д.\).|
+|Полное доменное имя.|Полное доменное имя записи в запросе с возможностью использования подстановочных знаков.|
+|Тип запроса|Тип записи, запрашиваемой \( , SRV, txt и т. д. \)|
 |Время дня|Время суток, когда получен запрос.|
 
 В следующих примерах показано, как создать фильтры для политики DNS, которые либо блокируют, либо разрешают запросы разрешения имен DNS.
 
 >[!NOTE]
->В примерах команд в этом разделе используется команда Windows PowerShell **Add-днссерверкуериресолутионполици**. Дополнительные сведения см. в разделе [Add-днссерверкуериресолутионполици](https://docs.microsoft.com/powershell/module/dnsserver/add-dnsserverqueryresolutionpolicy?view=win10-ps). 
+>В примерах команд в этом разделе используется команда Windows PowerShell **Add-днссерверкуериресолутионполици**. Дополнительные сведения см. в разделе [Add-днссерверкуериресолутионполици](https://docs.microsoft.com/powershell/module/dnsserver/add-dnsserverqueryresolutionpolicy?view=win10-ps).
 
 ## <a name="block-queries-from-a-domain"></a><a name="bkmk_block1"></a>Блокировка запросов из домена
 
@@ -54,14 +52,14 @@ ms.locfileid: "80317832"
 В следующем примере команда настраивает политику на уровне сервера, чтобы заблокировать любые запросы с **суффиксом домена contosomalicious.com**.
 
 `
-Add-DnsServerQueryResolutionPolicy -Name "BlockListPolicy" -Action IGNORE -FQDN "EQ,*.contosomalicious.com" -PassThru 
+Add-DnsServerQueryResolutionPolicy -Name "BlockListPolicy" -Action IGNORE -FQDN "EQ,*.contosomalicious.com" -PassThru
 `
 
 >[!NOTE]
 >Если для параметра **действия** задано значение **игнорировать**, DNS-сервер настроен на удаление запросов без ответа. Это приводит к истечению времени ожидания DNS-клиента в вредоносном домене.
 
 ## <a name="block-queries-from-a-subnet"></a><a name="bkmk_block2"></a>Блокировка запросов из подсети
-В этом примере можно заблокировать запросы из подсети, если они будут заражены некоторыми вредоносными программами и пытаются связаться с вредоносными сайтами с помощью DNS-сервера. 
+В этом примере можно заблокировать запросы из подсети, если они будут заражены некоторыми вредоносными программами и пытаются связаться с вредоносными сайтами с помощью DNS-сервера.
 
 "Add-Днссерверклиентсубнет-Name" MaliciousSubnet06 "-IPv4Subnet 172.0.33.0/24-PassThru
 
@@ -86,7 +84,7 @@ Add-DnsServerQueryResolutionPolicy -Name "BlockListPolicyQType" -Action IGNORE -
 Приведенный ниже пример команды позволяет выполнять запросы к DNS-серверу только компьютерам и устройствам в contoso.com и дочерних доменах.
 
 `
-Add-DnsServerQueryResolutionPolicy -Name "AllowListPolicyDomain" -Action IGNORE -FQDN "NE,*.contoso.com" -PassThru 
+Add-DnsServerQueryResolutionPolicy -Name "AllowListPolicyDomain" -Action IGNORE -FQDN "NE,*.contoso.com" -PassThru
 `
 
 ## <a name="allow-queries-only-from-a-subnet"></a><a name="bkmk_allow2"></a>Разрешить запросы только из подсети
@@ -100,7 +98,7 @@ Add-DnsServerQueryResolutionPolicy -Name "AllowListPolicySubnet” -Action IGNOR
 `
 
 ## <a name="allow-only-certain-qtypes"></a><a name="bkmk_allow3"></a>Разрешить только определенные Ктипес
-Списки разрешений можно применять к Ктипес. 
+Списки разрешений можно применять к Ктипес.
 
 Например, если у вас есть внешние клиенты, которые запрашивают интерфейс DNS-сервера 164.8.1.1, запрашиваются только определенные Ктипес, а также другие Ктипес, такие как записи SRV или TXT, которые используются внутренними серверами для разрешения имен или для целей мониторинга.
 
@@ -108,4 +106,4 @@ Add-DnsServerQueryResolutionPolicy -Name "AllowListPolicySubnet” -Action IGNOR
 Add-DnsServerQueryResolutionPolicy -Name "AllowListQType" -Action IGNORE -QType "NE,A,AAAA,MX,NS,SOA" –ServerInterface “EQ,164.8.1.1” -PassThru
 `
 
-Вы можете создавать тысячи политик DNS в соответствии с требованиями к управлению трафиком, а все новые политики применяются динамически, без перезапуска DNS-сервера во входящих запросах. 
+Вы можете создавать тысячи политик DNS в соответствии с требованиями к управлению трафиком, а все новые политики применяются динамически, без перезапуска DNS-сервера во входящих запросах.

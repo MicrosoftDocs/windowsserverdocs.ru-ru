@@ -2,20 +2,18 @@
 title: Импорт пакетов данных на сервере размещенного кэша (необязательно)
 description: Это краткое описание содержит инструкции по развертыванию BranchCache в режиме размещенного кэша на компьютерах под управлением Windows Server 2016 и Windows 10.
 manager: brianlic
-ms.prod: windows-server
-ms.technology: networking-bc
 ms.topic: article
 ms.assetid: d6159e91-f77c-42ec-9180-14bbb230ad17
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 41bb7f5f0637bd4b1f1bfa3c0451debff58a3e5a
-ms.sourcegitcommit: da7b9bce1eba369bcd156639276f6899714e279f
+ms.openlocfilehash: f496182125fb288bd4e8b97a72389682f95fcc31
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "80318433"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87955971"
 ---
-# <a name="import-data-packages-on-the-hosted-cache-server-optional"></a>Импорт пакетов данных на сервере размещенного кэша \(необязательно\)
+# <a name="import-data-packages-on-the-hosted-cache-server-optional"></a>Импорт пакетов данных на сервере размещенного кэша \( необязательно\)
 
 >Область применения: Windows Server (Semi-Annual Channel), Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
@@ -23,19 +21,19 @@ ms.locfileid: "80318433"
 
 Эта процедура является необязательной, так как вам не требуется предварительно хэшировать и загружать содержимое на серверы размещенного кэша.
 
-Если вы не\-загрузить содержимое, данные добавляются в размещенный кэш автоматически, так как клиенты загружают его через подключение к глобальной сети.
+Если вы не \- загрузили содержимое, данные добавляются в размещенный кэш автоматически, так как клиенты загружают его через подключение к глобальной сети.
 
 Для выполнения этой процедуры необходимо быть членом группы "Администраторы".
 
-## <a name="to-import-data-packages-on-the-hosted-cache-server"></a>Импорт пакетов данных на сервере размещенного кэша  
+## <a name="to-import-data-packages-on-the-hosted-cache-server"></a>Импорт пакетов данных на сервере размещенного кэша
 
 1. На компьютере сервера откройте Windows PowerShell с правами администратора.
 
 2. Введите следующую команду, заменив значение параметра – Path на расположение папки, где хранятся пакеты данных, и нажмите клавишу ВВОД.
 
-    ```  
+    ```
     Import-BCCachePackage –Path D:\temp\PeerDistPackage.zip
-    ```  
+    ```
 
 3. При наличии нескольких серверов размещенного кэша, для которых требуется предварительная загрузка содержимого, выполните эту процедуру на каждом сервере размещенного кэша.
 

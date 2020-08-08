@@ -1,18 +1,16 @@
 ---
 title: Управление службой защиты узла
-ms.prod: windows-server
 ms.topic: article
 ms.assetid: eecb002e-6ae5-4075-9a83-2bbcee2a891c
 manager: dongill
 author: rpsqrd
 ms.author: ryanpu
-ms.technology: security-guarded-fabric
-ms.openlocfilehash: 19bf253a4cd669020442ca80f77c141f19ab94fe
-ms.sourcegitcommit: acfdb7b2ad283d74f526972b47c371de903d2a3d
+ms.openlocfilehash: 851ea4a57068c1544f290c48f370e04b96857cf6
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "87769462"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87989160"
 ---
 # <a name="managing-the-host-guardian-service"></a>Управление службой защиты узла
 
@@ -120,7 +118,7 @@ Remove-PSSession -Session $session
 Эти события можно просмотреть, открыв Просмотр событий и перейдя в Microsoft-Windows-HostGuardianService-аттестацию и Microsoft-Windows-HostGuardianService-Кэйпротектион.
 
 В больших средах часто предпочтительнее перенаправлять события в Центральный сборщик событий Windows, чтобы упростить анализ событий.
-Дополнительные сведения см. в [документации по пересылке событий Windows](https://msdn.microsoft.com/library/windows/desktop/bb427443.aspx).
+Дополнительные сведения см. в [документации по пересылке событий Windows](/windows/win32/wec/windows-event-collector).
 
 ### <a name="using-system-center-operations-manager"></a>Использование System Center Operations Manager
 Вы также можете использовать System Center 2016-Operations Manager для мониторинга HGS и защищенных узлов.
@@ -486,7 +484,7 @@ Add-HgsAttestationDumpPolicy -Name 'DumpEncryptionKey02' -PublicKeyHash '<paste 
 Не забудьте добавить каждый уникальный ключ шифрования дампа в HGS, если вы решили использовать разные ключи в защищенной структуре.
 Узлы, которые шифруют дампы памяти с ключом, который не известен службе HGS, не проходят аттестацию.
 
-Дополнительные сведения о [настройке шифрования дампа на узлах](https://technet.microsoft.com/windows-server-docs/virtualization/hyper-v/manage/about-dump-encryption)см. в документации по Hyper-V.
+Дополнительные сведения о [настройке шифрования дампа на узлах](../../virtualization/hyper-v/manage/about-dump-encryption.md)см. в документации по Hyper-V.
 
 #### <a name="check-if-the-system-passed-attestation"></a>Проверьте, прошел ли система аттестацию
 После регистрации необходимой информации в HGS следует проверить, прошел ли узел аттестацию.

@@ -2,24 +2,22 @@
 title: Настройка пространств имен DFS
 description: В этой статье рассматривается, как проводить тонкую настройку или оптимизацию пространств имен DFS.
 ms.date: 6/5/2017
-ms.prod: windows-server
-ms.technology: storage
 ms.topic: article
 author: JasonGerend
 manager: brianlic
 ms.author: jgerend
-ms.openlocfilehash: 011512deaeb99ded7d0bfc32a48f19ab3b622475
-ms.sourcegitcommit: 6aff3d88ff22ea141a6ea6572a5ad8dd6321f199
+ms.openlocfilehash: 348a34e24cf7d22dc376df37607f21f1dceea74a
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71386152"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87939400"
 ---
 # <a name="tuning-dfs-namespaces"></a>Настройка пространств имен DFS
 
-> Относится к: Windows Server 2019, Windows Server (половина ежегодного канала), Windows Server 2016, Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2, Windows Server 2008
+> Область применения: Windows Server 2019, Windows Server (половина ежегодного канала), Windows Server 2016, Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2, Windows Server 2008
 
-После создания пространства имен и добавления папок и целевых объектов ознакомьтесь со следующими разделами, чтобы настроить или оптимизировать способ, которым пространство имен DFS обрабатывает ссылки и опросы домен Active Directory Services (AD DS) для обновленных данных пространства имен.
+После создания пространства имен и добавления папок и конечных объектов обратитесь к следующим разделам, чтобы настроить или оптимизировать то, как пространство имен DFS обрабатывает ссылки и опрашивает доменные службы Active Directory (AD DS) для получения актуальных данных пространства имен:
 
 -   [Включение перечисления на основе доступа в пространстве имен](enable-access-based-enumeration-on-a-namespace.md)
 -   [Включение и отключение ссылок и восстановление размещения клиента](enable-or-disable-referrals-and-client-failback.md)

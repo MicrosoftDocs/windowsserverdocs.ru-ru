@@ -1,19 +1,17 @@
 ---
 title: Приступая к работе с центром администрирования Windows
 description: Приступая к работе с центром администрирования Windows
-ms.technology: manage
 ms.topic: article
 author: nwashburn-ms
 ms.author: niwashbu
 ms.localizationpriority: medium
-ms.prod: windows-server
 ms.date: 02/15/2019
-ms.openlocfilehash: 5c0094c9cecfb50304b0317ab11c60f0332ef3a7
-ms.sourcegitcommit: 3632b72f63fe4e70eea6c2e97f17d54cb49566fd
+ms.openlocfilehash: f03e97cb4c318a65b0daf4034f0f0cfd6fe053bf
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87518572"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87964610"
 ---
 # <a name="get-started-with-windows-admin-center"></a>Приступая к работе с центром администрирования Windows
 
@@ -54,7 +52,7 @@ ms.locfileid: "87518572"
 
 1. Щелкните **+ Добавить** в разделе **Все подключения**.
 
-   ![Центр администрирования Windows — страница "все подключения"](../media/launch/addserver0.png)
+   ![Windows Admin Center — страница "Все подключения"](../media/launch/addserver0.png)
 
 2. Выберите Добавление сервера, кластера, компьютера Windows или виртуальной машины Azure.
 

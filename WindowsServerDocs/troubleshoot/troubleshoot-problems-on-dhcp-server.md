@@ -1,20 +1,18 @@
 ---
 title: Устранение неполадок на сервере DHCP
 description: В этом артилцее объясняется, как устранять неполадки на DHCP-сервере и получать данные.
-ms.prod: windows-server
 ms.service: na
 manager: dcscontentpm
-ms.technology: server-general
 ms.date: 5/26/2020
 ms.topic: article
 author: Deland-Han
 ms.author: delhan
-ms.openlocfilehash: 5ec2ef358cfaf7841b093843848f2ea5ee42433e
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.openlocfilehash: d6fc69c15c3465769232d89f70a65ca915d0584e
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87181900"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87989033"
 ---
 # <a name="troubleshoot-problems-on-the-dhcp-server"></a>Устранение неполадок на сервере DHCP
 
@@ -26,7 +24,7 @@ ms.locfileid: "87181900"
 
   - Служба DHCP-сервера запущена и запущена. Чтобы проверить этот параметр, выполните команду **net start** и найдите **DHCP-сервер**.
 
-  - DHCP-сервер является полномочным. См. раздел [авторизация DHCP-сервера Windows в сценарии присоединения к домену](https://docs.microsoft.com/openspecs/windows_protocols/ms-dhcpe/56f8870b-a7c1-4db1-8a86-f69079fe5077).
+  - DHCP-сервер является полномочным. См. раздел [авторизация DHCP-сервера Windows в сценарии присоединения к домену](/openspecs/windows_protocols/ms-dhcpe/56f8870b-a7c1-4db1-8a86-f69079fe5077).
 
   - Убедитесь, что аренда IP-адресов доступна в области DHCP-сервера для подсети, в которой находится клиент DHCP. Для этого см. статистику для соответствующей области в консоли управления DHCP-сервером.
 
@@ -53,7 +51,7 @@ ms.locfileid: "87181900"
  [DHCP Server Filter Notification Events](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/dn800668\(v=ws.11\)) 
  [аудита DHCP-сервера](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/dn800668\(v=ws.11\))
 
-## <a name="data-collection"></a>сбор данных
+## <a name="data-collection"></a>Сбор данных
 
 ### <a name="dhcp-server-log"></a>Журнал DHCP-сервера
 

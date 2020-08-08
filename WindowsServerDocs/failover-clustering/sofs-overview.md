@@ -1,20 +1,18 @@
 ---
 title: Масштабируемый файловый сервер для обзора данных приложения
 description: Общие сведения о функции масштабируемый файловый сервер для Windows Server 201 R2 и Windows Server 2012.
-ms.prod: windows-server
 ms.topic: article
 author: JasonGerend
 ms.author: jgerend
 manager: lizross
-ms.technology: storage-failover-clustering
 ms.date: 04/26/2018
 ms.localizationpriority: medium
-ms.openlocfilehash: 8bcfb53b04a03a259c712dd4b3003f8c4a66d8ff
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.openlocfilehash: dfd39210b6db8516fafbe8b437c7d38cd7839bad
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87181720"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87972391"
 ---
 # <a name="scale-out-file-server-for-application-data-overview"></a>Масштабируемый файловый сервер для обзора данных приложения
 
@@ -66,7 +64,7 @@ ms.locfileid: "87181720"
 <thead>
 <tr class="header">
 <th>Область технологий</th>
-<th>Компонент</th>
+<th>Функция</th>
 <th>Кластер файлового сервера общего назначения</th>
 <th>Масштабируемый файловый сервер</th>
 </tr>
@@ -75,37 +73,37 @@ ms.locfileid: "87181720"
 <tr class="odd">
 <td>SMB</td>
 <td>Постоянная доступность SMB</td>
-<td>Да</td>
+<td>да</td>
 <td>да</td>
 </tr>
 <tr class="even">
 <td>SMB</td>
 <td>Технология SMB Multichannel</td>
-<td>Да</td>
+<td>да</td>
 <td>да</td>
 </tr>
 <tr class="odd">
 <td>SMB</td>
 <td>SMB Direct</td>
-<td>Да</td>
+<td>да</td>
 <td>да</td>
 </tr>
 <tr class="even">
 <td>SMB</td>
 <td>Шифрование SMB</td>
-<td>Да</td>
+<td>да</td>
 <td>да</td>
 </tr>
 <tr class="odd">
 <td>SMB</td>
 <td>Прозрачная отработка отказа SMB</td>
 <td>Да (если включена постоянная доступность)</td>
-<td>Да</td>
+<td>да</td>
 </tr>
 <tr class="even">
 <td>Файловая система</td>
 <td>NTFS</td>
-<td>Да</td>
+<td>да</td>
 <td>Н/Д</td>
 </tr>
 <tr class="odd">
@@ -129,19 +127,19 @@ ms.locfileid: "87181720"
 <tr class="even">
 <td>Управление файлами</td>
 <td>Дедупликация данных (Windows Server 2012)</td>
-<td>Да</td>
+<td>да</td>
 <td>Нет</td>
 </tr>
 <tr class="odd">
 <td>Управление файлами</td>
 <td>Дедупликация данных (Windows Server 2012 R2)</td>
-<td>Да</td>
+<td>да</td>
 <td>Да (только VDI)</td>
 </tr>
 <tr class="even">
 <td>Управление файлами</td>
 <td>Корень корневого сервера пространства имен DFS (DFSN)</td>
-<td>Да</td>
+<td>да</td>
 <td>Нет</td>
 </tr>
 <tr class="odd">
@@ -153,49 +151,49 @@ ms.locfileid: "87181720"
 <tr class="even">
 <td>Управление файлами</td>
 <td>Репликация DFS (DFSR)</td>
-<td>Да</td>
+<td>да</td>
 <td>Нет</td>
 </tr>
 <tr class="odd">
 <td>Управление файлами</td>
 <td>Диспетчер ресурсов файлового сервера (экраны и квоты)</td>
-<td>Да</td>
+<td>да</td>
 <td>Нет</td>
 </tr>
 <tr class="even">
 <td>Управление файлами</td>
 <td>Инфраструктура классификации файлов</td>
-<td>Да</td>
+<td>да</td>
 <td>Нет</td>
 </tr>
 <tr class="odd">
 <td>Управление файлами</td>
 <td>Динамический контроль доступа (доступ на основе утверждений, CAP)</td>
-<td>Да</td>
+<td>да</td>
 <td>Нет</td>
 </tr>
 <tr class="even">
 <td>Управление файлами</td>
 <td>Перенаправление папок</td>
-<td>Да</td>
+<td>да</td>
 <td>Не рекомендуется<em></td>
 </tr>
 <tr class="odd">
 <td>Управление файлами</td>
 <td>Автономные файлы (кэширование на стороне клиента)</td>
-<td>Да</td>
+<td>да</td>
 <td>Не рекомендуется</em></td>
 </tr>
 <tr class="even">
 <td>Управление файлами</td>
 <td>Проверка перемещаемых профилей пользователей</td>
-<td>Да</td>
+<td>да</td>
 <td>Не рекомендуется<em></td>
 </tr>
 <tr class="odd">
 <td>Управление файлами</td>
 <td>Домашние каталоги</td>
-<td>Да</td>
+<td>да</td>
 <td>Не рекомендуется</em></td>
 </tr>
 <tr class="even">
@@ -207,20 +205,20 @@ ms.locfileid: "87181720"
 <tr class="odd">
 <td>NFS</td>
 <td>Сервер NFS</td>
-<td>Да</td>
+<td>да</td>
 <td>Нет</td>
 </tr>
 <tr class="even">
 <td>Приложения</td>
 <td>Hyper-V</td>
 <td>Не рекомендуется</td>
-<td>Да</td>
+<td>да</td>
 </tr>
 <tr class="odd">
 <td>Приложения</td>
 <td>Microsoft SQL Server</td>
 <td>Не рекомендуется</td>
-<td>Да</td>
+<td>да</td>
 </tr>
 </tbody>
 </table>
@@ -250,7 +248,7 @@ ms.locfileid: "87181720"
 <table>
 <thead>
 <tr class="header">
-<th>Компонент</th>
+<th>Функция</th>
 <th>Способ поддержки сценария</th>
 </tr>
 </thead>

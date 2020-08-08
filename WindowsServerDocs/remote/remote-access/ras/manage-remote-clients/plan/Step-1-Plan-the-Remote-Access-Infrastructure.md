@@ -2,18 +2,16 @@
 title: Шаг 1. Планирование инфраструктуры удаленного доступа
 description: Этот раздел является частью руководств по удаленному управлению клиентами DirectAccess в Windows Server 2016.
 manager: brianlic
-ms.prod: windows-server
-ms.technology: networking-ras
 ms.topic: article
 ms.assetid: a1ce7af5-f3fe-4fc9-82e8-926800e37bc1
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 567097d69db8f0de3f93e315af06c18525ad3735
-ms.sourcegitcommit: acfdb7b2ad283d74f526972b47c371de903d2a3d
+ms.openlocfilehash: 88bc666b516d00b4c132b5b67ed702f071847fb0
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "87769592"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87989756"
 ---
 # <a name="step-1-plan-the-remote-access-infrastructure"></a>Шаг 1. Планирование инфраструктуры удаленного доступа
 
@@ -52,9 +50,9 @@ ms.locfileid: "87769592"
 
     Для установки безопасного подключения клиентских компьютеров к внутренней сети корпорации в технологии DirectAccess используются протоколы IPv6 и IPsec. Однако для работы DirectAccess необязательно подключаться к Интернету по IPv6 или использовать во внутренних сетях оборудование с поддержкой IPv6. Вместо этого он автоматически настраивает и использует технологии туннелирования IPv6 для туннелирования трафика IPv6 через протокол Интернета IPv4 (6to4, Teredo или IP-HTTPS) и в интрасети только с IPv4 (NAT64 или ISATAP). Общие сведение об этих технологиях туннелирования см. в следующих разделах:
 
-    -   [Технологии туннелирования IPv6](/previous-versions//bb726951(v=technet.10))
+    -   [Технологии туннелирования IPv6](/previous-versions/bb726951(v=technet.10))
 
-    -   [Спецификация протокола туннелирования IP-HTTPS](/previous-versions//bb726951(v=technet.10))
+    -   [Спецификация протокола туннелирования IP-HTTPS](/previous-versions/bb726951(v=technet.10))
 
 3.  Выполните необходимые настройки адаптеров и адресации в соответствии со следующей таблицей. Для развертываний, которые находятся за устройством NAT с помощью одного сетевого адаптера, настройте IP-адреса, используя только столбец **внутренний сетевой адаптер** .
 

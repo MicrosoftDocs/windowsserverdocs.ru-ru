@@ -1,20 +1,18 @@
 ---
 title: Удаленное управление узлами Hyper-V
 description: Описывает совместимость версий между узлами Hyper-v и диспетчером Hyper-V и подключение к удаленным узлам в различных средах, включая междоменные и автономные.
-ms.prod: windows-server
 manager: dongill
-ms.technology: compute-hyper-v
 ms.topic: article
 ms.assetid: 2d34e98c-6134-479b-8000-3eb360b8b8a3
 author: kbdazure
 ms.author: kathydav
 ms.date: 12/06/2016
-ms.openlocfilehash: bbd96e35cbab94f3e10a4f62f785db7724308a0f
-ms.sourcegitcommit: 771db070a3a924c8265944e21bf9bd85350dd93c
+ms.openlocfilehash: 86e8ca55dbd61dca98054e15c06394f03190122e
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85471109"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87989740"
 ---
 # <a name="remotely-manage-hyper-v-hosts-with-hyper-v-manager"></a>Удаленное управление узлами Hyper-V с помощью диспетчера Hyper-V
 
@@ -36,7 +34,7 @@ ms.locfileid: "85471109"
 |---|---|
 |Windows 2016, Windows 10|— Windows Server 2016 — все выпуски и варианты установки, включая Nano Server и соответствующую версию Hyper-V Server. <br>— Windows Server 2012 R2 — все выпуски и варианты установки и соответствующая версия Hyper-V Server. <br>— Windows Server 2012 — все выпуски и варианты установки и соответствующая версия Hyper-V Server. <br> – Windows 10 <br> – Windows 8.1  |
 | Windows Server 2012 R2, Windows 8.1 | — Windows Server 2012 R2 — все выпуски и варианты установки и соответствующая версия Hyper-V Server. <br>— Windows Server 2012 — все выпуски и варианты установки и соответствующая версия Hyper-V Server. <br>– Windows 8.1
-| Windows Server 2012 | — Windows Server 2012 — все выпуски и варианты установки и соответствующая версия Hyper-V Server.
+| Windows Server 2012 | — Windows Server 2012 — все выпуски и варианты установки и соответствующая версия Hyper-V Server.
 | Windows Server 2008 R2 с пакетом обновления 1 (SP1), Windows 7 с пакетом обновления 1 | — Windows Server 2008 R2 — все выпуски и варианты установки и соответствующая версия Hyper-V Server.
 | Windows Server 2008, Windows Vista с пакетом обновления 2 | — Windows Server 2008 — все выпуски и варианты установки и соответствующая версия Hyper-V Server.
 
@@ -49,7 +47,7 @@ ms.locfileid: "85471109"
 
 ## <a name="manage-hyper-v-on-a-local-computer"></a>Управление Hyper-V на локальном компьютере
 
-Диспетчер Hyper-V не отображает компьютеры, на которых размещается Hyper-V, до тех пор, пока не будет добавлен компьютер, включая локальный компьютер. Для этого:
+Диспетчер Hyper-V не отображает компьютеры, на которых размещается Hyper-V, до тех пор, пока не будет добавлен компьютер, включая локальный компьютер. Выполните указанные ниже действия.
 
 1. В левой области щелкните правой кнопкой мыши **Диспетчер Hyper-V**.
 2. Нажмите кнопку **подключиться к серверу**.
@@ -83,7 +81,7 @@ Enable-PSRemoting
 
 ### <a name="connect-to-a-windows-2016-or-windows-10-remote-host-as-a-different-user"></a>Подключение к удаленному узлу Windows 2016 или Windows 10 от имени другого пользователя
 
-Это позволяет подключиться к узлу Hyper-V, если вы не работаете на локальном компьютере как пользователь, являющийся членом группы администраторов Hyper-V или группы администраторов на узле Hyper-V. Для этого:
+Это позволяет подключиться к узлу Hyper-V, если вы не работаете на локальном компьютере как пользователь, являющийся членом группы администраторов Hyper-V или группы администраторов на узле Hyper-V. Выполните указанные ниже действия.
 
 1. В левой области щелкните правой кнопкой мыши **Диспетчер Hyper-V**.
 1. Нажмите кнопку **подключиться к серверу**.
@@ -95,7 +93,7 @@ Enable-PSRemoting
 
 ### <a name="connect-to-a-windows-2016-or-windows-10-remote-host-using-ip-address"></a>Подключение к удаленному узлу Windows 2016 или Windows 10 по IP-адресу
 
-Для этого:
+Выполните указанные ниже действия.
 
 1. В левой области щелкните правой кнопкой мыши **Диспетчер Hyper-V**.
 1. Нажмите кнопку **подключиться к серверу**.
@@ -106,7 +104,7 @@ Enable-PSRemoting
 
 ### <a name="connect-to-a-windows-2016-or-windows-10-remote-host-outside-your-domain-or-with-no-domain"></a>Подключение к удаленному узлу Windows 2016 или Windows 10 за пределами домена или без домена
 
-Для этого:
+Выполните указанные ниже действия.
 
 1. На управляемом узле Hyper-V откройте сеанс Windows PowerShell от имени администратора.
 
@@ -122,7 +120,7 @@ Enable-PSRemoting
    Enable-WSManCredSSP -Role server
    ```
 
-    Дополнительные сведения см. в разделе [Enable-PSRemoting](https://technet.microsoft.com/library/hh849694.aspx) и [Enable-WSManCredSSP](https://technet.microsoft.com/library/hh849872.aspx).
+    Дополнительные сведения см. в разделе [Enable-PSRemoting](/powershell/module/microsoft.powershell.core/enable-psremoting?view=powershell-7) и [Enable-WSManCredSSP](/powershell/module/microsoft.wsman.management/enable-wsmancredssp?view=powershell-7).
 
 Затем настройте компьютер, который будет использоваться для управления узлом Hyper-V.
 
@@ -145,7 +143,7 @@ Enable-PSRemoting
 >[!NOTE]
 > Это будет работать только для **удаленных** узлов windows Server 2016 или Windows 10.
 
-Сведения о командлете см. в разделе [Set-Item](https://msdn.microsoft.com/powershell/reference/5.1/microsoft.powershell.management/set-item) и [Enable-WSManCredSSP](https://technet.microsoft.com/library/hh849872.aspx).
+Сведения о командлете см. в разделе [Set-Item](/powershell/module/microsoft.powershell.management/set-item?view=powershell-7) и [Enable-WSManCredSSP](/powershell/module/microsoft.wsman.management/enable-wsmancredssp?view=powershell-7).
 
 ## <a name="install-hyper-v-manager"></a>Установка диспетчера Hyper-V
 
@@ -153,7 +151,7 @@ Enable-PSRemoting
 
 В Windows Server откройте диспетчер сервера \> **Управление** \> **добавлением ролей и компонентов**. Перейдите на страницу **компоненты** и разверните узел **средства удаленного администрирования сервера** администрирование \> **ролей** средства \> **управления Hyper-V**.
 
-В Windows Диспетчер Hyper-V доступен в [любой операционной системе Windows, включающей Hyper-v](https://msdn.microsoft.com/virtualization/hyperv_on_windows/quick_start/walkthrough_compatibility).
+В Windows Диспетчер Hyper-V доступен в [любой операционной системе Windows, включающей Hyper-v](/virtualization/hyper-v-on-windows/reference/hyper-v-requirements).
 
 1. На рабочем столе Windows нажмите кнопку Пуск и начните вводить **программы и компоненты**.
 1. В результатах поиска щелкните **программы и компоненты**.
@@ -170,4 +168,3 @@ add-windowsfeature rsat-hyper-v-tools
 ## <a name="additional-references"></a>Дополнительные ссылки
 
 [Установка Hyper-V](../get-started/Install-the-Hyper-V-role-on-Windows-Server.md)
-

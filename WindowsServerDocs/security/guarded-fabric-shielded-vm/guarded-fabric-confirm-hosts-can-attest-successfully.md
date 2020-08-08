@@ -1,19 +1,17 @@
 ---
 title: Подтверждение аттестации защищенных узлов
-ms.prod: windows-server
 ms.topic: article
 ms.assetid: 7485796b-b840-4678-9b33-89e9710fbbc7
 manager: dongill
 author: rpsqrd
 ms.author: ryanpu
-ms.technology: security-guarded-fabric
 ms.date: 09/25/2019
-ms.openlocfilehash: 69ff4bcfb407d01e184abd039be8aa0117372b4a
-ms.sourcegitcommit: 771db070a3a924c8265944e21bf9bd85350dd93c
+ms.openlocfilehash: 0162cd8c14640bfc025796995fdc2ce78b5912a2
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85475341"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87939645"
 ---
 # <a name="confirm-guarded-hosts-can-attest"></a>Подтверждение аттестации защищенных узлов
 

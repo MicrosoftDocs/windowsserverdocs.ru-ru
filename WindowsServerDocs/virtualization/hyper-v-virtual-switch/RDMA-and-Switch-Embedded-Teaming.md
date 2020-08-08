@@ -2,18 +2,16 @@
 title: Удаленный доступ к памяти (RDMA) и объединение внедренных коммутаторов
 description: В этом разделе приводятся сведения о настройке интерфейсов удаленного доступа к памяти (RDMA) с Hyper-V в Windows Server 2016, а также сведения о включенном в объединение коммутаторах (SET).
 manager: brianlic
-ms.prod: windows-server
-ms.technology: networking-hv-switch
 ms.topic: get-started-article
 ms.assetid: 68c35b64-4d24-42be-90c9-184f2b5f19be
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: b0f11e67467521a8cfa98f4035435bbed537eda2
-ms.sourcegitcommit: acfdb7b2ad283d74f526972b47c371de903d2a3d
+ms.openlocfilehash: 54d3ecbf752ce806a14d16088476bbb270e28271
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "87769572"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87989138"
 ---
 # <a name="remote-direct-memory-access-rdma-and-switch-embedded-teaming-set"></a>RDMA с удаленным доступом к памяти \( \) и переключенный \( набор команд внедрения\)
 
@@ -190,7 +188,7 @@ Get-NetAdapterRdma | fl *
 
 Так как набор встроен в виртуальный коммутатор Hyper-V, нельзя использовать SET внутри виртуальной машины. Однако вы можете использовать объединение сетевых карт в виртуальных машинах.
 
-Дополнительные сведения см. [в статье объединение сетевых карт в виртуальные машины (VM)](https://docs.microsoft.com/windows-server/networking/technologies/nic-teaming/nict-vms).
+Дополнительные сведения см. [в статье объединение сетевых карт в виртуальные машины (VM)](../../networking/technologies/nic-teaming/nic-teaming.md).
 
 Кроме того, SET Architecture не предоставляет интерфейсы команды. Вместо этого необходимо настроить порты виртуального коммутатора Hyper-V.
 
@@ -342,7 +340,7 @@ VMQ и SET работают вместе, и следует включать VMQ
 
 \(Для управления группами рекомендуется использовать System Center Virtual Machine Manager VMM \) , однако для управления наборами можно также использовать Windows PowerShell. В следующих разделах приведены команды Windows PowerShell, которые можно использовать для управления НАБОРом.
 
-Сведения о создании команды SET с помощью VMM см. в подразделе "Настройка логического коммутатора" раздела библиотека VMM System Center [Создание логических коммутаторов](https://docs.microsoft.com/system-center/vmm/network-switch).
+Сведения о создании команды SET с помощью VMM см. в подразделе "Настройка логического коммутатора" раздела библиотека VMM System Center [Создание логических коммутаторов](/system-center/vmm/network-switch).
 
 ### <a name="create-a-set-team"></a>Создание команды набора
 
@@ -376,7 +374,7 @@ Set-VMSwitchTeam -Name TeamedvSwitch -NetAdapterName "NIC 1","NIC 3"
 
 ### <a name="removing-a-set-team"></a>Удаление команды SET
 
-Группу набора можно удалить только путем удаления виртуального коммутатора Hyper-V, содержащего команду SET.  Сведения о том, как удалить виртуальный коммутатор Hyper-V, см. в разделе [Remove-VMSwitch](https://technet.microsoft.com/itpro/powershell/windows/hyper-v/remove-vmswitch) . В следующем примере удаляется виртуальный коммутатор с именем **сетвсвитч**.
+Группу набора можно удалить только путем удаления виртуального коммутатора Hyper-V, содержащего команду SET.  Сведения о том, как удалить виртуальный коммутатор Hyper-V, см. в разделе [Remove-VMSwitch](/powershell/module/hyper-v/remove-vmswitch?view=win10-ps) . В следующем примере удаляется виртуальный коммутатор с именем **сетвсвитч**.
 
 ```
 Remove-VMSwitch "SETvSwitch"

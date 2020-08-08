@@ -5,15 +5,13 @@ author: arduppal
 ms.author: arduppal
 ms.date: 12/19/2018
 ms.topic: article
-ms.prod: windows-server
-ms.technology: storage-replica
 manager: mchad
-ms.openlocfilehash: 8a1d98fd6c36876aebaf2f9abe4bed29f5485e8a
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: cb1b712e62b3b77def304526c7b65fd5187b56d5
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86955546"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87939363"
 ---
 # <a name="cluster-to-cluster-storage-replica-cross-region-in-azure"></a>Межрегиональная межкластерная репликация хранилища в Azure
 
@@ -65,11 +63,11 @@ ms.locfileid: "86955546"
    Подключите все узлы к домену и предоставьте права администратора для ранее созданного пользователя.
 
    Измените DNS-сервер виртуальной сети на частный IP-адрес контроллера домена.
-   - В этом примере контроллер домена **az2azDC** имеет частный IP-адрес (10.3.0.8). В виртуальной сети (**az2az-vnet** и **азкросс-vnet**) измените DNS-сервер 10.3.0.8. 
+   - В этом примере контроллер домена **az2azDC** имеет частный IP-адрес (10.3.0.8). В виртуальной сети (**az2az-vnet** и **азкросс-vnet**) измените DNS-сервер 10.3.0.8.
 
      В этом примере Подключите все узлы к "contoso.com" и предоставьте права администратора для "contosoadmin".
-   - Войдите как contosoadmin со всех узлов. 
- 
+   - Войдите как contosoadmin со всех узлов.
+
 6. Создайте кластеры (**SRAZC1**, **сразкросс**).
 
    Ниже приведены команды PowerShell для примера.
@@ -97,11 +95,11 @@ ms.locfileid: "86955546"
       - Создание проверки работоспособности: порт 59999
       - Создать правило балансировки нагрузки: разрешить порты с высоким уровнем доступности с включенным плавающим IP-адресом.
 
-   Укажите IP-адрес кластера в виде статического частного IP-адреса для балансировщика нагрузки. 
+   Укажите IP-адрес кластера в виде статического частного IP-адреса для балансировщика нагрузки.
       - азлбазкросс => интерфейсный IP-адрес: 10.0.0.10 (выбор неиспользуемого IP-адреса из подсети виртуальной сети (**азкросс-vnet**))
       - Создайте серверный пул для каждой подсистемы балансировки нагрузки. Добавьте связанные узлы кластера.
       - Создание проверки работоспособности: порт 59999
-      - Создать правило балансировки нагрузки: разрешить порты с высоким уровнем доступности с включенным плавающим IP-адресом. 
+      - Создать правило балансировки нагрузки: разрешить порты с высоким уровнем доступности с включенным плавающим IP-адресом.
 
 9. Создайте [шлюз виртуальной сети](https://ms.portal.azure.com/#create/Microsoft.VirtualNetworkGateway-ARM) для подключения между виртуальными сетями.
 
@@ -113,20 +111,20 @@ ms.locfileid: "86955546"
 
    - Создайте подключение типа "Виртуальная сеть — виртуальная сеть" от первого шлюза виртуальной сети к второму шлюзу виртуальной сети. Укажите общий ключ
 
-   - Создайте подключение типа "Виртуальная сеть — виртуальная сеть" от второго шлюза виртуальной сети к первому шлюзу виртуальной сети. Укажите тот же общий ключ, который указан в предыдущем шаге. 
+   - Создайте подключение типа "Виртуальная сеть — виртуальная сеть" от второго шлюза виртуальной сети к первому шлюзу виртуальной сети. Укажите тот же общий ключ, который указан в предыдущем шаге.
 
 10. На каждом узле кластера откройте порт 59999 (проба работоспособности).
 
     Выполните следующую команду на каждом узле:
 
     ```powershell
-      netsh advfirewall firewall add rule name=PROBEPORT dir=in protocol=tcp action=allow localport=59999 remoteip=any profile=any 
+      netsh advfirewall firewall add rule name=PROBEPORT dir=in protocol=tcp action=allow localport=59999 remoteip=any profile=any
     ```
 
 11. Предложите кластеру прослушивать сообщения проверки работоспособности через порт 59999 и отвечать с узла, который в данный момент владеет этим ресурсом.
 
-    Запустите его один раз с любого узла кластера для каждого кластера. 
-    
+    Запустите его один раз с любого узла кластера для каждого кластера.
+
     В нашем примере необходимо изменить "ИЛБИП" в соответствии со значениями конфигурации. Выполните следующую команду из одного узла **az2az1** / **az2az2**
 
     ```PowerShell
@@ -134,7 +132,7 @@ ms.locfileid: "86955546"
      $IPResourceName = "Cluster IP Address" # IP Address cluster resource name.
      $ILBIP = "10.3.0.100" # IP Address in Internal Load Balancer (ILB) - The static IP address for the load balancer configured in the Azure portal.
      [int]$ProbePort = 59999
-     Get-ClusterResource $IPResourceName | Set-ClusterParameter -Multiple @{"Address"="$ILBIP";"ProbePort"=$ProbePort;"SubnetMask"="255.255.255.255";"Network"="$ClusterNetworkName";"ProbeFailureThreshold"=5;"EnableDhcp"=0}  
+     Get-ClusterResource $IPResourceName | Set-ClusterParameter -Multiple @{"Address"="$ILBIP";"ProbePort"=$ProbePort;"SubnetMask"="255.255.255.255";"Network"="$ClusterNetworkName";"ProbeFailureThreshold"=5;"EnableDhcp"=0}
     ```
 
 12. Выполните следующую команду из одного узла **azcross1** / **azcross2**
@@ -143,7 +141,7 @@ ms.locfileid: "86955546"
      $IPResourceName = "Cluster IP Address" # IP Address cluster resource name.
      $ILBIP = "10.0.0.10" # IP Address in Internal Load Balancer (ILB) - The static IP address for the load balancer configured in the Azure portal.
      [int]$ProbePort = 59999
-     Get-ClusterResource $IPResourceName | Set-ClusterParameter -Multiple @{"Address"="$ILBIP";"ProbePort"=$ProbePort;"SubnetMask"="255.255.255.255";"Network"="$ClusterNetworkName";"ProbeFailureThreshold"=5;"EnableDhcp"=0}  
+     Get-ClusterResource $IPResourceName | Set-ClusterParameter -Multiple @{"Address"="$ILBIP";"ProbePort"=$ProbePort;"SubnetMask"="255.255.255.255";"Network"="$ClusterNetworkName";"ProbeFailureThreshold"=5;"EnableDhcp"=0}
     ```
 
     Убедитесь, что оба кластера могут подключаться и взаимодействовать друг с другом.
@@ -155,18 +153,18 @@ ms.locfileid: "86955546"
       Get-Cluster -Name SRAZC1 (ran from azcross1)
     ```
     ```powershell
-      Get-Cluster -Name SRAZCross (ran from az2az1) 
+      Get-Cluster -Name SRAZCross (ran from az2az1)
     ```
 
 13. Создайте облачный следящий сервер для обоих кластеров. Создайте две [учетные записи хранения](https://ms.portal.azure.com/#create/Microsoft.StorageAccount-ARM) (**az2azcw**,**азкроссса**) в Azure, по одной для каждого кластера в каждой группе ресурсов (**SR-AZ2AZ**, **SR-азкросс**).
-   
+
     - Скопируйте имя и ключ учетной записи хранения из "ключи доступа".
-    - Создайте облачный следящий сервер из диспетчера отказоустойчивости кластеров и используйте указанные выше имя и ключ учетной записи для ее создания. 
+    - Создайте облачный следящий сервер из диспетчера отказоустойчивости кластеров и используйте указанные выше имя и ключ учетной записи для ее создания.
 
 14. Выполнение [тестов проверки кластера](../../failover-clustering/create-failover-cluster.md#validate-the-configuration) перед переходом к следующему шагу
 
 15. Запустите Windows PowerShell и используйте командлет [Test-SRTopology](/powershell/module/storagereplica/test-srtopology?view=win10-ps), чтобы определить, все ли требования для реплики хранилища выполнены. Этот командлет можно запустить в режиме быстрой проверки требований или в режиме длительной оценки производительности.
- 
+
 16. Настройка реплики хранилища кластера в кластер.
     Предоставление доступа из одного кластера в другой в обоих направлениях:
 

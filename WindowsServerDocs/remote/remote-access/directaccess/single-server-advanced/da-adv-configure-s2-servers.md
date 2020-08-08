@@ -6,12 +6,12 @@ ms.topic: article
 ms.assetid: 35afec8e-39a4-463b-839a-3c300ab01174
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: f1d4be029ffac40486482ff8ff56528b5f662ba9
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 8b2ae3691ff0181dc4559692829febbbdba94c86
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87955271"
+ms.locfileid: "87989824"
 ---
 # <a name="step-2-configure-advanced-directaccess-servers"></a>Шаг 2. Настройка расширенных серверов DirectAccess
 
@@ -241,5 +241,4 @@ Set-DAClientExperienceConfiguration -FriendlyName 'Contoso DirectAccess Connecti
 
 ## <a name="next-step"></a>Следующий шаг
 
--   [Шаг 3. Проверка развертывания](Step-3-Verify-the-Deployment.md)
-
+-   [Шаг 3. Проверка развертывания](./da-adv-configure-s3-verify.md)

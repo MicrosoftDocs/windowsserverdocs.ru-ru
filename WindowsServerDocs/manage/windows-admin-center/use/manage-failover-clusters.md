@@ -1,23 +1,21 @@
 ---
 title: Управление отказоустойчивыми кластерами с помощью центра администрирования Windows
 description: Управление отказоустойчивыми кластерами с помощью центра администрирования Windows (Project Хонолулу)
-ms.technology: manage
 ms.topic: article
 author: daniellee-msft
 ms.author: jol
 ms.date: 06/18/2018
 ms.localizationpriority: medium
-ms.prod: windows-server
-ms.openlocfilehash: b7f015ac4c9906447069501bf0922b36306a51d7
-ms.sourcegitcommit: 083ff9bed4867604dfe1cb42914550da05093d25
+ms.openlocfilehash: a0b9c0e43d1573a52f69454ce05dd7a1c281510e
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "75950497"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87964420"
 ---
 # <a name="manage-failover-clusters-with-windows-admin-center"></a>Управление отказоустойчивыми кластерами с помощью центра администрирования Windows
 
->Относится к Windows Admin Center, ознакомительной версии Windows Admin Center
+>Область применения. Windows Admin Center, ознакомительная версия Windows Admin Center
 
 > [!Tip]
 > Только начинаете знакомство с Windows Admin Center?
@@ -44,7 +42,7 @@ ms.locfileid: "75950497"
 > [!NOTE]
 > Можно также управлять кластером с поддержкой Hyper-in, добавив кластер в качестве [подключения к кластеру с технологией Hyper-](manage-hyper-converged.md) in в центре администрирования Windows.
 
-## <a name="tools"></a>Средства
+## <a name="tools"></a>Инструменты
 
 Для подключений к отказоустойчивому кластеру доступны следующие средства.
 
@@ -63,7 +61,7 @@ ms.locfileid: "75950497"
 
 Управление отказоустойчивыми кластерами в центре администрирования Windows активно разрабатывается, а новые функции будут добавлены в ближайшем будущем. Вы можете просмотреть состояние и проголосовать за функции в UserVoice:
 
-|Запрос функции|
+|Запросы функций|
 |-------|
 | [Отобразить дополнительные сведения о кластеризованном диске](https://windowsserver.uservoice.com/forums/295071-management-tools/suggestions/31740424--cluster-more-disk-info-in-failover-cluster-manag) |
 | [Поддержка дополнительных действий кластера](https://windowsserver.uservoice.com/forums/295071-management-tools/suggestions/33558076--fcm-full-csv-management-cycle-in-one-place) |

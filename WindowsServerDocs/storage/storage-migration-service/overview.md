@@ -6,14 +6,12 @@ ms.author: jgerend
 manager: elizapo
 ms.date: 03/26/2020
 ms.topic: article
-ms.prod: windows-server
-ms.technology: storage
-ms.openlocfilehash: 1403e0ecd12c4c15924781d75bd9127874018451
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 18c9bb2bf22f107b988942706850907c67b5ec9a
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86953896"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87939332"
 ---
 # <a name="storage-migration-service-overview"></a>Обзор службы миграции хранилища
 
@@ -87,7 +85,7 @@ ms.locfileid: "86953896"
 - Windows Server 2019
 - Windows Server 2016
 - Windows Server 2012 R2
-- Windows Server 2012
+- Windows Server 2012
 - Windows Server 2008 R2
 - Windows Server 2008
 - Windows Server 2003 R2
@@ -136,7 +134,7 @@ ms.locfileid: "86953896"
 
    В этом видео показано, как использовать службу миграции хранилища для миграции на виртуальные машины Azure.
    > [!VIDEO https://www.youtube-nocookie.com/embed/k8Z9LuVL0xQ]
-   
+
 Если вы хотите выполнить перенос виртуальных машин в Azure без перехода на более позднюю версию операционной системы, рассмотрите возможность использования службы "миграция Azure". Дополнительные сведения см. в статье [Обзор службы миграции Azure](https://go.microsoft.com/fwlink/?linkid=2056064).
 
 ## <a name="whats-new-in-storage-migration-service"></a>Новые возможности службы миграции хранилища
