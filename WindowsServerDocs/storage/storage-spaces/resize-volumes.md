@@ -1,19 +1,17 @@
 ---
 title: Расширение томов в локальных дисковых пространствах
 description: Изменение размера томов в Локальные дисковые пространства с помощью Windows Admin Center и PowerShell.
-ms.prod: windows-server
 ms.reviewer: cosmosdarwin
 author: cosmosdarwin
 ms.author: cosdar
 manager: eldenc
-ms.technology: storage-spaces
 ms.date: 03/10/2020
-ms.openlocfilehash: 4526bdc87bfbb8cdaf6cc3b0e8f3cd1cd80f4a9d
-ms.sourcegitcommit: 771db070a3a924c8265944e21bf9bd85350dd93c
+ms.openlocfilehash: dccc8d25505fb1ac94af81b23334b7f8639dcc01
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85474611"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87971081"
 ---
 # <a name="extending-volumes-in-storage-spaces-direct"></a>Расширение томов в локальных дисковых пространствах
 > Применяется к: Windows Server 2019, Windows Server 2016
@@ -53,7 +51,7 @@ ms.locfileid: "85474611"
 
 Чтобы ознакомиться с ними, выполните командлет **Get-** с соответствующим существительным в PowerShell.
 
-Пример:
+Например:
 
 ```PowerShell
 Get-VirtualDisk

@@ -6,12 +6,12 @@ author: jwwool
 ms.author: jeffrew
 ms.localizationpriority: medium
 ms.date: 06/07/2019
-ms.openlocfilehash: bb416a45e18ea34628994b589e452f25d2d7744e
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 91e14b5ac023f6726ffc508f945567b83311d7a4
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87937673"
+ms.locfileid: "87997022"
 ---
 # <a name="windows-admin-center-known-issues"></a>Windows Admin Center — известные проблемы
 
@@ -195,7 +195,7 @@ ms.locfileid: "87937673"
 
   - Чтобы включить управление клиентом Windows 10, необходимо выполнить команду ```Enable-PSRemoting``` из командной строки PowerShell с повышенными привилегиями.
 
-  - Также может потребоваться обновить межсетевой экран, чтобы разрешить подключения вне локальной подсети с помощью команды ```Set-NetFirewallRule -Name WINRM-HTTP-In-TCP -RemoteAddress Any```. Инструкции по реализации более жестких ограничительных сценариев см. в [этой документации](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/enable-psremoting?view=powershell-5.1).
+  - Также может потребоваться обновить межсетевой экран, чтобы разрешить подключения вне локальной подсети с помощью команды ```Set-NetFirewallRule -Name WINRM-HTTP-In-TCP -RemoteAddress Any```. Инструкции по реализации более жестких ограничительных сценариев см. в [этой документации](/powershell/module/microsoft.powershell.core/enable-psremoting?view=powershell-5.1).
 
 ## <a name="cluster-deployment"></a>Развертывание кластера
 
@@ -222,7 +222,7 @@ Enable-windowsoptionalfeature -online -featurename Microsoft-hyper-v
 При создании кластера Stretch рекомендуется использовать серверы, присоединенные к домену. При попытке использовать компьютеры рабочей группы для растягивания развертывания кластера с ограничениями WinRM возникает ошибка сегментации сети.
 
 ### <a name="undo-and-start-over"></a>Отменить и начать заново
-При многократном использовании одних и тех же компьютеров для развертывания кластера, очистка предыдущих сущностей кластера важна для успешного развертывания кластера в том же наборе компьютеров. Инструкции по очистке кластера см. на странице Развертывание инфраструктуры с разделением [Hyper-](https://docs.microsoft.com/windows-server/manage/windows-admin-center/use/deploy-hyperconverged-infrastructure#undo-and-start-over) in.
+При многократном использовании одних и тех же компьютеров для развертывания кластера, очистка предыдущих сущностей кластера важна для успешного развертывания кластера в том же наборе компьютеров. Инструкции по очистке кластера см. на странице Развертывание инфраструктуры с разделением [Hyper-](../use/deploy-hyperconverged-infrastructure.md#undo-and-start-over) in.
 
 ### <a name="credssp"></a>CredSSP
 Мастер развертывания кластера Windows Admin Center использует CredSSP в нескольких местах. Это сообщение об ошибке выводится во время работы мастера (чаще всего это происходит на шаге проверка кластера).
@@ -291,7 +291,7 @@ Install-WindowsFeature –VHD <Path to the VHD> -Name Hyper-V, RSAT-Hyper-V-Tool
 
 ### <a name="azure-file-sync-permissions"></a>Синхронизация файлов Azure разрешения
 
-Для Синхронизация файлов Azure требуются разрешения в Azure, которые не были предоставлены центром администрирования Windows до версии 1910. Если вы зарегистрировали шлюз центра администрирования Windows в Azure с использованием версии, более ранней, чем Windows Admin Center версии 1910, необходимо обновить приложение Azure Active Directory, чтобы получить правильные разрешения на использование Синхронизация файлов Azure в последней версии центра администрирования Windows. Дополнительное разрешение позволяет Синхронизация файлов Azure выполнять автоматическую настройку доступа к учетной записи хранения, как описано в этой статье. [Убедитесь, что у синхронизация файлов Azure есть доступ к учетной записи хранения](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#tabpanel_CeZOj-G++Q-5_azure-portal).
+Для Синхронизация файлов Azure требуются разрешения в Azure, которые не были предоставлены центром администрирования Windows до версии 1910. Если вы зарегистрировали шлюз центра администрирования Windows в Azure с использованием версии, более ранней, чем Windows Admin Center версии 1910, необходимо обновить приложение Azure Active Directory, чтобы получить правильные разрешения на использование Синхронизация файлов Azure в последней версии центра администрирования Windows. Дополнительное разрешение позволяет Синхронизация файлов Azure выполнять автоматическую настройку доступа к учетной записи хранения, как описано в этой статье. [Убедитесь, что у синхронизация файлов Azure есть доступ к учетной записи хранения](/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2cazure-portal#tabpanel_CeZOj-G++Q-5_azure-portal).
 
 Чтобы обновить приложение Azure Active Directory, можно выполнить одно из двух действий.
 1. Перейдите в раздел **Параметры**  >  **Azure**  >  **Отмена регистрации**, а затем снова Зарегистрируйте центр администрирования Windows в Azure, убедившись, что вы решили создать новое приложение Azure Active Directory.
@@ -301,5 +301,5 @@ Install-WindowsFeature –VHD <Path to the VHD> -Name Hyper-V, RSAT-Hyper-V-Tool
 
 Службы управления Azure, в том числе Azure Monitor, Управление обновлениями Azure и центр безопасности Azure, используют один и тот же агент для локального сервера: Microsoft Monitoring Agent. Управление обновлениями Azure имеет ограниченный набор поддерживаемых регионов, и для нее требуется связать Log Analytics рабочую область с учетной записью службы автоматизации Azure. Из-за этого ограничения, если вы хотите настроить несколько служб в центре администрирования Windows, сначала необходимо настроить Azure Управление обновлениями, а затем — центр безопасности Azure или Azure Monitor. Если вы настроили какие бы то ни было службы управления Azure, использующие Microsoft Monitoring Agent, а затем попытаетесь настроить Azure Управление обновлениями с помощью центра администрирования Windows, центр администрирования Windows позволит настроить Управление обновлениями Azure только в том случае, если существующие ресурсы, связанные с Microsoft Monitoring Agent, поддерживают Управление обновлениями Azure. Если это не так, вы можете использовать два варианта:
 
-1. Перейдите на панель управления > Microsoft Monitoring Agent, чтобы [Отключить сервер от существующих решений управления Azure](https://docs.microsoft.com/azure/azure-monitor/platform/log-faq#q-how-do-i-stop-an-agent-from-communicating-with-log-analytics) (таких как Azure Monitor или центр безопасности Azure). Затем настройте Управление обновлениями Azure в центре администрирования Windows. После этого можно вернуться к настройке других решений по управлению Azure с помощью центра администрирования Windows без проблем.
-2. Вы можете [вручную настроить ресурсы Azure, необходимые для управление обновлениями Azure](https://docs.microsoft.com/azure/automation/automation-update-management) , а затем [вручную обновить Microsoft Monitoring Agent](https://docs.microsoft.com/azure/azure-monitor/platform/agent-manage#adding-or-removing-a-workspace) (за пределами центра администрирования Windows), чтобы добавить новую рабочую область, соответствующую используемому решению Управление обновлениями.
+1. Перейдите на панель управления > Microsoft Monitoring Agent, чтобы [Отключить сервер от существующих решений управления Azure](/azure/azure-monitor/platform/log-faq#q-how-do-i-stop-an-agent-from-communicating-with-log-analytics) (таких как Azure Monitor или центр безопасности Azure). Затем настройте Управление обновлениями Azure в центре администрирования Windows. После этого можно вернуться к настройке других решений по управлению Azure с помощью центра администрирования Windows без проблем.
+2. Вы можете [вручную настроить ресурсы Azure, необходимые для управление обновлениями Azure](/azure/automation/automation-update-management) , а затем [вручную обновить Microsoft Monitoring Agent](/azure/azure-monitor/platform/agent-manage#adding-or-removing-a-workspace) (за пределами центра администрирования Windows), чтобы добавить новую рабочую область, соответствующую используемому решению Управление обновлениями.

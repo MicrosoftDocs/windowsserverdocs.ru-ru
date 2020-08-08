@@ -7,12 +7,12 @@ ms.author: rickman
 manager: stevelee
 ms.topic: article
 ms.date: 07/14/2020
-ms.openlocfilehash: afdb856fc84bcee634381f04054a97f545056882
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 8cba3ac4d2e4680f480ff76db12c10553c1857d3
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87938797"
+ms.locfileid: "87996956"
 ---
 # <a name="plan-for-gpu-acceleration-in-windows-server"></a>Планирование ускорения GPU в Windows Server
 
@@ -37,7 +37,7 @@ ms.locfileid: "87938797"
 - [Дискретное назначение устройств (ДДА)](#discrete-device-assignment-dda)
 - [RemoteFX vGPU](#remotefx-vgpu)
 
-Помимо рабочих нагрузок виртуальных машин, Windows Server также поддерживает ускорение GPU контейнерных рабочих нагрузок в контейнерах Windows. Дополнительные сведения см. [в разделе ускорение GPU в контейнерах Windows](https://docs.microsoft.com/virtualization/windowscontainers/deploy-containers/gpu-acceleration).
+Помимо рабочих нагрузок виртуальных машин, Windows Server также поддерживает ускорение GPU контейнерных рабочих нагрузок в контейнерах Windows. Дополнительные сведения см. [в разделе ускорение GPU в контейнерах Windows](/virtualization/windowscontainers/deploy-containers/gpu-acceleration).
 
 ## <a name="discrete-device-assignment-dda"></a>Дискретное назначение устройств (ДДА)
 

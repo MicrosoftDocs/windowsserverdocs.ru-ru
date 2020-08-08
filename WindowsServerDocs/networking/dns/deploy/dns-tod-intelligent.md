@@ -6,12 +6,12 @@ ms.topic: article
 ms.assetid: 161446ff-a072-4cc4-b339-00a04857ff3a
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: f371b91ecd87e07af90a7a2f7a0c802fb3d6c7e5
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 771b87776e6530f330e68f1f06b39fef191cb7c7
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87955941"
+ms.locfileid: "87996889"
 ---
 # <a name="use-dns-policy-for-intelligent-dns-responses-based-on-the-time-of-day"></a>Получение интеллектуальных ответов DNS на основе времени дня с помощью политики DNS
 
@@ -80,7 +80,7 @@ Add-DnsServerClientSubnet -Name "AmericaSubnet" -IPv4Subnet "192.0.0.0/24, 182.0
 Add-DnsServerClientSubnet -Name "EuropeSubnet" -IPv4Subnet "141.1.0.0/24, 151.1.0.0/24"
 
 ```
-Дополнительные сведения см. в разделе [Add-днссерверклиентсубнет](https://docs.microsoft.com/powershell/module/dnsserver/add-dnsserverclientsubnet?view=win10-ps).
+Дополнительные сведения см. в разделе [Add-днссерверклиентсубнет](/powershell/module/dnsserver/add-dnsserverclientsubnet?view=win10-ps).
 
 #### <a name="create-the-zone-scopes"></a><a name="bkmk_zscopes"></a>Создание областей зоны
 После настройки подсетей клиента необходимо секционировать зону, трафик которой необходимо перенаправить на две разные области зоны, по одной области для каждой настроенной подсети клиента DNS.
@@ -100,7 +100,7 @@ Add-DnsServerZoneScope -ZoneName "contosogiftservices.com" -Name "SeattleZoneSco
 Add-DnsServerZoneScope -ZoneName "contosogiftservices.com" -Name "DublinZoneScope"
 
 ```
-Дополнительные сведения см. в разделе [Add-днссерверзонескопе](https://docs.microsoft.com/powershell/module/dnsserver/add-dnsserverzonescope?view=win10-ps).
+Дополнительные сведения см. в разделе [Add-днссерверзонескопе](/powershell/module/dnsserver/add-dnsserverzonescope?view=win10-ps).
 
 #### <a name="add-records-to-the-zone-scopes"></a><a name="bkmk_records"></a>Добавление записей в области зоны
 Теперь необходимо добавить записи, представляющие узел веб-сервера, в две области зоны.
@@ -117,7 +117,7 @@ Add-DnsServerResourceRecord -ZoneName "contosogiftservices.com" -A -Name "www" -
 ```
 Параметр Зонескопе не включается при добавлении записи в область по умолчанию. Это то же самое, что и добавление записей в стандартную зону DNS.
 
-Дополнительные сведения см. в разделе [Add-днссерверресаурцерекорд](https://docs.microsoft.com/powershell/module/dnsserver/add-dnsserverresourcerecord?view=win10-ps).
+Дополнительные сведения см. в разделе [Add-днссерверресаурцерекорд](/powershell/module/dnsserver/add-dnsserverresourcerecord?view=win10-ps).
 
 #### <a name="create-the-dns-policies"></a><a name="bkmk_policies"></a>Создание политик DNS
 После создания подсетей, разделов (областей зоны) и добавления записей необходимо создать политики, соединяющие подсети и секции, чтобы при получении запроса из источника в одной из подсетей DNS-клиента ответ был получен из правильной области действия этой зоны. Для сопоставления области зоны по умолчанию не требуются никакие политики.
@@ -148,12 +148,10 @@ Add-DnsServerQueryResolutionPolicy -Name "EuropePolicy" -Action ALLOW -ClientSub
 Add-DnsServerQueryResolutionPolicy -Name "RestOfWorldPolicy" -Action ALLOW --ZoneScope "DublinZoneScope,1;SeattleZoneScope,1" -ZoneName "contosogiftservices.com" -ProcessingOrder 5
 
 ```
-Дополнительные сведения см. в разделе [Add-днссерверкуериресолутионполици](https://docs.microsoft.com/powershell/module/dnsserver/add-dnsserverqueryresolutionpolicy?view=win10-ps).
+Дополнительные сведения см. в разделе [Add-днссерверкуериресолутионполици](/powershell/module/dnsserver/add-dnsserverqueryresolutionpolicy?view=win10-ps).
 
 Теперь на DNS-сервере настроены необходимые политики DNS для перенаправления трафика на основе географического расположения и времени суток.
 
 Когда DNS-сервер получает запросы на разрешение имен, DNS-сервер оценивает поля в DNS-запросе на соответствие настроенным политикам DNS. Если исходный IP-адрес в запросе разрешения имен соответствует любой из политик, область связанной зоны используется для ответа на запрос, а пользователь направляется к ресурсу, который является географически ближайшим к ним.
 
 Вы можете создавать тысячи политик DNS в соответствии с требованиями к управлению трафиком, а все новые политики применяются динамически, без перезапуска DNS-сервера во входящих запросах.
-
-

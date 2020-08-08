@@ -1,19 +1,17 @@
 ---
 title: Обзор системной аналитики
 description: System Insights — это новая функция прогнозной аналитики в Windows Server 2019. Прогнозные возможности System Insights — каждый, основанный на модели машинного обучения, выполняет локальное анализ системных данных Windows Server, таких как счетчики производительности и события, позволяя понять работу серверов и сократить эксплуатационные расходы, связанные с устранением неполадок в развертываниях.
-ms.prod: windows-server
-ms.technology: system-insights
 ms.topic: article
 author: gawatu
 ms.author: gawatu
 manager: mallikarjun.chadalapaka
 ms.date: 5/23/2018
-ms.openlocfilehash: b1f0fc5343c5228a02369a64bff2de50ab3f863e
-ms.sourcegitcommit: 771db070a3a924c8265944e21bf9bd85350dd93c
+ms.openlocfilehash: 9bedd593cdd26b67e6e16ddea73955bb926a87a5
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85471769"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87996676"
 ---
 # <a name="system-insights-overview"></a>Обзор системной аналитики
 
@@ -23,7 +21,7 @@ System Insights — это новая функция прогнозной ана
 
 В Windows Server 2019 System Insights поставляется с четырьмя возможностями по умолчанию, которые зависят от прогнозирования емкости, прогнозирования будущего ресурса для вычислений, сети и хранилища на основе предыдущих моделей использования. System Insights также поставляется с [расширяемой инфраструктурой](adding-and-developing-capabilities.md), поэтому корпорация Майкрософт и сторонние компании могут добавлять новые прогнозные возможности в System Insights без обновления операционной системы.
 
-Вы можете управлять System Insights с помощью интуитивно понятного расширения [центра администрирования Windows](https://docs.microsoft.com/windows-server/manage/windows-admin-center/overview) или [напрямую с помощью PowerShell](https://aka.ms/SystemInsightsPowerShell), а System Insights позволяет настраивать каждую прогнозную возможность отдельно в соответствии с потребностями вашего развертывания. Все результаты прогноза публикуются в журнале событий, что позволяет использовать [Azure Monitor](https://azure.microsoft.com/services/monitor/) или [System Center Operations Manager](https://docs.microsoft.com/system-center/scom/welcome?view=sc-om-1807) для простого агрегирования и просмотра прогнозов в группе компьютеров.
+Вы можете управлять System Insights с помощью интуитивно понятного расширения [центра администрирования Windows](../windows-admin-center/overview.md) или [напрямую с помощью PowerShell](https://aka.ms/SystemInsightsPowerShell), а System Insights позволяет настраивать каждую прогнозную возможность отдельно в соответствии с потребностями вашего развертывания. Все результаты прогноза публикуются в журнале событий, что позволяет использовать [Azure Monitor](https://azure.microsoft.com/services/monitor/) или [System Center Operations Manager](/system-center/scom/welcome?view=sc-om-1807) для простого агрегирования и просмотра прогнозов в группе компьютеров.
 
 ![Расширение System Insights в центре администрирования Windows, в котором показана возможность прогнозирования ресурсов ЦП с помощью графика для прогнозирования прогноза](media/cpu-forecast-2.png)
 
@@ -32,7 +30,7 @@ System Insights выполняется полностью локально на 
 
 Системные данные хранятся на компьютере, и эти данные анализируются прогнозными возможностями, которые не нуждаются в повторном обучении в облаке. С помощью System Insights можно сохранить данные на компьютере и по-прежнему использовать возможности прогнозной аналитики.
 
-## <a name="get-started"></a>Приступая к работе
+## <a name="get-started"></a>Начало работы
 
 <iframe src=https://www.youtube-nocookie.com/embed/AJxQkx5WSaA width=560 height=315 allowfullscreen></iframe>
 

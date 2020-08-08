@@ -6,18 +6,18 @@ ms.topic: article
 ms.assetid: 5dc529f7-7bc3-48dd-b83d-92a09e4055c4
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: c52c26d44e50075f9c28dfdec7c2ab4fc420e163
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: a93302ee89bf8c4b9a78fc6651e77fb566d1e9c6
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87948957"
+ms.locfileid: "87996999"
 ---
 # <a name="step-1-configure-the-directaccess-infrastructure"></a>Шаг 1. Настройка инфраструктуры DirectAccess
 
 >Область применения. Windows Server (Semi-Annual Channel), Windows Server 2016
 
-В этом разделе описывается настройка необходимой инфраструктуры для создания DirectAccess в уже развернутой сети VPN. Перед началом развертывания убедитесь, что выполнены шаги по планированию, описанные в разделе [Шаг 1. Планирование инфраструктуры DirectAccess](Step-1-Plan-DirectAccess-Infrastructure.md).
+В этом разделе описывается настройка необходимой инфраструктуры для создания DirectAccess в уже развернутой сети VPN. Перед началом развертывания убедитесь, что выполнены шаги по планированию, описанные в разделе [Шаг 1. Планирование инфраструктуры DirectAccess](./step-1-plan-da-inf-davpn.md).
 
 |Задача|Описание|
 |----|--------|
@@ -328,6 +328,3 @@ Add-ADGroupMember -Identity DirectAccess_clients_group_name -Members <computer_n
 13. Нажмите кнопку **OK**, щелкните **Зарегистрировать** и нажмите кнопку **Готово**.
 
 14. В области сведений оснастки "Сертификаты" убедитесь, что новый сертификат был зарегистрирован с целью проверки подлинности сервера.
-
-
-

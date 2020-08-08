@@ -1,20 +1,18 @@
 ---
 title: Перевод сервера локальных дисковых пространств в автономный режим для обслуживания
-ms.prod: windows-server
 ms.author: eldenc
 manager: eldenc
-ms.technology: storage-spaces
 ms.topic: article
 author: eldenchristensen
 ms.date: 10/08/2018
 ms.assetid: 73dd8f9c-dcdb-4b25-8540-1d8707e9a148
 ms.localizationpriority: medium
-ms.openlocfilehash: 8dba155f8b8d7312a823dedc72d23268d7d13fbf
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: d3fd3e1c6ca9a7493ac0bcdc809f68fe22f8fa67
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86955916"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87971091"
 ---
 # <a name="taking-a-storage-spaces-direct-server-offline-for-maintenance"></a>Перевод сервера локальных дисковых пространств в автономный режим для обслуживания
 
@@ -82,7 +80,7 @@ Suspend-ClusterNode -Drain
 
 После завершения очистки сервера в диспетчере отказоустойчивого кластера и PowerShell он будет показан с состоянием **Приостановлено**.
 
-![Приостановлено](media/maintain-servers/paused.png)
+![Пауза](media/maintain-servers/paused.png)
 
 Теперь вы можете безопасно перезапустить или завершить работу сервера обычным способом (например, с помощью командлетов PowerShell Stop-Computer или Restart-Computer).
 

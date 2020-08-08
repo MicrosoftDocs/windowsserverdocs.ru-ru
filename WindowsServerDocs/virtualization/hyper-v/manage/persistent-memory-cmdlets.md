@@ -1,18 +1,16 @@
 ---
 title: Командлеты для настройки устройств постоянной памяти для виртуальных машин Hyper-V
 description: Настройка устройств энергонезависимой памяти для виртуальных машин Hyper-V
-ms.prod: windows-server
-ms.technology: compute-hyper-v
 ms.topic: article
 ms.assetid: b5715c02-a90f-4de9-a71e-0fc08039ba1d
 author: coreyp-at-msft
 ms.author: coreyp
-ms.openlocfilehash: 4e981185f5ba3ff8e6ad7dc22acc51591d5d32dc
-ms.sourcegitcommit: acfdb7b2ad283d74f526972b47c371de903d2a3d
+ms.openlocfilehash: 471dd9a7c3feb148b9ce27ec7ac4d714be0e86af
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "87769042"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87996699"
 ---
 # <a name="cmdlets-for-configuring-persistent-memory-devices-for-hyper-v-vms"></a>Командлеты для настройки устройств постоянной памяти для виртуальных машин Hyper-V
 
@@ -22,7 +20,7 @@ ms.locfileid: "87769042"
 
 ## <a name="create-a-persistent-memory-device-for-a-vm"></a>Создание постоянного устройства памяти для виртуальной машины
 
-Используйте командлет **[New-VHD](https://docs.microsoft.com/powershell/module/hyper-v/new-vhd?view=win10-ps)** , чтобы создать постоянное устройство памяти для виртуальной машины. Устройство должно быть создано на существующем томе DAX NTFS.  Новое расширение имени файла (. вхдпмем) используется для указания того, что устройство является устройством постоянного обмена памятью. Поддерживается только фиксированный формат VHD-файла.
+Используйте командлет **[New-VHD](/powershell/module/hyper-v/new-vhd?view=win10-ps)** , чтобы создать постоянное устройство памяти для виртуальной машины. Устройство должно быть создано на существующем томе DAX NTFS.  Новое расширение имени файла (. вхдпмем) используется для указания того, что устройство является устройством постоянного обмена памятью. Поддерживается только фиксированный формат VHD-файла.
 
 **Пример:** `New-VHD d:\VMPMEMDevice1.vhdpmem -Fixed -SizeBytes 4GB`
 
@@ -40,7 +38,7 @@ Add-VMPmemController ProductionVM1x
 
 ## <a name="attach-a-persistent-memory-device-to-a-vm"></a>Подключение устройства энергонезависимой памяти к виртуальной машине
 
-Использование **[Add-вмхарддискдриве](https://docs.microsoft.com/powershell/module/hyper-v/add-vmharddiskdrive?view=win10-ps)** для подключения устройства энергонезависимой памяти к виртуальной машине
+Использование **[Add-вмхарддискдриве](/powershell/module/hyper-v/add-vmharddiskdrive?view=win10-ps)** для подключения устройства энергонезависимой памяти к виртуальной машине
 
 **Пример:** `Add-VMHardDiskDrive ProductionVM1 PMEM -ControllerLocation 1 -Path D:\VPMEMDevice1.vhdpmem`
 

@@ -2,18 +2,16 @@
 title: Управление трафиком на основе географического расположения на основных и вспомогательных серверах с помощью политики DNS
 description: Этот раздел является частью руководств по сценариям политики DNS для Windows Server 2016.
 manager: brianlic
-ms.prod: windows-server
-ms.technology: networking-dns
 ms.topic: article
 ms.assetid: a9ee7a56-f062-474f-a61c-9387ff260929
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: e819cf2e3e0b4803e9efc9886a679e5128432087
-ms.sourcegitcommit: 3632b72f63fe4e70eea6c2e97f17d54cb49566fd
+ms.openlocfilehash: 45bff2c65f0497216cb8c7e7dc9dd670c5387ba2
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87518270"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87996860"
 ---
 # <a name="use-dns-policy-for-geo-location-based-traffic-management-with-primary-secondary-deployments"></a>Управление трафиком на основе географического расположения на основных и вспомогательных серверах с помощью политики DNS
 
@@ -80,7 +78,7 @@ ms.locfileid: "87518270"
 
 ## <a name="how-to-configure-dns-policy-for-primary-secondary-geo-location-based-traffic-management"></a>Настройка политики DNS для управления трафиком на основе географического расположения
 
-Прежде чем начать, убедитесь, что выполнены все действия, описанные в разделе [Использование политики DNS для управления трафиком на основе географического расположения с первичными серверами](../../dns/deploy/Scenario--Use-DNS-Policy-for-Geo-Location-Based-Traffic-Management-with-Primary-Servers.md), а основной DNS-сервер настроен с зонами, областями зоны, подсетями клиента DNS и политикой DNS.
+Прежде чем начать, убедитесь, что выполнены все действия, описанные в разделе [Использование политики DNS для управления трафиком на основе географического расположения с первичными серверами](./primary-geo-location.md), а основной DNS-сервер настроен с зонами, областями зоны, подсетями клиента DNS и политикой DNS.
 
 > [!NOTE]
 > В этом разделе приведены инструкции по копированию подсетей клиентов DNS, областей зоны и политик DNS с основных серверов DNS на серверы-получатели DNS для начальной настройки DNS и проверки. В будущем может потребоваться изменить параметры подсети клиента DNS, области зоны и политики на сервере-источнике. В этом случае можно создать скрипты автоматизации для синхронизации серверов-получателей с сервером-источником.
@@ -113,7 +111,7 @@ Add-DnsServerSecondaryZone -Name "woodgrove.com" -ZoneFile "woodgrove.com.dns" -
 Add-DnsServerSecondaryZone -Name "woodgrove.com" -ZoneFile "woodgrove.com.dns" -MasterServers 10.0.0.1 -ComputerName SecondaryServer2
 ```
 
-Дополнительные сведения см. в разделе [Add-днссерверсекондаризоне](https://docs.microsoft.com/powershell/module/dnsserver/add-dnsserversecondaryzone?view=win10-ps).
+Дополнительные сведения см. в разделе [Add-днссерверсекондаризоне](/powershell/module/dnsserver/add-dnsserversecondaryzone?view=win10-ps).
 
 ### <a name="configure-the-zone-transfer-settings-on-the-primary-zone"></a>Настройка параметров зонных передач в основной зоне
 
@@ -131,7 +129,7 @@ Add-DnsServerSecondaryZone -Name "woodgrove.com" -ZoneFile "woodgrove.com.dns" -
 Set-DnsServerPrimaryZone -Name "woodgrove.com" -Notify Notify -SecondaryServers "10.0.0.2,10.0.0.3" -SecureSecondaries TransferToSecureServers -ComputerName PrimaryServer
 ```
 
-Дополнительные сведения см. в разделе [Set-днссерверпримаризоне](https://docs.microsoft.com/powershell/module/dnsserver/set-dnsserverprimaryzone?view=win10-ps).
+Дополнительные сведения см. в разделе [Set-днссерверпримаризоне](/powershell/module/dnsserver/set-dnsserverprimaryzone?view=win10-ps).
 
 ### <a name="copy-the-dns-client-subnets"></a>Копирование подсетей клиента DNS
 
@@ -144,7 +142,7 @@ Get-DnsServerClientSubnet -ComputerName PrimaryServer | Add-DnsServerClientSubne
 Get-DnsServerClientSubnet -ComputerName PrimaryServer | Add-DnsServerClientSubnet -ComputerName SecondaryServer2
 ```
 
-Дополнительные сведения см. в разделе [Add-днссерверклиентсубнет](https://docs.microsoft.com/powershell/module/dnsserver/add-dnsserverclientsubnet?view=win10-ps).
+Дополнительные сведения см. в разделе [Add-днссерверклиентсубнет](/powershell/module/dnsserver/add-dnsserverclientsubnet?view=win10-ps).
 
 ### <a name="create-the-zone-scopes-on-the-secondary-server"></a>Создание областей зоны на сервере-получателе
 
@@ -160,7 +158,7 @@ Get-DnsServerZoneScope -ZoneName "woodgrove.com" -ComputerName PrimaryServer|Add
 > [!NOTE]
 > В этих примерах команд параметр **-ErrorAction Ignore** включен, так как область зоны по умолчанию существует в каждой зоне. Область зоны по умолчанию не может быть создана или удалена. Конвейеризация приведет к попытке создать эту область, и она завершится ошибкой. Кроме того, можно создать области зон, не заданные по умолчанию, в двух дополнительных зонах.
 
-Дополнительные сведения см. в разделе [Add-днссерверзонескопе](https://docs.microsoft.com/powershell/module/dnsserver/add-dnsserverzonescope?view=win10-ps).
+Дополнительные сведения см. в разделе [Add-днссерверзонескопе](/powershell/module/dnsserver/add-dnsserverzonescope?view=win10-ps).
 
 ### <a name="configure-dns-policy"></a>Настройка политики DNS
 
@@ -174,7 +172,7 @@ $policy | Add-DnsServerQueryResolutionPolicy -ZoneName "woodgrove.com" -Computer
 $policy | Add-DnsServerQueryResolutionPolicy -ZoneName "woodgrove.com" -ComputerName SecondaryServer2
 ```
 
-Дополнительные сведения см. в разделе [Add-днссерверкуериресолутионполици](https://docs.microsoft.com/powershell/module/dnsserver/add-dnsserverqueryresolutionpolicy?view=win10-ps).
+Дополнительные сведения см. в разделе [Add-днссерверкуериресолутионполици](/powershell/module/dnsserver/add-dnsserverqueryresolutionpolicy?view=win10-ps).
 
 Теперь вторичные DNS-серверы настраиваются с помощью необходимых политик DNS для перенаправления трафика на основе географического расположения.
 

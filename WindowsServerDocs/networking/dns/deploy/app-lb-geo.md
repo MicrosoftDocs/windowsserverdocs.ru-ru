@@ -2,18 +2,16 @@
 title: Использование политики DNS для балансировки нагрузки приложений с помощью сведений о географическом расположении
 description: Этот раздел является частью руководств по сценариям политики DNS для Windows Server 2016.
 manager: brianlic
-ms.prod: windows-server
-ms.technology: networking-dns
 ms.topic: article
 ms.assetid: b6e679c6-4398-496c-88bc-115099f3a819
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: b66ae0ef1bf319b991efc01c062ec156bf277c31
-ms.sourcegitcommit: 3632b72f63fe4e70eea6c2e97f17d54cb49566fd
+ms.openlocfilehash: 00195c4993f3e5bef9688adbfd09f62f908b6276
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87518399"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87996938"
 ---
 # <a name="use-dns-policy-for-application-load-balancing-with-geo-location-awareness"></a>Использование политики DNS для балансировки нагрузки приложений с помощью сведений о географическом расположении
 
@@ -21,10 +19,10 @@ ms.locfileid: "87518399"
 
 С помощью этого раздела можно узнать, как настроить политику DNS для балансировки нагрузки приложения с учетом географического расположения.
 
-В предыдущем разделе этого руководстве [используется политика DNS для балансировки нагрузки приложений](https://technet.microsoft.com/windows-server-docs/networking/dns/deploy/app-lb), используется пример вымышленной компании Contoso, которая предоставляет службы Интернет-подарков и веб-сайт с именем contosogiftservices.com. Служба "Подарочные службы Contoso" распределяет интерактивное веб-приложение между серверами в центрах обработки данных в Северной Америке, расположенных в Сиэтле, WA, Чикаго, IL и Далласе, TX.
+В предыдущем разделе этого руководстве [используется политика DNS для балансировки нагрузки приложений](./app-lb.md), используется пример вымышленной компании Contoso, которая предоставляет службы Интернет-подарков и веб-сайт с именем contosogiftservices.com. Служба "Подарочные службы Contoso" распределяет интерактивное веб-приложение между серверами в центрах обработки данных в Северной Америке, расположенных в Сиэтле, WA, Чикаго, IL и Далласе, TX.
 
 >[!NOTE]
->Рекомендуется ознакомиться с разделом [Использование политики DNS для балансировки нагрузки приложений](https://technet.microsoft.com/windows-server-docs/networking/dns/deploy/app-lb) перед выполнением инструкций в этом сценарии.
+>Рекомендуется ознакомиться с разделом [Использование политики DNS для балансировки нагрузки приложений](./app-lb.md) перед выполнением инструкций в этом сценарии.
 
 В этом разделе используется одна и та же вымышленная компания и сетевая инфраструктура в качестве основы для нового примера развертывания, включающего сведения о географическом расположении.
 
@@ -60,7 +58,7 @@ Add-DnsServerClientSubnet -Name "AmericaSubnet" -IPv4Subnet 192.0.0.0/24,182.0.0
 Add-DnsServerClientSubnet -Name "EuropeSubnet" -IPv4Subnet 141.1.0.0/24,151.1.0.0/24
 ```
 
-Дополнительные сведения см. в разделе [Add-днссерверклиентсубнет](https://docs.microsoft.com/powershell/module/dnsserver/add-dnsserverclientsubnet?view=win10-ps).
+Дополнительные сведения см. в разделе [Add-днссерверклиентсубнет](/powershell/module/dnsserver/add-dnsserverclientsubnet?view=win10-ps).
 
 ### <a name="create-the-zone-scopes"></a><a name="bkmk_zscopes2"></a>Создание областей зоны
 
@@ -84,7 +82,7 @@ Add-DnsServerZoneScope -ZoneName "contosogiftservices.com" -Name "DublinZoneScop
 Add-DnsServerZoneScope -ZoneName "contosogiftservices.com" -Name "AmsterdamZoneScope"
 ```
 
-Дополнительные сведения см. в разделе [Add-днссерверзонескопе](https://docs.microsoft.com/powershell/module/dnsserver/add-dnsserverzonescope?view=win10-ps) .
+Дополнительные сведения см. в разделе [Add-днссерверзонескопе](/powershell/module/dnsserver/add-dnsserverzonescope?view=win10-ps) .
 
 ### <a name="add-records-to-the-zone-scopes"></a><a name="bkmk_records2"></a>Добавление записей в области зоны
 
@@ -97,7 +95,7 @@ Add-DnsServerResourceRecord -ZoneName "contosogiftservices.com" -A -Name "www" -
 Add-DnsServerResourceRecord -ZoneName "contosogiftservices.com" -A -Name "www" -IPv4Address "141.1.0.1" -ZoneScope "AmsterdamZoneScope"
 ```
 
-Дополнительные сведения см. в разделе [Add-днссерверресаурцерекорд](https://docs.microsoft.com/powershell/module/dnsserver/add-dnsserverresourcerecord?view=win10-ps).
+Дополнительные сведения см. в разделе [Add-днссерверресаурцерекорд](/powershell/module/dnsserver/add-dnsserverresourcerecord?view=win10-ps).
 
 ### <a name="create-the-dns-policies"></a><a name="bkmk_policies2"></a>Создание политик DNS
 
@@ -117,7 +115,7 @@ Add-DnsServerQueryResolutionPolicy -Name "EuropeLBPolicy" -Action ALLOW -ClientS
 Add-DnsServerQueryResolutionPolicy -Name "WorldWidePolicy" -Action ALLOW -FQDN "eq,*.contoso.com" -ZoneScope "SeattleZoneScope,1;ChicagoZoneScope,1; TexasZoneScope,1;DublinZoneScope,1;AmsterdamZoneScope,1" -ZoneName "contosogiftservices.com" -ProcessingOrder 3
 ```
 
-Дополнительные сведения см. в разделе [Add-днссерверкуериресолутионполици](https://docs.microsoft.com/powershell/module/dnsserver/add-dnsserverqueryresolutionpolicy?view=win10-ps).
+Дополнительные сведения см. в разделе [Add-днссерверкуериресолутионполици](/powershell/module/dnsserver/add-dnsserverqueryresolutionpolicy?view=win10-ps).
 
 Теперь вы успешно создали политику DNS, которая обеспечивает балансировку нагрузки приложений между веб-серверами, расположенными в пяти разных центрах обработки данных на нескольких континентах.
 

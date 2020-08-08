@@ -7,12 +7,12 @@ ms.assetid: 87ea20e4-46cf-49e9-86bf-70be9098c8db
 author: evaseydl
 manager: scottman
 ms.author: evas
-ms.openlocfilehash: 30e4c3f8553161c8fbc87e0e9b9235c8878eb186
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 34356de97d04ed3e678b0aa1e0e1e76d7a657421
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87951749"
+ms.locfileid: "87996650"
 ---
 # <a name="predeployment-checklist"></a>Контрольный список действий, выполняемых перед развертыванием
 Используйте следующий контрольный список, чтобы спланировать развертывание служб MultiPoint.
@@ -23,7 +23,7 @@ ms.locfileid: "87951749"
 |2.|Определите количество пользователей, которые, скорее всего, обращаются одновременно, на каждом компьютере, на котором выполняются службы MultiPoint, чтобы оценить количество необходимых компьютеров, на которых должны выполняться службы MultiPoint.|[Пользователи, станции и компьютеры](MultiPoint-services-Site-Planning.md#users-stations-and-computers)|
 |3.|Изучите программные приложения и веб-содержимое, к которому, скорее всего, будут обращаться пользователи, и влияние на производительность системы.|[Требования к оборудованию и рекомендации по производительности](hardware-and-performance-recommendations.md)|
 |4.|Определите число и тип станций, которые будут подключены к системе.|[Станции MultiPoint](MultiPoint-services-Stations.md)|
-|5.|Определите необходимое оборудование.|[Выбор оборудования для системы служб MultiPoint](Selecting-Hardware-for-Your-MultiPoint-services-System.md) и [требований к оборудованию и рекомендаций по производительности](hardware-and-performance-recommendations.md)|
+|5.|Определите необходимое оборудование.|[Выбор оборудования для системы служб MultiPoint](./select-hardware-mps.md) и [требований к оборудованию и рекомендаций по производительности](hardware-and-performance-recommendations.md)|
 |6.|Определите, где будет располагаться система служб MultiPoint. Будет ли оно настроено в одной комнате или будет настроено таким образом, чтобы его можно было переместить из одного места в другое?|[Планирование сайтов MultiPoint Server](MultiPoint-services-Site-Planning.md)|
 |7.|Определите, как будут упорядочиваться станции.|[Планирование сайта служб MultiPoint](MultiPoint-services-Site-Planning.md)|
 |8.|Проверьте правильность инфраструктуры питания и сети.|[Планирование сайта служб MultiPoint](MultiPoint-services-Site-Planning.md)|

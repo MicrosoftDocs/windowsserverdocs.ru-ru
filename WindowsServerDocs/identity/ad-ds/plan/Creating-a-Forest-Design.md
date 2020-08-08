@@ -6,14 +6,12 @@ author: MicrosoftGuyJFlo
 manager: mtillman
 ms.date: 08/07/2018
 ms.topic: article
-ms.prod: windows-server
-ms.technology: identity-adds
-ms.openlocfilehash: 77e091c1c1990e5cd30ac485c1ea3b085531df53
-ms.sourcegitcommit: 11421f4005f9f3a3f6c0db95b1836d0f765a9fa3
+ms.openlocfilehash: d14a65a25041cc8d1932d291483c1833156c5956
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "81624362"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87941352"
 ---
 # <a name="creating-a-forest-design"></a>Создание проекта леса
 
@@ -23,7 +21,7 @@ ms.locfileid: "81624362"
 
 После того как вы сопоставьте все требования к проектированию с моделями леса и выберите модель леса, которая соответствует потребностям вашей организации, задокументируйте предлагаемый проект леса. Включите в документацию имя группы, в которой разрабатывается лес, контактные данные владельца леса, тип леса для каждого добавляемого леса и требования, которым должен соответствовать каждый лес. Эта документация поможет группе разработчиков убедиться в том, что все соответствующие сотрудники участвуют в процессе разработки, и уточнить область проекта развертывания.
 
-Для листа, помогающего в документировании предлагаемого дизайна леса, скачайте Job_Aids_Designing_and_Deploying_Directory_and_Security_Services. zip из [вспомогательных средств для пакета развертывания Windows Server 2003](https://microsoft.com/download/details.aspx?id=9608) и откройте "Проектирование леса" (DSSLOGI_3. doc).
+Чтобы помочь вам в документировании предлагаемой структуры леса, скачайте Job_Aids_Designing_and_Deploying_Directory_and_Security_Services.zip из [комплекта вспомогательных задач для пакета развертывания Windows Server 2003](https://microsoft.com/download/details.aspx?id=9608) и откройте «design (DSSLOGI_3.doc)».
 
 ## <a name="in-this-section"></a>Содержание раздела
 

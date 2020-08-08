@@ -7,12 +7,12 @@ ms.assetid: dcb9edf1-99d0-490c-a7f8-863b18a80cdf
 author: evaseydl
 manager: scottman
 ms.author: evas
-ms.openlocfilehash: 943df21c046a54a3edfd466e42fdc18296d6bc1b
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 8247a0984fa296d9725e8a0ba9cde8a2bd5b7d31
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87953780"
+ms.locfileid: "87996658"
 ---
 # <a name="planning-a-multipoint-services-deployment"></a>Планирование развертывания служб MultiPoint
 MultiPoint Services позволяет подключить к одному компьютеру несколько станций. В этом случае несколько пользователей смогут работать с одним и тем же компьютером одновременно. Каждая станция состоит из концентратора станции, монитора, клавиатуры и мыши. Службы MultiPoint включают в себя приложение MultiPoint Manager, которое помогает вам, как пользователь с правами администратора, отслеживать и администрировать станции MultiPoint, а также приложение панели мониторинга MultiPoint, которое обеспечивает повседневную административную функциональность.
@@ -22,8 +22,8 @@ MultiPoint Services позволяет подключить к одному ко
 -   [Основные сведения о службах MultiPoint](Introducing-MultiPoint-services.md)
 -   [Основные сценарии использования](Common-MultiPoint-services-Usage-Scenarios.md)
 -   [Станции MultiPoint](MultiPoint-services-Stations.md)
--   [Выбор оборудования для системы служб MultiPoint](Selecting-Hardware-for-Your-MultiPoint-services-System.md)
--   [Требования к оборудованию и рекомендации по производительности](Hardware-Requirements-and-Performance-Recommendations.md)
+-   [Выбор оборудования для системы служб MultiPoint](./select-hardware-mps.md)
+-   [Требования к оборудованию и рекомендации по производительности](./hardware-and-performance-recommendations.md)
 -   [Планирование сайта служб MultiPoint](MultiPoint-services-Site-Planning.md)
 -   [Требования к сети и учетные записи пользователей](Network-Considerations-and-User-Accounts.md)
 -   [Хранение файлов с помощью служб MultiPoint](Storing-Files-with-MultiPoint-services.md)
@@ -32,4 +32,4 @@ MultiPoint Services позволяет подключить к одному ко
 -   [Рекомендации по приложениям](Application-Considerations.md)
 -   [Контрольный список действий, выполняемых перед развертыванием](Predeployment-Checklist.md)
 
-Также можно посетить [службы MultiPoint](https://docs.microsoft.com/windows-server/remote/multipoint-services/introducing-multipoint-services).
+Также можно посетить [службы MultiPoint](./introducing-multipoint-services.md).

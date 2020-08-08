@@ -6,14 +6,12 @@ ms.author: billmath
 manager: mtillman
 ms.date: 06/13/2018
 ms.topic: article
-ms.prod: windows-server
-ms.technology: active-directory-federation-services
-ms.openlocfilehash: 934ef170f6cbd5a2bd4031d336907d6b925cff06
-ms.sourcegitcommit: 3632b72f63fe4e70eea6c2e97f17d54cb49566fd
+ms.openlocfilehash: c615bd6426098e00854e873d3e1eb2cfbfaa0734
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87519903"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87970941"
 ---
 # <a name="build-a-single-page-web-application-using-oauth-and-adaljs-with-ad-fs-2016-or-later"></a>Создание веб-приложения с одной страницей с помощью OAuth и ADAL.JS с AD FS 2016 или более поздней версии
 
@@ -148,7 +146,7 @@ and add:
     );
 ```
 
-|Параметр|Описание:|
+|Параметр|Описание|
 |--------|--------|
 |валидаудиенце|При этом настраивается значение "аудитория", которое будет проверяться в токене.|
 |валидиссуер|При этом настраивается значение Issuer, для которого будет выполнена проверка в токене|
@@ -174,7 +172,7 @@ and add:
 
 Щелкните имя входа.  Список ToDo будет активировать поток проверки подлинности, а ADAL JS будет направлять проверку подлинности на AD FS
 
-![Имя входа](media/Single-Page-Application-with-AD-FS/singleapp4a.PNG)
+![Вход](media/Single-Page-Application-with-AD-FS/singleapp4a.PNG)
 
 В Fiddler можно увидеть маркер, возвращаемый как часть URL-адреса в фрагменте #.
 

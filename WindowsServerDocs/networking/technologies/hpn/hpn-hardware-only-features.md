@@ -7,12 +7,12 @@ manager: dougkim
 ms.author: lizross
 author: eross-msft
 ms.date: 09/12/2018
-ms.openlocfilehash: b2cbb47262033d5149e47704e3f232b7662f69e6
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 30055b7954674b1cea99e7ef60d45cfa33543c3d
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87955670"
+ms.locfileid: "87996736"
 ---
 # <a name="hardware-only-ho-features-and-technologies"></a>Только аппаратные функции и технологии
 
@@ -79,4 +79,4 @@ LSO позволяет приложению передать большой бл
 
 ## <a name="receive-segment-coalescing-rsc"></a>Receive Segment Coalescing (RSC)
 
-Объединение сегментов, называемое также «крупной разгрузкой», — это сетевая карта, которая принимает пакеты, входящие в тот же поток, который приходит между сетевыми прерываниями, и объединяет их в один пакет, прежде чем доставлять их в операционную систему. RSC недоступен на сетевых адаптерах, привязанных к виртуальному коммутатору Hyper-V. Дополнительные сведения см. в статье [Объединение сегментов приема (RSC)](https://docs.microsoft.com/windows-server/networking/technologies/hpn/rsc-in-the-vswitch).
+Объединение сегментов, называемое также «крупной разгрузкой», — это сетевая карта, которая принимает пакеты, входящие в тот же поток, который приходит между сетевыми прерываниями, и объединяет их в один пакет, прежде чем доставлять их в операционную систему. RSC недоступен на сетевых адаптерах, привязанных к виртуальному коммутатору Hyper-V. Дополнительные сведения см. в статье [Объединение сегментов приема (RSC)](./rsc-in-the-vswitch.md).

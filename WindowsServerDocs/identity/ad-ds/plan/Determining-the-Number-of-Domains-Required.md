@@ -6,14 +6,12 @@ author: MicrosoftGuyJFlo
 manager: mtillman
 ms.date: 08/08/2018
 ms.topic: article
-ms.prod: windows-server
-ms.technology: identity-adds
-ms.openlocfilehash: 2ed2a6b601ee2cabd45fd5170764c812307b6ac1
-ms.sourcegitcommit: 11421f4005f9f3a3f6c0db95b1836d0f765a9fa3
+ms.openlocfilehash: 6ff1d69afc95aa87d81c8737313d425e84cbc531
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "81624272"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87941332"
 ---
 # <a name="determining-the-number-of-domains-required"></a>Определение требуемого количества доменов
 
@@ -128,4 +126,4 @@ ms.locfileid: "81624272"
 
 После разделения Организации на региональные домены необходимо задокументировать нужные регионы и количество пользователей, которые будут существовать в каждом регионе. Кроме того, обратите внимание на скорость самых медленных ссылок в каждом регионе, который будет использоваться для Active Directory репликации. Эти сведения используются для определения необходимости в дополнительных доменах или лесах.
 
-Чтобы помочь вам в документировании указанных вами регионов, скачайте Job_Aids_Designing_and_Deploying_Directory_and_Security_Services. zip из [комплекта вспомогательных функций для пакета развертывания Windows Server 2003](https://microsoft.com/download/details.aspx?id=9608) и откройте "идентификационные регионы" (DSSLOGI_4. doc).
+Чтобы помочь вам в документировании указанных вами регионов, скачайте Job_Aids_Designing_and_Deploying_Directory_and_Security_Services.zip из [комплекта вспомогательных средств для Windows Server 2003 Deployment Kit](https://microsoft.com/download/details.aspx?id=9608) и откройте "идентификационные регионы" (DSSLOGI_4.doc).

@@ -2,18 +2,16 @@
 title: Управление трафиком на основе географического расположения на основных серверах с помощью политики DNS
 description: Этот раздел является частью руководств по сценариям политики DNS для Windows Server 2016.
 manager: brianlic
-ms.prod: windows-server
-ms.technology: networking-dns
 ms.topic: article
 ms.assetid: ef9828f8-c0ad-431d-ae52-e2065532e68f
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 47124531c3e516efeceda57574bd6a648667f90f
-ms.sourcegitcommit: 3632b72f63fe4e70eea6c2e97f17d54cb49566fd
+ms.openlocfilehash: 9a1abc00bd8683c716563159aac889a98f364f87
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87518280"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87996881"
 ---
 # <a name="use-dns-policy-for-geo-location-based-traffic-management-with-primary-servers"></a>Управление трафиком на основе географического расположения на основных серверах с помощью политики DNS
 
@@ -98,7 +96,7 @@ Add-DnsServerClientSubnet -Name "USSubnet" -IPv4Subnet "192.0.0.0/24"
 Add-DnsServerClientSubnet -Name "EuropeSubnet" -IPv4Subnet "141.1.0.0/24"
 ```
 
-Дополнительные сведения см. в разделе [Add-днссерверклиентсубнет](https://docs.microsoft.com/powershell/module/dnsserver/add-dnsserverclientsubnet?view=win10-ps).
+Дополнительные сведения см. в разделе [Add-днссерверклиентсубнет](/powershell/module/dnsserver/add-dnsserverclientsubnet?view=win10-ps).
 
 ### <a name="create-zone-scopes"></a><a name="bkmk_scopes"></a>Создание областей зоны
 После настройки подсетей клиента необходимо секционировать зону, трафик которой необходимо перенаправить на две разные области зоны, по одной области для каждой настроенной подсети клиента DNS.
@@ -117,7 +115,7 @@ Add-DnsServerZoneScope -ZoneName "woodgrove.com" -Name "USZoneScope"
 Add-DnsServerZoneScope -ZoneName "woodgrove.com" -Name "EuropeZoneScope"
 ```
 
-Дополнительные сведения см. в разделе [Add-днссерверзонескопе](https://docs.microsoft.com/powershell/module/dnsserver/add-dnsserverzonescope?view=win10-ps).
+Дополнительные сведения см. в разделе [Add-днссерверзонескопе](/powershell/module/dnsserver/add-dnsserverzonescope?view=win10-ps).
 
 ### <a name="add-records-to-the-zone-scopes"></a><a name="bkmk_records"></a>Добавление записей в области зоны
 Теперь необходимо добавить записи, представляющие узел веб-сервера, в две области зоны.
@@ -140,7 +138,7 @@ Add-DnsServerResourceRecord -ZoneName "woodgrove.com" -A -Name "www" -IPv4Addres
 
 Параметр **зонескопе** не включается при добавлении записи в область по умолчанию. Это то же самое, что и добавление записей в стандартную зону DNS.
 
-Дополнительные сведения см. в разделе [Add-днссерверресаурцерекорд](https://docs.microsoft.com/powershell/module/dnsserver/add-dnsserverresourcerecord?view=win10-ps).
+Дополнительные сведения см. в разделе [Add-днссерверресаурцерекорд](/powershell/module/dnsserver/add-dnsserverresourcerecord?view=win10-ps).
 
 ### <a name="create-the-policies"></a><a name="bkmk_policies"></a>Создание политик
 После создания подсетей, разделов (областей зоны) и добавления записей необходимо создать политики, соединяющие подсети и секции, чтобы при получении запроса из источника в одной из подсетей DNS-клиента ответ был получен из правильной области действия этой зоны. Для сопоставления области зоны по умолчанию не требуются никакие политики.
@@ -152,7 +150,7 @@ Add-DnsServerQueryResolutionPolicy -Name "USPolicy" -Action ALLOW -ClientSubnet 
 Add-DnsServerQueryResolutionPolicy -Name "EuropePolicy" -Action ALLOW -ClientSubnet "eq,EuropeSubnet" -ZoneScope "EuropeZoneScope,1" -ZoneName "woodgrove.com"
 ```
 
-Дополнительные сведения см. в разделе [Add-днссерверкуериресолутионполици](https://docs.microsoft.com/powershell/module/dnsserver/add-dnsserverqueryresolutionpolicy?view=win10-ps).
+Дополнительные сведения см. в разделе [Add-днссерверкуериресолутионполици](/powershell/module/dnsserver/add-dnsserverqueryresolutionpolicy?view=win10-ps).
 
 Теперь на DNS-сервере настроены необходимые политики DNS для перенаправления трафика на основе географического расположения.
 

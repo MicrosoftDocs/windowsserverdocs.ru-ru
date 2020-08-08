@@ -1,21 +1,19 @@
 ---
 title: Развертывание локальных дисковых пространств
-ms.prod: windows-server
 manager: eldenc
 ms.author: stevenek
-ms.technology: storage-spaces
 ms.topic: get-started-article
 ms.assetid: 20fee213-8ba5-4cd3-87a6-e77359e82bc0
 author: stevenek
 ms.date: 07/24/2020
 description: Пошаговые инструкции по развертыванию программно-определяемого хранилища с Локальные дисковые пространства в Windows Server в качестве инфраструктуры гиперконвергентном или конвергенции (также известной как агрегированная).
 ms.localizationpriority: medium
-ms.openlocfilehash: ba9287cebe1cf35c151335e59476f63ae3e01a56
-ms.sourcegitcommit: de8fea497201d8f3d995e733dfec1d13a16cb8fa
+ms.openlocfilehash: a15f9df55fd5650443f4d0220dee6b4ada9253d2
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87863941"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87971111"
 ---
 # <a name="deploy-storage-spaces-direct"></a>Развертывание локальных дисковых пространств
 
@@ -382,7 +380,7 @@ CD $ScriptFolder
 .\KCDSetup.ps1 -HyperVClusterName $HyperVClusterName -ScaleOutFSName $ScaleOutFSName -EnableLM
 ```
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 После развертывания кластеризованного файлового сервера рекомендуется протестировать производительность решения с помощью искусственных рабочих нагрузок, прежде чем приступать к реальным рабочим нагрузкам. Это позволяет убедиться, что решение работает правильно, и устранить все возможные проблемы, прежде чем добавлять сложность рабочих нагрузок. Дополнительные сведения см. в статье [Проверка производительности дисковых пространств с помощью искусственных рабочих нагрузок](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn894707(v=ws.11)).
 

@@ -6,14 +6,12 @@ ms.author: joflore
 manager: mtillman
 ms.date: 05/31/2017
 ms.topic: article
-ms.prod: windows-server
-ms.technology: identity-adds
-ms.openlocfilehash: b98fd29a979527b6477afea97c624504d11b3e7e
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: fe89f5f1c252bc116f5c43f9c22a385b06462a89
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86966576"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87970991"
 ---
 # <a name="planning-domain-controller-placement"></a>Планирование размещения контроллеров доменов
 
@@ -28,7 +26,7 @@ ms.locfileid: "86966576"
 > [!NOTE]
 > В этом руководство не объясняется, как определить правильное количество контроллеров домена и требования к оборудованию контроллера домена для каждого домена, представленного на каждом сайте.
 
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>Содержание раздела
 
 - [Планирование размещения корневого контроллера домена в лесу](../../ad-ds/plan/Planning-Forest-Root-Domain-Controller-Placement.md)
 

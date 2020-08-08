@@ -8,12 +8,12 @@ metadata:
   author: coreyp-at-msft
   ms.author: coreyp
   ms.date: 5/19/2020
-  ms.openlocfilehash: 95bff2635f0386249d2dfebec3fb92792e4e1293
-  ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+  ms.openlocfilehash: a4deb178d79a9c996040147a5416b5c8371f2ea2
+  ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
   ms.translationtype: MT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 07/27/2020
-  ms.locfileid: "87182330"
+  ms.lasthandoff: 08/07/2020
+  ms.locfileid: "87996767"
 landingContent:
 - title: Обзор обеспечения безопасности в Windows Server
   linkLists:
@@ -22,7 +22,7 @@ landingContent:
     - text: Запись в блоге о службе безопасности Windows Server
       url: https://blogs.technet.microsoft.com/windowsserver/2016/04/25/ten-reasons-youll-love-windows-server-2016-8-security/
     - text: Datacenter and Private Cloud Security Blog (Блог о безопасности центров обработки данных и частных облаков)
-      url: https://blogs.technet.microsoft.com/datacentersecurity/
+      url: /archive/blogs/datacentersecurity/
     - text: Addressing emerging threats and landscape shifts (Реагирование на возникающие угрозы и изменение условий)
       url: https://www.youtube.com/watch?v=B5JMYxYWx1k&feature=youtu.be
     - text: Protecting Your Datacenter and Cloud from Emerging Threats blog post (Запись блога. Защита центра обработки данных и облака от возникающих угроз)
@@ -54,13 +54,13 @@ landingContent:
   - linkListType: overview
     links:
     - text: Руководство по развертыванию компонента "Управление приложениями в Защитнике Windows" (WDAC)
-      url: https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-contro
+      url: /windows/security/threat-protection/windows-defender-application-control/windows-defender-application-contro
     - text: Параметры реестра безопасности транспортного уровня (протокол TLS)
-      url: https://docs.microsoft.com/windows-server/security/tls/tls-registry-settings
+      url: ./tls/tls-registry-settings.md
     - text: Защита потока управления
-      url: https://docs.microsoft.com/windows/desktop/SecBP/control-flow-guard
+      url: /windows/desktop/SecBP/control-flow-guard
     - text: Защитник Windows
-      url: https://technet.microsoft.com/windows-server-docs/security/windows-defender/windows-defender-overview-windows-server
+      url: ./windows-defender/windows-defender-overview-windows-server.md
   - linkListType: video
     links:
     - text: Демонстрационное видео по Device Guard
@@ -70,9 +70,9 @@ landingContent:
   - linkListType: overview
     links:
     - text: Обеспечение безопасности привилегированного доступа
-      url: https://technet.microsoft.com/windows-server-docs/security/securing-privileged-access/securing-privileged-access
+      url: ../identity/securing-privileged-access/securing-privileged-access.md
     - text: Just in Time Administration with Microsoft Identity Manager (JIT-администрирование с помощью Microsoft Identity Manager)
-      url: https://technet.microsoft.com/library/mt150258.aspx
+      url: /microsoft-identity-manager/pam/privileged-identity-management-for-active-directory-domain-services
     - text: Just Enough Administration Article (Статья о технологии Just Enough Administration)
       url: https://aka.ms/JEA
   - linkListType: video
@@ -86,9 +86,9 @@ landingContent:
   - linkListType: overview
     links:
     - text: Защита извлеченных учетных данных домена с помощью Credential Guard
-      url: https://docs.microsoft.com/windows/security/identity-protection/credential-guard/credential-guard
+      url: /windows/security/identity-protection/credential-guard/credential-guard
     - text: Protect Remote Desktop credentials with Remote Credential Guard (Защита учетных данных удаленного рабочего стола с помощью Remote Credential Guard)
-      url: https://docs.microsoft.com/windows/security/identity-protection/remote-credential-guard
+      url: /windows/security/identity-protection/remote-credential-guard
   - linkListType: video
     links:
     - text: Демонстрационное видео по Credential Guard
@@ -112,9 +112,9 @@ landingContent:
   - linkListType: overview
     links:
     - text: Обзор брандмауэра центра обработки данных
-      url: https://technet.microsoft.com/library/dn920240.aspx
+      url: /previous-versions/windows/server/dn920240(v=ws.12)
     - text: Новые возможности управления IP-адресами (DNS) в Windows Server
-      url: https://technet.microsoft.com/windows-server-docs/networking/dns/what-s-new-in-dns-server
+      url: ../networking/dns/what-s-new-in-dns-server.md
 - title: Сопоставление функций безопасности с требованиями по обеспечению соответствия
   linkLists:
   - linkListType: download
@@ -136,4 +136,4 @@ landingContent:
     - text: Документация по предыдущим версиям Windows
       url: /previous-versions/windows/
     - text: Поиск конкретных сведений
-      url: https://docs.microsoft.com/search/?search=Windows+Server&dataSource=previousVersions
+      url: /search/?dataSource=previousVersions&search=Windows+Server

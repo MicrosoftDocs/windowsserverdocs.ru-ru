@@ -2,18 +2,16 @@
 title: Создание задачи срока окончания действия файла
 description: В этой статье описывается процесс создания задачи управления файлами с истекающим сроком действия
 ms.date: 7/7/2017
-ms.prod: windows-server
-ms.technology: storage
 ms.topic: article
 author: JasonGerend
 manager: brianlic
 ms.author: jgerend
-ms.openlocfilehash: ce458ab84e7f6ba40ab3578c9b4a3e5d58755dc5
-ms.sourcegitcommit: 771db070a3a924c8265944e21bf9bd85350dd93c
+ms.openlocfilehash: 0ff4b46064ca780d63c6f06898c114cb180c3665
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85473771"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87971131"
 ---
 # <a name="create-a-file-expiration-task"></a>Создание задачи срока окончания действия файла
 
@@ -41,7 +39,7 @@ ms.locfileid: "85473771"
 
 4. На вкладке **Действие** введите следующие данные:
 
-   - **Тип**. Выберите пункт **Срок действия файла** в раскрывающемся списке.
+   - **Type**. Выберите пункт **Срок действия файла** в раскрывающемся списке.
 
    - **Каталог истечения срока**. Выберите каталог, в который будут помещаться файлы после истечения их срока действия.
 

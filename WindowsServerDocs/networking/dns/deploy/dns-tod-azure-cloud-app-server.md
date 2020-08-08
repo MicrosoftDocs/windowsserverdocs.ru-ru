@@ -6,12 +6,12 @@ ms.topic: article
 ms.assetid: 4846b548-8fbc-4a7f-af13-09e834acdec0
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 04e4d33f6c5894a59547e84a6066d3af04f80a9b
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: d7df84e26ef86f553d57b2019d4d46581d7c17fa
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87964110"
+ms.locfileid: "87996895"
 ---
 # <a name="dns-responses-based-on-time-of-day-with-an-azure-cloud-app-server"></a>Получение ответов DNS на основе времени дня с помощью сервера облачных приложений Azure
 
@@ -22,7 +22,7 @@ ms.locfileid: "87964110"
 Этот сценарий полезен в ситуациях, когда требуется направить трафик в один часовой пояс на альтернативные серверы приложений, например веб-серверы, размещенные на Microsoft Azure, которые находятся в другом часовом поясе. Это позволяет распределять трафик между экземплярами приложения во время пиковых периодов, когда основные серверы перегружаются с трафиком.
 
 > [!NOTE]
-> Сведения об использовании политики DNS для интеллектуальных ответов DNS без использования Azure см. в статье [Использование политики DNS для интеллектуальных ответов DNS в зависимости от времени суток](Scenario--Use-DNS-Policy-for-Intelligent-DNS-Responses-Based-on-the-Time-of-Day.md).
+> Сведения об использовании политики DNS для интеллектуальных ответов DNS без использования Azure см. в статье [Использование политики DNS для интеллектуальных ответов DNS в зависимости от времени суток](./dns-tod-intelligent.md).
 
 ## <a name="example-of-intelligent-dns-responses-based-on-the-time-of-day-with-azure-cloud-app-server"></a>Пример интеллектуальных ответов DNS на основе времени суток с сервером облачных приложений Azure
 
@@ -91,7 +91,7 @@ DNS-серверы настроены с областями зоны и поли
 Add-DnsServerZoneScope -ZoneName "contosogiftservices.com" -Name "AzureZoneScope"
 ```
 
-Дополнительные сведения см. в разделе [Add-днссерверзонескопе](https://docs.microsoft.com/powershell/module/dnsserver/add-dnsserverzonescope?view=win10-ps) .
+Дополнительные сведения см. в разделе [Add-днссерверзонескопе](/powershell/module/dnsserver/add-dnsserverzonescope?view=win10-ps) .
 
 ### <a name="add-records-to-the-zone-scopes"></a>Добавление записей в области зоны
 Следующим шагом является добавление записей, представляющих узел веб-сервера, в области зоны.
@@ -110,7 +110,7 @@ Add-DnsServerResourceRecord -ZoneName "contosogiftservices.com" -A -Name "www" -
 Add-DnsServerResourceRecord -ZoneName "contosogiftservices.com" -A -Name "www" -IPv4Address "192.68.30.2"
 ```
 
-Дополнительные сведения см. в разделе [Add-днссерверресаурцерекорд](https://docs.microsoft.com/powershell/module/dnsserver/add-dnsserverresourcerecord?view=win10-ps).
+Дополнительные сведения см. в разделе [Add-днссерверресаурцерекорд](/powershell/module/dnsserver/add-dnsserverresourcerecord?view=win10-ps).
 
 ### <a name="create-the-dns-policies"></a>Создание политик DNS
 После создания областей зоны можно создать политики DNS, которые распределяют входящие запросы между этими областями, чтобы выполнить следующее.
@@ -126,7 +126,7 @@ Add-DnsServerResourceRecord -ZoneName "contosogiftservices.com" -A -Name "www" -
 Add-DnsServerQueryResolutionPolicy -Name "Contoso6To9Policy" -Action ALLOW -ZoneScope "contosogiftservices.com,7;AzureZoneScope,3" –TimeOfDay “EQ,18:00-21:00” -ZoneName "contosogiftservices.com" –ProcessingOrder 1
 ```
 
-Дополнительные сведения см. в разделе [Add-днссерверкуериресолутионполици](https://docs.microsoft.com/powershell/module/dnsserver/add-dnsserverqueryresolutionpolicy?view=win10-ps).
+Дополнительные сведения см. в разделе [Add-днссерверкуериресолутионполици](/powershell/module/dnsserver/add-dnsserverqueryresolutionpolicy?view=win10-ps).
 
 Теперь на DNS-сервере настроены необходимые политики DNS для перенаправления трафика на веб-сервер Azure на основе времени суток.
 

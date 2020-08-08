@@ -2,18 +2,16 @@
 title: Шаг 1. Планирование расширенной инфраструктуры DirectAccess
 description: Эта статья является частью руководств по развертыванию одного сервера DirectAccess с дополнительными параметрами для Windows Server 2016.
 manager: brianlic
-ms.prod: windows-server
-ms.technology: networking-da
 ms.topic: article
 ms.assetid: aa3174f3-42af-4511-ac2d-d8968b66da87
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 759caf09531b2c09034c715fa6cc479fea6d6c07
-ms.sourcegitcommit: 3632b72f63fe4e70eea6c2e97f17d54cb49566fd
+ms.openlocfilehash: 8f60a960d76e7c24ff3dc9afaf931792713f06af
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87518140"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87970411"
 ---
 # <a name="step-1-plan-the-advanced-directaccess-infrastructure"></a>Шаг 1. Планирование расширенной инфраструктуры DirectAccess
 

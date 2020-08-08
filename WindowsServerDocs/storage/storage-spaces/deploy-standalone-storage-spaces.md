@@ -1,19 +1,17 @@
 ---
 title: Развертывание дисковых пространств на автономном сервере
 description: Описывает развертывание дисковых пространств на изолированном сервере под управлением Windows Server 2012.
-ms.prod: windows-server
 ms.topic: article
 author: JasonGerend
 ms.author: jgerend
-ms.technology: storage-spaces
 ms.date: 07/09/2018
 ms.localizationpriority: medium
-ms.openlocfilehash: b5f1ccab7e4c0ca2bbd478509a76a4a37559c345
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.openlocfilehash: ac661631eef9053e202c7e21ffff9982d26d1d38
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87181870"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87960827"
 ---
 # <a name="deploy-storage-spaces-on-a-stand-alone-server"></a>Развертывание дисковых пространств на автономном сервере
 
@@ -143,7 +141,7 @@ Add-PhysicalDisk –StoragePoolFriendlyName StoragePool1 –PhysicalDisks $PDToA
     >[!NOTE]
     >При выборе макета, в котором недостаточно физических дисков, при нажатии на кнопку **Далее**появится сообщение об ошибке. Сведения о том, какой макет следует использовать, а также требования к диску, см. в разделе [необходимые условия](#prerequisites).
 
-7. Если в качестве структуры хранилища выбрано **зеркало** , а в пуле имеется пять или более дисков, появится страница **Настройка параметров устойчивости** . Выберите один из следующих параметров:
+7. Если в качестве структуры хранилища выбрано **зеркало** , а в пуле имеется пять или более дисков, появится страница **Настройка параметров устойчивости** . Выберите один из следующих вариантов.
 
       - **Двухстороннее зеркало**
       - **Трехстороннее зеркало**

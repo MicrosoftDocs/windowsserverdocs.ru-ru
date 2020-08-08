@@ -6,14 +6,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.prod: windows-server
-ms.technology: identity-adds
-ms.openlocfilehash: 4d39ee3053133286c07a93d18b5c3bd5809e3b54
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.openlocfilehash: 03e45cbeadf25391522728bf3d30006bec76e1e0
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87182400"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87996686"
 ---
 # <a name="dynamic-access-control-scenario-overview"></a>Динамический контроль доступа. Обзор сценария
 
@@ -56,13 +54,13 @@ ms.locfileid: "87182400"
 > [!NOTE]
 > Динамический контроль доступа не поддерживается в файловой системе ReFS (Resilient File System).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также статью
 
 |Тип содержимого|Ссылки|
 |----------------|--------------|
-|**Оценка продукта**|- [Динамическое обзор рецензентов управления доступом](https://docs.microsoft.com/previous-versions/orphan-topics/ws.10/cc732148(v=ws.10))<br>- [Руководство разработчика по динамическому контролю доступа](https://docs.microsoft.com/previous-versions/windows/desktop/dacx/dynamic-access-control-developer-extensibility-roadmap)|
-|**Planning**|- [Планирование развертывания централизованной политики доступа](https://docs.microsoft.com/windows-server/identity/solution-guides/scenario--central-access-policy)<br>- [Планирование аудита доступа к файлам](Plan-for-File-Access-Auditing.md)|
-|**Развертывание**|- [Развертывание Active Directory](https://docs.microsoft.com/windows-server/identity/ad-ds/deploy/ad-ds-deployment)<br>- [Развертывание файлов и служб хранилища](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831487(v=ws.11))|
-|**Операции**|[Справка по PowerShell для динамического контроля доступа](https://docs.microsoft.com/powershell/module/addsadministration/?view=win10-ps)|
+|**Оценка продукта**|- [Динамическое обзор рецензентов управления доступом](/previous-versions/orphan-topics/ws.10/cc732148(v=ws.10))<br>- [Руководство разработчика по динамическому контролю доступа](/previous-versions/windows/desktop/dacx/dynamic-access-control-developer-extensibility-roadmap)|
+|**Planning**|- [Планирование развертывания централизованной политики доступа](./scenario--central-access-policy.md)<br>- [Планирование аудита доступа к файлам](Plan-for-File-Access-Auditing.md)|
+|**Развертывание**|- [Развертывание Active Directory](../ad-ds/deploy/ad-ds-deployment.md)<br>- [Развертывание файлов и служб хранилища](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831487(v=ws.11))|
+|**Операции**|[Справка по PowerShell для динамического контроля доступа](/powershell/module/addsadministration/?view=win10-ps)|
 |**Средства и параметры**|[Набор средств классификации данных](https://www.microsoft.com/download/details.aspx?id=27123)|
-|**Ресурсы сообщества**|[Форум по службам каталогов](https://docs.microsoft.com/answers/topics/windows-active-directory.html)|
+|**Ресурсы сообщества**|[Форум по службам каталогов](/answers/topics/windows-active-directory.html)|

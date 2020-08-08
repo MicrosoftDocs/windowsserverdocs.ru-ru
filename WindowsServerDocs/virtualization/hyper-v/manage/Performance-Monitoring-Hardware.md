@@ -1,19 +1,18 @@
 ---
 title: Включение оборудования мониторинга производительности Intel на виртуальной машине Hyper-V
 description: Как включить аппаратное обеспечение мониторинга производительности Intel на компьютере Hyper-V. Также касается того, как включить мониторинг производительности аппаратных эффектов динамической миграции.
-ms.prod: windows-server
 ms.reviewer: ifufondu
 author: ifeomaufondu-ms
 ms.author: ifufondu
 manager: chhuybre
 ms.topic: article
 ms.date: 09/20/2019
-ms.openlocfilehash: 1165ce58cf781d6ef5f905cb8b01c00fa4552edb
-ms.sourcegitcommit: b00d7c8968c4adc8f699dbee694afe6ed36bc9de
+ms.openlocfilehash: 73ab88d6ee5d50ae8b433a064a7cea7c249094a2
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "80860267"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87996748"
 ---
 # <a name="enable-intel-performance-monitoring-hardware-in-a-hyper-v-virtual-machine"></a>Включение оборудования мониторинга производительности Intel на виртуальной машине Hyper-V
 
@@ -25,17 +24,17 @@ ms.locfileid: "80860267"
 
 - Процессор Intel с оборудованием мониторинга производительности (например, ПМУ, ПЕБС, ЛБР).  Ознакомьтесь с [этим документом]( https://software.intel.com/en-us/vtune-amplifier-cookbook-configuring-a-hyper-v-virtual-machine-for-hardware-based-hotspots-analysis) от Intel, чтобы определить, какое оборудование мониторинга производительности поддерживает ваша система.
 - Windows Server 2019 или Windows 10 версии 1809 (обновление за Октябрь 2018) или более поздняя версия
-- Виртуальная машина Hyper-V _без_ [вложенной виртуализации](https://docs.microsoft.com/virtualization/hyper-v-on-windows/user-guide/nested-virtualization) , которая также находится в остановленном состоянии
+- Виртуальная машина Hyper-V _без_ [вложенной виртуализации](/virtualization/hyper-v-on-windows/user-guide/nested-virtualization) , которая также находится в остановленном состоянии
 
 Чтобы включить в виртуальной машине предстоящее оборудование для наблюдения за производительностью процессора Intel (скрип), вам потребуется:
 
 - Процессор Intel, который поддерживает скрип и функцию PT2GPA.  Ознакомьтесь с [этим документом]( https://software.intel.com/en-us/vtune-amplifier-cookbook-configuring-a-hyper-v-virtual-machine-for-hardware-based-hotspots-analysis) от Intel, чтобы определить, какое оборудование мониторинга производительности поддерживает ваша система.
 - Windows Server версии 1903 (SAC) или Windows 10 версии 1903 (Май 2019 обновление) или более поздней версии
-- Виртуальная машина Hyper-V _без_ [вложенной виртуализации](https://docs.microsoft.com/virtualization/hyper-v-on-windows/user-guide/nested-virtualization) , которая также находится в остановленном состоянии
+- Виртуальная машина Hyper-V _без_ [вложенной виртуализации](/virtualization/hyper-v-on-windows/user-guide/nested-virtualization) , которая также находится в остановленном состоянии
 
 ## <a name="enabling-performance-monitoring-components-in-a-virtual-machine"></a>Включение компонентов наблюдения за производительностью в виртуальной машине
 
-Чтобы включить различные компоненты наблюдения за производительностью для конкретной гостевой виртуальной машины, используйте командлет PowerShell `Set-VMProcessor` при запуске от имени администратора:
+Чтобы включить различные компоненты наблюдения за производительностью для конкретной гостевой виртуальной машины, используйте `Set-VMProcessor` командлет PowerShell при запуске от имени администратора:
 
 ``` Powershell
 # Enable all components except IPT
@@ -48,7 +47,7 @@ Set-VMProcessor MyVMName -Perfmon @("pmu")
 ```
 
 ``` Powershell
-# Enable IPT 
+# Enable IPT
 Set-VMProcessor MyVMName -Perfmon @("ipt")
 ```
 
@@ -57,9 +56,10 @@ Set-VMProcessor MyVMName -Perfmon @("ipt")
 Set-VMProcessor MyVMName -Perfmon @()
 ```
 > [!NOTE]
-> При включении компонентов наблюдения за производительностью, если указан `"pebs"`, необходимо также указать `"pmu"`. ПЕБС поддерживается только на оборудовании с ПМУ версии > = 4. Включение компонента, который не поддерживается физическими процессорами узла, приведет к сбою запуска виртуальной машины.
+> При включении компонентов наблюдения за производительностью, если `"pebs"` указан, `"pmu"` необходимо также указать.
+> ПЕБС поддерживается только на оборудовании с ПМУ версии >= 4.
+> Включение компонента, который не поддерживается физическими процессорами узла, приведет к сбою запуска виртуальной машины.
 
 ## <a name="effects-of-enabling-performance-monitoring-hardware-on-saverestore-export-and-live-migration"></a>Влияние включения оборудования мониторинга производительности при сохранении, восстановлении, экспорте и динамической миграции
 
 Корпорация Майкрософт не рекомендует выполнять динамическую миграцию и сохранение и восстановление виртуальных машин с аппаратным обеспечением мониторинга производительности между системами с различным оборудованием Intel. Особое поведение оборудования мониторинга производительности часто является неархитектурным и отличается от изменений между системами оборудования Intel.  Перемещение работающей виртуальной машины между разными системами может привести к непредсказуемому поведению счетчиков, не являющихся архитектурными.
-

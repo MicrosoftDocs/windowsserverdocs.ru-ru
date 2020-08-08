@@ -6,12 +6,12 @@ ms.topic: article
 ms.assetid: f9533204-ad7e-4e49-81c1-559324a16aeb
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 1f6da8584f7a2b2221fb1a283b8ea4de842ddc58
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 4aa18e3f93cdb0a50cac3db697a10dd40c1f05e0
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87964140"
+ms.locfileid: "87996905"
 ---
 # <a name="use-dns-policy-for-split-brain-dns-in-active-directory"></a>Разделение вычислительных мощностей DNS в Active Directory с помощью политики DNS
 
@@ -75,8 +75,8 @@ $policies |  Add-DnsServerQueryResolutionPolicy -ZoneName "contoso.com" -Compute
 
 Дополнительные сведения см. в следующих справочных разделах Windows PowerShell.
 
-- [Get-Днссерверкуериресолутионполици](https://docs.microsoft.com/powershell/module/dnsserver/get-dnsserverqueryresolutionpolicy?view=win10-ps)
-- [Add-Днссерверкуериресолутионполици](https://docs.microsoft.com/powershell/module/dnsserver/add-dnsserverqueryresolutionpolicy?view=win10-ps)
+- [Get-Днссерверкуериресолутионполици](/powershell/module/dnsserver/get-dnsserverqueryresolutionpolicy?view=win10-ps)
+- [Add-Днссерверкуериресолутионполици](/powershell/module/dnsserver/add-dnsserverqueryresolutionpolicy?view=win10-ps)
 
 ## <a name="how-to-configure-dns-policy-for-split-brain-dns-in-active-directory"></a>Настройка политики DNS для разделения \- мозгового DNS-сервера в Active Directory
 
@@ -90,7 +90,7 @@ $policies |  Add-DnsServerQueryResolutionPolicy -ZoneName "contoso.com" -Compute
 Add-DnsServerPrimaryZone -Name "contoso.com" -ReplicationScope "Domain" -PassThru
 ```
 
-Дополнительные сведения см. в разделе [Add-днссерверпримаризоне](https://docs.microsoft.com/powershell/module/dnsserver/add-dnsserverprimaryzone?view=win10-ps).
+Дополнительные сведения см. в разделе [Add-днссерверпримаризоне](/powershell/module/dnsserver/add-dnsserverprimaryzone?view=win10-ps).
 
 ### <a name="create-the-scopes-of-the-zone"></a>Создание областей зоны
 
@@ -108,7 +108,7 @@ Add-DnsServerPrimaryZone -Name "contoso.com" -ReplicationScope "Domain" -PassThr
 Add-DnsServerZoneScope -ZoneName "contoso.com" -Name "external"
 ```
 
-Дополнительные сведения см. в разделе [Add-днссерверзонескопе](https://docs.microsoft.com/powershell/module/dnsserver/add-dnsserverzonescope?view=win10-ps).
+Дополнительные сведения см. в разделе [Add-днссерверзонескопе](/powershell/module/dnsserver/add-dnsserverzonescope?view=win10-ps).
 
 ### <a name="add-records-to-the-zone-scopes"></a>Добавление записей в области зоны
 
@@ -128,7 +128,7 @@ Add-DnsServerResourceRecord -ZoneName "contoso.com" -A -Name "www.career" -IPv4A
 > [!NOTE]
 > Параметр **– зонескопе** не включается при добавлении записи в область зоны по умолчанию. Это действие аналогично добавлению записей в обычную зону.
 
-Дополнительные сведения см. в разделе [Add-днссерверресаурцерекорд](https://docs.microsoft.com/powershell/module/dnsserver/add-dnsserverresourcerecord?view=win10-ps).
+Дополнительные сведения см. в разделе [Add-днссерверресаурцерекорд](/powershell/module/dnsserver/add-dnsserverresourcerecord?view=win10-ps).
 
 ### <a name="create-the-dns-policies"></a>Создание политик DNS
 
@@ -149,7 +149,7 @@ Add-DnsServerQueryResolutionPolicy -Name "SplitBrainZonePolicy" -Action ALLOW -S
 > [!NOTE]
 > 208.84.0.53 — это IP-адрес общедоступного сетевого интерфейса.
 
-Дополнительные сведения см. в разделе [Add-днссерверкуериресолутионполици](https://docs.microsoft.com/powershell/module/dnsserver/add-dnsserverqueryresolutionpolicy?view=win10-ps).
+Дополнительные сведения см. в разделе [Add-днссерверкуериресолутионполици](/powershell/module/dnsserver/add-dnsserverqueryresolutionpolicy?view=win10-ps).
 
 Теперь DNS-сервер настроен с использованием требуемых политик DNS для сервера разделенного имени с Active Directoryной зоной DNS.
 

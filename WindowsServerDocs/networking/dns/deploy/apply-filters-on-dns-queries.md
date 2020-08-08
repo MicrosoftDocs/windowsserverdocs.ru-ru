@@ -6,12 +6,12 @@ ms.topic: article
 ms.assetid: b86beeac-b0bb-4373-b462-ad6fa6cbedfa
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 81afa40adc51a89a12e096000de1f11f13730df6
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 79e0a0c0e99c49fc251d8aebc3fc76e68603e45c
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87964180"
+ms.locfileid: "87996920"
 ---
 # <a name="use-dns-policy-for-applying-filters-on-dns-queries"></a>Использование политики DNS для применения фильтров к запросам DNS
 
@@ -41,7 +41,7 @@ ms.locfileid: "87964180"
 В следующих примерах показано, как создать фильтры для политики DNS, которые либо блокируют, либо разрешают запросы разрешения имен DNS.
 
 >[!NOTE]
->В примерах команд в этом разделе используется команда Windows PowerShell **Add-днссерверкуериресолутионполици**. Дополнительные сведения см. в разделе [Add-днссерверкуериресолутионполици](https://docs.microsoft.com/powershell/module/dnsserver/add-dnsserverqueryresolutionpolicy?view=win10-ps).
+>В примерах команд в этом разделе используется команда Windows PowerShell **Add-днссерверкуериресолутионполици**. Дополнительные сведения см. в разделе [Add-днссерверкуериресолутионполици](/powershell/module/dnsserver/add-dnsserverqueryresolutionpolicy?view=win10-ps).
 
 ## <a name="block-queries-from-a-domain"></a><a name="bkmk_block1"></a>Блокировка запросов из домена
 

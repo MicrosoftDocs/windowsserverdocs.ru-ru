@@ -1,20 +1,18 @@
 ---
 title: Настройка туннеля VPN-устройства в Windows 10
 description: Узнайте, как создать туннель VPN-устройства в Windows 10.
-ms.prod: windows-server
 ms.date: 11/05/2018
-ms.technology: networking-ras
 ms.topic: article
 ms.assetid: 158b7a62-2c52-448b-9467-c00d5018f65b
 ms.author: v-tea
 author: Teresa-MOTIV
 ms.localizationpriority: medium
-ms.openlocfilehash: 636c0c56c52f501a54679a569213bcd4e4646b72
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.openlocfilehash: 04500e2a9d5623aa9ce9796088bda2e4a6a5eccd
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87181990"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87996791"
 ---
 # <a name="configure-vpn-device-tunnels-in-windows-10"></a>Настройка туннелей VPN-устройств в Windows 10
 
@@ -89,7 +87,7 @@ Set-VpnAuthProtocol -UserAuthProtocolAccepted Certificate, EAP -RootCertificateN
 </VPNProfile>
 ```
 
-В зависимости от потребностей каждого конкретного сценария развертывания другой компонент VPN, который можно настроить с помощью туннеля устройства, — это [Обнаружение доверенных сетей](https://docs.microsoft.com/answers/topics/windows-server-infrastructure.html).
+В зависимости от потребностей каждого конкретного сценария развертывания другой компонент VPN, который можно настроить с помощью туннеля устройства, — это [Обнаружение доверенных сетей](/answers/topics/windows-server-infrastructure.html).
 
 ```
  <!-- inside/outside detection -->
