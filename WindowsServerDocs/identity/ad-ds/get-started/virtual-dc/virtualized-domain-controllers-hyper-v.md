@@ -5,13 +5,12 @@ author: MicrosoftGuyJFlo
 ms.author: joflore
 ms.date: 04/19/2018
 ms.topic: article
-ms.prod: windows-server
-ms.openlocfilehash: 99d470af623be7ccc7ad2a5fe0d63576a406ff57
-ms.sourcegitcommit: 3632b72f63fe4e70eea6c2e97f17d54cb49566fd
+ms.openlocfilehash: ad40b5e5049c8b4f29dab4ffac8246a73e5b2fcd
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87519051"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87956991"
 ---
 # <a name="virtualizing-domain-controllers-using-hyper-v"></a>Виртуализация контроллеров домена с помощью Hyper-V
 
@@ -236,7 +235,7 @@ System Center Virtual Machine Manager (VMM) 2008 обеспечивает уни
 > [!NOTE]
 > Это руководство недавно обновлялось, чтобы отразить текущую рекомендацию по синхронизации времени для гостевого контроллера домена только из иерархии домена, а не из предыдущей рекомендации по частичному отключению синхронизации времени между системой узла и гостевым контроллером домена.
 
-## <a name="storage"></a>Хранилище
+## <a name="storage"></a>Хранение
 
 Чтобы оптимизировать производительность виртуальной машины контроллера домена и обеспечить устойчивость Active Directory записи, используйте следующие рекомендации по хранению файлов операционной системы, Active Directory и VHD:
 

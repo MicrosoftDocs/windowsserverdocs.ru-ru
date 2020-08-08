@@ -6,14 +6,12 @@ ms.author: joflore
 manager: mtillman
 ms.date: 05/31/2017
 ms.topic: article
-ms.prod: windows-server
-ms.technology: identity-adds
-ms.openlocfilehash: 2823e761ead46dc5180c540ce6faef8ef604cd18
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: f1cb3db67e12e0d0b8947c22c5acc2b2ffc6f077
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86955086"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87956701"
 ---
 # <a name="virtualized-domain-controller-cloning-test-guidance-for-application-vendors"></a>Руководство по тестированию клонирования виртуализированных контроллеров домена для поставщиков приложений
 

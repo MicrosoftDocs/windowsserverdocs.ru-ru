@@ -1,20 +1,18 @@
 ---
 title: Поддерживаемые виртуальные машины Oracle Linux в Hyper-V
 description: Список служб и компонентов интеграции Linux, входящих в каждую версию
-ms.prod: windows-server
 manager: dongill
-ms.technology: compute-hyper-v
 ms.topic: article
 ms.assetid: c02fdb5b-62f3-43cb-a190-ab74b3ebcf77
 author: shirgall
 ms.author: kathydav
 ms.date: 06/05/2020
-ms.openlocfilehash: 67f38d11c032e9eb0b98da14c25e01a5f67cabae
-ms.sourcegitcommit: 76a3b5f66e47e08e8235e2d152185b304d03b68b
+ms.openlocfilehash: 0e9a11fbff5015037bffa1cad14e70d629fef94b
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "84663177"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87989303"
 ---
 # <a name="supported-oracle-linux-virtual-machines-on-hyper-v"></a>Поддерживаемые виртуальные машины Oracle Linux в Hyper-V
 
@@ -27,8 +25,8 @@ ms.locfileid: "84663177"
 * [Серия Oracle Linux 8. x](#oracle-linux-8x-series)
 * [Серия Oracle Linux 7. x](#oracle-linux-7x-series)
 * [Серия Oracle Linux 6. x](#oracle-linux-6x-series)
- 
-   
+
+
 ## <a name="table-legend"></a>Условные обозначения таблицы
 
 * **Встроенные в** систему LIS включены в состав этого дистрибутива Linux. Номера версий модулей ядра для встроенных LIS (например, как показано в **лсмод**) отличаются от номера версии в пакете скачанных пакетов LIS, предоставленных корпорацией Майкрософт. Несоответствие не означает, что встроенное в LIS Обновление устарело.
@@ -36,7 +34,7 @@ ms.locfileid: "84663177"
 * &#10004;-доступный компонент
 * (*пусто*) — функция недоступна
 * **RHCK** — ядро с совместимостью Red Hat
-* **UEK** — неразрывный корпоративный ядра (UEK) 
+* **UEK** — неразрывный корпоративный ядра (UEK)
    * UEK4-построено на основе вышестоящего выпуска Linux ядра 4.1.12
    * UEK5-построено на основе вышестоящего выпуска Linux ядра 4,14
    * UEK6-построено на основе вышестоящего выпуска Linux ядра 5,4
@@ -46,40 +44,40 @@ ms.locfileid: "84663177"
 |       **Компонент**     |       **Версия Windows Server**      |       **8.0 – 8.1 (RHCK)** |
 |-----------------------|---------------------------------------|-------------------|
 |       **Доступность**        |   |
-|       **[Ядро](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#core)**      | 2019, 2016, 2012 R2 | &#10004; | 
-|       Точное время Windows Server 2016       | 2019, 2016 | &#10004; | 
-|       **[Сеть](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#networking)**      |   | 
-|       Кадры крупного размера        | 2019, 2016, 2012 R2 | &#10004; | 
-|       Добавление тегов и магистрали виртуальной ЛС       | 2019, 2016, 2012 R2 | &#10004;  | 
+|       **[Основные сведения](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#core)**      | 2019, 2016, 2012 R2 | &#10004; |
+|       Точное время Windows Server 2016       | 2019, 2016 | &#10004; |
+|       **[Сеть](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#networking)**      |   |
+|       Кадры крупного размера        | 2019, 2016, 2012 R2 | &#10004; |
+|       Добавление тегов и магистрали виртуальной ЛС       | 2019, 2016, 2012 R2 | &#10004;  |
 |       Динамическая миграция      | 2019, 2016, 2012 R2 | &#10004; |
-|       Статическая Вставка IP-адресов     |  2019, 2016, 2012 R2 | &#10004; Примечание 2 | 
+|       Статическая Вставка IP-адресов     |  2019, 2016, 2012 R2 | &#10004; Примечание 2 |
 |       vRSS     | 2019, 2016, 2012 R2 | &#10004; |
 |       Сегментация TCP и разгрузка контрольной суммы | 2019, 2016, 2012 R2 | &#10004;|
 |       SR-IOV;  | 2019, 2016 |  &#10004;   |
-|       **[Память](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#storage)** |  | 
+|       **[Хранение](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#storage)** |  |
 |       Изменение размера VHDX  | 2019, 2016, 2012 R2 | &#10004; |
 |       Виртуальное подключение Fibre Channel | 2019, 2016, 2012 R2 | &#10004; Примечание 3  |
 |       Динамическая Архивация виртуальных машин  | 2019, 2016, 2012 R2 | &#10004; Примечание 5 |
 |       Поддержка TRIM | 2019, 2016, 2012 R2 | &#10004;  |
 |       WWN ДЛЯ SCSI | 2019, 2016, 2012 R2 | &#10004;  |
 |       **[Память](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#memory)** | |
-|       Поддержка ядра PAE  | 2019, 2016, 2012 R2 |  Недоступно |
-|       Настройка зазора MMIO  | 2019, 2016, 2012 R2 | &#10004; | 
+|       Поддержка ядра PAE  | 2019, 2016, 2012 R2 |  Н/Д |
+|       Настройка зазора MMIO  | 2019, 2016, 2012 R2 | &#10004; |
 |       Динамическая память — "горячее" Добавление | 2019, 2016, 2012 R2  | &#10004; Примечание 7, 8, 9 |
 |       Всплывающие подсказки динамическая память | 2019, 2016, 2012 R2 | &#10004; Примечание 7, 8, 9 |
 |       Изменение размера памяти среды выполнения | 2019, 2016  | &#10004;  |
-|       **[Видеоролик](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#video)** | |
-|       Устройство видеозаписи, определенное Hyper-V | 2019, 2016, 2012 R2 | &#10004;   | 
-|       **[Разное](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#miscellaneous)** | |
-|       Пара "ключ-значение"  | 2019, 2016, 2012 R2 | &#10004;   | 
-|       Немаскируемое прерывание | 2019, 2016, 2012 R2 | &#10004;  | 
-|       Копирование файлов с узла на гость | 2019, 2016, 2012 R2 | &#10004;  | 
-|       Команда лсвмбус | 2019, 2016, 2012 R2 | &#10004;  | 
-|       Сокеты Hyper-V | 2019, 2016 | &#10004;  | 
-|       Транзитный/ДДА PCI | 2019, 2016 | &#10004; | 
+|       **[Роли](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#video)** | |
+|       Устройство видеозаписи, определенное Hyper-V | 2019, 2016, 2012 R2 | &#10004;   |
+|       **[Прочее](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#miscellaneous)** | |
+|       Пара "ключ-значение"  | 2019, 2016, 2012 R2 | &#10004;   |
+|       Немаскируемое прерывание | 2019, 2016, 2012 R2 | &#10004;  |
+|       Копирование файлов с узла на гость | 2019, 2016, 2012 R2 | &#10004;  |
+|       Команда лсвмбус | 2019, 2016, 2012 R2 | &#10004;  |
+|       Сокеты Hyper-V | 2019, 2016 | &#10004;  |
+|       Транзитный/ДДА PCI | 2019, 2016 | &#10004; |
 | **[Виртуальные машины 2-го поколения](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#generation-2-virtual-machines)** | |  |
-|       Загрузка с помощью UEFI | 2019, 2016, 2012 R2 |  &#10004; Примечание 12  |   
-|       Безопасная загрузка | 2019, 2016 |  &#10004; | 
+|       Загрузка с помощью UEFI | 2019, 2016, 2012 R2 |  &#10004; Примечание 12  |
+|       Безопасная загрузка | 2019, 2016 |  &#10004; |
 
 ## <a name="oracle-linux-7x-series"></a>Серия Oracle Linux 7. x
 
@@ -89,7 +87,7 @@ ms.locfileid: "84663177"
 <tr height="50px">
 <td width="20%" rowspan="2">
 
-Компонент
+Функция
 </td>
 <td width="20%" rowspan="2">
 
@@ -159,7 +157,7 @@ LIS 4,3
 <tr height="50px">
 <td width="20%">
 
-**[Ядро](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#core)**
+**[Основные сведения](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#core)**
 </td>
 <td width="20%">
 
@@ -223,7 +221,7 @@ LIS 4,3
 <tr height="50px">
 <td width="20%">
 
- **[Сеть](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#networking)** 
+ **[Сеть](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#networking)**
 </td>
 <td width="20%">
 
@@ -486,7 +484,7 @@ SR-IOV;
 <tr height="50px">
 <td width="20%">
 
-**[Память](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#storage)**
+**[Хранение](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#storage)**
 </td>
 <td width="20%">
 
@@ -718,27 +716,27 @@ WWN ДЛЯ SCSI
 </td>
 <td width="10%">
 
-Недоступно
+Н/Д
 </td>
 <td width="10%">
 
-Недоступно
+Н/Д
 </td>
 <td width="10%">
 
-Недоступно
+Н/Д
 </td>
 <td width="10%">
 
-Недоступно
+Н/Д
 </td>
 <td width="10%">
 
-Недоступно
+Н/Д
 </td>
 <td width="10%">
 
-Недоступно
+Н/Д
 </td>
 </tr>
 <tr height="50px">
@@ -879,7 +877,7 @@ WWN ДЛЯ SCSI
 <tr height="50px">
 <td width="20%">
 
-**[Видеоролик](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#video)**
+**[Роли](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#video)**
 </td>
 <td width="20%">
 
@@ -940,7 +938,7 @@ WWN ДЛЯ SCSI
 <tr height="50px">
 <td width="20%">
 
-**[Разное](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#miscellaneous)**
+**[Прочее](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#miscellaneous)**
 </td>
 <td width="20%">
 
@@ -1270,11 +1268,11 @@ WWN ДЛЯ SCSI
 
 В этой серии есть только 64-разрядные ядра.
 
-|       **Компонент**     |       **Версия Windows Server**      |       **6.8-6.10 (RHCK)** |       **6.8-6.10 (UEK4)**     | 
+|       **Компонент**     |       **Версия Windows Server**      |       **6.8-6.10 (RHCK)** |       **6.8-6.10 (UEK4)**     |
 |-----------------------|---------------------------------------|-------------------|-------------------|
 |       **Доступность**     |   | LIS 4,3  | Встроено  |
-|       **[Ядро](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#core)**      | 2019, 2016, 2012 R2 | &#10004; | &#10004;
-|       Точное время Windows Server 2016       | 2019, 2016 | | 
+|       **[Основные сведения](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#core)**      | 2019, 2016, 2012 R2 | &#10004; | &#10004;
+|       Точное время Windows Server 2016       | 2019, 2016 | |
 |       **[Сеть](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#networking)**      |   |  |
 |       Кадры крупного размера        | 2019, 2016, 2012 R2 | &#10004; | &#10004;|
 |       Добавление тегов и магистрали виртуальной ЛС       | 2019, 2016, 2012 R2 | &#10004; Примечание 1 | &#10004; Примечание 1 |
@@ -1283,21 +1281,21 @@ WWN ДЛЯ SCSI
 |       vRSS     | 2019, 2016, 2012 R2 | &#10004; | &#10004;|
 |       Сегментация TCP и разгрузка контрольной суммы | 2019, 2016, 2012 R2 | &#10004;|  &#10004; |
 |       SR-IOV;  | 2019, 2016 |    |  |
-|       **[Память](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#storage)** |  |  |
+|       **[Хранение](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#storage)** |  |  |
 |       Изменение размера VHDX  | 2019, 2016, 2012 R2 | &#10004; | &#10004; |
 |       Виртуальное подключение Fibre Channel | 2019, 2016, 2012 R2 | &#10004; Примечание 3  | &#10004; Примечание 3 |
 |       Динамическая Архивация виртуальных машин  | 2019, 2016, 2012 R2 | &#10004; Примечание 5 | &#10004; Примечание 5|
 |       Поддержка TRIM | 2019, 2016, 2012 R2 | &#10004;  | &#10004; |
 |       WWN ДЛЯ SCSI | 2019, 2016, 2012 R2 | &#10004;  | &#10004; |
 |       **[Память](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#memory)** | |  |
-|       Поддержка ядра PAE  | 2019, 2016, 2012 R2 |  Недоступно | Недоступно
+|       Поддержка ядра PAE  | 2019, 2016, 2012 R2 |  Н/Д | Н/Д
 |       Настройка зазора MMIO  | 2019, 2016, 2012 R2 | &#10004; | &#10004;  |
 |       Динамическая память — "горячее" Добавление | 2019, 2016, 2012 R2  | &#10004; Примечание 6, 8, 9 | &#10004; Примечание 6, 8, 9 |
 |       Всплывающие подсказки динамическая память | 2019, 2016, 2012 R2 | &#10004; Примечание 6, 8, 9 | &#10004; Примечание 6, 8, 9 |
 |       Изменение размера памяти среды выполнения | 2019, 2016  |  | |
-|       **[Видеоролик](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#video)** | | |
+|       **[Роли](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#video)** | | |
 |       Устройство видеозаписи, определенное Hyper-V | 2019, 2016, 2012 R2 | &#10004;   | &#10004; |
-|       **[Разное](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#miscellaneous)** | | |
+|       **[Прочее](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#miscellaneous)** | | |
 |       Пара "ключ-значение"  | 2019, 2016, 2012 R2 | &#10004; Примечание 10, 11   | &#10004; Примечание 10, 11  |
 |       Немаскируемое прерывание | 2019, 2016, 2012 R2 | &#10004;  | &#10004; |
 |       Копирование файлов с узла на гость | 2019, 2016, 2012 R2 | &#10004;  | &#10004; |
@@ -1305,7 +1303,7 @@ WWN ДЛЯ SCSI
 |       Сокеты Hyper-V | 2019, 2016 | &#10004;  | &#10004; |
 |       Транзитный/ДДА PCI | 2019, 2016 | &#10004; | &#10004; |
 | **[Виртуальные машины 2-го поколения](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#generation-2-virtual-machines)** | |  |
-|       Загрузка с помощью UEFI | 2019, 2016, 2012 R2 |  &#10004; Примечание 12  | &#10004; Примечание 12   
+|       Загрузка с помощью UEFI | 2019, 2016, 2012 R2 |  &#10004; Примечание 12  | &#10004; Примечание 12
 |       Безопасная загрузка | 2019, 2016 |  |  |
 
 
@@ -1357,7 +1355,7 @@ WWN ДЛЯ SCSI
 
 См. также:
 
-* [Set-Вмфирмваре](https://technet.microsoft.com/library/dn464287.aspx)
+* [Set-Вмфирмваре](/powershell/module/hyper-v/set-vmfirmware?view=win10-ps)
 
 * [Поддерживаемые CentOS и Red Hat Enterprise Linux виртуальные машины в Hyper-V](Supported-CentOS-and-Red-Hat-Enterprise-Linux-virtual-machines-on-Hyper-V.md)
 

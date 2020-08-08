@@ -1,24 +1,22 @@
 ---
 ms.assetid: 20dff664-2370-469b-96a8-df1acf7c7f12
 title: Дополнительные ресурсы
-ms.prod: windows-server
-ms.technology: identity-adds
 ms.author: joflore
 author: MicrosoftGuyJFlo
 manager: mtillman
 ms.date: 08/07/2018
-ms.openlocfilehash: 6f1d9a19e62a505b2f9e15c074cb32240983e889
-ms.sourcegitcommit: b00d7c8968c4adc8f699dbee694afe6ed36bc9de
+ms.openlocfilehash: fc42d406f150c96fe40e00888bc3f42a13bb2774
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "80825737"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87965221"
 ---
 # <a name="additional-resources"></a>Дополнительные ресурсы
 
->Область применения: Windows Server
+>Область применения. Windows Server
 
-Подробные сведения об использовании программы repadmin. exe для управления репликацией Active Directory см. в следующем ресурсе: 
+Подробные сведения об использовании Repadmin.exe для управления репликацией Active Directory см. в следующем ресурсе:
 
 - [Мониторинг и устранение неполадок Active Directory репликации с помощью repadmin](https://go.microsoft.com/fwlink/?LinkId=122830)
 
@@ -32,7 +30,7 @@ ms.locfileid: "80825737"
 - [Рекомендации по администрированию отношений доверия между доменами и лесами](https://go.microsoft.com/fwlink/?LinkId=128785)
 - [Известные проблемы при резервном копировании домен Active Directory служб](https://go.microsoft.com/fwlink/?LinkId=128793)
 - [Известные проблемы с полномочным восстановлением](https://go.microsoft.com/fwlink/?LinkId=128788)
-- [Рекомендации по полномочному восстановлению](https://go.microsoft.com/fwlink/?LinkId=128791) 
+- [Рекомендации по полномочному восстановлению](https://go.microsoft.com/fwlink/?LinkId=128791)
 - [Известные проблемы при добавлении контроллеров домена на удаленных сайтах](https://go.microsoft.com/fwlink/?LinkId=128794)
 - [Рекомендации по добавлению контроллеров домена на удаленных сайтах](https://go.microsoft.com/fwlink/?LinkId=128796)
 

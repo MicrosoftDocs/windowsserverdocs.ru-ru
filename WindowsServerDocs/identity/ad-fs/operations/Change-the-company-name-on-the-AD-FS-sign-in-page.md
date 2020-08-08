@@ -6,14 +6,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.prod: windows-server
-ms.technology: identity-adfs
-ms.openlocfilehash: 3b6489ae115fb236e19214bceb291cd8f6dfacba
-ms.sourcegitcommit: 3632b72f63fe4e70eea6c2e97f17d54cb49566fd
+ms.openlocfilehash: e47d0ee6b1969bca847dd88bfc6cca69bd72b6ba
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87519813"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87956581"
 ---
 # <a name="change-the-company-name-on-the-ad-fs-sign-in-page"></a>Изменение названия компании на странице входа AD FS
 
@@ -28,6 +26,6 @@ ms.locfileid: "87519813"
 > [!NOTE]
 > Можно также использовать интегрированную среду сценариев Windows PowerShell \( \) для изменения названия компании. С помощью интегрированной среды сценариев Windows PowerShell можно отображать содержимое в среде, \- совместимой с Юникодом. Дополнительные сведения см. в разделе [Знакомство с Windows PowerShell ISE](/previous-versions/mt707506(v=msdn.10)).
 
-## <a name="additional-references"></a>Дополнительные ссылки
+## <a name="additional-references"></a>Дополнительная справка
 
 - [AD FS настройки входа пользователя](AD-FS-user-sign-in-customization.md)

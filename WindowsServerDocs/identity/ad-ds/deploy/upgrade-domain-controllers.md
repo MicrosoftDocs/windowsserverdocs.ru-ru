@@ -6,14 +6,12 @@ author: MicrosoftGuyJFlo
 manager: mtillman
 ms.date: 05/31/2017
 ms.topic: article
-ms.prod: windows-server
-ms.technology: identity-adds
-ms.openlocfilehash: 93b02f79753f4e861c141ced84b29efd078fd227
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 78e245767857111f71a6252094ef0e74fda7f714
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86961056"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87965271"
 ---
 # <a name="upgrade-domain-controllers-to-windows-server-2016"></a>Обновление контроллеров домена до Windows Server 2016
 
@@ -167,8 +165,8 @@ ms.locfileid: "86961056"
 1. Понизьте и удалите контроллер домена Windows Server 2012 R2. Сведения о понижении роли контроллера домена см. в статье [понижение роли контроллеров доменов и доменов](../../ad-ds/deploy/Demoting-Domain-Controllers-and-Domains--Level-200-.md) .
 1. После понижения и удаления сервера можно повысить функциональные уровни леса и функциональных уровней домена до Windows Server 2016.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Next Steps
 
 - [Новые возможности при установке и удалении доменных служб Active Directory](../../ad-ds/deploy/What-s-New-in-Active-Directory-Domain-Services-Installation-and-Removal.md)
 - [Установка домен Active Directory Services &#40;&#41;уровня 100](../../ad-ds/deploy/Install-Active-Directory-Domain-Services--Level-100-.md)
-- [Режимы работы Windows Server 2016](../active-directory-functional-levels.md)  
+- [Режимы работы Windows Server 2016](../active-directory-functional-levels.md)

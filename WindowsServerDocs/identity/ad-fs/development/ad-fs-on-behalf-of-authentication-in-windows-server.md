@@ -6,14 +6,12 @@ ms.author: billmath
 manager: mtillman
 ms.date: 02/22/2018
 ms.topic: article
-ms.prod: windows-server
-ms.technology: identity-adfs
-ms.openlocfilehash: d13cd27efc2387911f8c66bf083509e60e7e5b31
-ms.sourcegitcommit: 3632b72f63fe4e70eea6c2e97f17d54cb49566fd
+ms.openlocfilehash: c313754b315b48982342fe2797d1ed766ce354a9
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87519883"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87965171"
 ---
 # <a name="build-a-multi-tiered-application-using-on-behalf-of-obo-using-oauth-with-ad-fs-2016-or-later"></a>Создание многоуровневого приложения с использованием от имени (OBO) с помощью OAuth с AD FS 2016 или более поздней версии
 
@@ -281,7 +279,7 @@ authContext = new AuthenticationContext(authority, false);
 * Открытие файла Web.config
 * Измените следующие ключи:
 
-| Клавиши | Значение |
+| Ключ | Значение |
 |:-|:-|
 | IDA: аудитория | Идентификатор ToDoListService, заданный для AD FS при настройке ToDoListService WebAPI, напримерhttps://localhost:44321/ |
 | IDA: ClientID | Идентификатор ToDoListService, заданный для AD FS при настройке ToDoListService WebAPI, например<https://localhost:44321/> </br>**Очень важно, чтобы Ida: аудитория и Ida: ClientID совпадали друг с другом.** |

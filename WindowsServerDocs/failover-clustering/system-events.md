@@ -1,19 +1,17 @@
 ---
 title: События системного журнала отказоустойчивой кластеризации
 description: Список событий отказоустойчивой кластеризации в системном журнале Windows Server. Эти события можно использовать для устранения неполадок в кластере.
-ms.prod: windows-server
 ms.topic: article
 author: JasonGerend
 ms.author: jgerend
 manager: lizross
-ms.technology: storage-failover-clustering
 ms.date: 01/14/2020
-ms.openlocfilehash: 5988842ef2a88687bca95781b996babb4e4f3faa
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.openlocfilehash: 17d61291822586013fa77bb1c7c399ab87dfef17
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87181710"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87957161"
 ---
 # <a name="failover-clustering-system-log-events"></a>События системного журнала отказоустойчивой кластеризации
 

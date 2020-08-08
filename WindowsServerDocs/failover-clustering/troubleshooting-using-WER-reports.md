@@ -1,23 +1,21 @@
 ---
 title: Устранение неполадок отказоустойчивого кластера с помощью отчетов об ошибках Windows
 description: Устранение неполадок отказоустойчивого кластера с помощью отчетов WER с подробными сведениями о сборе отчетов и диагностике распространенных проблем.
-ms.prod: windows-server
-ms.technology: storage-failover-clustering
 ms.author: johnmar
 author: JohnMarlin-MSFT
 ms.date: 03/27/2018
-ms.openlocfilehash: f888b7f49c2bf97eb42070a6028b137aeb730406
-ms.sourcegitcommit: acfdb7b2ad283d74f526972b47c371de903d2a3d
+ms.openlocfilehash: 9b4569f4f4d28ad1380cf057cdf96e4b81fbdb2a
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "87768541"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87990737"
 ---
 # <a name="troubleshooting-a-failover-cluster-using-windows-error-reporting"></a>Устранение неполадок отказоустойчивого кластера с помощью отчетов об ошибках Windows
 
 > Область применения: Windows Server 2019, Windows Server 2016, Windows Server
 
-Отчеты об ошибках Windows (WER) — это гибкая инфраструктура обратной связи на основе событий, призванная помочь опытным администраторам или уровням 3 собирать сведения о проблемах с оборудованием и программным обеспечением, которые Windows может обнаружить, передавать сведения в корпорацию Майкрософт и предоставлять пользователям доступные решения. Эта [ссылка](https://docs.microsoft.com/powershell/module/windowserrorreporting/) содержит описания и синтаксис для всех командлетов виндовсерроррепортинг.
+Отчеты об ошибках Windows (WER) — это гибкая инфраструктура обратной связи на основе событий, призванная помочь опытным администраторам или уровням 3 собирать сведения о проблемах с оборудованием и программным обеспечением, которые Windows может обнаружить, передавать сведения в корпорацию Майкрософт и предоставлять пользователям доступные решения. Эта [ссылка](/powershell/module/windowserrorreporting/) содержит описания и синтаксис для всех командлетов виндовсерроррепортинг.
 
 Сведения об устранении неполадок, приведенных ниже, могут быть полезны при устранении сложных проблем, которые были переданы в корпорацию Майкрософт для рассмотрения.
 
@@ -75,11 +73,11 @@ Microsoft-Windows-Kernel-LiveDump/Analytic
 
 ## <a name="gathering-logs"></a>Идет сбор журналов
 
-После включения каналов событий можно использовать **думплогкуери** для сбора журналов. Свойство типа общедоступного ресурса **думплогкуери** является значением мутистринг. Каждая строка является [запросом XPath, как описано здесь](https://msdn.microsoft.com/library/windows/desktop/dd996910(v=vs.85).aspx).
+После включения каналов событий можно использовать **думплогкуери** для сбора журналов. Свойство типа общедоступного ресурса **думплогкуери** является значением мутистринг. Каждая строка является [запросом XPath, как описано здесь](/windows/win32/wes/consuming-events).
 
 При устранении неполадок, если необходимо получить дополнительные каналы событий, можно изменить свойство **думплогкуери** , добавив дополнительные запросы или изменив список.
 
-Для этого сначала протестируйте запрос XPATH с помощью командлета PowerShell [Get-WinEvent](https://docs.microsoft.com/powershell/module/Microsoft.PowerShell.Diagnostics/Get-WinEvent?view=powershell-5.1) :
+Для этого сначала протестируйте запрос XPATH с помощью командлета PowerShell [Get-WinEvent](/powershell/module/Microsoft.PowerShell.Diagnostics/Get-WinEvent?view=powershell-5.1) :
 
 ```powershell
 get-WinEvent -FilterXML "<QueryList><Query><Select Path='Microsoft-Windows-GroupPolicy/Operational'>*[System[TimeCreated[timediff(@SystemTime) &gt;= 600000]]]</Select></Query></QueryList>"
@@ -158,7 +156,7 @@ Directory of c:\ProgramData\Microsoft\Windows\WER\ReportArchive
 
 ```
 
-Отчеты об ошибках Windows предоставляет множество параметров для настройки отчетов о проблемах. Дополнительные сведения см. в [документации](https://msdn.microsoft.com/library/windows/desktop/bb513638(v=vs.85).aspx)по отчеты об ошибках Windows.
+Отчеты об ошибках Windows предоставляет множество параметров для настройки отчетов о проблемах. Дополнительные сведения см. в [документации](/windows/win32/wer/wer-settings)по отчеты об ошибках Windows.
 
 
 ## <a name="troubleshooting-using-windows-error-reporting-reports"></a>Устранение неполадок с помощью отчетов отчеты об ошибках Windows

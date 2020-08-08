@@ -5,15 +5,13 @@ author: billmath
 manager: femila
 ms.date: 04/09/2018
 ms.topic: article
-ms.prod: windows-server
-ms.technology: identity-adfs
 ms.author: billmath
-ms.openlocfilehash: b6fc6c662630af5658e5f186c958f4ddaffccc42
-ms.sourcegitcommit: 4af8ab2e5c199ecff0697e5331fa7f61f2556a8f
+ms.openlocfilehash: cf8a12957621ce86492cc4216c56d9a159f1ee5c
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "86866033"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87940570"
 ---
 # <a name="upgrading-to-ad-fs-in-windows-server-2016-using-a-wid-database"></a>Обновление до AD FS в Windows Server 2016 с помощью базы данных WID
 
@@ -156,8 +154,9 @@ Set-WebApplicationProxyConfiguration -UpgradeConfigurationVersion
 Это приведет к завершению обновления серверов WAP.
 
 
-> [!NOTE] 
-> В AD FS 2019 существует известная ошибка PRT, если выполняется Windows Hello для бизнеса с гибридным доверием сертификатов. Эта ошибка может возникать в журналах событий администратора ADFS: Received invalid Oauth request. The client 'NAME' is forbidden to access the resource with scope 'ugs'. (Получен недопустимый запрос OAuth. Клиенту с именем NAME запрещено обращаться к ресурсу с областью ugs.) Чтобы исправить эту ошибку, сделайте следующее: 
+> [!NOTE]
+> В AD FS 2019 существует известная ошибка PRT, если выполняется Windows Hello для бизнеса с гибридным доверием сертификатов. Эта ошибка может возникать в журналах событий администратора ADFS: Received invalid Oauth request. The client 'NAME' is forbidden to access the resource with scope 'ugs'. (Получен недопустимый запрос OAuth. Клиенту с именем NAME запрещено обращаться к ресурсу с областью ugs.)
+> Чтобы исправить эту ошибку, сделайте следующее:
 > 1. Запустите консоль управления AD FS. Щелкните "Службы" > "Описания областей"
 > 2. Щелкните правой кнопкой мыши "Описания областей" и выберите "Добавить описание области".
 > 3. В поле "Имя" введите ugs и щелкните "Применить" > "ОК2".

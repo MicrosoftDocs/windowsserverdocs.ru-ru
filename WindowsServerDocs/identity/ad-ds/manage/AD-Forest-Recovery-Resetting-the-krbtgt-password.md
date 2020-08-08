@@ -5,40 +5,38 @@ author: MicrosoftGuyJFlo
 manager: mtillman
 ms.date: 08/09/2018
 ms.topic: article
-ms.prod: windows-server
 ms.assetid: 3bd6c1d0-d316-4b03-b7b4-557d4537635c
-ms.technology: identity-adds
-ms.openlocfilehash: e2d19621c80b40fa70706bf75434dce74693990d
-ms.sourcegitcommit: b00d7c8968c4adc8f699dbee694afe6ed36bc9de
+ms.openlocfilehash: d756ec305f5d77a694522eb18cedec25203edcab
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "80823637"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87965131"
 ---
 # <a name="ad-forest-recovery---resetting-the-krbtgt-password"></a>Восстановление леса AD — сброс пароля KRBTGT
 
 >Область применения: Windows Server 2016, Windows Server 2012 и 2012 R2, Windows Server 2008 и 2008 R2
 
 Используйте следующую процедуру, чтобы сбросить пароль KRBTGT для домена. Следующая процедура применяет записываемые контроллеры домена, а не только контроллеры доменов только для чтения (RODC).
-  
+
 > [!IMPORTANT]
 > Если планируется восстановление RODC в режиме «в сети» во время восстановления леса, не удаляйте учетные записи KRBTGT для RODC. Учетная запись krbtgt для RODC указана в формате krbtgt_*номер*.
 >
-> Если на контроллере домена используется настроенный фильтр паролей (например, пассфилт. dll), то при попытке сбросить пароль KRBTGT может появиться сообщение об ошибке. Дополнительные сведения, включая обходной путь, см. в статье базы знаний Майкрософт [2549833](https://support.microsoft.com/kb/2549833) (https://support.microsoft.com/kb/2549833).
-  
-## <a name="to-reset-the-krbtgt-password"></a>Сброс пароля KRBTGT  
-  
+> Если на контроллере домена используется настроенный фильтр паролей (например, passfilt.dll), то при попытке сбросить пароль KRBTGT может появиться сообщение об ошибке. Дополнительные сведения, включая обходной путь, см. в статье базы знаний Майкрософт [2549833](https://support.microsoft.com/kb/2549833) ( https://support.microsoft.com/kb/2549833) .
+
+## <a name="to-reset-the-krbtgt-password"></a>Сброс пароля KRBTGT
+
 1. Нажмите кнопку **Пуск**, укажите **Панель управления**, выберите пункт **администрирование**, а затем щелкните **Active Directory пользователи и компьютеры**.
 2. Выберите **Вид** и щелкните **Дополнительные параметры**.
 3. В дереве консоли дважды щелкните контейнер домен, а затем щелкните **Пользователи**.
 4. В области сведений щелкните правой кнопкой мыши учетную запись **KRBTGT** и выберите команду **сбросить пароль**.
-   ![сбросить пароль](media/AD-Forest-Recovery-Resetting-the-krbtgt-password/resetpass1.png)
+   ![Сброс пароля](media/AD-Forest-Recovery-Resetting-the-krbtgt-password/resetpass1.png)
 5. В поле **новый пароль**введите новый пароль, введите пароль в поле **Подтверждение пароля**и нажмите кнопку **ОК**. Указанный пароль не важен, так как система автоматически создает надежный пароль, не зависящий от указанного пароля.
-  
+
 > [!NOTE]
 > Эту операцию следует выполнять дважды. Журнал паролей учетной записи KRBTGT равен двум, т. е. он содержит два последних пароля. Если сбросить пароль дважды, вы фактически очистите старые пароли из журнала, поэтому другой контроллер домена не будет реплицирован с этим контроллером домена с помощью старого пароля.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Next Steps
 
 - [Руководство по восстановлению леса AD](AD-Forest-Recovery-Guide.md)
-- [Восстановление леса AD — процедуры](AD-Forest-Recovery-Procedures.md) 
+- [Восстановление леса AD — процедуры](AD-Forest-Recovery-Procedures.md)

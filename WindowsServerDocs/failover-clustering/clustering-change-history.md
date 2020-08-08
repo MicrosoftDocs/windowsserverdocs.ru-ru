@@ -2,19 +2,17 @@
 ms.assetid: 289cbd10-e7ec-4f2e-8dd1-eb5692565578
 title: Журнал изменений разделов, посвященных отказоустойчивой кластеризации
 description: Новые и обновленные разделы документации по отказоустойчивой кластеризации для Windows Server 2016
-ms.prod: windows-server
-ms.technology: storage-failover-clustering
 ms.topic: article
 author: JasonGerend
 manager: lizross
 ms.author: jgerend
 ms.date: 01/07/2020
-ms.openlocfilehash: 2bc64479c5615e356158b83ee41402f425f4ea3b
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.openlocfilehash: 9305935046db6e4185e07c703eb9caa83d263b2a
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87177900"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87965301"
 ---
 # <a name="change-history-for-failover-clustering-topics"></a>Журнал изменений разделов, посвященных отказоустойчивой кластеризации
 
@@ -28,27 +26,27 @@ ms.locfileid: "87177900"
 
 |Новая или измененная статья                                    |Описание |
 |--------------------------------------------------------|------------|
-|[События кластера](system-events.md)| Создать     |
+|[События кластера](system-events.md)| Оператор new     |
 
 ## <a name="march-2019"></a>Март 2019 г.
 
 |Новая или измененная статья                                    |Описание |
 |--------------------------------------------------------|------------|
-|[Сходство кластеров](cluster-affinity.md)| Создать     |
+|[Сходство кластеров](cluster-affinity.md)| Оператор new     |
 
 ## <a name="february-2019"></a>Февраль 2019 г.
 
 |Новая или измененная статья                                    |Описание |
 |--------------------------------------------------------|------------|
-| [Обновление отказоустойчивого кластера на одном оборудовании](upgrade-option-same-hardware.md)| Создать |
-|[Развертывание двухузлового файлового сервера](deploy-two-node-clustered-file-server.md)| Создать |
+| [Обновление отказоустойчивого кластера на одном оборудовании](upgrade-option-same-hardware.md)| Оператор new |
+|[Развертывание двухузлового файлового сервера](deploy-two-node-clustered-file-server.md)| Оператор new |
 
 ## <a name="january-2019"></a>Январь 2019 г.
 
 |Новая или измененная статья                                    |Описание |
 |--------------------------------------------------------|------------|
-|[Развертывание файлового ресурса-свидетеля](file-share-witness.md)    | Создать        |
-|[Перенос кластера между доменами](cluster-domain-migration.md) | Создать        |
+|[Развертывание файлового ресурса-свидетеля](file-share-witness.md)    | Оператор new        |
+|[Перенос кластера между доменами](cluster-domain-migration.md) | Оператор new        |
 
 ## <a name="november-2018"></a>Ноябрь 2018 г.
 

@@ -1,18 +1,16 @@
 ---
 ms.assetid: a6343f1c-e9dd-4a02-91ad-39bd519d66cd
 title: Упрощенные кластерные сети SMB Multichannel и Multi-NIC
-ms.prod: windows-server
-ms.technology: storage-failover-clustering
 ms.topic: article
 author: RobHindman
 ms.author: robhind
 ms.date: 09/15/2016
-ms.openlocfilehash: f345cd877f1c611683c2ffdef56b9b58cc070e49
-ms.sourcegitcommit: 771db070a3a924c8265944e21bf9bd85350dd93c
+ms.openlocfilehash: 7fad43cb5f3de5c10ed815fa802b6168c15850d1
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85473061"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87990750"
 ---
 # <a name="simplified-smb-multichannel-and-multi-nic-cluster-networks"></a>Упрощенные кластерные сети SMB Multichannel и Multi-NIC
 
@@ -58,7 +56,7 @@ ms.locfileid: "85473061"
  **рис. 4. конфигурация ресурса автоматической настройки адреса локальной связи IPv6 (FE80)**
 
 ## <a name="throughput-and-fault-tolerance"></a>Пропускная способность и отказоустойчивость
-Windows Server 2019 и Windows Server 2016 автоматически определяют возможности сетевого интерфейса и попытаются использовать каждый сетевой адаптер в самой быстрой конфигурации. Все сетевые карты, Объединенные в группу, сетевые карты с поддержкой RSS и сетевые карты с возможностью RDMA, можно использовать. В таблице ниже обобщены компромиссы при использовании этих технологий. Максимальная пропускная способность достигается при использовании нескольких сетевых интерфейсов с поддержкой RDMA. Дополнительные сведения см. [в разделе основы SMB мутличаннел](https://blogs.technet.microsoft.com/josebda/2012/06/28/the-basics-of-smb-multichannel-a-feature-of-windows-server-2012-and-smb-3-0/).
+Windows Server 2019 и Windows Server 2016 автоматически определяют возможности сетевого интерфейса и попытаются использовать каждый сетевой адаптер в самой быстрой конфигурации. Все сетевые карты, Объединенные в группу, сетевые карты с поддержкой RSS и сетевые карты с возможностью RDMA, можно использовать. В таблице ниже обобщены компромиссы при использовании этих технологий. Максимальная пропускная способность достигается при использовании нескольких сетевых интерфейсов с поддержкой RDMA. Дополнительные сведения см. [в разделе основы SMB мутличаннел](/archive/blogs/josebda/the-basics-of-smb-multichannel-a-feature-of-windows-server-2012-and-smb-3-0).
 
 ![Иллюстрация пропускной способности и отказоустойчивости для различных конфигураций сетевых адаптеров ](media/Simplified-SMB-Multichannel-and-Multi-NIC-Cluster-Networks/Clustering_MulitNIC_Fig5.png)
  **рис. 5. пропускная способность и отказоустойчивость для различных сетевых адаптеров конифигуратионс**

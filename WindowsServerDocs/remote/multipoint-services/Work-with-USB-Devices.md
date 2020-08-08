@@ -1,20 +1,18 @@
 ---
 title: Работа с USB-устройствами
 description: Узнайте, как USB-устройства работают со службами MultiPoint
-ms.prod: windows-server
-ms.technology: multipoint-services
 ms.topic: article
 ms.assetid: a33f2b83-bbc2-4fc1-8a94-aaa985dfe1f9
 author: lizap
 manager: dongill
 ms.author: elizapo
 ms.date: 08/04/2016
-ms.openlocfilehash: 9c434bd415b19d4072a327c6a38bec32f00a5d88
-ms.sourcegitcommit: 3632b72f63fe4e70eea6c2e97f17d54cb49566fd
+ms.openlocfilehash: 4ba0828d986098c551a59439fe2ca496b43485e3
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87517639"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87948987"
 ---
 # <a name="work-with-usb-devices"></a>Работа с USB-устройствами
 

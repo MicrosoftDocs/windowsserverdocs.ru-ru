@@ -6,14 +6,12 @@ author: MicrosoftGuyJFlo
 manager: mtillman
 ms.date: 08/07/2018
 ms.topic: article
-ms.prod: windows-server
-ms.technology: identity-adds
-ms.openlocfilehash: c6a18bc00d5269f30608ff8d511e8ee92b009133
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: f494fc09027b17d2110731d73d3d8de6d0496342
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86960996"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87957031"
 ---
 # <a name="introduction-to-active-directory-administrative-center-enhancements-level-100"></a>Introduction to Active Directory Administrative Center Enhancements (Level 100)
 
@@ -433,6 +431,6 @@ Remove-ADFineGrainedPasswordPolicy TestPswd -Confirm
 
     Например, вы можете изменить команду, чтобы добавить другого пользователя в группу **group1** или чтобы добавить пользователя **test1** в другую группу.
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также:
 
 [Расширенное управление AD DS с использованием центр администрирования Active Directory &#40;уровня 200&#41;](Advanced-AD-DS-Management-Using-Active-Directory-Administrative-Center--Level-200-.md)

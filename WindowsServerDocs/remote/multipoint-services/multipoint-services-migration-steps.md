@@ -2,23 +2,21 @@
 title: Действия по миграции служб MultiPoint
 description: Пошаговые инструкции по переходу на службы MultiPoint в Windows Server 2016
 ms.date: 07/29/2016
-ms.prod: windows-server
-ms.technology: multipoint-services
 ms.topic: article
 ms.assetid: 3ee77efa-7cc5-4ddf-aaff-b5634a717014
 author: lizap
 manager: dongill
 ms.author: elizapo
-ms.openlocfilehash: f2e293fafb8d6f5d84e9ea5a4ad8ef3b7fe2ba7d
-ms.sourcegitcommit: b00d7c8968c4adc8f699dbee694afe6ed36bc9de
+ms.openlocfilehash: 0d76e3518801829b852c94d0b112b906abbd92c0
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "80858697"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87948937"
 ---
 # <a name="migrate-to--multipoint-services-in-windows-server-2016"></a>Переход на службы MultiPoint в Windows Server 2016
 
->Область применения: Windows Server 2016
+>Область применения. Windows Server 2016
 
 Чтобы перейти к службам MultiPoint в Windows Server 2016, выполните следующие действия и сведения, собранные на листе планирования миграции.
 
@@ -41,7 +39,7 @@ ms.locfileid: "80858697"
 4. Щелкните **Импорт шаблона виртуального рабочего стола**. Следуйте инструкциям по импорту шаблона с исходного сервера.
 
 > [!NOTE]
-> При импорте шаблона виртуального рабочего стола все настройки, примененные к этому шаблону, будут сброшены. 
+> При импорте шаблона виртуального рабочего стола все настройки, примененные к этому шаблону, будут сброшены.
 
-## <a name="next-step"></a>Дальнейшие действия
+## <a name="next-step"></a>Следующий шаг
 [Проверьте новое развертывание служб MultiPoint.](multipoint-services-post-migration-steps.md)
