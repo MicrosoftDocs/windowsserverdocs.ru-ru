@@ -6,18 +6,18 @@ ms.sitesec: library
 author: lizap
 ms.localizationpriority: medium
 ms.date: 05/07/2018
-ms.openlocfilehash: f577ebd805e5373a10dd43a3d5054f92d4881c7d
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 2092e330af479ae0cbdb1da88ba87cf233307b59
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87895912"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87993257"
 ---
 # <a name="roles-role-services-and-features-not-in-server-core-containers---windows-server-version-1803"></a>Роли, службы ролей и компоненты, отсутствующие в контейнерах Server Core — Windows Server, версия 1803
 
 > Применяется к: Windows Server версии 1803
 
-В Windows Server версии 1803 мы [уменьшили общий размер образа контейнера Server Core до **1,58 Гб**](https://blogs.technet.microsoft.com/virtualization/2018/01/22/a-smaller-windows-server-core-container-with-better-application-compatibility/). Мы сделали это, оптимизируя архитектуру и удалив вещи, которые не нужны в [контейнере Server Core](https://docs.microsoft.com/virtualization/windowscontainers/about/). Некоторые были вещи, которые не работали в контейнерах, некоторые были роли и функции, которые никто не использовал.
+В Windows Server версии 1803 мы [уменьшили общий размер образа контейнера Server Core до **1,58 Гб**](https://blogs.technet.microsoft.com/virtualization/2018/01/22/a-smaller-windows-server-core-container-with-better-application-compatibility/). Мы сделали это, оптимизируя архитектуру и удалив вещи, которые не нужны в [контейнере Server Core](/virtualization/windowscontainers/about/). Некоторые были вещи, которые не работали в контейнерах, некоторые были роли и функции, которые никто не использовал.
 
 > [!IMPORTANT]
 > Мы удалили их из образа **контейнера** Server Core, а не [самого ядра сервера](server-core-roles-and-services.md).

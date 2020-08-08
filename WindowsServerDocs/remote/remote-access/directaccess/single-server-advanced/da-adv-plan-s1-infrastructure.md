@@ -6,12 +6,12 @@ ms.topic: article
 ms.assetid: aa3174f3-42af-4511-ac2d-d8968b66da87
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 8f60a960d76e7c24ff3dc9afaf931792713f06af
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 9d00622ce5712a2f725f1c6f1b533387651bc903
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87970411"
+ms.locfileid: "87993594"
 ---
 # <a name="step-1-plan-the-advanced-directaccess-infrastructure"></a>Шаг 1. Планирование расширенной инфраструктуры DirectAccess
 
@@ -52,9 +52,9 @@ ms.locfileid: "87970411"
 
     Для установки безопасного подключения клиентских компьютеров к внутренней сети корпорации в технологии DirectAccess используются протоколы IPv6 и IPsec. Однако для работы DirectAccess необязательно подключаться к Интернету по IPv6 или использовать во внутренних сетях оборудование с поддержкой IPv6. Сервер автоматически настраивает и использует технологии туннелирования IPv6 для туннелирования трафика IPv6 в Интернет с IPv4-адресацией (используя 6to4, Teredo или IP-HTTPS) и в интрасети, поддерживающей только IPv4 (используя NAT64 или ISATAP). Общие сведение об этих технологиях туннелирования см. в следующих разделах:
 
-    - [Технологии туннелирования IPv6](/previous-versions//bb726951(v=technet.10))
+    - [Технологии туннелирования IPv6](/previous-versions/bb726951(v=technet.10))
 
-    - [Спецификация протокола туннелирования IP-HTTPS](/previous-versions//bb726951(v=technet.10))
+    - [Спецификация протокола туннелирования IP-HTTPS](/previous-versions/bb726951(v=technet.10))
 
 3. Настройте требуемые адаптеры и адреса, опираясь на следующую таблицу. Для развертываний, использующих один сетевой адаптер, которые настроены за устройством NAT, настройте IP-адреса, используя только столбец **Адаптер внутренней сети**.
 

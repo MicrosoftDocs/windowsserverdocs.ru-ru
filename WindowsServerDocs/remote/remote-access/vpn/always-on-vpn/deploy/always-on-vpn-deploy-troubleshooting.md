@@ -7,12 +7,12 @@ ms.localizationpriority: medium
 ms.date: 06/11/2018
 ms.author: v-tea
 author: Teresa-MOTIV
-ms.openlocfilehash: f1e4713e6d658e6a51955e321e39cb7f90e261a9
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 3a1b85504fcae1aabc155d9cf415bc49d4722494
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87963810"
+ms.locfileid: "87993634"
 ---
 # <a name="troubleshoot-always-on-vpn"></a>Устранение неполадок Always On VPN
 
@@ -112,7 +112,7 @@ ms.locfileid: "87963810"
 
 Приложение регистрируется на клиентских компьютерах в большинстве сведений о событиях VPN-подключений более высокого уровня.
 
-Найдите события из источника Расклиент. Все сообщения об ошибках возвращают код ошибки в конце сообщения. Ниже описаны некоторые из наиболее распространенных кодов ошибок, но полный список доступен в [кодах ошибок маршрутизации и удаленного доступа](/previous-versions//mt728163(v=technet.10)).
+Найдите события из источника Расклиент. Все сообщения об ошибках возвращают код ошибки в конце сообщения. Ниже описаны некоторые из наиболее распространенных кодов ошибок, но полный список доступен в [кодах ошибок маршрутизации и удаленного доступа](/previous-versions/mt728163(v=technet.10)).
 
 ## <a name="nps-logs"></a>Журналы NPS
 

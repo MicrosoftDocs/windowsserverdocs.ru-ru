@@ -5,16 +5,16 @@ ms.topic: article
 ms.author: timwi; chrisrob; herbertm; kenbrumf;  mleary; shawnrab
 author: phstee
 ms.date: 10/16/2017
-ms.openlocfilehash: d327d31bbfa7192780d524716504d1db3b5e9282
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: e9be93989f0d8368a1994bfe9c7cceaad52ce39d
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87896199"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87993355"
 ---
 # <a name="troubleshooting-active-directory-domain-services-performance"></a>Устранение неполадок производительности служб домен Active Directory
 
-Дополнительные сведения о добавлении устранения неполадок производительности см. в статье [мониторинг среды офиса филиала](https://technet.microsoft.com/library/dd736504.aspx).
+Дополнительные сведения о добавлении устранения неполадок производительности см. в статье [мониторинг среды офиса филиала](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd736504(v=ws.10)).
 
 ## <a name="additional-references"></a>Дополнительные ссылки
 - [Обеспечение высокой производительности серверов Active Directory](index.md)

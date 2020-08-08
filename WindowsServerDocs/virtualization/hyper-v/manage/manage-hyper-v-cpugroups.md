@@ -6,12 +6,12 @@ ms.date: 06/18/2018
 ms.topic: article
 ms.service: windows-10-hyperv
 ms.assetid: cc7bb88e-ae75-4a54-9fb4-fc7c14964d67
-ms.openlocfilehash: 1f902a37dd4df28b2591380e78fe86c271f4ed3e
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 215521886418167fe6504c5f08b59dbfa7375432
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87963600"
+ms.locfileid: "87994051"
 ---
 # <a name="virtual-machine-resource-controls"></a>Элементы управления ресурсами виртуальной машины
 
@@ -113,7 +113,7 @@ ms.locfileid: "87963600"
 Узел виртуализации можно настроить так, чтобы раздел узла был ограничен определенным LPs, при этом одна или несколько групп ЦП привязаны в остальные LPs.
 Таким образом, корневые и гостевые разделы могут работать на выделенных ресурсах ЦП и полностью изолированы без использования ЦП.
 
-Дополнительные сведения о конфигурации "минрут" см. в разделе [Управление ресурсами ЦП узла Hyper-V](https://docs.microsoft.com/windows-server/virtualization/hyper-v/manage/manage-hyper-v-minroot-2016).
+Дополнительные сведения о конфигурации "минрут" см. в разделе [Управление ресурсами ЦП узла Hyper-V](./manage-hyper-v-minroot-2016.md).
 
 ## <a name="using-the-cpugroups-tool"></a>Использование средства Кпуграупс
 

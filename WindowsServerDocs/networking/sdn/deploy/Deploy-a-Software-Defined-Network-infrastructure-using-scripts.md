@@ -7,12 +7,12 @@ ms.assetid: 5ba5bb37-ece0-45cb-971b-f7149f658d19
 ms.author: anpaul
 author: AnirbanPaul
 ms.date: 08/23/2018
-ms.openlocfilehash: e671421225e9fa2d5e7461c795a9f7c9789efd88
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 7fcf8b095479ec21c045a60244917b09883a6162
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87970821"
+ms.locfileid: "87993767"
 ---
 # <a name="deploy-a-software-defined-network-infrastructure-using-scripts"></a>Развертывание инфраструктуры программно-конфигурируемой сети с помощью скриптов
 
@@ -20,7 +20,7 @@ ms.locfileid: "87970821"
 
 Если вы хотите, чтобы рабочие нагрузки клиента взаимодействовали за пределами своих виртуальных сетей, можно настроить правила NAT SLB, туннели шлюза "сеть — сеть" или перенаправление уровня 3 для маршрутизации между виртуальными и физическими рабочими нагрузками.
 
-Можно также развернуть инфраструктуру SDN с помощью Virtual Machine Manager (VMM). Дополнительные сведения см. [в разделе Настройка инфраструктуры программно-определяемой сети (SDN) в структуре VMM](https://technet.microsoft.com/system-center-docs/vmm/scenario/sdn-overview).
+Можно также развернуть инфраструктуру SDN с помощью Virtual Machine Manager (VMM). Дополнительные сведения см. [в разделе Настройка инфраструктуры программно-определяемой сети (SDN) в структуре VMM](/system-center/vmm/deploy-sdn?view=sc-vmm-2019).
 
 ## <a name="pre-deployment"></a>Перед развертыванием
 
@@ -35,7 +35,7 @@ ms.locfileid: "87970821"
 ### <a name="install-host-networking"></a>Установка сети узла
 
 1. Установите последние версии сетевых драйверов, доступных для сетевого оборудования.
-2. Установите роль Hyper-V на всех узлах (Дополнительные сведения см. в статье [Начало работы с Hyper-v в Windows Server 2016](https://docs.microsoft.com/windows-server/virtualization/hyper-v/get-started/Get-started-with-Hyper-V-on-Windows).
+2. Установите роль Hyper-V на всех узлах (Дополнительные сведения см. в статье [Начало работы с Hyper-v в Windows Server 2016](../../../virtualization/hyper-v/get-started/get-started-with-hyper-v-on-windows.md).
 
    ```PowerShell
    Install-WindowsFeature -Name Hyper-V -ComputerName <computer_name> -IncludeManagementTools -Restart
@@ -62,7 +62,7 @@ ms.locfileid: "87970821"
    New-NetIPAddress -InterfaceAlias "vEthernet (<switch name>)" -IPAddress <IP> -DefaultGateway <Gateway IP> -AddressFamily IPv4 -PrefixLength <Length of Subnet Mask - for example: 24>
    ```
 
-5. Используемых Разверните виртуальную машину для размещения служб домен Active Directory ([установите службы домен Active Directory Services (уровень 100)](https://technet.microsoft.com/library/hh472162.aspx) и DNS-сервер.
+5. Используемых Разверните виртуальную машину для размещения служб домен Active Directory ([установите службы домен Active Directory Services (уровень 100)](../../../identity/ad-ds/deploy/install-active-directory-domain-services--level-100-.md) и DNS-сервер.
 
     а. Подключите виртуальную машину Active Directory или DNS-сервера к виртуальной ЛС управления:
 
@@ -171,7 +171,7 @@ ms.locfileid: "87970821"
 
 Предполагая, что сценарий SDN Express завершил работу без сообщения об ошибках, можно выполнить следующие действия, чтобы убедиться, что ресурсы структуры развернуты правильно и доступны для развертывания клиента.
 
-Используйте [средства диагностики](https://docs.microsoft.com/windows-server/networking/sdn/troubleshoot/troubleshoot-windows-server-software-defined-networking-stack) , чтобы убедиться в отсутствии ошибок в ресурсах структуры в сетевом контроллере.
+Используйте [средства диагностики](../troubleshoot/troubleshoot-windows-server-software-defined-networking-stack.md) , чтобы убедиться в отсутствии ошибок в ресурсах структуры в сетевом контроллере.
 
    ``Debug-NetworkControllerConfigurationState -NetworkController <FQDN of Network Controller Rest Name>``
 

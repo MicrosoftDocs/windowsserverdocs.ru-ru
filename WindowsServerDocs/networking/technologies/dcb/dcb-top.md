@@ -6,12 +6,12 @@ ms.assetid: da58f312-bd3b-4bb6-98ca-6177869dd6ad
 manager: brianlic
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 488171c2f42ede1ede8f1bbca2c473c72dbf833a
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 646660c1371b592670737b7d7d208b62208bfec9
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87966581"
+ms.locfileid: "87993939"
 ---
 # <a name="data-center-bridging-dcb"></a>Мост для центра обработки данных \(DCB\)
 
@@ -64,8 +64,8 @@ DCB состоит из следующего набора протоколов.
 4. Предоставление администраторам сервера или сетевым администраторам возможности относить приложение к определенному классу трафика или на основе приоритета относить его к известным протоколам, известным портам TCP/UDP или NetworkDirect, используемым этим приложением.
 
 5. Обеспечивает управление DCB с помощью Windows Server 2016 инструментарий управления Windows (WMI) \( WMI \) и Windows PowerShell. Дополнительные сведения см. в подразделе [команды Windows PowerShell для DCB](#bkmk_wps) далее в этом разделе, а также в следующих разделах.
-    - [Предоставляемые системой компоненты DCB](https://msdn.microsoft.com/windows/hardware/drivers/network/system-provided-dcb-components)
-    - [Требования к качеству обслуживания NDIS для моста центра обработки данных](https://msdn.microsoft.com/windows/hardware/drivers/network/ndis-qos-requirements-for-data-center-bridging)
+    - [Предоставляемые системой компоненты DCB](/windows-hardware/drivers/network/system-provided-dcb-components)
+    - [Требования к качеству обслуживания NDIS для моста центра обработки данных](/windows-hardware/drivers/network/ndis-qos-requirements-for-data-center-bridging)
 
 6. Обеспечивает управление DCB через Windows Server 2016 групповая политика.
 
@@ -102,10 +102,10 @@ DCB состоит из следующего набора протоколов.
 
 В следующем разделе для Windows Server 2016 приведены описания и синтаксис командлетов Windows PowerShell для всех командлетов качества обслуживания центра обработки данных, \( \) \( связанных с QoS \) \- . Командлеты перечисляются в алфавитном порядке по команде в начале имени командлета.
 
-- [Модуль Дкбкос](https://technet.microsoft.com/itpro/powershell/windows/dcbqos/dcbqos)
+- [Модуль Дкбкос](/powershell/module/dcbqos/?view=win10-ps)
 
 ### <a name="windows-server-2012-r2-windows-powershell-commands-for-dcb"></a>Команды Windows PowerShell для Windows Server 2012 R2 для DCB
 
 В следующем разделе для Windows Server 2012 R2 приведены описания и синтаксис командлетов Windows PowerShell для всех командлетов качества обслуживания центра обработки данных, \( \) \( связанных с QoS \) \- . Командлеты перечисляются в алфавитном порядке по команде в начале имени командлета.
 
-- [Командлеты качества обслуживания моста для центра обработки данных в Windows PowerShell](https://technet.microsoft.com/library/hh967440.aspx)
+- [Командлеты качества обслуживания моста для центра обработки данных в Windows PowerShell](/powershell/module/dcbqos/?view=win10-ps&viewFallbackFrom=winserverr2-ps)

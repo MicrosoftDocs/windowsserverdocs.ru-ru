@@ -4,20 +4,20 @@ ms.topic: article
 author: cosmosdarwin
 ms.author: cosdar
 ms.date: 11/04/2019
-ms.openlocfilehash: a7c15bd07754d48b7fbffe2cd95edaa871c9bde3
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 06062f4add54fda3ddcda4d092d6eaf1d692ebf8
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87964450"
+ms.locfileid: "87993491"
 ---
 # <a name="deploy-hyperconverged-infrastructure-with-windows-admin-center"></a>Развертывание инфраструктуры гиперконвергентном с помощью центра администрирования Windows
 
 > Применяется к: Windows Admin Center, ознакомительная версия Windows Admin Center
 
-Для развертывания инфраструктуры гиперконвергентном с использованием двух или более подходящих серверов Windows можно использовать центр администрирования Windows [версии 1910](https://docs.microsoft.com/windows-server/manage/windows-admin-center/understand/windows-admin-center) или более поздней. Эта новая функция имеет вид многоэтапного рабочего процесса, который поможет вам установить компоненты, настроить сеть, создать кластер и развернуть Локальные дисковые пространства и (или) программно-определяемую сеть (SDN), если они выбраны.
+Для развертывания инфраструктуры гиперконвергентном с использованием двух или более подходящих серверов Windows можно использовать центр администрирования Windows [версии 1910](../overview.md) или более поздней. Эта новая функция имеет вид многоэтапного рабочего процесса, который поможет вам установить компоненты, настроить сеть, создать кластер и развернуть Локальные дисковые пространства и (или) программно-определяемую сеть (SDN), если они выбраны.
 
-В центре администрирования Windows версии 2007 центр администрирования Windows поддерживает Azure Stack ХЦИ OS. Дополнительные сведения о [развертывании кластера в центре администрирования Windows см. в документации по Azure Stack хЦи](https://docs.microsoft.com/azure-stack/hci/getting-started). Несмотря на то, что эта документация сосредоточена на Azure Stack ХЦИ, инструкции также подходят для развертывания Windows Server.
+В центре администрирования Windows версии 2007 центр администрирования Windows поддерживает Azure Stack ХЦИ OS. Дополнительные сведения о [развертывании кластера в центре администрирования Windows см. в документации по Azure Stack хЦи](/azure-stack/hci/getting-started). Несмотря на то, что эта документация сосредоточена на Azure Stack ХЦИ, инструкции также подходят для развертывания Windows Server.
 
 ## <a name="undo-and-start-over"></a>Отменить и начать заново
 
@@ -88,5 +88,5 @@ Get-NetAdapter | Where Name -Ne "Management" | Set-NetAdapter -VlanID 0
 
 ## <a name="additional-references"></a>Дополнительные ссылки
 
-- [Привет, центр администрирования Windows](https://docs.microsoft.com/windows-server/manage/windows-admin-center/understand/windows-admin-center)
-- [Развертывание локальных дисковых пространств](https://docs.microsoft.com/windows-server/storage/storage-spaces/deploy-storage-spaces-direct)
+- [Привет, центр администрирования Windows](../overview.md)
+- [Развертывание локальных дисковых пространств](../../../storage/storage-spaces/deploy-storage-spaces-direct.md)

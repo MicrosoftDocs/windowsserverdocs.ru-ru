@@ -4,13 +4,12 @@ description: Настройка элементов управления ресу
 author: allenma
 ms.date: 12/15/2017
 ms.topic: article
-ms.prod: windows-server
-ms.openlocfilehash: 1e35595a0b5a0ab12187aae2cf714fc4d53901ee
-ms.sourcegitcommit: acfdb7b2ad283d74f526972b47c371de903d2a3d
+ms.openlocfilehash: fc65159474f9b1cd8bf282acf00ff06f4727673b
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "87769632"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87994056"
 ---
 # <a name="hyper-v-host-cpu-resource-management"></a>Управление ресурсами ЦП узла Hyper-V
 
@@ -18,12 +17,12 @@ ms.locfileid: "87769632"
 С помощью этих элементов управления администраторы могут выделить подмножество процессоров хост-системы в корневом разделе.
 Это позволяет отделить работу, выполненную на узле Hyper-V, от рабочих нагрузок, работающих на гостевых виртуальных машинах, запустив их на отдельных подмножествах системных процессоров.
 
-Дополнительные сведения об оборудовании для узлов Hyper-V см. в статье [требования к системе для Hyper-v в Windows 10](https://docs.microsoft.com/virtualization/hyper-v-on-windows/reference/hyper-v-requirements).
+Дополнительные сведения об оборудовании для узлов Hyper-V см. в статье [требования к системе для Hyper-v в Windows 10](/virtualization/hyper-v-on-windows/reference/hyper-v-requirements).
 
 ## <a name="background"></a>Историческая справка
 
 Перед настройкой элементов управления для ресурсов ЦП узла Hyper-V полезно ознакомиться с основами архитектуры Hyper-V.
-Общую сводку можно найти в разделе об [архитектуре Hyper-V](https://docs.microsoft.com/windows-server/administration/performance-tuning/role/hyper-v-server/architecture) .
+Общую сводку можно найти в разделе об [архитектуре Hyper-V](../../../administration/performance-tuning/role/hyper-v-server/architecture.md) .
 Ниже приведены важные понятия, связанные с этой статьей.
 
 * Hyper-V создает и управляет секциями виртуальных машин, в рамках которых ресурсы вычислений распределяются и совместно используются, под контролем гипервизора.  Секции обеспечивают строгие границы изоляции между всеми гостевыми виртуальными машинами, а также между гостевыми и корневыми машинами.

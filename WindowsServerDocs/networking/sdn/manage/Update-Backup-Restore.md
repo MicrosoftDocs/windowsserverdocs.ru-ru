@@ -7,12 +7,12 @@ ms.assetid: e9a8f2fd-48fe-4a90-9250-f6b32488b7a4
 ms.author: anpaul
 author: AnirbanPaul
 ms.date: 08/27/2018
-ms.openlocfilehash: daca883456a32c707fc2c7b9bfd6193b0d917b58
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 71ea9f33dbebf34614a67a9c305761d66b31411b
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87942584"
+ms.locfileid: "87993992"
 ---
 # <a name="upgrade-backup-and-restore-sdn-infrastructure"></a>Обновление, резервное копирование и восстановление инфраструктуры SDN
 
@@ -347,4 +347,4 @@ PS C:\ > get-networkcontrollerrestore -connectionuri $uri -credential $cred -Res
 ```
 
 
-Сведения о сообщениях о состоянии конфигурации, которые могут появиться, см. [в статье Устранение неполадок в программном стеке Windows Server 2016](https://docs.microsoft.com/windows-server/networking/sdn/troubleshoot/troubleshoot-windows-server-software-defined-networking-stack).
+Сведения о сообщениях о состоянии конфигурации, которые могут появиться, см. [в статье Устранение неполадок в программном стеке Windows Server 2016](../troubleshoot/troubleshoot-windows-server-software-defined-networking-stack.md).

@@ -6,12 +6,12 @@ ms.assetid: 1575cc7c-62a7-4add-8f78-e5d93effe93f
 manager: brianlic
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: bc012fd6a685b005b9f7f2b055d49050ef3c009a
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 9732be4cb0f9301e7011075a663f5499bcf8a277
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87971781"
+ms.locfileid: "87993982"
 ---
 # <a name="manage-data-center-bridging-dcb"></a>Управление мостом центра обработки данных (DCB)
 
@@ -464,10 +464,10 @@ Capabilities :                       Hardware     Current
 
 В следующем разделе для Windows Server 2016 приведены описания и синтаксис командлетов Windows PowerShell для всех командлетов качества обслуживания центра обработки данных, \( \) \( связанных с QoS \) \- . Командлеты перечисляются в алфавитном порядке по команде в начале имени командлета.
 
-- [Модуль Дкбкос](https://technet.microsoft.com/itpro/powershell/windows/dcbqos/dcbqos)
+- [Модуль Дкбкос](/powershell/module/dcbqos/?view=win10-ps)
 
 ### <a name="windows-server-2012-r2-windows-powershell-commands-for-dcb"></a>Команды Windows PowerShell для Windows Server 2012 R2 для DCB
 
 В следующем разделе для Windows Server 2012 R2 приведены описания и синтаксис командлетов Windows PowerShell для всех командлетов качества обслуживания центра обработки данных, \( \) \( связанных с QoS \) \- . Командлеты перечисляются в алфавитном порядке по команде в начале имени командлета.
 
-- [Командлеты качества обслуживания моста для центра обработки данных в Windows PowerShell](https://technet.microsoft.com/library/hh967440.aspx)
+- [Командлеты качества обслуживания моста для центра обработки данных в Windows PowerShell](/powershell/module/dcbqos/?view=win10-ps&viewFallbackFrom=winserverr2-ps)

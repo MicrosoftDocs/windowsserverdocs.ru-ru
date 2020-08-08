@@ -6,12 +6,12 @@ author: jasongerend
 ms.author: jgerend
 ms.date: 01/17/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: d77498b9d4c8573dfac82b7291b6d0676d0d8c1e
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: a784bdfdfbfbbc4f91579d40cedb22230a70b13a
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87971981"
+ms.locfileid: "87993589"
 ---
 # <a name="windows-admin-center-ui-text-and-design-style-guide"></a>Руководство по стилю для текста и оформления пользовательского интерфейса Windows Admin Center
 
@@ -19,7 +19,7 @@ ms.locfileid: "87971981"
 
 В этом разделе описывается общий подход к созданию текста пользовательского интерфейса (UI) для Windows Admin Center, а также определенные условные обозначения и подходы, которые мы используем.
 
-Windows Admin Center и все его расширения должны соблюдать [принципы стиля корпорации Майкрософт](https://docs.microsoft.com/style-guide/brand-voice-above-all-simple-human), чтобы обеспечить понятность и простоту использования. Это руководство по стилю основано на этих принципах стиля, а также [Руководстве по стилю письма Microsoft](https://docs.microsoft.com/style-guide/welcome/), поэтому обязательно используйте оба эти ресурса для получения информации о таких аспектах, как [специальные возможности](https://docs.microsoft.com/style-guide/accessibility/accessibility-guidelines-requirements), [сокращения](https://docs.microsoft.com/style-guide/acronyms), и [подборе словесных формулировок](https://docs.microsoft.com/style-guide/word-choice/), например [пожалуйста](https://docs.microsoft.com/style-guide/a-z-word-list-term-collections/p/please) и [к сожалению](https://docs.microsoft.com/style-guide/a-z-word-list-term-collections/s/sorry).
+Windows Admin Center и все его расширения должны соблюдать [принципы стиля корпорации Майкрософт](/style-guide/brand-voice-above-all-simple-human), чтобы обеспечить понятность и простоту использования. Это руководство по стилю основано на этих принципах стиля, а также [Руководстве по стилю письма Microsoft](/style-guide/welcome/), поэтому обязательно используйте оба эти ресурса для получения информации о таких аспектах, как [специальные возможности](/style-guide/accessibility/accessibility-guidelines-requirements), [сокращения](/style-guide/acronyms), и [подборе словесных формулировок](/style-guide/word-choice/), например [пожалуйста](/style-guide/a-z-word-list-term-collections/p/please) и [к сожалению](/style-guide/a-z-word-list-term-collections/s/sorry).
 
 ## <a name="buttons"></a>Кнопки
 
@@ -29,7 +29,7 @@ Windows Admin Center и все его расширения должны собл
 
 ## <a name="capitalization"></a>Прописные буквы
 
-Мы придерживаемся стиля Microsoft в вопросах [написания прописными буквами](https://docs.microsoft.com/style-guide/capitalization), то есть используем прописные буквы, как в предложениях, практически повсеместно.
+Мы придерживаемся стиля Microsoft в вопросах [написания прописными буквами](/style-guide/capitalization), то есть используем прописные буквы, как в предложениях, практически повсеместно.
 
 | Элемент пользовательского интерфейса              |Прописные буквы|Комментарии|
 |-------------------------|--------------|--------|
@@ -215,7 +215,7 @@ Windows Admin Center и все его расширения должны собл
 ## <a name="punctuation"></a>Пунктуация
 
 - Завершающие знаки препинания (точки, вопросительные знаки) не используются в заголовках и неполных предложениях. Исключение — диалоговое окно подтверждения, где в заголовке задается вопрос
-- Используйте рекомендации по стилю Microsoft в отношении [точек](https://docs.microsoft.com/style-guide/punctuation/periods) и [вопросительных знаков](https://docs.microsoft.com/style-guide/punctuation/question-marks).
+- Используйте рекомендации по стилю Microsoft в отношении [точек](/style-guide/punctuation/periods) и [вопросительных знаков](/style-guide/punctuation/question-marks).
 
 ## <a name="status-messages"></a>Сообщения о состоянии
 
