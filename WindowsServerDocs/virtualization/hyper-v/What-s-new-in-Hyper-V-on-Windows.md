@@ -7,12 +7,12 @@ ms.assetid: 1a65a98e-54b6-4c41-9732-1e3d32fe3a5f
 author: kbdazure
 ms.author: kathydav
 ms.date: 09/21/2017
-ms.openlocfilehash: d70dacd2f6ea407350641b33111d40c6059a4110
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: aa61fd14418efe2cb5ee68c1b86e300db24c4fe4
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87954571"
+ms.locfileid: "87996620"
 ---
 # <a name="whats-new-in-hyper-v-on-windows-server"></a>Новые возможности Hyper-V в Windows Server
 
@@ -38,13 +38,13 @@ ms.locfileid: "87954571"
 
 - **Улучшения для филиалов**
 
-    Теперь экранированные виртуальные машины можно запускать на компьютерах с периодическими разрывами подключения к службе защиты узла, используя новый [резервный сервер HGS](https://docs.microsoft.com/windows-server/security/guarded-fabric-shielded-vm/guarded-fabric-manage-branch-office#fallback-configuration) и [автономный режим](https://docs.microsoft.com/windows-server/security/guarded-fabric-shielded-vm/guarded-fabric-manage-branch-office#offline-mode). Резервный сервер HGS позволяет настроить второй набор URL-адресов для Hyper-V, который будет использоваться в случае невозможности установить подключение к основному серверу HGS.
+    Теперь экранированные виртуальные машины можно запускать на компьютерах с периодическими разрывами подключения к службе защиты узла, используя новый [резервный сервер HGS](../../security/guarded-fabric-shielded-vm/guarded-fabric-manage-branch-office.md#fallback-configuration) и [автономный режим](../../security/guarded-fabric-shielded-vm/guarded-fabric-manage-branch-office.md#offline-mode). Резервный сервер HGS позволяет настроить второй набор URL-адресов для Hyper-V, который будет использоваться в случае невозможности установить подключение к основному серверу HGS.
 
     Автономный режим дает возможность продолжить запуск экранированных виртуальных машин, даже если не удается установить подключение к HGS при условии, что виртуальная машина была успешно запущена хотя бы один раз и в конфигурацию системы безопасности узла не вносились изменения.
 
 - **Дополнительные возможности устранения неполадок**
 
-    Мы также упростили процесс [устранения неполадок в работе экранированных виртуальных машин](https://docs.microsoft.com/windows-server/security/guarded-fabric-shielded-vm/guarded-fabric-troubleshoot-shielded-vms) за счет добавления поддержки режима расширенного сеанса VMConnect и PowerShell Direct. Эти средства будут особенно полезны при потере сетевого подключения к виртуальной машине и возникновении необходимости обновить ее конфигурацию, чтобы восстановить доступ.
+    Мы также упростили процесс [устранения неполадок в работе экранированных виртуальных машин](../../security/guarded-fabric-shielded-vm/guarded-fabric-troubleshoot-shielded-vms.md) за счет добавления поддержки режима расширенного сеанса VMConnect и PowerShell Direct. Эти средства будут особенно полезны при потере сетевого подключения к виртуальной машине и возникновении необходимости обновить ее конфигурацию, чтобы восстановить доступ.
 
     Эти функции не нужно настраивать, они становятся доступны автоматически, когда экранированная виртуальная машина размещается на узле Hyper-V под управлением Windows Server версии 1803 или выше.
 
@@ -74,7 +74,7 @@ ms.locfileid: "87954571"
 Set-VMProcessor TestVM -EnableHostResourceProtection $true
 ```
 
-Дополнительные сведения об этом командлете см. в разделе [Set-вмпроцессор](https://docs.microsoft.com/powershell/module/hyper-v/set-vmprocessor).
+Дополнительные сведения об этом командлете см. в разделе [Set-вмпроцессор](/powershell/module/hyper-v/set-vmprocessor).
 
 ### <a name="hot-add-and-remove-for-network-adapters-and-memory-new"></a>Горячее добавление и удаление для сетевых адаптеров и памяти \( New\)
 
@@ -105,7 +105,7 @@ Set-VMProcessor TestVM -EnableHostResourceProtection $true
 Set-VMFirmware TestVM -SecureBootTemplate MicrosoftUEFICertificateAuthority
 ```
 
-Дополнительные сведения о виртуальных машинах Linux в Hyper-V см. [в статье виртуальные машины Linux и FreeBSD в Hyper-v](Supported-Linux-and-FreeBSD-virtual-machines-for-Hyper-V-on-Windows.md). Дополнительные сведения о командлете см. в разделе [Set-вмфирмваре](https://docs.microsoft.com/powershell/module/hyper-v/set-vmfirmware).
+Дополнительные сведения о виртуальных машинах Linux в Hyper-V см. [в статье виртуальные машины Linux и FreeBSD в Hyper-v](Supported-Linux-and-FreeBSD-virtual-machines-for-Hyper-V-on-Windows.md). Дополнительные сведения о командлете см. в разделе [Set-вмфирмваре](/powershell/module/hyper-v/set-vmfirmware).
 
 ### <a name="more-memory-and-processors-for-generation-2-virtual-machines-and-hyper-v-hosts-updated"></a>Обновлены дополнительные объемы памяти и процессоров для виртуальных машин поколения 2 и узлов Hyper-V \(\)
 
@@ -119,13 +119,13 @@ Set-VMFirmware TestVM -SecureBootTemplate MicrosoftUEFICertificateAuthority
 
 -   Процессор с Intel VT-x (вложенная виртуализация доступна только для процессоров Intel в настоящее время).
 
-Дополнительные сведения и инструкции см. [в статье запуск Hyper-V в виртуальной машине с вложенной виртуализацией](https://docs.microsoft.com/virtualization/hyper-v-on-windows/user-guide/nested-virtualization).
+Дополнительные сведения и инструкции см. [в статье запуск Hyper-V в виртуальной машине с вложенной виртуализацией](/virtualization/hyper-v-on-windows/user-guide/nested-virtualization).
 
 ### <a name="networking-features-new"></a>Новые сетевые функции \(\)
 
 Новые сетевые функции включают:
 
--   **Удаленный доступ к памяти (RDMA) и включение объединения внедренных параметров (Set)**. Вы можете настроить RDMA на сетевых адаптерах, привязанных к виртуальному коммутатору Hyper-V, независимо от того, используется ли также набор. Параметр SET предоставляет виртуальный коммутатор с некоторыми возможностями, такими как объединение сетевых карт. Дополнительные сведения см. в разделе [Удаленный доступ к памяти (RDMA) и включение объединения внедренных команд (Set)](https://docs.microsoft.com/windows-server/virtualization/hyper-v-virtual-switch/rdma-and-switch-embedded-teaming).
+-   **Удаленный доступ к памяти (RDMA) и включение объединения внедренных параметров (Set)**. Вы можете настроить RDMA на сетевых адаптерах, привязанных к виртуальному коммутатору Hyper-V, независимо от того, используется ли также набор. Параметр SET предоставляет виртуальный коммутатор с некоторыми возможностями, такими как объединение сетевых карт. Дополнительные сведения см. в разделе [Удаленный доступ к памяти (RDMA) и включение объединения внедренных команд (Set)](../hyper-v-virtual-switch/rdma-and-switch-embedded-teaming.md).
 
 -   **Несколько очередей виртуальной машины (вммк)**. Повышение пропускной способности VMQ за счет выделения нескольких очередей оборудования на каждую виртуальную машину.  Очередь по умолчанию становится набором очередей для виртуальной машины, а трафик распределяется между очередями.
 
@@ -142,7 +142,7 @@ Set-VMFirmware TestVM -SecureBootTemplate MicrosoftUEFICertificateAuthority
 
 ### <a name="rolling-hyper-v-cluster-upgrade-new"></a>Пошаговое обновление кластера Hyper-V — \( новый\)
 
-Теперь можно добавить узел под управлением Windows Server 2019 или Windows Server 2016 в кластер Hyper-V с узлами, работающими под управлением Windows Server 2012 R2. Это позволяет обновлять кластер без простоев. Кластер работает на уровне компонентов Windows Server 2012 R2 до тех пор, пока вы не обновите все узлы в кластере и не обновите режим работы кластера с помощью командлета Windows PowerShell [Update-клустерфунктионаллевел](https://docs.microsoft.com/powershell/module/failoverclusters/Update-ClusterFunctionalLevel).
+Теперь можно добавить узел под управлением Windows Server 2019 или Windows Server 2016 в кластер Hyper-V с узлами, работающими под управлением Windows Server 2012 R2. Это позволяет обновлять кластер без простоев. Кластер работает на уровне компонентов Windows Server 2012 R2 до тех пор, пока вы не обновите все узлы в кластере и не обновите режим работы кластера с помощью командлета Windows PowerShell [Update-клустерфунктионаллевел](/powershell/module/failoverclusters/Update-ClusterFunctionalLevel).
 
 > [!IMPORTANT]
 > После обновления функционального уровня кластера его нельзя вернуть в Windows Server 2012 R2.
@@ -174,15 +174,15 @@ Set-VMFirmware TestVM -SecureBootTemplate MicrosoftUEFICertificateAuthority
 ### <a name="shared-virtual-hard-disks-updated"></a>Общие виртуальные жесткие диски \( обновлены\)
 Теперь вы можете изменить размер общих виртуальных жестких дисков (VHDX-файлов), используемых для гостевой кластеризации, без простоев. Общие виртуальные жесткие диски могут быть увеличены или сжаты, пока виртуальная машина находится в сети. Гостевые кластеры теперь также могут защищать общие виртуальные жесткие диски с помощью реплики Hyper-V для аварийного восстановления.
 
-Включите репликацию в коллекции. Включение репликации в коллекции **предоставляется только через интерфейс WMI**. Дополнительные сведения см. в документации по [классу Msvm_CollectionReplicationService](https://msdn.microsoft.com/library/mt167787%28v=vs.85%29.aspx) . **Управлять репликацией коллекции с помощью командлета или пользовательского интерфейса PowerShell нельзя.** Виртуальные машины должны находиться на узлах, которые являются частью кластера Hyper-V, для доступа к функциям, относящимся к коллекции. Сюда входят общие виртуальные жесткие диски общего виртуального жесткого диска на автономных узлах, которые не поддерживаются репликой Hyper-V.
+Включите репликацию в коллекции. Включение репликации в коллекции **предоставляется только через интерфейс WMI**. Дополнительные сведения см. в документации по [классу Msvm_CollectionReplicationService](/previous-versions/windows/desktop/clushyperv/msvm-collectionreplicationservice) . **Управлять репликацией коллекции с помощью командлета или пользовательского интерфейса PowerShell нельзя.** Виртуальные машины должны находиться на узлах, которые являются частью кластера Hyper-V, для доступа к функциям, относящимся к коллекции. Сюда входят общие виртуальные жесткие диски общего виртуального жесткого диска на автономных узлах, которые не поддерживаются репликой Hyper-V.
 
-Следуйте указаниям для общих виртуальных жестких дисков в разделе [Обзор общего доступа к виртуальному жесткому диску](https://technet.microsoft.com/library/dn281956.aspx)и убедитесь, что общие виртуальные жесткие диски входят в состав гостевого кластера.
+Следуйте указаниям для общих виртуальных жестких дисков в разделе [Обзор общего доступа к виртуальному жесткому диску](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn281956(v=ws.11))и убедитесь, что общие виртуальные жесткие диски входят в состав гостевого кластера.
 
 Коллекция с общим виртуальным жестким диском, но не связанным гостевым кластером, не может создавать опорные точки для коллекции (независимо от того, включен ли общий виртуальный жесткий диск в создание опорной точки).
 
 ### <a name="virtual-machine-backupnew"></a>Резервная копия виртуальной машины — \( Новая\)
 
-При резервном копировании одной виртуальной машины (независимо от того, кластеризован ли узел или нет) не следует использовать группу виртуальных машин.  Также не следует использовать коллекцию моментальных снимков. Группы виртуальных машин и коллекция моментальных снимков предназначены для использования только для резервного копирования гостевых кластеров, использующих общие VHDX-файлы. Вместо этого следует создать моментальный снимок с помощью [поставщика WMI Hyper-V версии 2](https://msdn.microsoft.com/library/windows/desktop/hh850319(v=vs.85).aspx). Аналогичным образом не используйте [поставщик WMI для отказоустойчивого кластера](https://msdn.microsoft.com/library/windows/desktop/mt167750(v=vs.85).aspx).
+При резервном копировании одной виртуальной машины (независимо от того, кластеризован ли узел или нет) не следует использовать группу виртуальных машин.  Также не следует использовать коллекцию моментальных снимков. Группы виртуальных машин и коллекция моментальных снимков предназначены для использования только для резервного копирования гостевых кластеров, использующих общие VHDX-файлы. Вместо этого следует создать моментальный снимок с помощью [поставщика WMI Hyper-V версии 2](/windows/win32/hyperv_v2/windows-virtualization-portal). Аналогичным образом не используйте [поставщик WMI для отказоустойчивого кластера](/previous-versions/windows/desktop/clushyperv/failover-clustering-hyper-v-wmi-provider-portal).
 
 ### <a name="shielded-virtual-machines-new"></a>Новые экранированные виртуальные машины \(\)
 
@@ -193,7 +193,7 @@ Set-VMFirmware TestVM -SecureBootTemplate MicrosoftUEFICertificateAuthority
 
 ### <a name="start-order-priority-for-clustered-virtual-machines-new"></a>Запуск приоритета заказа для кластеризованных виртуальных машин \( New\)
 
-Эта функция обеспечивает более полный контроль над тем, какие кластеризованные виртуальные машины запускаются или перезапускаются первыми. Это упрощает запуск виртуальных машин, предоставляющих службы, до виртуальных машин, использующих эти службы. Определение наборов, размещение виртуальных машин в наборах и указание зависимостей. Используйте командлеты Windows PowerShell для управления наборами, такими как [New-клустерграупсет](https://docs.microsoft.com/powershell/module/failoverclusters/new-clustergroupset), [Get-клустерграупсет](https://docs.microsoft.com/powershell/module/failoverclusters/get-clustergroupset)и [Add-клустерграупсетдепенденци](https://docs.microsoft.com/powershell/module/failoverclusters/add-clustergroupsetdependency).
+Эта функция обеспечивает более полный контроль над тем, какие кластеризованные виртуальные машины запускаются или перезапускаются первыми. Это упрощает запуск виртуальных машин, предоставляющих службы, до виртуальных машин, использующих эти службы. Определение наборов, размещение виртуальных машин в наборах и указание зависимостей. Используйте командлеты Windows PowerShell для управления наборами, такими как [New-клустерграупсет](/powershell/module/failoverclusters/new-clustergroupset), [Get-клустерграупсет](/powershell/module/failoverclusters/get-clustergroupset)и [Add-клустерграупсетдепенденци](/powershell/module/failoverclusters/add-clustergroupsetdependency).
 .
 ### <a name="storage-quality-of-service-qos-updated"></a>Качество обслуживания хранилища (QoS) \( Обновлено\)
 
@@ -217,7 +217,7 @@ Set-VMFirmware TestVM -SecureBootTemplate MicrosoftUEFICertificateAuthority
 > [!IMPORTANT]
 > -   После обновления версии виртуальную машину нельзя переместить на сервер под управлением Windows Server 2012 R2.
 > -   Невозможно понизить конфигурацию до предыдущей версии.
-> -   Командлет [Update-VMVersion](https://docs.microsoft.com/powershell/module/hyper-v/update-vmversion) блокируется в кластере Hyper-V, если функциональный уровень кластера — Windows Server 2012 R2.
+> -   Командлет [Update-VMVersion](/powershell/module/hyper-v/update-vmversion) блокируется в кластере Hyper-V, если функциональный уровень кластера — Windows Server 2012 R2.
 
 ### <a name="virtualization-based-security-for-generation-2-virtual-machines-new"></a>Безопасность на основе виртуализации для виртуальных машин версии 2 \( Новая)
 
@@ -237,7 +237,7 @@ Set-VMFirmware TestVM -SecureBootTemplate MicrosoftUEFICertificateAuthority
 
 -   Возможность ограничения ресурсов контейнера
 
-Дополнительные сведения, включая краткие руководства по началу работы, см. в [документации по контейнерам Windows](https://docs.microsoft.com/virtualization/windowscontainers/index).
+Дополнительные сведения, включая краткие руководства по началу работы, см. в [документации по контейнерам Windows](/virtualization/windowscontainers/index).
 
 ### <a name="windows-powershell-direct-new"></a>Windows PowerShell Direct — \( новое\)
 

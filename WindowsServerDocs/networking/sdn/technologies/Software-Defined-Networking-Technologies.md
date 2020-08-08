@@ -7,12 +7,12 @@ ms.assetid: b491089c-5bcb-49d4-95b1-915b7ce69f88
 ms.author: anpaul
 author: AnirbanPaul
 ms.date: 02/14/2019
-ms.openlocfilehash: 591a81c91dc444cfe48f0fa40142489b72142409
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 69e01630cf34a588b6861c833015076bd4a31ef4
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87952574"
+ms.locfileid: "87996466"
 ---
 # <a name="sdn-technologies"></a>Технологии SDN
 
@@ -72,7 +72,7 @@ ms.locfileid: "87952574"
 НАБОР позволяет группировать один и восемь физических сетевых адаптеров Ethernet в один или несколько программных виртуальных сетевых адаптеров. Эти виртуальные сетевые адаптеры обеспечивают высокую производительность и отказоустойчивость в случае сбоя сетевого адаптера.
 Установка сетевых адаптеров должна быть выполнена на одном физическом узле Hyper-V, который будет размещен в команде.
 
-Кроме того, вы можете использовать команды Windows PowerShell, чтобы включить мост центра обработки данных (DCB), создать виртуальный коммутатор Hyper-V с виртуальным сетевым адаптером RDMA (vNIC) и создать виртуальный коммутатор Hyper-V с параметром SET и RDMA vNIC. Дополнительные сведения см. в разделе [Удаленный доступ к памяти (RDMA) и объединение коммутаторов (Set) Embedded](https://docs.microsoft.com/windows-server/virtualization/hyper-v-virtual-switch/rdma-and-switch-embedded-teaming.md).
+Кроме того, вы можете использовать команды Windows PowerShell, чтобы включить мост центра обработки данных (DCB), создать виртуальный коммутатор Hyper-V с виртуальным сетевым адаптером RDMA (vNIC) и создать виртуальный коммутатор Hyper-V с параметром SET и RDMA vNIC. Дополнительные сведения см. в разделе [Удаленный доступ к памяти (RDMA) и объединение коммутаторов (Set) Embedded](../../../virtualization/hyper-v-virtual-switch/rdma-and-switch-embedded-teaming.md).
 
 ## <a name="border-gateway-protocol-bgp"></a>[Протокол пограничного шлюза (BGP)](../../../remote/remote-access/bgp/Border-Gateway-Protocol-BGP.md)
 
@@ -87,7 +87,7 @@ ms.locfileid: "87952574"
 
 ## <a name="system-center"></a>System Center
 
-Развертывание инфраструктуры SDN и управление ею с помощью [управления виртуальными машинами (VMM)](https://docs.microsoft.com/system-center/vmm/) и [Operations Manager](https://docs.microsoft.com/system-center/scom/). С помощью VMM вы выполняете подготовку и администрирование ресурсов, необходимых для создания и развертывания виртуальных машин и служб в частных облаках.  С помощью Operations Manager выполняется мониторинг служб, устройств и операций по всему предприятию для выявления проблем и оперативного реагирования на них.
+Развертывание инфраструктуры SDN и управление ею с помощью [управления виртуальными машинами (VMM)](/system-center/vmm/) и [Operations Manager](/system-center/scom/). С помощью VMM вы выполняете подготовку и администрирование ресурсов, необходимых для создания и развертывания виртуальных машин и служб в частных облаках.  С помощью Operations Manager выполняется мониторинг служб, устройств и операций по всему предприятию для выявления проблем и оперативного реагирования на них.
 
 
 ---

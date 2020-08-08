@@ -2,18 +2,16 @@
 title: Шаг 2. Планирование развертывания удаленного доступа
 description: Этот раздел является частью руководств по удаленному управлению клиентами DirectAccess в Windows Server 2016.
 manager: brianlic
-ms.prod: windows-server
-ms.technology: networking-ras
 ms.topic: article
 ms.assetid: cc9f02b9-8ddd-4cae-b397-a832996144dd
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: a1971345a1a5256768651bc29e03d9c7824fecb3
-ms.sourcegitcommit: 771db070a3a924c8265944e21bf9bd85350dd93c
+ms.openlocfilehash: 0de2e1fa0d5dcb6c7ed2bd5ea8c6a65048296315
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85475571"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87970251"
 ---
 # <a name="step-2-plan-the-remote-access-deployment"></a>Шаг 2. Планирование развертывания удаленного доступа
 
@@ -88,7 +86,7 @@ ms.locfileid: "85475571"
 
     Если мастер настройки сервера удаленного доступа определяет, что для сетевых адаптеров развернут протокол IPv6, он автоматически заполняет префиксы IPv6 для внутренней сети, префикс IPv6, который будет назначен клиентским компьютерам DirectAccess, и префикс IPv6, который будет назначен клиентским компьютерам VPN. Если автоматически созданные префиксы неверны для вашей собственной инфраструктуры IPv6 или ISATAP, следует вручную изменить их.
 
--   **Authentication**
+-   **Аутентификация**
 
     Для проверки подлинности клиентов DirectAccess на сервере удаленного доступа можно выбрать один из следующих методов.
 

@@ -7,12 +7,12 @@ ms.assetid: 7f899e62-6e5b-4fca-9a59-130d4766ee2f
 ms.author: anpaul
 author: AnirbanPaul
 ms.date: 08/10/2018
-ms.openlocfilehash: 060194959f80c9d2a6d174910b0264c58214373b
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 051518873bd028e8b1253b9bf7cb17dcff344d0d
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87964090"
+ms.locfileid: "87996595"
 ---
 # <a name="requirements-for-deploying-network-controller"></a>Требования к развертыванию сетевого контроллера
 
@@ -102,7 +102,7 @@ ms.locfileid: "87964090"
 
 ### <a name="step-4-configure-service-principal-name-if-using-kerberos-based-authentication"></a>Шаг 4. Настройка имени субъекта-службы при использовании проверки подлинности на основе Kerberos
 
-Если сетевой контроллер использует проверку подлинности на основе Kerberos для взаимодействия с клиентами управления, необходимо настроить имя участника-службы (SPN) для сетевого контроллера в Active Directory. Сетевой контроллер автоматически настраивает имя субъекта-службы. Все, что нужно сделать, — предоставить разрешения на компьютеры сетевого контроллера для регистрации и изменения имени участника-службы. Дополнительные сведения см. в разделе [Настройка имен участников-служб (SPN)](https://docs.microsoft.com/windows-server/networking/sdn/security/kerberos-with-spn#configure-service-principal-names-spn).
+Если сетевой контроллер использует проверку подлинности на основе Kerberos для взаимодействия с клиентами управления, необходимо настроить имя участника-службы (SPN) для сетевого контроллера в Active Directory. Сетевой контроллер автоматически настраивает имя субъекта-службы. Все, что нужно сделать, — предоставить разрешения на компьютеры сетевого контроллера для регистрации и изменения имени участника-службы. Дополнительные сведения см. в разделе [Настройка имен участников-служб (SPN)](../security/kerberos-with-spn.md#configure-service-principal-names-spn).
 
 ## <a name="deployment-options"></a>Параметры развертывания
 
@@ -129,7 +129,7 @@ ms.locfileid: "87964090"
 
 
 ## <a name="next-steps"></a>Дальнейшие действия
-[Спланируйте программно определенную сетевую инфраструктуру](https://technet.microsoft.com/windows-server-docs/networking/sdn/plan/plan-a-software-defined-network-infrastructure).
+[Спланируйте программно определенную сетевую инфраструктуру](./plan-a-software-defined-network-infrastructure.md).
 
 ## <a name="related-topics"></a>Связанные темы
 - [Сетевой контроллер](../technologies/network-controller/Network-Controller.md)

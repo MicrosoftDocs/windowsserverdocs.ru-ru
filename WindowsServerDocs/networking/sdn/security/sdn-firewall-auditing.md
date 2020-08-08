@@ -7,18 +7,18 @@ ms.assetid: c4e2f6c7-0364-4bf8-bb66-9af59c0bbd74
 ms.author: anpaul
 author: AnirbanPaul
 ms.date: 08/22/2018
-ms.openlocfilehash: e37fc548db0a1043b2b78d95f97e8b4ef01214c8
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 256c1e503dcaaf0e482ab3f69ca1c5a1b977a10b
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87962058"
+ms.locfileid: "87996525"
 ---
 # <a name="sdn-firewall-auditing"></a>Аудит брандмауэра SDN
 
 >Область применения: Windows Server 2019
 
-Аудит брандмауэра — это новая возможность для брандмауэра SDN в Windows Server 2019. При включении брандмауэра SDN все потоки, обрабатываемые правилами брандмауэра SDN (ACL), для которых включено ведение журнала, записываются. Файлы журналов должны быть в виде синтаксиса, который согласуется с [журналами потоков наблюдателя за сетями Azure](https://docs.microsoft.com/azure/network-watcher/network-watcher-nsg-flow-logging-overview). Эти журналы можно использовать для диагностики или архивирования для последующего анализа. 
+Аудит брандмауэра — это новая возможность для брандмауэра SDN в Windows Server 2019. При включении брандмауэра SDN все потоки, обрабатываемые правилами брандмауэра SDN (ACL), для которых включено ведение журнала, записываются. Файлы журналов должны быть в виде синтаксиса, который согласуется с [журналами потоков наблюдателя за сетями Azure](/azure/network-watcher/network-watcher-nsg-flow-logging-overview). Эти журналы можно использовать для диагностики или архивирования для последующего анализа. 
 
 Вскоре мы предложим несколько примеров обработки этих файлов с помощью таких средств, как Power BI.
 
@@ -169,4 +169,3 @@ Mode                LastWriteTime         Length Name
                    }
 }
 ```
-

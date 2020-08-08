@@ -6,12 +6,12 @@ manager: dongill
 author: rpsqrd
 ms.author: ryanpu
 ms.date: 01/14/2020
-ms.openlocfilehash: e8077655717db3f6700b0e0a3d12792465b41299
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 8fb0bb3596635a7879b7fff784ced977043f1d5c
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87939775"
+ms.locfileid: "87996425"
 ---
 # <a name="deploying-the-host-guardian-service"></a>Развертывание службы защиты узла
 
@@ -37,13 +37,13 @@ ms.locfileid: "87939775"
 | 6. [Создание ключа узла (Key)](guarded-fabric-create-host-key.md) и[Получение сведений об узле (TPM)](guarded-fabric-tpm-trusted-attestation-capturing-hardware.md) | ![Шаг 6, создание ключа узла и получение сведений об узле](../media/Guarded-Fabric-Shielded-VM/guarded-host-collect-info-from-hosts.png) |
 | 7. [Настройка HGS со сведениями об узле](guarded-fabric-add-host-information-to-hgs.md) | ![Шаг 7. Добавление сведений об узле в HGS](../media/Guarded-Fabric-Shielded-VM/guarded-host-configure-hgs-with-host-info.png) |
 | 8. [подтверждение того, что узлы могут](guarded-fabric-confirm-hosts-can-attest-successfully.md) подтверждать | ![Шаг 8, подтвердите, что узел может подтвердить аттестацию](../media/Guarded-Fabric-Shielded-VM/guarded-host-confirm-hosts-attest.png) |
-| 9. [Настройка VMM (необязательно)](https://technet.microsoft.com/system-center-docs/vmm/scenario/guarded-overview) | ![Шаг 9. Настройка VMM (необязательно)](../media/Guarded-Fabric-Shielded-VM/guarded-host-configure-vmm.png) |
+| 9. [Настройка VMM (необязательно)](/system-center/vmm/deploy-guarded-host-fabric?view=sc-vmm-2019) | ![Шаг 9. Настройка VMM (необязательно)](../media/Guarded-Fabric-Shielded-VM/guarded-host-configure-vmm.png) |
 | 10. [Создание дисков шаблонов](guarded-fabric-create-a-shielded-vm-template.md) | ![Шаг 10. Создание дисков шаблонов](../media/Guarded-Fabric-Shielded-VM/guarded-host-create-template-disk.png) |
 | 11. [Создание вспомогательного диска экранирования виртуальных машин для VMM (необязательно)](guarded-fabric-vm-shielding-helper-vhd.md) | ![Шаг 11. Создание диска справки экранирования виртуальных машин для VMM](../media/Guarded-Fabric-Shielded-VM/guarded-host-create-helper-disk.png) |
 | 12. [настройка Windows Azure Pack (необязательно)](guarded-fabric-shielded-vm-windows-azure-pack.md) | ![Шаг 12. Настройка Windows Azure Pack (необязательно)](../media/Guarded-Fabric-Shielded-VM/guarded-host-windows-azure-pack.png) |
 | 13. [Создание файла данных экранирования](guarded-fabric-tenant-creates-shielding-data.md) | ![Шаг 13. Создание файла данных экранирования](../media/Guarded-Fabric-Shielded-VM/guarded-host-shielding-data-file.png) |
 | 14. [Создание экранированных виртуальных машин с помощью Windows Azure Pack](guarded-fabric-shielded-vm-windows-azure-pack.md) | ![Шаг 14. Создание экранированных виртуальных машин с помощью Windows Azure Pack](../media/Guarded-Fabric-Shielded-VM/guarded-host-shielded-vms.png) |
-| 15. [Создание экранированных виртуальных машин с помощью VMM](https://technet.microsoft.com/system-center-docs/vmm/scenario/guarded-vms) | ![Шаг 15. Создание экранированных виртуальных машин с помощью VMM](../media/Guarded-Fabric-Shielded-VM/guarded-host-shielded-vms.png) |
+| 15. [Создание экранированных виртуальных машин с помощью VMM](/system-center/vmm/guarded-deploy-vm?view=sc-vmm-2019) | ![Шаг 15. Создание экранированных виртуальных машин с помощью VMM](../media/Guarded-Fabric-Shielded-VM/guarded-host-shielded-vms.png) |
 
 ## <a name="additional-references"></a>Дополнительные ссылки
 

@@ -7,12 +7,12 @@ ms.assetid: bc625de9-ee31-40a4-9ad2-7448bfbfb6e6
 ms.author: anpaul
 author: AnirbanPaul
 ms.date: 08/23/2018
-ms.openlocfilehash: 3937f124ba91a597af83c00cd5497ea57c1b2fed
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: ce85e93f229c62d836a00e7665e2a76bd08b44dd
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87962138"
+ms.locfileid: "87996547"
 ---
 # <a name="kerberos-with-service-principal-name-spn"></a>Kerberos с именем субъекта-службы (SPN)
 
@@ -20,7 +20,7 @@ ms.locfileid: "87962138"
 
 Сетевой контроллер поддерживает несколько методов проверки подлинности для взаимодействия с клиентами управления. Вы можете использовать проверку подлинности на основе Kerberos, аутентификацию X509 на основе сертификата. Вы также можете использовать проверку подлинности без аутентификации для тестовых развертываний.
 
-System Center Virtual Machine Manager использует проверку подлинности на основе Kerberos. При использовании проверки подлинности на основе Kerberos необходимо настроить имя участника-службы (SPN) для сетевого контроллера в Active Directory. Имя участника-службы — это уникальный идентификатор экземпляра службы сетевого контроллера, который используется проверкой подлинности Kerberos для связывания экземпляра службы с учетной записью входа службы. Дополнительные сведения см. в разделе [имена субъектов-служб](https://docs.microsoft.com/windows/desktop/ad/service-principal-names).
+System Center Virtual Machine Manager использует проверку подлинности на основе Kerberos. При использовании проверки подлинности на основе Kerberos необходимо настроить имя участника-службы (SPN) для сетевого контроллера в Active Directory. Имя участника-службы — это уникальный идентификатор экземпляра службы сетевого контроллера, который используется проверкой подлинности Kerberos для связывания экземпляра службы с учетной записью входа службы. Дополнительные сведения см. в разделе [имена субъектов-служб](/windows/desktop/ad/service-principal-names).
 
 ## <a name="configure-service-principal-names-spn"></a>Настройка имен субъектов-служб (SPN)
 
