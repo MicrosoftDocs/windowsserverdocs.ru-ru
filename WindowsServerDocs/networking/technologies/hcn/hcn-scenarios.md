@@ -2,20 +2,19 @@
 title: Сценарии вычислений для сети узла (ХКН)
 ms.author: jmesser
 author: jmesser81
-ms.prod: windows-server
 ms.date: 11/05/2018
-ms.openlocfilehash: 2fdf0d13a0a362681a27106356fbe295532ed970
-ms.sourcegitcommit: b00d7c8968c4adc8f699dbee694afe6ed36bc9de
+ms.openlocfilehash: c6b09ec65bd76fb63c2bb5c4eb5da1187f62ca75
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "80859837"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87955681"
 ---
-# <a name="common-scenarios"></a>Распространенные ситуации
+# <a name="common-scenarios"></a>Распространенные сценарии
 
 >Область применения: Windows Server (половина ежегодного канала), Windows Server 2019
 
-## <a name="scenario-hcn"></a>Сценарий: ХКН 
+## <a name="scenario-hcn"></a>Сценарий: ХКН
 
 
 ### <a name="create-an-hcn"></a>Создание ХКН
@@ -23,25 +22,25 @@ ms.locfileid: "80859837"
 В этом примере показано, как использовать API-интерфейс среды выполнения вычислений узла для создания сети вычислений узла на узле, который можно использовать для подключения виртуальных сетевых адаптеров к виртуальным машинам или контейнерам.
 
 ```C++
-using unique_hcn_network = wil::unique_any< 
-    HCN_NETWORK, 
-    decltype(&HcnCloseNetwork), 
-    HcnCloseNetwork>; 
+using unique_hcn_network = wil::unique_any<
+    HCN_NETWORK,
+    decltype(&HcnCloseNetwork),
+    HcnCloseNetwork>;
 
 
 /// Creates a simple HCN Network, waiting synchronously to finish the task
-void CreateHcnNetwork() 
+void CreateHcnNetwork()
 {
 
     unique_hcn_network hcnnetwork;
     wil::unique_cotaskmem_string result;
-    std::wstring settings = LR"( 
-    { 
-        "SchemaVersion": { 
-            "Major": 2, 
-            "Minor": 0 
-        }, 
-        "Owner" : "WDAGNetwork", 
+    std::wstring settings = LR"(
+    {
+        "SchemaVersion": {
+            "Major": 2,
+            "Minor": 0
+        },
+        "Owner" : "WDAGNetwork",
         "Flags" : 0,
         "Type"  : 0,
         "Ipams" : [
@@ -80,19 +79,19 @@ void CreateHcnNetwork()
             "ServerList" : ["10.0.0.10"],
         }
     }
-    })";    
-    
-    GUID networkGuid;  
+    })";
+
+    GUID networkGuid;
     HRESULT result = CoCreateGuid(&networkGuid);
 
     result = HcnCreateNetwork(
-        networkGuid,              // Unique ID 
-        settings.c_str(),      // Compute system settings document 
+        networkGuid,              // Unique ID
+        settings.c_str(),      // Compute system settings document
         &hcnnetwork,
-        &result 
+        &result
         );
-    if (FAILED(result)) 
-    { 
+    if (FAILED(result))
+    {
                     // UnMarshal  the result Json
      // ErrorSchema
         //   {
@@ -102,28 +101,28 @@ void CreateHcnNetwork()
        //   }
 
         // Failed to create network
-        THROW_HR(result); 
-    }  
+        THROW_HR(result);
+    }
 
     // Close the Handle
     result = HcnCloseNetwork(hcnnetwork.get());
 
-    if (FAILED(result)) 
+    if (FAILED(result))
     {
         // UnMarshal  the result Json
         THROW_HR(result);
     }
-        
+
 }
 ```
 
 ### <a name="delete-an-hcn"></a>Удаление ХКН
 
-В этом примере показано, как использовать API-интерфейс сетевой службы вычислений узла, чтобы открыть & Удалить расчетную сеть узла. 
+В этом примере показано, как использовать API-интерфейс сетевой службы вычислений узла, чтобы открыть & удалить расчетную сеть узла.
 
 ```C++
     wil::unique_cotaskmem_string errorRecord;
-    GUID networkGuid; // Initialize it to appropriate network guid value 
+    GUID networkGuid; // Initialize it to appropriate network guid value
     HRESULT hr = HcnDeleteNetwork(networkGuid, &errorRecord);
 
     if (FAILED(hr))
@@ -144,7 +143,7 @@ void CreateHcnNetwork()
 
      // Filter to select Networks based on properties
      std::wstring filter [] = LR"(
-     { 
+     {
          "Name"  : "WDAG",
      })";
      HRESULT result = HcnEnumerateNetworks(filter.c_str(), &resultNetworks, &errorRecord);
@@ -166,7 +165,7 @@ void CreateHcnNetwork()
     wil::unique_cotaskmem_string errorRecord;
     wil::unique_cotaskmem_string properties;
     std:wstring query = LR"(
-    { 
+    {
         // Future
     })";
     GUID networkGuid; // Initialize it to appropriate network guid value
@@ -196,12 +195,12 @@ void CreateHcnNetwork()
 В этом примере показано, как использовать API-интерфейс сетевой службы вычислений узла для создания конечной точки вычислений сети узла, а затем она добавляется в виртуальную машину или контейнер.
 
 ```C++
-using unique_hcn_endpoint = wil::unique_any< 
-    HCN_ENDPOINT, 
-    decltype(&HcnCloseEndpoint), 
-    HcnCloseEndpoint>; 
+using unique_hcn_endpoint = wil::unique_any<
+    HCN_ENDPOINT,
+    decltype(&HcnCloseEndpoint),
+    HcnCloseEndpoint>;
 
-void CreateAndHotAddEndpoint() 
+void CreateAndHotAddEndpoint()
 {
     unique_hcn_endpoint hcnendpoint;
     unique_hcn_network hcnnetwork;
@@ -209,13 +208,13 @@ void CreateAndHotAddEndpoint()
     wil::unique_cotaskmem_string errorRecord;
 
 
-    std::wstring settings[] = LR"( 
-    { 
-        "SchemaVersion": { 
-            "Major": 2, 
-            "Minor": 0 
-        }, 
-        "Owner" : "Sample", 
+    std::wstring settings[] = LR"(
+    {
+        "SchemaVersion": {
+            "Major": 2,
+            "Minor": 0
+        },
+        "Owner" : "Sample",
                    "Flags" : 0,
         "HostComputeNetwork" : "87fdcf16-d210-426e-959d-2a1d4f41d6d3",
         "DNS" : {
@@ -223,36 +222,36 @@ void CreateAndHotAddEndpoint()
             "ServerList" : "10.0.0.10",
         }
     })";
-    GUID endpointGuid;  
+    GUID endpointGuid;
     HRESULT result = CoCreateGuid(&endpointGuid);
 
     result = HcnOpenNetwork(
-        networkGuid,              // Unique ID 
+        networkGuid,              // Unique ID
         &hcnnetwork,
         &errorRecord
         );
-    if (FAILED(result)) 
-    { 
+    if (FAILED(result))
+    {
         // Failed to find network
-        THROW_HR(result); 
-    }                
+        THROW_HR(result);
+    }
 
     result = HcnCreateEndpoint(
         hcnnetwork.get(),
-        endpointGuid,              // Unique ID 
-        settings.c_str(),      // Compute system settings document 
+        endpointGuid,              // Unique ID
+        settings.c_str(),      // Compute system settings document
         &hcnendpoint,
         &errorRecord
         );
 
-    if (FAILED(result)) 
-    { 
+    if (FAILED(result))
+    {
         // Failed to create endpoint
-        THROW_HR(result); 
+        THROW_HR(result);
     }
 
-    // Can use the sample from HCS API Spec on how to attach this endpoint 
-    // to the VM using AddNetworkAdapterToVm   
+    // Can use the sample from HCS API Spec on how to attach this endpoint
+    // to the VM using AddNetworkAdapterToVm
 
     result = HcnCloseEndpoint(hcnendpoint.get());
 
@@ -261,7 +260,7 @@ void CreateAndHotAddEndpoint()
         // UnMarshal  the result Json
         THROW_HR(result);
     }
-             
+
 }
 ```
 
@@ -290,7 +289,7 @@ void CreateAndHotAddEndpoint()
 ```C++
     unique_hcn_endpoint hcnendpoint;
     GUID endpointGuid; // Initialize it to appropriate endpoint guid value
-    
+
     HRESULT hr = HcnOpenEndpoint(endpointGuid, &hcnendpoint, &errorRecord);
 
     if (FAILED(hr))
@@ -335,7 +334,7 @@ void CreateAndHotAddEndpoint()
 
     // Filter to select Endpoint based on properties
     std::wstring filter [] = LR"(
-    { 
+    {
         "Name"  : "sampleNetwork",
     })";
     result = HcnEnumerateEndpoints(filter.c_str(), &resultEndpoints, &errorRecord);
@@ -367,7 +366,7 @@ void CreateAndHotAddEndpoint()
 
     wil::unique_cotaskmem_string properties;
     std:wstring query = LR"(
-    { 
+    {
         // Future
     })";
 
@@ -388,39 +387,39 @@ void CreateAndHotAddEndpoint()
 В этом примере показано, как использовать API-интерфейс сетевой службы вычислений узла для создания пространства имен среды вычислений на узле, которое можно использовать для подключения конечных точек и контейнеров.
 
 ```C++
-using unique_hcn_namespace = wil::unique_any< 
-    HCN_NAMESPACE, 
-    decltype(&HcnCloseNamespace), 
-    HcnCloseNamespace>; 
+using unique_hcn_namespace = wil::unique_any<
+    HCN_NAMESPACE,
+    decltype(&HcnCloseNamespace),
+    HcnCloseNamespace>;
 
 /// Creates a simple HCN Network, waiting synchronously to finish the task
-void CreateHcnNamespace() 
+void CreateHcnNamespace()
 {
 
     unique_hcn_namespace handle;
     wil::unique_cotaskmem_string errorRecord;
-    std::wstring settings = LR"( 
-    { 
-        "SchemaVersion": { 
-            "Major": 2, 
-            "Minor": 0 
-        }, 
-        "Owner" : "Sample", 
+    std::wstring settings = LR"(
+    {
+        "SchemaVersion": {
+            "Major": 2,
+            "Minor": 0
+        },
+        "Owner" : "Sample",
         "Flags" : 0,
         "Type" : 0,
-    })";    
-   
-    GUID namespaceGuid;  
+    })";
+
+    GUID namespaceGuid;
     HRESULT result = CoCreateGuid(&namespaceGuid);
 
     result = HcnCreateNamespace(
-        namespaceGuid,              // Unique ID 
-        settings.c_str(),      // Compute system settings document 
+        namespaceGuid,              // Unique ID
+        settings.c_str(),      // Compute system settings document
         &handle,
         &errorRecord
         );
-    if (FAILED(result)) 
-    { 
+    if (FAILED(result))
+    {
                     // UnMarshal  the result Json
      // ErrorSchema
         //   {
@@ -430,8 +429,8 @@ void CreateHcnNamespace()
        //   }
 
         // Failed to create network
-        THROW_HR(result); 
-    } 
+        THROW_HR(result);
+    }
 
     result = HcnCloseNamespace(handle.get());
 
@@ -440,7 +439,7 @@ void CreateHcnNamespace()
         // UnMarshal  the result Json
         THROW_HR(result);
     }
-         
+
 }
 ```
 
@@ -489,7 +488,7 @@ void CreateHcnNamespace()
     }
     )";
 
-    
+
     hr = HcnModifyNamespace(handle.get(), ModifySettingAddEndpointJson.c_str(), &errorRecord);
 
     if (FAILED(hr))
@@ -504,7 +503,7 @@ void CreateHcnNamespace()
         // UnMarshal  the result Json
         THROW_HR(hr);
     }
-    
+
 ```
 
 
@@ -517,8 +516,8 @@ void CreateHcnNamespace()
     wil::unique_cotaskmem_string errorRecord;
 
     std::wstring filter [] = LR"(
-    { 
-            // Future       
+    {
+            // Future
     })";
     HRESULT hr = HcnEnumerateNamespace(filter.c_str(), &resultNamespaces, &errorRecord);
     if (FAILED(hr))
@@ -549,7 +548,7 @@ void CreateHcnNamespace()
     wil::unique_cotaskmem_string errorRecord;
     wil::unique_cotaskmem_string properties;
     std:wstring query = LR"(
-    { 
+    {
         // Future
     })";
 
@@ -571,24 +570,24 @@ void CreateHcnNamespace()
 В этом примере показано, как использовать API-интерфейс сетевой службы вычислений узла для создания Load Balancer на узле, который может использоваться для балансировки нагрузки конечной точки в рамках вычислений.
 
 ```C++
-using unique_hcn_loadbalancer = wil::unique_any< 
-    HCN_LOADBALANCER, 
-    decltype(&HcnCloseLoadBalancer), 
-    HcnCloseLoadBalancer>; 
+using unique_hcn_loadbalancer = wil::unique_any<
+    HCN_LOADBALANCER,
+    decltype(&HcnCloseLoadBalancer),
+    HcnCloseLoadBalancer>;
 
 /// Creates a simple HCN LoadBalancer, waiting synchronously to finish the task
-void CreateHcnLoadBalancer() 
+void CreateHcnLoadBalancer()
 {
 
     unique_hcn_loadbalancer handle;
     wil::unique_cotaskmem_string errorRecord;
-    std::wstring settings = LR"( 
-     { 
-        "SchemaVersion": { 
-            "Major": 2, 
-            "Minor": 0 
-        }, 
-        "Owner" : "Sample", 
+    std::wstring settings = LR"(
+     {
+        "SchemaVersion": {
+            "Major": 2,
+            "Minor": 0
+        },
+        "Owner" : "Sample",
         "HostComputeEndpoints" : [
             "87fdcf16-d210-426e-959d-2a1d4f41d6d1"
         ],
@@ -603,20 +602,20 @@ void CreateHcnLoadBalancer()
         "EnableDirectServerReturn" : true,
         "InternalLoadBalancer" : false,
     }
-     )";    
-   
-    GUID lbGuid;  
+     )";
+
+    GUID lbGuid;
     HRESULT result = CoCreateGuid(&lbGuid);
 
 
     HRESULT hr = HcnCreateLoadBalancer(
-        lbGuid,              // Unique ID 
-        settings.c_str(),      // LoadBalancer settings document 
+        lbGuid,              // Unique ID
+        settings.c_str(),      // LoadBalancer settings document
         &handle,
         &errorRecord
         );
-    if (FAILED(hr)) 
-    { 
+    if (FAILED(hr))
+    {
                     // UnMarshal  the result Json
      // ErrorSchema
         //   {
@@ -626,7 +625,7 @@ void CreateHcnLoadBalancer()
        //   }
 
         // Failed to create network
-        THROW_HR(hr); 
+        THROW_HR(hr);
     }
 
     hr = HcnCloseLoadBalancer(handle.get());
@@ -636,7 +635,7 @@ void CreateHcnLoadBalancer()
         // UnMarshal  the result Json
         THROW_HR(hr);
     }
-          
+
 }
 ```
 
@@ -685,7 +684,7 @@ void CreateHcnLoadBalancer()
     }
     )";
 
-    
+
     hr = HcnModifyLoadBalancer(handle.get(), ModifySettingAddEndpointJson.c_str(), &errorRecord);
 
     if (FAILED(hr))
@@ -712,7 +711,7 @@ void CreateHcnLoadBalancer()
     wil::unique_cotaskmem_string errorRecord;
 
     std::wstring filter [] = LR"(
-    { 
+    {
          // Future
 
     })";
@@ -746,7 +745,7 @@ void CreateHcnLoadBalancer()
     wil::unique_cotaskmem_string errorRecord;
     wil::unique_cotaskmem_string properties;
     std:wstring query = LR"(
-    { 
+    {
         "ID"  : "",
         "Type" : 0,
     })";
@@ -768,12 +767,12 @@ void CreateHcnLoadBalancer()
 В этом примере показано, как использовать API-интерфейс сетевой службы вычислений для регистрации и отмены регистрации для уведомлений на уровне службы. Это позволяет вызывающему объекту получить уведомление (через функцию обратного вызова, заданную во время регистрации) при каждом выполнении операции на уровне службы, такой как новое событие создания сети.
 
 ```C++
-using unique_hcn_callback = wil::unique_any< 
-    HCN_CALLBACK, 
-    decltype(&HcnUnregisterServiceCallback), 
-    HcnUnregisterServiceCallback>; 
+using unique_hcn_callback = wil::unique_any<
+    HCN_CALLBACK,
+    decltype(&HcnUnregisterServiceCallback),
+    HcnUnregisterServiceCallback>;
 
-// Callback handle returned by registration api. Kept at 
+// Callback handle returned by registration api. Kept at
 // global or module scope as it will automatically be
 // unregistered when it goes out of scope.
 unique_hcn_callback g_Callback;
@@ -815,12 +814,12 @@ ServiceCallback(
 }
 
 /// Register for service-wide notifications
-void RegisterForServiceNotifications() 
+void RegisterForServiceNotifications()
 {
     THROW_IF_FAILED(HcnRegisterServiceCallback(
         ServiceCallback,
         nullptr,
-        &g_Callback));        
+        &g_Callback));
 }
 
 /// Unregister from service-wide notifications
@@ -832,7 +831,7 @@ void UnregisterForServiceNotifications()
 }
 ```
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 - Дополнительные сведения об [дескрипторах контекста RPC для хкн](hcn-declaration-handles.md).
 

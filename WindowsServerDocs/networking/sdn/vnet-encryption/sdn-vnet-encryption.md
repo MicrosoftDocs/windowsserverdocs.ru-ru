@@ -2,19 +2,17 @@
 title: Шифрование виртуальной сети
 description: Шифрование виртуальной сети позволяет выполнять шифрование трафика виртуальной сети между виртуальными машинами, взаимодействующими друг с другом в подсетях, помеченных как "шифрование включено".
 manager: grcusanz
-ms.prod: windows-server
-ms.technology: networking-hv-switch
 ms.topic: get-started-article
 ms.assetid: 7da0f509-7b02-4a0f-90fb-d97c83a2bc4e
 ms.author: anpaul
 author: AnirbanPaul
 ms.date: 08/08/2018
-ms.openlocfilehash: 63daea02ec00593504383ce071d3f9454a37956b
-ms.sourcegitcommit: b00d7c8968c4adc8f699dbee694afe6ed36bc9de
+ms.openlocfilehash: 68014e0941205db61cc0b607e6784fb8d6d807ab
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "80853577"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87955871"
 ---
 # <a name="virtual-network-encryption"></a>Шифрование виртуальной сети
 
@@ -32,7 +30,7 @@ ms.locfileid: "80853577"
 >[!TIP]
 >Если необходимо ограничить приложения для обмена данными только с зашифрованной подсетью, можно использовать списки управления доступом (ACL) только для обеспечения взаимодействия в текущей подсети. Дополнительные сведения см. [в статье Использование списков управления доступом (ACL) для управления потоком сетевого трафика центра обработки данных](https://docs.microsoft.com/windows-server/networking/sdn/manage/use-acls-for-traffic-flow).
 
-### <a name="next-steps"></a>Следующие шаги
+### <a name="next-steps"></a>Дальнейшие действия
 
 [Настройка шифрования для виртуальной сети](https://docs.microsoft.com/windows-server/networking/sdn/vnet-encryption/sdn-config-vnet-encryption)
 

@@ -2,26 +2,24 @@
 title: Переход на службы MultiPoint в Windows Server 2016
 description: Узнайте, как выполнить миграцию с предыдущей версии служб MultiPoint
 ms.date: 07/29/2016
-ms.prod: windows-server
-ms.technology: multipoint-services
 ms.topic: article
 ms.assetid: 16c217ad-700a-48a3-8398-4a7f7e9edb52
 author: lizap
 manager: dongill
 ms.author: elizapo
-ms.openlocfilehash: 1609ff02c8e1b1480d004104bdc7e37f1240729a
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: ce5fb28f92808d736f66f1f900228aac09d98bf5
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86959276"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87955341"
 ---
 # <a name="multipoint-services-migration-in-windows-server-2016"></a>Миграция служб MultiPoint в Windows Server 2016
 >Область применения. Windows Server 2016
 
 Можно выполнить миграцию из предыдущего выпуска служб MultiPoint для Windows Server 2016 в RTM-версию служб MultiPoint. Ниже приведены сведения о подготовке и процедуре переноса и проверки.
 
-Документация и средства миграции упрощают перенос параметров и данных ролей сервера с существующего сервера на целевой сервер под Windows Server 2016. Описанная в этом руководстве процедура позволяет упростить процесс миграции, сократить его продолжительность, повысить точность и избежать потенциальных конфликтов. 
+Документация и средства миграции упрощают перенос параметров и данных ролей сервера с существующего сервера на целевой сервер под Windows Server 2016. Описанная в этом руководстве процедура позволяет упростить процесс миграции, сократить его продолжительность, повысить точность и избежать потенциальных конфликтов.
 
 ## <a name="what-to-know-before-you-begin"></a>Что необходимо узнать перед началом
 Прежде чем начать процесс миграции, обратите внимание на следующее.

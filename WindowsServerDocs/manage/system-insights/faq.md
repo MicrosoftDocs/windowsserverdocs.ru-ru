@@ -1,19 +1,17 @@
 ---
 title: Вопросы и ответы по System Insights
 description: Вопросы и ответы по System Insights
-ms.prod: windows-server
-ms.technology: system-insights
 ms.topic: article
 author: gawatu
 ms.author: gawatu
 manager: mallikarjun.chadalapaka
 ms.date: 5/23/2018
-ms.openlocfilehash: 15aae4983ed04d4bb9e7f4d4991ae5556874453c
-ms.sourcegitcommit: 771db070a3a924c8265944e21bf9bd85350dd93c
+ms.openlocfilehash: 9f746e71b64497835fc5f0f90e9b46c03b63fd15
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85471799"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87972001"
 ---
 # <a name="system-insights-faq"></a>Вопросы и ответы по System Insights
 

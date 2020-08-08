@@ -1,19 +1,17 @@
 ---
 title: Добавление и разработка возможностей
 description: System Insights позволяет добавлять новые прогнозные возможности в System Insights, не требуя обновления операционной системы. Это позволяет разработчикам, в том числе корпорации Майкрософт и третьим лицам, создавать и предоставлять новые возможности в середине выпуска для решения наиболее важных сценариев. Новые возможности могут указывать пользовательские данные для собираются и анализа, а также интегрируются с существующими плоскостями управления System Insights.
-ms.prod: windows-server
-ms.technology: system-insights
 ms.topic: article
 author: gawatu
 ms.author: gawatu
 manager: mallikarjun.chadalapaka
 ms.date: 7/31/2018
-ms.openlocfilehash: 891edb108bc2c298c70b29c596fb8d0ca0e06b7e
-ms.sourcegitcommit: 771db070a3a924c8265944e21bf9bd85350dd93c
+ms.openlocfilehash: b28621b24b321cdc22f07c03e9c04f0dde22759b
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85475191"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87972021"
 ---
 # <a name="adding-and-developing-new-capabilities"></a>Добавление и разработка новых возможностей
 

@@ -2,19 +2,17 @@
 title: Диагностика стека программно-конфигурируемой сети Windows Server
 description: В этом руководство по Windows Server изучаются распространенные ошибки и случаи сбоя программно-определяемой сети (SDN), а также описывается процесс устранения неполадок, использующий доступные средства диагностики.
 manager: grcusanz
-ms.prod: windows-server
-ms.technology: networking-sdn
 ms.topic: article
 ms.assetid: 9be83ed2-9e62-49e8-88e7-f52d3449aac5
 ms.author: anpaul
 author: AnirbanPaul
 ms.date: 08/14/2018
-ms.openlocfilehash: 3c6ac190b721492a03c7dcb9ab367df4174e55ff
-ms.sourcegitcommit: 3632b72f63fe4e70eea6c2e97f17d54cb49566fd
+ms.openlocfilehash: 87972f9a0d83a4b7f192e2fe0f751ee66c599044
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87520243"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87955921"
 ---
 # <a name="troubleshoot-the-windows-server-software-defined-networking-stack"></a>Диагностика стека программно-конфигурируемой сети Windows Server
 
@@ -632,7 +630,7 @@ Get-NetworkControllerAccessControlList -ConnectionUri $uri
 Эти журналы содержат журналы отладки для кластера сетевого контроллера, приложения сетевого контроллера, журналов шлюзов, SLB, виртуальных сетей и распределенного брандмауэра. При добавлении нового узла, SLB или шлюза в сетевой контроллер на этих компьютерах запускается ведение журнала.
 Аналогично, при удалении узла, SLB или шлюза из сетевого контроллера, ведение журнала на этих компьютерах останавливается.
 
-#### <a name="enable-logging"></a>Включение ведения журнала
+#### <a name="enable-logging"></a>Включение ведения журналов
 
 Ведение журнала включается автоматически при установке кластера сетевого контроллера с помощью командлета **Install-нетворкконтроллерклустер** . По умолчанию журналы собираются локально на узлах сетевого контроллера по адресу *%системдриве%\сдндиагностикс*. **Настоятельно рекомендуется** изменить это расположение на удаленную общую папку (не локальную).
 

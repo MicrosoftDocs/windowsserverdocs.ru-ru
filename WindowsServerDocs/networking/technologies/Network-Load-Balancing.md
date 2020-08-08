@@ -2,19 +2,17 @@
 title: Network Load Balancing
 description: В этом разделе представлен обзор компонента балансировки сетевой нагрузки \( NLB \) в Windows Server 2016. С помощью NLB можно управлять двумя или более серверами как одним виртуальным кластером. Балансировка сетевой нагрузки повышает доступность и масштабируемость приложений Интернет-сервера, например, используемых в Интернете, FTP, брандмауэре, прокси, VPN виртуальной частной сети \( \) и других \- критически важных серверах.
 manager: dougkim
-ms.prod: windows-server
-ms.technology: networking-nlb
 ms.topic: article
 ms.assetid: 244a4b48-06e5-4796-8750-a50e4f88ac72
 ms.author: lizross
 author: eross-msft
 ms.date: 09/13/2018
-ms.openlocfilehash: f6631920fd4df056447d702df78145d4b375e0f5
-ms.sourcegitcommit: 145cf75f89f4e7460e737861b7407b5cee7c6645
+ms.openlocfilehash: ecea87a3716ef68c599594851037e774ad589998
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "87409614"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87955811"
 ---
 # <a name="network-load-balancing"></a>Network Load Balancing
 
@@ -154,7 +152,7 @@ Install-WindowsFeature NLB -IncludeManagementTools
 |Тип содержимого|Ссылки|
 |----------------|--------------|
 |Развертывание|[Рекомендации по развертыванию балансировки сетевой нагрузки](https://technet.microsoft.com/library/cc754833(WS.10).aspx) &#124; [настройке балансировки сетевой нагрузки с помощью служб терминалов](https://technet.microsoft.com/library/cc771300(v=WS.10).aspx)|
-|Operations|[Управление кластерами балансировки сетевой нагрузки](https://technet.microsoft.com/library/cc753954(WS.10).aspx) &#124; [Настройка параметров балансировки сетевой нагрузки](https://technet.microsoft.com/library/cc731619(WS.10).aspx) &#124; [Управление узлами в кластерах балансировки сетевой нагрузки](https://technet.microsoft.com/library/cc770870(WS.10).aspx)|
-|Устранение неполадок|[Устранение неполадок в кластерах балансировки сетевой нагрузки](https://technet.microsoft.com/library/cc732592(WS.10).aspx) &#124; [событиях и ошибках кластера балансировки сетевой](https://technet.microsoft.com/library/cc731678(WS.10).aspx) нагрузки|
+|Операции|[Управление кластерами балансировки сетевой нагрузки](https://technet.microsoft.com/library/cc753954(WS.10).aspx) &#124; [Настройка параметров балансировки сетевой нагрузки](https://technet.microsoft.com/library/cc731619(WS.10).aspx) &#124; [Управление узлами в кластерах балансировки сетевой нагрузки](https://technet.microsoft.com/library/cc770870(WS.10).aspx)|
+|Диагностика|[Устранение неполадок в кластерах балансировки сетевой нагрузки](https://technet.microsoft.com/library/cc732592(WS.10).aspx) &#124; [событиях и ошибках кластера балансировки сетевой](https://technet.microsoft.com/library/cc731678(WS.10).aspx) нагрузки|
 |Средства и параметры|[Командлеты балансировки сетевой нагрузки в Windows PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=238123)|
 |Ресурсы сообщества|[Форум по \( кластеризации высокого уровня доступности \)](https://go.microsoft.com/fwlink/p/?LinkId=230641)

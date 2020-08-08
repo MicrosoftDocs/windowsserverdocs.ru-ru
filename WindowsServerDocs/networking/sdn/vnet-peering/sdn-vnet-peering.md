@@ -1,24 +1,22 @@
 ---
 title: Пиринг между виртуальными сетями
 manager: grcusanz
-ms.prod: windows-server
-ms.technology: networking-hv-switch
 ms.topic: get-started-article
 ms.author: anpaul
 author: AnirbanPaul
 ms.date: 08/08/2018
-ms.openlocfilehash: d4dadcabfb911c7722da493c45db112477eab34c
-ms.sourcegitcommit: a1641b80c88205c0253f354f2d427d77bb879643
+ms.openlocfilehash: 21008268f14435852c7de78ce826bc380f9017a1
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "85345418"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87955821"
 ---
 # <a name="virtual-network-peering"></a>Пиринг между виртуальными сетями
 
 >Область применения: Windows Server
 
-Пиринг виртуальных сетей позволяет легко подключать две виртуальные сети. После пиринга для подключения виртуальные сети отображаются в виде одной. 
+Пиринг виртуальных сетей позволяет легко подключать две виртуальные сети. После пиринга для подключения виртуальные сети отображаются в виде одной.
 
 Преимущества пиринговой связи между виртуальными сетями:
 

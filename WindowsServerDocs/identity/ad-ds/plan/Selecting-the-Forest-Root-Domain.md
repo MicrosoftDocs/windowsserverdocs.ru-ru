@@ -6,14 +6,12 @@ author: MicrosoftGuyJFlo
 manager: mtillman
 ms.date: 08/08/2018
 ms.topic: article
-ms.prod: windows-server
-ms.technology: identity-adds
-ms.openlocfilehash: 451a0b46cd45d0dd28ceb3634da9d847864bd519
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: c0a814932bfb5a232e55857e3cc10af4068d14c9
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86953776"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87972241"
 ---
 # <a name="selecting-the-forest-root-domain"></a>Выбор корневого домена леса
 
@@ -78,7 +76,7 @@ ms.locfileid: "86953776"
 
 В следующей таблице перечислены правила выбора префикса для зарегистрированного DNS-имени.
 
-| Правило     | Пояснение |
+| Правило     | Описание |
 | -------- | --------------- |
 | Выберите префикс, который, скорее всего, станет устаревшим. | Избегайте таких имен, как линейка продуктов или операционная система, которые могут измениться в будущем. Рекомендуется использовать универсальные имена, например Corp или DS.|
 | Выберите префикс, включающий только стандартные символы Интернета. | A – Z, a – z, 0-9 и (-), но не полностью числовое. |

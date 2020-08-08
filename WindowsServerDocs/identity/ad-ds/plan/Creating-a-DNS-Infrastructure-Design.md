@@ -6,14 +6,12 @@ author: MicrosoftGuyJFlo
 manager: mtillman
 ms.date: 08/08/2018
 ms.topic: article
-ms.prod: windows-server
-ms.technology: identity-adds
-ms.openlocfilehash: c48996945e648a8ad698b1746e722702371521f1
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: b96f0b5fd47fc4a7d4d1fe6d68fcfa1543108d3f
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86962356"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87947862"
 ---
 # <a name="creating-a-dns-infrastructure-design"></a>Создание проекта инфраструктуры DNS
 
@@ -33,7 +31,7 @@ ms.locfileid: "86962356"
 
 Прежде чем приступить к проектированию инфраструктуры DNS для поддержки AD DS, можно прочитать сведения об иерархии DNS, процессе разрешения имен DNS и о том, как DNS поддерживает AD DS. Дополнительные сведения об иерархии DNS и процессе разрешения имен см. в [техническом справочнике по DNS](/previous-versions/windows/it-pro/windows-server-2003/cc779926(v=ws.10)). Дополнительные сведения о том, как DNS поддерживает AD DS, см. в статье [поддержка DNS для Active Directory технического справочника](/previous-versions/windows/it-pro/windows-server-2003/cc781627(v=ws.10)).
 
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>Содержание раздела
 
 - [Общие сведения о понятиях DNS](../../ad-ds/plan/Reviewing-DNS-Concepts.md)
 - [DNS и доменные службы Active Directory](../../ad-ds/plan/DNS-and-AD-DS.md)

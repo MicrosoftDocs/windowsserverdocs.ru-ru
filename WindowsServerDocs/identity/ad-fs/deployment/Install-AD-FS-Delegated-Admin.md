@@ -7,27 +7,25 @@ ms.author: billmath
 manager: daveba
 ms.date: 04/01/2020
 ms.topic: article
-ms.prod: windows-server-threshold
-ms.technology: identity-adfs
-ms.openlocfilehash: 1716c1e3684ed09d051970a2ab3b43938b5eeb5e
-ms.sourcegitcommit: 20d07170c7f3094c2fb4455f54b13ec4b102f2d7
+ms.openlocfilehash: 7dff0b19b4d8783dcd43344c6152be9d2c36441d
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81269445"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87972191"
 ---
 # <a name="creating-an-ad-fs-farm-without-domain-admin-privileges"></a>Создание фермы AD FS без прав администратора домена
 
 >Область применения: Windows Server 2019 и 2016
 
 ## <a name="overview"></a>Обзор
-Начиная с AD FS в Windows Server 2016 можно выполнить командлет Install-Адфсфарм от имени локального администратора на сервере федерации, если администратор домена подготовил Active Directory.  Приведенный ниже сценарий можно использовать для подготовки рекламы.  Процесс состоит из следующих этапов.
+Начиная с AD FS в Windows Server 2016 можно выполнить командлет Install-Адфсфарм от имени локального администратора на сервере федерации, если администратор домена подготовил Active Directory.  Приведенный ниже сценарий можно использовать для подготовки рекламы.  Выполняются следующие шаги.
 
 1) В качестве администратора домена выполните сценарий (или вручную создайте Active Directory объекты и разрешения).
 2) Скрипт вернет объект значение adminconfiguration, содержащий DN созданного объекта AD.
 3) На сервере федерации выполните командлет Install-Адфсфарм, войдя в систему с правами локального администратора, передав объект из #2 выше в качестве параметра значение adminconfiguration.
 
-## <a name="assumptions"></a>Допущения
+## <a name="assumptions"></a>Предположения
 - Контосо\локаладмин является встроенным администратором, не являющимся администратором домена, на сервере федерации
 - Контосо\фссвкаккт — это учетная запись домена, которая будет учетной записью службы AD FS
 - Контосо\фсгмсааккт $ — это учетная запись gMSA, которая будет учетной записью службы AD FS
@@ -40,7 +38,7 @@ ms.locfileid: "81269445"
 ```
 PS:\>$adminConfig=(.\New-AdfsDkmContainer.ps1 -ServiceAccount contoso\fssvcacct -AdfsAdministratorAccount contoso\localadmin)
 ```
-### <a name="sample-output"></a>Пример вывода
+### <a name="sample-output"></a>Пример выходных данных
 ```
 $adminconfig.DkmContainerDN
 CN=9530440c-bc84-4fe6-a3f9-8d60162a7bcf,CN=ADFS,CN=Microsoft,CN=Program Data,DC=contoso,DC=com
@@ -65,7 +63,7 @@ PS:\>Install-AdfsFarm -CertificateThumbprint 270D041785C579D75C1C981DA0F9C36ECFD
 PS:\>$adminConfig=(.\New-AdfsDkmContainer.ps1 -ServiceAccount contoso\FsGmsaAcct$ -AdfsAdministratorAccount contoso\localadmin)
 ```
 
-### <a name="sample-output"></a>Пример вывода
+### <a name="sample-output"></a>Пример выходных данных
 ```
 $adminconfig.DkmContainerDN
 CN=8065f653-af9d-42ff-aec8-56e02be4d5f3,CN=ADFS,CN=Microsoft,CN=Program Data,DC=contoso,DC=com
@@ -165,7 +163,7 @@ if ($pscmdlet.ShouldProcess("$ou", "Creating DKM container and assinging access"
     }
     else
     {
-        write-verbose "ADFS administrator account is a standard AD user"    
+        write-verbose "ADFS administrator account is a standard AD user"
         $objUser = New-Object System.Security.Principal.NTAccount($AdfsAdministratorAccount)
         $strSID = $objUser.Translate([System.Security.Principal.SecurityIdentifier])
     }

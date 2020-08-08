@@ -1,26 +1,24 @@
 ---
 title: Дополнительные свойства NIC
 description: Управлять сетевыми картами и всеми функциями можно с помощью Windows PowerShell или панели управления сетью.
-ms.prod: windows-server
-ms.technology: networking
 ms.topic: article
 ms.assetid: 0cafb1cc-5798-42f5-89b6-3ffe7ac024ba
 manager: dougkim
 ms.author: lizross
 author: eross-msft
 ms.date: 09/20/2018
-ms.openlocfilehash: 78d320f4309d60fa0396cbd723feafa07a65aea1
-ms.sourcegitcommit: da7b9bce1eba369bcd156639276f6899714e279f
+ms.openlocfilehash: aa26e3ef83ec6255da6a386ecfce34a7501ae3f5
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "80317004"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87955641"
 ---
 # <a name="nic-advanced-properties"></a>Дополнительные свойства NIC
 
-Управлять сетевыми картами и всеми функциями можно через Windows PowerShell с помощью командлета [NetAdapter](https://docs.microsoft.com/powershell/module/netadapter/?view=win10-ps&viewFallbackFrom=winserverr2-ps) .  Также можно управлять сетевыми картами и всеми функциями с помощью панели управления сетью (ncpa. cpl). 
+Управлять сетевыми картами и всеми функциями можно через Windows PowerShell с помощью командлета [NetAdapter](https://docs.microsoft.com/powershell/module/netadapter/?view=win10-ps&viewFallbackFrom=winserverr2-ps) .  Также можно управлять сетевыми картами и всеми функциями с помощью панели управления сетью (ncpa.cpl).
 
-1. В **Windows PowerShell**выполните командлет `Get‑NetAdapterAdvancedProperties` для двух различных способов создания или модели сетевых карт.
+1. В **Windows PowerShell**выполните `Get‑NetAdapterAdvancedProperties` командлет для двух различных способов создания или модели сетевых карт.
 
    ![Get-Нетадаптерадванцедпроперти M1](../../media/network-offload-and-optimization/Get-NetAdapterAdvancedProperty-m1.png)
 
@@ -28,17 +26,17 @@ ms.locfileid: "80317004"
 
    В этих двух списках дополнительных свойств сетевого адаптера есть сходства и различия.
 
-2. На **панели управления сетью** (ncpa. cpl) выполните следующие действия.
+2. На **панели управления сетью** (ncpa.cpl) выполните следующие действия.
 
-   а) Щелкните сетевую карту правой кнопкой мыши.
+   а. Щелкните сетевую карту правой кнопкой мыши.
 
    ![Диалоговое окно "Сетевые подключения"](../../media/network-offload-and-optimization/network-connections-dialog.png)
 
-   б. В диалоговом окне Свойства нажмите кнопку **настроить**.
+   b. В диалоговом окне Свойства нажмите кнопку **настроить**.
 
     ![Свойства C1](../../media/network-offload-and-optimization/c1-properties.png)
 
-   в. Перейдите на вкладку **Дополнительно** , чтобы просмотреть дополнительные свойства.<p>Элементы в этом списке сопоставляются с элементами в выходных данных `Get-NetAdapterAdvancedProperties`.
+   c. Перейдите на вкладку **Дополнительно** , чтобы просмотреть дополнительные свойства.<p>Элементы в этом списке сопоставляются с элементами в `Get-NetAdapterAdvancedProperties` выходных данных.
 
    ![Свойства сетевого адаптера Chelsio](../../media/network-offload-and-optimization/chelsio-network-adapter-properties.png)
 
