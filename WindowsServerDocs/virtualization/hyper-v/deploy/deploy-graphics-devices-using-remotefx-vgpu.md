@@ -7,12 +7,12 @@ ms.author: rickman
 manager: stevelee
 ms.topic: article
 ms.date: 07/14/2020
-ms.openlocfilehash: 9a060f1650d20a029d64739e1fc7f9be44d8355c
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 38d0ae70e0b6e70e87cc962ec5776d4ffb950fe5
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87953442"
+ms.locfileid: "87995611"
 ---
 # <a name="deploy-graphics-devices-using-remotefx-vgpu"></a>Развертывание графических устройств с помощью vGPU RemoteFX
 
@@ -75,10 +75,10 @@ ms.locfileid: "87953442"
 
 Используйте следующие командлеты PowerShell для добавления, проверки и настройки адаптера:
 
-- [Add-VMRemoteFx3dVideoAdapter](https://docs.microsoft.com/powershell/module/hyper-v/add-vmremotefx3dvideoadapter?view=win10-ps)
-- [Get-VMRemoteFx3dVideoAdapter](https://docs.microsoft.com/powershell/module/hyper-v/get-vmremotefx3dvideoadapter?view=win10-ps)
-- [Set-VMRemoteFx3dVideoAdapter](https://docs.microsoft.com/powershell/module/hyper-v/set-vmremotefx3dvideoadapter?view=win10-ps)
-- [Get-Вмремотефксфисикалвидеоадаптер](https://docs.microsoft.com/powershell/module/hyper-v/get-vmremotefxphysicalvideoadapter?view=win10-ps)
+- [Add-VMRemoteFx3dVideoAdapter](/powershell/module/hyper-v/add-vmremotefx3dvideoadapter?view=win10-ps)
+- [Get-VMRemoteFx3dVideoAdapter](/powershell/module/hyper-v/get-vmremotefx3dvideoadapter?view=win10-ps)
+- [Set-VMRemoteFx3dVideoAdapter](/powershell/module/hyper-v/set-vmremotefx3dvideoadapter?view=win10-ps)
+- [Get-Вмремотефксфисикалвидеоадаптер](/powershell/module/hyper-v/get-vmremotefxphysicalvideoadapter?view=win10-ps)
 
 ## <a name="monitor-performance"></a>Мониторинг производительности
 
@@ -108,4 +108,4 @@ ms.locfileid: "87953442"
 
 Когда GPU не хватает ресурсов, операции чтения и записи выполняются длительное время. Администраторы могут использовать счетчики производительности, чтобы выяснить, когда следует настраивать ресурсы и предотвращать время простоя для пользователей.
 
-Узнайте больше о счетчиках производительности для мониторинга поведения виртуальных GPU RemoteFX при [диагностике проблем с производительностью графики в удаленный рабочий стол](https://docs.microsoft.com/azure/virtual-desktop/remotefx-graphics-performance-counters).
+Узнайте больше о счетчиках производительности для мониторинга поведения виртуальных GPU RemoteFX при [диагностике проблем с производительностью графики в удаленный рабочий стол](/azure/virtual-desktop/remotefx-graphics-performance-counters).

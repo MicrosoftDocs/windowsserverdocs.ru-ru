@@ -7,12 +7,12 @@ ms.assetid: 897f2454-5aee-445c-a63e-f386f514a0f6
 author: jasongerend
 ms.author: jgerend
 ms.date: 05/22/2019
-ms.openlocfilehash: e7c86cc15877c622cf3554a7ae69fe3d0aea1c50
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 24e67bd88a644c44b65d5eb8ccd3d6190737b5db
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87938928"
+ms.locfileid: "87995643"
 ---
 # <a name="upgrade-virtual-machine-version-in-hyper-v-on-windows-10-or-windows-server"></a>Обновление версии виртуальной машины в Hyper-V в Windows 10 или Windows Server
 
@@ -24,13 +24,13 @@ ms.locfileid: "87938928"
 - Вы обновляете функциональный уровень кластера.
 - Вы уверены, что вам не потребуется перемещать виртуальную машину обратно на узел Hyper-V, работающий под управлением предыдущей версии Windows или Windows Server.
 
-Дополнительные сведения см. в статьях [последовательное обновление операционной системы кластера](../../../failover-clustering/Cluster-Operating-System-Rolling-Upgrade.md) и [выполнение последовательного обновления кластера узлов Hyper-V в VMM](https://docs.microsoft.com/system-center/vmm/hyper-v-rolling-upgrade).
+Дополнительные сведения см. в статьях [последовательное обновление операционной системы кластера](../../../failover-clustering/Cluster-Operating-System-Rolling-Upgrade.md) и [выполнение последовательного обновления кластера узлов Hyper-V в VMM](/system-center/vmm/hyper-v-rolling-upgrade).
 
 ## <a name="step-1-check-the-virtual-machine-configuration-versions"></a>Шаг 1. Проверка версий конфигурации виртуальной машины
 
 1. На рабочем столе Windows нажмите кнопку "Пуск" и введите любую часть имени **Windows PowerShell**.
 2. Щелкните правой кнопкой мыши Windows PowerShell и выберите команду **Запуск от имени администратора**.
-3. Используйте командлет [Get-VM](https://docs.microsoft.com/powershell/module/hyper-v/get-vm). Выполните следующую команду, чтобы получить версии виртуальных машин.
+3. Используйте командлет [Get-VM](/powershell/module/hyper-v/get-vm). Выполните следующую команду, чтобы получить версии виртуальных машин.
 
 ```PowerShell
 Get-VM * | Format-Table Name, Version
@@ -43,7 +43,7 @@ Get-VM * | Format-Table Name, Version
 1. Завершите работу виртуальной машины в диспетчере Hyper-V.
 2. Выберите действие > обновить версию конфигурации. Если этот параметр недоступен для виртуальной машины, значит, она уже имеет максимально возможную версию конфигурации, поддерживаемую узлом Hyper-V.
 
-Чтобы обновить версию конфигурации виртуальной машины с помощью Windows PowerShell, используйте командлет [Update-VMVersion](https://docs.microsoft.com/powershell/module/hyper-v/update-vmversion) . Выполните следующую команду, где vmname — это имя виртуальной машины.
+Чтобы обновить версию конфигурации виртуальной машины с помощью Windows PowerShell, используйте командлет [Update-VMVersion](/powershell/module/hyper-v/update-vmversion) . Выполните следующую команду, где vmname — это имя виртуальной машины.
 
 ```PowerShell
 Update-VMVersion <vmname>
@@ -51,13 +51,13 @@ Update-VMVersion <vmname>
 
 ## <a name="supported-virtual-machine-configuration-versions"></a>Поддерживаемые версии конфигурации виртуальной машины
 
-Выполните командлет PowerShell [Get-вмхостсуппортедверсион](https://docs.microsoft.com/powershell/module/hyper-v/get-vmhostsupportedversion) , чтобы узнать, какие версии конфигурации виртуальных машин поддерживает узел Hyper-V. При создании виртуальной машины она создается с использованием версии конфигурации по умолчанию. Чтобы узнать, что такое по умолчанию, выполните следующую команду.
+Выполните командлет PowerShell [Get-вмхостсуппортедверсион](/powershell/module/hyper-v/get-vmhostsupportedversion) , чтобы узнать, какие версии конфигурации виртуальных машин поддерживает узел Hyper-V. При создании виртуальной машины она создается с использованием версии конфигурации по умолчанию. Чтобы узнать, что такое по умолчанию, выполните следующую команду.
 
 ```PowerShell
 Get-VMHostSupportedVersion -Default
 ```
 
-Если необходимо создать виртуальную машину, которую можно переместить на узел Hyper-V, на котором работает более старая версия Windows, используйте командлет [New-VM](https://docs.microsoft.com/powershell/module/hyper-v/new-vm) с параметром-version. Например, чтобы создать виртуальную машину, которую можно переместить на узел Hyper-V под управлением Windows Server 2012 R2, выполните следующую команду. Эта команда создаст виртуальную машину с именем "WindowsCV5" и конфигурацией версии 5,0.
+Если необходимо создать виртуальную машину, которую можно переместить на узел Hyper-V, на котором работает более старая версия Windows, используйте командлет [New-VM](/powershell/module/hyper-v/new-vm) с параметром-version. Например, чтобы создать виртуальную машину, которую можно переместить на узел Hyper-V под управлением Windows Server 2012 R2, выполните следующую команду. Эта команда создаст виртуальную машину с именем "WindowsCV5" и конфигурацией версии 5,0.
 
 ```PowerShell
 New-VM -Name "WindowsCV5" -Version 5.0
@@ -82,7 +82,7 @@ New-VM -Name "WindowsCV5" -Version 5.0
 
 ### <a name="supported-vm-configuration-versions-for-semi-annual-channel-hosts"></a>Поддерживаемые версии конфигурации виртуальных машин для полугодовых узлов канала
 
-В следующей таблице перечислены версии конфигурации виртуальных машин, на которых выполняется Текущая поддерживаемая версия Windows на основе полугодового канала. Чтобы получить дополнительные сведения о одноежегодных версиях Windows, посетите следующие страницы для [Windows Server](../../../get-started-19/servicing-channels-19.md) и [Windows 10](https://docs.microsoft.com/windows/deployment/update/waas-overview#servicing-channels) .
+В следующей таблице перечислены версии конфигурации виртуальных машин, на которых выполняется Текущая поддерживаемая версия Windows на основе полугодового канала. Чтобы получить дополнительные сведения о одноежегодных версиях Windows, посетите следующие страницы для [Windows Server](../../../get-started-19/servicing-channels-19.md) и [Windows 10](/windows/deployment/update/waas-overview#servicing-channels) .
 
 | Версия Windows для узла Hyper-V | 9.1 | 9.0 | 8.3 | 8.2 | 8.1 | 8.0 | 7.1 | 7.0 | 6.2 | 5.0 |
 | --- |---|---|---|---|---|---|---|---|---|---|
@@ -116,7 +116,7 @@ New-VM -Name "WindowsCV5" -Version 5.0
 
 При наличии виртуальных машин, созданных с помощью более ранней версии Hyper-V, некоторые функции, доступные в более новой ОС узла, могут не работать с этими виртуальными машинами до тех пор, пока не будет обновлена версия конфигурации.
 
-В качестве общего руководства рекомендуется обновлять версию конфигурации после успешного обновления узлов виртуализации до более новой версии Windows и уверенности в том, что откат не требуется. При использовании функции [последовательного обновления ОС кластера](https://docs.microsoft.com/windows-server/failover-clustering/Cluster-Operating-System-Rolling-Upgrade) это обычно происходит после обновления функционального уровня кластера. Таким образом вы получите преимущества от новых функций, а также внутренних изменений и оптимизаций.
+В качестве общего руководства рекомендуется обновлять версию конфигурации после успешного обновления узлов виртуализации до более новой версии Windows и уверенности в том, что откат не требуется. При использовании функции [последовательного обновления ОС кластера](../../../failover-clustering/cluster-operating-system-rolling-upgrade.md) это обычно происходит после обновления функционального уровня кластера. Таким образом вы получите преимущества от новых функций, а также внутренних изменений и оптимизаций.
 
 >[!NOTE]
 >После обновления версии конфигурации ВИРТУАЛЬНОЙ машины виртуальная машина не сможет запуститься на узлах, которые не поддерживают обновленную версию конфигурации.
@@ -140,8 +140,7 @@ New-VM -Name "WindowsCV5" -Version 5.0
 |Виртуальные машины с большими объемами памяти|8.0|
 |Увеличьте максимальное значение по умолчанию для виртуальных устройств, равное 64 на устройство (например, сети и назначенные устройства).|8.3|
 |Разрешить дополнительные функции процессора для PerfMon|9.0|
-|Автоматически предоставлять [одновременную многопотоковую](https://docs.microsoft.com/windows-server/virtualization/hyper-v/manage/manage-hyper-v-scheduler-types#background) настройку для виртуальных машин, работающих на узлах, с помощью [базового планировщика](https://docs.microsoft.com/windows-server/virtualization/hyper-v/manage/manage-hyper-v-scheduler-types#windows-server-2019-hyper-v-defaults-to-using-the-core-scheduler)|9.0|
+|Автоматически предоставлять [одновременную многопотоковую](../manage/manage-hyper-v-scheduler-types.md#background) настройку для виртуальных машин, работающих на узлах, с помощью [базового планировщика](../manage/manage-hyper-v-scheduler-types.md#windows-server-2019-hyper-v-defaults-to-using-the-core-scheduler)|9.0|
 |Поддержка спящего режима|9.0|
 
 Дополнительные сведения об этих возможностях см. [в статье новые возможности Hyper-V в Windows Server](../What-s-new-in-Hyper-V-on-Windows.md).
-

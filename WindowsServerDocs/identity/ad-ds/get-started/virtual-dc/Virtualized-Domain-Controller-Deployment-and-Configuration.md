@@ -6,14 +6,12 @@ ms.author: joflore
 manager: mtillman
 ms.date: 05/31/2017
 ms.topic: article
-ms.prod: windows-server
-ms.technology: identity-adds
-ms.openlocfilehash: 653df4bc517dccad5ecee6eb243d8a236648c7fd
-ms.sourcegitcommit: 3632b72f63fe4e70eea6c2e97f17d54cb49566fd
+ms.openlocfilehash: 6804df686635e441c667ab395ca486d3791a2aa5
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87519061"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87959412"
 ---
 # <a name="virtualized-domain-controller-deployment-and-configuration"></a>Развертывание и настройка виртуализированного контроллера домена
 
@@ -543,7 +541,7 @@ copy-item <xml file path><destination path>\dccloneconfig.xml
 dismount-vhd <disk path>
 ```
 
-Пример:
+Например:
 
 ![Развертывание виртуализированного контроллера домена](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_PSMountVHD.png)
 
@@ -637,7 +635,7 @@ Get-VMSnapshot
 Remove-VMSnapshot
 ```
 
-Пример:
+Например:
 
 ![Развертывание виртуализированного контроллера домена](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_PSGetVMSnap.png)
 
@@ -660,7 +658,7 @@ Remove-VMSnapshot
 Start-VM
 ```
 
-Пример:
+Например:
 
 ![Развертывание виртуализированного контроллера домена](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_PSStartVM.png)
 
@@ -680,7 +678,7 @@ Start-VM
 
 Если вы осуществляете миграцию виртуальных машин с исходной низкоуровневой оболочки в другую целевую низкоуровневую оболочку, меры безопасности виртуализации могут либо активироваться, либо нет — это зависит от того, поддерживает ли низкоуровневая оболочка ИД создания виртуальной машины, как указано в следующей таблице.
 
-|Исходная низкоуровневая оболочка|Целевая низкоуровневая оболочка|Возвращаемый результат|
+|Исходная низкоуровневая оболочка|Целевая низкоуровневая оболочка|Результат|
 |---------------------|---------------------|----------|
 |Поддерживает ИД создания виртуальной машины|Не поддерживает ИД создания виртуальной машины|Меры безопасности не активируются (если имеется файл DCCloneConfigFile.xml, контроллер домена загружается в режиме восстановления служб каталогов)|
 |Не поддерживает ИД создания виртуальной машины|Поддерживает ИД создания виртуальной машины|Меры безопасности активируются|

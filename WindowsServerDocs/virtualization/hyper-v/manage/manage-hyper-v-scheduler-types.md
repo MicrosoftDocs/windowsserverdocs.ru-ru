@@ -7,12 +7,12 @@ ms.date: 08/14/2018
 ms.topic: article
 ms.localizationpriority: low
 ms.assetid: 6cb13f84-cb50-4e60-a685-54f67c9146be
-ms.openlocfilehash: 954efafe3185cadb347384c3c93a2eb8ef895143
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: a1f53dba659af7d5ac0efff2e72bd168523bde0c
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87963560"
+ms.locfileid: "87995624"
 ---
 # <a name="managing-hyper-v-hypervisor-scheduler-types"></a>Управление типами планировщика низкоуровневой оболочки Hyper-V
 
@@ -40,7 +40,7 @@ ms.locfileid: "87963560"
 
 ## <a name="understanding-how-hyper-v-virtualizes-processors"></a>Основные сведения о виртуализации процессоров Hyper-V
 
-Перед рассмотрением типов планировщиков гипервизора также полезно понимать архитектуру Hyper-V. Общую сводку можно найти в [обзоре технологии Hyper-V](https://docs.microsoft.com/windows-server/virtualization/hyper-v/hyper-v-technology-overview). Ниже приведены важные понятия, связанные с этой статьей.
+Перед рассмотрением типов планировщиков гипервизора также полезно понимать архитектуру Hyper-V. Общую сводку можно найти в [обзоре технологии Hyper-V](../hyper-v-technology-overview.md). Ниже приведены важные понятия, связанные с этой статьей.
 
 * Hyper-V создает и управляет секциями виртуальных машин, в рамках которых ресурсы вычислений распределяются и совместно используются, под контролем гипервизора. Секции обеспечивают строгие границы изоляции между всеми гостевыми виртуальными машинами, а также между гостевыми и корневыми машинами.
 

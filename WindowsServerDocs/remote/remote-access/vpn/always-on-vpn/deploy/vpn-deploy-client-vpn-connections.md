@@ -1,8 +1,6 @@
 ---
 title: Настройка подключений постоянно подключенного VPN-профиля клиента Windows 10
 description: На этом шаге вы узнаете о параметрах и схеме Профилексмл, а также о настройке клиентских компьютеров Windows 10 для связи с этой инфраструктурой с помощью VPN-подключения.
-ms.prod: windows-server
-ms.technology: networking-ras
 ms.topic: article
 ms.date: 05/29/2018
 ms.assetid: d165822d-b65c-40a2-b440-af495ad22f42
@@ -10,12 +8,12 @@ ms.localizationpriority: medium
 ms.author: v-tea
 author: Teresa-MOTIV
 ms.reviewer: deverette
-ms.openlocfilehash: fc8b2646019292576abb638c7abdba1882eeedaa
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: c1f97ae4ec0ef39db2f0924bf2b6c3884f6ea1a9
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86965446"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87946757"
 ---
 # <a name="step-6-configure-windows-10-client-always-on-vpn-connections"></a>Шаг 6. Настройка клиента Windows 10 Always On VPN-подключений
 
@@ -174,12 +172,12 @@ VPN-клиент Always On можно настроить с помощью Power
 
 13. Щелкните **Свойства** , чтобы открыть диалоговое окно Свойства защищенного EAP, и выполните следующие действия.
 
-    А. В поле **Подключение к этим серверам** введите имя сервера политики сети, полученное из параметров проверки подлинности сервера NPS, ранее в этом разделе (например, NPS01).
+    а. В поле **Подключение к этим серверам** введите имя сервера политики сети, полученное из параметров проверки подлинности сервера NPS, ранее в этом разделе (например, NPS01).
 
     >[!NOTE]
     >Введенное имя сервера должно совпадать с именем в сертификате. Это имя было восстановлено ранее в этом разделе. Если имя не совпадает, произойдет сбой подключения, в котором говорится, что "подключение было запрещено из-за политики, настроенной на сервере RAS/VPN".
 
-    Б.  В разделе Доверенные корневые центры сертификации выберите корневой ЦС, выдавший сертификат сервера политики сети (например, Contoso-CA).
+    b.  В разделе Доверенные корневые центры сертификации выберите корневой ЦС, выдавший сертификат сервера политики сети (например, Contoso-CA).
 
     c.  В окне уведомления перед подключением щелкните **не спрашивать пользователя, чтобы авторизовать новые серверы или доверенные ЦС**.
 
@@ -452,9 +450,9 @@ Write-Host "$Message"
 
 ## <a name="makeprofileps1-full-script"></a>MakeProfile.ps1 полный скрипт
 
-В большинстве примеров для вставки Профилексмл в новый экземпляр класса MDM_VPNv2_01 WMI используется командлет Windows PowerShell Set-WmiInstance. 
+В большинстве примеров для вставки Профилексмл в новый экземпляр класса MDM_VPNv2_01 WMI используется командлет Windows PowerShell Set-WmiInstance.
 
-Однако это не работает в Configuration Manager, так как пакет нельзя запустить в контексте конечных пользователей. Таким образом, этот скрипт использует модель CIM для создания сеанса WMI в контексте пользователя, а затем создает в этом сеансе новый экземпляр класса WMI MDM_VPNv2_01. Этот класс WMI использует мост WMI-CSP для настройки CSP поддержка vpnv2. Поэтому, добавив экземпляр класса, вы настроите CSP. 
+Однако это не работает в Configuration Manager, так как пакет нельзя запустить в контексте конечных пользователей. Таким образом, этот скрипт использует модель CIM для создания сеанса WMI в контексте пользователя, а затем создает в этом сеансе новый экземпляр класса WMI MDM_VPNv2_01. Этот класс WMI использует мост WMI-CSP для настройки CSP поддержка vpnv2. Поэтому, добавив экземпляр класса, вы настроите CSP.
 
 >[!IMPORTANT]
 >Для моста WMI в CSP требуются права локального администратора. Для развертывания профилей VPN каждого пользователя следует использовать Configuration Manager или MDM.
@@ -463,7 +461,7 @@ Write-Host "$Message"
 >VPN_Profile.ps1 скриптов использует идентификатор безопасности текущего пользователя для обнаружения контекста пользователя. Так как в удаленный рабочий стол сеансе нет доступных идентификаторов безопасности, сценарий не работает в сеансе удаленный рабочий стол. Аналогично, он не работает в расширенном сеансе Hyper-V. Если вы тестируете удаленный доступ Always On VPN в виртуальных машинах, отключите расширенный сеанс на клиентских виртуальных машинах перед выполнением этого скрипта.
 
 Следующий пример скрипта включает все примеры кода из предыдущих разделов. Убедитесь, что в примерах значений указаны значения, соответствующие вашей среде.
-    
+
    ```makeProfile.ps1
     $TemplateName = 'Template'
     $ProfileName = 'Contoso AlwaysOn VPN'
@@ -473,7 +471,7 @@ Write-Host "$Message"
     $DNSServers = '10.10.0.2,10.10.0.3'
     $TrustedNetwork = 'corp.contoso.com'
 
-    
+
     $Connection = Get-VpnConnection -Name $TemplateName
     if(!$Connection)
     {
@@ -482,7 +480,7 @@ Write-Host "$Message"
     exit
     }
     $EAPSettings= $Connection.EapConfigXmlStream.InnerXml
-    
+
     $ProfileXML = @("
     <VPNProfile>
       <DnsSuffix>$DnsSuffix</DnsSuffix>
@@ -508,23 +506,23 @@ Write-Host "$Message"
     </DomainNameInformation>
     </VPNProfile>
     ")
-    
+
     $ProfileXML | Out-File -FilePath ($env:USERPROFILE + '\desktop\VPN_Profile.xml')
-    
+
      $Script = @("
       `$ProfileName = '$ProfileName'
       `$ProfileNameEscaped = `$ProfileName -replace ' ', '%20'
- 
+
       `$ProfileXML = '$ProfileXML'
- 
+
       `$ProfileXML = `$ProfileXML -replace '<', '&lt;'
       `$ProfileXML = `$ProfileXML -replace '>', '&gt;'
       `$ProfileXML = `$ProfileXML -replace '`"', '&quot;'
- 
+
       `$nodeCSPURI = `"./Vendor/MSFT/VPNv2`"
       `$namespaceName = `"root\cimv2\mdm\dmmap`"
       `$className = `"MDM_VPNv2_01`"
- 
+
       try
       {
       `$username = Gwmi -Class Win32_ComputerSystem | select username
@@ -540,12 +538,12 @@ Write-Host "$Message"
       Write-Host `"`$Message`"
       exit
       }
- 
+
       `$session = New-CimSession
       `$options = New-Object Microsoft.Management.Infrastructure.Options.CimOperationOptions
       `$options.SetCustomOption(`"PolicyPlatformContext_PrincipalContext_Type`", `"PolicyPlatform_UserContext`", `$false)
       `$options.SetCustomOption(`"PolicyPlatformContext_PrincipalContext_Id`", `"`$SidValue`", `$false)
- 
+
       try
       {
      `$deleteInstances = `$session.EnumerateInstances(`$namespaceName, `$className, `$options)
@@ -569,7 +567,7 @@ Write-Host "$Message"
      Write-Host `"`$Message`"
      exit
       }
- 
+
       try
       {
      `$newInstance = New-Object Microsoft.Management.Infrastructure.CimInstance `$className, `$namespaceName
@@ -590,13 +588,13 @@ Write-Host "$Message"
      Write-Host `"`$Message`"
      exit
       }
- 
+
       `$Message = `"Script Complete`"
       Write-Host `"`$Message`"
       ")
- 
+
       $Script | Out-File -FilePath ($env:USERPROFILE + '\desktop\VPN_Profile.ps1')
-    
+
     $Message = "Successfully created VPN_Profile.xml and VPN_Profile.ps1 on the desktop."
     Write-Host "$Message"
    ```
@@ -706,17 +704,17 @@ PSComputerName  : WIN01
 
 3.  На странице Общие выполните следующие действия.
 
-    А. В списке **имя**введите **VPN-пользователи**.
+    а. В списке **имя**введите **VPN-пользователи**.
 
-    Б. Нажмите кнопку **Обзор**, выберите **все пользователи** и нажмите кнопку **ОК**.
+    b. Нажмите кнопку **Обзор**, выберите **все пользователи** и нажмите кнопку **ОК**.
 
     c. Щелкните **Далее**.
 
 4.  На странице правила членства выполните следующие действия.
 
-    А.  В **правилах членства**нажмите кнопку **Добавить правило**и выберите пункт **прямое правило**. В этом примере вы добавляете отдельных пользователей в коллекцию пользователей. Однако вы можете использовать правило запроса для динамического добавления пользователей в эту коллекцию для крупномасштабного развертывания.
+    а.  В **правилах членства**нажмите кнопку **Добавить правило**и выберите пункт **прямое правило**. В этом примере вы добавляете отдельных пользователей в коллекцию пользователей. Однако вы можете использовать правило запроса для динамического добавления пользователей в эту коллекцию для крупномасштабного развертывания.
 
-    Б.  На странице **приветствия** нажмите кнопку **Далее**.
+    b.  На странице **приветствия** нажмите кнопку **Далее**.
 
     c.  На странице Поиск ресурсов в поле **значение**введите имя пользователя, которого нужно добавить. Имя ресурса включает домен пользователя. Чтобы включить результаты на основе частичного совпадения, вставьте **%** символ в конце условия поиска. Например, чтобы найти всех пользователей, содержащих строку "Лори", введите **% Лори%**. Щелкните **Далее**.
 
@@ -744,9 +742,9 @@ PSComputerName  : WIN01
 
 4.  На странице пакет выполните следующие действия.
 
-    А. В списке **имя**введите **Windows 10 Always on профиль VPN**.
+    а. В списке **имя**введите **Windows 10 Always on профиль VPN**.
 
-    Б. Установите флажок **Этот пакет содержит исходные файлы** и нажмите кнопку **Обзор**.
+    b. Установите флажок **Этот пакет содержит исходные файлы** и нажмите кнопку **Обзор**.
 
     c. В диалоговом окне задать исходную папку нажмите кнопку **Обзор**, выберите общую папку, содержащую VPN_Profile.ps1, и нажмите кнопку **ОК**.
         Убедитесь, что выбран сетевой путь, а не локальный путь. Иными словами, путь должен быть примерно таким, как * \\ файлового сервера \\ впнскрипт*, а не *c: \\ впнскрипт*.
@@ -757,9 +755,9 @@ PSComputerName  : WIN01
 
 3.  На странице Стандартная программа выполните следующие действия.
 
-    А.  В списке **имя**введите **сценарий профиля VPN**.
+    а.  В списке **имя**введите **сценарий профиля VPN**.
 
-    Б.  В **командной строке**введите **PowerShell.exe-ExecutionPolicy обход-файл "VPN_Profile.ps1"**.
+    b.  В **командной строке**введите **PowerShell.exe-ExecutionPolicy обход-файл "VPN_Profile.ps1"**.
 
     c.  В **режиме выполнения**щелкните **Запуск с правами администратора**.
 
@@ -767,9 +765,9 @@ PSComputerName  : WIN01
 
 4.  На странице требования выполните следующие действия.
 
-    А.  Выберите **Эта программа может запускаться только на указанных платформах**.
+    а.  Выберите **Эта программа может запускаться только на указанных платформах**.
 
-    Б.  Установите флажки **все Windows 10 (32-bit)** и **все windows 10 (64-bit)** .
+    b.  Установите флажки **все Windows 10 (32-bit)** и **все windows 10 (64-bit)** .
 
     c.  В поле " **предполагаемое место на диске**" введите **1**.
 
@@ -791,17 +789,17 @@ PSComputerName  : WIN01
 
 3.  На вкладке **программы** в нижней части области сведений щелкните правой кнопкой мыши элемент **Скрипт профиля VPN**, выберите пункт **Свойства**и выполните следующие действия.
 
-    А.  На вкладке **Дополнительно** в поле **когда эта программа назначена компьютеру**выберите **один раз для каждого пользователя, который входит**в систему.
+    а.  На вкладке **Дополнительно** в поле **когда эта программа назначена компьютеру**выберите **один раз для каждого пользователя, который входит**в систему.
 
-    Б.  Нажмите кнопку **ОК**.
+    b.  Нажмите кнопку **ОК**.
 
 4.  Щелкните правой кнопкой мыши **сценарий профиля VPN** и выберите **развернуть** , чтобы запустить мастер развертывания программного обеспечения.
 
 5.  На странице Общие выполните следующие действия.
 
-    А.  Рядом с элементом **коллекция**нажмите кнопку **Обзор**.
+    а.  Рядом с элементом **коллекция**нажмите кнопку **Обзор**.
 
-    Б.  В списке **типы коллекций** (вверху слева) щелкните **коллекции пользователей**.
+    b.  В списке **типы коллекций** (вверху слева) щелкните **коллекции пользователей**.
 
     c.  Щелкните **VPN-пользователи**и нажмите кнопку **ОК**.
 
@@ -809,9 +807,9 @@ PSComputerName  : WIN01
 
 6.  На странице содержимое выполните следующие действия.
 
-    А.  Нажмите кнопку **Добавить**и выберите **пункт точка распространения**.
+    а.  Нажмите кнопку **Добавить**и выберите **пункт точка распространения**.
 
-    Б.  В списке **Доступные точки распространения**выберите точки распространения, для которых требуется распространить скрипт конфигурации профилексмл, и нажмите кнопку **ОК**.
+    b.  В списке **Доступные точки распространения**выберите точки распространения, для которых требуется распространить скрипт конфигурации профилексмл, и нажмите кнопку **ОК**.
 
     c.  Щелкните **Далее**.
 
@@ -819,9 +817,9 @@ PSComputerName  : WIN01
 
 8.  На странице Расписание выполните следующие действия.
 
-    А.  Нажмите кнопку **создать** , чтобы открыть диалоговое окно Расписание назначений.
+    а.  Нажмите кнопку **создать** , чтобы открыть диалоговое окно Расписание назначений.
 
-    Б.  Щелкните **назначить немедленно после этого события**и нажмите кнопку **ОК**.
+    b.  Щелкните **назначить немедленно после этого события**и нажмите кнопку **ОК**.
 
     c.  Щелкните **Далее**.
 
@@ -842,13 +840,13 @@ PSComputerName  : WIN01
 
 ### <a name="verify-the-configuration-of-the-vpn-client"></a>Проверка конфигурации VPN-клиента
 
-1.  На панели управления в разделе ** \\ безопасность системы**щелкните **Configuration Manager**. 
+1.  На панели управления в разделе ** \\ безопасность системы**щелкните **Configuration Manager**.
 
 2.  В диалоговом окне Свойства Configuration Manager на вкладке **действия** выполните следующие действия.
 
-    А.  Щелкните **цикл оценки & получения политики компьютера**, щелкните **Запустить сейчас**и нажмите кнопку **ОК**.
+    а.  Щелкните **цикл оценки & получения политики компьютера**, щелкните **Запустить сейчас**и нажмите кнопку **ОК**.
 
-    Б.  Щелкните **цикл оценки & получения политики пользователя**, щелкните **Запустить сейчас**и нажмите кнопку **ОК**.
+    b.  Щелкните **цикл оценки & получения политики пользователя**, щелкните **Запустить сейчас**и нажмите кнопку **ОК**.
 
     c.  Нажмите кнопку **ОК**.
 
@@ -867,7 +865,7 @@ PSComputerName  : WIN01
 
 ### <a name="create-the-always-on-vpn-configuration-policy"></a>Создание Always On политики конфигурации VPN
 
-1.    Войдите на [портал Microsoft Azure](https://portal.azure.com/).
+1.    Войдите на [портал Azure](https://portal.azure.com/).
 
 2.    Перейдите к **Intune**разделу  >  **профили конфигурации устройств**Intune  >  **Profiles**.
 
@@ -882,35 +880,35 @@ PSComputerName  : WIN01
 
 2. На вкладке **Базовая VPN** проверьте или задайте следующие параметры.
 
-    - **Имя подключения:** Введите имя VPN-подключения, которое отображается на клиентском компьютере на вкладке **VPN** в разделе **Параметры**, например _contoso аутовпн_.  
-    
+    - **Имя подключения:** Введите имя VPN-подключения, которое отображается на клиентском компьютере на вкладке **VPN** в разделе **Параметры**, например _contoso аутовпн_.
+
     - **Серверы:** Добавьте один или несколько VPN-серверов, нажав кнопку **Добавить.**
-    
-    - **Описание** и **IP-адрес или полное доменное имя:** введите описание и IP-адрес или полное доменное имя VPN-сервера. Эти значения должны быть согласованы с именем субъекта в сертификате проверки подлинности VPN-сервера. 
-    
-    - **Сервер по умолчанию:** Если это VPN-сервер по умолчанию, установите значение **true**. Это позволит использовать этот сервер в качестве сервера по умолчанию, используемого устройствами для установления соединения. 
-    
-    - **Тип подключения:** Задайте для параметра значение **IKEv2**.  
-    
+
+    - **Описание** и **IP-адрес или полное доменное имя:** введите описание и IP-адрес или полное доменное имя VPN-сервера. Эти значения должны быть согласованы с именем субъекта в сертификате проверки подлинности VPN-сервера.
+
+    - **Сервер по умолчанию:** Если это VPN-сервер по умолчанию, установите значение **true**. Это позволит использовать этот сервер в качестве сервера по умолчанию, используемого устройствами для установления соединения.
+
+    - **Тип подключения:** Задайте для параметра значение **IKEv2**.
+
     - **Always On:** Задайте для параметра **Разрешить** автоматическое подключение к VPN при входе и подключение до тех пор, пока пользователь не отключится вручную.
-    
+
     - **Запоминать учетные данные при каждом входе в систему**: логическое значение (true или false) для кэширования учетных данных. Если задано значение true, учетные данные кэшируются везде, где это возможно.
 
 3.  Скопируйте следующую XML-строку в текстовый редактор:
- 
+
     [!INCLUDE [important-lower-case-true-include](../../../includes/important-lower-case-true-include.md)]
-    
-    
+
+
     ```XML
     <EapHostConfig xmlns="https://www.microsoft.com/provisioning/EapHostConfig"><EapMethod><Type xmlns="https://www.microsoft.com/provisioning/EapCommon">25</Type><VendorId xmlns="https://www.microsoft.com/provisioning/EapCommon">0</VendorId><VendorType xmlns="https://www.microsoft.com/provisioning/EapCommon">0</VendorType><AuthorId xmlns="https://www.microsoft.com/provisioning/EapCommon">0</AuthorId></EapMethod><Config xmlns="https://www.microsoft.com/provisioning/EapHostConfig"><Eap xmlns="https://www.microsoft.com/provisioning/BaseEapConnectionPropertiesV1"><Type>25</Type><EapType xmlns="https://www.microsoft.com/provisioning/MsPeapConnectionPropertiesV1"><ServerValidation><DisableUserPromptForServerValidation>true</DisableUserPromptForServerValidation><ServerNames>NPS.contoso.com</ServerNames><TrustedRootCA>5a 89 fe cb 5b 49 a7 0b 1a 52 63 b7 35 ee d7 1c c2 68 be 4b </TrustedRootCA></ServerValidation><FastReconnect>true</FastReconnect><InnerEapOptional>false</InnerEapOptional><Eap xmlns="https://www.microsoft.com/provisioning/BaseEapConnectionPropertiesV1"><Type>13</Type><EapType xmlns="https://www.microsoft.com/provisioning/EapTlsConnectionPropertiesV1"><CredentialsSource><CertificateStore><SimpleCertSelection>true</SimpleCertSelection></CertificateStore></CredentialsSource><ServerValidation><DisableUserPromptForServerValidation>true</DisableUserPromptForServerValidation><ServerNames>NPS.contoso.com</ServerNames><TrustedRootCA>5a 89 fe cb 5b 49 a7 0b 1a 52 63 b7 35 ee d7 1c c2 68 be 4b </TrustedRootCA></ServerValidation><DifferentUsername>false</DifferentUsername><PerformServerValidation xmlns="https://www.microsoft.com/provisioning/EapTlsConnectionPropertiesV2">true</PerformServerValidation><AcceptServerName xmlns="https://www.microsoft.com/provisioning/EapTlsConnectionPropertiesV2">true</AcceptServerName></EapType></Eap><EnableQuarantineChecks>false</EnableQuarantineChecks><RequireCryptoBinding>false</RequireCryptoBinding><PeapExtensions><PerformServerValidation xmlns="https://www.microsoft.com/provisioning/MsPeapConnectionPropertiesV2">true</PerformServerValidation><AcceptServerName xmlns="https://www.microsoft.com/provisioning/MsPeapConnectionPropertiesV2">true</AcceptServerName></PeapExtensions></EapType></Eap></Config></EapHostConfig>
     ```
 
 4.  Замените ** \<TrustedRootCA> 5A 89 Fe cb 5b 49 A7 0b 1A 52 63 B7 35 ee D7 1c C2 68 4b<\/ трустедрутка>** в примере на отпечаток сертификата локального корневого центра сертификации в обоих местах.
-  
+
     >[!Important]
     >Не используйте образец отпечатка в \<TrustedRootCA> \</TrustedRootCA> разделе ниже.  Трустедрутка должен быть отпечаткой сертификата локального корневого центра сертификации, который выдал сертификат проверки подлинности сервера для серверов RRAS и NPS. **Это не должен быть корневой сертификат облака или отпечаток промежуточного сертификата ЦС**.
 
-5.  Замените ** \<ServerNames> NPS.contoso.com \</ServerNames> ** в образце XML полным доменным именем присоединенного к домену сервера политики сети, в котором выполняется проверка подлинности. 
+5.  Замените ** \<ServerNames> NPS.contoso.com \</ServerNames> ** в образце XML полным доменным именем присоединенного к домену сервера политики сети, в котором выполняется проверка подлинности.
 
 6.  Скопируйте измененную строку XML и вставьте ее в поле **EAP XML** (базовая VPN) и нажмите кнопку **ОК**.
     Политика конфигурации VPN-устройства Always On с использованием протокола EAP создается в Intune.
