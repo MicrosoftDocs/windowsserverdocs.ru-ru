@@ -7,12 +7,12 @@ ms.assetid: c4e2f6c7-0364-4bf8-bb66-9af59c0bbd74
 ms.author: anpaul
 author: AnirbanPaul
 ms.date: 08/22/2018
-ms.openlocfilehash: 3156b2ed40415226e094485fba224e7d95a12ca2
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 71152234b72a0557ca0d189896826d66c6ce0f49
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87947110"
+ms.locfileid: "87996521"
 ---
 # <a name="manage-certificates-for-software-defined-networking"></a>Управление сертификатами для программно определяемых сетей
 
@@ -56,7 +56,7 @@ SDN в Windows Server 2016 Datacenter поддерживает \- \( \) серт
 
 #### <a name="multiple-node"></a>Несколько узлов
 
-Для создания самозаверяющего сертификата можно использовать команду Windows PowerShell [New-SelfSignedCertificate](https://technet.microsoft.com/itpro/powershell/windows/pkiclient/new-selfsignedcertificate) \- .
+Для создания самозаверяющего сертификата можно использовать команду Windows PowerShell [New-SelfSignedCertificate](/powershell/module/pkiclient/new-selfsignedcertificate?view=win10-ps) \- .
 
 **Синтаксис**
 
@@ -72,7 +72,7 @@ New-SelfSignedCertificate -KeyUsageProperty All -Provider "Microsoft Strong Cryp
 
 #### <a name="single-node"></a>Один узел
 
-Для создания самозаверяющего сертификата можно использовать команду Windows PowerShell [New-SelfSignedCertificate](https://technet.microsoft.com/itpro/powershell/windows/pkiclient/new-selfsignedcertificate) \- .
+Для создания самозаверяющего сертификата можно использовать команду Windows PowerShell [New-SelfSignedCertificate](/powershell/module/pkiclient/new-selfsignedcertificate?view=win10-ps) \- .
 
 **Синтаксис**
 
