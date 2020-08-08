@@ -6,14 +6,12 @@ ms.author: joflore
 manager: mtillman
 ms.date: 05/31/2017
 ms.topic: article
-ms.prod: windows-server
-ms.technology: identity-adds
-ms.openlocfilehash: 273651b8be1352218feb76c50cfd39cf9580a8a3
-ms.sourcegitcommit: 3632b72f63fe4e70eea6c2e97f17d54cb49566fd
+ms.openlocfilehash: 0b83588268e6a6c8dd685082b3862520fcbd80d5
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87519551"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87968261"
 ---
 # <a name="install-a-new-windows-server-2012-active-directory-forest-level-200"></a>Установка нового леса Active Directory в Windows Server 2012 (уровень 200)
 
@@ -286,7 +284,7 @@ ms.locfileid: "87519551"
 
 Страница **Просмотреть параметры** позволяет проверить параметры перед установкой и убедиться, что они отвечают требованиям. Позднее установку также можно будет остановить с помощью диспетчера сервера. Эта страница позволяет подтвердить параметры перед продолжением настройки.
 
-На странице **Просмотреть параметры** диспетчера сервера расположена дополнительная кнопка **Просмотреть скрипт**, предназначенная для создания текстового файла в кодировке Юникод, содержащего текущую конфигурацию развертывания ADDSDeployment в виде единого скрипта Windows PowerShell. Это позволяет использовать графический интерфейс диспетчера сервера в качестве студии развертывания Windows PowerShell. С помощью мастера настройки доменных служб Active Directory необходимо настроить параметры, экспортировать конфигурацию и затем отменить мастер. Во время этого процесса создается допустимый и синтаксически верный образец для дальнейшего изменения или прямого использования. Пример:
+На странице **Просмотреть параметры** диспетчера сервера расположена дополнительная кнопка **Просмотреть скрипт**, предназначенная для создания текстового файла в кодировке Юникод, содержащего текущую конфигурацию развертывания ADDSDeployment в виде единого скрипта Windows PowerShell. Это позволяет использовать графический интерфейс диспетчера сервера в качестве студии развертывания Windows PowerShell. С помощью мастера настройки доменных служб Active Directory необходимо настроить параметры, экспортировать конфигурацию и затем отменить мастер. Во время этого процесса создается допустимый и синтаксически верный образец для дальнейшего изменения или прямого использования. Например:
 
 ```powershell
 #
@@ -365,7 +363,7 @@ Install-ADDSForest `
 Get-Command -module ServerManager
 ```
 
-Пример:
+Например:
 
 ![Установка нового леса](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_PSGetCommand.png)
 
@@ -381,7 +379,7 @@ Install-WindowsFeature -name AD-Domain-Services
 Install-WindowsFeature -name AD-Domain-Services -IncludeManagementTools
 ```
 
-Пример:
+Например:
 
 ![Установка нового леса](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_PSInstallWinFeature.png)
 
@@ -415,7 +413,7 @@ Get-WindowsFeature | where displayname -like "*active dir*"
 Get-WindowsFeature | where {$_.displayname - like "*active dir*"}
 ```
 
-С помощью конвейера Windows PowerShell можно получить удобные для восприятия результаты. Пример:
+С помощью конвейера Windows PowerShell можно получить удобные для восприятия результаты. Например:
 
 ```powershell
 Install-WindowsFeature | Format-List
@@ -493,7 +491,7 @@ Install-ADDSForest
 -safemodeadministratorpassword (convertto-securestring "Password1" -asplaintext -force)
 ```
 
-Наконец, можно сохранить скрытый пароль в файле, а затем использовать его повторно, никогда не отображая пароль в виде открытого текста. Пример:
+Наконец, можно сохранить скрытый пароль в файле, а затем использовать его повторно, никогда не отображая пароль в виде открытого текста. Например:
 
 ```powershell
 $file = "c:\pw.txt"
@@ -540,7 +538,7 @@ $pw | ConvertFrom-SecureString | Set-Content $file
 
 Для просмотра информации о конфигурации используйте необязательный аргумент **Whatif** с командлетом **Install-ADDSForest**. Это позволит просмотреть явные и неявные значения аргументов командлета.
 
-Пример:
+Например:
 
 ![Установка нового леса](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_PSPaths.png)
 

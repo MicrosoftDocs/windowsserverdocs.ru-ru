@@ -1,20 +1,18 @@
 ---
 title: Включение и отключение контрольных точек в Hyper-V
 description: Содержит инструкции по включению или отключению функции контрольных точек.
-ms.prod: windows-server
 manager: dongill
-ms.technology: compute-hyper-v
 ms.topic: article
 ms.assetid: 92e1d0d0-f2c1-4ba2-8510-c8eb091cf5d6
 author: kbdazure
 ms.author: kathydav
 ms.date: 10/04/2016
-ms.openlocfilehash: 77148346fb2e4964897b3b28643bf74a7295d062
-ms.sourcegitcommit: 771db070a3a924c8265944e21bf9bd85350dd93c
+ms.openlocfilehash: d8d88c0dfdd6d423efa5a3d9e43fbb804de9542d
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85473861"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87968111"
 ---
 # <a name="enable-or-disable-checkpoints-in-hyper-v"></a>Включение и отключение контрольных точек в Hyper-V
 
@@ -28,7 +26,7 @@ ms.locfileid: "85473861"
 
 3.  Чтобы разрешить создание контрольных точек этой виртуальной машины, установите флажок **включить контрольные точки** . Чтобы отключить контрольные точки, снимите флажок **включить контрольные точки** .
 
-4.  Выберите элемент **Применить**, чтобы применить внесенные изменения. После этого нажмите кнопку **ОК**, чтобы закрыть диалоговое окно.
+4.  Нажмите кнопку **Применить**, чтобы применить изменения. После этого нажмите кнопку **ОК**, чтобы закрыть диалоговое окно.
 
 ## <a name="additional-references"></a>Дополнительные ссылки
 

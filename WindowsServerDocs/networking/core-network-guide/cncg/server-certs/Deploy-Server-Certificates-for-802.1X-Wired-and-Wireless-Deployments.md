@@ -4,16 +4,14 @@ description: Эта статья является частью руководс�
 manager: brianlic
 ms.topic: article
 ms.assetid: 0a39ecae-39cc-4f26-bd6f-b71ed02fc4ad
-ms.prod: windows-server
-ms.technology: networking
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: c2de22bc7edd51c3469939920a2027ad4cbc2ee9
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.openlocfilehash: fd5c9ea9954053fd21f6ab46ff0b6d2f8da5245f
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87181780"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87995568"
 ---
 # <a name="deploy-server-certificates-for-8021x-wired-and-wireless-deployments"></a>Развертывание сертификатов сервера для проводных и беспроводных развертываний 802.1 X
 
@@ -91,4 +89,4 @@ ms.locfileid: "87181780"
 
 Роль веб-сервера (IIS) в Windows Server 2016 предоставляет безопасную, простую в управлении, модульную и расширяемую платформу для надежного размещения веб-сайтов, служб и приложений. Службы IIS позволяют обмениваться информацией с пользователями в Интернете, в интрасети или в экстрасети. IIS — это единая веб-платформа, которая интегрирует IIS, ASP.NET, FTP-службы, PHP и Windows Communication Foundation (WCF).
 
-Дополнительные сведения см. в разделе [Обзор веб-сервера (IIS)](https://technet.microsoft.com/library/hh831725.aspx).
+Дополнительные сведения см. в разделе [Обзор веб-сервера (IIS)](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831725(v=ws.11)).

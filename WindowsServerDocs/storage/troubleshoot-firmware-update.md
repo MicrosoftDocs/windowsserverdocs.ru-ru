@@ -1,19 +1,17 @@
 ---
 ms.assetid: 13210461-1e92-48a1-91a2-c251957ba256
 title: Устранение неполадок обновлений встроенного ПО диска
-ms.prod: windows-server
 ms.author: toklima
 manager: masriniv
-ms.technology: storage
 ms.topic: article
 author: toklima
 ms.date: 04/18/2017
-ms.openlocfilehash: b62fdfe64ea579f61239dc582c639fb10ec1371c
-ms.sourcegitcommit: b00d7c8968c4adc8f699dbee694afe6ed36bc9de
+ms.openlocfilehash: b63df280585c4e1d5de88bc8a2ab08cce74c06d7
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "80820887"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87946227"
 ---
 # <a name="troubleshooting-drive-firmware-updates"></a>Устранение неполадок обновлений встроенного ПО диска
 
@@ -23,8 +21,8 @@ ms.locfileid: "80820887"
 
 Дополнительные сведения об этом компоненте можно найти здесь:
 
-- [Обновление встроенного по диска в Windows Server 2016](update-firmware.md)
-- [Обновление встроенного по диска без простоя в Локальные дисковые пространства](https://channel9.msdn.com/Blogs/windowsserver/Update-Drive-Firmware-Without-Downtime-in-Storage-Spaces-Direct)
+- [Обновление встроенного ПО дисков в Windows Server 2016](update-firmware.md)
+- [Обновление встроенного ПО диска без простоя в дисковых пространствах прямого подключения](https://channel9.msdn.com/Blogs/windowsserver/Update-Drive-Firmware-Without-Downtime-in-Storage-Spaces-Direct)
 
 Обновление встроенного ПО может завершиться с ошибкой по различным причинам. Эта статья предназначена помочь при выполнении расширенных действий по устранению неполадок.
 
@@ -41,7 +39,7 @@ ms.locfileid: "80820887"
 В следующих разделах описываются сведения об устранении неполадок, связанных с использованием драйверов Microsoft или сторонних драйверов.
 
 ## <a name="identifying-inappropriate-hardware"></a>Определение недопустимого оборудования
-Самый быстрый способ определить, поддерживает ли устройство правильный набор команд, — просто запустить PowerShell и передать объект PhysicalDisk, представляющий диск, в командлет Get-StorageFirmwareInfo. Пример.
+Самый быстрый способ определить, поддерживает ли устройство правильный набор команд, — просто запустить PowerShell и передать объект PhysicalDisk, представляющий диск, в командлет Get-StorageFirmwareInfo. Например:
 
 ```powershell
 Get-PhysicalDisk -SerialNumber 15140F55976D | Get-StorageFirmwareInformation
@@ -81,7 +79,7 @@ FirmwareVersionInSlot : {0013}
 ```powershell
 Get-PhysicalDisk -SerialNumber 44GS103UT5EW | Update-StorageFirmware -ImagePath C:\Firmware\J3E160@3.enc -SlotNumber 0
 ```
-Ниже приведен пример выходных данных.
+Ниже приведен пример выхода.
 
 ```
 Update-StorageFirmware : Failed
@@ -97,14 +95,14 @@ At line:1 char:47
 + CategoryInfo          : NotSpecified: (:) [Update-StorageFirmware], CimException
 + FullyQualifiedErrorId : StorageWMI 4,Microsoft.Management.Infrastructure.CimCmdlets.InvokeCimMethodCommand,Update-StorageFirmware
 ```
-    
+
 PowerShell вызовет ошибку и получит информацию о том, что вызванная функция (то есть Kernel API) является неправильной. Это может означать, что API не реализован драйвером мини-порта стороннего устройства SAS (значение true в этом случае) или сбой API произошел по другой причине, например из-за рассогласования сегментов скачивания.
 
 ```
 EventData
 DeviceGUID  {132EDB55-6BAC-A3A0-C2D5-203C7551D700}
 DeviceNumber    1
-Vendor  ATA 
+Vendor  ATA
 Model   TOSHIBA THNSNJ12
 FirmwareVersion 6101
 SerialNumber    44GS103UT5EW
@@ -144,7 +142,7 @@ NumberOfRetriesDone 0
 
 Вот пример обновления встроенного ПО на неисправном устройстве SATA из-за недопустимого образа для скачивания (код события: 258):
 
-``` 
+```
 EventData
 MiniportName    storahci
 MiniportEventId 19

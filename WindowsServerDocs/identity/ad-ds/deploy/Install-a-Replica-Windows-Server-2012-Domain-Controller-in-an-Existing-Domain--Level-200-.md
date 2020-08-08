@@ -6,14 +6,12 @@ ms.author: joflore
 manager: mtillman
 ms.date: 05/31/2017
 ms.topic: article
-ms.prod: windows-server
-ms.technology: identity-adds
-ms.openlocfilehash: bc573ac40c235eb421618bac5a89472cfe61d029
-ms.sourcegitcommit: 3632b72f63fe4e70eea6c2e97f17d54cb49566fd
+ms.openlocfilehash: 76bda25100766524fde490c0afc4b92b9d9fb7b7
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87519531"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87968041"
 ---
 # <a name="install-a-replica-windows-server-2012-domain-controller-in-an-existing-domain-level-200"></a>Установка реплики контроллера домена Windows Server 2012 в существующем домене (уровень 200)
 
@@ -120,7 +118,7 @@ Install-AddsDomainController
 
 ```
 
-Наконец, можно сохранить скрытый пароль в файле, а затем использовать его повторно, никогда не отображая пароль в виде открытого текста. Пример:
+Наконец, можно сохранить скрытый пароль в файле, а затем использовать его повторно, никогда не отображая пароль в виде открытого текста. Например:
 
 ```
 $file = "c:\pw.txt"
@@ -219,7 +217,7 @@ $pw | ConvertFrom-SecureString | Set-Content $file
 
 На странице **Просмотреть параметры** диспетчера сервера расположена дополнительная кнопка **Просмотреть скрипт**, предназначенная для создания текстового файла в кодировке Юникод, содержащего текущую конфигурацию развертывания ADDSDeployment в виде единого скрипта Windows PowerShell. Это позволяет использовать графический интерфейс диспетчера сервера в качестве студии развертывания Windows PowerShell. С помощью мастера настройки доменных служб Active Directory необходимо настроить параметры, экспортировать конфигурацию и затем отменить мастер.  Во время этого процесса создается допустимый и синтаксически верный образец для дальнейшего изменения или прямого использования.
 
-Пример:
+Например:
 
 ```
 #
@@ -310,7 +308,7 @@ Install-addsdomaincontroller
 invoke-command {install-addsdomaincontroller "domainname <domain> -credential (get-credential)} -computername <dc name>
 ```
 
-Пример:
+Например:
 
 ![Установка реплики](media/Install-a-Replica-Windows-Server-2012-Domain-Controller-in-an-Existing-Domain--Level-200-/ADDS_PSUpgradeExample.gif)
 

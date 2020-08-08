@@ -6,12 +6,12 @@ manager: dongill
 author: rpsqrd
 ms.author: ryanpu
 ms.date: 04/01/2019
-ms.openlocfilehash: a0bc065f9654091ece18445488e4b46cfb197ad3
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: dedd7a3629b4381fd5f78f70a39f6906cab0573d
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87944154"
+ms.locfileid: "87995387"
 ---
 # <a name="authorize-guarded-hosts-using-tpm-based-attestation"></a>Авторизация защищенных узлов с помощью аттестации на основе TPM
 
@@ -80,11 +80,11 @@ ms.locfileid: "87944154"
 
 Рекомендуется сначала создать политику CI в режиме аудита (ведения журнала), чтобы узнать, не пропущен ли какой-либо объект, а затем применить политику для рабочих нагрузок узла.
 
-При использовании командлета [New-Циполици](https://docs.microsoft.com/powershell/module/configci/new-cipolicy?view=win10-ps) для создания собственной политики целостности кода необходимо выбрать уровни правил, которые будут использоваться.
+При использовании командлета [New-Циполици](/powershell/module/configci/new-cipolicy?view=win10-ps) для создания собственной политики целостности кода необходимо выбрать уровни правил, которые будут использоваться.
 Рекомендуется использовать основной уровень **издателя** с возвратом к **хэшу**, что позволяет обновлять большинство программ с цифровой подписью без изменения политики непрерывной интеграции.
 Новое программное обеспечение, написанное на том же издателе, также может быть установлено на сервере без изменения политики CI.
 Хэш-файлы, не имеющие цифровой подписи, будут хэшированы. для обновления этих файлов потребуется создать новую политику CI.
-Дополнительные сведения о доступных уровнях правил политики CI см. в разделе [развертывание политик целостности кода: правила политики и правила для файлов](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/select-types-of-rules-to-create#windows-defender-application-control-policy-rules) и Справка по командлетам.
+Дополнительные сведения о доступных уровнях правил политики CI см. в разделе [развертывание политик целостности кода: правила политики и правила для файлов](/windows/security/threat-protection/windows-defender-application-control/select-types-of-rules-to-create#windows-defender-application-control-policy-rules) и Справка по командлетам.
 
 1.  На узле-образце создайте новую политику целостности кода. Следующие команды создают политику на уровне **издателя** с применением отката к **хэшу**. Затем XML-файл преобразуется в формат двоичного файла Windows, а для HGS необходимо применить и измерить политику CI соответственно.
 
@@ -101,7 +101,7 @@ ms.locfileid: "87944154"
 
 3.  Примените политику CI к эталонному узлу:
 
-    1.  Выполните следующую команду, чтобы настроить компьютер для использования политики CI. Можно также развернуть политику CI с помощью [Групповая политика](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/deploy-windows-defender-application-control-policies-using-group-policy) или [System Center Virtual Machine Manager](https://docs.microsoft.com/system-center/vmm/guarded-deploy-host?view=sc-vmm-2019#manage-and-deploy-code-integrity-policies-with-vmm).
+    1.  Выполните следующую команду, чтобы настроить компьютер для использования политики CI. Можно также развернуть политику CI с помощью [Групповая политика](/windows/security/threat-protection/windows-defender-application-control/deploy-windows-defender-application-control-policies-using-group-policy) или [System Center Virtual Machine Manager](/system-center/vmm/guarded-deploy-host?view=sc-vmm-2019#manage-and-deploy-code-integrity-policies-with-vmm).
 
         ```powershell
         Invoke-CimMethod -Namespace root/Microsoft/Windows/CI -ClassName PS_UpdateAndCompareCIPolicy -MethodName Update -Arguments @{ FilePath = "C:\temp\HW1CodeIntegrity.p7b" }

@@ -2,17 +2,16 @@
 title: Устранение неполадок DNS-клиентов
 description: В этой статье объясняется, как устранять неполадки DNS на стороне клиента.
 manager: dcscontentpm
-ms.technology: networking-dns
 ms.topic: article
 ms.author: delhan
 ms.date: 8/8/2019
 author: Deland-Han
-ms.openlocfilehash: 2a9b44807ae6bc9f4c446d4af2150caf09955899
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.openlocfilehash: 8098f49c0a48004c54e4acc67522d61d4b30717c
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87182340"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87958642"
 ---
 # <a name="troubleshooting-dns-clients"></a>Устранение неполадок DNS-клиентов
 
@@ -118,7 +117,7 @@ nslookup app1.corp.contoso.com
 nslookup <external name>
 ```
 
-Пример:
+Например:
 ```cmd
 nslookup bing.com
 ```
@@ -127,6 +126,6 @@ nslookup bing.com
 
 Чтобы устранить эту проблему, очистите кэш, выполнив `ipconfig /flushdns` .
 
-## <a name="next-step"></a>Дальнейшие действия
+## <a name="next-step"></a>Следующий шаг
 
 Если разрешение имен по-прежнему не выполняется, перейдите к разделу [Устранение неполадок DNS-серверов](troubleshoot-dns-server.md) .

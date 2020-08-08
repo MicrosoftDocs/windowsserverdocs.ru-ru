@@ -6,45 +6,43 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.prod: windows-server
-ms.technology: identity-adfs
-ms.openlocfilehash: a0bbf64a7bf110e3d73084dd047c84b2b83be8d9
-ms.sourcegitcommit: b00d7c8968c4adc8f699dbee694afe6ed36bc9de
+ms.openlocfilehash: 94313fc185a4f326ad00a95e4c594fd3e696f61a
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "80858617"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87967611"
 ---
 # <a name="planning-for-interoperability-with-ad-fs-1x"></a>Планирование взаимодействия со службами федерации Active Directory 1.x
 
-Службы федерации Active Directory (AD FS) \(AD FS\) серверы федерации под Windows Server&reg; 2012 могут взаимодействовать с AD FS 1,0 \(, установленным с Windows Server 2003 R2\) служба Федерации и AD FS 1,1 \(, установленным с Windows Server 2008 или Windows Server 2008 R2\) служба Федерации. Поддерживаются любые из указанных ниже сочетаний.  
+Службы федерации Active Directory (AD FS) \( AD FS \) серверы федерации под windows Server &reg; 2012 могут взаимодействовать с AD FS 1,0, \( установленным с windows Server 2003 R2 \) Служба федерации, и AD FS 1,1, \( установленным с windows Server 2008 или Windows Server 2008 R2 \) Служба федерации. Поддерживаются любые из указанных ниже сочетаний.
 
--   Любой AD FS 1. *x* служба федерации может отправить утверждение, которое может использоваться AD FS Служба федерации в Windows Server 2012. Дополнительные сведения см. [в разделе Контрольный список: настройка AD FS для использования утверждений от AD FS 1. x](../../ad-fs/deployment/Checklist--Configuring-AD-FS--to-Consume-Claims-from-AD-FS-1.x.md).  
+-   Любой AD FS 1. *x* служба федерации может отправить утверждение, которое может использоваться AD FS Служба федерации в Windows Server 2012. Дополнительные сведения см. [в разделе Контрольный список: настройка AD FS для использования утверждений от AD FS 1. x](../../ad-fs/deployment/Checklist--Configuring-AD-FS--to-Consume-Claims-from-AD-FS-1.x.md).
 
--   Любой AD FS служба федерации в Windows Server 2012 может отправить AD FS 1. совместимое утверждение *x*\-, которое может быть использовано AD FS 1. *x* служба Федерации. Дополнительные сведения см. в разделе [Checklist: Configuring AD FS to Send Claims to an AD FS 1.x Federation Service](../../ad-fs/deployment/Checklist--Configuring-AD-FS-to-Send-Claims-to-an-AD-FS-1.x-Federation-Service.md).  
+-   Любой AD FS служба федерации в Windows Server 2012 может отправить AD FS 1. *x* \- совместимое утверждение, которое может быть использовано AD FS 1. *x* служба Федерации. Дополнительные сведения см. в разделе [Checklist: Configuring AD FS to Send Claims to an AD FS 1.x Federation Service](../../ad-fs/deployment/Checklist--Configuring-AD-FS-to-Send-Claims-to-an-AD-FS-1.x-Federation-Service.md).
 
--   Любой AD FS служба федерации в Windows Server 2012 может отправить AD FS 1. совместимое утверждение *x*\-, которое может использоваться одним или несколькими веб-серверами, на которых работает AD FS 1. *x* утверждений\-с поддержкой веб-агента. Дополнительные сведения см. в разделе [Checklist: Configuring AD FS to Send Claims to an AD FS 1.x Claims-Aware Web Agent](../../ad-fs/deployment/Checklist--Configuring-AD-FS-to-Send-Claims-to-an-AD-FS-1.x-Claims-Aware-Web-Agent.md).  
+-   Любой AD FS служба федерации в Windows Server 2012 может отправить AD FS 1. *x* \- совместимое утверждение, которое может быть использовано одним или несколькими веб-серверами, на которых работает AD FS 1. *x* \- веб-агент x с поддержкой утверждений. Дополнительные сведения см. в разделе [Checklist: Configuring AD FS to Send Claims to an AD FS 1.x Claims-Aware Web Agent](../../ad-fs/deployment/Checklist--Configuring-AD-FS-to-Send-Claims-to-an-AD-FS-1.x-Claims-Aware-Web-Agent.md).
 
-> [!NOTE]  
-> AD FS не поддерживает и не взаимодействуют с AD FS 1. Веб-агент *x* Windows NT на основе маркеров.  
+> [!NOTE]
+> AD FS не поддерживает и не взаимодействуют с AD FS 1. Веб-агент *x* Windows NT на основе маркеров.
 
-AD FS 1. утвержденное утверждение *x*\-является утверждением, которое может быть отправлено AD FS Служба федерации в Windows Server 2012 и понятным AD FS 1. *x* служба Федерации. Чтобы AD FS 1. *x* служба федерации может использовать утверждения, которые отправляет AD FS Служба федерации, необходимо отправить идентификатор имени \(идентификатор\).  
+AD FS 1. *x* \- совместимое утверждение — это утверждение, которое может быть отправлено служба федерацииом AD FS в Windows Server 2012 и понятным AD FS 1. *x* служба Федерации. Чтобы AD FS 1. *x* служба федерации может использовать утверждения, которые отправляет AD FS Служба федерации, \( \) необходимо отправить тип утверждения идентификатора идентификатора имени.
 
-## <a name="understanding-the-name-id-claim-type"></a>Сведения о типе утверждений "Идентификатор имени"  
-Тип утверждений "Идентификатор имени" аналогичен типу утверждений удостоверений, который используется в AD FS 1.*x* . Его необходимо использовать при любом взаимодействии с AD FS 1.*x*. Тип утверждения идентификатора имени включает либо AD FS 1. *x* служба федерации или AD FS 1. *x* claims\-с поддержкой веб-агента использовать утверждения, которые AD FS в Windows Server 2012, при условии, что эти утверждения отправляются в одном из форматов идентификаторов имен, указанных в следующей таблице.  
+## <a name="understanding-the-name-id-claim-type"></a>Сведения о типе утверждений "Идентификатор имени"
+Тип утверждений "Идентификатор имени" аналогичен типу утверждений удостоверений, который используется в AD FS 1.*x*. Его необходимо использовать при любом взаимодействии с AD FS 1.*x*. Тип утверждения идентификатора имени включает либо AD FS 1. *x* служба федерации или AD FS 1. *x* \- -агент с поддержкой утверждений для использования утверждений, которые AD FS в Windows Server 2012, при условии, что эти утверждения отправляются в одном из форматов идентификаторов имен, указанных в следующей таблице.
 
 
 |      Формат идентификатора имени       |               Соответствующий код URI                |
 |---------------------------|------------------------------------------------|
-| Адрес электронной почты AD FS 1.*x* | http://schemas.xmlsoap.org/claims/EmailAddress |
-|   Имя участника-пользователя электронной почты AD FS 1.*x*   |     http://schemas.xmlsoap.org/claims/UPN      |
+| AD FS 1. Адрес электронной почты *x* | http://schemas.xmlsoap.org/claims/EmailAddress |
+|   Имя участника-пользователя электронной почты AD FS 1.*x*   |     http://schemas.xmlsoap.org/claims/UPN      |
 |        Общее имя        |  http://schemas.xmlsoap.org/claims/CommonName  |
 |           Группа           |    http://schemas.xmlsoap.org/claims/Group     |
 
-Должно быть отправлено только одно утверждение типа "Идентификатор имени" в соответствующем формате. Если это условие выполнено, можно отправлять множество других утверждений с учетом ограничений, описанных в таблице.  
+Должно быть отправлено только одно утверждение типа "Идентификатор имени" в соответствующем формате. Если это условие выполнено, можно отправлять множество других утверждений с учетом ограничений, описанных в таблице.
 
-> [!NOTE]  
-> AD FS 1. *x* служба федерации может интерпретировать только типы входящих утверждений, которые начинаются с универсального идентификатора ресурса \(\) URI http://schemas.xmlsoap.org/claims/.  
+> [!NOTE]
+> AD FS 1. *x* служба федерации может интерпретировать только типы входящих утверждений, которые начинаются с URI универсального идентификатора ресурса \( \) http://schemas.xmlsoap.org/claims/ .
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также:
 [Руководство по разработке служб федерации Active Directory в Windows Server 2012](AD-FS-Design-Guide-in-Windows-Server-2012.md)

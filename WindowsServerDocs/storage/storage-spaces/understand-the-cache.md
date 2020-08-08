@@ -1,20 +1,18 @@
 ---
 title: Общие сведения о кэше локальных дисковых пространств
 ms.assetid: 69b1adc0-ee64-4eed-9732-0fb216777992
-ms.prod: windows-server
 ms.author: cosdar
 manager: dongill
-ms.technology: storage-spaces
 ms.topic: article
 author: cosmosdarwin
 ms.date: 07/17/2019
 ms.localizationpriority: medium
-ms.openlocfilehash: b5c4ddf6575979722aa246e541902544551fe577
-ms.sourcegitcommit: acfdb7b2ad283d74f526972b47c371de903d2a3d
+ms.openlocfilehash: 315b645cf3c2adc60bd8eeed0406e1226b2d2128
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "87769442"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87968851"
 ---
 # <a name="understanding-the-cache-in-storage-spaces-direct"></a>Общие сведения о кэше локальных дисковых пространств
 
@@ -117,7 +115,7 @@ ms.locfileid: "87769442"
 
 При наличии накопителей всех трех типов накопители NVMe обеспечивают кэширование для твердотельных накопителей (SSD) и жестких дисков. Режим работы соответствует описанному ранее: для накопителей SSD кэшируются только операции записи, для жестких дисков — операции чтения и записи. Работа по кэшированию жестких дисков равномерно распределяется среди кэш-накопителей.
 
-## <a name="summary"></a>Итоги
+## <a name="summary"></a>Сводка
 
 В этой таблице приведена сводная информация о том, какие накопители используются для кэширования, какие — для хранения данных и как осуществляется кэширование в каждом варианте развертывания.
 

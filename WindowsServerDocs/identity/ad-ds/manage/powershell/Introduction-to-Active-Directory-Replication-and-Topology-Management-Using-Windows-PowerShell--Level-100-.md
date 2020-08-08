@@ -1,32 +1,30 @@
 ---
 ms.assetid: c54b544f-cc32-4837-bb2d-a8656b22f3de
-title: Управление репликацией и топологией Active Directory с помощью Windows PowerShell (уровень 100)
+title: Introduction to Active Directory Replication and Topology Management Using Windows PowerShell (Level 100)
 author: MicrosoftGuyJFlo
 ms.author: joflore
 manager: mtillman
 ms.date: 05/31/2017
 ms.topic: article
-ms.prod: windows-server
-ms.technology: identity-adds
-ms.openlocfilehash: 63ecad01ec6d4b4d72b7aaff315b74541cb0fadc
-ms.sourcegitcommit: b00d7c8968c4adc8f699dbee694afe6ed36bc9de
+ms.openlocfilehash: 62ba9e757195861989fcd6d9eca395a47262aa7e
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "80822987"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87967781"
 ---
-# <a name="introduction-to-active-directory-replication-and-topology-management-using-windows-powershell-level-100"></a>Управление репликацией и топологией Active Directory с помощью Windows PowerShell (уровень 100)
+# <a name="introduction-to-active-directory-replication-and-topology-management-using-windows-powershell-level-100"></a>Introduction to Active Directory Replication and Topology Management Using Windows PowerShell (Level 100)
 
->Область применения: Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
+>Область применения. Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
 Windows PowerShell для Active Directory предоставляет возможность управления репликацией, сайтами, доменами и лесами, контроллерами доменов и разделами. Пользователи предыдущих средств управления, таких как оснастка "Active Directory – сайты и службы" и repadmin.exe, обратят внимание на то, что похожая функциональность теперь доступна в рамках Windows PowerShell для контекста Active Directory. Кроме того, командлеты совместимы с существующими командлетами Windows PowerShell для Active Directory, что приводит к созданию упрощенного взаимодействия и позволяет пользователям легко создавать сценарии автоматизации.
 
 > [!NOTE]
 > Командлеты Windows PowerShell для репликации и топологии Active Directory доступны в следующих средах:
-> 
+>
 > -    Контроллер домена Windows Server 2012
 > -    Windows Server 2012 с средства удаленного администрирования сервера для AD DS и AD LDS.
-> -   Windows&reg; 8 с средства удаленного администрирования сервера для AD DS и AD LDS.
+> -   Windows &reg; 8 с средства удаленного администрирования сервера для AD DS и AD LDS.
 
 ## <a name="installing-the-active-directory-module-for-windows-powershell"></a>Установка модуля Active Directory для Windows PowerShell
 Модуль Active Directory для Windows PowerShell устанавливается по умолчанию, когда роль сервера AD DS установлена на сервере под управлением Windows Server 2012. Дополнительные действия, помимо добавления роли сервера, не требуются. Кроме того, модуль Active Directory можно установить на сервере под управлением Windows Server 2012, установив средства удаленного администрирования сервера, и можно установить модуль Active Directory на компьютере с Windows 8, загрузив и установив [средства удаленного администрирования сервера (RSAT)](https://www.microsoft.com/download/details.aspx?id=28972). Установка описывается в разделе [Инструкции](https://www.microsoft.com/download/details.aspx?id=28972).
@@ -61,10 +59,10 @@ Windows PowerShell для Active Directory предоставляет возмо
 
     > [!TIP]
     > Для автозаполнения команд в Windows PowerShell можно использовать клавишу TAB.
-    > 
-    > Пример: Введите `Get-ADRep` и нажмите клавишу TAB несколько раз, чтобы пропустить совпадающие команды, пока не достигнете команды `Get-ADReplicationSite`. Автозаполнение также работает для имен параметров, таких как `Filter`.
+    >
+    > Пример. Введите `Get-ADRep` и нажмите клавишу TAB несколько раз, чтобы пропустить совпадающие команды, пока не достигнете команды `Get-ADReplicationSite`. Автозаполнение также работает для имен параметров, таких как `Filter`.
 
-    Чтобы отформатировать выходные данные команды `Get-ADReplicationSite` в виде таблицы и ограничить отображение конкретными полями, можно передать выходные данные в команду `Format-Table` (или "`ft`" для краткости):
+    Чтобы отформатировать выходные данные `Get-ADReplicationSite` команды в виде таблицы и ограничить отображение конкретными полями, можно передать результат в `Format-Table` команду (или " `ft` " для краткости):
 
     `Get-ADReplicationSite -Filter * | ft Name`
 
@@ -72,20 +70,20 @@ Windows PowerShell для Active Directory предоставляет возмо
 
 #### <a name="to-produce-a-table-of-all-domain-controllers"></a>Создание таблицы всех контроллеров домена
 
--   Введите следующую команду в командной строке **модуля Active Directory для Windows PowerShell** :
+-   Введите следующую команду в командной строке **модуля Active Directory для Windows PowerShell**:
 
     `Get-ADDomainController -Filter * | ft Hostname,Site`
 
     Эта команда возвращает имя узла контроллеров домена, а также их связи с сайтами.
 
 ## <a name="manage-replication-topology"></a>Управление топологией репликации
-На предыдущем шаге после выполнения команды `Get-ADDomainController -Filter * | ft Hostname,Site`контроллер домена **DC2** входил в список сайта **CORPORATE** . В процедурах ниже описано создание нового сайта филиала **BRANCH1**, создание новой связи сайтов, задание стоимости связи сайтов и частоты репликации и перемещение **DC2** в **BRANCH1**.
+На предыдущем шаге после выполнения команды `Get-ADDomainController -Filter * | ft Hostname,Site` контроллер домена **DC2** входил в список сайта **CORPORATE**. В процедурах ниже описано создание нового сайта филиала **BRANCH1**, создание новой связи сайтов, задание стоимости связи сайтов и частоты репликации и перемещение **DC2** в **BRANCH1**.
 
 Для завершения шагов в следующих процедурах вам необходимо быть членом группы "Администраторы домена" или иметь аналогичные разрешения.
 
 #### <a name="to-create-a-new-site"></a>Создание нового сайта
 
--   Введите следующую команду в командной строке **модуля Active Directory для Windows PowerShell** :
+-   Введите следующую команду в командной строке **модуля Active Directory для Windows PowerShell**:
 
     `New-ADReplicationSite BRANCH1`
 
@@ -93,7 +91,7 @@ Windows PowerShell для Active Directory предоставляет возмо
 
 #### <a name="to-create-a-new-site-link"></a>Создание новой связи сайтов
 
--   Введите следующую команду в командной строке **модуля Active Directory для Windows PowerShell** :
+-   Введите следующую команду в командной строке **модуля Active Directory для Windows PowerShell**:
 
     `New-ADReplicationSiteLink 'CORPORATE-BRANCH1'  -SitesIncluded CORPORATE,BRANCH1 -OtherAttributes @{'options'=1}`
 
@@ -104,15 +102,15 @@ Windows PowerShell для Active Directory предоставляет возмо
 
 #### <a name="to-set-the-site-link-cost-and-replication-frequency"></a>Задание стоимости связи сайтов и частоты репликации
 
--   Введите следующую команду в командной строке **модуля Active Directory для Windows PowerShell** :
+-   Введите следующую команду в командной строке **модуля Active Directory для Windows PowerShell**:
 
     `Set-ADReplicationSiteLink CORPORATE-BRANCH1 -Cost 100 -ReplicationFrequencyInMinutes 15`
 
-    С помощью этой команды задается стоимость связи сайтов с **BRANCH1** , равная **100** , и частота репликации с сайтом **15 минут**.
+    С помощью этой команды задается стоимость связи сайтов с **BRANCH1**, равная **100**, и частота репликации с сайтом **15 минут**.
 
 #### <a name="to-move-a-domain-controller-to-a-different-site"></a>Перемещение контроллера домена на другой сайт
 
--   Введите следующую команду в командной строке **модуля Active Directory для Windows PowerShell** :
+-   Введите следующую команду в командной строке **модуля Active Directory для Windows PowerShell**:
 
     `Get-ADDomainController DC2 | Move-ADDirectoryServer -Site BRANCH1`
 
@@ -122,13 +120,13 @@ Windows PowerShell для Active Directory предоставляет возмо
 
 ##### <a name="to-verify-site-creation-new-site-link-and-cost-and-replication-frequency"></a>Проверка создания сайта, новой связи сайтов и стоимости и частоты репликации
 
--   Щелкните **Server Manager**, выберите пункт **Средства** , затем **Active Directory – сайты и службы** и проверьте следующее.
+-   Щелкните **Server Manager**, выберите пункт **Средства**, затем **Active Directory – сайты и службы** и проверьте следующее.
 
     Убедитесь, что сайт **BRANCH1** содержит все правильные значения из команд Windows PowerShell.
 
     Убедитесь, что создана связь сайтов **CORPORATE-BRANCH1**, соединяющая сайты **BRANCH1** и **CORPORATE**.
 
-    Убедитесь, что **DC2** сейчас находится на сайте **BRANCH1** . Можно также открыть **Модуль Active Directory для Windows PowerShell** и, чтобы убедиться, что **DC2** сейчас находится на сайте **BRANCH1**, ввести следующую команду: `Get-ADDomainController -Filter * | ft Hostname,Site`.
+    Убедитесь, что **DC2** сейчас находится на сайте **BRANCH1**. Можно также открыть **Модуль Active Directory для Windows PowerShell** и, чтобы убедиться, что **DC2** сейчас находится на сайте **BRANCH1**, ввести следующую команду: `Get-ADDomainController -Filter * | ft Hostname,Site`.
 
 ## <a name="view-replication-status-information"></a>Просмотр состояния и сведений о репликации.
 В следующих процедурах с помощью одного из командлетов управления репликацией Windows PowerShell для Active Directory, `Get-ADReplicationUpToDatenessVectorTable DC1` можно создать простой отчет о репликации с использованием векторной таблицы синхронизации, которая ведется на контроллере домена. В этой векторной таблице синхронизации отслеживается наивысший номер последовательного обновления (USN) создаваемой записи, отображаемый на каждом контроллере домена в лесу.
@@ -137,7 +135,7 @@ Windows PowerShell для Active Directory предоставляет возмо
 
 #### <a name="to-view-the-up-to-dateness-vector-table-for-a-single-domain-controller"></a>Просмотр векторной таблицы синхронизации для одного контроллера домена
 
-1.  Введите следующую команду в командной строке **модуля Active Directory для Windows PowerShell** :
+1.  Введите следующую команду в командной строке **модуля Active Directory для Windows PowerShell**:
 
     `Get-ADReplicationUpToDatenessVectorTable DC1`
 
@@ -149,11 +147,11 @@ Windows PowerShell для Active Directory предоставляет возмо
 
     `Get-ADReplicationUpToDatenessVectorTable * | sort Partner,Server | ft Partner,Server,UsnFilter`
 
-    С помощью этой команды **DC1** меняется на `*`, что приводит к сбору данных векторной таблицы синхронизации со всех контроллеров домена. Данные сортируются по параметрам **Партнер** и **Сервер** , а затем отображаются в таблице.
+    С помощью этой команды **DC1** меняется на `*`, что приводит к сбору данных векторной таблицы синхронизации со всех контроллеров домена. Данные сортируются по параметрам **Партнер** и **Сервер**, а затем отображаются в таблице.
 
     Сортировка позволяет легко сравнить последний номер последовательного обновления (USN), отображаемый на каждом контроллере домена для данного партнера репликации. Это быстрый способ убедиться, что репликация проходит во всей среде. Если репликация работает правильно, то значения параметра UsnFilter, указанные в отчете для данного партнера репликации, должны быть похожи на всех контроллерах домена.
 
-## <a name="see-also"></a>См. также
-[Расширенная репликация Active Directory и управление топологией &#40;с помощью Windows PowerShell уровня 200&#41;](Advanced-Active-Directory-Replication-and-Topology-Management-Using-Windows-PowerShell--Level-200-.md)
+## <a name="see-also"></a>См. также:
+[Расширенная репликация Active Directory и управление топологией с помощью Windows PowerShell &#40;уровня 200&#41;](Advanced-Active-Directory-Replication-and-Topology-Management-Using-Windows-PowerShell--Level-200-.md)
 
 

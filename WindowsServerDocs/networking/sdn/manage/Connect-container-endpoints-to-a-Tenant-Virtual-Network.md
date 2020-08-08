@@ -7,12 +7,12 @@ ms.assetid: f7af1eb6-d035-4f74-a25b-d4b7e4ea9329
 ms.author: anpaul
 author: AnirbanPaul
 ms.date: 08/24/2018
-ms.openlocfilehash: fd05441ecc64c05778234dc00fa315bb406dfb40
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: af8232de75005ae295079eb2207bce303629acaa
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87970811"
+ms.locfileid: "87995200"
 ---
 # <a name="connect-container-endpoints-to-a-tenant-virtual-network"></a>Подключение конечных точек контейнера к виртуальной сети клиента
 
@@ -20,7 +20,7 @@ ms.locfileid: "87970811"
 
 В этом разделе мы покажем, как подключить конечные точки контейнера к существующей виртуальной сети клиента, созданной с помощью SDN. Для создания сети контейнера на виртуальной машине клиента используется драйвер сети *l2bridge* (и, возможно, *l2tunnel*), доступный в подключаемом модуле Windows либнетворк для DOCKER.
 
-В разделе [драйверы сети контейнера](https://docs.microsoft.com/virtualization/windowscontainers/container-networking/network-drivers-topologies) мы обсуждали, что несколько сетевых драйверов доступны через DOCKER в Windows. Для SDN Используйте драйверы *l2bridge* и *l2tunnel* . Для обоих драйверов каждая конечная точка контейнера находится в той же виртуальной подсети, что и виртуальная машина узла контейнера (клиента).
+В разделе [драйверы сети контейнера](/virtualization/windowscontainers/container-networking/network-drivers-topologies) мы обсуждали, что несколько сетевых драйверов доступны через DOCKER в Windows. Для SDN Используйте драйверы *l2bridge* и *l2tunnel* . Для обоих драйверов каждая конечная точка контейнера находится в той же виртуальной подсети, что и виртуальная машина узла контейнера (клиента).
 
 Сетевая служба узла (HNS) через подключаемый модуль частного облака динамически назначает IP-адреса конечным точкам контейнера. Конечные точки контейнера имеют уникальные IP-адреса, но используют один и тот же MAC-адрес виртуальной машины узла контейнера (клиента) из-за преобразования адресов второго уровня.
 
@@ -50,7 +50,7 @@ ms.locfileid: "87970811"
    ```
 
 >[!Note]
->[Вложенная виртуализация](https://msdn.microsoft.com/virtualization/hyperv_on_windows/user_guide/nesting) и предоставление расширений виртуализации не требуются, если не используются контейнеры Hyper-V.
+>[Вложенная виртуализация](/virtualization/hyper-v-on-windows/user-guide/nested-virtualization) и предоставление расширений виртуализации не требуются, если не используются контейнеры Hyper-V.
 
 
 ## <a name="workflow"></a>Рабочий процесс
@@ -148,5 +148,4 @@ C:\> docker run -it --network=MyContainerOverlayNetwork <image> <cmd>
 >Назначение статических IP-адресов не поддерживается для сетей контейнеров *l2bridge* или *l2tunnel* при использовании с стеком Microsoft Sdn.
 
 ## <a name="more-information"></a>Дополнительные сведения
-Дополнительные сведения о развертывании инфраструктуры SDN см. [в статье Развертывание программно-определяемой сетевой инфраструктуры](https://docs.microsoft.com/windows-server/networking/sdn/deploy/deploy-a-software-defined-network-infrastructure).
-
+Дополнительные сведения о развертывании инфраструктуры SDN см. [в статье Развертывание программно-определяемой сетевой инфраструктуры](../deploy/deploy-a-software-defined-network-infrastructure.md).

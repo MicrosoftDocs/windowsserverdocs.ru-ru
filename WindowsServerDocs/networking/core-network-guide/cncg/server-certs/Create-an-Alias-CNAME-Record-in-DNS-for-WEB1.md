@@ -6,12 +6,12 @@ ms.topic: article
 ms.assetid: bfae23f0-ae12-486b-94fe-50a137e141a5
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 8832fc00f0ab9c07961332514e19ae01e3d50168
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 9a966ab2883e22173ecf3e64e87d2a4b7a9c57d2
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87949548"
+ms.locfileid: "87995590"
 ---
 # <a name="create-an-alias-cname-record-in-dns-for-web1"></a>Создание псевдонима \( \) записи CNAME в DNS для web1
 
@@ -28,7 +28,7 @@ ms.locfileid: "87949548"
 ## <a name="to-add-an-alias-cname-resource-record-to-a-zone"></a>Добавление \( записи ресурса псевдонима CNAME \) в зону
 
 >[!NOTE]
->Инструкции по выполнению этой процедуры с помощью Windows PowerShell см. в разделе [Add-днссерверресаурцерекордкнаме](https://technet.microsoft.com/library/jj649894(v=wps.630).aspx).
+>Инструкции по выполнению этой процедуры с помощью Windows PowerShell см. в разделе [Add-днссерверресаурцерекордкнаме](/powershell/module/dnsserver/add-dnsserverresourcerecordcname?view=winserver2012r2-ps).
 
 1.  На компьютере DC1 в диспетчер сервера щелкните **средства** , а затем — **DNS**. Откроется консоль управления (MMC) диспетчера DNS.
 
@@ -41,5 +41,3 @@ ms.locfileid: "87949548"
 5.  В поле полное доменное **имя полного доменного имени \( \) для целевого узла**введите FQDN веб-сервера. Например, если веб-сервер называется WEB1, а домен — corp.contoso.com, введите **Web1.Corp.contoso.com**.
 
 6.  Нажмите кнопку **ОК** , чтобы добавить новую запись в зону.
-
-

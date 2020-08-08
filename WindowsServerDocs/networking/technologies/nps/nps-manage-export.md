@@ -6,12 +6,12 @@ ms.topic: article
 ms.assetid: d268dc57-78f8-47ba-9a7a-a607e8b9225c
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 20b3f933565e8170e99f1eed2bfda24bd7705e1b
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: a7f6de6b4ee0e442aed5f718c7025a6eb2e70388
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87949117"
+ms.locfileid: "87995464"
 ---
 # <a name="export-an-nps-configuration-for-import-on-another-server"></a>Экспорт конфигурации NPS для импорта на другом сервере
 
@@ -60,7 +60,7 @@ Export-NpsConfiguration -Path <filename>
 Export-NpsConfiguration –Path c:\config.xml
 ```
 
-Дополнительные сведения см. в разделе [Export-нпсконфигуратион](https://technet.microsoft.com/library/jj872749.aspx).
+Дополнительные сведения см. в разделе [Export-нпсконфигуратион](/powershell/module/nps/export-npsconfiguration?view=win10-ps).
 
 После экспорта конфигурации NPS скопируйте XML-файл на целевой сервер.
 
@@ -78,7 +78,7 @@ Import-NpsConfiguration [-Path] <String> [ <CommonParameters>]
 Import-NpsConfiguration -Path "C:\Npsconfig.xml"
 ```
 
-Дополнительные сведения см. в разделе [Import-нпсконфигуратион](https://technet.microsoft.com/library/jj872750.aspx).
+Дополнительные сведения см. в разделе [Import-нпсконфигуратион](/powershell/module/nps/import-npsconfiguration?view=win10-ps).
 
 ## <a name="export-and-import-the-nps-configuration-by-using-netsh"></a>Экспорт и импорт конфигурации NPS с помощью команды netsh
 

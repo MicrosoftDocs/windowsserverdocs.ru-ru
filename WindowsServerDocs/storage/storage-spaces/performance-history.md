@@ -2,17 +2,16 @@
 title: Журнал производительности для Локальных дисковых пространств
 ms.author: cosdar
 manager: eldenc
-ms.technology: storage-spaces
 ms.topic: article
 author: cosmosdarwin
 ms.date: 09/07/2018
 ms.localizationpriority: medium
-ms.openlocfilehash: ce984d3a88f46b77773c524e5b75135930e1bb03
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: f3c0babfad0ebecdac40262a783ecf683d6dc1e8
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86961796"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87968791"
 ---
 # <a name="performance-history-for-storage-spaces-direct"></a>Журнал производительности для Локальных дисковых пространств
 
@@ -142,7 +141,7 @@ Get-VM "MyVM" | Get-ClusterPerf -VMSeriesName "VM.Cpu.Usage" -TimeFrame LastHour
 
 Если не указать, будет `MostRecent` возвращено измерение.
 
-## <a name="how-it-works"></a>Принципы работы
+## <a name="how-it-works"></a>Принцип работы
 
 ### <a name="performance-history-storage"></a>Хранилище журнала производительности
 

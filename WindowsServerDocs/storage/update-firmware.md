@@ -1,19 +1,17 @@
 ---
 ms.assetid: e5945bae-4a33-487c-a019-92a69db8cf6c
 title: Обновление встроенного ПО дисков
-ms.prod: windows-server
 ms.author: toklima
 manager: dmoss
-ms.technology: storage-spaces
 ms.topic: article
 author: toklima
 ms.date: 10/04/2016
-ms.openlocfilehash: 0e117b486fd628397bfe36aa897ff64cdd26f98b
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 15e0d6dedc6bb81c0b511479ee342dbd463654e2
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86965836"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87946217"
 ---
 # <a name="updating-drive-firmware"></a>Обновление встроенного ПО дисков
 >Область применения: Windows Server 2019, Windows Server 2016, Windows 10
@@ -25,13 +23,13 @@ ms.locfileid: "86965836"
 
 ## <a name="drive-compatibility"></a>Совместимость дисков
 
-Чтобы использовать Windows Server для обновления встроенного ПО дисков, требуются поддерживаемые диски. Чтобы обеспечить единое поведение устройств, мы начали с определения новых и необязательных (для Windows 10 и Windows Server 2016) требований Hardware Lab Kit (HLK), предъявляемых к устройствам SAS, SATA и NVMe. Эти требования указывают, какие команды должно поддерживать устройство SATA, SAS или NVMe, чтобы можно было обновить встроенное ПО с помощью этих новых командлетов PowerShell, являющихся собственными по отношению к Windows. Для поддержки этих требований существует новый тест HLK, проверяющий, поддерживают ли продукты поставщика нужные команды и будут ли включать их в последующих редакциях. 
+Чтобы использовать Windows Server для обновления встроенного ПО дисков, требуются поддерживаемые диски. Чтобы обеспечить единое поведение устройств, мы начали с определения новых и необязательных (для Windows 10 и Windows Server 2016) требований Hardware Lab Kit (HLK), предъявляемых к устройствам SAS, SATA и NVMe. Эти требования указывают, какие команды должно поддерживать устройство SATA, SAS или NVMe, чтобы можно было обновить встроенное ПО с помощью этих новых командлетов PowerShell, являющихся собственными по отношению к Windows. Для поддержки этих требований существует новый тест HLK, проверяющий, поддерживают ли продукты поставщика нужные команды и будут ли включать их в последующих редакциях.
 
 Сведения о том, поддерживает ли оборудование обновление встроенного ПО диска Windows, можно получить у поставщика решения.
 Ниже приведены ссылки на различные требования:
 
 -   SATA: [Device.Storage.Hd.Sata](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj127250(v=ws.11)#devicestoragehdsata) — в разделе **[If Implemented\] Firmware Download & Activate** (Если реализовано — скачивание и активация встроенного ПО).
-    
+
 -   SAS: [Device.Storage.Hd.Sas](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj127250(v=ws.11)#devicestoragehdsas) — в разделе **[If Implemented\] Firmware Download & Activate** (Если реализовано — скачивание и активация встроенного ПО).
 
 -   NVMe: [Device.Storage.ControllerDrive.NVMe](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj127250(v=ws.11)#devicestoragecontrollerdrivenvme) — в разделах **5.7** и **5.8**.
@@ -65,7 +63,7 @@ ms.locfileid: "86965836"
 
 Сначала диск загрузит новый образ встроенного ПО во внутреннюю промежуточную область. При этом процесс ввода-вывода обычно продолжается. После скачивания образ активируется. В это время диск не будет отвечать на команды ввода-вывода из-за выполнения внутреннего сброса. Это означает, что во время активации диск не предоставляет данные. Приложению, обращающемуся к данным на этом диске, придется ждать ответа до завершения активации встроенного ПО. Ниже приведен пример работы командлета:
 
-   ```powershell 
+   ```powershell
    $pd | Update-StorageFirmware -ImagePath C:\Firmware\J3E160@3.enc -SlotNumber 0
    $pd | Get-StorageFirmwareInformation
 
@@ -81,7 +79,7 @@ ms.locfileid: "86965836"
 
 Этот диск выполнил обновление встроенного ПО примерно за 5,8 секунды, как показано ниже:
 
-```powershell 
+```powershell
 Measure-Command {$pd | Update-StorageFirmware -ImagePath C:\\Firmware\\J3E16101.enc -SlotNumber 0}
 
  Days : 0

@@ -1,41 +1,39 @@
 ---
 title: Общие сведения о паролях
 description: Безопасность Windows Server
-ms.prod: windows-server
-ms.technology: security-kerberos
 ms.topic: article
 ms.assetid: f608960e-2039-4c91-9c8c-9b81053c675e
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/12/2016
-ms.openlocfilehash: 19003d5dcfdaa0f9d6dafcc31bab31a5cb50efa0
-ms.sourcegitcommit: b00d7c8968c4adc8f699dbee694afe6ed36bc9de
+ms.openlocfilehash: 762aa3307395f60d15a547c7b4b2b433c20d4411
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "80858837"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87968801"
 ---
 # <a name="passwords-overview"></a>Общие сведения о паролях
 
->Область применения: Windows Server (Semi-Annual Channel), Windows Server 2016
+>Область применения. Windows Server (Semi-Annual Channel), Windows Server 2016
 
 В этой статье для ИТ-специалистов описываются пароли, используемые в операционных системах Windows, а также ссылки на документацию и обсуждение использования паролей в стратегии управления учетными данными.
 
-## <a name="feature-description"></a><a name="BKMK_OVER"></a> Описание функции
+## <a name="feature-description"></a><a name="BKMK_OVER"></a>Описание функции
 Современные операционные системы и приложения являются архитектурой на основе паролей, даже если вы используете смарт-карты или биометрические системы, все учетные записи по-прежнему имеют пароли, и их все еще можно использовать в некоторых обстоятельствах. Некоторые учетные записи, особенно учетные записи, используемые для запуска служб, даже не могут использовать смарт-карты и биометрические маркеры, поэтому для проверки подлинности необходимо использовать пароль. Windows защищает пароли с помощью криптографических хэшей.
 
 Дополнительные сведения о паролях Windows см. в статье [технический обзор паролей](https://technet.microsoft.com/library/hh994558(WS.10).aspx).
 
-## <a name="practical-applications"></a><a name="BKMK_APP"></a>Практические приложения
+## <a name="practical-applications"></a><a name="BKMK_APP"></a>Практическое применение
 В Windows и многих других операционных системах наиболее распространенным методом проверки подлинности удостоверения пользователя является использование секретной парольной фразы или пароля. Для обеспечения безопасности сетевой среды необходимо, чтобы надежные пароли использовались всеми пользователями. Это помогает избежать угрозы ненадежного пароля злоумышленником, будь то методы, выполняемые вручную или с помощью средств, для получения учетных данных скомпрометированной учетной записи пользователя. Это особенно справедливо для административных учетных записей. При регулярном изменении сложного пароля снижается вероятность взлома пароля этой учетной записи.
 
 ## <a name="new-and-changed-functionality"></a><a name="BKMK_NEW"></a>Новые и измененные функции
-В Windows Server 2012 и Windows 8 пароли рисунков являются новыми. Графические пароли представляют собой комбинацию выбранного пользователем образа с набором жестов. Функция "графический пароль" отключена на компьютерах, подключенных к домену\-. Ссылки на дополнительные сведения о графических паролях перечислены в [разделе см. также](#BKMK_LINKS) ниже.
+В Windows Server 2012 и Windows 8 пароли рисунков являются новыми. Графические пароли представляют собой комбинацию выбранного пользователем образа с набором жестов. Функция "графический пароль" отключена на \- компьютерах, присоединенных к домену. Ссылки на дополнительные сведения о графических паролях перечислены в [разделе см. также](#BKMK_LINKS) ниже.
 
-В Windows Server 2012 и Windows 8 не было изменений в функциональных возможностях паролей. Новые параметры групповая политика не добавлены. Однако усовершенствования и улучшения были внесены в учетные данные \(и управление паролями\), например с помощью графических паролей, средства блокировки учетных данных и входа в Windows 8 с помощью учетная запись Майкрософт, ранее известного как идентификатор Windows Live ID.
+В Windows Server 2012 и Windows 8 не было изменений в функциональных возможностях паролей. Новые параметры групповая политика не добавлены. Однако усовершенствования и улучшения были внесены в Управление учетными данными \( и паролями \) , например с помощью графических паролей, средства блокировки учетных данных и входа в Windows 8 с помощью учетная запись Майкрософт, ранее известного как идентификатор Windows Live ID.
 
-## <a name="deprecated-functionality"></a><a name="BKMK_DEP"></a>Устаревшие функции
+## <a name="deprecated-functionality"></a><a name="BKMK_DEP"></a>Нерекомендуемые функции.
 В Windows Server 2012 и Windows 8 не рекомендуется использовать функции паролей.
 
 ## <a name="software-requirements"></a><a name="BKMK_SOFT"></a>Требования к программному обеспечению
@@ -44,13 +42,13 @@ ms.locfileid: "80858837"
 ## <a name="see-also"></a><a name="BKMK_LINKS"></a> См. также
 В этой таблице перечислены дополнительные ресурсы для функций паролей, технологий и управления учетными данными.
 
-|Тип контента|Ссылки|
+|Тип содержимого|Ссылки|
 |--------|-------|
 |**Документация по сценариям**|[Защита цифрового удостоверения](https://blogs.msdn.com/b/b8/archive/2011/12/14/protecting-your-digital-identity.aspx)|
-|**Операции**|[Active Directory пользователей и компьютеров](https://technet.microsoft.com/library/cc754217.aspx)|
-|**Устранение неполадок**|[Узнайте, когда истекает срок действия пароля \- блоге Active Directory PowerShell](https://blogs.msdn.com/b/adpowershell/archive/2010/08/09/9970198.aspx)|
+|**Операции**|[Active Directory — пользователи и компьютеры](https://technet.microsoft.com/library/cc754217.aspx)|
+|**Устранение неполадок**|[Узнайте, когда истекает срок действия пароля \- Active Directory блоге PowerShell](https://blogs.msdn.com/b/adpowershell/archive/2010/08/09/9970198.aspx)|
 |**Безопасность**| [Руководство по угрозам и контрмерам](https://technet.microsoft.com/library/hh125920(v=ws.10).aspx) windows Server 2008 R2 и Windows 7: политики учетных записей<p>Руководство по [изменению и созданию надежных паролей](https://www.microsoft.com/security/online-privacy/passwords-create.aspx)|
 |**Средства и параметры**|[Справочник по параметрам групповая политика для Windows и Windows Server в центре загрузки Майкрософт](https://www.microsoft.com/download/en/details.aspx?amp;displaylang=en&displaylang=en&id=25250)|
-|**Ресурсы сообщества**|[Защита цифрового удостоверения](https://blogs.msdn.com/b/b8/archive/2011/12/14/protecting-your-digital-identity.aspx)<p>[Вход в Windows 8 с идентификатором Windows Live ID](https://blogs.msdn.com/b/b8/archive/2011/09/26/signing-in-to-windows-8-with-a-windows-live-id.aspx)<p>[Вход с помощью графического пароля](https://blogs.msdn.com/b/b8/archive/2011/12/16/signing-in-with-a-picture-password.aspx)<p>[Оптимизация защиты графических паролей](https://blogs.msdn.com/b/b8/archive/2011/12/19/optimizing-picture-password-security.aspx)|
+|**Ресурсы сообщества**|[Защита цифрового удостоверения](https://blogs.msdn.com/b/b8/archive/2011/12/14/protecting-your-digital-identity.aspx)<p>[Регистрация в Windows 8 с помощью Windows Live ID](https://blogs.msdn.com/b/b8/archive/2011/09/26/signing-in-to-windows-8-with-a-windows-live-id.aspx)<p>[Вход с помощью графического пароля](https://blogs.msdn.com/b/b8/archive/2011/12/16/signing-in-with-a-picture-password.aspx)<p>[Оптимизация защиты графических паролей](https://blogs.msdn.com/b/b8/archive/2011/12/19/optimizing-picture-password-security.aspx)|
 
 

@@ -6,12 +6,12 @@ ms.topic: article
 ms.assetid: f66ee49a-1fd3-4927-a813-64a15017b63b
 ms.author: anpaul
 author: AnirbanPaul
-ms.openlocfilehash: e502ab3bc751bbbd1302de3c58c70754d50a5c4e
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 4896b7d5c4a1c555c431e42b597d1c43a02ec71b
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87970841"
+ms.locfileid: "87995260"
 ---
 # <a name="system-center-technologies-for-sdn"></a>Технологии System Center для SDN
 
@@ -27,7 +27,7 @@ System Center включает следующие технологии для и
 ## <a name="system-center-operations-manager"></a><a name="bkmk_scom"></a>System Center Operations Manager
 System Center 2016 Operations Manager обеспечивает гибкое и экономичное наблюдение за инфраструктурой, помогает обеспечить предсказуемую производительность и доступность важнейших приложений, а также обеспечивает полный мониторинг центра обработки данных и облака, как частных, так и общедоступных.
 
-Дополнительные сведения см. в разделе [Operations Manager](https://technet.microsoft.com/library/hh205987.aspx).
+Дополнительные сведения см. в разделе [Operations Manager](/previous-versions/system-center/system-center-2012-R2/hh205987(v=sc.12)).
 
 ## <a name="system-center-virtual-machine-manager"></a><a name="bkmk_scvmm"></a>System Center Virtual Machine Manager
 С System Center 2016 Virtual Machine Manager (VMM) можно:
@@ -40,6 +40,4 @@ System Center 2016 Operations Manager обеспечивает гибкое и �
 - Помогает управлять потоком трафика между виртуальными сетями, включая возможность определения гарантированной пропускной способности для критически важных приложений и рабочих нагрузок.
 
 
-Дополнительные сведения см. [в разделе Настройка инфраструктуры программно-определяемой сети (SDN) в структуре VMM](https://technet.microsoft.com/system-center-docs/vmm/scenario/sdn-overview).
-
-
+Дополнительные сведения см. [в разделе Настройка инфраструктуры программно-определяемой сети (SDN) в структуре VMM](/system-center/vmm/deploy-sdn?view=sc-vmm-2019).

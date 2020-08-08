@@ -2,18 +2,16 @@
 title: Виртуальный коммутатор Hyper-V
 description: В этом разделе приводятся общие сведения о виртуальном коммутаторе Hyper-V в Windows Server 2016.
 manager: brianlic
-ms.prod: windows-server
-ms.technology: networking-hv-switch
 ms.topic: article
 ms.assetid: 398440ac-5988-41ce-b91e-eab343a255d3
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 25d3ba8bd5ef60db4ae545309812e7d1e6fa5f08
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.openlocfilehash: e8722e5ff925bca1d99c39d7eb6bf360dc12c065
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87181810"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87968701"
 ---
 # <a name="hyper-v-virtual-switch"></a>Виртуальный коммутатор Hyper-V
 

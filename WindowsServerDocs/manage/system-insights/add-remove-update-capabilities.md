@@ -1,19 +1,17 @@
 ---
 title: Добавление, удаление и обновление возможностей
 description: System Insights позволяет создавать новые возможности, использующие существующие функции сбора и управления данными. Важно также иметь поддержку платформы для управления добавлением, удалением и обновлением этих возможностей. В этом разделе описываются функции высокого уровня, позволяющие добавлять, удалять и обновлять возможности в System Insights.
-ms.prod: windows-server
-ms.technology: system-insights
 ms.topic: article
 author: gawatu
 ms.author: gawatu
 manager: mallikarjun.chadalapaka
 ms.date: 7/31/2018
-ms.openlocfilehash: 217cb528896e3b09ce81821bb0201388fab28701
-ms.sourcegitcommit: 771db070a3a924c8265944e21bf9bd85350dd93c
+ms.openlocfilehash: 17d31b480e013cf0276041a88a86530448071ca5
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85475281"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87958692"
 ---
 # <a name="adding-removing-and-updating-capabilities"></a>Добавление, удаление и обновление возможностей
 

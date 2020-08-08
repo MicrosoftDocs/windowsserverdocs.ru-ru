@@ -6,12 +6,12 @@ manager: dongill
 author: rpsqrd
 ms.author: ryanpu
 ms.date: 09/25/2019
-ms.openlocfilehash: 5940b2a626a42d639870c98ee740c44b18c02ca3
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: d226f4fdc9b34b97b24b970b3198bd4164b3a309
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87944064"
+ms.locfileid: "87995278"
 ---
 # <a name="troubleshooting-guarded-hosts"></a>Устранение неполадок защищенных узлов
 
@@ -60,20 +60,20 @@ TransientError            | Последняя попытка аттестаци
 
 AttestationSubStatus       | Пояснение и требуемые меры
 ---------------------------|-------------------------------
-BitLocker                  | Том ОС узла не шифруется BitLocker. Чтобы устранить эту проблему, [включите BitLocker](https://technet.microsoft.com/itpro/windows/keep-secure/bitlocker-basic-deployment) на томе операционной системы или [Отключите политику BitLocker в HGS](guarded-fabric-manage-hgs.md#review-attestation-policies).
+BitLocker                  | Том ОС узла не шифруется BitLocker. Чтобы устранить эту проблему, [включите BitLocker](/windows/security/information-protection/bitlocker/bitlocker-basic-deployment) на томе операционной системы или [Отключите политику BitLocker в HGS](guarded-fabric-manage-hgs.md#review-attestation-policies).
 CodeIntegrityPolicy        | Узел не настроен для использования политики целостности кода или не использует политику, доверенную для сервера HGS. Убедитесь, что политика целостности кода настроена, что узел был перезапущен и политика зарегистрирована на сервере HGS. Дополнительные сведения см. [в разделе Создание и применение политики целостности кода](guarded-fabric-tpm-trusted-attestation-capturing-hardware.md#create-and-apply-a-code-integrity-policy).
 DumpsEnabled               | Узел настроен для разрешения аварийных дампов или динамических дампов памяти, которые не допускаются политиками HGS. Чтобы устранить эту проблему, отключите дампы на узле.
-думпенкриптион             | Узел настроен для разрешения аварийных дампов или динамических дампов памяти, но не шифрует эти дампы. Отключите дампы на узле или [Настройте шифрование дампа](https://technet.microsoft.com/windows-server-docs/virtualization/hyper-v/manage/about-dump-encryption).
-думпенкриптионкэй          | Узел настроен для разрешения и шифрования дампов, но не использует сертификат, известный для его шифрования в службе HGS. Чтобы устранить эту проблему, [Обновите ключ шифрования дампа](https://technet.microsoft.com/windows-server-docs/virtualization/hyper-v/manage/about-dump-encryption) на узле или [зарегистрируйте ключ в HGS](guarded-fabric-manage-hgs.md#authorizing-new-guarded-hosts).
+думпенкриптион             | Узел настроен для разрешения аварийных дампов или динамических дампов памяти, но не шифрует эти дампы. Отключите дампы на узле или [Настройте шифрование дампа](../../virtualization/hyper-v/manage/about-dump-encryption.md).
+думпенкриптионкэй          | Узел настроен для разрешения и шифрования дампов, но не использует сертификат, известный для его шифрования в службе HGS. Чтобы устранить эту проблему, [Обновите ключ шифрования дампа](../../virtualization/hyper-v/manage/about-dump-encryption.md) на узле или [зарегистрируйте ключ в HGS](guarded-fabric-manage-hgs.md#authorizing-new-guarded-hosts).
 FullBoot                   | Узел возобновлен из состояния сна или спящего режима. Перезапустите узел, чтобы обеспечить чистую и полную загрузку.
-HibernationEnabled         | Узел настроен на разрешение гибернации без шифрования файла гибернации, что запрещено политиками HGS. Отключите режим гибернации и перезапустите узел или [Настройте шифрование дампа](https://technet.microsoft.com/windows-server-docs/virtualization/hyper-v/manage/about-dump-encryption).
+HibernationEnabled         | Узел настроен на разрешение гибернации без шифрования файла гибернации, что запрещено политиками HGS. Отключите режим гибернации и перезапустите узел или [Настройте шифрование дампа](../../virtualization/hyper-v/manage/about-dump-encryption.md).
 HypervisorEnforcedCodeIntegrityPolicy | Узел не настроен для использования политики целостности кода, принудительно применяемой гипервизором. Убедитесь, что целостность кода включена, настроена и принудительно применена гипервизором. Дополнительные сведения см. в разделе " [рекомендации по развертыванию Device Guard](https://technet.microsoft.com/itpro/windows/keep-secure/deploy-device-guard-deploy-code-integrity-policies) ".
 Iommu                      | Функции безопасности на основе виртуализации узла не настроены на требование наличия устройства IOMMU для защиты от атак прямого доступа к памяти в соответствии с требованиями политик HGS. Убедитесь, что на узле есть IOMMU, что он включен и что Device Guard [настроен для использования защиты DMA](https://technet.microsoft.com/itpro/windows/keep-secure/deploy-device-guard-enable-virtualization-based-security#enable-virtualization-based-security-vbs-and-device-guard) при запуске vbs.
-пажефилинкриптион         | Шифрование файла подкачки не включено на узле. Чтобы устранить эту проблему, выполните команду, `fsutil behavior set encryptpagingfile 1` чтобы включить шифрование файла подкачки. Дополнительные сведения см. в разделе [fsutil behavior](https://technet.microsoft.com/library/cc785435.aspx).
-SecureBoot                 | Безопасная загрузка либо не включена на этом узле, либо не использует шаблон безопасной загрузки Майкрософт. Чтобы устранить эту проблему, [включите безопасную загрузку](https://msdn.microsoft.com/windows/hardware/commercialize/manufacture/desktop/disabling-secure-boot#enable_secure_boot) с помощью шаблона безопасной загрузки Майкрософт.
+пажефилинкриптион         | Шифрование файла подкачки не включено на узле. Чтобы устранить эту проблему, выполните команду, `fsutil behavior set encryptpagingfile 1` чтобы включить шифрование файла подкачки. Дополнительные сведения см. в разделе [fsutil behavior](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc785435(v=ws.11)).
+SecureBoot                 | Безопасная загрузка либо не включена на этом узле, либо не использует шаблон безопасной загрузки Майкрософт. Чтобы устранить эту проблему, [включите безопасную загрузку](/windows-hardware/manufacture/desktop/disabling-secure-boot#enable_secure_boot) с помощью шаблона безопасной загрузки Майкрософт.
 секуребутсеттингс         | Базовый уровень доверенного платформенного модуля на этом узле не соответствует ни одному из доверенных в HGS. Это может произойти, если для запуска UEFI, переменная DBX, флаг отладки или пользовательские политики безопасной загрузки были изменены путем установки нового оборудования или программного обеспечения. Если вы доверяете текущему оборудованию, встроенному по и конфигурации программного обеспечения этого компьютера, вы можете [записать новый базовый модуль TPM](guarded-fabric-tpm-trusted-attestation-capturing-hardware.md#capture-the-tpm-baseline-for-each-unique-class-of-hardware) и [зарегистрировать его в HGS](guarded-fabric-manage-hgs.md#authorizing-new-guarded-hosts).
 ткглогверификатион         | Не удается получить или проверить журнал TCG (базовый уровень TPM). Это может указывать на проблему с встроенным по, TPM или другим аппаратным компонентом узла. Если узел настроен на попытку загрузки PXE перед загрузкой Windows, эта ошибка также может быть вызвана устаревшей программой сетевой загрузки (NBP). Убедитесь, что все состав в актуальном состоянии при включенной загрузке PXE.
-VirtualSecureMode          | На узле не выполняются функции безопасности на основе виртуализации. Убедитесь, что VBS включен и что система соответствует настроенным [функциям безопасности платформы](https://technet.microsoft.com/itpro/windows/keep-secure/deploy-device-guard-enable-virtualization-based-security#validate-enabled-device-guard-hardware-based-security-features). Дополнительные сведения о требованиях к VBS см. в [документации по Device Guard](https://technet.microsoft.com/itpro/windows/keep-secure/device-guard-deployment-guide) .
+VirtualSecureMode          | На узле не выполняются функции безопасности на основе виртуализации. Убедитесь, что VBS включен и что система соответствует настроенным [функциям безопасности платформы](https://technet.microsoft.com/itpro/windows/keep-secure/deploy-device-guard-enable-virtualization-based-security#validate-enabled-device-guard-hardware-based-security-features). Дополнительные сведения о требованиях к VBS см. в [документации по Device Guard](/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control-deployment-guide) .
 
 ## <a name="modern-tls"></a>Современный протокол TLS
 
@@ -90,4 +90,4 @@ reg add HKLM\SOFTWARE\Microsoft\.NETFramework\v4.0.30319 /v SystemDefaultTlsVers
 > [!WARNING]
 > Параметр системы версии TLS по умолчанию будет влиять на все приложения .NET на компьютере. Обязательно протестируйте разделы реестра в изолированной среде, прежде чем развертывать их на рабочих компьютерах.
 
-Дополнительные сведения о .NET 4,6 и TLS 1,0 см. [в разделе решение проблемы tls 1,0, 2-го выпуска](https://docs.microsoft.com/security/solving-tls1-problem).
+Дополнительные сведения о .NET 4,6 и TLS 1,0 см. [в разделе решение проблемы tls 1,0, 2-го выпуска](/security/solving-tls1-problem).

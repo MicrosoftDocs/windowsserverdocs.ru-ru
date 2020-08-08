@@ -6,12 +6,12 @@ ms.topic: article
 ms.assetid: f9945c55-c2d0-448f-86dd-8c734e1b2987
 ms.author: anpaul
 author: AnirbanPaul
-ms.openlocfilehash: fe5b9bc8c8b3b888b3c11a72c39756374cde566c
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: d9bba302c80a810e44c41079d7041b49741fd5b4
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87970831"
+ms.locfileid: "87995249"
 ---
 # <a name="contact-the-datacenter-and-cloud-networking-team"></a>Как связаться с рабочей группой Datacenter and Cloud Networking
 
@@ -31,10 +31,10 @@ ms.locfileid: "87970831"
 
 > GitHub — это лучшее место для обращения к нам по темам, которые содержат более подробные сведения, чем те, которые можно легко разместить в твите. *Нужна помощь с развертыванием SDN? Не знаете, как наши функции могут соответствовать уникальным потребностям вашей организации? Удерживается потенциальной ошибкой?* Все веские причины для того, чтобы приступить к работе с нами, отправив вопрос GitHub.
 
-## <a name="microsoft-docs"></a>[Microsoft Docs](https://docs.microsoft.com/)
-[Документацию по сетям контейнеров](https://docs.microsoft.com/virtualization/windowscontainers/manage-containers/container-networking) можно найти на [документация Майкрософт (Docs.Microsoft.com)](https://docs.microsoft.com/), которая содержит **встроенные функции комментирования**. Чтобы оставить или ответить на комментарий в Документация Майкрософт просто войти, прокрутите вниз до нижней части страницы Документация Майкрософт, на которую вы хотите создать ссылку, а затем внесите и отправьте комментарий.
+## <a name="microsoft-docs"></a>[Microsoft Docs](/)
+[Документацию по сетям контейнеров](/virtualization/windowscontainers/manage-containers/container-networking) можно найти на [документация Майкрософт (Docs.Microsoft.com)](/), которая содержит **встроенные функции комментирования**. Чтобы оставить или ответить на комментарий в Документация Майкрософт просто войти, прокрутите вниз до нижней части страницы Документация Майкрософт, на которую вы хотите создать ссылку, а затем внесите и отправьте комментарий.
 
-> [Документация Майкрософт](https://docs.microsoft.com/) — это новый унифицированный веб-сайт корпорации Майкрософт. Несмотря на то, что большая часть [документации по Sdn](https://technet.microsoft.com/windows-server-docs/networking/sdn/software-defined-networking) для нашей группы остается на TechNet, [Документация по сетям контейнера](https://docs.microsoft.com/virtualization/windowscontainers) теперь находится на документация Майкрософт.
+> [Документация Майкрософт](/) — это новый унифицированный веб-сайт корпорации Майкрософт. Несмотря на то, что большая часть [документации по Sdn](./software-defined-networking.md) для нашей группы остается на TechNet, [Документация по сетям контейнера](/virtualization/windowscontainers) теперь находится на документация Майкрософт.
 >
 > *В общем случае, если вы прийдете к разделу Документация Майкрософт, который потребует больше вопросов, просто оставьте комментарий на этой странице, чтобы поделиться своим мнением с командой Майкрософт, которая может помочь.*
 
