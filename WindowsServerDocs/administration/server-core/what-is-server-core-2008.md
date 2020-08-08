@@ -5,18 +5,18 @@ ms.author: helohr
 ms.date: 11/01/2017
 ms.topic: article
 author: heidilohr
-ms.openlocfilehash: 5cadad3dd8fafe28ba127610afd3dfa219f92b73
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: fb3e0b60787cb12c3401a14a54aebf4809c61b45
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87895850"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87993230"
 ---
 # <a name="what-is-server-core-2008"></a>Что такое Server Core 2008?
 >Область применения: Windows Server 2008
 
 >[!NOTE]
->Эти сведения относятся к Windows Server 2008. Сведения о Server Core в Windows Server см. в разделе [что такое установка основных серверных компонентов в Windows Server](https://docs.microsoft.com/windows-server/administration/server-core/what-is-server-core).
+>Эти сведения относятся к Windows Server 2008. Сведения о Server Core в Windows Server см. в разделе [что такое установка основных серверных компонентов в Windows Server](./what-is-server-core.md).
 
 Параметр Server Core — это новый вариант минимальной установки, доступный при развертывании выпуска Standard, Enterprise или Datacenter для Windows Server 2008. Server Core обеспечивает минимальную установку Windows Server 2008, которая поддерживает установку только определенных ролей сервера, как описано далее в этой главе. Сравните это с вариантом полной установки Windows Server 2008, который поддерживает установку всех доступных ролей сервера, а также других серверных приложений Майкрософт или сторонних производителей, таких как Microsoft Exchange Server или SAP.
 
@@ -131,7 +131,7 @@ ms.locfileid: "87895850"
 
 **Таблица 1-4** Сравнение функций для полных и серверных основных установок Windows Server 2008 Enterprise Edition
 
-| Признак  | Доступно в полной установке  | Доступно в Server Core  |
+| Функция  | Доступно в полной установке  | Доступно в Server Core  |
 | ------------- | :-------------: | :------------: |
 | Компоненты платформы .NET Framework 3.0.  | X  |  |
 | Шифрование диска BitLocker  | X  | X |

@@ -2,34 +2,32 @@
 title: Настройка программного балансировщика нагрузки для балансировки нагрузки и преобразования сетевых адресов (NAT)
 description: Эта статья является частью программно-определяемого сетевого руководства по управлению рабочими нагрузками клиентов и виртуальными сетями в Windows Server 2016.
 manager: grcusanz
-ms.prod: windows-server
-ms.technology: networking-sdn
 ms.topic: article
 ms.assetid: 73bff8ba-939d-40d8-b1e5-3ba3ed5439c3
 ms.author: anpaul
 author: AnirbanPaul
 ms.date: 08/23/2018
-ms.openlocfilehash: 8728ea8732c762003a2bd356d00b9776c82eb481
-ms.sourcegitcommit: b00d7c8968c4adc8f699dbee694afe6ed36bc9de
+ms.openlocfilehash: e7488c546753594f61e034b271fcaddfd52a0233
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "80854547"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87954050"
 ---
 # <a name="configure-the-software-load-balancer-for-load-balancing-and-network-address-translation-nat"></a>Настройка программного балансировщика нагрузки для балансировки нагрузки и преобразования сетевых адресов (NAT)
 
->Область применения: Windows Server (Semi-Annual Channel), Windows Server 2016
+>Применяется к: Windows Server (Semi-Annual Channel), Windows Server 2016
 
-С помощью этого раздела вы узнаете, как использовать программно определенную сеть \(SDN\) программной подсистемой балансировки нагрузки \(SLB\), чтобы обеспечить преобразование исходящего сетевого адреса \(\)NAT, входящего трафика NAT или балансировки нагрузки между несколькими экземплярами приложения.
+С помощью этого раздела вы узнаете, как использовать программно определяемую сетевую \( \) подсистему балансировки нагрузки Sdn \( \) для обеспечения исходящего трафика преобразования сетевых адресов \( NAT \) , входящего трафика NAT или балансировки нагрузки между несколькими экземплярами приложения.
 
 ## <a name="software-load-balancer-overview"></a>Обзор программного Load Balancer
 
-Программное обеспечение SDN Load Balancer \(SLB\) обеспечивает высокую доступность и производительность сети для приложений. Это уровень 4 \(TCP,\) балансировщик нагрузки, который распределяет входящий трафик между работоспособными экземплярами службы в облачных службах или виртуальных машинах, определенных в наборе подсистемы балансировки нагрузки.
+Программное обеспечение SDN Load Balancer \( SLB \) обеспечивает высокую доступность и производительность сети для приложений. Это \( TCP-балансировщик нагрузки уровня 4, \) который распределяет входящий трафик между работоспособными экземплярами службы в облачных службах или виртуальных машинах, определенных в наборе подсистемы балансировки нагрузки.
 
 Настройте SLB, чтобы сделать следующее:
 
-- Балансировка нагрузки входящего трафика, внешнего в виртуальной сети, на виртуальные машины \(ВМ\), также называемая балансировкой нагрузки общедоступных виртуальных IP-адресов.
-- Балансировка нагрузки входящего трафика между виртуальными машинами в виртуальной сети, между виртуальными машинами в облачных службах или между локальными компьютерами и виртуальными машинами в распределенной виртуальной сети. 
+- Балансировка нагрузки входящего трафика, внешнего в виртуальной сети, на виртуальные машины виртуальных машин \( \) , также называемая балансировкой нагрузки общедоступных виртуальных IP-адресов.
+- Балансировка нагрузки входящего трафика между виртуальными машинами в виртуальной сети, между виртуальными машинами в облачных службах или между локальными компьютерами и виртуальными машинами в распределенной виртуальной сети.
 - Пересылка сетевого трафика виртуальной машины из виртуальной сети во внешние назначения с помощью преобразования сетевых адресов (NAT), также называемого исходящим NAT.
 - Перенаправлять внешний трафик на определенную виртуальную машину, также называемую входящим NAT.
 
@@ -52,12 +50,12 @@ ms.locfileid: "80854547"
     $LoadBalancerProperties = new-object Microsoft.Windows.NetworkController.LoadBalancerProperties
    ```
 
-2. Назначьте IP-адрес внешнего интерфейса, который обычно называется виртуальным IP (VIP).<p>Виртуальный IP-адрес должен быть неиспользуемым в одном из пулов IP-адресов логической сети, предоставленных диспетчеру подсистемы балансировки нагрузки. 
+2. Назначьте IP-адрес внешнего интерфейса, который обычно называется виртуальным IP (VIP).<p>Виртуальный IP-адрес должен быть неиспользуемым в одном из пулов IP-адресов логической сети, предоставленных диспетчеру подсистемы балансировки нагрузки.
 
    ```PowerShell
     $VIPIP = "10.127.134.5"
     $VIPLogicalNetwork = get-networkcontrollerlogicalnetwork -ConnectionUri $uri -resourceid "PublicVIP" -PassInnerException
-    
+
     $FrontEndIPConfig = new-object Microsoft.Windows.NetworkController.LoadBalancerFrontendIpConfiguration
     $FrontEndIPConfig.ResourceId = "FE1"
     $FrontEndIPConfig.ResourceRef = "/loadBalancers/$LBResourceId/frontendIPConfigurations/$($FrontEndIPConfig.ResourceId)"
@@ -67,13 +65,13 @@ ms.locfileid: "80854547"
     $FrontEndIPConfig.Properties.Subnet.ResourceRef = $VIPLogicalNetwork.Properties.Subnets[0].ResourceRef
     $FrontEndIPConfig.Properties.PrivateIPAddress = $VIPIP
     $FrontEndIPConfig.Properties.PrivateIPAllocationMethod = "Static"
-      
+
     $LoadBalancerProperties.FrontEndIPConfigurations += $FrontEndIPConfig
    ```
 
-3. Выделите пул внутренних адресов, содержащий динамические IP-адреса (DIP), которые составляют элементы набора виртуальных машин с балансировкой нагрузки. 
+3. Выделите пул внутренних адресов, содержащий динамические IP-адреса (DIP), которые составляют элементы набора виртуальных машин с балансировкой нагрузки.
 
-   ```PowerShell 
+   ```PowerShell
     $BackEndAddressPool = new-object Microsoft.Windows.NetworkController.LoadBalancerBackendAddressPool
     $BackEndAddressPool.ResourceId = "BE1"
     $BackEndAddressPool.ResourceRef = "/loadBalancers/$LBResourceId/backendAddressPools/$($BackEndAddressPool.ResourceId)"
@@ -83,7 +81,7 @@ ms.locfileid: "80854547"
     $LoadBalancerProperties.backendAddressPools += $BackEndAddressPool
    ```
 
-4. Определите проверку работоспособности, используемую подсистемой балансировки нагрузки для определения состояния работоспособности членов внутреннего пула.<p>В этом примере определяется HTTP-зонд, который запрашивает RequestPath "/хеалс.хтм."  Запрос выполняется каждые 5 секунд, как указано свойством IntervalInSeconds.<p>Зонд работоспособности должен получить код HTTP-ответа 200 для 11 последовательных запросов, чтобы проверить, что серверный IP-адрес должен быть работоспособным. Если серверный IP-адрес находится в неработоспособном состоянии, он не получает трафик от балансировщика нагрузки.
+4. Определите проверку работоспособности, используемую подсистемой балансировки нагрузки для определения состояния работоспособности членов внутреннего пула.<p>В этом примере определяется HTTP-зонд, который запрашивает RequestPath "/health.htm".  Запрос выполняется каждые 5 секунд, как указано свойством IntervalInSeconds.<p>Зонд работоспособности должен получить код HTTP-ответа 200 для 11 последовательных запросов, чтобы проверить, что серверный IP-адрес должен быть работоспособным. Если серверный IP-адрес находится в неработоспособном состоянии, он не получает трафик от балансировщика нагрузки.
 
    >[!IMPORTANT]
    >Не блокируйте трафик с первого IP-адреса в подсети или из него для любых списков управления доступом (ACL), применяемых к внутреннему IP-адресу, так как это точка происхождения для проб.
@@ -113,7 +111,7 @@ ms.locfileid: "80854547"
 
    $Rule.Properties = new-object Microsoft.Windows.NetworkController.LoadBalancingRuleProperties
    $Rule.Properties.FrontEndIPConfigurations += $FrontEndIPConfig
-   $Rule.Properties.backendaddresspool = $BackEndAddressPool 
+   $Rule.Properties.backendaddresspool = $BackEndAddressPool
    $Rule.Properties.protocol = "TCP"
    $Rule.Properties.FrontEndPort = 80
    $Rule.Properties.BackEndPort = 80
@@ -134,7 +132,7 @@ ms.locfileid: "80854547"
 
 ## <a name="example-use-slb-for-outbound-nat"></a>Пример. Использование SLB для исходящего NAT
 
-В этом примере вы настраиваете SLB с внутренним пулом, обеспечивающим возможность исходящего трафика NAT для виртуальной машины в частном адресном пространстве виртуальной сети, чтобы обеспечить доступ к исходящим подключениям через Интернет. 
+В этом примере вы настраиваете SLB с внутренним пулом, обеспечивающим возможность исходящего трафика NAT для виртуальной машины в частном адресном пространстве виртуальной сети, чтобы обеспечить доступ к исходящим подключениям через Интернет.
 
 1. Создайте свойства балансировщика нагрузки, IP-адрес внешнего интерфейса и пул внутренних серверов.
 
@@ -174,7 +172,7 @@ ms.locfileid: "80854547"
    ```PowerShell
     $OutboundNAT = new-object Microsoft.Windows.NetworkController.LoadBalancerOutboundNatRule
     $OutboundNAT.ResourceId = "onat1"
-    
+
     $OutboundNAT.properties = new-object Microsoft.Windows.NetworkController.LoadBalancerOutboundNatRuleProperties
     $OutboundNAT.properties.frontendipconfigurations += $FrontEndIPConfig
     $OutboundNAT.properties.backendaddresspool = $BackEndAddressPool
@@ -192,10 +190,10 @@ ms.locfileid: "80854547"
 4. Выполните следующий пример, чтобы добавить сетевые интерфейсы, к которым требуется предоставить доступ в Интернет.
 
 ## <a name="example-add-network-interfaces-to-the-back-end-pool"></a>Пример. Добавление сетевых интерфейсов в серверный пул
-В этом примере вы добавляете сетевые интерфейсы в пул серверной части.  Этот шаг необходимо повторить для каждого сетевого интерфейса, который может обрабатывать запросы к виртуальному IP-адресу. 
+В этом примере вы добавляете сетевые интерфейсы в пул серверной части.  Этот шаг необходимо повторить для каждого сетевого интерфейса, который может обрабатывать запросы к виртуальному IP-адресу.
 
 Кроме того, этот процесс можно повторить на одном сетевом интерфейсе, чтобы добавить его в несколько объектов подсистемы балансировки нагрузки. Например, если у вас есть объект подсистемы балансировки нагрузки для виртуального IP-адреса сервера и отдельный объект балансировщика нагрузки для обеспечения исходящего трафика NAT.
-    
+
 1. Получите объект балансировщика нагрузки, содержащий серверный пул, для добавления сетевого интерфейса.
 
    ```PowerShell
@@ -208,13 +206,13 @@ ms.locfileid: "80854547"
    ```PowerShell
    $nic = get-networkcontrollernetworkinterface  -connectionuri $uri -resourceid 6daca142-7d94-0000-1111-c38c0141be06 -PassInnerException
    $nic.properties.IpConfigurations[0].properties.LoadBalancerBackendAddressPools += $lb.properties.backendaddresspools[0]
-   ```  
+   ```
 
-3. Установите сетевой интерфейс, чтобы применить изменение. 
+3. Установите сетевой интерфейс, чтобы применить изменение.
 
    ```PowerShell
    new-networkcontrollernetworkinterface  -connectionuri $uri -resourceid 6daca142-7d94-0000-1111-c38c0141be06 -properties $nic.properties -force -PassInnerException
-   ``` 
+   ```
 
 
 ## <a name="example-use-the-software-load-balancer-for-forwarding-traffic"></a>Пример. Использование Load Balancer программного обеспечения для перенаправления трафика
@@ -245,7 +243,7 @@ ms.locfileid: "80854547"
    ```
 
 ## <a name="example-use-the-software-load-balancer-for-forwarding-traffic-with-a-dynamically-allocated-vip"></a>Пример. Использование Load Balancer программного обеспечения для перенаправления трафика с динамически выделенным виртуальным IP-адресом
-В этом примере повторяется то же действие, что и в предыдущем примере, но он автоматически выделяет VIP из доступного пула виртуальных IP-адресов в подсистеме балансировки нагрузки вместо указания конкретного IP-адреса. 
+В этом примере повторяется то же действие, что и в предыдущем примере, но он автоматически выделяет VIP из доступного пула виртуальных IP-адресов в подсистеме балансировки нагрузки вместо указания конкретного IP-адреса.
 
 1. Создайте объект общедоступного IP-адреса, который будет содержать VIP.
 
@@ -262,7 +260,7 @@ ms.locfileid: "80854547"
     (Get-NetworkControllerPublicIpAddress -ConnectionUri $uri -ResourceId "MyPIP").properties
    ```
 
-   Свойство IpAddress содержит назначенный адрес.  Результат будет выглядеть примерно так:
+   Свойство IpAddress содержит назначенный адрес.  Выходные данные будут выглядеть следующим образом.
    ```
     Counters                 : {}
     ConfigurationState       :
@@ -275,7 +273,7 @@ ms.locfileid: "80854547"
     IpConfiguration          :
     PreviousIpConfiguration  :
    ```
- 
+
 3. Назначьте PublicIPAddress сетевому интерфейсу.
 
    ```PowerShell
@@ -284,7 +282,7 @@ ms.locfileid: "80854547"
    New-NetworkControllerNetworkInterface -ConnectionUri $uri -ResourceId $nic.ResourceId -Properties $nic.properties -PassInnerException
    ```
    ## <a name="example-remove-a-publicip-address-that-is-being-used-for-forwarding-traffic-and-return-it-to-the-vip-pool"></a>Пример. Удаление адреса PublicIP, который используется для перенаправления трафика, и его возврата в пул виртуальных IP-адресов
-   В этом примере удаляется ресурс PublicIPAddress, созданный в предыдущих примерах.  После удаления PublicIPAddress ссылка на PublicIPAddress будет автоматически удалена из сетевого интерфейса, пересылка трафика будет перенаправлена, а IP-адрес будет возвращен в пул общедоступных VIP для повторного использования.  
+   В этом примере удаляется ресурс PublicIPAddress, созданный в предыдущих примерах.  После удаления PublicIPAddress ссылка на PublicIPAddress будет автоматически удалена из сетевого интерфейса, пересылка трафика будет перенаправлена, а IP-адрес будет возвращен в пул общедоступных VIP для повторного использования.
 
 4. Удаление PublicIP
 
@@ -295,4 +293,3 @@ ms.locfileid: "80854547"
 ---
 
 
- 

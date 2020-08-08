@@ -1,26 +1,25 @@
 ---
 title: Развертывание графических устройств с помощью vGPU RemoteFX
 description: Узнайте, как развернуть и настроить RemoteFX на виртуальных GPU в Windows Server
-ms.prod: windows-server
 ms.reviewer: rickman
 author: rick-man
 ms.author: rickman
 manager: stevelee
 ms.topic: article
 ms.date: 07/14/2020
-ms.openlocfilehash: ab16dcdc8ce29f2440207ea5bbc7c421f171ed4a
-ms.sourcegitcommit: f81aa22739d818382d314561dece59a9341dfb6f
+ms.openlocfilehash: 9a060f1650d20a029d64739e1fc7f9be44d8355c
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "86390091"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87953442"
 ---
 # <a name="deploy-graphics-devices-using-remotefx-vgpu"></a>Развертывание графических устройств с помощью vGPU RemoteFX
 
 > Область применения: Windows Server 2016, Microsoft Hyper-V Server 2016
 
 > [!NOTE]
-> По соображениям безопасности виртуальный графический процессор RemoteFX по умолчанию отключен для всех версий Windows, начиная с 14 июля 2020 обновления безопасности. Дополнительные сведения см. в статье [KB 4570006](https://support.microsoft.com/help/4570006).
+> Из соображений безопасности процессор RemoteFX vGPU по умолчанию отключен для всех версий Windows, начиная с обновления для системы безопасности за 14 июля 2020 г. См. [KB 4570006](https://support.microsoft.com/help/4570006).
 
 Функция виртуальных машин для RemoteFX позволяет нескольким виртуальным машинам совместно использовать физический GPU. Визуализация и вычисление ресурсов динамически используются в виртуальных машинах, что делает виртуальную машину RemoteFX пригодной для высокопроизводительных рабочих нагрузок, когда выделенные ресурсы GPU не требуются. Например, в службе VDI виртуальный графический процессор RemoteFX можно использовать для разгрузки затрат на визуализацию приложений в GPU, что приводит к снижению нагрузки на ЦП и улучшению масштабируемости служб.
 
@@ -38,7 +37,7 @@ ms.locfileid: "86390091"
 
 Дополнительные рекомендации для гостевых виртуальных машин:
 
-- Функции OpenGL и OpenCL доступны только в гостевых ОС Windows 10 или Windows Server 2016.  
+- Функции OpenGL и OpenCL доступны только в гостевых ОС Windows 10 или Windows Server 2016.
 - DirectX 11,0 доступен только для гостей под Windows 8 или более поздней версии.
 
 ## <a name="enable-remotefx-vgpu"></a>Включить RemoteFX для виртуальных GPU

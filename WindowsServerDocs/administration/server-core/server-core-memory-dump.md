@@ -6,12 +6,12 @@ ms.sitesec: library
 author: lizap
 ms.localizationpriority: medium
 ms.date: 10/17/2017
-ms.openlocfilehash: ee5786684c4f3a6c75c3b123b9d3ef9d32143949
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: d01757fcf1539e41db866b46cdf9eba60a59fc04
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87895884"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87993206"
 ---
 # <a name="configure-memory-dump-files-for-server-core-installation"></a>Настройка файлов дампа памяти для установки Server Core
 
@@ -195,7 +195,4 @@ Shutdown / r / t 0
 
 Общие сведения об использовании файлов дампа памяти см. в разделе [Обзор параметров файла дампа памяти для Windows](https://support.microsoft.com/help/254649/overview-of-memory-dump-file-options-for-windows).
 
-Дополнительные сведения о выделенных файлах дампа см. в разделе [Использование значения реестра дедикатеддеумпфиле для преодоления ограничений на пространство на системном диске при записи дампа системной памяти](https://blogs.msdn.microsoft.com/ntdebugging/2010/04/02/how-to-use-the-dedicateddumpfile-registry-value-to-overcome-space-limitations-on-the-system-drive-when-capturing-a-system-memory-dump/).
-
-
-
+Дополнительные сведения о выделенных файлах дампа см. в разделе [Использование значения реестра дедикатеддеумпфиле для преодоления ограничений на пространство на системном диске при записи дампа системной памяти](/archive/blogs/ntdebugging/how-to-use-the-dedicateddumpfile-registry-value-to-overcome-space-limitations-on-the-system-drive-when-capturing-a-system-memory-dump).
