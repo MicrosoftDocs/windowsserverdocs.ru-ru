@@ -6,14 +6,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.prod: windows-server
-ms.technology: identity-adfs
-ms.openlocfilehash: dc6608713ddd60d20b0b717d4133d93d23fc7b25
-ms.sourcegitcommit: b00d7c8968c4adc8f699dbee694afe6ed36bc9de
+ms.openlocfilehash: b9f764b64a50b0c69116cf19e253097da464cdbb
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "80816257"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87954300"
 ---
 # <a name="manage-risk-with-additional-multi-factor-authentication-for-sensitive-applications"></a>управление рисками для уязвимых приложений с помощью дополнительной многофакторной проверки подлинности
 
@@ -26,7 +24,7 @@ ms.locfileid: "80816257"
 
 -   [Настройка дополнительных методов проверки подлинности для AD FS](../../ad-fs/operations/Configure-Additional-Authentication-Methods-for-AD-FS.md)
 
-## <a name="in-this-guide"></a>Содержание руководства
+## <a name="in-this-guide"></a>В данном руководстве
 Это руководство содержит следующую информацию:
 
 -   [Механизмы проверки подлинности в AD FS](../../ad-fs/operations/Manage-Risk-with-Additional-Multi-Factor-Authentication-for-Sensitive-Applications.md#BKMK_1) — описание механизмов проверки подлинности, доступных в службы федерации Active Directory (AD FS) (AD FS) в Windows Server 2012 R2
@@ -38,7 +36,7 @@ ms.locfileid: "80816257"
 
     Подробные пошаговые инструкции по настройке и проверке этого сценария см. в разделе [Пошаговое руководство. Управление рисками с помощью дополнительной многофакторной проверки подлинности для конфиденциальных приложений](../../ad-fs/operations/Manage-Risk-with-Additional-Multi-Factor-Authentication-for-Sensitive-Applications.md).
 
-## <a name="key-concepts---authentication-mechanisms-in-ad-fs"></a><a name="BKMK_1"></a>Основные понятия — механизмы проверки подлинности в AD FS
+## <a name="key-concepts---authentication-mechanisms-in-ad-fs"></a><a name="BKMK_1"></a>Основные концепции — способы проверки подлинности в AD FS
 
 ### <a name="benefits-of-authentication-mechanisms-in-ad---fs"></a>Преимущества способов проверки подлинности в AD FS
 Службы федерации Active Directory (AD FS) (AD FS) в Windows Server 2012 R2 предоставляет ИТ-администраторам более широкий и гибкий набор средств для проверки подлинности пользователей, желающих получить доступ к корпоративным ресурсам. Он позволяет администраторам гибко управлять основным и дополнительными методами проверки подлинности, предоставляет широкие возможности управления для настройки политик проверки подлинности (как с помощью пользовательского интерфейса, так и Windows PowerShell), а также повышает удобство работы конечных пользователей, обращающихся к приложениям и службам, защищенным AD FS. Ниже приведены некоторые преимущества защиты приложения и служб с помощью AD FS в Windows Server 2012 R2.
@@ -103,7 +101,7 @@ ms.locfileid: "80816257"
 ### <a name="configuring-mfa"></a>Настройка многофакторной проверки подлинности
 Настроить MFA в AD FS в Windows Server 2012 R2 можно двумя частями: Указание условий, при которых требуется MFA, и выбор дополнительного метода проверки подлинности. Дополнительные сведения о дополнительных методах проверки подлинности см. в разделе [Настройка дополнительных методов проверки подлинности для AD FS](../../ad-fs/operations/Configure-Additional-Authentication-Methods-for-AD-FS.md).
 
-**Параметры MFA**
+**Параметры многофакторной проверки подлинности**
 
 Для параметров многофакторной проверки подлинности доступны следующие варианты (условия, при которых обязательно применение многофакторной проверки подлинности):
 
@@ -146,9 +144,9 @@ ms.locfileid: "80816257"
 
     ```
 
-## <a name="see-also"></a>См. также
-[Пошаговое руководство. Управление рисками с помощью дополнительной многофакторной проверки подлинности для конфиденциальных приложений](../../ad-fs/operations/Walkthrough-Guide--Manage-Risk-with-Additional-Multi-Factor-Authentication-for-Sensitive-Applications.md)
-[настройке лабораторной среды для AD FS в Windows Server 2012 R2](../../ad-fs/deployment/Set-up-the-lab-environment-for-AD-FS-in-Windows-Server-2012-R2.md)
+## <a name="see-also"></a>См. также:
+[Пошаговое руководство. Управление рисками с помощью дополнительной многофакторной проверки подлинности для конфиденциальных приложений](../../ad-fs/operations/Walkthrough-Guide--Manage-Risk-with-Additional-Multi-Factor-Authentication-for-Sensitive-Applications.md) 
+ [Настройка лабораторной среды для AD FS в Windows Server 2012 R2](../../ad-fs/deployment/Set-up-the-lab-environment-for-AD-FS-in-Windows-Server-2012-R2.md)
 
 
 

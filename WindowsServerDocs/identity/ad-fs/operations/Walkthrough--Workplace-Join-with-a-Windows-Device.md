@@ -6,14 +6,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.prod: windows-server
-ms.technology: identity-adfs
-ms.openlocfilehash: 68249c4afcd3fc23f040020a221e53df6d2f6865
-ms.sourcegitcommit: b00d7c8968c4adc8f699dbee694afe6ed36bc9de
+ms.openlocfilehash: 4f2e3dbf5754b4b33aec972e40a91cbe67c82220
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "80816017"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87966981"
 ---
 # <a name="walkthrough-workplace-join-with-a-windows-device"></a>Пошаговое руководство: присоединение к рабочему месту с устройства Windows
 
@@ -28,13 +26,13 @@ ms.locfileid: "80816017"
 
 2. Откройте Internet Explorer и перейдите к общему приложению утверждений, **https://webserv1.contoso.com/claimapp** .
 
-3. Войдите на веб-страницу с помощью учетной записи домена организации: <strong>roberth@contoso.com</strong>, пароль: <strong>P@ssword</strong>.
+3. Войдите на веб-страницу, используя учетную запись домена организации: <strong>roberth@contoso.com</strong> , пароль: <strong>P@ssword</strong> .
 
 4. На веб-странице перечислены все утверждения маркера безопасности. В маркере безопасности присутствуют только пользовательские утверждения.
 
 5. Закройте Internet Explorer.
 
-6. Откройте Internet Explorer и перейдите к тому же приложению утверждений, **https://webserv1.contoso.com/claimapp** .
+6. Откройте Internet Explorer и перейдите к тому же приложению утверждений **https://webserv1.contoso.com/claimapp** .
 
 7. Обратите внимание, что система снова предложит ввести учетные данные. Вы не подключены к рабочему месту с устройства с использованием функции присоединения к рабочему месту, следовательно, единый вход не реализован.
 
@@ -42,7 +40,7 @@ ms.locfileid: "80816017"
 
 > [!IMPORTANT]
 > Для успешного присоединения к рабочему месту клиентский компьютер (Клиент1) должно доверять сертификату SSL, использованному для настройки служб федерации Active Directory (AD FS) в разделе [Step 2: Configure the Federation Server with Device Registration Service (ADFS1)](../deployment/Set-up-the-lab-environment-for-AD-FS-in-Windows-Server-2012-R2.md#BKMK_4). Он также должен иметь возможность проверить информацию об отзыве сертификата. В случае проблем с присоединением к рабочему месту можно просмотреть журнал событий на компьютере Клиент1.
-> 
+>
 > Чтобы просмотреть журнал событий, откройте компонент "Просмотр событий", последовательно разверните разделы **Журналы приложений и служб**, **Корпорация Майкрософт**, **Windows** и выберите **Присоединение к рабочему месту**.
 
 #### <a name="to-join-your-device-with-workplace-join"></a>Присоединение устройства с использованием функции присоединения к рабочему месту
@@ -53,9 +51,9 @@ ms.locfileid: "80816017"
 
 3. На странице **Параметры ПК** выберите **Сеть** и нажмите кнопку **Рабочее место**.
 
-4. В поле **Введите идентификатор пользователя, чтобы получить доступ к рабочему месту или включить управление устройством** введите <strong>roberth@contoso.com</strong>и нажмите кнопку **присоединиться**.
+4. В поле **Введите идентификатор пользователя, чтобы получить доступ к рабочему месту или включите управление устройством** , введите <strong>roberth@contoso.com</strong> и нажмите кнопку **присоединиться**.
 
-5. При появлении запроса на ввод учетных данных введите <strong>roberth@contoso.com</strong>и password: <strong>P@ssword</strong>. Нажмите кнопку **ОК**.
+5. Когда появится запрос на ввод учетных данных, введите <strong>roberth@contoso.com</strong> и пароль: <strong>P@ssword</strong> . Нажмите кнопку **ОК**.
 
 6. Должно отобразиться сообщение: "Это устройство присоединено к сети вашей рабочей области".
 
@@ -68,20 +66,20 @@ ms.locfileid: "80816017"
 
 2. Откройте Internet Explorer и перейдите к общему приложению утверждений, **https://webserv1.contoso.com/claimapp** .
 
-3. Войдите на веб-страницу с помощью учетной записи домена организации: <strong>roberth@contoso.com</strong>, пароль: <strong>P@ssword</strong>.
+3. Войдите на веб-страницу, используя учетную запись домена организации: <strong>roberth@contoso.com</strong> , пароль: <strong>P@ssword</strong> .
 
 4. На веб-странице перечислены утверждения маркера безопасности. Токен содержит утверждения пользователя и заявки на доступ.
 
 5. Закройте Internet Explorer.
 
-6. Откройте Internet Explorer и перейдите к тому же приложению утверждений, **https://webserv1.contoso.com/claimapp** .
+6. Откройте Internet Explorer и перейдите к тому же приложению утверждений **https://webserv1.contoso.com/claimapp** .
 
 7. Обратите внимание, что система **не** предлагает снова ввести учетные данные. Вы подключены к рабочему месту с устройства с использованием функции присоединения к рабочему месту, следовательно, единый вход реализован.
 
-## <a name="see-also"></a>См. также
-[Присоединение к рабочему месту с любого устройства для единого входа и однофакторной проверки подлинности в приложениях компании](Join-to-Workplace-from-Any-Device-for-SSO-and-Seamless-Second-Factor-Authentication-Across-Company-Applications.md)
-[настройке лабораторной среды для AD FS в Windows Server 2012 R2](../deployment/Set-up-the-lab-environment-for-AD-FS-in-Windows-Server-2012-R2.md)
-[пошаговое руководство. Workplace JOIN с помощью устройства iOS](Walkthrough--Workplace-Join-with-an-iOS-Device.md)
+## <a name="see-also"></a>См. также:
+[Присоединение к рабочему месту с любого устройства для единого входа и плавная проверка подлинности во всех приложениях компании](Join-to-Workplace-from-Any-Device-for-SSO-and-Seamless-Second-Factor-Authentication-Across-Company-Applications.md) 
+ [Настройка лабораторной среды для AD FS в Windows Server 2012 R2](../deployment/Set-up-the-lab-environment-for-AD-FS-in-Windows-Server-2012-R2.md) 
+ [Пошаговое руководство. Workplace JOIN с устройством iOS](Walkthrough--Workplace-Join-with-an-iOS-Device.md)
 
 
 

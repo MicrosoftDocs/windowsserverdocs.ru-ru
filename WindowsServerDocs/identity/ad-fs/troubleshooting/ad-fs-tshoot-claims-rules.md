@@ -6,20 +6,18 @@ ms.author: billmath
 manager: mtillman
 ms.date: 03/01/2018
 ms.topic: article
-ms.prod: windows-server
-ms.technology: identity-adfs
-ms.openlocfilehash: 94e841282963e2b2b6ada552b54c7732d965b6b6
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 349b673b7c062fd8f14d9a9fd857e1d7c859d3de
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86955976"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87954200"
 ---
 # <a name="ad-fs-troubleshooting---claims-rules-syntax"></a>AD FS устранение неполадок — синтаксис правил утверждений
 Утверждение — это оператор, который один субъект делает о себе или другой теме.  Утверждения выдаются проверяющей стороной и получают одно или несколько значений, а затем упаковываются в маркеры безопасности, выданные сервером AD FS.  В этой статье рассматривается синтаксис и создание заявок.  Сведения о выдаче утверждений см. в [статье AD FS устранение неполадок — выдача утверждений](ad-fs-tshoot-claims-issuance.md).
 
->[!NOTE]  
->[Клаимсксрай](https://adfshelp.microsoft.com/ClaimsXray/TokenRequest) можно использовать на [справочном сайте ADFS](https://adfshelp.microsoft.com) для помощи в устранении проблем с утверждениями.   
+>[!NOTE]
+>[Клаимсксрай](https://adfshelp.microsoft.com/ClaimsXray/TokenRequest) можно использовать на [справочном сайте ADFS](https://adfshelp.microsoft.com) для помощи в устранении проблем с утверждениями.
 
 ## <a name="how-claim-rules-are-processed"></a>Порядок обработки правил утверждений
 Правила утверждений обрабатываются через [конвейер утверждений](../../ad-fs/technical-reference/The-Role-of-the-Claims-Pipeline.md) с помощью [подсистемы утверждений](../../ad-fs/technical-reference/The-Role-of-the-Claims-Engine.md). Модуль утверждений — это логический компонент службы федерации, который проверяет набор входящих утверждений, представленный пользователем, и в соответствии с логикой каждого правила создает выходной набор утверждений.
@@ -34,9 +32,9 @@ ms.locfileid: "86955976"
 
 - Оператор выдачи
 
-Пример.
+Пример
 
-```c:[type == "Name", value == "domain user"] => issue(type = "Role", value = "employee");``` 
+```c:[type == "Name", value == "domain user"] => issue(type = "Role", value = "employee");```
 
 Следующее утверждение имеет следующие требования:
 - условие — `c:[type == "Name", value == "domain user"] ` оценивает входное утверждение того, является ли имя учетной записи Windows пользователь домена.
@@ -68,6 +66,6 @@ ms.locfileid: "86955976"
 
 В следующей [статье блога](/archive/blogs/tangent_thoughts/install-and-configure-a-simple-net-4-5-sample-federated-application-samapp) приводятся подробные инструкции по ее настройке.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Next Steps
 
 - [Устранение неполадок в AD FS](ad-fs-tshoot-overview.md)

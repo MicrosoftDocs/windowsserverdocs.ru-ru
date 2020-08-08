@@ -2,17 +2,16 @@
 title: Журнал производительности для кластеров
 ms.author: cosdar
 manager: eldenc
-ms.technology: storage-spaces
 ms.topic: article
 author: cosmosdarwin
 ms.date: 02/02/2018
 ms.localizationpriority: medium
-ms.openlocfilehash: e013295364ae2951ffe8a963fb61a85d7863f5b6
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: ea80be97e3940850f9892c50c534c3449fd3ecdb
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86962056"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87954671"
 ---
 # <a name="performance-history-for-clusters"></a>Журнал производительности для кластеров
 

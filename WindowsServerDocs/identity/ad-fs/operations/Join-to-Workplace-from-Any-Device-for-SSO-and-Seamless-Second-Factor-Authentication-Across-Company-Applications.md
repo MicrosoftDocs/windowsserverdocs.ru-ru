@@ -6,14 +6,12 @@ ms.author: billmath
 manager: femila
 ms.date: 12/05/2017
 ms.topic: article
-ms.prod: windows-server
-ms.technology: identity-adfs
-ms.openlocfilehash: ea421bb274ec7f6a6b1ba5be03391dd92fb10b33
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 584088900bea8acb83da076311d29ed5f45ea71e
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86955057"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87954240"
 ---
 # <a name="join-to-workplace-from-any-device-for-sso-and-seamless-second-factor-authentication-across-company-applications"></a>присоединение к рабочему месту с любого устройства для единого входа и эффективная двухфакторная аутентификация в приложениях компании
 
@@ -59,5 +57,5 @@ ms.locfileid: "86955057"
 
 3.  [Пошаговое руководство: Присоединение к рабочему месту с устройства Android](../../ad-fs/operations/walkthrough--workplace-join-to-an-android-device.md)
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также:
 [Настройка сервера федерации с помощью службы регистрации устройств](../deployment/configure-a-federation-server-with-device-registration-service.md)

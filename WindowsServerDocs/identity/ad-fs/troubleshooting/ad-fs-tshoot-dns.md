@@ -6,16 +6,14 @@ ms.author: billmath
 manager: mtillman
 ms.date: 01/03/2017
 ms.topic: article
-ms.prod: windows-server
-ms.technology: identity-adfs
-ms.openlocfilehash: a9be4a72cd60cfdd5807c67132dba837093be4db
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: b0134478ce0a4e91d6e33d5a0845a2be5df53d3f
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86959026"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87954180"
 ---
-# <a name="ad-fs-troubleshooting---dns"></a>Устранение неполадок AD FS — DNS 
+# <a name="ad-fs-troubleshooting---dns"></a>Устранение неполадок AD FS — DNS
 Одно из первых проверок, если AD FS не работает или не отвечает, является разрешением DNS-имен.  Это базовые тесты, позволяющие определить, находятся ли AD FS серверы или серверы WAP в сети.  Для внутренних пользователей эти тесты должны разрешаться на AD FS серверы (STS).    Для внешних пользователей эти тесты должны разрешаться на серверы WAP.
 
 В оставшейся части этого документа будет показано, как выполнять некоторые проверки быстрого разрешения имен с помощью программ командной строки.
@@ -51,6 +49,6 @@ ms.locfileid: "86959026"
 2. Введите tracert <name of adfs server> a. Пример: tracert sts.contoso.com
 3. Должен отобразиться целевой путь, используемый для доступа к tracert сервера. ![](media/ad-fs-tshoot-dns/dns3.png)
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Next Steps
 
 - [Устранение неполадок в AD FS](ad-fs-tshoot-overview.md)

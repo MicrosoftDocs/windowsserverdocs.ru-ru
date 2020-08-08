@@ -1,17 +1,15 @@
 ---
 title: Порты общего доступа к файлам и принтерам SMB должны быть открыты
 ms.date: 07/02/2012
-ms.prod: windows-server
-ms.technology: storage
 author: JasonGerend
 manager: elizapo
 ms.author: jgerend
-ms.openlocfilehash: d9d24f1ce66ca691bfa31479a00b9ecf719abe1e
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: dc2e1d7f5408ad123297b8df2dc06f59053fe870
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86961306"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87954771"
 ---
 # <a name="smb-file-and-printer-sharing-ports-should-be-open"></a>SMB: необходимо открыть порты для совместного использования файлов и принтеров
 
@@ -72,6 +70,6 @@ ms.locfileid: "86961306"
 
 4.  Щелкните правой кнопкой мыши на каждом правиле и нажмите **Включить правило**.
 
-## <a name="additional-references"></a>Дополнительные ссылки
+## <a name="additional-references"></a>Дополнительная справка
 
 Общие [сведения об общих папках и брандмауэре Windows](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc731402(v=ws.11))(https://technet.microsoft.com/library/cc731402.aspx)

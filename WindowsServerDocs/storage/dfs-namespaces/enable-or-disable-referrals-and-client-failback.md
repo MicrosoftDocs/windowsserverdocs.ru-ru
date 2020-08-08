@@ -2,18 +2,16 @@
 title: Включение и отключение ссылок и переключение клиента на основной ресурс
 description: В этой статье описывается включение и отключение ссылок и переключение клиента на основной ресурс.
 ms.date: 6/5/2017
-ms.prod: windows-server
-ms.technology: storage
 ms.topic: article
 author: JasonGerend
 manager: brianlic
 ms.author: jgerend
-ms.openlocfilehash: 3896b411ee8b02a0efde6b46484e043b27ffea77
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 0336588dcf0c170698c89b32a29952916bd26100
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86966516"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87954761"
 ---
 # <a name="enable-or-disable-referrals-and-client-failback"></a>Включение и отключение ссылок и переключение клиента на основной ресурс
 

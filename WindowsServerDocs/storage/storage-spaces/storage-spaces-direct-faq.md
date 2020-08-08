@@ -1,19 +1,17 @@
 ---
 title: Локальные дисковые пространства-часто задаваемые вопросы
 description: Узнайте, как насчет Локальные дисковые пространства
-ms.prod: windows-server
 ms.author: kaushik
-ms.technology: storage-spaces
 ms.topic: article
 author: kaushika-msft
 ms.date: 10/24/2018
 ms.localizationpriority: medium
-ms.openlocfilehash: 5c033a5a810d1cdedeb4c733ba4bf0ac99e669f0
-ms.sourcegitcommit: 3483f886f331b9d954a0e5dba8e910dbe5ee5765
+ms.openlocfilehash: 9371403fedce0383be117728da48eec70745c3a7
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "82977252"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87954621"
 ---
 # <a name="storage-spaces-direct---frequently-asked-questions-faq"></a>Локальные дисковые пространства-часто задаваемые вопросы
 
@@ -57,7 +55,7 @@ ms.locfileid: "82977252"
 
 ## <a name="is-there-a-calculator-that-shows-the-exact-size-of-the-disks-that-are-being-set-aside-for-cache-capacity-and-resiliency-that-would-enable-me-to-plan-better"></a>Есть ли калькулятор, показывающий точный размер дисков, которые задаются для кэша, емкости и устойчивости, что позволит мне лучше спланировать их?
 
-С помощью калькулятора дисковых пространств можно помочь в планировании. Он доступен по адресу https://aka.ms/s2dcalc.
+С помощью калькулятора дисковых пространств можно помочь в планировании. Он доступен по адресу https://aka.ms/s2dcalc .
 
 ## <a name="what-is-the-best-configuration-that-you-would-recommend-when-configuring-6-servers-and-3-racks"></a>Какова лучшая конфигурация, рекомендуемая при настройке 6 серверов и 3 стоек?
 

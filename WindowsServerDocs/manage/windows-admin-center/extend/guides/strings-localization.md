@@ -1,19 +1,17 @@
 ---
 title: Строки и локализация в центре администрирования Windows
 description: Сведения о том, как подготовить строки для локализации в пакете SDK для Windows Admin Center (проект Хонолулу)
-ms.technology: manage
 ms.topic: article
 author: nwashburn-ms
 ms.author: niwashbu
 ms.date: 06/18/2018
 ms.localizationpriority: medium
-ms.prod: windows-server
-ms.openlocfilehash: 61289ae175ca8b906386cff9e36f5023ea28d051
-ms.sourcegitcommit: 6aff3d88ff22ea141a6ea6572a5ad8dd6321f199
+ms.openlocfilehash: 565e4da69466549538c380457269304c7f1cdd5a
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71385237"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87944924"
 ---
 # <a name="strings-and-localization-in-windows-admin-center"></a>Строки и локализация в центре администрирования Windows #
 
@@ -38,21 +36,21 @@ ms.locfileid: "71385237"
 MsftSme.resourcesStrings<Strings>().HelloWorld.cim.title;
 ```
 
-## <a name="add-other-languages-for-localization"></a>Добавить другие языки для локализации ## 
+## <a name="add-other-languages-for-localization"></a>Добавить другие языки для локализации ##
 
-Для локализации на другие языки необходимо создать файл strings. resjson для каждого языка. Эти файлы должны быть местами в ```\loc\output\{!ExtensionName}\{!LanguageFolder}\strings.resjson```. Доступные языки с соответствующими папками:
+Для локализации на другие языки необходимо создать файл strings. resjson для каждого языка. Эти файлы должны быть местами в ```\loc\output\{!ExtensionName}\{!LanguageFolder}\strings.resjson``` . Доступные языки с соответствующими папками:
 
 | Язык      | Папка      |
 | ------------- |-------------|
 | Čeština | cs-CZ |
 | Deutsch | de-DE |
-| Английский | en-US |
+| Английский | ru-RU |
 | Español | es-ES |
-| Français | fr-FR | 
-| Magyar | hu-HU | 
+| Français | fr-FR |
+| Magyar | hu-HU |
 | Italiano | it-IT |
-| 日本語 | ja-JP | 
-| 한국어 | ko-KR | 
+| 日本語 | ja-JP |
+| 한국어 | ko-KR |
 | Nederlands | nl-NL |
 | Polski | pl-PL |
 | Português (Brasil) | pt-BR |
@@ -60,21 +58,21 @@ MsftSme.resourcesStrings<Strings>().HelloWorld.cim.title;
 | Русский | ru-RU |
 | Svenska | sv-SE |
 | Türkçe    | tr-TR |
-| 中文(简体) | zh-CN |
-| 中文(繁體) | zh-TW |
+| 中文 (简体) | zh-CN |
+| 中文 (繁體) | zh-TW |
 > [!NOTE]
-> Если потребности в структуре файлов различаются в LOC/Output, необходимо настроить Локалеоффсет для задачи gulp "Generate-RESJSON-JSON-локализованный", которая находится в gulpfile. js. Это смещение является глубоким для папки loc, в которой он должен начинать поиск файлов strings. resjson.
+> Если в языке Loc/Output требуются разные структуры файлов, необходимо настроить Локалеоффсет для задачи gulp "Generate-RESJSON-JSON-локализованный", которая находится в gulpfile.js. Это смещение является глубоким для папки loc, в которой он должен начинать поиск файлов strings. resjson.
 
-Каждый файл strings. resjson будет отформатирован так же, как упоминалось ранее в верхней части этого раздела. 
+Каждый файл strings. resjson будет отформатирован так же, как упоминалось ранее в верхней части этого раздела.
 
-Например, чтобы включить локализацию для Espaсol, включите следующую запись в ```\loc\output\HelloWorld\es-ES\strings.resjson```: 
+Например, чтобы включить локализацию для Espaсol, включите следующую запись в ```\loc\output\HelloWorld\es-ES\strings.resjson``` :
 ```json
 "HelloWorld_cim_title": "CIM Componente",
 ```
-В любое время, когда вы добавили локализованные строки, для их появления необходимо запустить gulp. Выполните:
+В любое время, когда вы добавили локализованные строки, для их появления необходимо запустить gulp. Выполните команду:
 ``` cmd
-gulp generate 
+gulp generate
 ```
 
-Чтобы убедиться, что строки созданы, перейдите к ```\src\app\assets\strings\{!LanguageFolder}\strings.resjson```. Недавно добавленная запись появится в этом файле.
-Теперь при переключении языка в центре администрирования Windows вы увидите локализованные строки в расширении. 
+Чтобы убедиться, что строки созданы, перейдите к ```\src\app\assets\strings\{!LanguageFolder}\strings.resjson``` . Недавно добавленная запись появится в этом файле.
+Теперь при переключении языка в центре администрирования Windows вы увидите локализованные строки в расширении.

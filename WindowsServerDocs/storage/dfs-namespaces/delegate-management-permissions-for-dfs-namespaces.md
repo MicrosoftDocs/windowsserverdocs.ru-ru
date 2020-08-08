@@ -2,18 +2,16 @@
 title: Делегирование прав управления пространствами имен DFS
 description: В этой статье рассматривается, как делегировать права управления пространствами имен DFS, а также какие группы могут по умолчанию выполнять задачи, связанные с пространствами имен.
 ms.date: 6/5/2017
-ms.prod: windows-server
-ms.technology: storage
 ms.topic: article
 author: JasonGerend
 manager: brianlic
 ms.author: jgerend
-ms.openlocfilehash: 838b8c716618bf10b900c12b118e940e318b56a2
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: a986c47416de79c9ff24d9104a2fa599dd5f8640
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86965876"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87954791"
 ---
 # <a name="delegate-management-permissions-for-dfs-namespaces"></a>Делегирование прав управления пространствами имен DFS
 

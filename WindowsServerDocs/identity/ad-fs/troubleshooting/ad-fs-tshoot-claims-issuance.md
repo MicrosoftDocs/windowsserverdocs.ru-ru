@@ -6,22 +6,20 @@ ms.author: billmath
 manager: mtillman
 ms.date: 01/03/2017
 ms.topic: article
-ms.prod: windows-server
-ms.technology: identity-adfs
-ms.openlocfilehash: ea0e6112f00f9cace6a0c580661a5319b5adaea5
-ms.sourcegitcommit: 6aff3d88ff22ea141a6ea6572a5ad8dd6321f199
+ms.openlocfilehash: 9eb5ce1ee92e828cc1fd6ceb40ddddec453afe87
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71366240"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87954190"
 ---
 # <a name="ad-fs-troubleshooting---claims-issuance"></a>Устранение неполадок AD FS — выдача утверждений
 Утверждение — это оператор, который один субъект делает о себе или другой теме.  Утверждения выдаются проверяющей стороной и получают одно или несколько значений, а затем упаковываются в маркеры безопасности, выданные сервером AD FS.  Так как в этом процессе имеется несколько движущихся частей, выдача заявок может быть разбита на эти ключевые части.
 
->[!NOTE]  
->[Клаимсксрай](https://adfshelp.microsoft.com/ClaimsXray/TokenRequest) можно использовать на [справочном сайте ADFS](https://adfshelp.microsoft.com) для помощи в устранении проблем с утверждениями.   
+>[!NOTE]
+>[Клаимсксрай](https://adfshelp.microsoft.com/ClaimsXray/TokenRequest) можно использовать на [справочном сайте ADFS](https://adfshelp.microsoft.com) для помощи в устранении проблем с утверждениями.
 
-## <a name="token-request"></a>Запрос токена
+## <a name="token-request"></a>Запрос маркера
 При переходе к проверяющей стороне она перенаправит вас на AD FS с запросом маркера.  При запросе могут возникнуть проблемы.  Особенно важно:
 
 ### <a name="the-request-formatting-with-3rd-parties-particularly-saml"></a>Форматирование запросов с третьими сторонами (в частности SAML)

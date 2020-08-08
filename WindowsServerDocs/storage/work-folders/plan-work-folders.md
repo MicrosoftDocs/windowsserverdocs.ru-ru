@@ -1,20 +1,18 @@
 ---
 ms.assetid: a7c39656-81ee-4c2b-80ef-4d017dd11b07
 title: Планирование развертывания рабочих папок
-ms.prod: windows-server
-ms.technology: storage-work-folders
 ms.topic: article
 author: JasonGerend
 manager: dongill
 ms.author: jgerend
 ms.date: 4/5/2017
 description: 'Как спланировать развертывание рабочих папок: требования к системе и подготовка сетевой среды.'
-ms.openlocfilehash: 603711676aa5f35047b0623694f3a16922a2b240
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 3f082a9542853f822b2b493cf3dabafe2cd65add
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86960006"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87954591"
 ---
 # <a name="planning-a-work-folders-deployment"></a>Планирование развертывания рабочих папок
 
@@ -60,7 +58,7 @@ ms.locfileid: "86960006"
 
 -   Компьютеры должны работать под управлением одной из следующих операционных систем:
 
-    -   Windows 10
+    -   быть под управлением ОС Windows 10;
 
     -   Windows 8.1
 
@@ -256,4 +254,4 @@ ms.locfileid: "86960006"
 |Тип содержимого|Ссылки|
 |------------------|----------------|
 |**Оценка продукта**|-   [Рабочие папки](work-folders-overview.md)<br />-   [Рабочие папки для Windows 7](https://techcommunity.microsoft.com/t5/storage-at-microsoft/bg-p/FileCAB) (запись блога)|
-|**Deployment**|-   [Разработка реализации рабочих папок](plan-work-folders.md)<br />-   [Развертывание рабочих папок](deploy-work-folders.md)<br />-   [Развертывание рабочих папок с помощью AD FS и прокси веб-приложения (WAP)](deploy-work-folders-adfs-overview.md)<br />- [Развертывание рабочих папок с помощью прокси-сервера приложения Azure AD](https://techcommunity.microsoft.com/t5/storage-at-microsoft/bg-p/FileCAB)<br />-   [Рекомендации по производительности при развертывании рабочих папок](../../remote/remote-access/web-application-proxy/web-application-proxy-windows-server.md)<br />-   [Рабочие папки для Windows 7 (Загрузка 64-бит)](https://www.microsoft.com/download/details.aspx?id=42558)<br />-   [Рабочие папки для Windows 7 (Загрузка 32-бит)](https://www.microsoft.com/download/details.aspx?id=42559)<br />-   [Развертывание тестовой лаборатории рабочих папок](https://techcommunity.microsoft.com/t5/storage-at-microsoft/bg-p/FileCAB) (запись блога)|
+|**Развертывание**|-   [Разработка реализации рабочих папок](plan-work-folders.md)<br />-   [Развертывание рабочих папок](deploy-work-folders.md)<br />-   [Развертывание рабочих папок с помощью AD FS и прокси веб-приложения (WAP)](deploy-work-folders-adfs-overview.md)<br />- [Развертывание рабочих папок с помощью прокси-сервера приложения Azure AD](https://techcommunity.microsoft.com/t5/storage-at-microsoft/bg-p/FileCAB)<br />-   [Рекомендации по производительности при развертывании рабочих папок](../../remote/remote-access/web-application-proxy/web-application-proxy-windows-server.md)<br />-   [Рабочие папки для Windows 7 (Загрузка 64-бит)](https://www.microsoft.com/download/details.aspx?id=42558)<br />-   [Рабочие папки для Windows 7 (Загрузка 32-бит)](https://www.microsoft.com/download/details.aspx?id=42559)<br />-   [Развертывание тестовой лаборатории рабочих папок](https://techcommunity.microsoft.com/t5/storage-at-microsoft/bg-p/FileCAB) (запись блога)|

@@ -6,14 +6,12 @@ ms.author: billmath
 manager: femila
 ms.date: 07/26/2019
 ms.topic: article
-ms.prod: windows-server
-ms.technology: identity-adfs
-ms.openlocfilehash: 5a7279416746269a3886fe929d066a6397be838a
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 66ef77b46065b87e6df08c63b0fb40ca4453c45b
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86962526"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87954260"
 ---
 # <a name="configure-additional-authentication-methods-for-ad-fs"></a>Настройка дополнительных методов проверки подлинности для службы федерации Active Directory
 
@@ -30,7 +28,7 @@ ms.locfileid: "86962526"
 Ниже приведен алфавитный список поставщиков Майкрософт и сторонних поставщиков с предложениями многофакторной проверки подлинности, которые в настоящий момент доступны для службы федерации Active Directory в Windows Server 2012 R2.
 
 |Поставщик|Предложение|Ссылки на дополнительные сведения|
-|-|-|-| 
+|-|-|-|
 |аперсона|Аперсона Адаптивная многофакторная проверка подлинности для единого входа Microsoft ADFS|[Адаптер ADFS Аперсона ASM](https://www.apersona.com/adfs)|
 |Циферкор Inc.|Многофакторная проверка подлинности Логинтк для AD FS|[Соединитель AD FS Логинтк](https://www.logintc.com/docs/connectors/adfs.html)|
 |Duo Security|Адаптер MFA для AD FS|[Duo для проверки подлинности AD FS](https://duo.com/docs/adfs)|

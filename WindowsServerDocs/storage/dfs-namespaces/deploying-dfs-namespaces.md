@@ -2,26 +2,24 @@
 title: Развертывание пространств имен DFS
 description: В этой статье рассматривается, как развертывать пространства имен DFS.
 ms.date: 6/5/2017
-ms.prod: windows-server
-ms.technology: storage
 ms.topic: article
 author: JasonGerend
 manager: brianlic
 ms.author: jgerend
-ms.openlocfilehash: 5ce0b24c723d2bdb311a83af63714ca0a4344252
-ms.sourcegitcommit: 6aff3d88ff22ea141a6ea6572a5ad8dd6321f199
+ms.openlocfilehash: 3f31e1f58acd5273986f0d1e1c1d9c7db5e93ec3
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71402241"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87954781"
 ---
 # <a name="deploying-dfs-namespaces"></a>Развертывание пространств имен DFS
 
-> Относится к: Windows Server 2019, Windows Server (половина ежегодного канала), Windows Server 2016, Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2, Windows Server 2008
+> Область применения: Windows Server 2019, Windows Server (половина ежегодного канала), Windows Server 2016, Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2, Windows Server 2008
 
 Для развертывания пространств имен DFS см. следующие разделы:
 
--   [Выберите тип пространства имен](choose-a-namespace-type.md)
+-   [Выбор типа пространств имен](choose-a-namespace-type.md)
 -   [Создание пространства имен DFS](create-a-dfs-namespace.md)
 -   [Перенос доменного пространства имен в режим Windows Server 2008](migrate-a-domain-based-namespace-to-windows-server-2008-mode.md)
 -   [Добавление серверов пространств имен в доменное пространство имен DFS](add-namespace-servers-to-a-domain-based-dfs-namespace.md)

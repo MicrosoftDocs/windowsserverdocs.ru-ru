@@ -1,22 +1,20 @@
 ---
-title: Устранение неполадок DHCP-клиента
+title: Устранение неполадок на клиенте DHCP
 description: В этом артилцее объясняется, как устранять неполадки на DHCP-клиенте и получать данные.
-ms.prod: windows-server
 ms.service: na
 manager: dcscontentpm
-ms.technology: server-general
 ms.date: 5/26/2020
 ms.topic: article
 author: Deland-Han
 ms.author: delhan
-ms.openlocfilehash: a6064b9e497fcd54671292ade77a08c06ba42920
-ms.sourcegitcommit: ef089864980a1d4793a35cbf4cbdd02ce1962054
+ms.openlocfilehash: 650b3f83ebd0467df2a747d865db2d0a346bcddc
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84150302"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87954581"
 ---
-# <a name="troubleshoot-problems-on-the-dhcp-client"></a>Устранение неполадок DHCP-клиента
+# <a name="troubleshoot-problems-on-the-dhcp-client"></a>Устранение неполадок на клиенте DHCP
 
 В этой статье описывается, как устранять неполадки, возникающие на DHCP-клиентах.
 
@@ -38,12 +36,12 @@ ms.locfileid: "84150302"
 
 ## <a name="event-logs"></a>Журналы событий
 
-Изучите журналы событий администратора Microsoft-Windows-DHCP Client Events/Operation и Microsoft-Windows-DHCP Client Events. Все события, связанные со службой клиента DHCP, отправляются в эти журналы событий.  
+Изучите журналы событий администратора Microsoft-Windows-DHCP Client Events/Operation и Microsoft-Windows-DHCP Client Events. Все события, связанные со службой клиента DHCP, отправляются в эти журналы событий.
 События клиента Microsoft-Windows-DHCP находятся в Просмотр событий в разделе **журналы приложений и служб**.
 
 Команда PowerShell Get-NetAdapter-Инклудехидден предоставляет необходимые сведения для интерпретации событий, перечисленных в журналах. Например, идентификатор интерфейса, MAC-адрес и т. д.
 
-## <a name="data-collection"></a>сбор данных
+## <a name="data-collection"></a>Сбор данных
 
 При возникновении проблемы рекомендуется одновременно выполнять одновременное получение данных как на клиенте DHCP, так и на стороне сервера. Однако в зависимости от фактической проблемы можно начать исследование, используя один набор данных на DHCP-клиенте или DHCP-сервере.
 
@@ -52,7 +50,7 @@ ms.locfileid: "84150302"
 На клиенте, на котором возникла проблема, выполните следующие команды:
 
 ```console
-ipconfig /release  
+ipconfig /release
 ipconfig /renew
 ```
 

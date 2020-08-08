@@ -2,30 +2,28 @@
 title: Очистка данных об использовании
 description: Этот раздел является частью руководства по управлению IP-адресами (IPAM) в Windows Server 2016.
 manager: brianlic
-ms.prod: windows-server
-ms.technology: networking-ipam
 ms.topic: article
 ms.assetid: 45cada9e-69b9-43df-b6f5-6d3942435809
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: a4454131c6a73626b0668b3ca3ab4eefb3e3334f
-ms.sourcegitcommit: b00d7c8968c4adc8f699dbee694afe6ed36bc9de
+ms.openlocfilehash: 8ac13abad7b55e3bb592efc63b8d05d85c13f41d
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "80860627"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87944686"
 ---
 # <a name="purge-utilization-data"></a>Очистка данных об использовании
 
->Область применения: Windows Server (Semi-Annual Channel), Windows Server 2016
+>Применяется к: Windows Server (Semi-Annual Channel), Windows Server 2016
 
-С помощью этого раздела можно узнать, как удалить данные об использовании из базы данных IPAM.  
+С помощью этого раздела можно узнать, как удалить данные об использовании из базы данных IPAM.
 
 Для выполнения этой процедуры необходимо быть членом группы "Администраторы **IPAM**", " **Администраторы** локального компьютера" или эквивалентными.
 
-## <a name="to-purge-the-ipam-database"></a>Очистка базы данных IPAM  
+## <a name="to-purge-the-ipam-database"></a>Очистка базы данных IPAM
 1. Откройте диспетчер сервера, а затем перейдите к интерфейсу клиента IPAM.
-2. Перейдите в одно из следующих расположений: **блоки IP-адресов**, **Инвентаризация IP-адресов**или **группы диапазонов IP-адресов**.  
+2. Перейдите в одно из следующих расположений: **блоки IP-адресов**, **Инвентаризация IP-адресов**или **группы диапазонов IP-адресов**.
 3. Щелкните **задачи**, а затем — **Очистить данные об использовании**. Откроется диалоговое окно « **Очистка данных об использовании** ».
 4. В окне **Очистить все данные об использовании на или ранее**нажмите кнопку **выбрать дату**.
 5. Выберите дату, для которой необходимо удалить все записи базы данных как в, так и до этой даты.

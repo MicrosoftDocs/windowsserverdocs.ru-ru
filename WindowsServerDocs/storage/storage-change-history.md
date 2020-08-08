@@ -1,20 +1,18 @@
 ---
 ms.assetid: 87174225-a60f-4718-b4cc-9b172f205b72
 title: Журнал изменений разделов, посвященных хранилищу
-ms.prod: windows-server
-ms.technology: storage
 ms.topic: article
 author: JasonGerend
 manager: brianlic
 ms.author: jgerend
 ms.date: 1/16/2019
 description: Новые и обновленные разделы документации по локальному хранилищу для Windows Server для ИТ-специалистов.
-ms.openlocfilehash: 3d43166d8f5e931d2677ff394c1c4ad69b0f302f
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: c4ba7edcbd2a0cf4949c986dec2e2aef385326c8
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86966266"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87954631"
 ---
 # <a name="change-history-for-storage-topics-in-windows-server"></a>Журнал изменений разделов, посвященных хранилищу в Windows Server
 
@@ -190,7 +188,7 @@ ms.locfileid: "86966266"
 
 |Новая или измененная статья|Описание|
 |---|---|
-|[Новые возможности в хранилище](whats-new-in-storage.md)|Добавлены сведения о новых возможностях Windows Server версии 1709.|
+|[Новые возможности хранения](whats-new-in-storage.md)|Добавлены сведения о новых возможностях Windows Server версии 1709.|
 |[Добавление серверов или дисков](storage-spaces/add-nodes.md)|Добавлены сведения о том, как Локальные дисковые пространства автоматически оптимизирует использование диска после добавления дисков.|
 
 ## <a name="october-2017"></a>Октябрь 2017 г.
@@ -222,7 +220,7 @@ ms.locfileid: "86966266"
 |[Развертывание локальных дисковых пространств](storage-spaces/deploy-storage-spaces-direct.md)|Удален сервер Nano Server из поддерживаемых способов установки.|
 |[Диспетчер ресурсов файлового сервера](fsrm/fsrm-overview.md)|Новый раздел для Windows Server 2016.|
 
-## <a name="may-2017"></a>Май 2017 г.
+## <a name="may-2017"></a>Май 2017 г.
 
 |                                                           Новая или измененная статья                                                           |                                          Описание                                           |
 |------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
@@ -232,7 +230,7 @@ ms.locfileid: "86966266"
 |               [Часто задаваемые вопросы о реплике хранилища](storage-replica/storage-replica-frequently-asked-questions.md)                |             Добавлены сведения о том, как выбрать подходящую топологию репликации.              |
 |               [Требования к оборудованию Локальные дисковые пространства](storage-spaces/storage-spaces-direct-hardware-requirements.md)               |                    Изменены требования к износостойкости кэш-дисков.                     |
 
-## <a name="april-2017"></a>Апрель 2017 г.
+## <a name="april-2017"></a>Апрель 2017 г.
 
 |Новая или измененная статья|Описание|
 |---|---|
