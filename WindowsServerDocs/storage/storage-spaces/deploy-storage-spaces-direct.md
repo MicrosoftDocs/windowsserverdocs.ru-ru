@@ -8,12 +8,12 @@ author: stevenek
 ms.date: 07/24/2020
 description: Пошаговые инструкции по развертыванию программно-определяемого хранилища с Локальные дисковые пространства в Windows Server в качестве инфраструктуры гиперконвергентном или конвергенции (также известной как агрегированная).
 ms.localizationpriority: medium
-ms.openlocfilehash: a15f9df55fd5650443f4d0220dee6b4ada9253d2
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: f0115e76ca297fa0af5fc57e197d75e428cb3e72
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87971111"
+ms.locfileid: "87997571"
 ---
 # <a name="deploy-storage-spaces-direct"></a>Развертывание локальных дисковых пространств
 
@@ -49,7 +49,7 @@ ms.locfileid: "87971111"
 
 Первым шагом является установка Windows Server на каждом сервере, который будет находиться в кластере. Для Локальные дисковые пространства требуется Windows Server 2016 Datacenter Edition. Можно использовать вариант установки Server Core или сервер с возможностями рабочего стола.
 
-При установке Windows Server с помощью мастера установки можно выбрать вариант между *Windows Server* (ссылка на ядро сервера) и *Windows Server (сервер с возможностями рабочего стола)*, который является эквивалентом *полной* установки, доступной в Windows Server 2012 R2. Если вы не выбираете, вы получите вариант установки Server Core. Дополнительные сведения см. в разделе [Параметры установки для Windows Server 2016](../../get-started/Windows-Server-2016.md).
+При установке Windows Server с помощью мастера установки можно выбрать вариант между *Windows Server* (ссылка на ядро сервера) и *Windows Server (сервер с возможностями рабочего стола)*, который является эквивалентом *полной* установки, доступной в Windows Server 2012 R2. Если вы не выбираете, вы получите вариант установки Server Core. Дополнительные сведения см. в разделе [Параметры установки для Windows Server 2016](../../index.yml).
 
 ### <a name="step-12-connect-to-the-servers"></a>Шаг 1,2. подключение к серверам
 

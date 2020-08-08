@@ -6,14 +6,12 @@ ms.author: joflore
 manager: mtillman
 ms.date: 05/08/2018
 ms.topic: article
-ms.prod: windows-server
-ms.technology: identity-adds
-ms.openlocfilehash: 3755f1cdaa5dfb49083c9e3c3e8b6a8c4edb40d2
-ms.sourcegitcommit: 3632b72f63fe4e70eea6c2e97f17d54cb49566fd
+ms.openlocfilehash: 23959e4f373afbd745e5f1c8c4b760d766ab53e3
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87518852"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87943269"
 ---
 # <a name="executive-summary"></a>Аннотация
 

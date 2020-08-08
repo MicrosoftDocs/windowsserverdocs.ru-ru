@@ -6,12 +6,12 @@ ms.topic: article
 ms.assetid: 6de4232d-b0b3-4e43-8735-ebae35ae4f9f
 author: dcuomo
 ms.author: dacuo
-ms.openlocfilehash: 5a0f8d372c8e84e6e9140ef40f89c1fa7b116355
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 0059e04b79754a3fb183a51cbd75bc03e9a89ae5
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87940005"
+ms.locfileid: "87997545"
 ---
 # <a name="windows-server-supported-networking-scenarios"></a>Поддерживаемые сценарии сетевого взаимодействия в Windows Server
 
@@ -170,7 +170,7 @@ ms.locfileid: "87940005"
 
 — Это альтернативное решение для объединения сетевых карт, которое можно использовать в средах, включающих Hyper-V и стек программно-определяемых сетей (SDN) в Windows Server 2016. Установите некоторые функции объединения сетевых карт в виртуальный коммутатор Hyper-V.
 
-Дополнительные сведения см. в разделе [Удаленный доступ к памяти (RDMA) и объединение коммутаторов (Set) Embedded](https://technet.microsoft.com/windows-server-docs/networking/technologies/hyper-v-virtual-switch/rdma-and-switch-embedded-teaming) .
+Дополнительные сведения см. в разделе [Удаленный доступ к памяти (RDMA) и объединение коммутаторов (Set) Embedded](../virtualization/hyper-v-virtual-switch/rdma-and-switch-embedded-teaming.md) .
 
 
 
@@ -180,6 +180,3 @@ ms.locfileid: "87940005"
 -   Виртуальные сети клиента на основе виртуальной ЛС.
 
 -   IPv6 не поддерживается ни в ундерлай, ни в наложении.
-
-
-

@@ -2,18 +2,16 @@
 title: Создание отчетов по требованию
 description: В этой статье описывается, как создавать отчеты по требованию с целью анализа использования диска на сервере
 ms.date: 7/7/2017
-ms.prod: windows-server
-ms.technology: storage
 ms.topic: article
 author: JasonGerend
 manager: brianlic
 ms.author: jgerend
-ms.openlocfilehash: 1802ab4fdabafd0a0344922fd861087c166d4499
-ms.sourcegitcommit: 771db070a3a924c8265944e21bf9bd85350dd93c
+ms.openlocfilehash: a44db85dee565bfa3c6032d52b4d752c61c09cc0
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85474221"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87961368"
 ---
 # <a name="generate-reports-on-demand"></a>Создание отчетов по требованию
 

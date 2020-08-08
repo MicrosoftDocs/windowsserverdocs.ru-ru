@@ -7,12 +7,12 @@ ms.author: nedpyle
 manager: jgerend
 ms.date: 01/28/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: 2a93051f4b8aa95f5e48604a5ac7cc9f4c8242a2
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: c9401d19472e362ee411613ee97caa3428c35e4f
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87940055"
+ms.locfileid: "87997535"
 ---
 # <a name="deploy-azure-virtual-machines-from-within-windows-admin-center"></a>Развертывание виртуальных машин Azure в центре администрирования Windows
 
@@ -20,7 +20,7 @@ ms.locfileid: "87940055"
 
 Центр администрирования Windows версии 1910 позволяет развертывать виртуальные машины Azure. Это обеспечивает интеграцию развертывания виртуальной машины с управляемыми рабочими нагрузками центра администрирования Windows, такими как [Служба переноса хранилища](../../../storage/storage-migration-service/overview.md) и [Реплика хранилища](../../../storage/storage-replica/storage-replica-overview.md). Вместо создания новых серверов и виртуальных машин на портале Azure вручную перед развертыванием рабочей нагрузки и, возможно, отсутствующими необходимыми действиями и настройками, центр администрирования Windows может развернуть виртуальную машину Azure, настроить ее хранилище, присоединить к домену, установить роли, а затем настроить распределенную систему. Вы также можете развернуть новые виртуальные машины Azure без рабочей нагрузки на странице подключения центра администрирования Windows.
 
-Центр администрирования Windows также управляет различными службами Azure. [Узнайте больше о вариантах интеграции с Azure, доступных в центре администрирования Windows](../plan/azure-integration-options.md).
+Центр администрирования Windows также управляет различными службами Azure. [Узнайте больше о вариантах интеграции с Azure, доступных в центре администрирования Windows](./index.md).
 
 Если вы хотите переносить виртуальные машины в Azure, а не создавать новые, рассмотрите возможность использования службы "миграция Azure". Дополнительные сведения см. в статье [Обзор службы миграции Azure](https://go.microsoft.com/fwlink/?linkid=2056064).
 
@@ -38,8 +38,8 @@ ms.locfileid: "87940055"
 
 - [Подписка Azure](https://azure.microsoft.com).
 - [Шлюз центра администрирования Windows, зарегистрированный в Azure](azure-integration.md)
-- Существующая [Группа ресурсов Azure](https://docs.microsoft.com/azure/azure-resource-manager/management/overview) , в которой имеются разрешения на создание.
-- Существующая [Виртуальная сеть](https://docs.microsoft.com/azure/virtual-network/virtual-networks-overview) и подсеть Azure.
+- Существующая [Группа ресурсов Azure](/azure/azure-resource-manager/management/overview) , в которой имеются разрешения на создание.
+- Существующая [Виртуальная сеть](/azure/virtual-network/virtual-networks-overview) и подсеть Azure.
 - [Azure Express Route](https://azure.microsoft.com/services/expressroute/) или [решение VPN Azure](https://azure.microsoft.com/services/vpn-gateway/) , привязанное к виртуальной сети и подсети, которые обеспечивают подключение между виртуальными машинами Azure и локальными клиентами, контроллерами домена, компьютером центра администрирования Windows и любыми серверами, которые требуют связи с этой виртуальной машиной в рамках развертывания рабочей нагрузки. Например, чтобы использовать службу миграции хранилища для переноса хранилища на виртуальную машину Azure, компьютер Orchestrator и исходный компьютер должны иметь возможность связаться с целевой виртуальной машиной Azure, на которую выполняется миграция.
 
 ## <a name="usage"></a>Использование

@@ -7,12 +7,12 @@ ms.assetid: bc4a4971-f727-40cd-91f5-2ee6d24b54cb
 author: kbdazure
 ms.author: kathydav
 ms.date: 9/30/2016
-ms.openlocfilehash: 56d9f862d4bd31ac8fba08837e59c94b865f7b1a
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: d0cbbc79fe1dc942dfe79ca9dbe81769dd112730
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87970031"
+ms.locfileid: "87997622"
 ---
 # <a name="system-requirements-for-hyper-v-on-windows-server"></a>Требования к системе для Hyper-V в Windows Server
 
@@ -22,7 +22,7 @@ Hyper-V предъявляют определенные требования к 
 
 Если вы уже используете Hyper-V, скорее всего, вы можете использовать имеющееся оборудование. Общие требования к оборудованию значительно не изменились в Windows Server 2012 R2.  Но вам потребуется более новое оборудование для использования экранированных виртуальных машин или назначения дискретных устройств. Эти функции полагаются на конкретную аппаратную поддержку, как описано ниже. В отличие от этого, основное различие в оборудовании заключается в том, что вместо него требуется преобразование адресов второго уровня (SLAT).
 
-Подробные сведения о максимальной поддерживаемые конфигурации для Hyper-V, например количество виртуальные машины в разделе [Планирование масштабируемость Hyper-V в Windows Server 2016](plan/Plan-for-Hyper-V-scalability-in-Windows-Server-2016.md). Список операционных систем, которые можно запустить на виртуальных машинах, см. в статье [Поддерживаемые гостевые операционные системы Windows для Hyper-V в Windows Server](Supported-Windows-guest-operating-systems-for-Hyper-V-on-Windows.md).
+Подробные сведения о максимальной поддерживаемые конфигурации для Hyper-V, например количество виртуальные машины в разделе [Планирование масштабируемость Hyper-V в Windows Server 2016](./plan/plan-hyper-v-scalability-in-windows-server.md). Список операционных систем, которые можно запустить на виртуальных машинах, см. в статье [Поддерживаемые гостевые операционные системы Windows для Hyper-V в Windows Server](Supported-Windows-guest-operating-systems-for-Hyper-V-on-Windows.md).
 
 ## <a name="general-requirements"></a>Общие требования
 
@@ -89,4 +89,3 @@ Systeminfo.exe
 
 - 2-е поколение
 - Windows Server 2012 или более новая версия в качестве операционной системы на виртуальной машине
-

@@ -6,14 +6,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.prod: windows-server
-ms.technology: identity-adfs
-ms.openlocfilehash: ab3c72e2e418450509e4ffce57a41e88cd60f47d
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.openlocfilehash: ad4275bf7b6231692171209b19c4c60190e30126
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87182370"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87942980"
 ---
 # <a name="appendix-a-reviewing-ad-fs-requirements"></a>Приложение A. Анализ требований AD FS
 

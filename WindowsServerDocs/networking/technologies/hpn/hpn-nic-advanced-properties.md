@@ -7,16 +7,16 @@ manager: dougkim
 ms.author: lizross
 author: eross-msft
 ms.date: 09/20/2018
-ms.openlocfilehash: aa26e3ef83ec6255da6a386ecfce34a7501ae3f5
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: ce9c4049ab701d647701029f41d2570b7fc8cd03
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87955641"
+ms.locfileid: "87997654"
 ---
 # <a name="nic-advanced-properties"></a>Дополнительные свойства NIC
 
-Управлять сетевыми картами и всеми функциями можно через Windows PowerShell с помощью командлета [NetAdapter](https://docs.microsoft.com/powershell/module/netadapter/?view=win10-ps&viewFallbackFrom=winserverr2-ps) .  Также можно управлять сетевыми картами и всеми функциями с помощью панели управления сетью (ncpa.cpl).
+Управлять сетевыми картами и всеми функциями можно через Windows PowerShell с помощью командлета [NetAdapter](/powershell/module/netadapter/?view=win10-ps&viewFallbackFrom=winserverr2-ps) .  Также можно управлять сетевыми картами и всеми функциями с помощью панели управления сетью (ncpa.cpl).
 
 1. В **Windows PowerShell**выполните `Get‑NetAdapterAdvancedProperties` командлет для двух различных способов создания или модели сетевых карт.
 

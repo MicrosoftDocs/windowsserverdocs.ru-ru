@@ -6,12 +6,12 @@ author: jwwool
 ms.author: jeffrew
 ms.date: 04/12/2019
 ms.localizationpriority: medium
-ms.openlocfilehash: b4ae232d47398800ecae8500cff6726128f22b83
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 381073ad383913684b1b861883b981a19583767f
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87971991"
+ms.locfileid: "87997526"
 ---
 # <a name="deploy-windows-admin-center-in-azure"></a>Развертывание Windows Admin Center в Azure
 
@@ -29,7 +29,7 @@ ms.locfileid: "87971991"
 
 При указании собственного сертификата:
 
-* Отправьте сертификат в [Azure Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-whatis). Сначала создайте хранилище ключей на портале Azure, а затем отправьте сертификат в хранилище ключей. Кроме того, для создания сертификата можно использовать портал Azure.
+* Отправьте сертификат в [Azure Key Vault](/azure/key-vault/key-vault-whatis). Сначала создайте хранилище ключей на портале Azure, а затем отправьте сертификат в хранилище ключей. Кроме того, для создания сертификата можно использовать портал Azure.
 
 ### <a name="script-parameters"></a>Параметры скрипта
 

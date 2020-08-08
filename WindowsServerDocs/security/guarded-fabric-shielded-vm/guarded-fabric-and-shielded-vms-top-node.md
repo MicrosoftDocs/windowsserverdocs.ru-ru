@@ -6,12 +6,12 @@ manager: dongill
 author: rpsqrd
 ms.author: ryanpu
 ms.date: 08/29/2018
-ms.openlocfilehash: 7a73bf1b677d09cc31783b58148c8ca7c581fbca
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: c3f17320432d44a84be05040e23e7af30995c969
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87971381"
+ms.locfileid: "87997555"
 ---
 # <a name="guarded-fabric-and-shielded-vms"></a>Защищенная структура и экранированные виртуальные машины
 
@@ -28,7 +28,7 @@ ms.locfileid: "87971381"
 - Видео. [Введение в экранированные виртуальные машины в Windows Server 2016](https://channel9.msdn.com/Shows/Mechanics/Introduction-to-Shielded-Virtual-Machines-in-Windows-Server-2016)
 - Видео. перейдем [к экранированным виртуальным машинам с помощью Windows Server 2016 Hyper-V](https://channel9.msdn.com/events/Ignite/2016/BRK3124)
 - Видео. [развертывание экранированных виртуальных машин и защищенной структуры с помощью Windows Server 2016](https://mva.microsoft.com/training-courses/deploying-shielded-vms-and-a-guarded-fabric-with-windows-server-2016-17131?l=WFLef7vUD_4604300474)
-- Блог: [блог по безопасности центра обработки данных и частного облака](https://blogs.technet.microsoft.com/datacentersecurity/)
+- Блог: [блог по безопасности центра обработки данных и частного облака](/archive/blogs/datacentersecurity/)
 - Обзор: [Обзор защищенной структуры и экранированных виртуальных машин](Guarded-Fabric-and-Shielded-VMs.md)
 
 ## <a name="planning-topics"></a>Разделы, посвященные планированию
@@ -46,7 +46,7 @@ ms.locfileid: "87971381"
         - [Развертывание защищенного узла в режиме AD](guarded-fabric-admin-trusted-attestation-creating-a-security-group.md)
         - [Развертывание защищенного узла с помощью режима TPM](guarded-fabric-tpm-trusted-attestation-capturing-hardware.md)
         - [Подтверждение аттестации защищенных узлов](guarded-fabric-confirm-hosts-can-attest-successfully.md)
-        - [Экранированные виртуальные машины: поставщик служб размещения развертывает защищенные узлы в VMM](https://technet.microsoft.com/system-center-docs/vmm/scenario/guarded-hosts)
+        - [Экранированные виртуальные машины: поставщик служб размещения развертывает защищенные узлы в VMM](/system-center/vmm/guarded-deploy-host?view=sc-vmm-2019)
     - [Развертывание экранированных виртуальных машин](guarded-fabric-configuration-scenarios-for-shielded-vms-overview.md)
         - [Создание шаблона экранированной виртуальной машины](guarded-fabric-create-a-shielded-vm-template.md)
         - [Подготовка виртуального жесткого диска экранирования виртуальной машины](guarded-fabric-vm-shielding-helper-vhd.md)

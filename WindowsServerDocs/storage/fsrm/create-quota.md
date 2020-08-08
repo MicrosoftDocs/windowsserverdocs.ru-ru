@@ -2,18 +2,16 @@
 title: Создание квоты
 description: В этой статье описывается процесс создания квоты на основе шаблона
 ms.date: 7/7/2017
-ms.prod: windows-server
-ms.technology: storage
 ms.topic: article
 author: JasonGerend
 manager: brianlic
 ms.author: jgerend
-ms.openlocfilehash: b3513510ef00eec7ea78a3193cf44c25ddb17c7e
-ms.sourcegitcommit: 771db070a3a924c8265944e21bf9bd85350dd93c
+ms.openlocfilehash: ce4aa23aac2ccceed8b3600418609a7678e2227f
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85475221"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87961468"
 ---
 # <a name="create-a-quota"></a>Создание квоты
 
@@ -47,7 +45,7 @@ ms.locfileid: "85475221"
 
 6.  В разделе **Наследовать свойства из следующего шаблона квоты** шаблон, используемый в шаге 2 для создания новой квоты, будет предустановлен (или можно выбрать другой шаблон в списке). Обратите внимание, что свойства шаблона отображаются в разделе **Сводка свойств квоты**.
 
-7.  Нажмите кнопку **Создать**.
+7.  Нажмите **Создать**.
 
 ## <a name="additional-references"></a>Дополнительные ссылки
 

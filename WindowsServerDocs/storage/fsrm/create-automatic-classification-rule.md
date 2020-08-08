@@ -2,18 +2,16 @@
 title: Создание правила автоматической классификации
 description: В этой статье описывается процесс создания правила классификации для свойства.
 ms.date: 7/7/2017
-ms.prod: windows-server
-ms.technology: storage
 ms.topic: article
 author: JasonGerend
 manager: brianlic
 ms.author: jgerend
-ms.openlocfilehash: 9fc2034905408975f82f9348f151d99df17f9d3a
-ms.sourcegitcommit: 771db070a3a924c8265944e21bf9bd85350dd93c
+ms.openlocfilehash: 3793e8cd7f72e9e8d365df855c8c3450d9107f9b
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85475401"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87961478"
 ---
 # <a name="create-an-automatic-classification-rule"></a>Создание правила автоматической классификации
 

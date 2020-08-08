@@ -1,27 +1,25 @@
 ---
 title: Установка роли Hyper-V в Windows Server
 description: Содержит инструкции по установке Hyper-V с помощью диспетчер сервера или Windows PowerShell.
-ms.prod: windows-server
 manager: dongill
-ms.technology: compute-hyper-v
 ms.topic: get-started-article
 ms.assetid: 8e871317-09d2-4314-a6ec-ced12b7aee89
 author: kbdazure
 ms.author: kathydav
 ms.date: 12/02/2016
-ms.openlocfilehash: 5bd77284fd73d75075cec307e989274c86552209
-ms.sourcegitcommit: 771db070a3a924c8265944e21bf9bd85350dd93c
+ms.openlocfilehash: 32632e7af3db0c3b390606bc784b929e76b2892f
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85475651"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87997595"
 ---
 # <a name="install-the-hyper-v-role-on-windows-server"></a>Установка роли Hyper-V в Windows Server
 
 >Область применения. Windows Server 2016, Windows Server 2019
 
 Чтобы создать и запустить виртуальные машины, установите роль Hyper-V в Windows Server с помощью диспетчер сервера или командлета **Install-WindowsFeature** в Windows PowerShell.
-Для Windows 10 см. статью [Установка Hyper-V в Windows 10](https://docs.microsoft.com/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v).
+Для Windows 10 см. статью [Установка Hyper-V в Windows 10](/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v).
 
 Дополнительные сведения о Hyper-V см. в статье [Обзор технологии Hyper-v](../Hyper-V-Technology-Overview.md). Чтобы испытать Windows Server 2019, можно скачать и установить ознакомительную версию. См. [Центр оценки](https://www.microsoft.com/evalcenter/evaluate-windows-server-2019).
 
@@ -35,7 +33,7 @@ ms.locfileid: "85475651"
 
 1. В **диспетчере серверов** в меню **Управление** выберите **Добавить роли и компоненты**.
 
-2. На странице **Приступая к работе** убедитесь, что конечный сервер и сетевое окружение подготовлены к установке нужной вам роли или компонента. Нажмите кнопку **Далее**.
+2. На странице **Приступая к работе** убедитесь, что конечный сервер и сетевое окружение подготовлены к установке нужной вам роли или компонента. Щелкните **Далее**.
 
 3. На странице **Выбор типа установки** выберите **Установка ролей или компонентов** и нажмите кнопку **Далее**.
 
@@ -78,4 +76,4 @@ ms.locfileid: "85475651"
 
 ## <a name="additional-references"></a>Дополнительные ссылки
 
-- [Install-WindowsFeature](https://docs.microsoft.com/powershell/module/Microsoft.Windows.ServerManager.Migration/Install-WindowsFeature)
+- [Install-WindowsFeature](/powershell/module/Microsoft.Windows.ServerManager.Migration/Install-WindowsFeature)

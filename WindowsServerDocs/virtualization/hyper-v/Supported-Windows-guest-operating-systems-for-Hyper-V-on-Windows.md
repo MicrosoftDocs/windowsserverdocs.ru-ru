@@ -7,12 +7,12 @@ ms.assetid: 06b35897-2192-48b7-8c2d-125c520b0786
 author: lizap
 ms.author: elizapo
 ms.date: 01/08/2019
-ms.openlocfilehash: a3c1f82d1c1f12c51a36a8285d28ccb9402f2817
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 53036a353fa08b7be06aae6b4b70353a8a99ea0e
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87963710"
+ms.locfileid: "87997632"
 ---
 # <a name="supported-windows-guest-operating-systems-for-hyper-v-on-windows-server"></a>Поддерживаемые гостевые операционные системы Windows для Hyper-V в Windows Server
 
@@ -20,7 +20,7 @@ ms.locfileid: "87963710"
 
 Hyper-V поддерживает несколько версий дистрибутивов Windows Server, Windows и Linux для работы на виртуальных машинах в качестве гостевых операционных систем. В этой статье рассматриваются поддерживаемые операционные системы Windows Server и гостевые ОС Windows. Сведения о дистрибутивах Linux и FreeBSD см. [в статье Поддерживаемые виртуальные машины Linux и FreeBSD для Hyper-V в Windows](Supported-Linux-and-FreeBSD-virtual-machines-for-Hyper-V-on-Windows.md).
 
-Некоторые операционные системы имеют встроенные службы Integration Services. Для других требуется установить или обновить службы Integration Services как отдельный шаг после настройки операционной системы на виртуальной машине. Дополнительные сведения см. в разделах ниже и [Integration Services](https://docs.microsoft.com/virtualization/hyper-v-on-windows/reference/integration-services).
+Некоторые операционные системы имеют встроенные службы Integration Services. Для других требуется установить или обновить службы Integration Services как отдельный шаг после настройки операционной системы на виртуальной машине. Дополнительные сведения см. в разделах ниже и [Integration Services](/virtualization/hyper-v-on-windows/reference/integration-services).
 
 ## <a name="supported-windows-server-guest-operating-systems"></a>Поддерживаемые гостевые операционные системы Windows Server
 
@@ -55,7 +55,7 @@ Hyper-V поддерживает несколько версий дистриб�
 
 |Главная операционная система|Раздел|
 |-------------------------|---------|
-|быть под управлением ОС Windows 10;|[Поддерживаемые гостевые операционные системы для клиента Hyper-V в Windows 10](https://docs.microsoft.com/virtualization/hyper-v-on-windows/about/supported-guest-os)|
+|быть под управлением ОС Windows 10;|[Поддерживаемые гостевые операционные системы для клиента Hyper-V в Windows 10](/virtualization/hyper-v-on-windows/about/supported-guest-os)|
 |Windows Server 2012 R2 и Windows 8.1|-   [Поддерживаемые гостевые операционные системы Windows для Hyper-V в Windows Server 2012 R2 и Windows 8.1](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn792027(v=ws.11))<br />-   [Виртуальные машины Linux и FreeBSD в Hyper-V](Supported-Linux-and-FreeBSD-virtual-machines-for-Hyper-V-on-Windows.md)|
 |Windows Server 2012 и Windows 8|[Поддерживаемые операционные системы Windows на виртуальных машинах для Hyper-V в Windows Server 2012 и Windows 8](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn792028(v=ws.11))|
 |Windows Server 2008 и Windows Server 2008 R2|[О виртуальных машинах и гостевых операционных системах](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc794868(v=ws.10))|
@@ -74,8 +74,4 @@ Hyper-V поддерживает несколько версий дистриб�
 
 -   [Supported Linux and FreeBSD virtual machines for Hyper-V on Windows](Supported-Linux-and-FreeBSD-virtual-machines-for-Hyper-V-on-Windows.md) (Поддерживаемые виртуальные машины Linux и FreeBSD для Hyper-V в Windos).
 
--   [Поддерживаемые гостевые операционные системы для клиента Hyper-V в Windows 10](https://docs.microsoft.com/virtualization/hyper-v-on-windows/about/supported-guest-os)
-
-
-
-
+-   [Поддерживаемые гостевые операционные системы для клиента Hyper-V в Windows 10](/virtualization/hyper-v-on-windows/about/supported-guest-os)

@@ -5,12 +5,12 @@ ms.topic: article
 ms.author: asmahi; sandysp; jopoulso
 author: phstee
 ms.date: 10/16/2017
-ms.openlocfilehash: 6322d7f32c78109623a06a7674c08f76a2d5d542
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: d19790a6a86c7538ee3a062b3f08bbbdbc8b9d92
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87896089"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87992085"
 ---
 # <a name="hyper-v-storage-io-performance"></a>Производительность операций ввода-вывода хранилища Hyper-V
 
@@ -230,7 +230,7 @@ Hyper-V в Windows Server 2012 R2 и более поздних версиях п
 
 -   Общие VHDX не поддерживаются
 
-Дополнительные сведения о качеству обслуживания хранилища см. в статье [качество обслуживания хранилища для Hyper-V](https://technet.microsoft.com/library/dn282281.aspx).
+Дополнительные сведения о качеству обслуживания хранилища см. в статье [качество обслуживания хранилища для Hyper-V](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn282281(v=ws.11)).
 
 ### <a name="numa-io"></a>ВВОД-ВЫВОД NUMA
 
