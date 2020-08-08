@@ -8,12 +8,12 @@ manager: dcscontentpm
 ms.author: v-tea
 author: Teresa-Motiv
 ms.date: 12/23/2019
-ms.openlocfilehash: a29830fe5f6f23138b5872b95926ae7dc8834ae4
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 0b6b09960e6d5f344aa4873d4c821ebdfb6f6a30
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87955591"
+ms.locfileid: "87994224"
 ---
 # <a name="performance-tuning-network-adapters"></a>Настройка производительности сетевых адаптеров
 
@@ -79,7 +79,7 @@ RSS способно повысить веб-масштабируемость и
 
 Ниже приведены некоторые советы по настройке производительности для загруженных сетей, в которых на счету каждая микросекунда.
 
-- В BIOS компьютера установите значение **High Performance** (Высокая производительность) и отключите C-состояния. Однако имейте в виду, что это зависит от системы и BIOS, и некоторые системы обеспечивают большую производительность, если операционная система управляет электропитанием. Проверить и настроить параметры управления питанием можно на странице **Параметры** или с помощью команды **powercfg** . Дополнительные сведения см. в разделе [Параметры командной строки Powercfg](https://docs.microsoft.com/windows-hardware/design/device-experiences/powercfg-command-line-options).
+- В BIOS компьютера установите значение **High Performance** (Высокая производительность) и отключите C-состояния. Однако имейте в виду, что это зависит от системы и BIOS, и некоторые системы обеспечивают большую производительность, если операционная система управляет электропитанием. Проверить и настроить параметры управления питанием можно на странице **Параметры** или с помощью команды **powercfg** . Дополнительные сведения см. в разделе [Параметры командной строки Powercfg](/windows-hardware/design/device-experiences/powercfg-command-line-options).
 
 - Установите в операционной системе профиль управления электропитанием **Высокая производительность**.
    > [!NOTE]
@@ -219,8 +219,8 @@ Set-NetTCPSetting -AutoTuningLevelLocal <Value>
 
 Дополнительные сведения об этих командлетах см. в следующих статьях:
 
-- [Get-Нетткпсеттинг](https://docs.microsoft.com/powershell/module/nettcpip/get-nettcpsetting?view=win10-ps)
-- [Set-Нетткпсеттинг](https://docs.microsoft.com/powershell/module/nettcpip/set-nettcpsetting?view=win10-ps)
+- [Get-Нетткпсеттинг](/powershell/module/nettcpip/get-nettcpsetting?view=win10-ps)
+- [Set-Нетткпсеттинг](/powershell/module/nettcpip/set-nettcpsetting?view=win10-ps)
 
 #### <a name="autotuning-levels"></a>Уровни автонастройки
 
@@ -376,6 +376,6 @@ Set-NetTCPSetting -AutoTuningLevelLocal <Value>
 В Windows Vista и Windows Server 2008 появилась платформа фильтрации Windows (WFP). WFP предоставляет интерфейсы API независимым поставщикам программного обеспечения (ISV) для создания фильтров обработки пакетов. Например, для брандмауэров и антивирусного ПО.
 
 > [!NOTE]
-> Плохо написанный фильтр WFP может значительно снизить производительность сети сервера. Дополнительные сведения см. в разделе [Перенос драйверов и приложений для обработки пакетов в WFP](https://docs.microsoft.com/windows-hardware/drivers/network/porting-packet-processing-drivers-and-apps-to-wfp) в центре разработки для Windows.
+> Плохо написанный фильтр WFP может значительно снизить производительность сети сервера. Дополнительные сведения см. в разделе [Перенос драйверов и приложений для обработки пакетов в WFP](/windows-hardware/drivers/network/porting-packet-processing-drivers-and-apps-to-wfp) в центре разработки для Windows.
 
 Ссылки на все разделы данного руководства см. в разделе [Настройка производительности сетевой подсистемы](net-sub-performance-top.md).

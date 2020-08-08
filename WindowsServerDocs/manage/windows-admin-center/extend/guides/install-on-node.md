@@ -1,19 +1,17 @@
 ---
 title: Установка полезных данных расширения на управляемом узле
 description: Инструкции по установке полезных данных расширения на управляемый узел
-ms.technology: manage
 ms.topic: article
 author: nwashburn-ms
 ms.author: niwashbu
 ms.date: 09/18/2018
 ms.localizationpriority: medium
-ms.prod: windows-server
-ms.openlocfilehash: 463280ba1d0a3fac84a12c0483946b01c0fefb75
-ms.sourcegitcommit: 3632b72f63fe4e70eea6c2e97f17d54cb49566fd
+ms.openlocfilehash: 6a8675ff481f908feeeef4f97be0f1889b117291
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87518562"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87944976"
 ---
 # <a name="install-extension-payload-on-a-managed-node"></a>Установка полезных данных расширения на управляемом узле
 

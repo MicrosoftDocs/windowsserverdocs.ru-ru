@@ -6,12 +6,12 @@ ms.author: joflore
 manager: mtillman
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 7e32047c3c2b255b81e959539d3ed3b5bbd2f0d6
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 977ea36fefaa05b49034367594e1d952d712adb2
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87943631"
+ms.locfileid: "87994476"
 ---
 # <a name="appendix-m-document-links-and-recommended-reading"></a>Приложение Н. Ссылки на документы и рекомендуемая литература
 
@@ -24,7 +24,7 @@ ms.locfileid: "87943631"
 
 | Ссылки | URL-адреса |
 |--|--|
-| [10 неизменяемых законов по администрированию безопасности](/previous-versions//cc722488(v=technet.10)) | [https://technet.microsoft.com/library/cc722488.aspx](/previous-versions//cc722488(v=technet.10)) |
+| [10 неизменяемых законов по администрированию безопасности](/previous-versions/cc722488(v=technet.10)) | [https://technet.microsoft.com/library/cc722488.aspx](/previous-versions/cc722488(v=technet.10)) |
 | [Диспетчер соответствия требованиям безопасности Майкрософт](/previous-versions/tn-archive/cc677002(v=technet.10)) | [https://technet.microsoft.com/library/cc677002.aspx](/previous-versions/tn-archive/cc677002(v=technet.10)) |
 | [ИТКСПО Gartner Symposium](http://www.gartner.com/technology/symposium/orlando/) | [http://www.gartner.com/technology/symposium/orlando/](http://www.gartner.com/technology/symposium/orlando/) |
 | [Отчет об исследовании нарушений данных 2012 (ДБИР)](http://www.verizonbusiness.com/resources/reports/rp_data-breach-investigations-report-2012_en_xg.pdf) | [http://www.verizonbusiness.com/resources/reports/rp_data-breach-investigations-report-2012_en_xg.pdf](http://www.verizonbusiness.com/resources/reports/rp_data-breach-investigations-report-2012_en_xg.pdf) |
@@ -135,7 +135,7 @@ ms.locfileid: "87943631"
 | [служба поддержки Майкрософт статья 251343](https://support.microsoft.com/kb/251343) | [https://support.microsoft.com/kb/251343](https://support.microsoft.com/kb/251343) |
 | [Операции изменения rootDSE](/openspecs/windows_protocols/ms-adts/fc74972f-b267-4c1a-8716-0f5b48cf52b9) | [https://msdn.microsoft.com/library/cc223297.aspx](/openspecs/windows_protocols/ms-adts/fc74972f-b267-4c1a-8716-0f5b48cf52b9) |
 | [Пошаговые инструкции по резервному копированию и восстановлению AD DS](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc771290(v=ws.10)) | [https://technet.microsoft.com/library/cc771290(v=ws.10).aspx](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc771290(v=ws.10)) |
-| [Конфигурации Windows для типа шифрования, поддерживаемые протоколом Kerberos](https://blogs.msdn.com/b/openspecification/archive/2011/05/31/windows-configurations-for-kerberos-supported-encryption-type.aspx) | [https://blogs.msdn.com/b/openspecification/archive/2011/05/31/windows-configurations-for-kerberos-supported-encryption-type.aspx](https://blogs.msdn.com/b/openspecification/archive/2011/05/31/windows-configurations-for-kerberos-supported-encryption-type.aspx) |
+| [Конфигурации Windows для типа шифрования, поддерживаемые протоколом Kerberos](/archive/blogs/openspecification/windows-configurations-for-kerberos-supported-encryption-type) | [/арчиве/блогс/опенспеЦификатион/виндовс-конфигуратионс-фор-керберос-суппортед-енкриптион-типе](/archive/blogs/openspecification/windows-configurations-for-kerberos-supported-encryption-type) |
 | [Процессы и взаимодействия службы контроля учетных записей пользователей](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd835561(v=ws.10)) | [https://technet.microsoft.com/library/dd835561(v=WS.10).aspx#1](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd835561(v=ws.10)) |
 | [емповерид](http://www.empowerid.com/products/authorizationservices) | [http://www.empowerid.com/products/authorizationservices](http://www.empowerid.com/products/authorizationservices) |
 | [Управление доступом на основе ролей (RBAC)](http://pic.dhe.ibm.com/infocenter/aix/v7r1/index.jsp?topic=%2Fcom.ibm.aix.security%2Fdoc%2Fsecurity%2Fdomain_rbac.htm) | [http://pic.dhe.ibm.com/infocenter/aix/v7r1/index.jsp?topic=%2Fcom.ibm.aix.security%2Fdoc%2Fsecurity%2Fdomain_rbac.htm](http://pic.dhe.ibm.com/infocenter/aix/v7r1/index.jsp?topic=%2Fcom.ibm.aix.security%2Fdoc%2Fsecurity%2Fdomain_rbac.htm) |

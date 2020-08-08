@@ -7,12 +7,12 @@ manager: dougkim
 ms.author: jgerend
 ms.date: 06/15/2020
 description: Обзор рабочих папок — роли сервера в Windows Server, которая предоставляет пользователям согласованный способ доступа к рабочим файлам с компьютеров и других устройств.
-ms.openlocfilehash: 5641ea38a75e79420a5e697c14c0e4e3422aa913
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: adc03d9bcb4289896b996984ebb53b185008f3fb
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87970071"
+ms.locfileid: "87994112"
 ---
 # <a name="work-folders-overview"></a>Обзор рабочих папок
 
@@ -170,5 +170,5 @@ ms.locfileid: "87970071"
 | **Развертывание** | -   [Разработка реализации рабочих папок](plan-work-folders.md)<br />-   [Развертывание рабочих папок](deploy-work-folders.md)<br />-   [Развертывание рабочих папок с помощью AD FS и прокси веб-приложения (WAP)](deploy-work-folders-adfs-overview.md)<br />-   [Развертывание рабочих папок с помощью прокси-сервера приложения Azure AD](https://techcommunity.microsoft.com/t5/storage-at-microsoft/bg-p/FileCAB)<br />- [Использование автономные файлы (CSC) с руководством по миграции рабочих папок](https://techcommunity.microsoft.com/t5/storage-at-microsoft/bg-p/FileCAB)<br />-   [Рекомендации по производительности при развертывании рабочих папок](https://techcommunity.microsoft.com/t5/storage-at-microsoft/bg-p/FileCAB)<br />-   [Рабочие папки для Windows 7 (Загрузка 64-бит)](https://www.microsoft.com/download/details.aspx?id=42558)<br />-   [Рабочие папки для Windows 7 (Загрузка 32-бит)](https://www.microsoft.com/download/details.aspx?id=42559) |
 | **Операции** | -   [Приложение для работы с рабочими папками для iPad: вопросы и ответы](https://windows.microsoft.com/windows/work-folders-ipad-faq) (для пользователей)<br />-   [Управление сертификатами рабочих папок](https://techcommunity.microsoft.com/t5/storage-at-microsoft/bg-p/FileCAB) (запись блога)<br />-   [Мониторинг развертываний рабочих папок Windows Server 2012 R2](https://techcommunity.microsoft.com/t5/storage-at-microsoft/bg-p/FileCAB) (запись блога)<br />-   [Командлеты Синкшаре (рабочие папки) в Windows PowerShell](/powershell/module/syncshare/?view=win10-ps)<br />-   [Краткий справочник по командлетам службы хранилища и файловых служб PowerShell для Windows Server 2012 R2 Preview Edition](https://techcommunity.microsoft.com/t5/storage-at-microsoft/bg-p/FileCAB) |
 | **Устранение неполадок** | -   [Windows Server 2012 R2 — устранение конфликтов портов с веб-сайтами IIS и рабочими папками](https://techcommunity.microsoft.com/t5/storage-at-microsoft/bg-p/FileCAB) (запись в блоге)<br />-   [Распространенные ошибки в рабочих папках](https://techcommunity.microsoft.com/t5/storage-at-microsoft/troubleshooting-work-folders-on-windows-client/ba-p/425627) |
-| **Ресурсы сообщества** | -   [Форум по файловым службам и хранилищам](https://docs.microsoft.com/answers/topics/windows-server-storage.html)<br />-   [Рабочая группа по хранению данных Майкрософт — блог File Cabinet](https://techcommunity.microsoft.com/t5/storage-at-microsoft/bg-p/FileCAB)<br />-   [Обратитесь к блогу группы по службам каталогов](/archive/blogs/askds/) |
+| **Ресурсы сообщества** | -   [Форум по файловым службам и хранилищам](/answers/topics/windows-server-storage.html)<br />-   [Рабочая группа по хранению данных Майкрософт — блог File Cabinet](https://techcommunity.microsoft.com/t5/storage-at-microsoft/bg-p/FileCAB)<br />-   [Обратитесь к блогу группы по службам каталогов](/archive/blogs/askds/) |
 | **Связанные технологии** | -   [Хранилище в Windows Server 2016](../storage.yml)<br>-   [Службы файлов и хранилища](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831487(v=ws.11))<br />-   [диспетчер ресурсов файлового сервера](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831701(v=ws.11))<br />-   [Перенаправление папок, автономные файлы и перемещаемые профили пользователей](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh848267(v=ws.11))<br />-   [BranchCache](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831696(v=ws.11))<br />-   [Пространства имен и репликация DFS DFS](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj127250(v=ws.11)) |

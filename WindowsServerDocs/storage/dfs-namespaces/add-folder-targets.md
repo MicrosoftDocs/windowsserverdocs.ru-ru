@@ -1,19 +1,17 @@
 ---
 title: Добавление конечных объектов папок
 description: В этом разделе рассматривается, как добавлять конечные объекты папок (UNC-пути)
-ms.prod: windows-server
 ms.author: jgerend
 manager: brianlic
-ms.technology: storage
 ms.topic: article
 author: jasongerend
 ms-date: 06/05/2017
-ms.openlocfilehash: e5a81f2967953b985028407d53d6a039fd8990eb
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: bc229360a616e7fa56231e6211b4b909d45ec2de
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86961276"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87957822"
 ---
 # <a name="add-folder-targets"></a>Добавление конечных объектов папок
 

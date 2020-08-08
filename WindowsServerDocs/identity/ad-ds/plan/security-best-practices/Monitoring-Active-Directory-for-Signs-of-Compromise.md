@@ -6,20 +6,18 @@ ms.author: joflore
 manager: mtillman
 ms.date: 05/31/2017
 ms.topic: article
-ms.prod: windows-server
-ms.technology: identity-adds
-ms.openlocfilehash: b4031ce1d9a5bce4f0dd8fe98dea304b2373c2ae
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.openlocfilehash: 8b28d412411336062187a842912b6f4a41957eba
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87181830"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87994346"
 ---
 # <a name="monitoring-active-directory-for-signs-of-compromise"></a>Мониторинг Active Directory для обнаружения признаков компрометации
 
 >Область применения. Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
-*Номер закона 5. нескончаемые бдительности — это стоимость безопасности.* - [10 неизменяемых законов по администрированию безопасности](/previous-versions//cc722488(v=technet.10))
+*Номер закона 5. нескончаемые бдительности — это стоимость безопасности.* - [10 неизменяемых законов по администрированию безопасности](/previous-versions/cc722488(v=technet.10))
 
 Надежная система мониторинга журнала событий является важной частью любой безопасной Active Directory разработки. Многие компромиссы безопасности компьютера могут быть обнаружены на ранних этапах мероприятия, если жертви применяют соответствующий мониторинг журнала событий и оповещения. Этот заключение поддерживается независимыми отчетами. Например, [отчет о нарушении данных 2009 Verizon](http://www.verizonbusiness.com/resources/security/reports/2009_databreach_rp.pdf) сообщает:
 

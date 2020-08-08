@@ -7,12 +7,12 @@ ms.assetid: 0254275a-0a77-40a9-b68a-1029284c03fe
 ms.author: anpaul
 author: AnirbanPaul
 ms.date: 03/19/2018
-ms.openlocfilehash: aa53b13526172e37a46fbb3108278ad7aa859b64
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 9daab9358cbfd337b755605e7233b1bcea555f22
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87952489"
+ms.locfileid: "87994263"
 ---
 # <a name="whats-new-in-hyper-v-network-virtualization-in-windows-server-2016"></a>Новые возможности виртуализации сети Hyper-V в Windows Server 2016
 
@@ -59,4 +59,4 @@ HNV реализует правильные заголовки Ethernet уров
 
 -   [Технический обзор виртуализации сети Hyper-V](hyperv-network-virtualization-technical-details-windows-server.md)
 
--   [Программно-конфигурируемая сеть](../../Software-Defined-Networking--SDN-.md)
+-   [Программно-конфигурируемая сеть](../../software-defined-networking.md)

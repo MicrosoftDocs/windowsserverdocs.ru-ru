@@ -6,12 +6,12 @@ ms.author: joflore
 manager: mtillman
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: dd08192558457a014b6884316de7a22900dded2f
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 55317bfb392fa9867b7fae1f4900b4ce6b83a141
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87941068"
+ms.locfileid: "87994428"
 ---
 # <a name="finding-additional-resources-for-windows-server-2008-active-directory-site-topology-design"></a>Поиск дополнительных ресурсов для проектирования топологии сайтов Active Directory под управлением Windows Server 2008
 
@@ -35,7 +35,7 @@ ms.locfileid: "87941068"
 
 - Дополнительные сведения о развертывании корневого домена леса см. в разделе [Развертывание корневого домена леса Windows Server 2008](/previous-versions/windows/it-pro/windows-server-2008-r2-and-2008/cc731174(v=ws.10)).
 
-- Дополнительные сведения о защите контроллеров домена см. в разделе [AD DS проектирование и планирование](https://docs.microsoft.com/windows-server/identity/ad-ds/plan/ad-ds-design-and-planning).
+- Дополнительные сведения о защите контроллеров домена см. в разделе [AD DS проектирование и планирование](./ad-ds-design-and-planning.md).
 
 - Дополнительные сведения о развертывании региональных доменов см. в статье [развертывание региональных доменов Windows Server 2008](/previous-versions/windows/it-pro/windows-server-2008-r2-and-2008/cc755118(v=ws.10)).
 

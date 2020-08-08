@@ -6,12 +6,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 30dc33bec01cf4a9ab0b944464d4bbc60f6ca74e
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 276c4d22c3df64debd696ae07fff996fdbf4ceea
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87938236"
+ms.locfileid: "87994274"
 ---
 # <a name="set-up-the-lab-environment-for-ad-fs-in-windows-server-2012-r2"></a>Настройка лабораторной среды для служб федерации Active Directory в Windows Server 2012 R2
 
@@ -85,7 +85,7 @@ ms.locfileid: "87938236"
 
 -   Альтернативное имя субъекта (DNS): enterpriseregistration.contoso.com
 
-Дополнительные сведения о настройке SSL-сертификатов см. в разделе [Настройка SSL и TLS на веб-сайте в домене с помощью ЦС предприятия](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831822(v=ws.11)).
+Дополнительные сведения о настройке SSL-сертификатов см. в разделе [Настройка SSL и TLS на веб-сайте в домене с помощью ЦС предприятия](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831822(v=ws.11)).
 
 [Серии видеороликов с практическими рекомендациями по работе со службами федерации Active Directory: обновление сертификатов](https://channel9.msdn.com/Search?term=Active%20Directory%20Federation%20Services#pubDate=year&ch9Search).
 

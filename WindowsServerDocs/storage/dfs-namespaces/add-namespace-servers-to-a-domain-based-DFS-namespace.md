@@ -2,18 +2,16 @@
 title: Добавление серверов пространства имен в доменное пространство имен DFS
 description: В этой статье рассматривается, как указать дополнительные сервера пространства имен для размещения пространства имен с помощью оснастки "Управление DFS".
 ms.date: 6/5/2017
-ms.prod: windows-server
-ms.technology: storage
 ms.topic: article
 author: JasonGerend
 manager: brianlic
 ms.author: jgerend
-ms.openlocfilehash: f00a6419bae1951a7c1597212d3c37676a4db90e
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: ada742f53435b8b3894fc1a19eee4dd69d3777d6
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86961256"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87957812"
 ---
 # <a name="add-namespace-servers-to-a-domain-based-dfs-namespace"></a>Добавление серверов пространств имен в доменное пространство имен DFS
 

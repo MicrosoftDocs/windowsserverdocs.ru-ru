@@ -1,25 +1,23 @@
 ---
-title: Рекомендации
+title: Guides
 description: Руководство по пакету SDK для Windows Admin Center (проект Хонолулу)
-ms.technology: manage
 ms.topic: article
 author: nwashburn-ms
 ms.author: niwashbu
 ms.date: 09/17/2018
 ms.localizationpriority: medium
-ms.prod: windows-server
-ms.openlocfilehash: b7e091e4b9bef11b37a8247b52390404e258ae3b
-ms.sourcegitcommit: 6aff3d88ff22ea141a6ea6572a5ad8dd6321f199
+ms.openlocfilehash: bd4b8c35cc5a46500292e08ee1967ef00b74c0e1
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71357110"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87945121"
 ---
-# <a name="guides"></a>Рекомендации
+# <a name="guides"></a>Guides
 
 >Область применения. Windows Admin Center, ознакомительная версия Windows Admin Center
 
-## <a name="guides"></a>Рекомендации
+## <a name="guides"></a>Guides
 Ниже приведены некоторые руководства по разработке с помощью пакета SDK для Windows Admin Center.
 
 - [Добавление модуля в расширение инструмента](guides/add-module.md)

@@ -6,12 +6,12 @@ author: MicrosoftGuyJFlo
 manager: mtillman
 ms.date: 08/09/2018
 ms.topic: article
-ms.openlocfilehash: f4c4cfa0fe56acc19f1a78a5b1140d90b585cce5
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: ae0aa44dba50c467dd1bd2423e9eb67104387cd3
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87953313"
+ms.locfileid: "87994489"
 ---
 # <a name="upgrade-domain-controllers-to-windows-server-2012-r2-and-windows-server-2012"></a>Обновление контроллеров домена до Windows Server 2012 R2 и Windows Server 2012
 
@@ -55,7 +55,7 @@ ms.locfileid: "87953313"
 - [Установка реплики контроллера домена Windows Server 2012 в существующем домене (уровень 200)](./install-a-replica-windows-server-2012-domain-controller-in-an-existing-domain--level-200-.md)
 - [Установка нового дочернего объекта Active Directory или домена дерева в Windows Server 2012 (уровень 200)](./install-a-new-windows-server-2012-active-directory-child-or-tree-domain--level-200-.md)
 - [Установка контроллера домена только для чтения (RODC) Active Directory в Windows Server 2012 (уровень 200)](./rodc/install-a-windows-server-2012-active-directory-read-only-domain-controller--rodc---level-200-.md)
-- [Форум по Windows Server 2012 о контроллерах домена](https://docs.microsoft.com/answers/topics/windows-server-2012.html)
+- [Форум по Windows Server 2012 о контроллерах домена](/answers/topics/windows-server-2012.html)
 
 ## <a name="windows-update-considerations"></a>Рекомендации по Центр обновления Windows
 
@@ -175,7 +175,7 @@ ms.locfileid: "87953313"
 
 В этом разделе описываются требования к дисковому пространству только для обновления контроллеров домена с Windows Server 2008 или Windows Server 2008 R2. Дополнительные сведения о требованиях к дисковому пространству для обновления контроллеров домена до более ранних версий Windows Server см. в разделе [Требования к дисковому пространству для обновления до Windows Server 2008](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc754463(v=ws.10)#BKMK_2008) или [Требования к дисковому пространству для обновления до Windows Server 2008 R2](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc754463(v=ws.10)#BKMK_2008R2).
 
-Определите параметры диска, где размещаются база данных Active Directory и файлы журнала. Диск должен вмещать пользовательские и управляемые приложениями расширения схемы; индексы, инициированные приложениями и администратором; а также предусматривать место для объектов и атрибутов, которые вы будете добавлять в каталог в течение срока службы контроллера домена (обычно он составляет от 5 до 8 лет). Экономически эффективнее вложить средства в правильное определение параметров на этапе развертывания, чем впоследствии тратить средства на увеличение дискового пространства. Дополнительные сведения см. в разделе [Планирование мощности для доменных служб Active Directory](https://docs.microsoft.com/windows-server/administration/performance-tuning/role/active-directory-server/capacity-planning-for-active-directory-domain-services).
+Определите параметры диска, где размещаются база данных Active Directory и файлы журнала. Диск должен вмещать пользовательские и управляемые приложениями расширения схемы; индексы, инициированные приложениями и администратором; а также предусматривать место для объектов и атрибутов, которые вы будете добавлять в каталог в течение срока службы контроллера домена (обычно он составляет от 5 до 8 лет). Экономически эффективнее вложить средства в правильное определение параметров на этапе развертывания, чем впоследствии тратить средства на увеличение дискового пространства. Дополнительные сведения см. в разделе [Планирование мощности для доменных служб Active Directory](../../../administration/performance-tuning/role/active-directory-server/capacity-planning-for-active-directory-domain-services.md).
 
 Перед началом обновления операционной системы убедитесь в том, что на контроллерах домена, которые планируется обновить, имеется хотя бы 20 % свободного места на диске, на котором расположена база данных Active Directory (NTDS.DIT). Если на диске недостаточно свободного места в томе, может произойти сбой обновления и отчет о совместимости обновления вернет сообщение об ошибке с указанием, что свободного места на диске недостаточно:
 

@@ -6,12 +6,12 @@ author: MicrosoftGuyJFlo
 manager: mtillman
 ms.date: 08/09/2018
 ms.topic: article
-ms.openlocfilehash: 7444fcc6807e43192e68c006dcd49464a503976b
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 09863123a69eec72b3d8bfaaf138bb2d2562f687
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87953301"
+ms.locfileid: "87994506"
 ---
 # <a name="whats-new-in-active-directory-domain-services-installation-and-removal"></a>Что нового в установке и удалении доменных служб Active Directory
 
@@ -173,7 +173,7 @@ Adprep.exe /forestprep /forest <forest name> /userdomain <user domain name> /use
 
    В этом случае нужно запустить командлет ADDSDeployment отдельно от командлета, который не поддерживает собственные 64-разрядные процессы.
 
-- В Windows Server 2012 имеется новая файловая система под названием «устойчивая файловая система». Не храните базу данных Active Directory, файлы журнала или SYSVOL на томе данных, отформатированном под файловую систему Resilient File System (ReFS). Дополнительные сведения о ReFS см. в статье [Создание файловой системы нового поколения для Windows: ReFS](https://blogs.msdn.com/b/b8/archive/2012/01/16/building-the-next-generation-file-system-for-windows-refs.aspx).
+- В Windows Server 2012 имеется новая файловая система под названием «устойчивая файловая система». Не храните базу данных Active Directory, файлы журнала или SYSVOL на томе данных, отформатированном под файловую систему Resilient File System (ReFS). Дополнительные сведения о ReFS см. в статье [Создание файловой системы нового поколения для Windows: ReFS](/archive/blogs/b8/building-the-next-generation-file-system-for-windows-refs).
 - В диспетчер сервера серверы, выполняющие AD DS или другие роли сервера в установке Server Core и обновленные до Windows Server 2012, роль сервера может отображаться с красным состоянием, даже если события и состояние собираются как ожидается. Также могут повлиять серверы, на которых выполняется установка Server Core на предварительном выпуске Windows Server 2012.
 
 ### <a name="active-directory-domain-services-installation-hangs-if-an-error-prevents-critical-replication"></a>Установка доменных служб Active Directory зависает, если ошибка мешает репликации критически важных данных

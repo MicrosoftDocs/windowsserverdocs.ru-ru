@@ -1,20 +1,18 @@
 ---
 title: Условный доступ для VPN-подключений с помощью Azure AD
 description: На этом необязательном шаге можно точно настроить, как разрешенные VPN-пользователи получают доступ к ресурсам с помощью условного доступа Azure Active Directory (Azure AD).
-ms.prod: windows-server
-ms.technology: networking-ras
 ms.topic: article
 ms.localizationpriority: medium
 ms.author: v-tea
 author: Teresa-MOTIV
 ms.date: 06/28/2019
 ms.reviewer: deverette
-ms.openlocfilehash: da32df185cb0c0c2370e60119dd9c2fbd510bd08
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 9c57d120106041692b920891b7d0c3341daec314
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86964266"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87958232"
 ---
 # <a name="step-7-optional-conditional-access-for-vpn-connectivity-using-azure-ad"></a>Шаг 7. Используемых Условный доступ для VPN-подключений с помощью Azure AD
 
@@ -23,7 +21,7 @@ ms.locfileid: "86964266"
 
 На этом необязательном шаге можно точно настроить способ доступа VPN-пользователей к ресурсам с помощью [условного доступа Azure Active Directory (Azure AD)](/azure/active-directory/active-directory-conditional-access-azure-portal). Условный доступ Azure AD для подключения к виртуальной частной сети (VPN) поможет защитить VPN-подключения. Условный доступ — это модуль оценки на основе политик, который позволяет создавать правила доступа для любого приложения, подключенного к Azure Active Directory (Azure AD).
 
-## <a name="prerequisites"></a>Обязательные условия
+## <a name="prerequisites"></a>Предварительные требования
 
 Вы знакомы со следующими разделами:
 
@@ -46,7 +44,7 @@ ms.locfileid: "86964266"
 
 ## <a name="step-72-create-root-certificates-for-vpn-authentication-with-azure-ad"></a>[Шаг 7.2. Создание корневых сертификатов для проверки подлинности VPN с помощью Azure AD](vpn-create-root-cert-for-vpn-auth-azure-ad.md)
 
-На этом шаге вы настроите корневые сертификаты для проверки подлинности VPN с помощью Azure AD, которая автоматически создает облачное приложение VPN-сервера в клиенте.  
+На этом шаге вы настроите корневые сертификаты для проверки подлинности VPN с помощью Azure AD, которая автоматически создает облачное приложение VPN-сервера в клиенте.
 
 Чтобы настроить условный доступ для VPN-подключения, выполните следующие действия:
 

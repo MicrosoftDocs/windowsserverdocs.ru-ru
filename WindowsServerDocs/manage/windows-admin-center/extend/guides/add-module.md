@@ -1,19 +1,17 @@
 ---
 title: Добавление модуля в расширение средства
 description: Разработка расширения инструмента Windows Admin Center SDK (Project Хонолулу). Добавление модуля в расширение средства
-ms.technology: manage
 ms.topic: article
 author: nwashburn-ms
 ms.author: niwashbu
 ms.date: 09/18/2018
 ms.localizationpriority: medium
-ms.prod: windows-server
-ms.openlocfilehash: 9d30980ca404187ff1481242c1c0ef0a3d571416
-ms.sourcegitcommit: 6aff3d88ff22ea141a6ea6572a5ad8dd6321f199
+ms.openlocfilehash: e7875f8aa2320d7292b314cb18f3e17894e76fa0
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71357095"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87945047"
 ---
 # <a name="add-a-module-to-a-tool-extension"></a>Добавление модуля в расширение средства
 
@@ -83,7 +81,7 @@ ng generate component ManageFooWorksPortal
             // if the component has child components that need to be routed to, include them in the children array.
             children: [
                 {
-                    path: '', 
+                    path: '',
                     redirectTo: 'base',
                     pathMatch: 'full'
                 }
@@ -143,7 +141,7 @@ ng generate component ManageFooWorksPortal
 | Значение | Объяснение | Пример имени файла |
 | ----- | ----------- | ------- |
 | ```{!module-name}``` | Имя модуля (нижний регистр, пробелы заменены на тире) | ```manage-foo-works-portal.component.ts``` |
-    
+
 Измените содержимое в файле на следующее:
 
 ``` ts
@@ -157,7 +155,7 @@ public ngOnInit() {
 ```
 ### <a name="update-app-routingmodulets"></a>Обновление App-Routing. Module. TS
 
-Откройте файл ```app-routing.module.ts``` и измените путь по умолчанию, чтобы он загружал только что созданный модуль.  Найдите запись для ```path: ''``` и обновите ```loadChildren```, чтобы загрузить модуль вместо модуля по умолчанию:
+Откройте файл ```app-routing.module.ts``` и измените путь по умолчанию, чтобы загрузить только что созданный модуль.  Найдите запись для ```path: ''``` и обновите, ```loadChildren``` чтобы загрузить модуль вместо модуля по умолчанию:
 
 | Значение | Объяснение | Пример |
 | ----- | ----------- | ------- |
@@ -166,14 +164,14 @@ public ngOnInit() {
 
 ``` ts
     {
-        path: '', 
+        path: '',
         loadChildren: 'app/{!module-name}/{!module-name}.module#{!ModuleName}Module'
     },
 ```
 Ниже приведен пример обновленного пути по умолчанию.
 ``` ts
     {
-        path: '', 
+        path: '',
         loadChildren: 'app/manage-foo-works-portal/manage-foo-works-portal.module#ManageFooWorksPortalModule'
     },
 ```

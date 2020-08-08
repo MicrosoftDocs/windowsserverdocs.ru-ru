@@ -8,19 +8,19 @@ ms.reviewer: richagi
 ms.custom: it-pro
 ms.topic: article
 ms.date: 05/01/2018
-ms.openlocfilehash: a5cce413e2e95387edf73c628f38a4d225c80adb
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: a47cb5791b6e157b434d80535d10b107159db48f
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87955581"
+ms.locfileid: "87994602"
 ---
 # <a name="network-policy-server-user-data-collection"></a>Сбор данных пользователя сервера политики сети
 
 В этом документе объясняется, как найти сведения о пользователе, собираемые сервером политики сети (NPS) в случае, если вы хотите удалить его.
 
 >[!Note]
->Если вы заинтересованы в просмотре или удалении персональных данных, ознакомьтесь с рекомендациями Майкрософт по [запросам на тему данных для сайта GDPR](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-windows) . Если вы ищете общие сведения о GDPR, см. [раздел GDPR на портале доверия службы](https://servicetrust.microsoft.com/ViewPage/GDPRGetStarted).
+>Если вы заинтересованы в просмотре или удалении персональных данных, ознакомьтесь с рекомендациями Майкрософт по [запросам на тему данных для сайта GDPR](/microsoft-365/compliance/gdpr-dsr-windows) . Если вы ищете общие сведения о GDPR, см. [раздел GDPR на портале доверия службы](https://servicetrust.microsoft.com/ViewPage/GDPRGetStarted).
 
 ## <a name="information-collected-by-nps"></a>Сведения, собираемые NPS
 
