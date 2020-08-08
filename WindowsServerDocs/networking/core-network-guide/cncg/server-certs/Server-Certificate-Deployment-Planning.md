@@ -4,16 +4,14 @@ description: Эта статья является частью руководс�
 manager: brianlic
 ms.topic: article
 ms.assetid: 7eb746e0-1046-4123-b532-77d5683ded44
-ms.prod: windows-server
-ms.technology: networking
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 131fb7d51e703abfdfb3f3e07790b52daa1b7b82
-ms.sourcegitcommit: 3632b72f63fe4e70eea6c2e97f17d54cb49566fd
+ms.openlocfilehash: d73cee05c36176755e70796c1190620223327306
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87518519"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87949358"
 ---
 # <a name="server-certificate-deployment-planning"></a>Планирование развертывания сертификата сервера
 

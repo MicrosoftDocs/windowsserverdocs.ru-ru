@@ -7,12 +7,12 @@ author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: b0d2369bd42fc884b1a401fc1450dbe9d1e47663
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 0a39eaaff5497ee85cb823907cd8b57f1888dd08
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87895809"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87991873"
 ---
 # <a name="configure-remote-management-in-server-manager"></a>Настройка удаленного управления в диспетчер сервера
 
@@ -153,7 +153,7 @@ ms.locfileid: "87895809"
 
 ### <a name="to-disable-remote-management-by-using-an-answer-file-during-unattended-installation"></a>Отключение удаленного управления с использованием файла ответов во время автоматической установки
 
-1.  Создайте файл ответов автоматической установки для установки Windows Server 2016 с помощью диспетчера установки Windows (Windows SIM). Дополнительные сведения о создании файла ответов и использовании диспетчера установки Windows см. в разделах [Что такое диспетчер установки Windows?](https://technet.microsoft.com/library/cc766347.aspx) и [Пошаговое руководство: основы развертывания Windows для профессионалов в сфере ИТ](https://technet.microsoft.com/library/dd349348.aspx).
+1.  Создайте файл ответов автоматической установки для установки Windows Server 2016 с помощью диспетчера установки Windows (Windows SIM). Дополнительные сведения о создании файла ответов и использовании диспетчера установки Windows см. в разделах [Что такое диспетчер установки Windows?](/previous-versions/windows/it-pro/windows-vista/cc766347(v=ws.10)) и [Пошаговое руководство: основы развертывания Windows для профессионалов в сфере ИТ](/previous-versions/windows/it-pro/windows-7/dd349348(v=ws.10)).
 
 2.  В файле ответов выберите параметр **Микрософт-Виндовс-веб-сервицес-фор-манажемент-коре\енаблесерверремотеманажемент**.
 
@@ -183,8 +183,5 @@ ms.locfileid: "87895809"
 
 ## <a name="see-also"></a>См. также:
 [Добавление серверов в Диспетчер сервера](add-servers-to-server-manager.md) 
- [Windows PowerShell: about_remote_Troubleshooting в техническом центре](https://technet.microsoft.com/library/dd347642.aspx) 
+ [Windows PowerShell: about_remote_Troubleshooting в техническом центре](/previous-versions/dd347642(v=technet.10)) 
  Windows Server [Описание контроля учетных записей пользователей](https://support.microsoft.com/kb/951016)
-
-
-

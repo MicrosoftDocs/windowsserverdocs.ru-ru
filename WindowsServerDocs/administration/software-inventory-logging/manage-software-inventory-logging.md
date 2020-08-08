@@ -7,12 +7,12 @@ author: brentfor
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 1df4ffbb0cdc79527bef0fd2e3400d78995d5474
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 548158fd1df4ee4fbd8d6f1bcee28693961c8d79
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87895665"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87991856"
 ---
 # <a name="manage-software-inventory-logging"></a>Управление журналом инвентаризации программного обеспечения
 
@@ -91,7 +91,7 @@ ms.locfileid: "87895665"
 Для ведения журнала инвентаризации программного обеспечения на компьютере под Windows Server 2012 R2 должна быть включена ежедневная сбор журналов инвентаризации программного обеспечения и пересылка по сети.
 
 > [!NOTE]
-> Для получения информации о службе SIL, включая сведения о том, работает или приостановлена служба, можно использовать командлет PowerShell **[Get-SilLogging](https://technet.microsoft.com/library/dn283396.aspx)** .
+> Для получения информации о службе SIL, включая сведения о том, работает или приостановлена служба, можно использовать командлет PowerShell **[Get-SilLogging](/previous-versions/windows/powershell-scripting/dn283396(v=wps.630))** .
 
 #### <a name="to-start-software-inventory-logging"></a>Запуск ведения журнала инвентаризации программного обеспечения
 
@@ -99,7 +99,7 @@ ms.locfileid: "87895665"
 
 2.  Откройте PowerShell от имени администратора.
 
-3.  В командной строке PowerShell введите команду **[Start-SilLogging](https://technet.microsoft.com/library/dn283391.aspx)**
+3.  В командной строке PowerShell введите команду **[Start-SilLogging](/previous-versions/windows/powershell-scripting/dn283391(v=wps.630))**
 
 > [!NOTE]
 > Можно задать целевой объект без указания отпечатка сертификата, но в этом случае пересылка завершится ошибкой и данные будут храниться локально максимум 30 дней (значение по умолчанию), после чего они удаляются. После установки действительного хэша сертификата для целевого объекта (и соответствующего действительного сертификата в хранилище LocalMachine/Personal) локально хранящиеся данные будут пересылаться в целевой объект, пока целевой объект настроен на прием этих данных с помощью этого сертификата (дополнительные сведения см. в разделе [Software Inventory Logging Aggregator](Software-Inventory-Logging-Aggregator.md) ).
@@ -110,7 +110,7 @@ ms.locfileid: "87895665"
 
 2.  Откройте PowerShell от имени администратора.
 
-3.  В командной строке PowerShell введите команду **[Stop-SilLogging](https://technet.microsoft.com/library/dn283394.aspx)**.
+3.  В командной строке PowerShell введите команду **[Stop-SilLogging](/previous-versions/windows/powershell-scripting/dn283394(v=wps.630))**.
 
 ## <a name="configuring-software-inventory-logging"></a>Настройка инвентаризации программного обеспечения
 Процесс настройки инвентаризации программного обеспечения для пересылки данных на сервер агрегирования с течением времени состоит из трех шагов.
@@ -126,7 +126,7 @@ ms.locfileid: "87895665"
 Полное руководство по настройке платформы SIL в целом см. в разделе [Software Inventory Logging Aggregator](software-inventory-logging-aggregator.md).  В частности, если **Publish-SilData** выдает ошибку или ведение журнала SIL завершается неудачей по другой причине, см. раздел по устранению неполадок.
 
 ## <a name="software-inventory-logging-over-time"></a><a name="BKMK_Step2"></a>Ведение журнала инвентаризации программного обеспечения в динамике
-Если ведение журнала инвентаризации программного обеспечения было запущено администратором, начнется почасовой сбор и пересылка данных на сервер агрегирования (целевой URI). Первый пересылаемый пакет будет включать полный набор данных, получаемых и выводимых командой [Get-SilData](https://technet.microsoft.com/library/dn283388.aspx) на консоли на момент времени. После этого в каждом интервале служба SIL будет выполнять проверку данных и пересылать только небольшое идентифицирующее подтверждение на целевой сервер агрегирования, если с момента последней сборки не было изменений в данных. В случае изменения значения служба SIL снова отправит полный набор данных.
+Если ведение журнала инвентаризации программного обеспечения было запущено администратором, начнется почасовой сбор и пересылка данных на сервер агрегирования (целевой URI). Первый пересылаемый пакет будет включать полный набор данных, получаемых и выводимых командой [Get-SilData](/previous-versions/windows/powershell-scripting/dn283388(v=wps.630)) на консоли на момент времени. После этого в каждом интервале служба SIL будет выполнять проверку данных и пересылать только небольшое идентифицирующее подтверждение на целевой сервер агрегирования, если с момента последней сборки не было изменений в данных. В случае изменения значения служба SIL снова отправит полный набор данных.
 
 > [!IMPORTANT]
 > Если в любом интервале целевой URI недоступен или передача данных по сети завершается неудачно по любой причине, собранные данные будут храниться локально до 30 дней (значение по умолчанию), после чего они будут удалены. При следующей успешной пересылке данных на целевой сервер агрегирования все данные, хранящиеся локально, будут перенаправлены и данные, помещенные в локальный кэш, будут удалены.
@@ -134,19 +134,19 @@ ms.locfileid: "87895665"
 ## <a name="displaying-software-inventory-logging-data"></a><a name="BKMK_Step3"></a>Отображение данных ведения журнала инвентаризации программного обеспечения
 Помимо командлетов PowerShell, описанных в предыдущем разделе, для сбора данных SIL может быть использовано шесть дополнительных командлетов.
 
--   **[Get-SilComputer](https://technet.microsoft.com/library/dn283392.aspx)**: отображает значения в момент времени для данных, связанных с конкретным сервером и операционной системой, а также полное доменное имя или имя узла физического узла (при наличии).
+-   **[Get-SilComputer](/previous-versions/windows/powershell-scripting/dn283392(v=wps.630))**: отображает значения в момент времени для данных, связанных с конкретным сервером и операционной системой, а также полное доменное имя или имя узла физического узла (при наличии).
 
--   **[Get-SilComputerIdentity (KB 3000850)](https://technet.microsoft.com/library/dn858074.aspx)**: отображает идентификаторы, используемые SIL для отдельных серверов.
+-   **[Get-SilComputerIdentity (KB 3000850)](/previous-versions/windows/powershell-scripting/dn858074(v=wps.630))**: отображает идентификаторы, используемые SIL для отдельных серверов.
 
--   **[Get-SilData](https://technet.microsoft.com/library/dn283388.aspx)**: отображает коллекцию всех данных SIL в момент времени.
+-   **[Get-SilData](/previous-versions/windows/powershell-scripting/dn283388(v=wps.630))**: отображает коллекцию всех данных SIL в момент времени.
 
--   **[Get-SilSoftware](https://technet.microsoft.com/library/dn283397.aspx)**: отображает идентифицирующие данные для всего программного обеспечения, установленного на компьютере, в момент времени.
+-   **[Get-SilSoftware](/previous-versions/windows/powershell-scripting/dn283397(v=wps.630))**: отображает идентифицирующие данные для всего программного обеспечения, установленного на компьютере, в момент времени.
 
--   **[Get-SilUalAccess](https://technet.microsoft.com/library/dn283389.aspx)**: отображает общее число уникальных клиентских запросов устройств и клиентских запросов пользователей сервера за предыдущие два дня.
+-   **[Get-SilUalAccess](/previous-versions/windows/powershell-scripting/dn283389(v=wps.630))**: отображает общее число уникальных клиентских запросов устройств и клиентских запросов пользователей сервера за предыдущие два дня.
 
--   **[Get-SilWindowsUpdate](https://technet.microsoft.com/library/dn283393.aspx)**: отображает список всех обновлений Windows, установленных на компьютере, в момент времени.
+-   **[Get-SilWindowsUpdate](/previous-versions/windows/powershell-scripting/dn283393(v=wps.630))**: отображает список всех обновлений Windows, установленных на компьютере, в момент времени.
 
-Как правило, администраторы будут использовать командлеты ведения журнала инвентаризации программного обеспечения для выполнения запросов к этой функции для сбора всех данных SIL на момент времени с помощью командлета [Get SilSoftware](https://technet.microsoft.com/library/dn283397.aspx).
+Как правило, администраторы будут использовать командлеты ведения журнала инвентаризации программного обеспечения для выполнения запросов к этой функции для сбора всех данных SIL на момент времени с помощью командлета [Get SilSoftware](/previous-versions/windows/powershell-scripting/dn283397(v=wps.630)).
 
 **Пример выходных данных**
 
@@ -200,7 +200,7 @@ SystemManufacturer        : Microsoft Corporation
 
 #### <a name="to-delete-data-logged-by-software-inventory-logging"></a>Удаление данных, зарегистрированных функцией SIL
 
-1. В PowerShell остановите ведение журнала инвентаризации программного обеспечения, используя команду **[Stop-SilLogging](https://technet.microsoft.com/library/dn283394.aspx)** .
+1. В PowerShell остановите ведение журнала инвентаризации программного обеспечения, используя команду **[Stop-SilLogging](/previous-versions/windows/powershell-scripting/dn283394(v=wps.630))** .
 
 2. Откройте проводник.
 
@@ -223,17 +223,17 @@ SystemManufacturer        : Microsoft Corporation
 ## <a name="software-inventory-logging-security"></a><a name="BKMK_Step7"></a>Безопасность функции ведения журнала инвентаризации программного обеспечения
 Для успешного получения данных из WMI ведения журнала инвентаризации программного обеспечения и API-интерфейсов PowerShell требуются права администратора на локальном сервере.
 
-Чтобы успешно использовать все возможности функции ведения журнала инвентаризации программного обеспечения для постоянной пересылки данных в точку агрегирования в динамике (через часовые интервалы), администратор должен использовать клиентские сертификаты для обеспечения безопасных SSL-сеансов для передачи данных по протоколу HTTPS. Общий обзор проверки подлинности HTTPS можно найти здесь: [Проверка подлинности по протоколу HTTPS](https://technet.microsoft.com/library/cc736680(v=WS.10).aspx).
+Чтобы успешно использовать все возможности функции ведения журнала инвентаризации программного обеспечения для постоянной пересылки данных в точку агрегирования в динамике (через часовые интервалы), администратор должен использовать клиентские сертификаты для обеспечения безопасных SSL-сеансов для передачи данных по протоколу HTTPS. Общий обзор проверки подлинности HTTPS можно найти здесь: [Проверка подлинности по протоколу HTTPS](/previous-versions/windows/it-pro/windows-server-2003/cc736680(v=ws.10)).
 
 Данные, хранящиеся локально на сервере Windows Server (что происходит, если функция запущена, но целевой объект по какой-либо причине недоступен), доступны только пользователю с правами администратора на локальном сервере.
 
 ## <a name="working-with-date-and-time-settings-in-windows-server-2012-r2-software-inventory-logging"></a><a name="BKMK_Step8"></a>Работа с параметрами даты и времени в функции ведения журнала инвентаризации программного обеспечения Windows Server 2012 R2
 
--   При использовании команды [Set-SilLogging](https://technet.microsoft.com/library/dn283387.aspx) -TimeOfDay для задания времени запуска ведения журнала SIL необходимо указать дату и время.Будет установлена календарная дата и ведение журнала не начнется до достижения этой даты по локальному времени системы.
+-   При использовании команды [Set-SilLogging](/previous-versions/windows/powershell-scripting/dn283387(v=wps.630)) -TimeOfDay для задания времени запуска ведения журнала SIL необходимо указать дату и время.Будет установлена календарная дата и ведение журнала не начнется до достижения этой даты по локальному времени системы.
 
--   При использовании [Get-силсофтваре](https://technet.microsoft.com/library/dn283397.aspx)или [Get-силвиндовсупдате](https://technet.microsoft.com/library/dn283393.aspx)"инсталлдате" всегда будет показывать 12:00:8:00, не имеющее смысла значения.
+-   При использовании [Get-силсофтваре](/previous-versions/windows/powershell-scripting/dn283397(v=wps.630))или [Get-силвиндовсупдате](/previous-versions/windows/powershell-scripting/dn283393(v=wps.630))"инсталлдате" всегда будет показывать 12:00:8:00, не имеющее смысла значения.
 
--   При использовании [Get-силуалакцесс](https://technet.microsoft.com/library/dn283389.aspx)"сампледате" всегда будет показывать 11:59:12:00, не имеющее смысла значения.Дата — это релевантные данные для запросов этих командлетов.
+-   При использовании [Get-силуалакцесс](/previous-versions/windows/powershell-scripting/dn283389(v=wps.630))"сампледате" всегда будет показывать 11:59:12:00, не имеющее смысла значения.Дата — это релевантные данные для запросов этих командлетов.
 
 ## <a name="enabling-and-configuring-software-inventory-logging-in-a-mounted-virtual-hard-disk"></a><a name="BKMK_Step10"></a>Включение и настройка ведения журнала инвентаризации программного обеспечения на подключенном виртуальном жестком диске
 Функция ведения журнала инвентаризации программного обеспечения также поддерживает настройку и включение на автономных виртуальных машинах. Практические применения этого решения предназначены для настройки "золотого образа" для широкого развертывания в центрах обработки данных, а также для настройки образов конечных пользователей, передаваемых из локальной среды в облачное развертывание.
@@ -242,20 +242,20 @@ SystemManufacturer        : Microsoft Corporation
 
 | Функция | Имя значения | Данные | Соответствующий командлет (доступно только в работающей операционной системе) |
 | --- | --- | --- | --- |
-|Запуск и остановка функции|CollectionState|1 или 0|[Start-SilLogging](https://technet.microsoft.com/library/dn283391.aspx), [Stop-SilLogging](https://technet.microsoft.com/library/dn283394.aspx)|
-|Указывает целевую точку агрегирования в сети.|TargetUri|строка|[Set-SilLogging](https://technet.microsoft.com/library/dn283387.aspx) -TargetURI|
-|Указывает отпечаток сертификата или хэш сертификата, используемый для проверки подлинности SSL для целевого веб-сервера.|CertificateThumbprint|строка|[Set-SilLogging](https://technet.microsoft.com/library/dn283387.aspx) -CertificateThumbprint|
-|Указывает дату и время запуска функции (если установлено значение в будущем в соответствии с локальным временем системы).|CollectionTime|Значение по умолчанию:  2000-01-01T03:00:00|[Set-SilLogging](https://technet.microsoft.com/library/dn283387.aspx) -TimeOfDay|
+|Запуск и остановка функции|CollectionState|1 или 0|[Start-SilLogging](/previous-versions/windows/powershell-scripting/dn283391(v=wps.630)), [Stop-SilLogging](/previous-versions/windows/powershell-scripting/dn283394(v=wps.630))|
+|Указывает целевую точку агрегирования в сети.|TargetUri|строка|[Set-SilLogging](/previous-versions/windows/powershell-scripting/dn283387(v=wps.630)) -TargetURI|
+|Указывает отпечаток сертификата или хэш сертификата, используемый для проверки подлинности SSL для целевого веб-сервера.|CertificateThumbprint|строка|[Set-SilLogging](/previous-versions/windows/powershell-scripting/dn283387(v=wps.630)) -CertificateThumbprint|
+|Указывает дату и время запуска функции (если установлено значение в будущем в соответствии с локальным временем системы).|CollectionTime|Значение по умолчанию:  2000-01-01T03:00:00|[Set-SilLogging](/previous-versions/windows/powershell-scripting/dn283387(v=wps.630)) -TimeOfDay|
 
 Чтобы изменить эти значения на автономном виртуальном жестком диске (ОС виртуальной машины не выполняется), такой диск необходимо сначала подключить, а затем можно использовать следующие команды для внесения изменений.
 
--   [Reg load](https://technet.microsoft.com/library/cc742053.aspx)
+-   [Reg load](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc742053(v=ws.11))
 
--   [Reg delete](https://technet.microsoft.com/library/cc742145.aspx)
+-   [Reg delete](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc742145(v=ws.11))
 
--   [Reg add](https://technet.microsoft.com/library/cc742162.aspx)
+-   [Reg add](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc742162(v=ws.11))
 
--   [Reg unload](https://technet.microsoft.com/library/cc742043.aspx)
+-   [Reg unload](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc742043(v=ws.11))
 
 Функция ведения журнала инвентаризации программного обеспечения будет проверять эти значения при запуске операционной системы и выполнять соответствующие действия.
 
@@ -291,6 +291,6 @@ SystemManufacturer        : Microsoft Corporation
 ## <a name="see-also"></a>См. также:
 Приступая [к работе с журналом](get-started-with-software-inventory-logging.md) 
  инвентаризации программного обеспечения Агрегатор журнала инвентаризации [программного обеспечения](software-inventory-logging-aggregator.md) 
- [Командлеты ведения журнала инвентаризации программного обеспечения в Windows PowerShell](https://technet.microsoft.com/library/dn283390.aspx) 
+ [Командлеты ведения журнала инвентаризации программного обеспечения в Windows PowerShell](/powershell/module/softwareinventorylogging/?view=winserver2012R2-ps) 
  [Import-бинаримилог](https://technet.microsoft.com/library/dn262592.aspx) 
  [Export-бинаримилог](https://technet.microsoft.com/library/dn262591.aspx)

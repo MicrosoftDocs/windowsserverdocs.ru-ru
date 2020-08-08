@@ -6,12 +6,12 @@ ms.assetid: a6615411-83d9-495f-8a6a-1ebc8b12f164
 manager: dcscontentpm
 ms.author: v-tea
 author: Teresa-Motiv
-ms.openlocfilehash: 0ba4f52df35c3b78f948bdfdf40500965a9be278
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: c1095f3f5ea44b22c4cec4a871f6fc6210e92ab1
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87953960"
+ms.locfileid: "87991638"
 ---
 # <a name="choosing-a-network-adapter"></a>Выбор сетевого адаптера
 
@@ -22,7 +22,7 @@ ms.locfileid: "87953960"
 Ресурсоемкие сетевые приложения требуют высокой производительности сетевых адаптеров. В этом разделе рассматриваются некоторые рекомендации по выбору сетевых адаптеров, а также настройке различных параметров сетевого адаптера для достижения оптимальной производительности сети.
 
 > [!TIP]
->  Параметры сетевого адаптера можно настроить с помощью Windows PowerShell. Дополнительные сведения см. [в разделе командлеты сетевого адаптера в Windows PowerShell](https://docs.microsoft.com/powershell/module/netadapter).
+>  Параметры сетевого адаптера можно настроить с помощью Windows PowerShell. Дополнительные сведения см. [в разделе командлеты сетевого адаптера в Windows PowerShell](/powershell/module/netadapter).
 
 ##  <a name="offload-capabilities"></a><a name="bkmk_offload"></a>Возможности разгрузки
 
@@ -63,13 +63,13 @@ RSS распределяет входящие сетевые операции в
 >[!NOTE]
 >Подробную справочную информацию по командам для каждого командлета, включая синтаксис и параметры, можно получить, щелкнув следующие ссылки. Кроме того, для **получения** подробных сведений о каждой команде в командной строке Windows PowerShell можно передать имя командлета.
 
-- [Disable-нетадаптеррсс](https://docs.microsoft.com/powershell/module/netadapter/Disable-NetAdapterRss). Эта команда отключает RSS на указанном сетевом адаптере.
+- [Disable-нетадаптеррсс](/powershell/module/netadapter/Disable-NetAdapterRss). Эта команда отключает RSS на указанном сетевом адаптере.
 
-- [Enable-нетадаптеррсс](https://docs.microsoft.com/powershell/module/netadapter/Enable-NetAdapterRss). Эта команда включает RSS на указанном сетевом адаптере.
+- [Enable-нетадаптеррсс](/powershell/module/netadapter/Enable-NetAdapterRss). Эта команда включает RSS на указанном сетевом адаптере.
 
-- [Get-нетадаптеррсс](https://docs.microsoft.com/powershell/module/netadapter/Get-NetAdapterRss). Эта команда получает свойства RSS указанного сетевого адаптера.
+- [Get-нетадаптеррсс](/powershell/module/netadapter/Get-NetAdapterRss). Эта команда получает свойства RSS указанного сетевого адаптера.
 
-- [Set-нетадаптеррсс](https://docs.microsoft.com/powershell/module/netadapter/Set-NetAdapterRss). Эта команда задает свойства RSS для указанного сетевого адаптера.
+- [Set-нетадаптеррсс](/powershell/module/netadapter/Set-NetAdapterRss). Эта команда задает свойства RSS для указанного сетевого адаптера.
 
 #### <a name="rss-profiles"></a>Профили RSS
 
@@ -210,28 +210,28 @@ RSC можно включить для виртуальной машины, ес
 
 Настройка ресурсов сетевого адаптера упрощена с помощью следующих командлетов Windows PowerShell.
 
-- [Get-Нетадаптерадванцедпроперти](https://docs.microsoft.com/powershell/module/netadapter/Get-NetAdapterAdvancedProperty)
+- [Get-Нетадаптерадванцедпроперти](/powershell/module/netadapter/Get-NetAdapterAdvancedProperty)
 
-- [Set-Нетадаптерадванцедпроперти](https://docs.microsoft.com/powershell/module/netadapter/Set-NetAdapterAdvancedProperty)
+- [Set-Нетадаптерадванцедпроперти](/powershell/module/netadapter/Set-NetAdapterAdvancedProperty)
 
-- [Enable-NetAdapter](https://docs.microsoft.com/powershell/module/netadapter/Enable-NetAdapte)
+- [Enable-NetAdapter](/powershell/module/netadapter/Enable-NetAdapte)
 
-- [Enable-Нетадаптербиндинг](https://docs.microsoft.com/powershell/module/netadapter/Enable-NetAdapterBinding)
+- [Enable-Нетадаптербиндинг](/powershell/module/netadapter/Enable-NetAdapterBinding)
 
-- [Enable-Нетадаптерчекксумоффлоад](https://docs.microsoft.com/powershell/module/netadapter/Enable-NetAdapterChecksumOffload)
+- [Enable-Нетадаптерчекксумоффлоад](/powershell/module/netadapter/Enable-NetAdapterChecksumOffload)
 
-- [Enable-Нетадаптерипсекоффлоад](https://docs.microsoft.com/powershell/module/netadapter/Enable-NetAdapterChecksumOffload)
+- [Enable-Нетадаптерипсекоффлоад](/powershell/module/netadapter/Enable-NetAdapterChecksumOffload)
 
-- [Enable-Нетадаптерлсо](https://docs.microsoft.com/powershell/module/netadapter/Enable-NetAdapterLso)
+- [Enable-Нетадаптерлсо](/powershell/module/netadapter/Enable-NetAdapterLso)
 
-- [Enable-Нетадаптерповерманажемент](https://docs.microsoft.com/powershell/module/netadapter/Enable-NetAdapterPowerManagement)
+- [Enable-Нетадаптерповерманажемент](/powershell/module/netadapter/Enable-NetAdapterPowerManagement)
 
-- [Enable-Нетадаптеркос](https://docs.microsoft.com/powershell/module/netadapter/Enable-NetAdapterQos)
+- [Enable-Нетадаптеркос](/powershell/module/netadapter/Enable-NetAdapterQos)
 
-- [Enable-Нетадаптеррдма](https://docs.microsoft.com/powershell/module/netadapter/Enable-NetAdapterRDMA)
+- [Enable-Нетадаптеррдма](/powershell/module/netadapter/Enable-NetAdapterRDMA)
 
-- [Enable-Нетадаптерсриов](https://docs.microsoft.com/powershell/module/netadapter/Enable-NetAdapterSriov)
+- [Enable-Нетадаптерсриов](/powershell/module/netadapter/Enable-NetAdapterSriov)
 
-Дополнительные сведения см. [в разделе командлеты сетевого адаптера в Windows PowerShell](https://docs.microsoft.com/powershell/module/netadapter).
+Дополнительные сведения см. [в разделе командлеты сетевого адаптера в Windows PowerShell](/powershell/module/netadapter).
 
 Ссылки на все разделы данного руководства см. в разделе [Настройка производительности сетевой подсистемы](net-sub-performance-top.md).

@@ -2,18 +2,16 @@
 title: Создание папки в пространстве имен DFS
 description: В этой статье рассматривается, как папку в пространстве имен DFS.
 ms.date: 6/5/2017
-ms.prod: windows-server
-ms.technology: storage
 ms.topic: article
 author: JasonGerend
 manager: brianlic
 ms.author: jgerend
-ms.openlocfilehash: 4034c3b40a6b409f295875e424668e68bce24cdb
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: d854cfcb02288f6262ee380edc0614baf9e29878
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86962866"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87957702"
 ---
 # <a name="create-a-folder-in-a-dfs-namespace"></a>Создание папки в пространстве имен DFS
 

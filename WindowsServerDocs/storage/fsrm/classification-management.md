@@ -2,18 +2,16 @@
 title: Управление классификациями
 description: В этой статье описывается, как классифицировать файлы на основе свойств классификации.
 ms.date: 7/7/2017
-ms.prod: windows-server
-ms.technology: storage
 ms.topic: article
 author: JasonGerend
 manager: brianlic
 ms.author: jgerend
-ms.openlocfilehash: e742b5f9f94da06d43127c437f6ce693d4bcfc16
-ms.sourcegitcommit: 771db070a3a924c8265944e21bf9bd85350dd93c
+ms.openlocfilehash: 53886eeace17c0e6611747031533a1480b493eaf
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85472890"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87957571"
 ---
 # <a name="classification-management"></a>Управление классификациями
 

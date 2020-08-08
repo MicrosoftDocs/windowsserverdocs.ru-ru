@@ -7,12 +7,12 @@ ms.assetid: 4e83b126-ce9a-4cd7-a0bd-6627c9e0f81b
 author: evaseydl
 manager: scottman
 ms.author: evas
-ms.openlocfilehash: b18800e2c8c7feae30f3dbcfb8904f00ef40a396
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 97141a300156c74ef5a2a3b1c4d738b4e33834f1
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87955471"
+ms.locfileid: "87991472"
 ---
 # <a name="set-up-the-physical-computer-and-primary-station"></a>Настройка физического компьютера и главной станции
 Перед установкой служб MultiPoint необходимо настроить основную станцию для системы служб MultiPoint. Если будет использоваться локальная сеть (LAN), подключите компьютер к локальной сети.
@@ -21,7 +21,7 @@ ms.locfileid: "87955471"
 
 Основная станция должна быть подключенной к видеостанции с поддержкой прямого видео. В следующей процедуре описывается подключение необходимого оборудования к компьютеру служб MultiPoint.
 
-Дополнительные сведения о станциях см. в статье [станции MultiPoint](multipoint-services-stations.md). Чтобы получить справку по выбору оборудования, см. раздел [Выбор оборудования для системы служб MultiPoint](Selecting-Hardware-for-Your-MultiPoint-services-System.md). Сведения о подключении других типов станций к службам MultiPoint см. [в разделе Подключение дополнительных станций к компьютеру служб MultiPoint](Attach-additional-stations-to-your-MultiPoint-services-computer.md).
+Дополнительные сведения о станциях см. в статье [станции MultiPoint](multipoint-services-stations.md). Чтобы получить справку по выбору оборудования, см. раздел [Выбор оборудования для системы служб MultiPoint](./select-hardware-mps.md). Сведения о подключении других типов станций к службам MultiPoint см. [в разделе Подключение дополнительных станций к компьютеру служб MultiPoint](./multipoint-attach-additional-stations.md).
 
 > [!NOTE]
 > Для создания станции, подключенной к видео, необходимо использовать латинский клавиатуру (например, на английском или испанском языке).

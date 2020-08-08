@@ -1,19 +1,17 @@
 ---
 title: Общие сведения о возможностях
 description: В этом разделе описывается концепция возможностей в System Insights и представлены возможности по умолчанию, доступные в Windows Server 2019.
-ms.prod: windows-server
-ms.technology: system-insights
 ms.topic: article
 author: gawatu
 ms.author: gawatu
 manager: mallikarjun.chadalapaka
 ms.date: 6/05/2018
-ms.openlocfilehash: c6738e6e914d97c70aa31af2fe3b6987b0b9ea33
-ms.sourcegitcommit: 771db070a3a924c8265944e21bf9bd85350dd93c
+ms.openlocfilehash: 195ab01ded24742a26e1d7558529044c9883b8fc
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85471749"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87991704"
 ---
 # <a name="understanding-capabilities"></a>Общие сведения о возможностях
 
@@ -40,7 +38,7 @@ ms.locfileid: "85471749"
 - **Ошибка** : Неизвестная проблема привела к сбою возможности.
 - **Нет** — прогноз не был выполнен. Это может быть вызвано недостатком данных или какой-либо другой конкретной причиной для того, чтобы не делать прогноз.
 
-Кроме того, все связанные с возможностями данные, содержащиеся в результате, будут помещены в доступный для пользователя JSON-файл, и путь к файлу [можно будет найти с помощью PowerShell](https://docs.microsoft.com/windows-server/manage/system-insights/managing-capabilities#retrieving-capability-results).
+Кроме того, все связанные с возможностями данные, содержащиеся в результате, будут помещены в доступный для пользователя JSON-файл, и путь к файлу [можно будет найти с помощью PowerShell](./managing-capabilities.md#retrieving-capability-results).
 
 ## <a name="default-capabilities"></a>Возможности по умолчанию
 В Windows Server 2019 System Insights предоставляет четыре возможности по умолчанию, нацеленные на прогнозирование емкости.

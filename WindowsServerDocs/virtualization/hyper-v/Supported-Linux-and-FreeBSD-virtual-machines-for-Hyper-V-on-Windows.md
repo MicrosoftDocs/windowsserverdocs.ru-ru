@@ -1,20 +1,18 @@
 ---
 title: Поддерживаемые виртуальные машины Linux и FreeBSD для Hyper-V в Windows
 description: Список служб и компонентов интеграции Linux, входящих в каждую версию
-ms.prod: windows-server
 manager: dongill
-ms.technology: compute-hyper-v
 ms.topic: article
 ms.assetid: 990ff94a-30fb-434b-b4a2-3804a5245ba6
 author: shirgall
 ms.author: kathydav
 ms.date: 10/03/2016
-ms.openlocfilehash: dff7a0f829f11a92f2c87305da806b9be43f42fe
-ms.sourcegitcommit: b00d7c8968c4adc8f699dbee694afe6ed36bc9de
+ms.openlocfilehash: 3c971b3b802f1059454bc8935b638ddcc10c825c
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "80855947"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87965631"
 ---
 # <a name="supported-linux-and-freebsd-virtual-machines-for-hyper-v-on-windows"></a>Поддерживаемые виртуальные машины Linux и FreeBSD для Hyper-V в Windows
 
@@ -45,7 +43,7 @@ LIS был добавлен в ядро Linux и обновлен для нов�
 
 **Хотите принять предложение о функциях и функциях?** Что мы можем сделать лучше? Вы можете использовать веб-сайт [пользователя Windows Server](https://windowsserver.uservoice.com/forums/295062-linux-support) , чтобы предложить новые функции и возможности для виртуальных машин Linux и FreeBSD в Hyper-V, а также узнать, какие другие люди говорят.
 
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>Содержание раздела
 
 * [Поддерживаемые CentOS и Red Hat Enterprise Linux виртуальные машины в Hyper-V](Supported-CentOS-and-Red-Hat-Enterprise-Linux-virtual-machines-on-Hyper-V.md)
 

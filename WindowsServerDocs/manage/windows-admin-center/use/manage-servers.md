@@ -6,12 +6,12 @@ author: nwashburn-ms
 ms.author: niwashbu
 ms.date: 11/21/2019
 ms.localizationpriority: medium
-ms.openlocfilehash: 69f8f20aa9e1b222ff112f91df8d6b3d7767fc84
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 25edd2851638fec99b6afda0415fdf8e8c8f1699
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87962388"
+ms.locfileid: "87997184"
 ---
 # <a name="manage-servers-with-windows-admin-center"></a>Управление серверами с помощью центра администрирования Windows
 
@@ -411,7 +411,7 @@ ms.locfileid: "87962388"
 ### <a name="features"></a>Функции
 
 - Просмотр и изменение переменных среды пользователя и системы
-- Просмотр конфигурации оповещений мониторинга от [Azure Monitor](azure-monitor.md)
+- Просмотр конфигурации оповещений мониторинга от [Azure Monitor](../azure/azure-monitor.md)
 - Просмотр и изменение конфигурации питания
 - Просмотр и изменение параметров удаленный рабочий стол
 - Просмотр и изменение параметров управления доступом на основе ролей
@@ -436,7 +436,7 @@ ms.locfileid: "87962388"
 - Изменить свойства тома
 - Удаление тома
 - Установка управления квотами
-- Управление хранилищем квот диспетчер ресурсов файлового сервера [->создание или обновление квоты](https://docs.microsoft.com/windows-server/storage/fsrm/quota-management)
+- Управление хранилищем квот диспетчер ресурсов файлового сервера [->создание или обновление квоты](../../../storage/fsrm/quota-management.md)
 
 [**Просмотр отзывов и предлагаемых функций для хранилища**](https://windowsserver.uservoice.com/forums/295071/filters/top?category_id=319162&query=%5BStorage%5D)
 
@@ -451,7 +451,7 @@ ms.locfileid: "87962388"
 ## <a name="storage-replica"></a>Реплика хранилища
 
 Используйте **реплику хранилища** для управления репликацией хранилища "сервер-сервер".
- [Дополнительные сведения о реплике хранилища](https://docs.microsoft.com/windows-server/storage/storage-replica/storage-replica-ui)
+ [Дополнительные сведения о реплике хранилища](../../../storage/storage-replica/server-to-server-storage-replication.md)
 
 ## <a name="system-insights"></a>Системная аналитика
 
@@ -473,7 +473,7 @@ ms.locfileid: "87962388"
 - Просмотр списка журнала обновлений
 - Установка обновлений
 - Проверка обновлений в Интернете с Центр обновления Майкрософт
-- Управление интеграцией [Управление обновлениями Azure](https://docs.microsoft.com/azure/automation/automation-update-management)
+- Управление интеграцией [Управление обновлениями Azure](/azure/automation/automation-update-management)
 
 [**Просмотр отзывов и предлагаемых компонентов для обновлений**](https://windowsserver.uservoice.com/forums/295071/filters/top?category_id=319162&query=%5BUpdates%5D)
 

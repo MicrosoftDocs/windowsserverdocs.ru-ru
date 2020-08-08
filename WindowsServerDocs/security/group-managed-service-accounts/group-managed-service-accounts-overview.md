@@ -7,12 +7,12 @@ author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/12/2016
-ms.openlocfilehash: 51b9b0d7b912cfc2fbf123cf4c666f8653dc86a1
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 09405b940e9fd862372fe80c4a5194caa205e5ea
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87971461"
+ms.locfileid: "87991504"
 ---
 # <a name="group-managed-service-accounts-overview"></a>Group Managed Service Accounts Overview
 
@@ -42,7 +42,7 @@ Gmsa предоставляют единое решение идентифика
 Управляемая учетная запись службы зависит от поддерживаемых протоколом Kerberos типов шифрования. Если проверка подлинности клиентского компьютера на сервере выполняется с помощью Kerberos, контроллер домена создает билет службы Kerberos, защищенный шифром, который поддерживают и контроллер, и сервер. Контроллер домена использует атрибут msDS суппортеденкриптионтипес учетной записи, \- чтобы определить, какое шифрование поддерживает сервер, и, если атрибут отсутствует, предполагается, что клиентский компьютер не поддерживает более надежные типы шифрования. Если узел настроен для поддержки алгоритма RC4, проверка подлинности всегда завершится ошибкой. Поэтому стандарт AES всегда должен быть явным образом настроен для поддержки MSA.
 
 > [!NOTE]
-> Начиная с версии Windows Server 2008 R2, стандарт DES отключен по умолчанию. Дополнительные сведения о поддерживаемых типах шифрования см. в статье [Изменения в проверке подлинности Kerberos](https://technet.microsoft.com/library/dd560670(WS.10).aspx).
+> Начиная с версии Windows Server 2008 R2, стандарт DES отключен по умолчанию. Дополнительные сведения о поддерживаемых типах шифрования см. в статье [Изменения в проверке подлинности Kerberos](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd560670(v=ws.10)).
 
 Gmsa не применимы к операционным системам Windows до Windows Server 2012.
 
@@ -54,14 +54,12 @@ Gmsa не применимы к операционным системам Window
 
 |Тип содержимого|Ссылки|
 |--------|-------|
-|**Оценка продукта**|[What's New for Managed Service Accounts](what-s-new-for-managed-service-accounts.md)<p>[Документация по управляемым учетным записям служб для Windows 7 и Windows Server 2008 R2](https://technet.microsoft.com/library/ff641731(v=ws.10).aspx)<p>[Пошаговое руководств по учетным записям служб \- \-](https://technet.microsoft.com/library/dd548356(v=ws.10).aspx)|
+|**Оценка продукта**|[What's New for Managed Service Accounts](what-s-new-for-managed-service-accounts.md)<p>[Документация по управляемым учетным записям служб для Windows 7 и Windows Server 2008 R2](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ff641731(v=ws.10))<p>[Пошаговое руководств по учетным записям служб \- \-](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd548356(v=ws.10))|
 |**Planning**|Пока недоступно|
 |**Развертывание**|Пока недоступно|
-|**Операции**|[Управляемые учетные записи служб в Active Directory](https://technet.microsoft.com/library/dd378925(v=ws.10).aspx)|
+|**Операции**|[Управляемые учетные записи служб в Active Directory](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd378925(v=ws.10))|
 |**Устранение неполадок**|Пока недоступно|
 |**Ознакомительная версия**|[начало работы с групповыми управляемыми учетными записями службы](getting-started-with-group-managed-service-accounts.md)|
-|**Средства и параметры**|[Управляемые учетные записи служб в доменных службах Active Directory](https://technet.microsoft.com/library/dd378925(v=WS.10).aspx)|
-|**Ресурсы сообщества**|[Управляемые учетные записи служб: общие сведения, реализация, рекомендации и устранение неполадок](https://blogs.technet.com/b/askds/archive/2009/09/10/managed-service-accounts-understanding-implementing-best-practices-and-troubleshooting.aspx)|
+|**Средства и параметры**|[Управляемые учетные записи служб в доменных службах Active Directory](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd378925(v=ws.10))|
+|**Ресурсы сообщества**|[Управляемые учетные записи служб: общие сведения, реализация, рекомендации и устранение неполадок](/archive/blogs/askds/managed-service-accounts-understanding-implementing-best-practices-and-troubleshooting)|
 |**Связанные технологии**|[Обзор доменных служб Active Directory](active-directory-domain-services-overview.md)|
-
-

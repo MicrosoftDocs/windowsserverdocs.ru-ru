@@ -2,18 +2,16 @@
 title: Развертывание нескольких серверов удаленного доступа в многосайтового развертывания
 description: Эта статья является частью руководств по развертыванию нескольких серверов удаленного доступа в многосайтовом развертывании в Windows Server 2016.
 manager: brianlic
-ms.prod: windows-server
-ms.technology: networking-ras
 ms.topic: article
 ms.assetid: ac2f6015-50a5-4909-8f67-8565f9d332a2
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: d8f12839deb1279b9f6c095068a85f528dad4a72
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.openlocfilehash: 8f0d8b4416c8480921d43fd4e705b837082152fb
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87181760"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87991351"
 ---
 # <a name="deploy-multiple-remote-access-servers-in-a-multisite-deployment"></a>Развертывание нескольких серверов удаленного доступа в многосайтового развертывания
 
@@ -45,7 +43,7 @@ ms.locfileid: "87181760"
 
 -   Должна быть развернута инфраструктура открытого ключа.
 
-    Дополнительная информация: [Мини-модуль руководства по лаборатории тестирования: Базовая PKI для Windows Server 2012.](https://docs.microsoft.com/answers/topics/windows-server-2012.html)
+    Дополнительная информация: [Мини-модуль руководства по лаборатории тестирования: Базовая PKI для Windows Server 2012.](/answers/topics/windows-server-2012.html)
 
 -   В корпоративной сети должна быть включена поддержка IPv6. Если вы используете протокол ISATAP, необходимо удалить его и перейти на собственный IPv6.
 
@@ -156,6 +154,3 @@ ms.locfileid: "87181760"
 -   Если DirectAccess был развернут при наличии существующей инфраструктуры ISATAP, при удалении точки входа, которая была узлом ISATAP, адрес IPv6 службы DNS64 будет удален из адресов DNS-серверов всех DNS-суффиксов в таблице NRPT.
 
     Чтобы устранить эту проблему, в мастере **установки сервера инфраструктуры** на странице **DNS** удалите DNS-суффиксы, которые были изменены, и добавьте их снова с ПРАВИЛЬНЫМИ адресами DNS-серверов, нажав кнопку **обнаружить** в диалоговом окне **адреса DNS-сервера** .
-
-
-

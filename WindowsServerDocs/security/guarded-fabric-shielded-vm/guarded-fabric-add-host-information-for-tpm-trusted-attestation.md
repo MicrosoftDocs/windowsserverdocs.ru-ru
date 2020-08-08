@@ -6,12 +6,12 @@ manager: dongill
 author: rpsqrd
 ms.author: ryanpu
 ms.date: 06/21/2019
-ms.openlocfilehash: 7ec49467b3875ba552f5b92fb3776892a2d54c13
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: fc879fda0f6a708a8a1d4ebd60834f4e6543f3ba
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87971411"
+ms.locfileid: "87997164"
 ---
 # <a name="add-host-information-for-tpm-trusted-attestation"></a>Добавление сведений об узле для аттестации с доверенным платформенным модулем
 
@@ -55,7 +55,7 @@ ms.locfileid: "87971411"
     Add-HgsAttestationTpmPolicy -Path <Filename>.tcglog -Name '<PolicyName>'
     ```
 
-Это завершает процесс настройки кластера HGS для работы в режиме TPM. Администратору структуры может потребоваться предоставить два URL-адреса из HGS, прежде чем можно будет завершить настройку для узлов. Чтобы получить эти URL-адреса, на сервере HGS выполните команду [Get-HgsServer](https://docs.microsoft.com/powershell/module/hgsserver/get-hgsserver?view=win10-ps).
+Это завершает процесс настройки кластера HGS для работы в режиме TPM. Администратору структуры может потребоваться предоставить два URL-адреса из HGS, прежде чем можно будет завершить настройку для узлов. Чтобы получить эти URL-адреса, на сервере HGS выполните команду [Get-HgsServer](/powershell/module/hgsserver/get-hgsserver?view=win10-ps).
 
 ## <a name="next-step"></a>Следующий шаг
 

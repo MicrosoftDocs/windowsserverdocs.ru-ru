@@ -7,12 +7,12 @@ author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 7819bdfe1c5a65adc126ab902e6138d372982f20
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: ffe38a896e7913d03cc8f4ad62d1e520cec6a0c2
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87895813"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87991931"
 ---
 # <a name="configure-features-on-demand-in-windows-server"></a>Configure Features on Demand in Windows Server
 
@@ -71,7 +71,7 @@ ms.locfileid: "87895813"
 
 -   `remove`Параметр `Uninstall-WindowsFeature` командлета позволяет удалять файлы компонентов с сервера или с неподключенного виртуального жесткого диска (VHD) под windows Server 2012 R2 или windows Server 2012. Допустимые значения `remove` параметра — это имена ролей, служб ролей и компонентов.
 
--   С помощью команды системы обслуживания образов развертывания и управления ими (DISM) можно создавать пользовательские WIM-файлы, позволяющие экономить дисковое пространство путем пропуска файлов компонентов, которые не требуются или могут быть получены из других, удаленных источников. Дополнительные сведения об использовании DISM для подготовки пользовательских образов см. в разделе [Включение и отключение компонентов Windows](https://technet.microsoft.com/library/hh824822.aspx).
+-   С помощью команды системы обслуживания образов развертывания и управления ими (DISM) можно создавать пользовательские WIM-файлы, позволяющие экономить дисковое пространство путем пропуска файлов компонентов, которые не требуются или могут быть получены из других, удаленных источников. Дополнительные сведения об использовании DISM для подготовки пользовательских образов см. в разделе [Включение и отключение компонентов Windows](/previous-versions/windows/it-pro/windows-8.1-and-8/hh824822(v=win.10)).
 
 ## <a name="remove-feature-files-by-using-uninstall-windowsfeature"></a><a name=BKMK_remove></a>Удаление файлов компонентов с помощью командлета Uninstall-WindowsFeature
 Командлет Uninstall-WindowsFeature можно использовать для удаления ролей, служб ролей и компонентов с серверов и автономных виртуальных жестких дисков, работающих под управлением Windows Server 2012 R2 или Windows Server 2012, а также для удаления файлов компонентов. При необходимости можно удалить и удалить те же роли, службы ролей и компоненты в одной и той же команде.
@@ -117,8 +117,6 @@ ms.locfileid: "87895813"
 
 ## <a name="see-also"></a>См. также:
 [Установка и удаление ролей, служб ролей или компонентов](install-or-uninstall-roles-role-services-or-features.md) 
- Параметры установки Windows [Server](https://technet.microsoft.com/library/hh831786.aspx) 
- [Включение и отключение функций Windows](https://technet.microsoft.com/library/hh824822.aspx) 
- [Обзор системы обслуживания образов развертывания и управления ими (DISM)](https://technet.microsoft.com/library/hh825236.aspx)
-
-
+ Параметры установки Windows [Server](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831786(v=ws.11)) 
+ [Включение и отключение функций Windows](/previous-versions/windows/it-pro/windows-8.1-and-8/hh824822(v=win.10)) 
+ [Обзор системы обслуживания образов развертывания и управления ими (DISM)](/previous-versions/windows/it-pro/windows-8.1-and-8/hh825236(v=win.10))

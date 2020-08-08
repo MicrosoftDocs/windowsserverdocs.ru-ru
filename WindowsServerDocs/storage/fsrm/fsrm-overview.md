@@ -1,19 +1,17 @@
 ---
 title: Обзор диспетчера ресурсов файлового сервера (FSRM)
-ms.prod: windows-server
 ms.author: jgerend
 manager: brianlic
-ms.technology: storage
 ms.topic: article
 author: jasongerend
 ms.date: 5/14/2018
 description: Файловый сервер диспетчер ресурсов (FSRM) — это средство, которое позволяет управлять данными и классифицировать их на файловый сервер Windows Server.
-ms.openlocfilehash: 58b410e51dae3ea102bb1a15f5bb60f00ab702fa
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: f09e262176d0e5741c60390497fd2f241eaa965a
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86964566"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87957391"
 ---
 # <a name="file-server-resource-manager-fsrm-overview"></a>Обзор диспетчера ресурсов файлового сервера (FSRM)
 
@@ -23,7 +21,7 @@ ms.locfileid: "86964566"
 
 Это небольшая точка, но мы также [добавили возможность отключения журналов изменений](#whats-new) в Windows Server версии 1803.
 
-## <a name="features"></a>Компоненты
+## <a name="features"></a>Функции
 
 Диспетчер ресурсов файлового сервера включает следующие компоненты.
 
@@ -90,7 +88,7 @@ ms.locfileid: "86964566"
        ```
     2. В редакторе реестра щелкните правой кнопкой мыши HKEY_LOCAL_MACHINE ключ **\систем\куррентконтролсет\сервицес\срмсвк\сеттингс** и выберите пункт **новое**  >  **многострочное значение**.
     3. Присвойте этому значению имя `SkipUSNCreationForVolumes` .
-    4. Введите путь к каждому тому, на котором вы пропускаете создание журнала изменений, размещая каждый путь на отдельной строке. Например.
+    4. Введите путь к каждому тому, на котором вы пропускаете создание журнала изменений, размещая каждый путь на отдельной строке. Например:
 
         ```
         \\?\Volume{8d3c9e8a-0000-0000-0000-100000000000}\

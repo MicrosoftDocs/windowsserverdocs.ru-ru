@@ -7,12 +7,12 @@ author: brentfor
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: fad4586b4d510fd22ecd90855b3afa1c8870c1bf
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 75f0395afbcbefcdc4ac3a9fc4dc4de3bf962428
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87895624"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87991750"
 ---
 # <a name="manage-user-access-logging"></a>Управление ведением журнала доступа пользователей
 
@@ -233,11 +233,11 @@ UAL позволяет хранить историю в течение двух 
 ## <a name="recovering-from-a-corrupt-state"></a>Восстановление из ошибочного состояния
 В этом разделе обсуждается использование расширяемого механизма хранилища (ESE) на высоком уровне, а также действия администратора в случае повреждения или восстановления данных UAL.
 
-Служба UAL использует ESE для оптимизации использования системных ресурсов и обеспечения их устойчивости к повреждению.  Дополнительные сведения о преимуществах ESE см. в разделе [Расширяемый обработчик хранилищ](https://msdn.microsoft.com/library/windows/desktop/gg269259(v=exchg.10).aspx) в MSDN.
+Служба UAL использует ESE для оптимизации использования системных ресурсов и обеспечения их устойчивости к повреждению.  Дополнительные сведения о преимуществах ESE см. в разделе [Расширяемый обработчик хранилищ](/windows/win32/extensible-storage-engine/extensible-storage-engine) в MSDN.
 
-При каждом запуске службы UAL обработчик ESE выполняет "мягкое" восстановление. Дополнительные сведения см. в разделе [Файлы расширяемого обработчика хранилищ](https://msdn.microsoft.com/library/windows/desktop/gg294069(v=exchg.10).aspx) в MSDN.
+При каждом запуске службы UAL обработчик ESE выполняет "мягкое" восстановление. Дополнительные сведения см. в разделе [Файлы расширяемого обработчика хранилищ](/windows/win32/extensible-storage-engine/extensible-storage-engine-files) в MSDN.
 
-Если выполнить "мягкое" восстановление будет проблематично, то ESE выполнит восстановление после сбоя. Дополнительные сведения см. в разделе [Функция JetInit](https://msdn.microsoft.com/library/windows/desktop/gg294068(v=exchg.10).aspx) в MSDN.
+Если выполнить "мягкое" восстановление будет проблематично, то ESE выполнит восстановление после сбоя. Дополнительные сведения см. в разделе [Функция JetInit](/windows/win32/extensible-storage-engine/jetinit-function) в MSDN.
 
 Если UAL все же не может запуститься с существующим набором файлов ESE, то все файлы в каталоге \Windows\System32\LogFiles\SUM\ будут удалены. После удаления этих файлов будет вновь запущена служба ведения журнала доступа пользователей и созданы новые файлы. В этом случае служба UAL продолжит работу, как если бы она функционировала на вновь установленном компьютере.
 
@@ -258,5 +258,3 @@ Reg add HKLM\Software\Microsoft\Windows\CurrentVersion\SyncShareSrv /v EnableWor
 ## <a name="see-also"></a><a name="BKMK_Links"></a> См. также
 
 - [Приступая к работе с журналом доступа пользователей](get-started-with-user-access-logging.md)
-
-

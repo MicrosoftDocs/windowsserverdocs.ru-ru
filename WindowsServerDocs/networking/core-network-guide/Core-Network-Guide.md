@@ -6,12 +6,12 @@ ms.topic: article
 ms.assetid: b3cd60f7-d380-4712-9a78-0a8f551e1121
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 2c41fde041183ff7e039bd2fed877aad8ff0f234
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 6db855343ef037fb1e55925620f1842c7fdff98a
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87962328"
+ms.locfileid: "87997135"
 ---
 # <a name="core-network-components"></a>Компоненты основной сети
 
@@ -548,8 +548,8 @@ IP-адреса можно исключить из распределения DH
 
 >[!NOTE]
 >Дополнительные сведения об этих командах Windows PowerShell см. в следующих справочных разделах.
->- [Install-WindowsFeature](https://docs.microsoft.com/powershell/module/servermanager/install-windowsfeature?view=win10-ps)
->- [Install-Аддсфорест](https://docs.microsoft.com/powershell/module/addsdeployment/install-addsforest?view=win10-ps)
+>- [Install-WindowsFeature](/powershell/module/servermanager/install-windowsfeature?view=win10-ps)
+>- [Install-Аддсфорест](/powershell/module/addsdeployment/install-addsforest?view=win10-ps)
 
 Минимальным требованием для выполнения этой процедуры является членство в группе **Администраторы**.
 
@@ -1157,19 +1157,19 @@ Get-WindowsFeature
 
  Ресурсы технической библиотеки по Windows Server 2016, Windows Server 2012 R2 и Windows Server 2012
 
-- [Новые возможности служб домен Active Directory Services (AD DS) в Windows Server 2016](https://technet.microsoft.com/library/mt163897.aspx)
+- [Новые возможности служб домен Active Directory Services (AD DS) в Windows Server 2016](../../identity/whats-new-active-directory-domain-services.md)
 
-- [Общие сведения о службах домен Active Directory](https://technet.microsoft.com/library/hh831484.aspx) в разделе https://technet.microsoft.com/library/hh831484.aspx .
+- [Общие сведения о службах домен Active Directory](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831484(v=ws.11)) в разделе https://technet.microsoft.com/library/hh831484.aspx .
 
-- [Обзор службы доменных имен (DNS)](https://technet.microsoft.com/library/hh831667.aspx) в https://technet.microsoft.com/library/hh831667.aspx .
+- [Обзор службы доменных имен (DNS)](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831667(v=ws.11)) в https://technet.microsoft.com/library/hh831667.aspx .
 
-- [Реализация роли «Администраторы DNS»](https://technet.microsoft.com/library/cc756152(WS.10).aspx)
+- [Реализация роли «Администраторы DNS»](/previous-versions/windows/it-pro/windows-server-2003/cc756152(v=ws.10))
 
-- [Обзор протокола DHCP](https://technet.microsoft.com/library/hh831825.aspx) в https://technet.microsoft.com/library/hh831825.aspx .
+- [Обзор протокола DHCP](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831825(v=ws.11)) в https://technet.microsoft.com/library/hh831825.aspx .
 
-- [Общие сведения о службах сетевой политики и доступа](https://technet.microsoft.com/library/hh831683.aspx) в разделе https://technet.microsoft.com/library/hh831683.aspx .
+- [Общие сведения о службах сетевой политики и доступа](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831683(v=ws.11)) в разделе https://technet.microsoft.com/library/hh831683.aspx .
 
-- [Обзор веб-сервера (IIS)](https://technet.microsoft.com/library/hh831725.aspx) в https://technet.microsoft.com/library/hh831725.aspx .
+- [Обзор веб-сервера (IIS)](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831725(v=ws.11)) в https://technet.microsoft.com/library/hh831725.aspx .
 
 ## <a name="appendices-a-through-e"></a><a name="BKMK_appendix"></a>Приложения от A до E
 В следующих разделах содержатся дополнительные сведения о конфигурации для компьютеров под управлением операционных систем, отличных от Windows Server 2016, Windows 10, Windows Server 2012 и Windows 8. Кроме того, предоставляется лист подготовки сети для помощи в развертывании.
@@ -1543,4 +1543,3 @@ Get-WindowsFeature
 Элементы конфигурации для процедур развертывания сервера сетевых политик Windows Server Core [установите сервер политики сети (NPS)](#BKMK_installNPS) и [зарегистрируйте NPS в домене по умолчанию](#BKMK_registerNPS).
 
 - Дополнительные элементы конфигурации для установки и регистрации сервера политики сети не требуются.
-

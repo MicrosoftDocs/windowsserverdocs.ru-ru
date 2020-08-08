@@ -6,12 +6,12 @@ ms.topic: get-started-article
 author: nedpyle
 ms.date: 04/26/2019
 ms.assetid: 6c5b9431-ede3-4438-8cf5-a0091a8633b0
-ms.openlocfilehash: fa5246aad79b9441b973cf864233ca8cfe0da7fa
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: efc2727c913ac2bab5ea619101ebef12f40a69b2
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87950548"
+ms.locfileid: "87991507"
 ---
 # <a name="stretch-cluster-replication-using-shared-storage"></a>Репликация растянутого кластера с помощью общего хранилища
 
@@ -801,5 +801,5 @@ ms.locfileid: "87950548"
 - [Реплика хранилища: вопросы и ответы](storage-replica-frequently-asked-questions.md)
 
 ## <a name="see-also"></a>См. также:
-- [Windows Server 2016](../../get-started/windows-server-2016.md)
+- [Windows Server 2016](../../index.yml)
 - [Локальные дисковые пространства в Windows Server 2016](../storage-spaces/storage-spaces-direct-overview.md)

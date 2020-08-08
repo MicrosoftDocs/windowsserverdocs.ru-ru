@@ -7,12 +7,12 @@ ms.topic: article
 ms.assetid: d324af73-af73-40b0-bd5b-8003ba3e921b
 author: kbdazure
 ms.date: 8/16/2016
-ms.openlocfilehash: c9cedb875c12eee1cf7e9a13fd16753564b1dc16
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: f382b4725ec76802da36a83d8388445691990707
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87948055"
+ms.locfileid: "87997160"
 ---
 # <a name="windows-server-2016-should-be-configured-with-at-least-the-minimum-amount-of-memory"></a>Для Windows Server 2016 следует настроить по крайней мере минимальный объем памяти.
 
@@ -65,7 +65,4 @@ Set-VMMemory <MyVM> -StartupBytes 512MB
 ```
 
 ## <a name="see-also"></a>См. также:
-[Set-Вммемори](https://technet.microsoft.com/library/hh848572.aspx)
-
-
-
+[Set-Вммемори](/powershell/module/hyper-v/set-vmmemory?view=win10-ps)

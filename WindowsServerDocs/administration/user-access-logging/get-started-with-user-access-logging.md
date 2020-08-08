@@ -7,12 +7,12 @@ author: brentfor
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 6b5e8ae365fbf8130d134ab2f9fa555e952d012a
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: da8bb60ea455578eff96aed6173e4662fffd6ade
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87895637"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87991762"
 ---
 # <a name="get-started-with-user-access-logging"></a>Приступая к работе с журналом доступа пользователей
 
@@ -126,7 +126,5 @@ UAL поддерживает следующие службы и роли сер�
 UAL можно использовать на любом компьютере под управлением версий Windows Server после Windows Server 2012.
 
 ## <a name="additional-references"></a>Дополнительные ссылки
-[Ведение журнала доступа пользователей](https://msdn.microsoft.com/library/windows/desktop/hh437528(v=vs.85).aspx) в сети MSDN.
+[Ведение журнала доступа пользователей](/previous-versions/windows/desktop/ual/user-access-logging) в сети MSDN.
 [Управление ведением журнала доступа пользователей](Manage-User-Access-Logging.md)
-
-

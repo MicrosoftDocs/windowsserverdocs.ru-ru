@@ -7,12 +7,12 @@ author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/12/2016
-ms.openlocfilehash: 728da4f2061156352045439a55cba7fa9e98ced9
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 979a6cf1e0b5e2d68c05f6285a9d745eabe41fa4
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87971471"
+ms.locfileid: "87991524"
 ---
 # <a name="getting-started-with-group-managed-service-accounts"></a>Getting Started with Group Managed Service Accounts
 
@@ -174,7 +174,7 @@ ms.locfileid: "87971471"
     New-ADServiceAccount ITFarm1 -DNSHostName ITFarm1.contoso.com -PrincipalsAllowedToRetrieveManagedPassword ITFarmHosts$ -KerberosEncryptionType RC4, AES128, AES256 -ServicePrincipalNames http/ITFarm1.contoso.com/contoso.com, http/ITFarm1.contoso.com/contoso, http/ITFarm1/contoso.com, http/ITFarm1/contoso
     ```
 
-Минимальным требованием для выполнения этих процедур является членство в группе **Администраторы домена** либо **Операторы учета** или наличие права на создание объектов msDS-GroupManagedServiceAccount. Дополнительные сведения об использовании подходящих учетных записей и участия в группах см. в разделе [Локальные группы и группы домена по умолчанию](https://technet.microsoft.com/library/dd728026(WS.10).aspx).
+Минимальным требованием для выполнения этих процедур является членство в группе **Администраторы домена** либо **Операторы учета** или наличие права на создание объектов msDS-GroupManagedServiceAccount. Дополнительные сведения об использовании подходящих учетных записей и участия в группах см. в разделе [Локальные группы и группы домена по умолчанию](/previous-versions/orphan-topics/ws.10/dd728026(v=ws.10)).
 
 ##### <a name="to-create-a-gmsa-for-outbound-authentication-only-using-the-new-adserviceaccount-cmdlet"></a>Чтобы создать групповую управляемую учетную запись службы для исходящей проверки подлинности, используйте командлет New-ADServiceAccount.
 
@@ -204,15 +204,15 @@ New-ADServiceAccount ITFarm1 -RestrictToOutboundAuthenticationOnly - PrincipalsA
 
 -   Пул приложений IIS
 
-    Дополнительные сведения см. в разделе [Указание удостоверения для пула приложений (IIS 7)](https://technet.microsoft.com/library/cc771170(WS.10).aspx).
+    Дополнительные сведения см. в разделе [Указание удостоверения для пула приложений (IIS 7)](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc771170(v=ws.10)).
 
 -   службы Windows
 
-    Дополнительные сведения см. в разделе [Службы](https://technet.microsoft.com/library/cc772408.aspx).
+    Дополнительные сведения см. в разделе [Службы](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc772408(v=ws.11)).
 
 -   Задачи
 
-    Дополнительные сведения см. в статье [Обзор планировщика задач](https://technet.microsoft.com/library/cc721871.aspx).
+    Дополнительные сведения см. в статье [Обзор планировщика задач](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc721871(v=ws.11)).
 
 Групповые управляемые учетные записи могут поддерживать и другие службы. Информацию о настройки таких служб см. в документации к соответствующим продуктам.
 
@@ -223,15 +223,15 @@ New-ADServiceAccount ITFarm1 -RestrictToOutboundAuthenticationOnly - PrincipalsA
 
 -   Метод 1: Active Directory — пользователи и компьютеры
 
-    Порядок использования данного метода см. в статье [Добавление учетной записи компьютера в группу](https://technet.microsoft.com/library/cc733097.aspx) с помощью интерфейса Windows и [Управление различными доменами в центре администрирования Active Directory](manage-different-domains-in-active-directory-administrative-center.md).
+    Порядок использования данного метода см. в статье [Добавление учетной записи компьютера в группу](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc733097(v=ws.11)) с помощью интерфейса Windows и [Управление различными доменами в центре администрирования Active Directory](manage-different-domains-in-active-directory-administrative-center.md).
 
 -   Метод 2: dsmod
 
-    Порядок использования данного метода см. в статье [Добавление учетной записи компьютера в группу](https://technet.microsoft.com/library/cc733097.aspx) с помощью командной строки.
+    Порядок использования данного метода см. в статье [Добавление учетной записи компьютера в группу](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc733097(v=ws.11)) с помощью командной строки.
 
 -   Метод 3: командлет Add-ADPrincipalGroupMembership в Windows PowerShell Active Directory
 
-    Порядок использования данного метода см. в статье [Add-ADPrincipalGroupMembership](https://technet.microsoft.com/library/ee617203.aspx).
+    Порядок использования данного метода см. в статье [Add-ADPrincipalGroupMembership](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee617203(v=technet.10)).
 
 Если используются учетные записи компьютеров, найдите существующие учетные записи и добавьте новую учетную запись компьютера.
 
@@ -271,7 +271,7 @@ Set-ADServiceAccount [-Identity] ITFarm1 -PrincipalsAllowedToRetrieveManagedPass
 
 Откройте модуль Active Directory для Windows PowerShell и настройте желаемые свойства с помощью командлета Set-ADServiceAccount.
 
-Подробную информацию об установке этих свойств см. в статье [Set-ADServiceAccount](https://technet.microsoft.com/library/ee617252.aspx) в библиотеке TechNet или введите **Get-Help Set-ADServiceAccount** в командной строке модуля Active Directory для Windows PowerShell и нажмите клавишу ВВОД.
+Подробную информацию об установке этих свойств см. в статье [Set-ADServiceAccount](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee617252(v=technet.10)) в библиотеке TechNet или введите **Get-Help Set-ADServiceAccount** в командной строке модуля Active Directory для Windows PowerShell и нажмите клавишу ВВОД.
 
 ## <a name="decommissioning-member-hosts-from-an-existing-server-farm"></a><a name="BKMK_DecommMemberHosts"></a>Списание узлов из существующей фермы серверов
 Минимальным требованием для выполнения этих процедур является членство в группе **Администраторы домена** или наличие права на удаление объектов из группы безопасности.
@@ -281,15 +281,15 @@ Set-ADServiceAccount [-Identity] ITFarm1 -PrincipalsAllowedToRetrieveManagedPass
 
 -   Метод 1: Active Directory — пользователи и компьютеры
 
-    Порядок использования данного метода см. в статье [Удаление учетной записи компьютера](https://technet.microsoft.com/library/cc754624.aspx) с помощью интерфейса Windows и [Управление различными доменами в центре администрирования Active Directory](manage-different-domains-in-active-directory-administrative-center.md).
+    Порядок использования данного метода см. в статье [Удаление учетной записи компьютера](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc754624(v=ws.11)) с помощью интерфейса Windows и [Управление различными доменами в центре администрирования Active Directory](manage-different-domains-in-active-directory-administrative-center.md).
 
 -   Метод 2: drsm
 
-    Порядок использования данного метода см. в статье [Удаление учетной записи компьютера](https://technet.microsoft.com/library/cc754624.aspx) с помощью командной строки.
+    Порядок использования данного метода см. в статье [Удаление учетной записи компьютера](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc754624(v=ws.11)) с помощью командной строки.
 
 -   Метод 3: командлет Remove-ADPrincipalGroupMembership в Windows PowerShell Active Directory
 
-    Подробную информацию об использовании данного метода см. в статье  [Remove-ADPrincipalGroupMembership](https://technet.microsoft.com/library/ee617243.aspx) в библиотеке TechNet или введите **Get-Help Remove-ADPrincipalGroupMembership** в командной строке модуля Active Directory для Windows PowerShell и нажмите клавишу ВВОД.
+    Подробную информацию об использовании данного метода см. в статье  [Remove-ADPrincipalGroupMembership](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee617243(v=technet.10)) в библиотеке TechNet или введите **Get-Help Remove-ADPrincipalGroupMembership** в командной строке модуля Active Directory для Windows PowerShell и нажмите клавишу ВВОД.
 
 Если используются учетные записи компьютеров, извлеките существующие учетные записи и добавьте все учетные записи компьютеров, кроме удаленных.
 
@@ -345,7 +345,7 @@ Set-ADServiceAccount [-Identity] ITFarm1 -PrincipalsAllowedToRetrieveManagedPass
     Uninstall-ADServiceAccount ITFarm1
     ```
 
-Для получения дополнительных сведений о командлете Uninstall-ADServiceAccount введите в командной строке модуля Active Directory для Windows PowerShell команду **Get-Help Uninstall-ADServiceAccount**и нажмите клавишу ВВОД либо изучите статью [Uninstall-ADServiceAccount](https://technet.microsoft.com/library/ee617202.aspx)на веб-сайте TechNet.
+Для получения дополнительных сведений о командлете Uninstall-ADServiceAccount введите в командной строке модуля Active Directory для Windows PowerShell команду **Get-Help Uninstall-ADServiceAccount**и нажмите клавишу ВВОД либо изучите статью [Uninstall-ADServiceAccount](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee617202(v=technet.10))на веб-сайте TechNet.
 
 
 

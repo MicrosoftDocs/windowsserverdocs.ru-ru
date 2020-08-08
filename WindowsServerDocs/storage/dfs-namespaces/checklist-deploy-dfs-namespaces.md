@@ -2,18 +2,16 @@
 title: Контрольный список развертывания пространств имен DFS
 description: В этой статье рассматривается, как настраивать и развертывать пространства имен DFS.
 ms.date: 6/5/2017
-ms.prod: windows-server
-ms.technology: storage
 ms.topic: article
 author: JasonGerend
 manager: brianlic
 ms.author: jgerend
-ms.openlocfilehash: 389d02ae7269ef48ef77d066db3064759d9253c1
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 43cb085eb8af627609371f37f61eab22be91d606
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86961966"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87957722"
 ---
 # <a name="checklist-deploy-dfs-namespaces"></a>Контрольный список: развертывание пространств имен DFS
 

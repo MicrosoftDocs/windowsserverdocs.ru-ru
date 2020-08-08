@@ -1,19 +1,17 @@
 ---
 title: Изучение и просмотр повторной синхронизации хранилища
 description: Подробные сведения о том, когда происходит повторная синхронизация хранилища и как она отображается в Windows Server 2019.
-ms.prod: windows-server
 ms.author: adagashe
-ms.technology: storage-spaces
 ms.topic: article
 author: adagashe
 ms.date: 01/14/2019
 ms.localizationpriority: medium
-ms.openlocfilehash: 79e5e1e9daba005a086c16dd1d8e3e3f9a28a8a2
-ms.sourcegitcommit: 771db070a3a924c8265944e21bf9bd85350dd93c
+ms.openlocfilehash: 2a8eb653de2d72177f3ce39f0b63fe53b50c0ae8
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85473421"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87957331"
 ---
 # <a name="understand-and-monitor-storage-resync"></a>Принцип работы и отслеживание повторной синхронизации хранилища
 

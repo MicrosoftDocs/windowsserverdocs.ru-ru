@@ -6,12 +6,12 @@ author: gawatu
 ms.author: gawatu
 manager: mallikarjun.chadalapaka
 ms.date: 5/23/2018
-ms.openlocfilehash: 9f746e71b64497835fc5f0f90e9b46c03b63fd15
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 2a97fdbc2e2a80c310cac2b770e18f34d53dd983
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87972001"
+ms.locfileid: "87997151"
 ---
 # <a name="system-insights-faq"></a>Вопросы и ответы по System Insights
 
@@ -19,15 +19,15 @@ ms.locfileid: "87972001"
 
 ## <a name="how-can-you-use-system-insights-with-azure-monitor-or-system-center-operations-manager"></a>Как можно использовать System Insights с Azure Monitor или System Center Operations Manager?
 
-[Azure Monitor](https://azure.microsoft.com/services/monitor/) и [System Center Operations Manager](https://docs.microsoft.com/system-center/scom/welcome?view=sc-om-1807) предоставлять операционную информацию по развертываниям, чтобы помочь вам управлять инфраструктурой. System Insights, напротив, — это компонент Windows Server, который предоставляет возможности локальной прогнозной аналитики. Система System Insights и Azure Monitor или SCOM позволяют распределять прогнозы по Генеральной совокупности устройств:
+[Azure Monitor](https://azure.microsoft.com/services/monitor/) и [System Center Operations Manager](/system-center/scom/welcome?view=sc-om-1807) предоставлять операционную информацию по развертываниям, чтобы помочь вам управлять инфраструктурой. System Insights, напротив, — это компонент Windows Server, который предоставляет возможности локальной прогнозной аналитики. Система System Insights и Azure Monitor или SCOM позволяют распределять прогнозы по Генеральной совокупности устройств:
 
  Azure Monitor или SCOM могут выключать события, созданные системой System Insights, так как System Insights выводит результат каждого прогноза в журнал событий. Они могут отображать эти прогнозы для конкретного компьютера в пределах парка серверов Windows, что позволяет единообразно просматривать эти прогнозы в группе экземпляров сервера.
 
- Идентификаторы каналов и событий для каждого прогноза см. [здесь](https://docs.microsoft.com/windows-server/manage/system-insights/managing-capabilities#retrieving-capability-results).
+ Идентификаторы каналов и событий для каждого прогноза см. [здесь](./managing-capabilities.md#retrieving-capability-results).
 
 ## <a name="how-does-system-insights-relate-to-windows-ml"></a>Как система System Insights связана с Windows ML?
 
-[Windows ML](https://docs.microsoft.com/windows/uwp/machine-learning/) — это платформа, позволяющая разработчикам импортировать и оценить предварительно обученные модели машинного обучения на устройствах Windows. Эти модели получают преимущество от аппаратного ускорения, и их можно оценивать локально.
+[Windows ML](/windows/uwp/machine-learning/) — это платформа, позволяющая разработчикам импортировать и оценить предварительно обученные модели машинного обучения на устройствах Windows. Эти модели получают преимущество от аппаратного ускорения, и их можно оценивать локально.
 
 System Insights — это функция в Windows Server 2019, которая предоставляет локальные прогнозные возможности вместе с полноценным интерфейсом управления, включая PowerShell и интеграцию с центром администрирования Windows.
 

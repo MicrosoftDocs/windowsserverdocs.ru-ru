@@ -6,12 +6,12 @@ ms.topic: article
 author: jasongerend
 ms.date: 06/07/2019
 description: В этом разделе описываются пространства имен DFS — служба роли в Windows Server, которая позволяет объединять общие папки, находящиеся на разных серверах, в одно или несколько логически структурированных пространств имен.
-ms.openlocfilehash: 54f26a605c15ab683dbe51f768e82bce2c00a290
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: cc29d4bbb73a3255497b89a438c2f3962fd07751
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87936194"
+ms.locfileid: "87989385"
 ---
 # <a name="dfs-namespaces-overview"></a>Обзор пространств имен DFS
 
@@ -123,7 +123,7 @@ Install-WindowsFeature "FS-DFS-Namespace", "RSAT-DFS-Mgmt-Con"
 | **Оценка продукта** | [Новые возможности репликации DFS и пространств имен DFS в Windows Server](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn281957(v=ws.11)) |
 | **Развертывание**    | [Аспекты масштабируемости пространства имен DFS](https://techcommunity.microsoft.com/t5/storage-at-microsoft/bg-p/FileCAB) |
 | **Операции**    | [Пространства имен распределенной файловой системы: вопросы и ответы](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee404780(v=ws.10)) |
-| **Ресурсы сообщества** | [Форум TechNet по файловым службам и хранению данных](https://docs.microsoft.com/answers/topics/windows-server-storage.html) |
+| **Ресурсы сообщества** | [Форум TechNet по файловым службам и хранению данных](/answers/topics/windows-server-storage.html) |
 | **Протоколы**        | [Протоколы файловых служб в Windows Server](/openspecs/windows_protocols/MS-WINPROTLP/df36f95e-6a6b-48d6-a3ae-35a17674f546) (устарело) |
 | **Связанные технологии** | [Отказоустойчивая кластеризация](../../failover-clustering/failover-clustering-overview.md)|
 | **Поддержка** | [Поддержка Windows для ИТ-специалистов](https://www.microsoft.com/itpro/windows/support)|

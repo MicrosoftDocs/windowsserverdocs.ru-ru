@@ -2,22 +2,20 @@
 title: Протокол DHCP
 description: В этом разделе содержится краткий обзор протокола DHCP в Windows Server 2016.
 manager: brianlic
-ms.prod: windows-server
-ms.technology: networking-dhcp
 ms.topic: article
 ms.assetid: 0ff29ef3-c458-4432-9065-e50a7de5b4b9
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 5fc44d0f58ed73ff48f530bad3206baa675d9ac9
-ms.sourcegitcommit: da7b9bce1eba369bcd156639276f6899714e279f
+ms.openlocfilehash: ba932599b7d23a8504c146118489598e45cc9fd7
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "80312523"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87949227"
 ---
 # <a name="dynamic-host-configuration-protocol-dhcp"></a>Протокол DHCP
 
->Область применения: Windows Server (Semi-Annual Channel), Windows Server 2016
+>Применяется к: Windows Server (Semi-Annual Channel), Windows Server 2016
 
 Этот раздел можно использовать для краткого обзора DHCP в Windows Server 2016.
 
@@ -49,8 +47,8 @@ Windows Server 2016 включает DHCP-сервер, который явля�
 
 Клиент с поддержкой DHCP при принятии предложения аренды получает:
 
-- Допустимый IP-адрес для подсети, к которой подключается.  
-  
+- Допустимый IP-адрес для подсети, к которой подключается.
+
 - Запрошенные параметры DHCP, которые являются дополнительными параметрами, настроенными DHCP-сервером для назначения клиентам. Некоторые примеры параметров DHCP: маршрутизатор (шлюз по умолчанию), DNS-серверы и доменное имя DNS.
 
 ## <a name="benefits-of-dhcp"></a>Преимущества DHCP

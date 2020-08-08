@@ -2,18 +2,16 @@
 title: Развертывание удаленного доступа с проверкой подлинности методом OTP
 description: Эта статья является частью руководств по развертыванию удаленного доступа с помощью проверки подлинности OTP в Windows Server 2016.
 manager: brianlic
-ms.prod: windows-server
-ms.technology: networking-ras
 ms.topic: article
 ms.assetid: b1b2fe70-7956-46e8-a3e3-43848868df09
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: d1b38f753e2e4d8333299c369042a72e0dc3a6e6
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.openlocfilehash: 8cc47a3a94425b4f77e5ed430cffe86429bf9b23
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87182010"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87991289"
 ---
 # <a name="deploy-remote-access-with-otp-authentication"></a>Развертывание удаленного доступа с проверкой подлинности методом OTP
 
@@ -35,7 +33,7 @@ ms.locfileid: "87182010"
 
 -   Должна быть развернута инфраструктура открытого ключа.
 
-    Дополнительная информация: [Мини-модуль руководства по лаборатории тестирования: Базовая PKI для Windows Server 2012.](https://docs.microsoft.com/answers/topics/windows-server-2012.html)
+    Дополнительная информация: [Мини-модуль руководства по лаборатории тестирования: Базовая PKI для Windows Server 2012.](/answers/topics/windows-server-2012.html)
 
 -   Изменение политик за пределами консоли управления DirectAccess или командлетов Windows PowerShell не поддерживается.
 
@@ -129,4 +127,3 @@ ms.locfileid: "87182010"
         -   HKEY \_ локальный \_ компьютер \\ программное обеспечение \\ Microsoft \\ DirectAccess \\ OTP \\ радиуспробепасс
 
 -   Если изменить корневой сертификат IPsec в настроенном и работающем развертывании DirectAccess, OTP перестает работать. Чтобы устранить эту проблему, на каждом сервере DirectAccess в командной строке Windows PowerShell выполните следующую команду:`iisreset`
-

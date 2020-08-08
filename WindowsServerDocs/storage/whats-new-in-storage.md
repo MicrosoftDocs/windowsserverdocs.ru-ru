@@ -1,19 +1,17 @@
 ---
 ms.assetid: 0f2a7f7b-aca8-4e5d-ad67-4258e88bc52f
 title: Новые возможности хранилища в Windows Server
-ms.prod: windows-server
 ms.author: jgerend
 manager: dongill
-ms.technology: storage
 ms.topic: article
 author: jasongerend
 ms.date: 05/29/2019
-ms.openlocfilehash: 447c8fe33a0454179d8c9aacc9c324ac7bcf1f49
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 3b1a3fa120e27439c1ec55f68521b813588d330b
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86965826"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87965951"
 ---
 # <a name="whats-new-in-storage-in-windows-server"></a>Новые возможности хранилища в Windows Server
 
@@ -128,7 +126,7 @@ ms.locfileid: "86965826"
 
 #### <a name="test-failover"></a>Тестовая отработка отказа
 
-Теперь можно временно подключить моментальный снимок реплицированного хранилища на целевом сервере для целей тестирования или резервного копирования. Подробные сведения см. в статье [с часто задаваемыми вопросами о реплике хранилища](https://aka.ms/srfaq).
+Теперь можно временно подключить моментальный снимок реплицированного хранилища на целевом сервере для целей тестирования или резервного копирования. Подробные сведения см. в статье [Часто задаваемые вопросы о реплике хранилища](https://aka.ms/srfaq).
 
 #### <a name="windows-admin-center-support"></a>Поддержка Windows Admin Center
 
@@ -248,7 +246,7 @@ Windows Server версии 1709 — это первый выпуск Windows Se
 Дополнительные сведения см. в разделе [качество обслуживания хранилища](storage-qos/storage-qos-overview.md) .
 
 ### <a name="data-deduplication"></a><a name="dedup"></a>дедупликация данных;
-| Функциональность | Новая или обновленная | Описание |
+| функциональное назначение; | Новая или обновленная | Описание |
 |---------------|----------------|-------------|
 | [Поддержка больших томов](data-deduplication/whats-new.md#large-volume-support) | Обновлен | До выхода Windows Server 2016 приходилось подгонять размер тома к масштабу обработки, при этом том с размером больше 10 ТБ обычно не подходил для дедупликации данных. В Windows Server 2016 дедупликация данных поддерживает тома размером **до 64 ТБ**. |
 | [Поддержка больших файлов](data-deduplication/whats-new.md#large-file-support) | Обновлен | До выпуска Windows Server 2016 файлы с размером около 1 ТБ обычно не подходили для дедупликации данных. В Windows Server 2016 файлы размером **до 1 ТБ** полностью поддерживаются. |
