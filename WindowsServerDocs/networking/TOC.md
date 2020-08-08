@@ -67,7 +67,7 @@
 ####### [Настройка правил брандмауэра для компьютеров, не входящих в домен, для разрешения трафика BranchCache](branchcache/deploy/Configure-Firewall-Rules-for-Non-Domain-Members-to-Allow-BranchCache-Traffic.md)
 ###### [Проверка параметров клиентского компьютера](branchcache/deploy/verify-Client-computer-Settings.md)
 
-## [DirectAccess](../remote/remote-access/da-stub.md) 
+## [DirectAccess](../remote/remote-access/directaccess/directaccess.md) 
 
 ## [Служба доменных имен (DNS)](dns/dns-top.md)
 ### [Новые возможности DNS-клиента в Windows Server](dns/What-s-New-in-DNS-Client.md)
@@ -135,7 +135,7 @@
 ### [Пример кода, созданного на C#](technologies/hcn/example-c-sharp.md)
 ### [Пример кода, созданного на Go](technologies/hcn/example-go.md)
 
-## [Виртуальный коммутатор Hyper-V](technologies/vswitch-stub.md)
+## [Виртуальный коммутатор Hyper-V](../virtualization/hyper-v-virtual-switch/hyper-v-virtual-switch.md)
 
 ## [Управление IP-адресами (IPAM)](technologies/ipam/ipam-top.md)
 ### [Новые возможности IPAM](technologies/ipam/What-s-New-in-IPAM.md)
@@ -304,7 +304,7 @@
 ### [Microsoft Azure и SDN](sdn/Azure_and_Sdn.md)
 ### [Как связаться с рабочей группой Datacenter and Cloud Networking](sdn/contact-sdn-team.md)
 
-## [Виртуальная частная сеть (VPN)](technologies/vpn-stub.md)
+## [Виртуальная частная сеть (VPN)](../remote/remote-access/vpn/vpn-top.md)
 
 ## [Служба WINS](technologies/wins/wins-top.md)
 
@@ -317,4 +317,3 @@
 ### [Технический справочник по службе времени Windows](windows-time-service/windows-time-service-tech-ref.md)
 #### [Принципы работы службы времени Windows](windows-time-service/How-the-Windows-Time-Service-Works.md)
 #### [Средства и параметры службы времени Windows](windows-time-service/Windows-Time-Service-Tools-and-Settings.md)
-

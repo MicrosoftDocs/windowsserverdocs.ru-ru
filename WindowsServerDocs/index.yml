@@ -10,35 +10,35 @@ metadata:
   ms.topic: hub-page
   ms.date: 06/06/2019
   ms.author: lizross
-  ms.openlocfilehash: f1d4865d5213d2889aad1fc114c7ea300b4bfe4e
-  ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+  ms.openlocfilehash: c0820365f1a022545752e90ff01b625f7aa72c98
+  ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 07/27/2020
-  ms.locfileid: "87177700"
+  ms.lasthandoff: 08/07/2020
+  ms.locfileid: "87996666"
 highlightedContent:
   items:
   - title: Что нового в Windows Server 2019?
     itemType: whats-new
-    url: /windows-server/get-started-19/whats-new-19
+    url: ./get-started-19/whats-new-19.md
   - title: Начало работы с Windows Server 2019
     itemType: overview
-    url: /windows-server/get-started-19/get-started-19
+    url: ./get-started-19/get-started-19.md
   - title: Windows Admin Center
     itemType: how-to-guide
-    url: /windows-server/manage/windows-admin-center/overview
+    url: ./manage/windows-admin-center/overview.md
   - title: Гиперконвергентная инфраструктура
     itemType: overview
-    url: /windows-server/hyperconverged/index
+    url: ./hyperconverged/index.yml
   - title: Подключение к гибридным службам Azure
     itemType: how-to-guide
-    url: /windows-server/azure-hybrid-services/index
+    url: ./manage/windows-admin-center/azure/index.md
   - title: Приступая к работе с Windows Server 2016
     itemType: how-to-guide
-    url: /windows-server/get-started/server-basics
+    url: ./get-started/server-basics.md
   - title: Использование дополнительных обновлений для системы безопасности Windows Server 2008 и 2008 R2
     itemType: how-to-guide
-    url: /windows-server/get-started/extended-security-updates
+    url: ./get-started/extended-security-updates.md
   - title: Программа предварительной оценки Windows для Server
     itemType: overview
     url: /windows-insider/at-work/
@@ -46,146 +46,146 @@ conceptualContent:
   items:
   - title: Обновление Windows Server
     links:
-    - url: /windows-server/upgrade/upgrade-2016-to-2019
+    - url: ./upgrade/upgrade-2016-to-2019.md
       itemType: how-to-guide
       text: Обновление Windows Server 2016
-    - url: /windows-server/upgrade/upgrade-2012r2-to-2019
+    - url: ./upgrade/upgrade-2012r2-to-2019.md
       itemType: how-to-guide
       text: Обновление Windows Server 2012 R2
-    - url: /windows-server/upgrade/upgrade-2012-to-2016
+    - url: ./upgrade/upgrade-2012-to-2016.md
       itemType: how-to-guide
       text: Обновление Windows Server 2012
-    - url: /windows-server/upgrade/upgrade-2008r2-to-2012r2
+    - url: ./upgrade/upgrade-2008r2-to-2012r2.md
       itemType: how-to-guide
       text: Обновление Windows Server 2008 R2
     footerLink:
-      url: /windows-server/upgrade/upgrade-overview
+      url: ./upgrade/upgrade-overview.md
       text: Дополнительные сведения
   - title: Идентификация и доступ
     links:
-    - url: /windows-server/identity/ad-ds/ad-ds-getting-started
+    - url: ./identity/ad-ds/ad-ds-getting-started.md
       itemType: overview
       text: Приступая к работе с доменными службами Active Directory (AD DS)
-    - url: /windows-server/identity/active-directory-federation-services
+    - url: ./identity/active-directory-federation-services.md
       itemType: overview
       text: Службы федерации Active Directory (AD FS)
-    - url: /windows-server/identity/securing-privileged-access/securing-privileged-access
+    - url: ./identity/securing-privileged-access/securing-privileged-access.md
       itemType: concept
       text: Обеспечение безопасности привилегированного доступа
     footerLink:
-      url: /windows-server/identity/identity-and-access
+      url: ./identity/identity-and-access.yml
       text: Дополнительные сведения
   - title: Отказоустойчивая кластеризация
     links:
-    - url: /windows-server/failover-clustering/whats-new-in-failover-clustering
+    - url: ./failover-clustering/whats-new-in-failover-clustering.md
       itemType: whats-new
       text: Что нового в отказоустойчивой кластеризации?
-    - url: /windows-server/failover-clustering/create-failover-cluster
+    - url: ./failover-clustering/create-failover-cluster.md
       itemType: how-to-guide
       text: создание отказоустойчивого кластера
-    - url: /windows-server/failover-clustering/cluster-aware-updating
+    - url: ./failover-clustering/cluster-aware-updating.md
       itemType: overview
       text: Общие сведения о кластерном обновлении
     footerLink:
-      url: /windows-server/failover-clustering/failover-clustering-overview
+      url: ./failover-clustering/failover-clustering-overview.md
       text: Дополнительные сведения
   - title: Управление
     links:
-    - url: /windows-server/manage/windows-admin-center/overview
+    - url: ./manage/windows-admin-center/overview.md
       itemType: overview
       text: Использование Windows Admin Center для управления средой
-    - url: /windows-server/manage/system-insights/overview
+    - url: ./manage/system-insights/overview.md
       itemType: overview
       text: Обзор системной аналитики
-    - url: /windows-server/administration/performance-tuning/
+    - url: ./administration/performance-tuning/index.md
       itemType: overview
       text: Руководство по обеспечению высокой производительности Windows Server 2016
     footerLink:
-      url: /windows-server/administration/manage-windows-server
+      url: ./administration/manage-windows-server.yml
       text: Дополнительные сведения
   - title: сеть;
     links:
-    - url: /windows-server/networking/what-s-new-in-networking
+    - url: ./networking/what-s-new-in-networking.md
       itemType: whats-new
       text: Новые возможности работы с сетями
-    - url: /windows-server/networking/sdn/
+    - url: ./networking/sdn/index.yml
       itemType: overview
       text: Общие сведения о программно-конфигурируемой сети (SDN)
-    - url: /windows-server/networking/sdn/technologies/network-controller/network-controller
+    - url: ./networking/sdn/technologies/network-controller/network-controller.md
       itemType: overview
       text: Сетевой контроллер
     footerLink:
-      url: /windows-server/networking/networking
+      url: ./networking/index.yml
       text: Дополнительные сведения
   - title: Удаленный доступ
     links:
-    - url: /windows-server/remote/remote-desktop-services/welcome-to-rds
+    - url: ./remote/remote-desktop-services/welcome-to-rds.md
       itemType: overview
       text: Обзор служб удаленных рабочих столов
-    - url: /windows-server/remote/remote-desktop-services/clients/remote-desktop-clients
+    - url: ./remote/remote-desktop-services/clients/remote-desktop-clients.md
       itemType: overview
       text: Клиенты удаленного рабочего стола
-    - url: /windows-server/remote/remote-desktop-services/clients/remote-desktop-allow-access
+    - url: ./remote/remote-desktop-services/clients/remote-desktop-allow-access.md
       itemType: how-to-guide
       text: 'Удаленный рабочий стол: разрешение доступа к компьютеру'
     footerLink:
-      url: /windows-server/remote/index
+      url: ./remote/index.yml
       text: Дополнительные сведения
   - title: Безопасность и контроль
     links:
-    - url: /windows-server/security/windows-authentication/windows-authentication-overview
+    - url: ./security/windows-authentication/windows-authentication-overview.md
       itemType: overview
       text: Общие сведения о проверке подлинности Windows
-    - url: /windows-server/security/group-managed-service-accounts/getting-started-with-group-managed-service-accounts
+    - url: ./security/group-managed-service-accounts/getting-started-with-group-managed-service-accounts.md
       itemType: how-to-guide
       text: Приступая к работе с групповыми управляемыми учетными записями служб
-    - url: /windows-server/security/windows-authentication/credentials-processes-in-windows-authentication
+    - url: ./security/windows-authentication/credentials-processes-in-windows-authentication.md
       itemType: overview
       text: Процедуры с учетными данными в проверке подлинности Windows
     footerLink:
-      url: /windows-server/security/security-and-assurance
+      url: ./security/security-and-assurance.yml
       text: Дополнительные сведения
   - title: Хранение
     links:
-    - url: /windows-server/storage/whats-new-in-storage
+    - url: ./storage/whats-new-in-storage.md
       itemType: whats-new
       text: Новые возможности хранения
-    - url: /windows-server/storage/disk-management/overview-of-disk-management
+    - url: ./storage/disk-management/overview-of-disk-management.md
       itemType: overview
       text: Обзор управления дисками
-    - url: /windows-server/storage/storage-spaces/understand-quorum
+    - url: ./storage/storage-spaces/understand-quorum.md
       itemType: overview
       text: Общие сведения о кворуме кластеров и пулов
     footerLink:
-      url: /windows-server/storage/storage
+      url: ./storage/storage.yml
       text: Дополнительные сведения
   - title: Устранение неполадок
     links:
-    - url: /windows-server/manage/windows-admin-center/support/troubleshooting
+    - url: ./manage/windows-admin-center/support/troubleshooting.md
       itemType: how-to-guide
       text: Устранение неполадок в Windows Admin Center
-    - url: /windows-server/failover-clustering/troubleshooting-using-wer-reports
+    - url: ./failover-clustering/troubleshooting-using-wer-reports.md
       itemType: how-to-guide
       text: Устранение неполадок отказоустойчивой кластеризации с помощью отчетов об ошибках Windows
-    - url: /windows-server/storage/disk-management/troubleshooting-disk-management
+    - url: ./storage/disk-management/troubleshooting-disk-management.md
       itemType: how-to-guide
       text: Устранение неполадок в управлении дисками
     footerLink:
-      url: /windows-server/troubleshoot/windows-server-troubleshooting
+      url: ./troubleshoot/windows-server-troubleshooting.md
       text: Дополнительные сведения
   - title: Виртуализация
     links:
     - url: /virtualization/windowscontainers/
       itemType: overview
       text: Обзор контейнеров в Windows
-    - url: /windows-server/virtualization/hyper-v/hyper-v-on-windows-server
+    - url: ./virtualization/hyper-v/hyper-v-on-windows-server.md
       itemType: overview
       text: Hyper-V в Windows Server
-    - url: /windows-server/virtualization/hyper-v-virtual-switch/hyper-v-virtual-switch
+    - url: ./virtualization/hyper-v-virtual-switch/hyper-v-virtual-switch.md
       itemType: overview
       text: Обзор виртуального коммутатора Hyper-V
     footerLink:
-      url: /windows-server/virtualization/virtualization
+      url: ./virtualization/virtualization.yml
       text: Дополнительные сведения
 additionalContent:
   sections:
@@ -195,4 +195,4 @@ additionalContent:
       url: /previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh801901(v=ws.11)
     - title: Windows Server Essentials
       summary: Техническое содержимое для ИТ-специалистов, которые администрируют Windows Server Essentials. Это подключенный к облаку сервер, предназначенный для небольших предприятий, в которых не более 25 пользователей и 50 устройств.
-      url: https://docs.microsoft.com/en-us/windows-server-essentials/get-started/get-started
+      url: /windows-server-essentials/get-started/get-started

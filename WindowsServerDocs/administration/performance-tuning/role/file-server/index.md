@@ -7,12 +7,12 @@ ms.author: nedpyle; danlo; dkruse; v-tea
 ms.date: 12/12/2019
 manager: dcscontentpm
 audience: Admin
-ms.openlocfilehash: 951d59a1a0e1d58a064eb71bd073259c15fd46d4
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: ecbd1bc751f133b80cf1d9cb264cf70a4ac4f47c
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87896177"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87992193"
 ---
 # <a name="performance-tuning-for-file-servers"></a>Настройка параметров производительности файловых серверов
 
@@ -171,7 +171,7 @@ ms.locfileid: "87896177"
 
     По умолчанию имеет значение 0 и отключает подписывание SMB. Значение 1 этого параметра включает подписывание SMB для всех взаимодействий по протоколу SMB, блокируя обмен данными по протоколу SMB с компьютерами, на которых отключено подписывание SMB. Подписывание SMB может повысить нагрузку на ЦП и замедлить круговые пути, но оно также блокирует атаки "злоумышленник в середине". Если подписывание SMB не требуется, этот параметр реестра должен иметь значение 0 на всех клиентах и серверах.
 
-    См. подробнее о [подписывании SMB](https://blogs.technet.microsoft.com/josebda/2010/12/01/the-basics-of-smb-signing-covering-both-smb1-and-smb2/).
+    См. подробнее о [подписывании SMB](/archive/blogs/josebda/the-basics-of-smb-signing-covering-both-smb1-and-smb2).
 
 -   **FileInfoCacheEntriesMax**
 

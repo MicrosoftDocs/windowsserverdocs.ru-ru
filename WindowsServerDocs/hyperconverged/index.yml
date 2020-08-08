@@ -10,48 +10,48 @@ metadata:
   author: coreyp-at-msft
   ms.author: coreyp
   ms.date: 06/10/2020
-  ms.openlocfilehash: 1d2ec270e90423f2405b664f22de7ca85c540498
-  ms.sourcegitcommit: 568b924d32421256f64abfee171304f1daf320d2
+  ms.openlocfilehash: da06358fad02f7ca2f7088bae1a82a2b21786bda
+  ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 06/18/2020
-  ms.locfileid: "85070167"
+  ms.lasthandoff: 08/07/2020
+  ms.locfileid: "87993873"
 productDirectory:
   items:
   - title: Hyper-V
     imageSrc: https://docs.microsoft.com/en-us/windows-server/media/i-virtualize.svg
     links:
-    - url: https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/
+    - url: /windows-server/virtualization/hyper-v/
       text: Виртуализация серверного оборудования позволяет запускать виртуальные машины на серверах в гиперконвергентном кластере.
   - title: Дисковые пространства прямого подключения
     imageSrc: https://docs.microsoft.com/en-us/windows-server/media/i-store.svg
     links:
-    - url: https://docs.microsoft.com/en-us/windows-server/storage/storage-spaces/storage-spaces-direct-overview
+    - url: ../storage/storage-spaces/storage-spaces-direct-overview.md
       text: Виртуализация оборудования хранилища позволяет создавать тома в виртуализированном пуле дисков, которые распределены между серверами в гиперконвергентном кластере.
   - title: Отказоустойчивая кластеризация
     imageSrc: https://docs.microsoft.com/en-us/windows-server/media/i-cluster.svg
     links:
-    - url: https://docs.microsoft.com/en-us/windows-server/failover-clustering/failover-clustering-overview
+    - url: ../failover-clustering/failover-clustering-overview.md
       text: Группирование нескольких серверов позволяет выполнять рабочие нагрузки, такие как виртуальные машины, на любом сервере в кластере, и обеспечить корректную балансировку нагрузки и отработку отказа между серверами.
   - title: Программно-конфигурируемая сеть
     imageSrc: https://docs.microsoft.com/en-us/windows-server/media/i-network.svg
     links:
-    - url: https://docs.microsoft.com/windows-server/networking/sdn/
+    - url: ../networking/sdn/index.yml
       text: Виртуализация сетевого оборудования позволяет динамически создавать сети и политики и управлять ими. Это дает возможность абстрагировать рабочие нагрузки от базовой физической сети.
   - title: Windows Admin Center
     imageSrc: https://docs.microsoft.com/en-us/windows-server/media/i-admin-center.svg
     links:
-    - url: https://docs.microsoft.com/en-us/windows-server/manage/windows-admin-center/overview
+    - url: ../manage/windows-admin-center/overview.md
       text: Виртуализация серверного оборудования позволяет запускать виртуальные машины на серверах в гиперконвергентном кластере.
   - title: Подключение к гибридным службам Azure
     imageSrc: https://docs.microsoft.com/en-us/windows-server/media/i-microsoft-azure.svg
     links:
-    - url: https://docs.microsoft.com/en-us/windows-server/azure-hybrid-services
+    - url: /windows-server/azure-hybrid-services
       text: Позволяет подключить кластер к гибридным службам Azure для восстановления сайта, мониторинга и других функций.
   - title: Azure Stack HCI
     imageSrc: https://docs.microsoft.com/en-us/windows-server/media/i-azure-stack.svg
     links:
-    - url: https://docs.microsoft.com/en-us/windows-server/azure-stack-hci
+    - url: /windows-server/azure-stack-hci
       text: Подобранные технологии виртуализации и кластеризации Windows Server 2019 на основе проверенных аппаратных решений от партнеров на ваш выбор помогут избавиться от догадок о настройке программно-определяемого центра обработки данных.
   - title: Программно-определяемый центр обработки данных на основе Windows Server (WSSD)
     imageSrc: https://docs.microsoft.com/media/common/i_data-collection.svg
