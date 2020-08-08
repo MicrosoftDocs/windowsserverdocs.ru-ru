@@ -6,19 +6,19 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: ad4275bf7b6231692171209b19c4c60190e30126
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: ad3184dbe43cfa108aa1b178421102880b3ef4d7
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87942980"
+ms.locfileid: "87994989"
 ---
 # <a name="appendix-a-reviewing-ad-fs-requirements"></a>Приложение A. Анализ требований AD FS
 
 Чтобы партнеры Организации в развертывании службы федерации Active Directory (AD FS) (AD FS) могли успешно работать, сначала необходимо убедиться, что инфраструктура корпоративной сети настроена на поддержку требований AD FS для учетных записей, разрешения имен и сертификатов. AD FS предусматривает следующие типы требований.
 
 > [!TIP]
-> Дополнительные AD FS ссылки на ресурсы можно найти в [разделе Общие сведения о ключевых AD FS концепциях](https://docs.microsoft.com/windows-server/identity/ad-fs/technical-reference/understanding-key-ad-fs-concepts).
+> Дополнительные AD FS ссылки на ресурсы можно найти в [разделе Общие сведения о ключевых AD FS концепциях](../technical-reference/understanding-key-ad-fs-concepts.md).
 
 ## <a name="hardware-requirements"></a>Требования к оборудованию
 Следующие минимальные и рекомендуемые требования к оборудованию применяются к компьютерам Федерации и прокси-серверам федерации.

@@ -2,32 +2,30 @@
 title: Кластеризация гостевых систем в виртуальной сети
 description: Виртуальные машины, подключенные к виртуальной сети, могут использовать только IP-адреса, назначенные сетевому контроллеру для связи в сети.  Технологии кластеризации, для которых требуется плавающий IP-адрес, например отказоустойчивая кластеризация (Майкрософт), требуются дополнительные действия для правильной работы.
 manager: grcusanz
-ms.prod: windows-server
-ms.technology: networking-sdn
 ms.topic: article
 ms.assetid: 8e9e5c81-aa61-479e-abaf-64c5e95f90dc
 ms.author: grcusanz
 author: AnirbanPaul
 ms.date: 08/26/2018
-ms.openlocfilehash: 6889b58f5d49a4932ef8277b11e1002e85606f3f
-ms.sourcegitcommit: b00d7c8968c4adc8f699dbee694afe6ed36bc9de
+ms.openlocfilehash: 6d597d4ced923c751e54ed4678ffb2d956a7b471
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "80854457"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87994772"
 ---
 # <a name="guest-clustering-in-a-virtual-network"></a>Кластеризация гостевых систем в виртуальной сети
 
->Область применения: Windows Server (Semi-Annual Channel), Windows Server 2016
+>Применяется к: Windows Server (Semi-Annual Channel), Windows Server 2016
 
 Виртуальные машины, подключенные к виртуальной сети, могут использовать только IP-адреса, назначенные сетевому контроллеру для связи в сети.  Технологии кластеризации, для которых требуется плавающий IP-адрес, например отказоустойчивая кластеризация (Майкрософт), требуются дополнительные действия для правильной работы.
 
-Для обеспечения доступности плавающего IP-адреса следует использовать программное обеспечение Load Balancer \(SLB\) виртуальном IP-адресе \(VIP\).  Программная подсистема балансировки нагрузки должна быть настроена с проверкой работоспособности на порте этого IP-адреса, чтобы SLB направляли трафик на компьютер, на котором в данный момент находится этот IP-адрес.
+Для обеспечения доступности плавающего IP-адреса следует использовать программное обеспечение Load Balancer \( \) виртуального IP- \( адреса SLB \) .  Программная подсистема балансировки нагрузки должна быть настроена с проверкой работоспособности на порте этого IP-адреса, чтобы SLB направляли трафик на компьютер, на котором в данный момент находится этот IP-адрес.
 
 
 ## <a name="example-load-balancer-configuration"></a>Пример: Конфигурация подсистемы балансировки нагрузки
 
-В этом примере предполагается, что вы уже создали виртуальные машины, которые станут узлами кластера, и подключили их к виртуальной сети.  Инструкции см. в статье [Создание виртуальной машины и подключение к виртуальной сети клиента или VLAN](https://technet.microsoft.com/windows-server-docs/networking/sdn/manage/create-a-tenant-vm).  
+В этом примере предполагается, что вы уже создали виртуальные машины, которые станут узлами кластера, и подключили их к виртуальной сети.  Инструкции см. в статье [Создание виртуальной машины и подключение к виртуальной сети клиента или VLAN](./create-a-tenant-vm.md).
 
 В этом примере вы создадите виртуальный IP-адрес (192.168.2.100) для представления плавающего IP-адреса кластера и настроите проверку работоспособности для мониторинга TCP-порта 59999, чтобы определить, какой узел является активным.
 
@@ -46,7 +44,7 @@ ms.locfileid: "80854457"
    $LoadBalancerProperties = new-object Microsoft.Windows.NetworkController.LoadBalancerProperties
    ```
 
-3. Создайте интерфейсный IP-адрес переднего\-.
+3. Создайте интерфейсный \- IP-адрес.
 
    ```PowerShell
    $LoadBalancerProperties.frontendipconfigurations += $FrontEnd = new-object Microsoft.Windows.NetworkController.LoadBalancerFrontendIpConfiguration
@@ -59,7 +57,7 @@ ms.locfileid: "80854457"
    $FrontEnd.properties.privateIPAllocationMethod = "Static"
    ```
 
-4. Создайте конечный пул\-для хранения узлов кластера.
+4. Создайте пул серверной части, \- который будет содержать узлы кластера.
 
    ```PowerShell
    $BackEnd = new-object Microsoft.Windows.NetworkController.LoadBalancerBackendAddressPool
@@ -69,10 +67,10 @@ ms.locfileid: "80854457"
    $LoadBalancerProperties.backendAddressPools += $BackEnd
    ```
 
-5. Добавьте пробу, чтобы определить, на каком узле кластера в данный момент активен плавающий адрес. 
+5. Добавьте пробу, чтобы определить, на каком узле кластера в данный момент активен плавающий адрес.
 
    >[!NOTE]
-   >Пробный запрос к постоянному адресу виртуальной машины через порт, определенный ниже.  Порт должен отвечать только на активный узел. 
+   >Пробный запрос к постоянному адресу виртуальной машины через порт, определенный ниже.  Порт должен отвечать только на активный узел.
 
    ```PowerShell
    $LoadBalancerProperties.probes += $lbprobe = new-object Microsoft.Windows.NetworkController.LoadBalancerProbe
@@ -94,9 +92,9 @@ ms.locfileid: "80854457"
    $lbrule.ResourceId = "Rules1"
 
    $lbrule.properties.frontendipconfigurations += $FrontEnd
-   $lbrule.properties.backendaddresspool = $BackEnd 
+   $lbrule.properties.backendaddresspool = $BackEnd
    $lbrule.properties.protocol = "TCP"
-   $lbrule.properties.frontendPort = $lbrule.properties.backendPort = 1433 
+   $lbrule.properties.frontendPort = $lbrule.properties.backendPort = 1433
    $lbrule.properties.IdleTimeoutInMinutes = 4
    $lbrule.properties.EnableFloatingIP = $true
    $lbrule.properties.Probe = $lbprobe
@@ -124,9 +122,9 @@ ms.locfileid: "80854457"
    $nic = new-networkcontrollernetworkinterface  -connectionuri $uri -resourceid $nic.resourceid -properties $nic.properties -force
    ```
 
-   После создания подсистемы балансировки нагрузки и добавления сетевых интерфейсов в серверный пул можно приступать к настройке кластера.  
+   После создания подсистемы балансировки нагрузки и добавления сетевых интерфейсов в серверный пул можно приступать к настройке кластера.
 
-9. Используемых Если вы используете отказоустойчивый кластер Майкрософт, перейдите к следующему примеру. 
+9. Используемых Если вы используете отказоустойчивый кластер Майкрософт, перейдите к следующему примеру.
 
 ## <a name="example-2-configuring-a-microsoft-failover-cluster"></a>Пример 2. Настройка отказоустойчивого кластера Microsoft
 
@@ -139,10 +137,10 @@ ms.locfileid: "80854457"
    Import-module failoverclusters
 
    $ClusterName = "MyCluster"
-   
+
    $ClusterNetworkName = "Cluster Network 1"
-   $IPResourceName =  
-   $ILBIP = "192.168.2.100" 
+   $IPResourceName =
+   $ILBIP = "192.168.2.100"
 
    $nodes = @("DB1", "DB2")
    ```

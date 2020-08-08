@@ -6,12 +6,12 @@ ms.topic: get-started-article
 ms.assetid: 8dcb8cf9-0e08-4fdd-9d7e-ec577ce8d8a0
 author: kumudd
 ms.date: 10/10/2016
-ms.openlocfilehash: 0fd557341d19725a57c52d3786420c8c3357ebdf
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: ced2fe051f0595e8333aa2704889cc88ec1304ac
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87963740"
+ms.locfileid: "87994731"
 ---
 # <a name="storage-quality-of-service"></a>Качество обслуживания хранилища
 
@@ -884,6 +884,6 @@ IOPSNormalizationSize
 ```
 
 ## <a name="see-also"></a>См. также:
-- [Windows Server 2016](../../get-started/windows-server-2016.md)
+- [Windows Server 2016](../../index.yml)
 - [Реплика хранилища в Windows Server 2016](../storage-replica/storage-replica-overview.md)
 - [Локальные дисковые пространства в Windows Server 2016](../storage-spaces/storage-spaces-direct-overview.md)

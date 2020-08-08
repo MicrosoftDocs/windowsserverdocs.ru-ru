@@ -7,12 +7,12 @@ ms.assetid: 63f08b5b-c735-41f4-b6c8-411eff85a4ab
 author: evaseydl
 ms.author: evas
 manager: scottman
-ms.openlocfilehash: fb36cb13f9a78ae028f1217dd667a106a81e5c94
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 9f41b203ff14923c991f56b7166b37200bee6910
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87937316"
+ms.locfileid: "87994982"
 ---
 # <a name="create-windows-10-enterprise-virtual-desktops-for-stations"></a>Создание виртуальных рабочих столов Windows 10 Корпоративная для станций
 Эта необязательная конфигурация в службах MultiPoint в основном предназначена для ситуаций, когда приложению требуется собственный экземпляр клиентской операционной системы для каждого пользователя. К примерам относятся приложения, которые не могут быть установлены в Windows Server и приложения, на которых не будут запускаться несколько экземпляров на одном главном компьютере.
@@ -31,7 +31,7 @@ ms.locfileid: "87937316"
 | Графика | DX11 |
 | BIOS | Параметр ЦП BIOS, настроенный для включения виртуализации — преобразование адресов второго уровня (SLAT) |
 
--   **Станции** — настройте станции для системы служб MultiPoint. Дополнительные сведения см. [в статье подключение дополнительных станций к службам MultiPoint](Attach-additional-stations-to-your-MultiPoint-services-computer.md).
+-   **Станции** — настройте станции для системы служб MultiPoint. Дополнительные сведения см. [в статье подключение дополнительных станций к службам MultiPoint](./multipoint-attach-additional-stations.md).
 
 -   **Домен** — в среде домена компьютер Windows MultiPoint Server добавлен в домен, а пользователь домена добавлен в локальную группу администраторов в операционной системе узла служб MultiPoint.
 

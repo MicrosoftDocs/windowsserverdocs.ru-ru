@@ -6,12 +6,12 @@ ms.author: joflore
 manager: mtillman
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 08065e153a7f0c09e305e87fc2d745b3daa0b3f0
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 7e69a808a48c3dedcc29d8876dc460559157f191
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87943873"
+ms.locfileid: "87994824"
 ---
 # <a name="guidance-about-how-to-configure-protected-accounts"></a>Руководство по настройке защищенных учетных записей
 
@@ -114,7 +114,7 @@ ms.locfileid: "87943873"
 -   Отклонение при использовании RC4 в предварительной проверке подлинности Kerberos: нельзя настроить.
 
     > [!NOTE]
-    > Хотя можно [изменить конфигурацию поддерживаемых способов шифрования](https://blogs.msdn.com/b/openspecification/archive/2011/05/31/windows-configurations-for-kerberos-supported-encryption-type.aspx), не рекомендуется менять эти настройки для учетных записей компьютеров без предварительного тестирования в целевой среде.
+    > Хотя можно [изменить конфигурацию поддерживаемых способов шифрования](/archive/blogs/openspecification/windows-configurations-for-kerberos-supported-encryption-type), не рекомендуется менять эти настройки для учетных записей компьютеров без предварительного тестирования в целевой среде.
 
 -   Ограничение времени жизни пользовательских билетов (TGT) до 4-х часов: используйте политики проверки подлинности.
 

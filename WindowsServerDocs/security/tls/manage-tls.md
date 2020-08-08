@@ -6,12 +6,12 @@ author: justinha
 ms.author: justinha
 manager: brianlic
 ms.date: 05/16/2018
-ms.openlocfilehash: 30ab0547fd538eec3f50120a5d536eb9a48de54b
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 8f5f18452c158b2e1c8d14173d80193465ead17f
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87971291"
+ms.locfileid: "87994802"
 ---
 # <a name="manage-transport-layer-security-tls"></a>Управление TLS
 
@@ -19,10 +19,10 @@ ms.locfileid: "87971291"
 
 ## <a name="configuring-tls-cipher-suite-order"></a>Настройка порядка комплектов шифров TLS
 
-Разные версии Windows поддерживают разные наборы шифров TLS и порядок приоритетов. Порядок по умолчанию, поддерживаемый поставщиком Schannel (Майкрософт) в различных версиях Windows, см. в разделе комплекты [шифров в TLS/SSL (Schannel SSP)](https://docs.microsoft.com/windows/win32/secauthn/cipher-suites-in-schannel) .
+Разные версии Windows поддерживают разные наборы шифров TLS и порядок приоритетов. Порядок по умолчанию, поддерживаемый поставщиком Schannel (Майкрософт) в различных версиях Windows, см. в разделе комплекты [шифров в TLS/SSL (Schannel SSP)](/windows/win32/secauthn/cipher-suites-in-schannel) .
 
 > [!NOTE]
-> Список комплектов шифров также можно изменить с помощью функций CNG. Дополнительные сведения см. в разделе [Определение приоритетов для наборов шифров SChannel](https://docs.microsoft.com/windows/win32/secauthn/prioritizing-schannel-cipher-suites) .
+> Список комплектов шифров также можно изменить с помощью функций CNG. Дополнительные сведения см. в разделе [Определение приоритетов для наборов шифров SChannel](/windows/win32/secauthn/prioritizing-schannel-cipher-suites) .
 
 Изменения в порядке набора шифров TLS вступят в силу при следующей загрузке. До перезапуска или завершения работы существующий заказ будет действовать.
 
@@ -52,11 +52,11 @@ ms.locfileid: "87971291"
 
 ### <a name="configuring-tls-cipher-suite-order-by-using-mdm"></a>Настройка порядка комплектов шифров TLS с помощью MDM
 
-CSP политики Windows 10 поддерживает настройку комплектов шифров TLS. Дополнительные сведения см. в разделе [Криптография и тлсЦиферсуитес](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-cryptography#cryptography-tlsciphersuites) .
+CSP политики Windows 10 поддерживает настройку комплектов шифров TLS. Дополнительные сведения см. в разделе [Криптография и тлсЦиферсуитес](/windows/client-management/mdm/policy-csp-cryptography#cryptography-tlsciphersuites) .
 
 ### <a name="configuring-tls-cipher-suite-order-by-using-tls-powershell-cmdlets"></a>Настройка порядка комплектов шифров TLS с помощью командлетов TLS PowerShell
 
-Модуль TLS PowerShell поддерживает получение упорядоченного списка комплектов шифров TLS, отключение набора шифров и включение комплекта шифров. Дополнительные сведения см. в разделе [модуль TLS](https://docs.microsoft.com/powershell/module/tls/?view=win10-ps) .
+Модуль TLS PowerShell поддерживает получение упорядоченного списка комплектов шифров TLS, отключение набора шифров и включение комплекта шифров. Дополнительные сведения см. в разделе [модуль TLS](/powershell/module/tls/?view=win10-ps) .
 
 ## <a name="configuring-tls-ecc-curve-order"></a>Настройка порядка кривых ECC TLS
 
@@ -136,4 +136,3 @@ Windows не может использовать именованную крив
 ![GPP распределить кривые](../media/Transport-Layer-Security-protocol/gp-managing-tls-curve-priority-order.png)
 
 *Рис. 4. Управление приоритетом кривой TLS с помощью групповая политика*
-

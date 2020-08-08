@@ -6,12 +6,12 @@ ms.author: joflore
 manager: mtillman
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 7f8624b23a746eed5df9ab55c7c01d0dfbd9cb0f
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 944e71b546f6e5a7484f533b5c6dc86840484e46
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87943863"
+ms.locfileid: "87994922"
 ---
 # <a name="appendix-i-creating-management-accounts-for-protected-accounts-and-groups-in-active-directory"></a>Приложение И. Создание учетных записей управления для защищенных учетных записей и групп в Active Directory
 
@@ -141,7 +141,7 @@ ms.locfileid: "87943863"
    >
    > Несмотря на то, что реализация более безопасных типов шифрования для узлов не позволяет предотвратить атаки методом кражи учетных данных, необходимо использовать и настраивать защищенные узлы. Установка более надежных типов шифрования для узлов, которые используются привилегированными учетными записями, просто сокращает общую область атак компьютеров.
    >
-   > Дополнительные сведения о настройке типов шифрования в системах и учетных записях см. в статье [конфигурации Windows для типа шифрования, поддерживаемого протоколом Kerberos](https://blogs.msdn.com/b/openspecification/archive/2011/05/31/windows-configurations-for-kerberos-supported-encryption-type.aspx).
+   > Дополнительные сведения о настройке типов шифрования в системах и учетных записях см. в статье [конфигурации Windows для типа шифрования, поддерживаемого протоколом Kerberos](/archive/blogs/openspecification/windows-configurations-for-kerberos-supported-encryption-type).
    >
    > Эти параметры поддерживаются только на компьютерах под управлением Windows Server 2012, Windows Server 2008 R2, Windows 8 или Windows 7.
 

@@ -7,12 +7,12 @@ manager: dcscontentpm
 ms.author: v-tea
 author: Teresa-Motiv
 ms.date: 07/16/2018
-ms.openlocfilehash: 3e08541b1bfd6dd07d134560c9d03306566b18db
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 4344357db92a65725a7bcdc749966d3889d20695
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87953920"
+ms.locfileid: "87995085"
 ---
 # <a name="performance-tools-for-network-workloads"></a>Средства повышения производительности для рабочих нагрузок сети
 
@@ -42,6 +42,6 @@ ms.locfileid: "87953920"
 
 SPA создает комплексные диагностические отчеты и диаграммы, а также предоставляет рекомендации, помогающие быстро анализировать проблемы и разрабатывать корректирующие действия.
 
- Дополнительные сведения и Загрузка помощника см. в разделе [советник по производительности Microsoft Server](https://msdn.microsoft.com/library/windows/hardware/dn481522.aspx) в центре разработчиков оборудования для Windows.
+ Дополнительные сведения и Загрузка помощника см. в разделе [советник по производительности Microsoft Server](/previous-versions/dn481522(v=vs.85)) в центре разработчиков оборудования для Windows.
 
 Ссылки на все разделы данного руководства см. в разделе [Настройка производительности сетевой подсистемы](net-sub-performance-top.md).
