@@ -7,12 +7,12 @@ ms.topic: article
 ms.assetid: 519d1091-fa4d-44d7-83ca-83f6aa71fb7d
 author: kbdazure
 ms.date: 8/16/2016
-ms.openlocfilehash: bbdb53b23e611ddafe84ec9ce48e6b1f42c8e57e
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: a0a7f9e5b8c82a1556233a571275b380fdab741a
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87938943"
+ms.locfileid: "87992589"
 ---
 # <a name="windows-8-should-be-configured-with-at-least-the-minimum-amount-of-memory"></a>Для Windows 8 следует настроить по крайней мере минимальный объем памяти.
 
@@ -65,7 +65,4 @@ Set-VMMemory <MyVM> -StartupBytes 512MB
 ```
 
 ## <a name="see-also"></a>См. также:
-[Set-Вммемори](https://technet.microsoft.com/library/hh848572.aspx)
-
-
-
+[Set-Вммемори](/powershell/module/hyper-v/set-vmmemory?view=win10-ps)

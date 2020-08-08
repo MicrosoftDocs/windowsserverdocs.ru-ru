@@ -2,19 +2,17 @@
 title: Новые возможности виртуализации сети Hyper-V в Windows Server 2016
 description: В этом разделе содержатся сведения о новых возможностях виртуализации сети Hyper-V в Windows Server 2016.
 manager: grcusanz
-ms.prod: windows-server
-ms.technology: networking-sdn
 ms.topic: article
 ms.assetid: 0254275a-0a77-40a9-b68a-1029284c03fe
 ms.author: anpaul
 author: AnirbanPaul
 ms.date: 03/19/2018
-ms.openlocfilehash: 6178ca0913ef27f656a566ffdb39a957ab743733
-ms.sourcegitcommit: 771db070a3a924c8265944e21bf9bd85350dd93c
+ms.openlocfilehash: aa53b13526172e37a46fbb3108278ad7aa859b64
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85471709"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87952489"
 ---
 # <a name="whats-new-in-hyper-v-network-virtualization-in-windows-server-2016"></a>Новые возможности виртуализации сети Hyper-V в Windows Server 2016
 
@@ -25,7 +23,7 @@ ms.locfileid: "85471709"
 ## <a name="updates-in-hnv"></a><a name="BKMK_IPAM2012R2"></a>Обновления в HNV
 HNV предлагает расширенную поддержку в следующих областях:
 
-|Компонент или функциональная возможность|Новая или улучшенная|Описание:|
+|Компонент или функциональная возможность|Новая или улучшенная|Описание|
 |--------------------------|-------------------|---------------|
 |[Программируемый коммутатор Hyper-V](../../../sdn/technologies/hyper-v-network-virtualization/../../../sdn/technologies/hyper-v-network-virtualization/../../../sdn/technologies/hyper-v-network-virtualization/../../../sdn/technologies/hyper-v-network-virtualization/whats-new-hyperv-network-virtualization-windows-server.md#SDN)|Оператор new|Политика HNV может быть программируемой через сетевой контроллер (Майкрософт).|
 |[Поддержка инкапсуляции ВКСЛАН](../../../sdn/technologies/hyper-v-network-virtualization/../../../sdn/technologies/hyper-v-network-virtualization/../../../sdn/technologies/hyper-v-network-virtualization/../../../sdn/technologies/hyper-v-network-virtualization/whats-new-hyperv-network-virtualization-windows-server.md#VXLAN)|Оператор new|HNV теперь поддерживает инкапсуляцию ВКСЛАН.|

@@ -5,21 +5,19 @@ author: MicrosoftGuyJFlo
 ms.author: joflore
 manager: mtillman
 ms.date: 04/11/2019
-ms.technology: identity-adds
 ms.topic: article
-ms.prod: windows-server
-ms.openlocfilehash: a429ae3fed8694b5d9f05722b9f9d580b6b27ae6
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 7272ddc3693816974df528e6c5e10671bbe4ffb7
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86962986"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87943779"
 ---
 # <a name="install-a-new-active-directory-forest-using-azure-cli"></a>Установка нового леса Active Directory с помощью Azure CLI
 
 AD DS могут выполняться на виртуальной машине Azure так же, как и во многих локальных экземплярах. В этой статье описывается развертывание нового леса AD DS на двух новых контроллерах домена в группе доступности Azure с помощью портал Azure и Azure CLI. Многие клиенты считают это руководство полезным при создании лаборатории или подготовке к развертыванию контроллеров домена в Azure.
 
-## <a name="components"></a>Компоненты
+## <a name="components"></a>Components
 
 * Группа ресурсов для размещения всех элементов.
 * [Виртуальная сеть Azure](/azure/virtual-network/virtual-networks-overview.md), подсеть, группа безопасности сети и правило, разрешающие доступ к виртуальным машинам по протоколу RDP.

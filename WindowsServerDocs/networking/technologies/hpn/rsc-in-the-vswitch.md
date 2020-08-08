@@ -2,18 +2,16 @@
 title: Объединение полученных сегментов в виртуальном коммутаторе
 description: Объединение полученных сегментов (RSC) в vSwitch — это функция обновления для Windows Server 2019 и Windows 10 от октября 2018, которая позволяет сократить загрузку ЦП узла и повысить пропускную способность для виртуальных рабочих нагрузок за счет объединения нескольких сегментов TCP в меньшее количество, но более крупные сегменты. Обработка меньшего количества больших сегментов (Объединенных) более эффективна, чем обработка многочисленных небольших сегментов.
 manager: dougkim
-ms.prod: windows-server
-ms.technology: networking
 ms.topic: article
 ms.author: dacuo
 author: dcuomo
 ms.date: 09/07/2018
-ms.openlocfilehash: e7db6656bd9331e5cc6c2deaee143b3602ef1239
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.openlocfilehash: 26f4a5fc028ebe134e6eff8ff22c348d52ba3f90
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87181820"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87962048"
 ---
 # <a name="rsc-in-the-vswitch"></a>RSC в vSwitch
 >Область применения: Windows Server 2019
@@ -26,7 +24,7 @@ ms.locfileid: "87181820"
 
 Рабочие нагрузки, которые пути к данным проходят через виртуальный коммутатор, имеют преимущества от этой функции.
 
-Пример:
+Например:
 
 -   Размещение виртуальных сетевых адаптеров, включая:
 
@@ -34,7 +32,7 @@ ms.locfileid: "87181820"
 
     -   Узел Hyper-V
 
-    -   Локальные дисковые пространства
+    -   Дисковые пространства прямого подключения
 
 -   Гостевые виртуальные сетевые карты Hyper-V
 

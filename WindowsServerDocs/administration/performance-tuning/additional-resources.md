@@ -5,12 +5,12 @@ ms.topic: article
 ms.author: phstee
 author: phstee
 ms.date: 10/16/2017
-ms.openlocfilehash: 2b789fb3c5290c5f268c1e64f66fb25fd4856136
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 8659a836d3ad3bd3e5e61f2849e2327e57536c76
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87896760"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87992354"
 ---
 # <a name="additional-performance-tuning-resources"></a>Дополнительные ресурсы по настройке производительности
 
@@ -19,7 +19,7 @@ ms.locfileid: "87896760"
 ## <a name="microsoft-windows-server-websites"></a>Веб-сайты Microsoft Windows Server
 -   [Каталог Windows Server](https://www.windowsservercatalog.com/)
 
--   [Windows Sysinternals](https://technet.microsoft.com/sysinternals/default.aspx)
+-   [Windows Sysinternals](/sysinternals/)
 
 -   [Совет по повышению производительности обработки транзакций](http://www.tpc.org/)
 
@@ -27,9 +27,9 @@ ms.locfileid: "87896760"
 
 ## <a name="power-management-tuning-resources"></a>Ресурсы по настройке управления питанием
 
--   [Настройка и развертывание политики управления питанием в Windows](https://msdn.microsoft.com/library/windows/hardware/mt422910.aspx)
+-   [Настройка и развертывание политики управления питанием в Windows](/windows-hardware/customize/power-settings/configure-processor-power-management-options)
 
--   [Использование PowerCfg для вычисления эффективности энергопотребления системы](https://technet.microsoft.com/library/cc748940.aspx)
+-   [Использование PowerCfg для вычисления эффективности энергопотребления системы](/previous-versions/windows/it-pro/windows-vista/cc748940(v=ws.10))
 
 -   [Средство политики сходства прерываний](https://support.microsoft.com/kb/252867)
 
@@ -37,9 +37,9 @@ ms.locfileid: "87896760"
 
 -   [Масштабируемая сеть: устранение узких мест обработки приема — знакомство с RSS](https://download.microsoft.com/download/5/D/6/5D6EAF2B-7DDF-476B-93DC-7CF0072878E6/NDIS_RSS.doc)
 
--   [Платформа фильтрации Windows](https://msdn.microsoft.com/windows/hardware/gg463267.aspx)
+-   [Платформа фильтрации Windows](/windows-hardware/drivers/network/porting-packet-processing-drivers-and-apps-to-wfp)
 
--   [Руководство по развертыванию сетей: развертывание высокоскоростных сетевых компонентов](https://technet.microsoft.com/library/gg162681.aspx)
+-   [Руководство по развертыванию сетей: развертывание высокоскоростных сетевых компонентов](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/gg162681(v=ws.10))
 
 ## <a name="storage-subsystem-tuning-resources"></a>Ресурсы по настройке подсистемы хранения
 
@@ -47,64 +47,64 @@ ms.locfileid: "87896760"
 
 ## <a name="file-server-tuning-resources"></a>Ресурсы по настройке файлового сервера
 
--   [Рекомендации по настройке производительности для служб Microsoft для сетевой файловой системы](https://technet.microsoft.com/library/bb463205.aspx)
+-   [Рекомендации по настройке производительности для служб Microsoft для сетевой файловой системы](/previous-versions/tn-archive/bb463205(v=technet.10))
 
 -   [\[MS-ФССО \] : Общие сведения о системе служб доступа к файлам](https://download.microsoft.com/download/5/0/1/501ED102-E53F-4CE0-AA6B-B0F93629DDC6/Windows/%5bMS-FSSO%5d.pdf)
 
 -   [Отключение средства диагностики автонастройки TCP](https://support.microsoft.com/kb/967475)
 
 ## <a name="active-directory-server-tuning-resources"></a>Ресурсы по настройке сервера Active Directory
--   [Производительность Active Directory](https://msdn.microsoft.com/library/windows/hardware/dn567654(v=vs.85).aspx)
+-   [Производительность Active Directory](/previous-versions/dn567654(v=vs.85))
 -   [Настройка ведения журнала событий диагностики Active Directory в Windows Server 2003 и Windows 2000 Server](https://support.microsoft.com/kb/314980)
 
 ## <a name="virtualization-server-tuning-resources"></a>Ресурсы по настройке сервера виртуализации
 
--   [Новые возможности Hyper-V в Windows Server 2016](https://technet.microsoft.com/windows-server-docs/compute/hyper-v/what-s-new-in-hyper-v-on-windows)
+-   [Новые возможности Hyper-V в Windows Server 2016](../../virtualization/hyper-v/what-s-new-in-hyper-v-on-windows.md)
 
--   [Руководство по настройке динамической памяти Hyper-V](https://technet.microsoft.com/library/ff817651.aspx)
+-   [Руководство по настройке динамической памяти Hyper-V](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ff817651(v=ws.10))
 
--   [Балансировка узлов NUMA](https://blogs.technet.com/b/winserverperformance/archive/2009/12/10/numa-node-balancing.aspx)
+-   [Балансировка узлов NUMA](/archive/blogs/winserverperformance/numa-node-balancing)
 
--   [Поставщик WMI Hyper-V](https://msdn2.microsoft.com/library/cc136992(VS.85).aspx)
+-   [Поставщик WMI Hyper-V](/previous-versions/windows/desktop/virtual/windows-virtualization-portal)
 
--   [Классы WMI Hyper-V](https://msdn.microsoft.com/library/cc136986(VS.85).aspx)
+-   [Классы WMI Hyper-V](/previous-versions/windows/desktop/virtual/virtualization-wmi-classes)
 
--   [О виртуальных машинах и гостевых операционных системах](https://technet.microsoft.com/library/cc794868(v=ws.10))
+-   [О виртуальных машинах и гостевых операционных системах](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc794868(v=ws.10))
 
--   [Оптимизация и устранение неполадок в хранилище Hyper-V](https://blogs.msdn.com/b/microsoft_press/archive/2013/07/24/new-book-optimizing-and-troubleshooting-hyper-v-storage.aspx)
+-   [Оптимизация и устранение неполадок в хранилище Hyper-V](/archive/blogs/microsoft_press/new-book-optimizing-and-troubleshooting-hyper-v-storage)
 
 -   [Оптимизация и устранение неполадок сети Hyper-V](https://blogs.msdn.com/b/microsoft_press/archive/2013/07/12/rtm-d-today-optimizing-and-troubleshooting-hyper-v-networking.aspx)
 
 ## <a name="print-server-tuning-resources"></a>Ресурсы по настройке сервера печати
 
--   [Print Server Scalability and Capacity Planning](https://technet.microsoft.com/library/dn554243.aspx)
+-   [Print Server Scalability and Capacity Planning](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn554243(v=ws.11))
 
 ## <a name="server-workload-tuning-resources"></a>Ресурсы по настройке рабочей нагрузки сервера
 
--   [Настройка производительности для NTttcp](https://msdn.microsoft.com/library/windows/hardware/dn567663(v=vs.85).aspx)
+-   [Настройка производительности для NTttcp](/previous-versions/dn567663(v=vs.85))
 
 -   [Ttcp](http://en.wikipedia.org/wiki/Ttcp)
 
 -   [Использование NTttcp для проверки производительности сети](https://msdn.microsoft.com/windows/hardware/gg463264.aspx)
 
--   [Использование средства файлового сервера Капактий](https://msdn.microsoft.com/library/windows/hardware/dn567658(v=vs.85).aspx)
+-   [Использование средства файлового сервера Капактий](/previous-versions/dn567658(v=vs.85))
 
--   [Использование файлового сервера SPECsfs2008](https://msdn.microsoft.com/library/windows/hardware/dn567653(v=vs.85).aspx)
+-   [Использование файлового сервера SPECsfs2008](/previous-versions/dn567653(v=vs.85))
 
--   [Настройка производительности для рабочей нагрузки "продажи и распределение"](https://msdn.microsoft.com/library/windows/hardware/dn567646(v=vs.85).aspx)
+-   [Настройка производительности для рабочей нагрузки "продажи и распределение"](/previous-versions/dn567646(v=vs.85))
 
--   [Настройка производительности для оперативной обработки транзакций (OLTP)](https://msdn.microsoft.com/library/windows/hardware/dn567642(v=vs.85).aspx)
+-   [Настройка производительности для оперативной обработки транзакций (OLTP)](/previous-versions/dn567642(v=vs.85))
 
 -   [Руководство. настроить SQL Server для использования программной архитектуры NUMA](https://go.microsoft.com/fwlink/?LinkId=98292)
 
 -   [Как сопоставлять порты TCP/IP с узлами NUMA](https://go.microsoft.com/fwlink/?LinkId=98293)
 
--   [ALTER SERVER CONFIGURATION (Transact-SQL)](https://msdn.microsoft.com/library/ee210585.aspx)
+-   [ALTER SERVER CONFIGURATION (Transact-SQL)](/sql/t-sql/statements/alter-server-configuration-transact-sql?view=sql-server-ver15)
 
 
 ## <a name="server-tuning-tools"></a>Средства настройки сервера
 
--   [Microsoft Server Performance Advisor](https://msdn.microsoft.com/library/windows/hardware/dn481522(v=vs.85).aspx)
+-   [Microsoft Server Performance Advisor](/previous-versions/dn481522(v=vs.85))
 
 ## <a name="performance-tuning-guidelines-for-previous-versions-of-windows-server"></a>Рекомендации по настройке производительности для предыдущих версий Windows Server
 

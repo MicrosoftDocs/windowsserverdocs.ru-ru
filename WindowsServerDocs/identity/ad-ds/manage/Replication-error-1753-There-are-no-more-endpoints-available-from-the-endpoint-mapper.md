@@ -6,14 +6,12 @@ ms.author: joflore
 manager: mtillman
 ms.date: 05/31/2017
 ms.topic: article
-ms.prod: windows-server
-ms.technology: identity-adds
-ms.openlocfilehash: ca7ab368c9e15de15f733070a5bcb06584956500
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 23bab1ff39cf5097f7b6face4886c6be59a7e5d5
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86961136"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87943524"
 ---
 # <a name="replication-error-1753-there-are-no-more-endpoints-available-from-the-endpoint-mapper"></a>Ошибка репликации 1753: "В системе отображения конечных точек не осталось доступных конечных точек"
 
@@ -71,7 +69,7 @@ REPADMIN.EXE сообщает о том, что попытка репликац�
 
 ```
 Default-First-Site-NameCONTOSO-DC1
-DSA Options: IS_GC 
+DSA Options: IS_GC
 Site Options: (none)
 DSA object GUID: b6dc8589-7e00-4a5d-b688-045aef63ec01
 DSA invocationID: b6dc8589-7e00-4a5d-b688-045aef63ec01
@@ -104,7 +102,7 @@ Last success @ <date> <time>.
 
 Active Directory события, которые обычно упоминаются в состоянии-2146893022, включают в себя не только:
 
-| Код события | Источник события | Строка события|
+| Идентификатор события | Источник события | Строка события|
 | --- | --- | --- |
 | 1655 | NTDS General | Active Directory попытка установить связь со следующим глобальным каталогом, и попытки были неудачными. |
 | 1925 | NTDS KCC | Сбой при попытке установить канал репликации для следующего изменяемого раздела каталога. |
@@ -195,7 +193,7 @@ NSLOOKUP -type=hostname <fully qualified computer name of source DC> <secondary 
 * Убедитесь, что серверное приложение (Active Directory et al) зарегистрировано с модулем сопоставления конечных точек на сервере RPC (исходный контроллер домена).
 * Active Directory использует сочетание хорошо известных и динамически регистрируемых портов. В этой таблице перечислены хорошо известные порты и протоколы, используемые Active Directory контроллерами домена.
 
-| Серверное приложение RPC | Port | TCP | UDP |
+| Серверное приложение RPC | Порт | TCP | UDP |
 | --- | --- | --- | --- |
 | Сервер DNS | 53 | X | X |
 | Kerberos | 88 | X | X |
@@ -221,13 +219,13 @@ portquery -n <source DC> -e 135 > file.txt
 
 ```
 UUID: e3514235-4b06-11d1-ab04-00c04fc2dcd2 MS NT Directory DRS Interface
-ncacn_np:CONTOSO-DC01[\pipe\lsass] 
+ncacn_np:CONTOSO-DC01[\pipe\lsass]
 UUID: e3514235-4b06-11d1-ab04-00c04fc2dcd2 MS NT Directory DRS Interface
-ncacn_np:CONTOSO-DC01[\PIPE\protected_storage] 
+ncacn_np:CONTOSO-DC01[\PIPE\protected_storage]
 UUID: e3514235-4b06-11d1-ab04-00c04fc2dcd2 MS NT Directory DRS Interface
-ncacn_ip_tcp:CONTOSO-DC01[49156] 
+ncacn_ip_tcp:CONTOSO-DC01[49156]
 UUID: e3514235-4b06-11d1-ab04-00c04fc2dcd2 MS NT Directory DRS Interface
-ncacn_http:CONTOSO-DC01[49157] 
+ncacn_http:CONTOSO-DC01[49157]
 UUID: e3514235-4b06-11d1-ab04-00c04fc2dcd2 MS NT Directory DRS Interface
 ncacn_http:CONTOSO-DC01[6004]
 ```

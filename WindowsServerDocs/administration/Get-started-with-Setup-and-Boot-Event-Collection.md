@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.assetid: fc239aec-e719-47ea-92fc-d82a7247b3f8
 author: jaimeo
 ms.author: jaimeo
-ms.openlocfilehash: e5e18ed5f5cc4cba319042f1a5da84acae8e5fd5
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: e5275937e12542e16c40273d69d9684d72a4ee82
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87879531"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87992446"
 ---
 # <a name="get-started-with-setup-and-boot-event-collection"></a>Приступая к работе с коллекцией событий установки и загрузки
 
@@ -130,9 +130,9 @@ ms.locfileid: "87879531"
 
 1.  На конечном компьютере запустите Regedit.exe и найдите этот раздел реестра:
 
-    **HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\WMI\AutoLogger**. В этом разделе различные сеансы входа размещены в виде подразделов. Со службой сбора событий загрузки и настройки можно использовать сеансы **Setup Platform**, **NT Kernel Logger** и **Microsoft-Windows-Setup**, однако рекомендуемым сеансом является **EventLog-System**. Эти разделы подробно рассмотрены в статье [Настройка и запуск сеанса авторегистратора](https://msdn.microsoft.com/library/windows/desktop/aa363687(v=vs.85).aspx).
+    **HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\WMI\AutoLogger**. В этом разделе различные сеансы входа размещены в виде подразделов. Со службой сбора событий загрузки и настройки можно использовать сеансы **Setup Platform**, **NT Kernel Logger** и **Microsoft-Windows-Setup**, однако рекомендуемым сеансом является **EventLog-System**. Эти разделы подробно рассмотрены в статье [Настройка и запуск сеанса авторегистратора](/windows/win32/etw/configuring-and-starting-an-autologger-session).
 
-2.  В разделе EventLog-System измените значение **LogFileMode** с **0x10000180** на **0x10080180**. Дополнительные сведения об этих параметрах см. в разделе [Константы режима ведения журнала](https://msdn.microsoft.com/library/windows/desktop/aa364080(v=vs.85).aspx).
+2.  В разделе EventLog-System измените значение **LogFileMode** с **0x10000180** на **0x10080180**. Дополнительные сведения об этих параметрах см. в разделе [Константы режима ведения журнала](/windows/win32/etw/logging-mode-constants).
 
 3.  При необходимости можно включить переадресацию данных о проверке ошибок на компьютер-сборщик. Для этого найдите раздел реестра HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager и создайте раздел **Debug Print Filter** со значением **0x1**.
 
@@ -156,7 +156,7 @@ ms.locfileid: "87879531"
 ### <a name="validate-target-computer-configuration"></a>Проверка конфигурации конечного компьютера
 Чтобы проверить параметры на конечном компьютере, откройте командную строку с повышенными привилегиями и выполните команду **bcdedit/enum**. По завершении выполните команду **bcdedit /eventsettings**. Еще раз проверьте следующие значения:
 
--   Key
+-   Ключ
 
 -   Debugtype = NET
 
@@ -276,7 +276,7 @@ ms.locfileid: "87879531"
 
 ### <a name="to-configure-nano-server-as-a-target-computer"></a>Настройка сервера Nano Server в качестве конечного компьютера
 
-1. Создайте базовый образ сервера Nano Server. См. раздел [Начало работы с сервером Nano Server](https://technet.microsoft.com/library/mt126167.aspx) для получения дополнительных сведений.
+1. Создайте базовый образ сервера Nano Server. См. раздел [Начало работы с сервером Nano Server](../get-started/getting-started-with-nano-server.md) для получения дополнительных сведений.
 
 2. Настройка компьютера сборщика, как описано в разделе Настройка компьютера сборщика этой статьи.
 
@@ -286,7 +286,7 @@ ms.locfileid: "87879531"
 
     2. Запустите консоль Windows PowerShell с повышенными разрешениями и запустите `Import-Module BootEventCollector` .
 
-    3. Обновите виртуальный жесткий диска сервера Nano Server для включения авторегистраторов. Для этого выполните команду `Enable-SbecAutoLogger -Path C:\NanoServer\Workloads\IncludingWorkloads.vhd`. При этом будет добавлен простой список наиболее стандартных событий настройки и загрузки; с другим событиями можно ознакомиться в разделе [Управление сеансами трассировки событий](https://msdn.microsoft.com/library/windows/desktop/aa363694(v=vs.85).aspx).
+    3. Обновите виртуальный жесткий диска сервера Nano Server для включения авторегистраторов. Для этого выполните команду `Enable-SbecAutoLogger -Path C:\NanoServer\Workloads\IncludingWorkloads.vhd`. При этом будет добавлен простой список наиболее стандартных событий настройки и загрузки; с другим событиями можно ознакомиться в разделе [Управление сеансами трассировки событий](/windows/win32/etw/controlling-event-tracing-sessions).
 
 4. Обновите параметры данных конфигурации загрузки в образе сервера Nano Server для включения флага "События" и настройте компьютер-сборщик, чтобы проверить, что события диагностики передаются на правильный сервер. Запишите IPv4-адрес, TCP-порт и ключ шифрования компьютера, которые вы настроили в файле Active.XML сборщика (см. инструкции в этом разделе). Используйте эту команду в консоли Windows PowerShell с повышенными разрешениями:`Enable-SbecBcd -Path C:\NanoServer\Workloads\IncludingWorkloads.vhd -CollectorIp 192.168.100.1 -CollectorPort 50000 -Key a.b.c.d`
 
@@ -302,7 +302,7 @@ ms.locfileid: "87879531"
 
 - В обычной командной строке: **wevtutil qe Microsoft-Windows-BootEvent-Collector/Admin**
 
-## <a name="troubleshooting"></a>Устранение неполадок
+## <a name="troubleshooting"></a>Диагностика
 
 ### <a name="troubleshooting-installation-of-the-feature"></a>Устранение неполадок при установке компонента
 

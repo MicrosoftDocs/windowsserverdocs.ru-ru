@@ -6,14 +6,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.prod: windows-server
-ms.technology: identity-adfs
-ms.openlocfilehash: 7b725d7831325e9db164c3dbb15730f7680e14a4
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 95dfeb427aa67bce56c3f87f2c356eff34aac6c4
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86966636"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87962508"
 ---
 # <a name="configure-ad-fs-to-authenticate-users-stored-in-ldap-directories-in-windows-server-2016-or-later"></a>Настройка AD FS для проверки подлинности пользователей, хранящихся в каталогах LDAP в Windows Server 2016 или более поздней версии
 
@@ -77,16 +75,16 @@ ms.locfileid: "86966636"
    Add-AdfsLocalClaimsProviderTrust -Name "Vendors" -Identifier "urn:vendors" -Type Ldap
 
    # Connection info
-   -LdapServerConnection $vendorDirectory 
+   -LdapServerConnection $vendorDirectory
 
    # How to locate user objects in directory
-   -UserObjectClass inetOrgPerson -UserContainer "CN=VendorsContainer,CN=VendorsPartition" -LdapAuthenticationMethod Basic 
+   -UserObjectClass inetOrgPerson -UserContainer "CN=VendorsContainer,CN=VendorsPartition" -LdapAuthenticationMethod Basic
 
    # Claims for authenticated users
-   -AnchorClaimLdapAttribute mail -AnchorClaimType "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn" -LdapAttributeToClaimMapping @($GivenName, $Surname, $CommonName) 
+   -AnchorClaimLdapAttribute mail -AnchorClaimType "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn" -LdapAttributeToClaimMapping @($GivenName, $Surname, $CommonName)
 
    # General claims provider properties
-   -AcceptanceTransformRules "c:[Type != ''] => issue(claim=c);" -Enabled $true 
+   -AcceptanceTransformRules "c:[Type != ''] => issue(claim=c);" -Enabled $true
 
    # Optional - supply user name suffix if you want to use Ws-Trust
    -OrganizationalAccountSuffix "vendors.contoso.com"
@@ -94,5 +92,5 @@ ms.locfileid: "86966636"
 
    В приведенном выше примере вы создаете отношение доверия с локальным поставщиком утверждений под названием "поставщики". Вы указываете сведения о подключении для AD FS для подключения к каталогу LDAP, который это отношение доверия с локальным поставщиком утверждений представляет, назначая `$vendorDirectory` `-LdapServerConnection` параметру. Обратите внимание, что на шаге 1 вы назначили `$vendorDirectory` строку подключения, которая будет использоваться при подключении к конкретному каталогу LDAP. Наконец, вы указываете, что `$GivenName` `$Surname` `$CommonName` атрибуты LDAP, и (которые сопоставлены с утверждениями AD FS) используются для управления условным доступом, включая политики многофакторной идентификации и правила авторизации выдачи, а также для выдачи с помощью утверждений в маркерах безопасности, выданных в AD FS. Чтобы использовать активные протоколы, такие как WS-Trust с AD FS, необходимо указать параметр Организатионалаккаунтсуффикс, который позволяет AD FS распознавать отношения доверия между локальными поставщиками утверждений при обслуживании активного запроса авторизации.
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также:
 [Операции AD FS](../ad-fs-operations.md)

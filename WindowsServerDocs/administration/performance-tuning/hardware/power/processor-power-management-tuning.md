@@ -5,12 +5,12 @@ ms.topic: conceptual
 ms.author: qizha;tristanb
 author: phstee
 ms.date: 10/16/2017
-ms.openlocfilehash: 9b45ad16981667eff626278daadbe8b39f5cc5c8
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 1fcc21df93d9963ee83159c1df2fcf918ddbbfba
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87896712"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87992378"
 ---
 # <a name="processor-power-management-ppm-tuning-for-the-windows-server-balanced-power-plan"></a>Настройка управления питанием процессора (PPM) для схемы управления питанием с балансировкой сетевой нагрузки Windows Server
 
@@ -87,7 +87,7 @@ ms.locfileid: "87896712"
 
 Из-за количества и сложности параметров это может быть сложной задачей, но если вы ищете лучший компромисс между энергопотреблением и рабочей нагрузкой, эффективность в конкретной среде, возможно, стоит потратить усилия.
 
- Полный набор параметров, настроенных на PPM, можно найти в окне " [Настройка управления питанием процессора](https://msdn.microsoft.com/windows/hardware/gg566941.aspx)". Вот некоторые простейшие параметры питания, с которыми можно начинать с:
+ Полный набор параметров, настроенных на PPM, можно найти в окне " [Настройка управления питанием процессора](/previous-versions/windows/hardware/design/dn613983(v=vs.85))". Вот некоторые простейшие параметры питания, с которыми можно начинать с:
 
 -   **Увеличение производительности процессора пороговое значение и увеличение производительности процессора** — большие значения замедляют реагирование производительности на повышение активности.
 

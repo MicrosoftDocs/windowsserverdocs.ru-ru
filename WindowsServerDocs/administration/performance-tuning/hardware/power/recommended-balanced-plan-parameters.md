@@ -5,12 +5,12 @@ ms.topic: conceptual
 ms.author: qizha;tristanb
 author: phstee
 ms.date: 10/16/2017
-ms.openlocfilehash: 559f274bcfafdd6c89cf7aea69b3df14f68130c1
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 4f733eea9ffae00421a58881b7ffc8deeaf7c785
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87896704"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87992282"
 ---
 # <a name="recommended-balanced-power-plan-parameters-for-workloads-requiring-quick-response-times"></a>Рекомендуемые параметры сбалансированного плана управления питанием для рабочих нагрузок, для которых требуется быстрое время ответа
 
@@ -67,4 +67,4 @@ Powercfg -setactive scheme_balanced
 - [Рекомендации по питанию серверного оборудования](../power.md)
 - [Питание и настройка производительности](power-performance-tuning.md)
 - [Настройка управления питанием процессора](processor-power-management-tuning.md)
-- [Отказоустойчивый кластер](https://technet.microsoft.com/library/cc725923.aspx)
+- [Отказоустойчивый кластер](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc725923(v=ws.10))

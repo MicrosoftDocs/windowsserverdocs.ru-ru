@@ -2,31 +2,29 @@
 title: Управление NPS
 description: В этом разделе приведены ссылки на процедуры по управлению НПСС в Windows Server 2016.
 manager: brianlic
-ms.prod: windows-server
-ms.technology: networking
 ms.topic: article
 ms.assetid: 6005dc27-f49e-427f-92f7-b0e558ffe3ff
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 89b0ff250d118b47b16996018ffb0e973072f6e7
-ms.sourcegitcommit: da7b9bce1eba369bcd156639276f6899714e279f
+ms.openlocfilehash: fd03e794e4ba6efb5c68b0ddce50732b490a4c2d
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "80315946"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87952233"
 ---
 # <a name="manage-npss"></a>Управление NPS
 
->Область применения: Windows Server (Semi-Annual Channel), Windows Server 2016
+>Применяется к: Windows Server (Semi-Annual Channel), Windows Server 2016
 
 Для управления НПСС можно использовать подразделы этого раздела.
 
 >[!NOTE]
 >Дополнительную документацию по серверу политики сети можно получить с помощью следующих разделов библиотеки.
->- [начало работы с сервером политики сети](nps-getstart-top.md)
->- [Развертывание сервера политики сети](nps-deploy.md) 
+>- [Начало работы с сервером политики сети](nps-getstart-top.md)
+>- [Развертывание сервера политики сети](nps-deploy.md)
 
-Данный раздел содержит следующие темы.
+Этот раздел содержит следующие подразделы.
 
 - [Настройка сервера политики сети на компьютере с несколькими сетевыми интерфейсами](nps-multihomed-configure.md)
 - [Настройка сведений UDP-порта NPS](nps-udp-ports-configure.md)
