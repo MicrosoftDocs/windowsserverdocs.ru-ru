@@ -1,19 +1,17 @@
 ---
 title: Удаление томов в Локальные дисковые пространства
 description: Удаление томов в Локальные дисковые пространства с помощью центра администрирования Windows.
-ms.prod: windows-server
 ms.reviewer: cosmosdarwin
 author: iangpgh
 ms.author: jgerend
 manager: daveba
-ms.technology: storage-spaces
 ms.date: 05/07/2019
-ms.openlocfilehash: 34df5ecc2ff085535878133db98cf345990165e0
-ms.sourcegitcommit: 771db070a3a924c8265944e21bf9bd85350dd93c
+ms.openlocfilehash: 9a45b2e6ce84368fdeca9019b7c188b2bc053013
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85475231"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87960897"
 ---
 # <a name="deleting-volumes-in-storage-spaces-direct"></a>Удаление томов в Локальные дисковые пространства
 > Применяется к: Windows Server 2019, Windows Server 2016

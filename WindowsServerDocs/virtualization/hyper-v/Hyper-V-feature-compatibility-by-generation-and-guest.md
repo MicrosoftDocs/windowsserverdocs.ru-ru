@@ -7,12 +7,12 @@ ms.assetid: 81c1f32d-7814-4992-8a66-dd4b77c939b4
 author: kbdazure
 ms.author: kathydav
 ms.date: 12/05/2016
-ms.openlocfilehash: 1ea9e0d86e61f574af45b85701bae941bb9f6ad5
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 5de7f55d9fead7b720991749dd1c83aa727636c4
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87960757"
+ms.locfileid: "87997024"
 ---
 # <a name="hyper-v-feature-compatibility-by-generation-and-guest"></a>Совместимость компонентов Hyper-V по поколениям и гостевым системам
 
@@ -32,13 +32,13 @@ ms.locfileid: "87960757"
 Контрольные точки | 1 и 2 | Все поддерживаемые гостевые системы
 Кластеризация гостя | 1 и 2 | Гости, использующие кластерные приложения с установленным программным обеспечением iSCSI Target
 Репликация | 1 и 2 | Все поддерживаемые гостевые системы
-Контроллер домена | 1 и 2 | Любая поддерживаемая гостевая ОС Windows Server с использованием только рабочих контрольных точек. См. раздел [Поддерживаемые гостевые операционные системы Windows Server](https://docs.microsoft.com/windows-server/virtualization/hyper-v/supported-windows-guest-operating-systems-for-hyper-v-on-windows#supported-windows-server-guest-operating-systems)
+Контроллер домена | 1 и 2 | Любая поддерживаемая гостевая ОС Windows Server с использованием только рабочих контрольных точек. См. раздел [Поддерживаемые гостевые операционные системы Windows Server](./supported-windows-guest-operating-systems-for-hyper-v-on-windows.md#supported-windows-server-guest-operating-systems)
 
 ## <a name="compute"></a>Службы вычислений
 
 Функция  | Generation | Операционная система на виртуальной машине
 ------------- | ------------- | -----------
-Динамическая память | 1 и 2 | Конкретные версии поддерживаемых гостевых систем. Дополнительные сведения о версиях, предшествующих Windows Server 2016 и Windows 10, см. в статье [обзор Динамическая память Hyper-V](https://technet.microsoft.com/library/hh831766.aspx) .
+Динамическая память | 1 и 2 | Конкретные версии поддерживаемых гостевых систем. Дополнительные сведения о версиях, предшествующих Windows Server 2016 и Windows 10, см. в статье [обзор Динамическая память Hyper-V](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831766(v=ws.11)) .
 Горячая установка и удаление памяти | 1 и 2 | Windows Server 2016, Windows 10
 Виртуальная топология NUMA | 1 и 2 | Все поддерживаемые гостевые системы
 
@@ -87,10 +87,3 @@ SMB 3 | 1 и 2 | Все, которые поддерживают SMB3
 Локальные дисковые пространства | 2 | Windows Server 2016
 Виртуальное подключение Fibre Channel | 1 и 2 | Windows Server 2016, Windows Server 2012 R2 и Windows Server 2012
 Формат VHDX | 1 и 2 | Все поддерживаемые гостевые системы
-
-
-
-
-
-
-

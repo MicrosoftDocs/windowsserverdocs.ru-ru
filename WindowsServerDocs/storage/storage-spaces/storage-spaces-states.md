@@ -5,15 +5,13 @@ author: jasongerend
 ms.author: jgerend
 ms.date: 12/06/2019
 ms.topic: article
-ms.prod: windows-server
-ms.technology: storage-spaces
 manager: brianlic
-ms.openlocfilehash: d7bbef54d0ec554c6a3cf184dcb0414f7456547c
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.openlocfilehash: 81480c413c2d9775ee81374534fc54af4fdcfced
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87182160"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87997492"
 ---
 # <a name="troubleshoot-storage-spaces-and-storage-spaces-direct-health-and-operational-states"></a>Устранение неполадок дисковых пространств и Локальные дисковые пространства работоспособности и рабочих состояний
 
@@ -73,7 +71,7 @@ S2D on StorageSpacesDirect1 Read-only         Unknown      False        True
 ||Политика|Администратор задает для пула носителей доступ только для чтения.<br><br>**Действие:** Чтобы задать для кластеризованного пула носителей доступ для чтения и записи в диспетчер отказоустойчивости кластеров, выберите **Пулы**, щелкните пул правой кнопкой мыши и выберите **перевести в режим**«в сети».<br><br>Для других серверов и компьютеров откройте сеанс PowerShell с разрешениями администратора и введите:<br><br><code>Get-StoragePool <PoolName> \| Set-StoragePool -IsReadOnly $false</code><br><br> |
 ||Запуск|Дисковые пространства запускаются или ожидают подключения дисков в пуле. Это должно быть временное состояние. После полного запуска пул должен перейти в другое рабочее состояние.<br><br>**Действие:** Если пул остается в *начальном* состоянии, убедитесь, что все диски в пуле подключены правильно.|
 
-См. также [форум по хранилищу Windows Server](https://docs.microsoft.com/answers/topics/windows-server-storage.html).
+См. также [форум по хранилищу Windows Server](/answers/topics/windows-server-storage.html).
 
 ## <a name="virtual-disk-states"></a>Состояния виртуальных дисков
 

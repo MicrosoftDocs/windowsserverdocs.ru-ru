@@ -1,19 +1,17 @@
 ---
 title: Локальные дисковые пространства кэш чтения в памяти
-ms.prod: windows-server
 ms.author: eldenc
 manager: siroy
-ms.technology: storage-spaces
 ms.topic: article
 author: eldenchristensen
 ms.date: 02/20/2019
 ms.localizationpriority: medium
-ms.openlocfilehash: fff78ddc831ae9f6cba103d7630da3afec2c87d7
-ms.sourcegitcommit: 771db070a3a924c8265944e21bf9bd85350dd93c
+ms.openlocfilehash: ce4546a3c3933700b7aec812027e2abc91f718f9
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85474241"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87960917"
 ---
 # <a name="using-storage-spaces-direct-with-the-csv-in-memory-read-cache"></a>Использование Локальные дисковые пространства с кэшем чтения в памяти CSV
 > Область применения. Windows Server 2016, Windows Server 2019
@@ -24,7 +22,7 @@ ms.locfileid: "85474241"
 
 Так как кэш в памяти является локальным сервером, он повышает локальность данных для Локальные дисковые пространства развертываний с помощью Hyper-in. последние операции чтения кэшируются в памяти на том же узле, где работает виртуальная машина, уменьшая частоту считывания по сети. Это приводит к снижению задержки и повышению производительности хранилища.
 
-## <a name="planning-considerations"></a>Рекомендации относительно планирования
+## <a name="planning-considerations"></a>Общие вопросы планирования
 
 Кэш чтения в памяти наиболее эффективен для рабочих нагрузок с интенсивным чтением, таких как инфраструктура виртуальных рабочих столов (VDI). И наоборот, если Рабочая нагрузка очень интенсивно записывается, кэш может ввести больше ресурсов, чем значение, и его следует отключить.
 

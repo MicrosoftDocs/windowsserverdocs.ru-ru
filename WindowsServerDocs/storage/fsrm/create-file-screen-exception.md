@@ -2,18 +2,16 @@
 title: Создание исключения для фильтра блокировки файлов
 description: В этой статье описывается процесс создания исключения для фильтра блокировки файлов
 ms.date: 7/7/2017
-ms.prod: windows-server
-ms.technology: storage
 ms.topic: article
 author: JasonGerend
 manager: brianlic
 ms.author: jgerend
-ms.openlocfilehash: c496151ed1f38cd1f2c604bd227627a586e582c6
-ms.sourcegitcommit: 771db070a3a924c8265944e21bf9bd85350dd93c
+ms.openlocfilehash: 9d8f0e4a8bc89312b846421c64b14518a9246aaa
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85473701"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87942143"
 ---
 # <a name="create-a-file-screen-exception"></a>Создание исключения для фильтра блокировки файлов
 

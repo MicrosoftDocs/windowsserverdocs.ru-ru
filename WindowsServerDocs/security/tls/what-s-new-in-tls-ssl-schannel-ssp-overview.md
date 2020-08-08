@@ -1,20 +1,18 @@
 ---
 title: Обзор TLS-SSL (поставщик общих служб Schannel)
 description: Безопасность Windows Server
-ms.prod: windows-server
-ms.technology: security-tls-ssl
 ms.topic: article
 ms.assetid: c8836345-16bb-4dcc-8d2b-2b9b687456a3
 author: justinha
 ms.author: justinha
 manager: brianlic
 ms.date: 05/16/2018
-ms.openlocfilehash: b70a8fefc05723b78dbf5e652bf35f7b8b5cff4d
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.openlocfilehash: a60ed0b1228780ebb6e8d1e75541dc3089f7665c
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87182320"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87989449"
 ---
 # <a name="overview-of-tls---ssl-schannel-ssp"></a>Обзор TLS-SSL (поставщик общих служб Schannel)
 
@@ -24,7 +22,7 @@ ms.locfileid: "87182320"
 
 Schannel — это поставщик поддержки безопасности (SSP), реализующий стандартные протоколы проверки подлинности SSL, TLS и DTLS Internet. Интерфейс поставщика поддержки безопасности (SSPI) является интерфейсом API, используемым системами Windows для выполнения функций, связанных с безопасностью, включая проверку подлинности. Интерфейс SSPI работает как общий интерфейс для нескольких поставщиков поддержки безопасности (SSP), включая поставщика SCHANNEL SSP.
 
-Дополнительные сведения о реализации протокола TLS и протокола SSL в общедоступном поставщике услуг Schannel см. в статье [Технический справочник по TLS/SSL (2003)](https://technet.microsoft.com/library/cc784149(v=ws.10).aspx).
+Дополнительные сведения о реализации протокола TLS и протокола SSL в общедоступном поставщике услуг Schannel см. в статье [Технический справочник по TLS/SSL (2003)](/previous-versions/windows/it-pro/windows-server-2003/cc784149(v=ws.10)).
 
 
 ## <a name="tlsssl-schannel-ssp-features"></a>Функции TLS/SSL (Schannel SSP)
@@ -94,11 +92,11 @@ Schannel — это поставщик поддержки безопасност
 
 Архитектура поставщика услуг Schannel в Windows Server 2012 будет по умолчанию использовать хранилища, как описано выше, для управления списком надежных издателей. Можно по-прежнему использовать существующие командлеты управления сертификатами поставщика PowerShell, а также средства командной строки, например certutil.exe.
 
-Сведения об управлении сертификатами с помощью поставщика PowerShell см. в разделе [Командлеты управления службой сертификации AD CS в Windows](https://technet.microsoft.com/library/hh848365(v=wps.620).aspx).
+Сведения об управлении сертификатами с помощью поставщика PowerShell см. в разделе [Командлеты управления службой сертификации AD CS в Windows](/powershell/module/adcsadministration/?view=winserver2012-ps).
 
-Сведения об управлении сертификатами с помощью служебной программы сертификатов см. в разделе [certutil.exe](https://technet.microsoft.com/library/cc732443.aspx).
+Сведения об управлении сертификатами с помощью служебной программы сертификатов см. в разделе [certutil.exe](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc732443(v=ws.11)).
 
-Сведения о том, какие данные, включая определяемое приложением хранилище, определяются в качестве учетных данных Schannel, см. в разделе [Структура SCHANNEL_CRED (Windows)](https://msdn.microsoft.com/library/windows/desktop/aa379810(v=vs.85).aspx).
+Сведения о том, какие данные, включая определяемое приложением хранилище, определяются в качестве учетных данных Schannel, см. в разделе [Структура SCHANNEL_CRED (Windows)](/windows/win32/api/schannel/ns-schannel-schannel_cred).
 
 **Значения по умолчанию для режимов доверия**
 
@@ -148,4 +146,4 @@ Schannel — это поставщик поддержки безопасност
 В поставщике общих служб SChannel для Windows Server 2012 и Windows 8 не поддерживаются устаревшие функции или функции.
 
 ## <a name="additional-references"></a>Дополнительные ссылки
--   [Модель безопасности частного облака — функциональные возможности программы-оболочки](https://docs.microsoft.com/archive/blogs/cloudsolutions/cloud-services-foundation-reference-architecture-overview)
+-   [Модель безопасности частного облака — функциональные возможности программы-оболочки](/archive/blogs/cloudsolutions/cloud-services-foundation-reference-architecture-overview)

@@ -1,20 +1,18 @@
 ---
 title: Обзор TLS/SSL (поставщик общих служб Schannel)
 description: Безопасность Windows Server
-ms.prod: windows-server
-ms.technology: security-tls-ssl
 ms.topic: article
 ms.assetid: 1b7b0432-1bef-4912-8c9a-8989d47a4da9
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 05/16/2018
-ms.openlocfilehash: 0d963116fc9f22482398b38482f0c3c49f4be505
-ms.sourcegitcommit: 771db070a3a924c8265944e21bf9bd85350dd93c
+ms.openlocfilehash: 512dd20e658f610ac9de7247380eed5d2aed54f6
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85475521"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87989471"
 ---
 # <a name="tlsssl-overview-schannel-ssp"></a>Обзор TLS/SSL (поставщик общих служб Schannel)
 
@@ -22,7 +20,7 @@ ms.locfileid: "85475521"
 
 В этом разделе для ИТ-специалистов представлены реализации TLS и SSL в Windows с помощью поставщика услуг безопасности SChannel (SSP), описывающие практические приложения, изменения в реализации Майкрософт и требования к программному обеспечению, а также дополнительные ресурсы для Windows Server 2012 и Windows 8.
 
-## <a name="description"></a><a name="BKMK_OVER"></a>Описание:
+## <a name="description"></a><a name="BKMK_OVER"></a>Описание
 Канал SCHANNEL — это поставщик поддержки безопасности (SSP), в котором реализованы стандартные интернет-протоколы проверки подлинности SSL и TLS.
 
 Интерфейс поставщика поддержки безопасности (SSPI) является интерфейсом API, используемым системами Windows для выполнения функций, связанных с безопасностью, включая проверку подлинности. SSPI выступает в качестве общего интерфейса для нескольких SSP, включая поставщика общих служб SChannel.
@@ -40,7 +38,7 @@ ms.locfileid: "85475521"
 -   Доступ к SQL
 -   электронная почта;
 
-## <a name="requirements"></a><a name="BKMK_SOFT"></a>Необходимость
+## <a name="requirements"></a><a name="BKMK_SOFT"></a>Требования
 Протоколы TLS и SSL используют модель "клиент-сервер" и основаны на проверке подлинности на основе сертификата, для которой требуется инфраструктура открытых ключей.
 
 ## <a name="server-manager-information"></a><a name="BKMK_INSTALL"></a>Сведения о диспетчере сервера
@@ -48,6 +46,6 @@ ms.locfileid: "85475521"
 
 ## <a name="additional-references"></a>Дополнительные ссылки ##
 
--   [Пакет безопасности SCHANNEL](https://docs.microsoft.com/windows/desktop/com/schannel)
--   [Secure Channel](https://docs.microsoft.com/windows/desktop/SecAuthN/secure-channel)
--   [Протокол безопасности транспортного уровня](https://docs.microsoft.com/windows/desktop/SecAuthN/transport-layer-security-protocol)
+-   [Пакет безопасности SCHANNEL](/windows/desktop/com/schannel)
+-   [Secure Channel](/windows/desktop/SecAuthN/secure-channel)
+-   [Протокол безопасности транспортного уровня](/windows/desktop/SecAuthN/transport-layer-security-protocol)

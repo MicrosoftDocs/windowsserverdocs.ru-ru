@@ -1,25 +1,23 @@
 ---
 title: Пример использования пакета SDK для центра администрирования Windows — адаптер Lenovo
 description: Пример использования пакета SDK для центра администрирования Windows — адаптер Lenovo
-ms.technology: extend
 ms.topic: article
 author: daniellee-msft
 ms.author: jol
 ms.date: 1/7/2019
 ms.localizationpriority: medium
-ms.prod: windows-server
-ms.openlocfilehash: a51b4bb5f6dc7dcd002b8e7a8998ce731fa374ed
-ms.sourcegitcommit: fe89b8001ad664b3618708b013490de93501db05
+ms.openlocfilehash: 74afb81918512b45b39e3ba85649cd3edac1d3d7
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "84942339"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87949718"
 ---
 # <a name="lenovo-xclarity-integrator-extension"></a>Расширение Lenovo Кскларити Integrator
 
 ## <a name="integrated-hardware-management-everywhere"></a>Интегрированное управление оборудованием везде!
 
-Расширение [Lenovo Кскларити Integrator](https://www.lenovo.com/us/en/data-center/software/systems-management/XClarity-Integrator/p/WMD00000370) для Windows Admin Center предоставляет администраторам простой интерфейс управления инфраструктурой Lenovo непосредственно из центра администрирования Windows. Расширение Кскларити Integrator включает изолированное расширение решения, а также расширяет существующие диспетчер сервера, диспетчер отказоустойчивости кластеров и решения диспетчера кластеров с поддержкой технологии Hyper-in в едином унифицированном интерфейсе пользователя, чтобы обеспечить простое управление сервером. 
+Расширение [Lenovo Кскларити Integrator](https://www.lenovo.com/us/en/data-center/software/systems-management/XClarity-Integrator/p/WMD00000370) для Windows Admin Center предоставляет администраторам простой интерфейс управления инфраструктурой Lenovo непосредственно из центра администрирования Windows. Расширение Кскларити Integrator включает изолированное расширение решения, а также расширяет существующие диспетчер сервера, диспетчер отказоустойчивости кластеров и решения диспетчера кластеров с поддержкой технологии Hyper-in в едином унифицированном интерфейсе пользователя, чтобы обеспечить простое управление сервером.
 
 Расширение решения, входящее в расширение Кскларити Integrator, позволяет подключиться к администратору Lenovo Кскларити, серверу Lenovo Rack или Tower или всем серверам в целом блоке. После добавления серверов можно просмотреть общее состояние работоспособности для всех добавленных узлов.
 

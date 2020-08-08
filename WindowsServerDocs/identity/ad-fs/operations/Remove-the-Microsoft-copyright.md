@@ -6,54 +6,52 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.prod: windows-server
-ms.technology: identity-adfs
-ms.openlocfilehash: 9306950ab83ea94c1ff814ea9a404c0efeff0e40
-ms.sourcegitcommit: b00d7c8968c4adc8f699dbee694afe6ed36bc9de
+ms.openlocfilehash: ec7d9cb02508fc046ce3e8f0378e63c82eecca8d
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "80816217"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87949778"
 ---
-# <a name="remove-the-microsoft-copyright"></a>Удаление авторского права Майкрософт 
+# <a name="remove-the-microsoft-copyright"></a>Удаление авторского права Майкрософт
 
 
- 
-По умолчанию страницы AD FS содержат авторские права Майкрософт. Для удаления этих сведений с настроенных страниц можно воспользоваться следующей процедурой. 
 
-![удалить авторские права](media/AD-FS-user-sign-in-customization/ADFS_Blue_Custom1.png) 
-  
-## <a name="to-remove-the-microsoft-copyright"></a>Удаление сведений об авторских правах Майкрософт  
-  
+По умолчанию страницы AD FS содержат авторские права Майкрософт. Для удаления этих сведений с настроенных страниц можно воспользоваться следующей процедурой.
+
+![удалить авторские права](media/AD-FS-user-sign-in-customization/ADFS_Blue_Custom1.png)
+
+## <a name="to-remove-the-microsoft-copyright"></a>Удаление сведений об авторских правах Майкрософт
+
 1. Создайте пользовательскую тему на основе стандартной.
 
    ```powershell
    New-AdfsWebTheme –Name custom –SourceName default
    ```
 
-2. Экспортируйте тему в указанную папку вывода.  
+2. Экспортируйте тему в указанную папку вывода.
 
    ```powershell
    Export-AdfsWebTheme -Name custom -DirectoryPath C:\CustomWebTheme
    ```
 
-3. Найти файл `Style.css`, расположенный в выходной папке. Используя предыдущий пример, путь будет `C:\CustomWebTheme\Css\Style.css.`
-  
-4. Откройте файл `Style.css` в редакторе, например в блокноте.  
-  
-5. Найдите часть `#copyright` и измените ее следующим образом:  
+3. Найти `Style.css` файл, расположенный в папке выходных данных. Используя предыдущий пример, путь будет выглядеть так:`C:\CustomWebTheme\Css\Style.css.`
+
+4. Откройте `Style.css` файл в редакторе, например в блокноте.
+
+5. Найдите часть `#copyright` и измените ее следующим образом:
 
    ```css
    #copyright {color:#696969; display:none;}
    ```
 
-6. Создайте пользовательскую тему на основе нового файла `Style.css`.  
+6. Создайте пользовательскую тему, основанную на новом `Style.css` файле.
 
    ```powershell
    Set-AdfsWebTheme -TargetName custom -StyleSheet @{locale="";path="C:\customWebTheme\css\style.css"}
    ```
 
-7. Активируйте новую тему.  
+7. Активируйте новую тему.
 
    ```powershell
    Set-AdfsWebConfig -ActiveThemeName custom
@@ -61,7 +59,7 @@ ms.locfileid: "80816217"
 
 Теперь вы больше не должны видеть авторские права в нижней части страницы входа.
 
-![удалить авторские права](media/AD-FS-user-sign-in-customization/ADFS_Blue_Custom1a.png) 
+![удалить авторские права](media/AD-FS-user-sign-in-customization/ADFS_Blue_Custom1a.png)
 
-## <a name="additional-references"></a>Дополнительная справка 
-[AD FS настройки входа пользователя](AD-FS-user-sign-in-customization.md) 
+## <a name="additional-references"></a>Дополнительная справка
+[AD FS настройки входа пользователя](AD-FS-user-sign-in-customization.md)

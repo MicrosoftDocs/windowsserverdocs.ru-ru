@@ -6,12 +6,12 @@ manager: dongill
 author: rpsqrd
 ms.author: ryanpu
 ms.date: 09/25/2019
-ms.openlocfilehash: 0162cd8c14640bfc025796995fdc2ce78b5912a2
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 8c3f28b544db7a41c15c4f12b58c58c1f750cb54
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87939645"
+ms.locfileid: "87997508"
 ---
 # <a name="confirm-guarded-hosts-can-attest"></a>Подтверждение аттестации защищенных узлов
 
@@ -37,7 +37,7 @@ ms.locfileid: "87939645"
 
         Чтобы настроить резервный сервер HGS, повторите эту команду и укажите резервные URL-адреса для служб защиты и аттестации ключей. Дополнительные сведения см. в разделе [резервная конфигурация](guarded-fabric-manage-branch-office.md#fallback-configuration).
 
-    - С **помощью VMM**. Если вы используете System Center 2016-Virtual Machine Manager (VMM), вы можете настроить URL-адреса аттестации и защиты ключей в VMM. Дополнительные сведения см. в статье [Настройка глобальных параметров HGS](https://technet.microsoft.com/system-center-docs/vmm/scenario/guarded-hosts#configure-global-hgs-settings) в разделе **подготавливать защищенные узлы в VMM**.
+    - С **помощью VMM**. Если вы используете System Center 2016-Virtual Machine Manager (VMM), вы можете настроить URL-адреса аттестации и защиты ключей в VMM. Дополнительные сведения см. в статье [Настройка глобальных параметров HGS](/system-center/vmm/guarded-deploy-host?view=sc-vmm-2019#configure-global-hgs-settings) в разделе **подготавливать защищенные узлы в VMM**.
 
     >**Примечания**
     > - Если администратор HGS [включил протокол HTTPS на сервере HGS](guarded-fabric-configure-hgs-https.md), начните использовать URL-адреса с `https://` .

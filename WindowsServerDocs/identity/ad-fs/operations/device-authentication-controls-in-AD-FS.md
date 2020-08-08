@@ -6,14 +6,12 @@ ms.author: billmath
 manager: mtillman
 ms.date: 11/09/2017
 ms.topic: article
-ms.prod: windows-server
-ms.technology: identity-adfs
-ms.openlocfilehash: f9cc811c6a78e58ff3550343e89c19806b9914fb
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 976a8db89d8ffdb08f5f453619b7a341fb4dcdb4
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86966876"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87949698"
 ---
 # <a name="device-authentication-controls-in-ad-fs"></a>Элементы управления аутентификацией устройств в AD FS
 В следующем документе показано, как включить элементы управления проверки подлинности устройств в Windows Server 2016 и 2012 R2.
@@ -33,11 +31,11 @@ PS:\>Set-AdfsGlobalAuthenticationPolicy –DeviceAuthenticationEnabled $true
 Для отключения проверки подлинности устройства использовался тот же командлет, чтобы присвоить значение $false.
 
 ## <a name="device-authentication-controls-in-ad-fs-2016"></a>Элементы управления аутентификацией устройств в AD FS 2016
-Единственным типом проверки подлинности устройств, поддерживаемым в 2012 R2, было проверка.  В AD FS 2016 в дополнение к проверка существует два новых типа проверки подлинности устройства для проверки подлинности современных устройств.  Эти особые значения приведены ниже.
+Единственным типом проверки подлинности устройств, поддерживаемым в 2012 R2, было проверка.  В AD FS 2016 в дополнение к проверка существует два новых типа проверки подлинности устройства для проверки подлинности современных устройств.  два типа пулов узлов.
 - пкэйаус
 - PRT
 
-Для управления новым поведением `DeviceAuthenticationEnabled` свойство используется в сочетании с новым свойством с именем `DeviceAuthenticationMethod` .  
+Для управления новым поведением `DeviceAuthenticationEnabled` свойство используется в сочетании с новым свойством с именем `DeviceAuthenticationMethod` .
 
 Метод проверки подлинности устройства определяет тип проверки подлинности устройства, которая будет выполнена: PRT, Пкэйаус, проверка или какое – либо сочетание.
 Он имеет следующие значения:

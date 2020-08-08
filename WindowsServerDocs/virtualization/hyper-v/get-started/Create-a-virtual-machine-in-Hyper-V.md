@@ -1,20 +1,18 @@
 ---
 title: Создание виртуальной машины в Hyper-V
 description: Содержит инструкции по созданию виртуальной машины с помощью диспетчера Hyper-V или Windows PowerShell.
-ms.prod: windows-server
 manager: dongill
-ms.technology: compute-hyper-v
 ms.topic: get-started-article
 ms.assetid: 59297022-a898-456c-b299-d79cd5860238
 author: kbdazure
 ms.author: kathydav
 ms.date: 10/04/2016
-ms.openlocfilehash: 703c3f739200fafa4934681c300a61d8039d660c
-ms.sourcegitcommit: 771db070a3a924c8265944e21bf9bd85350dd93c
+ms.openlocfilehash: 5f4e07919503f283add8da1c8dd522f3d2b7f222
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85475661"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87942020"
 ---
 # <a name="create-a-virtual-machine-in-hyper-v"></a>Создание виртуальной машины в Hyper-V
 
@@ -44,7 +42,7 @@ ms.locfileid: "85475661"
 
 2. Щелкните правой кнопкой мыши элемент **Windows PowerShell** и выберите пункт **Запуск от имени администратора**.
 
-3. Получите имя виртуального коммутатора, который виртуальная машина должна использовать с помощью [Get-VMSwitch](https://technet.microsoft.com/library/hh848499.aspx).  Например,
+3. Получите имя виртуального коммутатора, который виртуальная машина должна использовать с помощью [Get-VMSwitch](https://technet.microsoft.com/library/hh848499.aspx).  например следующие.
 
    ```
    Get-VMSwitch  * | Format-Table Name
@@ -68,7 +66,7 @@ ms.locfileid: "85475661"
        New-VM -Name <Name> -MemoryStartupBytes <Memory> -BootDevice <BootDevice> -VHDPath <VHDPath> -Path <Path> -Generation <Generation> -Switch <SwitchName>
        ```
 
-       Пример:
+       Например:
 
        ```
        New-VM -Name Win10VM -MemoryStartupBytes 4GB -BootDevice VHD -VHDPath .\VMs\Win10.vhdx -Path .\VMData -Generation 2 -Switch ExternalSwitch
@@ -76,7 +74,7 @@ ms.locfileid: "85475661"
 
        При этом создается виртуальная машина поколения 2 с именем Win10VM с 4 ГБ памяти. Она загружается из папки VMs\Win10.vhdx в текущий каталог и использует виртуальный коммутатор с именем ExternalSwitch. Файлы конфигурации виртуальной машины хранятся в папке VMData.
 
-   - **Новый виртуальный жесткий диск** — чтобы создать виртуальную машину с новым виртуальным жестким диском, замените параметр **-VHDPath** из приведенного выше примера на **-неввхдпас** и добавьте параметр **-неввхдсизебитес** . Например,
+   - **Новый виртуальный жесткий диск** — чтобы создать виртуальную машину с новым виртуальным жестким диском, замените параметр **-VHDPath** из приведенного выше примера на **-неввхдпас** и добавьте параметр **-неввхдсизебитес** . например следующие.
 
      ```
      New-VM -Name Win10VM -MemoryStartupBytes 4GB -BootDevice VHD -NewVHDPath .\VMs\Win10.vhdx -Path .\VMData -NewVHDSizeBytes 20GB -Generation 2 -Switch ExternalSwitch
@@ -90,7 +88,7 @@ ms.locfileid: "85475661"
    Start-VM -Name <Name>
    ```
 
-   Пример:
+   Например:
 
    ```
    Start-VM -Name Win10VM
@@ -105,7 +103,7 @@ ms.locfileid: "85475661"
 ## <a name="options-in-hyper-v-manager-new-virtual-machine-wizard"></a>Параметры в мастере создания виртуальных машин диспетчера Hyper-V
 В следующей таблице перечислены параметры, которые можно выбрать при создании виртуальной машины в диспетчере Hyper-V, и значения по умолчанию для каждого из них.
 
-|Страница|По умолчанию для Windows Server 2016 и Windows 10|Другие параметры|
+|Страница|По умолчанию для Windows Server 2016 и Windows 10|Другие варианты|
 |--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------|
 |**Укажите имя и расположение**|Имя: Новая виртуальная машина.<p>Расположение: **к:\програмдата\микрософт\виндовс\хипер-в \\ **.|Можно также ввести собственное имя и выбрать другое расположение для виртуальной машины.<p>Здесь будут храниться файлы конфигурации виртуальной машины.|
 |**Укажите поколение**|Поколение 1|Вы также можете создать виртуальную машину версии 2. Дополнительные сведения см [. в статье Создание виртуальной машины поколения 1 или 2 в Hyper-V.](../plan/Should-I-create-a-generation-1-or-2-virtual-machine-in-Hyper-V.md)|

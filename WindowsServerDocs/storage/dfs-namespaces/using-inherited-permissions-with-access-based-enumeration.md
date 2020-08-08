@@ -2,18 +2,16 @@
 title: Использование унаследованных разрешений с перечислением на основе доступа
 description: В этой статье описывается использование унаследованных разрешений с перечислением на основе доступа.
 ms.date: 6/5/2017
-ms.prod: windows-server
-ms.technology: storage
 ms.topic: article
 author: JasonGerend
 manager: brianlic
 ms.author: jgerend
-ms.openlocfilehash: 112ec4363177ac6dd560493843c8937bdfbac4de
-ms.sourcegitcommit: 771db070a3a924c8265944e21bf9bd85350dd93c
+ms.openlocfilehash: 96b6280b8f69325a9f5c819430dd7a5249247302
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85475151"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87971211"
 ---
 # <a name="using-inherited-permissions-with-access-based-enumeration"></a>Использование унаследованных разрешений с перечислением на основе доступа
 

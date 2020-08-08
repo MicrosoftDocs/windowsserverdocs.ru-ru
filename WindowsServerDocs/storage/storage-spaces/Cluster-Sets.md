@@ -1,20 +1,18 @@
 ---
 title: Наборы кластеров
-ms.prod: windows-server
 manager: eldenc
-ms.technology: storage-spaces
 ms.topic: article
 author: johnmarlin-msft
 ms.author: johnmar
 ms.date: 01/30/2019
 description: В этой статье описывается сценарий наборов кластеров.
 ms.localizationpriority: medium
-ms.openlocfilehash: 06cf798a5adfeee1279f564df63c431a77affd18
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: b5b3f36cbc6627b13d2bba678cc1aeec02e57d81
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86955036"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87961168"
 ---
 # <a name="cluster-sets"></a>Наборы кластеров
 
@@ -101,7 +99,7 @@ ms.locfileid: "86955036"
 
 Следующие рекомендации относятся к роли SOFS инфраструктуры.
 
-1. В отказоустойчивом кластере может быть только одна роль кластера SOFS инфраструктуры. Роль SOFS инфраструктуры создается путем указания параметра **-Infrastructure**в командлете **Add-клустерскалеаутфилесерверроле** . Например.
+1. В отказоустойчивом кластере может быть только одна роль кластера SOFS инфраструктуры. Роль SOFS инфраструктуры создается путем указания параметра **-Infrastructure**в командлете **Add-клустерскалеаутфилесерверроле** . Например:
 
     ```PowerShell
     Add-ClusterScaleoutFileServerRole -Name "my_infra_sofs_name" -Infrastructure
@@ -119,7 +117,7 @@ ms.locfileid: "86955036"
 
 ## <a name="creating-a-cluster-set"></a>Создание набора кластеров
 
-### <a name="prerequisites"></a>Обязательные условия
+### <a name="prerequisites"></a>Предварительные требования
 
 При создании набора кластеров рекомендуется выполнять следующие предварительные требования.
 

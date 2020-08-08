@@ -1,19 +1,17 @@
 ---
 title: Общие сведения о постоянной памяти и ее развертывании
 description: Подробные сведения о том, что такое постоянная память и как ее настроить с помощью локальных дисковых пространств в Windows Server 2019.
-ms.prod: windows-server
 ms.author: adagashe
-ms.technology: storage-spaces
 ms.topic: article
 author: adagashe
 ms.date: 1/27/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: 2f5f88ac2ec728e176735ad58d9d67112583c527
-ms.sourcegitcommit: 771db070a3a924c8265944e21bf9bd85350dd93c
+ms.openlocfilehash: 512b53be7af89fe9e0fd017af14425264062ed29
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85469649"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87960907"
 ---
 # <a name="understand-and-deploy-persistent-memory"></a>Общие сведения о постоянной памяти и ее развертывании
 
@@ -21,7 +19,7 @@ ms.locfileid: "85469649"
 
 Постоянная память (или PMem) — это новый тип технологии памяти, обеспечивающий уникальную комбинацию доступной большой емкости и сохраняемости. Эта статья содержит сведения о PMem и действиях по его развертыванию в Windows Server 2019 с помощью Локальные дисковые пространства.
 
-## <a name="background"></a>Фон
+## <a name="background"></a>Историческая справка
 
 PMem — это тип энергонезависимого ОЗУ (NVDIMM), сохраняющий его содержимое через циклы электропитания. Содержимое памяти остается даже при отключении питания системы в случае неожиданной потери питания, инициирования пользователем завершения работы, сбоя системы и т. д. Такая уникальная характеристика означает, что можно также использовать PMem в качестве хранилища. Именно поэтому вы можете слышать людей, которые ссылаются на PMem как на память класса хранилища.
 

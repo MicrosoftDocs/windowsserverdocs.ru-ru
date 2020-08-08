@@ -1,19 +1,17 @@
 ---
 title: Разработка расширения решения
 description: Разработка расширения решения Windows Admin Center SDK (Project Хонолулу)
-ms.technology: manage
 ms.topic: article
 author: nwashburn-ms
 ms.author: niwashbu
 ms.date: 09/18/2018
 ms.localizationpriority: medium
-ms.prod: windows-server
-ms.openlocfilehash: 6ac9c6296fdf9159c9f50a1304dd345932052ac9
-ms.sourcegitcommit: 6aff3d88ff22ea141a6ea6572a5ad8dd6321f199
+ms.openlocfilehash: 27ded378a40537455423f79869dfd07dcd2ba625
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71357154"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87949599"
 ---
 # <a name="develop-a-solution-extension"></a>Разработка расширения решения
 
@@ -57,7 +55,7 @@ wac create --company "{!Company Name}" --solution "{!Solution Name}" --tool "{!T
 wac create --company "Contoso Inc" --solution "Contoso Foo Works Suite" --tool "Manage Foo Works"
 ```
 
-При этом в текущем рабочем каталоге создается новая папка с именем, указанным для решения, копируются все необходимые файлы шаблонов в проект и настраиваются файлы с помощью имени вашей компании, решения и средства.  
+При этом в текущем рабочем каталоге создается новая папка с именем, указанным для решения, копируются все необходимые файлы шаблонов в проект и настраиваются файлы с помощью имени вашей компании, решения и средства.
 
 Затем измените каталог на только что созданную папку, а затем установите необходимые локальные зависимости, выполнив следующую команду:
 
@@ -65,7 +63,7 @@ wac create --company "Contoso Inc" --solution "Contoso Foo Works Suite" --tool "
 npm install
 ```
 
-После завершения этого процесса вы настроили все необходимое для загрузки нового расширения в центр администрирования Windows. 
+После завершения этого процесса вы настроили все необходимое для загрузки нового расширения в центр администрирования Windows.
 
 ## <a name="add-content-to-your-extension"></a>Добавление содержимого в расширение
 
@@ -75,7 +73,7 @@ npm install
 - Добавление [IFRAME](guides/add-iframe.md)
 - Создание [пользовательского поставщика соединений](guides/create-connection-provider.md)
 - Изменение [поведения корневой навигации](guides/modify-root-navigation.md)
- 
+
 Еще несколько примеров можно найти на [сайте пакета SDK для GitHub](https://aka.ms/wacsdk):
 -  [Средства для разработчиков](https://github.com/Microsoft/windows-admin-center-sdk/tree/master/windows-admin-center-developer-tools) — это полностью работоспособное расширение, которое можно загрузить в центр администрирования Windows и содержит обширный набор примеров функциональных возможностей и примеров инструментов, которые можно просматривать и использовать в собственном расширении.
 

@@ -1,24 +1,23 @@
 ---
 title: Создание экранированной виртуальной машины с помощью PowerShell
-ms.prod: windows-server
 ms.topic: article
 manager: dongill
 author: rpsqrd
 ms.author: ryanpu
-ms.technology: security-guarded-fabric
 ms.date: 09/25/2019
-ms.openlocfilehash: abc1a2af7353bd85e0ae7ac55debc36d63d1782f
-ms.sourcegitcommit: fe89b8001ad664b3618708b013490de93501db05
+ms.openlocfilehash: 3272f1dd75f3e8df506341d49c1c32346bb5dbce
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "84942293"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87971331"
 ---
 # <a name="create-a-shielded-vm-using-powershell"></a>Создание экранированной виртуальной машины с помощью PowerShell
 
 >Область применения: Windows Server 2019, Windows Server (половина ежегодного канала), Windows Server 2016
 
-В рабочей среде для развертывания экранированных виртуальных машин обычно используется диспетчер структуры (например, VMM). Однако приведенные ниже действия позволяют развернуть и проверить весь сценарий без диспетчера структуры.
+В рабочей среде для развертывания экранированных виртуальных машин обычно используется диспетчер структуры (например, VMM).
+Однако приведенные ниже действия позволяют развернуть и проверить весь сценарий без диспетчера структуры.
 
 В двух словах, вы создадите диск шаблона, файл данных экранирования, файл ответов автоматической установки и другие артефакты безопасности на любом компьютере, затем скопируйте эти файлы на защищенный узел и подготавливаете экранированную виртуальную машину.
 
@@ -56,21 +55,21 @@ Save-VolumeSignatureCatalog -TemplateDiskPath "C:\temp\MyTemplateDisk.vhdx" -Vol
 Выполните следующие командлеты на компьютере, на котором установлена средства удаленного администрирования сервера для экранированных виртуальных машин.
 Если вы создаете PDK для виртуальной машины Linux, это необходимо сделать на сервере под управлением Windows Server версии 1709 или более поздней.
 
- 
+
 ```powershell
 # Create owner certificate, don't lose this!
 # The certificate is stored at Cert:\LocalMachine\Shielded VM Local Certificates
 $Owner = New-HgsGuardian –Name 'Owner' –GenerateCertificates
- 
+
 # Import the HGS guardian for each fabric you want to run your shielded VM
 $Guardian = Import-HgsGuardian -Path C:\HGSGuardian.xml -Name 'TestFabric'
- 
+
 # Create the PDK file
 # The "Policy" parameter describes whether the admin can see the VM's console or not
 # Use "EncryptionSupported" if you are testing out shielded VMs and want to debug any issues during the specialization process
 New-ShieldingDataFile -ShieldingDataFilePath 'C:\temp\Contoso.pdk' -Owner $Owner –Guardian $guardian –VolumeIDQualifier (New-VolumeIDQualifier -VolumeSignatureCatalogFilePath 'C:\temp\MyTemplateDiskCatalog.vsc' -VersionRule Equals) -WindowsUnattendFile 'C:\unattend.xml' -Policy Shielded
 ```
-    
+
 ## <a name="provision-shielded-vm-on-a-guarded-host"></a>Подготавливает экранированную виртуальную машину на защищенном узле
 На узле, работающем под управлением Windows Server 2016, можно отслеживать завершение задачи подготовки виртуальной машины и обращаться к журналам событий Hyper-V для получения сведений об ошибке, если подготовка завершается неудачно.
 

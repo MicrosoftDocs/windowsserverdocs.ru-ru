@@ -2,18 +2,16 @@
 title: Задание приоритета конечных объектов для переопределения порядка в ссылках
 description: В этой статье рассматривается, как задать приоритет конечных объектов для переопределения порядка в ссылках.
 ms.date: 6/5/2017
-ms.prod: windows-server
-ms.technology: storage
 ms.topic: article
 author: JasonGerend
 manager: brianlic
 ms.author: jgerend
-ms.openlocfilehash: 77fe5b82b73a0f37ba81dda210f15d6017788822
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 04a295b8f6249521c809770af2c85fdce5dd54b4
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86966826"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87971221"
 ---
 # <a name="set-target-priority-to-override-referral-ordering"></a>Задание приоритета конечных объектов для переопределения порядка в ссылках
 

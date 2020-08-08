@@ -7,12 +7,12 @@ author: lizap
 manager: dongill
 ms.author: elizapo
 ms.date: 08/04/2016
-ms.openlocfilehash: 2376ff176d9031cae69629e1181febe25a5ebd3a
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 5ed2895bf582483e92d378b4df5d767ff6542a21
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87955491"
+ms.locfileid: "87997319"
 ---
 # <a name="managing-multipoint-services"></a>Управление системой MultiPoint Services
 &trade;Службы MultiPoint позволяют нескольким пользователям, каждый из которых имеет свой собственный интерфейс Windows, одновременно использовать один компьютер. Пользовательские станции, состоящие из монитора, клавиатуры и мыши, подключаются к главному компьютеру напрямую через USB, видеокабели или по сети.
@@ -32,4 +32,4 @@ ms.locfileid: "87955491"
 
 ## <a name="additional-references"></a>Дополнительные ссылки
 
-- [Службы MultiPoint](https://docs.microsoft.com/windows-server/remote/multipoint-services/introducing-multipoint-services)
+- [Службы MultiPoint](./introducing-multipoint-services.md)

@@ -7,12 +7,12 @@ ms.assetid: ac069fed-7bf5-4cc3-aff5-25a2766040b8
 author: kbdazure
 ms.author: kathydav
 ms.date: 11/29/2016
-ms.openlocfilehash: 5fd4c0199cea04d6697b593ad70b4f31b55afad0
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 2d69a16dc49c34872d3787338a1fd130aaf7241d
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87960767"
+ms.locfileid: "87997034"
 ---
 # <a name="hyper-v-technology-overview"></a>Обзор технологии Hyper-V
 
@@ -58,11 +58,11 @@ Hyper-V предлагает множество функций. Это обзо�
 
 **Безопасность** — безопасная загрузка и экранированные виртуальные машины помогают защититься от вредоносных программ и другого несанкционированного доступа к виртуальной машине и ее данным.
 
-Сводные сведения о функциях, появившихся в этой версии, см. в статье [новые возможности Hyper-V в Windows Server](What-s-new-in-Hyper-V-on-Windows.md). Некоторые функции или части имеют ограничение на количество, которое можно настроить. Дополнительные сведения см. [в разделе Планирование масштабируемости Hyper-V в Windows Server 2016](plan/Plan-for-Hyper-V-scalability-in-Windows-Server-2016.md).
+Сводные сведения о функциях, появившихся в этой версии, см. в статье [новые возможности Hyper-V в Windows Server](What-s-new-in-Hyper-V-on-Windows.md). Некоторые функции или части имеют ограничение на количество, которое можно настроить. Дополнительные сведения см. [в разделе Планирование масштабируемости Hyper-V в Windows Server 2016](./plan/plan-hyper-v-scalability-in-windows-server.md).
 
 ## <a name="how-to-get-hyper-v"></a>Как получить Hyper-V
 
-Hyper-V доступен в Windows Server и Windows, как роль сервера, доступная для 64-разрядных версий Windows Server. Инструкции по серверу см. в статье [Установка роли Hyper-V в Windows Server](get-started/Install-the-Hyper-V-role-on-Windows-Server.md). В Windows она доступна в виде [функции](https://docs.microsoft.com/virtualization/hyper-v-on-windows/index) в некоторых 64-разрядных версиях Windows. Он также доступен как загружаемый, изолированный серверный продукт [Microsoft Hyper-V Server](https://www.microsoft.com/evalcenter/evaluate-hyper-v-server-2019).
+Hyper-V доступен в Windows Server и Windows, как роль сервера, доступная для 64-разрядных версий Windows Server. Инструкции по серверу см. в статье [Установка роли Hyper-V в Windows Server](get-started/Install-the-Hyper-V-role-on-Windows-Server.md). В Windows она доступна в виде [функции](/virtualization/hyper-v-on-windows/index) в некоторых 64-разрядных версиях Windows. Он также доступен как загружаемый, изолированный серверный продукт [Microsoft Hyper-V Server](https://www.microsoft.com/evalcenter/evaluate-hyper-v-server-2019).
 
 ## <a name="supported-operating-systems"></a>Поддерживаемые операционные системы
 
@@ -85,8 +85,8 @@ Hyper-V содержит необходимые части, которые ра�
 Hyper-V также имеет средства для управления и подключения. Их можно установить на том же компьютере, на котором установлена роль Hyper-V, и на компьютерах без установленной роли Hyper-V. Эти средства:
 
 - В диспетчере Hyper-V
-- [Модуль Hyper-V для Windows PowerShell](https://docs.microsoft.com/powershell/module/hyper-v/index)
-- [Подключение к](https://docs.microsoft.com/windows-server/virtualization/hyper-v/learn-more/hyper-v-virtual-machine-connect) \( виртуальной машине иногда называется VMConnect\)
+- [Модуль Hyper-V для Windows PowerShell](/powershell/module/hyper-v/index)
+- [Подключение к](./learn-more/hyper-v-virtual-machine-connect.md) \( виртуальной машине иногда называется VMConnect\)
 - [Windows PowerShell Direct](manage/Manage-Windows-virtual-machines-with-PowerShell-Direct.md)
 
 ## <a name="related-technologies"></a>Связанные технологии
@@ -94,9 +94,9 @@ Hyper-V также имеет средства для управления и п
 Это некоторые технологии корпорации Майкрософт, которые часто используются с Hyper-V:
 
 - [Отказоустойчивая кластеризация](../../failover-clustering/whats-new-in-failover-clustering.md)
-- [Службы удаленных рабочих столов](../../remote/remote-desktop-services/Host-desktops-and-apps-in-Remote-Desktop-Services.md)
-- [System Center Virtual Machine Manager](https://docs.microsoft.com/system-center/vmm/overview)
+- [Службы удаленных рабочих столов](../../remote/remote-desktop-services/welcome-to-rds.md)
+- [System Center Virtual Machine Manager](/system-center/vmm/overview)
 
 Различные технологии хранения: общие тома кластера, SMB 3,0, Локальные дисковые пространства
 
-Контейнеры Windows предлагают еще один подход к виртуализации. См. библиотеку [контейнеров Windows](https://docs.microsoft.com/virtualization/windowscontainers/index) на сайте MSDN.
+Контейнеры Windows предлагают еще один подход к виртуализации. См. библиотеку [контейнеров Windows](/virtualization/windowscontainers/index) на сайте MSDN.

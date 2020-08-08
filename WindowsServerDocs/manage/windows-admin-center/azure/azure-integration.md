@@ -6,18 +6,18 @@ author: haley-rowland
 ms.author: harowl
 ms.date: 09/19/2018
 ms.localizationpriority: medium
-ms.openlocfilehash: b56960a531c8d7d8cf42cb0462d2fe4d422dfba7
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: c0a19e9bf00667e142c3aa6585c26b69c63e2aa7
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87970901"
+ms.locfileid: "87997344"
 ---
 # <a name="configuring-azure-integration"></a>Настройка интеграции с Azure
 
 >Область применения. Windows Admin Center, ознакомительная версия Windows Admin Center
 
-Центр администрирования Windows поддерживает несколько дополнительных функций, которые интегрируются со службами Azure. [Узнайте о вариантах интеграции с Azure, доступных в центре администрирования Windows.](../plan/azure-integration-options.md)
+Центр администрирования Windows поддерживает несколько дополнительных функций, которые интегрируются со службами Azure. [Узнайте о вариантах интеграции с Azure, доступных в центре администрирования Windows.](./index.md)
 
 Чтобы разрешить шлюзу центра администрирования Windows взаимодействовать с Azure для использования проверки подлинности Azure Active Directory для доступа к шлюзу или для создания ресурсов Azure от вашего имени (например, для защиты виртуальных машин, управляемых в центре администрирования Windows с помощью Azure Site Recovery), необходимо сначала зарегистрировать шлюз центра администрирования Windows в Azure. Это необходимо сделать только один раз для шлюза центра администрирования Windows — параметр сохраняется при обновлении шлюза до более новой версии.
 

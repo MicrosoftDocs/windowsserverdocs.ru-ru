@@ -1,19 +1,17 @@
 ---
 title: Развертывание экранированных виртуальных машин
-ms.prod: windows-server
 ms.topic: article
 ms.assetid: 5d1a06c9-24e1-4e14-9c9a-efb2adbfeddd
 manager: dongill
 author: rpsqrd
 ms.author: ryanpu
-ms.technology: security-guarded-fabric
 ms.date: 08/29/2018
-ms.openlocfilehash: 78d8d76c2d8fc92e7fc5ca070d04942facd97427
-ms.sourcegitcommit: 771db070a3a924c8265944e21bf9bd85350dd93c
+ms.openlocfilehash: 0eed5d3166410cd006469eaac97ff152dfc8304e
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85475361"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87971351"
 ---
 # <a name="deploy-shielded-vms"></a>Развертывание экранированных виртуальных машин
 

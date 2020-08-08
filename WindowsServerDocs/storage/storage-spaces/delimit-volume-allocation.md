@@ -2,16 +2,15 @@
 title: Разделение размещения томов в Локальные дисковые пространства
 ms.author: cosmosdarwin
 manager: eldenc
-ms.technology: storage-spaces
 ms.topic: article
 author: cosmosdarwin
 ms.date: 03/29/2018
-ms.openlocfilehash: ccce763b437b461d33dd72cb3d656b825746e6da
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 6dac775d3e92a0f7a076800d5c07af2776720c1d
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86953847"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87960957"
 ---
 # <a name="delimit-the-allocation-of-volumes-in-storage-spaces-direct"></a>Разделение размещения томов в Локальные дисковые пространства
 > Область применения: Windows Server 2019
@@ -21,7 +20,7 @@ ms.locfileid: "86953847"
    > [!IMPORTANT]
    > Эта функция впервые реализована в Windows Server 2019. Она недоступна в Windows Server 2016.
 
-## <a name="prerequisites"></a>Обязательные условия
+## <a name="prerequisites"></a>Предварительные требования
 
 ### <a name="green-checkmark-icon-consider-using-this-option-if"></a>![Зеленый значок галочки.](media/delimit-volume-allocation/supported.png) Рекомендуется использовать этот параметр, если:
 
@@ -205,7 +204,7 @@ MyVolume                300 GB         0       100 GB  100 GB  100 GB  100 GB  0
 - [Обзор Локальные дисковые пространства](storage-spaces-direct-overview.md)
 - [Отказоустойчивость в Локальные дисковые пространства](storage-spaces-fault-tolerance.md)
 
-## <a name="appendix"></a>Приложения
+## <a name="appendix"></a>Приложение
 
 Этот сценарий поможет вам увидеть, как распределяются тома.
 

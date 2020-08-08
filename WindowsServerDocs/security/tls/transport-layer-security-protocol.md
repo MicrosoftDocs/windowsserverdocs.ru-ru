@@ -1,24 +1,22 @@
 ---
 title: Протокол TLS
 description: Безопасность Windows Server
-ms.prod: windows-server
-ms.technology: security-tls-ssl
 ms.topic: article
 ms.assetid: de510bb0-a9f6-4bbe-8f8a-8dd7473bbae8
 author: justinha
 ms.author: justinha
 manager: brianlic
 ms.date: 05/16/2018
-ms.openlocfilehash: 3884d80d1d2f5465e5f3daf708af57b35fab6bd8
-ms.sourcegitcommit: b00d7c8968c4adc8f699dbee694afe6ed36bc9de
+ms.openlocfilehash: 5641d79c40edaa17fd6c8fddc8cd80cbd30a0951
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "80853607"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87989485"
 ---
 # <a name="transport-layer-security-protocol"></a>Протокол TLS
 
->Область применения: Windows Server (Semi-Annual Channel), Windows Server 2016, Windows 10
+>Область применения. Windows Server (Semi-Annual Channel), Windows Server 2016, Windows 10
 
 В этой статье для ИТ-специалистов описывается принцип работы протокола TLS и приводятся ссылки на RFC-документы IETF по протоколу TLS 1,0, TLS 1,1 и TLS 1,2.
 
@@ -37,11 +35,11 @@ ms.locfileid: "80853607"
 **Уровни протокола TLS и SSL**
 
 
-Поставщик услуг SChannel использует протоколы TLS и SSL без изменений. Протокол SSL является частным, но в результате задача инженерного проектирования Интернета выдает общедоступные спецификации TLS. Сведения о том, какие версии TLS или SSL поддерживаются в версиях Windows, см. в разделе [протоколы в TLS/SSL (Schannel SSP)](https://msdn.microsoft.com/library/windows/desktop/mt808159(v=vs.85).aspx). В следующей таблице перечислены спецификации для каждой версии TLS. Каждая спецификация содержит следующие сведения:
+Поставщик услуг SChannel использует протоколы TLS и SSL без изменений. Протокол SSL является частным, но в результате задача инженерного проектирования Интернета выдает общедоступные спецификации TLS. Сведения о том, какие версии TLS или SSL поддерживаются в версиях Windows, см. в разделе [протоколы в TLS/SSL (Schannel SSP)](/windows/win32/secauthn/protocols-in-tls-ssl--schannel-ssp-). В следующей таблице перечислены спецификации для каждой версии TLS. Каждая спецификация содержит следующие сведения:
 
 -   Протокол записи TLS
 
--   Протоколы подтверждения TLS: \- изменение протокола шифра \- протокол предупреждений
+-   Протоколы подтверждения TLS: \- Изменение протокола оповещений протокола шифра \-
 
 -   Криптографические вычисления
 
@@ -49,11 +47,11 @@ ms.locfileid: "80853607"
 
 -   Протокол прикладных данных
 
-[RFC 5246 — протокол TLS версии 1,2](http://tools.ietf.org/html/rfc5246)
+[RFC 5246 — версия 1.2 протокола TLS.](http://tools.ietf.org/html/rfc5246)
 
-[RFC 4346 — протокол TLS версии 1,1](http://tools.ietf.org/html/rfc4346)
+[RFC 4346 — версия 1.1 протокола TLS;](http://tools.ietf.org/html/rfc4346)
 
-[RFC 2246 — протокол TLS версии 1,0](http://tools.ietf.org/html/rfc2246)
+[RFC 2246 — версия 1.0 протокола TLS;](http://tools.ietf.org/html/rfc2246)
 
 ## <a name="tls-session-resumption"></a><a name="BKMK_SessionResumption"></a>Возобновление сеанса TLS
 Представленный в Windows Server 2012 R2, поставщик общих служб SChannel реализовал серверную часть возобновления сеанса TLS. Реализация RFC 5077 на стороне клиента была добавлена в Windows 8.
@@ -71,7 +69,7 @@ ms.locfileid: "80853607"
 ## <a name="application-protocol-negotiation"></a><a name="BKMK_AppProtocolNego"></a>Согласование протокола приложения
  В Windows Server 2012 R2 и Windows 8.1 появилась поддержка, позволяющая согласование протокола приложения TLS на стороне клиента. Приложения могут использовать протоколы в рамках стандартной разработки HTTP 2,0, а пользователи могут получать доступ к веб-службы, таким как Google и Twitter, с помощью приложений, использующих протокол SPDY.
 
-Сведения о том, как работает согласование протокола приложения, см. в разделе [транспортное расширение протокола прикладного уровня (TLS)](http://tools.ietf.org/search/draft-ietf-tls-applayerprotoneg-05).
+Сведения о том, как работает согласование протокола приложений, см. в разделе [Расширение согласования протокола прикладного уровня TLS](http://tools.ietf.org/search/draft-ietf-tls-applayerprotoneg-05).
 
 ## <a name="tls-support-for-server-name-indication-extensions"></a><a name="BKMK_SNI"></a>Поддержка TLS для расширений указание имени сервера
 Компонент указания имени сервера (SNI) расширяет возможности протоколов SSL и TLS для правильной идентификации сервера в случае, когда на одном сервере запущено несколько виртуальных образов. В сценарии размещения виртуальной среды несколько доменов (каждый с собственным потенциально отличающимся сертификатом) размещаются на одном сервере. В этом случае сервер не может заранее узнать, какой сертификат следует отправить клиенту. SNI позволяет клиенту сообщать целевой домен ранее по протоколу, что позволяет серверу правильно выбирать нужный сертификат.
@@ -83,6 +81,3 @@ ms.locfileid: "80853607"
 -   Сниженное использование памяти при размещении нескольких веб-сайтов, работающих по протоколу SSL, на единственном веб-сервере.
 
 -   Позволяет большему пользователю одновременно подключаться к веб-сайтам SSL
-
-
-

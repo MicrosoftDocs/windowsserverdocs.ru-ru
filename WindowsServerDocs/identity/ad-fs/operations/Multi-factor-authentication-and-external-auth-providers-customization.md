@@ -5,15 +5,13 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.prod: windows-server
 ms.assetid: 08724d45-9be4-4c56-a5f1-2cf40864e136
-ms.technology: identity-adfs
-ms.openlocfilehash: c4c775ac330c1a5f81bf97f1f6aa29204efbf75c
-ms.sourcegitcommit: 3632b72f63fe4e70eea6c2e97f17d54cb49566fd
+ms.openlocfilehash: 47a03b43d8ac1a52453741974d4243f8aafc391c
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87519733"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87949788"
 ---
 # <a name="multi-factor-authentication-and-external-authentication-providers-customization"></a>Настройка многофакторной идентификации и внешних поставщиков проверки подлинности
 
@@ -47,5 +45,5 @@ Export-AdfsWebTheme -Name default -DirectoryPath C:\theme
 
 Дополнительные сведения см. в разделе [руководство по решению: управление рисками с помощью \- многофакторного управления доступом](./manage-risk-with-conditional-access-control.md) и [решения: управление рисками с помощью дополнительной \- многофакторной проверки подлинности для конфиденциальных приложений](https://tnstage.redmond.corp.microsoft.com/library/dn280949.aspx).
 
-## <a name="additional-references"></a>Дополнительные ссылки
+## <a name="additional-references"></a>Дополнительная справка
 [AD FS настройки входа пользователя](AD-FS-user-sign-in-customization.md)

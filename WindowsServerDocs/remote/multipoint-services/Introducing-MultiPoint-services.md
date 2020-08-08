@@ -7,12 +7,12 @@ ms.assetid: 1cbef744-4661-4ba9-9e2b-0bbd8854fd5c
 author: evaseydl
 manager: scottman
 ms.author: evas
-ms.openlocfilehash: c1f317909b05c421058041bcd2546c4cc0e704bb
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 663b3d4afade9b4fb459f34120d1e6b18984285a
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87970641"
+ms.locfileid: "87997432"
 ---
 # <a name="introducing-multipoint-services"></a>Основные сведения о службах MultiPoint
 Роль служб MultiPoint в Windows Server 2016 позволяет нескольким пользователям с собственными независимыми и привычными возможностями Windows совместно использовать один компьютер. Существует несколько способов доступа пользователей к своим сеансам. Один из способов — удаленное взаимодействие с сервером с помощью [приложений удаленного рабочего стола](../remote-desktop-services/clients/remote-desktop-clients.md) с любым устройством. Другой способ — благодаря физическим станциям, подключенным к серверу MultiPoint:
@@ -29,9 +29,9 @@ ms.locfileid: "87970641"
 
 -   Какие типы настольных компьютеров будут использоваться в системе служб MultiPoint: требуются ли сеансы, виртуальные машины или компьютеры Windows?
 
--   [Выбор оборудования для системы служб MultiPoint](Selecting-Hardware-for-Your-MultiPoint-services-System.md): какие решения должно быть принято?
+-   [Выбор оборудования для системы служб MultiPoint](./select-hardware-mps.md): какие решения должно быть принято?
 
--   [Требования к оборудованию и рекомендации по производительности](Hardware-Requirements-and-Performance-Recommendations.md): какое оборудование требуется для служб MultiPoint?
+-   [Требования к оборудованию и рекомендации по производительности](./hardware-and-performance-recommendations.md): какое оборудование требуется для служб MultiPoint?
 
 -   [Планирование сайтов служб MultiPoint](MultiPoint-services-Site-Planning.md). где будут размещаться компьютеры, на которых работают службы MultiPoint и их станции, и как они будут настроены?
 

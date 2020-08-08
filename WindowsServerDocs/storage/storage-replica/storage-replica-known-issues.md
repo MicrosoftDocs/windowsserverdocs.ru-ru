@@ -1,19 +1,17 @@
 ---
 title: Известные проблемы с репликой хранилища
-ms.prod: windows-server
 manager: siroy
 ms.author: nedpyle
-ms.technology: storage-replica
 ms.topic: get-started-article
 author: nedpyle
 ms.date: 06/25/2019
 ms.assetid: ceddb0fa-e800-42b6-b4c6-c06eb1d4bc55
-ms.openlocfilehash: 665d137673c3229f2b06283965c085ae25a2287c
-ms.sourcegitcommit: acfdb7b2ad283d74f526972b47c371de903d2a3d
+ms.openlocfilehash: ed566e5db46cb147925799b055e8bde8ead57b25
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "87769622"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87961178"
 ---
 # <a name="known-issues-with-storage-replica"></a>Известные проблемы с репликой хранилища
 
@@ -257,7 +255,7 @@ Get-ClusterAvailableDisk -All | Add-ClusterDisk
 
 ## <a name="the-smb-bandwidth-limiter-fails-to-throttle-storage-replica-bandwidth"></a>Механизму ограничения пропускной способности в протоколе SMB не удается регулировать пропускную способность реплики хранилища
 
-При указании ограничение пропускной способности реплики хранилища оно игнорируется, и используется полная пропускная способность. Пример:
+При указании ограничение пропускной способности реплики хранилища оно игнорируется, и используется полная пропускная способность. Например:
 
 ```
 Set-SmbBandwidthLimit  -Category StorageReplication -BytesPerSecond 32MB
@@ -267,7 +265,7 @@ Set-SmbBandwidthLimit  -Category StorageReplication -BytesPerSecond 32MB
 
 ## <a name="event-1241-warning-repeated-during-initial-sync"></a>Предупреждение о событии 1241 повторяется во время исходной синхронизации
 
-Хотя партнерство репликации указывается асинхронно, на исходном компьютере несколько раз регистрируется предупреждение (событие 1241) в канале администратора реплики хранилища. Пример:
+Хотя партнерство репликации указывается асинхронно, на исходном компьютере несколько раз регистрируется предупреждение (событие 1241) в канале администратора реплики хранилища. Например:
 
 ```
 Log Name:      Microsoft-Windows-StorageReplica/Admin
@@ -334,7 +332,7 @@ Guidance: Possible causes include network failures, share creation failures for 
 
 ## <a name="error-failed-to-bring-the-resource-cluster-disk-x-online-with-a-stretch-cluster"></a>Ошибка «Не удалось подключить ресурс "Диск кластера x" к сети». для растянутого кластера
 
-При подключении диска кластера после успешной отработки отказа, когда вы пытаетесь снова сделать исходный сайт основным, возникает ошибка диспетчера отказоустойчивого кластера. Пример:
+При подключении диска кластера после успешной отработки отказа, когда вы пытаетесь снова сделать исходный сайт основным, возникает ошибка диспетчера отказоустойчивого кластера. Например:
 
 ```
 Error
@@ -345,7 +343,7 @@ Error Code: 0x80071397
 The operation failed because either the specified cluster node is not the owner of the resource, or the node is not a possible owner of the resource.
 ```
 
-Если вы попытаетесь переместить диск или CSV вручную, возникает другая ошибка. Пример:
+Если вы попытаетесь переместить диск или CSV вручную, возникает другая ошибка. Например:
 
 ```
 Error

@@ -7,12 +7,12 @@ author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/12/2016
-ms.openlocfilehash: 86d65aac95dcb5fb33f650ae5e03f943b78f78f5
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 87f8aefb2645fa13ba1c9ac98e7970fc908e7bed
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/07/2020
-ms.locfileid: "87971501"
+ms.locfileid: "87997061"
 ---
 # <a name="overview-of-active-directory-domain-services"></a>Общие сведения о службах домен Active Directory
 
@@ -22,7 +22,7 @@ ms.locfileid: "87971501"
 
 Active Directory хранит сведения об объектах в сети и предоставляет эту информацию администраторам и пользователям, которые могут легко найти и использовать ее. Active Directory использует структурированное хранилище данных в качестве основы для логической иерархической организации сведений в каталоге.
 
-Это хранилище данных, также называемое каталогом, содержит сведения об Active Directoryных объектах. Обычно эти объекты включают в себя общие ресурсы, такие как серверы, тома, принтеры, учетные записи пользователей и компьютеров сети. Дополнительные сведения о Active Directory хранилище данных см. в разделе [хранилище данных каталога](https://technet.microsoft.com/library/cc736627(v=ws.10).aspx).
+Это хранилище данных, также называемое каталогом, содержит сведения об Active Directoryных объектах. Обычно эти объекты включают в себя общие ресурсы, такие как серверы, тома, принтеры, учетные записи пользователей и компьютеров сети. Дополнительные сведения о Active Directory хранилище данных см. в разделе [хранилище данных каталога](/previous-versions/windows/it-pro/windows-server-2003/cc736627(v=ws.10)).
 
 Безопасность интегрирована с Active Directory путем проверки подлинности входа и управления доступом к объектам в каталоге. С одним сетевым входом администраторы могут управлять данными каталога и Организацией по всей сети, а полномочные пользователи сети могут получать доступ к ресурсам в любой точке сети. Администрирование на основе политики облегчает управление даже очень сложной сетью. Дополнительные сведения о Active Directory безопасности см. в разделе Общие сведения о безопасности.
 
@@ -41,14 +41,13 @@ Active Directory также включает:
 ## <a name="understanding-active-directory"></a>Основные сведения о Active Directory
  В этом разделе приводятся ссылки на основные понятия Active Directory:
 
-* [Технологии структуры и хранения Active Directory](https://technet.microsoft.com/library/cc759186(v=ws.10).aspx)
-* [Роли контроллера доменов](https://technet.microsoft.com/library/cc786438(v=ws.10).aspx)
+* [Технологии структуры и хранения Active Directory](/previous-versions/windows/it-pro/windows-server-2003/cc759186(v=ws.10))
+* [Роли контроллера доменов](/previous-versions/windows/it-pro/windows-server-2003/cc786438(v=ws.10))
 * Схема Active Directory
-* [Представление о довериях](https://technet.microsoft.com/library/cc771294(v=ws.10).aspx)
-* [Технологии репликации Active Directory](https://technet.microsoft.com/library/cc786438(v=ws.10).aspx)
-* [Технологии поиска и публикации Active Directory](https://technet.microsoft.com/library/cc775686(v=ws.10).aspx)
+* [Представление о довериях](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc771294(v=ws.10))
+* [Технологии репликации Active Directory](/previous-versions/windows/it-pro/windows-server-2003/cc786438(v=ws.10))
+* [Технологии поиска и публикации Active Directory](/previous-versions/windows/it-pro/windows-server-2003/cc775686(v=ws.10))
 * Взаимодействие с DNS и групповая политика
-* [Основные сведения о схеме](https://technet.microsoft.com/library/cc759402(v=ws.10).aspx)
+* [Основные сведения о схеме](/previous-versions/windows/it-pro/windows-server-2003/cc759402(v=ws.10))
 
-Подробный список концепций Active Directory см. в разделе [Общие сведения о Active Directory](https://technet.microsoft.com/library/cc781408(v=ws.10).aspx).
-
+Подробный список концепций Active Directory см. в разделе [Общие сведения о Active Directory](/previous-versions/windows/it-pro/windows-server-2003/cc781408(v=ws.10)).

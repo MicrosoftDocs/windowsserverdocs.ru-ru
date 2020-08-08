@@ -6,14 +6,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.prod: windows-server
-ms.technology: identity-adfs
-ms.openlocfilehash: b97a9cb50743972a85826d10aba89f9e6fffb5a6
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: b38f61dc5b505ac135b0f6ac5f67544b4897252e
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86954466"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87949848"
 ---
 # <a name="managing-ssltls-protocols-and-cipher-suites-for-ad-fs"></a>Управление протоколами SSL/TLS и комплектами шифров для AD FS
 В следующей документации содержатся сведения о том, как отключить и включить определенные протоколы TLS/SSL и комплекты шифров, используемые AD FS
@@ -34,10 +32,10 @@ AD FS использует Schannel.dll для выполнения взаимо
 
 ## <a name="managing-the-tlsssl-protocols-and-cipher-suites"></a>Управление протоколами TLS и SSL, а также комплектами шифров
 > [!IMPORTANT]
-> В этом разделе содержатся инструкции по изменению реестра. При неправильном изменении реестра могут возникнуть серьезные проблемы. Поэтому будьте внимательны и в точности следуйте инструкциям. 
-> 
+> В этом разделе содержатся инструкции по изменению реестра. При неправильном изменении реестра могут возникнуть серьезные проблемы. Поэтому будьте внимательны и в точности следуйте инструкциям.
+>
 > Имейте в виду, что изменение параметров безопасности по умолчанию для канала SCHANNEL может привести к нарушению или предотвращению обмена данными между определенными клиентами и серверами.  Это происходит, если требуется безопасная связь и у них нет протокола для согласования связи с.
-> 
+>
 > При применении этих изменений они должны быть применены ко всем AD FSным серверам в ферме.  После применения этих изменений требуется перезагрузка.
 
 В сегодняшний день и возраст, усиление защиты серверов и удаление старых или слабых комплектов шифров становится основным приоритетом для многих организаций.  Доступны пакеты программного обеспечения, которые проверяют серверы и предоставляют подробные сведения об этих протоколах и наборах.  Чтобы сохранить соответствие требованиям или обеспечить безопасность, удаление или отключение более слабых протоколов или наборов шифров стало необходимостью.  В оставшейся части этого документа содержатся инструкции по включению и отключению определенных протоколов и комплектов шифров.
@@ -53,11 +51,11 @@ AD FS использует Schannel.dll для выполнения взаимо
 - [HKEY_LOCAL_MACHINE \Систем\куррентконтролсет\контрол\секуритипровидерс\счаннел\протоколс\ссл 2.0 \ Server] "Enabled" = DWORD: 00000001
 - [HKEY_LOCAL_MACHINE \Систем\куррентконтролсет\контрол\секуритипровидерс\счаннел\протоколс\ссл 2.0 \ Server] "DisabledByDefault" = DWORD: 00000000
 - [HKEY_LOCAL_MACHINE \Систем\куррентконтролсет\контрол\секуритипровидерс\счаннел\протоколс\ссл 2.0 \ клиент] "Enabled" = DWORD: 00000001
-- [HKEY_LOCAL_MACHINE \Систем\куррентконтролсет\контрол\секуритипровидерс\счаннел\протоколс\ссл 2.0 \ клиент] "DisabledByDefault" = DWORD: 00000000 
+- [HKEY_LOCAL_MACHINE \Систем\куррентконтролсет\контрол\секуритипровидерс\счаннел\протоколс\ссл 2.0 \ клиент] "DisabledByDefault" = DWORD: 00000000
 
 ### <a name="disable-ssl-20"></a>Отключение SSL 2,0
 - [HKEY_LOCAL_MACHINE \Систем\куррентконтролсет\контрол\секуритипровидерс\счаннел\протоколс\ссл 2.0 \ Server] "Enabled" = DWORD: 00000000
-- [HKEY_LOCAL_MACHINE \Систем\куррентконтролсет\контрол\секуритипровидерс\счаннел\протоколс\ссл 2.0 \ Server] "DisabledByDefault" = DWORD: 00000001 
+- [HKEY_LOCAL_MACHINE \Систем\куррентконтролсет\контрол\секуритипровидерс\счаннел\протоколс\ссл 2.0 \ Server] "DisabledByDefault" = DWORD: 00000001
 - [HKEY_LOCAL_MACHINE \Систем\куррентконтролсет\контрол\секуритипровидерс\счаннел\протоколс\ссл 2.0 \ клиент] "Enabled" = DWORD: 00000000
 - [HKEY_LOCAL_MACHINE \Систем\куррентконтролсет\контрол\секуритипровидерс\счаннел\протоколс\ссл 2.0 \ клиент] "DisabledByDefault" = DWORD: 00000001
 
@@ -65,15 +63,15 @@ AD FS использует Schannel.dll для выполнения взаимо
 
 ``` powershell
 New-Item 'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 2.0\Server' -Force | Out-Null
-    
+
 New-ItemProperty -path 'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 2.0\Server' -name 'Enabled' -value '0' -PropertyType 'DWord' -Force | Out-Null
-            
+
 New-ItemProperty -path 'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 2.0\Server' -name 'DisabledByDefault' -value 1 -PropertyType 'DWord' -Force | Out-Null
-            
+
 New-Item 'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 2.0\Client' -Force | Out-Null
-            
+
 New-ItemProperty -path 'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 2.0\Client' -name 'Enabled' -value '0' -PropertyType 'DWord' -Force | Out-Null
-            
+
 New-ItemProperty -path 'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 2.0\Client' -name 'DisabledByDefault' -value 1 -PropertyType 'DWord' -Force | Out-Null
 Write-Host 'SSL 2.0 has been disabled.'
 ```
@@ -83,29 +81,29 @@ Write-Host 'SSL 2.0 has been disabled.'
 
 ### <a name="enable-ssl-30"></a>Включение SSL 3.0
 - [HKEY_LOCAL_MACHINE \Систем\куррентконтролсет\контрол\секуритипровидерс\счаннел\протоколс\ссл 3.0 \ сервер] "Enabled" = DWORD: 00000001
-- [HKEY_LOCAL_MACHINE \Систем\куррентконтролсет\контрол\секуритипровидерс\счаннел\протоколс\ссл 3.0 \ сервер] "DisabledByDefault" = DWORD: 00000000 
+- [HKEY_LOCAL_MACHINE \Систем\куррентконтролсет\контрол\секуритипровидерс\счаннел\протоколс\ссл 3.0 \ сервер] "DisabledByDefault" = DWORD: 00000000
 - [HKEY_LOCAL_MACHINE \Систем\куррентконтролсет\контрол\секуритипровидерс\счаннел\протоколс\ссл 3.0 \ клиент] "Enabled" = DWORD: 00000001
-- [HKEY_LOCAL_MACHINE \Систем\куррентконтролсет\контрол\секуритипровидерс\счаннел\протоколс\ссл 3.0 \ клиент] "DisabledByDefault" = DWORD: 00000000 
+- [HKEY_LOCAL_MACHINE \Систем\куррентконтролсет\контрол\секуритипровидерс\счаннел\протоколс\ссл 3.0 \ клиент] "DisabledByDefault" = DWORD: 00000000
 
 ### <a name="disable-ssl-30"></a>Отключение SSL 3.0
 - [HKEY_LOCAL_MACHINE \Систем\куррентконтролсет\контрол\секуритипровидерс\счаннел\протоколс\ссл 3.0 \ сервер] "Enabled" = DWORD: 00000000
 - [HKEY_LOCAL_MACHINE \Систем\куррентконтролсет\контрол\секуритипровидерс\счаннел\протоколс\ссл 3.0 \ сервер] "DisabledByDefault" = DWORD: 00000001
 - [HKEY_LOCAL_MACHINE \Систем\куррентконтролсет\контрол\секуритипровидерс\счаннел\протоколс\ссл 3.0 \ клиент] "Enabled" = DWORD: 00000000
-- [HKEY_LOCAL_MACHINE \Систем\куррентконтролсет\контрол\секуритипровидерс\счаннел\протоколс\ссл 3.0 \ клиент] "DisabledByDefault" = DWORD: 00000001 
+- [HKEY_LOCAL_MACHINE \Систем\куррентконтролсет\контрол\секуритипровидерс\счаннел\протоколс\ссл 3.0 \ клиент] "DisabledByDefault" = DWORD: 00000001
 
 ### <a name="using-powershell-to-disable-ssl-30"></a>Отключение SSL 3,0 с помощью PowerShell
 
 ```powershell
     New-Item 'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 3.0\Server' -Force | Out-Null
-    
+
     New-ItemProperty -path 'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 3.0\Server' -name 'Enabled' -value '0' -PropertyType 'DWord' -Force | Out-Null
-    
+
     New-ItemProperty -path 'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 3.0\Server' -name 'DisabledByDefault' -value 1 -PropertyType 'DWord' -Force | Out-Null
-    
+
     New-Item 'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 3.0\Client' -Force | Out-Null
-    
+
     New-ItemProperty -path 'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 3.0\Client' -name 'Enabled' -value '0' -PropertyType 'DWord' -Force | Out-Null
-    
+
     New-ItemProperty -path 'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 3.0\Client' -name 'DisabledByDefault' -value 1 -PropertyType 'DWord' -Force | Out-Null
     Write-Host 'SSL 3.0 has been disabled.'
 ```
@@ -114,35 +112,35 @@ Write-Host 'SSL 2.0 has been disabled.'
 Используйте следующие разделы реестра и их значения для включения и отключения TLS 1,0.
 
 > [!IMPORTANT]
-> Отключение TLS 1,0 приведет к разрыву WAP для AD FS доверия.  При отключении TLS 1,0 необходимо включить строгую проверку подлинности для приложений.  См. раздел [Включение строгой проверки подлинности](#enabling-strong-authentication-for-net-applications) 
+> Отключение TLS 1,0 приведет к разрыву WAP для AD FS доверия.  При отключении TLS 1,0 необходимо включить строгую проверку подлинности для приложений.  См. раздел [Включение строгой проверки подлинности](#enabling-strong-authentication-for-net-applications)
 
 
 
 ### <a name="enable-tls-10"></a>Включение TLS 1,0
 - [HKEY_LOCAL_MACHINE \Систем\куррентконтролсет\контрол\секуритипровидерс\счаннел\протоколс\тлс 1.0 \ Server] "Enabled" = DWORD: 00000001
-- [HKEY_LOCAL_MACHINE \Систем\куррентконтролсет\контрол\секуритипровидерс\счаннел\протоколс\тлс 1.0 \ Server] "DisabledByDefault" = DWORD: 00000000 
+- [HKEY_LOCAL_MACHINE \Систем\куррентконтролсет\контрол\секуритипровидерс\счаннел\протоколс\тлс 1.0 \ Server] "DisabledByDefault" = DWORD: 00000000
 - [HKEY_LOCAL_MACHINE \Систем\куррентконтролсет\контрол\секуритипровидерс\счаннел\протоколс\тлс 1.0 \ клиент] "Enabled" = DWORD: 00000001
-- [HKEY_LOCAL_MACHINE \Систем\куррентконтролсет\контрол\секуритипровидерс\счаннел\протоколс\тлс 1.0 \ клиент] "DisabledByDefault" = DWORD: 00000000 
+- [HKEY_LOCAL_MACHINE \Систем\куррентконтролсет\контрол\секуритипровидерс\счаннел\протоколс\тлс 1.0 \ клиент] "DisabledByDefault" = DWORD: 00000000
 
 ### <a name="disable-tls-10"></a>Отключение TLS 1.0
 - [HKEY_LOCAL_MACHINE \Систем\куррентконтролсет\контрол\секуритипровидерс\счаннел\протоколс\тлс 1.0 \ Server] "Enabled" = DWORD: 00000000
 - [HKEY_LOCAL_MACHINE \Систем\куррентконтролсет\контрол\секуритипровидерс\счаннел\протоколс\тлс 1.0 \ Server] "DisabledByDefault" = DWORD: 00000001
 - [HKEY_LOCAL_MACHINE \Систем\куррентконтролсет\контрол\секуритипровидерс\счаннел\протоколс\тлс 1.0 \ клиент] "Enabled" = DWORD: 00000000
-- [HKEY_LOCAL_MACHINE \Систем\куррентконтролсет\контрол\секуритипровидерс\счаннел\протоколс\тлс 1.0 \ клиент] "DisabledByDefault" = DWORD: 00000001 
+- [HKEY_LOCAL_MACHINE \Систем\куррентконтролсет\контрол\секуритипровидерс\счаннел\протоколс\тлс 1.0 \ клиент] "DisabledByDefault" = DWORD: 00000001
 
 ### <a name="using-powershell-to-disable-tls-10"></a>Отключение TLS 1,0 с помощью PowerShell
 
 ```powershell
     New-Item 'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0\Server' -Force | Out-Null
-    
+
     New-ItemProperty -path 'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0\Server' -name 'Enabled' -value '0' -PropertyType 'DWord' -Force | Out-Null
-    
+
     New-ItemProperty -path 'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0\Server' -name 'DisabledByDefault' -value 1 -PropertyType 'DWord' -Force | Out-Null
-    
+
     New-Item 'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0\Client' -Force | Out-Null
-    
+
     New-ItemProperty -path 'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0\Client' -name 'Enabled' -value '0' -PropertyType 'DWord' -Force | Out-Null
-    
+
     New-ItemProperty -path 'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0\Client' -name 'DisabledByDefault' -value 1 -PropertyType 'DWord' -Force | Out-Null
     Write-Host 'TLS 1.0 has been disabled.'
 ```
@@ -161,21 +159,21 @@ Write-Host 'SSL 2.0 has been disabled.'
 - [HKEY_LOCAL_MACHINE \Систем\куррентконтролсет\контрол\секуритипровидерс\счаннел\протоколс\тлс 1.1 \ Server] "Enabled" = DWORD: 00000000
 - [HKEY_LOCAL_MACHINE \Систем\куррентконтролсет\контрол\секуритипровидерс\счаннел\протоколс\тлс 1.1 \ Server] "DisabledByDefault" = DWORD: 00000001
 - [HKEY_LOCAL_MACHINE \Систем\куррентконтролсет\контрол\секуритипровидерс\счаннел\протоколс\тлс 1.1 \ клиент] "Enabled" = DWORD: 00000000
-- [HKEY_LOCAL_MACHINE \Систем\куррентконтролсет\контрол\секуритипровидерс\счаннел\протоколс\тлс 1.1 \ клиент] "DisabledByDefault" = DWORD: 00000001 
+- [HKEY_LOCAL_MACHINE \Систем\куррентконтролсет\контрол\секуритипровидерс\счаннел\протоколс\тлс 1.1 \ клиент] "DisabledByDefault" = DWORD: 00000001
 
 ### <a name="using-powershell-to-disable-tls-11"></a>Отключение TLS 1,1 с помощью PowerShell
 
 ``` powershell
     New-Item 'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1\Server' -Force | Out-Null
-    
+
     New-ItemProperty -path 'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1\Server' -name 'Enabled' -value '0' -PropertyType 'DWord' -Force | Out-Null
-    
+
     New-ItemProperty -path 'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1\Server' -name 'DisabledByDefault' -value 1 -PropertyType 'DWord' -Force | Out-Null
-    
+
     New-Item 'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1\Client' -Force | Out-Null
-    
+
     New-ItemProperty -path 'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1\Client' -name 'Enabled' -value '0' -PropertyType 'DWord' -Force | Out-Null
-    
+
     New-ItemProperty -path 'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1\Client' -name 'DisabledByDefault' -value 1 -PropertyType 'DWord' -Force | Out-Null
     Write-Host 'TLS 1.1 has been disabled.'
 ```
@@ -186,7 +184,7 @@ Write-Host 'SSL 2.0 has been disabled.'
 
 ### <a name="enable-tls-12"></a>Включите протокол TLS 1.2.
 - [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2\Server] "Enabled"=dword:00000001
-- [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2\Server] "DisabledByDefault"=dword:00000000 
+- [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2\Server] "DisabledByDefault"=dword:00000000
 - [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2\Client] "Enabled"=dword:00000001
 - [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2\Client] "DisabledByDefault"=dword:00000000
 
@@ -200,20 +198,20 @@ Write-Host 'SSL 2.0 has been disabled.'
 
 ```powershell
     New-Item 'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2\Server' -Force | Out-Null
-    
+
     New-ItemProperty -path 'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2\Server' -name 'Enabled' -value '0' -PropertyType 'DWord' -Force | Out-Null
-    
+
     New-ItemProperty -path 'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2\Server' -name 'DisabledByDefault' -value 1 -PropertyType 'DWord' -Force | Out-Null
-    
+
     New-Item 'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2\Client' -Force | Out-Null
-    
+
     New-ItemProperty -path 'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2\Client' -name 'Enabled' -value '0' -PropertyType 'DWord' -Force | Out-Null
-    
+
     New-ItemProperty -path 'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2\Client' -name 'DisabledByDefault' -value 1 -PropertyType 'DWord' -Force | Out-Null
     Write-Host 'TLS 1.2 has been disabled.'
 ```
 
-## <a name="enable-and-disable-rc4"></a>Включение и отключение RC4 
+## <a name="enable-and-disable-rc4"></a>Включение и отключение RC4
 
 Используйте следующие разделы реестра и их значения для включения и отключения RC4.  Разделы реестра для этого набора шифров находятся здесь:
 
@@ -227,30 +225,30 @@ Write-Host 'SSL 2.0 has been disabled.'
 
 - [HKEY_LOCAL_MACHINE \SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Ciphers\RC4 128/128] "Enabled" = DWORD: 00000001
 - [HKEY_LOCAL_MACHINE \SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Ciphers\RC4 40/128] "Enabled" = DWORD: 00000001
-- [HKEY_LOCAL_MACHINE \SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Ciphers\RC4 56/128] "Enabled" = DWORD: 00000001 
+- [HKEY_LOCAL_MACHINE \SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Ciphers\RC4 56/128] "Enabled" = DWORD: 00000001
 
 ### <a name="disable-rc4"></a>Отключение версии-кандидата 4
 
 - [HKEY_LOCAL_MACHINE \SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Ciphers\RC4 128/128] "Enabled" = DWORD: 00000000
 - [HKEY_LOCAL_MACHINE \SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Ciphers\RC4 40/128] "Enabled" = DWORD: 00000000
-- [HKEY_LOCAL_MACHINE \SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Ciphers\RC4 56/128] "Enabled" = DWORD: 00000000 
+- [HKEY_LOCAL_MACHINE \SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Ciphers\RC4 56/128] "Enabled" = DWORD: 00000000
 
 ### <a name="using-powershell"></a>Использование PowerShell
 
 ```powershell
-    ([Microsoft.Win32.RegistryKey]::OpenRemoteBaseKey([Microsoft.Win32.RegistryHive]::LocalMachine,$env:COMPUTERNAME)).CreateSubKey('SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Ciphers\RC4 128/128') 
+    ([Microsoft.Win32.RegistryKey]::OpenRemoteBaseKey([Microsoft.Win32.RegistryHive]::LocalMachine,$env:COMPUTERNAME)).CreateSubKey('SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Ciphers\RC4 128/128')
     New-ItemProperty -path 'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Ciphers\RC4 128/128' -name 'Enabled' -value '0' -PropertyType 'DWord' -Force | Out-Null
-    
-    ([Microsoft.Win32.RegistryKey]::OpenRemoteBaseKey([Microsoft.Win32.RegistryHive]::LocalMachine,$env:COMPUTERNAME)).CreateSubKey('SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Ciphers\RC4 40/128') 
+
+    ([Microsoft.Win32.RegistryKey]::OpenRemoteBaseKey([Microsoft.Win32.RegistryHive]::LocalMachine,$env:COMPUTERNAME)).CreateSubKey('SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Ciphers\RC4 40/128')
     New-ItemProperty -path 'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Ciphers\RC4 40/128' -name 'Enabled' -value '0' -PropertyType 'DWord' -Force | Out-Null
-    
-    ([Microsoft.Win32.RegistryKey]::OpenRemoteBaseKey([Microsoft.Win32.RegistryHive]::LocalMachine,$env:COMPUTERNAME)).CreateSubKey('SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Ciphers\RC4 56/128') 
+
+    ([Microsoft.Win32.RegistryKey]::OpenRemoteBaseKey([Microsoft.Win32.RegistryHive]::LocalMachine,$env:COMPUTERNAME)).CreateSubKey('SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Ciphers\RC4 56/128')
     New-ItemProperty -path 'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Ciphers\RC4 56/128' -name 'Enabled' -value '0' -PropertyType 'DWord' -Force | Out-Null
 ```
 
 ## <a name="enabling-or-disabling-additional-cipher-suites"></a>Включение или отключение дополнительных комплектов шифров
 
-Некоторые определенные шифры можно отключить, удалив их из HKEY_LOCAL_MACHINE \SYSTEM\CurrentControlSet\Control\Cryptography\Configuration\Local\SSL\00010002 
+Некоторые определенные шифры можно отключить, удалив их из HKEY_LOCAL_MACHINE \SYSTEM\CurrentControlSet\Control\Cryptography\Configuration\Local\SSL\00010002
 
 ![Раздел реестра](media/Managing-SSL-Protocols-in-AD-FS/suites.png)
 
@@ -274,7 +272,7 @@ Write-Host 'SSL 2.0 has been disabled.'
 ![Строгая проверка подлинности](media/Managing-SSL-Protocols-in-AD-FS/strongauth.png)
 
 ```powershell
-    
+
     New-ItemProperty -path 'HKLM:\SOFTWARE\Microsoft\.NetFramework\v4.0.30319' -name 'SchUseStrongCrypto' -value '1' -PropertyType 'DWord' -Force | Out-Null
 ```
 

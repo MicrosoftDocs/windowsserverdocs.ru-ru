@@ -1,21 +1,19 @@
 ---
 ms.assetid: 898d72f1-01e7-4b87-8eb3-a8e0e2e6e6da
 title: Добавление серверов или дисков в локальные дисковые пространства
-ms.prod: windows-server
 ms.author: cosdar
 manager: dongill
-ms.technology: storage-spaces
 ms.topic: article
 author: cosmosdarwin
 ms.date: 11/06/2017
 description: Добавление серверов или дисков в кластер Локальные дисковые пространства
 ms.localizationpriority: medium
-ms.openlocfilehash: 773bb3a55de27d049d26fa76659d3a4d8057f0fe
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: b9a26d3ac982cccf4471f3a3e03bfdae55b55eed
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86966396"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87961068"
 ---
 # <a name="adding-servers-or-drives-to-storage-spaces-direct"></a>Добавление серверов или дисков в локальные дисковые пространства
 
@@ -45,7 +43,7 @@ ms.locfileid: "86966396"
 2. Чтобы завершить добавление сервера, выполните следующую команду в кластере:
 
 ```
-Add-ClusterNode -Name NewNode 
+Add-ClusterNode -Name NewNode
 ```
 
    >[!NOTE]
@@ -59,7 +57,7 @@ Add-ClusterNode -Name NewNode
 
 Двусторонние зеркальные тома невозможно обновить на месте до трехстороннего зеркального отображения. Вместо этого вы можете создать новый том и перенести (скопировать, например с помощью [реплики хранения](../storage-replica/server-to-server-storage-replication.md)) в него свои данные, а затем удалить старый том.
 
-Приступить к созданию томов с трехсторонним зеркалированием можно несколькими способами. Вы можете использовать любой из них по своему усмотрению. 
+Приступить к созданию томов с трехсторонним зеркалированием можно несколькими способами. Вы можете использовать любой из них по своему усмотрению.
 
 #### <a name="option-1"></a>Вариант 1
 
@@ -84,7 +82,7 @@ New-Volume -FriendlyName <Name> -FileSystem CSVFS_ReFS -StoragePoolFriendlyName 
 Задайте значение **PhysicalDiskRedundancy= 2** для шаблона **StorageTier** под названием *Capacity*, а затем создайте тома, указав уровень.
 
 ```PowerShell
-Set-StorageTier -FriendlyName Capacity -PhysicalDiskRedundancy 2 
+Set-StorageTier -FriendlyName Capacity -PhysicalDiskRedundancy 2
 
 New-Volume -FriendlyName <Name> -FileSystem CSVFS_ReFS -StoragePoolFriendlyName S2D* -StorageTierFriendlyNames Capacity -StorageTierSizes <Size>
 ```
@@ -135,7 +133,7 @@ New-StorageTier -StoragePoolFriendlyName S2D* -MediaType HDD -PhysicalDiskRedund
 #### <a name="example"></a>Пример
 
 ```PowerShell
-New-Volume -FriendlyName "Sir-Mix-A-Lot" -FileSystem CSVFS_ReFS -StoragePoolFriendlyName S2D* -StorageTierFriendlyNames Performance, Capacity -StorageTierSizes <Size, Size> 
+New-Volume -FriendlyName "Sir-Mix-A-Lot" -FileSystem CSVFS_ReFS -StoragePoolFriendlyName S2D* -StorageTierFriendlyNames Performance, Capacity -StorageTierSizes <Size, Size>
 ```
 
 ### <a name="beyond-4-servers-greater-parity-efficiency"></a>Больше четырех серверов: повышение эффективности контроля четности
@@ -153,13 +151,13 @@ New-Volume -FriendlyName "Sir-Mix-A-Lot" -FileSystem CSVFS_ReFS -StoragePoolFrie
 1. Создайте временный домен сбоя для узла, открыв сеанс PowerShell с повышенными привилегиями, а затем используя следующую команду, где *\<NewNode>* — это имя нового узла кластера:
 
    ```PowerShell
-   New-ClusterFaultDomain -Type Node -Name <NewNode> 
+   New-ClusterFaultDomain -Type Node -Name <NewNode>
    ```
 
 2. Переместите этот временный домен сбоя в корпус или стойку, где новый сервер находится в реальном мире, как указано в *\<ParentName>* :
 
    ```PowerShell
-   Set-ClusterFaultDomain -Name <NewNode> -Parent <ParentName> 
+   Set-ClusterFaultDomain -Name <NewNode> -Parent <ParentName>
    ```
 
    Дополнительные сведения см. в разделе [Информация о домене сбоя в Windows Server 2016](../../failover-clustering/fault-domains.md).

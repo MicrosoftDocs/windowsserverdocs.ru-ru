@@ -1,22 +1,20 @@
 ---
 title: Сбор диагностических данных с помощью Локальные дисковые пространства
 description: Основные сведения о средствах сбора данных Локальные дисковые пространства, а также конкретные примеры их запуска и использования.
-ms.prod: windows-server
 ms.author: adagashe
-ms.technology: storage-spaces
 ms.topic: article
 author: adagashe
 ms.date: 10/24/2018
-ms.openlocfilehash: 75a74017f48b357dd029b062a7ce06775836bd0a
-ms.sourcegitcommit: b00d7c8968c4adc8f699dbee694afe6ed36bc9de
+ms.openlocfilehash: fa71408dbb6a4757150ee896a760f37914aacc38
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "80858967"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87960977"
 ---
 # <a name="collect-diagnostic-data-with-storage-spaces-direct"></a>Сбор диагностических данных с помощью Локальные дисковые пространства
 
-> Область применения: Windows Server 2019, Windows Server 2016
+> Применяется к: Windows Server 2019, Windows Server 2016
 
 Существует несколько средств диагностики, которые можно использовать для сборов данных, необходимых для устранения неполадок Локальные дисковые пространства и отказоустойчивого кластера. В этой статье мы рассмотрим раздел **Get-сддкдиагностиЦинфо** — одно средство сенсорного ввода, которое будет собирать все важные сведения, помогающие в диагностике кластера.
 
@@ -24,11 +22,11 @@ ms.locfileid: "80858967"
 
 ## <a name="installing-get-sddcdiagnosticinfo"></a>Установка Get-СддкдиагностиЦинфо
 
-Командлет PowerShell **Get-сддкдиагностиЦинфо** (также **Get-пксторажедиагностиЦинфо**, ранее известный как **Test-сторажехеалс**), можно использовать для сбора журналов и выполнения проверок работоспособности для отказоустойчивой кластеризации (кластера, ресурсов, сетей, узлов), дисковых пространств (физических дисков, корпусов, виртуальных дисков), общих томов кластера, файловых ресурсов SMB и дедупликации. 
+Командлет PowerShell **Get-сддкдиагностиЦинфо** (также **Get-пксторажедиагностиЦинфо**, ранее известный как **Test-сторажехеалс**), можно использовать для сбора журналов и выполнения проверок работоспособности для отказоустойчивой кластеризации (кластера, ресурсов, сетей, узлов), дисковых пространств (физических дисков, корпусов, виртуальных дисков), общих томов кластера, файловых ресурсов SMB и дедупликации.
 
 Существует два способа установки сценария, оба из которых описаны ниже.
 
-### <a name="powershell-gallery"></a>коллекция PowerShell
+### <a name="powershell-gallery"></a>Коллекция PowerShell
 
 [Коллекция PowerShell](https://www.powershellgallery.com/packages/PrivateCloud.DiagnosticInfo) является моментальным снимком репозитория GitHub. Обратите внимание, что для установки элементов из коллекция PowerShell требуется последняя версия модуля PowerShellGet, которая доступна в Windows 10, в Windows Management Framework (WMF) 5,0 или в установщике на основе MSI (для PowerShell 3 и 4).
 
@@ -51,7 +49,7 @@ Update-Module PrivateCloud.DiagnosticInfo
 
 ### <a name="github"></a>GitHub
 
-[Репозиторий GitHub](https://github.com/PowerShell/PrivateCloud.DiagnosticInfo/) — это самая последняя версия модуля, так как мы постоянно выполним итерацию. Чтобы установить модуль из GitHub, скачайте последнюю версию модуля из [архива](https://github.com/PowerShell/PrivateCloud.DiagnosticInfo/archive/master.zip) и извлеките каталог PrivateCloud. диагностиЦинфо в нужный путь модулей PowerShell, на который указывает ```$env:PSModulePath```
+[Репозиторий GitHub](https://github.com/PowerShell/PrivateCloud.DiagnosticInfo/) — это самая последняя версия модуля, так как мы постоянно выполним итерацию. Чтобы установить модуль из GitHub, скачайте последнюю версию модуля из [архива](https://github.com/PowerShell/PrivateCloud.DiagnosticInfo/archive/master.zip) и извлеките каталог PrivateCloud. диагностиЦинфо в правильный путь к модулям PowerShell, на который указывает```$env:PSModulePath```
 
 ``` PowerShell
 # Allowing Tls12 and Tls11 -- e.g. github now requires Tls12
@@ -65,7 +63,7 @@ if (Test-Path $env:SystemRoot\System32\WindowsPowerShell\v1.0\Modules\$module) {
     Remove-Module $module -ErrorAction SilentlyContinue
 } else {
     Import-Module $module -ErrorAction SilentlyContinue
-} 
+}
 if (-not ($m = Get-Module $module -ErrorAction SilentlyContinue)) {
     $md = "$env:ProgramFiles\WindowsPowerShell\Modules"
 } else {
@@ -77,7 +75,7 @@ cp -Recurse $env:TEMP\$module-master\$module $md -Force -ErrorAction Stop
 rm -Recurse $env:TEMP\$module-master,$env:TEMP\master.zip
 Import-Module $module -Force
 
-``` 
+```
 
 Если необходимо получить этот модуль в автономном кластере, скачайте zip-файл, переместите его на узел целевого сервера и установите модуль.
 
@@ -106,7 +104,7 @@ Get-SDDCDiagnosticInfo
 Чтобы сохранить результаты в указанную папку, выполните следующие действия.
 
 ``` PowerShell
-Get-SDDCDiagnosticInfo -WriteToPath D:\Folder 
+Get-SDDCDiagnosticInfo -WriteToPath D:\Folder
 ```
 
 Ниже приведен пример того, как это выглядит в реальном кластере:
@@ -140,16 +138,16 @@ Get-SddcDiagnosticInfo -ClusterName S2D-Cluster -WriteToPath d:\SDDCDiagTemp
 #generate report and save to text file
     $report=Show-SddcDiagnosticReport -Path D:\SDDCDiagTemp
     $report | out-file d:\SDDCReport.txt
-    
+
 ```
 
 Для справки ниже приведена ссылка на [образец отчета](https://github.com/Microsoft/WSLab/blob/dev/Scenarios/S2D%20Tools/Get-SDDCDiagnosticInfo/SDDCReport.txt) и [Пример ZIP](https://github.com/Microsoft/WSLab/blob/dev/Scenarios/S2D%20Tools/Get-SDDCDiagnosticInfo/HealthTest-S2D-Cluster-20180522-1546.ZIP)-файла.
 
-Чтобы просмотреть это в центре администрирования Windows (начиная с версии 1812), перейдите на вкладку *Диагностика* . Как видно на снимке экрана ниже, можно 
+Чтобы просмотреть это в центре администрирования Windows (начиная с версии 1812), перейдите на вкладку *Диагностика* . Как видно на снимке экрана ниже, можно
 
 - Установка средств диагностики
-- Обновите их (если они устарели), 
-- Запланируйте ежедневное диагностическое выполнение (это оказывает низкую нагрузку на систему, обычно занимает < 5 минут в фоновом режиме и не занимают больше 500 МБ в кластере).
+- Обновите их (если они устарели),
+- Запланируйте ежедневное диагностическое выполнение (это оказывает низкую нагрузку на систему, обычно занимает <5 минут в фоновом режиме и не занимают больше 500 МБ в кластере).
 - Просмотрите ранее собранные диагностические сведения, если вам нужно предоставить ее для поддержки или анализа самостоятельно.
 
 ![снимок экрана системы диагностики ВАК](media/data-collection/Wac.png)
@@ -163,7 +161,7 @@ Get-SddcDiagnosticInfo -ClusterName S2D-Cluster -WriteToPath d:\SDDCDiagTemp
 Сводный отчет о работоспособности сохраняется как:
 - 0_CloudHealthSummary. log
 
-Этот файл создается после анализа всех собираемых данных и предназначен для краткой сводки системы. Он содержит:
+Этот файл создается после анализа всех собираемых данных и предназначен для краткой сводки системы. Она содержит следующие виртуальные машины:
 
 - Сведения о системе
 - Общие сведения о работоспособности хранилища (количество узлов, ресурсы в сети, общие тома кластера в сети, неработоспособные компоненты и т. д.)
@@ -179,13 +177,13 @@ Get-SddcDiagnosticInfo -ClusterName S2D-Cluster -WriteToPath d:\SDDCDiagTemp
 Скрипт запускает различные скрипты сбора журналов и сохраняет выходные данные в виде XML-файлов. Мы соберем кластеры и журналы работоспособности, сведения о системе (MSInfo32), нефильтрованные журналы событий (отказоустойчивая кластеризация, диагностика DIS, Hyper-v, дисковые пространства и др.) и сведения о диагностике хранилища (Операционные журналы). Последние сведения о собираемых сведениях см. в [файле сведений GitHub (что мы собираемся)](https://github.com/PowerShell/PrivateCloud.DiagnosticInfo/blob/master/README.md#what-does-the-cmdlet-output-include).
 
 ## <a name="how-to-consume-the-xml-files-from-get-pcstoragediagnosticinfo"></a>Как использовать XML-файлы из Get-ПксторажедиагностиЦинфо
-Можно использовать данные из XML-файлов, предоставленных в данных, собираемых командлетом **Get-пксторажедиагностиЦинфо** . Эти файлы содержат сведения о виртуальных дисках, физических дисках, сведения о базовом кластере и других выходных данных, связанных с PowerShell. 
+Можно использовать данные из XML-файлов, предоставленных в данных, собираемых командлетом **Get-пксторажедиагностиЦинфо** . Эти файлы содержат сведения о виртуальных дисках, физических дисках, сведения о базовом кластере и других выходных данных, связанных с PowerShell.
 
-Чтобы просмотреть результаты этих выходных данных, откройте окно PowerShell и выполните следующие действия. 
+Чтобы просмотреть результаты этих выходных данных, откройте окно PowerShell и выполните следующие действия.
 
 ```PowerShell
 ipmo storage
-$d = import-clixml <filename> 
+$d = import-clixml <filename>
 $d
 ```
 

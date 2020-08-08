@@ -1,20 +1,18 @@
 ---
 ms.assetid: 342173ca-4e10-44f4-b2c9-02a6c26f7a4a
 title: Планирование томов в локальных дисковых пространствах
-ms.prod: windows-server
 ms.author: cosdar
 manager: eldenc
-ms.technology: storage-spaces
 ms.topic: article
 author: cosmosdarwin
 ms.date: 06/28/2019
 ms.localizationpriority: medium
-ms.openlocfilehash: d5c45b68f18fe3126867a9b6608b0911bb3f63b2
-ms.sourcegitcommit: 771db070a3a924c8265944e21bf9bd85350dd93c
+ms.openlocfilehash: dcc98fba7194da322f9fc97b67eb43d481f50133
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85474761"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87971151"
 ---
 # <a name="planning-volumes-in-storage-spaces-direct"></a>Планирование томов в локальных дисковых пространствах
 
