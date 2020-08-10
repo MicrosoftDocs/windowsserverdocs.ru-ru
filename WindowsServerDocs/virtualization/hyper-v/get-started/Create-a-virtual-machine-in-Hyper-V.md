@@ -66,7 +66,7 @@ ms.locfileid: "87996603"
        New-VM -Name <Name> -MemoryStartupBytes <Memory> -BootDevice <BootDevice> -VHDPath <VHDPath> -Path <Path> -Generation <Generation> -Switch <SwitchName>
        ```
 
-       Например:
+       Пример:
 
        ```
        New-VM -Name Win10VM -MemoryStartupBytes 4GB -BootDevice VHD -VHDPath .\VMs\Win10.vhdx -Path .\VMData -Generation 2 -Switch ExternalSwitch
@@ -88,7 +88,7 @@ ms.locfileid: "87996603"
    Start-VM -Name <Name>
    ```
 
-   Например:
+   Пример:
 
    ```
    Start-VM -Name Win10VM

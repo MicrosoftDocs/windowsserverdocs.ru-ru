@@ -49,7 +49,7 @@ ms.locfileid: "87994155"
 
 - Чтобы обеспечить отработку отказа и избыточность с помощью ведения журнала SQL Server, поместите два компьютера, на которых выполняется SQL Server, в разные подсети. Используйте **Мастер создания публикаций** SQL Server, чтобы настроить репликацию базы данных между двумя серверами. Дополнительные сведения см. в разделе [SQL Server техническая документация](/sql/sql-server/?view=sql-server-ver15) и [репликация SQL Server](/sql/relational-databases/replication/sql-server-replication?view=sql-server-ver15).
 
-## <a name="authentication"></a>Проверка подлинности
+## <a name="authentication"></a>Аутентификация
 
 Ниже приведены рекомендации по проверке подлинности.
 
