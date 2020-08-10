@@ -6,16 +6,16 @@ ms.topic: article
 ms.assetid: 161446ff-a072-4cc4-b339-00a04857ff3a
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 771b87776e6530f330e68f1f06b39fef191cb7c7
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: e999406a64e77e769ba9a6ffdc27cce109f2ef5a
+ms.sourcegitcommit: be6583ea86b47fa5ac3363b44ab0de75b571c90e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87996889"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "88039657"
 ---
 # <a name="use-dns-policy-for-intelligent-dns-responses-based-on-the-time-of-day"></a>Получение интеллектуальных ответов DNS на основе времени дня с помощью политики DNS
 
->Применяется к: Windows Server (Semi-Annual Channel), Windows Server 2016
+> Применяется к: Windows Server (Semi-Annual Channel), Windows Server 2016
 
 С помощью этого раздела вы узнаете, как распределять трафик приложений между различными географически распределенными экземплярами приложения с помощью политик DNS, основанных на времени суток.
 
@@ -59,13 +59,13 @@ ms.locfileid: "87996889"
 - [Добавление записей в области зоны](#bkmk_records)
 - [Создание политик DNS](#bkmk_policies)
 
->[!NOTE]
->Эти действия необходимо выполнить на DNS-сервере, который является полномочным для зоны, которую требуется настроить. Членство в **DnsAdmins**(или аналогичное) требуется для выполнения следующих процедур.
+> [!NOTE]
+> Эти действия необходимо выполнить на DNS-сервере, который является полномочным для зоны, которую требуется настроить. Членство в **DnsAdmins**(или аналогичное) требуется для выполнения следующих процедур.
 
 В следующих разделах приведены подробные инструкции по настройке.
 
->[!IMPORTANT]
->В следующих разделах приведены примеры команд Windows PowerShell, которые содержат примеры значений для многих параметров. Перед выполнением этих команд обязательно замените примеры значений в этих командах значениями, подходящими для вашего развертывания.
+> [!IMPORTANT]
+> В следующих разделах приведены примеры команд Windows PowerShell, которые содержат примеры значений для многих параметров. Перед выполнением этих команд обязательно замените примеры значений в этих командах значениями, подходящими для вашего развертывания.
 
 #### <a name="create-the-dns-client-subnets"></a><a name="bkmk_subnets"></a>Создание подсетей клиента DNS
 Первым шагом является указание подсетей или пространства IP-адресов регионов, для которых необходимо перенаправить трафик. Например, если требуется перенаправить трафик для США и Европы, необходимо найти подсети или пространства IP-адресов этих регионов.
@@ -74,12 +74,12 @@ ms.locfileid: "87996889"
 
 Для создания подсетей клиента DNS можно использовать следующие команды Windows PowerShell.
 
-```
-Add-DnsServerClientSubnet -Name "AmericaSubnet" -IPv4Subnet "192.0.0.0/24, 182.0.0.0/24"
+```PowerShell
+Add-DnsServerClientSubnet -Name "AmericaSubnet" -IPv4Subnet "192.0.0.0/24", "182.0.0.0/24"
 
-Add-DnsServerClientSubnet -Name "EuropeSubnet" -IPv4Subnet "141.1.0.0/24, 151.1.0.0/24"
-
+Add-DnsServerClientSubnet -Name "EuropeSubnet" -IPv4Subnet "141.1.0.0/24", "151.1.0.0/24"
 ```
+
 Дополнительные сведения см. в разделе [Add-днссерверклиентсубнет](/powershell/module/dnsserver/add-dnsserverclientsubnet?view=win10-ps).
 
 #### <a name="create-the-zone-scopes"></a><a name="bkmk_zscopes"></a>Создание областей зоны
@@ -89,17 +89,17 @@ Add-DnsServerClientSubnet -Name "EuropeSubnet" -IPv4Subnet "141.1.0.0/24, 151.1.
 
 Область зоны — это уникальный экземпляр зоны. Зона DNS может иметь несколько областей зоны, при этом каждая область зоны содержит собственный набор записей DNS. Одна и та же запись может присутствовать в нескольких областях с разными IP-адресами или IP-адресами.
 
->[!NOTE]
->По умолчанию область зоны существует в зонах DNS. Эта область зоны имеет то же имя, что и зона, а устаревшие операции DNS работают в этой области.
+> [!NOTE]
+> По умолчанию область зоны существует в зонах DNS. Эта область зоны имеет то же имя, что и зона, а устаревшие операции DNS работают в этой области.
 
 Для создания областей зоны можно использовать следующие команды Windows PowerShell.
 
-```
+```PowerShell
 Add-DnsServerZoneScope -ZoneName "contosogiftservices.com" -Name "SeattleZoneScope"
 
 Add-DnsServerZoneScope -ZoneName "contosogiftservices.com" -Name "DublinZoneScope"
-
 ```
+
 Дополнительные сведения см. в разделе [Add-днссерверзонескопе](/powershell/module/dnsserver/add-dnsserverzonescope?view=win10-ps).
 
 #### <a name="add-records-to-the-zone-scopes"></a><a name="bkmk_records"></a>Добавление записей в области зоны
@@ -109,12 +109,12 @@ Add-DnsServerZoneScope -ZoneName "contosogiftservices.com" -Name "DublinZoneScop
 
 Для добавления записей в области зоны можно использовать следующие команды Windows PowerShell.
 
-```
+```PowerShell
 Add-DnsServerResourceRecord -ZoneName "contosogiftservices.com" -A -Name "www" -IPv4Address "192.0.0.1" -ZoneScope "SeattleZoneScope
 
 Add-DnsServerResourceRecord -ZoneName "contosogiftservices.com" -A -Name "www" -IPv4Address "141.1.0.3" -ZoneScope "DublinZoneScope"
-
 ```
+
 Параметр Зонескопе не включается при добавлении записи в область по умолчанию. Это то же самое, что и добавление записей в стандартную зону DNS.
 
 Дополнительные сведения см. в разделе [Add-днссерверресаурцерекорд](/powershell/module/dnsserver/add-dnsserverresourcerecord?view=win10-ps).
@@ -133,10 +133,10 @@ Add-DnsServerResourceRecord -ZoneName "contosogiftservices.com" -A -Name "www" -
 
 Для создания политики DNS, связывающей подсети клиента DNS и области зоны, можно использовать следующие команды Windows PowerShell.
 
->[!NOTE]
->В этом примере DNS-сервер находится в часовом поясе GMT, поэтому периоды пикового времени в часах должны быть выражены в эквивалентном времени GMT.
+> [!NOTE]
+> В этом примере DNS-сервер находится в часовом поясе GMT, поэтому периоды пикового времени в часах должны быть выражены в эквивалентном времени GMT.
 
-```
+```PowerShell
 Add-DnsServerQueryResolutionPolicy -Name "America6To9Policy" -Action ALLOW -ClientSubnet "eq,AmericaSubnet" -ZoneScope "SeattleZoneScope,4;DublinZoneScope,1" -TimeOfDay "EQ,01:00-04:00" -ZoneName "contosogiftservices.com" -ProcessingOrder 1
 
 Add-DnsServerQueryResolutionPolicy -Name "Europe6To9Policy" -Action ALLOW -ClientSubnet "eq,EuropeSubnet" -ZoneScope "SeattleZoneScope,1;DublinZoneScope,4" -TimeOfDay "EQ,17:00-20:00" -ZoneName "contosogiftservices.com" -ProcessingOrder 2
@@ -146,8 +146,8 @@ Add-DnsServerQueryResolutionPolicy -Name "AmericaPolicy" -Action ALLOW -ClientSu
 Add-DnsServerQueryResolutionPolicy -Name "EuropePolicy" -Action ALLOW -ClientSubnet "eq,EuropeSubnet" -ZoneScope "DublinZoneScope,1" -ZoneName "contosogiftservices.com" -ProcessingOrder 4
 
 Add-DnsServerQueryResolutionPolicy -Name "RestOfWorldPolicy" -Action ALLOW --ZoneScope "DublinZoneScope,1;SeattleZoneScope,1" -ZoneName "contosogiftservices.com" -ProcessingOrder 5
-
 ```
+
 Дополнительные сведения см. в разделе [Add-днссерверкуериресолутионполици](/powershell/module/dnsserver/add-dnsserverqueryresolutionpolicy?view=win10-ps).
 
 Теперь на DNS-сервере настроены необходимые политики DNS для перенаправления трафика на основе географического расположения и времени суток.
