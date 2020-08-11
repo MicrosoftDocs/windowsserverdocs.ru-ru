@@ -72,6 +72,7 @@
 ## [Служба доменных имен (DNS)](dns/dns-top.md)
 ### [Новые возможности DNS-клиента в Windows Server](dns/What-s-New-in-DNS-Client.md)
 ### [Новые возможности DNS-сервера в Windows Server](dns/What-s-New-in-DNS-Server.md)
+### [DNS с произвольной адресацией](dns/deploy/anycast.md)
 ### [Руководство по сценарию политики DNS](dns/deploy/DNS-Policy-Scenario-Guide.md)
 #### [Обзор политик DNS](dns/deploy/DNS-Policies-Overview.md)
 #### [Управление трафиком на основе географического расположения на основных серверах с помощью политики DNS](dns/deploy/primary-geo-location.md)
