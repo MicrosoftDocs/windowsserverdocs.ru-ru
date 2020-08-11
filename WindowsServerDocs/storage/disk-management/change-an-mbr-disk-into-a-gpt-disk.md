@@ -2,18 +2,16 @@
 title: Изменение стиля раздела диска с основной загрузочной записи (MBR) на таблицу разделов GUID (GPT)
 description: В этой статье описывается, как изменить стиль раздела диска с основной загрузочной записи (MBR) на таблицу разделов GUID (GPT)
 ms.date: 06/07/2019
-ms.prod: windows-server
-ms.technology: storage
 ms.topic: article
 author: JasonGerend
 manager: brianlic
 ms.author: jgerend
-ms.openlocfilehash: 3aedb8ed1edb8476642b86ec66d306187d4badf0
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 86934f2bf86ea8f91dfbe92f97952d76542a6bc4
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86966066"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87935913"
 ---
 # <a name="convert-an-mbr-disk-into-a-gpt-disk"></a>Изменение схемы разделов диска с MBR на GPT
 

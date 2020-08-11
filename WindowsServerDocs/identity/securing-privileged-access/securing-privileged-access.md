@@ -1,7 +1,6 @@
 ---
 title: Обеспечение безопасности привилегированного доступа
 description: Поэтапный подход к обеспечению безопасности привилегированного доступа
-ms.prod: windows-server
 ms.topic: conceptual
 ms.assetid: f5dec0c2-06fe-4c91-9bdc-67cc6a3ede60
 ms.date: 02/25/2019
@@ -9,12 +8,12 @@ ms.author: joflore
 author: MicrosoftGuyJFlo
 manager: daveba
 ms.reviewer: mas
-ms.openlocfilehash: 4165561524dcb8572dbafc3904638fcb4513d06d
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 5db041be6aa9a61bc248296ade4296afeaa4fb3e
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86964727"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87953063"
 ---
 # <a name="securing-privileged-access"></a>Обеспечение безопасности привилегированного доступа
 
@@ -69,7 +68,7 @@ ms.locfileid: "86964727"
 * [Этап 3. Продолжение](#phase-3-security-improvement-and-sustainment)
    * Повышение безопасности и устойчивость.
 
-В рамках стратегии в первую очередь необходимо запланировать реализацию самых быстрых и эффективных методов. Мы выбрали их, исходя из нашего опыта защиты от подобных атак и внедрения соответствующих решений. 
+В рамках стратегии в первую очередь необходимо запланировать реализацию самых быстрых и эффективных методов. Мы выбрали их, исходя из нашего опыта защиты от подобных атак и внедрения соответствующих решений.
 
 Мы советуем следовать этой стратегии, чтобы защитить привилегированные учетные данные от атак злоумышленников. Вы можете изменить эту стратегию с учетом возможностей и потребностей вашей организации.
 

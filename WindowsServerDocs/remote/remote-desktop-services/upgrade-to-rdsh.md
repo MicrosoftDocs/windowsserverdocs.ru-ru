@@ -1,20 +1,18 @@
 ---
 title: Обновление узла сеансов удаленных рабочих столов до Windows Server 2016
 description: В этой статье описывается, как обновить существующие развертывания служб удаленных рабочих столов до Windows Server 2016.
-ms.prod: windows-server
-ms.technology: remote-desktop-services
 ms.author: spatnaik
 ms.date: 08/01/2016
 ms.topic: article
 ms.assetid: 5c9b98b8-4eca-4a39-b10b-2bac729f7f44
 author: spatnaik
 manager: scottman
-ms.openlocfilehash: e685c51a003a7121dab19c74d82796311ef0889a
-ms.sourcegitcommit: 3a3d62f938322849f81ee9ec01186b3e7ab90fe0
+ms.openlocfilehash: b825c79ac698f2a61c81628180f1d7cc14b826e8
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "80857127"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87948847"
 ---
 # <a name="upgrading-your-remote-desktop-session-host-to-windows-server-2016"></a>Обновление узла сеансов удаленных рабочих столов до Windows Server 2016
 
@@ -31,7 +29,7 @@ ms.locfileid: "80857127"
 
 1. Определите серверы, которые должны быть обновлены. Например, это может быть половина серверов в коллекции.
 2. Запретите новые подключения к этим серверам, задав для параметра **Разрешать новые подключения** значение "false".
-3. Выполните выход для всех сеансов на этих серверах. 
+3. Выполните выход для всех сеансов на этих серверах.
 4. Удалите эти серверы из коллекции.
 5. Обновите серверы до Windows Server 2016.
 6. Задайте для параметра **Разрешать новые подключения** значение "false" на оставшихся серверах в коллекции.

@@ -1,20 +1,18 @@
 ---
 title: Службы удаленных рабочих столов. Сборка в любом расположении
 description: Информация о планировании, которая поможет вам определить, где разместить ваше развертывание служб удаленных рабочих столов.
-ms.prod: windows-server
-ms.technology: remote-desktop-services
 ms.topic: article
 ms.assetid: c803a383-0eea-4e11-bca5-d204ab758048
 author: lizap
 ms.author: elizapo
 ms.date: 09/07/2016
 manager: dongill
-ms.openlocfilehash: 9b56614e347b36fb86e6e4680f1b179accaef058
-ms.sourcegitcommit: 3a3d62f938322849f81ee9ec01186b3e7ab90fe0
+ms.openlocfilehash: 0956fec88fc0bc07fb964d0eb4c2ff0b976628bf
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "80857377"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87946377"
 ---
 # <a name="remote-desktop-services---build-anywhere"></a>Службы удаленных рабочих столов. Сборка в любом расположении
 

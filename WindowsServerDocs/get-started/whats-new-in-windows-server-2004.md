@@ -1,19 +1,17 @@
 ---
 title: Новые возможности Windows Server версии 2004
 description: Новые возможности Windows Server, версия 2004
-ms.prod: windows-server
-ms.technology: server-general
 ms.topic: article
 author: Heidilohr
 ms.author: helohr
 ms.date: 05/27/2020
 ms.localizationpriority: high
-ms.openlocfilehash: e0136dad7180e41f15ae6226008aa7580ec53283
-ms.sourcegitcommit: c63672805c93d5bf2a9eb71b3e2de2df00194529
+ms.openlocfilehash: 210aa06711c67af46d35a38fe4308bc4060691e8
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84124902"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87957011"
 ---
 # <a name="whats-new-in-windows-server-version-2004"></a>Новые возможности Windows Server версии 2004
 

@@ -1,27 +1,25 @@
 ---
 title: Настройка аварийного восстановления RDS с помощью аварийного восстановления Azure
 description: Узнайте, как использовать аварийное восстановление Azure для аварийного восстановления развертывания RDS.
-ms.prod: windows-server
-ms.technology: remote-desktop-services
 ms.author: elizapo
 ms.date: 06/12/2017
 ms.topic: article
 author: lizap
 manager: dongill
-ms.openlocfilehash: 68fa7026a3198b7800c4855f8472f4a0bec62009
-ms.sourcegitcommit: 3a3d62f938322849f81ee9ec01186b3e7ab90fe0
+ms.openlocfilehash: 6c0e9b97a436f51babf679d6ce0aa67c09bcfe26
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "80858997"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87936909"
 ---
 # <a name="set-up-disaster-recovery-for-rds-using-azure-site-recovery"></a>Настройка аварийного восстановления RDS с помощью Azure Site Recovery
 
 >Применяется к: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016
 
-На основе Azure Site Recovery можно создать решение для аварийного восстановления для развертывания служб удаленных рабочих столов (RDS). 
+На основе Azure Site Recovery можно создать решение для аварийного восстановления для развертывания служб удаленных рабочих столов (RDS).
 
-[Azure Site Recovery](/azure/site-recovery/site-recovery-overview) — это служба на платформе Azure, которая предоставляет возможности аварийного восстановления, управляя процессами репликации, отработки отказа и восстановления виртуальных машин. Azure Site Recovery поддерживает ряд технологий репликации, позволяющих непрерывно реплицировать, защищать и легко выполнять отработку отказа виртуальных машин и приложений в частных или общедоступных облаках либо в облаках поставщиков услуг размещения. 
+[Azure Site Recovery](/azure/site-recovery/site-recovery-overview) — это служба на платформе Azure, которая предоставляет возможности аварийного восстановления, управляя процессами репликации, отработки отказа и восстановления виртуальных машин. Azure Site Recovery поддерживает ряд технологий репликации, позволяющих непрерывно реплицировать, защищать и легко выполнять отработку отказа виртуальных машин и приложений в частных или общедоступных облаках либо в облаках поставщиков услуг размещения.
 
 Используйте следующие сведения для создания и проверки решения для аварийного восстановления.
 
@@ -42,7 +40,7 @@ ms.locfileid: "80858997"
 - Создайте [локальное развертывание RDS](rds-deploy-infrastructure.md).
 - Добавьте [хранилище служб Azure Site Recovery](/azure/site-recovery/site-recovery-vmm-to-azure#create-a-recovery-services-vault) в подписку Microsoft Azure.
 - Если вы собираетесь использовать Azure в качестве сайта восстановления, запустите [средство оценки готовности виртуальной машины Azure](https://azure.microsoft.com/downloads/vm-readiness-assessment/) на виртуальных машинах, чтобы обеспечить их совместимость с виртуальными машинами Azure и службами Azure Site Recovery.
- 
+
 ## <a name="implementation-checklist"></a>Контрольный список для реализации
 
 Мы подробнее рассмотрим различные шаги для включения служб Azure Site Recovery для развертывания RDS, но пока опишем общие действия по реализации.

@@ -1,23 +1,21 @@
 ---
 title: Команды Netsh для протокола HTTP
 description: netsh http можно использовать для запроса и настройки параметров HTTP.sys.
-ms.prod: windows-server
-ms.technology: networking
 ms.topic: article
 manager: dougkim
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 81053e71040d2a0cd125af9fb7f3802dfd535781
-ms.sourcegitcommit: 3a3d62f938322849f81ee9ec01186b3e7ab90fe0
+ms.openlocfilehash: a2bf580dff85463306767b6a129819b82f4fc85c
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "80853757"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87946988"
 ---
 # <a name="netsh-http-commands"></a>Команды HTTP для Netsh
 
 
-**netsh http** можно использовать для запроса и настройки параметров HTTP.sys.  
+**netsh http** можно использовать для запроса и настройки параметров HTTP.sys.
 
 >[!TIP]
 >Если вы используете Windows PowerShell на компьютере под управлением Windows Server 2016 или Windows 10, введите **netsh** в PowerShell и нажмите клавишу ВВОД. В командной строке Netsh введите **http** и нажмите клавишу ВВОД, чтобы получить командную строку для HTTP.
@@ -115,7 +113,7 @@ add sslcert ipport=1.1.1.1:443 certhash=0102030405060708090A0B0C0D0E0F1011121314
 
 Добавляет глобальное время ожидания в службу.
 
-**Синтаксис** 
+**Синтаксис**
 
 ```powershell
 add timeout [ timeouttype= ] IdleConnectionTimeout | HeaderWaitTimeout [ value=] U-Short

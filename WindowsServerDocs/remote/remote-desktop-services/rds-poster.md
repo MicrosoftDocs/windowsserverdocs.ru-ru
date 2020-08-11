@@ -1,8 +1,6 @@
 ---
 title: Службы удаленных рабочих столов — памятка по планированию
 description: Общие сведения о планировании, развертывании и выполнении служб удаленных рабочих столов
-ms.prod: windows-server
-ms.technology: remote-desktop-services
 ms.author: elizapo
 author: lizap
 manager: dongill
@@ -10,12 +8,12 @@ ms.date: 11/06/2018
 ms.topic: article
 ms.assetid: a8c6d5fa-399b-4823-8f10-affec1bbfe65
 ms.localizationpriority: medium
-ms.openlocfilehash: 0e6700cd02d040caaee0588106b27185e5427ee5
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 010c9fc18a7da4447d61fdf2205d8084cd5f24f0
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86959526"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87936776"
 ---
 # <a name="remote-desktop-services---planning-poster"></a>Службы удаленных рабочих столов — памятка по планированию
 

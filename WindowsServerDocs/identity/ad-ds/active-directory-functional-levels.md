@@ -6,16 +6,14 @@ author: MicrosoftGuyJFlo
 manager: mtillman
 ms.date: 10/29/2018
 ms.topic: article
-ms.prod: windows-server
 ms.custom: it-pro
 ms.reviewer: maheshu
-ms.technology: identity-adds
-ms.openlocfilehash: b6a9a5c08e24f5c7bb7ac50ac1c72386ef8a6d0f
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 75ba30502c7de1b0a88886f42c3a8ef9a84a7e18
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86963056"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87938633"
 ---
 # <a name="forest-and-domain-functional-levels"></a>Режимы работы леса и домена
 
@@ -133,7 +131,7 @@ ms.locfileid: "86963056"
 
 ### <a name="windows-server-2008-forest-functional-level-features"></a>Функции режима работы леса Windows Server 2008
 
-* Этот режим работы предоставляет все функции, доступные при режиме работы леса Windows Server 2003, но не имеет дополнительных функций. 
+* Этот режим работы предоставляет все функции, доступные при режиме работы леса Windows Server 2003, но не имеет дополнительных функций.
 
 ### <a name="windows-server-2008-domain-functional-level-features"></a>Функции режима работы домена Windows Server 2008
 
@@ -145,7 +143,7 @@ ms.locfileid: "86963056"
       > Начиная с Windows Server 2012 R2, служба репликации файлов (FRS) не рекомендуется к использованию. Для нового домена, созданного на контроллере домена под управлением Windows Server 2012 R2 (не ниже), должен быть установлен режим работы домена Windows Server 2008 или выше.
 
   * Пространства имен DFS на основе домена, работающие в режиме Windows Server 2008, включая поддержку перечисления на основе доступа и повышенную масштабируемость. Для пространств имен на основе домена в режиме Windows Server 2008 также требуется, чтобы лес использовал режим работы леса Windows Server 2003. Дополнительные сведения см. в статье [Choose a Namespace Type](https://go.microsoft.com/fwlink/?LinkId=180400) (Выбор типа пространства имен).
-  * Поддержка алгоритма AES (AES 128 и AES 256) для протокола Kerberos. Чтобы TGT выдавался с помощью AES, режим работы домена должен быть Windows Server 2008 или выше, а пароль домена необходимо изменить. 
+  * Поддержка алгоритма AES (AES 128 и AES 256) для протокола Kerberos. Чтобы TGT выдавался с помощью AES, режим работы домена должен быть Windows Server 2008 или выше, а пароль домена необходимо изменить.
     * Дополнительные сведения см. в статье [Kerberos Enhancements](/previous-versions/windows/it-pro/windows-vista/cc749438(v=ws.10)) (Дополнительные возможности Kerberos).
 
       > [!NOTE]
@@ -182,7 +180,7 @@ ms.locfileid: "86963056"
       - Генератор межсайтовой топологии (ISTG) использует улучшенные алгоритмы, масштабируемые для поддержки лесов с увеличенным количеством сайтов, чем может поддерживать AD DS в режиме работы леса Windows 2000. Улучшенный алгоритм выборов ISTG является механизмом выбора ISTG с меньшим уровнем вмешательства в режиме работы леса Windows 2000.
    * Возможность создания экземпляров динамического вспомогательного класса, называемых **dynamicObject**, в разделе каталога домена.
    * Возможность преобразования экземпляра объекта **inetOrgPerson** в экземпляр объекта **User**, а также завершения преобразования в обратном направлении.
-   * Возможность создавать экземпляры новых типов групп для поддержки авторизации на основе ролей. 
+   * Возможность создавать экземпляры новых типов групп для поддержки авторизации на основе ролей.
       - Эти типы называются основными группами приложений и группами запросов протокола LDAP.
    * деактивация и переопределение атрибутов и классов схемы. Следующие атрибуты можно использовать повторно: ldapDisplayName, schemaIdGuid, OID и mapiID.
    * Пространства имен DFS на основе домена, работающие в режиме Windows Server 2008, включая поддержку перечисления на основе доступа и повышенную масштабируемость. Дополнительные сведения см. в статье [Choose a Namespace Type](https://go.microsoft.com/fwlink/?LinkId=180400) (Выбор типа пространства имен).
@@ -226,5 +224,5 @@ ms.locfileid: "86963056"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-* [Raise the Domain Functional Level](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753104(v=ws.11)) (Повышение режима работы домена)  
+* [Raise the Domain Functional Level](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753104(v=ws.11)) (Повышение режима работы домена)
 * [Raise the Forest Functional Level](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc730985(v=ws.11)) (Повышение режима работы леса)

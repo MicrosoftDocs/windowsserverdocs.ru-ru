@@ -3,7 +3,6 @@ title: Устранение неполадок по коду ошибки акт
 description: Узнайте, как устранять ошибки активации
 ms.topic: troubleshooting
 ms.date: 9/18/2019
-ms.technology: server-general
 author: kaushika-msft
 ms.author: kaushika-msft; v-tea
 ms.localizationpriority: medium
@@ -11,12 +10,12 @@ ms.custom:
 - CI ID 116803
 - CSSTroubleshoot
 manager: dcscontentpm
-ms.openlocfilehash: 778af6869cbc01478cb468ff8d2d4543c786056f
-ms.sourcegitcommit: 145cf75f89f4e7460e737861b7407b5cee7c6645
+ms.openlocfilehash: 375c028acc0a972fcc1ca02e840075cdafd7369e
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "87409995"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87941796"
 ---
 # <a name="resolve-windows-activation-error-codes"></a>Устранение неполадок по коду ошибки активации Windows
 

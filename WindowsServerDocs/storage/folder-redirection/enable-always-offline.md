@@ -1,19 +1,17 @@
 ---
 title: Включение постоянного автономного режима для ускорения доступа к файлам
 description: Использование постоянного автономного режима компонента "Автономные файлы" для более быстрого доступа к кэшированным файлам и перенаправленным папкам.
-ms.prod: windows-server
 ms.topic: article
 author: JasonGerend
 ms.author: jgerend
-ms.technology: storage
 ms.date: 09/10/2018
 ms.localizationpriority: medium
-ms.openlocfilehash: 389fdd26a7e1d9824f1eaf0136a544547f08eb05
-ms.sourcegitcommit: 3a3d62f938322849f81ee9ec01186b3e7ab90fe0
+ms.openlocfilehash: 2a4526a70379ad414cdf866419a3b893e42256d5
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "71401960"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87942225"
 ---
 # <a name="enable-always-offline-mode-for-faster-access-to-files"></a>Включение постоянного автономного режима для ускорения доступа к файлам
 

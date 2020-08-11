@@ -1,20 +1,18 @@
 ---
 title: Начало работы со службами удаленных рабочих столов
 description: Здесь представлены сведения, которые помогут вам приступить к работе со службами удаленных рабочих столов в Windows Server 2016.
-ms.prod: windows-server
-ms.technology: remote-desktop-services
 ms.author: elizapo
 ms.date: 10/11/2016
 ms.topic: article
 ms.assetid: e8f8cfd2-c62e-4f9b-b843-099fd37c6d58
 author: lizap
 manager: dongill
-ms.openlocfilehash: 583f62784aa171ddb20ddf3e5cd0a4e6c6223884
-ms.sourcegitcommit: 3a3d62f938322849f81ee9ec01186b3e7ab90fe0
+ms.openlocfilehash: dc20c52c09b93c0da6b2c50470a3f2b3f30390bd
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "80861397"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87936811"
 ---
 # <a name="get-started-with-remote-desktop-services-in-windows-server-2016"></a>Начало работы со службами удаленных рабочих столов в Windows Server 2016
 

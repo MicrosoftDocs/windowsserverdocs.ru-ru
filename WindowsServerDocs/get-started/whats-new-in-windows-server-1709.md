@@ -1,19 +1,17 @@
 ---
 title: Новые возможности Windows Server версии 1709
 description: Новые возможности вычислений, удостоверения, управления, автоматизации, сетей, безопасности, хранения.
-ms.prod: windows-server
-ms.technology: server-general
 ms.topic: article
 author: coreyp-at-msft
 ms.author: coreyp
 ms.localizationpriority: medium
 ms.date: 06/03/2019
-ms.openlocfilehash: c814098aeb73ca186e0a0db668f477f9cc1f5cf9
-ms.sourcegitcommit: 145cf75f89f4e7460e737861b7407b5cee7c6645
+ms.openlocfilehash: cfbe25604ee517a522c9d29b1320db4cd032d162
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "87409574"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87941686"
 ---
 # <a name="whats-new-in-windows-server-version-1709"></a>Новые возможности Windows Server версии 1709
 

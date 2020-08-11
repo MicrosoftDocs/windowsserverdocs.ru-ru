@@ -1,8 +1,6 @@
 ---
 title: Клиент удаленного рабочего стола — поддерживаемые конфигурации
 description: Узнайте, какие компьютеры доступны с помощью клиентов удаленного рабочего стола
-ms.prod: windows-server
-ms.technology: remote-desktop-services
 ms.topic: article
 ms.assetid: bb932dad-6f74-484f-8f7b-dd957b615d44
 author: lizap
@@ -10,12 +8,12 @@ manager: dongill
 ms.author: elizapo
 ms.date: 06/05/2018
 ms.localizationpriority: medium
-ms.openlocfilehash: 1480a2a14a1c3fc23c4e5122e366741d37d9091f
-ms.sourcegitcommit: 3a3d62f938322849f81ee9ec01186b3e7ab90fe0
+ms.openlocfilehash: b11b4382603165e5b3ba34cbf63d543f466c7480
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "80856017"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87955031"
 ---
 # <a name="remote-desktop-client---supported-configuration"></a>Клиент удаленного рабочего стола — поддерживаемые конфигурации
 

@@ -1,19 +1,17 @@
 ---
 title: Улучшения в безопасности SMB
 description: Описание возможности шифрования по протоколу SMB в Windows Server 2012 R2, Windows Server 2012 и Windows Server 2016.
-ms.prod: windows-server
 ms.topic: article
 author: JasonGerend
 ms.author: jgerend
-ms.technology: storage
 ms.date: 07/09/2018
 ms.localizationpriority: medium
-ms.openlocfilehash: 9052e9e6a1327b67fd75b07ab2ee6fc56b1190ac
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: e81b5ca5d28c33187b90fbabebc3d3f36073124c
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86962139"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87954701"
 ---
 # <a name="smb-security-enhancements"></a>Улучшения в безопасности SMB
 
@@ -43,17 +41,17 @@ ms.locfileid: "86962139"
 ### <a name="enable-smb-encryption-with-windows-powershell"></a>Включение шифрования SMB с помощью Windows PowerShell
 
 1. Чтобы включить шифрование SMB для отдельной общей папки, введите следующий скрипт на сервере:
-    
+
     ```PowerShell
     Set-SmbShare –Name <sharename> -EncryptData $true
     ```
 2. Чтобы включить шифрование SMB для всего файлового сервера, введите следующий скрипт на сервере:
-    
+
     ```PowerShell
     Set-SmbServerConfiguration –EncryptData $true
     ```
 3. Чтобы создать общую папку SMB с включенным шифрованием SMB, введите следующий скрипт:
-    
+
     ```PowerShell
     New-SmbShare –Name <sharename> -Path <pathname> –EncryptData $true
     ```

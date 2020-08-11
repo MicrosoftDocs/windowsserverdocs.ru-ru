@@ -1,17 +1,15 @@
 ---
 title: Команды Netsh для мобильного широкополосного подключения
 description: С помощью netsh mbn можно запрашивать и настраивать параметры мобильного широкополосного подключения.
-ms.prod: windows-server
-ms.technology: networking
 ms.topic: article
 author: apdutta
 ms.date: 02/20/2020
-ms.openlocfilehash: 478f87db4d520a133b3d70c0ed2dbb4e91db60d9
-ms.sourcegitcommit: 3a3d62f938322849f81ee9ec01186b3e7ab90fe0
+ms.openlocfilehash: 50c0bbf441e3109189117cbfd8df9ee597712bcd
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "80853737"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87953990"
 ---
 # <a name="netsh-mbn-commands"></a>Команды netsh mbn
 
@@ -19,7 +17,7 @@ ms.locfileid: "80853737"
 С помощью **netsh mbn** можно запрашивать и настраивать параметры мобильного широкополосного подключения.
 
 > [!TIP]
-> Справку по команде netsh mbn можно получить с помощью команды 
+> Справку по команде netsh mbn можно получить с помощью команды
 >
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;netsh mbn /?
 
@@ -227,7 +225,7 @@ disconnect interface="Cellular"
 
 ## <a name="dump"></a>dump
 
-Позволяет отобразить скрипт конфигурации. 
+Позволяет отобразить скрипт конфигурации.
 
 Позволяет создать скрипт, который содержит текущую конфигурацию.  Сохранив этот скрипт в файл, с его помощью можно восстановить параметры конфигурации.
 
@@ -529,7 +527,7 @@ set tracing mode=yes
 - [tracing](#tracing);
 - [visibleproviders](#visibleproviders).
 
-### <a name="acstate"></a>acstate  
+### <a name="acstate"></a>acstate
 
 Позволяет отобразить сведения о состоянии автоматического подключения к мобильному широкополосному подключению для заданного интерфейса.
 
@@ -667,7 +665,7 @@ show dmprofiles [[name=]<string>] [[interface=]<string>]
 | **interface** | Имя интерфейса. Одно из имен интерфейсов, которые отображаются с помощью команды "netsh mbn show interfaces". | Необязательный |
 
 **Замечания**
-    
+
 Позволяет отобразить данные профиля или перечислить существующие в системе профили.
 
 Если предоставлено имя профиля, отображается содержимое этого профиля. Если нет, перечисляются все профили для интерфейса.
@@ -789,7 +787,7 @@ show netlteattachinfo [interface=]<string>
 show netlteattachinfo interface="Cellular"
 ```
 
-### <a name="pin"></a>pin      
+### <a name="pin"></a>pin
 
 Позволяет отобразить сведения о контактах для указанного интерфейса.
 
@@ -813,7 +811,7 @@ show pin interface="Cellular"
 ```
 
 
-### <a name="pinlist"></a>pinlist  
+### <a name="pinlist"></a>pinlist
 
 Позволяет отобразить список контактов для указанного интерфейса.
 
@@ -861,7 +859,7 @@ show preferredproviders interface="Cellular"
 ```
 
 
-### <a name="profiles"></a>profiles 
+### <a name="profiles"></a>profiles
 
 Позволяет отобразить список профилей, настроенных в системе.
 
@@ -886,7 +884,7 @@ show profiles [[name=]<string>] [[interface=]<string>] [[purpose=]<string>]
 Если предоставлено имя профиля, в списке будет указан только один профиль из заданного интерфейса. Если нет, отображается первый подходящий профиль.
 
 Если указана цель (purpose), отображаются только профили с соответствующим идентификатором цели.  Если нет, фильтрация профилей по цели не выполняется.  Эта строка может содержать GUID в фигурных скобках или одну из следующих строк: internet, supl, mms, ims или allhost.
-    
+
 **Пример**
 
 ```powershell
@@ -943,7 +941,7 @@ show provisionedcontexts interface="Cellular"
 ```
 
 
-### <a name="purpose"></a>purpose  
+### <a name="purpose"></a>purpose
 
 Позволяет отобразить идентификаторы групп целей, которые можно использовать для фильтрации профилей на устройстве. Параметры для этой команды не используются.
 
@@ -954,7 +952,7 @@ show purpose
 ```
 
 
-### <a name="radio"></a>radio    
+### <a name="radio"></a>radio
 
 Позволяет отобразить сведения о приемопередатчике для указанного интерфейса.
 
@@ -1002,7 +1000,7 @@ show readyinfo interface="Cellular"
 ```
 
 
-### <a name="signal"></a>signal   
+### <a name="signal"></a>signal
 
 Позволяет отобразить сведения о сигнале для указанного интерфейса.
 
@@ -1098,14 +1096,14 @@ show smsconfig interface="Cellular"
 ```
 
 
-### <a name="tracing"></a>tracing  
+### <a name="tracing"></a>tracing
 
 Позволяет отобразить сведения о том, включена ли трассировка мобильного широкополосного подключения.
 
 **Синтаксис**
 
 ```powershell
-show tracing 
+show tracing
 ```
 
 

@@ -6,14 +6,12 @@ ms.author: dacuo
 manager: dougkim
 ms.date: 10/17/2018
 ms.topic: article
-ms.prod: windows-server
-ms.technology: networking
-ms.openlocfilehash: d58bf445fb8eab25d90a9a837cc038cb3c8109d6
-ms.sourcegitcommit: 3632b72f63fe4e70eea6c2e97f17d54cb49566fd
+ms.openlocfilehash: 20b2e3335fa769b230f55f0c7958a9c5445b5b25
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87517659"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87939925"
 ---
 # <a name="windows-time-for-traceability"></a>Использование службы времени Windows для отслеживания
 >Применяется к: Windows Server 2016 версии 1709 или более поздних, а также Windows 10 версии 1703 или более поздних.

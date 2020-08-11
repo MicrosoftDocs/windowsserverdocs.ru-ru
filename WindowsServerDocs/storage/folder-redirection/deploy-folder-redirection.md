@@ -1,19 +1,17 @@
 ---
 title: Развертывание перенаправления папок с помощью автономных файлов
 description: Использование Windows Server для развертывания перенаправления папок с помощью автономных файлов на клиентских компьютерах Windows.
-ms.prod: windows-server
 ms.topic: article
 author: JasonGerend
 ms.author: jgerend
-ms.technology: storage
 ms.date: 06/06/2019
 ms.localizationpriority: medium
-ms.openlocfilehash: 21af2aae837b7a570638c2eb3f3c96cb8997fa84
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.openlocfilehash: 368feec41fbecee57eb82bbe54a6fe31a9d0e3b5
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87182070"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87954711"
 ---
 # <a name="deploy-folder-redirection-with-offline-files"></a>Развертывание перенаправления папок с помощью автономных файлов
 

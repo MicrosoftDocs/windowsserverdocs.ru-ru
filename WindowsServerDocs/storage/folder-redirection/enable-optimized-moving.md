@@ -1,19 +1,17 @@
 ---
 title: Включение оптимизированного перемещения перенаправленных папок
 description: Выполнение оптимизированного перемещения перенаправленных папок в новую общую папку.
-ms.prod: windows-server
 ms.topic: article
 author: JasonGerend
 ms.author: jgerend
-ms.technology: storage
 ms.date: 09/10/2018
 ms.localizationpriority: medium
-ms.openlocfilehash: edf714bc0d6b39dbe7c5e800e953d7820fe9abc5
-ms.sourcegitcommit: 3a3d62f938322849f81ee9ec01186b3e7ab90fe0
+ms.openlocfilehash: 895bf41a5a42bd4578e99ba12205b56da18b9ba2
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "75352610"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87942194"
 ---
 # <a name="enable-optimized-moves-of-redirected-folders"></a>Включение оптимизированного перемещения перенаправленных папок
 

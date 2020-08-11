@@ -1,20 +1,18 @@
 ---
 title: Начало работы со службами обновления Windows Server (WSUS)
 description: Статья о службах обновления Windows Server (WSUS) с описанием роли сервера и ее применения на практике
-ms.prod: windows-server
-ms.technology: manage-wsus
 ms.topic: get-started article
 ms.assetid: 90e3464c-49d8-4861-96db-ee6f8a09ec5b
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 5/22/2017
-ms.openlocfilehash: 07095fbbe16464645564f07434285c76b8cfd4a1
-ms.sourcegitcommit: fb808a6fc851a3e5c47e6a7654366145d2f19554
+ms.openlocfilehash: 45f88b9295bfc2d48d8e1a599b33bea05717ef0f
+ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "84740637"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87881055"
 ---
 # <a name="windows-server-update-services-wsus"></a>Службы Windows Server Update Services (WSUS)
 
@@ -38,9 +36,9 @@ ms.locfileid: "84740637"
 
 > [!NOTE]
 > Обновление с любой версии Windows Server, поддерживающей WSUS 3.2, до Windows Server 2012 R2 требует предварительного удаления WSUS 3.2.
-> 
+>
 > В Windows Server 2012 обновление с любой версии Windows Server с установленными службами WSUS 3.2 блокируется в процессе установки, если будет обнаружена служба WSUS 3.2. В этом случае вам будет предложено сначала удалить службы обновления Windows Server, а затем повторно обновить сервер.
-> 
+>
 > Но после изменений, внесенных в текущем выпуске Windows Server и Windows Server 2012 R2, установка не блокируется при обновлении с любой версии Windows Server и WSUS 3.2. Если перед выполнением обновления Windows Server или Windows Server 2012 R2 не будут удалены службы WSUS 3.2, то задачи WSUS после установки будут завершаться ошибкой. Известен только один метод решения такой проблемы — отформатировать жесткий диск и повторно установить Windows Server.
 
 Службы Windows Server Update Services представляют собой встроенную роль сервера со следующими дополнительными возможностями.
