@@ -1,20 +1,18 @@
 ---
 title: Оптимизация Windows 10 версии 1909 для роли инфраструктуры виртуальных рабочих столов (VDI)
 description: Рекомендуемые параметры и конфигурация для снижения временных затрат на компьютеры Windows 10 версии 1909, используемые в качестве образов VDI.
-ms.prod: windows-server
 ms.reviewer: robsmi
-ms.technology: remote-desktop-services
 ms.author: helohr
 ms.topic: article
 author: heidilohr
 manager: lizross
 ms.date: 02/19/2020
-ms.openlocfilehash: 7568db50f09273b398955c314491b903f627d1a9
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.openlocfilehash: 7b9500c11ca5dba7ed2f51d1d6b32b7cf689f070
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87182100"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87997125"
 ---
 # <a name="optimizing-windows-10-version-1909-for-a-virtual-desktop-infrastructure-vdi-role"></a>Оптимизация Windows 10 версии 1909 для роли инфраструктуры виртуальных рабочих столов (VDI)
 
@@ -195,7 +193,7 @@ Remove-AppxProvisionedPackage -Online -PackageName
 
 ### <a name="manage-windows-optional-features-using-powershell"></a>Управление дополнительными компонентами Windows с помощью PowerShell
 
-Вы можете управлять дополнительными компонентами Windows с помощью PowerShell. См. сведения на [форуме Windows Server PowerShell](https://docs.microsoft.com/answers/topics/windows-server-powershell.html). Чтобы перечислить текущие установленные компоненты Windows, выполните следующую команду PowerShell:
+Вы можете управлять дополнительными компонентами Windows с помощью PowerShell. См. сведения на [форуме Windows Server PowerShell](/answers/topics/windows-server-powershell.html). Чтобы перечислить текущие установленные компоненты Windows, выполните следующую команду PowerShell:
 
 ```powershell
 Get-WindowsOptionalFeature -Online
@@ -715,7 +713,7 @@ Windows по умолчанию собирает и хранит огранич�
 >[!NOTE]
 > Некоторые параметры в этом разделе доступны только в реестре и должны быть включены в базовый образ до его развертывания для использования в рабочей среде.
 
-Следующие параметры описаны в [руководстве по обеспечению высокой производительности Windows Server 2016](/windows-server/administration/performance-tuning/), опубликованном на сайте Microsoft.com группой по разработке продуктов Windows.
+Следующие параметры описаны в [руководстве по обеспечению высокой производительности Windows Server 2016](../../administration/performance-tuning/index.md), опубликованном на сайте Microsoft.com группой по разработке продуктов Windows.
 
 #### <a name="disablebandwidththrottling"></a>DisableBandwidthThrottling
 

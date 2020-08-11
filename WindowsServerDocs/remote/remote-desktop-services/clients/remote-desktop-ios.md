@@ -1,8 +1,6 @@
 ---
 title: Приступая к работе с клиентом iOS
 description: Дополнительные сведения от том, как настроить клиента удаленного рабочего стола в iOS
-ms.prod: windows-server
-ms.technology: remote-desktop-services
 ms.topic: article
 ms.assetid: 03ec5a3d-d3f2-4afd-9405-ae58b6ecc91c
 author: Heidilohr
@@ -10,12 +8,12 @@ manager: lizross
 ms.author: helohr
 ms.date: 07/16/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: 8f51a60e66a3e1452ed66c94c409c5e4e5cb191f
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.openlocfilehash: 723fa40e1c2d446381b333eee1289a25adefd5d8
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87181970"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87997366"
 ---
 # <a name="get-started-with-the-ios-client"></a>Приступая к работе с клиентом iOS
 
@@ -192,4 +190,4 @@ ms.locfileid: "87181970"
 Хотя определенные сочетания клавиш могут не работать должным образом в удаленном сеансе, многие из стандартных сочетаний клавиш Windows, такие как CTRL+C, CTRL+V и ALT+TAB, будут работать.
 
 > [!TIP]
-> Мы всегда приветствуем вопросы и комментарии. Но если вы опубликуете запрос для службы поддержки или отзыв о продукте в разделе комментариев к этой статье, мы не сможем вам ответить. Если вам нужна помощь или вы хотите устранить неполадки, связанные с клиентом, рекомендуем перейти на страницу [форума о клиенте удаленного рабочего стола](https://docs.microsoft.com/answers/topics/windows-remote-desktop-client.html) и начать новое обсуждение. Если у вас есть предложение по функционалу клиента, вы можете сообщить нам об этом [в соответствующем форуме UserVoice](https://remotedesktop.uservoice.com/forums/272085-remote-desktop-for-android).
+> Мы всегда приветствуем вопросы и комментарии. Но если вы опубликуете запрос для службы поддержки или отзыв о продукте в разделе комментариев к этой статье, мы не сможем вам ответить. Если вам нужна помощь или вы хотите устранить неполадки, связанные с клиентом, рекомендуем перейти на страницу [форума о клиенте удаленного рабочего стола](/answers/topics/windows-remote-desktop-client.html) и начать новое обсуждение. Если у вас есть предложение по функционалу клиента, вы можете сообщить нам об этом [в соответствующем форуме UserVoice](https://remotedesktop.uservoice.com/forums/272085-remote-desktop-for-android).

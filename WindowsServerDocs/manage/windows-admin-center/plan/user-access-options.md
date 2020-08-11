@@ -1,19 +1,17 @@
 ---
 title: Параметры доступа пользователей в Windows Admin Center
 description: Параметры доступа пользователей и поставщики удостоверений в Windows Admin Center (проект Honolulu)
-ms.technology: manage
 ms.topic: article
 author: haley-rowland
 ms.author: harowl
 ms.date: 03/07/2019
 ms.localizationpriority: medium
-ms.prod: windows-server
-ms.openlocfilehash: 084cdae0bf8ca0eb3aff1f4679d30978b860efef
-ms.sourcegitcommit: 3a3d62f938322849f81ee9ec01186b3e7ab90fe0
+ms.openlocfilehash: 3c96968f55a06c7ccffd9f7919001f21bff6a75c
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "71356920"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87996992"
 ---
 # <a name="user-access-options-with-windows-admin-center"></a>Параметры доступа пользователей в Windows Admin Center
 
@@ -33,7 +31,7 @@ Windows Admin Center определяет две роли для доступа 
 **Администраторы шлюза** могут настраивать доступ, а также способ выполнения проверки подлинности для пользователей шлюза.
 
 >[!NOTE]
-> Если в Windows Admin Center не определены группы доступа, роли будут отражать доступ учетной записи Windows к серверу шлюза. 
+> Если в Windows Admin Center не определены группы доступа, роли будут отражать доступ учетной записи Windows к серверу шлюза.
 
 [Настройка доступа пользователей и администраторов шлюза в Windows Admin Center.](../configure/user-access-control.md)
 
@@ -51,7 +49,7 @@ Windows Admin Center определяет две роли для доступа 
 
 ### <a name="conditional-access-and-multi-factor-authentication"></a>Условный доступ и многофакторная проверка подлинности
 
-Если для шлюза требуется выполнить проверку подлинности Azure AD, вы можете использовать дополнительные функции безопасности, такие как условный доступ и многофакторная проверка подлинности, предоставляемые Azure AD. [Краткое руководство. Требование Многофакторной идентификации для конкретных приложений с помощью условного доступа Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal-get-started)
+Если для шлюза требуется выполнить проверку подлинности Azure AD, вы можете использовать дополнительные функции безопасности, такие как условный доступ и многофакторная проверка подлинности, предоставляемые Azure AD. [Краткое руководство. Требование Многофакторной идентификации для конкретных приложений с помощью условного доступа Azure Active Directory](/azure/active-directory/active-directory-conditional-access-azure-portal-get-started)
 
 ## <a name="role-based-access-control"></a>Управление доступом на основе ролей
 

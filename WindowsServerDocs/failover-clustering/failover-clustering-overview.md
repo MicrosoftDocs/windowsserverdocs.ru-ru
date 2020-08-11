@@ -1,20 +1,18 @@
 ---
 ms.assetid: c9844427-27cf-4d76-b5bb-e06368b092f7
 title: Отказоустойчивая кластеризация
-ms.prod: windows-server
 ms.topic: landing-page
 manager: lizross
 author: JasonGerend
 ms.author: jgerend
-ms.technology: storage-failover-clustering
 ms.date: 06/06/2019
 ms.localizationpriority: high
-ms.openlocfilehash: 657cf161086047ca87ca7dbd2adcd2b8e6bde892
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.openlocfilehash: 41f5eef75e20a4da740141620493d2daa254b0a1
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87177890"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87992855"
 ---
 # <a name="failover-clustering-in-windows-server"></a>Отказоустойчивая кластеризация в Windows Server
 
@@ -44,7 +42,7 @@ ms.locfileid: "87177890"
 
 |**Управление**  |  **Средства и параметры**  |  **Ресурсы сообщества**       |
 | ------------- |  -------------- | --------------------- |
-| [Кластерное обновление](cluster-aware-updating.md)    |   [Командлеты PowerShell для отказоустойчивой кластеризации](https://docs.microsoft.com/powershell/module/failoverclusters/?view=win10-ps)      |  [Форум по кластеризации (высокой доступности)](https://go.microsoft.com/fwlink/p/?LinkId=230641)       |
-|  [Служба работоспособности](health-service-overview.md)   |   [Командлеты PowerShell для обновления с поддержкой кластера](https://docs.microsoft.com/powershell/module/clusterawareupdating/?view=win10-ps)      | [Блог группы отказоустойчивой кластеризации и балансировки сетевой нагрузки](https://blogs.msdn.com/b/clustering/)        |
+| [Кластерное обновление](cluster-aware-updating.md)    |   [Командлеты PowerShell для отказоустойчивой кластеризации](/powershell/module/failoverclusters/?view=win10-ps)      |  [Форум по кластеризации (высокой доступности)](https://go.microsoft.com/fwlink/p/?LinkId=230641)       |
+|  [Служба работоспособности](health-service-overview.md)   |   [Командлеты PowerShell для обновления с поддержкой кластера](/powershell/module/clusterawareupdating/?view=win10-ps)      | [Блог группы отказоустойчивой кластеризации и балансировки сетевой нагрузки](https://blogs.msdn.com/b/clustering/)        |
 |  [Перенос кластера между доменами](cluster-domain-migration.md)   |         |         |
 |  [Устранение неполадок с помощью отчетов об ошибках Windows](troubleshooting-using-wer-reports.md)   |         |         |

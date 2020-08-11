@@ -1,20 +1,18 @@
 ---
 title: Дополнительные обновления для системы безопасности Windows Server 2008 и 2008 R2
 description: Примеры использования дополнительных обновлений для системы безопасности Windows Server 2008 и 2008 R2 по окончании жизненного цикла поддержки.
-ms.prod: windows-server
-ms.technology: server-general
 ms.mktglfcycl: manage
 author: iainfoulds
 ms.author: iainfou
 ms.topic: get-started-article
 ms.localizationpriority: high
 ms.date: 02/21/2020
-ms.openlocfilehash: 19a65f2a254fe14f7cddfbda2a84e9d00f47da56
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.openlocfilehash: c74c8a278612d2ca47346ad95105f1258761494a
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87181850"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87990481"
 ---
 # <a name="how-to-use-windows-server-2008-and-2008-r2-extended-security-updates-esu"></a>Использование дополнительных обновлений для системы безопасности Windows Server 2008 и 2008 R2
 
@@ -101,7 +99,7 @@ ms.locfileid: "87181850"
 
     Если команда не утвердит ваш запрос, вы увидите следующую ошибку:
 
-    [The resource type could not be found in the namespace 'Microsoft.WindowsESU'](https://docs.microsoft.com/windows-server/get-started/extended-security-updates) (Не удалось найти тип ресурса в пространстве имен Microsoft.WindowsESU).
+    [The resource type could not be found in the namespace 'Microsoft.WindowsESU']() (Не удалось найти тип ресурса в пространстве имен Microsoft.WindowsESU).
 
 6. В разделе **Сведения об Azure** выберите подписку Azure, группу ресурсов и расположение для своего ключа.
 

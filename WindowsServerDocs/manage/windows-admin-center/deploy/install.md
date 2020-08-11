@@ -1,19 +1,17 @@
 ---
 title: Установка Windows Admin Center
 description: Сведения об установке Windows Admin Center на компьютер или на сервер с Windows, чтобы несколько пользователей могли получить доступ к Windows Admin Center с помощью веб-браузера.
-ms.technology: manage
 ms.topic: article
 author: jwwool
 ms.author: jeffrew
 ms.date: 07/17/2019
 ms.localizationpriority: medium
-ms.prod: windows-server
-ms.openlocfilehash: cab128a3da9fa58c598cebcdf188058631c33977
-ms.sourcegitcommit: 3a3d62f938322849f81ee9ec01186b3e7ab90fe0
+ms.openlocfilehash: df5e7e2c23b9120a890b34448868ec4d5b1c99b3
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "75949999"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87997407"
 ---
 # <a name="install-windows-admin-center"></a>Установка Windows Admin Center
 
@@ -27,7 +25,7 @@ ms.locfileid: "75949999"
 
 ## <a name="determine-your-installation-type"></a>Определение типа установки
 
-Просмотрите [варианты установки](../plan/installation-options.md), в том числе [поддерживаемые операционные системы](https://docs.microsoft.com/windows-server/manage/windows-admin-center/plan/installation-options#installation-supported-operating-systems). Чтобы установить Windows Admin Center на виртуальной машине в Azure, обратитесь к статье о [развертывании Windows Admin Center в Azure](../azure/deploy-wac-in-azure.md).
+Просмотрите [варианты установки](../plan/installation-options.md), в том числе [поддерживаемые операционные системы](../plan/installation-options.md#installation-supported-operating-systems). Чтобы установить Windows Admin Center на виртуальной машине в Azure, обратитесь к статье о [развертывании Windows Admin Center в Azure](../azure/deploy-wac-in-azure.md).
 
 ## <a name="install-on-windows-10"></a>Установка в Windows 10
 
@@ -61,7 +59,7 @@ ms.locfileid: "75949999"
 
 Выполните следующую команду, чтобы установить Windows Admin Center и автоматически создать самозаверяющий сертификат.
 
-```   
+```
 msiexec /i <WindowsAdminCenterInstallerName>.msi /qn /L*v log.txt SME_PORT=<port> SSL_CERTIFICATE_OPTION=generate
 ```
 

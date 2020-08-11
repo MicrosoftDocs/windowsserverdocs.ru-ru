@@ -1,19 +1,17 @@
 ---
 title: Settings
 description: Дополнительные сведения о параметрах в Windows Admin Center (Project Honolulu). С помощью параметров пользователей можно менять язык и регион, а также другие параметры. Параметры шлюза позволяют администраторам настраивать шлюз.
-ms.technology: manage
 ms.topic: article
 author: haley-rowland
 ms.author: harowl
 ms.date: 04/12/2018
 ms.localizationpriority: medium
-ms.prod: windows-server
-ms.openlocfilehash: e0fd6618f275058d4e22fe9abb9e484d4752ac9a
-ms.sourcegitcommit: 3a3d62f938322849f81ee9ec01186b3e7ab90fe0
+ms.openlocfilehash: ff06a19d85858b8332412a51c029c9aeeba2af50
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "71407051"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87997439"
 ---
 # <a name="windows-admin-center-settings"></a>Параметры Windows Admin Center
 
@@ -56,6 +54,6 @@ ms.locfileid: "71407051"
 
 Вкладка **Доступ** позволяет администраторам настраивать доступ к шлюзу Windows Admin Center, а также указать поставщика удостоверений, используемого для аутентификации пользователей. [Подробнее об управлении доступом к шлюзу.](user-access-control.md)
 
-На вкладке **Azure** администраторы могут зарегистрировать шлюз в Azure, чтобы включить [функции интеграции с Azure](azure-integration.md) в Windows Admin Center.
+На вкладке **Azure** администраторы могут зарегистрировать шлюз в Azure, чтобы включить [функции интеграции с Azure](../azure/azure-integration.md) в Windows Admin Center.
 
 С помощью вкладки **Shared Connections** (Общие подключения) администраторы могут настроить единый список подключений, которые будут совместно использоваться всеми пользователями Windows Admin Center. [Подробнее о настройке подключений сразу для всех пользователей шлюза.](shared-connections.md)

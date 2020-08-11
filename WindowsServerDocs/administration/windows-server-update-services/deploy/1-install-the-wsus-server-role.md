@@ -1,20 +1,18 @@
 ---
 title: Шаг 1. Установка роли сервера WSUS
 description: Узнайте о Windows Server Update Service (WSUS), в т. ч. о том, как установить роль сервера с помощью диспетчера серверов.
-ms.prod: windows-server
-ms.technology: manage-wsus
 ms.topic: article
 ms.assetid: fabc8619-350e-403b-96f8-116424931300
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: a923b2da4583c32010e7e3104315957f3f05acaf
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.openlocfilehash: 980aa106b9ed4cb1ebc5b091fa308906dcdb2d6a
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87178570"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87991028"
 ---
 # <a name="step-1-install-the-wsus-server-role"></a>Шаг 1. Установка роли сервера WSUS
 
@@ -23,7 +21,7 @@ ms.locfileid: "87178570"
 Следующий шаг в развертывании сервера WSUS — это установка роли сервера WSUS. Далее описано, как установить роль сервера WSUS с помощью диспетчера серверов.
 
 > [!IMPORTANT]
-> Эта процедура охватывает установку WSUS только с использованием внутренней базы данных Windows (WID). Процедуры установки WSUS с помощью Microsoft SQL Server описаны на [форуме WSUS](https://docs.microsoft.com/answers/topics/windows-server-update-services.html).
+> Эта процедура охватывает установку WSUS только с использованием внутренней базы данных Windows (WID). Процедуры установки WSUS с помощью Microsoft SQL Server описаны на [форуме WSUS](/answers/topics/windows-server-update-services.html).
 
 ### <a name="to-install-the-wsus-server-role"></a>Установка роли сервера WSUS
 
@@ -63,4 +61,3 @@ ms.locfileid: "87178570"
 
 > [!IMPORTANT]
 > Процесс установки будет завершен, но чтобы обеспечить работоспособность службы WSUS, перейдите к разделу [Шаг 2. Настройка WSUS](2-configure-wsus.md).
-

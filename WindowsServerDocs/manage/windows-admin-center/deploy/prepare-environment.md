@@ -1,19 +1,17 @@
 ---
 title: Подготовка среды для Windows Admin Center
 description: Подготовка среды для Windows Admin Center (Project Honolulu)
-ms.technology: manage
 ms.topic: article
 author: nwashburn-ms
 ms.author: niwashbu
 ms.date: 06/07/2019
 ms.localizationpriority: medium
-ms.prod: windows-server
-ms.openlocfilehash: a37c7e8765ba6f83fc1ebe20aaba3dfb8bc29a3d
-ms.sourcegitcommit: b35fbd2a67d7a3395b50b2a3acd0817ba4e36b26
+ms.openlocfilehash: 5506918ed8da3a71c5ca078ce84502a3d889a386
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "86891349"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87997454"
 ---
 # <a name="prepare-your-environment-for-windows-admin-center"></a>Подготовка среды для Windows Admin Center
 
@@ -35,7 +33,7 @@ ms.locfileid: "86891349"
 
 Введите `$PSVersiontable` в PowerShell, чтобы проверить, что платформа WMF установлена, и что используется версия 5.1 или более поздняя версия.
 
-Если она не установлена, можно [скачать и установить WMF 5.1](https://docs.microsoft.com/powershell/scripting/wmf/setup/install-configure).
+Если она не установлена, можно [скачать и установить WMF 5.1](/powershell/scripting/wmf/setup/install-configure).
 
 ## <a name="prepare-microsoft-hyper-v-server-2016"></a>Подготовка Microsoft Hyper-V Server 2016
 
@@ -93,7 +91,7 @@ ms.locfileid: "86891349"
 
 Введите `$PSVersiontable` в PowerShell, чтобы проверить, что платформа WMF установлена, и что используется версия 5.1 или более поздняя версия.
 
-Если она не установлена, вы можете [скачать WMF 5.1](https://docs.microsoft.com/powershell/scripting/wmf/setup/install-configure).
+Если она не установлена, вы можете [скачать WMF 5.1](/powershell/scripting/wmf/setup/install-configure).
 
 ### <a name="step-2-enable-remote-management"></a>Шаг 2. Включение удаленного управления
 
@@ -129,4 +127,4 @@ ms.locfileid: "86891349"
 Windows Admin Center использует протокол общего доступа к файлам SMB для некоторых задач копирования файлов, например при импорте сертификата на удаленном сервере. Чтобы эти операции копирования файлов прошли успешно, брандмауэр на удаленном сервере должен разрешать входящие подключения через порт 445.  Вы можете с помощью средства брандмауэра в Windows Admin Center убедиться, что настроено входящее правило "File Server Remote Management (SMB-In)" (Удаленное управление файловым сервером SMB-in), которое разрешает доступ через этот порт.
 
 > [!Tip]
-> Готовы к установке Windows Admin Center? [Скачать](https://docs.microsoft.com/windows-server/manage/windows-admin-center/understand/windows-admin-center#download-now)
+> Готовы к установке Windows Admin Center? [Скачать](../overview.md#download-now)

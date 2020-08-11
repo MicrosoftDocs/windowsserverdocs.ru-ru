@@ -1,19 +1,17 @@
 ---
 title: Настройка управления доступом и разрешениями на уровне пользователей
 description: Узнайте, как настроить управление доступом и разрешениями на уровне пользователей с помощью Active Directory или Azure AD (проект Honolulu).
-ms.technology: manage
 ms.topic: article
 author: haley-rowland
 ms.author: harowl
 ms.date: 06/07/2019
 ms.localizationpriority: medium
-ms.prod: windows-server
-ms.openlocfilehash: 0de38560301d4d793214846036850a05a5d5a326
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.openlocfilehash: 99fafcb5a42133baeb119a9857a2e05b7e3dbd89
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87182210"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87997421"
 ---
 # <a name="configure-user-access-control-and-permissions"></a>Настройка управления доступом и разрешениями на уровне пользователей
 
@@ -82,7 +80,7 @@ ms.locfileid: "87182210"
 
 ### <a name="configuring-azure-active-directory-authentication-for-windows-admin-center"></a>Настройка проверки подлинности Azure Active Directory для Windows Admin Center
 
-[Чтобы настроить проверку подлинности Azure AD, необходимо сначала зарегистрировать шлюз в Azure](azure-integration.md) (это необходимо сделать только один раз для шлюза Windows Admin Center). На этом этапе создается приложение Azure AD, с помощью которого вы можете управлять доступом пользователей шлюза и администраторов шлюза.
+[Чтобы настроить проверку подлинности Azure AD, необходимо сначала зарегистрировать шлюз в Azure](../azure/azure-integration.md) (это необходимо сделать только один раз для шлюза Windows Admin Center). На этом этапе создается приложение Azure AD, с помощью которого вы можете управлять доступом пользователей шлюза и администраторов шлюза.
 
 Если вы хотите предоставить доступ к службе Windows Admin Center определенным пользователям Azure AD, группам пользователей шлюза или администраторам шлюза, необходимо выполнить следующие действия.
 
@@ -103,7 +101,7 @@ ms.locfileid: "87182210"
 
 Одним из преимуществ использования Azure AD в качестве дополнительного уровня безопасности для контроля доступа к шлюзу Windows Admin Center является то, что вы можете использовать эффективные функции безопасности Azure AD, такие как условный доступ и многофакторная проверка подлинности.
 
-[Краткое руководство. Требование Многофакторной идентификации для конкретных приложений с помощью условного доступа Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal-get-started)
+[Краткое руководство. Требование Многофакторной идентификации для конкретных приложений с помощью условного доступа Azure Active Directory](/azure/active-directory/active-directory-conditional-access-azure-portal-get-started)
 
 ## <a name="configure-single-sign-on"></a>Настройте единый вход
 
@@ -111,7 +109,7 @@ ms.locfileid: "87182210"
 
 После установки Windows Admin Center в Windows 10 все готово к использованию единого входа. Однако если вы собираетесь использовать Windows Admin Center в Windows Server, то перед использованием единого входа необходимо настроить в среде некоторую форму делегирования Kerberos. Делегирование настраивает компьютер шлюза как доверенный для делегирования к целевому узлу.
 
-Используйте следующий пример PowerShell, чтобы настроить [ограниченное делегирование на основе ресурсов](https://docs.microsoft.com/windows-server/security/kerberos/kerberos-constrained-delegation-overview) в вашей среде. В этом примере показано, как настроить Windows Server [node01.contoso.com] для принятия делегирования из шлюза Windows Admin Center [wac.contoso.com] в домене contoso.com.
+Используйте следующий пример PowerShell, чтобы настроить [ограниченное делегирование на основе ресурсов](../../../security/kerberos/kerberos-constrained-delegation-overview.md) в вашей среде. В этом примере показано, как настроить Windows Server [node01.contoso.com] для принятия делегирования из шлюза Windows Admin Center [wac.contoso.com] в домене contoso.com.
 
 ```powershell
 Set-ADComputer -Identity (Get-ADComputer node01) -PrincipalsAllowedToDelegateToAccount (Get-ADComputer wac)

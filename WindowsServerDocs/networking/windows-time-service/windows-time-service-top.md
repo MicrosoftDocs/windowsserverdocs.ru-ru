@@ -1,19 +1,17 @@
 ---
 ms.assetid: e34622ff-b2d0-4f81-8d00-dacd5d6c215e
-title: служба времени Windows
+title: Служба времени Windows (W32Time)
 author: dcuomo
 ms.author: dacuo
 manager: dougkim
 ms.date: 05/08/2018
 ms.topic: article
-ms.prod: windows-server
-ms.technology: networking
-ms.openlocfilehash: 5dbb0db20f7100ed7dbe99587f201f38abf632ad
-ms.sourcegitcommit: 3a3d62f938322849f81ee9ec01186b3e7ab90fe0
+ms.openlocfilehash: 2bd28bc9e774ebdd30c81397bfe3a3bb6320a679
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "80815907"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87997385"
 ---
 # <a name="windows-time-service-w32time"></a>Служба времени Windows (W32Time)
 
@@ -32,9 +30,9 @@ ms.locfileid: "80815907"
 
 
 ## <a name="related-topics"></a>Связанные разделы
-Дополнительные сведения об иерархии доменов и системе оценки см. в записи блога, посвященной [службе времени Windows](https://blogs.msdn.microsoft.com/w32time/2007/07/07/what-is-windows-time-service/). .
+Дополнительные сведения об иерархии доменов и системе оценки см. в записи блога, посвященной [службе времени Windows](/archive/blogs/w32time/what-is-windows-time-service). .
 
-Модель подключаемого модуля поставщика времени Windows [описана в документации в TechNet](https://msdn.microsoft.com/library/windows/desktop/ms725475%28v=vs.85%29.aspx).
+Модель подключаемого модуля поставщика времени Windows [описана в документации в TechNet](/windows/win32/sysinfo/time-provider).
 
 Дополнение, на которое ссылается статья о точном времени в Windows 2016, можно скачать [здесь](https://windocs.blob.core.windows.net/windocs/WindowsTimeSyncAccuracy_Addendum.pdf).
 

@@ -1,18 +1,16 @@
 ---
 title: Обновление Windows Server 2008 R2 до Windows Server 2012 R2 | Документация Майкрософт
 description: Узнайте, как выполнить обновление на месте для перехода с Windows Server 2008 R2 на Windows Server 2012 R2.
-ms.prod: windows-server
-ms.technology: server-general
 ms.topic: upgrade
 author: RobHindman
 ms.author: robhind
 ms.date: 09/16/2019
-ms.openlocfilehash: 7598826bee4abd869dff82c3891fdbe126db35fb
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.openlocfilehash: fad4caf75be75bae5361a99f1e6e6520767680cd
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87182180"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87996098"
 ---
 # <a name="upgrade-windows-server-2008-r2-to-windows-server-2012-r2"></a>Обновление Windows Server 2008 R2 до Windows Server 2012 R2
 
@@ -66,7 +64,7 @@ ms.locfileid: "87182180"
 
     ![Экран для выбора типа установки](media/upgrade-2008r2-2012r2/choose-install-upgrade.png)
 
-9. Программа установки напоминает вам, что вы должны убедиться, что ваши приложения совместимы с Windows Server 2012 R2, используя информацию из статьи [Установка и обновление Windows Server](https://docs.microsoft.com/windows-server/get-started/installation-and-upgrade), а затем нажмите кнопку **Далее**.
+9. Программа установки напоминает вам, что вы должны убедиться, что ваши приложения совместимы с Windows Server 2012 R2, используя информацию из статьи [Установка и обновление Windows Server](../get-started/installation-and-upgrade.md), а затем нажмите кнопку **Далее**.
 
     ![Окно с напоминанием о проверке совместимости приложений](media/upgrade-2008r2-2012r2/compatibility-report.png)
 

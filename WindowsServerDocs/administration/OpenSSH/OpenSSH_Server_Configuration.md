@@ -4,14 +4,13 @@ description: Сведения о конфигурации сервера OpenSSH
 ms.date: 09/27/2018
 ms.topic: conceptual
 contributor: maertendMSFT
-ms.product: windows-server
 author: maertendmsft
-ms.openlocfilehash: abd156936bbd26479b0fe6bb7ffb98c1dd122f8e
-ms.sourcegitcommit: 771db070a3a924c8265944e21bf9bd85350dd93c
+ms.openlocfilehash: 4e2052ef9bf67eea241b6668a734f2f3e166bb61
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85469759"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87992384"
 ---
 # <a name="openssh-server-configuration-for-windows-10-1809-and-server-2019"></a>Конфигурация сервера OpenSSH для Windows 10 версии 1809 и Windows Server 2019
 
@@ -64,7 +63,7 @@ Windows поддерживает несколько форматов для ук
 Кроме того, этот подход использует "?" вместо "\@", чтобы избежать конфликтов с форматом username@host.
 
 Пользователи и группы, входящие в рабочие группы, а также подключенные к Интернету учетные записи всегда разрешаются в имена локальных учетных записей (без сегмента домена, примерно как стандартные имена в UNIX).
-Пользователи и группы домена строго разрешаются в формат [NameSamCompatible](https://docs.microsoft.com/windows/desktop/api/secext/ne-secext-extended_name_format), то есть "короткое_имя_домена\имя_пользователя".
+Пользователи и группы домена строго разрешаются в формат [NameSamCompatible](/windows/desktop/api/secext/ne-secext-extended_name_format), то есть "короткое_имя_домена\имя_пользователя".
 Все правила конфигурации для пользователей и групп должны соответствовать этому формату.
 
 Примеры для пользователей и групп домена
@@ -149,4 +148,3 @@ AllowGroups sshusers
 * X11Forwarding
 * X11UseLocalhost
 * XAuthLocation
-

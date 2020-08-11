@@ -1,8 +1,6 @@
 ---
 title: Приступая к работе с клиентом macOS
 description: Узнайте, как настроить клиент удаленного рабочего стола для Mac.
-ms.prod: windows-server
-ms.technology: remote-desktop-services
 ms.topic: article
 ms.assetid: 7afc65f8-3158-49c9-9d48-4dab1c69afba
 author: lizap
@@ -10,12 +8,12 @@ manager: dongill
 ms.author: elizapo
 ms.date: 07/16/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: 57072fe5a92bcc59a1ccd46b1c0db7a6828a165d
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.openlocfilehash: 2a0c93ddc6bf891a3f8157d36b67f60241d4d41b
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87181960"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87991593"
 ---
 # <a name="get-started-with-the-macos-client"></a>Приступая к работе с клиентом macOS
 
@@ -164,4 +162,4 @@ ms.locfileid: "87181960"
 Чтобы узнать больше об этой функции, ознакомьтесь со страницей [https://aka.ms/paa-sample](https://aka.ms/paa-sample).
 
 > [!TIP]
-> Мы всегда приветствуем вопросы и комментарии. Тем не менее не стоит публиковать запрос для получения справки по устранению неполадок, используя область комментариев в конце этой статьи. Вместо этого перейдите на [форум по клиенту удаленного рабочего стола](https://docs.microsoft.com/answers/topics/windows-remote-desktop-client.html) и начните новую беседу. Есть предложение по новым функциям? Сообщите нам на [форуме UserVoice по клиенту](https://remotedesktop.uservoice.com/forums/272085-remote-desktop-for-android).
+> Мы всегда приветствуем вопросы и комментарии. Тем не менее не стоит публиковать запрос для получения справки по устранению неполадок, используя область комментариев в конце этой статьи. Вместо этого перейдите на [форум по клиенту удаленного рабочего стола](/answers/topics/windows-remote-desktop-client.html) и начните новую беседу. Есть предложение по новым функциям? Сообщите нам на [форуме UserVoice по клиенту](https://remotedesktop.uservoice.com/forums/272085-remote-desktop-for-android).

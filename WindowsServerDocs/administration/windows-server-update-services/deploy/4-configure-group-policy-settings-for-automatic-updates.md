@@ -1,20 +1,18 @@
 ---
 title: Шаг 4. Настройка параметров групповой политики для автоматического обновления
 description: Раздел службы Windows Server Update Service (WSUS). Настройка параметров групповой политики для автоматического обновления является четвертым шагом в четырехэтапном процессе развертывания служб WSUS
-ms.prod: windows-server
-ms.technology: manage-wsus
 ms.topic: article
 ms.assetid: 62177d05-d832-4ea8-bca4-47a8cd34a19c
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: d678c139ae2327eeecdff2731f1edb57d358a28a
-ms.sourcegitcommit: 3a3d62f938322849f81ee9ec01186b3e7ab90fe0
+ms.openlocfilehash: ca59369cda4c38af111b9ccd3141219b1516cbd7
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "80828847"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87991096"
 ---
 # <a name="step-4-configure-group-policy-settings-for-automatic-updates"></a>Шаг 4. Настройка параметров групповой политики для автоматического обновления
 
@@ -639,7 +637,7 @@ ms.locfileid: "80828847"
 
     -   **Щелкните "Конфигурация компьютера" и выберите расширение групповой политики "Планировщик заданий обслуживания"** . В GPOE выберите *PolicyName* > **Конфигурация компьютера** > **Политики** > **Административные шаблоны** > **Компоненты Windows** > **Планировщик заданий обслуживания**.
 
-Дополнительные сведения об использовании групповой политики см. в [этой статье](https://technet.microsoft.com/library/hh831791.aspx(v=ws.12)).
+Дополнительные сведения об использовании групповой политики см. в [этой статье](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831791(v=ws.11)).
 
 > [!TIP]
 > После открытия расширения групповой политики необходимо выполнить следующие действия для включения, отключения или перехода между параметрами.
