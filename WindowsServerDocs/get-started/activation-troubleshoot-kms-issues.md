@@ -3,17 +3,16 @@ title: 'Активация KMS: известные проблемы'
 description: Описываются распространенные проблемы, которые могут возникнуть во время активации KMS, а также приводятся рекомендации по их устранению.
 ms.topic: troubleshooting
 ms.date: 10/3/2019
-ms.technology: server-general
 author: Teresa-Motiv
 ms.author: v-tea
 manager: dcscontentpm
 ms.localizationpriority: medium
-ms.openlocfilehash: 14cdf24bc7a88acbfa226954e10274ee47a64b2a
-ms.sourcegitcommit: 145cf75f89f4e7460e737861b7407b5cee7c6645
+ms.openlocfilehash: c36d40c52dad8cb299e0736149abc6a36560c1a4
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "87409985"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87972361"
 ---
 # <a name="kms-activation-known-issues"></a>Активация KMS: известные проблемы
 

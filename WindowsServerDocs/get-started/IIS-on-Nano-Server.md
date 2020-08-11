@@ -1,21 +1,19 @@
 ---
 title: IIS на сервере Nano Server
 description: Сведения о настройке IIS на сервере Nano Server
-ms.prod: windows-server
 manager: DonGill
-ms.technology: server-nano
 ms.topic: article
 ms.date: 09/06/2017
 ms.assetid: 16984724-2d77-4d7b-9738-3dff375ed68c
 author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: a64896a1efcafec878ea8fd5dda8077a1fdc9c42
-ms.sourcegitcommit: f305bc5f1c5a44dac62f4288450af19f351f9576
+ms.openlocfilehash: b5b469e3aa2e3cb3eb9f050667450be48da03b15
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "87118579"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87959722"
 ---
 # <a name="iis-on-nano-server"></a>IIS на сервере Nano Server
 

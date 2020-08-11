@@ -1,19 +1,17 @@
 ---
 title: Размеры виртуальных машин
 description: Рекомендации по определению размера для каждого типа рабочей нагрузки.
-ms.prod: windows-server
-ms.technology: remote-desktop-services
 ms.author: helohr
 ms.date: 12/02/2019
 ms.topic: article
 author: Heidilohr
 manager: lizross
-ms.openlocfilehash: 644799ba9c6ebde4943b678199c678da376e05ae
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 6ddc3b14fbf068405e0145f7342ea27a8f51a5af
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86963146"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87970101"
 ---
 # <a name="virtual-machine-sizing-guidelines"></a>Рекомендации по выбору размера виртуальной машины
 

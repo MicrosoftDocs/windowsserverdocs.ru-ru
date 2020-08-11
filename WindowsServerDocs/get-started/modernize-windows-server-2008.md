@@ -1,7 +1,6 @@
 ---
 title: Обновление Windows Server 2008 и Windows Server 2008 R2
 description: Поддержка Windows Server 2008 и 2008 R2 вскоре будет прекращена. Из этой статьи вы узнаете, как выполнить обновление в локальной среде или разместить эти ОС в Azure.
-ms.prod: windows-server
 ms.mktglfcycl: manage
 ms.sitesec: library
 author: mikeblodge
@@ -9,12 +8,12 @@ ms.author: mikeblodge
 ms.date: 07/12/2018
 ms.topic: get-started-article
 ms.localizationpriority: high
-ms.openlocfilehash: 271c571229f18d596a67616a1b0dd93743928002
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 30ba7fcd97b9735319872b55f649fe4f84014faa
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86961340"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87968001"
 ---
 # <a name="upgrade-windows-server-2008-and-windows-server-2008-r2"></a>Обновление Windows Server 2008 и Windows Server 2008 R2
 
@@ -35,10 +34,10 @@ ms.locfileid: "86961340"
 Вы можете перенести локальные серверы Windows Server 2008 и Windows Server 2008 R2 в Azure и продолжить использовать их на виртуальных машинах. В Azure вы обеспечите соответствие нормативным требованиям, повысите уровень защиты и сможете использовать в своей работе преимущества облачных технологий. Преимущества переноса в Azure:
 
 - Обновления системы безопасности в Azure.
-- В течение трех дополнительных лет вы будете получать важные обновления системы безопасности для Windows Server 2008 R2 или 2008 без дополнительной платы. 
+- В течение трех дополнительных лет вы будете получать важные обновления системы безопасности для Windows Server 2008 R2 или 2008 без дополнительной платы.
 - Бесплатные обновления в Azure.
 - Внедрение дополнительных облачных служб по мере готовности.
-- При переносе SQL Server в управляемые экземпляры или на виртуальные машины Azure в течение трех дополнительных лет вы будете получать важные обновления системы безопасности для Windows Server 2008 R2 или 2008 без дополнительной платы. 
+- При переносе SQL Server в управляемые экземпляры или на виртуальные машины Azure в течение трех дополнительных лет вы будете получать важные обновления системы безопасности для Windows Server 2008 R2 или 2008 без дополнительной платы.
 - Только в Azure вы сможете использовать имеющиеся лицензии на SQL Server и Windows Server для экономии на облачных ресурсах.
 
 [![Приступите к переносу в Azure с помощью специализированного образа](./media/WS08-image-banner-small.png)](uploading-specialized-WS08-image-to-azure.md)

@@ -1,19 +1,17 @@
 ---
 title: Оптимизация Windows 10 версии 1803 для роли инфраструктуры виртуальных рабочих столов (VDI)
 description: Рекомендуемые параметры и конфигурация для снижения временных затрат на компьютеры Windows 10 версии 1803 (10.0.1393), используемые в качестве образов VDI.
-ms.prod: windows-server
 ms.reviewer: robsmi
-ms.technology: remote-desktop-services
 ms.author: jaimeo, robsmi
 ms.topic: article
 author: jaimeo
 manager: dougkim
-ms.openlocfilehash: c08e7621285ceb8d122629c26ce5e160ee849737
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.openlocfilehash: e7bd68264f60b61a5c1063a51217bedb0c6c80ec
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87182170"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87989837"
 ---
 # <a name="optimizing-windows-10-version-1803-for-a-virtual-desktop-infrastructure-vdi-role"></a>Оптимизация Windows 10 версии 1803 для роли инфраструктуры виртуальных рабочих столов (VDI)
 
@@ -187,7 +185,7 @@ Get-WindowsOptionalFeature -Online
 Enable-WindowsOptionalFeature -Online -FeatureName "DirectPlay"
 ```
 
-Дополнительные сведения см. на форуме [в разделе о Windows PowerShell](https://docs.microsoft.com/answers/topics/windows-server-powershell.ht).
+Дополнительные сведения см. на форуме [в разделе о Windows PowerShell](/answers/topics/windows-server-powershell.ht).
 
 #### <a name="enable-or-disable-windows-features-by-using-dism"></a>Включение или отключение компонентов Windows с помощью DISM
 

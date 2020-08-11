@@ -3,17 +3,16 @@ title: 'Активация с помощью MAK: известные пробл�
 description: Описываются распространенные проблемы, которые могут возникнуть во время активации с помощью MAK, а также приводятся рекомендации по их устранению.
 ms.topic: troubleshooting
 ms.date: 10/3/2019
-ms.technology: server-general
 author: Teresa-Motiv
 ms.author: v-tea
 manager: dcscontentpm
 ms.localizationpriority: medium
-ms.openlocfilehash: 8e8872a5a768973e11c98461fc760055001932b8
-ms.sourcegitcommit: 145cf75f89f4e7460e737861b7407b5cee7c6645
+ms.openlocfilehash: ed9be4f46dccb525d4207378e1695d12a0c648ed
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "87409975"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87972351"
 ---
 # <a name="mak-activation-known-issues"></a>Активация с помощью MAK: известные проблемы
 

@@ -1,26 +1,24 @@
 ---
 title: Установка основных серверных компонентов
 description: Как получить и установить основные серверные компоненты на сервер Windows Server 2019, Windows Server 2016 или Windows Server (Semi-Annual Channel).
-ms.prod: windows-server
 ms.date: 05/21/2019
-ms.technology: server-general
 ms.topic: article
 ms.assetid: 2d22818c-fbb7-487a-bb82-81ef0a3f7ede
 author: jasongerend
 ms.author: jgerend
 manager: dougkim
 ms.localizationpriority: medium
-ms.openlocfilehash: 13d36c233094511216483f0fb37dc6a004212a50
-ms.sourcegitcommit: 3a3d62f938322849f81ee9ec01186b3e7ab90fe0
+ms.openlocfilehash: 93b4cb477ce31543e67dd9f973637e830e0fd478
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "80826977"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87959792"
 ---
 # <a name="install-server-core"></a>Установка основных серверных компонентов
 
 > Применяется к: Windows Server 2019, Windows Server 2016, Windows Server (Semi-Annual Channel)
-  
+
 При первой установке Windows Server доступны следующие варианты установки.
 
 >[!NOTE]
@@ -33,10 +31,10 @@ ms.locfileid: "80826977"
 
 При первой установке Windows Server (Semi-Annual Channel) доступны следующие варианты установки:
 
--    Windows Server Standard 
+-    Windows Server Standard
 -    Windows Server Datacenter.
 
-Вариант установки "Основные серверные компоненты" сокращает требования к свободному пространству на диске и уменьшает поле для потенциальных атак, поэтому мы рекомендуем выбрать именно его, если нет особой необходимости в дополнительных элементах пользовательского интерфейса и графических средствах управления, которые включены в вариант "Сервер с возможностями рабочего стола". Если вам требуются дополнительные элементы пользовательского интерфейса, см. раздел [Установка сервера с возможностями рабочего стола](Getting-Started-with-Server-with-Desktop-Experience.md). 
+Вариант установки "Основные серверные компоненты" сокращает требования к свободному пространству на диске и уменьшает поле для потенциальных атак, поэтому мы рекомендуем выбрать именно его, если нет особой необходимости в дополнительных элементах пользовательского интерфейса и графических средствах управления, которые включены в вариант "Сервер с возможностями рабочего стола". Если вам требуются дополнительные элементы пользовательского интерфейса, см. раздел [Установка сервера с возможностями рабочего стола](Getting-Started-with-Server-with-Desktop-Experience.md).
 
 При выборе основных серверных компонентов стандартный пользовательский интерфейс (возможности рабочего стола) не устанавливается. Вы управляете сервером с помощью командной строки, Windows PowerShell или методами удаленного взаимодействия.
 

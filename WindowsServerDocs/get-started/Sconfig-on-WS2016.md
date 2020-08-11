@@ -1,21 +1,19 @@
 ---
 title: Настройка установки основных серверных компонентов Windows Server с помощью Sconfig.cmd
 description: Пояснения об использовании файла Sconfig.cmd
-ms.prod: windows-server
 ms.date: 10/17/2017
-ms.technology: server-general
 ms.topic: article
 ms.assetid: e6cac074-c6fc-46dd-9664-fa0342c0a5e8
 author: jaimeo
 ms.author: jaimeo
 manager: dongill
 ms.localizationpriority: medium
-ms.openlocfilehash: db1a4fe48460a957369c2ca3ced24e0ccb54fef7
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 727525d426a8417e642485be51db7206f3efa64a
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86959126"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87959472"
 ---
 # <a name="configure-a-server-core-installation-of-windows-server-2016-or-windows-server-version-1709-with-sconfigcmd"></a>Настройка установки основных серверных компонентов Windows Server 2016 или Windows Server версии 1709 с помощью Sconfig.cmd
 
@@ -100,12 +98,12 @@ Sconfig.cmd можно использовать для установки осн
 
 - Windows PowerShell
 
-- Диспетчер серверов  
+- Диспетчер серверов
 
 ## <a name="to-log-off-restart-or-shut-down-the-server"></a>Выход из системы, перезагрузка и завершение работы сервера
 
-Чтобы выйти из системы, перезагрузить или завершить работу сервера, используйте соответствующий пункт главного меню. Эти параметры также доступны в меню **Безопасность Windows**, которое можно открыть из любого приложения в любое время, нажав клавиши CTRL+ALT+DEL.  
+Чтобы выйти из системы, перезагрузить или завершить работу сервера, используйте соответствующий пункт главного меню. Эти параметры также доступны в меню **Безопасность Windows**, которое можно открыть из любого приложения в любое время, нажав клавиши CTRL+ALT+DEL.
 
 ## <a name="to-exit-to-the-command-line"></a>Выход в командную строку
-  
+
 Выберите параметр **Exit to the Command Line** (Выход в командную строку) и нажмите клавишу ВВОД, чтобы выйти в командную строку. Чтобы вернуться в средство настройки сервера, введите **Sconfig.cmd** и нажмите клавишу "ВВОД".

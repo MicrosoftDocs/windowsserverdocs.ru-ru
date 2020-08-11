@@ -5,14 +5,12 @@ author: Teresa-Motiv
 ms.author: v-tea
 ms.date: 02/24/2020
 ms.topic: article
-ms.prod: windows-server
-ms.technology: networking
-ms.openlocfilehash: b73b6bf2150b8c97b858f41d7a4864a5d6fd5546
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.openlocfilehash: cb549f951865a065c70a6bfbfa9d49faf71ffd97
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87182120"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87989790"
 ---
 # <a name="windows-time-service-tools-and-settings"></a>Инструменты и параметры службы времени Windows
 
@@ -255,7 +253,7 @@ ClockRate: 0.0156000s
 > Некоторые параметры в реестре измеряются в тактах часов, а некоторые — в секундах. Чтобы преобразовать время из тактов в секунды, используйте следующие коэффициенты преобразования:
 > - 1 минута = 60 с
 > - 1 с = 1000 мс
-> - 1 мс = 10 000 тактовых импульсов в системе Windows, как описано в разделе [Свойство DateTime.Ticks](https://docs.microsoft.com/dotnet/api/system.datetime.ticks).
+> - 1 мс = 10 000 тактовых импульсов в системе Windows, как описано в разделе [Свойство DateTime.Ticks](/dotnet/api/system.datetime.ticks).
 >
 > Например, 5 минут будет иметь значение 5 &times; 60 &times; 1000 &times; 10000 = 3 000 000 000 тактов.
 

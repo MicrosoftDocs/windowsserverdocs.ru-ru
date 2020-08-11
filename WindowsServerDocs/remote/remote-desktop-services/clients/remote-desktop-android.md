@@ -1,8 +1,6 @@
 ---
 title: Приступая к работе с клиентом Android
 description: Общие сведения о клиенте Android.
-ms.prod: windows-server
-ms.technology: remote-desktop-services
 ms.topic: article
 ms.assetid: 64f038e1-40ec-4c67-938b-72edea49e5d8
 author: heidilohr
@@ -10,12 +8,12 @@ manager: lizross
 ms.author: helohr
 ms.date: 07/16/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: 215d69f40c09a11048c3e4c5a5c7cd610da3b9c4
-ms.sourcegitcommit: 25d3b2083405d3e1395355dcc34a032105e9c36d
+ms.openlocfilehash: 70d334aa13b96a210a2b168129119d09b0297f20
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "87389641"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87970151"
 ---
 # <a name="get-started-with-the-android-client"></a>Приступая к работе с клиентом Android
 

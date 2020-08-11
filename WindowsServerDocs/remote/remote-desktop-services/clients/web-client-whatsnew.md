@@ -1,20 +1,18 @@
 ---
 title: Что нового в веб-клиенте?
 description: Узнайте больше о последних изменениях в веб-клиенте удаленного рабочего стола.
-ms.prod: windows-server
-ms.technology: remote-desktop-services
 ms.topic: article
 author: heidilohr
 manager: lizross
 ms.author: helohr
 ms.date: 11/15/2019
 ms.localizationpriority: medium
-ms.openlocfilehash: 70b3d208ceb76b2746847bd28025fe7369874099
-ms.sourcegitcommit: 3a3d62f938322849f81ee9ec01186b3e7ab90fe0
+ms.openlocfilehash: 80663da151137d093634c36a25d4d061c8038e60
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "80859477"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87961868"
 ---
 # <a name="whats-new-in-the-web-client"></a>Что нового в веб-клиенте?
 

@@ -1,20 +1,18 @@
 ---
 title: Параметры безопасности виртуальных машин 1-го поколения для Hyper-V
 description: Сведения о параметрах безопасности, доступных в диспетчере Hyper-V для виртуальных машин 1-го поколения
-ms.prod: windows-server
 manager: dongill
-ms.technology: compute-hyper-v
 ms.topic: article
 ms.assetid: f8f8c569-8b74-4c19-876e-1c7d00cce308
 author: larsiwer
 ms.author: kathydav
 ms.date: 10/04/2016
-ms.openlocfilehash: 01a4882ec766673af5ff8f57debb829ace743d77
-ms.sourcegitcommit: 457e88e5aa6be13a2bffdb8e434a8efc3698678f
+ms.openlocfilehash: b50764832a47172ec7e56d7f798b95e13682ede7
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "85548707"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87968311"
 ---
 # <a name="generation-1-virtual-machine-security-settings"></a>Параметры безопасности виртуальных машин 1-го поколения
 

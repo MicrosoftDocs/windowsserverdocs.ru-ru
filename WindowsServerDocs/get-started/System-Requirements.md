@@ -1,21 +1,19 @@
 ---
 title: Системные требования для Windows Server 2016
 description: В этом разделе описываются минимальные требования к хранилищу, ЦП, сети, памяти и ОЗУ при выполнении каждого из вариантов чистой установки.
-ms.prod: windows-server
 ms.date: 10/17/2017
-ms.technology: server-general
 ms.topic: article
 ms.assetid: 4a8b42d7-9fe5-4efe-9ea1-ace2131fe068
 author: jaimeo
 ms.author: jaimeo
 manager: dongill
 ms.localizationpriority: medium
-ms.openlocfilehash: d0c9b6730d3ccc83836a64dadaa7c74966bcb0c1
-ms.sourcegitcommit: 3632b72f63fe4e70eea6c2e97f17d54cb49566fd
+ms.openlocfilehash: 073f4efa9e973c5bc297fd59916285e8567c8596
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87519561"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87959242"
 ---
 # <a name="system-requirements"></a>Системные требования
 

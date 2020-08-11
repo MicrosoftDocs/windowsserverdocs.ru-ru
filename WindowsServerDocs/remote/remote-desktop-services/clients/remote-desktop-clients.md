@@ -1,8 +1,6 @@
 ---
 title: Клиенты удаленного рабочего стола
 description: Узнайте о различных клиентах удаленного рабочего стола, доступных для всех ваших устройств.
-ms.prod: windows-server
-ms.technology: remote-desktop-services
 ms.topic: article
 ms.assetid: b7d8158c-aee1-4c60-8a46-40ce5595b8e8
 author: HeidiLohr
@@ -10,12 +8,12 @@ manager: lizross
 ms.author: helohr
 ms.date: 01/07/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: 711fa87fe697ae616d9bd8c696d29fabf1586055
-ms.sourcegitcommit: 3a3d62f938322849f81ee9ec01186b3e7ab90fe0
+ms.openlocfilehash: 69e453e6e65dc0850b7e872f655eda28a6e319c5
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "80856047"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87958052"
 ---
 # <a name="remote-desktop-clients"></a>Клиенты удаленного рабочего стола
 

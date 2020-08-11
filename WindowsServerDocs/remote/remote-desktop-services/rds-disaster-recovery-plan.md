@@ -1,19 +1,17 @@
 ---
 title: Создание плана аварийного восстановления
 description: Узнайте, как создать план аварийного восстановления для развертывания служб удаленных рабочих столов.
-ms.prod: windows-server
-ms.technology: remote-desktop-services
 ms.author: elizapo
 ms.date: 05/05/2017
 ms.topic: article
 author: lizap
 manager: dongill
-ms.openlocfilehash: 18342bb7fd3ad26427ae1e1a051e20444fdff7c2
-ms.sourcegitcommit: 3a3d62f938322849f81ee9ec01186b3e7ab90fe0
+ms.openlocfilehash: e7bf323d1a0506e9f9718d2afb8da392f0118929
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "80859027"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87961738"
 ---
 # <a name="create-your-disaster-recovery-plan-for-rds"></a>Создание плана аварийного восстановления для служб удаленных рабочих столов
 
@@ -38,7 +36,7 @@ ms.locfileid: "80859027"
 2. Группа отработки отказа 2 — виртуальная машина посредника подключений;
 3. Группа отработки отказа 3 — виртуальная машина веб-доступа.
 
-Ваш план будет выглядеть следующим образом. 
+Ваш план будет выглядеть следующим образом.
 
 ![План аварийного восстановления для развертывания служб удаленных рабочих столов на основе сеансов](media/rds-asr-session-drplan.png)
 
@@ -62,20 +60,20 @@ ms.locfileid: "80859027"
    Broker - broker.contoso.com
    Virtualization host - VH1.contoso.com
 
-   ipmo RemoteDesktop; 
-   add-rdserver –ConnectionBroker broker.contoso.com –Role RDS-VIRTUALIZATION –Server VH1.contoso.com 
+   ipmo RemoteDesktop;
+   add-rdserver –ConnectionBroker broker.contoso.com –Role RDS-VIRTUALIZATION –Server VH1.contoso.com
    ```
 4. Группа отработки отказа 2 — шаблон виртуальной машины
 5. Группа 2, скрипт 1 — отключение шаблона виртуальной машины
-   
+
    Шаблон виртуальной машины при восстановлении на вторичном сайте запустится, но это виртуальная машина, подготовленная с помощью sysprep, которая не может запуститься полностью. Также службе удаленных рабочих столов требуется, чтобы виртуальная машина завершила работу, чтобы создать на ее основе конфигурацию виртуальной машины в составе пула. Таким образом, нам нужно отключить ее. Если у вас есть один сервер VMM, имя шаблона виртуальной машины будет одинаковым на первичной и вторичной реплике. Поэтому мы используем идентификатор виртуальной машины в соответствии с переменной *Context* в приведенном ниже скрипте. Если у вас есть несколько шаблонов, отключите их все.
 
    ```powershell
-   ipmo virtualmachinemanager; 
+   ipmo virtualmachinemanager;
    Foreach($vm in $VMsAsTemplate)
    {
       Get-SCVirtualMachine -ID $vm | Stop-SCVirtualMachine –Force
-   } 
+   }
    ```
 6. Группа 2, скрипт 2 — удаление существующего пула виртуальных машин
 
@@ -83,7 +81,7 @@ ms.locfileid: "80859027"
 
    ```powershell
    ipmo RemoteDesktop
-   $desktops = Get-RDVirtualDesktop -CollectionName Win8Desktops; 
+   $desktops = Get-RDVirtualDesktop -CollectionName Win8Desktops;
    Foreach($vm in $desktops){
       Remove-RDVirtualDesktopFromCollection -CollectionName Win8Desktops -VirtualDesktopName $vm.VirtualDesktopName –Force
    }
@@ -98,8 +96,8 @@ ms.locfileid: "80859027"
    Имя виртуальной машины в составе пула должно быть уникальным; учитывается префикс и суффикс. Если имя виртуальной машины уже существует, скрипт завершится ошибкой. Кроме того, если первичные виртуальные машины нумеруются от 1 до 5, нумерация на сайте восстановления продолжит работу с номера 6.
 
    ```powershell
-   ipmo RemoteDesktop; 
-   Add-RDVirtualDesktopToCollection -CollectionName Win8Desktops -VirtualDesktopAllocation @{"RDVH1.contoso.com" = 1} 
+   ipmo RemoteDesktop;
+   Add-RDVirtualDesktopToCollection -CollectionName Win8Desktops -VirtualDesktopAllocation @{"RDVH1.contoso.com" = 1}
    ```
 9. Группа отработки отказа 3 — виртуальные машины веб-доступа и сервера шлюза
 
@@ -120,27 +118,27 @@ ms.locfileid: "80859027"
    ipconfig /registerdns
    ```
 3. Группа 1, скрипт — добавление узлов виртуализации
-      
+
    Измените приведенный ниже скрипт, чтобы запустить его для каждого узла виртуализации в облаке. Обычно после добавления узла виртуализации в посредник подключений необходимо перезапустить узел. Убедитесь, что узел не ожидает перезагрузки, перед запуском скрипта, иначе он завершится ошибкой.
 
    ```powershell
    Broker - broker.contoso.com
    Virtualization host - VH1.contoso.com
 
-   ipmo RemoteDesktop; 
-   add-rdserver –ConnectionBroker broker.contoso.com –Role RDS-VIRTUALIZATION –Server VH1.contoso.com 
+   ipmo RemoteDesktop;
+   add-rdserver –ConnectionBroker broker.contoso.com –Role RDS-VIRTUALIZATION –Server VH1.contoso.com
    ```
 4. Группа отработки отказа 2 — шаблон виртуальной машины
 5. Группа 2, скрипт 1 — отключение шаблона виртуальной машины
-   
+
    Шаблон виртуальной машины при восстановлении на вторичном сайте запустится, но это виртуальная машина, подготовленная с помощью sysprep, которая не может запуститься полностью. Также службе удаленных рабочих столов требуется, чтобы виртуальная машина завершила работу, чтобы создать на ее основе конфигурацию виртуальной машины в составе пула. Таким образом, нам нужно отключить ее. Если у вас есть один сервер VMM, имя шаблона виртуальной машины будет одинаковым на первичной и вторичной реплике. Поэтому мы используем идентификатор виртуальной машины в соответствии с переменной *Context* в приведенном ниже скрипте. Если у вас есть несколько шаблонов, отключите их все.
 
    ```powershell
-   ipmo virtualmachinemanager; 
+   ipmo virtualmachinemanager;
    Foreach($vm in $VMsAsTemplate)
    {
       Get-SCVirtualMachine -ID $vm | Stop-SCVirtualMachine –Force
-   } 
+   }
    ```
 6. Группа отработки отказа 3 — личные виртуальные машины
 7. Группа 3, скрипт 1 — удалить существующие личные виртуальные машины и добавить их
@@ -149,17 +147,17 @@ ms.locfileid: "80859027"
 
    ```powershell
    ipmo RemoteDesktop
-   $desktops = Get-RDVirtualDesktop -CollectionName CEODesktops; 
-   Export-RDPersonalVirtualDesktopAssignment -CollectionName CEODesktops -Path ./Desktopallocations.txt -ConnectionBroker broker.contoso.com 
+   $desktops = Get-RDVirtualDesktop -CollectionName CEODesktops;
+   Export-RDPersonalVirtualDesktopAssignment -CollectionName CEODesktops -Path ./Desktopallocations.txt -ConnectionBroker broker.contoso.com
 
    Foreach($vm in $desktops){
      Remove-RDVirtualDesktopFromCollection -CollectionName CEODesktops -VirtualDesktopName $vm.VirtualDesktopName –Force
    }
-   
-   Import-RDPersonalVirtualDesktopAssignment -CollectionName CEODesktops -Path ./Desktopallocations.txt -ConnectionBroker broker.contoso.com 
+
+   Import-RDPersonalVirtualDesktopAssignment -CollectionName CEODesktops -Path ./Desktopallocations.txt -ConnectionBroker broker.contoso.com
    ```
 8. Группа отработки отказа 3 — виртуальные машины веб-доступа и сервера шлюза
 
-Ваш план будет выглядеть следующим образом. 
+Ваш план будет выглядеть следующим образом.
 
 ![План аварийного восстановления для развертывания служб удаленных рабочих столов с личными рабочими столами](media/rds-asr-personal-desktops-drplan.png)

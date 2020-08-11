@@ -1,30 +1,28 @@
 ---
 title: Выпуски и продукты Windows Server 2016
 description: Описание различий между выпусками Windows Server Standard и Windows Server Datacenter.
-ms.prod: windows-server
 ms.date: 10/04/2019
-ms.technology: server-general
 ms.topic: article
 ms.assetid: c5ca3bfe-7ced-49f6-a932-80cab33f419e
 author: jasongerend
 ms.author: jgerend
 manager: dongill
 ms.localizationpriority: medium
-ms.openlocfilehash: ce4c35f0b65d0461e9dc2e23404d2637aecff415
-ms.sourcegitcommit: 3a3d62f938322849f81ee9ec01186b3e7ab90fe0
+ms.openlocfilehash: 50d0c603e5134c716c50e3aa8286cb33578ee06e
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "80827107"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87959912"
 ---
 # <a name="comparison-of-standard-and-datacenter-editions-of-windows-server-2016"></a>Сравнение выпусков Windows Server 2016 Standard и Datacenter
 
 > Область применения. Windows Server 2016
-  
+
 ## <a name="locks-and-limits"></a>Блокировки и ограничения
 
 | Блокировки и ограничения | Windows Server 2016 Standard | Windows Server 2016 Datacenter |
-| ------------------- |---------- | --------------------------- |  
+| ------------------- |---------- | --------------------------- |
 | Максимальное число пользователей | По числу клиентских лицензий   | По числу клиентских лицензий     |
 | Максимальное число подключений SMB | 16 777 216      | 16 777 216          |
 | Максимальное число подключений RRAS| без ограничений       | без ограничений         |
@@ -41,8 +39,8 @@ ms.locfileid: "80827107"
 
 ## <a name="server-roles"></a>Роли сервера
 
-| Доступны роли Windows Server     | Службы ролей | Windows Server 2016 Standard | Windows Server 2016 Datacenter |  
-| -------------------                | ----------    | ----------                   | ---------------------------    |  
+| Доступны роли Windows Server     | Службы ролей | Windows Server 2016 Standard | Windows Server 2016 Datacenter |
+| -------------------                | ----------    | ----------                   | ---------------------------    |
 | Службы сертификатов Active Directory|              | Да                          | Да                            |
 | Доменные службы Active Directory    |               | Да                          | Да                            |
 | Службы федерации Active Directory (AD FS)|               | Да                          | Да                            |
@@ -80,8 +78,8 @@ ms.locfileid: "80827107"
 
 ## <a name="features"></a>Возможности
 
-|Компоненты Windows Server, доступные для установки с помощью диспетчера серверов (или PowerShell)|Windows Server 2016 Standard|Windows Server 2016 Datacenter|  
-|-------------------|----------|---------------------------|  
+|Компоненты Windows Server, доступные для установки с помощью диспетчера серверов (или PowerShell)|Windows Server 2016 Standard|Windows Server 2016 Datacenter|
+|-------------------|----------|---------------------------|
 |.NET Framework 3.5|Да|Да|
 |.NET Framework 4.6|Да|Да|
 |Фоновая интеллектуальная служба передачи (BITS)|Да|Да|
@@ -144,8 +142,8 @@ ms.locfileid: "80827107"
 |поддержка WoW64.|Установлено|Установлено|
 |Средство просмотра XPS|Да, если продукт установлен как сервер с возможностями рабочего стола|Да, если продукт установлен как сервер с возможностями рабочего стола|
 
-|Общедоступные компоненты|Windows Server 2016 Standard|Windows Server 2016 Datacenter|  
-|-------------------|----------|---------------------------|  
+|Общедоступные компоненты|Windows Server 2016 Standard|Windows Server 2016 Datacenter|
+|-------------------|----------|---------------------------|
 |Анализатор соответствия рекомендациям|Да|Да|
 |Прямой доступ|Да|Да|
 |Динамическая память (в виртуализации)|Да|Да|

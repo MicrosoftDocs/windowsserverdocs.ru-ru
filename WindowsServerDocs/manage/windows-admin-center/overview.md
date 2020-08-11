@@ -1,19 +1,17 @@
 ---
 title: Общие сведения о Windows Admin Center
 description: Сведения об управлении Windows Server с помощью Windows Admin Center (Project Honolulu)
-ms.technology: manage
 ms.topic: article
 author: nwashburn-ms
 ms.author: niwashbu
 ms.date: 01/07/2020
 ms.localizationpriority: high
-ms.prod: windows-server
-ms.openlocfilehash: 2a3655c7efddbbe22f312bab4c9276e88e53481b
-ms.sourcegitcommit: 145cf75f89f4e7460e737861b7407b5cee7c6645
+ms.openlocfilehash: 8a1cd07167fd0a73d72dc57708a5f9bd23d2252c
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "87410015"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87958682"
 ---
 # <a name="windows-admin-center"></a>Windows Admin Center
 

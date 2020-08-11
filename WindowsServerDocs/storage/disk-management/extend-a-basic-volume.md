@@ -2,18 +2,16 @@
 title: Расширение базового тома
 description: Вы можете добавить в существующий том Windows дополнительное пространство за счет пустого места на диске, но только если пустое пространство не содержит томов (то есть не распределено) и располагается сразу за расширяемым томом без других промежуточных томов. В этой статье описывается, как это сделать.
 ms.date: 12/19/2019
-ms.prod: windows-server
-ms.technology: storage
 ms.topic: article
 author: JasonGerend
 manager: brianlic
 ms.author: jgerend
-ms.openlocfilehash: 19b48bd74dad4e20780b41852afbee15f5ec1ade
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: d0cd4c0c2bd6909c82ee39c97b58909e85aeef9f
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86966106"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87961618"
 ---
 # <a name="extend-a-basic-volume"></a>Расширение базового тома
 

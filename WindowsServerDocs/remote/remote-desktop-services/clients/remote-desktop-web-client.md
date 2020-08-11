@@ -1,19 +1,17 @@
 ---
 title: Приступая к работе с веб-клиентом
 description: Описывает, как войти в веб-клиент удаленного рабочего стола.
-ms.prod: windows-server
-ms.technology: remote-desktop-services
 ms.author: helohr
 ms.date: 08/27/2019
 ms.topic: article
 author: Heidilohr
 ms.localizationpriority: medium
-ms.openlocfilehash: 6c37c28fded08ba68e46a10a534ee0269c714938
-ms.sourcegitcommit: 3a3d62f938322849f81ee9ec01186b3e7ab90fe0
+ms.openlocfilehash: 6d408c70d75de0e2a14260f951209348e2aea63e
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "74189471"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87961878"
 ---
 # <a name="get-started-with-the-web-client"></a>Приступая к работе с веб-клиентом
 
@@ -61,7 +59,7 @@ ms.locfileid: "74189471"
 
 ## <a name="use-an-input-method-editor-ime-in-the-remote-session"></a>Использование редактора методов ввода (IME) в удаленном сеансе
 
-Чтобы использовать редактор метода ввода для работы со сложными символами в удаленном сеансе, щелкните значок шестеренки на панели навигации, чтобы открыть боковую панель **Параметры**, и задайте для параметра **Включить редактор метода ввода** значение **Вкл.** В удаленном сеансе должен быть установлен и включен редактор метода ввода. 
+Чтобы использовать редактор метода ввода для работы со сложными символами в удаленном сеансе, щелкните значок шестеренки на панели навигации, чтобы открыть боковую панель **Параметры**, и задайте для параметра **Включить редактор метода ввода** значение **Вкл.** В удаленном сеансе должен быть установлен и включен редактор метода ввода.
 
 ## <a name="get-help-with-the-web-client"></a>Помощь в работе с веб-клиентом
 

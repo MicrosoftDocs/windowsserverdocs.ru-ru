@@ -1,21 +1,19 @@
 ---
 title: Перенос ролей и компонентов
 description: Сведения о том, как перенести роли и компоненты в более новую версию Windows Server.
-ms.prod: windows-server
 ms.date: 08/28/2019
-ms.technology: server-general
 ms.topic: article
 ms.assetid: 0f78ef4c-dd12-4b1b-8c6e-251dd803c5d1
 author: jasongerend
 ms.author: jgerend
 manager: dougkim
 ms.localizationpriority: medium
-ms.openlocfilehash: 99a684cc90d47e1e80dc84ef9c3705a2ed79728b
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.openlocfilehash: 029f3c2b2857dba88af0e5c7b584e257c579d063
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87182030"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87959582"
 ---
 # <a name="migrating-roles-and-features-in-windows-server"></a>Миграция ролей и компонентов в Windows Server
 

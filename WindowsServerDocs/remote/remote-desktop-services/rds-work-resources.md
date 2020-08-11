@@ -1,18 +1,16 @@
 ---
 title: Настройка заголовка "Рабочие ресурсы" для RDS с помощью PowerShell в Windows Server
 description: Содержит описание того, как можно изменить имя рабочей области по умолчанию в Windows Server.
-ms.prod: windows-server
-ms.technology: remote-desktop-services
 ms.author: helohr
 ms.date: 10/26/2017
 ms.topic: article
 author: Heidilohr
-ms.openlocfilehash: ec07fe6c93f1f2c3350af7a9bd0bc2be0a384b93
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 5124ce691793570f6ffa11a43975719addb89e67
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86963246"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87970121"
 ---
 # <a name="customize-the-rds-title-work-resources-using-powershell-on-windows-server"></a>Настройка заголовка "Рабочие ресурсы" для RDS с помощью PowerShell в Windows Server
 
@@ -28,7 +26,7 @@ ms.locfileid: "86963246"
 
 ```powershell
     Set-RDWorkspace [-Name] <string> [-ConnectionBroker <string>]  [<CommonParameters>]
-```   
+```
 
 Например, можно использовать следующую команду для изменения имени рабочей области на "Contoso RemoteApps".
 

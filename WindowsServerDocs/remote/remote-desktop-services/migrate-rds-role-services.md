@@ -1,20 +1,18 @@
 ---
 title: Перенос развертывания служб удаленных рабочих столов в Windows Server 2016
 description: В этой статье описывается, как перенести развертывание служб удаленных рабочих столов (RDS) на новые сервера Windows Server 2016.
-ms.prod: windows-server
-ms.technology: remote-desktop-services
 ms.author: chrimo
 ms.date: 11/01/2016
 ms.topic: article
 ms.assetid: 9b1fa833-4325-48a8-bf34-46265f40c001
 author: christianmontoya
 manager: scottman
-ms.openlocfilehash: 2e4628e9ec7b5d75b88bb07282e2183a2f16fff2
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 62c2cc99277b3cf74f6bde5be59b69569c27a31b
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86959156"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87961818"
 ---
 # <a name="migrate-your-remote-desktop-services-deployment-to-windows-server-2016"></a>Перенос развертывания служб удаленных рабочих столов в Windows Server 2016
 
@@ -53,8 +51,9 @@ ms.locfileid: "86959156"
 
 3. Добавьте серверы посредника подключений к удаленному рабочему столу Windows Server 2016 в высокодоступное развертывание.
 
-> [!NOTE] 
-> Смешанная конфигурация высокой доступности с Windows Server 2016 и Windows Server 2012 R2 не поддерживается для серверов посредника подключений к удаленному рабочему столу. Посредник подключений к удаленному рабочему столу под управлением Windows Server 2016 может обслуживать коллекции сеансов с серверами узла сеансов удаленных рабочих столов под управлением Windows Server 2012 R2, а также коллекции виртуальных рабочих столов с серверами узла виртуализации удаленных рабочих столов под управлением Windows Server 2012 R2.
+> [!NOTE]
+> Смешанная конфигурация высокой доступности с Windows Server 2016 и Windows Server 2012 R2 не поддерживается для серверов посредника подключений к удаленному рабочему столу.
+> Посредник подключений к удаленному рабочему столу под управлением Windows Server 2016 может обслуживать коллекции сеансов с серверами узла сеансов удаленных рабочих столов под управлением Windows Server 2012 R2, а также коллекции виртуальных рабочих столов с серверами узла виртуализации удаленных рабочих столов под управлением Windows Server 2012 R2.
 
 ## <a name="migrate-session-collections"></a>Перенос коллекций сеансов
 

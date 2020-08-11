@@ -1,8 +1,6 @@
 ---
 title: Приступая к работе с клиентом Microsoft Store
 description: Базовая установка клиента удаленного рабочего стола в Microsoft Store.
-ms.prod: windows-server
-ms.technology: remote-desktop-services
 ms.topic: article
 ms.assetid: 64f038e1-40ec-4c67-938b-72edea49e5d8
 author: lizap
@@ -10,12 +8,12 @@ manager: dongill
 ms.author: elizapo
 ms.date: 06/01/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: 6ed87f2d03ef725c3efdfc2453b53201017e66e0
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.openlocfilehash: 05e32c05aaafb941958e025253e67c856d81257d
+ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87181950"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87990364"
 ---
 # <a name="get-started-with-the-windows-store-client"></a>Приступая к работе с клиентом Microsoft Store
 
@@ -203,4 +201,4 @@ ms.locfileid: "87181950"
 | Указатель мыши | Масштабирование                 | Сведите два пальца для увеличения или разведите их для уменьшения |
 
 > [!TIP]
-> Мы всегда приветствуем вопросы и комментарии. Но если вы опубликуете запрос для службы поддержки или отзыв о продукте в разделе комментариев к этой статье, мы не сможем вам ответить. Если вам нужна помощь или вы хотите устранить неполадки, связанные с клиентом, рекомендуем перейти на страницу [форума о клиенте удаленного рабочего стола](https://docs.microsoft.com/answers/topics/windows-remote-desktop-client.html) и начать новое обсуждение. Если у вас есть предложение по функционалу клиента, вы можете сообщить нам об этом [в Центре отзывов](feedback-hub://?tabid=2&contextid=605).
+> Мы всегда приветствуем вопросы и комментарии. Но если вы опубликуете запрос для службы поддержки или отзыв о продукте в разделе комментариев к этой статье, мы не сможем вам ответить. Если вам нужна помощь или вы хотите устранить неполадки, связанные с клиентом, рекомендуем перейти на страницу [форума о клиенте удаленного рабочего стола](/answers/topics/windows-remote-desktop-client.html) и начать новое обсуждение. Если у вас есть предложение по функционалу клиента, вы можете сообщить нам об этом [в Центре отзывов](feedback-hub://?tabid=2&contextid=605).
