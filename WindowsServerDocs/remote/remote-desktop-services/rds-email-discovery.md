@@ -1,19 +1,17 @@
 ---
 title: Настройка обнаружения электронной почты для оформления подписки на RDS-канал
 description: Узнайте, как интегрировать доменные службы Azure AD в среду развертываемых служб удаленных рабочих столов.
-ms.prod: windows-server
-ms.technology: remote-desktop-services
 ms.author: chrimo
 ms.date: 3/27/2018
 ms.localizationpriority: medium
 ms.topic: article
 author: christianmontoya
-ms.openlocfilehash: c56a233adf28270aac809dc960e32b5363e4b8ab
-ms.sourcegitcommit: 3a3d62f938322849f81ee9ec01186b3e7ab90fe0
+ms.openlocfilehash: 1f44257e5ce8ebea1b55acaa399d55aa772ab106
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "71387511"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87936864"
 ---
 # <a name="set-up-email-discovery-to-subscribe-to-your-rds-feed"></a>Настройка обнаружения электронной почты для оформления подписки на RDS-канал
 
@@ -25,7 +23,7 @@ ms.locfileid: "71387511"
 Перед настройкой обнаружения электронной почты, сделайте следующее:
 
 - Убедитесь, что у вас есть разрешение на добавление записи типа TXT в домен, связанный с вашей электронной почтой (например, если пользователи имеют адрес электронной почты @contoso.com, вам будут необходимы права доступа к домену contoso.com)
-- Создайте URL-адрес веб-канала удаленных рабочих столов (https://\<rdweb-dns-nam\>.domain/RDWeb/Feed/webfeed.aspx, например https://rdweb.contoso.com/RDWeb/Feed/webfeed.aspx)
+- Создайте URL-адрес веб-канала удаленных рабочих столов (https://\<rdweb-dns-name\>.domain/RDWeb/Feed/webfeed.aspx, например https://rdweb.contoso.com/RDWeb/Feed/webfeed.aspx)
 
 Теперь выполните следующие действия, чтобы настроить обнаружение электронной почты:
 
@@ -33,9 +31,9 @@ ms.locfileid: "71387511"
 2. Перейдите на страницу, где зарегистрирован домен, на которой можно просматривать, добавлять и изменять записи DNS.
 3. Введите новую запись DNS со следующими свойствами:
    - **Узел:** _msradc
-   - **Текст:** \<URL-адрес веб-канала удаленных рабочих столов\>
+   - **Текст:** \<RD Web Feed URL\>
    - **Срок жизни:** : 300
 
-   Имена полей записей DNS зависят от регистратора доменных имен, но этот процесс приведет к записи типа TXT с именем _msradc. \<domain_name\> (например, _msradc.contoso.com) со значением полного веб-канала удаленных рабочих столов.
+   Имена полей записей DNS зависят от регистратора доменных имен, но этот процесс приведет к записи типа TXT с именем _msradc.\<domain_name\> (например, _msradc.contoso.com) со значением полного веб-канала удаленных рабочих столов.
 
 Вот и все! Теперь запустите приложение удаленного рабочего стола на вашем устройстве и подпишитесь.

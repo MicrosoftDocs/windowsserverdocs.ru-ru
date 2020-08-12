@@ -1,24 +1,22 @@
 ---
 title: Развертывание Windows Admin Center с высоким уровнем доступности
 description: Развертывание Windows Admin Center с высоким уровнем доступности (проект Honolulu)
-ms.technology: manage
 ms.topic: article
 author: jwwool
 ms.author: jeffrew
 ms.localizationpriority: medium
-ms.prod: windows-server
-ms.openlocfilehash: 6ae7bd9ed7aee5835ac1f53b9e10879ad8824f52
-ms.sourcegitcommit: 3a3d62f938322849f81ee9ec01186b3e7ab90fe0
+ms.openlocfilehash: 132f566e8467179c1a58e3555d26ab834dae7129
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "71406943"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87970861"
 ---
 # <a name="deploy-windows-admin-center-with-high-availability"></a>Развертывание Windows Admin Center с высоким уровнем доступности
 
 >Область применения. Windows Admin Center, ознакомительная версия Windows Admin Center
 
-Windows Admin Center можно развернуть в отказоустойчивом кластере, чтобы обеспечить высокий уровень доступности для службы шлюза Windows Admin Center. Мы предлагаем решение типа "активный/пассивный", в котором активным является только один экземпляр Windows Admin Center. В случае сбоя одного из узлов кластера Windows Admin Center корректно переключается на другой узел, сохраняя для вас возможность управлять серверами в своей среде. 
+Windows Admin Center можно развернуть в отказоустойчивом кластере, чтобы обеспечить высокий уровень доступности для службы шлюза Windows Admin Center. Мы предлагаем решение типа "активный/пассивный", в котором активным является только один экземпляр Windows Admin Center. В случае сбоя одного из узлов кластера Windows Admin Center корректно переключается на другой узел, сохраняя для вас возможность управлять серверами в своей среде.
 
 [Сведения о других вариантах развертывания Windows Admin Center.](../plan/installation-options.md)
 
@@ -35,12 +33,12 @@ Windows Admin Center можно развернуть в отказоустойч
 2. Подключитесь к этому узлу про протоколу удаленного рабочего стола и запустите на нем скрипт ```Install-WindowsAdminCenterHA.ps1``` со следующими параметрами.
     - `-clusterStorage`: локальный путь к общему тому кластера для хранения данных Windows Admin Center.
     - `-clientAccessPoint`: имя, которое будет использоваться для доступа к Windows Admin Center. Например, выполнив этот скрипт с параметром `-clientAccessPoint contosoWindowsAdminCenter`, для доступа к службе Windows Admin Center нужно будет использовать адрес `https://contosoWindowsAdminCenter.<domain>.com`.
-    - `-staticAddress`: Необязательный параметр. Один или несколько статических адресов для универсальной службы кластера. 
+    - `-staticAddress`: Необязательный параметр. Один или несколько статических адресов для универсальной службы кластера.
     - `-msiPath`: Путь к MSI-файлу для Windows Admin Center.
     - `-certPath`: Необязательный параметр. Путь к PFX-файлу сертификата.
     - `-certPassword`: Необязательный параметр. Пароль SecureString для PFX-файла сертификата, указанный в параметре `-certPath`.
     - `-generateSslCert`: Необязательный параметр. Если вы не хотите предоставлять подписанный сертификат, включите в параметры этот флаг, чтобы создать самозаверяющий сертификат. Обратите внимание, что срок действия самозаверяющего сертификата истекает через 60 дней.
-    - `-portNumber`: Необязательный параметр. Если порт не указан, служба шлюза развертывается на порту 443 (HTTPS). Чтобы использовать другой порт, укажите его в этом параметре. Обратите внимание, что при использовании настраиваемого порта (отличного от 443) вам придется обращаться к Windows Admin Center по адресу https://\<клиентская_точка_доступа\>:\<порт\>.
+    - `-portNumber`: Необязательный параметр. Если порт не указан, служба шлюза развертывается на порту 443 (HTTPS). Чтобы использовать другой порт, укажите его в этом параметре. Обратите внимание, что при использовании настраиваемого порта (отличного от 443) вам придется обращаться к Windows Admin Center по адресу https://\<clientAccessPoint\>:\<port\>.
 
 > [!NOTE]
 > Скрипт ```Install-WindowsAdminCenterHA.ps1``` поддерживает параметры ```-WhatIf ``` и ```-Verbose```.
@@ -86,7 +84,7 @@ $certPassword = Read-Host -AsSecureString
 ```powershell
 $certPassword = Read-Host -AsSecureString
 .\Install-WindowsAdminCenterHA.ps1 -msiPath ".\WindowsAdminCenter.msi" -certPath "cert.pfx" -certPassword $certPassword -Verbose
-``` 
+```
 
 ## <a name="uninstall"></a>Uninstall
 

@@ -1,19 +1,17 @@
 ---
 title: Рекомендации по сетевому подключению
 description: Рекомендации по настройке пропускной способности для развертываний удаленного рабочего стола.
-ms.prod: windows-server
-ms.technology: remote-desktop-services
 ms.author: helohr
 ms.date: 12/12/2019
 ms.topic: article
 author: Heidilohr
 manager: lizross
-ms.openlocfilehash: ba084c58e725627e838c07b5b5b9849d131b2038
-ms.sourcegitcommit: 32f810c5429804c384d788c680afac427976e351
+ms.openlocfilehash: 3817178ef303573490cc98af8a35844715286e8e
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83203551"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87948897"
 ---
 # <a name="network-guidelines"></a>Рекомендации по сетевому подключению
 
@@ -54,6 +52,10 @@ ms.locfileid: "83203551"
 | Примерно 1920×1080 пикселей                     | 5 Мбит/с                |
 | Примерно 3840×2160 пикселей (4К)                | 15 Мбит/с               |
 
-## <a name="additional-resources"></a>Дополнительные ресурсы
+## <a name="windows-virtual-desktop-experience-estimator"></a>Оценщик взаимодействия между пользователем и Виртуальным рабочим столом Windows
 
 Регион Azure, в котором вы находитесь, может влиять на взаимодействие с пользователем не меньше, чем условия сети. См. сведения, предоставляемые [оценщиком взаимодействия между пользователем и Виртуальным рабочим столом Windows](https://azure.microsoft.com/services/virtual-desktop/assessment/).
+
+## <a name="assistive-technologies"></a>Вспомогательные технологии
+
+Для оптимальной работы вспомогательные технологические рабочие нагрузки, например использование Экранного диктора в удаленном сеансе, требуют подключений со временем кругового пути (RTT) не более 20 миллисекунд (мс).

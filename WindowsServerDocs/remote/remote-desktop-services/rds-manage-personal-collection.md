@@ -1,19 +1,17 @@
 ---
 title: Управление коллекцией сеансов личных рабочих столов в RDS
 description: Узнайте, как добавить узел сеансов удаленных рабочих столов (RDSH) и удаленные приложения RemoteApp в развертывание RDS.
-ms.prod: windows-server
-ms.technology: remote-desktop-services
 ms.author: elizapo
 ms.date: 11/08/2016
 ms.topic: article
 author: lizap
 manager: dongill
-ms.openlocfilehash: 7088d164ecdd7211894b004ed580eecb33d1ba60
-ms.sourcegitcommit: 3a3d62f938322849f81ee9ec01186b3e7ab90fe0
+ms.openlocfilehash: bd6c91b7f022e60e488c90776e0981523da7bccb
+ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "80861067"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87961658"
 ---
 # <a name="manage-your-personal-desktop-session-collections"></a>Управление коллекциями сеансов личных рабочих столов
 
@@ -22,13 +20,13 @@ ms.locfileid: "80861067"
 ## <a name="manually-assign-a-user-to-a-personal-session-host"></a>Назначение пользователю личного узла сеансов вручную
 Используйте командлет **Set-RDPersonalSessionDesktopAssignment**, чтобы вручную назначить пользователю на личный сервер узла сеансов в коллекции. Этот командлет поддерживает следующие параметры.
 
--CollectionName \<строка\>
+-CollectionName \<string\>
 
--ConnectionBroker \<строка\> 
+-ConnectionBroker \<string\>
 
--User \<строка\>
+-User \<string\>
 
--Name \<строка\>
+-Name \<string\>
 
 - **-CollectionName**: указывает имя коллекции личных сеансовых рабочих столов. Это обязательный параметр.
 - **-ConnectionBroker**: указывает сервер посредника подключений к удаленному рабочему столу для вашего развертывания Удаленного рабочего стола. Если вы не указали значение, командлет будет использовать полное доменное имя (FQDN) локального компьютера.
@@ -37,50 +35,50 @@ ms.locfileid: "80861067"
 
 Командлет **Import-RDPersonalSessionDesktopAssignment** импортирует связи между учетными записями пользователей и личными сеансовыми рабочими столами из текстового файла. Этот командлет поддерживает следующие параметры.
 
--CollectionName \<строка\>
+-CollectionName \<string\>
 
--ConnectionBroker \<строка\>
+-ConnectionBroker \<string\>
 
--Path \<строка>
+-Path \<string>
 
 **-Path**: задает путь и имя файла для импорта.
- 
+
 ## <a name="removing-a-user-assignment-from-a-personal-session-host"></a>Удаление назначения пользователю личного узла сеансов
 Используйте командлет **Remove-RDPersonalSessionDesktopAssignment**, чтобы удалить связь между личным сеансовым рабочим столом и пользователем. Этот командлет поддерживает следующие параметры.
 
--CollectionName \<строка\>
+-CollectionName \<string\>
 
--ConnectionBroker \<строка\>
+-ConnectionBroker \<string\>
 
 -Force
 
--Name \<строка\>
+-Name \<string\>
 
--User \<строка\>
+-User \<string\>
 
 **-Force**: принудительное выполнение команды без запроса подтверждения у пользователя.
 
 ## <a name="query-user-assignments"></a>Запрос назначений пользователей
 Используйте командлет **Get-RDPersonalSessionDesktopAssignment**, чтобы получить список личных сеансовых рабочих столов и связанных учетных записей пользователей. Этот командлет поддерживает следующие параметры.
 
--CollectionName \<строка\>
+-CollectionName \<string\>
 
--ConnectionBroker \<строка\>
+-ConnectionBroker \<string\>
 
--User \<строка\>
+-User \<string\>
 
--Name \<строка\>
+-Name \<string\>
 
-Вы можете выполнить этот командлет, чтобы выполнить запрос по имени коллекции, пользователя или сеансового рабочего стола. Если указать только параметр **-CollectionName**, то командлет возвращает список узлов сеансов и связанных с ними пользователей. Если также указать параметр **-User**, то будет возвращен узел сеансов, связанный с данным пользователем. Если указать параметр **-Name**, будет возвращен пользователь, связанный с этим узлом сеансов. 
+Вы можете выполнить этот командлет, чтобы выполнить запрос по имени коллекции, пользователя или сеансового рабочего стола. Если указать только параметр **-CollectionName**, то командлет возвращает список узлов сеансов и связанных с ними пользователей. Если также указать параметр **-User**, то будет возвращен узел сеансов, связанный с данным пользователем. Если указать параметр **-Name**, будет возвращен пользователь, связанный с этим узлом сеансов.
 
 
 Командлет **Export-RDPersonalPersonalDesktopAssignment** экспортирует текущие связи между пользователями и личными виртуальными рабочими столами в текстовый файл. Этот командлет поддерживает следующие параметры.
 
--CollectionName \<строка\>
+-CollectionName \<string\>
 
--ConnectionBroker \<строка\>
+-ConnectionBroker \<string\>
 
--Path \<строка\>
+-Path \<string\>
 
 
 Все новые командлеты поддерживают общие параметры: -Verbose, -Debug, -ErrorAction, -ErrorVariable, -OutBuffer и -OutVariable. См. сведения в разделе [about_CommonParameters](https://go.microsoft.com/fwlink/p/?LinkID=113216).
