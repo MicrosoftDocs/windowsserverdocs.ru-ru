@@ -6,12 +6,12 @@ ms.assetid: da58f312-bd3b-4bb6-98ca-6177869dd6ad
 manager: brianlic
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 646660c1371b592670737b7d7d208b62208bfec9
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 81c35d1a5673793220ec860266d129a4ecdb4046
+ms.sourcegitcommit: b18effcba95c85d6e08e7d29808b576491a5352e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87993939"
+ms.lasthandoff: 08/15/2020
+ms.locfileid: "88243196"
 ---
 # <a name="data-center-bridging-dcb"></a>Мост для центра обработки данных \(DCB\)
 
@@ -38,7 +38,7 @@ DCB обеспечивает выделение аппаратной \- проп
 DCB состоит из следующего набора протоколов.
 
 - Улучшенная служба передачи \( ETS \) – IEEE 802.1 Каз, которая основана на стандартах 802.1 p и 802.1 q
-- Управление потоком с приоритетом \( \) — PFS, IEEE 802.1 КББ
+- Приоритет контроля \( мощности \) , IEEE 802.1 КББ
 - DCB Exchange Protocol \( дкбкс \) , IEEE 802.1 AB, расширенная в стандарте 802.1 Каз.
 
 Протокол ДКБКС позволяет настроить DCB на коммутаторе, который затем может автоматически настроить конечное устройство, например компьютер под Windows Server 2016.
