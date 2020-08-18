@@ -8,12 +8,12 @@ ms.author: joflore
 author: MicrosoftGuyJFlo
 manager: daveba
 ms.reviewer: mas
-ms.openlocfilehash: 6a7e916c78ad7b2711268f02bcf028dfb2621303
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 014e19088394135c00d1df63a46ba74f400fa411
+ms.sourcegitcommit: 08da40966c5d633f8748c8ae348f12656a54d3b2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87991864"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "88140311"
 ---
 # <a name="privileged-access-workstations"></a>Рабочие станции c привилегированным доступом
 
