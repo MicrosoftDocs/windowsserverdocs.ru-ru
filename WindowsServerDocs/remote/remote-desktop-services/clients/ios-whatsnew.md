@@ -5,14 +5,14 @@ ms.topic: article
 author: heidilohr
 manager: lizross
 ms.author: helohr
-ms.date: 05/06/2020
+ms.date: 08/17/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: 16e142a299b43ac6167fa4bf34d5782899f28846
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 0afb5a64a86d3b33ea5d78756abe09bf87564928
+ms.sourcegitcommit: 3ed5dd72451b494e17d508fed82fdc5559ba4ef0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87970161"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88270146"
 ---
 # <a name="whats-new-in-the-ios-client"></a>Что нового в клиенте iOS?
 
@@ -21,6 +21,15 @@ ms.locfileid: "87970161"
 ## <a name="how-to-report-issues"></a>Отправка сообщений о проблемах
 
 Мы хотим сделать клиент удаленного рабочего стола для iOS максимально удобным, поэтому для нас важен ваш отзыв. Вы можете сообщить о проблемах, щелкнув **Справка** > **Сообщить о проблеме**.
+
+## <a name="updates-for-version-1012"></a>Обновления для версии 10.1.2
+
+*Дата публикации: 17.08.2020*
+
+В этом обновлении мы устранили проблемы, о которых сообщили в обновлении версии 10.1.1.
+
+- Исправлена ошибка, которая возникала для некоторых пользователей при подписке на канал виртуальных рабочих столов Windows с использованием аутентификации без посредника.
+- Исправлено расположение значков рабочего пространства на устройствах iPhone X, iPhone XS и iPhone 11 Pro.
 
 ## <a name="updates-for-version-1007"></a>Обновления для версии 10.0.7
 

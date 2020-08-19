@@ -5,14 +5,14 @@ ms.topic: article
 author: heidilohr
 manager: lizross
 ms.author: helohr
-ms.date: 07/28/2020
+ms.date: 08/11/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: 0077837fc03fbff37ed2a152ee68bfa4f1e24fa8
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 5f3a2ff6268cbccc2d354227b577441a270faf9f
+ms.sourcegitcommit: f3a72c06e739d9ee9d8cd7e8259ccee8db7c7523
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87961828"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "88089973"
 ---
 # <a name="whats-new-in-the-windows-desktop-client"></a>Что нового в клиенте для Windows Desktop
 
@@ -25,7 +25,19 @@ ms.locfileid: "87961828"
 |Группа пользователей |Версия  |
 |-----------|---------|
 |Общие     |1.2.1186 |
-|Предварительная оценка    |1.2.1186 |
+|Предварительная оценка    |1.2.1272 |
+
+## <a name="updates-for-version-121272-insider"></a>Обновления для версии 1.2.1272 [по Программе предварительной оценки]
+
+*Дата публикации: 11.08.2020*
+
+Скачать: [Windows (64-разрядная версия)](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4D7LK), [Windows (32-разрядная версия)](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4D5aF), [Windows (ARM64)](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4Dan3)
+
+- Добавлены функции для автоматического обнаружения независимых облаков из удостоверения пользователя.
+- Добавлены функции для включения настраиваемых подписок URL-адресов для всех пользователей.
+- Исправлена проблема с закреплением приложений на панели задач веб-канала.
+- Исправлено аварийное завершение при подписке с URL-адресом.
+- Улучшена работа при перетаскивании окон удаленных приложений с помощью сенсорного ввода или пера.
 
 ## <a name="updates-for-version-121186"></a>Обновления для версии 1.2.1186
 
