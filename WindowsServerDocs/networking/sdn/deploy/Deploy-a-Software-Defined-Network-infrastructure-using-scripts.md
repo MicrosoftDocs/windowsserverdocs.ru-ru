@@ -7,12 +7,12 @@ ms.assetid: 5ba5bb37-ece0-45cb-971b-f7149f658d19
 ms.author: anpaul
 author: AnirbanPaul
 ms.date: 08/23/2018
-ms.openlocfilehash: 7fcf8b095479ec21c045a60244917b09883a6162
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 84b96e724706db49945c2e4936d0b4d8691d8daa
+ms.sourcegitcommit: 3d59c2aaebcd190b20d24bc8a449eee0681b6a3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87993767"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "88583329"
 ---
 # <a name="deploy-a-software-defined-network-infrastructure-using-scripts"></a>Развертывание инфраструктуры программно-конфигурируемой сети с помощью скриптов
 
@@ -114,21 +114,6 @@ ms.locfileid: "87993767"
 
    ``winrm id -r:<Hyper-V Host FQDN>``
 
-### <a name="nano-installation-requirements-and-notes"></a>Требования и примечания для установки Nano
-
-При использовании Nano в качестве узлов Hyper-V (физических серверов) для развертывания ниже приведены дополнительные требования.
-
-1. На всех узлах Nano должен быть установлен пакет DSC с языковым пакетом:
-
-   - Microsoft-NanoServer-DSC-Package.cab
-   - Microsoft-NanoServer-DSC-Package_en-us.cab
-
-     ``dism /online /add-package /packagepath:<Path> /loglevel:4``
-
-2. Сценарии SDN Express необходимо запускать с узла, не являющегося узлом Nano (Windows Server Core или Windows Server с графическим интерфейсом пользователя). Рабочие процессы PowerShell не поддерживаются в Nano.
-
-3. Вызов API сетевого контроллера обмена с помощью оболочек вызовов PowerShell или NC (которые основываются на Invoke-WebRequest и Invoke-RestMethod) необходимо выполнять на узле, не являющемся узлом Nano.
-
 ### <a name="run-sdn-express-scripts"></a>Выполнение скриптов SDN Express
 
 1. Перейдите в [репозиторий Microsoft Sdn GitHub](https://github.com/Microsoft/SDN.git) для файлов установки.
@@ -182,11 +167,11 @@ ms.locfileid: "87993767"
 
 1.  Настройте файл SDNExpress\scripts\TenantConfig.psd1, изменив **<< замените >>** Теги на конкретные значения (например, имя образа VHD, имя сети сетевого контроллера, имя vSwitch и т. д., как ранее было определено в файле FabricConfig.psd1).
 
-2.  Выполните скрипт. Например:
+2.  Выполните скрипт. Пример:
 
     ``SDNExpress\scripts\SDNExpressTenant.ps1 -ConfigurationDataFile TenantConfig.psd1 -Verbose``
 
-3.  Чтобы отменить настройку, выполните тот же сценарий с параметром **Undo** . Например:
+3.  Чтобы отменить настройку, выполните тот же сценарий с параметром **Undo** . Пример:
 
     ``SDNExpress\scripts\SDNExpressTenant.ps1 -Undo -ConfigurationDataFile TenantConfig.psd1 -Verbose``
 

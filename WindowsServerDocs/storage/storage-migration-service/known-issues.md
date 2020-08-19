@@ -6,12 +6,12 @@ ms.author: nedpyle
 manager: tiaascs
 ms.date: 07/29/2020
 ms.topic: article
-ms.openlocfilehash: 818fca0ed62c140b3b0c4bbb1394380d42201f79
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 0dc49603099427fb00507db021c391500a7c42f2
+ms.sourcegitcommit: 3d59c2aaebcd190b20d24bc8a449eee0681b6a3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87961318"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "88583319"
 ---
 # <a name="storage-migration-service-known-issues"></a>Известные проблемы со службой миграции хранилища
 
@@ -21,7 +21,7 @@ ms.locfileid: "87961318"
 
 Например, Windows Server версии 1903 включает новые функции и исправления для службы миграции хранилища, которые также доступны для Windows Server 2019 и Windows Server версии 1809 путем установки [KB4512534](https://support.microsoft.com/help/4512534/windows-10-update-kb4512534).
 
-## <a name="how-to-collect-log-files-when-working-with-microsoft-support"></a><a name="collecting-logs"></a>Как получать файлы журналов при работе с служба поддержки Майкрософт
+## <a name="how-to-collect-log-files-when-working-with-microsoft-support"></a><a name="collecting-logs"></a> Как получать файлы журналов при работе с служба поддержки Майкрософт
 
 Служба миграции хранилища содержит журналы событий для службы Orchestrator и прокси-службы. Сервер Orchestrator всегда содержит оба журнала событий, а целевые серверы с установленной службой прокси содержат журналы прокси-сервера. Эти журналы находятся в папке:
 
@@ -76,7 +76,7 @@ Transfer Log - Please check file sharing is allowed in your firewall. : This req
     <bindings>
       <netTcpBinding>
         <binding name="NetTcpBindingSms"
-                 sendTimeout="00:01:00"
+                 sendTimeout="00:10:00"
     ```
 
 2. Перезапустите службу "Служба миграции хранилища" на компьютере Orchestrator.
@@ -637,6 +637,6 @@ Guidance: Check the detailed error and make sure the inventory requirements are 
 
 Эта проблема вызвана дефектом кода в службе миграции хранилища. В настоящее время единственным решением является переименование компьютера с тем же именем, что и у NetBIOS-имени, а затем с помощью команды [NETDOM ComputerName/Add](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc835082(v=ws.11)) добавьте альтернативное имя компьютера, которое использовалось до начала инвентаризации. Служба миграции хранилища поддерживает миграцию альтернативных имен компьютеров.
 
-## <a name="see-also"></a>См. также статью
+## <a name="see-also"></a>См. также
 
 - [Обзор службы миграции хранилища](overview.md)
