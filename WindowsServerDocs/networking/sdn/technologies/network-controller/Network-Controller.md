@@ -6,12 +6,12 @@ ms.topic: article
 ms.assetid: 31f3fa4e-cd25-4bf3-89e9-a01a6cec7893
 ms.author: anpaul
 author: AnirbanPaul
-ms.openlocfilehash: 2bf49dbd17e1724782b27f8b306c04346f194242
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 9623ce4e5e31b905c1c18e9359811389d8d75f23
+ms.sourcegitcommit: 1eaad076ea74e72b36e8893aaa15f3e5f4237bd6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87991362"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "88659389"
 ---
 # <a name="network-controller"></a>Сетевой контроллер
 
@@ -28,7 +28,7 @@ ms.locfileid: "87991362"
 > - [Развертывание сетевого контроллера с помощью Windows PowerShell](../../deploy/Deploy-Network-Controller-using-Windows-PowerShell.md)
 > - [Установка роли сервера сетевого контроллера с помощью диспетчера серверов](Install-the-Network-Controller-server-role-using-Server-Manager.md)
 > - [Шаги, выполняемые после развертывания сетевого контроллера](post-deploy-steps-nc.md)
-> - [Командлеты сетевого контроллера](https://technet.microsoft.com/library/mt576401.aspx)
+> - [Командлеты сетевого контроллера](https://docs.microsoft.com/powershell/module/networkcontroller/?view=win10-ps)
 
 ## <a name="network-controller-overview"></a><a name="bkmk_overview"></a>Сетевой контроллер: обзор
 
