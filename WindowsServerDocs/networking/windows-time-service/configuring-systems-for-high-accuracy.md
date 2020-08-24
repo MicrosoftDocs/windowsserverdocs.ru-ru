@@ -2,16 +2,16 @@
 ms.assetid: ''
 title: Настройка высокой точности в системах
 description: Синхронизация времени в Windows 10 и Windows Server 2016 была значительно улучшена.  При разумных условиях работы можно настроить системы для поддержания точности до 1 мс (миллисекунды) или еще точнее (относительно UTC).
-author: dcuomo
-ms.author: dacuo
+author: dahavey
+ms.author: dahavey
 ms.date: 05/08/2018
 ms.topic: article
-ms.openlocfilehash: b6d37a656994fa12e0a84c1330f4f40d79249af9
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: cee1616c4ca5cecb40901f4a0be79f549e838347
+ms.sourcegitcommit: b5b040a47cf48c94852de9aad8b91475f891d2f7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87970741"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88563394"
 ---
 # <a name="configuring-systems-for-high-accuracy"></a>Настройка высокой точности в системах
 >Применяется к: Windows Server 2016 и Windows 10 версии 1607 или более поздней.

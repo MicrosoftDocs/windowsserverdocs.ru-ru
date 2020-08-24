@@ -7,12 +7,12 @@ author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: e802756bc1d70e077126170a94a8b8ac6f72dc96
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 682375733bdd269150cb6d557db730283ee3267e
+ms.sourcegitcommit: a868f7d8bb9c5becffc688fd9b75c80802af71ba
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87895538"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "88778605"
 ---
 # <a name="assoc"></a>assoc
 
@@ -20,6 +20,7 @@ ms.locfileid: "87895538"
 
 > [!NOTE]
 > Эта команда поддерживается только в cmd.exe и недоступна в PowerShell.
+> Хотя это решение можно использовать в `cmd /c assoc` качестве обходного пути.
 
 ## <a name="syntax"></a>Синтаксис
 

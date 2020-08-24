@@ -1,17 +1,16 @@
 ---
 ms.assetid: d1953097-63ea-4a0e-b860-2f3b7c175c41
 title: Принцип работы службы времени Windows
-author: dcuomo
-ms.author: dacuo
-manager: dougkim
+author: dahavey
+ms.author: dahavey
 ms.date: 05/08/2018
 ms.topic: article
-ms.openlocfilehash: c3889c52b6f27f3ff19d3c86e87855f1b6276963
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 3f45361d99295b593fe1a49e88b7efa130cdf4ff
+ms.sourcegitcommit: b5b040a47cf48c94852de9aad8b91475f891d2f7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87939965"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88563384"
 ---
 # <a name="how-the-windows-time-service-works"></a>Принцип работы службы времени Windows
 
