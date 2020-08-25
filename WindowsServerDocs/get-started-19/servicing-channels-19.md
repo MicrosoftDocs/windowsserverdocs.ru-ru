@@ -1,17 +1,17 @@
 ---
-title: Каналы обслуживания
-description: 'Описание каналов обслуживания Windows Server 2019: канал долгосрочного обслуживания (LTSC) и канал полугодичного обслуживания (SAC)'
+title: Каналы обслуживания Windows Server
+description: 'Описание каналов обслуживания Windows Server 2019: LTSC (долгосрочное обслуживание) и SAC (полугодичное обслуживание)'
 ms.topic: article
 author: jasongerend
 ms.author: jgerend
 ms.localizationpriority: high
 ms.date: 05/21/2019
-ms.openlocfilehash: 47fd1d50e9f90fb6617e2ded4bff3efeab5cd117
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 49de69c5a21a9c16012d79609784ff89395358db
+ms.sourcegitcommit: 893b9a24fd2efe30f5af909e3aa1f25907a17427
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87969971"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "88681285"
 ---
 # <a name="windows-server-servicing-channels-ltsc-and-sac"></a>Каналы обслуживания Windows Server: LTSC и SAC
 
@@ -36,8 +36,8 @@ ms.locfileid: "87969971"
 
 Канал Semi-Annual Channel доступен корпоративным клиентам, участвующим в программе [Software Assurance](https://www.microsoft.com/licensing/licensing-programs/software-assurance-default.aspx), а также через Azure Marketplace или другого поставщика облачных услуг / услуг хостинга, а также в рамках программ лояльности, таких как подписки на Visual Studio.
 
-> [!NOTE]
-> **Текущий выпуск канала Semi-Annual Channel — Windows Server версии 1909**. Чтобы присоединиться к этому каналу, требуется ОС Windows Server версии 1909, которую можно установить в режиме основных серверных компонентов или в виде Nano Server с выполнением в контейнере. Обновления на месте выпуска Long-Term Servicing Channel не поддерживаются, так как они находятся в **разных каналах выпуска**. Выпуски канала Semi-Annual Channel не являются обновлениями — это следующий выпуск Windows Server на канале Semi-Annual Channel.
+> [!Note]
+> **Текущий выпуск канала Semi-Annual Channel — Windows Server версии 2004.** Чтобы присоединиться к этому каналу, требуется ОС Windows Server версии 2004, которую можно установить в режиме основных серверных компонентов или в виде Nano Server с выполнением в контейнере. Обновления на месте выпуска Long-Term Servicing Channel не поддерживаются, так как они находятся в **разных каналах выпуска**. Выпуски канала Semi-Annual Channel не являются обновлениями — это следующий выпуск Windows Server на канале Semi-Annual Channel.
 
 В этой модели выпуски Windows Server идентифицируются по году и месяцу выпуска, например выпуск от 9-го месяца (сентября) 2017 года будет обозначаться как **версия 1709**. Новые выпуски Windows Server в канале Semi-Annual Channel появляются два раза в год. Срок поддержки для каждого выпуска составляет 18 месяцев.
 
@@ -45,7 +45,8 @@ ms.locfileid: "87969971"
 
 Ниже перечислены основные различия, которые следует принять во внимание.
 
-- Хотите ли вы оставаться в курсе новых технологий, связанных с DevOps, контейнерами и микрослужбами? Если это так, **присоединитесь к каналу Semi-Annual Channel**, установив **Windows Server версии 1909**. Как описано в этом разделе, вы будете получать новые версии два раза в год с 18-месячной основной поддержкой в рабочей среде для каждого выпуска. Вы можете получать их по программе корпоративного лицензирования, в виде служб по подписке Azure и Visual Studio. В настоящее время для выпусков в канале Semi-Annual Channel требуются корпоративное лицензирование и программа Software Assurance, если вы планируете запускать продукт в рабочей среде.
+- Вам необходимы быстрые инновации? Вам требуется ранний доступ к новейшим возможностям Windows Server? Вам необходимо поддерживать быстро меняющиеся гибридные приложения, интеграцию процессов эксплуатации и разработки, а также структуры Hyper-V? Если это так, **присоединитесь к каналу Semi-Annual Channel**, установив **Windows Server версии 2004**. Как описано в этом разделе, вы будете получать новые версии два раза в год с 18-месячной основной поддержкой в рабочей среде для каждого выпуска. Вы можете получать их по программе корпоративного лицензирования, в виде служб по подписке Azure и Visual Studio. В настоящее время для выпусков в канале Semi-Annual Channel требуются корпоративное лицензирование и программа Software Assurance, если вы планируете запускать продукт в рабочей среде.
+
 - Вам требуются стабильность и предсказуемость? Вам требуется запускать виртуальные машины и традиционные рабочие нагрузки на физических серверах? Если это так, вам следует **сохранить эти серверы в канале Long-Term Servicing Channel**. Текущий выпуск LTSC — **Windows Server 2019**. Как описано в этом разделе, вы будете получать доступ к новым версиям каждые 2–3 года с 5-летней основной поддержкой и последующей 5-летней расширенной поддержкой для каждого выпуска. Выпуски LTSC доступны с помощью всех методов выпуска. Выпуски в канале LTSC доступны всем пользователям, независимо от применяемой модели лицензирования.
 
 В следующей таблице приведены основные различия между каналами.
@@ -170,12 +171,12 @@ State   :     Installed
 
 ## <a name="additional-references"></a>Дополнительные ссылки
 
-[Изменения сервера Nano Server в Semi-Annual Channel для Windows Server](../get-started/nano-in-semi-annual-channel.md)
+- [Изменения сервера Nano Server в Semi-Annual Channel для Windows Server](../get-started/nano-in-semi-annual-channel.md)
 
-[Политика жизненного цикла поддержки Майкрософт](https://support.microsoft.com/lifecycle)
+- [Политика жизненного цикла поддержки Майкрософт](https://support.microsoft.com/lifecycle)
 
-[Determining whether Server Core is running](/previous-versions/windows/desktop/legacy/hh846315(v=vs.85)?f=255&MSPPError=-2147217396) (Определение того, запущены ли основные серверные компоненты)
+- [Determining whether Server Core is running](https://msdn.microsoft.com/library/hh846315%28v=vs.85%29.aspx?f=255&MSPPError=-2147217396) (Определение того, запущены ли основные серверные компоненты)
 
-[GetProductInfo function](/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getproductinfo) (Функция GetProductInfo)
+- [GetProductInfo function](https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getproductinfo) (Функция GetProductInfo)
 
-[SoftwareInventoryLogging](/powershell/module/softwareinventorylogging/?view=winserver2012R2-ps) (Командлеты ведения журнала инвентаризации программного обеспечения)
+- [SoftwareInventoryLogging](https://docs.microsoft.com/powershell/module/softwareinventorylogging/?view=winserver2012R2-ps) (Командлеты ведения журнала инвентаризации программного обеспечения)
