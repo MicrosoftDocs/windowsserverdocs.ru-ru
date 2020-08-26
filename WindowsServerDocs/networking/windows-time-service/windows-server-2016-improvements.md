@@ -1,17 +1,16 @@
 ---
 title: Улучшения точности времени в Windows Server 2016
 description: В Windows Server 2016 улучшены алгоритмы, используемые для корректировки времени и условий для синхронизации локального времени с временем в формате UTC.
-author: dcuomo
-ms.author: dacuo
-manager: dougkim
+author: dahavey
+ms.author: dahavey
 ms.date: 10/17/2018
 ms.topic: article
-ms.openlocfilehash: 7c0644d88e158050b83873f4398fe7ee87b120d5
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: f7593b085dd07694bf7d51d2712501bea612e9af
+ms.sourcegitcommit: b5b040a47cf48c94852de9aad8b91475f891d2f7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87997399"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88563404"
 ---
 # <a name="time-accuracy-improvements-for-windows-server-2016"></a>Улучшения точности времени в Windows Server 2016
 
@@ -172,8 +171,8 @@ ms.locfileid: "87997399"
 
 В некоторых сценариях, использующих гостевые контроллеры домена, примеры TimeSync Hyper-V могут нарушить синхронизацию времени домена. Это не должно быть проблемой для гостевых серверов 2016, работающих на узлах-V сервера Hyper 2016.
 
-Чтобы отключить службу Hyper-V TimeSync от предоставления примеров в w32time, установите следующий ключ гостевого реестра: `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\W32Time\TimeProviders\VMICTimeProvider
- "Enabled"=dword:00000000`
+Чтобы отключить предоставление примеров в w32time для службы Hyper-V TimeSync, установите следующий ключ гостевого реестра: `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\W32Time\TimeProviders\VMICTimeProvider
+ "Enabled"=dword:00000000`.
 
 #### <a name="allowing-linux-to-use-hyper-v-host-time"></a>Разрешение использования Linux с временем узла Hyper-V
 
