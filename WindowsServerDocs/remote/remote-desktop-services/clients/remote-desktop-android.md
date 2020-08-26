@@ -6,14 +6,14 @@ ms.assetid: 64f038e1-40ec-4c67-938b-72edea49e5d8
 author: heidilohr
 manager: lizross
 ms.author: helohr
-ms.date: 07/16/2020
+ms.date: 08/20/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: 70d334aa13b96a210a2b168129119d09b0297f20
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 90a0796818a2beb7e592eae1556999729b2d9ab2
+ms.sourcegitcommit: 8e5530ba7f7d3e2569590949e1f443d908683a17
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87970151"
+ms.lasthandoff: 08/21/2020
+ms.locfileid: "88702873"
 ---
 # <a name="get-started-with-the-android-client"></a>Приступая к работе с клиентом Android
 
@@ -75,8 +75,8 @@ ms.locfileid: "87970151"
 1. В Центре подключений нажмите **+** , а затем — **Remote Resources Feed** (Веб-канал удаленных ресурсов).
 2. Введите значение параметра **Feed URL** (URL-адрес веб-канала). Это может быть URL-адрес или адрес электронной почты.
    - В поле **URL** (URL-адрес) указывается сервер веб-доступа к удаленным рабочим столам, предоставленный администратором. Если обращение к ресурсам выполняется из Виртуального рабочего стола Windows, можно использовать один из следующих URL-адресов с учетом вашей версии:
-     - Для версии за осень 2019 г. используйте `https://rdweb.wvd.microsoft.com/api/feeddiscovery/webfeeddiscovery.aspx`.
-     - Для версии за весну 2020 г. используйте `https://rdweb.wvd.microsoft.com/api/arm/feeddiscovery`.
+     - Если вы работаете с Виртуальным рабочим столом Windows (классическая модель), используйте: `https://rdweb.wvd.microsoft.com/api/feeddiscovery/webfeeddiscovery.aspx`.
+     - Если вы работаете с Виртуальным рабочим столом Windows, используйте: `https://rdweb.wvd.microsoft.com/api/arm/feeddiscovery`.
    - Если вы планируете использовать электронную почту, введите ее адрес в поле **Email** (Адрес электронной почты). Это укажет клиенту на необходимость поиска сервера веб-доступа к удаленным рабочим столам, связанного с вашим адресом электронной почты, если он был настроен администратором.
 3. Коснитесь **Next** (Далее).
 4. При появлении запроса укажите свои данные для входа. Они могут варьироваться в зависимости от развертывания и могут включать в себя следующие параметры.

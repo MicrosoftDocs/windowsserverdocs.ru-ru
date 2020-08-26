@@ -6,14 +6,14 @@ ms.assetid: 7afc65f8-3158-49c9-9d48-4dab1c69afba
 author: lizap
 manager: dongill
 ms.author: elizapo
-ms.date: 07/16/2020
+ms.date: 08/20/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: 2a0c93ddc6bf891a3f8157d36b67f60241d4d41b
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: e0ce10cbdc1dfe70156d36a96978222395afaa94
+ms.sourcegitcommit: 8e5530ba7f7d3e2569590949e1f443d908683a17
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87991593"
+ms.lasthandoff: 08/21/2020
+ms.locfileid: "88702823"
 ---
 # <a name="get-started-with-the-macos-client"></a>Приступая к работе с клиентом macOS
 
@@ -49,8 +49,8 @@ ms.locfileid: "87991593"
 1. Выберите **Добавить веб-канал** на главной странице, чтобы подключиться к службе и получить ресурсы.
 2. Введите URL-адрес веб-канала. Это может быть URL-адрес или адрес электронной почты.
    - Этот URL-адрес обычно является URL-адресом Виртуального рабочего стола Windows. Выбор зависит от используемой версии Виртуального рабочего стола Windows.
-      - Для версии за осень 2019 г. используйте `https://rdweb.wvd.microsoft.com/api/feeddiscovery/webfeeddiscovery.aspx`.
-      - Для версии за весну 2020 г. используйте `https://rdweb.wvd.microsoft.com/api/arm/feeddiscovery`.
+      - Если вы работаете с Виртуальным рабочим столом Windows (классическая модель), используйте: `https://rdweb.wvd.microsoft.com/api/feeddiscovery/webfeeddiscovery.aspx`.
+      - Если вы работаете с Виртуальным рабочим столом Windows, используйте: `https://rdweb.wvd.microsoft.com/api/arm/feeddiscovery`.
    - Чтобы использовать адрес электронной почты, введите свой адрес электронной почты. При этом клиент будет искать URL-адрес, связанный с вашим адресом электронной почты, если администратор настроил сервер соответствующим образом.
 3. Выберите **Подписаться**.
 4. При появлении запроса войдите в систему со своей учетной записью.

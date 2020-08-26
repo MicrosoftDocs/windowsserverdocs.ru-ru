@@ -5,14 +5,14 @@ ms.topic: article
 author: heidilohr
 manager: lizross
 ms.author: helohr
-ms.date: 05/26/2020
+ms.date: 08/20/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: fa1c713b06e63c919bc2e42e8d4ba3c14eecf8f0
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 5bd3e1d5f06e5c415b4f300d9a2c8a9b390e5051
+ms.sourcegitcommit: 8e5530ba7f7d3e2569590949e1f443d908683a17
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87971611"
+ms.lasthandoff: 08/21/2020
+ms.locfileid: "88702833"
 ---
 # <a name="get-started-with-the-windows-desktop-client"></a>Приступая к работе с клиентом для Windows Desktop
 
@@ -70,8 +70,8 @@ ms.locfileid: "87971611"
 1. На главной странице клиента щелкните действие **Subscribe with URL** (Подписаться по URL-адресу).
 2. Введите URL-адрес рабочего пространства или адрес электронной почты.
    - Если вы используете **URL-адрес рабочего пространства**, введите предоставленный администратором адрес. Если обращение к ресурсам выполняется из Виртуального рабочего стола Windows, можно использовать один из следующих URL-адресов.
-     - Виртуальный рабочий стол Windows, выпуск за осень 2019 года: `https://rdweb.wvd.microsoft.com/api/feeddiscovery/webfeeddiscovery.aspx`
-     - Виртуальный рабочий стол Windows, выпуск за весну 2020 года: `https://rdweb.wvd.microsoft.com/api/arm/feeddiscovery`
+     - Виртуальный рабочий стол Windows (классическая модель): `https://rdweb.wvd.microsoft.com/api/feeddiscovery/webfeeddiscovery.aspx`.
+     - Виртуальный рабочий стол Windows: `https://rdweb.wvd.microsoft.com/api/arm/feeddiscovery`.
    - Чтобы использовать **адрес электронной почты**, введите свой адрес электронной почты. В этом случае клиент будет искать URL-адрес, связанный с вашим адресом электронной почты, если администратор настроил [обнаружение по адресу электронной почты](../rds-email-discovery.md).
 3. Коснитесь **Next** (Далее).
 4. При появлении запроса войдите в систему со своей учетной записью.
