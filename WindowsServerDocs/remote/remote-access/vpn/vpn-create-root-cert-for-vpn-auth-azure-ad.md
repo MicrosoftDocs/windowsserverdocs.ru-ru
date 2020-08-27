@@ -7,16 +7,16 @@ ms.author: v-tea
 author: Teresa-MOTIV
 ms.localizationpriority: medium
 ms.reviewer: deverette
-ms.openlocfilehash: 098d2f2c17555c3e4375e4b54b676ef67a40dc4d
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: dfcdea3b719cee685222fdf5919ce5e674ca1e64
+ms.sourcegitcommit: 52a8d5d7e969eaa07fd3a45ed6d3cb5a5173b6d1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87946577"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "88970641"
 ---
 # <a name="step-72-create-conditional-access-root-certificates-for-vpn-authentication-with-azure-ad"></a>Шаг 7.2. Создание корневых сертификатов условного доступа для проверки подлинности VPN с помощью Azure AD
 
->Область применения: Windows Server (половина ежегодного канала), Windows Server 2016, Windows Server 2012 R2, Windows 10
+> Область применения: Windows Server (половина ежегодного канала), Windows Server 2016, Windows Server 2012 R2, Windows 10
 
 - [**Назад:** Шаг 7,1. Настройка EAP-TLS для пропуска проверки списка отзыва сертификатов (CRL)](vpn-config-eap-tls-to-ignore-crl-checking.md)
 - [**Далее:** Шаг 7,3. Настройка политики условного доступа](vpn-config-conditional-access-policy.md)
@@ -32,7 +32,7 @@ ms.locfileid: "87946577"
 
 Когда пользователь пытается выполнить VPN-подключение, VPN-клиент выполняет вызов к диспетчеру учетных записей (WAM) в клиенте Windows 10. WAM вызывает облачное приложение VPN-сервера. Если условия и элементы управления в политике условного доступа удовлетворены, Azure AD выдает маркер в виде короткого (1-часового) сертификата в WAM. WAM помещает сертификат в хранилище сертификатов пользователя и передает управление VPN-клиенту. 
 
-После этого VPN-клиент отправляет проблемы с сертификатами Azure AD в VPN для проверки учетных данных. 
+Затем VPN-клиент отправляет сертификат, выданный Azure AD в VPN, для проверки учетных данных. 
 
 > [!NOTE]
 > Azure AD использует недавно созданный сертификат в колонке VPN-подключения в качестве издателя.
@@ -46,7 +46,7 @@ ms.locfileid: "87946577"
 5. В **условном доступе | Политики** в разделе **Управление** щелкните **VPN-подключение**.
 5. На странице **VPN connectivity** (VPN-подключение) щелкните **Новый сертификат**.
 6. На **новой** странице выполните следующие действия: a. В качестве **длительности**выберите 1, 2 или 3 года.
-   b. Нажмите кнопку **создания**.
+    Б. Нажмите кнопку **создания**.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
