@@ -1,17 +1,17 @@
 ---
 ms.assetid: e4c31187-f15f-410b-bb79-8d63e2f2b421
 title: Обновление контроллеров домена до Windows Server 2012 R2 и Windows Server 2012
-ms.author: joflore
-author: MicrosoftGuyJFlo
-manager: mtillman
+ms.author: iainfou
+author: iainfoulds
+manager: daveba
 ms.date: 08/09/2018
 ms.topic: article
-ms.openlocfilehash: ae0aa44dba50c467dd1bd2423e9eb67104387cd3
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 4034ea96fbe1f758d6948b2bc52ba9786158b0ba
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87994489"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88940564"
 ---
 # <a name="upgrade-domain-controllers-to-windows-server-2012-r2-and-windows-server-2012"></a>Обновление контроллеров домена до Windows Server 2012 R2 и Windows Server 2012
 
@@ -69,7 +69,7 @@ ms.locfileid: "87994489"
 
 В следующей таблице представлены новые возможности доменных служб Active Directory в Windows Server 2012 R2 и ссылки на более подробные сведения (если таковые доступны). Подробные пояснения к некоторым компонентам, включая их требования, см. в разделе [Новые возможности Active Directory в Windows Server 2012 R2](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn268294(v=ws.11)).
 
-|Функция|Описание|
+|Компонент|Описание|
 |-----------|---------------|
 |[Присоединение к рабочей области](../../ad-fs/operations/join-to-workplace-from-any-device-for-sso-and-seamless-second-factor-authentication-across-company-applications.md)|Позволяет информационным работникам подключаться к сети компании с личных устройств для доступа к корпоративным ресурсам и службам.|
 |[Прокси-сервер веб-приложения](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn280942(v=ws.11))|Предоставляет доступ к веб-приложению с помощью новой службы роли удаленного доступа.|
@@ -88,7 +88,7 @@ ms.locfileid: "87994489"
 
 В следующей таблице представлены новые возможности доменных служб Active Directory в Windows Server 2012 и ссылки на более подробные сведения (если таковые доступны). Более подробное описание некоторых функций, включая их требования, см. [в статье новые возможности домен Active Directory Services (AD DS)](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831477(v=ws.11)).
 
-|Функция|Описание|
+|Компонент|Описание|
 |-----------|---------------|
 |Активация с помощью Active Directory; см. раздел [Обзор активации корпоративных лицензий](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831612(v=ws.11))|Упрощает настройку распространения корпоративных лицензий на программное обеспечение и управления ими.|
 |[Службы федерации Active Directory (AD FS)](../../active-directory-federation-services.md)|Обеспечивают установку ролей при помощи диспетчера серверов, упрощенную настройку доверия, автоматическое управление доверием, поддержку протокола SAML и др.|
@@ -156,7 +156,7 @@ ms.locfileid: "87994489"
 |--|--|--|--|
 | AllowNT4Crypto | Выключено | Выключено | Сторонние клиенты SMB могут быть несовместимы с параметрами безопасности по умолчанию на контроллерах домена. В любом случае эти параметры можно настроить, чтобы разрешить взаимодействие, но только за счет ухудшения безопасности. Дополнительные сведения см. в [статье 942564](https://go.microsoft.com/fwlink/?LinkId=164558) базы знаний Майкрософт ( https://go.microsoft.com/fwlink/?LinkId=164558) . |
 | DES | Активировано | Выключено | [Статья 977321](https://go.microsoft.com/fwlink/?LinkId=177717) в базе знаний Майкрософт (https://go.microsoft.com/fwlink/?LinkId=177717) |
-| CBT/расширенная защита для встроенной проверки подлинности | Н/Д | Включено | См. [рекомендации корпорации Майкрософт по безопасности (937811)](https://go.microsoft.com/fwlink/?LinkId=164559) ( https://go.microsoft.com/fwlink/?LinkId=164559) и [статью 976918](https://go.microsoft.com/fwlink/?LinkId=178251) в базе знаний Майкрософт () https://go.microsoft.com/fwlink/?LinkId=178251) .<p>При необходимости проверьте и установите исправление в [статье 977073](https://go.microsoft.com/fwlink/?LinkId=186394) ( https://go.microsoft.com/fwlink/?LinkId=186394) в базе знаний Майкрософт). |
+| CBT/расширенная защита для встроенной проверки подлинности | н/д | Включено | См. [рекомендации корпорации Майкрософт по безопасности (937811)](https://go.microsoft.com/fwlink/?LinkId=164559) ( https://go.microsoft.com/fwlink/?LinkId=164559) и [статью 976918](https://go.microsoft.com/fwlink/?LinkId=178251) в базе знаний Майкрософт () https://go.microsoft.com/fwlink/?LinkId=178251) .<p>При необходимости проверьте и установите исправление в [статье 977073](https://go.microsoft.com/fwlink/?LinkId=186394) ( https://go.microsoft.com/fwlink/?LinkId=186394) в базе знаний Майкрософт). |
 | LMv2 | Активировано | Выключено | [Статья 976918](https://go.microsoft.com/fwlink/?LinkId=178251) в базе знаний Майкрософт (https://go.microsoft.com/fwlink/?LinkId=178251) |
 
 ## <a name="operating-system-requirements"></a><a name="BKMK_SysReqs"></a>Требования к операционной системе
@@ -333,7 +333,7 @@ ms.locfileid: "87994489"
 | [2747974](https://support.microsoft.com/kb/2747974): Событие клонирования контроллера домена с кодом 2224 предоставляет некорректные рекомендации | Клонирование виртуального контроллера домена | Событие с кодом 2224 неправильно предписывает удаление управляемых учетных записей служб перед клонированием. Автономные управляемые учетные записи служб нужно удалить, но групповые управляемые учетные записи служб не препятствуют клонированию. |
 | [2748266](https://support.microsoft.com/kb/2748266): Не удается разблокировать диск, зашифрованный BitLocker, после обновления до Windows 8 | BitLocker | При попытке разблокировать диск на компьютере, который был обновлен с Windows 7, появляется сообщение об ошибке "приложение не найдено". |
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 
 Материалы для ознакомления с [Windows Server 2012](https://www.microsoft.com/en-us/evalcenter/) 
  [Руководства по](https://download.microsoft.com/download/5/B/2/5B254183-FA53-4317-B577-7561058CEF42/WS%202012%20Evaluation%20Guide.pdf) 

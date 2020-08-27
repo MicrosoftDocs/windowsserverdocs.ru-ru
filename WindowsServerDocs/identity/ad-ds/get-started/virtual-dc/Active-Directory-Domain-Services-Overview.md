@@ -1,17 +1,17 @@
 ---
 ms.assetid: f052dfcd-dace-4485-8d0a-cc7df5cf3751
 title: Обзор доменных служб Active Directory
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 14c82049171c25d24836ec3cbed35dfe592885f6
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 8087a6c7698952793546d6266a6a112bb810ac70
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87969941"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88940334"
 ---
 # <a name="active-directory-domain-services-overview"></a>Обзор доменных служб Active Directory
 

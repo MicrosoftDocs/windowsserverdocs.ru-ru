@@ -1,17 +1,17 @@
 ---
 ms.assetid: 5b2876ac-fe7d-4054-bfba-b692e57bc0d2
 title: Приложение C — защищенные учетные записи и группы в Active Directory
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: e539a91e4d844074c76f6d1f41eb4e6824db242a
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 7a62ad9ecd14d4f4a3126d0294c56082e8a5f701
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87963358"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88941622"
 ---
 # <a name="appendix-c-protected-accounts-and-groups-in-active-directory"></a>Приложение В. Защищенные учетные записи и группы в Active Directory
 
@@ -29,7 +29,7 @@ ms.locfileid: "87963358"
 
 #### <a name="protected-accounts-and-groups-in-active-directory-by-operating-system"></a>Защищенные учетные записи и группы в Active Directory операционной системой
 
-| Windows Server 2003 RTM | Windows Server 2003 SP1 + | Windows Server 2012. <br> Windows Server 2008 R2 <br> Windows Server 2008 | Windows Server 2016 |
+| Windows Server 2003 RTM | Windows Server 2003 SP1 + | Windows Server 2012. <br> Windows Server 2008 R2 <br> Windows Server 2008 | Windows Server 2016 |
 | --- | --- | --- | --- |
 |Операторы учета|Операторы учета|Операторы учета|Операторы учета|
 |Администратор|Администратор|Администратор|Администратор|

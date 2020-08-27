@@ -1,17 +1,17 @@
 ---
 title: Восстановление леса AD — создание пулов RID
-ms.author: joflore
-author: MicrosoftGuyJFlo
-manager: mtillman
+ms.author: iainfou
+author: iainfoulds
+manager: daveba
 ms.date: 08/09/2018
 ms.topic: article
 ms.assetid: c37bc129-a5e0-4219-9ba7-b4cf3a9fc9a4
-ms.openlocfilehash: 624aac31ac92ea16dffcd84a323cc0b13037efde
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 96e27aac4f63008c2ae694c2fe365d6391d3c949
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87969921"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88941564"
 ---
 # <a name="ad-forest-recovery---raising-the-value-of-available-rid-pools"></a>Восстановление леса AD — повышение значения доступных пулов RID
 
@@ -65,7 +65,7 @@ ms.locfileid: "87969921"
 8. В поле **изменить атрибут записи**введите `rIDAvailablePool` .
 9. Выберите **заменить** в качестве операции, а затем нажмите клавишу **Ввод**.
    ![СРЕДСТВО](media/AD-Forest-Recovery-Raise-RID-Pool/ldp4.png)
-10. Нажмите кнопку **выполнить** , чтобы выполнить операцию. Щелкните **Закрыть**.
+10. Нажмите кнопку **выполнить** , чтобы выполнить операцию. Нажмите кнопку **Закрыть**.
 11. Чтобы проверить изменение, в меню **вид**выберите пункт **дерево**, а затем введите следующий путь к различающемся имени: CN = RID Manager $, CN = System, DC =*доменное имя*.   Проверьте атрибут **ридаваилаблепул** .
    ![СРЕДСТВО](media/AD-Forest-Recovery-Raise-RID-Pool/ldp5.png)
 

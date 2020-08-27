@@ -1,17 +1,17 @@
 ---
 ms.assetid: 956f23b8-0c74-4436-ad43-e041f63302ce
 title: Технический справочник по виртуализированным контроллерам домена (уровень 300)
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: f81777e8a66d3b5f46a62462533b29a3941ce993
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 2ba10e70bd3eaf542f4fae4665f8c919552c1345
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87965141"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88940134"
 ---
 # <a name="virtualized-domain-controller-technical-reference-level-300"></a>Технический справочник по виртуализированным контроллерам домена (уровень 300)
 

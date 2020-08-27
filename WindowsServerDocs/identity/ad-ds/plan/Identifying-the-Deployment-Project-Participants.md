@@ -1,17 +1,17 @@
 ---
 ms.assetid: 50bd2566-e03c-4884-b5c4-895c8aab80aa
 title: Определение участников проекта развертывания
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 16edfc28e90ca5e5755305a1e95c338b604a72f2
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 5330b9ea3d06ce122708a87b396ee38f465f58b3
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87959052"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88941064"
 ---
 # <a name="identifying-the-deployment-project-participants"></a>Определение участников проекта развертывания
 

@@ -1,17 +1,17 @@
 ---
 ms.assetid: 0fd7b6aa-3e50-45a3-a3a6-56982844363e
 title: ИД события 2088 — Ошибка уточняющего запроса DNS при репликации
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 9dbb7debbca8d1625ebe975a051ed8b607d1ddd0
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: a6e78c458f92e477ddeaf156370f5e254caf4679
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87943289"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88941344"
 ---
 # <a name="event-id-2088-dns-lookup-failure-occurred-with-replication-success"></a>Событие c идентификатором 2088: сбой поиска в DNS при успешной репликации
 
@@ -51,7 +51,7 @@ Active Directory could not use DNS to resolve the IP address of the source domai
 
 2) Убедитесь, что исходный контроллер домена работает Active Directory и доступен в сети, введя "NET View \\ <source DC name> " или "ping <source DC name> ".
 
-3) Убедитесь, что исходный контроллер домена использует допустимый DNS-сервер для служб DNS и что запись узла и запись CNAME исходного контроллера домена зарегистрированы правильно, используя улучшенную версию службы DNS DCDIAG.EXE, доступную на<https://www.microsoft.com/dns>
+3) Убедитесь, что исходный контроллер домена использует допустимый DNS-сервер для служб DNS и что запись узла и запись CNAME исходного контроллера домена зарегистрированы правильно, используя улучшенную версию службы DNS DCDIAG.EXE, доступную на <https://www.microsoft.com/dns>
 
 Dcdiag/test: DNS
 
@@ -59,7 +59,7 @@ Dcdiag/test: DNS
 
 Dcdiag/test: DNS
 
-5) Дальнейший анализ ошибок DNS см. в статье KB 824449:<https://support.microsoft.com/?kbid=824449>
+5) Дальнейший анализ ошибок DNS см. в статье KB 824449: <https://support.microsoft.com/?kbid=824449>
 
 Дополнительное значение ошибки данных: 11004 запрошенное имя допустимо, но данные запрошенного типа не найдены </code></introduction>
   <section>
@@ -69,7 +69,7 @@ Dcdiag/test: DNS
     </content>
   </section>
   <section>
-    <title>Решение</title>
+    <title>Разрешение</title>
     <content>
       <para>Выполните тестирование DNS, как описано в &quot; <link xlink:href="85b1d179-f53e-4f95-b0b8-5b1c096a8076">событии с идентификатором 2087: сбой уточняющего запроса DNS привел к сбою репликации</link>.&quot;</para>
     </content>

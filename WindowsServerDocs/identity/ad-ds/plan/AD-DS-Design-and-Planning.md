@@ -1,17 +1,17 @@
 ---
 ms.assetid: a91339ef-6ad4-445f-8ecc-a95fbcc04296
 title: Планирование и проектирование доменных служб Active Directory
-ms.author: joflore
-author: MicrosoftGuyJFlo
-manager: mtillman
+ms.author: iainfou
+author: iainfoulds
+manager: daveba
 ms.date: 08/07/2018
 ms.topic: article
-ms.openlocfilehash: b735852f8e2428c3d6375a3168f204e403a461f5
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 935ed41c8c821621df829a87d561a2decadd8b07
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87941460"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88941284"
 ---
 # <a name="ad-ds-design-and-planning"></a>Планирование и проектирование доменных служб Active Directory
 

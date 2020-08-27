@@ -1,17 +1,17 @@
 ---
 ms.assetid: cd70b0aa-0a67-4966-a041-4dd3f302c98b
 title: Создание проекта инфраструктуры DNS
-ms.author: joflore
-author: MicrosoftGuyJFlo
-manager: mtillman
+ms.author: iainfou
+author: iainfoulds
+manager: daveba
 ms.date: 08/08/2018
 ms.topic: article
-ms.openlocfilehash: b96f0b5fd47fc4a7d4d1fe6d68fcfa1543108d3f
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 8aaffc866b2e5e9c52a0d448d8cdaf929f4ecccc
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87947862"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88941184"
 ---
 # <a name="creating-a-dns-infrastructure-design"></a>Создание проекта инфраструктуры DNS
 

@@ -1,17 +1,17 @@
 ---
 ms.assetid: 79b9c912-ea3e-4679-ab41-893e096c4d09
 title: Приложение б. привилегированные учетные записи и группы в Active Directory
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: dbccc8f7adac03815c6ced2ceee22210d44dbce9
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 22bcea1426502af83fdeeecb0005324de2d54e64
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87963262"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88941574"
 ---
 # <a name="appendix-b-privileged-accounts-and-groups-in-active-directory"></a>Приложение Б. Привилегированные учетные записи и группы в Active Directory
 

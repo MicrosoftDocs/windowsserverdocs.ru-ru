@@ -1,17 +1,17 @@
 ---
 ms.assetid: 8be8c48d-790c-4199-b9d3-9f4a07d5ced2
 title: Сбор сведений о сети
-ms.author: joflore
-author: MicrosoftGuyJFlo
-manager: mtillman
+ms.author: iainfou
+author: iainfoulds
+manager: daveba
 ms.date: 08/08/2018
 ms.topic: article
-ms.openlocfilehash: 5593d416500e53956bcc176fa07eced4ca1dcc77
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 3c7e7a0a3d193128ecc2186c15eb8f9c0b9d93a9
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87947887"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88941204"
 ---
 # <a name="collecting-network-information"></a>Сбор сведений о сети
 

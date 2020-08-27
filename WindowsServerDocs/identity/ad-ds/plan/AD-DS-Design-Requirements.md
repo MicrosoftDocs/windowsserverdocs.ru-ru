@@ -1,17 +1,17 @@
 ---
 ms.assetid: f6e76ef0-2217-4cdb-980f-22a780a85ebb
 title: Требования к разработке доменных служб Active Directory
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: d81a6bfb3ae29b4a9c76c5e902e8fec8e08c84b0
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 5d3cedc70a4dc4f58927a5802e65c90380f839ed
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87941547"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88941374"
 ---
 # <a name="ad-ds-design-requirements"></a>Требования к разработке доменных служб Active Directory
 

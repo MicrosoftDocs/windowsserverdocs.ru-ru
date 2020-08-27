@@ -1,17 +1,17 @@
 ---
 title: Восстановление леса AD — удаление глобального каталога
-ms.author: joflore
-author: MicrosoftGuyJFlo
-manager: mtillman
+ms.author: iainfou
+author: iainfoulds
+manager: daveba
 ms.date: 08/09/2018
 ms.topic: article
 ms.assetid: 60087a62-11e6-4750-a70e-510f35315688
-ms.openlocfilehash: b05415e73faef73831cccbbd9785dd1cf2d1cf9e
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: e24449f2debdeeaf1e0ccdaf51a44d041c7dcc61
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87969851"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88941584"
 ---
 # <a name="ad-forest-recovery---removing-the-global-catalog"></a>Восстановление леса AD — удаление глобального каталога
 
@@ -29,7 +29,7 @@ ms.locfileid: "87969851"
 4. Щелкните правой кнопкой мыши **Параметры NTDS**и выберите пункт **свойства**.
 5. Снимите флажок **глобальный каталог** .
    ![Удалить GC](media/AD-Forest-Recovery-Remove-GC/removegc1.png)
-6. Щелкните **Применить**.
+6. Нажмите кнопку **Применить**.
 
 ## <a name="to-remove-the-global-catalog-using-repadmin"></a>Удаление глобального каталога с помощью средства Repadmin
 

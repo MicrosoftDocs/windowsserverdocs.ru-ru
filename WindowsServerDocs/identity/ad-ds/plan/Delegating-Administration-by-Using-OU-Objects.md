@@ -1,17 +1,17 @@
 ---
 ms.assetid: d8e61aa4-8e4b-4097-83ca-70cf61366b75
 title: Делегирование администрирования с помощью объектов подразделений
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 4a097f42a0de7a28d93637e0c5df39e04fe50532
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: da5fce57b184b8c8d67809b89311405fc5557938
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87947703"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88941094"
 ---
 # <a name="delegating-administration-by-using-ou-objects"></a>Делегирование администрирования с помощью объектов подразделений
 

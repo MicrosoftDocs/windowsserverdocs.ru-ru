@@ -1,17 +1,17 @@
 ---
 ms.assetid: fe05e52c-cbf8-428b-8176-63407991042f
 title: Advanced Active Directory Replication and Topology Management Using Windows PowerShell (Level 200)
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 058e1ba1cd68c1d33aee6e85dfb0de572a480d26
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: dd63784bd61a374ca92419c6bfa38a3f81b7f8c2
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87967981"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88941554"
 ---
 # <a name="advanced-active-directory-replication-and-topology-management-using-windows-powershell-level-200"></a>Advanced Active Directory Replication and Topology Management Using Windows PowerShell (Level 200)
 
@@ -42,7 +42,7 @@ ms.locfileid: "87967981"
 
 В таблице ниже перечислены новые командлеты управления репликацией и топологией, добавленные в модуль Active Directory для Windows PowerShell.
 
-| Командлет | Описание |
+| Командлет | Пояснение |
 |--|--|
 | Get-ADReplicationAttributeMetadata | Возвращает метаданные репликации атрибутов для объекта. |
 | Get-ADReplicationConnection | Возвращает сведения об объекте подключения к контроллеру домена. |
@@ -219,7 +219,7 @@ Get-ADDomainController -filter * | foreach {Sync-ADObject -object "cn=tony wang,
 
 ![Расширенное управление с помощью PowerShell](media/Advanced-Active-Directory-Replication-and-Topology-Management-Using-Windows-PowerShell--Level-200-/ADDS_PSSyncAD.png)
 
-### <a name="topology"></a><a name="BKMK_Topo"></a>Topology
+### <a name="topology"></a><a name="BKMK_Topo"></a>Топология
 Хотя программа Repadmin.exe — это эффективное средство для получения информации о топологии репликации, включая сайты, связи сайтов, мосты связей сайтов и подключения, она не предоставляет достаточно широкий набор аргументов для внесения изменений. По сути, в Windows до сих пор не было встроенной программы с поддержкой сценариев, предназначенной специально для создания и изменения топологии доменных служб Active Directory администраторами. С распространением служб Active Directory в средах миллионов клиентов потребность в массовом изменении логической информации Active Directory стала очевидной.
 
 Например, после быстрого развертывания новых филиалов, сопровождающегося объединением существующих, может потребоваться внести сотни изменений в сайты в соответствии с их физическим расположением, характеристиками сети и новыми требованиями к емкости. Эти изменения можно внести не с помощью средств Dssites.msc и Adsiedit.msc, а автоматически. Это особенно удобно, если вам приходится действовать на основе таблиц с данными, предоставленными группами сетевой инфраструктуры и технического обслуживания.
@@ -263,6 +263,6 @@ get-adreplicationsite -filter * -property subnets | where-object {!$_.subnets -e
 
 ![Расширенное управление с помощью PowerShell](media/Advanced-Active-Directory-Replication-and-Topology-Management-Using-Windows-PowerShell--Level-200-/ADDS_PSNewADReplSiteFiltrer.png)
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 [Общие сведения об Active Directory репликации и управлении топологией с помощью Windows PowerShell &#40;уровня 100&#41;](../../../ad-ds/manage/powershell/Introduction-to-Active-Directory-Replication-and-Topology-Management-Using-Windows-PowerShell--Level-100-.md)
 

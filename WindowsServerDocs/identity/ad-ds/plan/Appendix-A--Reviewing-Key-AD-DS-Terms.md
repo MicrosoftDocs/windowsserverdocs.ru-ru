@@ -1,17 +1,17 @@
 ---
 ms.assetid: 87196b65-a356-409f-9af0-b5950797d668
 title: Приложение а. Проверка ключевых AD DS терминов
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 7dba43117d56c396feeb0f8b41528b2be66107cd
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 2e899b3f61a23e29a3ecd6a312e50b596ce4e172
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87941364"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88941244"
 ---
 # <a name="appendix-a-reviewing-key-ad-ds-terms"></a>Приложение А. Общие сведения об основных понятиях доменных служб Active Directory
 

@@ -1,17 +1,17 @@
 ---
 ms.assetid: e92bdf05-d888-4935-af6a-8ded6ad13fab
 title: Создание проекта леса
-ms.author: joflore
-author: MicrosoftGuyJFlo
-manager: mtillman
+ms.author: iainfou
+author: iainfoulds
+manager: daveba
 ms.date: 08/07/2018
 ms.topic: article
-ms.openlocfilehash: d14a65a25041cc8d1932d291483c1833156c5956
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 174836970980b9941421f7c8c21bf06e8a980c55
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87941352"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88941164"
 ---
 # <a name="creating-a-forest-design"></a>Создание проекта леса
 

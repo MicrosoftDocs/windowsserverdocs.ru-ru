@@ -1,17 +1,17 @@
 ---
 ms.assetid: f643099e-f9c6-476f-9378-5a9228c39b33
 title: Приложение E. обеспечение безопасности групп администраторов предприятия в Active Directory
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: a443f00e9d2fbbf7c9376f14f436b4b1e40fd61f
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: c75dae209d2155458c6ff2a755460b9e7c8ccef5
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87963378"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88941623"
 ---
 # <a name="appendix-e-securing-enterprise-admins-groups-in-active-directory"></a>Приложение Д. Защита групп корпоративных администраторов в Active Directory
 

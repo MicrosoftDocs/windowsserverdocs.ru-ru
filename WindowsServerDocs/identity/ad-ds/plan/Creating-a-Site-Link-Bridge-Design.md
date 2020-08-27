@@ -1,17 +1,17 @@
 ---
 ms.assetid: 64142026-07b5-4601-840a-c8dcf6ab9814
 title: Создание проекта моста связей сайтов
-ms.author: joflore
-author: MicrosoftGuyJFlo
-manager: mtillman
+ms.author: iainfou
+author: iainfoulds
+manager: daveba
 ms.date: 08/08/2018
 ms.topic: article
-ms.openlocfilehash: b77899c0603e89f972f2fbcb705a95b202c5062e
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: d4b4047ccdbe32a40f512c42182d15a41709db3d
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87967741"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88941134"
 ---
 # <a name="creating-a-site-link-bridge-design"></a>Создание проекта моста связей сайтов
 

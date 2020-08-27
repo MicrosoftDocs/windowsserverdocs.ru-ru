@@ -1,17 +1,17 @@
 ---
 ms.assetid: 70c99703-ff0d-4278-9629-b8493b43c833
 title: Руководство по настройке защищенных учетных записей
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 7e69a808a48c3dedcc29d8876dc460559157f191
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: e8d16d1d33e8e0bd55457daa98b4aad454dafe3f
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87994824"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88940764"
 ---
 # <a name="guidance-about-how-to-configure-protected-accounts"></a>Руководство по настройке защищенных учетных записей
 

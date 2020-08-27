@@ -1,17 +1,17 @@
 ---
 ms.assetid: 73897497-b189-4305-b234-e057ffda163a
 title: Присвоение имен доменов
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 2b25f714913df4c8453194dbc2b691c5cca0db80
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 8d6f85cc59b7f031f6985936ce8725de6d477815
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87947918"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88941224"
 ---
 # <a name="assigning-domain-names"></a>Присвоение имен доменов
 
@@ -19,7 +19,7 @@ ms.locfileid: "87947918"
 
 Необходимо назначить имя каждому домену в плане. Домены служб домен Active Directory Services (AD DS) имеют имена двух типов: DNS-имена и имена NetBIOS. Как правило, оба имени видны конечным пользователям. DNS-имена Active Directory доменов включают в себя две части: префикс и суффикс. При создании доменных имен сначала определите префикс DNS. Это первая метка в DNS-имени домена. Суффикс определяется при выборе имени корневого домена леса. В следующей таблице перечислены правила именования префиксов для DNS-имен.
 
-|Правило|Описание|
+|Правило|Пояснение|
 |--------|---------------|
 |Выберите префикс, который, скорее всего, станет устаревшим.|Избегайте таких имен, как линейка продуктов или операционная система, которые могут измениться в будущем. Рекомендуется использовать географические имена.|
 |Выберите префикс, включающий только стандартные символы Интернета.|A – Z, a – z, 0-9 и (-), но не полностью числовое.|

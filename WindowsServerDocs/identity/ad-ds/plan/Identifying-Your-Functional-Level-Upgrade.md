@@ -1,17 +1,17 @@
 ---
 ms.assetid: 231158d8-5e81-4630-b8d5-93fee16e0cd3
 title: Определение обновления режимов работы
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 7036a3be6a504f91cc6545484d7cd4f0dbd485ef
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: c8541165cb0f745d8603e7f3777c2c7e1a26500c
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87943028"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88941074"
 ---
 # <a name="identifying-your-functional-level-upgrade"></a>Определение обновления режимов работы
 

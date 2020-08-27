@@ -1,17 +1,17 @@
 ---
 ms.assetid: c54b544f-cc32-4837-bb2d-a8656b22f3de
 title: Introduction to Active Directory Replication and Topology Management Using Windows PowerShell (Level 100)
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 62ba9e757195861989fcd6d9eca395a47262aa7e
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: fd08814cd60f71f4ace9cfc0e374e80f54c6d89d
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87967781"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88941504"
 ---
 # <a name="introduction-to-active-directory-replication-and-topology-management-using-windows-powershell-level-100"></a>Introduction to Active Directory Replication and Topology Management Using Windows PowerShell (Level 100)
 
@@ -151,7 +151,7 @@ Windows PowerShell для Active Directory предоставляет возмо
 
     Сортировка позволяет легко сравнить последний номер последовательного обновления (USN), отображаемый на каждом контроллере домена для данного партнера репликации. Это быстрый способ убедиться, что репликация проходит во всей среде. Если репликация работает правильно, то значения параметра UsnFilter, указанные в отчете для данного партнера репликации, должны быть похожи на всех контроллерах домена.
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 [Расширенная репликация Active Directory и управление топологией с помощью Windows PowerShell &#40;уровня 200&#41;](Advanced-Active-Directory-Replication-and-Topology-Management-Using-Windows-PowerShell--Level-200-.md)
 
 

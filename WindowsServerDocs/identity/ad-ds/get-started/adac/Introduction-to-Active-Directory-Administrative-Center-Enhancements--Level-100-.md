@@ -1,17 +1,17 @@
 ---
 ms.assetid: 074e63e9-976c-49da-8cba-9ae0b3325e34
 title: Introduction to Active Directory Administrative Center Enhancements (Level 100)
-ms.author: joflore
-author: MicrosoftGuyJFlo
-manager: mtillman
+ms.author: iainfou
+author: iainfoulds
+manager: daveba
 ms.date: 08/07/2018
 ms.topic: article
-ms.openlocfilehash: f494fc09027b17d2110731d73d3d8de6d0496342
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: a7639fccf472d3b23b06a64dc0e621cfa4f8bb37
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87957031"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88940114"
 ---
 # <a name="introduction-to-active-directory-administrative-center-enhancements-level-100"></a>Introduction to Active Directory Administrative Center Enhancements (Level 100)
 
@@ -123,7 +123,7 @@ Enable-ADOptionalFeature -Identity 'CN=Recycle Bin Feature,CN=Optional Features,
    - Полное имя: test1
    - Вход пользователя (SamAccountName): test1
    - Пароль: p@ssword1
-   - Подтверждение пароля:p@ssword1
+   - Подтверждение пароля: p@ssword1
 
 5. Повторите предыдущие шаги, чтобы создать второго пользователя, test2.
 
@@ -431,6 +431,6 @@ Remove-ADFineGrainedPasswordPolicy TestPswd -Confirm
 
     Например, вы можете изменить команду, чтобы добавить другого пользователя в группу **group1** или чтобы добавить пользователя **test1** в другую группу.
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 
 [Расширенное управление AD DS с использованием центр администрирования Active Directory &#40;уровня 200&#41;](Advanced-AD-DS-Management-Using-Active-Directory-Administrative-Center--Level-200-.md)

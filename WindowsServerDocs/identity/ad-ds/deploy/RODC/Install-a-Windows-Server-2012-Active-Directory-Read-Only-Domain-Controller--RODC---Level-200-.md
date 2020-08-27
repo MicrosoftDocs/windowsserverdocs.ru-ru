@@ -2,17 +2,17 @@
 ms.assetid: 66fa945e-598d-4f18-b603-97a39ce0d836
 title: Установка контроллера домена только для чтения (RODC) Active Directory в Windows Server 2012 (уровень 200)
 description: В этом разделе описывается, как поэтапно создать учетную запись контроллера домена только для чтения (RODC), а затем подключить к ней сервер во время установки RODC. В нем также объясняется, как установить учетную запись только для чтения, не выполняя поэтапную установку.
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: a46d18a0d2f589cb0ae7ee5915af0c84b0c8982f
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: a0c800d975b36f92d5b4bcf1801d06897cbefac3
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87950408"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88941604"
 ---
 # <a name="install-a-windows-server-2012-active-directory-read-only-domain-controller-rodc-level-200"></a>Установка контроллера домена только для чтения (RODC) Active Directory в Windows Server 2012 (уровень 200)
 

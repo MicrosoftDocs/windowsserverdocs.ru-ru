@@ -1,17 +1,17 @@
 ---
 ms.assetid: 11f36f2b-9981-4da0-9e7c-4eca78035f37
 title: Приложение г. Защита встроенных учетных записей администраторов в Active Directory
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 6b2dd9fdfc40a7dc29943ffc36559f3533a5dac9
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: efd0ac56d3e9f0480ed59e50d42f7e99d416f22d
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87963418"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88941634"
 ---
 # <a name="appendix-d-securing-built-in-administrator-accounts-in-active-directory"></a>Приложение Г. Защита встроенных учетных записей администраторов в Active Directory
 

@@ -1,17 +1,17 @@
 ---
 ms.assetid: ba7f2b9f-7351-4680-b7d8-a5f270614f1c
 title: Что нового в установке и удалении доменных служб Active Directory
-ms.author: joflore
-author: MicrosoftGuyJFlo
-manager: mtillman
+ms.author: iainfou
+author: iainfoulds
+manager: daveba
 ms.date: 08/09/2018
 ms.topic: article
-ms.openlocfilehash: 09863123a69eec72b3d8bfaaf138bb2d2562f687
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 9658fe8ea7c9c11cda10989bfe9d1568c21d9704
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87994506"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88940594"
 ---
 # <a name="whats-new-in-active-directory-domain-services-installation-and-removal"></a>Что нового в установке и удалении доменных служб Active Directory
 

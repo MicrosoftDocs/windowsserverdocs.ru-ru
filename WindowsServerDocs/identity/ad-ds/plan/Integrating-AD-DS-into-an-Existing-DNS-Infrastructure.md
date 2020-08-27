@@ -1,17 +1,17 @@
 ---
 ms.assetid: 4981b32f-741e-4afc-8734-26a8533ac530
 title: Интеграция доменных служб Active Directory в имеющуюся инфраструктуру DNS
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 09c03933eda54a9b8723c1352cb35dba736fbe4a
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 6c9882af6af5901c34b689a0f3de91e1a158187e
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87971021"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88941054"
 ---
 # <a name="integrating-ad-ds-into-an-existing-dns-infrastructure"></a>Интеграция доменных служб Active Directory в имеющуюся инфраструктуру DNS
 

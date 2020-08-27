@@ -1,17 +1,17 @@
 ---
 ms.assetid: f7002265-60fa-40b8-9dd7-4bf131d9320a
 title: Именование компьютеров
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 37f877b3165f5de31c8a26ae4000b8064362fa17
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 59b6be118a93881d5800e2f0032e0738c7e3bdfa
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87947852"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88941194"
 ---
 # <a name="computer-naming"></a>Именование компьютеров
 

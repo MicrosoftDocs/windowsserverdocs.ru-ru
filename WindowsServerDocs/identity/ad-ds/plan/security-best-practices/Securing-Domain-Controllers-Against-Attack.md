@@ -1,17 +1,17 @@
 ---
 ms.assetid: ba28bd05-16e6-465f-982b-df49633cfde4
 title: Защита контроллеров домена от атак
-ms.author: joflore
-author: MicrosoftGuyJFlo
-manager: mtillman
+ms.author: iainfou
+author: iainfoulds
+manager: daveba
 ms.date: 06/18/2017
 ms.topic: article
-ms.openlocfilehash: 0ac2a3b67b0c3407db017c63d5e5187d36f08aa5
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 7fe76d6e6f2bb640e69b46faacacf87f533ad80d
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87958852"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88941364"
 ---
 # <a name="securing-domain-controllers-against-attack"></a>Защита контроллеров домена от атак
 

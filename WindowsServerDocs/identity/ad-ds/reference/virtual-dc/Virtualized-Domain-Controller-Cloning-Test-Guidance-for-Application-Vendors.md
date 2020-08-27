@@ -1,17 +1,17 @@
 ---
 ms.assetid: fde99b44-cb9f-49bf-b888-edaeabe6b88d
 title: Руководство по тестированию клонирования виртуализированных контроллеров домена для поставщиков приложений
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: f1cb3db67e12e0d0b8947c22c5acc2b2ffc6f077
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: f8a108226f0aff37cd730a477bd6ee5d865399df
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87956701"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88940264"
 ---
 # <a name="virtualized-domain-controller-cloning-test-guidance-for-application-vendors"></a>Руководство по тестированию клонирования виртуализированных контроллеров домена для поставщиков приложений
 

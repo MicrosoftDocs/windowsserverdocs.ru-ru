@@ -1,17 +1,17 @@
 ---
 ms.assetid: 4d21d27d-5523-4993-ad4f-fbaa43df7576
 title: Advanced AD DS Management Using Active Directory Administrative Center (Level 200)
-ms.author: joflore
-author: MicrosoftGuyJFlo
-manager: mtillman
+ms.author: iainfou
+author: iainfoulds
+manager: daveba
 ms.date: 08/07/2018
 ms.topic: article
-ms.openlocfilehash: 56792ce9c5a98e923627be4d98eba8404e046b46
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 567798afaa50604df737fe4ad119ff1cd13d31ae
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87971141"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88940384"
 ---
 # <a name="advanced-ad-ds-management-using-active-directory-administrative-center-level-200"></a>Advanced AD DS Management Using Active Directory Administrative Center (Level 200)
 
@@ -43,7 +43,7 @@ ms.locfileid: "87971141"
 
 ## <a name="enabling-and-managing-the-active-directory-recycle-bin-using-active-directory-administrative-center"></a><a name="BKMK_EnableRecycleBin"></a>Активация и администрирование новой корзины Active Directory через Центр администрирования Active Directory
 
-### <a name="capabilities"></a>Характеристики
+### <a name="capabilities"></a>Возможности
 
 - Центр администрирования Active Directory Windows Server 2012 или более поздней версии позволяет настраивать корзину Active Directory и управлять ею для любого раздела домена в лесу. Для активации корзины Active Directory или восстановления объектов в разделы доменов больше не нужно использовать Windows PowerShell или Ldp.exe.
 - В Центре администрирования Active Directory есть расширенные условия фильтрации, упрощающие адресное восстановление в крупных средах с большим количеством удаленных объектов.
@@ -116,11 +116,11 @@ Enable-ADOptionalFeature
 - *ANR (разрешение неоднозначных имен — не указано в меню, но используется при вводе в поле * * * * Фильтр * * * *)*
 - Последнее изменение между заданными датами
 - Объект — пользователь, InetOrgPerson, компьютер, группа или организационное подразделение
-- name
+- Имя
 - Дата удаления
 - Последний известный родительский объект
 - Тип
-- Описание
+- Description
 - Город
 - Страна или регион
 - отдел;
@@ -131,7 +131,7 @@ Enable-ADOptionalFeature
 - SAMaccountname
 - Область, республика, край, округ
 - Номер телефона
-- Имя участника-пользователя
+- UPN
 - почтовый индекс
 
 Можно добавить несколько критериев. Например, можно найти все объекты-пользователи, удаленные 24 сентября 2012 из Чикаго, Иллинойс с заголовком должности менеджер.
@@ -467,7 +467,7 @@ set-aduser
    Netstat -anob > ports.txt
    ```
 
-   Изучите файл ports.txt и убедитесь в том, что веб-служба Active Directory прослушивает порт 9389. Пример
+   Изучите файл ports.txt и убедитесь в том, что веб-служба Active Directory прослушивает порт 9389. Пример.
 
    ```
    TCP    0.0.0.0:9389    0.0.0.0:0    LISTENING    1828
@@ -481,6 +481,6 @@ set-aduser
 
 4. Установите NetMon или другую утилиту для записи сетевых данных на компьютер с запущенным Центром администрирования Active Directory и на контроллер домена, выданный командой NLTEST. Запустите запись сетевых данных на обоих компьютерах с компьютера, где запущен Центр администрирования Active Directory, посмотрите ошибки и остановите запись. Убедитесь в том, что клиент способен отправлять и принимать данные с контроллера домена через порт TCP 9389. Если пакеты отправляются, но не поступают, а также если пакеты поступают, а ответы контроллера домена не достигают клиента, скорее всего, между компьютерами в сети существует брандмауэр, который теряет пакеты в этом порту. Брандмауэр может быть программным или аппаратным, а может входить в программу защиты (антивирус) стороннего разработчика.
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 
 [Корзина AD, детальная политика паролей и журнал PowerShell](../../../ad-ds/get-started/adac/Introduction-to-Active-Directory-Administrative-Center-Enhancements--Level-100-.md)

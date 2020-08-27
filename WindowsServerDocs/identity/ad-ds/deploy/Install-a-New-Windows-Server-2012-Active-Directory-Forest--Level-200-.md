@@ -1,17 +1,17 @@
 ---
 ms.assetid: b3d6fb87-c4d4-451c-b3de-a53d2402d295
 title: Установка нового леса Active Directory в Windows Server 2012 (уровень 200)
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 0b83588268e6a6c8dd685082b3862520fcbd80d5
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 50fd78a480a369030e8874054f583dc163a3a0b3
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87968261"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88941034"
 ---
 # <a name="install-a-new-windows-server-2012-active-directory-forest-level-200"></a>Установка нового леса Active Directory в Windows Server 2012 (уровень 200)
 
@@ -562,7 +562,7 @@ $pw | ConvertFrom-SecureString | Set-Content $file
 > [!WARNING]
 > Отключать перезагрузку не рекомендуется. Для правильной работы контроллер домена должен перезагрузиться.
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 [Службы домен Active Directory (портал TechNet)](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc770946(v=ws.10)) 
  [Службы домен Active Directory для Windows Server 2008 R2](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd378801(v=ws.10)) 
  [Службы домен Active Directory для Windows Server 2008](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd378891(v=ws.10)) 

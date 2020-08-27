@@ -1,17 +1,17 @@
 ---
 title: Обновление контроллеров домена до Windows Server 2016
 description: В этом документе описывается обновление с Windows Server 2012 R2 до Windows Server 2016
-ms.author: joflore
-author: MicrosoftGuyJFlo
-manager: mtillman
+ms.author: iainfou
+author: iainfoulds
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 78e245767857111f71a6252094ef0e74fda7f714
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 747c71d3c0b3dd7afb0fb1dda1b922ac58330e02
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87965271"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88940244"
 ---
 # <a name="upgrade-domain-controllers-to-windows-server-2016"></a>Обновление контроллеров домена до Windows Server 2016
 
@@ -168,5 +168,5 @@ ms.locfileid: "87965271"
 ## <a name="next-steps"></a>Next Steps
 
 - [Новые возможности при установке и удалении доменных служб Active Directory](../../ad-ds/deploy/What-s-New-in-Active-Directory-Domain-Services-Installation-and-Removal.md)
-- [Установка домен Active Directory Services &#40;&#41;уровня 100](../../ad-ds/deploy/Install-Active-Directory-Domain-Services--Level-100-.md)
+- [Установка домен Active Directory Services &#40;&#41;уровня 100 ](../../ad-ds/deploy/Install-Active-Directory-Domain-Services--Level-100-.md)
 - [Режимы работы Windows Server 2016](../active-directory-functional-levels.md)

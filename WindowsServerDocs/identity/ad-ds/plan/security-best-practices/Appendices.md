@@ -1,17 +1,17 @@
 ---
 ms.assetid: 119881f6-637f-43de-8577-5f5eaf3281df
 title: Приложения
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: db349b2c53ebb840eb6d6ca02afd4123279edd5c
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: b9cec5fea02a768a5ed1805db17a80dc06a680e2
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87970921"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88941524"
 ---
 # <a name="appendices"></a>Приложения
 

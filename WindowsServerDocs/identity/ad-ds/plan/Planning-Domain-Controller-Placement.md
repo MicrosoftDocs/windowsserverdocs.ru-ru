@@ -1,17 +1,17 @@
 ---
 ms.assetid: 692bd2af-deee-44cf-9af9-f364677e267f
 title: Планирование размещения контроллеров доменов
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: fe89f5f1c252bc116f5c43f9c22a385b06462a89
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 9c96537650f5c49aa25a75211e28430b6bcf5f34
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87970991"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88941044"
 ---
 # <a name="planning-domain-controller-placement"></a>Планирование размещения контроллеров доменов
 

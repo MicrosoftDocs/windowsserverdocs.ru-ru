@@ -1,17 +1,17 @@
 ---
 ms.assetid: 83f746e5-81db-4610-9977-1d5c57699f50
 title: Создание проекта сайта
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: b66ffcb88e2f8093cb896f81fb61f815d15d6dea
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: cad87edb2c29ea0fa445bc194598dc54996731d5
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87938504"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88941154"
 ---
 # <a name="creating-a-site-design"></a>Создание проекта сайта
 

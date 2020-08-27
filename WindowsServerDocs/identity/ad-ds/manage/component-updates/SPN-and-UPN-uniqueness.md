@@ -1,17 +1,17 @@
 ---
 ms.assetid: 40bc24b1-2e7d-4e77-bd0f-794743250888
 title: Уникальность имен участников-служб и участников-пользователей
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: c3e2cac6cb4d7cb5e76c4c59bfa2b8431f2401c6
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: cafbc577bd025fc30f409385f51f6981fb3ab81d
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87972381"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88941384"
 ---
 # <a name="spn-and-upn-uniqueness"></a>Уникальность имен участников-служб и участников-пользователей
 
@@ -34,7 +34,7 @@ ms.locfileid: "87972381"
 
 **Таблица SEQ таблица номер \\ \* Арабский 1: уникальность имени участника-пользователя и имени субъекта-службы**
 
-|Функция|Комментировать|
+|Компонент|Комментировать|
 |-----------|-----------|
 |Уникальность имени участника-пользователя|Дублирование UPN разрывает синхронизацию локальных учетных записей AD с помощью служб Windows Azure AD, таких как Office 365.|
 |Уникальность имени субъекта-службы|Для взаимной проверки подлинности Kerberos требуются имена участников-служб.  Дублирование имени участника-службы приводит к сбоям проверки подлинности.|

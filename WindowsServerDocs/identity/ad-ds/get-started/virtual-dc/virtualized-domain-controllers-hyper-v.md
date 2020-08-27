@@ -1,16 +1,16 @@
 ---
 title: Виртуализация контроллеров домена с помощью Hyper-V
 description: Рекомендации, которые необходимо выполнить при виртуализации контроллеров Windows Server домен Active Directory в Hyper-V
-author: MicrosoftGuyJFlo
-ms.author: joflore
+author: iainfoulds
+ms.author: iainfou
 ms.date: 04/19/2018
 ms.topic: article
-ms.openlocfilehash: ad40b5e5049c8b4f29dab4ffac8246a73e5b2fcd
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 55895a86521cc7d093c474fb8e4d3c53e4132894
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87956991"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88940074"
 ---
 # <a name="virtualizing-domain-controllers-using-hyper-v"></a>Виртуализация контроллеров домена с помощью Hyper-V
 
@@ -235,7 +235,7 @@ System Center Virtual Machine Manager (VMM) 2008 обеспечивает уни
 > [!NOTE]
 > Это руководство недавно обновлялось, чтобы отразить текущую рекомендацию по синхронизации времени для гостевого контроллера домена только из иерархии домена, а не из предыдущей рекомендации по частичному отключению синхронизации времени между системой узла и гостевым контроллером домена.
 
-## <a name="storage"></a>Хранение
+## <a name="storage"></a>Память
 
 Чтобы оптимизировать производительность виртуальной машины контроллера домена и обеспечить устойчивость Active Directory записи, используйте следующие рекомендации по хранению файлов операционной системы, Active Directory и VHD:
 

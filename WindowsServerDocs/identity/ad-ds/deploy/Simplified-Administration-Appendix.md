@@ -1,17 +1,17 @@
 ---
 ms.assetid: c911d6c6-98c6-4532-b1db-5724e1ceb96c
 title: Приложение по упрощенному администрированию
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 3cef76347bcd5a341b96a71fed58d2fe0085a46c
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 34d8af5166df3627e22b268359df5aa8bdb422c9
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87953410"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88940694"
 ---
 # <a name="simplified-administration-appendix"></a>Приложение по упрощенному администрированию
 
@@ -94,7 +94,7 @@ Windows Server 2012 добавляет два дополнительных па�
 
 В следующей таблице описаны два новых пункта меню:
 
-|Menu Item|Описание|
+|Menu Item|Пояснение|
 |--|--|
 |Создание полной Нодефраг% s|Создание носителя IFM без дефрагментации полного контроллера домена AD или экземпляра AD/LDS в папке% s|
 |Создание полного SYSVOL Нодефраг% s|Создание носителя IFM с SYSVOL и без дефрагментации для полного контроллера домена AD в папке% s|

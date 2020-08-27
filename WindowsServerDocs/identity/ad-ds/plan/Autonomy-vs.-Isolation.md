@@ -1,17 +1,17 @@
 ---
 ms.assetid: ef63d40c-a262-4a18-938d-b95c10680c0b
 title: Автономность и изоляция
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 8a24ad5301c9dcf67f01baf1b6893688af664fa2
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: eccbfc7767821a15d32d6aabef156861cb409f40
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87969821"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88941214"
 ---
 # <a name="autonomy-vs-isolation"></a>Автономность и изоляция
 

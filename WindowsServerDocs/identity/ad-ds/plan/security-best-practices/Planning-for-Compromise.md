@@ -1,17 +1,17 @@
 ---
 ms.assetid: 6f50476c-a1f1-48fb-999b-76c4c3816496
 title: Планирование при компрометации
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: c7347f247b9e637c610d73e0b37018bd54572dea
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 9be3768f4ac0f95c1c268d9a4efb55af3f74d304
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87994299"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88941404"
 ---
 # <a name="planning-for-compromise"></a>Планирование при компрометации
 

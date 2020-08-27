@@ -1,17 +1,17 @@
 ---
 ms.assetid: e2651dc8-4b31-4cd8-a400-3b8123890210
 title: Рекомендации по защите Active Directory
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 250db00d8b761e7d5dd0681047372d7085b26fef
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 444ba28da788ca5986b49eaf84675c1eacfe5522
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87959002"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88941544"
 ---
 # <a name="best-practices-for-securing-active-directory"></a>Рекомендации по защите Active Directory
 

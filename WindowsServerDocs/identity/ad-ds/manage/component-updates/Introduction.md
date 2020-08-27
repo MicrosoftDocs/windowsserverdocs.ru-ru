@@ -1,17 +1,17 @@
 ---
 ms.assetid: 84754c23-f039-4de4-a378-853942e662df
 title: Введение
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 8dc05c31f4b53b73766de1b63c2e2da47bb95131
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: ecfede36e855ed942d5d3f47be6dbe6bc4520a53
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87972301"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88941294"
 ---
 # <a name="introduction"></a>Введение
 

@@ -1,17 +1,17 @@
 ---
 ms.assetid: 73a4deba-7da6-4eae-8fdd-2a4d369f9cbb
 title: Приложение технического справочника по виртуализированным контроллерам домена
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 058dbc3082a5d35f29e049d2eb8661e4d2624961
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 6387abbe150630d2fd8f6f14724618a6ab32b94a
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87954410"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88940284"
 ---
 # <a name="virtualized-domain-controller-technical-reference-appendix"></a>Приложение технического справочника по виртуализированным контроллерам домена
 
