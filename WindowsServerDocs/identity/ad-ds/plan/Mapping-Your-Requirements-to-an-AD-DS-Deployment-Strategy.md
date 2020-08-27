@@ -1,17 +1,17 @@
 ---
 ms.assetid: ce3be131-06ad-41dc-a26b-1168fa68c8ed
 title: Сопоставление требований и стратегии развертывания доменных служб Active Directory
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: d4ddc2d88e4849ac35eaf21f092f5cc0ed85ec33
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: fc8dec94aad6c742fa62560d73b74e4c8f22b466
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87971001"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88939004"
 ---
 # <a name="mapping-your-requirements-to-an-ad-ds-deployment-strategy"></a>Сопоставление требований и стратегии развертывания доменных служб Active Directory
 
@@ -33,12 +33,12 @@ ms.locfileid: "87971001"
 
 | Требования к проектированию и развертыванию AD DS | Развертывание доменных служб Active Directory в новой организации | Развертывание доменных служб Active Directory в организации Windows Server 2003 | Развертывание доменных служб Active Directory в организации Windows 2000 |
 | ---------------------------------------- | ------------------------------------- | ----------------------------------------------------- |----------------------------------------------- |
-| [Проектирование логической структуры для Windows Server 2008 AD DS](/previous-versions/windows/it-pro/windows-server-2008-r2-and-2008/cc770806(v=ws.10)) | да | да | да |
-| [Проектирование топологии сайтов для Windows Server 2008 AD DS](Designing-the-Site-Topology.md) | да | да | да |
-| Планирование мощности контроллеров доменов | да | да | да |
-| [Развертывание корневого домена леса Windows Server 2008](/previous-versions/windows/it-pro/windows-server-2008-r2-and-2008/cc731174(v=ws.10)) | да | Нет | Нет |
-| [Развертывание региональных доменов Windows Server 2008](/previous-versions/windows/it-pro/windows-server-2008-r2-and-2008/cc755118(v=ws.10)) | да | да | да |
-| [Включение дополнительных возможностей для доменных служб Active Directory](../../ad-ds/plan/Enabling-Advanced-Features-for-AD-DS.md) | да |Да, но все контроллеры домена в среде должны работать под управлением Windows Server 2008, прежде чем присвоить функциональному уровню домена или леса значение Windows Server 2008. | Да, но все контроллеры домена в среде должны работать под управлением Windows Server 2008, прежде чем присвоить функциональному уровню домена или леса значение Windows Server 2008. |
-| [Обновление доменов Active Directory до Windows Server 2008 и Windows Server 2008 R2 AD DS Domains](/previous-versions/windows/it-pro/windows-server-2008-r2-and-2008/cc731188(v=ws.10)) | Нет | да | да |
+| [Проектирование логической структуры для Windows Server 2008 AD DS](/previous-versions/windows/it-pro/windows-server-2008-r2-and-2008/cc770806(v=ws.10)) | Да | Да | Да |
+| [Проектирование топологии сайтов для Windows Server 2008 AD DS](Designing-the-Site-Topology.md) | Да | Да | Да |
+| Планирование мощности контроллеров доменов | Да | Да | Да |
+| [Развертывание корневого домена леса Windows Server 2008](/previous-versions/windows/it-pro/windows-server-2008-r2-and-2008/cc731174(v=ws.10)) | Да | Нет | Нет |
+| [Развертывание региональных доменов Windows Server 2008](/previous-versions/windows/it-pro/windows-server-2008-r2-and-2008/cc755118(v=ws.10)) | Да | Да | Да |
+| [Включение дополнительных возможностей для доменных служб Active Directory](../../ad-ds/plan/Enabling-Advanced-Features-for-AD-DS.md) | Да |Да, но все контроллеры домена в среде должны работать под управлением Windows Server 2008, прежде чем присвоить функциональному уровню домена или леса значение Windows Server 2008. | Да, но все контроллеры домена в среде должны работать под управлением Windows Server 2008, прежде чем присвоить функциональному уровню домена или леса значение Windows Server 2008. |
+| [Обновление доменов Active Directory до Windows Server 2008 и Windows Server 2008 R2 AD DS Domains](/previous-versions/windows/it-pro/windows-server-2008-r2-and-2008/cc731188(v=ws.10)) | Нет | Да | Да |
 | [Руководство по ADMT: миграция и реструктуризация Active Directory доменов](/previous-versions/windows/it-pro/windows-server-2008-r2-and-2008/cc974332(v=ws.10)) | Да, если вы хотите перенести пилотный домен в рабочую среду, объедините его с другой организацией и объедините две инфраструктуры информационных технологий (IT) или объедините домены ресурсов и учетных записей, которые были обновлены в среде Windows 2000 или Windows Server 2003. | Да, если вы хотите выполнить слияние с другой организацией и консолидировать две ИТ – инфраструктуры или объединить домены ресурсов и учетных записей, обновленные с Windows 2000 или Windows Server 2003. | Да, если вы хотите выполнить слияние с другой организацией и консолидировать две ИТ – инфраструктуры или объединить домены ресурсов и учетных записей, обновленные с Windows 2000 или Windows Server 2003. |
 | [Руководство по ADMT: миграция и реструктуризация Active Directory доменов](/previous-versions/windows/it-pro/windows-server-2008-r2-and-2008/cc974332(v=ws.10)) | Нет | Да, если необходимо сократить количество доменов, сократить трафик репликации и количество требуемых пользователей и групп или упростить администрирование групповая политика. | Да, если необходимо сократить количество доменов, сократить трафик репликации и количество требуемых пользователей и групп или упростить администрирование групповая политика. |

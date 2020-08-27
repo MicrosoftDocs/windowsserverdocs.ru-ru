@@ -1,17 +1,17 @@
 ---
 ms.assetid: 7e195f5b-b194-40f3-a26d-5cf4ade5fc4d
 title: Командлеты Windows PowerShell для резервного копирования и восстановления ЦС
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 817a4c117bfd39799a5147d657262eb208c9a79b
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: b008ec74adfc3a4b6c63ec29f719c45483412b1d
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87943449"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88939564"
 ---
 # <a name="ca-backup-and-restore-windows-powershell-cmdlets"></a>Командлеты Windows PowerShell для резервного копирования и восстановления ЦС
 
@@ -34,11 +34,11 @@ ms.locfileid: "87943449"
 
 **Командлет Адксадминистратион: Backup-Каролесервице**
 
-|Аргументы — требуются аргументы **полужирного шрифта**|Описание|
+|Аргументы — требуются аргументы **полужирного шрифта**|Description|
 |------------------------------------------------|---------------|
 |**-Path**|-Строка — место для сохранения резервной копии<br />— Это единственный безымянный параметр.<br />-Позиционированный параметр<p>**Пример**.<p>Backup-Каролесервице.-путь c:\adcsbackup1<p>Backup-Каролесервице c:\adcsbackup2|
 |-Кэйонли|— Резервное копирование сертификата ЦС без базы данных;<p>**Пример**.<p>Backup-Каролесервице c:\adcsbackup3-Кэйонли|
-|-Password|— Указывает пароль для защиты сертификатов ЦС и закрытых ключей.<br />— Должна быть защищенной строкой<br />-Недопустимо с параметром-Датабасеонли<p>Пример<p>Backup-Каролесервице c:\adcsbackup4-пароль (чтение-хост-запрос "пароль:"-AsSecureString)<p>Backup-Каролесервице c:\adcsbackup5 — Password (ConvertTo-SecureString "Pa55w0rd!" -AsPlainText-Force)|
+|-Password|— Указывает пароль для защиты сертификатов ЦС и закрытых ключей.<br />— Должна быть защищенной строкой<br />-Недопустимо с параметром-Датабасеонли<p>Пример.<p>Backup-Каролесервице c:\adcsbackup4-пароль (чтение-хост-запрос "пароль:"-AsSecureString)<p>Backup-Каролесервице c:\adcsbackup5 — Password (ConvertTo-SecureString "Pa55w0rd!" -AsPlainText-Force)|
 |-Датабасеонли|— Резервное копирование базы данных без сертификата ЦС;<p>Backup-Каролесервице c:\adcsbackup6-Датабасеонли|
 |-Force|1. позволяет перезаписать резервную копию, которая существует в расположении, указанном в параметре-Path.<p>Backup-Каролесервице c:\adcsbackup1 — Force|
 |-Добавочное|-Выполнить добавочное резервное копирование<p>Backup-Каролесервице c:\adcsbackup7 — добавочный|
@@ -64,7 +64,7 @@ Backup-CARoleService c:\adcsbackup5 -Password (ConvertTo-SecureString "Pa55w0rd!
 ## <a name="restore-caroleservice"></a>Restore-CARoleService
 **Командлет Адксадминистратион: Restore-Каролесервице**
 
-|Аргументы — требуются аргументы **полужирного шрифта**|Описание|
+|Аргументы — требуются аргументы **полужирного шрифта**|Description|
 |------------------------------------------------|---------------|
 |**-Path**|-Строка — расположение для восстановления резервной копии<br />— Это единственный безымянный параметр.<br />-Позиционированный параметр<p>**Пример**.<p>Restore-Каролесервице.-path c:\adcsbackup1 — Force<p>Restore-Каролесервице c:\adcsbackup2-Force|
 |-Кэйонли|— Восстановить сертификат ЦС без базы данных;<br />— Необходимо указать, если резервная копия была сделана с параметром-Кэйонли<p>**Пример**.<p>Restore-Каролесервице c:\adcsbackup3-Кэйонли-Force|

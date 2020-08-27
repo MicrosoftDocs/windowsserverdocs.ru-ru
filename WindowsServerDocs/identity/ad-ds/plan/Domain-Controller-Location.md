@@ -1,17 +1,17 @@
 ---
 ms.assetid: cc2834ec-8f66-4209-aba3-402d710cd1bd
 title: Расположение контроллера домена
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: e4736cdad57f375a53ebdb3cb2be035552414139
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: ada91f7205ba12e4d37a02e3503647c9560ccdd8
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87941193"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88939274"
 ---
 # <a name="domain-controller-location"></a>Расположение контроллера домена
 

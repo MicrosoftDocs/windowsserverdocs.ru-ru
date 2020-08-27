@@ -1,17 +1,17 @@
 ---
 ms.assetid: 399a8bbe-3375-4bb0-b55b-5f46e7050028
 title: 'Ошибка репликации 1396: "Вход в систему не произведен. Конечная учетная запись указана неверно."'
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: acd42fc1290639dddf9dbc283a873c8b7fca49c2
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 2a4c135f7f4e74c5c5e96e8e9366635db84030df
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87972281"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88938594"
 ---
 # <a name="replication-error-1396-logon-failure-the-target-account-name-is-incorrect"></a>Ошибка репликации 1396: "Вход в систему не произведен. Конечная учетная запись указана неверно."
 

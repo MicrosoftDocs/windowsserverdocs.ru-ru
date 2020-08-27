@@ -1,17 +1,17 @@
 ---
 ms.assetid: 62708b2e-4090-4cf7-8ae6-a557f31f561f
 title: Основные сведения о логической модели Active Directory
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: f05e3c4b370379b463abccc5ace09de908cfcea3
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: c04e699fe2069b22aa1bd07ccb34e1e37a3ad9cb
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87964971"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88938294"
 ---
 # <a name="understanding-the-active-directory-logical-model"></a>Основные сведения о логической модели Active Directory
 

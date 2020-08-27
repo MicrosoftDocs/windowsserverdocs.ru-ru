@@ -1,17 +1,17 @@
 ---
 ms.assetid: 8a3cf2ae-2511-4eea-afd5-a43179a78613
 title: Обновления компонентов служб каталогов
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: b3614679780395defcd182394f4a6cdd7f4ad832
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 39f13d18210a6527c5da2ccb6655150be9608a46
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87943412"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88939594"
 ---
 # <a name="directory-services-component-updates"></a>Обновления компонентов служб каталогов
 
@@ -323,7 +323,7 @@ Log Record Bytes Generated: 0
 
 -   Начальный узел
 
--   Filter
+-   Фильтрация.
 
 -   Область поиска
 

@@ -1,17 +1,17 @@
 ---
 ms.assetid: 22c514b2-401e-49e1-a87e-0cbaa2c1dac1
 title: Функции сайта
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 40fa12c7bb301e0701fbac2e148cfe32820e1fa0
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 20ca1c9e3a4b0ef750d787289bf8563ead5a5ae1
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87967721"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88938364"
 ---
 # <a name="site-functions"></a>Функции сайта
 

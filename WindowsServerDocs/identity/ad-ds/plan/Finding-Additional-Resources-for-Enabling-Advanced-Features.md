@@ -1,17 +1,17 @@
 ---
 ms.assetid: 3eb89320-d8b0-463f-b9e9-5a5b6e96e0b8
 title: Поиск дополнительных ресурсов для поддержки дополнительных возможностей
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 7c753ab623dc674e31d6f20165ca99de81a27de4
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 133a9e8eb12061ebbb5d8214238a0941da4b34ca
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87941120"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88939214"
 ---
 # <a name="finding-additional-resources-for-enabling-advanced-features"></a>Поиск дополнительных ресурсов для поддержки дополнительных возможностей
 

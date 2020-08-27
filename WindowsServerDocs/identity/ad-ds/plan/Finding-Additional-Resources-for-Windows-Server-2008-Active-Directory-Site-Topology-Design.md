@@ -1,17 +1,17 @@
 ---
 ms.assetid: eca5bbf0-088e-4753-bf49-4d6c1125f689
 title: Поиск дополнительных ресурсов для проектирования топологии сайтов Active Directory под управлением Windows Server 2008
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 55317bfb392fa9867b7fae1f4900b4ce6b83a141
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: f4e444eec232bb6dabfd4acfdce9f4cc7e007bf8
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87994428"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88939104"
 ---
 # <a name="finding-additional-resources-for-windows-server-2008-active-directory-site-topology-design"></a>Поиск дополнительных ресурсов для проектирования топологии сайтов Active Directory под управлением Windows Server 2008
 

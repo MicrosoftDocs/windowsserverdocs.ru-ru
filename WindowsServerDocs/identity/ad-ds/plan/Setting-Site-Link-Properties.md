@@ -1,17 +1,17 @@
 ---
 ms.assetid: de054ac2-a386-43ec-a537-c0de21549741
 title: Задание свойств связи сайтов
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: e576d28048a7ad1a5d2bc53d692ef9b02a6a7ebd
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 391427a293aa83057d6850caec0acc297be426e5
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87945594"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88938424"
 ---
 # <a name="setting-site-link-properties"></a>Задание свойств связи сайтов
 

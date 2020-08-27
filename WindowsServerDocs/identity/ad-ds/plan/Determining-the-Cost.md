@@ -1,17 +1,17 @@
 ---
 ms.assetid: e3ea1f67-60d4-4566-b24c-37faa95c3b2a
 title: Определение стоимости
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: f99c151840fcd32fd94567bba8a0bd9ce5196c69
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: acf68e45a1d914bcbf5e780f51d2455fe43ab3e3
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87943098"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88939414"
 ---
 # <a name="determining-the-cost"></a>Определение стоимости
 

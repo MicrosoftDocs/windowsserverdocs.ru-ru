@@ -1,17 +1,17 @@
 ---
 ms.assetid: 34244b53-1206-4f5b-8c4d-3ebf574d8e24
 title: Учетные записи, подверженные риску кражи учетных данных
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 6aab5eeb405a067cc2bb83bc5e92d777869ca349
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: f2cde8766a518be95d52449d2516a874c6070bc7
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87963115"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88938224"
 ---
 # <a name="attractive-accounts-for-credential-theft"></a>Учетные записи, подверженные риску кражи учетных данных
 

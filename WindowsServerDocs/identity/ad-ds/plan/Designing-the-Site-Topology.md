@@ -1,17 +1,17 @@
 ---
 ms.assetid: eeb919de-e21e-48d8-8186-e42adec6933f
 title: Проектирование топологии сайта
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 97bf24c1e983ce7a058c405d5863b11420765da5
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: dac3976a71b27f75cee5a2d4640282819bdfe75e
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87943110"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88939444"
 ---
 # <a name="designing-the-site-topology"></a>Проектирование топологии сайта
 

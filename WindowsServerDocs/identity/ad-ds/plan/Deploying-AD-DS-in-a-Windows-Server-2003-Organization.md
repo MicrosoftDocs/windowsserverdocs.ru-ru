@@ -1,17 +1,17 @@
 ---
 ms.assetid: e6b72a80-e8b7-4305-be0c-0a290f468d36
 title: Развертывание доменных служб Active Directory в организации Windows Server 2003
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: c9d634467af9f883a88a27c6b5f1cad15326fff6
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 708e18d739933d279cb79fa28e5c420f6d2b2a58
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87943213"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88938014"
 ---
 # <a name="deploying-ad-ds-in-a-windows-server-2003-organization"></a>Развертывание доменных служб Active Directory в организации Windows Server 2003
 

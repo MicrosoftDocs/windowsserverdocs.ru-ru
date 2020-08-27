@@ -1,17 +1,17 @@
 ---
 ms.assetid: 853b7f02-bc69-416e-87b1-556f51cb2cea
 title: Управление репликацией и топологией Active Directory с помощью Windows PowerShell
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 8f843d8746fc7549098706b724ee85b89338b6bd
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 442c26e0ea61283de9c869a316b41366a4bf8992
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87963299"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88938164"
 ---
 # <a name="active-directory-replication-and-topology-management-using-windows-powershell"></a>Управление репликацией и топологией Active Directory с помощью Windows PowerShell
 

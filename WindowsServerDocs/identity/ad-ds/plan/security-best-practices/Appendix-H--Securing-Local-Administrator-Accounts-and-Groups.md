@@ -1,17 +1,17 @@
 ---
 ms.assetid: ea015cbc-dea9-4c72-a9d8-d6c826d07608
 title: Приложение H. Защита учетных записей и групп локального администратора
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: c3d9e6bd810b0d0c3d3d6aac310b3ff058b3e018
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 2b8e5de1bd45fba443ce2d91105954df1d049a14
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87963252"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88938404"
 ---
 # <a name="appendix-h-securing-local-administrator-accounts-and-groups"></a>Приложение З. Защита учетных записей и групп локальных администраторов
 

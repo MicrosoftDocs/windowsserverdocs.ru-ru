@@ -1,17 +1,17 @@
 ---
 title: Восстановление леса Active Directory — резервное копирование всего сервера
-ms.author: joflore
-author: MicrosoftGuyJFlo
-manager: mtillman
+ms.author: iainfou
+author: iainfoulds
+manager: daveba
 ms.date: 08/09/2018
 ms.topic: article
 ms.assetid: 398918dc-c8ab-41a6-a377-95681ec0b543
-ms.openlocfilehash: cb7e6f7b8e8786ad816a9ec5e3211fa617723a9c
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: ef1eb77a108d742d4fe6c7b76bfe412c7eac95bc
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87956941"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88939924"
 ---
 # <a name="ad-forest-recovery---backing-up-a-full-server"></a>Восстановление леса Active Directory — резервное копирование всего сервера
 
@@ -37,7 +37,7 @@ Cистема архивации данных Windows Server не устанав
 5. На экране **роли сервера** нажмите кнопку **Далее**.
 6. На экране **компоненты** выберите **Cистема архивации данных Windows Server** и нажмите кнопку **Далее** 
     ![ установить резервную копию.](media/AD-Forest-Recovery-Backing-up-a-Full-Server/fullbackup2.png)
-7. Нажмите кнопку **Установить**.
+7. Щелкните **Install**(Установить).
 8. После завершения установки нажмите кнопку **Закрыть**.
 
 ### <a name="to-perform-a-backup-with-windows-server-backup"></a>Выполнение резервного копирования с помощью cистема архивации данных Windows Server

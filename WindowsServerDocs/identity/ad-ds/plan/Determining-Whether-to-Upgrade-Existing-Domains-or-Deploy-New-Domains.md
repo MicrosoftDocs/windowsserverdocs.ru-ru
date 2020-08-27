@@ -1,17 +1,17 @@
 ---
 ms.assetid: c20231dd-2b83-4494-9385-1172272e00d6
 title: Обновление имеющихся доменов и развертывание новых доменов
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 7064a3ef4735d88051a91390089549d4a3eba613
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: b3fef63e194a75cac76ec4f05504432c23a64ff0
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87943088"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88939434"
 ---
 # <a name="determining-whether-to-upgrade-existing-domains-or-deploy-new-domains"></a>Обновление имеющихся доменов и развертывание новых доменов
 

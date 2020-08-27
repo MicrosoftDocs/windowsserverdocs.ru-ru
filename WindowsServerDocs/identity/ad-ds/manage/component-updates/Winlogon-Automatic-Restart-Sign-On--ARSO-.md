@@ -2,18 +2,18 @@
 ms.assetid: cb834273-828a-4141-9387-37dd8270e932
 title: Вход автоматического перезапуска Winlogon (АРСО)
 description: Использование автоматического перезапуска Windows для повышения производительности пользователей.
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.reviewer: cahick
 ms.date: 08/20/2019
 ms.topic: article
-ms.openlocfilehash: 711a3fc22977d7aa9751c8e200524f4cd295110b
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 3f2957d2290934505f67edbcb8a49733452939e2
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87943311"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88939874"
 ---
 # <a name="winlogon-automatic-restart-sign-on-arso"></a>Вход автоматического перезапуска Winlogon (АРСО)
 
@@ -54,7 +54,7 @@ ms.locfileid: "87943311"
 
 **Поддерживается в:** Не ниже Windows 10 версии 1903
 
-**Описание:**
+**Описание.**
 
 Этот параметр политики определяет, будет ли устройство автоматически входить в систему и блокировать последнего интерактивного пользователя после перезагрузки системы или после завершения работы и холодной загрузки.
 
@@ -95,7 +95,7 @@ ms.locfileid: "87943311"
 
 **Поддерживается в:** Не ниже Windows 10 версии 1903
 
-**Описание:**
+**Описание.**
 
 Этот параметр политики управляет конфигурацией, в которой автоматический перезапуск и вход и блокировка выполняются после перезагрузки или холодной загрузки. Если в политике "Автоматический вход и блокировка последнего интерактивного пользователя после перезапуска выбрано значение" отключено ", автоматический вход не будет выполняться, и эту политику не нужно настраивать.
 
@@ -122,7 +122,7 @@ ms.locfileid: "87943311"
 
 ![процессу](media/Winlogon-Automatic-Restart-Sign-On--ARSO-/arso-policy-setting.png)
 
-## <a name="troubleshooting"></a>Диагностика
+## <a name="troubleshooting"></a>Устранение неполадок
 
 При автоматической блокировке WinLogon трассировка состояния WinLogon будет храниться в журнале событий WinLogon.
 

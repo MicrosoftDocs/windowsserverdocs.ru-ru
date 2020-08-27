@@ -1,17 +1,17 @@
 ---
 ms.assetid: d7a4d2e1-217d-4ffc-93f0-817149bd9e7f
 title: Способы решения проблем
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: adf73ed7e6b003d6622c09dcc1a5dc0c85a6fe71
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 31d936647be758c3f9cf2cd6d922f00ec5554e98
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87994337"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88938214"
 ---
 # <a name="avenues-to-compromise"></a>Способы решения проблем
 

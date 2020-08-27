@@ -1,17 +1,17 @@
 ---
 title: Восстановление леса Active Directory — проверка репликации
-ms.author: joflore
-author: MicrosoftGuyJFlo
-manager: mtillman
+ms.author: iainfou
+author: iainfoulds
+manager: daveba
 ms.date: 08/09/2018
 ms.topic: article
 ms.assetid: 302e522a-fb40-43bc-bc63-83dcc87ebde5
-ms.openlocfilehash: b0dcbc06f5ca116096a2ff4a2a3ec0210d9ccb48
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: beb7968dee3b2948aed695864015a02f0aa3b47e
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87943685"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88938154"
 ---
 # <a name="resources-to-verify-replication-is-working"></a>Ресурсы для проверки работы репликации
 
@@ -29,7 +29,7 @@ ms.locfileid: "87943685"
 1. Когда событие DFSR 4612 появляется на первом восстановленном контроллере домена, выполните принудительное восстановление вручную, как описано в [2218556: как принудительно выполнить полномочное и неполномочное синхронизацию для реплицированного SYSVOL DFSR (например, D4/D2 для FRS)](https://support.microsoft.com/kb/2218556) ( https://support.microsoft.com/kb/2218556) .
 2. Установите для **флага сисволреади** значение 1 вручную, как описано в [947022. общий ресурс NETLOGON отсутствует после установки домен Active Directory Services на новом полном или доступном только для чтения контроллере домена на базе Windows Server 2008](https://support.microsoft.com/kb/947022).
 
-Можно также создать диагностический отчет репликация DFS. Дополнительные сведения см. [в разделе Создание диагностического отчета для репликация DFS](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc754227(v=ws.11)) и пошагового [руководств по DFS для Windows Server 2008](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc754227(v=ws.11)). Если сервер работает под Windows Server 2008 R2, можно использовать [параметр командной строкиdfsrdiag.exe ReplicationState](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc754227(v=ws.11)).
+Можно также создать диагностический отчет репликация DFS. Дополнительные сведения см. [в разделе Создание диагностического отчета для репликация DFS](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc754227(v=ws.11)) и пошагового [руководств по DFS для Windows Server 2008](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc754227(v=ws.11)). Если сервер работает под Windows Server 2008 R2, можно использовать [ параметр командной строкиdfsrdiag.exe ReplicationState](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc754227(v=ws.11)).
 
 Можно также запустить тест репликации с помощью dcdiag.exe, чтобы проверить наличие ошибок репликации. Дополнительные сведения см. в статье базы знаний [249256](https://support.microsoft.com/kb/249256).
 

@@ -1,17 +1,17 @@
 ---
 ms.assetid: 7d957ebb-3476-49d8-b00b-6e93b4a94778
 title: Определение требований к архитектуре леса
-ms.author: joflore
-author: MicrosoftGuyJFlo
-manager: mtillman
+ms.author: iainfou
+author: iainfoulds
+manager: daveba
 ms.date: 08/07/2018
 ms.topic: article
-ms.openlocfilehash: 79bd34c8a2beb38d60b972aec0f8a17f17e5a590
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 9c5278fa01d34b5ed0bf77153dce1575ee6ac509
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87941026"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88939084"
 ---
 # <a name="identifying-forest-design-requirements"></a>Определение требований к архитектуре леса
 

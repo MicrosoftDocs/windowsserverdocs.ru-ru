@@ -1,17 +1,17 @@
 ---
 title: Восстановление леса AD — восстановление отдельного домена в лесу с несколькими доменами
-ms.author: joflore
-author: MicrosoftGuyJFlo
-manager: mtillman
+ms.author: iainfou
+author: iainfoulds
+manager: daveba
 ms.date: 08/09/2018
 ms.topic: article
 ms.assetid: 267541be-2ea7-4af6-ab34-8b5a3fedee2d
-ms.openlocfilehash: 60f965c90fd8b383689f1b7d0a55bd365c07ee01
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 90ff4003373c422797ed7629ba87435efcdfb686
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87953201"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88938884"
 ---
 # <a name="ad-forest-recovery---recovering-a-single-domain-in-a-multidomain-forest"></a>Восстановление леса AD — восстановление отдельного домена в лесу с несколькими доменами
 

@@ -1,17 +1,17 @@
 ---
 ms.assetid: 407d5e81-c04c-4275-9ae9-35f65b4a371a
 title: Планирование размещения сервера глобального каталога
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: a8ef90ec13b67fdb3bc0e37e02d571721a0ea77a
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: e82b9c7db0db62f4e74e6114d78aca59b21f8525
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87970981"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88938704"
 ---
 # <a name="planning-global-catalog-server-placement"></a>Планирование размещения сервера глобального каталога
 

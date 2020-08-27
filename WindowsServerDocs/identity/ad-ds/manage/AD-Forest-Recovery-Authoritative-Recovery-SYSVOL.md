@@ -1,17 +1,17 @@
 ---
 title: Восстановление леса Active Directory — официальная синхронизация SYSVOL
-ms.author: joflore
-author: MicrosoftGuyJFlo
-manager: mtillman
+ms.author: iainfou
+author: iainfoulds
+manager: daveba
 ms.date: 08/09/2018
 ms.topic: article
 ms.assetid: 38a1c543-c76d-4b8e-a06b-53742aaa172f
-ms.openlocfilehash: 8d4df4b7b893c0c6e8fc6b467ee115e9013335f9
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: a15d88bf4bf1befa4d65758f319fdf0c35c383a8
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87956901"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88939934"
 ---
 # <a name="ad-forest-recovery---performing-an-authoritative-synchronization-of-dfsr-replicated-sysvol"></a>Восстановление леса Active Directory — выполнение полномочной синхронизации SYSVOL с реплицированной службой DFSR
 

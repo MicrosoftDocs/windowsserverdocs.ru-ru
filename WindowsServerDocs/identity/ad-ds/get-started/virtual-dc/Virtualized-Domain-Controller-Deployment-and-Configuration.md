@@ -1,17 +1,17 @@
 ---
 ms.assetid: b146f47e-3081-4c8e-bf68-d0f993564db2
 title: Развертывание и настройка виртуализированного контроллера домена
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 6804df686635e441c667ab395ca486d3791a2aa5
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 7c2ae279a39566a30670111198d0e4840f57f6fc
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87959412"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88939074"
 ---
 # <a name="virtualized-domain-controller-deployment-and-configuration"></a>Развертывание и настройка виртуализированного контроллера домена
 
@@ -58,9 +58,9 @@ ms.locfileid: "87959412"
 
 |**Продукт виртуализации**|**Поддерживает виртуализированные контроллеры домена и VMGID**|
 |--|--|
-|**Сервер Microsoft Windows Server 2012 с компонентом Hyper-V**|да|
-|**Microsoft Windows Server 2012 Hyper-V Server**|да|
-|**Microsoft Windows 8 с компонентом клиента Hyper-V**|да|
+|**Сервер Microsoft Windows Server 2012 с компонентом Hyper-V**|Да|
+|**Microsoft Windows Server 2012 Hyper-V Server**|Да|
+|**Microsoft Windows 8 с компонентом клиента Hyper-V**|Да|
 |**Windows Server 2008 R2 и Windows Server 2008**|Нет|
 |**Сторонние решения виртуализации**|Обратитесь к поставщику|
 

@@ -1,17 +1,17 @@
 ---
 title: Восстановление леса AD — выполнение начального восстановления
-ms.author: joflore
-author: MicrosoftGuyJFlo
-manager: mtillman
+ms.author: iainfou
+author: iainfoulds
+manager: daveba
 ms.date: 08/09/2018
 ms.topic: article
 ms.assetid: 5a291f65-794e-4fc3-996e-094c5845a383
-ms.openlocfilehash: 62b90acb6d6ccdf266926ec32ca797a257f0798b
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 1b63d2dc379ae4e218bca9f39aab92eb74d6f5e5
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87969881"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88939504"
 ---
 # <a name="perform-initial-recovery"></a>Выполнить начальное восстановление
 

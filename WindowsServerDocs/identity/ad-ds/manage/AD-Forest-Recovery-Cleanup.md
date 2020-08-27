@@ -1,17 +1,17 @@
 ---
 title: Восстановление леса AD — очистка
-ms.author: joflore
-author: MicrosoftGuyJFlo
-manager: mtillman
+ms.author: iainfou
+author: iainfoulds
+manager: daveba
 ms.date: 08/09/2018
 ms.topic: article
 ms.assetid: 5a291f65-794e-4fc3-996e-094c5845a383
-ms.openlocfilehash: 74f4518ead647aa4a3c8e4f7a8388c8735d466e1
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 831f83d75ef7c5f866a499943a94940027cda67d
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87956711"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88938924"
 ---
 # <a name="ad-forest-recovery---cleanup"></a>Восстановление леса AD — очистка
 

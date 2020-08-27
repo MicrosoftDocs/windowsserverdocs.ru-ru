@@ -1,17 +1,17 @@
 ---
 title: Восстановление леса AD — вопросы и ответы
-ms.author: joflore
-author: MicrosoftGuyJFlo
-manager: mtillman
+ms.author: iainfou
+author: iainfoulds
+manager: daveba
 ms.date: 08/09/2018
 ms.topic: article
 ms.assetid: ac9e5a3d-8b1e-41b7-8e02-f64b7acf1359
-ms.openlocfilehash: 62f0653d0d35a1fb21d7de452401c48291e4259c
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 954ad8f4af588f5edb0746e67bfc9b29c0b8945d
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87959062"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88939764"
 ---
 # <a name="ad-forest-recovery---faq"></a>Восстановление леса AD — вопросы и ответы
 

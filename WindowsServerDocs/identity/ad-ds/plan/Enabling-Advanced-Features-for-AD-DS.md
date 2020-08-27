@@ -1,17 +1,17 @@
 ---
 ms.assetid: 530b3cf1-e907-4556-92ab-c9dc4aee7b56
 title: Включение дополнительных возможностей для доменных служб Active Directory
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: ba2d0becb7d455983e28a8b491bc5171fadd9ee8
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 6da988a692f5efde1ff37e83d265c884646fd800
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87941173"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88939224"
 ---
 # <a name="enabling-advanced-features-for-ad-ds"></a>Включение дополнительных возможностей для доменных служб Active Directory
 

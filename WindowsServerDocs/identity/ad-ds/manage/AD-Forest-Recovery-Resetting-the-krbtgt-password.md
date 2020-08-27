@@ -1,17 +1,17 @@
 ---
 title: Восстановление леса AD — сброс пароля KRBTGT
-ms.author: joflore
-author: MicrosoftGuyJFlo
-manager: mtillman
+ms.author: iainfou
+author: iainfoulds
+manager: daveba
 ms.date: 08/09/2018
 ms.topic: article
 ms.assetid: 3bd6c1d0-d316-4b03-b7b4-557d4537635c
-ms.openlocfilehash: d756ec305f5d77a694522eb18cedec25203edcab
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 1b2183d9a695da274d0f51e46b70a0cfe002a020
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87965131"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88938184"
 ---
 # <a name="ad-forest-recovery---resetting-the-krbtgt-password"></a>Восстановление леса AD — сброс пароля KRBTGT
 

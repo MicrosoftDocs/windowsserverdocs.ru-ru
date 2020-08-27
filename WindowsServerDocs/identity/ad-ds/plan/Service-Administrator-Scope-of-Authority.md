@@ -1,17 +1,17 @@
 ---
 ms.assetid: da7b6dcf-53ec-4394-88c0-c087d92f3893
 title: Объем полномочий администратора службы
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: ff6a41c83115538e7b0f55ab1dbec0329bd5046d
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: e34f8a7aac27719bc2841324fb87d9e5ca5548bb
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87967731"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88938434"
 ---
 # <a name="service-administrator-scope-of-authority"></a>Объем полномочий администратора службы
 

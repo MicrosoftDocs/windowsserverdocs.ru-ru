@@ -1,17 +1,17 @@
 ---
 ms.assetid: 28ecaf5c-9131-406c-b211-a230162e462e
 title: Определение расписания
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: e0e285efb05dabc1e60f20622ac4dff982b6fb4a
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 1d30648523344d933025e779709815fc4e47f88a
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87941269"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88939304"
 ---
 # <a name="determining-the-schedule"></a>Определение расписания
 

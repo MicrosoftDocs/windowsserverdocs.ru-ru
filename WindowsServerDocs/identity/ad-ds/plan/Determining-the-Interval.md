@@ -1,17 +1,17 @@
 ---
 ms.assetid: 96a6749c-6c9f-4f2f-ad0a-51272d282ace
 title: Определение интервала
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: a5d19c66372ef577708bb759cfaefab845d882c5
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 8230dc9e53184792e91874b1a8b7a44643564999
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87943067"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88939394"
 ---
 # <a name="determining-the-interval"></a>Определение интервала
 

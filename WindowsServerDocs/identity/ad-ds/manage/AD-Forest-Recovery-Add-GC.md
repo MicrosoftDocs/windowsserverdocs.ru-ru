@@ -1,17 +1,17 @@
 ---
 title: Восстановление леса AD — Добавление сборки мусора
-ms.author: joflore
-author: MicrosoftGuyJFlo
-manager: mtillman
+ms.author: iainfou
+author: iainfoulds
+manager: daveba
 ms.date: 08/09/2018
 ms.topic: article
 ms.assetid: 5a291f65-794e-4fc3-996e-094c5845a383
-ms.openlocfilehash: a2f9cc50143d1cb5e08531c623f754599ab1c51e
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 00a95269891074f95184c52f5244176f18de7b37
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87956841"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88939944"
 ---
 # <a name="ad-forest-recovery---adding-the-gc"></a>Восстановление леса AD — Добавление сборки мусора
 

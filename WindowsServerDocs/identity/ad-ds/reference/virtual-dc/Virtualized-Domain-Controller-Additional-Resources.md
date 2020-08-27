@@ -1,17 +1,17 @@
 ---
 ms.assetid: 47a7cede-f94a-4233-872b-fa65a5b9d8f1
 title: Дополнительные ресурсы по по виртуализированным контроллерам домена
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 3b3b08444374b2a8baf74273398fcd4a5fee8db3
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 6c742f6c8ee8163913fb219fba91dd72623bedd0
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87940974"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88938774"
 ---
 # <a name="virtualized-domain-controller-additional-resources"></a>Дополнительные ресурсы по по виртуализированным контроллерам домена
 

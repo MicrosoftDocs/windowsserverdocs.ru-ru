@@ -1,17 +1,17 @@
 ---
 ms.assetid: 341614c6-72c2-444f-8b92-d2663aab7070
 title: Архитектура виртуализованных контроллеров доменов
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: c56b55ad3617293b495d78e6ceedabed1e76463f
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 04d50961aeb6190c15ba4c772afd8767d9d24f9b
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87954451"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88939016"
 ---
 # <a name="virtualized-domain-controller-architecture"></a>Архитектура виртуализованных контроллеров доменов
 

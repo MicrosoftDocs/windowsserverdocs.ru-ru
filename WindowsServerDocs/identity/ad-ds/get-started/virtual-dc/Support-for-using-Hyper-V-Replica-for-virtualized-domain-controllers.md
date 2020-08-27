@@ -1,17 +1,17 @@
 ---
 ms.assetid: 45a65504-70b5-46ea-b2e0-db45263fabaa
 title: Поддержка использования реплики Hyper-V для виртуализированных контроллеров домена
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: a751e8d6f170a83027f417855da1bdaa471de01b
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 8c4d96bbf23e9f25a0ed38f6ca9d6e4c33cdb7b7
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87954420"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88938194"
 ---
 # <a name="support-for-using-hyper-v-replica-for-virtualized-domain-controllers"></a>Поддержка использования реплики Hyper-V для виртуализированных контроллеров домена
 
@@ -53,7 +53,7 @@ Windows Server 2012 Hyper-V представил VM-GenerationID (Вмженид
 
 Данное заявление о поддержке основано на тестах, проведенных в лесе с одним доменом, однако конфигурации леса с несколькими доменами также поддерживаются. Для этих тестов виртуализированные контроллеры домена DC1 и DC2 являются партнерами репликации Active Directory на одном сайте, размещенном на сервере, где выполняется Hyper-V в Windows Server 2012. В операционной системе виртуальной машины, где выполняется DC2, включена реплика Hyper-V. Сервер-реплика размещается в другом географически удаленном центре обработки данных. Чтобы упростить восприятие приведенных ниже процедур тестового случая, для виртуальной машины, выполняемой на сервере-реплике, используется имя DC2-Rec (хотя на практике она сохраняет имя исходной виртуальной машины).
 
-### <a name="windows-server-2012"></a>Windows Server 2012
+### <a name="windows-server-2012"></a>Windows Server 2012
 
 В следующей таблице поясняется поддержка виртуализированных контроллеров домена, работающих под управлением Windows Server 2012, и тестовых случаев.
 

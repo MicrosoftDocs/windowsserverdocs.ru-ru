@@ -1,17 +1,17 @@
 ---
 title: Восстановление леса AD — восстановление Windows Server 2003
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 07/07/2017
 ms.topic: article
 ms.assetid: 5a291f65-794e-4fc3-996e-094c5845a383
-ms.openlocfilehash: 6693f2af67e0de32e54eec309b62f5333505f559
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 01557790072d4606cc98c32c7a437078940c258d
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87943652"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88939614"
 ---
 # <a name="ad-forest-recovery---windows-server-2003-recovery"></a>Восстановление леса AD — восстановление Windows Server 2003
 

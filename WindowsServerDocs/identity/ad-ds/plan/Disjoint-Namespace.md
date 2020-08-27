@@ -1,17 +1,17 @@
 ---
 ms.assetid: d92731f1-e4d8-4223-9b07-ca1f40bb0e1f
 title: Несвязанное пространство имен
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 8f96ecaff5fbe31c4d9d037861685a2e4c008e63
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 06506ac47fe22724047cff73fb88972b868600b5
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87941224"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88939284"
 ---
 # <a name="disjoint-namespace"></a>Несвязанное пространство имен
 

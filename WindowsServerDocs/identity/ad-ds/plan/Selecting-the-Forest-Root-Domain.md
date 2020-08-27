@@ -1,17 +1,17 @@
 ---
 ms.assetid: ef4ef4a9-8969-4ad0-bd17-b2bb24f36ef6
 title: Выбор корневого домена леса
-ms.author: joflore
-author: MicrosoftGuyJFlo
-manager: mtillman
+ms.author: iainfou
+author: iainfoulds
+manager: daveba
 ms.date: 08/08/2018
 ms.topic: article
-ms.openlocfilehash: c0a814932bfb5a232e55857e3cc10af4068d14c9
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 32171395c7b0d854492568214b67f99a74919f6b
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87972241"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88938504"
 ---
 # <a name="selecting-the-forest-root-domain"></a>Выбор корневого домена леса
 
@@ -76,7 +76,7 @@ ms.locfileid: "87972241"
 
 В следующей таблице перечислены правила выбора префикса для зарегистрированного DNS-имени.
 
-| Правило     | Описание |
+| Правило     | Пояснение |
 | -------- | --------------- |
 | Выберите префикс, который, скорее всего, станет устаревшим. | Избегайте таких имен, как линейка продуктов или операционная система, которые могут измениться в будущем. Рекомендуется использовать универсальные имена, например Corp или DS.|
 | Выберите префикс, включающий только стандартные символы Интернета. | A – Z, a – z, 0-9 и (-), но не полностью числовое. |

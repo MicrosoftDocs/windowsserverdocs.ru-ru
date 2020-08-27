@@ -1,17 +1,17 @@
 ---
 ms.assetid: af76ddbe-83a2-4a62-9989-873e3bb1c772
 title: Роль владельца топологии сайта
-author: MicrosoftGuyJFlo
-ms.author: joflore
-manager: mtillman
+author: iainfoulds
+ms.author: iainfou
+manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: da0b34f8e2b14d03ef7f65417531aae674977969
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 8da8960a88de676c6611751d10f73f327f051fba
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87967701"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88938334"
 ---
 # <a name="site-topology-owner-role"></a>Роль владельца топологии сайта
 
