@@ -1,18 +1,18 @@
 ---
 title: logman query
 description: Справочная статья по команде Logman Query, которая запрашивает свойства сборщика данных или группы сборщиков данных.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 1116a0f0-5415-4369-a045-12f79f8f66de
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 2cb324651001f071e45acf0821f402458ed838d8
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: e7d3d9da5b5885c15135b764454bd68818c4aded
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87887284"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89023788"
 ---
 # <a name="logman-query"></a>logman query
 
@@ -28,11 +28,11 @@ logman query [providers|Data Collector Set name] [options]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
-| -s`<computer name>` | Выполните команду на указанном удаленном компьютере. |
-| -config`<value>` | Указывает файл параметров, содержащий параметры команды. |
-| [-n]`<name>` | Имя целевого объекта. |
+| -s `<computer name>` | Выполните команду на указанном удаленном компьютере. |
+| -config `<value>` | Указывает файл параметров, содержащий параметры команды. |
+| [-n] `<name>` | Имя целевого объекта. |
 | -ETS | Отправляет команды в сеансы трассировки событий напрямую без сохранения или планирования. |
 | /? | Отображает контекстную справку. |
 

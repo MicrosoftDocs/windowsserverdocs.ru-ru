@@ -1,18 +1,18 @@
 ---
 title: defrag
 description: Справочная статья по команде Defrag, которая находит и объединяет фрагментированные файлы на локальных томах для повышения производительности системы.
-ms.topic: article
+ms.topic: reference
 ms.assetid: aaf1d1ac-996a-4282-9b4d-1e8245ff162c
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: c68edbb4511df12912adbc666201d5a381c06fe3
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 45bf8f07a44432eac45f4a5ccaf43697c5de17fe
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87891484"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89024238"
 ---
 # <a name="defrag"></a>defrag
 

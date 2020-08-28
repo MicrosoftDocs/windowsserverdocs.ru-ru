@@ -1,18 +1,18 @@
 ---
 title: delete disk
 description: Справочная статья по команде "удалить диск", которая удаляет отсутствующий динамический диск из списка дисков.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 44079900-e4ed-49d0-81e4-d652c38cd636
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 85657e571fb5f0f4e0a55cf54065056a8f28c385
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: b02f88027d3fa7d425d65024350805eb2279185b
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87891441"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89024218"
 ---
 # <a name="delete-disk"></a>delete disk
 
@@ -29,7 +29,7 @@ delete disk [noerr] [override]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | Noerr | Только для сценариев. При возникновении ошибки DiskPart продолжит обрабатывать команды, как если бы ошибка не возникала. Без этого параметра ошибка приводит к выходу из программы DiskPart с кодом ошибки. |
 | override | Позволяет программе DiskPart удалять все простые тома на диске. Если диск содержит половину зеркального тома, половина зеркала на диске удаляется. Команда удалить переопределение диска завершается сбоем, если диск входит в том RAID-5. |

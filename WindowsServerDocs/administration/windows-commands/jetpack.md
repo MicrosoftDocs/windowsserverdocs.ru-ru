@@ -1,18 +1,18 @@
 ---
 title: jetpack
 description: Справочная статья по команде Jetpack, которая сжимает службу Windows Internet Name Service (WINS) или базу данных протокола DHCP.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 82a2b7ef-0db5-4575-a028-8acb0bf6c7ba
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 6850c7d00f11278bbc904f7ad7d2e7edaf30d229
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: bf2664c142a169982acc0d11c34a53aea193d030
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87888198"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89035422"
 ---
 # <a name="jetpack"></a>jetpack
 
@@ -36,7 +36,7 @@ jetpack.exe <database_name> <temp_database_name>
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | ------- | -------- |
 | `<database_name>` | Задает имя исходного файла базы данных. |
 | `<temp_database_name>` | Задает имя временного файла базы данных, создаваемого jetpack.exe.<p>Примечание. Этот временный файл удаляется по завершении процесса сжатия. Чтобы эта команда работала правильно, необходимо убедиться, что имя временного файла уникально и файл с таким именем еще не существует. |

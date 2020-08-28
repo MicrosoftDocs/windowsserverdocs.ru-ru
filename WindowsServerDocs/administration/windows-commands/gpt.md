@@ -1,18 +1,18 @@
 ---
 title: gpt
 description: Справочная статья по команде GPT, которая назначает атрибуты GPT секции с фокусом.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 1d6f9029-807f-4420-a336-36669b5361bc
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 561bc4a11580a45452ac71cffddee1c58e48cf86
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: ce16138ec968451b68f7324cefd6097f2351a274
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87888554"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89035522"
 ---
 # <a name="gpt"></a>gpt
 

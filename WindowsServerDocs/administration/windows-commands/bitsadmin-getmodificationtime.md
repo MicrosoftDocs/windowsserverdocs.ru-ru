@@ -1,18 +1,18 @@
 ---
 title: bitsadmin getmodificationtime
 description: Справочная статья по команде битсадмин жетмодификатионтиме, которая получает время последнего изменения задания или передачи данных.
-ms.topic: article
+ms.topic: reference
 ms.assetid: e543945e-92c4-491e-8c2d-344f8a3e342d
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: d89d3382c738ffc473135579eb58590f06774d5c
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 763ca0f60fa834ad14b92eb7963107fa407a8964
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87894168"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89028732"
 ---
 # <a name="bitsadmin-getmodificationtime"></a>bitsadmin getmodificationtime
 

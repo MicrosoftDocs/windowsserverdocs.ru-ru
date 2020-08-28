@@ -1,17 +1,17 @@
 ---
 title: bitsadmin makecustomheaderswriteonly
 description: Справочная статья по команде битсадмин макекустомхеадерсвритеонли, которая делает пользовательские заголовки HTTP для задания только для записи.
-ms.topic: article
+ms.topic: reference
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 03/01/2019
-ms.openlocfilehash: b1e152ee51f3009a5cc1f5bf1b747e65e86e5e04
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 4d31f51c2531079342e223752c626b0b7e8d19f8
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87893692"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89024268"
 ---
 # <a name="bitsadmin-makecustomheaderswriteonly"></a>bitsadmin makecustomheaderswriteonly
 
@@ -28,7 +28,7 @@ bitsadmin /makecustomheaderswriteonly <job>
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | -------------- | -------------- |
 | задание | Отображаемое имя задания или идентификатор GUID. |
 

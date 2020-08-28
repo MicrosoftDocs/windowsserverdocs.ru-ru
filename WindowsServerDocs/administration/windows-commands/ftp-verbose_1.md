@@ -1,18 +1,18 @@
 ---
 title: ftp verbose
 description: Справочная статья по команде FTP Verbose, которая переключает режим подробных сведений.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 59febc81-0b14-487e-8aa3-642f59d0b34f
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 925f2a15dfd3040ae8a7c8c7fcb808dfe62791ee
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: d62b7ab89835de1fb582d8b146065b1727f923b9
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87888801"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89035642"
 ---
 # <a name="ftp-verbose"></a>ftp verbose
 

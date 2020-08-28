@@ -1,18 +1,18 @@
 ---
 title: bitsadmin getproxybypasslist
 description: Справочная статья по команде битсадмин жетпроксибипасслист, которая получает список обхода прокси-сервера для указанного задания.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 50959be3-7014-4bc9-9a7b-68f1ff94a94a
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 16cca14a47f086be65764da5441d915d2d28d2db
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: fb767ce9201b8c652df52a9049ce474ec8d8ea2e
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87894006"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89028652"
 ---
 # <a name="bitsadmin-getproxybypasslist"></a>bitsadmin getproxybypasslist
 
@@ -26,7 +26,7 @@ bitsadmin /getproxybypasslist <job>
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | -------------- | -------------- |
 | задание | Отображаемое имя задания или идентификатор GUID. |
 

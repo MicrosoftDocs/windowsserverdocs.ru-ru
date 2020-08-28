@@ -1,18 +1,18 @@
 ---
 title: auditpol get
 description: Справочная статья по команде auditpol Get, которая получает системную политику, политику для отдельных пользователей, параметры аудита и объект дескриптора безопасности аудита.
-ms.topic: article
+ms.topic: reference
 ms.assetid: fe13de4e-836c-4207-b47c-64b6272d6c41
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: edb6619ed551de481b77009c320240951cdca06e
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 23de44ebc9bc91ad4db52ee7362b14d9c93648d8
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87895438"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89029092"
 ---
 # <a name="auditpol-get"></a>auditpol get
 

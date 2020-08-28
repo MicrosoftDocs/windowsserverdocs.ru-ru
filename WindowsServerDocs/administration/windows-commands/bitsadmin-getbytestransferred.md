@@ -1,18 +1,18 @@
 ---
 title: bitsadmin getbytestransferred
 description: Справочная статья по команде битсадмин жетбитестрансферред, которая получает число байтов, переданных для указанного задания.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 47bbf184-e06f-4be0-b2ba-d32b10d82002
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 1d6b8ebb8d03a2498796325de8878840f36c6b71
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 67e1432f2fbef32ac47320d87993f5d62053bb71
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87894530"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89028742"
 ---
 # <a name="bitsadmin-getbytestransferred"></a>bitsadmin getbytestransferred
 
@@ -26,7 +26,7 @@ bitsadmin /getbytestransferred <job>
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | -------------- | -------------- |
 | задание | Отображаемое имя задания или идентификатор GUID. |
 

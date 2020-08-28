@@ -1,18 +1,18 @@
 ---
 title: detail partition
 description: Справочная статья для команды подробной секции, в которой отображаются свойства выбранной секции.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 672a2c7a-1721-4845-9c23-7af50367170e
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 60a73b50b019cac6dc03629ad1657f1808782e8d
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 214947c45c7378194b5b5e7ce3ee49bdfc1041c5
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87891280"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89024078"
 ---
 # <a name="detail-partition"></a>detail partition
 

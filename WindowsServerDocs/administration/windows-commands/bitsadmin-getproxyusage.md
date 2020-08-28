@@ -1,18 +1,18 @@
 ---
 title: bitsadmin getproxyusage
 description: Справочная статья по команде битсадмин жетпроксюсаже, которая получает параметр использования прокси-сервера для указанного задания.
-ms.topic: article
+ms.topic: reference
 ms.assetid: f940a70e-3b02-497e-a47f-b37b905c299e
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: ff2320ba66cdc11781ac56900e5a4aaa9fb1dc0f
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 423168d72a88ecad90fd8de43eab3cb4486a750b
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87893933"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89024408"
 ---
 # <a name="bitsadmin-getproxyusage"></a>bitsadmin getproxyusage
 
@@ -26,7 +26,7 @@ bitsadmin /getproxyusage <job>
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | -------------- | -------------- |
 | задание | Отображаемое имя задания или идентификатор GUID. |
 

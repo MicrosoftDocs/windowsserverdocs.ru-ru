@@ -1,18 +1,18 @@
 ---
 title: delete volume
 description: Справочная статья по команде удаления тома, которая удаляет выбранный том.
-ms.topic: article
+ms.topic: reference
 ms.assetid: f625933d-0f47-409e-93b2-a3e234049a5d
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 4749f2a10527529a6b665692ac9deaaa5f55a57c
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 7c88834b800414bcf3ff246272ec187fb98d47db
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87891359"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89024158"
 ---
 # <a name="delete-volume"></a>delete volume
 
@@ -29,7 +29,7 @@ delete volume [noerr]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | Noerr | Только для сценариев. При возникновении ошибки DiskPart продолжит обрабатывать команды, как если бы ошибка не возникала. Без этого параметра ошибка приводит к выходу из программы DiskPart с кодом ошибки. |
 

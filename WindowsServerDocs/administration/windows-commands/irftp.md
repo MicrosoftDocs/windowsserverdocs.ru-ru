@@ -1,18 +1,18 @@
 ---
 title: irftp
 description: Справочная статья по команде ирфтп, которая отправляет файлы по инфракрасной связи.
-ms.topic: article
+ms.topic: reference
 ms.assetid: e15c60a7-546d-4e9f-9871-43aaa1b569d6
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: bd1ecf6b1fafcf9070edb717d5c4ce5aa861fabd
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 4c9d135dd0bb16f10e99fd7916a0965c0542f862
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87888228"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89035432"
 ---
 # <a name="irftp"></a>irftp
 
@@ -31,7 +31,7 @@ irftp [<drive>:\] [[<path>] <filename>] [/h][/s]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | `<drive>:\` | Указывает диск, содержащий файлы, которые необходимо отправить через инфракрасную связь. |
 | `[path]<filename>` | Указывает расположение и имя файла или набора файлов, которые требуется отправить через инфракрасную связь. Если указать набор файлов, необходимо указать полный путь для каждого файла. |

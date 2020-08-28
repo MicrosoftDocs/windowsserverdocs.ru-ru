@@ -1,18 +1,18 @@
 ---
 title: del
 description: Справочная статья по команде Del, которая удаляет один или несколько файлов.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 346eede2-2085-44f5-9936-6877b5d5a833
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: f909a212284f29fff15de0d02995b08b713cd889
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 9d7b5c3dd59da3bd15341b985476a88c8d828cfd
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87891494"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89024228"
 ---
 # <a name="del"></a>del
 

@@ -1,18 +1,18 @@
 ---
 title: bitsadmin getbytestotal
 description: Справочная статья по команде битсадмин жетбитестотал, которая получает размер указанного задания.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 784e0bfa-7b09-4262-9104-adbc9beb479b
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 8b26773578d4c9a24f969df1506828c202e12b41
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 6a8496234c0907061997ddd790e03f78d84c5380
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87894570"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89024428"
 ---
 # <a name="bitsadmin-getbytestotal"></a>bitsadmin getbytestotal
 
@@ -26,7 +26,7 @@ bitsadmin /getbytestotal <job>
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | -------------- | -------------- |
 | задание | Отображаемое имя задания или идентификатор GUID. |
 

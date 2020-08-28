@@ -1,18 +1,18 @@
 ---
 title: ftp type
 description: Справочная статья по команде типа FTP, которая задает или отображает тип перемещения файла.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 6e96dcd4-08f8-4e7b-90b7-1e1761fea4c7
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 2188c6114b708845486dd091ff222d2d46ece075
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: f97c7959fcc0788298055b989433eec572d61584
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87888815"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89035692"
 ---
 # <a name="ftp-type"></a>ftp type
 
@@ -32,7 +32,7 @@ type [<typename>]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | `[<typename>]` | Определяет тип передачи файла. Если этот параметр не указан, отображается текущий тип.|
 

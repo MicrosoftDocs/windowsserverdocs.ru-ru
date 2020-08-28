@@ -1,18 +1,18 @@
 ---
 title: ftp send
 description: Справочная статья по команде FTP Send, которая копирует локальный файл на удаленный компьютер с использованием текущего типа передачи файлов.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 000aa80a-60a0-4b51-815f-3237a4f3e0f4
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 93b2af82954535d409eb16ab46c0feb918e18b21
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 300b73bdcaeaa7854980698fad100b5b4f1d58b8
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87888931"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89035712"
 ---
 # <a name="ftp-send"></a>ftp send
 
@@ -31,7 +31,7 @@ send <localfile> [<remotefile>]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | `<localfile>` | Указывает локальный файл для копирования. |
 | `<remotefile>` | Указывает имя, используемое на удаленном компьютере. Если не указать *ремотефиле*, файл получит имя *локальный_файл* . |

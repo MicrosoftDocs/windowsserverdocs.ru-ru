@@ -1,18 +1,18 @@
 ---
 title: attributes volume
 description: Справочная статья по команде атрибуты тома, которая отображает, устанавливает или удаляет атрибуты тома.
-ms.topic: article
+ms.topic: reference
 ms.assetid: e40e8284-3d57-4de8-a46c-e4ade34a0d53
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: a4e0e7110bd23d1a8127e867dd991d1dc620c164
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 71f11eb692676cec4121e2ea24aed123f6a7d7d5
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87895489"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89029192"
 ---
 # <a name="attributes-volume"></a>attributes volume
 
