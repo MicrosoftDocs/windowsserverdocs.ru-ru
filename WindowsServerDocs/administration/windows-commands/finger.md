@@ -1,18 +1,18 @@
 ---
 title: finger
 description: Справочная статья по команде finger, которая отображает сведения о пользователях на указанном удаленном компьютере, на котором запущена служба или управляющая программа Finger.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 907ea637-5c6c-4752-84c2-46bbf2a68a33
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 503b431905d764d371bff0c69eef9032fb0c8644
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 55b9fe07b45b669f2d669d388883e5a363eda54f
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87890204"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89035092"
 ---
 # <a name="finger"></a>finger
 

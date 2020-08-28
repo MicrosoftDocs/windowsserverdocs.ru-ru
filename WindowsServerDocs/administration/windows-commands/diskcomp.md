@@ -1,18 +1,18 @@
 ---
 title: diskcomp
 description: Справочная статья по команде diskcomp, которая сравнивает содержимое двух гибких дисков.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 4f56f534-a356-4daa-8b4f-38e089341e42
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 71401942f25d3f503639b2931f2f0ee49229e15b
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 058092595e106fdc60663ec81e68523c609d34c7
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87890980"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89028322"
 ---
 # <a name="diskcomp"></a>diskcomp
 

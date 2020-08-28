@@ -1,18 +1,18 @@
 ---
 title: set_2
 description: Справочная статья по set_2, которая задает контекст, параметры, режим подробного протоколирования и файл метаданных для создания теневых копий.
-ms.topic: article
+ms.topic: reference
 ms.assetid: acf24663-1a50-4321-b48d-1717655e9476
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 9eb5b2032028dbe54680e1c197dc2f6fc09f3886
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 5b2751b7fd5d550f9499f12acde6f5f7e993d095
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87882551"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89023418"
 ---
 # <a name="set_2"></a>set_2
 

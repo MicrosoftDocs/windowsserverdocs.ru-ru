@@ -1,18 +1,18 @@
 ---
 title: Remove-Мултикасттрансмиссион
 description: Справочная статья по Remove-Мултикасттрансмиссион, которая отключает многоадресную передачу изображения.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 9a7f5c31-bfbf-425d-9129-a6f9173fe83d
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 8c3de852ab09b2cc17badf9b3aefcca9b7f4d069
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: cfb3a83c975aa14752e2a9538079f67a5dd94b8e
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87891918"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89023128"
 ---
 # <a name="using-the-remove-multicasttransmission-command"></a>Использование команды Remove-Мултикасттрансмиссион
 
@@ -21,7 +21,7 @@ ms.locfileid: "87891918"
 Отключает передачу многоадресной рассылки для образа. Если не указать **/Force**, существующие клиенты будут выполнять перенос образа, но новые клиенты не смогут присоединяться.
 
 ## <a name="syntax"></a>Синтаксис
-**Windows Server 2008**
+**Windows Server 2008**
 ```
 wdsutil /remove-MulticastTransmissiomedia:<Image name> [/Server:<Server name>mediatype:InstallmediaGroup:<Image Group>] [/Filename:<File name>] [/force]
 ```

@@ -1,18 +1,18 @@
 ---
 title: color
 description: Справочная статья по команде Color, которая изменяет цвет переднего плана и фона в окне командной строки для текущего сеанса.
-ms.topic: article
+ms.topic: reference
 ms.assetid: f5b67131-d196-45ec-a3f9-b5d9f091fd86
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 2534273eebe7f8596b0e8f2ab3c90cfdcf824d00
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 3ce7aa8e927e3796917d2720495f394636d9c240
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87892680"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89028462"
 ---
 # <a name="color"></a>color
 
@@ -26,7 +26,7 @@ color [[<b>]<f>]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | `<b>` | Определяет цвет фона. |
 | `<f>` | Задает цвет переднего плана. |
@@ -36,7 +36,7 @@ color [[<b>]<f>]
 
 В следующей таблице перечислены допустимые шестнадцатеричные цифры, которые можно использовать в качестве значений для параметров `<b>` и `<f>` .
 
-| Значение | Color |
+| Значение | Цвет |
 | ----- | ----- |
 | 0 | Черный |
 | 1 | Синий |
@@ -48,7 +48,7 @@ color [[<b>]<f>]
 | 7 | White |
 | 8 | Серый |
 | 9 | Светло-синий |
-| a | светло-зеленый |
+| а | светло-зеленый |
 | b | Светло-голубой |
 | с | Светло-красный |
 | d | Светло-фиолетовый |

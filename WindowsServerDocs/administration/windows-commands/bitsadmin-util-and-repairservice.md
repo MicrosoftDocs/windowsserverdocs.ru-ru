@@ -1,18 +1,18 @@
 ---
 title: bitsadmin util и repairservice
 description: Справочная статья по команде битсадмин util and репаирсервице, которая устраняет известные проблемы в различных версиях службы BITS.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 2ac7baeb-4340-4186-bfcb-66478195378d
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 4d90e6328376f52e60b598d8c2324b59877415db
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 1f0a33030e6036eacdf39c29f7cd2e5e88775905
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87880855"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89034702"
 ---
 # <a name="bitsadmin-util-and-repairservice"></a>bitsadmin util и repairservice
 

@@ -1,18 +1,18 @@
 ---
 title: dfsdiag testdfsintegrity
 description: Справочная статья по команде дфсдиаг тестдфсинтегрити, которая проверяет целостность пространства имен распределенная файловая система (DFS).
-ms.topic: article
+ms.topic: reference
 ms.assetid: 173ee832-26e1-4ec8-a23a-38a7d6229ac3
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: da30b85acfccee47f976a932c71c2a8906f45a4f
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 7bcfbe7f35965322a347651133a90e6806a5bb95
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87891148"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89028422"
 ---
 # <a name="dfsdiag-testdfsintegrity"></a>dfsdiag testdfsintegrity
 
@@ -36,7 +36,7 @@ dfsdiag /testdfsintegrity /DFSroot: <DFS root path> [/recurse] [/full]
 
 | Параметр | Описание |
 | --------- | ----------- |
-| /Дфсрут:`<DFS root path>` | Пространство имен DFS для диагностики. |
+| /Дфсрут: `<DFS root path>` | Пространство имен DFS для диагностики. |
 | /Recurse | Выполняет тестирование, включая взаимосвязи пространств имен. |
 | /Full | Проверяет согласованность общего ресурса и списков ACL NTFS вместе с конфигурацией на стороне клиента для всех целевых объектов папки. Он также проверяет, задано ли свойство Online. |
 

@@ -1,18 +1,18 @@
 ---
 title: Remove-Дриверграупфилтер
 description: Справочная статья по Remove-Дриверграупфилтер, которая удаляет правило фильтрации из группы драйверов на сервере.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 837bd5d4-c79d-4714-942d-9875bd8e61dc
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 902dd41e7efbb8d7821737d4555a3e5ef957a17a
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: f71c43af8fdf8b8e07e4d5b2422f9c06af33b43d
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87896368"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89023268"
 ---
 # <a name="remove-drivergroupfilter"></a>Remove-Дриверграупфилтер
 
@@ -32,7 +32,7 @@ WDSUTIL /Remove-DriverGroupFilter /DriverGroup:<Group Name> [/Server:<Server nam
 |---------|-----------|
 |/Дриверграуп:\<Group Name>|Указывает имя группы драйверов.|
 |[/Server: \<Server name> ]|Указывает имя сервера. Это может быть NetBIOS-имя или FQDN. Если имя сервера не указано, используется локальный сервер.|
-|[/Филтертипе: \<FilterType> ]|Указывает тип фильтра, удаляемого из группы. \<FilterType>может быть одним из следующих:</br>**биосвендор**</br>**биосверсион**</br>**ChassisType**</br>**Производителя**</br>**UUID**</br>**OsVersion**</br>**оседитион**</br>**ослангуаже**|
+|[/Филтертипе: \<FilterType> ]|Указывает тип фильтра, удаляемого из группы. \<FilterType> может быть одним из следующих:</br>**биосвендор**</br>**биосверсион**</br>**ChassisType**</br>**Изготовитель**</br>**UUID**</br>**OsVersion**</br>**оседитион**</br>**ослангуаже**|
 
 ## <a name="examples"></a>Примеры
 

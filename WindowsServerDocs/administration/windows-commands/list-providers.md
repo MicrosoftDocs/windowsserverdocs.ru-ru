@@ -1,18 +1,18 @@
 ---
 title: list providers
 description: Справочная статья по команде list providers, в которой перечислены поставщики теневого копирования, которые в настоящее время зарегистрированы в системе.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 844b4036-c0b9-449d-8347-7d58ef9bf16d
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 81ca0a90276eeab824846f441ea9aa2a7396a009
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: cab1277a79f71268b5e82702b39887b541918907
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87887620"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89028182"
 ---
 # <a name="list-providers"></a>list providers
 

@@ -1,18 +1,18 @@
 ---
 title: проверка
 description: Справочная статья для проверки, которая указывает **cmd** , следует ли проверять правильность записанных файлов на диск.
-ms.topic: article
+ms.topic: reference
 ms.assetid: dfe8bc91-d948-4e47-84ad-a79a60506ffa
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 7b190e1b872cf0bf1dead9884a88d246e63a9dd8
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: b6d20cd114f523919dc3fadaf223ce9d93d0fdbd
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87891843"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89023028"
 ---
 # <a name="verify"></a>проверка
 

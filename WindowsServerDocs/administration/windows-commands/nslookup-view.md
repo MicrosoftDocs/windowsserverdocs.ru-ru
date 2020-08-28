@@ -1,18 +1,18 @@
 ---
 title: nslookup view
 description: Справочная статья по команде nslookup View, которая сортирует и перечисляет выходные данные предыдущих команд **Ls** или подкоманд.
-ms.topic: article
+ms.topic: reference
 ms.assetid: c1d9fff7-b567-451c-af80-6be8f604e193
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 937e0bb02974abba061a4c5fb1df54e26cf87ee6
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: b2ee9fdb5f2c74ae33e1b40b45944e4cd59303d9
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87885411"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89035282"
 ---
 # <a name="nslookup-view"></a>nslookup view
 
@@ -28,7 +28,7 @@ view <filename>
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | `<filename>` | Указывает имя файла, содержащего выходные данные из предыдущих команд **Ls** или подкоманд. |
 | /? | Отображение справки в командной строке. |

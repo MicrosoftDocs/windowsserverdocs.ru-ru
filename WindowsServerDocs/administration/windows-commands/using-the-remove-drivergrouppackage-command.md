@@ -1,18 +1,18 @@
 ---
 title: Remove-Дриверграуппаккаже
 description: Справочная статья по Remove-Дриверграуппаккаже, которая удаляет пакет драйверов из группы драйверов на сервере.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 2e48616d-d6a4-45f0-a5c6-efe62bf6a0ed
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: a677204f593c5c9b791d0e68f726cc75c6f94764
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: e71482859adb9cb9a0f4f848a41c7f526f54fc91
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87892392"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89023238"
 ---
 # <a name="remove-drivergrouppackage"></a>Remove-Дриверграуппаккаже
 

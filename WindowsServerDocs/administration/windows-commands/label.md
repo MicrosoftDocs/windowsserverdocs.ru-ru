@@ -1,18 +1,18 @@
 ---
 title: метка
 description: Справочная статья по команде Label, которая создает, изменяет или удаляет метку тома (то есть имя) диска.
-ms.topic: article
+ms.topic: reference
 ms.assetid: bbae8bdd-97d4-4566-9118-7c95aa07645f
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: e7656078b87a74db789ed85c10be9f30cabfd971
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 486461059e90d0d1e1c6fa413e6db595f82924bb
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87887637"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89028202"
 ---
 # <a name="label"></a>метка
 

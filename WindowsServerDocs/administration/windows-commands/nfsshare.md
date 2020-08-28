@@ -1,18 +1,18 @@
 ---
 title: nfsshare
 description: Справочная статья по команде нфсшаре, которая управляет общими сетевыми ресурсами файловой системы (NFS).
-ms.topic: article
+ms.topic: reference
 ms.assetid: 437a2615-335a-442f-9713-d50d5f3983a3
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 492b405468987f91f72019c710b8ae4eae4ff6fa
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 7fb0531f571e204877f6f905a60a08ef35f6ea58
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87885982"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89023618"
 ---
 # <a name="nfsshare"></a>nfsshare
 

@@ -1,18 +1,18 @@
 ---
 title: bitsadmin wrap
 description: Справочная статья по команде битсадмин Wrap, которая заключает в оболочку любую строку выходного текста, выходящего за пределы крайнего правого края окна команд, на следующую строку.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 14e57522-539d-4621-ad15-09f7a44ccab7
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 5d17678ec735f9e7d6319368b0b35a67b47ea576
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 14ea78a09af0ba4dedce8438c5ec80cc39fcec9a
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87880759"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89034642"
 ---
 # <a name="bitsadmin-wrap"></a>bitsadmin wrap
 
@@ -30,7 +30,7 @@ bitsadmin /wrap <job>
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ---------- |
 | задание | Отображаемое имя задания или идентификатор GUID. |
 

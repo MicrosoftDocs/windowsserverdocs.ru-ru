@@ -1,18 +1,18 @@
 ---
 title: Dfsutil
 description: Справочная статья по команде Dfsutil, которая управляет пространствами имен, серверами и клиентами DFS.
-ms.topic: article
+ms.topic: reference
 ms.assetid: ef5093a4-0d24-4b21-9d04-59933ad98e2c
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: f31af9f557271182980a367ebf5e2233788fcc31
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: a622a9647b438ed2748ed42b28395bebe361f50b
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87891025"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89028372"
 ---
 # <a name="dfsutil"></a>Dfsutil
 
@@ -24,7 +24,7 @@ ms.locfileid: "87891025"
 
 Модуль PowerShell [дфсн](/powershell/module/dfsn/?view=win10-ps) предоставляет эквивалентные функции для следующих параметров Dfsutil.
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | root | Отображает, создает, удаляет, импортирует и экспортирует корни пространства имен. |
 | link | Отображает, создает, удаляет или перемещает папки (ссылки). |
@@ -37,7 +37,7 @@ ms.locfileid: "87891025"
 
 Следующие функциональные возможности доступны только в качестве параметров Dfsutil:
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | клиент | Отображает или изменяет сведения о клиенте или разделы реестра. |
 | диагностик | Выполните диагностику или просмотрите дфсдирс/дфспас. |

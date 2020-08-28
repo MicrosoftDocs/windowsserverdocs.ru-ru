@@ -1,18 +1,18 @@
 ---
 title: nslookup Finger
 description: Справочная статья по команде nslookup Finger, которая подключается к серверу finger на текущем устройстве.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 11ea2bde-8ccb-4b87-bbad-231dd9e5e858
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: cd055ba9ad9049a5076020d5ec49a55b9dc12d15
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 26b544c44d0ca0238236c5354d1e1bfc4c4dc6c7
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87885882"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89023558"
 ---
 # <a name="nslookup-finger"></a>nslookup/финжер
 

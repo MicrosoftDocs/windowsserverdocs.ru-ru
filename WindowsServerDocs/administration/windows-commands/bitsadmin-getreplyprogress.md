@@ -1,18 +1,18 @@
 ---
 title: bitsadmin getreplyprogress
 description: Справочная статья по команде битсадмин жетреплипрогресс, которая получает размер и ход выполнения отправки и ответа сервера.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 7f7cb0b4-ad95-44fd-a35d-0ddf5fc0b0d0
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 29a5f5f0023f6241ee70271de865ed14e379aa4c
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 80c227d8de0148236a975a3d11162c0c152e5f7a
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87893880"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89034872"
 ---
 # <a name="bitsadmin-getreplyprogress"></a>bitsadmin getreplyprogress
 
@@ -29,7 +29,7 @@ bitsadmin /getreplyprogress <job>
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | -------------- | -------------- |
 | задание | Отображаемое имя задания или идентификатор GUID. |
 

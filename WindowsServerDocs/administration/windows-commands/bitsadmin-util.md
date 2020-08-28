@@ -1,18 +1,18 @@
 ---
 title: bitsadmin util
 description: Справочная статья по команде битсадмин util, в которой перечислены переключатели util.
-ms.topic: article
+ms.topic: reference
 ms.assetid: e8278a28-1ecc-42be-92e2-c93dee59751d
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 9ef79ffc523e34f1e09c083aac4e10b8e03e9773
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 4e48b5919bb51da14e17e692603dbe28faa69aa9
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87880781"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89034652"
 ---
 # <a name="bitsadmin-util"></a>bitsadmin util
 
@@ -34,7 +34,7 @@ bitsadmin /util /version
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | [bitsadmin util и help](bitsadmin-util-and-help.md) | Отображает сведения об использовании командной строки для параметров/утил. Можно также указать/?. |
 | [bitsadmin util и getieproxy](bitsadmin-util-and-getieproxy.md) | Возвращает сведения об использовании прокси-сервера для данной учетной записи службы. |

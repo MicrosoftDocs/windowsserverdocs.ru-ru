@@ -1,18 +1,18 @@
 ---
 title: diantz
 description: Справочная статья по команде диантз, которая упаковывает существующие файлы в CAB-файл.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 218ed5d7-1203-4d68-ad9b-65cdd022d54f
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 108ab8df27faf6794e5ba77b725daf2944ecc240
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: e4fbff07a808c9f7ebf96920f52b7f65611f270c
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87891012"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89028362"
 ---
 # <a name="diantz"></a>diantz
 
@@ -29,13 +29,13 @@ diantz [/v[<n>]] [/d var=<value> ...] /f <directives_file> [...]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | `<source>` | Файл для сжатия. |
 | `<destination>` | Имя файла для предоставления сжатого файла. Если этот параметр опущен, последний символ имени исходного файла заменяется символом подчеркивания (_) и используется в качестве назначения. |
 | /f `<directives_file>` | Файл с директивами **диантз** (может повторяться). |
 | /d var =`<value>` | Определяет переменную с указанным значением. |
-| /l`<dir>` | Расположение для размещения назначения (по умолчанию текущий каталог). |
+| /l `<dir>` | Расположение для размещения назначения (по умолчанию текущий каталог). |
 | /v [ `<n>` ] | Задать уровень детализации отладки (0 = нет,..., 3 = полный). |
 | /? | Отображение справки в командной строке. |
 

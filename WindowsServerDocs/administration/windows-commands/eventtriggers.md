@@ -1,18 +1,18 @@
 ---
 title: eventtriggers
 description: Справочная статья по команде EventTrigger. Эта команда устарела и не гарантируется, что она будет поддерживаться в будущих выпусках Windows.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 8f78050b-24b2-4f67-a58a-77eeb66f7755
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: c1a44d7e2539ba7b3aebb9e63a887989c40f1330
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: bf70f7c75beff3990912778da4da6965502a2d58
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87890562"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89035142"
 ---
 # <a name="eventtriggers"></a>eventtriggers
 

@@ -1,18 +1,18 @@
 ---
 title: makecab
 description: Справочная статья по команде makecab, которая упаковывает существующие файлы в CAB-файл.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 4da95297-c593-427b-9f76-2f389c46cbf4
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 2a1052541b8455b082b001901e8374b4d7f5acaf
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 560a2a75c756fb90b87da9f63a86a6dc887f836b
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87887020"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89023688"
 ---
 # <a name="makecab"></a>makecab
 
@@ -39,7 +39,7 @@ makecab [/v[<n>]] [/d var=<value> ...] /f <directives_file> [...]
 | `<destination>` | Имя файла для предоставления сжатого файла. Если этот параметр опущен, последний символ имени исходного файла заменяется символом подчеркивания (_) и используется в качестве назначения. |
 | /f `<directives_file>` | Файл с директивами **makecab** (может повторяться). |
 | /d var =`<value>` | Определяет переменную с указанным значением. |
-| /l`<dir>` | Расположение для размещения назначения (по умолчанию текущий каталог). |
+| /l `<dir>` | Расположение для размещения назначения (по умолчанию текущий каталог). |
 | /v [ `<n>` ] | Задать уровень детализации отладки (0 = нет,..., 3 = полный). |
 | /? | Отображение справки в командной строке. |
 

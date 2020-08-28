@@ -1,18 +1,18 @@
 ---
 title: verifier
 description: Справочная статья по средству проверки, которое запускает диспетчер проверки драйверов.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 782173d6-f196-4bc4-a547-76109829453c
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 1f19840d6a9dffe32a1febb8a313500b49f625e8
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 5374fb5e9c56cc288496ff7077587b1576399d0e
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87891865"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89023038"
 ---
 # <a name="verifier"></a>verifier
 
@@ -36,7 +36,7 @@ verifier /query
 verifier /log <LogFileName> [/interval <seconds>]
 ```
 #### <a name="parameters"></a>Параметры
-|Параметр|Описание:|
+|Параметр|Описание|
 |-------|--------|
 |\<flags>|Должно быть числом в десятичном или шестнадцатеричном формате, сочетанием битов:<p>-   **Значение: описание**<br />-   **бит 0:** проверка особого пула<br />-   **бит 1.** принудительная проверка IRQL<br />-   **бит 2.** имитация нехватки ресурсов<br />-   **бит 3.** отслеживание пула<br />-   **бит 4:** Проверка ввода-вывода<br />-   **бит 5.** обнаружение взаимоблокировок<br />-   **бит 6:** не используется<br />-   **бит 7:** Проверка DMA<br />-   **бит 8.** проверки безопасности<br />-   **бит 9.** принудительное выполнение ожидающих запросов ввода-вывода<br />-   **бит 10:** Ведение журнала IRP<br />-   **бит 11.** прочие проверки<p>Например, **/flags 27** эквивалентно **/flags 0x1B**|
 |/volatile|Используется для динамического изменения параметров средства проверки без перезагрузки системы. При перезапуске системы все новые параметры будут потеряны.|

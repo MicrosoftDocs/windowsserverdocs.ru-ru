@@ -1,18 +1,18 @@
 ---
 title: ftp dir
 description: Справочная статья по команде FTP dir, которая отображает список файлов каталога и подкаталогов на удаленном компьютере.
-ms.topic: article
+ms.topic: reference
 ms.assetid: a29a92a5-7b79-4e6e-95cf-2ccb38bb6fb2
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 0a4f65cee67ec91b6871649fece4f580684c2e3f
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 7954e389772195d153e5a21fda96da883300b972
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87889474"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89035062"
 ---
 # <a name="ftp-dir"></a>ftp dir
 

@@ -1,18 +1,18 @@
 ---
 title: ver
 description: Справочная статья по версии ver, в которой отображается номер операционной системы.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 5a9c6cd4-b67d-4b30-8c56-5f9798eafd2a
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: de080395c2e26f03371e0b27609238b66d7317f5
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 543aceee52be60b6dc90509c326ba1172b2d1ca6
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87891885"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89023048"
 ---
 # <a name="ver"></a>ver
 

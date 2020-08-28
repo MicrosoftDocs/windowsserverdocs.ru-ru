@@ -1,18 +1,18 @@
 ---
 title: сценарии и примеры для DiskPart
 description: Справочная статья по сценариям DiskPart и примеры автоматизации задач, связанных с диском, таких как создание томов или преобразование дисков в динамические диски.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 319c0795-11df-47c8-b203-eadb0577ee0d
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 1ff62c18c567af3ab064683663f5112090250307
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 94dbcba1ff88cc265e8006511bb3831ac7d12831
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87890939"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89028282"
 ---
 # <a name="diskpart-scripts-and-examples"></a>сценарии и примеры для DiskPart
 

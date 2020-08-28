@@ -1,18 +1,18 @@
 ---
 title: bitsadmin setclientcertificatebyid
 description: Справочная статья по команде битсадмин сетклиентцертификатебид, которая указывает идентификатор сертификата клиента, используемого для проверки подлинности клиента в запросе HTTPS (SSL).
-ms.topic: article
+ms.topic: reference
 ms.assetid: 8585a7a1-7472-437b-b04a-a11925782a3a
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: e46219a52eda48ddb3e203730e6275fb5e534020
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: c23868f24fca7e4792f26debe4921e6e9cc22750
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87893264"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89028562"
 ---
 # <a name="bitsadmin-setclientcertificatebyid"></a>bitsadmin setclientcertificatebyid
 

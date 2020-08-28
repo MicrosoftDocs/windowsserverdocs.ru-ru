@@ -1,18 +1,18 @@
 ---
 title: Remove-Namespace
 description: Справочная статья по Remove-Namespace, которая удаляет пользовательское пространство имен.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 4eb758b6-8519-4e26-9fe0-2e19bb0e8702
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: a85552109f85e0c4de5f3d09c9c0335dccc5af1f
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 3bef563a91ed4eb445cdf3c555025873078d2716
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87891906"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89023088"
 ---
 # <a name="using-the-remove-namespace-command"></a>Использование команды Remove-Namespace
 

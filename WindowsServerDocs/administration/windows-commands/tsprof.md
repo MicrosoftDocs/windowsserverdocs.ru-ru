@@ -1,18 +1,18 @@
 ---
 title: tsprof
 description: Справочная статья по тспроф, которая копирует данные пользовательской конфигурации службы удаленных рабочих столов от одного пользователя к другому.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 27047868-b706-4208-b7e0-1437a2325dd3
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 43a9c986a58a28b8de8110789be99f157be9fb66
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: f676b1d11586d413e544d451043da242861083e1
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87896662"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89023398"
 ---
 # <a name="tsprof"></a>tsprof
 
@@ -23,10 +23,8 @@ ms.locfileid: "87896662"
 
 **тспроф** также может задать путь к профилю для пользователя.
 
-
-
 > [!NOTE]
-> В Windows Server 2008 R2 службы терминалов были переименованы на службы удаленных рабочих столов. Чтобы узнать о новых возможностях последней версии, см. статью [новые возможности службы удаленных рабочих столов в Windows server 2012](/previous-versions/orphan-topics/ws.11/hh831527(v=ws.11)) в библиотеке TechNet по Windows Server.
+> Чтобы узнать о новых возможностях последней версии, см. статью [новые возможности службы удаленных рабочих столов в Windows server 2012](/previous-versions/orphan-topics/ws.11/hh831527(v=ws.11)) в библиотеке TechNet по Windows Server.
 
 ## <a name="syntax"></a>Синтаксис
 ```
@@ -36,7 +34,7 @@ tsprof /q {/domain:<DomainName> | /local} <UserName>
 ```
 
 ### <a name="parameters"></a>Параметры
-|Параметр|Описание:|
+|Параметр|Описание|
 |-------|--------|
 |/update|Обновляет сведения о пути к профилю для <*имени пользователя*> в домене <*имя_домена*> *в <.*|
 |/Domain\<DomainName>|Указывает имя домена, в котором применяется операция.|

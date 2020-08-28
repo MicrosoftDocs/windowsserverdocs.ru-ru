@@ -1,18 +1,18 @@
 ---
 title: Remove-Дриверпаккаже
 description: Справочная статья по Remove-Дриверпаккаже, которая удаляет пакет драйверов с сервера.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 6b201e91-0d44-4e4a-8252-8b0235df1002
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: d6f391ed7a5e2a991c0d38e35ac3d08565b32765
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 5745b83fdb817f90a835fe2243aff21f9892be47
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87881228"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89023208"
 ---
 # <a name="remove-driverpackage"></a>Remove-Дриверпаккаже
 
@@ -26,7 +26,7 @@ wdsutil /remove-DriverPackage [/Server:<Server name>] {/DriverPackage:<Package N
 ```
 ### <a name="parameters"></a>Параметры
 
-|        Параметр        |                                                                            Описание:                                                                             |
+|        Параметр        |                                                                            Описание                                                                             |
 |-------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [/Server: <Server name> ] |              Указывает имя сервера. Это может быть NetBIOS-имя или FQDN. Если имя сервера не указано, используется локальный сервер.              |
 | [/Дриверпаккаже: <Name> ] |                                                        Указывает имя удаляемого пакета драйверов.                                                         |
