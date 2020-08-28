@@ -1,18 +1,18 @@
 ---
 title: showmount
 description: Справочная статья по шовмаунт, в которой отображаются подключенные каталоги.
-ms.topic: article
+ms.topic: reference
 ms.assetid: a6dd562e-e3bd-4ee6-be3b-6d29e29fd20e
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 0be623eadd56a55a87f2df57fec9b4c6558770c9
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: ba118e711af040bba7dd6c1e63a14405b3116743
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87882400"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89024798"
 ---
 # <a name="showmount"></a>showmount
 
@@ -34,5 +34,5 @@ showmount {-e|-a|-d} <Server>
 - ** \- a** — отображает все NFS-клиенты сетевой файловой системы \( \) и каталоги на сервере, которые подключены.
 - ** \- d** — отображает все каталоги на сервере, которые в настоящее время подключены клиентами NFS.
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 [Справочник по командам служб для NFS](services-for-network-file-system-command-reference.md)

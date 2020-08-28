@@ -1,18 +1,18 @@
 ---
 title: unexpose
 description: Справочная статья по Unexpose, унекспосес теневую копию, которая была предоставлена с помощью команды предоставления.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 58dc7d0f-52e9-4587-9487-d3b4c3e52640
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 1c315639746db84d49afd72fc2be89e757c8fb95
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 13e14941e2c67aa0361dcc0af2cdb1a36bf7e651
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87897064"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89036412"
 ---
 # <a name="unexpose"></a>unexpose
 

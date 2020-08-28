@@ -1,18 +1,18 @@
 ---
 title: serverceipoptin
 description: Справочная статья для * * * *-
-ms.topic: article
+ms.topic: reference
 ms.assetid: 3d7d7fa7-0689-4797-b802-36fe260d21a0
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 47928232de399baf1f8351f865fbff18f1126340
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 25a7b116387af973a8c7894edbd0daed0dc59f9a
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87882753"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89024968"
 ---
 # <a name="serverceipoptin"></a>serverceipoptin
 
@@ -24,7 +24,7 @@ ms.locfileid: "87882753"
 serverceipoptin [/query] [/enable] [/disable]
 ```
 #### <a name="parameters"></a>Параметры
-|Параметр|Описание:|
+|Параметр|Описание|
 |-------|--------|
 |/Query|проверяет текущее значение параметра.|
 |разрешение|Включает участие.|

@@ -1,18 +1,18 @@
 ---
 title: Идентификатор набора
 description: Справочная статья по ИДЕНТИФИКАТОРу набора DiskPart, который изменяет поле типа раздела для секции, имеющей фокус.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 5793d7ad-827e-4285-b2c6-ae60eeb0e886
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: afcaa134cd9af11d37130e17012a7cf8a147afd4
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: e3b9ce5b885ca9c8277842b16c816274fff0ead8
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87882628"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89024958"
 ---
 # <a name="set-id"></a>Идентификатор набора
 

@@ -1,18 +1,18 @@
 ---
 title: Набор подкоманд-Транспортсервер
 description: Справочная статья по подкоманде Set-Транспортсервер, которая задает параметры конфигурации для транспортного сервера.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 7863225c-f4b2-4cd0-b929-78a454bef249
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 9b7725101bcc2230a07c8082f9a57b85d411e80d
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 59833701a88af6280d7f033a8430d2fec882decd
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87882121"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89024778"
 ---
 # <a name="subcommand-set-transportserver"></a>Подкоманда: Set-Транспортсервер
 

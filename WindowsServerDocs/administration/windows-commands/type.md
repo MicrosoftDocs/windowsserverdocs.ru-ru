@@ -1,17 +1,17 @@
 ---
 title: type
 description: Справочная статья для типа, которая отображает содержимое текстового файла.
-ms.topic: article
+ms.topic: reference
 ms.assetid: c44fe905-a865-4c97-8cc5-fb95fec7d4d5
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dansimp
-ms.openlocfilehash: 1cb4e28a079c39aaadd85267c004781cc9c84f3c
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: a7e188ec816b4ad16d86018bf7fe92954e778cbf
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87896654"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89036082"
 ---
 # <a name="type"></a>type
 
@@ -27,7 +27,7 @@ type [<Drive>:][<Path>]<FileName>
 
 ### <a name="parameters"></a>Параметры
 
-|Параметр|Описание:|
+|Параметр|Описание|
 |---------|-----------|
 |[\<Drive>:][\<Path>]\<FileName>|Указывает расположение и имя файла или файлов, которые требуется просмотреть. Несколько имен файлов следует разделять пробелами.|
 |/?|Отображение справки в командной строке.|

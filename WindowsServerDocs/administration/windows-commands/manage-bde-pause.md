@@ -1,18 +1,18 @@
 ---
 title: Управление — приостановка BDE
 description: Справочная статья по команде Manage-bde Pause, которая приостанавливает шифрование или расшифровку BitLocker.
-ms.topic: article
+ms.topic: reference
 ms.assetid: efda0e08-b9ff-4e71-83d8-bb666b3032bd
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 24b9a4db5bb0c00e8efcd831dc72abb8f583e94f
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 7260728851b40db1c547176185653b9537beea41
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87886785"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89036332"
 ---
 # <a name="manage-bde-pause"></a>Управление — приостановка BDE
 
@@ -26,7 +26,7 @@ manage-bde -pause [<volume>] [-computername <name>] [{-?|/?}] [{-help|-h}]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | `<volume>` | Указывает букву диска, за которой следует двоеточие, путь GUID тома или подключенный том. |
 | -ComputerName | Указывает, что manage-bde.exe будет использоваться для изменения защиты BitLocker на другом компьютере. Можно также использовать параметр **-CN** в качестве сокращенной версии этой команды. |

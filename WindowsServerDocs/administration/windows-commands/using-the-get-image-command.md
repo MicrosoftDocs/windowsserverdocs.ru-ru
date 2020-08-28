@@ -1,18 +1,18 @@
 ---
 title: Get-Image
 description: Справочная статья по Get-Image, которая получает сведения о изображении.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 0ecaa999-72ad-4191-adb5-a418de42a001
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 5b97e13441d883a683515222774194c1fb75ecbc
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 9c3e8a25725f939c6a7a7692d192b63bac9ffd41
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87879366"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89029622"
 ---
 # <a name="get-image"></a>Get-Image
 
@@ -30,7 +30,7 @@ wdsutil [Options] /Get-Imagmedia:<Image name> [/Server:<Server name>mediatype:Bo
 wdsutil [Options] /Get-Imagmedia:<Image name> [/Server:<Server name>mediatype:InstallmediaGroup:<Image group name>] [/Filename:<File name>]
 ```
 ### <a name="parameters"></a>Параметры
-|Параметр|Описание:|
+|Параметр|Описание|
 |-------|--------|
 носител<Image name>|Указывает имя образа.|
 |[/Server: <Server name> ]|Указывает имя сервера. Это может быть либо NetBIOS-имя, либо полное доменное имя (FQDN). Если имя сервера не указано, будет использоваться локальный сервер.|

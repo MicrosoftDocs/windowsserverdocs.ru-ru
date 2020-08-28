@@ -1,18 +1,18 @@
 ---
 title: Подкоманда Start-Мултикасттрансмиссион
 description: Справочная статья по подкоманде Start-Мултикасттрансмиссион, которая запускает пересылку образа по расписанию.
-ms.topic: article
+ms.topic: reference
 ms.assetid: a1b2d459-1ece-49d4-997c-9d206c463b61
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 34d55e233926a3e5c8a07a6a31d985f1955f814e
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 91637f402fda0784672583a500f283bdde45e075
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87882090"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89024768"
 ---
 # <a name="subcommand-start-multicasttransmission"></a>Подкоманда: Start-Мултикасттрансмиссион
 
@@ -21,7 +21,7 @@ ms.locfileid: "87882090"
 Запускает пересылку образа по расписанию.
 
 ## <a name="syntax"></a>Синтаксис
-**Windows Server 2008**
+**Windows Server 2008**
 ```
 wdsutil /start-MulticastTransmissiomedia:<Image name> [/Server:<Server namemediatype:InstallmediaGroup:<Image group name>] [/Filename:<File name>]
 ```

@@ -1,18 +1,18 @@
 ---
 title: Start-Server
 description: Справочная статья для Start-Server, которая запускает многоадресную передачу, пространство имен, транспортный сервер или все службы на сервере служб развертывания Windows.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 7bbb68e0-1275-4c5f-b276-383a5be4534b
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: d2338472cfc0381ef70b4a055fee8802ba0b7cdc
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: afbd60679081ffc460b492bd4e5bb548636a5792
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87881495"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89036152"
 ---
 # <a name="start-server"></a>Start-Server
 

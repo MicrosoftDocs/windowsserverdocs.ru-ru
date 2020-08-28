@@ -1,18 +1,18 @@
 ---
 title: attrib
 description: Справочная статья по команде attrib, которая отображает, устанавливает или удаляет атрибуты, назначенные файлам или каталогам.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 5e763ca5-21a2-45d2-b26d-a9c44c99091a
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 73651c85ac1cc35c54845ffe207cea3f0887cd8f
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: de5d045421bb71feff70ec608f6b438fbf73942b
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87895508"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89029232"
 ---
 # <a name="attrib"></a>attrib
 

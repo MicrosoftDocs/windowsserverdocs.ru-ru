@@ -1,18 +1,18 @@
 ---
 title: reg restore
 description: Справочная статья по команде reg restore, которая записывает сохраненные разделы и записи обратно в реестр.
-ms.topic: article
+ms.topic: reference
 ms.assetid: a51f1c0c-969b-4b76-930a-c8bb14dea26e
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 9642c0973968b3092f6f988017e8c4ad1ef16b09
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: c3f1d864ce0a9d4fc6f244b3affe4b762f95d145
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87884026"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89025078"
 ---
 # <a name="reg-restore"></a>reg restore
 
@@ -26,7 +26,7 @@ reg restore <keyname> <filename>
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 |--|--|
 | `<keyname>` | Указывает полный путь к восстанавливаемому подразделу. Операция восстановления работает только с локальным компьютером. *KeyName* должен содержать допустимый корневой ключ. Допустимые корневые ключи для локального компьютера: **HKLM**, **HKCU**, **HKCR**, **HKU**и **хккк**. Если имя раздела реестра содержит пробел, заключите имя ключа в кавычки. |
 | `<filename>` | Указывает имя и путь к файлу, содержимое которого записывается в реестр. Этот файл должен быть создан заранее с помощью команды **reg save** и должен иметь расширение ВИЧ. |
@@ -38,7 +38,7 @@ reg restore <keyname> <filename>
 
 - Возвращаемые значения для операции **reg restore** :
 
-    | Значение | Описание: |
+    | Значение | Описание |
     |--|--|
     | 0 | Успех |
     | 1 | Сбой |

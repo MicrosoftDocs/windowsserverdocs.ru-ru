@@ -1,18 +1,18 @@
 ---
 title: Initialize-Server
 description: Справочная статья по Initialize-Server, которая настраивает сервер служб развертывания Windows для первоначального использования после установки роли сервера.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 68a26ad9-5eb2-4490-b782-b7cd46b8000d
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: ac0cf322818f433df4f5f0751656d9eb66bf2fd4
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: e751ad7b035c82481eed29dcad36b33a64895d57
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87896916"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89036422"
 ---
 # <a name="initialize-server"></a>Initialize-Server
 

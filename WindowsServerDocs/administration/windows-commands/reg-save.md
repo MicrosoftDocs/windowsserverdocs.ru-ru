@@ -1,18 +1,18 @@
 ---
 title: reg save
 description: Справочная статья по команде reg save, которая сохраняет копию указанных подразделов, записей и значений реестра в указанном файле.
-ms.topic: article
+ms.topic: reference
 ms.assetid: b326482b-c8af-467d-a20c-0481eeda3d5c
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 187811b277ca109ac3f3e1517aeb169bd8baca15
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 17c1bd3439d98ee2e0aa64cb3000f94dfbab41f4
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87884011"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89025008"
 ---
 # <a name="reg-save"></a>reg save
 

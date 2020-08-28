@@ -1,18 +1,18 @@
 ---
 title: ksetup mapuser
 description: Справочная статья по команде ksetup мапусер, которая сопоставляет имя участника Kerberos с учетной записью.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 84113e6e-89ff-488a-9cd0-f14bbf23b543
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: c234dc857241a70f479934fda15dcfab0b4e9de7
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: de3eeafdcd1ef94bf1e6c50009742b2981d0d7dc
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87887830"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89025468"
 ---
 # <a name="ksetup-mapuser"></a>ksetup mapuser
 
@@ -26,7 +26,7 @@ ksetup /mapuser <principal> <account>
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | `<principal>` | Указывает полное доменное имя любого основного пользователя. Например, mike@corp.CONTOSO.COM. Если параметр учетной записи не указан, сопоставление удаляется для указанного участника. |
 | `<account>` | Указывает любую учетную запись или имя группы безопасности, которая существует на этом компьютере, например **гость**, **Пользователи домена**или **Администратор**. Если этот параметр пропущен, сопоставление удаляется для указанного участника. |

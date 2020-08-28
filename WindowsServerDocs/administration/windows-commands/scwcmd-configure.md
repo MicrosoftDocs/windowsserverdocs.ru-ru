@@ -1,18 +1,18 @@
 ---
 title: Настройка команду scwcmd
 description: Справочная статья для * * * *-
-ms.topic: article
+ms.topic: reference
 ms.assetid: 6528b9dc-3d82-4228-b734-ed717458d74c
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 7556d28826b422b7693ba0770f1e4fa2e4a3a76d
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 54faae6fd24aac91a94ec9ab1f373737569dda78
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87883216"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89036192"
 ---
 # <a name="scwcmd-configure"></a>Scwcmd: configure
 

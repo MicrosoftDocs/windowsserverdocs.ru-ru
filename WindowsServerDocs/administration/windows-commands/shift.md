@@ -1,18 +1,18 @@
 ---
 title: shift
 description: Справочная статья для смены, которая изменяет расположение пакетных параметров в пакетном файле.
-ms.topic: article
+ms.topic: reference
 ms.assetid: b56574e8-570a-4cc9-bbac-1b94fbf6a47a
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 985c1271a1da8f486e2313ba9aeb266803664b93
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 21e27db00b76945fa24b4e46e4f08c74d090d49f
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87882391"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89024808"
 ---
 # <a name="shift"></a>shift
 
@@ -30,7 +30,7 @@ shift [/n <N>]
 
 |Параметр|Описание|
 |---------|-----------|
-|параметра\<N>|Задает начало сдвига с помощью *n*-го аргумента, где *n* — любое значение от 0 до 8. Требуются расширения команд, которые включены по умолчанию.|
+|параметра \<N>|Задает начало сдвига с помощью *n*-го аргумента, где *n* — любое значение от 0 до 8. Требуются расширения команд, которые включены по умолчанию.|
 |/?|Отображение справки в командной строке.|
 
 ## <a name="remarks"></a>Remarks

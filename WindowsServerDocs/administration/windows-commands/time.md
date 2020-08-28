@@ -1,18 +1,18 @@
 ---
 title: time
 description: Узнайте, как устанавливать и отображать системное время.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 1276a257-7283-41da-ae80-fb4cfb311f9d
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 1548952c7fcd6d3edcc2dcc0fb3459e27cd0efbb
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: ca279bfacbc3fab3c1a4b56f33f5000fcab9d589
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87881422"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89024538"
 ---
 # <a name="time"></a>time
 
@@ -30,7 +30,7 @@ time [/t | [<HH>[:<MM>[:<SS>]] [am|pm]]]
 
 ### <a name="parameters"></a>Параметры
 
-|Параметр|Описание:|
+|Параметр|Описание|
 |---------|-----------|
 |\<HH>[:\<MM> [:\<SS> [.\<NN>]]] [AM \| ]|Устанавливает системное время на новое указанное время, где *чч* — в часах (обязательно), *mm* — в минутах, а *SS* — в секундах. *Nn* может использоваться для указания сотых долей секунды. Если параметр **AM** или **PM** не указан, по умолчанию используется 24 **-часовой формат** .|
 |/t|Отображает текущее время без запроса на новое время.|

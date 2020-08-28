@@ -1,18 +1,18 @@
 ---
 title: Disconnect — клиент
 description: Справочная статья по Disconnect-Client, которая отключает клиент от многоадресной передачи или пространства имен.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 876bbe6c-76ab-4de5-879b-d2066e700326
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 612cc83477e77de575e8a567c07aef18ea7fddad
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 9ba2db5d5c768459a5e99259e450dedce3c9ecf4
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87892072"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89036092"
 ---
 # <a name="disconnect-client"></a>Disconnect — клиент
 

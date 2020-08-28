@@ -1,18 +1,18 @@
 ---
 title: arp
 description: Справочная статья по команде ARP, которая отображает и изменяет записи в кэше протокола ARP, который используется для хранения IP-адресов и их разрешенных физических адресов.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 827e96eb-1945-483f-980f-714703456f7c
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: c3e44d471fc31b14bf37b1c4911c0f465e31b3ac
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: b97c285f36bac3fd8587abddaf0a70423eb26155
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87895570"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89029392"
 ---
 # <a name="arp"></a>arp
 

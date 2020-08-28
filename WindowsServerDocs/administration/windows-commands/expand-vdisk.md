@@ -1,18 +1,18 @@
 ---
 title: expand vdisk
 description: Справочная статья по команде Expand vdisk, которая расширяет виртуальный жесткий диск (VHD) до указанного размера.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 3ae547b4-3813-4b86-bacd-bc273c028a2a
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 5d9c5c859dfa506d9f8afd07a0e78bdef210f60a
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: d88570c3d8f68374f90d14a6be082f9e40bb4f6b
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87890441"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89036402"
 ---
 # <a name="expand-vdisk"></a>expand vdisk
 

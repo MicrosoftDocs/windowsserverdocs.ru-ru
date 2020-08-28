@@ -1,18 +1,18 @@
 ---
 title: Get-Имажеграуп
 description: Справочная статья по Get-Имажеграуп, которая извлекает сведения о группе образов и изображениях в ней.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 0fc25aca-a529-44ee-bc8e-96bc8affb458
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: bfe2c804d24914b500703476d28e5281fdaef8c0
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 4ebf7ba1e207fddcef61952158d770fcfbd6df66
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87879308"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89029602"
 ---
 # <a name="get-imagegroup"></a>Get-Имажеграуп
 
@@ -25,7 +25,7 @@ ms.locfileid: "87879308"
 wdsutil [Options] /Get-ImageGroumediaGroup:<Image group name> [/Server:<Server name>] [/detailed]
 ```
 ### <a name="parameters"></a>Параметры
-|Параметр|Описание:|
+|Параметр|Описание|
 |-------|--------|
 Медиаграуп:<Image group name>|Указывает имя группы образов.|
 |[/Server: <Server name> ]|Указывает имя сервера. Это может быть либо NetBIOS-имя, либо полное доменное имя (FQDN). Если имя сервера не указано, будет использоваться локальный сервер.|

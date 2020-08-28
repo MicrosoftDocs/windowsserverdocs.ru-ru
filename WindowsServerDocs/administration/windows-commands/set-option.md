@@ -1,18 +1,18 @@
 ---
 title: Параметр SET
 description: Справочная статья по параметру SET, который задает параметры создания теневых копий.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 4d8d4921-9fdd-4a3c-bb0f-9df5458c4b84
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 148efa02509678de65af7b2555094fbcb2a3fb55
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 0569e93ee5c732369b9bc07e4452d27558412b81
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87882601"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89036512"
 ---
 # <a name="set-option"></a>Параметр SET
 

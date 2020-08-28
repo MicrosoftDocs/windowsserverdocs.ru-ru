@@ -1,18 +1,18 @@
 ---
 title: msinfo32
 description: Справочная статья по команде msinfo32, которая открывает средство «сведения о системе» для отображения полного представления об оборудовании, компонентах системы и программной среде на локальном компьютере.
-ms.topic: article
+ms.topic: reference
 ms.assetid: a38f31d7-1766-4103-becc-9d0b87c2826d
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 29ad95b9772e7fbb738fb6d1f1eb3ff11de3b0c8
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 30a1cdc45ff9c6efad94f620148ffdf1bf00492d
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87886166"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89025248"
 ---
 # <a name="msinfo32"></a>msinfo32
 
@@ -30,7 +30,7 @@ msinfo32 [/pch] [/nfo <path>] [/report <path>] [/computer <computername>] [/show
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | `<path>` | Указывает файл, который должен быть открыт в формате *C:\Folder1\File1.XXX*, где *C* — буква диска, *папка1* — папка, *file1* — имя файла, а *xxx* — это расширение имени файла.<p>Этот файл может иметь формат **NFO**, **XML**, **txt**или **CAB** . |
 | `<computername>` | Указывает имя целевого или локального компьютера. Это может быть имя UNC, IP-адрес или полное имя компьютера. |

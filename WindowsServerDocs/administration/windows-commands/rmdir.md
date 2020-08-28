@@ -1,18 +1,18 @@
 ---
 title: rmdir
 description: Справочная статья по команде rmdir, которая удаляет каталог.
-ms.topic: article
+ms.topic: reference
 ms.assetid: e4d7162b-7132-413c-a416-6eb3dc032a26
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 2351014e07d79baa0e8e5ec07b31f04c9226613e
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: d67c0bb16ad47457cfb6eb927ba9dc5cf167b20c
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87883500"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89036242"
 ---
 # <a name="rmdir"></a>rmdir
 
@@ -31,7 +31,7 @@ rmdir [<drive>:]<path> [/s [/q]]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 |--|--|
 | `[<drive>:]<path>` | Указывает расположение и имя каталога, который требуется удалить. Требуется *путь* . Если включить обратную косую черту ( \) в начале указанного *пути*, *путь* начинается с корневого каталога (независимо от текущего каталога). |
 | /s | Удаляет дерево каталогов (указанный каталог и все его подкаталоги, включая все файлы). |
@@ -52,7 +52,7 @@ rmdir [<drive>:]<path> [/s [/q]]
 
     Если получено это сообщение об ошибке, необходимо изменить каталог (не подкаталог текущего каталога) на другой, а затем повторить попытку.
 
-### <a name="examples"></a>Примеры
+## <a name="examples"></a>Примеры
 
 Чтобы перейти к родительскому каталогу, чтобы можно было безопасно удалить нужный каталог, введите:
 

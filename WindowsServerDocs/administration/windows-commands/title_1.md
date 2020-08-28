@@ -1,18 +1,18 @@
 ---
 title: title
 description: Справочная статья для Title, которая создает заголовок для окна командной строки.
-ms.topic: article
+ms.topic: reference
 ms.assetid: c0bbe8bd-201a-4b6c-b617-5d9809881dc8
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 3fede3a0f71da2913e798852817722eaea414770
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 20d0baf3c006fafd3ef6fb45a8cb69724c19929a
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87881390"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89036072"
 ---
 # <a name="title"></a>title
 
@@ -28,7 +28,7 @@ title [<String>]
 
 ### <a name="parameters"></a>Параметры
 
-|Параметр|Описание:|
+|Параметр|Описание|
 |---------|-----------|
 |\<String>|Указывает заголовок окна командной строки.|
 |/?|Отображение справки в командной строке.|

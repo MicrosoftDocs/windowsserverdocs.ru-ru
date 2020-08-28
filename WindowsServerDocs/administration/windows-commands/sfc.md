@@ -1,18 +1,18 @@
 ---
 title: sfc
 description: Справочная статья для SFC, который сканирует и проверяет целостность всех защищенных системных файлов и заменяет неверные версии на правильные версии.
-ms.topic: article
+ms.topic: reference
 ms.assetid: c58c25da-e028-42a6-9e10-973484a4b953
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 56aa6a1f07b75e37111d265fc15253ba1d3a7f1d
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 6aa1fd38eaab1ffe3d6c3b9f2e4913d6a1e0ca4d
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87882476"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89024888"
 ---
 # <a name="sfc"></a>sfc
 
@@ -46,7 +46,7 @@ sfc [/scannow] [/verifyonly] [/scanfile=<file>] [/verifyfile=<file>] [/offwindir
 -   Дополнительные сведения о **sfc** в windows Server 2008 и windows Server 2008 R2 см. в разделе [средство проверки системных файлов](https://go.microsoft.com/fwlink/?LinkId=227071).
 
 ## <a name="examples"></a>Примеры
-Чтобы проверить **файлkernel32.dll**, введите:
+Чтобы проверить ** файлkernel32.dll**, введите:
 ```
 sfc /verifyfile=c:\windows\system32\kernel32.dll
 ```

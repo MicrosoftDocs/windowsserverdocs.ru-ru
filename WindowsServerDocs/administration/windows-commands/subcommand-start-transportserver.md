@@ -1,18 +1,18 @@
 ---
 title: Подкоманда Start-Транспортсервер
 description: Справочная статья для подкоманды Start-Транспортсервер, которая запускает все службы для транспортного сервера.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 0e93bc84-5b9e-4f9d-8cf0-1634417da0f6
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 8236079d895a5ec94cab03009c2f31ddd7ef66d5
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: af74aedd80a9102edccff53d92037e4826750b74
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87882038"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89024688"
 ---
 # <a name="subcommand-start-transportserver"></a>Подкоманда: Start-Транспортсервер
 

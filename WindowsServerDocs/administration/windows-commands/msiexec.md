@@ -1,18 +1,18 @@
 ---
 title: msiexec
 description: Справочная статья по команде msiexec, которая предоставляет средства для установки, изменения и выполнения операций с установщик Windows из командной строки.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 122eb0ce-ecbc-4909-a52a-15c3413619af
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: a72798d7bdd94b3315d54e866e78145af4db1d79
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 1255cf26ac4dd3f9c28189ce7df76d63c875ee64
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87886177"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89025288"
 ---
 # <a name="msiexec"></a>msiexec
 
@@ -30,7 +30,7 @@ msiexec.exe [/i][/a][/j{u|m|/g|/t}][/x] <path_to_package>
 
 #### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | ------- | -------- |
 | /i | Задает нормальную установку. |
 | /a | Задает административную установку. |
@@ -61,7 +61,7 @@ msiexec.exe /i <path_to_package> [/quiet][/passive][/q{n|b|r|f}]
 
 #### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | ------- | -------- |
 | `<path_to_package>` | Указывает расположение и имя файла пакета установки. |
 | /quiet | Указывает тихий режим, что означает, что взаимодействие с пользователем не требуется. |
@@ -97,7 +97,7 @@ msiexec.exe /i <path_to_package> [/norestart][/promptrestart][/forcerestart]
 
 #### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | ------- | -------- |
 | `<path_to_package>` | Указывает расположение и имя файла пакета установки. |
 | /norestart | Останавливает перезагрузку устройства после завершения установки. |
@@ -124,7 +124,7 @@ msiexec.exe [/i][/x] <path_to_package> [/L{i|w|e|a|r|u|c|m|o|p|v|x+|!|*}] <path_
 
 #### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | ------- | -------- |
 | /i | Задает нормальную установку. |
 | /x | Удаляет пакет. |
@@ -168,7 +168,7 @@ msiexec.exe [/p][/update][/uninstall[/package<product_code_of_package>]] <path_t
 
 #### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | ------- | -------- |
 | /p | Устанавливает исправление. При установке в автоматическом режиме необходимо также присвоить свойству REINSTALLMODE значение *екмус* и переустановить для *всех*компонентов. В противном случае исправление обновляет только MSI, кэшированный на целевом устройстве. |
 | /update | Параметр установки исправлений. Если вы применяете несколько обновлений, их необходимо разделять точкой с запятой (;). |
@@ -200,7 +200,7 @@ msiexec.exe [/f{p|o|e|d|c|a|u|m|s|v}] <product_code>
 
 #### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | ------- | -------- |
 | /fp | Восстанавливает пакет, если файл отсутствует. |
 | /fo | Восстанавливает пакет, если файл отсутствует или если установлена более старая версия. |
@@ -229,6 +229,6 @@ msiexec.exe /fa {AAD3D77A-7476-469F-ADF4-04424124E91D}
 
 - [Условные обозначения синтаксиса команд командной строки](command-line-syntax-key.md)
 
-- [Параметры командной строкиMsiexec.exe](/windows/win32/msi/command-line-options)
+- [ Параметры командной строкиMsiexec.exe](/windows/win32/msi/command-line-options)
 
 - [Стандартные параметры командной строки установщика](/windows/win32/msi/standard-installer-command-line-options)

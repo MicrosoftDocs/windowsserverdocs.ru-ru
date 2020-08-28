@@ -1,18 +1,18 @@
 ---
 title: ksetup listrealmflags
 description: Справочная статья по команде ksetup листреалмфлагс, в которой перечислены доступные флаги области, которые можно сообщить по ksetup.
-ms.topic: article
+ms.topic: reference
 ms.assetid: aa96e4da-6b98-4c05-bccf-73cbf33258c2
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 5e69b91c8fe5ca7bddecb12a72a1e8ef31bec3dd
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: d7c522449053a18cdd1e2a9e533dbce5d6e9f17c
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87887852"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89025478"
 ---
 # <a name="ksetup-listrealmflags"></a>ksetup listrealmflags
 
@@ -31,7 +31,7 @@ ksetup /listrealmflags
 | Значение | Флаг области | Описание |
 | ----- | ---------- | ----------- |
 | 0xF | Все | Заданы все флаги сферы. |
-| 0x00 | Отсутствуют | Флаги области не заданы, а дополнительные функции не включены. |
+| 0x00 | Нет | Флаги области не заданы, а дополнительные функции не включены. |
 | 0x01 | сендаддресс | IP-адрес будет включаться в билеты предоставления билетов. |
 | 0x02 | ткпсуппортед | В этой области поддерживаются протоколы TCP и UDP (User Datagram Protocol). |
 | 0x04 | delegate | Все пользователи в этой области являются доверенными для делегирования. |

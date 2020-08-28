@@ -1,18 +1,18 @@
 ---
 title: Подкоманда-сервер
 description: Справочная статья для подкоманды Stop-Server, которая останавливает все службы на сервере служб развертывания Windows.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 09f411c0-099f-4591-95fd-b77b3fd9118a
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: e923ad4a7151ada5b23beb149b9aadc02f4573b8
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 1fd4a2e249b5bbf52cce9d35fcb07821b793fb23
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87882027"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89024668"
 ---
 # <a name="subcommand-stop-server"></a>Подкоманда:-сервер
 
@@ -25,7 +25,7 @@ ms.locfileid: "87882027"
 wdsutil [Options] /Stop-Server [/Server:<Server name>]
 ```
 ### <a name="parameters"></a>Параметры
-|Параметр|Описание:|
+|Параметр|Описание|
 |-------|--------|
 |[/Server: <Server name> ]|Указывает имя сервера. Это может быть либо NetBIOS-имя, либо полное доменное имя (FQDN). Если имя сервера не указано, будет использоваться локальный сервер.|
 ## <a name="examples"></a>Примеры

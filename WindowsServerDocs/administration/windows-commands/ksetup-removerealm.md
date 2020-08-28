@@ -1,18 +1,18 @@
 ---
 title: ksetup removerealm
 description: Справочная статья по команде ksetup ремовереалм, которая удаляет из реестра все сведения об указанной области.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 39f0c6f0-4c50-4781-941e-0893495405e8
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: a755600bc0d1bdbc7a1b19bed041cb4a7c5dea90
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 801ef79449cabed4718e417cac9aba9173dd07fb
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87887826"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89025458"
 ---
 # <a name="ksetup-removerealm"></a>ksetup removerealm
 
@@ -30,7 +30,7 @@ ksetup /removerealm <realmname>
 ```
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | `<realmname>` | Указывает DNS-имя в верхнем регистре, например CORP. CONTOSO.COM и указывается в качестве области по умолчанию или **области =** при запуске **ksetup** . |
 
