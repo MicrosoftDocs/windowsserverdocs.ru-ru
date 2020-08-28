@@ -1,18 +1,18 @@
 ---
 title: bitsadmin geterror
 description: Справочная статья по команде битсадмин Error, которая получает подробные сведения об ошибке для указанного задания.
-ms.topic: article
+ms.topic: reference
 ms.assetid: cbe5bca1-d2dd-4ce6-903f-f85de4a2ec6a
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: ae0b2391267ddc1508d8343b909b9739a0e01ffb
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: a7ebb554b269dd31ce96943097c7888a8836580b
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87894352"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89030362"
 ---
 # <a name="bitsadmin-geterror"></a>bitsadmin geterror
 

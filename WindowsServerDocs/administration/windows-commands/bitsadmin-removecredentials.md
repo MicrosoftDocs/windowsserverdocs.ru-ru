@@ -1,18 +1,18 @@
 ---
 title: bitsadmin removecredentials
 description: Справочная статья по команде битсадмин ремовекредентиалс, которая удаляет учетные данные из задания.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 4a78ce9a-1feb-4811-a000-cce81287b22b
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 2e2d9d045af51b273f7b64a8513daf3f8adb3895
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 4db9ddba312aba0d0fdd1dc63cbbf3c964afd043
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87893357"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89026342"
 ---
 # <a name="bitsadmin-removecredentials"></a>bitsadmin removecredentials
 

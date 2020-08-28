@@ -1,18 +1,18 @@
 ---
 title: cmd
 description: Справочная статья по команде cmd, запускающей новый экземпляр интерпретатора команд Cmd.exe.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 6ec588db-31a9-4a73-a970-65a2c6f4abbe
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 0c4e651a4f88ffa1d85d5be225b3ae6e5d1676dd
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: b782a93d4c61f43bbe45497871fe66f29ef972a4
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87880098"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89030982"
 ---
 # <a name="cmd"></a>cmd
 
@@ -26,7 +26,7 @@ cmd [/c|/k] [/s] [/q] [/d] [/a|/u] [/t:{<b><f> | <f>}] [/e:{on | off}] [/f:{on |
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | /C | Выполняет команду, указанную в *строке* , а затем останавливается. |
 | /k | Выполняет команду, указанную в *строке* , и продолжит. |
@@ -47,7 +47,7 @@ cmd [/c|/k] [/s] [/q] [/d] [/a|/u] [/t:{<b><f> | <f>}] [/e:{on | off}] [/f:{on |
 
 В следующей таблице перечислены допустимые шестнадцатеричные цифры, которые можно использовать в качестве значений для параметров `<b>` и `<f>` .
 
-| Значение | Color |
+| Значение | Цвет |
 | ----- | ----- |
 | 0 | Черный |
 | 1 | Синий |
@@ -59,7 +59,7 @@ cmd [/c|/k] [/s] [/q] [/d] [/a|/u] [/t:{<b><f> | <f>}] [/e:{on | off}] [/f:{on |
 | 7 | White |
 | 8 | Серый |
 | 9 | Светло-синий |
-| a | светло-зеленый |
+| а | светло-зеленый |
 | b | Светло-голубой |
 | с | Светло-красный |
 | d | Светло-фиолетовый |

@@ -1,18 +1,18 @@
 ---
 title: pbadmin
 description: Справочная статья по команде пбадмин. Эта команда устарела и не гарантируется, что она будет поддерживаться в будущих выпусках Windows.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 4911e640-aa7f-4afb-abc2-5eefc7010204
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 7cfea509184e0ff899375eb917da2908838f00ac
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: c6db551b85fc2a4ebd17862047c1037446108f8e
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87885053"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89037642"
 ---
 # <a name="pbadmin"></a>pbadmin
 

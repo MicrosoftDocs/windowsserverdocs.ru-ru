@@ -1,18 +1,18 @@
 ---
 title: echo (вывод на экран)
 description: Справочная статья по команде Echo, которая отображает сообщения или включает или отключает функцию вывода команд.
-ms.topic: article
+ms.topic: reference
 ms.assetid: fb9fcd0f-5e73-4504-aa95-78204e1a79d3
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: ff1b196a26b43eb51d5da613e0ac596d26c65d05
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: aca758e2eec979fa4b90a4de4f0fbb6119a3d74a
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87890724"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89030762"
 ---
 # <a name="echo"></a>echo (вывод на экран)
 
@@ -27,7 +27,7 @@ echo [on | off]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | [вкл. \| Откл.] | Включает или выключает функцию вывода команд. Команда по умолчанию включена. |
 | `<message>` | Задает текст, отображаемый на экране. |

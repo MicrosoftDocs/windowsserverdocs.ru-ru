@@ -5,14 +5,14 @@ manager: dmoss
 ms.author: toklima
 author: toklima
 ms.assetid: fb95c8ee-a418-4520-a12a-7754ae947c3c
-ms.topic: article
+ms.topic: reference
 ms.date: 10/16/2017
-ms.openlocfilehash: b7742b7bb970394f0ef8602ae5c862c2ff9a1a41
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 94feb56f4c5ed590c87b20d475f4aefa7ba11dd4
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87889889"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89037322"
 ---
 # <a name="fsutil-reparsepoint"></a>fsutil reparsepoint
 

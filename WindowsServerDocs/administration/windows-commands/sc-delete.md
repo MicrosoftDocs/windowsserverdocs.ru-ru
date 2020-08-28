@@ -1,18 +1,18 @@
 ---
 title: Sc.exe удалить
 description: Узнайте, как отменить регистрацию служб с помощью служебной программы sc.exe
-ms.topic: article
+ms.topic: reference
 ms.assetid: 2fe94fb3-e4d1-47b5-b999-39995ecbb644
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 5eb7bdd147d42c5b35106b65c512015526cb80cc
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 09a3f43824c3e0c895331326341b92c7c6aa5727
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87883264"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89037542"
 ---
 # <a name="scexe-delete"></a>Sc.exe удалить
 
@@ -28,7 +28,7 @@ sc.exe [<ServerName>] delete [<ServiceName>]
 
 ### <a name="parameters"></a>Параметры
 
-|Параметр|Описание:|
+|Параметр|Описание|
 |---------|-----------|
 |\<ServerName>|Указывает имя удаленного сервера, на котором расположена служба. Имя должно использовать формат UNC (например, \\ \\ MyServer). Чтобы запустить SC.exe локально, пропустите этот параметр.|
 |\<ServiceName>|Указывает имя службы, возвращенное операцией **жеткэйнаме** .|

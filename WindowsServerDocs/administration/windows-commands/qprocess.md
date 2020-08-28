@@ -1,18 +1,18 @@
 ---
 title: qprocess
 description: Справочная статья по команде кпроцесс, в которой отображаются сведения о процессах, выполняемых на сервере узла сеансов удаленный рабочий стол.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 9825cb01-11e0-4cd1-8142-57910e2f4056
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 940b366ff11c1572849b9fef018aff805daf3a6b
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: b7d710ed9e8d713789c92ff944cf78aea90ea8cc
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87884547"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89037242"
 ---
 # <a name="qprocess"></a>qprocess
 

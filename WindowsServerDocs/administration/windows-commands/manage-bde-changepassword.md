@@ -1,18 +1,18 @@
 ---
 title: Manage-bde ChangePassword
 description: Справочная статья по команде Manage-bde ChangePassword, которая изменяет пароль для диска данных.
-ms.topic: article
+ms.topic: reference
 ms.assetid: b174e152-8442-4fba-8b33-56a81ff4f547
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 0134d69eb720f7e832caeff5ab7f6081d8695ac9
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 97bae4c10756818ec8475a114aa048a4cae58617
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87886932"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89030542"
 ---
 # <a name="manage-bde-changepassword"></a>Manage-bde ChangePassword
 
@@ -26,7 +26,7 @@ manage-bde -changepassword [<drive>] [-computername <name>] [{-?|/?}] [{-help|-h
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | `<drive>` | Представляет букву диска, за которой следует двоеточие. |
 | -ComputerName | Указывает, что manage-bde.exe будет использоваться для изменения защиты BitLocker на другом компьютере. Можно также использовать параметр **-CN** в качестве сокращенной версии этой команды. |

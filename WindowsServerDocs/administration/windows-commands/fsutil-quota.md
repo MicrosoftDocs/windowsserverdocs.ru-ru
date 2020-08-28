@@ -5,14 +5,14 @@ manager: dmoss
 ms.author: toklima
 author: toklima
 ms.assetid: 21225c11-7c72-4ea2-96bd-e63d4beb3be5
-ms.topic: article
+ms.topic: reference
 ms.date: 10/16/2017
-ms.openlocfilehash: 7edf7ac908df419611fb42dd819323b15c8ded4e
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: e59885b3cf2b51b8d62446a6f1e4ab2ff3b90b3f
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87889923"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89037352"
 ---
 # <a name="fsutil-quota"></a>fsutil quota
 

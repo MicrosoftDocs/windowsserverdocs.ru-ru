@@ -1,18 +1,18 @@
 ---
 title: 'Secedit: женератероллбакк'
 description: Справочная статья для * * * *-
-ms.topic: article
+ms.topic: reference
 ms.assetid: 385a6799-51a7-4fe3-bd73-10c7998b6680
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: a5d7b21f47019e791ba541c17b99080c2324a43b
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: e3ccbd0071b5975682a7c52fcbe7cf9b6300adf3
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87882957"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89037442"
 ---
 # <a name="seceditgeneraterollback"></a>Secedit: женератероллбакк
 

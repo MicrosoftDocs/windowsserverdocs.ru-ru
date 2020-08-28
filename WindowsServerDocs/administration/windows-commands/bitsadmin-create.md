@@ -1,18 +1,18 @@
 ---
 title: bitsadmin create
 description: Справочная статья по команде битсадмин Create, которая создает задание перемещения с заданным отображаемым именем.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 9a8c53af-900b-4c24-9265-5b8b08213fac
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: ca651705955826ab3b65bd95aa90c98170bdb935
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 516f751109724688579f084fd0ccdb5f5bda85a3
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87894597"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89026682"
 ---
 # <a name="bitsadmin-create"></a>bitsadmin create
 

@@ -1,18 +1,18 @@
 ---
 title: chgusr
 description: Справочная статья по команде чгуср, которая изменяет режим установки для сервера узла сеансов удаленный рабочий стол.
-ms.topic: article
+ms.topic: reference
 ms.assetid: f119d9d3-ed8b-42da-81f7-77591d908c83
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: b4bb3b550105474aefcacb3a1cd587b7fdd6e505
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 5c2311e04c80c4b55e1ae9985c1e55b0e05c6804
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87892763"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89030992"
 ---
 # <a name="chgusr"></a>chgusr
 

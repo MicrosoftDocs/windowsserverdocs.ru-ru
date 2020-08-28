@@ -1,18 +1,18 @@
 ---
 title: Преобразование команду scwcmd
 description: Справочная статья для * * * *-
-ms.topic: article
+ms.topic: reference
 ms.assetid: 640dd892-0bb9-416d-8318-60a26605bcf4
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 5af1f9d1f2ee5386da8b02f4142c156c3711852f
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 069629c4025dadd6943659649025af57f019907c
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87883096"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89037502"
 ---
 # <a name="scwcmd-transform"></a>Scwcmd: transform
 

@@ -1,18 +1,18 @@
 ---
 title: offline disk
 description: Справочная статья по команде "автономный диск", которая переводит сетевой диск в состояние "вне сети".
-ms.topic: article
+ms.topic: reference
 ms.assetid: 8fb9b3c3-0b2c-4192-a2e7-f706292653e3
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: b570336bba8da402adb848c465148dabc49b0f6a
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 186acfaf297e6b94faf11a235f36082672524e75
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87885287"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89037252"
 ---
 # <a name="offline-disk"></a>offline disk
 
@@ -31,7 +31,7 @@ offline disk [noerr]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | Noerr | Только для сценариев. При возникновении ошибки DiskPart продолжит обрабатывать команды, как если бы ошибка не возникала. Без этого параметра ошибка приводит к выходу из программы DiskPart с кодом ошибки. |
 

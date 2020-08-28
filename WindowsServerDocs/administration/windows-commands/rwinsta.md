@@ -1,18 +1,18 @@
 ---
 title: rwinsta
 description: Узнайте, как сбросить сессионф узлов удаленных рабочих столов из командной строки.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 82bee0e4-1c2c-43fe-afd3-04a6ce0f4518
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 5fc263f2d3e104994ad95ed73dab18a4c3f00237
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: db344bb36f2967cb78b4fb97eb5143ff14275d5e
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87883320"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89037572"
 ---
 # <a name="rwinsta"></a>rwinsta
 
@@ -21,7 +21,7 @@ ms.locfileid: "87883320"
 Позволяет сбросить (удалить) сеанс на сервере узла сеансов удаленный рабочий стол (на узле сеансов удаленных рабочих столов).
 
 > [!NOTE]
-> В Windows Server 2008 R2 службы терминалов были переименованы на службы удаленных рабочих столов. Чтобы узнать о новых возможностях последней версии, см. статью [новые возможности службы удаленных рабочих столов в Windows server 2012](/previous-versions/orphan-topics/ws.11/hh831527(v=ws.11)) в библиотеке TechNet по Windows Server.
+> Чтобы узнать о новых возможностях последней версии, см. статью [новые возможности службы удаленных рабочих столов в Windows server 2012](/previous-versions/orphan-topics/ws.11/hh831527(v=ws.11)) в библиотеке TechNet по Windows Server.
 
 ## <a name="remarks"></a>Remarks
 Эта команда совпадает с командой **сброса сеанса** .

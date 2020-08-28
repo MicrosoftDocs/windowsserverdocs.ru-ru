@@ -1,18 +1,18 @@
 ---
 title: qwinsta
 description: Справочная статья по команде квинста, которая отображает сведения о сеансах на сервере узла сеансов удаленный рабочий стол.
-ms.topic: article
+ms.topic: reference
 ms.assetid: a793212a-7ecd-44cb-a77b-c5c2edb34979
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 496088708d980ec2ad3253dc29aeec99b29a6d41
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 3b4da815514a79f8b4373464cb405f21226324d7
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87884371"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89037602"
 ---
 # <a name="qwinsta"></a>qwinsta
 
@@ -31,7 +31,7 @@ qwinsta [<sessionname> | <username> | <sessionID>] [/server:<servername>] [/mode
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 |--|--|
 | `<sessionname>` | Указывает имя сеанса, с которым необходимо выполнить запрос. |
 | `<username>` | Указывает имя пользователя, сеансы которого необходимо запросить. |

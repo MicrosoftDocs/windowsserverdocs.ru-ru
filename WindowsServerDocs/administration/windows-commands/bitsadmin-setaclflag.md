@@ -1,18 +1,18 @@
 ---
 title: bitsadmin setaclflag
 description: Справочная статья по команде битсадмин сетаклфлаг, которая устанавливает флаги распространения списка управления доступом (ACL).
-ms.topic: article
+ms.topic: reference
 ms.assetid: 6e3bcda0-827d-4dfd-8384-d1da018f3e10
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 14f7268ec1ea8b3c55d4aa8dfe3af45bc6c488f9
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 89b605e94505610a2b355de9e4bcbc485a2bb7bf
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87893300"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89026302"
 ---
 # <a name="bitsadmin-setaclflag"></a>bitsadmin setaclflag
 

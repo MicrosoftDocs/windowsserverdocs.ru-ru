@@ -1,18 +1,18 @@
 ---
 title: pentnt
 description: Справочная статья по команде пентнт. Эта команда устарела и не гарантируется, что она будет поддерживаться в будущих выпусках Windows.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 4911e640-aa7f-4afb-abc2-5eefc7010204
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 21e38467057feedf3cadf1061664ef14acc49915
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 6f4f244f5f66034ff93981bbf774e9f4b604d209
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87885042"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89037632"
 ---
 # <a name="pentnt"></a>pentnt
 

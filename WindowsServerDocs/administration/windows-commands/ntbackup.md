@@ -1,18 +1,18 @@
 ---
 title: ntbackup
 description: Справочная статья по команде NTBACKUP, которая была заменена командой Wbadmin.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 6bce6b0d-646b-46b6-b833-0ff1d6f082c2
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 61b0502d4fa31ae2cf5308ff21f499ffdca63018
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 47f61968bf153719d050501e553cd4dd0785b7e8
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87885313"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89037282"
 ---
 # <a name="ntbackup"></a>ntbackup
 

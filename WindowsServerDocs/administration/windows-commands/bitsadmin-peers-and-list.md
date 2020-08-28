@@ -1,18 +1,18 @@
 ---
 title: bitsadmin peers и list
 description: Справочная статья по команде битсадмин Peers and List, в которой перечислены все узлы.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 18ec60c9-34d2-466e-982c-6165478ef224
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 413318a4cfd04256f69483bfd2b177ca5bf9de8a
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: e202df33e990cff9b776c3cf2f95d025c34e3edc
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87893489"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89026472"
 ---
 # <a name="bitsadmin-peers-and-list"></a>bitsadmin peers и list
 

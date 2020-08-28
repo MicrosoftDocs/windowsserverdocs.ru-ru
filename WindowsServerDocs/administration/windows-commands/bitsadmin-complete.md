@@ -1,18 +1,18 @@
 ---
 title: bitsadmin complete
 description: Справочная статья по команде битсадмин Complete, которая завершает задание.
-ms.topic: article
+ms.topic: reference
 ms.assetid: a5e86677-8f7b-43b3-929e-97706c57e7f1
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 43c3296520b5843643c10d204d89f4f2f2bf98d8
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: c21cd7919d49b2ac68c665dfd7043cbe55937e45
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87894609"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89026692"
 ---
 # <a name="bitsadmin-complete"></a>bitsadmin complete
 
@@ -26,7 +26,7 @@ bitsadmin /complete <job>
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | задание | Отображаемое имя задания или идентификатор GUID. |
 

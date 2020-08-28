@@ -1,18 +1,18 @@
 ---
 title: klist
 description: Справочная статья по команде klist, в которой отображается список кэшированных билетов Kerberos.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 4689b4a9-1740-47dd-9240-02105efca428
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 2e37946106d7c47f058fd42b9926e388ab830e47
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: d5284feae5da9c8c7fcdab90dd34ce7855128d5f
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87888187"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89037722"
 ---
 # <a name="klist"></a>klist
 

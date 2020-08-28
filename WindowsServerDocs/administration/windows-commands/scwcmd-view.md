@@ -1,18 +1,18 @@
 ---
 title: Команду scwcmd, представление
 description: Справочная статья для * * * *-
-ms.topic: article
+ms.topic: reference
 ms.assetid: 7995959a-d93e-4865-a6a0-2ab18c2bb47f
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: c969931301afaab6cdf00e5a0238715fc655a79e
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 8b97a5a5203a1b96576a19a6ab1f6d4c4769c861
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87883084"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89037492"
 ---
 # <a name="scwcmd-view"></a>Scwcmd: view
 
@@ -28,7 +28,7 @@ scwcmd view /x:<Xmlfile.xml> [/s:<Xslfile.xsl>]
 
 #### <a name="parameters"></a>Параметры
 
-|Параметр|Описание:|
+|Параметр|Описание|
 |---------|-----------|
 |/x\<Xmlfile.xml>|Указывает XML-файл для просмотра. Этот параметр должен быть указан.|
 |ключ\<Xslfile.xsl>|Указывает преобразование XSL, применяемое к XML-файлу как часть процесса отрисовки. Этот параметр является необязательным для файлов SCW. XML. Если команда **View** используется для отображения файла SCW. XML, она автоматически попытается загрузить правильное преобразование по умолчанию для указанного XML-файла. Если задано преобразование XSL, преобразование должно быть написано с учетом предположения, что XML-файл находится в том же каталоге, что и преобразование XSL.|

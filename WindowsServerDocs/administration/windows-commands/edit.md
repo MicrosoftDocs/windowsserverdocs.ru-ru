@@ -1,18 +1,18 @@
 ---
 title: изменение;
 description: Справочная статья по команде Edit, запускающей редактор MS-DOS, что позволяет создавать и изменять текстовые файлы ASCII.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 4e0ff2e8-3518-47c1-8c69-5e93f895fa0e
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 58d2819e9a96d30e1c4fc286679fbd807ad0caa1
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 892eaa2751ba9374b375145c5e9a0dfc1c069d4f
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87890714"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89030741"
 ---
 # <a name="edit"></a>изменение;
 

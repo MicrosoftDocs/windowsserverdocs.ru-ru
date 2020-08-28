@@ -1,18 +1,18 @@
 ---
 title: ftp ascii
 description: Справочная статья по команде FTP ASCII, которая задает тип перемещения файла ASCII.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 523be48e-eab0-4237-8fb5-ca222824f0b6
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 76ed369efe992e58304d07e627fdb55bcaa039e0
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: ccbe978e624e6069cbb6a7f5df526835d0404aac
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87889651"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89037762"
 ---
 # <a name="ftp-ascii"></a>ftp ascii
 

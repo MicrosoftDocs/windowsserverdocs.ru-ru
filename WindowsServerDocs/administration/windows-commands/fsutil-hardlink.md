@@ -5,14 +5,14 @@ manager: dmoss
 ms.author: toklima
 author: toklima
 ms.assetid: 835fc6f1-cc84-4189-b29a-dde90792469e
-ms.topic: article
+ms.topic: reference
 ms.date: 10/16/2017
-ms.openlocfilehash: f6a36be6c30e348ac488cfc2a8da7c312f64b3a6
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 9d3782736686106b892f3b35e74573e4e162ae80
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87889974"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89037362"
 ---
 # <a name="fsutil-hardlink"></a>fsutil hardlink
 
@@ -31,7 +31,7 @@ fsutil hardlink list <filename>
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | create | Устанавливает жесткую связь NTFS между существующим файлом и новым файлом. (Жесткая связь NTFS аналогична жесткой связи POSIX.) |
 | \<newfilename> | Указывает файл, к которому нужно создать жесткую связь. |

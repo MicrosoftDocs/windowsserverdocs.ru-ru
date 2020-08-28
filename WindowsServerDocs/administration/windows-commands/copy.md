@@ -1,18 +1,18 @@
 ---
 title: copy
 description: Справочная статья по команде Copy, которая копирует один или несколько файлов из одного расположения в другое.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 9624d4a1-349a-4693-ad00-1d1d4e59e9ac
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: cb48cbc4ccc9a0d68bfc6f5cdda8ac5e7f1a6c87
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 993fedf3b088ee5d06967c767c00aa9e11165cc3
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87892505"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89030282"
 ---
 # <a name="copy"></a>copy
 
@@ -29,7 +29,7 @@ copy [/d] [/v] [/n] [/y | /-y] [/z] [/a | /b] <source> [/a | /b] [+<source> [/a 
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | /d | Позволяет сохранить копируемые зашифрованные файлы в виде расшифрованных файлов в месте назначения. |
 | /v | Проверяет, правильно ли записаны новые файлы. |
@@ -138,7 +138,7 @@ copy /b *.exe Combined.exe
 > [!CAUTION]
 > При объединении двоичных файлов результирующий файл может оказаться непригодным для использования из-за внутреннего форматирования.
 
-- Сочетание каждого файла с расширением txt с соответствующим ref-файлом создает файл с тем же именем, но с расширением doc. Команда **Copy** объединяет *file1.txt* с параметром *file1. ref* в *формуfile1.doc*, а затем команда объединяет *file2.txt* с *file2. ref* в форму *file2.doc*и т. д. Например, введите:
+- Сочетание каждого файла с расширением txt с соответствующим ref-файлом создает файл с тем же именем, но с расширением doc. Команда **Copy** объединяет *file1.txt* с параметром *file1. ref* в * формуfile1.doc*, а затем команда объединяет *file2.txt* с *file2. ref* в форму *file2.doc*и т. д. Например, введите:
 
 ```
 copy *.txt + *.ref *.doc

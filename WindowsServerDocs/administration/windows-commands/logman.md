@@ -1,18 +1,18 @@
 ---
 title: logman
 description: Справочная статья по команде logman, которая создает сеанс трассировки событий и журналы производительности и управляет ими, а также поддерживает многие функции системного монитора из командной строки.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 574a5203-5b3b-4759-a678-f26d00dde447
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: f5983ff4534f2f017de92cbd672352084f6a7552
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: b155e3cca0b9f5e35c1c817cfee4e96ca79b6610
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87887100"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89030552"
 ---
 # <a name="logman"></a>logman
 
@@ -28,7 +28,7 @@ logman [create | query | start | stop | delete| update | import | export | /?] [
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | [logman create](logman-create.md) | Создает счетчик, трассировку, сборщик данных конфигурации или API. |
 | [logman query](logman-query.md) | Запрашивает свойства сборщика данных. |

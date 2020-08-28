@@ -1,18 +1,18 @@
 ---
 title: Get-Аллдевицес
 description: Справочная статья по Get-Аллдевицес, в которой отображаются свойства служб развертывания Windows для всех предварительно подготовленных компьютеров.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 5824b3d2-2df1-4ed6-a289-e6c47c13fea2
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 1e527be333570838ecb675d78742bbf55918eff3
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 8b0f1d17bf79628ca330302de1c8a53c9605f956
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87896979"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89026772"
 ---
 # <a name="get-alldevices"></a>Get-Аллдевицес
 

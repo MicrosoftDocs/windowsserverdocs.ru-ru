@@ -1,18 +1,18 @@
 ---
 title: chcp
 description: Справочная статья по команде chcp, которая изменяет текущую кодовую страницу консоли.
-ms.topic: article
+ms.topic: reference
 ms.assetid: dc7b1c71-7b80-443d-9cf1-9bcf305aa1fd
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 21dcdc1e663656439bece576287877653d0dcd8c
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 8e725bb3220546864642b2e6a39ddcc0163b1b98
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87892813"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89031092"
 ---
 # <a name="chcp"></a>chcp
 
@@ -64,7 +64,7 @@ chcp [<nnn>]
 chcp
 ```
 
-Появится сообщение следующего вида:`Active code page: 437`
+Появится сообщение следующего вида: `Active code page: 437`
 
 Чтобы изменить активную кодовую страницу на 850 (многоязычный), введите:
 
@@ -72,7 +72,7 @@ chcp
 chcp 850
 ```
 
-Если указанная кодовая страница является недопустимой, появляется следующее сообщение об ошибке:`Invalid code page`
+Если указанная кодовая страница является недопустимой, появляется следующее сообщение об ошибке: `Invalid code page`
 
 ## <a name="additional-references"></a>Дополнительные ссылки
 

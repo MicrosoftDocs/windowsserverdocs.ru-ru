@@ -1,18 +1,18 @@
 ---
 title: tskill
 description: Справочная статья по тскилл, которая завершает процесс, выполняющийся в сеансе на удаленный рабочий стол сервере узла сеансов.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 08986e6a-6900-4ece-85a1-8f73b14db1b3 Lizap
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 9fe3db1f218bc95fab4f3f2d917575679ab81931
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 357523ce9806910bfddc8ed8992a7ac7be388d3f
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87896677"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89026812"
 ---
 # <a name="tskill"></a>tskill
 
@@ -22,7 +22,7 @@ ms.locfileid: "87896677"
 
 
 > [!NOTE]
-> В Windows Server 2008 R2 службы терминалов были переименованы на службы удаленных рабочих столов. Чтобы узнать о новых возможностях последней версии, см. статью [новые возможности службы удаленных рабочих столов в Windows server 2012](/previous-versions/orphan-topics/ws.11/hh831527(v=ws.11)) в библиотеке TechNet по Windows Server.
+> Чтобы узнать о новых возможностях последней версии, см. статью [новые возможности службы удаленных рабочих столов в Windows server 2012](/previous-versions/orphan-topics/ws.11/hh831527(v=ws.11)) в библиотеке TechNet по Windows Server.
 
 ## <a name="syntax"></a>Синтаксис
 ```

@@ -1,18 +1,18 @@
 ---
 title: bitsadmin rawreturn
 description: Справочная статья по команде битсадмин равретурн, которая возвращает данные, подходящие для синтаксического анализа.
-ms.topic: article
+ms.topic: reference
 ms.assetid: bbe97130-26f6-4cdd-84f1-baf530ce38b7
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 88b1e45d7fad2820a77d9f445065ae0ca182abb6
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 1d2be3712e4faf4803683ef32a10031894a913bd
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87893423"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89026442"
 ---
 # <a name="bitsadmin-rawreturn"></a>bitsadmin rawreturn
 

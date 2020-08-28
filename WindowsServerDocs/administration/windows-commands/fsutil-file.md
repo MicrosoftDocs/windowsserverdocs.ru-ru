@@ -5,14 +5,14 @@ manager: dmoss
 ms.author: toklima
 author: toklima
 ms.assetid: 9f3dc104-dd69-4b03-b824-a29896780164
-ms.topic: article
+ms.topic: reference
 ms.date: 10/16/2017
-ms.openlocfilehash: 92b048d0ad3a7cb1f0c21dabf3cc14dc9850a251
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 69ef36a03c22d7e14d4d657ce5ebab85b63afbd7
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87889992"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89037382"
 ---
 # <a name="fsutil-file"></a>fsutil file
 
@@ -40,7 +40,7 @@ fsutil file [setzerodata] offset=<offset> length=<length> <filename>
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | CreateNew | Создает файл с указанным именем и размером с содержимым, состоящим из нулей. |
 | `<length>` | Указывает допустимую длину данных файла. |
