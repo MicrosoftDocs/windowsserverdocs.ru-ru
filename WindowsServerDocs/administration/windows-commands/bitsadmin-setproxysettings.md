@@ -1,18 +1,18 @@
 ---
 title: bitsadmin setproxysettings
 description: Справочная статья по команде битсадмин setproxysettings, которая задает параметры прокси-сервера для указанного задания.
-ms.topic: article
+ms.topic: reference
 ms.assetid: be8edb1b-614e-4d0b-a8f8-64b4bde3e64b
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 0fb4e8893aa4becac49e5837baef3148541136ff
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 398da89b251fd7ebf181a819f35870984e05e6ab
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87892963"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89033432"
 ---
 # <a name="bitsadmin-setproxysettings"></a>bitsadmin setproxysettings
 

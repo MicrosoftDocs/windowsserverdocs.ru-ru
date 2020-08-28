@@ -1,18 +1,18 @@
 ---
 title: Дата
 description: Справочная статья по команде Date, которая отображает или задает системную дату. Если используется без параметров,
-ms.topic: article
+ms.topic: reference
 ms.assetid: ce6700fb-32f9-4350-a1af-5aee61d4448c
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 8966f02a6902b6b2bccc6fdc6931485a86bd39fe
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 78c8ca51882b2559e78cc457d1fd7fa5ec8e87b8
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87891516"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89033042"
 ---
 # <a name="date"></a>Дата
 

@@ -5,14 +5,14 @@ manager: dmoss
 ms.author: toklima
 author: toklima
 ms.assetid: faad34aa-4ba1-4129-bc1f-08088399e2fa
-ms.topic: article
+ms.topic: reference
 ms.date: 10/16/2017
-ms.openlocfilehash: c2bbd130902812f9a44d2d762a074b67de5e8dac
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 551324f3a356d7ca3ebce617853000baee3c68e0
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87889775"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89032932"
 ---
 # <a name="fsutil-usn"></a>fsutil usn
 

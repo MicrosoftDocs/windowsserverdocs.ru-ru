@@ -1,18 +1,18 @@
 ---
 title: Использование команды "создать"
 description: Справочная статья для новых, которая создает образы, многоадресные передачи и пространства имен, а затем позволяет обнаруживать их.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 0f06f310-c585-42f4-9d15-4680b4a3355d
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 0f20bfdd726c655ed3ddc616f404d9958449a1ed
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: b03cb70d217c99b49c08e3dace07e0a830e81617
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87891997"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89038162"
 ---
 # <a name="using-the-new-command"></a>Использование команды "создать"
 

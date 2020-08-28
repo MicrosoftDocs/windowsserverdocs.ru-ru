@@ -5,14 +5,14 @@ manager: dmoss
 ms.author: toklima
 author: toklima
 ms.assetid: e5f55f3e-8d2a-4526-8d67-36a539126c22
-ms.topic: article
+ms.topic: reference
 ms.date: 10/16/2017
-ms.openlocfilehash: 2aa4d82fd5b99bfac508d02628256557e8ed6044
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 90b92d7f0694c6d43e4737a64d72c288a2069098
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87889806"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89032982"
 ---
 # <a name="fsutil-tiering"></a>fsutil tiering
 

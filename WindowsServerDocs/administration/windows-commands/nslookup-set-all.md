@@ -1,18 +1,18 @@
 ---
 title: nslookup set all
 description: Справочная статья для команды nslookup set ALL, которая выводит текущие значения параметров конфигурации.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 04b695cb-38b2-4adf-aa55-9d1b628eb8ac
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: ad77c21134228403afaa1dcb30e29ee1b36071da
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 3185cf823a0dfcb0203cbf950287fba8ad10a59d
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87885777"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89038775"
 ---
 # <a name="nslookup-set-all"></a>nslookup set all
 

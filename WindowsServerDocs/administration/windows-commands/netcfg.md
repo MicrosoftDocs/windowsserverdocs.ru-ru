@@ -1,18 +1,18 @@
 ---
 title: netcfg
 description: Справочная статья по команде netcfg, которая устанавливает среда предустановки Windows (WinPE), облегченную версию Windows, используемую для развертывания рабочих станций.
-ms.topic: article
+ms.topic: reference
 ms.assetid: e2daaab7-12db-4e36-b70c-db8906d084f7
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 17556285f7e9de2c70d446cb0fa317f1cbe89aab
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 1f2238fcde1de109298801fea985100bffabf8f7
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87886060"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89038815"
 ---
 # <a name="netcfg"></a>netcfg
 

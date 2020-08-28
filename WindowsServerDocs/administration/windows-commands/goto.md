@@ -1,18 +1,18 @@
 ---
 title: goto
 description: Справочная статья по команде goto, которая направляет cmd.exe на помеченную строку в пакетной программе.
-ms.topic: article
+ms.topic: reference
 ms.assetid: e0de1458-1f78-48ff-a746-c285a945a510
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: cc5059f90d471496deb0ccfc668054f1ed7cbde6
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 6f99a0c438f66e243a310cc715f12cab1543f41a
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87888590"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89038885"
 ---
 # <a name="goto"></a>goto
 
@@ -26,7 +26,7 @@ goto <label>
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | `<label>` | Задает текстовую строку, используемую в качестве метки в пакетной программе. |
 | /? | Отображение справки в командной строке. |

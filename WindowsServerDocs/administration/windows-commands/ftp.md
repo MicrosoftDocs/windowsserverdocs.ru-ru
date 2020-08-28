@@ -1,18 +1,18 @@
 ---
 title: ftp
 description: Справочная статья по команде FTP, которая передает файлы на компьютер, на котором запущена служба протокол FTP (FTP), и с него.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 758335e1-fd8d-448c-a654-993126239dd9
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 369a41cf6ad803a4fce939da58228997410cf177
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 9f5cb70e6b42e390f8e279152e736b0226e74f9d
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87888794"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89038905"
 ---
 # <a name="ftp"></a>ftp
 

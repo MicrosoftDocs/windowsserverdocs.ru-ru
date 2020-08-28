@@ -1,18 +1,18 @@
 ---
 title: Copy-Image
 description: Справочная статья по Copy-Image, которая копирует образы, которые находятся в одной и той же группе образов.
-ms.topic: article
+ms.topic: reference
 ms.assetid: bea41cf4-36e6-4181-afa5-00170ebd4fdc
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 4995d45de3897c590dd232b316756330081b13ee
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 4907aa76e17059b101a3bbeb793eb159dcf24b91
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87892193"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89038212"
 ---
 # <a name="copy-image"></a>Copy-Image
 

@@ -1,18 +1,18 @@
 ---
 title: query session
 description: Справочная статья по команде запроса Session, в которой отображаются сведения о сеансах на удаленный рабочий стол сервере узла сеансов.
-ms.topic: article
+ms.topic: reference
 ms.assetid: abc0ace8-0b74-4b6e-a937-a78bb4b61a1f
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 4ef51631c497b72de4a8fbf5073c5a2c376a668e
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 55f0269c57b70944befa4483cdeab96ec89b2bd9
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87884421"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89038412"
 ---
 # <a name="query-session"></a>query session
 
@@ -31,7 +31,7 @@ query session [<sessionname> | <username> | <sessionID>] [/server:<servername>] 
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 |--|--|
 | `<sessionname>` | Указывает имя сеанса, с которым необходимо выполнить запрос. |
 | `<username>` | Указывает имя пользователя, сеансы которого необходимо запросить. |

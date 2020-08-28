@@ -1,18 +1,18 @@
 ---
 title: создать-пространство имен
 description: Справочная статья по новому пространству имен, которая создает и настраивает новое пространство имен.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 6df60703-30bd-4d59-a8d9-9fe3efe96add
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: f96181b9ce85a80ccc3d1bd344105dcc1e7f8d2d
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 8e9bcece219117c559c298bb97726d60c11faa44
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87896900"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89038142"
 ---
 # <a name="new-namespace"></a>создать-пространство имен
 

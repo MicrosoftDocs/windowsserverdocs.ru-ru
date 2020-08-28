@@ -1,18 +1,18 @@
 ---
 title: nslookup set
 description: Справочная статья по команде nslookup set, которая изменяет параметры конфигурации, влияющие на поведение уточняющих запросов.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 1fe5b36d-e93e-468b-abca-43b0204b32d1
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 6e6c9fc242470395e5c4c5b3de7b235531ccf091
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: b156ef987c1aec67cc979fe08b6f2b75f86d5e6a
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87885443"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89038735"
 ---
 # <a name="nslookup-set"></a>nslookup set
 
@@ -28,7 +28,7 @@ set all [class | d2 | debug | domain | port | querytype | recurse | retry | root
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | [nslookup set all](nslookup-set-all.md) | Список всех текущих параметров. |
 | [nslookup set class](nslookup-set-class.md) | Изменяет класс запроса, который указывает группу протоколов для информации. |

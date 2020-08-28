@@ -1,18 +1,18 @@
 ---
 title: regsvr32
 description: Справочная статья по команде regsvr32, которая регистрирует DLL-файлы как компоненты команды в реестре.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 3345e964-7d3e-42b8-abeb-42ed6edfe2b2
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 8a591813480163a6d43329222d20e2a29651f576
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 3bb39070ba1744ca261419e5b996144f89b17b11
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87883887"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89027431"
 ---
 # <a name="regsvr32"></a>regsvr32
 
@@ -26,7 +26,7 @@ regsvr32 [/u] [/s] [/n] [/i[:cmdline]] <Dllname>
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 |--|--|
 | /U | Отменяет регистрацию сервера. |
 | /s | Предотвращает отображение сообщений. |

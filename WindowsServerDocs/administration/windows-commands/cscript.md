@@ -1,18 +1,18 @@
 ---
 title: cscript
 description: Справочная статья по команде cscript, которая запускает сценарий, чтобы он выполнялся в среде командной строки.
-ms.topic: article
+ms.topic: reference
 ms.assetid: fba3cbca-594e-4663-bb22-4ee0f63a1ac6
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 3f6e27cae1531e0c10e8721d7f7fe11487406e35
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 6b5c711d59f69267f8e2de51f34cb1c450e95fab
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87891540"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89033032"
 ---
 # <a name="cscript"></a>cscript
 
@@ -31,7 +31,7 @@ cscript <scriptname.extension> [/b] [/d] [/e:<engine>] [{/h:cscript | /h:wscript
 
 #### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | имя_сценария. расширение | Указывает путь и имя файла скрипта с необязательным расширением имени файла. |
 | /b | Задает пакетный режим, при котором не отображаются предупреждения, ошибки сценариев или входные запросы. |

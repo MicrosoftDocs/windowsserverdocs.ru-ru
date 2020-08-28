@@ -1,18 +1,18 @@
 ---
 title: Delete — Аутоадддевицес
 description: Справочная статья по Delete-Аутоадддевицес, которая удаляет компьютеры, которые ожидают, отклонены или утверждены из базы данных автоматического добавления.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 8dcaca6a-212e-4c36-98e3-00938eef6b9c
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 6ccde56c5a0d3edd252048f9cf1e2a4b1fd28a35
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 50160d9b015861f2e32f7ae693cbd99d6eccb020
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87892175"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89038192"
 ---
 # <a name="delete-autoadddevices"></a>Delete — Аутоадддевицес
 

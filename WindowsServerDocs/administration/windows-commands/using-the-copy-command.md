@@ -1,18 +1,18 @@
 ---
 title: Использование команды Copy
 description: Справочная статья по Copy, в которой копируется образ или группа драйверов.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 5228b72f-659f-4692-960b-0fae0d16cf2e
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 723f8a902e8713ee2fb869d8cfb73bf89e0f9f12
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: c38ffdaf42023a048329437b1c99264b70b4f70b
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87896570"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89038232"
 ---
 # <a name="using-the-copy-command"></a>Использование команды Copy
 

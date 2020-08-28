@@ -5,14 +5,14 @@ manager: dmoss
 ms.author: toklima
 author: toklima
 ms.assetid: 77545920-2d13-4f35-a4d1-14dbec8340dc
-ms.topic: article
+ms.topic: reference
 ms.date: 10/16/2017
-ms.openlocfilehash: d79144d3894e9e181ebd889ce7bf281b827dea26
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 50b8fb1428de955b38d2f6e3a059046d7f670558
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87889838"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89033002"
 ---
 # <a name="fsutil-sparse"></a>fsutil sparse
 

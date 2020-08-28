@@ -1,18 +1,18 @@
 ---
 title: rem
 description: Справочная статья по команде REM, которая записывает комментарии в скрипт, пакет или файл config.sys.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 1a45b585-a83c-4ff6-badd-ff40f34cec23
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 6593e7700853af3658206b741817a86933fa66d1
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 741b3e8930188957fde0efc66b7d5584233f6877
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87883857"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89027412"
 ---
 # <a name="rem"></a>rem
 
@@ -26,7 +26,7 @@ rem [<comment>]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 |--|--|
 | `<comment>` | Указывает строку символов, включаемую в качестве комментария. |
 | /? | Отображение справки в командной строке. |

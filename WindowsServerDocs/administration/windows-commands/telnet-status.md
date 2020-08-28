@@ -1,18 +1,18 @@
 ---
 title: telnet status
 description: Справочная статья о состоянии Telnet, в которой отображаются сведения о состоянии.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 4e819f11-3dc4-44d1-957b-1bcecf9fc1fc
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: c0ee144078e25cd35b3a7dbadc7549881ff8f2ac
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 721ca2d8cded7b1a092de6eabdf868a4978e7776
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87881645"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89038322"
 ---
 # <a name="telnet-status"></a>Telnet: состояние
 
@@ -25,7 +25,7 @@ ms.locfileid: "87881645"
 st[atus]
 ```
 #### <a name="parameters"></a>Параметры
-none
+нет
 ## <a name="examples"></a>Примеры
 Отображение сведений о состоянии.
 ```

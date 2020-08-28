@@ -1,18 +1,18 @@
 ---
 title: Использование команды Remove
 description: Справочная статья по Remove, которая удаляет различные сведения, относящиеся к драйверу.
-ms.topic: article
+ms.topic: reference
 ms.assetid: e3f1644d-6028-4c47-a9fd-227bcdcc6123
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: bf3dfa5481c000a6b81a1c4da07493099bbe81a8
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 9497662d8a19a2f9c928dd7ebcd1a3fa5f23df89
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87892383"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89038122"
 ---
 # <a name="using-the-remove-command"></a>Использование команды Remove
 

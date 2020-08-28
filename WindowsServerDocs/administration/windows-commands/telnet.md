@@ -1,18 +1,18 @@
 ---
 title: telnet
 description: Справочная статья по Telnet, которая взаимодействует с компьютером, на котором работает служба Telnet-сервера.
-ms.topic: article
+ms.topic: reference
 ms.assetid: b70a6156-9413-4300-84ce-a34c467e2b4e
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: fd270011dfa3a0cfcef3cbdc41eb8140f409ff2d
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: fdf379a8d827ced295f1c36ac6c44ab5e167e66f
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87881608"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89038294"
 ---
 # <a name="telnet"></a>telnet
 
@@ -28,9 +28,9 @@ telnet [/a] [/e <EscapeChar>] [/f <FileName>] [/l <UserName>] [/t {vt100 | vt52 
 |Параметр|Описание|
 |-------|--------|
 |/a|попытка автоматического входа в систему. То же, что и параметр/l, за исключением использования имени пользователя, выполнившего вход в систему.|
-|/e\<EscapeChar>|Escape-символ, используемый для ввода запроса клиента Telnet.|
+|/e \<EscapeChar>|Escape-символ, используемый для ввода запроса клиента Telnet.|
 |/f \<FileName>|Имя файла, используемое для ведения журнала на стороне клиента.|
-|/l\<UserName>|Указывает имя пользователя для входа на удаленный компьютер.|
+|/l \<UserName>|Указывает имя пользователя для входа на удаленный компьютер.|
 |/t {VT100 &#124; VT52 &#124; ANSI &#124; VTNT}|Указывает тип терминала. Поддерживаются следующие типы терминалов: VT100, VT52, ANSI и VTNT.|
 |\<Host> [\<Port>]|Указывает имя узла или IP-адрес удаленного компьютера, к которому необходимо подключиться, и при необходимости используемый TCP-порт (по умолчанию это TCP-порт 23).|
 |/?|Отображение справки в командной строке. Кроме того, можно ввести/х.|

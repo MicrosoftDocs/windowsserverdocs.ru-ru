@@ -1,18 +1,18 @@
 ---
 title: timeout
 description: Справочная статья по времени ожидания, в течение которого процессор команд приостанавливается на указанное количество секунд.
-ms.topic: article
+ms.topic: reference
 ms.assetid: e26b4a84-0e30-46e1-aa10-0667b7d3cb4c
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 90ba2da52f97ee603ce7992e4df135c1284c4070
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 4905eaadc745fc5499cb393b1808794e2f803361
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87881400"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89038262"
 ---
 # <a name="timeout"></a>timeout
 
@@ -30,7 +30,7 @@ timeout /t <TimeoutInSeconds> [/nobreak]
 
 |Параметр|Описание|
 |---------|-----------|
-|/t\<TimeoutInSeconds>|Указывает десятичное число секунд (от-1 до 99999), по истечении которого обработчик команд продолжит обработку. Значение-1 заставляет компьютер бесконечно ждать нажатия клавиши.|
+|/t \<TimeoutInSeconds>|Указывает десятичное число секунд (от-1 до 99999), по истечении которого обработчик команд продолжит обработку. Значение-1 заставляет компьютер бесконечно ждать нажатия клавиши.|
 |/нобреак|Задает игнорирование пользовательских клавиш.|
 |/?|Отображение справки в командной строке.|
 

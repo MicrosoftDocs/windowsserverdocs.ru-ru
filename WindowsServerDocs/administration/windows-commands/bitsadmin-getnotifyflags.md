@@ -1,18 +1,18 @@
 ---
 title: bitsadmin getnotifyflags
 description: Справочная статья по команде битсадмин жетнотифифлагс, которая получает флаги уведомления для указанного задания.
-ms.topic: article
+ms.topic: reference
 ms.assetid: d4657e6c-8959-4db7-a4af-e73d3f80ecf8
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 5368069b66b94436c9641527868267676fd6acb9
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 3b0281629eb98a7f74defb0971b691fd656d9d97
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87894084"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89033442"
 ---
 # <a name="bitsadmin-getnotifyflags"></a>bitsadmin getnotifyflags
 

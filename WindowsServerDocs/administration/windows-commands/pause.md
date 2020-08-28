@@ -1,22 +1,22 @@
 ---
 title: pause
 description: Справочная статья по команде Pause, которая приостанавливает обработку пакетных программ.
-ms.topic: article
+ms.topic: reference
 ms.assetid: cab3afc3-d046-432f-a0bf-6282f0099032
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: e5f8f10ae64fea8cf2c4610247ebe28b03ce26ae
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 0da314b5b73935fa895b613b827f832492428cc7
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87885064"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89032481"
 ---
 # <a name="pause"></a>pause
 
-Приостанавливает обработку пакетной программы, отображая запрос,`Press any key to continue . . .`
+Приостанавливает обработку пакетной программы, отображая запрос, `Press any key to continue . . .`
 
 ## <a name="syntax"></a>Синтаксис
 

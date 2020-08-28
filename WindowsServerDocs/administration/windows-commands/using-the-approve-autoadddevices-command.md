@@ -1,18 +1,18 @@
 ---
 title: Утвердить — Аутоадддевицес
 description: Справочная статья по утверждению-Аутоадддевицес, которая утверждает компьютеры, ожидающие административного утверждения.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 8d76e8d3-ab35-429c-be7b-904f95d0782d
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 79cc6d2aa9c91433cecb08e9a380b99a8c12332e
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: b04537fecb0f498fc0e342157845a77b8558caa1
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87896583"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89038252"
 ---
 # <a name="approve-autoadddevices"></a>Утвердить — Аутоадддевицес
 

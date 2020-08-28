@@ -1,18 +1,18 @@
 ---
 title: nslookup
 description: Справочная статья по команде nslookup, которая отображает сведения, которые можно использовать для диагностики инфраструктуры системы доменных имен (DNS).
-ms.topic: article
+ms.topic: reference
 ms.assetid: 41516932-7833-434a-aa92-b4cf0f9a7ef7
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 7d01f167a198803db269e97e806a6d2867074d60
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: c06121384ec18a879eaccbb34c926ce68cff9f49
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87885324"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89032782"
 ---
 # <a name="nslookup"></a>nslookup
 
@@ -40,7 +40,7 @@ nslookup [exit | finger | help | ls | lserver | root | server | set | view] [opt
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | [выход из nslookup](nslookup-exit-command.md) | Выход из программы командной строки Nslookup. |
 | [nslookup Finger](nslookup-finger-command.md) | Подключается к серверу finger на текущем компьютере. |
@@ -77,7 +77,7 @@ nslookup [exit | finger | help | ls | lserver | root | server | set | view] [opt
 
 - Если запрос на поиск завершается неудачей, программа командной строки выдает сообщение об ошибке, в том числе:
 
-  | Сообщение об ошибке | Описание: |
+  | Сообщение об ошибке | Описание |
   | ------------- | ----------- |
   | истекло время ожидания |Сервер не ответил на запрос по истечении определенного промежутка времени и определенного числа повторных попыток. Время ожидания можно установить с помощью команды [nslookup set timeout](nslookup-set-timeout.md) . Число повторных попыток можно задать с помощью команды [nslookup set retry](nslookup-set-retry.md) . |
   | Нет ответа от сервера | Сервер DNS-имен не работает на компьютере сервера. |

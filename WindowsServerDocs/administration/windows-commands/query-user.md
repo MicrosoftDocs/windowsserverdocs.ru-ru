@@ -1,18 +1,18 @@
 ---
 title: query user
 description: Справочная статья по команде запроса пользователя, которая отображает сведения о пользовательских сеансах на удаленный рабочий стол сервере узла сеансов.
-ms.topic: article
+ms.topic: reference
 ms.assetid: a670fb78-c055-464a-b61d-3a85632c52c5
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: ea760c32cc7955c96a363c994c2cb49227bceb2e
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 78d6fd5a153909c067e322b5f46982843a4f46d6
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87884406"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89038392"
 ---
 # <a name="query-user"></a>query user
 
@@ -43,7 +43,7 @@ query user [<username> | <sessionname> | <sessionID>] [/server:<servername>]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 |--|--|
 | `<username>` | Указывает имя входа пользователя, которому необходимо выполнить запрос. |
 | `<sessionname>` | Указывает имя сеанса, с которым необходимо выполнить запрос. |

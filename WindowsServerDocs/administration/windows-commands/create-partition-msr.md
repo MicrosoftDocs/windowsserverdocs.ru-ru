@@ -1,18 +1,18 @@
 ---
 title: create partition msr
 description: Справочная статья по созданию раздела MSR, который создает MSR-раздел на диске с таблицей разделов GUID (GPT).
-ms.topic: article
+ms.topic: reference
 ms.assetid: 04fba033-23cb-4521-bd5d-db96131f2e73
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: b697aa278849e2cd084ef7e9378b7997032a820c
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 1df792001cf48d9d5fce69de6dc9bc6bdd09a1f8
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87879884"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89033232"
 ---
 # <a name="create-partition-msr"></a>create partition msr
 
@@ -33,7 +33,7 @@ create partition msr [size=<n>] [offset=<n>] [noerr]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | Размер =`<n>` | Размер раздела в мегабайтах (МБ). Размер секции не меньше, чем в байтах, как указано в `<n>` . Если размер не указан, раздел будет продолжаться до тех пор, пока в текущем регионе не останется свободного места. |
 | offset =`<n>` | Задает смещение в килобайтах (КБ), в котором создается секция. Смещение округляется до полного заполнения любого размера сектора. Если смещение не задано, раздел помещается в первый экстент диска, достаточно большой для его хранения. |

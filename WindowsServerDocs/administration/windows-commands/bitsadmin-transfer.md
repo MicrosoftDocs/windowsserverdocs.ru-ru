@@ -1,18 +1,18 @@
 ---
 title: bitsadmin transfer
 description: Справочная статья по команде передачи битсадмин, которая передает один или несколько файлов.
-ms.topic: article
+ms.topic: reference
 ms.assetid: fe302141-b33a-4a05-835e-dc4fc4db7d5a
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 06496dffa417bb611700a9d6cec2262fd4d6e690
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 989c2ace5aa8cb0f123dec6f2ad490c1c8c778cd
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87880976"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89033352"
 ---
 # <a name="bitsadmin-transfer"></a>bitsadmin transfer
 

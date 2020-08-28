@@ -1,18 +1,18 @@
 ---
 title: tftp
 description: Перенос файлов на удаленный компьютер и с удаленного компьютера.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 772f19a8-dafe-45cd-878a-f5691f6568ef
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: e085d86ea8dff5261f77505df4d5d7c2c6adb675
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 94884e2ae992441bb0031e25f9aeebe5984c207d
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87881618"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89038282"
 ---
 # <a name="tftp"></a>tftp
 

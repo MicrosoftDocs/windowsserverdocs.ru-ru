@@ -5,14 +5,14 @@ manager: dmoss
 ms.author: toklima
 author: toklima
 ms.assetid: 0397c204-b3f8-4fd8-b71d-b7efb117766d
-ms.topic: article
+ms.topic: reference
 ms.date: 10/16/2017
-ms.openlocfilehash: b6bcd763643eba8c82fbd1ebd82199aa46f8f0dd
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: c51d7c993199c395d2074fc1db393239a9b4b603
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87889753"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89032892"
 ---
 # <a name="fsutil-volume"></a>fsutil volume
 
@@ -33,7 +33,7 @@ fsutil volume [querycluster] <volumepath> <cluster> [<cluster>] … …
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | аллокатионрепорт | Отображает сведения о том, как хранилище используется на заданном томе. |
 | `<volumepath>` | Указывает букву диска (с последующим двоеточием). |

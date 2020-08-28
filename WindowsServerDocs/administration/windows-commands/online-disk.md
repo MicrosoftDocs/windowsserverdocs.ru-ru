@@ -1,18 +1,18 @@
 ---
 title: online disk
 description: Справочная статья по команде "оперативный диск", которая переводит автономный диск в состояние "в сети".
-ms.topic: article
+ms.topic: reference
 ms.assetid: bc44a783-eaa4-40ca-be01-5703b5bf4eb3
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 81bfd2dfc8e32656602066d702e8c1af5f4d1c82
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 934e6bb1d7d5b52b00ac7eadea35e6f022906e5b
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87885241"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89032702"
 ---
 # <a name="online-disk"></a>online disk
 
@@ -36,7 +36,7 @@ online disk [noerr]
 
 Инструкции по использованию этой команды см. [в разделе Повторная активация отсутствующего или неподключенного динамического диска](/previous-versions/windows/it-pro/windows-server-2008-r2-and-2008/cc732026(v=ws.11)).
 
-| Параметр | Описание: |
+| Параметр | Описание |
 |--|--|
 | Noerr | Только для сценариев. При возникновении ошибки DiskPart продолжит обрабатывать команды, как если бы ошибка не возникала. Без этого параметра ошибка приводит к выходу из программы DiskPart с кодом ошибки. |
 

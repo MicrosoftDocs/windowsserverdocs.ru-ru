@@ -1,18 +1,18 @@
 ---
 title: path
 description: Справочная статья по настройке пути к команде в переменной среды PATH с указанием набора каталогов, используемых для поиска исполняемых файлов (exe).
-ms.topic: article
+ms.topic: reference
 ms.assetid: 1bfa1349-e79a-472b-a9e6-d7a91149ae8f
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 4c81dfef09b4c9a411db9469ec851d4f92180f1d
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: fe60518a70f4fdc9992f70b3b561b067404a31f1
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87885104"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89032511"
 ---
 # <a name="path"></a>path
 
@@ -27,7 +27,7 @@ path ;
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 |--|--|
 | `[<drive>:]<path>` | Указывает диск и каталог, который нужно задать в пути к команде. Текущий каталог всегда ищется перед каталогами, указанными в пути к команде. |
 | ; | Разделяет каталоги в пути команды. При использовании без параметров **;** очищает существующие пути к командам из переменной среды PATH и направляет Cmd.exe для поиска только в текущем каталоге. |

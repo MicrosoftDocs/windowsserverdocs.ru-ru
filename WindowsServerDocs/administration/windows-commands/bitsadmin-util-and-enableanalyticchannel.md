@@ -1,18 +1,18 @@
 ---
 title: bitsadmin util и enableanalyticchannel
 description: Справочная статья по команде битсадмин util and енаблеаналитикчаннел, которая включает или отключает канал аналитики клиента службы BITS.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 0d7645aa-b91b-4ed7-b630-a1e1be6f6ae9
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 2c4577f635444c1830e232e1baeb12fac8c75476
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: b4b6dd18fada99d63fcea7e3ca7338567fcb3894
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87880951"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89033342"
 ---
 # <a name="bitsadmin-util-and-enableanalyticchannel"></a>bitsadmin util и enableanalyticchannel
 
@@ -24,7 +24,7 @@ ms.locfileid: "87880951"
 bitsadmin /util /enableanalyticchannel TRUE|FALSE
 ```
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ---------- |
 | TRUE или FALSE | **Значение true** включает проверку содержимого для указанного файла, а **значение false** отключает его. |
 
