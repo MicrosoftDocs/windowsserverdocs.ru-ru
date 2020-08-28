@@ -3,16 +3,16 @@ title: format
 description: Справочная статья по команде Format, которая форматирует диск для приема файлов Windows.
 manager: dongill
 ms.author: jgerend
-ms.topic: article
+ms.topic: reference
 ms.assetid: 51ec7423-9a01-4219-868a-25d69cdcc832
 author: jasongerend
 ms.date: 10/16/2017
-ms.openlocfilehash: a923706252e6094cf12dcdf2632366ee7b2401f8
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 99faab9a9f2f6a70e142408c4b2a81b623db7d1f
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87890125"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89027622"
 ---
 # <a name="format"></a>Формат
 

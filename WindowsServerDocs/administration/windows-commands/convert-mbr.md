@@ -1,18 +1,18 @@
 ---
 title: convert mbr
 description: Справочная статья по команде Convert MBR, которая преобразует пустой базовый диск с стилем разделов GPT в базовый диск с стилем разделов основной загрузочной записи (MBR).
-ms.topic: article
+ms.topic: reference
 ms.assetid: a635a4c0-af73-4330-b021-51d483424537
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 61f387d55f310d2ea610aa3033464c66addfc353
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 2a07ca0e6c3d07dadf416a04ac1c5c4adbeb5bfe
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87892559"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89034172"
 ---
 # <a name="convert-mbr"></a>convert mbr
 

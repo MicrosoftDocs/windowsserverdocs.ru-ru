@@ -1,18 +1,18 @@
 ---
 title: dfsdiag
 description: Справочная статья по команде дфсдиаг, которая предоставляет диагностические сведения для пространств имен DFS.
-ms.topic: article
+ms.topic: reference
 ms.assetid: c0891e67-0187-4f18-923d-5623e6127f90
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: ea349e088ccecd772130d30bfba01cbd1bf2e8e6
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: da34cc9b4c2cfcb30d2f8ff3161d6777ae9d0275
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87891056"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89034152"
 ---
 # <a name="dfsdiag"></a>dfsdiag
 
@@ -30,7 +30,7 @@ dfsdiag /testreferral /DFSpath:<DFS path to get referrals> [/full]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | [dfsdiag testdcs](dfsdiag-testdcs.md) | Проверяет конфигурацию контроллера домена. |
 | [dfsdiag testsites](dfsdiag-testsites.md) | Проверяет связи сайтов. |

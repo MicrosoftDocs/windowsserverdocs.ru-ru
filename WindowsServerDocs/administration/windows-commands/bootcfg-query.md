@@ -1,18 +1,18 @@
 ---
 title: bootcfg query
 description: Справочная статья по команде bootcfg query, которая запрашивает и отображает записи раздела Boot Loader и операционной системы из Boot.ini.
-ms.topic: article
+ms.topic: reference
 ms.assetid: a4cacfd1-10a6-4a11-b0c5-f8abde72bfc8
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: bb4ff06e8c0e5f31c0132f7fbc4fad49be53dd62
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 9e6b5a34a0af467c12549f4921d8d5c99e79aaa9
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87880565"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89034442"
 ---
 # <a name="bootcfg-query"></a>bootcfg query
 
@@ -28,14 +28,14 @@ bootcfg /query [/s <computer> [/u <domain>\<user> /p <password>]]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | `/s <computer>` | Указывает имя или IP-адрес удаленного компьютера (не используйте обратную косую черту). По умолчанию это локальный компьютер. |
 | `/u <domain>\<user>`  | Выполняет команду с разрешениями учетной записи пользователя, указанного в параметре `<user>` или `<domain>\<user>` . По умолчанию заданы разрешения текущего вошедшего в систему пользователя на компьютере, выполняющем команду. |
 | `/p <password>` | Указывает пароль учетной записи пользователя, указанной в параметре **/u** . |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="sample-output"></a>Пример полученных результатов
+#### <a name="sample-output"></a>Пример выходных данных
 
 Пример выходных данных для команды **bootcfg/query** :
 

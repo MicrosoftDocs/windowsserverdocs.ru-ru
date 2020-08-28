@@ -1,18 +1,18 @@
 ---
 title: secedit
 description: Справочная статья для * * * *-
-ms.topic: article
+ms.topic: reference
 ms.assetid: 58ed57ed-08e3-403d-a363-0620b358637a
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 570590710ea10758fe35e1cc2160709885bb60eb
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: a1eed3e5e4c1673f8b10d633323da1d74e6a2722
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87882900"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89027962"
 ---
 # <a name="secedit"></a>secedit
 

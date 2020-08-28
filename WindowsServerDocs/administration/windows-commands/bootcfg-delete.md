@@ -1,18 +1,18 @@
 ---
 title: bootcfg delete
 description: Справочная статья по команде bootcfg DELETE, которая удаляет запись операционной системы в разделе "операционные системы" файла Boot.ini.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 71382e29-9b39-41c8-9c23-cf0ff829440a
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 2426dde90402e65eb29c78d82562338a61248cf6
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 9eedad8157dbf25167c484e276167c038adb5667
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87880618"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89034472"
 ---
 # <a name="bootcfg-delete"></a>bootcfg delete
 

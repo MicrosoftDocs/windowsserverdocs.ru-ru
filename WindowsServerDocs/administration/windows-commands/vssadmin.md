@@ -1,17 +1,17 @@
 ---
 title: List
 description: Общие сведения о командах VSSAdmin.
-ms.topic: article
+ms.topic: reference
 author: JasonGerend
 ms.author: jgerend
 ms.date: 05/18/2018
 ms.localizationpriority: medium
-ms.openlocfilehash: 529a135164495ad5d0cb2db09373139ac7663e57
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 1c75271a8b3200072ad3c0c9bf4dd45894b9beb6
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87892276"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89022928"
 ---
 # <a name="vssadmin"></a>List
 
@@ -19,7 +19,7 @@ ms.locfileid: "87892276"
 
 Отображает резервные копии текущих теневых копий томов и всех установленных модулей записи и поставщиков теневого копирования. Выберите имя команды в следующей таблице, чтобы просмотреть его синтаксис команды.
 
-|Get-Help|Описание|Доступность
+|Команда|Описание|Доступность
 |---|---|---
 |[Vssadmin Add шадовстораже](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/cc788051(v%3dws.11))|Добавляет сопоставление хранилища теневых копий томов.| Только сервер
 |[Vssadmin create shadow](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/cc788055(v%3dws.11))|Создает новую теневую копию тома.| Только сервер

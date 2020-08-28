@@ -1,18 +1,18 @@
 ---
 title: bitsadmin getaclflags
 description: Справочная статья по команде битсадмин жетаклфлагс, которая получает флаги распространения списка управления доступом (ACL).
-ms.topic: article
+ms.topic: reference
 ms.assetid: 99266def-7479-4430-a61c-98ec433fa88b
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 437ad345ec778290499b7b128ee08ffd41be320c
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 5254d65bb5ba3e35fcf5368e24045530a76bfd95
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87894574"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89033702"
 ---
 # <a name="bitsadmin-getaclflags"></a>bitsadmin getaclflags
 

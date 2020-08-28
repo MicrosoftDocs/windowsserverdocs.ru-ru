@@ -1,18 +1,18 @@
 ---
 title: cacls
 description: Справочная статья по команде cacls. Эта команда устарела и не гарантируется, что она будет поддерживаться в будущих выпусках Windows.
-ms.topic: article
+ms.topic: reference
 ms.assetid: b5bdbaaa-4557-48b8-80df-e75ee0d2f27d
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 0a6033d6631fd3269f00f52df14fd5e94994b278
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 8261e9711cee85ad1d59ff71f9cd8ac55e63fab8
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87880421"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89034282"
 ---
 # <a name="cacls"></a>cacls
 
@@ -44,7 +44,7 @@ cacls <filename> [/t] [/m] [/l] [/s[:sddl]] [/e] [/c] [/g user:<perm>] [/r user 
 | [/d пользователь [...] | Запрет указанного доступа пользователя. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="sample-output"></a>Пример полученных результатов
+#### <a name="sample-output"></a>Пример выходных данных
 
 | Выходные данные | Запись управления доступом (ACE) применяется к |
 -------- | ------------------------------------- |

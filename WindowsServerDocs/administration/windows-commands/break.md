@@ -1,18 +1,18 @@
 ---
 title: break
 description: Справочная статья по команде Break, которая приводит к разрыву зеркального тома с фокусом на два простых тома.
-ms.topic: article
+ms.topic: reference
 ms.assetid: ffc4901c-457b-46a6-a671-3052355f8a3c
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 427aa9d360e98cc21393e431aecfd5a73dc32700
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: d3592984e66d820cf1fa2d762aafb939ed856f0f
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87880470"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89034322"
 ---
 # <a name="break"></a>break
 

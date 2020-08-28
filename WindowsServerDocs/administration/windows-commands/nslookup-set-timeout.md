@@ -1,18 +1,18 @@
 ---
 title: nslookup set timeout
 description: Справочная статья по команде nslookup set timeout, которая изменяет начальное число секунд ожидания ответа на запрос поиска.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 07afdaf4-ffec-496f-a188-4e91cf1a28f8
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: ae0d23296e05519eef02384ebb90b8aa16d8c499
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: fb245e062f510ebef0e0b26176e8e5be7c9cfaea
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87885472"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89033912"
 ---
 # <a name="nslookup-set-timeout"></a>nslookup set timeout
 
@@ -28,7 +28,7 @@ set timeout=<number>
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | ---------- | ---------- |
 | `<number>` | Указывает количество секунд ожидания ответа. Значение по умолчанию (в секундах) ожидания равно **5**. |
 | /? | Отображение справки в командной строке. |

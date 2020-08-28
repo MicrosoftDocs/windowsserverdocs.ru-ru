@@ -1,18 +1,18 @@
 ---
 title: pushd
 description: Справочная статья для команды pushd, в которой хранится текущий каталог для использования командой popd, а затем вносятся изменения в указанный каталог.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 396bc545-0f41-473e-b0ac-76fbbb74d390
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: e885cab58e23af9da050822c49a655ca897ce819
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 383f3f6da4fc171629350eaa9257ffe9759cca8e
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87884581"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89033802"
 ---
 # <a name="pushd"></a>pushd
 

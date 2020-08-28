@@ -1,18 +1,18 @@
 ---
 title: bootcfg raw
 description: Справочная статья по команде bootcfg RAW, которая добавляет параметры загрузки операционной системы, указанные в виде строки, в запись операционной системы в разделе операционной системы файла Boot.ini.
-ms.topic: article
+ms.topic: reference
 ms.assetid: e3458749-b0a0-460f-a022-3ff199a71f27
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 9cba66ccebeacd21d337e04c97d935bd2c260b24
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: d0ca0d6a4201ae292998de420a80b781c9bb1b6c
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87880553"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89034412"
 ---
 # <a name="bootcfg-raw"></a>bootcfg raw
 
@@ -28,7 +28,7 @@ bootcfg /raw [/s <computer> [/u <domain>\<user> /p <password>]] <osloadoptionsst
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | `/s <computer>` | Указывает имя или IP-адрес удаленного компьютера (не используйте обратную косую черту). По умолчанию это локальный компьютер. |
 | `/u <domain>\<user>`  | Выполняет команду с разрешениями учетной записи пользователя, указанного в параметре `<user>` или `<domain>\<user>` . По умолчанию заданы разрешения текущего вошедшего в систему пользователя на компьютере, выполняющем команду. |

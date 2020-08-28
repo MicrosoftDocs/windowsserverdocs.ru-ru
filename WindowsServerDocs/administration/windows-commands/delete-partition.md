@@ -1,18 +1,18 @@
 ---
 title: delete partition
 description: Справочная статья по команде удаления секции, которая удаляет раздел с фокусом.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 65752312-cb16-46f6-870f-1b95c507b101
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 5a783a7d94b48f088eeb868ac64ca355d8829c25
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 9a3b0f6b57f700201c05bd81c706d07de589e9f7
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87891437"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89027742"
 ---
 # <a name="delete-partition"></a>delete partition
 

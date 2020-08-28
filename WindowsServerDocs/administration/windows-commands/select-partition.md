@@ -1,18 +1,18 @@
 ---
 title: select partition
 description: Справочная статья для * * * *-
-ms.topic: article
+ms.topic: reference
 ms.assetid: 25f70083-b8f7-4a8e-9b34-4b3ffbe06670
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 5c144bc3271fa4d10dfc006d8c08e1a737f763fe
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 816a235f7ba83320828a5dc72c9f2558c27b2ed8
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87882851"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89027912"
 ---
 # <a name="select-partition"></a>select partition
 
@@ -30,7 +30,7 @@ select partition=<n>
 
 ### <a name="parameters"></a>Параметры
 
-|   Параметр    |                                                                                    Описание:                                                                                    |
+|   Параметр    |                                                                                    Описание                                                                                    |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | диска\=<n> | Номер секции, получающей фокус. Числа для всех разделов на диске, выбранных в данный момент, можно просмотреть с помощью команды **list partition** в DiskPart. |
 

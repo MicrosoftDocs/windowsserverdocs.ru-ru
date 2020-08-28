@@ -1,18 +1,18 @@
 ---
 title: bootcfg ems
 description: Справочная статья по команде bootcfg EMS, которая позволяет пользователю добавлять или изменять параметры перенаправления консоли служб аварийного управления на удаленный компьютер.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 57abdc50-c64a-45f1-8470-3f8c3a51f743
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: b3f703eefe9f9300d6576a9f4349d2fb275b2d57
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: da374cc5b901be72c8ef3fed2a16d7d56c5d53fe
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87880577"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89034462"
 ---
 # <a name="bootcfg-ems"></a>bootcfg ems
 

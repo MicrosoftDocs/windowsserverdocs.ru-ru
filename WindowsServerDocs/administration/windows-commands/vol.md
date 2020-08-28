@@ -1,18 +1,18 @@
 ---
 title: vol
 description: Справочная статья для Vol, которая отображает метку тома диска и серийный номер, если они существуют.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 398b3aa1-2442-42be-a4fb-78701080b0df
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 0d2580687bf2e074ad7cb2b11377f4ed23be876c
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 96f4acac60803b2ffc6d1706f3fafd529500e758
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87891820"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89022948"
 ---
 # <a name="vol"></a>vol
 
@@ -28,7 +28,7 @@ vol [<Drive>:]
 
 ### <a name="parameters"></a>Параметры
 
-|Параметр|Описание:|
+|Параметр|Описание|
 |---------|-----------|
 |\<Drive>:|Указывает диск, содержащий диск, для которого требуется отобразить метку тома и серийный номер.|
 |/?|Отображение справки в командной строке.|

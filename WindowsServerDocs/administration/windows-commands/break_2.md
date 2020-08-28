@@ -1,18 +1,18 @@
 ---
 title: останов (том теневой копии)
 description: Справочная статья по команде Break, которая отменяет связь тома теневых копий с VSS и делает его доступным как обычный том.
-ms.topic: article
+ms.topic: reference
 ms.assetid: de2b6c95-1c2e-4a43-bec5-341a9014371b
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 125f986152d10844bbab5a7b57a1a2ea4080aa3e
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: d94275b83ad65f70db4bd1850f55ea527292d1bc
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87880462"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89034312"
 ---
 # <a name="break-shadow-copy-volume"></a>останов (том теневой копии)
 
@@ -31,7 +31,7 @@ break [writable] <setid>
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | записывать | Включает доступ на чтение и запись для тома. |
 | \<setid> | Указывает идентификатор набора теневых копий. Псевдоним идентификатора теневой копии, который хранится в виде переменной среды с помощью команды **загрузить метаданные** , можно использовать в параметре *сетид* . |

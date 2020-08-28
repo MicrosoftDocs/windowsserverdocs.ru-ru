@@ -1,18 +1,18 @@
 ---
 title: mapadmin
 description: Справочная статья по команде мападмин, которая управляет сопоставление имен пользователей для служб Microsoft для сетевой файловой системы.
-ms.topic: article
+ms.topic: reference
 ms.assetid: b17332c7-8622-4223-9c43-2fb9cf4d992d
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 3334ae31b3abb85dcc3df046d8199c9b72ea3944
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 8b62e31dbe53c5e2b16093bb222b8129d3cca087
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87886570"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89033952"
 ---
 # <a name="mapadmin"></a>mapadmin
 
@@ -40,11 +40,11 @@ mapadmin [<computer>] [-u <user> [-p <password>]] listdomainmaps
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | `<computer>` | Указывает удаленный компьютер, на котором запущена служба сопоставление имен пользователей, которую требуется администрировать. Можно указать компьютер, используя имя службы Windows Internet Name Service (WINS) или имя DNS или IP-адрес. |
-| -u`<user>` | Указывает имя пользователя, учетные данные которого будут использоваться. Может потребоваться добавить доменное имя в имя пользователя в формате *домен \ имя_пользователя*. |
-| -p`<password>` | Указывает пароль пользователя. Если указать параметр **-u** , но опустить параметр **-p** , будет предложено ввести пароль пользователя. |
+| -u `<user>` | Указывает имя пользователя, учетные данные которого будут использоваться. Может потребоваться добавить доменное имя в имя пользователя в формате *домен \ имя_пользователя*. |
+| -p `<password>` | Указывает пароль пользователя. Если указать параметр **-u** , но опустить параметр **-p** , будет предложено ввести пароль пользователя. |
 | `start | stop` | Запускает или останавливает службу сопоставление имен пользователей. |
 | config | Задает общие параметры для сопоставление имен пользователей. С этим параметром доступны следующие параметры:<ul><li>**-r `<dddd>:<hh>:<mm>` :** указывает интервал обновления для обновлений из баз данных Windows и NIS в днях, часах и минутах. Минимальный интервал — 5 минут.</li><li>**-i `{yes | no}` :** включение простого сопоставления (**Да**) или выключено (**нет**). По умолчанию сопоставление включено.</li></ul> |
 | add | Создает новое сопоставление для пользователя или группы. С этим параметром доступны следующие параметры:<ul><li>**-Wu `<name>` :** указывает имя пользователя Windows, для которого создается новое сопоставление.</li><li>**-УУ `<name>` :** указывает имя пользователя UNIX, для которого создается новое сопоставление.</li><li>**-WG `<group>` :** указывает имя группы Windows, для которой создается новое сопоставление.</li><li>**-UG `<group>` :** указывает имя группы UNIX, для которой создается новое сопоставление.</li><li>**-сетпримари:** Указывает, что новое сопоставление является первичным сопоставлением.</li></ul> |
@@ -63,13 +63,13 @@ mapadmin [<computer>] [-u <user> [-p <password>]] listdomainmaps
 
 - Для всех параметров, в которых указывается имя пользователя или группы, можно использовать следующие форматы:
 
-    - Для пользователей Windows используйте следующие форматы: `<domain>\<username>` , `\\<computer>\<username>` , `\<computer>\<username>` или.`<computer>\<username>`
+    - Для пользователей Windows используйте следующие форматы: `<domain>\<username>` , `\\<computer>\<username>` , `\<computer>\<username>` или. `<computer>\<username>`
 
-    - Для групп Windows используйте следующие форматы: `<domain>\<groupname>` , `\\<computer>\<groupname>` , `\<computer>\<groupname>` или.`<computer>\<groupname>`
+    - Для групп Windows используйте следующие форматы: `<domain>\<groupname>` , `\\<computer>\<groupname>` , `\<computer>\<groupname>` или. `<computer>\<groupname>`
 
-    - Для пользователей UNIX используйте следующие форматы: `<NISdomain>\<username>` , `<username>@<NISdomain>` , `<username>@PCNFS` или.`PCNFS\<username>`
+    - Для пользователей UNIX используйте следующие форматы: `<NISdomain>\<username>` , `<username>@<NISdomain>` , `<username>@PCNFS` или. `PCNFS\<username>`
 
-    - Для групп UNIX используйте следующие форматы: `<NISdomain>\<groupname>` , `<groupname>@<NISdomain>` , `<groupname>@PCNFS` или.`PCNFS\<groupname>`
+    - Для групп UNIX используйте следующие форматы: `<NISdomain>\<groupname>` , `<groupname>@<NISdomain>` , `<groupname>@PCNFS` или. `PCNFS\<groupname>`
 
 ## <a name="additional-references"></a>Дополнительные ссылки
 

@@ -1,18 +1,18 @@
 ---
 title: Управление — предохранители BDE
 description: Справочная статья по команде "Manage-bde protectors", которая управляет методами защиты, используемыми для ключа шифрования BitLocker.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 1f9b22c5-cc93-45df-9165-bedee94998da
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 08/06/2018
-ms.openlocfilehash: 445f87435a97173192976f195478f9c92e109032
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 0461edcb2e1177f1a72ec7e4a1c893c80cd70698
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87886757"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89027572"
 ---
 # <a name="manage-bde-protectors"></a>Управление — предохранители BDE
 
@@ -28,7 +28,7 @@ manage-bde -protectors [{-get|-add|-delete|-disable|-enable|-adbackup|-aadbackup
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | ----------- | ----------- |
 | -Get | Отображает все методы защиты ключей, включенные на диске, и предоставляет их тип и идентификатор (ID). |
 | — Добавление | Добавляет методы защиты ключей, как указано с помощью **дополнительных параметров** . |
@@ -54,7 +54,7 @@ manage-bde -protectors -add [<drive>] [-forceupgrade] [-recoverypassword <numeri
 [{-?|/?}] [{-help|-h}]
 ```
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | `<drive>` | Представляет букву диска, за которой следует двоеточие. |
 | -рековерипассворд | Добавляет средство защиты числового пароля. Можно также использовать параметр **-RP** в качестве сокращенной версии этой команды. |
@@ -85,7 +85,7 @@ manage-bde -protectors -delete <drive> [-type {recoverypassword|externalkey|cert
 [-id <keyprotectorID>] [-computername <name>] [{-?|/?}] [{-help|-h}]
 ```
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | `<drive>` | Представляет букву диска, за которой следует двоеточие. |
 | -Тип | Определяет предохранитель ключа для удаления. Можно также использовать **-t** в качестве сокращенной версии этой команды. |
@@ -111,7 +111,7 @@ manage-bde -protectors -delete <drive> [-type {recoverypassword|externalkey|cert
 manage-bde -protectors -disable <drive> [-rebootcount <integer 0 - 15>] [-computername <name>] [{-?|/?}] [{-help|-h}]
 ```
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | `<drive>` | Представляет букву диска, за которой следует двоеточие. |
 | ребуткаунт | Указывает, что защита тома операционной системы была приостановлена и будет возобновлена после перезапуска Windows (количество раз, указанное в параметре **ребуткаунт** ). Укажите **0** , чтобы приостановить защиту бессрочно. Если этот параметр не указан, защита BitLocker автоматически возобновляется после перезапуска Windows. Вы также можете использовать **-RC** в качестве сокращенной версии этой команды. |

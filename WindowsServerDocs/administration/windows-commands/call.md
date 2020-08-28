@@ -1,18 +1,18 @@
 ---
 title: вызывает
 description: Справочная статья по команде Call, которая вызывает одну пакетную программу из другой без остановки родительской программы пакетной службы.
-ms.topic: article
+ms.topic: reference
 ms.assetid: d34a41dc-e6c7-4467-bf6a-15cec704833e
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 06/05/2018
-ms.openlocfilehash: 7ff402f159dc69d683ad5c568ca2d31d753eb77c
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 749f073fa3f96f51aec5bf47e4e09ce7263d3205
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87880389"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89034262"
 ---
 # <a name="call"></a>вызывает
 
@@ -29,7 +29,7 @@ call [drive:][path]<filename> [<batchparameters>] [:<label> [<arguments>]]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | `[<drive>:][<path>]<filename>` | Указывает расположение и имя пакетной программы, которую необходимо вызвать. `<filename>`Параметр является обязательным и должен иметь расширение BAT или cmd. |
 | `<batchparameters>` | Указывает все данные командной строки, необходимые для пакетной программы. |
@@ -45,7 +45,7 @@ call [drive:][path]<filename> [<batchparameters>] [:<label> [<arguments>]]
 
 Можно использовать следующие необязательные синтаксисы в качестве подстановок для пакетных параметров (**% n**):
 
-| Параметр Batch | Описание: |
+| Параметр Batch | Описание |
 | --------------- | ----------- |
 | % ~ 1 | Развертывает **%1** и удаляет окружающие кавычки. |
 | % ~ F1 | Расширение **%1** до полного пути. |
@@ -61,7 +61,7 @@ call [drive:][path]<filename> [<batchparameters>] [:<label> [<arguments>]]
 
 В следующей таблице показано, как можно объединить модификаторы с пакетными параметрами для составных результатов.
 
-| Параметр Batch с модификатором | Описание: |
+| Параметр Batch с модификатором | Описание |
 | ----------------------------- | ----------- |
 | % ~ DP1 | Расширение **%1** до буквы диска и пути. |
 | % ~ nx1 | Развертывает **%1** только для имени файла и расширения. |
@@ -90,7 +90,7 @@ call [drive:][path]<filename> [<batchparameters>] [:<label> [<arguments>]]
 
 - Работа с расширениями команд
 
-    Если расширения команд включены, **вызов** принимает `<label>` в качестве цели вызова. Правильный синтаксис:`call :<label> <arguments>`
+    Если расширения команд включены, **вызов** принимает `<label>` в качестве цели вызова. Правильный синтаксис: `call :<label> <arguments>`
 
 ## <a name="examples"></a>Примеры
 

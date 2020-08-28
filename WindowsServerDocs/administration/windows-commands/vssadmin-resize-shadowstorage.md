@@ -1,17 +1,17 @@
 ---
 title: Vssadmin изменение размера шадовстораже
 description: Описание команды vssadmin Resize шадовстораже.
-ms.topic: article
+ms.topic: reference
 author: JasonGerend
 ms.author: jgerend
 ms.date: 03/05/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: 0b49c85ab628de040cf58d47b4e4c694674ce6e7
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 0eb9a4096c529b73a87c5a9fb4d6a95b5e655fe3
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87892337"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89022838"
 ---
 # <a name="vssadmin-resize-shadowstorage"></a>Vssadmin изменение размера шадовстораже
 

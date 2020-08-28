@@ -1,18 +1,18 @@
 ---
 title: bitsadmin cache и getlimit
 description: Справочная статья по битсадмин кэшу и команде IsReference, которая получает ограничение кэша.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 2f3e9912-928c-483b-9acb-55fa5fc975a0
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 5cf8bb988cad7f6c29942167d0ccdbaf4e7b94b4
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 0f166763409e0a73cb0d79c5bb65a8b18ab6ebdf
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87894763"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89027842"
 ---
 # <a name="bitsadmin-cache-and-getlimit"></a>bitsadmin cache и getlimit
 

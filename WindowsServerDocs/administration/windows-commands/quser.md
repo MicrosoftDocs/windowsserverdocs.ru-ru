@@ -1,18 +1,18 @@
 ---
 title: quser
 description: Справочная статья по команде Кусер, которая отображает сведения о пользовательских сеансах на сервере узла сеансов удаленный рабочий стол.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 8056204f-ed11-4c91-bb1d-c799283a48a4
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: dd56263e65ed9b6749f6d3d63c60bce32bb8ed53
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 0697fd6ef780f177f0905d2f2af5deb316c61037
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87884387"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89028082"
 ---
 # <a name="quser"></a>quser
 
@@ -43,7 +43,7 @@ quser [<username> | <sessionname> | <sessionID>] [/server:<servername>]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 |--|--|
 | `<username>` | Указывает имя входа пользователя, которому необходимо выполнить запрос. |
 | `<sessionname>` | Указывает имя сеанса, с которым необходимо выполнить запрос. |

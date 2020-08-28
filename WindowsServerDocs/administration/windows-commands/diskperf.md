@@ -1,18 +1,18 @@
 ---
 title: diskperf
 description: Справочная статья по команде diskperf, которую можно использовать для удаленного включения или отключения счетчиков производительности физических или логических дисков на компьютерах под управлением Windows.
-ms.topic: article
+ms.topic: reference
 ms.assetid: f06916e8-069b-4ec8-a6eb-59f1d9f77111
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 81cefe217abaa7b2d4ee843f3887076f66484422
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 09f095f5e6184b7961d02c05da4c2ca0c56a0482
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87890865"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89034122"
 ---
 # <a name="diskperf"></a>diskperf
 
@@ -26,7 +26,7 @@ diskperf [-y[d|v] | -n[d|v]] [\\computername]
 
 ## <a name="options"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | ------ | ----------- |
 | -y | Запускает все счетчики производительности диска при перезагрузке компьютера. |
 | -ИД | Включает счетчики производительности дисков для физических дисков при перезагрузке компьютера. |

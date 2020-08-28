@@ -1,18 +1,18 @@
 ---
 title: reg load
 description: Справочная статья по команде reg load, которая записывает сохраненные разделы и записи в другой подраздел реестра.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 3b0b2b1b-f510-4108-9e9d-7057e924aa6e
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: bc44a6d992312f67abb29a91da848cc17787d507
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 8647b417999459b210986187bd523b3953a8b2d6
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87884096"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89028032"
 ---
 # <a name="reg-load"></a>reg load
 

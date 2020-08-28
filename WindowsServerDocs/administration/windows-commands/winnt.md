@@ -1,18 +1,18 @@
 ---
 title: winnt
 description: Справочная статья для WinNT, которая устарела и не гарантируется в будущих выпусках Windows.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 3bf6e792-befb-435c-8fa3-940a45a98adb
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 3bc774dd18e2304624d3cb1a5150c9dd3bb0242e
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 20449f6c4132e1145a9f50e1c9191fa616b4e15e
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87896848"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89022678"
 ---
 # <a name="winnt"></a>winnt
 

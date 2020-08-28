@@ -1,18 +1,18 @@
 ---
 title: Команды Windows
 description: Справочник
-ms.topic: article
+ms.topic: reference
 ms.assetid: c703d07c-8227-4e86-94a6-8ef390f94cdc
 author: jasongerend
 ms.author: jgerend
 manager: dongill
 ms.date: 06/29/2020
-ms.openlocfilehash: 5b596523cc47d9798733ce4f57da43faa9ac075b
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: c389d0889d4dfca46472215f014e77e9b2346f87
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87991136"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89022854"
 ---
 # <a name="windows-commands"></a>Команды Windows
 
@@ -20,15 +20,15 @@ ms.locfileid: "87991136"
 
 Этот набор документации описывает команды Windows, которые можно использовать для автоматизации задач с помощью скриптов или средств создания скриптов.
 
-## <a name="prerequisites"></a>Предварительные требования
+## <a name="prerequisites"></a>Обязательные условия
 
 Сведения, содержащиеся в этом разделе, применимы к:
 
-- Windows Server 2019
+- Windows Server 2019
 - Windows Server (Semi-Annual Channel)
 - Windows Server 2016
 - Windows Server 2012 R2
-- Windows Server 2012
+- Windows Server 2012
 - Windows Server 2008 R2
 - Windows Server 2008
 - Windows 10
@@ -63,7 +63,7 @@ PowerShell был разработан для расширения возмож�
 
 [Объект](#a)  |  [Б](#b)  |  [C](#c)  |  [Г](#d)  |  [Д](#e)  |  [F](#f)  |  [Ж](#g)  |  [З](#h)  |  [Я](#i)  |  [J](#j)  |  [Л](#k)  |  [L](#l)  |  [М](#m)  |  [N](#n)  |  [O](#o)  |  [P](#p)  |  [Вопросы и ответы](#q)  |  Язык [R](#r)  |  [С](#s)  |  [T](#t)  |  [U](#u)  |  [Версия](#v)  |  [Н](#w)  |  [X](#x) | Y | Гармошкой
 
-### <a name="a"></a>A
+### <a name="a"></a>Объект
 
 - [active](active.md)
 - [add](add.md)
@@ -337,7 +337,7 @@ PowerShell был разработан для расширения возмож�
 - [extend](extend.md)
 - [extract](extract.md)
 
-### <a name="f"></a>C
+### <a name="f"></a>F
 
 - [fc](fc.md)
 - [filesystems](filesystems.md)
@@ -546,7 +546,7 @@ PowerShell был разработан для расширения возмож�
 - [msinfo32](msinfo32.md)
 - [mstsc](mstsc.md)
 
-### <a name="n"></a>Нет
+### <a name="n"></a>N
 
 - [nbtstat](nbtstat.md)
 - [netcfg](netcfg.md)
@@ -596,7 +596,7 @@ PowerShell был разработан для расширения возмож�
   - [online volume](online-volume.md)
 - [openfiles](openfiles.md)
 
-### <a name="p"></a>С
+### <a name="p"></a>P
 
 - [pagefileconfig](pagefileconfig.md)
 - [path](path.md)

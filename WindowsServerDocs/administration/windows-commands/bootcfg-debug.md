@@ -1,18 +1,18 @@
 ---
 title: bootcfg debug
 description: Справочная статья по команде bootcfg debug, которая добавляет или изменяет параметры отладки для указанной записи операционной системы.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 28afa5fb-a236-46e2-b1a4-a3c43a49c437
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 8b3cbde64da67196a1067791e5dad3c2b02756d4
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: afeb4f0f522c7c8bea2cf29bd0987622b4bb2e94
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87880698"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89034522"
 ---
 # <a name="bootcfg-debug"></a>bootcfg debug
 

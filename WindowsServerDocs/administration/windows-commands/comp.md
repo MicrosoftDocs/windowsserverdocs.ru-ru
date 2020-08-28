@@ -1,18 +1,18 @@
 ---
 title: comp
 description: Справочная статья по команде Comp, которая сравнивает содержимое двух файлов или наборов файлов по байтам.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 40319d23-704d-4da1-be93-8259547275d0
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 18bd39483957959c746913a4ee18014be40c9eaa
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: bd796aef8ef5794e4d8c09a995cb39a9756fb444
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87880037"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89027782"
 ---
 # <a name="comp"></a>comp
 
@@ -26,7 +26,7 @@ comp [<data1>] [<data2>] [/d] [/a] [/l] [/n=<number>] [/c]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | `<data1>` | Указывает расположение и имя первого файла или набора файлов, которые требуется сравнить. Для указания нескольких файлов можно использовать подстановочные знаки (**&#42;** и **?**). |
 | `<data2>` | Указывает расположение и имя второго файла или набора файлов, которые требуется сравнить. Для указания нескольких файлов можно использовать подстановочные знаки (**&#42;** и **?**). |

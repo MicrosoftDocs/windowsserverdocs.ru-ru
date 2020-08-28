@@ -1,18 +1,18 @@
 ---
 title: mqbkup
 description: Справочная статья по команде мкбкуп, которая создает резервную копию файлов сообщений MSMQ и параметров реестра на устройстве хранения и восстанавливает ранее сохраненные сообщения и параметры.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 7bdd41c4-75ef-455f-b241-1d64a4c7acf5
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 7eecb016efd039d87774c3fd869e746df1e60178
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 0f10948a7f3561d8916c5ceb94aff58076cdd68f
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87886308"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89033932"
 ---
 # <a name="mqbkup"></a>mqbkup
 
@@ -32,7 +32,7 @@ mqbkup {/b | /r} <folder path_to_storage_device>
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | ------- | -------- |
 | /b | Указывает операцию резервного копирования. |
 | /r | Указывает операцию восстановления. |
