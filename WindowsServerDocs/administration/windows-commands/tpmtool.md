@@ -1,17 +1,17 @@
 ---
 title: tpmtool
 description: Справочная статья по тпмтул, которая получает сведения о доверенный платформенный модуль (TPM).
-ms.topic: article
+ms.topic: reference
 author: ashleytqy
 ms.author: ashleytqy
 manager: ronaldai
 ms.date: 05/07/2019
-ms.openlocfilehash: f34e577a87acd79f343f06bb81486d50339cdb54
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: b0f234755eefdca15f214dad428f02631592e8c2
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87897135"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89027002"
 ---
 # <a name="tpmtool"></a>tpmtool
 
@@ -29,7 +29,7 @@ tpmtool /parameter [<arguments>]
 ```
 ### <a name="parameters"></a>Параметры
 
-|Параметр|Описание:|
+|Параметр|Описание|
 |---------|-----------|
 |жетдевицеинформатион|Отображает основные сведения о доверенном платформенном модуле. Значение флагов сведений можно найти [здесь](/windows/desktop/secprov/win32-tpm-isreadyinformation#parameters).|
 |гасерлогс [путь к выходному каталогу]|Собирает журналы TPM и помещает их в указанный каталог. Если этот каталог не существует, он будет создан. По умолчанию они помещаются в текущий каталог. Ниже перечислены возможные создаваемые файлы. </br>-Тпмевентс. evtx</br>— TpmInformation.txt</br>-Сртмбут. dat</br>-Сртмресуме. dat</br>-Дртмбут. dat</br>-Дртмресуме. dat</br>|

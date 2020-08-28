@@ -1,18 +1,18 @@
 ---
 title: wbadmin stop job
 description: Справочная статья по заданию Wbadmin остановить задание, которая отменяет операцию резервного копирования или восстановления, которая выполняется в данный момент. Отмененные операции не могут быть перезапущены — необходимо повторно выполнить отмененную операцию резервного копирования или восстановления с начала.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 3b83b398-39c7-4410-bf17-5c1fb1a4f46d
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: e28a59620888a14e170f293ef2b08ffa9053e515
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: a0ca6fca8dda7c741a9ad9c52a7b6ec0f5e75dea
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87879558"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89031832"
 ---
 # <a name="wbadmin-stop-job"></a>wbadmin stop job
 

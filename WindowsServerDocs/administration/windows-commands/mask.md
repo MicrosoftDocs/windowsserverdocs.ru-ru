@@ -1,18 +1,18 @@
 ---
 title: маска
 description: Справочная статья по команде Mask, которая удаляет аппаратные теневые копии, импортированные с помощью команды Import.
-ms.topic: article
+ms.topic: reference
 ms.assetid: bf301474-d74a-44e7-9fad-c8a11e7ca3bd
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: a893d32dca90169d51a04db66b3dc796cbc69a46
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: c5d8f86de3019e47da3aff56aa370972de3288fa
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87886527"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89037872"
 ---
 # <a name="mask"></a>маска
 

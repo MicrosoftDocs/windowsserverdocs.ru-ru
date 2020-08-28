@@ -1,18 +1,18 @@
 ---
 title: mkdir
 description: Справочная статья по команде mkdir, которая создает каталог или подкаталог.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 033a57a2-5deb-4c98-aa78-61ce8df2a330
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: afff7a7985c5934a8566162da7307ad8676a50f9
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 3ded16e2befe952541dfaac754b0d10c7c128f0a
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87886452"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89037842"
 ---
 # <a name="mkdir"></a>mkdir
 
@@ -29,7 +29,7 @@ mkdir [<drive>:]<path>
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | `<drive>`: | Указывает диск, на котором нужно создать новый каталог. |
 | `<path>` | Указывает имя и расположение нового каталога. Максимальная длина любого отдельного пути определяется файловой системой. Это обязательный параметр. |

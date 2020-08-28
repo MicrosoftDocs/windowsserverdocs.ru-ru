@@ -1,18 +1,18 @@
 ---
 title: change logon
 description: Справочная статья по команде change logon, которая включает или отключает вход из сеансов клиентов или отображает текущее состояние входа в систему.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 41466260-aee9-4333-bcb6-178112c22afd
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: f1196ec063ce6ab6d2ede64d58d22608e2e76c48
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 67f6a5b93fbe5ec16c4cece1c5c8429de06ce494
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87880270"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89031172"
 ---
 # <a name="change-logon"></a>change logon
 
@@ -21,7 +21,7 @@ ms.locfileid: "87880270"
 Включает или отключает вход из сеансов клиента или отображает текущее состояние входа. Эта служебная программа полезна для обслуживания системы. Чтобы выполнить эту команду, необходимо быть администратором.
 
 > [!NOTE]
-> В Windows Server 2008 R2 службы терминалов были переименованы на службы удаленных рабочих столов. Чтобы узнать о новых возможностях последней версии, см. статью [новые возможности службы удаленных рабочих столов в Windows Server](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/dn283323(v=ws.11)).
+> Чтобы узнать о новых возможностях последней версии, см. статью [новые возможности службы удаленных рабочих столов в Windows Server](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/dn283323(v=ws.11)).
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -31,7 +31,7 @@ change logon {/query | /enable | /disable | /drain | /drainuntilrestart}
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | /Query | Отображает текущее состояние входа в систему независимо от того, включено или отключено. |
 | разрешение | Включает вход из сеансов клиента, но не из консоли. |

@@ -1,18 +1,18 @@
 ---
 title: bcdedit
 description: Справочная статья по команде bcdedit, которая создает новые магазины, изменяет существующие магазины и добавляет параметры меню загрузки.
-ms.topic: article
+ms.topic: reference
 ms.assetid: ab2da47d-3aac-44a0-b7fd-bd9561d61553
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 03/27/2018
-ms.openlocfilehash: 0a24ce7f2503d06ce6c57270027328600d93e217
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 81ce7f6964b4ffebdc64056b1bb630bc3eb6d0f7
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87895168"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89031612"
 ---
 # <a name="bcdedit"></a>bcdedit
 

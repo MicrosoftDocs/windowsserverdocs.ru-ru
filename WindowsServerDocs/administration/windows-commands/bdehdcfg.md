@@ -1,18 +1,18 @@
 ---
 title: bdehdcfg
 description: Справочная статья по команде BdeHdCfg, которая готовит жесткий диск с секциями, необходимыми для шифрование диска BitLocker.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 4c92cd74-188e-4fec-b7c4-fe4e8903e032
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 54c43212413aa18f1390a06ddaed81fbdcd80732
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: ea7806fc75d01e3b261296ff6fd462473ca5683b
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87895016"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89031462"
 ---
 # <a name="bdehdcfg"></a>bdehdcfg
 

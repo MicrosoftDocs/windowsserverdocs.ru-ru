@@ -1,18 +1,18 @@
 ---
 title: pushprinterconnections
 description: Справочная статья по команде PushPrinterConnections, которая считывает развернутые параметры подключения принтера из групповая политика и развертывает и удаляет подключения принтеров по мере необходимости.
-ms.topic: article
+ms.topic: reference
 ms.assetid: c30afb97-b149-478f-a4b9-2cbc25361818
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 07d792b31b6ff8ead9e027c711fb91d87ba54ebd
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 41ed8af3b4d70058887de10215f36e1aa530e912
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87884571"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89032374"
 ---
 # <a name="pushprinterconnections"></a>pushprinterconnections
 
@@ -29,7 +29,7 @@ pushprinterconnections <-log> <-?>
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 |--|--|
 | > < журнала | Записывает файл журнала отладки на пользователя в *% TEMP*или записывает журнал отладки на компьютер в *%виндир%\темп*. |
 | <-? > | Отображает справку в командной строке. |

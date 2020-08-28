@@ -1,18 +1,18 @@
 ---
 title: wbadmin restore catalog
 description: Справочная статья по Wbadmin Recover Catalog, которая восстанавливает каталог резервных копий для локального компьютера из указанного места хранения.
-ms.topic: article
+ms.topic: reference
 ms.assetid: ce1e24a0-821d-4353-b09d-8f82c5c4ad56
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 7cf9304140825620ec1eae118e24a5a611a2a384
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 46ebe9d8479ffe7b940cfe31c84176c3c1ef0aa9
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87891701"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89031932"
 ---
 # <a name="wbadmin-restore-catalog"></a>wbadmin restore catalog
 
@@ -31,7 +31,7 @@ wbadmin restore catalog
 
 ### <a name="parameters"></a>Параметры
 
-|Параметр|Описание:|
+|Параметр|Описание|
 |---------|-----------|
 |-backupTarget|Указывает расположение каталога резервных копий системы в том виде, в котором он находился в момент создания резервной копии.|
 |-Machine|Указывает имя компьютера, для которого требуется восстановить каталог резервных копий. Используется при хранении резервных копий на нескольких компьютерах в одном и том же месте. Следует использовать, если указан **-backupTarget** .|

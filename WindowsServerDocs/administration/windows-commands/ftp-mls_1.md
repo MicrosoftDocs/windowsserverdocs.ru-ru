@@ -1,18 +1,18 @@
 ---
 title: ftp mls
 description: Справочная статья по команде FTP MLS, которая отображает сокращенный список файлов и подкаталогов в удаленном каталоге.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 4738fd49-0e80-4bdf-a773-0f973db3a710
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: c2e0dc4ff4b516cc436e5b8a0a9c5ca2e4d77b5d
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 9b4eaf9a4b31fb233d281514bcc50ddc754d398a
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87889240"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89038032"
 ---
 # <a name="ftp-mls"></a>ftp mls
 
@@ -28,7 +28,7 @@ mls <remotefile>[ ] <localfile>
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | `<remotefile>` | Указывает файл, для которого требуется просмотреть список. При указании *ремотефилес*Используйте дефис для представления текущего рабочего каталога на удаленном компьютере. |
 | `<localfile>` | Указывает локальный файл для хранения списка. При указании параметра *локальный_файл*Используйте дефис для отображения списка на экране. |

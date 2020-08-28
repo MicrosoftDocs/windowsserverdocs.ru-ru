@@ -1,18 +1,18 @@
 ---
 title: net print
 description: Справочная статья по команде net print. Эта команда устарела и не гарантируется, что она будет поддерживаться в будущих выпусках Windows.
-ms.topic: article
+ms.topic: reference
 ms.assetid: f59b2015-4698-415d-9a74-09566c466f40
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 16e685c4fb616272baace3554e5ca96bd7a82617
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: a12f11f9552df417f792078d210655eb5893619a
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87886077"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89037792"
 ---
 # <a name="net-print"></a>net print
 

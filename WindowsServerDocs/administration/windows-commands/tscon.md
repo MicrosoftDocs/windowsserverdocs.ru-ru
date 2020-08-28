@@ -1,18 +1,18 @@
 ---
 title: tscon
 description: Справочная статья по тскон, которая подключается к другому сеансу на сервере узла сеансов удаленный рабочий стол.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 315a9793-cd10-4987-bb68-89a9d13f7fce
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 96f23a310d1cf9b1843194ee233b84f69c84bb0c
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: d0acb75411cae8c4d844e8ff2b113c6a9c638a9b
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87897082"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89026882"
 ---
 # <a name="tscon"></a>tscon
 
@@ -23,7 +23,7 @@ ms.locfileid: "87897082"
 
 
 > [!NOTE]
-> В Windows Server 2008 R2 службы терминалов были переименованы на службы удаленных рабочих столов. Чтобы узнать о новых возможностях последней версии, см. статью [новые возможности службы удаленных рабочих столов в Windows server 2012](/previous-versions/orphan-topics/ws.11/hh831527(v=ws.11)) в библиотеке TechNet по Windows Server.
+> Чтобы узнать о новых возможностях последней версии, см. статью [новые возможности службы удаленных рабочих столов в Windows server 2012](/previous-versions/orphan-topics/ws.11/hh831527(v=ws.11)) в библиотеке TechNet по Windows Server.
 
 ## <a name="syntax"></a>Синтаксис
 ```

@@ -1,18 +1,18 @@
 ---
 title: bdehdcfg newdriveletter
 description: Справочная статья по команде BdeHdCfg невдривелеттер, которая назначает новую букву диска части диска, используемой в качестве системного диска.
-ms.topic: article
+ms.topic: reference
 ms.assetid: f1f200a0-6850-4f0d-9047-f9f982a590f8
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: b13bae914f06af4b282ed558384c9cdc14f5bc11
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: cf3cf52bfd23db5aadd82170de2bf20c8e602573
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87895110"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89031552"
 ---
 # <a name="bdehdcfg-newdriveletter"></a>BdeHdCfg: невдривелеттер
 

@@ -1,18 +1,18 @@
 ---
 title: tsecimp
 description: Справочная статья для TSecImp, которая импортирует сведения о назначении из файла язык XML (XML) в файл безопасности сервера TAPI (Tsec.ini).
-ms.topic: article
+ms.topic: reference
 ms.assetid: d7488ec6-0eff-45ff-89ee-9cbe752416bf
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 641e9724211034fa6e5bd76d0d3705b175a18b4c
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: f8ad2f4f29537c2f575ba96d172c9405d9680187
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87896690"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89026872"
 ---
 # <a name="tsecimp"></a>tsecimp
 

@@ -1,18 +1,18 @@
 ---
 title: ksetup addkpasswd
 description: Справочная статья по команде ksetup аддкпассвд, которая добавляет адрес сервера пароля Kerberos (кпассвд) для области.
-ms.topic: article
+ms.topic: reference
 ms.assetid: d3196995-1b38-48ff-ba08-911cfab77317
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 96dd96b3f66a41d75b943fd74ea9fb674f393d09
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 62123fc8a04006078c42894ee53f11346dec0e59
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87888126"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89037952"
 ---
 # <a name="ksetup-addkpasswd"></a>ksetup addkpasswd
 
@@ -26,7 +26,7 @@ ksetup /addkpasswd <realmname> [<kpasswdname>]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | `<realmname>` | Указывает DNS-имя в верхнем регистре, например CORP. CONTOSO.COM и указывается в качестве области по умолчанию или **области =** при запуске **ksetup** . |
 | `<kpasswdname>` | Указывает сервер паролей Kerberos. Оно называется без учета регистра, полное доменное имя, например mitkdc.contoso.com. Если имя KDC пропущено, для размещения Кдкс может использоваться DNS. |

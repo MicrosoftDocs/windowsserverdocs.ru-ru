@@ -1,18 +1,18 @@
 ---
 title: Использование подкоманды Add-Аллдриверпаккажес
 description: Справочная статья по Add-Аллдриверпаккажес, которая добавляет все пакеты драйверов, которые хранятся в папке на сервере.
-ms.topic: article
+ms.topic: reference
 ms.assetid: ba6641c1-d7e9-43a9-9819-702dad5484ed
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 301842cce5306c8f7922660f49c9475fbbf70cc3
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: ccdd132687fdc65336aeb49d317f9ccf5fbcd968
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87897040"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89032189"
 ---
 # <a name="add-alldriverpackages"></a>Add-Аллдриверпаккажес
 

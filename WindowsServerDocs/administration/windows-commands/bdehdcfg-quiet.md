@@ -1,18 +1,18 @@
 ---
 title: bdehdcfg quiet
 description: Справочная статья по команде BdeHdCfg quiet, которая указывает, что BdeHdCfg не отображает все действия и ошибки.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 7f75b702-890b-4ff9-805c-edf5cadd8822
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 7ddd6e2cb63b6af0ea0c50b5260436c184ee6aa6
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 842788b4413cda828d208e8e7fbbeed28d7a72be
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87895090"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89031532"
 ---
 # <a name="bdehdcfg-quiet"></a>BdeHdCfg: тихий режим
 

@@ -1,18 +1,18 @@
 ---
 title: wscript
 description: Справочная статья по WScript, которая предоставляет среду, в которой пользователи могут выполнять сценарии на различных языках, использующих разнообразные объектные модели для выполнения задач.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 2fbaf193-cdbd-414c-84c9-bb5720f84c29
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 08/21/2018
-ms.openlocfilehash: 4d3ab5d04423a093b280b8468c7e85aad3519dcb
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 689775951f1c97b7cc704801cd39691033005afe
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87896443"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89038072"
 ---
 # <a name="wscript"></a>wscript
 

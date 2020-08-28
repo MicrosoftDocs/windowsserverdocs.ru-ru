@@ -1,18 +1,18 @@
 ---
 title: begin backup
 description: Справочная статья по команде Begin Backup, которая запускает полный сеанс резервного копирования.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 8a53b5d5-e24c-4fc3-a3d8-c622c1bbf8f0
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: c7df682c6d56db44acd7bafd967947d32d8bae31
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 298d7110f327f67e08cbc3d53928cfbb17728fac
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87894983"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89031442"
 ---
 # <a name="begin-backup"></a>begin backup
 

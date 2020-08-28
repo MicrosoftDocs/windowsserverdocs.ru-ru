@@ -1,18 +1,18 @@
 ---
 title: select vdisk
 description: Справочная статья для * * * *-
-ms.topic: article
+ms.topic: reference
 ms.assetid: 8808872a-3523-4205-a6c6-83fa738ee37a
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: b66a02633cac60faf85824acb9191be61b551ee3
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 388804d8b895e636937050c6d04cae02cd30a0e8
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87992905"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89032317"
 ---
 # <a name="select-vdisk"></a>select vdisk
 

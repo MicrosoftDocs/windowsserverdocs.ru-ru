@@ -1,18 +1,18 @@
 ---
 title: Disable-Транспортсервер
 description: Справочная статья по Disable-Транспортсервер, которая отключает все службы для транспортного сервера.
-ms.topic: article
+ms.topic: reference
 ms.assetid: a009706b-8e89-486b-8e3d-512cd9f4de74
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 48909ffb5a452d4bac1058acc5ddc48ed69b371f
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 361a963f1e2e7fd98d05dc288dbca06353ae22f0
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87892117"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89032149"
 ---
 # <a name="disable-transportserver"></a>Disable-Транспортсервер
 

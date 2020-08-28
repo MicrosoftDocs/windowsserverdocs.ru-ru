@@ -1,18 +1,18 @@
 ---
 title: wbadmin start recovery
 description: Справочная статья по главному восстановлению, в которой выполняется операция восстановления на основе указанных параметров.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 52381316-a0fa-459f-b6a6-01e31fb21612
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: d7d04e32eeae71593daf995e790b6dcbae05464b
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: bf0afcd4999bb74efd2ce4e2ec3e146cbbe2141c
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87879691"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89031912"
 ---
 # <a name="wbadmin-start-recovery"></a>wbadmin start recovery
 

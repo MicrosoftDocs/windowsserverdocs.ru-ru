@@ -1,18 +1,18 @@
 ---
 title: bitsadmin getreplydata
 description: Справочная статья по команде битсадмин жетреплидата, которая получает данные отправки и ответа сервера в шестнадцатеричном формате для задания.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 819f97d5-b255-4b2d-9f63-0daa73915434
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: ab9f774c7b31576e18de3ec5db9b5a72427ecdaa
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 4e00a17e4633c9b065d03684cb0c953d1f6db811
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87893894"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89031342"
 ---
 # <a name="bitsadmin-getreplydata"></a>bitsadmin getreplydata
 
@@ -29,7 +29,7 @@ bitsadmin /getreplydata <job>
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | -------------- | -------------- |
 | задание | Отображаемое имя задания или идентификатор GUID. |
 

@@ -1,18 +1,18 @@
 ---
 title: wbadmin get status
 description: Справочная статья для Wbadmin get status, которая сообщает о состоянии операции резервного копирования или восстановления, выполняемой в данный момент.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 2911b944-7b95-46aa-8c1e-1d55a2fcc94c
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 124323829f82bea0826ee7d4c526af964492488b
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 3245a6c92bf8a3ebde070f2f85e484dc9a317ce1
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87896884"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89031992"
 ---
 # <a name="wbadmin-get-status"></a>wbadmin get status
 

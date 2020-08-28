@@ -1,18 +1,18 @@
 ---
 title: tree
 description: Справочная статья по дереву, которая отображает структуру каталогов пути или диска в накопителе графически.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 345d3192-401e-4a3b-a8ac-36a85c7be79d
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 44e3e54f986cc4bd4459d4e007c5111b664a6a45
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: c164fe8999313ffd40ec12b29c7ad8cf2bd7c7a5
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87897100"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89026892"
 ---
 # <a name="tree"></a>tree
 

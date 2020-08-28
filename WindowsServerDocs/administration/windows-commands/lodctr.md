@@ -1,18 +1,18 @@
 ---
 title: lodctr
 description: Справочная статья по команде lodctr, которая позволяет зарегистрировать или сохранить имя счетчика производительности и параметры реестра в файле и назначить Доверенные службы.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 5a849abd-6b31-4833-bc8a-306c05eca29a
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 428830b06796914e66434c90f7624cc7c64eec5b
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 61b449678fae62e0909d19b8cae8411102898bd8
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87887471"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89037882"
 ---
 # <a name="lodctr"></a>lodctr
 
@@ -28,7 +28,7 @@ lodctr <filename> [/s:<filename>] [/r:<filename>] [/t:<servicename>]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | `<filename>` | Задает имя файла инициализации, который регистрирует параметры имени счетчика производительности и пояснительный текст. |
 | ключ`<filename>` | Задает имя файла, в котором сохраняются параметры реестра счетчика производительности и пояснительный текст. |

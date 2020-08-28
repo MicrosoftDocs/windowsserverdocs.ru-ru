@@ -1,18 +1,18 @@
 ---
 title: bdehdcfg restart
 description: Справочная статья для команды перезапуска BdeHdCfg, которая сообщает BdeHdCfg о необходимости перезагрузки компьютера после завершения подготовки диска.
-ms.topic: article
+ms.topic: reference
 ms.assetid: a98b76bb-36f1-4790-b337-7dc35f606bc6
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 67d2a3dd7b4304c26543840d6681b4ec6e655651
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 8db8ede29d5cecfdbe29031c21f86c5e2b8fc8c1
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87895098"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89031492"
 ---
 # <a name="bdehdcfg-restart"></a>BdeHdCfg: перезапуск
 

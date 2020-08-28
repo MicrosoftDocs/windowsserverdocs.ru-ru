@@ -1,18 +1,18 @@
 ---
 title: bcdboot
 description: Справочная статья по команде BCDboot, которая быстро настраивает системный раздел или восстановление среды загрузки, расположенной в системном разделе.
-ms.topic: article
+ms.topic: reference
 ms.assetid: e62a250e-08e9-47f6-89d1-e6002560ab57
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: ccdacd1254b290160c81123dd419d1816ffccaf5
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: fedbd771efb3d2bba63f906b446632114fa91858
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87895182"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89031622"
 ---
 # <a name="bcdboot"></a>bcdboot
 

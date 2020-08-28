@@ -1,18 +1,18 @@
 ---
 title: wbadmin start sysrecovery
 description: Справочная статья по Wbadmin start сисрековери, которая выполняет восстановление системы (восстановление исходного состояния компьютера) с использованием указанных параметров.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 95b8232f-7c42-452b-838e-15b0cf6faebe
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 66f302d07a5776757d9094299c8961161f2d6a15
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: c108636533b333224b925f22854622fff023abba
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87879688"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89031902"
 ---
 # <a name="wbadmin-start-sysrecovery"></a>wbadmin start sysrecovery
 

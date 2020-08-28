@@ -1,18 +1,18 @@
 ---
 title: Изменить
 description: Справочная статья по команде Change, которая изменяет удаленный рабочий стол параметры сервера узла сеансов для входа в систему, сопоставления COM-портов и режима установки.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 90012116-0fb3-4f34-a819-cf4d4b4f8981
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 733ef9fba0a546cd844121899840f592bd2b3118
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: f1dc7af27d1ada36013e5d8d44237a1d2b07f926
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87892838"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89031142"
 ---
 # <a name="change"></a>Изменить
 
@@ -21,7 +21,7 @@ ms.locfileid: "87892838"
 Изменения удаленный рабочий стол параметры сервера узла сеансов для входа в систему, сопоставления COM-портов и режима установки.
 
 > [!NOTE]
-> В Windows Server 2008 R2 службы терминалов были переименованы на службы удаленных рабочих столов. Чтобы узнать о новых возможностях последней версии, см. статью [новые возможности службы удаленных рабочих столов в Windows Server](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/dn283323(v=ws.11)).
+> Чтобы узнать о новых возможностях последней версии, см. статью [новые возможности службы удаленных рабочих столов в Windows Server](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/dn283323(v=ws.11)).
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -33,7 +33,7 @@ ms.locfileid: "87892838"
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | [Команда "изменить вход"](change-logon.md) | Включает или отключает вход из сеансов клиента на удаленный рабочий стол сервере узла сеансов или отображает текущее состояние входа в систему. |
 | [Команда "изменить порт"](change-port.md) | Перечисление или изменение сопоставления COM-портов для совместимости с приложениями MS-DOS. |

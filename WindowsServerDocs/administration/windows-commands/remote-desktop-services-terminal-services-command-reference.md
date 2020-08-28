@@ -1,18 +1,18 @@
 ---
 title: Справочник по средствам командной строки для службы удаленных рабочих столов (службы терминалов)
 description: Справочная статья по средствам командной строки службы удаленных рабочих столов (RDS).
-ms.topic: article
+ms.topic: reference
 ms.assetid: 2f371848-5c48-470c-908c-afbc95d3a805
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: ae8156298c9b5108748afa114e1e3cabc0180441
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 5657ab1d0018f7bc854ebfa5dbd2985f8399d1af
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87883842"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89027362"
 ---
 # <a name="remote-desktop-services-terminal-services-command-line-tools-reference"></a>Справочник по средствам командной строки для службы удаленных рабочих столов (службы терминалов)
 
@@ -21,9 +21,9 @@ ms.locfileid: "87883842"
 Сведения о доступных средствах командной строки службы удаленных рабочих столов (служб терминалов) с описаниями и ссылками для получения более подробных сведений.
 
 > [!NOTE]
-> В Windows Server 2008 R2 службы терминалов были переименованы на службы удаленных рабочих столов. Чтобы узнать о новых возможностях последней версии, см. статью [новые возможности службы удаленных рабочих столов в Windows Server](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/dn283323(v=ws.11)).
+> Чтобы узнать о новых возможностях последней версии, см. статью [новые возможности службы удаленных рабочих столов в Windows Server](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/dn283323(v=ws.11)).
 
-| Get-Help | Описание |
+| Команда | Описание |
 |--|--|--|
 | [change](change.md) | Изменяет параметры сервера узла сеансов удаленный рабочий стол для входа, сопоставления COM-портов и режима установки. |
 | [change logon](change-logon.md) | Включает или отключает вход из сеансов клиента на удаленный рабочий стол сервере узла сеансов или отображает текущее состояние входа в систему. |

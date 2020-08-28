@@ -1,18 +1,18 @@
 ---
 title: writer
 description: Справочная статья для модуля записи, которая проверяет, включен ли модуль записи или компонента из процедуры резервного копирования или восстановления, или исключает его.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 7cf98295-411d-4705-8573-f898ff45c140
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 9fbcca5f9bc15e77b812368fadfbc7af8f4fff96
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: db18b7f03bed4fc43da2ebee71c2e2a536d5e1d5
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87896454"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89038082"
 ---
 # <a name="writer"></a>writer
 

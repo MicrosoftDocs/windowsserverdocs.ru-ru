@@ -1,18 +1,18 @@
 ---
 title: xcopy
 description: Справочная статья по Xcopy, в которой копируются файлы и каталоги, включая подкаталоги.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 76a310d7-9925-4571-a252-0e28960d5f89
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 01/05/2019
-ms.openlocfilehash: 9d2ac59abbeb8caffb3b5d94bf514a7c6daca4e9
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 05bc7b2d146a9c0d7e981d3e5bee13e60ffb57b5
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87896434"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89038042"
 ---
 # <a name="xcopy"></a>xcopy
 

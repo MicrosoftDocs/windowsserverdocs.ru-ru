@@ -1,18 +1,18 @@
 ---
 title: bitsadmin setcredentials
 description: Справочная статья по команде битсадмин сеткредентиалс, которая добавляет учетные данные к заданию.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 3cd099a4-9e85-46d8-8527-edb6dfab7f97
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: c13c2bd544c485bef59858e7262169a66d1fc94d
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 00e97d41fb021668465d714903480a4e86222f32
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87893207"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89031292"
 ---
 # <a name="bitsadmin-setcredentials"></a>bitsadmin setcredentials
 

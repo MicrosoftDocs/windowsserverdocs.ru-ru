@@ -1,18 +1,18 @@
 ---
 title: mmc
 description: Справочная статья по команде MMC, которая позволяет открыть определенную консоль MMC, открыть MMC в режиме автора или указать, чтобы открыть 32-разрядную или 64-разрядную версию MMC.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 7bfa4030-ce42-40fb-922f-2f5145a80872
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: f118259bde62d6a9cc193c7451489aebd709d884
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 8705cf2e2cd7eced344bcc412283dc88c829849a
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87886424"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89037812"
 ---
 # <a name="mmc"></a>mmc
 
@@ -28,7 +28,7 @@ mmc <path>\<filename>.msc [/a] [/64] [/32]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | `<path>\<filename>.msc` | запускает **MMC** и открывает сохраненную консоль. Необходимо указать полный путь и имя файла для сохраненного файла консоли. Если файл консоли не указан, **MMC** открывает новую консоль. |
 | /a | Открывает сохраненную консоль в режиме автора.  Используется для внесения изменений в сохраненные консоли. |

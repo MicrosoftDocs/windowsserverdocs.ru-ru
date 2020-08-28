@@ -1,18 +1,18 @@
 ---
 title: icacls
 description: Справочная статья по команде icacls, которая отображает или изменяет избирательные списки управления доступом (DACL) для указанных файлов и применяет сохраненные списки DACL к файлам в указанных каталогах.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 403edfcc-328a-479d-b641-80c290ccf73e
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 08/21/2018
-ms.openlocfilehash: 5bb8842cdc91823a83d1b8ccfa305c6393433901
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 7b6d045b26adcbee31447e950533b1013288a910
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87888406"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89038022"
 ---
 # <a name="icacls"></a>icacls
 

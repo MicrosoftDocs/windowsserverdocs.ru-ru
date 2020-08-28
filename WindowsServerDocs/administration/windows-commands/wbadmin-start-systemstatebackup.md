@@ -1,18 +1,18 @@
 ---
 title: wbadmin start systemstatebackup
 description: Справочная статья по Wbadmin start системстатебаккуп, которая создает резервную копию состояния системы на локальном компьютере и сохраняет ее в указанном расположении.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 998366c1-0a64-45e6-9ed3-4c3f5b8406f0
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 386f5053dd547c4b5285a2b9a09cea76238dcf5b
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 5b2910a6c6cbcd9fbf6bd8d8564425128b98af24
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87879650"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89031862"
 ---
 # <a name="wbadmin-start-systemstatebackup"></a>wbadmin start systemstatebackup
 

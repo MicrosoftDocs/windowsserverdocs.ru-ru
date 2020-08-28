@@ -1,18 +1,18 @@
 ---
 title: ksetup setenctypeattr
 description: Справочная статья по команде ksetup сетенктипеаттр, которая задает атрибут типа шифрования для домена.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 88fb913e-6b57-48d9-8c16-a035ab2977ac
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 50d5c5be2382cc1d811066d577f8f092b676853a
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 99a05954a2682ff8cdc4f5bb66e49d68fdf132eb
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87887768"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89037922"
 ---
 # <a name="ksetup-setenctypeattr"></a>ksetup setenctypeattr
 
@@ -28,7 +28,7 @@ ksetup /setenctypeattr <domainname> {DES-CBC-CRC | DES-CBC-MD5 | RC4-HMAC-MD5 | 
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | `<domainname>` | Имя домена, для которого требуется установить соединение. Используйте полное доменное имя или простую форму имени, например corp.contoso.com или contoso. |
 | тип шифрования | Должен быть одним из следующих поддерживаемых типов шифрования:<ul><li>DES-CBC-CRC</li><li>DES-CBC-MD5</li><li>RC4-HMAC-MD5</li><li>AES128-CTS-HMAC-SHA1-96</li><li>AES256-CTS-HMAC-SHA1-96</li></ul> |
