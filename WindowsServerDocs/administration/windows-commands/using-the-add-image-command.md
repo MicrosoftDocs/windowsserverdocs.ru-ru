@@ -1,18 +1,18 @@
 ---
 title: добавить-изображение
 description: Справочная статья по Add-Image, которая добавляет образы на сервер служб развертывания Windows.
-ms.topic: article
+ms.topic: reference
 ms.assetid: d5b6f4da-90ba-4b0e-9423-66c8ef5172e2
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 24afd8b608875fcb971efad50d4c8adf16541557
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 03f7a024b2d396f54db66a48353557f776552db1
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87896996"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89029832"
 ---
 # <a name="add-image"></a>добавить-изображение
 

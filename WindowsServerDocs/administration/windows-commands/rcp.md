@@ -1,18 +1,18 @@
 ---
 title: rcp
 description: Справочная статья по команде rcp, которая копирует файлы между компьютерами. Эта команда устарела и не гарантируется, что она будет поддерживаться в будущих выпусках Windows.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 83ad713c-63c9-458c-8ad8-39a6ddeb1690
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 7273a3093276978bed1ee47574f2dafc7bd64521
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 23f6aa776d480751af930f40b53f60fb742d1ae5
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87884368"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89037222"
 ---
 # <a name="rcp"></a>rcp
 

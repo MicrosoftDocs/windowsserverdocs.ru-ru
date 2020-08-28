@@ -1,18 +1,18 @@
 ---
 title: simulate restore
 description: Справочная статья по моделированию Restore, которая проверяет участие модуля записи в сеансах восстановления на компьютере без выдачи событий предварительного восстановления или восстановления в модули записи.
-ms.topic: article
+ms.topic: reference
 ms.assetid: d883d94c-3cb1-4848-9d74-1b4378044b31
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: ec2c49f0dfcb68f6b3b6ef0567778a4317e7dc24
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 5640f69f421d65588251ff1e15b63cbeaffde613
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87882341"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89036982"
 ---
 # <a name="simulate-restore"></a>Имитировать восстановление
 

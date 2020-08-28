@@ -1,18 +1,18 @@
 ---
 title: Get-Дриверпаккаже
 description: Справочная статья по команде Get-Дриверпаккаже, которая отображает сведения о пакете драйверов на сервере.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 94d231e4-ff01-48e7-9bc8-7b0d97a4339e
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 95dbc43df5feb7bd07e2dfe3d9e74e81d94dd612
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 914effe6e2776f3bc66537beff5ea9e4bed65f3e
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87879791"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89029672"
 ---
 # <a name="get-driverpackage"></a>Get-Дриверпаккаже
 

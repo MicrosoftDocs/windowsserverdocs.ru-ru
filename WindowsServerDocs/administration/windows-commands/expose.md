@@ -1,18 +1,18 @@
 ---
 title: expose
 description: Справочная статья по команде предоставления, которая предоставляет постоянную теневую копию в виде буквы диска, общего ресурса или точки подключения.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 9b0a21cf-3bef-4ade-b8f1-ac42f9203947
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: b4b9e45013c928e2a65e86b21c37f2f10b215056
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 67e6b230b780e6ae84ea1ff30804c5722ca2337d
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87890404"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89036692"
 ---
 # <a name="expose"></a>expose
 
@@ -26,7 +26,7 @@ expose <shadowID> {<drive:> | <share> | <mountpoint>}
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | шадовид | Указывает теневой идентификатор теневой копии, которую необходимо предоставить. Можно также использовать существующий псевдоним или переменную среды вместо *шадовид*. Чтобы просмотреть существующие псевдонимы, используйте параметр **Добавить** без параметров. |
 | `<drive:>` | Предоставляет указанную теневую копию в виде буквы диска (например, `p:` ). |

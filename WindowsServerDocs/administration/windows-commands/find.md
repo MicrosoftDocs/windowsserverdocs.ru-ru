@@ -1,18 +1,18 @@
 ---
 title: поиск
 description: Справочная статья по команде Find, которая выполняет поиск строки текста в файлах, отображая указанную текстовую строку в файле.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 2ca66b22-3b7c-4166-8503-eb75fc53ab46
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: d77995213b05b4bc3c60336569bdf06f4ade04a7
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 34eb1f1cf3071147878f421307a91de921678cfc
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87890311"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89036542"
 ---
 # <a name="find"></a>поиск
 

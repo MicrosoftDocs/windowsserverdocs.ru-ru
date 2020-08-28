@@ -1,18 +1,18 @@
 ---
 title: ksetup delrealmflags
 description: Справочная статья по команде ksetup делреалмфлагс, которая удаляет флаги сферы из указанной области.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 22053041-1eb4-47f5-bed9-3d5681bcde7d
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 07d177f58f950b5e8e552e69c9f79054a379cc10
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 9c82007f841c61cfeae90c1ebaceac5eca6dc7eb
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87887941"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89025548"
 ---
 # <a name="ksetup-delrealmflags"></a>ksetup delrealmflags
 
@@ -37,7 +37,7 @@ ksetup /delrealmflags <realmname> [sendaddress] [tcpsupported] [delegate] [ncsup
 | Значение | Флаг области | Описание |
 | ----- | ---------- | ----------- |
 | 0xF | Все | Заданы все флаги сферы. |
-| 0x00 | Отсутствуют | Флаги области не заданы, а дополнительные функции не включены. |
+| 0x00 | Нет | Флаги области не заданы, а дополнительные функции не включены. |
 | 0x01 | сендаддресс | IP-адрес будет включаться в билеты предоставления билетов. |
 | 0x02 | ткпсуппортед | В этой области поддерживаются протоколы TCP и UDP (User Datagram Protocol). |
 | 0x04 | delegate | Все пользователи в этой области являются доверенными для делегирования. |

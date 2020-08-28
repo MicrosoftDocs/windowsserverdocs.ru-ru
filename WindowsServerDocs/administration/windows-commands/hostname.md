@@ -1,18 +1,18 @@
 ---
 title: hostname
 description: Справочная статья для команды hostname, которая отображает имя узла в полном имени компьютера.
-ms.topic: article
+ms.topic: reference
 ms.assetid: b9e7aab4-8f8d-4e18-b5a2-8e81b34a8566
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 5c17fdbdfc8f089bdaa00d2bab0bdb7f21bd0446
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 97c620cd254165fc561c20542fefb8cd004adbc1
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87888422"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89025618"
 ---
 # <a name="hostname"></a>hostname
 

@@ -1,18 +1,18 @@
 ---
 title: rdpsign
 description: Справочная статья по команде рдпсигн, которая позволяет подписать файл протокол удаленного рабочего стола (. RDP).
-ms.topic: article
+ms.topic: reference
 ms.assetid: 4a6fa8ce-3d32-49a5-b056-bcc1a23391f5
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 07/11/2018
-ms.openlocfilehash: f937cd0bebd2c57c4eef44c9dbf803176f285c2f
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: ecd80969f42a440bfd583223779fe67c27c5c310
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87884325"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89037152"
 ---
 # <a name="rdpsign"></a>rdpsign
 
@@ -33,8 +33,8 @@ rdpsign /sha1 <hash> [/q | /v |] [/l] <file_name.rdp>
 
 | Параметр | Описание |
 |--|--|
-| /sha1`<hash>` | Задает отпечаток, который является хэшем алгоритм SHA-1 (SHA1) сертификата подписи, включенного в хранилище сертификатов. Используется в Windows Server 2012 R2 и более ранних версий. |
-| /sha256`<hash>` | Задает отпечаток, представляющий собой хэш-код безопасного хэш-алгоритма 256 (SHA256) сертификата подписи, включенного в хранилище сертификатов. Заменяет/SHA1 в Windows Server 2016 и более поздних версий. |
+| /sha1 `<hash>` | Задает отпечаток, который является хэшем алгоритм SHA-1 (SHA1) сертификата подписи, включенного в хранилище сертификатов. Используется в Windows Server 2012 R2 и более ранних версий. |
+| /sha256 `<hash>` | Задает отпечаток, представляющий собой хэш-код безопасного хэш-алгоритма 256 (SHA256) сертификата подписи, включенного в хранилище сертификатов. Заменяет/SHA1 в Windows Server 2016 и более поздних версий. |
 | /q | Тихий режим. Выходные данные не выводятся, если команда завершается успешно и минимальный вывод при сбое команды. |
 | /v | подробный режим. Отображает все предупреждения, сообщения и состояние. |
 | /l | Проверяет результаты подписывания и выхода без фактической замены входных файлов. |
@@ -75,7 +75,7 @@ rdpsign /sha1 hash /l file1.rdp
 rdpsign /sha1 hash file1.rdp file2.rdp file3.rdp
 ```
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 
 - [Условные обозначения синтаксиса команд командной строки](command-line-syntax-key.md)
 

@@ -1,18 +1,18 @@
 ---
 title: extract
 description: Справочная статья по команде Extract, которая извлекает файлы из исходного расположения.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 20dab03e-f6e1-4eb8-b8a1-fd6f1d97ee83
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 130f9ee22e0603deaa50dfde267df1c39342e38c
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 557ee765a40703d2781613549992c7668753f5a9
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87890380"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89036642"
 ---
 # <a name="extract"></a>extract
 

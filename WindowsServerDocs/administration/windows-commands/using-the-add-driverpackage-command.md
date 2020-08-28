@@ -1,18 +1,18 @@
 ---
 title: Add-Дриверпаккаже
 description: Справочная статья по Add-Дриверпаккаже, которая добавляет пакет драйверов на сервер.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 3ac9e8d5-63ec-4ce8-86fc-85d28011050b
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: bd7ba7897006a4db144fc8bd92317fb07a34b55f
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 0a1876727d4d79cf4ce3c86c654a9be0b7c6795d
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87881277"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89029852"
 ---
 # <a name="add-driverpackage"></a>Add-Дриверпаккаже
 
@@ -26,7 +26,7 @@ WDSUTIL /Add-DriverPackage /InfFile:<Inf File path> [/Server:<Server name>] [/Ar
 
 ### <a name="parameters"></a>Параметры
 
-|          Параметр           |                                                              Описание:                                                              |
+|          Параметр           |                                                              Описание                                                              |
 |------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 |   Инффиле:\<Inf File path>   |                                           Указывает полный путь к добавляемому INF-файлу.                                            |
 |    Сервером\<Server name>    | Указывает имя сервера. Это может быть NetBIOS-имя или FQDN. Если имя сервера не указано, используется локальный сервер. |

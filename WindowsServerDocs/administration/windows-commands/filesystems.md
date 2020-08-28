@@ -1,18 +1,18 @@
 ---
 title: filesystems
 description: Справочная статья для команды Filesystems, которая отображает сведения о текущей файловой системе тома, имеющего фокус, и перечисляет файловые системы, поддерживаемые для форматирования тома.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 3c4915a6-bd20-4af6-a94a-5fc7c20410bf
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: fac0ccc12d877008264465d87e6e2684c4ed6ba7
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: e34edbf582ddfe366740bf08b6cb34082b06ec34
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87890349"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89036612"
 ---
 # <a name="filesystems"></a>filesystems
 

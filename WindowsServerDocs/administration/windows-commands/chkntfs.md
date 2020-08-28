@@ -1,18 +1,18 @@
 ---
 title: chkntfs
 description: Справочная статья по команде chkntfs, которая отображает или изменяет автоматическую проверку диска при запуске компьютера.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 93eca810-8699-4716-8e9d-aecd54f704be
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: d0f0c0a956cb2b286d4f5b1f34332dc01d984462
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: d60707f01fb72e9ceede68df7a33e488b6196f4c
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87892740"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89026058"
 ---
 # <a name="chkntfs"></a>chkntfs
 
@@ -33,7 +33,7 @@ chkntfs [/c <volume> [...]]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | `<volume>` [...] | Указывает один или несколько томов для проверки при запуске компьютера. К допустимым томам относятся буквы дисков (за которыми следует двоеточие), точки подключения или имена томов. |
 | /d | Восстанавливает все параметры **chkntfs** по умолчанию, за исключением времени обратного отсчета для автоматической проверки файлов. По умолчанию все тома проверяются при запуске компьютера, а **программа chkdsk** запускается на тех, которые являются «грязными». |

@@ -1,18 +1,18 @@
 ---
 title: Управление — автоматическое разблокирование BDE
 description: Справочная статья по команде "Управление автоматическим разблокированием — BDE", которая управляет автоматической разблокировкой дисков с данными, защищенными BitLocker.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 063528bf-d235-4b44-887a-52a7d983e01a
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 976f7f4034c9c373d6d5cd347b0807c7a82ea97f
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 35aadb406a2f5d9e10bd7b796dd07ae79a8286a7
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87886961"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89036552"
 ---
 # <a name="manage-bde-autounlock"></a>Управление — автоматическое разблокирование BDE
 
@@ -26,7 +26,7 @@ manage-bde -autounlock [{-enable|-disable|-clearallkeys}] <drive> [-computername
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | — включить | Включает автоматическое снятие блокировки для диска данных. |
 | — отключить | Отключает автоматическое снятие блокировки для диска данных. |

@@ -1,18 +1,18 @@
 ---
 title: Add-Имажеграуп
 description: Справочная статья по Add-Имажеграуп, которая добавляет группу образов на сервер служб развертывания Windows.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 6ca88671-51de-4924-b969-88f3dfd84270
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 611425c7c3ff997009e16792fea1924a403f364e
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 4ee2af4677854e3a4abc727d399ce5a52244aaee
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87896594"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89029762"
 ---
 # <a name="add-imagegroup"></a>Add-Имажеграуп
 
@@ -25,7 +25,7 @@ ms.locfileid: "87896594"
 wdsutil [Options] /add-ImageGroumediaGroup:<Image group name> [/Server:<Server name>]
 ```
 ### <a name="parameters"></a>Параметры
-|Параметр|Описание:|
+|Параметр|Описание|
 |-------|--------|
 Медиаграуп:<Image group name>|Указывает имя добавляемой группы образов.|
 |[/Server: <Server name> ]|Указывает имя сервера. Это может быть либо NetBIOS-имя, либо полное доменное имя (FQDN). Если имя сервера не указано, будет использоваться локальный сервер.|

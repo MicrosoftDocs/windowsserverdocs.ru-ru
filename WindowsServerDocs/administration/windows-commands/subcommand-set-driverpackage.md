@@ -1,18 +1,18 @@
 ---
 title: Набор подкоманд-Дриверпаккаже
 description: Справочная статья по подкоманде Set-Дриверпаккаже, которая переименовывает и/или включает или отключает пакет драйверов на сервере.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 11804bb6-ca29-4461-8c63-5131748cd742
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 2b34802a0328a6e73469d8493f1453663740a243
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: dcbad64bd5324dbb3e096db98eacc7cdcf15f1b0
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87882180"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89036842"
 ---
 # <a name="subcommand-set-driverpackage"></a>Подкоманда: Set-Дриверпаккаже
 

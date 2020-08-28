@@ -1,18 +1,18 @@
 ---
 title: tzutil
 description: Справочная статья по tzutil, в которой отображается служебная программа часового пояса Windows.
-ms.topic: article
+ms.topic: reference
 ms.assetid: bcf6e007-c9b6-4df5-83c5-ed7b4b1b5913
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 4727423ed6752b3a0c2b578f5838a1108d1d14d4
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 1d8eae64faf58d404c49afa5b469c61d44807ae0
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87896634"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89029942"
 ---
 # <a name="tzutil"></a>tzutil
 

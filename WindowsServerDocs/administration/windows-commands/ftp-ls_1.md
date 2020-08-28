@@ -1,18 +1,18 @@
 ---
 title: ftp ls
 description: Справочная статья по команде FTP Ls, которая отображает сокращенный список файлов и подкаталогов с удаленного компьютера.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 5e03c7db-1e2b-419c-acb2-8a68f3db9615
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 59e19d7e48b902ccc0704c22e150b3494fb2ad2b
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: e1600c7664a61c417d8896467615717f968b01d4
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87889347"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89025758"
 ---
 # <a name="ftp-ls"></a>ftp ls
 

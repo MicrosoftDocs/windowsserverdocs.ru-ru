@@ -1,18 +1,18 @@
 ---
 title: Управление-BDE Unlock
 description: Справочная статья по команде Manage-bde Unlock, которая разблокирует диск, защищенный BitLocker, с помощью пароля восстановления или ключа восстановления.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 7852bf7d-9102-40be-adcb-71e8f4dfde72
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: d9b13e4ac27ab77a522d223749cd84e3b1bb11a6
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: e1d1566ee348b10efe2212c2e0004c72470944fe
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87886647"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89030102"
 ---
 # <a name="manage-bde-unlock"></a>Управление-BDE Unlock
 
@@ -26,7 +26,7 @@ manage-bde -unlock {-recoverypassword <password>|-recoverykey <pathtoexternalkey
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | -рековерипассворд | Указывает, что для разблокировки диска будет использоваться пароль восстановления. Можно также использовать параметр **-RP** в качестве сокращенной версии этой команды. |
 | `<password>` | Представляет пароль восстановления, который можно использовать для разблокировки диска. |
@@ -34,8 +34,8 @@ manage-bde -unlock {-recoverypassword <password>|-recoverykey <pathtoexternalkey
 | `<pathtoexternalkeyfile>` | Представляет файл внешнего ключа восстановления, который можно использовать для разблокировки диска. |
 | `<drive>` | Представляет букву диска, за которой следует двоеточие. |
 | — сертификат | Сертификат локального пользователя для сертификата BitLocker, разблокирующий том, находится в хранилище сертификатов локального пользователя. Вы также можете использовать параметр **-CERT** в качестве сокращенной версии этой команды. |
-| -CF`<pathtocertificatefile>` | Путь к файлу сертификата. |
-| -CT`<certificatethumbprint>` | Отпечаток сертификата, который при необходимости может содержать ПИН-код (-PIN). |
+| -CF `<pathtocertificatefile>` | Путь к файлу сертификата. |
+| -CT `<certificatethumbprint>` | Отпечаток сертификата, который при необходимости может содержать ПИН-код (-PIN). |
 | -password | Представляет запрос на ввод пароля для разблокировки тома. Можно также использовать параметр **-пароль** в качестве сокращенной версии этой команды. |
 | -ComputerName | Указывает, что manage-bde.exe будет использоваться для изменения защиты BitLocker на другом компьютере. Можно также использовать параметр **-CN** в качестве сокращенной версии этой команды. |
 | `<name>` | Представляет имя компьютера, на котором необходимо изменить защиту BitLocker. Допустимые значения включают имя NetBIOS компьютера и IP-адрес компьютера. |

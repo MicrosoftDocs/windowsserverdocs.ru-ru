@@ -1,18 +1,18 @@
 ---
 title: expand
 description: Справочная статья по команде Expand, которая расширяет один или несколько сжатых файлов.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 66de0488-a0c4-40c2-9b03-e40c107ba343
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: e1359c6db46095bd472a20e946b8748a64eb4d14
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 53443eb5aa593c43345dee4014efac0bd2e7be4b
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87890418"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89036712"
 ---
 # <a name="expand"></a>expand
 
@@ -34,7 +34,7 @@ expand <source>.cab /f:<files> <destination>
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | /r | Переименовывает развернутые файлы. |
 | source | Указывает файлы, которые нужно развернуть. *Источник* может состоять из буквы диска и двоеточия, имени каталога, имени файла или их сочетания. Можно использовать подстановочные знаки (**&#42;** или **?**). |

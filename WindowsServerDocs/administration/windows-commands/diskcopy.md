@@ -1,18 +1,18 @@
 ---
 title: diskcopy
 description: Справочная статья по команде diskcopy, которая копирует содержимое гибкого диска с исходного диска на форматированный или неформатированный гибкий диск на целевом диске.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 5fd21efa-52cc-4e70-a7fe-35125a435106
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 05/07/2018
-ms.openlocfilehash: b385d7fb371b0e33bcf16b240b051ce038a525a7
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: dd60148c798cd69e1f1e4aa2ce79d7acc0f16a84
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87890946"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89025848"
 ---
 # <a name="diskcopy"></a>diskcopy
 
@@ -26,7 +26,7 @@ diskcopy [<drive1>: [<drive2>:]] [/v]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | `<drive1>` | Указывает диск, содержащий исходный диск. |
 | /v | Проверяет, правильно ли скопированы данные. Этот параметр замедляет процесс копирования. |

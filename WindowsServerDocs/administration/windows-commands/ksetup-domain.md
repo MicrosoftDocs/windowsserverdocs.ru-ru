@@ -1,18 +1,18 @@
 ---
 title: ksetup domain
 description: Справочная статья по команде домена ksetup, которая задает доменное имя для всех операций Kerberos.
-ms.topic: article
+ms.topic: reference
 ms.assetid: 2ef766e3-6071-44f2-946b-22ea5b61a508
 author: coreyp-at-msft
 ms.author: coreyp
 manager: dongill
 ms.date: 10/16/2017
-ms.openlocfilehash: 81135ed668da901c55e891cec4c8749687359818
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: c9e89023e127318139672581cbab267a34c67a58
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87887935"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89025538"
 ---
 # <a name="ksetup-domain"></a>ksetup domain
 
