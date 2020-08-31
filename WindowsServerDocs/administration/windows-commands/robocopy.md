@@ -7,12 +7,12 @@ author: jasongerend
 ms.author: jgerend
 manager: lizapo
 ms.date: 06/07/2020
-ms.openlocfilehash: b149294436c78c3c9c223973fb3e9b423ff3dfd0
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 48d9d564c7badf8ea34c77ce7004d0ce642b78cb
+ms.sourcegitcommit: fe356f95188b7ce8e719765f44c0789c065832fb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89036212"
+ms.lasthandoff: 08/28/2020
+ms.locfileid: "89057586"
 ---
 # <a name="robocopy"></a>robocopy
 
@@ -44,7 +44,7 @@ robocopy c:\reports '\\marketing\videos' yearly-report.mov /mt /z
 | Параметр | Описание |
 |--|--|
 | /s | Копирует подкаталоги. Этот параметр автоматически исключает пустые каталоги. |
-| /e | Копирует подкаталоги. Этот параметр автоматически исключает пустые каталоги. |
+| /e | Копирует подкаталоги. Этот параметр автоматически включает пустые каталоги. |
 | Лев`<n>` | Копирует только *n* верхних уровней исходного дерева каталогов. |
 | /z | Копирование файлов в перезапускаемом режиме. |
 | /b | Копирует файлы в режиме резервного копирования. |

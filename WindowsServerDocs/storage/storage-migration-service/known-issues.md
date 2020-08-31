@@ -6,12 +6,12 @@ ms.author: nedpyle
 manager: tiaascs
 ms.date: 07/29/2020
 ms.topic: article
-ms.openlocfilehash: 0dc49603099427fb00507db021c391500a7c42f2
-ms.sourcegitcommit: 3d59c2aaebcd190b20d24bc8a449eee0681b6a3c
+ms.openlocfilehash: ea138d8bb0b804ae4d08ed6ffe330e9714af43f3
+ms.sourcegitcommit: 2b1a12c85acff137e5ac84cd0e62d8353fcdde31
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "88583319"
+ms.lasthandoff: 08/28/2020
+ms.locfileid: "89087487"
 ---
 # <a name="storage-migration-service-known-issues"></a>Известные проблемы со службой миграции хранилища
 
@@ -83,7 +83,7 @@ Transfer Log - Please check file sharing is allowed in your firewall. : This req
 
 3. На компьютере Orchestrator запустите Regedit.exe
 
-4. Найдите и выберите следующий подраздел реестра.
+4. Создайте следующий подраздел реестра, если он еще не существует:
 
     `HKEY_LOCAL_MACHINE\Software\Microsoft\SMSPowershell`
 
@@ -101,7 +101,7 @@ Transfer Log - Please check file sharing is allowed in your firewall. : This req
 
 11. Попытайтесь снова скачать CSV-файл с ошибками.
 
-Мы планируем изменить это поведение в более позднем выпуске Windows Server 2019.
+При переносе слишком большого количества файлов может потребоваться увеличить время ожидания до 10 минут. 
 
 ## <a name="validation-warnings-for-destination-proxy-and-credential-administrative-privileges"></a>Предупреждения проверки для прокси-сервера назначения и права администратора учетных данных
 
@@ -637,6 +637,6 @@ Guidance: Check the detailed error and make sure the inventory requirements are 
 
 Эта проблема вызвана дефектом кода в службе миграции хранилища. В настоящее время единственным решением является переименование компьютера с тем же именем, что и у NetBIOS-имени, а затем с помощью команды [NETDOM ComputerName/Add](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc835082(v=ws.11)) добавьте альтернативное имя компьютера, которое использовалось до начала инвентаризации. Служба миграции хранилища поддерживает миграцию альтернативных имен компьютеров.
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 - [Обзор службы миграции хранилища](overview.md)
