@@ -7,12 +7,12 @@ ms.author: iainfou
 ms.topic: get-started-article
 ms.localizationpriority: high
 ms.date: 02/21/2020
-ms.openlocfilehash: c74c8a278612d2ca47346ad95105f1258761494a
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: f405486c5ea34b26f23a16552c24527939ca1fd4
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87990481"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89024568"
 ---
 # <a name="how-to-use-windows-server-2008-and-2008-r2-extended-security-updates-esu"></a>Использование дополнительных обновлений для системы безопасности Windows Server 2008 и 2008 R2
 
@@ -44,6 +44,9 @@ ms.locfileid: "87990481"
 ## <a name="how-to-use-extended-security-updates"></a>Использование дополнительных обновлений для системы безопасности
 
 Для виртуальных машин Windows Server 2008 или 2008 R2, работающих в Azure, автоматически включается получение дополнительных обновлений для системы безопасности. Вам не нужно ничего настраивать, и дополнительная плата за использование для виртуальных машин Azure дополнительных обновлений для системы безопасности не взимается. Дополнительные обновления для системы безопасности автоматически доставляются на виртуальные машины Azure, если они настроены для получения обновлений.
+
+> [!NOTE]
+> Виртуальные машины Microsoft.ClassicCompute требуют дополнительной настройки для развертывания обновлений расширенной системы безопасности, так как у них нет доступа к [службе метаданных экземпляров Azure](https://docs.microsoft.com/azure/virtual-machines/windows/instance-metadata-service), которая определяет возможность установки обновлений расширенной системы безопасности. Обратитесь за помощью в [службу поддержки Майкрософт](https://support.microsoft.com/contactus?PID=17336).
 
 Для других сред, таких как локальные виртуальные машины или физические серверы, дополнительные обновления для системы безопасности необходимо запросить и настроить вручную. Вы можете приобрести дополнительные обновления для системы безопасности, в рамках программ корпоративного лицензирования, таких как Соглашение Enterprise (EA), подписка с Соглашением Enterprise (EAS), Enrollment for Education Solutions (EES) или Server and Cloud Enrollment (SCE).
 

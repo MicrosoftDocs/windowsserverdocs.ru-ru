@@ -7,12 +7,12 @@ ms.topic: article
 author: heidilohr
 manager: lizross
 ms.date: 02/19/2020
-ms.openlocfilehash: 7b9500c11ca5dba7ed2f51d1d6b32b7cf689f070
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: eeadbdea10f08372cd927808b4b433d8ba7ee85f
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87997125"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89037832"
 ---
 # <a name="optimizing-windows-10-version-1909-for-a-virtual-desktop-infrastructure-vdi-role"></a>Оптимизация Windows 10 версии 1909 для роли инфраструктуры виртуальных рабочих столов (VDI)
 
@@ -666,7 +666,7 @@ add HKLM\Temp\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager /
 Возможно, лучше всего разрешить обновление Защитника Windows даже во временной среде VDI. Обновления будут применяться практически в каждом сеансе входа в систему, но они занимают мало места и это не должно стать проблемой. Кроме того, виртуальная машина всегда будет в актуальном состоянии, так как будут применяться только последние доступные обновления. Это может быть верно и для файлов определений сторонних производителей.
 
 > [!NOTE]
-> Приложения Store (приложения UWP) обновляются с помощью Магазина приложений Windows. Современные версии Office, например Office 365, обновляются с помощью собственных механизмов, когда имеется прямое подключение к Интернету, или с помощью технологий управления, если подключение отсутствует.
+> Приложения Store (приложения UWP) обновляются с помощью Магазина приложений Windows. Современные версии Office, например Microsoft 365, выполняют обновление с помощью собственных механизмов, когда имеется прямое подключение к Интернету, или с помощью технологий управления, если такое подключение отсутствует.
 
 ### <a name="windows-system-startup-event-traces"></a>Трассировки событий запуска системы Windows
 

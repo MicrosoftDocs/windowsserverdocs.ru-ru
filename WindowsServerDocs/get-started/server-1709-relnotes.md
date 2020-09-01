@@ -8,12 +8,12 @@ author: jaimeo
 ms.author: jaimeo
 manager: dougkim
 ms.localizationpriority: medium
-ms.openlocfilehash: 5f509a7bcea56c0791ef649f341e7b4b11c7c6e3
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: afadca07931284e975aaf18192664fa1ed81e184
+ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87967881"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89033742"
 ---
 # <a name="release-notes-important-issues-in-windows-server-version-1709"></a>Заметки о выпуске. Важные проблемы в Windows Server версии 1709
 
@@ -29,7 +29,7 @@ ms.locfileid: "87967881"
 
 Также она не поддерживается при добавлении серверов с Windows Server версии 1709 в среду локальных дисковых пространств Windows Server 2016.
 
-Модель выпуска Windows Server предлагает новый вариант установки с целью обеспечения соответствия сходным моделям выпуска и обслуживания для [Windows 10](/windows/deployment/update/waas-overview) и [Office 365 профессиональный плюс](https://support.office.com/article/Overview-of-the-upcoming-changes-to-Office-365-ProPlus-update-management-78b33779-9356-4cdf-9d2c-08350ef05cca?ui=en-US&rs=en-US&ad=US). Выпуски Semi-Annual Channel предоставляют новые возможности пользователям, которым необходимы быстрые циклы обновления; они будут выходить дважды в год — весной и осенью.
+Модель выпуска Windows Server предлагает новый вариант для обеспечения соответствия со сходными моделями выпуска и обслуживания для [Windows 10](/windows/deployment/update/waas-overview) и [Приложений Microsoft 365](https://docs.microsoft.com/DeployOffice/overview-update-channels). Выпуски Semi-Annual Channel предоставляют новые возможности пользователям, которым необходимы быстрые циклы обновления; они будут выходить дважды в год — весной и осенью.
 
 Выпуск Semi-Annual Channel для Windows Server предназначен для контейнеров и сценариев приложений, в которых используются более быстрые инновации, дополнительные сведения см. в этом [блоге](https://cloudblogs.microsoft.com/windowsserver/2018/03/29/windows-server-semi-annual-channel-update). Клиентам, которые ищут инфраструктурные роли, такие как локальные дисковые пространства, следует использовать выпуски Long-Term Servicing Channel, например Windows Server 2016 (доступных сейчас) или [Windows Server 2019](https://cloudblogs.microsoft.com/windowsserver/2018/03/20/introducing-windows-server-2019-now-available-in-preview) (ожидается в этом году). Мы стремимся создать лучшую платформу для гиперконвергентной инфраструктуры и продолжаем разрабатывать новые функции и улучшать существующие на основе ваших отзывов.
 

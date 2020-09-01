@@ -5,18 +5,18 @@ ms.topic: article
 author: heidilohr
 manager: lizross
 ms.author: helohr
-ms.date: 08/20/2020
+ms.date: 08/25/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: b23c19304aa7773dbb3c4e1406e065fb68947c5d
-ms.sourcegitcommit: 8e5530ba7f7d3e2569590949e1f443d908683a17
+ms.openlocfilehash: 4ce718db142ac34a51642e1ed2128899a0e77dbf
+ms.sourcegitcommit: 47dc2671330c2ecc56cce39ef006cbfe108b4759
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "88702843"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "88821337"
 ---
 # <a name="whats-new-in-the-windows-desktop-client"></a>Что нового в клиенте для Windows Desktop
 
-Более подробные сведения о клиенте рабочего стола Windows можно найти в статье [Приступая к работе с клиентом для Windows Desktop](windowsdesktop.md). Ниже вы найдете последние обновления для клиента.
+Более подробные сведения о клиенте рабочего стола Windows можно найти в статье [Приступая к работе с клиентом для Windows Desktop](windowsdesktop.md). В этой статье вы найдете последние обновления для клиента.
 
 ## <a name="latest-client-versions"></a>Последние версии клиента
 
@@ -24,12 +24,12 @@ ms.locfileid: "88702843"
 
 |Группа пользователей |Версия  |
 |-----------|---------|
-|Общие     |1.2.1186 |
+|Общие     |1.2.1272 |
 |Предварительная оценка    |1.2.1272 |
 
-## <a name="updates-for-version-121272-insider"></a>Обновления для версии 1.2.1272 [по Программе предварительной оценки]
+## <a name="updates-for-version-121272"></a>Обновления для версии 1.2.1272
 
-*Дата публикации: 11.08.2020*
+*Дата публикации: 25.08.2020*
 
 Скачать: [Windows (64-разрядная версия)](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4D7LK), [Windows (32-разрядная версия)](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4D5aF), [Windows (ARM64)](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4Dan3)
 

@@ -6,14 +6,14 @@ ms.assetid: 12efe858-6b76-4e08-9f72-b9603aceb0fc
 author: heidilohr
 manager: lizross
 ms.author: helohr
-ms.date: 04/06/2020
+ms.date: 08/25/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: 524b90965ca1dfca726294d4518fcefa4a470cf2
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: a44926d50fae9dea38e3f5c46db423991a414a87
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87970111"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88941514"
 ---
 # <a name="compare-the-clients"></a>Сравнение клиентов
 
@@ -34,7 +34,7 @@ ms.locfileid: "87970111"
 | Клавиатура    | X                         | X                           | X             | X       | X   | X     | X             |
 | Мышь       | X                         | X                           | X             | X       | Х\* | X     | X             |
 | Touch       | X                         | X                           | X             | X       | X   |       | X (за исключением IE) |
-| Перо         | X                         | X                           |               |         |     |       |               |
+| Перо         | X                         | X                           |               | X (как касание) |  X (как касание)  |       |               |
 
 * Просмотрите [список поддерживаемых устройств ввода для клиента удаленного рабочего стола iOS](remote-desktop-ios.md#supported-input-devices).
 
@@ -51,7 +51,7 @@ ms.locfileid: "87970111"
 
 | Перенаправление         | Установленные приложения для Windows</br>(MSTSC) | Настольный компьютер с Windows</br>(MSRDC) | Магазин Windows Store | Android | iOS         | macOS                           | Веб-клиент    |
 |---------------------|---------------------------|-----------------------------|---------------|---------|-------------|---------------------------------|---------------|
-| Камеры             | X                         | X                           |               |         |   X         | X                               |               |
+| Камеры             | X                         | X                           |               |     X    |   X         | X                               |               |
 | Буфер обмена           | X                         | X                           | X             | Текст    | Текст, изображения | X                               | текст          |
 | Локальный диск /служба хранилища | X                         | X                           |               | X       |   X        | X                               |               |
 | Расположение            | X                         | X                           |               |         |             |                                 |               |

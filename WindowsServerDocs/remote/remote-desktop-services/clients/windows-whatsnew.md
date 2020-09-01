@@ -5,22 +5,22 @@ ms.topic: article
 author: heidilohr
 manager: lizross
 ms.author: helohr
-ms.date: 08/19/2020
+ms.date: 08/26/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: dbaaafe2c01d41a9786d6718bad850dc08deaa81
-ms.sourcegitcommit: 6d991b16a6d9129e1f5d1ca7d688bd621b72d586
+ms.openlocfilehash: 56e2a5f91983f8fe64382e162ecf18b30e75b41d
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "88638881"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88938794"
 ---
 # <a name="whats-new-in-the-windows-store-client"></a>Что нового в клиенте Microsoft Store?
 
 Мы регулярно обновляем [клиент Microsoft Store](windows.md), добавляя новые компоненты и устраняя проблемы. Здесь вы найдете последние обновления.
 
-## <a name="updates-for-version-1021519-insider"></a>Обновления для версии 10.2.1519 (в рамках Программы предварительной оценки)
+## <a name="updates-for-version-1021522"></a>Обновления для версии 10.2.1522
 
-*Дата публикации: 19.08.2020*
+*Дата публикации: 26.08.2020*
 
 - Переписан клиент для использования того же базового ядра RDP, которое используется клиентами iOS, macOS и Android.
 - Добавлена поддержка версии Виртуального рабочего стола Windows, интегрированной с Azure Resource Manager.

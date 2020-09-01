@@ -1,19 +1,19 @@
 ---
 ms.assetid: f964d056-11bf-4d9b-b5ab-dceaad8bfbc3
 title: Режимы работы Windows Server 2016
-ms.author: joflore
-author: MicrosoftGuyJFlo
-manager: mtillman
-ms.date: 10/29/2018
+ms.author: iainfou
+author: iainfoulds
+manager: daveba
+ms.date: 08/25/2020
 ms.topic: article
 ms.custom: it-pro
 ms.reviewer: maheshu
-ms.openlocfilehash: 75ba30502c7de1b0a88886f42c3a8ef9a84a7e18
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: e82dccb79a4fc3452d528581beb43ef32d52ecfc
+ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87938633"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88940944"
 ---
 # <a name="forest-and-domain-functional-levels"></a>Режимы работы леса и домена
 
@@ -23,9 +23,9 @@ ms.locfileid: "87938633"
 
 При развертывании AD DS задайте для режимов работы домена и леса самое высокое значение, которое может поддерживать среда. Так вы сможете использовать максимальное количество функций AD DS. При развертывании нового леса будет предложено задать его режим работы, а затем задать режим работы домена. Для режима работы домена можно установить значение, превышающее значение режима работы леса. Однако для него нельзя задать значение, которое будет ниже значения режима работы леса.
 
-После завершения срока службы Windows 2003 контроллеры домена Windows 2003 необходимо обновить до версий Windows Server 2008, 2008 R2, 2012, 2012 R2, 2016 или 2019. В результате все контроллеры домена, работающие под управлением Windows Server 2003, необходимо удалить из домена.
+После прекращения поддержки Windows Server 2003, 2008 и 2008 R2 эти контроллеры доменов необходимо будет обновить до Windows Server 2012, 2012 R2, 2016 или 2019. В результате все контроллеры домена, работающие под управлением Windows Server 2008 R2 и более старых версий, необходимо удалить из домена.
 
-В режимах работы домена Windows Server 2008 и более новых версий для репликации содержимого папки SYSVOL между контроллерами домена используется репликация службы распределенных файловых систем (DFS). Если вы создаете домен в режиме работы домена Windows Server 2008 или более новых версий, для репликации SYSVOL автоматически используется репликация DFS. Если вы создаете домен в более низком режиме работы, необходимо перейти от репликации FRS к DFS для SYSVOL. Чтобы выполнить переход, можно следовать [инструкциям в TechNet](../../storage/dfs-replication/migrate-sysvol-to-dfsr.md) или ознакомиться с [упрощенным набором шагов в блоге Microsoft File Cabinet группы разработчиков хранилища](https://techcommunity.microsoft.com/t5/storage-at-microsoft/bg-p/FileCAB).
+В режимах работы домена Windows Server 2008 и более новых версий для репликации содержимого папки SYSVOL между контроллерами домена используется репликация службы распределенных файловых систем (DFS). Если вы создаете домен в режиме работы домена Windows Server 2008 или более новых версий, для репликации SYSVOL автоматически используется репликация DFS. Если вы создаете домен в более низком режиме работы, необходимо перейти от репликации FRS к DFS для SYSVOL. Чтобы выполнить переход, можно следовать [инструкциям в TechNet](https://technet.microsoft.com/library/dd640019(v=WS.10).aspx) или ознакомиться с [упрощенным набором шагов в блоге Microsoft File Cabinet группы разработчиков хранилища](https://blogs.technet.com/b/filecab/archive/2014/06/25/streamlined-migration-of-frs-to-dfsr-sysvol.aspx). Windows Server 2016 RS1 — это последний выпуск Windows Server с FRS.
 
 ## <a name="windows-server-2019"></a>Windows Server 2019
 
@@ -162,6 +162,7 @@ ms.locfileid: "87938633"
 
 Поддерживаемые операционные системы контроллера домена:
 
+* Windows Server 2016
 * Windows Server 2012 R2
 * Windows Server 2012
 * Windows Server 2008 R2
