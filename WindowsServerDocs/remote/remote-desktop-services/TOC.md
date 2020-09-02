@@ -73,8 +73,8 @@
 #### [Клиент Удаленного рабочего стола для администраторов](clients/windowsdesktop-admin.md)
 #### [Что нового в клиенте Удаленного рабочего стола](clients/windowsdesktop-whatsnew.md)
 ### Клиент Microsoft Store
-#### [Приступая к работе с клиентом Microsoft Store](clients/windows.md)
-#### [Что нового в клиенте Microsoft Store?](clients/windows-whatsnew.md)
+#### [Начало работы с клиентом Microsoft Store](clients/windows.md)
+#### [Новые возможности в клиенте Microsoft Store](clients/windows-whatsnew.md)
 ### Клиент Android
 #### [Приступая к работе с клиентом Android](clients/remote-desktop-android.md)
 #### [Что нового в клиенте Android?](clients/android-whatsnew.md)
