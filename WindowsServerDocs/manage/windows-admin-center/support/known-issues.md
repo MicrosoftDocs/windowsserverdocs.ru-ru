@@ -6,12 +6,12 @@ author: jwwool
 ms.author: jeffrew
 ms.localizationpriority: medium
 ms.date: 06/07/2019
-ms.openlocfilehash: 91e14b5ac023f6726ffc508f945567b83311d7a4
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: b4d7d039c775b85321d168f8de7415de6b92e784
+ms.sourcegitcommit: 97a65d8f52514848963e8917021bd9a1f6ee3b19
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87997022"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89287826"
 ---
 # <a name="windows-admin-center-known-issues"></a>Windows Admin Center — известные проблемы
 
@@ -19,13 +19,13 @@ ms.locfileid: "87997022"
 
 Если возникнет проблема, не описанная на этой странице, [свяжитесь с нами](https://aka.ms/WACfeedback).
 
-## <a name="installer"></a>Установщик
+## <a name="installer"></a>Installer
 
 - При установке Windows Admin Center с использованием собственного сертификата следует помнить, что если вы скопируете отпечаток из средства MMC для управления сертификатами, [он будет содержать недопустимый символ в начале.](https://support.microsoft.com/help/2023835/certificate-thumbprint-displayed-in-mmc-certificate-snap-in-has-extra) В качестве решения введите первый символ отпечатка и скопируйте/вставьте остальные символы.
 
 - Использование порта, приведенного ниже 1024, не поддерживается. В режиме обслуживания при необходимости можно настроить порт 80 для перенаправления на указанный порт.
 
-## <a name="general"></a>Общие сведения
+## <a name="general"></a>Общие
 
 - В выпуске центра администрирования Windows 1910,2 может отсутствовать возможность подключения к серверам Hyper-V на определенном оборудовании. Если вы блокируете эту ошибку, [Скачайте предыдущую сборку](https://aka.ms/wacprevious).
 
@@ -92,7 +92,7 @@ ms.locfileid: "87997022"
 
 ## <a name="server-manager-solution"></a>Решение "Диспетчер серверов"
 
-### <a name="certificates"></a>сертификаты;
+### <a name="certificates"></a>Сертификаты
 
 - Невозможность импорта зашифрованного сертификата PFX в хранилище текущего пользователя. [11818622]
 
@@ -102,7 +102,7 @@ ms.locfileid: "87997022"
 
 - Возможна ошибка, ссылающаяся на "размер пакета" при экспорте больших файлов журнала.
 
-  - Чтобы устранить эту проблему, используйте следующую команду в командной строке с повышенными привилегиями на компьютере шлюза:```winrm set winrm/config @{MaxEnvelopeSizekb="8192"}```
+  - Чтобы устранить эту проблему, используйте следующую команду в командной строке с повышенными привилегиями на компьютере шлюза: ```winrm set winrm/config @{MaxEnvelopeSizekb="8192"}```
 
 ### <a name="files"></a>Файлы
 
@@ -130,7 +130,7 @@ ms.locfileid: "87997022"
 
 - При использовании удаленный рабочий стол для подключения к компьютеру, который не присоединен к домену, необходимо ввести учетную запись в ```MACHINENAME\USERNAME``` формате.
 
-- Некоторые конфигурации могут блокировать клиент удаленного рабочего стола центра администрирования Windows с помощью групповой политики. Если вы столкнулись с этим, включите ```Allow users to connect remotely by using Remote Desktop Services``` в разделе```Computer Configuration/Policies/Administrative Templates/Windows Components/Remote Desktop Services/Remote Desktop Session Host/Connections```
+- Некоторые конфигурации могут блокировать клиент удаленного рабочего стола центра администрирования Windows с помощью групповой политики. Если вы столкнулись с этим, включите ```Allow users to connect remotely by using Remote Desktop Services``` в разделе ```Computer Configuration/Policies/Administrative Templates/Windows Components/Remote Desktop Services/Remote Desktop Session Host/Connections```
 
 - Удаленный рабочий стол влияет на [Совместимость WebSocket.](#websocket-compatibility-when-using-a-proxy-service)
 
@@ -152,7 +152,7 @@ ms.locfileid: "87997022"
 
 - При выборе автоматической перезагрузки она произойдет до того, как состояние обновится до 100%. [13098852]
 
-### <a name="storage"></a>Хранение
+### <a name="storage"></a>Служба хранилища
 
 - Нижний уровень: DVD-диски, компакт-диски или гибкие диски не отображаются в виде тома на нижнем уровне.
 
@@ -210,7 +210,7 @@ Hyper-V необходимо установить на виртуальных м
 Чтобы установить Hyper-V на виртуальных машинах под управлением Azure Stack ХЦИ ОС, выполните следующую команду:
 
 ```PowerShell
-Enable-windowsoptionalfeature -online -featurename Microsoft-hyper-v
+Enable-WindowsOptionalFeature -Online -FeatureName 'Microsoft-Hyper-V'
 ```
 
 ### <a name="step-17"></a>Шаг 1,7
