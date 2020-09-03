@@ -6,12 +6,12 @@ manager: dongill
 author: rpsqrd
 ms.author: ryanpu
 ms.date: 09/25/2019
-ms.openlocfilehash: 995a115b9e611500732e4674880ee4ca4b204e14
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 0f9499402a5788cd3dc9ad9cd262d65636f9284c
+ms.sourcegitcommit: 076504a92cddbd4b84bfcd89da1bf1c8c9e79495
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87989116"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "89427496"
 ---
 # <a name="obtain-certificates-for-hgs"></a>Получение сертификатов для HGS
 
@@ -38,7 +38,7 @@ ms.locfileid: "87989116"
 Минимальный размер ключа              | 2048 бит
 Алгоритм подписи           | Рекомендуется: SHA256
 Использование ключа                     | Цифровая подпись *и* шифрование данных
-Расширенное использование ключа            | Аутентификация сервера
+Расширенное использование ключа            | Проверка подлинности сервера
 Политика обновления ключей            | Продлить с помощью того же ключа. Обновление сертификатов HGS с разными ключами предотвратит запуск экранированных виртуальных машин.
 Имя субъекта                  | Рекомендуется: название или веб-адрес вашей компании. Эти сведения будут отображаться для владельцев виртуальных машин в мастере файлов данных экранирования.
 
@@ -61,11 +61,11 @@ ms.locfileid: "87989116"
 ```powershell
 $certificatePassword = Read-Host -AsSecureString -Prompt "Enter a password for the PFX file"
 
-$signCert = New-SelfSignedCertificate -Subject "CN=HGS Signing Certificate"
+$signCert = New-SelfSignedCertificate -Subject "CN=HGS Signing Certificate" -KeyUsage DataEncipherment, DigitalSignature
 Export-PfxCertificate -FilePath .\signCert.pfx -Password $certificatePassword -Cert $signCert
 Remove-Item $signCert.PSPath
 
-$encCert = New-SelfSignedCertificate -Subject "CN=HGS Encryption Certificate"
+$encCert = New-SelfSignedCertificate -Subject "CN=HGS Encryption Certificate" -KeyUsage DataEncipherment, DigitalSignature
 Export-PfxCertificate -FilePath .\encCert.pfx -Password $certificatePassword -Cert $encCert
 Remove-Item $encCert.PSPath
 ```
@@ -85,7 +85,7 @@ Remove-Item $encCert.PSPath
 Параметры для указания этого сертификата при инициализации сервера HGS рассматриваются в разделе [Настройка первого узла HGS](guarded-fabric-initialize-hgs.md).
 Вы также можете добавить или изменить SSL-сертификат позже с помощью командлета [Set-HgsServer](/powershell/module/hgsserver/set-hgsserver?view=win10-ps) .
 
-## <a name="next-step"></a>Следующий шаг
+## <a name="next-step"></a>Дальнейшие действия
 
 > [!div class="nextstepaction"]
 > [Установка HGS](guarded-fabric-choose-where-to-install-hgs.md)
