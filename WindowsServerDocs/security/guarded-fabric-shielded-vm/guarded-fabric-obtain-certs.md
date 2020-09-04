@@ -6,12 +6,12 @@ manager: dongill
 author: rpsqrd
 ms.author: ryanpu
 ms.date: 09/25/2019
-ms.openlocfilehash: 0f9499402a5788cd3dc9ad9cd262d65636f9284c
-ms.sourcegitcommit: 076504a92cddbd4b84bfcd89da1bf1c8c9e79495
+ms.openlocfilehash: 392065ac9fe9e32e84550e14cd9ef39349ac8d67
+ms.sourcegitcommit: 664ed9bb0bbac2c9c0727fc2416d8c437f2d5cbe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "89427496"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "89472024"
 ---
 # <a name="obtain-certificates-for-hgs"></a>Получение сертификатов для HGS
 
@@ -59,15 +59,23 @@ ms.locfileid: "89427496"
 Чтобы создать самозаверяющие сертификаты и экспортировать их в PFX-файл, выполните следующие команды в PowerShell:
 
 ```powershell
-$certificatePassword = Read-Host -AsSecureString -Prompt "Enter a password for the PFX file"
+$certificatePassword = Read-Host -AsSecureString -Prompt 'Enter a password for the PFX file'
 
-$signCert = New-SelfSignedCertificate -Subject "CN=HGS Signing Certificate" -KeyUsage DataEncipherment, DigitalSignature
-Export-PfxCertificate -FilePath .\signCert.pfx -Password $certificatePassword -Cert $signCert
+$signCert = New-SelfSignedCertificate -Subject 'CN=HGS Signing Certificate' -KeyUsage DataEncipherment, DigitalSignature
+Export-PfxCertificate -FilePath '.\signCert.pfx' -Password $certificatePassword -Cert $signCert
+
+# Remove the certificate from "Personal" container
 Remove-Item $signCert.PSPath
+# Remove the certificate from "Intermediate certification authorities" container
+Remove-Item -Path "Cert:\LocalMachine\CA\$($signCert.Thumbprint)"
 
-$encCert = New-SelfSignedCertificate -Subject "CN=HGS Encryption Certificate" -KeyUsage DataEncipherment, DigitalSignature
-Export-PfxCertificate -FilePath .\encCert.pfx -Password $certificatePassword -Cert $encCert
+$encCert = New-SelfSignedCertificate -Subject 'CN=HGS Encryption Certificate' -KeyUsage DataEncipherment, DigitalSignature
+Export-PfxCertificate -FilePath '.\encCert.pfx' -Password $certificatePassword -Cert $encCert
+
+# Remove the certificate from "Personal" container
 Remove-Item $encCert.PSPath
+# Remove the certificate from "Intermediate certification authorities" container
+Remove-Item -Path "Cert:\LocalMachine\CA\$($encCert.Thumbprint)"
 ```
 
 ## <a name="request-an-ssl-certificate"></a>Запрос SSL-сертификата
@@ -79,8 +87,8 @@ Remove-Item $encCert.PSPath
 
 Свойство SSL-сертификата | Обязательное значение
 -------------------------|---------------
-Имя субъекта             | Имя кластера HGS (название распределенной сети или полное доменное имя объекта виртуального компьютера). Это будет объединение имени службы HGS, предоставленного в `Initialize-HgsServer` , и имени домена HGS.
-Альтернативное имя субъекта | Если для достижения кластера HGS будет использоваться другое DNS-имя (например, если оно находится за подсистемой балансировки нагрузки), обязательно включите эти DNS-имена в поле SAN запроса на сертификат.
+Имя субъекта             | Адреса, которые клиенты HGS (то есть узлы Гурадед) будут использовать для доступа к серверу HGS. Обычно это DNS-адрес кластера HGS, называемый именем распределенной сети или объектом виртуального компьютера (VCO). Это будет объединение имени службы HGS, предоставленного в `Initialize-HgsServer` , и имени домена HGS.
+Альтернативное имя субъекта | Если для достижения кластера HGS будет использоваться другое DNS-имя (например, если оно находится за подсистемой балансировки нагрузки или для подмножества узлов в сложной топологии используются разные адреса), обязательно включите эти DNS-имена в поле SAN запроса на сертификат. Обратите внимание, что если расширение SAN заполнено, имя субъекта игнорируется, поэтому SAN должно включать все значения, включая ту, которая обычно заносится в имя субъекта.
 
 Параметры для указания этого сертификата при инициализации сервера HGS рассматриваются в разделе [Настройка первого узла HGS](guarded-fabric-initialize-hgs.md).
 Вы также можете добавить или изменить SSL-сертификат позже с помощью командлета [Set-HgsServer](/powershell/module/hgsserver/set-hgsserver?view=win10-ps) .
