@@ -8,12 +8,12 @@ manager: lizross
 ms.author: helohr
 ms.date: 01/07/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: 69e453e6e65dc0850b7e872f655eda28a6e319c5
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: a51e21877cc0e0e066765d9f73e74103f3a96245
+ms.sourcegitcommit: 9a59e00db5e68b1a12769b5cd5523b8c501776ad
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87958052"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "89282096"
 ---
 # <a name="remote-desktop-clients"></a>Клиенты удаленного рабочего стола
 
@@ -28,7 +28,7 @@ ms.locfileid: "87958052"
 | Устройство          | Получить приложение                                                                                                  | Инструкции по установке                                                                |
 |-----------------|-----------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | Настольный компьютер с Windows | [Клиент Удаленного рабочего стола](windowsdesktop.md#install-the-client)                                               | [Приступая к работе с клиентом Удаленного рабочего стола](windowsdesktop.md) |
-| Магазин Windows Store   | [Клиент Windows 10 в Microsoft Store](https://go.microsoft.com/fwlink/?LinkID=616709)                   | [Приступая к работе с клиентом Microsoft Store](windows.md)          |
+| Магазин Windows Store   | [Клиент Windows 10 в Microsoft Store](https://go.microsoft.com/fwlink/?LinkID=616709)                   | [Начало работы с клиентом Microsoft Store](windows.md)          |
 | Android         | [Клиент Android в Google Play](https://play.google.com/store/apps/details?id=com.microsoft.rdc.android)     | [Приступая к работе с клиентом Android](remote-desktop-android.md) |
 | iOS             | [Клиент iOS в магазине iTunes](https://itunes.apple.com/app/microsoft-remote-desktop/id714464092?mt=8)     | [Приступая к работе с клиентом iOS](remote-desktop-ios.md)         |
 | macOS           | [Клиент macOS в магазине iTunes](https://itunes.apple.com/app/microsoft-remote-desktop/id1295203466?mt=12) | [Приступая к работе с клиентом macOS](remote-desktop-mac.md)       |

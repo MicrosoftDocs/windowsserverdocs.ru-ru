@@ -7,19 +7,19 @@ ms.assetid: 9bd191d6-ecc5-4230-a88e-f3fc281cb956
 author: nnamuhcs
 ms.author: coreyp
 manager: dongill
-ms.openlocfilehash: c1d6d9b056c4ccc5b6961023e1f0c22034321960
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.openlocfilehash: 807aacc5039bf90ea4dd7c7859c232d8c8b3011a
+ms.sourcegitcommit: 34f9577ef32cbdc7ef96040caabc9d83517f9b79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87181580"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "89554347"
 ---
 # <a name="add-microsoft-online-service-partner-agreement-partner-of-record-information"></a>Добавление информации о зарегистрированном партнере, заключившем партнерское соглашение об использовании интернет-служб Майкрософт
 
 >Область применения: Windows Server 2016 Essentials, Windows Server 2012 R2 Essentials, Windows Server 2012 Essentials
 
 ##  <a name="BKMK_3rdLevelDomanNames"></a>
- Если вы являетесь партнером Microsoft Online Service Partner Agreement (МОСПА) для Office 365, чтобы обеспечить правильную компенсацию при порождении запроса на подписку из Windows Server Essentials с помощью модуля интеграции Office 365, необходимо создать раздел реестра, содержащий идентификатор партнера-записи (пор ID). Указанная ниже информация считывается и передается поставщику услуг через URL-адреса регистрации Office 365.
+ Если вы являетесь партнером Microsoft Online Service Partner Agreement (МОСПА) для Microsoft 365, чтобы обеспечить правильную компенсацию при порождении запроса на подписку из Windows Server Essentials с помощью модуля интеграции Microsoft 365, необходимо создать раздел реестра, содержащий идентификатор партнера-записи (пор ID). Следующие сведения считываются и передаются поставщику услуг с помощью Microsoft 365 URL-адресов регистрации.
 
 -   HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Server\MSO
 

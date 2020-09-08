@@ -7,12 +7,12 @@ ms.assetid: 07d0c4c6-3e92-4969-82b8-105e46ab8d97
 author: nnamuhcs
 ms.author: coreyp
 manager: dongill
-ms.openlocfilehash: d98ab8b203bc73da4129d63b5a2b7518742a3667
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.openlocfilehash: 9013d63d0fbedfd679b8d717b9501f4af567b6f5
+ms.sourcegitcommit: 34f9577ef32cbdc7ef96040caabc9d83517f9b79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87181650"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "89554417"
 ---
 # <a name="support-for-larger-deployments"></a>Поддержка для более крупных развертываний
 
@@ -35,7 +35,7 @@ Windows Server 2012 R2 Essentials поддерживает только один
 
 ## <a name="support-for-multiple-domain-controllers"></a>Поддержка нескольких контроллеров домена
 
- Windows Server Essentials 2012 R2 блокирует все службы, использующие Azure Active Directory, например Office 365, где развернуто несколько контроллеров домена. Причина заключается в том, что Синхронизация учетных записей и паролей между локальными контроллерами домена и Azure Active Directory может привести к учетным данным учетных записей с несинхронизированными паролями. Это ограничение было удалено в Windows Server 2016 Essentials.
+ Windows Server Essentials 2012 R2 блокирует все службы, использующие Azure Active Directory, например Microsoft 365, где развернуто несколько контроллеров домена. Причина заключается в том, что Синхронизация учетных записей и паролей между локальными контроллерами домена и Azure Active Directory может привести к учетным данным учетных записей с несинхронизированными паролями. Это ограничение было удалено в Windows Server 2016 Essentials.
 
 ## <a name="ability-to-specify-a-designated-domain-controller"></a>Возможность указать назначенный контроллер домена
 
@@ -59,6 +59,6 @@ Windows Server 2016 Essentials поддерживает 500 пользовате
 > [!NOTE]
 > Хотя поддерживаемое ограничение для пользователей и устройств увеличено для роли сервера Windows Server Essentials, поддерживаемый предел для резервного копирования клиента остается в 75.
 
-<a name="see-also"></a>См. также раздел
+<a name="see-also"></a>Дополнительно
 --------
 [Начало работы с Windows Server Essentials](get-started.md)

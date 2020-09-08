@@ -7,12 +7,12 @@ ms.assetid: a455c6b4-b29f-4f76-8c6b-1578b6537717
 author: nnamuhcs
 ms.author: coreyp
 manager: dongill
-ms.openlocfilehash: 7dd1aa46786a3768127ba7934c8a8767d40e6654
-ms.sourcegitcommit: 04637054de2bfbac66b9c78bad7bf3e7bae5ffb4
+ms.openlocfilehash: 0f47c3870ad8254fb1c8cf63fc8f4fd055235d50
+ms.sourcegitcommit: 34f9577ef32cbdc7ef96040caabc9d83517f9b79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87838023"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "89554507"
 ---
 # <a name="deploy-windows-server-essentials-experience-as-a-hosted-server"></a>Развертывание режима Windows Server Essentials в качестве размещенного сервера
 
@@ -46,14 +46,14 @@ ms.locfileid: "87838023"
 -   [Сведения о поддержке](Deploy-Windows-Server-Essentials-Experience-as-a-Hosted-Server.md#BKMK_Support)
 
 
-##  <a name="windows-server-essentials-experience-overview"></a><a name="BKMK_WSEEOverview"></a>Обзор возможностей Windows Server Essentials
+##  <a name="windows-server-essentials-experience-overview"></a><a name="BKMK_WSEEOverview"></a> Обзор возможностей Windows Server Essentials
  Интерфейс Windows Server Essentials — это роль сервера, доступная в центре обработки данных Windows Server 2012 R2 Standard и Windows Server 2012 R2. Если роль Windows Server Essentials Experience установлена на сервере под Windows Server 2012 R2, клиент может воспользоваться всеми функциями, доступными в Windows Server Essentials без блокировок и ограничений. Опыт работы с Windows Server Essentials позволяет выполнять следующие распределенные решения для малых и средних предприятий.
 
 -   **Хранение и защита данных** Вы можете хранить данные клиента с в централизованном расположении и защищать данные сервера и клиента, создав резервную копию сервера и клиентских компьютеров (менее 75) в сети.
 
--   **Управление пользователями**. Управление пользователями и группами пользователей осуществляется через упрощенную панель мониторинга сервера. Кроме того, интеграция с Microsoft Azure Active Directory (Azure AD) обеспечивает простой доступ к данным Microsoft веб-службы (например, Office 365, Exchange Online и SharePoint Online) для пользователей с использованием учетных данных домена.
+-   **Управление пользователями**. Управление пользователями и группами пользователей осуществляется через упрощенную панель мониторинга сервера. Кроме того, интеграция с Microsoft Azure Active Directory (Azure AD) обеспечивает простой доступ к данным для веб-службы Майкрософт (например, Microsoft 365, Exchange Online и SharePoint Online) для пользователей с использованием учетных данных домена.
 
--   **Интеграция службы** Сервер можно интегрировать с Microsoft веб-службы (например, Office 365, SharePoint Online и Microsoft Azure Backup). Можно также интегрировать сервер с вашими службами и службами сторонних поставщиков.
+-   **Интеграция службы** Сервер можно интегрировать с Microsoft веб-службы (например, Microsoft 365, SharePoint Online и Microsoft Azure Backup). Можно также интегрировать сервер с вашими службами и службами сторонних поставщиков.
 
 -   **Повсеместный доступ**. Клиент имеет доступ к серверу, компьютерам сети и данным с любого устройства и из любой точки, где есть доступ к Интернету. Удаленный веб-доступ позволяет получить доступ к приложениям и данным с помощью простого и оптимизированного под сенсорные дисплеи браузерного интерфейса. Приложение My Server позволяет им получать доступ к данным из Windows Phone или Microsoft Store приложения.
 
@@ -61,7 +61,7 @@ ms.locfileid: "87838023"
 
 -   **Наблюдение за работоспособностью системы**. Можно отслеживать работоспособность сети и получать настраиваемые отчеты.
 
-##  <a name="benefits-of-hosting-windows-server-essentials-experience"></a><a name="BKMK_Benefits"></a>Преимущества размещения Windows Server Essentials
+##  <a name="benefits-of-hosting-windows-server-essentials-experience"></a><a name="BKMK_Benefits"></a> Преимущества размещения Windows Server Essentials
   Windows Server Essentials — это роль в Windows Server, которая позволяет повторно использовать существующую среду развертывания и управления в Windows Server для развертывания и настройки роли Windows Server Essentials Experience. Размещение роли Windows Server Essentials обеспечивает следующие преимущества:
 
 -   **Упрощенное развертывание** Просто включив роль Windows Server Essentials Experience, некоторые из наиболее часто используемых ролей и компонентов включаются и настраиваются с помощью рекомендаций для малых и средних предприятий. Можно настроить функции Windows Server Essentials или скрыть некоторые локальные функции. Если вы используете Windows Azure Pack, можно скачать шаблон коллекции для Windows Server Essentials в Windows Server 2012 R2.
@@ -72,7 +72,7 @@ ms.locfileid: "87838023"
 
 -   **Мониторинг**. Новая версия пакета мониторинга системного центра позволяет управлять несколькими серверами под управлением Windows Server Essentials. Сведения о загрузке пакета управления см. в разделе [пакет управления System Center для Windows Server Essentials](https://www.microsoft.com/download/details.aspx?id=40809).
 
-##  <a name="supported-deployment-options"></a><a name="BKMK_SupportedDeployment"></a>Поддерживаемые варианты развертывания
+##  <a name="supported-deployment-options"></a><a name="BKMK_SupportedDeployment"></a> Поддерживаемые варианты развертывания
   Интерфейс Windows Server Essentials можно развернуть как контроллер домена в новой Active Directory среде. Кроме того, его можно развернуть в существующей Active Directory среде как член домена.
 
  Рекомендуется сначала развернуть Windows Server 2012 R2 Standard или Windows Server 2012 R2 Datacenter, а затем установить роль Windows Server Essentials Experience. С помощью этого метода развертывания вы получаете все функциональные возможности Windows Server Essentials Edition без блокировок и ограничений.
@@ -82,7 +82,7 @@ ms.locfileid: "87838023"
 
 
 
-##  <a name="supported-network-topologies"></a><a name="BKMK_SupportedToplogy"></a>Поддерживаемые сетевые топологии
+##  <a name="supported-network-topologies"></a><a name="BKMK_SupportedToplogy"></a> Поддерживаемые сетевые топологии
  Чтобы использовать интерфейс Windows Server Essentials из перемещаемого клиента, необходимо включить VPN. Чтобы включить удаленный доступ к серверу для мобильных клиентов, необходимо открыть на сервере порт 443 и порт 80.
 
  Ниже представлены две стандартные топологии сети на стороне сервера, а также настройки VPN и удаленного веб-доступа.
@@ -139,7 +139,7 @@ Install-WssVpnServer -IPv4AddressRange ('192.168.0.160','192.168.0.240') -ApplyT
 > [!NOTE]
 >  Если невозможно предоставить VPN-подключение до того как клиент получит права доступа к серверу, убедитесь в том, что порт сервера 3389 открыт для доступа через Интернет, чтобы клиент смог использовать протокол удаленного доступа к рабочему столу для подключения к серверу и его настройки.
 
-##  <a name="customize-the-image-of-windows-server-essentials-experience-role"></a><a name="BKMK_CustomizeImage"></a>Настройка образа роли Windows Server Essentials
+##  <a name="customize-the-image-of-windows-server-essentials-experience-role"></a><a name="BKMK_CustomizeImage"></a> Настройка образа роли Windows Server Essentials
  Перед настройкой роли Windows Server Essentials Experience можно выполнить настройку ее образа. Дополнительные сведения о стандартном процессе Windows Server Sysprep см. в разделе [Комплект средств для развертывания и оценки Windows](/previous-versions/windows/hh825420(v=win.10)). После подготовки образа с помощью средства Sysprep можно его использовать или запаковать в файл Install.wim для последующего развертывания.
 
  При использовании диспетчера виртуальных машин можно создать шаблон на основе запущенного сервера. Для подготовки работающей копии используется Sysprep, который завершает работу компьютера. После сохранения шаблона в библиотеку можно использовать его при необходимости.
@@ -162,7 +162,7 @@ Install-WssVpnServer -IPv4AddressRange ('192.168.0.160','192.168.0.240') -ApplyT
 
   Если вам необходимо управлять поведением всех компонентов, вы можете установить для каждого из них соответствующий раздел реестра. Дополнительные сведения о настройке раздела реестра см. в разделе [Настройка и развертывание Windows Server Essentials в Windows Server 2012 R2](/previous-versions/windows/it-pro/windows-8.1-and-8/dn293241(v=win.10)).
 
-##  <a name="automate-the-deployment-of-windows-server-essentials-experience"></a><a name="BKMK_AutomateDeployment"></a>Автоматизируйте развертывание интерфейса Windows Server Essentials
+##  <a name="automate-the-deployment-of-windows-server-essentials-experience"></a><a name="BKMK_AutomateDeployment"></a> Автоматизируйте развертывание интерфейса Windows Server Essentials
  Чтобы автоматизировать развертывание, необходимо сначала развернуть операционную систему, а затем установить роль Windows Server Essentials Experience.
 
 -   Чтобы автоматически развернуть Windows Server 2012 R2 Standard или Windows Server 2012 R2 Datacenter, следуйте инструкциям в [комплекте средств для развертывания и оценки Windows](/previous-versions/windows/hh825420(v=win.10)).
@@ -183,7 +183,7 @@ New-ItemProperty "HKLM:\Software\Microsoft\Windows Server\Setup"Ã‚Â  -Name 
 
  После запуска начальной настройки можно использовать **Get-WssConfigurationStatus** для проверки статуса начальной настройки; как только вы получите статус **PendingReboot**, можно перезапустить сервер.
 
-##  <a name="migrate-data-from-windows-small-business-server-to-windows-server-essentials-experience"></a><a name="BKMK_Migrate"></a>Перенос данных из Windows Small Business Server в интерфейс Windows Server Essentials
+##  <a name="migrate-data-from-windows-small-business-server-to-windows-server-essentials-experience"></a><a name="BKMK_Migrate"></a> Перенос данных из Windows Small Business Server в интерфейс Windows Server Essentials
  Можно выполнить миграцию данных с серверов под Windows Small Business Server 2011, Windows Small Business Server 2008, Windows Small Business Server 2003 или Windows Server Essentials на сервер под Windows Server Essentials. Ознакомьтесь с руководством по миграции перехода [на Windows Server Essentials](../migrate/Migrate-from-Previous-Versions-to-Windows-Server-Essentials-or-Windows-Server-Essentials-Experience.md) для локальных 2migrations и внесите необходимые изменения на основе среды размещения.
 
 > [!NOTE]
@@ -194,7 +194,7 @@ New-ItemProperty "HKLM:\Software\Microsoft\Windows Server\Setup"Ã‚Â  -Name 
 
  После переноса данных можно обновить лицензию для снятия ограничений и блокировки. Дополнительные сведения см. [в статье переход с Windows Server Essentials на Windows server 2012 Standard](/previous-versions/windows/it-pro/windows-server-essentials-sbs/jj247582(v=ws.11)).
 
-##  <a name="perform-common-tasks-by-using-windows-powershell"></a><a name="BKMK_PowerShell"></a>Выполнение общих задач с помощью Windows PowerShell
+##  <a name="perform-common-tasks-by-using-windows-powershell"></a><a name="BKMK_PowerShell"></a> Выполнение общих задач с помощью Windows PowerShell
  В данном разделе описаны некоторые общие задачи, которые можно выполнять с помощью Windows PowerShell.
 
 ### <a name="enable-remote-web-access"></a>Подключение удаленного веб-доступа
@@ -208,7 +208,7 @@ New-ItemProperty "HKLM:\Software\Microsoft\Windows Server\Setup"Ã‚Â  -Name 
 
  Данная команда позволяет включить удаленный веб-доступ с помощью автоматически настроенного маршрутизатора и изменить установленные по умолчанию права доступа для всех существующих пользователей.
 
-### <a name="add-user"></a>Добавить пользователя
+### <a name="add-user"></a>Добавление пользователя
  **Синтаксис**
 
  Add-Вссусер [-name] <строка \> [-password] <SecureString \> [-AccessLevel <строка \> {пользователь &#124; Администратор}] [-FirstName <строка \> ] [-LastName <строка \> ] [-алловремотеакцесс] [-алловвпнакцесс] [<общиепараметры \> ]
@@ -230,10 +230,10 @@ New-ItemProperty "HKLM:\Software\Microsoft\Windows Server\Setup"Ã‚Â  -Name 
 
  Эта команда добавляет папку сервера с именем Митестфолдер в указанном расположении.
 
-##  <a name="email-integration-with-windows-server-essentials"></a><a name="BKMK_EmailIntegration"></a>Интеграция электронной почты с Windows Server Essentials
- Вы можете интегрировать интерфейс Windows Server Essentials с Office 365 или размещенным Exchange Server. Если требуется, чтобы клиент использовал услуги размещенной службы электронной почты, необходимо выполнить надстройку для интеграции Windows Server Essentials Experience с размещенной службой электронной почты. Дополнительные сведения см. в статье [Пакет SDK для Windows Server](/previous-versions/windows/server-essentials/gg513877(v=msdn.10)).
+##  <a name="email-integration-with-windows-server-essentials"></a><a name="BKMK_EmailIntegration"></a> Интеграция электронной почты с Windows Server Essentials
+ Вы можете интегрировать интерфейс Windows Server Essentials с Microsoft 365 или размещенным сервером Exchange Server. Если требуется, чтобы клиент использовал услуги размещенной службы электронной почты, необходимо выполнить надстройку для интеграции Windows Server Essentials Experience с размещенной службой электронной почты. Дополнительные сведения см. в статье [Пакет SDK для Windows Server](/previous-versions/windows/server-essentials/gg513877(v=msdn.10)).
 
-##  <a name="monitor-and-manage-by-using-native-tools"></a><a name="BKMK_Monitoring"></a>Мониторинг и управление с помощью собственных средств
+##  <a name="monitor-and-manage-by-using-native-tools"></a><a name="BKMK_Monitoring"></a> Мониторинг и управление с помощью собственных средств
  В этом разделе обсуждаются собственные средства, доступные в Windows Server 2012 R2 для мониторинга сервера и управления им.
 
 ### <a name="group-policy"></a>Групповая политика
@@ -293,7 +293,7 @@ New-ItemProperty "HKLM:\Software\Microsoft\Windows Server\Setup"Ã‚Â  -Name 
 ### <a name="storage-management"></a>Управление хранением
  Дисковые пространства позволяют объединить физический объем памяти разрозненных жестких дисков, динамически добавлять жесткие диски и создавать тома данных с заданными уровнями устойчивости. Можно выполнять это на ведущем узле или на виртуальной машине. Если вы хотите скрыть этот компонент в виртуальной машине под управлением Windows Server Essentials, следуйте инструкциям в разделе [Настройка и развертывание Windows Server Essentials в Windows Server 2012 R2](/previous-versions/windows/it-pro/windows-8.1-and-8/dn293241(v=win.10)).
 
-##  <a name="test-scenarios"></a><a name="BKMK_Scenarios"></a>Сценарии тестирования
+##  <a name="test-scenarios"></a><a name="BKMK_Scenarios"></a> Сценарии тестирования
  Для успешного размещения рекомендуется провести проверку следующих сценариев:
 
 
@@ -306,7 +306,7 @@ New-ItemProperty "HKLM:\Software\Microsoft\Windows Server\Setup"Ã‚Â  -Name 
 -   [Взаимодействие с клиентом](Deploy-Windows-Server-Essentials-Experience-as-a-Hosted-Server.md#BKMK_ClientXP)
 
 
-###  <a name="server-deployment"></a><a name="BKMK_ServerDeploy"></a>Развертывание сервера
+###  <a name="server-deployment"></a><a name="BKMK_ServerDeploy"></a> Развертывание сервера
  Можно проверить следующие сценарии развертывания сервера:
 
 -   Разверните сервер под Windows Server 2012 R2 в качестве контроллера домена в лабораторной среде, а затем установите роль Windows Server Essentials Experience.
@@ -319,7 +319,7 @@ New-ItemProperty "HKLM:\Software\Microsoft\Windows Server\Setup"Ã‚Â  -Name 
 
 -   Миграция локальных серверов под управлением Windows Small Business Server на размещенные сервера под управлением Windows Server Essentials.
 
-###  <a name="server-configuration"></a><a name="BKMK_ServerConfig2"></a>Конфигурация сервера
+###  <a name="server-configuration"></a><a name="BKMK_ServerConfig2"></a> Конфигурация сервера
  Можно проверить следующие сценарии конфигурации сервера:
 
 -   Настройте повсеместный доступ (к виртуальной частной сети, удаленный веб-доступ и DirectAccess).
@@ -332,13 +332,13 @@ New-ItemProperty "HKLM:\Software\Microsoft\Windows Server\Setup"Ã‚Â  -Name 
 
 -   (Если применимо.) Настройте и управляйте дисковыми пространствами.
 
--   (Если применимо.) Настройте интеграцию служб электронной почты (Office 365 и размещенного сервера Exchange).
+-   (Если применимо) Настройка интеграции решения электронной почты (Microsoft 365 и размещенного сервера Exchange Server).
 
 -   (Если применимо.) Настройте интеграции с другими интернет-службами Майкрософт.
 
 -   (Если применимо) настройте сервер мультимедиа.
 
-###  <a name="server-management"></a><a name="BKMK_ServerManage"></a>Управление сервером
+###  <a name="server-management"></a><a name="BKMK_ServerManage"></a> Управление сервером
  Можно проверить следующие сценарии конфигурации сервера:
 
 -   Управление пользователями и группами.
@@ -351,7 +351,7 @@ New-ItemProperty "HKLM:\Software\Microsoft\Windows Server\Setup"Ã‚Â  -Name 
 
 -   Настройте функцию восстановления сервера в случае сбоя в операционной системе.
 
-###  <a name="client-experience"></a><a name="BKMK_ClientXP"></a>Взаимодействие с клиентом
+###  <a name="client-experience"></a><a name="BKMK_ClientXP"></a> Взаимодействие с клиентом
  Можно проверить следующие сценарии взаимодействия с конечным пользователем:
 
 -   Развертывание клиентских компьютеров через Интернет (ПК или Mac).
@@ -366,7 +366,7 @@ New-ItemProperty "HKLM:\Software\Microsoft\Windows Server\Setup"Ã‚Â  -Name 
 
 -   (Если применимо.) Проверка интеграции служб электронной почты.
 
-##  <a name="support-information"></a><a name="BKMK_Support"></a>Сведения о поддержке
+##  <a name="support-information"></a><a name="BKMK_Support"></a> Сведения о поддержке
  Вы можете скачать пакет средств разработки программного обеспечения (SDK) Windows Server Essentials и комплект средств для развертывания и оценки Windows Server Essentials (ADK):
 
 -   [Пакет средств разработки программного обеспечения Windows Server Essentials](/previous-versions/windows/server-essentials/gg513877(v=msdn.10)) Tool

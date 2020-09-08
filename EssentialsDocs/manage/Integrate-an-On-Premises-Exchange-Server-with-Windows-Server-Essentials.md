@@ -7,12 +7,12 @@ ms.assetid: b56a21e2-c9e3-4ba9-97d9-719ea6a0854b
 author: nnamuhcs
 ms.author: coreyp
 manager: dongill
-ms.openlocfilehash: cef547570c58c405ac563a1c2215feda120350f4
-ms.sourcegitcommit: 04637054de2bfbac66b9c78bad7bf3e7bae5ffb4
+ms.openlocfilehash: 7975f70d75a33549d0a3c7616b5260064d5cb323
+ms.sourcegitcommit: 34f9577ef32cbdc7ef96040caabc9d83517f9b79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87837883"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "89554427"
 ---
 # <a name="integrate-an-on-premises-exchange-server-with-windows-server-essentials"></a>Интеграция локального сервера Exchange Server с Windows Server Essentials
 
@@ -25,7 +25,7 @@ ms.locfileid: "87837883"
 > [!NOTE]
 >  Exchange Server 2010 не поддерживает установку на компьютерах под управлением Windows Server 2012.
 
-## <a name="prerequisites"></a>Предварительные требования
+## <a name="prerequisites"></a>Обязательные условия
  Прежде чем установить сервер Exchange Server в сети Windows Server Essentials, необходимо выполнить следующие действия.
 
 -   [Настройка сервера, работающего под управлением Windows Server Essentials](Integrate-an-On-Premises-Exchange-Server-with-Windows-Server-Essentials.md#BKMK_SetUpSBS8)
@@ -34,10 +34,10 @@ ms.locfileid: "87837883"
 
 -   [Настройка имени домена Интернета](Integrate-an-On-Premises-Exchange-Server-with-Windows-Server-Essentials.md#BKMK_DomainNames)
 
-###  <a name="set-up-a-server-that-is-running-windows-server-essentials"></a><a name="BKMK_SetUpSBS8"></a>Настройка сервера под Windows Server Essentials
+###  <a name="set-up-a-server-that-is-running-windows-server-essentials"></a><a name="BKMK_SetUpSBS8"></a> Настройка сервера под Windows Server Essentials
  Сервер Windows Server Essentials должен быть настроен заранее. Он будет выполнять роль контроллера домена для сервера Exchange Server. Сведения о настройке Windows Server Essentials, см. в разделе [Установка Windows Server Essentials](../install/Install-Windows-Server-Essentials.md).
 
-###  <a name="prepare-a-second-server-on-which-to-install-exchange-server"></a><a name="BKMK_SecondServer"></a>Подготовка второго сервера для установки Exchange Server
+###  <a name="prepare-a-second-server-on-which-to-install-exchange-server"></a><a name="BKMK_SecondServer"></a> Подготовка второго сервера для установки Exchange Server
  Необходимо установить Exchange Server на втором сервере, работающем под управлением версии Windows Server, официально поддерживающей Exchange Server 2010 или Exchange Server 2013. Затем нужно присоединить второй сервер к домену Windows Server Essentials.
 
  Сведения о том, как присоединить второй сервер к домену Windows Server Essentials, см. в разделе Подключение второго сервера к сети в [подсоединении](../use/Get-Connected-in-Windows-Server-Essentials.md).
@@ -45,7 +45,7 @@ ms.locfileid: "87837883"
 > [!NOTE]
 >  Майкрософт не поддерживает установку Exchange Server на сервере, работающем под управлением Windows Server Essentials.
 
-###  <a name="configure-your-internet-domain-name"></a><a name="BKMK_DomainNames"></a>Настройка доменного имени в Интернете
+###  <a name="configure-your-internet-domain-name"></a><a name="BKMK_DomainNames"></a> Настройка доменного имени в Интернете
  Чтобы интегрировать локальный сервер Exchange Server с Windows Server Essentials, у вашей компании должно быть зарегистрированное действительное имя домена Интернета (например, *contoso.com*). Вы также должны совместно с поставщиком имени домена создать записи ресурсов DNS, необходимые для сервера Exchange Server.
 
  Например, если имя домена Интернета для вашей компании — contoso.com и вы хотите использовать полное доменное имя *mail.contoso.com* для ссылки на свой локальный сервер Exchange Server, вместе с поставщиком имени домена создайте записи ресурсов DNS в следующей таблице.
@@ -426,7 +426,7 @@ New-SendConnector -Name "WSE Internet SendConnector" -Usage "Internet" -AddressS
  Отключение интеграции с локальным сервером Exchange приведет к невозможности использовать панель мониторинга Windows Server Essentials для просмотра, создания и управления почтовыми ящиками Exchange Server.
 
 ### <a name="what-do-i-need-to-know-about-email-accounts"></a>Что нужно знать об учетных записях электронной почты?
- Хостинг электронной почты настраивается на вашем сервере. Решение из размещенного поставщика электронной почты, например Microsoft Office 365, может предоставлять индивидуальные учетные записи электронной почты для пользователей сети. При запуске мастер добавления учетных записей пользователей в Windows Server Essentials пытается добавить учетную запись пользователя с помощью доступной службы хостинга электронной почты. Одновременно мастер назначает пользователю имя (псевдоним) электронной почты и задает максимальный размер почтового ящика (квоту). Максимальный размер почтового ящика зависит от выбранного поставщика электронной почты. После добавления учетной записи пользователя, вы можете в дальнейшем управлять псевдонимом и информацией о квоте почтового ящика на странице настроек пользователя. Полное управление учетными записями пользователей и службой хостинга электронной почты осуществляется с помощью консоли управления. В зависимости от провайдера доступ к консоли управления осуществляется или через веб-портал, или через закладку в панели мониторинга.
+ Хостинг электронной почты настраивается на вашем сервере. Решение из размещенного поставщика электронной почты, например Microsoft 365, может предоставлять индивидуальные учетные записи электронной почты для пользователей сети. При запуске мастер добавления учетных записей пользователей в Windows Server Essentials пытается добавить учетную запись пользователя с помощью доступной службы хостинга электронной почты. Одновременно мастер назначает пользователю имя (псевдоним) электронной почты и задает максимальный размер почтового ящика (квоту). Максимальный размер почтового ящика зависит от выбранного поставщика электронной почты. После добавления учетной записи пользователя, вы можете в дальнейшем управлять псевдонимом и информацией о квоте почтового ящика на странице настроек пользователя. Полное управление учетными записями пользователей и службой хостинга электронной почты осуществляется с помощью консоли управления. В зависимости от провайдера доступ к консоли управления осуществляется или через веб-портал, или через закладку в панели мониторинга.
 
  Псевдоним, указанный вами при запуске мастера добавления учетных записей пользователей, отправляется провайдеру как предлагаемое имя для псевдонима пользователя. Например, если псевдоним пользователя — *франкм*, то адрес электронной почты пользователя может быть <em>FrankM@Contoso.com</em> .
 
