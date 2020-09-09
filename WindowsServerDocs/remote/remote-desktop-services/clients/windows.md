@@ -1,5 +1,5 @@
 ---
-title: Приступая к работе с клиентом Microsoft Store
+title: Начало работы с клиентом Microsoft Store
 description: Базовая установка клиента удаленного рабочего стола в Microsoft Store.
 ms.topic: article
 ms.assetid: 64f038e1-40ec-4c67-938b-72edea49e5d8
@@ -8,14 +8,14 @@ manager: dongill
 ms.author: elizapo
 ms.date: 06/01/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: 05e32c05aaafb941958e025253e67c856d81257d
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: c28ccbe0cfd49f1cf774031b002bf7b6142d0a00
+ms.sourcegitcommit: 9a59e00db5e68b1a12769b5cd5523b8c501776ad
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87990364"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "89282116"
 ---
-# <a name="get-started-with-the-windows-store-client"></a>Приступая к работе с клиентом Microsoft Store
+# <a name="get-started-with-the-microsoft-store-client"></a>Начало работы с клиентом Microsoft Store
 
 >Применяется к: Windows 10
 
@@ -24,7 +24,7 @@ ms.locfileid: "87990364"
 Приведенные ниже сведения помогут вам начать работу. Если у вас возникнут вопросы, ознакомьтесь с разделом с [вопросами и ответами](remote-desktop-client-faq.md).
 
 > [!NOTE]
-> - Хотите узнать о новых выпусках для клиента Microsoft Store? Ознакомьтесь с разделом [Что нового в клиенте Microsoft Store?](windows-whatsnew.md)
+> - Хотите узнать о новых выпусках для клиента Microsoft Store? См. статью [Новые возможности в клиенте Microsoft Store](windows-whatsnew.md).
 > - Клиент можно использовать в любой поддерживаемой версии Windows 10.
 
 ## <a name="get-the-rd-client-and-start-using-it"></a>Получение клиента удаленного рабочего стола и начало работы с ним
