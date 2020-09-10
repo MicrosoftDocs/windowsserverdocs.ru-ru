@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 9153ac90-bb0c-4b8d-93b2-e2121ed13636
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: 275024e1c3209e33edda79a685b9d45002369398
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: 79ffa14cfabc26afd87c0771f7412c98e661421d
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87181150"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89626152"
 ---
 # <a name="preconfiguring-a-router"></a>Предварительная настройка маршрутизатора
 
@@ -26,7 +26,7 @@ ms.locfileid: "87181150"
 
 |Параметр конфигурации|Сведения|
 |---------------------------|-------------|
-|DHCP|Вкл.|
+|DHCP|Включено|
 |перенаправление портов;|На адрес сервера следует перенаправлять следующие порты:<br /><br /> -80 (для размещенной конфигурации — использовать только 443)<br />— 443|
 |Поддержка UPnP|Следует включить поддержку UPnP, чтобы обеспечить наиболее простую конфигурацию маршрутизатора для клиента и лучшее взаимодействие с клиентами во время установки.<br /><br /> **Предупреждение:** Архитектура UPnP может представлять угрозу безопасности, если она остается включенной.|
 
@@ -43,5 +43,5 @@ ms.locfileid: "87181150"
 > [!NOTE]
 >  Для получения дополнительных сведений о настройке беспроводных соединений см. раздел [Настройка поддержки беспроводных сетей](Configure-Support-for-a-Wireless-Network.md).
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также:
  [Начало работы с Windows Server ESSENTIALS ADK](Getting-Started-with-the-Windows-Server-Essentials-ADK.md) [Создание и Настройка образа](Creating-and-Customizing-the-Image.md) [Дополнительные настройки](Additional-Customizations.md) [Подготовка образа для развертывания](Preparing-the-Image-for-Deployment.md) [Тестирование взаимодействия с пользователем](Testing-the-Customer-Experience.md)

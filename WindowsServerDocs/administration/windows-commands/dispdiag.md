@@ -3,16 +3,16 @@ title: dispdiag
 description: Справочная статья по команде диспдиаг, в которой журналы отображают сведения в файле.
 ms.topic: reference
 ms.assetid: 5079e1dd-b57c-44ed-970f-e6b409369e03
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 92dd0b49d8907f3ec934fd59d61b0504b622e80b
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: d2171aae18601f3783389335ea1cfa592a5c7f23
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89030842"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89627158"
 ---
 # <a name="dispdiag"></a>dispdiag
 

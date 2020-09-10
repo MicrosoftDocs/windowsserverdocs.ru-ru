@@ -5,14 +5,14 @@ ms.date: 01/02/2017
 ms.topic: article
 ms.assetid: fdf020cd-3184-4886-9f9d-7d729a89057e
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: d96f2fdb8ca69c1889c39bf8d868fc53f484304b
-ms.sourcegitcommit: 04637054de2bfbac66b9c78bad7bf3e7bae5ffb4
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: 007ca6d41bbbb638bd1f3ededce15f294d7cb2d1
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87837903"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89626318"
 ---
 # <a name="install-windows-server-essentials"></a>Установка Windows Server Essentials
 

@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 71e3243e-2da9-409a-ae1f-813d4c9062e1
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: 1faa44fbc9b4aba07950c1197169ccba8bb708eb
-ms.sourcegitcommit: 04637054de2bfbac66b9c78bad7bf3e7bae5ffb4
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: 81bb6a55efa3fef0154eda500e13928ac5db5b9e
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87838419"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89625846"
 ---
 # <a name="migrate-windows-small-business-server-2008-to-windows-server-essentials"></a>Миграция с Windows Small Business Server 2008 на Windows Server Essentials
 
@@ -59,7 +59,7 @@ ms.locfileid: "87838419"
 
  Для выполнения некоторых процедур миграции нужно открыть окно командной строки от имени администратора.
 
-###  <a name="to-open-a-command-prompt-window-on-the-source-server-as-an-administrator"></a><a name="BKMK_OpenACommandPromptAsAdmin"></a>Открытие окна командной строки на исходном сервере с правами администратора
+###  <a name="to-open-a-command-prompt-window-on-the-source-server-as-an-administrator"></a><a name="BKMK_OpenACommandPromptAsAdmin"></a> Открытие окна командной строки на исходном сервере с правами администратора
 
 1.  Нажмите кнопку "Пуск".
 

@@ -1,19 +1,19 @@
 ---
-title: type
+title: тип
 description: Справочная статья для типа, которая отображает содержимое текстового файла.
 ms.topic: reference
 ms.assetid: c44fe905-a865-4c97-8cc5-fb95fec7d4d5
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dansimp
-ms.openlocfilehash: a7e188ec816b4ad16d86018bf7fe92954e778cbf
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.author: lizross
+author: eross-msft
+manager: mtillman
+ms.openlocfilehash: 7b944037c6dc73de89fa92b54a41b07ff09fcf69
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89036082"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89626668"
 ---
-# <a name="type"></a>type
+# <a name="type"></a>тип
 
 В командной оболочке Windows **введите** встроенную команду, которая отображает содержимое текстового файла. Используйте команду **Type** , чтобы просмотреть текстовый файл, не изменяя его.
 
@@ -32,7 +32,7 @@ type [<Drive>:][<Path>]<FileName>
 |[\<Drive>:][\<Path>]\<FileName>|Указывает расположение и имя файла или файлов, которые требуется просмотреть. Несколько имен файлов следует разделять пробелами.|
 |/?|Отображение справки в командной строке.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Примечания
 
 -   Если *имя файла* содержит пробелы, заключите его в кавычки (например, имя файла, содержащее Spaces.txt).
 -   При отображении двоичного файла или файла, созданного программой, на экране могут отображаться необычные символы, включая перевода страницы символы и символы escape-последовательности. Эти символы представляют управляющие коды, используемые в двоичном файле. Как правило, Избегайте использования команды **Type** для вывода двоичных файлов.

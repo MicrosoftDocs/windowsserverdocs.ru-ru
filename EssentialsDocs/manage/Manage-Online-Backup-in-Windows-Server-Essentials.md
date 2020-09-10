@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 95a9f593-fad7-4335-bd4d-c7bb8c033efb
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: e5c8a274a8e012ffd24ce6c6c819fa240c9f1095
-ms.sourcegitcommit: 04637054de2bfbac66b9c78bad7bf3e7bae5ffb4
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: fd43b528c9528f531d2de72b0c401358019e2216
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87837893"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89626169"
 ---
 # <a name="manage-online-backup-in-windows-server-essentials"></a>Управление оперативной архивацией в Windows Server Essentials
 
@@ -52,7 +52,7 @@ ms.locfileid: "87837893"
 
 -   [Отмена регистрации сервера](Manage-Online-Backup-in-Windows-Server-Essentials.md#BKMK_6)
 
-###  <a name="upload-a-certificate-to-the-azure-backup-vault"></a><a name="BKMK_1"></a>Отправка сертификата в хранилище Azure Backup
+###  <a name="upload-a-certificate-to-the-azure-backup-vault"></a><a name="BKMK_1"></a> Отправка сертификата в хранилище Azure Backup
  Прежде чем использовать Azure Backup для оперативного резервного копирования в Windows Server Essentials, необходимо отправить открытый сертификат для регистрации в хранилище службы архивации. Сертификат используется для проверки подлинности развертывания Azure Backup (агент), действующего от имени владельца подписки Microsoft Online Services для управления ресурсами, связанными с подпиской.
 
 > [!NOTE]
@@ -96,7 +96,7 @@ ms.locfileid: "87837893"
 
 10. Настройте оперативную архивацию сервера. Дополнительные сведения см. в разделе [Настройка оперативной архивации](Manage-Online-Backup-in-Windows-Server-Essentials.md#BKMK_2).
 
-###  <a name="configure-online-backup"></a><a name="BKMK_2"></a>Настройка оперативного резервного копирования
+###  <a name="configure-online-backup"></a><a name="BKMK_2"></a> Настройка оперативного резервного копирования
  После регистрации сервера в Azure Backup можно настроить параметры оперативного резервного копирования в Windows Server Essentials.
 
 ##### <a name="to-configure-online-backup"></a>Настройка оперативной архивации
@@ -131,7 +131,7 @@ ms.locfileid: "87837893"
     > [!TIP]
     >  После успешной настройки резервного копирования на странице **Оперативная архивация** отобразится статус последней оперативной архивации и объем пространства для хранения, использованный резервным хранилищем. Для просмотра статуса предыдущих операций архивации щелкните **Журнал резервного копирования**.
 
-###  <a name="start-an-online-backup"></a><a name="BKMK_3"></a>Запуск оперативной архивации
+###  <a name="start-an-online-backup"></a><a name="BKMK_3"></a> Запуск оперативной архивации
 
 > [!NOTE]
 >  Прежде чем начать оперативную архивацию, необходимо [Зарегистрировать сервер для резервного копирования](Manage-Online-Backup-in-Windows-Server-Essentials.md#BKMK_5) и [Настроить оперативную архивацию](Manage-Online-Backup-in-Windows-Server-Essentials.md#BKMK_2).
@@ -144,7 +144,7 @@ ms.locfileid: "87837893"
 
 3.  В области **Задачи оперативной архивации** щелкните **Архивировать сейчас**.
 
-###  <a name="restore-files-and-folders-from-an-online-backup"></a><a name="BKMK_4"></a>Восстановление файлов и папок из оперативной резервной копии
+###  <a name="restore-files-and-folders-from-an-online-backup"></a><a name="BKMK_4"></a> Восстановление файлов и папок из оперативной резервной копии
  Мастер восстановления файлов и папок поможет найти, выбрать и восстановить оперативно архивированные файлы и папки. Пользователь выполнит в мастере следующие задачи.
 
 1.  **Выберите оперативный архив, из которого требуется восстановить файлы и папки**
@@ -177,7 +177,7 @@ ms.locfileid: "87837893"
 
      На странице **Подтверждение сведений о восстановлении** обобщены заданные пользователем параметры восстановления. Чтобы продолжить процедуру восстановления файлов, необходимо указать правильную парольную фразу для учетной записи оперативной архивации.
 
-###  <a name="register-this-server-for-backup"></a><a name="BKMK_5"></a>Зарегистрируйте этот сервер для архивации
+###  <a name="register-this-server-for-backup"></a><a name="BKMK_5"></a> Зарегистрируйте этот сервер для архивации
  Чтобы выполнить резервное копирование или восстановление файлов, папок и журнала файлов на сервере Windows Server Essentials до Azure Backup, необходимо сначала зарегистрировать сервер в службе Microsoft Azure Backup.
 
 > [!NOTE]
@@ -195,7 +195,7 @@ ms.locfileid: "87837893"
 
 5.  Следуйте инструкциям в мастере для создания парольной фразы и завершения регистрации.
 
-###  <a name="unregister-server"></a><a name="BKMK_6"></a>Отменить регистрацию сервера
+###  <a name="unregister-server"></a><a name="BKMK_6"></a> Отменить регистрацию сервера
 
 > [!CAUTION]
 >  При отмене регистрации сервера Windows Server Essentials из службы Microsoft Azure Backup Azure Backup больше не может выполнять резервное копирование сервера. Кроме того, будут удалены ранее загруженные данные сервера. Чтобы возобновить оперативную архивацию, потребуется снова зарегистрировать сервер.
@@ -240,7 +240,7 @@ ms.locfileid: "87837893"
 
 -   [Журнал оперативного резервного копирования в Windows Server Essentials](Manage-Online-Backup-in-Windows-Server-Essentials.md#BKMK_19)
 
-###  <a name="change-the-online-backup-policy"></a><a name="BKMK_7"></a>Изменение политики оперативного резервного копирования
+###  <a name="change-the-online-backup-policy"></a><a name="BKMK_7"></a> Изменение политики оперативного резервного копирования
  Легко внести изменения в политику оперативной архивации, воспользовавшись панелью мониторинга Windows Server Essentials.
 
 ##### <a name="to-change-the-online-backup-policy"></a>Изменение политики оперативной архивации
@@ -255,7 +255,7 @@ ms.locfileid: "87837893"
 
    Дополнительные сведения о настраиваемых параметрах см. в разделе [Настройка оперативной архивации](Manage-Online-Backup-in-Windows-Server-Essentials.md#BKMK_2).
 
-###  <a name="view-online-backup-storage-usage"></a><a name="BKMK_8"></a>Просмотр использования оперативного хранилища резервных копий
+###  <a name="view-online-backup-storage-usage"></a><a name="BKMK_8"></a> Просмотр использования оперативного хранилища резервных копий
 
 ##### <a name="to-view-the-amount-of-storage-space-that-online-backup-uses"></a>Просмотр объема места для хранения, используемого оперативной архивацией
 
@@ -265,7 +265,7 @@ ms.locfileid: "87837893"
 
 3.  На вкладке **Оперативная архивация** в области сведений отобразится **Состояние хранения**.
 
-###  <a name="include-a-new-folder-in-online-backup"></a><a name="BKMK_9"></a>Включить новую папку в оперативную архивацию
+###  <a name="include-a-new-folder-in-online-backup"></a><a name="BKMK_9"></a> Включить новую папку в оперативную архивацию
 
 ##### <a name="to-include-a-new-folder-in-the-online-backup-policy"></a>Включение новой папки в политику оперативной архивации
 
@@ -287,7 +287,7 @@ ms.locfileid: "87837893"
 
    Подробные сведения о других настраиваемых параметрах см. в разделе [Настройка оперативной архивации](Manage-Online-Backup-in-Windows-Server-Essentials.md#BKMK_2).
 
-###  <a name="remove-or-exclude-file-history-backups-from-the-online-backup-policy"></a><a name="BKMK_10"></a>Удаление или исключение резервных копий журнала файлов из политики оперативного резервного копирования
+###  <a name="remove-or-exclude-file-history-backups-from-the-online-backup-policy"></a><a name="BKMK_10"></a> Удаление или исключение резервных копий журнала файлов из политики оперативного резервного копирования
 
 ##### <a name="to-remove-or-exclude-a-folder-from-the-online-backup-policy"></a>Удаление или исключение папки из политики оперативной архивации
 
@@ -299,12 +299,12 @@ ms.locfileid: "87837893"
 
 4.  Выберите папку, которую требуется исключить из политики оперативной архивации, а затем в области задач щелкните **Удалить папку из оперативной архивации**.
 
-###  <a name="disable-or-re-enable-online-server-backup"></a><a name="BKMK_11"></a>Отключение или повторное включение оперативной архивации сервера
+###  <a name="disable-or-re-enable-online-server-backup"></a><a name="BKMK_11"></a> Отключение или повторное включение оперативной архивации сервера
  Инструкции по использованию Azure Backup для резервного копирования и восстановления данных сервера см. в статье [Регистрация сервера для архивации](Manage-Online-Backup-in-Windows-Server-Essentials.md#BKMK_5).
 
  Инструкции по отмене использования Azure Backup для резервного копирования и восстановления данных сервера см. в разделе [Отмена регистрации сервера](Manage-Online-Backup-in-Windows-Server-Essentials.md#BKMK_6).
 
-###  <a name="stop-an-online-server-backup-in-progress"></a><a name="BKMK_12"></a>Останавливает выполнение резервного копирования сервера в сети
+###  <a name="stop-an-online-server-backup-in-progress"></a><a name="BKMK_12"></a> Останавливает выполнение резервного копирования сервера в сети
 
 ##### <a name="to-stop-an-online-server-backup-in-progress"></a>Остановка начатой оперативной регистрации сервера
 
@@ -316,7 +316,7 @@ ms.locfileid: "87837893"
 
      После остановки резервного копирования статус **Отменено** отображается в списке **Журнал резервного копирования** для данной операции архивации.
 
-###  <a name="view-online-backup-status"></a><a name="BKMK_13"></a>Просмотр состояния оперативного резервного копирования
+###  <a name="view-online-backup-status"></a><a name="BKMK_13"></a> Просмотр состояния оперативного резервного копирования
 
 ##### <a name="to-view-the-backup-status"></a>Просмотр статуса резервного копирования
 
@@ -326,14 +326,14 @@ ms.locfileid: "87837893"
 
 3.  Перейдите на вкладку **Журнал резервного копирования** . В представлении списка отображается состояние каждого задания резервного копирования. Выберите задание резервного копирования для просмотра дополнительных сведений об этом задании.
 
-###  <a name="view-and-manage-online-backup-alerts"></a><a name="BKMK_14"></a>Просмотр оповещений оперативного резервного копирования и управление ими
+###  <a name="view-and-manage-online-backup-alerts"></a><a name="BKMK_14"></a> Просмотр оповещений оперативного резервного копирования и управление ими
  Как и многие другие оповещения, оповещения для Azure Backup отображаются в средстве просмотра оповещений.
 
 ##### <a name="to-view-online-backup-alerts-in-the-alert-viewer"></a>Просмотр предупреждений оперативной архивации в средстве просмотра оповещений
 
 1. Откройте панель мониторинга.
 
-2. Используйте один из следующих вариантов:
+2. Выполните одно из следующих действий.
 
      Windows Server Essentials: в области навигации щелкните значок предупреждения, который \( может быть критическим, предупреждением или информационным \) . Откроется средство просмотра оповещений.
 
@@ -343,10 +343,10 @@ ms.locfileid: "87837893"
 
    Дополнительные сведения об использовании вкладки Средство просмотра предупреждений или наблюдение за работоспособностью для управления оповещениями см. в разделе [Управление работоспособностью системы](Manage-System-Health-in-Windows-Server-Essentials.md).
 
-###  <a name="reset-online-backup-to-default-settings"></a><a name="BKMK_15"></a>Сброс оперативной архивации до параметров по умолчанию
+###  <a name="reset-online-backup-to-default-settings"></a><a name="BKMK_15"></a> Сброс оперативной архивации до параметров по умолчанию
  Windows Server Essentials предоставляет мастер для настройки параметров оперативной архивации. Если требуется восстановить параметры по умолчанию, запустите задачу **Настройка оперативной архивации** и выберите вариант **Удалить политику оперативной архивации**. Затем снова запустите задачу **Настройка оперативной архивации**. Загруженные ранее данные остаются неизменными.
 
-###  <a name="sign-up-for-azure-backup-service"></a><a name="BKMK_16"></a>Регистрация для Azure Backup службы
+###  <a name="sign-up-for-azure-backup-service"></a><a name="BKMK_16"></a> Регистрация для Azure Backup службы
  Чтобы подготовиться к интеграции Microsoft Azure Backup с Windows Server Essentials, войдите в портал управления Azure с помощью учетной записи Microsoft Online Services, а затем создайте резервное хранилище для хранения оперативных резервных копий в Azure. Затем можно скачать модуль интеграции Azure Backup и использовать скачанный файл для установки Azure Backup надстройки на сервере Windows Server Essentials. Если у вас нет учетной записи Майкрософт, можно зарегистрироваться для получения бесплатной пробной версии.
 
  Для реализации этой настройки выполните следующие задачи.
@@ -359,7 +359,7 @@ ms.locfileid: "87837893"
 
 4.  Установите надстройку Azure Backup на сервере.
 
-####  <a name="sign-up-for-a-microsoft-online-services-account-and-the-backup-preview"></a><a name="BKMK_SignupforaMicrosoftOnlineServiceAccount"></a>Подпишитесь на учетную запись Microsoft Online Services и предварительную версию резервной копии
+####  <a name="sign-up-for-a-microsoft-online-services-account-and-the-backup-preview"></a><a name="BKMK_SignupforaMicrosoftOnlineServiceAccount"></a> Подпишитесь на учетную запись Microsoft Online Services и предварительную версию резервной копии
 
 1.  Выполните вход на панель мониторинга Windows Server Essentials.
 
@@ -373,7 +373,7 @@ ms.locfileid: "87837893"
 
 5.  На странице портал управления Azure вы увидите **службы восстановления** в левой области. Именно здесь вы будете управлять резервными хранилищами, в которых хранятся оперативные резервные копии из Windows Server Essentials.
 
-####  <a name="create-a-backup-vault-to-store-online-backups"></a><a name="BKMK_Createabackupvaulttostoreonlinebackups"></a>Создание резервного хранилища для хранения оперативных резервных копий
+####  <a name="create-a-backup-vault-to-store-online-backups"></a><a name="BKMK_Createabackupvaulttostoreonlinebackups"></a> Создание резервного хранилища для хранения оперативных резервных копий
 
 1.  Выполните вход на [портал управления Azure](https://manage.windowsazure.com)из веб-браузера на сервере Windows Server Essentials.
 
@@ -383,13 +383,13 @@ ms.locfileid: "87837893"
 
      Отобразится область **Службы восстановления** с новым резервным хранилищем.
 
-####  <a name="download-the-azure-backup-agent"></a><a name="BKMK_DownloadtheWindowsAzureBackupAgent"></a>Скачать агент Azure Backup
+####  <a name="download-the-azure-backup-agent"></a><a name="BKMK_DownloadtheWindowsAzureBackupAgent"></a> Скачать агент Azure Backup
 
 1.  Откройте панель мониторинга Windows Server Essentials.
 
 2.  На странице **Главная** панели мониторинга щелкните вкладку **Начать**, выберите категорию **НАДСТРОЙКИ**, а затем последовательно щелкните **Интеграция со службой резервного копирования Azure** и **Щелкните, чтобы загрузить модуль интеграции со службой резервного копирования Azure**.
 
-####  <a name="install-the-azure-backup-add-in-on-the-server"></a><a name="BKMK_InstalltheWindowsAzureBackupAddIn"></a>Установка Azure Backup надстройки на сервере
+####  <a name="install-the-azure-backup-add-in-on-the-server"></a><a name="BKMK_InstalltheWindowsAzureBackupAddIn"></a> Установка Azure Backup надстройки на сервере
 
 1. Выполните вход на сервер с учетной записью администратора, а затем запустите загруженный в предыдущем шаге файл **OnlineBackupAddin.wssx**.
 
@@ -416,7 +416,7 @@ ms.locfileid: "87837893"
 
 8. Настройте оперативную архивацию сервера. Дополнительные сведения см. в разделе [Настройка оперативной архивации](Manage-Online-Backup-in-Windows-Server-Essentials.md#BKMK_2).
 
-###  <a name="integrate-azure-backup-with-windows-server-essentials"></a><a name="BKMK_17"></a>Интеграция Azure Backup с Windows Server Essentials
+###  <a name="integrate-azure-backup-with-windows-server-essentials"></a><a name="BKMK_17"></a> Интеграция Azure Backup с Windows Server Essentials
  Модуль интеграции Microsoft Azure Backup — это новая функция Windows Server Essentials, которая позволяет шифровать и архивировать файлы и папки с сервера в систему хранения, размещенную в Azure, предоставляемую корпорацией Майкрософт. С помощью Azure Backup для шифрования и резервного копирования данных на сервере можно избежать катастрофической потери критических бизнес-данных из-за пожара, переполнения, кражи или других аварий. При использовании Azure Backup для резервного копирования данных сервера эти данные шифруются с помощью парольной фразы перед их отправкой в защищенный центр обработки данных в Интернете. Для доступа к данным из оперативного архива требуются сервер, прошедший аутентификацию с помощью сертификата, и парольная фраза.
 
  После интеграции и регистрации сервера в Azure Backup можно настроить параметры оперативного резервного копирования для регулярного запланированного резервного копирования. Можно в любой момент инициировать оперативную архивацию, щелкнув задачу **Архивировать сейчас** на панели мониторинга оперативной архивации.
@@ -434,7 +434,7 @@ ms.locfileid: "87837893"
 > [!NOTE]
 >   Azure Backup использует парольную фразу для шифрования файлов и папок для оперативного резервного копирования. При изменении парольной фразы шифрования меняется и парольная фраза. указанная при регистрации сервера. Парольная фраза может состоять только из символов в кодировке ASCII.
 
-###  <a name="protect-folders-for-online-backup-in-windows-server-essentials"></a><a name="BKMK_18"></a>Защита папок для оперативного резервного копирования в Windows Server Essentials
+###  <a name="protect-folders-for-online-backup-in-windows-server-essentials"></a><a name="BKMK_18"></a> Защита папок для оперативного резервного копирования в Windows Server Essentials
  Подраздел **Защищенные папки** в разделе оперативной архивации панели мониторинга содержит список всех общих папок на сервере. В следующей таблице представлены сведения, включенные в этот список
 
 |Столбец|Описание|
@@ -443,7 +443,7 @@ ms.locfileid: "87837893"
 |**Путь к папке:**|Местоположение папки.|
 |**Состояние**|Существует три типа с состоянием " **защищено**", " **не защищено**" и " **неизвестно**".|
 
-###  <a name="online-backup-history-in-windows-server-essentials"></a><a name="BKMK_19"></a>Журнал оперативного резервного копирования в Windows Server Essentials
+###  <a name="online-backup-history-in-windows-server-essentials"></a><a name="BKMK_19"></a> Журнал оперативного резервного копирования в Windows Server Essentials
  Подраздел **Журнал резервного копирования** в разделе оперативной архивации на панели мониторинга содержит список недавно выполненных оперативных архиваций. Успешно завершенные архивации можно использовать для восстановления файлов и папок. В следующей таблице представлены сведения, включенные в этот список
 
 |Столбец|Описание|

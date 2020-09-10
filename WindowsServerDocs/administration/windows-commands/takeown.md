@@ -3,16 +3,16 @@ title: takeown
 description: Узнайте, как получить доступ к файлу, став владельцем файла.
 ms.topic: reference
 ms.assetid: 0683cd65-a6db-4cab-962b-45a0ff61f43c
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: b87f773f1b42291a679a642793f2b534982164d2
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 93b8f58106b6e827254b3ab91f859767da9dae7c
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89027202"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89626731"
 ---
 # <a name="takeown"></a>takeown
 
@@ -39,7 +39,7 @@ takeown [/s <Computer> [/u [<Domain>\]<User name> [/p [<Password>]]]] /f <File n
 |/d {Y \| N}|Подавляет отображение запроса подтверждения, если текущий пользователь не имеет разрешения "список папок" для указанного каталога, а использует указанное значение по умолчанию. Допустимые значения параметра **/d** приведены ниже.</br>-Y: смена владельца каталога.</br>-N: пропустить каталог.</br>Обратите внимание, что этот параметр следует использовать вместе с параметром **/r** .|
 |/?|Отображение справки в командной строке.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Примечания
 
 -   Эта команда обычно используется в пакетных файлах.
 -   Если параметр **/a** не указан, владение файлом назначается пользователю, вошедшему в систему на компьютере.

@@ -3,16 +3,16 @@ title: tsprof
 description: Справочная статья по тспроф, которая копирует данные пользовательской конфигурации службы удаленных рабочих столов от одного пользователя к другому.
 ms.topic: reference
 ms.assetid: 27047868-b706-4208-b7e0-1437a2325dd3
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: f676b1d11586d413e544d451043da242861083e1
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: de1acc0c99f91f3ebf01d09d39d9fb0685d7f8f6
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89023398"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89626698"
 ---
 # <a name="tsprof"></a>tsprof
 
@@ -47,7 +47,7 @@ tsprof /q {/domain:<DomainName> | /local} <UserName>
 |/q|Отображает текущий путь к профилю пользователя, для которого требуется запросить путь к профилю сервера.|
 |/?|Отображение справки в командной строке.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Примечания
 -   Команда **тспроф** доступна только в том случае, если служба роли сервера терминалов установлена на компьютере с windows Server 2008 или службой роли узла сеансов удаленных рабочих столов на компьютере под windows Server 2008 R2.
 
 ## <a name="examples"></a>Примеры

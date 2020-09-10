@@ -3,16 +3,16 @@ title: Get-Аллнамеспацес
 description: Справочная статья по команде Get-Аллнамеспацес, в которой отображаются сведения обо всех пространствах имен на сервере.
 ms.topic: reference
 ms.assetid: e8fe896d-a69a-4180-923b-9f18185f5941
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 9cd6010e759c5b33abe011263abf3464e3d7a356
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: b87b1fb3b2a7a1a7bb21f9c5a6a389494532dde5
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89035972"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89626370"
 ---
 # <a name="get-allnamespaces"></a>Get-Аллнамеспацес
 
@@ -31,7 +31,7 @@ wdsutil /Get-AllNamespaces [/Server:<Server name>] [/ContentProvider:<name>] [/d
 ```
 ### <a name="parameters"></a>Параметры
 
-|         Параметр         |                                                                               Windows Server 2008                                                                               | Windows Server 2008 R2 |
+|         Параметр         |                                                                               Windows Server 2008                                                                               | Windows Server 2008 R2 |
 |---------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|
 |  [/Server: <Server name> ]  | Указывает имя сервера. Это может быть либо NetBIOS-имя, либо полное доменное имя (FQDN). Если имя сервера не указано, будет использоваться локальный сервер. |                        |
 | [/Контентпровидер: <name> ] |                                                        Отображает пространства имен только для указанного поставщика содержимого.                                                         |                        |
@@ -49,7 +49,7 @@ wdsutil /Get-AllNamespaces
   ```
   wdsutil /Get-AllNamespaces /Server:MyWDSServer /ContentProvider:MyContentProv /Show:Clients /ExcludedeletePending
   ```
-- Windows Server 2008 R2
+- Windows Server 2008 R2
   ```
   wdsutil /Get-AllNamespaces /Server:MyWDSServer /ContentProvider:MyContentProv /details:Clients /ExcludedeletePending
   ```

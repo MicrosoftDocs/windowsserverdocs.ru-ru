@@ -3,16 +3,16 @@ title: tskill
 description: Справочная статья по тскилл, которая завершает процесс, выполняющийся в сеансе на удаленный рабочий стол сервере узла сеансов.
 ms.topic: reference
 ms.assetid: 08986e6a-6900-4ece-85a1-8f73b14db1b3 Lizap
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 357523ce9806910bfddc8ed8992a7ac7be388d3f
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 24785d10cc09d494850bad5442f72111260dd261
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89026812"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89626715"
 ---
 # <a name="tskill"></a>tskill
 
@@ -41,7 +41,7 @@ tskill {<ProcessID> | <ProcessName>} [/server:<ServerName>] [/id:<SessionID> | /
 |/v|Отображает сведения о выполняемых действиях.|
 |/?|Отображение справки в командной строке.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Примечания
 - Вы можете использовать **тскилл** , чтобы завершить только те процессы, которые принадлежат вам, если вы не являетесь администратором. Администраторы имеют полный доступ ко всем функциям **тскилл** и могут завершать процессы, работающие в других пользовательских сеансах.
 - При завершении всех процессов, выполняемых в сеансе, сеанс также завершается.
 - Если используются параметры *processName* и **/Server:**<em>ServerName</em> , необходимо также указать параметр **/ID:**<em>SessionID</em> или **/a** .

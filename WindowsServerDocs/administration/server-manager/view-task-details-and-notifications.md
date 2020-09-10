@@ -3,16 +3,16 @@ title: Просмотр сведений о задачах и уведомлен
 description: Диспетчер серверов
 ms.topic: article
 ms.assetid: 95117407-2dd3-4f9a-841f-4331be3544c3
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 479105e7f1e605142ec54103825b1ba4934fb127
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 096fdab1cb44f1d71b8db81270396aeea0727fb9
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87993112"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89627720"
 ---
 # <a name="view-task-details-and-notifications"></a>Просмотр сведений о задачах и уведомлений
 

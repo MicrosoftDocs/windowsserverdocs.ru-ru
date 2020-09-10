@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: e62e4f07-c2ba-4c5e-b30c-bdc287cd654e
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: 12bdaa86cf102ac85d2d2d8f2f2caf492f465dec
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: 32bb6be1ff24823d628e23945849b5030d6e0723
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87181210"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89626327"
 ---
 # <a name="install-add-ins"></a>Установка надстроек
 
@@ -35,5 +35,5 @@ ms.locfileid: "87181210"
 
 2.  (Необязательно) Установите отдельные файлы в соответствующие папки, следуя инструкциям пакета SDK для каждого типа надстроек.
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также:
  [Создание и Настройка образа](Creating-and-Customizing-the-Image.md) [Дополнительные настройки](Additional-Customizations.md) [Подготовка образа для развертывания](Preparing-the-Image-for-Deployment.md) [Тестирование взаимодействия с пользователем](Testing-the-Customer-Experience.md)

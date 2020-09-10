@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: e5b4a362-1881-4024-ae4e-cc3b05e50103
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: 48bfc36ba6f3fa369b694b2e160a5ee1282517f2
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: dd68308646eba5fba2f79593cba82de467c1888b
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87181570"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89626360"
 ---
 # <a name="add-third-level-domain-names"></a>Добавление имен доменов третьего уровня
 
@@ -33,7 +33,7 @@ ms.locfileid: "87181570"
 
 -   [Перезапуск службы управления доменными именами Windows Server](Add-Third-Level-Domain-Names.md#BKMK_RestartService)
 
-###  <a name="add-an-implementation-of-the-idomainsignupprovider-interface-to-the-assembly"></a><a name="BKMK_DomainSignup"></a>Добавление в сборку реализации интерфейса Идомаинсигнуппровидер
+###  <a name="add-an-implementation-of-the-idomainsignupprovider-interface-to-the-assembly"></a><a name="BKMK_DomainSignup"></a> Добавление в сборку реализации интерфейса Идомаинсигнуппровидер
  Интерфейс IDomainSignupProvider используется для обеспечения доступности доменов для мастера.
 
 ##### <a name="to-add-the-idomainsignupprovider-code-to-the-assembly"></a>Добавление в сборку кода интерфейса IDomainSignupProvider
@@ -273,7 +273,7 @@ ms.locfileid: "87181570"
 
 21. Сохраните проект, но закрывайте его, поскольку в него будут добавляться объекты при выполнении следующей процедуры. До завершения этой процедуры построение проекта невозможно.
 
-###  <a name="add-an-implementation-of-the-idomainmaintenanceprovider-interface-to-the-assembly"></a><a name="BKMK_DomainMaintenance"></a>Добавление в сборку реализации интерфейса Идомаинмаинтенанцепровидер
+###  <a name="add-an-implementation-of-the-idomainmaintenanceprovider-interface-to-the-assembly"></a><a name="BKMK_DomainMaintenance"></a> Добавление в сборку реализации интерфейса Идомаинмаинтенанцепровидер
  Интерфейс IDomainMaintenanceProvider используется для обслуживания домена после его создания.
 
 ##### <a name="to-add-the-idomainmaintenanceprovider-code-to-the-assembly"></a>Добавление в сборку кода интерфейса IDomainMaintenanceProvider
@@ -512,10 +512,10 @@ ms.locfileid: "87181570"
 
 14. Сохраните решение и выполните его построение.
 
-###  <a name="sign-the-assembly-with-an-authenticode-signature"></a><a name="BKMK_SignAssembly"></a>Подписать сборку с помощью подписи Authenticode
+###  <a name="sign-the-assembly-with-an-authenticode-signature"></a><a name="BKMK_SignAssembly"></a> Подписать сборку с помощью подписи Authenticode
  Чтобы сборку можно было использовать в операционной системе, на ней должна быть подпись Authenticode. Дополнительные сведения о подписи сборки см. в разделе [Подпись и проверка кода с помощью Authenticode](https://msdn.microsoft.com/library/ms537364\(VS.85\).aspx#SignCode).
 
-###  <a name="install-the-assembly-on-the-reference-computer"></a><a name="BKMK_InstallAssembly"></a>Установка сборки на эталонном компьютере
+###  <a name="install-the-assembly-on-the-reference-computer"></a><a name="BKMK_InstallAssembly"></a> Установка сборки на эталонном компьютере
  Поместите сборку в папку на компьютере-образце. Запишите путь к этой папке, поскольку его необходимо добавить в реестр на следующем шаге.
 
 ### <a name="add-a-key-to-the-registry"></a>Добавление раздела реестра
@@ -555,7 +555,7 @@ ms.locfileid: "87181570"
 
 16. Введите полное имя класса поставщика, определенного в сборке, и нажмите кнопку **ОК**.
 
-###  <a name="restart-the-windows-server-domain-name-management-service"></a><a name="BKMK_RestartService"></a>Перезапуск службы управления доменными именами Windows Server
+###  <a name="restart-the-windows-server-domain-name-management-service"></a><a name="BKMK_RestartService"></a> Перезапуск службы управления доменными именами Windows Server
  Чтобы поставщик стал доступным для операционной системы, необходимо перезапустить службу управления доменными именами Windows Server.
 
 ##### <a name="restart-the-service"></a>Перезапустите службу.

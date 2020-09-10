@@ -3,16 +3,16 @@ title: regini
 description: Справочная статья по команде Регини, которая изменяет реестр из командной строки или сценария и применяет изменения, предустановленные в одном или нескольких текстовых файлах.
 ms.topic: reference
 ms.assetid: 5ff18dc3-5bd8-400a-b311-fd73a3267e8c
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 07/11/2018
-ms.openlocfilehash: a779c41dba46e86f862982de0b203a09dd6c8384
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 78c56a68392d066047123dc77bafc3d1b01de127
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89027442"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89627478"
 ---
 # <a name="regini"></a>regini
 
@@ -37,7 +37,7 @@ regini [-m \\machinename | -h hivefile hiveroot][-i n] [-o outputwidth][-b] text
 | -b | Указывает, что **regini.exe** выходные данные обратно совместимы с предыдущими версиями **regini.exe**. |
 | Textfiles | Указывает имя одного или нескольких текстовых файлов, содержащих данные реестра. В списке можно указать любое количество текстовых файлов в кодировке ANSI или Unicode. |
 
-#### <a name="remarks"></a>Remarks
+#### <a name="remarks"></a>Примечания
 
 Следующие рекомендации применяются в основном к содержимому текстовых файлов, содержащих данные реестра, которые применяются с помощью **regini.exe**.
 

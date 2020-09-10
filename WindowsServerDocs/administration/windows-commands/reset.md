@@ -3,16 +3,16 @@ title: сброс
 description: Справочная статья по команде Reset, которая сбрасывает DiskShadow.exe в состояние по умолчанию.
 ms.topic: reference
 ms.assetid: afbdab44-199c-4e11-884f-e96804965c21
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 9ca1b0574fae1e0d00bc1f2cbec17ff9572ed253
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 84f4aedee746e642e59a09055c3994160f503afa
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89038342"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89626882"
 ---
 # <a name="reset"></a>сброс
 

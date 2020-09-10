@@ -5,14 +5,14 @@ ms.date: 06/17/2013
 ms.topic: article
 ms.assetid: e95cf219-46a4-4041-bd81-0c4c2a0622cf
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: ce8f1dda49144a817f405d04f17046f701230446
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: c6fe658db8756856a65bb5284731b949d8edbd31
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87181180"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89626228"
 ---
 # <a name="install-and-configure-windows-server-essentials"></a>Установка и настройка Windows Server Essentials
 
@@ -27,7 +27,7 @@ ms.locfileid: "87181180"
  Установка и настройка Windows Server Essentials выполняются в два этапа.
 
 
-###  <a name="step-1-install-the-windows-server-essentials-operating-system"></a><a name="BKMK_ManualInstallation"></a>Шаг 1. Установка операционной системы Windows Server Essentials
+###  <a name="step-1-install-the-windows-server-essentials-operating-system"></a><a name="BKMK_ManualInstallation"></a> Шаг 1. Установка операционной системы Windows Server Essentials
 
 > [!IMPORTANT]
 >  После установки операционной системы не настраивайте сервер до завершения [шага 2: Настройка операционной системы Windows Server Essentials](#BKMK_Step2Configure).
@@ -90,7 +90,7 @@ ms.locfileid: "87181180"
 
    Во время установки временные файлы копируются в установочную папку на компьютере, что занимает около 30 минут. После установки операционной системы Windows Server Essentials компьютер перезагружается. Теперь все готово для настройки операционной системы Windows Server Essentials.
 
-###  <a name="step-2-configure-the-windows-server-essentials-operating-system"></a><a name="BKMK_Step2Configure"></a>Шаг 2. Настройка операционной системы Windows Server Essentials
+###  <a name="step-2-configure-the-windows-server-essentials-operating-system"></a><a name="BKMK_Step2Configure"></a> Шаг 2. Настройка операционной системы Windows Server Essentials
 
 > [!IMPORTANT]
 >  При переходе с предыдущей версии Windows Small Business Server на Windows Server Essentials необходимо выполнить другой процесс. Подробную информацию об установке с миграцией см. в следующих статьях:

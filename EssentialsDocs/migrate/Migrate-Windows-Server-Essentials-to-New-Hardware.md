@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: f695ae90-3160-407b-bebf-9e460f22c86d
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: 98045fc4d918034dbe8a3c8d5ea63fc0bd3f5a94
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: 704fc7fa97c949080104846011cf07e8e28da73a
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87180720"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89625864"
 ---
 # <a name="migrate-windows-server-essentials-to-new-hardware"></a>Миграция с Windows Server Essentials на новое оборудование
 

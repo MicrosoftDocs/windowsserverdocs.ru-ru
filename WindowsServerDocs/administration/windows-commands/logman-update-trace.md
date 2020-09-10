@@ -3,16 +3,16 @@ title: logman update trace
 description: Справочная статья по команде Logman Update Trace, которая обновляет свойства существующего сборщика данных трассировки событий.
 ms.topic: reference
 ms.assetid: b7111f7f-4162-4d1a-8e53-d766db0ede1f
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 17a63116408458edaf11c2ff44ccf2c1a978cea0
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: cb17630384e4daf2371a6f67ea20fc2b25ef61ec
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89036352"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89627544"
 ---
 # <a name="logman-update-trace"></a>logman update trace
 
@@ -61,7 +61,7 @@ logman update trace <[-n] <name>> [options]
 | -Mode `<globalsequence|localsequence|pagedmemory>` | Указывает режим ведения журнала сеанса трассировки событий, в том числе:<ul><li>**Глобалсекуенце** — указывает, что трассировщик событий добавляет порядковый номер к каждому событию, которое оно получает независимо от того, какой сеанс трассировки получил событие.</li><li>**Локалсекуенце** — указывает, что трассировщик событий добавляет порядковые номера для событий, полученных в определенном сеансе трассировки. При использовании этого параметра повторяющиеся порядковые номера могут существовать во всех сеансах, но они будут уникальны в пределах каждого сеанса трассировки.</li><li>**Пажедмемори** — указывает, что трассировка событий использует страничную память, а не пул нестраничных памяти по умолчанию для выделения внутренних буферов.</li></ul> |
 | /? | Отображает контекстную справку. |
 
-#### <a name="remarks"></a>Remarks
+#### <a name="remarks"></a>Примечания
 
 - Где [-] присутствует, Добавление дополнительного дефиса (-) инвертирует параметр.
 

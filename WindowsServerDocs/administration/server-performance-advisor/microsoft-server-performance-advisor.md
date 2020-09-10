@@ -2,17 +2,17 @@
 title: Microsoft Server Performance Advisor
 description: Microsoft Server Performance Advisor
 ms.assetid: 468ebcb3-9eaf-477c-ab10-e3f1b3ce63dc
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
 ms.topic: article
-ms.openlocfilehash: 4ec0190c97c5afc761c27c7c3156380441951544
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: bd359e71cfb48ecd8aab24a8538369622dd1d271
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87895683"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89627701"
 ---
 # <a name="microsoft-server-performance-advisor"></a>Microsoft Server Performance Advisor
 
@@ -69,9 +69,9 @@ SPA также предлагает расширяемую модель для �
 
 Файлы в CAB-файле можно извлечь с помощью следующих команд:
 
--   для версии x86:`extrac32.exe /e /a /l  d:\SPA   d:\SPA\SPAPlus\_x86.cab`
+-   для версии x86: `extrac32.exe /e /a /l  d:\SPA   d:\SPA\SPAPlus\_x86.cab`
 
--   для версии x64:`extrac32.exe /e /a /l  d:\SPA   d:\SPA\SPAPlus\_amd64.cab`
+-   для версии x64: `extrac32.exe /e /a /l  d:\SPA   d:\SPA\SPAPlus\_amd64.cab`
 
 **Внимание!** При извлечении CAB-файла SPA необходимо сохранить иерархическую структуру каталогов для правильной работы. В зависимости от того, какие средства CAB установлены на сервере, извлечение может привести к неработоспособной структуре каталогов. Чтобы хранить иерархическую структуру каталогов, можно использовать служебную программу извлечения CAB-файлов, которая извлекает структуру каталоговых каталогов.
 

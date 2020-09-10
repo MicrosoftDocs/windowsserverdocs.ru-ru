@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 48ea6cd4-3955-4aaf-9236-2515a6c3e730
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: 804a3ed902606e52f25977601e4edc2e2fc5e04f
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: dfd0611d47c159e629efff11073bec084e175a43
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87181190"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89626278"
 ---
 # <a name="install-and-configure-windows-server-essentials-or-windows-server-essentials-experience"></a>Установка и настройка Windows Server Essentials или режима Windows Server Essentials
 
@@ -60,10 +60,10 @@ Windows Server Essentials — это роль в Windows Server 2016, котор
 -   [Системные требования к Windows Server Essentials](../get-started/system-requirements.md)
 
 
-##  <a name="deploy-windows-server-essentials-to-set-up-a-new-active-directory-environment"></a><a name="BKMK_NewAD"></a>Развертывание Windows Server Essentials для настройки новой среды Active Directory
+##  <a name="deploy-windows-server-essentials-to-set-up-a-new-active-directory-environment"></a><a name="BKMK_NewAD"></a> Развертывание Windows Server Essentials для настройки новой среды Active Directory
  Windows Server Essentials позволяет быстро настроить среду Active Directory и соответствующие серверные функции.
 
-###  <a name="deploying-windows-server-essentials"></a><a name="BKMK_WSEDeploy"></a>Развертывание Windows Server Essentials
+###  <a name="deploying-windows-server-essentials"></a><a name="BKMK_WSEDeploy"></a> Развертывание Windows Server Essentials
  Если вы используете Windows Server Essentials, интерфейс Windows Server Essentials уже включен. Тем не менее, необходимо выполнить некоторые действия для настройки сервера.
 
 ##### <a name="to-configure-windows-server-essentials-on-a-physical-server"></a>Настройка Windows Server Essentials на физическом сервере
@@ -91,7 +91,7 @@ Windows Server Essentials — это роль в Windows Server 2016, котор
 
    После завершения настройки сервер под управлением Windows Server Essentials будет установлен как контроллер домена.
 
-###  <a name="deploying-the-windows-server-essentials-experience-role-in-windows-server-2012-r2-standard-and-datacenter"></a><a name="BKMK_DeployWSERole"></a>Развертывание роли Windows Server Essentials в Windows Server 2012 R2 Standard и Datacenter
+###  <a name="deploying-the-windows-server-essentials-experience-role-in-windows-server-2012-r2-standard-and-datacenter"></a><a name="BKMK_DeployWSERole"></a> Развертывание роли Windows Server Essentials в Windows Server 2012 R2 Standard и Datacenter
  Диспетчер сервера можно использовать для включения и настройки роли Windows Server Essentials в Windows Server 2012 R2 Standard или Windows Server 2012 R2 Datacenter с помощью следующей процедуры.
 
 ##### <a name="to-deploy-the-windows-server-essentials-experience-role-in-windows-server-2012-r2"></a>Развертывание роли Windows Server Essentials Experience в Windows Server 2012 R2
@@ -123,7 +123,7 @@ Windows Server Essentials — это роль в Windows Server 2016, котор
 10. Следуйте указаниям мастера, чтобы настроить Windows Server Essentials, как описано выше в разделе [развертывание Windows Server Essentials](Install-and-Configure-Windows-Server-Essentials-or-Windows-Server-Essentials-Experience.md#BKMK_WSEDeploy) .
 
 
-##  <a name="deploy-windows-server-essentials-in-an-existing-active-directory-environment"></a><a name="BKMK_ExistingAD"></a>Развертывание Windows Server Essentials в существующей среде Active Directory
+##  <a name="deploy-windows-server-essentials-in-an-existing-active-directory-environment"></a><a name="BKMK_ExistingAD"></a> Развертывание Windows Server Essentials в существующей среде Active Directory
  Если в организации уже существует среда Active Directory, в ней также можно развернуть Windows Server Essentials. Кроме того, по выбору можно развернуть Windows Server Essentials в качестве контроллера домена.
 
 > [!IMPORTANT]
@@ -162,7 +162,7 @@ Windows Server Essentials — это роль в Windows Server 2016, котор
 
 12. Следуйте инструкциям мастера настройки Windows Server Essentials. В зависимости от конфигурации Active Directory вы получите уведомление о настройке Windows Server Essentials в качестве контроллера домена или в качестве члена домена. Щелкните **Настройка**, чтобы приступить к настройке. Процесс настройки занимает около 10 минут.
 
-##  <a name="virtualize-your-environment"></a><a name="BKMK_VirtualWSE"></a>Виртуализация среды
+##  <a name="virtualize-your-environment"></a><a name="BKMK_VirtualWSE"></a> Виртуализация среды
   Windows Server Essentials, Windows Server 2012 R2 Standard и Windows Server 2012 R2 Datacenter можно запускать как виртуальные машины. Виртуальные машины запускаются с помощью средств управления Hyper-V на сервере с Hyper-V. С точки зрения лицензирования Windows Server Essentials позволяет настроить роль Hyper-V и виртуализировать среду. Лицензия позволяет настроить другую операционную систему на виртуальной машине, работающую под управлением Windows Server Essentials. В зависимости от конфигурации поставщика системы "с s" Windows Server Essentials позволяет легко настроить виртуализованную среду.
 
 #### <a name="to-deploy-windows-server-essentials-as-a-virtual-machine"></a>Развертывание Windows Server Essentials в качестве виртуальной машины.
@@ -174,7 +174,7 @@ Windows Server Essentials — это роль в Windows Server 2016, котор
 3.  Затем настройте Windows Server Essentials, как описано выше в разделе [развертывание Windows Server Essentials](Install-and-Configure-Windows-Server-Essentials-or-Windows-Server-Essentials-Experience.md#BKMK_WSEDeploy) .
 
 
-##  <a name="install-and-configure-windows-server-essentials-by-using-windows-powershell"></a><a name="BKMK_PowerShell"></a>Установка и настройка Windows Server Essentials с помощью Windows PowerShell
+##  <a name="install-and-configure-windows-server-essentials-by-using-windows-powershell"></a><a name="BKMK_PowerShell"></a> Установка и настройка Windows Server Essentials с помощью Windows PowerShell
  С помощью командлетов Windows PowerShell можно автоматизировать установку Windows Server Essentials.
 
 #### <a name="to-install-windows-server-essentials-by-using-windows-powershell"></a>Установка Windows Server Essentials с помощью Windows PowerShell
@@ -208,7 +208,7 @@ Windows Server Essentials — это роль в Windows Server 2016, котор
 
     -   Для получения немедленных сведений о процессе установки без индикатора выполнения выполните команду `Get-WssConfigurationStatus`.
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 -   [Что нового в Windows Server Essentials](../get-started/what-s-new.md)
 

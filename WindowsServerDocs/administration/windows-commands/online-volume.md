@@ -3,16 +3,16 @@ title: online volume
 description: Справочная статья по команде "оперативный том", которая принимает автономный том в состояние "в сети".
 ms.topic: reference
 ms.assetid: 5da073fd-578d-4691-ad0f-605ba66e0c7e
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 8847f340ebe3e295946550c46fd86bd59de300af
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: a53b3e3955f1435c9f34b4d2b16f17685d6b3bb4
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89032692"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89627278"
 ---
 # <a name="online-volume"></a>online volume
 

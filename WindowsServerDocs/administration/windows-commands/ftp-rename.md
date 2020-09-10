@@ -3,16 +3,16 @@ title: ftp rename
 description: Справочная статья по команде FTP Rename, которая переименовывает удаленные файлы.
 ms.topic: reference
 ms.assetid: 977b7c95-6428-4980-80ec-79c3ae7e8c4d
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: a722605e451fff3ea8d4a758434a7509deaf355c
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: ea7862a759779a5f767b8e18cdd5a0b36db2a6a1
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89035742"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89627631"
 ---
 # <a name="ftp-rename"></a>ftp rename
 

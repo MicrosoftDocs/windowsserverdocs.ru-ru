@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: cc2b264a-b9a8-4114-9f7b-8604f77096e5
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: bb221a0ef80388fa8b5bffbc38f7cbec56d3f61c
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: a4e2d87787c3c7e9ebcb8dc216de725f7cb13a1f
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87180870"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89626001"
 ---
 # <a name="manage-vpn-in-windows-server-essentials"></a>Управление VPN в Windows Server Essentials
 
@@ -28,7 +28,7 @@ ms.locfileid: "87180870"
 
 -   [Использование виртуальной частной сети для подключения к Windows Server Essentials](Manage-VPN-in-Windows-Server-Essentials.md#BKMK_3)
 
-##  <a name="enable-vpn-for-remote-access-on-the-server"></a><a name="BKMK_1"></a>Включение VPN для удаленного доступа на сервере
+##  <a name="enable-vpn-for-remote-access-on-the-server"></a><a name="BKMK_1"></a> Включение VPN для удаленного доступа на сервере
  Чтобы настроить VPN в Windows Server Essentials для включения удаленного доступа, выполните следующие действия.
 
 #### <a name="to-enable-vpn-in-windows-server-essentials"></a>Включение VPN в Windows Server Essentials
@@ -43,7 +43,7 @@ ms.locfileid: "87180870"
 
 5.  Для завершения работы мастера следуйте инструкциям на экране.
 
-##  <a name="set-vpn-permissions-for-network-users"></a><a name="BKMK_2"></a>Настройка разрешений VPN для пользователей сети
+##  <a name="set-vpn-permissions-for-network-users"></a><a name="BKMK_2"></a> Настройка разрешений VPN для пользователей сети
  Можно воспользоваться VPN для подключения к Windows Server Essentials и осуществления доступа ко всем ресурсам, сохраненным на сервере. Это особенно полезно, если имеется клиентский компьютер, на котором настроены сетевые учетные записи, которые можно использовать для подключения к размещенному серверу Windows Server Essentials через VPN-подключение. Все только что созданные учетные записи пользователей на размещенном сервере Windows Server Essentials, должны осуществлять первичный вход на клиентский компьютер через VPN.
 
 #### <a name="to-set-vpn-permissions-for-network-users"></a>Задание разрешений VPN для пользователей сети
@@ -62,10 +62,10 @@ ms.locfileid: "87180870"
 
 7.  Щелкните **Применить** и нажмите кнопку **ОК**.
 
-##  <a name="connect-client-computers-to-the-server"></a><a name="BKMK_Connect"></a>Подключение клиентских компьютеров к серверу
+##  <a name="connect-client-computers-to-the-server"></a><a name="BKMK_Connect"></a> Подключение клиентских компьютеров к серверу
  Включив VPN на сервере под управлением Windows Server Essentials для удаленного доступа, можно использовать VPN-подключение для доступа ко всем серверным ресурсам. Но сначала необходимо подключить компьютер к серверу. При подключении компьютера к серверу при помощи соответствующего мастера на клиентском компьютере автоматически создается VPN-подключение, которое можно использовать для доступа к серверным ресурсам из дома или в дороге. Пошаговые инструкции по подключению компьютера к серверу см. в разделе [Connect computers to the server](../use/Get-Connected-in-Windows-Server-Essentials.md#BKMK_9).
 
-##  <a name="use-vpn-to-connect-to-windows-server-essentials"></a><a name="BKMK_3"></a>Использование VPN для подключения к Windows Server Essentials
+##  <a name="use-vpn-to-connect-to-windows-server-essentials"></a><a name="BKMK_3"></a> Использование VPN для подключения к Windows Server Essentials
  При наличии клиентского компьютера, на котором настроены сетевые учетные записи, которые можно использовать для подключения к размещенному серверу, работающему под управлением Windows Server Essentials через VPN-подключение, все вновь создаваемые пользовательские учетные записи на размещенном сервере должны использовать для первого входа на клиентский компьютер VPN-подключение. Выполните следующие действия с клиентского компьютера, подключенного к серверу.
 
 #### <a name="to-use-vpn-to-remotely-access-server-resources"></a>Использование виртуальной частной сети для удаленного доступа к серверным ресурсам

@@ -3,16 +3,16 @@ title: logman update cfg
 description: Справочная статья по команде Logman Update cfg, которая обновляет свойства существующего сборщика данных конфигурации.
 ms.topic: reference
 ms.assetid: 9da4e8b4-3be5-42d3-b0b4-c429630c35c4
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: b4a952819f4fd2ffe9be6a188fd07db933117667
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: c421e3a62a8634636c4dcac12a0798c3d06798f0
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89036534"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89627576"
 ---
 # <a name="logman-update-cfg"></a>logman update cfg
 
@@ -55,7 +55,7 @@ logman update cfg <[-n] <name>> [options]
 | -ФТК `<path [path [...]]>` | Указывает полный путь к файлам для собраний. |
 | /? | Отображает контекстную справку. |
 
-#### <a name="remarks"></a>Remarks
+#### <a name="remarks"></a>Примечания
 
 - Где [-] присутствует, Добавление дополнительного дефиса (-) инвертирует параметр.
 

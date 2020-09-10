@@ -3,16 +3,16 @@ title: Подкоманда-сервер
 description: Справочная статья для подкоманды Stop-Server, которая останавливает все службы на сервере служб развертывания Windows.
 ms.topic: reference
 ms.assetid: 09f411c0-099f-4591-95fd-b77b3fd9118a
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 1fd4a2e249b5bbf52cce9d35fcb07821b793fb23
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: c84b95607b4cf0fb69765dbc941d7e984e43d7cf
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89024668"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89626840"
 ---
 # <a name="subcommand-stop-server"></a>Подкоманда:-сервер
 

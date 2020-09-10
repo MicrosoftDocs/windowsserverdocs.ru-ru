@@ -3,16 +3,16 @@ title: Просмотр и настройка событий производи�
 description: Диспетчер серверов
 ms.topic: article
 ms.assetid: ccd59c35-4dbf-48e7-88a4-c519c00184d1
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: e7fbf4c96213d7db042143c1da8065f87e642f47
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 8489c50c66bdba84078c7e5d75338af3eeeea56f
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87993165"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89627768"
 ---
 # <a name="view-and-configure-performance-event-and-service-data"></a>View and Configure Performance, Event, and Service Data
 

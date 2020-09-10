@@ -3,16 +3,16 @@ title: logman update
 description: Справочная статья по команде Logman Update, которая обновляет существующий сборщик данных.
 ms.topic: reference
 ms.assetid: c98af84f-64ba-40c3-826d-75b80dfb9b34
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 561c386b8bed962a569b7f75b655980d3c84da84
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 5d72e9f65a9820b67631e46cad4e8d506016738a
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89037302"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89627459"
 ---
 # <a name="logman-update"></a>logman update
 

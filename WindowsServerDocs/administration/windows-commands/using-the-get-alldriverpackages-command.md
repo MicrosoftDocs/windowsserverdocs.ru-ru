@@ -3,16 +3,16 @@ title: Get-Аллдриверпаккажес
 description: Справочная статья по команде Get-Аллдриверпаккажес, которая отображает сведения обо всех пакетах драйверов на сервере, соответствующих указанным условиям поиска.
 ms.topic: reference
 ms.assetid: 9eb8fcb7-ef46-4c8d-9623-8969a3c8b8a4
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 551ada72e17325d057133c08a2c83fa1b3a4cb32
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: cc3489d7e326d16f621ef0025e1b3dcc43933de3
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89036002"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89626462"
 ---
 # <a name="get-alldriverpackages"></a>Get-Аллдриверпаккажес
 

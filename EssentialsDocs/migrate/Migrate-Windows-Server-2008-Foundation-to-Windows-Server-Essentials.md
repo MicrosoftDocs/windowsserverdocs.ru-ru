@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: f22fc0a4-cb82-4e60-afe6-2d03145745e7
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: 74b79e3306ee34708b079b09f445a00ddfc15fdb
-ms.sourcegitcommit: 04637054de2bfbac66b9c78bad7bf3e7bae5ffb4
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: 7ccb0e79094c5d3393b9548fc733224fd8fa9cbf
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87838383"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89625873"
 ---
 # <a name="migrate-windows-server-2008-foundation-to-windows-server-essentials"></a>Миграция с Windows Windows Server 2008 Foundation на Windows Server Essentials
 
@@ -52,7 +52,7 @@ ms.locfileid: "87838383"
 
  Для выполнения некоторых процедур миграции нужно открыть окно командной строки от имени администратора.
 
-###  <a name="to-open-a-command-prompt-window-on-the-source-server-as-an-administrator"></a><a name="BKMK_OpenACommandPromptAsAdmin"></a>Открытие окна командной строки на исходном сервере с правами администратора
+###  <a name="to-open-a-command-prompt-window-on-the-source-server-as-an-administrator"></a><a name="BKMK_OpenACommandPromptAsAdmin"></a> Открытие окна командной строки на исходном сервере с правами администратора
 
 1.  Щелкните **Запуск**.
 

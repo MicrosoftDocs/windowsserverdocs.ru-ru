@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 96959b7a-0267-41fd-9c5b-33c3ac89c1ee
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: a317ea810456d65d70ce4beb362686bf7d0ce874
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: 0286eb9fef77eb2ec3655e74b250f3e25bf29c3a
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87181160"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89626193"
 ---
 # <a name="manage-domain-names-and-domain-name-providers"></a>Управление именами доменов и поставщиками доменных имен
 

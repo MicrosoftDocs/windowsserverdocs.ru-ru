@@ -3,16 +3,16 @@ title: online disk
 description: Справочная статья по команде "оперативный диск", которая переводит автономный диск в состояние "в сети".
 ms.topic: reference
 ms.assetid: bc44a783-eaa4-40ca-be01-5703b5bf4eb3
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 934e6bb1d7d5b52b00ac7eadea35e6f022906e5b
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: a2c33a85a8217963a220495e75efebf0c6999309
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89032702"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89627328"
 ---
 # <a name="online-disk"></a>online disk
 

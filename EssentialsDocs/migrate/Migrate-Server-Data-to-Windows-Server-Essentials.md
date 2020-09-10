@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: dff2bf27-5d97-409b-81e8-286f7d933d90
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: 57fa74bbae9e8604dfbc31042f8a315abe34a817
-ms.sourcegitcommit: 04637054de2bfbac66b9c78bad7bf3e7bae5ffb4
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: dbcffdfb89edc56503521937909542d136854e1a
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87838423"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89625923"
 ---
 # <a name="migrate-server-data-to-windows-server-essentials"></a>Миграция данных сервера в Windows Server Essentials
 
@@ -58,7 +58,7 @@ ms.locfileid: "87838423"
 
 -    Чтобы узнать о способах безопасной совместной работы с партнерами и поставщиками, прочтите статью [Улучшение взаимодействия в компаниях малого и среднего бизнеса](/previous-versions/windows/it-pro/solutions-guidance/dn747893(v=ws.11)).
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 -   [Установка Windows Server Essentials](../install/Install-Windows-Server-Essentials.md)
 
