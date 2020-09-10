@@ -3,16 +3,16 @@ title: timeout
 description: Справочная статья по времени ожидания, в течение которого процессор команд приостанавливается на указанное количество секунд.
 ms.topic: reference
 ms.assetid: e26b4a84-0e30-46e1-aa10-0667b7d3cb4c
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 4905eaadc745fc5499cb393b1808794e2f803361
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 9a4a1a0a352361e901a7344baeb2c92f36e41870
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89038262"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89640432"
 ---
 # <a name="timeout"></a>timeout
 
@@ -34,7 +34,7 @@ timeout /t <TimeoutInSeconds> [/nobreak]
 |/нобреак|Задает игнорирование пользовательских клавиш.|
 |/?|Отображение справки в командной строке.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Примечания
 
 -   Команда **timeout** обычно используется в пакетных файлах.
 -   Нажатие клавиши пользователя возобновляет выполнение командного процессора немедленно, даже если истек период ожидания.

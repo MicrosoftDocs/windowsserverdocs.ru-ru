@@ -3,16 +3,16 @@ title: tasklist
 description: Сведения о том, как отобразить список процессов, запущенных на локальном или удаленном компьютере.
 ms.topic: reference
 ms.assetid: 8dbe30ee-1484-46be-917b-5ca3ff4fdc9c
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 8250828310b42646a48a5dbf454a01643fbb8ef3
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: a57fc47473be3d8d5eb3fabab6f613da283fa231
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89027112"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89640130"
 ---
 # <a name="tasklist"></a>tasklist
 
@@ -57,7 +57,7 @@ tasklist [/s <Computer> [/u [<Domain>\]<UserName> [/p <Password>]]] [{/m <Module
 | WINDOWTITLE |         eq, ne         |                                                                 Заголовок окна                                                                 |
 |   МОДУЛЕ   |         eq, ne         |                                                                   Имя DLL                                                                   |
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Примечания
 
 Фильтры WINDOWTITLE и STATUS не поддерживаются, если указана удаленная система.
 

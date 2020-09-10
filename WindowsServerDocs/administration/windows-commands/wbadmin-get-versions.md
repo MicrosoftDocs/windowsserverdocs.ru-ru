@@ -3,16 +3,16 @@ title: wbadmin get versions
 description: Справочная статья по Wbadmin get versions, в которой перечислены сведения о доступных резервных копиях, которые хранятся на локальном компьютере или на другом компьютере.
 ms.topic: reference
 ms.assetid: b986acc4-d083-4d32-9434-862314ed5e97
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 390d9152b53578ef26ff978d9cdcf43ac8f5f64e
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: f3b9f5ca967e3d125575809bc4bd882d37eef5ff
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89031942"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89640271"
 ---
 # <a name="wbadmin-get-versions"></a>wbadmin get versions
 
@@ -37,7 +37,7 @@ wbadmin get versions
 |-backupTarget|Задает место хранения, в котором содержатся резервные копии, для которых требуется получить сведения. Используется для перечисления резервных копий, хранящихся в этом целевом расположении. Целевыми расположениями резервного копирования могут быть локально подключенные диски, тома, удаленные общие папки, съемные носители, такие как DVD-дисководы или другие оптические носители. Если программа **Wbadmin get versions** запущена на том же компьютере, где была создана резервная копия, этот параметр не требуется. Однако этот параметр необходим для получения сведений о резервной копии, созданной с другого компьютера.|
 |-Machine|Указывает компьютер, для которого требуется получить сведения о резервном копировании. Используется при хранении резервных копий нескольких компьютеров в одном расположении. Следует использовать, если указан **-backupTarget** .|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Примечания
 
 Чтобы получить список элементов, доступных для восстановления из определенной резервной копии, используйте **Wbadmin get Items**.
 

@@ -3,16 +3,16 @@ title: rpcping
 description: Справочная статья по команде рпкпинг, которая подтверждает подключение RPC между компьютером, на котором работает Microsoft Exchange Server, и любой из поддерживаемых клиентских рабочих станций Microsoft Exchange в сети.
 ms.topic: reference
 ms.assetid: 7382aa0d-90fc-47c0-84b3-15f52dd656d0
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 380c52f9e567b5f185160e8b6ab068fc791d1029
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 7351195d8206cb13b334ca3e06ffb794e4a13461
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89030522"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89641176"
 ---
 # <a name="rpcping"></a>rpcping
 

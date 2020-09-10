@@ -3,16 +3,16 @@ title: wbadmin delete systemstatebackup
 description: Справочная статья по Wbadmin Delete системстатебаккуп, которая удаляет указанные резервные копии состояния системы.
 ms.topic: reference
 ms.assetid: 707d37cb-448d-4542-b6ac-1fc89e749788
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: c54fa768251ecc450e36e65bc845067c3b96115b
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 439268af61b3e7477711ce6402cce2470eea01cf
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89022938"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89640764"
 ---
 # <a name="wbadmin-delete-systemstatebackup"></a>wbadmin delete systemstatebackup
 

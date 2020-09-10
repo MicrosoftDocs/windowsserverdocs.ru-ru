@@ -3,16 +3,16 @@ title: Набор подкоманд-Дриверграуп
 description: Справочная статья по подкоманде Set-Дриверграуп, которая задает свойства существующей группы драйверов на сервере.
 ms.topic: reference
 ms.assetid: e4ba9b1c-8c52-4fd5-969b-f7905611b364
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 15289ee5f4e8b705f6deb1841422c5b49f73b784
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: c4d014933ae4ebc530977325210887d4abf90817
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89036882"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89640902"
 ---
 # <a name="subcommand-set-drivergroup"></a>Подкоманда: Set-Дриверграуп
 

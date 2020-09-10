@@ -3,16 +3,16 @@ title: rmdir
 description: Справочная статья по команде rmdir, которая удаляет каталог.
 ms.topic: reference
 ms.assetid: e4d7162b-7132-413c-a416-6eb3dc032a26
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: d67c0bb16ad47457cfb6eb927ba9dc5cf167b20c
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 524ca632c11c7d861ed431c4bc86dbdb2b35abc8
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89036242"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89640283"
 ---
 # <a name="rmdir"></a>rmdir
 
@@ -38,7 +38,7 @@ rmdir [<drive>:]<path> [/s [/q]]
 | /q | Задает тихий режим. Не запрашивает подтверждение при удалении дерева каталогов. Параметр **/q** работает только при указании параметра **/s** .<p>**Внимание!** При запуске в тихом режиме полное дерево каталогов удаляется без подтверждения. Перед использованием параметра командной строки **/q** убедитесь, что были перемещены или архивированы важные файлы. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Remarks
+#### <a name="remarks"></a>Примечания
 
 - Нельзя удалить каталог, содержащий файлы, включая скрытые или системные файлы. При попытке сделать это появится следующее сообщение:
 

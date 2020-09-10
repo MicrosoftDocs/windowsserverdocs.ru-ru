@@ -3,16 +3,16 @@ title: Протокол DTLS
 description: Безопасность Windows Server
 ms.topic: article
 ms.assetid: 57b8873a-ad9c-4f2c-93e0-a2af352c6965
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 05/16/2018
-ms.openlocfilehash: 2390fc9c688f60d6e4887ff9ee75183ae4333aa2
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 1cf6c9b504a246f9b0abe344bc596434c0319c3a
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87994592"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89640390"
 ---
 # <a name="datagram-transport-layer-security-protocol"></a>Протокол DTLS
 

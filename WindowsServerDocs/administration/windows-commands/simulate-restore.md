@@ -3,16 +3,16 @@ title: simulate restore
 description: Справочная статья по моделированию Restore, которая проверяет участие модуля записи в сеансах восстановления на компьютере без выдачи событий предварительного восстановления или восстановления в модули записи.
 ms.topic: reference
 ms.assetid: d883d94c-3cb1-4848-9d74-1b4378044b31
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 5640f69f421d65588251ff1e15b63cbeaffde613
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: d72e4b473b3913bff744ff7a34b6508bde52ae0e
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89036982"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89640924"
 ---
 # <a name="simulate-restore"></a>Имитировать восстановление
 
@@ -24,7 +24,7 @@ ms.locfileid: "89036982"
 simulate restore
 ```
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Примечания
 
 -   **Имитация восстановления** используется для проверки успешности восстановления с помощью модулей записи.
 -   Прежде чем можно будет использовать **имитацию восстановления**, необходимо загрузить файл метаданных Diskshadow с помощью команды **загрузить метаданные** . При этом загружаются выбранные модули записи и компоненты для восстановления.

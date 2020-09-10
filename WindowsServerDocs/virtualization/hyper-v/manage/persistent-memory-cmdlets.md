@@ -3,14 +3,15 @@ title: Командлеты для настройки устройств пос�
 description: Настройка устройств энергонезависимой памяти для виртуальных машин Hyper-V
 ms.topic: article
 ms.assetid: b5715c02-a90f-4de9-a71e-0fc08039ba1d
-author: coreyp-at-msft
-ms.author: coreyp
-ms.openlocfilehash: 471dd9a7c3feb148b9ce27ec7ac4d714be0e86af
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.author: lizross
+author: eross-msft
+manager: mtillman
+ms.openlocfilehash: 68f4d4121513973e97a28ad26cea7856a842b302
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87996699"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89640198"
 ---
 # <a name="cmdlets-for-configuring-persistent-memory-devices-for-hyper-v-vms"></a>Командлеты для настройки устройств постоянной памяти для виртуальных машин Hyper-V
 
@@ -28,7 +29,7 @@ ms.locfileid: "87996699"
 
 Используйте **командлет New-VM** , чтобы создать виртуальную машину поколения 2 с указанными размером памяти и путем к образу VHDX. Затем используйте **Add-вмпмемконтроллер** , чтобы добавить контроллер энергонезависимой памяти к виртуальной машине.
 
-**Пример**.
+**Пример.**
 
 ```powershell
 New-VM -Name "ProductionVM1" -MemoryStartupBytes 1GB -VHDPath c:\vhd\BaseImage.vhdx

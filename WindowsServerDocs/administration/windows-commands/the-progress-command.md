@@ -3,16 +3,16 @@ title: Использование команды Progress
 description: Справочная статья о ходе выполнения, которая отображает ход выполнения команды.
 ms.topic: reference
 ms.assetid: 8ce5e77b-e13f-4ac3-948d-31770a6c7e25
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 33e0494133523748b599ab9e3673d4f786e044df
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 51f127cd9d707652e43a5cae2a2e0bfd7a573b69
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89038312"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89640790"
 ---
 # <a name="using-the-progress-command"></a>Использование команды Progress
 

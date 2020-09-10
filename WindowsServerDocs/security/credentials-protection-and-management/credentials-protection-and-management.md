@@ -3,16 +3,16 @@ title: Защита учетных данных и управление ими
 description: Безопасность Windows Server
 ms.topic: article
 ms.assetid: e457229c-0126-40fe-948c-101c943e1b57
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/12/2016
-ms.openlocfilehash: be120eda25b4d01da60faa2af241cd3ce243abfc
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 37fbec56a855a4d875680a8c1e2c9e0055ed9f12
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87995824"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89641186"
 ---
 # <a name="credentials-protection-and-management"></a>Защита учетных данных и управление ими
 

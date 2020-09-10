@@ -3,16 +3,16 @@ title: wevtutil
 description: Справочная статья по программе wevtutil, которая позволяет получать сведения о журналах событий и издателях.
 ms.topic: reference
 ms.assetid: d4c791e0-7e59-45c5-aa55-0223b77a4822
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 8b36619def02434a253f0e6e97ef47cb78190b8a
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 4679c8b8245b0db2e4dff7cf179e198201d4910d
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89031732"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89641238"
 ---
 # <a name="wevtutil"></a>wevtutil
 
@@ -85,7 +85,7 @@ wevtutil [{el | enum-logs}] [{gl | get-log} <Logname> [/f:<Format>]]
 |     /\<Auth>     |                                                                                                                                                                                             Определяет тип проверки подлинности для подключения к удаленному компьютеру. \<Auth> может принимать значения по умолчанию, Negotiate, Kerberos или NTLM. Значение по умолчанию — Negotiate.                                                                                                                                                                                              |
 |  процессор\<Unicode>   |                                                                                                                                                                                                             Отображает выходные данные в Юникоде. \<Unicode> может иметь значение true или false. Если <Unicode> имеет значение true, выходные данные заменяются в Юникоде.                                                                                                                                                                                                             |
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Примечания
 
 -   Использование файла конфигурации с параметром SL
 

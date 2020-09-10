@@ -3,16 +3,16 @@ title: makecab
 description: Справочная статья по команде makecab, которая упаковывает существующие файлы в CAB-файл.
 ms.topic: reference
 ms.assetid: 4da95297-c593-427b-9f76-2f389c46cbf4
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 560a2a75c756fb90b87da9f63a86a6dc887f836b
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 3ba4adf0d1cc94fc3fc1c5d4db15f641a5c30b90
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89023688"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89640180"
 ---
 # <a name="makecab"></a>makecab
 

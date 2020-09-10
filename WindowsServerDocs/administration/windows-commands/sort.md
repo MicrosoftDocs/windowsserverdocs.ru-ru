@@ -3,16 +3,16 @@ title: sort
 description: Справочная статья по сортировке, которая считывает ввод, сортирует данные и записывает результаты на экран, в файл или на другое устройство.
 ms.topic: reference
 ms.assetid: 77116469-4790-4442-8a21-9fa73b65ef9f
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 092fe9d7ce96b172237bb44c2ce4a460bfc1a8e4
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: c0809f6a44ee25507f944ce2882305c44215b8f1
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89036952"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89640921"
 ---
 # <a name="sort"></a>sort
 
@@ -40,7 +40,7 @@ sort [/r] [/+<N>] [/m <Kilobytes>] [/l <Locale>] [/rec <Characters>] [[<Drive1>:
 |/o [ \<Drive3> :] [ \<Path3> ]\<FileName3>|Указывает файл, в котором должны храниться отсортированные входные данные. Если этот параметр не указан, данные записываются в стандартный вывод. Указание выходного файла выполняется быстрее, чем перенаправление стандартных выходных данных в один и тот же файл.|
 |/?|Отображение справки в командной строке.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Примечания
 
 -   Использование **/+** параметра командной строки
 

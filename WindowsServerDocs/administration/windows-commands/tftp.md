@@ -3,16 +3,16 @@ title: tftp
 description: Перенос файлов на удаленный компьютер и с удаленного компьютера.
 ms.topic: reference
 ms.assetid: 772f19a8-dafe-45cd-878a-f5691f6568ef
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 94884e2ae992441bb0031e25f9aeebe5984c207d
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 0d2d7c0c62cb0285347e1309f8dadf48a8ef27dc
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89038282"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89640799"
 ---
 # <a name="tftp"></a>tftp
 
@@ -35,7 +35,7 @@ tftp [-i] [<Host>] [{get | put}] <Source> [<Destination>]
 |\<Source\>|Указывает файл для перемещения.|
 |\<Destination\>|Указывает, куда передавать файл.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Примечания
 -   Клиент TFTP можно установить с помощью мастера добавления компонентов.
 -   Протокол TFTP не поддерживает ни проверку подлинности, ни механизм шифрования, поэтому при наличии может возникнуть угроза безопасности. Установка клиента TFTP не рекомендуется для систем, подключенных к Интернету.
 -   Клиент TFTP является необязательным программным обеспечением и помечен как устаревший в Windows Vista и более поздних версиях операционной системы Windows. Служба сервера TFTP больше не предоставляется корпорацией Майкрософт в целях безопасности.

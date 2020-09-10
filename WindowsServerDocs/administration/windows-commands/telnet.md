@@ -3,16 +3,16 @@ title: telnet
 description: Справочная статья по Telnet, которая взаимодействует с компьютером, на котором работает служба Telnet-сервера.
 ms.topic: reference
 ms.assetid: b70a6156-9413-4300-84ce-a34c467e2b4e
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: fdf379a8d827ced295f1c36ac6c44ab5e167e66f
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 9110bd2f3d4c701e46c8a52af48773f7d5a1026b
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89038294"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89640804"
 ---
 # <a name="telnet"></a>telnet
 
@@ -35,7 +35,7 @@ telnet [/a] [/e <EscapeChar>] [/f <FileName>] [/l <UserName>] [/t {vt100 | vt52 
 |\<Host> [\<Port>]|Указывает имя узла или IP-адрес удаленного компьютера, к которому необходимо подключиться, и при необходимости используемый TCP-порт (по умолчанию это TCP-порт 23).|
 |/?|Отображение справки в командной строке. Кроме того, можно ввести/х.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Примечания
 -   Для выполнения этой команды необходимо установить клиентское программное обеспечение Telnet. Дополнительные сведения см. в разделе [Установка Telnet](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc754293(v=ws.10)).
 -   Можно запустить Telnet без параметров, чтобы ввести контекст Telnet, указанный в командной строке Telnet (**Microsoft telnet>**). В командной строке Telnet можно использовать команды Telnet для управления компьютером, на котором выполняется клиент Telnet.
 

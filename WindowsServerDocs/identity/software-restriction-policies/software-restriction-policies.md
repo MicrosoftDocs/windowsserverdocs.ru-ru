@@ -3,16 +3,16 @@ title: Software Restriction Policies
 description: Безопасность Windows Server
 ms.topic: article
 ms.assetid: 5c0befad-07c3-4262-b418-372d01850305
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/12/2016
-ms.openlocfilehash: 44f917beaa7b1e13171d2c8ade6f0172b450350d
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: f4019902622b667267562a8490b6540a6c27d1e4
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87953021"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89640233"
 ---
 # <a name="software-restriction-policies"></a>Software Restriction Policies
 
@@ -85,7 +85,7 @@ ms.locfileid: "87953021"
 |--------|-------|
 |**Оценка продукта**|[Блокировка приложения с помощью политик ограниченного использования программ](/previous-versions/technet-magazine/cc510322(v=msdn.10)?pr=blog)|
 |**Planning**|[Технический обзор политик ограниченного использования программ](software-restriction-policies-technical-overview.md) (Windows Server 2012)<p>[Технический справочник по политикам ограниченного использования программ](/previous-versions/windows/it-pro/windows-server-2003/cc728085(v=ws.10)) (Windows Server 2003)|
-|**Развертывание**|Доступные ресурсы отсутствуют.|
+|**Deployment**|Доступные ресурсы отсутствуют.|
 |**Операции**|[Администрирование политик ограниченного использования программ](administer-software-restriction-policies.md) (Windows Server 2012)<p>[Справка по политикам ограниченного использования программ](/previous-versions/windows/it-pro/windows-server-2003/cc779607(v=ws.10)) (Windows Server 2003)|
 |**Устранение неполадок**|[Устранение неполадок политик ограниченного использования программ](troubleshoot-software-restriction-policies.md) (Windows Server 2012)<p>[Диагностика политик ограниченного использования программ](/previous-versions/windows/it-pro/windows-server-2003/cc737011(v=ws.10)) (Windows Server 2003)|
 |**Безопасность**|[Угрозы и противодействия для политик ограниченного использования программ](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd349795(v=ws.10)) (Windows Server 2008)<p>[Угрозы и противодействия для политик ограниченного использования программ](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/hh125926(v=ws.10)) (Windows Server 2008 R2)|

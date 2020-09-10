@@ -3,16 +3,16 @@ title: Использование команды verbose
 description: Справочная статья для verbose, которая отображает подробные выходные данные для указанной команды.
 ms.topic: reference
 ms.assetid: fcf30ae7-818f-4e7e-a083-a1812682032b
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: a1432656a89188755d63df974fa2732702a1a1ae
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: a5c05590bbbb3f1b185a64d6b0081a3d230d6b41
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89029992"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89640460"
 ---
 # <a name="using-the-verbose-command"></a>Использование команды verbose
 

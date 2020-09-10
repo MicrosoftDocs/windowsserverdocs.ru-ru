@@ -3,16 +3,16 @@ title: wbadmin enable backup
 description: Справочная статья по параметру Wbadmin enable backup, которая создает и включает ежедневное расписание резервного копирования или изменяет существующее расписание резервного копирования.
 ms.topic: reference
 ms.assetid: c0e57f8a-70fa-4c60-9754-e762e8ad8772
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 6be32f6134bacf698d6e28998cbed76e8b50155f
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: bcca3c46b4e1314e89626e2ed9c333a2945927bd
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89032072"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89640744"
 ---
 # <a name="wbadmin-enable-backup"></a>wbadmin enable backup
 
@@ -91,7 +91,7 @@ wbadmin enable backup
 |-quiet|Выполняет подкоманду без запросов пользователю.|
 |-Алловделетеолдбаккупс|Перезаписывает все резервные копии, созданные до обновления компьютера.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Примечания
 
 Чтобы просмотреть значение идентификатора диска для дисков, введите команду **Wbadmin get Disks**.
 

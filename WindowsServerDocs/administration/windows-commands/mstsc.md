@@ -3,16 +3,16 @@ title: mstsc
 description: Справочная статья по команде MSTSC, которая создает подключения к удаленный рабочий стол серверам узлов сеансов или другим удаленным компьютерам, редактирует существующий файл конфигурации подключение к удаленному рабочему столу (. RDP) и переносит устаревшие файлы подключения, созданные с помощью диспетчера клиентских подключений, в новые RDP-файлы подключения.
 ms.topic: reference
 ms.assetid: 59801227-1e7e-4dbd-96e6-f54102a3ce92
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 0a9c1eb46e2d6802c50dfc89e4a3085e6a6afca2
-ms.sourcegitcommit: fe356f95188b7ce8e719765f44c0789c065832fb
+ms.openlocfilehash: f47a8ad0db569c82d64e74b10c30bec9aca958ab
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2020
-ms.locfileid: "89057566"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89640544"
 ---
 # <a name="mstsc"></a>mstsc
 
@@ -44,7 +44,7 @@ mstsc.exe /migrate
 | /миграте | Переносит устаревшие файлы подключения, созданные с помощью диспетчера клиентских подключений, в новые RDP-файлы подключения. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Remarks
+#### <a name="remarks"></a>Примечания
 
 - Default. RDP хранится для каждого пользователя как скрытый файл в папке " **документы** " пользователя.
 
@@ -59,7 +59,7 @@ mstsc.exe /migrate
 ```
 mstsc /f
 ```
-или
+or
 ```
 mstsc /v:computer1 /f
 ```

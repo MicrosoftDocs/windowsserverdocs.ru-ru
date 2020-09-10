@@ -3,16 +3,16 @@ title: Get — Namespace
 description: Справочная статья по Get-Namespace, в которой отображаются сведения о пользовательском пространстве имен.
 ms.topic: reference
 ms.assetid: ea641bab-e97b-4909-918e-447730027dc1
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 1fddc140936643b32bbb27ff82578a01b8b7c893
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 2ebbabfea1dee0b3d7265bf4977ad93dd5ff47c0
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89029512"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89640588"
 ---
 # <a name="get-namespace"></a>Get — Namespace
 
@@ -21,11 +21,11 @@ ms.locfileid: "89029512"
 Отображает сведения о пользовательском пространстве имен.
 
 ## <a name="syntax"></a>Синтаксис
-Windows Server 2008 R2
+Windows Server 2008 R2
 ```
 wdsutil /Get-Namespace /Namespace:<Namespace name> [/Server:<Server name>] [/Show:Clients]
 ```
-Windows Server 2008 R2
+Windows Server 2008 R2
 ```
 wdsutil /Get-Namespace /Namespace:<Namespace name> [/Server:<Server name>] [/details:Clients]
 ```

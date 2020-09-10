@@ -3,16 +3,16 @@ title: сервер-перестает
 description: Справочная статья по Stop-Server, которая останавливает службы для служб развертывания Windows.
 ms.topic: reference
 ms.assetid: adff42ca-464f-4f05-ba25-e24e8d702981
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: e2cd16e19bb8d2b02d4b44dbb019acf3311da9b4
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 24936a25e4d80d3401b8717f512d806c62bb1c3f
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89030032"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89640487"
 ---
 # <a name="stop-server"></a>сервер-перестает
 > Область применения: Windows Server (половина ежегодного канала), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012

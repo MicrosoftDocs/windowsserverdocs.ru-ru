@@ -3,16 +3,16 @@ title: winnt32
 description: Справочная статья по winnt32, которая выполняет установку или обновление до продукта в Windows Server 2003.
 ms.topic: reference
 ms.assetid: 5a0a6fb3-ba4e-4ace-8984-7f6d3875560e
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 5c74f0645ccbe4745b155eb8b687d4c8ea5ff159
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: e941dbbf1bc0a26092fa6616d58c4186bfbaf42a
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89022698"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89641131"
 ---
 # <a name="winnt32"></a>winnt32
 
@@ -59,7 +59,7 @@ winnt32 [/checkupgradeonly] [/cmd: <CommandLine>] [/cmdcons] [/copydir:{i386|ia6
 |   \<AnswerFile>   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         Обеспечивает установку с использованием пользовательских спецификаций.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 |        /?         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              Отображение справки в командной строке.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Примечания
 При развертывании Windows XP на клиентских компьютерах можно использовать версию winnt32.exe, поставляемую вместе с Windows XP. Другим способом развертывания Windows XP является использование winnt32.msi, который работает с установщик Windows, входит в набор технологий IntelliMirror. Дополнительные сведения о развертывании клиентов см. в пакете Windows Server 2003 Deployment Kit, который описан в разделе [Использование развертывания и ресурсов Windows](/previous-versions/windows/it-pro/windows-server-2003/cc779317(v=ws.10)).
 
 На компьютере на базе процессоров Itanium **winnt32** можно запустить из интерфейса EFI или windows Server 2003 Enterprise, windows Server 2003 R2 Enterprise, windows Server 2003 R2 Datacenter или windows Server 2003 Datacenter. Кроме того, на компьютере, основанном на архитектуре Itanium, **/cmdcons** и **/syspart** недоступны, а параметры, относящиеся к обновлениям, недоступны.

@@ -3,15 +3,15 @@ title: wecutil
 description: Справочная статья по языку wecutil, который позволяет создавать и администрировать подписки на события, пересылаемые с удаленных компьютеров.
 ms.topic: reference
 ms.assetid: 0c82a6cb-d652-429c-9c3d-0f568c78d54b
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dansimps
-ms.openlocfilehash: e7cfa4a093277afece0722538ca33914d1609ec1
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.author: lizross
+author: eross-msft
+manager: mtillman
+ms.openlocfilehash: fbf236082b710ef5f4319b1924856fe98784b1ce
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89031742"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89641245"
 ---
 # <a name="wecutil"></a>wecutil
 
@@ -40,7 +40,7 @@ wecutil  [{es | enum-subscription}]
 |{ES \| enum-Subscription}|Отображает имена всех существующих удаленных подписок на события.|
 |{GS \| Get-Subscription} \<Subid> [/f: \<Format> ] [/уни: \<Unicode> ]|Отображает сведения о конфигурации удаленной подписки. \<Subid> Строка, однозначно определяющая подписку. \<Subid> совпадает со строкой, указанной в \<SubscriptionId> теге XML-файла конфигурации, который использовался для создания подписки.|
 |{GR \| Get-субскриптионрунтиместатус} \<Subid> [ \<Eventsource> ...]|Отображает состояние выполнения подписки. \<Subid> Строка, однозначно определяющая подписку. \<Subid> совпадает со строкой, указанной в \<SubscriptionId> теге XML-файла конфигурации, который использовался для создания подписки. \<Eventsource> — Это строка, идентифицирующая компьютер, который выступает в качестве источника событий. \<Eventsource> должно быть полным доменным именем, именем NetBIOS или IP-адресом.|
-|{SS \| Set-Subscription} \<Subid> [/e: [ \<Subenabled> ]] [/ЕСА: \<Address> ] [/ЕСЕ: [ \<Srcenabled> ]] [/АЕС] [/RES] [/Ун: \<Username> ] [/Up: \<Password> ] [/d: \<Desc> ] [/Ури: \<Uri> ] [/cm: \<Configmode> ] [/ЕКС:] [/q:] [ \<Expires> \<Query> /Диа:] [/TN:] [ \<Dialect> \<Transportname> /TP: \<Transportport> ] [/дм:] [/ДМИ:] [ \<Deliverymode> \<Deliverymax> /дмлт: \<Deliverytime> ] [/Хи: \<Heartbeat> ] [/КФ: \<Content> ] [/l: \<Locale> ] [/ри: [ \<Readexist> ]] [/ЛФ:] [/Пн: \<Logfile> \<Publishername> ] [/ессп: \<Enableport> ] [/ХН: \<Hostname> ] [/КТ \<Type> :]</br>или</br>{SS \| Set-Subscription/c: \<Configfile> [/кун: \<Comusername> /КУП: \<Compassword> ]|Изменяет конфигурацию подписки. Можно указать идентификатор подписки и соответствующие параметры для изменения параметров подписки. также можно указать XML-файл конфигурации для изменения параметров подписки.|
+|{SS \| Set-Subscription} \<Subid> [/e: [ \<Subenabled> ]] [/ЕСА: \<Address> ] [/ЕСЕ: [ \<Srcenabled> ]] [/АЕС] [/RES] [/Ун: \<Username> ] [/Up: \<Password> ] [/d: \<Desc> ] [/Ури: \<Uri> ] [/cm: \<Configmode> ] [/ЕКС:] [/q:] [ \<Expires> \<Query> /Диа:] [/TN:] [ \<Dialect> \<Transportname> /TP: \<Transportport> ] [/дм:] [/ДМИ:] [ \<Deliverymode> \<Deliverymax> /дмлт: \<Deliverytime> ] [/Хи: \<Heartbeat> ] [/КФ: \<Content> ] [/l: \<Locale> ] [/ри: [ \<Readexist> ]] [/ЛФ:] [/Пн: \<Logfile> \<Publishername> ] [/ессп: \<Enableport> ] [/ХН: \<Hostname> ] [/КТ \<Type> :]</br>or</br>{SS \| Set-Subscription/c: \<Configfile> [/кун: \<Comusername> /КУП: \<Compassword> ]|Изменяет конфигурацию подписки. Можно указать идентификатор подписки и соответствующие параметры для изменения параметров подписки. также можно указать XML-файл конфигурации для изменения параметров подписки.|
 |{CS \| CREATE-Subscription} \<Configfile> [/кун: \<Username> /КУП: \<Password> ]|Создает удаленную подписку. \<Configfile> Указывает путь к XML-файлу, содержащему конфигурацию подписки. Путь может быть абсолютным или относительным для текущего каталога.|
 |{DS \| Delete-Subscription} \<Subid>|Удаляет подписку и отменяет подписку на все источники событий, которые доставляют события в журнал событий для подписки. Все события, которые уже получены и записаны в журнал, не удаляются. \<Subid> Строка, однозначно определяющая подписку. \<Subid> совпадает со строкой, указанной в \<SubscriptionId> теге XML-файла конфигурации, который использовался для создания подписки.|
 |{RS \| Retry-Subscription} \<Subid> [ \<Eventsource> ...]|Повторяет попытку установить соединение и отправить запрос на удаленную подписку неактивной подписке. Пытается повторно активировать все источники событий или указанные источники событий. Отключенные источники не повторяются повторно. \<Subid> Строка, однозначно определяющая подписку. \<Subid> совпадает со строкой, указанной в \<SubscriptionId> теге XML-файла конфигурации, который использовался для создания подписки. \<Eventsource> — Это строка, идентифицирующая компьютер, который выступает в качестве источника событий. \<Eventsource> должно быть полным доменным именем, именем NetBIOS или IP-адресом.|
@@ -83,7 +83,7 @@ wecutil  [{es | enum-subscription}]
 |чашк\<Compassword>|Задает пароль пользователя для общих учетных данных пользователя. Если \<Compassword> для задано значение * (звездочка), пароль считывается из консоли. Этот параметр допустим только в том случае, если указан параметр **/Кун** .|
 |/q: [ \<Quiet> ]|Указывает, запрашивает ли процедура конфигурации подтверждение. \<Quiet> может иметь значение true или false. Если <Quiet> имеет значение true, процедура настройки не запрашивает подтверждение. Значение этого параметра по умолчанию равно false.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Примечания
 
 > [!IMPORTANT]
 > Если появится сообщение "сервер RPC недоступен?" При попытке запустить wecutil необходимо запустить службу сборщика событий Windows (вексвк). Чтобы запустить вексвк, в командной строке с повышенными привилегиями введите net start вексвк.

@@ -3,16 +3,16 @@ title: Диагностика политик ограниченного испо
 description: Безопасность Windows Server
 ms.topic: article
 ms.assetid: 4fd53736-03e7-4bf9-ba90-d1212d93e19a
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/12/2016
-ms.openlocfilehash: 6e4d31dd6e434c5a5b18491ea7f73b92c993e05a
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 003a71ed8c6b7e8d9b788c4eb8aa5efcc4bd6286
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87953011"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89640215"
 ---
 # <a name="troubleshoot-software-restriction-policies"></a>Диагностика политик ограниченного использования программ
 

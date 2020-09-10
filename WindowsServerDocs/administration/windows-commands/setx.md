@@ -3,16 +3,16 @@ title: setx
 description: Справочная статья для Setx, которая создает или изменяет переменные среды в пользовательской или системной среде без необходимости программирования или написания сценариев.
 ms.topic: reference
 ms.assetid: ef37482f-f8a8-4765-951a-2518faac3f44
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 256f19453edd0c211215a0e161d7d60098ae9cc9
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 56d2e1deb629c262eb97939885e7e475dcec85be
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89024898"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89641008"
 ---
 # <a name="setx"></a>setx
 
@@ -46,7 +46,7 @@ setx [/s <Computer> [/u [<Domain>\]<User name> [/p [<Password>]]]] /f <FileName>
 |      /d \<Delimiters>      |                    Указывает разделители, такие как **,** или, **\\** для использования в дополнение к четырем встроенным разделителям — пробел, табуляция, ввод и перевод строки. Допустимые разделители включают любой символ ASCII. Максимальное число разделителей равно 15, включая встроенные разделители.                    |
 |             /?             |                                                                                                                                 Отображение справки в командной строке.                                                                                                                                  |
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Примечания
 
 -   Команда **Setx** аналогична служебной программе UNIX setenv.
 -   **Setx** предоставляет единственную командную строку или программный способ для прямого и окончательного задания значений системной среды. Системные переменные среды можно настраивать вручную с помощью **панели управления** или редактора реестра. Команда **Set** , которая является внутренней для интерпретатора команд (Cmd.exe), устанавливает переменные среды пользователя только для текущего окна консоли.

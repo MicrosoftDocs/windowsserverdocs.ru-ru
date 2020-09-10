@@ -3,16 +3,16 @@ title: wbadmin disable backup
 description: Справочная статья по программе wbadmin disable backup, которая прекращает выполнение запланированных ежедневных резервных копий.
 ms.topic: reference
 ms.assetid: 5176cbd9-0696-4b3f-9c35-272dd84f7898
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 685e74d0c5e6b18e0929aa97361eb5ff0bea5b94
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 5525dc4c62900f2f250fc36670f83cefd0b55e35
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89032109"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89640757"
 ---
 # <a name="wbadmin-disable-backup"></a>wbadmin disable backup
 

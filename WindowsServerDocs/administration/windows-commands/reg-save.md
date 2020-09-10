@@ -3,16 +3,16 @@ title: reg save
 description: Справочная статья по команде reg save, которая сохраняет копию указанных подразделов, записей и значений реестра в указанном файле.
 ms.topic: reference
 ms.assetid: b326482b-c8af-467d-a20c-0481eeda3d5c
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 17c1bd3439d98ee2e0aa64cb3000f94dfbab41f4
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: f75aedc391eec495a82fe2ea674164552ef66e80
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89025008"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89640318"
 ---
 # <a name="reg-save"></a>reg save
 
@@ -33,7 +33,7 @@ reg save <keyname> <filename> [/y]
 | /y | Перезаписывает существующий файл с именем *filename* без запроса подтверждения. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Remarks
+#### <a name="remarks"></a>Примечания
 
 - Перед изменением любых записей реестра необходимо сохранить родительский подраздел с помощью команды **reg save** . В случае сбоя изменения можно восстановить исходный подраздел с помощью операции **восстановления reg** .
 

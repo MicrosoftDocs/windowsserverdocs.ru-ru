@@ -3,16 +3,16 @@ title: Процедуры с учетными данными в проверке
 description: Безопасность Windows Server
 ms.topic: article
 ms.assetid: 48c60816-fb8b-447c-9c8e-800c2e05b14f
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/12/2016
-ms.openlocfilehash: c4c9554c7c5d34513ddf848989681d81e100f108
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 3d2948c632697e6278b716784f68c7a0085eab07
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87989425"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89640084"
 ---
 # <a name="credentials-processes-in-windows-authentication"></a>Процедуры с учетными данными в проверке подлинности Windows
 

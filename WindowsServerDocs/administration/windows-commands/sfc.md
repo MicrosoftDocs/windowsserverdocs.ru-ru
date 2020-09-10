@@ -3,16 +3,16 @@ title: sfc
 description: Справочная статья для SFC, который сканирует и проверяет целостность всех защищенных системных файлов и заменяет неверные версии на правильные версии.
 ms.topic: reference
 ms.assetid: c58c25da-e028-42a6-9e10-973484a4b953
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 6aa1fd38eaab1ffe3d6c3b9f2e4913d6a1e0ca4d
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 18c7457b7f51449796374930d6232045be443c85
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89024888"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89640976"
 ---
 # <a name="sfc"></a>sfc
 
@@ -38,7 +38,7 @@ sfc [/scannow] [/verifyonly] [/scanfile=<file>] [/verifyfile=<file>] [/offwindir
 |/оффбутдир|Указывает расположение автономного каталога загрузки для автономной работы|
 |/?|Отображение справки в командной строке.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Примечания
 -   Для запуска **sfc.exe**необходимо войти в систему в качестве члена группы "Администраторы".
 -   Если **sfc** обнаруживает, что защищенный файл был перезаписан, он извлекает правильную версию файла из папки **systemroot\system32\dllcache** , а затем заменяет неверный файл.
 -   Между **sfc** в windows Server 2003, windows Server 2008 и windows Server 2008 R2 существуют функциональные различия:

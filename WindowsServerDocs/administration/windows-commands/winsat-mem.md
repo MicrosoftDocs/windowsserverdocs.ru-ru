@@ -3,16 +3,16 @@ title: winsat mem
 description: Справочная статья по MEM в службе WinSAT, которая проверяет пропускную способность системной памяти в виде отражения больших объемов памяти для копирования буферов памяти, как используется при обработке мультимедийных данных.
 winms.topic: reference
 ms.assetid: cda017bf-6193-43c1-b71f-e379c23e1152
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 0ba9896b6c07d412e00209e708b4b10e6421907e
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 88a8ff7bf8cac5197532950d59d8c736d229f846
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89035882"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89641105"
 ---
 # <a name="winsat-mem"></a>winsat mem
 
@@ -54,7 +54,7 @@ winsat mem <parameters>
   winsat mem -mint 4.0 -maxt 12.0 -buffersize 32MB -xml memtest.xml
   ```
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Примечания
 
 -   Членство в группе локальных администраторов или эквивалентной является минимальным требованием для использования **WinSAT**. Команда должна быть выполнена из окна командной строки с повышенными привилегиями.
 -   Чтобы открыть окно командной строки с повышенными привилегиями, нажмите кнопку **Пуск**, выберите пункт **стандартные**, щелкните правой кнопкой мыши пункт **Командная строка**и выберите команду **Запуск от имени администратора**.

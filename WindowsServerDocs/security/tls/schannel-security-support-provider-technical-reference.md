@@ -3,16 +3,16 @@ title: Технический справочник по поставщику п�
 description: Безопасность Windows Server
 ms.topic: article
 ms.assetid: 5bf9c4a5-cdc1-49eb-bf9a-8bf987410b63
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 08/08/2018
-ms.openlocfilehash: be67621ca1fa96e79eb9302b8abfac08902abdc2
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 42ed20e3099b06398e56a6ca34a10dd1e2b2449b
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87936618"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89640399"
 ---
 # <a name="schannel-security-support-provider-technical-reference"></a>Технический справочник по поставщику поддержки безопасности Schannel
 

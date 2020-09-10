@@ -3,16 +3,16 @@ title: Использование политик ограниченного ис
 description: Безопасность Windows Server
 ms.topic: article
 ms.assetid: 02f23979-f832-4e46-bdea-21fd77db35b2
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/12/2016
-ms.openlocfilehash: de636bf4e1783d1d6aaf1b78a45442c80e0a6d27
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 502d9a097928c6a9b828ebc3b9d5b3544d456388
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87953001"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89640226"
 ---
 # <a name="use-software-restriction-policies-to-help-protect-your-computer-against-an-email-virus"></a>Использование политик ограниченного использования программ для защиты компьютера от вирусов, распространяемых по электронной почте
 

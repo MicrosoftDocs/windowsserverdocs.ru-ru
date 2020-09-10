@@ -3,16 +3,16 @@ title: winrs
 description: Справочная статья по WinRS, позволяющее удаленно управлять программами и выполнять их.
 ms.topic: reference
 ms.assetid: c370de31-5651-400a-872d-ef229aae2309
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 2cf659e06f43a26ae95e4ff218758c21d3cf78e9
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: a2a92a20a924e36686fb555b90da4fa7d6ef67fd
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89022638"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89641113"
 ---
 # <a name="winrs"></a>winrs
 
@@ -41,7 +41,7 @@ winrs [/<parameter>[:<value>]] <command>
 |            /усессл             |                                                                                                               Используйте SSL-соединение при использовании удаленной конечной точки.  Указание этого параметра вместо транспорта **https:** будет использовать порт по умолчанию для **WinRM** по умолчанию.                                                                                                                |
 |               /?               |                                                                                                                                                                        Отображение справки в командной строке.                                                                                                                                                                        |
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Примечания
 -   Все параметры командной строки принимают либо краткую форму, либо длинную форму. Например, допустимыми являются **/r** и **/ремоте** .
 -   Чтобы завершить команду **/ремоте** , пользователь может ввести **сочетание клавиш CTRL-C** или **Ctrl-Break**, которое будет отправлено удаленной оболочке. Вторая **клавиша CTRL-C** принудительно завершает **winrs.exe**.
 -   Для управления активными удаленными оболочками или конфигурацией WinRS используйте средство WinRM.  Псевдоним универсального кода ресурса (URI) для управления активными оболочками — **Shell/cmd**.  Псевдоним URI для конфигурации WinRS — **WinRM/config/WinRS**.

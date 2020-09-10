@@ -3,16 +3,16 @@ title: telnet close
 description: Справочная статья по Telnet Close, которая закрывает текущее подключение Telnet.
 ms.topic: reference
 ms.assetid: 9330a5e0-bdb5-446b-8c25-c2c460df8b6b
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 6585c27a7247d901beefe24b66706522a2fd8209
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 216b53004a0ef0ab6afb93c3eb93fc3c97f3a438
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89027082"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89640119"
 ---
 # <a name="telnet-close"></a>Telnet: закрыть
 

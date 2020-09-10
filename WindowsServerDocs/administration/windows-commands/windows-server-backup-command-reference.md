@@ -3,16 +3,16 @@ title: Справочник по командам системы архивац�
 description: Справочная статья по Справочнику по командам Backup.
 ms.topic: reference
 ms.assetid: 03de0a65-21f0-4dd7-a3ae-251c98bbf6eb
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 14367db03c7ddbeae9f8e91179b6b5a4b8200e9b
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 7896769381b56e2553ac6566297d8b0aee8c2686
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89022758"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89641160"
 ---
 # <a name="windows-server-backup-command-reference"></a>Справочник по командам системы архивации данных Windows Server
 
