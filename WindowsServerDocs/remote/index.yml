@@ -7,18 +7,18 @@ metadata:
   ms.service: help
   ms.prod: windows-server
   ms.technology: manage-rsat
-  author: coreyp-at-msft
-  ms.author: coreyp
-  manager: dougkim
+  author: eross-msft
+  ms.author: lizross
+  manager: mtillman
   ms.localizationpriority: high
   ms.topic: landing-page
   ms.date: 06/29/2020
-  ms.openlocfilehash: f57b5b034ac669b96a241f0913147b0af4fcca0b
-  ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+  ms.openlocfilehash: 037feaf0cef05a2e04b616e9879372594eabad0b
+  ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 07/23/2020
-  ms.locfileid: "86964806"
+  ms.lasthandoff: 09/10/2020
+  ms.locfileid: "89635434"
 landingContent:
 - title: Службы MultiPoint
   linkLists:
