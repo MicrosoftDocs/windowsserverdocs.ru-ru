@@ -3,16 +3,16 @@ title: bitsadmin cache
 description: Справочная статья по команде кэша битсадмин, содержащей список коммутаторов кэша битсадмин.
 ms.topic: reference
 ms.assetid: 9ae4a283-a187-4fe3-b05c-4b53732c27cb
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 7dd6b5e7d23c0f2284699530cde659f3dbbefc9f
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 3b64c05336330f18741131f9661cbbed2e5a6d54
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89030502"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89632430"
 ---
 # <a name="bitsadmin-cache"></a>bitsadmin cache
 

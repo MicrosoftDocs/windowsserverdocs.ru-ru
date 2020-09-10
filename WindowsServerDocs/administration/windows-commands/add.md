@@ -3,16 +3,16 @@ title: add
 description: Справочная статья по команде Add, которая добавляет тома в набор томов, предназначенных для теневого копирования, или добавляет псевдонимы в среду псевдонима.
 ms.topic: reference
 ms.assetid: 47efce7a-86d2-4872-ae31-baa108757afd
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: e2a4d8e73799c2e2f2f93af4e85ebbeb6af4c69a
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: ddd090323b45caa0cc7afa4c07c568793f2e268d
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89029422"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89633493"
 ---
 # <a name="add"></a>add
 

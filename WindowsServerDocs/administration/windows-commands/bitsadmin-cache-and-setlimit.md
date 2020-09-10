@@ -3,16 +3,16 @@ title: bitsadmin cache и setlimit
 description: Справочная статья по битсадмин кэшу и команде сетлимит, которая устанавливает предельный размер кэша.
 ms.topic: reference
 ms.assetid: 46578835-d5ce-423b-be4d-62ddb9e1908d
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: edcd83ace72e301471b03ac0c1fc85439a1c4d94
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 7547a2a51104285b10af6b02c1962c89f75d51fa
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89028792"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89632484"
 ---
 # <a name="bitsadmin-cache-and-setlimit"></a>bitsadmin cache и setlimit
 

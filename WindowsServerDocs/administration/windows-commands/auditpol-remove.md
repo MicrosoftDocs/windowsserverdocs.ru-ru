@@ -3,16 +3,16 @@ title: auditpol remove
 description: Справочная статья по команде auditpol Remove, которая удаляет политику аудита для каждого пользователя для указанной учетной записи или всех учетных записей.
 ms.topic: reference
 ms.assetid: be42ec55-235c-44f7-9abd-ed1cf3f5b1f5
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: eee48822a082c3e7f5aa37cbd09a24059c94624e
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: a86d5e76daa7023b73760347fb5656fa13ca6418
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89029032"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89633178"
 ---
 # <a name="auditpol-remove"></a>auditpol remove
 

@@ -3,16 +3,16 @@ title: bitsadmin getcompletiontime
 description: Справочная статья по команде битсадмин жеткомплетионтиме, которая получает время завершения передачи данных заданием.
 ms.topic: reference
 ms.assetid: 7a4b3c1c-9832-4724-86b2-cce3c01bfa28
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: d79fbf49aa4ec9cea60829a3b0859887da0e5dd5
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 660a28dcfe99bd5801ba2fc3ad909cec78a671ce
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89033682"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89632248"
 ---
 # <a name="bitsadmin-getcompletiontime"></a>bitsadmin getcompletiontime
 

@@ -3,16 +3,16 @@ title: ping
 description: Справочная статья по команде ping, которая проверяет сетевое подключение.
 ms.topic: reference
 ms.assetid: 49272671-2eec-4fa5-881f-65c24cfbef52
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 07/11/2018
-ms.openlocfilehash: 14f9ca67d2b4c8bd19c8ef9c67a464bc4e038387
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 903bf25f228adaf3634ffc2cd8da988acd9be8af
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89035272"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89633659"
 ---
 # <a name="ping"></a>ping
 

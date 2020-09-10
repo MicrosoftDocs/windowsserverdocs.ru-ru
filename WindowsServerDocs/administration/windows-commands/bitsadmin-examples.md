@@ -3,16 +3,16 @@ title: bitsadmin examples
 description: Примеры, демонстрирующие использование средства битсадмин для выполнения наиболее распространенных задач.
 ms.topic: reference
 ms.assetid: cb8f8374-ba6e-4a68-85a1-9a95b8215354
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 05/31/2018
-ms.openlocfilehash: e1fcf545efee765b5130c616ddee53b25f03d0d3
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: a40091e71739cb2604a86301e9de24a27a7ecd84
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89030492"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89632335"
 ---
 # <a name="bitsadmin-examples"></a>bitsadmin examples
 

@@ -3,16 +3,16 @@ title: auditpol get
 description: Справочная статья по команде auditpol Get, которая получает системную политику, политику для отдельных пользователей, параметры аудита и объект дескриптора безопасности аудита.
 ms.topic: reference
 ms.assetid: fe13de4e-836c-4207-b47c-64b6272d6c41
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 23de44ebc9bc91ad4db52ee7362b14d9c93648d8
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 309e54170b7a154629a17e5fde1ed4943d0b180c
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89029092"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89633223"
 ---
 # <a name="auditpol-get"></a>auditpol get
 
@@ -46,7 +46,7 @@ auditpol /get
 | /r | Отображает выходные данные в формате отчета, значение с разделителями-запятыми (CSV). |
 | /? | Отображение справки в командной строке. |
 
-### <a name="remarks"></a>Remarks
+### <a name="remarks"></a>Примечания
 
 Все категории и подкатегории могут быть заданы с помощью идентификатора GUID или имени, заключенного в кавычки ("). Пользователи могут указываться с помощью идентификатора SID или имени.
 

@@ -3,16 +3,16 @@ title: begin restore
 description: Справочная статья по команде Begin Restore, которая запускает сеанс восстановления и выдает событие предварительного восстановления для задействованных модулей записи.
 ms.topic: reference
 ms.assetid: f629bbd5-315d-4cbb-9cb0-9d75cf617092
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 093e4e43ed52cb02af0cc5458540095343c307f9
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 322ce8ea69b6c524e6c73d7e12f0bc89f7ad96e8
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89031422"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89632788"
 ---
 # <a name="begin-restore"></a>begin restore
 

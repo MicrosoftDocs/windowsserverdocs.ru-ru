@@ -3,16 +3,16 @@ title: bitsadmin complete
 description: Справочная статья по команде битсадмин Complete, которая завершает задание.
 ms.topic: reference
 ms.assetid: a5e86677-8f7b-43b3-929e-97706c57e7f1
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: c21cd7919d49b2ac68c665dfd7043cbe55937e45
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 88e8ac3920adb80dcc453317fbffe5fd661811fb
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89026692"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89632385"
 ---
 # <a name="bitsadmin-complete"></a>bitsadmin complete
 

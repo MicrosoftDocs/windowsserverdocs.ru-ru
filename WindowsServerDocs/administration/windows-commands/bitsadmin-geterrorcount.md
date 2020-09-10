@@ -3,16 +3,16 @@ title: bitsadmin geterrorcount
 description: Справочная статья по команде битсадмин жетерроркаунт, которая извлекает количество раз, когда указанное задание создало временную ошибку.
 ms.topic: reference
 ms.assetid: 8840ae78-52b0-4c7e-b592-0547359a237e
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 1b6a4d3f0e77d8ffc0d7e538affe0fb8e77a5281
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 7266af9244218cf4a6434c838390eac8149c80ab
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89030352"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89632117"
 ---
 # <a name="bitsadmin-geterrorcount"></a>bitsadmin geterrorcount
 

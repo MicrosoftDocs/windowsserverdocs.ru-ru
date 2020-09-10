@@ -3,16 +3,16 @@ title: attributes volume
 description: Справочная статья по команде атрибуты тома, которая отображает, устанавливает или удаляет атрибуты тома.
 ms.topic: reference
 ms.assetid: e40e8284-3d57-4de8-a46c-e4ade34a0d53
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 71f11eb692676cec4121e2ea24aed123f6a7d7d5
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: dd651732dbf537da31ae5f5343c687868ffb2741
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89029192"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89633288"
 ---
 # <a name="attributes-volume"></a>attributes volume
 
@@ -38,7 +38,7 @@ attributes volume [{set | clear}] [{hidden | readonly | nodefaultdriveletter | s
 | SHADOWCOPY | Указывает, что том является томом теневого копирования. |
 | Noerr | Только для сценариев. При возникновении ошибки DiskPart продолжит обрабатывать команды, как если бы ошибка не возникала. Без этого параметра ошибка приводит к выходу из программы DiskPart с кодом ошибки. |
 
-### <a name="remarks"></a>Remarks
+### <a name="remarks"></a>Примечания
 
 - На основных дисках основной загрузочной записи (MBR) параметры **Hidden**, **ReadOnly**и **нодефаултдривелеттер** применяются ко всем томам на диске.
 

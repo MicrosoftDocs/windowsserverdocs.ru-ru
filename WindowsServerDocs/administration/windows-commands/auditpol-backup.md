@@ -3,16 +3,16 @@ title: auditpol backup
 description: Справочная статья по команде auditpol backup, которая выполняет резервное копирование параметров политики аудита системы, параметров политики аудита на пользователя для всех пользователей и всех параметров аудита в текстовом файле с разделителями-запятыми (CSV).
 ms.topic: reference
 ms.assetid: dc84e581-aa0f-4c91-b13b-1d970bad5517
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 4c5dc71ef737c3c939d895a0693ff8213105caa1
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 1bee18b3bbad093364301543dda1199598e8ad00
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89029152"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89633240"
 ---
 # <a name="auditpol-backup"></a>auditpol backup
 

@@ -3,16 +3,16 @@ title: bitsadmin getfilestotal
 description: Справочная статья по команде битсадмин жетфилестотал, которая получает количество файлов в указанном задании.
 ms.topic: reference
 ms.assetid: c5de113e-f29c-4cd3-9392-0e300018d516
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 74e5dad863b12b7f90ed74bca0e6b0b352fb1360
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 73a543914f31a7b9e5b028caf273d7945a954fdd
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89033612"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89632107"
 ---
 # <a name="bitsadmin-getfilestotal"></a>bitsadmin getfilestotal
 
@@ -38,7 +38,7 @@ bitsadmin /getfilestotal <job>
 bitsadmin /getfilestotal myDownloadJob
 ```
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также:
 
 - [Условные обозначения синтаксиса команд командной строки](command-line-syntax-key.md)
 

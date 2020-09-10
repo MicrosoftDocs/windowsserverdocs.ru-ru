@@ -3,16 +3,16 @@ title: auditpol clear
 description: Справочная статья по команде auditpol Clear, которая удаляет политику аудита "на пользователя" для всех пользователей, сбрасывает (отключает) политику аудита системы для всех подкатегорий и устанавливает для всех параметров аудита значение "отключено".
 ms.topic: reference
 ms.assetid: 05bfa218-2434-4ad1-b33c-e6fcfb2b4f67
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: ba2a4759d5c1aacdf6fae27e00a9a2e74b4597dc
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 1858b2ccc870b459ee864c5d135934f494d4aab6
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89029112"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89633226"
 ---
 # <a name="auditpol-clear"></a>auditpol clear
 

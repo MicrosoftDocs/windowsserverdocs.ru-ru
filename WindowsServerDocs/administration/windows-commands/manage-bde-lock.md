@@ -3,16 +3,16 @@ title: Управление — блокировка BDE
 description: Справочная статья по команде Manage-bde Lock, которая блокирует диск, защищенный BitLocker, чтобы предотвратить доступ к нему, если не указан ключ блокировки.
 ms.topic: reference
 ms.assetid: b8858e61-3a7e-4d03-8c98-5c09853f35e8
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: db92258ed4aa96402c59f5073784bf01cc82b911
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: e9b8dfdac7bc8b833a89c9ba447b99984a923f86
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89037672"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89633744"
 ---
 # <a name="manage-bde-lock"></a>Управление — блокировка BDE
 

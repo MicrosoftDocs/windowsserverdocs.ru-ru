@@ -3,16 +3,16 @@ title: arp
 description: Справочная статья по команде ARP, которая отображает и изменяет записи в кэше протокола ARP, который используется для хранения IP-адресов и их разрешенных физических адресов.
 ms.topic: reference
 ms.assetid: 827e96eb-1945-483f-980f-714703456f7c
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: b97c285f36bac3fd8587abddaf0a70423eb26155
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 33b636bb27a6dcb9bc5d744e164fb16051cf4f05
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89029392"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89633457"
 ---
 # <a name="arp"></a>arp
 
@@ -36,7 +36,7 @@ arp [/a [<inetaddr>] [/n <ifaceaddr>]] [/g [<inetaddr>] [-n <ifaceaddr>]] [/d <i
 | `[/s <inetaddr> <etheraddr> [<ifaceaddr>]` | Добавляет статическую запись в кэш ARP, которая разрешает IP-адрес **инетаддр** с физическим адресом **есераддр**. Чтобы добавить статическую запись кэша ARP в таблицу для определенного интерфейса, используйте параметр **ифацеаддр** , где **ифацеаддр** — это IP-адрес, назначенный интерфейсу. |
 | /? | Отображение справки в командной строке. |
 
-### <a name="remarks"></a>Remarks
+### <a name="remarks"></a>Примечания
 
 - IP-адреса для **инетаддр** и **ифацеаддр** выражаются в десятичной нотации.
 

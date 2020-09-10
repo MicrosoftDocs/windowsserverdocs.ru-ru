@@ -3,16 +3,16 @@ title: bitsadmin cache и delete
 description: Справочная статья по команде битсадмин Cache и DELETE, которая удаляет определенную запись кэша.
 ms.topic: reference
 ms.assetid: 22540273-55a5-46ea-869b-6df2aa6808a1
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 5b7a7c00013833df121219f3e4f17e55a1d1e7d4
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 3dd83b05b0b4964fe8dbaa52a03a651153d9a94d
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89034902"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89632646"
 ---
 # <a name="bitsadmin-cache-and-delete"></a>bitsadmin cache и delete
 

@@ -3,16 +3,16 @@ title: bitsadmin getnotifyinterface
 description: Справочная статья по команде битсадмин жетнотифинтерфаце, которая определяет, зарегистрировал ли другая программа интерфейс обратного вызова COM для указанного задания.
 ms.topic: reference
 ms.assetid: 40bf9dd8-b167-406a-80a6-a5a6f1b8cf7f
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 1455975083ac6afb25a02dc19c6df282928af587
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 563cdf103ce60fc13f0455caea98e30f9e2e03e4
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89027812"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89631898"
 ---
 # <a name="bitsadmin-getnotifyinterface"></a>bitsadmin getnotifyinterface
 

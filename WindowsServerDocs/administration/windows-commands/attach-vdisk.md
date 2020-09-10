@@ -3,16 +3,16 @@ title: подключить виртуальный диск
 description: Справочная статья по команде Attach vdisk, которая подключается (иногда называемые подключениями или поверхностями) к виртуальному жесткому диску (VHD), чтобы он появился на главном компьютере в качестве локального жесткого диска.
 ms.topic: reference
 ms.assetid: 882ab875-0c14-4eb3-98ef-fd0e8fa40d9c
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: bf2b5bb435be441410eeb39ca84ad9a2bd2e0736
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: aa94847ceaf4d978d50f0e00d9376c4f6b67691b
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89029262"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89633363"
 ---
 # <a name="attach-vdisk"></a>подключить виртуальный диск
 

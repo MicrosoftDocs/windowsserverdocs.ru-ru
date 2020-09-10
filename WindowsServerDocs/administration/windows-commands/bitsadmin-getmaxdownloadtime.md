@@ -1,19 +1,19 @@
 ---
 title: bitsadmin getmaxdownloadtime
 description: Справочная статья по команде битсадмин жетмаксдовнлоадтиме, которая получает время ожидания загрузки в секундах.
-ms.prod: windows-servemr
+ms.prod: windows-server
 ms.topic: reference
 ms.assetid: cdce64f6-7125-489d-be3c-4af1dfc8c46a
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 610553a839bb36bd764da1283ba398af49824731
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: ce375582c457f36b7a7e73757caf72ee581c61dd
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89030342"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89631955"
 ---
 # <a name="bitsadmin-getmaxdownloadtime"></a>bitsadmin getmaxdownloadtime
 
