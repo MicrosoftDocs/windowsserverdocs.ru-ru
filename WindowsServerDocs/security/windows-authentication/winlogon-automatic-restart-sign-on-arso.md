@@ -2,16 +2,16 @@
 title: Автоматический вход при перезапуске с помощью Winlogon (ARSO)
 ms.topic: article
 ms.assetid: 15cddcfa-8a8e-45e4-bb76-b8e1a14ceac0
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/12/2016
-ms.openlocfilehash: ee6e5817564389c1870e72543a0c073dd40df4db
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 450c57fae13dc4a970c047cceb356a8fab227066
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87989060"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89638737"
 ---
 # <a name="winlogon-automatic-restart-sign-on-arso"></a>Автоматический вход при перезапуске с помощью Winlogon (ARSO)
 
@@ -88,7 +88,7 @@ ms.locfileid: "87989060"
 
 |Имя значения|Тип|Данные|
 |-------|----|----|
-|дисаблеаутоматикрестартсигнон|DWORD|0<p>**Пример**.<p>0 (включено)<p>1 (отключено)|
+|дисаблеаутоматикрестартсигнон|DWORD|0<p>**Пример.**<p>0 (включено)<p>1 (отключено)|
 
 **Расположение реестра политики:** хклм\софтваре\микрософт\виндовс\куррентверсион\полиЦиес\систем
 
@@ -104,7 +104,7 @@ ms.locfileid: "87989060"
 
 ![Снимок экрана, показывающий параметры политики. в пользовательском интерфейсе можно указать, будет ли устройство автоматически входить в систему последнего интерактивного пользователя после Центр обновления Windows перезагрузки системы.](../media/winlogon-automatic-restart-sign-on-arso/GTR_ADDS_SignInPolicy.gif)
 
-## <a name="troubleshooting"></a>Диагностика
+## <a name="troubleshooting"></a>Устранение неполадок
 При автоматической блокировке WinLogon трассировка состояния WinLogon будет храниться в журнале событий WinLogon.
 
 Регистрируется состояние попытки настройки автоматического входа в систему

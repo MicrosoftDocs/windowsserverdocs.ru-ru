@@ -3,16 +3,16 @@ title: ksetup dumpstate
 description: Справочная статья по ksetup думпстате коммнанд, в которой отображается текущее состояние параметров области для всех областей, определенных на компьютере.
 ms.topic: reference
 ms.assetid: 3ef2f7b8-97af-4f42-9542-cff324840637
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 8723eac23cc2444bf4c16a661b13cc8cef4798dc
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 5f9d16a094dd3d3bbcdd5e9cb740e1bca5203a6d
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89025528"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89639663"
 ---
 # <a name="ksetup-dumpstate"></a>ksetup dumpstate
 
@@ -24,7 +24,7 @@ ms.locfileid: "89025528"
 ksetup /dumpstate
 ```
 
-### <a name="remarks"></a>Remarks
+### <a name="remarks"></a>Примечания
 
 - Выходные данные этой команды включают область по умолчанию (домен, членом которого является компьютер) и все сферы, определенные на этом компьютере. Для каждой области предусмотрено следующее:
 

@@ -3,16 +3,16 @@ title: msiexec
 description: Справочная статья по команде msiexec, которая предоставляет средства для установки, изменения и выполнения операций с установщик Windows из командной строки.
 ms.topic: reference
 ms.assetid: 122eb0ce-ecbc-4909-a52a-15c3413619af
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 1255cf26ac4dd3f9c28189ce7df76d63c875ee64
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 93ce1de1f75ff03bc7bb5f79d2046502c2d81bc4
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89025288"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89639618"
 ---
 # <a name="msiexec"></a>msiexec
 
@@ -73,7 +73,7 @@ msiexec.exe /i <path_to_package> [/quiet][/passive][/q{n|b|r|f}]
 | /кр | Указывает сокращенный интерфейс пользователя во время процесса установки. |
 | /кф | Указывает полный интерфейс интерфейса пользователя во время установки. |
 
-##### <a name="remarks"></a>Remarks
+##### <a name="remarks"></a>Примечания
 
 - Модальное окно не отображается, если установка отменена пользователем. Вы можете использовать **QB +!** или **QB! +** , чтобы скрыть кнопку **Отмена** .
 

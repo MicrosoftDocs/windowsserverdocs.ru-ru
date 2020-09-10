@@ -3,16 +3,16 @@ title: Manage-bde выкл.
 description: Справочная статья по команде Manage-bde Off, которая расшифровывает диск и отключает BitLocker.
 ms.topic: reference
 ms.assetid: 0a27c119-d385-45e5-89fe-e311d4429876
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: c85fec912802c6f0bac7494c9a3192623ac55686
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 8802b971b6d63e6f0693b6b40222c325ab576bc3
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89037662"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89639655"
 ---
 # <a name="manage-bde-off"></a>Manage-bde выкл.
 

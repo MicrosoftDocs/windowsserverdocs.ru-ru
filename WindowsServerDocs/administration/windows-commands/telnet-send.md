@@ -3,16 +3,16 @@ title: telnet send
 description: Справочная статья по Telnet Send, которая отправляет команды Telnet на сервер Telnet.
 ms.topic: reference
 ms.assetid: 7c217abc-1182-466e-914c-1ff16755021b
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 4e8621d163e4f0bf7022f2cab1a67f188bc47dfd
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: bef40b0015ccfdc5c62b6acc8b42bc95865ca0ff
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89024588"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89639813"
 ---
 # <a name="telnet-send"></a>Telnet: send
 

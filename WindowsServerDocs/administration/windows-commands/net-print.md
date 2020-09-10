@@ -3,16 +3,16 @@ title: net print
 description: Справочная статья по команде net print. Эта команда устарела и не гарантируется, что она будет поддерживаться в будущих выпусках Windows.
 ms.topic: reference
 ms.assetid: f59b2015-4698-415d-9a74-09566c466f40
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: a12f11f9552df417f792078d210655eb5893619a
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 10e153da203e0e11c1560417f363e17b6b18aaa7
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89037792"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89637962"
 ---
 # <a name="net-print"></a>net print
 
@@ -37,7 +37,7 @@ net print {\\<computername>\<sharename> | \\<computername> <jobnumber> [/hold | 
 | `[/hold | /release | /delete]` | Указывает действие, выполняемое с заданием печати. Если указать номер задания, но не указывать никаких действий, будут отображены сведения о задании печати.<ul><li>**/холд** — задерживает задание, позволяя другим заданиям печати обходить его до выпуска.</li><li>**/Release** — освобождает Отложенное задание печати.</li><li>**/Delete** — удаляет задание печати из очереди печати.</li></ul> |
 | help | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Remarks
+#### <a name="remarks"></a>Примечания
 
 - `net print\\<computername>`Команда отображает сведения о заданиях печати в общей очереди принтера. Ниже приведен пример отчета для всех заданий печати в очереди для общего принтера с именем *Laser*:
 

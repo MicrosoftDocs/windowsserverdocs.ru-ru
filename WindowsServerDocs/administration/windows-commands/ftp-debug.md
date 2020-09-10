@@ -3,16 +3,16 @@ title: ftp debug
 description: Справочная статья по команде FTP Debug, которая переключает режим отладки.
 ms.topic: reference
 ms.assetid: 16293dbf-1b7f-4b62-be4d-876179563ad7
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 0a870423a2caa4f5642dc7c3ff85e498fcb9ced1
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: d36e07d94d353b43fb9a154c1b0a79eae97580f2
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89038052"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89638501"
 ---
 # <a name="ftp-debug"></a>ftp debug
 

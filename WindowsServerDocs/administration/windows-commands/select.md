@@ -3,16 +3,16 @@ title: select
 description: Справочная статья для * * * *-
 ms.topic: reference
 ms.assetid: 9eeb40c0-4258-46e2-8dbc-94f63497e771
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 6fb6230c24f723e20b09449967b157dd86347202
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: da601731f9abe1f84f082fd91528db03e6a8b05a
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89032226"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89638998"
 ---
 # <a name="select"></a>select
 
@@ -38,7 +38,7 @@ select vdisk
 |[Выбор тома](select-volume.md)|Перемещает фокус на том.|
 |[Выбрать виртуальный диск](select-vdisk.md)|Перемещает фокус на виртуальный жесткий диск.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Примечания
 
 -   Если выбран том с соответствующим разделом, раздел будет выбран автоматически.
 -   Если секция выбрана с соответствующим томом, том будет выбран автоматически.

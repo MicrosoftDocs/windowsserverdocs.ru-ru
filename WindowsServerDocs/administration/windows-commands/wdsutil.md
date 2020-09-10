@@ -3,16 +3,16 @@ title: wdsutil
 description: Справочная статья по WDSUTIL — служебная программа командной строки, используемая для управления сервером служб развертывания Windows.
 ms.topic: reference
 ms.assetid: 3a1965a0-8677-40cc-9495-30ae806808d1
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 59af6cf2d609d3304634a9535d401767c21c97c1
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: aa3f30e9588a149ae4fe586532b2898a037257d9
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89031752"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89638872"
 ---
 # <a name="wdsutil"></a>wdsutil
 

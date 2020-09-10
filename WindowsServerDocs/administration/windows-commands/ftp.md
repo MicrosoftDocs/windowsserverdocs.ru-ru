@@ -3,16 +3,16 @@ title: ftp
 description: Справочная статья по команде FTP, которая передает файлы на компьютер, на котором запущена служба протокол FTP (FTP), и с него.
 ms.topic: reference
 ms.assetid: 758335e1-fd8d-448c-a654-993126239dd9
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 9f5cb70e6b42e390f8e279152e736b0226e74f9d
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 65d7ff4ef7202406541ec767920cb75526500567
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89038905"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89638426"
 ---
 # <a name="ftp"></a>ftp
 
@@ -45,7 +45,7 @@ ftp [-v] [-d] [-i] [-n] [-g] [-s:<filename>] [-a] [-A] [-x:<sendbuffer>] [-r:<re
 | `<host>` | Указывает имя компьютера, IP-адрес или IPv6-адрес сервера FTP, к которому осуществляется подключение. Имя узла или адрес, если он указан, должен быть последним параметром в строке. |
 | -? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Remarks
+#### <a name="remarks"></a>Примечания
 
 - Параметры командной строки **FTP** чувствительны к регистру.
 

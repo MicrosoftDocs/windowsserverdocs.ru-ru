@@ -3,16 +3,16 @@ title: select vdisk
 description: Справочная статья для * * * *-
 ms.topic: reference
 ms.assetid: 8808872a-3523-4205-a6c6-83fa738ee37a
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 388804d8b895e636937050c6d04cae02cd30a0e8
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: daa6d3047e28fb8f6084824fdf1557423daa52b8
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89032317"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89639150"
 ---
 # <a name="select-vdisk"></a>select vdisk
 

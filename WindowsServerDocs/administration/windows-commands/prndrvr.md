@@ -3,16 +3,16 @@ title: prndrvr
 description: Справочная статья по команде прндрвр, которая добавляет, удаляет и перечисляет драйверы принтера.
 ms.topic: reference
 ms.assetid: 82b09e3e-bd38-4df1-9953-b0e9ee2565a3
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 36ad4a4206e26065dfad9ff2d970da11e4efaa66
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 6fd276adb02281ab488c31db75563552f8495008
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89038705"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89638356"
 ---
 # <a name="prndrvr"></a>prndrvr
 
@@ -45,7 +45,7 @@ cscript prndrvr {-a | -d | -l | -x | -?} [-m <model>] [-v {0|1|2|3}] [-e <enviro
 | -i `<filename.inf>` | Указывает полный путь и имя файла драйвера, который вы хотите установить. Если не указать имя файла, сценарий использует один из файлов входящих INF-файла принтера в подкаталоге INF каталога Windows.<p>Если путь к драйверу не указан, сценарий выполняет поиск файлов драйверов в файле driver.cab. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Remarks
+#### <a name="remarks"></a>Примечания
 
 - Если предоставленные сведения содержат пробелы, заключите его в кавычки (например, "имя компьютера").
 

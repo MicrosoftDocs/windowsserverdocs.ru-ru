@@ -3,16 +3,16 @@ title: logman create cfg
 description: Справочная статья по команде Logman Create cfg, которая создает сборщик данных конфигурации.
 ms.topic: reference
 ms.assetid: bfc87093-3ff5-4e19-aa93-d185fb8e2239
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: fcdd724896b48c40d88c79b5f2081cadf05acf80
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: b102866fce3f529ac6a409d41e88c0c38569405f
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89034992"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89639523"
 ---
 # <a name="logman-create-cfg"></a>logman create cfg
 
@@ -54,7 +54,7 @@ logman create cfg <[-n] <name>> [options]
 | -ФТК `<path [path [...]]>` | Указывает полный путь к файлам для собраний. |
 | /? | Отображает контекстную справку. |
 
-#### <a name="remarks"></a>Remarks
+#### <a name="remarks"></a>Примечания
 
 - Где [-] присутствует, Добавление дополнительного дефиса (-) инвертирует параметр.
 

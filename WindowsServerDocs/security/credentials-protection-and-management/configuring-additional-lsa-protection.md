@@ -3,16 +3,16 @@ title: Настройка дополнительной защиты LSA
 description: Безопасность Windows Server
 ms.topic: article
 ms.assetid: 038e7c2b-c032-491f-8727-6f3f01116ef9
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/12/2016
-ms.openlocfilehash: bfb40249dffa08e1c05aa1dc7cbc26fad6f7885d
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 54bc100c935df2ff0cc7086b258fb395458f259f
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87995889"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89638084"
 ---
 # <a name="configuring-additional-lsa-protection"></a>Настройка дополнительной защиты LSA
 

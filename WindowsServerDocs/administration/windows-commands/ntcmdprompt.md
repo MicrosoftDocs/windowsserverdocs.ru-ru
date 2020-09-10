@@ -3,16 +3,16 @@ title: ntcmdprompt
 description: Справочная статья по команде нткмдпромпт, которая запускает интерпретатор команд **Cmd.exe**, а не **Command.com**, после выполнения команды завершения и сохранения резидентных (резидентных) программ или после запуска командной строки в приложении MS-DOS.
 ms.topic: reference
 ms.assetid: 0063bdbb-dc2b-41c4-99ee-b011603aaa86
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 557db55ea99b209f2bca152f1e45622aa0df4887
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 02aac71aea099359c1aa661086ed2702a89d276b
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89032762"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89639157"
 ---
 # <a name="ntcmdprompt"></a>ntcmdprompt
 
@@ -32,7 +32,7 @@ ntcmdprompt
 | --------- | ----------- |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Remarks
+#### <a name="remarks"></a>Примечания
 
 - Когда **Command.com** работает, некоторые функции **Cmd.exe**, например, отображение журнала команд **Doskey** , недоступны. Если вы предпочитаете запустить интерпретатор команд **Cmd.exe** после начала и сохранения резидентных (резидентных) программ или запуска Командная строка из приложения на основе MS-DOS, можно использовать команду **нткмдпромпт** . Однако помните, что РЕЗИДЕНТная программа может быть недоступна для использования при работе **Cmd.exe**. Команду **нткмдпромпт** можно включить в файл **config. NT** или в эквивалентный пользовательский файл запуска в файле сведений о программе (PIF) приложения.
 

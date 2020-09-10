@@ -3,16 +3,16 @@ title: What's New for Managed Service Accounts
 description: Безопасность Windows Server
 ms.topic: article
 ms.assetid: 2f2a8b6b-c152-4c40-b712-bfabff0e408b
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/12/2016
-ms.openlocfilehash: 32cc7a79f8b6efeaf7451444273b7e4285eeb544
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: f3b003ebe9ce766f39e10a21e0fa4002db562773
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87971431"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89639594"
 ---
 # <a name="what39s-new-for-managed-service-accounts"></a>Новые&#39;для управляемых учетных записей служб
 

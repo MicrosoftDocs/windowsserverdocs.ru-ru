@@ -3,16 +3,16 @@ title: Сценарии входа в систему Windows
 description: Безопасность Windows Server
 ms.topic: article
 ms.assetid: 66b7c568-67b7-4ac9-a479-a5a3b8a66142
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/12/2016
-ms.openlocfilehash: b1a7783e02746f53d818066eb20ceb3094bd2707
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 1ea8f8cde4dd99c50e9dbc1d5a035f413c875114
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87990037"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89638722"
 ---
 # <a name="windows-logon-scenarios"></a>Сценарии входа в систему Windows
 

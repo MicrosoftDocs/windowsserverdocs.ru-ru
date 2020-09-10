@@ -3,16 +3,16 @@ title: Общие сведения о проверке подлинности Wi
 description: Безопасность Windows Server
 ms.topic: article
 ms.assetid: 485a0774-0785-457f-a964-0e9403c12bb1
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/12/2016
-ms.openlocfilehash: bb35516e16e4b7d27ab2a5b68c61fce69a0e7670
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 4a2b5e6b48a56a1a2148df262d2785640ac6054d
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87989963"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89638693"
 ---
 # <a name="windows-authentication-overview"></a>Общие сведения о проверке подлинности Windows
 
@@ -50,9 +50,9 @@ ms.locfileid: "87989963"
 ## <a name="practical-applications"></a>Практическое применение
 Проверка подлинности Windows используется для проверки сведений, поступающих от доверенного источника, пользователя или объекта компьютера, например другого компьютера. Windows предоставляет множество различных способов достижения этой цели, как описано ниже.
 
-|Кому...|Функция|Описание|
+|Кому...|Компонент|Описание|
 |----|------|--------|
-|Проверка подлинности в домене Active Directory|Kerberos;|&nbsp;Операционные системы Microsoft Windows Server реализуют протокол проверки подлинности Kerberos версии 5 и расширения для проверки подлинности с открытым ключом. Клиент проверки подлинности Kerberos реализуется как SSP поставщика поддержки безопасности \( \) и доступен через интерфейс поставщика поддержки безопасности \( SSPI \) . Начальная проверка подлинности пользователя интегрирована с \- архитектурой единого входа Winlogon. Kerberos центр распространения ключей \( KDC \) интегрирован с другими службами безопасности Windows Server, работающими на контроллере домена. В качестве базы данных учетных записей безопасности в KDC используется база данных службы Active Directory Directory домена. Служба каталогов Active Directory необходима для реализаций Kerberos по умолчанию.<p>Дополнительные сведения см. в статье [Обзор проверки подлинности Kerberos](../kerberos/kerberos-authentication-overview.md).|
+|Проверка подлинности в домене Active Directory|Kerberos|&nbsp;Операционные системы Microsoft Windows Server реализуют протокол проверки подлинности Kerberos версии 5 и расширения для проверки подлинности с открытым ключом. Клиент проверки подлинности Kerberos реализуется как SSP поставщика поддержки безопасности \( \) и доступен через интерфейс поставщика поддержки безопасности \( SSPI \) . Начальная проверка подлинности пользователя интегрирована с \- архитектурой единого входа Winlogon. Kerberos центр распространения ключей \( KDC \) интегрирован с другими службами безопасности Windows Server, работающими на контроллере домена. В качестве базы данных учетных записей безопасности в KDC используется база данных службы Active Directory Directory домена. Служба каталогов Active Directory необходима для реализаций Kerberos по умолчанию.<p>Дополнительные сведения см. в статье [Обзор проверки подлинности Kerberos](../kerberos/kerberos-authentication-overview.md).|
 |Безопасная проверка подлинности в сети|\/Протокол TLS SSL, реализованный в поставщике поддержки безопасности SChannel|Протоколы \( TLS \) версии 1,0, 1,1 и 1,2, SSL \( \) протоколе SSL, версии 2,0 и 3,0, датаграмма транспорта транспортного уровня версии 1,0 и \( \) протокол шифрования протокола PCT для частного обмена данными, версия 1,0, основаны на криптографии с открытым ключом. \( \) Набор протоколов проверки подлинности поставщика безопасного канала Schannel предоставляет эти протоколы. Все протоколы Schannel используют модель клиента и сервера.<p>Дополнительные ресурсы см. в разделе [TLS-SSL &#40;&#41;ного поставщика услуг SChannel](../tls/tls-ssl-schannel-ssp-overview.md).|
 |Проверка подлинности веб-службы или приложения|Встроенная проверка подлинности Windows<p>Дайджест-проверка подлинности|Дополнительные ресурсы см. в разделах [Встроенная проверка подлинности Windows](/previous-versions/windows/it-pro/windows-server-2003/cc758557(v=ws.10)), [Дайджест-проверка подлинности](/previous-versions/windows/it-pro/windows-server-2003/cc738318(v=ws.10)) и [Расширенная дайджест-проверка подлинности](/previous-versions/windows/it-pro/windows-server-2003/cc783131(v=ws.10)).|
 |Проверка подлинности приложений прежних версий|NTLM|NTLM — это \- протокол проверки подлинности в стиле ответа на запрос. Помимо проверки подлинности, протокол NTLM обеспечивает безопасность сеанса, в частности, целостность и конфиденциальность сообщений с помощью функций подписания и запечатывания в NTLM.<p>Дополнительные сведения см. в статье [Обзор протокола NTLM](../kerberos/ntlm-overview.md).|
@@ -71,7 +71,7 @@ ms.locfileid: "87989963"
 |Технологии проверки подлинности|Ресурсы|
 |----------------|-------|
 |Проверка подлинности Windows|[Технический обзор проверки подлинности Windows](../windows-authentication/windows-authentication-technical-overview.md)<br />Разделы, описывающие различия между версиями, общие понятия проверки подлинности, сценарии входа в систему, архитектуры для поддерживаемых версий и применимые параметры.|
-|Kerberos;|[Kerberos Authentication Overview](../kerberos/kerberos-authentication-overview.md)<p>[(Обзор ограниченного делегирования Kerberos)](../kerberos/kerberos-constrained-delegation-overview.md)<p>[Технический справочник](/previous-versions/windows/it-pro/windows-server-2003/cc739058(v=ws.10)) \( по проверке подлинности Kerberos 2003\)<p>[Форум Kerberos](/answers/topics/windows-server-security.html)|
+|Kerberos|[Kerberos Authentication Overview](../kerberos/kerberos-authentication-overview.md)<p>[(Обзор ограниченного делегирования Kerberos)](../kerberos/kerberos-constrained-delegation-overview.md)<p>[Технический справочник](/previous-versions/windows/it-pro/windows-server-2003/cc739058(v=ws.10)) \( по проверке подлинности Kerberos 2003\)<p>[Форум Kerberos](/answers/topics/windows-server-security.html)|
 |\/Поставщик поддержки безопасности TLS SSL и DTLS \( SChannel\)|[Общие сведения о протоколе TLS-SSL &#40;&#41; SSP](../tls/tls-ssl-schannel-ssp-overview.md)<p>[Технический справочник по поставщику поддержки безопасности Schannel](../tls/schannel-security-support-provider-technical-reference.md)|
 |Дайджест-проверка подлинности|[Технический справочник](/previous-versions/windows/it-pro/windows-server-2003/cc782794(v=ws.10)) \( по дайджест-проверке подлинности 2003\)|
 |NTLM|[NTLM Overview](../kerberos/ntlm-overview.md)<br />Содержит ссылки на текущие и прошлые ресурсы|

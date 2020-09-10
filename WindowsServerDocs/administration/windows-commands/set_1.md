@@ -3,16 +3,16 @@ title: set
 description: Справочная статья по набору, который отображает, устанавливает или удаляет переменные среды cmd.exe.
 ms.topic: reference
 ms.assetid: 5fdd60d6-addf-4574-8c92-8aa53fa73d76
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 30240d4ae286c472cfbce932201435097df33ddb
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 70ce8bf85bbafc68e4ffe09170d9e21738315560
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89023438"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89639490"
 ---
 # <a name="set"></a>set
 
@@ -33,12 +33,12 @@ set /a <Variable>=<Expression>
 |\<Variable>|Задает переменную среды, которую необходимо задать или изменить.|
 |\<String>|Указывает строку, связываемую с указанной переменной среды.|
 |/p|Устанавливает значение *переменной* в строку входных данных, введенную пользователем.|
-|\<PromptString>|Необязательный элемент. Указывает сообщение, предлагающее пользователю ввести данные. Этот параметр используется с параметром командной строки **/p** .|
+|\<PromptString>|Необязательный параметр. Указывает сообщение, предлагающее пользователю ввести данные. Этот параметр используется с параметром командной строки **/p** .|
 |/a|Задает *строковое* значение числового выражения, которое вычисляется.|
 |\<Expression>|Задает числовое выражение. Допустимые операторы, которые можно использовать в *выражении*, см. в разделе Примечания.|
 |/?|Отображение справки в командной строке.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Примечания
 
 - Использование **Set** с включенными расширениями команд
 

@@ -3,16 +3,16 @@ title: serverceipoptin
 description: Справочная статья для * * * *-
 ms.topic: reference
 ms.assetid: 3d7d7fa7-0689-4797-b802-36fe260d21a0
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 25a7b116387af973a8c7894edbd0daed0dc59f9a
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 691b2e072d6581f8f8760e20d4ba8f09500ed169
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89024968"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89638972"
 ---
 # <a name="serverceipoptin"></a>serverceipoptin
 

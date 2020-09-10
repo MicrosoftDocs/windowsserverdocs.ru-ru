@@ -3,16 +3,16 @@ title: Архитектура интерфейса поставщика подд
 description: Безопасность Windows Server
 ms.topic: article
 ms.assetid: de09e099-5711-48f8-adbd-e7b8093a0336
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/12/2016
-ms.openlocfilehash: 636723dafc6ddc8e346a7272978a1abf9338baad
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: aec55bca0be096a3866cc49e718743a9c32d8f6b
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87991456"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89638744"
 ---
 # <a name="security-support-provider-interface-architecture"></a>Архитектура интерфейса поставщика поддержки безопасности
 

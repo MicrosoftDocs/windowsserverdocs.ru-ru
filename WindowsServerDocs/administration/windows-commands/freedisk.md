@@ -3,16 +3,16 @@ title: freedisk
 description: Справочная статья по команде фридиск, которая проверяет, доступен ли указанный объем дискового пространства, прежде чем продолжить процесс установки.
 ms.topic: reference
 ms.assetid: 91c15166-5baa-4b80-9e0c-4cd815d00530
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 6a3f8543e6fd2cff9a4e086068155d84526d9377
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: ad9c7faf65ffe8d4547f6a6de88e299b76ac05b2
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89027612"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89638017"
 ---
 # <a name="freedisk"></a>freedisk
 
@@ -36,7 +36,7 @@ freedisk [/s <computer> [/u [<domain>\]<user> [/p [<password>]]]] [/d <drive>] [
 | /d `<drive>` | Указывает диск, для которого необходимо определить доступность свободного пространства. Необходимо указать `<drive>` для удаленного компьютера. |
 | `<value>` | Проверяет наличие определенного объема свободного места на диске. Можно указать `<value>` в байтах, КБ, МБ, ГБ, ТБ, Pb, EB, ЗБ или ИБ. |
 
-#### <a name="remarks"></a>Remarks
+#### <a name="remarks"></a>Примечания
 
 - Параметры командной строки **/s**, **/u**и **/p** доступны только при использовании параметра **/s**. Для предоставления пароля пользователя необходимо использовать **/p** и **/u**.
 

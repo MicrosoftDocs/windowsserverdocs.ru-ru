@@ -3,16 +3,16 @@ title: Getting Started with Group Managed Service Accounts
 description: Безопасность Windows Server
 ms.topic: article
 ms.assetid: 7130ad73-9688-4f64-aca1-46a9187a46cf
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/12/2016
-ms.openlocfilehash: 979a6cf1e0b5e2d68c05f6285a9d745eabe41fa4
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 19da2b6ec2a7a3ca31c479388c087850c77d9c23
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87991524"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89638051"
 ---
 # <a name="getting-started-with-group-managed-service-accounts"></a>Getting Started with Group Managed Service Accounts
 
@@ -82,12 +82,12 @@ ms.locfileid: "87991524"
 |------|--------|----------|
 |Узел клиентского приложения|RFC-совместимый клиент Kerberos|Не ниже Windows XP|
 |Доменные контроллеры домена учетной записи пользователя|RFC-совместимый KDC|Не ниже Windows Server 2003|
-|Узлы, входящие в службу общего доступа|| Windows Server 2012 |
+|Узлы, входящие в службу общего доступа|| Windows Server 2012 |
 |Доменные контроллеры домена узла участника|RFC-совместимый KDC|Не ниже Windows Server 2003|
 |Доменные контроллеры домена учетной записи gMSA| Контроллеры домена Windows Server 2012, доступные для получения пароля узлом|Домен с Windows Server 2012, на котором могут быть установлены системы, предшествующие Windows Server 2012 |
 |Узел внутренней службы|RFC-совместимый сервер приложений Kerberos|Не ниже Windows Server 2003|
 |Доменные контроллеры домена учетной записи внутренней службы|RFC-совместимый KDC|Не ниже Windows Server 2003|
-|Windows PowerShell для Active Directory|Windows PowerShell для Active Directory, установленный на компьютере с поддержкой 64-разрядной архитектуры или на компьютере удаленного управления (например, с помощью средств удаленного администрирования сервера).| Windows Server 2012 |
+|Windows PowerShell для Active Directory|Windows PowerShell для Active Directory, установленный на компьютере с поддержкой 64-разрядной архитектуры или на компьютере удаленного управления (например, с помощью средств удаленного администрирования сервера).| Windows Server 2012 |
 
 **Требования доменных служб Active Directory**
 
@@ -210,7 +210,7 @@ New-ADServiceAccount ITFarm1 -RestrictToOutboundAuthenticationOnly - PrincipalsA
 
     Дополнительные сведения см. в разделе [Службы](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc772408(v=ws.11)).
 
--   Задачи
+-   Задания
 
     Дополнительные сведения см. в статье [Обзор планировщика задач](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc721871(v=ws.11)).
 

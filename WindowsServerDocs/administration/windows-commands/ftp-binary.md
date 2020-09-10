@@ -3,16 +3,16 @@ title: ftp binary
 description: Справочная статья по команде FTP binary, которая задает тип перемещения файла binary.
 ms.topic: reference
 ms.assetid: ee925b4d-85d2-47b1-b7d6-3832b7ec5505
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 8a20e793f60cc36957b817c7599e7f38b2e3d038
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 725dc41eaa8800372b438e85fbb430edcbf04832
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89027592"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89638548"
 ---
 # <a name="ftp-binary"></a>ftp binary
 

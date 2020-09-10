@@ -3,16 +3,16 @@ title: regsvr32
 description: Справочная статья по команде regsvr32, которая регистрирует DLL-файлы как компоненты команды в реестре.
 ms.topic: reference
 ms.assetid: 3345e964-7d3e-42b8-abeb-42ed6edfe2b2
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 3bb39070ba1744ca261419e5b996144f89b17b11
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 670953ecb5de087d660c2d3b1b504e7301245b96
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89027431"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89639850"
 ---
 # <a name="regsvr32"></a>regsvr32
 

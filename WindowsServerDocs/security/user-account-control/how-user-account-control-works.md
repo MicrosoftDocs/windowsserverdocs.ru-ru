@@ -3,16 +3,16 @@ title: Принципы работы контроля учетных запис�
 description: Безопасность Windows Server
 ms.topic: article
 ms.assetid: da83ddb2-6182-417c-aa8e-0b47b2e17d13
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/12/2016
-ms.openlocfilehash: 9d8558f89d2428217087f943fa9b54b2b74621cb
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 66af2af28a1c26920e906f58f738e25d5032c4c1
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87936693"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89639446"
 ---
 # <a name="how-user-account-control-works"></a>Принципы работы контроля учетных записей
 

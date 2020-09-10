@@ -3,16 +3,16 @@ title: Управление — возобновление BDE
 description: Справочная статья по команде "Управление возобновлением с помощью BDE", которая возобновляет шифрование или расшифровку BitLocker после приостановки.
 ms.topic: reference
 ms.assetid: ca3cd1ca-6f2c-4190-b68f-27816635facb
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 57f12ad478e565fa8edbeed0818e83b62c2d17fb
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: ebae22e60a8110bc2ba5e4649fc6cf143431b359
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89027502"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89639294"
 ---
 # <a name="manage-bde-resume"></a>Управление — возобновление BDE
 

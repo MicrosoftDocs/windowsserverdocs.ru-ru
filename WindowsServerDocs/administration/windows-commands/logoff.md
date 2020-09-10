@@ -3,16 +3,16 @@ title: logoff
 description: Справочная статья по команде logoff, которая выполнит выход пользователя из сеанса на удаленный рабочий стол сервере узла сеансов и удалит сеанс.
 ms.topic: reference
 ms.assetid: 939f09cc-de8c-436c-a05d-aca5f2a06371
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 249b63e5b98d17b67c6d00fe6d2f8a634d67de6f
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: b7a211f1b4bcb76ea63d79ae38d1cf78c757d6e0
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89030532"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89639320"
 ---
 # <a name="logoff"></a>logoff
 
@@ -35,7 +35,7 @@ logoff [<sessionname> | <sessionID>] [/server:<servername>] [/v]
 | /v | Отображает сведения о выполняемых действиях. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Remarks
+#### <a name="remarks"></a>Примечания
 
 - Вы всегда можете выйти из сеанса, к которому в данный момент выполнен вход. Однако необходимо иметь разрешение « **полный** доступ» для выхода пользователей из других сеансов.
 

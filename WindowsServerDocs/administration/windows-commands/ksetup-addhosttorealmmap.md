@@ -3,16 +3,16 @@ title: ksetup addhosttorealmmap
 description: Справочная статья по команде ksetup аддхосттореалммап, которая добавляет сопоставление имени участника-службы (SPN) между указанным узлом и областью.
 ms.topic: reference
 ms.assetid: 237742d5-fa68-466c-b97e-636f489248ea
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 900bab0d86da82d8c81ca10f0f23fec9a44b198c
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 16ffe4431167ef63c73d4889febed49c40344e8b
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89038875"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89639752"
 ---
 # <a name="ksetup-addhosttorealmmap"></a>ksetup addhosttorealmmap
 
