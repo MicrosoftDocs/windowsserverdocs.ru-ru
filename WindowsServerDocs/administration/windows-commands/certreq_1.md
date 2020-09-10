@@ -3,16 +3,16 @@ title: certreq
 description: Справочная статья по команде certreq, который запрашивает сертификаты из центра сертификации (ЦС), получает ответ на предыдущий запрос от центра сертификации, создает новый запрос из INF-файла, принимает и устанавливает ответ на запрос, создает запрос на перекрестную сертификацию или квалифицированное подчинение из существующего сертификата или запроса ЦС и подписывает запрос на перекрестную сертификацию или квалифицированное подчинение.
 ms.topic: reference
 ms.assetid: 7a04e51f-f395-4bff-b57a-0e9efcadf973
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: eb910415c46a57353eeffe7168ce71c055d82eca
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 1f2cdc1123595dae9c0c72bcdc77c2f55382c760
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89031252"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89629940"
 ---
 # <a name="certreq"></a>certreq
 
@@ -63,7 +63,7 @@ certreq –enroll –cert certId [options] renew [reusekeys]
 certreq –submit certrequest.req certnew.cer certnew.pfx
 ```
 
-#### <a name="remarks"></a>Remarks
+#### <a name="remarks"></a>Примечания
 
 - Это параметр certreq.exe по умолчанию. Если в командной строке не указан параметр, certreq.exe пытается отправить запрос на сертификат в центр сертификации. При использовании параметра **– Submit** необходимо указать файл запроса сертификата. Если этот параметр пропущен, отображается общее окно **открытия файла** , позволяющее выбрать соответствующий файл запроса сертификата.
 
@@ -77,7 +77,7 @@ certreq –submit certrequest.req certnew.cer certnew.pfx
 certreq -retrieve 20 MyCertificate.cer
 ```
 
-#### <a name="remarks"></a>Remarks
+#### <a name="remarks"></a>Примечания
 
 - Используйте certreq — получение *RequestId* для получения сертификата после его выдачи центром сертификации. Идентификатор *RequestId* ПКК может быть десятичным или шестнадцатеричным с префиксом 0x. он может быть серийным номером сертификата без префикса 0x. Его также можно использовать для получения сертификата, который когда-либо был выдан центром сертификации, включая отозванные или просроченные сертификаты, независимо от того, находится ли запрос сертификата в состоянии ожидания.
 
@@ -129,7 +129,7 @@ subject = CN=W2K8-BO-DC.contoso2.com
 | усиксистингкэйсет | Этот параметр используется, чтобы указать, что при создании запроса на сертификат следует использовать существующую пару ключей. Если для этого раздела задано значение TRUE, необходимо также указать имя для ключа Реневалцерт или KeyContainer. Не следует задавать экспортируемый ключ, так как нельзя изменить свойства существующего ключа. В этом случае материал ключа не создается при создании запроса на сертификат. | `true | false` | `UseExistingKeySet = true` |
 | кэйпротектион | Задает значение, указывающее, как защищен закрытый ключ перед использованием. | <ul><li>`XCN_NCRYPT_UI_NO_PROTCTION_FLAG -- 0`</li><li>`XCN_NCRYPT_UI_PROTECT_KEY_FLAG -- 1`</li><li>`XCN_NCRYPT_UI_FORCE_HIGH_PROTECTION_FLAG -- 2`</li></ul> | `KeyProtection = NCRYPT_UI_FORCE_HIGH_PROTECTION_FLAG` |
 | суппрессдефаултс | Задает логическое значение, указывающее, включаются ли в запрос расширения по умолчанию и атрибуты. Значения по умолчанию представлены идентификаторами объектов (OID). | `true | false` | `SuppressDefaults = true` |
-| FriendlyName | Понятное имя для нового сертификата. | text | `FriendlyName = Server1` |
+| FriendlyName | Понятное имя для нового сертификата. | Текст | `FriendlyName = Server1` |
 | ValidityPeriodUnits | Указывает число единиц, которое будет использоваться с Валидитипериод. Примечание. используется, только если `request type=cert` . | Числовой | `ValidityPeriodUnits = 3` |
 | ValidityPeriod | Валидитипериод должен быть одновременным периодом английского языка (США). Примечание. используется, только если тип запроса — CERT. | `Years |  Months | Weeks | Days | Hours | Minutes | Seconds` | `ValidityPeriod = Years` |
 
@@ -160,7 +160,7 @@ subject = CN=W2K8-BO-DC.contoso2.com
 | *continue* | | `continue = 1.3.6.1.5.5.7` |
 | *continue* | | `continue = 1.3.6.1.5.5.7.3.1` |
 | 2.5.29.19 | | `{text}ca=0pathlength=3` |
-| Критические важное | | `Critical=2.5.29.19` |
+| Critical | | `Critical=2.5.29.19` |
 | KeySpec | | <ul><li>`AT_NONE -- 0`</li><li>`AT_SIGNATURE -- 2`</li><li>`AT_KEYEXCHANGE -- 1`</ul></li> |
 | RequestType | | <ul><li>`PKCS10 -- 1`</li><li>`PKCS7 -- 2`</li><li>`CMC -- 3`</li><li>`Cert -- 4`</li><li>`SCEP -- fd00 (64768)`</li></ul> |
 | кэйусаже | | <ul><li>`CERT_DIGITAL_SIGNATURE_KEY_USAGE -- 80 (128)`</li><li>`CERT_NON_REPUDIATION_KEY_USAGE -- 40 (64)`</li><li>`CERT_KEY_ENCIPHERMENT_KEY_USAGE -- 20 (32)`</li><li>`CERT_DATA_ENCIPHERMENT_KEY_USAGE -- 10 (16)`</li><li>`CERT_KEY_AGREEMENT_KEY_USAGE -- 8`</li><li>`CERT_KEY_CERT_SIGN_KEY_USAGE -- 4`</li><li>`CERT_OFFLINE_CRL_SIGN_KEY_USAGE -- 2`</li><li>`CERT_CRL_SIGN_KEY_USAGE -- 2`</li><li>`CERT_ENCIPHER_ONLY_KEY_USAGE -- 1`</li><li>`CERT_DECIPHER_ONLY_KEY_USAGE -- 8000 (32768)`</li></ul> |
@@ -258,7 +258,7 @@ certreq -sign myrequest.req myrequest.req
 certreq -submit myrequest_sign.req myrequest_cert.cer
 ```
 
-#### <a name="remarks"></a>Remarks
+#### <a name="remarks"></a>Примечания
 
 - `certreq -sign`При использовании без каких-либо дополнительных параметров откроется диалоговое окно, в котором можно выбрать запрошенный файл (req, CMC, txt, Der, CER или CRT).
 

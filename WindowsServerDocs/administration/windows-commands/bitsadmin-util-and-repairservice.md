@@ -3,16 +3,16 @@ title: bitsadmin util и repairservice
 description: Справочная статья по команде битсадмин util and репаирсервице, которая устраняет известные проблемы в различных версиях службы BITS.
 ms.topic: reference
 ms.assetid: 2ac7baeb-4340-4186-bfcb-66478195378d
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 1f0a33030e6036eacdf39c29f7cd2e5e88775905
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 0bef08a3e0db8973de9370279144be5951445cc3
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89034702"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89630447"
 ---
 # <a name="bitsadmin-util-and-repairservice"></a>bitsadmin util и repairservice
 
@@ -31,7 +31,7 @@ bitsadmin /util /repairservice [/force]
 
 | Параметр | Описание |
 | --------- | ----------- |
-| /Force | Необязательный элемент. Удаляет и создает службу снова.|
+| /Force | Необязательный параметр. Удаляет и создает службу снова.|
 
 > [!NOTE]
 > Если служба BITS вновь создает службу, строка описания службы может быть задана как английская даже в локализованной системе.

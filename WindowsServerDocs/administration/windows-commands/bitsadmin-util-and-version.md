@@ -3,16 +3,16 @@ title: bitsadmin util и version
 description: Справочная статья по команде битсадмин util and Version, которая отображает версию службы BITS.
 ms.topic: reference
 ms.assetid: 98f17328-dfbd-4cbb-93c1-b8d424bc3f0a
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: f033f47f2a90d334512b9eb023eb6a7be44bcfc3
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 783b709840070847c90bbf9d2b4aebc0758a5742
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89034672"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89630412"
 ---
 # <a name="bitsadmin-util-and-version"></a>bitsadmin util и version
 

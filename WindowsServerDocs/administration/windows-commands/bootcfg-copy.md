@@ -3,16 +3,16 @@ title: bootcfg copy
 description: Справочная статья по команде bootcfg Copy, которая создает копию существующей записи загрузки, в которую можно добавить параметры командной строки.
 ms.topic: reference
 ms.assetid: 2a236c2a-8675-444d-b695-9cbc9aff643b
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 03ecf61074b19f161ea98111f3500f5920c72de9
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 14d3a124c1c52b985ecff96da28e828f73abc1e3
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89034542"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89630344"
 ---
 # <a name="bootcfg-copy"></a>bootcfg copy
 

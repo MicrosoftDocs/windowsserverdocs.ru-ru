@@ -3,16 +3,16 @@ title: bitsadmin replaceremoteprefix
 description: Справочная статья по команде битсадмин реплацеремотепрефикс, при необходимости которая изменяет удаленный URL-адрес для всех файлов в задании с *олдпрефикс* на *невпрефикс*.
 ms.topic: reference
 ms.assetid: d0e0abb1-bdb4-4c74-abbc-16c809f5fd81
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 21c1ede5b05a80ba80b1bd470065e914fb353c3c
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 83c517a9126a3b78dfc919af5663e939aceee186
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89026332"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89631122"
 ---
 # <a name="bitsadmin-replaceremoteprefix"></a>bitsadmin replaceremoteprefix
 

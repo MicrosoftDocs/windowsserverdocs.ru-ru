@@ -3,16 +3,16 @@ title: bitsadmin getsecurityflags
 description: Справочная статья по команде битсадмин жетсекуритифлагс, которая сообщает о флагах безопасности HTTP для перенаправления URL-адресов и проверках, выполняемых на сертификате сервера во время перемещения.
 ms.topic: reference
 ms.assetid: c2e73519-34f4-487b-af11-97d5d08ef9bb
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 39e5df028d687de22e8e6bf54731bf0067cd5319
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: ce0637527b39ebf05546b62671ce11a87151b572
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89034862"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89631704"
 ---
 # <a name="bitsadmin-getsecurityflags"></a>bitsadmin getsecurityflags
 

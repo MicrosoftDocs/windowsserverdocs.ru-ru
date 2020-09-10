@@ -3,16 +3,16 @@ title: bitsadmin peercaching и getconfigurationflags
 description: Справочная статья для команды битсадмин и сетконфигуратионфлагс, которая устанавливает флаги конфигурации, определяющие, может ли компьютер передавать содержимое одноранговым узлам, а также может ли он скачивать содержимое с одноранговых узлов.
 ms.topic: reference
 ms.assetid: ff0a2b49-66e3-4d40-824c-6a3816055d2e
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 0027fa5c926f09b95541906f168e852292b19aaf
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 73daad6a915ee39f166d54efd79290ce92df60db
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89026530"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89631348"
 ---
 # <a name="bitsadmin-peercaching-and-setconfigurationflags"></a>bitsadmin peercaching и getconfigurationflags
 
@@ -29,7 +29,7 @@ bitsadmin /peercaching /setconfigurationflags <job> <value>
 | Параметр | Описание |
 | -------------- | -------------- |
 | задание | Отображаемое имя задания или идентификатор GUID. |
-| значение | Целое число без знака со следующей интерпретацией битов в двоичном представлении:<ul><li>Чтобы разрешить загрузку данных задания с однорангового узла, установите наименьший значащий бит.</li><li>Чтобы разрешить передачу данных задания одноранговым узлам, установите второй бит справа.</li></ul>|
+| value | Целое число без знака со следующей интерпретацией битов в двоичном представлении:<ul><li>Чтобы разрешить загрузку данных задания с однорангового узла, установите наименьший значащий бит.</li><li>Чтобы разрешить передачу данных задания одноранговым узлам, установите второй бит справа.</li></ul>|
 
 ## <a name="examples"></a>Примеры
 

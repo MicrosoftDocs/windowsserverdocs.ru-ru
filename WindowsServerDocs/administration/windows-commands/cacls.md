@@ -3,16 +3,16 @@ title: cacls
 description: Справочная статья по команде cacls. Эта команда устарела и не гарантируется, что она будет поддерживаться в будущих выпусках Windows.
 ms.topic: reference
 ms.assetid: b5bdbaaa-4557-48b8-80df-e75ee0d2f27d
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 8261e9711cee85ad1d59ff71f9cd8ac55e63fab8
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 32be46658f47b534c80a9d9a712914aa6d878792
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89034282"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89630025"
 ---
 # <a name="cacls"></a>cacls
 
@@ -31,7 +31,7 @@ cacls <filename> [/t] [/m] [/l] [/s[:sddl]] [/e] [/c] [/g user:<perm>] [/r user 
 
 | Параметр | Описание |
 | --------- | ----------- |
-| `<filename>` | Обязательный. Отображает списки управления доступом для указанных файлов. |
+| `<filename>` | Обязательный элемент. Отображает списки управления доступом для указанных файлов. |
 | /t | Изменяет списки управления доступом для указанных файлов в текущем каталоге и во всех подкаталогах. |
 | /m | Изменяет списки управления доступом томов, подключенных к каталогу. |
 | /l | Работает с самой символьной ссылкой вместо целевого объекта. |
@@ -57,7 +57,7 @@ cacls <filename> [/t] [/m] [/l] [/s[:sddl]] [/e] [/c] [/g user:<perm>] [/r user 
 | ЭЛЕМЕНТ IO | Только во вложенных папках. |
 | Oi IO | Только файлы. |
 
-#### <a name="remarks"></a>Remarks
+#### <a name="remarks"></a>Примечания
 
 - Можно использовать подстановочные знаки (**?** и **&#42;**) для указания нескольких файлов.
 

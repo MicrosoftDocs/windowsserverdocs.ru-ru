@@ -3,16 +3,16 @@ title: change user
 description: Справочная статья по команде change user, которая изменяет режим установки для сервера узла сеансов удаленный рабочий стол.
 ms.topic: reference
 ms.assetid: 6202f024-8cf5-411e-89b1-ee37ff46499d
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 7c473349b75a5963cb66997ea568f5634eea194d
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 59e290b3c80bfb85e5cef9ae3cffb20c121f71b6
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89031152"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89629852"
 ---
 # <a name="change-user"></a>change user
 
@@ -38,7 +38,7 @@ change user {/execute | /install | /query}
 | /Query | Отображает текущее значение для сопоставления ini-файла. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Remarks
+#### <a name="remarks"></a>Примечания
 
 - Прежде чем устанавливать приложение для создания ini-файлов для приложения в системном каталоге, используйте параметр " **Сменить пользователя/install** ". Эти файлы используются в качестве источника при создании INI-файлов конкретного пользователя. После установки приложения используйте параметр **изменить пользователя/Execute** , чтобы вернуться к стандартному сопоставлению ini-файлов.
 

@@ -3,16 +3,16 @@ title: bitsadmin help
 description: Справочная статья по команде битсадмин Help, которая отображает сведения об использовании командной строки.
 ms.topic: reference
 ms.assetid: c30d89e4-25a3-4974-a002-37138d01e077
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 4f7fbb9ff4d4b693dea826dbd2707d63b5379b39
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 56c9738bffce44ca1c5504d6778b07c99f2465cb
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89028602"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89631531"
 ---
 # <a name="bitsadmin-help"></a>bitsadmin help
 

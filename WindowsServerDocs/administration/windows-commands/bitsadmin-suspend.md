@@ -3,16 +3,16 @@ title: bitsadmin suspend
 description: Справочная статья по команде битсадмин Suspend, которая приостанавливает указанное задание.
 ms.topic: reference
 ms.assetid: f9d42500-7bea-4aa8-a9f0-c22f6ed3e73b
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: ad4ca877ac9e5548f3d3ec830f8fc2822f781218
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 0827f7fe42a41d981c165e41b1a8af71ec5d7472
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89033392"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89630598"
 ---
 # <a name="bitsadmin-suspend"></a>bitsadmin suspend
 

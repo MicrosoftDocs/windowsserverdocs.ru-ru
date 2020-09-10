@@ -3,16 +3,16 @@ title: bitsadmin getproxyusage
 description: Справочная статья по команде битсадмин жетпроксюсаже, которая получает параметр использования прокси-сервера для указанного задания.
 ms.topic: reference
 ms.assetid: f940a70e-3b02-497e-a47f-b37b905c299e
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 423168d72a88ecad90fd8de43eab3cb4486a750b
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: bdfcfa92a5886857920d56a0028a450ee9a3e521
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89024408"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89631729"
 ---
 # <a name="bitsadmin-getproxyusage"></a>bitsadmin getproxyusage
 

@@ -3,16 +3,16 @@ title: bitsadmin reset
 description: Справочная статья по команде битсадмин Reset, которая отменяет все задания в очереди на перемещение, принадлежащие текущему пользователю.
 ms.topic: reference
 ms.assetid: 0e4f9d1d-072c-493f-8d7a-f6d713c3ef29
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 6ab8c1e81fa2ede43897e05778b974b0ff094311
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: baf7aa52c92be35c1439d1fbfaa1e7409b58dcd9
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89026322"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89631116"
 ---
 # <a name="bitsadmin-reset"></a>bitsadmin reset
 
@@ -31,7 +31,7 @@ bitsadmin /reset [/allusers]
 
 | Параметр | Описание |
 | -------------- | -------------- |
-| /аллусерс | Необязательный элемент. Отменяет все задания в очереди, принадлежащие текущему пользователю. Для использования этого параметра необходимо иметь права администратора. |
+| /аллусерс | Необязательный параметр. Отменяет все задания в очереди, принадлежащие текущему пользователю. Для использования этого параметра необходимо иметь права администратора. |
 
 ## <a name="examples"></a>Примеры
 

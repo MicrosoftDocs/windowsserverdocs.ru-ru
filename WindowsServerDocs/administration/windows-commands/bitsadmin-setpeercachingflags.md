@@ -3,16 +3,16 @@ title: bitsadmin setpeercachingflags
 description: Справочная статья по команде битсадмин сетпиркачингфлагс, которая устанавливает флаги, определяющие, могут ли файлы задания кэшироваться и обслуживаться одноранговым узлам, а также может ли задание скачивать содержимое с одноранговых узлов.
 ms.topic: reference
 ms.assetid: 3f54a127-fb68-49a5-b843-664ec833df67
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 1305d8d865f51556f4b518c7972eaff4ca9ec3e5
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 59784ef9220abf1954b611524ba48b006550c1cd
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89026212"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89630729"
 ---
 # <a name="bitsadmin-setpeercachingflags"></a>bitsadmin setpeercachingflags
 
@@ -29,7 +29,7 @@ bitsadmin /setpeercachingflags <job> <value>
 | Параметр | Описание |
 | --------- | ----------- |
 | задание | Отображаемое имя задания или идентификатор GUID. |
-| значение | Целое число без знака, включая:<ul><li>**1.** задание может скачивать содержимое с одноранговых узлов.</li><li>**2.** файлы задания могут кэшироваться и обслуживаться одноранговыми узлами.</li></ul> |
+| value | Целое число без знака, включая:<ul><li>**1.** задание может скачивать содержимое с одноранговых узлов.</li><li>**2.** файлы задания могут кэшироваться и обслуживаться одноранговыми узлами.</li></ul> |
 
 ## <a name="examples"></a>Примеры
 

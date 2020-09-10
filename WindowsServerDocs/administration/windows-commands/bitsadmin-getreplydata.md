@@ -3,16 +3,16 @@ title: bitsadmin getreplydata
 description: Справочная статья по команде битсадмин жетреплидата, которая получает данные отправки и ответа сервера в шестнадцатеричном формате для задания.
 ms.topic: reference
 ms.assetid: 819f97d5-b255-4b2d-9f63-0daa73915434
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 4e00a17e4633c9b065d03684cb0c953d1f6db811
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: a15dc59d9487ed928954f8d5cbd47828c2b58291
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89031342"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89631720"
 ---
 # <a name="bitsadmin-getreplydata"></a>bitsadmin getreplydata
 

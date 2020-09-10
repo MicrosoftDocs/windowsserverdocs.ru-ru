@@ -3,16 +3,16 @@ title: bitsadmin getstate
 description: Справочная статья по команде битсадминического состояния, которая получает состояние указанного задания.
 ms.topic: reference
 ms.assetid: 1252d6cf-14ca-44df-beb2-930ff011f297
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 7267afde1062c1b8d3383ea92f02d18728650136
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 2faf05bd245f0b59eb9f10d0d46d96e8e1d3e11c
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89034822"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89631656"
 ---
 # <a name="bitsadmin-getstate"></a>bitsadmin getstate
 

@@ -3,16 +3,16 @@ title: bitsadmin peers и discover
 description: Справочная статья для битсадминных узлов и команды обнаружения, которая снова обнаруживает одноранговые узлы.
 ms.topic: reference
 ms.assetid: 254fa0a3-4501-4272-a020-6ccdb3fcb29b
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 538c7116bfae8171ec185470d1f59772d40b09e2
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 1fecce01d71b305f2552d84f93867609aa33294b
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89026502"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89631291"
 ---
 # <a name="bitsadmin-peers-and-discover"></a>bitsadmin peers и discover
 
