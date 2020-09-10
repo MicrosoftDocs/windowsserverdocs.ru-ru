@@ -3,16 +3,16 @@ title: Scwcmd
 description: Справочная статья для * * * *-
 ms.topic: reference
 ms.assetid: 188ae881-c7d4-4a7a-b967-8fdc79f5f345
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 17ac35cf1c2de683b6a7777743e817a539425ebc
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 4095d022a9bd84033eebf63b63420dc400f2c594
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89037482"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89636878"
 ---
 # <a name="scwcmd"></a>Scwcmd
 

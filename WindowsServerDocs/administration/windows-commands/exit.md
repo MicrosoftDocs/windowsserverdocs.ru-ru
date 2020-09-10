@@ -3,16 +3,16 @@ title: exit
 description: Справочная статья для выхода, которая выходит из интерпретатора команд.
 ms.topic: reference
 ms.assetid: d3cee4a2-6210-46f0-b8e4-7381c3c4e530
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 9e065a25f339a093492a05102b10455b11da5ecb
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: c1fbf37b80c55a9620c2e72d20ea13c6766b7da9
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89035862"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89635951"
 ---
 # <a name="exit"></a>exit
 

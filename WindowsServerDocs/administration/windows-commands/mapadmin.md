@@ -3,16 +3,16 @@ title: mapadmin
 description: Справочная статья по команде мападмин, которая управляет сопоставление имен пользователей для служб Microsoft для сетевой файловой системы.
 ms.topic: reference
 ms.assetid: b17332c7-8622-4223-9c43-2fb9cf4d992d
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 8b62e31dbe53c5e2b16093bb222b8129d3cca087
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 561215bbffc12c725e82a066824206131f4859da
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89033952"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89636530"
 ---
 # <a name="mapadmin"></a>mapadmin
 
@@ -57,7 +57,7 @@ mapadmin [<computer>] [-u <user> [-p <password>]] listdomainmaps
 | ремоведомаинмап | Удаляет простое сопоставление между доменом Windows и NIS-доменом. Для этого параметра доступны следующие параметры и аргумент:<ul><li>**-d `<windowsdomain>` :** указывает домен Windows для удаляемой таблицы.</li><li>**-y `<NISdomain>` :** указывает домен NIS удаляемой таблицы.</li><li>**все:** Указывает, что необходимо удалить все простые карты между доменами Windows и NIS. Это также приведет к удалению любой простой схемы между доменом Windows и файлами паролей и групп.</li></ul> |
 | листдомаинмапс | Список доменов Windows, сопоставленных с доменами NIS или файлами паролей и групп. |
 
-#### <a name="remarks"></a>Remarks
+#### <a name="remarks"></a>Примечания
 
 - Если не указать примечанием, команда **мападмин** отображает текущие параметры для сопоставление имен пользователей.
 

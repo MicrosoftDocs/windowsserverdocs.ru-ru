@@ -3,16 +3,16 @@ title: recover
 description: Справочная статья по команде Recover, которая восстанавливает читаемые данные с поврежденного или дефектного диска.
 ms.topic: reference
 ms.assetid: cf9be2e3-90c8-4773-a201-dc503b91948e
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: ad9d2f665bccca1413830e29c082c05a37d93a26
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 9bb402c5821ae8caa0a83d132a7fbeef9c88b4bd
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89037142"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89637307"
 ---
 # <a name="recover"></a>recover
 

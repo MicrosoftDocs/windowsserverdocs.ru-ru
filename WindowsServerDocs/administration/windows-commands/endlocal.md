@@ -3,16 +3,16 @@ title: endlocal
 description: Справочная статья по команде endlocal, которая завершает локализацию изменений среды в пакетном файле и восстанавливает значения переменных среды перед выполнением соответствующей команды setlocal.
 ms.topic: reference
 ms.assetid: 765fae3c-0c0a-4639-99a4-cf613489b949
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 82fa050ef9f2ed35368a6eaf356c6aa6f70e5465
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 4220d143be2e3af9378854aa1a649c2358b44560
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89030702"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89636110"
 ---
 # <a name="endlocal"></a>endlocal
 
@@ -30,7 +30,7 @@ endlocal
 | --------- | ----------- |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Remarks
+#### <a name="remarks"></a>Примечания
 
 - Команда **endlocal** не действует вне сценария или пакетного файла.
 

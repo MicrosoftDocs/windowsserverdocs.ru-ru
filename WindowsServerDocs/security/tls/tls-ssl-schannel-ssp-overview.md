@@ -3,16 +3,16 @@ title: Обзор TLS/SSL (поставщик общих служб Schannel)
 description: Безопасность Windows Server
 ms.topic: article
 ms.assetid: 1b7b0432-1bef-4912-8c9a-8989d47a4da9
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 05/16/2018
-ms.openlocfilehash: 512dd20e658f610ac9de7247380eed5d2aed54f6
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 21ad7977039eda311dd6f093fc53c09c08cf0317
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87989471"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89637844"
 ---
 # <a name="tlsssl-overview-schannel-ssp"></a>Обзор TLS/SSL (поставщик общих служб Schannel)
 

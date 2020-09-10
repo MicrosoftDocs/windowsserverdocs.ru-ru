@@ -3,16 +3,16 @@ title: Анализ команду scwcmd
 description: Справочная статья для * * * *-
 ms.topic: reference
 ms.assetid: 0259271b-be5b-48d7-a51d-8b9b6786efb4
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: c839f8abdd3f5913b3ade7a8228ce5d070d0c278
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 9ae0e162ca97c61bcbbc4026d3355302ef264ae4
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89027992"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89637027"
 ---
 # <a name="scwcmd-analyze"></a>Scwcmd: analyze
 
@@ -43,7 +43,7 @@ scwcmd analyze [[[/m:<ComputerName> | /ou:<Ou>] /p:<Policy>] | /i:<ComputerList>
 |/e|Регистрирует событие в журнале событий приложений, если обнаружено несоответствие.|
 |/?|Отображение справки в командной строке.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Примечания
 
 Scwcmd.exe доступны только на компьютерах под управлением Windows Server 2008 R2, Windows Server 2008 или Windows Server 2003.
 

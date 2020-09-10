@@ -3,16 +3,16 @@ title: rwinsta
 description: Узнайте, как сбросить сессионф узлов удаленных рабочих столов из командной строки.
 ms.topic: reference
 ms.assetid: 82bee0e4-1c2c-43fe-afd3-04a6ce0f4518
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: db344bb36f2967cb78b4fb97eb5143ff14275d5e
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: bfa5f1e0e6fd7bd7b9171bb021925634fcb11b5a
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89037572"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89637208"
 ---
 # <a name="rwinsta"></a>rwinsta
 
@@ -23,7 +23,7 @@ ms.locfileid: "89037572"
 > [!NOTE]
 > Чтобы узнать о новых возможностях последней версии, см. статью [новые возможности службы удаленных рабочих столов в Windows server 2012](/previous-versions/orphan-topics/ws.11/hh831527(v=ws.11)) в библиотеке TechNet по Windows Server.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Примечания
 Эта команда совпадает с командой **сброса сеанса** .
 
 ## <a name="additional-references"></a>Дополнительные ссылки

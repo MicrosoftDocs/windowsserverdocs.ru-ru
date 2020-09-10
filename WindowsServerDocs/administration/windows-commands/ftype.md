@@ -3,16 +3,16 @@ title: ftype
 description: Справочная статья по команде ftype, которая отображает или изменяет тип файла, используемый в сопоставлении расширений имен файлов.
 ms.topic: reference
 ms.assetid: 6fb53cee-9bed-44dd-af5d-bc7cec1dd114
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 76e85356d02c1b4b157608eaad6e05550adb3719
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: db5781eccb4fc54fea42586b5e7aab779509bffd
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89035552"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89636650"
 ---
 # <a name="ftype"></a>ftype
 
@@ -36,7 +36,7 @@ ftype [<filetype>[=[<opencommandstring>]]]
 | `<opencommandstring>` | Указывает командную строку открытия, используемую при открытии файлов указанного типа.|
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Remarks
+#### <a name="remarks"></a>Примечания
 
 В следующей таблице описано, как команда **ftype** заменяет переменные в строке открытой команды:
 

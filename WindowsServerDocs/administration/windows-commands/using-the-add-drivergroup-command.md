@@ -3,16 +3,16 @@ title: Add-Дриверграуп
 description: Справочная статья по Add-Дриверграуп, которая добавляет группу драйверов на сервер.
 ms.topic: reference
 ms.assetid: 2a92fe8f-03f9-462a-b99e-f23275259807
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: ab211593adb3e39ad82c7acc0cf7ac8b511ef3ea
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 62a82c410e304408cbe28d73f9f482871519cf74
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89032159"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89636772"
 ---
 # <a name="add-drivergroup"></a>Add-Дриверграуп
 

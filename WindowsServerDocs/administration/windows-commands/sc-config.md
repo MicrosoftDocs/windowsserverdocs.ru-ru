@@ -3,16 +3,16 @@ title: Конфигурация Sc.exe
 description: Сведения об изменении конфигураций служб с помощью служебной программы sc.exe
 ms.topic: reference
 ms.assetid: ad4d68a6-efe5-452b-8501-7f1f1c552a4a
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 06/05/2018
-ms.openlocfilehash: f3522296c74b31ae89da25ec22b79523bb652148
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 55432910455896434a1857d17016519bedb51caf
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89037562"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89637137"
 ---
 # <a name="scexe-config"></a>Конфигурация Sc.exe
 
@@ -42,7 +42,7 @@ sc.exe [<ServerName>] config [<ServiceName>] [type= {own | share | kernel | file
 |пароль = \<Password>|Указывает пароль. Это необходимо, если используется учетная запись, отличная от учетной записи LocalSystem.|
 |/?|Отображение справки в командной строке.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Примечания
 
 -   Для каждого параметра командной строки (параметр) знак равенства является частью имени параметра.
 -   Между параметром и его значением требуется пробел (например, **Type =** an). Если пробел не указан, операция завершится ошибкой.

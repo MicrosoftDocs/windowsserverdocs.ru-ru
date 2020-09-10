@@ -3,16 +3,16 @@ title: Преобразование команду scwcmd
 description: Справочная статья для * * * *-
 ms.topic: reference
 ms.assetid: 640dd892-0bb9-416d-8318-60a26605bcf4
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 069629c4025dadd6943659649025af57f019907c
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 0ac70c1d8f19c0824e1ea432fa719875a0d89fea
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89037502"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89636936"
 ---
 # <a name="scwcmd-transform"></a>Scwcmd: transform
 
@@ -41,7 +41,7 @@ scwcmd transform /p:<Policyfile.xml> /g:<GPODisplayName>
 |/g\<GPODisplayName>|Указывает отображаемое имя объекта групповой политики. Этот параметр должен быть указан.|
 |/?|Отображение справки в командной строке.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Примечания
 
 Scwcmd.exe доступны только на компьютерах под управлением Windows Server 2008 R2, Windows Server 2008 или Windows Server 2003.
 

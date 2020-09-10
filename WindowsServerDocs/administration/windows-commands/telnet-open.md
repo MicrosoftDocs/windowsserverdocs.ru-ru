@@ -3,16 +3,16 @@ title: telnet open
 description: Справочная статья по Telnet Open, которая подключается к серверу Telnet.
 s.topic: article
 ms.assetid: e30ad68c-2366-4754-ac36-311a2392902a
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 11498b2d2f38b96725608e6e72d30d0d563fd88a
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 892d797c4b56acb46e8119237fd38296e4ae411c
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87881708"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89636781"
 ---
 # <a name="telnet-open"></a>Telnet: открыть
 
@@ -26,7 +26,7 @@ o[pen] <hostname> [<Port>]
 ```
 #### <a name="parameters"></a>Параметры
 
-| Параметр  |                                        Описание:                                         |
+| Параметр  |                                        Описание                                         |
 |------------|--------------------------------------------------------------------------------------------|
 | <hostname> |                         Указывает имя или IP-адрес компьютера.                         |
 |  [<Port>]  | Указывает TCP-порт, который прослушивает сервер Telnet. Значение по умолчанию — TCP-порт 23. |

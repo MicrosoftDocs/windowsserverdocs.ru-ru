@@ -3,16 +3,16 @@ title: Sc.exe создать
 description: Узнайте, как зарегистрировать новые службы с помощью Service Manager Windows, используя служебную программу sc.exe.
 ms.topic: reference
 ms.assetid: 59416460-0661-4fef-85cc-73e9d8f4beb4
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 8a022e3b855496825207f4c94f63d20d4530e92b
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: ede0c21bf2679925db71666631c8752e5c930afa
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89037552"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89637109"
 ---
 # <a name="scexe-create"></a>Sc.exe создать
 
@@ -42,7 +42,7 @@ sc.exe [<ServerName>] create [<ServiceName>] [type= {own | share | kernel | file
 |пароль = \<Password>|Указывает пароль. Это необходимо, если используется учетная запись, отличная от LocalSystem.|
 |/?|Отображение справки в командной строке.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Примечания
 
 -   Для каждого параметра командной строки знак равенства является частью имени параметра.
 -   Между параметром и его значением требуется пробел (например, **Type =** an). Если пространство не указано, операция завершится ошибкой.

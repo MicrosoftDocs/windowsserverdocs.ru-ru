@@ -3,16 +3,16 @@ title: ktpass
 description: Справочная статья по команде ктпасс, которая настраивает имя участника на сервере для узла или службы в AD DS и создает keytab-файл, содержащий общий секретный ключ службы.
 ms.topic: reference
 ms.assetid: 47087676-311e-41f1-8414-199740d01444
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 3ef7e2ba1aa84faa44cf4bf77e842e8d3bcdc235
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 65ec74f1e89cd20973d4418659eb3c8de6a5bf93
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89028242"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89636603"
 ---
 # <a name="ktpass"></a>ktpass
 
@@ -65,7 +65,7 @@ ktpass
 | `{-|+}setpass <password>` | Задает пароль пользователя при его предоставлении. Если используется рндпасс, вместо него создается случайный пароль. |
 | /? | Отображает справку для этой команды. |
 
-#### <a name="remarks"></a>Remarks
+#### <a name="remarks"></a>Примечания
 
 - Службы, работающие в системах, которые не работают под управлением операционной системы Windows, можно настроить с учетными записями экземпляра службы в AD DS. Это позволяет любому клиенту Kerberos проходить проверку подлинности в службах, не работающих под управлением операционной системы Windows, с помощью Windows Кдкс.
 

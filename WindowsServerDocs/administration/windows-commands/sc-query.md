@@ -3,16 +3,16 @@ title: Запрос Sc.exe
 description: Узнайте, как получить сведения о службах, драйверах, типах служб или типах драйверов с помощью служебной программы sc.exe
 ms.topic: reference
 ms.assetid: ac365f89-4b20-4de6-a582-b204c5e7d0eb
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 9b3d7967597724dfae4ab5a12ecee9698a43236f
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: e961badf867237c0725441e138bf4f0ea948155f
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89037532"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89637042"
 ---
 # <a name="scexe-query"></a>Запрос Sc.exe
 
@@ -38,7 +38,7 @@ sc.exe [<ServerName>] query [<ServiceName>] [type= {driver | service | all}] [ty
 |  Группа = \<GroupName>   |                                                                             Указывает группу служб для перечисления. По умолчанию перечисляются все группы (* * Group = * *).                                                                              |
 |           /?           |                                                                                                             Отображение справки в командной строке.                                                                                                              |
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Примечания
 
 - Без пробела между параметром и его значением (то есть **Type = владеет**, а не **типом = владеет**) операция завершится ошибкой.
 - Операция **запроса** отображает следующие сведения о службе: service_name (имя подраздела реестра службы), тип, состояние (а также недоступные состояния), WIN32_EXIT_B, SERVICE_EXIT_B, контрольная точка и WAIT_HINT.

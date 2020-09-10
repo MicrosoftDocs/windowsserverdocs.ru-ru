@@ -3,16 +3,16 @@ title: fveupdate
 description: Справочная статья по средству фвеупдате, которое является внутренним средством, используемым программой установки при обновлении компьютера.
 ms.topic: reference
 ms.assetid: f2603607-9421-4e8d-b9bf-c5519814b39f
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 0ff9d1e1d661b1b06f560ae727ced6e6f92f38f4
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: c3e3cc3264e38c3432d8f6010f71a15e2e13c8f3
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89035532"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89636611"
 ---
 # <a name="fveupdate"></a>fveupdate
 

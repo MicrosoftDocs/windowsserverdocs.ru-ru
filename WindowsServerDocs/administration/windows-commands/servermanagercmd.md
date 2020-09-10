@@ -3,16 +3,16 @@ title: Servermanagercmd
 description: Справочная статья для * * * *-
 ms.topic: reference
 ms.assetid: 507c4b87-8e13-4872-8b34-0c7508eecbc1
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 07/11/2018
-ms.openlocfilehash: d4edc737923b1e28f80a9d0f6861a358243dc77a
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: d033959075f8ff5dd6e70035a68ea6dc2bd0ef3b
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89037422"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89637790"
 ---
 # <a name="servermanagercmd"></a>Servermanagercmd
 
@@ -44,7 +44,7 @@ servermanagercmd -version
 |                     -help                      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            Отображает справку в окне командной строки. Можно также использовать краткую форму **-?**.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 |                    -version                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            Отображает номер версии диспетчер сервера. Можно также использовать краткую форму **-v**.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Примечания
 Программу **ServerManagerCmd** использовать не рекомендуется, и в будущих выпусках Windows она не гарантируется. Рекомендуется использовать командлеты Windows PowerShell, доступные для диспетчер сервера, если диспетчер сервера работает на компьютерах под управлением Windows Server 2008 R2. Дополнительные сведения см. в разделе [командлеты Диспетчер сервера](https://go.microsoft.com/fwlink/?LinkID=137653).
 Программу ServerManagerCmd можно запустить из любого каталога на локальном диске сервера. Необходимо быть членом группы администраторов на сервере, на котором требуется установить или удалить программное обеспечение.
 

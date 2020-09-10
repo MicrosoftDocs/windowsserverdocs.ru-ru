@@ -3,16 +3,16 @@ title: doskey
 description: Справочная статья по команде Doskey и Doskey.exe, которая вызывает ранее указанные команды командной строки, редактирует командные строки и создает макросы.
 ms.topic: reference
 ms.assetid: 4874fd43-d5ea-45f3-ae24-388ae925ed76
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 8cda337419253ebdb9a390e5d8ba3bfa07fd1a91
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: ed732f7b90f66fa5c0df595480f34f028d912aa8
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89030792"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89636248"
 ---
 # <a name="doskey"></a>doskey
 
@@ -41,7 +41,7 @@ doskey [/reinstall] [/listsize=<size>] [/macros:[all | <exename>] [/history] [/i
 | `<macroname>`=[`<text>`] | Создает макрос, выполняющий команды, указанные в *тексте*. *ИмяМакроса* задает имя, которое необходимо назначить макросу. *Текст* указывает команды, которые необходимо записать. Если *текст* не указан, *макрос имяМакроса* удаляет все назначенные команды. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Remarks
+#### <a name="remarks"></a>Примечания
 
 - Некоторые интерактивные программы, такие как отладчики программ или программы передачи файлов (FTP), автоматически используют Doskey.exe. Чтобы использовать Doskey.exe, программа должна быть процессом консоли и использовать буферизованный вход. Назначения программных клавиш переопределяют назначения клавиш **Doskey** . Например, если программа использует для функции клавишу F7, вы не сможете получить журнал команд **Doskey** во всплывающем окне.
 

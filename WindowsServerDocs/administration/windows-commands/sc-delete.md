@@ -3,16 +3,16 @@ title: Sc.exe удалить
 description: Узнайте, как отменить регистрацию служб с помощью служебной программы sc.exe
 ms.topic: reference
 ms.assetid: 2fe94fb3-e4d1-47b5-b999-39995ecbb644
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 09a3f43824c3e0c895331326341b92c7c6aa5727
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 8ce9eb203fd9db68629ce5412836eb694eb67162
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89037542"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89637100"
 ---
 # <a name="scexe-delete"></a>Sc.exe удалить
 
@@ -34,7 +34,7 @@ sc.exe [<ServerName>] delete [<ServiceName>]
 |\<ServiceName>|Указывает имя службы, возвращенное операцией **жеткэйнаме** .|
 |?|Отображение справки в командной строке.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Примечания
 
 Не рекомендуется использовать sc.exe для удаления встроенных служб операционной системы, таких как DHCP, DNS или службы IIS. Сведения об установке, удалении и перенастройке ролей операционной системы, служб и компонентов см. в разделе [Установка и удаление ролей, служб ролей или компонентов](/WindowsServerDocs/administration/server-manager/install-or-uninstall-roles-role-services-or-features.md) .
 

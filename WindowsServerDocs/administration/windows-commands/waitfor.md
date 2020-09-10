@@ -3,16 +3,16 @@ title: waitfor
 description: Справочная статья по WAITFOR, которая отправляет или ожидает сигнал в системе. **Инструкция WAITFOR** используется для синхронизации компьютеров по сети.
 ms.topic: reference
 ms.assetid: a48ef70d-4d28-4035-b6b0-7d7b46ac2157
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 1a55629f6715e8b1d2e1aaede4153f74ac05ac98
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 1dec723db998c26796f5f61929073e12903c045b
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89022917"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89637898"
 ---
 # <a name="waitfor"></a>waitfor
 
@@ -41,7 +41,7 @@ waitfor [/t <Timeout>] <SignalName>
 |     \<SignalName>     |                                                Указывает сигнал, который **инструкция WAITFOR** ожидает или отправляет. *Сигналнаме* не учитывает регистр.                                                 |
 |          /?           |                                                                             Отображение справки в командной строке.                                                                             |
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Примечания
 
 -   Длина имен сигналов не может превышать 225 символов. Допустимые символы: a – z, A – Z, 0-9 и расширенный набор символов ASCII (128-255).
 -   Если параметр **/s**не используется, сигнал передается всем системам в домене. Если используется параметр **/s**, сигнал отправляется только в указанную систему.

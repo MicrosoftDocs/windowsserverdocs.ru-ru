@@ -3,16 +3,16 @@ title: Remove-Мултикасттрансмиссион
 description: Справочная статья по Remove-Мултикасттрансмиссион, которая отключает многоадресную передачу изображения.
 ms.topic: reference
 ms.assetid: 9a7f5c31-bfbf-425d-9129-a6f9173fe83d
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: cfb3a83c975aa14752e2a9538079f67a5dd94b8e
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 680894f9a8f5d73d4bc71511ce006f82f04d0b5c
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89023128"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89636401"
 ---
 # <a name="using-the-remove-multicasttransmission-command"></a>Использование команды Remove-Мултикасттрансмиссион
 
