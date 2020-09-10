@@ -3,16 +3,16 @@ title: ksetup mapuser
 description: Справочная статья по команде ksetup мапусер, которая сопоставляет имя участника Kerberos с учетной записью.
 ms.topic: reference
 ms.assetid: 84113e6e-89ff-488a-9cd0-f14bbf23b543
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: de3eeafdcd1ef94bf1e6c50009742b2981d0d7dc
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: e8e676218455147e68f84b42bcbad2dcd7285a01
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89025468"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89622797"
 ---
 # <a name="ksetup-mapuser"></a>ksetup mapuser
 
@@ -31,7 +31,7 @@ ksetup /mapuser <principal> <account>
 | `<principal>` | Указывает полное доменное имя любого основного пользователя. Например, mike@corp.CONTOSO.COM. Если параметр учетной записи не указан, сопоставление удаляется для указанного участника. |
 | `<account>` | Указывает любую учетную запись или имя группы безопасности, которая существует на этом компьютере, например **гость**, **Пользователи домена**или **Администратор**. Если этот параметр пропущен, сопоставление удаляется для указанного участника. |
 
-#### <a name="remarks"></a>Remarks
+#### <a name="remarks"></a>Примечания
 
 - Учетную запись можно определить отдельно, например, в качестве **гостей домена**, или можно использовать подстановочный знак (*) для включения всех учетных записей.
 

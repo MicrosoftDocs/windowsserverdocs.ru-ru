@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 07d0c4c6-3e92-4969-82b8-105e46ab8d97
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: 9013d63d0fbedfd679b8d717b9501f4af567b6f5
-ms.sourcegitcommit: 34f9577ef32cbdc7ef96040caabc9d83517f9b79
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: bf5b6027c934c1dec9916ff08995a7f096a2b8bd
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "89554417"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89622445"
 ---
 # <a name="support-for-larger-deployments"></a>Поддержка для более крупных развертываний
 
@@ -59,6 +59,6 @@ Windows Server 2016 Essentials поддерживает 500 пользовате
 > [!NOTE]
 > Хотя поддерживаемое ограничение для пользователей и устройств увеличено для роли сервера Windows Server Essentials, поддерживаемый предел для резервного копирования клиента остается в 75.
 
-<a name="see-also"></a>Дополнительно
+<a name="see-also"></a>См. также раздел
 --------
 [Начало работы с Windows Server Essentials](get-started.md)

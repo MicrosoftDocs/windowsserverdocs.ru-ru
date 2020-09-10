@@ -5,14 +5,14 @@ ms.date: 10/01/2016
 ms.topic: article
 ms.assetid: 262701a6-8a97-4c4e-bfbf-9f8007c308d6
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: 7c30d99bd1a0019130f7e39f70b289effd6935c4
-ms.sourcegitcommit: 04637054de2bfbac66b9c78bad7bf3e7bae5ffb4
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: aa84ae8f3d11631b76d2e85e6a50f309eb83dd74
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87838253"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89622582"
 ---
 # <a name="azure-site-recovery-services-integration"></a>Интеграция служб Azure Site Recovery
 
@@ -62,6 +62,6 @@ ms.locfileid: "87838253"
 
 ![Снимок экрана, показывающий страницу восстановления Azure панели мониторинга Windows Server Essentials. Репликация в Azure включена для узла Essentials, а виртуальная машина с именем Essentials-Test, выполняемая в Azure, указывает, что узел отработка отказа в Azure.](media/azure-site-recovery-8.PNG)
 
-<a name="see-also"></a>См. также
+<a name="see-also"></a>См. также раздел
 --------
 [Начало работы с Windows Server Essentials](get-started.md)

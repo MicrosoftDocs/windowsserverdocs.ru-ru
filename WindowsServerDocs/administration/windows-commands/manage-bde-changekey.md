@@ -3,16 +3,16 @@ title: Управление — BDE чанжекэй
 description: Справочная статья по команде Manage-bde чанжекэй, которая изменяет ключ запуска для диска операционной системы.
 ms.topic: reference
 ms.assetid: 69463db9-7e03-47ff-b233-a95d5055725f
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: cfef099e1f596428fdbf7fd4389f4bd44846efce
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 3752d0a3a990488129b99a5ebbe44e830552c00f
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89030122"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89622744"
 ---
 # <a name="manage-bde-changekey"></a>Управление — BDE чанжекэй
 

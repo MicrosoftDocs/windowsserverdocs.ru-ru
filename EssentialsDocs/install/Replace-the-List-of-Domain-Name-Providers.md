@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 104d0412-2d77-4cd4-99f7-65a885522850
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: 736d7c2271752c79678c2d332ed450e6ba35b299
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: 74509a7d64e718fe1d2b62f806306235e7d827e4
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87181110"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89623363"
 ---
 # <a name="replace-the-list-of-domain-name-providers"></a>Замена списка поставщиков доменных имен
 
@@ -30,7 +30,7 @@ ms.locfileid: "87181110"
 -   [Добавление записи в реестр на компьютере-образце](../install/Replace-the-List-of-Domain-Name-Providers.md#BKMK_AddRegistry)
 
 
-###  <a name="create-the-referral-service-files"></a><a name="BKMK_ReferralFiles"></a>Создание файлов справочной службы
+###  <a name="create-the-referral-service-files"></a><a name="BKMK_ReferralFiles"></a> Создание файлов справочной службы
  Средством администрирования справочной службы создается набор файлов, которые используются для определения списка поставщиков доменных имен, отображаемого в мастере настройки доменных имен. Для каждого региона мира создается XML-файл, который содержит сведения для поставщиков доменных имен, указанных в данном средстве. Созданные средством файлы должны располагаться в папке, доступ к которой можно получить с помощью безопасной ссылки (HTTPS), управляемой из Интернета.
 
 ##### <a name="to-create-the-referral-files"></a>Создание справочных файлов
@@ -49,7 +49,7 @@ ms.locfileid: "87181110"
 
 7.  Если у поставщика доменных имен имеется эмблема, добавьте ее, щелкнув **Change Logo** (Изменить эмблему).
 
-8.  Выберите команду **Сохранить**.
+8.  Нажмите кнопку **Сохранить**.
 
 9. Повторите шаги 2-8 для каждого поставщика доменных имен, отображаемого в списке мастера.
 
@@ -57,7 +57,7 @@ ms.locfileid: "87181110"
 
 11. Щелкните **Generate Files to File System** (Создать файлы в файловой системе).
 
-###  <a name="add-an-entry-to-the-registry-on-the-reference-computer"></a><a name="BKMK_AddRegistry"></a>Добавление записи в реестр на компьютере образца
+###  <a name="add-an-entry-to-the-registry-on-the-reference-computer"></a><a name="BKMK_AddRegistry"></a> Добавление записи в реестр на компьютере образца
  Чтобы указать расположение файлов справочной службы, доступных для операционной системы, необходимо добавить запись в реестр.
 
 ##### <a name="to-add-a-key-to-the-registry"></a>Добавление раздела в реестр
@@ -83,12 +83,12 @@ ms.locfileid: "87181110"
 >  A slash (/) is required at the end of the URL.
 ~~~
 
-###  <a name="domain-name-status-issues"></a><a name="BKMK_ReplaceDomainNameProviders"></a>Проблемы состояния доменного имени
+###  <a name="domain-name-status-issues"></a><a name="BKMK_ReplaceDomainNameProviders"></a> Проблемы состояния доменного имени
  Если партнер добавляет поставщики доменных имен и использует прикладной программный интерфейс (API) в Windows Server Essentials SDK для установки неизвестных, неудачных и Цертификатерекуестнотсубмиттед состояний сертификата, клиент получает неправильное сообщение и результат конфигурации. Это происходит потому, что эти случаи обрабатываются исключениями и состояние не возвращается.
 
  Следующие состояния домена являются ошибками и должны сопровождаться соответствующими сообщениями:
 
-- Сбой
+- Failed
 
 - PendingCustomerInterventionRequired
 
@@ -104,7 +104,7 @@ ms.locfileid: "87181110"
 
 - Ready
 
-- Ожидает
+- Pending
 
 - InRenewal
 

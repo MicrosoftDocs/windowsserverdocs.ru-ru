@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: d9f18b29-8e03-439e-bdf0-1dac5e4f70c5
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: e55c717b1eeb5b8f75ebfb7b48abd656dd4ddaa3
-ms.sourcegitcommit: 04637054de2bfbac66b9c78bad7bf3e7bae5ffb4
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: 3e0902f99be96e3197b90b4892f78849a5c84125
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87838432"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89622882"
 ---
 # <a name="demote-and-remove-the-source-server-from-the-new-windows-server-essentials-network1"></a>Понижение и удаление исходного сервера из новой системы Windows Server Essentials Network1
 
@@ -32,7 +32,7 @@ ms.locfileid: "87838432"
 5.  [Удаление и переназначение исходного сервера](Demote-and-remove-the-Source-Server-from-the-new-Windows-Server-Essentials-network.md#BKMK_RemoveTheSourceServer).
 
 
-###  <a name="uninstall-exchange-server-2003"></a><a name="BKMK_UninstallExchangeServer2003"></a>Удаление Exchange Server 2003
+###  <a name="uninstall-exchange-server-2003"></a><a name="BKMK_UninstallExchangeServer2003"></a> Удаление Exchange Server 2003
 
 > [!IMPORTANT]
 >  Если вы добавляете учетные записи пользователей после перемещения почтовых ящиков на целевой сервер, то перед удалением сервера Exchange Server 2003 с исходного сервера почтовые ящики добавляются на исходном сервере. Это сделано намеренно. Почтовые ящики необходимо переместить на целевой сервер для всех учетных записей пользователей, которые добавляются в течение этого периода времени. Повторите инструкции из раздела перемещение почтовых ящиков и параметров Exchange Server для миграции Windows Server Essentials перед удалением Exchange Server 2003.
@@ -60,10 +60,10 @@ ms.locfileid: "87838432"
 
 7. При появлении соответствующего запроса вставьте диск Windows Small Business Server 2003 CD #3 и следуйте инструкциям на экране.
 
-###  <a name="disconnect-printers-that-are-directly-connected-to-the-source-server"></a><a name="BKMK_PhysicallyDisconnect"></a>Отключить принтеры, подключенные непосредственно к исходному серверу
+###  <a name="disconnect-printers-that-are-directly-connected-to-the-source-server"></a><a name="BKMK_PhysicallyDisconnect"></a> Отключить принтеры, подключенные непосредственно к исходному серверу
  Прежде чем понизить уровень исходного сервера, физически отключите все принтеры, которые подключены к напрямую к исходному серверу и предоставляются через него для общего доступа. Убедитесь, что не осталось никаких объектов Active Directory для принтеров, которые были подключены напрямую к исходному серверу. Затем принтеры могут быть напрямую подключены к целевому серверу и доступны из Windows Server Essentials.
 
-###  <a name="demote-the-source-server"></a><a name="BKMK_DemoteTheSourceServer"></a>Понижение уровня исходного сервера
+###  <a name="demote-the-source-server"></a><a name="BKMK_DemoteTheSourceServer"></a> Понижение уровня исходного сервера
  Перед понижением уровня исходного сервера с роли контроллера домена AD DS до роли рядового сервера домена убедитесь, что параметры групповой политики применяются ко всем клиентским компьютерам, как описано в следующей процедуре.
 
 > [!IMPORTANT]
@@ -77,7 +77,7 @@ ms.locfileid: "87838432"
 
 3.  В командной строке введите команду **gpupdate /force** и нажмите клавишу ВВОД.
 
-4.  Для завершения процесса вам может потребоваться выйти из системы и снова войти в нее. Нажмите кнопку **Да**, чтобы подтвердить действие.
+4.  Для завершения процесса вам может потребоваться выйти из системы и снова войти в нее. Нажмите кнопку **Да** для подтверждения.
 
 ##### <a name="to-demote-the-source-server"></a>Порядок понижения уровня исходного сервера
 
@@ -108,7 +108,7 @@ ms.locfileid: "87838432"
 
 4.  Убедитесь, что исходный сервер отсутствует в списке, а затем закройте окно **Active Directory — пользователи и компьютеры**.
 
-###  <a name="move-the-dhcp-server-role-from-the-source-server-to-the-router"></a><a name="BKMK_MoveTheDHCPRole"></a>Перемещение роли DHCP-сервера с исходного сервера на маршрутизатор
+###  <a name="move-the-dhcp-server-role-from-the-source-server-to-the-router"></a><a name="BKMK_MoveTheDHCPRole"></a> Перемещение роли DHCP-сервера с исходного сервера на маршрутизатор
 
 > [!NOTE]
 >
@@ -127,7 +127,7 @@ ms.locfileid: "87838432"
 
     3.  Для **типа запуска** выберите **Отключено**.
 
-    4.  Остановите службу.
+    4.  Остановить службу.
 
 2.  Включение роли DHCP на маршрутизаторе
 
@@ -138,7 +138,7 @@ ms.locfileid: "87838432"
     > [!IMPORTANT]
     >  Если статический IP-адрес или резервирования DHCP на маршрутизаторе для целевого сервера не заданы, и диапазон DHCP отличается от диапазона исходного сервера, то маршрутизатор может выдать новый IP-адрес для целевого сервера. В этом случае сбросьте правила перенаправления портов в маршрутизаторе для пересылки на новый IP-адрес целевого сервера.
 
-###  <a name="remove-and-repurpose-the-source-server"></a><a name="BKMK_RemoveTheSourceServer"></a>Удаление и переназначение исходного сервера
+###  <a name="remove-and-repurpose-the-source-server"></a><a name="BKMK_RemoveTheSourceServer"></a> Удаление и переназначение исходного сервера
  Выключите исходный сервер и отключите его от сети. Рекомендуется хотя бы одну неделю не выполнять переформатирование исходного сервера, чтобы убедиться, что все необходимые данные перенесены на конечный сервер. После подтверждения переноса всех данных можно переустановить этот сервер в сети в качестве дополнительного сервера для других задач.
 
 > [!NOTE]

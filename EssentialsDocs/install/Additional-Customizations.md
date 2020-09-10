@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 65a195d5-0098-4c3c-b4ba-07f7319c8f1e
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: 7fc1c9d681ac283eab4810d2a7cc4f7c4223a0b7
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: fef23f94e9a2a591b14e6e1c8457f07f0ecbdfc7
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87181530"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89621869"
 ---
 # <a name="additional-customizations"></a>Дополнительные настройки
 
@@ -46,7 +46,7 @@ ms.locfileid: "87181530"
 
 -   [Добавление информации о зарегистрированном партнере, заключившем партнерское соглашение об интерактивных службах Майкрософт](../install/Add-Microsoft-Online-Service-Partner-Agreement-Partner-of-Record-Information.md)
 
--   [Замена URL-адресов конечных точек при покупке или ознакомлении для модуля интеграции O365 в рамках поддержки по соглашению с торговым посредником интернет-служб Майкрософт](../install/Replace-O365-Integration-Module-Buy-Try-Endpoint-URL-in-Support-of-Microsoft-Online-Service-Reseller-Agreement.md)
+-   [Замените модуль интеграции Microsoft 365 купить-try URL-адрес конечной точки для поддержки соглашения торгового посредника Microsoft Online Service](../install/Replace-O365-Integration-Module-Buy-Try-Endpoint-URL-in-Support-of-Microsoft-Online-Service-Reseller-Agreement.md)
 
 -   [Создание DVD-диска восстановления сервера для удаленно администрируемых серверов](../install/Create-a-Server-Recovery-DVD-for-Remotely-Administered-Servers.md)
 

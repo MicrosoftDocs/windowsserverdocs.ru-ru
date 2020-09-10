@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: d7d38505-cff5-4f15-9fd5-ae6dba15ce88
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: 5ff685960c5690e1bdda47742d81ec44a38aeb8b
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: 15a4c28c192ed93c18ad9ac515bdccda24293c6e
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87181680"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89622558"
 ---
 # <a name="azure-virtual-network-integration"></a>Интеграция виртуальной сети Azure
 

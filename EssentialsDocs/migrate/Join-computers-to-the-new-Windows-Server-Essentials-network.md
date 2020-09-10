@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: d94de050-3300-4323-a5ea-c824cb9cecc9
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: f6b4db262d3eda9f1497ffce9c604d7dd72290b3
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: 9a1133623af3a05f8aa0e867b1d3d66cbadd717f
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87180760"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89622817"
 ---
 # <a name="join-computers-to-the-new-windows-server-essentials-network1"></a>Присоединение компьютеров к новой Network1 Windows Server Essentials
 

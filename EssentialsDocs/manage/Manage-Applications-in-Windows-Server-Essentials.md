@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: ae89c46a-0afd-4858-9150-ec97650f45a4
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: 7f83d595b56c1c6e2ae0e2565dd607a403b429b0
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: 30b8dfa2087e76cc80011eb359715c95564ec1b6
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87181050"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89623279"
 ---
 # <a name="manage-applications-in-windows-server-essentials"></a>Управление приложениями в Windows Server Essentials
 
@@ -24,7 +24,7 @@ ms.locfileid: "87181050"
 
 -   [Установка или удаление надстроек с использованием панели мониторинга](Manage-Applications-in-Windows-Server-Essentials.md#BKMK_2)
 
-##  <a name="application-management-tasks-in-the-dashboard"></a><a name="BKMK_1"></a>Задачи управления приложениями на панели мониторинга
+##  <a name="application-management-tasks-in-the-dashboard"></a><a name="BKMK_1"></a> Задачи управления приложениями на панели мониторинга
  Страница управления **Приложения** панели мониторинга содержит следующие сведения.
 
 - Список установленных надстроек, содержащий следующие сведения:
@@ -53,7 +53,7 @@ ms.locfileid: "87181050"
 |Изучение заявления о конфиденциальности для надстройки|Открывает интернет-браузер на веб-сайте, где можно просмотреть заявление о конфиденциальности.|
 |Как устанавливать или удалять надстройки?|Открывает интернет-браузер на веб-странице с соответствующим разделом справки.|
 
-##  <a name="install-or-remove-add-ins-using-the-dashboard"></a><a name="BKMK_2"></a>Установка и удаление надстроек с помощью панели мониторинга
+##  <a name="install-or-remove-add-ins-using-the-dashboard"></a><a name="BKMK_2"></a> Установка и удаление надстроек с помощью панели мониторинга
  Надстройка — это прикладная программа, предоставляющая дополнительные функции и возможности для сервера. Майкрософт и другие независимые поставщики ПО предоставляют все больше разных надстроек.
 
  Прежде чем вы сможете воспользоваться расширенной функциональностью, которая обеспечивается той или иной надстройкой, необходимо установить ее на сервер.

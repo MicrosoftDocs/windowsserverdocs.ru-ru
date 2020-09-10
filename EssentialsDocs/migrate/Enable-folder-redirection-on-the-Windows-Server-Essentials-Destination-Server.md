@@ -6,14 +6,14 @@ ms.topic: article
 H1: Включение перенаправления папок на целевом сервере Windows Server Essentials
 ms.assetid: f67d195e-36f6-495a-8361-6d5faa889441
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: d473ebe95ef4b230968d258e1d0087421d49d86e
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: 9ea3b7b6c42c85ef553e56f017d068fabea42eee
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87180780"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89622867"
 ---
 # <a name="enable-folder-redirection-on-the-windows-server-essentials-destination-server1"></a>Включение перенаправления папок на целевом сервере 1 Windows Server Essentials
 

@@ -3,16 +3,16 @@ title: Политики проверки подлинности и приемн�
 description: Безопасность Windows Server
 ms.topic: article
 ms.assetid: 7eb0e640-033d-49b5-ab44-3959395ad567
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/12/2016
-ms.openlocfilehash: ad453c5581f966a2e21a5cd8b4ed1c9cb28fe9a8
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 931ebeda8b865c16dc6f67ae765b6bc6f7aaed1f
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87995898"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89621935"
 ---
 # <a name="authentication-policies-and-authentication-policy-silos"></a>Политики проверки подлинности и приемники команд политик проверки подлинности
 

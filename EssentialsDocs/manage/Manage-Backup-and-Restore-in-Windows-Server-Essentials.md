@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 41000915-f6ff-4dbb-b7be-629ef36386d4
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: 2f42cd78bb5cc3198421edccd32c05e2eada7be0
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: 996eb1293eebbd424c6063654322617a92043eae
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87181040"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89623228"
 ---
 # <a name="manage-backup-and-restore-in-windows-server-essentials"></a>Управление архивацией и восстановлением в Windows Server Essentials
 

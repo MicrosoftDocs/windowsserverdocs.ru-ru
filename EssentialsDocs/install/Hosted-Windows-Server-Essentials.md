@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: fda5628c-ad23-49de-8d94-430a4f253802
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: 6fa3f4c013e91fdf9015d106575af832720c1db8
-ms.sourcegitcommit: 34f9577ef32cbdc7ef96040caabc9d83517f9b79
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: b1c5a0824dfa8cba03ff778dfad6ef4505eae1eb
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "89554497"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89623492"
 ---
 # <a name="hosted-windows-server-essentials"></a>Размещенный сервер Windows Server Essentials
 

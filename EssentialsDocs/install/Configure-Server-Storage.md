@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: ef7ddcdd-3a74-40ca-9487-c3a6fc5155a5
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: 616b727ad75beefd0ac61c6a715ed1515d7712e5
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: be4bf42f2fe287ad6bd96b9ea5735147ec253e0d
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87181450"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89621834"
 ---
 # <a name="configure-server-storage"></a>Настройка хранилища сервера
 

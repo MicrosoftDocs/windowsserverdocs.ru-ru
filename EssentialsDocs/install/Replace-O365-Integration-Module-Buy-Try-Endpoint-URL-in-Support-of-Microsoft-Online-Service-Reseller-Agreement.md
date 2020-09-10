@@ -1,29 +1,29 @@
 ---
-title: Замена URL-адресов конечных точек при покупке или ознакомлении для модуля интеграции O365 в рамках поддержки по соглашению с торговым посредником интернет-служб Майкрософт
+title: Замените модуль интеграции Microsoft 365 купить-try URL-адрес конечной точки для поддержки соглашения торгового посредника Microsoft Online Service
 description: Описание использования Windows Server Essentials
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 9860a6b9-baea-4bf0-9a9f-6f1a288f996e
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: 12f4013f84c9fbfe8fc9529ea90b62f5fc5416d5
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: a8a5cf91c6de2971bc8270cc3c7ea92327b71224
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87181130"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89623372"
 ---
-# <a name="replace-o365-integration-module-buy-try-endpoint-url-in-support-of-microsoft-online-service-reseller-agreement"></a>Замена URL-адресов конечных точек при покупке или ознакомлении для модуля интеграции O365 в рамках поддержки по соглашению с торговым посредником интернет-служб Майкрософт
+# <a name="replace-microsoft-365-integration-module-buy-try-endpoint-url-in-support-of-microsoft-online-service-reseller-agreement"></a>Замените модуль интеграции Microsoft 365 купить-try URL-адрес конечной точки для поддержки соглашения торгового посредника Microsoft Online Service
 
 >Область применения: Windows Server 2016 Essentials, Windows Server 2012 R2 Essentials, Windows Server 2012 Essentials
 
 ##  <a name="BKMK_O365"></a>
- Если вы являетесь партнером по соглашению торгового посредника Microsoft Online Service (МОСРА), чтобы обеспечить обработку транзакций регистрации клиентов с помощью портала, необходимо заменить URL-адреса конечных точек, используемые модулем интеграции Windows Server Essentials Office 365.
+ Если вы являетесь партнером по соглашению торгового посредника Microsoft Online Service (МОСРА), чтобы обеспечить обработку транзакций регистрации клиентов через портал, необходимо заменить URL-адреса конечных точек, используемые модулем интеграции Windows Server Essentials Microsoft 365.
 
  Модуль интеграции использует следующие четыре URL-адреса конечных точек.
 
-1.  Конечная точка покупки подписки Office 365 Enterprise.
+1.  Конечная точка приобретения подписки Microsoft 365 корпоративный.
 
     -   HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Server\MSO\
 
@@ -31,9 +31,9 @@ ms.locfileid: "87181130"
 
     -   Имя раздела = MOSRASTDBUY
 
-    -   Значение = *xxxxx*, где xxxxx - URL-адрес покупки подписки Enterprise. Например, значение =http://syndicatepartner.office365.com/enterprisebuy.html
+    -   Значение = *xxxxx*, где xxxxx - URL-адрес покупки подписки Enterprise. Например, значение = http://syndicatepartner.office365.com/enterprisebuy.html
 
-2.  Конечная точка ознакомительной подписки Office 365 Enterprise.
+2.  Конечная точка пробной версии подписки Microsoft 365 корпоративный.
 
     -   HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Server\MSO\
 
@@ -41,9 +41,9 @@ ms.locfileid: "87181130"
 
     -   Имя раздела = MOSRASTDTRY
 
-    -   Значение = *xxxxx*, где xxxxx - URL-адрес покупки подписки Enterprise. Например, значение =http://syndicatepartner.office365.com/enterprisetry.html
+    -   Значение = *xxxxx*, где xxxxx - URL-адрес покупки подписки Enterprise. Например, значение = http://syndicatepartner.office365.com/enterprisetry.html
 
-3.  Конечная точка покупки по подписке Office 365 для малого бизнеса Premium.
+3.  Конечная точка приобретения подписки на Microsoft 365 малого бизнеса Premium.
 
     -   HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Server\MSO\
 
@@ -51,9 +51,9 @@ ms.locfileid: "87181130"
 
     -   Имя раздела = MOSRALITEBUY
 
-    -   Значение = *xxxxx*, где xxxxx - URL-адрес покупки подписки Enterprise. Например, значение =http://syndicatepartner.office365.com/smallbizbuy.html
+    -   Значение = *xxxxx*, где xxxxx - URL-адрес покупки подписки Enterprise. Например, значение = http://syndicatepartner.office365.com/smallbizbuy.html
 
-4.  Конечная точка пробной версии Office 365 для малого бизнеса Premium.
+4.  Конечная точка пробной версии подписки Small Business Premium Microsoft 365.
 
     -   HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Server\MSO\
 
@@ -61,7 +61,7 @@ ms.locfileid: "87181130"
 
     -   Имя раздела = MOSRALITETRY
 
-    -   Значение = *xxxxx*, где xxxxx - URL-адрес покупки подписки Enterprise. Например, значение =http://syndicatepartner.office365.com/smallbiztry.html
+    -   Значение = *xxxxx*, где xxxxx - URL-адрес покупки подписки Enterprise. Например, значение = http://syndicatepartner.office365.com/smallbiztry.html
 
 #### <a name="to-add-an-endpoint-url-key-to-the-registry"></a>Добавление раздела реестра со значением URL-адреса конечной точки
 

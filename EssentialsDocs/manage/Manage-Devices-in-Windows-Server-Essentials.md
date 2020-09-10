@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: f5fe1088-ebe7-4799-a47d-075b0048dea1
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: 5b183ef2900d1ced267e991f43827438b57fb728
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: 96d99bb41a528a3a2f86be2d876df6e777e4b790
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87181010"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89623148"
 ---
 # <a name="manage-devices-in-windows-server-essentials"></a>Управление устройствами в Windows Server Essentials
 
@@ -32,7 +32,7 @@ ms.locfileid: "87181010"
 
 -   [Просмотр свойств компьютера](Manage-Devices-in-Windows-Server-Essentials.md#BKMK_8)
 
-##  <a name="manage-devices-by-using-the-dashboard"></a><a name="BKMK_1"></a>Управление устройствами с помощью панели мониторинга
+##  <a name="manage-devices-by-using-the-dashboard"></a><a name="BKMK_1"></a> Управление устройствами с помощью панели мониторинга
  Windows Server Essentials позволяет выполнять стандартные административные задачи, используя панель мониторинга Windows Server Essentials. На странице **Устройства** панели мониторинга можно найти следующее.
 
 -   Список сетевых компьютеров с нижеперечисленными сведениями.
@@ -84,7 +84,7 @@ ms.locfileid: "87181010"
 |Как подключить компьютеры к серверу?|Открывает раздел справки с пошаговой инструкцией подключения компьютера к сети.|
 |Реализация групповой политики|Применяет параметры политики к компьютерам под управлением Windows 8 и Windows 7, объединенным в домен.|
 
-##  <a name="assign-user-accounts-permission-to-log-on-to-specific-network-computers"></a><a name="BKMK_2"></a>Назначение учетным записям пользователей разрешения на вход на определенные сетевые компьютеры
+##  <a name="assign-user-accounts-permission-to-log-on-to-specific-network-computers"></a><a name="BKMK_2"></a> Назначение учетным записям пользователей разрешения на вход на определенные сетевые компьютеры
  Можно назначать разрешения учетным записям пользователей, чтобы пользователи, осуществляя доступ к сети Windows Server Essentials из удаленного местоположения, могли выполнять вход только на определенные сетевые компьютеры.
 
 #### <a name="to-change-the-computer-access-for-a-user-account"></a>Изменение доступа к компьютеру для учетной записи пользователя
@@ -99,7 +99,7 @@ ms.locfileid: "87181010"
 
 5.  На вкладке **Доступ к компьютеру** выберите компьютер, доступ к которому пользователь может осуществлять удаленно, и нажмите кнопку **ОК**.
 
-##  <a name="remove-a-computer-from-the-server"></a><a name="BKMK_3"></a>Удаление компьютера с сервера
+##  <a name="remove-a-computer-from-the-server"></a><a name="BKMK_3"></a> Удаление компьютера с сервера
  Если компьютер удален с сервера под управлением Windows Server Essentials с помощью панели мониторинга, управление компьютером более не осуществляется сервером. В результате сервер перестает создавать резервные копии компьютера или осуществлять мониторинг его состояния после удаления компьютера из сети.
 
 > [!NOTE]
@@ -113,7 +113,7 @@ ms.locfileid: "87181010"
 
 3.  В списке компьютеров щелкните правой кнопкой мыши компьютер, который необходимо удалить из сети, а затем выберите **Удалить компьютер**.
 
-##  <a name="configure-group-policy-settings-for-folder-redirection-and-security"></a><a name="BKMK_5"></a>Настройка параметров групповая политика для перенаправления папок и безопасности
+##  <a name="configure-group-policy-settings-for-folder-redirection-and-security"></a><a name="BKMK_5"></a> Настройка параметров групповая политика для перенаправления папок и безопасности
  Можно настроить групповую политику и развернуть ее на компьютерах в сети Windows Server Essentials, воспользовавшись панелью мониторинга Windows Server Essentials. Групповая политика в Windows Server Essentials включает параметры перенаправления папок и механизмы безопасности, влияющие на работу Центра обновления Windows, Защитника Windows и сетевого брандмауэра.
 
 #### <a name="to-configure-group-policy-in-windows-server-essentials"></a>Настройка групповой политики в Windows Server Essentials
@@ -134,7 +134,7 @@ ms.locfileid: "87181010"
 
 7.  Щелкните **Готово**, чтобы параметры групповой политики вступили в силу.
 
-##  <a name="connect-to-a-network-computer-by-using-a-remote-desktop-session"></a><a name="BKMK_7"></a>Подключение к сетевому компьютеру с помощью удаленный рабочий стол сеанса
+##  <a name="connect-to-a-network-computer-by-using-a-remote-desktop-session"></a><a name="BKMK_7"></a> Подключение к сетевому компьютеру с помощью удаленный рабочий стол сеанса
  Чтобы получить удаленный доступ к сетевому компьютеру Windows Server Essentials, когда вы выходите из офиса, используйте веб-браузер для входа на веб-сайт удаленного Веб-доступ вашей организации, а на вкладке **Компьютеры** щелкните имя компьютера.
 
  В столбце **Состояние** показано, можно ли подключиться к компьютеру в сети. Возможны следующие значения.
@@ -155,7 +155,7 @@ ms.locfileid: "87181010"
 
      Подключение к компьютеру заблокировано брандмауэром, либо удаленный рабочий стол отключен на компьютере или групповой политикой. При внесении изменений на обновление этого статуса на сервере может уйти до 6 часов.
 
-##  <a name="view-computer-properties"></a><a name="BKMK_8"></a>Просмотр свойств компьютера
+##  <a name="view-computer-properties"></a><a name="BKMK_8"></a> Просмотр свойств компьютера
  В разделе **Устройства** на панели мониторинга Windows Server Essentials отображается список сетевых компьютеров. Этот список также содержит дополнительную информацию о каждом из компьютеров.
 
 #### <a name="to-view-a-list-of-computers"></a>Просмотр списка компьютеров

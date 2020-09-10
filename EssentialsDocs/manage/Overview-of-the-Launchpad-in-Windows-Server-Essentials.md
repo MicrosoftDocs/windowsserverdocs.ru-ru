@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 198d16cb-3d07-4706-be89-ad14a5f7dc47
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: c648ab5921d50a2b1178b44104977b8bb3abd692
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: c20fd35a1a90e6d635891cd2257913c669273735
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87180840"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89623014"
 ---
 # <a name="overview-of-the-launchpad-in-windows-server-essentials"></a>Обзор Launchpad в Windows Server Essentials
 
@@ -39,7 +39,7 @@ ms.locfileid: "87180840"
 
 - [Использование панели запуска на компьютере Mac](Overview-of-the-Launchpad-in-Windows-Server-Essentials.md#BKMK_Mac)
 
-##  <a name="use-the-launchpad"></a><a name="BKMK_Launchpad"></a>Использование панели запуска
+##  <a name="use-the-launchpad"></a><a name="BKMK_Launchpad"></a> Использование панели запуска
  В панели запуска Windows Server Essentials доступны следующие сведения и ссылки.
 
 ### <a name="backup"></a>Резервное копирование
@@ -65,13 +65,13 @@ ms.locfileid: "87180840"
 > [!NOTE]
 >  Чтобы использовать эту возможность, необходимы права доступа или разрешения для входа на сервер.
 
-### <a name="microsoft-office-365"></a>Microsoft Office 365
- Ссылка **Microsoft Office 365** отображается на панели доступа только при наличии у пользователя учетной записи Office 365. Щелкните элемент  **Microsoft Office 365** , чтобы получить доступ к дополнительным ссылкам на ресурсы Office 365. Дополнительные сведения см. [в разделе Краткое руководство по началу работы to Using Microsoft Office 365](../use/Quick-Start-Guide-to-Using-Microsoft-Office-365-with-Windows-Server-Essentials.md).
+### <a name="microsoft-365"></a>Microsoft 365
+ Ссылка на **Microsoft 365** появляется только на панели запуска, если у пользователя есть учетная запись Microsoft 365. Щелкните  **Microsoft 365** , чтобы получить доступ к дополнительным ссылкам на ресурсы Microsoft 365. Дополнительные сведения см. [в разделе Краткое руководство по началу работы to Using Microsoft 365](../use/Quick-Start-Guide-to-Using-Microsoft-Office-365-with-Windows-Server-Essentials.md).
 
 ### <a name="computer-health-alerts"></a>Оповещения о работоспособности компьютера
  Оповещения, отображаемые на панели запуска, содержат краткую информацию о текущем состоянии работоспособности компьютера. Чтобы просмотреть информацию оповещения о работоспособности, щелкните индикатор оповещения для открытия средства просмотра оповещений. Оповещения о работоспособности отображаются в средстве просмотра в зависимости от уровня серьезности. Наиболее серьезные предупреждения находятся в начале списка, а наименее серьезные — в конце. Дополнительные сведения об оповещениях о работоспособности компьютера см. в разделе [Управление работоспособностью системы](Manage-System-Health-in-Windows-Server-Essentials.md).
 
-##  <a name="use-the-launchpad-with-a-mac-computer"></a><a name="BKMK_Mac"></a>Использование панели запуска с компьютером Mac
+##  <a name="use-the-launchpad-with-a-mac-computer"></a><a name="BKMK_Mac"></a> Использование панели запуска с компьютером Mac
  Компьютер Mac с &reg; Mac OS X &reg; 10,5 или более поздней версии можно подключить к Windows Server Essentials, Windows Server Essentials или windows Server 2012 R2 либо путем загрузки и установки программного обеспечения соединителя. После завершения установки программного обеспечения соединителя можно автоматически запускать панель запуска во время запуска системы.
 
  Панель запуска представляет собой небольшое приложение, которое предоставляет прошедшим проверку пользователям доступ к основные возможностям сервера, включая общие файлы и мультимедиа, надстройки и удаленный веб-доступ. Кроме того, панель запуска предоставляет в реальном времени информацию и уведомления о работоспособности компьютера.

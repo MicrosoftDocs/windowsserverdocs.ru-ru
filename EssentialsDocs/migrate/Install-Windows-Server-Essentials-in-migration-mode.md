@@ -5,17 +5,17 @@ ms.date: 04/29/2020
 ms.topic: article
 ms.assetid: fd7196ac-cfa6-46a5-ba77-6962b47a825e
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
+ms.author: geschuma
+manager: mtillman
 ms.custom:
 - CI ID 117135
 - CSSTroubleshoot
-ms.openlocfilehash: 5e6db88b9888726fbec62d953b3510142ff1a699
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.openlocfilehash: ada3b5fa3b95fa6de45177513b26589c4180696d
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87180770"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89622829"
 ---
 # <a name="install-windows-server-essentials-in-migration-mode"></a>Установка Windows Server Essentials в режиме миграции
 
@@ -40,7 +40,7 @@ ms.locfileid: "87180770"
 
 6.  Настраивает конечный сервер в качестве сервера лицензирования использования.
 
-##  <a name="install-windows-server-essentials-on-the-destination-server"></a><a name="BKMK_Install"></a>Установка Windows Server Essentials на целевом сервере
+##  <a name="install-windows-server-essentials-on-the-destination-server"></a><a name="BKMK_Install"></a> Установка Windows Server Essentials на целевом сервере
  Чтобы установить и настроить Windows Server Essentials на целевом сервере в режиме миграции, выполните следующую процедуру.
 
 #### <a name="to-install-windows-server-essentials-on-the-destination-server"></a>Установка Windows Server Essentials на целевом сервере
@@ -68,7 +68,7 @@ ms.locfileid: "87180770"
 > [!NOTE]
 >  Чтобы разблокировать рабочий стол во время установки Windows Server Essentials, используйте встроенную учетную запись администратора и оставьте поле пароля пустым.
 
-##  <a name="verify-the-health-of-the-domain-controller"></a><a name="BKMK_VerifyTheHealthOfDC"></a>Проверка работоспособности контроллера домена
+##  <a name="verify-the-health-of-the-domain-controller"></a><a name="BKMK_VerifyTheHealthOfDC"></a> Проверка работоспособности контроллера домена
  Прежде чем продолжить миграцию, убедитесь, что контроллер домена и сеть Windows Server Essentials работоспособны.
 
  В следующей таблице перечислены средства, которые помогут выявить проблемы с конечным сервером, сетью и доменом:

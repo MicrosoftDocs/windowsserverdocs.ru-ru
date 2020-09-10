@@ -3,16 +3,16 @@ title: taskkill
 description: Справочная статья по Taskkill, которая завершает одну или несколько задач или процессов.
 ms.topic: reference
 ms.assetid: 2b71e792-08b6-46d4-95a5-cb6336a79524
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: b3b0a2727116ca2a073e5ad5b17c4fe065453ab6
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: f750f7487e8220c93ea30a78ee185f28a74fd512
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89027122"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89622368"
 ---
 # <a name="taskkill"></a>taskkill
 
@@ -56,7 +56,7 @@ taskkill [/s <computer> [/u [<Domain>\]<UserName> [/p [<Password>]]]] {[/fi <Fil
 | WINDOWTITLE |         eq, ne         |                                                                 Заголовок окна                                                                 |
 |   МОДУЛЕ   |         eq, ne         |                                                                   Имя DLL                                                                   |
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Примечания
 * Фильтры WINDOWTITLE и STATUS не поддерживаются, если указана удаленная система.
 * Подстановочный знак ( **\\** <em>) принимается для параметра **/IM</em> * только при применении фильтра.
 * Завершение удаленных процессов всегда выполняется принудительно независимо от того, указан ли параметр **/f** .

@@ -5,14 +5,14 @@ ms.date: 05/04/2018
 ms.topic: article
 ms.assetid: 2fe8e35c-69f9-40b3-a270-22e2402510d8
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: a4a92a3ec4641b314213afe9b53d8dc033f41037
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: a5adc33cf0177ef6134d293a448cdf9a3999fcdb
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87181430"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89621805"
 ---
 # <a name="create-a-bootable-usb-flash-drive"></a>Создание загрузочного USB-устройства флэш-памяти
 

@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: db402a2b-7a46-448a-841c-750557cd12cc
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: 53ed58003962b5ceee0406545416b994eb9274c9
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: 9ef0e6bda6e66ab46824189219219dc1843cbe21
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87181660"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89622403"
 ---
 # <a name="release-documentation-for-windows-server-essentials"></a>Документация по выпуску Windows Server Essentials
 

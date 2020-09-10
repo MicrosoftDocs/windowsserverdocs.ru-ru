@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 681c6cad-7fde-494f-86a5-f4c7c15d23f9
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: 32f0e0b29b949c52f15834e8bf1b3a2a2da8f005
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: a08b8f284701cf486f23a22604ea0c90740146d4
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87181120"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89623402"
 ---
 # <a name="preparing-the-image-for-deployment"></a>Подготовка образа для развертывания
 

@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 1b1a2040-4cfd-48bf-8d04-3ffde9c26b9b
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: f639f01a96f55bcf7b9f8c0e19f02862f4e06a88
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: c109fbd7ef2e4852e296f893ae8981ba8feeaed8
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87181090"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89623331"
 ---
 # <a name="testing-the-customer-experience"></a>Тестирование работы пользователей
 

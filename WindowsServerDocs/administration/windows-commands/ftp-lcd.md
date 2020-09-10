@@ -3,16 +3,16 @@ title: ftp lcd
 description: Справочная статья по команде FTP LCD, которая изменяет рабочий каталог на локальном компьютере.
 ms.topic: reference
 ms.assetid: 60a25808-6abb-408b-8373-0bbdcd0994b4
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 344d0ba14c552315504fc16b109500141c341f97
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 91b2990495c91033c1bc885ec9d19142640f55b5
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89038925"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89621677"
 ---
 # <a name="ftp-lcd"></a>ftp lcd
 

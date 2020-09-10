@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 4d7020d4-fd46-4858-a406-de5c0f21ea06
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: e4ea807ad7620a333d069422bd45d3c1c17956c0
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: 07bc83c7757111483305822ea5323f045ffe0252
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87181440"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89621812"
 ---
 # <a name="configure-support-for-a-wireless-network"></a>Настройка поддержки беспроводных сетей
 

@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: a455c6b4-b29f-4f76-8c6b-1578b6537717
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: 0f47c3870ad8254fb1c8cf63fc8f4fd055235d50
-ms.sourcegitcommit: 34f9577ef32cbdc7ef96040caabc9d83517f9b79
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: 5c0e186cb51eadd2671a4a7d21ccc1ce90dd7221
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "89554507"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89623538"
 ---
 # <a name="deploy-windows-server-essentials-experience-as-a-hosted-server"></a>Развертывание режима Windows Server Essentials в качестве размещенного сервера
 

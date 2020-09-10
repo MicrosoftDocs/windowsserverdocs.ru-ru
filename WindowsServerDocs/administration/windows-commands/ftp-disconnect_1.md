@@ -3,16 +3,16 @@ title: ftp disconnect
 description: Справочная статья по команде FTP Disconnect, которая отключается от удаленного компьютера и оставляет запрос на FTP.
 ms.topic: reference
 ms.assetid: f91ac304-f126-49df-9ab9-b8fa2ea515fd
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 40bcb01a3b08bfe46e3f756df98401ffdd5fe989
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 925cfa5c1dad5a8cdb19e1687357797d802d1002
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89023968"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89621767"
 ---
 # <a name="ftp-disconnect"></a>ftp disconnect
 

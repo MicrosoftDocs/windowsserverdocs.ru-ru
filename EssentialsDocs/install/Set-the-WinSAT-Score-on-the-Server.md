@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 911dc494-0f8f-4723-93d6-2106f914b906
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: 57ab8828f186d19c8b80cf0c1a541bb1f37bebc0
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: 56769966cbfb6778c06abc4ba07d21f258e900a4
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87181100"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89623342"
 ---
 # <a name="set-the-winsat-score-on-the-server"></a>Установка на сервере системы оценки WinSAT
 

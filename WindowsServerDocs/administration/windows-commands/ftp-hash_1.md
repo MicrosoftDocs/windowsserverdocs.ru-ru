@@ -3,16 +3,16 @@ title: ftp hash
 description: Справочная статья по команде FTP Hash, которая переключает печать знака решетки (#) для каждого переданного блока данных.
 ms.topic: reference
 ms.assetid: 76bed9b3-3efd-4a3e-831f-460626d02c44
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 67ac838ce17d5b270767ea7a4d1cb2aa472fc0a1
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 3fd6eabfd82c54b653458c18d6a6abe62125affc
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89023938"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89621687"
 ---
 # <a name="ftp-hash"></a>ftp hash
 

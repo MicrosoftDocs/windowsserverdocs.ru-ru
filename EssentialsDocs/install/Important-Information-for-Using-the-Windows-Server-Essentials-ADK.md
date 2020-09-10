@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 26cb2992-1250-4672-98ee-8b870baa45d5
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: fa1cee0d12182303a4c125089f11b121b848d6bf
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: a7fc10eb7c04163ca3202e481df130fc86f3c49c
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87181220"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89623501"
 ---
 # <a name="important-information-for-using-the-windows-server-essentials-adk"></a>Важная информация для использования ADK Windows Server Essentials
 

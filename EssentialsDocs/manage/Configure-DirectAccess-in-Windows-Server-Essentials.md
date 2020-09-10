@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: c959b6fc-c67e-46cd-a9cb-cee71a42fa4c
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: e24d6ce2e123deb741bcd39dc77f9a893a27df89
-ms.sourcegitcommit: 04637054de2bfbac66b9c78bad7bf3e7bae5ffb4
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: 2d05c5d62eae5effda2c6b73adf71daf1cd0080c
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87837913"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89623326"
 ---
 # <a name="configure-directaccess-in-windows-server-essentials"></a>Настройка DirectAccess в Windows Server Essentials
 
@@ -70,9 +70,9 @@ ms.locfileid: "87837913"
 > [!NOTE]
 >  [Приложение: Установка DirectAccess с помощью Windows PowerShell](#BKMK_AppendixBPowerShellScript) предусматривает настройку DirectAccess с помощью сценария Windows PowerShell.
 
-##  <a name="step-1-add-remote-access-management-tools-to-your-server"></a><a name="BKMK_AddRAM"></a>Шаг 1. Добавление средств управления удаленным доступом на сервер
+##  <a name="step-1-add-remote-access-management-tools-to-your-server"></a><a name="BKMK_AddRAM"></a> Шаг 1. Добавление средств управления удаленным доступом на сервер
 
-#### <a name="to-add-remote-accregss-management-tools--reg"></a>Добавление удаленных &reg; средств управления ACC SS&reg;
+#### <a name="to-add-remote-accregss-management-tools--reg"></a>Добавление удаленных &reg; средств управления ACC SS  &reg;
 
 1.  На сервере щелкните значок **Диспетчер серверов** в левом нижнем углу начальной страницы.
 
@@ -92,7 +92,7 @@ ms.locfileid: "87837913"
 
     4.  Для завершения работы мастера следуйте инструкциям на экране.
 
-##  <a name="step-2-change-the-network-adapter-address-of-the-server-to-a-static-ip-address"></a><a name="BKMK_AddStaticIP"></a>Шаг 2. изменение адреса сетевого адаптера сервера на статический IP-адрес
+##  <a name="step-2-change-the-network-adapter-address-of-the-server-to-a-static-ip-address"></a><a name="BKMK_AddStaticIP"></a> Шаг 2. изменение адреса сетевого адаптера сервера на статический IP-адрес
  Для работы компонента DirectAccess необходим адаптер со статическим IP-адресом. Следует изменить IP-адрес локального сетевого адаптера на сервере.
 
 #### <a name="to-add-a-static-ip-address"></a>Добавление статического IP-адреса
@@ -125,7 +125,7 @@ ms.locfileid: "87837913"
 > [!IMPORTANT]
 >  Убедитесь, что маршрутизатор настроен на перенаправление портов 80 и 443 новому статическому IP-адресу сервера.
 
-##  <a name="step-3-prepare-a-certificate-and-dns-record-for-the-network-location-server"></a><a name="BKMK_DNS"></a>Шаг 3. Подготовка сертификата и записи DNS для сервера сетевого расположения
+##  <a name="step-3-prepare-a-certificate-and-dns-record-for-the-network-location-server"></a><a name="BKMK_DNS"></a> Шаг 3. Подготовка сертификата и записи DNS для сервера сетевого расположения
  Чтобы подготовить сертификат и произвести запись DNS для сервера сетевых расположений, выполните следующие действия:
 
 -   [Шаг 3a. предоставление полного доступа пользователям, прошедшим проверку подлинности, для шаблона сертификата веб-сервера](#BKMK_GrantFullPermissions)
@@ -134,10 +134,10 @@ ms.locfileid: "87837913"
 
 -   [Шаг 3в. Добавление нового узла к DNS-серверу и сопоставление его с адресом сервера под управлением Windows Server Essentials.](#BKMK_MapNewHosttoServerAddress)
 
-###  <a name="step-3a-grant-full-permissions-to-authenticated-users-for-the-web-servers-certificate-template"></a><a name="BKMK_GrantFullPermissions"></a>Шаг 3a. предоставление полного доступа пользователям, прошедшим проверку подлинности, для шаблона сертификата веб-сервера
+###  <a name="step-3a-grant-full-permissions-to-authenticated-users-for-the-web-servers-certificate-template"></a><a name="BKMK_GrantFullPermissions"></a> Шаг 3a. предоставление полного доступа пользователям, прошедшим проверку подлинности, для шаблона сертификата веб-сервера
  Первая задача — предоставить полный доступ для проверки подлинности пользователей для шаблона сертификата веб-сервера в центре сертификации.
 
-####  <a name="to-grant-full-permissions-to-authenticated-users-for-the-web-servers-certificate-template"></a><a name="BKMK_ToGrantFullPermissions"></a>Предоставление полного доступа пользователям, прошедшим проверку подлинности, для шаблона сертификата веб-сервера
+####  <a name="to-grant-full-permissions-to-authenticated-users-for-the-web-servers-certificate-template"></a><a name="BKMK_ToGrantFullPermissions"></a> Предоставление полного доступа пользователям, прошедшим проверку подлинности, для шаблона сертификата веб-сервера
 
 1.  На **Начальной странице** откройте **Центр сертификации**.
 
@@ -149,10 +149,10 @@ ms.locfileid: "87837913"
 
 5.  Перезапустите **Службы сертификатов Active Directory**. В панели управления выберите **Просмотр локальных служб**. В списке служб щелкните правой кнопкой мыши **Службы сертификатов Active Directory**, после чего нажмите **Перезапуск**.
 
-###  <a name="step-3b-enroll-a-certificate-for-the-network-location-server-with-a-common-name-that-is-unresolvable-from-the-external-network"></a><a name="BKMK_EnrollaCertificate"></a>Шаг 3b. регистрация сертификата для сервера сетевых расположений с общим именем, неразрешимым из внешней сети
+###  <a name="step-3b-enroll-a-certificate-for-the-network-location-server-with-a-common-name-that-is-unresolvable-from-the-external-network"></a><a name="BKMK_EnrollaCertificate"></a> Шаг 3b. регистрация сертификата для сервера сетевых расположений с общим именем, неразрешимым из внешней сети
  После этого необходимо выполнить регистрацию сертификата для сервера сетевых расположений с общим именем, которое невозможно разрешить из внешней сети.
 
-####  <a name="to-enroll-a-certificate-for-the-network-location-server"></a><a name="BKMK_ToEnrollaCertificate"></a>Регистрация сертификата для сервера сетевых расположений
+####  <a name="to-enroll-a-certificate-for-the-network-location-server"></a><a name="BKMK_ToEnrollaCertificate"></a> Регистрация сертификата для сервера сетевых расположений
 
 1.  На **Начальной странице** откройте **mmc** (консоль управления).
 
@@ -186,10 +186,10 @@ ms.locfileid: "87837913"
 
 12. По завершении регистрации сертификата щелкните кнопку **Готово**.
 
-###  <a name="step-3c-add-a-new-host-on-the-dns-server-and-map-it-to-the-windows-server-essentials-server-address"></a><a name="BKMK_MapNewHosttoServerAddress"></a>Шаг 3c. Добавьте новый узел на DNS-сервере и сопоставьте его с адресом сервера Windows Server Essentials.
+###  <a name="step-3c-add-a-new-host-on-the-dns-server-and-map-it-to-the-windows-server-essentials-server-address"></a><a name="BKMK_MapNewHosttoServerAddress"></a> Шаг 3c. Добавьте новый узел на DNS-сервере и сопоставьте его с адресом сервера Windows Server Essentials.
  Чтобы завершить настройку DNS, добавьте новый узел на DNS-сервере и сопоставьте его с адресом сервера Windows Server Essentials.
 
-####  <a name="to-map-a-new-host-to-the-windows-server-essentials-server-address"></a><a name="BKMK_ToMapNewHosttoServerAddress"></a>Подключение нового узла к адресу сервера Windows Server Essentials
+####  <a name="to-map-a-new-host-to-the-windows-server-essentials-server-address"></a><a name="BKMK_ToMapNewHosttoServerAddress"></a> Подключение нового узла к адресу сервера Windows Server Essentials
 
 1.  На начальной странице откройте диспетчер DNS. Чтобы открыть диспетчер DNS, введите в строке поиска **dnsmgmt.msc**и щелкните в результатах **dnsmgmt.msc** .
 
@@ -199,7 +199,7 @@ ms.locfileid: "87837913"
 
 4.  Щелкните **Добавить узел**, после чего нажмите **OK**, а затем — **Готово**.
 
-##  <a name="step-4-create-a-security-group-for-directaccess-client-computers"></a><a name="BKMK_AddSecurityGroup"></a>Шаг 4. Создание группы безопасности для клиентских компьютеров DirectAccess
+##  <a name="step-4-create-a-security-group-for-directaccess-client-computers"></a><a name="BKMK_AddSecurityGroup"></a> Шаг 4. Создание группы безопасности для клиентских компьютеров DirectAccess
  Теперь необходимо создать группу безопасности для клиентских компьютеров DirectAccess и добавить в нее учетные записи компьютеров.
 
 #### <a name="to-add-a-security-group-for-client-computers-that-use-directaccess"></a>Создание группы безопасности для клиентских компьютеров, использующих DirectAccess
@@ -232,7 +232,7 @@ ms.locfileid: "87837913"
 > [!NOTE]
 >  Добавить учетную запись в группу безопасности также можно на вкладке **Входит в состав** в свойствах учетной записи компьютера.
 
-##  <a name="step-5-enable-and-configure-directaccess"></a><a name="BKMK_EnableConfigureDA"></a>Шаг 5. Включение и Настройка DirectAccess
+##  <a name="step-5-enable-and-configure-directaccess"></a><a name="BKMK_EnableConfigureDA"></a> Шаг 5. Включение и Настройка DirectAccess
  Чтобы включить и настроить DirectAccess в Windows Server Essentials, необходимо выполнить следующие действия.
 
 -   [Шаг 5а. Включение DirectAccess через консоль управления удаленным доступом](Configure-DirectAccess-in-Windows-Server-Essentials.md#BKMK_EnableDA)
@@ -245,7 +245,7 @@ ms.locfileid: "87837913"
 
 -   [Шаг 5д. Добавление раздела реестра для обхода сертификации ЦС при установке канала IPsec](Configure-DirectAccess-in-Windows-Server-Essentials.md#BKMK_CA)
 
-###  <a name="step-5a-enable-directaccess-by-using-the-remote-access-management-console"></a><a name="BKMK_EnableDA"></a>Шаг 5A. Включение DirectAccess с помощью консоли управления удаленным доступом
+###  <a name="step-5a-enable-directaccess-by-using-the-remote-access-management-console"></a><a name="BKMK_EnableDA"></a> Шаг 5A. Включение DirectAccess с помощью консоли управления удаленным доступом
  В этом разделе приводятся пошаговые инструкции по включению DirectAccess в Windows Server Essentials. Если вы еще не настроили VPN-сервер, необходимо сделать это до выполнения описанных действий. Инструкции см. в разделе [Управление VPN](Manage-VPN-in-Windows-Server-Essentials.md).
 
 ##### <a name="to-enable-directaccess-by-using-the-remote-access-management-console"></a>Включение DirectAccess через консоль управления удаленным доступом
@@ -277,7 +277,7 @@ ms.locfileid: "87837913"
         Restart-Service RaMgmtSvc
         ```
 
-###  <a name="step-5b-remove-the-invalid-ipv6prefix-in-rras-gpo-windows-server-essentials-only"></a><a name="BKMK_RemoveIPv6"></a>Шаг 5b. Удаление недопустимого IPv6Prefix в объекте групповой политики RRAS (только для Windows Server Essentials)
+###  <a name="step-5b-remove-the-invalid-ipv6prefix-in-rras-gpo-windows-server-essentials-only"></a><a name="BKMK_RemoveIPv6"></a> Шаг 5b. Удаление недопустимого IPv6Prefix в объекте групповой политики RRAS (только для Windows Server Essentials)
   Этот раздел относится к серверу, на котором выполняется Windows Server Essentials.
 
  Откройте Windows PowerShell от имени администратора и выполните следующие команды.
@@ -289,7 +289,7 @@ Remove-GPRegistryValue -Name "DirectAccess Server Settings" -Key $key.Name -Valu
 gpupdate
 ```
 
-###  <a name="step-5c-enable-client-computers-running-windows-7-enterprise-to-use-directaccess"></a><a name="BKMK_Step4cWindows7Setup"></a>Шаг 5C. Включение использования DirectAccess клиентскими компьютерами под управлением Windows 7 Корпоративная
+###  <a name="step-5c-enable-client-computers-running-windows-7-enterprise-to-use-directaccess"></a><a name="BKMK_Step4cWindows7Setup"></a> Шаг 5C. Включение использования DirectAccess клиентскими компьютерами под управлением Windows 7 Корпоративная
  Если у вас есть клиентские компьютеры под управлением Windows 7 Корпоративная, выполните следующую процедуру, чтобы включить DirectAccess с этих компьютеров.
 
 ##### <a name="to-enable--windows-7-enterprise-computers-to-use-directaccess"></a>Включение использования DirectAccess компьютерами под управлением Windows 7 Enterprise
@@ -312,7 +312,7 @@ gpupdate
 >
 >    Эта проблема была решена в Windows Server Essentials.
 
-###  <a name="step-5d-configure-the-network-location-server"></a><a name="BKMK_NLS"></a>Шаг 5D. Настройка сервера сетевых расположений
+###  <a name="step-5d-configure-the-network-location-server"></a><a name="BKMK_NLS"></a> Шаг 5D. Настройка сервера сетевых расположений
  Этот раздел содержит поэтапные инструкции по настройке параметров сервера сетевых расположений.
 
 > [!NOTE]
@@ -328,7 +328,7 @@ gpupdate
 
 4.  Выполните инструкции для завершения работы мастера и нажмите кнопку **Готово**.
 
-###  <a name="step-5e-add-a-registry-key-to-bypass-ca-certification-when-you-establish-an-ipsec-channel"></a><a name="BKMK_CA"></a>Шаг 5e. Добавление раздела реестра для обхода сертификации ЦС при установке канала IPsec
+###  <a name="step-5e-add-a-registry-key-to-bypass-ca-certification-when-you-establish-an-ipsec-channel"></a><a name="BKMK_CA"></a> Шаг 5e. Добавление раздела реестра для обхода сертификации ЦС при установке канала IPsec
  Теперь вам следует настроить сервер на обход сертификации ЦС при установке канала IPsec.
 
 ##### <a name="to-add-a-registry-key-to-bypass-the-ca-certification"></a>Добавление раздела реестра для обхода сертификации ЦС
@@ -348,7 +348,7 @@ gpupdate
 >
 >  `Set-ItemProperty -Path HKLM:\SYSTEM\CurrentControlSet\Services\IKEEXT\Parameters -Name ikeflags -Type DWORD -Value 0x8000`
 
-##  <a name="step-6-configure-name-resolution-policy-table-settings-for-the-directaccess-server"></a><a name="BKMK_NRPT"></a>Шаг 6. Настройка параметров таблица политики разрешения имен для сервера DirectAccess
+##  <a name="step-6-configure-name-resolution-policy-table-settings-for-the-directaccess-server"></a><a name="BKMK_NRPT"></a> Шаг 6. Настройка параметров таблица политики разрешения имен для сервера DirectAccess
  В этом разделе приведены инструкции по изменению записей таблицы политики разрешения имен (NPRT) для внутренних адресов (например, записей с суффиксом contoso.local) для объектов групповой политики клиента DirectAccess, а также по дальнейшей установке адреса интерфейса IPHTTPS.
 
 #### <a name="to-configure-name-resolution-policy-table-entries"></a>Настройка записей таблицы политики разрешения имен
@@ -366,7 +366,7 @@ gpupdate
     >
     >  `(Get-NetIPInterface -InterfaceAlias IPHTTPSInterface | Get-NetIPAddress -PrefixLength 128)[1].IPAddress`
 
-##  <a name="step-7-configure-tcp-and-udp-firewall-rules-for-the-directaccess-server-gpos"></a><a name="BKMK_TCPUDP"></a>Шаг 7. Настройка правил брандмауэра TCP и UDP для объектов групповой политики сервера DirectAccess
+##  <a name="step-7-configure-tcp-and-udp-firewall-rules-for-the-directaccess-server-gpos"></a><a name="BKMK_TCPUDP"></a> Шаг 7. Настройка правил брандмауэра TCP и UDP для объектов групповой политики сервера DirectAccess
  В этот раздел входят пошаговые инструкции по настройке правил брандмауэра TCP и UDP для объектов групповой политики сервера DirectAccess.
 
 #### <a name="to-configure-firewall-rules"></a>Настройка правил брандмауэра
@@ -381,14 +381,14 @@ gpupdate
 
 5.  Повторите ту же процедуру для **Сервера доменных имен (входящий трафик UDP)**.
 
-##  <a name="step-8-change-the-dns64-configuration-to-listen-to-the-ip-https-interface"></a><a name="BKMK_DNS64"></a>Шаг 8. изменение конфигурации DNS64 для прослушивания интерфейса IP-HTTPS
+##  <a name="step-8-change-the-dns64-configuration-to-listen-to-the-ip-https-interface"></a><a name="BKMK_DNS64"></a> Шаг 8. изменение конфигурации DNS64 для прослушивания интерфейса IP-HTTPS
  Чтобы выполнялось ожидание передачи данных интерфейса IP-HTTPS, конфигурацию DNS64 необходимо изменить при помощи следующей команды Windows PowerShell.
 
 ```powershell
 Set-NetDnsTransitionConfiguration -AcceptInterface IPHTTPSInterface
 ```
 
-##  <a name="step-9-reserve-ports-for-the-winnat-service"></a><a name="BKMK_ExemptPort"></a>Шаг 9. резервирование портов для службы WinNat
+##  <a name="step-9-reserve-ports-for-the-winnat-service"></a><a name="BKMK_ExemptPort"></a> Шаг 9. резервирование портов для службы WinNat
  Чтобы зарезервировать порты для службы WinNat, используйте следующие команды Windows PowerShell. Замените "192.168.1.100" фактическим IPv4-адресом сервера Windows Server Essentials.
 
 ```powershell
@@ -398,14 +398,14 @@ Set-NetNatTransitionConfiguration -IPv4AddressPortPool @("192.168.1.100, 10000-4
 > [!IMPORTANT]
 >  Во избежание конфликтов с приложениями убедитесь, что в диапазон зарезервированных для службы WinNat портов не входит порт 6602.
 
-##  <a name="step-10-restart-the-winnat-service"></a><a name="BKMK_WinNAT"></a>Шаг 10. перезапуск службы WinNat
+##  <a name="step-10-restart-the-winnat-service"></a><a name="BKMK_WinNAT"></a> Шаг 10. перезапуск службы WinNat
  Перезапустите службу драйвера NAT Windows (WinNat) с помощью следующей команды Windows PowerShell.
 
 ```powershell
 Restart-Service winnat
 ```
 
-##  <a name="appendix-set-up-directaccess-by-using-windows-powershell"></a><a name="BKMK_AppendixBPowerShellScript"></a>Приложение. Настройка DirectAccess с помощью Windows PowerShell
+##  <a name="appendix-set-up-directaccess-by-using-windows-powershell"></a><a name="BKMK_AppendixBPowerShellScript"></a> Приложение. Настройка DirectAccess с помощью Windows PowerShell
  Этот раздел описывает установку и настройку DirectAccess с помощью Windows PowerShell.
 
 ### <a name="preparation"></a>Подготовка

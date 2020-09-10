@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: f6e05aec-d07c-4e0b-94ab-f20279e9ffd1
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: aae5c0c8a3a98b25d13d7bf11f6fb14963714c24
-ms.sourcegitcommit: 04637054de2bfbac66b9c78bad7bf3e7bae5ffb4
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: 52493dae886eb8f74a6276854c7b7cce2f77470f
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87837923"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89623207"
 ---
 # <a name="manage-branchcache-in-windows-server-essentials"></a>Управление BranchCache в Windows Server Essentials
 

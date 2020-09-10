@@ -3,16 +3,16 @@ title: Общие сведения о паролях
 description: Безопасность Windows Server
 ms.topic: article
 ms.assetid: f608960e-2039-4c91-9c8c-9b81053c675e
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/12/2016
-ms.openlocfilehash: 4f38ee2062b2c154cc99a22a398e02e823a47ca2
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 1b917691f931836605cfe044c725f5200925d2ca
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87996080"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89621881"
 ---
 # <a name="passwords-overview"></a>Общие сведения о паролях
 

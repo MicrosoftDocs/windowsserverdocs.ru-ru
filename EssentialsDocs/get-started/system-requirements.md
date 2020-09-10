@@ -5,14 +5,14 @@ ms.date: 10/31/2013
 ms.topic: article
 ms.assetid: 0951a67d-492f-41ad-9ae5-8e4cd25e3041
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: 9e730ea3fe0deeca84759c546e3f4afa76e5c7d8
-ms.sourcegitcommit: 1eaad076ea74e72b36e8893aaa15f3e5f4237bd6
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: 39b74722b9f3036bab5face5d48c9a5a5af3da90
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "88659379"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89622393"
 ---
 # <a name="system-requirements-for-windows-server-essentials"></a>Системные требования к Windows Server Essentials
 
@@ -26,7 +26,7 @@ ms.locfileid: "88659379"
 |Компонент|Минимальные|Рекомендуемые требования*|Максимум|
 |---------------|-------------|-------------------|-------------|
 |Центральный процессор|1,4 ГГц (64-разрядный процессор) или быстрее для одноядерных процессоров<br /><br /> 1,3 ГГц (64-разрядный процессор) или быстрее для многоядерных процессоров|3,1 ГГц (64-разрядный процессор) или быстрее для многоядерных процессоров|2 ЦП|
-|Память (ОЗУ)|2 ГБ<br /><br /> 4 ГБ при развертывании Windows Server Essentials в качестве виртуальной машины|16 ГБ|64 ГБ|
+|Память (ОЗУ)|2 ГБ<br /><br /> 4 ГБ при развертывании Windows Server Essentials в качестве виртуальной машины|16 Гб|64 ГБ|
 |Жесткие диски и свободное дисковое пространство|Жесткий диск объемом 160 ГБ, системный раздел 60 ГБ||Без ограничений|
 
  *Рекомендуемые требования к оборудованию для поддержки максимально ограниченного количества пользователей и устройств.
