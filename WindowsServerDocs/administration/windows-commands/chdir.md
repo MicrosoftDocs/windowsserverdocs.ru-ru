@@ -3,16 +3,16 @@ title: chdir
 description: Справочная статья по команде chdir, которая выполняет те же действия, что и команда CD.
 ms.topic: reference
 ms.assetid: 8d78901e-4f6e-4cb6-9ff8-ccf5a9d04fac
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 06b0187c371dffc60e0e5dcbc3be8acd3ff09c10
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 4436c1913558ad296bcf347fe7deecaeff24a313
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89031072"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89629812"
 ---
 # <a name="chdir"></a>chdir
 

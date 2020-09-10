@@ -3,16 +3,16 @@ title: color
 description: Справочная статья по команде Color, которая изменяет цвет переднего плана и фона в окне командной строки для текущего сеанса.
 ms.topic: reference
 ms.assetid: f5b67131-d196-45ec-a3f9-b5d9f091fd86
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 3ce7aa8e927e3796917d2720495f394636d9c240
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: feb4d4a2de9491636a1c96b7a16c80e2e18f5865
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89028462"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89629506"
 ---
 # <a name="color"></a>color
 
@@ -36,7 +36,7 @@ color [[<b>]<f>]
 
 В следующей таблице перечислены допустимые шестнадцатеричные цифры, которые можно использовать в качестве значений для параметров `<b>` и `<f>` .
 
-| Значение | Цвет |
+| Значение | Color |
 | ----- | ----- |
 | 0 | Черный |
 | 1 | Синий |
@@ -50,12 +50,12 @@ color [[<b>]<f>]
 | 9 | Светло-синий |
 | а | светло-зеленый |
 | b | Светло-голубой |
-| с | Светло-красный |
+| c | Светло-красный |
 | d | Светло-фиолетовый |
-| Д. | Светло-желтый |
+| й | Светло-желтый |
 | f | Светлое белое |
 
-#### <a name="remarks"></a>Remarks
+#### <a name="remarks"></a>Примечания
 
 - Не используйте пробелы между `<b>` и `<f>` .
 

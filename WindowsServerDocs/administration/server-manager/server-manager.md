@@ -3,16 +3,16 @@ title: Диспетчер серверов
 description: Диспетчер серверов
 ms.topic: article
 ms.assetid: d996ef40-8bcc-42b0-b6ae-806b828223f6
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: fbe1a6f787bcc2704ae1fa8dd00e43c406624fa0
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: c02ba333fb37d150dae08fd83ec8883a83d3fdb5
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87895730"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89627797"
 ---
 # <a name="server-manager"></a>Диспетчер серверов
 
@@ -51,7 +51,7 @@ ms.locfileid: "87895730"
 |----------|-----------|
 | Windows Server 2012 R2 или Windows Server 2012 |-   [.NET Framework 4,6](https://www.microsoft.com/download/details.aspx?id=45497)<br />-   [Windows Management Framework 5,0](https://go.microsoft.com/fwlink/?LinkID=395058). Windows Management Framework 5,0 downloads Package Updates инструментарий управления Windows (WMI) (WMI) providers for Windows Server 2012 R2 and Windows Server 2012. Обновленные поставщики WMI позволяют диспетчер сервера собираются сведения о ролях и компонентах, установленных на управляемых серверах. До применения обновления серверы, работающие под управлением Windows Server 2012 R2 или Windows Server 2012, имеют состояние управляемости **недоступно**.<br />— Обновление для повышения производительности, связанное с [статьей базы знаний 2682011](https://go.microsoft.com/fwlink/p/?LinkID=245487) , больше не требуется на серверах под управлением windows Server 2012 R2 или windows Server 2012.|
 | Windows Server 2008 R2 |-   [.NET Framework 4,5](https://www.microsoft.com/download/details.aspx?id=30653)<br />-   [Windows Management Framework 4,0](https://go.microsoft.com/fwlink/?LinkId=293881). Windows Management Framework 4,0 downloads Package Updates инструментарий управления Windows (WMI) (WMI) providers in Windows Server 2008 R2. Обновленные поставщики WMI позволяют диспетчер сервера собираются сведения о ролях и компонентах, установленных на управляемых серверах. До применения обновления серверы, работающие под управлением Windows Server 2008 R2, имеют состояние управляемости **недоступно**.<br />— Обновление производительности, связанное с [статьей базы знаний 2682011](https://go.microsoft.com/fwlink/p/?LinkID=245487) , позволяет диспетчер сервера собираются данные производительности с Windows Server 2008 R2.|
-| Windows Server 2008 |-   [.NET Framework 4](https://www.microsoft.com/download/en/details.aspx?id=17718)<br />-   [Windows Management Framework 3,0](https://go.microsoft.com/fwlink/p/?LinkID=229019) Windows Management Framework 3,0 downloads Package Updates инструментарий управления Windows (WMI) (WMI) providers in Windows Server 2008. Обновленные поставщики WMI позволяют диспетчер сервера собираются сведения о ролях и компонентах, установленных на управляемых серверах. Пока обновление не будет применено, серверы, работающие под управлением Windows Server 2008, имеют состояние управляемости **недоступно. Проверьте более ранние версии запуска Windows Management Framework 3,0**.<br />— Обновление производительности, связанное с [статьей базы знаний 2682011](https://go.microsoft.com/fwlink/p/?LinkID=245487) , позволяет диспетчер сервера собираются данные производительности с Windows Server 2008.|
+| Windows Server 2008 |-   [.NET Framework 4](https://www.microsoft.com/download/en/details.aspx?id=17718)<br />-   [Windows Management Framework 3,0](https://go.microsoft.com/fwlink/p/?LinkID=229019) Windows Management Framework 3,0 downloads Package Updates инструментарий управления Windows (WMI) (WMI) providers in Windows Server 2008. Обновленные поставщики WMI позволяют диспетчер сервера собираются сведения о ролях и компонентах, установленных на управляемых серверах. Пока обновление не будет применено, серверы, работающие под управлением Windows Server 2008, имеют состояние управляемости **недоступно. Проверьте более ранние версии запуска Windows Management Framework 3,0**.<br />— Обновление производительности, связанное с [статьей базы знаний 2682011](https://go.microsoft.com/fwlink/p/?LinkID=245487) , позволяет диспетчер сервера собираются данные производительности с Windows Server 2008.|
 
 #### <a name="manage-remote-computers-from-a-client-computer"></a>Управление удаленными компьютерами с клиентского компьютера
 Консоль диспетчер сервера входит в состав [средства удаленного администрирования сервера](https://go.microsoft.com/fwlink/?LinkID=404281) для Windows 10. Обратите внимание, что при установке средства удаленного администрирования сервера на клиентском компьютере управлять локальным компьютером с помощью диспетчер сервера нельзя. Диспетчер сервера нельзя использовать для управления компьютерами или устройствами, работающими под управлением клиентской операционной системы Windows. Диспетчер сервера можно использовать только для управления серверами на базе Windows.

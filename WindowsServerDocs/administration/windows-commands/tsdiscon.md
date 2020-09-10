@@ -3,16 +3,16 @@ title: tsdiscon
 description: Справочная статья по тсдискон, которая отключает сеанс от сервера узла сеансов удаленных рабочих столов.
 ms.topic: reference
 ms.assetid: 13139674-7dee-4965-8cac-32f4928e8b9a
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 9fd0292ab1bd53a424c0acaa4b6a2dc98cb1f0a0
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: b116dfe8dc5ac3a689cae23ebba17b202b509897
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89026862"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89628556"
 ---
 # <a name="tsdiscon"></a>tsdiscon
 
@@ -40,7 +40,7 @@ tsdiscon [<SessionID> | <SessionName>] [/server:<ServerName>] [/v]
 |/v|Отображает сведения о выполняемых действиях.|
 |/?|Отображение справки в командной строке.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Примечания
 -   Для отключения другого пользователя от сеанса необходимо иметь разрешение "полный доступ" или "отключить специальное разрешение".
 -   Если идентификатор сеанса или имя сеанса не указаны, **тсдискон** отключает текущий сеанс.
 -   Все приложения, которые выполнялись в момент отключения сеанса, автоматически запускаются при повторном подключении к этому сеансу без потери данных. Используйте **Сброс сеанса** для завершения работающих приложений отключенного сеанса, но имейте в виду, что это может привести к потере данных в сеансе.

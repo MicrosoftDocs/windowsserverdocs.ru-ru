@@ -3,16 +3,16 @@ title: tracerpt
 description: Справочная статья по Tracerpt, которая анализирует журналы трассировки событий, файлы журналов, созданные монитором производительности, и поставщики трассировки событий в реальном времени.
 ms.topic: reference
 ms.assetid: cb9eaf86-0ef6-4197-b6c8-9cca8a1d723c
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 250c938963342ca46308f601b00d44773638a4ad
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 183f34b7287301c7cf5c58644150fc59dee1576d
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89026952"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89628560"
 ---
 # <a name="tracerpt"></a>tracerpt
 

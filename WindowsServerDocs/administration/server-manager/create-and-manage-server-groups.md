@@ -3,16 +3,16 @@ title: Create and Manage Server Groups
 description: Диспетчер серверов
 ms.topic: article
 ms.assetid: 9d5b1be8-49fd-4ff7-9580-e4ff21fe4b17
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 496d950f8b73b141821963a028b01c71d5375447
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: b9afff5a5080487ee14759d27537b2ce1278f5e1
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87895792"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89628334"
 ---
 # <a name="create-and-manage-server-groups"></a>Создание групп серверов и управление ими
 

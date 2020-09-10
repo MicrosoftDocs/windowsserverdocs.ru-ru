@@ -3,16 +3,16 @@ title: create volume stripe
 description: Справочная статья по команде создания тома Stripe, которая создает чередующийся том с использованием двух или более указанных динамических дисков.
 ms.topic: reference
 ms.assetid: 20dce735-5f7c-4f83-a580-d087e2913a00
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 4ae826a1f4f079cff28f10012af51797389e24e8
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: b8e2265a264b96a0c966a7548b1323c469392af3
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89033112"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89629027"
 ---
 # <a name="create-volume-stripe"></a>create volume stripe
 

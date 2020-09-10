@@ -3,16 +3,16 @@ title: del
 description: Справочная статья по команде Del, которая удаляет один или несколько файлов.
 ms.topic: reference
 ms.assetid: 346eede2-2085-44f5-9936-6877b5d5a833
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 9d7b5c3dd59da3bd15341b985476a88c8d828cfd
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: bb7c060dbcfe4d08018b5616e5227b64a0434e28
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89024228"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89628890"
 ---
 # <a name="del"></a>del
 
@@ -42,7 +42,7 @@ erase [/p] [/f] [/s] [/q] [/a[:]<attributes>] <names>
 | /a [:]`<attributes>` | Удаляет файлы на основе следующих атрибутов файлов:<ul><li>файлы **r** только для чтения</li><li>**h** скрытые файлы</li><li>**я** не проиндексированные файлы содержимого</li><li>**системные файлы**</li><li>файлы **,** готовые к архивации</li><li>**l** точки повторного анализа</li><li>**-** Используется в качестве префикса, означающего "not"</li></ul>. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Remarks
+#### <a name="remarks"></a>Примечания
 
 - При использовании `del /p` команды вы увидите следующее сообщение:
 

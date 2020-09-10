@@ -3,16 +3,16 @@ title: create volume simple
 description: Справочная статья по команде CREATE VOLUME Simple, которая создает простой том на указанном динамическом диске.
 ms.topic: reference
 ms.assetid: da0f208d-7fda-471a-9db2-5de5ba5207c6
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: e1eeca9aedfcd473d937017b5889c1f58880e10a
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 473ee42e996960af3e0f27579283114ca0b3e7f3
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89033122"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89629068"
 ---
 # <a name="create-volume-simple"></a>create volume simple
 

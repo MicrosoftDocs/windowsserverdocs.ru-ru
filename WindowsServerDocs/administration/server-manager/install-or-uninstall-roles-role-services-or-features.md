@@ -3,16 +3,16 @@ title: Установка и удаление ролей, служб ролей 
 description: Диспетчер серверов
 ms.topic: article
 ms.assetid: 04f16d84-45c2-4771-84c1-1cc973d0ee02
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 3d77ad8e55c8e61f2419cfd1c7ad8c8ce8195022
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 91cc11133d42168197541e451da27771a377bab9
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87895780"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89628401"
 ---
 # <a name="install-or-uninstall-roles-role-services-or-features"></a>Установка и удаление ролей, служб ролей и компонентов
 

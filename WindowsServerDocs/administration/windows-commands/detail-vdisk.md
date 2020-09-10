@@ -3,16 +3,16 @@ title: detail vdisk
 description: Справочная статья по команде Detail vdisk, в которой отображаются свойства выбранного виртуального жесткого диска (VHD).
 ms.topic: reference
 ms.assetid: da0f350c-1ce3-4c3f-988c-15f83402e716
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 1d57753c155962fcdc6a8cd3482713593a867eba
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: ec9bdb56bcd97ecfe0f9a824dd4e55b295e67ceb
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89024068"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89628681"
 ---
 # <a name="detail-vdisk"></a>detail vdisk
 

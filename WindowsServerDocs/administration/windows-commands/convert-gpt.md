@@ -3,16 +3,16 @@ title: convert gpt
 description: Справочная статья по команде Convert GPT, которая преобразует пустой базовый диск с стилем разделов основной загрузочной записи (MBR) в базовый диск с стилем разделов таблицы разделов GPT.
 ms.topic: reference
 ms.assetid: b3b1b747-0a7a-4be2-8487-2c4be16ee190
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 04b1bacee89e7553aa4ed37337c4667bc93d5da3
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 040bf89e020076e923f01f5cd20450c7d7fb820a
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89025888"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89629312"
 ---
 # <a name="convert-gpt"></a>convert gpt
 

@@ -3,16 +3,16 @@ title: Get-Server
 description: Справочная статья по Get-Server, которая получает сведения с указанного сервера служб развертывания Windows.
 ms.topic: reference
 ms.assetid: bef60db4-d58d-4304-ab4b-be53dd3271c3
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 13bceebfb619fc93cbab7b2b45d3dd34838760ed
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: fe55e707dda58e65d2b86fe553910d010f8b2586
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89029502"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89628508"
 ---
 # <a name="get-server"></a>Get-Server
 

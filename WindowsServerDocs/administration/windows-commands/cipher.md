@@ -3,16 +3,16 @@ title: cipher
 description: Справочная статья по команде cipher, которая отображает или изменяет шифрование каталогов и файлов на томах NTFS.
 ms.topic: reference
 ms.assetid: 78ef795e-0f87-4acd-8d15-192c972c0f41
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 28d4342a43b3b66c2dd40f9041dbb72e97ec234b
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: ff3c98a3533b77f257c2f1bd4d7102ccd0eed1f7
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89026008"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89629678"
 ---
 # <a name="cipher"></a>cipher
 
@@ -54,7 +54,7 @@ cipher /rekey [pathname [...]]
 | /ремовеусер/церсаш:`<hash>` | Удаляет пользователя из указанных файлов. *Хэш* , предоставленный для **/церсаш** , должен быть хэшем SHA1 удаляемого сертификата. |
 | /? | Отображение справки в командной строке. |
 
-### <a name="remarks"></a>Remarks
+### <a name="remarks"></a>Примечания
 
 - Если родительский каталог не зашифрован, зашифрованный файл может быть расшифрован при его изменении. Поэтому при шифровании файла также следует зашифровать родительский каталог.
 

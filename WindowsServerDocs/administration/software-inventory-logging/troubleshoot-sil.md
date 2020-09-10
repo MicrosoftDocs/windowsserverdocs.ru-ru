@@ -3,15 +3,15 @@ title: Устранение неполадок инвентаризации пр
 description: Описание способов устранения распространенных проблем развертывания ведения журнала инвентаризации программного обеспечения.
 ms.topic: article
 author: brentfor
-ms.author: coreyp
-manager: lizapo
+ms.author: brentf
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: c2c00f9b3981f35e30b794d778ecc32ad712ae54
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 71a6c4a04a0a9da45d020f71b3bb0685cd5c0c59
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87895650"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89628169"
 ---
 # <a name="troubleshoot-software-inventory-logging"></a>Устранение неполадок инвентаризации программного обеспечения
 

@@ -3,16 +3,16 @@ title: compact
 description: Справочная статья по команде Compact, которая отображает или изменяет сжатие файлов или каталогов в разделах NTFS.
 ms.topic: reference
 ms.assetid: 429b3752-df0a-43a4-a210-df2f3ad03c3b
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 210aaf8c20741659bb29d4855ae39099c964a400
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: a0d43fce44b7de6ecc5b435b7ed5f2de88ed0b9f
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89025948"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89629381"
 ---
 # <a name="compact"></a>compact
 
@@ -38,7 +38,7 @@ compact [/c | /u] [/s[:<dir>]] [/a] [/i] [/f] [/q] [<filename>[...]]
 | `<filename>` | Указывает файл или каталог. Можно использовать несколько имен файлов, а также **&#42;** и **?** подстановочные знаки. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Remarks
+#### <a name="remarks"></a>Примечания
 
 - Эта команда представляет собой версию функции сжатия файловой системы NTFS в командной строке. Состояние сжатия каталога указывает, будут ли файлы автоматически сжиматься при добавлении в каталог. Задание состояния сжатия каталога не обязательно приводит к изменению состояния сжатия файлов, которые уже находятся в каталоге.
 

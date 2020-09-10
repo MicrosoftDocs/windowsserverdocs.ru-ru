@@ -3,17 +3,17 @@ title: Add Servers to Server Manager
 description: Диспетчер серверов
 ms.topic: article
 ms.assetid: aab895f2-fe4d-4408-b66b-cdeadbd8969e
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.localizationpriority: medium
 ms.date: 02/01/2018
-ms.openlocfilehash: b1c3e2f1c521615ff365642566745411db8aa612
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: f8c3a2088533924f38b49454ab6f810c7cc9aa2e
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87991934"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89628477"
 ---
 # <a name="add-servers-to-server-manager"></a>Add Servers to Server Manager
 

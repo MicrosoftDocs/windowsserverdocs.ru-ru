@@ -3,16 +3,16 @@ title: cmd
 description: Справочная статья по команде cmd, запускающей новый экземпляр интерпретатора команд Cmd.exe.
 ms.topic: reference
 ms.assetid: 6ec588db-31a9-4a73-a970-65a2c6f4abbe
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: b782a93d4c61f43bbe45497871fe66f29ef972a4
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 96af9d997d9163631f3da364d960a83edb7bfe5a
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89030982"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89629598"
 ---
 # <a name="cmd"></a>cmd
 
@@ -47,7 +47,7 @@ cmd [/c|/k] [/s] [/q] [/d] [/a|/u] [/t:{<b><f> | <f>}] [/e:{on | off}] [/f:{on |
 
 В следующей таблице перечислены допустимые шестнадцатеричные цифры, которые можно использовать в качестве значений для параметров `<b>` и `<f>` .
 
-| Значение | Цвет |
+| Значение | Color |
 | ----- | ----- |
 | 0 | Черный |
 | 1 | Синий |
@@ -61,12 +61,12 @@ cmd [/c|/k] [/s] [/q] [/d] [/a|/u] [/t:{<b><f> | <f>}] [/e:{on | off}] [/f:{on |
 | 9 | Светло-синий |
 | а | светло-зеленый |
 | b | Светло-голубой |
-| с | Светло-красный |
+| c | Светло-красный |
 | d | Светло-фиолетовый |
-| Д. | Светло-желтый |
+| й | Светло-желтый |
 | f | Светлое белое |
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Примечания
 
 - Чтобы использовать несколько команд для `<string>` , разделите их по разделителю команд **&&** и заключите их в кавычки. Пример:
 
