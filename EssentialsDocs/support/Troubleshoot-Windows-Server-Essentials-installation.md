@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: ecf19216-7aac-4aca-839a-342ac28f5329
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: 4afba33d105f0348aaf7c130ccbe5a3b87fc1cb2
-ms.sourcegitcommit: 04637054de2bfbac66b9c78bad7bf3e7bae5ffb4
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: d46e760fd168d44cb8f036d6b1b28180db2ffce2
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87838313"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89625110"
 ---
 # <a name="troubleshoot-windows-server-essentials-installation"></a>Устранение неполадок с установкой Windows Server 2012 R2 Essentials
 
@@ -33,7 +33,7 @@ ms.locfileid: "87838313"
 > [!NOTE]
 >  Для получения последних сведений об устранении неполадок из сообщества Windows Server Essentials мы рекомендуем посетить [форум Windows Server Essentials](/answers/topics/windows-server-essentials.html/threads). Форум Windows Server Essentials — это отличный ресурс, на котором можно получить помощь или задать вопрос.
 
-##  <a name="general-troubleshooting-steps"></a><a name="BKMK_GeneralTroubleshootingSteps"></a>Общие действия по устранению неполадок
+##  <a name="general-troubleshooting-steps"></a><a name="BKMK_GeneralTroubleshootingSteps"></a> Общие действия по устранению неполадок
  В случае сбоя установки Windows Server Essentials выполните следующие действия, чтобы определить проблему, которая привела к сбою.
 
 > [!IMPORTANT]
@@ -56,12 +56,12 @@ ms.locfileid: "87838313"
 
 6.  Если появляется сообщение об ошибке при настройке сервера во время установки, воспользуйтесь DVD-диском восстановления сервера и инструкциями, предоставленными производителем оборудования, чтобы восстановить параметры сервера до заводских настроек по умолчанию.
 
-##  <a name="troubleshoot-driver-issues"></a><a name="BKMK_TroubleshootDrivers"></a>Устранение неполадок с драйверами
+##  <a name="troubleshoot-driver-issues"></a><a name="BKMK_TroubleshootDrivers"></a> Устранение неполадок с драйверами
  Наиболее распространенной проблемой при установке Windows Server Essentials являются контроллеры хранилища, на которых необходимо установить драйверы вручную. Windows предлагает драйверы для многих контроллеров запоминающих устройств, однако драйверы для конкретного оборудования могут отсутствовать.
 
  Возможно, вам понадобится вручную установить драйверы сетевой карты для вашего оборудования.
 
-###  <a name="adding-drivers-for-storage-controllers"></a><a name="BKMK_StorageDrivers"></a>Добавление драйверов для контроллеров хранилища
+###  <a name="adding-drivers-for-storage-controllers"></a><a name="BKMK_StorageDrivers"></a> Добавление драйверов для контроллеров хранилища
  Если оборудование требует наличия драйверов хранилища, которые не входят в состав Windows Server Essentials, используйте следующую информацию для завершения установки.
 
  Если во время установки отображается следующее сообщение, необходимо вручную добавить драйверы для контроллера запоминающего устройства.
@@ -95,7 +95,7 @@ ms.locfileid: "87838313"
 
    Программа установки должна продолжаться в обычном режиме.
 
-###  <a name="adding-drivers-for-network-adapters"></a><a name="BKMK_AddingNICdrivers"></a>Добавление драйверов для сетевых адаптеров
+###  <a name="adding-drivers-for-network-adapters"></a><a name="BKMK_AddingNICdrivers"></a> Добавление драйверов для сетевых адаптеров
  Если сетевой адаптер компьютера не поддерживается Windows Server Essentials, сервер не будет подключен к сети после завершения установки, и вы не сможете подключить компьютеры к серверу.
 
  В конце установки Windows Server Essentials вы получаете уведомление о том, что драйвер сетевого адаптера не был установлен автоматически. Для проверки отсутствующего драйвера сетевого адаптера можно также использовать компонент **Сетевые подключения** панели управления. Если сетевое подключение, связанное с сетевым адаптером на сервере не отображается, необходимо установить драйвер.

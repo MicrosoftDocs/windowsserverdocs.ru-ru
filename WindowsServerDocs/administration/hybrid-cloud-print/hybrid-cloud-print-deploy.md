@@ -4,15 +4,15 @@ description: Настройка гибридной облачной печати
 ms.assetid: fc239aec-e719-47ea-92fc-d82a7247c5e9
 ms.topic: how-to
 author: msjimwu
-ms.author: coreyp
-manager: dongill
+ms.author: jimwu
+manager: mtillman
 ms.date: 3/15/2018
-ms.openlocfilehash: 253cf78e39809473fc865de90915b6a9f870d098
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 769e9db9be5121b47c72b076bba3a78be841c5de
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87992768"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89625153"
 ---
 # <a name="deploy-windows-server-hybrid-cloud-print"></a>Развертывание функции Hybrid Cloud Print в Windows Server
 
@@ -48,7 +48,7 @@ ms.locfileid: "87992768"
 
   Вы можете использовать имя домена, созданное Azure (*имя_домена*. onmicrosoft.com), или приобрести собственное доменное имя. См. раздел [Добавление имени личного домена с помощью портала Azure Active Directory](/azure/active-directory/fundamentals/add-custom-domain).
 
-## <a name="deployment-steps"></a>Шаги по развертыванию
+## <a name="deployment-steps"></a>Этапы развертывания
 
 Приведенные ниже шаги предназначены для типичного гибридного развертывания для печати в облаке.
 
@@ -181,7 +181,7 @@ ms.locfileid: "87992768"
 2. Установите модули PowerShell для гибридной облачной печати.
     - Выполните следующие команды из командной строки PowerShell с повышенными привилегиями:
 
-        `find-module -Name PublishCloudPrinter`чтобы убедиться, что компьютер может достичь коллекция PowerShell (PSGallery)
+        `find-module -Name PublishCloudPrinter` чтобы убедиться, что компьютер может достичь коллекция PowerShell (PSGallery)
 
         `install-module -Name PublishCloudPrinter`
 
@@ -210,7 +210,7 @@ ms.locfileid: "87992768"
 
     ![Развертывание сервера печати в облаке](../media/hybrid-cloud-print/PrintServer-CloudPrintDeploy.png)
 
-    - Проверьте файл журнала, чтобы узнать, есть ли какие-либо ошибки:`C:\Program Files\WindowsPowerShell\Modules\PublishCloudPrinter\1.0.0.0\CloudPrintDeploy.log`
+    - Проверьте файл журнала, чтобы узнать, есть ли какие-либо ошибки: `C:\Program Files\WindowsPowerShell\Modules\PublishCloudPrinter\1.0.0.0\CloudPrintDeploy.log`
 
 4. Запустите **регитедит** в командной строке с повышенными привилегиями. К компьютеру \ HKEY_LOCAL_MACHINE \Софтваре\микрософт\виндовс\куррентверсион\клаудпринт\ентерприсеклаудпринтсервице.
     - Убедитесь, что для Азуреаудиенце задан универсальный код ресурса (URI) идентификатора приложения облачного приложения для печати в облаке.
@@ -361,9 +361,9 @@ ms.locfileid: "87992768"
 
 - Значения для OMA-URI
   - Клаудпринтоаусаусорити =./вендор/мсфт/Полици/конфиг/ентерприсеклаудпринт/клаудпринтоаусаусорити
-    - Значение =`https://login.microsoftonline.com/<Azure AD Directory ID>`
+    - Значение = `https://login.microsoftonline.com/<Azure AD Directory ID>`
   - Клаудпринтоаусклиентид =./вендор/мсфт/Полици/конфиг/ентерприсеклаудпринт/клаудпринтоаусклиентид
-    - Значение =`<Azure AD Native App's Application ID>`
+    - Значение = `<Azure AD Native App's Application ID>`
   - Клаудпринтердисковерендпоинт =./вендор/мсфт/Полици/конфиг/ентерприсеклаудпринт/клаудпринтердисковерендпоинт
     - Значение = внешний URL-адрес приложения службы обнаружения Mopria (должен быть точно таким же, но без конечной части `/` )
   - Моприадисковериресаурцеид =./вендор/мсфт/Полици/конфиг/ентерприсеклаудпринт/моприадисковериресаурцеид
@@ -382,7 +382,7 @@ ms.locfileid: "87992768"
 5. Подготовьте обновление Windows 10 для создателя или более поздней версии. Присоедините компьютер к Azure AD и войдите в систему как пользователь, который синхронизируется с локальной Active Directory и ему было предоставлено соответствующее разрешение на доступ к файлу Моприадевицедб. DB.
 6. На компьютере с Windows 10 откройте командную строку Windows PowerShell с повышенными привилегиями.
     - Выполните указанные ниже команды.
-        - `find-module -Name PublishCloudPrinter`чтобы убедиться, что компьютер может достичь коллекция PowerShell (PSGallery)
+        - `find-module -Name PublishCloudPrinter` чтобы убедиться, что компьютер может достичь коллекция PowerShell (PSGallery)
         - `install-module -Name PublishCloudPrinter`
 
             > Примечание. Вы можете увидеть обмен сообщениями о том, что "PSGallery" является недоверенным репозиторием.  Введите "y", чтобы продолжить установку.
@@ -407,7 +407,7 @@ ms.locfileid: "87992768"
         - Азуретенантгуид = идентификатор каталога вашего клиента Azure AD.
         - Дисковериресаурцеид = URI идентификатора приложения для приложения службы обнаружения Mopria.
 
-    - Также можно ввести все необходимые значения параметров в командной строке. Синтаксис выглядит следующим образом.
+    - Также можно ввести все необходимые значения параметров в командной строке. Синтаксис:
 
         `Publish-CloudPrinter -Printer <string> -Manufacturer <string> -Model <string> -OrgLocation <string> -Sddl <string> -DiscoveryEndpoint <string> -PrintServerEndpoint <string> -AzureClientId <string> -AzureTenantGuid <string> -DiscoveryResourceId <string>`
 
@@ -440,7 +440,7 @@ ms.locfileid: "87992768"
 
 > Примечание. Если используется принтер Екппринттест, выходной файл можно найти на компьютере сервера печати в папке C: \\ екптестаутпут \\ екптестпринт. XPS.
 
-## <a name="troubleshooting"></a>Диагностика
+## <a name="troubleshooting"></a>Устранение неполадок
 
 Ниже приведены распространенные проблемы при развертывании HCP.
 

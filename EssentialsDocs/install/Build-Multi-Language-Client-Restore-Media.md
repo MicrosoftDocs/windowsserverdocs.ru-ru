@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 2fdbc016-d464-43cb-bd75-8a63e61588a2
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: 4057e0d6805c7633bf07960d06d97b2eab15f28a
-ms.sourcegitcommit: 04637054de2bfbac66b9c78bad7bf3e7bae5ffb4
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: 8440fe0a32128182b86d26190c9b0448c64807d8
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87838093"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89623915"
 ---
 # <a name="build-multi-language-client-restore-media"></a>Создание многоязычного носителя для восстановления клиентов
 

@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: d271c54f-1ffa-464e-afa5-27b8df61854e
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: ead1f75ce459523fbb2678ed369949f679fb3124
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: 7e10da0d87b98ef84f8b8b7ea2ec74bdd02a909e
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87180370"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89625324"
 ---
 # <a name="install-the-windows-server-essentials-log-collector"></a>Установка сборщика журналов Windows Server Essentials
 
@@ -20,7 +20,7 @@ ms.locfileid: "87180370"
 
 Мастер установки сборщика журнала Windows Server Essentials устанавливает сборщик данных журнала как надстройку панели запуска. Можно установить и использовать сборщик данных журнала на сетевых компьютерах и сервере. После установки сборщик журналов появится на панели мониторинга.
 
-###  <a name="to-install-the-log-collector"></a><a name="BKMK_ToInstall"></a>Установка сборщика данных журнала
+###  <a name="to-install-the-log-collector"></a><a name="BKMK_ToInstall"></a> Установка сборщика данных журнала
 
 1.  Скачайте пакет установки сборщика журналов на любой сервер или компьютер сети.
 
@@ -37,7 +37,7 @@ ms.locfileid: "87180370"
 
 6.  Выберите **Установить надстройку**.
 
-###  <a name="reinstalling-the-log-collector"></a><a name="BKMK_Reinstall"></a>Переустановка сборщика данных журнала
+###  <a name="reinstalling-the-log-collector"></a><a name="BKMK_Reinstall"></a> Переустановка сборщика данных журнала
  Если необходимо переустановить сборщик журналов, нужно удалить и переустановить сборщик журналов на сервере и на всех компьютерах сети. При удалении сборщика журналов с панели мониторинга на сервере сборщик журналов будет автоматически удален со всех компьютеров сети.
 
 ##### <a name="to-uninstall-and-reinstall-the-log-collector"></a>Удаление и переустановка сборщика журналов

@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 8a7b3cc1-21bb-4344-8110-f5d5959b370d
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: 498fa182c74a40f5a4b6b9c3b1dbc43df1a5d6a2
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: d6c1a721107d96f8a2a5de89f95c97ab87bf740a
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87181370"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89623758"
 ---
 # <a name="create-the-oobexml-file-including-logo-and-eula"></a>Создание файла Oobe.xml, включающего эмблему и лицензионное соглашение
 
@@ -82,5 +82,5 @@ ms.locfileid: "87181370"
 
 8.  Введите путь к изображению эмблемы и нажмите кнопку OK.
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также:
  [Начало работы с Windows Server ESSENTIALS ADK](Getting-Started-with-the-Windows-Server-Essentials-ADK.md) [Создание и Настройка образа](Creating-and-Customizing-the-Image.md) [Дополнительные настройки](Additional-Customizations.md) [Подготовка образа для развертывания](Preparing-the-Image-for-Deployment.md) [Тестирование взаимодействия с пользователем](Testing-the-Customer-Experience.md)

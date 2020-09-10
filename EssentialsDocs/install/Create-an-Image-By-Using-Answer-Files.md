@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 72809c9d-c2c9-478c-a867-65d3b9a08b95
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: 1fbf60f4b24ae1bb67adbe6e66f8bbc34550b466
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: 4bd06e993af6712d2bcd38241777a4131647cce3
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87181390"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89623791"
 ---
 # <a name="create-an-image-by-using-answer-files"></a>Создание образа с помощью файлов ответов
 

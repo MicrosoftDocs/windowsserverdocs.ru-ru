@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: e143df43-e227-4629-a4ab-9f70d9bf6e84
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: 73a2d714b80a414fbe6c3716d8e73393877a7aa4
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: 888ecc5c5ab8fd609264f0f184686a144e2f8ce8
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87180460"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89625470"
 ---
 # <a name="step-4-move-settings-and-data-to-the-destination-server-for-windows-server-essentials-migration"></a>Шаг 4. Перенос параметров и данных на целевой сервер для миграции Windows Server Essentials
 
@@ -26,7 +26,7 @@ ms.locfileid: "87180460"
 
 -   [Сопоставление разрешенных компьютеров с учетными записями пользователей](Step-4--Move-settings-and-data-to-the-Destination-Server-for-Windows-Server-Essentials-migration.md#BKMK_MapPermittedComputers)
 
-##  <a name="copy-data-to-the-destination-server"></a><a name="BKMK_CopyData"></a>Копирование данных на целевой сервер
+##  <a name="copy-data-to-the-destination-server"></a><a name="BKMK_CopyData"></a> Копирование данных на целевой сервер
  Перед копированием данных с исходного сервера на целевой сервер выполните следующие действия.
 
 -   Просмотрите список общих папок на исходном сервере, включая разрешения для каждой папки. Создайте или настройте папки на целевом сервере в соответствии со структурой папок, которую вы перемещаете с исходного сервера.
@@ -53,7 +53,7 @@ ms.locfileid: "87180460"
 
    - \<SharedSourceFolderName\> —  имя общей папки на исходном сервере
 
-   - \<PathOfTheDestination\>— Это абсолютный путь, по которому нужно переместить папку.
+   - \<PathOfTheDestination\> — Это абсолютный путь, по которому нужно переместить папку.
 
    - \<SharedDestinationFolderName\> — папка на целевом сервере, в которую будут копироваться данные
 
@@ -65,7 +65,7 @@ ms.locfileid: "87180460"
 
 4. Повторите эту процедуру для каждой общей папки, которую вы перемещаете с исходного сервера.
 
-##  <a name="configure-the-network"></a><a name="BKMK_Network"></a>Настройка сети
+##  <a name="configure-the-network"></a><a name="BKMK_Network"></a> Настройка сети
 
 #### <a name="to-configure-the-network"></a>Для настройки сети
 
@@ -84,7 +84,7 @@ ms.locfileid: "87180460"
 > [!NOTE]
 >  Если вы хотите настроить имя общедоступного домена на целевом сервере, необходимо освободить доменное имя на исходном сервере, чтобы избежать конкуренции при динамическом обновлении DNS.
 
-##  <a name="map-permitted-computers-to-user-accounts"></a><a name="BKMK_MapPermittedComputers"></a>Сопоставьте разрешенные компьютеры учетным записям пользователей
+##  <a name="map-permitted-computers-to-user-accounts"></a><a name="BKMK_MapPermittedComputers"></a> Сопоставьте разрешенные компьютеры учетным записям пользователей
  Каждая учетная запись пользователя, которая переносится из предыдущих версий Windows Small Business Server или Windows Server Essentials, должна быть сопоставлена с одним или несколькими компьютерами.
 
 #### <a name="to-map-user-accounts-to-computers"></a>Сопоставление учетных записей и компьютеров

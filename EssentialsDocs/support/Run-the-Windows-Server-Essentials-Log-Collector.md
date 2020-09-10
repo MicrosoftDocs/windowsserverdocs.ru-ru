@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 0d340223-fa24-4c75-ba8e-b654feb120ab
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: 10871d4b0fef4e3d0271d0d94ef114cc5d882abf
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: 34c853abb19424d94fa768c70fcb6c9d8d8feea8
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87180360"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89625284"
 ---
 # <a name="run-the-windows-server-essentials-log-collector"></a>Запуск сборщика журналов в Windows Server Essentials
 Сборщик журналов Windows Server Essentials можно запустить с сервера или компьютера в сети. При запуске сборщика журналов на сервере можно будет собирать журналы только с сервера. При запуске сборщика журналов на сетевом компьютере можно собирать журналы с сервера, а также журналов с этого компьютера.
@@ -49,7 +49,7 @@ ms.locfileid: "87180360"
 
     2.  Флажок **Файлы журнала клиентского компьютера (этот компьютер)** устанавливается по умолчанию, указывая на то, что сборщик журналов будет собирать журналы из сетевого компьютера, на котором он выполняется. Если требуется собирать журналы сервера, снимите флажок **Файлы журнала клиентского компьютера (этот компьютер)**.
 
-    3.  Нажмите кнопку **Далее**.
+    3.  Щелкните **Далее**.
 
 3.  При появлении соответствующего запроса введите имя пользователя и пароль для администратора сервера, а затем нажмите кнопку **Далее**.
 

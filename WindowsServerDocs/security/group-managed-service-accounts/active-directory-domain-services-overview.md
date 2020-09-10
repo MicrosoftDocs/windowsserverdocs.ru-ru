@@ -3,16 +3,16 @@ title: Общие сведения о службах домен Active Directory
 description: Безопасность Windows Server
 ms.topic: article
 ms.assetid: 6cfe9479-5d17-41d5-939a-891e5233fdca
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/12/2016
-ms.openlocfilehash: 87f8aefb2645fa13ba1c9ac98e7970fc908e7bed
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: b339d513b5bf04bf54a6ba69e4539d6148d7641c
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87997061"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89624182"
 ---
 # <a name="overview-of-active-directory-domain-services"></a>Общие сведения о службах домен Active Directory
 

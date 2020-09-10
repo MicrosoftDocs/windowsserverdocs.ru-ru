@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 99e258bc-0695-48c9-b694-a7f3cbe2a2d0
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: f23acf905e1c0b090076efd75d2e104a1cb0d186
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: 5a3ae6711d54d1c1f2bebdae6db3065fce970312
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87181360"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89623712"
 ---
 # <a name="create-the-posticcmd-file-for-running-post-initial-configuration-tasks"></a>Создание файла PostIC.cmd для выполнения задач после завершения начальной настройки
 
@@ -38,7 +38,7 @@ ms.locfileid: "87181360"
 
 4.  (Необязательно) Создайте файл SetupFailure.cmd, содержащий код, который выполняется, если файл PostIC.cmd возвращает значение, отличное от 0.
 
-###  <a name="setupfailurecmd"></a><a name="BKMK_SetupFailure"></a>Сетупфаилуре. cmd
+###  <a name="setupfailurecmd"></a><a name="BKMK_SetupFailure"></a> Сетупфаилуре. cmd
  С помощью SetupFailure.cmd можно активировать отправку уведомлений о проблемах в начальной настройке. Файл SetupFailure.cmd содержит код, который следует запускать в случае возникновения проблемы. Файл SetupFailure.cmd расположен в папке C:\Windows\Setup\Scripts; он запускается при возникновении проблемы с задачей установки или при возвращении файлом PostIC.cmd значения, отличного от 0.
 
 ##### <a name="to-define-notifications"></a>Определение уведомлений

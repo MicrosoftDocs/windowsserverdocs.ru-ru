@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 47bc4986-14eb-4a29-9930-83a25704a3a0
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: f6b5de8ea45ea219f55b04ef675a3853b403fafb
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: c1a6276199964ac7fd2eb3953cb3fac828063dfc
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87181320"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89623678"
 ---
 # <a name="customize-shared-folders"></a>Настройка общих папок
 
@@ -48,7 +48,7 @@ ms.locfileid: "87181320"
 
    Партнеры могут также оставлять папки данных на диске C. В таком случае конечный пользователь или продавец может определить структуру папок данных на дисках с данными.
 
-###  <a name="example-1-create-a-custom-folder-and-move-the-default-folders-to-a-new-location-from-posticcmd-by-using-windows-powershell"></a><a name="BKMK_Example1"></a>Пример 1. Создание настраиваемой папки и перемещение папок по умолчанию в новое расположение из папки POST. cmd с помощью Windows PowerShell
+###  <a name="example-1-create-a-custom-folder-and-move-the-default-folders-to-a-new-location-from-posticcmd-by-using-windows-powershell"></a><a name="BKMK_Example1"></a> Пример 1. Создание настраиваемой папки и перемещение папок по умолчанию в новое расположение из папки POST. cmd с помощью Windows PowerShell
 
 1.  Создайте файл PostIC.cmd для выполнения задач после завершения начальной настройки, как описано в разделе [Создание файла PostIC.cmd для выполнения задач после завершения начальной настройки](Create-the-PostIC.cmd-File-for-Running-Post-Initial-Configuration-Tasks.md).
 
@@ -94,7 +94,7 @@ ms.locfileid: "87181320"
     Set ERRORLEVEL=%error_level%
     ```
 
-###  <a name="example-2-create-a-custom-folder-and-move-an-existing-folder-by-using-the-windows-server-solutions-sdk"></a><a name="BKMK_Example2"></a>Пример 2. Создание настраиваемой папки и перемещение существующей папки с помощью пакета SDK для Windows Server Solutions
+###  <a name="example-2-create-a-custom-folder-and-move-an-existing-folder-by-using-the-windows-server-solutions-sdk"></a><a name="BKMK_Example2"></a> Пример 2. Создание настраиваемой папки и перемещение существующей папки с помощью пакета SDK для Windows Server Solutions
  Созданный код может быть скомпилирован в исполняемый файл и впоследствии вызван из файла PostIC.cmd или напрямую вызван из установленной надстройки.
 
 ```

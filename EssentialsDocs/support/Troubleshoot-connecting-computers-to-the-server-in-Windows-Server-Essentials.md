@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: e45b3d89-c057-4c70-a627-86fb06dd22aa
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: e832957a5d44851131cb622e4c3bf9d99d4e4a7f
-ms.sourcegitcommit: 04637054de2bfbac66b9c78bad7bf3e7bae5ffb4
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: 6314ef0baa92f6e6fe0d6a4bb2b49c3fcee6f893
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87838273"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89625070"
 ---
 # <a name="troubleshoot-connecting-computers-to-the-server-in-windows-server-essentials"></a>Устранение неполадок при подключении компьютеров к серверу в Windows Server Essentials
 
@@ -49,7 +49,7 @@ ms.locfileid: "87838273"
 -   Выпуск 11. [выпуск 11](Troubleshoot-connecting-computers-to-the-server-in-Windows-Server-Essentials.md#BKMK_UpgradeClientOS)
 
 
-##  <a name="issue-1"></a><a name="BMRK_Package"></a>Выпуск 1
+##  <a name="issue-1"></a><a name="BMRK_Package"></a> Выпуск 1
  **Проблема**
 
  Не удалось установить пакет. Попробуйте установить соединитель Windows Server Essentials еще раз. Если проблема не исчезнет, обратитесь к администратору сети при подключении компьютера к серверу.
@@ -62,7 +62,7 @@ ms.locfileid: "87838273"
 
  Завершите все обновления или установки приложений. При появлении соответствующего запроса перезагрузите компьютер.
 
-##  <a name="issue-2"></a><a name="BKMK_ConnectorIssue2"></a>Выпуск 2
+##  <a name="issue-2"></a><a name="BKMK_ConnectorIssue2"></a> Выпуск 2
  **Проблема**
 
  Не удается присоединить компьютер к Windows Server Essentials
@@ -75,7 +75,7 @@ ms.locfileid: "87838273"
 
  Переименуйте клиентский компьютер, указав имя, содержащее только символы ASCII, и повторите попытку добавить компьютер в Windows Server Essentials.
 
-##  <a name="issue-3"></a><a name="BKMK_ConnectorIssue2a"></a>Выпуск 3
+##  <a name="issue-3"></a><a name="BKMK_ConnectorIssue2a"></a> Выпуск 3
  **Проблема**
 
  Я получаю сообщение об установке программного обеспечения соединителя отменено при подключении компьютера к серверу.
@@ -106,7 +106,7 @@ ms.locfileid: "87838273"
 
 8.  Дважды нажмите **ОК**, чтобы обновить разрешения и закрыть окно **Свойства**.
 
-##  <a name="issue-4"></a><a name="BKMK_ConnectorIssueNetFramework"></a>Выпуск 4
+##  <a name="issue-4"></a><a name="BKMK_ConnectorIssueNetFramework"></a> Выпуск 4
  **Проблема**
 
  Для запуска этого приложения необходимо установить одну из следующих версий .NET Framework: V 4.5.50709 "ошибка при подключении компьютера к серверу
@@ -129,7 +129,7 @@ ms.locfileid: "87838273"
 
 4.  После успешного удаления .NET Framework 4.5 подключите компьютер к серверу. Нужная версия .NET Framework 4.5 устанавливается вместе с ПО Connector.
 
-##  <a name="issue-5"></a><a name="BKMK_Time"></a>Выпуск 5
+##  <a name="issue-5"></a><a name="BKMK_Time"></a> Выпуск 5
  **Проблема**
 
  Я получаю, что сервер недоступен. Чтобы устранить эту проблему, обратитесь к лицу, ответственному за вашу сеть. сетевому администратору".
@@ -181,7 +181,7 @@ ms.locfileid: "87838273"
 
 6.  На клиентском компьютере повторите попытку подключения клиентского компьютера к серверу. Инструкции см. в подразделе "Подключение компьютеров к серверу".
 
-##  <a name="issue-6"></a><a name="BKMK_ServiceStopped"></a>Выпуск 6
+##  <a name="issue-6"></a><a name="BKMK_ServiceStopped"></a> Выпуск 6
  **Проблема**
 
  Возникла непредвиденная ошибка. Чтобы устранить эту проблему, обратитесь к лицу, ответственному за вашу сеть. сетевому администратору".
@@ -204,7 +204,7 @@ ms.locfileid: "87838273"
 
 3.  На панели **Действия** нажмите кнопку **Начать**.
 
-##  <a name="issue-7"></a><a name="BKMK_ConnectorIssueReconnect"></a>Выпуск 7
+##  <a name="issue-7"></a><a name="BKMK_ConnectorIssueReconnect"></a> Выпуск 7
  **Проблема**
 
  Когда я пытаюсь снова подключить компьютер к серверу после неудачной попытки подключения, я получаю предупреждение о том, что компьютер с таким именем уже подключен к серверу.
@@ -215,7 +215,7 @@ ms.locfileid: "87838273"
 
  **Решение**. Если вы уверены, что никакой другой компьютер с таким же именем не подключен к серверу, нажмите кнопку **Далее** и следуйте инструкциям для завершения работы мастера **подключения компьютера к серверу**.
 
-##  <a name="issue-8"></a><a name="BKMK_JoinWin7"></a>Выпуск 8
+##  <a name="issue-8"></a><a name="BKMK_JoinWin7"></a> Выпуск 8
  **Проблема**
 
  При попытке подключения клиентского компьютера под управлением ОС Windows 7 Домашняя к серверу открывается веб-страница для запуска ПО Connector, но клиентский компьютер не может подключиться к серверу.
@@ -228,7 +228,7 @@ ms.locfileid: "87838273"
 
  Отключите многоадресную рассылку на маршрутизаторе. На некоторых маршрутизаторах, возможно, потребуется отключить протокол маршрутизации RIP-2M. Дополнительные сведения см. в документации, предоставленной производителем маршрутизатора.
 
-##  <a name="issue-9"></a><a name="BKMK_ConnectorIssueAutologon"></a>Выпуск 9
+##  <a name="issue-9"></a><a name="BKMK_ConnectorIssueAutologon"></a> Выпуск 9
  **Проблема**
 
  После подключения компьютера к серверу перестал работать автоматический вход.
@@ -242,7 +242,7 @@ ms.locfileid: "87838273"
 > [!NOTE]
 >  Для учетной записи домена Windows Server Essentials требуется пароль, соответствующий требованиям политики паролей по умолчанию.
 
-##  <a name="issue-10"></a><a name="BKMK_ConnectorIssueOldLogs"></a>Выпуск 10
+##  <a name="issue-10"></a><a name="BKMK_ConnectorIssueOldLogs"></a> Выпуск 10
  **Проблема**
 
  Удаление предварительной версии ПО Connector не приводит к удалению существующих журналов.
@@ -263,7 +263,7 @@ ms.locfileid: "87838273"
 
 3.  Повторное подключение компьютера к серверу. Будет установлена окончательная версия ПО Connector и создана новая папка журналов и файлы журналов.
 
-##  <a name="issue-11"></a><a name="BKMK_UpgradeClientOS"></a>Выпуск 11
+##  <a name="issue-11"></a><a name="BKMK_UpgradeClientOS"></a> Выпуск 11
  **Проблема**
 
  Необходимо обновить операционную систему на клиентском компьютере.

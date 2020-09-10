@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: c0a8f10d-fd85-4c8d-b9bb-176cb1db1f46
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: fe7bcc54ab342ae1df4299db9585e0656a7ba5c8
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: b8abf96a5d07d3bcda3cfc43c4e0e960a38e465b
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87181600"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89624079"
 ---
 # <a name="add-entries-to-setup-add-ins-quick-status-and-help-links"></a>Добавление элементов в ссылки УСТАНОВКИ, НАДСТРОЕК, КРАТКОГО СОСТОЯНИЯ и СПРАВКИ
 
@@ -196,7 +196,7 @@ ms.locfileid: "87181600"
 
 5.  Сохраните файл OEMHomePageContent.home.resx и выполните построение решения.
 
-#####  <a name="sign-the-assembly-with-an-authenticode-signature"></a><a name="BKMK_SignAssembly"></a>Подписать сборку с помощью подписи Authenticode
+#####  <a name="sign-the-assembly-with-an-authenticode-signature"></a><a name="BKMK_SignAssembly"></a> Подписать сборку с помощью подписи Authenticode
  Чтобы сборку можно было использовать в операционной системе, на ней должна быть подпись Authenticode. Дополнительные сведения о подписи сборки см. в разделе [Подпись и проверка кода с помощью Authenticode](https://msdn.microsoft.com/library/ms537364\(VS.85\).aspx#SignCode).
 
 ##### <a name="install-the-task-files"></a>Установка файлов задач
@@ -208,5 +208,5 @@ ms.locfileid: "87181600"
 
 2.  Если файл внедренных ресурсов не создавался, скопируйте файл OEMHomePageContent.home в папку **%ProgramFiles%\Windows Server\Bin\Addins\Home** на сервере. В случае создания файла внедренных ресурсов скопируйте файл OEMHomePageContent.dll в папку **%ProgramFiles%\Windows Server\Bin\Addins\Home** на сервере.
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также:
  [Создание и Настройка образа](Creating-and-Customizing-the-Image.md) [Дополнительные настройки](Additional-Customizations.md) [Подготовка образа для развертывания](Preparing-the-Image-for-Deployment.md) [Тестирование взаимодействия с пользователем](Testing-the-Customer-Experience.md)

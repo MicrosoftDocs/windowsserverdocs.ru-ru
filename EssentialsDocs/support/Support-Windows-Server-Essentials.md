@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: ac12e9a9-ba7a-480a-9249-6e216c70941b
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: d09b5a6425c2921bf2ad3cae57aecad9e4f35098
-ms.sourcegitcommit: 04637054de2bfbac66b9c78bad7bf3e7bae5ffb4
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: 45a81150168e0b1f21a39b8d773872a1d5daef6b
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87838333"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89625274"
 ---
 # <a name="support-windows-server-essentials"></a>Поддержка Windows Server Essentials
 

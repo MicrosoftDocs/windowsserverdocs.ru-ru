@@ -3,16 +3,16 @@ title: Настройка синхронизации обновлений
 description: Раздел "Настройка и Настройка синхронизации обновлений" службы Windows Server Update Service (WSUS)
 ms.topic: article
 ms.assetid: ddd5c395-451b-44a0-8e08-a05db26d2282
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 9f47b5b6086263e901b79b7ed9e2a19e76771b11
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 20abe0b5a8d4530bba2cd14afeec5b482574af82
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87891700"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89624398"
 ---
 # <a name="setting-up-update-synchronizations"></a>Настройка синхронизации обновлений
 

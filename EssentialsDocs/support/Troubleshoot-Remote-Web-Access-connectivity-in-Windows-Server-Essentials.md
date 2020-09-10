@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: d3642575-b3ee-4488-b654-5bf9d3b8c935
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: ebb256876114c9c3260311fa09eb30f3067905b8
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: fc51555f680126cbd1b6e9fe2c672cbcbc5da7e9
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87180320"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89625146"
 ---
 # <a name="troubleshoot-remote-web-access-connectivity-in-windows-server-essentials"></a>Устранение неполадок подключения к системе удаленного веб-доступа в Windows Server Essentials
 
@@ -52,7 +52,7 @@ ms.locfileid: "87180320"
 
   - Настройте перенаправление портов на маршрутизаторе для следующих портов.
 
-    |Служба или протокол|Порт|
+    |Служба или протокол|Port|
     |-------------------------|----------|
     |HTTP|TCP 80|
     |HTTPS|TCP 443|

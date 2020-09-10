@@ -5,20 +5,20 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 2e6ff6e4-8d68-4d49-9e38-8088bc8bf95e
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: b75b201f655e13fd367bfedc523f5b21b8e88b43
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: ebfd0950c585e2383f736818789e8a2dce67ad4d
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87181510"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89623968"
 ---
 # <a name="automate-installation-of-add-ins-during-setup"></a>Автоматизация установки дополнительных компонентов во время установки
 
 >Область применения: Windows Server 2016 Essentials, Windows Server 2012 R2 Essentials, Windows Server 2012 Essentials
 
-##  <a name="automate-installing-add-ins-during-setup"></a><a name="BKMK_AddIns"></a>Автоматизация установки надстроек во время установки
+##  <a name="automate-installing-add-ins-during-setup"></a><a name="BKMK_AddIns"></a> Автоматизация установки надстроек во время установки
  Для установки надстроек во время установки воспользуйтесь файлом PostIC.cmd, описанным в разделе [Создание файла PostIC.cmd для выполнения задач после завершения начальной настройки](Create-the-PostIC.cmd-File-for-Running-Post-Initial-Configuration-Tasks.md) настоящего документа.
 
  Добавьте следующую запись в файл PostIC.cmd:

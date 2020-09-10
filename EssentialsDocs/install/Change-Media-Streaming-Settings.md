@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: dec690d2-f80c-4b09-99d6-3bba41331972
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: 5001d16a3bcdfbb02e7578c61298108ef84c8536
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: 041a7f53b02d9b6b6368bd2b2f4ac991a14a61fa
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87181480"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89623883"
 ---
 # <a name="change-media-streaming-settings"></a>Изменение параметров потоковой передачи мультимедиа
 
@@ -28,7 +28,7 @@ ms.locfileid: "87181480"
 
 -   [Включение или отключение потоковой передачи мультимедиа программными средствами](Change-Media-Streaming-Settings.md#BKMK_Program)
 
-##  <a name="hide-remote-media-streaming-add-in"></a><a name="BKMK_DisableRemote"></a>Скрыть надстройку удаленной потоковой передачи мультимедиа
+##  <a name="hide-remote-media-streaming-add-in"></a><a name="BKMK_DisableRemote"></a> Скрыть надстройку удаленной потоковой передачи мультимедиа
  Скрытие надстройки удаленной потоковой передачи мультимедиа можно выполнить путем добавления записи в реестр.
 
 #### <a name="to-hide-the-remote-media-streaming-add-in"></a>Скрытие надстройки удаленной потоковой передачи мультимедиа
@@ -49,7 +49,7 @@ ms.locfileid: "87181480"
 
 7.  Введите **1** в поле значения и нажмите кнопку **ОК**.
 
-##  <a name="set-the-media-library-name"></a><a name="BKMK_LibraryName"></a>Задание имени библиотеки мультимедиа
+##  <a name="set-the-media-library-name"></a><a name="BKMK_LibraryName"></a> Задание имени библиотеки мультимедиа
  Чтобы задать имя для библиотеки мультимедиа, можно использовать класс из пакета SDK для решений Windows Server. Для присвоения имени библиотеке мультимедиа используется метод **SetMediaLibraryName** класса **MediaStreamingManager** из пространства имен **Microsoft.WindowsServerSolutions.MediaStreaming**. Ниже показан пример задания имени для библиотеки мультимедиа:
 
 ```c#
@@ -62,10 +62,10 @@ mediaStreamingManager.SetMediaLibraryName(mediaLibraryName);
 
  Дополнительные сведения см. в статье [Пакет SDK для решений Windows Server](https://go.microsoft.com/fwlink/?LinkID=248648).
 
-##  <a name="set-video-streaming-quality"></a><a name="BKMK_StreamingQuality"></a>Настройка качества потоковой передачи видео
+##  <a name="set-video-streaming-quality"></a><a name="BKMK_StreamingQuality"></a> Настройка качества потоковой передачи видео
  Качество потоковой передачи видео задается путем получения оценки ЦП средства WinSAT и последующего создания и установки XML-файла, содержащего сведения об оценке WinSAT. Если XML-файл со сведениями об оценке WinSAT устанавливается раньше выполнения начальной настройки, пользовательский интерфейс для задания качества видео не отображается. Дополнительные сведения см. в разделе [Установка на сервере системы оценки WinSAT](Set-the-WinSAT-Score-on-the-Server.md).
 
-##  <a name="programmatically-enable-or-disable-media-streaming"></a><a name="BKMK_Program"></a>Программное включение или отключение потоковой передачи мультимедиа
+##  <a name="programmatically-enable-or-disable-media-streaming"></a><a name="BKMK_Program"></a> Программное включение или отключение потоковой передачи мультимедиа
  Чтобы включить или отключить потоковую передачу мультимедиа, можно использовать класс из пакета SDK для решений Windows Server. Для включения или отключения потоковой передачи мультимедиа используется метод **SetMediaStreamingEnabled** класса **MediaStreamingManager** из пространства имен **Microsoft.WindowsServerSolutions.MediaStreaming**. Ниже показан пример кода для включения потоковой передачи мультимедиа:
 
 ```c#
@@ -83,5 +83,5 @@ MediaStreamingManager mediaStreamingManager = new MediaStreamingManager();
 mediaStreamingManager.SetMediaStreamingEnabled(false);
 ```
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также:
  [Создание и Настройка образа](Creating-and-Customizing-the-Image.md) [Дополнительные настройки](Additional-Customizations.md) [Подготовка образа для развертывания](Preparing-the-Image-for-Deployment.md) [Тестирование взаимодействия с пользователем](Testing-the-Customer-Experience.md)

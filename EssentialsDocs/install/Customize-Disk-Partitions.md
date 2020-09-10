@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 5a1ed009-81f0-4884-b6b1-5037fe873b13
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: cabd3a010f1d4ae0f01f9762517468b5ddc603e4
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: 9cfbe158e0dfb193cd6a055652f31b3920a13e8f
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87181340"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89623701"
 ---
 # <a name="customize-disk-partitions"></a>Настройка разделов диска
 

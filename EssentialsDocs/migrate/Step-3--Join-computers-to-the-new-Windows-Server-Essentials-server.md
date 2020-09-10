@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: a0e07d1a-8409-429b-87d7-0f4a7e14d668
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: 46de5b182a162563a81772bf489d8d182514d9d6
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: 7495831c6f593b65261fda8f50d4ef9d1000d9b4
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87180470"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89625480"
 ---
 # <a name="step-3-join-computers-to-the-new-windows-server-essentials-server"></a>Шаг 3. Присоединение компьютеров к новому серверу Windows Server Essentials
 
@@ -34,7 +34,7 @@ ms.locfileid: "87180470"
     > [!NOTE]
     >  Приложение соединителя может быть **соединителем Windows Small Business Server 2011 Essentials**или **соединителем Windows Server Essentials**в зависимости от версии Windows Server Essentials, к которой подключен клиентский компьютер.
 
-3.  Щелкните **Удалить**.
+3.  Нажмите кнопку **Удалить**.
 
 ### <a name="to-reconnect-a-client-computer-to-the-server"></a>Повторное подключение клиентского компьютера к серверу
 

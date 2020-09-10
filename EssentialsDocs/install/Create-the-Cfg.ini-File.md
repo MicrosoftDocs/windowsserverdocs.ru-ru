@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 93a73556-22ef-402d-b8d4-582b74c22bcf
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: d6294fd14c395be2b25f4b9bb46c93ecf7721928
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: 597f6349d96d29f06f06034504d5800e7e207eae
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87181380"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89623780"
 ---
 # <a name="create-the-cfgini-file"></a>Создание файла Cfg.ini
 
@@ -22,7 +22,7 @@ ms.locfileid: "87181380"
 
 -   При тестировании работы конечного пользователя с помощью образа, предварительно установленного на целевом компьютере, раздел начальной настройки используется для пошагового выполнения установки в автоматическом или ручном режиме. Сведения об этом см. в подразделе [Создание раздела начальной настройки](Create-the-Cfg.ini-File.md#BKMK_CreateInit2).
 
-##  <a name="create-the-initial-configuration-section"></a><a name="BKMK_CreateInit2"></a>Создание раздела начальной конфигурации
+##  <a name="create-the-initial-configuration-section"></a><a name="BKMK_CreateInit2"></a> Создание раздела начальной конфигурации
  Раздел начальной настройки файла cfg.ini используется для пошагового выполнения установки в автоматическом или ручном режиме.
 
 #### <a name="to-define-the-initial-configuration-section"></a>Определение раздела начальной настройки
@@ -142,7 +142,7 @@ ms.locfileid: "87181380"
 > [!IMPORTANT]
 >  Раздел начальной настройки файла cfg.ini должен использоваться только конечным пользователем для персонализации сервера или партнером для тестирования работы пользователей сервера с помощью файла ответов автоматической установки. Этот раздел файла не предназначен для использования при создании образа.
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также:
 
  [Начало работы с Windows Server ESSENTIALS ADK](Getting-Started-with-the-Windows-Server-Essentials-ADK.md) [Создание и Настройка образа](Creating-and-Customizing-the-Image.md) [Дополнительные настройки](Additional-Customizations.md) [Подготовка образа для развертывания](Preparing-the-Image-for-Deployment.md) [Тестирование взаимодействия с пользователем](Testing-the-Customer-Experience.md)
 

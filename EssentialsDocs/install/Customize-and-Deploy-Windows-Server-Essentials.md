@@ -5,14 +5,14 @@ ms.date: 09/13/2016
 ms.topic: article
 ms.assetid: d1c70cf2-0db8-4b75-af46-73620b9e81c8
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: 9e6edf812b8f0e628280fa9d8432a0ab71cb55f8
-ms.sourcegitcommit: 04637054de2bfbac66b9c78bad7bf3e7bae5ffb4
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: c19a8058326551c9838312f297fa308da3e17887
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87838043"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89623591"
 ---
 # <a name="customize-and-deploy-windows-server-essentials"></a>Настройка и развертывание Windows Server Essentials
 

@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 79ed973d-61e3-46d9-a626-3edfbc4e4d65
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: ff407993c0be8acb048bf773c0de7af8fde5c275
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: 3543e0c9443ef4f9e5f3426dad0c8fef329d2500
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87181350"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89623720"
 ---
 # <a name="creating-and-customizing-the-image"></a>Создание и настройка образа
 

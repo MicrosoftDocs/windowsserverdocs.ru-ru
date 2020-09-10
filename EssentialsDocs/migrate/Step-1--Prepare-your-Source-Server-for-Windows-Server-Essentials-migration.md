@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 244c8a06-04c6-4863-8b52-974786455373
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: c2007160c294074287437bedb7e94b318432a9b4
-ms.sourcegitcommit: 04637054de2bfbac66b9c78bad7bf3e7bae5ffb4
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: 2be09665c0a2361938226b10be0ef058b8aa0ee6
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87838353"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89625506"
 ---
 # <a name="step-1-prepare-your-source-server-for-windows-server-essentials-migration"></a>Шаг 1. Подготовка исходного сервера для миграции Windows Server Essentials
 
@@ -33,7 +33,7 @@ ms.locfileid: "87838353"
 
 5.  [Создание плана для миграции производственных приложений](Step-1--Prepare-your-Source-Server-for-Windows-Server-Essentials-migration.md#BKMK_MigrateLOB)
 
-###  <a name="back-up-your-source-server"></a><a name="BKMK_BackUpYourSourceServerToPrepareForMigration"></a>Резервное копирование исходного сервера
+###  <a name="back-up-your-source-server"></a><a name="BKMK_BackUpYourSourceServerToPrepareForMigration"></a> Резервное копирование исходного сервера
  Перед началом миграции создайте резервную копию исходного сервера. Это поможет защитить данные от случайной утраты, если во время миграции произойдут неустранимые ошибки.
 
 ##### <a name="to-back-up-the-source-server"></a>Чтобы создать резервную копию исходного сервера
@@ -51,10 +51,10 @@ ms.locfileid: "87838353"
    |Windows Small Business Server 2011 Standard|[Управление резервным копированием сервера](/previous-versions/windows/it-pro/windows-server-essentials-sbs/cc527488(v=ws.11))
    |Windows Server Essentials|[Управление резервным копированием и восстановлением в Windows Server Essentials](/previous-versions/windows/it-pro/windows-server-essentials-sbs/cc514417(v=msdn.10))
 
-###  <a name="install-the-most-recent-service-packs"></a><a name="BKMK_InstallTheMostRecentServicePacksToPrepareForMigration"></a>Установка последних пакетов обновления
+###  <a name="install-the-most-recent-service-packs"></a><a name="BKMK_InstallTheMostRecentServicePacksToPrepareForMigration"></a> Установка последних пакетов обновления
  Необходимо установить последние обновления и пакеты обновлений на исходный сервер перед миграцией.
 
-###  <a name="delete-the-log-on-as-a-service-account-setting"></a><a name="BKMK_DeleteSvcAcctSetting"></a>Удаление параметра "вход в качестве учетной записи службы"
+###  <a name="delete-the-log-on-as-a-service-account-setting"></a><a name="BKMK_DeleteSvcAcctSetting"></a> Удаление параметра "вход в качестве учетной записи службы"
  При миграции с Windows Small Business Server 2003 или Windows Server 2003 удалите параметр учетной записи **Вход качестве службы** из групповой политики.
 
 ##### <a name="to-delete-the-log-on-as-a-service-account-setting"></a>Удаление параметра входа в систему в качестве учетной записи службы
@@ -71,7 +71,7 @@ ms.locfileid: "87838353"
 
 6.  Удалите \\ \локалхост\сисвол \\<имя_домена \>\scripts\SBS_LOGIN_SCRIPT.bat.
 
-###  <a name="evaluate-the-health-of-the-source-server"></a><a name="BKMK_EvaluateHealth"></a>Оценка работоспособности исходного сервера
+###  <a name="evaluate-the-health-of-the-source-server"></a><a name="BKMK_EvaluateHealth"></a> Оценка работоспособности исходного сервера
  Важно оценить работоспособность исходного сервера перед началом миграции. Для проверки текущих обновлений, вывода отчета о работоспособности системы, а также запуска анализатора соответствия рекомендациям Windows Server используйте следующие процедуры.
 
 #### <a name="download-and-install-critical-and-security-updates"></a>Загрузка и установка критически важных обновлений и обновлений для системы безопасности
@@ -135,7 +135,7 @@ ms.locfileid: "87838353"
 
 Щелкните проблему в отчете, чтобы просмотреть ее описание и рекомендуемое решение. Не все проблемы, о которых сообщает анализатор соответствия рекомендациям, влияют на процесс миграции, но чтобы обеспечить успешную миграцию, следует устранить все проблемы, если это возможно.
 
-####  <a name="synchronize-the-source-server-time-with-an-external-time-source"></a><a name="BKMK_SynchronizeTheSourceServerTimeWithAnExternalTimeSource"></a>Синхронизация времени исходного сервера с внешним источником времени
+####  <a name="synchronize-the-source-server-time-with-an-external-time-source"></a><a name="BKMK_SynchronizeTheSourceServerTimeWithAnExternalTimeSource"></a> Синхронизация времени исходного сервера с внешним источником времени
  Показатели времени исходного сервера и конечного сервера должны различаться максимум на пять минут, дата и часовой пояс должны быть одинаковы на обоих серверах. Если исходный сервер запущен на виртуальном компьютере, дата, время и часовой пояс сервера узла должны совпадать с данными исходного и конечного серверов. Чтобы обеспечить успешную установку Windows Server Essentials, необходимо синхронизировать время исходного сервера с сервером NTP в Интернете.
 
 ###### <a name="to-synchronize-the-source-server-time-with-the-ntp-server"></a>Синхронизация времени исходного сервера с NTP-сервером
@@ -153,7 +153,7 @@ ms.locfileid: "87838353"
 > [!IMPORTANT]
 >  Во время установки Windows Server Essentials у вас есть возможность проверить время на целевом сервере и при необходимости изменить ее. Убедитесь, что это время отличается от времени на исходном сервере не более чем на пять минут. После завершения установки конечный сервер синхронизируется с NTP-сервером. Все компьютеры, присоединенные к домену, в том числе исходный сервер, синхронизируются с конечным сервером, который принимает роль хозяина эмулятора основного контроллера домена (PDC).
 
-###  <a name="create-a-plan-to-migrate-line-of-business-applications"></a><a name="BKMK_MigrateLOB"></a>Создание плана для миграции бизнес-приложений
+###  <a name="create-a-plan-to-migrate-line-of-business-applications"></a><a name="BKMK_MigrateLOB"></a> Создание плана для миграции бизнес-приложений
  Бизнес-приложения (LOB, line-of-business application) — это компьютерные приложения, жизненно необходимые для функционирования бизнеса. К ним относятся приложения в области бухгалтерского учета, управления логистическими цепочками и планирования ресурсов.
 
  При планировании миграции бизнес-приложений необходимо проконсультироваться с поставщиком бизнес-приложения для определения подходящего метода миграции каждого из них. Также необходимо подготовить носители, используемые для установки бизнес-приложений на целевом сервере.
@@ -168,16 +168,16 @@ ms.locfileid: "87838353"
 > [!NOTE]
 >  После обновления и подготовки исходного сервера для миграции рекомендуется создать архив обновленного сервера перед продолжением процесса миграции.
 
-#### <a name="migrate-email-to-microsoft-office-365"></a>Миграция электронной почты в Microsoft Office 365
- Если в качестве решения по электронной почте для домена вы выбрали Microsoft Office 365, выполните рекомендации из раздела [Миграция всех почтовых ящиков в облако путем прямой миграции Exchange](https://help.outlook.com/140/ms.exch.ecp.emailmigrationwizardexchangelearnmore.aspx) , чтобы начать миграцию электронной почты в Office 365. Перед установкой Windows Server Essentials рекомендуется выполнить перенос электронной почты.
+#### <a name="migrate-email-to-microsoft-365"></a>Перенос электронной почты в Microsoft 365
+ Если вы решили использовать Microsoft 365 в качестве решения электронной почты для вашего домена, следуйте указаниям в статье [Перенос всех почтовых ящиков в облако с помощью прямую миграцию Exchange Migration](https://help.outlook.com/140/ms.exch.ecp.emailmigrationwizardexchangelearnmore.aspx) , чтобы начать перенос электронной почты на Microsoft 365. Перед установкой Windows Server Essentials рекомендуется выполнить перенос электронной почты.
 
 > [!NOTE]
->  Удаление локального сервера Exchange на исходном сервере является обязательным, если вы планируете интегрировать Windows Server Essentials с Office 365. Сведения о миграции общих папок сервера Exchange Server в Office 365 см. в записи блога [Сценарии миграции общих папок Microsoft Exchange 2013 для Office 365](/archive/blogs/fmustafa/microsoft-exchange-2013-public-folders-migration-scripts-for-office-365).
+>  Удаление локального сервера Exchange на исходном сервере является обязательным, если вы планируете интегрировать Windows Server Essentials с Microsoft 365. Сведения о том, как перенести общие папки Exchange Server в Microsoft 365, см. в записи блога [сценарии миграции общих папок Microsoft Exchange 2013 для Microsoft 365](/archive/blogs/fmustafa/microsoft-exchange-2013-public-folders-migration-scripts-for-office-365).
 >
->  После завершения установки необходимо включить функцию интеграции Office 365 в Windows Server Essentials, выполнив команду **Интеграция с Microsoft Office 365** .
+>  После завершения установки необходимо включить функцию интеграции Microsoft 365 в Windows Server Essentials, выполнив команду **Интеграция с Microsoft 365ной** задачей.
 
 > [!IMPORTANT]
->  Чтобы разрешить средству миграции Office 365 подключаться к серверу Exchange Server, работающему на исходном сервере, на исходном сервере необходимо включить протокол RPC через HTTP. Сведения о включении RPC через HTTP см. в разделе [Начальное развертывание протокола RPC через HTTP в Small Business Server 2003 (Standard или Premium)](/previous-versions/tn-archive/bb123622(v=exchg.65)). Если после включения протокола RPC через HTTP не удается запустить средство миграции Office 365, просмотрите параметр **ValidPorts** в реестре по адресу HKEY_LOCAL_MACHINE\Software\Microsoft\Rpc\RpcProxy и убедитесь, что для исходного сервера указано полное доменное имя (FQDN). Если полное доменное имя не указано, добавьте его вручную, как показано в следующем примере:
+>  Чтобы разрешить средству миграции Microsoft 365 подключиться к серверу Exchange, работающему на исходном сервере, необходимо включить RPC через HTTP на исходном сервере. Сведения о включении RPC через HTTP см. в разделе [Начальное развертывание протокола RPC через HTTP в Small Business Server 2003 (Standard или Premium)](/previous-versions/tn-archive/bb123622(v=exchg.65)). Если после включения RPC через HTTP не удается запустить средство миграции Microsoft 365, просмотрите параметр **ValidPorts** в реестре в HKEY_LOCAL_MACHINE \софтваре\микрософт\рпк\рпкпрокси и убедитесь, что указано полное доменное имя (FQDN) исходного сервера. Если полное доменное имя не указано, добавьте его вручную, как показано в следующем примере:
 >
 >  remote. *contoso*.com:6001-6002;remote. *contoso*.com:6004 (вместо *contoso* введите имя своего домена).
 

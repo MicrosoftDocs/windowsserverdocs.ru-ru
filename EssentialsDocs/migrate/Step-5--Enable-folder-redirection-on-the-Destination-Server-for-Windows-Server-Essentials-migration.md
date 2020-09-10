@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: d3925f80-552d-431f-b2a6-2af202e50ca4
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: d75a81460df90022dfec8195866599c159b78c63
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: 2fa628429a692f77620116ed0db2ef052abc8a22
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87180450"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89625443"
 ---
 # <a name="step-5-enable-folder-redirection-on-the-destination-server-for-windows-server-essentials-migration"></a>Шаг 5. Включение перенаправления папок на целевом сервере для миграции Windows Server Essentials
 

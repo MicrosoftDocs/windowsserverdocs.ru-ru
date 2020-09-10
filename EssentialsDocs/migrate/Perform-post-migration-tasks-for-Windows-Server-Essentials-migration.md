@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: f2d236a4-0d62-4961-9d1f-332054e06f6d
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: 3fda095624260c1f44a5a46887c1e8e1cbdcdca7
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: abd092b3e6b4176c83b51995f140aad0dafc6e0f
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87180530"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89625632"
 ---
 # <a name="perform-post-migration-tasks-for-windows-server-essentials-migration1"></a>Задачи, выполняемые после миграции для Windows Server Essentials Migration1
 
@@ -30,7 +30,7 @@ ms.locfileid: "87180530"
 -   [Предоставление права на вход в качестве пакетного задания встроенной группе администраторов](Perform-post-migration-tasks-for-Windows-Server-Essentials-migration.md#BKMK_AdminGroup)
 
 
-##  <a name="delete-dns-entries-of-the-source-server"></a><a name="BKMK_DeleteDNSEntries"></a>Удаление записей DNS исходного сервера
+##  <a name="delete-dns-entries-of-the-source-server"></a><a name="BKMK_DeleteDNSEntries"></a> Удаление записей DNS исходного сервера
  После списания исходного сервера, сервера сервер службы доменных имен (DNS) может все еще содержать элементы, указывающие на этот исходный сервер. Удалите эти записи DNS.
 
 #### <a name="to-delete-dns-entries-that-point-to-the-source-server"></a>Чтобы удалить DNS-записи, которые ссылаются на исходный сервер
@@ -55,12 +55,12 @@ ms.locfileid: "87180530"
 
 10. Повторите шаги 6–9, чтобы удалить все зоны обратного просмотра, которые указывают на исходный сервер.
 
-##  <a name="share-line-of-business-and-other-application-data-folders"></a><a name="BKMK_ShareLineOfBusinessAndOtherApplications"></a>Совместное использование бизнес-и других папок данных приложений
+##  <a name="share-line-of-business-and-other-application-data-folders"></a><a name="BKMK_ShareLineOfBusinessAndOtherApplications"></a> Совместное использование бизнес-и других папок данных приложений
  Для скопированных на конечный сервер папок с данными бизнес-приложений и прочих приложений необходимо задать разрешения для общей папки и разрешения NTFS. После настройки разрешений общие папки отображаются в панели мониторинга Windows Server Essentials в разделе " **хранилище** ".
 
  Если для сопоставления дисков с общими папками вы используете сценарий входа, для сопоставления с дисками на конечном сервере сценарий необходимо обновить.
 
-##  <a name="fix-client-computer-issues-after-migrating"></a><a name="BKMK_FixClientComputerIssuesAfterMigrating"></a>Устранение проблем с клиентскими компьютерами после миграции
+##  <a name="fix-client-computer-issues-after-migrating"></a><a name="BKMK_FixClientComputerIssuesAfterMigrating"></a> Устранение проблем с клиентскими компьютерами после миграции
  Если вы переноситесь на Windows Server Essentials с Windows Small Business Server 2003 Premium Edition с установленным сервером Microsoft Internet Security and Acceleration (ISA), клиентские компьютеры по-прежнему будут иметь клиент брандмауэра Microsoft и Internet Explorer, настроенный для использования прокси-сервера.
 
  Это приводит к проблемам со связью на клиентских компьютерах, так как прокси-сервер больше не существует. Если имеется другой настроенный прокси-сервер, клиентские компьютеры будут продолжать использовать сервер под управлением Windows SBS 2003 для прокси-сервера. Для устранения этой проблемы необходимо перенастроить Internet Explorer, чтобы он не использовал прокси-сервер или использовал новый прокси-сервер.
@@ -87,7 +87,7 @@ ms.locfileid: "87180530"
 
 4.  Перейдите на веб-сайт и убедитесь в правильности параметров подключения.
 
-##  <a name="give-the-built-in-administrators-group-the-right-to-log-on-as-a-batch-job"></a><a name="BKMK_AdminGroup"></a>Предоставьте встроенной группе администраторов право на вход в систему в качестве пакетного задания.
+##  <a name="give-the-built-in-administrators-group-the-right-to-log-on-as-a-batch-job"></a><a name="BKMK_AdminGroup"></a> Предоставьте встроенной группе администраторов право на вход в систему в качестве пакетного задания.
  После переноса существующего домена Windows Small Business Server 2003 в Windows Server Essentials следует предоставить встроенной группе администраторов право на вход в систему в качестве пакетного задания. Убедитесь, что встроенная группа администраторов по-прежнему имеет право на вход в качестве пакетного задания на целевой сервер. Администраторам требуется это разрешение для запуска оповещения на целевом сервере без входа в систему.
 
 #### <a name="to-give-the-built-in-administrators-group-the-right-to-log-on-as-a-batch-job"></a>Предоставление права на вход в качестве пакетного задания встроенной группе администраторов
@@ -114,7 +114,7 @@ ms.locfileid: "87180530"
 
 11. Щелкните **Проверить имена**, чтобы убедиться, что появляется встроенная группа администраторов, и нажмите три раза кнопку **ОК** для сохранения параметра.
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 
 -   [Миграция с Windows SBS 2003](Migrate-Windows-Small-Business-Server-2003-to-Windows-Server-Essentials.md)

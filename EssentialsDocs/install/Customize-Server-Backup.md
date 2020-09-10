@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 19b2559c-6090-45af-9a08-2eefc28473c8
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: a0992ed2858adbe713a25ec73f35c4b74a54ccd5
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: 9cf27c09e2b6946b5daa584ff27b1da95788a4ea
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87181330"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89623688"
 ---
 # <a name="customize-server-backup"></a>Настройка системы архивации данных сервера
 
@@ -62,6 +62,6 @@ ms.locfileid: "87181330"
 
 5.  Нажмите кнопку **ОК**, чтобы закрыть диалоговое окно.
 
-#### <a name="restart-the-server"></a>Перезагрузите сервер.
+#### <a name="restart-the-server"></a>Перезапустите сервер.
 
 1.  На сервере переместите указатель мыши в правый верхний угол экрана, нажмите кнопку **Параметры**, нажмите **Питание** и затем нажмите кнопку "Перезапустить".

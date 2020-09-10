@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 2b882e87-347a-4010-b7fd-9599d61198dd
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: a3e80eb391f913b4d62d8224afb7745eb2671289
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: 4a37d8e39dde95a143c15a5573be0deb0291d827
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87180540"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89625650"
 ---
 # <a name="move-settings-and-data-to-the-destination-server-for-windows-server-essentials-migration"></a>Перенос параметров и данных на целевой сервер для миграции на Windows Server Essentials
 
@@ -46,8 +46,8 @@ ms.locfileid: "87180540"
  Где:
  - \<SourceServerName\> — имя исходного сервера
  - \<SharedSourceFolderName\> —  имя общей папки на исходном сервере
- - \<DestinationServerName\>имя целевого сервера,
- - \<SharedDestinationFolderName\>— Это общая папка на целевом сервере, куда будут копироваться данные.
+ - \<DestinationServerName\> имя целевого сервера,
+ - \<SharedDestinationFolderName\> — Это общая папка на целевом сервере, куда будут копироваться данные.
 
 3. Повторите предыдущую операцию для каждой общей папки, которую вы перемещаете с исходного сервера.
 

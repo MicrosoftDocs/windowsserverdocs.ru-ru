@@ -3,16 +3,16 @@ title: Службы WSUS и сайт каталога
 description: Раздел, посвященный службам Windows Server Update Service (WSUS), для импорта исправлений в службы WSUS с помощью доступа к сайту каталога Центр обновления Майкрософт
 ms.topic: article
 ms.assetid: f19a8659-5a96-4fdd-a052-29e4547fe51a
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 25a9852935c47e0c005d78ae7ea24d14c7c1a546
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 7e0d3c76e66275fe052d5d337dd30c67d7980638
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87896788"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89624269"
 ---
 # <a name="wsus-and-the-catalog-site"></a>Службы WSUS и сайт каталога
 
@@ -25,7 +25,7 @@ ms.locfileid: "87896788"
 
 #### <a name="to-access-the-microsoft-update-catalog-site"></a>Доступ к сайту Центр обновления Майкрософт каталога
 
-1.  В консоли администрирования WSUS выберите либо верхний узел сервера, либо **обновления**, а затем на панели **действия** щелкните **Импорт обновлений**. Откроется окно браузера на веб-сайте Центр обновления Майкрософт каталога.
+1.  В консоли администрирования WSUS выберите либо верхний узел сервера, либо  **обновления**, а затем на панели **действия** щелкните **Импорт обновлений**. Откроется окно браузера на веб-сайте Центр обновления Майкрософт каталога.
 
 2.  Чтобы получить доступ к обновлениям на этом сайте, необходимо установить элемент управления activeX каталога Центр обновления Майкрософт.
 

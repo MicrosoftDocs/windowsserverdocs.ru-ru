@@ -5,14 +5,14 @@ ms.date: 06/25/2013
 ms.topic: article
 ms.assetid: 5cc73aff-d2c0-4cf9-a23d-ef928ae5ddc9
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: 933dab3e0471ef4b9d8e4f603a1c177ecc6fc70c
-ms.sourcegitcommit: 04637054de2bfbac66b9c78bad7bf3e7bae5ffb4
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: ce2d6d51f230d4a06f2e1b9acfd378d61bfaf863
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87838293"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89625104"
 ---
 # <a name="troubleshoot-computer-backup-and-restore-errors-in-windows-server-essentials"></a>Устранение неполадок архивации и восстановления данных в Windows Server Essentials
 

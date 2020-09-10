@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 4950469d-d800-430d-8d10-53bafc4a9932
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: 5f9d240bb7467c0248b69bc65d7f26a66ecec038
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: a05a91fa6ad3ed2ac15daaff204990fdad688284
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87180580"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89625705"
 ---
 # <a name="move-windows-sbs-2008-settings-and-data-to-the-destination-server-for-windows-server-essentials-migration"></a>Перенос параметров и данных Windows SBS 2008 на целевой сервер для миграции Windows Server Essentials
 
@@ -52,8 +52,8 @@ ms.locfileid: "87180580"
  Где:
  - \<SourceServerName\> — имя исходного сервера
  - \<SharedSourceFolderName\> —  имя общей папки на исходном сервере
- - \<DestinationServerName\>имя целевого сервера,
- - \<SharedDestinationFolderName\>— Это общая папка на целевом сервере, куда будут копироваться данные.
+ - \<DestinationServerName\> имя целевого сервера,
+ - \<SharedDestinationFolderName\> — Это общая папка на целевом сервере, куда будут копироваться данные.
 
 3. Повторите предыдущую операцию для каждой общей папки, которую вы перемещаете с исходного сервера.
 
@@ -83,7 +83,7 @@ ms.locfileid: "87180580"
 
     3. Для **типа запуска** выберите **Отключено**.
 
-    4. Остановите службу.
+    4. Остановить службу.
 
 2. Включите роль DHCP на своем маршрутизаторе.
 

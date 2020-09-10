@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: f1e6b377-4a24-4d28-9b25-05910914826b
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: 3d1428fa258f661636d599dd8dcf41acaaf59082
-ms.sourcegitcommit: 04637054de2bfbac66b9c78bad7bf3e7bae5ffb4
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: 55daffa3c1db284d3772fa39eb64e0411ad1c7a6
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87838283"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89625098"
 ---
 # <a name="troubleshoot-computer-monitoring-in-windows-server-essentials"></a>Устранение неполадок мониторинга компьютеров в Windows Server Essentials
 

@@ -5,20 +5,20 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 6141fa69-5952-4e3c-a868-40ef3f4badd2
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: 3f9bfeb2dbadd4d3d6cadd0200f05759d75f5519
-ms.sourcegitcommit: 145cf75f89f4e7460e737861b7407b5cee7c6645
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: fda6cf3ef25a2127aa0982674ff0f7d0960bfb08
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "87409554"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89623848"
 ---
 # <a name="create-a-server-recovery-dvd-for-remotely-administered-servers"></a>Создание DVD-диска восстановления сервера для удаленно администрируемых серверов
 
 >Область применения: Windows Server 2016 Essentials, Windows Server 2012 R2 Essentials, Windows Server 2012 Essentials
 
-##  <a name="create-a-server-recovery-dvd-for-remotely-administered-servers"></a><a name="BKMK_HeadlessRecovery"></a>Создание DVD-диска восстановления сервера для удаленного администрирования серверов
+##  <a name="create-a-server-recovery-dvd-for-remotely-administered-servers"></a><a name="BKMK_HeadlessRecovery"></a> Создание DVD-диска восстановления сервера для удаленного администрирования серверов
  Предусмотрено две модели сброса параметров к заводским значениям и восстановления сервера; выбор модели зависит от полученного пользователем оборудования.
 
  **Удаленно администрируемый сервер**
@@ -70,12 +70,12 @@ ms.locfileid: "87409554"
 
 6.  [Проверка DVD-диска восстановления](Create-a-Server-Recovery-DVD-for-Remotely-Administered-Servers.md#BKMK_Testing)
 
-####  <a name="step-1-optional-update-winpe"></a><a name="BKMK_Updating"></a>Шаг 1. обновление WinPE (необязательно)
+####  <a name="step-1-optional-update-winpe"></a><a name="BKMK_Updating"></a> Шаг 1. обновление WinPE (необязательно)
  ADK включает настроенную среду предустановки Windows. При загрузке этого образа автоматически запускается маяк, используемый клиентским приложением восстановления для подключения к серверу в режиме восстановления.
 
  Необходимо выполнить дальнейшую настройку среды предустановки Windows путем добавления конкретных драйверов оборудования (например, сетевых драйверов и драйверов контроллеров дисков). После загрузки из среды предустановки Windows жесткие диски системы должны стать распознаваемыми, а сеть должна работать.
 
-####  <a name="step-2-collect-the-factory-reset-images-and-xml-files"></a><a name="BKMK_Collecting"></a>Шаг 2. Получение образов сброса и XML-файлов фабрики
+####  <a name="step-2-collect-the-factory-reset-images-and-xml-files"></a><a name="BKMK_Collecting"></a> Шаг 2. Получение образов сброса и XML-файлов фабрики
  Чтобы сбросить параметры сервера к заводским значениям, необходимо создать следующие два образа:
 
 - образ системного диска;
@@ -91,7 +91,7 @@ ms.locfileid: "87409554"
     > [!NOTE]
     >  WIM-файл системы будет разбит в соответствии с ограничением файловой системы FAT32 на размер файлов (не более 4 ГБ). Во время этого процесса емкость целевого устройства, используемого для записи WIM-файлов, должна быть больше 8 ГБ для поддержания процедуры разбиения.
 
-####  <a name="step-3-create-the-server-recovery-dvd"></a><a name="BKMK_Creating"></a>Шаг 3. Создание DVD-диска восстановления сервера
+####  <a name="step-3-create-the-server-recovery-dvd"></a><a name="BKMK_Creating"></a> Шаг 3. Создание DVD-диска восстановления сервера
  Каждый сервер, поставляемый с завода-изготовителя, должен комплектоваться DVD-диском восстановления сервера. DVD-диск со средствами ADK содержит файлы, необходимые для создания DVD-диска.
 
 ##### <a name="to-create-the-server-recovery-dvd"></a>Создание DVD-диска восстановления сервера
@@ -106,7 +106,7 @@ ms.locfileid: "87409554"
 
 5.  Удалите из папки файл GenDiskXML.exe. Он используется только в процессе изготовления на заводе, и его не следует включать на DVD-диск, поставляемый пользователю.
 
-####  <a name="step-4-customize-the-wizard"></a><a name="BKMK_Customizing"></a>Шаг 4. Настройка мастера
+####  <a name="step-4-customize-the-wizard"></a><a name="BKMK_Customizing"></a> Шаг 4. Настройка мастера
  Приложение восстановления сервера следует настроить, используя образ устройства и текст с описанием способа загрузки конкретного устройства в режиме восстановления. Данная страница мастера восстановления файлов и папок определяется оборудованием, поэтому этапы загрузки сервера в режиме восстановления могут различаться.
 
 > [!NOTE]
@@ -156,10 +156,10 @@ ms.locfileid: "87409554"
    - zh-HK
    - zh-TW
 
-####  <a name="step-5-create-the-iso-file"></a><a name="BKMK_CreatingISO"></a>Шаг 5. Создание ISO-файла
+####  <a name="step-5-create-the-iso-file"></a><a name="BKMK_CreatingISO"></a> Шаг 5. Создание ISO-файла
  Созданную папку вместе со всем содержимым можно записать на DVD-диск. Этот DVD-диск будет прилагаться к каждому новому серверу.
 
-####  <a name="step-6-test-the-recovery-dvd"></a><a name="BKMK_Testing"></a>Шаг 6. Тестирование DVD-диска восстановления
+####  <a name="step-6-test-the-recovery-dvd"></a><a name="BKMK_Testing"></a> Шаг 6. Тестирование DVD-диска восстановления
  Завершив установку сервера, настройте архивацию сервера, создайте архивную копию, а затем проверьте DVD-диск восстановления.
 
 ###### <a name="to-configure-and-run-a-server-backup"></a>Настройка и выполнение архивации сервера
@@ -180,5 +180,5 @@ ms.locfileid: "87409554"
 
 3.  Щелкните **Восстановление сервера из архива**, затем следуйте инструкциям мастера.
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также:
  [Создание и Настройка образа](Creating-and-Customizing-the-Image.md) [Дополнительные настройки](Additional-Customizations.md) [Подготовка образа для развертывания](Preparing-the-Image-for-Deployment.md) [Тестирование взаимодействия с пользователем](Testing-the-Customer-Experience.md)

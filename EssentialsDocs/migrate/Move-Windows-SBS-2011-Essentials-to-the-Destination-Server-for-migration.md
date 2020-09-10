@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 47548994-9fa0-42e0-afa4-c2ccbd063acb
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: a5f4aa55cb7c17568c97c933a9eed8f18ce03bd1
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: 5ab8e54fe94fa2f733e28dd461b7d35988589864
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87180570"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89625698"
 ---
 # <a name="move-windows-sbs-2011-essentials-settings-and-data-to-the-destination-server-for-windows-server-essentials-migration"></a>Перенос параметров и данных Windows SBS 2011 Essentials на целевой сервер для миграции Windows Server Essentials
 
@@ -29,7 +29,7 @@ ms.locfileid: "87180570"
 
 4.  [Сопоставление разрешенных компьютеров с учетными записями пользователей](Move-Windows-SBS-2011-Essentials-to-the-Destination-Server-for-migration.md#BKMK_MapPermittedComputers)
 
-##  <a name="copy-data-to-the-destination-server"></a><a name="BKMK_CopyData"></a>Копирование данных на целевой сервер
+##  <a name="copy-data-to-the-destination-server"></a><a name="BKMK_CopyData"></a> Копирование данных на целевой сервер
  Перед копированием данных с исходного сервера на целевой сервер выполните следующие действия.
 
 -   Просмотрите список общих папок на исходном сервере, включая разрешения для каждой папки. Создайте или настройте папки на целевом сервере в соответствии со структурой папок, которую вы перемещаете с исходного сервера.
@@ -49,12 +49,12 @@ ms.locfileid: "87180570"
      Где:
      - \<SourceServerName\> — имя исходного сервера
      - \<SharedSourceFolderName\> —  имя общей папки на исходном сервере
-     - \<DestinationServerName\>имя целевого сервера,
-     - \<SharedDestinationFolderName\>— Это общая папка на целевом сервере, куда будут копироваться данные.
+     - \<DestinationServerName\> имя целевого сервера,
+     - \<SharedDestinationFolderName\> — Это общая папка на целевом сервере, куда будут копироваться данные.
 
 3.  Повторите предыдущую операцию для каждой общей папки, которую вы перемещаете с исходного сервера.
 
-##  <a name="import-active-directory-user-accounts-to-the-windows-server-essentials-dashboard-optional"></a><a name="BKMK_ImportADaccounts"></a>Импорт Active Directory учетных записей пользователей на панель мониторинга Windows Server Essentials (необязательно)
+##  <a name="import-active-directory-user-accounts-to-the-windows-server-essentials-dashboard-optional"></a><a name="BKMK_ImportADaccounts"></a> Импорт Active Directory учетных записей пользователей на панель мониторинга Windows Server Essentials (необязательно)
  По умолчанию все учетные записи пользователей, созданные на исходном сервере, автоматически переносятся на панель мониторинга в Windows Server Essentials. Однако процесс автоматического переноса учетной записи пользователя Active Directory завершится сбоем, если все свойства не будут соответствовать требованиям миграции. Для импорта пользователей Active Directory можно использовать следующий командлет Windows PowerShell.
 
 #### <a name="to-import-an-active-directory-user-account-to-the-windows-server-essentials-dashboard"></a>Импорт учетной записи Active Directory пользователя на панель мониторинга Windows Server Essentials
@@ -67,7 +67,7 @@ ms.locfileid: "87180570"
 
      `Import-WssUser  SamAccountName [AD username]`
 
-##  <a name="configure-the-network"></a><a name="BKMK_Network"></a>Настройка сети
+##  <a name="configure-the-network"></a><a name="BKMK_Network"></a> Настройка сети
 
 #### <a name="to-configure-the-network"></a>Для настройки сети
 
@@ -83,7 +83,7 @@ ms.locfileid: "87180570"
 
 -   Порт 443: веб-трафик HTTPS
 
-##  <a name="map-permitted-computers-to-user-accounts"></a><a name="BKMK_MapPermittedComputers"></a>Сопоставьте разрешенные компьютеры учетным записям пользователей
+##  <a name="map-permitted-computers-to-user-accounts"></a><a name="BKMK_MapPermittedComputers"></a> Сопоставьте разрешенные компьютеры учетным записям пользователей
  Каждая учетная запись пользователя, которая переносится из Windows Small Business Server 2011 Essentials, должна быть сопоставлена с одним или несколькими компьютерами.
 
 #### <a name="to-map-user-accounts-to-computers"></a>Сопоставление учетных записей и компьютеров

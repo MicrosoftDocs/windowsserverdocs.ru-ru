@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 5f570492-ee21-471b-92c1-3fd9bfb84f55
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: 1ce7359929cb1658cc84418231fb7d65efce8692
-ms.sourcegitcommit: 04637054de2bfbac66b9c78bad7bf3e7bae5ffb4
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: 77246642e7f011768742a30ed517d63b12c47ee4
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87838223"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89624941"
 ---
 # <a name="play-digital-media-in-windows-server-essentials"></a>Воспроизведение мультимедиа в Windows Server Essentials
 
@@ -38,7 +38,7 @@ ms.locfileid: "87838223"
 -   [Просмотр общего мультимедийного содержимого](Play-Digital-Media-in-Windows-Server-Essentials.md#BKMK_7)
 
 
-##  <a name="digital-media-overview"></a><a name="BKMK_1"></a>Общие сведения о цифровом мультимедиа
+##  <a name="digital-media-overview"></a><a name="BKMK_1"></a> Общие сведения о цифровом мультимедиа
  К цифровому мультимедиа относится кодированное аудио-, видео- и фотосодержимое (содержимое, прошедшее цифровое сжатие). Кодирование содержимого подразумевает преобразование аудио- и видеоданных в файл цифрового мультимедиа, например файл Windows Media. После кодирования цифрового мультимедиа его легко обрабатывать, распространять и воспроизводить на компьютерах, а также передавать по компьютерным сетям.
 
  Примеры типов цифрового мультимедиа. Windows Media Audio (WMA), Windows Media Video (WMV), MP3, JPEG и AVI. Сведения о поддерживаемых проигрывателем Windows Media типах цифрового мультимедиа см. в разделе [Типы файлов, поддерживаемые проигрывателем Windows Media](https://support.microsoft.com/kb/316992).
@@ -57,7 +57,7 @@ ms.locfileid: "87838223"
 
  Мультимедиа с защитой от копирования можно воспроизвести только на компьютере или устройстве, использованном для приобретения такого мультимедиа. Защита от копирования не позволяет воспроизводить мультимедиа более чем на одном компьютере или устройстве, даже если копировать мультимедиа на сервер и воспроизводить его оттуда. Тем не менее можно сохранить носитель, защищенный с помощью копирования, на Windows Server Essentials и продолжить воспроизведение носителя на компьютере или устройстве, которое использовалось для приобретения.
 
-##  <a name="play-and-share-digital-media"></a><a name="BKMK_2"></a>Воспроизведение и совместное использование цифрового мультимедиа
+##  <a name="play-and-share-digital-media"></a><a name="BKMK_2"></a> Воспроизведение и совместное использование цифрового мультимедиа
  После настройки и успешного подключения компьютеров и мультимедийных устройств к сети сервера вы можете выполнить поиск любых файлов мультимедиа, которые вы храните и совместно используете на данном сервере.
 
 > [!NOTE]
@@ -70,7 +70,7 @@ ms.locfileid: "87838223"
 -   [Отправка файлов мультимедиа в Windows Server Essentials в проигрыватель Windows Media, Xbox 360 или в сетевой проигрыватель Digital Media Player в сети](Play-Digital-Media-in-Windows-Server-Essentials.md#BKMK_SendToDevice)
 
 
-###  <a name="search-for-and-play-media-files-on-windows-server-essentials-from-a-computer-or-digital-media-player-on-the-network"></a><a name="BKMK_2.1"></a>Поиск и воспроизведение файлов мультимедиа в Windows Server Essentials с компьютера или цифрового проигрывателя в сети
+###  <a name="search-for-and-play-media-files-on-windows-server-essentials-from-a-computer-or-digital-media-player-on-the-network"></a><a name="BKMK_2.1"></a> Поиск и воспроизведение файлов мультимедиа в Windows Server Essentials с компьютера или цифрового проигрывателя в сети
  Если устройство присоединено к сети Windows Server Essentials, можно искать и воспроизводить цифровые файлы мультимедиа одним из следующих способов:
 
 
@@ -87,7 +87,7 @@ ms.locfileid: "87838223"
 -   [Поиск и воспроизведение общего мультимедийного содержимого с помощью удаленного веб-доступа](Play-Digital-Media-in-Windows-Server-Essentials.md#BKMK_RWA2)
 
 
-####  <a name="search-for-and-play-media-files-from-a-computer-that-is-running-windows-media-center"></a><a name="BKMK_WMC"></a>Поиск и воспроизведение файлов мультимедиа с компьютера, на котором работает Windows Media Center
+####  <a name="search-for-and-play-media-files-from-a-computer-that-is-running-windows-media-center"></a><a name="BKMK_WMC"></a> Поиск и воспроизведение файлов мультимедиа с компьютера, на котором работает Windows Media Center
 
 1.  Нажмите кнопку **Пуск**, выберите пункт **Все программы**, а затем пункт **Windows Media Center**.
 
@@ -97,14 +97,14 @@ ms.locfileid: "87838223"
 
 4.  Щелкните образ файла мультимедиа, чтобы просмотреть или воспроизвести этот файл.
 
-####  <a name="search-for-and-play-media-files-from-a-computer-that-is-running-windows-by-using-windows-media-player"></a><a name="BKMK_MWP"></a>Поиск и воспроизведение файлов мультимедиа с компьютера под управлением Windows с помощью проигрывателя Windows Media
+####  <a name="search-for-and-play-media-files-from-a-computer-that-is-running-windows-by-using-windows-media-player"></a><a name="BKMK_MWP"></a> Поиск и воспроизведение файлов мультимедиа с компьютера под управлением Windows с помощью проигрывателя Windows Media
 
 -   С компьютера или устройства мультимедиа откройте **Проигрыватель Windows Media** и выполните поиск библиотеки мультимедиа.
 
     > [!NOTE]
     >  Конкретные действия поиска зависят от версии используемого проигрывателя Windows Media. Дополнительные сведения см. в справке для используемой версии.
 
-####  <a name="search-for-and-play-media-files-by-using-xbox-360"></a><a name="BKMK_Xbox"></a>Поиск и воспроизведение файлов мультимедиа с помощью Xbox 360
+####  <a name="search-for-and-play-media-files-by-using-xbox-360"></a><a name="BKMK_Xbox"></a> Поиск и воспроизведение файлов мультимедиа с помощью Xbox 360
 
 1.  Подключите консоль Xbox 360 к домашней сети с помощью проводного или беспроводного подключения.
 
@@ -121,13 +121,13 @@ ms.locfileid: "87838223"
 
     3.  Просмотрите список файлов и выберите элемент, который хотите воспроизвести.
 
-####  <a name="search-for-and-play-media-files-by-using-other-digital-media-players-or-receivers-that-are-compatible-with-windows-server-essentials"></a><a name="BKMK_Other"></a>Поиск и воспроизведение файлов мультимедиа с помощью других проигрывателей или получателей цифровых мультимедиа, совместимых с Windows Server Essentials
+####  <a name="search-for-and-play-media-files-by-using-other-digital-media-players-or-receivers-that-are-compatible-with-windows-server-essentials"></a><a name="BKMK_Other"></a> Поиск и воспроизведение файлов мультимедиа с помощью других проигрывателей или получателей цифровых мультимедиа, совместимых с Windows Server Essentials
 
 1.  Перейдите в [Центр совместимости Windows](https://www.microsoft.com/windows/compatibility/CompatCenter/Home) и убедитесь, что проигрыватель или приемник мультимедиа присутствует в списке совместимых устройств.
 
 2.  Поскольку действия поиска зависят от используемого мультимедийного проигрывателя, за подробными инструкциями обратитесь к справке по устройству.
 
-####  <a name="search-for-and-play-media-files-by-using-the-shared-folders-feature-of-the-launchpad"></a><a name="BKMK_SharedFolders"></a>Поиск и воспроизведение файлов мультимедиа с помощью функции "Общие папки" панели запуска
+####  <a name="search-for-and-play-media-files-by-using-the-shared-folders-feature-of-the-launchpad"></a><a name="BKMK_SharedFolders"></a> Поиск и воспроизведение файлов мультимедиа с помощью функции "Общие папки" панели запуска
 
 1.  Войдите на панель запуска Windows Server Essentials.
 
@@ -138,7 +138,7 @@ ms.locfileid: "87838223"
     > [!NOTE]
     >  При желании вы можете дважды щелкните общую папку, чтобы просмотреть ее содержимое.
 
-####  <a name="search-for-and-play-shared-media-by-using-remote-web-access"></a><a name="BKMK_RWA2"></a>Поиск и воспроизведение общих носителей с помощью удаленного Веб-доступ
+####  <a name="search-for-and-play-shared-media-by-using-remote-web-access"></a><a name="BKMK_RWA2"></a> Поиск и воспроизведение общих носителей с помощью удаленного Веб-доступ
 
 1.  Выполните вход в удаленный веб-доступ.
 
@@ -146,10 +146,10 @@ ms.locfileid: "87838223"
 
 3.  Дважды щелкните папку, чтобы просмотреть ее содержимое.
 
-###  <a name="send-media-files-on-windows-server-essentials-to-windows-media-player-xbox-360-or-to-a-networked-digital-media-player-in-the-network"></a><a name="BKMK_SendToDevice"></a>Отправка файлов мультимедиа в Windows Server Essentials в проигрыватель Windows Media, Xbox 360 или в сетевой проигрыватель Digital Media Player в сети
+###  <a name="send-media-files-on-windows-server-essentials-to-windows-media-player-xbox-360-or-to-a-networked-digital-media-player-in-the-network"></a><a name="BKMK_SendToDevice"></a> Отправка файлов мультимедиа в Windows Server Essentials в проигрыватель Windows Media, Xbox 360 или в сетевой проигрыватель Digital Media Player в сети
  Используйте **Проигрыватель Windows Media** для поиска нужного файла мультимедиа. Щелкните файл мультимедиа правой кнопкой мыши и выберите пункт **Воспроизвести на**, чтобы отправить файл мультимедиа на сетевое мультимедийное устройство.
 
-##  <a name="play-shared-digital-media-files-from-a-remote-location"></a><a name="BKMK_3"></a>Воспроизводить общие цифровые файлы мультимедиа из удаленного расположения
+##  <a name="play-shared-digital-media-files-from-a-remote-location"></a><a name="BKMK_3"></a> Воспроизводить общие цифровые файлы мультимедиа из удаленного расположения
  Вы можете воспроизводить файлы мультимедиа, когда вы выходите из сети Windows Server Essentials с помощью удаленного Веб-доступ. Для поиска и воспроизведения общих файлов мультимедиа, которые хранятся на сервере, можно использовать сотовый телефон, удаленный компьютер или мультимедийный проигрыватель.
 
 #### <a name="to-play-shared-media-files-when-you-are-away-from-the-network"></a>Порядок воспроизведения общих файлов мультимедиа извне сети
@@ -174,7 +174,7 @@ ms.locfileid: "87838223"
 
 5. Когда появляется имя файла мультимедиа, щелкните его для воспроизведения мультимедиа.
 
-##  <a name="add-digital-media-files-to-the-server"></a><a name="BKMK_4"></a>Добавление цифровых файлов мультимедиа на сервер
+##  <a name="add-digital-media-files-to-the-server"></a><a name="BKMK_4"></a> Добавление цифровых файлов мультимедиа на сервер
 
  Администратор сервера может добавлять цифровые носители в общие папки в библиотеке мультимедиа путем прямого доступа к серверу или с помощью удаленного Веб-доступ сайта для входа на панель мониторинга. Другие пользователи могут добавлять файлы мультимедиа на сервер с помощью подключения к **общим папкам** на панели запуска, используя удаленный веб-доступ сайт или с помощью приложения My server для Windows Phone. Сведения о воспроизведении мультимедиа см. в разделе [Воспроизведение мультимедиа и общий доступ](Play-Digital-Media-in-Windows-Server-Essentials.md#BKMK_2).
 
@@ -200,7 +200,7 @@ ms.locfileid: "87838223"
 
 3.  Скопируйте и вставьте или перетащите добавляемые файлы мультимедиа в соответствующую общую папку на сервере.
 
-##  <a name="download-format-options"></a><a name="BKMK_5"></a>Параметры формата загрузки
+##  <a name="download-format-options"></a><a name="BKMK_5"></a> Параметры формата загрузки
  Существует два варианта загрузки файлов. Соответствующие параметры доступны только при загрузке нескольких файлов или папки на компьютере под управлением Windows.
 
  Выберите следующий параметр, который соответствует требованиям к загрузке:
@@ -221,10 +221,10 @@ ms.locfileid: "87838223"
 
   Перед началом фактической загрузки создается файл EXE или ZIP. В зависимости от количества файлов и их общего размера их загрузка может занять несколько минут. После создания загружаемого файла загрузка выполняется в фоновом режиме. Это позволяет продолжить работу во время выполнения загрузки.
 
-##  <a name="easy-file-upload-tool"></a><a name="BKMK_6"></a>Средство быстрого отправки файлов
+##  <a name="easy-file-upload-tool"></a><a name="BKMK_6"></a> Средство быстрого отправки файлов
  Средство быстрого отправки файлов упрощает процесс отправки файлов на сервер Windows Server Essentials. Можно добавить столько файлов, сколько нужно для простого средства отправки файлов, а затем передать их в общие папки на сервере Windows Server Essentials в одном пакете. Дополнительные сведения см. в записи блога [Общие сведения о совместном использовании папок с помощью удаленного веб-доступа](/archive/blogs/sbs/understanding-remote-web-access-file-sharing).
 
-##  <a name="view-and-browse-shared-digital-media"></a><a name="BKMK_7"></a>Просмотр и обзор общих цифровых носителей
+##  <a name="view-and-browse-shared-digital-media"></a><a name="BKMK_7"></a> Просмотр и обзор общих цифровых носителей
  Вы можете просмотреть ресурсы с помощью панели мониторинга, панели запуска, веб-сайта удаленного веб-доступа или приложения "Мой сервер" для Windows Phone.
 
 #### <a name="to-view-and-browse-shared-media-from-the-dashboard"></a>Порядок просмотра общего мультимедийного содержимого с помощью панели мониторинга

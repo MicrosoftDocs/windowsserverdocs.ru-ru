@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 79a417fd-1b3e-47ab-ae33-bb1faf95c86d
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: 37b443a90ebdb2c6042596747f6c364fafe073a7
-ms.sourcegitcommit: 04637054de2bfbac66b9c78bad7bf3e7bae5ffb4
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: 5a52f4b14423d1ef337cba9c2d18dbf4c196ca93
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87838083"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89623873"
 ---
 # <a name="change-the-order-and-grouping-of-tabs"></a>Изменение порядка и группировки вкладок
 

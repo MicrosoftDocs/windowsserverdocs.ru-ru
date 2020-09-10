@@ -3,16 +3,16 @@ title: Миграция базы данных WSUS из (внутренняя б
 description: Раздел о службе Windows Server Update Service (WSUS). Перенос базы данных WSUS (SUSDB) из экземпляра внутренней базы данных Windows в локальный или удаленный экземпляр SQL Server.
 ms.topic: get-started article
 ms.assetid: 90e3464c-49d8-4861-96db-ee6f8a09g7dr
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dougkim
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 07/25/2018
-ms.openlocfilehash: 7a5102ab622d051e87ca735e5a03f131d583838a
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 54f7eb0464d4454bd2929aace44eb37567973154
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87991129"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89624465"
 ---
 # <a name="migrating-the-wsus-database-from-wid-to-sql"></a>Миграция базы данных WSUS из WID в SQL
 
@@ -145,8 +145,8 @@ ms.locfileid: "87991129"
     > ![image11](images/image11.png)
 
 4. На странице **Сопоставление пользователей** выберите базу данных **SUSDB** в разделе **Пользователи, сопоставленные с этим именем входа** .
-5. Проверьте **службу WebService** в разделе **членство в роли базы данных для: SUSDB**: ![ image12.](images/image12.png)
-6. Нажмите кнопку **ОК** , чтобы сохранить параметры.
+5. Проверьте **службу WebService** в разделе **членство в роли базы данных для: SUSDB**:  ![ image12.](images/image12.png)
+6. Нажмите кнопку  **ОК** , чтобы сохранить параметры.
     > [!NOTE]
     > Чтобы изменения вступили в силу, может потребоваться перезапустить службу SQL.
 

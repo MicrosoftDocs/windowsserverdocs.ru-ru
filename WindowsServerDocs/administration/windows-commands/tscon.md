@@ -3,16 +3,16 @@ title: tscon
 description: Справочная статья по тскон, которая подключается к другому сеансу на сервере узла сеансов удаленный рабочий стол.
 ms.topic: reference
 ms.assetid: 315a9793-cd10-4987-bb68-89a9d13f7fce
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: d0acb75411cae8c4d844e8ff2b113c6a9c638a9b
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 2ba6df3a8878c42ac8ce8ac88671bb645bfedf86
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89026882"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89624608"
 ---
 # <a name="tscon"></a>tscon
 
@@ -41,7 +41,7 @@ tscon {<SessionID> | <SessionName>} [/dest:<SessionName>] [/password:<pw> | /pas
 |/v|Отображает сведения о выполняемых действиях.|
 |/?|Отображение справки в командной строке.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Примечания
 -   Для подключения к другому сеансу необходимо иметь разрешение «Полный доступ» или «подключение специального доступа».
 -   Параметр **/dest:** < *SessionName*> позволяет подключить сеанс другого пользователя к другому сеансу.
 -   Если пароль не указан в параметре <*пароль*>, а целевой сеанс принадлежит пользователю, отличному от текущего, **тскон** завершается с ошибкой.

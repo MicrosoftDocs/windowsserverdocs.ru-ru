@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 86244c66-2c5e-488d-adb8-112e1ca3e2e1
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: 955da6c37bd57711529de02277d10f4627851715
-ms.sourcegitcommit: 04637054de2bfbac66b9c78bad7bf3e7bae5ffb4
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: 6c4410cb94f79be291984a92a2b788e3ae984a4f
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87838343"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89625429"
 ---
 # <a name="step-6-demote-and-remove-the-source-server-from-the-new-windows-server-essentials-network"></a>Шаг 6. Понижение уровня и удаление исходного сервера из новой сети Windows Server Essentials
 
@@ -28,7 +28,7 @@ ms.locfileid: "87838343"
 
 4.  [Удаление и перепрофилирование исходного сервера](Step-6--Demote-and-remove-the-Source-Server-from-the-new-Windows-Server-Essentials-network.md#BKMK_RemoveTheSourceServer)
 
-##  <a name="remove-active-directory-certificate-services"></a><a name="BKMK_ADCS"></a>Удаление Active Directory служб сертификатов
+##  <a name="remove-active-directory-certificate-services"></a><a name="BKMK_ADCS"></a> Удаление Active Directory служб сертификатов
  Процедура немного отличается при установке на одном сервере нескольких служб ролей служб сертификатов Active Directory (AD CS). Следующая процедура позволяет вам удалить одну службу роли AD CS, сохранив остальные.
 
  Для выполнения этой процедуры необходимо войти в систему с теми же разрешениями, которые имел пользователь, установивший центр сертификации (ЦС). При удалении ЦС предприятия минимальным требованием для выполнения этой процедуры является членство в группе "Администраторы предприятия" или его эквивалент.
@@ -60,10 +60,10 @@ ms.locfileid: "87838343"
     > [!IMPORTANT]
     >  Перезагрузите сервер даже в том случае, если отсутствует соответствующий запрос.
 
-##  <a name="disconnect-printers-that-are-directly-connected-to-the-source-server"></a><a name="BKMK_PhysicallyDisconnect"></a>Отключить принтеры, подключенные непосредственно к исходному серверу
+##  <a name="disconnect-printers-that-are-directly-connected-to-the-source-server"></a><a name="BKMK_PhysicallyDisconnect"></a> Отключить принтеры, подключенные непосредственно к исходному серверу
  Прежде чем понизить уровень исходного сервера, физически отключите все принтеры, которые подключены к напрямую к исходному серверу и предоставляются через него для общего доступа. Убедитесь, что не осталось никаких объектов Active Directory для принтеров, которые были подключены напрямую к исходному серверу. Затем принтеры могут быть напрямую подключены к целевому серверу и доступны из Windows Server Essentials.
 
-##  <a name="demote-the-source-server"></a><a name="BKMK_DemoteTheSourceServer"></a>Понижение уровня исходного сервера
+##  <a name="demote-the-source-server"></a><a name="BKMK_DemoteTheSourceServer"></a> Понижение уровня исходного сервера
  Перед понижением уровня исходного сервера с роли контроллера домена AD DS до роли рядового сервера домена убедитесь, что параметры групповой политики применяются ко всем клиентским компьютерам, как описано в следующей процедуре.
 
 > [!IMPORTANT]
@@ -77,7 +77,7 @@ ms.locfileid: "87838343"
 
 3. В командной строке введите команду **gpupdate /force** и нажмите клавишу ВВОД.
 
-4. Для завершения процесса вам может потребоваться выйти из системы и снова войти в нее. Нажмите кнопку **Да**, чтобы подтвердить действие.
+4. Для завершения процесса вам может потребоваться выйти из системы и снова войти в нее. Нажмите кнопку **Да** для подтверждения.
 
    Если выполняется миграция с Windows Server Essentials или предыдущих версий, чтобы понизить уровень сервера, см. раздел [удаление домен Active Directory Services](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh472163(v=ws.11)). После добавления исходного сервера в качестве члена рабочей группы и отключения его от сети этот сервер необходимо удалить из доменных служб Active Directory на конечном сервере.
 
@@ -93,7 +93,7 @@ ms.locfileid: "87838343"
 
 4.  Убедитесь, что исходный сервер отсутствует в списке, а затем закройте окно **Active Directory — пользователи и компьютеры**.
 
-##  <a name="remove-and-repurpose-the-source-server"></a><a name="BKMK_RemoveTheSourceServer"></a>Удаление и переназначение исходного сервера
+##  <a name="remove-and-repurpose-the-source-server"></a><a name="BKMK_RemoveTheSourceServer"></a> Удаление и переназначение исходного сервера
  Выключите исходный сервер и отключите его от сети. Рекомендуется хотя бы одну неделю не выполнять переформатирование исходного сервера, чтобы убедиться, что все необходимые данные перенесены на конечный сервер. После подтверждения переноса всех данных можно переустановить этот сервер в сети в качестве дополнительного сервера для других задач.
 
 > [!NOTE]

@@ -2,16 +2,16 @@
 title: Средства и служебные программы Windows Server Update Services
 description: Средства и служебные программы WSUS
 ms.assetid: d54a1f5e-af68-497e-99be-94445769b7a6
-author: coreyp-at-msft
-ms.author: coreyp
-manager: lizapo
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: ecca6243aa51e52b9115305db02fc5f1ddddfc8b
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 4ee292af928286c7133a90ed0ba298246482f8a8
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87896770"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89624245"
 ---
 # <a name="windows-server-update-services-tools-and-utilities"></a>Средства и служебные программы Windows Server Update Services
 

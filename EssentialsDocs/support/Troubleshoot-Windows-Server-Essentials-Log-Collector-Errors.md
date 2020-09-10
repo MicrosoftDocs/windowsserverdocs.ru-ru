@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: fa2e1685-31c0-4d4f-a10a-6c8885dfc493
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: 36c8143883667896c3ecdb3aa4b09d3c474537d2
-ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: 6f8318b6a6b711c6041a9227cd2d207470233dab
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "87180300"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89625135"
 ---
 # <a name="troubleshoot-windows-server-essentials-log-collector-errors"></a>Устранение неполадок сборщика журналов Windows Server Essentials
 
@@ -23,17 +23,17 @@ ms.locfileid: "87180300"
 > [!NOTE]
 > В этом документе компьютеры в сети, отличные от сервера, называются сетевыми компьютерами.
 
-###  <a name="the-destination-folder-is-not-valid"></a><a name="BKMK_TheDestinationFolderIsNotValid"></a>Недопустимая конечная папка
+###  <a name="the-destination-folder-is-not-valid"></a><a name="BKMK_TheDestinationFolderIsNotValid"></a> Недопустимая конечная папка
  **Причина.** Папки, в которую вы пытаетесь скопировать файлы журналов, не существует, либо на диске недостаточно места для сохранения этих файлов.
 
  **Решение.** Убедитесь в существовании выбранной папки, а также в наличии на диске достаточного места для сохранения данных файлов. Необходимо также убедиться, что во временной папке на диске достаточно свободного места.
 
-###  <a name="a-network-error-has-occurred"></a><a name="BKMK_ANetworkErrorHasOccurred"></a>Произошла сетевая ошибка
+###  <a name="a-network-error-has-occurred"></a><a name="BKMK_ANetworkErrorHasOccurred"></a> Произошла сетевая ошибка
  **Причина.** На компьютере сети или на сервере могли возникнуть проблемы с сетью.
 
  **Решение.** Убедитесь, что все компьютеры и сетевые устройства подключены к источнику питания и к сети. Если не удается устранить проблему, обратитесь к администратору, обслуживающему вашу сеть.
 
-###  <a name="cannot-collect-log-files-for-the-computer"></a><a name="BKMK_CannotCollectLogFiles"></a>Не удается получить файлы журнала для компьютера
+###  <a name="cannot-collect-log-files-for-the-computer"></a><a name="BKMK_CannotCollectLogFiles"></a> Не удается получить файлы журнала для компьютера
  **Причина.** Возможно, сборщик журналов не был установлен на данном компьютере, потому что компьютер не был подключен к серверу при помощи мастера подключения компьютера к серверу.
 
  **Решение:** Сведения о том, как устранить проблемы, связанные с подключением к серверу, см. в разделе [Устранение неполадок подключения компьютеров к серверу](https://go.microsoft.com/fwlink/p/?LinkID=241492).
@@ -42,17 +42,17 @@ ms.locfileid: "87180300"
 
 -   Для клиентских компьютеров под управлением Windows 7, Windows 8 или Windows Multipoint Server можно скопировать папку **Журналы** , расположенную по адресу **%sysdir%\programdata\Microsoft\Windows Server**.
 
-###  <a name="you-do-not-have-permission-to-save-the-log-files-to-the-selected-folder"></a><a name="BKMK_YouDoNotHavePermission"></a>У вас нет разрешения на сохранение файлов журнала в выбранной папке
+###  <a name="you-do-not-have-permission-to-save-the-log-files-to-the-selected-folder"></a><a name="BKMK_YouDoNotHavePermission"></a> У вас нет разрешения на сохранение файлов журнала в выбранной папке
  **Причина.** У вас могут отсутствовать разрешения на запись в папку, выбранную для сохранения файлов журналов.
 
  **Решение:** Если для сохранения файлов журнала используется путь по умолчанию, убедитесь, что у вас есть разрешение на запись для общей папки ** \\ \\<ServerName \> \Logs**. При сохранении журналов на компьютер сети убедитесь, что у вас есть права записи в выбранную вами папку для сохранения файлов.
 
-###  <a name="the-computer-is-not-configured-properly-to-collect-the-log-files"></a><a name="BKMK_TheComputerIsNotConfiguredProperly"></a>Компьютер не настроен должным образом для получения файлов журнала
+###  <a name="the-computer-is-not-configured-properly-to-collect-the-log-files"></a><a name="BKMK_TheComputerIsNotConfiguredProperly"></a> Компьютер не настроен должным образом для получения файлов журнала
  **Причина.** Данный компьютер не был правильно настроен для использования сборщика журналов.
 
  **Решение.** Переустановите сборщик журналов. См. раздел [Переустановка сборщика журналов](Install-the-Windows-Server-Essentials-Log-Collector.md#BKMK_Reinstall).
 
-###  <a name="an-unknown-error-occurred"></a><a name="BKMK_AnUnknownErrorOccurred"></a>Произошла неизвестная ошибка
+###  <a name="an-unknown-error-occurred"></a><a name="BKMK_AnUnknownErrorOccurred"></a> Произошла неизвестная ошибка
  **Причина** неизвестна.
 
  **Решение 1.** Перезапустите сборщик журналов. При повторном возникновении ошибки убедитесь в отсутствии сетевых проблем. Можно также попытаться переустановить сборщик журналов. См. раздел [Переустановка сборщика журналов](Install-the-Windows-Server-Essentials-Log-Collector.md#BKMK_Reinstall). Если не удается устранить проблему, обратитесь к администратору, обслуживающему вашу сеть.

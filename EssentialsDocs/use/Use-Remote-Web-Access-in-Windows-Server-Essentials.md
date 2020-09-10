@@ -5,14 +5,14 @@ ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 47ea21a0-5e05-4b4b-8fa4-338c82601276
 author: nnamuhcs
-ms.author: coreyp
-manager: dongill
-ms.openlocfilehash: 341a7dd217045150e1f637d23378e49a86bb5fbf
-ms.sourcegitcommit: 145cf75f89f4e7460e737861b7407b5cee7c6645
+ms.author: geschuma
+manager: mtillman
+ms.openlocfilehash: 25b3bf64672356027742858399d1e2cbc7037194
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "87409484"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89624907"
 ---
 # <a name="use-remote-web-access-in-windows-server-essentials"></a>Использование удаленного веб-доступа в Windows Server Essentials
 
@@ -30,7 +30,7 @@ ms.locfileid: "87409484"
 
 -   [Подключение с мобильного устройства](Use-Remote-Web-Access-in-Windows-Server-Essentials.md#BKMK_ConnectMobile)
 
-##  <a name="connect-to-remote-web-access"></a><a name="BKMK_Connect"></a>Подключение к удаленным Веб-доступ
+##  <a name="connect-to-remote-web-access"></a><a name="BKMK_Connect"></a> Подключение к удаленным Веб-доступ
 
 -   [Вход на удаленный Веб-доступ](Use-Remote-Web-Access-in-Windows-Server-Essentials.md#BKMK_1)
 
@@ -42,14 +42,14 @@ ms.locfileid: "87409484"
 
 -   [Подключение с мобильного устройства](../use/Use-Remote-Web-Access-in-Windows-Server-Essentials.md#BKMK_ConnectMobile)
 
-##  <a name="connect-to-remote-web-access"></a><a name="BKMK_Connect"></a>Подключение к удаленным Веб-доступ
+##  <a name="connect-to-remote-web-access"></a><a name="BKMK_Connect"></a> Подключение к удаленным Веб-доступ
 
 -   [Вход на удаленный Веб-доступ](../use/Use-Remote-Web-Access-in-Windows-Server-Essentials.md#BKMK_1)
 
 -   [Удаленный доступ к компьютеру](../use/Use-Remote-Web-Access-in-Windows-Server-Essentials.md#BKMK_1.5)
 
 
-###  <a name="log-on-to-remote-web-access"></a><a name="BKMK_1"></a>Вход на удаленный Веб-доступ
+###  <a name="log-on-to-remote-web-access"></a><a name="BKMK_1"></a> Вход на удаленный Веб-доступ
  При входе на удаленный Веб-доступ с локального или удаленного компьютера можно получить доступ к ресурсам на сервере под управлением Windows Server Essentials и компьютеров в сети.
 
 ##### <a name="to-log-on-to-remote-web-access-from-a-network-computer"></a>Вход в удаленный веб-доступ с компьютера в сети
@@ -70,7 +70,7 @@ ms.locfileid: "87409484"
 
 2.  На странице Вход в систему удаленного Веб-доступ введите имя пользователя и пароль в текстовых полях, а затем щелкните стрелку.
 
-###  <a name="remotely-access-your-computer"></a><a name="BKMK_1.5"></a>Удаленный доступ к компьютеру
+###  <a name="remotely-access-your-computer"></a><a name="BKMK_1.5"></a> Удаленный доступ к компьютеру
  Когда вы выходите из офиса, вы можете использовать веб-браузер для входа на удаленный Веб-доступный сайт для удаленного доступа к панели мониторинга Windows Server Essentials, общим папкам и компьютерам в сети.
 
  При подключении к панели мониторинга системой Windows Server Essentials можно управлять точно так же, как если бы вы находились в офисе. Вы можете выполнить все стандартные задачи администрирования, например добавление учетных записей пользователей, добавление общих папок, настройка доступа к общей папке и т. п. При подключении к компьютерам в сети вы получаете доступ к своим настольным компьютерам, как если бы вы сидели за ними в офисе.
@@ -99,7 +99,7 @@ ms.locfileid: "87409484"
 #### <a name="to-connect-to-the-server-dashboard"></a>Подключение к панели мониторинга сервера
  Щелкните имя сервера на вкладке **УСТРОЙСТВА**. Можно выбрать только компьютеры с состоянием **Доступно**. Чтобы использовать панели мониторинга, необходимо указать учетную запись администратора и пароль на сервере.
 
-##  <a name="share-files-and-folders"></a><a name="BKMK_SharedFolders"></a>Общий доступ к файлам и папкам
+##  <a name="share-files-and-folders"></a><a name="BKMK_SharedFolders"></a> Общий доступ к файлам и папкам
 
 
 -   [Отправка и загрузка файлов в системе удаленного веб-доступа](Use-Remote-Web-Access-in-Windows-Server-Essentials.md#BKMK_UploadRWA)
@@ -107,7 +107,7 @@ ms.locfileid: "87409484"
 -   [Создание, переименование, перемещение, удаление и копирование файлов и папок в системе удаленного веб-доступа](Use-Remote-Web-Access-in-Windows-Server-Essentials.md#BKMK_2)
 
 
-###  <a name="upload-and-download-files-in-remote-web-access"></a><a name="BKMK_UploadRWA"></a>Отправка и скачивание файлов в удаленном Веб-доступ
+###  <a name="upload-and-download-files-in-remote-web-access"></a><a name="BKMK_UploadRWA"></a> Отправка и скачивание файлов в удаленном Веб-доступ
  На вкладке **Общие папки** в режиме удаленного веб-доступа можно выполнить следующие действия:
 
 -   Отправка (передача) файлов с компьютера в Windows Server Essentials.
@@ -238,7 +238,7 @@ ms.locfileid: "87409484"
     > [!NOTE]
     >  При использовании программы сжатия стороннего разработчика выполните процедуры по извлечению файлов из сжатого файла.
 
-###  <a name="create-rename-move-delete-or-copy-files-and-folders-in-remote-web-access"></a><a name="BKMK_2"></a>Создание, переименование, перемещение, удаление или копирование файлов и папок в удаленном Веб-доступ
+###  <a name="create-rename-move-delete-or-copy-files-and-folders-in-remote-web-access"></a><a name="BKMK_2"></a> Создание, переименование, перемещение, удаление или копирование файлов и папок в удаленном Веб-доступ
  Удаленный веб-доступ можно использовать для создания новых папок в существующей общей папке, переименования файлов и папок, перемещения и копирования файлов и папок, а также удаления файлов и папок на сервере.
 
 > [!NOTE]
@@ -284,7 +284,7 @@ ms.locfileid: "87409484"
 
 3.  Щелкните правой кнопкой мыши папку, в которую хотите скопировать файлы или папки, и выберите пункт **Вставить**.
 
-##  <a name="connect-from-a-mobile-device"></a><a name="BKMK_ConnectMobile"></a>Подключение с мобильного устройства
+##  <a name="connect-from-a-mobile-device"></a><a name="BKMK_ConnectMobile"></a> Подключение с мобильного устройства
 
 
 -   [Использование удаленного веб-доступа с мобильного устройства](Use-Remote-Web-Access-in-Windows-Server-Essentials.md#BKMK_8)
@@ -296,7 +296,7 @@ ms.locfileid: "87409484"
 -   [Поддерживаемые веб-браузеры для мобильных устройств](../use/Use-Remote-Web-Access-in-Windows-Server-Essentials.md#BKMK_9)
 
 
-###  <a name="use-remote-web-access-from-a-mobile-device"></a><a name="BKMK_8"></a>Использование удаленного Веб-доступ с мобильного устройства
+###  <a name="use-remote-web-access-from-a-mobile-device"></a><a name="BKMK_8"></a> Использование удаленного Веб-доступ с мобильного устройства
  Вы можете выполнить вход в удаленный веб-доступ со смартфона, чтобы просмотреть файлы и папки в общих папках на сервере.
 
 > [!NOTE]
@@ -324,7 +324,7 @@ ms.locfileid: "87409484"
 
    Вы можете выполнить поиск файлов и папок в общих папках на сервере.
 
-###  <a name="supported-web-browsers-for-mobile-devices"></a><a name="BKMK_9"></a>Поддерживаемые веб-браузеры для мобильных устройств
+###  <a name="supported-web-browsers-for-mobile-devices"></a><a name="BKMK_9"></a> Поддерживаемые веб-браузеры для мобильных устройств
  Поддерживаемые веб-браузеры для мобильных устройств включают в себя:
 
 -   Internet Explorer Mobile 6.0 или более поздней версии
