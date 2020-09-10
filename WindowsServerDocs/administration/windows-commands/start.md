@@ -3,16 +3,16 @@ title: запуск
 description: Справочная статья для Start, которая запускает отдельное окно командной строки для запуска указанной программы или команды.
 ms.topic: reference
 ms.assetid: 0173f9b3-5cd7-4edb-b01e-d02193b4fadc
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 5f17b4093bbe82d869ad561dce45437389dc347e
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 3276374d13854e865755a7a87b9d35af2f4e6f46
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89036932"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89634198"
 ---
 # <a name="start"></a>запуск
 
@@ -44,7 +44,7 @@ start [<Title>] [/d <Path>] [/i] [{/min | /max}] [{/separate | /shared}] [{/low 
 |\<Parameter>...|Указывает параметры для передачи в команду или программу.|
 |/?|Отображение справки в командной строке.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Примечания
 
 - Можно запускать неисполняемые файлы с помощью сопоставления файлов, вводя имя файла в виде команды.
 - При выполнении команды, содержащей строку CMD в качестве первого маркера без квалификатора расширения или пути, команда CMD заменяется значением переменной COMSPEC. Это не позволяет пользователям выбирать **cmd** из текущего каталога.

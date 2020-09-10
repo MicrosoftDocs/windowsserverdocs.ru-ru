@@ -3,16 +3,16 @@ title: netstat
 description: Справочная статья по команде Netstat, которая отображает активные TCP-подключения, порты, прослушиваемые компьютером, статистику Ethernet, таблицу маршрутизации IP-адресов, статистику IPv4 и статистику IPv6.
 ms.topic: reference
 ms.assetid: 60e2718f-93cc-4ceb-bf0e-58a6a6e4fc8b
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 4d68ec2e21c4248769973b3409896ba9d5bd15e5
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 17c2251fd493041b0b39665a785d6aad8010e1d9
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89038805"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89635832"
 ---
 # <a name="netstat"></a>netstat
 
@@ -44,7 +44,7 @@ netstat [-a] [-b] [-e] [-n] [-o] [-p <Protocol>] [-r] [-s] [<interval>]
 | `<interval>` | Повторно отображает выбранную информацию каждый *интервал* в секундах. Нажмите клавиши CTRL + C, чтобы прерывать повторное отображение. Если этот параметр не указан, эта команда выводит выбранные данные только один раз. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Remarks
+#### <a name="remarks"></a>Примечания
 
 - Команда **netstat** предоставляет статистические данные по следующим параметрам:
 

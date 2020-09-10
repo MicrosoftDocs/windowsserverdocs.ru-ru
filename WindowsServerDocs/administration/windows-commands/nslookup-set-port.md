@@ -3,16 +3,16 @@ title: nslookup set port
 description: Справочная статья по команде nslookup set Port, которая изменяет порт сервера доменных имен TCP/UDP по умолчанию (DNS) на указанное значение.
 ms.topic: reference
 ms.assetid: 4dab7a09-d400-4062-b863-2d32c191c3bd
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 095603291283df329559751e26b177dd74e6ac8b
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 2352bfcfd73ef3a3d8f41fdddde77324c2452785
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89036322"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89633933"
 ---
 # <a name="nslookup-set-port"></a>nslookup set port
 

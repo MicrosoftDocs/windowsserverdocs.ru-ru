@@ -3,16 +3,16 @@ title: extend
 description: Справочная статья по команде Extend, которая расширяет том или раздел с фокусом и его файловой системой на свободное (нераспределенное) пространство на диске.
 ms.topic: reference
 ms.assetid: 2414e21d-fc0b-40e8-9e33-3e072f8ad76b
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: bef77ab0972390dcae85f46458989410b88cc64a
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: dd654f2a648c86268721a87619f7b8832eaa34fe
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89036672"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89635871"
 ---
 # <a name="extend"></a>extend
 
@@ -36,7 +36,7 @@ extend filesystem [noerr]
 | filesystem | Расширяет файловую систему тома, имеющего фокус. Для использования только на дисках, где файловая система не была расширена с помощью тома. |
 | Noerr | Только для сценариев. При возникновении ошибки DiskPart продолжит обрабатывать команды, как если бы ошибка не возникала. Без этого параметра ошибка приводит к выходу из программы DiskPart с кодом ошибки. |
 
-#### <a name="remarks"></a>Remarks
+#### <a name="remarks"></a>Примечания
 
 - На базовых дисках свободное пространство должно находиться на том же диске, что и том или раздел с фокусом. Он также должен сразу же следовать за томом или Секцией (т. е. он должен начинаться со следующего смещения сектора).
 

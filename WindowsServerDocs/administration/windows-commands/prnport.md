@@ -3,16 +3,16 @@ title: prnport
 description: Справочная статья по команде прнпорт, которая создает, удаляет и перечисляет стандартные порты принтера TCP/IP, а также отображает и изменяет конфигурацию порта.
 ms.topic: reference
 ms.assetid: 6a0ec638-a21e-4a34-be5c-bd0f7ca89ffe
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 4723d266ed70c7e9bf56fd65216dcce0bab1188c
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 8535290d84566b5241e7f3279ce38029180b8432
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89033892"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89635137"
 ---
 # <a name="prnport"></a>prnport
 
@@ -48,7 +48,7 @@ cscript prnport {-a | -d | -l | -g | -t | -?} [-r <portname>] [-s <Servername>] 
 | -2`{e|-d}` | Указывает, включены ли двойные очереди (также называемые перекачкой) для портов TCP LPR. Двойная буферизация необходима, так как TCP LPR должен содержать точный счетчик байтов в управляющем файле, отправляемом на принтер, но протокол не может получить число от локального поставщика печати. Таким образом, если файл помещен в очередь печати TCP LPR, он также помещается в очередь как временный файл в каталог System32. TCP-порт LPR определяет размер временного файла и отправляет его на сервер, на котором работает LPD. Параметр **e** включает двойные очереди. Параметр **d** отключает двойные очереди. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Remarks
+#### <a name="remarks"></a>Примечания
 
 - Если предоставленные сведения содержат пробелы, заключите его в кавычки (например, "имя компьютера").
 

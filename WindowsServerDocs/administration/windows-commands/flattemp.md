@@ -3,16 +3,16 @@ title: flattemp
 description: Справочная статья по команде флаттемп, которая включает или отключает плоские временные папки.
 ms.topic: reference
 ms.assetid: 059a0960-1fd9-4382-87fe-a85d5dccdaea
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: ac9a3ec390318d52d17f8e537eb10aad4bb1540c
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 86fcad8a22c73aa8682059f657966c9ac20b8793
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89030623"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89634875"
 ---
 # <a name="flattemp"></a>flattemp
 
@@ -38,7 +38,7 @@ flattemp {/query | /enable | /disable}
 | /Disable | Отключает плоские временные папки. Временная папка каждого пользователя будет находиться в отдельной папке (определяется ИДЕНТИФИКАТОРом сеанса пользователя). |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Remarks
+#### <a name="remarks"></a>Примечания
 
 - После того как у каждого пользователя есть уникальная временная папка, используйте `flattemp /enable` для включения плоских временных папок.
 

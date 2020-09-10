@@ -3,16 +3,16 @@ title: graftabl
 description: Справочная статья по команде graftabl, которая позволяет операционным системам Windows отображать расширенный набор символов в графическом режиме.
 ms.topic: reference
 ms.assetid: b08351d4-3d24-490c-86f6-1252da11d923
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 8b92cc0501b69127bb8dd9e3faba5591a48542ea
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 9f8759679865c87c11417c64ef130736de2a1e9e
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89035492"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89634616"
 ---
 # <a name="graftabl"></a>graftabl
 
@@ -33,7 +33,7 @@ graftabl /status
 | /status | Отображает текущую кодовую страницу, используемую этой командой. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Remarks
+#### <a name="remarks"></a>Примечания
 
 - Команда **graftabl** влияет только на отображение расширенных символов указанной кодовой страницы. Она не изменяет фактическую кодовую страницу ввода консоли. Чтобы изменить кодовую страницу ввода консоли, используйте команду [mode](mode.md) или [chcp](chcp.md) .
 

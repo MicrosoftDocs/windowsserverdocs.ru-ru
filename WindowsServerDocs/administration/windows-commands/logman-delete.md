@@ -3,16 +3,16 @@ title: logman delete
 description: Справочная статья по команде Logman DELETE, которая удаляет существующий сборщик данных.
 ms.topic: reference
 ms.assetid: 8f3b2422-3dce-4fb4-adbb-8536b1d7da2b
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: dbcae06f149f0ea1c443f91fec45d87b5a358136
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 57d909a23e65de3c74daff4fe82f42943cb3875d
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89023808"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89634370"
 ---
 # <a name="logman-delete"></a>logman delete
 

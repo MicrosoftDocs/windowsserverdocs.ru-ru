@@ -3,16 +3,16 @@ title: dfsdiag testdfsconfig
 description: Справочная статья по дфсдиаг тестдфсконфиг, которая проверяет конфигурацию пространства имен распределенная файловая система (DFS).
 ms.topic: reference
 ms.assetid: 106aeeb9-ea79-4e6e-829c-eca06309bab2
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 60070b9f4076ee90cf0705992f31aff583f92968
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: a95e5df19bfab4a8724d755b4495dc90bcf5f93a
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89024008"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89634141"
 ---
 # <a name="dfsdiag-testdfsconfig"></a>dfsdiag testdfsconfig
 

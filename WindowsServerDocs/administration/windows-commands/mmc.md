@@ -3,16 +3,16 @@ title: mmc
 description: Справочная статья по команде MMC, которая позволяет открыть определенную консоль MMC, открыть MMC в режиме автора или указать, чтобы открыть 32-разрядную или 64-разрядную версию MMC.
 ms.topic: reference
 ms.assetid: 7bfa4030-ce42-40fb-922f-2f5145a80872
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 8705cf2e2cd7eced344bcc412283dc88c829849a
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: a2a342e0a72835ac16130ddf54a16e2333ed73c1
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89037812"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89634208"
 ---
 # <a name="mmc"></a>mmc
 
@@ -36,7 +36,7 @@ mmc <path>\<filename>.msc [/a] [/64] [/32]
 | /32 | Открывает 32-разрядную версию **MMC** (ММС 32). При запуске операционной системы Microsoft 64-bit можно запускать 32-разрядные оснастки, открыв MMC с помощью этого параметра командной строки при наличии только 32-разрядных оснасток. |
 | /? | Отображение справки в командной строке. |
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Примечания
 
 - Переменные среды можно использовать для создания командных строк или ярлыков, которые не зависят от явного расположения файлов консоли. Например, если путь к файлу консоли находится в системной папке (например, в **консоли MMC c:\winnt\system32\ console_name. msc**), можно использовать расширяемую строку данных **% systemroot%** для указания расположения (**MMC% systemroot% \ system32 \ console_name. msc**). Это может быть полезно, если вы делегируйте задачи сотрудникам Организации, работающим на разных компьютерах.
 

@@ -3,16 +3,16 @@ title: diskcomp
 description: Справочная статья по команде diskcomp, которая сравнивает содержимое двух гибких дисков.
 ms.topic: reference
 ms.assetid: 4f56f534-a356-4daa-8b4f-38e089341e42
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 058092595e106fdc60663ec81e68523c609d34c7
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 99cb90fd6932e097e88c106bf93bd66e68fef6f4
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89028322"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89634316"
 ---
 # <a name="diskcomp"></a>diskcomp
 
@@ -31,7 +31,7 @@ diskcomp [<drive1>: [<drive2>:]]
 | `<drive1>` | Указывает диск, содержащий один из гибких дисков. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Remarks
+#### <a name="remarks"></a>Примечания
 
 - Команда **diskcomp** работает только с гибкими дисками. Нельзя использовать **diskcomp** с жестким диском. Если для *диск1* или *диск2*указан жесткий диск, **команда diskcomp** выводит следующее сообщение об ошибке:
 

@@ -3,16 +3,16 @@ title: jetpack
 description: Справочная статья по команде Jetpack, которая сжимает службу Windows Internet Name Service (WINS) или базу данных протокола DHCP.
 ms.topic: reference
 ms.assetid: 82a2b7ef-0db5-4575-a028-8acb0bf6c7ba
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: bf2664c142a169982acc0d11c34a53aea193d030
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 300218e6eb98e2cf5ab7adeda1b31bc0da0b026b
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89035422"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89634407"
 ---
 # <a name="jetpack"></a>jetpack
 

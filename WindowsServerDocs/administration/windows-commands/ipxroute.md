@@ -3,16 +3,16 @@ title: ipxroute
 description: Справочная статья по команде ipxroute, которая отображает и изменяет сведения о таблицах маршрутизации, используемых протоколом IPX.
 ms.topic: reference
 ms.assetid: 3a30304f-655e-43d2-a4ac-7568abf8975c
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 2f8e9e8c376ad2b7997160b6add2b84e655a84d9
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: dbfc2df421429d4265cbcb425d189c4fd69de99d
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89037972"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89634424"
 ---
 # <a name="ipxroute"></a>ipxroute
 

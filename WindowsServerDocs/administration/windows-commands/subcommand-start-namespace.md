@@ -3,16 +3,16 @@ title: Подкоманда Start — пространство имен
 description: Справочная статья для подкоманды Start-Namespace, которая запускает пространство имен, запланированное для приведения.
 ms.topic: reference
 ms.assetid: 2dd1c11e-6ab7-4129-9e3a-3f80e0ba59c0
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 38a0dd1b4988977d14a2be68966a6eb53df71ce8
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 9d37921024c1f92f97687c7b0a4a0714192fe564
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89024758"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89633921"
 ---
 # <a name="subcommand-start-namespace"></a>Подкоманда: Start-Namespace
 

@@ -3,16 +3,16 @@ title: finger
 description: Справочная статья по команде finger, которая отображает сведения о пользователях на указанном удаленном компьютере, на котором запущена служба или управляющая программа Finger.
 ms.topic: reference
 ms.assetid: 907ea637-5c6c-4752-84c2-46bbf2a68a33
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 55b9fe07b45b669f2d669d388883e5a363eda54f
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: e2c631fe02b22ea0fc57a9e338f80ac15b00873f
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89035092"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89634928"
 ---
 # <a name="finger"></a>finger
 
@@ -38,7 +38,7 @@ finger [-l] [<user>] [@<host>] [...]
 | `@<host>` | Указывает удаленный компьютер, на котором запущена служба Finger, где вы ищете сведения о пользователе. Можно указать имя или IP-адрес компьютера. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Remarks
+#### <a name="remarks"></a>Примечания
 
 - Необходимо **Добавить префиксные** параметры с дефисом (-), а не косой чертой (/).
 

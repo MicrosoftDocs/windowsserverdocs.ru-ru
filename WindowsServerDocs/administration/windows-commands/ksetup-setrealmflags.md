@@ -3,16 +3,16 @@ title: ksetup setrealmflags
 description: Справочная статья по команде ksetup сетреалмфлагс, которая задает флаги области для указанной области.
 ms.topic: reference
 ms.assetid: bcb2824e-fba7-4ebe-be62-e62b4fae5b17
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 3f716e1da0a5804df9fa42534d5d4aa0b63672b1
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 08cb63da37f72cf0fd0e26f90ce7a9c2ec7839ac
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89025328"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89634301"
 ---
 # <a name="ksetup-setrealmflags"></a>ksetup setrealmflags
 
@@ -30,7 +30,7 @@ ksetup /setrealmflags <realmname> [sendaddress] [tcpsupported] [delegate] [ncsup
 | --------- | ----------- |
 | `<realmname>` | Указывает DNS-имя в верхнем регистре, например CORP. CONTOSO.COM. |
 
-#### <a name="remarks"></a>Remarks
+#### <a name="remarks"></a>Примечания
 
 - Флаги сферы задают дополнительные возможности области Kerberos, которые не основаны на операционной системе Windows Server. Компьютеры под управлением Windows Server могут использовать сервер Kerberos для администрирования проверки подлинности в области Kerberos вместо использования домена под управлением операционной системы Windows Server. Эта запись устанавливает функции области и имеет следующие значения:
 

@@ -3,16 +3,16 @@ title: diskcopy
 description: Справочная статья по команде diskcopy, которая копирует содержимое гибкого диска с исходного диска на форматированный или неформатированный гибкий диск на целевом диске.
 ms.topic: reference
 ms.assetid: 5fd21efa-52cc-4e70-a7fe-35125a435106
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 05/07/2018
-ms.openlocfilehash: dd60148c798cd69e1f1e4aa2ce79d7acc0f16a84
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 5ed6c3eee6f096e6069e5752441229015db8ed86
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89025848"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89634950"
 ---
 # <a name="diskcopy"></a>diskcopy
 
@@ -32,7 +32,7 @@ diskcopy [<drive1>: [<drive2>:]] [/v]
 | /v | Проверяет, правильно ли скопированы данные. Этот параметр замедляет процесс копирования. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Remarks
+#### <a name="remarks"></a>Примечания
 
 - **Команда diskcopy** работает только со съемными дисками, такими как гибкие диски, которые должны быть одного типа. Нельзя использовать **diskcopy** с жестким диском. Если для *диск1* или *диск2*указан жесткий диск, **команда diskcopy** выведет следующее сообщение об ошибке:
 

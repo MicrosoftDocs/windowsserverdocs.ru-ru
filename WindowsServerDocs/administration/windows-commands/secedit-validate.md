@@ -3,16 +3,16 @@ title: 'Secedit: Проверка'
 description: Справочная статья для * * * *-
 ms.topic: reference
 ms.assetid: 9fb06354-f55a-4ca4-9fbc-9a872eb9b9cf
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 47c0ec78cb49da3ce256e7a74ce8be003b0db85b
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: be7ae316a189203aa70769d1d37291f532166735
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89027982"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89635534"
 ---
 # <a name="seceditvalidate"></a>Secedit: Проверка
 
@@ -31,9 +31,9 @@ Secedit /validate <configuration file name>
 
 |Параметр|Описание|
 |---------|-----------|
-|Имя файла конфигурации|Обязательный.</br>Указывает путь и имя файла для шаблона безопасности, который будет проверен.|
+|Имя файла конфигурации|Обязательный элемент.</br>Указывает путь и имя файла для шаблона безопасности, который будет проверен.|
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Примечания
 
 Проверка шаблонов безопасности может помочь в том, что один из них поврежден или настроен неправильно.
 

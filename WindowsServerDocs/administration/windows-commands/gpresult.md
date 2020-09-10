@@ -3,16 +3,16 @@ title: gpresult
 description: Справочная статья о команде gpresult, которая отображает результирующий набор политик (RSoP) для удаленного пользователя и компьютера.
 ms.topic: reference
 ms.assetid: dfaa3adf-2c83-486c-86d6-23f93c5c883c
-author: coreyp-at-msft
-ms.author: coreyp
-manager: dongill
+ms.author: lizross
+author: eross-msft
+manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 5ef5de0c8e4e4c4f75d8ccd680e20b8cf00385f5
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: a608f94a0239dd2e2d7eff2cc5aba5bfc7e918e8
+ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89025678"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89634748"
 ---
 # <a name="gpresult"></a>gpresult
 
@@ -45,7 +45,7 @@ gpresult [/s <system> [/u <username> [/p [<password>]]]] [/user [<targetdomain>\
 | /z | Отображает все доступные сведения о групповая политика. Сюда входят подробные параметры, которые были применены с приоритетом 1 и выше. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Remarks
+#### <a name="remarks"></a>Примечания
 
 - Групповая политика является основным средством администрирования для определения и контроля работы программ, сетевых ресурсов и операционной системы для пользователей и компьютеров в Организации. В среде Active Directory групповая политика применяется к пользователям или компьютерам на основе их членства в сайтах, доменах или подразделениях.
 
