@@ -2,15 +2,15 @@
 title: Введение в привязку токенов
 ms.topic: article
 ms.assetid: 4623a48c-cefd-4a27-9173-2af58ac212f2
-manager: alanth
 author: justinha
+ms.author: Justinha
 ms.date: 11/09/2016
-ms.openlocfilehash: cc636e3a775ed315e03f8ec112f7e53ee370ca39
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 08042ef376587c1e3370c07bf6c77b07f7aedc1f
+ms.sourcegitcommit: 7cacfc38982c6006bee4eb756bcda353c4d3dd75
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87989412"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "90078521"
 ---
 # <a name="introducing-token-binding"></a>Введение в привязку токенов
 

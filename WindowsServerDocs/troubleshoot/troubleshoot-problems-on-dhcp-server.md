@@ -1,18 +1,17 @@
 ---
 title: Устранение неполадок на сервере DHCP
 description: В этом артилцее объясняется, как устранять неполадки на DHCP-сервере и получать данные.
-ms.service: na
 manager: dcscontentpm
 ms.date: 5/26/2020
 ms.topic: article
 author: Deland-Han
 ms.author: delhan
-ms.openlocfilehash: d6fc69c15c3465769232d89f70a65ca915d0584e
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: a6b5e4128c2e07e51ab8a9c07155a8c0212fcad8
+ms.sourcegitcommit: 7cacfc38982c6006bee4eb756bcda353c4d3dd75
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87989033"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "90078591"
 ---
 # <a name="troubleshoot-problems-on-the-dhcp-server"></a>Устранение неполадок на сервере DHCP
 
@@ -62,7 +61,7 @@ ms.locfileid: "87989033"
 
 Корреляция трассировки сети может означать, что DHCP-сервер выполнялся в момент записи события в журнал. Чтобы создать такую трассировку, выполните следующие действия.
 
-1.  Перейдите в [GitHub](https://github.com/CSS-Windows/WindowsDiag/tree/master/ALL/TSS)и скачайте файл [ \_tools.zipТсс](https://github.com/CSS-Windows/WindowsDiag/blob/master/ALL/TSS/tss_tools.zip) .
+1.  Перейдите в [GitHub](https://github.com/CSS-Windows/WindowsDiag/tree/master/ALL/TSS)и скачайте файл [ \_tools.zipТсс ](https://github.com/CSS-Windows/WindowsDiag/blob/master/ALL/TSS/tss_tools.zip) .
 
 2.  Скопируйте \_ файлtools.zip Тсс и разверните его в расположении на локальном диске, например в папке C: \\ Tools.
 

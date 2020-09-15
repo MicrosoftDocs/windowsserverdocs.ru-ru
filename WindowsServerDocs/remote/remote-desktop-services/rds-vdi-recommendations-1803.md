@@ -1,17 +1,15 @@
 ---
 title: Оптимизация Windows 10 версии 1803 для роли инфраструктуры виртуальных рабочих столов (VDI)
 description: Рекомендуемые параметры и конфигурация для снижения временных затрат на компьютеры Windows 10 версии 1803 (10.0.1393), используемые в качестве образов VDI.
-ms.reviewer: robsmi
-ms.author: jaimeo, robsmi
+ms.author: robsmi
 ms.topic: article
 author: jaimeo
-manager: dougkim
-ms.openlocfilehash: eb222547518dc0ee13e2c7a47037ffae74fee1fa
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 4ba432e13785694844229a41f2966eb7cf65fa7e
+ms.sourcegitcommit: 7cacfc38982c6006bee4eb756bcda353c4d3dd75
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89036772"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "90078641"
 ---
 # <a name="optimizing-windows-10-version-1803-for-a-virtual-desktop-infrastructure-vdi-role"></a>Оптимизация Windows 10 версии 1803 для роли инфраструктуры виртуальных рабочих столов (VDI)
 

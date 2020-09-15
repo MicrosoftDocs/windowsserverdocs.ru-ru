@@ -1,22 +1,21 @@
 ---
 title: Репозиторий программного обеспечения Linux для продуктов Майкрософт
 description: В этом документе описывается, как использовать и устанавливать программные пакеты Linux для продуктов Майкрософт.
-manager: szark
 ms.topic: article
 ms.assetid: b5387444-595f-4f38-abb7-163a70ea1895
-author: szarkos
-ms.author: szark
+author: victorcheng7
+ms.author: vichen
 ms.date: 08/14/2020
-ms.openlocfilehash: 421518ffceb2fb5cab0ed84e9299004084311924
-ms.sourcegitcommit: b18effcba95c85d6e08e7d29808b576491a5352e
+ms.openlocfilehash: dffd07d74e11253457f893d563c0b05272138f41
+ms.sourcegitcommit: 7cacfc38982c6006bee4eb756bcda353c4d3dd75
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/15/2020
-ms.locfileid: "88243186"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "90078423"
 ---
 # <a name="linux-software-repository-for-microsoft-products"></a>Репозиторий программного обеспечения Linux для продуктов Майкрософт
 
-## <a name="overview"></a>Overview
+## <a name="overview"></a>Обзор
 
 Корпорация Майкрософт создает и поддерживает различные программные продукты для систем Linux и делает их доступными через стандартные репозитории пакетов APT и YUM. В этом документе описывается, как настроить репозиторий в системе Linux, чтобы можно было установить или обновить программное обеспечение Microsoft Linux с помощью стандартных средств управления пакетами для дистрибутива.
 

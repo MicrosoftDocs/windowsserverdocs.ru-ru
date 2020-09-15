@@ -2,15 +2,15 @@
 title: Шлюзы удаленный рабочий стол настройки производительности
 description: Рекомендации по настройке производительности для шлюзов удаленный рабочий стол
 ms.topic: article
-ms.author: hammadbu; vladmis
+ms.author: hammadbu
 author: phstee
 ms.date: 10/16/2017
-ms.openlocfilehash: 8aeaf524b3621c61cfdd6b0e4edd9d0f8f73ebae
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 34305b94ff431f90d152bfd987c827b990fb0e74
+ms.sourcegitcommit: 7cacfc38982c6006bee4eb756bcda353c4d3dd75
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87896050"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "90078171"
 ---
 # <a name="performance-tuning-remote-desktop-gateways"></a>Шлюзы удаленный рабочий стол настройки производительности
 

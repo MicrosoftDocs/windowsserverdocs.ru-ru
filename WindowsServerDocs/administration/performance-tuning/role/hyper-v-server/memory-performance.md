@@ -2,15 +2,15 @@
 title: Производительность памяти Hyper-V
 description: Требования к памяти при настройке производительности Hyper-V
 ms.topic: article
-ms.author: asmahi; sandysp; jopoulso
+ms.author: asmahi
 author: phstee
 ms.date: 10/16/2017
-ms.openlocfilehash: 08ccc5c8a6b7300f1fa476c01838080b0b01f67a
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: f0358747002eb850283c63770885d38872b7b903
+ms.sourcegitcommit: 7cacfc38982c6006bee4eb756bcda353c4d3dd75
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87896095"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "90078270"
 ---
 # <a name="hyper-v-memory-performance"></a>Производительность памяти Hyper-V
 

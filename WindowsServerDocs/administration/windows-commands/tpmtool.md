@@ -3,22 +3,22 @@ title: tpmtool
 description: Справочная статья по тпмтул, которая получает сведения о доверенный платформенный модуль (TPM).
 ms.topic: reference
 author: ashleytqy
-ms.author: ashleytqy
-manager: ronaldai
+ms.author: asteoh
+manager: raigner
 ms.date: 05/07/2019
-ms.openlocfilehash: b0f234755eefdca15f214dad428f02631592e8c2
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: f9d1a7c0bc1516feea3afaf00d750e54871ad818
+ms.sourcegitcommit: 7cacfc38982c6006bee4eb756bcda353c4d3dd75
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89027002"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "90077591"
 ---
 # <a name="tpmtool"></a>tpmtool
 
 Эту служебную программу можно использовать для получения сведений о [доверенный платформенный модуль (TPM) (TPM)](/windows/security/information-protection/tpm/trusted-platform-module-overview).
 
 >[!IMPORTANT]
->Некоторые сведения относятся к предварительным версиям продуктов, в которые перед коммерческим выпуском могут быть внесены существенные изменения. Майкрософт не предоставляет никаких гарантий, явных или подразумеваемых, относительно приведенных здесь сведений.
+>Некоторые сведения относятся к предварительным версиям продуктов, в которые перед коммерческим выпуском могут быть внесены существенные изменения. Корпорация Майкрософт не дает никаких гарантий, явных или подразумеваемых, относительно предоставленной здесь информации.
 
 В разделе [Примеры](#tpmtool_examples) показан принцип использования этой команды.
 
@@ -36,7 +36,7 @@ tpmtool /parameter [<arguments>]
 |дривертраЦинг [запуск/завершение]|Запуск и завершение сбора трассировок драйверов TPM. Журнал трассировки ТПМТРАЦЕ. ETL будет создан и помещен в текущий каталог.|
 |/?|Отображение справки в командной строке.|
 
-## <a name="examples"></a><a name=tpmtool_examples></a>Примеры
+## <a name="examples"></a><a name=tpmtool_examples></a>Примеров
 
 Чтобы отобразить основные сведения о TPM, введите:
 ```

@@ -1,19 +1,19 @@
 ---
 title: Отказоустойчивость и экономичность хранения данных в локальных дисковых пространствах
-ms.author: cosmosdarwin
 manager: eldenc
 ms.topic: article
 author: cosmosdarwin
+ms.author: cosdar
 ms.date: 10/11/2017
 ms.assetid: 5e1d7ecc-e22e-467f-8142-bad6d82fc5d0
 description: Описание типов устойчивости в локальных дисковых пространствах, в том числе зеркального отображения и четности.
 ms.localizationpriority: medium
-ms.openlocfilehash: 83a38655f1fa40522de84372e270b85f64128e6f
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: c6ef53927a1c6ed4e5275bc2412faa97510c024e
+ms.sourcegitcommit: 7cacfc38982c6006bee4eb756bcda353c4d3dd75
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87961188"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "90078511"
 ---
 # <a name="fault-tolerance-and-storage-efficiency-in-storage-spaces-direct"></a>Отказоустойчивость и экономичность хранения данных в локальных дисковых пространствах
 
@@ -169,7 +169,7 @@ ms.locfileid: "87961188"
 |    15                 |    RS 6+2           |    75.0%        |
 |    16                 |    LRC (12, 2, 1)   |    80 %        |
 
-## <a name="examples"></a><a name="examples"></a>Примеры
+## <a name="examples"></a><a name="examples"></a>Примеров
 
 Если у вас больше двух серверов, рекомендуется использовать трехстороннее зеркалирование и (или) двойную четность, так как эти варианты обеспечивают лучшую отказоустойчивость. В частности, они обеспечивают безопасность и постоянную доступность всех данных даже в случае одновременного отказа двух доменов сбоя (т. е. двух серверов в случае локальных дисковых пространств).
 

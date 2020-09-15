@@ -3,16 +3,16 @@ title: Администрирование Server Core
 description: Сведения об администрировании установки основных серверных компонентов Windows Server
 ms.mktglfcycl: manage
 ms.sitesec: library
-author: lizap
-ms.author: elizapo
+author: pronichkin
+ms.author: artemp
 ms.localizationpriority: medium
 ms.date: 12/18/2018
-ms.openlocfilehash: 8eba1e081c57c1c668a4e52ecb85fb4716a36fdc
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 089d6437bd8c246bae3da5898870ea9cdd442656
+ms.sourcegitcommit: 7cacfc38982c6006bee4eb756bcda353c4d3dd75
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87895907"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "90077871"
 ---
 # <a name="administer-a-server-core-server"></a>Администрирование сервера Server Core
 
@@ -113,9 +113,9 @@ ms.locfileid: "87895907"
 |             Установка локального пароля администратора             |                                                                                                                                                                                                      **администратор пользователей сети**\*                                                                                                                                                                                                      |
 |                  Присоединение компьютера к домену                  |                                                                                                                                                       **netdom join% ComputerName%** **/Domain: \<domain\> /усерд: \<domain\\username\> /пассвордд:**\* <br> Перезагрузите компьютер.                                                                                                                                                        |
 |              Подтверждение изменения домена              |                                                                                                                                                                                                                 **set**                                                                                                                                                                                                                 |
-|                Удаление компьютера из домена                |                                                                                                                                                                                                   **Netdom Remove\<computername\>**                                                                                                                                                                                                    |
-|         Добавление пользователя в локальную группу администраторов          |                                                                                                                                                                                       **net localgroup "Администраторы"/Add\<domain\\username\>**                                                                                                                                                                                       |
-|       Удаление пользователя из локальной группы администраторов       |                                                                                                                                                                                     **net localgroup "Администраторы"/Delete\<domain\\username\>**                                                                                                                                                                                      |
+|                Удаление компьютера из домена                |                                                                                                                                                                                                   **Netdom Remove \<computername\>**                                                                                                                                                                                                    |
+|         Добавление пользователя в локальную группу администраторов          |                                                                                                                                                                                       **net localgroup "Администраторы"/Add \<domain\\username\>**                                                                                                                                                                                       |
+|       Удаление пользователя из локальной группы администраторов       |                                                                                                                                                                                     **net localgroup "Администраторы"/Delete \<domain\\username\>**                                                                                                                                                                                      |
 |               Добавление пользователя на локальный компьютер                |                                                                                                                                                                                                **NET User \<domain\username\> \* /Add**                                                                                                                                                                                                 |
 |               Добавление группы на локальный компьютер               |                                                                                                                                                                                                 **net localgroup \<group name\> /Add**                                                                                                                                                                                                  |
 |          Изменение имени компьютера в домене          |                                                                                                                                                           **netdom ренамекомпутер% ComputerName%/newname.: \<new computer name\> /усерд: \<domain\\username\> /пассвордд:**\*                                                                                                                                                            |
@@ -126,9 +126,9 @@ ms.locfileid: "87895907"
 |                 Изменение статического IP-адреса                 | **ipconfig/all** <br>Запишите соответствующие сведения или перенаправьте их в текстовый файл (**ipconfig/all >ipconfig.txt**).<br>**Интерфейс Netsh интерфейса IPv4 показывать интерфейсы**<br>Убедитесь в наличии списка интерфейсов.<br>**netsh interface IPv4 Set адрес \<Name ID from interface list\> источник = статический адрес = \<preferred IP address\> шлюз =\<gateway address\>**<br>Выполните **команду ipconfig/all** , чтобы убедиться, что параметр DHCP включен в значение **нет**. |
 |                   Задайте статический DNS-адрес.                   |   <strong>netsh interface IPv4 Add dnsserver Name = \<name or ID of the network interface card\> адрес = \<IP address of the primary DNS server\> index = 1 <br></strong>netsh interface IPv4 Add dnsserver Name = \<name of secondary DNS server\> адрес = \<IP address of the secondary DNS server\> индекс = 2\*\* <br> Повторите эти действия, чтобы добавить дополнительные серверы.<br>Выполните **команду ipconfig/all** , чтобы убедиться в правильности адресов.   |
 | Изменение статического IP-адреса на IP-адрес, получаемый по протоколу DHCP |                                                                                                                                      **netsh interface IPv4 Set адрес Name = \<IP address of local system\> Source = DHCP** <br>Выполните **команду ipconfig/all** , чтобы убедиться, что для параметра DCHP Enabled задано значение **Да**.                                                                                                                                      |
-|                      Ввод ключа продукта                      |                                                                                                                                                                                                   **slmgr. vbs — ИПК\<product key\>**                                                                                                                                                                                                    |
+|                      Ввод ключа продукта                      |                                                                                                                                                                                                   **slmgr. vbs — ИПК \<product key\>**                                                                                                                                                                                                    |
 |                  Локальная активация сервера                  |                                                                                                                                                                                                           **slmgr. vbs-ATO**                                                                                                                                                                                                            |
-|                 Удаленная активация сервера                  |                                            **cscript slmgr. vbs – ИПК\<product key\>\<server name\>\<username\>\<password\>** <br>**cscript slmgr. vbs-ATO \<servername\> \<username\>\<password\>** <br>Получите идентификатор GUID компьютера, выполнив **cscript slmgr. vbs.** <br> Запустите **cscript slmgr. vbs-dli \<GUID\> ** <br>Убедитесь, что для состояния лицензии задано значение **лицензировано (активировано)**.                                             |
+|                 Удаленная активация сервера                  |                                            **cscript slmgr. vbs – ИПК \<product key\>\<server name\>\<username\>\<password\>** <br>**cscript slmgr. vbs-ATO \<servername\> \<username\>\<password\>** <br>Получите идентификатор GUID компьютера, выполнив **cscript slmgr. vbs.** <br> Запустите **cscript slmgr. vbs-dli \<GUID\> ** <br>Убедитесь, что для состояния лицензии задано значение **лицензировано (активировано)**.                                             |
 
 ### <a name="networking-and-firewall"></a>Сеть и брандмауэр
 
@@ -176,9 +176,9 @@ ms.locfileid: "87895907"
 |Задача|Get-Help|
 |----|-------|
 |Вывод списка журналов событий|**wevtutil El**|
-|Запрос событий в указанном журнале|**wevtutil QE/f: текст\<log name\>**|
-|Экспорт журнала событий|**wevtutil EPL\<log name\>**|
-|Очистка журнала событий|**wevtutil CL\<log name\>**|
+|Запрос событий в указанном журнале|**wevtutil QE/f: текст \<log name\>**|
+|Экспорт журнала событий|**wevtutil EPL \<log name\>**|
+|Очистка журнала событий|**wevtutil CL \<log name\>**|
 
 
 ### <a name="disk-and-file-system"></a>Диск и файловая система

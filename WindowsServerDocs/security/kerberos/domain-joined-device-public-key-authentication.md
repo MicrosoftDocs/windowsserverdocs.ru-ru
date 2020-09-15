@@ -2,15 +2,15 @@
 title: Проверка подлинности открытого ключа устройства, присоединенного к домену
 ms.topic: article
 ms.assetid: 7bd17803-6e42-4a3b-803f-e47c74725813
-manager: alanth
-author: michikos
+author: justinha
+ms.author: Justinha
 ms.date: 08/18/2017
-ms.openlocfilehash: 37710710bc301173503450a46fc1ccc2b0614cf4
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: d9603cde90ca4a689d6d5993c8e131ba5a2e7d40
+ms.sourcegitcommit: 7cacfc38982c6006bee4eb756bcda353c4d3dd75
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87943954"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "90077601"
 ---
 # <a name="domain-joined-device-public-key-authentication"></a>Проверка подлинности открытого ключа устройства, присоединенного к домену
 

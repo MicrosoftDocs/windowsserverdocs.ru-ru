@@ -1,18 +1,17 @@
 ---
 title: Устранение неполадок на клиенте DHCP
 description: В этом артилцее объясняется, как устранять неполадки на DHCP-клиенте и получать данные.
-ms.service: na
 manager: dcscontentpm
 ms.date: 5/26/2020
 ms.topic: article
 author: Deland-Han
 ms.author: delhan
-ms.openlocfilehash: 650b3f83ebd0467df2a747d865db2d0a346bcddc
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: d7cfe92272ad65ca4b413eb91039a9ab21de6c17
+ms.sourcegitcommit: 7cacfc38982c6006bee4eb756bcda353c4d3dd75
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87954581"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "90078631"
 ---
 # <a name="troubleshoot-problems-on-the-dhcp-client"></a>Устранение неполадок на клиенте DHCP
 

@@ -3,15 +3,15 @@ title: Новые возможности Windows Server версии 1803
 description: Новые возможности вычислений, удостоверения, управления, автоматизации, сетей, безопасности, хранения.
 ms.topic: article
 author: greg-lindsay
-ms.author: greg-lindsay
+ms.author: greglin
 ms.localizationpriority: high
 ms.date: 05/07/2018
-ms.openlocfilehash: 19a502733a51b22427075e90b6ef88280805b27a
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: e372ba924eeefc552dc7f65310a77749d8707971
+ms.sourcegitcommit: 7cacfc38982c6006bee4eb756bcda353c4d3dd75
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87950108"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "90078601"
 ---
 # <a name="whats-new-in-windows-server-version-1803"></a>Новые возможности Windows Server версии 1803
 

@@ -2,15 +2,15 @@
 title: Рекомендации по использованию памяти в AD DS настройке производительности
 description: Использование памяти процессом Lsass.exe на контроллерах домена под управлением Windows Server 2012 R2, 2016 и 2019.
 ms.topic: article
-ms.author: v-tea; lindakup
+ms.author: v-tea
 author: teresa-motiv
 ms.date: 7/3/2019
-ms.openlocfilehash: 6ad663e77603ca813601345614174afd0dcf0e99
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 546839b803e8306fb3093ade6e317a155b7a117d
+ms.sourcegitcommit: 7cacfc38982c6006bee4eb756bcda353c4d3dd75
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87896225"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "90077281"
 ---
 # <a name="memory-usage-considerations-for-ad-ds-performance-tuning"></a>Рекомендации по использованию памяти для настройки производительности AD DS
 

@@ -3,15 +3,16 @@ title: Управление основными серверными компон
 description: Узнайте, как управлять установкой основных серверных компонентов Windows Server
 ms.mktglfcycl: manage
 ms.sitesec: library
-author: lizap
+author: pronichkin
+ms.author: artemp
 ms.localizationpriority: medium
 ms.date: 07/23/2019
-ms.openlocfilehash: ac35d7a761547f32b0e7873ebfdd9fa77a09a1c1
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 55d08b426ace5cf6cd0dfc0a0928536bfb751124
+ms.sourcegitcommit: 7cacfc38982c6006bee4eb756bcda353c4d3dd75
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87895894"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "90077821"
 ---
 # <a name="manage-a-server-core-server"></a>Управление сервером Server Core
  
@@ -90,7 +91,7 @@ Enable-NetFirewallRule -DisplayGroup "<rulegroup>"
 
 | Оснастка MMC                            | Группа правил                                            |
 | ---------------------------------------- | ------------------------------------------------------- |
-| Просмотр событий                           | Удаленное управление журналом событий                           |
+| Средство просмотра событий                           | Удаленное управление журналом событий                           |
 | Службы                               | Удаленное управление службами                             |
 | Общие папки                         | Общий доступ к файлам и принтерам                              |
 | Планировщик заданий                         | Журналы и оповещения производительности, общий доступ к файлам и принтерам |

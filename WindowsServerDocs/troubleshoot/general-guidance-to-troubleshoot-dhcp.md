@@ -1,18 +1,17 @@
 ---
 title: Общие рекомендации по устранению неполадок с DHCP
 description: В этом артилцее представлены общие рекомендации по устранению неполадок DHCP.
-ms.service: na
 manager: dcscontentpm
 ms.date: 5/26/2020
 ms.topic: article
 author: Deland-Han
 ms.author: delhan
-ms.openlocfilehash: 92b76748153f19419733c32c08a24d48e53d5647
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: e5550654beb0f303be946358c171f3a1b197ea40
+ms.sourcegitcommit: 7cacfc38982c6006bee4eb756bcda353c4d3dd75
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87970051"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "90078651"
 ---
 # <a name="general-guidance-to-troubleshoot-dhcp"></a>Общие рекомендации по устранению неполадок с DHCP
 

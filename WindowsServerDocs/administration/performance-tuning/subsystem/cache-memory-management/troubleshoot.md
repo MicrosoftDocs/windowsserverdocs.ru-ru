@@ -2,15 +2,15 @@
 title: Устранение проблем с производительностью кэша и диспетчера памяти
 description: Устранение проблем с производительностью кэша и диспетчера памяти в Windows Server 16
 ms.topic: article
-ms.author: pavel; atales
+ms.author: pavel
 author: phstee
 ms.date: 10/16/2017
-ms.openlocfilehash: ba6c04ca8ac1941221809af958a9d6c53701b101
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: cb9aa4d9ec10b27e423da9d312b5d395c6e2e690
+ms.sourcegitcommit: 7cacfc38982c6006bee4eb756bcda353c4d3dd75
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87992022"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "90077991"
 ---
 # <a name="troubleshoot-cache-and-memory-manager-performance-issues"></a>Устранение проблем с производительностью кэша и диспетчера памяти
 

@@ -2,15 +2,15 @@
 title: Устранение неполадок производительности служб домен Active Directory
 description: Рекомендации по устранению неполадок в Active Directory настройке производительности.
 ms.topic: article
-ms.author: timwi; chrisrob; herbertm; kenbrumf;  mleary; shawnrab
+ms.author: timwi
 author: phstee
 ms.date: 10/16/2017
-ms.openlocfilehash: e9be93989f0d8368a1994bfe9c7cceaad52ce39d
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: d702dc8b325e4820c896d37c8d99a8f90eafd418
+ms.sourcegitcommit: 7cacfc38982c6006bee4eb756bcda353c4d3dd75
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87993355"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "90077241"
 ---
 # <a name="troubleshooting-active-directory-domain-services-performance"></a>Устранение неполадок производительности служб домен Active Directory
 

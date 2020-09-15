@@ -2,15 +2,15 @@
 title: Обнаружение узких мест в виртуализированной среде
 description: Обнаружение и устранение потенциальных узких мест производительности Hyper-v
 ms.topic: article
-ms.author: asmahi; sandysp; jopoulso
+ms.author: asmahi
 author: phstee
 ms.date: 10/16/2017
-ms.openlocfilehash: 049df52033d637409a73400616b596037f9d7976
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: cc072d51623d53539bcf27dfaf950e4ba1621e71
+ms.sourcegitcommit: 7cacfc38982c6006bee4eb756bcda353c4d3dd75
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87896132"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "90077251"
 ---
 # <a name="detecting-bottlenecks-in-a-virtualized-environment"></a>Обнаружение узких мест в виртуализированной среде
 

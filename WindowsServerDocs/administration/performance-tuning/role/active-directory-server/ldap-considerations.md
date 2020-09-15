@@ -2,15 +2,15 @@
 title: Рекомендации по LDAP в добавляет настройку производительности
 description: Рекомендации по LDAP в Active Directory рабочих нагрузках
 ms.topic: article
-ms.author: timwi; chrisrob; herbertm; kenbrumf;  mleary; shawnrab
+ms.author: timwi
 author: phstee
 ms.date: 10/16/2017
-ms.openlocfilehash: 779175a4e1e42bae5f40aa4d4d8495ac7803c655
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: dec345b872b6a87d7d0a1414aef6fe9b6da39cc5
+ms.sourcegitcommit: 7cacfc38982c6006bee4eb756bcda353c4d3dd75
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87992258"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "90077363"
 ---
 # <a name="ldap-considerations-in-adds-performance-tuning"></a>Рекомендации по LDAP в добавляет настройку производительности
 

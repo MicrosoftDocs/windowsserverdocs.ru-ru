@@ -7,12 +7,12 @@ ms.author: lizross
 author: eross-msft
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 93ce1de1f75ff03bc7bb5f79d2046502c2d81bc4
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: a59e48a4c368a33e0d0e751b9b818f263b470b90
+ms.sourcegitcommit: 7cacfc38982c6006bee4eb756bcda353c4d3dd75
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89639618"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "90078441"
 ---
 # <a name="msiexec"></a>msiexec
 
@@ -73,7 +73,7 @@ msiexec.exe /i <path_to_package> [/quiet][/passive][/q{n|b|r|f}]
 | /кр | Указывает сокращенный интерфейс пользователя во время процесса установки. |
 | /кф | Указывает полный интерфейс интерфейса пользователя во время установки. |
 
-##### <a name="remarks"></a>Примечания
+##### <a name="remarks"></a>Remarks
 
 - Модальное окно не отображается, если установка отменена пользователем. Вы можете использовать **QB +!** или **QB! +** , чтобы скрыть кнопку **Отмена** .
 
@@ -211,7 +211,7 @@ msiexec.exe [/f{p|o|e|d|c|a|u|m|s|v}] <product_code>
 | /Fu | Восстанавливает все необходимые записи реестра для конкретных пользователей. |
 | /FM | Восстанавливает все необходимые записи реестра, относящиеся к компьютеру. |
 | /FS | Восстанавливает все существующие ярлыки. |
-| /fc | Запускается из источника и повторно кэширует локальный пакет. |
+| /фв | Запускается из источника и повторно кэширует локальный пакет. |
 
 #### <a name="examples"></a>Примеры
 

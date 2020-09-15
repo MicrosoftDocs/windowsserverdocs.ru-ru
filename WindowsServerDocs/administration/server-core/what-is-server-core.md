@@ -3,15 +3,16 @@ title: Что такое Server Core?
 description: Дополнительные сведения о варианте установки Server Core в Windows Server
 ms.mktglfcycl: manage
 ms.sitesec: library
-author: lizap
+author: pronichkin
+ms.author: artemp
 ms.localizationpriority: medium
 ms.date: 02/20/2018
-ms.openlocfilehash: 01cf2568df3651e5f52649b04aa9d10b9690d597
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 42a016a95d24f6ec0abc560a54f8589ab4c65ab1
+ms.sourcegitcommit: 7cacfc38982c6006bee4eb756bcda353c4d3dd75
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87895833"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "90077551"
 ---
 # <a name="what-is-the-server-core-installation-option-in-windows-server"></a>Что такое вариант установки Server Core в Windows Server?
 
@@ -48,7 +49,7 @@ ms.locfileid: "87895833"
 > Этот список предназначен для краткого справочника — он не должен быть полным списком.
 
 
-| Приложение                        | Основные серверные компоненты     | Сервер с возможностями рабочего стола |
+| Развертывание                        | Основные серверные компоненты     | Сервер с возможностями рабочего стола |
 |------------------------------------|-----------------|--------------------------------|
 | С помощью командной строки                     | доступен       | доступен                      |
 | Windows PowerShell или Microsoft .NET | доступен       | доступен                      |
@@ -87,7 +88,7 @@ ms.locfileid: "87895833"
 
 Дополнительные сведения *о том, что входит* в ядро сервера, см. [в разделе роли, службы ролей и функции, включенные в Windows Server-Server Core](server-core-roles-and-services.md). Дополнительные сведения о том, что *не* включено в Server Core, см. [в разделе роли, службы ролей и компоненты, не включенные в Server Core](server-core-removed-roles.md) .
 
-\*Для чтения. Файлы RTF, локально хранящиеся на SKU Server Core, пользователи могут копировать файлы на другой компьютер Windows, где находится WordPad.
+\* Для чтения. Файлы RTF, локально хранящиеся на SKU Server Core, пользователи могут копировать файлы на другой компьютер Windows, где находится WordPad.
 
 ## <a name="get-started-using-server-core"></a>Приступая к работе с Server Core
 

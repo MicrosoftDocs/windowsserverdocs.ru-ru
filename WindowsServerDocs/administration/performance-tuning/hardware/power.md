@@ -2,15 +2,15 @@
 title: Рекомендации по питанию оборудования Windows Server
 description: Рекомендации по питанию оборудования Windows Server.
 ms.topic: conceptual
-ms.author: qizha;tristanb
+ms.author: qizha
 author: phstee
 ms.date: 10/16/2017
-ms.openlocfilehash: ee380937e54faa77ec17f8ae47445089ba1eece8
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: fe316dd1f21d3f5e151cef60f63c3644ad1af06d
+ms.sourcegitcommit: 7cacfc38982c6006bee4eb756bcda353c4d3dd75
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87896722"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "90077636"
 ---
 # <a name="server-hardware-power-considerations"></a>Рекомендации по питанию серверного оборудования
 

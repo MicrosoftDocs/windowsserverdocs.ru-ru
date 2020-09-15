@@ -3,14 +3,14 @@ title: Конфигурация сервера OpenSSH для Windows
 description: Сведения о конфигурации сервера OpenSSH для Windows 10 1809 и Windows Server 2019.
 ms.date: 09/27/2018
 ms.topic: conceptual
-contributor: maertendMSFT
+ms.author: damaerte
 author: maertendmsft
-ms.openlocfilehash: 4e2052ef9bf67eea241b6668a734f2f3e166bb61
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: e24ba7d0cef92d700b9078422069c8c0461cf516
+ms.sourcegitcommit: 7cacfc38982c6006bee4eb756bcda353c4d3dd75
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87992384"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "90078331"
 ---
 # <a name="openssh-server-configuration-for-windows-10-1809-and-server-2019"></a>Конфигурация сервера OpenSSH для Windows 10 версии 1809 и Windows Server 2019
 

@@ -7,13 +7,13 @@ manager: mtillman
 ms.assetid: a14bc870-9fad-45ed-acd5-a90ccd432e54
 ms.topic: get-started-article
 ms.date: 09/01/2016
-ms.author: anandy;billmath
-ms.openlocfilehash: 1beb08cc3a135f034ce5493d7e7360680dbeef9a
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.author: billmath
+ms.openlocfilehash: 9ce16db4a50fbb31c8454b085a6d0471ebbdf32c
+ms.sourcegitcommit: 7cacfc38982c6006bee4eb756bcda353c4d3dd75
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87940931"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "90078661"
 ---
 # <a name="high-availability-cross-geographic-ad-fs-deployment-in-azure-with-azure-traffic-manager"></a>Развертывание AD FS высокого уровня доступности в нескольких регионах Azure с помощью диспетчера трафика Azure
 [развертыванию AD FS в Azure](how-to-connect-fed-azure-adfs.md) , содержит пошаговые инструкции, с помощью которых вы можете развернуть в Azure простую инфраструктуру AD FS для вашей организации. В этой статье описаны дальнейшие действия по развертыванию AD FS в нескольких регионах Azure с помощью [диспетчера трафика Azure](/azure/traffic-manager/). С помощью диспетчера трафика Azure вы можете создать для своей организации географически распространенную и высокопроизводительную инфраструктуру AD FS с высоким уровнем доступности, применяя различные методы маршрутизации в соответствии с требованиями инфраструктуры.
@@ -113,6 +113,6 @@ ms.locfileid: "87940931"
 * [Microsoft Azure Traffic Manager](/azure/traffic-manager/)
 * [Методы маршрутизации трафика средствами диспетчера трафика](/azure/traffic-manager/traffic-manager-routing-methods)
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 * [Управление профилем диспетчера трафика Azure](/azure/traffic-manager/traffic-manager-manage-profiles)
 * [Добавление, отключение, включение и удаление конечных точек](/azure/traffic-manager/traffic-manager-manage-endpoints)

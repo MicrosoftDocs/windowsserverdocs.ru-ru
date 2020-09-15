@@ -2,15 +2,15 @@
 title: TLS (поставщик общих служб Schannel)
 ms.topic: article
 ms.assetid: ebd3c40c-b4c0-4f6d-a00c-f90eda4691df
-manager: alanth
 author: justinha
+ms.author: Justinha
 ms.date: 05/16/2018
-ms.openlocfilehash: 92a61452d3c22c34bb3251ee2668679068f3a2ad
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 389a5a009320f7a19f5cbf942fe7c86f08f573ac
+ms.sourcegitcommit: 7cacfc38982c6006bee4eb756bcda353c4d3dd75
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87989490"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "90078531"
 ---
 # <a name="tls-schannel-ssp-changes-in-windows-10-and-windows-server-2016"></a>Изменения протокола TLS (Schannel SSP) в Windows 10 и Windows Server 2016
 

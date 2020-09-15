@@ -3,15 +3,16 @@ title: Настройка файлов дампа памяти для устан
 description: Узнайте, как настроить файлы дампа памяти для установки основных серверных компонентов Windows Server
 ms.mktglfcycl: manage
 ms.sitesec: library
-author: lizap
+author: pronichkin
+ms.author: artemp
 ms.localizationpriority: medium
 ms.date: 10/17/2017
-ms.openlocfilehash: d01757fcf1539e41db866b46cdf9eba60a59fc04
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: e3ef6076465bc7d165b58f1205ff8d0cf25014b7
+ms.sourcegitcommit: 7cacfc38982c6006bee4eb756bcda353c4d3dd75
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87993206"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "90077781"
 ---
 # <a name="configure-memory-dump-files-for-server-core-installation"></a>Настройка файлов дампа памяти для установки Server Core
 
@@ -84,7 +85,7 @@ wmic RECOVEROS get DebugInfoType
 wmic RECOVEROS set DebugInfoType = <Value>
 ```
 
-\<Value\>может иметь значение 0, 1, 2 или 3, как определено ниже.
+\<Value\> может иметь значение 0, 1, 2 или 3, как определено ниже.
 
 - 0: отключить удаление дампа памяти.
 - 1: полный дамп памяти. Записывает все содержимое системной памяти при неожиданной остановке компьютера. Полный дамп памяти может содержать данные из процессов, которые были запущены при сборе дампа памяти.
@@ -145,7 +146,7 @@ wmic RECOVEROS set SendAdminAlert = true
    wmic.exe pagefile
    ```
 
-   or
+   или
 
    ```
    wmic.exe pagefile list /format:list
