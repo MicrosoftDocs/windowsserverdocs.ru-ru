@@ -2,15 +2,15 @@
 title: Обеспечение высокой производительности серверов Hyper-V
 description: Рекомендации по обеспечению высокой производительности Hyper-V
 ms.topic: article
-ms.author: asmahi; sandysp; jopoulso
+ms.author: asmahi
 author: phstee
 ms.date: 10/16/2017
-ms.openlocfilehash: e9a81c2ea6e9d3eef7edc6c1742a0d9d8bc33ac0
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 0a19740212f10821dcd0276f3c27f892268dc415
+ms.sourcegitcommit: 7cacfc38982c6006bee4eb756bcda353c4d3dd75
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87896130"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "90078312"
 ---
 # <a name="performance-tuning-hyper-v-servers"></a>Обеспечение высокой производительности серверов Hyper-V
 
