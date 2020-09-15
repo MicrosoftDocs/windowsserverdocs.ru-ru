@@ -5,14 +5,14 @@ ms.topic: article
 author: heidilohr
 manager: lizross
 ms.author: helohr
-ms.date: 08/25/2020
+ms.date: 09/10/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: 4ce718db142ac34a51642e1ed2128899a0e77dbf
-ms.sourcegitcommit: 47dc2671330c2ecc56cce39ef006cbfe108b4759
+ms.openlocfilehash: 8f0b5453265bc96cdeb7ba02795da8fa0f39ba1c
+ms.sourcegitcommit: 0407bd30eaf06358257cf88c3969a2cd8b77dca4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88821337"
+ms.lasthandoff: 09/11/2020
+ms.locfileid: "90027169"
 ---
 # <a name="whats-new-in-the-windows-desktop-client"></a>Что нового в клиенте для Windows Desktop
 
@@ -25,19 +25,28 @@ ms.locfileid: "88821337"
 |Группа пользователей |Версия  |
 |-----------|---------|
 |Общие     |1.2.1272 |
-|Предварительная оценка    |1.2.1272 |
+|Предварительная оценка    |1.2.1357 |
 
-## <a name="updates-for-version-121272"></a>Обновления для версии 1.2.1272
+## <a name="updates-for-version-121357-insiders"></a>Обновления для версии 1.2.1357 (программа предварительной оценки)
+
+*Дата публикации: 09.09.2020*
+
+Скачать: [Windows (64-разрядная версия)](https://go.microsoft.com/fwlink/?linkid=2139233), [Windows (32-разрядная версия)](https://go.microsoft.com/fwlink/?linkid=2139144), [Windows (ARM64)](https://go.microsoft.com/fwlink/?linkid=2139368)
+
+- Исправлена ошибка, из-за которой безопасный единый вход не работал в Windows 7.
+
+## <a name="updates-for-version-121275"></a>Обновления для версии 1.2.1275
 
 *Дата публикации: 25.08.2020*
 
-Скачать: [Windows (64-разрядная версия)](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4D7LK), [Windows (32-разрядная версия)](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4D5aF), [Windows (ARM64)](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4Dan3)
+Скачать: [Windows (64-разрядная версия)](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4FpYR), [Windows (32-разрядная версия)](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4FpYS), [Windows (ARM64)](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4Fg3H)
 
 - Добавлены функции для автоматического обнаружения независимых облаков из удостоверения пользователя.
 - Добавлены функции для включения настраиваемых подписок URL-адресов для всех пользователей.
 - Исправлена проблема с закреплением приложений на панели задач веб-канала.
 - Исправлено аварийное завершение при подписке с URL-адресом.
 - Улучшена работа при перетаскивании окон удаленных приложений с помощью сенсорного ввода или пера.
+- Исправлена ошибка, связанная с локализацией.
 
 ## <a name="updates-for-version-121186"></a>Обновления для версии 1.2.1186
 
@@ -55,8 +64,6 @@ ms.locfileid: "88821337"
 
 *Дата публикации: 23.06.2020*
 
-Скачать: [Windows (64-разрядная версия)](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4zeHS), [Windows (32-разрядная версия)](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4zrAd), [Windows (ARM64)](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4zeHR)
-
 - Обновлена логика автоматического обнаружения для параметра **подписки**, и теперь поддерживается версия Виртуального рабочего стола Windows, интегрированная с Azure Resource Manager. Клиентам, у которых есть только ресурсы Виртуального рабочего стола Windows, больше не нужно предоставлять согласие для использования Виртуального рабочего стола Windows (классическая версия).
 - Улучшена поддержка устройств с высоким разрешением и коэффициентом масштабирования до 400 %.
 - Устранена проблема, из-за которой не отображалось диалоговое окно отключения.
@@ -67,8 +74,6 @@ ms.locfileid: "88821337"
 ## <a name="updates-for-version-121026"></a>Обновления для версии 1.2.1026
 
 *Дата публикации: 27.05.2020*
-
-Скачать: [Windows (64-разрядная версия)](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4xsGB), [Windows (32-разрядная версия)](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4xd8P), [Windows (ARM64)](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4xq7m)
 
 - Теперь при оформлении подписки можно выбрать учетную запись, а не вводить адрес электронной почты.
 - Добавлен новый параметр **Подписка по URL-адресу**, который позволяет указать URL-адрес рабочей области, на которую вы подписываетесь, или использовать [обнаружение электронной почты](../rds-email-discovery.md), если оно доступно, в случаях, когда не удается автоматически найти ресурсы. Аналогичные возможности применяются в процессе подписки в других клиентах удаленного рабочего стола. Их можно использовать для создания подписки непосредственно на рабочие области Виртуального рабочего стола Windows.
@@ -88,8 +93,6 @@ ms.locfileid: "88821337"
 ## <a name="updates-for-version-12945"></a>Обновления для версии 1.2.945
 
 *Дата публикации: 28.04.2020*
-
-Скачать: [Windows (64-разрядная версия)](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4vhNM), [Windows (32-разрядная версия)](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4vhNO), [Windows (ARM64)](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4vuSV)
 
 - Добавлены новые параметры настройки экрана для подключений к рабочему столу при щелчке правой кнопкой мыши значка рабочего стола в Центре подключений.
   - Теперь доступны три варианта конфигурации экрана: **All displays** (Все экраны), **Single display** (Один экран), **Select displays** (Выбор экранов).

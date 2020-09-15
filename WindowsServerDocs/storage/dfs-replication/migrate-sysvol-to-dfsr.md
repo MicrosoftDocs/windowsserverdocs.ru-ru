@@ -4,12 +4,12 @@ ms.date: 07/02/2012
 author: JasonGerend
 manager: elizapo
 ms.author: jgerend
-ms.openlocfilehash: 6e022e4fdae631199bacca5f67c7953125ddd141
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: d4c34484f7eb12b9876dcca7809a31c0c291bcce
+ms.sourcegitcommit: 3da6fcf4d853f6ff24b785b87787d0677b878253
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87950738"
+ms.lasthandoff: 09/12/2020
+ms.locfileid: "90044831"
 ---
 # <a name="migrate-sysvol-replication-to-dfs-replication"></a>Перенос репликации SYSVOL в репликацию DFS
 
@@ -68,16 +68,16 @@ ms.locfileid: "87950738"
 
 ## <a name="additional-references"></a>Дополнительная справка
 
-[Серия о миграции SYSVOL. Часть 1 — общие сведения о процедуре миграции SYSVOL](https://go.microsoft.com/fwlink/?linkid=121756)
+[Серия о миграции SYSVOL. Часть 1. Общие сведения о процессе миграции SYSVOL](https://techcommunity.microsoft.com/t5/storage-at-microsoft/sysvol-migration-series-part-1-8211-introduction-to-the-sysvol/ba-p/423456)
 
-[Серия о миграции SYSVOL. Часть 2 — Dfsrmig.exe: средство миграции SYSVOL](https://go.microsoft.com/fwlink/?linkid=121757)
+[Серия о миграции SYSVOL. Часть 2. Dfsrmig.exe: средство миграции SYSVOL](https://techcommunity.microsoft.com/t5/storage-at-microsoft/sysvol-migration-series-part-2-8211-dfsrmig-exe-the-sysvol/ba-p/423470)
 
-[Серия о миграции SYSVOL. Часть 3 — переход в состояние PREPARED](https://go.microsoft.com/fwlink/?linkid=121758)
+[Серия о миграции SYSVOL. Часть 3. Переход в состояние PREPARED](https://techcommunity.microsoft.com/t5/storage-at-microsoft/sysvol-migration-series-part-3-migrating-to-the-prepared-state/ba-p/423503)
 
-[Серия о миграции SYSVOL. Часть 4 — переход в состояние REDIRECTED](https://go.microsoft.com/fwlink/?linkid=121759)
+[Серия о миграции SYSVOL. Часть 4 Переход в состояние REDIRECTED](https://techcommunity.microsoft.com/t5/storage-at-microsoft/sysvol-migration-series-part-4-8211-migrating-to-the-8216/ba-p/423514)
 
-[Серия о миграции SYSVOL. Часть 5 — переход в состояние ELIMINATED](https://go.microsoft.com/fwlink/?linkid=121760)
+[Серия о миграции SYSVOL. Часть 5 Переход в состояние ELIMINATED](https://techcommunity.microsoft.com/t5/storage-at-microsoft/sysvol-migration-series-part-5-8211-migrating-to-the-8216/ba-p/423516)
 
-[Пошаговое руководство по распределенной файловой системе в Windows Server 2008](https://go.microsoft.com/fwlink/?linkid=85231)
+[Пошаговое руководство. Использование распределенной файловой системы в Windows Server 2008](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc732863(v=ws.10))
 
-[Технический справочник по FRS](https://go.microsoft.com/fwlink/?linkid=121764)
+[Технический справочник по FRS](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2003/cc759297(v=ws.10))
