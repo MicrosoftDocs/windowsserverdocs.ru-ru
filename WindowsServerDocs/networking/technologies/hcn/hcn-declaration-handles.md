@@ -1,19 +1,19 @@
 ---
 title: Дескрипторы контекста RPC для HCN
-ms.author: jmesser
-author: jmesser81
+description: Сведения об ХКН сетевых сущностях, представленных с помощью дескрипторов контекста RPC HCN_NETWORK.
+ms.author: daschott
+author: daschott
 ms.date: 11/05/2018
-ms.openlocfilehash: b837b2003beaf192c8f01be9e6c6edb2465bbe66
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 88bf3654e241e7369db75a176f73607767ef0e1a
+ms.sourcegitcommit: 0b3d6661c44aa1a697087e644437279142726d84
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87955701"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "90083735"
 ---
 # <a name="rpc-context-handles-for-hcn"></a>Дескрипторы контекста RPC для HCN
 
->Область применения: Windows Server (половина ежегодного канала), Windows Server 2019
-
+> Область применения: Windows Server (половина ежегодного канала), Windows Server 2019
 
 ## <a name="hcn_network"></a>HCN_Network
 
@@ -22,10 +22,8 @@ ms.locfileid: "87955701"
 ХКН сетевые сущности представлены с помощью дескрипторов контекста RPC HCN_NETWORK.
 
 ```
-
 /// Handle to an operation
 DECLARE_HANDLE(HCN_NETWORK);
-
 /// Return a list of existing Networks
 ///
 /// \param  Query          Optionally specifies a JSON document for a query
@@ -98,7 +96,6 @@ HcnModifyNetwork(
     _In_ PCWSTR Settings,
     _Outptr_opt_ PWSTR* ErrorRecord
     );
-
 /// Query Network properties
 ///
 /// \param  Network        Handle to a Network.
@@ -154,10 +151,8 @@ HcnCloseNetwork(
 Сущности конечных точек ХКН представлены с помощью дескрипторов контекста RPC HCN_ENDPOINT.
 
 ```
-
 /// Handle to an operation
 DECLARE_HANDLE(HCN_ENDPOINT);
-
 /// Return a list of existing Endpoints
 ///
 /// \param  Query          Optionally specifies a JSON document for a query
@@ -279,7 +274,6 @@ WINAPI
 HcnCloseEndpoint(
     _In_ HCN_ENDPOINT Endpoint
     );
-
 ```
 
 ## <a name="hcn_namespace"></a>HCN_Namespace
@@ -291,7 +285,6 @@ HcnCloseEndpoint(
 ```
 /// Handle to an operation
 DECLARE_HANDLE(HCN_NAMESPACE);
-
 /// Return a list of existing Namespaces
 ///
 /// \param  Query          Optionally specifies a JSON document for a query
@@ -311,7 +304,6 @@ HcnEnumerateNamespaces(
     _Outptr_ PWSTR* Namespaces,
     _Outptr_opt_ PWSTR* ErrorRecord
     );
-
 /// Create a Namespace
 ///
 /// \param  Id             Specifies the unique ID for the new Namespace.
@@ -331,7 +323,6 @@ HcnCreateNamespace(
     _Out_ PHCN_NAMESPACE Namespace,
     _Outptr_opt_ PWSTR* ErrorRecord
     );
-
 /// Opens a handle to an existing Namespace.
 ///
 /// \param  Id             Unique ID of the existing Namespace.
@@ -366,7 +357,6 @@ HcnModifyNamespace(
     _In_ PCWSTR Settings,
     _Outptr_opt_ PWSTR* ErrorRecord
     );
-
 /// Query Namespace properties
 ///
 /// \param  Namespace      Handle to a Namespace.
@@ -403,7 +393,6 @@ HcnDeleteNamespace(
     _In_ REFGUID Id,
     _Outptr_opt_ PWSTR* ErrorRecord
     );
-
 /// Close a handle to a Namespace
 ///
 /// \param  Namespace      Handle to a Namespace.
@@ -415,7 +404,6 @@ WINAPI
 HcnCloseNamespace(
     _In_ HCN_NAMESPACE Namespace
     );
-
 ```
 
 ## <a name="hcn_loadbalancer"></a>HCN_LoadBalancer
@@ -426,10 +414,8 @@ HcnCloseNamespace(
 ```
 /// Handle to an operation
 DECLARE_HANDLE(HCN_LOADBALANCER);
-
 //////
 /// LoadBalancer Methods
-
 /// Return a list of existing LoadBalancers
 ///
 /// \param  Query          Optionally specifies a JSON document for a query
@@ -449,7 +435,6 @@ HcnEnumerateLoadBalancers(
     _Outptr_ PWSTR* LoadBalancer,
     _Outptr_opt_ PWSTR* ErrorRecord
     );
-
 /// Create a LoadBalancer
 ///
 /// \param  Id             Specifies the unique ID for the new LoadBalancer.
@@ -469,7 +454,6 @@ HcnCreateLoadBalancer(
     _Out_ PHCN_LOADBALANCER LoadBalancer,
     _Outptr_opt_ PWSTR* ErrorRecord
     );
-
 /// Opens a handle to an existing LoadBalancer.
 ///
 /// \param  Id             Unique ID of the existing LoadBalancer.
@@ -487,7 +471,6 @@ HcnOpenLoadBalancer(
     _Out_ PHCN_LOADBALANCER LoadBalancer,
     _Outptr_opt_ PWSTR* ErrorRecord
     );
-
 /// Modify the settings of a PolcyList
 ///
 /// \param  PolcyList      Handle to a PolcyList.
@@ -505,7 +488,6 @@ HcnModifyLoadBalancer(
     _In_ PCWSTR Settings,
     _Outptr_opt_ PWSTR* ErrorRecord
     );
-
 /// Query LoadBalancer properties
 ///
 /// \param  LoadBalancer     Handle to a LoadBalancer.
@@ -527,7 +509,6 @@ HcnQueryLoadBalancerProperties(
     _Outptr_ PWSTR* Properties,
     _Outptr_opt_ PWSTR* ErrorRecord
     );
-
 /// Delete a LoadBalancer
 ///
 /// \param  Id             Unique ID of the existing LoadBalancer.
@@ -543,7 +524,6 @@ HcnDeleteLoadBalancer(
     _In_ REFGUID Id,
     _Outptr_opt_ PWSTR* ErrorRecord
     );
-
 /// Close a handle to a LoadBalancer
 ///
 /// \param  LoadBalancer     Handle to a LoadBalancer.
@@ -554,7 +534,6 @@ HRESULT
 WINAPI
 HcnCloseLoadBalancer(
     _In_ HCN_LOADBALANCER LoadBalancer
-
 ```
 
 ## <a name="hcn_notification_callback"></a>HCN_Notification_Callback
@@ -577,7 +556,6 @@ HcnRegisterServiceCallback(
     _In_ void* Context,
     _Out_ HCN_CALLBACK* CallbackHandle
     );
-
 /// Unregisters from service-wide notifications
 ///
 /// \retval CallbackHandle     Handle to a callback registered on a Service.
@@ -589,5 +567,3 @@ HcnUnregisterServiceCallback(
     _In_ HCN_CALLBACK CallbackHandle
     );
 ```
-
-

@@ -7,12 +7,12 @@ ms.author: lizross
 author: eross-msft
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: f23ecbec564a5b578f5f7814314803c95d81bf13
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: d2fa1e4a90d0c24138c5353c5cf1b22308204d6f
+ms.sourcegitcommit: 0b3d6661c44aa1a697087e644437279142726d84
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89636081"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "90083655"
 ---
 # <a name="eventcreate"></a>eventcreate
 
@@ -46,13 +46,13 @@ eventcreate [/s <computer> [/u <domain\user> [/p <password>]] {[/l {APPLICATION|
 В следующих примерах показано, как можно использовать команду **eventcreate** :
 
 ```
-eventcreate /t error /id 100 /l application /d Create event in application log
-eventcreate /t information /id 1000 /so winmgmt /d Create event in WinMgmt source
-eventcreate /t error /id 2001 /so winword /l application /d new src Winword in application log
-eventcreate /s server /t error /id 100 /l application /d Remote machine without user credentials
-eventcreate /s server /u user /p password /id 100 /t error /l application /d Remote machine with user credentials
-eventcreate /s server1 /s server2 /u user /p password /id 100 /t error /so winmgmt /d Creating events on Multiple remote machines
-eventcreate /s server /u user /id 100 /t warning /so winmgmt /d Remote machine with partial user credentials
+eventcreate /t ERROR /id 100 /l application /d "Create event in application log"
+eventcreate /t INFORMATION /id 1000 /d "Create event in WinMgmt source"
+eventcreate /t ERROR /id 201 /so winword /l application /d "New src Winword in application log"
+eventcreate /s server /t ERROR /id 100 /l application /d "Remote machine without user credentials"
+eventcreate /s server /u user /p password /id 100 /t ERROR /l application /d "Remote machine with user credentials"
+eventcreate /s server1 /s server2 /u user /p password /id 100 /t ERROR /d "Creating events on Multiple remote machines"
+eventcreate /s server /u user /id 100 /t WARNING /d "Remote machine with partial user credentials"
 ```
 
 ## <a name="additional-references"></a>Дополнительные ссылки

@@ -1,19 +1,19 @@
 ---
 title: API службы вычислений для сети (ХКН) для виртуальных машин и контейнеров
 description: API службы вычислений с помощью сети (ХКН) — это общедоступный API Win32, предоставляющий доступ на уровне платформы для управления виртуальными сетями, конечными точками виртуальной сети и связанными политиками. Вместе это обеспечивает подключение и безопасность виртуальных машин и контейнеров, работающих на узле Windows.
-ms.author: jmesser
-author: jmesser81
+ms.author: daschott
+author: daschott
 ms.date: 11/05/2018
-ms.openlocfilehash: 8e83af4ea54d2fcc75ff8ff054f4ad253a5422ea
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 5f30dfe4c7a373459b8b8ea3915eaaafa9bf517e
+ms.sourcegitcommit: 0b3d6661c44aa1a697087e644437279142726d84
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87955664"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "90083635"
 ---
 # <a name="host-compute-network-hcn-service-api-for-vms-and-containers"></a>API службы вычислений для сети (ХКН) для виртуальных машин и контейнеров
 
->Область применения: Windows Server (половина ежегодного канала), Windows Server 2019
+> Область применения: Windows Server (половина ежегодного канала), Windows Server 2019
 
 API службы вычислений с помощью сети (ХКН) — это общедоступный API Win32, предоставляющий доступ на уровне платформы для управления виртуальными сетями, конечными точками виртуальной сети и связанными политиками. Вместе это обеспечивает подключение и безопасность виртуальных машин и контейнеров, работающих на узле Windows.
 
@@ -32,7 +32,6 @@ API службы вычислений с помощью сети (ХКН) — э
 
 >[!TIP]
 >API службы ХКН поддерживается в фоновых задачах и в окнах без переднего плана.
-
 ## <a name="terminology-host-vs-compute"></a>Терминология: размещение и вычисление
 Служба вычислений узлов позволяет вызывающим объектам создавать виртуальные машины и контейнеры на одном физическом компьютере и управлять ими. Он назван для соблюдения отраслевых терминологии.
 
@@ -65,55 +64,45 @@ enum IpamType
     [NewIn("2.0")] Static,
     [NewIn("2.0")] Dhcp,
 };
-
 class Ipam
 {
     // Type : dhcp
     [NewIn("2.0"),OmitEmpty] IpamType   Type;
     [NewIn("2.0"),OmitEmpty] Subnet     Subnets[];
 };
-
 class Subnet : HCN.Schema.Common.Base
 {
     [NewIn("2.0"),OmitEmpty] string         IpAddressPrefix;
     [NewIn("2.0"),OmitEmpty] SubnetPolicy   Policies[];
     [NewIn("2.0"),OmitEmpty] Route          Routes[];
 };
-
-
 enum SubnetPolicyType
 {
     [NewIn("2.0")] VLAN
 };
-
 class SubnetPolicy
 {
     [NewIn("2.0"),OmitEmpty] SubnetPolicyType                 Type;
     [NewIn("2.0"),OmitEmpty] HCN.Schema.Common.PolicySettings Data;
 };
-
 class PolicySettings
 {
     [NewIn("2.0"),OmitEmpty]  string      Name;
 };
-
 class VlanPolicy : HCN.Schema.Common.PolicySettings
 {
     [NewIn("2.0")] uint32 IsolationId;
 };
-
 class Route
 {
     [NewIn("2.0"),OmitEmpty] string NextHop;
     [NewIn("2.0"),OmitEmpty] string DestinationPrefix;
     [NewIn("2.0"),OmitEmpty] uint16 Metric;
 };
-
 ```
 
 >[!TIP]
 >Заметки [Невин ("2.0") являются частью поддержки управления версиями для определений схемы.
-
 Из этого внутреннего определения мы создаем спецификации OpenAPI для схемы:
 
 ```
@@ -247,7 +236,6 @@ class HostComputeNetwork : HCN.Schema.Common.Base
     [NewIn("2.0"),OmitEmpty] HCN.Schema.Network.DNS                  Dns;
     [NewIn("2.0"),OmitEmpty] HCN.Schema.Network.Ipam                 Ipams[];
 };
-
 class HostComputeEndpoint : HCN.Schema.Common.Base
 {
     [NewIn("2.0"),OmitEmpty] string                                     HostComputeNetwork;
@@ -257,7 +245,6 @@ class HostComputeEndpoint : HCN.Schema.Common.Base
     [NewIn("2.0"),OmitEmpty] HCN.Schema.Network.Route                   Routes[];
     [NewIn("2.0"),OmitEmpty] string                                     MacAddress;
 };
-
 class HostComputeNamespace : HCN.Schema.Common.Base
 {
     [NewIn("2.0"),OmitEmpty] uint32                                    NamespaceId;
@@ -265,7 +252,6 @@ class HostComputeNamespace : HCN.Schema.Common.Base
     [NewIn("2.0"),OmitEmpty] HCN.Schema.Namespace.NamespaceType        Type;
     [NewIn("2.0"),OmitEmpty] HCN.Schema.Namespace.NamespaceResource    Resources[];
 };
-
 class HostComputeLoadBalancer : HCN.Schema.Common.Base
 {
     [NewIn("2.0"), OmitEmpty] string                                               HostComputeEndpoints[];
@@ -275,7 +261,7 @@ class HostComputeLoadBalancer : HCN.Schema.Common.Base
 };
 ```
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 - Дополнительные сведения об [общих сценариях хкн](hcn-scenarios.md).
 
