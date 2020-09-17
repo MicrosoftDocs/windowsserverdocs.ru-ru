@@ -1,18 +1,17 @@
 ---
 title: Для Windows 8 следует настроить по крайней мере минимальный объем памяти.
 description: Содержит инструкции по устранению проблемы, о которой сообщило это правило анализатор соответствия рекомендациям.
-manager: dongill
-ms.author: kathydav
+ms.author: benarm
+author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: 519d1091-fa4d-44d7-83ca-83f6aa71fb7d
-author: kbdazure
 ms.date: 8/16/2016
-ms.openlocfilehash: a0a7f9e5b8c82a1556233a571275b380fdab741a
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: cb9552dcc957570570715f5be917712ff72ce82e
+ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87992589"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "90745479"
 ---
 # <a name="windows-8-should-be-configured-with-at-least-the-minimum-amount-of-memory"></a>Для Windows 8 следует настроить по крайней мере минимальный объем памяти.
 
@@ -20,7 +19,7 @@ ms.locfileid: "87992589"
 
 Дополнительные сведения о рекомендациях и сканировании см. в разделе [Запуск сканирования анализатором соответствия рекомендациям и управление результатами сканирования](https://go.microsoft.com/fwlink/p/?LinkID=223177).
 
-|Свойство|Сведения|
+|Свойство.|Подробнее|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|
@@ -37,7 +36,7 @@ ms.locfileid: "87992589"
 ```
 <list of virtual machines>
 ```
-## <a name="resolution"></a>**Способы устранения:**
+## <a name="resolution"></a>**Решение**
 *Используйте диспетчер Hyper-V, чтобы увеличить объем памяти, выделенной для этой виртуальной машины, по крайней мере 512 МБ.*
 
 #### <a name="increase-the-memory-using-hyper-v-manager"></a>Увеличение объема памяти с помощью диспетчера Hyper-V
@@ -64,5 +63,5 @@ ms.locfileid: "87992589"
 Set-VMMemory <MyVM> -StartupBytes 512MB
 ```
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 [Set-Вммемори](/powershell/module/hyper-v/set-vmmemory?view=win10-ps)

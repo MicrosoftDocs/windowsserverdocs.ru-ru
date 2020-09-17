@@ -3,16 +3,15 @@ title: Планирование безопасности Hyper-V в Windows Serv
 description: Содержит список вопросов безопасности для узлов и виртуальных машин Hyper-v.
 ms.topic: article
 ms.assetid: 115db481-b57e-41c3-8354-504f4bc6113a
-manager: dongill
-author: larsiwer
-ms.author: kathydav
+ms.author: benarm
+author: BenjaminArmstrong
 ms.date: 08/03/2018
-ms.openlocfilehash: af974edfb94ccf1a0a4844df43885198ab68d416
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: e41a97846a9adc6ff849fbece4c4ac2ee7590c89
+ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87996007"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "90745919"
 ---
 # <a name="plan-for-hyper-v-security-in-windows-server"></a>Планирование безопасности Hyper-V в Windows Server
 

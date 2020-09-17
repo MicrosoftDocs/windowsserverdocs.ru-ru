@@ -1,18 +1,17 @@
 ---
 title: Проверка подлинности на основе сертификата настроена, но указанный сертификат не установлен на сервере реплики или узлах отказоустойчивого кластера.
 description: Интернет-версия текста для этого правила анализатор соответствия рекомендациям.
-manager: dongill
-ms.author: kathydav
+ms.author: benarm
+author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: 4cabbce3-9367-4ddc-a108-1e5e1ab2bcff
-author: kbdazure
 ms.date: 8/16/2016
-ms.openlocfilehash: 8205ea267750e3fec78a756da00b0bd063ed8baf
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 545a51f110a264e1fb456039362e373a51bcb2f8
+ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87948517"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "90745869"
 ---
 # <a name="certificate-based-authentication-is-configured-but-the-specified-certificate-is-not-installed-on-the-replica-server-or-failover-cluster-nodes"></a>Проверка подлинности на основе сертификата настроена, но указанный сертификат не установлен на сервере реплики или узлах отказоустойчивого кластера.
 
@@ -22,7 +21,7 @@ ms.locfileid: "87948517"
 
 *Дополнительные сведения о рекомендациях и проверках см. в разделе* [анализатор соответствия рекомендациям](https://go.microsoft.com/fwlink/?LinkId=122786).
 
-|Свойство|Сведения|
+|Свойство.|Подробнее|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|

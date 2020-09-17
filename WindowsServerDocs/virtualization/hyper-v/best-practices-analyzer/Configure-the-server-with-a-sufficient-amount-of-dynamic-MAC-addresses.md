@@ -1,18 +1,17 @@
 ---
 title: Настройка сервера с достаточным количеством динамических MAC-адресов
 description: Интернет-версия текста для этого правила анализатор соответствия рекомендациям.
-manager: dongill
-ms.author: kathydav
+ms.author: benarm
+author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: a2804519-9790-4006-80b6-e990a8f505fe
-author: kbdazure
 ms.date: 8/16/2016
-ms.openlocfilehash: b0416bb38e78f62bddf8a7937eb821ee0988286d
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 0631954ccb89c41637e92d1170bed99d82a085b5
+ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87968381"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "90744129"
 ---
 # <a name="configure-the-server-with-a-sufficient-amount-of-dynamic-mac-addresses"></a>Настройка сервера с достаточным количеством динамических MAC-адресов
 
@@ -20,7 +19,7 @@ ms.locfileid: "87968381"
 
 *Этот раздел предназначен для устранения определенной проблемы, обнаруженной анализатор соответствия рекомендациям сканированием. Сведения, приведенные в этом разделе, следует применять только к компьютерам, на которых была выполнена анализатор соответствия рекомендациям Hyper-V, и в которых возникла проблема, описанная в этом разделе. Дополнительные сведения о рекомендациях и проверках см. в разделе* [анализатор соответствия рекомендациям](https://go.microsoft.com/fwlink/?LinkId=122786).
 
-|Свойство|Сведения|
+|Свойство.|Подробнее|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|

@@ -1,18 +1,17 @@
 ---
 title: Для Windows Vista следует настроить по крайней мере минимальный объем памяти.
 description: Содержит инструкции по устранению проблемы, о которой сообщило это правило анализатор соответствия рекомендациям.
-manager: dongill
-ms.author: kathydav
+ms.author: benarm
+author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: 49f6f9b6-c290-4b1b-b6f3-cc9a0acd8fb2
-author: kbdazure
 ms.date: 8/16/2016
-ms.openlocfilehash: 74f563cb19bf480f3c5dfa8df639f4b75adbaf4e
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: d0ba0edaf57becfda16c5a55aab6e3f4c10febf9
+ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87996717"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "90744080"
 ---
 # <a name="windows-vista-should-be-configured-with-at-least-the-minimum-amount-of-memory"></a>Для Windows Vista следует настроить по крайней мере минимальный объем памяти.
 
@@ -20,7 +19,7 @@ ms.locfileid: "87996717"
 
 Дополнительные сведения о рекомендациях и проверках см. в разделе [Анализатор соответствия рекомендациям](https://go.microsoft.com/fwlink/?LinkId=122786).
 
-|Свойство|Сведения|
+|Свойство.|Подробнее|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|
@@ -67,5 +66,5 @@ ms.locfileid: "87996717"
 Set-VMMemory <MyVM> -StartupBytes 512MB
 ```
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 [Set-Вммемори](/powershell/module/hyper-v/set-vmmemory?view=win10-ps)

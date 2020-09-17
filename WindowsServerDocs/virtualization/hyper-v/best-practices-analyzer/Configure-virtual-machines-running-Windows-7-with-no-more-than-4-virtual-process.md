@@ -1,18 +1,17 @@
 ---
 title: Настройка виртуальных машин под Windows 7 с не более чем 4 виртуальными процессорами
 description: Интернет-версия текста для этого правила анализатор соответствия рекомендациям.
-manager: dongill
-ms.author: kathydav
+ms.author: benarm
+author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: 8fcf0868-b543-4f94-aee7-35324346da55
-author: kbdazure
 ms.date: 8/16/2016
-ms.openlocfilehash: 21c6f9df66b1a537141842bf696a5e286cd05636
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 09388f843e963252dfcaca1eb587778658b48039
+ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87968331"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "90745769"
 ---
 # <a name="configure-virtual-machines-running-windows-7-with-no-more-than-4-virtual-processors"></a>Настройка виртуальных машин под Windows 7 с не более чем 4 виртуальными процессорами
 
@@ -20,7 +19,7 @@ ms.locfileid: "87968331"
 
 Дополнительные сведения о рекомендациях и сканировании см. в разделе [Запуск сканирования анализатором соответствия рекомендациям и управление результатами сканирования](https://go.microsoft.com/fwlink/p/?LinkID=223177).
 
-|Свойство|Сведения|
+|Свойство.|Подробнее|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|
@@ -37,7 +36,7 @@ ms.locfileid: "87968331"
 
 \<list of virtual machines>
 
-## <a name="resolution"></a>**Способы устранения:**
+## <a name="resolution"></a>**Решение**
 *Завершите работу виртуальной машины и удалите один или несколько виртуальных процессоров.*
 
 #### <a name="to-remove-virtual-processors"></a>Удаление виртуальных процессоров

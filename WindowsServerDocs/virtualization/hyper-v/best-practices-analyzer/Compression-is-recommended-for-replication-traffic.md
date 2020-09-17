@@ -1,18 +1,17 @@
 ---
 title: Рекомендуется использовать сжатие для трафика репликации.
 description: Интернет-версия текста для этого правила анализатор соответствия рекомендациям.
-manager: dongill
-ms.author: kathydav
+ms.author: benarm
+author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: cf8be6e9-2909-4e4a-bb63-d1e1ebbc6930
-author: kbdazure
 ms.date: 8/16/2016
-ms.openlocfilehash: 2184a2ec0441af7fdbfc7566d783bee82f6bbbb9
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 61f1b56720af3583745960073823fef7b7b5173f
+ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87954531"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "90745849"
 ---
 # <a name="compression-is-recommended-for-replication-traffic"></a>Рекомендуется использовать сжатие для трафика репликации.
 
@@ -20,7 +19,7 @@ ms.locfileid: "87954531"
 
 Дополнительные сведения о рекомендациях и сканировании см. в разделе [Запуск сканирования анализатором соответствия рекомендациям и управление результатами сканирования](https://go.microsoft.com/fwlink/p/?LinkID=223177).
 
-|Свойство|Сведения|
+|Свойство.|Подробнее|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|

@@ -1,18 +1,17 @@
 ---
 title: Управление виртуальными машинами Windows с помощью PowerShell Direct
 description: Содержит инструкции по использованию PowerShell Direct для управления виртуальными машинами без полагаться на сетевое или удаленное подключение к ним.
-manager: dongill
 ms.topic: article
 ms.assetid: b5715c02-a90f-4de9-a71e-0fc09093ba2d
-author: kbdazure
-ms.author: kathydav
+ms.author: benarm
+author: BenjaminArmstrong
 ms.date: 10/04/2016
-ms.openlocfilehash: 654767901607207ff1dea74201e1b7ede3c38ae0
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: fcf9863a90b9d42d1495c0da0267feba18d119a1
+ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87997472"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "90744739"
 ---
 # <a name="manage-windows-virtual-machines-with-powershell-direct"></a>Управление виртуальными машинами Windows с помощью PowerShell Direct
 
@@ -79,7 +78,7 @@ Invoke-Command -VMName PSTest  -ScriptBlock { cmdlet }
 
 С помощью командлета [Get-VM](/powershell/module/hyper-v/get-vm) можно проверить, что используемые учетные данные имеют роль администратора Hyper-V, и получить список виртуальных машин, запущенных локально на узле и загруженных.
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 [Enter-PSSession](/powershell/module/Microsoft.PowerShell.Core/Enter-PSSession) 
  [Exit-PSSession](/powershell/module/Microsoft.PowerShell.Core/Exit-PSSession) 
  [Invoke-Command](/powershell/module/Microsoft.PowerShell.Core/Invoke-Command)

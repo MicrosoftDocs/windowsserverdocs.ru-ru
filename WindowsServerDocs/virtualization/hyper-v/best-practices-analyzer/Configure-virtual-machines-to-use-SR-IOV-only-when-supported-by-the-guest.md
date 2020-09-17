@@ -1,18 +1,17 @@
 ---
 title: Настройка виртуальных машин для использования SR-IOV только при поддержке операционной системой на виртуальной машине
 description: Интернет-версия текста для этого правила анализатор соответствия рекомендациям.
-manager: dongill
-ms.author: kathydav
+ms.author: benarm
+author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: 33cf5b68-e43e-47ef-adbc-6b266c1d4dce
-author: kbdazure
 ms.date: 8/16/2016
-ms.openlocfilehash: 1939aa6e866eddcf5ac99a784332b65cd594ceb8
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 3a167b72f9c5c9a011980c07afe5a9a262aaa1be
+ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87935512"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "90745689"
 ---
 # <a name="configure-virtual-machines-to-use-sr-iov-only-when-supported-by-the-guest-operating-system"></a>Настройка виртуальных машин для использования SR-IOV только при поддержке операционной системой на виртуальной машине
 
@@ -20,7 +19,7 @@ ms.locfileid: "87935512"
 
 Дополнительные сведения о рекомендациях и сканировании см. в разделе [Запуск сканирования анализатором соответствия рекомендациям и управление результатами сканирования](https://go.microsoft.com/fwlink/p/?LinkID=223177).
 
-|Свойство|Сведения|
+|Свойство.|Подробнее|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|

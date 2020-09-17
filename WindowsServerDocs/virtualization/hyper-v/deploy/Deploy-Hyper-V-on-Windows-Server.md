@@ -1,18 +1,17 @@
 ---
 title: Развертывание Hyper-V в Windows Server
 description: Содержит ссылки на статьи о развертывании Hyper-V
-manager: dongill
 ms.topic: article
 ms.assetid: e13abdca-5412-4c0a-99f3-2ab83666ec66
-author: kbdazure
-ms.author: kathydav
+ms.author: benarm
+author: BenjaminArmstrong
 ms.date: 08/21/2019
-ms.openlocfilehash: 32acd0c5a2ef3ae4f17dc5be06afcbb710282e1a
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 7408657caa36159541848249f9dac2cd3cea166a
+ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87960113"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "90744759"
 ---
 # <a name="deploy-hyper-v-on-windows-server"></a>Развертывание Hyper-V в Windows Server
 

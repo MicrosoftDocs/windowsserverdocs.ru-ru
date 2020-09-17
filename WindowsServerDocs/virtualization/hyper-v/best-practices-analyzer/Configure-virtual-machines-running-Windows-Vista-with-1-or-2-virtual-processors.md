@@ -1,18 +1,17 @@
 ---
 title: Настройка виртуальных машин под управлением Windows Vista с 1 или 2 виртуальными процессорами
 description: Интернет-версия текста для этого правила анализатор соответствия рекомендациям.
-manager: dongill
-ms.author: kathydav
+ms.author: benarm
+author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: e562bce3-fd68-42c9-821c-12022ae4746c
-author: kbdazure
 ms.date: 8/16/2016
-ms.openlocfilehash: 14be82374fe43314bc7e7fe95aaa00f774295ed6
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: bf5780ae397dd774dd6063e9dcdafd36907199f4
+ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87960647"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "90744039"
 ---
 # <a name="configure-virtual-machines-running-windows-vista-with-1-or-2-virtual-processors"></a>Настройка виртуальных машин под управлением Windows Vista с 1 или 2 виртуальными процессорами
 
@@ -20,7 +19,7 @@ ms.locfileid: "87960647"
 
 Дополнительные сведения о рекомендациях и сканировании см. в разделе [Запуск сканирования анализатором соответствия рекомендациям и управление результатами сканирования](https://go.microsoft.com/fwlink/p/?LinkID=223177).
 
-|Свойство|Сведения|
+|Свойство.|Подробнее|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|

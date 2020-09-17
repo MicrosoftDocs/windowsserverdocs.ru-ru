@@ -1,18 +1,17 @@
 ---
 title: Для репликации рекомендуется использовать проверку подлинности на основе сертификатов
 description: Интернет-версия текста для этого правила анализатор соответствия рекомендациям.
-manager: dongill
-ms.author: kathydav
+ms.author: benarm
+author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: d931cc57-414f-4bdf-9ebd-08fd5e22b19d
-author: kbdazure
 ms.date: 8/16/2016
-ms.openlocfilehash: ec5415d0bdad10c4b0f4f0560141dd290eca8e36
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 3ef11472c042e19de9f7ee52ea5958ca0bf6e44b
+ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87954501"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "90745859"
 ---
 # <a name="certificate-based-authentication-is-recommended-for-replication"></a>Для репликации рекомендуется использовать проверку подлинности на основе сертификатов
 
@@ -20,7 +19,7 @@ ms.locfileid: "87954501"
 
 Дополнительные сведения о рекомендациях и сканировании см. в разделе [Запуск сканирования анализатором соответствия рекомендациям и управление результатами сканирования](https://go.microsoft.com/fwlink/p/?LinkID=223177).
 
-|Свойство|Сведения|
+|Свойство.|Подробнее|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|
@@ -37,7 +36,7 @@ ms.locfileid: "87954501"
 
 \<list of virtual machines>
 
-## <a name="resolution"></a>**Способы устранения:**
+## <a name="resolution"></a>**Решение**
 *Если для шифрования используется другой метод, это можно пропустить. В противном случае измените параметры виртуальной машины, чтобы выбрать проверку подлинности на основе сертификата.*
 
 

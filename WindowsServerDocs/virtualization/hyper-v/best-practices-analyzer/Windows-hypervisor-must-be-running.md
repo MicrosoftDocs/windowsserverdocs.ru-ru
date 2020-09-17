@@ -1,29 +1,28 @@
 ---
 title: Низкоуровневая оболочка Windows должна быть запущена
 description: Содержит инструкции по устранению проблемы, о которой сообщило это правило анализатор соответствия рекомендациям.
-manager: dongill
-ms.author: kathydav
+ms.author: benarm
+author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: 501a9beb-c464-46c0-88c5-e3e7e3e70101
-author: kbdazure
 ms.date: 10/03/2016
-ms.openlocfilehash: aa89f3735151b2dee795c1a325e22446e3770fa0
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 75437680370672a1eef9fad2957f398ce4f267d7
+ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87994539"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "90744820"
 ---
 # <a name="windows-hypervisor-must-be-running"></a>Низкоуровневая оболочка Windows должна быть запущена
 
 >Область применения. Windows Server 2016
 
-|Свойство|Сведения|
+|Свойство.|Подробнее|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|
 |**Уровень серьезности**|Предупреждение|
-|**Категория**|Предварительные требования|
+|**Категория**|Prerequisites|
 
 В следующих разделах курсив указывает текст пользовательского Интерфейса, который отображается в анализатор соответствия рекомендациям для этой проблемы.
 
@@ -85,5 +84,5 @@ ms.locfileid: "87994539"
     1. На панели **действия** выберите пункт **Фильтровать текущий журнал**. Для **источников событий**укажите Hyper-V-гипервизор.
     2. Найдите события, сообщающие о проблемах. Например, событие с ИДЕНТИФИКАТОРом 41 указывает на проблему с конфигурацией BIOS: "сбой запуска Hyper-V; В BIOS отсутствует или не включено значение VMX. "
 
-### <a name="see-also"></a>См. также:
+### <a name="see-also"></a>См. также
 Дополнительные сведения об использовании Hyper-V в Windows 10, а также о том, как проверить, может ли компьютер работать под управлением Hyper-v, см. в статье [требования к системе для Hyper-v в Windows 10](/virtualization/hyper-v-on-windows/reference/hyper-v-requirements).
