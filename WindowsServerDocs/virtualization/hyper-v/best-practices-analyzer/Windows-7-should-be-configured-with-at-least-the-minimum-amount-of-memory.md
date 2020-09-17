@@ -1,18 +1,17 @@
 ---
 title: Для Windows 7 следует настроить по крайней мере минимальный объем памяти.
 description: Содержит инструкции по устранению проблемы, о которой сообщило это правило анализатор соответствия рекомендациям ".
-manager: dongill
-ms.author: kathydav
+ms.author: benarm
+author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: 1b81ec0b-ceca-4fba-83ea-90d5f1d9bda8
-author: kbdazure
 ms.date: 8/16/2016
-ms.openlocfilehash: c85b4c34141cecab842f76ea37add32fd4200b0b
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 2668322287b26820f2e00e67e55598812cd5d9e3
+ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87992641"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "90746119"
 ---
 # <a name="windows-7-should-be-configured-with-at-least-the-minimum-amount-of-memory"></a>Для Windows 7 следует настроить по крайней мере минимальный объем памяти.
 
@@ -20,7 +19,7 @@ ms.locfileid: "87992641"
 
 Дополнительные сведения о рекомендациях и проверках см. в разделе [Анализатор соответствия рекомендациям](https://go.microsoft.com/fwlink/?LinkId=122786).
 
-|Свойство|Сведения|
+|Свойство.|Подробнее|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|
@@ -67,5 +66,5 @@ ms.locfileid: "87992641"
 Set-VMMemory <MyVM> -StartupBytes 512MB
 ```
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 [Set-Вммемори](/powershell/module/hyper-v/set-vmmemory?view=win10-ps)

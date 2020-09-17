@@ -1,18 +1,17 @@
 ---
 title: Windows 8.1 следует настроить с использованием рекомендуемого объема памяти
 description: Содержит инструкции по устранению проблемы, о которой сообщило это правило анализатор соответствия рекомендациям.
-manager: dongill
-ms.author: kathydav
+ms.author: benarm
+author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: 4972101a-c266-4045-bdd6-4e75a9cd750e
-author: kbdazure
 ms.date: 8/16/2016
-ms.openlocfilehash: c827ab02889f4ffed847903d62e88450450ef2c7
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: c83d52107077608a331bbbb8034a3369ea6b1dc0
+ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87993632"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "90746559"
 ---
 # <a name="windows-81-should-be-configured-with-the-recommended-amount-of-memory"></a>Windows 8.1 следует настроить с использованием рекомендуемого объема памяти
 
@@ -20,7 +19,7 @@ ms.locfileid: "87993632"
 
 Дополнительные сведения о рекомендациях и сканировании см. в разделе [Запуск сканирования анализатором соответствия рекомендациям и управление результатами сканирования](https://go.microsoft.com/fwlink/p/?LinkID=223177).
 
-|Свойство|Сведения|
+|Свойство.|Подробнее|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|
@@ -37,7 +36,7 @@ ms.locfileid: "87993632"
 ```
 <list of virtual machines>
 ```
-## <a name="resolution"></a>**Способы устранения:**
+## <a name="resolution"></a>**Решение**
 *Используйте диспетчер Hyper-V, чтобы увеличить объем памяти, выделенной для этой виртуальной машины, не менее 1 ГБ.*
 
 #### <a name="increase-the-memory-using-hyper-v-manager"></a>Увеличение объема памяти с помощью диспетчера Hyper-V
@@ -64,5 +63,5 @@ ms.locfileid: "87993632"
 Set-VMMemory <MyVM> -StartupBytes 1GB
 ```
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 [Set-Вммемори](/powershell/module/hyper-v/set-vmmemory?view=win10-ps)

@@ -2,15 +2,15 @@
 title: Планирование развертывания устройств с помощью дискретного назначения устройств
 description: Узнайте, как работает ДДА в Windows Server
 ms.topic: article
-author: chrishuybregts
-ms.author: chrihu
+ms.author: benarm
+author: BenjaminArmstrong
 ms.date: 08/21/2019
-ms.openlocfilehash: 189a4f399ac76f1b7f30c5b45725c3a4fb6a8215
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: f53cef755d52fe1fc1e1bc540f89e7c243007eb3
+ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87989856"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "90745959"
 ---
 # <a name="plan-for-deploying-devices-using-discrete-device-assignment"></a>Планирование развертывания устройств с помощью дискретного назначения устройств
 >Область применения: Microsoft Hyper-V Server 2016, Windows Server 2016, Microsoft Hyper-V Server 2019, Windows Server 2019
@@ -24,7 +24,7 @@ ms.locfileid: "87989856"
 ## <a name="supported-virtual-machines-and-guest-operating-systems"></a>Поддерживаемые виртуальные машины и гостевые операционные системы
 Для виртуальных машин поколения 1 или 2 поддерживается отдельное назначение устройств.  Кроме того, в число поддерживаемых гостей входят Windows 10, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2 с применением [KB 3133690](https://support.microsoft.com/kb/3133690) и различные дистрибутивы [ОС Linux.](../supported-linux-and-freebsd-virtual-machines-for-hyper-v-on-windows.md)
 
-## <a name="system-requirements"></a>Системные требования
+## <a name="system-requirements"></a>Требования к системе
 Помимо [системных требований для Windows Server](../../../get-started/system-requirements.md) и [требований к системе для Hyper-V, для](../System-requirements-for-Hyper-V-on-Windows.md)назначения дискретного устройства требуется оборудование класса сервера, которое может предоставить управление операционной системой для настройки структуры PCIe (встроенного управления PCI Express). Кроме того, в случае сложности с корнем PCIe необходимо поддерживать "службы контроля доступа" (ACS), что позволяет Hyper-V принудительно выполнять весь трафик PCIe через ММУ ввода-вывода.
 
 Эти возможности обычно не предоставляются непосредственно в BIOS сервера и часто скрываются за другими параметрами.  Например, для поддержки SR-IOV требуются те же возможности, что и в BIOS. возможно, потребуется установить флажок "включить SR-IOV".  Если вы не можете определить правильный параметр в BIOS, обратитесь к поставщику системы.

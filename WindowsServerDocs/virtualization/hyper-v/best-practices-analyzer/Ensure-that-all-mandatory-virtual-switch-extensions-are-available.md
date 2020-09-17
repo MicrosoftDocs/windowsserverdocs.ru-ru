@@ -1,18 +1,17 @@
 ---
 title: Убедитесь, что доступны все обязательные расширения виртуального коммутатора
 description: Интернет-версия текста для этого правила анализатор соответствия рекомендациям.
-manager: dongill
-ms.author: kathydav
+ms.author: benarm
+author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: 2f2f2698-f5ec-4cad-aa64-d6987e8142a1
-author: kbdazure
 ms.date: 8/16/2016
-ms.openlocfilehash: 48c8ee80a0044c067d29730c1ec79bd67fdc062b
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 8eeadf6ed8b90ef217d694e2f14b38314b8be7a5
+ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87950258"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "90746859"
 ---
 # <a name="ensure-that-all-mandatory-virtual-switch-extensions-are-available"></a>Убедитесь, что доступны все обязательные расширения виртуального коммутатора
 
@@ -20,7 +19,7 @@ ms.locfileid: "87950258"
 
 Дополнительные сведения о рекомендациях и сканировании см. в разделе [Запуск сканирования анализатором соответствия рекомендациям и управление результатами сканирования](https://go.microsoft.com/fwlink/p/?LinkID=223177).
 
-|Свойство|Сведения|
+|Свойство.|Подробнее|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|

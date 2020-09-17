@@ -1,18 +1,17 @@
 ---
 title: Использование динамической миграции без отказоустойчивой кластеризации для перемещения виртуальной машины
 description: Предоставляет необходимые компоненты и инструкции для выполнения динамической миграции в автономной среде.
-manager: dongill
 ms.topic: article
 ms.assetid: 75c32e42-97f7-48df-aac9-1d82d34825e1
-author: kbdazure
-ms.author: kathydav
+ms.author: benarm
+author: BenjaminArmstrong
 ms.date: 01/17/2017
-ms.openlocfilehash: e28ddefb5c1718fa251aa3de6d4323a3bc14c633
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: b02c30a612ef6aa1ed56e1c26e86c21a48b5b138
+ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87990225"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "90746639"
 ---
 # <a name="use-live-migration-without-failover-clustering-to-move-a-virtual-machine"></a>Использование динамической миграции без отказоустойчивой кластеризации для перемещения виртуальной машины
 
@@ -50,7 +49,7 @@ ms.locfileid: "87990225"
 PS C:\> Move-VM LMTest TestServer02 -IncludeStorage -DestinationStoragePath D:\LMTest
 ```
 
-## <a name="troubleshooting"></a>Диагностика
+## <a name="troubleshooting"></a>Устранение неполадок
 
 ### <a name="failed-to-establish-a-connection"></a>Не удалось установить соединение
 
@@ -72,7 +71,7 @@ PS C:\> Move-VM LMTest TestServer02 -IncludeStorage -DestinationStoragePath D:\L
 1. В диспетчере Hyper-V в области **виртуальные машины** щелкните правой кнопкой мыши виртуальную машину и выберите пункт Параметры.
 2. В области навигации разверните узел **процессоры** и выберите пункт **Совместимость**.
 3. Установите флажок **выполнить миграцию на компьютер с другой версией процессора**.
-4. Нажмите кнопку **ОК**.
+4. Нажмите кнопку **OK**.
 
    Чтобы использовать Windows PowerShell, используйте командлет [Set-вмпроцессор](/powershell/module/hyper-v/set-vmprocessor?view=win10-ps) :
 

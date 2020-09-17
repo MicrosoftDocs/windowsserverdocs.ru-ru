@@ -1,18 +1,17 @@
 ---
 title: Обзор технологии Hyper-V
 description: Описание технологии Hyper-V, ее получения, основных функций и общего использования.
-manager: dongill
 ms.topic: article
 ms.assetid: ac069fed-7bf5-4cc3-aff5-25a2766040b8
-author: kbdazure
-ms.author: kathydav
+ms.author: benarm
+author: BenjaminArmstrong
 ms.date: 11/29/2016
-ms.openlocfilehash: 2d69a16dc49c34872d3787338a1fd130aaf7241d
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 65c3a56f2ffa9266ad2312a32c1c2d712951ec34
+ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87997034"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "90746209"
 ---
 # <a name="hyper-v-technology-overview"></a>Обзор технологии Hyper-V
 

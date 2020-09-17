@@ -1,18 +1,17 @@
 ---
 title: Рекомендации по запуску FreeBSD в Hyper-V
 description: Содержит рекомендации по запуску FreeBSD на виртуальных машинах.
-manager: dongill
 ms.topic: article
 ms.assetid: 0c66f1c8-2606-43a3-b4cc-166acaaf2d2a
-author: shirgall
-ms.author: kathydav
+ms.author: benarm
+author: BenjaminArmstrong
 ms.date: 01/09/2017
-ms.openlocfilehash: f0903fa53e5a9384e3940c53fb880090108aa492
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 09b6f532bac2b57fd8334556501c6197fa3036cc
+ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87968611"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "90747159"
 ---
 # <a name="best-practices-for-running-freebsd-on-hyper-v"></a>Рекомендации по запуску FreeBSD в Hyper-V
 
@@ -86,6 +85,6 @@ ms.locfileid: "87968611"
 ```
 
 
-См. также статью
+См. также
 
 * [Поддерживаемые виртуальные машины FreeBSD в Hyper-V](Supported-FreeBSD-virtual-machines-on-Hyper-V.md)

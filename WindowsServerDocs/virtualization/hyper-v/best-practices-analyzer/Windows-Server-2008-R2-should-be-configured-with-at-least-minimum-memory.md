@@ -1,18 +1,17 @@
 ---
 title: Для Windows Server 2008 R2 следует настроить по крайней мере минимальный объем памяти.
 description: Содержит инструкции по устранению проблемы, о которой сообщило это правило анализатор соответствия рекомендациям.
-manager: dongill
-ms.author: kathydav
+ms.author: benarm
+author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: 12418668-52d3-4e70-b56f-85dcb144a8c0
-author: kbdazure
 ms.date: 8/16/2016
-ms.openlocfilehash: 3bea37b7f9f0db47085b5200b0eae3b4c3b4f7b5
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: df8e54471ac4832baa095f26197ebe1d76c6dfa9
+ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87994866"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "90746759"
 ---
 # <a name="windows-server-2008-r2-should-be-configured-with-at-least-the-minimum-amount-of-memory"></a>Для Windows Server 2008 R2 следует настроить по крайней мере минимальный объем памяти.
 
@@ -20,7 +19,7 @@ ms.locfileid: "87994866"
 
 Дополнительные сведения о рекомендациях и проверках см. в разделе [Анализатор соответствия рекомендациям](https://go.microsoft.com/fwlink/?LinkId=122786).
 
-|Свойство|Сведения|
+|Свойство.|Подробнее|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|
@@ -68,5 +67,5 @@ ms.locfileid: "87994866"
 Set-VMMemory <MyVM> -StartupBytes 512MB
 ```
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 [Set-Вммемори](/powershell/module/hyper-v/set-vmmemory?view=win10-ps)

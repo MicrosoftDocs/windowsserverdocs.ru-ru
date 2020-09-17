@@ -1,17 +1,18 @@
 ---
 title: Элементы управления ресурсами виртуальной машины
 description: Использование групп ЦП виртуальных машин
-author: allenma
+ms.author: benarm
+author: BenjaminArmstrong
 ms.prod: windows-server
 ms.date: 06/18/2018
 ms.topic: article
 ms.assetid: cc7bb88e-ae75-4a54-9fb4-fc7c14964d67
-ms.openlocfilehash: dc26dbe6bda9dc4f4f9b2bd99b3b8400555651ac
-ms.sourcegitcommit: 7cacfc38982c6006bee4eb756bcda353c4d3dd75
+ms.openlocfilehash: 40a25dc2d592f68b53e6e5b3b1ea5d13399185d9
+ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "90077191"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "90746609"
 ---
 # <a name="virtual-machine-resource-controls"></a>Элементы управления ресурсами виртуальной машины
 

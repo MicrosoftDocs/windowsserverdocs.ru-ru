@@ -1,18 +1,17 @@
 ---
 title: Для Windows 10 следует настроить по крайней мере минимальный объем памяти.
 description: Содержит инструкции по устранению проблемы, о которой сообщило это правило анализатор соответствия рекомендациям.
-manager: dongill
-ms.author: kathydav
+ms.author: benarm
+author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: e4f5bd2f-b5be-4d43-80e0-0cf198182791
-author: kbdazure
 ms.date: 8/16/2016
-ms.openlocfilehash: cd72b99ec7e609079e5a3b1e1a1c0ac92bfa9881
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 3383991c575fc5f84d9186ecebded39f5374709c
+ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87991282"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "90746689"
 ---
 # <a name="windows-10-should-be-configured-with-at-least-the-minimum-amount-of-memory"></a>Для Windows 10 следует настроить по крайней мере минимальный объем памяти.
 
@@ -20,7 +19,7 @@ ms.locfileid: "87991282"
 
 Дополнительные сведения о рекомендациях и сканировании см. в разделе [Запуск сканирования анализатором соответствия рекомендациям и управление результатами сканирования](https://go.microsoft.com/fwlink/p/?LinkID=223177).
 
-|Свойство|Сведения|
+|Свойство.|Подробнее|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|
@@ -37,7 +36,7 @@ ms.locfileid: "87991282"
 ```
 <list of virtual machines>
 ```
-## <a name="resolution"></a>**Способы устранения:**
+## <a name="resolution"></a>**Решение**
 *Используйте диспетчер Hyper-V, чтобы увеличить объем памяти, выделенной для этой виртуальной машины, по крайней мере 512 МБ.*
 
 #### <a name="increase-the-memory-using-hyper-v-manager"></a>Увеличение объема памяти с помощью диспетчера Hyper-V
@@ -64,5 +63,5 @@ ms.locfileid: "87991282"
 Set-VMMemory <MyVM> -StartupBytes 512MB
 ```
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 [Set-Вммемори](/powershell/module/hyper-v/set-vmmemory?view=win10-ps)

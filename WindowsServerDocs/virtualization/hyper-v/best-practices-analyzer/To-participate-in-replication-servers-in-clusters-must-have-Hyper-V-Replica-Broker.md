@@ -1,18 +1,17 @@
 ---
 title: Для участия в репликации на серверах в отказоустойчивых кластерах должен быть настроен брокер реплики Hyper-V
 description: Интернет-версия текста для этого правила анализатор соответствия рекомендациям.
-manager: dongill
-ms.author: kathydav
+ms.author: benarm
+author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: 5ec88ce5-a8b2-4ece-9062-366523c8b17f
-author: kbdazure
 ms.date: 8/16/2016
-ms.openlocfilehash: 5394a649c095fff6ac1c925481b01192c2942bf9
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 7fdd6167561be4922540a0def1f91f70b519aa0f
+ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87960347"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "90746129"
 ---
 # <a name="to-participate-in-replication-servers-in-failover-clusters-must-have-a-hyper-v-replica-broker-configured"></a>Для участия в репликации на серверах в отказоустойчивых кластерах должен быть настроен брокер реплики Hyper-V
 
@@ -20,7 +19,7 @@ ms.locfileid: "87960347"
 
 Дополнительные сведения о рекомендациях и сканировании см. в разделе [Запуск сканирования анализатором соответствия рекомендациям и управление результатами сканирования](https://go.microsoft.com/fwlink/p/?LinkID=223177).
 
-|Свойство|Сведения|
+|Свойство.|Подробнее|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|

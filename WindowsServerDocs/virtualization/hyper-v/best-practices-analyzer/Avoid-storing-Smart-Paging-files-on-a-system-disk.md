@@ -1,18 +1,17 @@
 ---
 title: Избегайте хранения файлов Smart paging на системном диске
 description: Интернет-версия текста для этого правила анализатор соответствия рекомендациям.
-manager: dongill
-ms.author: kathydav
+ms.author: benarm
+author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: 9b57c9b8-76c5-43c7-bfa6-2c95b3cb6510
-author: kbdazure
 ms.date: 8/16/2016
-ms.openlocfilehash: 5ac7f8c9f6fb2edf2f6550cede9adfdc5be321f6
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: c1d2a6ca3b1ffc96fb0761ab1b1c434971374142
+ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87946077"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "90747029"
 ---
 # <a name="avoid-storing-smart-paging-files-on-a-system-disk"></a>Избегайте хранения файлов Smart paging на системном диске
 
@@ -20,7 +19,7 @@ ms.locfileid: "87946077"
 
 Дополнительные сведения о рекомендациях и сканировании см. в разделе [Запуск сканирования анализатором соответствия рекомендациям и управление результатами сканирования](https://go.microsoft.com/fwlink/p/?LinkID=223177).
 
-|Свойство|Сведения|
+|Свойство.|Подробнее|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|

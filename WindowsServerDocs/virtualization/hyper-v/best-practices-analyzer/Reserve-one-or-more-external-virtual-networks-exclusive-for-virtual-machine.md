@@ -1,18 +1,17 @@
 ---
 title: Резервирование одной или нескольких внешних виртуальных сетей для монопольного использования виртуальными машинами
 description: Содержит инструкции по устранению проблемы, о которой сообщило это правило анализатор соответствия рекомендациям.
-manager: dongill
-ms.author: kathydav
+ms.author: benarm
+author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: f7732258-93f1-44e8-835b-5ad2d1c45cd9
-author: kbdazure
 ms.date: 8/16/2016
-ms.openlocfilehash: 1c2ab3aa6a1a2c2976cbc48b6d4a8441ef6cf393
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 8039f5ef94f1ca762a994607d5a1faf8eac0d98e
+ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87948401"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "90746509"
 ---
 # <a name="reserve-one-or-more-external-virtual-networks-for-exclusive-use-by-virtual-machines"></a>Резервирование одной или нескольких внешних виртуальных сетей для монопольного использования виртуальными машинами
 
@@ -20,7 +19,7 @@ ms.locfileid: "87948401"
 
 Дополнительные сведения о рекомендациях и проверках см. в разделе [Анализатор соответствия рекомендациям](https://go.microsoft.com/fwlink/?LinkId=122786).
 
-|Свойство|Сведения|
+|Свойство.|Подробнее|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|

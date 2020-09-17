@@ -1,18 +1,17 @@
 ---
 title: Для Windows Vista следует настроить рекомендуемый объем памяти.
 description: Содержит инструкции по устранению проблемы, о которой сообщило это правило анализатор соответствия рекомендациям.
-manager: dongill
-ms.author: kathydav
+ms.author: benarm
+author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: 64f4e53b-4adb-4e1d-bc48-c24f5f9d222f
-author: kbdazure
 ms.date: 8/16/2016
-ms.openlocfilehash: edfc39153785b9926a39032520082329ad37d830
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: bd9c645dd1649ad23a37fda1727bfd9678097d51
+ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87989772"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "90746169"
 ---
 # <a name="windows-vista-should-be-configured-with-the-recommended-amount-of-memory"></a>Для Windows Vista следует настроить рекомендуемый объем памяти.
 
@@ -20,7 +19,7 @@ ms.locfileid: "87989772"
 
 Дополнительные сведения о рекомендациях и проверках см. в разделе [Анализатор соответствия рекомендациям](https://go.microsoft.com/fwlink/?LinkId=122786).
 
-|Свойство|Сведения|
+|Свойство.|Подробнее|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|
@@ -67,5 +66,5 @@ ms.locfileid: "87989772"
 Set-VMMemory <MyVM> -StartupBytes 1GB
 ```
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 [Set-Вммемори](/powershell/module/hyper-v/set-vmmemory?view=win10-ps)

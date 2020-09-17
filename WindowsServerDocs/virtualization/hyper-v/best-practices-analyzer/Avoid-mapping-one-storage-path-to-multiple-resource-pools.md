@@ -1,18 +1,17 @@
 ---
 title: Избегайте сопоставления одного пути хранилища с несколькими пулами ресурсов
 description: Интернет-версия текста для этого правила анализатор соответствия рекомендациям.
-manager: dongill
-ms.author: kathydav
+ms.author: benarm
+author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: 24992453-762b-4892-9a50-55d237b9b7f2
-author: kbdazure
 ms.date: 8/16/2016
-ms.openlocfilehash: 38e0fdb5956197984a78d195ea23a7e856634575
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: fb2756889907dd9e268782816a9d035c9e6478d7
+ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87942072"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "90747049"
 ---
 # <a name="avoid-mapping-one-storage-path-to-multiple-resource-pools"></a>Избегайте сопоставления одного пути хранилища с несколькими пулами ресурсов
 
@@ -20,7 +19,7 @@ ms.locfileid: "87942072"
 
 Дополнительные сведения о рекомендациях и сканировании см. в разделе [Запуск сканирования анализатором соответствия рекомендациям и управление результатами сканирования](https://go.microsoft.com/fwlink/p/?LinkID=223177).
 
-|Свойство|Сведения|
+|Свойство.|Подробнее|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|
@@ -37,7 +36,7 @@ ms.locfileid: "87942072"
 
 \<list of pools>
 
-## <a name="resolution"></a>**Способы устранения:**
+## <a name="resolution"></a>**Решение**
 *Используйте Windows PowerShell для перенастройки пулов ресурсов хранилища, чтобы несколько пулов не использовали один и тот же путь к хранилищу.*
 
 

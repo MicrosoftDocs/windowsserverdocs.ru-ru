@@ -1,18 +1,17 @@
 ---
 title: Для Windows Server 2008 следует настроить рекомендуемый объем памяти.
 description: Содержит инструкции по устранению проблемы, о которой сообщило это правило анализатор соответствия рекомендациям.
-manager: dongill
-ms.author: kathydav
+ms.author: benarm
+author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: a98a8594-603b-487a-8739-78887c568e57
-author: kbdazure
 ms.date: 8/16/2016
-ms.openlocfilehash: 6ff1915b789e28d0bc05fb2313e1c7e95b7dc12a
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 1dc343c19dc02fdf5dc0408db70649290025e2d2
+ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87997269"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "90746189"
 ---
 # <a name="windows-server-2008-should-be-configured-with-the-recommended-amount-of-memory"></a>Для Windows Server 2008 следует настроить рекомендуемый объем памяти.
 
@@ -20,7 +19,7 @@ ms.locfileid: "87997269"
 
 Дополнительные сведения о рекомендациях и проверках см. в разделе [Анализатор соответствия рекомендациям](https://go.microsoft.com/fwlink/?LinkId=122786).
 
-|Свойство|Сведения|
+|Свойство.|Подробнее|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|
@@ -67,5 +66,5 @@ ms.locfileid: "87997269"
 Set-VMMemory <MyVM> -StartupBytes 2GB
 ```
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 [Set-Вммемори](/powershell/module/hyper-v/set-vmmemory?view=win10-ps)

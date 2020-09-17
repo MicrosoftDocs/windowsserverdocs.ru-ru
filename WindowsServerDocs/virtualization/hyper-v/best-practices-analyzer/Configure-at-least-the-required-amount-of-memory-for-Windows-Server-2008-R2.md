@@ -1,18 +1,17 @@
 ---
 title: Настройте по крайней мере необходимый объем памяти для виртуальной машины под Windows Server 2008 R2 и включить ее для динамическая память
 description: Интернет-версия текста для этого правила анализатор соответствия рекомендациям.
-manager: dongill
-ms.author: kathydav
+ms.author: benarm
+author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: db0bff4c-39fe-49c1-903a-1f2a0b0db891
-author: kbdazure
 ms.date: 8/16/2016
-ms.openlocfilehash: 02f94d2d4a26b253b51f54c38aec81bbf238ea4e
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: eaafc5ba990e30880878c540642b32d2e81f63e0
+ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87968431"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "90746939"
 ---
 # <a name="configure-at-least-the-required-amount-of-memory-for-a-virtual-machine-running-windows-server-2008-r2-and-enabled-for-dynamic-memory"></a>Настройте по крайней мере необходимый объем памяти для виртуальной машины под Windows Server 2008 R2 и включить ее для динамическая память
 
@@ -20,7 +19,7 @@ ms.locfileid: "87968431"
 
 Дополнительные сведения о рекомендациях и сканировании см. в разделе [Запуск сканирования анализатором соответствия рекомендациям и управление результатами сканирования](https://go.microsoft.com/fwlink/p/?LinkID=223177).
 
-|Свойство|Сведения|
+|Свойство.|Подробнее|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|
@@ -52,7 +51,7 @@ ms.locfileid: "87968431"
 
 5.  В разделе **Динамическая память**измените **Минимальный объем ОЗУ** — не менее 256 МБ, а **максимальный объем ОЗУ** — 512 МБ.
 
-6.  Нажмите кнопку **ОК**.
+6.  Нажмите кнопку **OK**.
 
 ### <a name="increase-memory-using-windows-powershell"></a>Увеличение памяти с помощью Windows PowerShell
 

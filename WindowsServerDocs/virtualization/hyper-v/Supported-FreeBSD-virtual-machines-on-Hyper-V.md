@@ -1,18 +1,17 @@
 ---
 title: Поддерживаемые виртуальные машины FreeBSD в Hyper-V
 description: Список служб и компонентов интеграции Linux, входящих в каждую версию
-manager: dongill
 ms.topic: article
 ms.assetid: 930e758f-bd50-46b4-a3a4-9857110f17b4
-author: shirgall
-ms.author: kathydav
+ms.author: benarm
+author: BenjaminArmstrong
 ms.date: 04/07/2020
-ms.openlocfilehash: 3767c56640dd4e4e07e2cdd4a578ec0c3db2f470
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: bf4b1aeb701741a7f58f3d186ffe7861cdd1e8e0
+ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87965641"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "90746409"
 ---
 # <a name="supported-freebsd-virtual-machines-on-hyper-v"></a>Поддерживаемые виртуальные машины FreeBSD в Hyper-V
 
@@ -28,12 +27,12 @@ ms.locfileid: "87965641"
 
 * (*пусто*) — функция недоступна
 
-|**Компонент**|**Версия операционной системы Windows Server**|**12-12,1**|**11.1 — 11.3**|**11,0**|**10,3**|**10,2**|**10,0-10,1**|**9,1-9,3, 8,4**|
+|**Компонент**|**Версия операционной системы Windows Server**|**12-12,1**|**11.1 — 11.3**|**11,0**|**10,3**|**10.2**|**10,0-10,1**|**9,1-9,3, 8,4**|
 |-|-|-|-|-|-|-|-|-|
 |**Доступность**||Встроено|Встроено|Встроено|Встроено|Встроено|Встроено|[Порты](https://svnweb.freebsd.org/ports/branches/2015Q1/emulators/hyperv-is/) |
 |**[Основные сведения](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#core)**|2019, 2016, 2012 R2|&#10004;|&#10004;|&#10004;|&#10004;|&#10004;|&#10004;|&#10004;|
 |Точное время Windows Server 2016|2019, 2016|&#10004;|&#10004;||||||
-|**[Сеть](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#networking)**||||||||
+|**[Сети](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#networking)**||||||||
 |Кадры крупного размера|2019, 2016, 2012 R2|&#10004; Примечание 3|&#10004; Примечание 3|&#10004; Примечание 3|&#10004; Примечание 3|&#10004; Примечание 3|&#10004; Примечание 3|&#10004; Примечание 3|
 |Добавление тегов и магистрали виртуальной ЛС|2019, 2016, 2012 R2|&#10004;|&#10004;|&#10004;|&#10004;|&#10004;|&#10004;|&#10004;|
 |Динамическая миграция|2019, 2016, 2012 R2|&#10004;|&#10004;|&#10004;|&#10004;|&#10004;|&#10004;|&#10004;|
@@ -42,13 +41,13 @@ ms.locfileid: "87965641"
 |Сегментация TCP и разгрузка контрольной суммы|2019, 2016, 2012 R2|&#10004;|&#10004;|&#10004;|&#10004;|&#10004;|||
 |Разгрузка крупного приема (ЛРО)|2019, 2016, 2012 R2|&#10004;|&#10004;|&#10004;|&#10004;||||
 |SR-IOV;|2019, 2016|&#10004;|&#10004;|&#10004;|||||
-|**[Хранение](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#storage)**||NOTE1|Примечание 1|Примечание 1|Примечание 1|Примечание 1|Примечание 1, 2|Примечание 1, 2|
+|**[Память](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#storage)**||NOTE1|Примечание 1|Примечание 1|Примечание 1|Примечание 1|Примечание 1, 2|Примечание 1, 2|
 |Изменение размера VHDX|2019, 2016, 2012 R2|&#10004; Примечание 6|&#10004; Примечание 6|&#10004; Примечание 6|||||
 |Виртуальное подключение Fibre Channel|2019, 2016, 2012 R2||||||||
 |Динамическая Архивация виртуальных машин|2019, 2016, 2012 R2|&#10004;|&#10004;||||||
 |Поддержка TRIM|2019, 2016, 2012 R2|&#10004;|&#10004;||||||
 |WWN ДЛЯ SCSI|2019, 2016, 2012 R2||||||||
-|**[Память](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#memory)**|||||||||
+|**[Свободной](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#memory)**|||||||||
 |Поддержка ядра PAE|2019, 2016, 2012 R2||||||||
 |Настройка зазора MMIO|2019, 2016, 2012 R2|&#10004;|&#10004;|&#10004;|&#10004;|&#10004;|&#10004;|&#10004;|
 |Динамическая память — "горячее" Добавление|2019, 2016, 2012 R2||||||||
@@ -91,7 +90,7 @@ ms.locfileid: "87965641"
 
 **Дополнительные примечания**. Матрица возможностей 10 стабильных и 11 стабильных компонентов аналогична выпуску FreeBSD 11,1. Кроме того, FreeBSD 10,2 и предыдущие версии (10,1, 10,0, 9. x, 8. x) в конце жизни. Ознакомьтесь со списком поддерживаемых выпусков и новейшими рекомендациями [по безопасности](https://security.freebsd.org/) .
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 
 * [Описания функций для виртуальных машин Linux и FreeBSD в Hyper-V](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md)
 * [Рекомендации по запуску FreeBSD в Hyper-V](Best-practices-for-running-FreeBSD-on-Hyper-V.md)

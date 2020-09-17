@@ -1,18 +1,17 @@
 ---
 title: Количество логических процессоров используется не должна превышать максимально допустимого значения
 description: Содержит инструкции по устранению проблемы, о которой сообщило это правило анализатор соответствия рекомендациям.
-manager: dongill
-ms.author: kathydav
+ms.author: benarm
+author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: 66df8b02-91d1-424b-8934-a39c214d530e
-author: kbdazure
 ms.date: 8/16/2016
-ms.openlocfilehash: 4a78f81fa90bc25d9ca1888d2c74d90a417f1071
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 580d04af45416e08e536d815390be0e45b760312
+ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87993427"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "90746149"
 ---
 # <a name="the-number-of-logical-processors-in-use-must-not-exceed-the-supported-maximum"></a>Количество логических процессоров используется не должна превышать максимально допустимого значения
 
@@ -20,7 +19,7 @@ ms.locfileid: "87993427"
 
 Дополнительные сведения о рекомендациях и проверках см. в разделе [Анализатор соответствия рекомендациям](https://go.microsoft.com/fwlink/?LinkId=122786).
 
-|Свойство|Сведения|
+|Свойство.|Подробнее|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|
@@ -49,6 +48,6 @@ ms.locfileid: "87993427"
 
 2.  Из **загрузки** щелкните **Дополнительные параметры**.
 
-3.  Выберите **число процессоров** и затем выберите номер в списке. Нажмите кнопку **ОК**.
+3.  Выберите **число процессоров** и затем выберите номер в списке. Нажмите кнопку **OK**.
 
 4.  Перезагрузите компьютер, чтобы запустить его, используя новое количество процессоров.

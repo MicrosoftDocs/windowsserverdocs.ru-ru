@@ -1,18 +1,17 @@
 ---
 title: Для Windows Server 2016 следует настроить рекомендуемый объем памяти.
 description: Содержит инструкции по устранению проблемы, о которой сообщило это правило анализатор соответствия рекомендациям.
-manager: dongill
-ms.author: kathydav
+ms.author: benarm
+author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: 7860e609-d278-42a3-85a4-ca92c8b6b2ad
-author: kbdazure
 ms.date: 8/16/2016
-ms.openlocfilehash: 774ab1b92c31e007e4ca022f3d0b1efe0d1a00d8
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 6767274f79f70dc5ac3b70b8b4ed946820cb4fee
+ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87997225"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "90747139"
 ---
 # <a name="windows-server-2016-should-be-configured-with-the-recommended-amount-of-memory"></a>Для Windows Server 2016 следует настроить рекомендуемый объем памяти.
 
@@ -20,7 +19,7 @@ ms.locfileid: "87997225"
 
 Дополнительные сведения о рекомендациях и сканировании см. в разделе [Запуск сканирования анализатором соответствия рекомендациям и управление результатами сканирования](https://go.microsoft.com/fwlink/p/?LinkID=223177).
 
-|Свойство|Сведения|
+|Свойство.|Подробнее|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|
@@ -37,7 +36,7 @@ ms.locfileid: "87997225"
 
 \<list of virtual machines>
 
-## <a name="resolution"></a>**Способы устранения:**
+## <a name="resolution"></a>**Решение**
 *Используйте диспетчер Hyper-V, чтобы увеличить объем памяти, выделенной для этой виртуальной машины, не менее 1 ГБ.*
 
 #### <a name="increase-the-memory-using-hyper-v-manager"></a>Увеличение объема памяти с помощью диспетчера Hyper-V
@@ -64,5 +63,5 @@ ms.locfileid: "87997225"
 Set-VMMemory <MyVM> -StartupBytes 1GB
 ```
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 [Set-Вммемори](/powershell/module/hyper-v/set-vmmemory?view=win10-ps)

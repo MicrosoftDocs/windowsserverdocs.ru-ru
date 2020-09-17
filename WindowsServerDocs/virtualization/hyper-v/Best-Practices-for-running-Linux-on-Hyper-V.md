@@ -1,18 +1,17 @@
 ---
 title: Рекомендации по запуску Linux в Hyper-V
 description: Содержит рекомендации по запуску Linux на виртуальной машине.
-manager: dongill
 ms.topic: article
 ms.assetid: a08648eb-eea0-4e2b-87fb-52bfe8953491
-author: shirgall
-ms.author: kathydav
+ms.author: benarm
+author: BenjaminArmstrong
 ms.date: 04/15/2020
-ms.openlocfilehash: b9a03ec24adf0b77ff4a6e477f550c63760c9d85
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 216bd83eb06cd14b2b2290e3294041b097cfdbd9
+ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87989101"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "90747169"
 ---
 # <a name="best-practices-for-running-linux-on-hyper-v"></a>Рекомендации по запуску Linux в Hyper-V
 
@@ -47,7 +46,7 @@ PS > New-VHD -Path C:\MyVHDs\test.vhdx -SizeBytes 127GB -Dynamic -BlockSizeBytes
 
 Так как в виртуальных машинах поколения 2 отсутствует таймер «СМОЛой», сетевые подключения к PxE-серверу TFTP можно преждевременно завершить и предотвратить считывание конфигурации GRUB и загрузку ядра с сервера.
 
-В RHEL 6. x прежний загрузчик EFI для GRUB v 0.97 можно использовать вместо grub2, как описано здесь:[https://access.redhat.com/documentation/Red_Hat_Enterprise_Linux/6/html/Installation_Guide/s1-netboot-pxe-config-efi.html](https://access.redhat.com/documentation/Red_Hat_Enterprise_Linux/6/html/Installation_Guide/s1-netboot-pxe-config-efi.html)
+В RHEL 6. x прежний загрузчик EFI для GRUB v 0.97 можно использовать вместо grub2, как описано здесь: [https://access.redhat.com/documentation/Red_Hat_Enterprise_Linux/6/html/Installation_Guide/s1-netboot-pxe-config-efi.html](https://access.redhat.com/documentation/Red_Hat_Enterprise_Linux/6/html/Installation_Guide/s1-netboot-pxe-config-efi.html)
 
 В дистрибутивах Linux, отличных от RHEL 6. x, можно выполнить аналогичные действия, чтобы настроить GRUB v 0.97 для загрузки ядер Linux с PxE-сервера.
 

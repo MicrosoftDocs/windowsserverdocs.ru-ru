@@ -1,18 +1,17 @@
 ---
 title: Экспорт и импорт виртуальных машин
 description: Здесь показано, как экспортировать и импортировать виртуальные машины с помощью диспетчера Hyper-V или Windows PowerShell.
-author: kbdazure
-ms.author: kathydav
-manager: dongill
+ms.author: benarm
+author: BenjaminArmstrong
 ms.date: 12/13/2016
 ms.topic: article
 ms.assetid: 7fd996f5-1ea9-4b16-9776-85fb39a3aa34
-ms.openlocfilehash: 674c1640ced07df731b8667658fdbf3e5500e28d
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 8e5faf0b19a4452b4841eb75ced87f76bd58b117
+ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87988942"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "90746079"
 ---
 # <a name="export-and-import-virtual-machines"></a>Экспорт и импорт виртуальных машин
 

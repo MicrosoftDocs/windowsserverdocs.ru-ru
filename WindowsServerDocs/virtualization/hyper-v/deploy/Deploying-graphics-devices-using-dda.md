@@ -2,16 +2,16 @@
 title: Развертывание графических устройств с помощью дискретного назначения устройств
 description: Узнайте, как использовать ДДА для развертывания графических устройств в Windows Server
 ms.topic: article
-author: chrishuybregts
-ms.author: chrihu
+ms.author: benarm
+author: BenjaminArmstrong
 ms.assetid: 67a01889-fa36-4bc6-841d-363d76df6a66
 ms.date: 08/21/2019
-ms.openlocfilehash: 0e9a79ff12b89a5b99ce95213078406eb2d21ea2
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 3ea25da7b8ac3be2c7d2c194df6ead57653b2c76
+ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87945977"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "90746099"
 ---
 # <a name="deploy-graphics-devices-using-discrete-device-assignment"></a>Развертывание графических устройств с помощью дискретного назначения устройств
 
@@ -129,7 +129,7 @@ Dismount-VMHostAssignableDevice -force -LocationPath $locationPath
 Add-VMAssignableDevice -LocationPath $locationPath -VMName $vm
 ```
 
-## <a name="troubleshooting"></a>Диагностика
+## <a name="troubleshooting"></a>Устранение неполадок
 
 Если вы передали графический процессор в виртуальную машину, но удаленный рабочий стол или приложение не распознает GPU, проверьте наличие следующих распространенных проблем.
 

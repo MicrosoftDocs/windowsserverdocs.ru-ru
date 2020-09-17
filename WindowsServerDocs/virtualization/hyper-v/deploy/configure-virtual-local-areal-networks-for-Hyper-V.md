@@ -1,18 +1,17 @@
 ---
 title: Настройка виртуальных локальных сетей для Hyper-V
 description: Содержит инструкции по настройке виртуальной локальной сети (VLAN) для использования виртуальными машинами на узле Hyper-V.
-manager: dongill
 ms.topic: article
 ms.assetid: 8510a709-001c-4eee-b6d6-c451e8a8a836
-author: kbdazure
-ms.author: kathydav
+ms.author: benarm
+author: BenjaminArmstrong
 ms.date: 10/11/2016
-ms.openlocfilehash: e44a60becc84e3b376797bd64ffe433ce44b8c55
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 7b756127e7396ec96e3f8e6901aaabef1d5664aa
+ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87990359"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "90746029"
 ---
 # <a name="configure-virtual-local-area-networks-for-hyper-v"></a>Настройка виртуальных локальных сетей для Hyper-V
 Виртуальные локальные сети виртуальных \( ЛС \) предлагают один из способов изолировать сетевой трафик. Виртуальные ЛС настраиваются в коммутаторах и маршрутизаторах, поддерживающих 802.1 q. Если вы настроили несколько виртуальных ЛС и хотите, чтобы между ними происходил обмен данными, необходимо настроить сетевые устройства, чтобы это разрешить.
@@ -52,6 +51,6 @@ ms.locfileid: "87990359"
 
 - Настройте виртуальный сетевой адаптер в режиме магистрали с помощью командлета [Set \- вмнетворкадаптервлан](/powershell/module/hyper-v/set-vmnetworkadaptervlan?view=win10-ps) .
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 
 [\-Виртуальный коммутатор Hyper V](../../hyper-v-virtual-switch/hyper-v-virtual-switch.md)

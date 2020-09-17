@@ -1,18 +1,17 @@
 ---
 title: Используйте по меньшей мере протокол SMB версии 3,0 для файловых ресурсов, в которых хранятся файлы для виртуальных машин.
 description: Интернет-версия текста для этого правила анализатор соответствия рекомендациям.
-manager: dongill
-ms.author: kathydav
+ms.author: benarm
+author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: 4bb832b8-f1aa-4c1f-a0f2-324dd53553ea
-author: kbdazure
 ms.date: 8/16/2016
-ms.openlocfilehash: b2393e2aa0418758ff59c527cef6f38a0c8b8402
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: a979035c5b58542865faf6254baf49815f81cc2d
+ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87948391"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "90746789"
 ---
 # <a name="use-at-least-smb-protocol-version-30-for-file-shares-that-store-files-for-virtual-machines"></a>Используйте по меньшей мере протокол SMB версии 3,0 для файловых ресурсов, в которых хранятся файлы для виртуальных машин.
 
@@ -20,7 +19,7 @@ ms.locfileid: "87948391"
 
 Дополнительные сведения о рекомендациях и сканировании см. в разделе [Запуск сканирования анализатором соответствия рекомендациям и управление результатами сканирования](https://go.microsoft.com/fwlink/p/?LinkID=223177).
 
-|Свойство|Сведения|
+|Свойство.|Подробнее|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|
@@ -37,7 +36,7 @@ ms.locfileid: "87948391"
 
 \<list of virtual machines>
 
-## <a name="resolution"></a>**Способы устранения:**
+## <a name="resolution"></a>**Решение**
 *Переместите файлы в общую папку, использующую по меньшей мере протокол SMB версии 3,0.*
 
 

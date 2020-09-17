@@ -1,18 +1,17 @@
 ---
 title: Должна быть запущена служба управления виртуальными машинами Hyper-V
 description: Содержит инструкции по устранению проблемы, о которой сообщило это правило анализатор соответствия рекомендациям.
-manager: dongill
-ms.author: kathydav
+ms.author: benarm
+author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: f44d6887-6458-4438-9d93-574587e3f7d1
-author: kbdazure
 ms.date: 10/03/2016
-ms.openlocfilehash: 889529d8920f9ae0c9e6d431ae1e4cd2c3b75172
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 6fe2f95821b23f98931b7cecc3c59dc58f0f5e37
+ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87960497"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "90746239"
 ---
 # <a name="the-hyper-v-virtual-machine-management-service-must-be-running"></a>Должна быть запущена служба управления виртуальными машинами Hyper-V
 
@@ -20,12 +19,12 @@ ms.locfileid: "87960497"
 
 Дополнительные сведения о рекомендациях и проверках см. в разделе [Анализатор соответствия рекомендациям](https://go.microsoft.com/fwlink/?LinkId=122786).
 
-|Свойство|Сведения|
+|Свойство.|Подробнее|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|
 |**Уровень серьезности**|Ошибка|
-|**Категория**|Предварительные требования|
+|**Категория**|Prerequisites|
 
 В следующих разделах курсив указывает текст пользовательского Интерфейса, который отображается в анализатор соответствия рекомендациям для этой проблемы.
 

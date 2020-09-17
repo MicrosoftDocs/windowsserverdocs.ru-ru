@@ -1,17 +1,16 @@
 ---
 title: Избегайте включения виртуальных машин, настроенных с помощью виртуальных Fibre Channel адаптеров, чтобы разрешить динамическую миграцию при наличии меньшего числа путей для Fibre Channel логических устройств (LUN) в назначении, чем в источнике.
 description: Интернет-версия текста для этого правила анализатор соответствия рекомендациям.
-manager: dongill
-ms.author: kathydav
+ms.author: benarm
+author: BenjaminArmstrong
 ms.topic: article
-author: kbdazure
 ms.date: 8/16/2016
-ms.openlocfilehash: 2b85793cd5a680b0fd13fca3da5881b8622710fb
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 71617bbf6718e77f004b57e38035f5277c45c3bc
+ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87963680"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "90747069"
 ---
 # <a name="avoid-enabling-virtual-machines-configured-with-virtual-fibre-channel-adapters-to-allow-live-migrations-when-there-are-fewer-paths-to-fibre-channel-logical-units-luns-on-the-destination-than-on-the-source"></a>Избегайте включения виртуальных машин, настроенных с помощью виртуальных Fibre Channel адаптеров, чтобы разрешить динамическую миграцию при наличии меньшего числа путей для Fibre Channel логических устройств (LUN) в назначении, чем в источнике.
 
@@ -19,7 +18,7 @@ ms.locfileid: "87963680"
 
 Дополнительные сведения о рекомендациях и сканировании см. в разделе [Запуск сканирования анализатором соответствия рекомендациям и управление результатами сканирования](https://go.microsoft.com/fwlink/p/?LinkID=223177).
 
-|Свойство|Сведения|
+|Свойство.|Подробнее|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|
@@ -36,5 +35,5 @@ ms.locfileid: "87963680"
 
 \<list of virtual machines>
 
-## <a name="resolution"></a>**Способы устранения:**
+## <a name="resolution"></a>**Решение**
 *Рассмотрите возможность очистки свойства WMI Алловредуцедфкредунданци на затронутых виртуальных машинах. Если это свойство не выбрано, можно выполнить динамическую миграцию на виртуальных машинах, настроенных с помощью виртуальных Fibre Channel адаптеров, только если количество путей для Fibre Channel в месте назначения совпадает с числом путей в источнике. Эти проверки помогают предотвратить потери данных или прерывать операции ввода-вывода в хранилище.*

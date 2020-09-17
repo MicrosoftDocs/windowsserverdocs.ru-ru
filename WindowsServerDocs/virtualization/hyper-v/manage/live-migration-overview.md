@@ -3,15 +3,15 @@ title: Обзор динамической миграции
 description: Содержит обзор функций динамической миграции в Windows Server 2016.
 ms.topic: article
 ms.assetid: 5cc875ab-05c4-439e-b27d-6bfc77054660
-author: johncslack
-ms.author: joslack
+ms.author: benarm
+author: BenjaminArmstrong
 ms.date: 06/27/2017
-ms.openlocfilehash: 442e546983d1758dbe4d658eba29fca917e6225c
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 46768ced2b493ff68df945739fb0b3f920846c7d
+ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87994083"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "90746619"
 ---
 # <a name="live-migration-overview"></a>Обзор динамической миграции
 

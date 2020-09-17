@@ -1,18 +1,17 @@
 ---
 title: Планирование Hyper-V в Windows Server 2016
 description: Ссылки на статьи, посвященные вопросам планирования для Hyper-V
-manager: dongill
 ms.topic: article
 ms.assetid: fba1e964-3ac3-4852-83dc-eb20752765fd
-author: kbdazure
-ms.author: kathydav
+ms.author: benarm
+author: BenjaminArmstrong
 ms.date: 08/21/2019
-ms.openlocfilehash: 0c97d1c37444c001225daa12ba559dc77c48342d
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 73d85d4b0cecbdcdaecbd317c43fa891846bcfb0
+ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87938903"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "90746419"
 ---
 # <a name="plan-for-hyper-v-on-windows-server"></a>Планирование Hyper-V в Windows Server
 

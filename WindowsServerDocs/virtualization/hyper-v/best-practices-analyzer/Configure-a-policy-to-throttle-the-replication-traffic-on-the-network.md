@@ -1,18 +1,17 @@
 ---
 title: Настройка политики для регулирования трафика репликации в сети
 description: Интернет-версия текста для этого правила анализатор соответствия рекомендациям.
-manager: dongill
-ms.author: kathydav
+ms.author: benarm
+author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: 82cb1aef-cdc3-4d0a-88d4-ef497ab79606
-author: kbdazure
 ms.date: 8/16/2016
-ms.openlocfilehash: dcee85911ebcc93e935a7df30d43768a15978ece
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 18c1c1e586075dfb1ef477c1d3f21e549791464a
+ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87957181"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "90746989"
 ---
 # <a name="configure-a-policy-to-throttle-the-replication-traffic-on-the-network"></a>Настройка политики для регулирования трафика репликации в сети
 
@@ -20,7 +19,7 @@ ms.locfileid: "87957181"
 
 Дополнительные сведения о рекомендациях и сканировании см. в разделе [Запуск сканирования анализатором соответствия рекомендациям и управление результатами сканирования](https://go.microsoft.com/fwlink/p/?LinkID=223177).
 
-|Свойство|Сведения|
+|Свойство.|Подробнее|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|

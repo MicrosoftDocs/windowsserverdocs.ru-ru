@@ -1,18 +1,17 @@
 ---
 title: Виртуальная машина, на которой выполняется Windows 8.1 и настроена с динамическая память, должна использовать Рекомендуемые значения параметров памяти.
 description: Содержит инструкции по устранению проблемы, о которой сообщило это правило анализатор соответствия рекомендациям.
-manager: dongill
-ms.author: kathydav
+ms.author: benarm
+author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: b9a14f85-326f-4916-9278-2c8d39a32848
-author: kbdazure
 ms.date: 8/16/2016
-ms.openlocfilehash: ba32e3dc40022539c4205e55e74deab8ba619d0b
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 7ad74e982ad75a7763c37ad28599642c593b5612
+ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87954511"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "90746339"
 ---
 # <a name="a-virtual-machine-running-windows-81-and-configured-with-dynamic-memory-should-use-recommended-values-for-memory-settings"></a>Виртуальная машина, на которой выполняется Windows 8.1 и настроена с динамическая память, должна использовать Рекомендуемые значения параметров памяти.
 
@@ -20,7 +19,7 @@ ms.locfileid: "87954511"
 
 Дополнительные сведения о рекомендациях и сканировании см. в разделе [Запуск сканирования анализатором соответствия рекомендациям и управление результатами сканирования](https://go.microsoft.com/fwlink/p/?LinkID=223177).
 
-|Свойство|Сведения|
+|Свойство.|Подробнее|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|
@@ -38,7 +37,7 @@ ms.locfileid: "87954511"
 \<list of virtual machines>
 
 
-## <a name="resolution"></a>**Способы устранения:**
+## <a name="resolution"></a>**Решение**
 *Используйте диспетчер Hyper-V, чтобы увеличить минимальный объем памяти по крайней мере до 256 МБ, объем памяти при загрузке не менее 512 МБ, а максимальный объем памяти — не менее 1 ГБ для этой виртуальной машины.*
 
 #### <a name="increase-memory-using-hyper-v-manager"></a>Увеличение памяти с помощью диспетчера Hyper-V
@@ -53,7 +52,7 @@ ms.locfileid: "87954511"
 
 5.  В разделе **Динамическая память**замените **Минимальный объем озу** не менее 256 МБ, а **максимальный объем ОЗУ** — на 1 ГБ.
 
-6.  Нажмите кнопку **ОК**.
+6.  Нажмите кнопку **OK**.
 
 ### <a name="increase-memory-using-windows-powershell"></a>Увеличение памяти с помощью Windows PowerShell
 

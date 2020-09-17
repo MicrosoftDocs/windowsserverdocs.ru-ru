@@ -1,18 +1,17 @@
 ---
 title: Для Windows 10 следует настроить рекомендуемый объем памяти.
 description: Содержит инструкции по устранению проблемы, о которой сообщило это правило анализатор соответствия рекомендациям.
-manager: dongill
-ms.author: kathydav
+ms.author: benarm
+author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: 0c810b82-b06a-4382-b598-5c642e8534be
-author: kbdazure
 ms.date: 8/16/2016
-ms.openlocfilehash: be11fb86ab27ab7f393ec9a89a9e3780f3701d04
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 80bfdff229cbb70f54464a304b4d803bcba75368
+ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87991215"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "90747149"
 ---
 # <a name="windows-10-should-be-configured-with-the-recommended-amount-of-memory"></a>Для Windows 10 следует настроить рекомендуемый объем памяти.
 
@@ -20,7 +19,7 @@ ms.locfileid: "87991215"
 
 Дополнительные сведения о рекомендациях и сканировании см. в разделе [Запуск сканирования анализатором соответствия рекомендациям и управление результатами сканирования](https://go.microsoft.com/fwlink/p/?LinkID=223177).
 
-|Свойство|Сведения|
+|Свойство.|Подробнее|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|
@@ -37,7 +36,7 @@ ms.locfileid: "87991215"
 ```
 <list of virtual machines>
 ```
-## <a name="resolution"></a>**Способы устранения:**
+## <a name="resolution"></a>**Решение**
 *Используйте диспетчер Hyper-V, чтобы увеличить объем памяти, выделенной для этой виртуальной машины, не менее 1 ГБ.*
 
 #### <a name="increase-the-memory-using-hyper-v-manager"></a>Увеличение объема памяти с помощью диспетчера Hyper-V
@@ -64,5 +63,5 @@ ms.locfileid: "87991215"
 Set-VMMemory <MyVM> -StartupBytes 1GB
 ```
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 [Set-Вммемори](/powershell/module/hyper-v/set-vmmemory?view=win10-ps)

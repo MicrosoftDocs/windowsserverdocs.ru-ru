@@ -1,18 +1,17 @@
 ---
 title: Динамические виртуальные жесткие диски в формате VHD не рекомендуются для виртуальных машин, на которых выполняются рабочие нагрузки сервера в рабочей среде.
 description: Интернет-версия текста для этого правила анализатор соответствия рекомендациям.
-manager: dongill
-ms.author: kathydav
+ms.author: benarm
+author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: 324a60a0-1d15-4ef2-9f17-23cbd2eb42ce
-author: kbdazure
 ms.date: 8/16/2016
-ms.openlocfilehash: 4865fcbc75ac135a6fe04622692aaf1ce2893a3a
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 080858d709592fd877fc643219a7cca1bd0607ff
+ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87960257"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "90746779"
 ---
 # <a name="vhd-format-dynamic-virtual-hard-disks-are-not-recommended-for-virtual-machines-that-run-server-workloads-in-a-production-environment"></a>Динамические виртуальные жесткие диски в формате VHD не рекомендуются для виртуальных машин, на которых выполняются рабочие нагрузки сервера в рабочей среде.
 
@@ -20,7 +19,7 @@ ms.locfileid: "87960257"
 
 Дополнительные сведения о рекомендациях и сканировании см. в разделе [Запуск сканирования анализатором соответствия рекомендациям и управление результатами сканирования](https://go.microsoft.com/fwlink/p/?LinkID=223177).
 
-|Свойство|Сведения|
+|Свойство.|Подробнее|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|
@@ -37,7 +36,7 @@ ms.locfileid: "87960257"
 
 \<list of virtual machines>
 
-## <a name="resolution"></a>**Способы устранения:**
+## <a name="resolution"></a>**Решение**
 *Завершите работу виртуальной машины и преобразуйте динамический виртуальный жесткий диск формата VHD в виртуальный жесткий диск формата VHDX или на фиксированный виртуальный жесткий диск. (Формат VHDX имеет механизмы надежности, которые помогают защитить диск от повреждений из-за сбоев питания системы.) Однако не преобразуйте виртуальный жесткий диск, если он, вероятно, будет подключен к более ранней версии Windows в некоторый момент. Версии Windows, предшествующие Windows Server 2012, не поддерживают формат VHDX.*
 
 

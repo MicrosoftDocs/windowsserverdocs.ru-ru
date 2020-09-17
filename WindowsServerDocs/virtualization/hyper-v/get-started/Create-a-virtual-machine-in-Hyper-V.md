@@ -1,18 +1,17 @@
 ---
 title: Создание виртуальной машины в Hyper-V
 description: Содержит инструкции по созданию виртуальной машины с помощью диспетчера Hyper-V или Windows PowerShell.
-manager: dongill
 ms.topic: get-started-article
 ms.assetid: 59297022-a898-456c-b299-d79cd5860238
-author: kbdazure
-ms.author: kathydav
+ms.author: benarm
+author: BenjaminArmstrong
 ms.date: 10/04/2016
-ms.openlocfilehash: 22dc2e83f1c7370bfd6f97d821a83041a9c528fe
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 9d48020603e8e729c9493d7b01fbc08882b72471
+ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87996603"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "90746059"
 ---
 # <a name="create-a-virtual-machine-in-hyper-v"></a>Создание виртуальной машины в Hyper-V
 
@@ -42,7 +41,7 @@ ms.locfileid: "87996603"
 
 2. Щелкните правой кнопкой мыши элемент **Windows PowerShell** и выберите пункт **Запуск от имени администратора**.
 
-3. Получите имя виртуального коммутатора, который виртуальная машина должна использовать с помощью [Get-VMSwitch](/powershell/module/hyper-v/get-vmswitch?view=win10-ps).  например следующие.
+3. Получите имя виртуального коммутатора, который виртуальная машина должна использовать с помощью [Get-VMSwitch](/powershell/module/hyper-v/get-vmswitch?view=win10-ps).  Например, примененная к объекту директива
 
    ```
    Get-VMSwitch  * | Format-Table Name
@@ -51,7 +50,7 @@ ms.locfileid: "87996603"
 4. Создайте виртуальную машину с помощью командлета [New-VM](/powershell/module/hyper-v/new-vm?view=win10-ps) .  См. следующие примеры.
 
    > [!NOTE]
-   > Если вы можете переместить эту виртуальную машину на узел Hyper-V под управлением Windows Server 2012 R2, используйте параметр-Version с командлетом [New-VM](/powershell/module/hyper-v/new-vm?view=win10-ps) , чтобы установить версию конфигурации виртуальной машины равным 5. Версия конфигурации виртуальной машины по умолчанию для Windows Server 2016 не поддерживается Windows Server 2012 R2 или более ранних версий. Невозможно изменить версию конфигурации виртуальной машины после создания виртуальной машины. Дополнительные сведения см. в статье [Поддерживаемые версии конфигурации виртуальных машин](../deploy/Upgrade-virtual-machine-version-in-Hyper-V-on-Windows-or-Windows-Server.md#supported-virtual-machine-configuration-versions).
+   > Если вы можете переместить эту виртуальную машину на узел Hyper-V под управлением Windows Server 2012 R2, используйте параметр-Version с командлетом  [New-VM](/powershell/module/hyper-v/new-vm?view=win10-ps) , чтобы установить версию конфигурации виртуальной машины равным 5. Версия конфигурации виртуальной машины по умолчанию для Windows Server 2016 не поддерживается Windows Server 2012 R2 или более ранних версий. Невозможно изменить версию конфигурации виртуальной машины после создания виртуальной машины. Дополнительные сведения см. в статье [Поддерживаемые версии конфигурации виртуальных машин](../deploy/Upgrade-virtual-machine-version-in-Hyper-V-on-Windows-or-Windows-Server.md#supported-virtual-machine-configuration-versions).
 
    - **Существующий виртуальный жесткий диск** . чтобы создать виртуальную машину с существующим виртуальным жестким диском, можно использовать следующую команду, где
      - **-Name** — имя, которое вы задаете для создаваемой виртуальной машины.
@@ -74,7 +73,7 @@ ms.locfileid: "87996603"
 
        При этом создается виртуальная машина поколения 2 с именем Win10VM с 4 ГБ памяти. Она загружается из папки VMs\Win10.vhdx в текущий каталог и использует виртуальный коммутатор с именем ExternalSwitch. Файлы конфигурации виртуальной машины хранятся в папке VMData.
 
-   - **Новый виртуальный жесткий диск** — чтобы создать виртуальную машину с новым виртуальным жестким диском, замените параметр **-VHDPath** из приведенного выше примера на **-неввхдпас** и добавьте параметр **-неввхдсизебитес** . например следующие.
+   - **Новый виртуальный жесткий диск** — чтобы создать виртуальную машину с новым виртуальным жестким диском, замените параметр **-VHDPath** из приведенного выше примера на  **-неввхдпас** и добавьте параметр **-неввхдсизебитес** . Например, примененная к объекту директива
 
      ```
      New-VM -Name Win10VM -MemoryStartupBytes 4GB -BootDevice VHD -NewVHDPath .\VMs\Win10.vhdx -Path .\VMData -NewVHDSizeBytes 20GB -Generation 2 -Switch ExternalSwitch

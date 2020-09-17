@@ -1,18 +1,17 @@
 ---
 title: Поддерживаемые виртуальные машины Ubuntu в Hyper-V
 description: Список служб и компонентов интеграции Linux, входящих в каждую версию
-manager: dongill
 ms.topic: article
 ms.assetid: 95ea5f7c-25c6-494b-8ffd-2a77f631ee94
-author: shirgall
-ms.author: shirgall
+ms.author: benarm
+author: BenjaminArmstrong
 ms.date: 08/29/2020
-ms.openlocfilehash: 5bd5f7a129cbc5c69bc6b909e292c096a3812af1
-ms.sourcegitcommit: 34f9577ef32cbdc7ef96040caabc9d83517f9b79
+ms.openlocfilehash: cc59a9c45a1dee797196c8a12550945d3d834cd7
+ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "89554557"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "90746579"
 ---
 # <a name="supported-ubuntu-virtual-machines-on-hyper-v"></a>Поддерживаемые виртуальные машины Ubuntu в Hyper-V
 
@@ -33,7 +32,7 @@ ms.locfileid: "89554557"
 |**Доступность**||Встроено|Встроено|Встроено|Встроено|
 |**[Основные сведения](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#core)**|2019, 2016, 2012 R2|&#10004;|&#10004;|&#10004;|&#10004;|
 |Точное время Windows Server 2016|2019, 2016|&#10004;|&#10004;|&#10004;||
-|**[Сеть](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#networking)**||||||
+|**[Сети](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#networking)**||||||
 |Кадры крупного размера|2019, 2016, 2012 R2|&#10004;|&#10004;|&#10004;|&#10004;|
 |Добавление тегов и магистрали виртуальной ЛС|2019, 2016, 2012 R2|&#10004;|&#10004;|&#10004;|&#10004;|
 |Динамическая миграция|2019, 2016, 2012 R2|&#10004;|&#10004;|&#10004;|&#10004;|
@@ -41,19 +40,19 @@ ms.locfileid: "89554557"
 |vRSS|2019, 2016, 2012 R2|&#10004;|&#10004;|&#10004;|&#10004;|
 |Сегментация TCP и разгрузка контрольной суммы|2019, 2016, 2012 R2|&#10004;|&#10004;|&#10004;|&#10004;|
 |SR-IOV;|2019, 2016|&#10004;|&#10004;|&#10004;||
-|**[Хранилище](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#storage)**|||||
+|**[Память](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#storage)**|||||
 |Изменение размера VHDX|2019, 2016, 2012 R2|&#10004;|&#10004;|&#10004;|&#10004;|
 |Виртуальное подключение Fibre Channel|2019, 2016, 2012 R2|&#10004; Примечание 2|&#10004; Примечание 2|&#10004; Примечание 2|&#10004; Примечание 2|
 |Динамическая Архивация виртуальных машин|2019, 2016, 2012 R2|&#10004; Примечание 3, 4, 5|&#10004; Примечание 3, 4, 5|&#10004; Примечание 3, 4, 5|&#10004; Примечание 3, 4, 5|
 |Поддержка TRIM|2019, 2016, 2012 R2|&#10004;|&#10004;|&#10004;|&#10004;|
 |WWN ДЛЯ SCSI|2019, 2016, 2012 R2|&#10004;|&#10004;|&#10004;|&#10004;|
-|**[Память](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#memory)**|||||
+|**[Свободной](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#memory)**|||||
 |Поддержка ядра PAE|2019, 2016, 2012 R2|&#10004;|&#10004;|&#10004;|&#10004;|
 |Настройка зазора MMIO|2019, 2016, 2012 R2|&#10004;|&#10004;|&#10004;|&#10004;|
 |Динамическая память — "горячее" Добавление|2019, 2016, 2012 R2|&#10004; Примечание 6, 7, 8|&#10004; Примечание 6, 7, 8|&#10004; Примечание 6, 7, 8|&#10004; Примечание 6, 7, 8|
 |Всплывающие подсказки динамическая память|2019, 2016, 2012 R2|&#10004; Примечание 6, 7, 8|&#10004; Примечание 6, 7, 8|&#10004; Примечание 6, 7, 8|&#10004; Примечание 6, 7, 8|
 |Изменение размера памяти среды выполнения|2019, 2016|&#10004;|&#10004;|&#10004;|&#10004;|
-|**[Видео](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#video)**||||||
+|**[Роли](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#video)**||||||
 |Устройство, относящееся к Hyper-V|2019, 2016, 2012 R2|&#10004;|&#10004;|&#10004;|&#10004;|
 |**[Прочее](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#miscellaneous)**|||||
 |Пара "ключ — значение"|2019, 2016, 2012 R2|&#10004; Примечание 5, 9|&#10004; Примечание 5, 9|&#10004; Примечание 5, 9|&#10004; Примечание 5, 9|
@@ -130,7 +129,7 @@ ms.locfileid: "89554557"
        # sudo mv shimx64.efi bootx64.efi
        ```
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 
 * [Поддерживаемые CentOS и Red Hat Enterprise Linux виртуальные машины в Hyper-V](Supported-CentOS-and-Red-Hat-Enterprise-Linux-virtual-machines-on-Hyper-V.md)
 

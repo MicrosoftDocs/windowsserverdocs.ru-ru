@@ -1,18 +1,17 @@
 ---
 title: Должна быть доступна более одного сетевого адаптера
 description: Интернет-версия текста для этого правила анализатор соответствия рекомендациям.
-manager: dongill
-ms.author: kathydav
+ms.author: benarm
+author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: 59940e56-e06a-490f-90ea-cf30d9f80b09
-author: kbdazure
 ms.date: 8/16/2016
-ms.openlocfilehash: 57abcbbc796ab2664d30ca9ff63c1e41f47c17a4
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 05dc0583424ed155c4780f9f0b4c016be850a71c
+ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87950248"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "90746269"
 ---
 # <a name="more-than-one-network-adapter-should-be-available"></a>Должна быть доступна более одного сетевого адаптера
 
@@ -20,7 +19,7 @@ ms.locfileid: "87950248"
 
 Дополнительные сведения о рекомендациях и проверках см. в разделе [Анализатор соответствия рекомендациям](https://go.microsoft.com/fwlink/?LinkId=122786).
 
-|Свойство|Сведения|
+|Свойство.|Подробнее|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|

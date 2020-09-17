@@ -1,18 +1,17 @@
 ---
 title: Поддерживаемые виртуальные машины Debian в Hyper-V
 description: Список служб и компонентов интеграции Linux, входящих в каждую версию
-manager: dongill
 ms.topic: article
 ms.assetid: 3cc62c10-02a3-4633-960c-23bf91a45bd5
-author: shirgall
-ms.author: kathydav
+ms.author: benarm
+author: BenjaminArmstrong
 ms.date: 04/07/2020
-ms.openlocfilehash: da96f78c9886ea392ccb2834f4b245a2422dc17e
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: c0ea0a8e9a030c8d35bf3042b16108523753b36b
+ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87965751"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "90746549"
 ---
 # <a name="supported-debian-virtual-machines-on-hyper-v"></a>Поддерживаемые виртуальные машины Debian в Hyper-V
 
@@ -33,7 +32,7 @@ ms.locfileid: "87965751"
 | **Доступность**                                                                                                                             |                                             | Встроено              | Встроено              | Встроено              | Встроенный (Примечание 5)     |
 | **[Основные сведения](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#core)**                                                   | 2019, 2016, 2012 R2          | &#10004;              | &#10004;              | &#10004;              | &#10004;              |
 | Точное время Windows Server 2016                                                                                                            | 2019, 2016                                  | &#10004; Примечание 4       | &#10004; Примечание 4       |                       |                       |
-| **[Сеть](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#networking)**                                       |                                             |                       |                       |                       |                       |
+| **[Сети](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#networking)**                                       |                                             |                       |                       |                       |                       |
 | Кадры крупного размера                                                                                                                                 | 2019, 2016, 2012 R2          | &#10004;              | &#10004;              | &#10004;              | &#10004;              |
 | Добавление тегов и магистрали виртуальной ЛС                                                                                                                    | 2019, 2016, 2012 R2          | &#10004;              | &#10004;              | &#10004;              | &#10004;              |
 | Динамическая миграция                                                                                                                               | 2019, 2016, 2012 R2          | &#10004;              | &#10004;              | &#10004;              | &#10004;              |
@@ -41,13 +40,13 @@ ms.locfileid: "87965751"
 | vRSS                                                                                                                                         | 2019, 2016, 2012 R2                         | &#10004; Примечание 4       | &#10004; Примечание 4       |                       |                       |
 | Сегментация TCP и разгрузка контрольной суммы                                                                                                       | 2019, 2016, 2012 R2          | &#10004; Примечание 4       | &#10004; Примечание 4       |                       |                       |
 | SR-IOV;                                                                                                                                       | 2019, 2016                                  | &#10004; Примечание 4       | &#10004; Примечание 4       |                       |                       |
-| **[Хранение](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#storage)**                                             |                                             |                       |                       |                       |                       |
+| **[Память](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#storage)**                                             |                                             |                       |                       |                       |                       |
 | Изменение размера VHDX                                                                                                                                  | 2019, 2016, 2012 R2                         | &#10004; Примечание 1       | &#10004; Примечание 1       | &#10004; Примечание 1       | &#10004; Примечание 1       |
 | Виртуальное подключение Fibre Channel                                                                                                                        | 2019, 2016, 2012 R2                         |                       |                       |                       |                       |
 | Динамическая Архивация виртуальных машин                                                                                                                  | 2019, 2016, 2012 R2                         | &#10004; note2 | &#10004; note2 | &#10004; note2 | &#10004; note2 |
 | Поддержка TRIM                                                                                                                                 | 2019, 2016, 2012 R2                         | &#10004; Примечание 4       | &#10004; Примечание 4       |                       |                       |
 | WWN ДЛЯ SCSI                                                                                                                                     | 2019, 2016, 2012 R2                         | &#10004; Примечание 4       | &#10004; Примечание 4       |                       |                       |
-| **[Память](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#memory)**                                               |                                             |                       |                       |                       |                       |
+| **[Свободной](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#memory)**                                               |                                             |                       |                       |                       |                       |
 | Поддержка ядра PAE                                                                                                                           | 2019, 2016, 2012 R2          | &#10004;              | &#10004;              | &#10004;              | &#10004;              |
 | Настройка зазора MMIO                                                                                                                    | 2019, 2016, 2012 R2                         | &#10004;              | &#10004;              | &#10004;              | &#10004;              |
 | Динамическая память — "горячее" Добавление                                                                                                                     | 2019, 2016, 2012 R2                   | &#10004; Примечание 4       | &#10004; Примечание 4       |                       |                       |
@@ -82,7 +81,7 @@ ms.locfileid: "87965751"
 
 5. Хотя Debian 7. x не поддерживается и использует более старую версию ядра, ядро, включенное в исходящие порты Debian для Debian 7. x, обладает улучшенными возможностями Hyper-V.
 
-См. также:
+См. также
 
 * [Поддерживаемые CentOS и Red Hat Enterprise Linux виртуальные машины в Hyper-V](Supported-CentOS-and-Red-Hat-Enterprise-Linux-virtual-machines-on-Hyper-V.md)
 

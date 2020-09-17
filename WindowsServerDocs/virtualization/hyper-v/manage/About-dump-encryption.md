@@ -1,18 +1,17 @@
 ---
 title: О шифровании дампа
 description: Описывает шифрование файлов дампа и устранение неполадок шифрования.
-manager: dongill
 ms.topic: article
-author: larsiwer
+ms.author: benarm
+author: BenjaminArmstrong
 ms.asset: b78ab493-e7c3-41f5-ab36-29397f086f32
-ms.author: kathydav
 ms.date: 11/03/2016
-ms.openlocfilehash: e80af001a54d3be471b3bbcc9fde08a07556d754
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: d2258a810993ea903efe670355720a5fc65a888b
+ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87993434"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "90746489"
 ---
 # <a name="about-dump-encryption"></a>О шифровании дампа
 Шифрование дампа можно использовать для шифрования аварийных дампов и динамических дампов, созданных для системы. Дампы шифруются с помощью симметричного ключа шифрования, который создается для каждого дампа. Затем сам ключ шифруется с помощью открытого ключа, заданного доверенным администратором узла (предохранитель ключа шифрования аварийного дампа). Это гарантирует, что только кто-то, у которого есть соответствующий закрытый ключ, сможет расшифровывать и, следовательно, получать доступ к содержимому дампа. Эта возможность используется в защищенной структуре.
@@ -20,7 +19,7 @@ ms.locfileid: "87993434"
 
 ## <a name="configuring-dump-encryption"></a>Настройка шифрования дампа
 ### <a name="manual-configuration"></a>Настройка вручную
-Чтобы включить шифрование дампа с помощью реестра, настройте следующие параметры реестра в разделе`HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\CrashControl`
+Чтобы включить шифрование дампа с помощью реестра, настройте следующие параметры реестра в разделе `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\CrashControl`
 
 | Имя значения | Тип | Значение |
 | ---------- | ---- | ----- |

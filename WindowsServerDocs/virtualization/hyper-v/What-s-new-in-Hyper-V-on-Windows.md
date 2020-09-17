@@ -1,18 +1,17 @@
 ---
 title: Новые возможности Hyper-V в Windows Server 2016
 description: Содержит сводку новых возможностей Hyper-V.
-manager: dongill
 ms.topic: article
 ms.assetid: 1a65a98e-54b6-4c41-9732-1e3d32fe3a5f
-author: kbdazure
-ms.author: kathydav
+ms.author: benarm
+author: BenjaminArmstrong
 ms.date: 09/21/2017
-ms.openlocfilehash: aa61fd14418efe2cb5ee68c1b86e300db24c4fe4
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 49ea6e324a11d2261dae8133e29d86d2c5bacae7
+ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87996620"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "90746709"
 ---
 # <a name="whats-new-in-hyper-v-on-windows-server"></a>Новые возможности Hyper-V в Windows Server
 

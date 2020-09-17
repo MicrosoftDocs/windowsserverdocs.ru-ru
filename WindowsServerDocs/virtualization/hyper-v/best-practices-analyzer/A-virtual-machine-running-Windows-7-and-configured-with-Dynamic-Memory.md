@@ -1,18 +1,17 @@
 ---
 title: Виртуальная машина под Windows 7, настроенная с динамическая память, должна использовать Рекомендуемые значения параметров памяти.
 description: Содержит инструкции по устранению проблемы, о которой сообщило это правило анализатор соответствия рекомендациям.
-manager: dongill
-ms.author: kathydav
+ms.author: benarm
+author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: c3a0292a-a619-4d1c-8f9d-391c741411c1
-author: kbdazure
 ms.date: 8/16/2016
-ms.openlocfilehash: 139853e8258a256c4f9dbc26def12f1c38689c47
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: eb27e0ed37f1699013d18b3666fd00da7e90a521
+ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87954551"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "90746359"
 ---
 # <a name="a-virtual-machine-running-windows-7-and-configured-with-dynamic-memory-should-use-recommended-values-for-memory-settings"></a>Виртуальная машина под Windows 7, настроенная с динамическая память, должна использовать Рекомендуемые значения параметров памяти.
 
@@ -20,7 +19,7 @@ ms.locfileid: "87954551"
 
 Дополнительные сведения о рекомендациях и сканировании см. в разделе [Запуск сканирования анализатором соответствия рекомендациям и управление результатами сканирования](https://go.microsoft.com/fwlink/p/?LinkID=223177).
 
-|Свойство|Сведения|
+|Свойство.|Подробнее|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|
@@ -52,7 +51,7 @@ ms.locfileid: "87954551"
 
 5.  В разделе **Динамическая память**измените **Минимальный объем ОЗУ** — не менее 256 МБ, а **максимальный объем ОЗУ** — 512 МБ.
 
-6.  Нажмите кнопку **ОК**.
+6.  Нажмите кнопку **OK**.
 
 ### <a name="increase-memory-using-windows-powershell"></a>Увеличение памяти с помощью Windows PowerShell
 

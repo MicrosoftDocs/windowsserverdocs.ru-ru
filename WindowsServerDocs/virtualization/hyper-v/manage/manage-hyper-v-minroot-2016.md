@@ -1,15 +1,16 @@
 ---
 title: минрут
 description: Настройка элементов управления ресурсами ЦП узла
-author: allenma
+ms.author: benarm
+author: BenjaminArmstrong
 ms.date: 12/15/2017
 ms.topic: article
-ms.openlocfilehash: fc65159474f9b1cd8bf282acf00ff06f4727673b
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 4a222151a9236fb19ef98eda2526524f2d113094
+ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87994056"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "90746589"
 ---
 # <a name="hyper-v-host-cpu-resource-management"></a>Управление ресурсами ЦП узла Hyper-V
 
@@ -19,7 +20,7 @@ ms.locfileid: "87994056"
 
 Дополнительные сведения об оборудовании для узлов Hyper-V см. в статье [требования к системе для Hyper-v в Windows 10](/virtualization/hyper-v-on-windows/reference/hyper-v-requirements).
 
-## <a name="background"></a>Историческая справка
+## <a name="background"></a>Фон
 
 Перед настройкой элементов управления для ресурсов ЦП узла Hyper-V полезно ознакомиться с основами архитектуры Hyper-V.
 Общую сводку можно найти в разделе об [архитектуре Hyper-V](../../../administration/performance-tuning/role/hyper-v-server/architecture.md) .

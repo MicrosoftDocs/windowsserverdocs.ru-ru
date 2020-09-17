@@ -1,18 +1,17 @@
 ---
 title: Виртуальная сеть SAN должна быть связана с физическим адаптером шины узла.
 description: Интернет-версия текста для этого правила анализатор соответствия рекомендациям.
-manager: dongill
-ms.author: kathydav
+ms.author: benarm
+author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: 14bca69b-e779-4e90-b5c1-1b015625572f
-author: kbdazure
 ms.date: 8/16/2016
-ms.openlocfilehash: 344b3b60c0d4613b121ef7ed17447810e0d6293d
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: d49cbedb76320f3c1967bfd6cfd1e9590fd8925d
+ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87965591"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "90746379"
 ---
 # <a name="a-virtual-san-should-be-associated-with-a-physical-host-bus-adapter"></a>Виртуальная сеть SAN должна быть связана с физическим адаптером шины узла.
 
@@ -20,7 +19,7 @@ ms.locfileid: "87965591"
 
 Дополнительные сведения о рекомендациях и сканировании см. в разделе [Запуск сканирования анализатором соответствия рекомендациям и управление результатами сканирования](https://go.microsoft.com/fwlink/p/?LinkID=223177).
 
-|Свойство|Сведения|
+|Свойство.|Подробнее|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|
@@ -40,7 +39,7 @@ ms.locfileid: "87965591"
 \<list of virtual SANs>
 
 
-## <a name="resolution"></a>**Способы устранения:**
+## <a name="resolution"></a>**Решение**
 *Перенастройте виртуальную сеть SAN, подключив ее к адаптеру шины узла.*
 
 
