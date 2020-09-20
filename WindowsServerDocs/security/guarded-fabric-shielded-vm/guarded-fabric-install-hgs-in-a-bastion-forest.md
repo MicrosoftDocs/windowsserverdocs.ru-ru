@@ -5,12 +5,12 @@ manager: dongill
 author: rpsqrd
 ms.author: ryanpu
 ms.date: 08/29/2018
-ms.openlocfilehash: 4e4bdf9c33d4511c470da50462469fadbd0641ce
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 358fae9a9ee477537d3ee929ff81920175d58298
+ms.sourcegitcommit: 5344adcf9c0462561a4f9d47d80afc1d095a5b13
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87996235"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90766417"
 ---
 # <a name="install-hgs-in-an-existing-bastion-forest"></a>Установка HGS в существующем лесу бастиона
 
@@ -76,7 +76,7 @@ New-ADServiceAccount -Name 'HGSgMSA' -DnsHostName 'HGSgMSA.yourdomain.com' -Prin
 
 ## <a name="jea-security-groups"></a>Группы безопасности JEA
 
-При настройке HGS конечная точка PowerShell [достаточно простого администрирования (JEA)](https://aka.ms/JEAdocs) разрешает администраторам управлять HGS без необходимости полных прав локального администратора.
+При настройке HGS конечная точка PowerShell [достаточно простого администрирования (JEA)](/powershell/scripting/learn/remoting/jea/overview) разрешает администраторам управлять HGS без необходимости полных прав локального администратора.
 Для управления HGS не требуется использовать JEA, но ее необходимо настроить при запуске команды Initialize-HgsServer.
 Конфигурация конечной точки JEA состоит из двух групп безопасности, которые содержат администраторов HGS и проверяющих HGS.
 Пользователи, входящие в группу администраторов, могут добавлять, изменять и удалять политики в HGS. Рецензенты могут только просматривать текущую конфигурацию.

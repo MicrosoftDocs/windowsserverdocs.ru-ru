@@ -6,12 +6,12 @@ author: nwashburn-ms
 ms.author: niwashbu
 ms.localizationpriority: medium
 ms.date: 09/18/2018
-ms.openlocfilehash: 09d39aa027adf360c339da434b16038a3b8e5c90
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: fe519498e8021bde67b87ec7f78b3e1b9a64160b
+ms.sourcegitcommit: 5344adcf9c0462561a4f9d47d80afc1d095a5b13
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87964600"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90766947"
 ---
 # <a name="prepare-your-development-environment"></a>Подготовка среды разработки
 
@@ -28,7 +28,7 @@ ms.locfileid: "87964600"
 
 Чтобы приступить к разработке с помощью пакета SDK, скачайте и установите следующие компоненты:
 
-* [Центр администрирования Windows](https://aka.ms/WACDownloadPage) (общедоступная или предварительная версия)
+* [Центр администрирования Windows](../overview.md) (общедоступная или предварительная версия)
 * Visual Studio или [Visual Studio Code](https://code.visualstudio.com)
 * [Node.js](https://nodejs.org/en/download/releases/) (версия 10.3.0)
 * [Диспетчер пакетов node](https://npmjs.com/get-npm) (8.12.0 или более поздней версии)
@@ -71,4 +71,3 @@ npm install -g windows-admin-center-cli
 ## <a name="sdk-design-toolkit"></a>Набор средств разработки SDK
 
 Ознакомьтесь с нашим [набором средств разработки пакета SDK](https://github.com/Microsoft/windows-admin-center-sdk/blob/master/WindowsAdminCenterDesignToolkit.zip)для Windows Admin Center! Этот набор средств предназначен для быстрого макетирования расширений в PowerPoint с помощью стилей, элементов управления и шаблонов страниц центра администрирования Windows. Прежде чем приступить к написанию кода, посмотрите, как ваше расширение будет выглядеть в центре администрирования Windows!
-

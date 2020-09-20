@@ -6,12 +6,12 @@ author: fauhse
 ms.author: fauhse
 ms.date: 04/12/2019
 ms.localizationpriority: medium
-ms.openlocfilehash: ce3f314eb4372ecc7448a53a3aeda35b5c6288a8
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 56937ad0351a1421ab64b93351d7fa5f6d9f4fe8
+ms.sourcegitcommit: 5344adcf9c0462561a4f9d47d80afc1d095a5b13
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87969681"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90766687"
 ---
 # <a name="sync-your-file-server-with-the-cloud-by-using-azure-file-sync"></a>Синхронизация файлового сервера с облаком с помощью Синхронизации файлов Azure
 
@@ -21,4 +21,4 @@ ms.locfileid: "87969681"
 
 После синхронизации файлов в облаке можно подключить несколько серверов к одной общей папке Azure для синхронизации и кэширования содержимого локально — разрешения (ACL) всегда передаются в транспорт. Служба файлов Azure предоставляет возможность создания моментальных снимков, которые могут создавать разностные моментальные снимки файлового ресурса Azure. Эти моментальные снимки можно даже подключить как сетевые диски только для чтения через SMB для простоты просмотра и восстановления. В сочетании с распределением по уровням облака выполнение локального файлового сервера никогда не было проще.
 
-Дополнительные сведения см. в разделе [Планирование развертывания Синхронизация файлов Azure](https://aka.ms/afs).
+Дополнительные сведения см. в разделе [Планирование развертывания Синхронизация файлов Azure](/azure/storage/files/storage-sync-files-planning).

@@ -6,12 +6,12 @@ ms.topic: article
 ms.assetid: a255a4a5-c1a0-4edc-b41a-211bae397e3c
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: bc1e63ff865a7eb6d4d83c75d6c2680dcf8ddb49
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: e8b19df2313bd0f3f6599aae8a23a18233f469e7
+ms.sourcegitcommit: 5344adcf9c0462561a4f9d47d80afc1d095a5b13
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87996864"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90766927"
 ---
 # <a name="use-dns-policy-for-split-brain-dns-deployment"></a>Использование политики DNS для разделения раздельного \- развертывания DNS
 
@@ -86,7 +86,7 @@ ms.locfileid: "87996864"
 
 `Add-DnsServerZoneScope -ZoneName "contoso.com" -Name "internal"`
 
-Дополнительные сведения см. в разделе [Add-днссерверзонескопе](https://docs.microsoft.com/powershell/module/dnsserver/add-dnsserverzonescope?view=win10-ps) .
+Дополнительные сведения см. в разделе [Add-днссерверзонескопе](/powershell/module/dnsserver/add-dnsserverzonescope?view=win10-ps) .
 
 ### <a name="add-records-to-the-zone-scopes"></a><a name="bkmk_records"></a>Добавление записей в области зоны
 
@@ -103,14 +103,14 @@ Add-DnsServerResourceRecord -ZoneName "contoso.com" -A -Name "www.career" -IPv4A
 Add-DnsServerResourceRecord -ZoneName "contoso.com" -A -Name "www.career" -IPv4Address "10.0.0.39” -ZoneScope "internal"
 `
 
-Дополнительные сведения см. в разделе [Add-днссерверресаурцерекорд](https://docs.microsoft.com/powershell/module/dnsserver/add-dnsserverresourcerecord?view=win10-ps).
+Дополнительные сведения см. в разделе [Add-днссерверресаурцерекорд](/powershell/module/dnsserver/add-dnsserverresourcerecord?view=win10-ps).
 
 ### <a name="create-the-dns-policies"></a><a name="bkmk_policies"></a>Создание политик DNS
 
 После определения интерфейсов сервера для внешней сети и внутренней сети, а также для создания областей зоны необходимо создать политики DNS, которые соединяют внутренние и внешние области зоны.
 
 >[!NOTE]
->В этом примере серверный интерфейс используется в качестве критерия для различения внутренних и внешних клиентов. Другим способом различения внешних и внутренних клиентов является использование подсетей клиента в качестве критерия. Если вы можете определить подсети, к которым принадлежат внутренние клиенты, можно настроить политику DNS, чтобы отличать их от подсети клиента. Сведения о настройке управления трафиком с помощью критериев подсети клиента см. в статье [Использование политики DNS для управления трафиком на основе географического расположения с основными серверами](https://technet.microsoft.com/windows-server-docs/networking/dns/deploy/scenario--use-dns-policy-for-geo-location-based-traffic-management-with-primary-servers).
+>В этом примере серверный интерфейс используется в качестве критерия для различения внутренних и внешних клиентов. Другим способом различения внешних и внутренних клиентов является использование подсетей клиента в качестве критерия. Если вы можете определить подсети, к которым принадлежат внутренние клиенты, можно настроить политику DNS, чтобы отличать их от подсети клиента. Сведения о настройке управления трафиком с помощью критериев подсети клиента см. в статье [Использование политики DNS для управления трафиком на основе географического расположения с основными серверами](./primary-geo-location.md).
 
 Когда DNS-сервер получает запрос к частному интерфейсу, ответ на запрос DNS возвращается из внутренней области зоны.
 

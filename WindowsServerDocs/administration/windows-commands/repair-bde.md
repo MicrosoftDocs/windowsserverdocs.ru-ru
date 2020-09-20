@@ -7,19 +7,19 @@ ms.author: lizross
 author: eross-msft
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: e7ebf0f2923e565e16e546a7804ee42771eec83d
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 4caa619c248a30c48cdfc291f2fde25ba51d85f7
+ms.sourcegitcommit: 5344adcf9c0462561a4f9d47d80afc1d095a5b13
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89640640"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90766287"
 ---
 # <a name="repair-bde"></a>repair-bde
 
 Пытается воссоздать критически важные части сильно поврежденного диска и восстановить восстанавливаемые данные, если диск был зашифрован с помощью BitLocker, и если для расшифровки задан допустимый пароль восстановления или ключ восстановления.
 
 > [!IMPORTANT]
-> Если данные метаданных BitLocker на диске повреждены, необходимо предоставить резервный пакет ключа в дополнение к паролю восстановления или ключу восстановления. Если вы использовали параметр резервного копирования ключа по умолчанию для служб домен Active Directory Services, будет создана резервная копия пакета ключей. Для получения пакета ключей из AD DS можно использовать [BitLocker: средство просмотра паролей восстановления BitLocker](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-use-bitlocker-recovery-password-viewer) .
+> Если данные метаданных BitLocker на диске повреждены, необходимо предоставить резервный пакет ключа в дополнение к паролю восстановления или ключу восстановления. Если вы использовали параметр резервного копирования ключа по умолчанию для служб домен Active Directory Services, будет создана резервная копия пакета ключей. Для получения пакета ключей из AD DS можно использовать [BitLocker: средство просмотра паролей восстановления BitLocker](/windows/security/information-protection/bitlocker/bitlocker-use-bitlocker-recovery-password-viewer) .
 >
 > Используя пакет ключей и пароль восстановления или ключ восстановления, можно расшифровать части диска, защищенного BitLocker, даже если диск поврежден. Каждый пакет ключей работает только для диска с соответствующим идентификатором диска.
 

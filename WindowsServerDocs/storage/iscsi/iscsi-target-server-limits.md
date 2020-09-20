@@ -6,12 +6,12 @@ author: JasonGerend
 manager: dougkim
 ms.author: jgerend
 ms.date: 09/11/2018
-ms.openlocfilehash: 3867df04c83fe536473c227e43700a4758c1294e
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 3be878629d19542629cc3cbb849ac46fe14de0bd
+ms.sourcegitcommit: 5344adcf9c0462561a4f9d47d80afc1d095a5b13
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87935861"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90766837"
 ---
 # <a name="iscsi-target-server-scalability-limits"></a>Ограничения масштабируемости для сервера цели iSCSI
 
@@ -30,7 +30,7 @@ ms.locfileid: "87935861"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Элемент</p></th>
+<th><p>Item</p></th>
 <th><p>Ограничение поддержки</p></th>
 <th><p>Применяются?</p></th>
 <th><p>Комментировать</p></th>
@@ -52,26 +52,26 @@ ms.locfileid: "87935861"
 <tr class="odd">
 <td><p>iSCSI них или виртуальные диски на экземпляре цели iSCSI</p></td>
 <td><p>256 (128 на Windows Server 2012)</p></td>
-<td><p>да</p></td>
+<td><p>Да</p></td>
 <td></td>
 </tr>
 <tr class="even">
 <td><p>Сеансы, которые могут одновременно подключаться к экземпляру цели iSCSI</p></td>
 <td><p>544 (512 на Windows Server 2012)</p></td>
-<td><p>да</p></td>
+<td><p>Да</p></td>
 <td></td>
 </tr>
 <tr class="odd">
 <td><p>Моментальные снимки на LU</p></td>
 <td><p>512</p></td>
-<td><p>да</p></td>
+<td><p>Да</p></td>
 <td><p>Существует ограничение в 512 моментальных снимков на независимый том приложений iSCSI.</p></td>
 </tr>
 <tr class="even">
 <td><p>Локально подключенные виртуальные диски или моментальные снимки на устройство хранения</p></td>
 <td><p>32</p></td>
 <td><p>Да</p></td>
-<td><p>Локально подключенные виртуальные диски не&#39;t предлагают какие-либо функции, относящиеся к iSCSI, и являются устаревшими. Дополнительные сведения см. <a href="https://technet.microsoft.com/library/dn303411.aspx">в разделе функции, удаленные или устаревшие в Windows Server 2012 R2</a>.</p></td>
+<td><p>Локально подключенные виртуальные диски не&#39;t предлагают какие-либо функции, относящиеся к iSCSI, и являются устаревшими. Дополнительные сведения см. <a href="/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn303411(v=ws.11)">в разделе функции, удаленные или устаревшие в Windows Server 2012 R2</a>.</p></td>
 </tr>
 </tbody>
 </table>
@@ -87,7 +87,7 @@ ms.locfileid: "87935861"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Элемент</p></th>
+<th><p>Item</p></th>
 <th><p>Ограничение поддержки</p></th>
 <th><p>Применяются?</p></th>
 <th><p>Комментировать</p></th>
@@ -104,7 +104,7 @@ ms.locfileid: "87935861"
 <td><p>Несколько активных узлов кластера</p></td>
 <td><p>Поддерживается</p></td>
 <td>
-<p>Н/Д</p></td>
+<p>Недоступно</p></td>
 <td><p>Каждый активный узел в отказоустойчивом кластере владеет другим кластеризованным экземпляром сервера цели iSCSI с другими узлами, работающими как возможные узлы-владельцы.</p></td>
 </tr>
 <tr class="odd">
@@ -128,7 +128,7 @@ ms.locfileid: "87935861"
 <tr class="even">
 <td><p>Многопутевой ввод-вывод (MPIO)</p></td>
 <td><p>Поддерживается</p></td>
-<td><p>Н/Д</p></td>
+<td><p>Недоступно</p></td>
 <td></td>
 </tr>
 <tr class="odd">
@@ -157,7 +157,7 @@ ms.locfileid: "87935861"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Элемент</p></th>
+<th><p>Item</p></th>
 <th><p>Ограничение поддержки</p></th>
 <th><p>Применяются?</p></th>
 <th><p>Комментировать</p></th>
@@ -185,43 +185,43 @@ ms.locfileid: "87935861"
 <tr class="even">
 <td><p>IPv4</p></td>
 <td><p>Поддерживается</p></td>
-<td><p>Н/Д</p></td>
+<td><p>Недоступно</p></td>
 <td></td>
 </tr>
 <tr class="odd">
 <td><p>IPv6</p></td>
 <td><p>Поддерживается</p></td>
-<td><p>Н/Д</p></td>
+<td><p>Недоступно</p></td>
 <td></td>
 </tr>
 <tr class="even">
 <td><p>Разгрузка TCP</p></td>
 <td><p>Поддерживается</p></td>
-<td><p>Н/Д</p></td>
+<td><p>Недоступно</p></td>
 <td><p>Использование большой отправки (сегментации), контрольной суммы, контроля прерываний и разгрузки RSS</p></td>
 </tr>
 <tr class="odd">
 <td><p>разгрузка iSCSI</p></td>
 <td><p>Не поддерживается</p></td>
-<td><br/><p>Н/Д</p></td>
+<td><br/><p>Недоступно</p></td>
 <td></td>
 </tr>
 <tr class="even">
 <td><p>Кадры крупного размера</p></td>
 <td><p>Поддерживается</p></td>
-<td><p>Н/Д</p></td>
+<td><p>Недоступно</p></td>
 <td></td>
 </tr>
 <tr class="odd">
 <td><p>IPsec;</p></td>
 <td><p>Поддерживается</p></td>
-<td><p>Н/Д</p></td>
+<td><p>Недоступно</p></td>
 <td></td>
 </tr>
 <tr class="even">
 <td><p>Разгрузка CRC</p></td>
 <td><p>Поддерживается</p></td>
-<td><p>Н/Д</p></td>
+<td><p>Недоступно</p></td>
 <td></td>
 </tr>
 </tbody>
@@ -238,7 +238,7 @@ ms.locfileid: "87935861"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Элемент</p></th>
+<th><p>Item</p></th>
 <th><p>Ограничение поддержки</p></th>
 <th><p>Применяются?</p></th>
 <th><p>Комментировать</p></th>
@@ -247,7 +247,7 @@ ms.locfileid: "87935861"
 <tbody>
 <tr class="odd">
 <td><p>От инициатора iSCSI, который преобразует виртуальный диск из базового диска в динамический </p></td>
-<td><p>да</p></td>
+<td><p>Да</p></td>
 <td><p>Нет</p></td>
 <td></td>
 </tr>
@@ -262,28 +262,28 @@ ms.locfileid: "87935861"
 <td><p>Минимальный размер формата виртуального жесткого диска</p></td>
 <td><p>VHDX: 3 МБ</p>
 <p>. VHD: 8 МБ</p></td>
-<td><p>да</p></td>
+<td><p>Да</p></td>
 <td><p>Применяется ко всем поддерживаемым типам виртуальных жестких дисков: родительский, разностный и фиксированный.</p></td>
 </tr>
 <tr class="even">
 <td><p>Максимальный размер родительского VHD</p></td>
 <td><p>VHDX: 64 ТБ</p>
 <p>. VHD: 2 ТБ</p></td>
-<td><p>да</p></td>
+<td><p>Да</p></td>
 <td></td>
 </tr>
 <tr class="odd">
 <td><p>Фиксированный максимальный размер VHD</p></td>
 <td><p>VHDX: 64 ТБ</p>
 <p>. VHD: 16 ТБ</p></td>
-<td><p>да</p></td>
+<td><p>Да</p></td>
 <td></td>
 </tr>
 <tr class="even">
 <td><p>Максимальный размер разностного виртуального жесткого диска</p></td>
 <td><p>VHDX: 64 ТБ</p>
 <p>. VHD: 2 ТБ</p></td>
-<td><p>да</p></td>
+<td><p>Да</p></td>
 <td></td>
 </tr>
 <tr class="odd">
@@ -308,7 +308,7 @@ ms.locfileid: "87935861"
 <td><p>Динамический формат VHD</p></td>
 <td><p>VHDX: Да</p>
 <p>. VHD: Да (нет в Windows Server 2012)</p></td>
-<td><p>да</p></td>
+<td><p>Да</p></td>
 <td><p>Несопоставление не поддерживается&#39;t.</p></td>
 </tr>
 <tr class="odd">
@@ -326,13 +326,13 @@ ms.locfileid: "87935861"
 <tr class="odd">
 <td><p>ReFS</p></td>
 <td><p>Поддерживается</p></td>
-<td><p>Н/Д</p></td>
+<td><p>Недоступно</p></td>
 <td></td>
 </tr>
 <tr class="even">
 <td><p>NTFS</p></td>
 <td><p>Поддерживается</p></td>
-<td><p>Н/Д</p></td>
+<td><p>Недоступно</p></td>
 <td></td>
 </tr>
 <tr class="odd">
@@ -350,13 +350,13 @@ ms.locfileid: "87935861"
 <tr class="odd">
 <td><p>Сжатие логического устройства</p></td>
 <td><p>Да (только для Windows Server 2012 R2 и более поздних версий)</p></td>
-<td><p>Н/Д</p></td>
-<td><p>Чтобы сжать LUN, используйте <a href="https://docs.microsoft.com/powershell/module/iscsitarget/resize-iscsivirtualdisk">resize-исксивиртуалдиск</a> .</p></td>
+<td><p>Недоступно</p></td>
+<td><p>Чтобы сжать LUN, используйте <a href="/powershell/module/iscsitarget/resize-iscsivirtualdisk">resize-исксивиртуалдиск</a> .</p></td>
 </tr>
 <tr class="even">
 <td><p>Клонирование логических устройств</p></td>
 <td><p>Не поддерживается</p></td>
-<td><p>Н/Д</p></td>
+<td><p>Недоступно</p></td>
 <td><p>Вы можете быстро клонировать данные диска с помощью разностных виртуальных жестких дисков.</p></td>
 </tr>
 </tbody>
@@ -372,7 +372,7 @@ ms.locfileid: "87935861"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Элемент</p></th>
+<th><p>Item</p></th>
 <th><p>Ограничение поддержки</p></th>
 <th><p>Комментировать</p></th>
 </tr>
@@ -421,7 +421,7 @@ ms.locfileid: "87935861"
 <tr class="odd">
 <td><p>Локальное подключение</p></td>
 <td><p>Поддерживается</p></td>
-<td><p>Локально подключенные виртуальные диски iSCSI являются устаревшими. Дополнительные сведения см. <a href="https://technet.microsoft.com/library/dn303411.aspx">в разделе функции, удаленные или устаревшие в Windows Server 2012 R2</a>. Динамические моментальные снимки диска не могут быть подключены локально.</p></td>
+<td><p>Локально подключенные виртуальные диски iSCSI являются устаревшими. Дополнительные сведения см. <a href="/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn303411(v=ws.11)">в разделе функции, удаленные или устаревшие в Windows Server 2012 R2</a>. Динамические моментальные снимки диска не могут быть подключены локально.</p></td>
 </tr>
 </tbody>
 </table>
@@ -459,11 +459,11 @@ ms.locfileid: "87935861"
 <tr class="odd">
 <td><p>Инициатор</p></td>
 <td><p>Windows Server 2012 R2</p></td>
-<td><p>Windows Server 2012</p></td>
+<td><p>Windows Server 2012</p></td>
 <td><p>Комментарии</p></td>
 </tr>
 <tr class="even">
-<td><p>Windows Server 2012 R2</p></td>
+<td><p>Windows Server 2012 R2</p></td>
 <td><p>Проверено</p></td>
 <td></td>
 <td></td>
@@ -529,7 +529,7 @@ ms.locfileid: "87935861"
 
   - Windows Server 2012 R2
 
-  - Windows Server 2012
+  - Windows Server 2012
 
   - Сетевой адаптер PCIe с Ипксе
 

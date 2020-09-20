@@ -7,12 +7,12 @@ ms.author: v-tea
 author: Teresa-MOTIV
 ms.localizationpriority: medium
 ms.reviewer: deverette
-ms.openlocfilehash: 29ecf10ba0591f25cc4b24a11bb614e53cdcca22
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: c5619baa5123d0cd611cb9371cd3944fdd91fb3c
+ms.sourcegitcommit: 877d6db73d9520e3a23738d6528016235493cff3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87946607"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90779268"
 ---
 # <a name="step-75-create-oma-dm-based-vpnv2-profiles-to-windows-10-devices"></a>Шаг 7.5. Создание профилей поддержка vpnv2 на основе OMA-DM на устройствах Windows 10
 
@@ -49,13 +49,13 @@ ms.locfileid: "87946607"
     <TLSExtensions xmlns="http://www.microsoft.com/provisioning/EapTlsConnectionPropertiesV2"><FilteringInfo xmlns="http://www.microsoft.com/provisioning/EapTlsConnectionPropertiesV3"><EKUMapping><EKUMap><EKUName>AAD Conditional Access</EKUName><EKUOID>1.3.6.1.4.1.311.87</EKUOID></EKUMap></EKUMapping><ClientAuthEKUList Enabled="true"><EKUMapInList><EKUName>AAD Conditional Access</EKUName></EKUMapInList></ClientAuthEKUList></FilteringInfo></TLSExtensions>
     ```
 
-4. Выберите колонку **Условный доступ** и тугле **Условный доступ для этого VPN-подключения** , чтобы **включить**его.
+4. Выберите колонку **Условный доступ** и переключите **Условный доступ для этого VPN-подключения** , чтобы **включить**его.
 
    При включении этого параметра в XML-файле профиля поддержка vpnv2 изменяется ** \<DeviceCompliance> \<Enabled> значение true \</Enabled> ** .
 
     ![Условный доступ для Always On VPN — свойства](../../media/Always-On-Vpn/vpn-conditional-access-azure-ad.png)
 
-5. Нажмите кнопку **OK**.
+5. Выберите **ОК**.
 
 6. Выберите **назначения**, в разделе включить, выберите **выберите группы для включения**.
 

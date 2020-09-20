@@ -6,19 +6,19 @@ author: jwwool
 ms.author: jeffrew
 ms.localizationpriority: medium
 ms.date: 06/07/2019
-ms.openlocfilehash: 76b171b81ff01a7a16b700d720bf289fefddf0f7
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 1775149495871353ef250eff3cb8f6f8cc5c22d6
+ms.sourcegitcommit: 5344adcf9c0462561a4f9d47d80afc1d095a5b13
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87990211"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90766207"
 ---
 # <a name="troubleshooting-windows-admin-center"></a>Устранение неполадок в Windows Admin Center
 
 > Применяется к: Windows Admin Center, ознакомительная версия Windows Admin Center
 
 > [!Important]
-> Это руководство поможет вам в диагностике и разрешении проблем, которые не позволяют использовать Windows Admin Center. Если у вас возникает проблема с определенным средством, проверьте, возможно, эта проблема [уже известна.](https://aka.ms/wacknownissues)
+> Это руководство поможет вам в диагностике и разрешении проблем, которые не позволяют использовать Windows Admin Center. Если у вас возникает проблема с определенным средством, проверьте, возможно, эта проблема [уже известна.](./known-issues.md)
 
 ## <a name="installer-fails-with-message-_the-module-microsoftpowershelllocalaccounts-could-not-be-loaded_"></a>Программа установки завершает работу с сообщением: ** _не удалось загрузить модуль Microsoft. PowerShell. LocalAccounts._**
 
@@ -32,7 +32,7 @@ ms.locfileid: "87990211"
 
 ### <a name="if-youve-installed-windows-admin-center-as-an-app-on-windows-10"></a>Если вы установили Windows Admin Center в качестве **приложения в Windows 10**
 
-* Убедитесь, что Windows Admin Center запущен. Найдите элемент центр администрирования Windows значок центра администрирования Windows ![ ](../media/trayIcon.PNG) в области уведомлений или **Desktop/SmeDesktop.exeцентра администрирования Windows** в диспетчере задач. Если ни того, ни другого нет, запустите **Windows Admin Center** из меню "Пуск".
+* Убедитесь, что Windows Admin Center запущен. Найдите элемент центр администрирования Windows значок центра администрирования Windows ![ ](../media/trayIcon.PNG) в области уведомлений или **Desktop/SmeDesktop.exeцентра администрирования Windows ** в диспетчере задач. Если ни того, ни другого нет, запустите **Windows Admin Center** из меню "Пуск".
 
 > [!NOTE]
 > После перезагрузки необходимо запустить Windows Admin Center из меню "Пуск".
@@ -194,7 +194,7 @@ netsh http delete urlacl url=https://+:443/
 
 На границе есть [Известные проблемы](https://github.com/AzureAD/azure-activedirectory-library-for-js/wiki/Known-issues-on-Edge) , связанные с зонами безопасности, которые влияют на вход Azure в центре администрирования Windows. Если у вас возникли проблемы с использованием функций Azure при использовании ребра, попробуйте добавить https://login.microsoftonline.com https://login.live.com и URL-адрес шлюза в качестве доверенных сайтов и дочерние сайты для параметров блокирования всплывающих окон в браузере на стороне клиента.
 
-Выполните указанные ниже действия.
+Для этого выполните следующие действия.
 1. Поиск **свойств Интернета** в меню "Пуск" Windows
 2. Перейдите на вкладку **Безопасность** .
 3. В разделе **Доверенные сайты** нажмите кнопку **Сайты** и в открытом диалоговом окне добавьте нужные URL-адреса. Вам потребуется добавить URL-адрес шлюза, а также https://login.microsoftonline.com и https://login.live.com .

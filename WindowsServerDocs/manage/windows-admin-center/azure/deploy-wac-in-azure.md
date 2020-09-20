@@ -6,12 +6,12 @@ author: jwwool
 ms.author: jeffrew
 ms.date: 04/12/2019
 ms.localizationpriority: medium
-ms.openlocfilehash: 381073ad383913684b1b861883b981a19583767f
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 4fd03195feb275bd56c6958f8436c607829c8392
+ms.sourcegitcommit: 5344adcf9c0462561a4f9d47d80afc1d095a5b13
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87997526"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90766667"
 ---
 # <a name="deploy-windows-admin-center-in-azure"></a>Развертывание Windows Admin Center в Azure
 
@@ -21,10 +21,10 @@ ms.locfileid: "87997526"
 
 [Переход к шагам по развертыванию вручную](#deploy-manually-on-an-existing-azure-virtual-machine)
 
-### <a name="prerequisites"></a>Предварительные требования
+### <a name="prerequisites"></a>Предварительные условия
 
 * Настройте учетную запись в [Azure Cloud Shell](https://shell.azure.com). Если вы впервые используете Cloud Shell, вам будет предложено связать или создать учетную запись хранения Azure с Cloud Shell.
-* В Cloud Shell **PowerShell** перейдите к домашнему каталогу:```PS Azure:\> cd ~```
+* В Cloud Shell **PowerShell** перейдите к домашнему каталогу: ```PS Azure:\> cd ~```
 * Чтобы передать ```Deploy-WACAzVM.ps1``` файл, перетащите его с локального компьютера в любое место в окне Cloud Shell.
 
 При указании собственного сертификата:
@@ -145,7 +145,7 @@ Set-AzNetworkSecurityGroup -NetworkSecurityGroup $newNSG
 ### <a name="requirements-for-managed-azure-vms"></a>Требования к управляемой виртуальной машине Azure
 
 Порт 5985 (WinRM через HTTP) должен быть открыт и иметь активный прослушиватель.
-Вы можете использовать приведенный ниже код в Azure Cloud Shell для обновления управляемых узлов. ```$ResourceGroupName```и ```$Name``` используют те же переменные, что и скрипт развертывания, но необходимо использовать ```$Credential``` конкретные для УПРАВЛЯЕМОЙ виртуальной машины.
+Вы можете использовать приведенный ниже код в Azure Cloud Shell для обновления управляемых узлов. ```$ResourceGroupName``` и ```$Name``` используют те же переменные, что и скрипт развертывания, но необходимо использовать ```$Credential``` конкретные для УПРАВЛЯЕМОЙ виртуальной машины.
 
 ```powershell
 Enable-AzVMPSRemoting -ResourceGroupName $ResourceGroupName -Name $Name
@@ -160,7 +160,7 @@ Invoke-AzVMCommand -ResourceGroupName $ResourceGroupName -Name $Name -ScriptBloc
 > [!NOTE]
 > Эти инструкции предназначены для установки в Windows Server с возможностями рабочего стола, а не для установки Server Core.
 
-1. [Скачайте центр администрирования Windows](https://aka.ms/windowsadmincenter) на локальный компьютер.
+1. [Скачайте центр администрирования Windows](../overview.md) на локальный компьютер.
 
 2. Установите подключение к виртуальной машине по удаленному рабочему столу, а затем скопируйте MSI с локального компьютера и вставьте его в ВИРТУАЛЬную машину.
 
@@ -192,6 +192,6 @@ Invoke-AzVMCommand -ResourceGroupName $ResourceGroupName -Name $Name -ScriptBloc
 
 При попытке доступа к центру администрирования Windows браузер запрашивает учетные данные для доступа к виртуальной машине, на которой установлен центр администрирования Windows. Здесь необходимо ввести учетные данные, которые входят в локальную группу "Пользователи" или "Локальные администраторы" виртуальной машины.
 
-Чтобы добавить другие виртуальные машины в виртуальной сети, убедитесь, что служба удаленного управления Windows выполняется на целевых виртуальных машинах, выполнив следующую команду в PowerShell или в командной строке на целевой виртуальной машине:`winrm quickconfig`
+Чтобы добавить другие виртуальные машины в виртуальной сети, убедитесь, что служба удаленного управления Windows выполняется на целевых виртуальных машинах, выполнив следующую команду в PowerShell или в командной строке на целевой виртуальной машине: `winrm quickconfig`
 
 Если вы еще не присоединились к доменной виртуальной машине Azure, виртуальная машина ведет себя как сервер в Рабочей группе, поэтому необходимо убедиться, что учетная запись [используется в качестве центра администрирования Windows в Рабочей группе](../support/troubleshooting.md#using-windows-admin-center-in-a-workgroup).

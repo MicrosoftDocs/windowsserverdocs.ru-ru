@@ -6,12 +6,12 @@ author: nwashburn-ms
 ms.author: niwashbu
 ms.date: 09/18/2018
 ms.localizationpriority: medium
-ms.openlocfilehash: 96e17326bc289b4ad018da59b01344956586a198
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 3d6b08e69d69a37b31b616994b3bdb67666cb2bb
+ms.sourcegitcommit: 5344adcf9c0462561a4f9d47d80afc1d095a5b13
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87964560"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90766937"
 ---
 # <a name="target-a-different-version-of-the-windows-admin-center-sdk"></a>Нацеливание на другую версию пакета SDK для Windows Admin Center
 
@@ -21,12 +21,12 @@ ms.locfileid: "87964560"
 
 Вы можете выбрать три версии пакета SDK:
 
-* ```latest```— Этот пакет SDK соответствует текущему общедоступному выпуску центра администрирования Windows
-* ```insider```— Этот пакет SDK соответствует текущему предварительному выпуску центра администрирования Windows (доступен в предварительной версии Windows Server Insider Preview).
-* ```next```— Этот пакет SDK содержит самые последние функции
+* ```latest``` — Этот пакет SDK соответствует текущему общедоступному выпуску центра администрирования Windows
+* ```insider``` — Этот пакет SDK соответствует текущему предварительному выпуску центра администрирования Windows (доступен в предварительной версии Windows Server Insider Preview).
+* ```next``` — Этот пакет SDK содержит самые последние функции
 
 > [!NOTE]
-> Узнайте больше о различных [версиях](https://aka.ms/WACDownloadPage) центра администрирования Windows, доступных для загрузки.
+> Узнайте больше о различных [версиях](../overview.md) центра администрирования Windows, доступных для загрузки.
 
 ## <a name="targeting-sdk-version-on-a-new-project"></a>Целевая версия пакета SDK для нового проекта
 

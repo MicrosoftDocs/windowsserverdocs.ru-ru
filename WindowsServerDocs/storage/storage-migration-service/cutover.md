@@ -6,18 +6,18 @@ ms.author: t-chrche
 manager: nedpyle
 ms.date: 08/31/2020
 ms.topic: article
-ms.openlocfilehash: 985fd14b7791d28246b8e9186ca83216df734875
-ms.sourcegitcommit: a640c2d7f2d21d7cd10a9be4496e1574e5e955f0
+ms.openlocfilehash: 1e886c505435976b6495e0460705821086781a62
+ms.sourcegitcommit: 5344adcf9c0462561a4f9d47d80afc1d095a5b13
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "89448938"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90766907"
 ---
 # <a name="how-cutover-works-in-storage-migration-service"></a>Как работает прямую миграцию в службе миграции хранилища
 
 Прямую миграцию — это этап миграции, который перемещает сетевую идентификацию исходного компьютера на конечный компьютер. После прямую миграцию исходный компьютер по-прежнему будет содержать те же файлы, что и ранее, но не будет доступен пользователям и приложениям.
 
-## <a name="summary"></a>Итоги
+## <a name="summary"></a>Сводка
 
 ![Снимок экрана конфигурации прямую миграцию ](media/cutover/cutover_configuration.png)
  __. 1. Конфигурация прямую миграцию для службы миграции хранилища__
@@ -66,7 +66,7 @@ ms.locfileid: "89448938"
 |  Ход выполнения | Описание                                                                                               |  Примечания |
 |:-----|:--------------------------------------------------------------------------------------------------------------------|:---|
 |  0 % | Прямую миграцию бездействует. |   |
-| 2 %  | Подключение к исходному компьютеру... |   Убедитесь, что выполнены [требования для исходного и конечного компьютеров](https://docs.microsoft.com/windows-server/storage/storage-migration-service/overview#security-requirements-the-storage-migration-service-proxy-service-and-firewall-ports) .|
+| 2 %  | Подключение к исходному компьютеру... |   Убедитесь, что выполнены [требования для исходного и конечного компьютеров](./overview.md#security-requirements-the-storage-migration-service-proxy-service-and-firewall-ports) .|
 | 5 %  | Подключение к конечному компьютеру... |   |
 | 6 %  | Установка разрешений безопасности для объекта компьютера в Active Directory... |   Реплицирует разрешения безопасности объекта Active Directory исходного компьютера на конечный компьютер.|
 | 8 %  | Убедитесь, что созданная временная учетная запись успешно удалена на исходном компьютере... |   Убедитесь, что можно создать временную учетную запись с тем же именем.|
@@ -95,7 +95,7 @@ ms.locfileid: "89448938"
 | 52% | Ожидание ответа исходного компьютера после первого перезапуска... |   |
 | 55% | Ожидание ответа исходного компьютера после второго перезапуска... |   |
 | 56% | Ожидание ответа исходного компьютера после 3-го перезапуска... |   |
-| 57% | Удаление альтернативных имен компьютеров в источнике... |   Гарантирует, что источник будет недоступен другим пользователям и приложениям. Дополнительные сведения см. в разделе [netdom ComputerName](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc835082(v=ws.11)). |
+| 57% | Удаление альтернативных имен компьютеров в источнике... |   Гарантирует, что источник будет недоступен другим пользователям и приложениям. Дополнительные сведения см. в разделе [netdom ComputerName](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc835082(v=ws.11)). |
 | 58 % | Удаление временной локальной учетной записи, созданной на исходном компьютере... |   |
 | 61 % | Сброс политики фильтрации токенов локальной учетной записи на исходном компьютере... |   Включает политику.|
 | 63% | Удаление конечного компьютера из домена... |   |
@@ -104,7 +104,7 @@ ms.locfileid: "89448938"
 | 72% | Сопоставление сетевых интерфейсов на конечном компьютере... |  Сопоставляет каждый сетевой адаптер и IP-адрес с исходного компьютера на конечный компьютер, заменяя сведения о сети назначения.   |
 | 75 % | Переименование конечного компьютера... |   |
 | 77 % | Добавление конечного компьютера в домен... |  Конечный компьютер принимает объект Active Directory старого исходного компьютера. Это может привести к сбою, если конечный пользователь не является членом группы "Администраторы домена" или не имеет прав администратора на исходном компьютере Active Directory объекта. Можно указать альтернативные конечные учетные данные на шаге "ввод учетных данных" перед запуском прямую миграцию.|
-| 80 % | Перезапуск конечного компьютера... (первый перезапуск) |   |
+| 80 % | Перезапуск конечного компьютера... (первый перезапуск) |   |
 | 83 % | Перезапуск конечного компьютера... (2-й перезапуск) |   |
 | 84% | Ожидание ответа конечного компьютера... |   |
 | 86% | Ожидание ответа конечного компьютера после первого перезапуска... |   |
@@ -113,26 +113,26 @@ ms.locfileid: "89448938"
 | 93 % | Удаление альтернативных имен компьютеров в месте назначения... |   Гарантирует, что имя назначения было заменено.|
 | 94 % | Удаление временной локальной учетной записи, созданной на конечном компьютере...|   |
 | 97% | Сброс политики фильтрации токенов локальной учетной записи на конечном компьютере... |   Включает политику.|
-| (100%) | Выполнено |   |
+| (100%) | Успешно |   |
 
-## <a name="faq"></a>Вопросы и ответы
+## <a name="faq"></a>ВОПРОСЫ И ОТВЕТЫ
 
 ### <a name="__is-domain-controller-migration-supported__"></a>__Поддерживается ли миграция контроллера домена?__
 
-В настоящее время нет, но на [странице часто задаваемых вопросов](https://docs.microsoft.com/windows-server/storage/storage-migration-service/faq#is-domain-controller-migration-supported) вы найдете обходной путь.
+В настоящее время нет, но на [странице часто задаваемых вопросов](./faq.md#is-domain-controller-migration-supported) вы найдете обходной путь.
 
 
 ## <a name="known-issues"></a>Известные проблемы
 >Убедитесь, что вы выполнили требования из [обзора службы миграции хранилища](overview.md) и установили Последнее обновление Windows на компьютере, на котором выполняется служба миграции хранилища.
 
-Дополнительные сведения о следующих проблемах см. на [странице известные проблемы](https://docs.microsoft.com/windows-server/storage/storage-migration-service/known-issues) .
-* [__Сбой проверки прямую миграцию службы миграции хранилища с ошибкой "отказано в доступе для политики фильтрации токенов на конечном компьютере"__](https://docs.microsoft.com/windows-server/storage/storage-migration-service/known-issues#storage-migration-service-cutover-validation-fails-with-error-access-is-denied-for-the-token-filter-policy-on-destination-computer)
+Дополнительные сведения о следующих проблемах см. на [странице известные проблемы](./known-issues.md) .
+* [__Сбой проверки прямую миграцию службы миграции хранилища с ошибкой "отказано в доступе для политики фильтрации токенов на конечном компьютере"__](./known-issues.md#storage-migration-service-cutover-validation-fails-with-error-access-is-denied-for-the-token-filter-policy-on-destination-computer)
 
-* [__Ошибка "сбой CLUSCTL_RESOURCE_NETNAME_REPAIR_VCO для ресурса netName" и кластера Windows Server 2008 R2, сбой прямую миграцию__](https://docs.microsoft.com/windows-server/storage/storage-migration-service/known-issues#error-clusctl_resource_netname_repair_vco-failed-against-netname-resource-and-windows-server-2008-r2-cluster-cutover-fails)
+* [__Ошибка "сбой CLUSCTL_RESOURCE_NETNAME_REPAIR_VCO для ресурса netName" и кластера Windows Server 2008 R2, сбой прямую миграцию__](./known-issues.md#error-clusctl_resource_netname_repair_vco-failed-against-netname-resource-and-windows-server-2008-r2-cluster-cutover-fails)
 
-* [__Прямую миграцию зависает на "38% сопоставлении сетевых интерфейсов на исходном компьютере..." При использовании статических IP-адресов__](https://docs.microsoft.com/windows-server/storage/storage-migration-service/known-issues#cutover-hangs-on-38-mapping-network-interfaces-on-the-source-computer-when-using-static-ips)
+* [__Прямую миграцию зависает на "38% сопоставлении сетевых интерфейсов на исходном компьютере..." При использовании статических IP-адресов__](./known-issues.md#cutover-hangs-on-38-mapping-network-interfaces-on-the-source-computer-when-using-static-ips)
 
-* [__Прямую миграцию зависает на "38% сопоставлении сетевых интерфейсов на исходном компьютере..."__](https://docs.microsoft.com/windows-server/storage/storage-migration-service/known-issues#cutover-hangs-on-38-mapping-network-interfaces-on-the-source-computer)
+* [__Прямую миграцию зависает на "38% сопоставлении сетевых интерфейсов на исходном компьютере..."__](./known-issues.md#cutover-hangs-on-38-mapping-network-interfaces-on-the-source-computer)
 
 ## <a name="additional-references"></a>Дополнительные ссылки
 

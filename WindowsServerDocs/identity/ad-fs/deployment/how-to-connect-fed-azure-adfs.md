@@ -7,12 +7,12 @@ ms.assetid: 692a188c-badc-44aa-ba86-71c0e8074510
 ms.topic: get-started-article
 ms.date: 10/28/2018
 ms.author: billmath
-ms.openlocfilehash: 3a53e8bb9e06e51627d14f6e5e3b918f58102478
-ms.sourcegitcommit: 7cacfc38982c6006bee4eb756bcda353c4d3dd75
+ms.openlocfilehash: a077a76814cc5ed99d4a1c0eb6c23584b22363e1
+ms.sourcegitcommit: 5344adcf9c0462561a4f9d47d80afc1d095a5b13
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "90078681"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90766757"
 ---
 # <a name="deploying-active-directory-federation-services-in-azure"></a>Развертывание служб федерации Active Directory в Azure
 В службах федерации Active Directory (AD FS) представлены возможности упрощенной безопасной федерации удостоверений и единого входа. Федерация с Azure AD или O365 дает пользователям возможность выполнять проверку подлинности с использованием локальных учетных данных и получать доступ ко всем ресурсам в облаке. В связи с этим требуется высокодоступная инфраструктура AD FS, обеспечивающая доступ к ресурсам как в локальной, так и в облачной средах. С помощью развертывания AD FS в Azure можно достичь необходимого уровня доступности с минимальными усилиями.
@@ -89,7 +89,7 @@ ms.locfileid: "90078681"
 * ExpressRoute
 
 Рекомендуется использовать ExpressRoute. ExpressRoute позволяет создавать частные подключения между центрами обработки данных Azure и инфраструктурой на локальном компьютере или в среде совместного размещения. Подключения ExpressRoute не проходят через общедоступный Интернет. Они отличаются повышенной надежностью, более высокой скоростью, меньшей задержкой и дополнительной безопасностью по сравнению с обычными подключениями через Интернет.
-Хотя рекомендуется использовать ExpressRoute, вы можете выбрать любой метод подключения, который лучше всего подходит для вашей организации. Дополнительные сведения об ExpressRoute и различных вариантах подключения с помощью ExpressRoute см. в статье [Технический обзор ExpressRoute](https://aka.ms/Azure/ExpressRoute).
+Хотя рекомендуется использовать ExpressRoute, вы можете выбрать любой метод подключения, который лучше всего подходит для вашей организации. Дополнительные сведения об ExpressRoute и различных вариантах подключения с помощью ExpressRoute см. в статье [Технический обзор ExpressRoute](/azure/expressroute/expressroute-introduction).
 
 ### <a name="2-create-storage-accounts"></a>2. Создание учетных записей хранения
 Чтобы обеспечить высокий уровень доступности и избежать зависимости от одной учетной записи, следует создать две учетные записи хранения. Разделите виртуальные машины в каждой группе доступности на две группы, а затем назначьте для каждой группы отдельную учетную запись хранения.
@@ -122,7 +122,7 @@ ms.locfileid: "90078681"
 | contosowap1 |WAP |DMZ |contosowapset |contososac1 |Статические |
 | contosowap2 |WAP |DMZ |contosowapset |contososac2 |Статические |
 
-Как можно заметить, группы NSG не указаны. Это объясняется тем, что в Azure можно использовать группы NSG на уровне подсети. Сетевым трафиком виртуальной машины можно управлять с помощью отдельной группы NSG, связанной с подсетью или объектом сетевой карты. Дополнительные сведения см. в статье [Группа безопасности сети](https://aka.ms/Azure/NSG).
+Как можно заметить, группы NSG не указаны. Это объясняется тем, что в Azure можно использовать группы NSG на уровне подсети. Сетевым трафиком виртуальной машины можно управлять с помощью отдельной группы NSG, связанной с подсетью или объектом сетевой карты. Дополнительные сведения см. в статье [Группа безопасности сети](/azure/virtual-network/tutorial-filter-network-traffic).
 При управлении DNS рекомендуется использовать статический IP-адрес. Вы можете применять Azure DNS и ссылаться на новые виртуальные машины, используя их полные доменные имена Azure, а не записи DNS для домена.
 После завершения развертывания панель вашей виртуальной машины должна выглядеть следующим образом:
 
@@ -345,14 +345,14 @@ ms.locfileid: "90078681"
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 * [Группы доступности](https://aka.ms/Azure/Availability)
-* [Azure Load Balancer](https://aka.ms/Azure/ILB)
-* [Внутренний балансировщик нагрузки](https://aka.ms/Azure/ILB/Internal)
-* [Приступая к созданию балансировщика нагрузки для Интернета в диспетчере ресурсов с помощью PowerShell](https://aka.ms/Azure/ILB/Internet)
+* [Azure Load Balancer](/azure/load-balancer/load-balancer-overview)
+* [Внутренний балансировщик нагрузки](/azure/load-balancer/quickstart-load-balancer-standard-internal-powershell)
+* [Приступая к созданию балансировщика нагрузки для Интернета в диспетчере ресурсов с помощью PowerShell](/azure/load-balancer/quickstart-load-balancer-standard-public-powershell)
 * [Учетные записи хранения](https://aka.ms/Azure/Storage)
-* [Виртуальные сети Azure](https://aka.ms/Azure/VNet)
-* [AD FS and Web Application Proxy Links (Ссылки на ресурсы по AD FS и прокси веб-приложений)](https://aka.ms/ADFSLinks)
+* [Виртуальные сети Azure](/azure/virtual-network/virtual-networks-overview)
+* [AD FS and Web Application Proxy Links (Ссылки на ресурсы по AD FS и прокси веб-приложений)](/archive/blogs/tangent_thoughts/qrg-quick-reference-guide-active-directory-federation-services)
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 * [Интеграция локальных удостоверений с Azure Active Directory](/azure/active-directory/hybrid/whatis-hybrid-identity)
 * [Настройка служб AD FS и управление ими с использованием Azure AD Connect](/azure/active-directory/hybrid/how-to-connect-fed-whatis)
 * [Развертывание AD FS высокого уровня доступности в нескольких регионах Azure с помощью диспетчера трафика Azure](active-directory-adfs-in-azure-with-azure-traffic-manager.md)

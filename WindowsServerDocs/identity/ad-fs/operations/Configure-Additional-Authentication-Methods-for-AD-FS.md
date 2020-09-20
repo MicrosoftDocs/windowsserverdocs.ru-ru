@@ -6,12 +6,12 @@ ms.author: billmath
 manager: femila
 ms.date: 07/26/2019
 ms.topic: article
-ms.openlocfilehash: 66ef77b46065b87e6df08c63b0fb40ca4453c45b
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: dd773ce7198ffd30d8269ab47ae3d3dcfa7ef7cb
+ms.sourcegitcommit: 5344adcf9c0462561a4f9d47d80afc1d095a5b13
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87954260"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90766777"
 ---
 # <a name="configure-additional-authentication-methods-for-ad-fs"></a>Настройка дополнительных методов проверки подлинности для службы федерации Active Directory
 
@@ -20,7 +20,7 @@ ms.locfileid: "87954260"
 > [!NOTE]
 > Выбирая проверку подлинности сертификата, убедитесь в том, что сертификаты смарт-карт представлены в защищенном виде и имеют требование ввода ПИН-кода.
 
-Вы знаете, что Microsoft Azure предоставляет аналогичную функциональность в облаке? Подробнее о [решениях для удостоверений Microsoft Azure](https://aka.ms/m2w274).<p>Создайте гибридное решение для удостоверений в Microsoft Azure:<br /> - [Подробнее о многофакторной идентификации Azure.](https://aka.ms/ey6o9r)<br /> - [Управление удостоверениями для гибридных сред с одним лесом с использованием проверки подлинности в облаке.](https://aka.ms/g1jat8)<br /> - [Управление рисками с помощью дополнительной многофакторной проверки подлинности для конфиденциальных приложений.](https://aka.ms/kt1bbm)
+Вы знаете, что Microsoft Azure предоставляет аналогичную функциональность в облаке? Подробнее о [решениях для удостоверений Microsoft Azure](https://aka.ms/m2w274).<p>Создайте гибридное решение для удостоверений в Microsoft Azure:<br /> - [Подробнее о многофакторной идентификации Azure.](/azure/active-directory/authentication/concept-mfa-howitworks)<br /> - [Управление удостоверениями для гибридных сред с одним лесом с использованием проверки подлинности в облаке.](/previous-versions/windows/it-pro/solutions-guidance/dn550986(v=ws.11))<br /> - [Управление рисками с помощью дополнительной многофакторной проверки подлинности для конфиденциальных приложений.](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn280946(v=ws.11))
 
 ## <a name="microsoft-and-third-party-additional-authentication-methods"></a>Корпорация Майкрософт и сторонние дополнительные методы проверки подлинности
 Также можно настроить и включить методы проверки подлинности Майкрософт и сторонних производителей в AD FS в Windows Server 2012 R2. После установки и регистрации в AD FS можно применить MFA в рамках глобальной политики проверки подлинности или для отдельной проверяющей стороны.
@@ -53,5 +53,5 @@ ms.locfileid: "87954260"
 ## <a name="custom-authentication-method-for-ad-fs-in-windows-server-2012-r2"></a>Пользовательский метод проверки подлинности для AD FS в Windows Server 2012 R2
 Теперь мы предоставляем инструкции по созданию собственного метода проверки подлинности для AD FS в Windows Server 2012 R2. Дополнительные сведения см. в разделе [Создание пользовательского метода проверки подлинности для AD FS в Windows Server 2012 R2](https://go.microsoft.com/fwlink/?LinkID=511980).
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 [Управление рисками для уязвимых приложений с помощью дополнительной многофакторной аутентификации](Manage-Risk-with-Additional-Multi-Factor-Authentication-for-Sensitive-Applications.md)

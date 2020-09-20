@@ -6,12 +6,12 @@ ms.author: billmath
 manager: femila
 ms.date: 08/11/2017
 ms.topic: article
-ms.openlocfilehash: 8a967718adc40d42c5798870b05cde6e228a0b18
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 2306c5ad57b7714c10076a5bb11f6cae5bb7f92d
+ms.sourcegitcommit: 5344adcf9c0462561a4f9d47d80afc1d095a5b13
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87956561"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90766887"
 ---
 # <a name="configure-on-premises-conditional-access-using-registered-devices"></a>Настройка локального условного доступа с помощью зарегистрированных устройств
 
@@ -30,7 +30,7 @@ ms.locfileid: "87956561"
 |Azure AD Connect|Ноябрь 2015 QFE или более поздней версии.  Получить последнюю версию можно [здесь](https://www.microsoft.com/download/details.aspx?id=47594).
 |Windows Server 2016|Сборка 10586 или более новая версия для AD FS
 |Схема Active Directory Windows Server 2016|Требуется уровень схемы 85 или выше.
-|Контроллер домена Windows Server 2016|Это требуется только для развертываний "Hello для бизнеса — доверие".  Дополнительные сведения можно найти [здесь](https://aka.ms/whfbdocs).
+|Контроллер домена Windows Server 2016|Это требуется только для развертываний "Hello для бизнеса — доверие".  Дополнительные сведения можно найти [здесь](/windows/security/identity-protection/hello-for-business/hello-identity-verification).
 |Клиент Windows 10|Сборка 10586 или более новая, присоединенная к указанному выше домену, требуется для присоединения к домену Windows 10 и Microsoft Passport for Work сценариев
 |Учетная запись пользователя Azure AD с назначенной лицензией Azure AD Premium|Для регистрации устройства
 
@@ -207,7 +207,7 @@ Get-ADObject "cn=schema,cn=configuration,dc=domain,dc=local" -Property objectVer
 ### <a name="automatic-mdm-enrollment"></a>Автоматическая регистрация MDM
 Чтобы включить автоматическую регистрацию зарегистрированных устройств MDM, чтобы можно было использовать утверждение, соответствующее политике управления доступом, выполните действия, описанные [здесь.](/windows/client-management/join-windows-10-mobile-to-azure-active-directory)
 
-## <a name="troubleshooting"></a>Диагностика
+## <a name="troubleshooting"></a>Устранение неполадок
 1.  Если появляется сообщение об ошибке `Initialize-ADDeviceRegistration` о том, что объект уже существует в неправильном состоянии, например "объект службы DRS был найден без всех обязательных атрибутов", возможно, вы уже выполнили Azure AD Connect команды PowerShell, а также частичную конфигурацию в AD DS.  Попробуйте удалить вручную объекты в разделе **CN = Device Registration Configuration, CN = Services, CN = Configuration, DC = &lt; domain &gt; ** и повторите попытку.
 2.  Для клиентов, присоединенных к домену Windows 10
     1. Чтобы проверить, работает ли проверка подлинности устройства, войдите на клиент, присоединенный к домену, в качестве тестовой учетной записи пользователя. Чтобы быстро запустить подготовку, заблокируйте и разблокируйте Рабочий стол по крайней мере один раз.
@@ -218,7 +218,7 @@ Get-ADObject "cn=schema,cn=configuration,dc=domain,dc=local" -Property objectVer
     3. Изменить **енроллменттипе** на **0**
     4. Попробуйте зарегистрировать устройство или повторить регистрацию
 
-### <a name="related-articles"></a>Связанные статьи
+### <a name="related-articles"></a>Похожие статьи
 * [Защита доступа к Office 365 и другим приложениям, подключенным к Azure Active Directory](/azure/active-directory/conditional-access/overview)
 * [Политики условного доступа к службам Office 365 с устройств](/azure/active-directory/conditional-access/overview)
 * [Настройка локального условного доступа с помощью регистрации устройств в Azure Active Directory](/azure/active-directory/active-directory-device-registration-on-premises-setup)

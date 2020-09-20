@@ -6,12 +6,12 @@ ms.author: nedpyle
 manager: tiaascs
 ms.date: 07/29/2020
 ms.topic: article
-ms.openlocfilehash: ea138d8bb0b804ae4d08ed6ffe330e9714af43f3
-ms.sourcegitcommit: 2b1a12c85acff137e5ac84cd0e62d8353fcdde31
+ms.openlocfilehash: 0c3e52c11f7771856608b86ddd778ef51c4c8516
+ms.sourcegitcommit: 5344adcf9c0462561a4f9d47d80afc1d095a5b13
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2020
-ms.locfileid: "89087487"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90766917"
 ---
 # <a name="storage-migration-service-known-issues"></a>Известные проблемы со службой миграции хранилища
 
@@ -424,7 +424,7 @@ Guidance: Confirm that the Netlogon service on the computer is reachable through
 
 После завершения перемещения и последующей повторной пересылки одних и тех же данных вы можете не заметить значительного улучшения времени на перемещение, даже если на исходном сервере изменились небольшие данные.
 
-Это ожидаемое поведение при передаче очень большого количества файлов и вложенных папок. Размер данных не важен. Мы сначала внесли улучшения в это поведение в [KB4512534](https://support.microsoft.com/help/4512534/windows-10-update-kb4512534) и продолжаем оптимизировать производительность обмена. Чтобы еще больше настроить производительность, ознакомьтесь с [оптимизацией инвентаризации и производительности перемещения](https://docs.microsoft.com/windows-server/storage/storage-migration-service/faq#optimizing-inventory-and-transfer-performance).
+Это ожидаемое поведение при передаче очень большого количества файлов и вложенных папок. Размер данных не важен. Мы сначала внесли улучшения в это поведение в [KB4512534](https://support.microsoft.com/help/4512534/windows-10-update-kb4512534) и продолжаем оптимизировать производительность обмена. Чтобы еще больше настроить производительность, ознакомьтесь с [оптимизацией инвентаризации и производительности перемещения](./faq.md#optimizing-inventory-and-transfer-performance).
 
 ## <a name="data-does-not-transfer-user-renamed-when-migrating-to-or-from-a-domain-controller"></a>Данные не передаются, пользователь переименован при миграции на контроллер домена или с него
 

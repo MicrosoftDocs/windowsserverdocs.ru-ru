@@ -6,12 +6,12 @@ author: gawatu
 ms.author: gawatu
 manager: mallikarjun.chadalapaka
 ms.date: 6/05/2018
-ms.openlocfilehash: e78afb47877bb908df81876afe01d2f60b853c70
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 3f4e80136b3c70b7a121663a6defa048d2b0e852
+ms.sourcegitcommit: 5344adcf9c0462561a4f9d47d80afc1d095a5b13
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87996703"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90766227"
 ---
 # <a name="managing-capabilities"></a>Управление возможностями
 
@@ -22,7 +22,7 @@ ms.locfileid: "87996703"
 >[!TIP]
 >Эти короткие видеоматериалы также помогут вам приступить к работе и уверенно управлять System Insights: начало [работы с System Insights за 10 минут](https://blogs.technet.microsoft.com/filecab/2018/07/24/getting-started-with-system-insights-in-10-minutes/)
 
-Хотя в этом разделе приведены примеры PowerShell, вы можете использовать [документацию по PowerShell System Insights](https://aka.ms/systeminsightspowershell) для просмотра всех командлетов, параметров и наборов параметров в System Insights.
+Хотя в этом разделе приведены примеры PowerShell, вы можете использовать [документацию по PowerShell System Insights](/powershell/module/systeminsights/) для просмотра всех командлетов, параметров и наборов параметров в System Insights.
 
 ## <a name="viewing-capabilities"></a>Возможности просмотра
 
@@ -81,7 +81,7 @@ System Insights регистрирует событие каждый раз, к�
 | --------------- | --------------- |
 | ОК | 151 |
 | Предупреждение | 148 |
-| Критический | 150 |
+| Критически важно | 150 |
 | Ошибка | 149 |
 | Нет | 132 |
 

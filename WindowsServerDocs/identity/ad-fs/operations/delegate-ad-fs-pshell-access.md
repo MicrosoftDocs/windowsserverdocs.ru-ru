@@ -7,12 +7,12 @@ manager: daveba
 ms.reviewer: zhvolosh
 ms.date: 01/31/2019
 ms.topic: article
-ms.openlocfilehash: 836a40ffa9df8fa308d1005fbac3a9e087488949
-ms.sourcegitcommit: 52a8d5d7e969eaa07fd3a45ed6d3cb5a5173b6d1
+ms.openlocfilehash: 7cf8e191fbc6fd9b5ff7cac5b6315ead4ad899ba
+ms.sourcegitcommit: 5344adcf9c0462561a4f9d47d80afc1d095a5b13
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "88970631"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90766257"
 ---
 # <a name="delegate-ad-fs-powershell-commandlet-access-to-non-admin-users"></a>Делегирование доступа к командлету Powershell AD FS пользователям без прав администратора
 По умолчанию AD FS администрирование с помощью PowerShell может быть выполнено только администратором AD FS. Во многих крупных организациях это может не быть реальной рабочей моделью при работе с другими персонажами, такими как персонал службы поддержки.
@@ -62,7 +62,7 @@ Install-ADServiceAccount gMSAcontoso
 
 ### <a name="create-the-jea-role-file"></a>Создание файла роли JEA
 
-На AD FS сервере создайте роль JEA в файле блокнота. Инструкции по созданию роли предоставляются в разделе [возможности роли JEA](https://docs.microsoft.com/powershell/scripting/learn/remoting/jea/role-capabilities).
+На AD FS сервере создайте роль JEA в файле блокнота. Инструкции по созданию роли предоставляются в разделе [возможности роли JEA](/powershell/scripting/learn/remoting/jea/role-capabilities).
 
 Командлеты, делегированный в этом примере, — это `Reset-AdfsAccountLockout, Get-ADFSAccountActivity, and Set-ADFSAccountActivity` .
 
@@ -78,7 +78,7 @@ VisibleCmdlets = 'Reset-AdfsAccountLockout', 'Get-ADFSAccountActivity', 'Set-ADF
 
 
 ### <a name="create-the-jea-session-configuration-file"></a>Создание файла конфигурации сеанса JEA
-Следуйте инструкциям по созданию файла [конфигурации сеанса JEA](https://docs.microsoft.com/powershell/scripting/learn/remoting/jea/session-configurations) . Файл конфигурации определяет, кто может использовать конечную точку JEA, и какие возможности они имеют к ним доступ.
+Следуйте инструкциям по созданию файла [конфигурации сеанса JEA](/powershell/scripting/learn/remoting/jea/session-configurations) . Файл конфигурации определяет, кто может использовать конечную точку JEA, и какие возможности они имеют к ним доступ.
 
 На возможности роли ссылается неструктурированное имя (имя файла без расширения) файла возможностей роли. Если в системе доступно несколько возможностей роли с одинаковыми неструктурированными именами, PowerShell использует неявный порядок поиска, чтобы выбрать эффективный файл возможностей роли. Он не предоставляет доступ ко всем файлам возможностей роли с тем же именем.
 
