@@ -4,12 +4,12 @@ ms.date: 01/30/2019
 author: JasonGerend
 manager: elizapo
 ms.author: jgerend
-ms.openlocfilehash: 44f0db935e50bf7976612edc4317b4212818f84d
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 7bdcb67c5bcb36d2ebe5ee02d765f3cab63c7bed
+ms.sourcegitcommit: 5344adcf9c0462561a4f9d47d80afc1d095a5b13
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87950748"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90766827"
 ---
 # <a name="volume-shadow-copy-service"></a>Служба теневого копирования томов
 
@@ -372,7 +372,7 @@ VSS впервые появилась в Windows XP. Поддерживаетс
 > <UL>
 > <LI>Он не может удалять файлы из теневой копии, созданной на Windows Server, с помощью функции "Предыдущие версии".<BR><BR>
 > <LI>Он не может удалить файлы из теневых копий общих папок.<BR><BR>
-> <LI>Он может удалять файлы из теневой копии, созданной с помощью служебной программы <a href="https://docs.microsoft.com/windows-server/administration/windows-commands/diskshadow" data-raw-source="[Diskshadow](../../administration/windows-commands/diskshadow.md)">Diskshadow</a>, но удаление файлов с помощью служебной программы <a href="https://docs.microsoft.com/windows-server/administration/windows-commands/vssadmin" data-raw-source="[Vssadmin](../../administration/windows-commands/vssadmin.md)">vssadmin</a> будет невозможным.<BR><BR>
+> <LI>Он может удалять файлы из теневой копии, созданной с помощью служебной программы <a href="/windows-server/administration/windows-commands/diskshadow" data-raw-source="[Diskshadow](../../administration/windows-commands/diskshadow.md)">Diskshadow</a>, но удаление файлов с помощью служебной программы <a href="/windows-server/administration/windows-commands/vssadmin" data-raw-source="[Vssadmin](../../administration/windows-commands/vssadmin.md)">vssadmin</a> будет невозможным.<BR><BR>
 > <LI>Файлы удаляются из теневой копии при наличии соответствующих ресурсов и возможностей. Это означает, что их удаление не гарантируется.<BR><BR></LI></UL>
 
 

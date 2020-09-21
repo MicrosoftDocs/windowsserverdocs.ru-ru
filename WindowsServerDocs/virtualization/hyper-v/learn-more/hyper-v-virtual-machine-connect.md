@@ -1,18 +1,17 @@
 ---
 title: Подключение к виртуальной машине Hyper-V
 description: Сведения о подключении к виртуальной машине, которое обеспечивает удаленный доступ к виртуальной машине. Эта статья содержит сведения о выполнении общих задач, таких как отправка (Ctrl+Alt+Delete) на виртуальную машину.
-manager: dongill
 ms.topic: article
 ms.assetid: deae35b9-7647-42b8-b6bf-45645a44c9c4
-author: kbdazure
-ms.author: kathydav
+ms.author: benarm
+author: BenjaminArmstrong
 ms.date: 10/04/2016
-ms.openlocfilehash: 2ffe54a1699fdb23833adc5e0036747d516e3056
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 80e87fcfa38f441491985ba7bb58b25c7e4cc165
+ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87990181"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "90745969"
 ---
 # <a name="hyper-v-virtual-machine-connection"></a>Подключение к виртуальной машине Hyper-V
 

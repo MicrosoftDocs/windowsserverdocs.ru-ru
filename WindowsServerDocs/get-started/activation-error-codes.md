@@ -10,12 +10,12 @@ ms.custom:
 - CI ID 116803
 - CSSTroubleshoot
 manager: dcscontentpm
-ms.openlocfilehash: 40de898aa7627f092c179d7dc9e88e366e01ebab
-ms.sourcegitcommit: 7cacfc38982c6006bee4eb756bcda353c4d3dd75
+ms.openlocfilehash: dbb660ad1ccf3b15efe8cf656ebc98a2f7f41472
+ms.sourcegitcommit: 5344adcf9c0462561a4f9d47d80afc1d095a5b13
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "90078551"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90766677"
 ---
 # <a name="resolve-windows-activation-error-codes"></a>Устранение неполадок по коду ошибки активации Windows
 
@@ -26,7 +26,7 @@ ms.locfileid: "90078551"
 
 Дополнительные сведения об активации корпоративных лицензий см. в статье [Plan for volume activation](/windows/deployment/volume-activation/plan-for-volume-activation-client) (Планирование активации корпоративных лицензий).
 
-Дополнительные сведения об активации корпоративных лицензий для текущих и последних версий Windows см. в [этой статье](https://docs.microsoft.com/windows/deployment/volume-activation/volume-activation-windows-10).
+Дополнительные сведения об активации корпоративных лицензий для текущих и последних версий Windows см. в [этой статье](/windows/deployment/volume-activation/volume-activation-windows-10).
 
 Дополнительные сведения об активации корпоративных лицензий для более ранних версий Windows (Windows Vista, Windows Server 2008, Windows Server 2008 R2 и Windows 7) см. в  [статье базы знаний № 929712](https://support.microsoft.com/help/929712/volume-activation-information-for-windows-vista-windows-server-2008-wi).
 

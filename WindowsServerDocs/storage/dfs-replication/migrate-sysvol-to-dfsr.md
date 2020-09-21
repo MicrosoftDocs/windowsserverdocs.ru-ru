@@ -4,12 +4,12 @@ ms.date: 07/02/2012
 author: JasonGerend
 manager: elizapo
 ms.author: jgerend
-ms.openlocfilehash: d4c34484f7eb12b9876dcca7809a31c0c291bcce
-ms.sourcegitcommit: 3da6fcf4d853f6ff24b785b87787d0677b878253
+ms.openlocfilehash: e3917f0170e70ea6ba8ca09dc25415650f8a0dcc
+ms.sourcegitcommit: 5344adcf9c0462561a4f9d47d80afc1d095a5b13
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "90044831"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90766630"
 ---
 # <a name="migrate-sysvol-replication-to-dfs-replication"></a>Перенос репликации SYSVOL в репликацию DFS
 
@@ -78,6 +78,6 @@ ms.locfileid: "90044831"
 
 [Серия о миграции SYSVOL. Часть 5 Переход в состояние ELIMINATED](https://techcommunity.microsoft.com/t5/storage-at-microsoft/sysvol-migration-series-part-5-8211-migrating-to-the-8216/ba-p/423516)
 
-[Пошаговое руководство. Использование распределенной файловой системы в Windows Server 2008](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc732863(v=ws.10))
+[Пошаговое руководство. Использование распределенной файловой системы в Windows Server 2008](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc732863(v=ws.10))
 
-[Технический справочник по FRS](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2003/cc759297(v=ws.10))
+[Технический справочник по FRS](/previous-versions/windows/it-pro/windows-server-2003/cc759297(v=ws.10))

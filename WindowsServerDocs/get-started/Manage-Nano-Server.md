@@ -8,12 +8,12 @@ ms.assetid: 599d6438-a506-4d57-a0ea-1eb7ec19f46e
 author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: 78a869f826bd9d13e627f5710cca1b3ef1cdcdc4
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: cb6ffed04856c1e4fe670893a2af3acedb6da012
+ms.sourcegitcommit: 5344adcf9c0462561a4f9d47d80afc1d095a5b13
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87959632"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90765955"
 ---
 # <a name="manage-nano-server"></a>Управление сервером Nano Server
 
@@ -212,12 +212,12 @@ Get-WindowsPackage -Online
 
 ## <a name="performance-and-event-monitoring-on-nano-server"></a>Мониторинг производительности и событий на сервере Nano Server
 [comment]: # (Автор: Венкат Ялла (Venkat Yalla).)
-Сервер Nano Server полностью поддерживает платформу [трассировки событий Windows](https://aka.ms/u2pa0i) (ETW), однако некоторые привычные средства для управления трассировкой и счетчиками производительности сейчас на нем недоступны. Тем не менее, сервер Nano Server имеет средства и командлеты для реализации наиболее распространенных сценариев анализа производительности.
+Сервер Nano Server полностью поддерживает платформу [трассировки событий Windows](/windows/win32/etw/event-tracing-portal) (ETW), однако некоторые привычные средства для управления трассировкой и счетчиками производительности сейчас на нем недоступны. Тем не менее, сервер Nano Server имеет средства и командлеты для реализации наиболее распространенных сценариев анализа производительности.
 
 Высокоуровневый рабочий процесс остается таким же, как и в любой установке Windows Server. Облегченная трассировка выполняется на целевом компьютере (Nano Server), а итоговые файлы трассировки и журналов проходят последующую обработку в автономном режиме на отдельном компьютере с применением таких средств, как [Windows Performance Analyzer](/previous-versions/windows/it-pro/windows-8.1-and-8/hh448170(v=win.10)), [анализатор сообщений](https://www.microsoft.com/download/details.aspx?id=44226) или иных.
 
 > [!NOTE]
-> Сведения о передаче файлов с помощью удаленного взаимодействия PowerShell см. в статье [Копирование файлов на сервер Nano Server и с него](https://aka.ms/nri9c8).
+> Сведения о передаче файлов с помощью удаленного взаимодействия PowerShell см. в статье [Копирование файлов на сервер Nano Server и с него](/previous-versions/windows/desktop/legacy/mt708806(v=vs.85)).
 
 В следующих разделах перечислены наиболее распространенные операции по сбору данных о производительности, а также способы их выполнения на сервере Nano Server.
 
@@ -381,7 +381,7 @@ TimeCreated           Message
 9/15/2016 11:31:16 AM The Virtualization Based Security enablement policy check at phase 0 failed with status: {File...
 ```
 
-Nano Server также поддерживает командлет ```wevtutil.exe```, позволяющий получать сведения о журналах событий и издателях. Дополнительные сведения см. в [документации по wevtutil.exe](https://aka.ms/qvod7p).
+Nano Server также поддерживает командлет ```wevtutil.exe```, позволяющий получать сведения о журналах событий и издателях. Дополнительные сведения см. в [документации по wevtutil.exe](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc732848(v=ws.11)).
 
 ### <a name="graphical-interface-tools"></a>Средства графического интерфейса
 [Средства управления веб-серверами](https://techcommunity.microsoft.com/t5/windows-admin-center-blog/bg-p/Windows-Admin-Center-Blog) можно использовать для удаленного управления целевыми объектами Nano Server и отображения журнала событий Nano Server с помощью веб-браузера. Наконец, просмотр событий в оснастке MMC (eventvwr.msc) также можно использовать для просмотра журналов — просто откройте его на компьютере с рабочим столом и сориентируйте на удаленный Nano Server.

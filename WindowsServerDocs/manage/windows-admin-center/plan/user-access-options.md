@@ -6,12 +6,12 @@ author: haley-rowland
 ms.author: harowl
 ms.date: 03/07/2019
 ms.localizationpriority: medium
-ms.openlocfilehash: 3c96968f55a06c7ccffd9f7919001f21bff6a75c
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 184eca56dc14e91220a7fb7eb196c48706562ff7
+ms.sourcegitcommit: 5344adcf9c0462561a4f9d47d80afc1d095a5b13
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87996992"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90766717"
 ---
 # <a name="user-access-options-with-windows-admin-center"></a>Параметры доступа пользователей в Windows Admin Center
 
@@ -58,7 +58,7 @@ Windows Admin Center определяет две роли для доступа 
 Однако некоторым пользователям не нужен неограниченный доступ к компьютеру для выполнения заданий.
 В Windows Admin Center можно использовать **управление доступом на основе ролей**, чтобы предоставить таким пользователям ограниченный доступ к компьютеру, не делая их полными локальными администраторами.
 
-Управление доступом на основе ролей в Windows Admin Center выполняется через настройку каждого управляемого сервера с помощью конечной точки [Just Enough Administration](https://aka.ms/jeadocs) PowerShell.
+Управление доступом на основе ролей в Windows Admin Center выполняется через настройку каждого управляемого сервера с помощью конечной точки [Just Enough Administration](/powershell/scripting/learn/remoting/jea/overview) PowerShell.
 Эта конечная точка определяет роли, в том числе аспекты системы, которыми каждой роли разрешено управлять, и пользователей, которым назначена роль.
 Когда пользователь подключается к конечной точке с ограниченными правами, создается временная учетная запись локального администратора для управления системой от ее имени.
 Это гарантирует, что даже средствами, которые не имеют собственной модели делегирования, по-прежнему можно управлять с помощью Windows Admin Center.

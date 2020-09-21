@@ -6,12 +6,12 @@ author: nwashburn-ms
 ms.author: niwashbu
 ms.date: 01/07/2020
 ms.localizationpriority: high
-ms.openlocfilehash: 8a1cd07167fd0a73d72dc57708a5f9bd23d2252c
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: d6fa3e4535748b6c4d5b45755b0336dc26815bee
+ms.sourcegitcommit: 5344adcf9c0462561a4f9d47d80afc1d095a5b13
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87958682"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90766737"
 ---
 # <a name="windows-admin-center"></a>Windows Admin Center
 
@@ -149,7 +149,7 @@ Windows Admin Center представляет собой локально раз
 - [Видео об использовании гибридных служб Microsoft Azure с Windows Admin Center и Windows Server](https://aka.ms/WAC-THR2073)
 - [Видео из интерактивной сессии вопросов и ответов, посвященное управлению гибридной средой сервера с помощью Windows Admin Center](https://aka.ms/WAC-MLS1055)
 - [Видео с предоставлением схемы обучения для гибридных технологий управления](https://aka.ms/WAC-HybridMgmtTech)
-- [Практическое занятие по Windows Admin Center и гибридной среде](https://aka.ms/WAC-HOL2019)
+- [Практическое занятие по Windows Admin Center и гибридной среде](/learn/?WT.mc_id=sitertzn_homepage_learn-redirect-handsonlabs)
 
 Далее приведено несколько ссылок на видеоролики из сеансов конференции Windows Server Summit 2019.
 

@@ -7,12 +7,12 @@ ms.author: lizross
 author: eross-msft
 manager: mtillman
 ms.date: 05/24/2018
-ms.openlocfilehash: 45d2dbc330c4277de961943cdd7a97fb50215de1
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 1d3638b7a05c406293035c7f0a0e8854ed2ecee9
+ms.sourcegitcommit: 5344adcf9c0462561a4f9d47d80afc1d095a5b13
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89628542"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90766807"
 ---
 # <a name="plan-your-wsus-deployment"></a>Планирование развертывания WSUS
 
@@ -113,7 +113,7 @@ ms.locfileid: "89628542"
 
 -   Внутренняя база данных Windows (WID)
 
--   Любая поддерживаемая версия Microsoft SQL Server. Дополнительные сведения см. на странице о [политике жизненного цикла продуктов Майкрософт](https://aka.ms/sqllifecycle).
+-   Любая поддерживаемая версия Microsoft SQL Server. Дополнительные сведения см. на странице о [политике жизненного цикла продуктов Майкрософт](/lifecycle/products/?products=sql-server).
 
 Следующие выпуски SQL Server поддерживаются службами WSUS:
 

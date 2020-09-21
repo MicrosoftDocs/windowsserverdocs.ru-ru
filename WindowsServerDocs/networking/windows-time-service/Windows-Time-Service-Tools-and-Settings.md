@@ -5,12 +5,12 @@ author: Teresa-Motiv
 ms.author: v-tea
 ms.date: 02/24/2020
 ms.topic: article
-ms.openlocfilehash: cb549f951865a065c70a6bfbfa9d49faf71ffd97
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 60aae8d96107b45ca3ef101780a3f1fec9c5f364
+ms.sourcegitcommit: 5344adcf9c0462561a4f9d47d80afc1d095a5b13
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87989790"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90766587"
 ---
 # <a name="windows-time-service-tools-and-settings"></a>Инструменты и параметры службы времени Windows
 
@@ -87,7 +87,7 @@ W32tm /query /computer:contosoW1 /configuration
 Выходные данные этой команды представляют собой список параметров конфигурации, заданных для клиента службы времени Windows.
 
 > [!IMPORTANT]
-> [В Windows Server 2016 улучшены алгоритмы синхронизации времени](https://aka.ms/WS2016Time) для соответствия спецификациям RFC. Поэтому если вы хотите настроить локальный клиент службы времени Windows так, чтобы он указывал на несколько одноранговых узлов, настоятельно рекомендуется подготовить три или более разных сервера времени.
+> [В Windows Server 2016 улучшены алгоритмы синхронизации времени](./accurate-time.md) для соответствия спецификациям RFC. Поэтому если вы хотите настроить локальный клиент службы времени Windows так, чтобы он указывал на несколько одноранговых узлов, настоятельно рекомендуется подготовить три или более разных сервера времени.
 >
 > При наличии только двух серверов времени укажите флаг **UseAsFallbackOnly** (0x2), чтобы отменить назначение приоритета одному из них. Например, если необходимо назначить приоритет ntpserver.contoso.com над clock.adatum.com, выполните следующую команду.
 > ```cmd

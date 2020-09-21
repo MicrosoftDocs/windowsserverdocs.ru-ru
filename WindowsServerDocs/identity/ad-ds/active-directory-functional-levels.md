@@ -8,12 +8,12 @@ ms.date: 08/25/2020
 ms.topic: article
 ms.custom: it-pro
 ms.reviewer: maheshu
-ms.openlocfilehash: e82dccb79a4fc3452d528581beb43ef32d52ecfc
-ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
+ms.openlocfilehash: 8a990e5ab19a5f5cd30d23d0d31e28249801040b
+ms.sourcegitcommit: 5344adcf9c0462561a4f9d47d80afc1d095a5b13
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88940944"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90765945"
 ---
 # <a name="forest-and-domain-functional-levels"></a>Режимы работы леса и домена
 
@@ -25,7 +25,7 @@ ms.locfileid: "88940944"
 
 После прекращения поддержки Windows Server 2003, 2008 и 2008 R2 эти контроллеры доменов необходимо будет обновить до Windows Server 2012, 2012 R2, 2016 или 2019. В результате все контроллеры домена, работающие под управлением Windows Server 2008 R2 и более старых версий, необходимо удалить из домена.
 
-В режимах работы домена Windows Server 2008 и более новых версий для репликации содержимого папки SYSVOL между контроллерами домена используется репликация службы распределенных файловых систем (DFS). Если вы создаете домен в режиме работы домена Windows Server 2008 или более новых версий, для репликации SYSVOL автоматически используется репликация DFS. Если вы создаете домен в более низком режиме работы, необходимо перейти от репликации FRS к DFS для SYSVOL. Чтобы выполнить переход, можно следовать [инструкциям в TechNet](https://technet.microsoft.com/library/dd640019(v=WS.10).aspx) или ознакомиться с [упрощенным набором шагов в блоге Microsoft File Cabinet группы разработчиков хранилища](https://blogs.technet.com/b/filecab/archive/2014/06/25/streamlined-migration-of-frs-to-dfsr-sysvol.aspx). Windows Server 2016 RS1 — это последний выпуск Windows Server с FRS.
+В режимах работы домена Windows Server 2008 и более новых версий для репликации содержимого папки SYSVOL между контроллерами домена используется репликация службы распределенных файловых систем (DFS). Если вы создаете домен в режиме работы домена Windows Server 2008 или более новых версий, для репликации SYSVOL автоматически используется репликация DFS. Если вы создаете домен в более низком режиме работы, необходимо перейти от репликации FRS к DFS для SYSVOL. Чтобы выполнить переход, можно следовать [инструкциям в TechNet](../../storage/dfs-replication/migrate-sysvol-to-dfsr.md) или ознакомиться с [упрощенным набором шагов в блоге Microsoft File Cabinet группы разработчиков хранилища](https://blogs.technet.com/b/filecab/archive/2014/06/25/streamlined-migration-of-frs-to-dfsr-sysvol.aspx). Windows Server 2016 RS1 — это последний выпуск Windows Server с FRS.
 
 ## <a name="windows-server-2019"></a>Windows Server 2019
 

@@ -1,18 +1,17 @@
 ---
 title: Use local resources on Hyper-V virtual machine with VMConnect
 description: Описание требований к использованию локальных ресурсов в VMConnect
-manager: dongill
 ms.topic: article
 ms.assetid: 18eface5-7518-4c6b-9282-93e2e3e87492
-author: kbdazure
-ms.author: kathydav
+ms.author: benarm
+author: BenjaminArmstrong
 ms.date: 12/06/2016
-ms.openlocfilehash: 67b06bdaf426c7160bbfb8bdb2cff9f34ff1dda8
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 340e3a23e0c77eb1eb189aabe6ecaa3f949087f3
+ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87991298"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "90745989"
 ---
 # <a name="use-local-resources-on-hyper-v-virtual-machine-with-vmconnect"></a>Use local resources on Hyper-V virtual machine with VMConnect
 

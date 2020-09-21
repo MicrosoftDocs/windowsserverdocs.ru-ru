@@ -6,12 +6,12 @@ author: JasonGerend
 ms.author: jgerend
 ms.date: 06/06/2019
 ms.localizationpriority: medium
-ms.openlocfilehash: 8645373f4f8e933e0eaad8e62672ecc16518ed4d
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 488a82d7ea4081acbca07f2f699e001f0945d6ce
+ms.sourcegitcommit: 5344adcf9c0462561a4f9d47d80afc1d095a5b13
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87957612"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90766657"
 ---
 # <a name="deploy-primary-computers-for-folder-redirection-and-roaming-user-profiles"></a>Развертывание основных компьютеров для перенаправления папок и использования перемещаемых профилей пользователей
 
@@ -39,7 +39,7 @@ ms.locfileid: "87957612"
 На первом шаге при развертывании поддержки основных компьютеров следует назначить основной компьютер для каждого пользователя. Для этого можно использовать Центр администрирования Active Directory, чтобы получить различающиеся имена соответствующих компьютеров, а затем установить атрибут **msDs-PrimaryComputer**.
 
 > [!TIP]
-> Как использовать Windows PowerShell для работы с основными компьютерами, см. в записи блога [о подробностях работы с основными компьютерами Windows 8](<https://blogs.technet.microsoft.com/askds/2012/10/23/digging-a-little-deeper-into-windows-8-primary-computer/>).
+> Как использовать Windows PowerShell для работы с основными компьютерами, см. в записи блога [о подробностях работы с основными компьютерами Windows 8](/archive/blogs/askds/digging-a-little-deeper-into-windows-8-primary-computer).
 
 Вот как указать основные компьютеры для пользователей:
 

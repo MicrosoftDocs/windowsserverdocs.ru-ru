@@ -8,12 +8,12 @@ manager: dongill
 ms.author: elizapo
 ms.date: 08/20/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: e0ce10cbdc1dfe70156d36a96978222395afaa94
-ms.sourcegitcommit: 8e5530ba7f7d3e2569590949e1f443d908683a17
+ms.openlocfilehash: c7d05731997aeb9fcdb1fadb73ba80f2ff6655e5
+ms.sourcegitcommit: 5344adcf9c0462561a4f9d47d80afc1d095a5b13
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "88702823"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90766697"
 ---
 # <a name="get-started-with-the-macos-client"></a>Приступая к работе с клиентом macOS
 
@@ -159,7 +159,7 @@ ms.locfileid: "88702823"
 > [!IMPORTANT]
 > Пользовательские модели аутентификации и авторизации, выпущенные до Windows 8.1, не поддерживаются, хотя и рассматриваются в статье выше.
 
-Чтобы узнать больше об этой функции, ознакомьтесь со страницей [https://aka.ms/paa-sample](https://aka.ms/paa-sample).
+Чтобы узнать больше об этой функции, ознакомьтесь со страницей [https://aka.ms/paa-sample](/samples/browse/?redirectedfrom=MSDN-samples).
 
 > [!TIP]
 > Мы всегда приветствуем вопросы и комментарии. Тем не менее не стоит публиковать запрос для получения справки по устранению неполадок, используя область комментариев в конце этой статьи. Вместо этого перейдите на [форум по клиенту удаленного рабочего стола](/answers/topics/windows-remote-desktop-client.html) и начните новую беседу. Есть предложение по новым функциям? Сообщите нам на [форуме UserVoice по клиенту](https://remotedesktop.uservoice.com/forums/272085-remote-desktop-for-android).
