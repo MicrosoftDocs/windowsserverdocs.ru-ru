@@ -8,12 +8,12 @@ manager: dongill
 ms.author: elizapo
 ms.date: 07/16/2018
 ms.localizationpriority: medium
-ms.openlocfilehash: 672a9d1b33137d9559d88b8773d3c7ccd2493ddc
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 420cedebcfc71a5ba78908d244d1f8ca651bee4c
+ms.sourcegitcommit: 0b3d6661c44aa1a697087e644437279142726d84
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87955061"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "90083675"
 ---
 # <a name="frequently-asked-questions-about-the-remote-desktop-clients"></a>Часто задаваемые вопросы о клиентах удаленного рабочего стола
 
@@ -174,7 +174,7 @@ ms.locfileid: "87955061"
 
 - Стандартная двухкнопочная мышь USB для ПК.
 - Мышь Apple Magic Mouse. Чтобы включить щелчок правой кнопкой мыши, выберите **System Preferences** (Параметры системы) на панели закрепления, щелкните **Мышь** и затем включите параметр **Secondary click** (Дополнительный щелчок).
-- Панель Apple Magic Trackpad или MacBook Trackpad. Чтобы включить щелчок правой кнопкой мыши, выберите **System Preferences** (Параметры системы) на панели закрепления, щелкните **Мышь** и затем включите параметр **Secondary click** (Дополнительный щелчок).
+- Панель Apple Magic Trackpad или MacBook Trackpad. Чтобы включить щелчок правой кнопкой мыши, выберите **System Preferences** (Параметры системы) на панели закрепления, щелкните **Trackpad** (Сенсорная панель) и затем включите параметр **Secondary click** (Дополнительный щелчок).
 
 ### <a name="is-airprint-supported"></a>Поддерживается ли AirPrint?
 Нет, клиент удаленного рабочего стола не поддерживает AirPrint. (Это относится к клиентам Mac и iOS.)

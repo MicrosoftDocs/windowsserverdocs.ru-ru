@@ -1,0 +1,11 @@
+- name: Windows
+  tocHref: /windows/
+  topicHref: /windows-server/index
+  items:
+    - name: Службы удаленных рабочих столов
+      tocHref: /windows/win32/termserv/
+      topicHref: /windows-server/remote/index
+      items:
+        - name: Сочетания клавиш для RDS
+          tocHref: /windows/win32/termserv/terminal-services-shortcut-keys/
+          topicHref: /windows-server/remote/index

@@ -5,27 +5,27 @@ ms.topic: article
 author: heidilohr
 manager: lizross
 ms.author: helohr
-ms.date: 09/10/2020
+ms.date: 09/16/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: 8f0b5453265bc96cdeb7ba02795da8fa0f39ba1c
-ms.sourcegitcommit: 0407bd30eaf06358257cf88c3969a2cd8b77dca4
+ms.openlocfilehash: 5d45bfad559069f9652768ba7f89bbdd3521ab8a
+ms.sourcegitcommit: d04f8fd54fe9aa5703af2f66a7150f4a6fb5bb37
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/11/2020
-ms.locfileid: "90027169"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "90718628"
 ---
 # <a name="whats-new-in-the-windows-desktop-client"></a>Что нового в клиенте для Windows Desktop
 
 Более подробные сведения о клиенте рабочего стола Windows можно найти в статье [Приступая к работе с клиентом для Windows Desktop](windowsdesktop.md). В этой статье вы найдете последние обновления для клиента.
 
-## <a name="latest-client-versions"></a>Последние версии клиента
+## <a name="supported-client-versions"></a>Поддерживаемые версии клиента
 
 Клиент можно настроить для разных [групп пользователей](windowsdesktop-admin.md#configure-user-groups). В следующей таблице перечислены текущие версии, доступные для каждой из групп пользователей.
 
-|Группа пользователей |Версия  |
-|-----------|---------|
-|Общие     |1.2.1272 |
-|Предварительная оценка    |1.2.1357 |
+|Группа пользователей |Последняя версия  |Минимальная поддерживаемая версия |
+|-----------|----------------|--------------------------|
+|Общие     |1.2.1272        |1.2.945                   |
+|Предварительная оценка    |1.2.1357        |1.2.1357                  |
 
 ## <a name="updates-for-version-121357-insiders"></a>Обновления для версии 1.2.1357 (программа предварительной оценки)
 
@@ -33,7 +33,7 @@ ms.locfileid: "90027169"
 
 Скачать: [Windows (64-разрядная версия)](https://go.microsoft.com/fwlink/?linkid=2139233), [Windows (32-разрядная версия)](https://go.microsoft.com/fwlink/?linkid=2139144), [Windows (ARM64)](https://go.microsoft.com/fwlink/?linkid=2139368)
 
-- Исправлена ошибка, из-за которой безопасный единый вход не работал в Windows 7.
+- Исправлена ошибка, из-за которой единый вход не работал в Windows 7.
 
 ## <a name="updates-for-version-121275"></a>Обновления для версии 1.2.1275
 

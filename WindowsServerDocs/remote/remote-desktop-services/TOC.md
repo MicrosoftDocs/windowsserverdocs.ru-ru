@@ -72,6 +72,7 @@
 #### [Приступая к работе с клиентом Удаленного рабочего стола](clients/windowsdesktop.md)
 #### [Клиент Удаленного рабочего стола для администраторов](clients/windowsdesktop-admin.md)
 #### [Что нового в клиенте Удаленного рабочего стола](clients/windowsdesktop-whatsnew.md)
+#### [Сочетания клавиш](/windows/win32/termserv/terminal-services-shortcut-keys)
 ### Клиент Microsoft Store
 #### [Начало работы с клиентом Microsoft Store](clients/windows.md)
 #### [Новые возможности в клиенте Microsoft Store](clients/windows-whatsnew.md)
