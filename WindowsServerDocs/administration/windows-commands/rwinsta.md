@@ -1,32 +1,35 @@
 ---
 title: rwinsta
-description: Узнайте, как сбросить сессионф узлов удаленных рабочих столов из командной строки.
+description: Справочная статья по команде рвинста, которая сбрасывает (удаляет) сеанс на удаленный рабочий стол сервере узла сеансов.
 ms.topic: reference
 ms.assetid: 82bee0e4-1c2c-43fe-afd3-04a6ce0f4518
 ms.author: lizross
 author: eross-msft
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: bfa5f1e0e6fd7bd7b9171bb021925634fcb11b5a
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 5ebe7f0cbb861ea9463dc62768c0e260198efb8d
+ms.sourcegitcommit: e164aeffc01069b8f1f3248bf106fcdb7f64f894
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89637208"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91388408"
 ---
 # <a name="rwinsta"></a>rwinsta
 
 > Область применения: Windows Server (половина ежегодного канала), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
-Позволяет сбросить (удалить) сеанс на сервере узла сеансов удаленный рабочий стол (на узле сеансов удаленных рабочих столов).
+Сбрасывает (удаляет) сеанс на удаленный рабочий стол сервере узла сеансов.
 
 > [!NOTE]
-> Чтобы узнать о новых возможностях последней версии, см. статью [новые возможности службы удаленных рабочих столов в Windows server 2012](/previous-versions/orphan-topics/ws.11/hh831527(v=ws.11)) в библиотеке TechNet по Windows Server.
+> Эта команда совпадает с [командой сброса сеанса](reset-session.md).
 
-## <a name="remarks"></a>Примечания
-Эта команда совпадает с командой **сброса сеанса** .
+> [!NOTE]
+> Чтобы узнать о новых возможностях последней версии, см. статью [новые возможности службы удаленных рабочих столов в Windows Server](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/dn283323(v=ws.11)).
 
 ## <a name="additional-references"></a>Дополнительные ссылки
-[reset session](reset-session.md)
-- Ключ синтаксиса [командной строки](command-line-syntax-key.md) 
- [Справочник по командам служб терминалов службы удаленных рабочих столов](remote-desktop-services-terminal-services-command-reference.md)
+
+- [reset session](reset-session.md)
+
+- [Условные обозначения синтаксиса команд командной строки](command-line-syntax-key.md)
+
+- [Справочник по командам служб удаленных рабочих столов (служб терминалов)](remote-desktop-services-terminal-services-command-reference.md)

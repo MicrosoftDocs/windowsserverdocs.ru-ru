@@ -1,5 +1,5 @@
 ---
-title: reg
+title: команды reg
 description: Справочная статья по командам reg, которые выполняют операции с данными подраздела реестра и значениями в записях реестра.
 ms.topic: reference
 ms.assetid: c97496b2-d1ff-4887-b5d2-6e1524be465a
@@ -7,14 +7,14 @@ ms.author: lizross
 author: eross-msft
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: a39fc22c2fe845d8cbbb64cf751455316bdc8747
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 619f6ae1d03197754145d0daad029deb817efffe
+ms.sourcegitcommit: e164aeffc01069b8f1f3248bf106fcdb7f64f894
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89639500"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91388840"
 ---
-# <a name="reg"></a>reg
+# <a name="reg-commands"></a>команды reg
 
 Выполняет операции с данными подраздела реестра и значениями в записях реестра.
 

@@ -1,27 +1,24 @@
 ---
 title: select vdisk
-description: Справочная статья для * * * *-
+description: Справочная статья по команде Select vdisk, которая выбирает указанный виртуальный жесткий диск (VHD) и перемещает фокус на него.
 ms.topic: reference
 ms.assetid: 8808872a-3523-4205-a6c6-83fa738ee37a
 ms.author: lizross
 author: eross-msft
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: daa6d3047e28fb8f6084824fdf1557423daa52b8
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 19e842115f914711cc59cfb770ee19f732b3a388
+ms.sourcegitcommit: e164aeffc01069b8f1f3248bf106fcdb7f64f894
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89639150"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91389210"
 ---
 # <a name="select-vdisk"></a>select vdisk
 
 > Область применения: Windows Server (половина ежегодного канала), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
-выбирает указанный виртуальный жесткий диск виртуального жесткого диска \( \) и перемещает фокус на него.
-
-> [!NOTE]
-> Эта команда применима только к Windows 7 и Windows Server 2008 R2.
+Выбирает указанный виртуальный жесткий диск виртуального жесткого диска \( \) и перемещает фокус на него.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -31,13 +28,14 @@ select vdisk file=<full path> [noerr]
 
 ### <a name="parameters"></a>Параметры
 
-|Параметр|Описание|
-|-------|--------|
-|File\=<full path>|Указывает полный путь и имя существующего файла виртуального жесткого диска.|
-|Noerr|Используется только для сценариев. При возникновении ошибки DiskPart продолжит обрабатывать команды, как если бы ошибка не возникала. Без этого параметра ошибка приводит к выходу из программы DiskPart с кодом ошибки.|
+| Параметр | Описание |
+|--|--|
+| файл =`<full path>` | Указывает полный путь и имя существующего файла виртуального жесткого диска. |
+| Noerr | Используется только для сценариев. При возникновении ошибки DiskPart продолжит обрабатывать команды, как если бы ошибка не возникала. Без этого параметра ошибка приводит к выходу из программы DiskPart с кодом ошибки. |
 
 ## <a name="examples"></a>Примеры
-Чтобы переместить фокус на виртуальный жесткий диск с именем Test. VHD, введите:
+
+Чтобы переместить фокус на виртуальный жесткий диск с именем *к:\тест\тест.Вхд*, введите:
 
 ```
 select vdisk file=c:\test\test.vhd
@@ -47,18 +45,22 @@ select vdisk file=c:\test\test.vhd
 
 - [Условные обозначения синтаксиса команд командной строки](command-line-syntax-key.md)
 
--   [подключить виртуальный диск](attach-vdisk.md)
+- [подключить виртуальный диск](attach-vdisk.md)
 
--   [compact vdisk](compact-vdisk.md)
+- [compact vdisk](compact-vdisk.md)
 
+- [detach vdisk](detach-vdisk.md)
 
+- [detail vdisk](detail-vdisk.md)
 
--   [Отсоединить виртуальный диск](detach-vdisk.md)
+- [expand vdisk](expand-vdisk.md)
 
--   [detail vdisk](detail-vdisk.md)
+- [merge vdisk](merge-vdisk.md)
 
--   [expand vdisk](expand-vdisk.md)
+- [list](list.md)
 
--   [Слияние VDISK](merge-vdisk.md)
+- [Команда "выбрать диск"](select-disk.md)
 
--   [list_1](./list.md)
+- [Команда "выбрать секцию"](select-partition.md)
+
+- [Команда "выбрать том"](select-volume.md)

@@ -1,17 +1,18 @@
 ---
 title: Добавление сведений об узле для аттестации с доверенным платформенным модулем
+description: Сведения о добавлении сведений об узле для аттестации с доверенным платформенным модулем.
 ms.topic: article
 ms.assetid: f0aa575b-b34e-4f6c-8416-ed3e398e0ad2
 manager: dongill
 author: rpsqrd
 ms.author: ryanpu
 ms.date: 06/21/2019
-ms.openlocfilehash: fc879fda0f6a708a8a1d4ebd60834f4e6543f3ba
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 2f4f684b0c18c19cdbdf09e672c83e51f426ca04
+ms.sourcegitcommit: e164aeffc01069b8f1f3248bf106fcdb7f64f894
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87997164"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91388855"
 ---
 # <a name="add-host-information-for-tpm-trusted-attestation"></a>Добавление сведений об узле для аттестации с доверенным платформенным модулем
 
@@ -20,7 +21,7 @@ ms.locfileid: "87997164"
 Для режима TPM администратор структуры захватывает три типа информации об узле, каждый из которых необходимо добавить в конфигурацию HGS:
 
 - Идентификатор TPM (Екпуб) для каждого узла Hyper-V
-- Политики целостности кода — белый список разрешенных двоичных файлов для узлов Hyper-V.
+- Политики целостности кода, разрешенных разрешенных двоичных файлов для узлов Hyper-V
 - Базовый уровень TPM (измерения загрузки), представляющий набор узлов Hyper-V, работающих на одном и том же классе оборудования.
 
 После того как администратор Fabric захватывает сведения, добавьте его в конфигурацию HGS, как описано в следующей процедуре.
@@ -57,6 +58,6 @@ ms.locfileid: "87997164"
 
 Это завершает процесс настройки кластера HGS для работы в режиме TPM. Администратору структуры может потребоваться предоставить два URL-адреса из HGS, прежде чем можно будет завершить настройку для узлов. Чтобы получить эти URL-адреса, на сервере HGS выполните команду [Get-HgsServer](/powershell/module/hgsserver/get-hgsserver?view=win10-ps).
 
-## <a name="next-step"></a>Следующий шаг
+## <a name="next-step"></a>Дальнейшие действия
 
 > [Подтверждение аттестации](guarded-fabric-confirm-hosts-can-attest-successfully.md)

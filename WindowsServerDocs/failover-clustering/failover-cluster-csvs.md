@@ -5,14 +5,14 @@ ms.topic: article
 author: JasonGerend
 ms.author: jgerend
 manager: lizross
-ms.date: 06/07/2019
+ms.date: 09/21/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: 1293abac44cc648442939784ed5bb2b8049e702f
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 51dcf4081828407bdfafeebcd4e8acb0f0d43dd5
+ms.sourcegitcommit: 8a826e992f28a70e75137f876a5d5e61238a24e4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87992869"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "91365347"
 ---
 # <a name="use-cluster-shared-volumes-in-a-failover-cluster"></a>Использование общих томов кластера в отказоустойчивом кластере
 
@@ -197,11 +197,11 @@ Add-ClusterSharedVolume –Name "Cluster Disk 1"
 >[!NOTE]
 >Мы рекомендуем включать кэш CSV для всех кластерных развертываний Hyper-V и развертываний масштабируемого файлового сервера.
 
-По умолчанию в Windows Server 2012 кэш CSV отключен. В Windows Server 2012 R2 и более поздних версий кэш CSV включен по умолчанию. Однако вам необходимо указать размер памяти, выделенной под блочный кэш.
+В Windows Server 2019 кэш CSV включен по умолчанию с выделенным 1 гибибайт (гиб). В Windows Server 2016 и Windows Server 2012 она отключена по умолчанию. В Windows Server 2012 R2 кэш CSV включен по умолчанию. Тем не менее, необходимо по-прежнему выделить Размер блочного кэша для резервирования.
 
 В таблице ниже описываются два параметра конфигурации, служащие для управления кэшем CSV.
 
-| Windows Server 2012 R2 и более поздние версии |  Windows Server 2012                 | Описание |
+| Windows Server 2012 R2 и более поздние версии |  Windows Server 2012                 | Описание |
 | -------------------------------- | ------------------------------------ | ----------- |
 | BlockCacheSize                   | SharedVolumeBlockCacheSizeInMB       | Это общее свойство кластера, которое позволяет определить размер памяти (в мегабайтах), резервируемой для кэша CSV на каждом узле кластера. Например, если задано значение 512, на каждом узле резервируется 512 МБ системной памяти (Во многих кластерах рекомендуемое значение — 512 МБ.) Значение по умолчанию — 0 (для отключено). |
 | EnableBlockCache                 | CsvEnableBlockCache                  | Это частное свойство ресурса физического диска в кластере. Оно позволяет включить кэш CSV на отдельном диске, добавленном в том CSV. В Windows Server 2012 значение по умолчанию — 0 (для отключено). Чтобы включить кэш CSV на диске, настройте значение 1. По умолчанию в Windows Server 2012 R2 этот параметр включен. |

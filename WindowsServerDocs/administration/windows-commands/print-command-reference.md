@@ -7,20 +7,20 @@ ms.author: lizross
 author: eross-msft
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 54f69a7dc0841908d9fb4cc2bef81e4b2a85876a
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 7491070b7170ec6a47d4a2abe30c0ab7e5f4a28c
+ms.sourcegitcommit: e164aeffc01069b8f1f3248bf106fcdb7f64f894
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89638391"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91388307"
 ---
 # <a name="print-command-line-tool-reference"></a>Справочник по программе командной строки для печати
 
 > Область применения: Windows Server (половина ежегодного канала), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
-Сведения и ссылки на каждый из связанных программ командной строки печати.
+Сведения и ссылки на каждую из связанных программ командной строки печати:
 
-| Get-Help | Описание |
+| Команда | Описание |
 |--|--|
 | [lpq](lpq.md) | Отображает состояние очереди печати на компьютере, на котором запущена управляющая программа LPR. |
 | [lpr](lpr.md) | Отправляет файл на устройство общего доступа к компьютеру или принтеру, работающее со службой LPD, в процессе подготовки к печати. |

@@ -5,14 +5,14 @@ ms.author: cosdar
 manager: dongill
 ms.topic: article
 author: cosmosdarwin
-ms.date: 07/17/2019
+ms.date: 09/21/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: 315b645cf3c2adc60bd8eeed0406e1226b2d2128
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 502b04676fcb9a9c7342e701e71be473890f9668
+ms.sourcegitcommit: 8a826e992f28a70e75137f876a5d5e61238a24e4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87968851"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "91365357"
 ---
 # <a name="understanding-the-cache-in-storage-spaces-direct"></a>Общие сведения о кэше локальных дисковых пространств
 
@@ -28,36 +28,16 @@ ms.locfileid: "87968851"
 
 ## <a name="drive-types-and-deployment-options"></a>Типы накопителей и варианты развертывания
 
-Локальные дисковые пространства в настоящее время поддерживают работу с тремя типами запоминающих устройств:
+В настоящее время Локальные дисковые пространства работает с четырьмя типами запоминающих устройств:
 
-<table>
-    <tr style="border: 0;">
-        <td style="padding: 10px; border: 0; width:70px">
-            <img src="media/understand-the-cache/NVMe-100px.png" alt="Image of NVMe (Non-Volatile Memory Express)" >
-        </td>
-        <td style="padding: 10px; border: 0;" valign="middle">
-            Накопитель NVMe (Non-Volatile Memory Express)
-        </td>
-    </tr>
-    <tr style="border: 0;">
-        <td style="padding: 10px; border: 0; width:70px">
-            <img src="media/understand-the-cache/SSD-100px.png" alt="Image of SSD" >
-        </td>
-        <td style="padding: 10px; border: 0;" valign="middle">
-            Твердотельный накопитель (SSD) SATA/SAS
-        </td>
-    </tr>
-    <tr style="border: 0;">
-        <td style="padding: 10px; border: 0; width:70px">
-            <img src="media/understand-the-cache/HDD-100px.png"alt="Image of HDD" >
-        </td>
-        <td style="padding: 10px; border: 0;" valign="middle">
-            Жесткий диск (HDD)
-        </td>
-    </tr>
-</table>
+| Тип диска | Описание |
+|----------------------|--------------------------|
+|![Виртуаль](media/understand-the-cache/pmem-100px.png)|**PMem** — это постоянная память, новый тип хранения с низкой задержкой и высокой производительностью.|
+|![NVMe](media/understand-the-cache/NVMe-100px.png)|**NVMe** (Non-Volatile Memory Express) — это твердотельные диски, подключенные непосредственно к шине PCIe. Распространенные форм-факторы: 2,5 дюйма U.2, плата расширения PCIe (AIC) и M.2. NVMe предлагает больше операций ввода-вывода в секунду и пропускную способность с низкой задержкой, чем любой поддерживаемый нами тип диска, за исключением PMem.|
+|![SSD](media/understand-the-cache/SSD-100px.png)|**SSD** относится к твердотельным накопителям, которые подключаются через стандартный интерфейс SATA или SAS.|
+|![HDD](media/understand-the-cache/HDD-100px.png)|**HDD** относится к ротации, магнитным жестким дискам, которые обеспечивают большой объем хранилища.|
 
-Их можно комбинировать шестью способами, которые мы сгруппировали в две категории — «только с флэш-накопителями» и «гибридные».
+Их можно комбинировать различными способами, которые группируются по двум категориям: "все-Flash" и "гибридные".
 
 ### <a name="all-flash-deployment-possibilities"></a>Варианты развертывания только с флэш-накопителями
 
@@ -169,7 +149,7 @@ ms.locfileid: "87968851"
 
 При использовании локальных дисковых пространств не следует изменять стандартный режим работы кэша обратной записи дисковых пространств. Например, не следует использовать такой параметр, как **-WriteCacheSize** в командлете **New-Volume**.
 
-Решайте сами, использовать кэш CSV или нет. По умолчанию он отключен в локальных дисковых пространствах, но никак не конфликтует с новым кэшем, описанным в этом разделе. В некоторых рабочих сценариях он может повысить производительность. Подробнее см. в разделе [Включение кэша CSV](../../failover-clustering/failover-cluster-csvs.md#enable-the-csv-cache-for-read-intensive-workloads-optional).
+Решайте сами, использовать кэш CSV или нет. Он не конфликтует с кэшем, описанным в этом разделе каким бы то ни было. В некоторых рабочих сценариях он может повысить производительность. Подробнее см. в разделе [Включение кэша CSV](../../failover-clustering/failover-cluster-csvs.md#enable-the-csv-cache-for-read-intensive-workloads-optional).
 
 ## <a name="manual-configuration"></a>Настройка вручную
 

@@ -7,12 +7,12 @@ ms.author: lizross
 author: eross-msft
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 5545e63efc87527506704ecd6ff956c8000b95a5
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: a47817c43e8130091922a775b7844d9ea596f79b
+ms.sourcegitcommit: e164aeffc01069b8f1f3248bf106fcdb7f64f894
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89636098"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91388257"
 ---
 # <a name="erase"></a>erase
 
@@ -20,7 +20,6 @@ ms.locfileid: "89636098"
 
 > [!NOTE]
 > Эта команда аналогична [команде del](del.md).
-
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -41,7 +40,7 @@ del [/p] [/f] [/s] [/q] [/a[:]<attributes>] <names>
 | /a [:]`<attributes>` | Удаляет файлы на основе следующих атрибутов файлов:<ul><li>файлы **r** только для чтения</li><li>**h** скрытые файлы</li><li>**я** не проиндексированные файлы содержимого</li><li>**системные файлы**</li><li>файлы **,** готовые к архивации</li><li>**l** точки повторного анализа</li><li>**-** Используется в качестве префикса, означающего "not"</li></ul>. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 - При использовании `erase /p` команды вы увидите следующее сообщение:
 
