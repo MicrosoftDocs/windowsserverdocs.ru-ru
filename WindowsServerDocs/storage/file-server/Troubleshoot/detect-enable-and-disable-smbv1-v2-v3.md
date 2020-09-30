@@ -5,13 +5,13 @@ author: Deland-Han
 manager: dcscontentpm
 ms.topic: article
 ms.author: delhan
-ms.date: 12/25/2019
-ms.openlocfilehash: f96302242eca58d589586fa44e6e7cd04ef98cc1
-ms.sourcegitcommit: 0b3d6661c44aa1a697087e644437279142726d84
+ms.date: 09/29/2020
+ms.openlocfilehash: 9008a3381ead368afb627bcfdcd8084a389afabb
+ms.sourcegitcommit: f89639d3861c61620275c69f31f4b02fd48327ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "90083645"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91517550"
 ---
 # <a name="how-to-detect-enable-and-disable-smbv1-smbv2-and-smbv3-in-windows"></a>Как обнаруживать, включать и отключать SMBv1, SMB и SMBv3 в Windows
 
@@ -425,6 +425,30 @@ Default: 1 = Enabled (No registry key is created)
    > При использовании консоль управления групповыми политиками не нужно использовать кавычки или запятые. Просто введите каждую запись в отдельные строки.
 
 6. Перезапустите целевые системы, чтобы завершить отключение SMB v1.
+
+### <a name="auditing-smbv1-usage"></a>Аудит использования SMBv1
+
+Чтобы определить, какие клиенты пытаются подключиться к серверу SMB с помощью SMBv1, можно включить аудит в Windows Server 2016, Windows 10 и Windows Server 2019. Вы также можете проводить аудит в Windows 7 и Windows Server 2008 R2, если они установили обновление Май 2018 ежемесячно и в Windows 8, Windows 8.1, Windows Server 2012 и Windows Server 2012 R2, если они установили ежемесячное обновление за Июль 2017. 
+
+- Включите параметр
+  
+  ```PowerShell
+  Set-SmbServerConfiguration –AuditSmb1Access $true
+  ```
+
+- Включен 
+  
+  ```PowerShell
+  Set-SmbServerConfiguration –AuditSmb1Access $false
+  ```
+  
+- Автоматическое 
+  
+  ```PowerShell
+  Get-SmbServerConfiguration | Select AuditSmb1Access
+  ```
+
+Если включен аудит SMBv1, в журнале событий Микрософт-Виндовс-смбсервер\аудит появляется событие 3000, определяющее каждого клиента, который пытается подключиться с помощью SMBv1.
 
 ### <a name="summary"></a>Сводка
 

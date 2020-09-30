@@ -6,12 +6,12 @@ ms.author: nedpyle
 manager: tiaascs
 ms.date: 07/29/2020
 ms.topic: article
-ms.openlocfilehash: 0c3e52c11f7771856608b86ddd778ef51c4c8516
-ms.sourcegitcommit: 5344adcf9c0462561a4f9d47d80afc1d095a5b13
+ms.openlocfilehash: 6c3ca3a44665bab08c58853d569823f88c908f35
+ms.sourcegitcommit: f89639d3861c61620275c69f31f4b02fd48327ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90766917"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91517520"
 ---
 # <a name="storage-migration-service-known-issues"></a>Известные проблемы со службой миграции хранилища
 
@@ -636,6 +636,17 @@ Guidance: Check the detailed error and make sure the inventory requirements are 
 ```
 
 Эта проблема вызвана дефектом кода в службе миграции хранилища. В настоящее время единственным решением является переименование компьютера с тем же именем, что и у NetBIOS-имени, а затем с помощью команды [NETDOM ComputerName/Add](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc835082(v=ws.11)) добавьте альтернативное имя компьютера, которое использовалось до начала инвентаризации. Служба миграции хранилища поддерживает миграцию альтернативных имен компьютеров.
+
+## <a name="storage-migration-service-inventory-fails-with-a-parameter-cannot-be-found-that-matches-parameter-name-includedfsn"></a>Инвентаризация службы миграции хранилища завершается сбоем с "не удается найти параметр, соответствующий имени параметра" Инклудедфсн " 
+
+При использовании версии 2009 центра администрирования Windows для управления Windows Server 2019 Orchestrator при попытке выполнить инвентаризацию исходного компьютера появляется следующее сообщение об ошибке:
+
+```
+Remote exception : a parameter cannot be found that matches parameter name 'IncludeDFSN'" 
+```
+
+Чтобы устранить эту проблему, обновите расширение службы миграции хранилища по меньшей мере до версии 1.113.0 в центре администрирования Windows. Обновление должно автоматически отображаться в веб-канале и запрашивать установку.
+
 
 ## <a name="see-also"></a>См. также раздел
 
