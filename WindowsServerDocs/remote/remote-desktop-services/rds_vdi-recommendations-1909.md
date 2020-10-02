@@ -7,18 +7,18 @@ ms.topic: article
 author: heidilohr
 manager: lizross
 ms.date: 02/19/2020
-ms.openlocfilehash: eeadbdea10f08372cd927808b4b433d8ba7ee85f
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: b0ff8f353d4536f89d698f362e2998d9682665f2
+ms.sourcegitcommit: e164aeffc01069b8f1f3248bf106fcdb7f64f894
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89037832"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91389018"
 ---
 # <a name="optimizing-windows-10-version-1909-for-a-virtual-desktop-infrastructure-vdi-role"></a>Оптимизация Windows 10 версии 1909 для роли инфраструктуры виртуальных рабочих столов (VDI)
 
 Эта статья поможет вам выбрать параметры для Windows 10 версии 1909 (сборка 18363), которые должны обеспечить оптимальную производительность в среде инфраструктуры виртуальных рабочих столов (VDI). Все параметры в этом руководстве являются рекомендуемыми для рассмотрения, а не обязательными.
 
-Основные способы оптимизировать производительность Windows 10 в среде VDI — это обеспечить минимальную перерисовку графических элементов приложений, минимизировать фоновые действия, которые не дают особых преимуществ среде VDI, и, как правило, максимально уменьшить число запущенных процессов. Вторая цель — уменьшить использование дискового пространства в базовом образе до самого минимума. Благодаря реализациям VDI наименьший возможный размер базового, или "золотого", образа может немного сократить использование памяти в гипервизоре, а также немного уменьшить общее число сетевых операций, необходимых для доставки образа компьютера потребителю.
+Основные способы оптимизировать производительность Windows 10 в среде VDI — это обеспечить минимальную перерисовку графических элементов приложений, минимизировать фоновые действия, которые не дают особых преимуществ среде VDI, и, как правило, максимально уменьшить число запущенных процессов. Вторая цель — уменьшить использование дискового пространства в базовом образе до самого минимума. Благодаря реализациям VDI наименьший возможный размер базового или "золотого" образа может немного сократить использование памяти в гипервизоре, а также немного уменьшить общее число сетевых операций, необходимых для доставки образа компьютера потребителю.
 
 > [!NOTE]
 > Эти рекомендуемые параметры могут применяться к другим установкам Windows 10 версии 1909, в том числе на физических или виртуальных устройствах. Рекомендации в этой статье не должны влиять на возможность поддержки Windows 10 версии 1909.
@@ -35,7 +35,7 @@ ms.locfileid: "89037832"
 
 Существуют некоторые параметры безопасности, которые не применимы к средам VDI, которые не подключены к Интернету и, следовательно, не могут участвовать в облачной безопасности. Кроме того, существуют и другие параметры, которые могут использовать "обычные" устройства Windows, такие как Cloud Experience, Магазин Windows и т. д. Удаление доступа к неиспользуемым функциям уменьшает занимаемое место, пропускную способность сети и количество уязвимых зон.
 
-Что касается обновлений, Windows 10 использует алгоритм ежемесячных обновлений, чтобы клиентам не нужно было их выполнять. В большинстве случаев администраторы VDI контролируют процесс обновления с помощью процесса завершения работы виртуальных машин на основе "главного" или "золотого" образа, распечатывая этот образ, предназначенный только для чтения, исправляя его, затем упаковывая его и возвращая обратно в рабочую среду. Следовательно, нет необходимости в том, чтобы виртуальные машины VDI проверяли Центр обновления Windows. В некоторых случаях, например в виртуальных машинах постоянных сред VDI, выполняются обычные процедуры исправления. Кроме того, можно использовать Центр обновления Windows или Microsoft Intune. System Center Configuration Manager может использоваться для обработки обновлений и доставки других пакетов. Каждая организация должна определить наилучший способ обновления VDI.
+Что касается обновлений, Windows 10 использует алгоритм ежемесячных обновлений, чтобы клиентам не нужно было их выполнять. В большинстве случаев администраторы VDI контролируют процесс обновления с помощью процесса завершения работы виртуальных машин на основе "главного" или "золотого" образа, распечатывая этот образ, предназначенный только для чтения, исправляя его, затем упаковывая и возвращая обратно в рабочую среду. Следовательно, нет необходимости в том, чтобы виртуальные машины VDI проверяли Центр обновления Windows. В некоторых случаях, например в виртуальных машинах постоянных сред VDI, выполняются обычные процедуры исправления. Кроме того, можно использовать Центр обновления Windows или Microsoft Intune. System Center Configuration Manager может использоваться для обработки обновлений и доставки других пакетов. Каждая организация должна определить наилучший способ обновления VDI.
 
 > [!TIP]
 > Сценарий, который реализует оптимизации, описанные в этой статье, а также файл экспорта объекта групповой политики (GPO), который можно импортировать с помощью **LGPO.exe**, доступны на странице [TheVDIGuys](https://github.com/TheVDIGuys) на портале GitHub.
@@ -62,7 +62,7 @@ ms.locfileid: "89037832"
 
 ### <a name="non-persistent-vdi"></a>Временная среда VDI
 
-Когда временная реализация VDI основана на базовом, или "золотом", образе, оптимизации главным образом выполняются в базовом образе, а затем — посредством локальных параметров и политик.
+Когда временная реализация VDI основана на базовом или "золотом" образе, оптимизации главным образом выполняются в базовом образе, а затем — посредством локальных параметров и политик.
 
 При использовании временной среды VDI на основе образа базовый образ доступен только для чтения. При запуске виртуальной машины временной среды копия базового образа передается потоком в виртуальную машину. Действия, которые выполняются во время запуска, а затем — до последующей перезагрузки, перенаправляются во временное расположение. Обычно пользователям предоставляются сетевые расположения для хранения данных. В некоторых случаях профиль пользователя объединяется с виртуальной машиной ценовой категории "Стандартный", чтобы предоставить этому пользователю возможность использовать свои параметры.
 
@@ -115,7 +115,7 @@ ms.locfileid: "89037832"
 
 Вы можете использовать предпочтительную поисковую систему с условиями "начальное значение site:support.microsoft.com", чтобы отобразить известные проблемы, касающиеся начальных значений по умолчанию для служб.
 
-Вы можете заметить, что этот документ и связанные сценарии на GitHub не изменяют никаких разрешений по умолчанию. Если вы хотите увеличить параметры безопасности, начните с проекта **AaronLocker**. Дополнительные сведения см. в статье [ANNOUNCING: Application whitelisting with "AaronLocker"](/archive/blogs/aaron_margosis/announcing-application-whitelisting-with-aaronlocker) (ОБЪЯВЛЕНИЕ. Добавление приложений в список разрешенных с помощью AaronLocker).
+Вы можете заметить, что этот документ и связанные сценарии на GitHub не изменяют никаких разрешений по умолчанию. Если вы хотите увеличить параметры безопасности, начните с проекта **AaronLocker**. Дополнительные сведения об AaronLocker см. на [этой странице](https://github.com/microsoft/AaronLocker).
 
 #### <a name="vdi-optimization-categories"></a>Категории оптимизации VDI
 
@@ -188,8 +188,8 @@ Remove-AppxProvisionedPackage -Online -PackageName
 
 Полезность каждого приложения UWP должна быть отдельно оценена для каждой уникальной среды. Вам потребуется выполнить установку по умолчанию Windows 10 версии 1909, а затем определить, какие приложения запускаются и потребляют память. Например, можно рассмотреть возможность удаления приложений, которые запускаются автоматически, или приложений, которые автоматически отображают информацию в меню "Пуск", такие как "Погода" и "Новости", и которые могут быть бесполезными в вашей среде.
 
->[!NOTE]
->При использовании сценариев из GitHub вы можете легко управлять списком приложений, которые удаляются перед запуском сценария. После скачивания файлов сценария найдите файл Win10_1909_AppxPackages.txt, измените его и удалите записи для приложений, которые хотите сохранить, таких как "Калькулятор", "Записки" и т. д.
+> [!NOTE]
+> При использовании сценариев из GitHub вы можете легко управлять списком приложений, которые удаляются перед запуском сценария. После скачивания файлов сценария найдите файл AppxPackages.json, измените его и удалите записи для приложений, которые хотите сохранить, таких как "Калькулятор", "Записки" и т. д. Дополнительные сведения см. в разделе [Настройка](https://github.com/TheVDIGuys/Windows_10_VDI_Optimize#customization).
 
 ### <a name="manage-windows-optional-features-using-powershell"></a>Управление дополнительными компонентами Windows с помощью PowerShell
 
@@ -208,7 +208,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName "DirectPlay" -All
 Вы можете отключить компоненты в образе VDI, как показано в этом примере:
 
 ```powershell
-Disable-WindowsOptionalFeature -Online -FeatureName “WindowsMediaPlayer”
+Disable-WindowsOptionalFeature -Online -FeatureName "WindowsMediaPlayer"
 ```
 
 Затем вы можете удалить пакет проигрывателя Windows Media. В Windows 10 версии 1909 есть два пакета проигрывателя Windows Media:
@@ -246,7 +246,7 @@ InstallTime       : 10/29/2019 5:15:17 AM
 ```powershell
  Remove-WindowsPackage -PackageName Microsoft-Windows-MediaPlayer-Package~31bf3856ad364e35~amd64~~10.0.18362.1 -Online
 
- Remove-WindowsPackage -PackageName Microsoft-Windows-MediaPlayer-Package~31bf3856ad364e35~amd64~~10.0.18362.1 -Online
+ Remove-WindowsPackage -PackageName Microsoft-Windows-MediaPlayer-Package~31bf3856ad364e35~amd64~~10.0.18362.449 -Online
 ```
 
 #### <a name="enable-or-disable-windows-features-using-dism"></a>Включение или отключение компонентов Windows с помощью DISM
@@ -255,7 +255,7 @@ InstallTime       : 10/29/2019 5:15:17 AM
 
 #### <a name="default-user-settings"></a>Параметры пользователя по умолчанию
 
-Существуют настройки, которые можно внести в файл реестра Windows C:\Users\Default\NTUSER.DAT. Любые параметры, настроенные для этого файла, будут применены ко всем последующим профилям пользователей, созданным на основе устройства, на котором выполняется этот образ. Вы можете управлять списком параметров, которые будут применяться к профилю пользователя по умолчанию, изменив файл Win10_1909_DefaultUserSettings.txt. Одним из параметров, который вы, возможно, захотите рассмотреть более подробно (новый для этой итерации рекомендаций по настройке), является параметр **TaskbarSmallIcons**. Возможно, вы захотите проверить этот параметр в своей базе пользователей, прежде чем применять его. Параметр **TaskbarSmallIcons** уменьшает панель задач Windows и занимает меньше места на экране, делает значки более компактными, минимизирует интерфейс поиска. Пример панели задач до и после использования этого параметра можно посмотреть на приведенных ниже рисунках.
+Существуют настройки, которые можно внести в файл реестра Windows C:\Users\Default\NTUSER.DAT. Любые параметры, настроенные для этого файла, будут применены ко всем последующим профилям пользователей, созданным на основе устройства, на котором выполняется этот образ. Вы можете управлять списком параметров, которые будут применяться к профилю пользователя по умолчанию, изменив файл DefaultUserSettings.txt. Одним из параметров, который вы, возможно, захотите рассмотреть более подробно (новый для этой итерации рекомендаций по настройке), является параметр **TaskbarSmallIcons**. Возможно, вы захотите проверить этот параметр в своей базе пользователей, прежде чем применять его. Параметр **TaskbarSmallIcons** уменьшает панель задач Windows и занимает меньше места на экране, делает значки более компактными, минимизирует интерфейс поиска. Пример панели задач до и после использования этого параметра можно посмотреть на приведенных ниже рисунках.
 
 Рисунок 1. Обычная панель задач Windows 10 версии 1909
 
@@ -273,41 +273,53 @@ InstallTime       : 10/29/2019 5:15:17 AM
 
 ![Оптимизированные свойства системы, параметры производительности](media/rds-vdi-recommendations-1909/performance-options.png)
 
-Ниже приведены параметры оптимизации, которые применяются к кусту реестра профиля пользователя по умолчанию для оптимизации производительности.
+Для Windows 10 версии 1909 ниже приведены параметры оптимизации, которые применяются к кусту реестра профиля пользователя по умолчанию для оптимизации производительности.
 
-```
-Delete HKLM\Temp\SOFTWARE\Microsoft\Windows\CurrentVersion\Run /v OneDriveSetup /f
+```dos
+add "HKLM\Temp\Software\Microsoft\Windows\CurrentVersion\Explorer" /v ShellState /t REG_BINARY /d 240000003C2800000000000000000000 /f
+add "HKLM\Temp\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v IconsOnly /t REG_DWORD /d 1 /f
+add "HKLM\Temp\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v ListviewAlphaSelect /t REG_DWORD /d 0 /f
+add "HKLM\Temp\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v ListviewShadow /t REG_DWORD /d 0 /f
+add "HKLM\Temp\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v ShowCompColor /t REG_DWORD /d 1 /f
+add "HKLM\Temp\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v ShowInfoTip /t REG_DWORD /d 1 /f
+add "HKLM\Temp\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v TaskbarAnimations /t REG_DWORD /d 0 /f
+add "HKLM\Temp\Software\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects" /v VisualFXSetting /t REG_DWORD /d 3 /f
+add "HKLM\Temp\Software\Microsoft\Windows\DWM" /v EnableAeroPeek /t REG_DWORD /d 0 /f
+add "HKLM\Temp\Software\Microsoft\Windows\DWM" /v AlwaysHiberNateThumbnails /t REG_DWORD /d 0 /f
 add "HKLM\Temp\Control Panel\Desktop" /v DragFullWindows /t REG_SZ /d 0 /f
-add "HKLM\Temp\Control Panel\Desktop" /v WallPaper /t REG_SZ /d "" /f
-add "HKLM\Temp\Control Panel\Desktop\WindowMetrics" /v MinAnimate /t REG_DWORD /d 0 /f
-add HKLM\Temp\Software\Microsoft\Windows\DWM /v AccentColor /t REG_DWORD /d 4292311040 /f
-add HKLM\Temp\Software\Microsoft\Windows\DWM /v ColorizationColor /t REG_DWORD /d 4292311040 /f
-add HKLM\Temp\Software\Microsoft\Windows\DWM /v AlwaysHibernateThumbnails /t REG_DWORD /d 0 /f
-add HKLM\Temp\Software\Microsoft\Windows\DWM /v EnableAeroPeek /t REG_DWORD /d 0 /f
-add HKLM\Temp\Software\Microsoft\Windows\DWM /v AlwaysHibernateThumbnails /t REG_DWORD /d 0 /f
-add HKLM\Temp\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced /v AutoCheckSelect /t REG_DWORD /d 0 /f
-add HKLM\Temp\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced /v HideIcons /t REG_DWORD /d 0 /f
-add HKLM\Temp\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced /v ListviewAlphaSelect /t REG_DWORD /d 0 /f
-add HKLM\Temp\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced /v ListViewShadow /t REG_DWORD /d 0 /f
-add HKLM\Temp\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced /v ShowInfoTip /t REG_DWORD /d 0 /f
-add HKLM\Temp\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced /v TaskbarAnimations /t REG_DWORD /d 0 /f
-add HKLM\Temp\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced /v TaskbarSmallIcons /t REG_DWORD /d 1 /f
-add HKLM\Temp\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\People /v PeopleBand /t REG_DWORD /d 0 /f
-add HKLM\Temp\Software\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects\AnimateMinMax /v DefaultApplied /t REG_DWORD /d 0 /f
-add HKLM\Temp\Software\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects\ComboBoxAnimation /v DefaultApplied /t REG_DWORD /d 0 /f
-add HKLM\Temp\Software\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects\ControlAnimations /v DefaultApplied /t REG_DWORD /d 0 /f
-add HKLM\Temp\Software\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects\DWMAeroPeekEnabled /v DefaultApplied /t REG_DWORD /d 0 /f
-add HKLM\Temp\Software\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects\DWMSaveThumbnailEnabled /v DefaultApplied /t REG_DWORD /d 0 /f
-add HKLM\Temp\Software\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects\MenuAnimation /v DefaultApplied /t REG_DWORD /d 0 /f
-add HKLM\Temp\Software\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects\SelectionFade /v DefaultApplied /t REG_DWORD /d 0 /f
-add HKLM\Temp\Software\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects\TaskbarAnimations /v DefaultApplied /t REG_DWORD /d 0 /f
-add HKLM\Temp\Software\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects\TooltipAnimation /v DefaultApplied /t REG_DWORD /d 0 /f
-add HKLM\Temp\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager /v SubscribedContent-338388Enabled /t REG_DWORD /d 0 /f
-add HKLM\Temp\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager /v SubscribedContent-338389Enabled /t REG_DWORD /d 0 /f
-add HKLM\Temp\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager /v SystemPaneSuggestionsEnabled /t REG_DWORD /d 0 /f
+add "HKLM\Temp\Control Panel\Desktop" /v FontSmoothing /t REG_SZ /d 2 /f
+add "HKLM\Temp\Control Panel\Desktop" /v UserPreferencesMask /t REG_BINARY /d 9032078010000000 /f
+add "HKLM\Temp\Control Panel\Desktop\WindowMetrics" /v MinAnimate /t REG_SZ /d 0 /f
+add "HKLM\Temp\Software\Microsoft\Windows\CurrentVersion\StorageSense\Parameters\StoragePolicy" /v 01 /t REG_DWORD /d 0 /f
+add "HKLM\Temp\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" /v SubscribedContent-338393Enabled /t REG_DWORD /d 0 /f
+add "HKLM\Temp\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" /v SubscribedContent-353694Enabled /t REG_DWORD /d 0 /f
+add "HKLM\Temp\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" /v SubscribedContent-353696Enabled /t REG_DWORD /d 0 /f
+add "HKLM\Temp\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" /v SubscribedContent-338388Enabled /t REG_DWORD /d 0 /f
+add "HKLM\Temp\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" /v SubscribedContent-338389Enabled /t REG_DWORD /d 0 /f
+add "HKLM\Temp\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" /v SystemPaneSuggestionsEnabled /t REG_DWORD /d 0 /f
+add "HKLM\Temp\Control Panel\International\User Profile" /v HttpAcceptLanguageOptOut /t REG_DWORD /d 1 /f
+add "HKLM\Temp\Software\Microsoft\Windows\CurrentVersion\BackgroundAccessApplications\Microsoft.Windows.Photos_8wekyb3d8bbwe" /v Disabled /t REG_DWORD /d 1 /f
+add "HKLM\Temp\Software\Microsoft\Windows\CurrentVersion\BackgroundAccessApplications\Microsoft.Windows.Photos_8wekyb3d8bbwe" /v DisabledByUser /t REG_DWORD /d 1 /f
+add "HKLM\Temp\Software\Microsoft\Windows\CurrentVersion\BackgroundAccessApplications\Microsoft.SkypeApp_kzf8qxf38zg5c" /v Disabled /t REG_DWORD /d 1 /f
+add "HKLM\Temp\Software\Microsoft\Windows\CurrentVersion\BackgroundAccessApplications\Microsoft.SkypeApp_kzf8qxf38zg5c" /v DisabledByUser /t REG_DWORD /d 1 /f
+add "HKLM\Temp\Software\Microsoft\Windows\CurrentVersion\BackgroundAccessApplications\Microsoft.YourPhone_8wekyb3d8bbwe" /v Disabled /t REG_DWORD /d 1 /f
+add "HKLM\Temp\Software\Microsoft\Windows\CurrentVersion\BackgroundAccessApplications\Microsoft.YourPhone_8wekyb3d8bbwe" /v DisabledByUser /t REG_DWORD /d 1 /f
+add "HKLM\Temp\Software\Microsoft\Windows\CurrentVersion\BackgroundAccessApplications\Microsoft.MicrosoftEdge_8wekyb3d8bbwe" /v Disabled /t REG_DWORD /d 1 /f
+add "HKLM\Temp\Software\Microsoft\Windows\CurrentVersion\BackgroundAccessApplications\Microsoft.MicrosoftEdge_8wekyb3d8bbwe" /v DisabledByUser /t REG_DWORD /d 1 /f
+add "HKLM\Temp\Software\Microsoft\Windows\CurrentVersion\BackgroundAccessApplications\Microsoft.PPIProjection_cw5n1h2txyewy" /v Disabled /t REG_DWORD /d 1 /f
+add "HKLM\Temp\Software\Microsoft\Windows\CurrentVersion\BackgroundAccessApplications\Microsoft.PPIProjection_cw5n1h2txyewy" /v DisabledByUser /t REG_DWORD /d 1 /f
+add "HKLM\Temp\Software\Microsoft\InputPersonalization" /v RestrictImplicitInkCollection /t REG_DWORD /d 1 /f
+add "HKLM\Temp\Software\Microsoft\InputPersonalization" /v RestrictImplicitTextCollection /t REG_DWORD /d 1 /f
+add "HKLM\Temp\Software\Microsoft\Personalization\Settings" /v AcceptedPrivacyPolicy /t REG_DWORD /d 0 /f
+add "HKLM\Temp\Software\Microsoft\InputPersonalization\TrainedDataStore" /v HarvestContacts /t REG_DWORD /d 0 /f
+add "HKLM\Temp\Software\Microsoft\Windows\CurrentVersion\UserProfileEngagement" /v ScoobeSystemSettingEnabled /t REG_DWORD /d 0 /f
+add "HKLM\Temp\Software\Microsoft\Windows\CurrentVersion\UserProfileEngagement" /v ScoobeSystemSettingEnabled /t REG_DWORD /d 0 /f
+add "HKLM\Temp\Software\Microsoft\Windows\CurrentVersion\UserProfileEngagement" /v ScoobeSystemSettingEnabled /t REG_DWORD /d 0 /f
+add "HKCU\Software\Microsoft\InputPersonalization" /v RestrictImplicitInkCollection /t REG_DWORD /d 1 /f
+add "HKCU\Software\Microsoft\InputPersonalization" /v RestrictImplicitTextCollection /t REG_DWORD /d 1 /f
 ```
 
-В параметрах локальной политики вы можете отключить изображения для фонов в VDI.  Если вам нужны изображения, вы можете создать собственные фоновые изображения с уменьшенной глубиной цвета, чтобы ограничить пропускную способность сети, которая используется для передачи информации об изображении. Если вы не хотите указывать фоновое изображение в локальной политике, может потребоваться установить цвет фона перед установкой параметров локальной политики, так как после настройки политики у пользователя не будет возможности изменить цвет фона. Возможно, было бы лучше указать значение NULL в качестве фонового изображения. В следующем разделе приведен еще один параметр политики, который запрещает использование фона в сеансах протокола удаленного рабочего стола.
+В параметрах локальной политики вы можете отключить изображения для фонов в VDI. Если вам нужны изображения, вы можете создать собственные фоновые изображения с уменьшенной глубиной цвета, чтобы ограничить пропускную способность сети, которая используется для передачи информации об изображении. Если вы не хотите указывать фоновое изображение в локальной политике, может потребоваться установить цвет фона перед установкой параметров локальной политики, так как после настройки политики у пользователя не будет возможности изменить цвет фона. Возможно, было бы лучше указать значение NULL в качестве фонового изображения. В следующем разделе приведен еще один параметр политики, который запрещает использование фона в сеансах протокола удаленного рабочего стола.
 
 ### <a name="local-policy-settings"></a>Параметры локальной политики
 
@@ -548,7 +560,7 @@ add HKLM\Temp\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager /
 > Вы можете перечислить запущенные службы с помощью этого примера кода PowerShell, выводя только короткое имя службы:
 
 ```powershell
- Get-Service | Where-Object {$_.Status -eq "Running"} | select -ExpandProperty Name
+ Get-Service | Where-Object {$_.Status -eq "Running"} | Select-Object -ExpandProperty Name
  ```
 
 | Службы Windows | Элемент | Комментарии|
@@ -575,7 +587,7 @@ add HKLM\Temp\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager /
 
 [Per-user services in Windows 10 and Windows Server](/windows/application-management/per-user-services-in-windows) (Службы "на пользователя" в Windows 10 и Windows Server)
 
-Если вы планируете изменить значения запуска службы, рекомендуется открыть запрос с повышенными правами CMD и запустить средство диспетчера служб Sc.exe. Дополнительные сведения об использовании Sc.exe см. в [этой статье](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/cc754599(v=ws.11)).
+Если вы планируете изменить значения запуска службы, рекомендуется открыть запрос с повышенными правами CMD и запустить средство диспетчера служб Sc.exe. Дополнительные сведения об использовании Sc.exe см. в [этой статье](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc754599(v=ws.11)).
 
 ### <a name="scheduled-tasks"></a>Запланированные задачи
 
@@ -589,7 +601,7 @@ add HKLM\Temp\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager /
  Get-ScheduledTask | Select-Object -Property TaskPath,TaskName,State,Description
 ```
 
->[!NOTE]
+> [!NOTE]
 > Есть несколько задач, которые невозможно отключить с помощью сценария, даже если вы работаете с повышенными правами. Рекомендуется не отключать задачи, которые нельзя отключить с помощью сценария.
 
 Имя запланированной задачи:
@@ -749,9 +761,11 @@ Windows по умолчанию собирает и хранит огранич�
 Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\LanmanWorkstation\Parameters" RequireSecuritySignature -Value 0 -Force
 ```
 
-Дополнительные параметры из руководства "Базовый план ограниченной функциональности трафика Windows". Корпорация Майкрософт выпустила базовый план, созданный на основе тех же процедур, что и [базовые параметры безопасности Windows](/powershell/module/smbshare/set-smbserverconfiguration?view=win10-ps), для сред, которые либо не подключены к Интернету напрямую, либо для которых вы хотите сократить объем данных, отправляемых в корпорацию Майкрософт и другие службы.
+Дополнительные параметры из руководства [Базовый план ограниченной функциональности трафика Windows](https://docs.microsoft.com/windows/privacy/manage-connections-from-windows-operating-system-components-to-microsoft-services).
 
-Параметры [базового плана ограниченной функциональности трафика Windows](/windows/privacy/manage-connections-from-windows-operating-system-components-to-microsoft-services) помечены звездочкой в таблице параметров групповой политики.
+Корпорация Майкрософт выпустила базовый план, созданный на основе тех же процедур, что и [базовые параметры безопасности Windows](https://docs.microsoft.com/windows/security/threat-protection/windows-security-baselines), для сред, которые либо не подключены к Интернету напрямую, либо для которых вы хотите сократить объем данных, отправляемых в корпорацию Майкрософт и другие службы.
+
+Параметры базового плана ограниченной функциональности трафика Windows помечены звездочкой в таблице параметров групповой политики.
 
 #### <a name="disk-cleanup-including-using-the-disk-cleanup-wizard"></a>Очистка диска (в том числе с помощью мастера очистки диска)
 
@@ -783,29 +797,28 @@ Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\LanmanWorkstatio
 
 ### <a name="remove-onedrive-components"></a>Удаление компонентов OneDrive
 
-Удаление OneDrive включает в себя удаление пакета и *LNK-файлов. Следующий пример кода PowerShell включен в сценарии оптимизации VDI GitHub и может быть использован для удаления OneDrive из образа:
+Удаление OneDrive включает в себя удаление пакета и LNK-файлов. Следующий пример кода PowerShell включен в сценарии оптимизации VDI GitHub и может быть использован для удаления OneDrive из образа:
 
 ```azurecli
+Get-Process -Name OneDrive | Stop-Process -Force -Confirm:$false
+Get-Process -Name explorer | Stop-Process -Force -Confirm:$false
+if (Test-Path "C:\\Windows\\System32\\OneDriveSetup.exe")`
+    { Start-Process "C:\\Windows\\System32\\OneDriveSetup.exe"`
+        -ArgumentList "/uninstall"`
+        -Wait }
+if (Test-Path "C:\\Windows\\SysWOW64\\OneDriveSetup.exe")`
+    { Start-Process "C:\\Windows\\SysWOW64\\OneDriveSetup.exe"`
+        -ArgumentList "/uninstall"`
+        -Wait }
+Remove-Item -Path "C:\\Windows\\ServiceProfiles\\LocalService\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\OneDrive.lnk" -Force
+Remove-Item -Path "C:\\Windows\\ServiceProfiles\\NetworkService\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\OneDrive.lnk" -Force
 
-Taskkill.exe /F /IM "OneDrive.exe"
-Taskkill.exe /F /IM "Explorer.exe"`
-    if (Test-Path "C:\\Windows\\System32\\OneDriveSetup.exe")`
-     { Start-Process "C:\\Windows\\System32\\OneDriveSetup.exe"`
-         -ArgumentList "/uninstall"`
-         -Wait }
-    if (Test-Path "C:\\Windows\\SysWOW64\\OneDriveSetup.exe")`
-     { Start-Process "C:\\Windows\\SysWOW64\\OneDriveSetup.exe"`
-         -ArgumentList "/uninstall"`
-         -Wait }
-Remove-Item -Path
-"C:\\Windows\\ServiceProfiles\\LocalService\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\OneDrive.lnk" -Force
-Remove-Item -Path "C:\\Windows\\ServiceProfiles\\NetworkService\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\OneDrive.lnk" -Force \# Remove the automatic start item for OneDrive from the default user profile registry hive
+# Remove the automatic start item for OneDrive from the default user profile registry hive
+
 Start-Process C:\\Windows\\System32\\Reg.exe -ArgumentList "Load HKLM\\Temp C:\\Users\\Default\\NTUSER.DAT" -Wait
 Start-Process C:\\Windows\\System32\\Reg.exe -ArgumentList "Delete HKLM\\Temp\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run /v OneDriveSetup /f" -Wait
 Start-Process C:\\Windows\\System32\\Reg.exe -ArgumentList "Unload HKLM\\Temp" -Wait Start-Process -FilePath C:\\Windows\\Explorer.exe -Wait
 ```
-
-Если у вас есть вопросы или возникли сложности, касающиеся сведений в этом документе, обратитесь к группе поддержки учетных записей Майкрософт, изучите блог о Microsoft VDI, отправьте сообщение на форумы Майкрософт или сообщите о своих вопросах и проблемах в корпорацию Майкрософт.
 
 ## <a name="turn-windows-update-back-on"></a>Повторное включение Центра обновления Windows
 
@@ -856,6 +869,8 @@ Start-Process C:\\Windows\\System32\\Reg.exe -ArgumentList "Unload HKLM\\Temp" -
     - библиотека планировщика заданий \\ Microsoft \\ Windows \\ InstallService \\ ScanForUpdatesAsUser.
 
 Перезагрузите устройство, чтобы все эти параметры вступили в силу. Если вы хотите отключить на этом устройстве предлагаемые обновления компонентов, последовательно выберите "Параметры" \\ "Центр обновления Windows" \\ "Дополнительные параметры". Выберите, когда устанавливать обновления, а затем установите параметр вручную. **Обновление компонентов включает в себя новые возможности и улучшения. Обновление может быть отложено на указанное число дней ненулевого значения, такого как 180, 365 и т. д.**
+
+Если у вас есть вопросы или возникли сложности, касающиеся сведений в этом документе, обратитесь к группе поддержки учетных записей Майкрософт, изучите блог о Microsoft VDI, отправьте сообщение на форумы Майкрософт или сообщите о своих вопросах и проблемах в корпорацию Майкрософт.
 
 ### <a name="references"></a>Ссылки
 

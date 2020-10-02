@@ -7,12 +7,12 @@ ms.author: lizross
 author: eross-msft
 manager: mtillman
 ms.date: 9/18/2020
-ms.openlocfilehash: 0d7afc528f2c87bdd90495729aee58cf8cf8300e
-ms.sourcegitcommit: ad8fe5bb915e616a437be60e1836d3ce891dabaa
+ms.openlocfilehash: d791151493e98c833a3981d305b81fe0b536b19c
+ms.sourcegitcommit: b5c7eaa78e16f3b395611cdbdd4c88dfc653832b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "90813446"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "91406287"
 ---
 # <a name="step-2-configure-wsus"></a>Шаг 2. Настройка WSUS
 

@@ -5,14 +5,14 @@ ms.topic: article
 author: heidilohr
 manager: lizross
 ms.author: helohr
-ms.date: 09/16/2020
+ms.date: 09/22/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: 5d45bfad559069f9652768ba7f89bbdd3521ab8a
-ms.sourcegitcommit: d04f8fd54fe9aa5703af2f66a7150f4a6fb5bb37
+ms.openlocfilehash: 4edd85e305d30cfe22480021b67f3c0213275926
+ms.sourcegitcommit: c0e0bdc9a1b28bd21951d68b5cfd2cce48a770ef
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "90718628"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90999258"
 ---
 # <a name="whats-new-in-the-windows-desktop-client"></a>Что нового в клиенте для Windows Desktop
 
@@ -24,16 +24,20 @@ ms.locfileid: "90718628"
 
 |Группа пользователей |Последняя версия  |Минимальная поддерживаемая версия |
 |-----------|----------------|--------------------------|
-|Общие     |1.2.1272        |1.2.945                   |
-|Предварительная оценка    |1.2.1357        |1.2.1357                  |
+|Общие     |1.2.1364        |1.2.945                   |
+|Предварительная оценка    |1.2.1364        |1.2.945                   |
 
-## <a name="updates-for-version-121357-insiders"></a>Обновления для версии 1.2.1357 (программа предварительной оценки)
+## <a name="updates-for-version-121364"></a>Обновления для версии 1.2.1364
 
-*Дата публикации: 09.09.2020*
+*Дата публикации: 22.09.2020*
 
-Скачать: [Windows (64-разрядная версия)](https://go.microsoft.com/fwlink/?linkid=2139233), [Windows (32-разрядная версия)](https://go.microsoft.com/fwlink/?linkid=2139144), [Windows (ARM64)](https://go.microsoft.com/fwlink/?linkid=2139368)
+Скачать: Windows [(64-разрядная версия)](https://go.microsoft.com/fwlink/?linkid=2139369), [Windows (32-разрядная версия)](https://go.microsoft.com/fwlink/?linkid=2139456), [Windows (ARM64)](https://go.microsoft.com/fwlink/?linkid=2139370)
 
 - Исправлена ошибка, из-за которой единый вход не работал в Windows 7.
+- Исправлена ошибка подключения, которая возникла при вызове или присоединении к звонку Teams, в то время как другое приложение открывает аудиопоток в монопольном режиме, и при включении для команд оптимизации мультимедиа.
+- Исправлена ошибка при перечислении аудио-или видеоустройств в Teams при включенной оптимизации мультимедиа для Teams.
+- Добавлена ссылка Need help with settings? (Нужна помощь с параметрами?) на страницу параметров рабочего стола.
+- Исправлена проблема с кнопкой "Подписаться", которая возникла при использовании темных тем с высокой контрастностью.
 
 ## <a name="updates-for-version-121275"></a>Обновления для версии 1.2.1275
 
@@ -51,8 +55,6 @@ ms.locfileid: "90718628"
 ## <a name="updates-for-version-121186"></a>Обновления для версии 1.2.1186
 
 *Дата публикации: 28.07.2020*
-
-Скачать: [Windows (64-разрядная версия)](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4C7Qy), [Windows (32-разрядная версия)](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4Ciex), [Windows (ARM64)](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4C7Qx)
 
 - Теперь вы можете подписываться на рабочие области с несколькими учетными записями пользователей, используя меню переполнения ( **...** ) на панели команд в верхней части клиента. Чтобы вы могли различать рабочие области, их имена теперь включают имя пользователя, как и все ярлыки приложений.
 - В сообщения об ошибках, связанных с подпиской, добавлены дополнительные сведения, чтобы оптимизировать процесс устранения неполадок.
