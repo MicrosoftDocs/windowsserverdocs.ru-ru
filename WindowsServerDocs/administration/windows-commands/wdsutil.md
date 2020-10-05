@@ -7,40 +7,42 @@ ms.author: lizross
 author: eross-msft
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: aa3f30e9588a149ae4fe586532b2898a037257d9
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 7516eea3d6edd013b3f507671e6b219da7dfd632
+ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89638872"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "91718371"
 ---
 # <a name="wdsutil"></a>wdsutil
 
 > Область применения: Windows Server (половина ежегодного канала), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
 WDSUTIL — это служебная программа командной строки, используемая для управления сервером служб развертывания Windows. Чтобы выполнить эти команды, нажмите кнопку **Пуск**, щелкните правой кнопкой мыши пункт **Командная строка**и выберите команду **Запуск от имени администратора**.
+
 ## <a name="commands"></a>Команды
+
 |Команда|Описание|
 |------|--------|
-|[Использование команды Add](using-the-add-command.md)|Добавляет объекты или предварительно подготовленные компьютеры.|
-|[Использование команды "утвердить-Аутоадддевицес"](using-the-approve-autoadddevices-command.md)|Утверждает компьютеры, ожидающие утверждения администратором.|
-|[Использование команды Convert-Рипрепимаже](using-the-convert-riprepimage-command.md)|преобразует существующий образ подготовки удаленной установки (RIPrep) в файл образа Windows (WIM).|
-|[Использование команды Copy](using-the-copy-command.md)|Копирование образа или группы драйверов.|
-|[Использование команды Delete-Аутоадддевицес](using-the-delete-autoadddevices-command.md)|Удаляет компьютеры, которые находятся в базе данных автоматического добавления (в которой хранятся сведения о компьютерах на сервере).|
-|[Использование команды Disable](using-the-disable-command.md)|Отключает все службы для служб развертывания Windows.|
-|[Использование команды Disconnect-Client](using-the-disconnect-client-command.md)|Отключает клиент от многоадресной передачи или пространства имен.|
-|[Использование команды Enable](using-the-enable-command.md)|Включает все службы для служб развертывания Windows.|
-|[Использование команды Export-Image](using-the-export-image-command.md)|Экспортирует образ из хранилища образов в WIM-файл.|
-|[Использование команды Get](using-the-get-command.md)|Извлекает свойства и атрибуты указанного объекта.|
-|[Использование команды Initialize-Server](using-the-initialize-server-command.md)|Настраивает сервер служб развертывания Windows для первоначального использования.|
-|[Использование команды "создать"](using-the-new-command.md)|создает новую запись и обнаруживает образы, а также многоадресные передачи и пространства имен.|
-|[Команда Progress](the-progress-command.md)|Отображает состояние хода выполнения во время выполнения команды.|
-|[Использование команды REJECT-Аутоадддевицес](using-the-reject-autoadddevices-command.md)|Отклоняет компьютеры, ожидающие утверждения администратором.|
-|[Использование команды Remove](using-the-remove-command.md)|Удаляет объекты.|
-|[Использование команды replace-Image](using-the-replace-image-command.md)|заменяет образ загрузки или установки новой версией этого образа.|
-|[Команда Set](the-set-command.md)|Задает свойства и атрибуты для указанного объекта.|
-|[Команда запуска сервера](the-start-server-command.md)|запускает все службы на сервере служб развертывания Windows, включая многоадресную передачу, пространства имен и транспортный сервер.|
-|[Команда "прерывать сервер"](the-stop-server-command.md)|Останавливает все службы на сервере служб развертывания Windows.|
-|[Параметр Uninitialize-Server](the-uninitialize-server-option.md)|Отмена изменений, внесенных во время инициализации сервера.|
-|[Команда Update-Серверфилес](the-update-serverfiles-command.md)|Обновляет файлы сервера на общем ресурсе remoteInstall.|
-|[Команда verbose](the-verbose-command.md)|Отображает подробные выходные данные для указанной команды.|
+|[Команда WDSUTIL Add](wdsutil-add.md)|Добавляет объекты или предварительно подготовленные компьютеры.|
+|[Команда WDSUTIL утвердить-аутоадддевицес](wdsutil-approve-autoadddevices.md)|Утверждает компьютеры, ожидающие утверждения администратором.|
+|[Команда WDSUTIL Convert-рипрепимаже](wdsutil-convert-riprepimage.md)|Преобразует существующий образ подготовки удаленной установки (RIPrep) в файл образа Windows (WIM).|
+|[Команда WDSUTIL Copy](wdsutil-copy.md)|Копирование образа или группы драйверов.|
+|[Команда WDSUTIL Delete-аутоадддевицес](wdsutil-delete-autoadddevices.md)|Удаляет компьютеры, которые находятся в базе данных автоматического добавления (в которой хранятся сведения о компьютерах на сервере).|
+|[Команда WDSUTIL Disable](wdsutil-disable.md)|Отключает все службы для служб развертывания Windows.|
+|[WDSUTIL Disconnect-команда клиента](wdsutil-disconnect-client.md)|Отключает клиент от многоадресной передачи или пространства имен.|
+|[Команда WDSUTIL Enable](wdsutil-enable.md)|Включает все службы для служб развертывания Windows.|
+|[Команда WDSUTIL Export-Image](wdsutil-export-image.md)|Экспортирует образ из хранилища образов в WIM-файл.|
+|[Команда WDSUTIL Get](wdsutil-get.md)|Извлекает свойства и атрибуты указанного объекта.|
+|[WDSUTIL Initialize-Server, команда](wdsutil-initialize-server.md)|Настраивает сервер служб развертывания Windows для первоначального использования.|
+|[Команда WDSUTIL New](wdsutil-new.md)|создает новую запись и обнаруживает образы, а также многоадресные передачи и пространства имен.|
+|[Команда WDSUTIL Progress](wdsutil-progress.md)|Отображает состояние хода выполнения во время выполнения команды.|
+|[Команда WDSUTIL Reject-аутоадддевицес](wdsutil-reject-autoadddevices.md)|Отклоняет компьютеры, ожидающие утверждения администратором.|
+|[Команда WDSUTIL Remove](wdsutil-remove.md)|Удаляет объекты.|
+|[Команда WDSUTIL Replace-Image](wdsutil-replace-image.md)|заменяет образ загрузки или установки новой версией этого образа.|
+|[Команда WDSUTIL Set](wdsutil-set.md)|Задает свойства и атрибуты для указанного объекта.|
+|[Команда WDSUTIL Start Server](wdsutil-start-server.md)|запускает все службы на сервере служб развертывания Windows, включая многоадресную передачу, пространства имен и транспортный сервер.|
+|[Команда WDSUTIL для команды "выйти из сервера"](wdsutil-stop-server.md)|Останавливает все службы на сервере служб развертывания Windows.|
+|[Команда WDSUTIL Uninitialize-Server](wdsutil-uninitialize-server.md)|Отмена изменений, внесенных во время инициализации сервера.|
+|[Команда WDSUTIL Update-серверфилес](wdsutil-update-serverfiles.md)|Обновляет файлы сервера на общем ресурсе remoteInstall.|
+|[Команда WDSUTIL verbose](wdsutil-verbose.md)|Отображает подробные выходные данные для указанной команды.|

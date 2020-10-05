@@ -7,12 +7,12 @@ ms.author: lizross
 author: eross-msft
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: f6b18beeab34359867b0a946269b4cefa778ab78
-ms.sourcegitcommit: e164aeffc01069b8f1f3248bf106fcdb7f64f894
+ms.openlocfilehash: 9dd6cc30b2a1d1032300382efeb42b0f2fec5a02
+ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91390825"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "91718351"
 ---
 # <a name="set-commands-shadow-copy-creation"></a>Задание команд (создание теневой копии)
 

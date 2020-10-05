@@ -7,12 +7,12 @@ ms.author: lizross
 author: eross-msft
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 4faa12cef8485be6b76b16ff2ab545d0eae06cb7
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 3bce9d2ac70af1983af6b85fdf3b12e8e573bc8a
+ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89640449"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "91717881"
 ---
 # <a name="time"></a>time
 
@@ -36,14 +36,14 @@ time [/t | [<HH>[:<MM>[:<SS>]] [am|pm]]]
 |/t|Отображает текущее время без запроса на новое время.|
 |/?|Отображение справки в командной строке.|
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Комментарии
 
 -   Чтобы изменить текущее время, необходимо иметь учетные данные администратора.
 -   Необходимо разделять значения *чч*, *mm*и *SS* с помощью двоеточий (:). *SS* и *nn* должны быть разделены точкой (.).
 -   Допустимые значения *чч* : от 0 до 24.
 -   Допустимые значения *mm* и *SS* : от 0 до 59.
 
-## <a name="examples"></a><a name="BKMK_examples"></a>Примеры
+## <a name="examples"></a>Примеры
 
 Если расширения команд включены, для вывода текущего системного времени введите:
 ```

@@ -1,18 +1,18 @@
 ---
 title: telnet quit
-description: Справочная статья по Telnet quit, которая завершает работу с Telnet.
+description: Справочная статья по команде Telnet quit, которая завершает работу программы Telnet.
 ms.topic: reference
 ms.assetid: a6e033f2-f0c2-404c-9cb4-abd1d7af0eea
 ms.author: lizross
 author: eross-msft
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 9f00ac92e94f834c82cb9489247d3afae8ff568a
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: cb53a9b894fb050f51a85dbed869c1e850897bea
+ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89638914"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "91718001"
 ---
 # <a name="telnet-quit"></a>Telnet: Quit
 
@@ -21,15 +21,19 @@ ms.locfileid: "89638914"
 Выход из программы Telnet.
 
 ## <a name="syntax"></a>Синтаксис
+
 ```
 q[uit]
 ```
-#### <a name="parameters"></a>Параметры
-нет
+
 ## <a name="examples"></a>Примеры
-Выйдите из программы Telnet.
+
+Чтобы выйти из программы Telnet, введите:
+
 ```
 q
 ```
+
 ## <a name="additional-references"></a>Дополнительные ссылки
+
 - [Условные обозначения синтаксиса команд командной строки](command-line-syntax-key.md)
