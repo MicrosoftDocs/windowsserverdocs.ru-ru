@@ -6,12 +6,12 @@ author: wmgries
 manager: klaasl
 ms.author: wgries
 ms.date: 09/15/2016
-ms.openlocfilehash: 73f9ce6e88fa56a645f0ffedba4f38dec87e973b
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: b8410cb5804e8cbac3ce03e575c2f33c2bc61388
+ms.sourcegitcommit: 00406560a665a24d5a2b01c68063afdba1c74715
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87936383"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "91716864"
 ---
 # <a name="advanced-data-deduplication-settings"></a>Дополнительные параметры дедупликации данных
 
@@ -24,10 +24,10 @@ ms.locfileid: "87936383"
 
 ### <a name="changing-a-data-deduplication-schedule"></a><a id="modifying-job-schedules-change-schedule"></a>Изменение расписания дедупликации данных
 Для планирования заданий дедупликации данных используется планировщик заданий Windows. Кроме того, их можно просматривать и изменять по пути Microsoft\Windows\Дедупликация. Дедупликация данных включает несколько командлетов, упрощающих планирование.
-* [`Get-DedupSchedule`](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc730705(v=ws.11))Отображает текущие запланированные задания.
-* [`New-DedupSchedule`](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc730705(v=ws.11))Создает новое запланированное задание.
-* [`Set-DedupSchedule`](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc730705(v=ws.11))изменяет существующее запланированное задание.
-* [`Remove-DedupSchedule`](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc730705(v=ws.11))Удаляет запланированное задание.
+* [`Get-DedupSchedule`](https://docs.microsoft.com/powershell/module/deduplication/get-dedupschedule?view=win10-ps) Отображает текущие запланированные задания.
+* [`New-DedupSchedule`](https://docs.microsoft.com/powershell/module/deduplication/new-dedupschedule?view=win10-ps) Создает новое запланированное задание.
+* [`Set-DedupSchedule`](https://docs.microsoft.com/powershell/module/deduplication/set-dedupschedule?view=win10-ps) изменяет существующее запланированное задание.
+* [`Remove-DedupSchedule`](https://docs.microsoft.com/powershell/module/deduplication/remove-dedupschedule?view=win10-ps) Удаляет запланированное задание.
 
 Обеспечить выполнение заданий в нерабочее время — наиболее распространенная причина для изменения при выполнении заданий дедупликации данных. В приведенном ниже пошаговом примере показано, как изменить расписание дедупликации данных для *оптимального* сценария: гиперконвергентный узел Hyper-V неактивен в выходные и после 19:00 в будние вечера. Чтобы изменить расписание, выполните следующие командлеты PowerShell с правами администратора.
 
@@ -78,7 +78,7 @@ ms.locfileid: "87936383"
             <td>Тип задания, который нужно запланировать</td>
             <td>
                 <ul>
-                    <li>Оптимизация</li>
+                    <li>Optimization</li>
                     <li>Сборка мусора</li>
                     <li>Проведение</li>
                 </ul>
@@ -86,7 +86,7 @@ ms.locfileid: "87936383"
             <td>Это значение является обязательным, так как это тип задания, который нужно запланировать. После планирования задачи это значение нельзя изменить.</td>
         </tr>
         <tr>
-            <td>Приоритет</td>
+            <td>Priority</td>
             <td>Системный приоритет запланированного задания</td>
             <td>
                 <ul>
@@ -124,7 +124,7 @@ ms.locfileid: "87936383"
             <td>Предотвращение выполнения задания в рабочей нагрузке&#39;s непростои</td>
         </tr>
         <tr>
-            <td>Включено</td>
+            <td>Включен</td>
             <td>Возможность выполнения задания.</td>
             <td>True или False</td>
             <td>Чтобы отключить задание, не удаляя его</td>
@@ -148,7 +148,7 @@ ms.locfileid: "87936383"
             <td>Чтобы контролировать уровень влияния задания на ресурсы памяти в системе.</td>
         </tr>
         <tr>
-            <td>name</td>
+            <td>Имя</td>
             <td>Имя запланированного задания</td>
             <td>Строка</td>
             <td>Задание должно иметь уникальное персональное имя.</td>
@@ -308,7 +308,7 @@ ms.locfileid: "87936383"
         </tr>
         <tr>
             <td>DeepGCInterval</td>
-            <td>Этот параметр настраивает интервал, через который обычное задание сборки мусора становится <a href="advanced-settings.md#faq-full-v-regular-gc" data-raw-source="[full Garbage Collection jobs](advanced-settings.md#faq-full-v-regular-gc)">заданием полной сборки мусора</a>. Значение n означает, что каждое n<sup>-ое</sup> задание было заданием полной сборки мусора. Обратите внимание: полная сборка мусора всегда отключена (независимо от значения реестра) для томов с <a href="understand.md#usage-type-backup" data-raw-source="[Backup Usage Type](understand.md#usage-type-backup)">архивным типом использования</a>. <code>Start-DedupJob -Type GarbageCollection -Full</code>может использоваться, если на томе резервного копирования требуется полная сборка мусора.</td>
+            <td>Этот параметр настраивает интервал, через который обычное задание сборки мусора становится <a href="advanced-settings.md#faq-full-v-regular-gc" data-raw-source="[full Garbage Collection jobs](advanced-settings.md#faq-full-v-regular-gc)">заданием полной сборки мусора</a>. Значение n означает, что каждое n<sup>-ое</sup> задание было заданием полной сборки мусора. Обратите внимание: полная сборка мусора всегда отключена (независимо от значения реестра) для томов с <a href="understand.md#usage-type-backup" data-raw-source="[Backup Usage Type](understand.md#usage-type-backup)">архивным типом использования</a>. <code>Start-DedupJob -Type GarbageCollection -Full</code> может использоваться, если на томе резервного копирования требуется полная сборка мусора.</td>
             <td>Целые числа (–1 означает "отключено")</td>
             <td>См. <a href="advanced-settings.md#faq-why-disable-full-gc" data-raw-source="[this frequently asked question](advanced-settings.md#faq-why-disable-full-gc)">этот вопрос и ответ</a>.</td>
         </tr>

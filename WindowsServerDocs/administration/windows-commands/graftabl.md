@@ -7,13 +7,16 @@ ms.author: lizross
 author: eross-msft
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 9f8759679865c87c11417c64ef130736de2a1e9e
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 912f0e0cb3f3b632b25eda49f6f65338e7782326
+ms.sourcegitcommit: 00406560a665a24d5a2b01c68063afdba1c74715
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89634616"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "91716905"
 ---
+> [!IMPORTANT]
+> Команда **graftabl** является устаревшей и, следовательно, устаревшей. Обычно он не устанавливается в современных версиях Windows. См. страницу [chcp](https://docs.microsoft.com/windows-server/administration/windows-commands/chcp) для обработки кодовой страницы.
+
 # <a name="graftabl"></a>graftabl
 
 Позволяет операционным системам Windows отображать расширенный набор символов в графическом режиме. При использовании без параметров **graftabl** Отображает предыдущую и текущую кодовую страницу.
@@ -33,7 +36,7 @@ graftabl /status
 | /status | Отображает текущую кодовую страницу, используемую этой командой. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 - Команда **graftabl** влияет только на отображение расширенных символов указанной кодовой страницы. Она не изменяет фактическую кодовую страницу ввода консоли. Чтобы изменить кодовую страницу ввода консоли, используйте команду [mode](mode.md) или [chcp](chcp.md) .
 
