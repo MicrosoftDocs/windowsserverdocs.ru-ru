@@ -7,12 +7,12 @@ ms.author: lizross
 author: eross-msft
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: d9cd587354df4fc601453cf75a7b564aebecf657
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 2e759f5e5ce69e1b64fd32e1ffad9e2be155f438
+ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89636045"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "91718401"
 ---
 # <a name="eventtriggers"></a>eventtriggers
 
