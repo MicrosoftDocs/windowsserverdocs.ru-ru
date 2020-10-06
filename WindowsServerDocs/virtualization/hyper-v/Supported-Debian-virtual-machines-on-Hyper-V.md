@@ -6,12 +6,12 @@ ms.assetid: 3cc62c10-02a3-4633-960c-23bf91a45bd5
 ms.author: benarm
 author: BenjaminArmstrong
 ms.date: 04/07/2020
-ms.openlocfilehash: c0ea0a8e9a030c8d35bf3042b16108523753b36b
-ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
+ms.openlocfilehash: 440d3c0dc51cc9e7d9c4d8abe439f4adb5da07dc
+ms.sourcegitcommit: faa5db4cdba4ad2b3a65533b6b49d960080923c9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "90746549"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91752896"
 ---
 # <a name="supported-debian-virtual-machines-on-hyper-v"></a>Поддерживаемые виртуальные машины Debian в Hyper-V
 
@@ -27,12 +27,12 @@ ms.locfileid: "90746549"
 
 * (*пусто*) — функция недоступна
 
-| **Компонент**                                                                                                                                  | **Версия операционной системы Windows Server** | **10.0 — 10.3 (бустер)** | **9.0 — 9.12 (Stretch)** | **8.0 — 8.11 (Jessie)** | **7.0 — 7.11 (wheezy)** |
+| **Возможность**                                                                                                                                  | **Версия операционной системы Windows Server** | **10.0 — 10.3 (бустер)** | **9.0 — 9.12 (Stretch)** | **8.0 — 8.11 (Jessie)** | **7.0 — 7.11 (wheezy)** |
 |----------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------|-----------------------|-----------------------|-----------------------|-----------------------|
 | **Доступность**                                                                                                                             |                                             | Встроено              | Встроено              | Встроено              | Встроенный (Примечание 5)     |
 | **[Основные сведения](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#core)**                                                   | 2019, 2016, 2012 R2          | &#10004;              | &#10004;              | &#10004;              | &#10004;              |
 | Точное время Windows Server 2016                                                                                                            | 2019, 2016                                  | &#10004; Примечание 4       | &#10004; Примечание 4       |                       |                       |
-| **[Сети](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#networking)**                                       |                                             |                       |                       |                       |                       |
+| **[Сеть](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#networking)**                                       |                                             |                       |                       |                       |                       |
 | Кадры крупного размера                                                                                                                                 | 2019, 2016, 2012 R2          | &#10004;              | &#10004;              | &#10004;              | &#10004;              |
 | Добавление тегов и магистрали виртуальной ЛС                                                                                                                    | 2019, 2016, 2012 R2          | &#10004;              | &#10004;              | &#10004;              | &#10004;              |
 | Динамическая миграция                                                                                                                               | 2019, 2016, 2012 R2          | &#10004;              | &#10004;              | &#10004;              | &#10004;              |
@@ -46,7 +46,7 @@ ms.locfileid: "90746549"
 | Динамическая Архивация виртуальных машин                                                                                                                  | 2019, 2016, 2012 R2                         | &#10004; note2 | &#10004; note2 | &#10004; note2 | &#10004; note2 |
 | Поддержка TRIM                                                                                                                                 | 2019, 2016, 2012 R2                         | &#10004; Примечание 4       | &#10004; Примечание 4       |                       |                       |
 | WWN ДЛЯ SCSI                                                                                                                                     | 2019, 2016, 2012 R2                         | &#10004; Примечание 4       | &#10004; Примечание 4       |                       |                       |
-| **[Свободной](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#memory)**                                               |                                             |                       |                       |                       |                       |
+| **[Память](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#memory)**                                               |                                             |                       |                       |                       |                       |
 | Поддержка ядра PAE                                                                                                                           | 2019, 2016, 2012 R2          | &#10004;              | &#10004;              | &#10004;              | &#10004;              |
 | Настройка зазора MMIO                                                                                                                    | 2019, 2016, 2012 R2                         | &#10004;              | &#10004;              | &#10004;              | &#10004;              |
 | Динамическая память — "горячее" Добавление                                                                                                                     | 2019, 2016, 2012 R2                   | &#10004; Примечание 4       | &#10004; Примечание 4       |                       |                       |
@@ -77,11 +77,11 @@ ms.locfileid: "90746549"
    ```Powershell
    Set-VMFirmware -VMName "VMname" -EnableSecureBoot Off
    ```
-4. Последние возможности восходящего ядра доступны только с помощью [НеDebianных портов](https://wiki.debian.org/Backports)ядра.
+4. Последние возможности восходящего ядра доступны только с помощью ядер, доступных в [репозитории НеDebianных портов](https://wiki.debian.org/Backports).
 
 5. Хотя Debian 7. x не поддерживается и использует более старую версию ядра, ядро, включенное в исходящие порты Debian для Debian 7. x, обладает улучшенными возможностями Hyper-V.
 
-См. также
+## <a name="see-also"></a>См. также
 
 * [Поддерживаемые CentOS и Red Hat Enterprise Linux виртуальные машины в Hyper-V](Supported-CentOS-and-Red-Hat-Enterprise-Linux-virtual-machines-on-Hyper-V.md)
 

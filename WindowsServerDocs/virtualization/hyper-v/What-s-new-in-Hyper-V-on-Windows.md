@@ -6,12 +6,12 @@ ms.assetid: 1a65a98e-54b6-4c41-9732-1e3d32fe3a5f
 ms.author: benarm
 author: BenjaminArmstrong
 ms.date: 09/21/2017
-ms.openlocfilehash: 49ea6e324a11d2261dae8133e29d86d2c5bacae7
-ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
+ms.openlocfilehash: 2a6107468e63f819e1957db0736c1a07c5dc24a0
+ms.sourcegitcommit: faa5db4cdba4ad2b3a65533b6b49d960080923c9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "90746709"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91752886"
 ---
 # <a name="whats-new-in-hyper-v-on-windows-server"></a>Новые возможности Hyper-V в Windows Server
 
@@ -162,7 +162,7 @@ Set-VMFirmware TestVM -SecureBootTemplate MicrosoftUEFICertificateAuthority
 
 -   Вы можете включить новые функции Hyper-V.
 
--   Чтобы сделать новые функции виртуальной машины доступными, используйте командлет Update-Вмконфигуратионверсион, чтобы вручную обновить уровень конфигурации виртуальной машины. Инструкции см. в статье [Обновление версии виртуальной машины](deploy/Upgrade-virtual-machine-version-in-Hyper-V-on-Windows-or-Windows-Server.md).
+-   Чтобы сделать новые функции виртуальной машины доступными, используйте `Update-vmVersion` командлет, чтобы вручную обновить уровень конфигурации виртуальной машины. Инструкции см. в статье [Обновление версии виртуальной машины](deploy/Upgrade-virtual-machine-version-in-Hyper-V-on-Windows-or-Windows-Server.md).
 -   Невозможно добавить узел в кластер Hyper-V, работающий под управлением Windows Server 2012 R2.
 
 > [!NOTE]
