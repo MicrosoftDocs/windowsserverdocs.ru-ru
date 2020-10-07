@@ -6,18 +6,18 @@ author: nwashburn-ms
 ms.author: niwashbu
 ms.date: 01/07/2020
 ms.localizationpriority: high
-ms.openlocfilehash: d6fa3e4535748b6c4d5b45755b0336dc26815bee
-ms.sourcegitcommit: 5344adcf9c0462561a4f9d47d80afc1d095a5b13
+ms.openlocfilehash: a62994667322b17d35c90e8bd231adc1d9ba0e6a
+ms.sourcegitcommit: f89639d3861c61620275c69f31f4b02fd48327ab
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90766737"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91517570"
 ---
 # <a name="windows-admin-center"></a>Windows Admin Center
 
 > Применяется к: Windows Admin Center, ознакомительная версия Windows Admin Center
 
-Windows Admin Center представляет собой локально развертываемое браузерное приложение для управления серверами, кластерами, гиперконвергентной инфраструктурой Windows, а также ПК с Windows 10. Оно поставляется без дополнительной платы в составе Windows и готово для использования в рабочей среде.
+Windows Admin Center представляет собой локально развертываемое браузерное приложение для управления серверами, кластерами, гиперконвергентной инфраструктурой Windows, а также ПК с Windows 10. Это бесплатный продукт, готовый к использованию в рабочей среде.
 
 Описание новых возможностей см. в [этой статье](support/release-history.md).
 
