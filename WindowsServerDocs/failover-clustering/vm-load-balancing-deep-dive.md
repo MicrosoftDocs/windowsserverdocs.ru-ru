@@ -2,16 +2,16 @@
 ms.assetid: 5b5bab7a-727b-47ce-8efa-1d37a9639cba
 title: Подсистема балансировки нагрузки виртуальных машин — подробное углубление
 ms.topic: article
-author: bhattacharyaz
 manager: eldenc
-ms.author: subhatt
+ms.author: johnmar
+author: JasonGerend
 ms.date: 09/19/2016
-ms.openlocfilehash: cebdc8c192abd737478c3b7a0c3db3e4a2bc8091
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 7fc9b449b11b5faf05ac279628f093053e292e8c
+ms.sourcegitcommit: 7a8a608df059b4278a974c52ed7b865421a83aa6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87957151"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "91833309"
 ---
 # <a name="virtual-machine-load-balancing-deep-dive"></a>Подсистема балансировки нагрузки виртуальных машин — подробное углубление
 
@@ -43,7 +43,7 @@ ms.locfileid: "87957151"
 Балансировка нагрузки виртуальных машин включена по умолчанию, и, когда происходит балансировка нагрузки, можно настроить общее свойство кластера "Аутобаланцермоде". Для контроля за балансом распределения узлов в кластере:
 
 ### <a name="using-failover-cluster-manager"></a>Использование диспетчер отказоустойчивости кластеров:
-1. Щелкните правой кнопкой мыши имя кластера и выберите параметр "Свойства" в раскрывающемся списке ![ Выбор свойства кластера с помощью Диспетчер отказоустойчивости кластеров](media/vm-load-balancing/detailed-VM-load-balancing-2.jpg)
+1. Щелкните правой кнопкой мыши имя кластера и выберите параметр "Свойства" в раскрывающемся списке  ![ Выбор свойства кластера с помощью Диспетчер отказоустойчивости кластеров](media/vm-load-balancing/detailed-VM-load-balancing-2.jpg)
 
 2.  Выберите область "балансировщик", ![ выбрав параметр балансировщика в Диспетчер отказоустойчивости кластеров](media/vm-load-balancing/detailed-VM-load-balancing-3.jpg)
 

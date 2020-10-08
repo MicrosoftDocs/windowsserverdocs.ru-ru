@@ -109,5 +109,6 @@
 #### [Клиент удаленного рабочего стола отключается и не может повторно подключиться к тому же сеансу](troubleshoot/rdp-client-disconnects-cannot-reconnect-same-session.md)
 #### [Удаленный ноутбук отключается от беспроводной сети](troubleshoot/remote-laptop-disconnects-wireless-network.md)
 #### [Низкая производительность или проблемы с приложениями во время подключения к удаленному рабочему столу](troubleshoot/poor-performance-or-application-problems.md)
+#### [Проблема с редактором метода ввода в сценариях удаленного приложения RemoteApp](troubleshoot/input-method-editor-error.md)
 
 ## [Дополнительные ресурсы](rds-get-support.md)

@@ -2,16 +2,16 @@
 ms.assetid: f0d4cecc-5a03-448c-bef9-86c4730b4eb0
 title: Обзор балансировки нагрузки виртуальных машин
 ms.topic: article
-author: bhattacharyaz
 manager: eldenc
-ms.author: subhatt
+ms.author: johnmar
+author: JasonGerend
 ms.date: 09/19/2016
-ms.openlocfilehash: 60d6c1b10840b5e0f673099c71b72033178aeb2d
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 868f5c0646b3842f605447d1fe8fdbe74593c2a6
+ms.sourcegitcommit: 7a8a608df059b4278a974c52ed7b865421a83aa6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87957131"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "91833303"
 ---
 # <a name="virtual-machine-load-balancing-overview"></a>Обзор балансировки нагрузки виртуальных машин
 
