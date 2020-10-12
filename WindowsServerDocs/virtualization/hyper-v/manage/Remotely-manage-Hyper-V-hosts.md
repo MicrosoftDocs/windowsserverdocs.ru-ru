@@ -6,16 +6,16 @@ ms.assetid: 2d34e98c-6134-479b-8000-3eb360b8b8a3
 ms.author: benarm
 author: BenjaminArmstrong
 ms.date: 12/06/2016
-ms.openlocfilehash: 2b0a7c93f5a6c6be7340c8d5b0a5bd93d21f1cec
-ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
+ms.openlocfilehash: 1d599555750d2a2e005a3e68b0c70fddd1a54f73
+ms.sourcegitcommit: 6931830a70c5849d8f884cdc7bd4f5afc1a00cce
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "90746659"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "91955809"
 ---
 # <a name="remotely-manage-hyper-v-hosts-with-hyper-v-manager"></a>Удаленное управление узлами Hyper-V с помощью диспетчера Hyper-V
 
->Область применения: Windows Server 2016, Windows Server 2012 R2, Windows 10 Windows 8.1
+> Область применения: Windows Server 2016, Windows Server 2012 R2, Windows 10 Windows 8.1
 
 В этой статье перечислены поддерживаемые сочетания узлов Hyper-v и версии диспетчера Hyper-V, а также описано, как подключиться к удаленным и локальным узлам Hyper-V, чтобы управлять ими.
 
@@ -27,18 +27,18 @@ ms.locfileid: "90746659"
 
 В некоторых случаях можно использовать версию диспетчера Hyper-V, отличную от версии Hyper-V на узле, как показано в таблице. В этом случае диспетчер Hyper-V предоставляет функции, доступные для версии Hyper-V на управляемом узле. Например, если вы используете версию диспетчера Hyper-V в Windows Server 2012 R2 для удаленного управления узлом под управлением Hyper-V в Windows Server 2012, вы не сможете использовать функции, доступные в Windows Server 2012 R2 на этом узле Hyper-V.
 
-В следующей таблице показано, какие версии узла Hyper-V можно управлять из определенной версии диспетчера Hyper-V. Перечислены только поддерживаемые версии операционной системы. Чтобы узнать о состоянии поддержки конкретной версии операционной системы, используйте кнопку **Поиск продукта Lifecyle** на странице [политики жизненного цикла Майкрософт](https://support.microsoft.com/lifecycle) . Как правило, более старые версии диспетчера Hyper-V могут управлять только узлом Hyper-V под управлением той же версии или сравнимой версии Windows Server.
+В следующей таблице показано, какие версии узла Hyper-V можно управлять из определенной версии диспетчера Hyper-V. Перечислены только поддерживаемые версии операционной системы. Чтобы узнать о состоянии поддержки конкретной версии операционной системы, используйте кнопку **Поиск жизненного цикла продукта** на странице [политики жизненного цикла Майкрософт](https://support.microsoft.com/lifecycle) . Как правило, более старые версии диспетчера Hyper-V могут управлять только узлом Hyper-V под управлением той же версии или сравнимой версии Windows Server.
 
 |Версия диспетчера Hyper-V | Версия узла Hyper-V|
 |---|---|
-|Windows 2016, Windows 10|— Windows Server 2016 — все выпуски и варианты установки, включая Nano Server и соответствующую версию Hyper-V Server. <br>— Windows Server 2012 R2 — все выпуски и варианты установки и соответствующая версия Hyper-V Server. <br>— Windows Server 2012 — все выпуски и варианты установки и соответствующая версия Hyper-V Server. <br> – Windows 10 <br> – Windows 8.1  |
+|Windows Server 2016, Windows 10|— Windows Server 2016 — все выпуски и варианты установки, включая Nano Server и соответствующую версию Hyper-V Server. <br>— Windows Server 2012 R2 — все выпуски и варианты установки и соответствующая версия Hyper-V Server. <br>— Windows Server 2012 — все выпуски и варианты установки и соответствующая версия Hyper-V Server. <br> – Windows 10 <br> – Windows 8.1  |
 | Windows Server 2012 R2, Windows 8.1 | — Windows Server 2012 R2 — все выпуски и варианты установки и соответствующая версия Hyper-V Server. <br>— Windows Server 2012 — все выпуски и варианты установки и соответствующая версия Hyper-V Server. <br>– Windows 8.1
 | Windows Server 2012 | — Windows Server 2012 — все выпуски и варианты установки и соответствующая версия Hyper-V Server.
 | Windows Server 2008 R2 с пакетом обновления 1 (SP1), Windows 7 с пакетом обновления 1 | — Windows Server 2008 R2 — все выпуски и варианты установки и соответствующая версия Hyper-V Server.
 | Windows Server 2008, Windows Vista с пакетом обновления 2 | — Windows Server 2008 — все выпуски и варианты установки и соответствующая версия Hyper-V Server.
 
->[!NOTE]
->Поддержка пакета обновления закончилась для Windows 8 12 января 2016. Дополнительные сведения см. в разделе [часто задаваемые вопросы о Windows 8.1](https://support.microsoft.com/help/18581).
+> [!NOTE]
+> Поддержка пакета обновления закончилась для Windows 8 12 января 2016. Дополнительные сведения см. в разделе [часто задаваемые вопросы о Windows 8.1](https://support.microsoft.com/help/18581).
 
 ## <a name="connect-to-a-hyper-v-host"></a>Подключение к узлу Hyper-V
 
@@ -66,7 +66,7 @@ ms.locfileid: "90746659"
 
 Или в любой из операционных систем откройте Windows PowerShell от имени администратора и выполните команду:
 
-```
+```PowerShell
 Enable-PSRemoting
 ```
 
@@ -78,7 +78,7 @@ Enable-PSRemoting
 
 Диспетчер Hyper-V в Windows Server 2016 и Windows 10 предлагает больше типов удаленного подключения, чем предыдущие версии, описанные в следующих разделах.
 
-### <a name="connect-to-a-windows-2016-or-windows-10-remote-host-as-a-different-user"></a>Подключение к удаленному узлу Windows 2016 или Windows 10 от имени другого пользователя
+### <a name="connect-to-a-windows-server-2016-or-windows-10-remote-host-as-a-different-user"></a>Подключение к удаленному узлу Windows Server 2016 или Windows 10 от имени другого пользователя
 
 Это позволяет подключиться к узлу Hyper-V, если вы не работаете на локальном компьютере как пользователь, являющийся членом группы администраторов Hyper-V или группы администраторов на узле Hyper-V. Для этого выполните следующие действия.
 
@@ -87,10 +87,10 @@ Enable-PSRemoting
 1. Выберите **Подключиться от имени другого пользователя** в диалоговом окне **Выбор компьютера** .
 1. Выберите **задать пользователя**.
 
->[!NOTE]
+> [!NOTE]
 > Это будет работать только для **удаленных** узлов windows Server 2016 или Windows 10.
 
-### <a name="connect-to-a-windows-2016-or-windows-10-remote-host-using-ip-address"></a>Подключение к удаленному узлу Windows 2016 или Windows 10 по IP-адресу
+### <a name="connect-to-a-windows-server-2016-or-windows-10-remote-host-using-ip-address"></a>Подключение к удаленному узлу Windows Server 2016 или Windows 10 с помощью IP-адреса
 
 Для этого выполните следующие действия.
 
@@ -98,10 +98,10 @@ Enable-PSRemoting
 1. Нажмите кнопку **подключиться к серверу**.
 1. Введите IP-адрес в текстовое поле **другой компьютер** .
 
->[!NOTE]
+> [!NOTE]
 > Это будет работать только для **удаленных** узлов windows Server 2016 или Windows 10.
 
-### <a name="connect-to-a-windows-2016-or-windows-10-remote-host-outside-your-domain-or-with-no-domain"></a>Подключение к удаленному узлу Windows 2016 или Windows 10 за пределами домена или без домена
+### <a name="connect-to-a-windows-server-2016-or-windows-10-remote-host-outside-your-domain-or-with-no-domain"></a>Подключение к удаленному узлу Windows Server 2016 или Windows 10 за пределами домена или без домена
 
 Для этого выполните следующие действия.
 
@@ -109,13 +109,13 @@ Enable-PSRemoting
 
 1. Создайте необходимые правила брандмауэра для зон частной сети.
 
-   ```
+   ```PowerShell
    Enable-PSRemoting
    ```
 
 2. Чтобы разрешить удаленный доступ в общедоступных зонах, включите правила брандмауэра для CredSSP и WinRM:
 
-   ```
+   ```PowerShell
    Enable-WSManCredSSP -Role server
    ```
 
@@ -126,12 +126,14 @@ Enable-PSRemoting
 1. Откройте сеанс Windows PowerShell от имени администратора.
 1. Выполните следующие команды:
 
-     ```
-     Set-Item WSMan:\localhost\Client\TrustedHosts -Value "fqdn-of-hyper-v-host"
-     ```
-     ```
-     Enable-WSManCredSSP -Role client -DelegateComputer "fqdn-of-hyper-v-host"
-     ```
+    ```PowerShell
+    Set-Item WSMan:\localhost\Client\TrustedHosts -Value "fqdn-of-hyper-v-host"
+    ```
+
+    ```PowerShell
+    Enable-WSManCredSSP -Role client -DelegateComputer "fqdn-of-hyper-v-host"
+    ```
+
 1. Также может потребоваться настроить следующую групповую политику:
     * **Конфигурация компьютера** \> **Административные шаблоны** \> **Система** \> Делегирование учетных **данных** \> **Разрешить делегирование новых учетных данных с проверкой подлинности сервера только NTLM**
     * Щелкните **включить** и добавьте *WSMan/FQDN-of-Hyper-v-Host*.
@@ -139,7 +141,7 @@ Enable-PSRemoting
 1. В левой области щелкните правой кнопкой мыши **Диспетчер Hyper-V**.
 1. Нажмите кнопку **подключиться к серверу**.
 
->[!NOTE]
+> [!NOTE]
 > Это будет работать только для **удаленных** узлов windows Server 2016 или Windows 10.
 
 Сведения о командлете см. в разделе [Set-Item](/powershell/module/microsoft.powershell.management/set-item?view=powershell-7) и [Enable-WSManCredSSP](/powershell/module/microsoft.wsman.management/enable-wsmancredssp?view=powershell-7).
@@ -160,7 +162,7 @@ Enable-PSRemoting
 
 Чтобы использовать Windows PowerShell, выполните следующую команду от имени администратора:
 
-```
+```PowerShell
 add-windowsfeature rsat-hyper-v-tools
 ```
 
