@@ -5,12 +5,12 @@ ms.date: 09/27/2018
 ms.topic: conceptual
 ms.author: damaerte
 author: maertendmsft
-ms.openlocfilehash: c722b9fb81dde8e695d6065d7b2268f862e71d39
-ms.sourcegitcommit: 00406560a665a24d5a2b01c68063afdba1c74715
+ms.openlocfilehash: c7bdb2f31be8656ac6e136f7bbfaf5f69ba123ad
+ms.sourcegitcommit: 6931830a70c5849d8f884cdc7bd4f5afc1a00cce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91716885"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "91955755"
 ---
 # <a name="openssh-key-management"></a>Управление ключами OpenSSH
 

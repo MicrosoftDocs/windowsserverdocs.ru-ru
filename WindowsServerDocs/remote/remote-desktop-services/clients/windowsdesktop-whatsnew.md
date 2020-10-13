@@ -5,14 +5,14 @@ ms.topic: article
 author: heidilohr
 manager: lizross
 ms.author: helohr
-ms.date: 09/22/2020
+ms.date: 10/09/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: 4edd85e305d30cfe22480021b67f3c0213275926
-ms.sourcegitcommit: c0e0bdc9a1b28bd21951d68b5cfd2cce48a770ef
+ms.openlocfilehash: 96a307b06b0a29cfb66ba52ca5d8ea031bd979e7
+ms.sourcegitcommit: 6931830a70c5849d8f884cdc7bd4f5afc1a00cce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90999258"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "91955765"
 ---
 # <a name="whats-new-in-the-windows-desktop-client"></a>Что нового в клиенте для Windows Desktop
 
@@ -38,6 +38,7 @@ ms.locfileid: "90999258"
 - Исправлена ошибка при перечислении аудио-или видеоустройств в Teams при включенной оптимизации мультимедиа для Teams.
 - Добавлена ссылка Need help with settings? (Нужна помощь с параметрами?) на страницу параметров рабочего стола.
 - Исправлена проблема с кнопкой "Подписаться", которая возникла при использовании темных тем с высокой контрастностью.
+- Разрешается не более 20 учетных данных на приложение.
 
 ## <a name="updates-for-version-121275"></a>Обновления для версии 1.2.1275
 

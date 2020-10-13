@@ -6,14 +6,14 @@ ms.assetid: 12efe858-6b76-4e08-9f72-b9603aceb0fc
 author: heidilohr
 manager: lizross
 ms.author: helohr
-ms.date: 08/25/2020
+ms.date: 10/07/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: a44926d50fae9dea38e3f5c46db423991a414a87
-ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
+ms.openlocfilehash: 2c34ab9c769beb25437e26442d85f75d40db163e
+ms.sourcegitcommit: ed77cfe8140a480b025907716e3635d40a5e3303
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88941514"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "91806639"
 ---
 # <a name="compare-the-clients"></a>Сравнение клиентов
 
@@ -29,7 +29,7 @@ ms.locfileid: "88941514"
 
 ### <a name="input-redirection"></a>Перенаправление ввода
 
-| Перенаправление | Установленные приложения для Windows</br>(MSTSC) | Настольный компьютер с Windows</br>(MSRDC) | Магазин Windows Store | Android | iOS | macOS | Веб-клиент    |
+| Перенаправление | Установленные приложения для Windows</br>(MSTSC) | Настольный компьютер с Windows</br>(MSRDC) | Клиент Microsoft Store</br>(URDC) | Android | iOS | macOS | Веб-клиент    |
 |-------------|---------------------------|-----------------------------|---------------|---------|-----|-------|---------------|
 | Клавиатура    | X                         | X                           | X             | X       | X   | X     | X             |
 | Мышь       | X                         | X                           | X             | X       | Х\* | X     | X             |
@@ -40,7 +40,7 @@ ms.locfileid: "88941514"
 
 ### <a name="port-redirection"></a>Перенаправление портов
 
-| Перенаправление | Установленные приложения для Windows</br>(MSTSC) | Настольный компьютер с Windows</br>(MSRDC) | Магазин Windows Store | Android | iOS | macOS | Веб-клиент |
+| Перенаправление | Установленные приложения для Windows</br>(MSTSC) | Настольный компьютер с Windows</br>(MSRDC) | Клиент Microsoft Store</br>(URDC) | Android | iOS | macOS | Веб-клиент |
 |-------------|---------------------------|-----------------------------|---------------|---------|-----|-------|------------|
 | Последовательный порт | X                         | X                           |               |         |     |       |            |
 | USB         | X                         | X                           |               |         |     |       |            |
@@ -49,7 +49,7 @@ ms.locfileid: "88941514"
 
 ### <a name="other-redirection-devices-etc"></a>Другие перенаправления (устройств и т. д.)
 
-| Перенаправление         | Установленные приложения для Windows</br>(MSTSC) | Настольный компьютер с Windows</br>(MSRDC) | Магазин Windows Store | Android | iOS         | macOS                           | Веб-клиент    |
+| Перенаправление         | Установленные приложения для Windows</br>(MSTSC) | Настольный компьютер с Windows</br>(MSRDC) | Клиент Microsoft Store</br>(URDC) | Android | iOS         | macOS                           | Веб-клиент    |
 |---------------------|---------------------------|-----------------------------|---------------|---------|-------------|---------------------------------|---------------|
 | Камеры             | X                         | X                           |               |     X    |   X         | X                               |               |
 | Буфер обмена           | X                         | X                           | X             | Текст    | Текст, изображения | X                               | текст          |
