@@ -1,18 +1,18 @@
 ---
 title: tzutil
-description: Справочная статья по tzutil, в которой отображается служебная программа часового пояса Windows.
+description: Справочная статья по команде tzutil, которая отображает служебную программу часового пояса Windows.
 ms.topic: reference
 ms.assetid: bcf6e007-c9b6-4df5-83c5-ed7b4b1b5913
 ms.author: lizross
 author: eross-msft
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 3640da68f48944fd9d67486dface4cfd77531d57
-ms.sourcegitcommit: 7cacfc38982c6006bee4eb756bcda353c4d3dd75
+ms.openlocfilehash: 8778758c2e3b72827a7dba5844539d27519a19da
+ms.sourcegitcommit: f45640cf4fda621b71593c63517cfdb983d1dc6a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "90078461"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "92156339"
 ---
 # <a name="tzutil"></a>tzutil
 
@@ -35,7 +35,7 @@ tzutil [/?] [/g] [/s <timezoneID>[_dstoff]] [/l]
 | /l | Список всех допустимых идентификаторов часовых поясов и отображаемых имен. Выходные данные отображаются как:<ul><li>`<display name>`</li><li>`<time zone ID>`</li></ul> |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Remarks
+#### <a name="remarks"></a>Комментарии
 
 Код выхода **0** указывает, что команда выполнена успешно.
 

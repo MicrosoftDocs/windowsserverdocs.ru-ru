@@ -62,11 +62,11 @@
 #### [Управление ведением журнала доступа пользователей](user-access-logging/manage-user-access-logging.md)
 
 ## Настройка производительности Windows Server
-### [Руководство по обеспечению высокой производительности](performance-tuning/index.md) 
+### [Руководство по обеспечению высокой производительности](performance-tuning/index.md)
 ### [Microsoft Server Performance Advisor](server-performance-advisor/microsoft-server-performance-advisor.md)
 #### [Руководство пользователя по Server Performance Advisor](server-performance-advisor/server-performance-advisor-users-guide.md)
 #### [Руководство по разработке пакетов Server Performance Advisor](server-performance-advisor/server-performance-advisor-pack-development-guide.md)
 
 ## Автоматизация управления Windows Server
-### [Создание сценариев Windows PowerShell](/powershell/scripting/powershell-scripting?view=powershell-5.1)
+### [Создание сценариев Windows PowerShell](/powershell/scripting/overview)
 ### [Команды Windows](windows-commands/windows-commands.md)

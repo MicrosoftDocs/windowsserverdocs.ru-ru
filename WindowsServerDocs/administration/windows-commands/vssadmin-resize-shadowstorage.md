@@ -1,19 +1,19 @@
 ---
-title: Vssadmin изменение размера шадовстораже
-description: Описание команды vssadmin Resize шадовстораже.
+title: vssadmin resize shadowstorage
+description: Описание команды vssadmin Resize шадовстораже, которая изменяет максимальный объем пространства в хранилище, который может использоваться для хранения теневых копий.
 ms.topic: reference
 author: JasonGerend
 ms.author: jgerend
 ms.date: 03/05/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: 0eb9a4096c529b73a87c5a9fb4d6a95b5e655fe3
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: 704130890d68c271e74a9163ba4ae76dcfb1a516
+ms.sourcegitcommit: f45640cf4fda621b71593c63517cfdb983d1dc6a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89022838"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "92156148"
 ---
-# <a name="vssadmin-resize-shadowstorage"></a>Vssadmin изменение размера шадовстораже
+# <a name="vssadmin-resize-shadowstorage"></a>vssadmin resize shadowstorage
 
 > Область применения: Windows 10, Windows 8.1, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2, Windows Server 2008
 
@@ -26,27 +26,40 @@ ms.locfileid: "89022838"
 
 ## <a name="syntax"></a>Синтаксис
 
-```cmd
+```
 vssadmin resize shadowstorage /for=<ForVolumeSpec> /on=<OnVolumeSpec> [/maxsize=<MaxSizeSpec>]
 ```
 
 ### <a name="parameters"></a>Параметры
 
-|Параметр|Описание|
-|---|---|
-`/for=<ForVolumeSpec>`  | Указывает том, для которого необходимо изменить размер пространства в хранилище.
-`/on=<OnVolumeSpec>` | Указывает том хранилища.
-`[/maxsize=<MaxSizeSpec>]` |  Указывает максимальный объем пространства, который может использоваться для хранения теневых копий. Если для/макссизе не указано значение, ограничение на объем хранилища, которое можно использовать, не ограничено.  <br> <br> Значение Макссизеспек должно быть не меньше 1 МБ и должно быть выражено в одном из следующих единиц: КБ, МБ, ГБ, ТБ, PB или EB. Если единица не указана, Макссизеспек использует байты по умолчанию.
+| Параметр | Описание |
+|--|--|
+| /фор =`<ForVolumeSpec>` | Указывает том, для которого необходимо изменить размер пространства в хранилище. |
+| /on =`<OnVolumeSpec>` | Указывает том хранилища. |
+| [/макссизе = `<MaxSizeSpec>` ] | Указывает максимальный объем пространства, который может использоваться для хранения теневых копий. Если для **/макссизе**не указано значение, то ограничения на объем хранилища, который можно использовать, не накладываются.<p>Значение **макссизеспек** должно быть не меньше 1 МБ и должно быть выражено в одном из следующих единиц: КБ, МБ, ГБ, ТБ, Pb или EB. Если единица не указана, **макссизеспек** использует байты по умолчанию. |
 
 ## <a name="examples"></a>Примеры
 
-```cmd
-vssadmin Resize ShadowStorage /For=C: /On=D: /MaxSize=900MB
-vssadmin Resize ShadowStorage /For=C: /On=D: /MaxSize=UNBOUNDED
-vssadmin Resize ShadowStorage /For=C: /On=C: /MaxSize=20%
+Чтобы изменить размер теневой копии тома C на томе D с максимальным размером 900MB, введите:
+
+```
+vssadmin resize shadowstorage /For=C: /On=D: /MaxSize=900MB
+```
+
+Чтобы изменить размер теневой копии тома C на томе D без максимального размера, введите:
+
+```
+vssadmin resize shadowstorage /For=C: /On=D: /MaxSize=UNBOUNDED
+```
+
+Чтобы изменить размер теневой копии тома C на 20%, введите:
+
+```
+vssadmin resize shadowstorage /For=C: /On=C: /MaxSize=20%
 ```
 
 ## <a name="additional-references"></a>Дополнительные ссылки
 
-* [Ключ синтаксиса командной строки](./command-line-syntax-key.md)
-* [List](vssadmin.md)
+- [Условные обозначения синтаксиса команд командной строки](command-line-syntax-key.md)
+
+- [vssadmin, команда](vssadmin.md)

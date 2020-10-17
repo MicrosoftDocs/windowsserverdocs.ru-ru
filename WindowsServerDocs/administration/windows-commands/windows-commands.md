@@ -7,12 +7,12 @@ author: jasongerend
 ms.author: jgerend
 manager: dongill
 ms.date: 06/29/2020
-ms.openlocfilehash: c389d0889d4dfca46472215f014e77e9b2346f87
-ms.sourcegitcommit: 96d46c702e7a9c3a321bbbb5284f73911c7baa3c
+ms.openlocfilehash: ad0c9b5aba9148a2763e8fde6c9ff5eb6556918f
+ms.sourcegitcommit: f45640cf4fda621b71593c63517cfdb983d1dc6a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89022854"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "92155844"
 ---
 # <a name="windows-commands"></a>Команды Windows
 
@@ -20,11 +20,11 @@ ms.locfileid: "89022854"
 
 Этот набор документации описывает команды Windows, которые можно использовать для автоматизации задач с помощью скриптов или средств создания скриптов.
 
-## <a name="prerequisites"></a>Обязательные условия
+## <a name="prerequisites"></a>Предварительные требования
 
 Сведения, содержащиеся в этом разделе, применимы к:
 
-- Windows Server 2019
+- Windows Server 2019
 - Windows Server (Semi-Annual Channel)
 - Windows Server 2016
 - Windows Server 2012 R2
@@ -45,7 +45,7 @@ PowerShell был разработан для расширения возмож�
 Для наиболее надежной и последней версии службы автоматизации Windows рекомендуется использовать PowerShell вместо команд Windows или сервера сценариев Windows для службы автоматизации Windows.
 
 > [!NOTE]
->Вы также можете скачать и установить [PowerShell Core](/powershell/scripting/whats-new/what-s-new-in-powershell-core-60?view=powershell-6), версию PowerShell с открытым исходным кодом.
+>Вы также можете скачать и установить [PowerShell Core](/powershell/scripting/whats-new/what-s-new-in-powershell-core-60?view=powershell-6&preserve-view=true), версию PowerShell с открытым исходным кодом.
 
 > [!CAUTION]
 > Неправильное изменение реестра может серьезно повредить систему. Перед внесением следующих изменений в реестр следует создать резервную копию всех ценных данных на компьютере.
@@ -53,7 +53,7 @@ PowerShell был разработан для расширения возмож�
 > [!NOTE]
 > Чтобы включить или отключить завершение имен файлов и каталогов в командной оболочке на компьютере или в сеансе входа пользователя, запустите **regedit.exe** и задайте следующее **значение reg_DWOrd**:
 >
-> HKEY_LOCAL_MACHINE \Софтваре\микрософт\комманд Процессор\комплетиончар\ reg_DWOrd
+> HKEY_LOCAL_MACHINE\Software\Microsoft\Command Processor\completionChar\reg_DWOrd
 >
 > Чтобы задать значение **reg_DWOrd** , используйте шестнадцатеричное значение управляющего символа для конкретной функции (например, **0 9** — TAB, а **0 08** — Backspace). Заданные пользователем параметры имеют приоритет над параметрами компьютера, а параметры командной строки имеют приоритет над параметрами реестра.
 
@@ -63,7 +63,7 @@ PowerShell был разработан для расширения возмож�
 
 [Объект](#a)  |  [Б](#b)  |  [C](#c)  |  [Г](#d)  |  [Д](#e)  |  [F](#f)  |  [Ж](#g)  |  [З](#h)  |  [Я](#i)  |  [J](#j)  |  [Л](#k)  |  [L](#l)  |  [М](#m)  |  [N](#n)  |  [O](#o)  |  [P](#p)  |  [Вопросы и ответы](#q)  |  Язык [R](#r)  |  [С](#s)  |  [T](#t)  |  [U](#u)  |  [Версия](#v)  |  [Н](#w)  |  [X](#x) | Y | Гармошкой
 
-### <a name="a"></a>Объект
+### <a name="a"></a>A
 
 - [active](active.md)
 - [add](add.md)
@@ -546,7 +546,7 @@ PowerShell был разработан для расширения возмож�
 - [msinfo32](msinfo32.md)
 - [mstsc](mstsc.md)
 
-### <a name="n"></a>N
+### <a name="n"></a>Нет
 
 - [nbtstat](nbtstat.md)
 - [netcfg](netcfg.md)
@@ -596,7 +596,7 @@ PowerShell был разработан для расширения возмож�
   - [online volume](online-volume.md)
 - [openfiles](openfiles.md)
 
-### <a name="p"></a>P
+### <a name="p"></a>С
 
 - [pagefileconfig](pagefileconfig.md)
 - [path](path.md)
@@ -769,17 +769,17 @@ PowerShell был разработан для расширения возмож�
   - [telnet unset](telnet-unset.md)
 - [tftp](tftp.md)
 - [time](time.md)
-- [timeout](timeout_1.md)
-- [title](title_1.md)
+- [timeout](timeout.md)
+- [title](title.md)
 - [tlntadmn](tlntadmn.md)
 - [tpmtool](tpmtool.md)
 - [tpmvscmgr](tpmvscmgr.md)
-- [tracerpt](tracerpt_1.md)
+- [tracerpt](tracerpt.md)
 - [tracert](tracert.md)
 - [tree](tree.md)
 - [tscon](tscon.md)
 - [tsdiscon](tsdiscon.md)
-- [tsecimp](tsecimp_1.md)
+- [tsecimp](tsecimp.md)
 - [tskill](tskill.md)
 - [tsprof](tsprof.md)
 - [type](type.md)
@@ -790,13 +790,13 @@ PowerShell был разработан для расширения возмож�
 
 - [unexpose](unexpose.md)
 - [uniqueid](uniqueid.md)
-- [unlodctr](unlodctr_1.md)
+- [unlodctr](unlodctr.md)
 
 ### <a name="v"></a>V
 
 - [ver](ver.md)
 - [verifier](verifier.md)
-- [verify](verify_1.md)
+- [verify](verify.md)
 - [vol](vol.md)
 - [vssadmin](vssadmin.md)
   - [vssadmin delete shadows](vssadmin-delete-shadows.md)
@@ -826,7 +826,7 @@ PowerShell был разработан для расширения возмож�
 - [wdsutil](wdsutil.md)
 - [wecutil](wecutil.md)
 - [wevtutil](wevtutil.md)
-- [where](where_1.md)
+- [where](where.md)
 - [whoami](whoami.md)
 - [winnt](winnt.md)
 - [winnt32](winnt32.md)

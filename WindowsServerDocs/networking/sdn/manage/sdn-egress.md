@@ -6,12 +6,12 @@ ms.topic: get-started-article
 ms.author: anpaul
 author: AnirbanPaul
 ms.date: 10/02/2018
-ms.openlocfilehash: be28e5b3b9939907398b0c245fc49fcfd6f5e49a
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: a9e939b4a810848e91b5d2cb8e4b878bbcf56e84
+ms.sourcegitcommit: f45640cf4fda621b71593c63517cfdb983d1dc6a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87954020"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "92156460"
 ---
 # <a name="egress-metering-in-a-virtual-network"></a>Измерение исходящего трафика в виртуальной сети
 
@@ -22,7 +22,7 @@ ms.locfileid: "87954020"
 
 Отслеживание исходящих данных для сетевого трафика SDN в Windows Server 2019 дает возможность предлагать показатели использования для передачи исходящего трафика. Сетевой трафик, который оставляет каждую виртуальную сеть, но остается в центре обработки данных, может относиться отдельно, чтобы его можно было исключить из расчета выставления счетов. Пакеты, привязанные к IP-адресам назначения, которые не включены в один из диапазонов неоплачиваемых адресов, учитываются как исходящие передачи исходящих данных.
 
-## <a name="virtual-network-unbilled-address-ranges-whitelist-of-ip-ranges"></a>Диапазоны адресов, для которых не взимается виртуальная сеть (список разрешений диапазонов IP-адресов)
+## <a name="virtual-network-unbilled-address-ranges-allowlist-of-ip-ranges"></a>Диапазоны адресов, для которых не взимается виртуальная сеть (разрешенных диапазонов IP-адресов)
 
 Вы можете найти неоплачиваемые диапазоны адресов в свойстве **унбилледаддрессранжес** существующей виртуальной сети. По умолчанию диапазоны адресов не добавляются.
 
