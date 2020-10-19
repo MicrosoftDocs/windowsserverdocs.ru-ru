@@ -9,12 +9,12 @@ ms.author: helohr
 ms.topic: article
 manager: ''
 ms.date: 09/24/2020
-ms.openlocfilehash: b39207461d9ee99a2da0bdf07a9190c769b7511f
-ms.sourcegitcommit: fa74f7297855ff1c9cb7df4b784b946cdce99e22
+ms.openlocfilehash: 129bbc8387be655cca563935cb7ff891664da357
+ms.sourcegitcommit: f45640cf4fda621b71593c63517cfdb983d1dc6a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "91206421"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "92155895"
 ---
 # <a name="optimizing-windows-10-version-2004-for-a-virtual-desktop-infrastructure-vdi-role"></a>Оптимизация Windows 10 версии 2004 для роли инфраструктуры виртуальных рабочих столов (VDI)
 
@@ -117,7 +117,7 @@ ms.locfileid: "91206421"
 
 Вы можете использовать предпочтительную поисковую систему с условиями `"start value" site:support.microsoft.com`, чтобы отобразить известные проблемы, касающиеся начальных значений по умолчанию для служб.
 
-Вы можете заметить, что этот документ и связанные сценарии на GitHub не изменяют никаких разрешений по умолчанию. Если вы хотите увеличить параметры безопасности, начните с проекта **AaronLocker**, который можно найти в статье [ОБЪЯВЛЕНИЕ. Добавление приложений в список разрешенных с помощью AaronLocker](https://blogs.msdn.microsoft.com/aaron_margosis/2018/06/26/announcing-application-whitelisting-with-aaronlocker/)
+Вы можете заметить, что этот документ и связанные сценарии на GitHub не изменяют никаких разрешений по умолчанию. Если вы хотите увеличить параметры безопасности, начните с проекта **AaronLocker**. Дополнительные сведения об AaronLocker см. на [этой странице](https://github.com/microsoft/AaronLocker).
 
 ### <a name="virtual-desktop-optimization-categories"></a>Категории оптимизации виртуальных рабочих столов
 
