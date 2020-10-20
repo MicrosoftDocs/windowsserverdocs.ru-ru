@@ -5,14 +5,14 @@ ms.topic: article
 author: heidilohr
 manager: lizross
 ms.author: helohr
-ms.date: 10/09/2020
+ms.date: 10/14/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: 96a307b06b0a29cfb66ba52ca5d8ea031bd979e7
-ms.sourcegitcommit: 6931830a70c5849d8f884cdc7bd4f5afc1a00cce
+ms.openlocfilehash: 8708f8ab6e8fb751f0ca39238574823ae5b499c4
+ms.sourcegitcommit: 45099dfe3682df1e2bc0bd5998594a79cfff16fe
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "91955765"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "92079843"
 ---
 # <a name="whats-new-in-the-windows-desktop-client"></a>Что нового в клиенте для Windows Desktop
 
@@ -25,20 +25,29 @@ ms.locfileid: "91955765"
 |Группа пользователей |Последняя версия  |Минимальная поддерживаемая версия |
 |-----------|----------------|--------------------------|
 |Общие     |1.2.1364        |1.2.945                   |
-|Предварительная оценка    |1.2.1364        |1.2.945                   |
+|Предварительная оценка    |1.2.1440        |1.2.945                   |
+
+## <a name="updates-for-version-121440-insiders"></a>Обновления для версии 1.2.1440 (программа предварительной оценки)
+
+*Дата публикации: 13.10.2020*
+
+Скачать: [Windows (64-разрядная версия)](https://go.microsoft.com/fwlink/?linkid=2139233), [Windows (32-разрядная версия)](https://go.microsoft.com/fwlink/?linkid=2139144), [Windows (ARM64)](https://go.microsoft.com/fwlink/?linkid=2139368)
+
+- Теперь клиент различает разные веб-каналы в центре подключений.
+- Исправлена проблема, из-за которой учетная запись подписки не совпадала с учетной записью, с помощью которой пользователь выполнил вход.
+- Исправлена проблема с перенаправлением смарт-карт.
 
 ## <a name="updates-for-version-121364"></a>Обновления для версии 1.2.1364
 
 *Дата публикации: 22.09.2020*
 
-Скачать: Windows [(64-разрядная версия)](https://go.microsoft.com/fwlink/?linkid=2139369), [Windows (32-разрядная версия)](https://go.microsoft.com/fwlink/?linkid=2139456), [Windows (ARM64)](https://go.microsoft.com/fwlink/?linkid=2139370)
+Скачать: [Windows (64-разрядная версия)](https://go.microsoft.com/fwlink/?linkid=2139369), [Windows (32-разрядная версия)](https://go.microsoft.com/fwlink/?linkid=2139456), [Windows (ARM64)](https://go.microsoft.com/fwlink/?linkid=2139370)
 
 - Исправлена ошибка, из-за которой единый вход не работал в Windows 7.
 - Исправлена ошибка подключения, которая возникла при вызове или присоединении к звонку Teams, в то время как другое приложение открывает аудиопоток в монопольном режиме, и при включении для команд оптимизации мультимедиа.
 - Исправлена ошибка при перечислении аудио-или видеоустройств в Teams при включенной оптимизации мультимедиа для Teams.
 - Добавлена ссылка Need help with settings? (Нужна помощь с параметрами?) на страницу параметров рабочего стола.
 - Исправлена проблема с кнопкой "Подписаться", которая возникла при использовании темных тем с высокой контрастностью.
-- Разрешается не более 20 учетных данных на приложение.
 
 ## <a name="updates-for-version-121275"></a>Обновления для версии 1.2.1275
 
