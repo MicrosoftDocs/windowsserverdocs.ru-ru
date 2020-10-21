@@ -1,7 +1,8 @@
 # Приступая к работе
 ## [Начало работы с Windows Server 2016](Server-Basics.md)
 ## [Что нового в Windows Server 8?](whats-new-in-windows-server.md)
-### [Новые возможности Windows Server, версия 2004](whats-new-in-windows-server-2004.md)
+### [Новые возможности Windows Server версии 2004 и 20H2](whats-new-in-windows-server-2004.md)
+### [Новые возможности Windows Server версии 1903 и 1909](..\get-started-19\whats-new-in-windows-server-1903-1909.md)
 ### [Новые возможности Windows Server 2019](../get-started-19/whats-new-19.md)
 ### [Что нового в Windows Server 2016?](whats-new-in-windows-server-2016.md)
 ### [Для Windows Server 2016 доступны экспресс-обновления](express-updates.md)
