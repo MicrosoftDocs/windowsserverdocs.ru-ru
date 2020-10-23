@@ -6,12 +6,12 @@ ms.assetid: b5387444-595f-4f38-abb7-163a70ea1895
 author: victorcheng7
 ms.author: vichen
 ms.date: 08/14/2020
-ms.openlocfilehash: 28ce502a78c58eda74d5b412fe4e4d0d3279d442
-ms.sourcegitcommit: dac52260fdcc3721daf7e32cd45760a0ced96de7
+ms.openlocfilehash: fb03201ce4f76a25b00fb37365597147e473b306
+ms.sourcegitcommit: 3c6c257526b243e876aed59e3f2dec42697f232d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "91663685"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "92418164"
 ---
 # <a name="linux-software-repository-for-microsoft-products"></a>Репозиторий программного обеспечения Linux для продуктов Майкрософт
 
@@ -23,7 +23,7 @@ ms.locfileid: "91663685"
 
  - произ. рабочий репозиторий рабочей области предназначен для пакетов, предназначенных для использования в рабочей среде. Эти пакеты коммерчески поддерживаются корпорацией Майкрософт в соответствии с условиями действующего соглашения о поддержке или программы, имеющейся в корпорации Майкрософт.
 
- - MSSQL-Server — эти репозитории содержат пакеты для Microsoft SQL Server на Linux — см. также [SQL Server на Linux](https://www.microsoft.com/sql-server/sql-server-vnext-including-Linux).
+ - MSSQL-Server — эти репозитории содержат пакеты для Microsoft SQL Server на Linux — см. также [SQL Server на Linux](https://docs.microsoft.com/sql/linux/sql-server-linux-overview).
 
 > [!NOTE]
 > Пакеты в репозиториях программного обеспечения Linux подчиняются условиям лицензии, расположенным в пакетах. Прежде чем использовать пакет, ознакомьтесь с условиями лицензии. Установка и использование пакета означают, что вы принимаете эти условия. Если вы не согласны с условиями лицензии, не используйте пакет.
