@@ -7,12 +7,12 @@ ms.author: lizross
 author: eross-msft
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: ab582e65ad3f1c9920071260541fefd0125bf428
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: 28dfc8d64a1027eced15fb3d09a607a41535975c
+ms.sourcegitcommit: 554d274fea48a4d47c19845d969a9ec93dec82de
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91730759"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "92524349"
 ---
 # <a name="new-captureimage"></a>New-Каптуреимаже
 
@@ -21,7 +21,7 @@ ms.locfileid: "91730759"
 ## <a name="syntax"></a>Синтаксис
 
 ```
-WDSUTIL [Options] /New-CaptureImage [/Server:<Server name>]
+wdsutil [Options] /New-CaptureImage [/Server:<Server name>]
      /Image:<Image name>
      /Architecture:{x86 | ia64 | x64}
      [/Filename:<File name>]
@@ -47,11 +47,11 @@ WDSUTIL [Options] /New-CaptureImage [/Server:<Server name>]
 
 Чтобы создать образ записи и назовите его Винпекаптуре. wim, введите:
 ```
-WDSUTIL /New-CaptureImage /Image:WinPE boot image /Architecture:x86 /DestinationImage /FilePath:C:\Temp\WinPECapture.wim
+wdsutil /New-CaptureImage /Image:WinPE boot image /Architecture:x86 /DestinationImage /FilePath:C:\Temp\WinPECapture.wim
 ```
 Чтобы создать образ записи и применить указанные параметры, введите:
 ```
-WDSUTIL /Verbose /Progress /New-CaptureImage /Server:MyWDSServer /Image:WinPE boot image /Architecture:x64 /Filename:boot.wim
+wdsutil /Verbose /Progress /New-CaptureImage /Server:MyWDSServer /Image:WinPE boot image /Architecture:x64 /Filename:boot.wim
 /DestinationImage /FilePath:\\Server\Share\WinPECapture.wim /Name:New WinPE image /Description:WinPE image with capture utility /Overwrite:No /UnattendFilePath:\\Server\Share\WDSCapture.inf
 ```
 

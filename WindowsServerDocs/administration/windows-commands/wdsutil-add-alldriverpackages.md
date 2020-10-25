@@ -1,18 +1,18 @@
 ---
 title: WDSUTIL Add-аллдриверпаккажес
-description: Справочная статья по WDSUTIL Add-аллдриверпаккажес, которая добавляет все пакеты драйверов, хранящиеся в папке, на сервер.
+description: Справочная статья по команде WDSUTIL Add-аллдриверпаккажес, которая добавляет все пакеты драйверов, хранящиеся в папке, на сервер.
 ms.topic: reference
 ms.assetid: ba6641c1-d7e9-43a9-9819-702dad5484ed
 ms.author: lizross
 author: eross-msft
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: d3ec9b3d61c481eacd192ff74e149dbb56134b17
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: 07d958fb382f040db34f486a28fed4b924ce45d8
+ms.sourcegitcommit: 554d274fea48a4d47c19845d969a9ec93dec82de
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91731163"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "92524659"
 ---
 # <a name="wdsutil-add-alldriverpackages"></a>WDSUTIL Add-аллдриверпаккажес
 
@@ -21,30 +21,34 @@ ms.locfileid: "91731163"
 ## <a name="syntax"></a>Синтаксис
 
 ```
-WDSUTIL /Add-AllDriverPackages /FolderPath:<Folder Path> [/Server:<Server name>] [/Architecture:{x86 | ia64 | x64}] [/DriverGroup:<Group Name>]
+wdsutil /Add-AllDriverPackages /FolderPath:<folderpath> [/Server:<servername>] [/Architecture:{x86 | ia64 | x64}] [/DriverGroup:<groupname>]
 ```
 
 ### <a name="parameters"></a>Параметры
 
-|          Параметр           |                                                              Описание                                                              |
-|------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
-|  FolderPath\<Folder Path>  |                      Указывает полный путь к папке, содержащей INF-файлы для пакетов драйверов.                      |
-|   [/Server: \<Server name> ]   | Указывает имя сервера. Это может быть NetBIOS-имя или FQDN. Если имя сервера не указано, используется локальный сервер. |
-|     [/Арчитектуре: {x86      |                                                                 ia64                                                                  |
-| [/Дриверграуп: \<Group Name> ] |                             Указывает имя группы драйверов, в которую должны быть добавлены пакеты.                             |
+| Параметр | Описание |
+|--|--|
+| FolderPath`<folderpath>` | Указывает полный путь к папке, содержащей INF-файлы для пакетов драйверов. |
+| [/Server: `<servername>` ] | Указывает имя сервера. Это может быть NetBIOS-имя или FQDN. Если имя сервера не указано, используется локальный сервер. |
+| [/Арчитектуре: `{x86|ia64|x64}` ] | Указывает тип архитектуры для пакета драйверов. |
+| [/Дриверграуп: `<groupname>` ] | Указывает имя группы драйверов, в которую должны быть добавлены пакеты. |
 
 ## <a name="examples"></a>Примеры
 
-Чтобы добавить пакеты драйверов, введите один из следующих элементов:
+Чтобы добавить пакеты драйверов, введите:
+
 ```
-WDSUTIL /verbose /Add-AllDriverPackages /FolderPath:C:\Temp\Drivers /Architecture:x86
+wdsutil /verbose /Add-AllDriverPackages /FolderPath:C:\Temp\Drivers /Architecture:x86
 ```
+
 ```
-WDSUTIL /Add-AllDriverPackages /FolderPath:C:\Temp\Drivers\Printers /DriverGroup:Printer Drivers
+wdsutil /Add-AllDriverPackages /FolderPath:C:\Temp\Drivers\Printers /DriverGroup:Printer Drivers
 ```
 
 ## <a name="additional-references"></a>Дополнительные ссылки
 
 - [Условные обозначения синтаксиса команд командной строки](command-line-syntax-key.md)
 
-- [всдутил Add-вдсдриверпаккаже](/previous-versions/windows/powershell-scripting/dn283440(v=wps.630))
+- [Командлеты служб развертывания Windows](/powershell/module/wds)
+
+- [Add-Вдсдриверпаккаже](/powershell/module/wds/add-wdsdriverpackage)

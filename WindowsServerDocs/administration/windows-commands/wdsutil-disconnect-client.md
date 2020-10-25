@@ -1,5 +1,5 @@
 ---
-title: Disconnect — клиент
+title: Disconnect-Client
 description: Справочная статья по Disconnect-Client, которая отключает клиент от многоадресной передачи или пространства имен.
 ms.topic: reference
 ms.assetid: 876bbe6c-76ab-4de5-879b-d2066e700326
@@ -7,21 +7,21 @@ ms.author: lizross
 author: eross-msft
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 902d488a20391cb4317931aeb2572655d9aa291a
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: cc0d9b21ee7f7a400e363d978ba77778db4eb38a
+ms.sourcegitcommit: 554d274fea48a4d47c19845d969a9ec93dec82de
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91730983"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "92524459"
 ---
-# <a name="disconnect-client"></a>Disconnect — клиент
+# <a name="disconnect-client"></a>Disconnect-Client
 
 Отключает клиент от многоадресной передачи или пространства имен. Если не указано значение **/Force**, клиент будет возвращаться к другому методу передачи (если он поддерживается клиентом).
 
 ## <a name="syntax"></a>Синтаксис
 
 ```
-WDSUTIL /Disconnect-Client /ClientId:<Client ID> [/Server:<Server name>] [/Force]
+wdsutil /Disconnect-Client /ClientId:<Client ID> [/Server:<Server name>] [/Force]
 ```
 
 ### <a name="parameters"></a>Параметры
@@ -36,11 +36,11 @@ WDSUTIL /Disconnect-Client /ClientId:<Client ID> [/Server:<Server name>] [/Force
 
 Чтобы отключить клиент, введите:
 ```
-WDSUTIL /Disconnect-Client /ClientId:1
+wdsutil /Disconnect-Client /ClientId:1
 ```
 Чтобы отключить клиент и принудительно завершить установку, введите:
 ```
-WDSUTIL /Disconnect-Client /Server:MyWDSServer /ClientId:1 /Force
+wdsutil /Disconnect-Client /Server:MyWDSServer /ClientId:1 /Force
 ```
 
 ## <a name="additional-references"></a>Дополнительные ссылки

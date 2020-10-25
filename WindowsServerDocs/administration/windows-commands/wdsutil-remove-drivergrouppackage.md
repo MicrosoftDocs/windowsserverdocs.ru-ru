@@ -7,12 +7,12 @@ ms.author: lizross
 author: eross-msft
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 2cddeca84ba4993d8d77a4b55062d6ba4255abf9
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: af8354cfce9729e459da695dd2ac203d3c4e6891
+ms.sourcegitcommit: 554d274fea48a4d47c19845d969a9ec93dec82de
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91730716"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "92524319"
 ---
 # <a name="remove-drivergrouppackage"></a>Remove-Дриверграуппаккаже
 
@@ -23,7 +23,7 @@ ms.locfileid: "91730716"
 ## <a name="syntax"></a>Синтаксис
 
 ```
-WDSUTIL /Remove-DriverGroupPackage /DriverGroup:<Group Name> [/Server:<Server Name>] {/DriverPackage:<Name> | /PackageId:<ID>}
+wdsutil /Remove-DriverGroupPackage /DriverGroup:<Group Name> [/Server:<Server Name>] {/DriverPackage:<Name> | /PackageId:<ID>}
 ```
 
 ### <a name="parameters"></a>Параметры
@@ -37,10 +37,10 @@ WDSUTIL /Remove-DriverGroupPackage /DriverGroup:<Group Name> [/Server:<Server Na
 ## <a name="examples"></a>Примеры
 
 ```
-WDSUTIL /Remove-DriverGroupPackage /DriverGroup:PrinterDrivers /PackageId:{4D36E972-E325-11CE-BFC1-08002BE10318}
+wdsutil /Remove-DriverGroupPackage /DriverGroup:PrinterDrivers /PackageId:{4D36E972-E325-11CE-BFC1-08002BE10318}
 ```
 ```
-WDSUTIL /Remove-DriverGroupPackage /DriverGroup:PrinterDrivers /DriverPackage:XYZ
+wdsutil /Remove-DriverGroupPackage /DriverGroup:PrinterDrivers /DriverPackage:XYZ
 ```
 
 ## <a name="additional-references"></a>Дополнительные ссылки

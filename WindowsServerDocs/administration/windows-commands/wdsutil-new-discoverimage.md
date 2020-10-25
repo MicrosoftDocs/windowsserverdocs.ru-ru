@@ -7,12 +7,12 @@ ms.author: lizross
 author: eross-msft
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: eada7c66b79450e4364d5c65854f0b4659cbde7c
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: 693b9866dbd19fa649622d5b97b3474351c96a35
+ms.sourcegitcommit: 554d274fea48a4d47c19845d969a9ec93dec82de
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91730740"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "92524259"
 ---
 # <a name="new-discoverimage"></a>New-Дисковеримаже
 
@@ -21,7 +21,7 @@ ms.locfileid: "91730740"
 ## <a name="syntax"></a>Синтаксис
 
 ```
-WDSUTIL [Options] /New-DiscoverImage [/Server:<Server name>]
+wdsutil [Options] /New-DiscoverImage [/Server:<Server name>]
      /Image:<Image name>
      /Architecture:{x86 | ia64 | x64}
      [/Filename:<File name>]
@@ -47,11 +47,11 @@ WDSUTIL [Options] /New-DiscoverImage [/Server:<Server name>]
 
 Чтобы создать образ обнаружения из загрузочного образа и назовите его Винпедисковер. wim, введите:
 ```
-WDSUTIL /New-DiscoverImage /Image:WinPE boot image /Architecture:x86 /DestinationImage /FilePath:C:\Temp\WinPEDiscover.wim
+wdsutil /New-DiscoverImage /Image:WinPE boot image /Architecture:x86 /DestinationImage /FilePath:C:\Temp\WinPEDiscover.wim
 ```
 Чтобы создать образ обнаружения из загрузочного образа и назовите его Винпедисковер. wim с указанными параметрами, введите:
 ```
-WDSUTIL /Verbose /Progress /New-DiscoverImage /Server:MyWDSServer
+wdsutil /Verbose /Progress /New-DiscoverImage /Server:MyWDSServer
 /Image:WinPE boot image /Architecture:x64 /Filename:boot.wim /DestinationImage /FilePath:\\Server\Share\WinPEDiscover.wim
 /Name:New WinPE image /Description:WinPE image for WDS Client discovery /Overwrite:No
 ```

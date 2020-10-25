@@ -7,12 +7,12 @@ ms.author: lizross
 author: eross-msft
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: ed8fafb9c35f54656ab4551876dc0461ea1a2c55
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: 6ff13092b5d99cd007d30eee80076f18814e138d
+ms.sourcegitcommit: 554d274fea48a4d47c19845d969a9ec93dec82de
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91730991"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "92524169"
 ---
 # <a name="disable-server"></a>Disable-Server
 
@@ -21,7 +21,7 @@ ms.locfileid: "91730991"
 ## <a name="syntax"></a>Синтаксис
 
 ```
-WDSUTIL [Options] /Disable-Server [/Server:<Server name>]
+wdsutil [Options] /Disable-Server [/Server:<Server name>]
 ```
 
 ### <a name="parameters"></a>Параметры
@@ -34,8 +34,8 @@ WDSUTIL [Options] /Disable-Server [/Server:<Server name>]
 
 Чтобы отключить сервер, выполните одно из следующих действий.
 ```
-WDSUTIL /Disable-Server
-WDSUTIL /Verbose /Disable-Server /Server:MyWDSServer
+wdsutil /Disable-Server
+wdsutil /Verbose /Disable-Server /Server:MyWDSServer
 ```
 
 ## <a name="additional-references"></a>Дополнительные ссылки

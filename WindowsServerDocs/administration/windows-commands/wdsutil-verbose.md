@@ -7,12 +7,12 @@ ms.author: lizross
 author: eross-msft
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: a5c05590bbbb3f1b185a64d6b0081a3d230d6b41
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: 2335ef8bf3e3b231851d424f99f0a7e878218c4b
+ms.sourcegitcommit: 554d274fea48a4d47c19845d969a9ec93dec82de
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91730623"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "92524879"
 ---
 # <a name="using-the-verbose-command"></a>Использование команды verbose
 
@@ -21,7 +21,7 @@ ms.locfileid: "91730623"
 ## <a name="syntax"></a>Синтаксис
 
 ```
-WDSUTIL /verbose <commands>
+wdsutil /verbose <commands>
 ```
 
 ## <a name="examples"></a>Примеры
@@ -29,5 +29,5 @@ WDSUTIL /verbose <commands>
 Чтобы удалить утвержденные компьютеры из базы данных автоматического добавления и отобразить подробные выходные данные, введите:
 
 ```
-WDSUTIL /Verbose /progress /Delete-AutoAddDevices /Server:MyWDSServer /DeviceType:ApprovedDevices
+wdsutil /Verbose /progress /Delete-AutoAddDevices /Server:MyWDSServer /DeviceType:ApprovedDevices
 ```
