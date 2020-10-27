@@ -1,23 +1,25 @@
 ---
-title: Новые возможности Windows Server версии 2004
-description: Новые возможности Windows Server, версия 2004
+title: Что нового в Windows Server версий 2004 и 20H2
+description: Новые возможности Windows Server версий 2004 и 20H2
 ms.topic: article
 author: Heidilohr
 ms.author: helohr
 ms.date: 05/27/2020
 ms.localizationpriority: high
-ms.openlocfilehash: 210aa06711c67af46d35a38fe4308bc4060691e8
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: f44dcc7a1c7fab2d99f0358794bd5b2aedb87b75
+ms.sourcegitcommit: b82dfbfdc5df1327feb8be053a760739b01e3031
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87957011"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "92255871"
 ---
-# <a name="whats-new-in-windows-server-version-2004"></a>Новые возможности Windows Server версии 2004
+# <a name="whats-new-in-windows-server-version-2004-and-20h2"></a>Новые возможности Windows Server версии 2004 и 20H2
 
 >Применяется к: Windows Server (Semi-Annual Channel)
 
-Подробные сведения о новых возможностях Windows приведены в этой [статье](whats-new-in-windows-server.md). В этом разделе описаны некоторые новые функции, доступные в Windows Server версии 2004.
+Подробные сведения о новых возможностях Windows приведены в этой [статье](whats-new-in-windows-server.md). В этом разделе описаны некоторые новые функции, доступные в Windows Server версий 2004 и 20H2.
+
+Windows Server версии 20H2 — это очередной выпуск Windows Server версии 2004 в рамках Semi-Annual Channel. Эта версия ориентирована на повышение надежности, производительности и другие общие улучшения, но не содержит новых функций. Как и в случае с другими выпусками Semi-Annual Channel, она поддерживается в течение 18 месяцев после выпуска. Дополнительные сведения о датах поддержки выпусков Semi-Annual Channel см. в разделе [Информация о выпуске Windows Server](windows-server-release-info.md).
 
 ## <a name="server-core-container-improvements"></a>Улучшения контейнеров Server Core
 

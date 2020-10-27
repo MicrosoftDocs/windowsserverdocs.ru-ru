@@ -1,17 +1,17 @@
 ---
 title: Новые возможности Windows Server
 description: Новые возможности вычислений, удостоверения, управления, автоматизации, сетей, безопасности, хранения.
-ms.date: 08/22/2019
+ms.date: 10/22/2020
 ms.topic: article
 author: jasongerend
 ms.author: jgerend
 ms.localizationpriority: medium
-ms.openlocfilehash: e4cfde0f4a9861f0cf215c301c45559f20b78d2c
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 1876c2dbfcff9c8ea653885cd12232c3c97891f3
+ms.sourcegitcommit: 5a67672c3ba9e666c29a41c7356006359c639912
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87945656"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "92440146"
 ---
 # <a name="whats-new-in-windows-server"></a>Новые возможности Windows Server
 
@@ -26,6 +26,7 @@ ms.locfileid: "87945656"
 
 Выпуски Semi-Annual Channel
 
+- [Что нового в Windows Server версий 2004 и 20H2](whats-new-in-windows-server-2004.md)
 - [Что нового в Windows Server версий 1903 и 1909](../get-started-19/whats-new-in-windows-server-1903-1909.md)
 - [Что нового в Windows Server версии 1809?](whats-new-in-windows-server-1809.md)
 - [Что нового в Windows Server версии 1803](whats-new-in-windows-server-1803.md) (поддержка прекращена с 12 ноября 2019 года)
