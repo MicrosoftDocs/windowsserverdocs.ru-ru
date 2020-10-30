@@ -2,16 +2,16 @@
 title: cleanmgr
 description: Настройте средство очистки диска (Cleanmgr.exe) для автоматической очистки определенных файлов.
 ms.reviewer: cosmosdarwin
-author: iangpgh
+author: JasonGerend
 ms.author: jgerend
 manager: daveba
 ms.date: 06/20/2019
-ms.openlocfilehash: 81a9283ef75ef76b14a8ee8a5ecc3ab225207560
-ms.sourcegitcommit: 0b3d6661c44aa1a697087e644437279142726d84
+ms.openlocfilehash: dd8a015ff27809d0ef960241ce9221b4215c20aa
+ms.sourcegitcommit: 7499749ce7baaf58a523cae2dd46737d635475ce
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "90083665"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93043884"
 ---
 # <a name="cleanmgr"></a>cleanmgr
 
@@ -37,7 +37,7 @@ cleanmgr [/d <driveletter>] [/sageset:n]  [/sagerun:n] [/TUNEUP:n] [/LOWDISK] [/
 | /вериловдиск | Запустите с параметрами по умолчанию без запросов пользователя. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="options"></a>Параметры
+#### <a name="options"></a>Варианты
 
 Параметры для файлов, которые можно указать для очистки диска с помощью команды **/sageset** и **/сажерун** , включают:
 
@@ -66,7 +66,7 @@ cleanmgr [/d <driveletter>] [/sageset:n]  [/sagerun:n] [/TUNEUP:n] [/LOWDISK] [/
 
 ## <a name="examples"></a>Примеры
 
-Чтобы запустить приложение "Очистка диска", чтобы можно было использовать его диалоговое окно для указания параметров для дальнейшего использования, сохраните параметры в набор **1**, введите следующую команду:
+Чтобы запустить приложение "Очистка диска", чтобы можно было использовать его диалоговое окно для указания параметров для дальнейшего использования, сохраните параметры в набор **1** , введите следующую команду:
 
 ```
 cleanmgr /sageset:1
