@@ -2,16 +2,16 @@
 ms.assetid: e6b72a80-e8b7-4305-be0c-0a290f468d36
 title: Развертывание доменных служб Active Directory в организации Windows Server 2003
 author: iainfoulds
-ms.author: iainfou
+ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 708e18d739933d279cb79fa28e5c420f6d2b2a58
-ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
+ms.openlocfilehash: 2eed366cfa6c27fd444236b924537d34fb11698d
+ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88938014"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93069346"
 ---
 # <a name="deploying-ad-ds-in-a-windows-server-2003-organization"></a>Развертывание доменных служб Active Directory в организации Windows Server 2003
 
@@ -19,7 +19,7 @@ ms.locfileid: "88938014"
 
 Если ваша организация в настоящее время работает под управлением Windows Server 2003 Active Directory, можно развернуть Windows Server 2008 домен Active Directory Services (AD DS), выполнив обновление на месте некоторых или всех операционных систем контроллеров домена до Windows Server 2008 или путем введения контроллеров домена под управлением Windows Server 2008 в вашу среду.
 
-Перед добавлением контроллера домена под управлением Windows Server 2008 в существующий домен Active Directory Windows Server 2003 необходимо запустить средство **adprep**, запускаемое из командной строки. Adprep расширяет схему AD DS, обновляет дескрипторы безопасности по умолчанию для выбранных объектов и добавляет новые объекты каталога в соответствии с требованиями некоторых приложений. Средство Adprep доступно на установочном диске Windows Server 2008 (\sources\adprep\adprep.exe). Дополнительные сведения см. в разделе [adprep](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/cc731728(v=ws.11)).
+Перед добавлением контроллера домена под управлением Windows Server 2008 в существующий домен Active Directory Windows Server 2003 необходимо запустить средство **adprep** , запускаемое из командной строки. Adprep расширяет схему AD DS, обновляет дескрипторы безопасности по умолчанию для выбранных объектов и добавляет новые объекты каталога в соответствии с требованиями некоторых приложений. Средство Adprep доступно на установочном диске Windows Server 2008 (\sources\adprep\adprep.exe). Дополнительные сведения см. в разделе [adprep](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/cc731728(v=ws.11)).
 
 На следующем рисунке показаны шаги для развертывания Windows Server 2008 AD DS в сетевой среде, в которой в настоящее время работает Windows Server 2003 Active Directory.
 

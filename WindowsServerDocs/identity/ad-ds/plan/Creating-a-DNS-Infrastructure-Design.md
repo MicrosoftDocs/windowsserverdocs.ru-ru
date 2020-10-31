@@ -1,17 +1,17 @@
 ---
 ms.assetid: cd70b0aa-0a67-4966-a041-4dd3f302c98b
 title: Создание проекта инфраструктуры DNS
-ms.author: iainfou
+ms.author: daveba
 author: iainfoulds
 manager: daveba
 ms.date: 08/08/2018
 ms.topic: article
-ms.openlocfilehash: 8aaffc866b2e5e9c52a0d448d8cdaf929f4ecccc
-ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
+ms.openlocfilehash: a0052c791a0af7184845be7bbdbc52db6e66f6f0
+ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88941184"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93068907"
 ---
 # <a name="creating-a-dns-infrastructure-design"></a>Создание проекта инфраструктуры DNS
 
@@ -31,7 +31,7 @@ ms.locfileid: "88941184"
 
 Прежде чем приступить к проектированию инфраструктуры DNS для поддержки AD DS, можно прочитать сведения об иерархии DNS, процессе разрешения имен DNS и о том, как DNS поддерживает AD DS. Дополнительные сведения об иерархии DNS и процессе разрешения имен см. в [техническом справочнике по DNS](/previous-versions/windows/it-pro/windows-server-2003/cc779926(v=ws.10)). Дополнительные сведения о том, как DNS поддерживает AD DS, см. в статье [поддержка DNS для Active Directory технического справочника](/previous-versions/windows/it-pro/windows-server-2003/cc781627(v=ws.10)).
 
-## <a name="in-this-section"></a>Содержание раздела
+## <a name="in-this-section"></a>В этом разделе
 
 - [Общие сведения о понятиях DNS](../../ad-ds/plan/Reviewing-DNS-Concepts.md)
 - [DNS и доменные службы Active Directory](../../ad-ds/plan/DNS-and-AD-DS.md)

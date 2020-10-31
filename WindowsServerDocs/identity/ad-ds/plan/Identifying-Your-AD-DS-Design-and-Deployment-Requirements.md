@@ -2,16 +2,16 @@
 ms.assetid: f0398494-773d-4070-aa4e-25b4815b001e
 title: Определение требований к разработке и развертыванию доменных служб Active Directory
 author: iainfoulds
-ms.author: iainfou
+ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: cab4dbcf12600cc8119127ab4e2c0adfdf5a78ad
-ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
+ms.openlocfilehash: 871b7d3fb37814e3ec439e23865e3897357db6d8
+ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88941084"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93068426"
 ---
 # <a name="identifying-your-ad-ds-design-and-deployment-requirements"></a>Определение требований к разработке и развертыванию доменных служб Active Directory
 

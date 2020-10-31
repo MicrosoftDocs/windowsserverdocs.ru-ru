@@ -1,17 +1,17 @@
 ---
 title: Необходимые условия для планирования восстановления Active Directory леса
-ms.author: iainfou
+ms.author: daveba
 author: iainfoulds
 manager: daveba
 ms.date: 08/09/2018
 ms.topic: article
 ms.assetid: c49b40b2-598d-49aa-85b4-766bce960e0d
-ms.openlocfilehash: bb640474ca990d7853a35ad684889b389affb69d
-ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
+ms.openlocfilehash: 4e0fba25ba73fd92dd317bfdce0ee298adb485f8
+ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88938104"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93067776"
 ---
 # <a name="active-directory-forest-recovery-prerequisites"></a>Предварительные требования для восстановления Active Directory леса
 

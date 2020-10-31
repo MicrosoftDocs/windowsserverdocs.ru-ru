@@ -2,16 +2,16 @@
 ms.assetid: 173b72c1-ac83-4f42-abab-cf58f43769f0
 title: Определение требуемого количества лесов
 author: iainfoulds
-ms.author: iainfou
+ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: ef9460c728a727bf4b5ec56d94d4651ba950cb81
-ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
+ms.openlocfilehash: f00d49d1251d24f2e5f0e267c90daba72005f6e8
+ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88939344"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93068756"
 ---
 # <a name="determining-the-number-of-forests-required"></a>Определение требуемого количества лесов
 
@@ -60,7 +60,7 @@ ms.locfileid: "88939344"
 
 -   Клонированные домены используют общее удостоверение безопасности. Таким образом, отношения доверия между ними не могут быть установлены, даже если один или оба домена были переименованы.
 
-## <a name="in-this-section"></a>Содержание раздела
+## <a name="in-this-section"></a>В этом разделе
 
 -   [Модели проектирования лесов](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc770439(v=ws.10))
 

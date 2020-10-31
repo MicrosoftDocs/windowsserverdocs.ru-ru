@@ -2,16 +2,16 @@
 ms.assetid: d8e61aa4-8e4b-4097-83ca-70cf61366b75
 title: Делегирование администрирования с помощью объектов подразделений
 author: iainfoulds
-ms.author: iainfou
+ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: da5fce57b184b8c8d67809b89311405fc5557938
-ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
+ms.openlocfilehash: 7ce0f59dc2c9d556425b8b59b7fd438e0577fb13
+ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88941094"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93069436"
 ---
 # <a name="delegating-administration-by-using-ou-objects"></a>Делегирование администрирования с помощью объектов подразделений
 
@@ -25,7 +25,7 @@ ms.locfileid: "88941094"
 
 Владелец леса определяет уровень полномочий, делегированных владельцу подразделения. Это может варьироваться от возможности создания и управления объектами в подразделении, чтобы разрешить только управление одним атрибутом одного типа объекта в подразделении. Предоставление пользователю возможности создавать объект в подразделении неявно предоставляет этому пользователю возможность управлять любым атрибутом любого объекта, создаваемого пользователем. Кроме того, если созданный объект является контейнером, пользователь неявно имеет возможность создавать любые объекты, размещенные в контейнере, и управлять ими.
 
-## <a name="in-this-section"></a>Содержание раздела
+## <a name="in-this-section"></a>В этом разделе
 
 -   [Делегирование администрирования подразделений и контейнеров по умолчанию](../../ad-ds/plan/Delegating-Administration-of-Default-Containers-and-OUs.md)
 

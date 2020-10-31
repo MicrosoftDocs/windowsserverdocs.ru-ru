@@ -1,17 +1,17 @@
 ---
 ms.assetid: 8be8c48d-790c-4199-b9d3-9f4a07d5ced2
 title: Сбор сведений о сети
-ms.author: iainfou
+ms.author: daveba
 author: iainfoulds
 manager: daveba
 ms.date: 08/08/2018
 ms.topic: article
-ms.openlocfilehash: 3c7e7a0a3d193128ecc2186c15eb8f9c0b9d93a9
-ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
+ms.openlocfilehash: 2c1c5362d6bbcb9beed6e35c55dced3f0a30d839
+ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88941204"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93068946"
 ---
 # <a name="collecting-network-information"></a>Сбор сведений о сети
 

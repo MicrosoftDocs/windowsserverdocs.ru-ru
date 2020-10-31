@@ -2,16 +2,16 @@
 ms.assetid: e3ea1f67-60d4-4566-b24c-37faa95c3b2a
 title: Определение стоимости
 author: iainfoulds
-ms.author: iainfou
+ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: acf68e45a1d914bcbf5e780f51d2455fe43ab3e3
-ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
+ms.openlocfilehash: 9da1c4f247a1acfe982a2d5444fc3385806ce039
+ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88939414"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93069206"
 ---
 # <a name="determining-the-cost"></a>Определение стоимости
 
@@ -35,7 +35,7 @@ ms.locfileid: "88939414"
 |T3|45 Мбит/с|
 |Переданный|10 Мбит/с|
 |Режим асинхронной пересылки (ATM)|Частота переменных, обычно от 155 Мбит/с и 622 Мбит/с|
-|100Base|100 Мбит/с|
+|100Base|100 Мбит/с|
 |Gigabit Ethernet|1 гигабит в секунду (Гбит/сек)|
 
 Используйте следующую таблицу для вычисления стоимости каждой связи сайтов на основе скорости канала глобальной сети (WAN). Для скорости связи WAN, которая не указана в таблице, можно вычислить относительный коэффициент стоимости, разделив 1 024 журналом доступной пропускной способности, измеряемой в кбит/с.

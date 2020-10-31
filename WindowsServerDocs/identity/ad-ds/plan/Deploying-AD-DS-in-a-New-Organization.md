@@ -2,16 +2,16 @@
 ms.assetid: a589dda6-e05b-4b44-ae3e-b15dd3877617
 title: Развертывание доменных служб Active Directory в новой организации
 author: iainfoulds
-ms.author: iainfou
+ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 5d412c6bb4740d34dcd2c66ea0a899a8c286b148
-ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
+ms.openlocfilehash: d342580b10e9c2a90bc0dad0736d14baa771da9d
+ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88941474"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93069426"
 ---
 # <a name="deploying-ad-ds-in-a-new-organization"></a>Развертывание доменных служб Active Directory в новой организации
 

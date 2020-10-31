@@ -1,17 +1,17 @@
 ---
 ms.assetid: c32606b4-2ee2-4df3-a704-8ac6723e188f
 title: DNS и доменные службы Active Directory
-ms.author: iainfou
+ms.author: daveba
 author: iainfoulds
 manager: daveba
 ms.date: 08/08/2018
 ms.topic: article
-ms.openlocfilehash: 65e23e469c6361ac2eb614280b3f1e58e2bfff08
-ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
+ms.openlocfilehash: 65157b564f5d1a30a0a76f0ab11e7eaca6135f7d
+ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88941114"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93069496"
 ---
 # <a name="dns-and-ad-ds"></a>DNS и доменные службы Active Directory
 
@@ -26,7 +26,7 @@ AD DS позволяет легко интегрировать простран�
 > [!NOTE]
 > При реализации несвязанного пространства имен, в котором доменное имя AD DS отличается от основного DNS-суффикса, который используется клиентами, AD DS интеграция с DNS является более сложной. Дополнительные сведения см. в разделе несвязанное [пространство имен](Disjoint-Namespace.md).
 
-## <a name="in-this-section"></a>Содержание раздела
+## <a name="in-this-section"></a>В этом разделе
 
 - [Расположение контроллера домена](Domain-Controller-Location.md)
 - [Зоны DNS, интегрированные с Active Directory](Active-Directory-Integrated-DNS-Zones.md)

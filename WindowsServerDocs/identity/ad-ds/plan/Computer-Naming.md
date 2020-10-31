@@ -2,16 +2,16 @@
 ms.assetid: f7002265-60fa-40b8-9dd7-4bf131d9320a
 title: Именование компьютеров
 author: iainfoulds
-ms.author: iainfou
+ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 59b6be118a93881d5800e2f0032e0738c7e3bdfa
-ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
+ms.openlocfilehash: 1be5d49b90f9e0573054f8d541a1118516b27f01
+ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88941194"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93068926"
 ---
 # <a name="computer-naming"></a>Именование компьютеров
 

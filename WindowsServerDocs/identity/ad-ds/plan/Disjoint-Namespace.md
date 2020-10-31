@@ -2,16 +2,16 @@
 ms.assetid: d92731f1-e4d8-4223-9b07-ca1f40bb0e1f
 title: Несвязанное пространство имен
 author: iainfoulds
-ms.author: iainfou
+ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 06506ac47fe22724047cff73fb88972b868600b5
-ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
+ms.openlocfilehash: 76733e31497ab92ab54cb583b9db88b989400389
+ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88939284"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93068736"
 ---
 # <a name="disjoint-namespace"></a>Несвязанное пространство имен
 

@@ -2,16 +2,16 @@
 ms.assetid: eca5bbf0-088e-4753-bf49-4d6c1125f689
 title: Поиск дополнительных ресурсов для проектирования топологии сайтов Active Directory под управлением Windows Server 2008
 author: iainfoulds
-ms.author: iainfou
+ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: f4e444eec232bb6dabfd4acfdce9f4cc7e007bf8
-ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
+ms.openlocfilehash: b5edda407ce85ec8024f6cc1c9a6e9ec463e7618
+ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88939104"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93068569"
 ---
 # <a name="finding-additional-resources-for-windows-server-2008-active-directory-site-topology-design"></a>Поиск дополнительных ресурсов для проектирования топологии сайтов Active Directory под управлением Windows Server 2008
 
@@ -25,7 +25,7 @@ ms.locfileid: "88939104"
 
 - Дополнительные сведения о охвате деревьев и Active Directory топологии репликации см. в статье [Технический справочник по топологии репликации Active Directory](/previous-versions/windows/it-pro/windows-server-2003/cc755326(v=ws.10)).
 
-- Дополнительные сведения об использовании Adlb.exe и управлении средами с 100 или более сайтами филиалов см. [в статье улучшения балансировки нагрузки сервера-плацдарма с Windows Server 2008 RODC](/previous-versions/windows/it-pro/windows-server-2008-r2-and-2008/dd735927(v%3dws.10)).
+- Дополнительные сведения об использовании Adlb.exe и управлении средами, в которых есть 100 или более сайтов филиалов, см. [в разделе Обзор улучшений Load-Balancing сервера-плацдарма в Windows Server 2008 RODC](/previous-versions/windows/it-pro/windows-server-2008-r2-and-2008/dd735927(v%3dws.10)).
 
 - Сведения об установке сетевой монитор см. в разделе [наблюдение за сетевым трафиком](/previous-versions/windows/it-pro/windows-server-2003/cc783075(v=ws.10)).
 
@@ -49,6 +49,6 @@ ms.locfileid: "88939104"
 
 - Сведения об управлении репликацией с помощью брандмауэров см. [в разделе Active Directory в сетях, сегментированных брандмауэрами](https://microsoft.com/download/details.aspx?familyid=c2ef3846-43f0-4caf-9767-a9166368434e).
 
-- Дополнительные сведения о возможностях контроллера домена только для чтения (RODC) см. в разделе [AD DS: контроллеры домена только для чтения](/previous-versions/windows/it-pro/windows-server-2008-r2-and-2008/cc732801(v=ws.10)).
+- Дополнительные сведения о возможностях контроллера домена только для чтения (RODC) см. в разделе [AD DS: Read-Only контроллеры домена](/previous-versions/windows/it-pro/windows-server-2008-r2-and-2008/cc732801(v=ws.10)).
 
 - Дополнительные сведения о развертывании RODC см. в статье Пошаговое [руководство по контроллерам домена только для чтения](/previous-versions/windows/it-pro/windows-server-2008-r2-and-2008/cc772234(v=ws.10)).

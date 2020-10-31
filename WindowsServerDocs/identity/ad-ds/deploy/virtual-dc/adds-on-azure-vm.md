@@ -2,16 +2,16 @@
 title: Установка служб домен Active Directory на виртуальной машине Azure
 description: Создание нового Active Directory леса на виртуальной машине в виртуальной машине Azure.
 author: iainfoulds
-ms.author: iainfou
+ms.author: daveba
 manager: daveba
 ms.date: 04/11/2019
 ms.topic: article
-ms.openlocfilehash: e95aea80bea16322f66a14c12b0a1388897c1b11
-ms.sourcegitcommit: 40466c8af1fc60dfca733ea476f088549cedba65
+ms.openlocfilehash: fef394aaef059ec83303c903ca5e548f002775c0
+ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "92793591"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93069076"
 ---
 # <a name="install-a-new-active-directory-forest-using-azure-cli"></a>Установка нового леса Active Directory с помощью Azure CLI
 

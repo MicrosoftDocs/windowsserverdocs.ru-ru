@@ -2,16 +2,16 @@
 ms.assetid: 34244b53-1206-4f5b-8c4d-3ebf574d8e24
 title: Учетные записи, подверженные риску кражи учетных данных
 author: iainfoulds
-ms.author: iainfou
+ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: f2cde8766a518be95d52449d2516a874c6070bc7
-ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
+ms.openlocfilehash: fc447cb52f3d808a16b517b4cccaf3c15009f39c
+ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88938224"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93069716"
 ---
 # <a name="attractive-accounts-for-credential-theft"></a>Учетные записи, подверженные риску кражи учетных данных
 

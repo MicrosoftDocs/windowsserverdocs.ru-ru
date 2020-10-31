@@ -1,17 +1,18 @@
 ---
 ms.assetid: 4163cf03-3bff-426c-9844-4cc2d7897d52
 title: Назначение DNS для роли владельца доменных служб Active Directory
+description: Сведения о назначении роли владельца DNS для AD DS.
 author: iainfoulds
-ms.author: iainfou
+ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 5680f7a4ac65967d7ba38882682b69605df6facf
-ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
+ms.openlocfilehash: 56097e1a7db947be2d4b7dcbf83798f324346fc0
+ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88940794"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93068236"
 ---
 # <a name="assigning-the-dns-for-ad-ds-owner-role"></a>Назначение DNS для роли владельца доменных служб Active Directory
 
@@ -22,6 +23,3 @@ ms.locfileid: "88940794"
 Владелец DNS для AD DS отвечает за создание DNS для AD DS для леса. Если в вашей организации в настоящее время работает служба DNS-сервера, конструктор DNS для существующей службы DNS-сервера работает с DNS-сервером для владельца AD DS, чтобы делегировать корневое DNS-имя леса DNS-серверам, работающим на контроллерах домена.
 
 DNS-владелец для AD DS для леса также хранит контакт с группой DHCP и группой DNS организации и координирует планы отдельных владельцев DNS каждого домена в лесу (если таковые имеются) с этими группами. Владелец DNS для леса гарантирует, что DHCP-и DNS-группы будут задействованы в службе DNS для AD DS процесс проектирования, чтобы каждая группа знала о плане проектирования DNS и преддавала возможность ввода данных в начале.
-
-
-

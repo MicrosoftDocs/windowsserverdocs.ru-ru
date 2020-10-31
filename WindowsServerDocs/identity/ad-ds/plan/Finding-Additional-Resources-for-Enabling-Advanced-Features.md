@@ -2,16 +2,16 @@
 ms.assetid: 3eb89320-d8b0-463f-b9e9-5a5b6e96e0b8
 title: Поиск дополнительных ресурсов для поддержки дополнительных возможностей
 author: iainfoulds
-ms.author: iainfou
+ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 133a9e8eb12061ebbb5d8214238a0941da4b34ca
-ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
+ms.openlocfilehash: 68d1a5859f854f6a193d0449d0448e4a109ad4dc
+ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88939214"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93068586"
 ---
 # <a name="finding-additional-resources-for-enabling-advanced-features"></a>Поиск дополнительных ресурсов для поддержки дополнительных возможностей
 

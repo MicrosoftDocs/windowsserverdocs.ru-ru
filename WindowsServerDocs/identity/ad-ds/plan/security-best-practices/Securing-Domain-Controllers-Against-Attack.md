@@ -1,17 +1,17 @@
 ---
 ms.assetid: ba28bd05-16e6-465f-982b-df49633cfde4
 title: Защита контроллеров домена от атак
-ms.author: iainfou
+ms.author: daveba
 author: iainfoulds
 manager: daveba
 ms.date: 06/18/2017
 ms.topic: article
-ms.openlocfilehash: 7fe76d6e6f2bb640e69b46faacacf87f533ad80d
-ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
+ms.openlocfilehash: 31cb962d03fab418f3d98320662a15ef4f3f3764
+ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88941364"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93069486"
 ---
 # <a name="securing-domain-controllers-against-attack"></a>Защита контроллеров домена от атак
 

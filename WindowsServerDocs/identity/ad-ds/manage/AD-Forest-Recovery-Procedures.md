@@ -1,17 +1,17 @@
 ---
 title: Восстановление леса AD — процедуры
-ms.author: iainfou
+ms.author: daveba
 author: iainfoulds
 manager: daveba
 ms.date: 08/09/2018
 ms.topic: article
 ms.assetid: 47a471fb-3b0b-4aa8-8525-1c92d0d51e93
-ms.openlocfilehash: 2bd333d2ae6d27facf5e3c5b31a113b13a1cd11c
-ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
+ms.openlocfilehash: 3a4edd21cb538c2aa8fd1f2d1eb4f3832c3fac56
+ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88939484"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93067796"
 ---
 # <a name="ad-forest-recovery---procedures"></a>Восстановление леса AD — процедуры
 

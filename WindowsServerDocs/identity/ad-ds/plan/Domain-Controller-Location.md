@@ -2,16 +2,16 @@
 ms.assetid: cc2834ec-8f66-4209-aba3-402d710cd1bd
 title: Расположение контроллера домена
 author: iainfoulds
-ms.author: iainfou
+ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: ada91f7205ba12e4d37a02e3503647c9560ccdd8
-ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
+ms.openlocfilehash: d22abba814d9cd4b18294b3c54d550b28c2dfef5
+ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88939274"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93068726"
 ---
 # <a name="domain-controller-location"></a>Расположение контроллера домена
 

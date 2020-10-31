@@ -2,22 +2,22 @@
 ms.assetid: ac6604b0-7459-4ff3-af1c-4936897f5d14
 title: Делегирование администрирования подразделений и контейнеров по умолчанию
 author: iainfoulds
-ms.author: iainfou
+ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 0ddd4e6853dfaf08cb04157554209f6725b79936
-ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
+ms.openlocfilehash: 8f52ca20cce86c869f66ea9d0e2e795956a0c75f
+ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88941464"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93069416"
 ---
 # <a name="delegating-administration-of-default-containers-and-ous"></a>Делегирование администрирования подразделений и контейнеров по умолчанию
 
 >Область применения. Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
-Каждый домен Active Directory содержит стандартный набор контейнеров и подразделений (OU), которые создаются во время установки служб домен Active Directory (AD DS). следующие основные параметры.
+Каждый домен Active Directory содержит стандартный набор контейнеров и подразделений (OU), которые создаются во время установки служб домен Active Directory (AD DS). В их числе можно назвать следующие:
 
 -   Доменный контейнер, который служит корневым контейнером для иерархии
 

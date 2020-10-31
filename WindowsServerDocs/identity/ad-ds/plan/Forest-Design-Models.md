@@ -2,16 +2,16 @@
 ms.assetid: c7f49a65-c3eb-4383-99d3-756aa8c79fc0
 title: Модели проектирования лесов
 author: iainfoulds
-ms.author: iainfou
+ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: b1a75ed268bc49167e0efcb5b314f2bb5c2e05d4
-ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
+ms.openlocfilehash: 7382f70d292fdfdc08c3e4e1a24bacb04a7a7642
+ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88939124"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93068466"
 ---
 # <a name="forest-design-models"></a>Модели проектирования лесов
 

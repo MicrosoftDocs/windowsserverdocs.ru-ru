@@ -2,16 +2,16 @@
 ms.assetid: 28ecaf5c-9131-406c-b211-a230162e462e
 title: Определение расписания
 author: iainfoulds
-ms.author: iainfou
+ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 1d30648523344d933025e779709815fc4e47f88a
-ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
+ms.openlocfilehash: 9a882ab616fae5a5ab649fb5a988aa90e8bc7a9c
+ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88939304"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93068746"
 ---
 # <a name="determining-the-schedule"></a>Определение расписания
 

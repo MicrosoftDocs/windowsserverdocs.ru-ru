@@ -2,16 +2,16 @@
 ms.assetid: 4f835b82-67b9-428c-b634-ce133cca5113
 title: Оценка примеров стратегии развертывания доменных служб Active Directory
 author: iainfoulds
-ms.author: iainfou
+ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 330d20790b14de95693751c587b30061d144cb88
-ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
+ms.openlocfilehash: 58236397485e0998e26e9ca67908c7937d32fbbb
+ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88939244"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93068636"
 ---
 # <a name="evaluating-ad-ds-deployment-strategy-examples"></a>Оценка примеров стратегии развертывания доменных служб Active Directory
 
