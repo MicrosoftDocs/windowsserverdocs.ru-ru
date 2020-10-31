@@ -1,17 +1,17 @@
 ---
 ms.assetid: ba7f2b9f-7351-4680-b7d8-a5f270614f1c
 title: Что нового в установке и удалении доменных служб Active Directory
-ms.author: iainfou
+ms.author: daveba
 author: iainfoulds
 manager: daveba
 ms.date: 08/09/2018
 ms.topic: article
-ms.openlocfilehash: 9658fe8ea7c9c11cda10989bfe9d1568c21d9704
-ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
+ms.openlocfilehash: a16d4ab1a831eb4f057e3802ad644a13a234805b
+ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88940594"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93069916"
 ---
 # <a name="whats-new-in-active-directory-domain-services-installation-and-removal"></a>Что нового в установке и удалении доменных служб Active Directory
 
@@ -165,7 +165,7 @@ Adprep.exe /forestprep /forest <forest name> /userdomain <user domain name> /use
 
    В этом случае возвращается следующее сообщение об ошибке:
 
-   Не удается подключиться к исходному контроллеру домена репликации *имя исходного контроллера домена*. (Исключение: ошибка при входе: неизвестное имя пользователя или неверный пароль)
+   Не удается подключиться к исходному контроллеру домена репликации *имя исходного контроллера домена* . (Исключение: ошибка при входе: неизвестное имя пользователя или неверный пароль)
 
    Если вы присоедините целевой сервер к домену и затем проведете установку с использованием смарт-карты, то установка завершится успешно.
 

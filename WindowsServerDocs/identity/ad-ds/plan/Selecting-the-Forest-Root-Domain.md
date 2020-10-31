@@ -1,17 +1,17 @@
 ---
 ms.assetid: ef4ef4a9-8969-4ad0-bd17-b2bb24f36ef6
 title: Выбор корневого домена леса
-ms.author: iainfou
+ms.author: daveba
 author: iainfoulds
 manager: daveba
 ms.date: 08/08/2018
 ms.topic: article
-ms.openlocfilehash: 32171395c7b0d854492568214b67f99a74919f6b
-ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
+ms.openlocfilehash: 63c405450cca315f4388feb13402b71f207117f2
+ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88938504"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93070206"
 ---
 # <a name="selecting-the-forest-root-domain"></a>Выбор корневого домена леса
 

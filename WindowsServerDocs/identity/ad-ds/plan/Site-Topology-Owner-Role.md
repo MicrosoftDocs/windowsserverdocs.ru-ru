@@ -2,16 +2,16 @@
 ms.assetid: af76ddbe-83a2-4a62-9989-873e3bb1c772
 title: Роль владельца топологии сайта
 author: iainfoulds
-ms.author: iainfou
+ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 8da8960a88de676c6611751d10f73f327f051fba
-ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
+ms.openlocfilehash: 162256df7b35b1d0d7033036bbfc097187670762
+ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88938334"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93070136"
 ---
 # <a name="site-topology-owner-role"></a>Роль владельца топологии сайта
 

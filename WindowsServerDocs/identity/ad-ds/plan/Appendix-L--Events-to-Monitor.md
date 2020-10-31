@@ -1,17 +1,17 @@
 ---
 ms.assetid: 99a68050-8d19-4c58-ad86-e08a3dcdb4f7
 title: Приложение L. события для отслеживания
-ms.author: iainfou
+ms.author: daveba
 author: iainfoulds
 manager: daveba
 ms.date: 07/30/2018
 ms.topic: article
-ms.openlocfilehash: 69cee9735f4cd59545fca2428702fe2670091ede
-ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
+ms.openlocfilehash: b1d359ad760e04b75f28453694fc42235af54423
+ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88941234"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93071176"
 ---
 # <a name="appendix-l-events-to-monitor"></a>Приложение М. События для мониторинга
 

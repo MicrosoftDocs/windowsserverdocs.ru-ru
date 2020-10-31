@@ -1,17 +1,17 @@
 ---
 title: Восстановление леса AD — выявление проблемы
-ms.author: iainfou
+ms.author: daveba
 author: iainfoulds
 manager: daveba
 ms.date: 08/09/2018
 ms.topic: article
 ms.assetid: 5a291f65-794e-4fc3-996e-094c5845a383
-ms.openlocfilehash: fc285fb355b6539aac56c7c410de1e1f7da48f00
-ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
+ms.openlocfilehash: becbb729d8248771e23c79b586e5844738738718
+ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88939664"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93071296"
 ---
 # <a name="identify-the-problem"></a>Определение проблемы
 

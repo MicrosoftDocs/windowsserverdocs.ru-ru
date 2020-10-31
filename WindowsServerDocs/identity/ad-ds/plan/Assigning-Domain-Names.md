@@ -2,16 +2,16 @@
 ms.assetid: 73897497-b189-4305-b234-e057ffda163a
 title: Присвоение имен доменов
 author: iainfoulds
-ms.author: iainfou
+ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 8d6f85cc59b7f031f6985936ce8725de6d477815
-ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
+ms.openlocfilehash: 84a74c9c210f4e3c826b7efd3451b76bcec96616
+ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88941224"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93071166"
 ---
 # <a name="assigning-domain-names"></a>Присвоение имен доменов
 

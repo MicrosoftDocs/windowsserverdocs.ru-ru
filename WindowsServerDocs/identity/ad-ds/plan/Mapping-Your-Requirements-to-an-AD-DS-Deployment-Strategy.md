@@ -2,16 +2,16 @@
 ms.assetid: ce3be131-06ad-41dc-a26b-1168fa68c8ed
 title: Сопоставление требований и стратегии развертывания доменных служб Active Directory
 author: iainfoulds
-ms.author: iainfou
+ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: fc8dec94aad6c742fa62560d73b74e4c8f22b466
-ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
+ms.openlocfilehash: c50fce47b3bd9f848b5620bcbfb0fba5b4a7e3f7
+ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88939004"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93071096"
 ---
 # <a name="mapping-your-requirements-to-an-ad-ds-deployment-strategy"></a>Сопоставление требований и стратегии развертывания доменных служб Active Directory
 

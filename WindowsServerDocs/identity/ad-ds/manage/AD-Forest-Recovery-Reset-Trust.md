@@ -1,17 +1,17 @@
 ---
 title: Восстановление леса AD — сброс пароля доверия
-ms.author: iainfou
+ms.author: daveba
 author: iainfoulds
 manager: daveba
 ms.date: 08/09/2018
 ms.topic: article
 ms.assetid: 398918dc-c8ab-41a6-a377-95681ec0b543
-ms.openlocfilehash: d3a0c694e2108ca623f1ba224d2a265314d7800e
-ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
+ms.openlocfilehash: a4e1c02710b215ff5a527fa8ad39c6f78cdedceb
+ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88941484"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93070826"
 ---
 # <a name="resetting-a-trust-password-on-one-side-of-the-trust"></a>Сброс пароля доверия с одной стороны доверия
 

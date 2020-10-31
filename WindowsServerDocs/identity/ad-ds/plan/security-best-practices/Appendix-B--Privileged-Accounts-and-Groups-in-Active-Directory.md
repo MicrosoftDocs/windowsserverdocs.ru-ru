@@ -2,16 +2,16 @@
 ms.assetid: 79b9c912-ea3e-4679-ab41-893e096c4d09
 title: Приложение б. привилегированные учетные записи и группы в Active Directory
 author: iainfoulds
-ms.author: iainfou
+ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 22bcea1426502af83fdeeecb0005324de2d54e64
-ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
+ms.openlocfilehash: 2f720c09ee59544376693cdb97ecf7af54e308bd
+ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88941574"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93070476"
 ---
 # <a name="appendix-b-privileged-accounts-and-groups-in-active-directory"></a>Приложение Б. Привилегированные учетные записи и группы в Active Directory
 
@@ -27,7 +27,7 @@ ms.locfileid: "88941574"
 Различия между правами, разрешениями и привилегиями могут быть запутанными и противоречивыми, даже внутри документации Майкрософт. В этом разделе описаны некоторые характеристики каждого из них, как они используются в этом документе. Эти описания не следует рассматривать как полномочные для других документов Майкрософт, так как они могут использовать эти условия по-разному.
 
 #### <a name="rights-and-privileges"></a>Права и привилегии
-Права и привилегии фактически являются теми же возможностями на уровне системы, которые предоставляются субъектам безопасности, таким как пользователи, службы, компьютеры или группы. В интерфейсах, обычно используемых ИТ-специалистами, они обычно называются "права доступа" или "права пользователя" и часто назначаются групповая политикаными объектами. На следующем снимке экрана показаны некоторые наиболее распространенные права пользователя, которые могут быть назначены субъектам безопасности (он представляет объект групповой политики контроллеров домена по умолчанию в домене Windows Server 2012). Некоторые из этих прав применяются к Active Directory, например **разрешение учетных записей компьютера и пользователя для делегирования** прав пользователя, а другие права применяются к операционной системе Windows, например **изменение системного времени**.
+Права и привилегии фактически являются теми же возможностями на уровне системы, которые предоставляются субъектам безопасности, таким как пользователи, службы, компьютеры или группы. В интерфейсах, обычно используемых ИТ-специалистами, они обычно называются "права доступа" или "права пользователя" и часто назначаются групповая политикаными объектами. На следующем снимке экрана показаны некоторые наиболее распространенные права пользователя, которые могут быть назначены субъектам безопасности (он представляет объект групповой политики контроллеров домена по умолчанию в домене Windows Server 2012). Некоторые из этих прав применяются к Active Directory, например **разрешение учетных записей компьютера и пользователя для делегирования** прав пользователя, а другие права применяются к операционной системе Windows, например **изменение системного времени** .
 
 ![привилегированные учетные записи и группы](media/Appendix-B--Privileged-Accounts-and-Groups-in-Active-Directory/SAD_8.gif)
 
@@ -49,12 +49,12 @@ ms.locfileid: "88941574"
 |[Назначение квот памяти процессам](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd349804(v=ws.10)#BKMK_5)|SeIncreaseQuotaPrivilege|
 |[Локальный вход в систему](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd349804(v=ws.10)#BKMK_6)|SeInteractiveLogonRight|
 |[Разрешить вход в систему через службы терминалов](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd349804(v=ws.10)#BKMK_7)|серемотеинтерактивелогонригхт|
-|[Архивация файлов и каталогов](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd349804(v=ws.10)#BKMK_8)|SeBackupPrivilege|
+|[Резервное копирование файлов и каталогов](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd349804(v=ws.10)#BKMK_8)|SeBackupPrivilege|
 |[Обход проходной проверки](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd349804(v=ws.10)#BKMK_9)|SeChangeNotifyPrivilege|
 |[Изменение системного времени](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd349804(v=ws.10)#BKMK_10)|сесистемтимепривилеже|
 |[Изменение часового пояса](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd349804(v=ws.10)#BKMK_11)|сетимезонепривилеже|
 |[Создание файла подкачки](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd349804(v=ws.10)#BKMK_12)|секреатепажефилепривилеже|
-|[Создание маркерного объекта](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd349804(v=ws.10)#BKMK_13)|секреатетокенпривилеже|
+|[Создание объекта Token](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd349804(v=ws.10)#BKMK_13)|секреатетокенпривилеже|
 |[Создание глобальных объектов](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd349804(v=ws.10)#BKMK_14)|секреатеглобалпривилеже|
 |[Создание постоянных общих объектов](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd349804(v=ws.10)#BKMK_15)|секреатеперманентпривилеже|
 |[Создание символических ссылок](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd349804(v=ws.10)#BKMK_16)|секреатесимболиклинкпривилеже|
@@ -64,10 +64,10 @@ ms.locfileid: "88941574"
 |[Отказать во входе в качестве службы](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd349804(v=ws.10)#BKMK_19)|седенисервицелогонригхт|
 |[Запретить локальный вход](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd349804(v=ws.10)#BKMK_20)|седенинтерактивелогонригхт|
 |[Запретить вход в систему через службы терминалов](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd349804(v=ws.10)#BKMK_21)|седениремотеинтерактивелогонригхт|
-|[Разрешение доверия к учетным записям компьютеров и пользователей при делегировании](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd349804(v=ws.10)#BKMK_22)|SeEnableDelegationPrivilege|
+|[Разрешение доверия учетных записей компьютеров и пользователей для делегирования](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd349804(v=ws.10)#BKMK_22)|SeEnableDelegationPrivilege|
 |[Принудительное удаленное завершение работы](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd349804(v=ws.10)#BKMK_23)|серемотешутдовнпривилеже|
 |[Создание аудитов безопасности](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd349804(v=ws.10)#BKMK_24)|SeAuditPrivilege|
-|[олицетворение клиента после проверки подлинности;](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd349804(v=ws.10)#BKMK_25)|SeImpersonatePrivilege|
+|[Олицетворять клиента после проверки подлинности](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd349804(v=ws.10)#BKMK_25)|SeImpersonatePrivilege|
 |[Увеличение рабочего набора процесса](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd349804(v=ws.10)#BKMK_26)|SeIncreaseWorkingSetPrivilege|
 |[Увеличение приоритета выполнения](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd349804(v=ws.10)#BKMK_27)|SeIncreaseBasePriorityPrivilege|
 |[Загрузка и выгрузка драйверов устройств](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd349804(v=ws.10)#BKMK_28)|селоаддриверпривилеже|
@@ -76,7 +76,7 @@ ms.locfileid: "88941574"
 |[Вход в систему в качестве службы.](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd349804(v=ws.10)#BKMK_31)|SeServiceLogonRight|
 |[Управление аудитом и журналом безопасности](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd349804(v=ws.10)#BKMK_32)|SeSecurityPrivilege|
 |[Изменение метки объекта](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd349804(v=ws.10)#BKMK_33)|серелабелпривилеже|
-|[Изменение параметров среды изготовителя](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd349804(v=ws.10)#BKMK_34)|сесистеменвиронментпривилеже|
+|[Изменение значений среды встроенного по](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd349804(v=ws.10)#BKMK_34)|сесистеменвиронментпривилеже|
 |[Выполнение задач по обслуживанию томов](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd349804(v=ws.10)#BKMK_35)|семанажеволумепривилеже|
 |[Профилирование одного процесса](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd349804(v=ws.10)#BKMK_36)|сепрофилесинглепроцесспривилеже|
 |[Профилирование производительности системы](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd349804(v=ws.10)#BKMK_37)|сесистемпрофилепривилеже|
@@ -85,7 +85,7 @@ ms.locfileid: "88941574"
 |[Восстановление файлов и каталогов](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd349804(v=ws.10)#BKMK_40)|сересторепривилеже|
 |[Завершение работы системы](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd349804(v=ws.10)#BKMK_41)|сешутдовнпривилеже|
 |[Синхронизация данных службы каталогов](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd349804(v=ws.10)#BKMK_42)|сесинкажентпривилеже|
-|[Смена владельцев файлов и других объектов](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd349804(v=ws.10)#BKMK_43)|сетакеовнершиппривилеже|
+|[Стать владельцем файлов или других объектов](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd349804(v=ws.10)#BKMK_43)|сетакеовнершиппривилеже|
 
 #### <a name="permissions"></a>Разрешения
 Разрешения — это элементы управления доступом, применяемые к защищаемым объектам, таким как файловая система, реестр, служба и Active Directory объекты. С каждым защищаемым объектом связан список управления доступом (ACL), который содержит записи контроля доступа (ACE), предоставляющие или запрещающие субъектам безопасности (пользователям, службам, компьютерам или группам) возможность выполнять различные операции с объектом. Например, списки ACL для многих объектов в Active Directory содержат ACE, которые позволяют прошедшим проверку подлинности пользователям считывать общие сведения об объектах, но не дают им возможности читать конфиденциальные сведения или изменять объекты.

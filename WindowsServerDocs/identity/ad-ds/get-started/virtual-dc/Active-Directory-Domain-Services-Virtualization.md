@@ -2,16 +2,16 @@
 ms.assetid: 2f536fb8-16e5-471d-bafc-21b96197efb8
 title: Виртуализация доменных служб Active Directory
 author: iainfoulds
-ms.author: iainfou
+ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 59b0029fd5ff55b31a6a4581e5cc065b5a921982
-ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
+ms.openlocfilehash: 83c36fafb652a801a99b97bececfd60152383060
+ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88940294"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93070976"
 ---
 # <a name="active-directory-domain-services-virtualization"></a>Виртуализация доменных служб Active Directory
 

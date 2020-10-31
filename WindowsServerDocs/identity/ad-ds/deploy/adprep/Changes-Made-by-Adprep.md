@@ -3,16 +3,16 @@ ms.assetid: b432980c-601f-492b-924e-7427419c8457
 title: Changes Made by Adprep.exe
 description: Описание изменений, которые Adprep.exe делают в Windows Server 2012 R2 и Windows Server 2012
 author: iainfoulds
-ms.author: iainfou
+ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: d6f75ea0b9e219389da1e334ae425be3f7c365b0
-ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
+ms.openlocfilehash: 69ac351a4b334161188b975125162e6fd0e2345e
+ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88940494"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93069856"
 ---
 # <a name="changes-made-by-adprepexe"></a>Changes Made by Adprep.exe
 

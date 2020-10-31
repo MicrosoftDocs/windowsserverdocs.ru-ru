@@ -2,16 +2,16 @@
 ms.assetid: da7b6dcf-53ec-4394-88c0-c087d92f3893
 title: Объем полномочий администратора службы
 author: iainfoulds
-ms.author: iainfou
+ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: e34f8a7aac27719bc2841324fb87d9e5ca5548bb
-ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
+ms.openlocfilehash: 7094a46fc848e188309abb040f3e1383b6f9b6b7
+ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88938434"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93070196"
 ---
 # <a name="service-administrator-scope-of-authority"></a>Объем полномочий администратора службы
 

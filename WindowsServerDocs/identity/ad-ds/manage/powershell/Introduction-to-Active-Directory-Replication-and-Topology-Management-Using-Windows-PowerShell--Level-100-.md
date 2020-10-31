@@ -2,16 +2,16 @@
 ms.assetid: c54b544f-cc32-4837-bb2d-a8656b22f3de
 title: Introduction to Active Directory Replication and Topology Management Using Windows PowerShell (Level 100)
 author: iainfoulds
-ms.author: iainfou
+ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: fd08814cd60f71f4ace9cfc0e374e80f54c6d89d
-ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
+ms.openlocfilehash: ac50dad556ceb536a23486e20a02587a05d2e578
+ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88941504"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93070876"
 ---
 # <a name="introduction-to-active-directory-replication-and-topology-management-using-windows-powershell-level-100"></a>Introduction to Active Directory Replication and Topology Management Using Windows PowerShell (Level 100)
 
@@ -70,20 +70,20 @@ Windows PowerShell для Active Directory предоставляет возмо
 
 #### <a name="to-produce-a-table-of-all-domain-controllers"></a>Создание таблицы всех контроллеров домена
 
--   Введите следующую команду в командной строке **модуля Active Directory для Windows PowerShell**:
+-   Введите следующую команду в командной строке **модуля Active Directory для Windows PowerShell** :
 
     `Get-ADDomainController -Filter * | ft Hostname,Site`
 
     Эта команда возвращает имя узла контроллеров домена, а также их связи с сайтами.
 
 ## <a name="manage-replication-topology"></a>Управление топологией репликации
-На предыдущем шаге после выполнения команды `Get-ADDomainController -Filter * | ft Hostname,Site` контроллер домена **DC2** входил в список сайта **CORPORATE**. В процедурах ниже описано создание нового сайта филиала **BRANCH1**, создание новой связи сайтов, задание стоимости связи сайтов и частоты репликации и перемещение **DC2** в **BRANCH1**.
+На предыдущем шаге после выполнения команды `Get-ADDomainController -Filter * | ft Hostname,Site` контроллер домена **DC2** входил в список сайта **CORPORATE** . В процедурах ниже описано создание нового сайта филиала **BRANCH1** , создание новой связи сайтов, задание стоимости связи сайтов и частоты репликации и перемещение **DC2** в **BRANCH1** .
 
 Для завершения шагов в следующих процедурах вам необходимо быть членом группы "Администраторы домена" или иметь аналогичные разрешения.
 
 #### <a name="to-create-a-new-site"></a>Создание нового сайта
 
--   Введите следующую команду в командной строке **модуля Active Directory для Windows PowerShell**:
+-   Введите следующую команду в командной строке **модуля Active Directory для Windows PowerShell** :
 
     `New-ADReplicationSite BRANCH1`
 
@@ -91,7 +91,7 @@ Windows PowerShell для Active Directory предоставляет возмо
 
 #### <a name="to-create-a-new-site-link"></a>Создание новой связи сайтов
 
--   Введите следующую команду в командной строке **модуля Active Directory для Windows PowerShell**:
+-   Введите следующую команду в командной строке **модуля Active Directory для Windows PowerShell** :
 
     `New-ADReplicationSiteLink 'CORPORATE-BRANCH1'  -SitesIncluded CORPORATE,BRANCH1 -OtherAttributes @{'options'=1}`
 
@@ -102,31 +102,31 @@ Windows PowerShell для Active Directory предоставляет возмо
 
 #### <a name="to-set-the-site-link-cost-and-replication-frequency"></a>Задание стоимости связи сайтов и частоты репликации
 
--   Введите следующую команду в командной строке **модуля Active Directory для Windows PowerShell**:
+-   Введите следующую команду в командной строке **модуля Active Directory для Windows PowerShell** :
 
     `Set-ADReplicationSiteLink CORPORATE-BRANCH1 -Cost 100 -ReplicationFrequencyInMinutes 15`
 
-    С помощью этой команды задается стоимость связи сайтов с **BRANCH1**, равная **100**, и частота репликации с сайтом **15 минут**.
+    С помощью этой команды задается стоимость связи сайтов с **BRANCH1** , равная **100** , и частота репликации с сайтом **15 минут** .
 
 #### <a name="to-move-a-domain-controller-to-a-different-site"></a>Перемещение контроллера домена на другой сайт
 
--   Введите следующую команду в командной строке **модуля Active Directory для Windows PowerShell**:
+-   Введите следующую команду в командной строке **модуля Active Directory для Windows PowerShell** :
 
     `Get-ADDomainController DC2 | Move-ADDirectoryServer -Site BRANCH1`
 
-    С помощью этой команды контроллер домена **DC2** перемещается на сайт **BRANCH1**.
+    С помощью этой команды контроллер домена **DC2** перемещается на сайт **BRANCH1** .
 
 ### <a name="verification"></a>Проверка
 
 ##### <a name="to-verify-site-creation-new-site-link-and-cost-and-replication-frequency"></a>Проверка создания сайта, новой связи сайтов и стоимости и частоты репликации
 
--   Щелкните **Server Manager**, выберите пункт **Средства**, затем **Active Directory – сайты и службы** и проверьте следующее.
+-   Щелкните **Server Manager** , выберите пункт **Средства** , затем  **Active Directory – сайты и службы** и проверьте следующее.
 
     Убедитесь, что сайт **BRANCH1** содержит все правильные значения из команд Windows PowerShell.
 
-    Убедитесь, что создана связь сайтов **CORPORATE-BRANCH1**, соединяющая сайты **BRANCH1** и **CORPORATE**.
+    Убедитесь, что создана связь сайтов **CORPORATE-BRANCH1** , соединяющая сайты **BRANCH1** и **CORPORATE** .
 
-    Убедитесь, что **DC2** сейчас находится на сайте **BRANCH1**. Можно также открыть **Модуль Active Directory для Windows PowerShell** и, чтобы убедиться, что **DC2** сейчас находится на сайте **BRANCH1**, ввести следующую команду: `Get-ADDomainController -Filter * | ft Hostname,Site`.
+    Убедитесь, что **DC2** сейчас находится на сайте **BRANCH1** . Можно также открыть **Модуль Active Directory для Windows PowerShell** и, чтобы убедиться, что **DC2** сейчас находится на сайте **BRANCH1** , ввести следующую команду: `Get-ADDomainController -Filter * | ft Hostname,Site`.
 
 ## <a name="view-replication-status-information"></a>Просмотр состояния и сведений о репликации.
 В следующих процедурах с помощью одного из командлетов управления репликацией Windows PowerShell для Active Directory, `Get-ADReplicationUpToDatenessVectorTable DC1` можно создать простой отчет о репликации с использованием векторной таблицы синхронизации, которая ведется на контроллере домена. В этой векторной таблице синхронизации отслеживается наивысший номер последовательного обновления (USN) создаваемой записи, отображаемый на каждом контроллере домена в лесу.
@@ -135,11 +135,11 @@ Windows PowerShell для Active Directory предоставляет возмо
 
 #### <a name="to-view-the-up-to-dateness-vector-table-for-a-single-domain-controller"></a>Просмотр векторной таблицы синхронизации для одного контроллера домена
 
-1.  Введите следующую команду в командной строке **модуля Active Directory для Windows PowerShell**:
+1.  Введите следующую команду в командной строке **модуля Active Directory для Windows PowerShell** :
 
     `Get-ADReplicationUpToDatenessVectorTable DC1`
 
-    При этом выводится список наивысших номеров последовательного обновления (USN), отображаемый на **DC1** для каждого контроллера домена в лесу. Значение параметра **Сервер** относится к серверу, на котором ведется таблица: в данном случае — **DC1**. Значение параметра **Партнер** относится к партнеру репликации (прямому или непрямому), в связи с которым были внесены изменения. Значение параметра UsnFilter является наивысшим номером последовательного обновления (USN), отображаемым на **DC1** для партнера. Если новый контроллер домена добавлен в лес, он не появится в таблице **DC1**до тех пор, пока **DC1** не получит изменения, поступающие из нового домена.
+    При этом выводится список наивысших номеров последовательного обновления (USN), отображаемый на **DC1** для каждого контроллера домена в лесу. Значение параметра **Сервер** относится к серверу, на котором ведется таблица: в данном случае — **DC1** . Значение параметра **Партнер** относится к партнеру репликации (прямому или непрямому), в связи с которым были внесены изменения. Значение параметра UsnFilter является наивысшим номером последовательного обновления (USN), отображаемым на **DC1** для партнера. Если новый контроллер домена добавлен в лес, он не появится в таблице **DC1** до тех пор, пока **DC1** не получит изменения, поступающие из нового домена.
 
 #### <a name="to-view-the-up-to-dateness-vector-table-for-all-domain-controllers-in-a-domain"></a>Просмотр векторной таблицы синхронизации для всех контроллеров домена в домене
 
@@ -147,7 +147,7 @@ Windows PowerShell для Active Directory предоставляет возмо
 
     `Get-ADReplicationUpToDatenessVectorTable * | sort Partner,Server | ft Partner,Server,UsnFilter`
 
-    С помощью этой команды **DC1** меняется на `*`, что приводит к сбору данных векторной таблицы синхронизации со всех контроллеров домена. Данные сортируются по параметрам **Партнер** и **Сервер**, а затем отображаются в таблице.
+    С помощью этой команды **DC1** меняется на `*`, что приводит к сбору данных векторной таблицы синхронизации со всех контроллеров домена. Данные сортируются по параметрам **Партнер** и **Сервер** , а затем отображаются в таблице.
 
     Сортировка позволяет легко сравнить последний номер последовательного обновления (USN), отображаемый на каждом контроллере домена для данного партнера репликации. Это быстрый способ убедиться, что репликация проходит во всей среде. Если репликация работает правильно, то значения параметра UsnFilter, указанные в отчете для данного партнера репликации, должны быть похожи на всех контроллерах домена.
 

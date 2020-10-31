@@ -2,16 +2,16 @@
 ms.assetid: 84754c23-f039-4de4-a378-853942e662df
 title: Введение
 author: iainfoulds
-ms.author: iainfou
+ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: ecfede36e855ed942d5d3f47be6dbe6bc4520a53
-ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
+ms.openlocfilehash: e9df8c913db5c25b53abd1f4fd8aad1c4dbe2e54
+ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88941294"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93070666"
 ---
 # <a name="introduction"></a>Введение
 

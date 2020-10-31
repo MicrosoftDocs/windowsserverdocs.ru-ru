@@ -1,17 +1,17 @@
 ---
 title: Виртуализация восстановления леса Active Directory
-ms.author: iainfou
+ms.author: daveba
 author: iainfoulds
 manager: daveba
 ms.date: 08/09/2018
 ms.topic: article
 ms.assetid: c49b40b2-598d-49aa-85b4-766bce960e0d
-ms.openlocfilehash: aa6598c2a033147928d05c8175886c1c2425b4cd
-ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
+ms.openlocfilehash: 61c28bf5edce2855320669f446e0ade559d10716
+ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88938054"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93070776"
 ---
 # <a name="active-directory-forest-recovery-virtualization"></a>Виртуализация Active Directory восстановления леса
 
@@ -25,7 +25,7 @@ ms.locfileid: "88938054"
 
 Требования к виртуализированному клонированию контроллера домена:
 
-- Гипервизор должен поддерживать VM-GenerationID. Hyper-V в Windows Server 2016, 2012 и Windows 8 — это пример низкоуровневой оболочки, поддерживающей VM-GenerationID. Обратитесь к поставщику гипервизора, если поддерживается VM-GenerationID.
+- Гипервизор должен поддерживать VM-GenerationID. Hyper-V в Windows Server 2016, 2012 и Windows 8 — это пример низкоуровневой оболочки, поддерживающей VM-GenerationID. Если VM-GenerationID поддерживается, обратитесь к поставщику гипервизора.
 - Виртуализованный контроллер домена, используемый в качестве источника для клонирования, должен работать под управлением Windows Server 2016 или 2012 и быть членом клонированной группы контроллеров домена.
 - Эмулятор основного контроллера домена должен работать под управлением Windows Server 2016 или 2012. Эмулятор основного контроллера домена можно клонировать, если он виртуализирован.
 

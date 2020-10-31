@@ -2,16 +2,16 @@
 ms.assetid: c911d6c6-98c6-4532-b1db-5724e1ceb96c
 title: Приложение по упрощенному администрированию
 author: iainfoulds
-ms.author: iainfou
+ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 34d8af5166df3627e22b268359df5aa8bdb422c9
-ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
+ms.openlocfilehash: 31a04d96f8e742ddb8aa9a94e70ebb2fc1002131
+ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88940694"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93069976"
 ---
 # <a name="simplified-administration-appendix"></a>Приложение по упрощенному администрированию
 

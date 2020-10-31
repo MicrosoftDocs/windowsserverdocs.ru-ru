@@ -3,16 +3,16 @@ ms.assetid: abf69b09-6528-42e0-b164-813c7c2c78e7
 title: Обновления схемы в Windows Server
 description: Изменения схемы, внесенные Adprep по версии операционной системы
 author: iainfoulds
-ms.author: iainfou
+ms.author: daveba
 manager: daveba
 ms.date: 12/02/2019
 ms.topic: article
-ms.openlocfilehash: 6a699bc82cdb536f6b611cc5b1158f751b65d65b
-ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
+ms.openlocfilehash: d3a435a3e9cafb2d149fc3001e2b6394ab41fe29
+ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88940154"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93069926"
 ---
 # <a name="windows-server-active-directory-schema-updates"></a>Обновления схемы Active Directory Windows Server
 

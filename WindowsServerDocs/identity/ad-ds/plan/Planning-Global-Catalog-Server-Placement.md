@@ -2,16 +2,16 @@
 ms.assetid: 407d5e81-c04c-4275-9ae9-35f65b4a371a
 title: Планирование размещения сервера глобального каталога
 author: iainfoulds
-ms.author: iainfou
+ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: e82b9c7db0db62f4e74e6114d78aca59b21f8525
-ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
+ms.openlocfilehash: 3da69538eb18bb7c55f6d18f55d9020e501036f3
+ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88938704"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93071076"
 ---
 # <a name="planning-global-catalog-server-placement"></a>Планирование размещения сервера глобального каталога
 

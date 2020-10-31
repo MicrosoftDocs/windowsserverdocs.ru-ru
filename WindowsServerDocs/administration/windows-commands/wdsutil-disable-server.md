@@ -1,20 +1,20 @@
 ---
-title: Disable-Server
-description: Справочная статья по параметру Disable-Server, который отключает все службы для сервера служб развертывания Windows.
+title: WDSUTIL Disable — сервер
+description: Справочная статья по команде WDSUTIL Disable-Server, которая отключает все службы для сервера служб развертывания Windows.
 ms.topic: reference
 ms.assetid: b69fcfe0-b744-4794-bc75-2c9218c0ba66
 ms.author: lizross
 author: eross-msft
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 6ff13092b5d99cd007d30eee80076f18814e138d
-ms.sourcegitcommit: 554d274fea48a4d47c19845d969a9ec93dec82de
+ms.openlocfilehash: d8af0a0c929e2bff341b2b5bff71d0838b09d418
+ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "92524169"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93070396"
 ---
-# <a name="disable-server"></a>Disable-Server
+# <a name="wdsutil-disable-server"></a>WDSUTIL Disable — сервер
 
 Отключает все службы для сервера служб развертывания Windows.
 
@@ -26,15 +26,19 @@ wdsutil [Options] /Disable-Server [/Server:<Server name>]
 
 ### <a name="parameters"></a>Параметры
 
-|Параметр|Описание|
-|---------|-----------|
-|[/Server: \<Server name> ]|Указывает имя сервера. Это может быть либо NetBIOS-имя, либо полное доменное имя (FQDN). Если имя сервера не указано, будет использоваться локальный сервер.|
+| Параметр | Описание |
+|--|--|
+| [/Server: `<Servername>` ] | Указывает имя сервера. Это может быть либо NetBIOS-имя, либо полное доменное имя (FQDN). Если имя сервера не указано, будет использоваться локальный сервер. |
 
 ## <a name="examples"></a>Примеры
 
-Чтобы отключить сервер, выполните одно из следующих действий.
+Чтобы отключить сервер, введите:
+
 ```
 wdsutil /Disable-Server
+```
+
+```
 wdsutil /Verbose /Disable-Server /Server:MyWDSServer
 ```
 
@@ -42,3 +46,4 @@ wdsutil /Verbose /Disable-Server /Server:MyWDSServer
 
 - [Условные обозначения синтаксиса команд командной строки](command-line-syntax-key.md)
 
+- [Командлеты служб развертывания Windows](/powershell/module/wds)

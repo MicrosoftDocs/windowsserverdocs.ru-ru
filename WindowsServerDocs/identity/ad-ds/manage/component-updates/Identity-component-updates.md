@@ -2,16 +2,16 @@
 ms.assetid: 7e87ce2b-062e-479f-bcf2-585b6c42026a
 title: Обновление компонентов удостоверений
 author: iainfoulds
-ms.author: iainfou
+ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 0a10e39b6bbf2fcefc57cbd7e3566db74bef52e3
-ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
+ms.openlocfilehash: 8187be75c8f7ab537e6ae6e140d099c8f2a95d9b
+ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88941314"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93070676"
 ---
 # <a name="identity-component-updates"></a>Обновление компонентов удостоверений
 
@@ -28,7 +28,7 @@ ms.locfileid: "88941314"
 
     -   [Уникальность имен субъектов-служб и участников-пользователей](../../../ad-ds/manage/component-updates/SPN-and-UPN-uniqueness.md)
 
-    -   [Вход автоматического перезапуска Winlogon &#40;АРСО&#41;](../../../ad-ds/manage/component-updates/Winlogon-Automatic-Restart-Sign-On--ARSO-.md)
+    -   [Sign-On автоматического перезапуска Winlogon &#40;АРСО&#41;](../../../ad-ds/manage/component-updates/Winlogon-Automatic-Restart-Sign-On--ARSO-.md)
 
     -   [Аттестация ключей доверенного платформенного модуля (TPM Key) Attestation](../../../ad-ds/manage/component-updates/TPM-Key-Attestation.md)
 
@@ -38,7 +38,7 @@ ms.locfileid: "88941314"
 
     -   [Защита учетных данных и управление ими](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn408190(v=ws.11))
 
-**Автор**: Джастин Тернер, старший инженер по расширению поддержки с группой Windows
+**Автор** : Джастин Тернер, старший инженер по расширению поддержки с группой Windows
 
 > [!NOTE]
 > Этот материал создан инженером службы поддержки клиентов Майкрософт и предназначен для опытных администраторов и архитекторов систем, которым нужны более глубокие технические сведения о функциях и решениях в Windows Server 2012 R2, а не обычная информация, доступная в статьях на сайте TechNet. Однако он не был отредактирован согласно требованиям сайта, поэтому некоторые формулировки могут быть не такими выверенными, как на станицах TechNet.

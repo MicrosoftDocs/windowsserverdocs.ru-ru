@@ -3,17 +3,17 @@ ms.assetid: cb834273-828a-4141-9387-37dd8270e932
 title: Вход автоматического перезапуска Winlogon (АРСО)
 description: Использование автоматического перезапуска Windows для повышения производительности пользователей.
 author: iainfoulds
-ms.author: iainfou
+ms.author: daveba
 manager: daveba
 ms.reviewer: cahick
 ms.date: 08/20/2019
 ms.topic: article
-ms.openlocfilehash: 3f2957d2290934505f67edbcb8a49733452939e2
-ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
+ms.openlocfilehash: bbeff22ce85e1c108852a0e978ad56b1e70d10c5
+ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88939874"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93070546"
 ---
 # <a name="winlogon-automatic-restart-sign-on-arso"></a>Вход автоматического перезапуска Winlogon (АРСО)
 
@@ -48,7 +48,7 @@ ms.locfileid: "88939874"
 
 **Политика Intune:**
 
-- Платформа. Windows 10 и более поздней версии
+- Платформа: Windows 10 и более поздних версий.
 - Тип профиля: административные шаблоны
 - Путь: \Windows \ параметры входа в систему
 
@@ -89,7 +89,7 @@ ms.locfileid: "88939874"
 
 **Политика Intune:**
 
-- Платформа. Windows 10 и более поздней версии
+- Платформа: Windows 10 и более поздних версий.
 - Тип профиля: административные шаблоны
 - Путь: \Windows \ параметры входа в систему
 

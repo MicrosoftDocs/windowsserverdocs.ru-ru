@@ -1,17 +1,17 @@
 ---
 ms.assetid: eb600904-24b8-4488-a278-c1c971dc2f2d
 title: Планирование размещения регионального контроллера домена
-ms.author: iainfou
+ms.author: daveba
 author: iainfoulds
 manager: daveba
 ms.date: 08/08/2018
 ms.topic: article
-ms.openlocfilehash: 79c6fd5f4b0cefdb746b37a3421ee28b385171d6
-ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
+ms.openlocfilehash: 6c8cc9b66b197075a1f2fa09d54236e21f26ff54
+ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88938634"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93071136"
 ---
 # <a name="planning-regional-domain-controller-placement"></a>Планирование размещения регионального контроллера домена
 

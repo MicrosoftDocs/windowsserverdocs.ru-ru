@@ -2,16 +2,16 @@
 ms.assetid: 47a7cede-f94a-4233-872b-fa65a5b9d8f1
 title: Дополнительные ресурсы по по виртуализированным контроллерам домена
 author: iainfoulds
-ms.author: iainfou
+ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 6c742f6c8ee8163913fb219fba91dd72623bedd0
-ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
+ms.openlocfilehash: b602fe88c014b94223dff6f1dd209842ebc27c8a
+ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88938774"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93070926"
 ---
 # <a name="virtualized-domain-controller-additional-resources"></a>Дополнительные ресурсы по по виртуализированным контроллерам домена
 

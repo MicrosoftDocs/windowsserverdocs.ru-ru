@@ -1,18 +1,18 @@
 ---
 title: WDSUTIL Disable-транспортсервер
-description: Справочная статья по WDSUTIL Disable-транспортсервер, которая отключает все службы для транспортного сервера.
+description: Справочная статья по команде WDSUTIL Disable-транспортсервер, которая отключает все службы для транспортного сервера.
 ms.topic: reference
 ms.assetid: a009706b-8e89-486b-8e3d-512cd9f4de74
 ms.author: lizross
 author: eross-msft
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 9d404c8f16e876a15e4b683dd3cceef60804fbdb
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: 4bbb177897e3a779de275957949b0dcf62e53478
+ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91730980"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93070356"
 ---
 # <a name="wdsutil-disable-transportserver"></a>WDSUTIL Disable-транспортсервер
 
@@ -21,23 +21,41 @@ ms.locfileid: "91730980"
 Отключает все службы для транспортного сервера.
 
 ## <a name="syntax"></a>Синтаксис
+
 ```
-wdsutil [Options] /Disable-TransportServer [/Server:<Server name>]
+wdsutil [Options] /Disable-TransportServer [/Server:<Servername>]
 ```
+
 ### <a name="parameters"></a>Параметры
+
 |Параметр|Описание|
 |-------|--------|
-|[/Server: <Server name> ]|Указывает имя транспортного сервера, который должен быть отключен. Это может быть либо NetBIOS-имя, либо полное доменное имя (FQDN). Если имя транспортного сервера не указано, будет использоваться локальный сервер.|
+|[/Server: `<Servername>` ]|Указывает имя транспортного сервера, который должен быть отключен. Это может быть либо NetBIOS-имя, либо полное доменное имя (FQDN). Если имя транспортного сервера не указано, будет использоваться локальный сервер.|
+
 ## <a name="examples"></a>Примеры
+
 Чтобы отключить сервер, введите:
+
 ```
 wdsutil /Disable-TransportServer
+```
+
+```
 wdsutil /verbose /Disable-TransportServer /Server:MyWDSServer
 ```
+
 ## <a name="additional-references"></a>Дополнительные ссылки
+
 - [Условные обозначения синтаксиса команд командной строки](command-line-syntax-key.md)
+
 - [Команда WDSUTIL Enable-транспортсервер](wdsutil-enable-transportserver.md)
+
 - [Команда WDSUTIL Get-транспортсервер](wdsutil-get-transportserver.md)
+
 - [Команда WDSUTIL Set-транспортсервер](wdsutil-set-transportserver.md)
+
 - [Команда WDSUTIL Start-транспортсервер](wdsutil-start-transportserver.md)
+
 - [Команда WDSUTIL транспортсервер](wdsutil-stop-transportserver.md)
+
+- [Командлеты служб развертывания Windows](/powershell/module/wds)

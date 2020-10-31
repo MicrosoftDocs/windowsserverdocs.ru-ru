@@ -2,16 +2,16 @@
 ms.assetid: 4981b32f-741e-4afc-8734-26a8533ac530
 title: Интеграция доменных служб Active Directory в имеющуюся инфраструктуру DNS
 author: iainfoulds
-ms.author: iainfou
+ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 6c9882af6af5901c34b689a0f3de91e1a158187e
-ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
+ms.openlocfilehash: 6c1a2af42d588cf8a8a2d2a940a6f67ccfad9311
+ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88941054"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93071116"
 ---
 # <a name="integrating-ad-ds-into-an-existing-dns-infrastructure"></a>Интеграция доменных служб Active Directory в имеющуюся инфраструктуру DNS
 
@@ -28,7 +28,7 @@ ms.locfileid: "88941054"
 
 -   Настройте контроллеры домена для каждого регионального домена, в котором должны размещаться зоны DNS, соответствующие доменам Active Directory.
 
--   Настройте зону, содержащую Active Directory записи локатора в масштабе леса (то есть _msdcs.* форестнаме* Zone) для репликации на каждый DNS-сервер в лесу с помощью раздела каталога приложений DNS на уровне леса.
+-   Настройте зону, содержащую Active Directory записи локатора в масштабе леса (то есть _msdcs. *форестнаме* Zone) для репликации на каждый DNS-сервер в лесу с помощью раздела каталога приложений DNS на уровне леса.
 
     > [!NOTE]
     > Если служба DNS-сервера установлена с мастер установки доменных служб Active Directory (этот параметр рекомендуется), все предыдущие задачи выполняются автоматически. Дополнительные сведения см. [в разделе Развертывание корневого домена леса Windows Server 2008](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc731174(v=ws.10)).
@@ -41,7 +41,7 @@ ms.locfileid: "88941054"
 ## <a name="creating-the-dns-client-configuration"></a>Создание конфигурации клиента DNS
 Чтобы настроить DNS на клиентских компьютерах, владелец DNS для AD DS должен указать схему именования компьютеров и то, как клиенты будут искать DNS-серверы. В следующей таблице перечислены рекомендуемые конфигурации для этих элементов дизайна.
 
-|Элемент Design|Конфигурация|
+|Элемент Design|Параметр Configuration|
 |------------------|-----------------|
 |Именование компьютеров|Использовать именование по умолчанию. Когда компьютер под управлением Windows 2000, Windows XP, Windows Server 2003, Windows Server 2008 или Windows Vista присоединяется к домену, компьютер назначает себе полное доменное имя (FQDN), которое состоит из имени узла компьютера и имени домена Active Directory.|
 |Конфигурация сопоставителя клиентов|Настройте клиентские компьютеры так, чтобы они указывали на любой DNS-сервер в сети.|

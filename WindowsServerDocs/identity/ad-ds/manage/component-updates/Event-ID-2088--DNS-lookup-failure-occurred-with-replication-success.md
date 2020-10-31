@@ -2,16 +2,16 @@
 ms.assetid: 0fd7b6aa-3e50-45a3-a3a6-56982844363e
 title: ИД события 2088 — Ошибка уточняющего запроса DNS при репликации
 author: iainfoulds
-ms.author: iainfou
+ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: a6e78c458f92e477ddeaf156370f5e254caf4679
-ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
+ms.openlocfilehash: 41ab450c98dd607c3c849fb94a1adbb9f1708375
+ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88941344"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93070716"
 ---
 # <a name="event-id-2088-dns-lookup-failure-occurred-with-replication-success"></a>Событие c идентификатором 2088: сбой поиска в DNS при успешной репликации
 
@@ -39,7 +39,7 @@ Active Directory could not use DNS to resolve the IP address of the source domai
 
 Следует немедленно устранить эту ошибку конфигурации DNS, чтобы этот контроллер домена мог разрешить IP-адрес исходного контроллера домена с помощью DNS.
 
-Альтернативное имя сервера: DC1 не удалось выполнить DNS-имя узла: 4a8717eb-8e58-456c-995a-c92e4add7e8e. _msdcs. contoso. com
+Альтернативное имя сервера: DC1 не удалось выполнить DNS-имя узла: 4a8717eb-8e58-456c-995a-c92e4add7e8e._msdcs. contoso. com
 
 Примечание. по умолчанию для любого 12-часового периода отображается не более 10 ошибок DNS, даже если происходит более 10 сбоев.  Чтобы регистрировать все индивидуальные события сбоя, задайте для следующего параметра реестра диагностики значение 1:
 
@@ -69,7 +69,7 @@ Dcdiag/test: DNS
     </content>
   </section>
   <section>
-    <title>Разрешение</title>
+    <title>Решение</title>
     <content>
       <para>Выполните тестирование DNS, как описано в &quot; <link xlink:href="85b1d179-f53e-4f95-b0b8-5b1c096a8076">событии с идентификатором 2087: сбой уточняющего запроса DNS привел к сбою репликации</link>.&quot;</para>
     </content>
