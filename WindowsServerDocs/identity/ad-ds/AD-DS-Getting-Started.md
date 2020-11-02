@@ -1,17 +1,17 @@
 ---
 ms.assetid: 533ce45c-67cc-4fbf-bb19-f364874e52c1
 title: Начало работы с доменными службами Active Directory
-ms.author: iainfou
+ms.author: daveba
 author: iainfoulds
 manager: daveba
 ms.date: 08/07/2018
 ms.topic: article
-ms.openlocfilehash: ba0121e7def1ca78994298479bf73cc09359d1b8
-ms.sourcegitcommit: 1dc35d221eff7f079d9209d92f14fb630f955bca
+ms.openlocfilehash: c7ececd9db9b863d58ec0d6a453fb1f67b4bcb96
+ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88941014"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93070496"
 ---
 # <a name="ad-ds-getting-started"></a>Начало работы с доменными службами Active Directory
 
