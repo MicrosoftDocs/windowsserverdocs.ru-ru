@@ -5,22 +5,22 @@ manager: dongill
 author: rpsqrd
 ms.author: ryanpu
 ms.date: 08/29/2018
-ms.openlocfilehash: 47e0780eb846e690c766dd241060d2687587c7ff
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 2a89ffb238b631fc24035f2b18a57c614003c644
+ms.sourcegitcommit: 8c0a419ae5483159548eb0bc159f4b774d4c3d85
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87961648"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "93235831"
 ---
 # <a name="initialize-the-hgs-cluster-using-tpm-mode-in-a-new-dedicated-forest-default"></a>Инициализация кластера HGS с помощью режима TPM в новом выделенном лесу (по умолчанию)
 
->Область применения: Windows Server 2019, Windows Server (половина ежегодного канала), Windows Server 2016
+> Область применения: Windows Server 2019, Windows Server (половина ежегодного канала), Windows Server 2016
 
 1.  [!INCLUDE [Initialize HGS](../../../includes/guarded-fabric-initialize-hgs-default-step-one.md)]
 
 2.  [!INCLUDE [Obtain certificates for HGS](../../../includes/guarded-fabric-initialize-hgs-default-step-two.md)]
 
-3.  Выполните команду [Initialize-HgsServer](https://technet.microsoft.com/library/mt652185.aspx) в окне PowerShell с повышенными привилегиями на первом узле HGS. Синтаксис этого командлета поддерживает множество различных входных данных, но 2 наиболее распространенные вызовы приведены ниже:
+3.  Выполните команду [Initialize-HgsServer](https://docs.microsoft.com/powershell/module/hgsserver/initialize-hgsserver) в окне PowerShell с повышенными привилегиями на первом узле HGS. Синтаксис этого командлета поддерживает множество различных входных данных, но 2 наиболее распространенные вызовы приведены ниже:
 
     -   Если вы используете PFX-файлы для сертификатов подписывания и шифрования, выполните следующие команды:
 

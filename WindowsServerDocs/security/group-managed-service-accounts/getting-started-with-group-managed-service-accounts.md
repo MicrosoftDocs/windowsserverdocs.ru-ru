@@ -7,12 +7,12 @@ ms.author: lizross
 author: eross-msft
 manager: mtillman
 ms.date: 10/12/2016
-ms.openlocfilehash: 19da2b6ec2a7a3ca31c479388c087850c77d9c23
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 8a6e0ff7e0ba412ff3f8241465a71ab8b81f7d80
+ms.sourcegitcommit: 8c0a419ae5483159548eb0bc159f4b774d4c3d85
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89638051"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "93235851"
 ---
 # <a name="getting-started-with-group-managed-service-accounts"></a>Getting Started with Group Managed Service Accounts
 
@@ -82,12 +82,12 @@ ms.locfileid: "89638051"
 |------|--------|----------|
 |Узел клиентского приложения|RFC-совместимый клиент Kerberos|Не ниже Windows XP|
 |Доменные контроллеры домена учетной записи пользователя|RFC-совместимый KDC|Не ниже Windows Server 2003|
-|Узлы, входящие в службу общего доступа|| Windows Server 2012 |
+|Узлы, входящие в службу общего доступа|| Windows Server 2012 |
 |Доменные контроллеры домена узла участника|RFC-совместимый KDC|Не ниже Windows Server 2003|
 |Доменные контроллеры домена учетной записи gMSA| Контроллеры домена Windows Server 2012, доступные для получения пароля узлом|Домен с Windows Server 2012, на котором могут быть установлены системы, предшествующие Windows Server 2012 |
 |Узел внутренней службы|RFC-совместимый сервер приложений Kerberos|Не ниже Windows Server 2003|
 |Доменные контроллеры домена учетной записи внутренней службы|RFC-совместимый KDC|Не ниже Windows Server 2003|
-|Windows PowerShell для Active Directory|Windows PowerShell для Active Directory, установленный на компьютере с поддержкой 64-разрядной архитектуры или на компьютере удаленного управления (например, с помощью средств удаленного администрирования сервера).| Windows Server 2012 |
+|Windows PowerShell для Active Directory|Windows PowerShell для Active Directory, установленный на компьютере с поддержкой 64-разрядной архитектуры или на компьютере удаленного управления (например, с помощью средств удаленного администрирования сервера).| Windows Server 2012 |
 
 **Требования доменных служб Active Directory**
 
@@ -139,7 +139,7 @@ ms.locfileid: "89638051"
 ### <a name="step-1-provisioning-group-managed-service-accounts"></a><a name="BKMK_Step1"></a>Шаг 1. Создание групповых управляемых учетных записей служб
 Вы можете создать gMSA, только если схема леса была обновлена до Windows Server 2012, был развернут главный корневой ключ для Active Directory, а в домене, в котором будет создана gMSA, существует по крайней мере один контроллер домена Windows Server 2012.
 
-Минимальным требованием для выполнения этих процедур является членство в группе **Администраторы домена** либо **Операторы учета** или наличие права на создание объектов msDS-GroupManagedServiceAccount.
+Членство в группах **"Администраторы домена"** или возможность создания объектов MsDS-граупманажедсервицеаккаунт является минимальным требованием для выполнения следующих процедур.
 
 > [!NOTE]
 > Значение параметра-Name всегда является обязательным (если вы указали-Name или NOT), где-DNSHostName,-Рестрикттосинглекомпутер и-Рестрикттуутбаундаусентикатион являются вторичными требованиями для трех сценариев развертывания.
@@ -155,7 +155,7 @@ ms.locfileid: "89638051"
 
     |Параметр|Строка|Пример|
     |-------|-----|------|
-    |Название|Имя учетной записи|ITFarm1|
+    |Имя|Имя учетной записи|ITFarm1|
     |DNSHostName|Имя DNS-узла службы|ITFarm1.contoso.com|
     |KerberosEncryptionType|Любые виды шифрования, поддерживаемые серверами узлов|None, RC4, AES128, AES256|
     |ManagedPasswordIntervalInDays|Периодичность смены пароля в днях (если не указано, используется значение по умолчанию 30)|90|
@@ -186,7 +186,7 @@ ms.locfileid: "89638051"
 
     |Параметр|Строка|Пример|
     |-------|-----|------|
-    |Название|Имя учетной записи|ITFarm1|
+    |Имя|Имя учетной записи|ITFarm1|
     |ManagedPasswordIntervalInDays|Периодичность смены пароля в днях (если не указано, используется значение по умолчанию 30)|75|
     |PrincipalsAllowedToRetrieveManagedPassword|Имена учетных записей компьютеров для входящих в службу узлов или групп безопасности, в которые входят эти узлы|ITFarmHosts|
 
@@ -251,7 +251,7 @@ New-ADServiceAccount ITFarm1 -RestrictToOutboundAuthenticationOnly - PrincipalsA
 
 |Параметр|Строка|Пример|
 |-------|-----|------|
-|Название|Имя учетной записи|ITFarm1|
+|Имя|Имя учетной записи|ITFarm1|
 |PrincipalsAllowedToRetrieveManagedPassword|Имена учетных записей компьютеров для входящих в службу узлов или групп безопасности, в которые входят эти узлы|Host1, Host2, Host3|
 
 **Пример**
@@ -309,7 +309,7 @@ Set-ADServiceAccount [-Identity] ITFarm1 -PrincipalsAllowedToRetrieveManagedPass
 
 |Параметр|Строка|Пример|
 |-------|-----|------|
-|Название|Имя учетной записи|ITFarm1|
+|Имя|Имя учетной записи|ITFarm1|
 |PrincipalsAllowedToRetrieveManagedPassword|Имена учетных записей компьютеров для входящих в службу узлов или групп безопасности, в которые входят эти узлы|Host1,  Host3|
 
 **Пример**
@@ -345,7 +345,7 @@ Set-ADServiceAccount [-Identity] ITFarm1 -PrincipalsAllowedToRetrieveManagedPass
     Uninstall-ADServiceAccount ITFarm1
     ```
 
-Для получения дополнительных сведений о командлете Uninstall-ADServiceAccount введите в командной строке модуля Active Directory для Windows PowerShell команду **Get-Help Uninstall-ADServiceAccount**и нажмите клавишу ВВОД либо изучите статью [Uninstall-ADServiceAccount](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee617202(v=technet.10))на веб-сайте TechNet.
+Для получения дополнительных сведений о командлете Uninstall-ADServiceAccount введите в командной строке модуля Active Directory для Windows PowerShell команду **Get-Help Uninstall-ADServiceAccount** и нажмите клавишу ВВОД либо изучите статью [Uninstall-ADServiceAccount](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee617202(v=technet.10))на веб-сайте TechNet.
 
 
 
