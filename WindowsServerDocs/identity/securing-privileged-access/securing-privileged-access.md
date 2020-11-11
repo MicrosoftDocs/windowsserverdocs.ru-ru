@@ -8,12 +8,12 @@ ms.author: joflore
 author: MicrosoftGuyJFlo
 manager: daveba
 ms.reviewer: mas
-ms.openlocfilehash: 5db041be6aa9a61bc248296ade4296afeaa4fb3e
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 23b7322b76eb60c0ae19d3aa0e9e826998a92c77
+ms.sourcegitcommit: 8c0a419ae5483159548eb0bc159f4b774d4c3d85
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87953063"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "93235881"
 ---
 # <a name="securing-privileged-access"></a>Обеспечение безопасности привилегированного доступа
 

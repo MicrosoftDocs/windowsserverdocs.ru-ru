@@ -5,12 +5,12 @@ ms.date: 09/27/2018
 ms.topic: conceptual
 ms.author: damaerte
 author: maertendmsft
-ms.openlocfilehash: e24ba7d0cef92d700b9078422069c8c0461cf516
-ms.sourcegitcommit: 7cacfc38982c6006bee4eb756bcda353c4d3dd75
+ms.openlocfilehash: 99947390b698da22d4ab2ba497ae02222b523eb7
+ms.sourcegitcommit: 8c0a419ae5483159548eb0bc159f4b774d4c3d85
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "90078331"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "93235801"
 ---
 # <a name="openssh-server-configuration-for-windows-10-1809-and-server-2019"></a>Конфигурация сервера OpenSSH для Windows 10 версии 1809 и Windows Server 2019
 
@@ -108,7 +108,7 @@ AllowGroups sshusers
 ### <a name="syslogfacility"></a>SyslogFacility
 
 Если вам требуется ведение журнала в файле, используйте LOCAL0. Журналы создаются в папке %programdata%\ssh\logs.
-Любое другое значение, включая используемое по умолчанию AUTH, направляет журналы в ETW. Дополнительные сведения см. в статье о возможностях по ведению журнала в Windows.
+Любое другое значение, включая используемое по умолчанию AUTH, направляет журналы в ETW. Дополнительные сведения см. в статье [о возможностях по ведению журнала в Windows](https://github.com/PowerShell/Win32-OpenSSH/wiki/Logging-Facilities).
 
 ### <a name="not-supported"></a>Не поддерживается
 
