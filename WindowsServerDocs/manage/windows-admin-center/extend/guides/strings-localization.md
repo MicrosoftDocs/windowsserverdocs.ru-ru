@@ -6,12 +6,12 @@ author: nwashburn-ms
 ms.author: niwashbu
 ms.date: 06/18/2018
 ms.localizationpriority: medium
-ms.openlocfilehash: 565e4da69466549538c380457269304c7f1cdd5a
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: a59e6e1d12844e809f5e4d9f85109c601dabfe26
+ms.sourcegitcommit: b39ea3b83280f00e5bb100df0dc8beaf1fb55be2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87944924"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94520497"
 ---
 # <a name="strings-and-localization-in-windows-admin-center"></a>Строки и локализация в центре администрирования Windows #
 
@@ -38,13 +38,13 @@ MsftSme.resourcesStrings<Strings>().HelloWorld.cim.title;
 
 ## <a name="add-other-languages-for-localization"></a>Добавить другие языки для локализации ##
 
-Для локализации на другие языки необходимо создать файл strings. resjson для каждого языка. Эти файлы должны быть местами в ```\loc\output\{!ExtensionName}\{!LanguageFolder}\strings.resjson``` . Доступные языки с соответствующими папками:
+Для локализации на другие языки необходимо создать файл strings. resjson для каждого языка. Эти файлы должны быть помещены в ```\loc\output\{!ExtensionName}\{!LanguageFolder}\strings.resjson``` . Доступные языки с соответствующими папками:
 
 | Язык      | Папка      |
 | ------------- |-------------|
 | Čeština | cs-CZ |
 | Deutsch | de-DE |
-| Английский | ru-RU |
+| Английский | en-US |
 | Español | es-ES |
 | Français | fr-FR |
 | Magyar | hu-HU |
@@ -69,7 +69,7 @@ MsftSme.resourcesStrings<Strings>().HelloWorld.cim.title;
 ```json
 "HelloWorld_cim_title": "CIM Componente",
 ```
-В любое время, когда вы добавили локализованные строки, для их появления необходимо запустить gulp. Выполните команду:
+В любое время, когда вы добавили локализованные строки, для их появления необходимо запустить gulp. Выполните:
 ``` cmd
 gulp generate
 ```

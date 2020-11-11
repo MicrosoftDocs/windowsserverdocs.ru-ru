@@ -6,12 +6,12 @@ ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: b5edda407ce85ec8024f6cc1c9a6e9ec463e7618
-ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
+ms.openlocfilehash: d7342c7af0ed3c9045fe337162d0903977857177
+ms.sourcegitcommit: b39ea3b83280f00e5bb100df0dc8beaf1fb55be2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93068569"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94520487"
 ---
 # <a name="finding-additional-resources-for-windows-server-2008-active-directory-site-topology-design"></a>Поиск дополнительных ресурсов для проектирования топологии сайтов Active Directory под управлением Windows Server 2008
 
@@ -46,8 +46,6 @@ ms.locfileid: "93068569"
 - Дополнительные сведения о создании объектов подсети см. в разделе [Создание подсети](/previous-versions/windows/it-pro/windows-server-2008-r2-and-2008/cc770372(v=ws.11)).
 
 - Дополнительные сведения об использовании оснастки "Active Directory сайтов и служб" для отключения параметра **моста все связи сайтов** см. в разделе [Включение или отключение мостов связей сайтов](/previous-versions/windows/it-pro/windows-server-2003/cc738789(v=ws.10)).
-
-- Сведения об управлении репликацией с помощью брандмауэров см. [в разделе Active Directory в сетях, сегментированных брандмауэрами](https://microsoft.com/download/details.aspx?familyid=c2ef3846-43f0-4caf-9767-a9166368434e).
 
 - Дополнительные сведения о возможностях контроллера домена только для чтения (RODC) см. в разделе [AD DS: Read-Only контроллеры домена](/previous-versions/windows/it-pro/windows-server-2008-r2-and-2008/cc732801(v=ws.10)).
 
