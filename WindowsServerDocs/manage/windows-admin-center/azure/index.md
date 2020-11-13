@@ -6,12 +6,12 @@ author: jasongerend
 ms.author: jgerend
 ms.localizationpriority: medium
 ms.date: 05/31/2019
-ms.openlocfilehash: 04776c46d321a7a5aef19edd2866637c26d79125
-ms.sourcegitcommit: 5344adcf9c0462561a4f9d47d80afc1d095a5b13
+ms.openlocfilehash: eb53a01d4b82bd800b6cc87d2f5d3c36bfa7ff85
+ms.sourcegitcommit: 01b3140f79f5614ce566e8036474feefafbeddc3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90766327"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "94581438"
 ---
 # <a name="connecting-windows-server-to-azure-hybrid-services"></a>Подключение Windows Server к гибридным службам Azure
 
@@ -47,7 +47,7 @@ ms.locfileid: "90766327"
 - применение политик управления к локальным серверам с помощью Политики Azure и [Azure Arc для серверов](/azure/azure-arc/servers/overview);
 - защита серверов и расширенная защита от угроз с помощью [Центра безопасности Azure](/azure/security-center/windows-admin-center-integration);
 - подключение локальных серверов к виртуальной сети Azure с помощью [сетевого адаптера Azure](https://aka.ms/WACNetworkAdapter).
-- применение структуры локальной сети к виртуальным машинам Azure с помощью [расширенной сети Azure](https://go.microsoft.com/fwlink/?linkid=2109517&clcid=0x409).
+- применение структуры локальной сети к виртуальным машинам Azure с помощью [расширенной сети Azure](https://docs.microsoft.com/azure/virtual-network/subnet-extension#extend-your-subnet-to-azure).
 
 ## <a name="back-up-and-protect-your-on-premises-servers-and-vms"></a>Резервное копирование и защита локальных серверов и виртуальных машин
 
@@ -81,7 +81,7 @@ ms.locfileid: "90766327"
 
 - **Подключение локальных серверов к виртуальной сети Azure с помощью [сетевого адаптера Azure](https://aka.ms/WACNetworkAdapter).** Используйте Windows Admin Center, чтобы упростить настройку VPN-подключения "точка — сеть" между локальным сервером и виртуальной сетью Azure.
 
-- **Применение структуры локальной сети к виртуальным машинам Azure с помощью [расширенной сети Azure](https://go.microsoft.com/fwlink/?linkid=2109517&clcid=0x409).** С помощью Windows Admin Center вы можете настроить VPN-подключение "сеть — сеть" и перенести локальные IP-адреса в виртуальную сеть Azure, чтобы упростить миграцию рабочих нагрузок в Azure без нарушения зависимостей от IP-адресов.
+- **Применение структуры локальной сети к виртуальным машинам Azure с помощью [расширенной сети Azure](https://docs.microsoft.com/azure/virtual-network/subnet-extension#extend-your-subnet-to-azure).** С помощью Windows Admin Center вы можете настроить VPN-подключение "сеть — сеть" и перенести локальные IP-адреса в виртуальную сеть Azure, чтобы упростить миграцию рабочих нагрузок в Azure без нарушения зависимостей от IP-адресов.
 
 ## <a name="centrally-manage-your-hybrid-environment-from-azure"></a>Централизованное управление гибридной средой в Azure
 
@@ -115,7 +115,7 @@ ms.locfileid: "90766327"
 - применение политик управления к локальным серверам с помощью Политики Azure и [Azure Arc для серверов](/azure/azure-arc/servers/overview);
 - защита серверов и расширенная защита от угроз с помощью [Центра безопасности Azure](/azure/security-center/windows-admin-center-integration);
 - подключение локальных серверов к виртуальной сети Azure с помощью [сетевого адаптера Azure](https://aka.ms/WACNetworkAdapter).
-- применение структуры локальной сети к виртуальным машинам Azure с помощью [расширенной сети Azure](https://go.microsoft.com/fwlink/?linkid=2109517&clcid=0x409).
+- применение структуры локальной сети к виртуальным машинам Azure с помощью [расширенной сети Azure](https://docs.microsoft.com/azure/virtual-network/subnet-extension#extend-your-subnet-to-azure).
 
 ### <a name="services-for-clusters"></a>Службы кластеров
 

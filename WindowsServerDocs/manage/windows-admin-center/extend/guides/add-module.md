@@ -6,12 +6,12 @@ author: nwashburn-ms
 ms.author: niwashbu
 ms.date: 09/18/2018
 ms.localizationpriority: medium
-ms.openlocfilehash: e7875f8aa2320d7292b314cb18f3e17894e76fa0
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 06331c23730cfdbf1752961f7867b0bebf45cacb
+ms.sourcegitcommit: 01b3140f79f5614ce566e8036474feefafbeddc3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87945047"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "94581418"
 ---
 # <a name="add-a-module-to-a-tool-extension"></a>Добавление модуля в расширение средства
 
@@ -31,10 +31,10 @@ ms.locfileid: "87945047"
 * Дополнительные сведения о создании нового компонента в Angular CLI: https://github.com/angular/angular-cli/wiki/generate-component
 
 
-Откройте командную строку, измените каталог на \срк\апп в проекте, а затем выполните следующие команды, заменив ```{!ModuleName}``` именем модуля (пробелы удалены):
+Откройте командную строку, измените каталог на .\срк\апп в проекте, а затем выполните следующие команды, заменив ```{!ModuleName}``` именем модуля (пробелы удалены):
 
 ```
-cd \src\app
+cd .\src\app
 ng generate module {!ModuleName}
 ng generate component {!ModuleName}
 ```
@@ -45,7 +45,7 @@ ng generate component {!ModuleName}
 
 Пример использования:
 ```
-cd \src\app
+cd .\src\app
 ng generate module ManageFooWorksPortal
 ng generate component ManageFooWorksPortal
 ```
@@ -155,7 +155,7 @@ public ngOnInit() {
 ```
 ### <a name="update-app-routingmodulets"></a>Обновление App-Routing. Module. TS
 
-Откройте файл ```app-routing.module.ts``` и измените путь по умолчанию, чтобы загрузить только что созданный модуль.  Найдите запись для ```path: ''``` и обновите, ```loadChildren``` чтобы загрузить модуль вместо модуля по умолчанию:
+Откройте файл ```app-routing.module.ts``` и измените путь по умолчанию, чтобы загрузить только что созданный модуль.  Найдите запись для ```path: ''``` и обновите,  ```loadChildren``` чтобы загрузить модуль вместо модуля по умолчанию:
 
 | Значение | Объяснение | Пример |
 | ----- | ----------- | ------- |
