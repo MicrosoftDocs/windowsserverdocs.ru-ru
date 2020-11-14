@@ -1,15 +1,16 @@
 ---
 title: diskpart
 description: Справочная статья по интерпретатору команд DiskPart, помогающему управлять дисками компьютера.
+ms.topic: reference
 author: jasongerend
 manager: elizapo
 ms.author: jgerend
-ms.openlocfilehash: 627f9254606b1ed70b198f6dd0096ccbff424c45
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: 1d2f4cc814dad4313e7eb0925b60f44ec0348a30
+ms.sourcegitcommit: de207e887575757f3389ccf940c2e0ad2dc70bd3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87890926"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "94617204"
 ---
 # <a name="diskpart"></a>diskpart
 
@@ -23,13 +24,13 @@ ms.locfileid: "87890926"
 
 Вы можете получить список доступных объектов и определить число или букву диска с помощью:
 
-- `list disk`— Отображает все диски на компьютере.
+- `list disk` — Отображает все диски на компьютере.
 
-- `list volume`— Отображает все тома на компьютере.
+- `list volume` — Отображает все тома на компьютере.
 
-- `list partition`— Отображает разделы на диске, на котором находится фокус на компьютере.
+- `list partition` — Отображает разделы на диске, на котором находится фокус на компьютере.
 
-- `list vdisk`— Отображает все виртуальные диски на компьютере.
+- `list vdisk` — Отображает все виртуальные диски на компьютере.
 
 После выполнения команд **List** рядом с объектом с фокусом отображается звездочка (*).
 
