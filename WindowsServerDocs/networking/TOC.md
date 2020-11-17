@@ -225,6 +225,13 @@
 ### [Создание группы сетевых адаптеров на главном компьютере или в виртуальной машине](technologies/nic-teaming/create-a-New-NIC-Team-on-a-Host-computer-or-VM.md)
 ### [Диагностика объединения сетевых адаптеров](technologies/nic-teaming/Troubleshooting-NIC-Teaming.md)
 
+## [Монитор пакетов (Pktmon)](technologies/pktmon/pktmon.md)
+### [Синтаксис команд и форматирование Pktmon](technologies/pktmon/pktmon-syntax.md)
+### [Расширение мониторинга пакетов в Windows Admin Center](technologies/pktmon/pktmon-wac-extension.md)
+### [Расширение диагностики пути к данным SDN в Windows Admin Center](technologies/pktmon/pktmon-sdn-data-path-wac-extension.md)
+### [Поддержка Microsoft Network Monitor (Netmon)](technologies/pktmon/pktmon-netmon-support.md)
+### [Поддержка Wireshark (формат PCAPNG)](technologies/pktmon/pktmon-pcapng-support.md)
+
 ## [Политика качества обслуживания (QoS)](technologies/qos/qos-policy-top.md)
 ### [Начало работы с политикой QoS](technologies/qos/qos-policy-get-started.md)
 #### [Принципы работы политики QoS](technologies/qos/qos-policy-works.md)
