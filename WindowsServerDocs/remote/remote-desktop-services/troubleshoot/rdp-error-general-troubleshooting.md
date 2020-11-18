@@ -8,12 +8,12 @@ manager: dcscontentpm
 ms.author: delhan
 ms.date: 07/24/2019
 ms.localizationpriority: medium
-ms.openlocfilehash: 7d94b6a2211cd9fbaefb8318ebdcc4eb52ba9ba1
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: bfed6f0c22a4949291d12cc417a15d0aa435ae00
+ms.sourcegitcommit: b39ea3b83280f00e5bb100df0dc8beaf1fb55be2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86963306"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94520517"
 ---
 # <a name="general-remote-desktop-connection-troubleshooting"></a>Устранение неполадок с подключениями к Удаленному рабочему столу
 
