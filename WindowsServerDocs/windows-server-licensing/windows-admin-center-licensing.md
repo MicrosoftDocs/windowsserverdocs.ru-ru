@@ -5,12 +5,12 @@ ms.topic: reference
 author: eross-msft
 ms.author: lizross
 ms.date: 06/11/2019
-ms.openlocfilehash: 73b822f37185119990f3fe220dac3f21b25efae5
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 706bd8799e2dd99940803be8bbb76cb84709412c
+ms.sourcegitcommit: 401771fbc22988727a97e51c47ffceded7b45516
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87989288"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "95000517"
 ---
 # <a name="windows-admin-center---license-terms"></a>Центр администрирования Windows — условия лицензии
 
@@ -19,6 +19,10 @@ ms.locfileid: "87989288"
 - [Условия лицензионного соглашения на использование программного обеспечения корпорации Майкрософт — предварительные версии расширений для центра администрирования Microsoft Windows](/legal/windows-server/windows-admin-center/windows-pre-release-extension-eula)
 
 - [Условия лицензии для расширений](/legal/windows-server/windows-admin-center/license-terms-for-extensions)
+
+- [Соглашение издателя по расширениям центра администрирования Windows](/legal/windows-server/windows-admin-center/extensions-publishers-agreement)
+
+- [Политика участия в расширениях Майкрософт](/legal/windows-server/windows-admin-center/extensions-participation-policy)
 
 - [Условия лицензионного соглашения на использование программного обеспечения Майкрософт — центр администрирования Windows — Предварительная версия](/legal/windows-server/windows-admin-center/wac-prerelease-eula)
 
