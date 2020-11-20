@@ -109,6 +109,7 @@
 ## Служба миграции хранилища
 ### [Обзор](storage-migration-service/overview.md)
 ### [Перенос сервера](storage-migration-service/migrate-data.md)
+### [Как работает прямая миграция](storage-migration-service/cutover.md)
 ### [Вопросы и ответы](storage-migration-service/faq.md)
 ### [Известные проблемы](storage-migration-service/known-issues.md)
 
