@@ -6,12 +6,12 @@ manager: femila
 ms.date: 04/09/2018
 ms.topic: article
 ms.author: billmath
-ms.openlocfilehash: cf8a12957621ce86492cc4216c56d9a159f1ee5c
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 683a9ce88c9809dfecf5669b41758187504634b9
+ms.sourcegitcommit: 3181fcb69a368f38e0d66002e8bc6fd9628b1acc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87940570"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96330516"
 ---
 # <a name="upgrading-to-ad-fs-in-windows-server-2016-using-a-wid-database"></a>Обновление до AD FS в Windows Server 2016 с помощью базы данных WID
 
@@ -89,11 +89,11 @@ Set-AdfsSyncProperties -Role SecondaryComputer -PrimaryComputerName {FQDN}
 
 ![обновление](media/Upgrading-to-AD-FS-in-Windows-Server-2016/ADFS_Mixed_6.png)
 
-7. Если вы обновляете ферму AD FS 2012 R2 до 2016 или 2019, то для обновления фермы требуется, чтобы схема AD была не меньше уровня 85.  Чтобы обновить схему с установочного носителя Windows Server 2016, откройте командную строку и перейдите в каталог суппорт\адпреп. Выполните следующую команду:`adprep /forestprep`
+7. Если вы обновляете ферму AD FS 2012 R2 до 2016 или 2019, то для обновления фермы требуется, чтобы схема AD была не меньше уровня 85.  Чтобы обновить схему с установочного носителя Windows Server 2016, откройте командную строку и перейдите в каталог суппорт\адпреп. Выполните следующую команду:  `adprep /forestprep`
 
 ![обновление](media/Upgrading-to-AD-FS-in-Windows-Server-2016/ADFS_Mixed_7.png)
 
-После завершения выполнения`adprep/domainprep`
+После завершения выполнения `adprep /domainprep`
 
 > [!NOTE]
 > Перед выполнением следующего шага убедитесь, что Windows Server является текущим, запустив Центр обновления Windows из параметров. Продолжайте этот процесс, пока не перестанут требоваться обновления.
@@ -120,7 +120,7 @@ Invoke-AdfsFarmBehaviorLevelRaise
 
 ![обновление](media/Upgrading-to-AD-FS-in-Windows-Server-2016/ADFS_Mixed_12.png)
 
-11. Аналогичным образом можно использовать командлет PowerShell: `Get-AdfsFarmInformation` для отображения текущего ФБЛ.
+11. Аналогичным образом можно использовать командлет PowerShell:  `Get-AdfsFarmInformation` для отображения текущего ФБЛ.
 
 ![обновление](media/Upgrading-to-AD-FS-in-Windows-Server-2016/ADFS_Mixed_13.png)
 
@@ -137,7 +137,7 @@ Install-WebApplicationProxy -CertificateThumbprint {SSLCert} -fsname fsname -Fed
 Set-WebApplicationProxyConfiguration -ConnectedServersName WAPServerName1, WAPServerName2
 ```
 
-Проверьте конфигурацию WAP, выполнив командлет Get-Вебаппликатионпроксиконфигуратион. Коннектедсерверснаме будет отражать запуск сервера из предыдущей команды.
+Проверьте конфигурацию WAP, выполнив командлет Get-WebApplicationProxyConfiguration. Коннектедсерверснаме будет отражать запуск сервера из предыдущей команды.
 
 ```PowerShell
 Get-WebApplicationProxyConfiguration
