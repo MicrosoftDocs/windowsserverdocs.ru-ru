@@ -7,12 +7,12 @@ ms.topic: article
 ms.assetid: 79909767-a4c3-4ecf-8d3f-77d37a663153
 author: spatnaik
 manager: scottman
-ms.openlocfilehash: 2b7443255f5490a0b67633abbc9ea5bbb6a5bb82
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 5a68569943ac540204fd3538719c2a0ef6c4c979
+ms.sourcegitcommit: 3181fcb69a368f38e0d66002e8bc6fd9628b1acc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87954891"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96330436"
 ---
 # <a name="run-and-tune-your-remote-desktop-services-environment"></a>Запуск и настройка среды служб удаленных рабочих столов
 
@@ -22,7 +22,7 @@ ms.locfileid: "87954891"
 
 ## <a name="management-and-monitoring"></a>Управление и мониторинг
 
-Ознакомьтесь со статьей [Управление пользователями в вашей коллекции служб удаленных рабочих столов](rds-user-management.md), чтобы узнать о том, как управлять доступом к рабочим столам и удаленным ресурсам.
+Ознакомьтесь со статьей [Управление пользователями в коллекции RDS](rds-user-management.md), чтобы узнать о том, как управлять доступом к рабочим столам и удаленным ресурсам.
 
 Используйте **Microsoft Operations Management Suite (OMS)** для отслеживания развертывания удаленных рабочих столов на предмет возможных узких мест. Управляйте ими одним из следующих способов.
 
