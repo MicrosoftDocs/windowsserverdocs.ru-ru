@@ -7,12 +7,12 @@ ms.author: lizross
 author: eross-msft
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: fc1065ab3853f6098c725f4ccaaafc483cb6015d
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 3cd3c5f73a6642ed4ce754cb8529ae3e1e990c75
+ms.sourcegitcommit: f18097c21e50a09aef2f1937f52608b0042ef0e1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89629912"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "96755371"
 ---
 # <a name="certutil"></a>certutil
 
@@ -128,7 +128,7 @@ certutil [options] -setattributes RequestID attributestring
 [-config Machine\CAName]
 ```
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 - Имена и значения должны быть разделены двоеточием, в то время как несколько пар "имя — значение" должны быть разделены символами новой строки. Например: `CertificateTemplate:User\nEMail:User@Domain.com` где `\n` последовательность преобразуется в разделитель новой строки.
 
@@ -152,7 +152,7 @@ certutil [options] -setextension requestID extensionname flags {long | date | st
 [-config Machine\CAName]
 ```
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 - Если последний параметр является числовым, он принимается как **длинное целое**.
 
@@ -288,45 +288,45 @@ certutil [options] -cainfo [infoname [index | errorcode]]
 
   - **пропидмакс** — максимальный PropId CA
 
-  - **цертстате `[index]` ** — Сертификат CA
+  - **цертстате `[index]`** — Сертификат CA
 
-  - **цертверсион `[index]` ** — Версия сертификата CA
+  - **цертверсион `[index]`** — Версия сертификата CA
 
-  - **цертстатускоде `[index]` ** — Состояние проверки сертификата ЦС
+  - **цертстатускоде `[index]`** — Состояние проверки сертификата ЦС
 
-  - **крлстате `[index]` ** — Список отзыва сертификатов
+  - **крлстате `[index]`** — Список отзыва сертификатов
 
-  - **крастате `[index]` ** — Сертификат KRA
+  - **крастате `[index]`** — Сертификат KRA
 
-  - **кроссстате + `[index]` ** -Прямой перекрестный сертификат
+  - **кроссстате + `[index]`** -Прямой перекрестный сертификат
 
-  - **кроссстате — `[index]` ** — Обратный перекрестный сертификат
+  - **кроссстате — `[index]`** — Обратный перекрестный сертификат
 
-  - **сертификат `[index]` ** — Сертификат CA
+  - **сертификат `[index]`** — Сертификат CA
 
-  - **цертчаин `[index]` ** — Цепочка сертификатов ЦС
+  - **цертчаин `[index]`** — Цепочка сертификатов ЦС
 
-  - **церткрлчаин `[index]` ** — Цепочка сертификатов CA с CRL
+  - **церткрлчаин `[index]`** — Цепочка сертификатов CA с CRL
 
-  - **ксчг `[index]` ** — Сертификат Exchange CA
+  - **ксчг `[index]`** — Сертификат Exchange CA
 
-  - **ксчгчаин `[index]` ** — Цепочка сертификатов ЦС Exchange
+  - **ксчгчаин `[index]`** — Цепочка сертификатов ЦС Exchange
 
-  - **ксчгкрлчаин `[index]` ** — Цепочка сертификатов ЦС Exchange с CRL
+  - **ксчгкрлчаин `[index]`** — Цепочка сертификатов ЦС Exchange с CRL
 
-  - **KRA `[index]` ** — Сертификат KRA
+  - **KRA `[index]`** — Сертификат KRA
 
-  - **перекрестное + `[index]` ** -Прямой перекрестный сертификат
+  - **перекрестное + `[index]`** -Прямой перекрестный сертификат
 
-  - **Перекрестная `[index]` ** — Обратный перекрестный сертификат
+  - **Перекрестная `[index]`** — Обратный перекрестный сертификат
 
   - **Список `[index]` отзыва сертификатов** — Базовый CRL
 
-  - **делтакрл `[index]` ** — Разностный CRL
+  - **делтакрл `[index]`** — Разностный CRL
 
-  - **крлстатус `[index]` ** — Состояние публикации CRL
+  - **крлстатус `[index]`** — Состояние публикации CRL
 
-  - **делтакрлстатус `[index]` ** — Состояние публикации разностного CRL
+  - **делтакрлстатус `[index]`** — Состояние публикации разностного CRL
 
   - **DNS** -имя DNS
 
@@ -336,11 +336,11 @@ certutil [options] -cainfo [infoname [index | errorcode]]
 
   - **шаблоны** — шаблоны
 
-  - **CSP `[index]` ** — URL-адреса OCSP
+  - **CSP `[index]`** — URL-адреса OCSP
 
-  - **AIA `[index]` ** — URL-адреса AIA
+  - **AIA `[index]`** — URL-адреса AIA
 
-  - **CDP `[index]` ** — URL-адреса CDP
+  - **CDP `[index]`** — URL-адреса CDP
 
   - **localename** — имя локали ЦС
 
@@ -396,7 +396,9 @@ certutil [options] -ca.chain outcacertchainfile [index]
 
 Возвращает список отзыва сертификатов (CRL).
 
-Certutil [параметры] — жеткрл-файл [Индекс] [Дельта]
+```
+certutil [options] -getcrl outfile [index] [delta]
+```
 
 Где:
 
@@ -517,7 +519,7 @@ certutil [options] -view [queue | log | logfail | revoked | ext | attrib | crl] 
 [-silent] [-split] [-config Machine\CAName] [-restrict RestrictionList] [-out ColumnList]
 ```
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 - Чтобы отобразить столбец **StatusCode** для всех записей, введите `-out StatusCode`
 
@@ -525,7 +527,7 @@ certutil [options] -view [queue | log | logfail | revoked | ext | attrib | crl] 
 
 - Чтобы отобразить идентификатор **запроса** и **расстановку** для трех запросов, введите: `-restrict requestID>37,requestID<40 -out requestID,disposition`
 
-- Чтобы отобразить идентификаторы**строк** и **номера CRL** для всех базовых списков отзыва сертификатов, введите: `-restrict crlminbase=0 -out crlrowID,crlnumber crl`
+- Чтобы отобразить идентификаторы **строк** и **номера CRL** для всех базовых списков отзыва сертификатов, введите: `-restrict crlminbase=0 -out crlrowID,crlnumber crl`
 
 - Чтобы отобразить, введите: `-v -restrict crlminbase=0,crlnumber=3 -out crlrawcrl crl`
 
@@ -719,7 +721,7 @@ certutil [options] -importpfx [certificatestorename] pfxfile [modifiers]
 [-f] [-user] [-p password] [-csp provider]
 ```
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 - По умолчанию используется личное хранилище компьютера.
 
@@ -765,7 +767,7 @@ certutil [options] -store [certificatestorename [certID [outputfile]]]
 
 Где:
 
-- **цертификатесторенаме** — это имя хранилища сертификатов. Пример:
+- **цертификатесторенаме** — это имя хранилища сертификатов. Пример.
 
   - `My, CA (default), Root,`
 
@@ -789,7 +791,7 @@ certutil [options] -store [certificatestorename [certID [outputfile]]]
 [-f] [-user] [-enterprise] [-service] [-grouppolicy] [-silent] [-split] [-dc DCName]
 ```
 
-#### <a name="options"></a>Параметры
+#### <a name="options"></a>Варианты
 
 - `-user`Параметр обращается к хранилищу пользователей вместо хранилища компьютера.
 
@@ -799,7 +801,7 @@ certutil [options] -store [certificatestorename [certID [outputfile]]]
 
 - `-grouppolicy`Параметр позволяет получить доступ к хранилищу групповой политики компьютера.
 
-Пример:
+Пример.
 
 - `-enterprise NTAuth`
 
@@ -926,7 +928,7 @@ certutil [options] -viewstore [certificatestorename [certID [outputfile]]]
 [-f] [-user] [-enterprise] [-service] [-grouppolicy] [-dc DCName]
 ```
 
-#### <a name="options"></a>Параметры
+#### <a name="options"></a>Варианты
 
 - `-user`Параметр обращается к хранилищу пользователей вместо хранилища компьютера.
 
@@ -936,7 +938,7 @@ certutil [options] -viewstore [certificatestorename [certID [outputfile]]]
 
 - `-grouppolicy`Параметр позволяет получить доступ к хранилищу групповой политики компьютера.
 
-Пример:
+Пример.
 
 - `-enterprise NTAuth`
 
@@ -966,7 +968,7 @@ certutil [options] -viewdelstore [certificatestorename [certID [outputfile]]]
 [-f] [-user] [-enterprise] [-service] [-grouppolicy] [-dc DCName]
 ```
 
-#### <a name="options"></a>Параметры
+#### <a name="options"></a>Варианты
 
 - `-user`Параметр обращается к хранилищу пользователей вместо хранилища компьютера.
 
@@ -976,7 +978,7 @@ certutil [options] -viewdelstore [certificatestorename [certID [outputfile]]]
 
 - `-grouppolicy`Параметр позволяет получить доступ к хранилищу групповой политики компьютера.
 
-Пример:
+Пример.
 
 - `-enterprise NTAuth`
 
@@ -1094,7 +1096,7 @@ certutil [options] -setcasites delete
 [-f] [-config Machine\CAName] [-dc DCName]
 ```
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 - `-config`Параметр предназначен для одного центра сертификации (по умолчанию все ЦС).
 
@@ -1358,7 +1360,7 @@ certutil [options] -verifykeys [keycontainername cacertfile]
 [-f] [-user] [-silent] [-config Machine\CAName]
 ```
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 - Если аргументы не указаны, то каждый сертификат ЦС для подписи проверяется на соответствие закрытому ключу.
 
@@ -1397,7 +1399,7 @@ certutil [options] -verify CRLfile cacertfile [deltaCRLfile]
 [-f] [-enterprise] [-user] [-silent] [-split] [-urlfetch] [-t timeout]
 ```
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 - Использование **аппликатионполицилист** ограничивают построение цепочки только последовательностями, допустимыми для указанных политик приложений.
 
@@ -1474,7 +1476,7 @@ certutil [options] -sign infilelist | serialnumber | CRL outfilelist [#hashalgor
 
 - **обжектидлист** — список имен ObjectID с разделителями-запятыми удаляемых файлов.
 
-- ** \@ екстенсионфиле** — это INF-файл, содержащий расширения для обновления или удаления. Пример:
+- **\@ екстенсионфиле** — это INF-файл, содержащий расширения для обновления или удаления. Пример.
 
   ```
   [Extensions]
@@ -1491,7 +1493,7 @@ certutil [options] -sign infilelist | serialnumber | CRL outfilelist [#hashalgor
 [-nullsign] [-f] [-silent] [-cert certID]
 ```
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 - Использование знака "минус" (-) удаляет серийные номера и расширения.
 
@@ -1589,7 +1591,9 @@ certutil [options] -addpolicyserver kerberos | username | clientcertificate [key
 
 При необходимости удаляет приложение сервера политики и пул приложений. Эта команда не удаляет двоичные файлы или пакеты.
 
-Certutil [параметры]-Делетеполицисервер Kerberos | имя пользователя | clientcertificate [кэйбаседреневал]
+```
+certutil [options] -deletePolicyServer kerberos | username | clientcertificate [keybasedrenewal]
+```
 
 Где:
 
@@ -1683,7 +1687,7 @@ certutil [options] -getreg [{ca | restore | policy | exit | template | enroll |c
 [-f] [-user] [-grouppolicy] [-config Machine\CAName]
 ```
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 - Если строковое значение начинается с `+` или `-` , а существующее значение является `REG_MULTI_SZ` значением, строка добавляется в существующий параметр реестра или удаляется из него. Чтобы принудительно создать `REG_MULTI_SZ` значение, добавьте `\n` в конец строкового значения.
 
@@ -1727,7 +1731,7 @@ certutil [options] -setreg [{ca | restore | policy | exit | template | enroll |c
 [-f] [-user] [-grouppolicy] [-config Machine\CAName]
 ```
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 - Если строковое значение начинается с `+` или `-` , а существующее значение является `REG_MULTI_SZ` значением, строка добавляется в существующий параметр реестра или удаляется из него. Чтобы принудительно создать `REG_MULTI_SZ` значение, добавьте `\n` в конец строкового значения.
 
@@ -1771,7 +1775,7 @@ certutil [options] -delreg [{ca | restore | policy | exit | template | enroll |c
 [-f] [-user] [-grouppolicy] [-config Machine\CAName]
 ```
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 - Если строковое значение начинается с `+` или `-` , а существующее значение является `REG_MULTI_SZ` значением, строка добавляется в существующий параметр реестра или удаляется из него. Чтобы принудительно создать `REG_MULTI_SZ` значение, добавьте `\n` в конец строкового значения.
 
@@ -1821,7 +1825,7 @@ certutil [options] -importcert certfile [existingrow]
 [-f] [-config Machine\CAName]
 ```
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 Также может потребоваться настроить центр сертификации для поддержки внешних сертификатов. Для этого введите `import - certutil -setreg ca\KRAFlags +KRAF_ENABLEFOREIGN` .
 
@@ -1899,7 +1903,7 @@ certutil [options] -mergePFX PFXinfilelist PFXoutfile [extendedproperties]
 [-f] [-user] [-split] [-p password] [-protectto SAMnameAndSIDlist] [-csp provider]
 ```
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 - Пароль, указанный в командной строке, должен быть списком паролей с разделителями-запятыми.
 
@@ -1934,7 +1938,7 @@ certutil [options] -convertEPF PFXinfilelist PFXoutfile [cast | cast-] [V3CAcert
 [-f] [-silent] [-split] [-dc DCName] [-p password] [-csp provider]
 ```
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 - Пароль, указанный в командной строке, должен быть списком паролей с разделителями-запятыми.
 
@@ -1958,7 +1962,7 @@ certutil -? -v
 
 - **-?-v** отображает полный список параметров и параметров.
 
-## <a name="options"></a>Параметры
+## <a name="options"></a>Варианты
 
 В этом разделе определяются все параметры, которые вы можете указать, в зависимости от команды. Каждый параметр содержит сведения о том, какие параметры являются допустимыми для использования.
 

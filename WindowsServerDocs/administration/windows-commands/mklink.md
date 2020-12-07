@@ -7,12 +7,12 @@ ms.author: lizross
 author: eross-msft
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 7d5c7b971d2ca77308c24210ee50c17c4b3a0c95
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: dd605283396757f1ef0de05d620583c895f71f1a
+ms.sourcegitcommit: f18097c21e50a09aef2f1937f52608b0042ef0e1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89640345"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "96755311"
 ---
 # <a name="mklink"></a>mklink
 
@@ -37,7 +37,7 @@ mklink [[/d] | [/h] | [/j]] <link> <target>
 
 ### <a name="examples"></a>Примеры
 
-Чтобы создать и удалить символическую ссылку с именем, MyFolder и MyFile. File, из корневого каталога в каталог \Users\User1\Documents и файл example. File, находящийся в каталоге, введите:
+Чтобы создать и удалить символическую ссылку с именем MyFolder из корневого каталога в каталог \Users\User1\Documents и жесткую связь с именем MyFile. file к файлу example. File, расположенному в каталоге, введите:
 
 ```
 mklink /d \MyFolder \Users\User1\Documents
