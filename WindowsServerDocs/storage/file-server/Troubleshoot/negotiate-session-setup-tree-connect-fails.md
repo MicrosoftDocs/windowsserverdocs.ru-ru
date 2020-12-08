@@ -6,12 +6,12 @@ manager: dcscontentpm
 ms.topic: article
 ms.author: delhan
 ms.date: 12/25/2019
-ms.openlocfilehash: 2bad602f934d844074ee96df06bf9234fdbf943f
-ms.sourcegitcommit: d5e27c1f2f168a71ae272bebf8f50e1b3ccbcca3
+ms.openlocfilehash: 6b310f08757f100dfc005a631e54d0a58d61025c
+ms.sourcegitcommit: 2365a7b23e2eccd13be350306c622d2ad9d36bc8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86961166"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "96787737"
 ---
 # <a name="negotiate-session-setup-and-tree-connect-failures"></a>Сбои при согласовании, настройке сеанса и подключении дерева
 

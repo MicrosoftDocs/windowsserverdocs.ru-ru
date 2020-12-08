@@ -5,12 +5,12 @@ ms.author: delhan
 manager: dcscontentpm
 ms.date: 11/12/2019
 ms.topic: article
-ms.openlocfilehash: 5e8618853e28c6deef4a15e84361e339c70bf052
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 92ca0c028d1275bf2d884a7c89be6ae2b351b78f
+ms.sourcegitcommit: 2365a7b23e2eccd13be350306c622d2ad9d36bc8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87940338"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "96788151"
 ---
 # <a name="configuring-certificate-enrollment-web-service-for-certificate-key-based-renewal-on-a-custom-port"></a>Настройка веб-службы регистрации сертификатов для продления на основе ключей сертификата через настраиваемый порт
 
@@ -46,7 +46,7 @@ ms.locfileid: "87940338"
 
 ## <a name="configuration-instructions"></a>Инструкции по настройке
 
-### <a name="overview"></a>Обзор
+### <a name="overview"></a>Общие сведения
 
 1. Настройте шаблон для обновления на основе ключей.
 
@@ -83,7 +83,7 @@ ms.locfileid: "87940338"
 4. Опубликуйте новый шаблон в центре сертификации.
 
 > [!Note]
-> Убедитесь, что для параметров совместимости в шаблоне задано значение **Windows Server 2012 R2** , так как существует известная ошибка, при которой шаблоны не отображаются, если установлена совместимость с Windows Server 2016 или более поздней версии. Дополнительные информацию см. [в разделе не удалось выбрать шаблоны сертификатов, совместимые с центром сертификации Windows server 2016, из центра сертификации Windows server 2016 или более поздней версии или серверов CEP ](https://support.microsoft.com/en-in/help/4508802/cannot-select-certificate-templates-in-windows-server-2016).
+> Убедитесь, что для параметров совместимости в шаблоне задано значение **Windows Server 2012 R2** , так как существует известная ошибка, при которой шаблоны не отображаются, если установлена совместимость с Windows Server 2016 или более поздней версии. Дополнительные информацию см. [в разделе не удалось выбрать шаблоны сертификатов, совместимые с центром сертификации Windows server 2016, из центра сертификации Windows server 2016 или более поздней версии или серверов CEP](https://support.microsoft.com/en-in/help/4508802/cannot-select-certificate-templates-in-windows-server-2016).
 
 
 #### <a name="configure-the-cepces01-instance"></a>Настройка экземпляра CEPCES01
@@ -101,7 +101,7 @@ ms.locfileid: "87940338"
 [Руководство по веб-служба регистрации сертификатов](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831822(v=ws.11)#configure-a-ca-for-the-certificate-enrollment-web-service)
 
 > [!Note]
-> Убедитесь, что не установлен флажок "включить обновление на основе ключей", если вы настроили экземпляры CEP и CES с проверкой подлинности имени пользователя и пароля.
+> Убедитесь, что не выбран параметр "включить Key-Based продление", если вы настроили экземпляры CEP и CES для проверки подлинности имени пользователя и пароля.
 
 **Метод 2.**
 
@@ -133,7 +133,7 @@ Install-AdcsEnrollmentWebService -ApplicationPoolIdentity -CAConfig "CA1.contoso
 После успешной установки вы увидите, что в консоли диспетчера службы IIS (IIS) отображается следующее.
 ![Диспетчер служб IIS](media/certificate-enrollment-certificate-key-based-renewal-4.png)
 
-В разделе **веб-сайт по умолчанию**выберите **ADPolicyProvider_CEP_UsernamePassword**, а затем откройте **Параметры приложения**. Запишите **идентификатор** и **URI**.
+В разделе **веб-сайт по умолчанию** выберите **ADPolicyProvider_CEP_UsernamePassword**, а затем откройте **Параметры приложения**. Запишите **идентификатор** и **URI**.
 
 Можно добавить **понятное имя** для управления.
 
@@ -222,7 +222,7 @@ Set-ADUser -Identity cepcessvc -Add @{'msDS-AllowedToDelegateTo'=@('HOST/CA1.con
 
    CN = ЕНТКА, CN = службы регистрации, CN = открытые ключи Services, CN = Services, CN = Configuration, DC = contoso, DC = com
 
-3. Щелкните правой кнопкой мыши и измените объект CA. Измените атрибут **мспки-регистрации-Servers** , используя пользовательский порт с URI сервера CEP и CES, которые были найдены в параметрах приложения. Например:
+3. Щелкните правой кнопкой мыши и измените объект CA. Измените атрибут **мспки-регистрации-Servers** , используя пользовательский порт с URI сервера CEP и CES, которые были найдены в параметрах приложения. Пример.
 
    ```
    140https://cepces.contoso.com:49999/ENTCA_CES_UsernamePassword/service.svc/CES0
@@ -235,9 +235,9 @@ Set-ADUser -Identity cepcessvc -Add @{'msDS-AllowedToDelegateTo'=@('HOST/CA1.con
 
 На клиентском компьютере настройте политики регистрации и политику автоматической регистрации. Для этого выполните следующие действия:
 
-1. Выберите **Пуск**  >  **выполнить**и введите **gpedit. msc**.
+1. Выберите **Пуск**  >  **выполнить** и введите **gpedit. msc**.
 
-2. Последовательно выберите **Конфигурация компьютера**настройки  >  **Windows**параметры  >  **безопасности**, а затем **политики открытого ключа**.
+2. Последовательно выберите **Конфигурация компьютера** настройки  >  **Windows** параметры  >  **безопасности**, а затем **политики открытого ключа**.
 
 3. Включите **политику автоматической регистрации клиента служб сертификатов** для соответствия параметрам на следующем снимке экрана.
    ![Политика группы сертификатов](media/certificate-enrollment-certificate-key-based-renewal-9.png)
@@ -246,7 +246,7 @@ Set-ADUser -Identity cepcessvc -Add @{'msDS-AllowedToDelegateTo'=@('HOST/CA1.con
 
    а. Нажмите кнопку **Добавить** , чтобы добавить политику регистрации и ввести идентификатор URI CEP с **UserNamePassword** , который мы редактировали в ADSI.
 
-   b. В качестве **типа проверки подлинности**выберите **имя пользователя и пароль**.
+   b. В качестве **типа проверки подлинности** выберите **имя пользователя и пароль**.
 
    c. Задайте приоритет **10**, а затем проверьте сервер политики.
       ![Политика регистрации](media/certificate-enrollment-certificate-key-based-renewal-10.png)
@@ -312,7 +312,7 @@ certreq -machine -q -enroll -cert <thumbprint> renew
 
 [Install-Адксенроллментвебсервице](/powershell/module/adcsdeployment/install-adcsenrollmentwebservice?view=win10-ps)
 
-См. также статью
+См. также раздел
 
 [Форум по обеспечению безопасности Windows Server](https://aka.ms/adcsforum)
 

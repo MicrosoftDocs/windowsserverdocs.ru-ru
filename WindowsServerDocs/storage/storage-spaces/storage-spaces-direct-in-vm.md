@@ -7,12 +7,12 @@ ms.topic: article
 author: eldenchristensen
 ms.date: 07/15/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: d124e26f0605b8e1a4678abebb9039b597f1c18a
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: c21570d964db48e4336031315a13657f3777cc72
+ms.sourcegitcommit: 2365a7b23e2eccd13be350306c622d2ad9d36bc8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87971061"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "96788073"
 ---
 # <a name="using-storage-spaces-direct-in-guest-virtual-machine-clusters"></a>Использование Локальные дисковые пространства в кластерах гостевых виртуальных машин
 
