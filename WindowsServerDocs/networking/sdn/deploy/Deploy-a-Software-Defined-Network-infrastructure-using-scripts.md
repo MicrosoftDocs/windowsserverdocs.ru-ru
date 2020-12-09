@@ -7,12 +7,12 @@ ms.assetid: 5ba5bb37-ece0-45cb-971b-f7149f658d19
 ms.author: anpaul
 author: AnirbanPaul
 ms.date: 08/23/2018
-ms.openlocfilehash: 4e3ebcae7696d1b16930e50aacff4f0edc198ce7
-ms.sourcegitcommit: 3181fcb69a368f38e0d66002e8bc6fd9628b1acc
+ms.openlocfilehash: 244f18baefa0be9b9b392682e48931e7d4e195b8
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "96330396"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96865623"
 ---
 # <a name="deploy-a-software-defined-network-infrastructure-using-scripts"></a>Развертывание инфраструктуры программно-конфигурируемой сети с помощью скриптов
 
@@ -22,7 +22,7 @@ ms.locfileid: "96330396"
 
 Если вы хотите, чтобы рабочие нагрузки клиента взаимодействовали за пределами своих виртуальных сетей, можно настроить правила NAT SLB, туннели шлюза "сеть — сеть" или перенаправление уровня 3 для маршрутизации между виртуальными и физическими рабочими нагрузками.
 
-Можно также развернуть инфраструктуру SDN с помощью Virtual Machine Manager (VMM). Дополнительные сведения см. [в разделе Настройка инфраструктуры программно-определяемой сети (SDN) в структуре VMM](/system-center/vmm/deploy-sdn?view=sc-vmm-2019).
+Можно также развернуть инфраструктуру SDN с помощью Virtual Machine Manager (VMM). Дополнительные сведения см. [в разделе Настройка инфраструктуры программно-определяемой сети (SDN) в структуре VMM](/system-center/vmm/deploy-sdn).
 
 ## <a name="pre-deployment"></a>Перед развертыванием
 
@@ -67,7 +67,7 @@ ms.locfileid: "96330396"
 
 5. Используемых Разверните виртуальную машину для размещения служб домен Active Directory ([установите службы домен Active Directory Services (уровень 100)](../../../identity/ad-ds/deploy/install-active-directory-domain-services--level-100-.md) и DNS-сервер.
 
-    a. Подключите виртуальную машину Active Directory или DNS-сервера к виртуальной ЛС управления:
+    а. Подключите виртуальную машину Active Directory или DNS-сервера к виртуальной ЛС управления:
 
     ```PowerShell
     Set-VMNetworkAdapterIsolation -VMName "<VM Name>" -Access -VlanId <Management VLAN> -AllowUntaggedTraffic $True
@@ -84,7 +84,7 @@ ms.locfileid: "96330396"
    Set-DnsClientServerAddress -InterfaceAlias "vEthernet (<switch name>)" -ServerAddresses <DNS Server IP>
    ```
 
-   a. Щелкните правой кнопкой мыши **Пуск**, выберите пункт **система**, а затем щелкните **изменить параметры**.
+   а. Щелкните правой кнопкой мыши **Пуск**, выберите пункт **система**, а затем щелкните **изменить параметры**.
    b. Нажмите кнопку **Изменить**.
    c. Щелкните **домен** и укажите имя домена.  "" "d. Нажмите кнопку **ОК**.
    д) При появлении запроса введите имя пользователя и пароль.
@@ -182,13 +182,13 @@ ms.locfileid: "96330396"
 
 1. Настройте файл SDNExpress\scripts\TenantConfig.psd1, изменив **<< замените >>** Теги на конкретные значения (например, имя образа VHD, имя сети сетевого контроллера, имя vSwitch и т. д., как ранее было определено в файле FabricConfig.psd1).
 
-2. Выполните скрипт. Например:
+2. Выполните скрипт. Пример:
 
    ```
    SDNExpress\scripts\SDNExpressTenant.ps1 -ConfigurationDataFile TenantConfig.psd1 -Verbose
    ```
 
-3. Чтобы отменить настройку, выполните тот же сценарий с параметром **Undo** . Например:
+3. Чтобы отменить настройку, выполните тот же сценарий с параметром **Undo** . Пример:
 
    ```
    SDNExpress\scripts\SDNExpressTenant.ps1 -Undo -ConfigurationDataFile TenantConfig.psd1 -Verbose

@@ -6,12 +6,12 @@ ms.topic: article
 author: JasonGerend
 manager: brianlic
 ms.author: jgerend
-ms.openlocfilehash: 04a295b8f6249521c809770af2c85fdce5dd54b4
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: f562a39d6b89ab117f6c3d8b274c03e5810f58c3
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87971221"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96866213"
 ---
 # <a name="set-target-priority-to-override-referral-ordering"></a>Задание приоритета конечных объектов для переопределения порядка в ссылках
 
@@ -51,7 +51,7 @@ ms.locfileid: "87971221"
 4.  На вкладке **Дополнительно** щелкните **Переопределить сортировку ссылок**, а затем выберите требуемый приоритет.
 
 > [!NOTE]
-> Чтобы задать приоритеты конечных объектов с помощью Windows PowerShell, используйте командлеты [Set-DfsnRootTarget](/powershell/module/dfsr/update-dfsrconfigurationfromad?view=win10-ps) и [Set-DfsnFolderTarget](/powershell/module/dfsr/update-dfsrconfigurationfromad?view=win10-ps) с параметрами **ReferralPriorityClass** и **ReferralPriorityRank**. Эти командлеты были введены в Windows Server 2012.
+> Чтобы задать приоритеты конечных объектов с помощью Windows PowerShell, используйте командлеты [Set-DfsnRootTarget](/powershell/module/dfsr/update-dfsrconfigurationfromad) и [Set-DfsnFolderTarget](/powershell/module/dfsr/update-dfsrconfigurationfromad) с параметрами **ReferralPriorityClass** и **ReferralPriorityRank**. Эти командлеты были введены в Windows Server 2012.
 
 ## <a name="additional-references"></a>Дополнительные ссылки
 

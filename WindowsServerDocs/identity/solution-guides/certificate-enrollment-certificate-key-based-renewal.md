@@ -5,12 +5,12 @@ ms.author: delhan
 manager: dcscontentpm
 ms.date: 11/12/2019
 ms.topic: article
-ms.openlocfilehash: 92ca0c028d1275bf2d884a7c89be6ae2b351b78f
-ms.sourcegitcommit: 2365a7b23e2eccd13be350306c622d2ad9d36bc8
+ms.openlocfilehash: 9f9930cc59badf19036c598f11f2a5b423711c94
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "96788151"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96866073"
 ---
 # <a name="configuring-certificate-enrollment-web-service-for-certificate-key-based-renewal-on-a-custom-port"></a>Настройка веб-службы регистрации сертификатов для продления на основе ключей сертификата через настраиваемый порт
 
@@ -46,7 +46,7 @@ ms.locfileid: "96788151"
 
 ## <a name="configuration-instructions"></a>Инструкции по настройке
 
-### <a name="overview"></a>Общие сведения
+### <a name="overview"></a>Обзор
 
 1. Настройте шаблон для обновления на основе ключей.
 
@@ -222,7 +222,7 @@ Set-ADUser -Identity cepcessvc -Add @{'msDS-AllowedToDelegateTo'=@('HOST/CA1.con
 
    CN = ЕНТКА, CN = службы регистрации, CN = открытые ключи Services, CN = Services, CN = Configuration, DC = contoso, DC = com
 
-3. Щелкните правой кнопкой мыши и измените объект CA. Измените атрибут **мспки-регистрации-Servers** , используя пользовательский порт с URI сервера CEP и CES, которые были найдены в параметрах приложения. Пример.
+3. Щелкните правой кнопкой мыши и измените объект CA. Измените атрибут **мспки-регистрации-Servers** , используя пользовательский порт с URI сервера CEP и CES, которые были найдены в параметрах приложения. Пример:
 
    ```
    140https://cepces.contoso.com:49999/ENTCA_CES_UsernamePassword/service.svc/CES0
@@ -308,9 +308,9 @@ certreq -machine -q -enroll -cert <thumbprint> renew
 
 [Веб-службы регистрации сертификатов](https://techcommunity.microsoft.com/t5/Ask-the-Directory-Services-Team/Certificate-Enrollment-Web-Services/ba-p/397385)
 
-[Install-Адксенроллментполицивебсервице](/powershell/module/adcsdeployment/install-adcsenrollmentpolicywebservice?view=win10-ps)
+[Install-Адксенроллментполицивебсервице](/powershell/module/adcsdeployment/install-adcsenrollmentpolicywebservice)
 
-[Install-Адксенроллментвебсервице](/powershell/module/adcsdeployment/install-adcsenrollmentwebservice?view=win10-ps)
+[Install-Адксенроллментвебсервице](/powershell/module/adcsdeployment/install-adcsenrollmentwebservice)
 
 См. также раздел
 

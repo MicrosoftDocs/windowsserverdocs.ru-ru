@@ -6,18 +6,18 @@ ms.topic: article
 author: JasonGerend
 manager: brianlic
 ms.author: jgerend
-ms.openlocfilehash: 0300e8fa6845c58e61b695546daf4116286d975f
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 937045a4ed0803fd160d9f01d06ade6e73df2d97
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87957521"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96865973"
 ---
 # <a name="file-server-resource-manager-command-line-tools"></a>Программы командной строки диспетчера ресурсов файлового сервера
 
 > Область применения: Windows Server (Semi-Annual Channel), Windows Server 2016, Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2
 
-Диспетчер ресурсов файлового сервера устанавливает командлеты PowerShell [FileServerResourceManager](/powershell/module/fileserverresourcemanager/?view=win10-ps), а также следующие программы командной строки:
+Диспетчер ресурсов файлового сервера устанавливает командлеты PowerShell [FileServerResourceManager](/powershell/module/fileserverresourcemanager/), а также следующие программы командной строки:
 
 -   **Dirquota.exe**. Используется для создания и администрирования квот, автоматически применяемых квот и шаблонов квот.
 -   **Filescrn.exe**. Используется для создания и администрирования фильтров блокировки файлов, шаблонов фильтров блокировки файлов, исключений фильтров блокировки файлов и групп файлов.
@@ -25,9 +25,9 @@ ms.locfileid: "87957521"
 
 Эти средства можно использовать для управления ресурсами хранилища на локальном или удаленном компьютере. Дополнительные сведения об этих инструментах командной строки см. в следующих источниках.
 
--   **Диркуота**:<https://go.microsoft.com/fwlink/?LinkId=92741>
--   **Филескрн**:<https://go.microsoft.com/fwlink/?LinkId=92742>
--   **Сторрепт**:<https://go.microsoft.com/fwlink/?LinkId=92743>
+-   **Диркуота**: <https://go.microsoft.com/fwlink/?LinkId=92741>
+-   **Филескрн**: <https://go.microsoft.com/fwlink/?LinkId=92742>
+-   **Сторрепт**: <https://go.microsoft.com/fwlink/?LinkId=92743>
 
 
 > [!Note]

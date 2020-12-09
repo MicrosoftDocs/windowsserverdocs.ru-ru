@@ -6,12 +6,12 @@ ms.topic: article
 author: JasonGerend
 manager: brianlic
 ms.author: jgerend
-ms.openlocfilehash: 969c950d3a925afac400d128ac21ed0923f07ffa
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 625fb9c6a36717e57f3c6fd6da696b8df07fe8c3
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87950658"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96866063"
 ---
 # <a name="configure-notification-limits"></a>Настройка пределов уведомлений
 
@@ -21,7 +21,7 @@ ms.locfileid: "87950658"
 
 -   электронная почта;
 -   Журнал событий
--   Get-Help
+-   Команда
 -   Отчет
 
 Каждое ограничение определяет период времени, который должен пройти, прежде чем для одной и той же проблемы будет сформировано еще одно уведомление того же типа.
@@ -37,7 +37,7 @@ ms.locfileid: "87950658"
 3.  Нажмите кнопку **ОК**.
 
 > [!Note]
-> Чтобы настроить ограничения по времени, связанные с уведомлениями для конкретной квоты или фильтра блокировки файлов, можно использовать средства командной строки диспетчера ресурсов файлового сервера **Dirquota.exe** и **Filescrn.exe** или использовать командлеты [диспетчера ресурсов файлового сервера](/powershell/module/fileserverresourcemanager/?view=win10-ps).
+> Чтобы настроить ограничения по времени, связанные с уведомлениями для конкретной квоты или фильтра блокировки файлов, можно использовать средства командной строки диспетчера ресурсов файлового сервера **Dirquota.exe** и **Filescrn.exe** или использовать командлеты [диспетчера ресурсов файлового сервера](/powershell/module/fileserverresourcemanager/).
 
 ## <a name="additional-references"></a>Дополнительные ссылки
 

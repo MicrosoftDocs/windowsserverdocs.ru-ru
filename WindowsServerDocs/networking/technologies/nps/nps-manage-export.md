@@ -6,12 +6,12 @@ ms.topic: article
 ms.assetid: d268dc57-78f8-47ba-9a7a-a607e8b9225c
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: a7f6de6b4ee0e442aed5f718c7025a6eb2e70388
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 7558a431d2745866d03edbed1346b75604dc20ff
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87995464"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96866463"
 ---
 # <a name="export-an-nps-configuration-for-import-on-another-server"></a>Экспорт конфигурации NPS для импорта на другом сервере
 
@@ -44,9 +44,9 @@ Export-NpsConfiguration -Path <filename>
 
 В следующей таблице перечислены параметры для командлета **Export-нпсконфигуратион** в Windows PowerShell. Параметры, выделенные жирным шрифтом, являются обязательными.
 
-|Параметр|Описание|
+|Параметр|Описание:|
 |---------|-----------|
-|Path|Задает имя и расположение XML-файла, в который необходимо экспортировать конфигурацию NPS.|
+|Путь|Задает имя и расположение XML-файла, в который необходимо экспортировать конфигурацию NPS.|
 
 **Учетные данные администратора**
 
@@ -60,7 +60,7 @@ Export-NpsConfiguration -Path <filename>
 Export-NpsConfiguration –Path c:\config.xml
 ```
 
-Дополнительные сведения см. в разделе [Export-нпсконфигуратион](/powershell/module/nps/export-npsconfiguration?view=win10-ps).
+Дополнительные сведения см. в разделе [Export-нпсконфигуратион](/powershell/module/nps/export-npsconfiguration).
 
 После экспорта конфигурации NPS скопируйте XML-файл на целевой сервер.
 
@@ -78,7 +78,7 @@ Import-NpsConfiguration [-Path] <String> [ <CommonParameters>]
 Import-NpsConfiguration -Path "C:\Npsconfig.xml"
 ```
 
-Дополнительные сведения см. в разделе [Import-нпсконфигуратион](/powershell/module/nps/import-npsconfiguration?view=win10-ps).
+Дополнительные сведения см. в разделе [Import-нпсконфигуратион](/powershell/module/nps/import-npsconfiguration).
 
 ## <a name="export-and-import-the-nps-configuration-by-using-netsh"></a>Экспорт и импорт конфигурации NPS с помощью команды netsh
 
@@ -95,9 +95,9 @@ Import-NpsConfiguration -Path "C:\Npsconfig.xml"
 
 ### <a name="to-copy-an-nps-configuration-to-another-nps-using-netsh-commands"></a>Копирование конфигурации NPS в другой сервер политики сети с помощью команд Netsh
 
-1. В исходном NPS откройте **командную строку**, введите команду **netsh**и нажмите клавишу ВВОД.
+1. В исходном NPS откройте **командную строку**, введите команду **netsh** и нажмите клавишу ВВОД.
 
-2. В командной строке **netsh** введите **NPS**и нажмите клавишу ВВОД.
+2. В командной строке **netsh** введите **NPS** и нажмите клавишу ВВОД.
 
 3. В командной строке **netsh nps** введите **Export имя_файла =**"*path\file.xml*" **експортпск = Yes**, где *path* — это расположение папки, в которой нужно сохранить файл конфигурации NPS, а *File* — имя XML-файла, который необходимо сохранить. Нажмите клавишу ВВОД.
 

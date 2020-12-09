@@ -6,12 +6,12 @@ ms.assetid: c02fdb5b-62f3-43cb-a190-ab74b3ebcf77
 ms.author: benarm
 author: BenjaminArmstrong
 ms.date: 06/05/2020
-ms.openlocfilehash: 7c1029f31abe70b09bddc83f928ee492be18ef2b
-ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
+ms.openlocfilehash: e4cf39e9c96a92df3962fa1a8fc2493c3022d898
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "90746399"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96866413"
 ---
 # <a name="supported-oracle-linux-virtual-machines-on-hyper-v"></a>Поддерживаемые виртуальные машины Oracle Linux в Hyper-V
 
@@ -45,7 +45,7 @@ ms.locfileid: "90746399"
 |       **Доступность**        |   |
 |       **[Основные сведения](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#core)**      | 2019, 2016, 2012 R2 | &#10004; |
 |       Точное время Windows Server 2016       | 2019, 2016 | &#10004; |
-|       **[Сети](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#networking)**      |   |
+|       **[Сеть](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#networking)**      |   |
 |       Кадры крупного размера        | 2019, 2016, 2012 R2 | &#10004; |
 |       Добавление тегов и магистрали виртуальной ЛС       | 2019, 2016, 2012 R2 | &#10004;  |
 |       Динамическая миграция      | 2019, 2016, 2012 R2 | &#10004; |
@@ -59,16 +59,16 @@ ms.locfileid: "90746399"
 |       Динамическая Архивация виртуальных машин  | 2019, 2016, 2012 R2 | &#10004; Примечание 5 |
 |       Поддержка TRIM | 2019, 2016, 2012 R2 | &#10004;  |
 |       WWN ДЛЯ SCSI | 2019, 2016, 2012 R2 | &#10004;  |
-|       **[Свободной](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#memory)** | |
+|       **[Память](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#memory)** | |
 |       Поддержка ядра PAE  | 2019, 2016, 2012 R2 |  Недоступно |
 |       Настройка зазора MMIO  | 2019, 2016, 2012 R2 | &#10004; |
-|       Динамическая память — "горячее" Добавление | 2019, 2016, 2012 R2  | &#10004; Примечание 7, 8, 9 |
+|       Динамическая память Hot-Add | 2019, 2016, 2012 R2  | &#10004; Примечание 7, 8, 9 |
 |       Всплывающие подсказки динамическая память | 2019, 2016, 2012 R2 | &#10004; Примечание 7, 8, 9 |
 |       Изменение размера памяти среды выполнения | 2019, 2016  | &#10004;  |
-|       **[Роли](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#video)** | |
+|       **[Видео](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#video)** | |
 |       Устройство видеозаписи, определенное Hyper-V | 2019, 2016, 2012 R2 | &#10004;   |
 |       **[Прочее](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#miscellaneous)** | |
-|       Пара "ключ-значение"  | 2019, 2016, 2012 R2 | &#10004;   |
+|       Пара Key-Value  | 2019, 2016, 2012 R2 | &#10004;   |
 |       Немаскируемое прерывание | 2019, 2016, 2012 R2 | &#10004;  |
 |       Копирование файлов с узла на гость | 2019, 2016, 2012 R2 | &#10004;  |
 |       Команда лсвмбус | 2019, 2016, 2012 R2 | &#10004;  |
@@ -86,7 +86,7 @@ ms.locfileid: "90746399"
 <tr height="50px">
 <td width="20%" rowspan="2">
 
-Функция
+Признак
 </td>
 <td width="20%" rowspan="2">
 
@@ -220,7 +220,7 @@ LIS 4,3
 <tr height="50px">
 <td width="20%">
 
- **[Сети](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#networking)**
+ **[Сеть](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#networking)**
 </td>
 <td width="20%">
 
@@ -679,7 +679,7 @@ WWN ДЛЯ SCSI
 <tr height="50px">
 <td width="20%">
 
-**[Свободной](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#memory)**
+**[Память](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#memory)**
 </td>
 <td width="20%">
 
@@ -775,7 +775,7 @@ WWN ДЛЯ SCSI
 <tr height="50px">
 <td width="20%">
 
-Динамическая память "горячее" Добавление
+Динамическая память Hot-Add
 </td>
 <td width="20%">
 
@@ -876,7 +876,7 @@ WWN ДЛЯ SCSI
 <tr height="50px">
 <td width="20%">
 
-**[Роли](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#video)**
+**[Видео](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#video)**
 </td>
 <td width="20%">
 
@@ -1272,7 +1272,7 @@ WWN ДЛЯ SCSI
 |       **Доступность**     |   | LIS 4,3  | Встроено  |
 |       **[Основные сведения](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#core)**      | 2019, 2016, 2012 R2 | &#10004; | &#10004;
 |       Точное время Windows Server 2016       | 2019, 2016 | |
-|       **[Сети](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#networking)**      |   |  |
+|       **[Сеть](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#networking)**      |   |  |
 |       Кадры крупного размера        | 2019, 2016, 2012 R2 | &#10004; | &#10004;|
 |       Добавление тегов и магистрали виртуальной ЛС       | 2019, 2016, 2012 R2 | &#10004; Примечание 1 | &#10004; Примечание 1 |
 |       Динамическая миграция      | 2019, 2016, 2012 R2 | &#10004; | &#10004;|
@@ -1286,16 +1286,16 @@ WWN ДЛЯ SCSI
 |       Динамическая Архивация виртуальных машин  | 2019, 2016, 2012 R2 | &#10004; Примечание 5 | &#10004; Примечание 5|
 |       Поддержка TRIM | 2019, 2016, 2012 R2 | &#10004;  | &#10004; |
 |       WWN ДЛЯ SCSI | 2019, 2016, 2012 R2 | &#10004;  | &#10004; |
-|       **[Свободной](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#memory)** | |  |
+|       **[Память](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#memory)** | |  |
 |       Поддержка ядра PAE  | 2019, 2016, 2012 R2 |  Недоступно | Недоступно
 |       Настройка зазора MMIO  | 2019, 2016, 2012 R2 | &#10004; | &#10004;  |
-|       Динамическая память — "горячее" Добавление | 2019, 2016, 2012 R2  | &#10004; Примечание 6, 8, 9 | &#10004; Примечание 6, 8, 9 |
+|       Динамическая память Hot-Add | 2019, 2016, 2012 R2  | &#10004; Примечание 6, 8, 9 | &#10004; Примечание 6, 8, 9 |
 |       Всплывающие подсказки динамическая память | 2019, 2016, 2012 R2 | &#10004; Примечание 6, 8, 9 | &#10004; Примечание 6, 8, 9 |
 |       Изменение размера памяти среды выполнения | 2019, 2016  |  | |
-|       **[Роли](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#video)** | | |
+|       **[Видео](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#video)** | | |
 |       Устройство видеозаписи, определенное Hyper-V | 2019, 2016, 2012 R2 | &#10004;   | &#10004; |
 |       **[Прочее](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#miscellaneous)** | | |
-|       Пара "ключ-значение"  | 2019, 2016, 2012 R2 | &#10004; Примечание 10, 11   | &#10004; Примечание 10, 11  |
+|       Пара Key-Value  | 2019, 2016, 2012 R2 | &#10004; Примечание 10, 11   | &#10004; Примечание 10, 11  |
 |       Немаскируемое прерывание | 2019, 2016, 2012 R2 | &#10004;  | &#10004; |
 |       Копирование файлов с узла на гость | 2019, 2016, 2012 R2 | &#10004;  | &#10004; |
 |       Команда лсвмбус | 2019, 2016, 2012 R2 | &#10004;  | &#10004; |
@@ -1321,13 +1321,13 @@ WWN ДЛЯ SCSI
 
 6. Поддержка динамической памяти доступна только на 64-разрядных виртуальных машинах.
 
-7. Поддержка горячего добавления не включена по умолчанию в этом распространении. Чтобы включить поддержку "горячего" добавления, необходимо добавить правило udev в разделе/ЕТК/удев/рулес.д/следующим образом:
+7. По умолчанию в этом распространении поддержка Hot-Add не включена. Чтобы включить поддержку Hot-Add необходимо добавить правило udev в разделе/ЕТК/удев/рулес.д/следующим образом:
 
    1. Создайте файл **/etc/udev/Rules.d/100-Balloon.rules**. Для файла можно использовать любое другое требуемое имя.
 
    2. Добавьте в файл следующее содержимое: `SUBSYSTEM=="memory", ACTION=="add", ATTR{state}="online"`
 
-   3. Перезагрузите систему, чтобы включить поддержку горячего добавления.
+   3. Перезагрузите систему, чтобы включить поддержку Hot-Add.
 
    Хотя Integration Services загрузки Linux создает это правило при установке, оно также удаляется при удалении LIS, поэтому правило необходимо создать заново, если после удаления потребуется динамическая память.
 
@@ -1337,7 +1337,7 @@ WWN ДЛЯ SCSI
 
    * Приложения, которые обычно потребляют всю доступную память в системе, могут потреблять до 80 процентов доступной памяти.
 
-9. При использовании динамическая память в операционной системе Windows Server 2016 или Windows Server 2012 R2 укажите **объем памяти при запуске**, **Минимальный объем памяти**и параметры **максимального объема памяти** (кратные 128 МБ). Несоблюдение этого действия может привести к сбоям "горячего" добавления, и в гостевой операционной системе может не появиться никакого увеличения объема памяти.
+9. При использовании динамическая память в операционной системе Windows Server 2016 или Windows Server 2012 R2 укажите **объем памяти при запуске**, **Минимальный объем памяти** и параметры **максимального объема памяти** (кратные 128 МБ). Несоблюдение этого действия может привести к сбоям "горячего" добавления, и в гостевой операционной системе может не появиться никакого увеличения объема памяти.
 
 10. Чтобы включить инфраструктуру пар "ключ — значение" (KVP), установите пакет хипервквпд или программная программа Hyperv-демонов из Oracle Linux ISO. Кроме того, пакет можно установить непосредственно из Oracle Linux репозитории Yum.
 
@@ -1352,9 +1352,9 @@ WWN ДЛЯ SCSI
     Загрузка Integration Services Linux может быть применена к существующим виртуальным машинам поколения 2, но не внушить поколения 2.
 
 
-См. также
+См. также:
 
-* [Set-Вмфирмваре](/powershell/module/hyper-v/set-vmfirmware?view=win10-ps)
+* [Set-Вмфирмваре](/powershell/module/hyper-v/set-vmfirmware)
 
 * [Поддерживаемые CentOS и Red Hat Enterprise Linux виртуальные машины в Hyper-V](Supported-CentOS-and-Red-Hat-Enterprise-Linux-virtual-machines-on-Hyper-V.md)
 

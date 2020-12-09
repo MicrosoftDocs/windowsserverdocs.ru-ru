@@ -6,12 +6,12 @@ ms.assetid: 1575cc7c-62a7-4add-8f78-e5d93effe93f
 manager: brianlic
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 9732be4cb0f9301e7011075a663f5499bcf8a277
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 2ca7e336b0949e6dbc0bf1359e463f01605e38bf
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87993982"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96865584"
 ---
 # <a name="manage-data-center-bridging-dcb"></a>Управление мостом центра обработки данных (DCB)
 
@@ -85,7 +85,7 @@ ms.locfileid: "87993982"
 
     c. Назначение приоритета приложения
 
-    d. Параметры ДКБКС
+    г. Параметры ДКБКС
 
 2. Настройте DCB на сетевом адаптере.
 
@@ -172,7 +172,7 @@ You can then use the **Get-NetQosTrafficClass** command to view settings.
 
 После удаления класса трафика значение 802.1 p, сопоставленное с этим классом трафика, повторно сопоставляется с классом трафика по умолчанию. Любая пропускная способность, зарезервированная для класса трафика, возвращается к выделению класса трафика по умолчанию при удалении класса трафика.
 
-## <a name="per-network-interface-policies"></a>Политики для сетевых интерфейсов
+## <a name="per-network-interface-policies"></a>Политики интерфейса Per-Network
 
 Все приведенные выше примеры задают глобальные политики. Ниже приведены примеры того, как можно задать и получить политики для каждого сетевого адаптера.
 
@@ -464,10 +464,10 @@ Capabilities :                       Hardware     Current
 
 В следующем разделе для Windows Server 2016 приведены описания и синтаксис командлетов Windows PowerShell для всех командлетов качества обслуживания центра обработки данных, \( \) \( связанных с QoS \) \- . Командлеты перечисляются в алфавитном порядке по команде в начале имени командлета.
 
-- [Модуль Дкбкос](/powershell/module/dcbqos/?view=win10-ps)
+- [Модуль Дкбкос](/powershell/module/dcbqos/)
 
 ### <a name="windows-server-2012-r2-windows-powershell-commands-for-dcb"></a>Команды Windows PowerShell для Windows Server 2012 R2 для DCB
 
 В следующем разделе для Windows Server 2012 R2 приведены описания и синтаксис командлетов Windows PowerShell для всех командлетов качества обслуживания центра обработки данных, \( \) \( связанных с QoS \) \- . Командлеты перечисляются в алфавитном порядке по команде в начале имени командлета.
 
-- [Командлеты качества обслуживания моста для центра обработки данных в Windows PowerShell](/powershell/module/dcbqos/?view=win10-ps&viewFallbackFrom=winserverr2-ps)
+- [Командлеты качества обслуживания моста для центра обработки данных в Windows PowerShell](/powershell/module/dcbqos/)

@@ -7,12 +7,12 @@ ms.assetid: 244a4b48-06e5-4796-8750-a50e4f88ac72
 ms.author: lizross
 author: eross-msft
 ms.date: 09/13/2018
-ms.openlocfilehash: 4417748504a0458396cd02e965547c2573f2c44f
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 2edcd046958854698fbcc61d96f2716a26de3367
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87990088"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96866273"
 ---
 # <a name="network-load-balancing"></a>Network Load Balancing
 
@@ -141,7 +141,7 @@ Install-WindowsFeature NLB -IncludeManagementTools
 
 После завершения установки перезагрузка компьютера не требуется.
 
-Дополнительные сведения см. в разделе [Install-WindowsFeature](/powershell/module/servermanager/install-windowsfeature?view=win10-ps).
+Дополнительные сведения см. в разделе [Install-WindowsFeature](/powershell/module/servermanager/install-windowsfeature).
 
 ### <a name="network-load-balancing-manager"></a>Диспетчер балансировки сетевой нагрузки
 Чтобы открыть диспетчер балансировки сетевой нагрузки в диспетчере сервера, в меню **Сервис** выберите пункт **Диспетчер балансировки сетевой нагрузки**.
@@ -153,6 +153,6 @@ Install-WindowsFeature NLB -IncludeManagementTools
 |----------------|--------------|
 |Развертывание|[Рекомендации по развертыванию балансировки сетевой нагрузки](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc754833(v=ws.10)) &#124; [настройке балансировки сетевой нагрузки с помощью служб терминалов](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc771300(v=ws.10))|
 |Операции|[Управление кластерами балансировки сетевой нагрузки](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753954(v=ws.10)) &#124; [Настройка параметров балансировки сетевой нагрузки](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc731619(v=ws.10)) &#124; [Управление узлами в кластерах балансировки сетевой нагрузки](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc770870(v=ws.10))|
-|Диагностика|[Устранение неполадок в кластерах балансировки сетевой нагрузки](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc732592(v=ws.10)) &#124; [событиях и ошибках кластера балансировки сетевой](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc731678(v=ws.10)) нагрузки|
+|Устранение неполадок|[Устранение неполадок в кластерах балансировки сетевой нагрузки](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc732592(v=ws.10)) &#124; [событиях и ошибках кластера балансировки сетевой](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc731678(v=ws.10)) нагрузки|
 |Средства и параметры|[Командлеты балансировки сетевой нагрузки в Windows PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=238123)|
 |Ресурсы сообщества|[Форум по \( кластеризации высокого уровня доступности \)](https://go.microsoft.com/fwlink/p/?LinkId=230641)

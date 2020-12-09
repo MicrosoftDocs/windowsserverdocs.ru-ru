@@ -6,12 +6,12 @@ ms.author: billmath
 manager: mtillman
 ms.date: 06/13/2018
 ms.topic: article
-ms.openlocfilehash: c615bd6426098e00854e873d3e1eb2cfbfaa0734
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 9e26d558755b0ae37ac07fb21ff42360693e4303
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87970941"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96865713"
 ---
 # <a name="build-a-single-page-web-application-using-oauth-and-adaljs-with-ad-fs-2016-or-later"></a>Создание веб-приложения с одной страницей с помощью OAuth и ADAL.JS с AD FS 2016 или более поздней версии
 
@@ -35,7 +35,7 @@ ms.locfileid: "87970941"
 Если ADAL видит триггер для проверки подлинности, он использует сведения, предоставленные приложением, и направляет проверку подлинности AD FS STS.  Одностраничное приложение, зарегистрированное как общедоступный клиент в AD FS, автоматически настраивается на неявный поток предоставления. Запрос авторизации приводит к возвращению маркера идентификации, возвращаемого приложению через #fragment. Последующие вызовы серверной части WebAPI будут содержать этот маркер идентификации в качестве токена носителя в заголовке для получения доступа к WebAPI.
 
 ## <a name="setting-up-the-development-box"></a>Настройка поля разработки
-В этом пошаговом руководстве используется Visual Studio 2015. В проекте используется библиотека ADAL JS. Дополнительные сведения о ADAL см. в статье [Библиотека проверки подлинности Active Directory .NET.](/dotnet/api/microsoft.identitymodel.clients.activedirectory?view=azure-dotnet)
+В этом пошаговом руководстве используется Visual Studio 2015. В проекте используется библиотека ADAL JS. Дополнительные сведения о ADAL см. в статье [Библиотека проверки подлинности Active Directory .NET.](/dotnet/api/microsoft.identitymodel.clients.activedirectory)
 
 ## <a name="setting-up-the-environment"></a>Настройка среды
 В этом пошаговом руководстве мы будем использовать базовую установку:
@@ -80,7 +80,7 @@ git clone https://github.com/Azure-Samples/active-directory-angularjs-singlepage
 
     ![Создать новую группу приложений](media/Single-Page-Application-with-AD-FS/appgroup_step1.png)
 
-2. На следующей странице **собственное приложение**укажите идентификатор клиента приложения и URI перенаправления, как показано ниже.
+2. На следующей странице **собственное приложение** укажите идентификатор клиента приложения и URI перенаправления, как показано ниже.
 
     ![Создать новую группу приложений](media/Single-Page-Application-with-AD-FS/appgroup_step2.png)
 
@@ -111,7 +111,7 @@ git clone https://github.com/Azure-Samples/active-directory-angularjs-singlepage
 
 |Конфигурация|Описание|
 |--------|--------|
-|экземпляр|URL-адрес STS, напримерhttps://fs.contoso.com/|
+|экземпляр|URL-адрес STS, например https://fs.contoso.com/|
 |tenant|Не заключайте его в "ADFS"|
 |clientID|Это идентификатор клиента, указанный при настройке общедоступного клиента для приложения с одной страницей|
 
@@ -146,7 +146,7 @@ and add:
     );
 ```
 
-|Параметр|Описание|
+|Параметр|Описание:|
 |--------|--------|
 |валидаудиенце|При этом настраивается значение "аудитория", которое будет проверяться в токене.|
 |валидиссуер|При этом настраивается значение Issuer, для которого будет выполнена проверка в токене|

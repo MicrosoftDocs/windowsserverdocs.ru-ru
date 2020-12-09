@@ -6,12 +6,12 @@ ms.assetid: da58f312-bd3b-4bb6-98ca-6177869dd6ad
 manager: brianlic
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 81c35d1a5673793220ec860266d129a4ecdb4046
-ms.sourcegitcommit: b18effcba95c85d6e08e7d29808b576491a5352e
+ms.openlocfilehash: eab47e24ad8c2bd5436b3516babee9237c3c80f3
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/15/2020
-ms.locfileid: "88243196"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96865573"
 ---
 # <a name="data-center-bridging-dcb"></a>Мост для центра обработки данных \(DCB\)
 
@@ -102,10 +102,10 @@ DCB состоит из следующего набора протоколов.
 
 В следующем разделе для Windows Server 2016 приведены описания и синтаксис командлетов Windows PowerShell для всех командлетов качества обслуживания центра обработки данных, \( \) \( связанных с QoS \) \- . Командлеты перечисляются в алфавитном порядке по команде в начале имени командлета.
 
-- [Модуль Дкбкос](/powershell/module/dcbqos/?view=win10-ps)
+- [Модуль Дкбкос](/powershell/module/dcbqos/)
 
 ### <a name="windows-server-2012-r2-windows-powershell-commands-for-dcb"></a>Команды Windows PowerShell для Windows Server 2012 R2 для DCB
 
 В следующем разделе для Windows Server 2012 R2 приведены описания и синтаксис командлетов Windows PowerShell для всех командлетов качества обслуживания центра обработки данных, \( \) \( связанных с QoS \) \- . Командлеты перечисляются в алфавитном порядке по команде в начале имени командлета.
 
-- [Командлеты качества обслуживания моста для центра обработки данных в Windows PowerShell](/powershell/module/dcbqos/?view=win10-ps&viewFallbackFrom=winserverr2-ps)
+- [Командлеты качества обслуживания моста для центра обработки данных в Windows PowerShell](/powershell/module/dcbqos/)

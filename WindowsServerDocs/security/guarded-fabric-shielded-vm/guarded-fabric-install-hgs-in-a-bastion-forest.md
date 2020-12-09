@@ -5,12 +5,12 @@ manager: dongill
 author: rpsqrd
 ms.author: ryanpu
 ms.date: 08/29/2018
-ms.openlocfilehash: 358fae9a9ee477537d3ee929ff81920175d58298
-ms.sourcegitcommit: 5344adcf9c0462561a4f9d47d80afc1d095a5b13
+ms.openlocfilehash: 34aa075b088e556695ea1697e578682e6c801bbb
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90766417"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96866323"
 ---
 # <a name="install-hgs-in-an-existing-bastion-forest"></a>Установка HGS в существующем лесу бастиона
 
@@ -41,7 +41,7 @@ ms.locfileid: "90766417"
 
 ## <a name="group-managed-service-account"></a>Групповая управляемая учетная запись службы
 
-Групповая управляемая учетная запись службы (gMSA) — это удостоверение, используемое службой HGS для получения и использования своих сертификатов. Для создания gMSA используйте [New-адсервицеаккаунт](/powershell/module/addsadministration/new-adserviceaccount?view=win10-ps) .
+Групповая управляемая учетная запись службы (gMSA) — это удостоверение, используемое службой HGS для получения и использования своих сертификатов. Для создания gMSA используйте [New-адсервицеаккаунт](/powershell/module/addsadministration/new-adserviceaccount) .
 Если это первый gMSA в домене, необходимо добавить корневой ключ службы распространения ключей.
 
 Каждому узлу HGS необходимо разрешить доступ к паролю gMSA.
@@ -81,7 +81,7 @@ New-ADServiceAccount -Name 'HGSgMSA' -DnsHostName 'HGSgMSA.yourdomain.com' -Prin
 Конфигурация конечной точки JEA состоит из двух групп безопасности, которые содержат администраторов HGS и проверяющих HGS.
 Пользователи, входящие в группу администраторов, могут добавлять, изменять и удалять политики в HGS. Рецензенты могут только просматривать текущую конфигурацию.
 
-Создайте 2 группы безопасности для этих групп JEA с помощью средств администрирования Active Directory или [New-ADGroup](/powershell/module/addsadministration/new-adgroup?view=win10-ps).
+Создайте 2 группы безопасности для этих групп JEA с помощью средств администрирования Active Directory или [New-ADGroup](/powershell/module/addsadministration/new-adgroup).
 
 ```powershell
 New-ADGroup -Name 'HgsJeaReviewers' -GroupScope DomainLocal
@@ -140,7 +140,7 @@ Set-Acl -Path $vcoPath -AclObject $acl
 
 **Имя политики:** Сетевая безопасность: Настройка типов шифрования, разрешенных для Kerberos
 
-**Действие**. Если эта политика настроена, необходимо обновить учетную запись gMSA с помощью [Set-адсервицеаккаунт](/powershell/module/addsadministration/set-adserviceaccount?view=win10-ps) , чтобы использовать в этой политике только поддерживаемые типы шифрования. Например, если политика допускает только AES128 \_ HMAC \_ SHA1 и AES256 \_ HMAC \_ SHA1, следует запустить `Set-ADServiceAccount -Identity HGSgMSA -KerberosEncryptionType AES128,AES256` .
+**Действие**. Если эта политика настроена, необходимо обновить учетную запись gMSA с помощью [Set-адсервицеаккаунт](/powershell/module/addsadministration/set-adserviceaccount) , чтобы использовать в этой политике только поддерживаемые типы шифрования. Например, если политика допускает только AES128 \_ HMAC \_ SHA1 и AES256 \_ HMAC \_ SHA1, следует запустить `Set-ADServiceAccount -Identity HGSgMSA -KerberosEncryptionType AES128,AES256` .
 
 
 

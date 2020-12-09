@@ -6,12 +6,12 @@ ms.topic: article
 author: jasongerend
 ms.date: 06/07/2019
 description: В этом разделе описываются пространства имен DFS — служба роли в Windows Server, которая позволяет объединять общие папки, находящиеся на разных серверах, в одно или несколько логически структурированных пространств имен.
-ms.openlocfilehash: cc29d4bbb73a3255497b89a438c2f3962fd07751
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 5f2ab44b902d5ed1d27be9eb14bda8f003387f52
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87989385"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96866003"
 ---
 # <a name="dfs-namespaces-overview"></a>Обзор пространств имен DFS
 
@@ -30,7 +30,7 @@ ms.locfileid: "87989385"
 
 В этом разделе описано, как установить DFS, новые возможности и где найти сведения об оценке и развертывании.
 
-Пространства имен можно администрировать с помощью управления DFS [командлетов пространства имен DFS (DFSN) в Windows PowerShell](/powershell/module/dfsn/?view=win10-ps), команды **DfsUtil** или сценариев под названием WMI.
+Пространства имен можно администрировать с помощью управления DFS [командлетов пространства имен DFS (DFSN) в Windows PowerShell](/powershell/module/dfsn/), команды **DfsUtil** или сценариев под названием WMI.
 
 ## <a name="server-requirements-and-limits"></a>Требования к серверу и ограничения
 
@@ -43,7 +43,7 @@ ms.locfileid: "87989385"
 - Windows Server 2019
 - Windows Server 2016
 - Windows Server 2012 R2
-- Windows Server 2012
+- Windows Server 2012
 - Выпуски Windows Server 2008 R2 Datacenter и Enterprise
 - Windows Server (Semi-Annual Channel)
 

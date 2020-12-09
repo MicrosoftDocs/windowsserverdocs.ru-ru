@@ -6,12 +6,12 @@ ms.author: arduppal
 ms.date: 04/26/2019
 ms.topic: article
 manager: mchad
-ms.openlocfilehash: d5c200d649bfa62314eca26cee3f5fe8601895c3
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 329650a599d9092818bf6923375c03a8d5996825
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87950488"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96866183"
 ---
 # <a name="cluster-to-cluster-storage-replica-within-the-same-region-in-azure"></a>Кластер в реплику хранилища кластера в том же регионе Azure
 
@@ -130,13 +130,13 @@ ms.locfileid: "87950488"
 
 16. Выполните [проверочные тесты кластера](../../failover-clustering/create-failover-cluster.md#validate-the-configuration) , прежде чем переходить к следующему шагу.
 
-17. Запустите Windows PowerShell и используйте командлет [Test-SRTopology](/powershell/module/storagereplica/test-srtopology?view=win10-ps), чтобы определить, все ли требования для реплики хранилища выполнены. Командлет можно использовать в режиме "только требования" для быстрой проверки, а также для длительного режима оценки производительности.
+17. Запустите Windows PowerShell и используйте командлет [Test-SRTopology](/powershell/module/storagereplica/test-srtopology), чтобы определить, все ли требования для реплики хранилища выполнены. Командлет можно использовать в режиме "только требования" для быстрой проверки, а также для длительного режима оценки производительности.
 
 18. Настройка реплики хранилища кластера в кластер.
 
     Предоставление доступа из одного кластера в другой в обоих направлениях:
 
-    Пример.
+    В нашем примере:
 
     ```PowerShell
       Grant-SRAccess -ComputerName az2az1 -Cluster SRAZC2

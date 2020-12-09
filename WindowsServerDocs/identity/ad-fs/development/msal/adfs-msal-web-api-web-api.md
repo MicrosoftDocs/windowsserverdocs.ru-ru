@@ -6,12 +6,12 @@ ms.author: billmath
 manager: daveba
 ms.date: 08/09/2019
 ms.topic: article
-ms.openlocfilehash: 0fd18a7a5e75320533cf8195b507808740b4e1f8
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: a8d3bb8c7094316dc8b54430137cac0c4fa7c75e
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87965121"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96866423"
 ---
 # <a name="scenario-web-api-calling-web-api-on-behalf-of-scenario"></a>Сценарий: вызов веб-API через веб-API (от имени сценария)
 > Применимо к: AD FS 2019 и более поздних версий
@@ -24,7 +24,7 @@ ms.locfileid: "87965121"
 
 
 - Клиент (веб-приложение), не представленный на приведенной ниже схеме, вызывает защищенный веб-API и предоставляет токен носителя JWT в своем HTTP-заголовке "Authorization".
-- Защищенный веб-API проверяет маркер и использует метод MSAL [аккуиретокенонбехалфоф](/dotnet/api/microsoft.identitymodel.clients.activedirectory.authenticationcontext.acquiretokenasync?view=azure-dotnet#Microsoft_IdentityModel_Clients_ActiveDirectory_AuthenticationContext_AcquireTokenAsync_System_String_Microsoft_IdentityModel_Clients_ActiveDirectory_ClientCredential_Microsoft_IdentityModel_Clients_ActiveDirectory_UserAssertion_)   для запроса (от AD FS) другого маркера, чтобы он мог сам вызывать второй веб-API (именуемый нисходящим веб-API) от имени пользователя.
+- Защищенный веб-API проверяет маркер и использует метод MSAL [аккуиретокенонбехалфоф](/dotnet/api/microsoft.identitymodel.clients.activedirectory.authenticationcontext.acquiretokenasync#Microsoft_IdentityModel_Clients_ActiveDirectory_AuthenticationContext_AcquireTokenAsync_System_String_Microsoft_IdentityModel_Clients_ActiveDirectory_ClientCredential_Microsoft_IdentityModel_Clients_ActiveDirectory_UserAssertion_)   для запроса (от AD FS) другого маркера, чтобы он мог сам вызывать второй веб-API (именуемый нисходящим веб-API) от имени пользователя.
 - Защищенный веб-API использует этот токен для вызова подчиненного API. Он также может вызывать Аккуиретокенсилентлатер для запроса маркеров для других нисходящих API (но по-прежнему от имени одного и того же пользователя).AcquireTokenSilent обновляет токен при необходимости.
 
      ![общие сведения](media/adfs-msal-web-api-web-api/webapi1.png)
@@ -43,15 +43,15 @@ ms.locfileid: "87965121"
 
   1. В AD FS управления щелкните правой кнопкой мыши **группы приложений** и выберите команду **Добавить группу приложений**.
 
-  2. В мастере группы приложений в поле **имя** введите **вебапитовебапи** и в разделе **клиент-сервер приложения** выберите **собственное приложение, осуществляющее доступ к шаблону веб-API** . Щелкните **Далее**.
+  2. В мастере группы приложений в поле **имя** введите **вебапитовебапи** и в разделе **клиент-сервер приложения** выберите **собственное приложение, осуществляющее доступ к шаблону веб-API** . Нажмите кнопку **Далее**.
 
       ![Регистрация приложения](media/adfs-msal-web-api-web-api/webapi2.png)
 
-  3. Скопируйте значение **идентификатора клиента** . Он будет использоваться позже в качестве значения **ClientID** в файле **App.config** приложения. Введите следующую команду для **URI перенаправления:**  -  https://ToDoListClient . Нажмите кнопку **Добавить**. Щелкните **Далее**.
+  3. Скопируйте значение **идентификатора клиента** . Он будет использоваться позже в качестве значения **ClientID** в файле **App.config** приложения. Введите следующую команду для **URI перенаправления:**  -  https://ToDoListClient . Нажмите кнопку **Добавить**. Нажмите кнопку **Далее**.
 
       ![Регистрация приложения](media/adfs-msal-web-api-web-api/webapi3.png)
 
-  4. На экране Настройка веб-API введите **идентификатор:** https://localhost:44321/ . Нажмите кнопку **Добавить**. Щелкните **Далее**. Это значение будет использоваться позже в файлах **App.config** и **Web.Config** приложения.
+  4. На экране Настройка веб-API введите **идентификатор:** https://localhost:44321/ . Нажмите кнопку **Добавить**. Нажмите кнопку **Далее**. Это значение будет использоваться позже в файлах **App.config** и **Web.Config** приложения.
 
       ![Регистрация приложения](media/adfs-msal-web-api-web-api/webapi4.png)
 
@@ -59,7 +59,7 @@ ms.locfileid: "87965121"
 
       ![Регистрация приложения](media/adfs-msal-web-api-web-api/webapi5.png)
 
-  6. На экране Настройка разрешений приложения выберите **OpenID Connect** и **user_impersonation**. Щелкните **Далее**.
+  6. На экране Настройка разрешений приложения выберите **OpenID Connect** и **user_impersonation**. Нажмите кнопку **Далее**.
 
       ![Регистрация приложения](media/adfs-msal-web-api-web-api/webapi6.png)
 

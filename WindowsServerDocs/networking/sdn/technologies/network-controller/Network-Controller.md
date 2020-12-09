@@ -6,12 +6,12 @@ ms.topic: article
 ms.assetid: 31f3fa4e-cd25-4bf3-89e9-a01a6cec7893
 ms.author: anpaul
 author: AnirbanPaul
-ms.openlocfilehash: 27ceace93c42ccabdb2db0208c6e3dabce41e1b0
-ms.sourcegitcommit: 5344adcf9c0462561a4f9d47d80afc1d095a5b13
+ms.openlocfilehash: 5f789904903838e838e5de0c8de78266055fbcd6
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90766817"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96866503"
 ---
 # <a name="network-controller"></a>Сетевой контроллер
 
@@ -28,9 +28,9 @@ ms.locfileid: "90766817"
 > - [Развертывание сетевого контроллера с помощью Windows PowerShell](../../deploy/Deploy-Network-Controller-using-Windows-PowerShell.md)
 > - [Установка роли сервера сетевого контроллера с помощью диспетчера серверов](Install-the-Network-Controller-server-role-using-Server-Manager.md)
 > - [Шаги, выполняемые после развертывания сетевого контроллера](post-deploy-steps-nc.md)
-> - [Командлеты сетевого контроллера](/powershell/module/networkcontroller/?view=win10-ps)
+> - [Командлеты сетевого контроллера](/powershell/module/networkcontroller/)
 
-## <a name="network-controller-overview"></a><a name="bkmk_overview"></a>Сетевой контроллер: обзор
+## <a name="network-controller-overview"></a><a name="bkmk_overview"></a>Обзор сетевого контроллера
 
 Сетевой контроллер — это высокодоступная и масштабируемая роль сервера, которая предоставляет один API интерфейса программирования приложений \( \) , который позволяет сетевому контроллеру взаимодействовать с сетью, а второй API, который позволяет взаимодействовать с сетевым контроллером.
 
@@ -62,7 +62,7 @@ API сетевого контроллера обмена позволяет на
 
 На следующей иллюстрации показано, как администратор использует средство управления, взаимодействующее напрямую с сетевым контроллером. Сетевой контроллер предоставляет сведения о сетевой инфраструктуре, включая как виртуальную, так и физическую инфраструктуру, средство управления и вносит изменения в конфигурацию в соответствии с действиями администратора при использовании этого средства.
 
-![Обзор сетевого контроллера](../../../media/Network-Controller/NetController_overview.png)
+![Общие сведения о сетевом контроллере](../../../media/Network-Controller/NetController_overview.png)
 
 При развертывании сетевого контроллера в тестовой среде можно запустить роль сервера сетевого контроллера на виртуальной машине виртуальной машины Hyper-V \( \) , установленной на узле Hyper-v.
 
@@ -126,7 +126,7 @@ API сетевого контроллера обмена позволяет на
 
 ## <a name="network-controller-deployment-options"></a>Параметры развертывания сетевого контроллера
 
-Сведения о развертывании сетевого контроллера с помощью System Center Virtual Machine Manager \( VMM \) см. [в разделе Настройка сетевого контроллера Sdn в структуре VMM](/system-center/vmm/sdn-controller?view=sc-vmm-2019).
+Сведения о развертывании сетевого контроллера с помощью System Center Virtual Machine Manager \( VMM \) см. [в разделе Настройка сетевого контроллера Sdn в структуре VMM](/system-center/vmm/sdn-controller).
 
 Сведения о развертывании сетевого контроллера с помощью сценариев см. в статье [развертывание программно-определяемой сетевой инфраструктуры с помощью сценариев](../../deploy/Deploy-a-Software-Defined-Network-infrastructure-using-scripts.md).
 

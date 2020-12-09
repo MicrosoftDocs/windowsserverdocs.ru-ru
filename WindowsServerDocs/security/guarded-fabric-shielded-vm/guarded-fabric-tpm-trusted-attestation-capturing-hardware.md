@@ -6,12 +6,12 @@ manager: dongill
 author: rpsqrd
 ms.author: ryanpu
 ms.date: 04/01/2019
-ms.openlocfilehash: c1d169147c6b09c8a238163a961c192e3e483728
-ms.sourcegitcommit: f45640cf4fda621b71593c63517cfdb983d1dc6a
+ms.openlocfilehash: 8ce4528ec7e8143c6f9af977079eed1cf8cc3940
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2020
-ms.locfileid: "92155952"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96865663"
 ---
 # <a name="authorize-guarded-hosts-using-tpm-based-attestation"></a>Авторизация защищенных узлов с помощью аттестации на основе TPM
 
@@ -80,7 +80,7 @@ ms.locfileid: "92155952"
 
 Рекомендуется сначала создать политику CI в режиме аудита (ведения журнала), чтобы узнать, не пропущен ли какой-либо объект, а затем применить политику для рабочих нагрузок узла.
 
-При использовании командлета [New-Циполици](/powershell/module/configci/new-cipolicy?view=win10-ps) для создания собственной политики целостности кода необходимо выбрать уровни правил, которые будут использоваться.
+При использовании командлета [New-Циполици](/powershell/module/configci/new-cipolicy) для создания собственной политики целостности кода необходимо выбрать уровни правил, которые будут использоваться.
 Рекомендуется использовать основной уровень **издателя** с возвратом к **хэшу**, что позволяет обновлять большинство программ с цифровой подписью без изменения политики непрерывной интеграции.
 Новое программное обеспечение, написанное на том же издателе, также может быть установлено на сервере без изменения политики CI.
 Хэш-файлы, не имеющие цифровой подписи, будут хэшированы. для обновления этих файлов потребуется создать новую политику CI.
@@ -101,7 +101,7 @@ ms.locfileid: "92155952"
 
 3.  Примените политику CI к эталонному узлу:
 
-    1.  Выполните следующую команду, чтобы настроить компьютер для использования политики CI. Можно также развернуть политику CI с помощью [Групповая политика](/windows/security/threat-protection/windows-defender-application-control/deploy-windows-defender-application-control-policies-using-group-policy) или [System Center Virtual Machine Manager](/system-center/vmm/guarded-deploy-host?view=sc-vmm-2019#manage-and-deploy-code-integrity-policies-with-vmm).
+    1.  Выполните следующую команду, чтобы настроить компьютер для использования политики CI. Можно также развернуть политику CI с помощью [Групповая политика](/windows/security/threat-protection/windows-defender-application-control/deploy-windows-defender-application-control-policies-using-group-policy) или [System Center Virtual Machine Manager](/system-center/vmm/guarded-deploy-host#manage-and-deploy-code-integrity-policies-with-vmm).
 
         ```powershell
         Invoke-CimMethod -Namespace root/Microsoft/Windows/CI -ClassName PS_UpdateAndCompareCIPolicy -MethodName Update -Arguments @{ FilePath = "C:\temp\HW1CodeIntegrity.p7b" }
@@ -170,7 +170,7 @@ ms.locfileid: "92155952"
     Add-HgsAttestationTpmPolicy -Path <Filename>.tcglog -Name '<PolicyName>'
     ```
 
-## <a name="next-step"></a>Следующий шаг
+## <a name="next-step"></a>Следующий этап
 
 > [!div class="nextstepaction"]
 > [Подтверждение аттестации](guarded-fabric-confirm-hosts-can-attest-successfully.md)

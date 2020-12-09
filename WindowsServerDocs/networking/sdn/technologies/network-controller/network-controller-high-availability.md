@@ -6,12 +6,12 @@ ms.topic: get-started-article
 ms.assetid: 334b090d-bec4-4e67-8307-13831dbdd1d8
 ms.author: anpaul
 author: AnirbanPaul
-ms.openlocfilehash: 838ce8dfc11cb08b20349f121405991fcbe00270
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: f266ac90478bb25a540ad3a3b88a5c096fe2de87
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87991341"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96866483"
 ---
 # <a name="network-controller-high-availability"></a>Высокая доступность сетевого контроллера
 
@@ -60,7 +60,7 @@ ms.locfileid: "87991341"
 
 ### <a name="persistent-storage"></a>Постоянное хранилище
 
-Приложение сетевого контроллера имеет большие требования к хранению в конфигурации и состоянии. Приложение также должно быть доступно в запланированных и незапланированных простоях. Для этой цели Service Fabric предоставляет хранилище "ключ-значение" \( КВС \) , которое является реплицируемым, транзакционным и материализованным хранилищем.
+Приложение сетевого контроллера имеет большие требования к хранению в конфигурации и состоянии. Приложение также должно быть доступно в запланированных и незапланированных простоях. Для этой цели Service Fabric предоставляет хранилище Key-Value \( КВС \) , которое является реплицируемым, транзакционным и материализованным хранилищем.
 
 ### <a name="modularity"></a>Модульность
 
@@ -78,7 +78,7 @@ Service Fabric модульности использует схемы модел
 
 ## <a name="network-controller-deployment-options"></a>Параметры развертывания сетевого контроллера
 
-Сведения о развертывании сетевого контроллера с помощью System Center Virtual Machine Manager \( VMM \) см. [в разделе Настройка сетевого контроллера Sdn в структуре VMM](/system-center/vmm/sdn-controller?view=sc-vmm-2019).
+Сведения о развертывании сетевого контроллера с помощью System Center Virtual Machine Manager \( VMM \) см. [в разделе Настройка сетевого контроллера Sdn в структуре VMM](/system-center/vmm/sdn-controller).
 
 Сведения о развертывании сетевого контроллера с помощью сценариев см. в статье [развертывание программно-определяемой сетевой инфраструктуры с помощью сценариев](../../deploy/Deploy-a-Software-Defined-Network-infrastructure-using-scripts.md).
 

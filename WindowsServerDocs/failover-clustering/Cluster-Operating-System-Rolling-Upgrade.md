@@ -6,18 +6,18 @@ author: jasongerend
 ms.author: jgerend
 manager: lizross
 ms.date: 03/27/2018
-ms.openlocfilehash: a1694bdb8af495073723a74f24b9d0e153d580b9
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: a61025f972445f37aeeece764558aab853dc90df
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87991088"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96866403"
 ---
 # <a name="cluster-operating-system-rolling-upgrade"></a>Последовательное обновление операционной системы кластера
 
 > Применяется к: Windows Server 2019, Windows Server 2016
 
-Последовательное обновление ОС кластера позволяет администратору обновить операционную систему узлов кластера без остановки Hyper-V или масштабируемый файловый сервер рабочих нагрузок. Благодаря этой функции можно избежать штрафов за простои, которые полагаются согласно соглашениям об уровне обслуживания.
+Последовательное обновление ОС кластера позволяет администратору обновить операционную систему узлов кластера, не прерывая работы Hyper-V или рабочих нагрузок файлового сервера Scale-Out. Благодаря этой функции можно избежать штрафов за простои, которые полагаются согласно соглашениям об уровне обслуживания.
 
 Последовательное обновление ОС кластера предоставляет следующие преимущества.
 
@@ -25,7 +25,7 @@ ms.locfileid: "87991088"
 - Для этого не требуется дополнительное оборудование. Несмотря на это, можно временно добавить дополнительные узлы кластера к небольшим кластерам, чтобы повысить доступность кластера во время последовательного обновления ОС кластера.
 - Кластер не нужно останавливать или перезапускать.
 - Новый кластер не требуется. Существующий кластер обновлен. Кроме того, используются существующие объекты кластера, хранящиеся в Active Directory.
-- Процесс обновления обратим до тех пор, пока клиент не выберет "точка-не возврат", когда все узлы кластера работают под управлением Windows Server 2016 и выполняется командлет PowerShell Update-Клустерфунктионаллевел.
+- Процесс обновления обратим до тех пор, пока клиент не выберет "точка-не возврат", когда все узлы кластера работают под управлением Windows Server 2016 и при выполнении командлета Update-ClusterFunctionalLevel PowerShell.
 - Кластер может поддерживать операции исправления и обслуживания при работе в смешанном режиме ОС.
 - Она поддерживает автоматизацию с помощью PowerShell и WMI.
 - Свойство общедоступного свойства **клустерфунктионаллевел** кластера указывает состояние кластера на узлах кластера Windows Server 2016. Это свойство можно запросить с помощью командлета PowerShell из узла кластера Windows Server 2016, который принадлежит к отказоустойчивому кластеру:
@@ -37,7 +37,7 @@ ms.locfileid: "87991088"
 
 В этом руководстве описываются различные этапы процесса последовательного обновления ОС кластера, шаги установки, ограничения функций и часто задаваемые вопросы, которые применимы к следующим сценариям последовательного обновления ОС кластера в Windows Server 2016:
 - Кластеры Hyper-V
-- Кластеры масштабируемый файловый сервер
+- Scale-Out кластеров файлового сервера
 
 Следующий сценарий не поддерживается в Windows Server 2016:
 -  Последовательное обновление ОС кластера для гостевых кластеров с помощью виртуального жесткого диска (VHDX-файл) в качестве общего хранилища
@@ -49,8 +49,8 @@ ms.locfileid: "87991088"
 
 - Начните с отказоустойчивого кластера под управлением Windows Server (полугодовой канал), Windows Server 2016 или Windows Server 2012 R2.
 - Обновление кластера Локальные дисковые пространства до Windows Server версии 1709 не поддерживается.
-- Если в качестве рабочей нагрузки кластера используются виртуальные машины Hyper-V или масштабируемый файловый сервер, обновление без простоя может быть отключено.
-- Убедитесь, что узлы Hyper-V имеют процессоры, поддерживающие таблицу адресации второго уровня (SLAT), используя один из следующих методов.       -Проверьте, [совместимы ли вы с SLAT? Совет по пакету SDK для WP8.1](/archive/blogs/devfish/are-you-slat-compatible-wp8-sdk-tip-01) . в статье описывается два метода проверки того, поддерживает ли ЦП SLAT. Скачайте средство [Coreinfo v 3.31](/sysinternals/downloads/coreinfo) , чтобы определить, поддерживает ли ЦП SLAT.
+- Если Рабочая нагрузка кластера — это виртуальные машины Hyper-V или Scale-Out файловый сервер, то обновление без простоя может быть нулевым.
+- Убедитесь, что узлы Hyper-V имеют процессоры, поддерживающие таблицу Second-Level адресации (SLAT), используя один из следующих методов.       -Проверьте, [совместимы ли вы с SLAT? Совет по пакету SDK для WP8.1](/archive/blogs/devfish/are-you-slat-compatible-wp8-sdk-tip-01) . в статье описывается два метода проверки того, поддерживает ли ЦП SLAT. Скачайте средство [Coreinfo v 3.31](/sysinternals/downloads/coreinfo) , чтобы определить, поддерживает ли ЦП SLAT.
 
 ## <a name="cluster-transition-states-during-cluster-os-rolling-upgrade"></a>Состояния переходов кластера во время последовательного обновления ОС кластера
 
@@ -61,7 +61,7 @@ ms.locfileid: "87991088"
 ![Иллюстрация, демонстрирующая три этапа последовательного обновления ОС кластера: все узлы Windows Server 2012 R2, смешанный режим ОС и все узлы Windows Server 2016 ](media/Cluster-Operating-System-Rolling-Upgrade/Clustering_RollingUpgrade_Overview.png)
  **рис. 1. переходы состояния операционной системы кластера**
 
-Кластер Windows Server 2012 R2 переходит в режим смешанной операционной системы при добавлении узла Windows Server 2016 в кластер. Процесс полностью обратим — узлы Windows Server 2016 могут быть удалены из кластера и узлы Windows Server 2012 R2 могут быть добавлены в кластер в этом режиме. Точка без возвращаемых данных возникает при выполнении командлета PowerShell Update-Клустерфунктионаллевел в кластере. Чтобы этот командлет был выполнен, все узлы должны быть Windows Server 2016, и все узлы должны находиться в режиме «в сети».
+Кластер Windows Server 2012 R2 переходит в режим смешанной операционной системы при добавлении узла Windows Server 2016 в кластер. Процесс полностью обратим — узлы Windows Server 2016 могут быть удалены из кластера и узлы Windows Server 2012 R2 могут быть добавлены в кластер в этом режиме. Точка без возвращаемых данных возникает при запуске командлета Update-ClusterFunctionalLevel PowerShell в кластере. Чтобы этот командлет был выполнен, все узлы должны быть Windows Server 2016, и все узлы должны находиться в режиме «в сети».
 
 ## <a name="transition-states-of-a-four-node-cluster-while-performing-rolling-os-upgrade"></a>Переход состояний кластера из четырех узлов при выполнении последовательного обновления ОС
 
@@ -77,15 +77,15 @@ ms.locfileid: "87991088"
 ![Иллюстрация, показывающая кластер в смешанном режиме: из примера кластера из 4 узлов, два узла работают под управлением Windows Server 2016 и два узла работают под управлением Windows Server 2012 R2 ](media/Cluster-Operating-System-Rolling-Upgrade/Cluster_RollingUpgrade_Stage2.png)
  **рис. 3. промежуточное состояние: смешанный режим работы: Windows Server 2012 R2 и отказоустойчивый кластер windows Server 2016 (этап 2)**
 
-На этапе 3 все узлы в кластере обновлены до Windows Server 2016, и кластер готов к обновлению с помощью командлета PowerShell Update-Клустерфунктионаллевел.
+На этапе 3 все узлы в кластере обновлены до Windows Server 2016, и кластер готов к обновлению с помощью командлета PowerShell Update-ClusterFunctionalLevel.
 
 > [!NOTE]
 > На этом этапе процесс может быть полностью реверсирован, и узлы Windows Server 2012 R2 могут быть добавлены в этот кластер.
 
-![Иллюстрация, показывающая, что кластер был полностью обновлен до Windows Server 2016 и готов к использованию командлета Update-Клустерфунктионаллевел для переноса функционального уровня кластера на Windows Server 2016 ](media/Cluster-Operating-System-Rolling-Upgrade/Cluster_RollingUpgrade_Stage3.png)
- **рис. 4: промежуточное состояние: все узлы обновлены до windows Server 2016, все готово для Update-Клустерфунктионаллевел (этап 3)** .
+![Иллюстрация, показывающая, что кластер полностью обновлен до Windows Server 2016 и готов к использованию командлета Update-ClusterFunctionalLevel для переноса функционального уровня кластера на Windows Server 2016 ](media/Cluster-Operating-System-Rolling-Upgrade/Cluster_RollingUpgrade_Stage3.png)
+ **рис. 4: промежуточное состояние: все узлы обновлены до windows Server 2016, готовы для Update-ClusterFunctionalLevel (этап 3)** .
 
-После запуска Update-Клустерфунктионаллевелкмдлет кластер переходит в этап 4, где можно использовать новые функции кластера Windows Server 2016.
+После запуска Update-ClusterFunctionalLevelcmdlet кластер переходит в "этап 4", где можно использовать новые функции кластера Windows Server 2016.
 
 ![Иллюстрация, показывающая, что обновление чередующегося обновления ОС успешно завершено; все узлы обновлены до Windows Server 2016, а кластер работает на функциональном уровне кластера Windows Server 2016 ](media/Cluster-Operating-System-Rolling-Upgrade/Cluster_RollingUpgrade_Stage4.png)
  **рис. 5. конечное состояние: Windows Server 2016 отказоустойчивый кластер (этап 4)**
@@ -101,29 +101,29 @@ ms.locfileid: "87991088"
 
 1. Подготовьте кластер для обновления операционной системы следующим образом.
     1. Последовательное обновление ОС кластера требует удаления одного узла за раз из кластера. Проверьте, достаточно ли места в кластере для поддержки соглашений об уровне обслуживания с высоким уровнем доступности, когда один из узлов кластера удаляется из кластера для обновления операционной системы. Другими словами, требуется ли возможность отработки отказа рабочих нагрузок на другом узле, когда один из узлов удаляется из кластера во время последовательного обновления ОС кластера? Имеет ли кластер возможность запуска требуемых рабочих нагрузок, когда один из узлов удаляется из кластера для последовательного обновления ОС кластера?
-    2. Для рабочих нагрузок Hyper-V убедитесь, что все узлы Windows Server 2016 Hyper-V имеют поддержку ЦП во втором уровне таблицы адресов (SLAT). Только компьютеры с поддержкой SLAT могут использовать роль Hyper-V в Windows Server 2016.
+    2. Для рабочих нагрузок Hyper-V убедитесь, что на всех узлах Windows Server 2016 Hyper-V установлена поддержка ЦП Second-Level таблица адресов (SLAT). Только компьютеры с поддержкой SLAT могут использовать роль Hyper-V в Windows Server 2016.
     3. Убедитесь, что все резервные копии рабочей нагрузки завершены, и попробуйте создать резервную копию кластера. Прерывать операции резервного копирования при добавлении узлов в кластер.
-    4. Убедитесь, что все узлы кластера находятся в сети/руннинг/УП с помощью [`Get-ClusterNode`](/powershell/module/failoverclusters/Get-ClusterNode?view=win10-ps) командлета (см. рис. 7).
+    4. Убедитесь, что все узлы кластера находятся в сети/руннинг/УП с помощью [`Get-ClusterNode`](/powershell/module/failoverclusters/Get-ClusterNode) командлета (см. рис. 7).
 
-        ![Снимке экрана, отображающий результаты выполнения командлета Get-ClusterNode ](media/Cluster-Operating-System-Rolling-Upgrade/Cluster_RollingUpgrade_GetClusterNode.png) **рис. 7. Определение состояния узла с помощью командлета Get-ClusterNode**
+        ![Снимке экрана, отображающая результаты выполнения командлета Get-ClusterNode ](media/Cluster-Operating-System-Rolling-Upgrade/Cluster_RollingUpgrade_GetClusterNode.png) **рис. 7. Определение состояния узла с помощью командлета Get-ClusterNode**
 
-    5. Если выполняется обновление с поддержкой кластера (CAU), проверьте, выполняется ли в данный момент CAU с помощью пользовательского интерфейса **обновления с поддержкой кластера** или [`Get-CauRun`](/powershell/module/clusterawareupdating/Get-CauRun?view=win10-ps) командлета (см. рис. 8). Остановите CAU с помощью [`Disable-CauClusterRole`](/powershell/module/clusterawareupdating/Disable-CauClusterRole?view=win10-ps) командлета (см. рис. 9), чтобы предотвратить приостановку и прекращение работы всех узлов в процессе последовательного обновления операционной системы кластера.
+    5. Если выполняется обновление с поддержкой кластера (CAU), проверьте, выполняется ли в данный момент CAU с помощью пользовательского интерфейса **обновления с поддержкой кластера** или [`Get-CauRun`](/powershell/module/clusterawareupdating/Get-CauRun) командлета (см. рис. 8). Остановите CAU с помощью [`Disable-CauClusterRole`](/powershell/module/clusterawareupdating/Disable-CauClusterRole) командлета (см. рис. 9), чтобы предотвратить приостановку и прекращение работы всех узлов в процессе последовательного обновления операционной системы кластера.
 
-        ![Снимке экрана, отображающая выходные данные командлета Get-Каурун ](media/Cluster-Operating-System-Rolling-Upgrade/Cluster_RollingUpgrade_GetCAU.png) **рис. 8. Использование [`Get-CauRun`](/powershell/module/clusterawareupdating/Get-CauRun?view=win10-ps) командлета для определения того, выполняются ли на кластере обновления, поддерживающие кластер.**
+        ![Снимке экрана, отображающая выходные данные командлета Get-CauRun ](media/Cluster-Operating-System-Rolling-Upgrade/Cluster_RollingUpgrade_GetCAU.png) **рис. 8. Использование [`Get-CauRun`](/powershell/module/clusterawareupdating/Get-CauRun) командлета для определения того, выполняются ли на кластере обновления, поддерживающие кластер.**
 
-        ![Снимке экрана, на которой показаны выходные данные командлета Disable-Кауклустерроле ](media/Cluster-Operating-System-Rolling-Upgrade/Cluster_RollingUpgrade_DisableCAU.png) **рис. 9. Отключение роли "обновление с учетом кластеров" с помощью [`Disable-CauClusterRole`](/powershell/module/clusterawareupdating/Disable-CauClusterRole?view=win10-ps) командлета**
+        ![Снимке экрана, отображающая выходные данные командлета Disable-CauClusterRole ](media/Cluster-Operating-System-Rolling-Upgrade/Cluster_RollingUpgrade_DisableCAU.png) **рис. 9. Отключение роли "обновление с учетом кластеров" с помощью [`Disable-CauClusterRole`](/powershell/module/clusterawareupdating/Disable-CauClusterRole) командлета**
 
 2. Для каждого узла в кластере выполните следующие действия.
-    1. С помощью пользовательского интерфейса диспетчера кластеров выберите узел и используйте **паузу | **Пункт меню "Сток" для очистки узла (см. рис. 10) или используйте [`Suspend-ClusterNode`](/powershell/module/failoverclusters/Suspend-ClusterNode?view=win10-ps) командлет (см. рис. 11).
+    1. С помощью пользовательского интерфейса диспетчера кластеров выберите узел и используйте **паузу |** Пункт меню "Сток" для очистки узла (см. рис. 10) или используйте [`Suspend-ClusterNode`](/powershell/module/failoverclusters/Suspend-ClusterNode) командлет (см. рис. 11).
 
         ![Снимке экрана, показывающий, как выполнять сток ролей с помощью пользовательского интерфейса диспетчера кластеров ](media/Cluster-Operating-System-Rolling-Upgrade/Cluster_RollingUpgrade_FCM_DrainRoles.png) **рис. 10: сток ролей из узла с использованием Диспетчер отказоустойчивости кластеров**
 
-        ![Снимке экрана, отображающая выходные данные командлета Suspend-ClusterNode ](media/Cluster-Operating-System-Rolling-Upgrade/Cluster_RollingUpgrade_SuspendNode.png) **рис. 11. сток ролей из узла с помощью [`Suspend-ClusterNode`](/powershell/module/failoverclusters/Suspend-ClusterNode?view=win10-ps) командлета**
+        ![Снимке экрана, отображающая выходные данные командлета Suspend-ClusterNode ](media/Cluster-Operating-System-Rolling-Upgrade/Cluster_RollingUpgrade_SuspendNode.png) **рис. 11. сток ролей из узла с помощью [`Suspend-ClusterNode`](/powershell/module/failoverclusters/Suspend-ClusterNode) командлета**
 
-    2.  С помощью пользовательского интерфейса диспетчера кластеров, **исключите** Приостановленный узел из кластера или используйте [`Remove-ClusterNode`](/powershell/module/failoverclusters/Remove-ClusterNode?view=win10-ps) командлет.
+    2.  С помощью пользовательского интерфейса диспетчера кластеров, **исключите** Приостановленный узел из кластера или используйте [`Remove-ClusterNode`](/powershell/module/failoverclusters/Remove-ClusterNode) командлет.
 
-        ![Снимке экрана, на которой показаны выходные данные командлета Remove-ClusterNode ](media/Cluster-Operating-System-Rolling-Upgrade/Cluster_RollingUpgrade_RemoveNode.png)
-         **рис. 12. Удаление узла из кластера с помощью [`Remove-ClusterNode`](/powershell/module/failoverclusters/Remove-ClusterNode?view=win10-ps) командлета**
+        ![Снимке экрана, отображающая выходные данные командлета Remove-ClusterNode ](media/Cluster-Operating-System-Rolling-Upgrade/Cluster_RollingUpgrade_RemoveNode.png)
+         **рис. 12. Удаление узла из кластера с помощью [`Remove-ClusterNode`](/powershell/module/failoverclusters/Remove-ClusterNode) командлета**
 
     3.  Переформатируйте системный диск и выполните чистую установку операционной системы Windows Server 2016 на узле, используя **настраиваемую установку: Установка только Windows (дополнительно)** (см. рис. 13) в setup.exe. Не устанавливайте флажок **обновление: установить Windows и не использовать файлы, параметры и приложения** , так как последовательное обновление ОС кластера не способствует обновлению на месте.
 
@@ -132,13 +132,13 @@ ms.locfileid: "87991088"
 
     4.  Добавьте узел в соответствующий домен Active Directory.
     5.  Добавьте соответствующих пользователей в группу администраторов.
-    6.  С помощью пользовательского интерфейса диспетчер сервера или командлета PowerShell Install-WindowsFeature установите все необходимые роли сервера, например Hyper-V.
+    6.  С помощью пользовательского интерфейса диспетчер сервера или командлета Install-WindowsFeature PowerShell установите все необходимые роли сервера, например Hyper-V.
 
         ```PowerShell
         Install-WindowsFeature -Name Hyper-V
         ```
 
-    7.  С помощью пользовательского интерфейса диспетчер сервера или командлета PowerShell Install-WindowsFeature установите компонент отказоустойчивой кластеризации.
+    7.  С помощью пользовательского интерфейса диспетчер сервера или командлета Install-WindowsFeature PowerShell установите компонент отказоустойчивой кластеризации.
 
         ```PowerShell
         Install-WindowsFeature -Name Failover-Clustering
@@ -159,52 +159,52 @@ ms.locfileid: "87991088"
         ![Снимке экрана, отображающее диалоговое окно выбора кластера ](media/Cluster-Operating-System-Rolling-Upgrade/Cluster_RollingUpgrade_AddNode.png)
          **рис. 15. Добавление узла в кластер с помощью Диспетчер отказоустойчивости кластеров**
 
-    13. Для добавления узла в кластер можно использовать пользовательский интерфейс диспетчер отказоустойчивости кластеров или [`Add-ClusterNode`](/powershell/module/failoverclusters/Add-ClusterNode?view=win10-ps) командлет (см. рис. 16).
+    13. Для добавления узла в кластер можно использовать пользовательский интерфейс диспетчер отказоустойчивости кластеров или [`Add-ClusterNode`](/powershell/module/failoverclusters/Add-ClusterNode) командлет (см. рис. 16).
 
-        ![Снимке экрана, на которой показаны выходные данные командлета Add-ClusterNode ](media/Cluster-Operating-System-Rolling-Upgrade/Cluster_RollingUpgrade_AddNode3.png)
-         **рис. 16. Добавление узла в кластер с помощью [`Add-ClusterNode`](/powershell/module/failoverclusters/Add-ClusterNode?view=win10-ps) командлета**
+        ![Снимке экрана, отображающая выходные данные командлета Add-ClusterNode ](media/Cluster-Operating-System-Rolling-Upgrade/Cluster_RollingUpgrade_AddNode3.png)
+         **рис. 16. Добавление узла в кластер с помощью [`Add-ClusterNode`](/powershell/module/failoverclusters/Add-ClusterNode) командлета**
 
         > [!NOTE]
         > Когда первый узел Windows Server 2016 присоединяется к кластеру, кластер переходит в режим "смешанной ОС", а ресурсы ядра кластера перемещаются на узел Windows Server 2016. Кластер в режиме "смешанная ОС" — это полностью функциональный кластер, в котором новые узлы работают в режиме совместимости со старыми узлами. Режим "смешанная ОС" является транзитным режимом для кластера. Он не должен быть постоянным, и клиенты должны обновлять все узлы своего кластера в течение четырех недель.
 
     14. После успешного добавления узла Windows Server 2016 в кластер можно (необязательно) переместить часть рабочей нагрузки кластера на вновь добавленный узел, чтобы перераспределить рабочую нагрузку в кластере следующим образом:
 
-        ![Снимке экрана, на которой показаны выходные данные командлета Move-Клустервиртуалмачинероле ](media/Cluster-Operating-System-Rolling-Upgrade/Cluster_RollingUpgrade_MoveVMRole.png)
-         **рис. 17. перемещение рабочей нагрузки кластера (роль виртуальной машины кластера) с помощью [`Move-ClusterVirtualMachineRole`](/powershell/module/failoverclusters/Move-ClusterVirtualMachineRole?view=win10-ps) командлета**
+        ![Снимке экрана, отображающая выходные данные командлета Move-ClusterVirtualMachineRole ](media/Cluster-Operating-System-Rolling-Upgrade/Cluster_RollingUpgrade_MoveVMRole.png)
+         **рис. 17. перемещение рабочей нагрузки кластера (роль виртуальной машины кластера) с помощью [`Move-ClusterVirtualMachineRole`](/powershell/module/failoverclusters/Move-ClusterVirtualMachineRole) командлета**
 
-        1. Используйте **Динамическая миграция** из Диспетчер отказоустойчивости кластеров для виртуальных машин или [`Move-ClusterVirtualMachineRole`](/powershell/module/failoverclusters/Move-ClusterVirtualMachineRole?view=win10-ps) командлета (см. рис. 17), чтобы выполнить динамическую миграцию виртуальных машин.
+        1. Используйте **Динамическая миграция** из Диспетчер отказоустойчивости кластеров для виртуальных машин или [`Move-ClusterVirtualMachineRole`](/powershell/module/failoverclusters/Move-ClusterVirtualMachineRole) командлета (см. рис. 17), чтобы выполнить динамическую миграцию виртуальных машин.
 
             ```PowerShell
             Move-ClusterVirtualMachineRole -Name VM1 -Node robhind-host3
             ```
 
-        2. Используйте **Move** из Диспетчер отказоустойчивости кластеров или [`Move-ClusterGroup`](/powershell/module/failoverclusters/Move-ClusterGroup?view=win10-ps) командлета для других рабочих нагрузок кластера.
+        2. Используйте **Move** из Диспетчер отказоустойчивости кластеров или [`Move-ClusterGroup`](/powershell/module/failoverclusters/Move-ClusterGroup) командлета для других рабочих нагрузок кластера.
 
 3. После обновления каждого узла до Windows Server 2016 и добавления обратно в кластер или при удалении оставшихся узлов Windows Server 2012 R2 выполните следующие действия.
 
     > [!IMPORTANT]
     > -   После обновления функционального уровня кластера вы не сможете вернуться на функциональный уровень Windows Server 2012 R2 и узлы Windows Server 2012 R2 нельзя добавить в кластер.
-    > -   Пока [`Update-ClusterFunctionalLevel`](/powershell/module/failoverclusters/Update-ClusterFunctionalLevel?view=win10-ps) командлет не будет запущен, процесс будет полностью обратим, а узлы Windows server 2012 R2 могут быть добавлены в этот кластер, а узлы Windows server 2016 можно будет удалить.
-    > -   После [`Update-ClusterFunctionalLevel`](/powershell/module/failoverclusters/Update-ClusterFunctionalLevel?view=win10-ps) запуска командлета будут доступны новые функции.
+    > -   Пока [`Update-ClusterFunctionalLevel`](/powershell/module/failoverclusters/Update-ClusterFunctionalLevel) командлет не будет запущен, процесс будет полностью обратим, а узлы Windows server 2012 R2 могут быть добавлены в этот кластер, а узлы Windows server 2016 можно будет удалить.
+    > -   После [`Update-ClusterFunctionalLevel`](/powershell/module/failoverclusters/Update-ClusterFunctionalLevel) запуска командлета будут доступны новые функции.
 
-    1.  С помощью пользовательского интерфейса диспетчер отказоустойчивости кластеров или [`Get-ClusterGroup`](/powershell/module/failoverclusters/Get-ClusterGroup?view=win10-ps) командлета убедитесь, что все роли кластера работают в кластере, как и ожидалось. В следующем примере Доступное хранилище не используется, вместо этого используется CSV, поэтому Доступное хранилище отображает **автономное** состояние (см. рис. 18).
+    1.  С помощью пользовательского интерфейса диспетчер отказоустойчивости кластеров или [`Get-ClusterGroup`](/powershell/module/failoverclusters/Get-ClusterGroup) командлета убедитесь, что все роли кластера работают в кластере, как и ожидалось. В следующем примере Доступное хранилище не используется, вместо этого используется CSV, поэтому Доступное хранилище отображает **автономное** состояние (см. рис. 18).
 
         ![Снимке экрана, отображающая выходные данные командлета Get-ClusterGroup ](media/Cluster-Operating-System-Rolling-Upgrade/Cluster_RollingUpgrade_GetClusterGroup.png)
-         **рис. 18. Проверка того, что все кластерные группы (роли кластера) выполняются с помощью [`Get-ClusterGroup`](/powershell/module/failoverclusters/Get-ClusterGroup?view=win10-ps) командлета.**
+         **рис. 18. Проверка того, что все кластерные группы (роли кластера) выполняются с помощью [`Get-ClusterGroup`](/powershell/module/failoverclusters/Get-ClusterGroup) командлета.**
 
-    2.  Убедитесь, что все узлы кластера находятся в сети и работают с помощью [`Get-ClusterNode`](/powershell/module/failoverclusters/Get-ClusterNode?view=win10-ps) командлета.
+    2.  Убедитесь, что все узлы кластера находятся в сети и работают с помощью [`Get-ClusterNode`](/powershell/module/failoverclusters/Get-ClusterNode) командлета.
     3.  Запустите [`Update-ClusterFunctionalLevel`](https://technet.microsoft.com/library/mt589702.aspx) командлет — ошибки не должны возвращаться (см. рис. 19).
 
-        ![Снимке экрана, отображающая выходные данные командлета Update-Клустерфунктионаллевел ](media/Cluster-Operating-System-Rolling-Upgrade/Cluster_RollingUpgrade_SelectFunctionalLevel.png)
+        ![Снимке экрана, отображающая выходные данные командлета Update-ClusterFunctionalLevel ](media/Cluster-Operating-System-Rolling-Upgrade/Cluster_RollingUpgrade_SelectFunctionalLevel.png)
          **рис. 19. обновление функционального уровня кластера с помощью PowerShell**
 
-    4.  После [`Update-ClusterFunctionalLevel`](/powershell/module/failoverclusters/Update-ClusterFunctionalLevel?view=win10-ps) запуска командлета становятся доступны новые функции.
+    4.  После [`Update-ClusterFunctionalLevel`](/powershell/module/failoverclusters/Update-ClusterFunctionalLevel) запуска командлета становятся доступны новые функции.
 
 4. Windows Server 2016 — возобновление обычных обновлений кластера и резервных копий:
 
-    1. Если вы ранее выполняли CAU, перезапустите ее с помощью пользовательского интерфейса CAU или воспользуйтесь [`Enable-CauClusterRole`](/powershell/module/clusterawareupdating/Enable-CauClusterRole?view=win10-ps) командлетом (см. рис. 20).
+    1. Если вы ранее выполняли CAU, перезапустите ее с помощью пользовательского интерфейса CAU или воспользуйтесь [`Enable-CauClusterRole`](/powershell/module/clusterawareupdating/Enable-CauClusterRole) командлетом (см. рис. 20).
 
-        ![Снимке экрана, на которой показаны выходные данные ](media/Cluster-Operating-System-Rolling-Upgrade/Cluster_RollingUpgrade_EnableCAUClusterRole.png) ** [`Enable-CauClusterRole`](/powershell/module/clusterawareupdating/Enable-CauClusterRole?view=win10-ps) командлета Enable-кауклустерроле рис. 20. Включение роли кластерного обновления**
+        ![Снимке экрана, на которой показаны выходные данные ](media/Cluster-Operating-System-Rolling-Upgrade/Cluster_RollingUpgrade_EnableCAUClusterRole.png) **[`Enable-CauClusterRole`](/powershell/module/clusterawareupdating/Enable-CauClusterRole) командлета Enable-кауклустерроле рис. 20. Включение роли кластерного обновления**
 
     2. Возобновление операций резервного копирования.
 
@@ -212,15 +212,15 @@ ms.locfileid: "87991088"
 
     1. После обновления кластера до режима работы Windows Server 2016 многие рабочие нагрузки, такие как виртуальные машины Hyper-V, будут иметь новые возможности. Список новых возможностей Hyper-V. см. статью [Миграция и обновление виртуальных машин](../virtualization/hyper-v/deploy/upgrade-virtual-machine-version-in-hyper-v-on-windows-or-windows-server.md) .
 
-    2. На каждом узле узла Hyper-V в кластере используйте [`Get-VMHostSupportedVersion`](/powershell/module/hyper-v/Get-VMHostSupportedVersion?view=win10-ps) командлет для просмотра версий конфигурации виртуальных машин Hyper-v, поддерживаемых узлом.
+    2. На каждом узле узла Hyper-V в кластере используйте [`Get-VMHostSupportedVersion`](/powershell/module/hyper-v/Get-VMHostSupportedVersion) командлет для просмотра версий конфигурации виртуальных машин Hyper-v, поддерживаемых узлом.
 
-        ![Снимке экрана, отображающая выходные данные командлета Get-Вмхостсуппортедверсион ](media/Cluster-Operating-System-Rolling-Upgrade/Clustering_GetVMHostSupportVersion.png) **рис. 21. Просмотр версий конфигурации виртуальных машин Hyper-V, поддерживаемых узлом**
+        ![Снимке экрана, на которой показаны выходные данные командлета Get-VMHostSupportedVersion ](media/Cluster-Operating-System-Rolling-Upgrade/Clustering_GetVMHostSupportVersion.png) **рис. 21. Просмотр версий конфигурации виртуальных машин Hyper-V, поддерживаемых узлом**
 
-   3. На каждом узле узла Hyper-V в кластере версии конфигурации виртуальных машин Hyper-V можно обновить, запланируя короткий период обслуживания с помощью пользователей, резервное копирование, отключение виртуальных машин и запуск [`Update-VMVersion`](/powershell/module/hyper-v/Update-VMVersion?view=win10-ps) командлета (см. рис. 22). Это приведет к обновлению версии виртуальной машины и включению новых функций Hyper-V, устраняя необходимость в будущих обновлениях компонентов интеграции Hyper-V (IC). Этот командлет можно запустить из узла Hyper-V, на котором размещена виртуальная машина, или же с помощью `-ComputerName` параметра можно удаленно обновить версию виртуальной машины. В этом примере мы обновляем версию конфигурации VM1 с 5,0 до 7,0, чтобы воспользоваться преимуществами многих новых функций Hyper-V, связанных с этой версией конфигурации виртуальной машины, такими как рабочие контрольные точки (резервные копии с постоянным приложением) и двоичный файл конфигурации виртуальной машины.
+   3. На каждом узле узла Hyper-V в кластере версии конфигурации виртуальных машин Hyper-V можно обновить, запланируя короткий период обслуживания с помощью пользователей, резервное копирование, отключение виртуальных машин и запуск [`Update-VMVersion`](/powershell/module/hyper-v/Update-VMVersion) командлета (см. рис. 22). Это приведет к обновлению версии виртуальной машины и включению новых функций Hyper-V, устраняя необходимость в будущих обновлениях компонентов интеграции Hyper-V (IC). Этот командлет можно запустить из узла Hyper-V, на котором размещена виртуальная машина, или же с помощью `-ComputerName` параметра можно удаленно обновить версию виртуальной машины. В этом примере мы обновляем версию конфигурации VM1 с 5,0 до 7,0, чтобы воспользоваться преимуществами многих новых функций Hyper-V, связанных с этой версией конфигурации виртуальной машины, такими как рабочие контрольные точки (резервные копии с постоянным приложением) и двоичный файл конфигурации виртуальной машины.
 
-       ![Снимке экрана, показывая командлет Update-VMVersion в действии ](media/Cluster-Operating-System-Rolling-Upgrade/Cluster_RollingUpgrade_StopVM.png) **рис. 22. Обновление версии виртуальной машины с помощью командлета PowerShell Update-VMVersion**
+       ![Снимке экрана. Отображение командлета Update-VMVersion в действии ](media/Cluster-Operating-System-Rolling-Upgrade/Cluster_RollingUpgrade_StopVM.png) **рис. 22. Обновление версии виртуальной машины с помощью командлета Update-VMVersion PowerShell**
 
-6. Пулы носителей можно обновить с помощью командлета PowerShell [Update-StoragePool](/powershell/module/storage/Update-StoragePool?view=win10-ps) . это операция в сети.
+6. Пулы носителей можно обновить с помощью командлета PowerShell [Update-StoragePool](/powershell/module/storage/Update-StoragePool) . это операция в сети.
 
 Хотя мы нацелены на сценарии частного облака, в частности кластеры Hyper-V и масштабируемых файловых серверов, которые могут быть обновлены без простоя, процесс последовательного обновления ОС кластера можно использовать для любой роли кластера.
 
@@ -242,8 +242,8 @@ ms.locfileid: "87991088"
 **Должны ли в кластере Windows Server 2012 R2 быть установлены все обновления программного обеспечения до начала процесса последовательного обновления ОС кластера?**
 Да, перед запуском последовательного обновления ОС кластера убедитесь, что все узлы кластера обновлены с использованием последних обновлений программного обеспечения.
 
-**Можно ли запустить [`Update-ClusterFunctionalLevel`](/powershell/module/failoverclusters/Update-ClusterFunctionalLevel?view=win10-ps) командлет, когда узлы отключены или приостановлены?**
-Нет. Чтобы командлет работал, все узлы кластера должны быть включены в активное членство [`Update-ClusterFunctionalLevel`](/powershell/module/failoverclusters/Update-ClusterFunctionalLevel?view=win10-ps) .
+**Можно ли запустить [`Update-ClusterFunctionalLevel`](/powershell/module/failoverclusters/Update-ClusterFunctionalLevel) командлет, когда узлы отключены или приостановлены?**
+Нет. Чтобы командлет работал, все узлы кластера должны быть включены в активное членство [`Update-ClusterFunctionalLevel`](/powershell/module/failoverclusters/Update-ClusterFunctionalLevel) .
 
 **Работает ли последовательное обновление ОС кластера для любой рабочей нагрузки кластера? Работает ли она для SQL Server?**
 Да, последовательное обновление ОС кластера работает для любой рабочей нагрузки кластера. Однако время простоя для кластеров Hyper-V и масштабируемых файловых серверов — только ноль. При отработке отказа большинство других рабочих нагрузок вызывают некоторое время простоя (обычно несколько минут), а отработка отказа необходима по крайней мере один раз во время последовательного обновления ОС кластера.
@@ -254,8 +254,8 @@ ms.locfileid: "87991088"
 **Можно ли одновременно обновить несколько узлов для большого кластера с дополнительной рабочей нагрузкой и емкостью отработки отказа?**
 Да. При удалении одного узла из кластера для обновления ОС кластер будет иметь один узел для отработки отказа, поэтому будет снижена емкость отработки отказа. Для больших кластеров с достаточным объемом рабочей нагрузки и отказоустойчивости можно одновременно обновить несколько узлов. Вы можете временно добавить узлы кластера в кластер, чтобы обеспечить повышенную рабочую нагрузку и отказоустойчивость в процессе последовательного обновления ОС кластера.
 
-**Что делать, если после успешного выполнения в кластере обнаружена неполадка [`Update-ClusterFunctionalLevel`](/powershell/module/failoverclusters/Update-ClusterFunctionalLevel?view=win10-ps) ?**
-Если вы выполнили резервное копирование базы данных кластера с резервной копией состояния системы перед выполнением [`Update-ClusterFunctionalLevel`](/powershell/module/failoverclusters/Update-ClusterFunctionalLevel?view=win10-ps) , вы сможете выполнить полномочное восстановление на узле кластера Windows Server 2012 R2 и восстановить исходную базу данных кластера и конфигурацию.
+**Что делать, если после успешного выполнения в кластере обнаружена неполадка [`Update-ClusterFunctionalLevel`](/powershell/module/failoverclusters/Update-ClusterFunctionalLevel) ?**
+Если вы выполнили резервное копирование базы данных кластера с резервной копией состояния системы перед выполнением [`Update-ClusterFunctionalLevel`](/powershell/module/failoverclusters/Update-ClusterFunctionalLevel) , вы сможете выполнить полномочное восстановление на узле кластера Windows Server 2012 R2 и восстановить исходную базу данных кластера и конфигурацию.
 
 **Можно ли использовать обновление на месте для каждого узла вместо использования чистой установки ОС путем переформатирования системного диска?**
 Мы не рекомендуем использовать обновление на месте Windows Server, но мы осведомлены о том, что в некоторых случаях используются драйверы по умолчанию. Внимательно прочитайте все предупреждающие сообщения, отображаемые во время обновления узла кластера на месте.

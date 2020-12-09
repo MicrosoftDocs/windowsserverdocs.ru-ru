@@ -6,12 +6,12 @@ ms.topic: article
 ms.assetid: 97abf182-4725-4026-801c-122db96964ed
 ms.author: anpaul
 author: AnirbanPaul
-ms.openlocfilehash: 43591a1cca143037e9abe555321276cb0f83263b
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 1dc52e6b2bebf66f6a80e846481ec3f1656db443
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87995512"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96866493"
 ---
 # <a name="software-load-balancing-slb-for-sdn"></a>Подсистема балансировки нагрузки программного обеспечения \( \) для Sdn
 
@@ -150,7 +150,7 @@ SLB можно использовать с компьютерами, работ�
 ### <a name="sdn-enabled-hyper-v-virtual-switch"></a>В SDN включен виртуальный коммутатор Hyper-V
 Чтобы виртуальный коммутатор был совместим с SLB, необходимо использовать диспетчер виртуальных коммутаторов Hyper-V или команды Windows PowerShell для создания коммутатора, после чего необходимо включить платформу Virtual Filtering Platform (VFP) для виртуального коммутатора.
 
-Сведения о включении VFP в виртуальных коммутаторах см. в разделе команды Windows PowerShell [Get-вмсистемсвитчекстенсион](/powershell/module/hyper-v/get-vmsystemswitchextension?view=win10-ps) и [Enable-вмсвитчекстенсион](/powershell/module/hyper-v/enable-vmswitchextension?f=255&MSPPError=-2147217396&view=win10-ps).
+Сведения о включении VFP в виртуальных коммутаторах см. в разделе команды Windows PowerShell [Get-вмсистемсвитчекстенсион](/powershell/module/hyper-v/get-vmsystemswitchextension) и [Enable-вмсвитчекстенсион](/powershell/module/hyper-v/enable-vmswitchextension?f=255&MSPPError=-2147217396).
 
 Виртуальный коммутатор с включенным SDN Hyper-V выполняет следующие действия для SLB.
 

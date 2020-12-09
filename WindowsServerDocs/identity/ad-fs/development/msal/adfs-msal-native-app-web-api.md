@@ -6,17 +6,17 @@ ms.author: billmath
 manager: daveba
 ms.date: 08/09/2019
 ms.topic: article
-ms.openlocfilehash: afe68493303ace2a9dd415964c41f8a635e3618b
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: cf293b6732a29a173050bcf90ed8cbec4e1d9ea4
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87949998"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96865783"
 ---
 # <a name="scenario-native-app-calling-web-api"></a>Сценарий: собственное приложение, вызывающее веб-API
 >Применимо к: AD FS 2019 и более поздних версий
 
-Узнайте, как создавать входные пользователи в собственном приложении, прошедшие проверку подлинности AD FS 2019 и вызвав маркеры с помощью [библиотеки MSAL](https://github.com/AzureAD/microsoft-authentication-library-for-dotnet/wiki) для вызова веб-API.
+Узнайте, как создавать входные пользователи в собственном приложении, прошедшие проверку подлинности AD FS 2019 и вызвав маркеры с помощью [библиотеки MSAL](https://github.com/AzureAD/microsoft-authentication-library-for-dotnet/wiki)  для вызова веб-API.
 
 Прежде чем читать эту статью, необходимо ознакомиться с [AD FS концепциями](../ad-fs-openid-connect-oauth-concepts.md) и [потоком предоставления кода авторизации](../../overview/ad-fs-openid-connect-oauth-flows-scenarios.md#authorization-code-grant-flow) .
 
@@ -24,7 +24,7 @@ ms.locfileid: "87949998"
 
  ![Обзор](media/adfs-msal-native-app-web-api/native1.png)
 
-В этом потоке вы добавляете проверку подлинности в собственное приложение (общедоступный клиент), что может привести к входу пользователей и вызову веб-API. Чтобы вызвать веб-API из собственного приложения, которое входит в систему пользователей, можно использовать метод получения маркера [аккуиретокенинтерактиве](/dotnet/api/microsoft.identity.client.ipublicclientapplication.acquiretokeninteractive?view=azure-dotnet#Microsoft_Identity_Client_IPublicClientApplication_AcquireTokenInteractive_System_Collections_Generic_IEnumerable_System_String__) для MSAL. Чтобы реализовать это взаимодействие, MSAL использует веб-браузер.
+В этом потоке вы добавляете проверку подлинности в собственное приложение (общедоступный клиент), что может привести к входу пользователей и вызову веб-API. Чтобы вызвать веб-API из собственного приложения, которое входит в систему пользователей, можно использовать метод получения маркера [аккуиретокенинтерактиве](/dotnet/api/microsoft.identity.client.ipublicclientapplication.acquiretokeninteractive#Microsoft_Identity_Client_IPublicClientApplication_AcquireTokenInteractive_System_Collections_Generic_IEnumerable_System_String__) для MSAL. Чтобы реализовать это взаимодействие, MSAL использует веб-браузер.
 
 Чтобы лучше понять, как настроить собственное приложение в ADFS для интерактивного получения маркера доступа, давайте будем использовать пример, доступный [здесь](https://github.com/microsoft/adfs-sample-msal-dotnet-native-to-webapi) , и пошаговые инструкции по настройке регистрации и кода приложения.
 
@@ -38,17 +38,17 @@ ms.locfileid: "87949998"
 ## <a name="app-registration-in-ad-fs"></a>Регистрация приложения в AD FS
 В этом разделе показано, как зарегистрировать собственное приложение в качестве общедоступного клиента и веб-API в качестве проверяющей стороны (RP) в AD FS
 
-  1. В **AD FS управления**щелкните правой кнопкой мыши **группы приложений** и выберите команду **Добавить группу приложений**.
+  1. В **AD FS управления** щелкните правой кнопкой мыши **группы приложений** и выберите команду **Добавить группу приложений**.
 
-  2. В мастере группы приложений в поле **имя** введите **нативеапптовебапи** и в разделе **клиент-сервер приложения** выберите **собственное приложение, осуществляющее доступ к шаблону веб-API** . Щелкните **Далее**.
+  2. В мастере группы приложений в поле **имя** введите **нативеапптовебапи** и в разделе **клиент-сервер приложения** выберите **собственное приложение, осуществляющее доступ к шаблону веб-API** . Нажмите кнопку **Далее**.
 
       ![REG приложения](media/adfs-msal-native-app-web-api/native2.png)
 
-  3. Скопируйте значение **идентификатора клиента** . Он будет использоваться позже в качестве значения **ClientID** в файле **App.config** приложения. Введите следующую команду для **URI перенаправления:** https://ToDoListClient . Нажмите кнопку **Добавить**. Щелкните **Далее**.
+  3. Скопируйте значение **идентификатора клиента** . Он будет использоваться позже в качестве значения **ClientID** в файле **App.config** приложения. Введите следующую команду для **URI перенаправления:** https://ToDoListClient . Нажмите кнопку **Добавить**. Нажмите кнопку **Далее**.
 
      ![REG приложения](media/adfs-msal-native-app-web-api/native3.png)
 
-  4. На экране Настройка веб-API введите **идентификатор:** https://localhost:44321/ . Нажмите кнопку **Добавить**. Щелкните **Далее**. Это значение будет использоваться позже в файлах **App.config** и **Web.config** приложения.
+  4. На экране Настройка веб-API введите **идентификатор:** https://localhost:44321/ . Нажмите кнопку **Добавить**. Нажмите кнопку **Далее**. Это значение будет использоваться позже в файлах **App.config** и **Web.config** приложения.
 
      ![REG приложения](media/adfs-msal-native-app-web-api/native4.png)
 
@@ -64,7 +64,7 @@ ms.locfileid: "87949998"
 
   8. На экране Завершение нажмите кнопку **Закрыть**.
 
-  9. В AD FS "Управление" щелкните **группы приложений** и выберите **нативеапптовебапи** Application Group (Группа приложений). Щелкните правой кнопкой мыши и выберите **Свойства**.
+  9. В AD FS "Управление" щелкните **группы приложений** и выберите **нативеапптовебапи**         Application Group (Группа приложений). Щелкните правой кнопкой мыши и выберите **Свойства**.
 
       ![REG приложения](media/adfs-msal-native-app-web-api/native7.png)
 
@@ -104,7 +104,7 @@ ms.locfileid: "87949998"
 
  4. Откройте файл Web.config. Измените следующие настройки:
     - IDA: идентификатор аудитории — введите значение **идентификатора** из #4 в разделе Регистрация приложения в AD FS выше.
-    - IDA: Адфсметадатаендпоинт — ввод`https://[your AD FS hostname]/federationmetadata/2007-06/federationmetadata.xml`
+    - IDA: Адфсметадатаендпоинт — ввод `https://[your AD FS hostname]/federationmetadata/2007-06/federationmetadata.xml`
 
       ![Конфигурация кода](media/adfs-msal-native-app-web-api/native13.png)
 

@@ -6,12 +6,12 @@ ms.topic: article
 ms.assetid: 161446ff-a072-4cc4-b339-00a04857ff3a
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: e999406a64e77e769ba9a6ffdc27cce109f2ef5a
-ms.sourcegitcommit: be6583ea86b47fa5ac3363b44ab0de75b571c90e
+ms.openlocfilehash: c2a63133314c0292be414a809f9efdee3e9d8aaa
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "88039657"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96866083"
 ---
 # <a name="use-dns-policy-for-intelligent-dns-responses-based-on-the-time-of-day"></a>Получение интеллектуальных ответов DNS на основе времени дня с помощью политики DNS
 
@@ -80,7 +80,7 @@ Add-DnsServerClientSubnet -Name "AmericaSubnet" -IPv4Subnet "192.0.0.0/24", "182
 Add-DnsServerClientSubnet -Name "EuropeSubnet" -IPv4Subnet "141.1.0.0/24", "151.1.0.0/24"
 ```
 
-Дополнительные сведения см. в разделе [Add-днссерверклиентсубнет](/powershell/module/dnsserver/add-dnsserverclientsubnet?view=win10-ps).
+Дополнительные сведения см. в разделе [Add-днссерверклиентсубнет](/powershell/module/dnsserver/add-dnsserverclientsubnet).
 
 #### <a name="create-the-zone-scopes"></a><a name="bkmk_zscopes"></a>Создание областей зоны
 После настройки подсетей клиента необходимо секционировать зону, трафик которой необходимо перенаправить на две разные области зоны, по одной области для каждой настроенной подсети клиента DNS.
@@ -100,12 +100,12 @@ Add-DnsServerZoneScope -ZoneName "contosogiftservices.com" -Name "SeattleZoneSco
 Add-DnsServerZoneScope -ZoneName "contosogiftservices.com" -Name "DublinZoneScope"
 ```
 
-Дополнительные сведения см. в разделе [Add-днссерверзонескопе](/powershell/module/dnsserver/add-dnsserverzonescope?view=win10-ps).
+Дополнительные сведения см. в разделе [Add-днссерверзонескопе](/powershell/module/dnsserver/add-dnsserverzonescope).
 
 #### <a name="add-records-to-the-zone-scopes"></a><a name="bkmk_records"></a>Добавление записей в области зоны
 Теперь необходимо добавить записи, представляющие узел веб-сервера, в две области зоны.
 
-Например, в **сеаттлезонескопе**запись <strong>www.contosogiftservices.com</strong> добавляется с IP-адресом 192.0.0.1, который находится в Сиэтле. Аналогичным образом в **дублинзонескопе**запись <strong>www.contosogiftservices.com</strong> добавляется с IP-адресом 141.1.0.3 в центре обработки данных.
+Например, в **сеаттлезонескопе** запись <strong>www.contosogiftservices.com</strong> добавляется с IP-адресом 192.0.0.1, который находится в Сиэтле. Аналогичным образом в **дублинзонескопе** запись <strong>www.contosogiftservices.com</strong> добавляется с IP-адресом 141.1.0.3 в центре обработки данных.
 
 Для добавления записей в области зоны можно использовать следующие команды Windows PowerShell.
 
@@ -117,7 +117,7 @@ Add-DnsServerResourceRecord -ZoneName "contosogiftservices.com" -A -Name "www" -
 
 Параметр Зонескопе не включается при добавлении записи в область по умолчанию. Это то же самое, что и добавление записей в стандартную зону DNS.
 
-Дополнительные сведения см. в разделе [Add-днссерверресаурцерекорд](/powershell/module/dnsserver/add-dnsserverresourcerecord?view=win10-ps).
+Дополнительные сведения см. в разделе [Add-днссерверресаурцерекорд](/powershell/module/dnsserver/add-dnsserverresourcerecord).
 
 #### <a name="create-the-dns-policies"></a><a name="bkmk_policies"></a>Создание политик DNS
 После создания подсетей, разделов (областей зоны) и добавления записей необходимо создать политики, соединяющие подсети и секции, чтобы при получении запроса из источника в одной из подсетей DNS-клиента ответ был получен из правильной области действия этой зоны. Для сопоставления области зоны по умолчанию не требуются никакие политики.
@@ -148,7 +148,7 @@ Add-DnsServerQueryResolutionPolicy -Name "EuropePolicy" -Action ALLOW -ClientSub
 Add-DnsServerQueryResolutionPolicy -Name "RestOfWorldPolicy" -Action ALLOW --ZoneScope "DublinZoneScope,1;SeattleZoneScope,1" -ZoneName "contosogiftservices.com" -ProcessingOrder 5
 ```
 
-Дополнительные сведения см. в разделе [Add-днссерверкуериресолутионполици](/powershell/module/dnsserver/add-dnsserverqueryresolutionpolicy?view=win10-ps).
+Дополнительные сведения см. в разделе [Add-днссерверкуериресолутионполици](/powershell/module/dnsserver/add-dnsserverqueryresolutionpolicy).
 
 Теперь на DNS-сервере настроены необходимые политики DNS для перенаправления трафика на основе географического расположения и времени суток.
 

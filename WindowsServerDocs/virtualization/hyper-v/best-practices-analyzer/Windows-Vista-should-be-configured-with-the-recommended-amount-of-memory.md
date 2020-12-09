@@ -6,12 +6,12 @@ author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: 64f4e53b-4adb-4e1d-bc48-c24f5f9d222f
 ms.date: 8/16/2016
-ms.openlocfilehash: bd9c645dd1649ad23a37fda1727bfd9678097d51
-ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
+ms.openlocfilehash: ca492081383b962f85e8c28bc9e240a9ed62acfe
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "90746169"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96866384"
 ---
 # <a name="windows-vista-should-be-configured-with-the-recommended-amount-of-memory"></a>Для Windows Vista следует настроить рекомендуемый объем памяти.
 
@@ -19,7 +19,7 @@ ms.locfileid: "90746169"
 
 Дополнительные сведения о рекомендациях и проверках см. в разделе [Анализатор соответствия рекомендациям](https://go.microsoft.com/fwlink/?LinkId=122786).
 
-|Свойство.|Подробнее|
+|Свойство|Сведения|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|
@@ -38,15 +38,15 @@ ms.locfileid: "90746169"
 
 \<list of virtual machine names>
 
-## <a name="resolution"></a>Решение
+## <a name="resolution"></a>Разрешение
 
 *Используйте диспетчер Hyper-V, чтобы увеличить объем памяти, выделенной для этой виртуальной машины, не менее 1 ГБ.*
 
 ### <a name="to-increase-the-memory-allocated-to-a-virtual-machine"></a>Увеличение памяти, выделенной для виртуальной машины
 
-1.  Откройте диспетчер Hyper-V. Нажмите кнопку **Пуск**, выберите пункт **Администрирование**и затем — **Диспетчер Hyper-V**.
+1.  Откройте диспетчер Hyper-V. Нажмите кнопку **Пуск**, выберите пункт **Администрирование** и затем — **Диспетчер Hyper-V**.
 
-2.  В области результатов в разделе **виртуальные машины**выберите виртуальную машину, которую требуется настроить. Состояние виртуальной машины должно быть указано в состоянии **Off**. Если это не так, щелкните правой кнопкой мыши виртуальную машину и выберите пункт **Завершение работы**.
+2.  В области результатов в разделе **виртуальные машины** выберите виртуальную машину, которую требуется настроить. Состояние виртуальной машины должно быть указано в состоянии **Off**. Если это не так, щелкните правой кнопкой мыши виртуальную машину и выберите пункт **Завершение работы**.
 
 3.  На панели **Действия** откройте раздел **Параметры** рядом с именем виртуальной машины.
 
@@ -66,5 +66,5 @@ ms.locfileid: "90746169"
 Set-VMMemory <MyVM> -StartupBytes 1GB
 ```
 
-## <a name="see-also"></a>См. также
-[Set-Вммемори](/powershell/module/hyper-v/set-vmmemory?view=win10-ps)
+## <a name="see-also"></a>См. также:
+[Set-Вммемори](/powershell/module/hyper-v/set-vmmemory)

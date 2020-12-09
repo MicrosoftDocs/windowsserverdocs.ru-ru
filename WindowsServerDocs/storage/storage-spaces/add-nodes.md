@@ -8,12 +8,12 @@ author: cosmosdarwin
 ms.date: 11/06/2017
 description: Добавление серверов или дисков в кластер Локальные дисковые пространства
 ms.localizationpriority: medium
-ms.openlocfilehash: b9a26d3ac982cccf4471f3a3e03bfdae55b55eed
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 8e2d032086336207b48d9d12e30c491ec27bcfc0
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87961068"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96865953"
 ---
 # <a name="adding-servers-or-drives-to-storage-spaces-direct"></a>Добавление серверов или дисков в локальные дисковые пространства
 
@@ -21,7 +21,7 @@ ms.locfileid: "87961068"
 
 В этом разделе описывается добавление серверов или дисков в локальные дисковые пространства.
 
-## <a name="adding-servers"></a><a name="adding-servers"></a>Добавление серверов
+## <a name="adding-servers"></a><a name="adding-servers"></a> Добавление серверов
 
 Добавление серверов, которое часто называют горизонтальным масштабированием, позволяет увеличить емкость, повысить производительность хранилища и улучшить эффективность хранения. Если ваше развертывание гиперконвергентное, добавление серверов также поможет увеличить объем вычислительных ресурсов для рабочих нагрузок.
 
@@ -164,7 +164,7 @@ New-Volume -FriendlyName "Sir-Mix-A-Lot" -FileSystem CSVFS_ReFS -StoragePoolFrie
 
 3. Добавьте сервер в кластер, как описано в разделе [Добавление серверов](#adding-servers). Когда новый сервер присоединяется к кластеру, он автоматически связывается (по имени) с доменом-заполнителем сбоя.
 
-## <a name="adding-drives"></a><a name="adding-drives"></a>Добавление дисков
+## <a name="adding-drives"></a><a name="adding-drives"></a> Добавление дисков
 
 Добавление дисков (также известное как вертикальное масштабирование) позволяет увеличить объем хранилища, а также повысить его производительность. При наличии доступных слотов можно добавить диски в каждый сервер, чтобы увеличить емкость хранения, не добавляя серверы. Диски для хранения кэша и основных данных можно добавлять независимо друг от друга в любое время.
 
@@ -198,7 +198,7 @@ Get-PhysicalDisk | Select SerialNumber, CanPool, CannotPoolReason
 Get-StorageJob
 ```
 
-Пул носителей можно оптимизировать вручную с помощью командлета [optimize-StoragePool](/powershell/module/storage/optimize-storagepool?view=win10-ps) . Ниже приведен пример.
+Пул носителей можно оптимизировать вручную с помощью командлета [optimize-StoragePool](/powershell/module/storage/optimize-storagepool) . Ниже приведен пример.
 
 ```powershell
 Get-StoragePool <PoolName> | Optimize-StoragePool
