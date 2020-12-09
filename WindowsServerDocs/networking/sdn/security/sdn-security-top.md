@@ -6,12 +6,12 @@ ms.topic: article
 ms.assetid: 763d11a8-4225-4d96-b56f-1ec62e256bfd
 ms.author: anpaul
 author: AnirbanPaul
-ms.openlocfilehash: 3546b48c40af7eea48fcb1f0c995d459a05201a0
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: b9adf3dafe23f920be40e62834a84a0abffb1aba
+ms.sourcegitcommit: b0c73df80d7b4ff0c332d77e0cc07f7e6e061600
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87996494"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96925574"
 ---
 # <a name="security-for-sdn"></a>Безопасность в SDN
 
@@ -31,4 +31,4 @@ ms.locfileid: "87996494"
 Этот раздел содержит следующие подразделы.
 
 - [Безопасность сетевого контроллера](nc-security.md)
-- [Управление сертификатами для программно определяемой сети](sdn-manage-certs.md)"" "
+- [Управление сертификатами для программно определяемых сетей](sdn-manage-certs.md)
