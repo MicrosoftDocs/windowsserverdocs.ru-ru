@@ -5,14 +5,14 @@ ms.topic: article
 author: heidilohr
 manager: lizross
 ms.author: helohr
-ms.date: 11/10/2020
+ms.date: 12/01/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: b5ee2f76acad471533c615ef2e5c68e7f827dbf6
-ms.sourcegitcommit: 7420c7c2ef14154f27e5bb810e774783a594b8e8
+ms.openlocfilehash: a9d10b23da6dc5fcd414bdab05afc20e15273763
+ms.sourcegitcommit: 090be8d858a830e46e1a9097afafd9c4275477b7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94497419"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96578437"
 ---
 # <a name="whats-new-in-the-windows-desktop-client"></a>Что нового в клиенте для Windows Desktop
 
@@ -24,23 +24,23 @@ ms.locfileid: "94497419"
 
 |Группа пользователей |Последняя версия  |Минимальная поддерживаемая версия |
 |-----------|----------------|--------------------------|
-|Общие     |1.2.1446        |1.2.945                   |
-|Предварительная оценка    |1.2.1520        |1.2.945                   |
+|Общие     |1.2.1524        |1.2.945                   |
+|Предварительная оценка    |1.2.1524        |1.2.945                   |
 
-## <a name="updates-for-version-121520-insider"></a>Обновления для версии 1.2.1520 (в рамках программы предварительной оценки)
+## <a name="updates-for-version-121524"></a>Обновления для версии 1.2.1524
 
-*Дата публикации: 10.11.2020*
+*Дата публикации: 01.12.2020*
 
-Скачать: [Windows (64-разрядная версия)](https://go.microsoft.com/fwlink/?linkid=2139233), [Windows (32-разрядная версия)](https://go.microsoft.com/fwlink/?linkid=2139144), [Windows (ARM64)](https://go.microsoft.com/fwlink/?linkid=2139368)
+Скачать: [Windows (64-разрядная версия)](https://go.microsoft.com/fwlink/?linkid=2139369), [Windows (32-разрядная версия)](https://go.microsoft.com/fwlink/?linkid=2139456), [Windows (ARM64)](https://go.microsoft.com/fwlink/?linkid=2139370)
 
-- Создано представление списка для удаленных приложений, чтобы длинные имена приложений были доступны для чтения.
-- Изменен значок, который появляется при наличии обновления для клиента.
+- Добавлено представление списка для удаленных ресурсов, чтобы длинные имена приложений были читабельными.
+- Добавлен значок уведомления, который появляется при наличии обновления для клиента.
 
 ## <a name="updates-for-version-121446"></a>Обновления для версии 1.2.1446
 
 *Дата публикации: 27.10.2020*
 
-Скачать: [Windows (64-разрядная версия)](https://go.microsoft.com/fwlink/?linkid=2139369), [Windows (32-разрядная версия)](https://go.microsoft.com/fwlink/?linkid=2139456), [Windows (ARM64)](https://go.microsoft.com/fwlink/?linkid=2139370)
+Скачать: [Windows (64-разрядная версия)](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4Hq7C), [Windows (32-разрядная версия)](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4HvgF), [Windows (ARM64)](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4Ho64)
 
 - Добавлена функция автоматического обновления, которая позволяет клиенту автоматически устанавливать последние обновления.
 - Теперь клиент различает разные веб-каналы в центре подключений.
@@ -51,8 +51,6 @@ ms.locfileid: "94497419"
 ## <a name="updates-for-version-121364"></a>Обновления для версии 1.2.1364
 
 *Дата публикации: 22.09.2020*
-
-Скачать: [Windows (64-разрядная версия)](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4FTMK), [Windows (32-разрядная версия)](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4G1t9), [Windows (ARM64)](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4FTMI)
 
 - Исправлена ошибка, из-за которой единый вход не работал в Windows 7.
 - Исправлена ошибка подключения, которая возникла при вызове или присоединении к звонку Teams, в то время как другое приложение открывает аудиопоток в монопольном режиме, и при включении для команд оптимизации мультимедиа.

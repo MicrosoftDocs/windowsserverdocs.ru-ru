@@ -5,14 +5,14 @@ ms.topic: article
 author: heidilohr
 manager: lizross
 ms.author: helohr
-ms.date: 09/16/2019
+ms.date: 12/02/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: 12e2535092b2842cf23fcc573b417f7520e99504
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: fe553c03e85f3cb68f76b1a8d27e1da93bf9d9a3
+ms.sourcegitcommit: dce404a0a4500a693e294e0431c93f0ae90f8b13
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87961838"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96563784"
 ---
 # <a name="windows-desktop-client-for-admins"></a>Клиент рабочего стола Windows для администраторов
 
@@ -42,12 +42,14 @@ msiexec.exe /i `<path to the MSI>` /qn ALLUSERS=2 MSIINSTALLPERUSER=1
 
 ### <a name="configure-update-notifications"></a>Настройка уведомлений об обновлении
 
-По умолчанию клиент уведомляет вас о наличии обновления. Чтобы отключить эти уведомления, задайте следующие данные реестра.
+По умолчанию клиент уведомляет вас о наличии обновления. После закрытия клиента и при отсутствии активных соединений обновление устанавливается автоматически. Даже если нет активных подключений, процесс msrdc.exe продолжает выполняться в фоновом режиме, чтобы вы могли быстро подключиться при повторном открытии клиента. Чтобы завершить процесс msrdc.exe, щелкните правой кнопкой мыши значок Виртуального рабочего стола Windows в области уведомлений и выберите в раскрывающемся меню пункт **Отключение от всех сеансов**.
+
+Чтобы отключить эти уведомления, задайте следующие данные реестра.
 
 - **Раздел:** HKLM\Software\Microsoft\MSRDC\Policies
 - **Тип:** REG_DWORD
 - **Имя:** AutomaticUpdates
-- **Данные:** 0 — отключение уведомлений. 1 — отображение уведомлений.
+- **Данные:** 0 — отключение уведомлений. 1 — отображение уведомлений. 2 — отображение уведомлений и автоматическая установка обновлений после закрытия клиента.
 
 ### <a name="configure-user-groups"></a>Настройка групп пользователей
 
