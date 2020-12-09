@@ -5,12 +5,12 @@ ms.author: billmath
 manager: mtillman
 ms.date: 05/05/2020
 ms.topic: article
-ms.openlocfilehash: c70c117716f5e60a75182a7529a39daa46c796b1
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: ece40ea47c78c1d45cf55ff9daec551d940276e1
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87942929"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96865153"
 ---
 # <a name="build-plug-ins-with-ad-fs-2019-risk-assessment-model"></a>Создание подключаемых модулей с помощью модели оценки риска AD FS за 2019 г.
 
@@ -82,24 +82,24 @@ ms.locfileid: "87942929"
    c.    Нажмите кнопку **ОК** в окне " **Диспетчер ссылок** ", убедившись в том, что `Microsoft.IdentityServer.dll` флажок установлен.</br>
    ![model](media/ad-fs-risk-assessment-model/risk5.png)
 
-6. Все классы и ссылки теперь используются для создания сборки.   Однако, поскольку выходные данные этого проекта являются библиотекой DLL, ее необходимо установить в **глобальный кэш сборок**или глобальном кэше сборок (GAC) сервера AD FS, а библиотека DLL должна быть подписана первой. Это можно сделать следующим образом.
+6. Все классы и ссылки теперь используются для создания сборки.   Однако, поскольку выходные данные этого проекта являются библиотекой DLL, ее необходимо установить в **глобальный кэш сборок** или глобальном кэше сборок (GAC) сервера AD FS, а библиотека DLL должна быть подписана первой. Это можно сделать следующим образом.
 
    а.    Щелкните **правой кнопкой мыши** имя проекта среатдетектионмодуле. В меню выберите пункт **Свойства**.</br>
    ![model](media/ad-fs-risk-assessment-model/risk6.png)
 
-   b.    На странице **Свойства** щелкните **подпись**слева и установите флажок **подписать сборку**. В раскрывающемся меню **выберите файл ключа строгого имени**: выберите **<создать... >**</br>
+   b.    На странице **Свойства** щелкните **подпись** слева и установите флажок **подписать сборку**. В раскрывающемся меню **выберите файл ключа строгого имени**: выберите **<создать... >**</br>
    ![model](media/ad-fs-risk-assessment-model/risk7.png)
 
-   c.    В **диалоговом окне Создание ключа строгого имени**введите имя для ключа (можно выбрать любое имя), снимите флажок **защитить файл ключа паролем**. Затем нажмите кнопку **ОК**.</br>
+   c.    В **диалоговом окне Создание ключа строгого имени** введите имя для ключа (можно выбрать любое имя), снимите флажок **защитить файл ключа паролем**. Затем нажмите кнопку **ОК**.</br>
    ![model](media/ad-fs-risk-assessment-model/risk8.png)
 
-   d.    Сохраните проект, как показано ниже.</br>
+   г.    Сохраните проект, как показано ниже.</br>
    ![model](media/ad-fs-risk-assessment-model/risk9.png)
 
 7. Выполните сборку проекта, щелкнув **Сборка** , а затем **Перестроить решение** , как показано ниже.</br>
    ![model](media/ad-fs-risk-assessment-model/risk10.png)
 
-   Проверьте **окно вывода**в нижней части экрана, чтобы узнать, произошли ли ошибки.</br>
+   Проверьте **окно вывода** в нижней части экрана, чтобы узнать, произошли ли ошибки.</br>
    ![model](media/ad-fs-risk-assessment-model/risk11.png)
 
 
@@ -188,7 +188,7 @@ ms.locfileid: "87942929"
 Откройте проект `ThreatDetectionModule.sln` с помощью Visual Studio, а затем откройте основной файл **UserRiskAnalyzer.CS** в **обозревателе решений** в правой части экрана.</br>
 ![model](media/ad-fs-risk-assessment-model/risk17.png)
 
-Файл содержит класс main Усеррисканализер, который реализует абстрактный класс [среатдетектионмодуле](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.threatdetectionmodule?view=adfs-2019) и интерфейс [ирекуестрецеиведсреатдетектионмодуле](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.irequestreceivedthreatdetectionmodule?view=adfs-2019) для считывания IP-адреса из контекста запроса, сравнения полученного IP-адреса с IP-адресами, загруженными из AD FS DB, и блокировки запроса при совпадении IP-адресов. Давайте рассмотрим эти типы более подробно.
+Файл содержит класс main Усеррисканализер, который реализует абстрактный класс [среатдетектионмодуле](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.threatdetectionmodule) и интерфейс [ирекуестрецеиведсреатдетектионмодуле](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.irequestreceivedthreatdetectionmodule) для считывания IP-адреса из контекста запроса, сравнения полученного IP-адреса с IP-адресами, загруженными из AD FS DB, и блокировки запроса при совпадении IP-адресов. Давайте рассмотрим эти типы более подробно.
 
 ### <a name="threatdetectionmodule-abstract-class"></a>Абстрактный класс Среатдетектионмодуле
 
@@ -211,18 +211,18 @@ public abstract class ThreatDetectionModule
 
 |Метод |Тип|Определение|
 |-----|-----|-----|
-|[онаусентикатионпипелинелоад](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.threatdetectionmodule.onauthenticationpipelineload?view=adfs-2019) |Void|Вызывается с помощью AD FS при загрузке подключаемого модуля в конвейер|
-|[онаусентикатионпипелинеунлоад](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.threatdetectionmodule.onauthenticationpipelineunload?view=adfs-2019) |Void|Вызывается AD FS при выгрузке подключаемого модуля из конвейера|
-|[онконфигуратионупдате](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.threatdetectionmodule.onconfigurationupdate?view=adfs-2019)| Void|Вызывается с помощью AD FS при обновлении конфигурации |
+|[онаусентикатионпипелинелоад](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.threatdetectionmodule.onauthenticationpipelineload) |Void|Вызывается с помощью AD FS при загрузке подключаемого модуля в конвейер|
+|[онаусентикатионпипелинеунлоад](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.threatdetectionmodule.onauthenticationpipelineunload) |Void|Вызывается AD FS при выгрузке подключаемого модуля из конвейера|
+|[онконфигуратионупдате](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.threatdetectionmodule.onconfigurationupdate)| Void|Вызывается с помощью AD FS при обновлении конфигурации |
 |**Property** |**Type** |**Определение**|
-|[ИмяПоставщика](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.threatdetectionmodule.vendorname?view=adfs-2019)|Строка |Возвращает имя поставщика, владеющего подключаемым модулем.|
-|[модулеидентифиер](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.threatdetectionmodule.moduleidentifier?view=adfs-2019)|Строка |Возвращает идентификатор подключаемого модуля.|
+|[ИмяПоставщика](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.threatdetectionmodule.vendorname)|Строка |Возвращает имя поставщика, владеющего подключаемым модулем.|
+|[модулеидентифиер](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.threatdetectionmodule.moduleidentifier)|Строка |Возвращает идентификатор подключаемого модуля.|
 
-В нашем примере подключаемого модуля мы используем методы [онаусентикатионпипелинелоад](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.threatdetectionmodule.onauthenticationpipelineload?view=adfs-2019) и [онконфигуратионупдате](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.threatdetectionmodule.onconfigurationupdate?view=adfs-2019) для чтения предварительно определенных ip-адресов из AD FS DB. [Онаусентикатионпипелинелоад](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.threatdetectionmodule.onauthenticationpipelineload?view=adfs-2019) вызывается, когда подключаемый модуль регистрируется в AD FS во время вызова [онконфигуратионупдате](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.threatdetectionmodule.onconfigurationupdate?view=adfs-2019) при импорте CSV-файла с помощью `Import-AdfsThreatDetectionModuleConfiguration` командлета.
+В нашем примере подключаемого модуля мы используем методы [онаусентикатионпипелинелоад](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.threatdetectionmodule.onauthenticationpipelineload) и [онконфигуратионупдате](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.threatdetectionmodule.onconfigurationupdate) для чтения предварительно определенных ip-адресов из AD FS DB. [Онаусентикатионпипелинелоад](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.threatdetectionmodule.onauthenticationpipelineload) вызывается, когда подключаемый модуль регистрируется в AD FS во время вызова [онконфигуратионупдате](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.threatdetectionmodule.onconfigurationupdate) при импорте CSV-файла с помощью `Import-AdfsThreatDetectionModuleConfiguration` командлета.
 
 #### <a name="irequestreceivedthreatdetectionmodule-interface"></a>Интерфейс Ирекуестрецеиведсреатдетектионмодуле
 
-Этот [интерфейс](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.irequestreceivedthreatdetectionmodule?view=adfs-2019) позволяет реализовать оценку рисков в точке, где AD FS получает запрос на проверку подлинности, но до того, как пользователь введет учетные данные, т. е. на этапе получения запроса проверки подлинности.
+Этот [интерфейс](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.irequestreceivedthreatdetectionmodule) позволяет реализовать оценку рисков в точке, где AD FS получает запрос на проверку подлинности, но до того, как пользователь введет учетные данные, т. е. на этапе получения запроса проверки подлинности.
 
 ```
 public interface IRequestReceivedThreatDetectionModule
@@ -233,20 +233,20 @@ RequestContext requestContext );
 }
 ```
 
-Интерфейс включает метод [евалуатерекуест](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.irequestreceivedthreatdetectionmodule.evaluaterequest?view=adfs-2019) , который позволяет использовать контекст запроса проверки подлинности, переданный в входном параметре RequestContext, для записи логики оценки рисков. Параметр requestContext имеет тип [RequestContext](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.requestcontext?view=adfs-2019).
+Интерфейс включает метод [евалуатерекуест](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.irequestreceivedthreatdetectionmodule.evaluaterequest) , который позволяет использовать контекст запроса проверки подлинности, переданный в входном параметре RequestContext, для записи логики оценки рисков. Параметр requestContext имеет тип [RequestContext](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.requestcontext).
 
-Переданный входной параметр — это средство ведения журнала, которое имеет тип [среатдетектионлогжер](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.threatdetectionlogger?view=adfs-2019). Параметр можно использовать для записи ошибок, аудита и/или отладки сообщений в AD FS журналов.
+Переданный входной параметр — это средство ведения журнала, которое имеет тип [среатдетектионлогжер](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.threatdetectionlogger). Параметр можно использовать для записи ошибок, аудита и/или отладки сообщений в AD FS журналов.
 
-Метод возвращает [сроттлестатус](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.throttlestatus?view=adfs-2019) (0, если нотевалуатед, 1 to Block и 2 для разрешения), чтобы AD FS, который затем либо блокирует, либо разрешает запрос.
+Метод возвращает [сроттлестатус](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.throttlestatus) (0, если нотевалуатед, 1 to Block и 2 для разрешения), чтобы AD FS, который затем либо блокирует, либо разрешает запрос.
 
-В нашем примере подключаемого модуля реализация метода [евалуатерекуест](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.irequestreceivedthreatdetectionmodule.evaluaterequest?view=adfs-2019) анализирует [ClientIpAddress](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.requestcontext.clientipaddresses?view=adfs-2019#Microsoft_IdentityServer_Public_ThreatDetectionFramework_RequestContext_ClientIpAddresses) из параметра [RequestContext](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.requestcontext?view=adfs-2019) и сравнивает его со всеми IP-адресами, загруженными из AD FS DB. Если совпадение найдено, метод возвращает 2 для **Block**, в противном случае возвращает 1 для **allow**. В зависимости от возвращаемого значения AD FS либо блокирует, либо разрешает запрос.
+В нашем примере подключаемого модуля реализация метода [евалуатерекуест](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.irequestreceivedthreatdetectionmodule.evaluaterequest) анализирует [ClientIpAddress](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.requestcontext.clientipaddresses#Microsoft_IdentityServer_Public_ThreatDetectionFramework_RequestContext_ClientIpAddresses) из параметра [RequestContext](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.requestcontext) и сравнивает его со всеми IP-адресами, загруженными из AD FS DB. Если совпадение найдено, метод возвращает 2 для **Block**, в противном случае возвращает 1 для **allow**. В зависимости от возвращаемого значения AD FS либо блокирует, либо разрешает запрос.
 
 >[!NOTE]
 >Пример подключаемого модуля, описанный выше, реализует только интерфейс Ирекуестрецеиведсреатдетектионмодуле. Однако модель оценки рисков предоставляет два дополнительных интерфейса — Ипреаусентикатионсреатдетектионмодуле (для реализации логики оценки рисков процессе до этапа предварительной проверки подлинности) и Ипостаусентикатионсреатдетектионмодуле (для реализации логики оценки рисков на этапе последующей проверки подлинности). Ниже приведены подробные сведения о двух интерфейсах.
 
 #### <a name="ipreauthenticationthreatdetectionmodule-interface"></a>Интерфейс Ипреаусентикатионсреатдетектионмодуле
 
-Этот [интерфейс](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.ipreauthenticationthreatdetectionmodule?view=adfs-2019) позволяет реализовать логику оценки рисков в том месте, где пользователь предоставляет учетные данные, но до того, как AD FS оценивает их, т. е. этап предварительной проверки подлинности.
+Этот [интерфейс](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.ipreauthenticationthreatdetectionmodule) позволяет реализовать логику оценки рисков в том месте, где пользователь предоставляет учетные данные, но до того, как AD FS оценивает их, т. е. этап предварительной проверки подлинности.
 
 ```
 public interface IPreAuthenticationThreatDetectionModule
@@ -260,18 +260,18 @@ IList<Claim> additionalClams
 );
 }
 ```
-Интерфейс включает метод [евалуатепреаусентикатион](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.ipreauthenticationthreatdetectionmodule.evaluatepreauthentication?view=adfs-2019) , который позволяет использовать данные, передаваемые в входных параметрах [RequestContext RequestContext](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.requestcontext?view=adfs-2019), [SecurityContext SecurityContext](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.securitycontext?view=adfs-2019), [протоколконтекст протоколконтекст](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.protocolcontext?view=adfs-2019)и [IList <Claim> аддитионалкламс](/dotnet/api/system.collections.generic.ilist-1?view=netframework-4.7.2) , для написания логики оценки риска предварительной проверки подлинности.
+Интерфейс включает метод [евалуатепреаусентикатион](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.ipreauthenticationthreatdetectionmodule.evaluatepreauthentication) , который позволяет использовать данные, передаваемые в входных параметрах [RequestContext RequestContext](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.requestcontext), [SecurityContext SecurityContext](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.securitycontext), [протоколконтекст протоколконтекст](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.protocolcontext)и [IList <Claim> аддитионалкламс](/dotnet/api/system.collections.generic.ilist-1?view=netframework-4.7.2) , для написания логики оценки риска предварительной проверки подлинности.
 
 >[!NOTE]
->Список свойств, переданных с каждым типом контекста, см. в определениях классов [RequestContext](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.requestcontext?view=adfs-2019), [SecurityContext](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.securitycontext?view=adfs-2019)и [протоколконтекст](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.protocolcontext?view=adfs-2019) .
+>Список свойств, переданных с каждым типом контекста, см. в определениях классов [RequestContext](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.requestcontext), [SecurityContext](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.securitycontext)и [протоколконтекст](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.protocolcontext) .
 
-Переданный входной параметр — это средство ведения журнала, которое имеет тип [среатдетектионлогжер](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.threatdetectionlogger?view=adfs-2019). Параметр можно использовать для записи ошибок, аудита и/или отладки сообщений в AD FS журналов.
+Переданный входной параметр — это средство ведения журнала, которое имеет тип [среатдетектионлогжер](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.threatdetectionlogger). Параметр можно использовать для записи ошибок, аудита и/или отладки сообщений в AD FS журналов.
 
-Метод возвращает [сроттлестатус](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.throttlestatus?view=adfs-2019) (0, если нотевалуатед, 1 to Block и 2 для разрешения), чтобы AD FS, который затем либо блокирует, либо разрешает запрос.
+Метод возвращает [сроттлестатус](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.throttlestatus) (0, если нотевалуатед, 1 to Block и 2 для разрешения), чтобы AD FS, который затем либо блокирует, либо разрешает запрос.
 
 #### <a name="ipostauthenticationthreatdetectionmodule-interface"></a>Интерфейс Ипостаусентикатионсреатдетектионмодуле
 
-Этот [интерфейс](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.ipostauthenticationthreatdetectionmodule?view=adfs-2019) позволяет реализовать логику оценки рисков после того, как пользователь предоставил учетные данные, а AD FS выполнил проверку подлинности, т. е. этап последующей проверки подлинности.
+Этот [интерфейс](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.ipostauthenticationthreatdetectionmodule) позволяет реализовать логику оценки рисков после того, как пользователь предоставил учетные данные, а AD FS выполнил проверку подлинности, т. е. этап последующей проверки подлинности.
 
 ```
 public interface IPostAuthenticationThreatDetectionModule
@@ -287,17 +287,17 @@ IList<Claim> additionalClams
 }
 ```
 
-Интерфейс включает метод [евалуатепостаусентикатион](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.ipostauthenticationthreatdetectionmodule.evaluatepostauthentication?view=adfs-2019) , который позволяет использовать данные, передаваемые в входных параметрах [RequestContext RequestContext](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.requestcontext?view=adfs-2019), [SecurityContext SecurityContext](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.securitycontext?view=adfs-2019), [протоколконтекст протоколконтекст](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.protocolcontext?view=adfs-2019)и [IList <Claim> аддитионалкламс](/dotnet/api/system.collections.generic.ilist-1?view=netframework-4.7.2) , для написания логики оценки риска после проверки подлинности.
+Интерфейс включает метод [евалуатепостаусентикатион](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.ipostauthenticationthreatdetectionmodule.evaluatepostauthentication) , который позволяет использовать данные, передаваемые в входных параметрах [RequestContext RequestContext](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.requestcontext), [SecurityContext SecurityContext](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.securitycontext), [протоколконтекст протоколконтекст](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.protocolcontext)и [IList <Claim> аддитионалкламс](/dotnet/api/system.collections.generic.ilist-1?view=netframework-4.7.2) , для написания логики оценки риска после проверки подлинности.
 
 >[!NOTE]
-> Полный список свойств, передаваемых с каждым типом контекста, см. в разделе определения классов [RequestContext](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.requestcontext?view=adfs-2019), [SecurityContext](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.securitycontext?view=adfs-2019)и [протоколконтекст](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.protocolcontext?view=adfs-2019) .
+> Полный список свойств, передаваемых с каждым типом контекста, см. в разделе определения классов [RequestContext](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.requestcontext), [SecurityContext](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.securitycontext)и [протоколконтекст](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.protocolcontext) .
 
-Переданный входной параметр — это средство ведения журнала, которое имеет тип [среатдетектионлогжер](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.threatdetectionlogger?view=adfs-2019). Параметр можно использовать для записи ошибок, аудита и/или отладки сообщений в AD FS журналов.
+Переданный входной параметр — это средство ведения журнала, которое имеет тип [среатдетектионлогжер](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.threatdetectionlogger). Параметр можно использовать для записи ошибок, аудита и/или отладки сообщений в AD FS журналов.
 
-Метод возвращает [оценку риска](/dotnet/api/microsoft.identityserver.authentication.riskscoreconstants?view=adfs-2019) , которую можно использовать в правилах политики AD FS и утверждений.
+Метод возвращает [оценку риска](/dotnet/api/microsoft.identityserver.authentication.riskscoreconstants) , которую можно использовать в правилах политики AD FS и утверждений.
 
 >[!NOTE]
->Для работы подключаемого модуля в основном классе (в данном случае Усеррисканализер) должен быть производный абстрактный класс [среатдетектионмодуле](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.threatdetectionmodule?view=adfs-2019) , который должен реализовывать по крайней мере один из трех описанных выше интерфейсов. После регистрации библиотеки DLL AD FS проверяет, какие интерфейсы реализуются и вызывают их на соответствующем этапе в конвейере.
+>Для работы подключаемого модуля в основном классе (в данном случае Усеррисканализер) должен быть производный абстрактный класс [среатдетектионмодуле](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.threatdetectionmodule) , который должен реализовывать по крайней мере один из трех описанных выше интерфейсов. После регистрации библиотеки DLL AD FS проверяет, какие интерфейсы реализуются и вызывают их на соответствующем этапе в конвейере.
 
 ### <a name="faqs"></a>Часто задаваемые вопросы
 
@@ -316,6 +316,6 @@ IList<Claim> additionalClams
 **Какие другие примеры подключаемых модулей доступны?**</br>
 Ответ **.** Доступны следующие примеры подключаемых модулей:
 
-|name|Описание|
+|Название|Описание:|
 |-----|-----|
 |[Подключаемый модуль рискованных пользователей](https://github.com/microsoft/adfs-sample-block-user-on-adfs-marked-risky-by-AzureAD-IdentityProtection)|Пример подключаемого модуля, который блокирует проверку подлинности или применяет MFA на основе уровня риска пользователя, определенного защита идентификации Azure AD.|

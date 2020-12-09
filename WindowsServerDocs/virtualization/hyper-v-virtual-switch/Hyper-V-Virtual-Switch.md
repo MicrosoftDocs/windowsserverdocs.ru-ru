@@ -6,12 +6,12 @@ ms.topic: article
 ms.assetid: 398440ac-5988-41ce-b91e-eab343a255d3
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 1e2db53f28ff5262778b36b8a5cb91e6062ca9c0
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 296369e50c4bd58f5e6db980e8caede055016420
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87995711"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96865113"
 ---
 # <a name="hyper-v-virtual-switch"></a>Виртуальный коммутатор Hyper-V
 
@@ -26,7 +26,7 @@ ms.locfileid: "87995711"
 >
 > - [Управление виртуальным коммутатором Hyper-V](Manage-Hyper-V-Virtual-Switch.md)
 > - [Удаленный доступ к памяти (RDMA) и объединение внедренных коммутаторов](RDMA-and-Switch-Embedded-Teaming.md)
-> - [Командлеты группы сетевых коммутаторов в Windows PowerShell](/powershell/module/netswitchteam/new-netswitchteam?view=win10-ps)
+> - [Командлеты группы сетевых коммутаторов в Windows PowerShell](/powershell/module/netswitchteam/new-netswitchteam)
 > - [Новые возможности VMM 2016](/system-center/vmm/whats-new#networking)
 > - [Настройка структуры сети VMM](/system-center/vmm/manage-networks)
 > - [Форум по Hyper-V](/answers/topics/windows-server-hyper-v.html)

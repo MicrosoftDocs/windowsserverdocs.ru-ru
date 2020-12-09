@@ -7,12 +7,12 @@ ms.assetid: acaa46b7-09b1-4707-9562-116df8db17eb
 ms.author: lizross
 author: eross-msft
 ms.date: 05/23/2018
-ms.openlocfilehash: 7ea0c7fab5ef605ae4cb92c01a235154e7e8f9b3
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 9e8dfd54fc919fa857ad360eb86baf47f8c3e274
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87939875"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96865213"
 ---
 # <a name="ras-gateway"></a>Шлюз RAS-сервера
 
@@ -122,9 +122,9 @@ ms.locfileid: "87939875"
 ## <a name="ras-gateway-management-tools"></a><a name="bkmk_manage"></a>Средства управления шлюзами RAS
 Ниже перечислены средства управления для шлюза RAS.
 
--   В Windows Server 2016 для развертывания маршрутизатора шлюза RAS необходимо использовать команды Windows PowerShell. Дополнительные сведения см. в разделе [Командлеты удаленного доступа](/powershell/module/remoteaccess) для windows Server 2016 и Windows 10.
+-   В Windows Server 2016 для развертывания маршрутизатора шлюза RAS необходимо использовать команды Windows PowerShell. Дополнительные сведения см. в разделе  [Командлеты удаленного доступа](/powershell/module/remoteaccess) для windows Server 2016 и Windows 10.
 
--   В System Center 2012 R2 Virtual Machine Manager (VMM) шлюз RAS называется шлюзом Windows Server. В программном интерфейсе VMM доступен ограниченный набор параметров конфигурации протокол BGP (BGP), включая **локальный IP-адрес BGP** и **номера автономных систем (ASN)**, **список одноранговых IP-адресов BGP**и **значения ASN**. Тем не менее вы можете использовать команды удаленного доступа Windows PowerShell для BGP, чтобы настроить все остальные функции шлюза Windows Server. Дополнительные сведения см. в разделе [Virtual Machine Manager (VMM)](/system-center/vmm/overview?view=sc-vmm-2019) и [Командлеты удаленного доступа](/system-center/vmm/overview?view=sc-vmm-2019) для Windows Server 2016 и Windows 10.
+-   В System Center 2012 R2 Virtual Machine Manager (VMM) шлюз RAS называется шлюзом Windows Server. В программном интерфейсе VMM доступен ограниченный набор параметров конфигурации протокол BGP (BGP), включая **локальный IP-адрес BGP** и **номера автономных систем (ASN)**, **список одноранговых IP-адресов BGP** и **значения ASN**. Тем не менее вы можете использовать команды удаленного доступа Windows PowerShell для BGP, чтобы настроить все остальные функции шлюза Windows Server. Дополнительные сведения см. в разделе  [Virtual Machine Manager (VMM)](/system-center/vmm/overview) и [Командлеты удаленного доступа](/system-center/vmm/overview) для Windows Server 2016 и Windows 10.
 
 ## <a name="related-topics"></a>Связанные темы
 - [Высокий уровень доступности шлюза RAS](../../../networking/sdn/technologies/network-function-virtualization/RAS-Gateway-High-Availability.md)

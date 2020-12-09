@@ -8,12 +8,12 @@ ms.date: 07/24/2020
 ms.assetid: 8bd0d09a-0421-40a4-b752-40ecb5350ffd
 description: Общие сведения о Локальные дисковые пространства, компоненте Windows Server и Azure Stack ХЦИ, который позволяет выполнять кластерные серверы с внутренним хранилищем в аппаратно-определенном решении для хранения.
 ms.localizationpriority: medium
-ms.openlocfilehash: 2a6839ddfd6015707f79a7e8f3036be4bc893b2e
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 726bb42c2f652bf6cd6165adb0afed0237040aaf
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87970131"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96864873"
 ---
 # <a name="storage-spaces-direct-overview"></a>Обзор локальных дисковых пространств
 
@@ -116,12 +116,12 @@ ms.locfileid: "87970131"
 
 Для управления и (или) мониторинга Локальные дисковые пространства можно использовать следующие средства.
 
-| name | Графический или Командная строка? | Оплачивается или включается? |
+| Название | Графический или Командная строка? | Оплачивается или включается? |
 |-----------------|----------------------------|-------------------|
 | [Windows Admin Center](../../manage/windows-admin-center/overview.md);     | Графический    | Включено |
 | Диспетчер сервера & диспетчер отказоустойчивости кластеров                                 | Графический    | Включено |
 | Windows PowerShell                                                        | Командная строка | Включено |
-| [System Center Virtual Machine Manager (SCVMM)](/system-center/vmm/s2d?view=sc-vmm-2019) <br>& [Operations Manager (SCOM)](https://www.microsoft.com/download/details.aspx?id=54700) | Графический    | Платный     |
+| [System Center Virtual Machine Manager (SCVMM)](/system-center/vmm/s2d) <br>& [Operations Manager (SCOM)](https://www.microsoft.com/download/details.aspx?id=54700) | Графический    | Платный     |
 
 ## <a name="get-started"></a>Начало работы
 

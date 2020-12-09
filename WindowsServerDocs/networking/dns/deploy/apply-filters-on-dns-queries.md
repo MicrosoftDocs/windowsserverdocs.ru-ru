@@ -6,12 +6,12 @@ ms.topic: article
 ms.assetid: b86beeac-b0bb-4373-b462-ad6fa6cbedfa
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 79e0a0c0e99c49fc251d8aebc3fc76e68603e45c
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 4f309a304e4457b27eec0ae41d581c5a7bf9bd50
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87996920"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96865343"
 ---
 # <a name="use-dns-policy-for-applying-filters-on-dns-queries"></a>Использование политики DNS для применения фильтров к запросам DNS
 
@@ -25,10 +25,10 @@ ms.locfileid: "87996920"
 
 Еще один пример — создание списка разрешений фильтра запросов, который позволяет только определенному набору клиентов разрешать определенные имена.
 
-## <a name="query-filter-criteria"></a><a name="bkmk_criteria"></a>Условия фильтра запросов
+## <a name="query-filter-criteria"></a><a name="bkmk_criteria"></a> Условия фильтра запросов
 Фильтры запросов можно создавать с помощью любых логических сочетаний (и/или/или не) следующих критериев.
 
-|name|Описание|
+|Название|Описание:|
 |-----------------|---------------------|
 |Подсеть клиента|Имя предопределенной клиентской подсети. Используется для проверки подсети, из которой был отправлен запрос.|
 |Транспортный протокол|Транспортный протокол, используемый в запросе. Возможные значения: UDP и TCP.|
@@ -41,7 +41,7 @@ ms.locfileid: "87996920"
 В следующих примерах показано, как создать фильтры для политики DNS, которые либо блокируют, либо разрешают запросы разрешения имен DNS.
 
 >[!NOTE]
->В примерах команд в этом разделе используется команда Windows PowerShell **Add-днссерверкуериресолутионполици**. Дополнительные сведения см. в разделе [Add-днссерверкуериресолутионполици](/powershell/module/dnsserver/add-dnsserverqueryresolutionpolicy?view=win10-ps).
+>В примерах команд в этом разделе используется команда Windows PowerShell **Add-днссерверкуериресолутионполици**. Дополнительные сведения см. в разделе [Add-днссерверкуериресолутионполици](/powershell/module/dnsserver/add-dnsserverqueryresolutionpolicy).
 
 ## <a name="block-queries-from-a-domain"></a><a name="bkmk_block1"></a>Блокировка запросов из домена
 
@@ -61,9 +61,9 @@ Add-DnsServerQueryResolutionPolicy -Name "BlockListPolicy" -Action IGNORE -FQDN 
 ## <a name="block-queries-from-a-subnet"></a><a name="bkmk_block2"></a>Блокировка запросов из подсети
 В этом примере можно заблокировать запросы из подсети, если они будут заражены некоторыми вредоносными программами и пытаются связаться с вредоносными сайтами с помощью DNS-сервера.
 
-"Add-Днссерверклиентсубнет-Name" MaliciousSubnet06 "-IPv4Subnet 172.0.33.0/24-PassThru
+"Add-DnsServerClientSubnet-Name" MaliciousSubnet06 "-IPv4Subnet 172.0.33.0/24-PassThru
 
-Add-Днссерверкуериресолутионполици-Name "BlockListPolicyMalicious06" — действие IGNORE-Клиентсубнет "EQ, MaliciousSubnet06"-PassThru "
+Add-DnsServerQueryResolutionPolicy-Name "BlockListPolicyMalicious06"-Action IGNORE-Клиентсубнет "EQ, MaliciousSubnet06"-PassThru "
 
 В следующем примере показано, как использовать критерии подсети в сочетании с критериями полного доменного имени, чтобы блокировать запросы определенных вредоносных доменов от зараженных подсетей.
 

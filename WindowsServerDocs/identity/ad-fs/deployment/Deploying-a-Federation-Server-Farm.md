@@ -6,12 +6,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 018d6b465386aaa83aeca9c42756b85f1385a171
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 2f7602e99e550e993b916e603dad33724b3b0570
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87962919"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96865043"
 ---
 # <a name="deploying-a-federation-server-farm"></a>Развертывание фермы серверов федерации
 
@@ -22,7 +22,7 @@ ms.locfileid: "87962919"
 |Задача|Справочник|
 |--------|-------------|
 |Изучите важные понятия и рекомендации по мере подготовки к развертыванию службы федерации Active Directory (AD FS) \( AD FS \) . **Примечание**.|![развертывание интегрированной фермы серверов](media/faa393df-4856-4431-9eda-4f4e5be72a90.gif)[AD FS руководство по проектированию в Windows server 2012 R2](../../ad-fs/design/AD-FS-Design-Guide-in-Windows-Server-2012-R2.md)<p>![Основные](media/faa393df-4856-4431-9eda-4f4e5be72a90.gif)[понятия о ключевых AD FS](../../ad-fs/technical-reference/Understanding-Key-AD-FS-Concepts.md) развертывании фермы федеративных серверов|
-||Если вы решили использовать Microsoft SQL Server для хранилища конфигурации AD FS, убедитесь, что развернут функциональный экземпляр SQL Server.|Предупреждение [SQL Server](/sql/sql-server/?view=sql-server-ver15) **.** в Windows Server 2012 R2 если вы хотите создать ферму AD FS и использовать SQL Server для хранения данных конфигурации, можно использовать SQL Server 2008 и более новые версии, включая SQL Server 2012.|
+||Если вы решили использовать Microsoft SQL Server для хранилища конфигурации AD FS, убедитесь, что развернут функциональный экземпляр SQL Server.|Предупреждение [SQL Server](/sql/sql-server/) **.** в Windows Server 2012 R2 если вы хотите создать ферму AD FS и использовать SQL Server для хранения данных конфигурации, можно использовать SQL Server 2008 и более новые версии, включая SQL Server 2012.|
 |Присоедините компьютер к домену Active Directory.|![Развертывание федеративной фермы серверов](media/faa393df-4856-4431-9eda-4f4e5be72a90.gif)[Присоединение компьютера к домену](Join-a-Computer-to-a-Domain.md)|
 |Регистрация SSL-сертификата на уровне SSL \( \) для AD FS.|![Развертывание федеративной фермы серверов](media/bc6cea1a-1c6c-4124-8c8f-1df5adfe8c88.gif)[Регистрация SSL-сертификата для AD FS](Enroll-an-SSL-Certificate-for-AD-FS.md)|
 |Установите службу роли AD FS.|![Развертывание федеративной фермы серверов](media/bc6cea1a-1c6c-4124-8c8f-1df5adfe8c88.gif)[Установка службы роли AD FS](Install-the-AD-FS-Role-Service.md)|

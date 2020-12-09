@@ -6,12 +6,12 @@ manager: dongill
 author: rpsqrd
 ms.author: ryanpu
 ms.date: 08/29/2018
-ms.openlocfilehash: c3f17320432d44a84be05040e23e7af30995c969
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 001e0fe38c27e6331a5b2b38d76cd193bfb184f1
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87997555"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96864853"
 ---
 # <a name="guarded-fabric-and-shielded-vms"></a>Защищенная структура и экранированные виртуальные машины
 
@@ -38,7 +38,7 @@ ms.locfileid: "87997555"
 
 ## <a name="deployment-topics"></a>Разделы, посвященные развертыванию
 
-- [Рекомендации по развертыванию](guarded-fabric-deploying-hgs-overview.md)
+- [Руководство по развертыванию](guarded-fabric-deploying-hgs-overview.md)
     - [Быстрый запуск](guarded-fabric-deployment-overview.md)
     - [Развертывание HGS](guarded-fabric-setting-up-the-host-guardian-service-hgs.md)
     - [Развертывание защищенных узлов](guarded-fabric-configure-hgs-with-authorized-hyper-v-hosts.md)
@@ -46,7 +46,7 @@ ms.locfileid: "87997555"
         - [Развертывание защищенного узла в режиме AD](guarded-fabric-admin-trusted-attestation-creating-a-security-group.md)
         - [Развертывание защищенного узла с помощью режима TPM](guarded-fabric-tpm-trusted-attestation-capturing-hardware.md)
         - [Подтверждение аттестации защищенных узлов](guarded-fabric-confirm-hosts-can-attest-successfully.md)
-        - [Экранированные виртуальные машины: поставщик служб размещения развертывает защищенные узлы в VMM](/system-center/vmm/guarded-deploy-host?view=sc-vmm-2019)
+        - [Экранированные виртуальные машины: поставщик служб размещения развертывает защищенные узлы в VMM](/system-center/vmm/guarded-deploy-host)
     - [Развертывание экранированных виртуальных машин](guarded-fabric-configuration-scenarios-for-shielded-vms-overview.md)
         - [Создание шаблона экранированной виртуальной машины](guarded-fabric-create-a-shielded-vm-template.md)
         - [Подготовка виртуального жесткого диска экранирования виртуальной машины](guarded-fabric-vm-shielding-helper-vhd.md)

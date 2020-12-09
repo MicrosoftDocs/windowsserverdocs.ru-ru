@@ -6,12 +6,12 @@ manager: dongill
 author: rpsqrd
 ms.author: ryanpu
 ms.date: 08/29/2018
-ms.openlocfilehash: fca3faca236a2fc5162d7a50ef02acad9b508226
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 46afeba5e8e00c6c37935d9e123d8ddaab5e835d
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87996306"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96864413"
 ---
 # <a name="create-a-linux-shielded-vm-template-disk"></a>Создание диска шаблона экранированной виртуальной машины Linux
 
@@ -19,7 +19,7 @@ ms.locfileid: "87996306"
 
 В этом разделе объясняется, как подготовить диск шаблона для экранированных виртуальных машин Linux, которые можно использовать для создания экземпляра одной или нескольких виртуальных машин клиента.
 
-## <a name="prerequisites"></a>Предварительные требования
+## <a name="prerequisites"></a>Предварительные условия
 
 Чтобы подготовить и проверить экранированную виртуальную машину Linux, вам понадобятся следующие ресурсы:
 
@@ -189,7 +189,7 @@ VHDX-файл, предоставленный для `-Path` параметра,
 
 > [!IMPORTANT]
 > Средства удаленного администрирования сервера, доступные в Windows Server 2016 или Windows 10, нельзя использовать для подготовки диска шаблона экранированной виртуальной машины Linux.
-> Для подготовки диска шаблона экранированной виртуальной машины Linux используйте командлет [Protect-темплатедиск](/powershell/module/shieldedvmtemplate/protect-templatedisk?view=win10-ps) , доступный в windows Server 2019 версии 1709 или средства удаленного администрирования сервера
+> Для подготовки диска шаблона экранированной виртуальной машины Linux используйте командлет [Protect-темплатедиск](/powershell/module/shieldedvmtemplate/protect-templatedisk) , доступный в windows Server 2019 версии 1709 или средства удаленного администрирования сервера
 
 ```powershell
 # Replace "THUMBPRINT" with the thumbprint of your template disk signing certificate in the line below

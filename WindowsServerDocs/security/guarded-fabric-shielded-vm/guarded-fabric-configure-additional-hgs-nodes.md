@@ -6,12 +6,12 @@ manager: dongill
 author: rpsqrd
 ms.author: ryanpu
 ms.date: 01/14/2020
-ms.openlocfilehash: 16a8ada942f4fcae80085058c92a14bd33ed6e79
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 97e3860d96fe87414fba9d4965bfde62208c01be
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87997202"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96864823"
 ---
 # <a name="configure-additional-hgs-nodes"></a>Настройка дополнительных узлов HGS
 
@@ -26,7 +26,7 @@ ms.locfileid: "87997202"
 | Новый лес HGS | [Использование PFX-файлов](#dedicated-hgs-forest-with-pfx-certificates) | [Использование отпечатков сертификатов](#dedicated-hgs-forest-with-certificate-thumbprints) |
 | Существующий лес бастиона | [Использование PFX-файлов](#existing-bastion-forest-with-pfx-certificates) | [Использование отпечатков сертификатов](#existing-bastion-forest-with-certificate-thumbprints) |
 
-## <a name="prerequisites"></a>Предварительные требования
+## <a name="prerequisites"></a>Предварительные условия
 
 Убедитесь, что каждый дополнительный узел:
 - Имеет ту же конфигурацию оборудования и программного обеспечения, что и основной узел
@@ -67,7 +67,7 @@ ms.locfileid: "87997202"
 ## <a name="existing-bastion-forest-with-pfx-certificates"></a>Существующий лес бастиона с сертификатами PFX
 
 1. Присоединение узла к существующему домену
-2. Предоставьте компьютеру права на получение пароля gMSA и запуск Install-Адсервицеаккаунт
+2. Предоставьте компьютеру права на получение пароля gMSA и запуск Install-ADServiceAccount
 3. Инициализация сервера HGS
 
 ### <a name="join-the-node-to-the-existing-domain"></a>Присоединение узла к существующему домену
@@ -75,7 +75,7 @@ ms.locfileid: "87997202"
 1. Убедитесь, что по крайней мере одна сетевая карта на узле настроена для использования DNS-сервера на первом сервере HGS.
 2. Присоедините новый узел HGS к тому же домену, что и ваш первый узел HGS.
 
-### <a name="grant-the-machine-rights-to-retrieve-gmsa-password-and-run-install-adserviceaccount"></a>Предоставьте компьютеру права на получение пароля gMSA и запуск Install-Адсервицеаккаунт
+### <a name="grant-the-machine-rights-to-retrieve-gmsa-password-and-run-install-adserviceaccount"></a>Предоставьте компьютеру права на получение пароля gMSA и запуск Install-ADServiceAccount
 
 [!INCLUDE [Grant the machine rights to retrieve the group MSA](../../../includes/guarded-fabric-grant-machine-rights-to-retrieve-gmsa.md)]
 
@@ -86,7 +86,7 @@ ms.locfileid: "87997202"
 ## <a name="existing-bastion-forest-with-certificate-thumbprints"></a>Существующий лес бастиона с отпечаткой сертификатов
 
 1. Присоединение узла к существующему домену
-2. Предоставьте компьютеру права на получение пароля gMSA и запуск Install-Адсервицеаккаунт
+2. Предоставьте компьютеру права на получение пароля gMSA и запуск Install-ADServiceAccount
 3. Инициализация сервера HGS
 4. Установка закрытых ключей для сертификатов
 
@@ -95,7 +95,7 @@ ms.locfileid: "87997202"
 1. Убедитесь, что по крайней мере одна сетевая карта на узле настроена для использования DNS-сервера на первом сервере HGS.
 2. Присоедините новый узел HGS к тому же домену, что и ваш первый узел HGS.
 
-### <a name="grant-the-machine-rights-to-retrieve-gmsa-password-and-run-install-adserviceaccount"></a>Предоставьте компьютеру права на получение пароля gMSA и запуск Install-Адсервицеаккаунт
+### <a name="grant-the-machine-rights-to-retrieve-gmsa-password-and-run-install-adserviceaccount"></a>Предоставьте компьютеру права на получение пароля gMSA и запуск Install-ADServiceAccount
 
 [!INCLUDE [Grant the machine rights to retrieve the group MSA](../../../includes/guarded-fabric-grant-machine-rights-to-retrieve-gmsa.md)]
 
@@ -115,7 +115,7 @@ ms.locfileid: "87997202"
 Сертификаты SSL *не* реплицируются службой HGS и не требуют использования одинаковых ключей для каждого узла (т. е. для каждого узла можно использовать разные SSL-сертификаты).
 
 При запросе SSL-сертификата убедитесь, что полное доменное имя кластера (как показано в выходных данных `Get-HgsServer` ) является либо общим именем субъекта сертификата, либо включенным в качестве альтернативного DNS-имени субъекта.
-После получения сертификата из центра сертификации можно настроить HGS для его использования с помощью [Set-HgsServer](/powershell/module/hgsserver/set-hgsserver?view=win10-ps).
+После получения сертификата из центра сертификации можно настроить HGS для его использования с помощью [Set-HgsServer](/powershell/module/hgsserver/set-hgsserver).
 
 ```powershell
 $sslPassword = Read-Host -AsSecureString -Prompt "SSL Certificate Password"

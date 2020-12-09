@@ -6,12 +6,12 @@ ms.topic: article
 ms.assetid: a9ee7a56-f062-474f-a61c-9387ff260929
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 45bff2c65f0497216cb8c7e7dc9dd670c5387ba2
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 5c03f2257a60d2d3a5b566014568be1650b42b94
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87996860"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96864013"
 ---
 # <a name="use-dns-policy-for-geo-location-based-traffic-management-with-primary-secondary-deployments"></a>Управление трафиком на основе географического расположения на основных и вспомогательных серверах с помощью политики DNS
 
@@ -19,14 +19,14 @@ ms.locfileid: "87996860"
 
 С помощью этого раздела вы узнаете, как создать политику DNS для управления трафиком на основе географического расположения, если развертывание DNS включает как основной, так и дополнительный DNS-серверы.
 
-В предыдущем сценарии [используется политика DNS для управления трафиком на основе географического расположения с серверами-источниками](primary-geo-location.md). в этой статье приведены инструкции по настройке политики DNS для управления трафиком на основном сервере DNS на основе географического расположения. Однако в инфраструктуре Интернета DNS-серверы широко развертываются в модели «первичная-вторичная», где доступная для записи копия зоны хранится на выбранных и защищенных основных серверах, а доступные только для чтения копии зоны хранятся на нескольких серверах-получателях.
+В предыдущем сценарии [используется политика DNS для управления трафиком на основе Geo-Location с серверами-источниками](primary-geo-location.md). инструкции по настройке политики DNS для управления трафиком на основе географического расположения на основном DNS-сервере. Однако в инфраструктуре Интернета DNS-серверы широко развертываются в модели «первичная-вторичная», где доступная для записи копия зоны хранится на выбранных и защищенных основных серверах, а доступные только для чтения копии зоны хранятся на нескольких серверах-получателях.
 
 Серверы-получатели используют протоколы зонных передач (AXFR) и добавочную зонную пересылку (IXFR) для запроса и получения обновлений зоны, содержащих новые изменения в зонах на основных DNS-серверах.
 
 > [!NOTE]
 > Дополнительные сведения о параметре AXFR см. в запросе IETF (Internet Engineering Task Force) [для получения комментариев 5936](https://tools.ietf.org/rfc/rfc5936.txt). Дополнительные сведения о IXFR см. в статье запрос в IETF (Internet Engineering Task Force) [для получения комментариев 1995](https://tools.ietf.org/html/rfc1995).
 
-## <a name="primary-secondary-geo-location-based-traffic-management-example"></a>Пример управления трафиком на основе дополнительного географического расположения
+## <a name="primary-secondary-geo-location-based-traffic-management-example"></a>Пример управления трафиком на основе Geo-Location Primary-Secondary
 Ниже приведен пример использования политики DNS в развертывании по первичному вторичному приложению для обеспечения перенаправления трафика на основе физического расположения клиента, выполняющего запрос DNS.
 
 В этом примере используются две вымышленные компании — облачные службы Contoso, которые предоставляют решения для веб-приложений и размещения в домене. и службы Woodgrove Food, которые предоставляют услуги по доставке пищи в нескольких городах по всему миру и имеют веб-сайт с именем woodgrove.com.
@@ -35,15 +35,15 @@ ms.locfileid: "87996860"
 
 Облачные службы Contoso имеют два центра обработки данных: один в США и другой в Европе, на котором Contoso размещает портал заказов на продукты для woodgrove.com.
 
-Развертывание Contoso DNS включает два вторичных сервера: **SecondaryServer1**с IP-адресом 10.0.0.2; и **SecondaryServer2**с IP-адресом 10.0.0.3. Эти серверы-получатели функционируют в качестве серверов имен в двух разных регионах, где SecondaryServer1 находится в Европе и SecondaryServer2, расположенном в США.
+Развертывание Contoso DNS включает два вторичных сервера: **SecondaryServer1** с IP-адресом 10.0.0.2; и **SecondaryServer2** с IP-адресом 10.0.0.3. Эти серверы-получатели функционируют в качестве серверов имен в двух разных регионах, где SecondaryServer1 находится в Европе и SecondaryServer2, расположенном в США.
 
 В **сервер** (IP-адрес 10.0.0.1) доступна запись основной зоны с возможностью записи, где вносятся изменения в зоны. При обычной передаче зоны на серверы-получатели серверы-получатели всегда обновляются в соответствии с новыми изменениями зоны в сервер.
 
 Этот сценарий показан на следующем рисунке.
 
-![Пример управления трафиком на основе дополнительного географического расположения](../../media/Dns-Policy_PS1/dns_policy_primarysecondary1.jpg)
+![Пример управления трафиком на основе Geo-Location Primary-Secondary](../../media/Dns-Policy_PS1/dns_policy_primarysecondary1.jpg)
 
-## <a name="how-the-dns-primary-secondary-system-works"></a>Как работает основная система DNS
+## <a name="how-the-dns-primary-secondary-system-works"></a>Как работает система DNS-Primary-Secondary
 
 При развертывании управления трафиком на основе географического расположения в первичном и вторичном развертывании DNS важно понимать, как обычная передача данных из основной зоны происходит перед изучением передачи уровня области зоны. В следующих разделах приведены сведения о передаче данных на уровне зоны и зоны.
 
@@ -76,9 +76,9 @@ ms.locfileid: "87996860"
 
 Для дальнейшего обновления в области зоны на серверы-получатели отправляется уведомление IXFR с той же ЗАПИСЬю OPT. Область зоны, получающая это уведомление, делает запрос IXFR, содержащий эту запись ресурса OPT, и тот же процесс, описанный выше.
 
-## <a name="how-to-configure-dns-policy-for-primary-secondary-geo-location-based-traffic-management"></a>Настройка политики DNS для управления трафиком на основе географического расположения
+## <a name="how-to-configure-dns-policy-for-primary-secondary-geo-location-based-traffic-management"></a>Настройка политики DNS для управления трафиком на основе Geo-Location Primary-Secondary
 
-Прежде чем начать, убедитесь, что выполнены все действия, описанные в разделе [Использование политики DNS для управления трафиком на основе географического расположения с первичными серверами](./primary-geo-location.md), а основной DNS-сервер настроен с зонами, областями зоны, подсетями клиента DNS и политикой DNS.
+Прежде чем начать, убедитесь, что выполнены все действия, описанные в разделе [Использование политики DNS для управления трафиком на основе Geo-Location с первичными серверами](./primary-geo-location.md), а на основном DNS-сервере настроены зоны, области зоны, подсети клиентов DNS и политика DNS.
 
 > [!NOTE]
 > В этом разделе приведены инструкции по копированию подсетей клиентов DNS, областей зоны и политик DNS с основных серверов DNS на серверы-получатели DNS для начальной настройки DNS и проверки. В будущем может потребоваться изменить параметры подсети клиента DNS, области зоны и политики на сервере-источнике. В этом случае можно создать скрипты автоматизации для синхронизации серверов-получателей с сервером-источником.
@@ -111,7 +111,7 @@ Add-DnsServerSecondaryZone -Name "woodgrove.com" -ZoneFile "woodgrove.com.dns" -
 Add-DnsServerSecondaryZone -Name "woodgrove.com" -ZoneFile "woodgrove.com.dns" -MasterServers 10.0.0.1 -ComputerName SecondaryServer2
 ```
 
-Дополнительные сведения см. в разделе [Add-днссерверсекондаризоне](/powershell/module/dnsserver/add-dnsserversecondaryzone?view=win10-ps).
+Дополнительные сведения см. в разделе [Add-днссерверсекондаризоне](/powershell/module/dnsserver/add-dnsserversecondaryzone).
 
 ### <a name="configure-the-zone-transfer-settings-on-the-primary-zone"></a>Настройка параметров зонных передач в основной зоне
 
@@ -129,7 +129,7 @@ Add-DnsServerSecondaryZone -Name "woodgrove.com" -ZoneFile "woodgrove.com.dns" -
 Set-DnsServerPrimaryZone -Name "woodgrove.com" -Notify Notify -SecondaryServers "10.0.0.2,10.0.0.3" -SecureSecondaries TransferToSecureServers -ComputerName PrimaryServer
 ```
 
-Дополнительные сведения см. в разделе [Set-днссерверпримаризоне](/powershell/module/dnsserver/set-dnsserverprimaryzone?view=win10-ps).
+Дополнительные сведения см. в разделе [Set-днссерверпримаризоне](/powershell/module/dnsserver/set-dnsserverprimaryzone).
 
 ### <a name="copy-the-dns-client-subnets"></a>Копирование подсетей клиента DNS
 
@@ -142,7 +142,7 @@ Get-DnsServerClientSubnet -ComputerName PrimaryServer | Add-DnsServerClientSubne
 Get-DnsServerClientSubnet -ComputerName PrimaryServer | Add-DnsServerClientSubnet -ComputerName SecondaryServer2
 ```
 
-Дополнительные сведения см. в разделе [Add-днссерверклиентсубнет](/powershell/module/dnsserver/add-dnsserverclientsubnet?view=win10-ps).
+Дополнительные сведения см. в разделе [Add-днссерверклиентсубнет](/powershell/module/dnsserver/add-dnsserverclientsubnet).
 
 ### <a name="create-the-zone-scopes-on-the-secondary-server"></a>Создание областей зоны на сервере-получателе
 
@@ -158,7 +158,7 @@ Get-DnsServerZoneScope -ZoneName "woodgrove.com" -ComputerName PrimaryServer|Add
 > [!NOTE]
 > В этих примерах команд параметр **-ErrorAction Ignore** включен, так как область зоны по умолчанию существует в каждой зоне. Область зоны по умолчанию не может быть создана или удалена. Конвейеризация приведет к попытке создать эту область, и она завершится ошибкой. Кроме того, можно создать области зон, не заданные по умолчанию, в двух дополнительных зонах.
 
-Дополнительные сведения см. в разделе [Add-днссерверзонескопе](/powershell/module/dnsserver/add-dnsserverzonescope?view=win10-ps).
+Дополнительные сведения см. в разделе [Add-днссерверзонескопе](/powershell/module/dnsserver/add-dnsserverzonescope).
 
 ### <a name="configure-dns-policy"></a>Настройка политики DNS
 
@@ -172,7 +172,7 @@ $policy | Add-DnsServerQueryResolutionPolicy -ZoneName "woodgrove.com" -Computer
 $policy | Add-DnsServerQueryResolutionPolicy -ZoneName "woodgrove.com" -ComputerName SecondaryServer2
 ```
 
-Дополнительные сведения см. в разделе [Add-днссерверкуериресолутионполици](/powershell/module/dnsserver/add-dnsserverqueryresolutionpolicy?view=win10-ps).
+Дополнительные сведения см. в разделе [Add-днссерверкуериресолутионполици](/powershell/module/dnsserver/add-dnsserverqueryresolutionpolicy).
 
 Теперь вторичные DNS-серверы настраиваются с помощью необходимых политик DNS для перенаправления трафика на основе географического расположения.
 

@@ -7,12 +7,12 @@ ms.author: lizross
 author: eross-msft
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: df9866682d96358c63b8ea708c05cdbd8216138a
-ms.sourcegitcommit: ccd38245f1b766be005d0c257962f756ff0c4e76
+ms.openlocfilehash: f130164415ead6ad480d95d7cba55d7c5017c6b4
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "92175788"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96864243"
 ---
 # <a name="defrag"></a>defrag
 
@@ -33,7 +33,7 @@ defrag <volume> [<parameters>]
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | `<volume>` | Указывает букву диска или путь к точке подключения тома для дефрагментации или анализа. |
 | /a | Выполните анализ указанных томов. |
@@ -137,4 +137,4 @@ defrag /c /h /v
 
 - [fsutil dirty](fsutil-dirty.md)
 
-- [Оптимизация — том PowerShell](/powershell/module/storage/optimize-volume?view=win10-ps)
+- [Оптимизация — том PowerShell](/powershell/module/storage/optimize-volume)

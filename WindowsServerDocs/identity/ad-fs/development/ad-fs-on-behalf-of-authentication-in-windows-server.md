@@ -6,12 +6,12 @@ ms.author: billmath
 manager: mtillman
 ms.date: 02/22/2018
 ms.topic: article
-ms.openlocfilehash: c313754b315b48982342fe2797d1ed766ce354a9
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: b080f45d36d26ed566eacc5ae1ad84d98dd45d48
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87965171"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96864763"
 ---
 # <a name="build-a-multi-tiered-application-using-on-behalf-of-obo-using-oauth-with-ad-fs-2016-or-later"></a>Создание многоуровневого приложения с использованием от имени (OBO) с помощью OAuth с AD FS 2016 или более поздней версии
 
@@ -40,7 +40,7 @@ ms.locfileid: "87965171"
 
 Пример будет состоять из трех модулей
 
-Модуль | Описание
+Модуль | Описание:
 -------|------------
 тодоклиент | Собственный клиент, с которым взаимодействует пользователь
 Файле todoservice | Веб-API среднего уровня, который выступает в качестве клиента для серверной части WebAPI
@@ -48,7 +48,7 @@ ms.locfileid: "87965171"
 
 ## <a name="setting-up-the-development-box"></a>Настройка поля разработки
 
-В этом пошаговом руководстве используется Visual Studio 2015. Проект сильно использует Библиотека проверки подлинности Active Directory (ADAL). Дополнительные сведения о ADAL см. в статье [Библиотека проверки подлинности Active Directory .NET](/dotnet/api/microsoft.identitymodel.clients.activedirectory?view=azure-dotnet)
+В этом пошаговом руководстве используется Visual Studio 2015. Проект сильно использует Библиотека проверки подлинности Active Directory (ADAL). Дополнительные сведения о ADAL см. в статье [Библиотека проверки подлинности Active Directory .NET](/dotnet/api/microsoft.identitymodel.clients.activedirectory)
 
 В примере также используется SQL LocalDB v 11.0. Прежде чем приступать к работе с примером, установите SQL LocalDB.
 
@@ -281,12 +281,12 @@ authContext = new AuthenticationContext(authority, false);
 
 | Ключ | Значение |
 |:-|:-|
-| IDA: аудитория | Идентификатор ToDoListService, заданный для AD FS при настройке ToDoListService WebAPI, напримерhttps://localhost:44321/ |
-| IDA: ClientID | Идентификатор ToDoListService, заданный для AD FS при настройке ToDoListService WebAPI, например<https://localhost:44321/> </br>**Очень важно, чтобы Ida: аудитория и Ida: ClientID совпадали друг с другом.** |
+| IDA: аудитория | Идентификатор ToDoListService, заданный для AD FS при настройке ToDoListService WebAPI, например https://localhost:44321/ |
+| IDA: ClientID | Идентификатор ToDoListService, заданный для AD FS при настройке ToDoListService WebAPI, например <https://localhost:44321/> </br>**Очень важно, чтобы Ida: аудитория и Ida: ClientID совпадали друг с другом.** |
 | ida:ClientSecret | Это секрет, который AD FS создан при настройке клиента ToDoListService в AD FS |
-| IDA: Адфсметадатаендпоинт | Это URL-адрес метаданных AD FS, напримерhttps://fs.anandmsft.com/federationmetadata/2007-06/federationmetadata.xml |
-| IDA: Обовебапибасе | Это базовый адрес, который будет использоваться для вызова API серверной части, напримерhttps://localhost:44300 |
-| ida:Authority | Это URL-адрес службы AD FS, напримерhttps://fs.anandmsft.com/adfs/ |
+| IDA: Адфсметадатаендпоинт | Это URL-адрес метаданных AD FS, например https://fs.anandmsft.com/federationmetadata/2007-06/federationmetadata.xml |
+| IDA: Обовебапибасе | Это базовый адрес, который будет использоваться для вызова API серверной части, например https://localhost:44300 |
+| ida:Authority | Это URL-адрес службы AD FS, например https://fs.anandmsft.com/adfs/ |
 
 Все остальные ключи Ida: XXXXXXX в узле **appSettings** можно закомментировать или удалить.
 

@@ -7,12 +7,12 @@ ms.author: lizross
 author: eross-msft
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 820b83ab9c6c70c24c10c16678da9bf90892135f
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 51ebd58874e2bf56c391fe7ec9a6d257ab5a0567
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89635144"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96864213"
 ---
 # <a name="diskpart-scripts-and-examples"></a>сценарии и примеры для DiskPart
 
@@ -45,7 +45,7 @@ diskpart /s scriptname.txt
 diskpart /s scriptname.txt > logfile.txt
 ```
 
-### <a name="remarks"></a>Примечания
+### <a name="remarks"></a>Remarks
 
 - При использовании команды **DiskPart** в составе скрипта рекомендуется выполнять все операции DiskPart вместе в рамках одного сценария DiskPart. Можно выполнять последовательные скрипты DiskPart, но по крайней мере 15 секунд между каждым сценарием необходимо выполнить полное завершение работы, прежде чем запускать команду **DiskPart** в последующих сценариях. В противном случае последующие сценарии могут завершиться ошибкой. Можно добавить паузу между последовательными сценариями DiskPart, добавив `timeout /t 15` команду в пакетный файл вместе с сценариями DiskPart.
 
@@ -59,4 +59,4 @@ diskpart /s scriptname.txt > logfile.txt
 
 - [Пример. Настройка разделов жесткого диска на основе BIOS/MBR с помощью Windows PE и программы DiskPart](/previous-versions/windows/it-pro/windows-8.1-and-8/hh825677(v=win.10))
 
-- [Командлеты хранилищ в Windows PowerShell](/powershell/module/storage/?view=win10-ps)
+- [Командлеты хранилищ в Windows PowerShell](/powershell/module/storage/)

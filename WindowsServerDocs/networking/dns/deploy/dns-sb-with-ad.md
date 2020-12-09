@@ -6,12 +6,12 @@ ms.topic: article
 ms.assetid: f9533204-ad7e-4e49-81c1-559324a16aeb
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 4aa18e3f93cdb0a50cac3db697a10dd40c1f05e0
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 423debd6538e2de8de7e2919e18e7da39fe8c733
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87996905"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96865333"
 ---
 # <a name="use-dns-policy-for-split-brain-dns-in-active-directory"></a>Разделение вычислительных мощностей DNS в Active Directory с помощью политики DNS
 
@@ -25,7 +25,7 @@ ms.locfileid: "87996905"
 
 > [!NOTE]
 > - Развертывания DNS разбиваются \- , если имеется две версии одной зоны, одна версия для внутренних пользователей в интрасети организации и одна версия для внешних пользователей, которые обычно являются пользователями в Интернете.
-> - В разделе [Использование политики DNS для раздельного развертывания DNS](split-brain-DNS-deployment.md) . объясняется, как можно использовать политики DNS и области зоны для развертывания разделенной \- мозговой системы DNS на одном DNS-сервере Windows Server 2016.
+> - В разделе [Использование политики DNS для Split-Brain развертывания DNS](split-brain-DNS-deployment.md) объясняется, как можно использовать политики DNS и области зоны для развертывания разделенной \- мозговой системы DNS на одном DNS-сервере Windows Server 2016.
 
 ## <a name="example-split-brain-dns-in-active-directory"></a>Пример разбиения \- DNS на Active Directory
 
@@ -48,7 +48,7 @@ ms.locfileid: "87996905"
 
 Этот сценарий показан на следующем рисунке.
 
-![Интегрированное развертывание DNS с разделением и мозгом](../../media/DNS-SB-AD/DNS-SB-AD.jpg)
+![Split-Brain интегрированного в AD развертывания DNS](../../media/DNS-SB-AD/DNS-SB-AD.jpg)
 
 ## <a name="how-dns-policy-for-split-brain-dns-in-active-directory-works"></a>Как работает политика DNS для разделения \- мозгового DNS-сервера в Active Directory
 
@@ -75,12 +75,12 @@ $policies |  Add-DnsServerQueryResolutionPolicy -ZoneName "contoso.com" -Compute
 
 Дополнительные сведения см. в следующих справочных разделах Windows PowerShell.
 
-- [Get-Днссерверкуериресолутионполици](/powershell/module/dnsserver/get-dnsserverqueryresolutionpolicy?view=win10-ps)
-- [Add-Днссерверкуериресолутионполици](/powershell/module/dnsserver/add-dnsserverqueryresolutionpolicy?view=win10-ps)
+- [Get-Днссерверкуериресолутионполици](/powershell/module/dnsserver/get-dnsserverqueryresolutionpolicy)
+- [Add-Днссерверкуериресолутионполици](/powershell/module/dnsserver/add-dnsserverqueryresolutionpolicy)
 
 ## <a name="how-to-configure-dns-policy-for-split-brain-dns-in-active-directory"></a>Настройка политики DNS для разделения \- мозгового DNS-сервера в Active Directory
 
-Чтобы настроить развертывание с разделением DNS с помощью политики DNS, необходимо использовать следующие разделы, содержащие подробные инструкции по настройке.
+Чтобы настроить развертывание Split-Brain DNS с помощью политики DNS, необходимо использовать следующие разделы, содержащие подробные инструкции по настройке.
 
 ### <a name="add-the-active-directory-integrated-zone"></a>Добавление интегрированной зоны Active Directory
 
@@ -90,7 +90,7 @@ $policies |  Add-DnsServerQueryResolutionPolicy -ZoneName "contoso.com" -Compute
 Add-DnsServerPrimaryZone -Name "contoso.com" -ReplicationScope "Domain" -PassThru
 ```
 
-Дополнительные сведения см. в разделе [Add-днссерверпримаризоне](/powershell/module/dnsserver/add-dnsserverprimaryzone?view=win10-ps).
+Дополнительные сведения см. в разделе [Add-днссерверпримаризоне](/powershell/module/dnsserver/add-dnsserverprimaryzone).
 
 ### <a name="create-the-scopes-of-the-zone"></a>Создание областей зоны
 
@@ -108,7 +108,7 @@ Add-DnsServerPrimaryZone -Name "contoso.com" -ReplicationScope "Domain" -PassThr
 Add-DnsServerZoneScope -ZoneName "contoso.com" -Name "external"
 ```
 
-Дополнительные сведения см. в разделе [Add-днссерверзонескопе](/powershell/module/dnsserver/add-dnsserverzonescope?view=win10-ps).
+Дополнительные сведения см. в разделе [Add-днссерверзонескопе](/powershell/module/dnsserver/add-dnsserverzonescope).
 
 ### <a name="add-records-to-the-zone-scopes"></a>Добавление записей в области зоны
 
@@ -116,7 +116,7 @@ Add-DnsServerZoneScope -ZoneName "contoso.com" -Name "external"
 
 В области внутренней зоны по умолчанию запись www.career.contoso.com добавляется с IP-адресом 10.0.0.39, который является частным IP-адресом. и в области внешней зоны Эта запись \( www.Career.contoso.com \) добавляется с общедоступным IP-адресом 65.55.39.10.
 
-Записи \( в области внутренней зоны по умолчанию и области внешней зоны \) будут автоматически реплицироваться по домену с соответствующими областями зоны.
+Записи \( в области внутренней зоны по умолчанию и области внешней зоны \)  будут автоматически реплицироваться по домену с соответствующими областями зоны.
 
 Приведенный ниже пример команды можно использовать для добавления записей в области зоны на DNS-сервере.
 
@@ -128,14 +128,14 @@ Add-DnsServerResourceRecord -ZoneName "contoso.com" -A -Name "www.career" -IPv4A
 > [!NOTE]
 > Параметр **– зонескопе** не включается при добавлении записи в область зоны по умолчанию. Это действие аналогично добавлению записей в обычную зону.
 
-Дополнительные сведения см. в разделе [Add-днссерверресаурцерекорд](/powershell/module/dnsserver/add-dnsserverresourcerecord?view=win10-ps).
+Дополнительные сведения см. в разделе [Add-днссерверресаурцерекорд](/powershell/module/dnsserver/add-dnsserverresourcerecord).
 
 ### <a name="create-the-dns-policies"></a>Создание политик DNS
 
 После определения интерфейсов сервера для внешней сети и внутренней сети, а также для создания областей зоны необходимо создать политики DNS, которые соединяют внутренние и внешние области зоны.
 
 > [!NOTE]
-> В этом примере используется интерфейс сервера \( с параметром-ServerInterface в приведенной ниже команде примера в \) качестве критерия для различения внутренних и внешних клиентов. Другим способом различения внешних и внутренних клиентов является использование подсетей клиента в качестве критерия. Если вы можете определить подсети, к которым принадлежат внутренние клиенты, можно настроить политику DNS, чтобы отличать их от подсети клиента. Сведения о настройке управления трафиком с помощью критериев подсети клиента см. в статье [Использование политики DNS для управления трафиком на основе географического расположения с основными серверами](primary-geo-location.md).
+> В этом примере используется интерфейс сервера \( с параметром-ServerInterface в приведенной ниже команде примера в \) качестве критерия для различения внутренних и внешних клиентов. Другим способом различения внешних и внутренних клиентов является использование подсетей клиента в качестве критерия. Если вы можете определить подсети, к которым принадлежат внутренние клиенты, можно настроить политику DNS, чтобы отличать их от подсети клиента. Сведения о настройке управления трафиком с помощью критериев подсети клиента см. в статье [Использование политики DNS для управления трафиком на основе Geo-Location с серверами-источниками](primary-geo-location.md).
 
 После настройки политик при получении запроса DNS к общедоступному интерфейсу ответ возвращается из внешней области зоны.
 
@@ -149,7 +149,7 @@ Add-DnsServerQueryResolutionPolicy -Name "SplitBrainZonePolicy" -Action ALLOW -S
 > [!NOTE]
 > 208.84.0.53 — это IP-адрес общедоступного сетевого интерфейса.
 
-Дополнительные сведения см. в разделе [Add-днссерверкуериресолутионполици](/powershell/module/dnsserver/add-dnsserverqueryresolutionpolicy?view=win10-ps).
+Дополнительные сведения см. в разделе [Add-днссерверкуериресолутионполици](/powershell/module/dnsserver/add-dnsserverqueryresolutionpolicy).
 
 Теперь DNS-сервер настроен с использованием требуемых политик DNS для сервера разделенного имени с Active Directoryной зоной DNS.
 

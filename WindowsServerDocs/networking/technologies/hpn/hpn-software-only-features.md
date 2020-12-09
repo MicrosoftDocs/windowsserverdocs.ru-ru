@@ -7,25 +7,25 @@ manager: dougkim
 ms.author: lizross
 author: eross-msft
 ms.date: 09/20/2018
-ms.openlocfilehash: 94b7a4b87a74c24acc97289516f6835be9b90ef7
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: ec4867b0c2ca760babd2b07062c9b8ee3d73e8f7
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87990320"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96864883"
 ---
 # <a name="software-only-so-features-and-technologies"></a>Только программные функции и технологии
 Функции только программного обеспечения реализуются как часть операционной системы и не зависят от базовых сетевых адаптеров. Иногда для оптимальной работы эти функции нуждаются в некоторой настройке сетевой карты. К таким примерам относятся такие компоненты Hyper-v, как качество обслуживания виртуальной машины (Вмкос), списки управления доступом (ACL) и компоненты, отличные от Hyper-V, такие как объединение сетевых карт.
 
 ## <a name="access-control-lists-acls"></a>Списки управления доступом (ACL)
 
-Компонент Hyper-V и SDNv1 для управления безопасностью виртуальной машины. Эта функция применяется к невиртуализованному стеку Hyper-V и стеку HVNv1. Управление списками управления доступом коммутатора Hyper-V можно осуществлять с помощью командлетов PowerShell [Add-вмнетворкадаптеракл](/powershell/module/hyper-v/add-vmnetworkadapteracl?view=win10-ps) и [Remove-вмнетворкадаптеракл](/powershell/module/hyper-v/remove-vmnetworkadapteracl?view=win10-ps) .
+Компонент Hyper-V и SDNv1 для управления безопасностью виртуальной машины. Эта функция применяется к невиртуализованному стеку Hyper-V и стеку HVNv1. Управление списками управления доступом коммутатора Hyper-V можно осуществлять с помощью командлетов PowerShell [Add-вмнетворкадаптеракл](/powershell/module/hyper-v/add-vmnetworkadapteracl) и [Remove-вмнетворкадаптеракл](/powershell/module/hyper-v/remove-vmnetworkadapteracl) .
 
 ## <a name="extended-acls"></a>Расширенные списки ACL
 
 Расширенные списки управления доступом виртуального коммутатора Hyper-V позволяют настроить расширенные списки ACL портов для виртуального коммутатора Hyper-V, чтобы обеспечить защиту брандмауэра и применить политики безопасности для виртуальных машин клиента в центрах обработки данных. Так как списки ACL для портов настраиваются на виртуальном коммутаторе Hyper-V, а не в виртуальных машинах, администратор может управлять политиками безопасности для всех клиентов в среде с несколькими клиентами.
 
-Вы можете управлять расширенными списками ACL коммутатора Hyper-V с помощью командлетов PowerShell [Add-вмнетворкадаптерекстендедакл](/powershell/module/hyper-v/add-vmnetworkadapterextendedacl?view=win10-ps) и [Remove-вмнетворкадаптерекстендедакл](/powershell/module/hyper-v/remove-vmnetworkadapteracl?view=win10-ps) .
+Вы можете управлять расширенными списками ACL коммутатора Hyper-V с помощью командлетов PowerShell [Add-вмнетворкадаптерекстендедакл](/powershell/module/hyper-v/add-vmnetworkadapterextendedacl) и [Remove-вмнетворкадаптерекстендедакл](/powershell/module/hyper-v/remove-vmnetworkadapteracl) .
 
 >[!TIP]
 >Эта функция применяется к стеку HNVv1. Список ACL в стеке SDN см. ниже.

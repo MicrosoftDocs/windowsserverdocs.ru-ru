@@ -6,12 +6,12 @@ author: JasonGerend
 manager: dougkim
 ms.author: jgerend
 ms.date: 09/11/2018
-ms.openlocfilehash: 3be878629d19542629cc3cbb849ac46fe14de0bd
-ms.sourcegitcommit: 5344adcf9c0462561a4f9d47d80afc1d095a5b13
+ms.openlocfilehash: 14ef17f96138c23aeac8e38b93a50b562ca69bba
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90766837"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96865173"
 ---
 # <a name="iscsi-target-server-scalability-limits"></a>Ограничения масштабируемости для сервера цели iSCSI
 
@@ -30,7 +30,7 @@ ms.locfileid: "90766837"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Item</p></th>
+<th><p>Элемент</p></th>
 <th><p>Ограничение поддержки</p></th>
 <th><p>Применяются?</p></th>
 <th><p>Комментировать</p></th>
@@ -40,13 +40,13 @@ ms.locfileid: "90766837"
 <tr class="odd">
 <td><p>экземпляры цели iSCSI на сервер цели iSCSI</p></td>
 <td><p>256</p></td>
-<td><p>Нет</p></td>
+<td><p>нет</p></td>
 <td></td>
 </tr>
 <tr class="even">
 <td><p>логические устройства iSCSI (них) или виртуальные диски на сервер цели iSCSI</p></td>
 <td><p>512</p></td>
-<td><p>Нет</p></td>
+<td><p>нет</p></td>
 <td><p>Тестирование конфигураций: 8 них на целевой экземпляр с средним количеством более 64 целевых объектов и 256 целевых экземпляров с одним LU на целевой объект.</p></td>
 </tr>
 <tr class="odd">
@@ -87,7 +87,7 @@ ms.locfileid: "90766837"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Item</p></th>
+<th><p>Элемент</p></th>
 <th><p>Ограничение поддержки</p></th>
 <th><p>Применяются?</p></th>
 <th><p>Комментировать</p></th>
@@ -97,7 +97,7 @@ ms.locfileid: "90766837"
 <tr class="odd">
 <td><p>Узлы отказоустойчивого кластера</p></td>
 <td><p>8 (5 на Windows Server 2012)</p></td>
-<td><p>Нет</p></td>
+<td><p>нет</p></td>
 <td></td>
 </tr>
 <tr class="even">
@@ -122,7 +122,7 @@ ms.locfileid: "90766837"
 <tr class="odd">
 <td><p>Сеансы, которые могут одновременно подключаться к экземпляру цели iSCSI</p></td>
 <td><p>544 (512 на Windows Server 2012)</p></td>
-<td><p>Нет</p></td>
+<td><p>нет</p></td>
 <td></td>
 </tr>
 <tr class="even">
@@ -140,7 +140,7 @@ ms.locfileid: "90766837"
 <tr class="even">
 <td><p>Преобразование автономного целевого сервера iSCSI в кластеризованный целевой сервер iSCSI или наоборот</p></td>
 <td><p>Не поддерживается</p></td>
-<td><p>Нет</p></td>
+<td><p>нет</p></td>
 <td><p>Данные конфигурации экземпляра iSCSI и виртуального диска, включая метаданные моментального снимка, теряются во время преобразования.</p></td>
 </tr>
 </tbody>
@@ -157,7 +157,7 @@ ms.locfileid: "90766837"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Item</p></th>
+<th><p>Элемент</p></th>
 <th><p>Ограничение поддержки</p></th>
 <th><p>Применяются?</p></th>
 <th><p>Комментировать</p></th>
@@ -167,7 +167,7 @@ ms.locfileid: "90766837"
 <tr class="odd">
 <td><p>Максимальное число активных сетевых адаптеров</p></td>
 <td><p>8</p></td>
-<td><p>Нет</p></td>
+<td><p>нет</p></td>
 <td><p>Применяется к сетевым адаптерам, выделенным для трафика iSCSI, а не к общему числу сетевых адаптеров в устройстве.</p></td>
 </tr>
 <tr class="even">
@@ -179,7 +179,7 @@ ms.locfileid: "90766837"
 <tr class="odd">
 <td><p>Скорость сетевого порта</p></td>
 <td><p>1Gbps, 10 Гбит/с, 40Gbps, 56 Гбит/с (только для Windows Server 2012 R2 и более поздние версии)</p></td>
-<td><p>Нет</p></td>
+<td><p>нет</p></td>
 <td></td>
 </tr>
 <tr class="even">
@@ -189,7 +189,7 @@ ms.locfileid: "90766837"
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>IPv6</p></td>
+<td><p>IPv6;</p></td>
 <td><p>Поддерживается</p></td>
 <td><p>Недоступно</p></td>
 <td></td>
@@ -238,7 +238,7 @@ ms.locfileid: "90766837"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Item</p></th>
+<th><p>Элемент</p></th>
 <th><p>Ограничение поддержки</p></th>
 <th><p>Применяются?</p></th>
 <th><p>Комментировать</p></th>
@@ -248,7 +248,7 @@ ms.locfileid: "90766837"
 <tr class="odd">
 <td><p>От инициатора iSCSI, который преобразует виртуальный диск из базового диска в динамический </p></td>
 <td><p>Да</p></td>
-<td><p>Нет</p></td>
+<td><p>нет</p></td>
 <td></td>
 </tr>
 <tr class="even">
@@ -289,13 +289,13 @@ ms.locfileid: "90766837"
 <tr class="odd">
 <td><p>Фиксированный формат VHD</p></td>
 <td><p>Поддерживается</p></td>
-<td><p>Нет</p></td>
+<td><p>нет</p></td>
 <td></td>
 </tr>
 <tr class="even">
 <td><p>Разностный формат VHD</p></td>
 <td><p>Поддерживается</p></td>
-<td><p>Нет</p></td>
+<td><p>нет</p></td>
 <td><p>Моментальные снимки не могут быть созданы с разностными виртуальными дисками iSCSI на основе VHD.</p></td>
 </tr>
 <tr class="odd">
@@ -343,7 +343,7 @@ ms.locfileid: "90766837"
 </tr>
 <tr class="even">
 <td><p>Тонкая подготовка</p></td>
-<td><p>Нет</p></td>
+<td><p>нет</p></td>
 <td><p>Недоступно</p></td>
 <td><p>Динамические виртуальные жесткие диски поддерживаются, но сопоставление не поддерживается&#39;t.</p></td>
 </tr>
@@ -372,7 +372,7 @@ ms.locfileid: "90766837"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Item</p></th>
+<th><p>Элемент</p></th>
 <th><p>Ограничение поддержки</p></th>
 <th><p>Комментировать</p></th>
 </tr>
@@ -442,7 +442,7 @@ ms.locfileid: "90766837"
 
 Обратите внимание, что если сервер цели iSCSI размещен на сервере под управлением Windows Server 2012 R2 или более поздней версии и вы хотите использовать VSS или VDS с удаленного сервера, на удаленном сервере также должна быть установлена та же версия Windows Server и служба роли поставщика хранилища цели iSCSI. Также обратите внимание, что во всех версиях Windows необходимо установить только одну версию службы роли поставщика хранилища цели iSCSI.
 
-Дополнительные сведения о поставщике хранилища цели iSCSI см. в статье [поставщик целевого хранилища iSCSI (VDS/VSS)](/powershell/module/iscsi/?view=win10-ps).
+Дополнительные сведения о поставщике хранилища цели iSCSI см. в статье [поставщик целевого хранилища iSCSI (VDS/VSS)](/powershell/module/iscsi/).
 
 ## <a name="tested-compatibility-with-iscsi-initiators"></a>Протестированы совместимость с инициаторами iSCSI
 
@@ -458,12 +458,12 @@ ms.locfileid: "90766837"
 <tbody>
 <tr class="odd">
 <td><p>Инициатор</p></td>
-<td><p>Windows Server 2012 R2</p></td>
-<td><p>Windows Server 2012</p></td>
+<td><p>Windows Server 2012 R2</p></td>
+<td><p>Windows Server 2012</p></td>
 <td><p>Комментарии</p></td>
 </tr>
 <tr class="even">
-<td><p>Windows Server 2012 R2</p></td>
+<td><p>Windows Server 2012 R2</p></td>
 <td><p>Проверено</p></td>
 <td></td>
 <td></td>
@@ -527,9 +527,9 @@ ms.locfileid: "90766837"
 
 Мы также проверили следующие инициаторы iSCSI, выполняющие бездисковую загрузку с виртуальных дисков, размещенных на сервере iSCSI Target Server:
 
-  - Windows Server 2012 R2
+  - Windows Server 2012 R2
 
-  - Windows Server 2012
+  - Windows Server 2012
 
   - Сетевой адаптер PCIe с Ипксе
 

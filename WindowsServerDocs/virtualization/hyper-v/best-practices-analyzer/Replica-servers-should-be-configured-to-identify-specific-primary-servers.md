@@ -6,12 +6,12 @@ author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: 0aeb1f4b-2e75-430b-9557-fe64738c4992
 ms.date: 8/16/2016
-ms.openlocfilehash: 68953fe3efaba64c853e4da83d4ca47ff13ca00a
-ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
+ms.openlocfilehash: 2771a9814fb9061756626466f446ca6131580dc2
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "90745819"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96864663"
 ---
 # <a name="replica-servers-should-be-configured-to-identify-specific-primary-servers-authorized-to-send-replication-traffic"></a>Серверы реплики должны быть настроены для обнаружения конкретных основных серверов, имеющих право на отправку трафика репликации.
 
@@ -19,7 +19,7 @@ ms.locfileid: "90745819"
 
 Дополнительные сведения о рекомендациях и сканировании см. в разделе [Запуск сканирования анализатором соответствия рекомендациям и управление результатами сканирования](https://go.microsoft.com/fwlink/p/?LinkID=223177).
 
-|Свойство.|Подробнее|
+|Свойство|Сведения|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|
@@ -34,7 +34,7 @@ ms.locfileid: "90745819"
 ### <a name="impact"></a>Влияние
 *Все репликации со всех основных серверов хранятся в одном месте, что может привести к проблемам конфиденциальности или безопасности.*
 
-## <a name="resolution"></a>Решение
+## <a name="resolution"></a>Разрешение
 *С помощью диспетчера Hyper-V создайте новые записи авторизации для конкретных серверов-источников и укажите отдельные места хранения для каждого из них. Можно использовать подстановочные знаки для группировки основных серверов в наборы для каждой записи авторизации.*
 
 #### <a name="create-authorization-entries-using-hyper-v-manager"></a>Создание записей авторизации с помощью диспетчера Hyper-V
@@ -45,7 +45,7 @@ ms.locfileid: "90745819"
 
 3.  В области навигации щелкните **Конфигурация репликации**.
 
-4.  В разделе **авторизация и хранилище**щелкните **Разрешить репликацию с указанных серверов**.
+4.  В разделе **авторизация и хранилище** щелкните **Разрешить репликацию с указанных серверов**.
 
 5.  Под списком серверов нажмите кнопку **Добавить**.
 
@@ -55,7 +55,7 @@ ms.locfileid: "90745819"
 
     -   Укажите выделенное расположение для хранения только файлов этого сервера.
 
-7.  Нажмите кнопку **OK**.
+7.  Нажмите кнопку **ОК**.
 
 8.  Повторите эти действия для каждого основного сервера.
 
@@ -79,5 +79,5 @@ ms.locfileid: "90745819"
 New-VMReplicationAuthorizationEntry server01.domain01.contoso.com D:\ReplicaVMStorage DEFAULT
 ```
 
-## <a name="see-also"></a>См. также
-[New-Вмрепликатионаусоризатионентри](/powershell/module/hyper-v/new-vmreplicationauthorizationentry?view=win10-ps)
+## <a name="see-also"></a>См. также:
+[New-Вмрепликатионаусоризатионентри](/powershell/module/hyper-v/new-vmreplicationauthorizationentry)

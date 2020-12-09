@@ -6,12 +6,12 @@ ms.topic: article
 ms.assetid: f9c313ac-bb86-4e48-b9b9-de5004393e06
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 745d296fdeecef5eddd45648c3cfc132f901cdf0
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: fa415f6c1b7065b0e5da6e83999ed425d9f6b28e
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87996932"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96865360"
 ---
 # <a name="use-dns-policy-for-application-load-balancing"></a>Использование политики DNS для балансировки нагрузки приложений
 
@@ -75,17 +75,17 @@ Add-DnsServerZoneScope -ZoneName "contosogiftservices.com" -Name "DallasZoneScop
 Add-DnsServerZoneScope -ZoneName "contosogiftservices.com" -Name "ChicagoZoneScope"
 ```
 
-Дополнительные сведения см. в разделе [Add-днссерверзонескопе](/powershell/module/dnsserver/add-dnsserverzonescope?view=win10-ps) .
+Дополнительные сведения см. в разделе [Add-днссерверзонескопе](/powershell/module/dnsserver/add-dnsserverzonescope) .
 
 #### <a name="add-records-to-the-zone-scopes"></a><a name="bkmk_records"></a>Добавление записей в области зоны
 
 Теперь необходимо добавить записи, представляющие узел веб-сервера, в области зоны.
 
-В **сеаттлезонескопе**можно добавить запись www.contosogiftservices.com с IP-адресом 192.0.0.1, который находится в центре обработки данных в Сиэтле.
+В **сеаттлезонескопе** можно добавить запись www.contosogiftservices.com с IP-адресом 192.0.0.1, который находится в центре обработки данных в Сиэтле.
 
-В **чикагозонескопе**можно добавить ту же запись \( www.contosogiftservices.com \) с IP-адресом 182.0.0.1 в центре обработки данных в Чикаго.
+В **чикагозонескопе** можно добавить ту же запись \( www.contosogiftservices.com \) с IP-адресом 182.0.0.1 в центре обработки данных в Чикаго.
 
-Аналогичным образом в **далласзонескопе**можно добавить запись \( www.contosogiftservices.com \) с IP-адресом 162.0.0.1 в центре обработки данных в Чикаго.
+Аналогичным образом в **далласзонескопе** можно добавить запись \( www.contosogiftservices.com \) с IP-адресом 162.0.0.1 в центре обработки данных в Чикаго.
 
 Для добавления записей в области зоны можно использовать следующие команды Windows PowerShell.
 
@@ -95,7 +95,7 @@ Add-DnsServerResourceRecord -ZoneName "contosogiftservices.com" -A -Name "www" -
 Add-DnsServerResourceRecord -ZoneName "contosogiftservices.com" -A -Name "www" -IPv4Address "162.0.0.1" -ZoneScope "DallasZoneScope"
 ```
 
-Дополнительные сведения см. в разделе [Add-днссерверресаурцерекорд](/powershell/module/dnsserver/add-dnsserverresourcerecord?view=win10-ps).
+Дополнительные сведения см. в разделе [Add-днссерверресаурцерекорд](/powershell/module/dnsserver/add-dnsserverresourcerecord).
 
 #### <a name="create-the-dns-policies"></a><a name="bkmk_policies"></a>Создание политик DNS
 
@@ -110,7 +110,7 @@ Add-DnsServerResourceRecord -ZoneName "contosogiftservices.com" -A -Name "www" -
 Add-DnsServerQueryResolutionPolicy -Name "AmericaPolicy" -Action ALLOW -ZoneScope "SeattleZoneScope,2;ChicagoZoneScope,1;DallasZoneScope,1" -ZoneName "contosogiftservices.com"
 ```
 
-Дополнительные сведения см. в разделе [Add-днссерверкуериресолутионполици](/powershell/module/dnsserver/add-dnsserverqueryresolutionpolicy?view=win10-ps).
+Дополнительные сведения см. в разделе [Add-днссерверкуериресолутионполици](/powershell/module/dnsserver/add-dnsserverqueryresolutionpolicy).
 
 Теперь вы успешно создали политику DNS, которая обеспечивает балансировку нагрузки приложений между веб-серверами в трех разных центрах обработки данных.
 

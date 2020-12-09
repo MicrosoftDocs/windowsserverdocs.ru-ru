@@ -6,12 +6,12 @@ manager: dongill
 author: rpsqrd
 ms.author: ryanpu
 ms.date: 09/25/2019
-ms.openlocfilehash: 43762e34e2987473954e3f9408ddd6e74b0de3cb
-ms.sourcegitcommit: 3181fcb69a368f38e0d66002e8bc6fd9628b1acc
+ms.openlocfilehash: c6f20ebdf2bedd74af98e075ccf6f6ff60f96767
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "96330366"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96864163"
 ---
 # <a name="obtain-certificates-for-hgs"></a>Получение сертификатов для HGS
 
@@ -91,9 +91,9 @@ Remove-Item -Path "Cert:\LocalMachine\CA\$($encCert.Thumbprint)"
 Альтернативное имя субъекта | Если для достижения кластера HGS будет использоваться другое DNS-имя (например, если оно находится за подсистемой балансировки нагрузки или для подмножества узлов в сложной топологии используются разные адреса), обязательно включите эти DNS-имена в поле SAN запроса на сертификат. Обратите внимание, что если расширение SAN заполнено, имя субъекта игнорируется, поэтому SAN должно включать все значения, включая ту, которая обычно заносится в имя субъекта.
 
 Параметры для указания этого сертификата при инициализации сервера HGS рассматриваются в разделе [Настройка первого узла HGS](guarded-fabric-initialize-hgs.md).
-Вы также можете добавить или изменить SSL-сертификат позже с помощью командлета [Set-HgsServer](/powershell/module/hgsserver/set-hgsserver?view=win10-ps) .
+Вы также можете добавить или изменить SSL-сертификат позже с помощью командлета [Set-HgsServer](/powershell/module/hgsserver/set-hgsserver) .
 
-## <a name="next-step"></a>Следующий шаг
+## <a name="next-step"></a>Следующий этап
 
 > [!div class="nextstepaction"]
 > [Установка HGS](guarded-fabric-choose-where-to-install-hgs.md)

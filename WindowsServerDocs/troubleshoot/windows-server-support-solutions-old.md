@@ -6,12 +6,12 @@ ms.date: 03/16/2018
 ms.topic: article
 author: kaushika-msft
 ms.author: elizapo
-ms.openlocfilehash: ba9654fd60534e53211d65cfd2006320cea20383
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 7bc533063c52af2087d822a428458ba8efab94fc
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87997282"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96864673"
 ---
 # <a name="top-support-solutions-for-windows-server-2016"></a>Основные решения поддержки для Windows Server 2016
 
@@ -28,7 +28,7 @@ ms.locfileid: "87997282"
 - [Обновление стека обслуживания для Windows 10 версии 1607 и Windows Server 2016: 8 августа 2017 г.](https://support.microsoft.com/help/4035631)
 - [Обновление совместимости для обновления до Windows 10 версии 1607 и Windows Server 2016: 3 августа 2017 г.](https://support.microsoft.com/help/4033524)
 - [На виртуальных машинах Azure на базе Windows обновление системы на месте не поддерживается](https://support.microsoft.com/help/4014997)
-- [Параметры обновления и преобразования для Windows Server 2016](../get-started/supported-upgrade-paths.md)
+- [Варианты обновления и преобразования для Windows Server 2016](../get-started/supported-upgrade-paths.md)
 - [Матрица обновления и миграции ролей сервера для Windows Server 2016](../get-started/server-role-upgradeability-table.md)
 - [Установка и обновление Windows Server](../get-started/installation-and-upgrade.md)
 - [Заметки о выпуске. Важные проблемы в Windows Server 2016](../get-started/windows-server-2016-ga-release-notes.md)
@@ -46,7 +46,7 @@ ms.locfileid: "87997282"
 ## <a name="solutions-related-to-dcpromo-and-installing-domain-controllers"></a>Решения, связанные с DCPromo и установкой контроллера домена
 - [Требования к портам для Active Directory и доменных служб Active Directory](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd772723(v=ws.10))
 - [Active Directory порты брандмауэра — Давайте попробуем сделать это простым](http://blogs.msmvps.com/acefekay/2011/11/01/active-directory-firewall-ports-let-s-try-to-make-this-simple/)
-- [Поддержки Exchange Server для Windows Server 2016](/Exchange/plan-and-deploy/supportability-matrix?view=exchserver-2019)
+- [Поддержки Exchange Server для Windows Server 2016](/Exchange/plan-and-deploy/supportability-matrix)
 - [Использование Ntdsutil.exe для переноса или изменения размера ролей FSMO в контроллере домена](https://support.microsoft.com/kb/255504)
 - [Устранение неполадок с развертыванием контроллера домена](../identity/ad-ds/deploy/troubleshooting-domain-controller-deployment.md)
 - [Troubleshooting Active Directory Installation Wizard Problems](/previous-versions/windows/it-pro/windows-2000-server/bb727058(v=technet.10)) (Устранение неполадок с мастером установки Active Directory)

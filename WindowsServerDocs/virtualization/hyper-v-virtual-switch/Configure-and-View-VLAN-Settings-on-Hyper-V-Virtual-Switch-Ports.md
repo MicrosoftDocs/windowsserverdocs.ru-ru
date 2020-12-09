@@ -6,12 +6,12 @@ ms.topic: article
 ms.assetid: 69e0e28a-98ae-4ade-bd27-ce2ad7eb310f
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 85d622094ac81aea8a2d90e4ef6eb5d226d0b290
-ms.sourcegitcommit: 50b295002d60f4183f452cc169f0768a347830ea
+ms.openlocfilehash: 3f359656a42100e79c475a0ca3f55251731f8222
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "91248587"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96865104"
 ---
 # <a name="configure-and-view-vlan-settings-on-hyper-v-virtual-switch-ports"></a>Настройка и просмотр параметров виртуальной локальной сети на портах виртуального коммутатора Hyper-V
 
@@ -55,7 +55,7 @@ Set-VMNetworkAdapterVlan <VM-name|-managementOS> -Access -VlanID <vlan-value>
 
 Дополнительные сведения о командах Windows PowerShell, указанных в этом разделе, см. в следующих разделах:
 
-- [Set-Вмнетворкадаптерисолатион](/powershell/module/hyper-v/set-vmnetworkadapterisolation?view=win10-ps)
-- [Get-Вмнетворкадаптерисолатион](/powershell/module/hyper-v/get-vmnetworkadapterisolation?view=win10-ps)
-- [Set-Вмнетворкадаптервлан](/powershell/module/hyper-v/set-vmnetworkadaptervlan?view=win10-ps)
-- [Get-Вмнетворкадаптервлан](/powershell/module/hyper-v/get-vmnetworkadaptervlan?view=win10-ps)
+- [Set-Вмнетворкадаптерисолатион](/powershell/module/hyper-v/set-vmnetworkadapterisolation)
+- [Get-Вмнетворкадаптерисолатион](/powershell/module/hyper-v/get-vmnetworkadapterisolation)
+- [Set-Вмнетворкадаптервлан](/powershell/module/hyper-v/set-vmnetworkadaptervlan)
+- [Get-Вмнетворкадаптервлан](/powershell/module/hyper-v/get-vmnetworkadaptervlan)

@@ -6,12 +6,12 @@ ms.topic: article
 ms.assetid: a255a4a5-c1a0-4edc-b41a-211bae397e3c
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: e8b19df2313bd0f3f6599aae8a23a18233f469e7
-ms.sourcegitcommit: 5344adcf9c0462561a4f9d47d80afc1d095a5b13
+ms.openlocfilehash: 5e9187fd549f9982ab8d0bea5ffa9b45d6e1e3c7
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90766927"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96865283"
 ---
 # <a name="use-dns-policy-for-split-brain-dns-deployment"></a>Использование политики DNS для разделения раздельного \- развертывания DNS
 
@@ -20,7 +20,7 @@ ms.locfileid: "90766927"
 С помощью этого раздела вы узнаете, как настроить политику DNS в Windows Server &reg; 2016 для раздельных развертываний DNS, где есть две версии одной зоны — одна для внутренних пользователей в интрасети организации, а другая — для внешних пользователей, которые обычно являются пользователями в Интернете.
 
 >[!NOTE]
->Сведения о том, как использовать политику DNS для разделения раздельного \- развертывания DNS с помощью Active Directory интегрированных зоны DNS, см. [в статье Использование политики DNS для разделения с помощью dns в Active Directory](dns-sb-with-ad.md).
+>Сведения об использовании политики DNS для разделения раздельного \- развертывания DNS с помощью Active Directory интегрированных зоны DNS см. [в статье Использование политики dns для Split-Brain dns в Active Directory](dns-sb-with-ad.md).
 
 Ранее этот сценарий требовал, чтобы администраторы DNS поддерживали два разных DNS-сервера, каждый из которых предоставляет службы каждому набору пользователей, внутренним и внешним. Если несколько записей в зоне были разделены, \- или оба экземпляра зоны (внутренние и внешние) были делегированы в один и тот же родительский домен, это стало загадка управления.
 
@@ -28,16 +28,16 @@ ms.locfileid: "90766927"
 
 В этом разделе содержатся следующие подразделы.
 
-- [Пример развертывания DNS с разделением-мозгом](#bkmk_sbexample)
+- [Пример развертывания Split-Brain DNS](#bkmk_sbexample)
 - [Пример управления выборочной рекурсией DNS](#bkmk_recursion)
 
-## <a name="example-of-dns-split-brain-deployment"></a><a name="bkmk_sbexample"></a>Пример развертывания DNS с разделением-мозгом
+## <a name="example-of-dns-split-brain-deployment"></a><a name="bkmk_sbexample"></a>Пример развертывания Split-Brain DNS
 Ниже приведен пример того, как можно использовать политику DNS для выполнения описанного выше сценария «разделение-DNS».
 
 Этот раздел содержит следующие подразделы.
 
-- [Как работает развертывание с разделением DNS](#bkmk_sbhow)
-- [Настройка развернутого сервера с разделением DNS](#bkmk_sbconfigure)
+- [Как работает развертывание Split-Brain DNS](#bkmk_sbhow)
+- [Настройка развертывания Split-Brain DNS](#bkmk_sbconfigure)
 
 В этом примере используется одна вымышленная компания Contoso, которая поддерживает веб-узел карьеры по адресу www.career.contoso.com.
 
@@ -51,9 +51,9 @@ ms.locfileid: "90766927"
 
 Этот сценарий показан на следующем рисунке.
 
-![Раздельное развертывание DNS](../../media/DNS-Split-Brain/Dns-Split-Brain-01.jpg)
+![Split-Brain развертывание DNS](../../media/DNS-Split-Brain/Dns-Split-Brain-01.jpg)
 
-## <a name="how-dns-split-brain-deployment-works"></a><a name="bkmk_sbhow"></a>Как работает развертывание с разделением DNS
+## <a name="how-dns-split-brain-deployment-works"></a><a name="bkmk_sbhow"></a>Как работает развертывание Split-Brain DNS
 
 Если DNS-сервер настроен с использованием требуемых политик DNS, каждый запрос разрешения имен оценивается по политикам на DNS-сервере.
 
@@ -63,8 +63,8 @@ ms.locfileid: "90766927"
 
 Таким образом, в нашем примере запросы DNS для www.career.contoso.com, полученные на частном IP-адресе (10.0.0.56), получают ответ DNS, который содержит внутренние IP-адреса. и запросы DNS, получаемые в общедоступном сетевом интерфейсе, получают ответ DNS, содержащий общедоступный IP-адрес в области зоны по умолчанию (это то же самое, что и обычная разрешающая способность запросов).
 
-## <a name="how-to-configure-dns-split-brain-deployment"></a><a name="bkmk_sbconfigure"></a>Настройка развернутого сервера с разделением DNS
-Чтобы настроить развертывание с разделением DNS с помощью политики DNS, необходимо выполнить следующие действия.
+## <a name="how-to-configure-dns-split-brain-deployment"></a><a name="bkmk_sbconfigure"></a>Настройка развертывания Split-Brain DNS
+Чтобы настроить развертывание Split-Brain DNS с помощью политики DNS, необходимо выполнить следующие действия.
 
 - [Создание областей зоны](#bkmk_zscopes)
 - [Добавление записей в области зоны](#bkmk_records)
@@ -86,7 +86,7 @@ ms.locfileid: "90766927"
 
 `Add-DnsServerZoneScope -ZoneName "contoso.com" -Name "internal"`
 
-Дополнительные сведения см. в разделе [Add-днссерверзонескопе](/powershell/module/dnsserver/add-dnsserverzonescope?view=win10-ps) .
+Дополнительные сведения см. в разделе [Add-днссерверзонескопе](/powershell/module/dnsserver/add-dnsserverzonescope) .
 
 ### <a name="add-records-to-the-zone-scopes"></a><a name="bkmk_records"></a>Добавление записей в области зоны
 
@@ -103,14 +103,14 @@ Add-DnsServerResourceRecord -ZoneName "contoso.com" -A -Name "www.career" -IPv4A
 Add-DnsServerResourceRecord -ZoneName "contoso.com" -A -Name "www.career" -IPv4Address "10.0.0.39” -ZoneScope "internal"
 `
 
-Дополнительные сведения см. в разделе [Add-днссерверресаурцерекорд](/powershell/module/dnsserver/add-dnsserverresourcerecord?view=win10-ps).
+Дополнительные сведения см. в разделе [Add-днссерверресаурцерекорд](/powershell/module/dnsserver/add-dnsserverresourcerecord).
 
 ### <a name="create-the-dns-policies"></a><a name="bkmk_policies"></a>Создание политик DNS
 
 После определения интерфейсов сервера для внешней сети и внутренней сети, а также для создания областей зоны необходимо создать политики DNS, которые соединяют внутренние и внешние области зоны.
 
 >[!NOTE]
->В этом примере серверный интерфейс используется в качестве критерия для различения внутренних и внешних клиентов. Другим способом различения внешних и внутренних клиентов является использование подсетей клиента в качестве критерия. Если вы можете определить подсети, к которым принадлежат внутренние клиенты, можно настроить политику DNS, чтобы отличать их от подсети клиента. Сведения о настройке управления трафиком с помощью критериев подсети клиента см. в статье [Использование политики DNS для управления трафиком на основе географического расположения с основными серверами](./primary-geo-location.md).
+>В этом примере серверный интерфейс используется в качестве критерия для различения внутренних и внешних клиентов. Другим способом различения внешних и внутренних клиентов является использование подсетей клиента в качестве критерия. Если вы можете определить подсети, к которым принадлежат внутренние клиенты, можно настроить политику DNS, чтобы отличать их от подсети клиента. Сведения о настройке управления трафиком с помощью критериев подсети клиента см. в статье [Использование политики DNS для управления трафиком на основе Geo-Location с серверами-источниками](./primary-geo-location.md).
 
 Когда DNS-сервер получает запрос к частному интерфейсу, ответ на запрос DNS возвращается из внутренней области зоны.
 
@@ -121,7 +121,7 @@ Add-DnsServerResourceRecord -ZoneName "contoso.com" -A -Name "www.career" -IPv4A
 
 `Add-DnsServerQueryResolutionPolicy -Name "SplitBrainZonePolicy" -Action ALLOW -ServerInterface "eq,10.0.0.56" -ZoneScope "internal,1" -ZoneName contoso.com`
 
-Дополнительные сведения см. в разделе [Add-днссерверкуериресолутионполици](/powershell/module/dnsserver/add-dnsserverqueryresolutionpolicy?view=win10-ps).
+Дополнительные сведения см. в разделе [Add-днссерверкуериресолутионполици](/powershell/module/dnsserver/add-dnsserverqueryresolutionpolicy).
 
 ## <a name="example-of-dns-selective-recursion-control"></a><a name="bkmk_recursion"></a>Пример управления выборочной рекурсией DNS
 
@@ -183,7 +183,7 @@ Set-DnsServerRecursionScope -Name . -EnableRecursion $False
 Add-DnsServerRecursionScope -Name "InternalClients" -EnableRecursion $True
 ```
 
-Дополнительные сведения см. в разделе [Add-днссерверрекурсионскопе](/powershell/module/dnsserver/add-dnsserverrecursionscope?view=win10-ps) .
+Дополнительные сведения см. в разделе [Add-днссерверрекурсионскопе](/powershell/module/dnsserver/add-dnsserverrecursionscope) .
 
 #### <a name="create-dns-recursion-policies"></a><a name="bkmk_recpolicy"></a>Создание политик рекурсии DNS
 
@@ -199,7 +199,7 @@ Add-DnsServerRecursionScope -Name "InternalClients" -EnableRecursion $True
 Add-DnsServerQueryResolutionPolicy -Name "SplitBrainRecursionPolicy" -Action ALLOW -ApplyOnRecursion -RecursionScope "InternalClients" -ServerInterfaceIP "EQ,10.0.0.39"
 ```
 
-Дополнительные сведения см. в разделе [Add-днссерверкуериресолутионполици](/powershell/module/dnsserver/add-dnsserverqueryresolutionpolicy?view=win10-ps).
+Дополнительные сведения см. в разделе [Add-днссерверкуериресолутионполици](/powershell/module/dnsserver/add-dnsserverqueryresolutionpolicy).
 
 Теперь DNS-сервер настроен с использованием требуемых политик DNS для сервера доменных имен с разделением или DNS-сервера, для которого включено выборочное управление рекурсией для внутренних клиентов.
 

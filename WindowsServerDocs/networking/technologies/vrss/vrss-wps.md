@@ -8,12 +8,12 @@ manager: dougkim
 ms.author: lizross
 author: eross-msft
 ms.date: 09/05/2018
-ms.openlocfilehash: 424344147ff926694709aa60fbf57380fbbf665b
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: a5cc6d3b95b842e806c9f2c9a5762e5f29ce4c7b
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87996412"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96863973"
 ---
 # <a name="windows-powershell-commands-for-rss-and-vrss"></a>Команды Windows PowerShell для RSS и vRSS
 
@@ -21,16 +21,16 @@ ms.locfileid: "87996412"
 
 В этом разделе вы узнаете, как быстро находить технические справочные сведения о командах Windows PowerShell для масштабирования на стороне приема \( RSS \) и виртуального RSS-канала \( \) .
 
-Используйте следующие команды RSS для настройки RSS на физическом компьютере с несколькими процессорами или несколькими ядрами. Вы можете использовать те же команды для настройки vRSS на виртуальной машине виртуальной \( машины \) , работающей под управлением поддерживаемой операционной системы. Дополнительные сведения см. [в разделе командлеты сетевого адаптера в Windows PowerShell](/powershell/module/netadapter/?view=win10-ps).
+Используйте следующие команды RSS для настройки RSS на физическом компьютере с несколькими процессорами или несколькими ядрами. Вы можете использовать те же команды для настройки vRSS на виртуальной машине виртуальной \( машины \) , работающей под управлением поддерживаемой операционной системы. Дополнительные сведения см. [в разделе командлеты сетевого адаптера в Windows PowerShell](/powershell/module/netadapter/).
 
 ## <a name="configure-vmq"></a>Настройка VMQ
 
 для vRSS требуется, чтобы VMQ была включена и настроена. Для управления параметрами VMQ можно использовать следующие команды Windows PowerShell.
 
-- [Disable-Нетадаптервмк](/powershell/module/netadapter/disable-netadaptervmq?view=win10-ps)
-- [Enable-Нетадаптервмк](/powershell/module/netadapter/enable-netadaptervmq?view=win10-ps)
-- [Get-Нетадаптервмк](/powershell/module/netadapter/get-netadaptervmq?view=win10-ps)
-- [Set-Нетадаптервмк](/powershell/module/netadapter/set-netadaptervmq?view=win10-ps)
+- [Disable-Нетадаптервмк](/powershell/module/netadapter/disable-netadaptervmq)
+- [Enable-Нетадаптервмк](/powershell/module/netadapter/enable-netadaptervmq)
+- [Get-Нетадаптервмк](/powershell/module/netadapter/get-netadaptervmq)
+- [Set-Нетадаптервмк](/powershell/module/netadapter/set-netadaptervmq)
 
 ## <a name="enable-and-configure-rss-on-a-native-host"></a>Включение и Настройка RSS на собственном узле
 
@@ -39,10 +39,10 @@ ms.locfileid: "87996412"
 >[!IMPORTANT]
 >Включение RSS в виртуальной машине или узле vNIC является необходимым условием для включения и использования vRSS.
 
-- [Disable-Нетадаптеррсс](/powershell/module/netadapter/disable-netadapterrss?view=win10-ps)
-- [Enable-Нетадаптеррсс](/powershell/module/netadapter/enable-netadapterrss?view=win10-ps)
-- [Get-Нетадаптеррсс](/powershell/module/netadapter/get-netadapterrss?view=win10-ps)
-- [Set-Нетадаптеррсс](/powershell/module/netadapter/Set-NetAdapterRss?view=win10-ps)
+- [Disable-Нетадаптеррсс](/powershell/module/netadapter/disable-netadapterrss)
+- [Enable-Нетадаптеррсс](/powershell/module/netadapter/enable-netadapterrss)
+- [Get-Нетадаптеррсс](/powershell/module/netadapter/get-netadapterrss)
+- [Set-Нетадаптеррсс](/powershell/module/netadapter/Set-NetAdapterRss)
 
 ## <a name="enable-vrss-on-the-hyper-v-virtual-switch-port"></a>Включение vRSS на \- порте виртуального коммутатора Hyper V
 
@@ -118,7 +118,7 @@ ms.locfileid: "87996412"
 ## <a name="related-topics"></a>Связанные темы
 Дополнительные сведения см. в следующих справочных разделах.
 
-- [Get-VMNetworkAdapter](/powershell/module/hyper-v/get-vmnetworkadapter?view=win10-ps)
-- [Set-VMNetworkAdapter](/powershell/module/hyper-v/set-vmnetworkadapter?view=win10-ps)
+- [Get-VMNetworkAdapter](/powershell/module/hyper-v/get-vmnetworkadapter)
+- [Set-VMNetworkAdapter](/powershell/module/hyper-v/set-vmnetworkadapter)
 
 Дополнительные сведения см. в статье [виртуальное масштабирование на стороне приема (vRSS)](vrss-top.md).

@@ -7,22 +7,22 @@ manager: dougkim
 ms.author: lizross
 author: eross-msft
 ms.date: 09/20/2018
-ms.openlocfilehash: ce9c4049ab701d647701029f41d2570b7fc8cd03
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: a08de5815a364dc39dd975a37ac3be594978ea88
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87997654"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96864493"
 ---
 # <a name="nic-advanced-properties"></a>Дополнительные свойства NIC
 
-Управлять сетевыми картами и всеми функциями можно через Windows PowerShell с помощью командлета [NetAdapter](/powershell/module/netadapter/?view=win10-ps&viewFallbackFrom=winserverr2-ps) .  Также можно управлять сетевыми картами и всеми функциями с помощью панели управления сетью (ncpa.cpl).
+Управлять сетевыми картами и всеми функциями можно через Windows PowerShell с помощью командлета [NetAdapter](/powershell/module/netadapter/) .  Также можно управлять сетевыми картами и всеми функциями с помощью панели управления сетью (ncpa.cpl).
 
-1. В **Windows PowerShell**выполните `Get‑NetAdapterAdvancedProperties` командлет для двух различных способов создания или модели сетевых карт.
+1. В **Windows PowerShell** выполните `Get‑NetAdapterAdvancedProperties` командлет для двух различных способов создания или модели сетевых карт.
 
-   ![Get-Нетадаптерадванцедпроперти M1](../../media/network-offload-and-optimization/Get-NetAdapterAdvancedProperty-m1.png)
+   ![Get-NetAdapterAdvancedProperty M1](../../media/network-offload-and-optimization/Get-NetAdapterAdvancedProperty-m1.png)
 
-   ![Get-Нетадаптерадванцедпроперти C1](../../media/network-offload-and-optimization/Get-NetAdapterAdvancedProperty-c1.png)
+   ![Get-NetAdapterAdvancedProperty C1](../../media/network-offload-and-optimization/Get-NetAdapterAdvancedProperty-c1.png)
 
    В этих двух списках дополнительных свойств сетевого адаптера есть сходства и различия.
 

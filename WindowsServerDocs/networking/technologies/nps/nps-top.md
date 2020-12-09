@@ -7,12 +7,12 @@ ms.assetid: 9c7a67e0-0953-479c-8736-ccb356230bde
 ms.author: lizross
 author: eross-msft
 ms.date: 06/20/2018
-ms.openlocfilehash: 04498a73c04df8f9bce091c8ba583c323f28bbf1
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 815bc9d01f8e5e8b85cfeecb9beb70963b18d14f
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87990404"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96865483"
 ---
 # <a name="network-policy-server-nps"></a>Сервер политики сети
 
@@ -27,9 +27,9 @@ ms.locfileid: "87990404"
 > - [Планирование сервера политики сети](nps-plan-top.md)
 > - [Развертывание сервера политики сети](nps-deploy.md)
 > - [Управление сервером политики сети](nps-manage-top.md)
-> - [Командлеты сервера политики сети (NPS) в Windows PowerShell](/powershell/module/nps/?view=win10-ps) для windows Server 2016 и Windows 10
-> - [Командлеты сервера политики сети (NPS) в Windows PowerShell](/powershell/module/nps/?view=win10-ps) для windows Server 2012 R2 и Windows 8.1
-> - [Командлеты NPS в Windows PowerShell](/powershell/module/nps/?view=win10-ps) для windows Server 2012 и Windows 8
+> - [Командлеты сервера политики сети (NPS) в Windows PowerShell](/powershell/module/nps/) для windows Server 2016 и Windows 10
+> - [Командлеты сервера политики сети (NPS) в Windows PowerShell](/powershell/module/nps/) для windows Server 2012 R2 и Windows 8.1
+> - [Командлеты NPS в Windows PowerShell](/powershell/module/nps/) для windows Server 2012 и Windows 8
 
 Сервер сетевых политик (NPS) позволяет создавать и применять политики доступа к сети на уровне организации для проверки подлинности и авторизации сетевых подключений.
 

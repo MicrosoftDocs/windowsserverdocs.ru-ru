@@ -6,12 +6,12 @@ author: billmath
 manager: mtillman
 ms.date: 01/28/2019
 ms.topic: article
-ms.openlocfilehash: 5847b2fe6846fb4f89dcb0239167ea2ce55af1e0
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: dc2ab294e0e42bf640b5fb9b0159314a0373fe0d
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87966841"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96864923"
 ---
 # <a name="configure-azure-mfa-as-authentication-provider-with-ad-fs"></a>Настройка Azure MFA в качестве поставщика проверки подлинности с помощью AD FS
 
@@ -75,7 +75,7 @@ Set-AdfsClaimsProviderTrust -AnchorClaimType "http://schemas.xmlsoap.org/ws/2005
       - https://adnotifications.windowsazure.com
       - https://login.microsoftonline.com
 - Локальная среда является [Федеративной с Azure AD.](/azure/active-directory/hybrid/how-to-connect-install-custom#configuring-federation-with-ad-fs)
-- [Модуль windows Azure Active Directory для Windows PowerShell](/powershell/module/azuread/?view=azureadps-2.0).
+- [Модуль windows Azure Active Directory для Windows PowerShell](/powershell/module/azuread/).
 - Разрешения глобального администратора в экземпляре Azure AD, чтобы настроить его с помощью Azure AD PowerShell.
 - Учетные данные администратора предприятия для настройки фермы AD FS для Azure MFA.
 
@@ -291,7 +291,7 @@ New expiration date: 2/27/2020 2:16:07 AM.
     //End Custom Code
     ```
     > [!IMPORTANT]
-    > Необходимо изменить "<YOUR_DOMAIN_NAME_HERE>"; для использования доменного имени. Пример: `var domain_hint = "contoso.com";`
+    > Необходимо изменить "<YOUR_DOMAIN_NAME_HERE>"; для использования доменного имени. Например: `var domain_hint = "contoso.com";`
 
 5. Сохранение файла onload.js
 6. Импортируйте файл onload.js в пользовательскую тему, введя следующую команду Windows PowerShell:

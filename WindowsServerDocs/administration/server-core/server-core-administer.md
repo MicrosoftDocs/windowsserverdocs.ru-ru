@@ -7,12 +7,12 @@ author: pronichkin
 ms.author: artemp
 ms.localizationpriority: medium
 ms.date: 12/18/2018
-ms.openlocfilehash: 089d6437bd8c246bae3da5898870ea9cdd442656
-ms.sourcegitcommit: 7cacfc38982c6006bee4eb756bcda353c4d3dd75
+ms.openlocfilehash: 2cdddf706d03aa5b1aa1239b58fd4d8a9f4beed2
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "90077871"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96864323"
 ---
 # <a name="administer-a-server-core-server"></a>Администрирование сервера Server Core
 
@@ -40,7 +40,7 @@ ms.locfileid: "90077871"
    New-NetIPaddress -InterfaceIndex 12 -IPAddress 192.0.2.2 -PrefixLength 24 -DefaultGateway 192.0.2.1
    ```
 
-   где:
+   Где:
    - **InterfaceIndex** — это значение **ifindex** из шага 2. (В нашем примере — 12)
    - **IPAddress** — это статический IP-адрес, который вы хотите задать. (В нашем примере это 191.0.2.2)
    - **PrefixLength** — это длина префикса (другая форма маски подсети) для НАСТРОЕННОГО IP-адреса. (Для нашего примера — 24)
@@ -51,7 +51,7 @@ ms.locfileid: "90077871"
    Set-DNSClientServerAddress –InterfaceIndex 12 -ServerAddresses 192.0.2.4
    ```
 
-   где:
+   Где:
    - **InterfaceIndex** — это значение ifindex из шага 2.
    - **Сервераддрессес** — это IP-адрес DNS-сервера.
 5. Чтобы добавить несколько DNS-серверов, выполните следующий командлет:
@@ -79,12 +79,12 @@ ms.locfileid: "90077871"
 Чтобы переименовать сервер, выполните следующие действия.
 
 1. Определите текущее имя сервера с помощью команды " **HostName** " или " **ipconfig** ".
-2. Выполните команду **Rename-Computer \<new_name\> -ComputerName **.
+2. Выполните команду **Rename-Computer \<new_name\> -ComputerName**.
 3. Перезагрузите компьютер.
 
 ### <a name="activate-the-server"></a>Активация сервера
 
-Запустите **сценарий slmgr. vbs – \<productkey\> ИПК**. Затем запустите **slmgr. vbs – ATO**. Если активация прошла удачно, сообщение не будет получено.
+Запустите **slmgr.vbs — ИПК \<productkey\>**. Затем запустите **slmgr.vbs — ATO**. Если активация прошла удачно, сообщение не будет получено.
 
 > [!NOTE]
 > Вы также можете активировать сервер по телефону, используя [сервер службы управления ключами (KMS)](../../get-started/server-2016-activation.md)или удаленно. Для удаленной активации выполните следующий командлет с удаленного компьютера:
@@ -95,7 +95,7 @@ ms.locfileid: "90077871"
 
 ### <a name="configure-windows-firewall"></a>Настройка брандмауэра Windows
 
-Брандмауэр Windows на компьютере с основными серверными компонентами можно настроить локально, используя командлеты и сценарии Windows PowerShell. Командлеты, которые можно использовать для настройки брандмауэра Windows, см. в разделе [NetSecurity](/powershell/module/netsecurity/?view=win10-ps) .
+Брандмауэр Windows на компьютере с основными серверными компонентами можно настроить локально, используя командлеты и сценарии Windows PowerShell. Командлеты, которые можно использовать для настройки брандмауэра Windows, см. в разделе [NetSecurity](/powershell/module/netsecurity/) .
 
 ### <a name="enable-windows-powershell-remoting"></a>Разрешение удаленного взаимодействия с Windows PowerShell
 
@@ -126,9 +126,9 @@ ms.locfileid: "90077871"
 |                 Изменение статического IP-адреса                 | **ipconfig/all** <br>Запишите соответствующие сведения или перенаправьте их в текстовый файл (**ipconfig/all >ipconfig.txt**).<br>**Интерфейс Netsh интерфейса IPv4 показывать интерфейсы**<br>Убедитесь в наличии списка интерфейсов.<br>**netsh interface IPv4 Set адрес \<Name ID from interface list\> источник = статический адрес = \<preferred IP address\> шлюз =\<gateway address\>**<br>Выполните **команду ipconfig/all** , чтобы убедиться, что параметр DHCP включен в значение **нет**. |
 |                   Задайте статический DNS-адрес.                   |   <strong>netsh interface IPv4 Add dnsserver Name = \<name or ID of the network interface card\> адрес = \<IP address of the primary DNS server\> index = 1 <br></strong>netsh interface IPv4 Add dnsserver Name = \<name of secondary DNS server\> адрес = \<IP address of the secondary DNS server\> индекс = 2\*\* <br> Повторите эти действия, чтобы добавить дополнительные серверы.<br>Выполните **команду ipconfig/all** , чтобы убедиться в правильности адресов.   |
 | Изменение статического IP-адреса на IP-адрес, получаемый по протоколу DHCP |                                                                                                                                      **netsh interface IPv4 Set адрес Name = \<IP address of local system\> Source = DHCP** <br>Выполните **команду ipconfig/all** , чтобы убедиться, что для параметра DCHP Enabled задано значение **Да**.                                                                                                                                      |
-|                      Ввод ключа продукта                      |                                                                                                                                                                                                   **slmgr. vbs — ИПК \<product key\>**                                                                                                                                                                                                    |
-|                  Локальная активация сервера                  |                                                                                                                                                                                                           **slmgr. vbs-ATO**                                                                                                                                                                                                            |
-|                 Удаленная активация сервера                  |                                            **cscript slmgr. vbs – ИПК \<product key\>\<server name\>\<username\>\<password\>** <br>**cscript slmgr. vbs-ATO \<servername\> \<username\>\<password\>** <br>Получите идентификатор GUID компьютера, выполнив **cscript slmgr. vbs.** <br> Запустите **cscript slmgr. vbs-dli \<GUID\> ** <br>Убедитесь, что для состояния лицензии задано значение **лицензировано (активировано)**.                                             |
+|                      Ввод ключа продукта                      |                                                                                                                                                                                                   **slmgr.vbs — ИПК \<product key\>**                                                                                                                                                                                                    |
+|                  Локальная активация сервера                  |                                                                                                                                                                                                           **slmgr.vbs-ATO**                                                                                                                                                                                                            |
+|                 Удаленная активация сервера                  |                                            **cscript slmgr.vbs — ИПК \<product key\>\<server name\>\<username\>\<password\>** <br>**cscript slmgr.vbs — ATO \<servername\> \<username\>\<password\>** <br>Получите идентификатор GUID компьютера, выполнив **cscript slmgr.vbs —** <br> Запуск **cscript slmgr.vbs-dli \<GUID\>** <br>Убедитесь, что для состояния лицензии задано значение **лицензировано (активировано)**.                                             |
 
 ### <a name="networking-and-firewall"></a>Сеть и брандмауэр
 
@@ -165,8 +165,8 @@ ms.locfileid: "90077871"
 |                               Задача                               |                                                                                                                                                                                                             Get-Help                                                                                                                                                                                                              |
 |------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |                    Список выполняющихся служб                     |                                                                                                                                                                                                  **SC Query** или **net start**                                                                                                                                                                                                   |
-|                         Запуск службы                          |                                                                                                                                                                                 **Запуск \<service name\> SC** или **net start \<service name\> **                                                                                                                                                                                  |
-|                          Остановка службы                          |                                                                                                                                                                                  **отключение \<service name\> SC** или **net останавливаться \<service name\> **                                                                                                                                                                                   |
+|                         Запуск службы                          |                                                                                                                                                                                 **Запуск \<service name\> SC** или **net start \<service name\>**                                                                                                                                                                                  |
+|                          Остановка службы                          |                                                                                                                                                                                  **отключение \<service name\> SC** или **net останавливаться \<service name\>**                                                                                                                                                                                   |
 | Получение списка запущенных приложений и связанных процессов |                                                                                                                                                                                                           **tasklist**                                                                                                                                                                                                           |
 |                        Запуск диспетчера задач                        |                                                                                                                                                                                                           **панели Диспетчер задач**                                                                                                                                                                                                            |
 |    Создание и управление сеансами трассировки событий и журналами производительности    | Создание счетчика, трассировки, сбора данных конфигурации или API-интерфейса: **Logman цеате** <br>Запрос свойств сборщика данных: **Logman Query** <br>Запуск или завершение сбора данных: **запустить команду logman \| Start** <br>Удаление сборщика: **Logman Delete** <br> Обновление свойств сборщика: **Logman Update** <br>Импорт набора сборщиков данных из XML-файла или его экспорт в XML-файл: **Logman Import \| Export** |

@@ -7,12 +7,12 @@ ms.author: lizross
 author: eross-msft
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 070a45b2d42c16e00dbd5bc0a180c20377ff97bf
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 11129fbc3ea74c2e9e5f029e397357212e1c548d
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89628140"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96865423"
 ---
 # <a name="mqsvc"></a>mqsvc
 
@@ -28,4 +28,4 @@ mqsvc.exe
 
 - [Условные обозначения синтаксиса команд командной строки](command-line-syntax-key.md)
 
-- [Справочник по MSMQ PowerShell](/powershell/module/msmq/?view=win10-ps)
+- [Справочник по MSMQ PowerShell](/powershell/module/msmq/)

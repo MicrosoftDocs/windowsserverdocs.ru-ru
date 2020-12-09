@@ -6,12 +6,12 @@ ms.author: arduppal
 ms.date: 12/19/2018
 ms.topic: article
 manager: mchad
-ms.openlocfilehash: cb1b712e62b3b77def304526c7b65fd5187b56d5
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: f0658434f8a14080b56efa5cacbd20ebeb11438d
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87939363"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96864797"
 ---
 # <a name="cluster-to-cluster-storage-replica-cross-region-in-azure"></a>Межрегиональная межкластерная репликация хранилища в Azure
 
@@ -27,7 +27,7 @@ ms.locfileid: "87939363"
 > Все примеры, на которые указывают ссылки, относятся к иллюстрации выше.
 
 
-1. В портал Azure создайте [группы ресурсов](https://ms.portal.azure.com/#create/Microsoft.ResourceGroup) в двух разных регионах.
+1. В портал Azure создайте [группы ресурсов](https://ms.portal.azure.com/#create/Microsoft.ResourceGroup)  в двух разных регионах.
 
     Например, **SR-AZ2AZ** в **Западная часть США 2** и **SR-АЗКРОСС** в **западной центральной части США**, как показано выше.
 
@@ -36,12 +36,12 @@ ms.locfileid: "87939363"
     - Группа доступности (**азкросс-AS**) в (**SR-азкросс**)
 
 3. создание двух виртуальных сетей;
-   - Создайте [виртуальную сеть](https://ms.portal.azure.com/#create/Microsoft.VirtualNetwork-ARM) (**az2az-vnet**) в первой группе ресурсов (**SR-az2az**) с одной подсетью и одной подсетью шлюза.
-   - Создайте [виртуальную сеть](https://ms.portal.azure.com/#create/Microsoft.VirtualNetwork-ARM) (**азкросс-vnet**) во второй группе ресурсов (**SR-азкросс**) с одной подсетью и одной подсетью шлюза.
+   - Создайте [виртуальную сеть](https://ms.portal.azure.com/#create/Microsoft.VirtualNetwork-ARM)  (**az2az-vnet**) в первой группе ресурсов (**SR-az2az**) с одной подсетью и одной подсетью шлюза.
+   - Создайте [виртуальную сеть](https://ms.portal.azure.com/#create/Microsoft.VirtualNetwork-ARM)  (**азкросс-vnet**) во второй группе ресурсов (**SR-азкросс**) с одной подсетью и одной подсетью шлюза.
 
 4. Создание двух групп безопасности сети
    - Создайте [группу безопасности сети](https://ms.portal.azure.com/#create/Microsoft.NetworkSecurityGroup-ARM) (**az2az-NSG**) в первой группе ресурсов (**SR-az2az**).
-   - Создайте [группу безопасности сети](https://ms.portal.azure.com/#create/Microsoft.NetworkSecurityGroup-ARM) (**азкросс-NSG**) во второй группе ресурсов (**SR-азкросс**).
+   - Создайте [группу безопасности сети](https://ms.portal.azure.com/#create/Microsoft.NetworkSecurityGroup-ARM)  (**азкросс-NSG**) во второй группе ресурсов (**SR-азкросс**).
 
    Добавьте одно правило безопасности входящего трафика для RDP: 3389 в обе группы безопасности сети. Вы можете удалить это правило после завершения установки.
 
@@ -163,7 +163,7 @@ ms.locfileid: "87939363"
 
 14. Выполнение [тестов проверки кластера](../../failover-clustering/create-failover-cluster.md#validate-the-configuration) перед переходом к следующему шагу
 
-15. Запустите Windows PowerShell и используйте командлет [Test-SRTopology](/powershell/module/storagereplica/test-srtopology?view=win10-ps), чтобы определить, все ли требования для реплики хранилища выполнены. Этот командлет можно запустить в режиме быстрой проверки требований или в режиме длительной оценки производительности.
+15. Запустите Windows PowerShell и используйте командлет [Test-SRTopology](/powershell/module/storagereplica/test-srtopology), чтобы определить, все ли требования для реплики хранилища выполнены. Этот командлет можно запустить в режиме быстрой проверки требований или в режиме длительной оценки производительности.
 
 16. Настройка реплики хранилища кластера в кластер.
     Предоставление доступа из одного кластера в другой в обоих направлениях:
@@ -178,7 +178,7 @@ ms.locfileid: "87939363"
      Grant-SRAccess -ComputerName azcross1 -Cluster SRAZC1
     ```
 
-17. Создайте партнерство SR-партнерства для двух кластеров:</ol>
+17. Создайте SR-Partnership для двух кластеров:</ol>
 
     - Для кластера **SRAZC1**
       - Расположение тома:-c:\ClusterStorage\DataDisk1

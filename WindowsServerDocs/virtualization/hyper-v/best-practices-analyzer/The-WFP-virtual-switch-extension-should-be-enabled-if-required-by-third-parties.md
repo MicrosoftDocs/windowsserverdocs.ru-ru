@@ -6,12 +6,12 @@ author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: 8aa8a9a5-e3fa-4c9b-8331-ba5a3de22429
 ms.date: 8/16/2016
-ms.openlocfilehash: b6099410d4d5e043387594022e8bb376d5fb52f7
-ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
+ms.openlocfilehash: 00312413c8da02ce5221767667ecd941f0095776
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "90746679"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96865163"
 ---
 # <a name="the-wfp-virtual-switch-extension-should-be-enabled-if-it-is-required-by-third-party-extensions"></a>Расширение виртуального коммутатора WFP должно быть включено, если оно требуется для расширений сторонних поставщиков
 
@@ -19,7 +19,7 @@ ms.locfileid: "90746679"
 
 Дополнительные сведения о рекомендациях и сканировании см. в разделе [Запуск сканирования анализатором соответствия рекомендациям и управление результатами сканирования](https://go.microsoft.com/fwlink/p/?LinkID=223177).
 
-|Свойство.|Подробнее|
+|Свойство|Сведения|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|
@@ -51,5 +51,5 @@ ms.locfileid: "90746679"
 Enable-VMSwitchExtension -VMSwitchName External -Name Microsoft Windows Filtering Platform
 ```
 
-## <a name="see-also"></a>См. также
-[Enable-Вмсвитчекстенсион](/powershell/module/hyper-v/enable-vmswitchextension?view=win10-ps)
+## <a name="see-also"></a>См. также:
+[Enable-Вмсвитчекстенсион](/powershell/module/hyper-v/enable-vmswitchextension)

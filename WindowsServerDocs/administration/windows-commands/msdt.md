@@ -7,12 +7,12 @@ ms.author: lizross
 author: eross-msft
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 3e2a28ce747df9223e609392ab46abe2e947bb92
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 0270039fcbc9f99ff2569635ddd75918baed783e
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89640618"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96865413"
 ---
 # <a name="msdt"></a>msdt
 
@@ -26,10 +26,10 @@ msdt </id <name> | /path <name> | /cab < name>> <</parameter> [options] … <par
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | /ID `<packagename>` | Указывает, какой пакет диагностики следует запустить. Список доступных пакетов см. в разделе [Доступные диагностические пакеты](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/ee424379(v=ws.11)#available-troubleshooting-packs). |
-| /path `<directory|.diagpkg file|.diagcfg file>` | Указывает полный путь к пакету диагностики. Если указан каталог, то каталог должен содержать пакет диагностики. Параметр **/path** нельзя использовать совместно с параметрами * */ID * *, **/дЦи**или **/каб** . |                                                                                   |
+| /path `<directory|.diagpkg file|.diagcfg file>` | Указывает полный путь к пакету диагностики. Если указан каталог, то каталог должен содержать пакет диагностики. Параметр **/path** нельзя использовать совместно с параметрами * */ID * *, **/дЦи** или **/каб** . |                                                                                   |
 | /дЦи `<passkey>` | Заполняет поле ключа доступа. Этот параметр используется только в том случае, если поставщик услуг поддержки предоставил ключ доступа. |
 | /DT `<directory>` | Отображает журнал устранения неполадок в указанном каталоге. Результаты диагностики хранятся в каталогах **%локалаппдата%\диагностикс** или **%локалаппдата%\елеватеддиагностикс** пользователя. |
 | /аф `<answerfile>` | Указывает файл ответов в формате XML, который содержит ответы на одно или несколько диагностических действий. |
@@ -56,4 +56,4 @@ msdt </id <name> | /path <name> | /cab < name>> <</parameter> [options] … <par
 
 - [Доступные пакеты устранения неполадок](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/ee424379(v=ws.11)#available-troubleshooting-packs)
 
-- [Справочник по TroubleshootingPack PowerShell](/powershell/module/troubleshootingpack/?view=win10-ps)
+- [Справочник по TroubleshootingPack PowerShell](/powershell/module/troubleshootingpack/)
