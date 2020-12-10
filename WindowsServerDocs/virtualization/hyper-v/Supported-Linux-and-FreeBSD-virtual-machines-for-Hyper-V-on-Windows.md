@@ -5,17 +5,17 @@ ms.topic: article
 ms.assetid: 990ff94a-30fb-434b-b4a2-3804a5245ba6
 ms.author: benarm
 author: BenjaminArmstrong
-ms.date: 10/03/2016
-ms.openlocfilehash: 891ad97d8ae5ef01c6dbfd0d59f7be6316c6e687
-ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
+ms.date: 12/09/2020
+ms.openlocfilehash: 1eeb5a80d0f08a158f0052fb1ba69d2adacf0b4d
+ms.sourcegitcommit: f95a991491ff09260d979078e248e2636bd2db54
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "90746749"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "96997811"
 ---
 # <a name="supported-linux-and-freebsd-virtual-machines-for-hyper-v-on-windows"></a>Поддерживаемые виртуальные машины Linux и FreeBSD для Hyper-V в Windows
 
->Область применения: Windows Server 2019, Windows Server 2016, Hyper-V Server 2016, Windows Server 2012 R2, Hyper-V Server 2012 R2, Windows Server 2012, Hyper-V Server 2012, Windows Server 2008 R2, Windows 10, Windows 8.1, Windows 8, Windows 7,1, Windows 7
+>Применимо к: Azure Stack ХЦИ, версия 20H2; Windows Server 2019, Windows Server 2016, Hyper-V Server 2016, Windows Server 2012 R2, Hyper-V Server 2012 R2, Windows Server 2012, Hyper-V Server 2012, Windows Server 2008 R2, Windows 10, Windows 8.1, Windows 8, Windows 7,1, Windows 7
 
 Hyper-V поддерживает как эмулированные, так и устройства Hyper-V для виртуальных машин Linux и FreeBSD. При работе с имитируемыми устройствами не требуется устанавливать дополнительное программное обеспечение. Однако эмулированные устройства не обеспечивают высокую производительность и не могут использовать обширную инфраструктуру управления виртуальными машинами, предлагаемую технологией Hyper-V. Чтобы полностью использовать все преимущества, предоставляемые Hyper-V, лучше всего использовать устройства, относящиеся к Hyper-V, для Linux и FreeBSD. Коллекция драйверов, необходимых для запуска устройств, связанных с Hyper-V, известна как Linux Integration Services (LIS) или FreeBSD Integration Services (BIS).
 
@@ -42,7 +42,7 @@ LIS был добавлен в ядро Linux и обновлен для нов�
 
 **Хотите принять предложение о функциях и функциях?** Что мы можем сделать лучше? Вы можете использовать веб-сайт [пользователя Windows Server](https://windowsserver.uservoice.com/forums/295062-linux-support) , чтобы предложить новые функции и возможности для виртуальных машин Linux и FreeBSD в Hyper-V, а также узнать, какие другие люди говорят.
 
-## <a name="in-this-section"></a>Содержание раздела
+## <a name="in-this-section"></a>В этом разделе
 
 * [Поддерживаемые CentOS и Red Hat Enterprise Linux виртуальные машины в Hyper-V](Supported-CentOS-and-Red-Hat-Enterprise-Linux-virtual-machines-on-Hyper-V.md)
 
