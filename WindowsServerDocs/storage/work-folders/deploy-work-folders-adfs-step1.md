@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения см. в статье Развертывание рабочих папок с помощью AD FS и прокси веб-приложения: шаг 1, настройка AD FS'
 title: Развертывание рабочих папок с помощью AD FS и прокси-службы веб-приложения. Шаг 1. Настройка AD FS
 ms.topic: article
 manager: klaasl
@@ -6,12 +7,12 @@ ms.author: jeffpatt
 author: JeffPatt24
 ms.date: 10/18/2018
 ms.assetid: 938cdda2-f17e-4964-9218-f5868fd96735
-ms.openlocfilehash: f9cb2a47b4478e440b6f9491358a2de4822912cb
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 0cb9e88455a6c7c1b3d917a8ad839d7f7217a6a3
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87965841"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97048582"
 ---
 # <a name="deploy-work-folders-with-ad-fs-and-web-application-proxy-step-1-set-up-ad-fs"></a>Развертывание рабочих папок с помощью AD FS и прокси-службы веб-приложения. Шаг 1. Настройка AD FS
 
@@ -111,7 +112,7 @@ SAN enterpriseregistration требуется для Workplace Join.
 
 2.  На странице **Роли сервера** выберите роль **Службы федерации Active Directory (AD FS)** и нажмите кнопку **Далее**.
 
-3.  На странице **Службы федерации Active Directory (AD FS)** отобразится сообщение о том, что прокси-службу веб-приложения нельзя установить на компьютер с AD FS. Щелкните **Далее**.
+3.  На странице **Службы федерации Active Directory (AD FS)** отобразится сообщение о том, что прокси-службу веб-приложения нельзя установить на компьютер с AD FS. Нажмите кнопку **Далее**.
 
 4.  Нажмите **Установить** на странице подтверждения.
 
@@ -136,16 +137,16 @@ Add-WindowsFeature ADFS-Federation –IncludeManagementTools
 
 4.  На странице **Укажите свойства службы** введите имя субъекта SSL-сертификата, которое следует использовать для обмена данными с AD FS. В тестовом примере используется имя **blueadfs.contoso.com**.
 
-5.  Введите имя службы федерации. В тестовом примере используется имя **blueadfs.contoso.com**. Щелкните **Далее**.
+5.  Введите имя службы федерации. В тестовом примере используется имя **blueadfs.contoso.com**. Нажмите кнопку **Далее**.
 
     > [!NOTE]
     > Имя службы федерации не должно совпадать с именем существующего в среде сервера. Если вы используете имя существующего сервера, установка AD FS завершится ошибкой и потребует перезапуска.
 
-6.  На странице **Укажите учетную запись службы** введите имя, которое следует использовать для управляемой учетной записи службы. В тестовом примере выберите **Создать групповую управляемую учетную запись службы** и в поле **Имя учетной записи** введите **ADFSService**. Щелкните **Далее**.
+6.  На странице **Укажите учетную запись службы** введите имя, которое следует использовать для управляемой учетной записи службы. В тестовом примере выберите **Создать групповую управляемую учетную запись службы** и в поле **Имя учетной записи** введите **ADFSService**. Нажмите кнопку **Далее**.
 
-7.  На странице **Указание базы данных конфигурации** выберите **создать базу данных на этом сервере с помощью внутренней базы данных Windows**и нажмите кнопку **Далее**.
+7.  На странице **Указание базы данных конфигурации** выберите **создать базу данных на этом сервере с помощью внутренней базы данных Windows** и нажмите кнопку **Далее**.
 
-8.  На странице **Просмотр параметров** представлены общие сведения о выбранных параметрах. Щелкните **Далее**.
+8.  На странице **Просмотр параметров** представлены общие сведения о выбранных параметрах. Нажмите кнопку **Далее**.
 
 9. На странице **Предварительные проверки** указано, все ли предварительные проверки пройдены успешно. Если проблем нет, нажмите **Настройка**.
 
@@ -175,7 +176,7 @@ New-ADServiceAccount "ADFSService"-Server 2016-DC.contoso.com -Path "CN=Managed 
 Настройка фермы AD FS:
 
 ```powershell
-$cert = Get-ChildItem CERT:\LocalMachine\My |where {$_.Subject -match blueadfs.contoso.com} | sort $_.NotAfter -Descending | select -first 1 
+$cert = Get-ChildItem CERT:\LocalMachine\My |where {$_.Subject -match blueadfs.contoso.com} | sort $_.NotAfter -Descending | select -first 1 
 $thumbprint = $cert.Thumbprint
 Install-ADFSFarm -CertificateThumbprint $thumbprint -FederationServiceDisplayName "Contoso Corporation" –FederationServiceName blueadfs.contoso.com -GroupServiceAccountIdentifier contoso\ADFSService$ -OverwriteConfiguration -ErrorAction Stop
 ```

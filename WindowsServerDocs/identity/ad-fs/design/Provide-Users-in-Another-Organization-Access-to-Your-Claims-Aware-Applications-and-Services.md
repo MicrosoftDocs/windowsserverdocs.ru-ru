@@ -1,4 +1,5 @@
 ---
+description: Дополнительные сведения см. в статье предоставление пользователям в другой организации доступа к приложениям и службам, поддерживающим утверждения.
 ms.assetid: de7e1e4a-f96d-4b59-ac9b-f65f5d37a96f
 title: Предоставление пользователям другой организации доступа к вашим приложениям и службам с поддержкой утверждений
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 03b9e4142d522ce8a455bb9cb18dbae48a89f302
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: cf3dcbd1a8c6d14e4866e33e6fab685489df1d45
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87969741"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97049432"
 ---
 # <a name="provide-users-in-another-organization-access-to-your-claims-aware-applications-and-services"></a>Предоставление пользователям другой организации доступа к вашим приложениям и службам с поддержкой утверждений
 

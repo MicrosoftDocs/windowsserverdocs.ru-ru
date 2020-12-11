@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: аудит процесса командной строки'
 ms.assetid: c8597cc8-bdcb-4e59-a09e-128ef5ebeaf8
 title: Аудит процесса командной строки
 author: iainfoulds
@@ -6,18 +7,18 @@ ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: d08032a01a1c3bf2fd03ba302d6eaba5162c317d
-ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
+ms.openlocfilehash: 24d4541da55e97b5506719b7b6df0566695c4e5f
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93070746"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97049462"
 ---
 # <a name="command-line-process-auditing"></a>Аудит процесса командной строки
 
 >Область применения: Windows Server 2016, Windows Server 2012 R2
 
-**Автор** : Джастин Тернер, старший инженер по расширению поддержки с группой Windows
+**Автор**: Джастин Тернер, старший инженер по расширению поддержки с группой Windows
 
 > [!NOTE]
 > Этот материал создан инженером службы поддержки клиентов Майкрософт и предназначен для опытных администраторов и архитекторов систем, которым нужны более глубокие технические сведения о функциях и решениях в Windows Server 2012 R2, а не обычная информация, доступная в статьях на сайте TechNet. Однако он не был отредактирован согласно требованиям сайта, поэтому некоторые формулировки могут быть не такими выверенными, как на станицах TechNet.

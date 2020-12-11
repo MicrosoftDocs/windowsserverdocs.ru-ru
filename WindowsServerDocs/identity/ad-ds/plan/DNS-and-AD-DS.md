@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: DNS и AD DS'
 ms.assetid: c32606b4-2ee2-4df3-a704-8ac6723e188f
 title: DNS и доменные службы Active Directory
 ms.author: daveba
@@ -6,12 +7,12 @@ author: iainfoulds
 manager: daveba
 ms.date: 08/08/2018
 ms.topic: article
-ms.openlocfilehash: 65157b564f5d1a30a0a76f0ab11e7eaca6135f7d
-ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
+ms.openlocfilehash: a61b5dd3c0150c7f293425acb3ca948f8acd51f8
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93069496"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97050192"
 ---
 # <a name="dns-and-ad-ds"></a>DNS и доменные службы Active Directory
 

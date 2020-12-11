@@ -5,12 +5,12 @@ ms.topic: reference
 author: jasongerend
 manager: elizapo
 ms.author: jgerend
-ms.openlocfilehash: 1d2f4cc814dad4313e7eb0925b60f44ec0348a30
-ms.sourcegitcommit: de207e887575757f3389ccf940c2e0ad2dc70bd3
+ms.openlocfilehash: 3bdb980754fedefebddfb33b998b37b621c3505a
+ms.sourcegitcommit: 4165d4a9198228d4ec809ccd7d791f8de2aeb159
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "94617204"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97091288"
 ---
 # <a name="diskpart"></a>diskpart
 
@@ -57,7 +57,7 @@ diskpart <parameter>
 
 Интерпретатор команд DiskPart позволяет выполнять следующие команды:
 
-| Get-Help | Описание |
+| Команда | Описание |
 | ------- | ----------- |
 | [active](active.md) | Помечает раздел диска как активный. |
 | [add](add.md) | Зеркально отображает простой том с фокусом на указанный диск. |
@@ -80,7 +80,7 @@ diskpart <parameter>
 | [format](format.md) | Форматирует диск для приема файлов Windows. |
 | [gpt](gpt.md) | Присваивает разделу GPT-атрибуты раздела, в котором основное внимание уделяется базовым дискам таблицы разделов GPT. |
 | [help](help.md) | Отображает список доступных команд или подробные справочные сведения об указанной команде. |
-| [import](import.md) | Импортирует группу внешних дисков в группу дисков локального компьютера. |
+| [import](import_1.md) | Импортирует группу внешних дисков в группу дисков локального компьютера. |
 | [inactive](inactive.md) | Помечает системный раздел или загрузочный раздел как неактивный на базовых дисках с основной загрузочной записью (MBR). |
 | [list](list.md) | Отображает список дисков, разделов на диске, томов на диске или виртуальных жестких дисков (VHD). |
 | [merge vdisk](merge-vdisk.md) | Объединяет разностный виртуальный жесткий диск (VHD) с соответствующим ему родительским VHD. |

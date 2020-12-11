@@ -1,4 +1,5 @@
 ---
+description: Дополнительные сведения о развертывании автоматической классификации файлов (демонстрационные шаги)
 ms.assetid: 01988844-df02-4952-8535-c87aefd8a38a
 title: Deploy Automatic File Classification (Demonstration Steps)
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 19c2ddbdc7ae00c32147023b2204efface9c4727
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 218fd28153631828dcb1ee076bda379de61a725b
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87952886"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97048562"
 ---
 # <a name="deploy-automatic-file-classification-demonstration-steps"></a>Deploy Automatic File Classification (Demonstration Steps)
 
@@ -53,7 +54,7 @@ ms.locfileid: "87952886"
 
 5.  Щелкните правой кнопкой мыши **Личные сведения** и выберите команду **Включить**.
 
-![Руководство по решению.](media/Deploy-Automatic-File-Classification--Demonstration-Steps-/PowerShellLogoSmall.gif)***<em>эквивалентные команды Windows PowerShell</em>***
+![Руководство по решению. ](media/Deploy-Automatic-File-Classification--Demonstration-Steps-/PowerShellLogoSmall.gif) * *_<em>эквивалентные команды Windows PowerShell</em>_* _
 
 Следующие командлеты Windows PowerShell выполняют ту же функцию, что и предыдущая процедура. Вводите каждый командлет в одной строке, несмотря на то, что здесь они могут отображаться разбитыми на несколько строк из-за ограничений форматирования.
 
@@ -71,7 +72,7 @@ Set-ADResourceProperty '"Enabled:$true '"Identity:'CN=PII_MS,CN=Resource Propert
 
 1.  Войдите на файловый сервер от имени члена локальной группы безопасности "Администраторы".
 
-2.  В командной строке Windows PowerShell введите команду **Update-FsrmClassificationPropertyDefinition** и нажмите клавишу ВВОД. Эта команда синхронизирует определения свойств, созданные на контроллере домена, с файловым сервером.
+2.  В командной строке Windows PowerShell введите _ *Update-фсрмклассификатионпропертидефинитион** и нажмите клавишу ВВОД. Эта команда синхронизирует определения свойств, созданные на контроллере домена, с файловым сервером.
 
 3.  Откройте диспетчер ресурсов файлового сервера. В диспетчере серверов откройте меню **Сервис** и щелкните **Диспетчер ресурсов файлового сервера**.
 
@@ -104,7 +105,7 @@ Set-ADResourceProperty '"Enabled:$true '"Identity:'CN=PII_MS,CN=Resource Propert
 
 13. На вкладке **Тип оценки** установите флажок **Заново определить существующие значения свойств**, щелкните **Перезаписать существующее значение** и нажмите кнопку **ОК**.
 
-![Руководство по решению.](media/Deploy-Automatic-File-Classification--Demonstration-Steps-/PowerShellLogoSmall.gif)***<em>эквивалентные команды Windows PowerShell</em>***
+![Руководство по решению. ](media/Deploy-Automatic-File-Classification--Demonstration-Steps-/PowerShellLogoSmall.gif) * *_<em>эквивалентные команды Windows PowerShell</em>_* _
 
 Следующие командлеты Windows PowerShell выполняют ту же функцию, что и предыдущая процедура. Вводите каждый командлет в одной строке, несмотря на то, что здесь они могут отображаться разбитыми на несколько строк из-за ограничений форматирования.
 
@@ -124,7 +125,7 @@ New-FSRMClassificationRule -Name 'Contoso Confidential' -Property "Impact_MS" -P
 
 1.  Войдите на файловый сервер от имени члена локальной группы безопасности "Администраторы".
 
-2.  В командной строке Windows PowerShell введите команду **Update-FsrmClassificationPropertyDefinition** и нажмите клавишу ВВОД. Эта команда синхронизирует определения свойств, созданные на контроллере домена, с файловым сервером.
+2.  В командной строке Windows PowerShell введите _ * Update-Фсрмклассификатионпропертидефинитион * * и нажмите клавишу ВВОД. Эта команда синхронизирует определения свойств, созданные на контроллере домена, с файловым сервером.
 
 3.  Откройте диспетчер ресурсов файлового сервера. В диспетчере серверов откройте меню **Сервис** и щелкните **Диспетчер ресурсов файлового сервера**.
 
@@ -152,7 +153,7 @@ New-FSRMClassificationRule -Name 'Contoso Confidential' -Property "Impact_MS" -P
 
 12. На вкладке **Тип оценки** установите флажок **Заново определить существующие значения свойств**, щелкните **Перезаписать существующее значение** и нажмите кнопку **ОК**.
 
-![Руководство по решению.](media/Deploy-Automatic-File-Classification--Demonstration-Steps-/PowerShellLogoSmall.gif)***<em>эквивалентные команды Windows PowerShell</em>***
+![Руководство по решению. ](media/Deploy-Automatic-File-Classification--Demonstration-Steps-/PowerShellLogoSmall.gif) * *_<em>эквивалентные команды Windows PowerShell</em>_* _
 
 Следующие командлеты Windows PowerShell выполняют ту же функцию, что и предыдущая процедура. Вводите каждый командлет в одной строке, несмотря на то, что здесь они могут отображаться разбитыми на несколько строк из-за ограничений форматирования.
 
@@ -167,7 +168,7 @@ New-FSRMClassificationRule -Name "PII Rule" -Property "PII_MS" -PropertyValue "5
 
 1.  На файловом сервере примените правила классификации, используя диспетчер ресурсов файлового ресурса.
 
-    1.  Щелкните **Управление классификацией**, щелкните правой кнопкой **Правила классификации** и выберите команду **Запустить классификацию со всеми правилами**.
+    1.  Щелкните _ * Управление классификацией * *, щелкните правой кнопкой мыши **правила классификации** и выберите пункт **запустить классификацию со всеми правилами**.
 
     2.  Щелкните параметр **Дождаться завершения классификации** и нажмите кнопку **ОК**.
 

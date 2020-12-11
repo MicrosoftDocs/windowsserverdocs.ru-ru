@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: создание структуры связей сайтов'
 ms.assetid: 206b8072-1d0c-4a0b-ba8a-35a868d67b4c
 title: Создание проекта связей сайтов
 ms.author: daveba
@@ -6,12 +7,12 @@ author: iainfoulds
 manager: daveba
 ms.date: 08/08/2018
 ms.topic: article
-ms.openlocfilehash: 390cc0d69fa4d43a957500c0078d53dcdc69c10c
-ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
+ms.openlocfilehash: bee843738c3e776f92c9bb0104e81b4c865b149d
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93068776"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97050202"
 ---
 # <a name="creating-a-site-link-design"></a>Создание проекта связей сайтов
 

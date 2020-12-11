@@ -1,4 +1,5 @@
 ---
+description: 'Подробнее: основные сведения о топологии Active Directory сайта'
 ms.assetid: 2971996b-7019-4a08-8e99-89b4b3f688a7
 title: Основные сведения о топологии сайта Active Directory
 author: iainfoulds
@@ -6,12 +7,12 @@ ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 62a2e1ef1fafd971d30a5809da55a31909578b71
-ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
+ms.openlocfilehash: e95f97fce7f2a8f79b2d9991989128c18301ee67
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93070946"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97049632"
 ---
 # <a name="understanding-active-directory-site-topology"></a>Основные сведения о топологии сайта Active Directory
 

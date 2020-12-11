@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: Импорт сертификата проверки подлинности сервера на веб-сайт по умолчанию'
 ms.assetid: e1f2ce2d-b24f-4ccd-8add-9e69419fc6c1
 title: Импорт сертификата аутентификации сервера на веб-сайт по умолчанию
 author: billmath
@@ -6,12 +7,12 @@ manager: femila
 ms.date: 05/31/2017
 ms.topic: article
 ms.author: billmath
-ms.openlocfilehash: 94202e8dc60bc64a46f6cb7a9195b43b82bc66c9
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 390e7dcaf3277d092509a15b6c3c60363454ab7d
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87972201"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97048422"
 ---
 # <a name="import-a-server-authentication-certificate-to-the-default-web-site"></a>Импорт сертификата аутентификации сервера на веб-сайт по умолчанию
 
@@ -28,7 +29,7 @@ ms.locfileid: "87972201"
 
 ### <a name="to-import-a-server-authentication-certificate-to-the-default-web-site"></a>Импорт сертификата аутентификации сервера на веб-сайт по умолчанию
 
-1.  На **начальном** экране введите**службы IIS \( \) Диспетчер IIS**и нажмите клавишу ВВОД.
+1.  На **начальном** экране введите **службы IIS \( \) Диспетчер IIS** и нажмите клавишу ВВОД.
 
 2.  В дереве консоли щелкните **ComputerName**.
 

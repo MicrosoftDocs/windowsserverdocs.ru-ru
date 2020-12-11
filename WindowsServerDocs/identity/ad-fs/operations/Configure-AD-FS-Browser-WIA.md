@@ -6,12 +6,12 @@ ms.author: billmath
 manager: femila
 ms.date: 03/20/2020
 ms.topic: article
-ms.openlocfilehash: cea61a282a560645613b4444aa4de06086bb7dbe
-ms.sourcegitcommit: 03048411c07c1a1d0c8bb0b2a60c1c17c9987314
+ms.openlocfilehash: c7779522e874fb484f3801780495f96ddcead990
+ms.sourcegitcommit: 4165d4a9198228d4ec809ccd7d791f8de2aeb159
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "96938994"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97091278"
 ---
 # <a name="configure-browsers-to-use-windows-integrated-authentication-wia-with-ad-fs"></a>Настройка браузеров для использования встроенной проверки подлинности Windows (WIA) с AD FS
 
@@ -20,7 +20,7 @@ ms.locfileid: "96938994"
 AD FS 2016 теперь имеет усовершенствованный параметр по умолчанию, который позволяет браузеру пограничной работать с WIA, не выполняя при этом неправильное и неверное перехват Windows Phone:
 
 ```
-=~Windows\s*NT.*Edge
+=~Windows\s*NT.*Edg.*
 ```
 
 Приведенное выше означает, что больше не нужно настраивать отдельные строки агента пользователя для поддержки распространенных сценариев пограничных устройств, несмотря на то, что они обновляются довольно часто.
