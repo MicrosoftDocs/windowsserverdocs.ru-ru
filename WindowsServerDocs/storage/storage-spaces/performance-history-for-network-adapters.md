@@ -1,4 +1,5 @@
 ---
+description: Дополнительные сведения см. в статье журнал производительности для сетевых адаптеров.
 title: Журнал производительности для сетевых адаптеров
 ms.author: cosdar
 manager: eldenc
@@ -6,12 +7,12 @@ ms.topic: article
 author: cosmosdarwin
 ms.date: 02/02/2018
 ms.localizationpriority: medium
-ms.openlocfilehash: ee8204d14ff1d54d3a4a5b1760055fecdc952d05
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: c47b5f2ce60a952eb8c7773284d976e6b99d1477
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87957261"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97040092"
 ---
 # <a name="performance-history-for-network-adapters"></a>Журнал производительности для сетевых адаптеров
 
@@ -26,7 +27,7 @@ ms.locfileid: "87957261"
 
 Эти серии собираются для каждого подходящего сетевого адаптера:
 
-| Series                               | Единица измерения            |
+| Series                               | Единицы            |
 |--------------------------------------|-----------------|
 | `netadapter.bandwidth.inbound`       | бит в секунду |
 | `netadapter.bandwidth.outbound`      | бит в секунду |
@@ -55,16 +56,16 @@ ms.locfileid: "87957261"
 
 | Series                           | Счетчик источника           |
 |----------------------------------|--------------------------|
-| `netadapter.bandwidth.inbound`   | 8 ×`Bytes Received/sec` |
-| `netadapter.bandwidth.outbound`  | 8 ×`Bytes Sent/sec`     |
-| `netadapter.bandwidth.total`     | 8 ×`Bytes Total/sec`    |
+| `netadapter.bandwidth.inbound`   | 8 × `Bytes Received/sec` |
+| `netadapter.bandwidth.outbound`  | 8 × `Bytes Sent/sec`     |
+| `netadapter.bandwidth.total`     | 8 × `Bytes Total/sec`    |
 
 `rdma.*`Ряды собираются из `RDMA Activity` набора счетчиков производительности на сервере, где установлен сетевой адаптер, по одному экземпляру на сетевой адаптер с включенным RDMA.
 
 | Series                               | Счетчик источника           |
 |--------------------------------------|--------------------------|
-| `netadapter.bandwidth.rdma.inbound`  | 8 ×`Inbound bytes/sec`  |
-| `netadapter.bandwidth.rdma.outbound` | 8 ×`Outbound bytes/sec` |
+| `netadapter.bandwidth.rdma.inbound`  | 8 × `Inbound bytes/sec`  |
+| `netadapter.bandwidth.rdma.outbound` | 8 × `Outbound bytes/sec` |
 | `netadapter.bandwidth.rdma.total`    | 8 × *Сумма приведенного выше*   |
 
    > [!NOTE]

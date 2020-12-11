@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: развертывание экранированных виртуальных машин'
 title: Развертывание экранированных виртуальных машин
 ms.topic: article
 ms.assetid: 5d1a06c9-24e1-4e14-9c9a-efb2adbfeddd
@@ -6,12 +7,12 @@ manager: dongill
 author: rpsqrd
 ms.author: ryanpu
 ms.date: 08/29/2018
-ms.openlocfilehash: 0eed5d3166410cd006469eaac97ff152dfc8304e
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 015d1a5f4c2fd54a813cacff60fd65b6d8ca99cb
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87971351"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97040382"
 ---
 # <a name="deploy-shielded-vms"></a>Развертывание экранированных виртуальных машин
 
@@ -28,7 +29,7 @@ ms.locfileid: "87971351"
 
     Описание и схема файла данных экранирования см. в разделе [что такое данные экранирования и почему это необходимо?](guarded-fabric-and-shielded-vms.md#what-is-shielding-data-and-why-is-it-necessary)
 
-    Сведения о создании файла ответов для включения в экранированный файл данных см. в статье [экранированные виртуальные машины. Создайте файл ответов с помощью функции New-шиелдингдатаансверфиле](guarded-fabric-sample-unattend-xml-file.md).
+    Сведения о создании файла ответов для включения в экранированный файл данных см. в статье [экранированные виртуальные машины. Создайте файл ответов с помощью функции New-ShieldingDataAnswerFile](guarded-fabric-sample-unattend-xml-file.md).
 
 4. Создайте экранированную виртуальную машину.
 
@@ -36,7 +37,7 @@ ms.locfileid: "87971351"
 
     - Использование **Virtual Machine Manager**: [развертывание экранированной виртуальной машины с помощью Virtual Machine Manager](guarded-fabric-tenant-deploys-shielded-vm-using-vmm.md)
 
-## <a name="next-step"></a>Следующий шаг
+## <a name="next-step"></a>Следующий этап
 
 > [!div class="nextstepaction"]
 > [Создание шаблона экранированной виртуальной машины](guarded-fabric-create-a-shielded-vm-template.md)

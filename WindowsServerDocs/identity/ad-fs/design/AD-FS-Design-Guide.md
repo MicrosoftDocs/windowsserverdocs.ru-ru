@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: руководство по проектированию AD FS'
 ms.assetid: fb09e37e-5d1c-428a-a2ca-2f01a0ba2992
 title: Руководство по проектированию служб федерации Active Directory
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 5c920ce94c3c3a9361794224d040e1dd3e908367
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 89f22e4e5d63f9504ddcb3572309a1dce094a006
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87949888"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97042082"
 ---
 # <a name="ad-fs-design-guide"></a>Руководство по проектированию служб федерации Active Directory
 

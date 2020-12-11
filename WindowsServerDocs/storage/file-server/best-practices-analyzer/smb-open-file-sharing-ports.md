@@ -1,15 +1,16 @@
 ---
+description: 'Дополнительные сведения: SMB: порты общего доступа к файлам и принтерам должны быть открыты'
 title: Порты общего доступа к файлам и принтерам SMB должны быть открыты
 ms.date: 07/02/2012
 author: JasonGerend
 manager: elizapo
 ms.author: jgerend
-ms.openlocfilehash: dc2e1d7f5408ad123297b8df2dc06f59053fe870
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: ca4e8cb86e567786385da0449223b6282347909b
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87954771"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97041062"
 ---
 # <a name="smb-file-and-printer-sharing-ports-should-be-open"></a>SMB: необходимо открыть порты для совместного использования файлов и принтеров
 
@@ -41,7 +42,7 @@ ms.locfileid: "87954771"
 </tr>
 <tr class="even">
 <td><p><strong>Категория</strong></p></td>
-<td><p>Конфигурация</p></td>
+<td><p>Параметр Configuration</p></td>
 </tr>
 </tbody>
 </table>
@@ -66,7 +67,7 @@ ms.locfileid: "87954771"
 
 2.  В левой области щелкните **Дополнительные параметры**, а затем в дереве консоли щелкните **правила для входящих подключений**.
 
-3.  В разделе **правила для входящих подключений**выберите **файлы правил и общий доступ к принтерам (сеансы с расширением NetBIOS)** и **общий доступ к ФАЙЛАМ и принтерам (SMB-in)**.
+3.  В разделе **правила для входящих подключений** выберите **файлы правил и общий доступ к принтерам (сеансы с расширением NetBIOS)** и **общий доступ к ФАЙЛАМ и принтерам (SMB-in)**.
 
 4.  Щелкните правой кнопкой мыши на каждом правиле и нажмите **Включить правило**.
 

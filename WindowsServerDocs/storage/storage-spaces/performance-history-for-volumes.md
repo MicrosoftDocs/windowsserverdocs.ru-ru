@@ -1,4 +1,5 @@
 ---
+description: 'Подробнее: журнал производительности для томов'
 title: Журнал производительности для томов
 ms.author: cosdar
 manager: eldenc
@@ -6,12 +7,12 @@ ms.topic: article
 author: cosmosdarwin
 ms.date: 02/09/2018
 ms.localizationpriority: medium
-ms.openlocfilehash: 367866739f18e426ad7c61dba3dac60b12692bbe
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 009289d026c3f0ee2994efaca58d61822363e4d3
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87954651"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97044522"
 ---
 # <a name="performance-history-for-volumes"></a>Журнал производительности для томов
 
@@ -26,7 +27,7 @@ ms.locfileid: "87954651"
 
 Эти серии собираются для каждого подходящего тома:
 
-| Series                    | Единица измерения             |
+| Series                    | Единицы             |
 |---------------------------|------------------|
 | `volume.iops.read`        | в секунду       |
 | `volume.iops.write`       | в секунду       |

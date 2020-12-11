@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: сценарий: получение сведений о данных с помощью классификации'
 ms.assetid: ad3f0480-99f7-428a-ab33-6d165a440840
 title: Сценарий для получения сведений о данных с помощью классификации
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 7c06cc4bbca7e21ffa5ef58ec6e33fc43b3f9e49
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 386f3a1f40cb3f93fb9ece34b667f51057f5347a
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87940247"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97044552"
 ---
 # <a name="scenario-get-insight-into-your-data-by-using-classification"></a>Scenario: Get Insight into Your Data by Using Classification
 
@@ -43,7 +44,7 @@ ms.locfileid: "87940247"
 ## <a name="features-included-in-this-scenario"></a><a name="BKMK_NEW"></a>Компоненты, используемые в данном сценарии
 В следующей таблице перечислены компоненты, являющиеся частью данного сценария, и описано, как они поддерживают его.
 
-|Функция|Способ поддержки сценария|
+|Компонент|Способ поддержки сценария|
 |-----------|---------------------------------|
 |[File Server Resource Manager Overview](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831701(v=ws.11))|Инфраструктура классификации файлов — это компонент диспетчера ресурсов файлового сервера.|
 |[Обзор служб файлов и хранилищ](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831487(v=ws.11))|Диспетчер ресурсов файлового сервера — это компонент, включенный в роль сервера файловых служб.|

@@ -6,12 +6,12 @@ ms.author: billmath
 manager: femila
 ms.date: 01/16/2019
 ms.topic: article
-ms.openlocfilehash: dd0fa97024f286d90f096da9fa132f40c1a78aae
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 296d3e310818dcaee8443810b922ce6bf0389537
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87956671"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97040262"
 ---
 # <a name="advanced-customization-of-ad-fs-sign-in-pages"></a>Расширенная настройка страниц входа AD FS
 

@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: предварительные требования для восстановления Active Directory леса'
 title: Необходимые условия для планирования восстановления Active Directory леса
 ms.author: daveba
 author: iainfoulds
@@ -6,12 +7,12 @@ manager: daveba
 ms.date: 08/09/2018
 ms.topic: article
 ms.assetid: c49b40b2-598d-49aa-85b4-766bce960e0d
-ms.openlocfilehash: 4e0fba25ba73fd92dd317bfdce0ee298adb485f8
-ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
+ms.openlocfilehash: 17efaa69d80f5be04c2536fe8c7dffc7afb09915
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93067776"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97041762"
 ---
 # <a name="active-directory-forest-recovery-prerequisites"></a>Предварительные требования для восстановления Active Directory леса
 

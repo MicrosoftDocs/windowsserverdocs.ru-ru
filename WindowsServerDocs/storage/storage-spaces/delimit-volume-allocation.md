@@ -1,16 +1,17 @@
 ---
+description: 'Дополнительные сведения: разделение размещения томов в Локальные дисковые пространства'
 title: Разделение размещения томов в Локальные дисковые пространства
 manager: eldenc
 ms.topic: article
 author: cosmosdarwin
 ms.author: cosdar
 ms.date: 03/29/2018
-ms.openlocfilehash: 394d9dbb41f502fe9be273e97177237dea79fde7
-ms.sourcegitcommit: 7cacfc38982c6006bee4eb756bcda353c4d3dd75
+ms.openlocfilehash: b0d036b08ab3c538a134cdbc294c2208d8d547aa
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "90078499"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97041412"
 ---
 # <a name="delimit-the-allocation-of-volumes-in-storage-spaces-direct"></a>Разделение размещения томов в Локальные дисковые пространства
 > Область применения: Windows Server 2019
@@ -20,7 +21,7 @@ ms.locfileid: "90078499"
    > [!IMPORTANT]
    > Эта функция впервые реализована в Windows Server 2019. Она недоступна в Windows Server 2016.
 
-## <a name="prerequisites"></a>Предварительные условия
+## <a name="prerequisites"></a>Предварительные требования
 
 ### <a name="green-checkmark-icon-consider-using-this-option-if"></a>![Зеленый значок галочки.](media/delimit-volume-allocation/supported.png) Рекомендуется использовать этот параметр, если:
 

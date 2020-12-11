@@ -1,4 +1,5 @@
 ---
+description: Дополнительные сведения см. в разделе Пошаговое руководство. Workplace Join с устройством iOS
 ms.assetid: 299e4fb9-8f1a-4275-ad7d-dad4f1594657
 title: Пошаговое руководство. Workplace Join с устройством iOS
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: mtillman
 ms.date: 10/18/2018
 ms.topic: article
-ms.openlocfilehash: 1090c5c79ad0f4b4cf2fa27bf735604ad334b90e
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: d77a004dbf9b2010b1bed6c300ad1ebe90c0099c
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87956381"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97039532"
 ---
 # <a name="walkthrough-workplace-join-with-an-ios-device"></a>Пошаговое руководство: присоединение к рабочему месту с устройства iOS
 
@@ -36,11 +37,11 @@ ms.locfileid: "87956381"
 
 1. -   **Если регистрация устройств Azure Active Directory служба настроена DRS:** Откройте Apple Safari и перейдите к Регистрация устройств Azure Active Directory Service в качестве конечной точки профиля для устройств iOS, <>, `https://enterpriseregistration.windows.net/enrollmentserver/otaprofile/<yourdomainname` где <`yourdomainname`> — это доменное имя, настроенное с Azure Active Directory. Например, если имя домена contoso.com, URL-адрес будет: `https://enterpriseregistration.windows.net/enrollmentserver/otaprofile/contoso.com`
 
-   -   **Если локальная DRS является настроенной DRS**: Откройте Apple Safari и перейдите к конечной точке "служба регистрации устройств" (DRS), расположенной на мобильных устройствах с профилем для устройств iOS.`https://adf1s.contoso.com/enrollmentserver/otaprofile`
+   -   **Если локальная DRS является настроенной DRS**: Откройте Apple Safari и перейдите к конечной точке "служба регистрации устройств" (DRS), расположенной на мобильных устройствах с профилем для устройств iOS. `https://adf1s.contoso.com/enrollmentserver/otaprofile`
 
    Существует много способов взаимодействия с этим URL-адресом для ваших пользователей. Один из рекомендуемых способов — опубликовать этот URL-адрес в пользовательском сообщении об отказе в доступе в AD FS. Это описано в следующем разделе: [Создание политики доступа к приложениям и пользовательского сообщения об отказе в доступе](/azure/active-directory/active-directory-device-registration-on-premises-setup#create-an-application-access-policy-and-custom-access-denied-message)
 
-2. Войдите на веб-страницу, используя учетную запись домена организации: <strong>roberth@contoso.com</strong> и пароль: <strong>P@ssword</strong> .
+2. Войдите на веб-страницу, используя учетную запись домена организации:  <strong>roberth@contoso.com</strong> и пароль: <strong>P@ssword</strong> .
 
 3. Система предложит установить профиль. На экране **Установка профиля** щелкните **Установить**.
 

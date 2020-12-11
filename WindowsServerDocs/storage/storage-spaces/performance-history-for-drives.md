@@ -1,4 +1,5 @@
 ---
+description: 'Подробнее: журнал производительности для дисков'
 title: Журнал производительности для дисков
 ms.author: cosdar
 manager: eldenc
@@ -6,12 +7,12 @@ ms.topic: article
 author: cosmosdarwin
 ms.date: 02/02/2018
 ms.localizationpriority: medium
-ms.openlocfilehash: 4d344db75539e4455c11c02f336edc9275d3c813
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: c3bb438f64bcb0ddd42abcc1f8b5fa22b5a16848
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87965971"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97041902"
 ---
 # <a name="performance-history-for-drives"></a>Журнал производительности для дисков
 
@@ -26,7 +27,7 @@ ms.locfileid: "87965971"
 
 Эти серии собираются для каждого подходящего диска:
 
-| Series                          | Единица измерения             |
+| Series                          | Единицы             |
 |---------------------------------|------------------|
 | `physicaldisk.iops.read`        | в секунду       |
 | `physicaldisk.iops.write`       | в секунду       |

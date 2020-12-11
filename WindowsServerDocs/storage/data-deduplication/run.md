@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: выполнение дедупликации данных'
 ms.assetid: f15c02d7-1cbd-4eba-a571-0ea34ab93ef4
 title: Выполнение дедупликации данных
 ms.topic: article
@@ -6,12 +7,12 @@ author: wmgries
 manager: klaasl
 ms.author: wgries
 ms.date: 09/15/2016
-ms.openlocfilehash: f382d229458f27795c09e0377e0f0b23ef7b395b
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 55d5d3ee542ed0c16f66d9e882ae5d6dafd1af99
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87936235"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97040352"
 ---
 # <a name="running-data-deduplication"></a>Выполнение дедупликации данных
 
@@ -48,9 +49,9 @@ Start-DedupJob -Type Optimization -Volume <Your-Volume-Here> -Memory 100 -Cores 
 Одним из индикаторов сбоя при выполнении [задания оптимизации](understand.md#job-info-optimization) является снижение скорости оптимизации. Оно может означать, что задания оптимизации не могут своевременно обрабатывать все изменения или обновления. Частоту оптимизации можно проверить с помощью [`Get-DedupStatus`](/previous-versions/system-center/system-center-2012-R2/hh758173(v=sc.12)) командлета PowerShell.
 
 > [!Important]
-> `Get-DedupStatus`имеет два поля, относящиеся к скорости оптимизации: `OptimizedFilesSavingsRate` и `SavingsRate` . Для отслеживания важны оба этих поля, но каждое из них имеет уникальное значение.
-> - `OptimizedFilesSavingsRate`применяется только к файлам, которые находятся в политике для оптимизации ( `space used by optimized files after optimization / logical size of optimized files` ).
-> - `SavingsRate`применяется ко всему тому ( `space used by optimized files after optimization / total logical size of the optimization` ).
+> `Get-DedupStatus` имеет два поля, относящиеся к скорости оптимизации: `OptimizedFilesSavingsRate` и `SavingsRate` . Для отслеживания важны оба этих поля, но каждое из них имеет уникальное значение.
+> - `OptimizedFilesSavingsRate` применяется только к файлам, которые находятся в политике для оптимизации ( `space used by optimized files after optimization / logical size of optimized files` ).
+> - `SavingsRate` применяется ко всему тому ( `space used by optimized files after optimization / total logical size of the optimization` ).
 
 ## <a name="disabling-data-deduplication"></a><a id="disabling-dedup"></a>Отключение дедупликации данных
 Чтобы отключить дедупликацию данных, запустите [задание отмены оптимизации](understand.md#job-info-unoptimization). Чтобы отменить оптимизацию тома, выполните следующую команду:

@@ -1,16 +1,17 @@
 ---
+description: 'Дополнительные сведения: пиринг виртуальных сетей'
 title: Пиринг между виртуальными сетями
 manager: grcusanz
 ms.topic: get-started-article
 ms.author: anpaul
 author: AnirbanPaul
 ms.date: 08/08/2018
-ms.openlocfilehash: d0d9f149a95c00fdac02cbdd383fb950e56b845a
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 8d7f88c4887a5d571722e2137d32f1088d7a1ace
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87990045"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97043612"
 ---
 # <a name="virtual-network-peering"></a>Пиринг между виртуальными сетями
 
@@ -45,7 +46,7 @@ ms.locfileid: "87990045"
 
 - Поскольку пиринг виртуальных сетей находится между двумя виртуальными сетями, между одноранговыми узлами нет производной промежуточной связи. Например, если вы равноправные эта связь с сетью и сетью с виртуальной, то эта связь не получит пиринг с виртуальной.
 
-## <a name="connectivity"></a>Соединение
+## <a name="connectivity"></a>Подключение
 
 После установки одноранговых виртуальных сетей ресурсы в любой виртуальной сети могут напрямую подключаться к ресурсам в одноранговой виртуальной сети.
 

@@ -1,4 +1,5 @@
 ---
+description: Дополнительные сведения о восстановлении леса AD. Сброс учетной записи компьютера на контроллере домена
 title: Восстановление леса AD — сброс учетной записи компьютера на контроллере домена
 ms.author: daveba
 author: iainfoulds
@@ -6,12 +7,12 @@ manager: daveba
 ms.date: 08/09/2018
 ms.topic: article
 ms.assetid: 4e1a6070-df0a-4dfe-8773-899a010bfabd
-ms.openlocfilehash: 81c3197729d9fc97f243ed1f7ca3c3387e46a1bd
-ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
+ms.openlocfilehash: 21d36989ff6174e5b59eed0b6b63e8aea0a9d921
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93070845"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97041572"
 ---
 # <a name="ad-forest-recovery---resetting-the-computer-account-on-the-dc"></a>Восстановление леса AD — сброс учетной записи компьютера на контроллере домена
 

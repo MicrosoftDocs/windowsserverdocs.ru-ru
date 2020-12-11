@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: Определение требуемого количества доменов'
 ms.assetid: 87bca912-b912-4bbe-9533-2c34a7abc52d
 title: Определение требуемого количества доменов
 ms.author: daveba
@@ -6,12 +7,12 @@ author: iainfoulds
 manager: daveba
 ms.date: 08/08/2018
 ms.topic: article
-ms.openlocfilehash: 68daaede92cd835846510d76e41282e03205884e
-ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
+ms.openlocfilehash: e9b81eace15b089af2294f300aa8223f1aa9ad77
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93068786"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97043522"
 ---
 # <a name="determining-the-number-of-domains-required"></a>Определение требуемого количества доменов
 

@@ -1,4 +1,5 @@
 ---
+description: Дополнительные сведения см. в статье Планирование размещения контроллера корневого домена леса
 ms.assetid: 2a2f493a-9796-454a-9721-e223b799dfa7
 title: Планирование размещения корневого контроллера домена в лесу
 author: iainfoulds
@@ -6,12 +7,12 @@ ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: ab34eb19c880fbe22b9da74a6745d9277a564cb4
-ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
+ms.openlocfilehash: b9857f2dba10eb200728252a9ff3c3ee5324531d
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93071066"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97042742"
 ---
 # <a name="planning-forest-root-domain-controller-placement"></a>Планирование размещения корневого контроллера домена в лесу
 

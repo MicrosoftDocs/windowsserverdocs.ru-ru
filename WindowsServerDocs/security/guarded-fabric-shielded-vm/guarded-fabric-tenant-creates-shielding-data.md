@@ -1,17 +1,18 @@
 ---
 title: Экранированные виртуальные машины для клиентов — создание данных экранирования для определения экранированной виртуальной машины
+description: Дополнительные сведения о экранированных виртуальных машинах для клиентов. Создание данных экранирования для определения экранированной виртуальной машины
 ms.topic: article
 ms.assetid: 49f4e84d-c1f7-45e5-9143-e7ebbb2ef052
 manager: dongill
 author: rpsqrd
 ms.author: ryanpu
 ms.date: 09/25/2019
-ms.openlocfilehash: 20cb04f17aae3fb92394f0ddf4d67fb887e70714
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.openlocfilehash: 1b45f94ac5c63dcae5885c61cc1099327f17b852
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96864143"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97043862"
 ---
 # <a name="shielded-vms-for-tenants---creating-shielding-data-to-define-a-shielded-vm"></a>Экранированные виртуальные машины для клиентов — создание данных экранирования для определения экранированной виртуальной машины
 

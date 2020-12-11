@@ -1,4 +1,5 @@
 ---
+description: Дополнительные сведения о восстановлении леса AD. Девисинг. план восстановления леса AD
 title: Восстановление леса AD — Девисинг план восстановления леса AD
 ms.author: daveba
 author: iainfoulds
@@ -6,12 +7,12 @@ manager: daveba
 ms.date: 08/09/2018
 ms.topic: article
 ms.assetid: 17381f30-55f2-4e00-977a-b701675fa4ff
-ms.openlocfilehash: 66c63483b118d9d1e04dc4067725fcc82fe8d082
-ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
+ms.openlocfilehash: a1f78d060287bedd412e63231f0a9830d61afd56
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93071336"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97042932"
 ---
 # <a name="ad-forest-recovery---devising-an-ad-forest-recovery-plan"></a>Восстановление леса AD — Девисинг план восстановления леса AD
 

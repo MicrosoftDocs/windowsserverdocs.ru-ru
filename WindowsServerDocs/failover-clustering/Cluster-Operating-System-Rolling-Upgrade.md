@@ -1,17 +1,18 @@
 ---
 title: Последовательное обновление ОС кластера
+description: 'Дополнительные сведения: последовательное обновление операционной системы кластера'
 ms.topic: get-started-article
 ms.assetid: 6e102c1f-df26-4eaa-bc7a-d0d55d3b82d5
 author: jasongerend
 ms.author: jgerend
 manager: lizross
 ms.date: 03/27/2018
-ms.openlocfilehash: a61025f972445f37aeeece764558aab853dc90df
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.openlocfilehash: e1e4cd3cc7258b1670de58a7df5e5930274ae3b6
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96866403"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97041702"
 ---
 # <a name="cluster-operating-system-rolling-upgrade"></a>Последовательное обновление операционной системы кластера
 

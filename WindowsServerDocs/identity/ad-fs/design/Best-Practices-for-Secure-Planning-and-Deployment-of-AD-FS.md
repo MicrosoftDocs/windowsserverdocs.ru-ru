@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: рекомендации по безопасному планированию и развертыванию AD FS'
 ms.assetid: 963a3d37-d5f1-4153-b8d5-2537038863cb
 title: Рекомендации по безопасному планированию и развертыванию AD FS
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: f21eb5737bb1729999ae6d298ca868dc3f7d52d6
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: e4de8bf5564277a41ee5719aba9bb54041c2dff0
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87954350"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97041302"
 ---
 # <a name="best-practices-for-secure-planning-and-deployment-of-ad-fs"></a>Рекомендации по безопасному планированию и развертыванию AD FS
 
@@ -59,7 +60,7 @@ ms.locfileid: "87954350"
     |Изолированный сервер федерации|Внутренняя база данных Windows|`scwcmd register /kbname:ADFS2Standalone /kbfile:"WindowsADFSscwStandAlone.xml"`|
     |Объединенный в ферму сервер федерации|Внутренняя база данных Windows|`scwcmd register /kbname:ADFS2Standalone /kbfile:"WindowsADFSscwFarm.xml"`|
     |Объединенный в ферму сервер федерации|SQL Server|`scwcmd register /kbname:ADFS2Standalone /kbfile:"WindowsADFSscwSQLFarm.xml"`|
-    |Прокси-сервер федерации|Н/Д|`scwcmd register /kbname:ADFS2Standalone /kbfile:"WindowsADFSscwProxy.xml"`|
+    |Прокси-сервер федерации|Недоступно|`scwcmd register /kbname:ADFS2Standalone /kbfile:"WindowsADFSscwProxy.xml"`|
 
     Дополнительные сведения о базах данных, которые можно использовать с AD FS, см. в разделе [Роль базы данных конфигурации AD FS](../../ad-fs/technical-reference/The-Role-of-the-AD-FS-Configuration-Database.md).
 

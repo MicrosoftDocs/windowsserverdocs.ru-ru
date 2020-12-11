@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: настраиваемые сообщения об ошибках для страницы входа AD FS'
 ms.assetid: 1df78c2a-5054-4b54-8310-c48ea62e6e0b
 title: Настраиваемые сообщения об ошибках для страницы входа AD FS
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 91d9e0e5ba0a0272c1efc820578fb6547a14abc8
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: acfe34a7d151a7e14348e44350e9304a816428b9
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87956441"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97039912"
 ---
 # <a name="custom-error-messages-for-ad-fs-sign-in-page"></a>Настраиваемые сообщения об ошибках для страницы входа AD FS
 

@@ -1,16 +1,17 @@
 ---
+description: Дополнительные сведения см. в статье Настройка перенаправления DNS в домене HGS и одностороннее доверие с доменом структуры.
 title: Настройка пересылки DNS и доверия домена
 ms.topic: article
 manager: dongill
 author: rpsqrd
 ms.author: ryanpu
 ms.date: 08/29/2018
-ms.openlocfilehash: 102d1267fe2b15e50ab2d078647ff86f7c937a6d
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 2031c7f56c96764a716f29afc4f0cfe27c452646
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87966171"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97040372"
 ---
 # <a name="configure-dns-forwarding-in-the-hgs-domain-and-a-one-way-trust-with-the-fabric-domain"></a>Настройка пересылки DNS в домене HGS и одностороннее отношение доверия с доменом структуры
 
@@ -35,7 +36,7 @@ ms.locfileid: "87966171"
     netdom trust bastion.local /domain:fabrikam.com /userD:fabrikam.com\Administrator /passwordD:<password> /add
     ```
 
-## <a name="next-step"></a>Следующий шаг
+## <a name="next-step"></a>Следующий этап
 
 > [!div class="nextstepaction"]
 > [Настройка HTTPS](guarded-fabric-configure-hgs-https.md)

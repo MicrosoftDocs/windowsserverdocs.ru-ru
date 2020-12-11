@@ -1,17 +1,18 @@
 ---
 title: Получение сертификатов для HGS
+description: Дополнительные сведения см. в статье получение сертификатов для HGS.
 ms.topic: article
 ms.assetid: f4b4d1a8-bf6d-4881-9150-ddeca8b48038
 manager: dongill
 author: rpsqrd
 ms.author: ryanpu
 ms.date: 09/25/2019
-ms.openlocfilehash: c6f20ebdf2bedd74af98e075ccf6f6ff60f96767
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.openlocfilehash: a4e301ebb8bb11927f86a4af594c31ae02fd6de8
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96864163"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97044032"
 ---
 # <a name="obtain-certificates-for-hgs"></a>Получение сертификатов для HGS
 

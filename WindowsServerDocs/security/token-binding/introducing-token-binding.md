@@ -1,16 +1,17 @@
 ---
+description: 'Дополнительные сведения о: введение в привязку маркеров'
 title: Введение в привязку токенов
 ms.topic: article
 ms.assetid: 4623a48c-cefd-4a27-9173-2af58ac212f2
 author: justinha
 ms.author: Justinha
 ms.date: 11/09/2016
-ms.openlocfilehash: 08042ef376587c1e3370c07bf6c77b07f7aedc1f
-ms.sourcegitcommit: 7cacfc38982c6006bee4eb756bcda353c4d3dd75
+ms.openlocfilehash: 8525ea1a052b4e2c4aaf8e40ed703172964092d3
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "90078521"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97044082"
 ---
 # <a name="introducing-token-binding"></a>Введение в привязку токенов
 
@@ -19,7 +20,7 @@ ms.locfileid: "90078521"
 Протокол привязки токенов позволяет приложениям и службам криптографически привязывать свои маркеры безопасности к уровню TLS для устранения атак с кражой и воспроизведением маркеров.
 Долгосрочные, однозначно идентифицируемые привязки TLS [RFC5246] могут охватывать несколько сеансов TLS и соединений.
 
-Поддержка версий:
+Поддерживаемые версии:
 
 - Windows 10, версия 1507 — отключено по умолчанию
     - Добавлен протокол привязки маркеров [[черновик-IETF-токбинд-Protocol-01]](https://datatracker.ietf.org/doc/draft-ietf-tokbind-protocol/01/)

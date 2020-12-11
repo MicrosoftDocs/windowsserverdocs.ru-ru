@@ -1,17 +1,18 @@
 ---
 ms.assetid: 777aab65-c9c7-4dc9-a807-9ab73fac87b8
 title: Настройка защиты мягкой блокировки экстрасети AD FS
+description: 'Дополнительные сведения: Настройка защиты AD FS экстрасети'
 author: billmath
 ms.author: billmath
 manager: femila
 ms.date: 02/01/2019
 ms.topic: article
-ms.openlocfilehash: 0511063581fd633b56803999b761156c8217c967
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.openlocfilehash: d64e30e3d59cf47ad3a8eb448ad5f856d28f1bea
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96864503"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97040142"
 ---
 # <a name="configure-ad-fs-extranet-lockout-protection"></a>Настройка защиты блокировки экстрасети AD FS
 
@@ -85,7 +86,7 @@ Set-AdfsProperties -EnableExtranetLockout $true -ExtranetLockoutThreshold 15 -Ex
 - AD FS более поздней версии, чем 2016, завершится ошибкой, если не сможет получить доступ к PDC. В AD FS 2016 появились улучшения, позволяющие AD FS возвращаться к другим контроллерам домена в случае, если он недоступен.
 - AD FS будет разрешать запросы проверки подлинности из экстрасети, если badPwdCount < ExtranetLockoutThreshold
 - Если **badPwdCount**  >=  **ExtranetLockoutThreshold** и **аргументы badPasswordTime**  +  **екстранетобсерватионвиндов** < текущее время, AD FS отклонит запросы проверки подлинности из экстрасети.
-- Чтобы избежать блокировки вредоносных учетных записей, необходимо **ExtranetLockoutThreshold** убедиться в том, что  <  **порог блокировки учетной записи** ExtranetLockoutThreshold и **ExtranetObservationWindow**  >  **Счетчик блокировки сброса** екстранетобсерватионвиндов.
+- Чтобы избежать блокировки вредоносных учетных записей, необходимо убедиться в том, что  <  **порог блокировки учетной записи** ExtranetLockoutThreshold и   >  **Счетчик блокировки сброса** екстранетобсерватионвиндов.
 
 
 ## <a name="additional-references"></a>Дополнительная справка
@@ -94,5 +95,3 @@ Set-AdfsProperties -EnableExtranetLockout $true -ExtranetLockoutThreshold 15 -Ex
 - [Set-AdfsProperties](/powershell/module/adfs/set-adfsproperties)
 
 [Операции AD FS](../ad-fs-operations.md)
-
-

@@ -1,4 +1,5 @@
 ---
+description: Дополнительные сведения см. в статье определение целей развертывания AD FS
 ms.assetid: 604c771b-efae-4d0c-84a1-693e1f96d705
 title: Определение целей по развертыванию AD FS
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 54054caf11cf66249b4d07aa249b11b5feaa25bd
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 6ad7f0a3182d529e4382292bb7c3ecdc6b0ee4f0
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87945293"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97042912"
 ---
 # <a name="identifying-your-ad-fs-deployment-goals"></a>Определение целей по развертыванию AD FS
 

@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: управление рисками с помощью дополнительной многофакторной проверки подлинности для конфиденциальных приложений'
 ms.assetid: 934ac796-e2ee-490d-8265-6a818be5ee79
 title: управление рисками для уязвимых приложений с помощью дополнительной многофакторной проверки подлинности
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: b9f764b64a50b0c69116cf19e253097da464cdbb
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 3054109150402e44ba108215b4ac662ce6932b0c
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87954300"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97039722"
 ---
 # <a name="manage-risk-with-additional-multi-factor-authentication-for-sensitive-applications"></a>управление рисками для уязвимых приложений с помощью дополнительной многофакторной проверки подлинности
 

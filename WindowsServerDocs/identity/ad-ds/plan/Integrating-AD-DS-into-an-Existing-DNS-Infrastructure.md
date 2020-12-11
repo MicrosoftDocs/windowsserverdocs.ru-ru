@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: интеграция AD DS в существующую инфраструктуру DNS'
 ms.assetid: 4981b32f-741e-4afc-8734-26a8533ac530
 title: Интеграция доменных служб Active Directory в имеющуюся инфраструктуру DNS
 author: iainfoulds
@@ -6,12 +7,12 @@ ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 6c1a2af42d588cf8a8a2d2a940a6f67ccfad9311
-ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
+ms.openlocfilehash: aba44d8797e6ef77f33afc973b51dfd664f68e71
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93071116"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97042812"
 ---
 # <a name="integrating-ad-ds-into-an-existing-dns-infrastructure"></a>Интеграция доменных служб Active Directory в имеющуюся инфраструктуру DNS
 
@@ -28,7 +29,7 @@ ms.locfileid: "93071116"
 
 -   Настройте контроллеры домена для каждого регионального домена, в котором должны размещаться зоны DNS, соответствующие доменам Active Directory.
 
--   Настройте зону, содержащую Active Directory записи локатора в масштабе леса (то есть _msdcs. *форестнаме* Zone) для репликации на каждый DNS-сервер в лесу с помощью раздела каталога приложений DNS на уровне леса.
+-   Настройте зону, содержащую Active Directory записи локатора в масштабе леса (то есть _msdcs.*форестнаме* Zone) для репликации на каждый DNS-сервер в лесу с помощью раздела каталога приложений DNS на уровне леса.
 
     > [!NOTE]
     > Если служба DNS-сервера установлена с мастер установки доменных служб Active Directory (этот параметр рекомендуется), все предыдущие задачи выполняются автоматически. Дополнительные сведения см. [в разделе Развертывание корневого домена леса Windows Server 2008](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc731174(v=ws.10)).

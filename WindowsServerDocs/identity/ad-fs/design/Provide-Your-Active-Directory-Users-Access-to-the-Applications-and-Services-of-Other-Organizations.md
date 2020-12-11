@@ -1,4 +1,5 @@
 ---
+description: Дополнительные сведения см. в статье предоставление пользователям Active Directory доступа к приложениям и службам других организаций.
 ms.assetid: 2d62386c-b466-4a54-b6fa-5d16cda120d8
 title: Предоставление пользователям Active Directory вашей организации доступа к приложениям и службам других организаций
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 0d1bf60c276932a77573acff2e4e011831e65a05
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 8b174331e4fd0f014646e89d038c89c016b3bc17
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87967571"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97041402"
 ---
 # <a name="provide-your-active-directory-users-access-to-the-applications-and-services-of-other-organizations"></a>Предоставление пользователям Active Directory вашей организации доступа к приложениям и службам других организаций
 

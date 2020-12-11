@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: изменение настроек пароля'
 ms.assetid: 7e804590-6d6c-4cca-ac14-02d4dff06cec
 title: Изменение настройки пароля
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: c47649e5a60de646de331a6c723c18c3b041bca6
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 58699ca51b1a56296f5ad1618dd2eefca4301ac2
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87967011"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97039682"
 ---
 # <a name="update-password-customization"></a>Изменение настройки пароля
 

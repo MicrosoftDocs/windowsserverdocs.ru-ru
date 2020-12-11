@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: потоки целостности ReFS'
 title: Потоки целостности ReFS
 author: gawatu
 ms.author: jgerend
@@ -6,12 +7,12 @@ manager: dmoss
 ms.date: 10/16/2018
 ms.topic: article
 ms.assetid: 1f1215cd-404f-42f2-b55f-3888294d8a1f
-ms.openlocfilehash: 15c4b7942be949af33e70d2a5f299af426040e7b
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: aed3de02a21f59102bcaa4d0efce2ef6e2816856
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87950508"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97041262"
 ---
 # <a name="refs-integrity-streams"></a>Потоки целостности ReFS
 >Область применения: Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012, Windows Server (половина ежегодного канала), Windows 10

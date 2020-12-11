@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: известные проблемы с репликой хранилища'
 title: Известные проблемы с репликой хранилища
 manager: siroy
 ms.author: nedpyle
@@ -6,12 +7,12 @@ ms.topic: get-started-article
 author: nedpyle
 ms.date: 06/25/2019
 ms.assetid: ceddb0fa-e800-42b6-b4c6-c06eb1d4bc55
-ms.openlocfilehash: ed566e5db46cb147925799b055e8bde8ead57b25
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 2609d52cfa4ccc84125617567dbe4c44f16b6bfb
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87961178"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97043232"
 ---
 # <a name="known-issues-with-storage-replica"></a>Известные проблемы с репликой хранилища
 
@@ -53,7 +54,7 @@ ms.locfileid: "87961178"
 
 ## <a name="during-initial-sync-see-event-log-4004-warnings"></a>Во время начальной синхронизации вы видите предупреждения журнала событий 4004
 
-В Windows Server 2016 при настройке репликации как на исходном, так и на целевом серверах может отображаться несколько предупреждений **сторажереплика\админ*журнала событий 4004 каждый во время начальной синхронизации с состоянием "недостаточно системных ресурсов для завершения работы API". Также вы можете увидеть несколько ошибок 5014. Это означает, что у серверов недостаточный объем доступной памяти (ОЗУ) для одновременного выполнения начальной синхронизации и обычных рабочих нагрузок. Следует увеличить объем оперативной памяти либо уменьшить объем используемой памяти для всех компонентов и приложений, кроме реплики хранилища.
+В Windows Server 2016 при настройке репликации как на исходном, так и на целевом серверах может отображаться несколько предупреждений **сторажереплика\админ* журнала событий 4004 каждый во время начальной синхронизации с состоянием "недостаточно системных ресурсов для завершения работы API". Также вы можете увидеть несколько ошибок 5014. Это означает, что у серверов недостаточный объем доступной памяти (ОЗУ) для одновременного выполнения начальной синхронизации и обычных рабочих нагрузок. Следует увеличить объем оперативной памяти либо уменьшить объем используемой памяти для всех компонентов и приложений, кроме реплики хранилища.
 
 ## <a name="when-using-guest-clusters-with-shared-vhdx-and-a-host-without-a-csv-virtual-machines-stop-responding-after-configuring-replication"></a>При использовании гостевых кластеров с общим диском VHDX и узлом без CSV-файла виртуальные машины перестают отвечать после настройки репликации
 
@@ -137,7 +138,7 @@ At line: 1 char: 1
 + FullyQua1ifiedErrorId : Windows System Error 1168 ,New-SRPartnership
 ```
 
-Это происходит из-за выбора тома данных, расположенного в том же разделе, что и системный диск (т. е. диск*C:*, папка Windows). Например, на диске, который содержит и **C:*-и **D:*-тома, созданные из одной секции. Реплика хранилища не поддерживает такую возможность. Необходимо выбрать другой том для репликации.
+Это происходит из-за выбора тома данных, расположенного в том же разделе, что и системный диск (т. е. диск *C:*, папка Windows). Например, на диске, который содержит и **C:*-и **D:*-тома, созданные из одной секции. Реплика хранилища не поддерживает такую возможность. Необходимо выбрать другой том для репликации.
 
 ## <a name="attempting-to-grow-a-replicated-volume-fails-due-to-missing-update"></a>Не удается увеличить размер реплицированного тома из-за отсутствующего обновления
 
@@ -255,7 +256,7 @@ Get-ClusterAvailableDisk -All | Add-ClusterDisk
 
 ## <a name="the-smb-bandwidth-limiter-fails-to-throttle-storage-replica-bandwidth"></a>Механизму ограничения пропускной способности в протоколе SMB не удается регулировать пропускную способность реплики хранилища
 
-При указании ограничение пропускной способности реплики хранилища оно игнорируется, и используется полная пропускная способность. Например:
+При указании ограничение пропускной способности реплики хранилища оно игнорируется, и используется полная пропускная способность. Пример.
 
 ```
 Set-SmbBandwidthLimit  -Category StorageReplication -BytesPerSecond 32MB
@@ -265,7 +266,7 @@ Set-SmbBandwidthLimit  -Category StorageReplication -BytesPerSecond 32MB
 
 ## <a name="event-1241-warning-repeated-during-initial-sync"></a>Предупреждение о событии 1241 повторяется во время исходной синхронизации
 
-Хотя партнерство репликации указывается асинхронно, на исходном компьютере несколько раз регистрируется предупреждение (событие 1241) в канале администратора реплики хранилища. Например:
+Хотя партнерство репликации указывается асинхронно, на исходном компьютере несколько раз регистрируется предупреждение (событие 1241) в канале администратора реплики хранилища. Пример.
 
 ```
 Log Name:      Microsoft-Windows-StorageReplica/Admin
@@ -328,11 +329,11 @@ A process has requested access to an object, but has not been granted those acce
 Guidance: Possible causes include network failures, share creation failures for the remote replication group, or firewall settings. Make sure SMB traffic is allowed and there are no connectivity issues between the local computer and the remote computer. You should expect this event when suspending replication or removing a replication partnership.
 ```
 
-Обратите внимание, что `Status: "{Access Denied}"` и сообщение `A process has requested access to an object, but has not been granted those access rights.` это известная проблема в реплике хранилища и исправлена в обновлении с 12 сентября 2017 г. — KB4038782 (сборка ОС 14393,1715)https://support.microsoft.com/help/4038782/windows-10-update-kb4038782
+Обратите внимание, что `Status: "{Access Denied}"` и сообщение `A process has requested access to an object, but has not been granted those access rights.` это известная проблема в реплике хранилища и исправлена в обновлении с 12 сентября 2017 г. — KB4038782 (сборка ОС 14393,1715) https://support.microsoft.com/help/4038782/windows-10-update-kb4038782
 
 ## <a name="error-failed-to-bring-the-resource-cluster-disk-x-online-with-a-stretch-cluster"></a>Ошибка «Не удалось подключить ресурс "Диск кластера x" к сети». для растянутого кластера
 
-При подключении диска кластера после успешной отработки отказа, когда вы пытаетесь снова сделать исходный сайт основным, возникает ошибка диспетчера отказоустойчивого кластера. Например:
+При подключении диска кластера после успешной отработки отказа, когда вы пытаетесь снова сделать исходный сайт основным, возникает ошибка диспетчера отказоустойчивого кластера. Пример.
 
 ```
 Error
@@ -343,7 +344,7 @@ Error Code: 0x80071397
 The operation failed because either the specified cluster node is not the owner of the resource, or the node is not a possible owner of the resource.
 ```
 
-Если вы попытаетесь переместить диск или CSV вручную, возникает другая ошибка. Например:
+Если вы попытаетесь переместить диск или CSV вручную, возникает другая ошибка. Пример.
 
 ```
 Error
@@ -432,9 +433,9 @@ An Unexpected Error has Occurred
 
 Это решение не является идеальным, и некоторые клиенты могут не иметь возможности его использовать. Группа реплики хранилища работает над оптимизациями и обновленным механизмом ведения журнала в будущем, чтобы снизить эти искусственные узкие места. Этот журнал версии 1.1 впервые стал доступен в Windows Server 2019, и его Улучшенная производительность описана в [блоге по хранилищу сервера](https://techcommunity.microsoft.com/t5/storage-at-microsoft/bg-p/FileCAB).
 
-## <a name="error-could-not-find-file-when-running-test-srtopology-between-two-clusters"></a>Ошибка "не удается найти файл" при выполнении Test-SRTopology между двумя кластерами
+## <a name="error-could-not-find-file-when-running-test-srtopology-between-two-clusters"></a>Ошибка "не удается найти файл" при запуске Test-SRTopology между двумя кластерами
 
-При выполнении Test-SRTopology между двумя кластерами и их путями CSV происходит сбой с ошибкой:
+При запуске Test-SRTopology между двумя кластерами и их путями CSV происходит сбой с ошибкой:
 
 ```powershell
 PS C:\Windows\system32> Test-SRTopology -SourceComputerName NedClusterA -SourceVolumeName C:\ClusterStorage\Volume1 -SourceLogVolumeName L: -DestinationComputerName NedClusterB -DestinationVolumeName C:\ClusterStorage\Volume1 -DestinationLogVolumeName L: -DurationInMinutes 1 -ResultPath C:\Temp
@@ -455,9 +456,9 @@ At line:1 char:1
 
 Это вызвано известным дефектом кода в Windows Server 2016. Эта проблема была впервые исправлена в Windows Server, версии 1709 и связанных средствах RSAT. Для разрешения предыдущей версии обратитесь в служба поддержки Майкрософт и запросите обновление порта. Способа решения этой проблемы не существует.
 
-## <a name="error-specified-volume-could-not-be-found-when-running-test-srtopology-between-two-clusters"></a>Ошибка "не удалось найти указанный том" при выполнении Test-SRTopology между двумя кластерами
+## <a name="error-specified-volume-could-not-be-found-when-running-test-srtopology-between-two-clusters"></a>Ошибка "не удалось найти указанный том" при запуске Test-SRTopology между двумя кластерами
 
-При выполнении Test-SRTopology между двумя кластерами и их путями CSV происходит сбой с ошибкой:
+При запуске Test-SRTopology между двумя кластерами и их путями CSV происходит сбой с ошибкой:
 
 ```
 PS C:\> Test-SRTopology -SourceComputerName RRN44-14-09 -SourceVolumeName C:\ClusterStorage\Volume1 -SourceLogVolumeName L: -DestinationComputerName RRN44-14-13 -DestinationVolumeName C:\ClusterStorage\Volume1 -DestinationLogVolumeName L: -DurationInMinutes 30 -ResultPath c:\report
@@ -486,7 +487,7 @@ At line:1 char:1
 
 ## <a name="test-failover-doesnt-mount-when-using-asynchronous-replication"></a>Тестовая отработка отказа не подключается при использовании асинхронной репликации
 
-При запуске Mount-Срдестинатион для подключения целевого тома в режиме тестовой отработки отказа происходит сбой с ошибкой:
+При запуске Mount-SRDestination для перевода целевого тома в режим «в сети» в рамках функции тестовой отработки отказа происходит сбой с ошибкой:
 
 ```
 Mount-SRDestination: Unable to mount SR group <TEST>, detailed reason: The group or resource is not in the correct state to perform the supported operation.

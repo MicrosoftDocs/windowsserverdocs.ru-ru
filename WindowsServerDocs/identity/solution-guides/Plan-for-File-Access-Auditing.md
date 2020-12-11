@@ -1,4 +1,5 @@
 ---
+description: Дополнительные сведения о планировании аудита доступа к файлам
 ms.assetid: 3ea48a72-20a2-4da4-84e4-26b5728513ce
 title: План аудита доступа к файлам
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 7a67994f9b4f2753d85d0f69d7ed9ede6eb8eac5
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: cf4cc05480eadb15c0e5baba3a0cea3be04fcf93
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87952752"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97044442"
 ---
 # <a name="plan-for-file-access-auditing"></a>План аудита доступа к файлам
 

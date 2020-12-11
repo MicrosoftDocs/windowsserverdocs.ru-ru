@@ -1,4 +1,5 @@
 ---
+description: Дополнительные сведения см. в описании шага 7,4. Развертывание корневых сертификатов условного доступа в локальную службу AD
 title: Развертывание корневых сертификатов условного доступа в локальном домене AD
 ms.topic: article
 ms.date: 06/28/2019
@@ -6,12 +7,12 @@ ms.author: v-tea
 author: Teresa-MOTIV
 ms.localizationpriority: medium
 ms.reviewer: deverette
-ms.openlocfilehash: 7edae0ac84e6ea11720f786c8a5188ebc6e8a522
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: a317dfeedbd7d53578ea7568574ee6c8e31c1190
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87970171"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97039412"
 ---
 # <a name="step-74-deploy-conditional-access-root-certificates-to-on-premises-ad"></a>Шаг 7.4. Развертывание корневых сертификатов условного доступа в локальную службу AD
 
@@ -32,7 +33,7 @@ ms.locfileid: "87970171"
    >[!NOTE]
    >Для сред, в которых VPN-сервер не присоединен к домену Active Directory, корневые сертификаты облака необходимо добавить в хранилище _доверенных корневых центров сертификации_ вручную.
 
-   | Get-Help | Описание |
+   | Команда | Описание |
    | --- | --- |
    | `certutil -dspublish -f VpnCert.cer RootCA` | Создает два **корневых контейнера ЦС Microsoft VPN** в контейнерах **CN = AIA** и **CN =** Certificate и публикует каждый корневой сертификат в качестве значения атрибута _сохранить_ обоих контейнеров **корневого ЦС Microsoft VPN (GEN 1** ). |
    | `certutil -dspublish -f VpnCert.cer NTAuthCA` | Создает один контейнер **CN = нтаусцертификатес** в контейнерах **CN = AIA** и **CN = Certification** и публикует каждый корневой сертификат в качестве значения атрибута _сохранить_ контейнера **CN = нтаусцертификатес** . |

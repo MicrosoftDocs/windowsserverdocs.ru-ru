@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: Проектирование логической структуры'
 ms.assetid: 9ad81367-f3fe-4b2e-bd7c-5900b2b9f77f
 title: Проектирование логической структуры
 author: iainfoulds
@@ -6,12 +7,12 @@ ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 09a26589d2301e4b4d2e206c4953e9ae7810f3cc
-ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
+ms.openlocfilehash: f379c23502506741af11109c8c4083750cdb6b10
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93069306"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97040012"
 ---
 # <a name="designing-the-logical-structure"></a>Проектирование логической структуры
 

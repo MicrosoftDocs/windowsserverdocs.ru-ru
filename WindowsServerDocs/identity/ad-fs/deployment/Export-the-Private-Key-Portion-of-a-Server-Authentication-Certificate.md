@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения о: экспорт закрытого ключа часть сертификата проверки подлинности сервера'
 ms.assetid: cd4d4902-dcdf-49dd-8059-82a56bf4b585
 title: Экспорт части сертификата аутентификации сервера с закрытым ключом
 author: billmath
@@ -6,12 +7,12 @@ manager: femila
 ms.date: 05/31/2017
 ms.topic: article
 ms.author: billmath
-ms.openlocfilehash: dcc6332881fa4ff0143604eebb491f8ed48283c2
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: b4c845d6444a84f653e775b4b725cc1c6ba176d7
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87972221"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97041122"
 ---
 # <a name="export-the-private-key-portion-of-a-server-authentication-certificate"></a>Экспорт части сертификата аутентификации сервера с закрытым ключом
 
@@ -28,7 +29,7 @@ ms.locfileid: "87972221"
 
 ### <a name="to-export-the-private-key-portion-of-a-server-authentication-certificate"></a>Экспорт части сертификата аутентификации сервера с закрытым ключом
 
-1. На **начальном** экране введите**службы IIS \( \) Диспетчер IIS**и нажмите клавишу ВВОД.
+1. На **начальном** экране введите **службы IIS \( \) Диспетчер IIS** и нажмите клавишу ВВОД.
 
 2. В дереве консоли щелкните **ComputerName**.
 
@@ -38,7 +39,7 @@ ms.locfileid: "87972221"
 
 5. В диалоговом окне **Экспорт сертификатов** нажмите кнопку **…** .
 
-6. В окне **имя файла**введите **C: \\ **<em>намеофцертификате</em>, а затем нажмите кнопку **Открыть**.
+6. В окне **имя файла** введите **C: \\**<em>намеофцертификате</em>, а затем нажмите кнопку **Открыть**.
 
 7. Введите пароль для сертификата, подтвердите его и нажмите кнопку **ОК**.
 

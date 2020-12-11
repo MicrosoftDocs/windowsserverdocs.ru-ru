@@ -1,16 +1,17 @@
 ---
 title: Настройка AD FS запрещенных IP-адресов
+description: 'Дополнительные сведения: AD FS и запрещенные IP-адреса'
 author: billmath
 ms.author: billmath
 manager: mtillman
 ms.date: 06/28/2018
 ms.topic: article
-ms.openlocfilehash: 5aa751f29eb83777370dbd350cdbabf9ae3226d3
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.openlocfilehash: 3366088579f3a78dd818ac1cef6bb8894ffe5f57
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96866292"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97040202"
 ---
 # <a name="ad-fs-and-banned-ip-addresses"></a>AD FS и запрещенные IP-адреса
 

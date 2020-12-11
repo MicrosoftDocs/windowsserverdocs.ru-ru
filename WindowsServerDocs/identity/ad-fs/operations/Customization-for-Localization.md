@@ -1,4 +1,5 @@
 ---
+description: Дополнительные сведения о настройке локализации
 ms.assetid: 38bbc002-a8fa-4211-9328-4ef67fca0acf
 title: Настройка для локализации
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 41a540b43fde264718ca7aa81ba0e48184cf1265
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 8f39a5da85821d6c4cdeb6bff7803dc57e06623e
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87956391"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97039882"
 ---
 # <a name="customization-for-localization"></a>Настройка для локализации
 

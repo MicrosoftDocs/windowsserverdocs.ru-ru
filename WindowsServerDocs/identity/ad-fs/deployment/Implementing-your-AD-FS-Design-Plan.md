@@ -1,4 +1,5 @@
 ---
+description: Дополнительные сведения см. в статье реализация плана проектирования AD FS
 ms.assetid: d04dd17e-a843-46fd-8711-0039918f92d9
 title: Реализация плана проектирования AD FS
 author: billmath
@@ -6,12 +7,12 @@ manager: femila
 ms.date: 05/31/2017
 ms.topic: article
 ms.author: billmath
-ms.openlocfilehash: 84e5b1ad8c9491c85627657b7ca651d509f25653
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 9f9e4b0f4ccf51e976a3b62fb03ee37f81711346
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87972211"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97041092"
 ---
 # <a name="implementing-your-ad-fs-design-plan"></a>Реализация плана проектирования AD FS
 

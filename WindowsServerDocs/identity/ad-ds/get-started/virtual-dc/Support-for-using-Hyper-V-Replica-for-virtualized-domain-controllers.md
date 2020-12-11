@@ -1,4 +1,5 @@
 ---
+description: Дополнительные сведения см. в статье поддержка использования реплик Hyper-V для виртуализированных контроллеров домена.
 ms.assetid: 45a65504-70b5-46ea-b2e0-db45263fabaa
 title: Поддержка использования реплики Hyper-V для виртуализированных контроллеров домена
 author: iainfoulds
@@ -6,12 +7,12 @@ ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 0a8d59da05f7dbf675114c96ceac5e755b06a66a
-ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
+ms.openlocfilehash: 4e91ea30c27d9e9c27386cdc6bccc0605845a86a
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93071056"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97043102"
 ---
 # <a name="support-for-using-hyper-v-replica-for-virtualized-domain-controllers"></a>Поддержка использования реплики Hyper-V для виртуализированных контроллеров домена
 
@@ -53,7 +54,7 @@ Windows Server 2012 Hyper-V представил VM-GenerationID (Вмженид
 
 Данное заявление о поддержке основано на тестах, проведенных в лесе с одним доменом, однако конфигурации леса с несколькими доменами также поддерживаются. Для этих тестов виртуализированные контроллеры домена DC1 и DC2 являются партнерами репликации Active Directory на одном сайте, размещенном на сервере, где выполняется Hyper-V в Windows Server 2012. В операционной системе виртуальной машины, где выполняется DC2, включена реплика Hyper-V. Сервер-реплика размещается в другом географически удаленном центре обработки данных. Чтобы упростить восприятие приведенных ниже процедур тестового случая, для виртуальной машины, выполняемой на сервере-реплике, используется имя DC2-Rec (хотя на практике она сохраняет имя исходной виртуальной машины).
 
-### <a name="windows-server-2012"></a>Windows Server 2012
+### <a name="windows-server-2012"></a>Windows Server 2012
 
 В следующей таблице поясняется поддержка виртуализированных контроллеров домена, работающих под управлением Windows Server 2012, и тестовых случаев.
 

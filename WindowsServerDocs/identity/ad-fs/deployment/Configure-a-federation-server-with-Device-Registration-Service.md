@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: Настройка сервера федерации с помощью службы регистрации устройств'
 ms.assetid: fdd1c1fd-55aa-4eb8-ae84-53f811de042c
 title: настройка сервера федерации с помощью службы регистрации устройств
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: cba3f26a2c5e3d17e1c29609e44115c667838613
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: ae72874eb575579691c00e9331adc0aee18fa1b8
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87963075"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97044232"
 ---
 # <a name="configure-a-federation-server-with-device-registration-service"></a>настройка сервера федерации с помощью службы регистрации устройств
 

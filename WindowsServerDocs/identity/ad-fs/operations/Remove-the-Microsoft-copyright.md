@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: удаление авторского права Майкрософт'
 ms.assetid: c89a977c-b09f-44ec-be42-41e76a6cf3ad
 title: Удаление авторского права Майкрософт
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: ec7d9cb02508fc046ce3e8f0378e63c82eecca8d
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: a5b377989315462789b9b33faf5267211c93bf8c
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87949778"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97039732"
 ---
 # <a name="remove-the-microsoft-copyright"></a>Удаление авторского права Майкрософт
 
@@ -35,7 +36,7 @@ ms.locfileid: "87949778"
    Export-AdfsWebTheme -Name custom -DirectoryPath C:\CustomWebTheme
    ```
 
-3. Найти `Style.css` файл, расположенный в папке выходных данных. Используя предыдущий пример, путь будет выглядеть так:`C:\CustomWebTheme\Css\Style.css.`
+3. Найти `Style.css` файл, расположенный в папке выходных данных. Используя предыдущий пример, путь будет выглядеть так: `C:\CustomWebTheme\Css\Style.css.`
 
 4. Откройте `Style.css` файл в редакторе, например в блокноте.
 

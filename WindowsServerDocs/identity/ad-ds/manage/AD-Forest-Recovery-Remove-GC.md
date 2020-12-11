@@ -1,4 +1,5 @@
 ---
+description: Дополнительные сведения о восстановлении леса AD. Удаление глобального каталога
 title: Восстановление леса AD — удаление глобального каталога
 ms.author: daveba
 author: iainfoulds
@@ -6,12 +7,12 @@ manager: daveba
 ms.date: 08/09/2018
 ms.topic: article
 ms.assetid: 60087a62-11e6-4750-a70e-510f35315688
-ms.openlocfilehash: 0ec7af53bc43806f97edbd9174f2c2179641238b
-ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
+ms.openlocfilehash: e825b1fed5b9398991709f4c6175559b843b2e59
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93070856"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97041612"
 ---
 # <a name="ad-forest-recovery---removing-the-global-catalog"></a>Восстановление леса AD — удаление глобального каталога
 
@@ -23,13 +24,13 @@ ms.locfileid: "93070856"
 
 ## <a name="to-remove-the-global-catalog-using-active-directory-sites-and-services"></a>Удаление глобального каталога с помощью Active Directory сайтов и служб
 
-1. Откройте диспетчер сервера, щелкните **Сервис** и выберите **Active Directory сайты и службы** .
+1. Откройте диспетчер сервера, щелкните **Сервис** и выберите **Active Directory сайты и службы**.
 2. В дереве консоли разверните контейнер **сайты** , а затем выберите соответствующий сайт, содержащий целевой сервер.
 3. Разверните контейнер **серверы** , а затем разверните объект *сервера* для контроллера домена, из которого необходимо удалить глобальный каталог.
-4. Щелкните правой кнопкой мыши **Параметры NTDS** и выберите пункт **свойства** .
+4. Щелкните правой кнопкой мыши **Параметры NTDS** и выберите пункт **свойства**.
 5. Снимите флажок **глобальный каталог** .
    ![Удалить GC](media/AD-Forest-Recovery-Remove-GC/removegc1.png)
-6. Нажмите кнопку **Применить** .
+6. Щелкните **Применить**.
 
 ## <a name="to-remove-the-global-catalog-using-repadmin"></a>Удаление глобального каталога с помощью средства Repadmin
 

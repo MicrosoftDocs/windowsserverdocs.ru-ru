@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: контрольный список: Настройка организации партнера по учетным записям'
 ms.assetid: 826974ea-3635-40df-aa37-77dd12a363c8
 title: Контрольный список — настройка организации партнера по учетным записям
 author: billmath
@@ -6,12 +7,12 @@ manager: femila
 ms.date: 05/31/2017
 ms.topic: article
 ms.author: billmath
-ms.openlocfilehash: e1fc3dea0d25cc428081964372dc2269d78c9d6d
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: a8b968bfb7f1e051e0cabcadd76b549d8d302482
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87938583"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97041972"
 ---
 # <a name="checklist-configuring-the-account-partner-organization"></a>Контрольный список: Настройка организации партнера по учетным записям
 

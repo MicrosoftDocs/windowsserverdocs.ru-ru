@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения о сценарии: реализация хранения информации на файловых серверах'
 ms.assetid: 81c55015-82e5-4ba1-b15e-cc7b49af28fc
 title: Сценарий, реализующий хранение информации на файловых серверах
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 479aaaf96eab094f3ba7556c0c0416c9915f4620
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 497703300b87ac07f06741fa6bd5274975f2d711
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87940216"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97044562"
 ---
 # <a name="scenario-implement-retention-of-information-on-file-servers"></a>Scenario: Implement Retention of Information on File Servers
 
@@ -37,7 +38,7 @@ ms.locfileid: "87940216"
 ## <a name="features-included-in-this-scenario"></a><a name="BKMK_NEW"></a>Компоненты, используемые в данном сценарии
 В следующей таблице перечислены компоненты, являющиеся частью данного сценария, и описано, как они поддерживают его.
 
-|Функция|Способ поддержки сценария|
+|Компонент|Способ поддержки сценария|
 |-----------|---------------------------------|
 |[File Server Resource Manager Overview](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831701(v=ws.11))|Инфраструктура классификации файлов — это компонент диспетчера ресурсов файлового сервера.|
 |[Обзор служб файлов и хранилищ](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831487(v=ws.11))|Диспетчер ресурсов файлового сервера — это компонент, включенный в роль сервера файловых служб.|

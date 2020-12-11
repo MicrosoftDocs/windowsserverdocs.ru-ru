@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: Обновление встроенного по диска'
 ms.assetid: e5945bae-4a33-487c-a019-92a69db8cf6c
 title: Обновление встроенного ПО дисков
 ms.author: toklima
@@ -6,12 +7,12 @@ manager: dmoss
 ms.topic: article
 author: toklima
 ms.date: 10/04/2016
-ms.openlocfilehash: 15e0d6dedc6bb81c0b511479ee342dbd463654e2
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 2393afa82b61d432a4191753771b27db22e1691c
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87946217"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97039172"
 ---
 # <a name="updating-drive-firmware"></a>Обновление встроенного ПО дисков
 >Область применения: Windows Server 2019, Windows Server 2016, Windows 10
@@ -41,7 +42,7 @@ ms.locfileid: "87946217"
 -   Get-StorageFirmwareInformation
 -   Update-StorageFirmware
 
-Первый командлет предоставляет подробные сведения о возможностях устройства, образах встроенного ПО и редакциях. В данном случае компьютер содержит всего один SATA SSD с 1 слотом встроенного ПО. Ниже приведен пример.
+Первый командлет предоставляет подробные сведения о возможностях устройства, образах встроенного ПО и редакциях. В данном случае компьютер содержит всего один SATA SSD с 1 слотом встроенного ПО. Ниже приведен пример:
 
    ```powershell
    Get-PhysicalDisk | Get-StorageFirmwareInformation
@@ -162,7 +163,7 @@ $NewDoc = Get-Content <Path> | Out-String
 $SpacesDirect | Set-StorageHealthSetting -Name "System.Storage.SupportedComponents.Document" -Value $NewDoc
 ```
 
-Если вы хотите просмотреть служба работоспособности в действии и узнать больше о механизме развертывания, ознакомьтесь с этим видео:https://channel9.msdn.com/Blogs/windowsserver/Update-Drive-Firmware-Without-Downtime-in-Storage-Spaces-Direct
+Если вы хотите просмотреть служба работоспособности в действии и узнать больше о механизме развертывания, ознакомьтесь с этим видео: https://channel9.msdn.com/Blogs/windowsserver/Update-Drive-Firmware-Without-Downtime-in-Storage-Spaces-Direct
 
 ## <a name="frequently-asked-questions"></a>Часто задаваемые вопросы
 

@@ -1,17 +1,18 @@
 ---
 ms.assetid: 01c8cece-66ce-4a83-a81e-aa6cc98e51fc
 title: Дополнительные параметры дедупликации данных
+description: Дополнительные сведения см. в статье Расширенные параметры дедупликации данных.
 ms.topic: article
 author: wmgries
 manager: klaasl
 ms.author: wgries
 ms.date: 09/15/2016
-ms.openlocfilehash: 84d90e8c1de81498cbc832c8cf068e2ac339ac97
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.openlocfilehash: aa5f34f1c1fdc2b2a706cb0dfe1b7cf5a30456eb
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96866203"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97039202"
 ---
 # <a name="advanced-data-deduplication-settings"></a>Дополнительные параметры дедупликации данных
 
@@ -74,7 +75,7 @@ ms.locfileid: "96866203"
     </thead>
     <tbody>
         <tr>
-            <td>Type</td>
+            <td>Тип</td>
             <td>Тип задания, который нужно запланировать</td>
             <td>
                 <ul>
@@ -148,7 +149,7 @@ ms.locfileid: "96866203"
             <td>Чтобы контролировать уровень влияния задания на ресурсы памяти в системе.</td>
         </tr>
         <tr>
-            <td>Название</td>
+            <td>Имя</td>
             <td>Имя запланированного задания</td>
             <td>Строка</td>
             <td>Задание должно иметь уникальное персональное имя.</td>

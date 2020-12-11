@@ -1,4 +1,5 @@
 ---
+description: Дополнительные сведения см. в статье ферма серверов федерации с помощью SQL Server
 ms.assetid: 6618b3ce-0e94-4009-b887-d8e05453358b
 title: Ферма серверов AD FS Федерации с помощью SQL Server
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 3c796dcdeaf5fa3dfcd85e7f7db850e5ca85ef4f
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 4a537f6dead197b19d2f4ada4f0028c8194dc2bb
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87942758"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97039212"
 ---
 # <a name="federation-server-farm-using-sql-server"></a>Ферма серверов федерации с использованием SQL Server
 

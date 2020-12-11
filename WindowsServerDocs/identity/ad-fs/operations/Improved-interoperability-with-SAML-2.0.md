@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения о: улучшенное взаимодействие с SAML 2,0'
 ms.assetid: 80b5335b-fa02-4944-900c-5fe4f5c6111d
 title: Улучшение взаимодействия с SAML 2.0
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: d92859a7f8ae37f847a68dae9ca7fd0245308b6a
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 741e3370b2957bfaa4f5e908617f6c35210f4a22
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87954230"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97039823"
 ---
 # <a name="improved-interoperability-with-saml-20"></a>Улучшение взаимодействия с SAML 2.0
 

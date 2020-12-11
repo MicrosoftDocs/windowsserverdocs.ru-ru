@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения о: перевод сервера Локальные дисковые пространства в автономный режим для обслуживания'
 title: Перевод сервера локальных дисковых пространств в автономный режим для обслуживания
 ms.author: eldenc
 manager: eldenc
@@ -7,12 +8,12 @@ author: eldenchristensen
 ms.date: 10/08/2018
 ms.assetid: 73dd8f9c-dcdb-4b25-8540-1d8707e9a148
 ms.localizationpriority: medium
-ms.openlocfilehash: 1190028ce94b8ecb37d188e5571443f55d6e12d1
-ms.sourcegitcommit: 7f859d8ec86664fdedd05901ac3714f84e7868b5
+ms.openlocfilehash: 5f2a8a926fefe68b0afe79c0d120164d97f1eb90
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94703780"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97042072"
 ---
 # <a name="taking-a-storage-spaces-direct-server-offline-for-maintenance"></a>Перевод сервера локальных дисковых пространств в автономный режим для обслуживания
 
@@ -48,7 +49,7 @@ MyVolume3    Mirror                OK                Healthy      True          
 
 Убедитесь, что в свойстве **HealthStatus** каждого тома (виртуального диска) задано значение **Healthy**.
 
-Чтобы сделать это в Диспетчер отказоустойчивости кластеров, перейдите на **Storage**  >  **диски** хранилища.
+Чтобы сделать это в Диспетчер отказоустойчивости кластеров, перейдите на   >  **диски** хранилища.
 
 Убедитесь, что в столбце **Состояние** каждого тома (виртуального диска) указано значение **В сети**.
 

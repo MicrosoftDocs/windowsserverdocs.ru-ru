@@ -1,4 +1,5 @@
 ---
+description: 'Подробнее: Настройка партнерских организаций'
 ms.assetid: 4d002764-58b4-4137-9c86-1e55b02e07ce
 title: Настройка партнерских организаций
 author: billmath
@@ -6,12 +7,12 @@ manager: femila
 ms.date: 05/31/2017
 ms.topic: article
 ms.author: billmath
-ms.openlocfilehash: 123968fdc9ce9e30b3cf78d25fe37b30e46fd473
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 6f62c900e1b1f168f863e3bf34bd7e5f013d7a9b
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87962978"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97043492"
 ---
 # <a name="configuring-partner-organizations"></a>Настройка партнерских организаций
 

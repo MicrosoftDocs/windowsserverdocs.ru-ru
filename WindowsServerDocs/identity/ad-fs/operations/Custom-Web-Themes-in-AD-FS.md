@@ -1,4 +1,5 @@
 ---
+description: Дополнительные сведения о пользовательских веб-темах см. в AD FS
 ms.assetid: 0379abc3-25c7-46ab-9a6b-80a5152365b0
 title: Пользовательские веб-темы в AD FS
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 99ea2ef8d2a4fca6733b5d314ab138adb55277aa
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 303d1903be5a21d35abe2724401d73170673751c
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87956411"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97039942"
 ---
 # <a name="custom-web-themes-in-ad-fs"></a>Пользовательские веб-темы в AD FS
 

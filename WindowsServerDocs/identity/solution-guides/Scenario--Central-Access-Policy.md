@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: сценарий: централизованная политика доступа'
 ms.assetid: 7f285c9f-c3e8-4aae-9ff4-a9123815114e
 title: Политика централизованного доступа к сценарию
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 61ef5be004b4c138ed9654cf326703bbbd7d7053
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 74fab5d6d790c4cf8ff4548f723a58dee50a941e
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87952774"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97044612"
 ---
 # <a name="scenario-central-access-policy"></a>Сценарий: Централизованная политика доступа
 

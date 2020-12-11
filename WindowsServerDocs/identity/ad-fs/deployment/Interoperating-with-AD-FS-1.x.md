@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: взаимодействие с AD FS 1. x'
 ms.assetid: 97999892-29c6-4076-be19-5e5259d8ada6
 title: Взаимодействие с AD FS 1.x
 author: billmath
@@ -6,22 +7,22 @@ manager: femila
 ms.date: 05/31/2017
 ms.topic: article
 ms.author: billmath
-ms.openlocfilehash: 21f0ef0e3ad77d5ea58e5d3b82da66ce420e5d49
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 03bc60daaa456dba97aa1b0e210aed223a0c24a7
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87972151"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97043362"
 ---
 # <a name="interoperating-with-ad-fs-1x"></a>Взаимодействие с AD FS 1.x
 
-Для взаимодействия между \( AD FSми службы федерации Active Directory (AD FS) \) в Windows Server &reg; 2012 и AD FS 1.* x*, выполните одну или несколько из следующих задач в зависимости от потребностей Организации:
+Для взаимодействия между \( AD FSми службы федерации Active Directory (AD FS) \) в Windows Server &reg; 2012 и AD FS 1.*x*, выполните одну или несколько из следующих задач в зависимости от потребностей Организации:
 
 -   Планируйте взаимодействие между AD FS в Windows Server 2012 и предыдущих версиях AD FS и Узнайте больше о типе утверждения идентификатора имени. Дополнительные сведения см. в разделе [Планирование взаимодействия с AD FS 1. x](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/ff678040(v=ws.11)).
 
 -   Если вы отправите утверждения от AD FS служба федерации в Windows Server 2012, которые могут использоваться AD FS 1. служба федерации *x* см. [в разделе Контрольный список: настройка AD FS для отправки утверждений в AD FS 1. x служба федерации](Checklist--Configuring-AD-FS-to-Send-Claims-to-an-AD-FS-1.x-Federation-Service.md).
 
--   Если вы отправите утверждения от AD FS служба федерации в Windows Server 2012, которые могут использоваться приложением, размещенным на веб-сервере, на котором выполняется AD FS 1. *x* \- веб-агент x с поддержкой утверждений см. [в разделе Контрольный список: настройка AD FS для отправки утверждений в веб-агент, поддерживающий утверждения AD FS 1. x](Checklist--Configuring-AD-FS-to-Send-Claims-to-an-AD-FS-1.x-Claims-Aware-Web-Agent.md).
+-   Если вы отправите утверждения от AD FS служба федерации в Windows Server 2012, которые могут использоваться приложением, размещенным на веб-сервере, на котором выполняется AD FS 1.  \- веб-агент x с поддержкой утверждений см. [в разделе Контрольный список: настройка AD FS для отправки утверждений в веб-агент, поддерживающий утверждения AD FS 1. x](Checklist--Configuring-AD-FS-to-Send-Claims-to-an-AD-FS-1.x-Claims-Aware-Web-Agent.md).
 
 -   Если вы будете отправлять утверждения из AD FS 1. *x* служба Федерации, которые будут использоваться AD FS Служба федерации в Windows Server 2012, см. в разделе [Контрольный список: настройка AD FS для использования утверждений от AD FS 1. x](Checklist--Configuring-AD-FS--to-Consume-Claims-from-AD-FS-1.x.md).
 

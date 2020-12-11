@@ -1,17 +1,18 @@
 ---
 ms.assetid: 7b22adfa-298d-413c-88d0-1231825b7d4d
 title: Обзор сценария динамического контроля доступа
+description: 'Дополнительные сведения: динамический контроль доступа: обзор сценария'
 author: billmath
 ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 74757b269ef0660de2c9a68a4c37a0c2fa8ffab4
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.openlocfilehash: 32529f157f628429fd7b30a925a7f5fd805945a0
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96866103"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97040562"
 ---
 # <a name="dynamic-access-control-scenario-overview"></a>Динамический контроль доступа. Обзор сценария
 
@@ -54,7 +55,7 @@ ms.locfileid: "96866103"
 > [!NOTE]
 > Динамический контроль доступа не поддерживается в файловой системе ReFS (Resilient File System).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 |Тип содержимого|Ссылки|
 |----------------|--------------|

@@ -1,18 +1,18 @@
 ---
 title: Присоединение служб MultiPoint к домену (необязательно)
-Description: Содержит инструкции по присоединению служб MultiPoint к домену.
+description: Содержит инструкции по присоединению служб MultiPoint к домену.
 ms.date: 07/22/2016
 ms.topic: article
 ms.assetid: 623b7c21-dcbb-402e-8b5a-8e434cd225bd
 author: evaseydl
 manager: scottman
 ms.author: evas
-ms.openlocfilehash: 8e1f1249ac3670a550e70cc09a9862306fd85658
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: f4e70f60a2e7c0d29b2b008c53ef751429fc868b
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87995947"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97039432"
 ---
 # <a name="join-the-multipoint-services-computer-to-a-domain-optional"></a>Присоединение компьютера служб MultiPoint к домену (необязательно)
 Если вы будете получать доступ к компьютеру служб MultiPoint через домен Active Directory, следующий шаг заключается в добавлении компьютера в домен.

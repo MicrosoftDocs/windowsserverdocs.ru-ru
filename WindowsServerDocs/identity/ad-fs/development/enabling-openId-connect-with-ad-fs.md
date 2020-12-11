@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: создание веб-приложения с помощью OpenID Connect Connect с AD FS 2016 и более поздних версий'
 ms.assetid: d282bb4e-38a0-4c7c-83d8-f6ea89278057
 title: Создание веб-приложения с помощью OpenID Connect Connect с AD FS 2016 и более поздних версий
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: mtillman
 ms.date: 02/22/2018
 ms.topic: article
-ms.openlocfilehash: 5fd97c3953bcae9037b0ea971eb454eaa7ef58d1
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 24c6918cc4f0a438bd45317364207b71a5e9b192
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87942788"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97041582"
 ---
 # <a name="build-a-web-application-using-openid-connect-with-ad-fs-2016-and-later"></a>Создание веб-приложения с помощью OpenID Connect Connect с AD FS 2016 и более поздних версий
 
@@ -31,13 +32,13 @@ ms.locfileid: "87942788"
 
 1.  В AD FS управления щелкните правой кнопкой мыши группы приложений и выберите команду **Добавить группу приложений**.
 
-2.  В мастере группы приложений в поле Имя введите **адфсссо** и в разделе **клиент-серверные приложения** выберите **веб-браузер, обращающийся к шаблону веб-приложения** .  Щелкните **Далее**.
+2.  В мастере группы приложений в поле Имя введите **адфсссо** и в разделе **клиент-серверные приложения** выберите **веб-браузер, обращающийся к шаблону веб-приложения** .  Нажмите кнопку **Далее**.
 
     ![AD FS OpenID Connect](media/Enabling-OpenId-Connect-with-AD-FS-2016/AD_FS_OpenID_1.PNG)
 
 3.  Скопируйте значение **идентификатора клиента** .  Он будет использоваться позже в качестве значения для Ida: ClientId в файле web.config приложений.
 
-4.  Введите следующую команду для **URI перенаправления:**  -  **https://localhost:44320/** .  Нажмите кнопку **Добавить**. Щелкните **Далее**.
+4.  Введите следующую команду для **URI перенаправления:**  -  **https://localhost:44320/** .  Нажмите кнопку **Добавить**. Нажмите кнопку **Далее**.
 
     ![AD FS OpenID Connect](media/Enabling-OpenId-Connect-with-AD-FS-2016/AD_FS_OpenID_2.PNG)
 

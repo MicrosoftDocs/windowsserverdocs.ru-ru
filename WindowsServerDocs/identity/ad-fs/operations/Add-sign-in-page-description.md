@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: Добавление описания страницы входа'
 ms.assetid: 330c7b61-dde0-432f-9b74-d250ad9cc808
 title: Добавление описания страницы входа
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 033663720750ee2990cbc6eb4dd0c6d9abe1a002
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: ff74a70bf0ef55798f48bd871b180de5cc792f75
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87962638"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97044272"
 ---
 # <a name="add-sign-in-page-description"></a>Добавить \- Описание страницы входа
 

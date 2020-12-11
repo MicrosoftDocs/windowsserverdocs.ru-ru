@@ -1,17 +1,18 @@
 ---
+description: 'Дополнительные сведения: сценарий: Access-Denied помощь'
 ms.assetid: aae907eb-11cf-4a87-a046-8680872ed0b1
-title: Сценарий — отказ в доступе
+title: Сценарий Access-Denied помощи
 author: billmath
 ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: fe269b92e8c8fcd9fc58c82307ea8b180231a87a
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: dbe440b7fc5ddc95767ec9af303cbd86cc879fd2
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87952742"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97044432"
 ---
 # <a name="scenario-access-denied-assistance"></a>Сценарий: помощь при отказе в доступе
 
@@ -38,7 +39,7 @@ ms.locfileid: "87952742"
 
 Сведения о планировании настройки помощи при отказе в доступе см. в разделе [Планирование помощи при отказе в доступе](assetId:///b169f0a4-8b97-4da8-ae4a-c8f1986d19e1).
 
-Инструкции по настройке поддержки отказа в доступе см. в статье о [развертывании помощника по устранению отказа в доступе &#40;демонстрации&#41;](Deploy-Access-Denied-Assistance--Demonstration-Steps-.md).
+Инструкции по настройке поддержки для отказа в доступе см. в статье [развертывание Access-Denied помощи &#40;демонстрации&#41;](Deploy-Access-Denied-Assistance--Demonstration-Steps-.md).
 
 ## <a name="in-this-scenario"></a>Содержание сценария
 Этот сценарий является частью сценария динамического контроля доступа. Дополнительные сведения о динамическом контроле доступа см. в следующих разделах:
@@ -51,7 +52,7 @@ ms.locfileid: "87952742"
 ## <a name="features-included-in-this-scenario"></a><a name="BKMK_NEW"></a>Компоненты, используемые в данном сценарии
 В следующей таблице перечислены компоненты, являющиеся частью данного сценария, и описано, как они поддерживают его.
 
-|Функция|Способ поддержки сценария|
+|Компонент|Способ поддержки сценария|
 |-----------|---------------------------------|
 |[File Server Resource Manager Overview](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831701(v=ws.11))|Помощь при отказе в доступе можно настроить с помощью консоли диспетчера ресурсов файлового сервера.|
 |[Обзор служб файлов и хранилищ](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831487(v=ws.11))|Диспетчер ресурсов файлового сервера — это роль файловых служб и служб хранилища, состоящая из набора компонентов, которые можно использовать для администрирования файловых серверов в сети.|

@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: Настройка правил утверждений'
 ms.assetid: 46dce9d4-7293-4b1c-9710-78b04f2e347a
 title: Настройка правил утверждений
 author: billmath
@@ -6,12 +7,12 @@ manager: femila
 ms.date: 05/31/2017
 ms.topic: article
 ms.author: billmath
-ms.openlocfilehash: 398c03def2ed531710e365c005cf7b9f6ecbe480
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 70d3c1f562d4faf9cea6608be9e2825dd39e8744
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87963018"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97044173"
 ---
 # <a name="configuring-claim-rules"></a>Настройка правил утверждений
 

@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: Настройка учетной записи службы для фермы серверов федерации вручную'
 ms.assetid: 5a1ae56b-adcb-447e-9e34-c0629d7cb241
 title: Настройка учетной записи службы для фермы серверов федерации вручную
 author: billmath
@@ -6,12 +7,12 @@ manager: femila
 ms.date: 05/31/2017
 ms.topic: article
 ms.author: billmath
-ms.openlocfilehash: 32a32a27eb86bd8977d7d1b4e83f5a7e6f445356
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: afedde422f0a46975fcbb61912773a992c688309
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87972141"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97043332"
 ---
 # <a name="manually-configure-a-service-account-for-a-federation-server-farm"></a>Настройка учетной записи службы для фермы серверов федерации вручную
 

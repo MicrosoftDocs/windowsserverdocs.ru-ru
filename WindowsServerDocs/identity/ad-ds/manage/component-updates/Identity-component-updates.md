@@ -1,4 +1,5 @@
 ---
+description: Дополнительные сведения см. в статье об обновлениях компонента удостоверений.
 ms.assetid: 7e87ce2b-062e-479f-bcf2-585b6c42026a
 title: Обновление компонентов удостоверений
 author: iainfoulds
@@ -6,12 +7,12 @@ ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 8187be75c8f7ab537e6ae6e140d099c8f2a95d9b
-ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
+ms.openlocfilehash: 1d702113220bea5e9ae73da101cae2606adbd967
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93070676"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97042832"
 ---
 # <a name="identity-component-updates"></a>Обновление компонентов удостоверений
 
@@ -38,7 +39,7 @@ ms.locfileid: "93070676"
 
     -   [Защита учетных данных и управление ими](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn408190(v=ws.11))
 
-**Автор** : Джастин Тернер, старший инженер по расширению поддержки с группой Windows
+**Автор**: Джастин Тернер, старший инженер по расширению поддержки с группой Windows
 
 > [!NOTE]
 > Этот материал создан инженером службы поддержки клиентов Майкрософт и предназначен для опытных администраторов и архитекторов систем, которым нужны более глубокие технические сведения о функциях и решениях в Windows Server 2012 R2, а не обычная информация, доступная в статьях на сайте TechNet. Однако он не был отредактирован согласно требованиям сайта, поэтому некоторые формулировки могут быть не такими выверенными, как на станицах TechNet.

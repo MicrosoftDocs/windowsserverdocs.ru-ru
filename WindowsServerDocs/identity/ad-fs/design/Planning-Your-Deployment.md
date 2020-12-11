@@ -1,4 +1,5 @@
 ---
+description: Дополнительные сведения о планировании развертывания
 ms.assetid: bb9b9e18-bf2f-4115-be77-9a165944db41
 title: Планирование развертывания
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 9ada8872c7d74e4a0a10504ffaf34a235536dcbb
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: cf87eb0407ae963d74d90696ed46b90e9e5152b7
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87954320"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97040412"
 ---
 # <a name="planning-your-deployment"></a>Планирование развертывания
 
@@ -26,7 +27,7 @@ ms.locfileid: "87954320"
 
 В следующих разделах объясняются некоторые основные понятия AD FS партнерской организации. Они также содержат ссылки на разделы руководства по развертыванию AD FS, содержащие сведения о настройке и настройке организаций партнеров по учетным записям и организациях партнеров по ресурсам на основе целей развертывания AD FS.
 
-## <a name="in-this-section"></a>Содержание раздела
+## <a name="in-this-section"></a>В этом разделе
 
 -   [Рекомендации по безопасному планированию и развертыванию AD FS](Best-Practices-for-Secure-Planning-and-Deployment-of-AD-FS.md)
 

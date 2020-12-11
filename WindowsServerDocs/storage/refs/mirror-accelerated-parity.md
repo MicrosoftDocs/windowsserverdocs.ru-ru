@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: контроль четности с зеркальным отображением'
 title: Четность с зеркальным ускорением
 ms.author: gawatu
 manager: masriniv
@@ -6,12 +7,12 @@ ms.topic: article
 author: gawatu
 ms.date: 10/17/2018
 ms.assetid: ''
-ms.openlocfilehash: f54eb8db2a71fe8576913d7d2123e822661b0732
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: b39e3d518b3721bffce7b111655406cd982ccc0b
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87942173"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97043602"
 ---
 # <a name="mirror-accelerated-parity"></a>Четность с зеркальным ускорением
 
@@ -21,7 +22,7 @@ ms.locfileid: "87942173"
 
 ![Том с четностью с зеркальным ускорением](media/mirror-accelerated-parity/Mirror-Accelerated-Parity-Volume.png)
 
-## <a name="background"></a>Историческая справка
+## <a name="background"></a>История
 
 С точки зрения производительности и экономии пространства характеристики зеркалирования и контроля четности как схем обеспечения устойчивости отличаются в корне:
 - Устойчивость зеркального отображения позволяет пользователям достичь высокой производительности при записи, но репликация данных для каждой копии не является эффективным местом.

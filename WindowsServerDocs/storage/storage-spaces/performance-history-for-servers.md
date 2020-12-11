@@ -1,4 +1,5 @@
 ---
+description: 'Подробнее: журнал производительности для серверов'
 title: Журнал производительности для серверов
 ms.author: cosdar
 manager: eldenc
@@ -6,12 +7,12 @@ ms.topic: article
 author: cosmosdarwin
 ms.date: 02/05/2018
 ms.localizationpriority: medium
-ms.openlocfilehash: 262c35e7d91fe43d2ade955d4606279f8d428f6a
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 1d932576351064d1a4b11031d4faef0e0efe7737
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87946337"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97041812"
 ---
 # <a name="performance-history-for-servers"></a>Журнал производительности для серверов
 
@@ -26,7 +27,7 @@ ms.locfileid: "87946337"
 
 Эти серии собираются для каждого подходящего сервера:
 
-| Series                           | Единица измерения    |
+| Series                           | Единицы    |
 |----------------------------------|---------|
 | `clusternode.cpu.usage`          | percent |
 | `clusternode.cpu.usage.guest`    | percent |

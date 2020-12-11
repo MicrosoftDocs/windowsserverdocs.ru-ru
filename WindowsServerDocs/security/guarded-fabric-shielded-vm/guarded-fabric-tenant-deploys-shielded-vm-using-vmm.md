@@ -1,17 +1,18 @@
 ---
 title: Экранированные виртуальные машины для клиентов — развертывание экранированной виртуальной машины с помощью Virtual Machine Manager
+description: Дополнительные сведения о экранированных виртуальных машинах для клиентов. Развертывание экранированной виртуальной машины с помощью Virtual Machine Manager
 ms.topic: article
 ms.assetid: 39d5e29c-835d-490a-b74d-798a0dcb3f39
 manager: dongill
 author: rpsqrd
 ms.author: ryanpu
 ms.date: 08/29/2018
-ms.openlocfilehash: 2d1671b0676d64e93e76e40687e889cb89800602
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.openlocfilehash: 689cbf3a609cc9f0846663797898d4772865556f
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96866223"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97043752"
 ---
 # <a name="shielded-vms-for-tenants---deploying-a-shielded-vm-by-using-virtual-machine-manager"></a>Экранированные виртуальные машины для клиентов — развертывание экранированной виртуальной машины с помощью Virtual Machine Manager
 

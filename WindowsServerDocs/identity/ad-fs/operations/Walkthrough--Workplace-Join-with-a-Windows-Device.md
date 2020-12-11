@@ -1,4 +1,5 @@
 ---
+description: Дополнительные сведения см. в разделе Пошаговое руководство. Workplace Join с устройством Windows
 ms.assetid: c17d143b-86b4-47c0-b76e-1862dda8f0bd
 title: Пошаговое руководство. Workplace Join с устройством Windows
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 4f2e3dbf5754b4b33aec972e40a91cbe67c82220
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: f93745c09120311a9d1aa65a838f12beaa5dc03c
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87966981"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97039592"
 ---
 # <a name="walkthrough-workplace-join-with-a-windows-device"></a>Пошаговое руководство: присоединение к рабочему месту с устройства Windows
 
