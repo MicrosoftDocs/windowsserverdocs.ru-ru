@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: Active Directory основные понятия репликации'
 ms.assetid: 4cc9c16c-1928-4dce-a3a8-6229be28eb65
 title: Понятия репликации Active Directory
 author: iainfoulds
@@ -6,12 +7,12 @@ ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 6acd9d1974395cdd4c07df3b09d47ffb104a16ef
-ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
+ms.openlocfilehash: 3b1f4cc780b9605ef4eb8b3bff0755e1f45c0ba8
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93070996"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97045782"
 ---
 # <a name="active-directory-replication-concepts"></a>Понятия репликации Active Directory
 

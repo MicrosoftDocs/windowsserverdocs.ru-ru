@@ -1,4 +1,5 @@
 ---
+description: Дополнительные сведения о восстановлении леса AD. Очистка
 title: Восстановление леса AD — очистка
 ms.author: daveba
 author: iainfoulds
@@ -6,12 +7,12 @@ manager: daveba
 ms.date: 08/09/2018
 ms.topic: article
 ms.assetid: 5a291f65-794e-4fc3-996e-094c5845a383
-ms.openlocfilehash: 6adb7a79ff05ca803f0d472e6d94f6d3d2d9a80d
-ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
+ms.openlocfilehash: 6059db057af7d7f5164421bc7bdffcb22df24d5a
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93067926"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97045672"
 ---
 # <a name="ad-forest-recovery---cleanup"></a>Восстановление леса AD — очистка
 

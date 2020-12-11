@@ -1,4 +1,5 @@
 ---
+description: Дополнительные сведения о восстановлении леса Active Directory. выполнение полномочной синхронизации SYSVOL с реплицированной службой DFSR
 title: Восстановление леса Active Directory — официальная синхронизация SYSVOL
 ms.author: daveba
 author: iainfoulds
@@ -6,12 +7,12 @@ manager: daveba
 ms.date: 08/09/2018
 ms.topic: article
 ms.assetid: 38a1c543-c76d-4b8e-a06b-53742aaa172f
-ms.openlocfilehash: 63b894e8abe0ac50f59f5ebf38566d97050a11c4
-ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
+ms.openlocfilehash: bd583de3f4da6ac9bbe1fbcc0c1a4927e77b9df2
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93068026"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97045762"
 ---
 # <a name="ad-forest-recovery---performing-an-authoritative-synchronization-of-dfsr-replicated-sysvol"></a>Восстановление леса Active Directory — выполнение полномочной синхронизации SYSVOL с реплицированной службой DFSR
 
@@ -24,19 +25,19 @@ ms.locfileid: "93068026"
 ## <a name="to-perform-an-authoritative-synchronization-of-dfsr-replicated-sysvol"></a>Выполнение полномочной синхронизации SYSVOL, реплицированной с помощью DFSR
 
 1. Откройте оснастку "Пользователи и компьютеры Active Directory".
-2. Щелкните **вид** , а затем выберите **Пользователи, контакты, группы и компьютеры в качестве контейнеров** и **дополнительных функций** .
+2. Щелкните **вид**, а затем выберите **Пользователи, контакты, группы и компьютеры в качестве контейнеров** и **дополнительных функций**.
 
    ![SYSVOL](media/AD-Forest-Recovery-Authoritative-Recovery-SYSVOL/sysvol1.png)
 
-3. В представлении дерева щелкните **контроллеры домена** , имя ВОССТАНАВЛИВАЕМого контроллера домена, **DFSR-LocalSettings** , а затем — **системный том домена** .
+3. В представлении дерева щелкните **контроллеры домена**, имя ВОССТАНАВЛИВАЕМого контроллера домена, **DFSR-LocalSettings**, а затем — **системный том домена**.
 
    ![SYSVOL](media/AD-Forest-Recovery-Authoritative-Recovery-SYSVOL/sysvol2.png)
 
-4. В области сведений щелкните правой кнопкой мыши элемент **Подписка SYSVOL** , выберите пункт **Свойства** и щелкните **Редактор атрибутов** .
+4. В области сведений щелкните правой кнопкой мыши элемент **Подписка SYSVOL**, выберите пункт **Свойства** и щелкните **Редактор атрибутов**.
 
    ![SYSVOL](media/AD-Forest-Recovery-Authoritative-Recovery-SYSVOL/sysvol3.png)
 
-5. Щелкните **мсдфср-Options** , щелкните **изменить** , введите **1** и нажмите кнопку **ОК** .
+5. Щелкните **мсдфср-Options**, щелкните **изменить**, введите **1** и нажмите кнопку **ОК** .
 
    ![SYSVOL](media/AD-Forest-Recovery-Authoritative-Recovery-SYSVOL/sysvol4.png)
 

@@ -1,4 +1,5 @@
 ---
+description: Дополнительные сведения о восстановлении леса AD. вопросы и ответы
 title: Восстановление леса AD — вопросы и ответы
 ms.author: daveba
 author: iainfoulds
@@ -6,12 +7,12 @@ manager: daveba
 ms.date: 08/09/2018
 ms.topic: article
 ms.assetid: ac9e5a3d-8b1e-41b7-8e02-f64b7acf1359
-ms.openlocfilehash: 3d19230d46ccd37dc1a1c2470ceefe97ca116651
-ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
+ms.openlocfilehash: 52ade074287eaf41814099ba31f6b894c5f2437a
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93071326"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97045612"
 ---
 # <a name="ad-forest-recovery---faq"></a>Восстановление леса AD — вопросы и ответы
 
