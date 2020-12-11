@@ -1,4 +1,5 @@
 ---
+description: 'Подробнее: основные сведения о логической модели Active Directory'
 ms.assetid: 62708b2e-4090-4cf7-8ae6-a557f31f561f
 title: Основные сведения о логической модели Active Directory
 author: iainfoulds
@@ -6,12 +7,12 @@ ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 0bc7b55e404172c785db03a640aceea056595fcf
-ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
+ms.openlocfilehash: cee56de51925da3d27313a4edcb3481980b8b077
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93070936"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97042232"
 ---
 # <a name="understanding-the-active-directory-logical-model"></a>Основные сведения о логической модели Active Directory
 

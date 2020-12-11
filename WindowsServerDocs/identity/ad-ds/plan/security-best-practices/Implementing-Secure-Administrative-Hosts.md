@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: реализация безопасных административных узлов'
 ms.assetid: eafdddc3-40d7-4a75-8f4f-a45294aabfc8
 title: Реализация безопасного администрирования узлов
 author: iainfoulds
@@ -6,12 +7,12 @@ ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: a9b73fb5f62ce9953a5be989e1b99bebf6c9c3e3
-ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
+ms.openlocfilehash: 52b152f376fb253ab6c924e577b096ac0733ebff
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93069603"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97042552"
 ---
 # <a name="implementing-secure-administrative-hosts"></a>Реализация безопасного администрирования узлов
 

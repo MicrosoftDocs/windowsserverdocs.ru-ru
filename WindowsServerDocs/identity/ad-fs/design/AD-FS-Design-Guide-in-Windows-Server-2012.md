@@ -1,4 +1,5 @@
 ---
+description: Дополнительные сведения см. в AD FS руководство по проектированию прежних версий в Windows Server
 ms.assetid: bb16e39d-566d-436c-b957-394c06d556db
 title: Руководство по разработке служб AD FS в Windows Server 2012
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: c9089a3eac4d0ba6f4961f97fcb87b4e9a1a8c91
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 88dd9ed3fcda48b1f8d93a4518cf6767431fe43f
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87949918"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97042142"
 ---
 # <a name="ad-fs-legacy-design-guide-in-windows-server"></a>AD FS руководство по проектированию предыдущих версий в Windows Server
 

@@ -1,17 +1,18 @@
 ---
 ms.assetid: 5052f13c-ff35-471d-bff5-00b5dd24f8aa
 title: Создание многоуровневого приложения с использованием от имени (OBO) с помощью OAuth с AD FS 2016 или более поздней версии
+description: Дополнительные сведения см. в статье Создание многоуровневого приложения с использованием от имени (OBO) с помощью OAuth с AD FS 2016 или более поздней версии.
 author: billmath
 ms.author: billmath
 manager: mtillman
 ms.date: 02/22/2018
 ms.topic: article
-ms.openlocfilehash: b080f45d36d26ed566eacc5ae1ad84d98dd45d48
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.openlocfilehash: 24dcb859c35d82ab81460ccaea2ceb1dba5e502c
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96864763"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97040882"
 ---
 # <a name="build-a-multi-tiered-application-using-on-behalf-of-obo-using-oauth-with-ad-fs-2016-or-later"></a>Создание многоуровневого приложения с использованием от имени (OBO) с помощью OAuth с AD FS 2016 или более поздней версии
 
@@ -40,7 +41,7 @@ ms.locfileid: "96864763"
 
 Пример будет состоять из трех модулей
 
-Модуль | Описание:
+Модуль | Описание
 -------|------------
 тодоклиент | Собственный клиент, с которым взаимодействует пользователь
 Файле todoservice | Веб-API среднего уровня, который выступает в качестве клиента для серверной части WebAPI

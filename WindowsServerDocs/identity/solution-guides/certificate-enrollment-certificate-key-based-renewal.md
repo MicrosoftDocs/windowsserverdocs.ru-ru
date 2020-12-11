@@ -1,16 +1,17 @@
 ---
 title: Настройка веб-службы регистрации сертификатов для продления на основе ключей сертификата через настраиваемый порт
+description: Дополнительные сведения о настройке веб-служба регистрации сертификатов для продления на основе ключей сертификатов на настраиваемом порте.
 author: Deland-Han
 ms.author: delhan
 manager: dcscontentpm
 ms.date: 11/12/2019
 ms.topic: article
-ms.openlocfilehash: 9f9930cc59badf19036c598f11f2a5b423711c94
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.openlocfilehash: 55ac25e37f7c7621426db031ba1ad148d3a02a98
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96866073"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97042402"
 ---
 # <a name="configuring-certificate-enrollment-web-service-for-certificate-key-based-renewal-on-a-custom-port"></a>Настройка веб-службы регистрации сертификатов для продления на основе ключей сертификата через настраиваемый порт
 
@@ -59,7 +60,7 @@ ms.locfileid: "96866073"
 
 4.  Настройте параметры на стороне клиента.
 
-### <a name="configuration"></a>Конфигурация
+### <a name="configuration"></a>Параметр Configuration
 
 В этом разделе описаны шаги по настройке первоначальной регистрации.
 
@@ -222,7 +223,7 @@ Set-ADUser -Identity cepcessvc -Add @{'msDS-AllowedToDelegateTo'=@('HOST/CA1.con
 
    CN = ЕНТКА, CN = службы регистрации, CN = открытые ключи Services, CN = Services, CN = Configuration, DC = contoso, DC = com
 
-3. Щелкните правой кнопкой мыши и измените объект CA. Измените атрибут **мспки-регистрации-Servers** , используя пользовательский порт с URI сервера CEP и CES, которые были найдены в параметрах приложения. Пример:
+3. Щелкните правой кнопкой мыши и измените объект CA. Измените атрибут **мспки-регистрации-Servers** , используя пользовательский порт с URI сервера CEP и CES, которые были найдены в параметрах приложения. Пример.
 
    ```
    140https://cepces.contoso.com:49999/ENTCA_CES_UsernamePassword/service.svc/CES0
@@ -312,7 +313,7 @@ certreq -machine -q -enroll -cert <thumbprint> renew
 
 [Install-Адксенроллментвебсервице](/powershell/module/adcsdeployment/install-adcsenrollmentwebservice)
 
-См. также раздел
+См. также
 
 [Форум по обеспечению безопасности Windows Server](https://aka.ms/adcsforum)
 
