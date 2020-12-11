@@ -1,4 +1,5 @@
 ---
+description: Дополнительные сведения см. в статье журнал производительности для Локальные дисковые пространства
 title: Журнал производительности для Локальных дисковых пространств
 ms.author: cosdar
 manager: eldenc
@@ -6,12 +7,12 @@ ms.topic: article
 author: cosmosdarwin
 ms.date: 09/07/2018
 ms.localizationpriority: medium
-ms.openlocfilehash: f3c0babfad0ebecdac40262a783ecf683d6dc1e8
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: b90f010d45dc9e9013c2bc661232fb444247b661
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87968791"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97048922"
 ---
 # <a name="performance-history-for-storage-spaces-direct"></a>Журнал производительности для Локальных дисковых пространств
 
@@ -200,7 +201,7 @@ Stop-ClusterPerformanceHistory -DeleteHistory
    > [!TIP]
    > Во время первоначального развертывания можно предотвратить запуск журнала производительности, присвоив `-CollectPerformanceHistory` параметру значение `Enable-ClusterStorageSpacesDirect` `$False` .
 
-## <a name="troubleshooting"></a>Диагностика
+## <a name="troubleshooting"></a>Устранение неполадок
 
 ### <a name="the-cmdlet-doesnt-work"></a>Командлет не работает
 

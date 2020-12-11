@@ -1,17 +1,18 @@
 ---
 ms.assetid: bbb5b68f-00ad-4715-8176-0c2769b706c4
 title: Развертывание фермы серверов федерации для Windows Server 2012 R2 AD FS
+description: Дополнительные сведения о развертывании фермы серверов федерации
 author: billmath
 ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 2f7602e99e550e993b916e603dad33724b3b0570
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.openlocfilehash: ae1a7f99a466d3a3a24c803d0dacf5537143b324
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96865043"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97048862"
 ---
 # <a name="deploying-a-federation-server-farm"></a>Развертывание фермы серверов федерации
 
@@ -36,4 +37,3 @@ ms.locfileid: "96865043"
 [Развертывание AD FS](../../ad-fs/AD-FS-Deployment.md)
 
 [Руководство по развертыванию служб федерации Active Directory в Windows Server 2012 R2](../../ad-fs/deployment/Windows-Server-2012-R2-AD-FS-Deployment-Guide.md)
-

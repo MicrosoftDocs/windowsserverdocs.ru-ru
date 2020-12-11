@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: развертывание устаревших AD FS в организации партнера по учетным записям'
 ms.assetid: 8c3536b7-d091-4ee6-ad04-24713f070862
 title: Развертывание устаревших AD FS в организации партнера по учетным записям
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 84b741dbc99cf30ea20744ba3a7c48bc95391213
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 4310fd72068516403b8090389de86d885d672956
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87942960"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97044732"
 ---
 # <a name="deploying-legacy-ad-fs-in-the-account-partner-organization"></a>Развертывание устаревших AD FS в организации партнера по учетным записям
 
@@ -23,7 +24,7 @@ ms.locfileid: "87942960"
 
 Подробнее об установке и настройке партнерской организации по учетным записям см. в разделе [Checklist: Configuring the Account Partner Organization](../../ad-fs/deployment/Checklist--Configuring-the-Account-Partner-Organization.md).
 
-## <a name="in-this-section"></a>Содержание раздела
+## <a name="in-this-section"></a>В этом разделе
 
 -   [Сведения о роли сервера федерации в организации партнера по учетным записям](Review-the-Role-of-the-Federation-Server-in-the-Account-Partner.md)
 

@@ -1,4 +1,5 @@
 ---
+description: Дополнительные сведения см. в статье Идентификация и доступ в Windows Server 2016.
 ms.assetid: c248b41f-0de3-4247-9a25-b4b08e50ebf0
 title: Удостоверение и доступ
 author: billmath
@@ -7,12 +8,12 @@ manager: femila
 ms.date: 03/16/2018
 ms.topic: article
 ms.localizationpriority: medium
-ms.openlocfilehash: 92584ba048791df5de3e525ee7d5456e1a44f3e7
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 331298197e0495017b0993bd8ffb7d7b1d5548a3
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87965181"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97047152"
 ---
 # <a name="identity-and-access-in-windows-server-2016"></a>Удостоверения и доступ в Windows Server 2016
 
@@ -36,7 +37,7 @@ ms.locfileid: "87965181"
 ## <a name="windows-10-for-the-enterprise-ways-to-use-devices-for-work"></a>[Windows 10 для предприятия: способы использования устройств для работы](/azure/active-directory/devices/overview)
 Windows 10 предоставляет возможность для использования Azure Active Directory. Устройства с Windows 10 можно подключить к Azure AD, и пользователи смогут входить в Windows с учетными записями Azure AD или добавить свои идентификаторы Azure для получения доступа к бизнес-приложениям и ресурсам.
 
-## <a name="active-directory-domain-services"></a>[Доменные службы Active Directory](../identity/ad-ds/Active-Directory-Domain-Services.md)
+## <a name="active-directory-domain-services"></a>[Active Directory Domain Services](../identity/ad-ds/Active-Directory-Domain-Services.md) (Доменные службы Active Directory)
 Подробная документация по всем возможностям для служб AD DS в Windows Server 2016.
 
 ## <a name="active-directory-federation-services"></a>[Службы федерации Active Directory (AD FS)](Active-Directory-Federation-Services.md)

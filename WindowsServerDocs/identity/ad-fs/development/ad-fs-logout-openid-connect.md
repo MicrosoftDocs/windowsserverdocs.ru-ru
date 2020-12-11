@@ -1,16 +1,17 @@
 ---
+description: 'Дополнительные сведения: единый выход для OpenID Connect Connect с помощью AD FS'
 title: Однократный выход для OpenID Connect в AD FS
 author: billmath
 ms.author: billmath
 manager: femila
 ms.date: 11/17/2017
 ms.topic: article
-ms.openlocfilehash: 1ab6735e09d912bac5b1a319a3793ee6e0c70fa2
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 4b94ddda582c5bb51cf8b6fe987e039ee3e55957
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87964941"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97047022"
 ---
 #  <a name="single-log-out-for-openid-connect-with-ad-fs"></a>Однократный выход для OpenID Connect в AD FS
 
@@ -70,7 +71,7 @@ Set-ADFSProperties -EnableOAuthLogout $true
 ```
 
 >[!NOTE]
-> `EnableOAuthLogout`После установки [KB4038801](https://support.microsoft.com/en-gb/help/4038801/windows-10-update-kb4038801)параметр будет помечен как устаревший. `EnableOAUthLogout`всегда будет иметь значение true и не повлияет на функциональность выхода.
+> `EnableOAuthLogout` После установки [KB4038801](https://support.microsoft.com/en-gb/help/4038801/windows-10-update-kb4038801)параметр будет помечен как устаревший. `EnableOAUthLogout` всегда будет иметь значение true и не повлияет на функциональность выхода.
 
 >[!NOTE]
 >frontchannel_logout поддерживается **только** после сбой установки [KB4038801](https://support.microsoft.com/en-gb/help/4038801/windows-10-update-kb4038801)
@@ -92,7 +93,7 @@ Set-AdfsClient -LogoutUri <url>
 ![Пользовательская схема выхода ADFS](media/ad-fs-logout-openid-connect/adfs_single_logout2.png)
 
 1.  **Токен OAuth с идентификатором сеанса**: AD FS включает идентификатор сеанса в маркере OAuth во время выдачи маркера id_token. Он будет использоваться позже AD FS для идентификации файлов cookie единого входа, которые будут очищены для пользователя.
-2.  **Пользователь инициирует выход**из приложения App1: пользователь может инициировать выход из любого из приложений, вошедших в систему. В этом примере сценария пользователь инициирует выход из App1.
+2.  **Пользователь инициирует выход** из приложения App1: пользователь может инициировать выход из любого из приложений, вошедших в систему. В этом примере сценария пользователь инициирует выход из App1.
 3.  **Приложение отправляет запрос на выход в AD FS**: после того, как пользователь инициирует выход, приложение ОТПРАВЛЯЕТ запрос GET для end_session_endpoint AD FS. Приложение может дополнительно включать id_token_hint в качестве параметра для этого запроса. Если id_token_hint имеется, AD FS будет использовать его вместе с ИДЕНТИФИКАТОРом сеанса, чтобы определить, какой URI следует перенаправить клиенту после выхода из системы (post_logout_redirect_uri).  Post_logout_redirect_uri должен быть допустимым URI, зарегистрированным в AD FS с помощью параметра Редиректурис.
 4.  **AD FS отправляет вход клиентам, вошедшим в систему**. AD FS использует значение идентификатора сеанса для поиска соответствующих клиентов, в которые входит пользователь. Идентифицированные клиенты отправляют запрос на Логаутури, зарегистрированный в AD FS, чтобы инициировать выход на стороне клиента.
 

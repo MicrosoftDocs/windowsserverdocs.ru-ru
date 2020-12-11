@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: развертывание реализация хранения информации на файловых серверах (демонстрационные шаги)'
 ms.assetid: ee008835-7d3b-4977-adcb-7084c40e5918
 title: Deploy Implementing Retention of Information on File Servers (Demonstration Steps)
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 987d1af004955d7be75066de7a859272e656ffbc
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: b4d74b3757e23e37116c7fafc8b1bb5f6f01ee43
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87952805"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97046852"
 ---
 # <a name="deploy-implementing-retention-of-information-on-file-servers-demonstration-steps"></a>Deploy Implementing Retention of Information on File Servers (Demonstration Steps)
 
@@ -54,7 +55,7 @@ ms.locfileid: "87952805"
 
 5.  Щелкните правой кнопкой **Обнаруживаемость** и выберите **Включить**.
 
-![Руководство по решению.](media/Deploy-Implementing-Retention-of-Information-on-File-Servers--Demonstration-Steps-/PowerShellLogoSmall.gif)***<em>эквивалентные команды Windows PowerShell</em>***
+![Руководство по решению. ](media/Deploy-Implementing-Retention-of-Information-on-File-Servers--Demonstration-Steps-/PowerShellLogoSmall.gif) * *_<em>эквивалентные команды Windows PowerShell</em>_* _
 
 Следующие командлеты Windows PowerShell выполняют ту же функцию, что и предыдущая процедура. Вводите каждый командлет в одной строке, несмотря на то, что здесь они могут отображаться разбитыми на несколько строк из-за ограничений форматирования.
 
@@ -72,7 +73,7 @@ Set-ADResourceProperty -Enabled:$true -Identity:'CN=Discoverability_MS,CN=Resour
 
 1.  Войдите на файловый сервер от имени члена локальной группы безопасности "Администраторы".
 
-2.  В командной строке Windows PowerShell введите команду **Update-FsrmClassificationPropertyDefinition** и нажмите клавишу ВВОД. Эта команда синхронизирует определения свойств, созданные на контроллере домена, с файловым сервером.
+2.  В командной строке Windows PowerShell введите _ * Update-Фсрмклассификатионпропертидефинитион * * и нажмите клавишу ВВОД. Эта команда синхронизирует определения свойств, созданные на контроллере домена, с файловым сервером.
 
 3.  Откройте диспетчер ресурсов файлового сервера. В диспетчере серверов откройте меню **Сервис** и щелкните **Диспетчер ресурсов файлового сервера**.
 
@@ -88,7 +89,7 @@ Set-ADResourceProperty -Enabled:$true -Identity:'CN=Discoverability_MS,CN=Resour
 
 6.  Нажмите кнопку **ОК**.
 
-![Руководство по решению.](media/Deploy-Implementing-Retention-of-Information-on-File-Servers--Demonstration-Steps-/PowerShellLogoSmall.gif)***<em>эквивалентные команды Windows PowerShell</em>***
+![Руководство по решению. ](media/Deploy-Implementing-Retention-of-Information-on-File-Servers--Demonstration-Steps-/PowerShellLogoSmall.gif) * *_<em>эквивалентные команды Windows PowerShell</em>_* _
 
 Следующие командлеты Windows PowerShell выполняют ту же функцию, что и предыдущая процедура. Вводите каждый командлет в одной строке, несмотря на то, что здесь они могут отображаться разбитыми на несколько строк из-за ограничений форматирования.
 
@@ -111,7 +112,7 @@ Set-FsrmSetting -SmtpServer IP address of SMTP server -FromEmailAddress "FromEma
 
 1.  Войдите на файловый сервер от имени члена локальной группы безопасности "Администраторы".
 
-2.  Откройте диспетчер ресурсов файлового сервера. В диспетчере серверов откройте меню **Сервис** и щелкните **Диспетчер ресурсов файлового сервера**.
+2.  Откройте диспетчер ресурсов файлового сервера. В диспетчер сервера щелкните значок _ * сервис * *, а затем выберите **Диспетчер ресурсов файлового сервера**.
 
 3.  Щелкните **Задачи управления файлами** правой кнопкой мыши, а затем выберите команду **Создать задачу управления файлами**.
 
@@ -139,7 +140,7 @@ Set-FsrmSetting -SmtpServer IP address of SMTP server -FromEmailAddress "FromEma
 
 11. Нажмите кнопку **ОК**.
 
-![Руководство по решению.](media/Deploy-Implementing-Retention-of-Information-on-File-Servers--Demonstration-Steps-/PowerShellLogoSmall.gif)***<em>эквивалентные команды Windows PowerShell</em>***
+![Руководство по решению. ](media/Deploy-Implementing-Retention-of-Information-on-File-Servers--Demonstration-Steps-/PowerShellLogoSmall.gif) * *_<em>эквивалентные команды Windows PowerShell</em>_* _
 
 Следующие командлеты Windows PowerShell выполняют ту же функцию, что и предыдущая процедура. Вводите каждый командлет в одной строке, несмотря на то, что здесь они могут отображаться разбитыми на несколько строк из-за ограничений форматирования.
 
@@ -164,7 +165,7 @@ $fmj1=New-FSRMFileManagementJob -Name "Retention Task" -Namespace @('D:\Finance 
 
 2.  Перейдите к папке, которая настроена в области действия задачи управления файлами, созданной на шаге 3.
 
-3.  Щелкните правой кнопкой мыши папку, затем щелкните **Свойства**.
+3.  Щелкните правой кнопкой мыши папку и выберите пункт _ * свойства * *.
 
 4.  На вкладке **Классификация** щелкните **Период хранения**, выберите **Долгосрочное** и нажмите кнопку **ОК**.
 

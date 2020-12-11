@@ -1,16 +1,17 @@
 ---
+description: 'Дополнительные сведения: инициализация кластера HGS с помощью режима AD в новом выделенном лесу (по умолчанию)'
 title: Инициализация кластера HGS с помощью режима AD в новом выделенном лесу (по умолчанию)
 ms.topic: article
 manager: dongill
 author: rpsqrd
 ms.author: ryanpu
 ms.date: 08/29/2018
-ms.openlocfilehash: 91a7620b1c484cb67300c9cb575100d9421d0dfc
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: a477ae4010c201b5dec89f5c3d938fd25991245d
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87953570"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97047372"
 ---
 # <a name="initialize-the-hgs-cluster-using-ad-mode-in-a-new-dedicated-forest-default"></a>Инициализация кластера HGS с помощью режима AD в новом выделенном лесу (по умолчанию)
 
@@ -43,7 +44,7 @@ ms.locfileid: "87953570"
 
 5.  [!INCLUDE [Initialize HGS](../../../includes/guarded-fabric-initialize-hgs-default-step-five.md)]
 
-## <a name="next-step"></a>Следующий шаг
+## <a name="next-step"></a>Следующий этап
 
 > [!div class="nextstepaction"]
 > [Настройка DNS структуры](guarded-fabric-configuring-fabric-dns-ad.md)

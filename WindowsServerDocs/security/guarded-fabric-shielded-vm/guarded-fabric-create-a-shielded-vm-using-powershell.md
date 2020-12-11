@@ -1,16 +1,17 @@
 ---
+description: Дополнительные сведения см. в статье Создание экранированной виртуальной машины с помощью PowerShell.
 title: Создание экранированной виртуальной машины с помощью PowerShell
 ms.topic: article
 manager: dongill
 author: rpsqrd
 ms.author: ryanpu
 ms.date: 09/25/2019
-ms.openlocfilehash: 3272f1dd75f3e8df506341d49c1c32346bb5dbce
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 51a91559c808792d0be71a5a96573c96799822f7
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87971331"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97047422"
 ---
 # <a name="create-a-shielded-vm-using-powershell"></a>Создание экранированной виртуальной машины с помощью PowerShell
 
@@ -77,7 +78,7 @@ New-ShieldingDataFile -ShieldingDataFilePath 'C:\temp\Contoso.pdk' -Owner $Owner
 
 Скопируйте файл шаблона диска (Серверос. VHDX) и PDK-файл (contoso. PDK) на защищенный узел, чтобы подготовиться к развертыванию.
 
-На защищенном узле установите модуль PowerShell для средств защищенной структуры, который содержит командлет New-Шиелдедвм, чтобы упростить процесс подготовки. Если защищенный узел имеет доступ к Интернету, выполните следующую команду:
+На защищенном узле установите модуль PowerShell для средств защищенной структуры, содержащий командлет New-ShieldedVM, чтобы упростить процесс подготовки. Если защищенный узел имеет доступ к Интернету, выполните следующую команду:
 
 ```powershell
 Install-Module GuardedFabricTools -Repository PSGallery -MinimumVersion 1.0.0
@@ -129,7 +130,7 @@ Add-ClusterVirtualMachineRole -VMName 'MyShieldedVM' -Cluster <Hyper-V cluster n
 
 Экранированная виртуальная машина теперь может быть перенесена в кластер.
 
-## <a name="next-step"></a>Следующий шаг
+## <a name="next-step"></a>Следующий этап
 
 > [!div class="nextstepaction"]
 > [Развертывание экранированного с помощью VMM](guarded-fabric-tenant-deploys-shielded-vm-using-vmm.md)

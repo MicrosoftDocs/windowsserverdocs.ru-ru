@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: выполнение неполномочного восстановления служб домен Active Directory'
 title: Восстановление леса Active Directory — неполномочное восстановление
 ms.author: daveba
 author: iainfoulds
@@ -6,12 +7,12 @@ manager: daveba
 ms.date: 08/09/2018
 ms.topic: article
 ms.assetid: e4ce1d18-d346-492a-8bca-f85513aa3ac1
-ms.openlocfilehash: 9924b7498bde45f07df9c0078ff45fce84807680
-ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
+ms.openlocfilehash: 30fbb8c5905867f4e34e671b2ea84c5f968eb905
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93071276"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97045532"
 ---
 # <a name="performing-a-nonauthoritative-restore-of-active-directory-domain-services"></a>Выполнение неполномочного восстановления служб домен Active Directory
 
@@ -36,7 +37,7 @@ ms.locfileid: "93071276"
    wbadmin start systemstaterecovery <otheroptions> -authsysvol
    ```
 
-   Пример:
+   Пример.
 
    ```
    wbadmin start systemstaterecovery -version:11/20/2012-13:00 -authsysvol

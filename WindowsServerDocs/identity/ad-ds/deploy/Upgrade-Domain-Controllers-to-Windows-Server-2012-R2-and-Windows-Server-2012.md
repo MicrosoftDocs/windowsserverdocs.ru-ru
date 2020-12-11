@@ -1,17 +1,18 @@
 ---
 ms.assetid: e4c31187-f15f-410b-bb79-8d63e2f2b421
 title: Обновление контроллеров домена до Windows Server 2012 R2 и Windows Server 2012
+description: Дополнительные сведения см. в статье обновление контроллеров домена до Windows Server 2012 R2 и Windows Server 2012.
 ms.author: daveba
 author: iainfoulds
 manager: daveba
 ms.date: 08/09/2018
 ms.topic: article
-ms.openlocfilehash: be94260946c696eed060b9b2d85f5042ed737a1f
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.openlocfilehash: d60a4073d39cae39bea53ea57a93424f6573ba12
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96866353"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97045962"
 ---
 # <a name="upgrade-domain-controllers-to-windows-server-2012-r2-and-windows-server-2012"></a>Обновление контроллеров домена до Windows Server 2012 R2 и Windows Server 2012
 
@@ -156,9 +157,9 @@ ms.locfileid: "96866353"
 | Тип или политика шифрования | Состояние по умолчанию в Windows Server 2008 | Состояние по умолчанию в Windows Server 2012 и Windows Server 2008 R2 | Комментировать |
 |--|--|--|--|
 | AllowNT4Crypto | Выключено | Выключено | Сторонние клиенты SMB могут быть несовместимы с параметрами безопасности по умолчанию на контроллерах домена. В любом случае эти параметры можно настроить, чтобы разрешить взаимодействие, но только за счет ухудшения безопасности. Дополнительные сведения см. в [статье 942564](https://go.microsoft.com/fwlink/?LinkId=164558) базы знаний Майкрософт ( https://go.microsoft.com/fwlink/?LinkId=164558) . |
-| DES | Активировано | Отключен | [Статья 977321](https://go.microsoft.com/fwlink/?LinkId=177717) в базе знаний Майкрософт (https://go.microsoft.com/fwlink/?LinkId=177717) |
+| DES | Активировано | Выключено | [Статья 977321](https://go.microsoft.com/fwlink/?LinkId=177717) в базе знаний Майкрософт (https://go.microsoft.com/fwlink/?LinkId=177717) |
 | CBT/расширенная защита для встроенной проверки подлинности | Недоступно | Активировано | См. [рекомендации корпорации Майкрософт по безопасности (937811)](https://go.microsoft.com/fwlink/?LinkId=164559) ( https://go.microsoft.com/fwlink/?LinkId=164559) и [статью 976918](https://go.microsoft.com/fwlink/?LinkId=178251) в базе знаний Майкрософт () https://go.microsoft.com/fwlink/?LinkId=178251) .<p>При необходимости проверьте и установите исправление в [статье 977073](https://go.microsoft.com/fwlink/?LinkId=186394) ( https://go.microsoft.com/fwlink/?LinkId=186394) в базе знаний Майкрософт). |
-| LMv2 | Активировано | Отключен | [Статья 976918](https://go.microsoft.com/fwlink/?LinkId=178251) в базе знаний Майкрософт (https://go.microsoft.com/fwlink/?LinkId=178251) |
+| LMv2 | Активировано | Выключено | [Статья 976918](https://go.microsoft.com/fwlink/?LinkId=178251) в базе знаний Майкрософт (https://go.microsoft.com/fwlink/?LinkId=178251) |
 
 ## <a name="operating-system-requirements"></a><a name="BKMK_SysReqs"></a>Требования к операционной системе
 

@@ -1,16 +1,17 @@
 ---
+description: Дополнительные сведения о публикации приложений с помощью предварительной проверки подлинности AD FS
 ms.assetid: 5f733510-c96e-4d3a-85d2-4407de95926e
 title: Публикация приложений с использованием предварительной проверки подлинности AD FS
 ms.author: kgremban
 author: eross-msft
 ms.date: 07/13/2016
 ms.topic: article
-ms.openlocfilehash: e90b1995e5322bb0e1632df6b5947da0fc1b0244
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 774e621d1cc6a6449c758673a6bb1424ae3f2f17
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87939825"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97044932"
 ---
 # <a name="publishing-applications-using-ad-fs-preauthentication"></a>Публикация приложений с использованием предварительной проверки подлинности AD FS
 
@@ -349,7 +350,7 @@ Add-WebApplicationProxyApplication
 Последовательность проверки подлинности для клиентов, использующих Microsoft Store приложений, описана ниже.
 
 > [!NOTE]
-> Прокси веб-приложения перенаправляется на сервер AD FS для проверки подлинности. Поскольку Microsoft Store приложения не поддерживают перенаправления, при использовании Microsoft Store приложений необходимо задать URL-адрес AD FS сервера с помощью командлета Set-Вебаппликатионпроксиконфигуратион и параметра Оаусаусентикатионурл.
+> Прокси веб-приложения перенаправляется на сервер AD FS для проверки подлинности. Поскольку Microsoft Store приложения не поддерживают перенаправления, при использовании Microsoft Store приложений необходимо задать URL-адрес AD FS сервера с помощью командлета Set-WebApplicationProxyConfiguration и параметра Оаусаусентикатионурл.
 >
 > Microsoft Store приложения можно публиковать только с помощью Windows PowerShell.
 

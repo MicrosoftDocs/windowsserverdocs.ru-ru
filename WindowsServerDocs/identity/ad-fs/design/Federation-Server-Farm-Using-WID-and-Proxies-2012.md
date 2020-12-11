@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: ферма серверов федерации с использованием WID и прокси-серверов'
 ms.assetid: 8890ccc9-068d-4da2-bd51-8a2964173ff1
 title: Ферма серверов AD FS Федерации с использованием WID и прокси-серверов
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 88737eade6682f7be3572b3bc7f65bfc47c8e0a1
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 673aeabc3cb390e3001880f0a4174291d8b84871
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87945340"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97046932"
 ---
 # <a name="federation-server-farm-using-wid-and-proxies"></a>Ферма серверов федерации с использованием WID и прокси-серверов
 

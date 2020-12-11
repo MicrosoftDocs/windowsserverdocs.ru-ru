@@ -1,16 +1,17 @@
 ---
+description: Дополнительные сведения см. в статье упрощенные сети с многоканальными и многосетевыми кластерами SMB.
 ms.assetid: a6343f1c-e9dd-4a02-91ad-39bd519d66cd
 title: Упрощенные кластерные сети SMB Multichannel и Multi-NIC
 ms.topic: article
 author: RobHindman
 ms.author: robhind
 ms.date: 09/15/2016
-ms.openlocfilehash: 1abaf439a25e5175aba7290c0600c0f5b56db0d4
-ms.sourcegitcommit: 6c53a7d37b4884212469c38dc97c192cd767e49b
+ms.openlocfilehash: 537c5339505a57992c702d343bf9e130ced8d185
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "94919386"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97047242"
 ---
 # <a name="simplified-smb-multichannel-and-multi-nic-cluster-networks"></a>Упрощенные кластерные сети SMB Multichannel и Multi-NIC
 
@@ -61,7 +62,7 @@ Windows Server 2019 и Windows Server 2016 автоматически опред
 ![Иллюстрация пропускной способности и отказоустойчивости для различных конфигураций сетевых адаптеров ](media/Simplified-SMB-Multichannel-and-Multi-NIC-Cluster-Networks/Clustering_MulitNIC_Fig5.png)
  **рис. 5. пропускная способность и отказоустойчивость для различных конфигураций сетевых адаптеров**
 
-## <a name="frequently-asked-questions"></a>Вопросы и ответы
+## <a name="frequently-asked-questions"></a>Часто задаваемые вопросы
 **Используются ли все сетевые карты в сети с несколькими сетевыми адаптерами, используемой для сердца-бьющееся в кластере?**
 Да.
 

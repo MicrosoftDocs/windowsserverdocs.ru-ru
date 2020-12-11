@@ -1,4 +1,5 @@
 ---
+description: Дополнительные сведения см. в статье Использование модели доменных лесов Организации.
 ms.assetid: 093ef1ae-ebc1-490f-9fb1-2c000ce89eb6
 title: Использование модели доменного леса организации
 ms.author: daveba
@@ -6,12 +7,12 @@ author: iainfoulds
 manager: daveba
 ms.date: 08/07/2018
 ms.topic: article
-ms.openlocfilehash: 8300633d39e8ba7e5b19bfe8703d0cd9357423b4
-ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
+ms.openlocfilehash: d087df719c3feab6dfe80b1479de62d5245ba380
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93069146"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97048972"
 ---
 # <a name="using-the-organizational-domain-forest-model"></a>Использование модели доменного леса организации
 

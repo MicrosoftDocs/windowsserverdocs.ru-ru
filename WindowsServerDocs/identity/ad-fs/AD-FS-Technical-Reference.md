@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: AD FS технический справочник'
 ms.assetid: e2c940f5-4b1f-457a-bc71-dcced0c752f7
 title: Технический справочник по службам федерации Active Directory
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: d58bce837486d47141fd93b42a3a8e5b3a76e7f6
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 30b50b00e22d7d1f9eef7347b890f3d56b0e8bad
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87954390"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97046762"
 ---
 # <a name="ad-fs-technical-reference"></a>Технический справочник по службам федерации Active Directory
 

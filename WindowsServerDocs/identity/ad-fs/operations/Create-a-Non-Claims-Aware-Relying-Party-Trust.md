@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: создание отношения доверия с проверяющей стороной, не поддерживающей утверждения'
 ms.assetid: 7b7ae389-5032-44f7-9c0a-94398c3e4d88
 title: Создание отношения доверия с проверяющей стороной, не поддерживающей утверждения
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: d8a3c8e34c9b1ca655447b52152eb9d34c466c38
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 5238f93656c1d918122fc9cbb3a6b73232fce548
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87967303"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97048872"
 ---
 # <a name="create-a-non-claims-aware-relying-party-trust"></a>Создание отношения доверия с проверяющей стороной, не поддерживающей утверждения
 
@@ -27,7 +28,7 @@ ms.locfileid: "87967303"
 ## <a name="to-create-a-non-claims-aware-relying-party-trust-manually"></a>Создание отношения доверия с проверяющей стороной, не поддерживающей утверждения, вручную
 1. В диспетчере сервера щелкните **Средства** и выберите **Управление AD FS**.
 
-2.  В разделе **действия**щелкните **Добавить отношение доверия с проверяющей стороной**.
+2.  В разделе **действия** щелкните **Добавить отношение доверия с проверяющей стороной**.
 ![Проверяющая сторона](media/Create-a-Relying-Party-Trust/addtrust1.PNG)
 
 3.  На странице **приветствия** выберите параметр **не учитывать утверждения** и нажмите кнопку **запустить**.

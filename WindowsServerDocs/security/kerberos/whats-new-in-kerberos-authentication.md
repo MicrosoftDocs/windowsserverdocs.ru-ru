@@ -1,16 +1,17 @@
 ---
+description: Дополнительные сведения о новых возможностях проверки подлинности Kerberos
 title: What's New in Kerberos Authentication
 ms.topic: article
 ms.assetid: 7bd17803-6e42-4a3b-803f-e47c74725813
 author: justinha
 ms.author: Justinha
 ms.date: 11/09/2016
-ms.openlocfilehash: eac9e1abd2891b21e818eac1d69b0eac231a02b4
-ms.sourcegitcommit: 7cacfc38982c6006bee4eb756bcda353c4d3dd75
+ms.openlocfilehash: 26e5e373fe1b5ef8f39edbc5cfcda2bbeb886b23
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "90078541"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97048842"
 ---
 # <a name="whats-new-in-kerberos-authentication"></a>What's New in Kerberos Authentication
 

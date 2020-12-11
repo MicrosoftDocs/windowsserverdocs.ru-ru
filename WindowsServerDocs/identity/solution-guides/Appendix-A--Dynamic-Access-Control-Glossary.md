@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения о: Приложение а. Глоссарий динамического управления доступом'
 ms.assetid: 7f6b27e5-dc55-4ffc-8e76-6d57e65a870b
 title: Приложение. Глоссарий динамического управления доступом
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 888091c13e04fc9d3c7b4accc8f391877f853039
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: c8ae5d1cd5f73c095d290e99d4dc9b72babf4d2f
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87952949"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97047662"
 ---
 # <a name="appendix-a-dynamic-access-control-glossary"></a>Приложение А. Глоссарий по динамическому контролю доступа
 

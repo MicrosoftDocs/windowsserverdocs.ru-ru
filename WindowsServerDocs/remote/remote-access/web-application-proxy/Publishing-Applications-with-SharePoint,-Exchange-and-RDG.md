@@ -1,4 +1,5 @@
 ---
+description: Дополнительные сведения о публикации приложений с помощью SharePoint, Exchange и RDG
 ms.assetid: 61ed00fd-51c7-4728-91fa-8501de9d8f28
 title: Публикация приложений с помощью SharePoint, Exchange и RDG
 author: billmath
@@ -6,12 +7,12 @@ manager: mtillman
 ms.author: billmath
 ms.date: 04/30/2018
 ms.topic: article
-ms.openlocfilehash: 115a55ab9ddfde42027a991d172f92c3d62c4613
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 3d496d5b5c4e0ff3b06c9fa99c1ee871db0bf55a
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87939795"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97044882"
 ---
 # <a name="publishing-applications-with-sharepoint-exchange-and-rdg"></a>Публикация приложений с помощью SharePoint, Exchange и RDG
 

@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: AD FS настройке входа пользователя в систему'
 ms.assetid: 61b6c115-1082-45d5-b0b1-ed24d06fcdce
 title: Настройка входа пользователя AD FS
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: f16ea84d339e1b6bb51d0c0e5be352aeda4abc41
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 05a5c078e1abe6eae498c5a2d587282ec0809ac1
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87947344"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97048982"
 ---
 # <a name="ad-fs-user-sign-in-customization"></a>Настройка входа пользователя AD FS
 

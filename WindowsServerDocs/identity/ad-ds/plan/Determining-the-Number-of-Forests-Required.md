@@ -1,4 +1,5 @@
 ---
+description: Дополнительные сведения см. в статье Определение требуемого количества лесов.
 ms.assetid: 173b72c1-ac83-4f42-abab-cf58f43769f0
 title: Определение требуемого количества лесов
 author: iainfoulds
@@ -6,12 +7,12 @@ ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: f00d49d1251d24f2e5f0e267c90daba72005f6e8
-ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
+ms.openlocfilehash: 3bc6de521db406258e213082c3ebc78056419e98
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93068756"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97046302"
 ---
 # <a name="determining-the-number-of-forests-required"></a>Определение требуемого количества лесов
 

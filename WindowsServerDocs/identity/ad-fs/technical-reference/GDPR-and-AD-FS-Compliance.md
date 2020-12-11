@@ -1,16 +1,17 @@
 ---
+description: Дополнительные сведения о конфиденциальности и AD FSии пользователей
 title: Конфиденциальность и AD FS пользователей
 author: billmath
 ms.author: billmath
 manager: mtillman
 ms.date: 04/24/2018
 ms.topic: article
-ms.openlocfilehash: 428a8611334e07a7a3edf0ac1a1df086fc2e8f69
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 89ae939ce0c21990d5f2eab9f0cd34ae15613ebc
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87937961"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97045362"
 ---
 # <a name="user-privacy-and-ad-fs"></a>Конфиденциальность пользователей и AD FS
 

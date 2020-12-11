@@ -1,4 +1,5 @@
 ---
+description: Дополнительные сведения см. в статье расположение контроллера домена.
 ms.assetid: cc2834ec-8f66-4209-aba3-402d710cd1bd
 title: Расположение контроллера домена
 author: iainfoulds
@@ -6,12 +7,12 @@ ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: d22abba814d9cd4b18294b3c54d550b28c2dfef5
-ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
+ms.openlocfilehash: 6885f9cabc9f9f60939e41858f04537cb1bcfcbe
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93068726"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97045122"
 ---
 # <a name="domain-controller-location"></a>Расположение контроллера домена
 

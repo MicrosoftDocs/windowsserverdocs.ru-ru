@@ -1,4 +1,5 @@
 ---
+description: Дополнительные сведения см. в статье авторизация узлов Hyper-V с помощью аттестации, доверенной для администраторов
 title: Добавление сведений об узле для аттестации, доверенной для администраторов
 ms.topic: article
 ms.assetid: 87089ebc-b953-4aa3-96b5-966cf91acb02
@@ -6,12 +7,12 @@ manager: dongill
 author: rpsqrd
 ms.author: ryanpu
 ms.date: 08/29/2018
-ms.openlocfilehash: abc01dbb691843d199169bd654afaa5cf06bbb87
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 0a4a9f7ebf3f88f6e19c4a78cb8dabd66c2004b9
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87971441"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97047542"
 ---
 # <a name="authorize-hyper-v-hosts-using-admin-trusted-attestation"></a>Авторизация узлов Hyper-V с помощью аттестации, доверенной для администраторов
 
@@ -37,7 +38,7 @@ ms.locfileid: "87971441"
    Get-ADGroup "Guarded Hosts"
    ```
 
-   ![Команда Get-AdGroup с OUTPUT](../media/Guarded-Fabric-Shielded-VM/guarded-host-get-adgroup.png)
+   ![Команда Get-AdGroup с выходными данными](../media/Guarded-Fabric-Shielded-VM/guarded-host-get-adgroup.png)
 
 ## <a name="register-the-sid-of-the-security-group-with-hgs"></a>Регистрация идентификатора безопасности группы безопасности в HGS
 

@@ -1,15 +1,16 @@
 ---
+description: 'Дополнительные сведения: рекомендации по филиалам'
 title: Рекомендации для филиалов
 ms.topic: article
 manager: dongill
 author: rpsqrd
 ms.author: ryanpu
-ms.openlocfilehash: 140888bdaa27d5040ff723b94df2e28f3bbab167
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 793cbf9e43aa7d8b5842a3d3647253a09997d0b6
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87996154"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97047222"
 ---
 # <a name="branch-office-considerations"></a>Рекомендации для филиалов
 

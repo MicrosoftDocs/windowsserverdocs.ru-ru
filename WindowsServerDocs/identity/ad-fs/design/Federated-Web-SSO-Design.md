@@ -1,4 +1,5 @@
 ---
+description: Дополнительные сведения о разработке федеративного единого входа в Интернете
 ms.assetid: 09f335bb-896a-45dd-adc2-f215b8fba828
 title: Проект единого входа федерации для интернет-решений
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: f3f34aca7f7a316ff714b88209e3bf81de420ecb
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 3551ab3d14b479750d5338580aa1c43660da1623
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87942768"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97047722"
 ---
 # <a name="federated-web-sso-design"></a>Проект единого входа федерации для интернет-решений
 

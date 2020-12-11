@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: требования к разрешению имен для серверов федерации'
 ms.assetid: 74ef34c8-e13f-499b-b2bb-952ad7036622
 title: Требования к разрешению имен для серверов федерации
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: d40e574526380da158261f8fe45ce226ced2bf03
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 7f2946bedbbbc4677c65f594ea4967b4f5e4fdb3
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87945187"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97046492"
 ---
 # <a name="name-resolution-requirements-for-federation-servers"></a>Требования к разрешению имен для серверов федерации
 

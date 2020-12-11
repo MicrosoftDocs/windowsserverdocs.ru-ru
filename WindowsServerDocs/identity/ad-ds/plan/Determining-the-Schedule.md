@@ -1,4 +1,5 @@
 ---
+description: Дополнительные сведения см. в статье Определение расписания.
 ms.assetid: 28ecaf5c-9131-406c-b211-a230162e462e
 title: Определение расписания
 author: iainfoulds
@@ -6,12 +7,12 @@ ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 9a882ab616fae5a5ab649fb5a988aa90e8bc7a9c
-ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
+ms.openlocfilehash: d342885208557f968fde1e6365dc3a4ac1eb61e6
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93068746"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97046212"
 ---
 # <a name="determining-the-schedule"></a>Определение расписания
 

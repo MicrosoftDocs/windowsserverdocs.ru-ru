@@ -1,16 +1,17 @@
 ---
+description: 'Дополнительные сведения: дополнительные ресурсы'
 ms.assetid: 20dff664-2370-469b-96a8-df1acf7c7f12
 title: Дополнительные ресурсы
 ms.author: joflore
 author: MicrosoftGuyJFlo
 manager: mtillman
 ms.date: 08/07/2018
-ms.openlocfilehash: fc42d406f150c96fe40e00888bc3f42a13bb2774
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 382ae7c0ece085ab17a325a7fece79dfd3cdaf7b
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87965221"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97047162"
 ---
 # <a name="additional-resources"></a>Дополнительные ресурсы
 

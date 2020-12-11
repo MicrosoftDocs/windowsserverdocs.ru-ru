@@ -1,16 +1,17 @@
 ---
+description: Дополнительные сведения см. в разделе Инициализация кластера HGS с помощью режима ключей в существующем лесу бастиона.
 title: Инициализация кластера HGS с помощью режима ключей в лесу бастиона
 ms.topic: article
 manager: dongill
 author: rpsqrd
 ms.author: ryanpu
 ms.date: 08/29/2018
-ms.openlocfilehash: b526895f9b9e819523ee459701c2f09988565544
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 4556c6ba83748e14f2383c1006dfe372b65f4d40
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87966001"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97047332"
 ---
 # <a name="initialize-the-hgs-cluster-using-key-mode-in-an-existing-bastion-forest"></a>Инициализация кластера HGS с помощью режима ключей в существующем лесу бастиона
 

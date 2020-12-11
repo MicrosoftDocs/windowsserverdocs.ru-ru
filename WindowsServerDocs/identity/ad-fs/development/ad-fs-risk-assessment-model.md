@@ -1,16 +1,17 @@
 ---
 title: Создание подключаемых модулей с помощью модели оценки риска AD FS за 2019 г.
+description: 'Дополнительные сведения: Создание подключаемых модулей с моделью оценки рисков AD FS 2019'
 author: billmath
 ms.author: billmath
 manager: mtillman
 ms.date: 05/05/2020
 ms.topic: article
-ms.openlocfilehash: ece40ea47c78c1d45cf55ff9daec551d940276e1
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.openlocfilehash: 2c1d05450869d558d1991da2f95b72bcaeca7462
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96865153"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97047822"
 ---
 # <a name="build-plug-ins-with-ad-fs-2019-risk-assessment-model"></a>Создание подключаемых модулей с помощью модели оценки риска AD FS за 2019 г.
 
@@ -93,7 +94,7 @@ ms.locfileid: "96865153"
    c.    В **диалоговом окне Создание ключа строгого имени** введите имя для ключа (можно выбрать любое имя), снимите флажок **защитить файл ключа паролем**. Затем нажмите кнопку **ОК**.</br>
    ![model](media/ad-fs-risk-assessment-model/risk8.png)
 
-   г.    Сохраните проект, как показано ниже.</br>
+   d.    Сохраните проект, как показано ниже.</br>
    ![model](media/ad-fs-risk-assessment-model/risk9.png)
 
 7. Выполните сборку проекта, щелкнув **Сборка** , а затем **Перестроить решение** , как показано ниже.</br>
@@ -316,6 +317,6 @@ IList<Claim> additionalClams
 **Какие другие примеры подключаемых модулей доступны?**</br>
 Ответ **.** Доступны следующие примеры подключаемых модулей:
 
-|Название|Описание:|
+|Имя|Описание|
 |-----|-----|
 |[Подключаемый модуль рискованных пользователей](https://github.com/microsoft/adfs-sample-block-user-on-adfs-marked-risky-by-AzureAD-IdentityProtection)|Пример подключаемого модуля, который блокирует проверку подлинности или применяет MFA на основе уровня риска пользователя, определенного защита идентификации Azure AD.|

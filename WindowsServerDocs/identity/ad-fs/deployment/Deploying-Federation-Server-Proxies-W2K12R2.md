@@ -1,4 +1,5 @@
 ---
+description: Дополнительные сведения о развертывании прокси-серверов федерации
 ms.assetid: 222e9f93-7c41-4527-8a98-8f7fbc7a58af
 title: Развертывание прокси-серверов федерации в AD FS для Windows Server 2012 R2
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 762a2f06ed7fa64c8d5f844ed4902d1ea9d44056
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 6554cd206c459d5b0eacb8bf375d5fcd132c8530
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87962868"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97048892"
 ---
 # <a name="deploying-federation-server-proxies"></a>Развертывание прокси-серверов федерации
 

@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: развертывание AD FS в организации партнера по учетным записям'
 ms.assetid: 9aaca9c5-ce44-495c-aad6-61aede87a83f
 title: Развертывание служб федерации Active Directory в партнерской организации по учетным записям
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: db72dd69a44d90a89a255b7d974f0cf1816bd722
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: e9617b737c929c029a103bbd6054c0dbc33d9eb4
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87954330"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97044742"
 ---
 # <a name="deploying-ad-fs-in-the-account-partner-organization"></a>Развертывание служб федерации Active Directory в партнерской организации по учетным записям
 
@@ -23,7 +24,7 @@ ms.locfileid: "87954330"
 
 Подробнее об установке и настройке партнерской организации по учетным записям см. в разделе [Checklist: Configuring the Account Partner Organization](../../ad-fs/deployment/Checklist--Configuring-the-Account-Partner-Organization.md).
 
-## <a name="in-this-section"></a>Содержание раздела
+## <a name="in-this-section"></a>В этом разделе
 
 -   [Сведения о роли сервера федерации в организации партнера по учетным записям](Review-the-Role-of-the-Federation-Server-in-the-Account-Partner.md)
 

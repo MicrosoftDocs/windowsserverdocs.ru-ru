@@ -1,4 +1,5 @@
 ---
+description: Дополнительные сведения см. в разделе Пошаговое руководство. Управление рисками с помощью управления условным доступом
 ms.assetid: 3a840b63-78b7-4e62-af7b-497026bfdb93
 title: Пошаговое руководство. Управление рисками с помощью управления условным доступом
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 5523f882d64f0c43456bd86aa9a60f95db033094
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 8993aff4e89df0b01780703791070d9dc0664308
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87956277"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97048832"
 ---
 # <a name="walkthrough-guide-manage-risk-with-conditional-access-control"></a>Пошаговое руководство: Управление рисками с использованием условного управления доступом
 
@@ -113,7 +114,7 @@ Set-AdfsRelyingPartyTrust -TargetRelyingParty $rp -IssuanceAuthorizationRules $G
 ## <a name="step-4-verify-conditional-access-control-mechanism"></a><a name="BKMK_4"></a>Шаг 4. Проверка механизма условного управления доступом
 В этом шаге вы проверите политику условного управления доступом, настроенную в предыдущем шаге. Чтобы убедиться, что пользователь с учетной записью Active Directory **Robert Hatley** может получать доступ к вашему примеру приложения, так как он входит в группу **Finance**, а пользователям Active Directory, не принадлежащим к группе **Finance**, такой доступ запрещен, можно использовать следующую процедуру.
 
-1.  На клиентском компьютере откройте окно браузера и перейдите к вашему примеру приложения:**https://webserv1.contoso.com/claimapp**
+1.  На клиентском компьютере откройте окно браузера и перейдите к вашему примеру приложения: **https://webserv1.contoso.com/claimapp**
 
     В результате запрос будет автоматически перенаправлен серверу федерации и вам будет предложено ввести имя пользователя и пароль.
 

@@ -1,16 +1,17 @@
 ---
+description: 'Дополнительные сведения о: Общие сведения о дисковых пространствах'
 title: Общие сведения о дисковых пространствах
 ms.author: jgerend
 manager: dougkim
 ms.topic: article
 author: jasongerend
 ms.date: 05/22/2018
-ms.openlocfilehash: a2423d83847494224febe5c28cd73935ca3a95ec
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: b2b18ac48f1e506adf1dc6bcd8217e9b68ec398b
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87935743"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97046182"
 ---
 # <a name="storage-spaces-overview"></a>Общие сведения о дисковых пространствах
 

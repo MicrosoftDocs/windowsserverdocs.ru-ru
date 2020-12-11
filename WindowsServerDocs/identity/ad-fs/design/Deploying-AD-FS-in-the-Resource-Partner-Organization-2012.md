@@ -1,4 +1,5 @@
 ---
+description: Дополнительные сведения см. в статье Развертывание AD FS в организации партнера по ресурсам.
 ms.assetid: 39acccd9-0402-49ca-8ce1-b239e1e7e455
 title: Развертывание служб федерации Active Directory в партнерской организации по ресурсам
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: ae43da6a8aa2968cc5123c9bc707c44c77fa6ea2
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: e9b23063945c1dc32bcc874f15334c62cdf8ba42
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87942919"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97044722"
 ---
 # <a name="deploying-ad-fs-in-the-resource-partner-organization"></a>Развертывание служб федерации Active Directory в партнерской организации по ресурсам
 
@@ -21,7 +22,7 @@ ms.locfileid: "87942919"
 
 Дополнительные сведения об установке и настройке партнерской организации по ресурсам см. в разделе [Checklist: Configuring the Resource Partner Organization](../../ad-fs/deployment/Checklist--Configuring-the-Resource-Partner-Organization.md).
 
-## <a name="in-this-section"></a>Содержание раздела
+## <a name="in-this-section"></a>В этом разделе
 
 -   [Сведения о роли сервера федерации в организации партнера по ресурсам](Review-the-Role-of-the-Federation-Server-in-the-Resource-Partner.md)
 

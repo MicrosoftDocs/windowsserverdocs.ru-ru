@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: Добавление сертификата Token-Decrypting'
 ms.assetid: 27e1e299-0beb-4e86-8143-1ba031dc3502
 title: Добавление сертификата расшифровки токенов
 author: billmath
@@ -6,12 +7,12 @@ manager: femila
 ms.date: 05/31/2017
 ms.topic: article
 ms.author: billmath
-ms.openlocfilehash: 0c6e2fc3913a6a483d71441a5e2aa1f0aabb7cbb
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 86f45f534567b88ad07c1334c0536ebcfe05524e
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87947635"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97047892"
 ---
 # <a name="add-a-token-decrypting-certificate"></a>Добавление сертификата расшифровки токенов
 
@@ -26,7 +27,7 @@ ms.locfileid: "87947635"
 
 ### <a name="to-add-a-token-decrypting-certificate"></a>Добавление \- сертификата расшифровки маркера
 
-1.  На **начальном** экране введите**AD FS управление**и нажмите клавишу ВВОД.
+1.  На **начальном** экране введите **AD FS управление** и нажмите клавишу ВВОД.
 
 2.  В дереве консоли дважды \- щелкните **Служба**, а затем щелкните **Сертификаты**.
 

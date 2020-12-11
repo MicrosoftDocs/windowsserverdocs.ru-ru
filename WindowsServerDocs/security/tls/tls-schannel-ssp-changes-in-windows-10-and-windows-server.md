@@ -1,16 +1,17 @@
 ---
+description: Дополнительные сведения см. в статье изменения протокола TLS (Schannel SSP) в Windows 10 и Windows Server 2016.
 title: TLS (поставщик общих служб Schannel)
 ms.topic: article
 ms.assetid: ebd3c40c-b4c0-4f6d-a00c-f90eda4691df
 author: justinha
 ms.author: Justinha
 ms.date: 05/16/2018
-ms.openlocfilehash: 389a5a009320f7a19f5cbf942fe7c86f08f573ac
-ms.sourcegitcommit: 7cacfc38982c6006bee4eb756bcda353c4d3dd75
+ms.openlocfilehash: 28774f9be853a133bfc69f5ca86fc25c4b1fd88f
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "90078531"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97045482"
 ---
 # <a name="tls-schannel-ssp-changes-in-windows-10-and-windows-server-2016"></a>Изменения протокола TLS (Schannel SSP) в Windows 10 и Windows Server 2016
 
@@ -45,11 +46,11 @@ Windows 10, версии 1507 и Windows Server 2016 добавляют пара
 
 Дополнительные сведения см. в разделе [кэйексчанжеалгорисм-Client RSA Key sizes](tls-registry-settings.md#keyexchangealgorithm---client-rsa-key-sizes).
 
-### <a name="diffie-hellman-key-changes"></a>Изменения ключей Диффи-Хелмана
+### <a name="diffie-hellman-key-changes"></a>Diffie-Hellman изменения ключей
 
-Windows 10, версия 1507 и Windows Server 2016 добавляют параметры конфигурации реестра для размеров ключей Диффи-Хелмана.
+Windows 10, версия 1507 и Windows Server 2016 добавляют параметры конфигурации реестра для Diffie-Hellman размеров ключей.
 
-Дополнительные сведения см. в разделе [кэйексчанжеалгорисм-diff Диффи-Хелмана Key sizes](tls-registry-settings.md#keyexchangealgorithm---diffie-hellman-key-sizes).
+Дополнительные сведения см. в разделе [кэйексчанжеалгорисм-Diffie-Hellman Key sizes](tls-registry-settings.md#keyexchangealgorithm---diffie-hellman-key-sizes).
 
 ### <a name="sch_use_strong_crypto-option-changes"></a>Изменения параметров SCH_USE_STRONG_CRYPTO
 
@@ -105,7 +106,7 @@ Windows 10, версия 1607 и Windows Server 2016 добавляют конф
 - TLS_PSK_WITH_AES_128_GCM_SHA256 (RFC 5487) в Windows 10, версия 1607 и Windows Server 2016
 - TLS_PSK_WITH_AES_256_GCM_SHA384 (RFC 5487) в Windows 10, версия 1607 и Windows Server 2016
 
-## <a name="session-resumption-without-server-side-state-server-side-performance-improvements"></a>Возобновление сеанса без серверного состояния повышение производительности на стороне сервера
+## <a name="session-resumption-without-server-side-state-server-side-performance-improvements"></a>Возобновление сеанса без Server-Sideного состояния повышение производительности на стороне сервера
 
 Windows 10 версии 1507 и Windows Server 2016 обеспечивают 30% дополнительных возобновлениях сеансов в секунду с билетами сеанса по сравнению с Windows Server 2012.
 

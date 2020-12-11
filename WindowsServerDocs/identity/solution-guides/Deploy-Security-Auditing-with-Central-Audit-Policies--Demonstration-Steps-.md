@@ -1,4 +1,5 @@
 ---
+description: Дополнительные сведения см. в статье Развертывание аудита безопасности с помощью централизованных политик аудита (шаги для демонстрации).
 ms.assetid: 22347a94-aeea-44b4-85fb-af2c968f432a
 title: Развертывание аудита безопасности при помощи централизованной политики аудита (поэтапная демонстрация)
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 9fed82f80c03c0d8490dc88b1ec7c7d7c48a4c06
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 6d55fc8b1d7a1f1c7f94b09c773a079f3488862c
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87956081"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97046502"
 ---
 # <a name="deploy-security-auditing-with-central-audit-policies-demonstration-steps"></a>Развертывание аудита безопасности при помощи централизованной политики аудита (поэтапная демонстрация)
 

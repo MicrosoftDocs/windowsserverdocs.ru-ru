@@ -1,4 +1,5 @@
 ---
+description: Дополнительные сведения см. в статье ферма серверов федерации с помощью WID.
 ms.assetid: 663a2482-33d1-4c19-8607-2e24eef89fcb
 title: Ферма серверов AD FS Федерации с помощью WID
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: be8a54e171e304fab5911050d2ad60507064ec7d
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: ffc15afdea63755689d78c6567ea6d0a4cb8af69
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87945409"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97046962"
 ---
 # <a name="federation-server-farm-using-wid"></a>Ферма серверов федерации с использованием WID
 

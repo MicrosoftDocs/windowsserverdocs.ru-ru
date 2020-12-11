@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: Настройка дополнительных методов проверки подлинности для AD FS'
 ms.assetid: ddfbbda3-30ca-4537-af12-667efc6f63ff
 title: Настройка дополнительных методов проверки подлинности для службы федерации Active Directory
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 07/26/2019
 ms.topic: article
-ms.openlocfilehash: dd773ce7198ffd30d8269ab47ae3d3dcfa7ef7cb
-ms.sourcegitcommit: 5344adcf9c0462561a4f9d47d80afc1d095a5b13
+ms.openlocfilehash: c18f5c932c20e74de402942c75ac987873c538cf
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90766777"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97046683"
 ---
 # <a name="configure-additional-authentication-methods-for-ad-fs"></a>Настройка дополнительных методов проверки подлинности для службы федерации Active Directory
 
@@ -53,5 +54,5 @@ ms.locfileid: "90766777"
 ## <a name="custom-authentication-method-for-ad-fs-in-windows-server-2012-r2"></a>Пользовательский метод проверки подлинности для AD FS в Windows Server 2012 R2
 Теперь мы предоставляем инструкции по созданию собственного метода проверки подлинности для AD FS в Windows Server 2012 R2. Дополнительные сведения см. в разделе [Создание пользовательского метода проверки подлинности для AD FS в Windows Server 2012 R2](https://go.microsoft.com/fwlink/?LinkID=511980).
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также:
 [Управление рисками для уязвимых приложений с помощью дополнительной многофакторной аутентификации](Manage-Risk-with-Additional-Multi-Factor-Authentication-for-Sensitive-Applications.md)

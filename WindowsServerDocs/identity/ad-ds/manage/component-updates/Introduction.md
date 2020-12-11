@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения о: введение'
 ms.assetid: 84754c23-f039-4de4-a378-853942e662df
 title: Введение
 author: iainfoulds
@@ -6,12 +7,12 @@ ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: e9df8c913db5c25b53abd1f4fd8aad1c4dbe2e54
-ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
+ms.openlocfilehash: 9f022f30b977fee15d7d20ba3f9330806a3570a4
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93070666"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97048822"
 ---
 # <a name="introduction"></a>Введение
 

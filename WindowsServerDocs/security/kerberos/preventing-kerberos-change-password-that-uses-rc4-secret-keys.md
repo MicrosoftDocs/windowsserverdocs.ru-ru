@@ -1,16 +1,17 @@
 ---
+description: 'Дополнительные сведения: предотвращение изменения пароля Kerberos с использованием секретных ключей RC4'
 title: Предотвращение изменения пароля Kerberos, в котором используются секретные ключи RC4
 ms.topic: article
 ms.assetid: de207d55-aa3d-4c16-bd3b-496db43663a4
 author: justinha
 ms.author: Justinha
 ms.date: 11/09/2016
-ms.openlocfilehash: a98e5e6ed62f4a43ca5e36af7051e9ece106c074
-ms.sourcegitcommit: 7cacfc38982c6006bee4eb756bcda353c4d3dd75
+ms.openlocfilehash: cad6948346c7d4209e9b476882a9c6649f4d8990
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "90078561"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97046132"
 ---
 # <a name="preventing-kerberos-change-password-that-uses-rc4-secret-keys"></a>Предотвращение изменения пароля, в котором используются секретные ключи RC4, протоколом Kerberos
 

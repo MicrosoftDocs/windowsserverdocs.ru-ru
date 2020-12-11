@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения см. в статье Развертывание рабочих папок с помощью AD FS и прокси веб-приложения: шаг 2, AD FS действия после настройки.'
 title: Развертывание рабочих папок с помощью AD FS и прокси-службы веб-приложения. Шаг 2. Действия после настройки AD FS
 ms.topic: article
 manager: klaasl
@@ -6,12 +7,12 @@ ms.author: jeffpatt
 author: JeffPatt24
 ms.date: 06/06/2019
 ms.assetid: 0a48852e-48cc-4047-ae58-99f11c273942
-ms.openlocfilehash: 84ff335514b4b9251ffa1518b613120f3b3e2869
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: a830297b0adc8eb3ea0badb605570593933be918
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87946197"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97045372"
 ---
 # <a name="deploy-work-folders-with-ad-fs-and-web-application-proxy-step-2-ad-fs-post-configuration-work"></a>Развертывание рабочих папок с помощью AD FS и прокси-службы веб-приложения. Шаг 2. Действия после настройки AD FS
 
@@ -102,7 +103,7 @@ Add-DnsServerResourceRecord  -ZoneName "contoso.com" -Name enterpriseregistratio
 
 7.  На странице **Настройка URL-адреса** нажмите кнопку **Далее**.
 
-8. На странице **Настройка идентификаторов** добавьте следующий идентификатор: `https://windows-server-work-folders/V1` . Этот идентификатор представляет собой жестко заданное значение, используемое рабочими папками, и отправляется службой рабочих папок при обмене данными с AD FS. Щелкните **Далее**.
+8. На странице **Настройка идентификаторов** добавьте следующий идентификатор: `https://windows-server-work-folders/V1` . Этот идентификатор представляет собой жестко заданное значение, используемое рабочими папками, и отправляется службой рабочих папок при обмене данными с AD FS. Нажмите кнопку **Далее**.
 
 9. На странице "Выбор политики контроля доступа" выберите **Разрешить всем** и нажмите кнопку **Далее**.
 
@@ -149,10 +150,10 @@ Add-DnsServerResourceRecord  -ZoneName "contoso.com" -Name enterpriseregistratio
 Для настройки этих параметров используйте следующие команды:
 
 ```powershell
-Set-ADFSRelyingPartyTrust -TargetIdentifier "https://windows-server-work-folders/V1" -EnableJWT $true
-Set-ADFSRelyingPartyTrust -TargetIdentifier "https://windows-server-work-folders/V1" -Encryptclaims $false
+Set-ADFSRelyingPartyTrust -TargetIdentifier "https://windows-server-work-folders/V1" -EnableJWT $true
+Set-ADFSRelyingPartyTrust -TargetIdentifier "https://windows-server-work-folders/V1" -Encryptclaims $false
 Set-ADFSRelyingPartyTrust -TargetIdentifier "https://windows-server-work-folders/V1" -AutoupdateEnabled $true
-Set-ADFSRelyingPartyTrust -TargetIdentifier "https://windows-server-work-folders/V1" -IssueOAuthRefreshTokensTo AllDevices
+Set-ADFSRelyingPartyTrust -TargetIdentifier "https://windows-server-work-folders/V1" -IssueOAuthRefreshTokensTo AllDevices
 Grant-AdfsApplicationPermission -ServerRoleIdentifier "https://windows-server-work-folders/V1" -AllowAllRegisteredClients -ScopeNames openid,profile
 ```
 
@@ -204,7 +205,7 @@ Set-ADFSGlobalAuthenticationPolicy -DeviceAuthenticationEnabled $true
 
 11. На странице **Формат экспортируемого файла** оставьте параметры по умолчанию и нажмите кнопку **Далее**.
 
-12. Создайте пароль для сертификата. Этот пароль вам пригодится позднее при импорте сертификата на другие устройства. Щелкните **Далее**.
+12. Создайте пароль для сертификата. Этот пароль вам пригодится позднее при импорте сертификата на другие устройства. Нажмите кнопку **Далее**.
 
 13. Введите расположение и имя для сертификата и нажмите кнопку **Готово**.
 
@@ -240,7 +241,7 @@ Set-ADFSGlobalAuthenticationPolicy -DeviceAuthenticationEnabled $true
 
 13. В окне **Разрешения** предоставьте учетной записи хотя бы разрешения на чтение и нажмите кнопку **ОК**.
 
-Если у вас нет возможности управлять закрытыми ключами, может потребоваться выполнить следующую команду:`certutil -repairstore my *`
+Если у вас нет возможности управлять закрытыми ключами, может потребоваться выполнить следующую команду: `certutil -repairstore my *`
 
 ## <a name="verify-that-ad-fs-is-operational"></a>Проверка работоспособности AD FS
 

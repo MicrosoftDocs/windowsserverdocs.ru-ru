@@ -1,16 +1,17 @@
 ---
+description: 'Дополнительные сведения: Microsoft Hyper-V Server 2016'
 title: Microsoft Hyper-V Server 2016
 ms.topic: get-started-article
 ms.assetid: f815ada0-4c63-4e73-9c24-dc5eb21526c7
 ms.author: benarm
 author: BenjaminArmstrong
 ms.date: 07/26/2017
-ms.openlocfilehash: f4b77889d00cd01a226d7655c91ef3c58f109cda
-ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
+ms.openlocfilehash: 55cb8be08d5ebbed2de263c6147bb1100cdbbd6c
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "90745909"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97046902"
 ---
 # <a name="microsoft-hyper-v-server-2016"></a>Microsoft Hyper-V Server 2016
 

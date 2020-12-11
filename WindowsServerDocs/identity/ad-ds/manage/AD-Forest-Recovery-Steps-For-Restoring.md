@@ -1,4 +1,5 @@
 ---
+description: Дополнительные сведения о восстановлении леса AD. действия по восстановлению леса
 title: Восстановление леса AD. действия по восстановлению леса
 ms.author: daveba
 author: iainfoulds
@@ -6,12 +7,12 @@ manager: daveba
 ms.date: 08/09/2018
 ms.topic: article
 ms.assetid: 5a291f65-794e-4fc3-996e-094c5845a383
-ms.openlocfilehash: fcddc2d0f9f9bc755d20700c756450f2d0ff46cc
-ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
+ms.openlocfilehash: 9ea3dda699de60a4fa3f0531f3f7bfc902d7e134
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93070796"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97047052"
 ---
 # <a name="ad-forest-recovery---steps-for-restoring-the-forest"></a>Восстановление леса AD. действия по восстановлению леса
 

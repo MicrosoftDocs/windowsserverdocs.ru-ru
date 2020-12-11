@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: устаревшая AD FS ферма серверов федерации с помощью WID'
 ms.assetid: f775cbda-a75d-439d-9aa7-82f3bc8dc932
 title: Ферма серверов федерации с использованием WID
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: c91b24313f3bb11592da1dcd25e8e9330fcfd250
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: c92cc5bcd779bba4e75f70e9555aa6f5cf7092c9
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87945361"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97046892"
 ---
 # <a name="legacy-ad-fs-federation-server-farm-using-wid"></a>Устаревшая AD FS ферма серверов федерации с помощью WID
 

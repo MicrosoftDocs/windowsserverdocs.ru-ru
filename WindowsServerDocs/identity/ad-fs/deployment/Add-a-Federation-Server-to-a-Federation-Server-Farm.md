@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: Добавление сервера федерации в ферму серверов федерации'
 ms.assetid: 6ecf8d85-cd61-4c87-add8-00a679a6e3ff
 title: Добавление сервера федерации в ферму серверов федерации
 author: billmath
@@ -6,12 +7,12 @@ manager: femila
 ms.date: 05/31/2017
 ms.topic: article
 ms.author: billmath
-ms.openlocfilehash: 0b814a791b510cc32b496cabf272dedfd307caac
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 7ef9e7343aa3d687232e67dc0fb4b45b237c0fea
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87947682"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97047962"
 ---
 # <a name="add-a-federation-server-to-a-federation-server-farm"></a>Добавление сервера федерации в ферму серверов федерации
 
@@ -47,7 +48,7 @@ ms.locfileid: "87947682"
 
 5.  Просмотрите подробные сведения на странице **Готовность к применению настроек**. Если параметры верны, щелкните **Далее** для начала настройки AD FS с помощью этих параметров.
 
-6.  Просмотрите результаты на странице **Результаты конфигурации**. По завершении всех этапов настройки нажмите кнопку **Закрыть** , чтобы выйти из мастера.
+6.  Просмотрите результаты на странице **Результаты конфигурации**. По завершении всех этапов настройки нажмите кнопку **Закрыть**  , чтобы выйти из мастера.
 
 ## <a name="additional-references"></a>Дополнительная справка
 [Контрольный список. Настройка сервера федерации](Checklist--Setting-Up-a-Federation-Server.md)

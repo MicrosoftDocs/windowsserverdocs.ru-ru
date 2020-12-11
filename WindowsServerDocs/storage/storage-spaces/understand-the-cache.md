@@ -1,4 +1,5 @@
 ---
+description: См. Дополнительные сведения о кэше в Локальные дисковые пространства
 title: Общие сведения о кэше локальных дисковых пространств
 ms.assetid: 69b1adc0-ee64-4eed-9732-0fb216777992
 ms.author: cosdar
@@ -7,12 +8,12 @@ ms.topic: article
 author: cosmosdarwin
 ms.date: 09/21/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: 502b04676fcb9a9c7342e701e71be473890f9668
-ms.sourcegitcommit: 8a826e992f28a70e75137f876a5d5e61238a24e4
+ms.openlocfilehash: a6ab48a2079513e69538eb2673be4cf7d656b94f
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "91365357"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97047762"
 ---
 # <a name="understanding-the-cache-in-storage-spaces-direct"></a>Общие сведения о кэше локальных дисковых пространств
 

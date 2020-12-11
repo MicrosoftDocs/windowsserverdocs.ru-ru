@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения о: служба работоспособности в Windows Server'
 title: служба работоспособности в Windows Server
 manager: eldenc
 ms.author: cosdar
@@ -6,12 +7,12 @@ ms.topic: article
 ms.assetid: 5bc71e71-920e-454f-8195-afebd2a23725
 author: cosmosdarwin
 ms.date: 02/09/2018
-ms.openlocfilehash: 69bf8d66fdd3e7fac4066791d0521173484a894f
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 486234923a9eff0c185249701b4f9ee28c752e24
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87953420"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97047732"
 ---
 # <a name="health-service-in-windows-server"></a>служба работоспособности в Windows Server
 
@@ -35,7 +36,7 @@ ms.locfileid: "87953420"
 
 См. раздел [действия Служба работоспособности](health-service-actions.md).
 
-## <a name="automation"></a>автоматизация
+## <a name="automation"></a>Автоматизация
 
 В следующем разделе описываются рабочие процессы жизненного цикла диска, которые автоматизирует служба работоспособности.
 
@@ -164,7 +165,7 @@ Get-StorageSubSystem Cluster* | Set-StorageHealthSetting -Name "System.Storage.S
 Get-PhysicalDisk | Select Model, Manufacturer, FirmwareVersion
 ```
 
-## <a name="settings"></a>"Настройки"
+## <a name="settings"></a>Параметры
 
 См. раздел [параметры служба работоспособности](health-service-settings.md).
 

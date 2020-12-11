@@ -1,16 +1,17 @@
 ---
+description: 'Дополнительные сведения: параметры служба работоспособности'
 title: Параметры служба работоспособности
 manager: eldenc
 ms.author: cosdar
 ms.topic: article
 author: cosmosdarwin
 ms.date: 08/14/2017
-ms.openlocfilehash: 389dfa8890e67b3caf7d9ec6fb69b16ae6a8083b
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 7638b501e31985020c0bc32cbf47dd745c45db0f
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87953386"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97047752"
 ---
 # <a name="health-service-settings"></a>Параметры служба работоспособности
 

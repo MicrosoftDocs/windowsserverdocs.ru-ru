@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: обновление до AD FS в Windows Server 2016 с SQL Server'
 title: Обновление до AD FS в Windows Server 2016 с SQL Server
 author: billmath
 manager: mtillman
@@ -6,12 +7,12 @@ ms.date: 04/11/2018
 ms.topic: article
 ms.assetid: 70f279bf-aea1-4f4f-9ab3-e9157233e267
 ms.author: billmath
-ms.openlocfilehash: 434ee97a352ad30caef83e495a387583da1f955b
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 6c1638ee628491371409f15d7450df7b77872f7d
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87940572"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97046142"
 ---
 # <a name="upgrading-to-ad-fs-in-windows-server-2016-with-sql-server"></a>Обновление до AD FS в Windows Server 2016 с SQL Server
 
@@ -43,7 +44,7 @@ ms.locfileid: "87940572"
 
 На схеме архитектуры показана программа установки, которая использовалась для проверки и записи описанных ниже действий.
 
-![Architecture](media/Upgrading-to-AD-FS-in-Windows-Server-2016-SQL/arch.png)
+![Архитектура](media/Upgrading-to-AD-FS-in-Windows-Server-2016-SQL/arch.png)
 
 
 #### <a name="join-the-windows-2016-ad-fs-server-to-the-ad-fs-farm"></a>Присоединение сервера AD FS Windows 2016 к ферме AD FS
@@ -66,7 +67,7 @@ ms.locfileid: "87940572"
 #### <a name="remove-the-windows-server-2012-r2-ad-fs-server"></a>Удаление сервера AD FS Windows Server 2012 R2
 
 >[!NOTE]
->При использовании SQL в качестве базы данных не нужно задавать основной сервер AD FS с помощью инструкции SET-Адфссинкпропертиес-Role.  Это связано с тем, что все узлы считаются первичными в этой конфигурации.
+>Не нужно задавать сервер-источник AD FS с помощью Set-AdfsSyncProperties роли при использовании SQL в качестве базы данных.  Это связано с тем, что все узлы считаются первичными в этой конфигурации.
 
 1.  На AD FS сервере Windows Server 2012 R2 в диспетчер сервера используйте команду **Удалить роли и компоненты** в разделе **Управление**.
 ![Удалить сервер](media/Upgrading-to-AD-FS-in-Windows-Server-2016-SQL/remove1.png)
@@ -90,7 +91,7 @@ ms.locfileid: "87940572"
 2. При появлении запроса введите **Y**.  Это начнет повышать уровень.  После завершения этого процесса вы успешно вызвали ФБЛ.
 ![Завершить обновление](media/Upgrading-to-AD-FS-in-Windows-Server-2016-SQL/finish1.png)
 3. Теперь, если вы переходите к AD FS управления, вы увидите новые узлы, добавленные для AD FS в Windows Server 2016.
-4. Аналогичным образом можно использовать PowerShell командлет: Get-Адфсфарминформатион, чтобы отобразить текущую ФБЛ.
+4. Аналогичным образом можно использовать PowerShell командлет: Get-AdfsFarmInformation для отображения текущего ФБЛ.
 ![Завершить обновление](media/Upgrading-to-AD-FS-in-Windows-Server-2016-SQL/finish2.png)
 
 #### <a name="upgrade-the-configuration-version-of-existing-wap-servers"></a>Обновление версии существующих серверов WAP
@@ -103,7 +104,7 @@ ms.locfileid: "87940572"
     ```powershell
     Set-WebApplicationProxyConfiguration -ConnectedServersName WAPServerName1, WAPServerName2
     ```
-3. Проверьте конфигурацию WAP, выполнив комммандлет Get-Вебаппликатионпроксиконфигуратион. Коннектедсерверснаме будет отражать запуск сервера из предыдущей команды.
+3. Проверьте конфигурацию WAP, выполнив Get-WebApplicationProxyConfiguration комммандлет. Коннектедсерверснаме будет отражать запуск сервера из предыдущей команды.
     ```powershell
     Get-WebApplicationProxyConfiguration
     ```
@@ -111,4 +112,4 @@ ms.locfileid: "87940572"
     ```powershell
     Set-WebApplicationProxyConfiguration -UpgradeConfigurationVersion
     ```
-5. Убедитесь, что Конфигуратионверсион обновлен с помощью команды PowerShell Get-Вебаппликатионпроксиконфигуратион.
+5. Убедитесь, что Конфигуратионверсион обновлен с помощью команды PowerShell Get-WebApplicationProxyConfiguration.

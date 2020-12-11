@@ -1,16 +1,17 @@
 ---
+description: 'Дополнительные сведения: инициализация кластера HGS с помощью режима TPM в новом выделенном лесу (по умолчанию)'
 title: Инициализация кластера HGS с помощью режима TPM в новом выделенном лесу (по умолчанию)
 ms.topic: article
 manager: dongill
 author: rpsqrd
 ms.author: ryanpu
 ms.date: 08/29/2018
-ms.openlocfilehash: 2a89ffb238b631fc24035f2b18a57c614003c644
-ms.sourcegitcommit: 8c0a419ae5483159548eb0bc159f4b774d4c3d85
+ms.openlocfilehash: eb63af4feb13b519906b8898a1eb9a352bf91d27
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "93235831"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97047342"
 ---
 # <a name="initialize-the-hgs-cluster-using-tpm-mode-in-a-new-dedicated-forest-default"></a>Инициализация кластера HGS с помощью режима TPM в новом выделенном лесу (по умолчанию)
 
@@ -41,7 +42,7 @@ ms.locfileid: "93235831"
 
 5.  [!INCLUDE [Initialize HGS](../../../includes/guarded-fabric-initialize-hgs-default-step-five.md)]
 
-## <a name="next-step"></a>Следующий шаг
+## <a name="next-step"></a>Следующий этап
 
 > [!div class="nextstepaction"]
 > [Установка корневых сертификатов доверенного платформенного модуля](guarded-fabric-install-trusted-tpm-root-certificates.md)

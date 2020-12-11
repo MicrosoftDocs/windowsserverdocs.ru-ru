@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: требования к сертификатам для прокси-серверов федерации'
 ms.assetid: dc24adb7-385d-4a92-ab81-78ba73df0118
 title: Требования к сертификатам для прокси-серверов федерации
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 51eb0e72f52fafdb2f1b8bbb3f9a2850602c3f75
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 90907b37c9a048f7529f78e0685cb15521aa27fd
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87954340"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97044792"
 ---
 # <a name="certificate-requirements-for-federation-server-proxies"></a>Требования к сертификатам для прокси-серверов федерации
 

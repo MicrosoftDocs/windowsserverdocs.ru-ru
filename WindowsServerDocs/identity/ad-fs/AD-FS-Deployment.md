@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: развертывание AD FS'
 ms.assetid: d31006b1-c468-4196-be5a-9b293622e710
 title: Развертывание AD FS 2016
 author: billmath
@@ -6,17 +7,17 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 3ca76889f0abe3979aad49374bece4c4241bbc1e
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: a82967e7c236da55308b6f8b2e2c9521cf1b2a41
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87954400"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97045012"
 ---
 # <a name="ad-fs-deployment"></a>Развертывание AD FS
 
 
-Этот документ содержит список всех документации по развертыванию AD FS для Windows Server 2016. Это включает следующие действия.
+Этот документ содержит список всех документации по развертыванию AD FS для Windows Server 2016. Например:
 
 * [Рекомендации по защите AD FS](deployment/Best-Practices-Securing-AD-FS.md)
 

@@ -1,18 +1,18 @@
 ---
 title: Основы DHCP (протокол динамического конфигурирования узлов)
-description: ''
+description: 'Дополнительные сведения: основные сведения о DHCP (протокол динамической конфигурации узлов)'
 manager: dcscontentpm
 ms.date: 5/26/2020
 ms.topic: troubleshoot
 author: Deland-Han
 ms.author: delhan
 ms.reviewer: ''
-ms.openlocfilehash: 445663569fca7182e5343dd6f7ac677fd7f87f3b
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 73b79eedf1d792c30c7dc6997c3005db8076d924
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87970061"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97045992"
 ---
 # <a name="dhcp-dynamic-host-configuration-protocol-basics"></a>Основы DHCP (протокол динамического конфигурирования узлов)
 
@@ -449,4 +449,4 @@ DHCP: Discover (xid=3ED14752)
 
 ## <a name="references"></a>Ссылки
 
-Дополнительные сведения о DHCP см. в разделе RFC1541 и RFC2131. Документы RFC могут быть получены через Интернет на многочисленных сайтах, например: [http://www.rfc-editor.org/](http://www.rfc-editor.org/) и[http://www.tech-nic.qc.ca/](http://www.tech-nic.qc.ca/)
+Дополнительные сведения о DHCP см. в разделе RFC1541 и RFC2131. Документы RFC могут быть получены через Интернет на многочисленных сайтах, например: [http://www.rfc-editor.org/](http://www.rfc-editor.org/) и [http://www.tech-nic.qc.ca/](http://www.tech-nic.qc.ca/)

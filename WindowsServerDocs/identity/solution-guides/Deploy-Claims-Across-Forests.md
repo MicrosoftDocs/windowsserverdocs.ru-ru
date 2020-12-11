@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: развертывание утверждений в лесах'
 ms.assetid: ceb9ce18-5a94-4166-9edd-2685b81fc15f
 title: Развертывание утверждений между лесами
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 66d88467a455b7650be8bb01980a6cc4aaf0e047
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: fc08ac95a584e665a95958f88f3c572ac7a943b6
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87952919"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97048482"
 ---
 # <a name="deploy-claims-across-forests"></a>Развертывание утверждений между лесами
 
