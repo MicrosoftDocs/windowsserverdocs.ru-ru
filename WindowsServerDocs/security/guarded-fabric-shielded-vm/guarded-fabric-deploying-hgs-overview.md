@@ -1,17 +1,18 @@
 ---
 title: Развертывание службы защиты узла
+description: Дополнительные сведения о развертывании службы защиты узла
 ms.topic: article
 ms.assetid: 310b63d9-5ac7-4961-98ef-103af45d706a
 manager: dongill
 author: rpsqrd
 ms.author: ryanpu
 ms.date: 01/14/2020
-ms.openlocfilehash: 4267acb6058a1e39ed42e986f195f8f9d4c8d17b
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.openlocfilehash: a6a885661107c4e16b495f845ee28677dd5bbba4
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96864153"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97049842"
 ---
 # <a name="deploying-the-host-guardian-service"></a>Развертывание службы защиты узла
 
@@ -27,7 +28,7 @@ ms.locfileid: "96864153"
 
 Следующая таблица разделяет задачи на развертывание защищенной структуры и создание экранированных виртуальных машин в соответствии с разными ролями администратора. Обратите внимание, что когда администратор HGS настраивает HGS с полномочными узлами Hyper-V, администратор структуры будет одновременно получать и предоставлять идентифицирующие сведения о узлах.
 
-| Шаг и ссылка на содержимое | Образ — |
+| Шаг и ссылка на содержимое | Образ |
 |--|--|--|
 | 1. [Проверка предварительных требований для HGS](guarded-fabric-prepare-for-hgs.md) | ![Шаг 1. Проверка предварительных требований](../media/Guarded-Fabric-Shielded-VM/guarded-host-verify.png) |
 | 2. [Настройка первого узла HGS](guarded-fabric-choose-where-to-install-hgs.md) | ![Шаг 2. Настройка первого узла HGS](../media/Guarded-Fabric-Shielded-VM/guarded-host-configure-first-hgs-node.png) |

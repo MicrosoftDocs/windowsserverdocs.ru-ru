@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: использование утверждений AD DS с AD FS'
 ms.assetid: 460792e4-9f1d-4e7b-b6b2-53e057f839df
 title: Использование утверждений AD DS в AD FS
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 942b7d88196fa32dd70fd554d76547cc5feadb26
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 3220d171bfb54a249da1e444d48b2462019650b8
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87967551"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97049962"
 ---
 # <a name="using-ad-ds-claims-with-ad-fs"></a>Использование утверждений AD DS в AD FS
 

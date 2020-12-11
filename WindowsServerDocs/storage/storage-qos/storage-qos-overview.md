@@ -1,4 +1,5 @@
 ---
+description: 'Подробнее: качество обслуживания хранилища'
 title: Качество обслуживания хранилища
 manager: dongill
 ms.author: JGerend
@@ -6,12 +7,12 @@ ms.topic: get-started-article
 ms.assetid: 8dcb8cf9-0e08-4fdd-9d7e-ec577ce8d8a0
 author: kumudd
 ms.date: 10/10/2016
-ms.openlocfilehash: ced2fe051f0595e8333aa2704889cc88ec1304ac
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: f4cb836cd76933b400e472d10adfeda47b717c0b
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87994731"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97050392"
 ---
 # <a name="storage-quality-of-service"></a>Качество обслуживания хранилища
 
@@ -29,7 +30,7 @@ ms.locfileid: "87994731"
 
 Здесь описываются преимущества нового компонента качества обслуживания хранилища для бизнес-процессов организации. Предполагается, что вы уже знакомы с Windows Server, отказоустойчивой кластеризацией Windows Server, масштабируемым файловым сервером, Hyper-V и Windows PowerShell.
 
-## <a name="overview"></a><a name="BKMK_Overview"></a>Источники данных в Azure Monitor
+## <a name="overview"></a><a name="BKMK_Overview"></a>Обзор
 В этом разделе рассматриваются требования к использованию службы качества обслуживания хранилища, а также приведены общие сведения о программно-определяемом решении, использующем эту службу, и перечень связанных с ней терминов.
 
 ### <a name="storage-qos-requirements"></a><a name="BKMK_Requirements"></a>Требования к службе качества обслуживания хранилища
@@ -384,7 +385,7 @@ IsDeleted                     : False
 ```
 
 ### <a name="query-for-storage-qos-policies"></a>Запрос политик качества обслуживания хранилища
-`Get-StorageQosPolicy`Список всех настроенных политик и их состояние на масштабируемый файловый сервер.
+`Get-StorageQosPolicy` Список всех настроенных политик и их состояние на Scale-Out файловом сервере.
 
 ```PowerShell
 PS C:\> Get-StorageQosPolicy
@@ -810,7 +811,7 @@ while ($true)
 }
 ```
 
-## <a name="frequently-asked-questions"></a>Часто задаваемые вопросы
+## <a name="frequently-asked-questions"></a>Вопросы и ответы
 
 ### <a name="how-do-i-retain-a-storage-qos-policy-being-enforced-for-my-virtual-machine-if-i-move-its-vhdvhdx-files-to-another-storage-cluster"></a>Как сохранить политику качества обслуживания хранилища, примененную к виртуальной машине, после перемещения ее VHD- или VHDX-файлов в другой кластер хранилища
 

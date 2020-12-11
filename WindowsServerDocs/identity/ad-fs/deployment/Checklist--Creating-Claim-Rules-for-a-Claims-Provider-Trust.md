@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: контрольный список: создание правил утверждений для отношения доверия поставщика утверждений'
 ms.assetid: 503733f8-be0c-429c-81f0-cd4205e8b118
 title: Контрольный список — создание правил утверждений для отношения доверия поставщика утверждений
 author: billmath
@@ -6,12 +7,12 @@ manager: femila
 ms.date: 05/31/2017
 ms.topic: article
 ms.author: billmath
-ms.openlocfilehash: 02cfddbe018b470000eca5331d53b3f0e38197ae
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 40e79c394ad413b60dadb0ba19385ceabd881b3f
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87945635"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97050372"
 ---
 # <a name="checklist-creating-claim-rules-for-a-claims-provider-trust"></a>Контрольный список: создание правил утверждений для отношений доверия с поставщиком утверждений
 

@@ -1,4 +1,5 @@
 ---
+description: 'Подробнее: роль подсистемы утверждений'
 ms.assetid: 8b15d44e-e4e6-4510-aa91-cc7ec7161b0a
 title: Роль механизма утверждений
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: f7f33dc2931856aaf0e430aa3a65d03d30038325
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 1be762cefabdc40050e7656ec29033778b92bbf6
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87937869"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97050492"
 ---
 # <a name="the-role-of-the-claims-engine"></a>Роль механизма утверждений
 На самом высшем уровне подсистема утверждений в службы федерации Active Directory (AD FS) \( AD FS \) является \- обработчиком на основе правил, предназначенным для обслуживания и обработки запросов утверждений для служба Федерации. Модуль утверждений — единственный компонент службы федерации, отвечающий за применение каждого набора правил ко всем настроенным федеративным отношениям доверия и передачу результата в конвейер утверждений.

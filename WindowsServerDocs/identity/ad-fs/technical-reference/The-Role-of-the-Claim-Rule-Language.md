@@ -1,4 +1,5 @@
 ---
+description: 'Подробнее: роль языка правил утверждений'
 title: Роль языка правил утверждений
 author: billmath
 ms.author: billmath
@@ -6,12 +7,12 @@ manager: femila
 ms.date: 07/07/2017
 ms.topic: article
 ms.assetid: dda9d148-d72f-4bff-aa2a-f2249fa47e4c
-ms.openlocfilehash: c54319c67a879645975d6aeac21078c25160c2c4
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 41b5950994de588c1697334ffc72474a618c6a1b
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87937803"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97050482"
 ---
 # <a name="the-role-of-the-claim-rule-language"></a>Роль языка правил утверждений
 Язык правил утверждений службы федерации Active Directory (AD FS) (AD FS) выступает в качестве административного блока для поведения входящих и исходящих утверждений, тогда как обработчик утверждений выступает в качестве механизма обработки для логики на языке правил утверждений, который определяет настраиваемое правило. Дополнительные сведения о том, как все правила обрабатываются подсистемой утверждений, см. [в разделе роль подсистемы утверждений](The-Role-of-the-Claims-Engine.md).

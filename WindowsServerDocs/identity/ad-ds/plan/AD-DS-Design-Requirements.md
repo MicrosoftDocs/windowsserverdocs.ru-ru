@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: AD DS требования к проектированию'
 ms.assetid: f6e76ef0-2217-4cdb-980f-22a780a85ebb
 title: Требования к разработке доменных служб Active Directory
 author: iainfoulds
@@ -6,12 +7,12 @@ ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: ebce13c962cfcebc074e05ed767218b7c89afc57
-ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
+ms.openlocfilehash: 244f11e30e5c17f86dab6e8eee8ff8313e9d065f
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93071236"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97050152"
 ---
 # <a name="ad-ds-design-requirements"></a>Требования к разработке доменных служб Active Directory
 

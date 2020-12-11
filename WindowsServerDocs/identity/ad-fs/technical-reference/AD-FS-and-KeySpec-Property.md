@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: AD FS и сведения о свойствах KeySpec сертификата'
 title: Сведения о свойствах службы федерации Active Directory (AD FS) и спецификации ключа сертификата
 author: billmath
 manager: femila
@@ -6,12 +7,12 @@ ms.date: 05/31/2017
 ms.topic: article
 ms.assetid: a5307da5-02ff-4c31-80f0-47cb17a87272
 ms.author: billmath
-ms.openlocfilehash: a78f989230450bcf59f86add66bdcfe91fa23c77
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 6a514fccb3ba75311fbb278018884b0de1c1c08b
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87938122"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97050242"
 ---
 # <a name="ad-fs-and-certificate-keyspec-property-information"></a>Сведения о свойствах AD FS и KeySpec сертификата
 Спецификация ключа ("KeySpec") — это свойство, связанное с сертификатом и ключом. Он указывает, можно ли использовать закрытый ключ, связанный с сертификатом, для подписывания, шифрования или и того, и другого.
@@ -41,7 +42,7 @@ Ignore corrupted SSO cookie.
 ## <a name="what-causes-the-problem"></a>Что вызывает проблему
 Свойство KeySpec определяет способ использования ключа, созданного или получаемого с помощью Microsoft CryptoAPI (CAPI), из устаревшего поставщика криптографических хранилищ Майкрософт (CSP).
 
-Значение KeySpec, равное **1**, или **AT_KEYEXCHANGE**, может использоваться для подписывания и шифрования.  Значение **2**или **AT_SIGNATURE**используется только для подписывания.
+Значение KeySpec, равное **1**, или **AT_KEYEXCHANGE**, может использоваться для подписывания и шифрования.  Значение **2** или **AT_SIGNATURE** используется только для подписывания.
 
 Наиболее распространенная неправильная конфигурация KeySpec использует значение 2 для сертификата, отличного от сертификата подписи маркера.
 
@@ -52,7 +53,7 @@ Ignore corrupted SSO cookie.
 ### <a name="example"></a>Пример
 Примером устаревшего CSP является поставщик усовершенствованных служб шифрования Майкрософт.
 
-Формат больших двоичных объектов Microsoft RSA CSP включает идентификатор алгоритма, **CALG_RSA_KEYX** или **CALG_RSA_SIGN**соответственно, для запросов на обслуживание для <strong>AT_KEYEXCHANGE * * или * * AT_SIGNATUREных</strong> ключей.
+Формат больших двоичных объектов Microsoft RSA CSP включает идентификатор алгоритма, **CALG_RSA_KEYX** или **CALG_RSA_SIGN** соответственно, для запросов на обслуживание для <strong>AT_KEYEXCHANGE * * или * * AT_SIGNATUREных</strong> ключей.
 
 Идентификаторы алгоритма ключа RSA сопоставляются со значениями KeySpec следующим образом.
 

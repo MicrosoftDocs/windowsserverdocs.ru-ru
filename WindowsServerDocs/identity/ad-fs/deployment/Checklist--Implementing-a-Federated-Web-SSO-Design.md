@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения см. в контрольном списке: реализация федеративного единого входа в Интернете'
 ms.assetid: 6b49cde3-d2cb-4ece-b9b7-dc600e037495
 title: Контрольный список — реализация федеративного единого входа в Интернете
 author: billmath
@@ -6,12 +7,12 @@ manager: femila
 ms.date: 05/31/2017
 ms.topic: article
 ms.author: billmath
-ms.openlocfilehash: 1569387d8f4de431941b0edac598f485b30273b9
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 3dca1210e1e350fdffaca4163aca477fdafa64fc
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87945553"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97050342"
 ---
 # <a name="checklist-implementing-a-federated-web-sso-design"></a>Контрольный список: реализация проекта единого входа федерации для интернет-решений
 

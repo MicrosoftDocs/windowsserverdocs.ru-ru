@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения о: Приложение M. ссылки на документы и Рекомендуемые материалы для чтения'
 ms.assetid: 6785de86-4f7d-4ed1-9055-8de0871d59b5
 title: Приложение M. ссылки на документы и Рекомендуемые материалы для чтения
 author: iainfoulds
@@ -6,12 +7,12 @@ ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 3840f99023320629968aa3fc18ffbfa807853fea
-ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
+ms.openlocfilehash: 5c9deb86238b64c9d2e6c0d689b725fac0cb0c91
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93068997"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97049532"
 ---
 # <a name="appendix-m-document-links-and-recommended-reading"></a>Приложение Н. Ссылки на документы и рекомендуемая литература
 
@@ -22,7 +23,7 @@ ms.locfileid: "93068997"
 ### <a name="document-links"></a>Ссылки на документы
 Следующая таблица содержит список ссылок на внешние документы и их URL-адреса, чтобы читатели жестких копий этого документа могли получить доступ к этим сведениям. Ссылки перечисляются в том порядке, в котором они отображаются в документе.
 
-| Создание ссылок | URL-адреса |
+| Ссылки | URL-адреса |
 |--|--|
 | [10 неизменяемых законов по администрированию безопасности](/previous-versions/cc722488(v=technet.10)) | [https://technet.microsoft.com/library/cc722488.aspx](/previous-versions/cc722488(v=technet.10)) |
 | [Диспетчер соответствия требованиям безопасности Майкрософт](/previous-versions/tn-archive/cc677002(v=technet.10)) | [https://technet.microsoft.com/library/cc677002.aspx](/previous-versions/tn-archive/cc677002(v=technet.10)) |

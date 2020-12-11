@@ -1,4 +1,5 @@
 ---
+description: Дополнительные сведения см. в статье Проверка роли прокси-сервера федерации в партнере по учетным записям.
 ms.assetid: 1b3a03c0-5558-4177-9b2f-e9d6ce3271cd
 title: Сведения о роли прокси-сервера федерации в организации партнера по учетным записям
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 05fa148c56c0534bfbab2964e7d418e0c5b60f7e
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 50603b176094c4ed3368cc83ac2461762ef0ae08
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87969701"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97049412"
 ---
 # <a name="review-the-role-of-the-federation-server-proxy-in-the-account-partner"></a>Сведения о роли прокси-сервера федерации в организации партнера по учетным записям
 

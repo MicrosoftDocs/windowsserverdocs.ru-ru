@@ -1,4 +1,5 @@
 ---
+description: Дополнительные сведения о развертывании защищенных узлов
 title: Развертывание защищенных узлов
 ms.topic: article
 ms.assetid: 2379ca26-b32d-4055-8b4b-99d1f2df37e1
@@ -6,12 +7,12 @@ manager: dongill
 author: rpsqrd
 ms.author: ryanpu
 ms.date: 08/29/2018
-ms.openlocfilehash: d69ce87349e7714a1aaf1bb0cc03fb9a145da12e
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: fb3d189ce0817d52a536af8f25fd9b78fda719e5
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87966141"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97049882"
 ---
 # <a name="deploy-guarded-hosts"></a>Развертывание защищенных узлов
 

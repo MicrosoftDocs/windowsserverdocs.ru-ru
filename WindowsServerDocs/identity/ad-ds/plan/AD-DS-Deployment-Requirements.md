@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: требования к развертыванию AD DS'
 ms.assetid: e02bb152-d0db-40b0-9942-846dce75f6c7
 title: Требования к развертыванию доменных служб Active Directory
 author: iainfoulds
@@ -6,12 +7,12 @@ ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: cfd8e6469dd707cac76a35cf999cb0a91c805864
-ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
+ms.openlocfilehash: 91f5d6cd5d7c3646bed8d37e944979eb9448a87c
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93071246"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97050162"
 ---
 # <a name="ad-ds-deployment-requirements"></a>Требования к развертыванию доменных служб Active Directory
 

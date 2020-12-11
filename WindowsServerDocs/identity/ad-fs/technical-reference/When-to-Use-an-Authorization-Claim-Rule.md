@@ -1,4 +1,5 @@
 ---
+description: Дополнительные сведения см. в статье Использование правила для утверждений авторизации.
 ms.assetid: b734cbcb-342c-4a28-8ab5-b9cd990bb1c2
 title: Использование правила для утверждений авторизации
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 690ae558f625ca3a4c5878be229d950902f7f5e2
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 5e576fb3ef1122eade6b1cbe5c201a0d43d5dece
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87958702"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97050382"
 ---
 # <a name="when-to-use-an-authorization-claim-rule"></a>Использование правила для утверждений авторизации
 Это правило можно использовать в службы федерации Active Directory (AD FS) \( AD FS \) , если необходимо получить тип входящего утверждения, а затем применить действие, которое определит, будет ли пользователь разрешать или запрещать доступ на основе значения, указанного в правиле. При использовании этого правила вы проходите или преобразуете утверждения, которые соответствуют следующей логике правила, на основе параметров, которые настраиваются в правиле.

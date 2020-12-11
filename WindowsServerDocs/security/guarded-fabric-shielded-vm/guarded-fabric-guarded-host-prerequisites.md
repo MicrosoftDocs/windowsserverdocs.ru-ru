@@ -1,16 +1,17 @@
 ---
+description: 'Дополнительные сведения: предварительные требования для защищенных узлов'
 title: Предварительные требования для защищенного узла
 ms.topic: article
 manager: dongill
 author: rpsqrd
 ms.author: ryanpu
 ms.date: 08/29/2018
-ms.openlocfilehash: 81a78d5af23329e2b1972a93582accc36277f8a5
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 6f6a4e111e5622ab0a78041e4e94c76f0a8acb13
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87953640"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97049782"
 ---
 # <a name="prerequisites-for-guarded-hosts"></a>Необходимые условия для защищенных узлов
 

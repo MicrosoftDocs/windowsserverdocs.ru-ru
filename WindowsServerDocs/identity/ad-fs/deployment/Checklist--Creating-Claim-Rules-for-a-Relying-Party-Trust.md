@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: контрольный список: создание правил утверждений для отношения доверия с проверяющей стороной'
 ms.assetid: 44271f44-b50a-4bce-9375-4fcab9618048
 title: Контрольный список — создание правил утверждений для отношения доверия с проверяющей стороной
 author: billmath
@@ -6,12 +7,12 @@ manager: femila
 ms.date: 05/31/2017
 ms.topic: article
 ms.author: billmath
-ms.openlocfilehash: b51e81411ba45727d009946435c17d6a5c4888c4
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: b5e57dc4638c1a2b84b4d19503dcbbfb5b809808
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87945604"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97050352"
 ---
 # <a name="checklist-creating-claim-rules-for-a-relying-party-trust"></a>Контрольный список: создание правил утверждений для отношений доверия с проверяющей стороной
 

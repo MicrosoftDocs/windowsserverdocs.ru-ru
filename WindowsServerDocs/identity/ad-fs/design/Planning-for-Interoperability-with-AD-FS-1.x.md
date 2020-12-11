@@ -1,4 +1,5 @@
 ---
+description: Дополнительные сведения см. в статье Планирование взаимодействия с AD FS 1. x.
 ms.assetid: 04b63d9f-e924-4146-9b1d-785ed8b4239c
 title: Планирование взаимодействия со службами федерации Active Directory 1.x
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 94313fc185a4f326ad00a95e4c594fd3e696f61a
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: e956d66dd528ed73e4adcdfb8d9d04f4cab1666d
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87967611"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97049702"
 ---
 # <a name="planning-for-interoperability-with-ad-fs-1x"></a>Планирование взаимодействия со службами федерации Active Directory 1.x
 
@@ -21,7 +22,7 @@ ms.locfileid: "87967611"
 
 -   Любой AD FS служба федерации в Windows Server 2012 может отправить AD FS 1. *x* \- совместимое утверждение, которое может быть использовано AD FS 1. *x* служба Федерации. Дополнительные сведения см. в разделе [Checklist: Configuring AD FS to Send Claims to an AD FS 1.x Federation Service](../../ad-fs/deployment/Checklist--Configuring-AD-FS-to-Send-Claims-to-an-AD-FS-1.x-Federation-Service.md).
 
--   Любой AD FS служба федерации в Windows Server 2012 может отправить AD FS 1. *x* \- совместимое утверждение, которое может быть использовано одним или несколькими веб-серверами, на которых работает AD FS 1. *x* \- веб-агент x с поддержкой утверждений. Дополнительные сведения см. в разделе [Checklist: Configuring AD FS to Send Claims to an AD FS 1.x Claims-Aware Web Agent](../../ad-fs/deployment/Checklist--Configuring-AD-FS-to-Send-Claims-to-an-AD-FS-1.x-Claims-Aware-Web-Agent.md).
+-   Любой AD FS служба федерации в Windows Server 2012 может отправить AD FS 1. *x* \- совместимое утверждение, которое может быть использовано одним или несколькими веб-серверами, на которых работает AD FS 1.  \- веб-агент x с поддержкой утверждений. Дополнительные сведения см. в разделе [Checklist: Configuring AD FS to Send Claims to an AD FS 1.x Claims-Aware Web Agent](../../ad-fs/deployment/Checklist--Configuring-AD-FS-to-Send-Claims-to-an-AD-FS-1.x-Claims-Aware-Web-Agent.md).
 
 > [!NOTE]
 > AD FS не поддерживает и не взаимодействуют с AD FS 1. Веб-агент *x* Windows NT на основе маркеров.

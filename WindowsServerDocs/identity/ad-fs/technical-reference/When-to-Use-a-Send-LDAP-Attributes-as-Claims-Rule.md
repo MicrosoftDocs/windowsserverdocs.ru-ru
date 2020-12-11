@@ -1,4 +1,5 @@
 ---
+description: Дополнительные сведения о том, когда использовать атрибуты отправки атрибутов LDAP в качестве правила утверждений.
 ms.assetid: 606f4196-b579-4806-a462-3abd4d93e87c
 title: Когда следует использовать правило "Отправлять атрибуты LDAP как утверждения"
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 4ba491f9fa0bee4a92cba8667ff0cf28cf7e8e52
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: a82d308647dedcad531f7437fe6af568651e3bc0
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87958722"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97050412"
 ---
 # <a name="when-to-use-a-send-ldap-attributes-as-claims-rule"></a>Когда следует использовать правило "Отправлять атрибуты LDAP как утверждения"
 Это правило можно использовать в службы федерации Active Directory (AD FS) \( AD FS \) , если требуется выдавать исходящие утверждения, содержащие фактические \( \) значения атрибутов LDAP, которые существуют в хранилище атрибутов, а затем связывать тип утверждения с каждым из атрибутов LDAP. Дополнительные сведения о хранилищах атрибутов см. [в разделе роль хранилищ атрибутов](The-Role-of-Attribute-Stores.md).
@@ -60,7 +61,7 @@ ms.locfileid: "87958722"
 
 Следующие примеры помогут вам понять различные способы создания настраиваемого правила с помощью языка правил утверждений для запроса и извлечения данных из хранилища атрибутов.
 
-### <a name="example-how-to-query-an-adlds-attribute-store-and-return-a-specified-value"></a>Пример. Как запросить хранилище атрибутов AD LDS и получить указанное значение
+### <a name="example-how-to-query-an-ad-lds-attribute-store-and-return-a-specified-value"></a>Пример. Как запросить хранилище атрибутов AD LDS и получить указанное значение
 Параметры должны быть разделены точкой с запятой. Первый параметр — это фильтр LDAP. Последующие параметры — это атрибуты для возврата соответствующих объектов.
 
 В следующем примере показано, как найти пользователя с помощью атрибута **SamAccountName** и отправить \- утверждение адреса электронной почты, используя значение атрибута mail пользователя:
@@ -85,7 +86,7 @@ c1:[Type == " http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress
 => issue(store = "AD LDS ", types = ("http://schemas.xmlsoap.org/ws/2005/05/identity/claims/displayname"), query = "(&(mail={0})(title={1}));displayname", param = c1.Value, param = c2.Value);
 ```
 
-### <a name="example-how-to-query-an-activedirectory-attribute-store-and-return-a-specified-value"></a>Пример. Как запросить хранилище атрибутов Active Directory и вернуть указанное значение
+### <a name="example-how-to-query-an-active-directory-attribute-store-and-return-a-specified-value"></a>Пример. Как запросить хранилище атрибутов Active Directory и вернуть указанное значение
 Запрос Active Directory должен включать имя пользователя \( с доменным именем в \) качестве окончательного параметра, чтобы хранилище атрибутов Active Directory могла запрашивать правильный домен. В противном случае синтаксис будет неверным.
 
 В следующем примере показано, как выполнить поиск пользователя по атрибуту **sAMAccountName** в его домене, а затем получить атрибут **mail**:
@@ -95,7 +96,7 @@ c:[Type == "https://schemas.microsoft.com/ws/2008/06/identity/claims/windowsacco
 => issue(store = "Active Directory", types = ("http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress"), query = "sAMAccountName={0};mail;{1}", param = regexreplace(c.Value, "(?<domain>[^\\]+)\\(?<user>.+)", "${user}"), param = c.Value);
 ```
 
-### <a name="example-how-to-query-an-activedirectory-attribute-store-based-on-the-value-of-an-incoming-claim"></a>Пример. Как запросить хранилище атрибутов Active Directory на основе значения входящего утверждения
+### <a name="example-how-to-query-an-active-directory-attribute-store-based-on-the-value-of-an-incoming-claim"></a>Пример. Как запросить хранилище атрибутов Active Directory на основе значения входящего утверждения
 
 ```
 c:[Type == "http://test/name"]
@@ -118,7 +119,7 @@ c:[Type == "http://test/name"]
 
 -   Домен Active Directory — укажите последнюю часть запроса, только если это хранилище атрибутов Active Directory. \(Это необязательно при запросе других хранилищ атрибутов. \) Эта часть запроса используется для указания учетной записи пользователя в виде доменного \\ имени. Хранилище атрибутов Active Directory использует доменную часть для определения соответствующего контроллера домена, к которому нужно подключиться, и запроса атрибутов.
 
-### <a name="example-how-to-use-two-custom-rules-to-extract-the-manager-e-mail-from-an-attribute-in-activedirectory"></a>Пример. Использование двух настраиваемых правил для извлечения сообщений электронной почты руководителя \- из атрибута в Active Directory
+### <a name="example-how-to-use-two-custom-rules-to-extract-the-manager-e-mail-from-an-attribute-in-active-directory"></a>Пример. Использование двух настраиваемых правил для извлечения сообщений электронной почты руководителя \- из атрибута в Active Directory
 Следующие два настраиваемых правила при совместном использовании в порядке, показанном ниже, запрашивают Active Directory атрибута **Manager** для правила учетной записи пользователя \( 1, \) а затем используют этот атрибут для запроса учетной записи руководителя для правила атрибута **почты** \( 2 \) . Наконец, атрибут **mail** выдается как утверждение "манажеремаил". В итоге, правило 1 запрашивает Active Directory и передает результат запроса в правило 2, который извлекает \- значения электронной почты диспетчера.
 
 Например, когда эти правила завершаются, выдается утверждение, содержащее адрес электронной почты руководителя \- для пользователя в домене Corp.fabrikam.com.

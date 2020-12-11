@@ -1,4 +1,5 @@
 ---
+description: Дополнительные сведения о создании фермы серверов федерации
 ms.assetid: 02580b2f-a339-4470-947c-d700b2d55f3f
 title: Когда следует создавать ферму серверов федерации
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 62aacdf0662eddc7bbc99d8434346fe8e48cc944
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 8728f7da22618d9c05a4016c8156b18a319da5a5
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87972051"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97049952"
 ---
 # <a name="when-to-create-a-federation-server-farm"></a>Когда следует создавать ферму серверов федерации
 

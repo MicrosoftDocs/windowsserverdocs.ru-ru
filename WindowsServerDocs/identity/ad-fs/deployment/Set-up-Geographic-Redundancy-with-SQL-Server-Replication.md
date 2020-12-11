@@ -1,17 +1,18 @@
 ---
 title: Настройка географической избыточности с помощью Репликация SQL Server
+description: 'Дополнительные сведения: Настройка географической избыточности с помощью Репликация SQL Server'
 author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
 ms.author: billmath
 ms.assetId: 7b9f9a4f-888c-4358-bacd-3237661b1935
-ms.openlocfilehash: 574171b8e5569b2041492a95ebfe146cfd487523
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.openlocfilehash: dd666023e7b53af72f63edf1750321317e08f527
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96865793"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97049242"
 ---
 # <a name="setup-geographic-redundancy-with-sql-server-replication"></a>Настройка географической избыточности с помощью Репликация SQL Server
 
@@ -21,8 +22,8 @@ ms.locfileid: "96865793"
 
 При использовании SQL Server в качестве базы данных конфигурации AD FS можно настроить \- геоизбыточность для фермы AD FS с помощью SQL Server репликации. \-Геоизбыточность реплицирует данные между двумя географически отдаленными сайтами, чтобы приложения могли переключаться с одного сайта на другой. Таким образом, в случае сбоя одного сайта все данные конфигурации можно будет получить на втором сайте. Дополнительные сведения см. в разделе "SQL Server географическая избыточность" в [ферме серверов федерации с помощью SQL Server](../design/Federation-Server-Farm-Using-SQL-Server.md).
 
-## <a name="prerequisites"></a>Предварительные условия
-Установите и настройте ферму SQL Server. Дополнительные сведения см. в разделе [https://technet.microsoft.com/evalcenter/hh225126.aspx](https://www.microsoft.com/en-us/evalcenter/). На начальном SQL Server убедитесь, что служба агент SQL Server запущена и настроена на автоматический запуск.
+## <a name="prerequisites"></a>Предварительные требования
+Установите и настройте ферму SQL Server. Дополнительные сведения см. на веб-сайте [https://technet.microsoft.com/evalcenter/hh225126.aspx](https://www.microsoft.com/en-us/evalcenter/). На начальном SQL Server убедитесь, что служба агент SQL Server запущена и настроена на автоматический запуск.
 
 ## <a name="create-the-second-replica-sql-server-for-geo-redundancy"></a>Создание второй \( реплики \) SQL Server для географической \- избыточности
 

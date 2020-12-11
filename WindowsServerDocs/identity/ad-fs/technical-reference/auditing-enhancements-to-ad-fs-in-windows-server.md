@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: усовершенствования аудита для AD FS в Windows Server 2016'
 ms.assetid: 208928eb-bb17-4984-a312-23fff43133e3
 title: Усовершенствования аудита в AD FS под управлением Windows Server 2016
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 10/25/2017
 ms.topic: article
-ms.openlocfilehash: 4aacc4d3f3ea132a85da1108064ec1f44e2a6eac
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 1281ce03b291748b093ea491f54e6e7924e03cde
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87956171"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97050402"
 ---
 # <a name="auditing-enhancements-to-ad-fs-in-windows-server-2016"></a>Усовершенствования аудита в AD FS под управлением Windows Server 2016
 
@@ -24,9 +25,9 @@ ms.locfileid: "87956171"
 
 | Уровень аудита | Синтаксис PowerShell | Описание |
 |--|--|--|
-| Отсутствуют | Set-AdfsProperties-AuditLevel None | Аудит отключен, и никакие события не регистрируются. |
-| Базовый (по умолчанию) | Set-AdfsProperties-AuditLevel Basic | Для одного запроса будет зарегистрировано не более 5 событий. |
-| Подробный | Set-AdfsProperties-AuditLevel verbose | Будут регистрироваться все события.  При этом будет записываться значительный объем информации по запросу. |
+| Нет | Set-AdfsProperties AuditLevel None | Аудит отключен, и никакие события не регистрируются. |
+| Базовый (по умолчанию) | Set-AdfsProperties AuditLevel Basic | Для одного запроса будет зарегистрировано не более 5 событий. |
+| Подробный | Set-AdfsProperties AuditLevel-verbose | Будут регистрироваться все события.  При этом будет записываться значительный объем информации по запросу. |
 
 Чтобы просмотреть текущий уровень аудита, можно использовать PowerShell командлет: Get-AdfsProperties.
 

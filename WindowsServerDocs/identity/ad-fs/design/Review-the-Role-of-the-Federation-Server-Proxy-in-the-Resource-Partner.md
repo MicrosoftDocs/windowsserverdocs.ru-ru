@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения о: Проверьте роль прокси-сервера федерации в партнере по ресурсам.'
 ms.assetid: 14aa112d-ae31-4181-97e4-92623b5c9270
 title: Сведения о роли прокси-сервера федерации в организации партнера по ресурсам
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: b431d14abfa66ceb70e5885b4301648936c4c4ff
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: d0419028c4b2a9cc411cef81dabbb0ddb2da7044
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87969691"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97049972"
 ---
 # <a name="review-the-role-of-the-federation-server-proxy-in-the-resource-partner"></a>Сведения о роли прокси-сервера федерации в организации партнера по ресурсам
 

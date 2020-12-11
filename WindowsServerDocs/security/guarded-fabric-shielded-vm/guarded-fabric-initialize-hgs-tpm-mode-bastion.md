@@ -1,16 +1,17 @@
 ---
+description: Дополнительные сведения см. в статье инициализация кластера HGS с помощью режима TPM в существующем лесу бастиона.
 title: Инициализация кластера HGS с помощью режима TPM в лесу бастиона
 ms.topic: article
 manager: dongill
 author: rpsqrd
 ms.author: ryanpu
 ms.date: 08/29/2018
-ms.openlocfilehash: 8f35ab031fe29a7266d9fa1124d7098d8bafb018
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: de96fa3a0ad8ce4b76bd4b3c0d484bc448906ae6
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87965991"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97049752"
 ---
 # <a name="initialize-the-hgs-cluster-using-tpm-mode-in-an-existing-bastion-forest"></a>Инициализация кластера HGS с помощью режима TPM в существующем лесу бастиона
 
@@ -39,7 +40,7 @@ Initialize-HgsServer -UseExistingDomain -ServiceAccount 'HGSgMSA' -JeaReviewersG
 
 Если вы используете сертификаты, установленные на локальном компьютере (например, сертификаты с HSM-защитой и неэкспортируемые сертификаты), используйте `-SigningCertificateThumbprint` `-EncryptionCertificateThumbprint` вместо этого параметры и.
 
-## <a name="next-step"></a>Следующий шаг
+## <a name="next-step"></a>Следующий этап
 
 > [!div class="nextstepaction"]
 > [Установка корневых сертификатов доверенного платформенного модуля](guarded-fabric-install-trusted-tpm-root-certificates.md)

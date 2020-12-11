@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: Настройка лабораторной среды для AD FS в Windows Server 2012 R2'
 ms.assetid: 6b38480e-5b1c-49f0-9d46-8cf22f70f0d2
 title: Настройка лабораторной среды для служб федерации Active Directory в Windows Server 2012 R2
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 276c4d22c3df64debd696ae07fff996fdbf4ceea
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 7a2135773a4d257604cc36335d1778cdba4e70bb
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87994274"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97049072"
 ---
 # <a name="set-up-the-lab-environment-for-ad-fs-in-windows-server-2012-r2"></a>Настройка лабораторной среды для служб федерации Active Directory в Windows Server 2012 R2
 
@@ -50,7 +51,7 @@ ms.locfileid: "87994274"
 
 Создайте следующие учетные записи.
 
-- Пользователь: **Роберт хатлэй** со следующими учетными данными: имя пользователя: **роберс** и пароль:<strong>P@ssword</strong>
+- Пользователь: **Роберт хатлэй** со следующими учетными данными: имя пользователя: **роберс** и пароль: <strong>P@ssword</strong>
 
 - Группа: **Finance**
 
@@ -254,7 +255,7 @@ ms.locfileid: "87994274"
 
 2.  Копируйте содержимое из папки C:\Program Files (x86)\Windows Identity Foundation SDK\v3.5\Samples\Quick Start\Web Application\PassiveRedirectBasedClaimsAwareWebApp в папку C:\Inetpub\Claimapp.
 
-3.  Редактируйте файл **Default.aspx.cs**, чтобы фильтрация утверждений не осуществлялась. Этот шаг нужен для того, чтобы в примере приложения отображались все утверждения, изданные сервером федерации. Выполните следующие действия:
+3.  Редактируйте файл **Default.aspx.cs**, чтобы фильтрация утверждений не осуществлялась. Этот шаг нужен для того, чтобы в примере приложения отображались все утверждения, изданные сервером федерации. Выполните следующие действия.
 
     1.  Откройте **Default.aspx.cs** в текстовом редакторе.
 
@@ -305,9 +306,9 @@ ms.locfileid: "87994274"
 
     1.  Запустите FedUtil.exe, расположенный в **C:\Program Files (x86)\Windows Identity Foundation SDK\v3.5**.
 
-    2.  Задайте для расположения конфигурации приложения значение **C:\inetput\claimapp\web.config** и задайте для URI приложения URL-адрес сайта ** https://webserv1.contoso.com /клаимапп/**. Щелкните **Далее**.
+    2.  Задайте для расположения конфигурации приложения значение **C:\inetput\claimapp\web.config** и задайте для URI приложения URL-адрес сайта **https://webserv1.contoso.com /клаимапп/**. Нажмите кнопку **Далее**.
 
-    3.  Выберите **использовать СУЩЕСТВУЮЩУЮ STS** и перейдите к URL-адресу метаданных сервера AD FS **https://adfs1.contoso.com/federationmetadata/2007-06/federationmetadata.xml** . Щелкните **Далее**.
+    3.  Выберите **использовать СУЩЕСТВУЮЩУЮ STS** и перейдите к URL-адресу метаданных сервера AD FS **https://adfs1.contoso.com/federationmetadata/2007-06/federationmetadata.xml** . Нажмите кнопку **Далее**.
 
     4.  Выберите **Отключить проверку цепочки сертификатов**, а затем нажмите кнопку **Далее**.
 
@@ -358,7 +359,7 @@ ms.locfileid: "87994274"
 
 
 - [Серии видеороликов с практическими рекомендациями по работе со службами федерации Active Directory: установка фермы серверов AD FS Server Farm](https://channel9.msdn.com/Search?term=Active%20Directory%20Federation%20Services#pubDate=year&ch9Search)
-- [Службы федерации Active Directory (AD FS) серии видеороликов. обновление сертификатов](https://channel9.msdn.com/Search?term=Active%20Directory%20Federation%20Services#pubDate=year&ch9Search)
+- [Службы федерации Active Directory (AD FS) How-To серии видеоматериалов: обновление сертификатов](https://channel9.msdn.com/Search?term=Active%20Directory%20Federation%20Services#pubDate=year&ch9Search)
 - [Серии видеороликов с практическими рекомендациями по работе со службами федерации Active Directory: добавление отношения доверия с проверяющей стороной](https://channel9.msdn.com/Search?term=Active%20Directory%20Federation%20Services#pubDate=year&ch9Search)
 - [Серии видеороликов с практическими рекомендациями по работе со службами федерации Active Directory: включение службы регистрации устройств](https://channel9.msdn.com/)
 - [Серии видеороликов с практическими рекомендациями по работе со службами федерации Active Directory: установка прокси-служба веб-приложения](https://channel9.msdn.com/Search?term=Active%20Directory%20Federation%20Services#pubDate=year&ch9Search)

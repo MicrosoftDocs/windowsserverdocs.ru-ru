@@ -1,4 +1,5 @@
 ---
+description: Дополнительные сведения о том, как обрабатываются файлы cookie LDAP сервера.
 ms.assetid: 3acaa977-ed63-4e38-ac81-229908c47208
 title: Способ обработки файлов cookie сервера LDA
 author: iainfoulds
@@ -6,12 +7,12 @@ ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: a9113dabcae5cb8732a4e8715a4b2fd057ccf312
-ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
+ms.openlocfilehash: 5b4526bc195b2c4c17c1c2b39ece1a6064aa281e
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93068976"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97049502"
 ---
 # <a name="how-ldap-server-cookies-are-handled"></a>Способ обработки файлов cookie сервера LDA
 

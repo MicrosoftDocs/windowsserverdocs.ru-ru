@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: AD DS операций'
 ms.assetid: 560dfa18-0398-4186-ba91-da03ab72c2d5
 title: Операции доменных служб Active Directory
 ms.author: daveba
@@ -6,12 +7,12 @@ author: iainfoulds
 manager: daveba
 ms.date: 08/07/2018
 ms.topic: article
-ms.openlocfilehash: d15fb4bf7454dae9baf87fbe24611e21eff37ad9
-ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
+ms.openlocfilehash: 5ed805029a109f83b594f54bce7c016aafe624f2
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93067536"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97049482"
 ---
 # <a name="ad-ds-operations"></a>Операции доменных служб Active Directory
 

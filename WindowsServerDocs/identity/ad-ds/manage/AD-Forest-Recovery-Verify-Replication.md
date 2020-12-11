@@ -1,4 +1,5 @@
 ---
+description: Дополнительные сведения см. в статье ресурсы для проверки работы репликации.
 title: Восстановление леса Active Directory — проверка репликации
 ms.author: daveba
 author: iainfoulds
@@ -6,18 +7,18 @@ manager: daveba
 ms.date: 08/09/2018
 ms.topic: article
 ms.assetid: 302e522a-fb40-43bc-bc63-83dcc87ebde5
-ms.openlocfilehash: 6f08871e3ffa27f3bfc063c5962437ae65f8f667
-ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
+ms.openlocfilehash: 8ae4dca67398d9604ef471d0a571bafe105b86f3
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93070786"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97049562"
 ---
 # <a name="resources-to-verify-replication-is-working"></a>Ресурсы для проверки работы репликации
 
 >Область применения: Windows Server 2016, Windows Server 2012 и 2012 R2, Windows Server 2008 и 2008 R2
 
-После восстановления или повторной установки всех контроллеров домена можно убедиться, что AD DS и SYSVOL восстановлены и правильно реплицируются с помощью **repadmin/реплсум** , работающей на любой версии Windows Server.
+После восстановления или повторной установки всех контроллеров домена можно убедиться, что AD DS и SYSVOL восстановлены и правильно реплицируются с помощью **repadmin/реплсум**, работающей на любой версии Windows Server.
 
 > [!TIP]
 > Можно также загрузить и запустить [средство состояние репликации Active Directory](https://www.microsoft.com/download/details.aspx?id=30005) (адреплстатус), бесплатное средство, отслеживающее состояние репликации контроллеров домена и сообщающих об ошибках. Для Адреплстатус требуется .NET Framework 4, который будет установлен, если он еще не указан.

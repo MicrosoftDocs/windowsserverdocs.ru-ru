@@ -1,4 +1,5 @@
 ---
+description: Дополнительные сведения см. в статье Настройка AD FS в Windows Server 2016.
 ms.assetid: 25f5aff1-6abf-4dea-b531-f1d9943bc181
 title: Настройка AD FS в Windows Server 2016
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 248c24f0751f354ab50a53862d0811b0c1aff0e5
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: e0c78eb1899b91ac57131f48cc2713330558b0a1
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87966951"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97049312"
 ---
 # <a name="ad-fs-customization-in-windows-server-2016"></a>Настройка AD FS в Windows Server 2016
 
@@ -65,11 +66,11 @@ PS C:\>Set-AdfsRelyingPartyWebTheme
 
 Чтобы назначить пользовательскую тему на RP, используйте следующую процедуру:
 
-1. Создать новую тему как копию для глобальной темы по умолчанию в AD FS`New-AdfsWebTheme -Name AppSpecificTheme -SourceName default`
-2. Экспорт темы для настройки`Export-AdfsWebTheme -Name AppSpecificTheme -DirectoryPath c:\appspecifictheme`
+1. Создать новую тему как копию для глобальной темы по умолчанию в AD FS `New-AdfsWebTheme -Name AppSpecificTheme -SourceName default`
+2. Экспорт темы для настройки `Export-AdfsWebTheme -Name AppSpecificTheme -DirectoryPath c:\appspecifictheme`
 3. Настройка файлов тем (изображений, CSS, onload.js) — в любом любимом редакторе или при замене файла
-4. Импорт настроенных файлов из файловой системы в AD FS (для новой темы)`Set-AdfsWebTheme -TargetName AppSpecificTheme -AdditionalFileResource @{Uri='/adfs/portal/script/onload.js';Path="c:\appspecifictheme\script\onload.js"}`
-5. Применить новую настроенную тему к конкретному RP (или RP)`Set-AdfsRelyingPartyWebTheme -TargetRelyingPartyName urn:app1 -SourceWebThemeName AppSpecificTheme`
+4. Импорт настроенных файлов из файловой системы в AD FS (для новой темы) `Set-AdfsWebTheme -TargetName AppSpecificTheme -AdditionalFileResource @{Uri='/adfs/portal/script/onload.js';Path="c:\appspecifictheme\script\onload.js"}`
+5. Применить новую настроенную тему к конкретному RP (или RP) `Set-AdfsRelyingPartyWebTheme -TargetRelyingPartyName urn:app1 -SourceWebThemeName AppSpecificTheme`
 
 ## <a name="home-realm-discovery"></a>Обнаружение домашней области
 Сведения о настройке обнаружения домашней области см. [в разделе Настройка страниц входа AD FS](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn280950(v=ws.11)).

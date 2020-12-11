@@ -1,16 +1,17 @@
 ---
+description: 'Подробнее: Устранение неполадок экранированных виртуальных машин'
 title: Устранение неполадок экранированных виртуальных машин
 ms.topic: article
 manager: dongill
 author: rpsqrd
 ms.author: ryanpu
 ms.date: 10/3/2018
-ms.openlocfilehash: 6bcc32aae736a927576de28a15ca532279d4753b
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 3f4c0eb81169f9b66170d3332d220233d476ba5f
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87944014"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97049212"
 ---
 # <a name="troubleshoot-shielded-vms"></a>Устранение неполадок экранированных виртуальных машин
 

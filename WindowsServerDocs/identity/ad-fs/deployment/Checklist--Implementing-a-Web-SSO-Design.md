@@ -1,4 +1,5 @@
 ---
+description: Дополнительные сведения см. в статье контрольный список для разработки единого входа в Интернете.
 ms.assetid: 30657638-5709-48c5-87aa-98f688e07b4c
 title: Контрольный список — реализация разработки единого входа в Интернете
 author: billmath
@@ -6,12 +7,12 @@ manager: femila
 ms.date: 05/31/2017
 ms.topic: article
 ms.author: billmath
-ms.openlocfilehash: 965cadc9f1e9036c2d4023478e1a4ce82a4996c1
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: eb8627434fb29b167896a4704617231adb4b1794
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87945531"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97050332"
 ---
 # <a name="checklist-implementing-a-web-sso-design"></a>Контрольный список: реализация механизма единого входа в Интернете
 

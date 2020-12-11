@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: Ошибка репликации 1753 больше нет доступных конечных точек из сопоставителя конечных точек'
 ms.assetid: 0f21951c-b1bf-43bb-a329-bbb40c58c876
 title: 'Ошибка репликации 1753: "В системе отображения конечных точек не осталось доступных конечных точек"'
 author: iainfoulds
@@ -6,12 +7,12 @@ ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 94e63d439217c21c1634e7f1b685267ad98178b4
-ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
+ms.openlocfilehash: 359e5c39667f29deb03b8587e94e777a23232c5c
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93067676"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97049492"
 ---
 # <a name="replication-error-1753-there-are-no-more-endpoints-available-from-the-endpoint-mapper"></a>Ошибка репликации 1753: "В системе отображения конечных точек не осталось доступных конечных точек"
 

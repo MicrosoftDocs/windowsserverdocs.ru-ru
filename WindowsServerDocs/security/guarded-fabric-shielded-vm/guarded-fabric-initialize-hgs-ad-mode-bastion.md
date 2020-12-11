@@ -1,16 +1,17 @@
 ---
+description: Дополнительные сведения см. в статье инициализация кластера HGS с помощью режима AD в существующем лесу бастиона.
 title: Инициализация кластера HGS с помощью режима AD в лесу бастиона
 ms.topic: article
 manager: dongill
 author: rpsqrd
 ms.author: ryanpu
 ms.date: 08/29/2018
-ms.openlocfilehash: 0e2845153ce2cf6d21deb02eab0e6518c5a6b351
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: a37ad77686b9a75704045a28ae6cccc21dbe891b
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87946367"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97049792"
 ---
 # <a name="initialize-the-hgs-cluster-using-ad-mode-in-an-existing-bastion-forest"></a>Инициализация кластера HGS с помощью режима AD в существующем лесу бастиона
 
@@ -43,7 +44,7 @@ Initialize-HgsServer -UseExistingDomain -ServiceAccount 'HGSgMSA' -JeaReviewersG
 
 Если вы используете сертификаты, установленные на локальном компьютере (например, сертификаты с HSM-защитой и неэкспортируемые сертификаты), используйте `-SigningCertificateThumbprint` `-EncryptionCertificateThumbprint` вместо этого параметры и.
 
-## <a name="next-step"></a>Следующий шаг
+## <a name="next-step"></a>Следующий этап
 
 > [!div class="nextstepaction"]
 > [Настройка DNS структуры](guarded-fabric-configuring-fabric-dns-ad.md)

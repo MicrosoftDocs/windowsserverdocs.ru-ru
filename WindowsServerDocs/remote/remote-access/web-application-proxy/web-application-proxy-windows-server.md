@@ -1,4 +1,5 @@
 ---
+description: Дополнительные сведения о прокси веб-приложения в Windows Server 2016
 ms.assetid: d8adcb68-18e0-41bf-a817-d57344bf2e7d
 title: Прокси-служба веб-приложения в Windows Server 2016
 ms.author: kgremban
@@ -6,12 +7,12 @@ author: eross-msft
 manager: femila
 ms.date: 07/13/2016
 ms.topic: article
-ms.openlocfilehash: 4308789d95b645a95f5f84366a644ce415e5db8d
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 641aeb9ef1a230b77415c1727188877f2401191b
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87939705"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97050362"
 ---
 # <a name="web-application-proxy-in-windows-server-2016"></a>Прокси-служба веб-приложения в Windows Server 2016
 

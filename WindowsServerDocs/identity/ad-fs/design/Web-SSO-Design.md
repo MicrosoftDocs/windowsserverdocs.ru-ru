@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: Разработка единого входа в Интернете'
 ms.assetid: eb778f63-f7be-438e-8c5e-1fd9b194b967
 title: Проект единого входа через Интернет
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 7112fe6983a6292c57fc489c959b1edeb0c13c7b
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: e61402f12af51036c3eea739288ddd94e1644e5e
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87949858"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97049342"
 ---
 # <a name="web-sso-design"></a>Проект единого входа через Интернет
 

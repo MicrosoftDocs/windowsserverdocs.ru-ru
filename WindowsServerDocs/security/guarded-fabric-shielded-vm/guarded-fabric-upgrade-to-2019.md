@@ -1,16 +1,17 @@
 ---
+description: Дополнительные сведения см. в статье обновление защищенной структуры до Windows Server 2019.
 title: Обновление защищенной структуры до Windows Server 2019
 ms.topic: article
 manager: dongill
 author: rpsqrd
 ms.author: ryanpu
 ms.date: 11/21/2018
-ms.openlocfilehash: 53b0610e32f8cd3c6b7e3d086690ef4b72612ed6
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: bc7cedb2c232a61593dcce630e365b375c9d4744
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87996135"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97049102"
 ---
 # <a name="upgrade-a-guarded-fabric-to-windows-server-2019"></a>Обновление защищенной структуры до Windows Server 2019
 
@@ -38,8 +39,8 @@ ms.locfileid: "87996135"
 
 |  | WS2016 HGS | WS2019 HGS|
 |---|---|---|
-|**Узел Hyper-V WS2016** | Поддерживается | Поддерживается<sup>1</sup>|
-|**Узел Hyper-V WS2019** | Не поддерживается<sup>2</sup> | Поддерживается|
+|**Узел Hyper-V WS2016** | Поддерживаются: | Поддерживается<sup>1</sup>|
+|**Узел Hyper-V WS2019** | Не поддерживается<sup>2</sup> | Поддерживаются:|
 
 <sup>1</sup> узлы windows Server 2016 могут только подтверждать работу серверов HGS windows Server 2019 с помощью протокола аттестации v1. Новые функции, доступные только в протоколе аттестации v2, включая аттестацию ключей узла, не поддерживаются для узлов Windows Server 2016.
 
@@ -71,7 +72,7 @@ Set-HgsServerVersion  v2
 1.  Если вы используете политики целостности кода управления приложениями в Защитнике Windows на сервере (всегда при использовании аттестации TPM), перед попыткой обновления сервера убедитесь, что политика находится в режиме аудита или отключена. [Сведения об отключении политики WDAC](/windows/security/threat-protection/windows-defender-application-control/disable-windows-defender-application-control-policies)
 2.  Следуйте инструкциям в статье [Обновление Windows Server](../../upgrade/upgrade-overview.md) , чтобы обновить узел до Windows Server 2019. Если узел Hyper-V является частью отказоустойчивого кластера, можно использовать [последовательное обновление операционной системы кластера](../../failover-clustering/Cluster-Operating-System-Rolling-Upgrade.md).
 3.  [Протестируйте и повторно включите](/windows/security/threat-protection/windows-defender-application-control/audit-windows-defender-application-control-policies) политику управления приложениями в Защитнике Windows, если она была включена до обновления.
-4.  Выполните команду `Get-HgsClientConfiguration` , чтобы проверить, имеет ли **Ишостгуардед = true**значение, означающее, что узел успешно передает аттестацию на сервер HGS.
+4.  Выполните команду `Get-HgsClientConfiguration` , чтобы проверить, имеет ли **Ишостгуардед = true** значение, означающее, что узел успешно передает аттестацию на сервер HGS.
 5.  Если вы используете аттестацию доверенного платформенного модуля, может потребоваться [повторно записать базовые показатели доверенного платформенного модуля или политики целостности кода](guarded-fabric-add-host-information-for-tpm-trusted-attestation.md) после обновления для передачи аттестации.
 6.  Снова запустите запуск экранированных виртуальных машин на узле.
 

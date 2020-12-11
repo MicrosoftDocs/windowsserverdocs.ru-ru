@@ -1,16 +1,17 @@
 ---
+description: 'Дополнительные сведения: выберите, следует ли устанавливать HGS в собственном выделенном лесу или в существующем лесу бастиона.'
 title: Выберите, следует ли устанавливать HGS в новом лесу или в существующем лесу бастиона.
 ms.topic: article
 manager: dongill
 author: rpsqrd
 ms.author: ryanpu
 ms.date: 08/29/2018
-ms.openlocfilehash: e1b4c015aa9b4f504d4cdf79bb2f38686588cfdd
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: cceea24bb4f843df06854e893742c79d25034021
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87989538"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97049902"
 ---
 # <a name="choose-whether-to-install-hgs-in-its-own-dedicated-forest-or-in-an-existing-bastion-forest"></a>Выберите, следует ли устанавливать HGS в собственном выделенном лесу или в существующем лесу бастиона.
 
@@ -32,7 +33,7 @@ ms.locfileid: "87989538"
 Леса общего назначения, такие как рабочие леса, не подходят для использования в HGS.
 Леса структуры также не подходят, так как HGS необходимо изолировать от администраторов структуры.
 
-## <a name="next-step"></a>Следующий шаг
+## <a name="next-step"></a>Следующий этап
 
 Выберите вариант установки, который лучше подходит для вашей среды:
 

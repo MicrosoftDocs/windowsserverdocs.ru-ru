@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: создание ключа узла и добавление его в HGS'
 title: Создание ключа узла и добавление его в HGS
 ms.topic: article
 ms.assetid: a12c8494-388c-4523-8d70-df9400bbc2c0
@@ -6,12 +7,12 @@ manager: dongill
 author: rpsqrd
 ms.author: ryanpu
 ms.date: 08/29/2018
-ms.openlocfilehash: 4572c6424f018d711a18d5ee763b00a253a73529
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 0e6f7374c47204d86674b75ad453ee1067d09e82
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87961608"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97049802"
 ---
 # <a name="create-a-host-key-and-add-it-to-hgs"></a>Создание ключа узла и добавление его в HGS
 
@@ -58,7 +59,7 @@ ms.locfileid: "87961608"
 Add-HgsAttestationHostKey -Name MyHost01 -Path "C:\temp\MyHost01-HostKey.cer"
 ```
 
-## <a name="next-step"></a>Следующий шаг
+## <a name="next-step"></a>Следующий этап
 
 - [Подтверждение возможности успешной аттестации узлов](guarded-fabric-confirm-hosts-can-attest-successfully.md)
 

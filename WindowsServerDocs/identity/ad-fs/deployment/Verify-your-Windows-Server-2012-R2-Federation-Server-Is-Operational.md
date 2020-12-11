@@ -1,4 +1,5 @@
 ---
+description: Дополнительные сведения см. в статье Проверка работоспособности сервера федерации Windows Server 2012 R2
 ms.assetid: 1115d276-00f6-4c23-9278-eedcc31295d8
 title: Проверка работоспособности сервера федерации Windows Server 2012 R2
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 82cad5a13478986208f5f19d1905290fb0097655
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: dd7585af83b5070122755cdaeffbea3feb4f4f0f
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87940868"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97049042"
 ---
 # <a name="verify-your-windows-server-2012-r2-federation-server-is-operational"></a>Проверка работоспособности сервера федерации Windows Server 2012 R2
 
@@ -39,7 +40,7 @@ ms.locfileid: "87940868"
 
 1.  Войдите на новый сервер федерации как администратор.
 
-2.  На **начальном** экране введите**Просмотр событий**и нажмите клавишу ВВОД.
+2.  На **начальном** экране введите **Просмотр событий** и нажмите клавишу ВВОД.
 
 3.  В области сведений дважды \- щелкните **журналы приложений и служб**, дважды \- щелкните **AD FS события**, а затем щелкните **Администратор**.
 

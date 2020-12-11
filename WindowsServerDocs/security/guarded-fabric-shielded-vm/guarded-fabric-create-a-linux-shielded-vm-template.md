@@ -1,17 +1,18 @@
 ---
 title: Создание диска шаблона экранированной виртуальной машины Linux
+description: 'Дополнительные сведения: создание диска шаблона экранированной виртуальной машины Linux'
 ms.topic: article
 ms.assetid: d0e1d4fb-97fc-4389-9421-c869ba532944
 manager: dongill
 author: rpsqrd
 ms.author: ryanpu
 ms.date: 08/29/2018
-ms.openlocfilehash: 46afeba5e8e00c6c37935d9e123d8ddaab5e835d
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.openlocfilehash: f17753cc423be342f1b732a66e2a1e7ffd40d782
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96864413"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97049822"
 ---
 # <a name="create-a-linux-shielded-vm-template-disk"></a>Создание диска шаблона экранированной виртуальной машины Linux
 
@@ -19,7 +20,7 @@ ms.locfileid: "96864413"
 
 В этом разделе объясняется, как подготовить диск шаблона для экранированных виртуальных машин Linux, которые можно использовать для создания экземпляра одной или нескольких виртуальных машин клиента.
 
-## <a name="prerequisites"></a>Предварительные условия
+## <a name="prerequisites"></a>Предварительные требования
 
 Чтобы подготовить и проверить экранированную виртуальную машину Linux, вам понадобятся следующие ресурсы:
 

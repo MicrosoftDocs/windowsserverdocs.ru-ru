@@ -1,17 +1,18 @@
 ---
 ms.assetid: 24c4b9bb-928a-4118-acf1-5eb06c6b08e5
 title: Настройка AD FS 2016 и Azure MFA
+description: 'Подробнее: Настройка Azure MFA в качестве поставщика проверки подлинности с помощью AD FS'
 ms.author: billmath
 author: billmath
 manager: mtillman
 ms.date: 01/28/2019
 ms.topic: article
-ms.openlocfilehash: dc2ab294e0e42bf640b5fb9b0159314a0373fe0d
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.openlocfilehash: c61b8555cb875403a9c5c28e9d370fa87eee753e
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96864923"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97050272"
 ---
 # <a name="configure-azure-mfa-as-authentication-provider-with-ad-fs"></a>Настройка Azure MFA в качестве поставщика проверки подлинности с помощью AD FS
 
@@ -132,7 +133,7 @@ Set-AdfsAzureMfaTenant -TenantId <tenant ID> -ClientId 981f26a1-7f43-403b-a875-f
 Windows Server без последнего пакета обновления не поддерживает `-Environment` параметр командлета [Set-адфсазуремфатенант](/powershell/module/adfs/export-adfsauthenticationproviderconfigurationdata) . Если вы используете облако Azure для государственных организаций, и на предыдущих шагах не удалось настроить клиент Azure из-за отсутствующего `-Environment` параметра, выполните следующие действия, чтобы вручную создать записи реестра. Пропустите эти шаги, если предыдущий командлет правильно зарегистрировал сведения о клиенте или вы не в облаке Azure для государственных организаций:
 
 1. Откройте **редактор реестра** на AD FS сервере.
-1. Перейдите к `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ADFS`. Создайте следующие значения разделов реестра:
+1. Перейдите на страницу `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ADFS`. Создайте следующие значения разделов реестра:
 
     | Раздел реестра       | Значение |
     |--------------------|-----------------------------------|
@@ -291,7 +292,7 @@ New expiration date: 2/27/2020 2:16:07 AM.
     //End Custom Code
     ```
     > [!IMPORTANT]
-    > Необходимо изменить "<YOUR_DOMAIN_NAME_HERE>"; для использования доменного имени. Например: `var domain_hint = "contoso.com";`
+    > Необходимо изменить "<YOUR_DOMAIN_NAME_HERE>"; для использования доменного имени. Пример: `var domain_hint = "contoso.com";`.
 
 5. Сохранение файла onload.js
 6. Импортируйте файл onload.js в пользовательскую тему, введя следующую команду Windows PowerShell:

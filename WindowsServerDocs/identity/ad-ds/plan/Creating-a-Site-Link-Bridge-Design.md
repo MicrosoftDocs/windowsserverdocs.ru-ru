@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: создание структуры моста связей сайтов'
 ms.assetid: 64142026-07b5-4601-840a-c8dcf6ab9814
 title: Создание проекта моста связей сайтов
 ms.author: daveba
@@ -6,12 +7,12 @@ author: iainfoulds
 manager: daveba
 ms.date: 08/08/2018
 ms.topic: article
-ms.openlocfilehash: 190ded76c03c9f38edb0a2a0400a04b3adc69179
-ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
+ms.openlocfilehash: 77d2d4e426dc0f0f41d95ce2e51e9079d4d82027
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93069126"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97050232"
 ---
 # <a name="creating-a-site-link-bridge-design"></a>Создание проекта моста связей сайтов
 

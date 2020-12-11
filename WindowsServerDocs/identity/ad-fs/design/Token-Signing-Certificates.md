@@ -1,4 +1,5 @@
 ---
+description: Дополнительные сведения о сертификатах Token-Signing.
 ms.assetid: 98c5ef45-2bcb-4f87-86c8-5ac6c16a6097
 title: Сертификаты подписи токена
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 9ed6a6a509547ee5c97e3647177a7f23795f10bb
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 428d87c8707ca80110f926b4e81d4c43794986da
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87970931"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97049362"
 ---
 # <a name="token-signing-certificates"></a>Сертификаты подписи токена
 

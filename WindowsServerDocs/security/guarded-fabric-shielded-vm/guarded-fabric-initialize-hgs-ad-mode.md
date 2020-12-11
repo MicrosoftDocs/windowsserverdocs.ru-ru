@@ -1,16 +1,17 @@
 ---
+description: Дополнительные сведения см. в статье инициализация HGS с помощью аттестации, доверенной администратором
 title: Инициализация HGS с помощью аттестации, доверенной администратором
 ms.topic: article
 manager: dongill
 author: rpsqrd
 ms.author: ryanpu
 ms.date: 08/29/2018
-ms.openlocfilehash: a3015c6af72b8a574ed1152198212b42618bb0fa
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 65ba0bd90d42ac038eeb8eb304def80ce7093ff1
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87953470"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97049762"
 ---
 # <a name="initialize-hgs-using-admin-trusted-attestation"></a>Инициализация HGS с помощью аттестации, доверенной администратором
 
@@ -24,7 +25,7 @@ ms.locfileid: "87953470"
 
 1. [Инициализация кластера HGS в новом лесу (по умолчанию)](guarded-fabric-initialize-hgs-ad-mode-default.md)
 
-   -Или-
+   или
 
    [Инициализация кластера HGS в существующем лесу бастиона](guarded-fabric-initialize-hgs-ad-mode-bastion.md)
 

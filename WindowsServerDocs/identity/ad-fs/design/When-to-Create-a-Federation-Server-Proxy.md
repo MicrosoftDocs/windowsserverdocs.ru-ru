@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения о: когда следует создавать прокси-сервер федерации'
 ms.assetid: aa20c8b3-7f01-4165-8b73-92642bff9676
 title: Когда следует создавать прокси-сервер федерации
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 963070a15b075275cd5680fa3a39044abbb6b3ad
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 4da88560f372f56594d127c1db26f1bf8edd4bea
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87972041"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97049942"
 ---
 # <a name="when-to-create-a-federation-server-proxy"></a>Когда следует создавать прокси-сервер федерации
 

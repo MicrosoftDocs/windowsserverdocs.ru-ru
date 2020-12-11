@@ -1,4 +1,5 @@
 ---
+description: Дополнительные сведения о том, как использовать членство в группе отправки в качестве правила утверждений.
 ms.assetid: af16e847-47c2-461e-9df1-cc352a322043
 title: Когда следует использовать правило "Отправлять членство в группе как утверждение"
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 2a56b3547535123dfdff66fe764485fc53f3e908
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 912ebf3fe8c3db96de2d615d3bda6ea3c7f3f7a4
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87956241"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97050432"
 ---
 # <a name="when-to-use-a-send-group-membership-as-a-claim-rule"></a>Когда следует использовать правило "Отправлять членство в группе как утверждение"
 Это правило можно использовать в службы федерации Active Directory (AD FS) \( AD FS \) , если требуется выдать новое значение исходящего утверждения только тем пользователям, которые являются членами указанной Active Directory группы безопасности. При использовании этого правила одно утверждение выдается только для указанной группы, соответствующей логике правила, как описано в следующей таблице.

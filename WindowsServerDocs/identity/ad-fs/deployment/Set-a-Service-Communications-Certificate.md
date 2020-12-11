@@ -1,4 +1,5 @@
 ---
+description: Дополнительные сведения о настройке сертификата связи службы
 ms.assetid: 638c89bd-87e6-484b-9d2e-8ae2a74227e5
 title: Задание сертификата связи со службой
 author: billmath
@@ -6,12 +7,12 @@ manager: femila
 ms.date: 05/31/2017
 ms.topic: article
 ms.author: billmath
-ms.openlocfilehash: b3e9f22ede5c8ae8757b80137b2a8175b906e7de
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 4d5991240e33d6775f7b7744775bfc4608a15f9b
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87938279"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97049082"
 ---
 # <a name="set-a-service-communications-certificate"></a>Задание сертификата связи со службой
 
@@ -31,7 +32,7 @@ ms.locfileid: "87938279"
 
 ### <a name="to-set-a-service-communications-certificate"></a>Настройка сертификата связи службы
 
-1.  На **начальном** экране введите**AD FS управление**и нажмите клавишу ВВОД.
+1.  На **начальном** экране введите **AD FS управление** и нажмите клавишу ВВОД.
 
 2.  В дереве консоли дважды \- щелкните **Служба**, а затем щелкните **Сертификаты**.
 

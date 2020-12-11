@@ -1,4 +1,5 @@
 ---
+description: Дополнительные сведения о сертификатах связи служб
 ms.assetid: 95e82190-68c5-4e40-87b1-f1bd816ef4e9
 title: Сертификаты взаимодействия служб
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 377b6f9053a5805f6a13f6a865185da6965f9966
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: a6e17318e02cacf407148f1bf2a24c6622e465a8
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87972081"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97049372"
 ---
 # <a name="service-communications-certificates"></a>Сертификаты взаимодействия служб
 

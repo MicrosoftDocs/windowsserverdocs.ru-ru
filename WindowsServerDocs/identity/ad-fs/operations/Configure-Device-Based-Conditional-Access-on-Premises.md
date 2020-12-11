@@ -1,4 +1,5 @@
 ---
+description: Дополнительные сведения см. в статье Настройка локального условного доступа с помощью зарегистрированных устройств.
 ms.assetid: 35de490f-c506-4b73-840c-b239b72decc2
 title: Настройка локального условного доступа на основе устройств
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 08/11/2017
 ms.topic: article
-ms.openlocfilehash: 2306c5ad57b7714c10076a5bb11f6cae5bb7f92d
-ms.sourcegitcommit: 5344adcf9c0462561a4f9d47d80afc1d095a5b13
+ms.openlocfilehash: 5b840243a7f17dc65db5d3c0605c3e5a321352f2
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90766887"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97049722"
 ---
 # <a name="configure-on-premises-conditional-access-using-registered-devices"></a>Настройка локального условного доступа с помощью зарегистрированных устройств
 
@@ -208,7 +209,7 @@ Get-ADObject "cn=schema,cn=configuration,dc=domain,dc=local" -Property objectVer
 Чтобы включить автоматическую регистрацию зарегистрированных устройств MDM, чтобы можно было использовать утверждение, соответствующее политике управления доступом, выполните действия, описанные [здесь.](/windows/client-management/join-windows-10-mobile-to-azure-active-directory)
 
 ## <a name="troubleshooting"></a>Устранение неполадок
-1.  Если появляется сообщение об ошибке `Initialize-ADDeviceRegistration` о том, что объект уже существует в неправильном состоянии, например "объект службы DRS был найден без всех обязательных атрибутов", возможно, вы уже выполнили Azure AD Connect команды PowerShell, а также частичную конфигурацию в AD DS.  Попробуйте удалить вручную объекты в разделе **CN = Device Registration Configuration, CN = Services, CN = Configuration, DC = &lt; domain &gt; ** и повторите попытку.
+1.  Если появляется сообщение об ошибке `Initialize-ADDeviceRegistration` о том, что объект уже существует в неправильном состоянии, например "объект службы DRS был найден без всех обязательных атрибутов", возможно, вы уже выполнили Azure AD Connect команды PowerShell, а также частичную конфигурацию в AD DS.  Попробуйте удалить вручную объекты в разделе **CN = Device Registration Configuration, CN = Services, CN = Configuration, DC = &lt; domain &gt;** и повторите попытку.
 2.  Для клиентов, присоединенных к домену Windows 10
     1. Чтобы проверить, работает ли проверка подлинности устройства, войдите на клиент, присоединенный к домену, в качестве тестовой учетной записи пользователя. Чтобы быстро запустить подготовку, заблокируйте и разблокируйте Рабочий стол по крайней мере один раз.
     2. Инструкции по проверке связи учетных данных ключа СТК для объекта AD DS (синхронизация по-прежнему должна выполняться дважды?)

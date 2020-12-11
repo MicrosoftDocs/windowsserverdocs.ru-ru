@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения: Разработка AD FS'
 ms.assetid: e9563792-cd73-4a32-b4a1-5bd6a2109016
 title: Разработка AD FS
 author: billmath
@@ -6,17 +7,17 @@ ms.author: billmath
 manager: mtillman
 ms.date: 02/22/2018
 ms.topic: article
-ms.openlocfilehash: 786c96a7583c99c2c231fc1c3659afdb5615d9d1
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 9db582a07086b4440f2b1e85c799a280a94f9d96
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87954360"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97049132"
 ---
 # <a name="ad-fs-development"></a>Разработка AD FS
 
 
-Этот документ содержит список всех пошаговых руководств по разработке AD FS. Это включает следующие действия.
+Этот документ содержит список всех пошаговых руководств по разработке AD FS. Например:
 
 
 - [Создание пользовательского метода проверки подлинности для AD FS](../ad-fs/development/ad-fs-build-custom-auth-method.md)

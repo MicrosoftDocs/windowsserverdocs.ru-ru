@@ -1,4 +1,5 @@
 ---
+description: Дополнительные сведения см. в статье предоставление пользователям Active Directory доступа к приложениям и службам, поддерживающим утверждения.
 ms.assetid: d254fca3-85a1-424d-ac22-d6687ec3798e
 title: Предоставление пользователям Active Directory вашей организации доступа к вашим приложениям и службам с поддержкой утверждений
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 6fb5779eb655534e97c5291c6b883e2e07851415
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: a37147b46dc0ed8a6aac7700ad3549052c90c4bb
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87969721"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97049422"
 ---
 # <a name="provide-your-active-directory-users-access-to-your-claims-aware-applications-and-services"></a>Предоставление пользователям Active Directory вашей организации доступа к вашим приложениям и службам с поддержкой утверждений
 

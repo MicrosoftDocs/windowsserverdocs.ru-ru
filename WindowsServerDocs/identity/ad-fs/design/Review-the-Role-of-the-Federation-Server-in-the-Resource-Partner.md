@@ -1,4 +1,5 @@
 ---
+description: 'Дополнительные сведения о: Проверьте роль сервера федерации в партнере по ресурсам.'
 ms.assetid: f88238ea-d851-4129-8b4e-a3a62b813614
 title: Сведения о роли сервера федерации в организации партнера по ресурсам
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: b090384cebd5213ec10799f4b2c0d594de3a3fd6
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: e01c291fe3e8d96cb81cfee9c62dd1abb2f34662
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87972071"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97049392"
 ---
 # <a name="review-the-role-of-the-federation-server-in-the-resource-partner"></a>Сведения о роли сервера федерации в организации партнера по ресурсам
 
