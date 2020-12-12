@@ -6,13 +6,13 @@ manager: dcscontentpm
 ms.topic: how-to
 ms.author: delhan
 ms.date: 10/29/2020
-ms.custom: contperfq2
-ms.openlocfilehash: a465a7e777dae0473966b6185470dbb6d563e2b7
-ms.sourcegitcommit: f18097c21e50a09aef2f1937f52608b0042ef0e1
+ms.custom: contperf-fy21q2
+ms.openlocfilehash: 6ff7fe56cdb95bb35ccce39abdd800f9665d86dc
+ms.sourcegitcommit: 36559331b20b7965a95fe26cb19a635f6e4a9723
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "96755401"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "97364255"
 ---
 # <a name="how-to-detect-enable-and-disable-smbv1-smbv2-and-smbv3-in-windows"></a>Как обнаруживать, включать и отключать SMBv1, SMB и SMBv3 в Windows
 
