@@ -6,12 +6,12 @@ ms.author: billmath
 manager: femila
 ms.date: 03/20/2020
 ms.topic: article
-ms.openlocfilehash: c7779522e874fb484f3801780495f96ddcead990
-ms.sourcegitcommit: 4165d4a9198228d4ec809ccd7d791f8de2aeb159
+ms.openlocfilehash: 61369f2dde82264190bcbd4d81eaae317e159a0d
+ms.sourcegitcommit: 7c0794e257f602bd71af5eb9a11b8a03d2b9adfd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97091278"
+ms.lasthandoff: 12/14/2020
+ms.locfileid: "97390272"
 ---
 # <a name="configure-browsers-to-use-windows-integrated-authentication-wia-with-ad-fs"></a>Настройка браузеров для использования встроенной проверки подлинности Windows (WIA) с AD FS
 
@@ -66,8 +66,8 @@ Set-AdfsProperties -WIASupportedUserAgents @("MSIE 6.0", "MSIE 7.0; Windows NT",
 |Windows NT 6,3; Trident/7.0</br></br>Windows NT 6,3; Платформе х Trident/7.0</br></br>Windows NT 6,3; WOW64 Trident/7.0| Windows 8.1 классических операционных систем, различных платформ|
 |Windows NT 6,2; Trident/7.0</br></br>Windows NT 6,2; Платформе х Trident/7.0</br></br>Windows NT 6,2; WOW64 Trident/7.0|Операционная система Windows 8 Desktop, различные платформы|
 |Windows NT 6,1; Trident/7.0</br></br>Windows NT 6,1; Платформе х Trident/7.0</br></br>Windows NT 6,1; WOW64 Trident/7.0|Операционная система Windows 7 Desktop, различные платформы|
-|Едг/79.0.309.43 | Microsoft ребро (Chromium) для Windows Server 2012 R2 или более ранней версии |
-|Едг/*| Microsoft ребро (Chromium) для Windows Server 2016 или более поздней версии|
+|Едг/и ребро/| Microsoft ребро (Chromium) для Windows Server 2012 R2 или более ранней версии |
+|= ~ Виндовс\с *NT.* едг. *| Microsoft ребро (Chromium) для Windows Server 2016 или более поздней версии|
 |MSIPC| Клиент Microsoft технология защиты и контроля информации|
 |Клиент Windows Rights Management|Клиент Windows Rights Management|
 

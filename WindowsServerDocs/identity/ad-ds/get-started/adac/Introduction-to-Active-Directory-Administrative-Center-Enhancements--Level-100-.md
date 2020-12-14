@@ -7,12 +7,12 @@ author: iainfoulds
 manager: daveba
 ms.date: 08/07/2018
 ms.topic: article
-ms.openlocfilehash: 884710e1cf327940937d627fbbbc124bb99baca9
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: 901078ec17ce744fb4eb4a2bb3a29f1d79718060
+ms.sourcegitcommit: 7c0794e257f602bd71af5eb9a11b8a03d2b9adfd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97045832"
+ms.lasthandoff: 12/14/2020
+ms.locfileid: "97390332"
 ---
 # <a name="introduction-to-active-directory-administrative-center-enhancements-level-100"></a>Introduction to Active Directory Administrative Center Enhancements (Level 100)
 
@@ -151,7 +151,7 @@ Add-ADGroupMember -Identity group1 -Member test1
 #### <a name="to-create-an-organizational-unit"></a>Чтобы создать подразделение:
 
 1. Щелкните правой кнопкой мыши значок Windows PowerShell, выберите команду _ *Запуск от имени администратора** и введите **dsac.exe** , чтобы открыть ADAC.
-2. Щелкните **Управление**, щелкните **Добавить узлы навигации** и выберите соответствующий целевой домен в диалоговом окне **Добавление узлов навигации** и нажмите кнопку * * ОК.
+2. Щелкните **Управление**, **Добавить узлы перехода** и выберите соответствующий целевой домен в диалоговом окне **Добавление узлов перехода**, а затем нажмите кнопку **ОК**.
 3. На панели **Задачи** выберите **Создать** и щелкните **Подразделение**.
 4. Введите следующие сведения в раздел **Подразделение** и нажмите кнопку **ОК**:
 
