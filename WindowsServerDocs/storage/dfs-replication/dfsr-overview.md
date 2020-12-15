@@ -1,15 +1,16 @@
 ---
+description: 'Сведения по таким темам: Обзор репликации DFS'
 title: Обзор репликации DFS
 ms.date: 03/08/2019
 author: JasonGerend
 manager: elizapo
 ms.author: jgerend
-ms.openlocfilehash: 6a68d27ec7c1d06e070d18362de68e12ecbf9578
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 7cc69e3d1b3a141d79a1a0ef036db93762154039
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87950758"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97048772"
 ---
 # <a name="dfs-replication-overview"></a>Обзор репликации DFS
 

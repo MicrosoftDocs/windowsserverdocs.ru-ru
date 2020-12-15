@@ -6,12 +6,12 @@ ms.date: 8/28/2020
 ms.localizationpriority: medium
 ms.topic: article
 author: christianmontoya
-ms.openlocfilehash: 71b892d95b15f02445ec7898a6c57f931bc4b501
-ms.sourcegitcommit: 2b1a12c85acff137e5ac84cd0e62d8353fcdde31
+ms.openlocfilehash: a3a38581a257007d9e6afbf4059c88c485ac5a04
+ms.sourcegitcommit: 97af0c18f5868567a1435658bce9c7751454caea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2020
-ms.locfileid: "89087467"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96913414"
 ---
 # <a name="set-up-email-discovery-to-subscribe-to-your-rds-feed"></a>Настройка обнаружения электронной почты для оформления подписки на RDS-канал
 
@@ -35,7 +35,7 @@ ms.locfileid: "89087467"
 3. Введите новую запись DNS со следующими свойствами:
    - **Узел:** _msradc
    - **Текст:** \<RD Web Feed URL\>
-   - **Срок жизни:** : 300
+   - **Срок жизни:** : 300 секунд
 
    Имена полей записей DNS зависят от регистратора доменных имен, но этот процесс приведет к записи типа TXT с именем _msradc.\<domain_name\> (например, _msradc.contoso.com) со значением полного веб-канала удаленных рабочих столов.
 

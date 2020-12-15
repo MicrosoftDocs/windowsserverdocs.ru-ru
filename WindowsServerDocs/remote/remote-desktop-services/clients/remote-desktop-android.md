@@ -6,18 +6,19 @@ ms.assetid: 64f038e1-40ec-4c67-938b-72edea49e5d8
 author: heidilohr
 manager: lizross
 ms.author: helohr
-ms.date: 09/17/2020
+ms.date: 12/11/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: 1f59c00e375ab142c4e3dadc480c648cdd8e2396
-ms.sourcegitcommit: 877d6db73d9520e3a23738d6528016235493cff3
+ms.custom: contperf-fy21q1
+ms.openlocfilehash: 5e289d1641d5171b4a11526f36aa569baa41980c
+ms.sourcegitcommit: 7c0794e257f602bd71af5eb9a11b8a03d2b9adfd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90779248"
+ms.lasthandoff: 12/14/2020
+ms.locfileid: "97390312"
 ---
 # <a name="get-started-with-the-android-client"></a>Приступая к работе с клиентом Android
 
->Применяется к: Android 4.1 и более поздние версии
+>Относится к: Android 6.0 и более поздних версий
 
 С помощью клиента Удаленного рабочего стола для Android можно работать с приложениями для Windows и рабочими столами Windows непосредственно с устройства Android или Chromebook, которое поддерживает Google Play Маркет.
 
@@ -25,7 +26,7 @@ ms.locfileid: "90779248"
 
 > [!NOTE]
 > - Хотите узнать о новых выпусках для клиента Android? Ознакомьтесь со статьей [Что нового в клиенте Android?](android-whatsnew.md).
-> - Клиент Android поддерживает устройства под управлением Android 4.1 и более поздних версий, а также Chromebook и устройства под управлением ChromeOS 53 и более поздних версий. Дополнительные сведения о поддержке приложений Android в ОС Chrome см. [здесь](https://sites.google.com/a/chromium.org/dev/chromium-os/chrome-os-systems-supporting-android-apps).
+> - Клиент Android поддерживает устройства под управлением Android 6.0 и более поздних версий, а также Chromebook и устройства под управлением ChromeOS 53 и более поздних версий. Дополнительные сведения о поддержке приложений Android в ОС Chrome см. [здесь](https://sites.google.com/a/chromium.org/dev/chromium-os/chrome-os-systems-supporting-android-apps).
 
 ## <a name="download-the-remote-desktop-client"></a>Скачивание клиента удаленного рабочего стола
 

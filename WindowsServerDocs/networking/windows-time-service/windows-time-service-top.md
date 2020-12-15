@@ -1,16 +1,17 @@
 ---
+description: 'Сведения по таким темам: Служба времени Windows (W32Time)'
 ms.assetid: e34622ff-b2d0-4f81-8d00-dacd5d6c215e
 title: Служба времени Windows (W32Time)
 author: dahavey
 ms.author: dahavey
 ms.date: 05/08/2018
 ms.topic: article
-ms.openlocfilehash: a24ba463ecf939fc0c4192d4441ccc2fbae09d47
-ms.sourcegitcommit: b5b040a47cf48c94852de9aad8b91475f891d2f7
+ms.openlocfilehash: b8b4459b57f66efb2587b1370a5e3018d9c8d359
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88563354"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97047852"
 ---
 # <a name="windows-time-service-w32time"></a>Служба времени Windows (W32Time)
 

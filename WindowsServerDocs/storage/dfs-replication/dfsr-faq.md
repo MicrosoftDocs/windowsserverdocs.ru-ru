@@ -1,15 +1,16 @@
 ---
+description: 'Сведения по таким темам: Репликация DFS. Вопросы и ответы'
 title: Репликация DFS. Вопросы и ответы
 ms.date: 06/18/2014
 author: JasonGerend
 manager: elizapo
 ms.author: jgerend
-ms.openlocfilehash: 346fa77e1a22626094baa33aaf70ead23f2f0db0
-ms.sourcegitcommit: 5344adcf9c0462561a4f9d47d80afc1d095a5b13
+ms.openlocfilehash: 976539e31fa335a09d834e889ecd6c729b533236
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90766647"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97048782"
 ---
 # <a name="dfs-replication-frequently-asked-questions-faq"></a>Репликация DFS. Вопросы и ответы
 
@@ -68,7 +69,7 @@ ms.locfileid: "90766647"
 
 Да. Репликация DFS на томах со службой теневого копирования томов (VSS) поддерживается и предыдущие моментальные снимки можно успешно восстановить с помощью клиента предыдущих версий.
 
-### <a name="can-i-use-windowsbackup-ntbackupexe-to-remotely-back-up-a-replicated-folder"></a>Можно ли использовать программу архивации Windows Backup (Ntbackup.exe) для удаленного резервного копирования реплицированной папки?
+### <a name="can-i-use-windows-backup-ntbackupexe-to-remotely-back-up-a-replicated-folder"></a>Можно ли использовать программу архивации Windows Backup (Ntbackup.exe) для удаленного резервного копирования реплицированной папки?
 
 Нет, использование программы архивации Windows Backup (Ntbackup.exe) на компьютере под управлением Windows Server 2003 или более ранней версии для резервного копирования содержимого реплицированной папки на компьютере под управлением Windows Server 2012, Windows Server 2008 R2 или Windows Server 2008 не поддерживается.
 
@@ -434,25 +435,25 @@ RDC используется, когда файл превышает порог�
 <td><p>Да</em></p></td>
 </tr>
 <tr class="odd">
-<td><p>Windows Server 2012</p></td>
+<td><p>Windows Server 2012</p></td>
 <td><p>Да</p></td>
 <td><p>Отсутствует</p></td>
 <td><p>Да</p></td>
 </tr>
 <tr class="even">
-<td><p>Windows Server 2008 R2</p></td>
+<td><p>Windows Server 2008 R2</p></td>
 <td><p>Нет</p></td>
 <td><p>Да</p></td>
 <td><p>Да</p></td>
 </tr>
 <tr class="odd">
-<td><p>Windows Server 2008</p></td>
+<td><p>Windows Server 2008</p></td>
 <td><p>Нет</p></td>
 <td><p>Да</p></td>
 <td><p>Нет</p></td>
 </tr>
 <tr class="even">
-<td><p>Windows Server 2003 R2</p></td>
+<td><p>Windows Server 2003 R2</p></td>
 <td><p>Нет</p></td>
 <td><p>Да</p></td>
 <td><p>Нет</p></td>
@@ -692,7 +693,7 @@ RDC используется, когда файл превышает порог�
 </colgroup>
 <thead>
 <tr class="header">
-<th> </th>
+<th> </th>
 <th>RDC включено</th>
 <th>RDC отключено</th>
 </tr>

@@ -5,14 +5,14 @@ ms.topic: article
 author: heidilohr
 manager: lizross
 ms.author: helohr
-ms.date: 12/02/2020
+ms.date: 12/11/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: fe553c03e85f3cb68f76b1a8d27e1da93bf9d9a3
-ms.sourcegitcommit: dce404a0a4500a693e294e0431c93f0ae90f8b13
+ms.openlocfilehash: b4085868c136f2f8653f623e5a167a283f463eee
+ms.sourcegitcommit: 7c0794e257f602bd71af5eb9a11b8a03d2b9adfd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "96563784"
+ms.lasthandoff: 12/14/2020
+ms.locfileid: "97390322"
 ---
 # <a name="windows-desktop-client-for-admins"></a>Клиент рабочего стола Windows для администраторов
 
@@ -49,7 +49,7 @@ msiexec.exe /i `<path to the MSI>` /qn ALLUSERS=2 MSIINSTALLPERUSER=1
 - **Раздел:** HKLM\Software\Microsoft\MSRDC\Policies
 - **Тип:** REG_DWORD
 - **Имя:** AutomaticUpdates
-- **Данные:** 0 — отключение уведомлений. 1 — отображение уведомлений. 2 — отображение уведомлений и автоматическая установка обновлений после закрытия клиента.
+- **Данные:** 0 = отключает уведомления и автоматическое обновление. 1 = включает уведомления и отключает автоматическое обновление. 2 — отображение уведомлений и автоматическая установка обновлений после закрытия клиента.
 
 ### <a name="configure-user-groups"></a>Настройка групп пользователей
 

@@ -1,16 +1,17 @@
 ---
-title: Рекомендации по устранению проблем с активацией, связанных с DNS
+description: 'Сведения по таким темам: Рекомендации по устранению проблем с активацией, связанных с DNS.'
+title: Рекомендации по устранению проблем с активацией, связанных с DNS.
 ms.topic: troubleshooting
 ms.date: 09/10/2019
 author: Teresa-Motiv
 ms.author: v-tea
 ms.localizationpriority: medium
-ms.openlocfilehash: 1d44da55f62348dfc0f776a6106d4fb613227057
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: eda94c17dcf54e689daf853cfde39f9e0253b615
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87953373"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97040932"
 ---
 # <a name="guidelines-for-troubleshooting-dns-related-activation-issues"></a>Рекомендации по устранению проблем с активацией, связанных с DNS.
 
@@ -20,7 +21,7 @@ ms.locfileid: "87953373"
    - Windows Server 2019
    - Windows Server 2016
    - Windows Server 2012 R2
-   - Windows Server 2012
+   - Windows Server 2012
    - Windows Server 2008 R2
    - Windows Server 2008
    - Windows 10

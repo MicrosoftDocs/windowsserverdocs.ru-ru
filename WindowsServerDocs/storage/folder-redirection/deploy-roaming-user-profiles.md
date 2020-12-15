@@ -1,17 +1,18 @@
 ---
 title: Развертывание перемещаемых профилей пользователей
+description: 'Сведения по таким темам: Развертывание перемещаемых профилей пользователей'
 TOCTitle: Deploying Roaming User Profiles
 ms.topic: article
 author: JasonGerend
 manager: brianlic
 ms.date: 06/07/2019
 ms.author: jgerend
-ms.openlocfilehash: 8019986ed29e9ffedaca8d714f63d5de06ae3c80
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 1ed7e52b5408e654d007e1f5c02cb9e61ad5c8bb
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87942255"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97049192"
 ---
 # <a name="deploying-roaming-user-profiles"></a>Развертывание перемещаемых профилей пользователей
 
@@ -240,7 +241,7 @@ ms.locfileid: "87942255"
 
 5. (Необязательно) Включите оптимизацию первого входа, чтобы пользователи могли быстрее входить в систему. Сведения о том, как это сделать, см. в [этой статье](/windows/client-management/mandatory-user-profile#apply-policies-to-improve-sign-in-time).
 6. (Необязательно) Дополнительно сократите время входа, удалив ненужные приложения из базового образа Windows 10, который вы используете для развертывания клиентских компьютеров. В Windows Server 2019 и Windows Server 2016 нет предварительно подготовленных приложений. Поэтому этот шаг для образов сервера можно пропустить.
-    - Чтобы удалить приложения, используйте командлет [Remove-AppxProvisionedPackage](/powershell/module/dism/remove-appxprovisionedpackage?view=win10-ps) в Windows PowerShell, чтобы удалить следующие приложения. Если компьютеры уже развернуты, вы можете создать скрипты для удаления этих приложений с помощью [Remove-AppxPackage](/powershell/module/appx/remove-appxpackage?view=win10-ps):
+    - Чтобы удалить приложения, используйте командлет [Remove-AppxProvisionedPackage](/powershell/module/dism/remove-appxprovisionedpackage) в Windows PowerShell, чтобы удалить следующие приложения. Если компьютеры уже развернуты, вы можете создать скрипты для удаления этих приложений с помощью [Remove-AppxPackage](/powershell/module/appx/remove-appxpackage):
 
       - Microsoft.windowscommunicationsapps\_8wekyb3d8bbwe;
       - Microsoft.BingWeather\_8wekyb3d8bbwe;

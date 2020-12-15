@@ -1,4 +1,5 @@
 ---
+description: 'Сведения по таким темам: Новые возможности служб федерации Active Directory'
 ms.assetid: aa892a85-f95a-4bf1-acbb-e3c36ef02b0d
 title: Новые возможности служб федерации Active Directory для Windows Server 2016
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: daveba
 ms.date: 01/22/2020
 ms.topic: article
-ms.openlocfilehash: a0407639f6c3efcbdc8f0353b0313101272351ac
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 384956f2b9015f865fe1d93c9778c6e5f0ed6109
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87938146"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97042422"
 ---
 # <a name="whats-new-in-active-directory-federation-services"></a>Новые возможности служб федерации Active Directory
 

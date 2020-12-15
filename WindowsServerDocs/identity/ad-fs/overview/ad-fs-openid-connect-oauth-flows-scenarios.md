@@ -1,4 +1,5 @@
 ---
+description: 'Сведения по таким темам: Потоки OpenID Connect или OAuth в AD FS и сценарии использования приложений'
 ms.assetid: 8a64545b-16bd-4c13-a664-cdf4c6ff6ea0
 title: Потоки OpenID Connect или OAuth в AD FS и сценарии использования приложений
 author: billmath
@@ -6,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 05ee7a1e5e36ee7bc2ffcb41fbdabf4b5b6c2c4e
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 2f2feb9485eb63ea1727fbec8b8300d5ef4f5c51
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87966831"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97042092"
 ---
 # <a name="ad-fs-openid-connectoauth-flows-and-application-scenarios"></a>Потоки OpenID Connect или OAuth в AD FS и сценарии использования приложений
 Применимо к AD FS 2016 и более поздних версий
@@ -223,7 +224,7 @@ Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6Ik5HVEZ2ZEstZn
  ```
 
 ### <a name="refresh-token-grant-flow"></a>Поток предоставления токена обновления
- 
+ 
 Access_token имеет короткий срок действия, и после истечения этого срока маркер нужно обновить, чтобы сохранить доступ к ресурсам. Это можно сделать, отправив новый запрос POST на конечную точку `/token` , теперь указав refresh_token вместо кода. Маркеры обновления действуют для всех разрешений, для которых клиент уже получил маркер доступа.
 
 Маркеры обновления не имеют определенного времени существования. Обычно этот период является относительно долгим. Но может случиться так, что у маркера обновления истекает срок действия, он отзывается или не имеет достаточных привилегий для требуемого действия. В приложении нужно предусмотреть решение для таких ситуаций и правильную обработку ошибок, возвращаемых конечной точкой выдачи маркеров.

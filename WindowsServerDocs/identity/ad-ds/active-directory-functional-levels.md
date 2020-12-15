@@ -1,4 +1,5 @@
 ---
+description: 'Сведения по таким темам: Режимы работы леса и домена'
 ms.assetid: f964d056-11bf-4d9b-b5ab-dceaad8bfbc3
 title: Режимы работы Windows Server 2016
 ms.author: daveba
@@ -8,12 +9,12 @@ ms.date: 08/25/2020
 ms.topic: article
 ms.custom: it-pro
 ms.reviewer: maheshu
-ms.openlocfilehash: b74bb786b3d1a6ec8a1f96054b2d74ca93bd9bcf
-ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
+ms.openlocfilehash: a05049c17e3d8fec8198c42c6dd589a4907e6e54
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93068377"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97048962"
 ---
 # <a name="forest-and-domain-functional-levels"></a>Режимы работы леса и домена
 
@@ -104,8 +105,8 @@ ms.locfileid: "93068377"
 * Windows Server 2019
 * Windows Server 2016
 * Windows Server 2012 R2
-* Windows Server 2012
-* Windows Server 2008 R2
+* Windows Server 2012
+* Windows Server 2008 R2
 
 ### <a name="windows-server-2008r2-forest-functional-level-features"></a>Функции режима работы леса Windows Server 2008 R2
 
@@ -125,7 +126,7 @@ ms.locfileid: "93068377"
 * Windows Server 2019
 * Windows Server 2016
 * Windows Server 2012 R2
-* Windows Server 2012
+* Windows Server 2012
 * Windows Server 2008 R2
 * Windows Server 2008
 
@@ -164,7 +165,7 @@ ms.locfileid: "93068377"
 
 * Windows Server 2016
 * Windows Server 2012 R2
-* Windows Server 2012
+* Windows Server 2012
 * Windows Server 2008 R2
 * Windows Server 2008
 * Windows Server 2003
@@ -179,8 +180,8 @@ ms.locfileid: "93068377"
    * Возможность развертывания контроллера домена только для чтения (RODC).
    * Улучшенные алгоритмы и масштабируемость проверки согласованности знаний (KCC).
       - Генератор межсайтовой топологии (ISTG) использует улучшенные алгоритмы, масштабируемые для поддержки лесов с увеличенным количеством сайтов, чем может поддерживать AD DS в режиме работы леса Windows 2000. Улучшенный алгоритм выборов ISTG является механизмом выбора ISTG с меньшим уровнем вмешательства в режиме работы леса Windows 2000.
-   * Возможность создания экземпляров динамического вспомогательного класса, называемых **dynamicObject** , в разделе каталога домена.
-   * Возможность преобразования экземпляра объекта **inetOrgPerson** в экземпляр объекта **User** , а также завершения преобразования в обратном направлении.
+   * Возможность создания экземпляров динамического вспомогательного класса, называемых **dynamicObject**, в разделе каталога домена.
+   * Возможность преобразования экземпляра объекта **inetOrgPerson** в экземпляр объекта **User**, а также завершения преобразования в обратном направлении.
    * Возможность создавать экземпляры новых типов групп для поддержки авторизации на основе ролей.
       - Эти типы называются основными группами приложений и группами запросов протокола LDAP.
    * деактивация и переопределение атрибутов и классов схемы. Следующие атрибуты можно использовать повторно: ldapDisplayName, schemaIdGuid, OID и mapiID.

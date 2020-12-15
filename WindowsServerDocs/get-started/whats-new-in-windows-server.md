@@ -1,17 +1,17 @@
 ---
 title: Новые возможности Windows Server
-description: Новые возможности вычислений, удостоверения, управления, автоматизации, сетей, безопасности, хранения.
+description: Новые возможности вычислений, удостоверений, управления, автоматизации, сетей, безопасности и хранения.
 ms.date: 10/22/2020
 ms.topic: article
 author: jasongerend
 ms.author: jgerend
 ms.localizationpriority: medium
-ms.openlocfilehash: 1876c2dbfcff9c8ea653885cd12232c3c97891f3
-ms.sourcegitcommit: 5a67672c3ba9e666c29a41c7356006359c639912
+ms.openlocfilehash: 51d14aab4b972cc608e9b3afe3e6313e6efffbd8
+ms.sourcegitcommit: 7c0794e257f602bd71af5eb9a11b8a03d2b9adfd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "92440146"
+ms.lasthandoff: 12/14/2020
+ms.locfileid: "97390252"
 ---
 # <a name="whats-new-in-windows-server"></a>Новые возможности Windows Server
 
@@ -27,10 +27,10 @@ ms.locfileid: "92440146"
 Выпуски Semi-Annual Channel
 
 - [Что нового в Windows Server версий 2004 и 20H2](whats-new-in-windows-server-2004.md)
-- [Что нового в Windows Server версий 1903 и 1909](../get-started-19/whats-new-in-windows-server-1903-1909.md)
-- [Что нового в Windows Server версии 1809?](whats-new-in-windows-server-1809.md)
-- [Что нового в Windows Server версии 1803](whats-new-in-windows-server-1803.md) (поддержка прекращена с 12 ноября 2019 года)
-- [Новые возможности Windows Server версии  1709](whats-new-in-windows-server-1709.md) (поддержка прекращена с 9 апреля 2019 года)
+- [Новые возможности Windows Server версий 1903 и 1909](../get-started-19/whats-new-in-windows-server-1903-1909.md) (обслуживание прекращено 8 декабря 2020 г.)
+- [Новые возможности Windows Server версии 1809](whats-new-in-windows-server-1809.md) (обслуживание прекращено 10 ноября 2020 г.)
+- [Новые возможности Windows Server версии 1803](whats-new-in-windows-server-1803.md) (обслуживание прекращено 12 ноября 2019 г.)
+- [Новые возможности Windows Server версии 1709](whats-new-in-windows-server-1709.md) (обслуживание прекращено 9 апреля 2019 г.)
 
 В выпусках Windows Server Semi-Annual Channel новые функциональные возможности операционной системы появляются быстрее. Новый выпуск выходит каждые шесть месяцев и поддерживается в течение 18 месяцев. Сведения о сроках поддержки см. в статье [Информация о выпуске Windows Server](windows-server-release-info.md) и разделе [Политика жизненного цикла поддержки Майкрософт](https://support.microsoft.com/lifecycle). По возможности всегда используйте последний доступный выпуск.
 

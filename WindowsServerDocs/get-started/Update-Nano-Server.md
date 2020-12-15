@@ -1,18 +1,18 @@
 ---
 title: Обновление сервера Nano Server
-description: ''
+description: 'Сведения по таким темам: Обновление сервера Nano Server'
 manager: DonGill
 ms.date: 09/06/2017
 ms.topic: get-started-article
 author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: 33bf8f3125ede8f3ac777e002e7d31dc174ba238
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 124f8d4ddd406b108588c82652ea3f3577ebf9c9
+ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87959202"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97045172"
 ---
 # <a name="updating-nano-server"></a>Обновление сервера Nano Server
 
