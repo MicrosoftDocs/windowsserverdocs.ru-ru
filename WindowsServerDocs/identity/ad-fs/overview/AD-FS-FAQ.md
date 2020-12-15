@@ -7,12 +7,12 @@ ms.author: billmath
 manager: mtillman
 ms.date: 11/02/2020
 ms.topic: article
-ms.openlocfilehash: d4b1130de67d4e4d7f57065dac307cddc0aef369
-ms.sourcegitcommit: 3181fcb69a368f38e0d66002e8bc6fd9628b1acc
+ms.openlocfilehash: a04fb0cec0d93180e6a9f0c822754a64435b79f9
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "96330486"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96863923"
 ---
 # <a name="ad-fs-frequently-asked-questions-faq"></a>Часто задаваемые вопросы по AD FS (FAQ)
 
@@ -101,7 +101,7 @@ AD FS предоставляет расширяемый механизм для
 
 Вы можете включить и отключить SSL 2.0 и 3.0 и TLS версии 1.0, 1.1 и 1.2, используя [управления протоколами SSL в AD FS](../operations/Manage-SSL-Protocols-in-AD-FS.md).
 
-Чтобы серверы AD FS и WAP согласовывались только с комплектами шифров TLS, поддерживающими ATP, можно отключить все комплекты шифров, которые не входят в [список комплектов шифров, совместимых с ATP](https://developer.apple.com/library/prerelease/content/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW57).  Для этого используйте [командлеты Windows TLS PowerShell](/powershell/module/tls/?view=win10-ps).
+Чтобы серверы AD FS и WAP согласовывались только с комплектами шифров TLS, поддерживающими ATP, можно отключить все комплекты шифров, которые не входят в [список комплектов шифров, совместимых с ATP](https://developer.apple.com/library/prerelease/content/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW57).  Для этого используйте [командлеты Windows TLS PowerShell](/powershell/module/tls/).
 
 ## <a name="developer"></a>Разработчик
 

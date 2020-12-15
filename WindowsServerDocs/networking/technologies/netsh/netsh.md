@@ -7,12 +7,12 @@ manager: dougkim
 ms.author: lizross
 author: eross-msft
 ms.date: 09/13/2018
-ms.openlocfilehash: 1f331a7ea987f413f814dcb1b0e4173714b1153b
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 33002210a27dcea0c39ede5997a7b20d3d7d1df0
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87994621"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96864833"
 ---
 # <a name="network-shell-netsh"></a>Сетевая оболочка \(Netsh\)
 
@@ -27,7 +27,7 @@ ms.locfileid: "87994621"
 Кроме того, существуют команды netsh для сетевых поддержки технологий, таких как IPv6, сетевой мост и удаленный вызов процедур \(RPC\), которые недоступны в формате оснастки MMC для Windows Server.
 
 >[!IMPORTANT]
->Мы рекомендуем для управления сетевыми технологиями в [Windows Server 2016 и Windows 10](/powershell/windows/get-started?view=win10-ps) использовать Windows PowerShell, а не сетевую оболочку. Но сетевая оболочка включена и поддерживается для обеспечения совместимости с существующими скриптами.
+>Мы рекомендуем для управления сетевыми технологиями в [Windows Server 2016 и Windows 10](/powershell/windows/get-started) использовать Windows PowerShell, а не сетевую оболочку. Но сетевая оболочка включена и поддерживается для обеспечения совместимости с существующими скриптами.
 
 ## <a name="network-shell-netsh-technical-reference"></a>Технический справочник по сетевой оболочке (Netsh)
 

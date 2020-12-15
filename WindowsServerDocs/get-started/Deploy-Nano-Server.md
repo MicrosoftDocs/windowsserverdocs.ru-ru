@@ -8,12 +8,12 @@ ms.assetid: 9f109c91-7c2e-4065-856c-ce9e2e9ce558
 author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: deb17bb54f2576cdb811a11d78d4cb324a120140
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 67ef50ce2c788ac5028de1ab39a5f6b6bf388978
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87959902"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96865725"
 ---
 # <a name="deploy-nano-server"></a>Развертывание сервера Nano Server
 
@@ -72,7 +72,7 @@ Nano Server Image Builder создает настроенные образы Nan
 | PowerShell Desired State Configuration (DSC) | -Package Microsoft-NanoServer-DSC-Package<p>**Примечание**. Дополнительные сведения см. в статье [Использование DSC на сервере Nano Server](/archive/blogs/askcore/kms-host-client-count-not-increasing-due-to-duplicate-cmids). |
 | Службы IIS | -Package Microsoft-NanoServer-IIS-Package<p>**Примечание**. Сведения о работе с IIS см. в разделе [IIS на сервере Nano Server](IIS-on-Nano-Server.md). |
 | Поддержка узлов для контейнеров Windows | -Containers |
-| Агент System Center Virtual Machine Manager | -Package Microsoft-NanoServer-SCVMM-Package<p>-Package Microsoft-NanoServer-SCVMM-Compute-Package<p>**Примечание**. Используйте пакет вычислений SCVMM только в том случае, если отслеживаете Hyper-V. Для гиперконвергентных развертываний в VMM также нужно указать параметр -Storage. Дополнительные сведения см. в [документации по VMM](/system-center/vmm/hyper-v-nano?view=sc-vmm-2016&viewFallbackFrom=sc-vmm-2019). |
+| Агент System Center Virtual Machine Manager | -Package Microsoft-NanoServer-SCVMM-Package<p>-Package Microsoft-NanoServer-SCVMM-Compute-Package<p>**Примечание**. Используйте пакет вычислений SCVMM только в том случае, если отслеживаете Hyper-V. Для гиперконвергентных развертываний в VMM также нужно указать параметр -Storage. Дополнительные сведения см. в [документации по VMM](/system-center/vmm/hyper-v-nano?view=sc-vmm-2016). |
 | Агент System Center Operations Manager | Устанавливается отдельно. Дополнительные сведения см. в документации по System Center Operations Manager: https://technet.microsoft.com/system-center-docs/om/manage/install-agent-on-nano-server. |
 | Мост для центра обработки данных (включая DCBQoS) | -Package Microsoft-NanoServer-DCB-Package |
 | Развертывание на виртуальной машине | -Package Microsoft-NanoServer-Guest-Package |
@@ -523,7 +523,7 @@ WSA является серверным расширением технолог�
 
 #### <a name="installing-driver-packages-offline"></a>Установка пакетов драйверов в автономном режиме
 
-Поддерживаемые пакеты драйверов можно установить на Nano Server в автономном режиме с помощью командлетов [DISM.exe](/windows-hardware/manufacture/desktop/dism-driver-servicing-command-line-options-s14) или [DISM PowerShell](/powershell/module/dism/add-windowsdriver?view=win10-ps).
+Поддерживаемые пакеты драйверов можно установить на Nano Server в автономном режиме с помощью командлетов [DISM.exe](/windows-hardware/manufacture/desktop/dism-driver-servicing-command-line-options-s14) или [DISM PowerShell](/powershell/module/dism/add-windowsdriver).
 
 #### <a name="installing-driver-packages-online"></a>Установка пакетов драйверов в сети
 Пакеты драйверов PnP можно установить на Nano Server в сети с помощью [PnpUtil](/windows-hardware/drivers/devtest/pnputil). Установка драйвера в сети для пакетов драйверов, отличных от PnP, на Nano Server сейчас не поддерживается.

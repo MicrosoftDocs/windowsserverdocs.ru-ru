@@ -7,12 +7,12 @@ author: eross-msft
 manager: mtillman
 ms.localizationpriority: medium
 ms.date: 06/03/2019
-ms.openlocfilehash: 0e477a404e7bef9ed1e201393a95e875c308e80f
-ms.sourcegitcommit: 5344adcf9c0462561a4f9d47d80afc1d095a5b13
+ms.openlocfilehash: f80e08817a8c7e4d3e9aef64f84d534413b32281
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90766897"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96865453"
 ---
 # <a name="whats-new-in-windows-server-version-1709"></a>Новые возможности Windows Server версии 1709
 
@@ -143,7 +143,7 @@ ms.locfileid: "90766897"
 
   - **ISATAP и 6to4**: В выпуске Creators Update эти технологии будут отключены по умолчанию, так как в будущем они будут отмечены как нерекомендуемые.
 - **Распознавание неработающих шлюзов (DGD)** : Алгоритм DGD автоматически переводит подключения на другой шлюз, если текущий шлюз недоступен. В этом выпуске алгоритм был улучшен и будет периодически повторно проверять сетевую среду.
-- [Test-NetConnection](/powershell/module/nettcpip/test-netconnection?view=win10-ps) — это встроенный командлет в Windows PowerShell, выполняющий различные процедуры диагностики сети.  В этом выпуске мы усовершенствовали данный командлет, чтобы он предоставлял подробные сведения о выборе как маршрута, так и адреса источника.
+- [Test-NetConnection](/powershell/module/nettcpip/test-netconnection) — это встроенный командлет в Windows PowerShell, выполняющий различные процедуры диагностики сети.  В этом выпуске мы усовершенствовали данный командлет, чтобы он предоставлял подробные сведения о выборе как маршрута, так и адреса источника.
 
 **Программно-конфигурируемая сеть**
 

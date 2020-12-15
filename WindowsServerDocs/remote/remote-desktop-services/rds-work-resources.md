@@ -5,12 +5,12 @@ ms.author: helohr
 ms.date: 10/26/2017
 ms.topic: article
 author: Heidilohr
-ms.openlocfilehash: 5124ce691793570f6ffa11a43975719addb89e67
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: cbcd6711b183b9a57309e72bf43c4b23fd135af4
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87970121"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96866243"
 ---
 # <a name="customize-the-rds-title-work-resources-using-powershell-on-windows-server"></a>Настройка заголовка "Рабочие ресурсы" для RDS с помощью PowerShell в Windows Server
 
@@ -40,4 +40,4 @@ ms.locfileid: "87970121"
     Set-RDWorkspace -Name "Contoso RemoteApps" -ConnectionBroker (Get-RDConnectionBrokerHighAvailability).ActiveManagementServer
 ```
 
-Дополнительные сведения о командлете Set-RDWorkspace см. в справочных материалах по [Set-RDWorkspace](/powershell/module/remotedesktop/set-rdworkspace?view=win10-ps).
+Дополнительные сведения о командлете Set-RDWorkspace см. в справочных материалах по [Set-RDWorkspace](/powershell/module/remotedesktop/set-rdworkspace).

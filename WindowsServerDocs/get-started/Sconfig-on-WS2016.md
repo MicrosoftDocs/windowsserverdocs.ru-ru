@@ -8,12 +8,12 @@ author: jaimeo
 ms.author: jaimeo
 manager: dongill
 ms.localizationpriority: medium
-ms.openlocfilehash: 727525d426a8417e642485be51db7206f3efa64a
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 8b3a28af19ef1840856b7751deb9b362451a5905
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87959472"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96865753"
 ---
 # <a name="configure-a-server-core-installation-of-windows-server-2016-or-windows-server-version-1709-with-sconfigcmd"></a>Настройка установки основных серверных компонентов Windows Server 2016 или Windows Server версии 1709 с помощью Sconfig.cmd
 
@@ -56,7 +56,7 @@ Sconfig.cmd можно использовать для установки осн
 Вы можете настроить автоматическое назначение IP-адреса DHCP-сервером или вручную назначить статический IP-адрес пользователя. Этот параметр позволяет также настраивать параметры DNS-сервера для сервера.
 
 > [!NOTE]
-> Эти параметры и многое другое доступны в командлетах Networking Windows PowerShell. Дополнительные сведения см. в разделе [Командлеты сетевого адаптера](/powershell/module/netadapter/?view=win10-ps) библиотеки Windows Server.
+> Эти параметры и многое другое доступны в командлетах Networking Windows PowerShell. Дополнительные сведения см. в разделе [Командлеты сетевого адаптера](/powershell/module/netadapter/) библиотеки Windows Server.
 
 ## <a name="windows-update-settings"></a>Параметры Центра обновления Windows
 

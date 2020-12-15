@@ -8,12 +8,12 @@ author: jaimeo
 ms.author: jaimeo
 manager: dongill
 ms.localizationpriority: medium
-ms.openlocfilehash: 862349c0601981f064becd8bd02a1b26b308dc48
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 68a684ad9c99014f8b0bab922de52319e99354b4
+ms.sourcegitcommit: 2365a7b23e2eccd13be350306c622d2ad9d36bc8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87959262"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "96788108"
 ---
 # <a name="upgrade-and-conversion-options-for-windows-server-2016"></a>Параметры обновления и преобразования для Windows Server 2016
 

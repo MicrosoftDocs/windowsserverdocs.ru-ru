@@ -6,12 +6,12 @@ author: jasongerend
 ms.author: jgerend
 ms.localizationpriority: high
 ms.date: 05/21/2019
-ms.openlocfilehash: 3e9ddf80c4891a621f8633df636bcc37608fd29b
-ms.sourcegitcommit: 5344adcf9c0462561a4f9d47d80afc1d095a5b13
+ms.openlocfilehash: 1aab06c4f5ff2b78960c8477176412d83e033882
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90766187"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96864173"
 ---
 # <a name="windows-server-servicing-channels-ltsc-and-sac"></a>Каналы обслуживания Windows Server: LTSC и SAC
 
@@ -163,7 +163,7 @@ OsVersion                     : 10.0.17763
 OsHardwareAbstractionLayer    : 10.0.17763.107
 ````
 
-Чтобы уточнить наличие на сервере новой [функции совместимости приложений основных серверных компонентов по требованию](./install-fod-19.md), воспользуйтесь командлетом [Get-WindowsCapability](/powershell/module/dism/get-windowscapability?view=win10-ps) и найдите:
+Чтобы уточнить наличие на сервере новой [функции совместимости приложений основных серверных компонентов по требованию](./install-fod-19.md), воспользуйтесь командлетом [Get-WindowsCapability](/powershell/module/dism/get-windowscapability) и найдите:
 ````
 Name    :     ServerCore.AppCompatibility~~~~0.0.1.0
 State   :     Installed

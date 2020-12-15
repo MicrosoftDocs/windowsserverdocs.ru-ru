@@ -7,12 +7,12 @@ ms.topic: article
 author: heidilohr
 manager: lizross
 ms.date: 02/19/2020
-ms.openlocfilehash: 2caecd2b625de8790ddd0d1ebfeeb9db24d11635
-ms.sourcegitcommit: faa5db4cdba4ad2b3a65533b6b49d960080923c9
+ms.openlocfilehash: 94deca783d770fb5322f9fc489d692f925cfa1a9
+ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91752916"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96866263"
 ---
 # <a name="optimizing-windows-10-version-1909-for-a-virtual-desktop-infrastructure-vdi-role"></a>Оптимизация Windows 10 версии 1909 для роли инфраструктуры виртуальных рабочих столов (VDI)
 
@@ -180,7 +180,7 @@ ms.locfileid: "91752916"
 
 [Windows 10 1607: Keeping apps from coming back when deploying the feature update](/archive/blogs/mniehaus/windows-10-1607-keeping-apps-from-coming-back-when-deploying-the-feature-update) (Windows 10 версии 1607: как сделать так, чтобы приложения не устанавливались заново при развертывании обновления компонента)
 
-Затем выполните команду PowerShell [Remove-AppxProvisionedPackage](/powershell/module/dism/remove-appxprovisionedpackage?view=win10-ps), чтобы удалить полезные данные приложений UWP.
+Затем выполните команду PowerShell [Remove-AppxProvisionedPackage](/powershell/module/dism/remove-appxprovisionedpackage), чтобы удалить полезные данные приложений UWP.
 
 ```powershell
 Remove-AppxProvisionedPackage -Online -PackageName
@@ -755,7 +755,7 @@ Windows по умолчанию собирает и хранит огранич�
 
 Применяется к Windows 10. Значение по умолчанию — **1023**. Этот параметр определяет максимальное число файлов, которые нужно оставить открытыми в общем ресурсе после того, как приложение закроет файл. Если много тысяч клиентов подключается к серверам SMB, попробуйте уменьшить это значение до **256**.
 
-Вы можете настроить многие из этих параметров SMB с помощью командлетов Windows PowerShell [Set-SmbClientConfiguration](/powershell/module/smbshare/set-smbclientconfiguration?view=win10-ps) и [Set-SmbServerConfiguration](/powershell/module/smbshare/set-smbserverconfiguration?view=win10-ps). Параметры реестра можно настроить с помощью Windows PowerShell, как показано в приведенном ниже примере.
+Вы можете настроить многие из этих параметров SMB с помощью командлетов Windows PowerShell [Set-SmbClientConfiguration](/powershell/module/smbshare/set-smbclientconfiguration) и [Set-SmbServerConfiguration](/powershell/module/smbshare/set-smbserverconfiguration). Параметры реестра можно настроить с помощью Windows PowerShell, как показано в приведенном ниже примере.
 
 ```powershell
 Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\LanmanWorkstation\Parameters" RequireSecuritySignature -Value 0 -Force

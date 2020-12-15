@@ -6,12 +6,12 @@ author: jasongerend
 ms.author: jgerend
 ms.localizationpriority: high
 ms.date: 06/04/2019
-ms.openlocfilehash: 6337a3812cb6e1ca838c463bc811f8959d1f0714
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 9260cf9cc377c5a0665e4ad6b3ca5871f016a256
+ms.sourcegitcommit: 2365a7b23e2eccd13be350306c622d2ad9d36bc8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87972371"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "96788041"
 ---
 # <a name="whats-new-in-windows-server-2019"></a>Новые возможности Windows Server 2019
 
@@ -69,7 +69,7 @@ Windows Admin Center представляет собой локально раз
 
 Функция [Управление приложениями в Защитнике Windows](/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control) (также известна как политика целостности кода (CI) была представлена в Windows Server 2016.
 Пользователи сообщали, что это отличное решение, которое, однако, сложно развернуть.
-Для решения этой проблемы мы создали политики целостности кода по умолчанию, которые разрешают исполнение всех файлов, по умолчанию входящих в состав Windows, и приложений Microsoft (например, SQL Server) и блокируют исполнение известных исполняемых файлов, способных обойти политику целостности кода. 
+Для решения этой проблемы мы создали политики целостности кода по умолчанию, которые разрешают исполнение всех файлов, по умолчанию входящих в состав Windows, и приложений Microsoft (например, SQL Server) и блокируют исполнение известных исполняемых файлов, способных обойти политику целостности кода. 
 
 ### <a name="security-with-software-defined-networking-sdn"></a>Безопасность программно-конфигурируемых сетей (SDN)
 
