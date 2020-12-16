@@ -7,12 +7,12 @@ ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: cf52b257dc91cb5dc2bd7ad6097ea95bd0e7a8b0
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: 96e9ee67b60c6c2e2125e8c518a70bdde7a9a863
+ms.sourcegitcommit: 6fbe337587050300e90340f9aa3e899ff5ce1028
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97049582"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "97599797"
 ---
 # <a name="install-a-new-windows-server-2012-active-directory-forest-level-200"></a>Установка нового леса Active Directory в Windows Server 2012 (уровень 200)
 
@@ -63,16 +63,16 @@ ms.locfileid: "97049582"
 ### <a name="functional-descriptions"></a>Описания функций
 
 #### <a name="ad-ds-role-installation"></a>Установка роли доменных служб Active Directory
-![Установка нового леса](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_SMI_SelectServerRoles.gif)
+![Снимок экрана, на котором показана страница ролей сервера в мастере добавления ролей и компонентов.](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_SMI_SelectServerRoles.gif)
 
 Для установки доменных служб Active Directory, так же как для установки всех остальных ролей сервера и компонентов в Windows Server 2012, используются диспетчер сервера и среда Windows PowerShell. Программа Dcpromo.exe больше не предоставляет графический интерфейс пользователя с параметрами настройки.
 
 Графический мастер в диспетчере сервера или модуль ServerManager для Windows PowerShell используются как для локальной, так и для удаленной установки. Запуская несколько экземпляров этого мастера или командлетов для разных серверов, можно одновременно развертывать доменные службы Active Directory в нескольких контроллерах домена из единой консоли. Хотя эти новые функции не имеют обратной совместимости с Windows Server 2008 R2 или более ранними операционными системами, вы по-прежнему можете использовать программу Dism.exe, появившуюся в Windows Server 2008 R2, для локальной установки роли из классической командной строки.
 
-![Установка нового леса](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_PSAddWindowsFeature.png)
+![Снимок экрана, показывающий окно терминала Windows PowerShell.](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_PSAddWindowsFeature.png)
 
 #### <a name="ad-ds-role-configuration"></a>Настройка роли доменных служб Active Directory
-![Установка нового леса](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_SMI_DeploymentConfiguration_Forest.gif)
+![Снимок экрана, на котором показана страница Конфигурация развертывания в мастере настройки служб домен Active Directory Services.](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_SMI_DeploymentConfiguration_Forest.gif)
 
 Настройка служб домен Active Directory "ранее называлась DCPROMO" теперь является отдельной операцией при установке роли. После установки роли доменных служб Active Directory администратор настраивает сервер в качестве контроллера домена с помощью отдельного мастера в диспетчере сервера или с помощью модуля Windows PowerShell ADDSDeployment.
 
@@ -84,7 +84,7 @@ ms.locfileid: "97049582"
 
 Эти новые функции не имеют обратной совместимости с Windows Server 2008 R2 или более поздними операционными системами.
 
-![Установка нового леса](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_PSInstallADDSForest.png)
+![Снимок экрана, показывающий окно терминала Windows PowerShell во время установки.](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_PSInstallADDSForest.png)
 
 > [!IMPORTANT]
 > Программа Dcpromo.exe больше не предоставляет графический мастер и не используется для установки двоичных файлов роли или компонента. При попытке запустить Dcpromo.exe из проводника происходит ошибка:
@@ -106,7 +106,7 @@ ms.locfileid: "97049582"
 ### <a name="server-manager-ad-ds-role-installation-process"></a>Процесс установки роли доменных служб Active Directory с помощью диспетчера сервера
 На схеме ниже показан процесс установки роли доменных служб Active Directory, начиная с запуска ServerManager.exe и заканчивая моментом перед повышением роли контроллера домена.
 
-![Установка нового леса](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/adds_servermanagerdeployment.png)
+![Схема, иллюстрирующая процесс установки роли домен Active Directory Services, начиная с запуска ServerManager.exe и заканчивая до повышения роли контроллера домена.](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/adds_servermanagerdeployment.png)
 
 #### <a name="server-pool-and-add-roles"></a>Пул серверов и добавление ролей
 Объединить в пул можно любые компьютеры с ОС Windows Server 2012, доступные с компьютера, на котором запущен диспетчер сервера. После объединения в пул эти серверы можно использовать для удаленной установки доменных служб Active Directory или любых других вариантов конфигурации, возможных в диспетчере сервера.
@@ -121,7 +121,7 @@ ms.locfileid: "97049582"
 
 Откроется диалоговое окно "Добавление серверов".
 
-![Установка нового леса](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_SMI_TR_AddServers.png)
+![Снимок экрана, на котором показана вкладка Active Directory в диалоговом окне "Добавление серверов".](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_SMI_TR_AddServers.png)
 
 В нем можно добавить серверы в пул для использования или группировки тремя способами:
 
@@ -138,59 +138,59 @@ ms.locfileid: "97049582"
 
 Вы можете установить роли удаленно на любые компьютеры Windows Server 2012, добавленные в пул, как показано на снимке экрана:
 
-![Установка нового леса](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/tADDS_SMI_TR_AddRolesFeatures.png)
+![Снимок экрана, показывающий, как можно установить роли удаленно на всех компьютерах Windows Server 2012, добавленных в пул.](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/tADDS_SMI_TR_AddRolesFeatures.png)
 
 Вы не можете полностью управлять серверами с более ранними операционными системами, чем Windows Server 2012. При выборе пункта **Добавить роли и компоненты** выполняется командлет **Install-WindowsFeature** из модуля Windows PowerShell ServerManager.
 
-![Установка нового леса](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_SMI_TR_AddADDSToAnotherServer.png)
+![Снимок экрана, показывающий пункт меню "добавить AD DS в другой сервер".](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_SMI_TR_AddADDSToAnotherServer.png)
 
 Вы также можете выбрать установку доменных служб Active Directory на удаленном сервере с предварительно выбранной ролью с помощью информационной панели диспетчера сервера на существующем контроллере домена, щелкнув плитку на информационной панели правой кнопкой мыши и выбрав пункт **Добавить AD DS на другой сервер**. Будет вызван командлет **Install-WindowsFeature AD-Domain-Services**.
 
 Компьютер с запущенным диспетчером сервера автоматически включает себя в пул. Чтобы установить на нем роль доменных служб Active Directory, просто откройте меню **Управление** и выберите пункт **Добавить роли и компоненты**.
 
-![Установка нового леса](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_SMI_TR_ManageAddRoles.png)
+![Снимок экрана, показывающий, как получить доступ к пункту меню "Добавить роли и компоненты".](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_SMI_TR_ManageAddRoles.png)
 
 #### <a name="installation-type"></a>Тип установки
-![Установка нового леса](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_SMI_TR_SelectInstallationType.png)
+![Снимок экрана, на котором показана страница "тип установки" в мастере добавления ролей и компонентов.](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_SMI_TR_SelectInstallationType.png)
 
 В диалоговом окне **Тип установки** есть вариант, при котором доменные службы Active Directory не поддерживаются: **Установка на основе служб удаленных рабочих столов**. При выборе этого варианта возможно использование только служб удаленных рабочих столов в распределенной среде с несколькими серверами. Установить доменные службы Active Directory в этом случае нельзя.
 
 При установке доменных служб Active Directory всегда оставляйте вариант по умолчанию: **Установка ролей или компонентов**.
 
 #### <a name="server-selection"></a>Выбор сервера
-![Установка нового леса](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_SMI_TR_SelectDestinationServer.png)
+![Снимок экрана, на котором показана страница выбора сервера в мастере удаления ролей и компонентов.](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_SMI_TR_SelectDestinationServer.png)
 
 В диалоговом окне **Выбор сервера** можно выбрать один из серверов, ранее добавленных в пул, если он доступен. Локальный сервер, на котором запущен диспетчер сервера, доступен автоматически.
 
 Кроме того, вы можете выбрать автономные VHD-файлы Hyper-V с операционной системой Windows Server 2012, и диспетчер сервера добавит в них роль напрямую с помощью системы предоставления компонентов. Таким образом можно предоставлять виртуальным серверам необходимые компоненты перед их дальнейшей настройкой.
 
 #### <a name="server-roles-and-features"></a>"Роли сервера" и "Компоненты"
-![Установка нового леса](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_SMI_TR_SelectServerRoles.png)
+![Снимок экрана, на котором показана страница ролей сервера в мастере добавления ролей и компонентов.](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_SMI_TR_SelectServerRoles.png)
 
 Если необходимо повысить роль контроллера домена, выберите роль **Доменные службы Active Directory**. Все функции администрирования Active Directory и необходимые службы устанавливаются автоматически, даже если они являются частью другой роли или не выбраны в интерфейсе диспетчера сервера.
 
 В диспетчере сервера также выводится информационное диалоговое окно, в котором показаны компоненты управления, неявно устанавливаемые вместе с этой ролью. Это равноценно использованию аргумента **-IncludeManagementTools**.
 
-![Установка нового леса](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_SMI_TR_AddFeaturesDialog.gif)
+![Снимок экрана, на котором показано, какие функции управления неявно устанавливаются этой ролью; Это эквивалентно аргументу-IncludeManagementTools.](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_SMI_TR_AddFeaturesDialog.gif)
 
-![Установка нового леса](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_SMI_TR_SelectFeatures.png)
+![Снимок экрана, на котором показана страница "компоненты" в мастере добавления ролей и компонентов.](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_SMI_TR_SelectFeatures.png)
 
 При необходимости здесь можно добавить дополнительные **компоненты**.
 
 #### <a name="active-directory-domain-services"></a>Доменные службы Active Directory
-![Установка нового леса](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_SMI_TR_ADDSIntro.png)
+![Снимок экрана, на котором показана страница AD DS в мастере ролей и компонентов удаления.](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_SMI_TR_ADDSIntro.png)
 
 В диалоговом окне **Доменные службы Active Directory** приводится ограниченная информация о требованиях и рекомендациях. В основном он выступает в качестве подтверждения того, что выбрана роль AD DS "Если этот экран не отображается, значит не выбрано AD DS.
 
 #### <a name="confirmation"></a>Подтверждение
-![Установка нового леса](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_SMI_TR_Confirmation.png)
+![Снимок экрана, на котором показана страница подтверждения в мастере добавления ролей и компонентов.](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_SMI_TR_Confirmation.png)
 
 Диалоговое окно **Подтверждение** — это последний этап перед установкой роли. С его помощью можно указать, что компьютер необходимо перезагрузить после установки роли, однако установка доменных служб Active Directory не требует перезагрузки.
 
 Нажимая кнопку **Установить**, вы подтверждаете готовность к установке роли. После того как установка роли начнется, отменить ее будет невозможно.
 
 #### <a name="results"></a>Результаты
-![Установка нового леса](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_SMI_TR_Results.png)
+![Снимок экрана, на котором показана страница результатов в мастере добавления ролей и компонентов.](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_SMI_TR_Results.png)
 
 В диалоговом окне **Результаты** показан ход установки и ее текущее состояние. Установка роли продолжится, даже если закрыть диспетчер сервера.
 
@@ -198,18 +198,18 @@ ms.locfileid: "97049582"
 
 **Уведомления о задачах**
 
-![Установка нового леса](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_SMI_TR_TaskNotofications.png)
+![Снимок экрана, на котором отображается уведомление о задаче.](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_SMI_TR_TaskNotofications.png)
 
 **Сведения AD DS**
 
-![Установка нового леса](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_SMI_TR_ADDSDetails.png)
+![Снимок экрана, на котором показано, где можно просмотреть сведения о AD DS.](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_SMI_TR_ADDSDetails.png)
 
 **Сведения о задаче**
 
-![Установка нового леса](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_SMI_TR_TaskDetails.png)
+![Снимок экрана, на котором показано, где можно просмотреть сведения о задаче.](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_SMI_TR_TaskDetails.png)
 
 #### <a name="promote-to-domain-controller"></a>Повышение роли до контроллера домена
-![Установка нового леса](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_SMI_TR_Promote.png)
+![Снимок экрана, на котором показана связь передвинуть этот сервер к контроллеру домена.](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_SMI_TR_Promote.png)
 
 После того как установка роли доменных служб Active Directory завершится, можно продолжить настройку с помощью ссылки **Повысить роль этого сервера до уровня контроллера домена**. Это необходимо для того, чтобы сделать сервер контроллером домена, однако мастер настройки запускать сразу необязательно. Например, может потребоваться предоставить серверам двоичные файлы роли доменных служб Active Directory, а затем отправить их в другой филиал для дальнейшей настройки. Добавив роль доменных служб Active Directory перед отправкой, можно сэкономить время, требуемое для настройки на месте назначения. При этом также выполняется рекомендация, в соответствии с которой контроллер домена не следует отключать на несколько дней или недель. Наконец, это позволяет обновить компоненты перед повышением роли контроллера домена и уменьшить число последующих перезагрузок по крайней мере на одну.
 
@@ -228,10 +228,10 @@ ms.locfileid: "97049582"
 ### <a name="create-an-ad-ds-forest-root-domain-with-server-manager"></a>Создание корневого домена леса доменных служб Active Directory с помощью диспетчера сервера
 На схеме ниже показан процесс настройки доменных служб Active Directory. Предполагается, что вы ранее установили роль доменных служб Active Directory и запустили **мастер настройки доменных служб Active Directory** с помощью диспетчера сервера.
 
-![Установка нового леса](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/adds_forestdeploy2.png)
+![Схема, на которой показан процесс настройки домен Active Directory Services, если ранее была установлена роль AD DS и запущен мастер настройки домен Active Directory Services с помощью диспетчер сервера. ](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/adds_forestdeploy2.png)
 
 #### <a name="deployment-configuration"></a>Конфигурация развертывания
-![Установка нового леса](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_SMI_TR_AddNewForest.png)
+![Снимок экрана, на котором показана конфигурация развертывания.](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_SMI_TR_AddNewForest.png)
 
 Повышение роли каждого контроллера домена начинается в диспетчере сервера на странице **Конфигурация развертывания**. Оставшиеся параметры и обязательные поля меняются на этой и последующих страницах в зависимости от того, какая операция развертывания выбрана.
 
@@ -247,7 +247,7 @@ ms.locfileid: "97049582"
 Аргумент **DomainName** обязателен, и ему должно быть присвоено полное доменное имя DNS.
 
 #### <a name="domain-controller-options"></a>Параметры контроллера домена
-![Установка нового леса](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_SMI_DCOptions_Forest.gif)
+![Снимок экрана, показывающий параметры контроллера домена в мастере настройки служб домен Active Directory Services.](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_SMI_DCOptions_Forest.gif)
 
 На странице **Параметры контроллера домена** можно настроить **режим работы леса** и **режим работы домена** для нового корневого домена леса. По умолчанию эти параметры являются Windows Server 2012 в новом корневом домене леса. Функциональный уровень леса Windows Server 2012 не предоставляет никаких новых функциональных возможностей по отношению к режиму работы леса Windows Server 2008 R2. Режим работы домена Windows Server 2012 является обязательным только для реализации новых параметров Kerberos "всегда предоставлять утверждения" и "отказ в незащищенных запросах проверки подлинности". В основном использование функциональных уровней в Windows Server 2012 заключается в ограничении участия в домене контроллерами домена, которые удовлетворяют минимально разрешенным требованиям к операционной системе. Иными словами, можно указать только контроллеры домена Windows Server 2012, на которых выполняется Windows Server 2012, может размещаться домен.  В Windows Server 2012 реализован новый флаг контроллера домена, именуемый **DS_WIN8_REQUIRED** в функции **DSGetDcName** службы Netlogon, которая только находит контроллеры домена Windows Server 2012. Это позволяет более гибко создавать однородные или разнородные леса с учетом операционных систем, под управлением которых могут работать контроллеры домена.
 
@@ -258,7 +258,7 @@ ms.locfileid: "97049582"
 Назначаемый **пароль режима восстановления служб каталогов** должен соответствовать применяемой к серверу политике паролей, которая по умолчанию не требует надежного пароля — допускается любой непустой пароль. Необходимо всегда выбирать надежный и сложный пароль, предпочтительно парольную фразу.
 
 #### <a name="dns-options-and-dns-delegation-credentials"></a>Параметры DNS и учетные данные для делегирования DNS
-![Установка нового леса](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_SMI_TR_ForestDNSOptions.png)
+![Снимок экрана, на котором показаны параметры DNS в мастере настройки служб домен Active Directory Services.](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_SMI_TR_ForestDNSOptions.png)
 
 На странице **Параметры DNS** можно настроить делегирование DNS и указать альтернативные учетные данные администратора DNS.
 
@@ -267,7 +267,7 @@ ms.locfileid: "97049582"
 Дополнительные сведения о необходимости создания DNS-делегирования см. в статье [Общее представление о делегировании зоны](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc771640(v=ws.11)).
 
 #### <a name="additional-options"></a>Дополнительные параметры
-![Установка нового леса](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_SMI_TR_ForestAdditionalOptions.png)
+![Снимок экрана, на котором показана страница дополнительных параметров в мастере настройки служб домен Active Directory Services.](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_SMI_TR_ForestAdditionalOptions.png)
 
 На странице **Дополнительные параметры** приводится NetBIOS-имя домена, которое вы можете переопределить. По умолчанию NetBIOS-имя домена совпадает с крайним левым компонентом полного доменного имени, указанного на странице **Конфигурация развертывания**. Например, если указано полное доменное имя corp.contoso.com, NetBIOS-имя домена по умолчанию — CORP.
 
@@ -276,12 +276,12 @@ ms.locfileid: "97049582"
 Подробнее о допустимых доменных именах см. в статье базы знаний [Соглашения об именовании в Active Directory для компьютеров, доменов, сайтов и подразделений](https://support.microsoft.com/kb/909264).
 
 #### <a name="paths"></a>Пути
-![Установка нового леса](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_SMI_TR_ForestPaths.png)
+![Снимок экрана, на котором показана страница «пути» в мастере настройки служб домен Active Directory Services.](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_SMI_TR_ForestPaths.png)
 
 Страница **Пути** позволяет переопределить расположение папок по умолчанию для базы данных AD DS, журналов транзакций базы данных и общего доступа к SYSVOL. Расположение по умолчанию всегда в подкаталогах %systemroot% (т. е. C:\Windows).
 
 #### <a name="review-options-and-view-script"></a>"Просмотреть параметры" и "Просмотреть скрипт"
-![Установка нового леса](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_SMI_TR_ForestReviewOptions.png)
+![Снимок экрана, на котором показана страница "Параметры проверки" в мастере настройки служб домен Active Directory Services.](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_SMI_TR_ForestReviewOptions.png)
 
 Страница **Просмотреть параметры** позволяет проверить параметры перед установкой и убедиться, что они отвечают требованиям. Позднее установку также можно будет остановить с помощью диспетчера сервера. Эта страница позволяет подтвердить параметры перед продолжением настройки.
 
@@ -312,7 +312,7 @@ Install-ADDSForest `
 > Диспетчер сервера обычно задает значения для всех аргументов при повышении роли, не полагаясь на значения по умолчанию (так как они могут изменяться в будущих версиях Windows или пакетах обновления). Единственным исключением является аргумент **-safemodeadministratorpassword** (который намеренно опущен в скрипте). Для принудительного вывода запроса на подтверждение не указывайте значение при интерактивном выполнении командлета.
 
 #### <a name="prerequisites-check"></a>Проверка готовности к установке
-![Установка нового леса](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_SMI_TR_ForestPrereqCheck.png)
+![Снимок экрана, на котором показана страница проверки готовности в мастере настройки служб домен Active Directory Services.](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_SMI_TR_ForestPrereqCheck.png)
 
 **Проверка предварительных требований** — это новая функция настройки доменных служб Active Directory. На этом новом этапе проверяется возможность поддержки нового леса доменных служб Active Directory конфигурацией сервера.
 
@@ -323,7 +323,7 @@ Install-ADDSForest `
 Подробнее о проверках предварительных требований см. в разделе [Проверка предварительных требований](../../ad-ds/manage/AD-DS-Simplified-Administration.md#BKMK_PrereuisiteChecking).
 
 #### <a name="installation"></a>Установка
-![Установка нового леса](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_SMI_TR_ForestInstallation.png)
+![Снимок экрана, на котором показана страница установки в мастере настройки служб домен Active Directory Services.](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_SMI_TR_ForestInstallation.png)
 
 Когда появляется страница **Установка**, это означает, что настройка контроллера домена началась и ее нельзя остановить или отменить. Подробная информация об операциях выводится на этой странице и записывается в следующие журналы:
 
@@ -335,7 +335,7 @@ Install-ADDSForest `
 > Из одной консоли диспетчера сервера можно одновременно запустить несколько мастеров установки роли и настройки доменных служб Active Directory.
 
 #### <a name="results"></a>Результаты
-![Установка нового леса](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_SMI_TR_ForestSignOff.png)
+![Снимок экрана, на котором показана страница результатов, на которой можно увидеть, успешно ли выполнено повышение.](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_SMI_TR_ForestSignOff.png)
 
 На странице **Результаты** показано, успешно ли было выполнено повышение роли, а также приводится важная для администраторов информация. Контроллер домена автоматически перезагрузится через 10 секунд.
 
@@ -347,7 +347,7 @@ Install-ADDSForest `
 
 На схеме ниже показан процесс установки роли доменных служб Active Directory, начиная с запуска **PowerShell.exe** и заканчивая моментом перед повышением роли контроллера домена.
 
-![Установка нового леса](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/adds_servermanagerdeployment_powershell.png)
+![Схема, иллюстрирующая процесс установки роли домен Active Directory Services, начиная с PowerShell.exe и заканчивая до повышения роли контроллера домена.](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/adds_servermanagerdeployment_powershell.png)
 
 | Командлет ServerManager | Аргументы (аргументы, выделенные **жирным шрифтом**, являются обязательными. Аргументы, выделенные *курсивом*, можно указать с помощью Windows PowerShell или мастера настройки доменных служб Active Directory). |
 |--|--|
@@ -366,7 +366,7 @@ Get-Command -module ServerManager
 
 Пример.
 
-![Установка нового леса](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_PSGetCommand.png)
+![Снимок экрана окна терминала, в котором показано, где найти командлет Install-WindowsFeature.](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_PSGetCommand.png)
 
 Чтобы добавить роль доменных служб Active Directory, просто выполните командлет **Install-WindowsFeature** с именем этой роли в качестве аргумента. Так же как при использовании диспетчера сервера, все службы, необходимые для роли доменных служб Active Directory, устанавливаются автоматически.
 
@@ -382,7 +382,7 @@ Install-WindowsFeature -name AD-Domain-Services -IncludeManagementTools
 
 Пример.
 
-![Установка нового леса](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_PSInstallWinFeature.png)
+![Снимок экрана окна терминала, в котором показано, где можно указать аргумент-IncludeManagementTools.](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_PSInstallWinFeature.png)
 
 Чтобы вывести список всех компонентов и ролей с состоянием их установки, используйте командлет **Get-WindowsFeature** без аргументов. Чтобы получить состояние установки с удаленного сервера, укажите аргумент **-ComputerName**.
 
@@ -422,11 +422,11 @@ Install-WindowsFeature | select-object | Format-List
 
 ```
 
-![Установка нового леса](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_PSInstallADDS.png)
+![Снимок экрана окна терминала, в котором показано, как можно создавать доступные для чтения результаты.](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_PSInstallADDS.png)
 
 Обратите внимание на интересные данные, которые возвращает командлет **Select-Object** с аргументом **-expandproperty**:
 
-![Установка нового леса](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_PSInstallADDSWithTools.png)
+![Снимок экрана окна терминала, в котором показано, как использование командлета Select-Object с аргументом-експандпроперти возвращает интересные данные.](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_PSInstallADDSWithTools.png)
 
 > [!NOTE]
 > Аргумент **Select-Object -expandproperty** немного снижает общую производительность установки.
@@ -541,7 +541,7 @@ $pw | ConvertFrom-SecureString | Set-Content $file
 
 Пример.
 
-![Установка нового леса](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_PSPaths.png)
+![Снимок экрана окна терминала, в котором показано, как использовать необязательный аргумент WhatIf с командлетом Install-ADDSForest для просмотра сведений о конфигурации.](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_PSPaths.png)
 
 При использовании диспетчера сервера пропустить **проверку предварительных требований** нельзя, однако это можно сделать при использовании командлета развертывания доменных служб Active Directory с помощью следующего аргумента:
 
@@ -554,9 +554,9 @@ $pw | ConvertFrom-SecureString | Set-Content $file
 
 Обратите внимание на то, что командлет **Install-ADDSForest**, как и диспетчер сервера, напоминает об автоматической перезагрузке сервера после повышения роли:
 
-![Установка нового леса](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_PSReboot.png)
+![Снимок экрана окна терминала, в котором отображается Install-ADDSForest напоминание о том, что при повышении будет выполнена автоматическая перезагрузка сервера.](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_PSReboot.png)
 
-![Установка нового леса](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_PSInstallProgress.png)
+![Снимок экрана окна терминала, показывающего ход выполнения процесса перезагрузки.](media/Install-a-New-Windows-Server-2012-Active-Directory-Forest--Level-200-/ADDS_PSInstallProgress.png)
 
 Чтобы автоматически закрывать напоминание о перезагрузке, используйте аргументы **-force** или **-confirm:$false** с любым командлетом Windows PowerShell ADDSDeployment. Чтобы предотвратить автоматическую перезагрузку сервера по завершении повышения роли, используйте аргумент **-norebootoncompletion**.
 

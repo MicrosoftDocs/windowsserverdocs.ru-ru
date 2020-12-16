@@ -5,12 +5,12 @@ ms.date: 11/12/2012
 author: JasonGerend
 manager: lizross
 ms.author: jgerend
-ms.openlocfilehash: e6b7c2a3af136fa7c3970de4550609f4eaa9fa8d
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: 86662b623adb0a482c843286608a796b923e13fd
+ms.sourcegitcommit: 6fbe337587050300e90340f9aa3e899ff5ce1028
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97041072"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "97599627"
 ---
 # <a name="configuring-cluster-accounts-in-active-directory"></a>Настройка учетных записей кластеров в Active Directory
 
@@ -156,7 +156,7 @@ ms.locfileid: "97041072"
 
    6.  В диалоговом окне **запись разрешения для**_контейнера_ выберите разрешения **Создание объектов компьютера** и **чтение всех свойств** и убедитесь, что флажок **Разрешить** установлен для каждого из них.
 
-       ![Диалоговое окно "запись разрешений"](media/configure-ad-accounts/Cc731002.0a863ac5-2024-4f9f-8a4d-a419aff32fa0(WS.10).gif)
+       ![Снимок экрана, на котором для параметра Create Computer objects задано значение Allow. ](media/configure-ad-accounts/Cc731002.0a863ac5-2024-4f9f-8a4d-a419aff32fa0(WS.10).gif)
 
 ## <a name="steps-for-prestaging-the-cluster-name-account"></a>Действия по предварительной настройке учетной записи имени кластера
 
@@ -208,7 +208,7 @@ ms.locfileid: "97041072"
 
     5.  Убедитесь, что выбрана только что добавленная учетная запись пользователя, а затем рядом с полем **полный доступ** установите флажок **Разрешить** .
 
-        ![Диалоговое окно "запись разрешений"](media/configure-ad-accounts/Cc731002.fffaafe2-a494-498b-974c-8f9d70f7103b(WS.10).gif)
+        ![Снимок экрана, на котором показана вкладка "безопасность" в диалоговом окне свойств Cluster1.](media/configure-ad-accounts/Cc731002.fffaafe2-a494-498b-974c-8f9d70f7103b(WS.10).gif)
 
 ## <a name="steps-for-prestaging-an-account-for-a-clustered-service-or-application"></a>Действия по предварительной настройке учетной записи для кластеризованной службы или приложения
 
@@ -306,7 +306,7 @@ ms.locfileid: "97041072"
 
 9. Для учетной записи имени кластера (также известной как объект имени кластера или CNO) убедитесь, что параметр **Разрешить** выбран для разрешений **Создание объектов-компьютеров** и **чтение всех свойств** .
 
-   ![Диалоговое окно "запись разрешений"](media/configure-ad-accounts/Cc731002.f5977c4d-a62e-4b17-81e3-8c19ddca2078(WS.10).gif)
+   ![Снимок экрана, на котором отображается диалоговое окно "запись разрешения" с параметром создать объекты компьютеров, имеющим значение Разрешить.](media/configure-ad-accounts/Cc731002.f5977c4d-a62e-4b17-81e3-8c19ddca2078(WS.10).gif)
 
 10. Нажмите кнопку **ОК** , чтобы вернуться в оснастку **Active Directory пользователи и компьютеры** .
 

@@ -7,12 +7,12 @@ ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: d54ed836b60c4b1551b3a87ff92a50f2b10bda23
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: 21b379b8138e95b70ebae91b34b8955e20715b3b
+ms.sourcegitcommit: 6fbe337587050300e90340f9aa3e899ff5ce1028
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97046002"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "97599697"
 ---
 # <a name="simplified-administration-appendix"></a>Приложение по упрощенному администрированию
 
@@ -100,6 +100,6 @@ Windows Server 2012 добавляет два дополнительных па�
 |Создание полной Нодефраг% s|Создание носителя IFM без дефрагментации полного контроллера домена AD или экземпляра AD/LDS в папке% s|
 |Создание полного SYSVOL Нодефраг% s|Создание носителя IFM с SYSVOL и без дефрагментации для полного контроллера домена AD в папке% s|
 
-![Упрощенное администрирование](media/Simplified-Administration-Appendix/ADDS_PSIFM.png)
+![Снимок экрана окна терминала, в котором показан процесс создания носителя IFM.](media/Simplified-Administration-Appendix/ADDS_PSIFM.png)
 
-![Упрощенное администрирование](media/Simplified-Administration-Appendix/ADDS_PSIFMComplete.gif)
+![Снимок экрана: окно терминала, в котором показан носитель IFM, успешно создан.](media/Simplified-Administration-Appendix/ADDS_PSIFMComplete.gif)

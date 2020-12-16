@@ -1,18 +1,18 @@
 ---
 description: Дополнительные сведения см. в статье Архитектура виртуализированного контроллера домена.
-ms.assetid: 341614c6-72c2-444f-8b92-d2663aab7070
+s.assetid: 341614c6-72c2-444f-8b92-d2663aab7070
 title: Архитектура виртуализованных контроллеров доменов
 author: iainfoulds
 ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 6f8984528aab0d1929d2a90d9558288b2c4cdf03
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: 42a0bdd3fc8e6ec45c884322c1de71088a679837
+ms.sourcegitcommit: 6fbe337587050300e90340f9aa3e899ff5ce1028
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97045822"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "97599656"
 ---
 # <a name="virtualized-domain-controller-architecture"></a>Архитектура виртуализованных контроллеров доменов
 
@@ -38,7 +38,7 @@ ms.locfileid: "97045822"
 
 **Операция начального клонирования**
 
-![Архитектура виртуализированного контроллера домена](media/Virtualized-Domain-Controller-Architecture/ADDS_VDC_InitialCloningProcess.png)
+![Схема, показывающая архитектуру для начальной операции клонирования и для операции повтора клонирования.](media/Virtualized-Domain-Controller-Architecture/ADDS_VDC_InitialCloningProcess.png)
 
 **Операция повторной попытки клонирования**
 
@@ -156,7 +156,7 @@ ms.locfileid: "97045822"
 ### <a name="safe-restore-detailed-processing"></a>Подробный процесс безопасного восстановления
 Следующая блок-схема показывает, как именно происходит безопасное восстановление, когда виртуальный контроллер домена запускается после того, как моментальный снимок был восстановлен при отключенном контроллере домена
 
-![Архитектура виртуализированного контроллера домена](media/Virtualized-Domain-Controller-Architecture/ADDS_VDC_VirtualizationSafeguardsDuringNormalBoot.png)
+![Блок-схема, показывающая, как безвозвратное восстановление происходит при запуске виртуального контроллера домена после восстановления моментального снимка при завершении работы.](media/Virtualized-Domain-Controller-Architecture/ADDS_VDC_VirtualizationSafeguardsDuringNormalBoot.png)
 
 1.  Когда виртуальная машина загружается после восстановления моментального снимка, она получает новый ИД создания виртуальной машины, заданный узлом низкоуровневой оболочки в связи с восстановлением моментального снимка.
 
@@ -173,7 +173,7 @@ ms.locfileid: "97045822"
 
 На следующей схеме показано, как меры безопасности виртуализации предотвращают расхождение, вносимое откатом номера последовательного обновления при восстановлении снимка на запущенном виртуальном контроллере домена.
 
-![Архитектура виртуализированного контроллера домена](media/Virtualized-Domain-Controller-Architecture/ADDS_VDC_VirtualizationSafeguardsDuringSnapShotRestore.png)
+![Схема, показывающая, как защита виртуализации предотвращает расхождение, инициированное откатом USN при восстановлении моментального снимка на работающем виртуальном контроллере домена.](media/Virtualized-Domain-Controller-Architecture/ADDS_VDC_VirtualizationSafeguardsDuringSnapShotRestore.png)
 
 > [!NOTE]
 > Предыдущая иллюстрация специально упрощена, чтобы продемонстрировать наиболее основные принципы.

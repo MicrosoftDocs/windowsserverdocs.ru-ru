@@ -7,12 +7,12 @@ ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: fd35c76efa8419df1b1032ddf551b054c4d290e9
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: eb59f5626ac36f844716035c6dfb5de4815ec2d6
+ms.sourcegitcommit: 6fbe337587050300e90340f9aa3e899ff5ce1028
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97043392"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "97599817"
 ---
 # <a name="virtualized-domain-controller-deployment-and-configuration"></a>Развертывание и настройка виртуализированного контроллера домена
 
@@ -123,7 +123,7 @@ ms.locfileid: "97043392"
 
 На следующей схеме показан процесс клонирования виртуализированного контроллера домена, при котором домен уже существует.
 
-![Развертывание виртуализированного контроллера домена](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_CloningProcessFlow.png)
+![Схема, иллюстрирующая процесс клонирования виртуализированного контроллера домена, в котором домен уже существует.](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_CloningProcessFlow.png)
 
 ### <a name="step-1---validate-the-hypervisor"></a>Шаг 1. Проверка низкоуровневой оболочки
 Изучите документацию поставщика, чтобы убедиться, что исходный контроллер домена выполняется в поддерживаемой низкоуровневой оболочке. Виртуализированные контроллеры домена не привязаны к низкоуровневой оболочке и не требуют Hyper-V.
@@ -132,7 +132,7 @@ ms.locfileid: "97043392"
 
 Откройте **Devmgmt.msc** и просмотрите раздел **Системные устройства** на наличие установленных драйверов и устройств Microsoft Hyper-V. Для виртуализированного контроллера домена требуется системное устройство **Microsoft Hyper-V Generation Counter** (драйвер: vmgencounter.sys).
 
-![Развертывание виртуализированного контроллера домена](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_HyperVVMGenIDCounter.png)
+![Снимок экрана, на котором показаны подробные сведения о счетчике создания Microsoft Hyper-V.](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_HyperVVMGenIDCounter.png)
 
 ### <a name="step-2---verify-the-pdce-fsmo-role"></a>Шаг 2. Проверка роли PDCE FSMO
 Прежде чем пытаться клонировать контроллер домена, вам следует убедиться, что контроллер домена, где размещается эмулятор основного контроллера домена FSMO, работает под управлением Windows Server 2012. Эмулятор PDC (PDCE) необходим по нескольким причинам:
@@ -181,7 +181,7 @@ get-adcomputer(Get-ADDomainController -Discover -Service "PrimaryDC").name -prop
 
 Приведенный ниже пример показывает задание имени домена и фильтрацию возвращенных свойств перед конвейером Windows PowerShell:
 
-![Развертывание виртуализированного контроллера домена](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_PDCOSInfo.png)
+![Снимок экрана окна терминала, в котором демонстрируется указание имени домена и фильтрация возвращаемых свойств до конвейера Windows PowerShell.](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_PDCOSInfo.png)
 
 ### <a name="step-3---authorize-a-source-dc"></a>Шаг 3. Авторизация исходного контроллера домена
 Исходный контроллер домена должен иметь право управления доступом **Разрешить контроллеру домена клонировать себя** в заголовке контекста именования домена. По умолчанию известная группа  **Клонируемые контроллеры домена** имеет такое разрешение и не содержит членов. PDCE создает эту группу, когда роль переносится FSMO на контроллер домена Windows Server 2012.
@@ -201,7 +201,7 @@ Get-adcomputer <dc name> | %{add-adgroupmember "cloneable domain controllers" $_
 
 Например, эта команда добавляет DC1 сервера в группу, не требуя указывать различающееся имя члена группы:
 
-![Развертывание виртуализированного контроллера домена](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_AddDcToGroup.png)
+![Снимок экрана окна терминала, в котором отображается команда для добавления сервера в группу ](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_AddDcToGroup.png)
 
 #### <a name="rebuilding-default-permissions"></a>Повторное создание разрешений по умолчанию
 Если удалить разрешение из заголовка домена, клонирование завершается с ошибкой. Вы можете воссоздать разрешение с помощью центра администрирования Active Directory или Windows PowerShell.
@@ -289,7 +289,7 @@ New-ADDCCloneConfigFile
 
 - Исходный контроллер домена уже не содержит файл DcCloneConfig.xml по указанному пути
 
-![Развертывание виртуализированного контроллера домена](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_PSNewDCCloneConfig.png)
+![Снимок экрана окна терминала, в котором отображаются выполняемые тесты.](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_PSNewDCCloneConfig.png)
 
 ### <a name="step-6---take-the-source-domain-controller-offline"></a>Шаг 6. Перевод исходного контроллера домена в автономный режим
 Вы не можете скопировать выполняющийся исходный контроллер домена, сначала для него необходимо обеспечить нормальное завершение работы. Не клонируйте контроллер домена, работа которого не была завершена безопасным образом, например, отключившегося при сбое питания.
@@ -297,9 +297,9 @@ New-ADDCCloneConfigFile
 #### <a name="graphical-method"></a>Графический метод
 Используйте кнопку завершения работы в выполняемом контроллере домена или кнопку завершения работы в диспетчере Hyper-V.
 
-![Развертывание виртуализированного контроллера домена](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_Shutdown.png)
+![Снимок экрана, на котором показана кнопка "завершение работы" в работающем контроллере домена.](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_Shutdown.png)
 
-![Развертывание виртуализированного контроллера домена](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_HyperVShutdown.png)
+![Снимок экрана, на котором показана кнопка завершения работы диспетчера Hyper-V.](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_HyperVShutdown.png)
 
 #### <a name="windows-powershell-method"></a>Метод с Windows PowerShell
 Вы можете завершить работу виртуальной машины с помощью одного из следующих командлетов:
@@ -311,9 +311,9 @@ Stop-vm
 
 Stop-computer — это командлет, поддерживающий завершение работы компьютеров без учета виртуализации, он аналогичен устаревшей служебной программе Shutdown.exe. Stop-vm — это новый командлет в модуле Windows PowerShell Windows Server 2012 Hyper-V, который по возможностям аналогичен диспетчеру Hyper-V. Второй командлет удобно использовать в лабораторных средах, где контроллер домена часто работает в частной виртуализированной сети.
 
-![Развертывание виртуализированного контроллера домена](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_StopComputer2.png)
+![Снимок экрана окна терминала, в котором показано, как использовать командлет "останавливает-компьютер".](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_StopComputer2.png)
 
-![Развертывание виртуализированного контроллера домена](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_StopVM.png)
+![Снимок экрана окна терминала, в котором показано, как использовать командлет "останавливаюте виртуальные машины".](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_StopVM.png)
 
 ### <a name="step-7---copy-disks"></a>Шаг 7. Копирование дисков
 На этапе копирование необходимо принять решение административного характера:
@@ -338,11 +338,11 @@ Stop-computer — это командлет, поддерживающий зав
 ##### <a name="hyper-v-manager-method"></a>Метод для диспетчера Hyper-V
 Используйте оснастку диспетчера Hyper-V, чтобы определить, какие диски сопоставлены с данным исходным контроллером домена. Используйте параметр "Проверить", чтобы проверить, использует ли контроллер домена разностные диски (что также требует копирования родительского диска).
 
-![Развертывание виртуализированного контроллера домена](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_HyperVInspect.png)
+![Снимок экрана, показывающий, как использовать параметр проверки.](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_HyperVInspect.png)
 
 Чтобы удалить моментальные снимки, выберите виртуальную машину и удалите поддерево снимков.
 
-![Развертывание виртуализированного контроллера домена](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_HyperVDeleteSnapshot.gif)
+![Снимок экрана, показывающий, как удалить моментальный снимок.](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_HyperVDeleteSnapshot.gif)
 
 После этого вы можете вручную скопировать файлы VHD или VHDX с помощью проводника, Xcopy.exe или Robocopy.exe. Никакие специальные действия при этом не требуются. Рекомендуется изменять имена файлов даже при перемещении в другую папку.
 
@@ -361,7 +361,7 @@ Get-vmharddiskdrive
 
 Например, вы можете возвратить все жесткие диски IDE из виртуальной машины с именем **DC2** с помощью следующего примера:
 
-![Развертывание виртуализированного контроллера домена](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_ReturnIDE.png)
+![Снимок экрана, показывающий, как вернуть все жесткие диски IDE с виртуальной машины с именем DC2.](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_ReturnIDE.png)
 
 Если путь к диску указывает на файл AVHD или AVHDX, это моментальный снимок. Чтобы удалить сопоставленные с диском моментальные снимки и объединить все в реальный файл VHD или VHDX, используйте следующие командлеты:
 
@@ -372,7 +372,7 @@ Remove-VMSnapshot
 
 Например, чтобы удалить все снимки из виртуальной машины с именем DC2-SOURCECLONE, используйте следующее:
 
-![Развертывание виртуализированного контроллера домена](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_DelSnapshots.png)
+![Снимок экрана, на котором показано, как удалить все моментальные снимки виртуальной машины с именем DC2-САУРЦЕКЛОНЕ.](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_DelSnapshots.png)
 
 Чтобы скопировать файлы с помощью Windows PowerShell, используйте следующий командлет:
 
@@ -386,7 +386,7 @@ Copy-Item
 Get-VMIdeController dc2-sourceclone | Get-VMHardDiskDrive | select-Object {copy-item -path $_.path -destination c:\temp\copy.vhd}
 ```
 
-![Развертывание виртуализированного контроллера домена](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_PSCopyDrive.png)
+![Снимок экрана, на котором показано, как скопировать диск автономного исходного контроллера домена с именем DC2-САУРЦЕКЛОНЕ на новый диск с именем к:\темп\копи.Вхд без необходимости знать точный путь к системному диску.](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_PSCopyDrive.png)
 
 > [!IMPORTANT]
 > Вы не можете использовать транзитные диски в процедуре клонирования, так как они не используют не файл виртуального диска, а непосредственно жесткий диск.
@@ -397,7 +397,7 @@ Get-VMIdeController dc2-sourceclone | Get-VMHardDiskDrive | select-Object {copy-
 #### <a name="exporting-the-vm"></a>Экспорт виртуальной машины
 В качестве альтернативы копированию дисков вы можете экспортировать всю виртуальную машину Hyper-V в виде копии. При экспорте автоматически создается папка с именем для этой виртуальной машины, содержащая все диски и сведения о конфигурации.
 
-![Развертывание виртуализированного контроллера домена](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_HyperVExport.png)
+![Снимок экрана, на котором показано, где можно экспортировать всю виртуальную машину Hyper-V как копию.](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_HyperVExport.png)
 
 ##### <a name="hyper-v-manager-method"></a>Метод для диспетчера Hyper-V
 Порядок экспорта виртуальной машины с помощью диспетчера Hyper-V:
@@ -417,7 +417,7 @@ Export-vm
 
 Например, для экспорта виртуальной машины с именем DC2-SOURCECLONE в папку C:\VM:
 
-![Развертывание виртуализированного контроллера домена](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_PSExport.png)
+![Снимок экрана, показывающий, как экспортировать виртуальную машину с именем DC2-САУРЦЕКЛОНЕ в папку с именем К:\ВМ.](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_PSExport.png)
 
 > [!NOTE]
 > Windows Server 2012 Hyper-V поддерживает новые возможности импорта и экспорта, выходящие за рамки данного материала. Дополнительные сведения см. в статьях на сайте TechNet.
@@ -445,7 +445,7 @@ Convert-vm
 
 Например, для экспорта всей цепочки снимков дисков виртуальной машины (на этот раз без разностных дисков) и родительского диска в новый отдельный диск с именем DC4-CLONED.VHDX используйте следующее:
 
-![Развертывание виртуализированного контроллера домена](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_PSConvertVhd.png)
+![Снимок экрана окна терминала, в котором показано, как экспортировать всю цепочку моментальных снимков диска виртуальной машины и родительского диска в новый один диск с именем DC4. ФОРМАТЕ](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_PSConvertVhd.png)
 
 #### <a name="adding-xml-to-the-offline-system-disk"></a><a name="BKMK_Offline"></a>Добавление XML в автономный системный диск
 Если вы скопировали Dccloneconfig.xml на работающий исходный контроллер домена, теперь необходимо скопировать обновленный файл dccloneconfig.xml на автономный скопированный/экспортированный системный диск. В зависимости от того, какие приложения ранее обнаружил Get-ADDCCloningExcludedApplicationList, вам также может потребоваться скопировать на этот диск файл CustomDCCloneAllowList.xml.
@@ -514,11 +514,11 @@ Windows Server 2012 теперь предоставляет графически
 
 3. Щелкните подключенный диск и выберите **Извлечь** в меню **Средства работы с образами дисков**.
 
-![Развертывание виртуализированного контроллера домена](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_HyperVClickMountedDrive.png)
+![Снимок экрана, на котором показан подключенный жестком диске.](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_HyperVClickMountedDrive.png)
 
-![Развертывание виртуализированного контроллера домена](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_HyperVDetailsMountedDrive.gif)
+![Снимок экрана, на котором показаны сведения о подключенных жестком диске.](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_HyperVDetailsMountedDrive.gif)
 
-![Развертывание виртуализированного контроллера домена](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_HyperVEjectMountedDrive.gif)
+![Снимок экрана, на котором показаны извлеченные жестком диске.](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_HyperVEjectMountedDrive.gif)
 
 ##### <a name="windows-powershell-method"></a>Метод с Windows PowerShell
 Кроме того, вы можете подключить отключенный диск и скопировать файл XML с помощью командлетов Windows PowerShell:
@@ -544,7 +544,7 @@ dismount-vhd <disk path>
 
 Пример.
 
-![Развертывание виртуализированного контроллера домена](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_PSMountVHD.png)
+![Снимок экрана, показывающий, как можно подключить диск с определенной буквой диска, скопировать файл и отключить диск.](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_PSMountVHD.png)
 
 Кроме того, вы можете использовать новый командлет **Mount-DiskImage** для подключения файла VHD (или ISO).
 
@@ -558,7 +558,7 @@ dismount-vhd <disk path>
 #### <a name="associating-a-new-vm-with-copied-disks"></a>Сопоставление новой виртуальной машины с копированными дисками
 Если вы скопировали системный диск вручную, необходимо создать новую виртуальную машину, использующую скопированный диск. Низкоуровневая оболочка автоматически задает ИД создания виртуальной машины при создании новой виртуальной машины, вносить изменения в конфигурацию виртуальной машины или узла Hyper-V не требуется.
 
-![Развертывание виртуализированного контроллера домена](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_HyperVConnectVHD.gif)
+![Снимок экрана, показывающий, как создать новую виртуальную машину с помощью скопированного диска.](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_HyperVConnectVHD.gif)
 
 ##### <a name="hyper-v-manager-method"></a>Метод для диспетчера Hyper-V
 
@@ -581,7 +581,7 @@ New-VM
 
 Например, здесь создается виртуальная машина DC4-CLONEDFROMDC2, которая использует 1 ГБ ОЗУ, загружается из файла c:\vm\dc4-systemdrive-clonedfromdc2.vhd и использует виртуальную сеть 10.0:
 
-![Развертывание виртуализированного контроллера домена](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_PSNewVM.png)
+![Снимок экрана, на котором показаны сведения о виртуальной машине DC4-CLONEDFROMDC2.](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_PSNewVM.png)
 
 #### <a name="import-vm"></a>Импорт ВМ
 Если ранее вы экспортировали виртуальную машину, теперь вам нужно импортировать ее обратно в качестве копии. При этом экспортированный файл XML используется для воссоздания компьютера со всеми предыдущими параметрами, дисками, сетями и настройками памяти.
@@ -604,15 +604,15 @@ New-VM
 
 5. Переименуйте импортированную виртуальную машину, если импорт выполняется на тот же узел Hyper-V; в этом случае она будет иметь такое же имя, что и экспортированный исходный контроллер домена.
 
-![Развертывание виртуализированного контроллера домена](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_HyperVImportLocateFolder.png)
+![Снимок экрана, на котором показано расположение папки, в которой установлена виртуальная машина.](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_HyperVImportLocateFolder.png)
 
-![Развертывание виртуализированного контроллера домена](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_HyperVImportSelectVM.png)
+![Снимок экрана, на котором показано, как выбрать импортируемую виртуальную машину.](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_HyperVImportSelectVM.png)
 
-![Развертывание виртуализированного контроллера домена](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_HyperVImportChooseType.gif)
+![Снимок экрана, на котором показано, как выбрать тип импорта.](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_HyperVImportChooseType.gif)
 
 Не забудьте удалить все импортированные снимки с помощью оснастки управления Hyper-V:
 
-![Развертывание виртуализированного контроллера домена](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_HyperVImportDelSnap.gif)
+![Снимок экрана, показывающий, как удалить моментальные снимки.](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_HyperVImportDelSnap.gif)
 
 > [!WARNING]
 > Удаление импортированных снимков имеет большое значение, если они будут применены, клонированный контроллер домена вернется в состояние предыдущего — и, возможно, активного — контроллера домена, что приведет к сбою репликации, дублированию информации об IP-адресах и другим неполадкам.
@@ -627,7 +627,7 @@ Rename-VM
 
 Например, здесь экспортированная виртуальная машина DC2-CLONED импортируется с помощью автоматически определенного файла XML, а затем ей сразу же назначается новое имя DC5-CLONEDFROMDC2:
 
-![Развертывание виртуализированного контроллера домена](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_PSImportVM.png)
+![Снимок экрана окна терминала, в котором отображается переименованный файл.](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_PSImportVM.png)
 
 Не забудьте удалить все импортированные снимки с помощью следующих командлетов:
 
@@ -638,7 +638,7 @@ Remove-VMSnapshot
 
 Пример.
 
-![Развертывание виртуализированного контроллера домена](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_PSGetVMSnap.png)
+![Снимок экрана окна терминала, в котором показано, как удалить все импортированные моментальные снимки.](media/Virtualized-Domain-Controller-Deployment-and-Configuration/ADDS_VDC_PSGetVMSnap.png)
 
 > [!WARNING]
 > Убедитесь, что при импорте компьютера статические MAC-адреса не были назначены исходному контроллеру домена. Если клонируется исходный компьютер со статическим MAC-адресом, скопированные компьютеры не смогут правильно отправить или принимать сетевой трафик. В такой ситуации задайте новый уникальный статический или динамический MAC-адрес. Чтобы определить, использует ли виртуальная машина статический MAC-адрес, воспользуйтесь следующей командой:

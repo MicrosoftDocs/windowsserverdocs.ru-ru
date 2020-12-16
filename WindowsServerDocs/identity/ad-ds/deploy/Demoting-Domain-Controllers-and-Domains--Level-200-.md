@@ -7,12 +7,12 @@ ms.author: daveba
 manager: daveba
 ms.date: 11/14/2018
 ms.topic: article
-ms.openlocfilehash: 6ebbeed0ab8f06ba4f3189af31396d5c30b3427f
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: 5a4d182d89f2e4f3143cb1f5d193a241fba3e672
+ms.sourcegitcommit: 6fbe337587050300e90340f9aa3e899ff5ce1028
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97049222"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "97599767"
 ---
 # <a name="demoting-domain-controllers-and-domains"></a>Понижение роли контроллеров домена и доменов
 
@@ -192,7 +192,7 @@ Uninstall-ADDSDomainController
 
 Пример.
 
-![Пример Uninstall-ADDSDomainController PowerShell](media/Demoting-Domain-Controllers-and-Domains--Level-200-/ADDS_PSUninstall.png)
+![Снимок экрана окна терминала, в котором показаны явные и неявные значения аргументов командлета.](media/Demoting-Domain-Controllers-and-Domains--Level-200-/ADDS_PSUninstall.png)
 
 Запрос на перезагрузку — это последняя возможность отменить эту операцию при использовании модуля Windows PowerShell ADDSDeployment. Чтобы подавить этот запрос, используйте аргумент **-force** или **confirm:$false**.
 
@@ -220,7 +220,7 @@ Uninstall-ADDSDomainController
 
 Ниже приводится пример принудительного понижения с минимальным набором обязательных аргументов **-forceremoval** и **-demoteoperationmasterrole**. Аргумент **-credential** не требуется, поскольку пользователь выполнил вход как член группы администраторов предприятия:
 
-![Пример Uninstall-ADDSDomainController PowerShell](media/Demoting-Domain-Controllers-and-Domains--Level-200-/ADDS_PSUninstallExampleForce.png)
+![Снимок экрана окна терминала, в котором показан пример принудительного понижения роли с минимальными необходимыми аргументами-форцеремовал и-демотеоператионмастерроле.](media/Demoting-Domain-Controllers-and-Domains--Level-200-/ADDS_PSUninstallExampleForce.png)
 
 Ниже приведен пример удаления последнего контроллера домена в домене с минимальным набором обязательных аргументов **-lastdomaincontrollerindomain** и **-removeapplicationpartitions**:
 

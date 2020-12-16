@@ -7,12 +7,12 @@ ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 575ebd74dcac8988b2f515a43523151d3fd47312
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: c92a600c68cbda71543150ce06da16f66e439981
+ms.sourcegitcommit: 6fbe337587050300e90340f9aa3e899ff5ce1028
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97043002"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "97599717"
 ---
 # <a name="install-a-new-windows-server-2012-active-directory-child-or-tree-domain-level-200"></a>Установка нового дочернего объекта Active Directory или домена дерева в Windows Server 2012 (уровень 200)
 
@@ -29,7 +29,7 @@ ms.locfileid: "97043002"
 ## <a name="child-and-tree-domain-workflow"></a><a name="BKMK_Workflow"></a>Процесс добавления дочернего домена и домена дерева
 На схеме ниже показан процесс настройки доменных служб Active Directory. Предполагается, что вы ранее установили роль доменных служб Active Directory и запустили мастер настройки доменных служб Active Directory с помощью диспетчера сервера, чтобы создать домен в существующем лесу.
 
-![Установка нового дочернего AD](media/Install-a-New-Windows-Server-2012-Active-Directory-Child-or-Tree-Domain--Level-200-/adds_childtreedeploy_beta1.png)
+![Схема, иллюстрирующая процесс настройки служб домен Active Directory Services при ранее установленной роли AD DS.](media/Install-a-New-Windows-Server-2012-Active-Directory-Child-or-Tree-Domain--Level-200-/adds_childtreedeploy_beta1.png)
 
 ## <a name="child-and-tree-domain-windows-powershell"></a><a name="BKMK_PS"></a>Добавление дочернего домена и домена дерева с помощью Windows PowerShell
 
@@ -45,11 +45,11 @@ ms.locfileid: "97043002"
 ### <a name="deployment-configuration"></a>Конфигурация развертывания
 На следующем снимке экрана показаны параметры добавления дочернего домена:
 
-![Установка нового дочернего AD](media/Install-a-New-Windows-Server-2012-Active-Directory-Child-or-Tree-Domain--Level-200-/ADDS_SMI_TR_ChildDeployConfig.png)
+![Снимок экрана, на котором показаны параметры для добавления дочернего домена.](media/Install-a-New-Windows-Server-2012-Active-Directory-Child-or-Tree-Domain--Level-200-/ADDS_SMI_TR_ChildDeployConfig.png)
 
 На следующем снимке экрана показаны параметры добавления домена дерева:
 
-![Установка нового дочернего AD](media/Install-a-New-Windows-Server-2012-Active-Directory-Child-or-Tree-Domain--Level-200-/ADDS_SMI_TR_TreeDeployConfig.png)
+![Снимок экрана, на котором показаны параметры для добавления домена дерева.](media/Install-a-New-Windows-Server-2012-Active-Directory-Child-or-Tree-Domain--Level-200-/ADDS_SMI_TR_TreeDeployConfig.png)
 
 Повышение роли каждого контроллера домена начинается в диспетчере сервера на странице **Конфигурация развертывания**. Оставшиеся параметры и обязательные поля меняются на этой и последующих страницах в зависимости от того, какая операция развертывания выбрана.
 
@@ -74,7 +74,7 @@ Install-AddsDomain
 ```
 
 ### <a name="domain-controller-options"></a>Параметры контроллера домена
-![Установка нового дочернего AD](media/Install-a-New-Windows-Server-2012-Active-Directory-Child-or-Tree-Domain--Level-200-/ADDS_SMI_DCOptions_Child.gif)
+![Снимок экрана, на котором показана страница параметров контроллера домена в мастере настройки служб домен Active Directory Services.](media/Install-a-New-Windows-Server-2012-Active-Directory-Child-or-Tree-Domain--Level-200-/ADDS_SMI_DCOptions_Child.gif)
 
 На странице **Параметры контроллера домена** приведены параметры нового контроллера домена. Настраиваемые параметры контроллера домена включают в себя **DNS-сервер** и **Глобальный каталог**, причем нельзя назначить контроллер домена только для чтения первым контроллером нового домена.
 
@@ -154,7 +154,7 @@ $pw | ConvertFrom-SecureString | Set-Content $file
 ```
 
 ### <a name="dns-options-and-dns-delegation-credentials"></a>Параметры DNS и учетные данные для делегирования DNS
-![Установка нового дочернего AD](media/Install-a-New-Windows-Server-2012-Active-Directory-Child-or-Tree-Domain--Level-200-/ADDS_SMI_TR_ChildDNSOptions.png)
+![Снимок экрана, на котором показана страница "параметры DNS" в мастере настройки служб домен Active Directory Services.](media/Install-a-New-Windows-Server-2012-Active-Directory-Child-or-Tree-Domain--Level-200-/ADDS_SMI_TR_ChildDNSOptions.png)
 
 На странице **Параметры DNS** можно указать альтернативные учетные данные администратора DNS для делегирования.
 
@@ -170,7 +170,7 @@ $pw | ConvertFrom-SecureString | Set-Content $file
 Дополнительные сведения о делегировании DNS см. в разделе [Общее представление о делегировании зоны](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc771640(v=ws.11)).
 
 ### <a name="additional-options"></a>Дополнительные параметры
-![Установка нового дочернего AD](media/Install-a-New-Windows-Server-2012-Active-Directory-Child-or-Tree-Domain--Level-200-/ADDS_SMI_TR_ChildAdditionalOptions.png)
+![Снимок экрана, на котором показана страница дополнительных параметров в мастере настройки служб домен Active Directory Services.](media/Install-a-New-Windows-Server-2012-Active-Directory-Child-or-Tree-Domain--Level-200-/ADDS_SMI_TR_ChildAdditionalOptions.png)
 
 На странице **Дополнительные параметры** приводится NetBIOS-имя домена, которое вы можете переопределить. По умолчанию NetBIOS-имя домена совпадает с крайним левым компонентом полного доменного имени, указанного на странице **Конфигурация развертывания**. Например, если указано полное доменное имя corp.contoso.com, NetBIOS-имя домена по умолчанию — CORP.
 
@@ -195,7 +195,7 @@ $pw | ConvertFrom-SecureString | Set-Content $file
 ```
 
 ### <a name="paths"></a>Пути
-![Установка нового дочернего AD](media/Install-a-New-Windows-Server-2012-Active-Directory-Child-or-Tree-Domain--Level-200-/ADDS_SMI_TR_UpgradePaths.png)
+![Снимок экрана, на котором показана страница «пути» в мастере настройки служб домен Active Directory Services.](media/Install-a-New-Windows-Server-2012-Active-Directory-Child-or-Tree-Domain--Level-200-/ADDS_SMI_TR_UpgradePaths.png)
 
 Страница **Пути** позволяет переопределить расположение папок по умолчанию для базы данных AD DS, журналов транзакций базы данных и общего доступа к SYSVOL. Расположение по умолчанию всегда в подкаталогах %systemroot%.
 
@@ -208,7 +208,7 @@ $pw | ConvertFrom-SecureString | Set-Content $file
 ```
 
 ### <a name="review-options-and-view-script"></a>"Просмотреть параметры" и "Просмотреть скрипт"
-![Установка нового дочернего AD](media/Install-a-New-Windows-Server-2012-Active-Directory-Child-or-Tree-Domain--Level-200-/ADDS_SMI_TR_ChildReviewOptions.png)
+![Снимок экрана, на котором показана страница "Параметры проверки" в мастере настройки служб домен Active Directory Services.](media/Install-a-New-Windows-Server-2012-Active-Directory-Child-or-Tree-Domain--Level-200-/ADDS_SMI_TR_ChildReviewOptions.png)
 
 Страница **Просмотреть параметры** позволяет проверить параметры перед установкой и убедиться, что они отвечают требованиям. Позднее установку также можно будет остановить с помощью диспетчера сервера. Эта страница позволяет подтвердить параметры перед продолжением настройки.
 
@@ -247,7 +247,7 @@ Install-ADDSDomain `
 ![Установка нового дочернего AD](media/Install-a-New-Windows-Server-2012-Active-Directory-Child-or-Tree-Domain--Level-200-/ADDS_SMI_TR_ChildWhatIf.png)
 
 ### <a name="prerequisites-check"></a>Проверка готовности к установке
-![Установка нового дочернего AD](media/Install-a-New-Windows-Server-2012-Active-Directory-Child-or-Tree-Domain--Level-200-/ADDS_SMI_TR_ChildPrereqCheck.png)
+![Снимок экрана, на котором показана страница проверки предварительных требований в мастере настройки служб домен Active Directory Services.](media/Install-a-New-Windows-Server-2012-Active-Directory-Child-or-Tree-Domain--Level-200-/ADDS_SMI_TR_ChildPrereqCheck.png)
 
 **Проверка предварительных требований** — это новая функция настройки доменных служб Active Directory. На этом новом этапе проверяется возможность поддержки нового домена доменных служб Active Directory конфигурацией сервера.
 
@@ -269,7 +269,7 @@ Install-ADDSDomain `
 Чтобы начать повышение роли контроллера домена, нажмите кнопку **Установить**. Это последняя возможность отменить установку. После того как процесс повышения роли начнется, отменить его будет невозможно. По завершении повышения роли компьютер автоматически перезагрузится вне зависимости от результата процесса.
 
 ### <a name="installation"></a>Установка
-![Установка нового дочернего AD](media/Install-a-New-Windows-Server-2012-Active-Directory-Child-or-Tree-Domain--Level-200-/ADDS_SMI_TR_ChildInstallation.png)
+![Снимок экрана, на котором показана страница установки в мастере настройки служб домен Active Directory Services.](media/Install-a-New-Windows-Server-2012-Active-Directory-Child-or-Tree-Domain--Level-200-/ADDS_SMI_TR_ChildInstallation.png)
 
 Когда появляется страница **Установка**, это означает, что настройка контроллера домена началась и ее нельзя остановить или отменить. Подробная информация об операциях выводится на этой странице и записывается в следующие журналы:
 
@@ -285,9 +285,9 @@ Install-addsdomain
 
 Список обязательных и необязательных аргументов см. в разделе [Добавление дочернего домена и домена дерева с помощью Windows PowerShell](../../ad-ds/deploy/Install-a-New-Windows-Server-2012-Active-Directory-Child-or-Tree-Domain--Level-200-.md#BKMK_PS). Выполнение командлета **Install-addsdomain** включает только два этапа (проверка предварительных требований и установка). На двух иллюстрациях ниже показан этап установки с минимальным необходимым набором аргументов: **-domaintype**, **-newdomainname**, **-parentdomainname** и **-credential**. Обратите внимание на то, что командлет **Install-ADDSDomain**, как и диспетчер сервера, напоминает об автоматической перезагрузке сервера после повышения роли:
 
-![Установка нового дочернего AD](media/Install-a-New-Windows-Server-2012-Active-Directory-Child-or-Tree-Domain--Level-200-/ADDS_PSInstallADDSDomain.png)
+![Снимок экрана окна терминала, в котором показан этап установки с минимальными необходимыми аргументами-DomainType,-невдомаиннаме,-парентдомаиннаме и-Credential.](media/Install-a-New-Windows-Server-2012-Active-Directory-Child-or-Tree-Domain--Level-200-/ADDS_PSInstallADDSDomain.png)
 
-![Установка нового дочернего AD](media/Install-a-New-Windows-Server-2012-Active-Directory-Child-or-Tree-Domain--Level-200-/ADDS_PSInstallADDSDomainProgress.png)
+![Снимок экрана окна терминала, в котором показан ход установки с минимальными необходимыми аргументами-DomainType,-невдомаиннаме,-парентдомаиннаме и-Credential.](media/Install-a-New-Windows-Server-2012-Active-Directory-Child-or-Tree-Domain--Level-200-/ADDS_PSInstallADDSDomainProgress.png)
 
 Чтобы автоматически закрывать напоминание о перезагрузке, используйте аргументы **-force** или **-confirm:$false** с любым командлетом Windows PowerShell ADDSDeployment. Чтобы предотвратить автоматическую перезагрузку сервера по завершении повышения роли, используйте аргумент **-norebootoncompletion**.
 
@@ -295,6 +295,6 @@ Install-addsdomain
 > Отключать перезагрузку не рекомендуется. Для правильной работы контроллер домена должен перезагрузиться.
 
 ### <a name="results"></a>Результаты
-![Установка нового дочернего AD](media/Install-a-New-Windows-Server-2012-Active-Directory-Child-or-Tree-Domain--Level-200-/ADDS_SMI_TR_ForestSignOff.png)
+![Снимок экрана, на котором отображается страница результатов с сообщением о перезапуске компьютера.](media/Install-a-New-Windows-Server-2012-Active-Directory-Child-or-Tree-Domain--Level-200-/ADDS_SMI_TR_ForestSignOff.png)
 
 На странице **Результаты** показано, успешно ли было выполнено повышение роли, а также приводится важная для администраторов информация. Контроллер домена автоматически перезагрузится через 10 секунд.

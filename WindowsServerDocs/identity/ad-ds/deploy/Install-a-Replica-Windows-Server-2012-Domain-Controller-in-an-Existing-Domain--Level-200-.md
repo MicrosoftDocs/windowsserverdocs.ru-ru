@@ -7,12 +7,12 @@ ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 6be71576dd8d31d50fac5527a1fab5b1631f27a0
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: 972465f4fcb5d0aae14e8e27973e47a78de8e62b
+ms.sourcegitcommit: 6fbe337587050300e90340f9aa3e899ff5ce1028
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97049512"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "97599727"
 ---
 # <a name="install-a-replica-windows-server-2012-domain-controller-in-an-existing-domain-level-200"></a>Установка реплики контроллера домена Windows Server 2012 в существующем домене (уровень 200)
 
@@ -29,7 +29,7 @@ ms.locfileid: "97049512"
 ## <a name="upgrade-and-replica-workflow"></a><a name="BKMK_Workflow"></a>Процесс обновления и добавления реплики
 На схеме ниже показан процесс настройки доменных служб Active Directory. Предполагается, что вы ранее установили роль доменных служб Active Directory и запустили мастер настройки доменных служб Active Directory с помощью диспетчера сервера, чтобы создать контроллер домена в существующем домене.
 
-![Установка реплики](media/Install-a-Replica-Windows-Server-2012-Domain-Controller-in-an-Existing-Domain--Level-200-/adds_forestupgrade.png)
+![Схема, иллюстрирующая процесс настройки служб домен Active Directory Services при ранее установленной роли AD DS.](media/Install-a-Replica-Windows-Server-2012-Domain-Controller-in-an-Existing-Domain--Level-200-/adds_forestupgrade.png)
 
 ## <a name="upgrade-and-replica-windows-powershell"></a><a name="BKMK_PS"></a>Обновление и добавление реплики с помощью Windows PowerShell
 
@@ -43,7 +43,7 @@ ms.locfileid: "97049512"
 ## <a name="deployment"></a><a name="BKMK_Dep"></a>Развертывание
 
 ### <a name="deployment-configuration"></a>Конфигурация развертывания
-![Установка реплики](media/Install-a-Replica-Windows-Server-2012-Domain-Controller-in-an-Existing-Domain--Level-200-/ADDS_SMI_TR_UpgradeDeployConfig.png)
+![Снимок экрана, на котором показана страница конфигурации развертывания.](media/Install-a-Replica-Windows-Server-2012-Domain-Controller-in-an-Existing-Domain--Level-200-/ADDS_SMI_TR_UpgradeDeployConfig.png)
 
 Повышение роли каждого контроллера домена начинается в диспетчере сервера на странице **Конфигурация развертывания**. Оставшиеся параметры и обязательные поля меняются на этой и последующих страницах в зависимости от того, какая операция развертывания выбрана.
 
@@ -61,16 +61,16 @@ Install-AddsDomainController
 -credential <pscredential>
 ```
 
-![Установка реплики](media/Install-a-Replica-Windows-Server-2012-Domain-Controller-in-an-Existing-Domain--Level-200-/ADDS_SMI_TR_UpgradeCreds.png)
+![Снимок экрана, на котором показано, где указываются учетные данные для операции развертывания.](media/Install-a-Replica-Windows-Server-2012-Domain-Controller-in-an-Existing-Domain--Level-200-/ADDS_SMI_TR_UpgradeCreds.png)
 
-![Установка реплики](media/Install-a-Replica-Windows-Server-2012-Domain-Controller-in-an-Existing-Domain--Level-200-/ADDS_SMI_TR_UpgradeSelectDomain.png)
+![Снимок экрана, на котором показано, где выбрать домен в лесу, где будет размещаться новый контроллер домена.](media/Install-a-Replica-Windows-Server-2012-Domain-Controller-in-an-Existing-Domain--Level-200-/ADDS_SMI_TR_UpgradeSelectDomain.png)
 
 На каждой странице выполняются определенные тесты, некоторые из которых проводятся повторно позднее как отдельные проверки предварительных требований. Например, если выбранный домен не отвечают требованию к минимальному режиму работы, вам не придется проходить всю процедуру повышения роли вплоть до проверки предварительных требований, чтобы получить в итоге следующее сообщение:
 
-![Установка реплики](media/Install-a-Replica-Windows-Server-2012-Domain-Controller-in-an-Existing-Domain--Level-200-/ADDS_SMI_TR_UpgradeFFLError.png)
+![Снимок экрана, посвященный сообщению о том, что выбранный домен не соответствует минимальным функциональным уровням.](media/Install-a-Replica-Windows-Server-2012-Domain-Controller-in-an-Existing-Domain--Level-200-/ADDS_SMI_TR_UpgradeFFLError.png)
 
 ### <a name="domain-controller-options"></a>Параметры контроллера домена
-![Установка реплики](media/Install-a-Replica-Windows-Server-2012-Domain-Controller-in-an-Existing-Domain--Level-200-/ADDS_SMI_TR_UpgradeDCOptions.png)
+![Снимок экрана, на котором показана страница параметров контроллера домена.](media/Install-a-Replica-Windows-Server-2012-Domain-Controller-in-an-Existing-Domain--Level-200-/ADDS_SMI_TR_UpgradeDCOptions.png)
 
 На странице **Параметры контроллера домена** показаны возможности настройки нового контроллера домена. Они включают в себя **DNS-сервер**, **Глобальный каталог** и **Контроллер домена только для чтения**. Корпорация Майкрософт рекомендует, чтобы все контроллеры домена предоставляли службы DNS и глобального каталога для обеспечения высокой доступности в распределенных средах. Глобальный каталог всегда выбран по умолчанию, а DNS-сервер выбран по умолчанию в том случае, если в текущем домене уже размещены службы DNS в контроллерах домена на основе запроса начальной записи зоны. Страница **Параметры контроллера домена** также позволяет выбрать из конфигурации леса соответствующее логичное **имя сайта** Active Directory. По умолчанию выбирается сайт с наиболее подходящей подсетью. Если существует только один сайт, он выбирается автоматически.
 
@@ -141,10 +141,10 @@ $pw | ConvertFrom-SecureString | Set-Content $file
 
 На странице **Параметры контроллера домена** выводится предупреждение о том, что нельзя создать контроллеры домена только для чтения, если существующие контроллеры домена работают под управлением Windows Server 2003. Это ожидаемое предупреждение, и его можно пропустить.
 
-![Установка реплики](media/Install-a-Replica-Windows-Server-2012-Domain-Controller-in-an-Existing-Domain--Level-200-/ADDS_SMI_TR_UpgradeDCOptionsError.png)
+![Снимок экрана, на котором говорится о том, что нельзя создавать контроллеры домена только для чтения, если на контроллерах домена работает Windows Server 2003.](media/Install-a-Replica-Windows-Server-2012-Domain-Controller-in-an-Existing-Domain--Level-200-/ADDS_SMI_TR_UpgradeDCOptionsError.png)
 
 ### <a name="dns-options-and-dns-delegation-credentials"></a>Параметры DNS и учетные данные для делегирования DNS
-![Установка реплики](media/Install-a-Replica-Windows-Server-2012-Domain-Controller-in-an-Existing-Domain--Level-200-/ADDS_SMI_TR_UpgradeDNSOptions.png)
+![Снимок экрана, на котором показано, где можно указать параметр делегирования DNS.](media/Install-a-Replica-Windows-Server-2012-Domain-Controller-in-an-Existing-Domain--Level-200-/ADDS_SMI_TR_UpgradeDNSOptions.png)
 
 На странице **Параметры DNS** можно настроить делегирование DNS, если вы выбрали параметр **DNS-сервер** на странице *Параметры контроллера домена* и указана зона, в которой разрешено делегирование DNS. Может потребоваться предоставить другие учетные данные, принадлежащие пользователю, который является членом группы **Администраторы DNS**.
 
@@ -155,18 +155,18 @@ $pw | ConvertFrom-SecureString | Set-Content $file
 -dnsdelegationcredential <pscredential>
 ```
 
-![Установка реплики](media/Install-a-Replica-Windows-Server-2012-Domain-Controller-in-an-Existing-Domain--Level-200-/ADDS_SMI_TR_UpgradeCreds.png)
+![Снимок экрана, на котором показано диалоговое окно "безопасность Windows" для предоставления учетных данных для операции развертывания.](media/Install-a-Replica-Windows-Server-2012-Domain-Controller-in-an-Existing-Domain--Level-200-/ADDS_SMI_TR_UpgradeCreds.png)
 
 Дополнительные сведения о необходимости создания DNS-делегирования см. в статье [Общее представление о делегировании зоны](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc771640(v=ws.11)).
 
 ### <a name="additional-options"></a>Дополнительные параметры
-![Установка реплики](media/Install-a-Replica-Windows-Server-2012-Domain-Controller-in-an-Existing-Domain--Level-200-/ADDS_SMI_TR_UpgradeAdditionalOptions.png)
+![Снимок экрана, на котором показано, где можно найти параметр конфигурации для именования контроллера домена в качестве источника репликации.](media/Install-a-Replica-Windows-Server-2012-Domain-Controller-in-an-Existing-Domain--Level-200-/ADDS_SMI_TR_UpgradeAdditionalOptions.png)
 
 На странице **Дополнительные параметры** приводится параметр конфигурации, позволяющий указать имя контроллера домена, используемого в качестве источника репликации.
 
 Также можно установить контроллер домена с помощью архивированных носителей, использовав параметр установки с носителя (IFM). При установке флажка **Установка с носителя** появляется возможность выбора носителя. Чтобы убедиться в том, что указанный путь является действительным путем к носителю, необходимо нажать кнопку **Проверить**. Носители, используемые параметром IFM, создаются с помощью системы архивации данных Windows Server или Ntdsutil.exe только из другого существующего компьютера с Windows Server 2012. Windows Server 2008 R2 или операционные системы более ранних версий не подходят для создания носителей для контроллера домена с Windows Server 2012. Подробнее об изменениях в IFM см. в разделе [Приложение: упрощенное администрирование](../../ad-ds/deploy/Simplified-Administration-Appendix.md). Если носители защищены SYSKEY, диспетчер сервера запрашивает пароль образа во время проверки.
 
-![Установка реплики](media/Install-a-Replica-Windows-Server-2012-Domain-Controller-in-an-Existing-Domain--Level-200-/ADDS_NtdsutilIFM.png)
+![Снимок экрана, показывающий окно терминала во время установки контроллера домена.](media/Install-a-Replica-Windows-Server-2012-Domain-Controller-in-an-Existing-Domain--Level-200-/ADDS_NtdsutilIFM.png)
 
 Аргументы командлета ADDSDeployment, эквивалентные параметрам на странице **Дополнительные параметры**:
 
@@ -177,7 +177,7 @@ $pw | ConvertFrom-SecureString | Set-Content $file
 ```
 
 ### <a name="paths"></a>Пути
-![Установка реплики](media/Install-a-Replica-Windows-Server-2012-Domain-Controller-in-an-Existing-Domain--Level-200-/ADDS_SMI_TR_UpgradePaths.png)
+![Снимок экрана, на котором показано, где можно переопределить расположения папок по умолчанию для базы данных AD DS, журналов транзакций базы данных и общего ресурса SYSVOL.](media/Install-a-Replica-Windows-Server-2012-Domain-Controller-in-an-Existing-Domain--Level-200-/ADDS_SMI_TR_UpgradePaths.png)
 
 Страница **Пути** позволяет переопределить расположение папок по умолчанию для базы данных AD DS, журналов транзакций базы данных и общего доступа к SYSVOL. Расположение по умолчанию всегда в подкаталогах %systemroot%.
 
@@ -190,7 +190,7 @@ $pw | ConvertFrom-SecureString | Set-Content $file
 ```
 
 ### <a name="preparation-options"></a>Параметры подготовки
-![Установка реплики](media/Install-a-Replica-Windows-Server-2012-Domain-Controller-in-an-Existing-Domain--Level-200-/ADDS_SMI_TR_UpgradePrepOptions.png)
+![Снимок экрана, на котором показана страница "Параметры подготовки", которая предупреждает о том, что конфигурация AD DS включает расширение схемы (forestprep) и обновление домена (domainprep).](media/Install-a-Replica-Windows-Server-2012-Domain-Controller-in-an-Existing-Domain--Level-200-/ADDS_SMI_TR_UpgradePrepOptions.png)
 
 На странице **Параметры подготовки** выводится оповещение о том, что настройка доменных служб Active Directory включает в себя расширение схемы (forestprep) и обновление домена (domainprep).  Эта страница появляется только в том случае, если лес и домен не были подготовлены в ходе предыдущей установки контроллера домена Windows Server 2012 или путем запуска средства Adprep.exe вручную. Например, мастер настройки доменных служб Active Directory подавляет эту страницу, если вы добавляете новый контроллер домена в существующий корневой домен леса Windows Server 2012.
 
@@ -198,7 +198,7 @@ $pw | ConvertFrom-SecureString | Set-Content $file
 
 На этой странице также проверяется, является ли текущий пользователь членом групп "Администраторы схемы" и "Администраторы предприятия". Членство в этих группах необходимо для расширения схемы и подготовки домена. Если на странице указано, что текущие учетные данные не дают необходимых разрешений, нажмите кнопку **Изменить**, чтобы предоставить соответствующие учетные данные пользователя.
 
-![Установка реплики](media/Install-a-Replica-Windows-Server-2012-Domain-Controller-in-an-Existing-Domain--Level-200-/ADDS_SMI_TR_UpgradePrepOptionsCreds.png)
+![Снимок экрана, на котором показана страница "Параметры подготовки" и нажата кнопка "Изменить".](media/Install-a-Replica-Windows-Server-2012-Domain-Controller-in-an-Existing-Domain--Level-200-/ADDS_SMI_TR_UpgradePrepOptionsCreds.png)
 
 Аргумент командлета ADDSDeployment, эквивалентный параметрам на странице "Дополнительные параметры":
 
@@ -212,7 +212,7 @@ $pw | ConvertFrom-SecureString | Set-Content $file
 > Средство RODCPrep запускается автоматически при повышении роли первого контроллера RODC без предварительной подготовки в домене. Этого не происходит при повышении роли первого доступного для записи контроллера домена Windows Server 2012. Если планируется развертывать контроллеры домена только для чтения, команду **adprep.exe /rodcprep** также можно выполнить вручную.
 
 ### <a name="review-options-and-view-script"></a>"Просмотреть параметры" и "Просмотреть скрипт"
-![Установка реплики](media/Install-a-Replica-Windows-Server-2012-Domain-Controller-in-an-Existing-Domain--Level-200-/ADDS_SMI_TR_UpgradeReviewOptions.png)
+![Снимок экрана, на котором показана страница параметров проверки, позволяющая проверить параметры и убедиться, что они соответствуют вашим требованиям, прежде чем начать установку.](media/Install-a-Replica-Windows-Server-2012-Domain-Controller-in-an-Existing-Domain--Level-200-/ADDS_SMI_TR_UpgradeReviewOptions.png)
 
 Страница **Просмотрь параметры** позволяет проверить параметры перед установкой и убедиться, что они отвечают требованиям. Позднее установку также можно будет остановить с помощью диспетчера сервера. Эта страница позволяет просмотреть и подтвердить параметры перед продолжением конфигурации.
 
@@ -244,10 +244,10 @@ Install-ADDSDomainController `
 >
 > Для просмотра сведений о конфигурации воспользуйтесь необязательным аргументом **Whatif** с командлетом **Install-ADDSDomainController**. Это позволит просмотреть явные и неявные значения аргументов командлета.
 
-![Установка реплики](media/Install-a-Replica-Windows-Server-2012-Domain-Controller-in-an-Existing-Domain--Level-200-/ADDS_PSWhatIf.png)
+![Снимок экрана окна терминала, показывающий использование необязательного аргумента WhatIf с командлетом Install-ADDSDomainController.](media/Install-a-Replica-Windows-Server-2012-Domain-Controller-in-an-Existing-Domain--Level-200-/ADDS_PSWhatIf.png)
 
 ### <a name="prerequisites-check"></a>Проверка готовности к установке
-![Установка реплики](media/Install-a-Replica-Windows-Server-2012-Domain-Controller-in-an-Existing-Domain--Level-200-/ADDS_SMI_TR_UpgradePrereqCheck.png)
+![Снимок экрана, на котором показана страница проверки готовности к установке, которая является новой функцией в AD DS конфигурации домена.](media/Install-a-Replica-Windows-Server-2012-Domain-Controller-in-an-Existing-Domain--Level-200-/ADDS_SMI_TR_UpgradePrereqCheck.png)
 
 **Проверка предварительных требований** — это новая функция настройки доменных служб Active Directory. На этом новом этапе проверяется возможность поддержки нового контроллера домена Windows Server 2012 доменом и лесом.
 
@@ -270,7 +270,7 @@ Install-ADDSDomainController `
 Чтобы начать повышение роли контроллера домена, нажмите кнопку **Установить**. Это последняя возможность отменить установку. После того как процесс повышения роли начнется, отменить его будет невозможно. По завершении повышения роли компьютер автоматически перезагрузится вне зависимости от результата процесса. На странице **Проверка предварительных требований** выводится информация обо всех неполадках, выявленных в ходе проверки, и рекомендации по их устранению.
 
 ### <a name="installation"></a>Установка
-![Установка реплики](media/Install-a-Replica-Windows-Server-2012-Domain-Controller-in-an-Existing-Domain--Level-200-/ADDS_SMI_TR_UpgradeInstallProgress.png)
+![Снимок экрана, на котором показана страница установки.](media/Install-a-Replica-Windows-Server-2012-Domain-Controller-in-an-Existing-Domain--Level-200-/ADDS_SMI_TR_UpgradeInstallProgress.png)
 
 Когда появляется страница **Установка**, это означает, что настройка контроллера домена началась и ее нельзя остановить или отменить. Подробная информация об операциях выводится на этой странице и записывается в следующие журналы:
 
@@ -292,16 +292,16 @@ Install-addsdomaincontroller
 
 Выполнение командлета **Install-AddsDomainController** включает только два этапа (проверка предварительных требований и установка). На двух иллюстрациях ниже показан этап установки с минимальным необходимым набором аргументов: **-domainname** и **-credential**. Обратите внимание на то, что операция Adprep выполняется автоматически в рамках добавления первого контроллера домена Windows Server 2012 в существующий лес Windows Server 2003:
 
-![Установка реплики](media/Install-a-Replica-Windows-Server-2012-Domain-Controller-in-an-Existing-Domain--Level-200-/ADDS_PSGetCred.png)
+![Снимок экрана окна терминала, в котором показан этап установки с минимальными необходимыми аргументами-имя_домена и-Credential.](media/Install-a-Replica-Windows-Server-2012-Domain-Controller-in-an-Existing-Domain--Level-200-/ADDS_PSGetCred.png)
 
 Обратите внимание на то, что командлет **Install-ADDSDomainController**, как и диспетчер сервера, напоминает об автоматической перезагрузке сервера после повышения роли. Чтобы автоматически закрывать напоминание о перезагрузке, используйте аргументы **-force** или **-confirm:$false** с любым командлетом Windows PowerShell ADDSDeployment. Чтобы предотвратить автоматическую перезагрузку сервера по завершении повышения роли, используйте аргумент **-norebootoncompletion**.
 
 > [!WARNING]
 > Отключать перезагрузку не рекомендуется. Для правильной работы контроллер домена должен перезагрузиться.
 
-![Установка реплики](media/Install-a-Replica-Windows-Server-2012-Domain-Controller-in-an-Existing-Domain--Level-200-/ADDS_PSUpgradeConfirm.gif)
+![Снимок экрана окна терминала, в котором показан процесс перезагрузки контроллера домена.](media/Install-a-Replica-Windows-Server-2012-Domain-Controller-in-an-Existing-Domain--Level-200-/ADDS_PSUpgradeConfirm.gif)
 
-![Установка реплики](media/Install-a-Replica-Windows-Server-2012-Domain-Controller-in-an-Existing-Domain--Level-200-/ADDS_PSUpgradeProgress.png)
+![Снимок экрана окна терминала, показывающего успешное завершение процесса перезагрузки контроллера домена.](media/Install-a-Replica-Windows-Server-2012-Domain-Controller-in-an-Existing-Domain--Level-200-/ADDS_PSUpgradeProgress.png)
 
 Чтобы настроить контроллер домена удаленно с помощью Windows PowerShell, заключите командлет **Install-аддсдомаинконтроллер** *в* командлет **Invoke-Command** . Для этого необходимо использовать фигурные скобки.
 
@@ -317,7 +317,7 @@ invoke-command {install-addsdomaincontroller "domainname <domain> -credential (g
 > Подробнее о том, как выполняется установка и процесс Adprep, см. в разделе [Устранение неполадок развертывания контроллера домена](../../ad-ds/deploy/Troubleshooting-Domain-Controller-Deployment.md).
 
 ### <a name="results"></a>Результаты
-![Установка реплики](media/Install-a-Replica-Windows-Server-2012-Domain-Controller-in-an-Existing-Domain--Level-200-/ADDS_SMI_TR_ForestSignOff.png)
+![Снимок экрана со страницей результатов, которая содержит сообщение об успешном или неуспешном выполнении рекламной акции, а также важные административные данные.](media/Install-a-Replica-Windows-Server-2012-Domain-Controller-in-an-Existing-Domain--Level-200-/ADDS_SMI_TR_ForestSignOff.png)
 
 На странице **Результаты** показано, успешно ли было выполнено повышение роли, а также приводится важная для администраторов информация. В случае успешного выполнения контроллер домена автоматически перезагрузится через 10 секунд.
 
