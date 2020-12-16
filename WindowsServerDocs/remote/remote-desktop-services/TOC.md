@@ -102,6 +102,7 @@
 #### [Параметры конфиденциальности для управляемых приложений и настольных компьютеров](clients/remote-privacy-settings.md)
 ### Известные проблемы
 #### [Устранение неполадок с подключениями к удаленному рабочему столу](troubleshoot/rdp-error-general-troubleshooting.md)
+#### [Ограничение учетных данных на приложение](troubleshoot/credential-limit.md)
 #### [Клиенты не могут подключиться и получают сообщение об ошибке "Класс не зарегистрирован"](troubleshoot/rdp-error-class-not-registered.md)
 #### [Клиенты не могут подключиться и получают ошибку "Нет доступных лицензий"](troubleshoot/rdp-error-no-licenses-available.md)
 #### [Пользователь не может пройти проверку подлинности или проходит ее дважды](troubleshoot/cannot-authenticate-or-must-authenticate-twice.md)
