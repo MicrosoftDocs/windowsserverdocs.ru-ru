@@ -7,12 +7,12 @@ manager: daveba
 ms.date: 08/09/2018
 ms.topic: article
 ms.assetid: c37bc129-a5e0-4219-9ba7-b4cf3a9fc9a4
-ms.openlocfilehash: 7f27438ba96d1ce3a8876408123ab768aa32d6c6
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: fe5498bf5efc940b9a91f214f93f40de670df547
+ms.sourcegitcommit: e57536e28902ae52d3040141bbd2aa00e91bbdd3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97041832"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "97644694"
 ---
 # <a name="ad-forest-recovery---raising-the-value-of-available-rid-pools"></a>Восстановление леса AD — повышение значения доступных пулов RID
 
@@ -37,15 +37,15 @@ ms.locfileid: "97041832"
 
 1. Откройте диспетчер сервера, щелкните **Сервис** и выберите **ADSI Edit**.
 2. Щелкните правой кнопкой мыши, выберите **подключиться к** и подключиться выполните контекст именования по умолчанию и нажмите кнопку **ОК**.
-   ![Редактирование ADSI](media/AD-Forest-Recovery-Raise-RID-Pool/adsi1.png)
+   ![Снимок экрана, показывающий, как подключиться к контексту именования по умолчанию](media/AD-Forest-Recovery-Raise-RID-Pool/adsi1.png)
 3. Перейдите к следующему пути с различающимся именем: **CN = RID Manager $, CN = System, DC = <domain name>**.
-   ![Редактирование ADSI](media/AD-Forest-Recovery-Raise-RID-Pool/adsi2.png)
+   ![Снимок экрана, показывающий, как перейти к пути к различающемся имени.](media/AD-Forest-Recovery-Raise-RID-Pool/adsi2.png)
 3. Щелкните правой кнопкой мыши и выберите свойства CN = RID Manager $.
 4. Выберите атрибут **ридаваилаблепул**, нажмите кнопку **изменить**, а затем скопируйте значение большого целого числа в буфер обмена.
-   ![Редактирование ADSI](media/AD-Forest-Recovery-Raise-RID-Pool/adsi3.png)
+   ![Снимок экрана, на котором показан выбранный атрибут Ридаваилаблепул.](media/AD-Forest-Recovery-Raise-RID-Pool/adsi3.png)
 5. Запустите калькулятор и в меню **вид** выберите **режим "Инженерный**".
 6. Добавьте 100 000 к текущему значению.
-   ![Редактирование ADSI](media/AD-Forest-Recovery-Raise-RID-Pool/adsi4.png)
+   ![Снимок экрана, на котором показано, куда добавить 100 000 к текущему значению.](media/AD-Forest-Recovery-Raise-RID-Pool/adsi4.png)
 7. С помощью сочетания клавиш Ctrl + c или команды **Копировать** в меню **Правка** скопируйте значение в буфер обмена.
 8. В диалоговом окне "изменение" ADSIEdit вставьте это новое значение.
    ![Редактирование ADSI](media/AD-Forest-Recovery-Raise-RID-Pool/adsi5.png)
@@ -55,17 +55,17 @@ ms.locfileid: "97041832"
 
 1. В командной строке введите следующую команду и нажмите клавишу ВВОД: **LDP** .
 2. Щелкните **Подключение**, щелкните **подключить**, введите имя диспетчера RID и нажмите кнопку **ОК**.
-   ![LDP](media/AD-Forest-Recovery-Raise-RID-Pool/ldp1.png)
+   ![Снимок экрана, на котором показано, где можно ввести имя диспетчера RID.](media/AD-Forest-Recovery-Raise-RID-Pool/ldp1.png)
 3. Щелкните **Подключение**, нажмите кнопку **привязать**, выберите **BIND with Credentials (связать с учетными данными** ) и введите учетные данные администратора и нажмите кнопку **ОК**.
-   ![LDP](media/AD-Forest-Recovery-Raise-RID-Pool/ldp2.png)
-4. В меню **вид** выберите пункт **дерево** , а затем введите следующий путь к различающемся имени: CN = RID Manager $, CN = System, DC =*имя домена* 
-    ![ LDP](media/AD-Forest-Recovery-Raise-RID-Pool/ldp3.png)
+   ![Снимок экрана, показывающий параметр привязки с учетными данными.](media/AD-Forest-Recovery-Raise-RID-Pool/ldp2.png)
+4. В меню **вид** выберите пункт **дерево** , а затем введите следующий путь к различающемся имени: CN = RID Manager $, CN = System, DC =*доменное имя* 
+    ![ на снимке экрана, на котором показано, где вводится путь к различающемся имени.](media/AD-Forest-Recovery-Raise-RID-Pool/ldp3.png)
 5. Нажмите кнопку **Обзор**, а затем — **изменить**.
 6. Добавьте 100 000 к текущему значению **ридаваилаблепул** , а затем введите Sum в **значения**.
 7. В области **DN** введите `cn=RID Manager$,cn=System,dc=` *<доменное \> имя*.
 8. В поле **изменить атрибут записи** введите `rIDAvailablePool` .
 9. Выберите **заменить** в качестве операции, а затем нажмите клавишу **Ввод**.
-   ![LDP](media/AD-Forest-Recovery-Raise-RID-Pool/ldp4.png)
+   ![Снимок экрана, на котором показан параметр Replace.](media/AD-Forest-Recovery-Raise-RID-Pool/ldp4.png)
 10. Нажмите кнопку **выполнить** , чтобы выполнить операцию. Щелкните **Закрыть**.
 11. Чтобы проверить изменение, в меню **вид** выберите пункт **дерево**, а затем введите следующий путь к различающемся имени: CN = RID Manager $, CN = System, DC =*доменное имя*.   Проверьте атрибут **ридаваилаблепул** .
    ![LDP](media/AD-Forest-Recovery-Raise-RID-Pool/ldp5.png)

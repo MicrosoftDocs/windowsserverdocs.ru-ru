@@ -7,12 +7,12 @@ manager: daveba
 ms.date: 08/09/2018
 ms.topic: article
 ms.assetid: 1a1182a6-4462-4a13-806e-0e642a0d5db2
-ms.openlocfilehash: 9be3507fb484570de76f95e9de56eb8ffdb9011d
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: 065af8cbbdef52fa98e529e724a2cc0dd4709d1e
+ms.sourcegitcommit: e57536e28902ae52d3040141bbd2aa00e91bbdd3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97042992"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "97644704"
 ---
 # <a name="ad-forest-recovery---performing-a-full-server-recovery"></a>Восстановление леса AD — выполнение полного восстановления сервера
 
@@ -35,23 +35,23 @@ ms.locfileid: "97042992"
 
 1. Запустите программа установки Windows, укажите формат языка, времени и валюты, а также параметры клавиатуры и нажмите кнопку **Далее**.
 2. Нажмите **Восстановить компьютер**.
-   ![Восстановление сервера](media/AD-Forest-Recovery-Perform-a-Full-Recovery/restore1.png)
+   ![Снимок экрана, на котором показано, где выбрать вариант восстановления компьютера.](media/AD-Forest-Recovery-Perform-a-Full-Recovery/restore1.png)
 3. Нажмите кнопку **Устранение неполадок**.</br>
-   ![Восстановление сервера](media/AD-Forest-Recovery-Perform-a-Full-Recovery/restore2.png)
+   ![Снимок экрана, на котором показан параметр "Устранение неполадок".](media/AD-Forest-Recovery-Perform-a-Full-Recovery/restore2.png)
 4. Щелкните **Восстановление образа системы**.</br>
-   ![Восстановление сервера](media/AD-Forest-Recovery-Perform-a-Full-Recovery/restore3.png)
+   ![Снимок экрана, на котором показан параметр восстановления образа системы.](media/AD-Forest-Recovery-Perform-a-Full-Recovery/restore3.png)
 5. Щелкните **Windows Server 2016**.
-   ![Восстановление сервера](media/AD-Forest-Recovery-Perform-a-Full-Recovery/restore4.png)
+   ![Снимок экрана, на котором показан параметр Windows Server 2016.](media/AD-Forest-Recovery-Perform-a-Full-Recovery/restore4.png)
 6. Если восстанавливается последняя Локальная резервная копия, щелкните **использовать последний доступный образ системы (рекомендуется)** и нажмите кнопку **Далее**.
-   ![Восстановление сервера](media/AD-Forest-Recovery-Perform-a-Full-Recovery/restore5.png)
+   ![Снимок экрана, на котором показано использование последнего доступного образа системы (рекомендуется).](media/AD-Forest-Recovery-Perform-a-Full-Recovery/restore5.png)
 7. Теперь у вас будет возможность:
    -  Форматирование и повторное разбиение дисков
    -  Установка драйверов
    -  Отмените выбор **дополнительных** функций автоматического перезапуска и проверки на наличие ошибок диска. Эти типы включены по умолчанию.
-   ![Восстановление сервера](media/AD-Forest-Recovery-Perform-a-Full-Recovery/restore6.png)
+   ![Снимок экрана, посвященный расширению... переключатель.](media/AD-Forest-Recovery-Perform-a-Full-Recovery/restore6.png)
 8. Щелкните **Далее**.
 9. Нажмите кнопку **Готово**. Вам будет предложено подтвердить, что вы действительно хотите продолжить. Нажмите кнопку **Да**.
-   ![Восстановление сервера](media/AD-Forest-Recovery-Perform-a-Full-Recovery/restore11.png)
+   ![Снимок экрана, показывающий ход восстановления образа.](media/AD-Forest-Recovery-Perform-a-Full-Recovery/restore11.png)
 10. После этого выполните полномочное восстановление SYSVOL, как описано в статье [восстановление леса Active Directory. выполнение полномочной синхронизации SYSVOL, реплицированной](AD-Forest-Recovery-Authoritative-Recovery-SYSVOL.md)с помощью DFSR.
 
 ## <a name="perform-a-full-server-restore-with-any-image-local-or-remote"></a>Выполните полное восстановление сервера с любым локальным или удаленным образом.
@@ -62,9 +62,9 @@ ms.locfileid: "97042992"
 4. При восстановлении последней локальной резервной копии щелкните **выбрать образ системы** и нажмите кнопку **Далее**.
 5. Теперь можно выбрать расположение резервной копии, которую необходимо восстановить. Если образ является локальным, его можно выбрать из списка.
 6. Если образ находится в общей сетевой папке, выберите **Дополнительно**. Если необходимо установить драйвер, можно также выбрать **Дополнительно** .
-   ![Восстановление сервера](media/AD-Forest-Recovery-Perform-a-Full-Recovery/restore7.png)
+   ![Снимок экрана, на котором показана кнопка "Дополнительно" в диалоговом окне "повторное создание образа компьютера".](media/AD-Forest-Recovery-Perform-a-Full-Recovery/restore7.png)
 7. При восстановлении из сети после нажатия кнопки **Дополнительно** выберите **Поиск образа системы в сети**. Возможно, вам будет предложено восстановить сетевое подключение. Нажмите кнопку ОК. </br>
-   ![Восстановление сервера](media/AD-Forest-Recovery-Perform-a-Full-Recovery/restore8.png)
+   ![Снимок экрана, посвященный поиску образа системы в параметре сети.](media/AD-Forest-Recovery-Perform-a-Full-Recovery/restore8.png)
 8. Введите UNC-путь к расположению общей папки резервных копий (например, \\ \server1\backups) и нажмите кнопку **ОК**. Также можно ввести IP-адрес целевого сервера, например \\ \192.168.1.3\backups..
    ![Восстановление сервера](media/AD-Forest-Recovery-Perform-a-Full-Recovery/restore9.png)
 9. Введите учетные данные, необходимые для доступа к общей папке, и нажмите кнопку ОК.
@@ -118,7 +118,7 @@ ms.locfileid: "97042992"
    set address "Name of Network Adapter" static IPv4 Address SubnetMask IPv4 Gateway Address 1
    ```
 
-   Пример.
+   Пример:
 
    ```
    set address "Local Area Connection" static 192.168.1.2 255.0.0.0 192.168.1.1 1

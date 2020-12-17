@@ -6,12 +6,12 @@ author: iainfoulds
 manager: daveba
 ms.date: 08/09/2018
 ms.topic: article
-ms.openlocfilehash: c03d223bcfcf4be9360d175bfcc9f70e7b4cd59e
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: 86a47d6fc6660413e42c270616d4ec004729063e
+ms.sourcegitcommit: e57536e28902ae52d3040141bbd2aa00e91bbdd3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97042942"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "97644664"
 ---
 # <a name="ad-forest-recovery---configuring-the-dns-server-service"></a>Восстановление леса Active Directory. Настройка службы DNS-сервера
 
@@ -37,15 +37,15 @@ ms.locfileid: "97042942"
 5. На экране **роли сервера** выберите **DNS-сервер**, при появлении запроса щелкните **Добавить компоненты** и нажмите кнопку **Далее**.
 6. На экране **компонентов** нажмите кнопку **Далее**.
 7. Прочтите сведения на странице **DNS-сервер** и нажмите кнопку **Далее**.
-   ![DNS-сервер](media/AD-Forest-Recovery-Configure-DNS/dns1.png)
+   ![Снимок экрана, на котором показана страница DNS-сервера.](media/AD-Forest-Recovery-Configure-DNS/dns1.png)
 8. На странице **Подтверждение** убедитесь, что роль DNS-сервера будет установлена, и нажмите кнопку **установить**.
 
 ### <a name="to-configure-the-dns-server-service"></a>Настройка службы DNS-сервера
 
 1. Откройте диспетчер сервера, щелкните **Сервис** и выберите **DNS**.
-   ![DNS-сервер](media/AD-Forest-Recovery-Configure-DNS/dns2.png)
+   ![Снимок экрана, на котором показан объект DNS.](media/AD-Forest-Recovery-Configure-DNS/dns2.png)
 2. Создайте зоны DNS для тех же доменных имен DNS, которые были размещены на DNS-серверах до критического сбоя. Дополнительные сведения см. в разделе Добавление зоны прямого просмотра ( [https://go.microsoft.com/fwlink/?LinkId=74574](https://go.microsoft.com/fwlink/?LinkId=74574) ).
-3. Настройте данные DNS в том виде, в котором они существовали до критического сбоя. Пример.
+3. Настройте данные DNS в том виде, в котором они существовали до критического сбоя. Пример:
 
    - Настройте зоны DNS, которые будут храниться в AD DS. Дополнительные сведения см. в разделе Изменение типа зоны ( [https://go.microsoft.com/fwlink/?LinkId=74579](https://go.microsoft.com/fwlink/?LinkId=74579) ).
    - Настройте зону DNS, которая является полномочным для записей ресурсов локатора контроллеров доменов (локатора контроллера домена), чтобы разрешить безопасное динамическое обновление. Дополнительные сведения см. в разделе разрешение только безопасных динамических обновлений ( [https://go.microsoft.com/fwlink/?LinkId=74580](https://go.microsoft.com/fwlink/?LinkId=74580) ).

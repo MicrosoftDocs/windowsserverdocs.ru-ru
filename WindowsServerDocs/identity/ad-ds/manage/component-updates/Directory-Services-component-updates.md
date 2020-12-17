@@ -7,12 +7,12 @@ ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: a5836f3dda9615a449c89fe130798566e7481906
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: 7b761ab0c645c33c3cc2d842d1db582590d7db90
+ms.sourcegitcommit: e57536e28902ae52d3040141bbd2aa00e91bbdd3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97049662"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "97644654"
 ---
 # <a name="directory-services-component-updates"></a>Обновления компонентов служб каталогов
 
@@ -108,7 +108,7 @@ Set-ADDomainMode -DomainMode Windows2008Domain -Identity contoso.com
 
 Создание нового домена в существующем лесу
 
-![обновления служб каталогов](media/Directory-Services-component-updates/GTR_ADDS_FFL.gif)
+![Снимок экрана, на котором показана страница параметров контроллера домена.](media/Directory-Services-component-updates/GTR_ADDS_FFL.gif)
 
 ### <a name="adprep"></a>ADPREP
 В этом выпуске нет новых операций леса или домена.
@@ -150,9 +150,9 @@ Set-ADDomainMode -DomainMode Windows2008Domain -Identity contoso.com
 
 Используйте параметр-Домаинмоде с командлетами Install-ADDSForest или Install-ADDSDomain, чтобы указать режим работы домена.  Поддерживаемые значения для этого параметра могут быть допустимым целым числом или соответствующим перечислимым строковым значением. Например, чтобы установить уровень режима домена Windows Server 2008 R2, можно указать значение 4 или "Win2008R2".  При выполнении этих командлетов с сервера 2012 R2 допустимые значения включают в себя параметры для Windows Server 2008 (3, Win2008) Windows Server 2008 R2 (4, Win2008R2) Windows Server 2012 (5, Win2012) и Windows Server 2012 R2 (6, Win2012R2). Режим работы домена не может быть ниже режима работы леса, но может быть выше него.  Поскольку служба FRS не является устаревшей в этом выпуске, Windows Server 2003 (2, Win2003) не является распознаваемым параметром с этими командлетами при выполнении из Windows Server 2012 R2.
 
-![обновления служб каталогов](media/Directory-Services-component-updates/GTR_ADDS_PS_Install2003DFL.gif)
+![Снимок экрана окна терминала, в котором показан параметр-Домаинмоде, используемый с командлетом Install-ADDSForest.](media/Directory-Services-component-updates/GTR_ADDS_PS_Install2003DFL.gif)
 
-![обновления служб каталогов](media/Directory-Services-component-updates/GTR_ADDS_PS_InstallDFL2.gif)
+![Снимок экрана окна терминала, в котором показано, как использовать командлет Install-ADDSForest.](media/Directory-Services-component-updates/GTR_ADDS_PS_InstallDFL2.gif)
 
 ## <a name="ldap-query-optimizer-changes"></a><a name="BKMK_LDAPQuery"></a>Изменения оптимизатора запросов LDAP
 
@@ -170,7 +170,7 @@ Set-ADDomainMode -DomainMode Windows2008Domain -Identity contoso.com
 > -   Меньше вызовов поддержки, касающихся проблем с производительностью AD
 > -   Переход на Windows Server 2008 R2 (KB 2862304)
 
-### <a name="background"></a>История
+### <a name="background"></a>Историческая справка
 Возможность поиска Active Directory является основной службой, предоставляемой контроллерами домена.  Другие службы и бизнес-приложения полагаются на Active Directory Поиск.  Если эта функция недоступна, выполнение бизнес-операций может прекратиться до остановки.  Как основная и интенсивно используемая служба, необходимо, чтобы контроллеры домена эффективно обрабатывали трафик поиска LDAP.  Алгоритм оптимизатора запросов LDAP пытается эффективно выполнять поиск LDAP с помощью сопоставления фильтров поиска LDAP с результирующим набором, который может быть удовлетворен с помощью записей, уже индексированных в базе данных.  Этот алгоритм был повторно вычислен и оптимизирован.  Результатом является повышение производительности при поиске LDAP и время поиска LDAP сложных запросов.
 
 ### <a name="details-of-change"></a>Сведения об изменении
@@ -264,7 +264,7 @@ Log Record Bytes Generated: 0
 
     -   Предоставляется через трассировку ETW и событие с ИДЕНТИФИКАТОРом 1644
 
-        ![обновления служб каталогов](media/Directory-Services-component-updates/GTR_ADDS_Event1644.gif)
+        ![Снимок экрана, на котором показаны атрибуты, препятствующие оптимизации значения.](media/Directory-Services-component-updates/GTR_ADDS_Event1644.gif)
 
 ### <a name="to-enable-the-stats-control-in-ldp"></a><a name="BKMK_EnableStats"></a>Включение контроля статистики в LDP
 
@@ -274,7 +274,7 @@ Log Record Bytes Generated: 0
 
 3.  В диалоговом окне элементы управления разверните **предопределенное** раскрывающееся меню Загрузка, выберите пункт **Поиск статистики** , а затем нажмите кнопку **ОК**.
 
-    ![обновления служб каталогов](media/Directory-Services-component-updates/GTR_ADDS_Controls.gif)
+    ![Снимок экрана, посвященный предопределенному списку загрузки.](media/Directory-Services-component-updates/GTR_ADDS_Controls.gif)
 
 4.  В меню **Обзор** выберите пункт **Поиск** .
 
@@ -282,7 +282,7 @@ Log Record Bytes Generated: 0
 
 6.  Убедитесь, что в диалоговом окне Параметры поиска установлен флажок **Расширенный** , и нажмите кнопку **ОК**.
 
-    ![обновления служб каталогов](media/Directory-Services-component-updates/GTR_ADDS_SearchOptions.gif)
+    ![Снимок экрана, посвященный расширению параметра.](media/Directory-Services-component-updates/GTR_ADDS_SearchOptions.gif)
 
 ### <a name="try-this-use-ldp-to-return-query-statistics"></a>Попробуйте сделать это: Использование LDP для возврата статистики запросов
 Выполните следующие действия на контроллере домена или в присоединенном к домену клиенте или сервере с установленными инструментами AD DS.  Повторите следующие действия, предназначенные для контроллера домена Windows Server 2012 и контроллера домена Windows Server 2012 R2.
@@ -315,7 +315,7 @@ Log Record Bytes Generated: 0
 > -   Дополнительная статистика поиска LDAP добавляется в событие с ИДЕНТИФИКАТОРом 1644, чтобы помочь в устранении неэффективного или дорогостоящего поиска LDAP.
 > -   Теперь можно указать пороговое значение времени поиска (например, Событие журнала 1644 для поисков, требующих больше 100 мс), вместо указания дорогостоящих и неэффективных пороговых значений результатов поиска
 
-### <a name="background"></a>История
+### <a name="background"></a>Историческая справка
 При устранении неполадок, связанных с производительностью Active Directory, очевидно, что операция поиска LDAP может стать причиной проблемы.  Вы решили включить ведение журнала, чтобы видеть дорогостоящие или неэффективные запросы LDAP, обрабатываемые контроллером домена.  Чтобы включить ведение журнала, необходимо задать значение поля "диагностическая диагностика" и при необходимости указать пороговые или неэффективные значения для результатов поиска.  При включении уровня ведения журнала для полей со значением 5 любой поиск, соответствующий этим критериям, записывается в журнал событий служб каталогов с событием с ИДЕНТИФИКАТОРом 1644.
 
 Событие содержит:
@@ -324,7 +324,7 @@ Log Record Bytes Generated: 0
 
 -   Начальный узел
 
--   Фильтр
+-   Filter
 
 -   Область поиска
 
@@ -368,7 +368,7 @@ Windows Registry Editor Version 5.00
 #### <a name="comparison-of-the-old-and-new-event-id-1644"></a>Сравнение старого и нового событий с ИДЕНТИФИКАТОРом 1644
 OLD
 
-![обновления служб каталогов](media/Directory-Services-component-updates/GTR_ADDS_Event1644_2012.gif)
+![Снимок экрана, на котором показан старый идентификатор события 1664.](media/Directory-Services-component-updates/GTR_ADDS_Event1644_2012.gif)
 
 NEW
 
