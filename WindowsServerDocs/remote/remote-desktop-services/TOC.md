@@ -95,7 +95,8 @@
 #### [Предоставление доступа к компьютеру за пределами сети](clients/remote-desktop-allow-outside-access.md)
 #### [Изменение прослушивающего порта удаленного рабочего стола на вашем компьютере](clients/change-listening-port.md)
 ### Дополнительные сведения
-#### [Сравнение клиентов](clients/remote-desktop-app-compare.md)
+#### [Сравнение клиентов: функции](clients/remote-desktop-features.md)
+#### [Сравнение клиентов: перенаправления](clients/remote-desktop-app-compare.md)
 #### [Поддерживаемые параметры RDP-файла удаленного рабочего стола](clients/rdp-files.md)
 #### [Схема URI удаленного рабочего стола](clients/remote-desktop-uri.md)
 #### [Вопросы и ответы по клиенту удаленного рабочего стола](clients/remote-desktop-client-faq.md)

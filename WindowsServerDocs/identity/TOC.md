@@ -476,10 +476,7 @@
 ## Служба управления правами Active Directory
 ### [Обновление AD RMS до Windows Server 2016](ad-rms/adrms-deploy.md)
 
-
-## [Обеспечение безопасности привилегированного доступа](securing-privileged-access/securing-privileged-access.md)
-### [Рабочие станции c привилегированным доступом](securing-privileged-access/privileged-access-workstations.md)
-### [Справочные материалы по обеспечению безопасности привилегированного доступа](securing-privileged-access/securing-privileged-access-reference-material.md)
+## [Справочные материалы по средствам администрирования и типам входа](securing-privileged-access/reference-tools-logon-types.md)
 
 ## [Политики ограниченного использования программ](software-restriction-policies/software-restriction-policies.md)
 ### [Технический обзор политик ограниченного использования программ](software-restriction-policies/software-restriction-policies-technical-overview.md)
