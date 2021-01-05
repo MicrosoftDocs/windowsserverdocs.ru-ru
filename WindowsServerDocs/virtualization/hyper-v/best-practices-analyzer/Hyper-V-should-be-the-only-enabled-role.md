@@ -1,17 +1,17 @@
 ---
 title: Hyper-V должна быть единственной включенной ролью
-description: Содержит инструкции по устранению проблемы, о которой сообщило это правило анализатор соответствия рекомендациям.
+description: Узнайте, что делать, если на сервере включены роли, отличные от Hyper-V.
 ms.author: benarm
 author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: 5a0ed176-048f-40b1-b56c-8391b805fd37
 ms.date: 8/16/2016
-ms.openlocfilehash: a59f4ebd1bf3ce7ce93d2eb098302b5bd2c42cce
-ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
+ms.openlocfilehash: f575f981975253faea30dad610120f3e314a1edf
+ms.sourcegitcommit: 48d45b2adf44afb0207214be9c57fe589360d177
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "90746839"
+ms.lasthandoff: 12/31/2020
+ms.locfileid: "97833619"
 ---
 # <a name="hyper-v-should-be-the-only-enabled-role"></a>Hyper-V должна быть единственной включенной ролью
 
@@ -19,7 +19,7 @@ ms.locfileid: "90746839"
 
 Дополнительные сведения о рекомендациях и проверках см. в разделе [Анализатор соответствия рекомендациям](https://go.microsoft.com/fwlink/?LinkId=122786).
 
-|Свойство.|Подробнее|
+|Свойство|Сведения|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|

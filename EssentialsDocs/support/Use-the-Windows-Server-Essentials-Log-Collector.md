@@ -1,18 +1,18 @@
 ---
 title: Использование сборщика журналов Windows Server Essentials
-description: Описание использования Windows Server Essentials
+description: Узнайте, как использовать сборщик журналов Windows Server Essentials для сбора журналов с серверов, компьютеров в сети или и того, и другого.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: c6985518-b42d-4cfb-9761-eaa75306b6d7
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: 07e849fa8db3cdc4204de402c6fc0cb823881480
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 4a540c52ee4cb84455f125c0d9f5c2f4ad0f3bf1
+ms.sourcegitcommit: 9e19436bd8b20af60284071ab512405aebfbec83
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89624992"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97810131"
 ---
 # <a name="use-the-windows-server-essentials-log-collector"></a>Использование сборщика журналов Windows Server Essentials
 
@@ -46,7 +46,7 @@ ms.locfileid: "89624992"
 
 -   Сетевые адаптеры, связанные с TCP/IP
 
--   Locale
+-   Языковой стандарт
 
 -   Процессы
 
@@ -123,11 +123,11 @@ ms.locfileid: "89624992"
 
 -   Разделы реестра из
 
-    -   \\\ HKEY_LOCAL_MACHINE \Софтваре\микрософт\виндовс Server \
+    -   \\\ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Server\
 
-    -   \\\ HKEY_LOCAL_MACHINE \Систем\куррентконтролсет\сервицес\девицеспровидерсвк
+    -   \\\ HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\DevicesProviderSvc
 
-    -   \\\ HKEY_LOCAL_MACHINE \Систем\куррентконтролсет\сервицес\домаинманажерпровидерсвк
+    -   \\\ HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\DomainManagerProviderSvc
 
 ### <a name="network-computer-logs-and-registry-information"></a>Сведения из журналов и реестра компьютеров сети
 

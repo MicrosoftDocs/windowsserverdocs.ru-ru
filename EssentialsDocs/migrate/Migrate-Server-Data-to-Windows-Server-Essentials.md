@@ -1,18 +1,18 @@
 ---
 title: Миграция данных сервера в Windows Server Essentials
-description: Описание использования Windows Server Essentials
+description: Узнайте о всех доступных статьях, чтобы узнать, как перенести данные сервера в Windows Server Essentials.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: dff2bf27-5d97-409b-81e8-286f7d933d90
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: dbcffdfb89edc56503521937909542d136854e1a
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: b291c1ed48af55c1e6779397a6c5b162d118c802
+ms.sourcegitcommit: 9e19436bd8b20af60284071ab512405aebfbec83
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89625923"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97810921"
 ---
 # <a name="migrate-server-data-to-windows-server-essentials"></a>Миграция данных сервера в Windows Server Essentials
 
@@ -21,17 +21,12 @@ ms.locfileid: "89625923"
 Следующие руководства содержат информацию о миграции на Windows Server Essentials из существующих установок Windows Small Business Server или Windows Server Essentials, а также о планировании конкретных сценариев миграции Windows Server Essentials и подготовке к ним.
 
 ## <a name="migrate-to-windows-server-essentials"></a>Переход на Windows Server Essentials
- Чтобы избежать проблем во время переноса существующего сервера на Windows Server Essentials, ознакомьтесь с руководством по миграции перед началом миграции.
 
+Чтобы избежать проблем при переносе существующего сервера на Windows Server Essentials, ознакомьтесь с руководством по миграции, которое относится к бизнес-сценарию перед началом миграции.
 
 -   [Переход на Windows Server Essentials](Migrate-from-Previous-Versions-to-Windows-Server-Essentials-or-Windows-Server-Essentials-Experience.md)
 
 -   [Переход на Windows Server 2012 R2 Standard](Transition-from-Windows-Server-2012-R2-Essentials-to-Windows-Server-2012-R2-Standard.md)
-
-
-## <a name="migrate-to-windows-server-essentials"></a>Переход на Windows Server Essentials
- Чтобы избежать проблем при переносе существующего сервера на Windows Server Essentials, ознакомьтесь с руководством по миграции, которое относится к бизнес-сценарию перед началом миграции.
-
 
 -   [Переход на Windows Server 2012 Standard](Transition-from-Windows-Server-2012-Essentials-to-Windows-Server-2012-Standard.md)
 

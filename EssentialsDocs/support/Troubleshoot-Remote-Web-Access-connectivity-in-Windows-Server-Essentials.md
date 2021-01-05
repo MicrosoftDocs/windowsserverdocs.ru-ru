@@ -1,18 +1,18 @@
 ---
 title: Устранение неполадок подключения к системе удаленного веб-доступа в Windows Server Essentials
-description: Описание использования Windows Server Essentials
+description: Узнайте, как устранять неполадки подключения удаленного Веб-доступ в Windows Server Essentials.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: d3642575-b3ee-4488-b654-5bf9d3b8c935
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: fc51555f680126cbd1b6e9fe2c672cbcbc5da7e9
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: c73283d60d2286ef9e04b4ad2d1bd747cc2d6e98
+ms.sourcegitcommit: 9e19436bd8b20af60284071ab512405aebfbec83
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89625146"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97810241"
 ---
 # <a name="troubleshoot-remote-web-access-connectivity-in-windows-server-essentials"></a>Устранение неполадок подключения к системе удаленного веб-доступа в Windows Server Essentials
 
@@ -52,7 +52,7 @@ ms.locfileid: "89625146"
 
   - Настройте перенаправление портов на маршрутизаторе для следующих портов.
 
-    |Служба или протокол|Port|
+    |Служба или протокол|Порт|
     |-------------------------|----------|
     |HTTP|TCP 80|
     |HTTPS|TCP 443|

@@ -1,6 +1,6 @@
 ---
 title: Установка Windows Server Essentials в режиме миграции
-description: Описание использования Windows Server Essentials
+description: Узнайте, как установить Windows Server Essentials в режиме миграции.
 ms.date: 04/29/2020
 ms.topic: article
 ms.assetid: fd7196ac-cfa6-46a5-ba77-6962b47a825e
@@ -10,12 +10,12 @@ manager: mtillman
 ms.custom:
 - CI ID 117135
 - CSSTroubleshoot
-ms.openlocfilehash: ada3b5fa3b95fa6de45177513b26589c4180696d
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 288a3a3c6680da8f595cb55d77637b6d64678667
+ms.sourcegitcommit: 9e19436bd8b20af60284071ab512405aebfbec83
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89622829"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97810951"
 ---
 # <a name="install-windows-server-essentials-in-migration-mode"></a>Установка Windows Server Essentials в режиме миграции
 

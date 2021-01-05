@@ -1,18 +1,18 @@
 ---
 title: Устранение неполадок повсеместного доступа в Windows Server Essentials
-description: Описание использования Windows Server Essentials
+description: Узнайте, как использовать мастер восстановления повсеместного доступа в Windows Server Essentials для устранения проблем, препятствующих доступу сетевых пользователей к ресурсам сервера.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 68f2b05c-09eb-4cba-8db4-a91353b513c6
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: 4de71e30e4dd706a52587dc1c869960c9b83bc5c
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 947b75f6f314fad479f7725d3abc482116755172
+ms.sourcegitcommit: 9e19436bd8b20af60284071ab512405aebfbec83
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89625237"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97810221"
 ---
 # <a name="troubleshoot-anywhere-access-in-windows-server-essentials"></a>Устранение неполадок повсеместного доступа в Windows Server Essentials
 
@@ -33,7 +33,7 @@ ms.locfileid: "89625237"
 
 3. Щелкните **Восстановить**. Запускается мастер исправления повсеместного доступа.
 
-4. Щелкните **Далее**. Мастер анализирует работу повсеместного доступа, определяет проблему и пытается устранить неполадку.
+4. Нажмите кнопку **Далее**. Мастер анализирует работу повсеместного доступа, определяет проблему и пытается устранить неполадку.
 
 5. Если вы получите предупреждение по окончании работы мастера, можно щелкнуть **Повторить**, чтобы попытаться устранить проблему еще раз. Если вы продолжите получать предупреждение, ознакомьтесь с дополнительными сведениями о проблеме и рекомендациями по ее устранению в составе предупреждения.
 

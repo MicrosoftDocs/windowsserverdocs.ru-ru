@@ -1,18 +1,18 @@
 ---
-title: Расширение мониторинга пакетов в центре администрирования Windows
+title: Расширение мониторинга пакетов в Windows Admin Center
 description: Эта страница используется для работы и использования монитора пакетов (Пктмон) через центр администрирования Windows.
 ms.topic: how-to
 author: khdownie
 ms.author: v-kedow
 ms.date: 11/12/2020
-ms.openlocfilehash: 85d204d1731ebcf21c55364f48ebe0e7b6dc157c
-ms.sourcegitcommit: 8808f871c8cf131f819ef5540286218bd425da96
+ms.openlocfilehash: eabcda1c535086472fda55136b14073ce6181d36
+ms.sourcegitcommit: b0c10eaffaa5de3eeff44c433580b41270c27d32
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/14/2020
-ms.locfileid: "94632651"
+ms.lasthandoff: 12/30/2020
+ms.locfileid: "97826194"
 ---
-# <a name="packet-monitoring-extension-in-windows-admin-center"></a>Расширение мониторинга пакетов в центре администрирования Windows
+# <a name="packet-monitoring-extension-in-windows-admin-center"></a>Расширение мониторинга пакетов в Windows Admin Center
 
 >Область применения: Windows Server (половина ежегодного канала), Windows Server 2019, Windows 10, Azure Stack ХЦИ, центр Azure Stack, Azure
 
@@ -47,7 +47,7 @@ ms.locfileid: "94632651"
 
    Если вы хотите записывать трафик, проходящий через определенные компоненты, на первом шаге панели "фильтры" отображается макет сетевого стека, чтобы можно было выбрать компоненты для фильтрации. Кроме того, это отличное место для анализа и понимания структуры сетевого стека вашего компьютера.
 
-   :::image type="content" source="media/filtering-by-networking-stack-components.png" alt-text="Пример фильтрации по компонентам стека сети" border="true":::
+   :::image type="content" source="media/filtering-by-networking-stack-components.png" alt-text="Пример фильтрации по компонентам стека сети" border="true" lightbox="media/filtering-by-networking-stack-components.png":::
 
 2. Фильтрация по параметрам пакетов
 
@@ -57,17 +57,17 @@ ms.locfileid: "94632651"
    - Для дальнейшей фильтрации пакетов TCP можно указать дополнительный список флагов TCP для сопоставления. Поддерживаемые флаги: FIN, SYN, RST, КОМАНДНОМ PSH, ACK, УРГ, ECE и КВР.
    - Если флажок **инкапсуляции** установлен, средство применяет фильтр к инкапсулированным внутренним пакетам в дополнение к внешнему пакету. Поддерживаемые методы инкапсуляции: ВКСЛАН, GRE, NVGRE и IP-in-IP. Пользовательский порт ВКСЛАН является необязательным и по умолчанию равен 4789.
 
-   :::image type="content" source="media/filtering-by-packet-parameters.png" alt-text="Пример фильтрации по параметрам пакетов" border="true":::
+   :::image type="content" source="media/filtering-by-packet-parameters.png" alt-text="Пример фильтрации по параметрам пакетов" border="true" lightbox="media/filtering-by-packet-parameters.png":::
 
 3. Фильтрация по состоянию потока пакетов
 
    По умолчанию монитор пакетов будет записывать отправленные и пропущенные пакеты. Чтобы захватить только удаленные пакеты, выберите **отброшенные пакеты**.
 
-   :::image type="content" source="media/filtering-by-packet-flow-status.png" alt-text="Пример фильтрации по состоянию потока пакетов" border="true":::
+   :::image type="content" source="media/filtering-by-packet-flow-status.png" alt-text="Пример фильтрации по состоянию потока пакетов" border="true" lightbox="media/filtering-by-packet-flow-status.png":::
 
    Затем отображается сводка по всем выбранным условиям фильтра для просмотра. Вы сможете получить это представление после запуска записи с помощью кнопки **условия захвата** .
 
-   :::image type="content" source="media/filters-review.png" alt-text="Запись только отброшенных пакетов" border="true":::
+   :::image type="content" source="media/filters-review.png" alt-text="Запись только отброшенных пакетов" border="true" lightbox="media/filters-review.png":::
 
 ## <a name="capture-log"></a>Журнал захвата
 
@@ -79,7 +79,7 @@ ms.locfileid: "94632651"
    - Можно выполнить поиск значения в любом столбце журнала с помощью панели поиска.
    - Вы можете перезапустить запись с теми же выбранными фильтрами, нажав кнопку **перезапустить** .
 
-   :::image type="content" source="media/capture-log-result.png" alt-text="Пример таблицы результатов записи журнала" border="true":::
+   :::image type="content" source="media/capture-log-result.png" alt-text="Пример таблицы результатов записи журнала" border="true" lightbox="media/capture-log-result.png":::
 
 ## <a name="details-page"></a>Страница сведений
 
@@ -89,7 +89,7 @@ ms.locfileid: "94632651"
    - При выборе моментального снимка отображаются дополнительные сведения об этом конкретном снимке, включая заголовки необработанных пакетов.
    - Все пропущенные пакеты имеют значение "true" на вкладке " **удалено** ", причину удаления и отображаются красным текстом, чтобы упростить их определение.
 
-   :::image type="content" source="media/details-page.png" alt-text="Пример страницы сведений, в которой показаны моментальные снимки пакетов" border="true":::
+   :::image type="content" source="media/details-page.png" alt-text="Пример страницы сведений, в которой показаны моментальные снимки пакетов" border="true" lightbox="media/details-page.png":::
 
 ## <a name="display-filters"></a>Фильтры экрана
 
@@ -99,7 +99,7 @@ ms.locfileid: "94632651"
    - Фильтры отображения можно удалить и изменить после применения, чтобы изменить представление журнала.
    - Фильтры фильтра отображаются в сохраненных журналах.
 
-   :::image type="content" source="media/display-filters.png" alt-text="Экран фильтров отображения" border="true":::
+   :::image type="content" source="media/display-filters.png" alt-text="Экран фильтров отображения" border="true" lightbox="media/display-filters.png":::
 
 ## <a name="save-feature"></a>Сохранить функцию
 
@@ -111,10 +111,10 @@ ms.locfileid: "94632651"
       - Пкапнг фомат, который можно проанализировать с помощью таких средств, как Wireshark.
          - Большая часть метаданных монитора пакетов будет потеряна во время этого преобразования. Дополнительные сведения см. на [этой странице](pktmon-pcapng-support.md) .
 
-   :::image type="content" source="media/packet-monitoring-save-feature.png" alt-text="Сохранение локальной копии записи" border="true":::
+   :::image type="content" source="media/packet-monitoring-save-feature.png" alt-text="Сохранение локальной копии записи" border="true" lightbox="media/packet-monitoring-save-feature.png":::
 
 ## <a name="open-feature"></a>Открыть компонент
 
 Функция открыть позволяет повторно открыть любой из пяти сохраненных журналов для анализа с помощью средства.
 
-   :::image type="content" source="media/open.png" alt-text="Открытие недавнего журнала" border="true":::
+   :::image type="content" source="media/open.png" alt-text="Открытие недавнего журнала" border="true" lightbox="media/open.png":::

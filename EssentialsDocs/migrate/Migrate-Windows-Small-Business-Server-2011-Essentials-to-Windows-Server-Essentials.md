@@ -1,18 +1,18 @@
 ---
 title: Миграция с Windows Small Business Server 2011 Essentials на Windows Server Essentials
-description: Описание использования Windows Server Essentials
+description: Узнайте, как перенести существующий домен Windows Small Business Server 2011 Essentials на Windows Server 2012 Essentials, а затем перенести параметры и данные.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 32fc90d8-31c5-4c7e-9fe3-483cf3c35f78
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: 7df1ca60ddd5bb89aa07819021bd3d11d213886f
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 7f59ee81edab99145628c5bc3d4c487a51408103
+ms.sourcegitcommit: 9e19436bd8b20af60284071ab512405aebfbec83
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89625816"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97810861"
 ---
 # <a name="migrate-windows-small-business-server-2011-essentials-to-windows-server-essentials"></a>Миграция с Windows Small Business Server 2011 Essentials на Windows Server Essentials
 

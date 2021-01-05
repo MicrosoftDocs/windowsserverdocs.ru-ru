@@ -1,18 +1,18 @@
 ---
 title: Управление серверным хранилищем в Windows Server Essentials
-description: Описание использования Windows Server Essentials
+description: Узнайте, как управлять хранилищем сервера (включая жесткие диски и дисковые пространства) на страницах жестких дисков на вкладке "хранилище" на панели мониторинга.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 1836682e-c7bb-4dd5-a2b5-6ff032693574
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: 2cd8ac4e93027e3ab88042d0bca465f3fea67f26
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 4f9f1c42996eb0582d9c2eb14bc88012e121e862
+ms.sourcegitcommit: 9e19436bd8b20af60284071ab512405aebfbec83
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89626107"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97811261"
 ---
 # <a name="manage-server-storage-in-windows-server-essentials"></a>Управление серверным хранилищем в Windows Server Essentials
 
@@ -89,7 +89,7 @@ ms.locfileid: "89626107"
 
 3.  В разделе **Жесткие диски** выберите букву диска, которая была назначена добавленному жесткому диску, и в области задач щелкните **Просмотр свойств жесткого диска**.
 
-4.  В ** \> свойствах<буква_диска**на вкладке **Общие** нажмите кнопку **Очистка диска**.
+4.  В **\> свойствах<буква_диска** на вкладке **Общие** нажмите кнопку **Очистка диска**.
 
 ##  <a name="perform-checks-and-repairs-on-hard-drives"></a><a name="BKMK_Check"></a> Выполнение проверок и восстановление на жестких дисках
  Процесс проверки и восстановления жестких дисков используется для проверки работоспособности файловой системы, хранящейся на жестких дисках. Процесс **chkdsk** выполняется на томе, где хранятся файлы резервной копии. С помощью проверки и восстановления можно устранить возникновение следующего предупреждения.

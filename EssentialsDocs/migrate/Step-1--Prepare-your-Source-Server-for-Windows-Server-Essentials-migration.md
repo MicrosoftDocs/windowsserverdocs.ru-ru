@@ -1,18 +1,18 @@
 ---
 title: Шаг 1. Подготовка исходного сервера для миграции Windows Server Essentials
-description: Описание использования Windows Server Essentials
+description: Узнайте, как создать резервную копию исходного сервера, оценить работоспособность системы, установить последние пакеты обновления и исправления, а также проверить конфигурацию сети.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 244c8a06-04c6-4863-8b52-974786455373
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: 2be09665c0a2361938226b10be0ef058b8aa0ee6
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 700be9d860651767cca39fc285de4d76d07aa5a2
+ms.sourcegitcommit: 9e19436bd8b20af60284071ab512405aebfbec83
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89625506"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97810561"
 ---
 # <a name="step-1-prepare-your-source-server-for-windows-server-essentials-migration"></a>Шаг 1. Подготовка исходного сервера для миграции Windows Server Essentials
 
@@ -120,7 +120,7 @@ ms.locfileid: "89625506"
 
    2.  На панели мониторинга перейдите на вкладку **Устройства**.
 
-   3.  В области задачи **сервера**< > **Tasks** щелкните **анализатор соответствия рекомендациям**.
+   3.  В области задачи **сервера**< >  щелкните **анализатор соответствия рекомендациям**.
 
 4. На панели сведений введите метку сканирования и нажмите кнопку **Начать сканирование**. Эта метка содержит имя отчета о сканировании, например, **SBS BPA Scan 1Jul2013**.
 
@@ -177,7 +177,7 @@ ms.locfileid: "89625506"
 >  После завершения установки необходимо включить функцию интеграции Microsoft 365 в Windows Server Essentials, выполнив команду **Интеграция с Microsoft 365ной** задачей.
 
 > [!IMPORTANT]
->  Чтобы разрешить средству миграции Microsoft 365 подключиться к серверу Exchange, работающему на исходном сервере, необходимо включить RPC через HTTP на исходном сервере. Сведения о включении RPC через HTTP см. в разделе [Начальное развертывание протокола RPC через HTTP в Small Business Server 2003 (Standard или Premium)](/previous-versions/tn-archive/bb123622(v=exchg.65)). Если после включения RPC через HTTP не удается запустить средство миграции Microsoft 365, просмотрите параметр **ValidPorts** в реестре в HKEY_LOCAL_MACHINE \софтваре\микрософт\рпк\рпкпрокси и убедитесь, что указано полное доменное имя (FQDN) исходного сервера. Если полное доменное имя не указано, добавьте его вручную, как показано в следующем примере:
+>  Чтобы разрешить средству миграции Microsoft 365 подключиться к серверу Exchange, работающему на исходном сервере, необходимо включить RPC через HTTP на исходном сервере. Сведения о включении RPC через HTTP см. в разделе [Начальное развертывание протокола RPC через HTTP в Small Business Server 2003 (Standard или Premium)](/previous-versions/tn-archive/bb123622(v=exchg.65)). Если после включения RPC через HTTP не удается запустить средство миграции Microsoft 365, просмотрите параметр **ValidPorts** в реестре в HKEY_LOCAL_MACHINE\Software\Microsoft\Rpc\RpcProxy и убедитесь, что указано полное доменное имя (FQDN) исходного сервера. Если полное доменное имя не указано, добавьте его вручную, как показано в следующем примере:
 >
 >  remote. *contoso*.com:6001-6002;remote. *contoso*.com:6004 (вместо *contoso* введите имя своего домена).
 

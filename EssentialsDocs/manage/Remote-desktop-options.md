@@ -1,18 +1,18 @@
 ---
 title: Параметры удаленного рабочего стола
-description: Описание использования Windows Server Essentials
+description: Сведения о параметрах удаленного рабочего стола, включая скорость подключения, размер экрана, включение печати на локальном компьютере и многое другое.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 51076946-ea9b-4ac7-9a6e-d6023816b97d
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: f4603adb7da1df0853b4c816254241d21b969fc5
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 02e34da2bf47498d3ee7ce7a424cc4abbc360f5a
+ms.sourcegitcommit: 9e19436bd8b20af60284071ab512405aebfbec83
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89625935"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97811121"
 ---
 # <a name="remote-desktop-options"></a>Параметры удаленного рабочего стола
 

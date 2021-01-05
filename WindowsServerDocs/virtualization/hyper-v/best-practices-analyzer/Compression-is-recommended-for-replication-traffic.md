@@ -1,17 +1,17 @@
 ---
 title: Рекомендуется использовать сжатие для трафика репликации.
-description: Интернет-версия текста для этого правила анализатор соответствия рекомендациям.
+description: Узнайте, что делать, если трафик репликации, передаваемый по сети с сервера-источника на сервер реплики, распаковывается.
 ms.author: benarm
 author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: cf8be6e9-2909-4e4a-bb63-d1e1ebbc6930
 ms.date: 8/16/2016
-ms.openlocfilehash: 61f1b56720af3583745960073823fef7b7b5173f
-ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
+ms.openlocfilehash: 41825e6484c7cef85b11795a68df501b13c4881e
+ms.sourcegitcommit: 48d45b2adf44afb0207214be9c57fe589360d177
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "90745849"
+ms.lasthandoff: 12/31/2020
+ms.locfileid: "97833649"
 ---
 # <a name="compression-is-recommended-for-replication-traffic"></a>Рекомендуется использовать сжатие для трафика репликации.
 
@@ -19,7 +19,7 @@ ms.locfileid: "90745849"
 
 Дополнительные сведения о рекомендациях и сканировании см. в разделе [Запуск сканирования анализатором соответствия рекомендациям и управление результатами сканирования](https://go.microsoft.com/fwlink/p/?LinkID=223177).
 
-|Свойство.|Подробнее|
+|Свойство|Сведения|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|

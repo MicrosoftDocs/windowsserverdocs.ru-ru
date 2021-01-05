@@ -1,18 +1,18 @@
 ---
 title: Миграция с Windows Small Business Server 2008 на Windows Server Essentials
-description: Описание использования Windows Server Essentials
+description: Узнайте, как перенести существующий домен Windows SBS 2008 в Windows Server 2012 Essentials на новом оборудовании, а затем перенести параметры и данные.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 71e3243e-2da9-409a-ae1f-813d4c9062e1
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: 81bb6a55efa3fef0154eda500e13928ac5db5b9e
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 1c8e6a52fbb9292e21d4eb17e086a4f78e1fadaa
+ms.sourcegitcommit: 9e19436bd8b20af60284071ab512405aebfbec83
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89625846"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97810871"
 ---
 # <a name="migrate-windows-small-business-server-2008-to-windows-server-essentials"></a>Миграция с Windows Small Business Server 2008 на Windows Server Essentials
 

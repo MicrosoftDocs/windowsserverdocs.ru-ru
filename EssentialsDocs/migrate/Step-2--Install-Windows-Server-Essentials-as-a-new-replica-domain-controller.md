@@ -1,18 +1,18 @@
 ---
 title: Шаг 2. Установка Windows Server Essentials в качестве нового репликата контроллера домена
-description: Описание использования Windows Server Essentials
+description: Узнайте, как установить Windows Server Essentials и Windows Server 2012 R2 Standard (с включенной ролью Windows Server Essentials) в качестве контроллера домена.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: c7ccfc34-63fd-436b-a1cd-e05810f60bfe
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: 9d70a4d5aae1269f10958f808692fffde9c83de8
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 64e6cbbf3eefd34e9373dcb1e49b3626e6014368
+ms.sourcegitcommit: 9e19436bd8b20af60284071ab512405aebfbec83
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89625493"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97810551"
 ---
 # <a name="step-2-install-windows-server-essentials-as-a-new-replica-domain-controller"></a>Шаг 2. Установка Windows Server Essentials в качестве нового репликата контроллера домена
 
@@ -74,7 +74,7 @@ ms.locfileid: "89625493"
 
     3.  Введите **connections** и нажмите клавишу "ВВОД".
 
-    4.  Введите **Подключение к серверу** *<ServerName \> * (где *<ServerName \> * — имя целевого сервера) и нажмите клавишу ВВОД.
+    4.  Введите **Подключение к серверу** *<ServerName \>* (где *<ServerName \>* — имя целевого сервера) и нажмите клавишу ВВОД.
 
     5.  В окне командной строки введите **q** и нажмите клавишу "ВВОД".
 

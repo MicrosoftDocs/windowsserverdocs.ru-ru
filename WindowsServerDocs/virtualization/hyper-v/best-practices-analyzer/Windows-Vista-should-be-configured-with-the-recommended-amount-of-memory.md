@@ -1,17 +1,17 @@
 ---
 title: Для Windows Vista следует настроить рекомендуемый объем памяти.
-description: Содержит инструкции по устранению проблемы, о которой сообщило это правило анализатор соответствия рекомендациям.
+description: Узнайте, что делать, если для виртуальной машины под управлением Windows Vista настроено меньше рекомендуемого объема ОЗУ (1 ГБ).
 ms.author: benarm
 author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: 64f4e53b-4adb-4e1d-bc48-c24f5f9d222f
 ms.date: 8/16/2016
-ms.openlocfilehash: ca492081383b962f85e8c28bc9e240a9ed62acfe
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.openlocfilehash: 43255cbb62bc35b6eee0dc73c0d52d192dbd66cd
+ms.sourcegitcommit: 48d45b2adf44afb0207214be9c57fe589360d177
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96866384"
+ms.lasthandoff: 12/31/2020
+ms.locfileid: "97833469"
 ---
 # <a name="windows-vista-should-be-configured-with-the-recommended-amount-of-memory"></a>Для Windows Vista следует настроить рекомендуемый объем памяти.
 
@@ -38,7 +38,7 @@ ms.locfileid: "96866384"
 
 \<list of virtual machine names>
 
-## <a name="resolution"></a>Разрешение
+## <a name="resolution"></a>Решение
 
 *Используйте диспетчер Hyper-V, чтобы увеличить объем памяти, выделенной для этой виртуальной машины, не менее 1 ГБ.*
 

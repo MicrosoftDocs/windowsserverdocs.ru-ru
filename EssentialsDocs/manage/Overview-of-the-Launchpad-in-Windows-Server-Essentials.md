@@ -1,18 +1,18 @@
 ---
 title: Обзор Launchpad в Windows Server Essentials
-description: Описание использования Windows Server Essentials
+description: Узнайте о панели запуска Windows Server Essentials, которая предоставляет пользователям, прошедшим проверку подлинности, доступ к основным функциям Windows Server Essentials.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 198d16cb-3d07-4706-be89-ad14a5f7dc47
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: c20fd35a1a90e6d635891cd2257913c669273735
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 0f1bf8eba82173323e60f9b612ca829f6b167bf2
+ms.sourcegitcommit: 9e19436bd8b20af60284071ab512405aebfbec83
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89623014"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97811111"
 ---
 # <a name="overview-of-the-launchpad-in-windows-server-essentials"></a>Обзор Launchpad в Windows Server Essentials
 

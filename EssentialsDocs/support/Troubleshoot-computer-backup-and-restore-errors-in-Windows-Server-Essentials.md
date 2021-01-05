@@ -1,18 +1,18 @@
 ---
 title: Устранение неполадок архивации и восстановления данных в Windows Server Essentials
-description: Описание использования Windows Server Essentials
+description: Узнайте, как устранять неполадки резервного копирования компьютеров, включая проблемы с конфигурацией резервного копирования, неполные или неуспешные резервные копии, оповещения о работоспособности резервных копий
 ms.date: 06/25/2013
 ms.topic: article
 ms.assetid: 5cc73aff-d2c0-4cf9-a23d-ef928ae5ddc9
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: ce2d6d51f230d4a06f2e1b9acfd378d61bfaf863
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 48adcdf82d6b8963e754c154b726e93d13e278ca
+ms.sourcegitcommit: 9e19436bd8b20af60284071ab512405aebfbec83
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89625104"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97810151"
 ---
 # <a name="troubleshoot-computer-backup-and-restore-errors-in-windows-server-essentials"></a>Устранение неполадок архивации и восстановления данных в Windows Server Essentials
 
@@ -95,7 +95,7 @@ ms.locfileid: "89625104"
 
 1. Убедитесь в том, что жесткий диск, подключенный к компьютеру, включен и работает правильно.
 
-2. Запустите команду **chkdsk /f /r** для устранения ошибок на жестком диске (**/f**) и восстановления читаемой информации из всех поврежденных секторов (**/r**). Дополнительные сведения о выполнении команды **chkdsk**см. в разделе [CHKDSK](https://go.microsoft.com/fwlink/?LinkId=206562).
+2. Запустите команду **chkdsk /f /r** для устранения ошибок на жестком диске (**/f**) и восстановления читаемой информации из всех поврежденных секторов (**/r**). Дополнительные сведения о выполнении команды **chkdsk** см. в разделе [CHKDSK](https://go.microsoft.com/fwlink/?LinkId=206562).
 
 3. Убедитесь, что компьютер не был выключен или отключен от сети в процессе выполнения архивации.
 
@@ -127,7 +127,7 @@ ms.locfileid: "89625104"
 
 5. Проверьте наличие других оповещений на сервере, которые могут сигнализировать о недостаточном месте на диске для успешной архивации данных на сервере. Следуйте инструкциям в диалоговом окне оповещения для устранения проблемы.
 
-6. Запуск команды **vssadmin** в командной строке для устранения неполадок службы теневого копирования (VSS). Дополнительные сведения о команде **vssadmin**см. в разделе [VSSADMIN](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc754968(v=ws.10)).
+6. Запуск команды **vssadmin** в командной строке для устранения неполадок службы теневого копирования (VSS). Дополнительные сведения о команде **vssadmin** см. в разделе [VSSADMIN](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc754968(v=ws.10)).
 
 ## <a name="troubleshoot-backup-health-alert-issues"></a>Устранение неполадок оповещений о работоспособности
 

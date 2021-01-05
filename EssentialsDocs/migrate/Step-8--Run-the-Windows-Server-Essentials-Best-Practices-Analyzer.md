@@ -1,18 +1,18 @@
 ---
 title: Шаг 8. Запуск анализатора соответствия рекомендациям для Windows Server Essentials
-description: Описание использования Windows Server Essentials
+description: Узнайте, как запустить Windows Server Essentials анализатор соответствия рекомендациям.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: e6ba701d-7183-4c26-960e-44cc280bf3e6
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: 25a991668f56bcb24606738a9a510d92b3d8f9eb
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: c767be324e960badbbb976f292e24b9d39502d7f
+ms.sourcegitcommit: 9e19436bd8b20af60284071ab512405aebfbec83
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89625338"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97810401"
 ---
 # <a name="step-8-run-the-windows-server-essentials-best-practices-analyzer"></a>Шаг 8. Запуск анализатора соответствия рекомендациям для Windows Server Essentials
 

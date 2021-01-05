@@ -7,12 +7,12 @@ ms.date: 05/31/2017
 ms.topic: article
 ms.author: billmath
 ms.assetId: 7b9f9a4f-888c-4358-bacd-3237661b1935
-ms.openlocfilehash: dd666023e7b53af72f63edf1750321317e08f527
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: 68222bf7dc0b0882fd2c063e38f0fc9f2faf9588
+ms.sourcegitcommit: 3247e193d9fe1b57543fff215460a6d9db52f58b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97049242"
+ms.lasthandoff: 12/30/2020
+ms.locfileid: "97815023"
 ---
 # <a name="setup-geographic-redundancy-with-sql-server-replication"></a>Настройка географической избыточности с помощью Репликация SQL Server
 
@@ -23,7 +23,7 @@ ms.locfileid: "97049242"
 При использовании SQL Server в качестве базы данных конфигурации AD FS можно настроить \- геоизбыточность для фермы AD FS с помощью SQL Server репликации. \-Геоизбыточность реплицирует данные между двумя географически отдаленными сайтами, чтобы приложения могли переключаться с одного сайта на другой. Таким образом, в случае сбоя одного сайта все данные конфигурации можно будет получить на втором сайте. Дополнительные сведения см. в разделе "SQL Server географическая избыточность" в [ферме серверов федерации с помощью SQL Server](../design/Federation-Server-Farm-Using-SQL-Server.md).
 
 ## <a name="prerequisites"></a>Предварительные требования
-Установите и настройте ферму SQL Server. Дополнительные сведения см. на веб-сайте [https://technet.microsoft.com/evalcenter/hh225126.aspx](https://www.microsoft.com/en-us/evalcenter/). На начальном SQL Server убедитесь, что служба агент SQL Server запущена и настроена на автоматический запуск.
+Установите и настройте ферму SQL Server. Дополнительные сведения см. в статье [https://technet.microsoft.com/evalcenter/hh225126.aspx](https://www.microsoft.com/en-us/evalcenter/). На начальном SQL Server убедитесь, что служба агент SQL Server запущена и настроена на автоматический запуск.
 
 ## <a name="create-the-second-replica-sql-server-for-geo-redundancy"></a>Создание второй \( реплики \) SQL Server для географической \- избыточности
 
@@ -32,13 +32,13 @@ ms.locfileid: "97049242"
 2. Убедитесь, что служба агент SQL Server запущена и настроена на автоматический запуск.
 
 3. Запустите **Export \- адфсдеплойментсклскрипт** на основном узле AD FS, чтобы создать файлы CreateDB. SQL и SetPermissions. SQL.  Например: `PS:\>Export-AdfsDeploymentSQLScript -DestinationFolder . –ServiceAccountName CONTOSO\gmsa1$` .
-   ![Настройка географической избыточности](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql2.png)
+   ![Снимок экрана, показывающий, как запустить Export-AdfsDeploymentSQLScript на основном узле AD FS.](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql2.png)
 
 4. Скопируйте сценарии на сервер-получатель.  Откройте скрипт CreateDB. SQL в **Management Studio SQL** и нажмите кнопку **выполнить**.
-   ![Настройка географической избыточности](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql4.png)
+   ![Снимок экрана, на котором показано открытие скрипта CreateDB. SQL в SQL Management Studio.](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql4.png)
 
 5. Откройте скрипт SetPermissions. SQL в **Management Studio SQL** и нажмите кнопку **выполнить**.
-   ![Настройка географической избыточности](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql6.png)
+   ![Снимок экрана, на котором показано открытие скрипта SetPermissions. SQL в SQL Management Studio.](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql6.png)
 
 
 
@@ -52,92 +52,92 @@ ms.locfileid: "97049242"
 > ## <a name="create-publisher-settings-on-the-initial-sql-server"></a>Создание параметров издателя на начальном SQL Server
 
 1. В SQL Server Management Studio в разделе **репликация** щелкните правой кнопкой мыши элемент **Локальные публикации** и выберите команду **создать публикацию...** 
-    ![ Настройка географической избыточности](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql7.png) </br>
+    ![ Снимок экрана, показывающий пункт меню "создать публикацию".](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql7.png) </br>
 
 2. На экране мастера создания публикаций нажмите кнопку **Далее**.</br>
-   ![Настройка географической избыточности](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql8.png) </br>
+   ![Снимок экрана, на котором отображается экран мастера создания публикаций.](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql8.png) </br>
 
 3. На странице **распространителя** выберите локальный сервер в качестве распространителя и нажмите кнопку **Далее**.
-   ![Настройка географической избыточности](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql9.png) </br>
+   ![Снимок экрана, на котором показано, где выбрать локальный сервер в качестве распространителя.](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql9.png) </br>
 
 4. На странице Папка **моментальных снимков** введите \\ \SQL1\repldata вместо папки по умолчанию. \(Примечание. возможно, вам потребуется создать эту общую папку самостоятельно \) .
-   ![Настройка географической избыточности](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql10.png) </br>
+   ![Снимок экрана, на котором показано место для ввода пути к папке моментальных снимков по умолчанию.](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql10.png) </br>
 
 5. Выберите **AdfsConfigurationV3** в качестве базы данных публикации и нажмите кнопку **Далее**.
-   ![Настройка географической избыточности](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql11.png) </br>
+   ![Снимок экрана, на котором показано, где выбрать AdfsConfigurationV3 в качестве базы данных публикации.](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql11.png) </br>
 
 6. В меню **Тип публикации** выберите пункт **Публикация слиянием** и нажмите кнопку **Далее**.
-   ![Настройка географической избыточности](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql12.png) </br>
+   ![Снимок экрана, на котором показано, где ](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql12.png) </br>
 
 7. На **типах подписчиков** выберите **SQL Server 2008 или более поздней версии** и нажмите кнопку **Далее**.
-   ![Настройка географической избыточности](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql13.png) </br>
+   ![Снимок экрана, на котором показано, где выбрать SQL Server 2008 или более поздней версии.](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql13.png) </br>
 
 8. На странице **статьи** выберите узел **таблицы** , чтобы выбрать все таблицы, а затем снимите **\- флажок синкпропертиес** таблица, которая \( не должна реплицироваться.\)</br>
-   ![Настройка географической избыточности](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql14.png) </br>
+   ![Снимок экрана, на котором показано, где можно снять флажок Синкпропертиес (Идентитисерверполици).](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql14.png) </br>
 
 9. На странице **статьи** выберите элемент **определяемые пользователем функции** узел, чтобы выбрать все определяемые пользователем функции, и нажмите кнопку **Далее**.
-   ![Настройка географической избыточности](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql15.png) </br>
+   ![Снимок экрана, на котором показано, где следует установить флажок определяемые пользователем функции.](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql15.png) </br>
 
 10. На странице **проблемы с статьей** нажмите кнопку **Далее**.
-    ![Настройка географической избыточности](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql16.png) </br>
+    ![Скреншот, отображающая экран вопросов, связанных с статьей.](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql16.png) </br>
 
 11. На странице **Фильтрация строк таблицы** нажмите **Далее**.
-    ![Настройка географической избыточности](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql17.png) </br>
+    ![Снимок экрана, на котором показан экран "Фильтрация строк таблицы".](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql17.png) </br>
 12. На странице **Агент моментальных снимков** выберите значения по умолчанию немедленно и 14 дней, нажмите кнопку **Далее**.
-    ![Настройка географической избыточности](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql18.png) </br>
+    ![Снимок экрана, на котором показан экран агент моментальных снимков.](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql18.png) </br>
     Возможно, потребуется создать учетную запись домена для агента SQL Server. Выполните действия, описанные в разделе [Настройка имени входа SQL для \\ учетной записи домена Contoso](Set-up-Geographic-Redundancy-with-SQL-Server-Replication.md#sqlagent) , чтобы создать имя входа SQL для этого нового пользователя AD и назначить определенные разрешения.
 
 13. На странице **Безопасность агента** щелкните **настройки безопасности** и введите \/ пароль пользователя учетной записи домена, \( а не GMSA, \) созданный для агента SQL, и нажмите кнопку **ОК**.  Нажмите кнопку **Далее**.
-    ![Настройка географической избыточности](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql19.png) </br>
+    ![Снимок экрана, на котором показано, где ввести имя пользователя и пароль для учетной записи домена.](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql19.png) </br>
 
 14. На странице **действия мастера** нажмите кнопку **Далее**.
-    ![Настройка географической избыточности](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql20.png) </br>
+    ![Снимок экрана, показывающий экран действий мастера.](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql20.png) </br>
 
 15. На странице **Завершение работы мастера** введите имя публикации и нажмите кнопку **Готово**.
-    ![Настройка географической избыточности](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql21.png) </br>
+    ![Снимок экрана, на котором показано, где вводится имя публикации.](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql21.png) </br>
 
 16. После создания публикации вы увидите состояние Success (успешно).  Щелкните **Закрыть**.
-    ![Настройка географической избыточности](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql22.png) </br>
+    ![Снимок экрана, показывающий успешное завершение публикации.](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql22.png) </br>
 
 17. Вернитесь в SQL Server Management Studio, щелкните новую публикацию правой кнопкой мыши и выберите пункт **запустить монитор репликации**.
-    ![Настройка географической избыточности](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql23.png) </br>
+    ![Снимок экрана, на котором показан пункт меню "запустить монитор репликации".](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql23.png) </br>
 
 ## <a name="create-subscription-settings-on-the-replica-sql-server"></a>Создание параметров подписки на реплике SQL Server
 Убедитесь, что параметры издателя созданы на начальном SQL Server, как описано выше, а затем выполните следующую процедуру.
 
-1. В SQL Server реплики в SQL Server Management Studio в разделе **репликация** щелкните правой кнопкой мыши элемент **Локальные подписки** и выберите **создать подписку...**. ![Настройка географической избыточности](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql24.png) </br>
+1. В SQL Server реплики в SQL Server Management Studio в разделе **репликация** щелкните правой кнопкой мыши элемент **Локальные подписки** и выберите **создать подписку...**. ![Снимок экрана, на котором показано, где выбрать новую подписку.](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql24.png) </br>
 
 2. На странице **Мастер создания подписки** нажмите кнопку **Далее**.
-   ![Настройка географической избыточности](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql25.png) </br>
+   ![Снимок экрана, на котором отображается экран мастера создания подписки.](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql25.png) </br>
 
 3. На странице **Публикация** выберите издателя из раскрывающегося списка.  Разверните узел **AdfsConfigurationV3** и выберите имя созданной ранее публикации и нажмите кнопку **Далее**.
-   ![Настройка географической избыточности](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql26.png) </br>
+   ![Снимок экрана, на котором показано, где развернуть AdfsConfigurationV3, и выберите имя созданной публикации.](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql26.png) </br>
 
 4. На странице **Расположение агент слияния** выберите **выполнять каждый агент на подписчике по \( запросу подписки \)** по \( умолчанию \) и нажмите кнопку **Далее**.
-   ![Настройка географической избыточности](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql27.png) </br> Это, наряду с типом подписки ниже, определяет логику разрешения конфликтов. \(Дополнительные сведения см. в разделе [Обнаружение и разрешение конфликтов репликации слиянием](/sql/relational-databases/replication/merge/advanced-merge-replication-conflict-detection-and-resolution). </br>
+   ![Снимок экрана, на котором показан запуск каждого агента на подписчике (подписки по запросу).](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql27.png) </br> Это, наряду с типом подписки ниже, определяет логику разрешения конфликтов. \(Дополнительные сведения см. в разделе [Обнаружение и разрешение конфликтов репликации слиянием](/sql/relational-databases/replication/merge/advanced-merge-replication-conflict-detection-and-resolution). </br>
 
 5. На странице **Подписчики** выберите **AdfsConfigurationV3** в качестве базы данных подписчика и нажмите кнопку **Далее**.
-   ![Настройка географической избыточности](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql28.png) </br>
+   ![Снимок экрана, на котором показан экран "Подписчики".](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql28.png) </br>
 
 6. На странице **безопасность агент слияния** щелкните.. **.** и введите имя пользователя и пароль учетной записи домена, а \( не GMSA, \) созданной для агента SQL Server с помощью поля с многоточием, и нажмите кнопку **Далее**.
-   ![Настройка географической избыточности](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql30.png) </br>
+   ![Снимок экрана, на котором показан экран агент слияния безопасность.](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql30.png) </br>
 
 7. В **расписанию синхронизации** выберите **выполнять непрерывно** и нажмите кнопку **Далее**.
-   ![Настройка географической избыточности](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql31.png) </br>
+   ![Снимок экрана, на котором показано, где выбрать Запуск непрерывно.](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql31.png) </br>
 
 8. В меню **инициализация подписок** нажмите кнопку **Далее**.
-   ![Настройка географической избыточности](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql32.png) </br>
+   ![Снимок экрана, на котором показан экран "Инициализация подписок".](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql32.png) </br>
 
 9. В качестве **типа подписки** выберите **клиент** и нажмите кнопку **Далее**.
 
    Последствия этого описаны [здесь](/sql/relational-databases/replication/merge/advanced-merge-replication-conflict-detection-and-resolution) и [здесь](/sql/relational-databases/replication/subscribe-to-publications).  По сути, мы принимаем простое разрешение конфликтов "первым и издателем", и нам не нужно повторно публиковать его на других подписчиках.
-   ![Настройка географической избыточности](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql33.png) </br>
+   ![Снимок экрана, на котором отображается экран типа подписки.](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql33.png) </br>
 
 10. На странице **действия мастера** убедитесь, что установлен флажок **создать подписку** , и нажмите кнопку **Далее**.
-    ![Настройка географической избыточности](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql34.png) </br>
+    ![Снимок экрана, на котором показано, что выбран параметр Создать подписку.](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql34.png) </br>
 
 11. На странице **Завершение работы мастера** нажмите кнопку **Готово**.
-    ![Настройка географической избыточности](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql35.png) </br>
+    ![Снимок экрана, на котором показан полный экран мастера.](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql35.png) </br>
 
 12. После завершения процесса создания подписки вы увидите сообщение success (успешно). Щелкните **Закрыть**.
     ![Настройка географической избыточности](media/Set-up-Geographic-Redundancy-with-SQL-Server-Replication/sql36.png) </br>

@@ -1,18 +1,18 @@
 ---
 title: Восстановление сервера под управлением Windows Server Essentials
-description: Описание использования Windows Server Essentials
+description: Узнайте, как восстановить или восстановить сервер, на котором работает Windows Server Essentials.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 27bf6f24-30c4-4935-9b24-069eb43e22f4
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: 00c57fab4ee9689ba8bd760e5c99d87e3e18d130
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 0ad3ff83c028b42e5664548a19caa117257aa2da
+ms.sourcegitcommit: 9e19436bd8b20af60284071ab512405aebfbec83
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89622955"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97811081"
 ---
 # <a name="restore-or-repair-your-server-running-windows-server-essentials"></a>Восстановление сервера под управлением Windows Server Essentials
 
@@ -117,7 +117,7 @@ ms.locfileid: "89622955"
     > [!NOTE]
     >  Если процесс восстановления не начинается автоматически, проверьте параметры BIOS на вашем сервере и убедитесь, что в списке приоритетов загрузки DVD-дисковод находится на первом месте.
 
-     -Или-
+     или
 
      Если производитель предварительно загрузил содержимое установочного носителя на сервер, нажмите клавишу F8 при запуске, чтобы начать восстановление.
 
@@ -228,7 +228,7 @@ ms.locfileid: "89622955"
 
 5.  Нажмите кнопку **Обзор**, перейдите к *<диск \> \\<\> ServerName*\серверфолдерс (например, *д:\контосо\серверфолдерс*), выберите папку, к которой требуется предоставить общий доступ, и нажмите кнопку **ОК**.
 
-6.  Щелкните **Далее**.
+6.  Нажмите кнопку **Далее**.
 
 7.  Укажите записанные на шаге 2 разрешения и щелкните **Добавить папку**.
 

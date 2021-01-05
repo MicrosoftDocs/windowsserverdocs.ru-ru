@@ -1,18 +1,18 @@
 ---
 title: Управление интеграцией с почтовой службой в Windows Server Essentials
-description: Описание использования Windows Server Essentials
+description: Узнайте, как настроить решение электронной почты для вашей организации.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 4c35d230-02ec-4374-b4c5-2da19fe151ee
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: 4eefd2a041943b35c5e4ad9b484aa13ead47d111
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 38e38589b559ca2e321ce3331d05c286c920311c
+ms.sourcegitcommit: 9e19436bd8b20af60284071ab512405aebfbec83
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89623100"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97811381"
 ---
 # <a name="manage-email-service-integration-in-windows-server-essentials"></a>Управление интеграцией с почтовой службой в Windows Server Essentials
 

@@ -1,18 +1,18 @@
 ---
 title: Переход с Windows Server Essentials на Windows Server 2012 R2 Standard
-description: Описание использования Windows Server Essentials
+description: Узнайте, как перейти с Windows Server Essentials на Windows Server 2012 R2 Standard.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: a14689e3-2310-4229-bd3e-dafc0e739e02
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: a60ffd7593da8e8275e36e9aec2cf6e25fbe23db
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 4838101de3ed9daa1150e208d7aa0a938c95041e
+ms.sourcegitcommit: 9e19436bd8b20af60284071ab512405aebfbec83
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89625300"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97810351"
 ---
 # <a name="transition-from-windows-server-essentials-to-windows-server-2012-r2-standard"></a>Переход с Windows Server Essentials на Windows Server 2012 R2 Standard
 
@@ -40,7 +40,11 @@ Windows Server 2016 — это готовая к использованию в �
 
     2.  Выполните следующую команду:
 
-         **dism /online /set-edition:ServerStandard /geteula:** *Путь к лицензионному соглашению* (где *путь к лицензионному соглашению* представляет собой расположение для сохранения файла лицензионного соглашения, например C:\ws8std_eula.rtf). Обязательно укажите в качестве расширения имени файла ".rtf".
+        ```console
+        dism /online /set-edition:ServerStandard /geteula: <eula path>
+        ```
+
+        Где *путь лицензионного соглашения* представляет расположение, в которое необходимо сохранить файл лицензионного соглашения; Пример: C:\ ws8std_eula. RTF). Обязательно укажите в качестве расширения имени файла ".rtf".
 
     3.  Откройте папку, в которой сохранен файл, и дважды щелкните его, чтобы открыть.
 
@@ -60,7 +64,11 @@ Windows Server 2016 — это готовая к использованию в �
 
 2. Откройте Windows PowerShell с правами администратора и выполните следующую команду:
 
-    **DISM/Online/Set-Edition: серверстандард/акцептеула/ProductKey:** *ключ* продукта (где *ключ продукта* — это ключ продукта для вашей копии Windows Server 2012 R2 Standard).
+    ```console
+    dism /online /set-edition:ServerStandard /accepteula /productkey: <Product Key>
+    ```
+
+    Где *ключ продукта* — это ключ продукта для вашей копии Windows Server 2012 R2 Standard).
 
     Для завершения перехода сервер перезагрузится.
 

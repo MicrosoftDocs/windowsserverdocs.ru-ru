@@ -1,24 +1,24 @@
 ---
 title: Управление учетными записями интернет-служб пользователей Windows Server Essentials
-description: Описание использования Windows Server Essentials
+description: Узнайте, как управлять учетными записями в Интернете вместе с учетными записями пользователей из панели мониторинга Windows Server Essentials.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: c09f4cf6-4d12-49fe-9ae4-e6cb14027b9d
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: 3506f83ae2d6b5fc3d49376193cbf3c59e36fb65
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 684afa6d17e4be5282e1596244689a501ffaf5be
+ms.sourcegitcommit: 9e19436bd8b20af60284071ab512405aebfbec83
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89623040"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97811351"
 ---
 # <a name="manage-online-accounts-for-windows-server-essentials-users"></a>Управление учетными записями интернет-служб пользователей Windows Server Essentials
 
 >Область применения: Windows Server 2016 Essentials, Windows Server 2012 R2 Essentials, Windows Server 2012 Essentials
 
-При интеграции сервера Windows Server Essentials с Microsoft 365 можно управлять учетными записями в Интернете вместе с учетными записями пользователей на панели мониторинга. В этом разделе вы узнаете, что можно получить, управляя учетными записями Microsoft Online Services на панели мониторинга, как создавать учетные записи в сети и управлять ими с панели мониторинга, а также как управлять адресами электронной почты и группами рассылки для Exchange Online с панели мониторинга.
+При интеграции сервера Windows Server Essentials с Microsoft 365 можно управлять учетными записями в Интернете вместе с учетными записями пользователей на панели мониторинга. В этом разделе вы узнаете, что можно получить, управляя учетными записями пользователей Microsoft Online Services на панели мониторинга, как создавать учетные записи в сети и управлять ими с панели мониторинга, а также как управлять адресами электронной почты и группами рассылки для Exchange Online с панели мониторинга.
 
 
 > [!NOTE]
@@ -120,7 +120,7 @@ ms.locfileid: "89623040"
 
 1.  На панели мониторинга откройте страницу **Пользователи**.
 
-2.  В окне **задачи пользователей**щелкните **импорт учетных записей из Microsoft 365**.
+2.  В окне **задачи пользователей** щелкните **импорт учетных записей из Microsoft 365**.
 
      На следующей странице отображаются все учетные записи в Интернете для подписки Microsoft 365, у которых нет учетной записи пользователя на сервере. По умолчанию все учетные записи выбраны и в качестве имени пользователя предложен ИД интернет-служб.
 

@@ -1,18 +1,18 @@
 ---
 title: Перенос параметров и данных Windows Server 2008 Foundation на целевой сервер для миграции Windows Server Essentials
-description: Описание использования Windows Server Essentials
+description: Узнайте, как перенести параметры и данные Windows Server 2008 Foundation на целевой сервер для миграции Windows Server Essentials.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 3ff7d040-ebd1-421c-80db-765deacedd4c
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: c2426e535ff67b1e76668e5fd2abefbd3f5569bb
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: c58d834677f8882bb0d76570f90846c41eddd465
+ms.sourcegitcommit: 9e19436bd8b20af60284071ab512405aebfbec83
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89625663"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97810651"
 ---
 # <a name="move-windows-server-2008-foundation-settings-and-data-to-the-destination-server-for-windows-server-essentials-migration"></a>Перенос параметров и данных Windows Server 2008 Foundation на целевой сервер для миграции Windows Server Essentials
 
@@ -81,7 +81,7 @@ ms.locfileid: "89625663"
 
     3.  Для **типа запуска** выберите **Отключено**.
 
-    4.  Остановить службу.
+    4.  Остановите службу.
 
 2.  Включите роль DHCP на своем маршрутизаторе.
 

@@ -1,18 +1,18 @@
 ---
 title: Подготовка исходного сервера для Windows Server Essentials Migration1
-description: Описание использования Windows Server Essentials
+description: Узнайте о предварительных шагах, которые необходимо выполнить, чтобы убедиться, что параметры и данные на исходном сервере успешно перенесены на целевой сервер.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: f5861ae9-77cb-4d37-b4c5-8f0757213385
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: fa465e96d66e88e0561a5a6151d07d9950d226f1
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: dc2866525785506d4e6f3238d22ad8444ed0448f
+ms.sourcegitcommit: 9e19436bd8b20af60284071ab512405aebfbec83
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89625603"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97810641"
 ---
 # <a name="prepare-your-source-server-for-windows-server-essentials-migration1"></a>Подготовка исходного сервера для Windows Server Essentials Migration1
 

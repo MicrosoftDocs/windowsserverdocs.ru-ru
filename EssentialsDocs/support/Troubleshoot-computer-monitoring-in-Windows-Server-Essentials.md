@@ -1,18 +1,18 @@
 ---
 title: Устранение неполадок мониторинга компьютеров в Windows Server Essentials
-description: Описание использования Windows Server Essentials
+description: Узнайте, как устранять неполадки, возникшие при наблюдении за состоянием работоспособности компьютеров в средстве просмотра оповещений и по электронной почте в Windows Server Essentials.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: f1e6b377-4a24-4d28-9b25-05910914826b
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: 55daffa3c1db284d3772fa39eb64e0411ad1c7a6
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: d3483482d3540bf632e2d2bb8fbd8828fa764b28
+ms.sourcegitcommit: 9e19436bd8b20af60284071ab512405aebfbec83
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89625098"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97810161"
 ---
 # <a name="troubleshoot-computer-monitoring-in-windows-server-essentials"></a>Устранение неполадок мониторинга компьютеров в Windows Server Essentials
 

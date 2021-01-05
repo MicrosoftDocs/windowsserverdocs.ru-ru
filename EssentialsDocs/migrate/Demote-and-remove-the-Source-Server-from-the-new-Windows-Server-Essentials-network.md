@@ -1,18 +1,18 @@
 ---
 title: Понижение и удаление исходного сервера из новой системы Windows Server Essentials Network1
-description: Описание использования Windows Server Essentials
+description: Узнайте, как понизить и удалить исходный сервер из новой сети Windows Server Essentials.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: d9f18b29-8e03-439e-bdf0-1dac5e4f70c5
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: 3e0902f99be96e3197b90b4892f78849a5c84125
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 792aa83ed86c620921f243eba856f76258ab638f
+ms.sourcegitcommit: 9e19436bd8b20af60284071ab512405aebfbec83
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89622882"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97811041"
 ---
 # <a name="demote-and-remove-the-source-server-from-the-new-windows-server-essentials-network1"></a>Понижение и удаление исходного сервера из новой системы Windows Server Essentials Network1
 
@@ -56,7 +56,7 @@ ms.locfileid: "89622882"
    >  Exchange Server проверяет, не остались ли на сервере почтовые ящики или общие папки. Если какие-либо данные еще остались, то при нажатии кнопки **Удалить** появляется сообщение об ошибке. Чтобы избежать этой проблемы, убедитесь, что вы выполнили все процедуры, описанные в разделе [Перемещение параметров и данных SBS 2003 на целевой сервер](./move-windows-sbs-2003-to-the-destination-server-for-migration.md).
 
 
-6. Щелкните **Далее**.
+6. Нажмите кнопку **Далее**.
 
 7. При появлении соответствующего запроса вставьте диск Windows Small Business Server 2003 CD #3 и следуйте инструкциям на экране.
 
@@ -127,7 +127,7 @@ ms.locfileid: "89622882"
 
     3.  Для **типа запуска** выберите **Отключено**.
 
-    4.  Остановить службу.
+    4.  Остановите службу.
 
 2.  Включение роли DHCP на маршрутизаторе
 

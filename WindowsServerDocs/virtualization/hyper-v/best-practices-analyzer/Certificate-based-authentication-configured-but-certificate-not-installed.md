@@ -1,17 +1,17 @@
 ---
 title: Проверка подлинности на основе сертификата настроена, но указанный сертификат не установлен на сервере реплики или узлах отказоустойчивого кластера.
-description: Интернет-версия текста для этого правила анализатор соответствия рекомендациям.
+description: Узнайте, что делать, если сертификат безопасности, с помощью которого была настроена реплика Hyper-V для предоставления репликации на основе сертификатов, не установлен на сервере реплики (или на узлах отказоустойчивого кластера).
 ms.author: benarm
 author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: 4cabbce3-9367-4ddc-a108-1e5e1ab2bcff
 ms.date: 8/16/2016
-ms.openlocfilehash: 545a51f110a264e1fb456039362e373a51bcb2f8
-ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
+ms.openlocfilehash: 2f45c8e5699d8f55ea0ba0c69418217fd046bc63
+ms.sourcegitcommit: 48d45b2adf44afb0207214be9c57fe589360d177
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "90745869"
+ms.lasthandoff: 12/31/2020
+ms.locfileid: "97833629"
 ---
 # <a name="certificate-based-authentication-is-configured-but-the-specified-certificate-is-not-installed-on-the-replica-server-or-failover-cluster-nodes"></a>Проверка подлинности на основе сертификата настроена, но указанный сертификат не установлен на сервере реплики или узлах отказоустойчивого кластера.
 
@@ -21,7 +21,7 @@ ms.locfileid: "90745869"
 
 *Дополнительные сведения о рекомендациях и проверках см. в разделе* [анализатор соответствия рекомендациям](https://go.microsoft.com/fwlink/?LinkId=122786).
 
-|Свойство.|Подробнее|
+|Свойство|Сведения|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|

@@ -1,18 +1,18 @@
 ---
 title: Управление архивацией сервера в Windows Server Essentials
-description: Описание использования Windows Server Essentials
+description: Сведения о стандартных задачах резервного копирования, которые можно выполнить с помощью панели мониторинга Windows Server Essentials.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 0302d070-c58a-40f2-b56d-7e7842813d02
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: f2b1e0205578cbf629418a2b78d6b27199cf694a
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: a1fbcd2e49da69fa602ab55f102615dc6b41e04b
+ms.sourcegitcommit: 9e19436bd8b20af60284071ab512405aebfbec83
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89626146"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97811291"
 ---
 # <a name="manage-server-backup-in-windows-server-essentials"></a>Управление архивацией сервера в Windows Server Essentials
 
@@ -138,7 +138,7 @@ ms.locfileid: "89626146"
 >    2. В поле поиска введите **Defragment**.
 >    3. В разделе результатов щелкните **Дефрагментация и оптимизация дисков**.
 >    4. На странице **Оптимизация дисков** выберите диск и щелкните **Изменить параметры**.
->    5. В окне **Расписание оптимизации** уберите флажок **	Выполнять по расписанию (рекомендуется)** и щелкните **OK**, чтобы сохранить изменения.
+>    5. В окне **Расписание оптимизации** уберите флажок **Выполнять по расписанию (рекомендуется)** и щелкните **OK**, чтобы сохранить изменения.
 
 ### <a name="items-to-be-backed-up"></a>Элементы для архивации
  По умолчанию для архивации выбраны все системные файлы и папки. Можно архивировать все жесткие диски, файлы и папки на сервере, или выбрать для архивации только отдельные жесткие диски, файлы или папки. Чтобы добавить или удалить элементы для архивации, выполните следующие действия:

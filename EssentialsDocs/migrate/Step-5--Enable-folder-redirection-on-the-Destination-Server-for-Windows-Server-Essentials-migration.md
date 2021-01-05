@@ -1,18 +1,18 @@
 ---
 title: Шаг 5. Включение перенаправления папок на целевом сервере для миграции Windows Server Essentials
-description: Описание использования Windows Server Essentials
+description: Узнайте, как включить перенаправление папок на целевом сервере для миграции Windows Server Essentials.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: d3925f80-552d-431f-b2a6-2af202e50ca4
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: 2fa628429a692f77620116ed0db2ef052abc8a22
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 4cbb8ae2fed9398d21e128cb8f14646ff7b898f2
+ms.sourcegitcommit: 9e19436bd8b20af60284071ab512405aebfbec83
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89625443"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97810431"
 ---
 # <a name="step-5-enable-folder-redirection-on-the-destination-server-for-windows-server-essentials-migration"></a>Шаг 5. Включение перенаправления папок на целевом сервере для миграции Windows Server Essentials
 
@@ -38,7 +38,7 @@ ms.locfileid: "89625443"
 
 1. На конечном сервере откройте средство администрирования **Управление групповой политикой**.
 
-2. В окне **Управление групповой политикой**разверните **Лес:**<em>имя_сетевого_домена</em>разверните **Домены**разверните *имя_сетевого_домена*и **Объекты групповой политики**.
+2. В окне **Управление групповой политикой** разверните **Лес:**<em>имя_сетевого_домена</em>разверните **Домены** разверните *имя_сетевого_домена* и **Объекты групповой политики**.
 
 3. Щелкните правой кнопкой мыши политику, которую требуется удалить, а затем щелкните **Удалить**.
 

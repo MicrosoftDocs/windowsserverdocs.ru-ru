@@ -1,17 +1,17 @@
 ---
 title: Настройка виртуальной машины с контроллером SCSI для возможности горячего подключения и горячей замены хранилища
-description: Интернет-версия текста для этого правила анализатор соответствия рекомендациям.
+description: Узнайте, что делать, если обнаружена виртуальная машина, для которой не настроен SCSI-контроллер.
 ms.author: benarm
 author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: 511e1172-aeef-463d-b5dd-2bffae411ff1
 ms.date: 8/16/2016
-ms.openlocfilehash: 9f0cdb47206c89c4da66786e8dfd118e6a05be81
-ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
+ms.openlocfilehash: b56f0e7beae706471c829810bea023dbcab2317c
+ms.sourcegitcommit: 48d45b2adf44afb0207214be9c57fe589360d177
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "90746979"
+ms.lasthandoff: 12/31/2020
+ms.locfileid: "97833549"
 ---
 # <a name="configure-a-virtual-machine-with-a-scsi-controller-to-be-able-to-hot-plug-and-hot-unplug-storage"></a>Настройка виртуальной машины с контроллером SCSI для возможности горячего подключения и горячей замены хранилища
 
@@ -21,7 +21,7 @@ ms.locfileid: "90746979"
 
 *Дополнительные сведения о рекомендациях и проверках см. в разделе* [анализатор соответствия рекомендациям](https://go.microsoft.com/fwlink/?LinkId=122786).
 
-|Свойство.|Подробнее|
+|Свойство|Сведения|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|

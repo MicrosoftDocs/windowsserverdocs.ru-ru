@@ -1,18 +1,18 @@
 ---
 title: Работа с Windows Server Essentials
-description: Описание использования Windows Server Essentials
+description: Ознакомьтесь с разделами, в которых содержатся сведения, которые помогут приступить к работе с Windows Server Essentials.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 86f158a5-c807-4242-b73d-e97b604adb5f
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: 457af96dc78af60903cace1dca42509f0eb5c7db
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 0ac5dc37e64512ca33020af28f29fd5225aec5e9
+ms.sourcegitcommit: 9e19436bd8b20af60284071ab512405aebfbec83
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89624864"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97809981"
 ---
 # <a name="use-windows-server-essentials"></a>Работа с Windows Server Essentials
 

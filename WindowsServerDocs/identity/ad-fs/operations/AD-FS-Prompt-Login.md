@@ -1,18 +1,18 @@
 ---
 title: AD FS Prompt = имя входа
-description: Часто задаваемые вопросы по AD FS 2016
+description: Сведения о встроенной поддержке параметра Prompt = Login, доступного в AD FS.
 author: billmath
 ms.author: billmath
 manager: femila
 ms.date: 06/27/2017
 ms.topic: article
 ms.custom: it-pro
-ms.openlocfilehash: 0af0d71ad2b373f755653898ab0697b0308faa4b
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 4ef4c832dab13f156b5a0bf5b7dc8ea2a07d36c5
+ms.sourcegitcommit: 9e19436bd8b20af60284071ab512405aebfbec83
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87940307"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97811441"
 ---
 # <a name="active-directory-federation-services-promptlogin-parameter-support"></a>Поддержка параметра prompt=login в службах федерации Active Directory (AD FS)
 

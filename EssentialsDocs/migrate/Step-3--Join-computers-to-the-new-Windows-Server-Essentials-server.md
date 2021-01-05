@@ -1,18 +1,18 @@
 ---
 title: Шаг 3. Присоединение компьютеров к новому серверу Windows Server Essentials
-description: Описание использования Windows Server Essentials
+description: Узнайте, как подключить клиентские компьютеры к новому серверу под управлением Windows Server Essentials.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: a0e07d1a-8409-429b-87d7-0f4a7e14d668
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: 7495831c6f593b65261fda8f50d4ef9d1000d9b4
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 137330d084738313dbf666590f78575bba3b04ef
+ms.sourcegitcommit: 9e19436bd8b20af60284071ab512405aebfbec83
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89625480"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97810513"
 ---
 # <a name="step-3-join-computers-to-the-new-windows-server-essentials-server"></a>Шаг 3. Присоединение компьютеров к новому серверу Windows Server Essentials
 
@@ -32,7 +32,7 @@ ms.locfileid: "89625480"
 2.  В списке программ щелкните правой кнопкой мыши приложение Connector, выполняемое на вашем компьютере.
 
     > [!NOTE]
-    >  Приложение соединителя может быть **соединителем Windows Small Business Server 2011 Essentials**или **соединителем Windows Server Essentials**в зависимости от версии Windows Server Essentials, к которой подключен клиентский компьютер.
+    >  Приложение соединителя может быть **соединителем Windows Small Business Server 2011 Essentials** или **соединителем Windows Server Essentials** в зависимости от версии Windows Server Essentials, к которой подключен клиентский компьютер.
 
 3.  Нажмите кнопку **Удалить**.
 
@@ -45,7 +45,7 @@ ms.locfileid: "89625480"
 
 2.  Откройте браузер, например Internet Explorer.
 
-3.  В адресной строке введите **http://<ServerName \> /Коннект**и нажмите клавишу ВВОД.
+3.  В адресной строке введите **http://<ServerName \> /Коннект** и нажмите клавишу ВВОД.
 
 4.  Следуйте инструкциям на экране, чтобы присоединить клиентский компьютер к новому серверу Windows Server Essentials.
 

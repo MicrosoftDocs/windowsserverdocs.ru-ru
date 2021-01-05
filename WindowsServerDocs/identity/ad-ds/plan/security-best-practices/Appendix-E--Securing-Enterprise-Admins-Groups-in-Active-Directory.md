@@ -7,12 +7,12 @@ ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 3816b41c446c3f7693f36a0525fada3b82e9946a
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: 0abcc31dcf61ca66c79c9f6802ddd299ad92e47c
+ms.sourcegitcommit: e2dadc9b0c227a489a945bbc531aca5e101f18cd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97041712"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97801808"
 ---
 # <a name="appendix-e-securing-enterprise-admins-groups-in-active-directory"></a>Приложение Д. Защита групп корпоративных администраторов в Active Directory
 
@@ -46,17 +46,17 @@ ms.locfileid: "97041712"
 
 2.  Если вы не управляете корневым доменом для леса, в дереве консоли щелкните правой кнопкой мыши <Domain> и выберите команду **изменить домен** (где <Domain> — имя домена, в котором выполняется администрирование).
 
-    ![безопасные группы администраторов предприятия](media/Appendix-E--Securing-Enterprise-Admins-Groups-in-Active-Directory/SAD_43.gif)
+    ![Снимок экрана, посвященный пункту "изменить домен".](media/Appendix-E--Securing-Enterprise-Admins-Groups-in-Active-Directory/SAD_43.gif)
 
 3.  В диалоговом окне **изменение домена** нажмите кнопку **Обзор**, выберите корневой домен для леса и нажмите кнопку **ОК**.
 
-    ![безопасные группы администраторов предприятия](media/Appendix-E--Securing-Enterprise-Admins-Groups-in-Active-Directory/SAD_44.gif)
+    ![Снимок экрана, на котором отображается кнопка "ОК" в диалоговом окне "изменение домена".](media/Appendix-E--Securing-Enterprise-Admins-Groups-in-Active-Directory/SAD_44.gif)
 
 4.  Чтобы удалить всех членов из группы EA, выполните следующие действия.
 
     1.  Дважды щелкните группу **Администраторы предприятия** и перейдите на вкладку **члены** .
 
-        ![безопасные группы администраторов предприятия](media/Appendix-E--Securing-Enterprise-Admins-Groups-in-Active-Directory/SAD_45.gif)
+        ![Снимок экрана, на котором показана вкладка "члены" в группе "Администраторы предприятия".](media/Appendix-E--Securing-Enterprise-Admins-Groups-in-Active-Directory/SAD_45.gif)
 
     2.  Выберите участника группы, нажмите кнопку **Удалить**, выберите **Да**, а затем нажмите кнопку **ОК**.
 
@@ -73,17 +73,17 @@ ms.locfileid: "97041712"
 
 3.  В дереве консоли щелкните правой кнопкой мыши элемент **Групповая политика объекты** и выберите команду **создать**.
 
-    ![безопасные группы администраторов предприятия](media/Appendix-E--Securing-Enterprise-Admins-Groups-in-Active-Directory/SAD_46.gif)
+    ![Снимок экрана, показывающий пункт "создать меню" в меню "групповая политика объекты".](media/Appendix-E--Securing-Enterprise-Admins-Groups-in-Active-Directory/SAD_46.gif)
 
 4.  В диалоговом окне **Создание объекта групповой политики** введите <GPO Name> и нажмите кнопку **ОК** (где <GPO Name> — это имя этого объекта групповой политики).
 
-    ![безопасные группы администраторов предприятия](media/Appendix-E--Securing-Enterprise-Admins-Groups-in-Active-Directory/SAD_47.gif)
+    ![Снимок экрана, на котором показано, где ввести имя объекта групповой политики и выбрать исходный начальный объект групповой политики.](media/Appendix-E--Securing-Enterprise-Admins-Groups-in-Active-Directory/SAD_47.gif)
 
 5.  В области сведений щелкните правой кнопкой мыши <GPO Name> и выберите команду **изменить**.
 
 6.  Перейдите к компьютеру \ политики \ **Параметры безопасности Локальные политики** и щелкните **Назначение прав пользователя**.
 
-    ![безопасные группы администраторов предприятия](media/Appendix-E--Securing-Enterprise-Admins-Groups-in-Active-Directory/SAD_48.gif)
+    ![Снимок экрана, на котором показано, где выбрать назначение прав пользователя.](media/Appendix-E--Securing-Enterprise-Admins-Groups-in-Active-Directory/SAD_48.gif)
 
 7.  Настройте права пользователя, чтобы запретить членам группы "Администраторы предприятия" доступ к серверам и рабочим станциям по сети, выполнив следующие действия.
 
@@ -93,7 +93,7 @@ ms.locfileid: "97041712"
 
     3.  Введите **Администраторы предприятия**, щелкните **Проверить имена** и нажмите кнопку **ОК**.
 
-        ![безопасные группы администраторов предприятия](media/Appendix-E--Securing-Enterprise-Admins-Groups-in-Active-Directory/SAD_49.gif)
+        ![Снимок экрана, на котором показано, как убедиться, что вы настроили права пользователя, чтобы запретить членам группы "Администраторы предприятия" доступ к серверам и рабочим станциям по сети.](media/Appendix-E--Securing-Enterprise-Admins-Groups-in-Active-Directory/SAD_49.gif)
 
     4.  Нажмите кнопку **ОК**, а затем **ОК** еще раз.
 
@@ -108,7 +108,7 @@ ms.locfileid: "97041712"
 
     3.  Введите **Администраторы предприятия**, щелкните **Проверить имена** и нажмите кнопку **ОК**.
 
-        ![безопасные группы администраторов предприятия](media/Appendix-E--Securing-Enterprise-Admins-Groups-in-Active-Directory/SAD_50.gif)
+        ![Снимок экрана, показывающий, как проверить, настроены ли права пользователя для запрета входа членов группы "Администраторы предприятия" в качестве пакетного задания.](media/Appendix-E--Securing-Enterprise-Admins-Groups-in-Active-Directory/SAD_50.gif)
 
     4.  Нажмите кнопку **ОК**, а затем **ОК** еще раз.
 
@@ -123,7 +123,7 @@ ms.locfileid: "97041712"
 
     3.  Введите **Администраторы предприятия**, щелкните **Проверить имена** и нажмите кнопку **ОК**.
 
-        ![безопасные группы администраторов предприятия](media/Appendix-E--Securing-Enterprise-Admins-Groups-in-Active-Directory/SAD_51.gif)
+        ![Снимок экрана, на котором показано, как проверить, настроены ли права пользователя для предотвращения входа в систему в качестве службы для членов группы EA.](media/Appendix-E--Securing-Enterprise-Admins-Groups-in-Active-Directory/SAD_51.gif)
 
     4.  Нажмите кнопку **ОК**, а затем **ОК** еще раз.
 
@@ -138,7 +138,7 @@ ms.locfileid: "97041712"
 
     3.  Введите **Администраторы предприятия**, щелкните **Проверить имена** и нажмите кнопку **ОК**.
 
-        ![безопасные группы администраторов предприятия](media/Appendix-E--Securing-Enterprise-Admins-Groups-in-Active-Directory/SAD_52.gif)
+        ![Снимок экрана, показывающий, как проверить, настроены ли права пользователя для предотвращения локального входа членов группы "Администраторы предприятия" на рядовые серверы и рабочие станции.](media/Appendix-E--Securing-Enterprise-Admins-Groups-in-Active-Directory/SAD_52.gif)
 
     4.  Нажмите кнопку **ОК**, а затем **ОК** еще раз.
 
@@ -153,7 +153,7 @@ ms.locfileid: "97041712"
 
     3.  Введите **Администраторы предприятия**, щелкните **Проверить имена** и нажмите кнопку **ОК**.
 
-        ![безопасные группы администраторов предприятия](media/Appendix-E--Securing-Enterprise-Admins-Groups-in-Active-Directory/SAD_53.gif)
+        ![Снимок экрана, показывающий, как проверить, настроены ли права пользователя для предотвращения доступа членов группы "Администраторы предприятия" к рядовым серверам и рабочим станциям с помощью службы удаленных рабочих столов.](media/Appendix-E--Securing-Enterprise-Admins-Groups-in-Active-Directory/SAD_53.gif)
 
     4.  Нажмите кнопку **ОК**, а затем **ОК** еще раз.
 
@@ -165,11 +165,11 @@ ms.locfileid: "97041712"
 
     2.  Щелкните правой кнопкой мыши подразделение, к которому будет применен объект GPO, и выберите команду **связать существующий объект GPO**.
 
-        ![безопасные группы администраторов предприятия](media/Appendix-E--Securing-Enterprise-Admins-Groups-in-Active-Directory/SAD_54.gif)
+        ![Снимок экрана, посвященный пункту "связать существующий объект групповой политики".](media/Appendix-E--Securing-Enterprise-Admins-Groups-in-Active-Directory/SAD_54.gif)
 
     3.  Выберите только что созданный объект групповой политики и нажмите кнопку **ОК**.
 
-        ![безопасные группы администраторов предприятия](media/Appendix-E--Securing-Enterprise-Admins-Groups-in-Active-Directory/SAD_55.gif)
+        ![Снимок экрана, на котором показано, где выбрать только что созданный объект групповой политики.](media/Appendix-E--Securing-Enterprise-Admins-Groups-in-Active-Directory/SAD_55.gif)
 
     4.  Создайте ссылки на все подразделения, содержащие рабочие станции.
 
@@ -193,13 +193,13 @@ ms.locfileid: "97041712"
 
 4.  При появлении запроса на подтверждение повышения прав нажмите кнопку **Да**.
 
-    ![безопасные группы администраторов предприятия](media/Appendix-E--Securing-Enterprise-Admins-Groups-in-Active-Directory/SAD_56.gif)
+    ![Снимок экрана, на котором показано диалоговое окно, в котором вы утверждаете повышение прав.](media/Appendix-E--Securing-Enterprise-Admins-Groups-in-Active-Directory/SAD_56.gif)
 
 5.  В окне **командной строки** введите **net use \\ \\ \<Server Name\> \C $**, где \<Server Name\> — это имя рядового сервера или рабочей станции, доступ к которой осуществляется по сети.
 
 6.  На следующем снимке экрана показано сообщение об ошибке, которое должно появиться.
 
-    ![безопасные группы администраторов предприятия](media/Appendix-E--Securing-Enterprise-Admins-Groups-in-Active-Directory/SAD_57.gif)
+    ![Снимок экрана, показывающий сообщение об ошибке, которое должно появиться.](media/Appendix-E--Securing-Enterprise-Admins-Groups-in-Active-Directory/SAD_57.gif)
 
 #### <a name="verify-deny-log-on-as-a-batch-job-gpo-settings"></a>Проверка параметров объекта групповой политики "запретить вход в систему в качестве пакетного задания"
 
@@ -254,7 +254,7 @@ ms.locfileid: "97041712"
 
 16. Появится диалоговое окно, похожее на следующее.
 
-    ![безопасные группы администраторов предприятия](media/Appendix-E--Securing-Enterprise-Admins-Groups-in-Active-Directory/SAD_58.gif)
+    ![Снимок экрана, на котором показано диалоговое окно планировщик задач.](media/Appendix-E--Securing-Enterprise-Admins-Groups-in-Active-Directory/SAD_58.gif)
 
 #### <a name="verify-deny-log-on-as-a-service-gpo-settings"></a>Проверка параметров объекта групповой политики "запретить вход в качестве службы"
 
@@ -280,7 +280,7 @@ ms.locfileid: "97041712"
 
 11. При перезапуске службы появится диалоговое окно, похожее на следующее.
 
-    ![безопасные группы администраторов предприятия](media/Appendix-E--Securing-Enterprise-Admins-Groups-in-Active-Directory/SAD_59.gif)
+    ![Снимок экрана, на котором показано сообщение о том, что Windows не удалось запустить сервер диспетчера очереди печати.](media/Appendix-E--Securing-Enterprise-Admins-Groups-in-Active-Directory/SAD_59.gif)
 
 #### <a name="revert-changes-to-the-printer-spooler-service"></a>Отмена изменений в службе диспетчера очереди печати
 
@@ -300,7 +300,7 @@ ms.locfileid: "97041712"
 
 1.  С любого рядового сервера или рабочей станции, на который влияет изменение объекта групповой политики, попробуйте войти в систему локально с помощью учетной записи, которая является членом группы EA. Появится диалоговое окно, похожее на следующее.
 
-    ![безопасные группы администраторов предприятия](media/Appendix-E--Securing-Enterprise-Admins-Groups-in-Active-Directory/SAD_60.gif)
+    ![Снимок экрана, на котором показано сообщение о том, что метод входа, который вы используете, не разрешен.](media/Appendix-E--Securing-Enterprise-Admins-Groups-in-Active-Directory/SAD_60.gif)
 
 #### <a name="verify-deny-log-on-through-remote-desktop-services-gpo-settings"></a>Проверка параметров объекта групповой политики "запретить вход в систему с помощью службы удаленных рабочих столов"
 

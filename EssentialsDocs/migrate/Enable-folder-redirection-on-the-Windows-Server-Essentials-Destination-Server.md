@@ -1,6 +1,6 @@
 ---
 title: Включение перенаправления папок на целевом сервере 1 Windows Server Essentials
-description: Описание использования Windows Server Essentials
+description: Узнайте, как включить перенаправление папок на целевом сервере Windows Server Essentials.
 ms.date: 10/03/2016
 ms.topic: article
 H1: Включение перенаправления папок на целевом сервере Windows Server Essentials
@@ -8,12 +8,12 @@ ms.assetid: f67d195e-36f6-495a-8361-6d5faa889441
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: 9ea3b7b6c42c85ef553e56f017d068fabea42eee
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 7e03d2d2033e9b5c3f20f5139c338584eac4cbde
+ms.sourcegitcommit: 9e19436bd8b20af60284071ab512405aebfbec83
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89622867"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97811011"
 ---
 # <a name="enable-folder-redirection-on-the-windows-server-essentials-destination-server1"></a>Включение перенаправления папок на целевом сервере 1 Windows Server Essentials
 
@@ -39,7 +39,7 @@ ms.locfileid: "89622867"
 
 1. На конечном сервере откройте средство администрирования **Управление групповой политикой**.
 
-2. В окне **Управление групповой политикой**разверните **Лес:**<em>имя_сетевого_домена</em>разверните **Домены**разверните *имя_сетевого_домена*и **Объекты групповой политики**.
+2. В окне **Управление групповой политикой** разверните **Лес:**<em>имя_сетевого_домена</em>разверните **Домены** разверните *имя_сетевого_домена* и **Объекты групповой политики**.
 
 3. Щелкните правой кнопкой мыши **Перенаправление папок W7PVP**, а затем нажмите **Удалить**.
 

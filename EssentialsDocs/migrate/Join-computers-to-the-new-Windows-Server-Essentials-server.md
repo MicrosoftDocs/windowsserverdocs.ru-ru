@@ -1,18 +1,18 @@
 ---
 title: Присоединение компьютеров к новому серверу Windows Server Essentials Server1
-description: Описание использования Windows Server Essentials
+description: Узнайте, как присоединить компьютеры к новому серверу Windows Server Essentials.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: cdfa9504-9881-4265-b308-c7ee8721bfaa
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: 92bdcc107b3246fb1d288ab9b56f6c65d9b0634a
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 573c2525d9b878c3fc56260bd46a738919ca7c8b
+ms.sourcegitcommit: 9e19436bd8b20af60284071ab512405aebfbec83
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89622828"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97810911"
 ---
 # <a name="join-computers-to-the-new-windows-server-essentials-server1"></a>Присоединение компьютеров к новому серверу Windows Server Essentials Server1
 

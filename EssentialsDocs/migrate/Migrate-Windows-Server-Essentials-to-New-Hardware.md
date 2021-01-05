@@ -1,18 +1,18 @@
 ---
 title: Миграция с Windows Server Essentials на новое оборудование
-description: Описание использования Windows Server Essentials
+description: Узнайте, как перенести существующий домен Windows Server 2012 Essentials на Windows Server Essentials на новом оборудовании, а затем перенести параметры и данные.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: f695ae90-3160-407b-bebf-9e460f22c86d
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: 704fc7fa97c949080104846011cf07e8e28da73a
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: d95100cdfa08fa1aa672be8c9978ac230573a46c
+ms.sourcegitcommit: 9e19436bd8b20af60284071ab512405aebfbec83
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89625864"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97810901"
 ---
 # <a name="migrate-windows-server-essentials-to-new-hardware"></a>Миграция с Windows Server Essentials на новое оборудование
 

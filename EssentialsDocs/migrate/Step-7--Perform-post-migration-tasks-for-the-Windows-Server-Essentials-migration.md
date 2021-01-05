@@ -1,18 +1,18 @@
 ---
 title: Шаг 7. Задачи, выполняемые после миграции Windows Server Essentials
-description: Описание использования Windows Server Essentials
+description: Узнайте, как выполнять задачи, выполняемые после миграции Windows Server Essentials.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: d382e3fd-d393-4bd0-883f-db50104a969f
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: 5186cc808b46aa334dc994186e3d7d8d898f9d96
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: f2637a935c1835aab3d83d4099637ed3b06aad9b
+ms.sourcegitcommit: 9e19436bd8b20af60284071ab512405aebfbec83
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89625361"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97810411"
 ---
 # <a name="step-7-perform-post-migration-tasks-for-the-windows-server-essentials-migration"></a>Шаг 7. Задачи, выполняемые после миграции Windows Server Essentials
 

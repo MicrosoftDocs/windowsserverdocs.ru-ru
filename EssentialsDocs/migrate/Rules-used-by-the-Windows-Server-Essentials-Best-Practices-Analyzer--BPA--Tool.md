@@ -1,18 +1,18 @@
 ---
 title: Правила, используемые анализатором соответствия рекомендациям (BPA) Windows Server Essentials
-description: Описание использования Windows Server Essentials
+description: Сведения о правилах, используемых средством Windows Server Essentials анализатор соответствия рекомендациям (BPA).
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 37e1dae7-586c-4dd7-bf83-7e14a9567c8f
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: 231fad84ecb5ac5831d4d638af7bd8fbe0281b04
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 8689a04c693f463d99889e6d7bdc3f5f21ea5c2e
+ms.sourcegitcommit: 9e19436bd8b20af60284071ab512405aebfbec83
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89625542"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97810631"
 ---
 # <a name="rules-used-by-the-windows-server-essentials-best-practices-analyzer-bpa-tool"></a>Правила, используемые анализатором соответствия рекомендациям (BPA) Windows Server Essentials
 
@@ -554,7 +554,7 @@ ms.locfileid: "89625542"
 
  **Влияние:**  Возможно, вам не удастся получить доступ к Интернет ресурсам по имени.
 
- **Решение:**  Задайте для раздела реестра Рекурсионтимеаут значение, превышающее значение ключа Форвардингтимеаут, расположенное в реестре в HKEY_LOCAL_MACHINE \Систем\куррентконтролсет\сервицес\днс\параметерс.
+ **Решение:**  Задайте для раздела реестра Рекурсионтимеаут значение, превышающее значение ключа Форвардингтимеаут, расположенное в реестре в HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\DNS\Parameters.
 
 ### <a name="the-forward-dns-zone-for-your-active-directory-domain-does-not-allow-secure-updates"></a>В зоне DNS прямого просмотра для домена Active Directory не разрешены безопасные обновления
  **Вопрос.**  Чтобы разрешить только безопасные динамические обновления, необходимо настроить зону прямого просмотра.

@@ -1,18 +1,18 @@
 ---
 title: Перенос параметров и данных Windows SBS 2011 Essentials на целевой сервер для миграции Windows Server Essentials
-description: Описание использования Windows Server Essentials
+description: Узнайте, как перенести параметры и данные Windows SBS 2011 Essentials на целевой сервер для миграции Windows Server Essentials.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 47548994-9fa0-42e0-afa4-c2ccbd063acb
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: 5ab8e54fe94fa2f733e28dd461b7d35988589864
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 25a155db15f0ea76695c1bbbda100d18e1c56b9a
+ms.sourcegitcommit: 9e19436bd8b20af60284071ab512405aebfbec83
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89625698"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97810712"
 ---
 # <a name="move-windows-sbs-2011-essentials-settings-and-data-to-the-destination-server-for-windows-server-essentials-migration"></a>Перенос параметров и данных Windows SBS 2011 Essentials на целевой сервер для миграции Windows Server Essentials
 

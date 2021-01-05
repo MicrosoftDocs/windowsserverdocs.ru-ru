@@ -1,18 +1,18 @@
 ---
 title: Удаленная работа в Windows Server Essentials
-description: Описание использования Windows Server Essentials
+description: Узнайте о нескольких способах доступа к ресурсам, которые находятся на сервере при отсутствии сети.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 8b183f8f-1279-4fdf-a495-c7c801563cb0
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: 955b7e028b774699bc5170bda1fac29b88a35483
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 12e36c7d77a018dded93fd2b8d374a37423fc242
+ms.sourcegitcommit: 9e19436bd8b20af60284071ab512405aebfbec83
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89624851"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97809991"
 ---
 # <a name="work-remotely-in-windows-server-essentials"></a>Удаленная работа в Windows Server Essentials
 

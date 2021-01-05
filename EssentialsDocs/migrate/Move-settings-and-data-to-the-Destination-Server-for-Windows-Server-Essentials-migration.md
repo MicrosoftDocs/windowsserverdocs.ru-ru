@@ -1,18 +1,18 @@
 ---
 title: Перенос параметров и данных на целевой сервер для миграции на Windows Server Essentials
-description: Описание использования Windows Server Essentials
+description: Узнайте, как переместить параметры и данные на целевой сервер для миграции Windows Server Essentials.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 2b882e87-347a-4010-b7fd-9599d61198dd
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: 4a37d8e39dde95a143c15a5573be0deb0291d827
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 1b9ee5e4c52b812ab05a251257625772c361c1e8
+ms.sourcegitcommit: 9e19436bd8b20af60284071ab512405aebfbec83
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89625650"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97810683"
 ---
 # <a name="move-settings-and-data-to-the-destination-server-for-windows-server-essentials-migration"></a>Перенос параметров и данных на целевой сервер для миграции на Windows Server Essentials
 

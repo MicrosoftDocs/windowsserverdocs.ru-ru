@@ -1,18 +1,18 @@
 ---
 title: Устранение неполадок сборщика журналов Windows Server Essentials
-description: Описание использования Windows Server Essentials
+description: Узнайте, как устранять неполадки, возникающие при запуске сборщика журналов.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: fa2e1685-31c0-4d4f-a10a-6c8885dfc493
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: 6f8318b6a6b711c6041a9227cd2d207470233dab
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 0da27272f3daf5159e5f6ac868788382b1bf11a7
+ms.sourcegitcommit: 9e19436bd8b20af60284071ab512405aebfbec83
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89625135"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97810231"
 ---
 # <a name="troubleshoot-windows-server-essentials-log-collector-errors"></a>Устранение неполадок сборщика журналов Windows Server Essentials
 
@@ -45,7 +45,7 @@ ms.locfileid: "89625135"
 ###  <a name="you-do-not-have-permission-to-save-the-log-files-to-the-selected-folder"></a><a name="BKMK_YouDoNotHavePermission"></a> У вас нет разрешения на сохранение файлов журнала в выбранной папке
  **Причина.** У вас могут отсутствовать разрешения на запись в папку, выбранную для сохранения файлов журналов.
 
- **Решение:** Если для сохранения файлов журнала используется путь по умолчанию, убедитесь, что у вас есть разрешение на запись для общей папки ** \\ \\<ServerName \> \Logs**. При сохранении журналов на компьютер сети убедитесь, что у вас есть права записи в выбранную вами папку для сохранения файлов.
+ **Решение:** Если для сохранения файлов журнала используется путь по умолчанию, убедитесь, что у вас есть разрешение на запись для общей папки **\\ \\<ServerName \> \Logs**. При сохранении журналов на компьютер сети убедитесь, что у вас есть права записи в выбранную вами папку для сохранения файлов.
 
 ###  <a name="the-computer-is-not-configured-properly-to-collect-the-log-files"></a><a name="BKMK_TheComputerIsNotConfiguredProperly"></a> Компьютер не настроен должным образом для получения файлов журнала
  **Причина.** Данный компьютер не был правильно настроен для использования сборщика журналов.

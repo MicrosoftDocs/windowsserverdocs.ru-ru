@@ -1,18 +1,18 @@
 ---
 title: Миграция с предыдущих версий на Windows Server Essentials или Windows Server Essentials Experience
-description: Описание использования Windows Server Essentials
+description: Узнайте, как выполнить миграцию с предыдущих версий Windows Small Business Server и Windows Server Essentials.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 2974fb3a-5150-43fd-a73f-3e5074eb5d03
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: ac59e41aab7c5085f9a9acdb781582c9cdecea54
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: e25e8407e960264387ba946d11b721b3b22014bf
+ms.sourcegitcommit: 9e19436bd8b20af60284071ab512405aebfbec83
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89625737"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97810761"
 ---
 # <a name="migrate-from-previous-versions-to-windows-server-essentials-or-windows-server-essentials-experience"></a>Миграция с предыдущих версий на Windows Server Essentials или Windows Server Essentials Experience
 

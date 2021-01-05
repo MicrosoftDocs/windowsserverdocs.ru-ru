@@ -1,18 +1,18 @@
 ---
-title: Расширение диагностики пути к данным SDN в центре администрирования Windows
+title: Расширение диагностики пути к данным SDN в Windows Admin Center
 description: Используйте этот раздел для автоматизации записи пакетов на основе монитора пакетов с помощью расширения диагностики пути к данным SDN в центре администрирования Windows.
 ms.topic: how-to
 author: khdownie
 ms.author: v-kedow
 ms.date: 11/12/2020
-ms.openlocfilehash: 9b1a247e0d07a4e44ba7640aa2e95180956ccee8
-ms.sourcegitcommit: 8808f871c8cf131f819ef5540286218bd425da96
+ms.openlocfilehash: 54a65147847a28a9820589521f7c94ea1c4b08cd
+ms.sourcegitcommit: b0c10eaffaa5de3eeff44c433580b41270c27d32
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/14/2020
-ms.locfileid: "94632648"
+ms.lasthandoff: 12/30/2020
+ms.locfileid: "97826181"
 ---
-# <a name="sdn-data-path-diagnostics-extension-in-windows-admin-center"></a>Расширение диагностики пути к данным SDN в центре администрирования Windows
+# <a name="sdn-data-path-diagnostics-extension-in-windows-admin-center"></a>Расширение диагностики пути к данным SDN в Windows Admin Center
 
 >Область применения: Windows Server (половина ежегодного канала), Windows Server 2019, Windows 10, Azure Stack ХЦИ, центр Azure Stack, Azure
 
@@ -39,7 +39,7 @@ ms.locfileid: "94632648"
 
 <center>
 
-:::image type="content" source="media/add-sdn-enabled-hci-connection.png" alt-text="Добавление подключения ХЦИ с поддержкой SDN с центром администрирования Windows" border="true":::
+:::image type="content" source="media/add-sdn-enabled-hci-connection.png" alt-text="Добавление подключения ХЦИ с поддержкой SDN с центром администрирования Windows" border="true" lightbox="media/add-sdn-enabled-hci-connection.png":::
 
 </center>
 
@@ -53,7 +53,7 @@ ms.locfileid: "94632648"
 
 <center>
 
-:::image type="content" source="media/sdn-data-path-diagnostics-main-page.png" alt-text="Мониторинг SDN — страница &quot;сценарии диагностики&quot;" border="true":::
+:::image type="content" source="media/sdn-data-path-diagnostics-main-page.png" alt-text="Мониторинг SDN — страница &quot;сценарии диагностики&quot;" border="true" lightbox="media/sdn-data-path-diagnostics-main-page.png":::
 
 </center>
 
@@ -63,7 +63,7 @@ ms.locfileid: "94632648"
 
 <center>
 
-:::image type="content" source="media/sdn-data-path-diagnostics-scenario-parameters.png" alt-text="Мониторинг SDN — страница &quot;условия захвата&quot;" border="true":::
+:::image type="content" source="media/sdn-data-path-diagnostics-scenario-parameters.png" alt-text="Мониторинг SDN — страница &quot;условия захвата&quot;" border="true" lightbox="media/sdn-data-path-diagnostics-scenario-parameters.png":::
 
 </center>
 
@@ -73,7 +73,7 @@ ms.locfileid: "94632648"
 
 <center>
 
-:::image type="content" source="media/sdn-data-path-diagnostics-loading-wheel2.png" alt-text="Запуск записи пакетов" border="true":::
+:::image type="content" source="media/sdn-data-path-diagnostics-loading-wheel2.png" alt-text="Запуск записи пакетов" border="true" lightbox="media/sdn-data-path-diagnostics-loading-wheel2.png":::
 
 </center>
 
@@ -81,7 +81,7 @@ ms.locfileid: "94632648"
 
 <center>
 
-:::image type="content" source="media/sdn-data-path-diagnostics-log.png" alt-text="Журнал диагностики пути к данным после остановки записи" border="true":::
+:::image type="content" source="media/sdn-data-path-diagnostics-log.png" alt-text="Журнал диагностики пути к данным после остановки записи" border="true" lightbox="media/sdn-data-path-diagnostics-log.png":::
 
 </center>
 
@@ -102,7 +102,7 @@ ms.locfileid: "94632648"
 
 <center>
 
-:::image type="content" source="media/sdn-data-path-diagnostics-details-page.png" alt-text="Страница сведений о диагностике пути к данным" border="true":::
+:::image type="content" source="media/sdn-data-path-diagnostics-details-page.png" alt-text="Страница сведений о диагностике пути к данным" border="true" lightbox="media/sdn-data-path-diagnostics-details-page.png":::
 
 </center>
 
@@ -110,7 +110,7 @@ ms.locfileid: "94632648"
 
 <center>
 
-:::image type="content" source="media/sdn-data-path-diagnostics-details-page-with-pane1.png" alt-text="Просмотр сведений о конкретном прыжке" border="true":::
+:::image type="content" source="media/sdn-data-path-diagnostics-details-page-with-pane1.png" alt-text="Просмотр сведений о конкретном прыжке" border="true" lightbox="media/sdn-data-path-diagnostics-details-page-with-pane1.png":::
 
 </center>
 
@@ -118,7 +118,7 @@ ms.locfileid: "94632648"
 
 <center>
 
-:::image type="content" source="media/sdn-data-path-diagnostics-details-page-with-pane-raw-packet1.png" alt-text="Просмотр необработанных сведений о пакете для определенного прыжка" border="true":::
+:::image type="content" source="media/sdn-data-path-diagnostics-details-page-with-pane-raw-packet1.png" alt-text="Просмотр необработанных сведений о пакете для определенного прыжка" border="true" lightbox="media/sdn-data-path-diagnostics-details-page-with-pane-raw-packet1.png":::
 
 </center>
 
@@ -132,7 +132,7 @@ ms.locfileid: "94632648"
 
 <center>
 
-:::image type="content" source="media/sdn-data-path-diagnostics-display-filters.png" alt-text="Фильтрация журналов с помощью фильтров экрана" border="true":::
+:::image type="content" source="media/sdn-data-path-diagnostics-display-filters.png" alt-text="Фильтрация журналов с помощью фильтров экрана" border="true" lightbox="media/sdn-data-path-diagnostics-display-filters.png":::
 
 </center>
 
@@ -147,6 +147,6 @@ ms.locfileid: "94632648"
 
 <center>
 
-:::image type="content" source="media/sdn-data-path-diagnostics-save.png" alt-text="сохранение журналов в локальной среде" border="true":::
+:::image type="content" source="media/sdn-data-path-diagnostics-save.png" alt-text="сохранение журналов в локальной среде" border="true" lightbox="media/sdn-data-path-diagnostics-save.png":::
 
 </center>

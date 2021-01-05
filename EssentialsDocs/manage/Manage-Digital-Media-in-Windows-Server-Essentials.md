@@ -1,18 +1,18 @@
 ---
 title: Управление мультимедиа в Windows Server Essentials
-description: Описание использования Windows Server Essentials
+description: Сведения о функциях потоковой передачи мультимедиа сервера, а также о настройке и использовании потоковой передачи мультимедиа в сети.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 9378bffa-487c-43ca-9ec3-7e7864d2dd9a
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: b5788495a2d622a74d5099d3e7c91e62c8d84a6f
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 59149ddfdde440d4b5d5ce722e054a858c5e5a6b
+ms.sourcegitcommit: 9e19436bd8b20af60284071ab512405aebfbec83
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89623137"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97811391"
 ---
 # <a name="manage-digital-media-in-windows-server-essentials"></a>Управление мультимедиа в Windows Server Essentials
 
@@ -67,7 +67,7 @@ ms.locfileid: "89623137"
 ##  <a name="manage-media-server-using-the-dashboard"></a><a name="BKMK_2"></a> Управление сервером мультимедиа с помощью панели мониторинга
   Windows Server Essentials позволяет выполнять стандартные административные задачи с помощью панели мониторинга Windows Server Essentials. Вкладка **Мультимедиа** на серверной странице **Параметры** панели мониторинга содержит следующее.
 
-|Раздел|Функциональность|
+|Section|Функциональность|
 |-------------|-------------------|
 |Сервер мультимедиа|Кнопка **Вкл/Выкл** позволяет включать и отключать потоковую передачу мультимедиа.|
 |Качество потокового видео|Стрелка раскрывающегося списка позволяет выбирать качество потокового видео, воспроизводимого с сервера.|

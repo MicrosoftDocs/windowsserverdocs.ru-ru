@@ -1,18 +1,18 @@
 ---
 title: Устранение неполадок с историей файлов в Windows Server Essentials
-description: Описание использования Windows Server Essentials
+description: Узнайте, как устранять неполадки, которые могут возникнуть при управлении резервными копиями журнала файлов для пользователя или компьютера, добавленного на сервер под управлением Windows Server Essentials.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: ed062945-27e9-4572-b1bb-6c8cf1b9c2f4
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: 90f931c128d4e4eb9747203db7d097c68d451702
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: f02e6c6e9d01751515000289a9d284b405def55c
+ms.sourcegitcommit: 9e19436bd8b20af60284071ab512405aebfbec83
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89625202"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97810212"
 ---
 # <a name="troubleshoot-file-history-in-windows-server-essentials"></a>Устранение неполадок с историей файлов в Windows Server Essentials
 
@@ -65,7 +65,7 @@ ms.locfileid: "89625202"
 
      Папка резервных копий истории файлов содержит вложенную папку для каждой учетной записи пользователя, которая была добавлена в Windows Server Essentials. Например, история файлов для пользователя John Smith будет храниться во вложенной папке File History Backups\JohnSmith.
 
-4.  Переименуйте вложенную папку удаленного пользователя, например ** < *username*>_Deleted**. Если история файлов пользователя больше не нужна, можно удалить эту папку.
+4.  Переименуйте вложенную папку удаленного пользователя, например **< *username*>_Deleted**. Если история файлов пользователя больше не нужна, можно удалить эту папку.
 
 5. Теперь можно добавить нового пользователя. Инструкции см. в разделе Добавление учетной записи пользователя. в окне [Управление учетными записями пользователей](../manage/Manage-User-Accounts-in-Windows-Server-Essentials.md).
 

@@ -1,18 +1,18 @@
 ---
 title: Управление веб-службами Microsoft в Windows Server Essentials
-description: Описание использования Windows Server Essentials
+description: Узнайте о методах, которые можно использовать для управления веб-службы в Организации.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 7e50886e-08b8-4c97-95cf-456ba3800ebf
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: 534b08fbdc283dc3b37e7fd31d951605250e1c65
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: cf303e329121f200915b5711ca37d2ebf36f602c
+ms.sourcegitcommit: 9e19436bd8b20af60284071ab512405aebfbec83
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89623086"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97811371"
 ---
 # <a name="manage-microsoft-online-services-in-windows-server-essentials"></a>Управление веб-службами Microsoft в Windows Server Essentials
 

@@ -1,18 +1,18 @@
 ---
 title: Устранение неполадок при подключении компьютеров к серверу в Windows Server Essentials
-description: Описание использования Windows Server Essentials
+description: Узнайте, как устранять неполадки, которые могут возникнуть при подключении компьютера к серверу под Windows Server Essentials.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: e45b3d89-c057-4c70-a627-86fb06dd22aa
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: 6314ef0baa92f6e6fe0d6a4bb2b49c3fcee6f893
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: cfb7cd5b31e86fcbed9e92e8f82f1da4437f380d
+ms.sourcegitcommit: 9e19436bd8b20af60284071ab512405aebfbec83
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89625070"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97810141"
 ---
 # <a name="troubleshoot-connecting-computers-to-the-server-in-windows-server-essentials"></a>Устранение неполадок при подключении компьютеров к серверу в Windows Server Essentials
 

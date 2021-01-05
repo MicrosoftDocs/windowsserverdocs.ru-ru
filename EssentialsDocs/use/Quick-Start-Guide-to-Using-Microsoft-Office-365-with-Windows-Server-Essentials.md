@@ -1,20 +1,20 @@
 ---
-title: краткое руководство по началу работы использования Microsoft 365 с Windows Server Essentials
-description: Описание использования Windows Server Essentials
+title: Краткое руководство. Использование Microsoft 365 с Windows Server Essentials
+description: Узнайте, как открывать приложения в Microsoft 365 с помощью привычных средств, таких как панель запуска Windows Server Essentials и мой сервер 2012 R2.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 51a7f1f1-088b-4487-b2c6-4f97aad3004d
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: bdabd2f6e8f8fbc8199789ba91401ed6505c389e
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: b541a0ca1742d63df5b091b0787ed5fac01d1298
+ms.sourcegitcommit: 9e19436bd8b20af60284071ab512405aebfbec83
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89624933"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97810041"
 ---
-# <a name="quick-start-guide-to-using-microsoft-365-with-windows-server-essentials"></a>краткое руководство по началу работы использования Microsoft 365 с Windows Server Essentials
+# <a name="quick-start-guide-to-using-microsoft-365-with-windows-server-essentials"></a>Краткое руководство. Использование Microsoft 365 с Windows Server Essentials
 
 >Область применения: Windows Server 2016 Essentials, Windows Server 2012 R2 Essentials, Windows Server 2012 Essentials
 
@@ -41,7 +41,7 @@ ms.locfileid: "89624933"
 
 #### <a name="to-open-microsoft-365-from-the-launchpad"></a>Открытие Microsoft 365 из панели запуска
 
-1.  Откройте панель запуска, выберите **Microsoft Microsoft 365**и щелкните **Microsoft 365 Домашняя страница**.
+1.  Откройте панель запуска, выберите **Microsoft Microsoft 365** и щелкните **Microsoft 365 Домашняя страница**.
 
 2.  Войдите в Microsoft 365 с помощью предоставленного Microsoft Online ID и пароля Windows.
 
@@ -67,7 +67,7 @@ ms.locfileid: "89624933"
 2.  Нажмите кнопку **SharePoint Online**.
 
     > [!NOTE]
-    >  Если **SharePoint Online**не отображается, попросите администратора узнать, интегрирован ли Microsoft 365 с сервером.
+    >  Если **SharePoint Online** не отображается, попросите администратора узнать, интегрирован ли Microsoft 365 с сервером.
 
 3.  Выберите библиотеку SharePoint Online, чтобы открыть список документов в ней.
 

@@ -1,18 +1,18 @@
 ---
 title: Миграция с Windows Windows Server 2008 Foundation на Windows Server Essentials
-description: Описание использования Windows Server Essentials
+description: Узнайте, как перенести существующий домен Windows Server 2008 Foundation в Windows Server 2012 Essentials на новом оборудовании, а затем перенести параметры и данные.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: f22fc0a4-cb82-4e60-afe6-2d03145745e7
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: 7ccb0e79094c5d3393b9548fc733224fd8fa9cbf
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 4ba2418376e5217f7f4e9fd87ced1779f434ad52
+ms.sourcegitcommit: 9e19436bd8b20af60284071ab512405aebfbec83
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89625873"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97810891"
 ---
 # <a name="migrate-windows-server-2008-foundation-to-windows-server-essentials"></a>Миграция с Windows Windows Server 2008 Foundation на Windows Server Essentials
 
