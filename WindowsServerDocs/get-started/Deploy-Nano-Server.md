@@ -8,12 +8,12 @@ ms.assetid: 9f109c91-7c2e-4065-856c-ce9e2e9ce558
 author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: 67ef50ce2c788ac5028de1ab39a5f6b6bf388978
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.openlocfilehash: e2a60a3fdb27753784773659711f486421ed31b3
+ms.sourcegitcommit: 5f234fb15c1d0365b60e83a50bf953e317d6239c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96865725"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97879853"
 ---
 # <a name="deploy-nano-server"></a>Развертывание сервера Nano Server
 
@@ -72,7 +72,7 @@ Nano Server Image Builder создает настроенные образы Nan
 | PowerShell Desired State Configuration (DSC) | -Package Microsoft-NanoServer-DSC-Package<p>**Примечание**. Дополнительные сведения см. в статье [Использование DSC на сервере Nano Server](/archive/blogs/askcore/kms-host-client-count-not-increasing-due-to-duplicate-cmids). |
 | Службы IIS | -Package Microsoft-NanoServer-IIS-Package<p>**Примечание**. Сведения о работе с IIS см. в разделе [IIS на сервере Nano Server](IIS-on-Nano-Server.md). |
 | Поддержка узлов для контейнеров Windows | -Containers |
-| Агент System Center Virtual Machine Manager | -Package Microsoft-NanoServer-SCVMM-Package<p>-Package Microsoft-NanoServer-SCVMM-Compute-Package<p>**Примечание**. Используйте пакет вычислений SCVMM только в том случае, если отслеживаете Hyper-V. Для гиперконвергентных развертываний в VMM также нужно указать параметр -Storage. Дополнительные сведения см. в [документации по VMM](/system-center/vmm/hyper-v-nano?view=sc-vmm-2016). |
+| Агент System Center Virtual Machine Manager | -Package Microsoft-NanoServer-SCVMM-Package<p>-Package Microsoft-NanoServer-SCVMM-Compute-Package<p>**Примечание**. Используйте пакет вычислений SCVMM только в том случае, если отслеживаете Hyper-V. Для гиперконвергентных развертываний в VMM также нужно указать параметр -Storage. Дополнительные сведения см. в [документации по VMM](/system-center/vmm/hyper-v-nano?view=sc-vmm-2016&preserve-view=true). |
 | Агент System Center Operations Manager | Устанавливается отдельно. Дополнительные сведения см. в документации по System Center Operations Manager: https://technet.microsoft.com/system-center-docs/om/manage/install-agent-on-nano-server. |
 | Мост для центра обработки данных (включая DCBQoS) | -Package Microsoft-NanoServer-DCB-Package |
 | Развертывание на виртуальной машине | -Package Microsoft-NanoServer-Guest-Package |

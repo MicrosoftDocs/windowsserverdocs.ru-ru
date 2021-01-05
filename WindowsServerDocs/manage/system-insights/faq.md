@@ -6,12 +6,12 @@ author: gawatu
 ms.author: gawatu
 manager: mallikarjun.chadalapaka
 ms.date: 5/23/2018
-ms.openlocfilehash: 2a97fdbc2e2a80c310cac2b770e18f34d53dd983
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: f522623fa88c5ea979d405be013fa26937c658f1
+ms.sourcegitcommit: 5f234fb15c1d0365b60e83a50bf953e317d6239c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87997151"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97879833"
 ---
 # <a name="system-insights-faq"></a>Вопросы и ответы по System Insights
 
@@ -19,7 +19,7 @@ ms.locfileid: "87997151"
 
 ## <a name="how-can-you-use-system-insights-with-azure-monitor-or-system-center-operations-manager"></a>Как можно использовать System Insights с Azure Monitor или System Center Operations Manager?
 
-[Azure Monitor](https://azure.microsoft.com/services/monitor/) и [System Center Operations Manager](/system-center/scom/welcome?view=sc-om-1807) предоставлять операционную информацию по развертываниям, чтобы помочь вам управлять инфраструктурой. System Insights, напротив, — это компонент Windows Server, который предоставляет возможности локальной прогнозной аналитики. Система System Insights и Azure Monitor или SCOM позволяют распределять прогнозы по Генеральной совокупности устройств:
+[Azure Monitor](https://azure.microsoft.com/services/monitor/) и [System Center Operations Manager](/system-center/scom/welcome?view=sc-om-1807&preserve-view=true) предоставлять операционную информацию по развертываниям, чтобы помочь вам управлять инфраструктурой. System Insights, напротив, — это компонент Windows Server, который предоставляет возможности локальной прогнозной аналитики. Система System Insights и Azure Monitor или SCOM позволяют распределять прогнозы по Генеральной совокупности устройств:
 
  Azure Monitor или SCOM могут выключать события, созданные системой System Insights, так как System Insights выводит результат каждого прогноза в журнал событий. Они могут отображать эти прогнозы для конкретного компьютера в пределах парка серверов Windows, что позволяет единообразно просматривать эти прогнозы в группе экземпляров сервера.
 

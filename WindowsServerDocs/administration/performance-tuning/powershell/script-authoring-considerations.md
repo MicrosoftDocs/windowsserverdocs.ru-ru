@@ -5,12 +5,12 @@ ms.topic: article
 ms.author: jasonsh
 author: lzybkr
 ms.date: 10/16/2017
-ms.openlocfilehash: f5ab7fbb1c993192f4626935d2adb73fc9401250
-ms.sourcegitcommit: 53d526bfeddb89d28af44210a23ba417f6ce0ecf
+ms.openlocfilehash: fc6be9ef894e7d427c6abb7d8f00e77d52610af5
+ms.sourcegitcommit: 5f234fb15c1d0365b60e83a50bf953e317d6239c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87896260"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97879533"
 ---
 # <a name="powershell-scripting-performance-considerations"></a>Вопросы производительности сценариев PowerShell
 
@@ -129,5 +129,5 @@ finally
 
 Если на консоль необходимо записывать большое количество сообщений, `Write-Host` может быть задан порядок, меньший, чем `[Console]::WriteLine()` . Однако следует иметь в виду, что `[Console]::WriteLine()` является только подходящим альтернативом для конкретных узлов, таких как powershell.exe или powershell_ise.exe-не гарантируется работа на всех узлах.
 
-Вместо использования `Write-Host` рекомендуется использовать [Write-Output](/powershell/module/Microsoft.PowerShell.Utility/Write-Output?view=powershell-5.1).
+Вместо использования `Write-Host` рекомендуется использовать [Write-Output](/powershell/module/Microsoft.PowerShell.Utility/Write-Output?view=powershell-5.1&preserve-view=true).
 

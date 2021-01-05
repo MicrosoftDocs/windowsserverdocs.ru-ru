@@ -8,12 +8,12 @@ ms.author: thierryp
 ms.date: 07/12/2018
 ms.topic: get-started-article
 ms.localizationpriority: high
-ms.openlocfilehash: d31fb5b9d5e31ed9bb64a8335e40195b4cfb45ce
-ms.sourcegitcommit: 7cacfc38982c6006bee4eb756bcda353c4d3dd75
+ms.openlocfilehash: 0a65ad1b26017001b61af94af497317c509d20b1
+ms.sourcegitcommit: 5f234fb15c1d0365b60e83a50bf953e317d6239c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "90078481"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97879793"
 ---
 # <a name="upgrade-windows-server-2008-and-windows-server-2008-r2"></a>Обновление Windows Server 2008 и Windows Server 2008 R2
 
@@ -50,7 +50,7 @@ ms.locfileid: "90078481"
 
 ![Логотип SQL Server](media/sqlr2.jpg)
 
-Если вы используете SQL Server 2008 или 2008 R2, вы можете выполнить обновление до SQL Server [2016](/sql/sql-server/sql-server-technical-documentation?view=sql-server-2016) или [2017](/sql/sql-server/sql-server-technical-documentation?view=sql-server-2017).
+Если вы используете SQL Server 2008 или 2008 R2, вы можете выполнить обновление до SQL Server [2016](/sql/sql-server/sql-server-technical-documentation?view=sql-server-2016&preserve-view=true) или [2017](/sql/sql-server/sql-server-technical-documentation?view=sql-server-2017&preserve-view=true).
 
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы

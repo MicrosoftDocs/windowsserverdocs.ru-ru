@@ -6,12 +6,12 @@ author: BenjaminArmstrong
 ms.date: 12/20/2016
 ms.topic: article
 ms.assetid: 9cafd6cb-dbbe-4b91-b26c-dee1c18fd8c2
-ms.openlocfilehash: f82ccc4e6dc2dbd7a34d829c0bc753fc6533f8dd
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.openlocfilehash: 8b1519bb8b17393a29a04413eebcae0126799480
+ms.sourcegitcommit: 5f234fb15c1d0365b60e83a50bf953e317d6239c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96866113"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97879883"
 ---
 # <a name="manage-hyper-v-integration-services"></a>Управление Integration Services Hyper-V
 
@@ -125,7 +125,7 @@ REG QUERY "HKLM\Software\Microsoft\Virtual Machine\Auto" /v IntegrationServicesV
     Running  vmicvss            Hyper-V Volume Shadow Copy Requestor
     ```
 
-1. Выполните команду [Start-Service](/powershell/module/microsoft.powershell.management/start-service?view=powershell-7) или [Service](/powershell/module/microsoft.powershell.management/stop-service?view=powershell-7). Например, чтобы отключить Windows PowerShell Direct, выполните команду:
+1. Выполните команду [Start-Service](/powershell/module/microsoft.powershell.management/start-service?view=powershell-7&preserve-view=true) или [Service](/powershell/module/microsoft.powershell.management/stop-service?view=powershell-7&preserve-view=true). Например, чтобы отключить Windows PowerShell Direct, выполните команду:
 
     ```
     Stop-Service -Name vmicvmsession
@@ -229,20 +229,20 @@ REG QUERY "HKLM\Software\Microsoft\Virtual Machine\Auto" /v IntegrationServicesV
 
 | Гость  | Механизм обновления | Примечания |
 |:---------|:---------|:---------|
-| Windows 10 | Центр обновления Windows | |
-| Windows 8.1 | Центр обновления Windows | |
-| Windows 8 | Центр обновления Windows | Требуется служба интеграции для обмена данными.* |
-| Windows 7 | Центр обновления Windows | Требуется служба интеграции для обмена данными.* |
-| Windows Vista с пакетом обновления 2 (SP2) | Центр обновления Windows | Требуется служба интеграции для обмена данными.* |
+| быть под управлением ОС Windows 10; | Центра обновления Windows; | |
+| Windows 8.1 | Центра обновления Windows; | |
+| Windows 8 | Центра обновления Windows; | Требуется служба интеграции для обмена данными.* |
+| Windows 7 | Центра обновления Windows; | Требуется служба интеграции для обмена данными.* |
+| Windows Vista с пакетом обновления 2 (SP2) | Центра обновления Windows; | Требуется служба интеграции для обмена данными.* |
 | - | | |
-| Windows Server 2016 | Центр обновления Windows | |
-| Windows Server, Semi-Annual Channel | Центр обновления Windows | |
-| Windows Server 2012 R2 | Центр обновления Windows | |
-| Windows Server 2012 | Центр обновления Windows | Требуется служба интеграции для обмена данными.* |
-| Windows Server 2008 R2 с пакетом обновления 1 (SP1) | Центр обновления Windows | Требуется служба интеграции для обмена данными.* |
-| Windows Server 2008 с пакетом обновления 2 (SP2) | Центр обновления Windows | Расширенная поддержка только в Windows Server 2016 ([Дополнительные сведения](https://support.microsoft.com/lifecycle?p1=12925)). |
-| Windows Home Server 2011 | Центр обновления Windows | Не будет поддерживаться в Windows Server 2016 ([Дополнительные сведения](https://support.microsoft.com/lifecycle?p1=15820)). |
-| Windows Small Business Server 2011 | Центр обновления Windows | Не в основной фазе поддержки ([подробности](https://support.microsoft.com/lifecycle?p1=15817)). |
+| Windows Server 2016 | Центра обновления Windows; | |
+| Windows Server, Semi-Annual Channel | Центра обновления Windows; | |
+| Windows Server 2012 R2 | Центра обновления Windows; | |
+| Windows Server 2012 | Центра обновления Windows; | Требуется служба интеграции для обмена данными.* |
+| Windows Server 2008 R2 с пакетом обновления 1 (SP1) | Центра обновления Windows; | Требуется служба интеграции для обмена данными.* |
+| Windows Server 2008 с пакетом обновления 2 (SP2) | Центра обновления Windows; | Расширенная поддержка только в Windows Server 2016 ([Дополнительные сведения](https://support.microsoft.com/lifecycle?p1=12925)). |
+| Windows Home Server 2011 | Центра обновления Windows; | Не будет поддерживаться в Windows Server 2016 ([Дополнительные сведения](https://support.microsoft.com/lifecycle?p1=15820)). |
+| Windows Small Business Server 2011 | Центра обновления Windows; | Не в основной фазе поддержки ([подробности](https://support.microsoft.com/lifecycle?p1=15817)). |
 | - | | |
 | Гостевые ОС Linux | диспетчер пакетов | Службы Integration Services для Linux встроены в дистрибутив, но могут быть доступны необязательные обновления. ******** |
 
@@ -252,18 +252,18 @@ REG QUERY "HKLM\Software\Microsoft\Virtual Machine\Auto" /v IntegrationServicesV
 
 | Гость  | Механизм обновления | Примечания |
 |:---------|:---------|:---------|
-| Windows 10 | Центр обновления Windows | |
-| Windows 8.1 | Диск со службами интеграции | См. [инструкции](#install-or-update-integration-services)ниже. |
-| Windows 8 | Диск со службами интеграции | См. [инструкции](#install-or-update-integration-services)ниже. |
-| Windows 7 | Диск со службами интеграции | См. [инструкции](#install-or-update-integration-services)ниже. |
+| быть под управлением ОС Windows 10; | Центра обновления Windows; | |
+| Windows 8.1 | Диск со службами интеграции | См. [инструкции](#install-or-update-integration-services)ниже. |
+| Windows 8 | Диск со службами интеграции | См. [инструкции](#install-or-update-integration-services)ниже. |
+| Windows 7 | Диск со службами интеграции | См. [инструкции](#install-or-update-integration-services)ниже. |
 | Windows Vista с пакетом обновления 2 (SP2) | Диск со службами интеграции | См. [инструкции](#install-or-update-integration-services)ниже. |
 | Windows XP с пакетами обновления 2 и 3 (SP2, SP3) | Диск со службами интеграции | См. [инструкции](#install-or-update-integration-services)ниже. |
 | - | | |
-| Windows Server 2016 | Центр обновления Windows | |
-| Windows Server, Semi-Annual Channel | Центр обновления Windows | |
-| Windows Server 2012 R2 | Диск со службами интеграции | См. [инструкции](#install-or-update-integration-services)ниже. |
-| Windows Server 2012 | Диск со службами интеграции | См. [инструкции](#install-or-update-integration-services)ниже. |
-| Windows Server 2008 R2 | Диск со службами интеграции | См. [инструкции](#install-or-update-integration-services)ниже. |
+| Windows Server 2016 | Центра обновления Windows; | |
+| Windows Server, Semi-Annual Channel | Центра обновления Windows; | |
+| Windows Server 2012 R2 | Диск со службами интеграции | См. [инструкции](#install-or-update-integration-services)ниже. |
+| Windows Server 2012 | Диск со службами интеграции | См. [инструкции](#install-or-update-integration-services)ниже. |
+| Windows Server 2008 R2 | Диск со службами интеграции | См. [инструкции](#install-or-update-integration-services)ниже. |
 | Windows Server 2008 с пакетом обновления 2 (SP2) | Диск со службами интеграции | См. [инструкции](#install-or-update-integration-services)ниже. |
 | Windows Home Server 2011 | Диск со службами интеграции | См. [инструкции](#install-or-update-integration-services)ниже. |
 | Windows Small Business Server 2011 | Диск со службами интеграции | См. [инструкции](#install-or-update-integration-services)ниже. |
@@ -277,15 +277,15 @@ REG QUERY "HKLM\Software\Microsoft\Virtual Machine\Auto" /v IntegrationServicesV
 
 | Гость  | Механизм обновления | Примечания |
 |:---------|:---------|:---------|
-| Windows 8.1 | Диск со службами интеграции | См. [инструкции](#install-or-update-integration-services)ниже. |
-| Windows 8 | Диск со службами интеграции | См. [инструкции](#install-or-update-integration-services)ниже. |
-| Windows 7 | Диск со службами интеграции | См. [инструкции](#install-or-update-integration-services)ниже. |
+| Windows 8.1 | Диск со службами интеграции | См. [инструкции](#install-or-update-integration-services)ниже. |
+| Windows 8 | Диск со службами интеграции | См. [инструкции](#install-or-update-integration-services)ниже. |
+| Windows 7 | Диск со службами интеграции | См. [инструкции](#install-or-update-integration-services)ниже. |
 | Windows Vista с пакетом обновления 2 (SP2) | Диск со службами интеграции | См. [инструкции](#install-or-update-integration-services)ниже. |
 | Windows XP с пакетами обновления 2 и 3 (SP2, SP3) | Диск со службами интеграции | См. [инструкции](#install-or-update-integration-services)ниже. |
 | - | | |
-| Windows Server 2012 R2 | Диск со службами интеграции | См. [инструкции](#install-or-update-integration-services)ниже. |
-| Windows Server 2012 | Диск со службами интеграции | См. [инструкции](#install-or-update-integration-services)ниже. |
-| Windows Server 2008 R2 | Диск со службами интеграции | См. [инструкции](#install-or-update-integration-services)ниже.|
+| Windows Server 2012 R2 | Диск со службами интеграции | См. [инструкции](#install-or-update-integration-services)ниже. |
+| Windows Server 2012 | Диск со службами интеграции | См. [инструкции](#install-or-update-integration-services)ниже. |
+| Windows Server 2008 R2 | Диск со службами интеграции | См. [инструкции](#install-or-update-integration-services)ниже.|
 | Windows Server 2008 с пакетом обновления 2 (SP2) | Диск со службами интеграции | См. [инструкции](#install-or-update-integration-services)ниже. |
 | Windows Home Server 2011 | Диск со службами интеграции | См. [инструкции](#install-or-update-integration-services)ниже. |
 | Windows Small Business Server 2011 | Диск со службами интеграции | См. [инструкции](#install-or-update-integration-services)ниже. |

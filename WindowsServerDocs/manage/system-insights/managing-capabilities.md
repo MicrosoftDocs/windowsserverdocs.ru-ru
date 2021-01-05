@@ -6,12 +6,12 @@ author: gawatu
 ms.author: gawatu
 manager: mallikarjun.chadalapaka
 ms.date: 6/05/2018
-ms.openlocfilehash: 3f4e80136b3c70b7a121663a6defa048d2b0e852
-ms.sourcegitcommit: 5344adcf9c0462561a4f9d47d80afc1d095a5b13
+ms.openlocfilehash: b8c0d80a1f6e62cd936191dd73c8321669a3d5ce
+ms.sourcegitcommit: 5f234fb15c1d0365b60e83a50bf953e317d6239c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90766227"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97879943"
 ---
 # <a name="managing-capabilities"></a>Управление возможностями
 
@@ -81,12 +81,12 @@ System Insights регистрирует событие каждый раз, к�
 | --------------- | --------------- |
 | ОК | 151 |
 | Предупреждение | 148 |
-| Критически важно | 150 |
+| Критические важное | 150 |
 | Ошибка | 149 |
-| Нет | 132 |
+| None | 132 |
 
 >[!TIP]
->Используйте [Azure Monitor](https://azure.microsoft.com/services/monitor/) или [System Center Operations Manager](/system-center/scom/welcome?view=sc-om-1807) для агрегирования этих событий и просмотра результатов прогноза в группе компьютеров.
+>Используйте [Azure Monitor](https://azure.microsoft.com/services/monitor/) или [System Center Operations Manager](/system-center/scom/welcome?view=sc-om-1807&preserve-view=true) для агрегирования этих событий и просмотра результатов прогноза в группе компьютеров.
 
 
 ## <a name="setting-a-capability-schedule"></a>Настройка расписания возможностей

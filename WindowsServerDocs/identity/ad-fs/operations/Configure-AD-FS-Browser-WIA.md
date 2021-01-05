@@ -4,14 +4,14 @@ description: В этом документе описывается настро�
 author: billmath
 ms.author: billmath
 manager: femila
-ms.date: 03/20/2020
+ms.date: 01/04/2021
 ms.topic: article
-ms.openlocfilehash: 61369f2dde82264190bcbd4d81eaae317e159a0d
-ms.sourcegitcommit: 7c0794e257f602bd71af5eb9a11b8a03d2b9adfd
+ms.openlocfilehash: e272fba0ec41b559129f097d4a447eb99635f5f1
+ms.sourcegitcommit: 5f234fb15c1d0365b60e83a50bf953e317d6239c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "97390272"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97879552"
 ---
 # <a name="configure-browsers-to-use-windows-integrated-authentication-wia-with-ad-fs"></a>Настройка браузеров для использования встроенной проверки подлинности Windows (WIA) с AD FS
 
@@ -37,7 +37,8 @@ AD FS 2016 теперь имеет усовершенствованный пар
 Get-AdfsProperties | select -ExpandProperty WiaSupportedUserAgents
 ```
 
-![Поддержка WIA](../operations/media/Configure-AD-FS-Browser-WIA/wiasupport.png)
+![Поддержка WIA](media/Configure-AD-FS-Browser-WIA/wiasupport.png)
+
 
 ### <a name="change-wiasupporteduseragent-settings"></a>Изменить параметры Виасуппортедусеражент
 По умолчанию при установке новой AD FS создается набор строк агента пользователя. Однако они могут устареть в зависимости от изменений в браузерах и устройствах. В частности, устройства Windows имеют аналогичные строки агента пользователя с дополнительными вариациями в маркерах. Следующий пример Windows PowerShell предоставляет лучшие рекомендации для текущего набора устройств на рынке, поддерживающих беспрепятственное WIA:

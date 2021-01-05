@@ -7,12 +7,12 @@ author: pronichkin
 ms.author: artemp
 ms.localizationpriority: medium
 ms.date: 12/18/2018
-ms.openlocfilehash: 2cdddf706d03aa5b1aa1239b58fd4d8a9f4beed2
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.openlocfilehash: 2e4e7902a52378f29c4a0a48339618c279b7cc95
+ms.sourcegitcommit: 5f234fb15c1d0365b60e83a50bf953e317d6239c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96864323"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97879713"
 ---
 # <a name="administer-a-server-core-server"></a>Администрирование сервера Server Core
 
@@ -101,7 +101,7 @@ ms.locfileid: "96864323"
 
 Можно разрешить удаленное взаимодействие с Windows PowerShell, при котором команды Windows PowerShell, введенные на одном компьютере, выполняются на другом компьютере. Включите удаленное взаимодействие Windows PowerShell с помощью **Enable-PSRemoting**.
 
-Дополнительные сведения см. в статье [об удаленном решении вопросов и ответов](/powershell/module/microsoft.powershell.core/about/about_remote_faq?view=powershell-5.1).
+Дополнительные сведения см. в статье [об удаленном решении вопросов и ответов](/powershell/module/microsoft.powershell.core/about/about_remote_faq?view=powershell-5.1&preserve-view=true).
 
 ## <a name="administrative-tasks-from-the-command-line"></a>Задачи администрирования из командной строки
 Используйте следующие справочные сведения для выполнения административных задач из командной строки.

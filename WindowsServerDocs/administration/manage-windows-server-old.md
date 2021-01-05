@@ -6,12 +6,12 @@ author: lizap
 ms.author: elizapo
 ms.date: 03/16/2018
 ms.localizationpriority: medium
-ms.openlocfilehash: 55b33c7ab74ac9295d42ef884540d551b1ad6ec4
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 5fe4750b1ca960df0ec74000344ca9d72bb0a785
+ms.sourcegitcommit: 5f234fb15c1d0365b60e83a50bf953e317d6239c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87992428"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97879733"
 ---
 # <a name="manage-windows-server"></a>Управление Windows Server
 
@@ -108,7 +108,7 @@ ms.locfileid: "87992428"
 
 Windows Server предоставляет набор команд и модулей Windows PowerShell, которые можно использовать для автоматизации задач управления.
 
-### <a name="windows-powershell"></a>[Windows PowerShell](/powershell/scripting/powershell-scripting?view=powershell-5.1)
+### <a name="windows-powershell"></a>[Windows PowerShell](/powershell/scripting/powershell-scripting?view=powershell-5.1&preserve-view=true)
 Windows PowerShell — это оболочка командной строки и язык сценариев, созданный для быстрой автоматизации задач администрирования.
 
 ### <a name="windows-commands"></a>[Команды Windows](windows-commands/windows-commands.md)

@@ -6,12 +6,12 @@ ms.assetid: 2d34e98c-6134-479b-8000-3eb360b8b8a3
 ms.author: benarm
 author: BenjaminArmstrong
 ms.date: 12/06/2016
-ms.openlocfilehash: 1d599555750d2a2e005a3e68b0c70fddd1a54f73
-ms.sourcegitcommit: 6931830a70c5849d8f884cdc7bd4f5afc1a00cce
+ms.openlocfilehash: f6065fa4f817b6029b2636abb9960c335344432d
+ms.sourcegitcommit: 5f234fb15c1d0365b60e83a50bf953e317d6239c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "91955809"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97879903"
 ---
 # <a name="remotely-manage-hyper-v-hosts-with-hyper-v-manager"></a>Удаленное управление узлами Hyper-V с помощью диспетчера Hyper-V
 
@@ -46,11 +46,11 @@ ms.locfileid: "91955809"
 
 ## <a name="manage-hyper-v-on-a-local-computer"></a>Управление Hyper-V на локальном компьютере
 
-Диспетчер Hyper-V не отображает компьютеры, на которых размещается Hyper-V, до тех пор, пока не будет добавлен компьютер, включая локальный компьютер. Для этого выполните следующие действия.
+Диспетчер Hyper-V не отображает компьютеры, на которых размещается Hyper-V, до тех пор, пока не будет добавлен компьютер, включая локальный компьютер. Выполните указанные ниже действия.
 
 1. В левой области щелкните правой кнопкой мыши **Диспетчер Hyper-V**.
 2. Нажмите кнопку **подключиться к серверу**.
-3. В меню **Выбор компьютера**выберите пункт **локальный компьютер** , а затем нажмите кнопку **ОК**.
+3. В меню **Выбор компьютера** выберите пункт **локальный компьютер** , а затем нажмите кнопку **ОК**.
 
 Если не удается подключиться:
 
@@ -62,7 +62,7 @@ ms.locfileid: "91955809"
 
 Для управления удаленными узлами Hyper-V Включите удаленное управление как на локальном компьютере, так и на удаленном узле.
 
-В Windows Server откройте диспетчер сервера \> **Local Server** \> **Удаленное управление** локальным сервером, а затем щелкните **Разрешить удаленные подключения к этому компьютеру**.
+В Windows Server откройте диспетчер сервера \>  \> **Удаленное управление** локальным сервером, а затем щелкните **Разрешить удаленные подключения к этому компьютеру**.
 
 Или в любой из операционных систем откройте Windows PowerShell от имени администратора и выполните команду:
 
@@ -80,7 +80,7 @@ Enable-PSRemoting
 
 ### <a name="connect-to-a-windows-server-2016-or-windows-10-remote-host-as-a-different-user"></a>Подключение к удаленному узлу Windows Server 2016 или Windows 10 от имени другого пользователя
 
-Это позволяет подключиться к узлу Hyper-V, если вы не работаете на локальном компьютере как пользователь, являющийся членом группы администраторов Hyper-V или группы администраторов на узле Hyper-V. Для этого выполните следующие действия.
+Это позволяет подключиться к узлу Hyper-V, если вы не работаете на локальном компьютере как пользователь, являющийся членом группы администраторов Hyper-V или группы администраторов на узле Hyper-V. Выполните указанные ниже действия.
 
 1. В левой области щелкните правой кнопкой мыши **Диспетчер Hyper-V**.
 1. Нажмите кнопку **подключиться к серверу**.
@@ -92,7 +92,7 @@ Enable-PSRemoting
 
 ### <a name="connect-to-a-windows-server-2016-or-windows-10-remote-host-using-ip-address"></a>Подключение к удаленному узлу Windows Server 2016 или Windows 10 с помощью IP-адреса
 
-Для этого выполните следующие действия.
+Выполните указанные ниже действия.
 
 1. В левой области щелкните правой кнопкой мыши **Диспетчер Hyper-V**.
 1. Нажмите кнопку **подключиться к серверу**.
@@ -103,7 +103,7 @@ Enable-PSRemoting
 
 ### <a name="connect-to-a-windows-server-2016-or-windows-10-remote-host-outside-your-domain-or-with-no-domain"></a>Подключение к удаленному узлу Windows Server 2016 или Windows 10 за пределами домена или без домена
 
-Для этого выполните следующие действия.
+Выполните указанные ниже действия.
 
 1. На управляемом узле Hyper-V откройте сеанс Windows PowerShell от имени администратора.
 
@@ -119,7 +119,7 @@ Enable-PSRemoting
    Enable-WSManCredSSP -Role server
    ```
 
-    Дополнительные сведения см. в разделе [Enable-PSRemoting](/powershell/module/microsoft.powershell.core/enable-psremoting?view=powershell-7) и [Enable-WSManCredSSP](/powershell/module/microsoft.wsman.management/enable-wsmancredssp?view=powershell-7).
+    Дополнительные сведения см. в разделе [Enable-PSRemoting](/powershell/module/microsoft.powershell.core/enable-psremoting?view=powershell-7&preserve-view=true) и [Enable-WSManCredSSP](/powershell/module/microsoft.wsman.management/enable-wsmancredssp?view=powershell-7&preserve-view=true).
 
 Затем настройте компьютер, который будет использоваться для управления узлом Hyper-V.
 
@@ -144,7 +144,7 @@ Enable-PSRemoting
 > [!NOTE]
 > Это будет работать только для **удаленных** узлов windows Server 2016 или Windows 10.
 
-Сведения о командлете см. в разделе [Set-Item](/powershell/module/microsoft.powershell.management/set-item?view=powershell-7) и [Enable-WSManCredSSP](/powershell/module/microsoft.wsman.management/enable-wsmancredssp?view=powershell-7).
+Сведения о командлете см. в разделе [Set-Item](/powershell/module/microsoft.powershell.management/set-item?view=powershell-7&preserve-view=true) и [Enable-WSManCredSSP](/powershell/module/microsoft.wsman.management/enable-wsmancredssp?view=powershell-7&preserve-view=true).
 
 ## <a name="install-hyper-v-manager"></a>Установка диспетчера Hyper-V
 

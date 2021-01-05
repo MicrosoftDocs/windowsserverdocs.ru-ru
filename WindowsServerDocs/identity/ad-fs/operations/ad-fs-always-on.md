@@ -6,12 +6,12 @@ ms.author: billmath
 manager: daveba
 ms.date: 01/20/2020
 ms.topic: article
-ms.openlocfilehash: 3d1ad6745eb7051857bc27b4fc60400f40b01731
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: 44131a445fcad6f3ddc5a1123ede7d492ed68bc9
+ms.sourcegitcommit: 5f234fb15c1d0365b60e83a50bf953e317d6239c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97039422"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97879663"
 ---
 # <a name="setting-up-an-ad-fs-deployment-with-alwayson-availability-groups"></a>Настройка развертывания AD FS с помощью группы доступности AlwaysOn
 Географическая распределенная топология предоставляет следующие возможности.
@@ -95,7 +95,7 @@ AD FS можно настроить для высокодоступного ге
 
 ## <a name="configuring-ad-fs-to-use-an-alwayson-availability-group"></a>Настройка AD FS для использования группы доступности AlwaysOn
 
-Настройка фермы AD FS с группами доступности AlwaysOn требует внесения незначительных изменений в процедуру развертывания AD FS. Убедитесь, что на каждом экземпляре сервера работает одна и та же версия SQL. Полный список предварительных требований, ограничений и рекомендаций для группы доступности Always On можно узнать [здесь](/sql/database-engine/availability-groups/windows/prereqs-restrictions-recommendations-always-on-availability?view=sql-server-2017#PrerequisitesForDbs).
+Настройка фермы AD FS с группами доступности AlwaysOn требует внесения незначительных изменений в процедуру развертывания AD FS. Убедитесь, что на каждом экземпляре сервера работает одна и та же версия SQL. Полный список предварительных требований, ограничений и рекомендаций для группы доступности Always On можно узнать [здесь](/sql/database-engine/availability-groups/windows/prereqs-restrictions-recommendations-always-on-availability?view=sql-server-2017&preserve-view=true#PrerequisitesForDbs).
 
 1.  Прежде чем можно будет настроить группы доступности AlwaysOn, необходимо создать базы данных, для которых требуется создать резервную копию.  AD FS создает свои базы данных в процессе установки и первоначальной настройки первого узла службы федерации новой фермы SQL Server AD FS.  Укажите имя узла базы данных для существующей фермы с помощью SQL Server. В рамках конфигурации AD FS необходимо указать строку подключения SQL, поэтому необходимо настроить первую ферму AD FS для прямого подключения к экземпляру SQL (это временное). Конкретные рекомендации по настройке фермы AD FS, включая настройку узла фермы AD FS со строкой подключения SQL Server, см. в разделе [Настройка сервера федерации](../deployment/configure-a-federation-server.md).
 

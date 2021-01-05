@@ -1,17 +1,17 @@
 ---
 title: Включить все виртуальные сетевые адаптеры, настроенные для виртуальной машины
-description: Интернет-версия текста для этого правила анализатор соответствия рекомендациям.
+description: Узнайте, что делать, если один или несколько сетевых адаптеров могут быть отключены на виртуальной машине.
 ms.author: benarm
 author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: fcd350b7-4240-4359-aadd-93e7ac4d314e
 ms.date: 8/16/2016
-ms.openlocfilehash: 81e0bbb8fce32b8343a13dea953498efb627d496
-ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
+ms.openlocfilehash: 300aad537c5e111003db60b1ba947dbea447ada9
+ms.sourcegitcommit: 42581433c0bb62e291d412ee9e13869b42e69a4b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "90746289"
+ms.lasthandoff: 01/01/2021
+ms.locfileid: "97846368"
 ---
 # <a name="enable-all-virtual-network-adapters-configured-for-a-virtual-machine"></a>Включить все виртуальные сетевые адаптеры, настроенные для виртуальной машины
 
@@ -19,7 +19,7 @@ ms.locfileid: "90746289"
 
 Дополнительные сведения о рекомендациях и проверках см. в разделе [Анализатор соответствия рекомендациям](https://go.microsoft.com/fwlink/?LinkId=122786).
 
-|Свойство.|Подробнее|
+|Свойство|Сведения|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|

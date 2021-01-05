@@ -7,12 +7,12 @@ ms.topic: article
 author: heidilohr
 manager: lizross
 ms.date: 02/19/2020
-ms.openlocfilehash: 94deca783d770fb5322f9fc489d692f925cfa1a9
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.openlocfilehash: 0eaea9ced163f63c37f2ef932e568872ec84bdcc
+ms.sourcegitcommit: 5f234fb15c1d0365b60e83a50bf953e317d6239c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96866263"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97879763"
 ---
 # <a name="optimizing-windows-10-version-1909-for-a-virtual-desktop-infrastructure-vdi-role"></a>Оптимизация Windows 10 версии 1909 для роли инфраструктуры виртуальных рабочих столов (VDI)
 
@@ -663,7 +663,7 @@ add "HKCU\Software\Microsoft\InputPersonalization" /v RestrictImplicitTextCollec
 
 ### <a name="apply-windows-and-other-updates"></a>Установка обновлений Windows и других обновлений
 
-Устанавливайте обновления из Центра обновления Майкрософт или своих внутренних источников, включая сигнатуры Защитника Windows. Это подходящий момент, чтобы применить другие доступные обновления, в том числе для Microsoft Office, если он установлен, и другие обновления программного обеспечения. Если PowerShell останется в образе, вы можете скачать последнюю доступную справку для PowerShell, выполнив команду [Update-Help](/powershell/module/microsoft.powershell.core/update-help?view=powershell-7).
+Устанавливайте обновления из Центра обновления Майкрософт или своих внутренних источников, включая сигнатуры Защитника Windows. Это подходящий момент, чтобы применить другие доступные обновления, в том числе для Microsoft Office, если он установлен, и другие обновления программного обеспечения. Если PowerShell останется в образе, вы можете скачать последнюю доступную справку для PowerShell, выполнив команду [Update-Help](/powershell/module/microsoft.powershell.core/update-help?view=powershell-7&preserve-view=true).
 
 #### <a name="servicing-the-operating-system-and-apps"></a>Обслуживание операционной системы и приложений
 

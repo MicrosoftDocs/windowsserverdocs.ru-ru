@@ -6,12 +6,12 @@ ms.author: billmath
 manager: mtillman
 ms.date: 05/05/2020
 ms.topic: article
-ms.openlocfilehash: 2c1d05450869d558d1991da2f95b72bcaeca7462
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: 7df064f4afe5fa8536bd35003a397ab85ea1bf67
+ms.sourcegitcommit: 5f234fb15c1d0365b60e83a50bf953e317d6239c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97047822"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97879653"
 ---
 # <a name="build-plug-ins-with-ad-fs-2019-risk-assessment-model"></a>Создание подключаемых модулей с помощью модели оценки риска AD FS за 2019 г.
 
@@ -23,7 +23,7 @@ ms.locfileid: "97047822"
 
 Модель позволяет выполнять код подключаемого модуля на любом из трех этапов AD FS конвейера проверки подлинности, как показано ниже.
 
-![для базы данных модели](media/ad-fs-risk-assessment-model/risk1.png)
+![model](media/ad-fs-risk-assessment-model/risk1.png)
 
 1.    **Стадия получения запроса** — позволяет создавать подключаемые модули, разрешающие или блокирующие запрос, когда AD FS получает запрос на проверку подлинности, т. е. до ввода учетных данных пользователем. Вы можете использовать контекст запроса (например, клиентский IP-адрес, метод HTTP, DNS-сервер и т. д.), доступный на этом этапе, для выполнения оценки рисков. Например, можно создать подключаемый модуль для считывания IP-адреса из контекста запроса и блокировать запрос проверки подлинности, если IP-адрес находится в предварительно определенном списке рискованных адресов.
 
@@ -73,14 +73,14 @@ ms.locfileid: "97047822"
    а.    Щелкните правой кнопкой мыши **ссылку** в **обозревателе решений** и выберите команду **Добавить ссылку...**</br>
    ![model](media/ad-fs-risk-assessment-model/risk3.png)
 
-   b.    В окне **Диспетчер ссылок** выберите **Обзор**. В списке **выберите файлы для ссылки...** Выберите `Microsoft.IdentityServer.dll` из папки установки AD FS (в моем случае **к:\виндовс\адфс**) и нажмите кнопку **добавить**.
+   б.    В окне **Диспетчер ссылок** выберите **Обзор**. В списке **выберите файлы для ссылки...** Выберите `Microsoft.IdentityServer.dll` из папки установки AD FS (в моем случае **к:\виндовс\адфс**) и нажмите кнопку **добавить**.
 
    >[!NOTE]
    >В моем случае я создам подключаемый модуль на самом сервере AD FS. Если среда разработки находится на другом сервере, скопируйте `Microsoft.IdentityServer.dll` из папки установки AD FS на AD FS Server в окно разработки.</br>
 
-   ![для базы данных модели](media/ad-fs-risk-assessment-model/risk4.png)
+   ![model](media/ad-fs-risk-assessment-model/risk4.png)
 
-   c.    Нажмите кнопку **ОК** в окне " **Диспетчер ссылок** ", убедившись в том, что `Microsoft.IdentityServer.dll` флажок установлен.</br>
+   в.    Нажмите кнопку **ОК** в окне " **Диспетчер ссылок** ", убедившись в том, что `Microsoft.IdentityServer.dll` флажок установлен.</br>
    ![model](media/ad-fs-risk-assessment-model/risk5.png)
 
 6. Все классы и ссылки теперь используются для создания сборки.   Однако, поскольку выходные данные этого проекта являются библиотекой DLL, ее необходимо установить в **глобальный кэш сборок** или глобальном кэше сборок (GAC) сервера AD FS, а библиотека DLL должна быть подписана первой. Это можно сделать следующим образом.
@@ -88,10 +88,10 @@ ms.locfileid: "97047822"
    а.    Щелкните **правой кнопкой мыши** имя проекта среатдетектионмодуле. В меню выберите пункт **Свойства**.</br>
    ![model](media/ad-fs-risk-assessment-model/risk6.png)
 
-   b.    На странице **Свойства** щелкните **подпись** слева и установите флажок **подписать сборку**. В раскрывающемся меню **выберите файл ключа строгого имени**: выберите **<создать... >**</br>
+   б.    На странице **Свойства** щелкните **подпись** слева и установите флажок **подписать сборку**. В раскрывающемся меню **выберите файл ключа строгого имени**: выберите **<создать... >**</br>
    ![model](media/ad-fs-risk-assessment-model/risk7.png)
 
-   c.    В **диалоговом окне Создание ключа строгого имени** введите имя для ключа (можно выбрать любое имя), снимите флажок **защитить файл ключа паролем**. Затем нажмите кнопку **ОК**.</br>
+   в.    В **диалоговом окне Создание ключа строгого имени** введите имя для ключа (можно выбрать любое имя), снимите флажок **защитить файл ключа паролем**. Затем нажмите кнопку **ОК**.</br>
    ![model](media/ad-fs-risk-assessment-model/risk8.png)
 
    d.    Сохраните проект, как показано ниже.</br>
@@ -123,7 +123,7 @@ ms.locfileid: "97047822"
 
    а.    В Командная строка разработчика для Visual Studio и перейдите в каталог, содержащий **Gacutil.exe** (в моем случае каталог **C:\Program Files (x86) \Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.7.2 Tools**)
 
-   b.    Выполнение команды **gacutil** (в моем случае `Gacutil /IF C:\extensions\ThreatDetectionModule.dll` ) ![](media/ad-fs-risk-assessment-model/risk14.png)
+   б.    Выполнение команды **gacutil** (в моем случае `Gacutil /IF C:\extensions\ThreatDetectionModule.dll` ) ![](media/ad-fs-risk-assessment-model/risk14.png)
 
    >[!NOTE]
    >Если у вас есть ферма AD FS, необходимо выполнить описанные выше шаги на каждом сервере AD FS в ферме.
@@ -261,7 +261,7 @@ IList<Claim> additionalClams
 );
 }
 ```
-Интерфейс включает метод [евалуатепреаусентикатион](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.ipreauthenticationthreatdetectionmodule.evaluatepreauthentication) , который позволяет использовать данные, передаваемые в входных параметрах [RequestContext RequestContext](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.requestcontext), [SecurityContext SecurityContext](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.securitycontext), [протоколконтекст протоколконтекст](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.protocolcontext)и [IList <Claim> аддитионалкламс](/dotnet/api/system.collections.generic.ilist-1?view=netframework-4.7.2) , для написания логики оценки риска предварительной проверки подлинности.
+Интерфейс включает метод [евалуатепреаусентикатион](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.ipreauthenticationthreatdetectionmodule.evaluatepreauthentication) , который позволяет использовать данные, передаваемые в входных параметрах [RequestContext RequestContext](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.requestcontext), [SecurityContext SecurityContext](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.securitycontext), [протоколконтекст протоколконтекст](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.protocolcontext)и [IList <Claim> аддитионалкламс](/dotnet/api/system.collections.generic.ilist-1?view=netframework-4.7.2&preserve-view=true) , для написания логики оценки риска предварительной проверки подлинности.
 
 >[!NOTE]
 >Список свойств, переданных с каждым типом контекста, см. в определениях классов [RequestContext](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.requestcontext), [SecurityContext](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.securitycontext)и [протоколконтекст](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.protocolcontext) .
@@ -288,7 +288,7 @@ IList<Claim> additionalClams
 }
 ```
 
-Интерфейс включает метод [евалуатепостаусентикатион](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.ipostauthenticationthreatdetectionmodule.evaluatepostauthentication) , который позволяет использовать данные, передаваемые в входных параметрах [RequestContext RequestContext](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.requestcontext), [SecurityContext SecurityContext](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.securitycontext), [протоколконтекст протоколконтекст](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.protocolcontext)и [IList <Claim> аддитионалкламс](/dotnet/api/system.collections.generic.ilist-1?view=netframework-4.7.2) , для написания логики оценки риска после проверки подлинности.
+Интерфейс включает метод [евалуатепостаусентикатион](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.ipostauthenticationthreatdetectionmodule.evaluatepostauthentication) , который позволяет использовать данные, передаваемые в входных параметрах [RequestContext RequestContext](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.requestcontext), [SecurityContext SecurityContext](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.securitycontext), [протоколконтекст протоколконтекст](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.protocolcontext)и [IList <Claim> аддитионалкламс](/dotnet/api/system.collections.generic.ilist-1?view=netframework-4.7.2&preserve-view=true) , для написания логики оценки риска после проверки подлинности.
 
 >[!NOTE]
 > Полный список свойств, передаваемых с каждым типом контекста, см. в разделе определения классов [RequestContext](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.requestcontext), [SecurityContext](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.securitycontext)и [протоколконтекст](/dotnet/api/microsoft.identityserver.public.threatdetectionframework.protocolcontext) .

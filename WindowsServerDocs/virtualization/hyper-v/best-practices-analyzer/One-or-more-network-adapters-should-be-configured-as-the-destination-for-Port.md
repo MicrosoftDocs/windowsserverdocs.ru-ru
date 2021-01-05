@@ -1,17 +1,17 @@
 ---
 title: Один или несколько сетевых адаптеров должны быть настроены в качестве места назначения для зеркального отображения портов.
-description: Интернет-версия текста для этого правила анализатор соответствия рекомендациям.
+description: Узнайте, что делать, если на одной или нескольких виртуальных машинах настроен сетевой адаптер в качестве источника для зеркального отображения портов, но в виртуальном коммутаторе нет соответствующего места назначения.
 ms.author: benarm
 author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: b83c166d-f010-47c4-a4bb-02167f2e3361
 ms.date: 8/16/2016
-ms.openlocfilehash: cf1713bb6897f68c7bee839b4a3e4838aaa8a2fb
-ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
+ms.openlocfilehash: f69bd6da7d2451deaee97c3f3d23b5c861223388
+ms.sourcegitcommit: 42581433c0bb62e291d412ee9e13869b42e69a4b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "90745609"
+ms.lasthandoff: 01/01/2021
+ms.locfileid: "97846359"
 ---
 # <a name="one-or-more-network-adapters-should-be-configured-as-the-destination-for-port-mirroring"></a>Один или несколько сетевых адаптеров должны быть настроены в качестве места назначения для зеркального отображения портов.
 
@@ -19,7 +19,7 @@ ms.locfileid: "90745609"
 
 Дополнительные сведения о рекомендациях и сканировании см. в разделе [Запуск сканирования анализатором соответствия рекомендациям и управление результатами сканирования](https://go.microsoft.com/fwlink/p/?LinkID=223177).
 
-|Свойство.|Подробнее|
+|Свойство|Сведения|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|

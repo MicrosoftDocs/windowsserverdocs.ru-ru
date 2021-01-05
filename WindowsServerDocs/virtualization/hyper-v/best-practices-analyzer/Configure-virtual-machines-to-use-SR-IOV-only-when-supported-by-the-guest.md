@@ -1,17 +1,17 @@
 ---
 title: Настройка виртуальных машин для использования SR-IOV только при поддержке операционной системой на виртуальной машине
-description: Интернет-версия текста для этого правила анализатор соответствия рекомендациям.
+description: Узнайте, что делать, если одна или несколько виртуальных машин настроены для использования виртуализации ввода-вывода с одним корневым каталогом (SR-IOV), но операционная система на виртуальной машине не поддерживает SR-IOV.
 ms.author: benarm
 author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: 33cf5b68-e43e-47ef-adbc-6b266c1d4dce
 ms.date: 8/16/2016
-ms.openlocfilehash: 3a167b72f9c5c9a011980c07afe5a9a262aaa1be
-ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
+ms.openlocfilehash: 2f919f3ed2708b9d388a5215d73e629dc93f9922
+ms.sourcegitcommit: 42581433c0bb62e291d412ee9e13869b42e69a4b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "90745689"
+ms.lasthandoff: 01/01/2021
+ms.locfileid: "97846396"
 ---
 # <a name="configure-virtual-machines-to-use-sr-iov-only-when-supported-by-the-guest-operating-system"></a>Настройка виртуальных машин для использования SR-IOV только при поддержке операционной системой на виртуальной машине
 
@@ -19,7 +19,7 @@ ms.locfileid: "90745689"
 
 Дополнительные сведения о рекомендациях и сканировании см. в разделе [Запуск сканирования анализатором соответствия рекомендациям и управление результатами сканирования](https://go.microsoft.com/fwlink/p/?LinkID=223177).
 
-|Свойство.|Подробнее|
+|Свойство|Сведения|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|

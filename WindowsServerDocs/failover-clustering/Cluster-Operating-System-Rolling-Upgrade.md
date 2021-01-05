@@ -7,12 +7,12 @@ author: jasongerend
 ms.author: jgerend
 manager: lizross
 ms.date: 03/27/2018
-ms.openlocfilehash: e1e4cd3cc7258b1670de58a7df5e5930274ae3b6
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: 7929fc90f42c2033952e527a3edf180dedef24c2
+ms.sourcegitcommit: 5f234fb15c1d0365b60e83a50bf953e317d6239c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97041702"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97879933"
 ---
 # <a name="cluster-operating-system-rolling-upgrade"></a>Последовательное обновление операционной системы кластера
 
@@ -43,7 +43,7 @@ ms.locfileid: "97041702"
 Следующий сценарий не поддерживается в Windows Server 2016:
 -  Последовательное обновление ОС кластера для гостевых кластеров с помощью виртуального жесткого диска (VHDX-файл) в качестве общего хранилища
 
-Последовательное обновление ОС кластера полностью поддерживается System Center Virtual Machine Manager (SCVMM) 2016. Если вы используете SCVMM 2016, см. статью [выполнение последовательного обновления кластера узлов Hyper-V до Windows Server 2016 в VMM](/system-center/vmm/hyper-v-rolling-upgrade?view=sc-vmm-1807) для получения инструкций по обновлению кластеров и автоматизации действий, описанных в этом документе.
+Последовательное обновление ОС кластера полностью поддерживается System Center Virtual Machine Manager (SCVMM) 2016. Если вы используете SCVMM 2016, см. статью [выполнение последовательного обновления кластера узлов Hyper-V до Windows Server 2016 в VMM](/system-center/vmm/hyper-v-rolling-upgrade?view=sc-vmm-1807&preserve-view=true) для получения инструкций по обновлению кластеров и автоматизации действий, описанных в этом документе.
 
 ## <a name="requirements"></a>Требования
 Перед началом чередующегося процесса обновления ОС кластера выполните следующие требования.

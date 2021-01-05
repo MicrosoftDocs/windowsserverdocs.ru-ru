@@ -6,12 +6,12 @@ ms.topic: get-started-article
 ms.assetid: ad848a5b-0811-4c67-afe5-6147489c0384
 ms.author: anpaul
 author: AnirbanPaul
-ms.openlocfilehash: c7eb9b82938d6506493ff7cf0856a8c25d3af0ed
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: d47a1e7ca434098ffec3b3d3fd602c6ca7934cf7
+ms.sourcegitcommit: 5f234fb15c1d0365b60e83a50bf953e317d6239c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87996506"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97879773"
 ---
 # <a name="internal-dns-service-idns-for-sdn"></a>Внутренняя служба DNS (iDNS) для SDN
 
@@ -158,7 +158,7 @@ Method: PUT
 Restart-Service nchostagent -Force
 ```
 
-Дополнительные сведения см. в разделе [Restart-Service](/powershell/module/microsoft.powershell.management/restart-service?view=powershell-7).
+Дополнительные сведения см. в разделе [Restart-Service](/powershell/module/microsoft.powershell.management/restart-service?view=powershell-7&preserve-view=true).
 
 ### <a name="enable-firewall-rules-for-the-dns-proxy-service"></a>Включение правил брандмауэра для службы DNS-прокси
 Чтобы создать правило брандмауэра, разрешающее исключения прокси-сервера для взаимодействия с виртуальной машиной и сервером iDNS, можно использовать следующую команду Windows PowerShell.
