@@ -1,17 +1,17 @@
 ---
 title: Настройте по крайней мере необходимый объем памяти для виртуальной машины под Windows Server 2012 R2 и включить ее для динамическая память
-description: Интернет-версия текста для этого правила анализатор соответствия рекомендациям.
+description: Узнайте, что делать, если одна или несколько виртуальных машин настроены для использования динамическая память с меньшим объемом памяти, требуемым для Windows Server 2012 R2.
 ms.author: benarm
 author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: a0e69661-6a1d-4b31-b727-f2429f3977d0
 ms.date: 8/16/2016
-ms.openlocfilehash: 8ad77043fa0259fcfc05661b7482cd69a2c96f5a
-ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
+ms.openlocfilehash: b6b158c5fd9d18ed25786d9dc57309918c7c59c1
+ms.sourcegitcommit: 48d45b2adf44afb0207214be9c57fe589360d177
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "90746919"
+ms.lasthandoff: 12/31/2020
+ms.locfileid: "97834429"
 ---
 # <a name="configure-at-least-the-required-amount-of-memory-for-a-virtual-machine-running-windows-server-2012-r2-and-enabled-for-dynamic-memory"></a>Настройте по крайней мере необходимый объем памяти для виртуальной машины под Windows Server 2012 R2 и включить ее для динамическая память
 
@@ -19,7 +19,7 @@ ms.locfileid: "90746919"
 
 Дополнительные сведения о рекомендациях и сканировании см. в разделе [Запуск сканирования анализатором соответствия рекомендациям и управление результатами сканирования](https://go.microsoft.com/fwlink/p/?LinkID=223177).
 
-|Свойство.|Подробнее|
+|Свойство|Сведения|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|
@@ -49,9 +49,9 @@ ms.locfileid: "90746919"
 
 4.  Замените **объем ОЗУ** не менее 512 МБ.
 
-5.  В разделе **Динамическая память**измените **Минимальный объем ОЗУ** — не менее 256 МБ, а **максимальный объем ОЗУ** — 512 МБ.
+5.  В разделе **Динамическая память** измените **Минимальный объем ОЗУ** — не менее 256 МБ, а **максимальный объем ОЗУ** — 512 МБ.
 
-6.  Нажмите кнопку **OK**.
+6.  Нажмите кнопку **ОК**.
 
 ### <a name="increase-memory-using-windows-powershell"></a>Увеличение памяти с помощью Windows PowerShell
 

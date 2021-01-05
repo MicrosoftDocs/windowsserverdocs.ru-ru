@@ -1,16 +1,16 @@
 ---
 title: Избегайте включения виртуальных машин, настроенных с помощью виртуальных Fibre Channel адаптеров, чтобы разрешить динамическую миграцию при наличии меньшего числа путей для Fibre Channel логических устройств (LUN) в назначении, чем в источнике.
-description: Интернет-версия текста для этого правила анализатор соответствия рекомендациям.
+description: Узнайте, что делать, если для одной или нескольких виртуальных машин задано свойство Алловредуцедфкредунанци в поставщике WMI для виртуализации.
 ms.author: benarm
 author: BenjaminArmstrong
 ms.topic: article
 ms.date: 8/16/2016
-ms.openlocfilehash: 71617bbf6718e77f004b57e38035f5277c45c3bc
-ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
+ms.openlocfilehash: 9ba20bb14c908566419ad7a2e3bb9fda10fe9367
+ms.sourcegitcommit: 48d45b2adf44afb0207214be9c57fe589360d177
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "90747069"
+ms.lasthandoff: 12/31/2020
+ms.locfileid: "97834659"
 ---
 # <a name="avoid-enabling-virtual-machines-configured-with-virtual-fibre-channel-adapters-to-allow-live-migrations-when-there-are-fewer-paths-to-fibre-channel-logical-units-luns-on-the-destination-than-on-the-source"></a>Избегайте включения виртуальных машин, настроенных с помощью виртуальных Fibre Channel адаптеров, чтобы разрешить динамическую миграцию при наличии меньшего числа путей для Fibre Channel логических устройств (LUN) в назначении, чем в источнике.
 
@@ -18,7 +18,7 @@ ms.locfileid: "90747069"
 
 Дополнительные сведения о рекомендациях и сканировании см. в разделе [Запуск сканирования анализатором соответствия рекомендациям и управление результатами сканирования](https://go.microsoft.com/fwlink/p/?LinkID=223177).
 
-|Свойство.|Подробнее|
+|Свойство|Сведения|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|

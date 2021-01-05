@@ -1,17 +1,17 @@
 ---
 title: Обеспечение доступности достаточного места на физическом диске, если виртуальные машины используют динамически расширяемые виртуальные жесткие диски
-description: Интернет-версия текста для этого правила анализатор соответствия рекомендациям.
+description: Узнайте, что делать, когда одна или несколько виртуальных машин используют динамически расширяемые виртуальные жесткие диски.
 ms.author: benarm
 author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: 9e3e3e64-4b3a-4b9d-acf1-e4df61a04f1e
 ms.date: 8/16/2016
-ms.openlocfilehash: 1e67b51aa3c41c9642a8972d25e0501b26e91cd5
-ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
+ms.openlocfilehash: cb4d3bbb21850f234fc9ff552612863970f89efc
+ms.sourcegitcommit: 42581433c0bb62e291d412ee9e13869b42e69a4b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "90746869"
+ms.lasthandoff: 01/01/2021
+ms.locfileid: "97846236"
 ---
 # <a name="ensure-sufficient-physical-disk-space-is-available-when-virtual-machines-use-dynamically-expanding-virtual-hard-disks"></a>Обеспечение доступности достаточного места на физическом диске, если виртуальные машины используют динамически расширяемые виртуальные жесткие диски
 
@@ -19,7 +19,7 @@ ms.locfileid: "90746869"
 
 Дополнительные сведения о рекомендациях и сканировании см. в разделе [Запуск сканирования анализатором соответствия рекомендациям и управление результатами сканирования](https://go.microsoft.com/fwlink/p/?LinkID=223177).
 
-|Свойство.|Подробнее|
+|Свойство|Сведения|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|

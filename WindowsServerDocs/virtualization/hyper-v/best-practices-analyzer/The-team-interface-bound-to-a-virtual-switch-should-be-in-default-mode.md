@@ -1,17 +1,17 @@
 ---
 title: Интерфейс команды, привязанный к виртуальному коммутатору, должен быть в режиме по умолчанию
-description: Интернет-версия текста для этого правила анализатор соответствия рекомендациям.
+description: Узнайте, что делать, если некоторые виртуальные коммутаторы привязаны к командному интерфейсу, но интерфейс группы не передает трафик на все виртуальные ЛС виртуальным коммутаторам.
 ms.author: benarm
 author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: 8c118e1e-865f-4cff-acdc-7c35e45d5da9
 ms.date: 8/16/2016
-ms.openlocfilehash: 1e3d701ccc0ac7a6a3765df08f6b039fbb4ca3eb
-ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
+ms.openlocfilehash: e12ed7286a3aba4d6bb4f4bd3c72481326f44e0f
+ms.sourcegitcommit: 42581433c0bb62e291d412ee9e13869b42e69a4b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "90746139"
+ms.lasthandoff: 01/01/2021
+ms.locfileid: "97845902"
 ---
 # <a name="the-team-interface-bound-to-a-virtual-switch-should-be-in-default-mode"></a>Интерфейс команды, привязанный к виртуальному коммутатору, должен быть в режиме по умолчанию
 
@@ -19,7 +19,7 @@ ms.locfileid: "90746139"
 
 Дополнительные сведения о рекомендациях и сканировании см. в разделе [Запуск сканирования анализатором соответствия рекомендациям и управление результатами сканирования](https://go.microsoft.com/fwlink/p/?LinkID=223177).
 
-|Свойство.|Подробнее|
+|Свойство|Сведения|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|
@@ -35,7 +35,7 @@ ms.locfileid: "90746139"
 *Следующие виртуальные коммутаторы не могут иметь доступ ко всем виртуальным ЛС: \n{0}*
 
 ## <a name="resolution"></a>**Решение**
-*Используйте диспетчер сервера или командлет Windows PowerShell Set-Нетлбфотеамник, чтобы сбросить интерфейс группы в режим по умолчанию.*
+*Используйте диспетчер сервера или командлет Windows PowerShell Set-NetLbfoTeamNic, чтобы перевести интерфейс команды в режим по умолчанию.*
 
 
 

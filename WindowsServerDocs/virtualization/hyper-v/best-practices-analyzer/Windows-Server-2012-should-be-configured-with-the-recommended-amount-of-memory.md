@@ -1,17 +1,17 @@
 ---
 title: Для Windows Server 2012 следует настроить рекомендуемый объем памяти.
-description: Содержит инструкции по устранению проблемы, о которой сообщило это правило анализатор соответствия рекомендациям.
+description: Узнайте, что делать, если для виртуальной машины под Windows Server 2012 настроено меньше рекомендуемого объема ОЗУ (2 ГБ).
 ms.author: benarm
 author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: 12d0b473-cf6a-4746-b03d-2ceeb701c5d0
 ms.date: 8/16/2016
-ms.openlocfilehash: a0f2a46386826ea4d537967bc825f97081b65b18
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.openlocfilehash: 42a290188469cbca8552c22c2c70c531e29c409e
+ms.sourcegitcommit: 48d45b2adf44afb0207214be9c57fe589360d177
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96865833"
+ms.lasthandoff: 12/31/2020
+ms.locfileid: "97833639"
 ---
 # <a name="windows-server-2012-should-be-configured-with-the-recommended-amount-of-memory"></a>Для Windows Server 2012 следует настроить рекомендуемый объем памяти.
 

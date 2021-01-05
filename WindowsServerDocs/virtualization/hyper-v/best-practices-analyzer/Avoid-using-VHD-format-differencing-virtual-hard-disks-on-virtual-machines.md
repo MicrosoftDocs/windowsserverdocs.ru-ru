@@ -1,17 +1,17 @@
 ---
 title: Избегайте использования разностных виртуальных жестких дисков в формате VHD на виртуальных машинах, на которых выполняются рабочие нагрузки сервера, в рабочей среде.
-description: Интернет-версия текста для этого правила анализатор соответствия рекомендациям.
+description: Узнайте, что делать, когда одна или несколько виртуальных машин используют разностные виртуальные жесткие диски в формате VHD.
 ms.author: benarm
 author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: 272de33d-2708-4679-8564-ee28848a2839
 ms.date: 8/16/2016
-ms.openlocfilehash: 688dd348a7b00a32a50778cf0fb6350b37232f58
-ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
+ms.openlocfilehash: 4a5d1a2b1c94845b26fd90df4e62932f28c99d0d
+ms.sourcegitcommit: 48d45b2adf44afb0207214be9c57fe589360d177
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "90747019"
+ms.lasthandoff: 12/31/2020
+ms.locfileid: "97834609"
 ---
 # <a name="avoid-using-vhd-format-differencing-virtual-hard-disks-on-virtual-machines-that-run-server-workloads-in-a-production-environment"></a>Избегайте использования разностных виртуальных жестких дисков в формате VHD на виртуальных машинах, на которых выполняются рабочие нагрузки сервера, в рабочей среде.
 
@@ -19,7 +19,7 @@ ms.locfileid: "90747019"
 
 Дополнительные сведения о рекомендациях и сканировании см. в разделе [Запуск сканирования анализатором соответствия рекомендациям и управление результатами сканирования](https://go.microsoft.com/fwlink/p/?LinkID=223177).
 
-|Свойство.|Подробнее|
+|Свойство|Сведения|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|

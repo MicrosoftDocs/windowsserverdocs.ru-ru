@@ -1,17 +1,17 @@
 ---
 title: Для Windows 8 следует настроить рекомендуемый объем памяти.
-description: Содержит инструкции по устранению проблемы, о которой сообщило это правило анализатор соответствия рекомендациям.
+description: Узнайте, что делать, если для виртуальной машины под Windows 8 настроено меньше рекомендуемого объема ОЗУ (1 ГБ).
 ms.author: benarm
 author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: 0c739e7c-4403-4eff-9e69-213ba1ab7336
 ms.date: 10/03/2016
-ms.openlocfilehash: c8c38f5603926ae4042a30c34a4ccd9ebc43fc7c
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.openlocfilehash: 67c2897d51dc5fe7c669ccd911247d77dcfa3c56
+ms.sourcegitcommit: 48d45b2adf44afb0207214be9c57fe589360d177
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96866023"
+ms.lasthandoff: 12/31/2020
+ms.locfileid: "97834019"
 ---
 # <a name="windows-8-should-be-configured-with-the-recommended-amount-of-memory"></a>Для Windows 8 следует настроить рекомендуемый объем памяти.
 

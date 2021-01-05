@@ -1,17 +1,17 @@
 ---
 title: Настройте гостевые операционные системы для резервного копирования на основе VSS, чтобы включить моментальные снимки с единообразным использованием приложений для реплики Hyper-V.
-description: Интернет-версия текста для этого правила анализатор соответствия рекомендациям.
+description: Узнайте, что делать, если для моментальных снимков, совместимых с приложениями, требуется, чтобы службы теневого копирования томов (VSS) были включены и настроены в гостевых операционных системах виртуальных машин, участвующих в репликации.
 ms.author: benarm
 author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: 7638e996-d42d-47b8-a670-1e09e7183850
 ms.date: 8/16/2016
-ms.openlocfilehash: b6a7eec504282e63e0cb24efbd2cdc5f66849005
-ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
+ms.openlocfilehash: ca6b2656554f0f22a956159c770f24ad824462c6
+ms.sourcegitcommit: 42581433c0bb62e291d412ee9e13869b42e69a4b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "90746889"
+ms.lasthandoff: 01/01/2021
+ms.locfileid: "97846081"
 ---
 # <a name="configure-guest-operating-systems-for-vss-based-backups-to-enable-application-consistent-snapshots-for-hyper-v-replica"></a>Настройте гостевые операционные системы для резервного копирования на основе VSS, чтобы включить моментальные снимки с единообразным использованием приложений для реплики Hyper-V.
 
@@ -19,7 +19,7 @@ ms.locfileid: "90746889"
 
 Дополнительные сведения о рекомендациях и сканировании см. в разделе [Запуск сканирования анализатором соответствия рекомендациям и управление результатами сканирования](https://go.microsoft.com/fwlink/p/?LinkID=223177).
 
-|Свойство.|Подробнее|
+|Свойство|Сведения|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|

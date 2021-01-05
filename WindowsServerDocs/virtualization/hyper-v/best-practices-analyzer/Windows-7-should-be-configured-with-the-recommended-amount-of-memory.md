@@ -1,17 +1,17 @@
 ---
 title: В Windows 7 следует настроить рекомендуемый объем памяти.
-description: Содержит инструкции по устранению проблемы, о которой сообщило это правило анализатор соответствия рекомендациям.
+description: Узнайте, что делать, если для виртуальной машины под Windows 7 настроено меньше рекомендуемого объема ОЗУ (1 ГБ).
 ms.author: benarm
 author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: d77d648c-6e26-43fa-be0a-6eb4b28f9cb4
 ms.date: 8/16/2016
-ms.openlocfilehash: 4aa94d0b7fd06702e0aa7e53eb945e9736950476
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.openlocfilehash: 96ce80f1827f0ab78b3230d507c9e60ec2198acd
+ms.sourcegitcommit: 48d45b2adf44afb0207214be9c57fe589360d177
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96866043"
+ms.lasthandoff: 12/31/2020
+ms.locfileid: "97834269"
 ---
 # <a name="windows-7-should-be-configured-with-the-recommended-amount-of-memory"></a>В Windows 7 следует настроить рекомендуемый объем памяти.
 
@@ -38,7 +38,7 @@ ms.locfileid: "96866043"
 ```
 <list of virtual machine names>
 ```
-## <a name="resolution"></a>Разрешение
+## <a name="resolution"></a>Решение
 
 *Используйте диспетчер Hyper-V, чтобы увеличить объем памяти, выделенной для этой виртуальной машины, не менее 1 ГБ.*
 

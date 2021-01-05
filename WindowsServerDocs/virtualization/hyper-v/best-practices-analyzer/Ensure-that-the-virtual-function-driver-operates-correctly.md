@@ -1,17 +1,17 @@
 ---
 title: Убедитесь, что драйвер виртуальной функции работает правильно, если виртуальная машина настроена для использования SR-IOV
-description: Интернет-версия текста для этого правила анализатор соответствия рекомендациям.
+description: Узнайте, что делать, если драйвер виртуальной функции работает неправильно в гостевой операционной системе одной или нескольких виртуальных машин.
 ms.author: benarm
 author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: d21e4b93-29bf-423a-a635-71c6d48dc49e
 ms.date: 8/16/2016
-ms.openlocfilehash: 3be2f616ab8981e887688404f2907524f5f53e49
-ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
+ms.openlocfilehash: a009060dc67ba29c12e986167b2ed746865311d5
+ms.sourcegitcommit: 42581433c0bb62e291d412ee9e13869b42e69a4b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "90746849"
+ms.lasthandoff: 01/01/2021
+ms.locfileid: "97845911"
 ---
 # <a name="ensure-that-the-virtual-function-driver-operates-correctly-when-a-virtual-machine-is-configured-to-use-sr-iov"></a>Убедитесь, что драйвер виртуальной функции работает правильно, если виртуальная машина настроена для использования SR-IOV
 
@@ -19,7 +19,7 @@ ms.locfileid: "90746849"
 
 Дополнительные сведения о рекомендациях и сканировании см. в разделе [Запуск сканирования анализатором соответствия рекомендациям и управление результатами сканирования](https://go.microsoft.com/fwlink/p/?LinkID=223177).
 
-|Свойство.|Подробнее|
+|Свойство|Сведения|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|

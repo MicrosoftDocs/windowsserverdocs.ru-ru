@@ -1,17 +1,17 @@
 ---
 title: Избегайте установки RemoteFX на компьютере, который настроен в качестве контроллера домена Active Directory
-description: Интернет-версия текста для этого правила анализатор соответствия рекомендациям.
+description: Узнайте, что делать при установке RemoteFX на контроллере домена.
 ms.author: benarm
 author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: da58694e-91f6-45d8-a599-18966db165f4
 ms.date: 8/16/2016
-ms.openlocfilehash: 1f639998c568035d0c992403cd0b1056ea4607b5
-ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
+ms.openlocfilehash: d22f21af2fcc54c44d142ef790b9da4ae66483c9
+ms.sourcegitcommit: 48d45b2adf44afb0207214be9c57fe589360d177
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "90747059"
+ms.lasthandoff: 12/31/2020
+ms.locfileid: "97834669"
 ---
 # <a name="avoid-installing-remotefx-on-a-computer-that-is-configured-as-an-active-directory-domain-controller"></a>Избегайте установки RemoteFX на компьютере, который настроен в качестве контроллера домена Active Directory
 
@@ -19,7 +19,7 @@ ms.locfileid: "90747059"
 
 Дополнительные сведения о рекомендациях и сканировании см. в разделе [Запуск сканирования анализатором соответствия рекомендациям и управление результатами сканирования](https://go.microsoft.com/fwlink/p/?LinkID=223177).
 
-|Свойство.|Подробнее|
+|Свойство|Сведения|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|

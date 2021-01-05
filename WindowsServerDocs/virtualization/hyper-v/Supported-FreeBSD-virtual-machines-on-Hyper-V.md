@@ -1,17 +1,17 @@
 ---
 title: Поддерживаемые виртуальные машины FreeBSD в Hyper-V
-description: Список служб и компонентов интеграции Linux, входящих в каждую версию
+description: Список служб и компонентов интеграции FreeBSD/Linux, входящих в каждую версию
 ms.topic: article
 ms.assetid: 930e758f-bd50-46b4-a3a4-9857110f17b4
 ms.author: benarm
 author: BenjaminArmstrong
 ms.date: 04/07/2020
-ms.openlocfilehash: bf4b1aeb701741a7f58f3d186ffe7861cdd1e8e0
-ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
+ms.openlocfilehash: f79c2c09f5fdce570ad6e61037756dab0d4056a1
+ms.sourcegitcommit: 48d45b2adf44afb0207214be9c57fe589360d177
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "90746409"
+ms.lasthandoff: 12/31/2020
+ms.locfileid: "97834869"
 ---
 # <a name="supported-freebsd-virtual-machines-on-hyper-v"></a>Поддерживаемые виртуальные машины FreeBSD в Hyper-V
 
@@ -27,12 +27,12 @@ ms.locfileid: "90746409"
 
 * (*пусто*) — функция недоступна
 
-|**Компонент**|**Версия операционной системы Windows Server**|**12-12,1**|**11.1 — 11.3**|**11,0**|**10,3**|**10.2**|**10,0-10,1**|**9,1-9,3, 8,4**|
+|**Возможность**|**Версия операционной системы Windows Server**|**12-12,1**|**11.1 — 11.3**|**11,0**|**10,3**|**10.2**|**10,0-10,1**|**9,1-9,3, 8,4**|
 |-|-|-|-|-|-|-|-|-|
 |**Доступность**||Встроено|Встроено|Встроено|Встроено|Встроено|Встроено|[Порты](https://svnweb.freebsd.org/ports/branches/2015Q1/emulators/hyperv-is/) |
-|**[Основные сведения](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#core)**|2019, 2016, 2012 R2|&#10004;|&#10004;|&#10004;|&#10004;|&#10004;|&#10004;|&#10004;|
+|**[Базовая](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#core)**|2019, 2016, 2012 R2|&#10004;|&#10004;|&#10004;|&#10004;|&#10004;|&#10004;|&#10004;|
 |Точное время Windows Server 2016|2019, 2016|&#10004;|&#10004;||||||
-|**[Сети](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#networking)**||||||||
+|**[Сеть](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#networking)**||||||||
 |Кадры крупного размера|2019, 2016, 2012 R2|&#10004; Примечание 3|&#10004; Примечание 3|&#10004; Примечание 3|&#10004; Примечание 3|&#10004; Примечание 3|&#10004; Примечание 3|&#10004; Примечание 3|
 |Добавление тегов и магистрали виртуальной ЛС|2019, 2016, 2012 R2|&#10004;|&#10004;|&#10004;|&#10004;|&#10004;|&#10004;|&#10004;|
 |Динамическая миграция|2019, 2016, 2012 R2|&#10004;|&#10004;|&#10004;|&#10004;|&#10004;|&#10004;|&#10004;|
@@ -50,10 +50,10 @@ ms.locfileid: "90746409"
 |**[Свободной](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#memory)**|||||||||
 |Поддержка ядра PAE|2019, 2016, 2012 R2||||||||
 |Настройка зазора MMIO|2019, 2016, 2012 R2|&#10004;|&#10004;|&#10004;|&#10004;|&#10004;|&#10004;|&#10004;|
-|Динамическая память — "горячее" Добавление|2019, 2016, 2012 R2||||||||
+|Динамическая память Hot-Add|2019, 2016, 2012 R2||||||||
 |Всплывающие подсказки динамическая память|2019, 2016, 2012 R2||||||||
 |Изменение размера памяти среды выполнения|2019, 2016||||||||
-|**[Роли](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#video)**|||||||||
+|**[Видеоролик](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#video)**|||||||||
 |Устройство, относящееся к Hyper-V|2019, 2016, 2012 R2||||||||
 |**[Прочее](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#miscellaneous)**|||||||||
 |Пара "ключ — значение"|2019, 2016, 2012 R2|&#10004;|&#10004;|&#10004;|&#10004;|&#10004;|&#10004; Примечание 5|&#10004;|
@@ -90,7 +90,7 @@ ms.locfileid: "90746409"
 
 **Дополнительные примечания**. Матрица возможностей 10 стабильных и 11 стабильных компонентов аналогична выпуску FreeBSD 11,1. Кроме того, FreeBSD 10,2 и предыдущие версии (10,1, 10,0, 9. x, 8. x) в конце жизни. Ознакомьтесь со списком поддерживаемых выпусков и новейшими рекомендациями [по безопасности](https://security.freebsd.org/) .
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также:
 
 * [Описания функций для виртуальных машин Linux и FreeBSD в Hyper-V](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md)
 * [Рекомендации по запуску FreeBSD в Hyper-V](Best-practices-for-running-FreeBSD-on-Hyper-V.md)

@@ -1,17 +1,17 @@
 ---
 title: Следует включить VMQ на физических сетевых адаптерах с поддержкой VMQ, привязанных к внешнему виртуальному коммутатору.
-description: Интернет-версия текста для этого правила анализатор соответствия рекомендациям.
+description: Узнайте, что делать, если следующие сетевые адаптеры поддерживают очередь виртуальных машин (VMQ), но эта возможность отключена.
 ms.author: benarm
 author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: 93d1b155-bf44-46b0-bb69-d34d5b30e574
 ms.date: 8/16/2016
-ms.openlocfilehash: 169f2ea06bf35c7bbc9bcaec354ca66e118c75d2
-ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
+ms.openlocfilehash: 1ab79c106fd17d459a1b6b6adcedba620ae5a89c
+ms.sourcegitcommit: 42581433c0bb62e291d412ee9e13869b42e69a4b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "90746769"
+ms.lasthandoff: 01/01/2021
+ms.locfileid: "97846212"
 ---
 # <a name="vmq-should-be-enabled-on-vmq-capable-physical-network-adapters-bound-to-an-external-virtual-switch"></a>Следует включить VMQ на физических сетевых адаптерах с поддержкой VMQ, привязанных к внешнему виртуальному коммутатору.
 
@@ -19,7 +19,7 @@ ms.locfileid: "90746769"
 
 Дополнительные сведения о рекомендациях и сканировании см. в разделе [Запуск сканирования анализатором соответствия рекомендациям и управление результатами сканирования](https://go.microsoft.com/fwlink/p/?LinkID=223177).
 
-|Свойство.|Подробнее|
+|Свойство|Сведения|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|
@@ -37,7 +37,7 @@ ms.locfileid: "90746769"
 \<list of network adapters>
 
 ## <a name="resolution"></a>**Решение**
-*Включите VMQ с помощью командлета Windows PowerShell Enable-Нетадаптервмк или с помощью пользовательского интерфейса дополнительных свойств для сетевого адаптера.*
+*Включите VMQ с помощью Enable-NetAdapterVmq командлета Windows PowerShell или с помощью пользовательского интерфейса дополнительных свойств для сетевого адаптера.*
 
 
 

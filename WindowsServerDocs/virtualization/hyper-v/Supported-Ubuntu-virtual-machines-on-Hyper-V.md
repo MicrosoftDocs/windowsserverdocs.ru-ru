@@ -1,17 +1,17 @@
 ---
 title: Поддерживаемые виртуальные машины Ubuntu в Hyper-V
-description: Список служб и компонентов интеграции Linux, входящих в каждую версию
+description: Список служб и компонентов интеграции Ubuntu/Linux, входящих в каждую версию
 ms.topic: article
 ms.assetid: 95ea5f7c-25c6-494b-8ffd-2a77f631ee94
 ms.author: benarm
 author: BenjaminArmstrong
 ms.date: 08/29/2020
-ms.openlocfilehash: 40064ac11b9e6d27ea864ba286278179a2ebd4bf
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.openlocfilehash: 4e1384d372714932d45f9274d8c6e98eb42a5a04
+ms.sourcegitcommit: 48d45b2adf44afb0207214be9c57fe589360d177
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96864024"
+ms.lasthandoff: 12/31/2020
+ms.locfileid: "97834819"
 ---
 # <a name="supported-ubuntu-virtual-machines-on-hyper-v"></a>Поддерживаемые виртуальные машины Ubuntu в Hyper-V
 
@@ -27,10 +27,10 @@ ms.locfileid: "96864024"
 
 * (*пусто*) — функция недоступна
 
-|**Компонент**|**Версия операционной системы Windows Server**|**20,04 LTS**|**18.04 LTS**|**16.04 LTS**|**14.04 LTS**|
+|**Возможность**|**Версия операционной системы Windows Server**|**20,04 LTS**|**18.04 LTS**|**16.04 LTS**|**14.04 LTS**|
 |-|-|-|-|-|-|
 |**Доступность**||Встроено|Встроено|Встроено|Встроено|
-|**[Основные сведения](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#core)**|2019, 2016, 2012 R2|&#10004;|&#10004;|&#10004;|&#10004;|
+|**[Базовая](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#core)**|2019, 2016, 2012 R2|&#10004;|&#10004;|&#10004;|&#10004;|
 |Точное время Windows Server 2016|2019, 2016|&#10004;|&#10004;|&#10004;||
 |**[Сеть](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#networking)**||||||
 |Кадры крупного размера|2019, 2016, 2012 R2|&#10004;|&#10004;|&#10004;|&#10004;|
@@ -46,13 +46,13 @@ ms.locfileid: "96864024"
 |Динамическая Архивация виртуальных машин|2019, 2016, 2012 R2|&#10004; Примечание 3, 4, 5|&#10004; Примечание 3, 4, 5|&#10004; Примечание 3, 4, 5|&#10004; Примечание 3, 4, 5|
 |Поддержка TRIM|2019, 2016, 2012 R2|&#10004;|&#10004;|&#10004;|&#10004;|
 |WWN ДЛЯ SCSI|2019, 2016, 2012 R2|&#10004;|&#10004;|&#10004;|&#10004;|
-|**[Память](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#memory)**|||||
+|**[Свободной](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#memory)**|||||
 |Поддержка ядра PAE|2019, 2016, 2012 R2|&#10004;|&#10004;|&#10004;|&#10004;|
 |Настройка зазора MMIO|2019, 2016, 2012 R2|&#10004;|&#10004;|&#10004;|&#10004;|
 |Динамическая память Hot-Add|2019, 2016, 2012 R2|&#10004; Примечание 6, 7, 8|&#10004; Примечание 6, 7, 8|&#10004; Примечание 6, 7, 8|&#10004; Примечание 6, 7, 8|
 |Всплывающие подсказки динамическая память|2019, 2016, 2012 R2|&#10004; Примечание 6, 7, 8|&#10004; Примечание 6, 7, 8|&#10004; Примечание 6, 7, 8|&#10004; Примечание 6, 7, 8|
 |Изменение размера памяти среды выполнения|2019, 2016|&#10004;|&#10004;|&#10004;|&#10004;|
-|**[Видео](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#video)**||||||
+|**[Видеоролик](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#video)**||||||
 |Устройство, относящееся к Hyper-V|2019, 2016, 2012 R2|&#10004;|&#10004;|&#10004;|&#10004;|
 |**[Прочее](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#miscellaneous)**|||||
 |Пара "ключ — значение"|2019, 2016, 2012 R2|&#10004; Примечание 5, 9|&#10004; Примечание 5, 9|&#10004; Примечание 5, 9|&#10004; Примечание 5, 9|

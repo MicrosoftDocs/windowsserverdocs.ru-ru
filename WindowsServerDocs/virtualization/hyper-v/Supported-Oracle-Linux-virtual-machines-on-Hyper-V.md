@@ -1,17 +1,17 @@
 ---
 title: Поддерживаемые виртуальные машины Oracle Linux в Hyper-V
-description: Список служб и компонентов интеграции Linux, входящих в каждую версию
+description: Список Oracle Linux служб и функций интеграции, входящих в каждую версию
 ms.topic: article
 ms.assetid: c02fdb5b-62f3-43cb-a190-ab74b3ebcf77
 ms.author: benarm
 author: BenjaminArmstrong
 ms.date: 06/05/2020
-ms.openlocfilehash: e4cf39e9c96a92df3962fa1a8fc2493c3022d898
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.openlocfilehash: ce31296712d23aaf30525eeec9a1e8b2c366d84f
+ms.sourcegitcommit: 48d45b2adf44afb0207214be9c57fe589360d177
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96866413"
+ms.lasthandoff: 12/31/2020
+ms.locfileid: "97833849"
 ---
 # <a name="supported-oracle-linux-virtual-machines-on-hyper-v"></a>Поддерживаемые виртуальные машины Oracle Linux в Hyper-V
 
@@ -32,7 +32,7 @@ ms.locfileid: "96866413"
 
 * &#10004;-доступный компонент
 * (*пусто*) — функция недоступна
-* **RHCK** — ядро с совместимостью Red Hat
+* Ядро, совместимое с **RHCK** -Red Hat
 * **UEK** — неразрывный корпоративный ядра (UEK)
    * UEK4-построено на основе вышестоящего выпуска Linux ядра 4.1.12
    * UEK5-построено на основе вышестоящего выпуска Linux ядра 4,14
@@ -40,10 +40,10 @@ ms.locfileid: "96866413"
 
 ## <a name="oracle-linux-8x-series"></a>Серия Oracle Linux 8. x
 
-|       **Компонент**     |       **Версия Windows Server**      |       **8.0 – 8.1 (RHCK)** |
+|       **Возможность**     |       **Версия Windows Server**      |       **8.0 – 8.1 (RHCK)** |
 |-----------------------|---------------------------------------|-------------------|
 |       **Доступность**        |   |
-|       **[Основные сведения](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#core)**      | 2019, 2016, 2012 R2 | &#10004; |
+|       **[Базовая](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#core)**      | 2019, 2016, 2012 R2 | &#10004; |
 |       Точное время Windows Server 2016       | 2019, 2016 | &#10004; |
 |       **[Сеть](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#networking)**      |   |
 |       Кадры крупного размера        | 2019, 2016, 2012 R2 | &#10004; |
@@ -59,13 +59,13 @@ ms.locfileid: "96866413"
 |       Динамическая Архивация виртуальных машин  | 2019, 2016, 2012 R2 | &#10004; Примечание 5 |
 |       Поддержка TRIM | 2019, 2016, 2012 R2 | &#10004;  |
 |       WWN ДЛЯ SCSI | 2019, 2016, 2012 R2 | &#10004;  |
-|       **[Память](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#memory)** | |
+|       **[Свободной](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#memory)** | |
 |       Поддержка ядра PAE  | 2019, 2016, 2012 R2 |  Недоступно |
 |       Настройка зазора MMIO  | 2019, 2016, 2012 R2 | &#10004; |
 |       Динамическая память Hot-Add | 2019, 2016, 2012 R2  | &#10004; Примечание 7, 8, 9 |
 |       Всплывающие подсказки динамическая память | 2019, 2016, 2012 R2 | &#10004; Примечание 7, 8, 9 |
 |       Изменение размера памяти среды выполнения | 2019, 2016  | &#10004;  |
-|       **[Видео](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#video)** | |
+|       **[Видеоролик](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#video)** | |
 |       Устройство видеозаписи, определенное Hyper-V | 2019, 2016, 2012 R2 | &#10004;   |
 |       **[Прочее](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#miscellaneous)** | |
 |       Пара Key-Value  | 2019, 2016, 2012 R2 | &#10004;   |
@@ -86,7 +86,7 @@ ms.locfileid: "96866413"
 <tr height="50px">
 <td width="20%" rowspan="2">
 
-Признак
+Компонент
 </td>
 <td width="20%" rowspan="2">
 
@@ -156,7 +156,7 @@ LIS 4,3
 <tr height="50px">
 <td width="20%">
 
-**[Основные сведения](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#core)**
+**[Базовая](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#core)**
 </td>
 <td width="20%">
 
@@ -679,7 +679,7 @@ WWN ДЛЯ SCSI
 <tr height="50px">
 <td width="20%">
 
-**[Память](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#memory)**
+**[Свободной](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#memory)**
 </td>
 <td width="20%">
 
@@ -876,7 +876,7 @@ WWN ДЛЯ SCSI
 <tr height="50px">
 <td width="20%">
 
-**[Видео](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#video)**
+**[Видеоролик](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#video)**
 </td>
 <td width="20%">
 
@@ -1267,10 +1267,10 @@ WWN ДЛЯ SCSI
 
 В этой серии есть только 64-разрядные ядра.
 
-|       **Компонент**     |       **Версия Windows Server**      |       **6.8-6.10 (RHCK)** |       **6.8-6.10 (UEK4)**     |
+|       **Возможность**     |       **Версия Windows Server**      |       **6.8-6.10 (RHCK)** |       **6.8-6.10 (UEK4)**     |
 |-----------------------|---------------------------------------|-------------------|-------------------|
 |       **Доступность**     |   | LIS 4,3  | Встроено  |
-|       **[Основные сведения](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#core)**      | 2019, 2016, 2012 R2 | &#10004; | &#10004;
+|       **[Базовая](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#core)**      | 2019, 2016, 2012 R2 | &#10004; | &#10004;
 |       Точное время Windows Server 2016       | 2019, 2016 | |
 |       **[Сеть](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#networking)**      |   |  |
 |       Кадры крупного размера        | 2019, 2016, 2012 R2 | &#10004; | &#10004;|
@@ -1286,13 +1286,13 @@ WWN ДЛЯ SCSI
 |       Динамическая Архивация виртуальных машин  | 2019, 2016, 2012 R2 | &#10004; Примечание 5 | &#10004; Примечание 5|
 |       Поддержка TRIM | 2019, 2016, 2012 R2 | &#10004;  | &#10004; |
 |       WWN ДЛЯ SCSI | 2019, 2016, 2012 R2 | &#10004;  | &#10004; |
-|       **[Память](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#memory)** | |  |
+|       **[Свободной](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#memory)** | |  |
 |       Поддержка ядра PAE  | 2019, 2016, 2012 R2 |  Недоступно | Недоступно
 |       Настройка зазора MMIO  | 2019, 2016, 2012 R2 | &#10004; | &#10004;  |
 |       Динамическая память Hot-Add | 2019, 2016, 2012 R2  | &#10004; Примечание 6, 8, 9 | &#10004; Примечание 6, 8, 9 |
 |       Всплывающие подсказки динамическая память | 2019, 2016, 2012 R2 | &#10004; Примечание 6, 8, 9 | &#10004; Примечание 6, 8, 9 |
 |       Изменение размера памяти среды выполнения | 2019, 2016  |  | |
-|       **[Видео](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#video)** | | |
+|       **[Видеоролик](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#video)** | | |
 |       Устройство видеозаписи, определенное Hyper-V | 2019, 2016, 2012 R2 | &#10004;   | &#10004; |
 |       **[Прочее](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#miscellaneous)** | | |
 |       Пара Key-Value  | 2019, 2016, 2012 R2 | &#10004; Примечание 10, 11   | &#10004; Примечание 10, 11  |

@@ -1,17 +1,17 @@
 ---
 title: Виртуальные машины должны создаваться по крайней мере раз в неделю.
-description: Интернет-версия текста для этого правила анализатор соответствия рекомендациям.
+description: Узнайте, что делать, если на прошлой неделе не была создана резервная копия одной или нескольких виртуальных машин.
 ms.author: benarm
 author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: 7dbd3dfc-c873-4a77-89f7-3166e18d9531
 ms.date: 8/16/2016
-ms.openlocfilehash: 3b6b515f795d6c3e85a48b0fc5e6ac5165c5b6d5
-ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
+ms.openlocfilehash: 9c2cc7836eca57b5d7ae7e180a8af5c6e3104996
+ms.sourcegitcommit: 42581433c0bb62e291d412ee9e13869b42e69a4b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "90746229"
+ms.lasthandoff: 01/01/2021
+ms.locfileid: "97846286"
 ---
 # <a name="virtual-machines-should-be-backed-up-at-least-once-every-week"></a>Виртуальные машины должны создаваться по крайней мере раз в неделю.
 
@@ -19,7 +19,7 @@ ms.locfileid: "90746229"
 
 Дополнительные сведения о рекомендациях и сканировании см. в разделе [Запуск сканирования анализатором соответствия рекомендациям и управление результатами сканирования](https://go.microsoft.com/fwlink/p/?LinkID=223177).
 
-|Свойство.|Подробнее|
+|Свойство|Сведения|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|

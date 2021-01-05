@@ -1,17 +1,17 @@
 ---
 title: Для Windows 8 следует настроить по крайней мере минимальный объем памяти.
-description: Содержит инструкции по устранению проблемы, о которой сообщило это правило анализатор соответствия рекомендациям.
-ms.author: benarm
+description: Узнайте, что делать, если для виртуальной машины под Windows 8 настроено меньше минимального объема ОЗУ (512 МБ).
 author: BenjaminArmstrong
+ms.author: benarm
 ms.topic: article
 ms.assetid: 519d1091-fa4d-44d7-83ca-83f6aa71fb7d
 ms.date: 8/16/2016
-ms.openlocfilehash: 9c565b1e22091325c9e5017e5c82d225b835bad6
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.openlocfilehash: a193eb64fd11624c30ab7426ac4261b6dee74a08
+ms.sourcegitcommit: 48d45b2adf44afb0207214be9c57fe589360d177
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96866033"
+ms.lasthandoff: 12/31/2020
+ms.locfileid: "97834029"
 ---
 # <a name="windows-8-should-be-configured-with-at-least-the-minimum-amount-of-memory"></a>Для Windows 8 следует настроить по крайней мере минимальный объем памяти.
 

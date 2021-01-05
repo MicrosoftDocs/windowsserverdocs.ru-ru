@@ -1,17 +1,17 @@
 ---
 title: Виртуальная машина под Windows Server 2012 R2, настроенная с динамическая память, должна использовать Рекомендуемые значения параметров памяти.
-description: Содержит инструкции по устранению проблемы, о которой сообщило это правило анализатор соответствия рекомендациям.
+description: Узнайте, что делать, когда одна или несколько виртуальных машин настроены на использование динамическая память с объемом памяти меньше объема, рекомендуемого для Windows Server 2012 R2.
 ms.author: benarm
 author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: 3a53c197-80ce-4b33-a83e-7e89e657a519
 ms.date: 8/16/2016
-ms.openlocfilehash: ed840c92ba68fb9f616522071ea6b4b4561b31f3
-ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
+ms.openlocfilehash: c3226ef03be3cfdb3e61742bc0aa09a642730105
+ms.sourcegitcommit: 48d45b2adf44afb0207214be9c57fe589360d177
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "90746539"
+ms.lasthandoff: 12/31/2020
+ms.locfileid: "97834929"
 ---
 # <a name="a-virtual-machine-running-windows-server-2012-r2-and-configured-with-dynamic-memory-should-use-recommended-values-for-memory-settings"></a>Виртуальная машина под Windows Server 2012 R2, настроенная с динамическая память, должна использовать Рекомендуемые значения параметров памяти.
 
@@ -19,7 +19,7 @@ ms.locfileid: "90746539"
 
 Дополнительные сведения о рекомендациях и сканировании см. в разделе [Запуск сканирования анализатором соответствия рекомендациям и управление результатами сканирования](https://go.microsoft.com/fwlink/p/?LinkID=223177).
 
-|Свойство.|Подробнее|
+|Свойство|Сведения|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|
@@ -49,9 +49,9 @@ ms.locfileid: "90746539"
 
 4.  Замените **объем ОЗУ** не менее 512 МБ.
 
-5.  В разделе **Динамическая память**замените **Минимальный объем озу** не менее 256 МБ, а **максимальный объем ОЗУ** — на 2 ГБ.
+5.  В разделе **Динамическая память** замените **Минимальный объем озу** не менее 256 МБ, а **максимальный объем ОЗУ** — на 2 ГБ.
 
-6.  Нажмите кнопку **OK**.
+6.  Нажмите кнопку **ОК**.
 
 ### <a name="increase-memory-using-windows-powershell"></a>Увеличение памяти с помощью Windows PowerShell
 

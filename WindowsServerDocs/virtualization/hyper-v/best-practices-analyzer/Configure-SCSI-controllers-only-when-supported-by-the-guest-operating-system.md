@@ -1,17 +1,17 @@
 ---
 title: Настройка контроллеров SCSI только при поддержке операционной системой на виртуальной машине
-description: Интернет-версия текста для этого правила анализатор соответствия рекомендациям.
+description: Узнайте, что делать, если виртуальная машина настроена с помощью контроллера SCSI, который нельзя использовать, так как операционная система на виртуальной машине не поддерживает контроллеры SCSI.
 ms.author: benarm
 author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: 861f194f-467e-4b07-a1c5-55b35f6327c4
 ms.date: 8/16/2016
-ms.openlocfilehash: cadf4c0d0ce8cdd50d66a61f428b3e547dd457dc
-ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
+ms.openlocfilehash: 3661eb1010dd163d33cb518a16174ed4133b0d98
+ms.sourcegitcommit: 42581433c0bb62e291d412ee9e13869b42e69a4b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "90746999"
+ms.lasthandoff: 01/01/2021
+ms.locfileid: "97846092"
 ---
 # <a name="configure-scsi-controllers-only-when-supported-by-the-guest-operating-system"></a>Настройка контроллеров SCSI только при поддержке операционной системой на виртуальной машине
 
@@ -19,7 +19,7 @@ ms.locfileid: "90746999"
 
 
 
-|Свойство.|Подробнее|
+|Свойство|Сведения|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|

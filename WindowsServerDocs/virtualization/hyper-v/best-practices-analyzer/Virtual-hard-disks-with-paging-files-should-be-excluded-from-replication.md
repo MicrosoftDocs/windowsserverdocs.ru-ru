@@ -1,17 +1,17 @@
 ---
 title: Виртуальные жесткие диски с файлами подкачки следует исключить из репликации
-description: Интернет-версия текста для этого правила анализатор соответствия рекомендациям.
+description: Узнайте, что делать, когда файлы подкачки используют большое количество действий ввода-вывода, что необязательно требует гораздо большего количества ресурсов для участия в репликации.
 ms.author: benarm
 author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: c0be8a5f-64a1-488a-944e-bb913bb90517
 ms.date: 8/16/2016
-ms.openlocfilehash: 14729113ee2ba3694bcc29d50da5e7113c763268
-ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
+ms.openlocfilehash: c710891396ffe8914819796c18abaf0ddc41fea4
+ms.sourcegitcommit: 42581433c0bb62e291d412ee9e13869b42e69a4b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "90746569"
+ms.lasthandoff: 01/01/2021
+ms.locfileid: "97845750"
 ---
 # <a name="virtual-hard-disks-with-paging-files-should-be-excluded-from-replication"></a>Виртуальные жесткие диски с файлами подкачки следует исключить из репликации
 
@@ -19,7 +19,7 @@ ms.locfileid: "90746569"
 
 Дополнительные сведения о рекомендациях и сканировании см. в разделе [Запуск сканирования анализатором соответствия рекомендациям и управление результатами сканирования](https://go.microsoft.com/fwlink/p/?LinkID=223177).
 
-|Свойство.|Подробнее|
+|Свойство|Сведения|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|

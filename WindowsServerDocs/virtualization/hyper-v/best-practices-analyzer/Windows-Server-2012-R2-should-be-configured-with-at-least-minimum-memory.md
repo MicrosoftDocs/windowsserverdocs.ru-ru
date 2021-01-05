@@ -1,17 +1,17 @@
 ---
 title: Для Windows Server 2012 R2 следует настроить по крайней мере минимальный объем памяти.
-description: Содержит инструкции по устранению проблемы, о которой сообщило это правило анализатор соответствия рекомендациям.
+description: Узнайте, что делать, если для виртуальной машины под Windows Server 2012 R2 настроено меньше минимального объема ОЗУ (512 МБ).
 ms.author: benarm
 author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: 01da6f02-1a5f-4d3e-9bef-4d122a91c5c2
 ms.date: 8/16/2016
-ms.openlocfilehash: 1e077356b0e7bd918d54e55dac6f979eda5c4aeb
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.openlocfilehash: bd79a4804aa5d2ec9f560a0902dcfa8d468f489a
+ms.sourcegitcommit: 48d45b2adf44afb0207214be9c57fe589360d177
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96865843"
+ms.lasthandoff: 12/31/2020
+ms.locfileid: "97833669"
 ---
 # <a name="windows-server-2012-r2-should-be-configured-with-at-least-the-minimum-amount-of-memory"></a>Для Windows Server 2012 R2 следует настроить по крайней мере минимальный объем памяти.
 

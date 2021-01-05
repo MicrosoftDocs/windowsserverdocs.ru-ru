@@ -1,17 +1,17 @@
 ---
 title: Избегайте выравнивания несоответствий между виртуальными блоками и секторами физического диска на динамических виртуальных жестких дисках или разностных дисках.
-description: Интернет-версия текста для этого правила анализатор соответствия рекомендациям.
+description: Узнайте, что делать, если обнаружены несоответствия выравнивания для одного или нескольких виртуальных жестких дисков.
 ms.author: benarm
 author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: a17c8fd2-af81-485b-bfea-bd1ef3e43923
 ms.date: 8/16/2016
-ms.openlocfilehash: aa165dad38ae455f7c4a5a0d73cdd005c01a60ef
-ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
+ms.openlocfilehash: a35906161a51e2884a15944b51416a2404cce38a
+ms.sourcegitcommit: 48d45b2adf44afb0207214be9c57fe589360d177
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "90747099"
+ms.lasthandoff: 12/31/2020
+ms.locfileid: "97834729"
 ---
 # <a name="avoid-alignment-inconsistencies-between-virtual-blocks-and-physical-disk-sectors-on-dynamic-virtual-hard-disks-or-differencing-disks"></a>Избегайте выравнивания несоответствий между виртуальными блоками и секторами физического диска на динамических виртуальных жестких дисках или разностных дисках.
 
@@ -19,7 +19,7 @@ ms.locfileid: "90747099"
 
 Дополнительные сведения о рекомендациях и сканировании см. в разделе [Запуск сканирования анализатором соответствия рекомендациям и управление результатами сканирования](https://go.microsoft.com/fwlink/p/?LinkID=223177).
 
-|Свойство.|Подробнее|
+|Свойство|Сведения|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|

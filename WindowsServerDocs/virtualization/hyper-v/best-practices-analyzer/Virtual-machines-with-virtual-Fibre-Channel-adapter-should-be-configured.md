@@ -1,17 +1,17 @@
 ---
 title: Для виртуальных машин, настроенных с помощью виртуального Fibre Channel адаптера, следует настроить высокий уровень доступности для хранилища на основе Fibre Channel
-description: Интернет-версия текста для этого правила анализатор соответствия рекомендациям.
+description: Узнайте, что делать, если на одной или нескольких виртуальных машинах отсутствует высокодоступное подключение к хранилищу на основе Fibre Channel, так как эти виртуальные машины настроены с помощью адаптера виртуальной Fibre Channel, который подключен только к одному адаптеру шины узла (HBA).
 ms.author: benarm
 author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: 73127bdd-8086-4268-a93c-2fdf1623e91b
 ms.date: 8/16/2016
-ms.openlocfilehash: 8a6c86f34f42dd88b29653096fbcb67919081a08
-ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
+ms.openlocfilehash: 407db3e9e9f289deb438f67ad7e79c98cb2b914b
+ms.sourcegitcommit: 42581433c0bb62e291d412ee9e13869b42e69a4b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "90746219"
+ms.lasthandoff: 01/01/2021
+ms.locfileid: "97845831"
 ---
 # <a name="virtual-machines-configured-with-a-virtual-fibre-channel-adapter-should-be-configured-for-high-availability-to-the-fibre-channel-based-storage"></a>Для виртуальных машин, настроенных с помощью виртуального Fibre Channel адаптера, следует настроить высокий уровень доступности для хранилища на основе Fibre Channel
 
@@ -19,7 +19,7 @@ ms.locfileid: "90746219"
 
 Дополнительные сведения о рекомендациях и сканировании см. в разделе [Запуск сканирования анализатором соответствия рекомендациям и управление результатами сканирования](https://go.microsoft.com/fwlink/p/?LinkID=223177).
 
-|Свойство.|Подробнее|
+|Свойство|Сведения|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|

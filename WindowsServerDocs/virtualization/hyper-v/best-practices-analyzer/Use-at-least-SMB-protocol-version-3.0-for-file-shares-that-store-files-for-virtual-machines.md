@@ -1,17 +1,17 @@
 ---
 title: Используйте по меньшей мере протокол SMB версии 3,0 для файловых ресурсов, в которых хранятся файлы для виртуальных машин.
-description: Интернет-версия текста для этого правила анализатор соответствия рекомендациям.
+description: Узнайте, что делать, когда файлы виртуальной машины или виртуального жесткого диска хранятся в общей папке, не поддерживающей по меньшей мере протокол SMB версии 3,0.
 ms.author: benarm
 author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: 4bb832b8-f1aa-4c1f-a0f2-324dd53553ea
 ms.date: 8/16/2016
-ms.openlocfilehash: a979035c5b58542865faf6254baf49815f81cc2d
-ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
+ms.openlocfilehash: 783ba7b2e8b5dc83eb575ee395d85e58701c0b89
+ms.sourcegitcommit: 42581433c0bb62e291d412ee9e13869b42e69a4b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "90746789"
+ms.lasthandoff: 01/01/2021
+ms.locfileid: "97846224"
 ---
 # <a name="use-at-least-smb-protocol-version-30-for-file-shares-that-store-files-for-virtual-machines"></a>Используйте по меньшей мере протокол SMB версии 3,0 для файловых ресурсов, в которых хранятся файлы для виртуальных машин.
 
@@ -19,7 +19,7 @@ ms.locfileid: "90746789"
 
 Дополнительные сведения о рекомендациях и сканировании см. в разделе [Запуск сканирования анализатором соответствия рекомендациям и управление результатами сканирования](https://go.microsoft.com/fwlink/p/?LinkID=223177).
 
-|Свойство.|Подробнее|
+|Свойство|Сведения|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|

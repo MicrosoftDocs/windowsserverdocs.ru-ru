@@ -1,17 +1,17 @@
 ---
 title: Для Windows 7 следует настроить по крайней мере минимальный объем памяти.
-description: Содержит инструкции по устранению проблемы, о которой сообщило это правило анализатор соответствия рекомендациям ".
+description: Узнайте, что делать, если для виртуальной машины под Windows 7 настроено меньше минимального объема ОЗУ (512 МБ).
 ms.author: benarm
 author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: 1b81ec0b-ceca-4fba-83ea-90d5f1d9bda8
 ms.date: 8/16/2016
-ms.openlocfilehash: c2bd302fb5adafe0bb1d9252cbac3d6ba6a6a8ac
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.openlocfilehash: e8f24fd0ebb0bcd40efcc11b4ba003339055077b
+ms.sourcegitcommit: 48d45b2adf44afb0207214be9c57fe589360d177
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96864613"
+ms.lasthandoff: 12/31/2020
+ms.locfileid: "97834039"
 ---
 # <a name="windows-7-should-be-configured-with-at-least-the-minimum-amount-of-memory"></a>Для Windows 7 следует настроить по крайней мере минимальный объем памяти.
 
@@ -38,7 +38,7 @@ ms.locfileid: "96864613"
 ```
 <list of virtual machine names>
 ```
-## <a name="resolution"></a>Разрешение
+## <a name="resolution"></a>Решение
 
 *Используйте диспетчер Hyper-V, чтобы увеличить объем памяти, выделенной для этой виртуальной машины, по крайней мере 512 МБ.*
 

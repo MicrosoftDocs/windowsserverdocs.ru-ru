@@ -1,17 +1,17 @@
 ---
 title: Для Windows Vista следует настроить по крайней мере минимальный объем памяти.
-description: Содержит инструкции по устранению проблемы, о которой сообщило это правило анализатор соответствия рекомендациям.
+description: Узнайте, что делать, если для виртуальной машины под управлением Windows Vista настроено меньше минимального объема ОЗУ (512 МБ).
 ms.author: benarm
 author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: 49f6f9b6-c290-4b1b-b6f3-cc9a0acd8fb2
 ms.date: 8/16/2016
-ms.openlocfilehash: dc69592d8b71c761c710fc55f7d3117164cb430f
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.openlocfilehash: 1ba95d8c0dc014c970d928a2195d490374ecfdcc
+ms.sourcegitcommit: 48d45b2adf44afb0207214be9c57fe589360d177
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96865813"
+ms.lasthandoff: 12/31/2020
+ms.locfileid: "97833499"
 ---
 # <a name="windows-vista-should-be-configured-with-at-least-the-minimum-amount-of-memory"></a>Для Windows Vista следует настроить по крайней мере минимальный объем памяти.
 
@@ -38,7 +38,7 @@ ms.locfileid: "96865813"
 
 \<list of virtual machine names>
 
-## <a name="resolution"></a>Разрешение
+## <a name="resolution"></a>Решение
 
 *Используйте диспетчер Hyper-V, чтобы увеличить объем памяти, выделенной для этой виртуальной машины, по крайней мере 512 МБ.*
 

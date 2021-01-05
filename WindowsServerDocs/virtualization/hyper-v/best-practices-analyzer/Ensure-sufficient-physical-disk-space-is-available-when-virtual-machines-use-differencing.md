@@ -1,17 +1,17 @@
 ---
 title: Обеспечение доступности достаточного места на физическом диске, если виртуальные машины используют разностные виртуальные жесткие диски
-description: Интернет-версия текста для этого правила анализатор соответствия рекомендациям.
+description: Узнайте, что делать, когда одна или несколько виртуальных машин используют разностные виртуальные жесткие диски.
 ms.author: benarm
 author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: 71f99aab-f994-4022-9da0-d661965b95ac
 ms.date: 8/16/2016
-ms.openlocfilehash: d5a8c5d38aa47845a88077eaa6b785dc5ebb148c
-ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
+ms.openlocfilehash: fe4cf45a9b93ce0a5277dcd6e108205a74ffca0b
+ms.sourcegitcommit: 42581433c0bb62e291d412ee9e13869b42e69a4b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "90746279"
+ms.lasthandoff: 01/01/2021
+ms.locfileid: "97846104"
 ---
 # <a name="ensure-sufficient-physical-disk-space-is-available-when-virtual-machines-use-differencing-virtual-hard-disks"></a>Обеспечение доступности достаточного места на физическом диске, если виртуальные машины используют разностные виртуальные жесткие диски
 
@@ -19,7 +19,7 @@ ms.locfileid: "90746279"
 
 Дополнительные сведения о рекомендациях и сканировании см. в разделе [Запуск сканирования анализатором соответствия рекомендациям и управление результатами сканирования](https://go.microsoft.com/fwlink/p/?LinkID=223177).
 
-|Свойство.|Подробнее|
+|Свойство|Сведения|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|

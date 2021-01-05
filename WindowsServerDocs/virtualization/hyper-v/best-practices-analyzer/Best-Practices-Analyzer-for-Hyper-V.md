@@ -1,17 +1,17 @@
 ---
 title: Анализатор соответствия рекомендациям для Hyper-V
-description: Интернет-версия текста для этого правила анализатор соответствия рекомендациям.
+description: Узнайте, как анализатор соответствия рекомендациям сканирует компьютер с помощью правил, основанных на этих рекомендациях, и сообщает о результатах.
 ms.author: benarm
 author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: 3747faa5-6e9f-499e-8a79-3fb9d73b6b92
 ms.date: 8/16/2016
-ms.openlocfilehash: c48f94eef1ceb77e80701adca9aeddfb4656e53c
-ms.sourcegitcommit: 6931830a70c5849d8f884cdc7bd4f5afc1a00cce
+ms.openlocfilehash: a7261e219ffc332cc0ea79fb9c6de6f9e0624b4f
+ms.sourcegitcommit: 48d45b2adf44afb0207214be9c57fe589360d177
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "91955819"
+ms.lasthandoff: 12/31/2020
+ms.locfileid: "97834499"
 ---
 # <a name="best-practices-analyzer-for-hyper-v"></a>Анализатор соответствия рекомендациям для Hyper-V
 

@@ -1,17 +1,17 @@
 ---
 title: Избегайте хранения файлов Smart paging на системном диске
-description: Интернет-версия текста для этого правила анализатор соответствия рекомендациям.
+description: Узнайте, что делать, если в конфигурации памяти для одной или нескольких виртуальных машин может потребоваться интеллектуальное разбиение на страницы, если виртуальная машина перезагружена, а в качестве файла Smart paging указан системный диск сервера Hyper-V.
 ms.author: benarm
 author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: 9b57c9b8-76c5-43c7-bfa6-2c95b3cb6510
 ms.date: 8/16/2016
-ms.openlocfilehash: c1d2a6ca3b1ffc96fb0761ab1b1c434971374142
-ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
+ms.openlocfilehash: 990067509f0fbfe9ba19781da23ea3ea0b6e4091
+ms.sourcegitcommit: 48d45b2adf44afb0207214be9c57fe589360d177
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "90747029"
+ms.lasthandoff: 12/31/2020
+ms.locfileid: "97834599"
 ---
 # <a name="avoid-storing-smart-paging-files-on-a-system-disk"></a>Избегайте хранения файлов Smart paging на системном диске
 
@@ -19,7 +19,7 @@ ms.locfileid: "90747029"
 
 Дополнительные сведения о рекомендациях и сканировании см. в разделе [Запуск сканирования анализатором соответствия рекомендациям и управление результатами сканирования](https://go.microsoft.com/fwlink/p/?LinkID=223177).
 
-|Свойство.|Подробнее|
+|Свойство|Сведения|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|

@@ -1,17 +1,17 @@
 ---
 title: Должна быть доступна более одного сетевого адаптера
-description: Интернет-версия текста для этого правила анализатор соответствия рекомендациям.
+description: Узнайте, что делать, если на сервере настроен один сетевой адаптер, который должен совместно использоваться операционной системой управления и всеми виртуальными машинами, которым требуется доступ к физической сети.
 ms.author: benarm
 author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: 59940e56-e06a-490f-90ea-cf30d9f80b09
 ms.date: 8/16/2016
-ms.openlocfilehash: 05dc0583424ed155c4780f9f0b4c016be850a71c
-ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
+ms.openlocfilehash: 4cf106b15d69079e860b5a76febbc0ab549b0f34
+ms.sourcegitcommit: 42581433c0bb62e291d412ee9e13869b42e69a4b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "90746269"
+ms.lasthandoff: 01/01/2021
+ms.locfileid: "97846281"
 ---
 # <a name="more-than-one-network-adapter-should-be-available"></a>Должна быть доступна более одного сетевого адаптера
 
@@ -19,7 +19,7 @@ ms.locfileid: "90746269"
 
 Дополнительные сведения о рекомендациях и проверках см. в разделе [Анализатор соответствия рекомендациям](https://go.microsoft.com/fwlink/?LinkId=122786).
 
-|Свойство.|Подробнее|
+|Свойство|Сведения|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|

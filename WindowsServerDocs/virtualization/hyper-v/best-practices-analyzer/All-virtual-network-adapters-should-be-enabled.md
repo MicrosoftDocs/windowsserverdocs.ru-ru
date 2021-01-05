@@ -1,17 +1,17 @@
 ---
 title: Все виртуальные сетевые адаптеры должны быть включены
-description: Интернет-версия текста для этого правила анализатор соответствия рекомендациям.
+description: Узнайте, что делать, если один или несколько виртуальных сетевых адаптеров, связанных с физическим сетевым адаптером, отключены в операционной системе управления.
 ms.author: benarm
 author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: b17d647d-a34a-44de-ada6-01a2bf5eeb48
 ms.date: 8/16/2016
-ms.openlocfilehash: 48417108f780c8b145613b110bb51681bd69bdc6
-ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
+ms.openlocfilehash: 6b3fcd786a1f7f294b7c35a4dc0a8b3cf0971c83
+ms.sourcegitcommit: 48d45b2adf44afb0207214be9c57fe589360d177
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "90746309"
+ms.lasthandoff: 12/31/2020
+ms.locfileid: "97834759"
 ---
 # <a name="all-virtual-network-adapters-should-be-enabled"></a>Все виртуальные сетевые адаптеры должны быть включены
 
@@ -19,7 +19,7 @@ ms.locfileid: "90746309"
 
 
 
-|Свойство.|Подробнее|
+|Свойство|Сведения|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|

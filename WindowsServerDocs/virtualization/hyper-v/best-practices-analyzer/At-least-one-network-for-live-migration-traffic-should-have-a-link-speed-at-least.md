@@ -1,17 +1,17 @@
 ---
 title: По крайней мере одна сеть для трафика динамической миграции должна иметь скорость связи не менее 1 Гбит/с
-description: Интернет-версия текста для этого правила анализатор соответствия рекомендациям.
+description: Узнайте, что делать, если по крайней мере одна из сетей для трафика динамической миграции имеет скорость связи не менее 1 Гбит/с.
 ms.author: benarm
 author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: 5714df3f-f810-4618-8c93-e24881651100
 ms.date: 8/16/2016
-ms.openlocfilehash: cf1f09a635d6f6a46ee2a0bab2de53c898af9084
-ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
+ms.openlocfilehash: e18b9c259963c9a6ab1a3495f517e05a522be0c2
+ms.sourcegitcommit: 48d45b2adf44afb0207214be9c57fe589360d177
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "90746299"
+ms.lasthandoff: 12/31/2020
+ms.locfileid: "97834749"
 ---
 # <a name="at-least-one-network-for-live-migration-traffic-should-have-a-link-speed-of-at-least-1-gbps"></a>По крайней мере одна сеть для трафика динамической миграции должна иметь скорость связи не менее 1 Гбит/с
 
@@ -19,7 +19,7 @@ ms.locfileid: "90746299"
 
 
 
-|Свойство.|Подробнее|
+|Свойство|Сведения|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|

@@ -1,17 +1,17 @@
 ---
 title: Поддерживаемые виртуальные машины Linux и FreeBSD для Hyper-V в Windows
-description: Список служб и компонентов интеграции Linux, входящих в каждую версию
+description: Список служб и компонентов интеграции Linux и FreeBSD, входящих в каждую версию
 ms.topic: article
 ms.assetid: 990ff94a-30fb-434b-b4a2-3804a5245ba6
 ms.author: benarm
 author: BenjaminArmstrong
 ms.date: 12/09/2020
-ms.openlocfilehash: 1eeb5a80d0f08a158f0052fb1ba69d2adacf0b4d
-ms.sourcegitcommit: f95a991491ff09260d979078e248e2636bd2db54
+ms.openlocfilehash: 868d27a946fc91d4f651e6c7ad52c10d8ebc96af
+ms.sourcegitcommit: 48d45b2adf44afb0207214be9c57fe589360d177
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "96997811"
+ms.lasthandoff: 12/31/2020
+ms.locfileid: "97834879"
 ---
 # <a name="supported-linux-and-freebsd-virtual-machines-for-hyper-v-on-windows"></a>Поддерживаемые виртуальные машины Linux и FreeBSD для Hyper-V в Windows
 

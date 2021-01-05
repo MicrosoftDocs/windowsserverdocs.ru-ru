@@ -1,17 +1,17 @@
 ---
 title: Windows 8.1 следует настроить с использованием рекомендуемого объема памяти
-description: Содержит инструкции по устранению проблемы, о которой сообщило это правило анализатор соответствия рекомендациям.
+description: Узнайте, что делать, если для виртуальной машины, на которой работает Windows 8.1, настроено меньше рекомендуемого объема ОЗУ (1 ГБ).
 ms.author: benarm
 author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: 4972101a-c266-4045-bdd6-4e75a9cd750e
 ms.date: 8/16/2016
-ms.openlocfilehash: eecad1ccf0df2985703c1be379a7590fb808e4d4
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.openlocfilehash: cdb8212581f82fa09207878a4ed5ac1631a93629
+ms.sourcegitcommit: 48d45b2adf44afb0207214be9c57fe589360d177
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96865899"
+ms.lasthandoff: 12/31/2020
+ms.locfileid: "97833999"
 ---
 # <a name="windows-81-should-be-configured-with-the-recommended-amount-of-memory"></a>Windows 8.1 следует настроить с использованием рекомендуемого объема памяти
 

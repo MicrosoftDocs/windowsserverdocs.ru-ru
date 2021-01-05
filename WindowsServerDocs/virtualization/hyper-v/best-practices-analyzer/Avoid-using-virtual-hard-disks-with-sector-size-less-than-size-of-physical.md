@@ -1,17 +1,17 @@
 ---
 title: Избегайте использования виртуальных жестких дисков с размером сектора меньше размера сектора физического хранилища, в котором хранится файл виртуального жесткого диска.
-description: Интернет-версия текста для этого правила анализатор соответствия рекомендациям.
+description: Узнайте, что делать, если один или несколько виртуальных жестких дисков имеют физический размер сектора, меньший, чем размер физического сектора хранилища, на котором расположен файл виртуального жесткого диска.
 ms.author: benarm
 author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: b7cf994e-bf4b-4b1b-bad6-ecf7d46d105e
 ms.date: 8/16/2016
-ms.openlocfilehash: 946168aa200ec80e5d2c9a69e0ecfad2477dcb6e
-ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
+ms.openlocfilehash: e664b0947479935dd22c3409eeb0948e01fa9b89
+ms.sourcegitcommit: 48d45b2adf44afb0207214be9c57fe589360d177
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "90745889"
+ms.lasthandoff: 12/31/2020
+ms.locfileid: "97834489"
 ---
 # <a name="avoid-using-virtual-hard-disks-with-a-sector-size-less-than-the-sector-size-of-the-physical-storage-that-stores-the-virtual-hard-disk-file"></a>Избегайте использования виртуальных жестких дисков с размером сектора меньше размера сектора физического хранилища, в котором хранится файл виртуального жесткого диска.
 
@@ -19,9 +19,9 @@ ms.locfileid: "90745889"
 
 Дополнительные сведения о рекомендациях и сканировании см. в разделе [Запуск сканирования анализатором соответствия рекомендациям и управление результатами сканирования](https://go.microsoft.com/fwlink/p/?LinkID=223177).
 
-|Свойство.|Подробнее|
+|Свойство|Сведения|
 |-|-|
-|**Operating (Работает)** <br />**Системные функции**|Windows Server 2016|
+|**Operating (Работает)** <br />**Система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|
 |**Уровень серьезности**|Предупреждение|
 |**Категория**|Конфигурация|

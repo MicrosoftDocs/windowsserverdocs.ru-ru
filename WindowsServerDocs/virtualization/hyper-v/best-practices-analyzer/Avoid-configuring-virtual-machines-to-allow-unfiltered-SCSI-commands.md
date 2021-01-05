@@ -1,17 +1,17 @@
 ---
 title: Избегайте настройки виртуальных машин для разрешения нефильтруемых команд SCSI
-description: Интернет-версия текста для этого правила анализатор соответствия рекомендациям.
+description: Узнайте, что делать, если виртуальная машина настроена на разрешение нефильтрованных команд SCSI.
 ms.author: benarm
 author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: dd4a3d78-a77f-451e-a383-d5cf45ea17cf
 ms.date: 8/16/2016
-ms.openlocfilehash: 95d7fa223371aa3dbc3b66efcfefed217eed5216
-ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
+ms.openlocfilehash: 70282ef6367c711e04bf5d29ee10303841019b2c
+ms.sourcegitcommit: 48d45b2adf44afb0207214be9c57fe589360d177
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "90747089"
+ms.lasthandoff: 12/31/2020
+ms.locfileid: "97834699"
 ---
 # <a name="avoid-configuring-virtual-machines-to-allow-unfiltered-scsi-commands"></a>Избегайте настройки виртуальных машин для разрешения нефильтруемых команд SCSI
 
@@ -21,7 +21,7 @@ ms.locfileid: "90747089"
 
 *Дополнительные сведения о рекомендациях и проверках см. в разделе* [анализатор соответствия рекомендациям](https://go.microsoft.com/fwlink/?LinkId=122786).
 
-|Свойство.|Подробнее|
+|Свойство|Сведения|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|

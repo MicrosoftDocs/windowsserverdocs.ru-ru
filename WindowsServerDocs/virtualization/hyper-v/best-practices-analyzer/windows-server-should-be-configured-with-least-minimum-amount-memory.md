@@ -1,17 +1,17 @@
 ---
 title: Для Windows Server 2016 следует настроить по крайней мере минимальный объем памяти.
-description: Содержит инструкции по устранению проблемы, о которой сообщило это правило анализатор соответствия рекомендациям.
+description: Узнайте, что делать, если для виртуальной машины под Windows Server 2016 настроено меньше минимального объема ОЗУ (512 МБ).
 ms.author: benarm
 author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: d324af73-af73-40b0-bd5b-8003ba3e921b
 ms.date: 8/16/2016
-ms.openlocfilehash: c9d39fbb0ecb3864c3a0456e334d0257dfac9d8c
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.openlocfilehash: 3ff4d4177ac11cea3d5571c9811ef37e6ebd58b9
+ms.sourcegitcommit: 48d45b2adf44afb0207214be9c57fe589360d177
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96864583"
+ms.lasthandoff: 12/31/2020
+ms.locfileid: "97834799"
 ---
 # <a name="windows-server-2016-should-be-configured-with-at-least-the-minimum-amount-of-memory"></a>Для Windows Server 2016 следует настроить по крайней мере минимальный объем памяти.
 

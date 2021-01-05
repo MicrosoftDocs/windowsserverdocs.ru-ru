@@ -1,17 +1,17 @@
 ---
 title: Команда, привязанная к виртуальному коммутатору, должна иметь только один предоставленный интерфейс группы
-description: Интернет-версия текста для этого правила анализатор соответствия рекомендациям.
+description: Узнайте, что делать, если один или несколько виртуальных коммутаторов привязаны к команде, имеющей несколько интерфейсов группы.
 ms.author: benarm
 author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: 1074f086-1a2e-42e1-b58c-f55e657d5ce1
 ms.date: 8/16/2016
-ms.openlocfilehash: e600efe56c68f59ed8587e78a1d82576ff0c5c85
-ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
+ms.openlocfilehash: af7b7b80559004c765a4a964b0e72827d74136e7
+ms.sourcegitcommit: 48d45b2adf44afb0207214be9c57fe589360d177
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "90746369"
+ms.lasthandoff: 12/31/2020
+ms.locfileid: "97834769"
 ---
 # <a name="a-team-bound-to-a-virtual-switch-should-only-have-one-exposed-team-interface"></a>Команда, привязанная к виртуальному коммутатору, должна иметь только один предоставленный интерфейс группы
 
@@ -19,7 +19,7 @@ ms.locfileid: "90746369"
 
 Дополнительные сведения о рекомендациях и сканировании см. в разделе [Запуск сканирования анализатором соответствия рекомендациям и управление результатами сканирования](https://go.microsoft.com/fwlink/p/?LinkID=223177).
 
-|Свойство.|Подробнее|
+|Свойство|Сведения|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|
@@ -37,7 +37,7 @@ ms.locfileid: "90746369"
 \<list of virtual switches>
 
 ## <a name="resolution"></a>Решение
-*Используйте командлет Windows PowerShell Remove-Нетлбфотеамник для удаления всех интерфейсов команды, отличных от командного интерфейса по умолчанию.*
+*Используйте Remove-NetLbfoTeamNic командлет Windows PowerShell, чтобы удалить все командные интерфейсы из группы, отличной от интерфейса группы по умолчанию.*
 
 
 

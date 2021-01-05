@@ -1,17 +1,17 @@
 ---
 title: После завершения начальной репликации должна быть предпринята тестовая отработка отказа
-description: Интернет-версия текста для этого правила анализатор соответствия рекомендациям.
+description: Узнайте, что делать при отсутствии тестовой отработки отказа после завершения начальной репликации.
 ms.author: benarm
 author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: cea7eeaa-c1a7-4f87-89be-d4e1208c546f
 ms.date: 8/16/2016
-ms.openlocfilehash: b41cd79ccbf0d04825d077da34e894fc9a17b10d
-ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
+ms.openlocfilehash: 5f97d6c5d9a44691af22506008dd20cd6f7a45a4
+ms.sourcegitcommit: 42581433c0bb62e291d412ee9e13869b42e69a4b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "90746699"
+ms.lasthandoff: 01/01/2021
+ms.locfileid: "97845849"
 ---
 # <a name="test-failover-should-be-attempted-after-initial-replication-is-complete"></a>После завершения начальной репликации должна быть предпринята тестовая отработка отказа
 
@@ -19,7 +19,7 @@ ms.locfileid: "90746699"
 
 Дополнительные сведения о рекомендациях и сканировании см. в разделе [Запуск сканирования анализатором соответствия рекомендациям и управление результатами сканирования](https://go.microsoft.com/fwlink/p/?LinkID=223177).
 
-|Свойство.|Подробнее|
+|Свойство|Сведения|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|

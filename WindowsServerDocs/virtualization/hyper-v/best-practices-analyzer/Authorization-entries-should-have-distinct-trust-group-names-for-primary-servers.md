@@ -1,17 +1,17 @@
 ---
 title: Записи авторизации должны иметь разные имена групп доверия для основных серверов с виртуальными машинами, которые не входят в одну и ту же группу доверия.
-description: Интернет-версия текста для этого правила анализатор соответствия рекомендациям.
+description: Узнайте, что делать, когда сервер будет принимать запросы репликации для виртуальной машины реплики с любого сервера в списке авторизации, связанного с тем же тегом репликации, что и виртуальная машина.
 ms.author: benarm
 author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: 8827a3a7-9f3c-4f51-826a-8e2ec43e01df
 ms.date: 8/16/2016
-ms.openlocfilehash: 984fa9233a433384cddae34af9a62bcf1e0204ca
-ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
+ms.openlocfilehash: 7d66212f0633608ca9d094316c18b5fdd311640e
+ms.sourcegitcommit: 48d45b2adf44afb0207214be9c57fe589360d177
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "90747109"
+ms.lasthandoff: 12/31/2020
+ms.locfileid: "97834739"
 ---
 # <a name="authorization-entries-should-have-distinct-trust-group-names-for-primary-servers-with-virtual-machines-that-are-not-part-of-the-same-trust-group"></a>Записи авторизации должны иметь разные имена групп доверия для основных серверов с виртуальными машинами, которые не входят в одну и ту же группу доверия.
 
@@ -19,7 +19,7 @@ ms.locfileid: "90747109"
 
 Дополнительные сведения о рекомендациях и сканировании см. в разделе [Запуск сканирования анализатором соответствия рекомендациям и управление результатами сканирования](https://go.microsoft.com/fwlink/p/?LinkID=223177).
 
-|Свойство.|Подробнее|
+|Свойство|Сведения|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|

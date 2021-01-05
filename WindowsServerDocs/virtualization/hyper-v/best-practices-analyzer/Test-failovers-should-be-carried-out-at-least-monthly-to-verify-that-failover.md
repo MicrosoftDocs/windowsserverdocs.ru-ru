@@ -1,17 +1,17 @@
 ---
 title: Тестовые отработки отказа должны выполняться по крайней мере ежемесячно, чтобы убедиться, что отработка отказа будет выполнена, а рабочие нагрузки виртуальных машин будут работать так, как ожидалось
-description: Интернет-версия текста для этого правила анализатор соответствия рекомендациям.
+description: Узнайте, что делать, если тестовая отработка отказа не выполнялась хотя бы в один месяц.
 ms.author: benarm
 author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: 57a8aa50-e59e-4a4b-8571-1099d5a8eee4
 ms.date: 8/16/2016
-ms.openlocfilehash: 4ec97d55f1a6caf33b1b46d0a6bdb4e99005c971
-ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
+ms.openlocfilehash: bf2b1f8bae67c2303fe19a92ac15a2cfdb46511c
+ms.sourcegitcommit: 42581433c0bb62e291d412ee9e13869b42e69a4b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "90744097"
+ms.lasthandoff: 01/01/2021
+ms.locfileid: "97845839"
 ---
 # <a name="test-failovers-should-be-carried-out-at-least-monthly-to-verify-that-failover-will-succeed-and-that-virtual-machine-workloads-will-operate-as-expected-after-failover"></a>Тестовые отработки отказа должны выполняться по крайней мере ежемесячно, чтобы убедиться, что отработка отказа будет выполнена, а рабочие нагрузки виртуальных машин будут работать так, как ожидалось
 
@@ -19,7 +19,7 @@ ms.locfileid: "90744097"
 
 Дополнительные сведения о рекомендациях и сканировании см. в разделе [Запуск сканирования анализатором соответствия рекомендациям и управление результатами сканирования](https://go.microsoft.com/fwlink/p/?LinkID=223177).
 
-|Свойство.|Подробнее|
+|Свойство|Сведения|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|

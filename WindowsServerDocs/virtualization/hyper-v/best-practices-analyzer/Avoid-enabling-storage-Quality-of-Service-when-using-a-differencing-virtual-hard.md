@@ -1,17 +1,17 @@
 ---
 title: Старайтесь не включать качество обслуживания хранилища при использовании разностного виртуального жесткого диска, если родительские и дочерние виртуальные жесткие диски находятся на разных томах.
-description: Интернет-версия текста для этого правила анализатор соответствия рекомендациям.
+description: Узнайте, что делать, если для разностного виртуального жесткого диска с родительским и дочерним виртуальными жесткими дисками на разных томах включено качество обслуживания хранилища.
 ms.author: benarm
 author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: aa9ed408-65cf-40dc-aad2-118b54c70179
 ms.date: 8/16/2016
-ms.openlocfilehash: 792ee7f84694171b7b44602c8bb1a5c307d80c6c
-ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
+ms.openlocfilehash: b02cb69d62e9cac74f42f68b1d4be136e1d7cd29
+ms.sourcegitcommit: 48d45b2adf44afb0207214be9c57fe589360d177
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "90747079"
+ms.lasthandoff: 12/31/2020
+ms.locfileid: "97834679"
 ---
 # <a name="avoid-enabling-storage-quality-of-service-when-using-a-differencing-virtual-hard-disk-when-the-parent-and-child-virtual-hard-disks-are-on-different-volumes"></a>Старайтесь не включать качество обслуживания хранилища при использовании разностного виртуального жесткого диска, если родительские и дочерние виртуальные жесткие диски находятся на разных томах.
 
@@ -19,7 +19,7 @@ ms.locfileid: "90747079"
 
 Дополнительные сведения о рекомендациях и сканировании см. в разделе [Запуск сканирования анализатором соответствия рекомендациям и управление результатами сканирования](https://go.microsoft.com/fwlink/p/?LinkID=223177).
 
-|Свойство.|Подробнее|
+|Свойство|Сведения|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|

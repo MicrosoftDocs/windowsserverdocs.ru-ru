@@ -1,17 +1,17 @@
 ---
 title: Настройка политики для регулирования трафика репликации в сети
-description: Интернет-версия текста для этого правила анализатор соответствия рекомендациям.
+description: Узнайте, что делать, если ограничение пропускной способности сети, которое может использоваться репликацией, не ограничено.
 ms.author: benarm
 author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: 82cb1aef-cdc3-4d0a-88d4-ef497ab79606
 ms.date: 8/16/2016
-ms.openlocfilehash: 18c1c1e586075dfb1ef477c1d3f21e549791464a
-ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
+ms.openlocfilehash: 69a03e85dd410f1f3b59daaf97ff97c2db5c7d48
+ms.sourcegitcommit: 48d45b2adf44afb0207214be9c57fe589360d177
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "90746989"
+ms.lasthandoff: 12/31/2020
+ms.locfileid: "97834849"
 ---
 # <a name="configure-a-policy-to-throttle-the-replication-traffic-on-the-network"></a>Настройка политики для регулирования трафика репликации в сети
 
@@ -19,7 +19,7 @@ ms.locfileid: "90746989"
 
 Дополнительные сведения о рекомендациях и сканировании см. в разделе [Запуск сканирования анализатором соответствия рекомендациям и управление результатами сканирования](https://go.microsoft.com/fwlink/p/?LinkID=223177).
 
-|Свойство.|Подробнее|
+|Свойство|Сведения|
 |-|-|
 |**Операционная система**|Windows Server 2016|
 |**Продукт или компонент**|Hyper-V|

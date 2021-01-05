@@ -1,17 +1,17 @@
 ---
 title: Для Windows Server 2008 R2 следует настроить рекомендуемый объем памяти.
-description: Содержит инструкции по устранению проблемы, о которой сообщило это правило анализатор соответствия рекомендациям.
+description: Узнайте, что делать, когда для виртуальной машины под Windows Server 2008 R2 настраивается меньше рекомендуемого объема ОЗУ (2 ГБ).
 ms.author: benarm
 author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: 26872519-ccf0-4757-827f-8df2a7a2b9f9
 ms.date: 8/16/2016
-ms.openlocfilehash: 771da0bbad31898a57f08e9fa55e43c5d3b5bd1d
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.openlocfilehash: 183f09c40a3d62afc46cc72e12de20adb2b231a4
+ms.sourcegitcommit: 48d45b2adf44afb0207214be9c57fe589360d177
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96865883"
+ms.lasthandoff: 12/31/2020
+ms.locfileid: "97834219"
 ---
 # <a name="windows-server-2008-r2-should-be-configured-with-the-recommended-amount-of-memory"></a>Для Windows Server 2008 R2 следует настроить рекомендуемый объем памяти.
 
@@ -38,7 +38,7 @@ ms.locfileid: "96865883"
 
 \<list of virtual machine names>
 
-## <a name="resolution"></a>Разрешение
+## <a name="resolution"></a>Решение
 
 *Используйте диспетчер Hyper-V, чтобы увеличить объем памяти, выделенной для этой виртуальной машины, не менее 2 ГБ.*
 

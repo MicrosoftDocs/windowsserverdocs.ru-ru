@@ -1,17 +1,17 @@
 ---
 title: Для Windows Server 2008 следует настроить по крайней мере минимальный объем памяти.
-description: Содержит инструкции по устранению проблемы, о которой сообщило это правило анализатор соответствия рекомендациям.
+description: Узнайте, что делать, если для виртуальной машины под Windows Server 2008 настроено меньше минимального объема ОЗУ (512 МБ).
 ms.author: benarm
 author: BenjaminArmstrong
 ms.topic: article
 ms.assetid: b5065a3f-364d-4aa9-8703-eafa7a46b575
 ms.date: 8/16/2016
-ms.openlocfilehash: 24fae758171c8bd21a913d09fafb0f25ed2a6b60
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.openlocfilehash: 26817d5e6594b2f0d7c6a1d04b4b42c8413c56d2
+ms.sourcegitcommit: 48d45b2adf44afb0207214be9c57fe589360d177
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96865873"
+ms.lasthandoff: 12/31/2020
+ms.locfileid: "97833899"
 ---
 # <a name="windows-server-2008-should-be-configured-with-at-least-the-minimum-amount-of-memory"></a>Для Windows Server 2008 следует настроить по крайней мере минимальный объем памяти.
 
@@ -38,7 +38,7 @@ ms.locfileid: "96865873"
 
 \<list of virtual machine names>
 
-## <a name="resolution"></a>Разрешение
+## <a name="resolution"></a>Решение
 
 *Используйте диспетчер Hyper-V, чтобы увеличить объем памяти, выделенной для этой виртуальной машины, по крайней мере 512 МБ.*
 
