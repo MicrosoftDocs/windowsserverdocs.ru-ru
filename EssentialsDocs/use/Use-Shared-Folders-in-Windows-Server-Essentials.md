@@ -1,18 +1,18 @@
 ---
 title: Использование общих папок в Windows Server Essentials
-description: Описание использования Windows Server Essentials
+description: Сведения о общих папках, расположенных на сервере, и о том, как они обеспечивают централизованное расположение всех данных и файлов.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: cb7f3d7d-4225-409a-9f6b-34a106e8dd24
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: 8c2b906d1484f0f681325cccc36fe3446760a175
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 52e49410cc105cf2ad15b452c6d336489021e06a
+ms.sourcegitcommit: 8e330f9066097451cd40e840d5f5c3317cbc16c2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89624887"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "97696899"
 ---
 # <a name="use-shared-folders-in-windows-server-essentials"></a>Использование общих папок в Windows Server Essentials
 
@@ -41,10 +41,6 @@ ms.locfileid: "89624887"
 -   [Использование приложения "Мой сервер" для Windows Phone](../use/Use-Shared-Folders-in-Windows-Server-Essentials.md#BKMK_Phone)
 
 -   [Использование приложения "Мой сервер" для Windows 8](../use/Use-Shared-Folders-in-Windows-Server-Essentials.md#BKMK_App)
-
-##  <a name="using-the-windows-server-essentials-launchpad"></a><a name="BKMK_UsingLaunchpad"></a> Использование панели запуска Windows Server Essentials
- Благодаря мастеру подключения компьютера к серверу можно работать с панелью запуска с любого компьютера, подключенного к серверу. Дополнительные сведения о подключении компьютера к серверу см. в разделе [Подключение компьютеров к серверу](../use/Get-Connected-in-Windows-Server-Essentials.md#BKMK_9).
-
 
  После подключения компьютера к серверу ярлык "Панель запуска" добавляется в область уведомлений на рабочем столе. Дважды щелкните значок панели запуска и введите свои сетевые учетные данные, чтобы получить доступ к общим папкам с панели запуска. С помощью ссылки "Общие папки" на панели запуска можно загружать файлы из любых отображаемых общих папок и отправлять файлы в эти папки, перетаскивая файлы с локального компьютера в общие папки, и наоборот. Общие папки позволяют осуществлять потоковую передачу музыки и видео, воспроизводить слайдшоу и записывать ТВ-программы на любом компьютере, подключенном к серверу, а также воспроизводить слайдшоу для просмотра изображений.
 

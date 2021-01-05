@@ -7,12 +7,12 @@ ms.author: lizross
 author: eross-msft
 manager: mtillman
 ms.date: 03/27/2018
-ms.openlocfilehash: b3cd41f3ba1980718a5e2c0a37df470a94f67657
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 5278e05e04dc4960c4a298aeaeaf0616bbaa0d0b
+ms.sourcegitcommit: 8e330f9066097451cd40e840d5f5c3317cbc16c2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89632973"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "97696909"
 ---
 # <a name="bcdedit"></a>bcdedit
 
@@ -39,7 +39,7 @@ bcdedit /command [<argument1>] [<argument2>] ...
 
 ### <a name="parameters"></a>Параметры
 
-### <a name="general-bcdedit-command-line-options"></a>Общие параметры командной строки BCDEdit
+### <a name="general-bcdedit-command-line-options"></a>Общие параметры Command-Line BCDEdit
 
 | Параметр | Description |
 | ------ | ----------- |
@@ -59,7 +59,7 @@ bcdedit /command [<argument1>] [<argument2>] ...
 | Параметр | Описание |
 | ------ | ----------- |
 | /Copy | Создает копию указанной загрузочной записи в том же системном хранилище. |
-| /CREATE | Создает новую запись в хранилище данных конфигурации загрузки. Если задан известный идентификатор, то параметры **: доступность приложений**, **/инхерит**и **/девице** не могут быть указаны. Если идентификатор не указан или хорошо известен, необходимо указать параметр **: доступность приложений**, **/инхерит**или **/девице** . |
+| /CREATE | Создает новую запись в хранилище данных конфигурации загрузки. Если задан известный идентификатор, то параметры **: доступность приложений**, **/инхерит** и **/девице** не могут быть указаны. Если идентификатор не указан или хорошо известен, необходимо указать параметр **: доступность приложений**, **/инхерит** или **/девице** . |
 | /delete | Удаляет элемент из указанной записи. |
 
 #### <a name="parameters-that-operate-on-entry-options"></a>Параметры, которые работают с параметрами записи
@@ -106,6 +106,4 @@ bcdedit /command [<argument1>] [<argument2>] ...
 
 Примеры использования BCDEdit см. в справочной статье о [параметрах BCDEdit](/windows-hardware/drivers/devtest/bcd-boot-options-reference) .
 
-## <a name="additional-references"></a>Дополнительные ссылки
-
-- [Условные обозначения синтаксиса команд командной строки](command-line-syntax-key.md)
+Сведения об нотации, используемой для указания синтаксиса командной строки, см. в разделе  [ключ синтаксиса командной строки](command-line-syntax-key.md).

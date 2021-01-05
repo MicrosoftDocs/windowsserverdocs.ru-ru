@@ -1,18 +1,18 @@
 ---
 title: Добавление элементов в ссылки УСТАНОВКИ, НАДСТРОЕК, КРАТКОГО СОСТОЯНИЯ и СПРАВКИ
-description: Описание использования Windows Server Essentials
+description: Узнайте, как добавлять задачи в списки задач установки, НАДСТРОЙКи и быстрого состояния в Windows Server Essentials.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: c0a8f10d-fd85-4c8d-b9bb-176cb1db1f46
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: b8abf96a5d07d3bcda3cfc43c4e0e960a38e465b
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: c065eaf8c70ec24e0eddab35cdc672891bc7407b
+ms.sourcegitcommit: d2224cf55c5d4a653c18908da4becf94fb01819e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89624079"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "97711689"
 ---
 # <a name="add-entries-to-setup-add-ins-quick-status-and-help-links"></a>Добавление элементов в ссылки УСТАНОВКИ, НАДСТРОЕК, КРАТКОГО СОСТОЯНИЯ и СПРАВКИ
 

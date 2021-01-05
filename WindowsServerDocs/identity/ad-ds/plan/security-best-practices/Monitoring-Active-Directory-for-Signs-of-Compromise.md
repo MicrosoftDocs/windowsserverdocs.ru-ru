@@ -7,12 +7,12 @@ ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 30aa1010d1222b61ed21d2a3921d0166f24f7a79
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: 54dc9de562352f3b1106a6b0725ab368b449cac5
+ms.sourcegitcommit: e2dadc9b0c227a489a945bbc531aca5e101f18cd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97042482"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97801748"
 ---
 # <a name="monitoring-active-directory-for-signs-of-compromise"></a>Мониторинг Active Directory для обнаружения признаков компрометации
 
@@ -109,7 +109,7 @@ ms.locfileid: "97042482"
 
 На следующем снимке экрана показан пример auditpol.exe списка текущей политики аудита.
 
-![наблюдение за AD](media/Monitoring-Active-Directory-for-Signs-of-Compromise/SAD_5.gif)
+![Снимок экрана, на котором показан пример auditpol.exe перечисления текущей политики аудита.](media/Monitoring-Active-Directory-for-Signs-of-Compromise/SAD_5.gif)
 
 > [!NOTE]
 > Групповая политика не всегда точно сообщает о состоянии всех включенных политик аудита, в то время как auditpol.exe имеет значение. Дополнительные сведения см. [в статье получение эффективной политики аудита в Windows 7 и 2008 R2](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc731607(v=ws.10)) .
@@ -328,7 +328,7 @@ ms.locfileid: "97042482"
 
 Расширенную политику аудита можно задать с помощью Active Directory или локальных групповых политик. Чтобы задать расширенную политику аудита, настройте соответствующие подкатегории, расположенные в разделе **Конфигурация компьютера \ параметры безопасности \ Сеттингс\адванцед аудита политики** (см. следующий снимок экрана для примера из редактор локальных групповых политик (gpedit. msc)). Каждая подкатегория политики аудита может быть включена для событий **успешного выполнения**, **сбоя** или **успехов** и **сбоев** .
 
-![наблюдение за AD](media/Monitoring-Active-Directory-for-Signs-of-Compromise/SAD_7.gif)
+![Снимок экрана, на котором показан пример из редактор локальных групповых политик (gpedit. msc).](media/Monitoring-Active-Directory-for-Signs-of-Compromise/SAD_7.gif)
 
 ### <a name="setting-windows-audit-policy-using-auditpolexe"></a>Настройка политики аудита Windows с помощью Auditpol.exe
 
@@ -378,7 +378,7 @@ Auditpol.exe можно использовать для сохранения и 
 
 ## <a name="enforcing-traditional-auditing-or-advanced-auditing"></a>Применение традиционного аудита или расширенного аудита
 
-В Windows Server 2012, Windows Server 2008 R2, Windows Server 2008, Windows 8, Windows 7 и Windows Vista администраторы могут включить девять традиционных категорий или использовать подкатегории. Это двоичный вариант, который должен быть сделан в каждой системе Windows. Можно включить либо основные категории, либо субкатегориесит.
+В Windows Server 2012, Windows Server 2008 R2, Windows Server 2008, Windows 8, Windows 7 и Windows Vista администраторы могут включить девять традиционных категорий или использовать подкатегории. Это двоичный вариант, который должен быть сделан в каждой системе Windows. Либо основные категории могут быть включены, либо подкатегории, они не могут быть одновременно.
 
 Чтобы предотвратить перезапись подкатегорий политики аудита устаревшими традиционными политиками категорий, необходимо включить параметр **принудительно изменить параметры категории политики аудита (Windows Vista или более поздней версии), который** находится в разделе **Конфигурация компьютера**\ параметры Windows \ политики безопасности \ локальные политики.
 

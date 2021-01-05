@@ -1,18 +1,18 @@
 ---
 title: Добавление категорий верхнего уровня в панель запуска (операционная система Macintosh)
-description: Описание использования Windows Server Essentials
+description: Узнайте, как добавлять категории верхнего уровня на панель запуска на компьютере, работающем под управлением операционной системы Macintosh.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: ee2173c3-e464-4001-9f43-6d926a575092
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: 8becc3159dc1f9374b95bbc90b51a44ae0f224e4
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 09cbae3e6643e9ebd729c06646647b361374c787
+ms.sourcegitcommit: d2224cf55c5d4a653c18908da4becf94fb01819e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89624025"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "97711629"
 ---
 # <a name="add-top-level-categories-to-the-launchpad-macintosh-operating-system"></a>Добавление категорий верхнего уровня в панель запуска (операционная система Macintosh)
 

@@ -1,18 +1,18 @@
 ---
 title: Настройка и развертывание Windows Server Essentials
-description: Описание использования Windows Server Essentials
+description: Узнайте, как настраивать и развертывать Windows Server Essentials, используя сведения из комплекта средств для развертывания и оценки Windows, а также связанные статьи.
 ms.date: 09/13/2016
 ms.topic: article
 ms.assetid: d1c70cf2-0db8-4b75-af46-73620b9e81c8
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: c19a8058326551c9838312f297fa308da3e17887
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 9fadd058163c65e18006a06c8260655957ea62af
+ms.sourcegitcommit: d2224cf55c5d4a653c18908da4becf94fb01819e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89623591"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "97711039"
 ---
 # <a name="customize-and-deploy-windows-server-essentials"></a>Настройка и развертывание Windows Server Essentials
 

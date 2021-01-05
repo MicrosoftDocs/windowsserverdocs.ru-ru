@@ -1,18 +1,18 @@
 ---
 title: Изменение порядка и группировки вкладок
-description: Описание использования Windows Server Essentials
+description: Узнайте, как изменить порядок вкладок на панели мониторинга, чтобы вкладка была первой (слева) в строке вкладок.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 79a417fd-1b3e-47ab-ae33-bb1faf95c86d
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: 5a52f4b14423d1ef337cba9c2d18dbf4c196ca93
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: d9b657c31c13fa8ad3d08e9663bd65671e54ab57
+ms.sourcegitcommit: d2224cf55c5d4a653c18908da4becf94fb01819e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89623873"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "97711459"
 ---
 # <a name="change-the-order-and-grouping-of-tabs"></a>Изменение порядка и группировки вкладок
 

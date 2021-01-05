@@ -1,18 +1,18 @@
 ---
 title: Настройка задачи "Зарегистрироваться в Microsoft Online Backup Service"
-description: Описание использования Windows Server Essentials
+description: Узнайте, как настроить задачу регистрации в службе Microsoft Online Backup.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: a7eafbb3-7728-487e-b287-90bbd6fee7f0
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: c424be2d0815fbcb217e0453b27f4b7aceb07ee6
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 3c34e948da79d5b6a21b24da575d8b5b23022d96
+ms.sourcegitcommit: e00e789dff216dbade861e61365f078b758a5720
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89623636"
+ms.lasthandoff: 12/23/2020
+ms.locfileid: "97755110"
 ---
 # <a name="customize-sign-up-for-microsoft-online-backup-service-task"></a>Настройка задачи "Зарегистрироваться в Microsoft Online Backup Service"
 

@@ -1,23 +1,23 @@
 ---
 title: Создание DVD-диска восстановления сервера с многоязычной поддержкой
-description: Описание использования Windows Server Essentials
+description: Узнайте, как создать конфигурацию сервера и DVD-диск восстановления сервера для поддержки нескольких языков на локально администрируемых серверах.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: c7da0f6c-9732-4784-9c28-7dad72c4071d
 author: daveba
 ms.author: daveba
-ms.openlocfilehash: 3c415155734515af004e25a07c4e61afabaa3359
-ms.sourcegitcommit: 04637054de2bfbac66b9c78bad7bf3e7bae5ffb4
+ms.openlocfilehash: d17a7103233b25553eb67a2c7d025d4647cbbbc5
+ms.sourcegitcommit: d2224cf55c5d4a653c18908da4becf94fb01819e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87838013"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "97711329"
 ---
 # <a name="create-a-server-recovery-dvd-for-multi-language-support"></a>Создание DVD-диска восстановления сервера с многоязычной поддержкой
 
 >Область применения: Windows Server 2016 Essentials, Windows Server 2012 R2 Essentials, Windows Server 2012 Essentials
 
-##  <a name="create-a-server-setup-and-server-recovery-dvd-for-multiple-language-support-on-locally-administered-servers"></a><a name="BKMK_MLHeadedRecovery"></a>Создание конфигурации сервера и DVD-диска восстановления сервера для поддержки нескольких языков на локально администрируемых серверах
+##  <a name="create-a-server-setup-and-server-recovery-dvd-for-multiple-language-support-on-locally-administered-servers"></a><a name="BKMK_MLHeadedRecovery"></a> Создание конфигурации сервера и DVD-диска восстановления сервера для поддержки нескольких языков на локально администрируемых серверах
 
 > [!NOTE]
 >  Сначала необходимо создать многоязыковой образ Windows, как описано в разделе [Пошаговое руководство. Создание многоязыкового образа Windows](/previous-versions/windows/it-pro/windows-8.1-and-8/jj126995(v=win.10)) перед добавлением пакета Лангауаже для Windows Server Essentials в install. wim.
@@ -56,7 +56,7 @@ ms.locfileid: "87838013"
 
 -   DVD-диск языкового пакета Windows Server Essentials.
 
-###  <a name="adding-multiple-language-support"></a><a name="BKMK_Steps"></a>Добавление поддержки нескольких языков
+###  <a name="adding-multiple-language-support"></a><a name="BKMK_Steps"></a> Добавление поддержки нескольких языков
  Чтобы добавить поддержку нескольких языков в программа установки Windows вы обновите файл install. wim, добавив в него Windows Server 2012 и языковые пакеты Windows Server Essentials.
 
 #### <a name="update-installwim"></a>Обновление файла install.wim

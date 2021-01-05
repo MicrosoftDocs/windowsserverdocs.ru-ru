@@ -7,12 +7,12 @@ ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: aa7b3947c668634565ddbb0fd8df081a3f4b6347
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: a968ddd70aa74d571e939c3d2c21cbc24e572f5e
+ms.sourcegitcommit: d2224cf55c5d4a653c18908da4becf94fb01819e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97041682"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "97711769"
 ---
 # <a name="appendix-c-protected-accounts-and-groups-in-active-directory"></a>Приложение В. Защищенные учетные записи и группы в Active Directory
 
@@ -78,27 +78,27 @@ SDProp — это процесс, который выполняется кажд
 1. Запустите **Ldp.exe**.
 2. Щелкните **Подключение** в диалоговом окне LDP и нажмите кнопку **подключить**.
 
-   ![защищенные учетные записи и группы](media/Appendix-C--Protected-Accounts-and-Groups-in-Active-Directory/SAD_9.gif)
+   ![Снимок экрана, показывающий пункт меню "подключиться".](media/Appendix-C--Protected-Accounts-and-Groups-in-Active-Directory/SAD_9.gif)
 
 3. В диалоговом окне **Подключение** введите имя контроллера домена для домена, в котором находится роль эмулятора PDC (пдце), и нажмите кнопку **ОК**.
 
-   ![защищенные учетные записи и группы](media/Appendix-C--Protected-Accounts-and-Groups-in-Active-Directory/SAD_10.png)
+   ![Снимок экрана, на котором показано, где ввести имя контроллера домена для домена, в котором находится роль эмулятора PDC (ПДЦЕ).](media/Appendix-C--Protected-Accounts-and-Groups-in-Active-Directory/SAD_10.png)
 
 4. Убедитесь, что подключение установлено успешно, как указано **DN: (RootDSE)** на следующем снимке экрана, щелкните **Подключение** и нажмите кнопку **привязать**.
 
-   ![защищенные учетные записи и группы](media/Appendix-C--Protected-Accounts-and-Groups-in-Active-Directory/SAD_11.png)
+   ![Снимок экрана, на котором показано, где выбрать подключение, а затем — "привязка", чтобы убедиться в успешном подключении.](media/Appendix-C--Protected-Accounts-and-Groups-in-Active-Directory/SAD_11.png)
 
 5. В диалоговом окне **Привязка** введите учетные данные учетной записи пользователя, имеющей разрешение на изменение объекта RootDSE. (Если вы вошли в систему как пользователь, вы можете выбрать пункт **Привязать как** текущий пользователь в системе.) Нажмите кнопку **ОК**.
 
-   ![защищенные учетные записи и группы](media/Appendix-C--Protected-Accounts-and-Groups-in-Active-Directory/SAD_12.png)
+   ![Снимок экрана, на котором показано диалоговое окно "привязка".](media/Appendix-C--Protected-Accounts-and-Groups-in-Active-Directory/SAD_12.png)
 
 6. После завершения операции привязки нажмите кнопку **Обзор** и выберите **изменить**.
 
-   ![защищенные учетные записи и группы](media/Appendix-C--Protected-Accounts-and-Groups-in-Active-Directory/SAD_13.png)
+   ![Снимок экрана, показывающий пункт меню "Изменить" в меню "Обзор".](media/Appendix-C--Protected-Accounts-and-Groups-in-Active-Directory/SAD_13.png)
 
 7. В диалоговом окне **изменение** оставьте поле **DN** пустым. В поле **изменить атрибут записи** введите **фиксупинхеританце**, а в поле **значения** введите **Да**. Нажмите клавишу **Ввод** , чтобы заполнить **список записей** , как показано на следующем снимке экрана.
 
-   ![защищенные учетные записи и группы](media/Appendix-C--Protected-Accounts-and-Groups-in-Active-Directory/SAD_14.gif)
+   ![Снимок экрана, на котором показано диалоговое окно "изменение".](media/Appendix-C--Protected-Accounts-and-Groups-in-Active-Directory/SAD_14.gif)
 
 8. В диалоговом окне заполненное изменение нажмите кнопку выполнить и убедитесь, что изменения, внесенные в объект AdminSDHolder, появились на этом объекте.
 
@@ -107,7 +107,7 @@ SDProp — это процесс, который выполняется кажд
 
 Если вы предпочитаете выполнять SDProp вручную с помощью LDIFDE или сценария, можно создать запись изменения, как показано ниже:
 
-![защищенные учетные записи и группы](media/Appendix-C--Protected-Accounts-and-Groups-in-Active-Directory/SAD_15.gif)
+![Снимок экрана, показывающий, как можно создать запись изменения.](media/Appendix-C--Protected-Accounts-and-Groups-in-Active-Directory/SAD_15.gif)
 
 ###### <a name="running-sdprop-manually-in-windows-server-2012-or-windows-server-2008-r2"></a>Запуск SDProp вручную в Windows Server 2012 или Windows Server 2008 R2
 
@@ -117,19 +117,19 @@ SDProp — это процесс, который выполняется кажд
 
 2. В диалоговом окне **LDP** щелкните **Подключение** и нажмите кнопку **подключить**.
 
-   ![защищенные учетные записи и группы](media/Appendix-C--Protected-Accounts-and-Groups-in-Active-Directory/SAD_16.gif)
+   ![Снимок экрана, на котором показано диалоговое окно Ldp.](media/Appendix-C--Protected-Accounts-and-Groups-in-Active-Directory/SAD_16.gif)
 
 3. В диалоговом окне **Подключение** введите имя контроллера домена для домена, в котором находится роль эмулятора PDC (пдце), и нажмите кнопку **ОК**.
 
-   ![защищенные учетные записи и группы](media/Appendix-C--Protected-Accounts-and-Groups-in-Active-Directory/SAD_17.gif)
+   ![Снимок экрана, показывающий диалоговое окно "подключение".](media/Appendix-C--Protected-Accounts-and-Groups-in-Active-Directory/SAD_17.gif)
 
 4. Убедитесь, что подключение установлено успешно, как указано **DN: (RootDSE)** на следующем снимке экрана, щелкните **Подключение** и нажмите кнопку **привязать**.
 
-   ![защищенные учетные записи и группы](media/Appendix-C--Protected-Accounts-and-Groups-in-Active-Directory/SAD_18.gif)
+   ![Снимок экрана, показывающий пункт меню "привязка" в меню "соединение".](media/Appendix-C--Protected-Accounts-and-Groups-in-Active-Directory/SAD_18.gif)
 
 5. В диалоговом окне **Привязка** введите учетные данные учетной записи пользователя, имеющей разрешение на изменение объекта RootDSE. (Если вы вошли в систему как пользователь, вы можете выбрать пункт **Привязать как текущий пользователь в системе**.) Нажмите кнопку **ОК**.
 
-   ![защищенные учетные записи и группы](media/Appendix-C--Protected-Accounts-and-Groups-in-Active-Directory/SAD_19.gif)
+   ![Снимок экрана, на котором показано, где ввести учетные данные учетной записи пользователя, имеющей разрешение на изменение объекта rootDSE.](media/Appendix-C--Protected-Accounts-and-Groups-in-Active-Directory/SAD_19.gif)
 
 6. После завершения операции привязки нажмите кнопку **Обзор** и выберите **изменить**.
 
@@ -137,10 +137,10 @@ SDProp — это процесс, который выполняется кажд
 
 7. В диалоговом окне **изменение** оставьте поле **DN** пустым. В поле **изменить атрибут записи** введите **рунпротектадминграупстаск**, а в поле **значения** введите **1**. Нажмите клавишу **Ввод** , чтобы заполнить список записей, как показано ниже.
 
-   ![защищенные учетные записи и группы](media/Appendix-C--Protected-Accounts-and-Groups-in-Active-Directory/SAD_21.gif)
+   ![Снимок экрана, на котором показано поле "изменить атрибут записи".](media/Appendix-C--Protected-Accounts-and-Groups-in-Active-Directory/SAD_21.gif)
 
 8. В диалоговом окне заполненное **изменение** нажмите кнопку **выполнить** и убедитесь, что изменения, внесенные в объект adminSDHolder, появились на этом объекте.
 
 Если вы предпочитаете выполнять SDProp вручную с помощью LDIFDE или сценария, можно создать запись изменения, как показано ниже:
 
-![защищенные учетные записи и группы](media/Appendix-C--Protected-Accounts-and-Groups-in-Active-Directory/SAD_22.gif)
+![Снимок экрана, показывающий, что делать, если вы предпочитаете выполнять SDProp вручную с помощью LDIFDE или сценария.](media/Appendix-C--Protected-Accounts-and-Groups-in-Active-Directory/SAD_22.gif)

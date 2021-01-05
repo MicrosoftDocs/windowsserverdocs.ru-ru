@@ -1,18 +1,18 @@
 ---
 title: Добавление имен доменов третьего уровня
-description: Описание использования Windows Server Essentials
+description: Узнайте, как добавить возможность для пользователей запрашивать имена доменов третьего уровня в мастере настройки доменных имен.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: e5b4a362-1881-4024-ae4e-cc3b05e50103
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: dd68308646eba5fba2f79593cba82de467c1888b
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: d5658ade3fbffe3d1b9517a83ea1c10a03616753
+ms.sourcegitcommit: d2224cf55c5d4a653c18908da4becf94fb01819e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89626360"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "97711639"
 ---
 # <a name="add-third-level-domain-names"></a>Добавление имен доменов третьего уровня
 

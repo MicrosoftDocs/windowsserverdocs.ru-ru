@@ -1,18 +1,18 @@
 ---
 title: Интеграция служб Azure Site Recovery
-description: Описание использования Windows Server Essentials
+description: Узнайте, как использовать службы Azure Site Recovery для создания репликации виртуальных машин (ВМ) в режиме реального времени, которые хранятся в хранилище резервных копий в Azure.
 ms.date: 10/01/2016
 ms.topic: article
 ms.assetid: 262701a6-8a97-4c4e-bfbf-9f8007c308d6
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: aa84ae8f3d11631b76d2e85e6a50f309eb83dd74
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 1f6d0f69bdec22c264bfdea6a232892accafe414
+ms.sourcegitcommit: 8e330f9066097451cd40e840d5f5c3317cbc16c2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89622582"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "97696874"
 ---
 # <a name="azure-site-recovery-services-integration"></a>Интеграция служб Azure Site Recovery
 
@@ -60,7 +60,7 @@ ms.locfileid: "89622582"
 
 В любом из трех перечисленных выше случаев при отработки отказа виртуальной машины в Azure на панели мониторинга Windows Server Essentials отобразится новая виртуальная машина в Azure, как показано на рисунке ниже.
 
-![Снимок экрана, показывающий страницу восстановления Azure панели мониторинга Windows Server Essentials. Репликация в Azure включена для узла Essentials, а виртуальная машина с именем Essentials-Test, выполняемая в Azure, указывает, что узел отработка отказа в Azure.](media/azure-site-recovery-8.PNG)
+![Снимок экрана, показывающий страницу восстановления Azure панели мониторинга Windows Server Essentials. Репликация в Azure включена для узла Essentials, а виртуальная машина с именем Essentials-Test, запущенная в Azure, указывает, что узел отработка отказа в Azure.](media/azure-site-recovery-8.PNG)
 
 <a name="see-also"></a>См. также раздел
 --------

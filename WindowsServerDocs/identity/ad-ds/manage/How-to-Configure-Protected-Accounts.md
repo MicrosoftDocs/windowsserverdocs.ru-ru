@@ -7,12 +7,12 @@ ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 1e4aff28a2212b678770cb9f78400e1db48cf8ec
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: b8dd22072326398f20477dbb65ebf3e1adf1164a
+ms.sourcegitcommit: d2224cf55c5d4a653c18908da4becf94fb01819e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97049622"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "97711809"
 ---
 # <a name="guidance-about-how-to-configure-protected-accounts"></a>Руководство по настройке защищенных учетных записей
 
@@ -89,7 +89,7 @@ ms.locfileid: "97049622"
 #### <a name="troubleshoot-tgt-expiration"></a>Диагностика неполадок, связанных с временем жизни TGT
 В общем случае контроллер домена устанавливает время жизни TGT и срок его продления в зависимости от политики домена, как видно в окне редактора управления групповыми политиками на следующем рисунке.
 
-![защищенные учетные записи](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_TGTExpiration.png)
+![Снимок экрана, на котором показано окно редактор "Управление групповыми политиками".](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_TGTExpiration.png)
 
 Для группы **Защищенные пользователи** строго определены следующие параметры.
 
@@ -100,7 +100,7 @@ ms.locfileid: "97049622"
 #### <a name="troubleshoot-delegation-issues"></a>Диагностика неполадок, связанных с делегированием
 Ранее, если технология, использующая делегирование Kerberos, выходила из строя, проверялось, установлен ли для учетной записи клиента параметр **Учетная запись важна и не может быть делегирована**. Однако если учетная запись клиента входит в группу **Защищенные пользователи**, этот параметр может быть не настроен в центре администрирования Active Directory (ADAC). Поэтому в случае проблем с делегированием следует проверить, установлен ли указанный параметр и входит ли учетная запись в группу "Защищенные пользователи".
 
-![защищенные учетные записи](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_TshootDelegation.gif)
+![Снимок экрана, на котором отмечена учетная запись конфиденциальная и не может быть делегирована.](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_TshootDelegation.gif)
 
 ### <a name="audit-authentication-attempts"></a><a name="BKMK_AuditAuthNattempts"></a>Аудит попыток проверки подлинности
 Для явного аудита попыток проверки подлинности членов группы **Защищенные пользователи** вы можете продолжить сохранять события аудита в журнале безопасности или же собирать данные в новых операционных журналах администрирования. Подробную информацию см. в разделе [Политики проверки подлинности и приемники команд политик проверки подлинности](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn486813(v=ws.11)).
@@ -121,14 +121,14 @@ ms.locfileid: "97049622"
 
 -   Запретить ограниченное и неограниченное делегирование: чтобы ограничить учетную запись, откройте центр администрирования Active Directory (ADAC) и отметьте флажком параметр **Учетная запись важна и не может быть делегирована** .
 
-    ![защищенные учетные записи](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_TshootDelegation.gif)
+    ![Снимок экрана, показывающий, как ограничить учетную запись.](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_TshootDelegation.gif)
 
 ## <a name="authentication-policies"></a><a name="BKMK_CreateAuthNPolicies"></a>Политики аутентификации
 Политики проверки подлинности — новый контейнер доменных служб Active Directory, содержащий объекты политики проверки подлинности. Вы можете настроить политики проверки подлинности, чтобы защититься от кражи учетных данных, например ограничить время жизни TGT для учетных записей или добавить прочие условия, связанные с утверждениями.
 
 В Windows Server 2012 динамический контроль доступа представил Active Directory класс объекта области леса, именуемый Центральной политикой доступа, чтобы обеспечить простой способ настройки файловых серверов в Организации. В Windows Server 2012 R2 для применения конфигурации проверки подлинности к классам учетных записей в доменах Windows Server 2012 R2 можно использовать новый класс объектов, именуемый политикой проверки подлинности (objectClass msDS-АуснполиЦиес). Классы учетных записей Active Directory.
 
--   Пользователь
+-   User (Пользователь)
 
 -   Компьютер
 
@@ -137,7 +137,7 @@ ms.locfileid: "97049622"
 ### <a name="quick-kerberos-refresher"></a>Быстрое обновление Kerberos
 Протокол проверки подлинности Kerberos использует три способа обмена, также известных как подпротоколы.
 
-![защищенные учетные записи](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_KerbRefresher.gif)
+![Схема, в которой показаны три типа обмена сообщениями в протоколе проверки подлинности Kerberos.](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_KerbRefresher.gif)
 
 -   Обмен AS — обмен службы проверки подлинности (KRB_AS_*)
 
@@ -162,7 +162,7 @@ ms.locfileid: "97049622"
 
 -   Условия управления доступом для ограничения входа пользователей, которые должны выполняться устройствами, инициирующими обмен AS.
 
-![защищенные учетные записи](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_RestrictAS.gif)
+![Снимок экрана, показывающий, как ограничить начальную проверку подлинности или Exchange.](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_RestrictAS.gif)
 
 Вы можете ограничить запросы билетов служб с помощью обмена TGS, настроив
 
@@ -188,14 +188,14 @@ ms.locfileid: "97049622"
 
 1.  В окне настройки политики контроллеров доменов по умолчанию выберите пункт **Включена**, чтобы включить **Поддержку центра распространения ключей для утверждений, комплексной проверки подлинности и защиты Kerberos** по следующему адресу: Конфигурация компьютера | Административные шаблоны | Система | KDC.
 
-    ![защищенные учетные записи](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_EnableKDCClaims.gif)
+    ![Снимок экрана, в котором выделяется параметр "включено".](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_EnableKDCClaims.gif)
 
 2.  В поле **Параметры** в раскрывающемся списке выберите **Всегда предоставлять утверждения**.
 
     > [!NOTE]
     > **Поддерживается** также параметр, но так как домен находится в Windows Server 2012 R2 ДФЛ, если контроллеры доменов всегда предоставляют утверждения, то при использовании устройств и узлов, не поддерживающих утверждения, для подключения к службам, поддерживающим утверждения, они будут выполнять проверку доступа на основе утверждений.
 
-    ![защищенные учетные записи](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_AlwaysProvideClaims.png)
+    ![Снимок экрана, посвященный пункту меню "всегда предоставлять утверждение".](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_AlwaysProvideClaims.png)
 
     > [!WARNING]
     > Настройка **незащищенных запросов на проверку** подлинности приведет к ошибкам проверки подлинности из любой операционной системы, которая не поддерживает защиту Kerberos, например Windows 7 и предыдущие операционные системы, или операционные системы, начиная с Windows 8, которые не были настроены для поддержки явным образом.
@@ -204,24 +204,24 @@ ms.locfileid: "97049622"
 
 1.  Откройте центр администрирования Active Directory (ADAC).
 
-    ![защищенные учетные записи](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_OpenADAC.gif)
+    ![Снимок экрана, на котором показана страница проверки подлинности.](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_OpenADAC.gif)
 
     > [!NOTE]
     > Выбранный узел **проверки подлинности** является видимым для доменов, которые находятся в Windows Server 2012 R2 ДФЛ. Если узел не отображается, повторите попытку, используя учетную запись администратора домена из домена, который находится на сервере Windows Server 2012 R2 ДФЛ.
 
 2.  Щелкните **Политики проверки подлинности** и нажмите **Новая**, чтобы создать новую политику.
 
-    ![защищенные учетные записи](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_NewAuthNPolicy.gif)
+    ![Снимок экрана, показывающий, как создать новую политику.](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_NewAuthNPolicy.gif)
 
     Политики проверки подлинности должны иметь отображаемое имя и используются по умолчанию.
 
 3.  Чтобы создать политику только для аудита, щелкните **Ограничения политики только для аудита**.
 
-    ![защищенные учетные записи](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_NewAuthNPolicyAuditOnly.gif)
+    ![Снимок экрана, на котором выделены только ограничения политики аудита.](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_NewAuthNPolicyAuditOnly.gif)
 
     Политики проверки подлинности применяются в зависимости от типа учетной записи Active Directory. Одна политика может применяться ко всем трем типам учетных записей, если для каждого типа настроить необходимые параметры. Типы учетных записей
 
-    -   Пользователь
+    -   User (Пользователь)
 
     -   Компьютер
 
@@ -231,107 +231,107 @@ ms.locfileid: "97049622"
 
 4.  Чтобы настроить время жизни TGT для учетных записей пользователей, отметьте флажком пункт **Указать время жизни билетов предоставления билета** и введите время в минутах.
 
-    ![защищенные учетные записи](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_TGTLifetime.gif)
+    ![Снимок экрана, посвященный указанию флажка "указать срок жизни билета Ticket-Granting для учетных записей пользователей".](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_TGTLifetime.gif)
 
     Например, если вы хотите, чтобы TGT действовал 10 часов, введите **600**, как показано на рисунке. Если значение не указано и учетная запись входит в группу **Protected Users**, время жизни TGT и время продления устанавливаются на 4 часа. В противном случае время жизни TGT и время продления определяются политикой домена, как видно в окне редактора управления групповыми политиками для домена с настройками по умолчанию.
 
-    ![защищенные учетные записи](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_TGTExpiration.png)
+    ![Снимок экрана, показывающий параметры политики по умолчанию.](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_TGTExpiration.png)
 
 5.  Чтобы запретить для учетной записи пользователя выбор устройств, щелкните **Изменить** и укажите требования.
 
-    ![защищенные учетные записи](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_EditAuthNPolicy.gif)
+    ![Снимок экрана, показывающий, как ограничить учетную запись пользователя для выбора устройств.](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_EditAuthNPolicy.gif)
 
 6.  В окне **Изменения условий управления доступом** щелкните **Добавить условие**.
 
-    ![защищенные учетные записи](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_AddCondition.png)
+    ![Снимок экрана, посвященный добавлению условия.](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_AddCondition.png)
 
 ##### <a name="add-computer-account-or-group-conditions"></a>Добавление условий для учетной записи компьютера или группы
 
 1.  Чтобы настроить учетные записи компьютеров или группы, в раскрывающемся списке измените пункт **Члены каждой** на **Члены любой**.
 
-    ![защищенные учетные записи](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_AddCompMember.png)
+    ![Снимок экрана, на котором выделены элементы каждого списка.](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_AddCompMember.png)
 
     > [!NOTE]
     > Управление доступом определяет условия для устройства или главного компьютера, с помощью которого пользователь выполняет вход. Согласно терминологии управления доступом, учетная запись компьютера для устройства или главного компьютера является пользователем, поэтому **Пользователь** — единственный доступный вариант в соответствующем поле.
 
 2.  Щелкните **Добавить элементы**.
 
-    ![защищенные учетные записи](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_AddCompAddItems.png)
+    ![Снимок экрана, на котором выделена кнопка "добавить элементы".](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_AddCompAddItems.png)
 
 3.  Чтобы изменить типы объектов, щелкните **Типы объектов**.
 
-    ![защищенные учетные записи](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_ChangeObjects.gif)
+    ![Снимок экрана, на котором выделена кнопка "типы объектов".](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_ChangeObjects.gif)
 
 4.  Чтобы выбрать объекты компьютеров из Active Directory, щелкните **Компьютеры**, а затем нажмите **OK**.
 
-    ![защищенные учетные записи](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_ChangeObjectsComputers.gif)
+    ![Снимок экрана, покрывающий флажок компьютеров.](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_ChangeObjectsComputers.gif)
 
 5.  Чтобы ограничить пользователя, введите имена компьютеров и щелкните **Проверить имена**.
 
-    ![защищенные учетные записи](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_ChangeObjectsCompName.gif)
+    ![Снимок экрана, на котором показаны имена для проверки.](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_ChangeObjectsCompName.gif)
 
 6.  Щелкните "ОК" и создайте остальные необходимые условия для учетной записи компьютера.
 
-    ![защищенные учетные записи](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_AddCompAddConditions.png)
+    ![Снимок экрана, показывающий, как изменить условия контроля доступа.](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_AddCompAddConditions.png)
 
 7.  После этого нажмите **OK**, и установленные условия отобразятся для учетной записи компьютера.
 
-    ![защищенные учетные записи](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_AddCompDone.png)
+    ![Снимок экрана, на котором показано, где можно нажать кнопку ОК после завершения.](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_AddCompDone.png)
 
 ##### <a name="add-computer-claim-conditions"></a>Добавление утверждений компьютера
 
 1.  Чтобы настроить утверждения компьютера, откройте раскрывающийся список, в котором указано "Группа".
 
-    ![защищенные учетные записи](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_CompClaim.gif)
+    ![Снимок экрана, на котором показано, где выбрать группу.](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_CompClaim.gif)
 
     Утверждения будут доступны лишь в случае, если они были предварительно подготовлены в лесу.
 
 2.  Выберите организационное подразделение, возможности входа для учетной записи пользователя должны быть ограничены.
 
-    ![защищенные учетные записи](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_CompClaimOUName.gif)
+    ![Снимок экрана, на котором показано, где можно ввести имя.](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_CompClaimOUName.gif)
 
 3.  После этого щелкните "OK", и в соответствующем поле отобразится добавленное условие.
 
-    ![защищенные учетные записи](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_CompClaimComplete.gif)
+    ![Снимок экрана, на котором показаны определенные условия.](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_CompClaimComplete.gif)
 
 ##### <a name="troubleshoot-missing-computer-claims"></a>Диагностика неполадок, связанных с пропавшими утверждениями компьютера
 Если утверждения были подготовлены, но стали недоступными, они могли быть настроены только для класса **Компьютер**.
 
 Предположим, что необходимо ограничить проверку подлинности на основе подразделения компьютера (OU), который уже настроен, но только для классов **компьютеров** .
 
-![защищенные учетные записи](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_RestrictComputers.gif)
+![Снимок экрана, покрывающий флажок компьютера.](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_RestrictComputers.gif)
 
 Чтобы утверждение стало доступным и пользовательские возможности подключения к устройству ограничились, поставьте флажок рядом с пунктом **Пользователь**.
 
-![защищенные учетные записи](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_RestrictUsersComputers.gif)
+![Снимок экрана, покрывающий флажок для пользователя.](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_RestrictUsersComputers.gif)
 
 #### <a name="provision-a-user-account-with-an-authentication-policy-with-adac"></a>Применение политики проверки подлинности для учетной записи пользователя с помощью ADAC
 
 1.  В **Учетной записи пользователя** щелкните **Политика**.
 
-    ![защищенные учетные записи](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_UserPolicy.gif)
+    ![Снимок экрана, на котором показано, где выбрать политику.](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_UserPolicy.gif)
 
 2.  Отметьте флажком пункт **Применить политику проверки подлинности для учетной записи**.
 
-    ![защищенные учетные записи](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_UserPolicyAssign.gif)
+    ![Снимок экрана, посвященный флажку "назначить политику проверки подлинности для этой учетной записи".](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_UserPolicyAssign.gif)
 
 3.  После этого выберите необходимую политику проверки подлинности.
 
-    ![защищенные учетные записи](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_UserPolicySelect.png)
+    ![Снимок экрана, на котором показано, где выбрать политику проверки подлинности для применения.](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_UserPolicySelect.png)
 
 #### <a name="configure-dynamic-access-control-support-on-devices-and-hosts"></a>Настройка поддержки динамического контроля доступа для устройств и главных компьютеров
 Вы можете настроить время жизни TGT, не настраивая динамический контроль доступа (DAC). Динамический контроль доступа используется лишь в случае необходимости проверки параметров AllowedToAuthenticateFrom и AllowedToAuthenticateTo.
 
 В редакторе групповых политик или локальных групповых политик активируйте пункт **Поддержка клиентом Kerberos утверждений, комплексной проверки подлинности и защиты Kerberos**, расположенный по следующему адресу: Конфигурация компьютера | Административные шаблоны | Система:
 
-![защищенные учетные записи](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_KerbClientDACSupport.gif)
+![Снимок экрана, на котором показано, где можно выбрать параметр "включено".](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_KerbClientDACSupport.gif)
 
 ### <a name="troubleshoot-authentication-policies"></a><a name="BKMK_TroubleshootAuthnPolicies"></a>Диагностика неполадок политик проверки подлинности
 
 #### <a name="determine-the-accounts-that-are-directly-assigned-an-authentication-policy"></a>Определите учетные записи, для которых была напрямую задана политика проверки подлинности.
 В разделе учетных записей в настройках политик проверки подлинности показаны учетные записи, для которых была напрямую назначена политика проверки подлинности.
 
-![защищенные учетные записи](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_AccountsAssigned.gif)
+![Снимок экрана, показывающий, как определить учетные записи, которым непосредственно назначена политика проверки подлинности.](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_AccountsAssigned.gif)
 
 #### <a name="use-the-authentication-policy-failures---domain-controller-administrative-log"></a>Использование сбоев политики проверки подлинности — Журнал администрирования контроллера домена
 Новые **сбои политики проверки подлинности — Журнал администрирования контроллера домена** в разделе **журналы приложений и служб**  >    >    >  **Проверка подлинности** Microsoft Windows была создана для упрощения обнаружения сбоев из-за политик проверки подлинности. По умолчанию он неактивен. Чтобы активировать его, щелкните правой кнопкой мыши по названию журнала и выберите пункт **Включить журнал**. Новые события по содержанию очень похожи на события аудита билетов предоставления билетов Kerberos и билетов служб. Дополнительные сведения об этих событиях см. в разделе [политики проверки подлинности и приемники политик проверки подлинности](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn486813(v=ws.11)).
@@ -424,7 +424,7 @@ PS C:\> Get-ADAuthenticationPolicy -Filter 'Enforce -eq $false' | Remove-ADAuthe
 
 2.  В поле **Отображаемое имя** укажите имя для приемника команд. В разделе **Разрешенные учетные записи** щелкните **Добавить**, укажите названия учетных записей и нажмите **OK**. Вы можете использовать учетные записи пользователей, компьютеров или служб. После этого выберите, будет ли для всех субъектов использоваться одна политика или же для каждого типа субъекта следует задействовать отдельную, а также введите имя (имена) политики (политик).
 
-    ![защищенные учетные записи](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_NewAuthNPolicySiloDisplayName.gif)
+    ![Снимок экрана, показывающий, как добавить разрешенную учетную запись.](media/How-to-Configure-Protected-Accounts/ADDS_ProtectAcct_NewAuthNPolicySiloDisplayName.gif)
 
 ### <a name="manage-authentication-policy-silos-by-using-windows-powershell"></a><a name="BKMK_ManageAuthnSilosUsingPSH"></a>Управление приемниками команд политик проверки подлинности с помощью Windows PowerShell
 Эта команда создает объект приемника команд политик проверки подлинности и применяет его.

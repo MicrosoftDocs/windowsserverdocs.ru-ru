@@ -1,18 +1,18 @@
 ---
 title: Интеграция локального сервера Exchange Server с Windows Server Essentials
-description: Описание использования Windows Server Essentials
+description: Узнайте, как настроить и интегрировать локальный сервер, на котором работает Exchange Server, с сервером под управлением Windows Server Essentials.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: b56a21e2-c9e3-4ba9-97d9-719ea6a0854b
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: a0dd4b7469aa44773d978da7d5afd68eac57bff3
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: aef1d55d3743dcee483b4e6e9e1cca5ae33682e9
+ms.sourcegitcommit: e00e789dff216dbade861e61365f078b758a5720
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89623312"
+ms.lasthandoff: 12/23/2020
+ms.locfileid: "97755330"
 ---
 # <a name="integrate-an-on-premises-exchange-server-with-windows-server-essentials"></a>Интеграция локального сервера Exchange Server с Windows Server Essentials
 
@@ -359,18 +359,18 @@ New-SendConnector -Name "WSE Internet SendConnector" -Usage "Internet" -AddressS
 
    - В случае чистой установки выполните следующую команду:
 
-      **Аррконфиг config —** _путь к сертификату для имени узла файла сертификата_ **—** _имена узлов для Exchange Server_ .
+      `ARRConfig config  -cert`_путь к файлу сертификата_ `-hostnames` _имена узлов для Exchange Server_
 
      > [!NOTE]
-     >  Например, **Аррконфиг config-CERT** _к:\темп\цертификате.пфкс_ **— имена узлов** _mail.contoso.com_
+     >  Например: `ARRConfig config  -cert` _c:\temp\certificate.pfx_ `-hostnames` _mail.contoso.com_
      >
      >  Замените *mail.contoso.com* именем вашего домена, для которого выдан сертификат.
 
    - В случае миграции с Windows Small Business Server выполните следующую команду:
 
-      **Аррконфиг config —** _путь к сертификату для имени узла файла сертификата_ **—** _имена узлов для сервера Exchange Server_ **— TargetServer** _имя сервера Exchange_ .
+      `ARRConfig config  -cert`_путь к файлу сертификата_ `-hostnames` _имена узлов для Exchange Server_ `-targetserver` _имя сервера Exchange Server_
 
-      Например, **Аррконфиг config-CERT** _к:\темп\цертификате.пфкс_ **-HostName** _mail.contoso.com_ **-TargetServer** _ексчанжесвр_
+      Например, `ARRConfig config  -cert` _к:\темп\цертификате.пфкс_ `-hostnames` _mail.contoso.com_ `-targetserver` _ексчанжесвр_
 
       Замените *mail.contoso.com* именем вашего домена. Замените *ExchangeSvr* именем вашего сервера Exchange Server.
 
@@ -419,7 +419,7 @@ New-SendConnector -Name "WSE Internet SendConnector" -Usage "Internet" -AddressS
 > [!NOTE]
 >  Если вы используете ActiveSync, но не можете синхронизировать электронную почту для некоторых учетных записей, определите, являются ли эти учетные записи членами одной или нескольких защищенных групп, таких как "Администраторы домена". Дополнительные сведения, которые могут помочь в решении этой проблемы, см. в статье [Служба Exchange ActiveSync возвратила ошибку HTTP 500](https://technet.microsoft.com/library/dd439375\(EXCHG.80\).aspx).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
  Дополнительные сведения об интеграции локального сервера Exchange:
 
 ### <a name="what-happens-if-i-disable-exchange-integration"></a>Что произойдет, если отключить интеграцию Exchange?

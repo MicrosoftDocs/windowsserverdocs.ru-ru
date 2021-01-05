@@ -1,18 +1,18 @@
 ---
 title: Комплект средств для развертывания и оценки для Windows Server Essentials
-description: Описание использования Windows Server Essentials
+description: Узнайте о комплекте средств для развертывания и оценки для Windows Server Essentials, который представляет собой набор инструментов, двоичных файлов и языковых пакетов операционной системы.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: ef3a7934-e36f-40d8-9e0b-7ed59089f85e
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: 6198e8d8e06a76b9768f5c1166b438639d2ffca2
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 991ffd45a2e4af4bdfabc569a40b6f26467d7dc1
+ms.sourcegitcommit: d2224cf55c5d4a653c18908da4becf94fb01819e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89623978"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "97711579"
 ---
 # <a name="assessment-and-deployment-kit-for-windows-server-essentials"></a>Комплект средств для развертывания и оценки для Windows Server Essentials
 
@@ -71,7 +71,7 @@ ms.locfileid: "89623978"
 
     -   [Добавление информации о зарегистрированном партнере, заключившем партнерское соглашение об интерактивных службах Майкрософт](Add-Microsoft-Online-Service-Partner-Agreement-Partner-of-Record-Information.md)
 
-    -   [Замените модуль интеграции Microsoft 365 купить-try URL-адрес конечной точки для поддержки соглашения торгового посредника Microsoft Online Service](Replace-O365-Integration-Module-Buy-Try-Endpoint-URL-in-Support-of-Microsoft-Online-Service-Reseller-Agreement.md)
+    -   [Замена URL-адресов конечных точек при покупке или ознакомлении для модуля интеграции Microsoft 365 в рамках поддержки по соглашению с торговым посредником интернет-служб Майкрософт](Replace-O365-Integration-Module-Buy-Try-Endpoint-URL-in-Support-of-Microsoft-Online-Service-Reseller-Agreement.md)
 
     -   [Создание DVD-диска восстановления сервера для удаленно администрируемых серверов](Create-a-Server-Recovery-DVD-for-Remotely-Administered-Servers.md)
 

@@ -1,18 +1,18 @@
 ---
 title: Тестирование работы пользователей
-description: Описание использования Windows Server Essentials
+description: Узнайте, как выполнить начальную настройку целевого компьютера, чтобы проверить работу клиента и проверить настройки партнеров.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 1b1a2040-4cfd-48bf-8d04-3ffde9c26b9b
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: c109fbd7ef2e4852e296f893ae8981ba8feeaed8
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: afe9ec09266eb57c25b0dea158a434da200573b5
+ms.sourcegitcommit: e00e789dff216dbade861e61365f078b758a5720
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89623331"
+ms.lasthandoff: 12/23/2020
+ms.locfileid: "97755350"
 ---
 # <a name="testing-the-customer-experience"></a>Тестирование работы пользователей
 

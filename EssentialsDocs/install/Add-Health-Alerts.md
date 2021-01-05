@@ -1,18 +1,18 @@
 ---
 title: Добавление оповещений о работоспособности
-description: Описание использования Windows Server Essentials
+description: Узнайте, как установить надстройку работоспособности, чтобы предоставить определения для оповещений, проверок работоспособности и устранения проблем с сетью.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 270e0aac-dc42-46f3-a20b-a68ffbded06d
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: 3a3c04a48e06ef0040943b866eaf1ddb0be8fa89
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 9c57e364e4596427b8a2f07c7e67e2573a21ba78
+ms.sourcegitcommit: d2224cf55c5d4a653c18908da4becf94fb01819e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89624072"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "97711659"
 ---
 # <a name="add-health-alerts"></a>Добавление оповещений о работоспособности
 

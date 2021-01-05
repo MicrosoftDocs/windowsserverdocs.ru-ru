@@ -7,12 +7,12 @@ ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 304533d7f6b810a8db338b09a5959e987a922baa
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: 2cc9fa031ea41bddf76285cdeabb3ed33a10688a
+ms.sourcegitcommit: d2224cf55c5d4a653c18908da4becf94fb01819e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97049352"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "97711759"
 ---
 # <a name="spn-and-upn-uniqueness"></a>Уникальность имен участников-служб и участников-пользователей
 
@@ -26,7 +26,7 @@ ms.locfileid: "97049352"
 ## <a name="overview"></a>Обзор
 Контроллеры домена под Windows Server 2012 R2 блокируют создание повторяющихся имен субъектов-служб (SPN) и имен участников-пользователей (UPN). Это относится к созданию дубликатов в случае восстановления или повторной анимации удаленного объекта или переименования объекта.
 
-### <a name="background"></a>История
+### <a name="background"></a>Историческая справка
 Дублирование имен субъектов-служб (SPN) обычно происходит, что приводит к ошибкам проверки подлинности и может привести к чрезмерному использованию процессора службой LSASS. Нет встроенного метода для блокирования добавления повторяющегося имени субъекта-службы или UPN. *
 
 Дублирующиеся значения имени участника-пользователя нарушают синхронизацию между локальной службой AD и Office 365.
@@ -59,29 +59,29 @@ ms.locfileid: "97049352"
 ### <a name="dsamsc"></a>DSA. msc
 Выбранное имя входа пользователя уже используется в этом предприятии. Выберите другое имя для входа и повторите попытку.
 
-![Уникальность имен участников-служб и участников-пользователей](media/SPN-and-UPN-uniqueness/GTR_ADDS_Fig01_DupUPN.gif)
+![Снимок экрана, на котором отображается сообщение о том, что выбранное имя для входа уже используется.](media/SPN-and-UPN-uniqueness/GTR_ADDS_Fig01_DupUPN.gif)
 
 Изменить существующую учетную запись:
 
 Указанное имя входа пользователя уже существует в Организации. Укажите новое значение, изменив префикс или выбрав другой суффикс из списка.
 
-![Уникальность имен участников-служб и участников-пользователей](media/SPN-and-UPN-uniqueness/GTR_ADDS_Fig02_DupUPNMod.gif)
+![Снимок экрана, на котором отображается сообщение с именем входа, которое вы уже использовали в Организации.](media/SPN-and-UPN-uniqueness/GTR_ADDS_Fig02_DupUPNMod.gif)
 
 ### <a name="active-directory-administrative-center-dsacexe"></a>Центр администрирования Active Directory (DSAC.exe)
 При попытке создать нового пользователя в центр администрирования Active Directory с именем участника-пользователя, которое уже существует, будет выдаваться следующая ошибка.
 
-![Уникальность имен участников-служб и участников-пользователей](media/SPN-and-UPN-uniqueness/GTR_ADDS_Fig03_DupUPNADAC.gif)
+![Снимок экрана, на котором отображается сообщение о том, что новый пользователь не был создан.](media/SPN-and-UPN-uniqueness/GTR_ADDS_Fig03_DupUPNADAC.gif)
 
 **Рис. номер \\ \* арабского 1 ошибка, отображаемая в центре администрирования Active Directory при неудачном создании нового пользователя из-за повторяющегося UPN**
 
 ### <a name="event-2974-source-activedirectory_domainservice"></a>Источник события 2974: ActiveDirectory_DomainService
-![Уникальность имен участников-служб и участников-пользователей](media/SPN-and-UPN-uniqueness/GTR_ADDS_Fig04_Event2974.gif)
+![Снимок экрана, показывающий ](media/SPN-and-UPN-uniqueness/GTR_ADDS_Fig04_Event2974.gif)
 
 **Рис. SEQ. \\ \* Арабский 2 событие с кодом 2974 с ошибкой 8648**
 
 В событии 2974 отображается заблокированное значение и список из одного или нескольких объектов (до 10), которые уже содержат это значение.  На следующем рисунке видно, что значение атрибута UPN **<em>dhunt@blue.contoso.com</em>** уже существует в четырех других объектах.  Поскольку это новая функция в Windows Server 2012 R2, случайное создание дубликатов UPN и SPN в смешанной среде по-прежнему будет происходить, когда контроллеры домена нижнего уровня будут обрабатывать попытки записи.
 
-![Уникальность имен участников-служб и участников-пользователей](media/SPN-and-UPN-uniqueness/GTR_ADDS_Fig05_Event2974ShowAllDups.gif)
+![Снимок экрана, на котором показан Арабский 2 события с кодом 2974, ошибка 8648.](media/SPN-and-UPN-uniqueness/GTR_ADDS_Fig05_Event2974ShowAllDups.gif)
 
 **Рис. SEQ. \\ \* Арабский 3 событие 2974 с отображением всех объектов, содержащих повторяющееся имя участника-пользователя**
 
@@ -104,33 +104,33 @@ The operation failed because UPN value provided for addition/modification is not
 000021C8: AtrErr: DSID-03200BBA, #1: 0: 000021C8: DSID-03200BBA, problem 1005 (CONSTRAINT_ATT_TYPE), data 0, Att 90290 (userPrincipalName)
 ```
 
-![Уникальность имен участников-служб и участников-пользователей](media/SPN-and-UPN-uniqueness/GTR_ADDS_Fig06_ADSI21c8.gif)
+![Снимок экрана, на котором показано, что операция завершилась ошибкой с кодом ошибки 0x21c8.](media/SPN-and-UPN-uniqueness/GTR_ADDS_Fig06_ADSI21c8.gif)
 
 **Рис. SEQ. \\ \* сообщение об ошибке арабского 4, отображаемое в ADSIEdit, если Добавление повторяющегося имени участника-пользователя заблокировано**
 
 ### <a name="windows-powershell"></a>Windows PowerShell
 Windows Server 2012 R2:
 
-![Уникальность имен участников-служб и участников-пользователей](media/SPN-and-UPN-uniqueness/GTR_ADDS_Fig07_SetADUser2012.gif)
+![Снимок экрана, на котором показано сообщение, указывающее на сбой операции.](media/SPN-and-UPN-uniqueness/GTR_ADDS_Fig07_SetADUser2012.gif)
 
 PS, работающий на сервере 2012, предназначенном для Windows Server 2012 R2 DC:
 
-![Уникальность имен участников-служб и участников-пользователей](media/SPN-and-UPN-uniqueness/GTR_ADDS_Fig08_SetADUser2012R2.gif)
+![Снимок экрана, на котором показана неизвестная ошибка.](media/SPN-and-UPN-uniqueness/GTR_ADDS_Fig08_SetADUser2012R2.gif)
 
 DSAC.exe под Windows Server 2012, предназначенный для Windows Server 2012 R2 DC:
 
-![Уникальность имен участников-служб и участников-пользователей](media/SPN-and-UPN-uniqueness/GTR_ADDS_Fig09_UserCreateError.gif)
+![Снимок экрана, на котором показана ошибка создания пользователя на компьютере, отличном от Windows Server 2012 R2 и предназначенном для Windows Server 2012 R2 DC.](media/SPN-and-UPN-uniqueness/GTR_ADDS_Fig09_UserCreateError.gif)
 
 **Рис. SEQ. \\ \* Арабский 5 дсак ошибка создания пользователя в системе, отличной от windows Server 2012 R2, при использовании windows Server 2012 R2 DC**
 
-![Уникальность имен участников-служб и участников-пользователей](media/SPN-and-UPN-uniqueness/GTR_ADDS_Fig10_UserModError.gif)
+![Снимок экрана, на котором показана ошибка изменения пользователя на сервере, отличном от Windows Server 2012 R2 и предназначенном для Windows Server 2012 R2 DC.](media/SPN-and-UPN-uniqueness/GTR_ADDS_Fig10_UserModError.gif)
 
 **Рис. SEQ. \\ \* Арабский 6 дсак ошибка изменения пользователя в не windows Server 2012 R2 с целью windows Server 2012 R2 DC**
 
 ### <a name="restore-of-an-object-that-would-result-in-a-duplicate-upn-fails"></a>Восстановление объекта, которое привело бы к появлению повторяющегося имени участника-пользователя, завершается ошибкой:
-![Уникальность имен участников-служб и участников-пользователей](media/SPN-and-UPN-uniqueness/GTR_ADDS_Fig11_RestoreDupUPN.gif)
+![Снимок экрана, показывающий, как восстановить объект.](media/SPN-and-UPN-uniqueness/GTR_ADDS_Fig11_RestoreDupUPN.gif)
 
-![Уникальность имен участников-служб и участников-пользователей](media/SPN-and-UPN-uniqueness/GTR_ADDS_Fig12_RestoreDupUPNError.gif)
+![Снимок экрана, на котором показано, что операция завершилась ошибкой, так как значение UPN, указанное для добавления или изменения, не является уникальным для всего леса.](media/SPN-and-UPN-uniqueness/GTR_ADDS_Fig12_RestoreDupUPNError.gif)
 
 Событие не регистрируется, если не удается восстановить объект из-за повторяющегося UPN или SPN.
 
@@ -186,7 +186,7 @@ DN: CN=Dianne Hunt2\0ADEL:dd3ab8a4-3005-4f2f-814f-d6fc54a1a1c0,CN=Deleted Object
 
 -   Выберите команду _ *Применить* .*
 
-![Уникальность имен участников-служб и участников-пользователей](media/SPN-and-UPN-uniqueness/GTR_ADDS_Fig13_GlobalSearch.gif)
+![Снимок экрана, на котором показана страница глобального поиска.](media/SPN-and-UPN-uniqueness/GTR_ADDS_Fig13_GlobalSearch.gif)
 
 ### <a name="using-windows-powershell"></a>Использование Windows PowerShell
 
@@ -200,13 +200,13 @@ Get-ADObject -LdapFilter "(userPrincipalName=dhunt@blue.contoso.com)" -IncludeDe
 
 Для значения null атрибута UserPrincipalName с помощью Windows PowerShell:
 
-![Уникальность имен участников-служб и участников-пользователей](media/SPN-and-UPN-uniqueness/GTR_ADDS_Fig15_NullUPN.gif)
+![Снимок экрана, на котором показано, что операция завершилась ошибкой с кодом ошибки 0x21c7.](media/SPN-and-UPN-uniqueness/GTR_ADDS_Fig15_NullUPN.gif)
 
 > [!NOTE]
 > Атрибут userPrincipalName является атрибутом с одним значением, поэтому эта процедура удаляет только повторяющееся имя участника-пользователя.
 
 ### <a name="duplicate-spn"></a>Повторяющееся имя субъекта-службы
-![Уникальность имен участников-служб и участников-пользователей](media/SPN-and-UPN-uniqueness/GTR_ADDS_Fig16_DupSPN.gif)
+![Снимок экрана, показывающий сообщение об ошибке, отображаемое в ADSIEdit, если Добавление повторяющегося имени субъекта-службы заблокировано.](media/SPN-and-UPN-uniqueness/GTR_ADDS_Fig16_DupSPN.gif)
 
 **Рис. SEQ. \\ \* сообщение об ошибке арабского 8, отображаемое в ADSIEdit, если Добавление повторяющегося имени субъекта-службы заблокировано**
 
@@ -220,7 +220,7 @@ servicePrincipalName Value=<SPN>
 <Object DN> Winerror: 8467
 ```
 
-![Уникальность имен участников-служб и участников-пользователей](media/SPN-and-UPN-uniqueness/GTR_ADDS_Fig17_DupSPN2974.gif)
+![Снимок экрана, показывающий ошибку, регистрируемую при создании повторяющегося имени субъекта-службы.](media/SPN-and-UPN-uniqueness/GTR_ADDS_Fig17_DupSPN2974.gif)
 
 **Рис. номер \\ \* арабского 9 ошибка при создании повторяющегося имени участника-службы заблокирована**
 

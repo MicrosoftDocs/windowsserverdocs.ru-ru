@@ -1,18 +1,18 @@
 ---
 title: Настройка системы архивации данных сервера
-description: Описание использования Windows Server Essentials
+description: Узнайте, как настроить параметры резервного копирования сервера для Windows Server Essentials.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 19b2559c-6090-45af-9a08-2eefc28473c8
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: 9cf27c09e2b6946b5daa584ff27b1da95788a4ea
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 5558364d21374649cc57e28f9df1331a59428b7b
+ms.sourcegitcommit: d2224cf55c5d4a653c18908da4becf94fb01819e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89623688"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "97711089"
 ---
 # <a name="customize-server-backup"></a>Настройка системы архивации данных сервера
 
@@ -62,6 +62,6 @@ ms.locfileid: "89623688"
 
 5.  Нажмите кнопку **ОК**, чтобы закрыть диалоговое окно.
 
-#### <a name="restart-the-server"></a>Перезапустите сервер.
+#### <a name="restart-the-server"></a>Перезагрузите сервер.
 
 1.  На сервере переместите указатель мыши в правый верхний угол экрана, нажмите кнопку **Параметры**, нажмите **Питание** и затем нажмите кнопку "Перезапустить".

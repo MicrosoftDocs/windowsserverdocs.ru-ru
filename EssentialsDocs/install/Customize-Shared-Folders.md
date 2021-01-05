@@ -1,18 +1,18 @@
 ---
 title: Настройка общих папок
-description: Описание использования Windows Server Essentials
+description: Узнайте, как настроить расположение папок сервера и указать дополнительные папки сервера.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 47bc4986-14eb-4a29-9930-83a25704a3a0
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: c1a6276199964ac7fd2eb3953cb3fac828063dfc
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 40ee2a7069e39c9d6b85dcc5eb69c9f800b2c68e
+ms.sourcegitcommit: e00e789dff216dbade861e61365f078b758a5720
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89623678"
+ms.lasthandoff: 12/23/2020
+ms.locfileid: "97755230"
 ---
 # <a name="customize-shared-folders"></a>Настройка общих папок
 

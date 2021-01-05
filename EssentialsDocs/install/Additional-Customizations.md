@@ -1,18 +1,18 @@
 ---
 title: Дополнительные настройки
-description: Описание использования Windows Server Essentials
+description: Дополнительные сведения о дополнительных настройках, которые можно внести в образ Windows Server Essentials.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 65a195d5-0098-4c3c-b4ba-07f7319c8f1e
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: fef23f94e9a2a591b14e6e1c8457f07f0ecbdfc7
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 5890bf1caeec75573130df2fca6482147b28b57f
+ms.sourcegitcommit: d2224cf55c5d4a653c18908da4becf94fb01819e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89621869"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "97711599"
 ---
 # <a name="additional-customizations"></a>Дополнительные настройки
 
@@ -46,7 +46,7 @@ ms.locfileid: "89621869"
 
 -   [Добавление информации о зарегистрированном партнере, заключившем партнерское соглашение об интерактивных службах Майкрософт](../install/Add-Microsoft-Online-Service-Partner-Agreement-Partner-of-Record-Information.md)
 
--   [Замените модуль интеграции Microsoft 365 купить-try URL-адрес конечной точки для поддержки соглашения торгового посредника Microsoft Online Service](../install/Replace-O365-Integration-Module-Buy-Try-Endpoint-URL-in-Support-of-Microsoft-Online-Service-Reseller-Agreement.md)
+-   [Замена URL-адресов конечных точек при покупке или ознакомлении для модуля интеграции Microsoft 365 в рамках поддержки по соглашению с торговым посредником интернет-служб Майкрософт](../install/Replace-O365-Integration-Module-Buy-Try-Endpoint-URL-in-Support-of-Microsoft-Online-Service-Reseller-Agreement.md)
 
 -   [Создание DVD-диска восстановления сервера для удаленно администрируемых серверов](../install/Create-a-Server-Recovery-DVD-for-Remotely-Administered-Servers.md)
 

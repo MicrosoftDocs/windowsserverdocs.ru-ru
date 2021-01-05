@@ -1,18 +1,18 @@
 ---
 title: Поддержка для более крупных развертываний
-description: Описание использования Windows Server Essentials
+description: Узнайте о поддержке нескольких доменов, нескольких контроллеров домена, 500 пользователей и 500 устройств, а также о возможности указания назначенного контроллера домена.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 07d0c4c6-3e92-4969-82b8-105e46ab8d97
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: bf5b6027c934c1dec9916ff08995a7f096a2b8bd
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: ec8cea711b679c41562b1e0580430cdb264ace0f
+ms.sourcegitcommit: 8e330f9066097451cd40e840d5f5c3317cbc16c2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89622445"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "97696942"
 ---
 # <a name="support-for-larger-deployments"></a>Поддержка для более крупных развертываний
 

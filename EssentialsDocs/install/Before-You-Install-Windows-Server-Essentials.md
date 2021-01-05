@@ -1,18 +1,18 @@
 ---
 title: Подготовка к установке Windows Server Essentials
-description: Описание использования Windows Server Essentials
+description: Сведения о задачах, которые необходимо выполнить до начала установки Windows Server Essentials.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 8d0893bd-e2b7-4494-9537-02b1cbbcd57a
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: ceb5d81490b46513b540901413d8923d61d87e40
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 14f57d184eb2902a3db54fd8b2c0c8067eed326f
+ms.sourcegitcommit: d2224cf55c5d4a653c18908da4becf94fb01819e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89623947"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "97711439"
 ---
 # <a name="before-you-install-windows-server-essentials"></a>Подготовка к установке Windows Server Essentials
 
@@ -44,7 +44,7 @@ ms.locfileid: "89623947"
 
     Если ваш маршрутизатор не поддерживает инфраструктуру UPnP, либо если его он не настраивается во время установки, необходимо вручную настроить его параметры в соответствии с вашей сетью. Убедитесь, что следующие порты открыты и настроены на IP-адрес конечного сервера:
 
-  |Номер порта|Развертывание|
+  |Номер порта|Приложение|
   |-----------------|-----------------|
   |Порт 80|Веб-трафик HTTP|
   |Порт 443|Веб-трафик HTTPS|

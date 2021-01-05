@@ -1,18 +1,18 @@
 ---
 title: Важная информация для использования ADK Windows Server Essentials
-description: Описание использования Windows Server Essentials
+description: Узнайте о важных различиях между Windows 8 ADK и Windows Server Essentials ADK.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 26cb2992-1250-4672-98ee-8b870baa45d5
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: a7fc10eb7c04163ca3202e481df130fc86f3c49c
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 36cdbc03f6b241026f24c811cb69d5331f71bae7
+ms.sourcegitcommit: e00e789dff216dbade861e61365f078b758a5720
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89623501"
+ms.lasthandoff: 12/23/2020
+ms.locfileid: "97755060"
 ---
 # <a name="important-information-for-using-the-windows-server-essentials-adk"></a>Важная информация для использования ADK Windows Server Essentials
 
@@ -22,7 +22,7 @@ ms.locfileid: "89623501"
 
  Следует учитывать следующие важные отличия.
 
--   В **%windir%\setup\script\SetupComplete.cmd** изменились некоторые параметры. Если необходимо использовать эту команду, можно добавить дополнительные командлеты, но не удаляйте существующие строки.
+-   В **%windir%\setup\script\SetupComplete.cmd** изменились некоторые параметры. Если вы хотите использовать эту команду, можно добавить дополнительные `cmdlines` , но не удалять существующие строки.
 
 ## <a name="working-with-passwords"></a>Работа с паролями
 

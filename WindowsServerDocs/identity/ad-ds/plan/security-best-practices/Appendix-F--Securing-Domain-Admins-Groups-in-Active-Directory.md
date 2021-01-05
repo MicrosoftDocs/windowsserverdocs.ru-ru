@@ -7,12 +7,12 @@ ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 591cab5cdba949b7f1828a6719904a2beae071e5
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: 613d99bc3f97834897fd11923aaa619bb7558101
+ms.sourcegitcommit: e2dadc9b0c227a489a945bbc531aca5e101f18cd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97041642"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97801788"
 ---
 # <a name="appendix-f-securing-domain-admins-groups-in-active-directory"></a>Приложение Е. Защита групп администраторов домена в Active Directory
 
@@ -50,7 +50,7 @@ ms.locfileid: "97041642"
 
     1.  Дважды щелкните группу **Администраторы домена** и перейдите на вкладку **члены** .
 
-        ![группы администраторов защищенного домена](media/Appendix-F--Securing-Domain-Admins-Groups-in-Active-Directory/SAD_62.gif)
+        ![Снимок экрана, на котором показана вкладка "члены" для удаления всех членов из группы "Администраторы домена".](media/Appendix-F--Securing-Domain-Admins-Groups-in-Active-Directory/SAD_62.gif)
 
     2.  Выберите участника группы, нажмите кнопку **Удалить**, выберите **Да**, а затем нажмите кнопку **ОК**.
 
@@ -64,17 +64,17 @@ ms.locfileid: "97041642"
 
 3.  В дереве консоли щелкните правой кнопкой мыши элемент **Групповая политика объекты** и выберите команду **создать**.
 
-    ![группы администраторов защищенного домена](media/Appendix-F--Securing-Domain-Admins-Groups-in-Active-Directory/SAD_63.gif)
+    ![Снимок экрана, на котором показано, где можно выбрать новое, чтобы защитить администраторов домена в Active Directory.](media/Appendix-F--Securing-Domain-Admins-Groups-in-Active-Directory/SAD_63.gif)
 
 4.  В диалоговом окне **Создание объекта групповой политики** введите \<GPO Name\> и нажмите кнопку **ОК** (где \<GPO Name\> — это имя этого объекта групповой политики).
 
-    ![группы администраторов защищенного домена](media/Appendix-F--Securing-Domain-Admins-Groups-in-Active-Directory/SAD_64.gif)
+    ![Снимок экрана, на котором показано, где можно присвоить имя объекту групповой политики, чтобы защитить администраторов домена в Active Directory.](media/Appendix-F--Securing-Domain-Admins-Groups-in-Active-Directory/SAD_64.gif)
 
 5.  В области сведений щелкните правой кнопкой мыши \<GPO Name\> и выберите команду **изменить**.
 
 6.  Перейдите к компьютеру \ политики \ **Параметры безопасности Локальные политики** и щелкните **Назначение прав пользователя**.
 
-    ![группы администраторов защищенного домена](media/Appendix-F--Securing-Domain-Admins-Groups-in-Active-Directory/SAD_65.gif)
+    ![Снимок экрана, на котором показано расположение для навигации. можно выбрать администратора прав пользователя для защиты администраторов домена в Active Directory.](media/Appendix-F--Securing-Domain-Admins-Groups-in-Active-Directory/SAD_65.gif)
 
 7.  Настройте права пользователя, чтобы запретить членам группы "Администраторы домена" доступ к серверам и рабочим станциям по сети, выполнив следующие действия.
 
@@ -84,7 +84,7 @@ ms.locfileid: "97041642"
 
     3.  Введите **Администраторы домена**, щелкните **Проверить имена** и нажмите кнопку **ОК**.
 
-        ![группы администраторов защищенного домена](media/Appendix-F--Securing-Domain-Admins-Groups-in-Active-Directory/SAD_66.gif)
+        ![Снимок экрана, показывающий, как проверить, настроены ли права пользователя для предотвращения доступа членов группы "Администраторы домена" к серверам и рабочим станциям по сети.](media/Appendix-F--Securing-Domain-Admins-Groups-in-Active-Directory/SAD_66.gif)
 
     4.  Нажмите кнопку **ОК**, а затем **ОК** еще раз.
 
@@ -96,7 +96,7 @@ ms.locfileid: "97041642"
 
     3.  Введите **Администраторы домена**, щелкните **Проверить имена** и нажмите кнопку **ОК**.
 
-        ![группы администраторов защищенного домена](media/Appendix-F--Securing-Domain-Admins-Groups-in-Active-Directory/SAD_67.gif)
+        ![Снимок экрана, показывающий, как проверить, настроены ли права пользователя для предотвращения входа членов группы DA в качестве пакетного задания.](media/Appendix-F--Securing-Domain-Admins-Groups-in-Active-Directory/SAD_67.gif)
 
     4.  Нажмите кнопку **ОК**, а затем **ОК** еще раз.
 
@@ -108,7 +108,7 @@ ms.locfileid: "97041642"
 
     3.  Введите **Администраторы домена**, щелкните **Проверить имена** и нажмите кнопку **ОК**.
 
-        ![группы администраторов защищенного домена](media/Appendix-F--Securing-Domain-Admins-Groups-in-Active-Directory/SAD_68.gif)
+        ![Снимок экрана, показывающий, как проверить, настроены ли права пользователя для предотвращения входа членов группы DA в качестве службы.](media/Appendix-F--Securing-Domain-Admins-Groups-in-Active-Directory/SAD_68.gif)
 
     4.  Нажмите кнопку **ОК**, а затем **ОК** еще раз.
 
@@ -120,7 +120,7 @@ ms.locfileid: "97041642"
 
     3.  Введите **Администраторы домена**, щелкните **Проверить имена** и нажмите кнопку **ОК**.
 
-        ![группы администраторов защищенного домена](media/Appendix-F--Securing-Domain-Admins-Groups-in-Active-Directory/SAD_69.gif)
+        ![Снимок экрана, показывающий, как проверить, настроены ли права пользователя таким способом, чтобы члены группы "Администраторы домена" не вошли в локальную систему на рядовые серверы и рабочие станции.](media/Appendix-F--Securing-Domain-Admins-Groups-in-Active-Directory/SAD_69.gif)
 
     4.  Нажмите кнопку **ОК**, а затем **ОК** еще раз.
 
@@ -132,7 +132,7 @@ ms.locfileid: "97041642"
 
     3.  Введите **Администраторы домена**, щелкните **Проверить имена** и нажмите кнопку **ОК**.
 
-        ![группы администраторов защищенного домена](media/Appendix-F--Securing-Domain-Admins-Groups-in-Active-Directory/SAD_70.gif)
+        ![Снимок экрана, показывающий, как убедиться, что вы настроили права пользователя, чтобы запретить членам группы "Администраторы домена" доступ к серверам и рабочим станциям через службы удаленных рабочих столов](media/Appendix-F--Securing-Domain-Admins-Groups-in-Active-Directory/SAD_70.gif)
 
     4.  Нажмите кнопку **ОК**, а затем **ОК** еще раз.
 
@@ -144,11 +144,11 @@ ms.locfileid: "97041642"
 
     2.  Щелкните правой кнопкой мыши подразделение, к которому будет применен объект GPO, и выберите команду **связать существующий объект GPO**.
 
-        ![группы администраторов защищенного домена](media/Appendix-F--Securing-Domain-Admins-Groups-in-Active-Directory/SAD_71.gif)
+        ![Снимок экрана, на котором показана ссылка на существующий пункт меню GPO при щелчке правой кнопкой мыши подразделения, к которому будет применен объект GPO.](media/Appendix-F--Securing-Domain-Admins-Groups-in-Active-Directory/SAD_71.gif)
 
     3.  Выберите только что созданный объект групповой политики и нажмите кнопку **ОК**.
 
-        ![группы администраторов защищенного домена](media/Appendix-F--Securing-Domain-Admins-Groups-in-Active-Directory/SAD_72.gif)
+        ![Снимок экрана, на котором показано, где выбрать объект групповой политики, который вы только что создали при связывании объекта групповой политики с рядовым сервером.](media/Appendix-F--Securing-Domain-Admins-Groups-in-Active-Directory/SAD_72.gif)
 
     4.  Создайте ссылки на все подразделения, содержащие рабочие станции.
 
@@ -170,13 +170,13 @@ ms.locfileid: "97041642"
 
 4.  При появлении запроса на подтверждение повышения прав нажмите кнопку **Да**.
 
-    ![группы администраторов защищенного домена](media/Appendix-F--Securing-Domain-Admins-Groups-in-Active-Directory/SAD_73.gif)
+    ![Снимок экрана, на котором показано, где можно утвердить повышение прав при проверке параметров объекта групповой политики "запретить доступ к этому компьютеру".](media/Appendix-F--Securing-Domain-Admins-Groups-in-Active-Directory/SAD_73.gif)
 
 5.  В окне **командной строки** введите **net use \\ \\ \<Server Name\> \C $**, где \<Server Name\> — это имя рядового сервера или рабочей станции, доступ к которой осуществляется по сети.
 
 6.  На следующем снимке экрана показано сообщение об ошибке, которое должно появиться.
 
-    ![группы администраторов защищенного домена](media/Appendix-F--Securing-Domain-Admins-Groups-in-Active-Directory/SAD_74.gif)
+    ![Снимок экрана, показывающий сообщение об ошибке, которое должно появиться при попытке аккссс рядового сервера.](media/Appendix-F--Securing-Domain-Admins-Groups-in-Active-Directory/SAD_74.gif)
 
 ##### <a name="verify-deny-log-on-as-a-batch-job-gpo-settings"></a>Проверка параметров объекта групповой политики "запретить вход в систему в качестве пакетного задания"
 
@@ -231,7 +231,7 @@ ms.locfileid: "97041642"
 
 16. Появится диалоговое окно, похожее на следующее.
 
-    ![группы администраторов защищенного домена](media/Appendix-F--Securing-Domain-Admins-Groups-in-Active-Directory/SAD_75.gif)
+    ![Снимок экрана, на котором показана ошибка, которая должна произойти после ввода учетных данных.](media/Appendix-F--Securing-Domain-Admins-Groups-in-Active-Directory/SAD_75.gif)
 
 ##### <a name="verify-deny-log-on-as-a-service-gpo-settings"></a>Проверка параметров объекта групповой политики "запретить вход в качестве службы"
 
@@ -257,7 +257,7 @@ ms.locfileid: "97041642"
 
 11. При перезапуске службы появится диалоговое окно, похожее на следующее.
 
-    ![группы администраторов защищенного домена](media/Appendix-F--Securing-Domain-Admins-Groups-in-Active-Directory/SAD_76.gif)
+    ![Снимок экрана, показывающий диалоговое окно, отображаемое после перезапуска службы.](media/Appendix-F--Securing-Domain-Admins-Groups-in-Active-Directory/SAD_76.gif)
 
 ##### <a name="revert-changes-to-the-printer-spooler-service"></a>Отмена изменений в службе диспетчера очереди печати
 
@@ -290,4 +290,4 @@ ms.locfileid: "97041642"
 
 5.  Появится диалоговое окно, похожее на следующее.
 
-    ![группы администраторов защищенного домена](media/Appendix-F--Securing-Domain-Admins-Groups-in-Active-Directory/SAD_78.gif)
+    ![Снимок экрана, на котором показано сообщение, указывающее, что используемый метод входа не разрешен.](media/Appendix-F--Securing-Domain-Admins-Groups-in-Active-Directory/SAD_78.gif)

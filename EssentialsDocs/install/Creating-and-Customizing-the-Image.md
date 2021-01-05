@@ -1,18 +1,18 @@
 ---
 title: Создание и настройка образа
-description: Описание использования Windows Server Essentials
+description: Узнайте о аспектах создания образа и процесса настройки, характерных для Windows Server Essentials.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 79ed973d-61e3-46d9-a626-3edfbc4e4d65
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: 3543e0c9443ef4f9e5f3426dad0c8fef329d2500
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: ac2514914afbba62b1a82bfb15ac8d472eddf75d
+ms.sourcegitcommit: d2224cf55c5d4a653c18908da4becf94fb01819e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89623720"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "97711262"
 ---
 # <a name="creating-and-customizing-the-image"></a>Создание и настройка образа
 

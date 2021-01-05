@@ -1,18 +1,18 @@
 ---
 title: Управление именами доменов и поставщиками доменных имен
-description: Описание использования Windows Server Essentials
+description: Узнайте, как управлять доменными именами третьего уровня и поставщиками доменных имен.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 96959b7a-0267-41fd-9c5b-33c3ac89c1ee
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: 0286eb9fef77eb2ec3655e74b250f3e25bf29c3a
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 3a61bc25d10ab30c9d8bc3d0f0b653d9fcd44d6a
+ms.sourcegitcommit: e00e789dff216dbade861e61365f078b758a5720
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89626193"
+ms.lasthandoff: 12/23/2020
+ms.locfileid: "97754910"
 ---
 # <a name="manage-domain-names-and-domain-name-providers"></a>Управление именами доменов и поставщиками доменных имен
 

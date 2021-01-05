@@ -1,18 +1,18 @@
 ---
 title: Интеграция виртуальной сети Azure
-description: Описание использования Windows Server Essentials
+description: Узнайте о интеграции виртуальной сети Azure, которая позволяет создавать виртуальные частные сети типа "точка — точка" (P2P) или "сеть — сеть" (S2S).
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: d7d38505-cff5-4f15-9fd5-ae6dba15ce88
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: 15a4c28c192ed93c18ad9ac515bdccda24293c6e
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 98805bb9e5b14b82b64eb7188432b0284aa8c905
+ms.sourcegitcommit: 8e330f9066097451cd40e840d5f5c3317cbc16c2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89622558"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "97696787"
 ---
 # <a name="azure-virtual-network-integration"></a>Интеграция виртуальной сети Azure
 

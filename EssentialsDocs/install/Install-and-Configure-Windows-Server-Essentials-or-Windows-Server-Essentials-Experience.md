@@ -1,18 +1,18 @@
 ---
 title: Установка и настройка Windows Server Essentials или режима Windows Server Essentials
-description: Описание использования Windows Server Essentials
+description: Узнайте, как установить и настроить Windows Server Essentials или роль основных возможностей в Windows Server 2016.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 48ea6cd4-3955-4aaf-9236-2515a6c3e730
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: dfd0611d47c159e629efff11073bec084e175a43
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: e0f903d3f515d749836222686ee6a6b4020b61d4
+ms.sourcegitcommit: e00e789dff216dbade861e61365f078b758a5720
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89626278"
+ms.lasthandoff: 12/23/2020
+ms.locfileid: "97755070"
 ---
 # <a name="install-and-configure-windows-server-essentials-or-windows-server-essentials-experience"></a>Установка и настройка Windows Server Essentials или режима Windows Server Essentials
 
@@ -83,7 +83,7 @@ Windows Server Essentials — это роль в Windows Server 2016, котор
        > [!NOTE]
        >  Не используйте имя и пароль учетной записи **Администратора** по умолчанию.
 
-   5.  Щелкните **Настройка**.
+   5.  Нажмите **Настроить**.
 
 3. В процессе настройки сервер несколько раз перезагрузится, при этом вход в систему будет производиться автоматически до завершения настройки. Этот процесс занимает примерно 20 минут.
 
@@ -167,7 +167,7 @@ Windows Server Essentials — это роль в Windows Server 2016, котор
 
 #### <a name="to-deploy-windows-server-essentials-as-a-virtual-machine"></a>Развертывание Windows Server Essentials в качестве виртуальной машины.
 
-1.  После страницы приветствия Windows (в зависимости от конфигурации с s поставщика системы) на странице **перед началом работы можно** настроить Windows Server Essentials в качестве виртуального экземпляра или физического оборудования. Наличие данных параметров определяется поставщиком вашей системы, поэтому оба этих параметра могут быть не всегда доступны. Чтобы установить Windows Server Essentials как виртуальную машину, в окне **Установка Windows Server Essentials**выберите пункт **установить как виртуальный экземпляр**, а затем нажмите кнопку **настроить**.
+1.  После страницы приветствия Windows (в зависимости от конфигурации с s поставщика системы) на странице **перед началом работы можно** настроить Windows Server Essentials в качестве виртуального экземпляра или физического оборудования. Наличие данных параметров определяется поставщиком вашей системы, поэтому оба этих параметра могут быть не всегда доступны. Чтобы установить Windows Server Essentials как виртуальную машину, в окне **Установка Windows Server Essentials** выберите пункт **установить как виртуальный экземпляр**, а затем нажмите кнопку **настроить**.
 
 2.  Мастер настройки начнет приводить в действие виртуальную машину, что занимает около пяти минут.
 

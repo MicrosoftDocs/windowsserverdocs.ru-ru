@@ -1,18 +1,18 @@
 ---
 title: Системные требования к Windows Server Essentials
-description: Описание использования Windows Server Essentials
+description: Сведения о требованиях к системе для Windows Server Essentials.
 ms.date: 10/31/2013
 ms.topic: article
 ms.assetid: 0951a67d-492f-41ad-9ae5-8e4cd25e3041
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: 39b74722b9f3036bab5face5d48c9a5a5af3da90
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 9a35006330452850dd10def998a7fdf2d8c8e853
+ms.sourcegitcommit: d2224cf55c5d4a653c18908da4becf94fb01819e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89622393"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "97711699"
 ---
 # <a name="system-requirements-for-windows-server-essentials"></a>Системные требования к Windows Server Essentials
 
@@ -23,10 +23,10 @@ ms.locfileid: "89622393"
 
 ## <a name="table-1-system-requirements-for-windows-server-essentials"></a>Таблица 1. Требования к системе для Windows Server Essentials
 
-|Компонент|Минимальные|Рекомендуемые требования*|Максимум|
+|Компонент|Минимальные|Рекомендуемые требования*|Максимальная|
 |---------------|-------------|-------------------|-------------|
 |Центральный процессор|1,4 ГГц (64-разрядный процессор) или быстрее для одноядерных процессоров<br /><br /> 1,3 ГГц (64-разрядный процессор) или быстрее для многоядерных процессоров|3,1 ГГц (64-разрядный процессор) или быстрее для многоядерных процессоров|2 ЦП|
-|Память (ОЗУ)|2 ГБ<br /><br /> 4 ГБ при развертывании Windows Server Essentials в качестве виртуальной машины|16 Гб|64 ГБ|
+|Память (ОЗУ)|2 ГБ<br /><br /> 4 ГБ при развертывании Windows Server Essentials в качестве виртуальной машины|16 ГБ|64 ГБ|
 |Жесткие диски и свободное дисковое пространство|Жесткий диск объемом 160 ГБ, системный раздел 60 ГБ||Без ограничений|
 
  *Рекомендуемые требования к оборудованию для поддержки максимально ограниченного количества пользователей и устройств.

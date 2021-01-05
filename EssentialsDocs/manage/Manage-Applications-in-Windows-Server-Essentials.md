@@ -1,18 +1,18 @@
 ---
 title: Управление приложениями в Windows Server Essentials
-description: Описание использования Windows Server Essentials
+description: Узнайте, как управлять приложениями, устанавливать и удалять надстройки в Windows Server Essentials.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: ae89c46a-0afd-4858-9150-ec97650f45a4
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: 30b8dfa2087e76cc80011eb359715c95564ec1b6
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: f978405236a83c89f07e65589e5d9af899ea1045
+ms.sourcegitcommit: e00e789dff216dbade861e61365f078b758a5720
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89623279"
+ms.lasthandoff: 12/23/2020
+ms.locfileid: "97755300"
 ---
 # <a name="manage-applications-in-windows-server-essentials"></a>Управление приложениями в Windows Server Essentials
 

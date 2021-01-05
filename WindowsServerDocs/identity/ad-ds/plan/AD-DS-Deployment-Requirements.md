@@ -7,12 +7,12 @@ ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 91f5d6cd5d7c3646bed8d37e944979eb9448a87c
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: d108ca02919cde08b93f217712d3be2e8c622fb1
+ms.sourcegitcommit: d2224cf55c5d4a653c18908da4becf94fb01819e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97050162"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "97711749"
 ---
 # <a name="ad-ds-deployment-requirements"></a>Требования к развертыванию доменных служб Active Directory
 
@@ -25,7 +25,7 @@ ms.locfileid: "97050162"
 ## <a name="deploying-a-windows-server-2008-forest-root-domain"></a>Развертывание корневого домена леса Windows Server 2008
 Корневой домен леса предоставляет основу для инфраструктуры леса AD DS. Для развертывания AD DS необходимо сначала развернуть корневой домен леса. Для этого необходимо ознакомиться со структурой AD DS. Настройте службу DNS для корневого домена леса. Создайте корневой домен леса, который состоит из развертывания контроллеров корневого домена леса, настройки топологии сайта для корневого домена леса и настройки ролей хозяина операций (также известных как гибкие операции с одним главным хозяином или FSMO); и повысьте функциональные уровни леса и домена. На следующем рисунке показан общий процесс развертывания корневого домена леса.
 
-![Требования служб AD DS](media/AD-DS-Deployment-Requirements/033aad0b-25ff-4793-8825-88a6daa01a55.gif)
+![Иллюстрация общего процесса развертывания корневого домена леса.](media/AD-DS-Deployment-Requirements/033aad0b-25ff-4793-8825-88a6daa01a55.gif)
 
 Дополнительные сведения см. [в разделе Развертывание корневого домена леса Windows Server 2008](/previous-versions/windows/it-pro/windows-server-2008-r2-and-2008/cc731174(v=ws.10)).
 

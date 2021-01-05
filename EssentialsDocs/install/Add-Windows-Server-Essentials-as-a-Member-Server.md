@@ -1,18 +1,18 @@
 ---
 title: Добавление Windows Server Essentials в качестве рядового сервера
-description: Описание использования Windows Server Essentials
+description: Узнайте, как добавить Windows Server Essentials в качестве рядового сервера в существующую доменную среду Active Directory.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: d09dd82f-f7d2-47ce-862d-fd9869f2021c
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: 3325799dc8fb81ab15f8cb03102b9c6248526b74
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 470d713d2d9b105c834369cd15dad372f843a67d
+ms.sourcegitcommit: d2224cf55c5d4a653c18908da4becf94fb01819e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89624006"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "97711619"
 ---
 # <a name="add-windows-server-essentials-as-a-member-server"></a>Добавление Windows Server Essentials в качестве рядового сервера
 
@@ -52,7 +52,7 @@ ms.locfileid: "89624006"
 
 4. В окне **Имя компьютера** в разделе **Домен** нажмите кнопку **Изменить**.
 
-5. В области **изменение имени компьютера или домена**в разделе **член** выберите, следует ли присоединить сервер под Windows Server Essentials к **рабочей группе** или **домену**.
+5. В области **изменение имени компьютера или домена** в разделе **член** выберите, следует ли присоединить сервер под Windows Server Essentials к **рабочей группе** или **домену**.
 
    -   Чтобы добавить сервер к рабочей группе, введите команду **workgroup**, а затем нажмите кнопку **ОК**.
 

@@ -1,18 +1,18 @@
 ---
 title: Замена списка поставщиков доменных имен
-description: Описание использования Windows Server Essentials
+description: Узнайте, как заменить список поставщиков доменных имен, отображаемых в мастере настройки доменных имен.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 104d0412-2d77-4cd4-99f7-65a885522850
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: 74509a7d64e718fe1d2b62f806306235e7d827e4
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 654334feaee0a0fb571a5394b15c41dc61eb2982
+ms.sourcegitcommit: e00e789dff216dbade861e61365f078b758a5720
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89623363"
+ms.lasthandoff: 12/23/2020
+ms.locfileid: "97755380"
 ---
 # <a name="replace-the-list-of-domain-name-providers"></a>Замена списка поставщиков доменных имен
 
@@ -49,7 +49,7 @@ ms.locfileid: "89623363"
 
 7.  Если у поставщика доменных имен имеется эмблема, добавьте ее, щелкнув **Change Logo** (Изменить эмблему).
 
-8.  Нажмите кнопку **Сохранить**.
+8.  Выберите команду **Сохранить**.
 
 9. Повторите шаги 2-8 для каждого поставщика доменных имен, отображаемого в списке мастера.
 
@@ -88,7 +88,7 @@ ms.locfileid: "89623363"
 
  Следующие состояния домена являются ошибками и должны сопровождаться соответствующими сообщениями:
 
-- Failed
+- Сбой
 
 - PendingCustomerInterventionRequired
 
@@ -104,7 +104,7 @@ ms.locfileid: "89623363"
 
 - Ready
 
-- Pending
+- Ожидает
 
 - InRenewal
 

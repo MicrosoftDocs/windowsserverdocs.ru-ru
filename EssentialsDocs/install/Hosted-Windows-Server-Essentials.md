@@ -1,18 +1,18 @@
 ---
 title: Размещенный сервер Windows Server Essentials
-description: Описание использования Windows Server Essentials
+description: Узнайте, как развертывать Microsoft Windows Server и предлагать Windows Server Essentials как службу для клиентов.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: fda5628c-ad23-49de-8d94-430a4f253802
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: b1c5a0824dfa8cba03ff778dfad6ef4505eae1eb
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 50b4a0cf76028d80cea0331427761901ddea1e7e
+ms.sourcegitcommit: e00e789dff216dbade861e61365f078b758a5720
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89623492"
+ms.lasthandoff: 12/23/2020
+ms.locfileid: "97755080"
 ---
 # <a name="hosted-windows-server-essentials"></a>Размещенный сервер Windows Server Essentials
 
@@ -53,9 +53,9 @@ ms.locfileid: "89623492"
    Если применяется диспетчер виртуальных машин, можно создать шаблон, используя запущенный экземпляр. При создании шаблона будет выполнена команда sysprep по отношению к запущенному экземпляру, и машина будет выключена. После сохранения в библиотеку можно загружать экземпляр в зависимости от конкретного случая.
 
 ##  <a name="how-do-i-automate-the-deployment"></a><a name="BKMK_automatedeployment"></a> Разделы справки автоматизировать развертывание?
- После получения настроенного образа пользователь может выполнить развертывание с помощью своего собственного образа. Для выполнения полуавтоматической установки необходимо предоставить / развернуть файл unattend.xml для установки WinPE. Для выполнения полностью автоматической установки необходимо также указать файл cfg.ini для начальной настройки Windows Server Essentials.
+ После получения настроенного образа пользователь может выполнить развертывание с помощью своего собственного образа. Чтобы выполнить частичную установку, необходимо предоставить или развернуть unattend.xml для установки WinPE. Для выполнения полностью автоматической установки необходимо также указать файл cfg.ini для начальной настройки Windows Server Essentials.
 
-1. Выполнение только автоматической установки WinPE. Будет выполнена автоматическая установка только WinPE, которая будет остановлена перед начальной настройкой, чтобы пользователи смогли ввести информацию об организации, домене и администраторе после RDP в сеанс сервера. Для этого выполните следующие действия.
+1. Выполнение только автоматической установки WinPE. Будет выполнена автоматическая установка только WinPE, которая будет остановлена перед начальной настройкой, чтобы пользователи смогли ввести информацию об организации, домене и администраторе после RDP в сеанс сервера. Выполните указанные ниже действия.
 
    1.  Предоставьте файл Windows unattend.xml. Выполните [Windows 8.1 ADK](https://go.microsoft.com/fwlink/?LinkId=248694) , чтобы создать файл, и укажите все необходимые сведения, включая имя сервера, ключи продукта и пароль администратора. В разделе Microsoft-Windows-Setup файла unattend.xml укажите следующие сведения.
 
@@ -79,7 +79,7 @@ ms.locfileid: "89623492"
 
    Если используется диспетчер виртуальных машин, можно задать пароль администратора в консоли при создании нового экземпляра из шаблона.
 
-2. Выполнение полностью автоматической установки и автоматической начальной настройки. Для этого выполните следующие действия.
+2. Выполнение полностью автоматической установки и автоматической начальной настройки. Выполните указанные ниже действия.
 
    1.  Если развертывание начинается с установки WinPE, создайте файл unattend.xml, как описано выше.
 
@@ -198,7 +198,7 @@ ms.locfileid: "89623492"
 Enable-WssRemoteWebAccess [-SkipRouter] [-DenyAccessByDefault] [-ApplyToExistingUsers]
 ```
 
- Пример.
+ Пример
 
 ```
 $Enable-WssRemoteWebAccess  œDenyAccessByDefault  œApplyToExistingUsers
@@ -209,10 +209,10 @@ $Enable-WssRemoteWebAccess  œDenyAccessByDefault  œApplyToExistingUsers
  **Добавление пользователя**
 
 ```
-Add-WssUser [-Name] <string> [-Password] <securestring> [-AccessLevel <string> {User | Administrator}] [-FirstName <string>] [-LastName <string>] [-AllowRemoteAccess] [-AllowVpnAccess]   [<CommonParameters>]
+Add-WssUser [-Name] <string> [-Password] <securestring> [-AccessLevel <string> {User | Administrator}] [-FirstName <string>] [-LastName <string>] [-AllowRemoteAccess] [-AllowVpnAccess]   [<CommonParameters>]
 ```
 
- Пример.
+ Пример
 
 ```
 $password = ConvertTo-SecureString "Passw0rd!" -asplaintext  œforce
@@ -223,7 +223,7 @@ $Add-WssUser -Name User2Test -Password $password -Accesslevel Administrator -Fir
 
  **Подключение/отключение пользователя**
 
- Пример.
+ Пример
 
 ```
 $CurrentUser = get-wssuser  œname user2test
@@ -239,7 +239,7 @@ $CurrentUser.Commit()
 Add-WssFolder [-Name] <string> [-Path] <string> [[-Description] <string>] [-KeepPermissions] [<CommonParameters>]
 ```
 
- Пример.
+ Пример
 
 ```
 $Add-WssFolder -Name "MyTestFolder" -Path "C:\ServerFolders\MyTestFolder"

@@ -7,12 +7,12 @@ ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 1acf51705b112d2a1d3409b08532f0f5355c5403
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: 1362cf8080e1188746887df1bdc45824aed8ea80
+ms.sourcegitcommit: d2224cf55c5d4a653c18908da4becf94fb01819e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97049522"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "97711739"
 ---
 # <a name="managing-rid-issuance"></a>Управление выдачей RID
 
@@ -53,7 +53,7 @@ ms.locfileid: "97049522"
 > [!IMPORTANT]
 > Это непредвиденная ситуация: немедленно проанализируйте процессы создания пользователей, компьютеров и групп в домене. Создание более 100 миллионов объектов доменных служб Active Directory — это необычное явление.
 
-![Выдача RID](media/Managing-RID-Issuance/ADDS_RID_TR_EventWaypoints2.png)
+![Граф вайпоинтс событий.](media/Managing-RID-Issuance/ADDS_RID_TR_EventWaypoints2.png)
 
 ### <a name="rid-pool-invalidation-events"></a>События, связанные с недействительностью пула RID
 Появились новые события, связанные с отменой локального пула RID контроллера домена. Они имеют информационный характер и вполне ожидаемы, особенно в связи с новыми функциональными возможностями виртуальных контроллеров пула. Подробные сведения о каждом событии см. в приведенном ниже списке событий.
@@ -83,9 +83,9 @@ Dcdiag.exe /TEST:RidManager /v | find /i "Available RID Pool for the Domain"
 
 ```
 
-Если глобальный пул RID увеличен, то его доступный размер должен составлять 2 147 483 647 вместо 1 073 741 823 (значение по умолчанию). Пример.
+Если глобальный пул RID увеличен, то его доступный размер должен составлять 2 147 483 647 вместо 1 073 741 823 (значение по умолчанию). Пример:
 
-![Выдача RID](media/Managing-RID-Issuance/ADDS_RID_TR_Dcdiag.png)
+![Снимок экрана окна терминала, показывающего увеличение значения по умолчанию.](media/Managing-RID-Issuance/ADDS_RID_TR_Dcdiag.png)
 
 > [!WARNING]
 > Это снятие ограничения предназначено *только* для предотвращения исчерпания пула RID, и к нему следует прибегать *только в сочетании* с принудительной установкой верхнего порога RID (см. следующий раздел). Не используйте его превентивно в средах, в которых остаются миллионы идентификаторов RID и которые имеют невысокий темп роста, так как идентификаторы безопасности, созданные на основе разблокированного пула RID, могут вызывать проблемы с совместимостью приложений.
@@ -126,7 +126,7 @@ Dcdiag.exe /TEST:RidManager /v | find /i "Available RID Pool for the Domain"
 
 3. Выберите параметры **Синхронный** и **Расширенный**, после чего нажмите кнопку **Выполнить**.
 
-    ![Выдача RID](media/Managing-RID-Issuance/ADDS_RID_TR_LDPModify.png)
+    ![Снимок экрана, на котором показано, где выбрать запуск.](media/Managing-RID-Issuance/ADDS_RID_TR_LDPModify.png)
 
 4. В случае успешного выполнения в окне выходных данных LDP появятся следующие результаты:
 
@@ -137,7 +137,7 @@ Dcdiag.exe /TEST:RidManager /v | find /i "Available RID Pool for the Domain"
 
     ```
 
-    ![Выдача RID](media/Managing-RID-Issuance/ADDS_RID_TR_LDPModifySuccess.png)
+    ![Снимок экрана, на котором показаны выходные данные LDP.](media/Managing-RID-Issuance/ADDS_RID_TR_LDPModifySuccess.png)
 
 5. Проверьте, увеличился ли глобальный пул RID, проверив наличие информационного события Directory-Services-SAM с кодом 16655 в журнале системных событий контроллера домена.
 
@@ -187,7 +187,7 @@ CN = RID Manager $, CN = System, DC =*<domain>*
 
 9. Выберите параметры **Синхронный** и **Расширенный**, после чего нажмите кнопку **Выполнить**.
 
-    ![Выдача RID](media/Managing-RID-Issuance/ADDS_RID_TR_LDPRaiseCeiling.png)
+    ![Снимок экрана, показывающий, как выполнить операцию.](media/Managing-RID-Issuance/ADDS_RID_TR_LDPRaiseCeiling.png)
 
 10. В случае успешного выполнения в окне выходных данных LDP появятся следующие результаты:
 
@@ -198,7 +198,7 @@ CN = RID Manager $, CN = System, DC =*<domain>*
 
     ```
 
-    ![Выдача RID](media/Managing-RID-Issuance/ADDS_RID_TR_LDPRaiseCeilingSuccess.png)
+    ![Снимок экрана, показывающий выходные данные успешной операции.](media/Managing-RID-Issuance/ADDS_RID_TR_LDPRaiseCeilingSuccess.png)
 
 ### <a name="other-rid-fixes"></a>Другие исправления, касающиеся относительных идентификаторов
 В предыдущих версиях операционной системы Windows Server при отсутствии атрибута rIDSetReferences происходила утечка пула RID. Чтобы устранить эту проблему на контроллерах домена под управлением Windows Server 2008 R2, установите исправление из [KB 2618669](https://support.microsoft.com/kb/2618669).

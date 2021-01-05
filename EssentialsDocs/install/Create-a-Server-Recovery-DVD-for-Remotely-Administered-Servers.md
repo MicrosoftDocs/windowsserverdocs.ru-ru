@@ -1,18 +1,18 @@
 ---
 title: Создание DVD-диска восстановления сервера для удаленно администрируемых серверов
-description: Описание использования Windows Server Essentials
+description: Узнайте, как использовать удаленно управляемую модель сервера и модель сервера с локальной администрированием, чтобы создать DVD-диск восстановления сервера для удаленного администрирования серверов.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 6141fa69-5952-4e3c-a868-40ef3f4badd2
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: fda6cf3ef25a2127aa0982674ff0f7d0960bfb08
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 08907271ab8d225ff670fe4430691c4b3ce181c3
+ms.sourcegitcommit: d2224cf55c5d4a653c18908da4becf94fb01819e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89623848"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "97711268"
 ---
 # <a name="create-a-server-recovery-dvd-for-remotely-administered-servers"></a>Создание DVD-диска восстановления сервера для удаленно администрируемых серверов
 
@@ -138,7 +138,7 @@ ms.locfileid: "89623848"
 
    - cs-CZ
    - de-DE
-   - ru-RU
+   - en-US
    - es-ES
    - fr-FR
    - hu-HU

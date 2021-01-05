@@ -1,18 +1,18 @@
 ---
 title: Развертывание режима Windows Server Essentials в качестве размещенного сервера
-description: Описание использования Windows Server Essentials
+description: Узнайте, как развернуть Microsoft Windows Server 16 и предложить пользователям Windows Server Essentials как службу для своих клиентов.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: a455c6b4-b29f-4f76-8c6b-1578b6537717
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: 5c0e186cb51eadd2671a4a7d21ccc1ce90dd7221
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 0698bb4d7def33194ccbdc6280e3336bbc3f2ee2
+ms.sourcegitcommit: e00e789dff216dbade861e61365f078b758a5720
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89623538"
+ms.lasthandoff: 12/23/2020
+ms.locfileid: "97755140"
 ---
 # <a name="deploy-windows-server-essentials-experience-as-a-hosted-server"></a>Развертывание режима Windows Server Essentials в качестве размещенного сервера
 
@@ -172,12 +172,12 @@ Install-WssVpnServer -IPv4AddressRange ('192.168.0.160','192.168.0.240') -ApplyT
 > [!NOTE]
 >  Убедитесь, что параметры часового пояса для виртуальной машины узла и интерфейса Windows Server Essentials совпадают. В противном случае могут возникнуть ошибки, К ним относятся: Начальная конфигурация сервера может не быть успешной в задачах, связанных с сертификатом. После установки роли Windows Server Essentials может не работать этот сертификат в течение нескольких часов, а сведения об устройстве будут обновлены неправильно.
 
- После развертывания необходимо использовать Windows PowerShell cmdlet **Get-WssConfigurationStatus**, чтобы проверить успешность начальной настройки. Должен вернуться один из следующих статусов: **Notstarted**, **FinishedWithWarning**, **Running**, **Finished**, **Failed**либо **PendingReboot**.
+ После развертывания необходимо использовать Windows PowerShell cmdlet **Get-WssConfigurationStatus**, чтобы проверить успешность начальной настройки. Возвращаемое состояние должно быть одним из следующих: `Notstarted` , `FinishedWithWarning` ,, `Running` , `Finished` `Failed` или `PendingReboot` .
 
  Во время начальной настройки сервер будет перезапущен. Если необходимо предотвратить автоматический перезапуск сервера, перед запуском начальной настройки можно использовать следующую команду для добавления раздела реестра:
 
 ```
-New-ItemProperty "HKLM:\Software\Microsoft\Windows Server\Setup"Ã‚Â  -Name "WaitForReboot" -Value 1 -PropertyType "DWord" -Force -Confirm:$false
+New-ItemProperty "HKLM:\Software\Microsoft\Windows Server\Setup"Ã‚Â  -Name "WaitForReboot" -Value 1 -PropertyType "DWord" -Force -Confirm:$false
 
 ```
 
@@ -204,29 +204,29 @@ New-ItemProperty "HKLM:\Software\Microsoft\Windows Server\Setup"Ã‚Â  -Name 
 
  **Пример**:
 
- $Enable Вссремотевебакцесс Œденякцессбидефаулт Œапплитоексистингусерс
+ `$Enable-WssRemoteWebAccess  œDenyAccessByDefault  œApplyToExistingUsers`
 
  Данная команда позволяет включить удаленный веб-доступ с помощью автоматически настроенного маршрутизатора и изменить установленные по умолчанию права доступа для всех существующих пользователей.
 
-### <a name="add-user"></a>Добавление пользователя
+### <a name="add-user"></a>Добавить пользователя
  **Синтаксис**
 
- Add-Вссусер [-name] <строка \> [-password] <SecureString \> [-AccessLevel <строка \> {пользователь &#124; Администратор}] [-FirstName <строка \> ] [-LastName <строка \> ] [-алловремотеакцесс] [-алловвпнакцесс] [<общиепараметры \> ]
+ Add-WssUser [-name] <строка \> [-password] <SecureString \> [-AccessLevel <строка \> {пользователь &#124; Администратор}] [-FirstName <строка \> ] [-LastName <строка \> ] [-алловремотеакцесс] [-алловвпнакцесс] [<общиепараметры \> ]
 
  **Пример**:
 
- $password = ConvertTo-SecureString "Passw0rd!" -AsPlainText œфорце $ Add-Вссусер-Name User2Test-Password $password-AccessLevel администратор — FirstName Пользователь2-LastName Test
+ `$password = ConvertTo-SecureString "Passw0rd!" -asplaintext  œforce$Add-WssUser -Name User2Test -Password $password -Accesslevel Administrator -FirstName User2 -LastName Test`
 
  Эта команда добавит администратора с именем User2Test с Password Passw0rd!.
 
 ### <a name="add-server-folder"></a>Добавление папки сервера
  **Синтаксис**
 
- Add-Вссфолдер [-name] <строка \> [-path] <строка \> [[-Description] <строка \> ] [-киппермиссионс] [<общиепараметры \> ]
+ Add-WssFolder [-name] <строка \> [-path] <строка \> [[-Description] <строка \> ] [-киппермиссионс] [<общиепараметры \> ]
 
  **Пример**:
 
- $Add-WssFolder -Name "MyTestFolder" -Path "C:\ServerFolders\MyTestFolder"
+ `$Add-WssFolder -Name "MyTestFolder" -Path "C:\ServerFolders\MyTestFolder"`
 
  Эта команда добавляет папку сервера с именем Митестфолдер в указанном расположении.
 

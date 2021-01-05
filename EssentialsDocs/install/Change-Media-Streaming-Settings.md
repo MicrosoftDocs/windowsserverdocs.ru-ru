@@ -1,18 +1,18 @@
 ---
 title: Изменение параметров потоковой передачи мультимедиа
-description: Описание использования Windows Server Essentials
+description: Узнайте, как изменить параметры потоковой передачи мультимедиа, чтобы скрыть надстройку удаленной потоковой передачи мультимедиа, задать имя библиотеки мультимедиа, задать качество потоковой передачи видео, а также включить или отключить потоковую передачу.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: dec690d2-f80c-4b09-99d6-3bba41331972
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: 041a7f53b02d9b6b6368bd2b2f4ac991a14a61fa
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 327cfff5a35ad302888146b2ee8db1cec3cf2828
+ms.sourcegitcommit: d2224cf55c5d4a653c18908da4becf94fb01819e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89623883"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "97711469"
 ---
 # <a name="change-media-streaming-settings"></a>Изменение параметров потоковой передачи мультимедиа
 

@@ -6,19 +6,19 @@ manager: dongill
 author: rpsqrd
 ms.author: ryanpu
 ms.date: 08/29/2018
-ms.openlocfilehash: 1d25127b974c6b379e4fd52433ea74252801c166
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: c1afb664162609aa270dfa25137b9ccbad43373b
+ms.sourcegitcommit: 8e330f9066097451cd40e840d5f5c3317cbc16c2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97047282"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "97696977"
 ---
 # <a name="install-hgs-in-an-existing-bastion-forest"></a>Установка HGS в существующем лесу бастиона
 
 >Область применения: Windows Server 2019, Windows Server (половина ежегодного канала), Windows Server 2016
 
 
-## <a name="join-the-hgs-server-to-the-existing-domain"></a>Присоединение сервера HGS к существующему домену
+## <a name="join-the-hgs-server-to-the-root-domain"></a>Присоединение сервера HGS к корневому домену
 
 В существующем лесу бастиона необходимо добавить HGS в корневой домен. Используйте диспетчер сервера или [Add-Computer](https://go.microsoft.com/fwlink/?LinkId=821564) , чтобы присоединить сервер HGS к корневому домену.
 
@@ -31,7 +31,7 @@ ms.locfileid: "97047282"
 Если в центре обработки данных есть защищенный лес бастиона, в котором нужно присоединить узлы HGS, выполните следующие действия.
 Эти действия также можно использовать для настройки 2 или более независимых кластеров HGS, присоединенных к одному и тому же домену.
 
-## <a name="join-the-hgs-server-to-the-existing-domain"></a>Присоединение сервера HGS к существующему домену
+## <a name="join-the-hgs-server-to-the-desired-domain"></a>Присоединение сервера HGS к нужному домену
 
 Используйте диспетчер сервера или [Add-Computer](https://go.microsoft.com/fwlink/?LinkId=821564) , чтобы присоединить серверы HGS к нужному домену.
 

@@ -7,12 +7,12 @@ ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 244f11e30e5c17f86dab6e8eee8ff8313e9d065f
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: 1be3943fa2dcc5f0d84e96ac6270be3b7ee3c0e5
+ms.sourcegitcommit: d2224cf55c5d4a653c18908da4becf94fb01819e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97050152"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "97711719"
 ---
 # <a name="ad-ds-design-requirements"></a>Требования к разработке доменных служб Active Directory
 
@@ -24,14 +24,14 @@ ms.locfileid: "97050152"
 
 Чтобы разработать AD DS логическую структуру, определите количество лесов, необходимых Организации, а затем создайте проекты для доменов, инфраструктуры службы доменных имен (DNS) и организационных подразделений (OU). На следующем рисунке показан процесс проектирования логической структуры.
 
-![Требования к проектированию AD DS](media/AD-DS-Design-Requirements/d5cebae6-a752-4063-a98f-473799c251bd.gif)
+![Иллюстрация, на которой показан процесс проектирования логической структуры.](media/AD-DS-Design-Requirements/d5cebae6-a752-4063-a98f-473799c251bd.gif)
 
 Дополнительные сведения см. [в разделе Разработка логической структуры для Windows Server 2008 AD DS](Designing-the-Logical-Structure.md).
 
 ## <a name="designing-the-site-topology"></a>Проектирование топологии сайта
 После проектирования логической структуры инфраструктуры AD DS необходимо спроектировать топологию сайта для сети. Топология сайта является логическим представлением физической сети. Он содержит сведения о расположении AD DS сайтов, AD DS контроллерах домена в каждом сайте, а также ссылки на сайты и мосты связей сайтов, поддерживающие AD DSную репликацию между сайтами. На следующем рисунке показан процесс проектирования топологии сайта.
 
-![Требования к проектированию AD DS](media/AD-DS-Design-Requirements/d34d43c0-437f-47cb-9b64-09c0f9ce6479.gif)
+![Иллюстрация, показывающая процесс проектирования топологии сайта.](media/AD-DS-Design-Requirements/d34d43c0-437f-47cb-9b64-09c0f9ce6479.gif)
 
 Дополнительные сведения см. [в статье Разработка топологии сайтов для Windows Server 2008 AD DS](Designing-the-Site-Topology.md).
 

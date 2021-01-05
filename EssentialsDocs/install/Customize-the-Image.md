@@ -1,18 +1,18 @@
 ---
 title: Настройка образа
-description: Описание использования Windows Server Essentials
+description: Сведения о статьях, которые можно использовать для настройки образа операционной системы.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 9dc89e34-fd35-4fa9-8d2f-894bfb780a5f
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: 5d9f59d399ba228c3eb9c114cf31117c94800501
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 20a2c10c6070de9b314bc549a5d81656b006a735
+ms.sourcegitcommit: e00e789dff216dbade861e61365f078b758a5720
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89623556"
+ms.lasthandoff: 12/23/2020
+ms.locfileid: "97755030"
 ---
 # <a name="customize-the-image"></a>Настройка образа
 

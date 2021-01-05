@@ -6,12 +6,12 @@ ms.assetid: 0bc6746f-2adb-43d8-a503-52f473833164
 manager: brianlic
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 7868861d33392e954b64064e3f748f742293b9af
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: a4d62be747859c84247b4afaa9e5a9276c072ea0
+ms.sourcegitcommit: 8e330f9066097451cd40e840d5f5c3317cbc16c2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87955841"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "97697023"
 ---
 # <a name="troubleshooting-converged-nic-configurations"></a>Устранение неполадок конфигураций Объединенных сетевых адаптеров
 
@@ -23,7 +23,7 @@ ms.locfileid: "87955841"
 
 Для устранения неполадок и проверки конфигурации Объединенных сетевых карт можно также использовать следующие команды Windows PowerShell.
 
-## <a name="get-netadapterrdma"></a>Get-Нетадаптеррдма
+## <a name="get-netadapterrdma"></a>Get-NetAdapterRdma
 
 Чтобы проверить конфигурацию RDMA сетевого адаптера, выполните следующую команду Windows PowerShell на сервере Hyper-V.
 
@@ -33,13 +33,13 @@ Get-NetAdapterRdma | fl *
 
 Чтобы определить и устранить проблемы после выполнения этой команды на узле Hyper-V, можно использовать следующие ожидаемые и непредвиденные результаты.
 
-### <a name="get-netadapterrdma-expected-results"></a>Ожидаемые результаты Get-Нетадаптеррдма
+### <a name="get-netadapterrdma-expected-results"></a>Ожидаемые результаты Get-NetAdapterRdma
 
 Узел vNIC и физический сетевой адаптер отображают ненулевые возможности RDMA.
 
 ![Ожидаемые результаты Windows PowerShell](../../media/Converged-NIC/CNIC-Troubleshooting/cnic-tshoot-01.jpg)
 
-### <a name="get-netadapterrdma-unexpected-results"></a>Get-Нетадаптеррдма непредвиденные результаты
+### <a name="get-netadapterrdma-unexpected-results"></a>Get-NetAdapterRdma непредвиденные результаты
 
 Если при выполнении команды **Get-нетадаптеррдма** получены непредвиденные результаты, выполните следующие действия.
 
@@ -52,7 +52,7 @@ Get-NetAdapterRdma | fl *
 5. Убедитесь, что vSwitch создан на правильном физическом адаптере, проверив его возможности RDMA.
 6. Проверьте системный журнал Евентвиевер и выполните фильтрацию по исходному параметру Hyper-V-VmSwitch.
 
-## <a name="get-smbclientnetworkinterface"></a>Get-Смбклиентнетворкинтерфаце
+## <a name="get-smbclientnetworkinterface-verifies-rdma-configuration"></a>Get-SmbClientNetworkInterface проверяет конфигурацию RDMA
 
 В качестве дополнительного шага для проверки конфигурации RDMA выполните следующую команду Windows PowerShell на сервере Hyper-V.
 
@@ -60,13 +60,13 @@ Get-NetAdapterRdma | fl *
 Get-SmbClientNetworkInterface
 ```
 
-### <a name="get-smbclientnetworkinterface-expected-results"></a>Ожидаемые результаты Get-Смбклиентнетворкинтерфаце
+### <a name="get-smbclientnetworkinterface-expected-results"></a>Ожидаемые результаты Get-SmbClientNetworkInterface
 
 Узел vNIC должен выглядеть так же, как RDMA, с точки зрения SMB.
 
 ![Свойства сетевого адаптера](../../media/Converged-NIC/CNIC-Troubleshooting/cnic-tshoot-03.jpg)
 
-### <a name="get-smbclientnetworkinterface-unexpected-results"></a>Get-Смбклиентнетворкинтерфаце непредвиденные результаты
+### <a name="get-smbclientnetworkinterface-unexpected-results"></a>Get-SmbClientNetworkInterface непредвиденные результаты
 
 1. Убедитесь, что драйверы минипорта Млнкс и шины Млнкс установлены последними. Для Mellanox используйте как минимум Drop 42.
 2. Проверьте, соответствуют ли драйверы минипорта и шины Млнкс, путем проверки версии драйвера с помощью Device Manager. Драйвер шины можно найти в системном устройстве. Имя должно начинаться с Mellanox Connect-X 3 PRO VPI, как показано на следующем снимке экрана: свойства сетевого адаптера.
@@ -74,7 +74,7 @@ Get-SmbClientNetworkInterface
 4. Убедитесь, что виртуальный коммутатор Hyper-V создан на правильном физическом адаптере, проверив его возможности RDMA.
 5. Проверьте журналы Евентвиевер для "клиента SMB" в **приложении и службах | Microsoft | Windows**.
 
-## <a name="get-netadapterqos"></a>Get-Нетадаптеркос
+## <a name="get-netadapterqos"></a>Get-NetAdapterQos
 
 Чтобы просмотреть конфигурацию качества обслуживания сетевого адаптера \( \) , выполнив следующую команду Windows PowerShell.
 
@@ -82,20 +82,20 @@ Get-SmbClientNetworkInterface
 Get-NetAdapterQos
 ```
 
-### <a name="get-netadapterqos-expected-results"></a>Ожидаемые результаты Get-Нетадаптеркос
+### <a name="get-netadapterqos-expected-results"></a>Ожидаемые результаты Get-NetAdapterQos
 
 Приоритеты и классы трафика должны отображаться в соответствии с первым этапом настройки, выполненным с помощью этого руководством.
 
 ![Приоритеты и классы качества обслуживания](../../media/Converged-NIC/CNIC-Troubleshooting/cnic-tshoot-04.jpg)
 
-### <a name="get-netadapterqos-unexpected-results"></a>Get-Нетадаптеркос непредвиденные результаты
+### <a name="get-netadapterqos-unexpected-results"></a>Get-NetAdapterQos непредвиденные результаты
 
 Если результаты являются непредвиденными, выполните следующие действия.
 
 1. Убедитесь, что физический сетевой адаптер поддерживает мосты "центр обработки данных" \( \) и "качество обслуживания"
 2. Убедитесь, что драйверы сетевых адаптеров обновлены.
 
-## <a name="get-smbmultichannelconnection"></a>Get-Смбмултичаннелконнектион
+## <a name="get-smbmultichannelconnection"></a>Get-SmbMultiChannelConnection
 
 Чтобы убедиться, что IP-адрес удаленного узла поддерживает RDMA, можно использовать следующую команду Windows PowerShell \- .
 
@@ -103,20 +103,20 @@ Get-NetAdapterQos
 Get-SmbMultiChannelConnection
 ```
 
-### <a name="get-smbmultichannelconnection-expected-results"></a>Ожидаемые результаты Get-Смбмултичаннелконнектион
+### <a name="get-smbmultichannelconnection-expected-results"></a>Ожидаемые результаты Get-SmbMultiChannelConnection
 
 IP-адрес удаленного узла отображается как поддерживающий RDMA.
 
 ![IP-адрес удаленного узла с поддержкой RDMA](../../media/Converged-NIC/CNIC-Troubleshooting/cnic-tshoot-05.jpg)
 
-### <a name="get-smbmultichannelconnection-unexpected-results"></a>Get-Смбмултичаннелконнектион непредвиденные результаты
+### <a name="get-smbmultichannelconnection-unexpected-results"></a>Get-SmbMultiChannelConnection непредвиденные результаты
 
 Если результаты являются непредвиденными, выполните следующие действия.
 
 1. Убедитесь, что проверка связи выполняется обоими способами.
 2. Убедитесь, что брандмауэр не блокирует инициацию подключения по протоколу SMB. В частности, включите правило брандмауэра для порта Direct SMB 5445 для iWARP и 445 для РОЦЕ.
 
-## <a name="get-smbclientnetworkinterface"></a>Get-Смбклиентнетворкинтерфаце
+## <a name="get-smbclientnetworkinterface-verifies-nic-is-rmda-capable"></a>Get-SmbClientNetworkInterface проверяет, поддерживает ли сетевой адаптер РМДА
 
 Можно использовать следующую команду, чтобы убедиться, что виртуальный сетевой адаптер, включенный для RDMA, сообщается в виде RDMA \- с поддержкой протокола SMB.
 
@@ -124,13 +124,13 @@ IP-адрес удаленного узла отображается как по
 Get-SmbClientNetworkInterface
 ```
 
-### <a name="get-smbclientnetworkinterface-expected-results"></a>Ожидаемые результаты Get-Смбклиентнетворкинтерфаце
+### <a name="get-smbclientnetworkinterface-expected-results"></a>Ожидаемые результаты Get-SmbClientNetworkInterface
 
 Виртуальный сетевой адаптер, для которого включен параметр RDMA, должен рассматриваться как RDMA, поддерживающий протокол SMB.
 
 ![Сообщения SMB, поддерживающие адаптеры RDMA](../../media/Converged-NIC/CNIC-Troubleshooting/cnic-tshoot-06.jpg)
 
-### <a name="get-smbclientnetworkinterface-unexpected-results"></a>Get-Смбклиентнетворкинтерфаце непредвиденные результаты
+### <a name="get-smbclientnetworkinterface-unexpected-results"></a>Get-SmbClientNetworkInterface непредвиденные результаты
 
 Если результаты являются непредвиденными, выполните следующие действия.
 
@@ -151,7 +151,7 @@ Get-SmbClientNetworkInterface
 
 Если результаты являются непредвиденными, выполните следующие действия.
 
-1. Задать правильную версию Роце с помощью Set-Млнксдриверкоресеттинг
+1. Задать правильную версию Роце с помощью Set-MlnxDriverCoreSetting
 2. Установите последнюю версию встроенного по с веб-сайта Mellanox.
 
 ## <a name="perfmon-counters"></a>Счетчики системного монитора

@@ -7,12 +7,12 @@ ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 3d434b1619c476d2a80003fd6c8d379d6177462e
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: 432f68a113055f9e68ca4c18ed8aa54b02cad8b0
+ms.sourcegitcommit: d2224cf55c5d4a653c18908da4becf94fb01819e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97050122"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "97711709"
 ---
 # <a name="delegating-administration-of-account-ous-and-resource-ous"></a>Делегирование администрирования подразделений учетных записей и ресурсов
 
@@ -25,7 +25,7 @@ ms.locfileid: "97050122"
 
 На следующем рисунке показан один пример структуры подразделения учетной записи.
 
-![Делегирование администрирования](media/Delegating-Administration-of-Account-OUs-and-Resource-OUs/66d38fbe-e8eb-42d7-abab-9526243bf6d9.gif)
+![Иллюстрация, на которой показан один пример структуры подразделения учетной записи.](media/Delegating-Administration-of-Account-OUs-and-Resource-OUs/66d38fbe-e8eb-42d7-abab-9526243bf6d9.gif)
 
 В следующей таблице перечислены и описаны возможные дочерние подразделения, которые можно создать в структуре подразделения учетной записи.
 
@@ -39,7 +39,7 @@ ms.locfileid: "97050122"
 
 На следующем рисунке показан один из примеров административной группы структуры подразделения учетной записи.
 
-![Делегирование администрирования](media/Delegating-Administration-of-Account-OUs-and-Resource-OUs/be2cd2d2-6956-429c-a53a-369e6fe40b2b.gif)
+![Иллюстрация, на которой показан один из примеров административной группы структуры подразделения учетной записи.](media/Delegating-Administration-of-Account-OUs-and-Resource-OUs/be2cd2d2-6956-429c-a53a-369e6fe40b2b.gif)
 
 Группы, управляющие дочерними подразделениями, получают полный доступ только к определенному классу объектов, за управление которыми они отвечают.
 
@@ -50,7 +50,7 @@ ms.locfileid: "97050122"
 
 На следующем рисунке показаны два возможных расположения для подразделения ресурсов.
 
-![Делегирование администрирования](media/Delegating-Administration-of-Account-OUs-and-Resource-OUs/6667a5ce-34d6-48a9-9974-b823ba70e2af.gif)
+![Иллюстрация, в которой показаны два возможных расположения для подразделения ресурсов.](media/Delegating-Administration-of-Account-OUs-and-Resource-OUs/6667a5ce-34d6-48a9-9974-b823ba70e2af.gif)
 
 Подразделение ресурсов может находиться в корне домена или в качестве дочернего подразделения соответствующего подразделения учетной записи в административной иерархии подразделения. Подразделения ресурсов не имеют стандартных дочерних подразделений. Компьютеры и группы помещаются непосредственно в подразделение ресурсов.
 

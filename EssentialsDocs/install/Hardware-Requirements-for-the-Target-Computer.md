@@ -1,18 +1,18 @@
 ---
 title: Требования к оборудованию для целевого компьютера
-description: Описание использования Windows Server Essentials
+description: Узнайте о требованиях к оборудованию, которые должны быть установлены для установки Windows Server Essentials.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: c20b06b9-ce0d-4c20-bf49-257c3f5dc01b
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: 1672c8168dd206c166ca44392ca290ebb311dcc6
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 5c1cfb86c4519ab4f98280f5e21569fb7829c081
+ms.sourcegitcommit: e00e789dff216dbade861e61365f078b758a5720
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89623514"
+ms.lasthandoff: 12/23/2020
+ms.locfileid: "97755240"
 ---
 # <a name="hardware-requirements-for-the-target-computer"></a>Требования к оборудованию для целевого компьютера
 
@@ -25,10 +25,10 @@ ms.locfileid: "89623514"
 
 ### <a name="table-1--system-requirements-for-windows-server-essentials"></a>Таблица 1. требования к системе для Windows Server Essentials
 
-|Компонент|Минимальные|Рекомендуемые требования*|Максимум|
+|Компонент|Минимальные|Рекомендуемые требования*|Максимальная|
 |---------------|-------------|-------------------|-------------|
 |Центральный процессор|1,4 ГГц (64-разрядный процессор) или быстрее для одноядерных процессоров<br /><br /> 1,3 ГГц (64-разрядный процессор) или быстрее для многоядерных процессоров|3,1 ГГц (64-разрядный процессор) или быстрее для многоядерных процессоров|2 ЦП|
-|Память (ОЗУ)|2 ГБ|16 Гб|64 ГБ|
+|Память (ОЗУ)|2 ГБ|16 ГБ|64 ГБ|
 |Жесткие диски и свободное дисковое пространство|Жесткий диск объемом 160 ГБ, системный раздел 60 ГБ||Без ограничений|
 
  * Рекомендуемые требования к оборудованию для поддержки максимального числа пользователей и устройств в Windows Server Essentials.

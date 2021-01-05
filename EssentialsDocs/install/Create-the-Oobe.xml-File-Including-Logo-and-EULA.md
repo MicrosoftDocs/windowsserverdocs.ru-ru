@@ -1,18 +1,18 @@
 ---
 title: Создание файла Oobe.xml, включающего эмблему и лицензионное соглашение
-description: Описание использования Windows Server Essentials
+description: Узнайте, как использовать файл Oobe.xml для добавления собственного лицензионного соглашения (EULA) в первоначальную конфигурацию.
 ms.date: 10/03/2016
 ms.topic: article
 ms.assetid: 8a7b3cc1-21bb-4344-8110-f5d5959b370d
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: d6c1a721107d96f8a2a5de89f95c97ab87bf740a
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: a809aa273c6cae3a713ee2c39f16b610a7a0ab36
+ms.sourcegitcommit: d2224cf55c5d4a653c18908da4becf94fb01819e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89623758"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "97711319"
 ---
 # <a name="create-the-oobexml-file-including-logo-and-eula"></a>Создание файла Oobe.xml, включающего эмблему и лицензионное соглашение
 
