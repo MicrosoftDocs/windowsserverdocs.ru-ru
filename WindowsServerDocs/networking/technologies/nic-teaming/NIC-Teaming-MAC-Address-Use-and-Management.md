@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: 26d105e0-afc3-44b5-bb5e-0c884a4c5d62
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 357abea3faa619ba9850d549fb1a812b1d443b2d
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: 6d11f68b01e5974fa76411f5c3be54f013fdf45c
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87952274"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97946830"
 ---
 # <a name="nic-teaming-mac-address-use-and-management"></a>Использование MAC-адресов в объединении сетевых карт и управление ими
 

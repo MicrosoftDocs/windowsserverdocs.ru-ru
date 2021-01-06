@@ -1,17 +1,18 @@
 ---
 title: Шаг 4. Проверка кластера
-description: Этот раздел является частью руководств по развертыванию удаленного доступа в кластере в Windows Server 2016.
+description: Узнайте, как проверить правильность настройки развертывания кластера DirectAccess.
 manager: brianlic
 ms.topic: article
 ms.assetid: f22dcf10-b453-4664-a9ef-e40e95c72f63
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 4fa053519116ddadbe1469223001a33384aebe91
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: 92f51a3b6fa00a06006223abe4f6d28bc40d744f
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87963900"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97947780"
 ---
 # <a name="step-4-verify-the-cluster"></a>Шаг 4. Проверка кластера
 

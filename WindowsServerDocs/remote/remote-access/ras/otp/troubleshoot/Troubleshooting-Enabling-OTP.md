@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: b58252ca-4c1d-4664-a3c4-7301e2121517
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: a01a52be4ce755c57297ba825be249b9b6853c7d
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: cf2ec60923415e3fafc253a14c8da0d624e72bf1
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87958302"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97947230"
 ---
 # <a name="troubleshooting-enabling-otp"></a>Диагностика включения OTP
 
@@ -59,7 +60,7 @@ ms.locfileid: "87958302"
 
 2.  В основной области перейдите к **роли и компоненты**.
 
-3.  Щелкните правой кнопкой мыши пункт **публикация WebDAV**и выберите пункт **удалить роль или компонент**.
+3.  Щелкните правой кнопкой мыши пункт **публикация WebDAV** и выберите пункт **удалить роль или компонент**.
 
 4.  Завершите работу мастера удаления ролей и компонентов.
 
@@ -70,7 +71,7 @@ ms.locfileid: "87958302"
 
 **Причина**
 
-Эта ошибка может быть вызвана двумя причинами.
+Две возможные причины этой ошибки приведены ниже.
 
 -   Шаблон не настроен в соответствии с требованиями OTP DirectAccess и поэтому не может быть выбран.
 

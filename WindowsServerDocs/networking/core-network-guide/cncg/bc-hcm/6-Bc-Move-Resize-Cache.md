@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: bb0eb349-914d-4596-9140-d3aae7597d55
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 8eed5b91d0634a8409b6b6e26f823ffe86ea8a14
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: 276ab47bc6f4f906aaeafc7779c4e2afdb80b260
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87964270"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97947890"
 ---
 # <a name="move-and-resize-the-hosted-cache-optional"></a>Перемещение и изменение размера размещенного кэша \( необязательно\)
 

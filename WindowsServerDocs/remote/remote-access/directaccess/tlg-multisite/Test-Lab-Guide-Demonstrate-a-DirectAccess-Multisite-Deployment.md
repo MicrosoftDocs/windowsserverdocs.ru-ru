@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: 3c98106c-67cc-406a-810e-f2e09f7e2c5e
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: bee710cea7711118e1953f138a4c69ee513ff2b0
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: ab74d3f7dd6f3f4069986b80ea749cbd901c1f2c
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87955191"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97947940"
 ---
 # <a name="test-lab-guide-demonstrate-a-directaccess-multisite-deployment"></a>Руководство по лаборатории тестирования: демонстрация многосайтового развертывания DirectAccess
 

@@ -4,12 +4,13 @@ description: В этой статье приведены краткие спра
 ms.date: 06/10/2020
 author: Deland-Han
 ms.author: delhan
-ms.openlocfilehash: 581b485f219e960ecd467baa1f7dff7742c3acf8
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.topic: troubleshooting
+ms.openlocfilehash: c15dd18c5c479ea2e280a333f8b4ec808ab70f90
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87965791"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97946930"
 ---
 # <a name="how-to-determine-the-minimum-staging-area-dfsr-needs-for-a-replicated-folder"></a>Как определить минимальную область промежуточного хранения, которая требуется службе репликации DFS (DFSR) для реплицированной папки
 
@@ -68,7 +69,7 @@ PowerShell входит в Windows 2008 и более поздних верси�
 <table>
 <tbody>
 <tr class="odd">
-<td>name</td>
+<td>Имя</td>
 <td>Длина</td>
 </tr>
 <tr class="even">
@@ -84,7 +85,7 @@ PowerShell входит в Windows 2008 и более поздних верси�
 <td>5751522304</td>
 </tr>
 <tr class="odd">
-<td> <strong>file9.zip</strong></td>
+<td> <strong>file9.zip</strong></td>
 <td>5472683008</td>
 </tr>
 <tr class="even">
@@ -158,7 +159,7 @@ PowerShell входит в Windows 2008 и более поздних верси�
 
 Хотя пошаговое руководство является интересным, это, скорее всего, не самое лучшее в использовании время для самостоятельного выполнения математических операций. Чтобы автоматизировать процесс, используйте команду 3 из приведенных выше примеров. Результаты будут выглядеть следующим образом:
 
-> [![image](https://msdnshared.blob.core.windows.net/media/TNBlogsFS/prod.evol.blogs.technet.com/CommunityServer.Blogs.Components.WeblogFiles/00/00/00/58/02/metablogapi/8204.image_thumb_02CB3914.png "Изображение")](https://msdnshared.blob.core.windows.net/media/TNBlogsFS/prod.evol.blogs.technet.com/CommunityServer.Blogs.Components.WeblogFiles/00/00/00/58/02/metablogapi/0876.image_03A39EFE.png)
+> [![Эскиз](https://msdnshared.blob.core.windows.net/media/TNBlogsFS/prod.evol.blogs.technet.com/CommunityServer.Blogs.Components.WeblogFiles/00/00/00/58/02/metablogapi/8204.image_thumb_02CB3914.png "Изображение")](https://msdnshared.blob.core.windows.net/media/TNBlogsFS/prod.evol.blogs.technet.com/CommunityServer.Blogs.Components.WeblogFiles/00/00/00/58/02/metablogapi/0876.image_03A39EFE.png)
 
 Используя пример команды 3 без каких-либо дополнительных усилий, за исключением округления до ближайшего целого числа, я могу определить, что требуется квота промежуточной области размером 6 ГБ для d: \\ документация.
 

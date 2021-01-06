@@ -1,17 +1,18 @@
 ---
 title: Планирование расширенного развертывания DirectAccess
-description: Эта статья является частью руководств по развертыванию одного сервера DirectAccess с дополнительными параметрами для Windows Server 2016.
+description: Узнайте о шагах планирования, необходимых для развертывания одного сервера DirectAccess под Windows Server 2016, Windows Server 2012 R2 или Windows Server 2012 с полным спектром основных и дополнительных функций.
 manager: brianlic
 ms.topic: article
 ms.assetid: d486735e-71fe-4443-9878-4b784cd588a7
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: f672b74ad9c88484ea32d1d097d72ca75777a213
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: a125584b040437a515f3879890cc0787434f8864
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87970401"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97946590"
 ---
 # <a name="plan-an-advanced-directaccess-deployment"></a>Планирование расширенного развертывания DirectAccess
 

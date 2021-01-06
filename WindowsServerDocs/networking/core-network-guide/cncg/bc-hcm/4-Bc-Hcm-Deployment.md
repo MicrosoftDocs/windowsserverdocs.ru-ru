@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: c635fa48-d064-4b8b-9dce-9f26abfbcfa4
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 0da0e9044841af8e86ef629e505103dd0fdb0804
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: 212c1244bd2383b80fcc754cf6ebb877359c53c6
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87952594"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97947880"
 ---
 # <a name="branchcache-hosted-cache-mode-deployment"></a>Развертывание режима размещенного кэша BranchCache
 

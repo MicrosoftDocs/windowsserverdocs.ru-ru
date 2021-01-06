@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: f51c9e38-98bb-49c1-9d39-427d07021499
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 97ee8c257d9c84b63ee069d87d7bfa6ebf3299e4
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: c3d71c1e0108c9036f3dba7e3508d774ab6677ee
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87949468"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97947840"
 ---
 # <a name="install-the-web-server-web1"></a>Установка веб-сервера WEB1
 

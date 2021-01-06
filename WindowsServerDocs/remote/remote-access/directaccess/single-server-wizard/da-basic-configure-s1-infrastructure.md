@@ -1,17 +1,18 @@
 ---
 title: Шаг 1. Настройка базовой инфраструктуры DirectAccess
-description: Эта статья является частью руководств по развертыванию одного сервера DirectAccess с помощью мастера начало работы для Windows Server 2016.
+description: Узнайте, как настроить инфраструктуру, необходимую для базового развертывания DirectAccess, с помощью одного сервера DirectAccess в смешанной среде IPv4 и IPv6.
 manager: brianlic
 ms.topic: article
 ms.assetid: ba4de2a4-f237-4b14-a8a7-0b06bfcd89ad
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: d0f9655a7ed06190d80718a8c5bbdebfedf07499
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: 41009608862a21987097ad2a58f4fb524b535f06
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87970351"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97947260"
 ---
 # <a name="step-1-configure-the-basic-directaccess-infrastructure"></a>Шаг 1. Настройка базовой инфраструктуры DirectAccess
 
@@ -115,7 +116,7 @@ ms.locfileid: "87970351"
 
 5.  Нажмите кнопку **Готово**.
 
-![](../../../media/Step-1-Configure-the-DirectAccess-Infrastructure/PowerShellLogoSmall.gif)***<em>Эквивалентные команды</em> в Windows PowerShell Windows PowerShell***
+![Windows PowerShell Windows PowerShell — ](../../../media/Step-1-Configure-the-DirectAccess-Infrastructure/PowerShellLogoSmall.gif) * *_<em>эквивалентные команды</em>_* _
 
 Следующие командлеты Windows PowerShell выполняют ту же функцию, что и предыдущая процедура. Вводите каждый командлет в одной строке, несмотря на то, что здесь они могут отображаться разбитыми на несколько строк из-за ограничений форматирования.
 
@@ -126,7 +127,7 @@ Add-DnsServerResourceRecordAAAA -Name <network_location_server_name> -ZoneName <
 
 Также следует настроить записи DNS для следующих компонентов:
 
--   **Сервер IP-HTTPS** — клиенты DirectAccess должны иметь возможность разрешить DNS-имя сервера удаленного доступа из Интернета.
+-   _ *Сервер IP-HTTPS** — клиенты DirectAccess должны иметь возможность разрешить DNS-имя сервера удаленного доступа из Интернета.
 
 -   **Проверка отзыва списка отзыва сертификатов** . DirectAccess использует проверку отзыва сертификатов для подключения IP-HTTPS между клиентами DirectAccess и сервером удаленного доступа, а также для подключения на основе протокола HTTPS между клиентом DirectAccess и сервером сетевого расположения. В обоих случаях у клиентов DirectAccess должна быть возможность разрешения расположения точки распространения CRL и доступа к ней.
 
@@ -165,7 +166,7 @@ Add-DnsServerResourceRecordAAAA -Name <network_location_server_name> -ZoneName <
 
 3.  На странице **Система** щелкните **Дополнительные параметры системы**.
 
-4.  В диалоговом окне **Свойства системы** на вкладке ** Имя компьютера** щелкните **Изменить**.
+4.  В диалоговом окне **Свойства системы** на вкладке **Имя компьютера** щелкните **Изменить**.
 
 5.  В поле **Имя компьютера** введите имя компьютера, если вы меняете имя компьютера при присоединении сервера к домену. В разделе **Член групп** выберите **Домен** и введите имя домена, к которому нужно присоединить сервер, например corp.contoso.com, а затем нажмите **ОК**.
 
@@ -177,7 +178,7 @@ Add-DnsServerResourceRecordAAAA -Name <network_location_server_name> -ZoneName <
 
 9. В диалоговом окне **Свойства системы** нажмите кнопку "Закрыть". Щелкните **Перезагрузить сейчас**, когда появится сообщение о необходимости перезагрузки.
 
-![](../../../media/Step-1-Configure-the-DirectAccess-Infrastructure/PowerShellLogoSmall.gif)***<em>Эквивалентные команды</em> в Windows PowerShell Windows PowerShell***
+![Windows PowerShell Windows PowerShell — ](../../../media/Step-1-Configure-the-DirectAccess-Infrastructure/PowerShellLogoSmall.gif) * *_<em>эквивалентные команды</em>_* _
 
 Следующие командлеты Windows PowerShell выполняют ту же функцию, что и предыдущая процедура. Вводите каждый командлет в одной строке, несмотря на то, что здесь они могут отображаться разбитыми на несколько строк из-за ограничений форматирования.
 
@@ -212,7 +213,7 @@ Restart-Computer
 
 ### <a name="to-create-a-security-group-for-directaccess-clients"></a><a name="Sec_Group"></a>Создание группы безопасности для клиентов DirectAccess
 
-1.  Запустите **DSA. msc**. В консоли **Active Directory — пользователи и компьютеры** разверните в левой области домен, к которому будет принадлежать группа безопасности, щелкните правой кнопкой мыши **Пользователи**, выберите **Новые**, после чего щелкните **Группа**.
+1.  Выполните команду _ * DSA. msc * *. В консоли **Active Directory — пользователи и компьютеры** разверните в левой области домен, к которому будет принадлежать группа безопасности, щелкните правой кнопкой мыши **Пользователи**, выберите **Новые**, после чего щелкните **Группа**.
 
 2.  В диалоговом окне **Создать объект — Группа** в поле **Имя группы** укажите имя группы безопасности.
 

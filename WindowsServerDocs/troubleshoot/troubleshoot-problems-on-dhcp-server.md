@@ -3,15 +3,15 @@ title: Устранение неполадок на сервере DHCP
 description: В этом артилцее объясняется, как устранять неполадки на DHCP-сервере и получать данные.
 manager: dcscontentpm
 ms.date: 5/26/2020
-ms.topic: article
+ms.topic: troubleshooting
 author: Deland-Han
 ms.author: delhan
-ms.openlocfilehash: a6b5e4128c2e07e51ab8a9c07155a8c0212fcad8
-ms.sourcegitcommit: 7cacfc38982c6006bee4eb756bcda353c4d3dd75
+ms.openlocfilehash: 8ff76377dcfaefa556b9d2df676210ae55fd0f1d
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "90078591"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97947180"
 ---
 # <a name="troubleshoot-problems-on-the-dhcp-server"></a>Устранение неполадок на сервере DHCP
 
@@ -45,9 +45,9 @@ ms.locfileid: "90078591"
 
 Проверьте журналы событий службы "система и DHCP-сервер" (**журналы приложений и служб** \> **Microsoft** \> **Windows** \> **DHCP-сервер**), чтобы сообщить о проблемах, связанных с наблюдаемой проблемой.
 В зависимости от типа проблемы событие заносится в журнал для одного из следующих каналов событий: DHCP- [сервер: рабочие](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/dn800668\(v=ws.11\))события DHCP-сервер события административных событий DHCP-сервера системные события оповещения DHCP-сервер события 
- [DHCP Server Administrative Events](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/dn800668\(v=ws.11\)) 
- [DHCP Server System Events](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/dn800668\(v=ws.11\)) 
- [DHCP Server Filter Notification Events](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/dn800668\(v=ws.11\)) 
+ [](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/dn800668\(v=ws.11\)) 
+ [](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/dn800668\(v=ws.11\)) 
+ [](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/dn800668\(v=ws.11\)) 
  [аудита DHCP-сервера](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/dn800668\(v=ws.11\))
 
 ## <a name="data-collection"></a>Сбор данных

@@ -5,12 +5,13 @@ ms.topic: reference
 author: jasongerend
 manager: elizapo
 ms.author: jgerend
-ms.openlocfilehash: 3bdb980754fedefebddfb33b998b37b621c3505a
-ms.sourcegitcommit: 4165d4a9198228d4ec809ccd7d791f8de2aeb159
+ms.date: 12/10/2020
+ms.openlocfilehash: 99b69b12c2be1be52ef2b71d5649cf3e258dc389
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97091288"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97946310"
 ---
 # <a name="diskpart"></a>diskpart
 
@@ -57,7 +58,7 @@ diskpart <parameter>
 
 Интерпретатор команд DiskPart позволяет выполнять следующие команды:
 
-| Команда | Описание |
+| Get-Help | Описание |
 | ------- | ----------- |
 | [active](active.md) | Помечает раздел диска как активный. |
 | [add](add.md) | Зеркально отображает простой том с фокусом на указанный диск. |

@@ -6,12 +6,13 @@ ms.author: joflore
 author: MicrosoftGuyJFlo
 manager: mtillman
 ms.date: 08/07/2018
-ms.openlocfilehash: 382ae7c0ece085ab17a325a7fece79dfd3cdaf7b
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.topic: reference
+ms.openlocfilehash: 6fe5c947c1d0c3a854277593f03d5560ce687a6f
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97047162"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97948030"
 ---
 # <a name="additional-resources"></a>Дополнительные ресурсы
 

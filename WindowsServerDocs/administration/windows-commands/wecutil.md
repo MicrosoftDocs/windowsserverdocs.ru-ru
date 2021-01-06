@@ -6,12 +6,13 @@ ms.assetid: 0c82a6cb-d652-429c-9c3d-0f568c78d54b
 ms.author: lizross
 author: eross-msft
 manager: mtillman
-ms.openlocfilehash: 52ce6018a0aaf6ff10d6e231092464451d80e1b9
-ms.sourcegitcommit: 28b5ab74cb0b40539ccc1a83998d6391e87fe51f
+ms.date: 12/04/2020
+ms.openlocfilehash: b6068135d8a097e6e849ec2e2234a76accd50bbf
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "96614916"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97947290"
 ---
 # <a name="wecutil"></a>wecutil
 

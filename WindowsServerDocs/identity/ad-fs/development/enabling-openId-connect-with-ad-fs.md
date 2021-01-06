@@ -7,12 +7,12 @@ ms.author: billmath
 manager: mtillman
 ms.date: 02/22/2018
 ms.topic: article
-ms.openlocfilehash: 24c6918cc4f0a438bd45317364207b71a5e9b192
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: f0156ef18ba56aade897b86669f428db7239e63b
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97041582"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97946190"
 ---
 # <a name="build-a-web-application-using-openid-connect-with-ad-fs-2016-and-later"></a>Создание веб-приложения с помощью OpenID Connect Connect с AD FS 2016 и более поздних версий
 
@@ -34,17 +34,17 @@ ms.locfileid: "97041582"
 
 2.  В мастере группы приложений в поле Имя введите **адфсссо** и в разделе **клиент-серверные приложения** выберите **веб-браузер, обращающийся к шаблону веб-приложения** .  Нажмите кнопку **Далее**.
 
-    ![AD FS OpenID Connect](media/Enabling-OpenId-Connect-with-AD-FS-2016/AD_FS_OpenID_1.PNG)
+    ![Снимок экрана, на котором показан веб-браузер, обращающийся к шаблону веб-приложения.](media/Enabling-OpenId-Connect-with-AD-FS-2016/AD_FS_OpenID_1.PNG)
 
 3.  Скопируйте значение **идентификатора клиента** .  Он будет использоваться позже в качестве значения для Ida: ClientId в файле web.config приложений.
 
 4.  Введите следующую команду для **URI перенаправления:**  -  **https://localhost:44320/** .  Нажмите кнопку **Добавить**. Нажмите кнопку **Далее**.
 
-    ![AD FS OpenID Connect](media/Enabling-OpenId-Connect-with-AD-FS-2016/AD_FS_OpenID_2.PNG)
+    ![Снимок экрана, на котором показано, где следует ввести значение перенаправления U R I.](media/Enabling-OpenId-Connect-with-AD-FS-2016/AD_FS_OpenID_2.PNG)
 
 5.  На экране **Сводка** нажмите кнопку **Далее**.
 
-    ![AD FS OpenID Connect](media/Enabling-OpenId-Connect-with-AD-FS-2016/AD_FS_OpenID_3.PNG)
+    ![Снимок экрана, показывающий экран сводки.](media/Enabling-OpenId-Connect-with-AD-FS-2016/AD_FS_OpenID_3.PNG)
 
 6.  На экране **Завершение** нажмите кнопку **Закрыть**.
 
@@ -57,7 +57,7 @@ ms.locfileid: "97041582"
 git clone https://github.com/Azure-Samples/active-directory-dotnet-webapp-openidconnect
 ```
 
-![AD FS OpenID Connect](media/Enabling-OpenId-Connect-with-AD-FS-2016/AD_FS_OpenID_8.PNG)
+![Снимок экрана окна терминала, в котором показано, как скачать пример проекта.](media/Enabling-OpenId-Connect-with-AD-FS-2016/AD_FS_OpenID_8.PNG)
 
 #### <a name="to-modify-the-app"></a>Изменение приложения
 
@@ -75,7 +75,7 @@ git clone https://github.com/Azure-Samples/active-directory-dotnet-webapp-openid
     <add key="ida:PostLogoutRedirectUri" value="[Replace this with Redirect URI from #4 in the above section]" />
     ```
 
-    ![AD FS OpenID Connect](media/Enabling-OpenId-Connect-with-AD-FS-2016/AD_FS_OpenID_9.PNG)
+    ![Снимок экрана, на котором показаны изменения, внесенные в файл конфигурации Web Dot.](media/Enabling-OpenId-Connect-with-AD-FS-2016/AD_FS_OpenID_9.PNG)
 
 4.  Откройте файл Startup.Auth.cs и внесите следующие изменения:
 
@@ -95,7 +95,7 @@ git clone https://github.com/Azure-Samples/active-directory-dotnet-webapp-openid
         private static string postLogoutRedirectUri = ConfigurationManager.AppSettings["ida:PostLogoutRedirectUri"];
         ```
 
-        ![AD FS OpenID Connect](media/Enabling-OpenId-Connect-with-AD-FS-2016/AD_FS_OpenID_10.PNG)
+        ![Снимок экрана, показывающий, как изменить логику инициализации по промежуточного слоя Open I D Connect.](media/Enabling-OpenId-Connect-with-AD-FS-2016/AD_FS_OpenID_10.PNG)
 
     -   Далее измените параметры по промежуточного слоя OpenID Connect Connect следующим образом:
 
@@ -110,7 +110,7 @@ git clone https://github.com/Azure-Samples/active-directory-dotnet-webapp-openid
                 RedirectUri = postLogoutRedirectUri
         ```
 
-        ![AD FS OpenID Connect](media/Enabling-OpenId-Connect-with-AD-FS-2016/AD_FS_OpenID_11.PNG)
+        ![Снимок экрана, показывающий, как изменить параметры по промежуточного слоя Open I D Connect.](media/Enabling-OpenId-Connect-with-AD-FS-2016/AD_FS_OpenID_11.PNG)
 
         Изменяя описанный выше способ, мы делаем следующее:
 
@@ -121,7 +121,7 @@ git clone https://github.com/Azure-Samples/active-directory-dotnet-webapp-openid
 ## <a name="verify-the-app-is-working"></a>Проверка работоспособности приложения
 После внесения приведенных выше изменений нажмите клавишу F5.  Откроется пример страницы.  Щелкните Вход.
 
-![AD FS OpenID Connect](media/Enabling-OpenId-Connect-with-AD-FS-2016/AD_FS_OpenID_12.PNG)
+![Снимок экрана, на котором показан пример страницы A S P Dot N E T.](media/Enabling-OpenId-Connect-with-AD-FS-2016/AD_FS_OpenID_12.PNG)
 
 Вы будете перенаправлены на страницу входа AD FS.  Выполните вход.
 
@@ -129,7 +129,7 @@ git clone https://github.com/Azure-Samples/active-directory-dotnet-webapp-openid
 
 После успешного выполнения этой операции вы увидите, что вы вошли в.
 
-![AD FS OpenID Connect](media/Enabling-OpenId-Connect-with-AD-FS-2016/AD_FS_OpenID_14.PNG)
+![Снимок экрана, на котором выделено имя пользователя, которое использовалось для входа в систему.](media/Enabling-OpenId-Connect-with-AD-FS-2016/AD_FS_OpenID_14.PNG)
 
 ## <a name="next-steps"></a>Next Steps
 [Разработка AD FS](../../ad-fs/AD-FS-Development.md)

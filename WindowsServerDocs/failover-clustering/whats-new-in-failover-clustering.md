@@ -2,17 +2,17 @@
 description: Дополнительные сведения о новых возможностях отказоустойчивой кластеризации
 ms.assetid: 350aa5a3-5938-4921-93dc-289660f26bad
 title: Новые возможности отказоустойчивой кластеризации в Windows Server
-ms.topic: get-started-article
+ms.topic: how-to
 manager: lizross
 author: JasonGerend
 ms.author: jgerend
 ms.date: 10/18/2018
-ms.openlocfilehash: 5ffe286cecc8500d70df00289a9694847e7d0994
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: a0c0a236f13a21b83a7489b1d0b8b91f76561c14
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97040473"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97948080"
 ---
 # <a name="whats-new-in-failover-clustering"></a>Что нового в отказоустойчивой кластеризации?
 
@@ -211,5 +211,5 @@ Windows Server 2016 включает отказоустойчивые класт
 
 ## <a name="see-also"></a>См. также:
 
-* [Память](../storage/storage.yml)
+* [Хранилище](../storage/storage.yml)
 * [Новые возможности хранилища в Windows Server 2016](../storage/whats-new-in-storage.md)

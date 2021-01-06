@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: 673c5bfb-b590-4932-8e54-ca0a466d90cc
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 762093c1cd9c4a8782274e796b5b82fd24d94855
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: cca4e4483875b5a9e8eaebc2b5983087ee8fbbc6
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87963840"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97947760"
 ---
 # <a name="step-2-plan-cluster-servers"></a>Шаг 2. Планирование серверов кластера
 
@@ -44,6 +45,6 @@ ms.locfileid: "87963840"
 
 3.  Режим фильтрации — трафик будет распределяться между несколькими узлами.
 
-4.  Affinity — определено одно сходство.
+4.  Affinity-Single сходство определено.
 
-5.  Протоколы — оба
+5.  Protocols-Both

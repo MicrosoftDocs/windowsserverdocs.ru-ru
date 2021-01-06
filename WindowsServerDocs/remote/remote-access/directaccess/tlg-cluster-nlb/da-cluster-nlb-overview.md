@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: cd1e9efd-19e9-49e7-8432-881f661c9792
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: a4e575c6c977fa429e650e001a05d0c90cb48f59
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: e13c630bae539aadd01828d8e3eaa5524a05aa6f
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87951069"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97946520"
 ---
 # <a name="overview-of-the-directaccess-cluster-nlb-test-lab-scenario"></a>Обзор сценария лаборатории тестирования DirectAccess Cluster-NLB
 
@@ -27,7 +28,7 @@ ms.locfileid: "87951069"
 
 -   **APP1**— сервер во внутренней сети, настроенный как веб-и файловый сервер, а также как корневой центр сертификации (ЦС) предприятия.
 
--   А **— компьютер**во внутренней сети, настроенный как IPv4-и файловый сервер. Этот компьютер используется для выделения возможностей NAT64/DNS64.
+-   А **— компьютер** во внутренней сети, настроенный как IPv4-и файловый сервер. Этот компьютер используется для выделения возможностей NAT64/DNS64.
 
 -   **INET1**— сервер, настроенный в качестве DNS и DHCP-сервера в Интернете.
 

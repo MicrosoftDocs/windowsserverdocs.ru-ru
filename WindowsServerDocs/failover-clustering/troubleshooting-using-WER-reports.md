@@ -4,12 +4,13 @@ description: Устранение неполадок отказоустойчи�
 ms.author: johnmar
 author: JohnMarlin-MSFT
 ms.date: 03/27/2018
-ms.openlocfilehash: 865689fd18825d32e7f5d46a60b3bf02321aaebb
-ms.sourcegitcommit: 5f234fb15c1d0365b60e83a50bf953e317d6239c
+ms.topic: troubleshooting
+ms.openlocfilehash: 1000deb0b1a4425ad3ae6ead8c9bd3c1e5eeabd6
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97879873"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97948090"
 ---
 # <a name="troubleshooting-a-failover-cluster-using-windows-error-reporting"></a>Устранение неполадок отказоустойчивого кластера с помощью отчетов об ошибках Windows
 

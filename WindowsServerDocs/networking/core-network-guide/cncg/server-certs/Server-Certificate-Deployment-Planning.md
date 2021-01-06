@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: 7eb746e0-1046-4123-b532-77d5683ded44
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: d73cee05c36176755e70796c1190620223327306
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: 4d80056d81af596eab4f82d949624bfef3dbe935
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87949358"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97947830"
 ---
 # <a name="server-certificate-deployment-planning"></a>Планирование развертывания сертификата сервера
 

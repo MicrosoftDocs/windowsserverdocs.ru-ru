@@ -1,17 +1,18 @@
 ---
 title: Шаг 1. Настройка расширенной инфраструктуры DirectAccess
-description: Эта статья является частью руководств по развертыванию одного сервера DirectAccess с дополнительными параметрами для Windows Server 2016.
+description: Узнайте, как настроить инфраструктуру, необходимую для расширенного развертывания удаленного доступа, использующего один сервер DirectAccess в смешанной среде IPv4 и IPv6.
 manager: brianlic
 ms.topic: article
 ms.assetid: 43abc30a-300d-4752-b845-10a6b9f32244
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 74a38d16bba173fc91790fbdb03026c679929d56
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: 051b6aa066d77fa3ffa4887373ae6efaca563508
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87955281"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97946580"
 ---
 # <a name="step-1-configure-advanced-directaccess-infrastructure"></a>Шаг 1. Настройка расширенной инфраструктуры DirectAccess
 
@@ -202,7 +203,7 @@ Set-DAClientDNSConfiguration "DNSSuffix "." "ProxyServer <Name of the proxy serv
 
 ##### <a name="to-install-the-ip-https-certificate-from-an-internal-ca"></a>Установка сертификата IP-HTTPS из внутреннего ЦС
 
-1.  На сервере DirectAccess: на **начальном** экране введите**mmc.exe**и нажмите клавишу ВВОД.
+1.  На сервере DirectAccess: на **начальном** экране введите **mmc.exe** и нажмите клавишу ВВОД.
 
 2.  В консоли MMC в меню **Файл** выберите **Добавить или удалить оснастку**.
 
@@ -237,7 +238,7 @@ Set-DAClientDNSConfiguration "DNSSuffix "." "ProxyServer <Name of the proxy serv
 
 ### <a name="to-create-the-network-location-server"></a><a name="NLS_DNS"></a>Создание сервера сетевых расположений
 
-1.  На DNS-сервере внутренней сети: на **начальном** экране введите**днсмгмт. msc**и нажмите клавишу ВВОД.
+1.  На DNS-сервере внутренней сети: на **начальном** экране введите **днсмгмт. msc** и нажмите клавишу ВВОД.
 
 2.  В левой области консоли **Диспетчер DNS** разверните зону прямого просмотра для вашего домена. Щелкните домен правой кнопкой и выберите **Новый узел (A или AAAA)**.
 
@@ -257,7 +258,7 @@ Set-DAClientDNSConfiguration "DNSSuffix "." "ProxyServer <Name of the proxy serv
 
 5.  В диалоговом окне **DNS** нажмите кнопку **ОК**, а затем — **Готово**.
 
-![](../../../media/Step-1-Configuring-DirectAccess-Infrastructure/PowerShellLogoSmall.gif)***<em>Эквивалентные команды</em> в Windows PowerShell Windows PowerShell***
+![Windows PowerShell Windows PowerShell — ](../../../media/Step-1-Configuring-DirectAccess-Infrastructure/PowerShellLogoSmall.gif) * *_<em>эквивалентные команды</em>_* _
 
 Следующие командлеты Windows PowerShell выполняют ту же функцию, что и предыдущая процедура. Вводите каждый командлет в одной строке, несмотря на то, что здесь они могут отображаться разбитыми на несколько строк из-за ограничений форматирования.
 
@@ -268,7 +269,7 @@ Add-DnsServerResourceRecordAAAA -Name <network_location_server_name> -ZoneName <
 
 Также следует настроить записи DNS для следующих компонентов:
 
--   **Сервер IP-HTTPS**
+-   _ *Сервер IP-HTTPS**
 
     У клиентов DirectAccess должна быть возможность разрешения DNS-имени сервера DirectAccess из Интернета.
 
@@ -309,7 +310,7 @@ Add-DnsServerResourceRecordAAAA -Name <network_location_server_name> -ZoneName <
 
 #### <a name="to-join-client-computers-to-the-domain"></a>Присоединение клиентских компьютеров к домену
 
-1.  На **начальном** экране введите**explorer.exe**и нажмите клавишу ВВОД.
+1.  На **начальном** экране введите **explorer.exe** и нажмите клавишу ВВОД.
 
 2.  Щелкните правой кнопкой значок компьютера и выберите **Свойства**.
 
@@ -329,12 +330,12 @@ Add-DnsServerResourceRecordAAAA -Name <network_location_server_name> -ZoneName <
 
 10. При появлении запроса на перезагрузку компьютера нажмите кнопку **Перезагрузить сейчас**.
 
-![](../../../media/Step-1-Configuring-DirectAccess-Infrastructure/PowerShellLogoSmall.gif)***<em>Эквивалентные команды</em> в Windows PowerShell Windows PowerShell***
+![Windows PowerShell Windows PowerShell — ](../../../media/Step-1-Configuring-DirectAccess-Infrastructure/PowerShellLogoSmall.gif) * *_<em>эквивалентные команды</em>_* _
 
 Следующие командлеты Windows PowerShell выполняют ту же функцию, что и предыдущая процедура. Вводите каждый командлет в одной строке, несмотря на то, что здесь они могут отображаться разбитыми на несколько строк из-за ограничений форматирования.
 
 > [!NOTE]
-> При вводе следующей команды **Add-Computer** следует указать учетные данные домена.
+> При вводе следующей команды _ *Add-Computer** необходимо указать учетные данные домена.
 
 ```
 Add-Computer -DomainName <domain_name>
@@ -374,9 +375,9 @@ Restart-Computer
 
 3.  Инструкции по связыванию производственных GPO см. в разделе [Связывание объекта групповой политики](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc732979(v=ws.11)).
 
-4.  Предоставьте администратору удаленного доступа разрешение **Изменение параметров, удаление и изменение разрешений безопасности** для всех промежуточных GPO. Дополнительные сведения см. в разделе [Делегирование разрешений для группы или пользователя в объекте групповой политики](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc754542(v=ws.11)).
+4.  Предоставьте администратору удаленного доступа разрешение **Изменение параметров, удаление и изменение разрешений безопасности** для всех промежуточных GPO. Дополнительные сведения см. [в разделе Делегирование разрешений для группы или пользователя на групповая политика объекте](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc754542(v=ws.11)).
 
-5.  Запретите администратору удаленного доступа связывание объектов групповой политики во всех доменах (или убедитесь, что администратор удаленного доступа не имеет таких разрешений). Дополнительные сведения см. в разделе [Делегирование разрешений для связывания объектов групповой политики](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc755086(v=ws.11)).
+5.  Запретите администратору удаленного доступа связывание объектов групповой политики во всех доменах (или убедитесь, что у администратора удаленного доступа нет таких разрешений). Дополнительные сведения см. в разделе [Делегирование разрешений для связывания объектов групповой политики](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc755086(v=ws.11)).
 
 Когда администраторы удаленного доступа настраивают службу удаленного доступа, они всегда должны указывать только промежуточные GPO (а не производственные). Это справедливо для начальной настройки удаленного доступа и для выполнения дополнительных операций настройки, для которых требуются дополнительные GPO, например при добавлении точек входа в развертывание на нескольких сайтах или активации клиентских компьютеров в дополнительных доменах.
 
@@ -418,7 +419,7 @@ Restart-Computer
 
     10. На странице **Проверка архива** нажмите кнопку **Далее**, а затем кнопку **Готово**.
 
-![](../../../media/Step-1-Configuring-DirectAccess-Infrastructure/PowerShellLogoSmall.gif)***<em>Эквивалентные команды</em> в Windows PowerShell Windows PowerShell***
+![Windows PowerShell Windows PowerShell — ](../../../media/Step-1-Configuring-DirectAccess-Infrastructure/PowerShellLogoSmall.gif) * *_<em>эквивалентные команды</em>_* _
 
 Следующие командлеты Windows PowerShell выполняют ту же функцию, что и предыдущая процедура. Вводите каждый командлет в одной строке, несмотря на то, что здесь они могут отображаться разбитыми на несколько строк из-за ограничений форматирования.
 
@@ -451,7 +452,7 @@ Restart-Computer
 
 ### <a name="to-create-a-security-group-for-directaccess-clients"></a><a name="Sec_Group"></a>Создание группы безопасности для клиентов DirectAccess
 
-1.  На **начальном** экране введите**DSA. msc**и нажмите клавишу ВВОД. В консоли **Active Directory — пользователи и компьютеры** разверните в левой области домен, к которому будет принадлежать группа безопасности, щелкните правой кнопкой мыши **Пользователи**, выберите **Новые**, после чего щелкните **Группа**.
+1.  На экране _ *Start** введите **DSA. msc** и нажмите клавишу ВВОД. В консоли **Active Directory — пользователи и компьютеры** разверните в левой области домен, к которому будет принадлежать группа безопасности, щелкните правой кнопкой мыши **Пользователи**, выберите **Новые**, после чего щелкните **Группа**.
 
 2.  В диалоговом окне **Создание объекта — группа** в поле **Имя группы** введите имя группы безопасности.
 
@@ -495,7 +496,7 @@ Add-ADGroupMember -Identity DirectAccess_clients_group_name -Members <computer_n
 
 #### <a name="to-install-the-network-location-server-certificate-from-an-internal-ca"></a>Установка сертификата сервера сетевых расположений из внутреннего ЦС
 
-1.  На сервере, где будет размещаться веб-сайт сервера сетевого расположения: на **начальном** экране введите**mmc.exe**и нажмите клавишу ВВОД.
+1.  На сервере, где будет размещаться веб-сайт сервера сетевого расположения: на **начальном** экране введите **mmc.exe** и нажмите клавишу ВВОД.
 
 2.  В консоли MMC в меню **Файл** выберите **Добавить или удалить оснастку**.
 
@@ -539,7 +540,7 @@ Add-ADGroupMember -Identity DirectAccess_clients_group_name -Members <computer_n
 
     Точки распространения CRL можно получить с помощью:
 
-    -   Веб-серверы с помощью URL-адреса на основе HTTP, например:https://crl.corp.contoso.com/crld/corp-APP1-CA.crl
+    -   Веб-серверы с помощью URL-адреса на основе HTTP, например: https://crl.corp.contoso.com/crld/corp-APP1-CA.crl
 
     -   Файловые серверы, доступ к которым осуществляется по UNC-пути, например \\ \crl.Corp.contoso.com\crld\corp-APP1-CA.CRL
 

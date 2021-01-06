@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: 3c8feff2-cae1-4376-9dfa-21ad3e4d5d99
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: a4459cbe1e61352be762ea3b699235325f91b5bb
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: f64df3e7879f54e56b2a4365af9f0d7c2d8376e8
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87970191"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97946980"
 ---
 # <a name="configure-a-multi-forest-deployment"></a>Configure a Multi-Forest Deployment
 
@@ -59,13 +60,13 @@ ms.locfileid: "87970191"
 ## <a name="configure-otp-in-a-multi-forest-deployment"></a><a name="OTPMultiForest"></a>Настройка OTP в развертывании с несколькими лесами
 При настройке OTP в развертывании с несколькими лесами используются следующие термины:
 
--   Корневой ЦС — основной центр сертификации PKI (леса).
+-   Корневой PKI-центр леса основного CA-The.
 
--   ЦС предприятия — все остальные ЦС.
+-   Enterprise CA-All других ЦС.
 
--   Лес ресурсов — лес, содержащий корневой ЦС, который считается "управлением форест\домаин".
+-   Ресурс Forest-The лесу, который содержит корневой ЦС, и считается "управлением форест\домаин".
 
--   Лес учетных записей — все остальные леса в топологии.
+-   Учетная запись Forest-All других лесов в топологии.
 
 Для этой процедуры требуется сценарий PowerShell, PKISync.ps1. См. раздел [AD CS: сценарий PKISync.ps1 для регистрации сертификатов между лесами](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ff961506(v=ws.10)).
 
@@ -94,7 +95,7 @@ ms.locfileid: "87970191"
     certutil -config <Computer-Name>\<Root-CA-Name> -ca.cert <root-ca-cert-filename.cer>
     ```
 
-    (Если выполнить команду в корневом ЦС, можно опустить сведения о подключении,-config <Computer-Name>\\<Root-CA-name>)
+    (Если выполнить команду в корневом ЦС, можно опустить сведения о подключении,-config <Computer-Name>\\<Root-CA-Name>)
 
     1.  Импортируйте сертификат корневого ЦС из предыдущего шага в ЦС леса учетных записей, выполнив следующую команду из командной строки с повышенными привилегиями:
 
@@ -110,7 +111,7 @@ ms.locfileid: "87970191"
         certutil -config <Computer-Name>\<Enterprise-CA-Name> -ca.cert <enterprise-ca-cert-filename.cer>
         ```
 
-        (Если выполнить команду в корневом ЦС, можно опустить сведения о подключении,-config <Computer-Name>\\<Root-CA-name>)
+        (Если выполнить команду в корневом ЦС, можно опустить сведения о подключении,-config <Computer-Name>\\<Root-CA-Name>)
 
     4.  Импортируйте сертификаты ЦС предприятия из предыдущего шага в ЦС леса учетных записей, выполнив следующие команды из командной строки с повышенными привилегиями:
 

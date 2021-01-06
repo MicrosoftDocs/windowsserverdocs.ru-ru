@@ -1,17 +1,18 @@
 ---
 title: Планирование развертывания базового DirectAccess
-description: Эта статья является частью руководств по развертыванию одного сервера DirectAccess с помощью мастера начало работы для Windows Server 2016.
+description: Узнайте о шагах планирования, необходимых для развертывания одного сервера DirectAccess под Windows Server 2016, Windows Server 2012 R2 или Windows Server 2012 с базовыми функциями.
 manager: brianlic
 ms.topic: article
 ms.assetid: d12632d7-4f47-4b4e-a4ad-f18322d726e2
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 64b15907190928e35c29c91ec819a2e44566f5ae
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: 9e7188fe508ff33d44d2e21c9f1468b3761ab443
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87970361"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97947010"
 ---
 # <a name="plan-a-basic-directaccess-deployment"></a>Планирование развертывания базового DirectAccess
 

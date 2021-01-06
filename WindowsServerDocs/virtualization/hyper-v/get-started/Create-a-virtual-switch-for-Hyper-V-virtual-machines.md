@@ -1,17 +1,17 @@
 ---
 title: Создание виртуального коммутатора для виртуальных машин Hyper-V
 description: Содержит инструкции по созданию виртуального коммутатора с помощью диспетчера Hyper-V или Windows PowerShell.
-ms.topic: get-started-article
+ms.topic: how-to
 ms.assetid: fdc8063c-47ce-4448-b445-d7ff9894dc17
 ms.author: benarm
 author: BenjaminArmstrong
 ms.date: 10/04/2016
-ms.openlocfilehash: 1a3cc557b39fca63d07e42c2fba41dc11bf88aa6
-ms.sourcegitcommit: d3f066dd812f60b37c7c2daea70775dc82f9df00
+ms.openlocfilehash: da1082a90f5d028ae6be0581245d298f3a4c00d0
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "97486279"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97946900"
 ---
 # <a name="create-a-virtual-switch-for-hyper-v-virtual-machines"></a>Создание виртуального коммутатора для виртуальных машин Hyper-V
 
@@ -54,7 +54,7 @@ ms.locfileid: "97486279"
 
     ![Снимок экрана, на котором показаны параметры идентификатора виртуальной ЛС](../media/Hyper-V-NewSwitch-VLAN.png)
 
-8. Нажмите кнопку **ОК**.
+8. Нажмите кнопку **OK**.
 
 9. Нажмите кнопку **Да**.
 
@@ -93,6 +93,6 @@ ms.locfileid: "97486279"
 Дополнительные сценарии Windows PowerShell, посвященные усовершенствованным или новым функциям виртуального коммутатора в Windows Server 2016, см. в разделе [Удаленный доступ к памяти и переключение на объединение внедренных](../../hyper-v-virtual-switch/RDMA-and-Switch-Embedded-Teaming.md)элементов.
 
 
-## <a name="next-step"></a>Дальнейшие действия
+## <a name="next-step"></a>Следующий шаг
 
 [Создание виртуальной машины в Hyper-V](Create-a-virtual-machine-in-Hyper-V.md)

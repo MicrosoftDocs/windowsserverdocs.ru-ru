@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: a09ec1a9-38e1-4c6c-8213-cf5b6ae44043
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: cad8872731dd1625956d3f8a2418e9e5411f534a
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: 70e5415d52373a29b0f929978f015a2f0c838ce9
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87951019"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97946510"
 ---
 # <a name="directaccess-cluster-nlb-test-lab-configuration-requirements"></a>Требования к конфигурации лаборатории тестирования DirectAccess Cluster-NLB
 

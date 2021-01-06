@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: 931a75ac-80f8-434c-8789-1dffb308ee13
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 7ca80064a4bc87f8f50fc3c281932880b7ee97eb
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: dfcdab7f2e4084c51d636f7dc8594e63e563ac19
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87970441"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97946650"
 ---
 # <a name="directaccess-test-lab-guides"></a>DirectAccess руководства по лаборатории тестирования
 

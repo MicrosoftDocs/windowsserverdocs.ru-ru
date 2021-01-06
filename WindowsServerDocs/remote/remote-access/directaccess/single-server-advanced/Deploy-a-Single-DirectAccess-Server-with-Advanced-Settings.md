@@ -1,17 +1,18 @@
 ---
 title: Deploy a Single DirectAccess Server with Advanced Settings
-description: Эта статья является частью руководств по развертыванию одного сервера DirectAccess с дополнительными параметрами для Windows Server 2016.
+description: Сведения о сценарии DirectAccess, в котором используется один сервер DirectAccess, и возможность развертывания DirectAccess с дополнительными параметрами.
 manager: brianlic
 ms.topic: article
 ms.assetid: b211a9ca-1208-4e1f-a0fe-26a610936c30
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 4f2b2939bff08cc5c8f1fbd1eac6b421a35f589f
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.date: 08/07/2020
+ms.openlocfilehash: 3587977247b59ce2379d1a04e624099969a7c71b
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87996774"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97946610"
 ---
 # <a name="deploy-a-single-directaccess-server-with-advanced-settings"></a>Deploy a Single DirectAccess Server with Advanced Settings
 

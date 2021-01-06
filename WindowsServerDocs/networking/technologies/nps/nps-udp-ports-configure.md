@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: 70569958-d7a7-474e-a817-6b7b5134784a
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: c522206fe701d47f8f0c07e7c7a64d7e6fc7074c
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: 94a8e67056dff497f1adc18d898a6c87f4ab665c
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87944514"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97947440"
 ---
 # <a name="configure-nps-udp-port-information"></a>Настройка сведений о портах UDP сервера политики сети
 
@@ -33,7 +34,7 @@ ms.locfileid: "87944514"
 ## <a name="to-configure-nps-udp-port-information"></a>Настройка сведений о UDP-портах NPS
 
 1. Откройте консоль NPS.
-2. Щелкните правой кнопкой мыши **сервер политики сети**и выберите пункт **свойства**.
+2. Щелкните правой кнопкой мыши **сервер политики сети** и выберите пункт **свойства**.
 3. Перейдите на вкладку **порты** и проверьте параметры портов. Если проверка подлинности RADIUS и UDP-порты для учета RADIUS отличаются от указанных значений по умолчанию (1812 и 1645 для проверки подлинности, а также 1813 и 1646 для учета), введите параметры порта в поле **Проверка подлинности** и **учет**.
 4. Чтобы использовать несколько параметров портов для проверки подлинности или запросов учета, разделяйте номера портов запятыми.
 

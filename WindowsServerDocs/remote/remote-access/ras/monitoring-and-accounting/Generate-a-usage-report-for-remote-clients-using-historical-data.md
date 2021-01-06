@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: 0305467b-ce39-4532-a05a-2cc5ff946f55
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 12cb9b6fcb0a1c24f88d59b185ceba3d59f9f2d9
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: b8dafad68546cfe20ab1e7704b60694aea4d44e0
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87970271"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97947380"
 ---
 # <a name="generate-a-usage-report-for-remote-clients-using-historical-data"></a>Создание отчетов по использованию на основе зарегистрированных ранее данных для удаленных клиентов
 
@@ -53,11 +54,11 @@ ms.locfileid: "87970271"
 >
 > Учетные данные удаленного доступа основаны на концепции **сеансов**. В отличие от **подключения**, **сеанс** однозначно ИДЕНТИФИЦИРУЕТСЯ сочетанием IP-адреса и имени пользователя удаленного клиента. Например, если туннель компьютера сформирован из удаленного клиента с именем КЛИЕНТ1, то сеанс будет создан и сохранен в базе данных учета. Когда пользователь с именем User1 подключается к этому клиенту через некоторое время (но туннель компьютера по-прежнему активен), сеанс записывается в отдельный сеанс. Различие между сеансами заключается в хранении различий между туннелем компьютера и пользовательским туннелем.
 
-![](../../../media/Generate-a-usage-report-for-remote-clients-using-historical-data/PowerShellLogoSmall.gif)***<em>Эквивалентные команды</em> в Windows PowerShell Windows PowerShell***
+![Windows PowerShell Windows PowerShell — ](../../../media/Generate-a-usage-report-for-remote-clients-using-historical-data/PowerShellLogoSmall.gif) * *_<em>эквивалентные команды</em>_* _
 
 Следующие командлеты Windows PowerShell выполняют ту же функцию, что и предыдущая процедура. Вводите каждый командлет в одной строке, несмотря на то, что здесь они могут отображаться разбитыми на несколько строк из-за ограничений форматирования.
 
-В следующем скрипте измените диапазон дат, для которого требуется отчет, в параметре **-StartDateTime** и **-енддатетиме** .
+В следующем скрипте измените диапазон дат, для которого требуется отчет, в параметрах _ *-StartDateTime** и **-енддатетиме** .
 
 ```
 PS> Get-RemoteAccessConnectionStatisticsSummary -StartDateTime "1 October 2010 00:00:00" -EndDateTime "14 October 2010 00:00:00"

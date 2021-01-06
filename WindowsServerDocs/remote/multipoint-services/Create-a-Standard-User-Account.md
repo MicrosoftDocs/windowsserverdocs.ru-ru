@@ -6,12 +6,13 @@ ms.assetid: 1e113666-e45f-48b6-aad8-42c361c9046d
 author: evaseydl
 manager: scottman
 ms.author: evas
-ms.openlocfilehash: f6f4a7b6b59dc78e7670084912f2cb6939036022
-ms.sourcegitcommit: 7cacfc38982c6006bee4eb756bcda353c4d3dd75
+ms.date: 09/14/2020
+ms.openlocfilehash: cb3557234115f2e8733d6d3b8ddb74872e32529a
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "90077571"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97947080"
 ---
 # <a name="create-a-standard-user-account"></a>Создание учетной записи обычного пользователя
 *Учетные записи обычных пользователей* создаются для тех пользователей, которым необходим регулярный доступ к станциям без возможности управления системой MultiPoint Services. Пользователи с учетными записями обычных пользователей могут запускать большинство приложений и сохранять файлы, но не могут запускать диспетчер MultiPoint. Чтобы узнать, кто имеет доступ к стандартному пользователю, в диспетчере MultiPoint перейдите на вкладку **Пользователи** . Стандартные учетные записи пользователей отображаются в столбце **тип учетной записи** как **стандартный**.

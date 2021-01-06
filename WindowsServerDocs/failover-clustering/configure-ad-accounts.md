@@ -5,12 +5,13 @@ ms.date: 11/12/2012
 author: JasonGerend
 manager: lizross
 ms.author: jgerend
-ms.openlocfilehash: 86662b623adb0a482c843286608a796b923e13fd
-ms.sourcegitcommit: 6fbe337587050300e90340f9aa3e899ff5ce1028
+ms.topic: how-to
+ms.openlocfilehash: c25bece164d0ef946f2c78afc8a36668b080a40b
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "97599627"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97947590"
 ---
 # <a name="configuring-cluster-accounts-in-active-directory"></a>Настройка учетных записей кластеров в Active Directory
 

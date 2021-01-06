@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: 36255d80-a13e-4af7-a5c0-ab4c8f302622
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 43ea4d7d3add453425cba8b9794bf6b8c34c5df8
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: 86824aaba3e249aa5cc4f0743d28ce0371481c21
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87963820"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97947740"
 ---
 # <a name="manage-directaccess-clients-remotely"></a>Удаленное управление клиентами DirectAccess
 

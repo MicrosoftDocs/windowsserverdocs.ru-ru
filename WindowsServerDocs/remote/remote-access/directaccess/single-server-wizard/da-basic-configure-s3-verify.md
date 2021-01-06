@@ -1,17 +1,18 @@
 ---
 title: Шаг 3. Проверка развертываний
-description: Эта статья является частью руководств по развертыванию одного сервера DirectAccess с помощью мастера начало работы для Windows Server 2016.
+description: Узнайте, как убедиться, что вы правильно настроили базовое развертывание DirectAccess.
 manager: brianlic
 ms.topic: article
 ms.assetid: 45e9edd6-acca-4d59-851a-a0cc8bd8b4c6
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 905daa32b8293fd1140b0bf6915b18ab16445bba
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: 36db79413c774700e2d164ad22146b8b06f83198
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87970331"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97947250"
 ---
 # <a name="step-3-verify-deployments"></a>Шаг 3. Проверка развертываний
 

@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: db15dcf5-4d64-48d7-818a-06c2839e1289
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: c39111755af922a477475de180302da226966859
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: 39d23a08cdf24cbf8c229e45c99e81330c353e79
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87951079"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97946530"
 ---
 # <a name="test-lab-guide-demonstrate-directaccess-in-a-cluster-with-windows-nlb"></a>Руководство по лаборатории тестирования: демонстрация DirectAccess в кластере с балансировкой сетевой нагрузки Windows
 
@@ -38,7 +39,7 @@ ms.locfileid: "87951079"
 
     3.  Попытайтесь включить балансировку нагрузки, пока не возникнет ошибка. В диалоговом окне "Включение балансировки нагрузки" разверните область сведений, щелкните ее правой кнопкой мыши и выберите команду **Копировать сценарий**.
 
-    4.  Откройте Блокнот и вставьте содержимое буфера обмена. Например:
+    4.  Откройте Блокнот и вставьте содержимое буфера обмена. Пример:
 
         ```
         Set-RemoteAccessLoadBalancer -InternetDedicatedIPAddress @('10.244.4.19/255.255.255.0','fdc4:29bd:abde:3333::2/128') -InternetVirtualIPAddress @('fdc4:29bd:abde:3333::1/128', '10.244.4.21/255.255.255.0') -ComputerName 'DA1.domain1.corp.contoso.com' -Verbose
@@ -46,7 +47,7 @@ ms.locfileid: "87951079"
 
     5.  Закройте все открытые диалоговые окна удаленного доступа и закройте консоль управления удаленным доступом.
 
-    6.  Измените вставленный текст и удалите IPv6-адреса. Например:
+    6.  Измените вставленный текст и удалите IPv6-адреса. Пример:
 
         ```
         Set-RemoteAccessLoadBalancer -InternetDedicatedIPAddress @('10.244.4.19/255.255.255.0') -InternetVirtualIPAddress @('10.244.4.21/255.255.255.0') -ComputerName 'DA1.domain1.corp.contoso.com' -Verbose

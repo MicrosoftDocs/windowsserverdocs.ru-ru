@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: cd6fc1b8-26b0-47a4-b27d-f6fa9da0d447
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: bbd07907988ac8d9c3ef4b4bcf68a81bc09f8c68
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: e92ff33b3fc2a2ac75ada9a3edb357752eb990ba
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87952019"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97947480"
 ---
 # <a name="plan-network-policy-server"></a>Планирование сервера политики сети
 

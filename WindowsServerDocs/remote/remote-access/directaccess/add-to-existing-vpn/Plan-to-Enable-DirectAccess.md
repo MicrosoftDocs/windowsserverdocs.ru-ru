@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: 458a3bcf-50b6-47b2-b53c-1b8204c5189e
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: b0eb294425d3dde02e12a9b92281de6f80773900
-ms.sourcegitcommit: 029b1e19ce11160d5f988046e04a83e8ab5a60dc
+ms.date: 01/05/2021
+ms.openlocfilehash: e97547345c4bc193608b0ba16211c7772c6fa490
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97904219"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97946620"
 ---
 # <a name="plan-to-enable-directaccess"></a>Планирование включения DirectAccess
 

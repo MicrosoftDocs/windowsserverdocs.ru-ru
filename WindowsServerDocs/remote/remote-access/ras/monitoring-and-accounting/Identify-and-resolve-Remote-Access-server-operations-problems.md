@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: 7ce84c9f-fd1f-4463-8fc7-d2f33344a2c9
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: de0937ffdf1c7c3d626b9100c1e02af3f2ded969
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: cae96d3034cb650b84b40a1a35364400b182a619
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87970241"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97947370"
 ---
 # <a name="identify-and-resolve-remote-access-server-operations-problems"></a>Выявление и ликвидация сбоев в работе сервера удаленного доступа
 
@@ -43,7 +44,7 @@ ms.locfileid: "87970241"
 
 1.  На **начальном** экране сервера удаленного доступа щелкните **Администрирование**, а затем дважды щелкните **службы**.
 
-2.  В списке **служб**прокрутите вниз и щелкните правой кнопкой мыши **вспомогательный метод IP**и выберите команду " **Закрыть**".
+2.  В списке **служб** прокрутите вниз и щелкните правой кнопкой мыши **вспомогательный метод IP** и выберите команду " **Закрыть**".
 
 ### <a name="identify-the-operations-issue-and-take-corrective-action"></a><a name="BKMK_Identify"></a>Выявление проблемных операций и выполнение корректирующих действий
 Отключение службы поддержки IP-адресов вызовет серьезную ошибку на сервере удаленного доступа. На панели мониторинга отображается состояние операций сервера и сведения о ней.
@@ -58,7 +59,7 @@ ms.locfileid: "87970241"
 
 4.  Вы увидите список компонентов с зеленым или красным значком, который указывает их рабочее состояние. Щелкните строку **IP-HTTPS** в списке. При выборе строки сведения об этой операции отображаются в области **сведений** следующим образом:
 
-    **Ошибка**
+    **Error**
 
     Служба вспомогательного приложения IP (IPHlpSvc) остановлена. DirectAccess может работать не так, как ожидалось. Служба поддержки IP-адресов обеспечивает туннельное подключение с помощью платформы подключения, технологий туннелирования IPv6 и IP-HTTPS.
 
@@ -68,7 +69,7 @@ ms.locfileid: "87970241"
 
     2.  Служба поддержки IP-адресов не отвечает.
 
-    **Способы устранения:**
+    **Решение**
 
     1.  Чтобы убедиться, что служба запущена, введите в командной строке Windows PowerShell команду **Get-Service IpHlpSvc** .
 
@@ -83,12 +84,12 @@ ms.locfileid: "87970241"
 
 1.  На **начальном** экране щелкните **Администрирование**, а затем дважды щелкните **службы**.
 
-2.  В списке **служб**прокрутите вниз и щелкните правой кнопкой мыши **вспомогательный метод IP**и выберите пункт **запустить**.
+2.  В списке **служб** прокрутите вниз и щелкните правой кнопкой мыши **вспомогательный метод IP** и выберите пункт **запустить**.
 
-![](../../../media/Identify-and-resolve-Remote-Access-server-operations-problems/PowerShellLogoSmall.gif)***<em>Эквивалентные команды</em> в Windows PowerShell Windows PowerShell***
+![Windows PowerShell Windows PowerShell — ](../../../media/Identify-and-resolve-Remote-Access-server-operations-problems/PowerShellLogoSmall.gif) * *_<em>эквивалентные команды</em>_* _
 
 Следующие командлеты Windows PowerShell выполняют ту же функцию, что и предыдущая процедура. Вводите каждый командлет в одной строке, несмотря на то, что здесь они могут отображаться разбитыми на несколько строк из-за ограничений форматирования.
 
 ```PowerShell
-PS> Get-RemoteAccessHealth | Where-Object {$_.Component -eq "IP-HTTPS"} | Format-List -Property *
+PS> Get-RemoteAccessHealth | Where-Object {$_.Component -eq "IP-HTTPS"} | Format-List -Property _
 ```

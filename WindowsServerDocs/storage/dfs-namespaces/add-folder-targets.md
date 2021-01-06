@@ -5,13 +5,13 @@ ms.author: jgerend
 manager: brianlic
 ms.topic: article
 author: jasongerend
-ms-date: 06/05/2017
-ms.openlocfilehash: bc229360a616e7fa56231e6211b4b909d45ec2de
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 12/10/2020
+ms.openlocfilehash: 354047e2882a14d33b43b1bef609120b06202e47
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87957822"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97946950"
 ---
 # <a name="add-folder-targets"></a>Добавление конечных объектов папок
 

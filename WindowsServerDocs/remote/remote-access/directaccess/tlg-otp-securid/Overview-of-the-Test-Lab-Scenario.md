@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: ce584811-b209-48fe-ab2b-4c399bd0bd79
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: a295d3eb549512b301a29b81e3e1c0e1167763b3
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: 282dc78a0849234177cdbaa15ab82ea9eb00fc27
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87955111"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97947000"
 ---
 # <a name="overview-of-the-test-lab-scenario-otp-authentication-and-rsa-securid"></a>Обзор сценария лаборатории тестирования проверка подлинности OTP и RSA SecurID
 

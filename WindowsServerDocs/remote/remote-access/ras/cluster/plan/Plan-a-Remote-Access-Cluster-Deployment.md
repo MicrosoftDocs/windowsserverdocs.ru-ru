@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: 88ffd598-2fde-402c-bd12-be790f84dc96
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: d3765ce86bcb5552188b135c293e5eea24b0547e
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: 38769a52823932bfa9fc8bd8f84c7bc0a05b915d
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87963850"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97947770"
 ---
 # <a name="plan-a-remote-access-cluster-deployment"></a>Планирование развертывания кластера удаленного доступа
 
@@ -23,7 +24,7 @@ ms.locfileid: "87963850"
 
 -   [Шаг 2. Планирование серверов кластера](Step-2-Plan-Cluster-Servers.md) .
 
--   [Шаг 3. Планирование развертывания кластера с балансировкой нагрузки](Step-3-Plan-a-Load-Balanced-Cluster-Deployment.md).
+-   [Шаг 3. Планирование развертывания кластера Load-Balanced](Step-3-Plan-a-Load-Balanced-Cluster-Deployment.md).
 
 -   Шаг 4. Запишите решения по планированию для расширенного развертывания удаленного доступа. Эти данные можно использовать как задание для всех лиц, участвующих в развертывании.
 

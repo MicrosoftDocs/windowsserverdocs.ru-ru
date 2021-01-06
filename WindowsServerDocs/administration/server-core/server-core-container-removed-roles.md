@@ -7,12 +7,13 @@ author: pronichkin
 ms.author: artemp
 ms.localizationpriority: medium
 ms.date: 05/07/2018
-ms.openlocfilehash: 8b81ae6dc86ad9fd3a8650ca22ba9f3a42af4d3f
-ms.sourcegitcommit: 7cacfc38982c6006bee4eb756bcda353c4d3dd75
+ms.topic: conceptual
+ms.openlocfilehash: 058a976a20e09cf46b57ec39af6c7f5b0cc30fdf
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "90077861"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97947170"
 ---
 # <a name="roles-role-services-and-features-not-in-server-core-containers---windows-server-version-1803"></a>Роли, службы ролей и компоненты, отсутствующие в контейнерах Server Core — Windows Server, версия 1803
 
@@ -29,41 +30,41 @@ ms.locfileid: "90077861"
 
 <br>адцертификатесервицесроле
 <br>AuthManager
-<br>BitLocker — служебные программы
+<br>Bitlocker-Utilities
 <br>BitLocker
 <br>BITS
-<br>Битсекстенсионс — отправка
+<br>BITSExtensions-Upload
 <br>ккффилтер
 <br>цертификатинроллментполицисервер
 <br>цертификатинроллментсервер
 <br>цертификатесервицес
-<br>Клиентфорнфс — инфраструктура
+<br>ClientForNFS-Infrastructure
 <br>Контейнеры
 <br>корефилесервер
 <br>DataCenterBridging-LLDP-средства
 <br>DataCenterBridging
-<br>Дедупликация — ядро
+<br>Dedup-Core
 <br>девицехеалсаттестатионсервице
-<br>ДФСН — сервер
+<br>DFSN-Server
 <br>DFSR-Infrastructure-Сервередитион
 <br>DirectoryServices — Адам
-<br>DirectoryServices — DomainController
-<br>Дискио — качество обслуживания
+<br>DirectoryServices-DomainController
+<br>DiskIo-QoS
 <br>енханцедстораже
-<br>Фаиловерклустер — пакет AdminPak
-<br>Фаиловерклустер — Аутоматионсервер
-<br>Фаиловерклустер — Кмдинтерфаце
-<br>Фаиловерклустер — Фуллсервер
-<br>Фаиловерклустер-PowerShell
-<br>Файловые службы
+<br>FailoverCluster-AdminPak
+<br>FailoverCluster-AutomationServer
+<br>FailoverCluster-CmdInterface
+<br>FailoverCluster-FullServer
+<br>FailoverCluster-PowerShell
+<br>File-Services
 <br>филесервервссажент
-<br>Инфраструктура FRS
+<br>FRS-Infrastructure
 <br>FSRM-Infrastructure-службы
-<br>FSRM — инфраструктура
+<br>FSRM-Infrastructure
 <br>харденедфабриценкриптионтаск
 <br>хостгуардиан
 <br>HostGuardianService-Package
-<br>IdentityServer — SecurityTokenService
+<br>IdentityServer-SecurityTokenService
 <br>ипамклиентфеатуре
 <br>ипамсерверфеатуре
 <br>iSCSITargetServer-PowerShell
@@ -79,18 +80,18 @@ ms.locfileid: "90077861"
 <br>Microsoft-Windows-FCI-Client-Package
 <br>Microsoft-Windows-GroupPolicy-Серверадминтулс-Update
 <br>Microsoft-Windows-подсистема — Linux
-<br>МСРДК — инфраструктура
+<br>MSRDC-Infrastructure
 <br>мултипасио
-<br>нетворкконтроллер
+<br>NetworkController
 <br>нетворкконтроллертулс
 <br>нетворкдевицеенроллментсервицес
 <br>нетворклоадбаланЦингфуллсервер
 <br>нетворквиртуализатион
 <br>онлинеревокатионсервицес
-<br>P2P-Пнрпонли
+<br>P2P-PnrpOnly
 <br>Относительно
 <br>Печать — пользовательский интерфейс пользователя
-<br>Печать — Лпдпринтсервице
+<br>Printing-LPDPrintService
 <br>Printing-Server-Foundation-Features
 <br>Печать — роль сервера
 <br>QWAVE
@@ -101,43 +102,43 @@ ms.locfileid: "90077861"
 <br>ремотеакцессповершелл
 <br>ремотеакцесссервер
 <br>ресумекэйфилтер
-<br>Ригхтсманажементсервицес — роль
+<br>RightsManagementServices-Role
 <br>ригхтсманажементсервицес
-<br>RMS — Федерация
+<br>RMS-Federation
 <br>Сбмгр — пользовательский интерфейс
 <br>ServerCore-Drivers-General-WOW64
 <br>ServerCore-Drivers-General
-<br>Серверфорнфс — инфраструктура
+<br>ServerForNFS-Infrastructure
 <br>ServerManager-Core-RSAT-Feature-Tools
 <br>сервермедиафаундатион
 <br>ServerMigration
 <br>сессиондиректори
 <br>сетупандбутевентколлектион
 <br>шиелдедвмтулсадминпакк
-<br>SMB1Protocol — сервер
+<br>SMB1Protocol-Server
 <br>смбдирект
 <br>смбхашженератион
-<br>смбвитнесс
+<br>SmbWitness
 <br>SNMP
 <br>софтварелоадбаланцер
 <br>Хранилище-реплика — Админпакк
-<br>Хранилище — реплика
+<br>Storage-Replica
 <br>TPM-КОМАНДНОМ PSH-командлеты
-<br>UpdateServices — база данных
-<br>UpdateServices — службы
-<br>UpdateServices — Виддатабасе
+<br>UpdateServices-Database
+<br>UpdateServices-Services
+<br>UpdateServices-WidDatabase
 <br>UpdateServices
 <br>вмхостажент
 <br>Волумеактиватион — полная роль
 <br>Веб-приложение-прокси
 <br>Доступ к данным
 <br>вебенроллментсервицес
-<br>Защитник Windows
-<br>Архивы
+<br>Windows-Defender
+<br>WindowsServerBackup
 <br>виндовссторажеманажементсервице
 <br>винсрунтиме
 <br>вмиснмппровидер
-<br>Воркфолдерс — сервер
+<br>WorkFolders-Server
 <br>WSS-Product-Package
 
 </div>

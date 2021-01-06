@@ -2,16 +2,16 @@
 title: Контроль исходящего трафика в виртуальной сети
 description: Фундаментальным аспектом облачных сетей монетизацию является выход из пропускной способности сети. Например, передача исходящих данных в Microsoft Azure бизнес-модель. Плата за исходящие данные взимается по общему объему данных, которые выходят за пределы центров обработки Azure через Интернет в заданном цикле выставления счетов.
 manager: grcusanz
-ms.topic: get-started-article
+ms.topic: how-to
 ms.author: anpaul
 author: AnirbanPaul
 ms.date: 10/02/2018
-ms.openlocfilehash: a9e939b4a810848e91b5d2cb8e4b878bbcf56e84
-ms.sourcegitcommit: f45640cf4fda621b71593c63517cfdb983d1dc6a
+ms.openlocfilehash: 821adcc4ae3ac99a92de8b0b57e3248be1786ce3
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2020
-ms.locfileid: "92156460"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97947280"
 ---
 # <a name="egress-metering-in-a-virtual-network"></a>Измерение исходящего трафика в виртуальной сети
 

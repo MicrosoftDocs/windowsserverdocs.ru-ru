@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: cc9f02b9-8ddd-4cae-b397-a832996144dd
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 0de2e1fa0d5dcb6c7ed2bd5ea8c6a65048296315
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: 070bc4968638d6fcb0d5e63350fdbed0323df05b
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87970251"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97947670"
 ---
 # <a name="step-2-plan-the-remote-access-deployment"></a>Шаг 2. Планирование развертывания удаленного доступа
 
@@ -49,7 +50,7 @@ ms.locfileid: "87970251"
 
     -   **Проверки подключения**
 
-        Создается веб-проба по умолчанию, которую клиенты используют для проверки подключения к внутренней сети. Имя по умолчанию имеет значение `https://directaccess-WebProbeHost.<domain_name>`. Это имя следует вручную зарегистрировать в системе DNS. Можно создать другие средства проверки подключения, использующие другие веб-адреса по протоколу HTTP или PING. Для каждого средства проверки подключения должна существовать DNS-запись.
+        Создается веб-проба по умолчанию, которую клиенты используют для проверки подключения к внутренней сети. По умолчанию используется имя `https://directaccess-WebProbeHost.<domain_name>`. Это имя следует вручную зарегистрировать в системе DNS. Можно создать другие средства проверки подключения, использующие другие веб-адреса по протоколу HTTP или PING. Для каждого средства проверки подключения должна существовать DNS-запись.
 
     -   **Адрес электронной почты службы поддержки**
 

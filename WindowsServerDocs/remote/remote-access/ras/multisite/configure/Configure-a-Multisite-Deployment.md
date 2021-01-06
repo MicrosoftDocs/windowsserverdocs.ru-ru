@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: cb84920e-7cf5-4266-b071-d09e3d5e1f10
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: d5b175daf97d5957e9224003bccde9cbc1866295
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: eaea5ba142e8e1c41a4140db68b0f08fda1751b8
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87937172"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97946470"
 ---
 # <a name="configure-a-multisite-deployment"></a>Настройка многосайтового развертывания
 

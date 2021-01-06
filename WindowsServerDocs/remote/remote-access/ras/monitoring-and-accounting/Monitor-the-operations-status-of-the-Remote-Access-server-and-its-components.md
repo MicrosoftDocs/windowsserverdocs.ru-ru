@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: 077a3a64-2fa3-4994-9711-ec1fbdc081ba
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: e9cc5988ab688b7b9b6e0ebe91ebf7d0c65f0ed9
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: 6c3204aee3b10e8871de744ce7db70a0ca81cc0e
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87955121"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97947320"
 ---
 # <a name="monitor-the-operations-status-of-the-remote-access-server-and-its-components"></a>Мониторинг статуса работы сервера удаленного доступа и его компонентов
 
@@ -34,7 +35,7 @@ ms.locfileid: "87955121"
 
 4.  Нажмите кнопку **Обновить** в разделе **задачи** на правой панели, чтобы перезагрузить состояние операции. Состояние операций автоматически обновляется каждые пять минут, то есть интервалом обновления по умолчанию. Чтобы изменить интервал обновления по умолчанию, щелкните **настроить интервал обновления**.
 
-![](../../../media/Monitor-the-operations-status-of-the-Remote-Access-server-and-its-components/PowerShellLogoSmall.gif)***<em>Эквивалентные команды</em> в Windows PowerShell Windows PowerShell***
+![](../../../media/Monitor-the-operations-status-of-the-Remote-Access-server-and-its-components/PowerShellLogoSmall.gif)**_<em>Эквивалентные команды</em> в Windows PowerShell Windows PowerShell_**
 
 Следующие командлеты Windows PowerShell выполняют ту же функцию, что и предыдущая процедура. Вводите каждый командлет в одной строке, несмотря на то, что здесь они могут отображаться разбитыми на несколько строк из-за ограничений форматирования.
 

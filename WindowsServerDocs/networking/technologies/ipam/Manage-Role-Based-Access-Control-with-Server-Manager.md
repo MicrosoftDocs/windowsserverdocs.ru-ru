@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: 77b6ac92-eaff-46d7-95db-ee6fc96742ed
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 8a8e7fc7f7dff0cb9581b3e919332ffae9a9542c
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: 904726b7761abb2d3d57f2faedd268c3d7827c1d
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87954040"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97947520"
 ---
 # <a name="manage-role-based-access-control-with-server-manager"></a>Контроль управления доступом на основе ролей с помощью диспетчера серверов
 

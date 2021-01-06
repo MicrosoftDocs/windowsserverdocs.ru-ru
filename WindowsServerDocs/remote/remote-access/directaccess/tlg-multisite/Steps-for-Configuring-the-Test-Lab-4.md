@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: dc7205b4-a822-4038-ab67-ec0a870737f2
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 7fc886d8b4f68c86885cbe5c032247722d88e269
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: 54241bc7cb593fda1f4bfd1f60a20eb0b03694ec
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87955210"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97947950"
 ---
 # <a name="steps-for-configuring-the-test-lab"></a>Шаги по настройке лаборатории тестирования
 

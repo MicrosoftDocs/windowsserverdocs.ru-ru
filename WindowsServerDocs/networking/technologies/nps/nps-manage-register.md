@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: 2de954fd-a7d8-4cc6-85b1-b0c3c06f788f
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 871e1f2563564e1c85287393cd4b587692a44db6
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: 15cdd18b6b6e5baffc47e1f4ecac7daaf580602a
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87952151"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97947090"
 ---
 # <a name="register-an-nps-in-an-active-directory-domain"></a>Регистрация сервера политики сети в домене Active Directory
 
@@ -50,7 +51,7 @@ ms.locfileid: "87952151"
 
 2. В дереве консоли перейдите к домену, в котором NPS должен считывать данные учетной записи пользователя, а затем щелкните папку **Пользователи** .
 
-3. В области сведений щелкните правой кнопкой мыши **Серверы RAS и IAS**и выберите пункт **свойства**. Откроется диалоговое окно **свойства серверов RAS и IAS** .
+3. В области сведений щелкните правой кнопкой мыши **Серверы RAS и IAS** и выберите пункт **свойства**. Откроется диалоговое окно **свойства серверов RAS и IAS** .
 
 4. В диалоговом окне **свойства серверов RAS и IAS** перейдите на вкладку **члены** , добавьте все НПСС, которые необходимо зарегистрировать в домене, а затем нажмите кнопку **ОК**.
 
@@ -59,7 +60,7 @@ ms.locfileid: "87952151"
 
 1. Откройте командную строку или Windows PowerShell.
 
-2. В командной строке введите следующую команду: **netsh nps add registeredserver** &nbsp; *domain* &nbsp; *Server*и нажмите клавишу ВВОД.
+2. В командной строке введите следующую команду: **netsh nps add registeredserver** &nbsp; *domain* &nbsp; *Server* и нажмите клавишу ВВОД.
 
 >[!NOTE]
 >В предыдущей команде *domain* — это доменное имя DNS домена, в котором вы хотите зарегистрировать NPS, а *Server* — имя компьютера NPS.

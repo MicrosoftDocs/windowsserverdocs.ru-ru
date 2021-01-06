@@ -1,17 +1,18 @@
 ---
 title: Шаг 2. Подготовка серверов кластера
-description: Этот раздел является частью руководств по развертыванию удаленного доступа в кластере в Windows Server 2016.
+description: Узнайте, как подготовить дополнительные серверы для добавления в кластер.
 manager: brianlic
 ms.topic: article
 ms.assetid: 35d68abb-6914-42e0-91e8-803933cf785e
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: ddd14a0244ce4c788a617f1fa6ff07fdfd859947
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: 09c2a1a05d6800a3497bc6b8b15536eb73466770
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87937288"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97947390"
 ---
 # <a name="step-2-prepare-cluster-servers"></a>Шаг 2. Подготовка серверов кластера
 
@@ -41,7 +42,7 @@ ms.locfileid: "87937288"
 
 ### <a name="to-install-the-remote-access-role-on-always-on-vpn-servers"></a>Установка роли удаленного доступа на VPN-серверах Always On
 
-1.  На сервере DirectAccess в консоли диспетчер сервера на **панели мониторинга**щелкните **Добавить роли и компоненты**.
+1.  На сервере DirectAccess в консоли диспетчер сервера на **панели мониторинга** щелкните **Добавить роли и компоненты**.
 
 2.  Нажмите кнопку **Далее** трижды, чтобы перейти на страницу выбора роли сервера.
 
@@ -67,7 +68,7 @@ ms.locfileid: "87937288"
 
 #### <a name="to-install-the-nlb-role"></a>Установка роли балансировки сетевой нагрузки
 
-1.  На сервере DirectAccess в консоли диспетчер сервера на **панели мониторинга**щелкните **Добавить роли и компоненты**.
+1.  На сервере DirectAccess в консоли диспетчер сервера на **панели мониторинга** щелкните **Добавить роли и компоненты**.
 
 2.  Щелкните **Далее** четыре раза, чтобы перейти на экран выбора компонентов сервера.
 

@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: 3511a91f-1d5d-45a0-97f2-3fc0d6f079b4
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 75d4ddbba8fa69ac7e37fa35948cbe6056225192
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: 9c92535491922662db91397d8e39526ccc97c556
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87955311"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97946800"
 ---
 # <a name="directaccess-known-issues"></a>DirectAccess известные проблемы
 

@@ -7,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 781c3d99fdd063d094b85032e1ccaca0860cba9a
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: 985ef6fe09433b843b3e67445045b68449036e24
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97046992"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97947130"
 ---
 # <a name="legacy-ad-fs-federation-server-farm-using-sql-server"></a>Устаревшая AD FS ферма серверов федерации с помощью SQL Server
 
@@ -61,7 +61,7 @@ ms.locfileid: "97046992"
 
 На следующем рисунке показано, как вымышленная компания Contoso Pharmaceuticals развернула свою ферму серверов федерации с топологией SQL Server в корпоративной сети. В нем также показано, как компания настроила сеть периметра с доступом к DNS-серверу, дополнительный узел балансировки сетевой нагрузки, использующий то же DNS-имя кластера \( FS.contoso.com \) , которое используется в КЛАСТЕРе балансировки сетевой нагрузки корпоративной сети, а также два прокси-приложения \( wap1 и WAP2 \) .
 
-![ферма серверов, использующая SQL](media/SQLFarmADFSBlue.gif)
+![На рисунке показано, как вымышленная компания Contoso Pharmaceuticals развернула свою ферму серверов федерации с топологией SQL Server в корпоративной сети.](media/SQLFarmADFSBlue.gif)
 
 Дополнительные сведения о настройке сетевой среды для использования с серверами федерации или прокси веб-приложений см. в подразделе "требования к разрешению имен" статьи [AD FS требования](AD-FS-Requirements.md) и [Планирование инфраструктуры прокси-службы веб приложения (WAP)](/previous-versions/orphan-topics/ws.11/dn383648(v=ws.11)).
 
@@ -100,7 +100,7 @@ ms.locfileid: "97046992"
 
 На следующей схеме показана ферма SQL Server AD FS с группой доступности AlwaysOn.
 
-![ферма серверов, использующая SQL](media/alwaysonavailabilitygroups.jpg)
+![Схема, на которой показана ферма AD FS SQL Server с группой доступности AlwaysOn.](media/alwaysonavailabilitygroups.jpg)
 
 > [!NOTE]
 > Для групп доступности AlwaysOn требуется, чтобы экземпляры SQL Server находились на узлах WSFC отказоустойчивого кластера Windows Server \( \) .

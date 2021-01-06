@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: 5a7252d0-6db8-4a9d-98ee-75082ecd2929
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 3c5a20c52c419714cc24ec1d4d76d57fa42e93c9
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: a808b97ad531c38f3f6a08f416b0f0f30a5e50fa
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87951089"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97946540"
 ---
 # <a name="step-7-test-connectivity-when-returning-to-the-corpnet"></a>Шаг 7. Проверка подключения при возврате к корпоративной сети
 
@@ -23,9 +24,9 @@ ms.locfileid: "87951089"
 
 1. Выключите компьютер КЛИЕНТ1, а затем отсоедините компьютер КЛИЕНТ1 от подсети Хоменет или виртуального коммутатора и подключите его к подсети или виртуальному коммутатору. Включите CLIENT1 и войдите в систему как CORP\User1.
 
-2. Откройте окно Windows PowerShell с повышенными привилегиями, введите **ipconfig/all**и нажмите клавишу ВВОД. В выходных данных будет указано, что у компьютера КЛИЕНТ1 есть локальный IP-адрес, а также нет ни одного активного туннеля 6to4, Teredo или IP-HTTPS.
+2. Откройте окно Windows PowerShell с повышенными привилегиями, введите **ipconfig/all** и нажмите клавишу ВВОД. В выходных данных будет указано, что у компьютера КЛИЕНТ1 есть локальный IP-адрес, а также нет ни одного активного туннеля 6to4, Teredo или IP-HTTPS.
 
-3. Проверьте возможность подключения к сетевой папке в. На **начальном** экране введите<strong> \\ \APP2\Files</strong>и нажмите клавишу ВВОД. Вы сможете открыть файл в этой папке.
+3. Проверьте возможность подключения к сетевой папке в. На **начальном** экране введите <strong> \\ \APP2\Files</strong>и нажмите клавишу ВВОД. Вы сможете открыть файл в этой папке.
 
 
 

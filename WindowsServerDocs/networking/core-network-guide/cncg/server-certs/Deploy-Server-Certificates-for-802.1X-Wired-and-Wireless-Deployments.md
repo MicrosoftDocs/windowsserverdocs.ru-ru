@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: 0a39ecae-39cc-4f26-bd6f-b71ed02fc4ad
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: fd5c9ea9954053fd21f6ab46ff0b6d2f8da5245f
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.date: 08/07/2020
+ms.openlocfilehash: 844a64558d4822c26effddc4b3772ad0a191718c
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87995568"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97947850"
 ---
 # <a name="deploy-server-certificates-for-8021x-wired-and-wireless-deployments"></a>Развертывание сертификатов сервера для проводных и беспроводных развертываний 802.1 X
 

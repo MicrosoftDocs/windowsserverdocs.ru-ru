@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: c051b2ec-de0f-49d1-82b9-5742b259cd7c
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 3cf4b74a6aa6d8f64b917842cc0806cd463716e8
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: fceb3ff5421be65a9bb25ae74510257f70d0aaa6
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87953670"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97946780"
 ---
 # <a name="ras-gateway-gre-tunnel-throughput-and-performance"></a>Производительность и пропускная способность туннеля GRE шлюза RAS-сервера
 

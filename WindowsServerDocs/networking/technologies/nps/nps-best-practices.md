@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: 90e544bd-e826-4093-8c3b-6a6fc2dfd1d6
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: affb4785301bf71c18991c826dc17cb1cec6e633
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.date: 12/08/2020
+ms.openlocfilehash: e3521dc61fef52f93f096df9aa145e2c4b43de8b
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96865223"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97947500"
 ---
 # <a name="network-policy-server-best-practices"></a>Передовые практики по работе с сервером политики сети
 
