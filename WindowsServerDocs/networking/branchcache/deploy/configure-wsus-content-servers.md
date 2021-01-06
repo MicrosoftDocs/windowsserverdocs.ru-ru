@@ -1,17 +1,17 @@
 ---
 title: Настройка серверов содержимого служб Windows Server Update Services (WSUS)
-description: Эта статья является частью руководства по развертыванию BranchCache для Windows Server 2016, в котором демонстрируется развертывание службы BranchCache в распределенном и размещенном режимах кэша для оптимизации использования пропускной способности глобальной сети в филиалах.
+description: Узнайте, как настроить серверы содержимого Windows Server Update Services (WSUS) для хранения файлов обновлений на локальном компьютере.
 manager: brianlic
 ms.topic: get-started-article
 ms.assetid: 9724aa8d-e4ae-404c-bee6-cef1534cd3ca
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 0662a72f23a06e62d92fc040aa88e11f795083e3
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 1ecd2e601a793690791451bfd39cb949bd08715f
+ms.sourcegitcommit: 029b1e19ce11160d5f988046e04a83e8ab5a60dc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87990164"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97904439"
 ---
 # <a name="configure-windows-server-update-services-wsus-content-servers"></a>Настройка серверов содержимого служб Windows Server Update Services (WSUS)
 

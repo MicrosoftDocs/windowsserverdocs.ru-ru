@@ -1,17 +1,17 @@
 ---
 title: Управление трафиком на основе географического расположения на основных серверах с помощью политики DNS
-description: Этот раздел является частью руководств по сценариям политики DNS для Windows Server 2016.
+description: Узнайте, как настроить политику DNS, чтобы разрешить основным DNS-серверам отвечать на запросы клиентов DNS на основе географического расположения клиента и ресурса, к которому пытается подключиться клиент, предоставляя клиенту IP-адрес ближайшего ресурса.
 manager: brianlic
 ms.topic: article
 ms.assetid: ef9828f8-c0ad-431d-ae52-e2065532e68f
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 36089433b9168e8c49e443b77317c29366c6b9e5
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.openlocfilehash: 2aa9e1392f133c5f076eac3b508851ae88c41d03
+ms.sourcegitcommit: 029b1e19ce11160d5f988046e04a83e8ab5a60dc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96866523"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97904199"
 ---
 # <a name="use-dns-policy-for-geo-location-based-traffic-management-with-primary-servers"></a>Управление трафиком на основе географического расположения на основных серверах с помощью политики DNS
 

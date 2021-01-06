@@ -1,17 +1,17 @@
 ---
 title: Получение ответов DNS на основе времени дня с помощью сервера облачных приложений Azure
-description: Этот раздел является частью руководств по сценариям политики DNS для Windows Server 2016.
+description: Узнайте, как использовать ответы DNS на основе времени суток с сервером облачных приложений Azure.
 manager: brianlic
 ms.topic: article
 ms.assetid: 4846b548-8fbc-4a7f-af13-09e834acdec0
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 7ea14664702c2e3ff10e64e4f5c84680fdcc1a86
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.openlocfilehash: b90af11d4bb6f5c1f52699669a8eee4562a97d48
+ms.sourcegitcommit: 029b1e19ce11160d5f988046e04a83e8ab5a60dc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96865303"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97904929"
 ---
 # <a name="dns-responses-based-on-time-of-day-with-an-azure-cloud-app-server"></a>Получение ответов DNS на основе времени дня с помощью сервера облачных приложений Azure
 

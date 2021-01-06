@@ -1,17 +1,17 @@
 ---
 title: Перемещение файловых серверов в подразделение файловых серверов BranchCache
-description: Эта статья является частью руководства по развертыванию BranchCache для Windows Server 2016, в котором показано, как развернуть BranchCache в распределенном и размещенном режимах кэша для оптимизации использования пропускной способности глобальной сети в филиалах.
+description: Узнайте, как добавить файловые серверы BranchCache в подразделение (OU) в домен Active Directory Services (AD DS).
 manager: brianlic
 ms.topic: get-started-article
 ms.assetid: 56c915ec-edb1-43b0-8ad2-c93841bb566f
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: c44fb11a2935c11474abd3b3cc39cfd0eeb34734
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 82a9d9b1d4c65e7058a19b6496ccea348a1117b1
+ms.sourcegitcommit: 029b1e19ce11160d5f988046e04a83e8ab5a60dc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87962348"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97904549"
 ---
 # <a name="move-file-servers-to-the-branchcache-file-servers-organizational-unit"></a>Перемещение файловых серверов в подразделение файловых серверов BranchCache
 

@@ -1,17 +1,17 @@
 ---
 title: Включение DirectAccess
-description: Эта статья является частью инструкции по добавлению DirectAccess в существующее развертывание удаленного доступа (VPN) для Windows Server 2016.
+description: Сведения о шагах настройки, необходимых для развертывания одного сервера удаленного доступа Windows Server 2016 или Windows Server 2012 с основными параметрами.
 manager: brianlic
 ms.topic: article
 ms.assetid: bf9aaf36-fc3c-4007-bba9-c0b752774601
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 3be0ae83632a027f87e1006b6e9990f1579e0e83
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 5bc495b50a3bc0b7d4da45baafd735f51beb7405
+ms.sourcegitcommit: 029b1e19ce11160d5f988046e04a83e8ab5a60dc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87951209"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97904209"
 ---
 # <a name="enable-directaccess"></a>Включение DirectAccess
 

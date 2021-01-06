@@ -1,17 +1,17 @@
 ---
 title: Руководство по развертыванию BranchCache
-description: Эта статья является частью руководства по развертыванию BranchCache для Windows Server 2016, в котором показано, как развернуть BranchCache в распределенном и размещенном режимах кэша для оптимизации использования пропускной способности глобальной сети в филиалах.
+description: Узнайте, как развернуть BranchCache в Windows Server 2016.
 manager: brianlic
 ms.topic: get-started-article
 ms.assetid: 3830b356-36d3-44f9-a1d7-990ff3e57403
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 2868bfcca87f44ee9c29aa4c36de3486c660ee62
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 63262b483b4a57b4095a7c99b29b63b2da145247
+ms.sourcegitcommit: 029b1e19ce11160d5f988046e04a83e8ab5a60dc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87989172"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97904769"
 ---
 # <a name="branchcache-deployment-guide"></a>Руководство по развертыванию BranchCache
 
@@ -80,4 +80,4 @@ BranchCache сокращает трафик WAN и время, необходи�
 > При развертывании службы BranchCache в операционных системах, отличных от Windows Server 2016, доступны следующие ресурсы документации.
 >
 > - Сведения о BranchCache в Windows 8, Windows 8.1, Windows Server 2012 и Windows Server 2012 R2 см. в статье [Общие сведения о BranchCache](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831696(v=ws.11)).
-> - Сведения о BranchCache в Windows 7 и Windows Server 2008 R2 см. в разделе [BranchCache для Windows server 2008 R2](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd996634(v=ws.10)).
+> - Сведения о BranchCache в Windows 7 и Windows Server 2008 R2 см. в разделе  [BranchCache для Windows server 2008 R2](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd996634(v=ws.10)).

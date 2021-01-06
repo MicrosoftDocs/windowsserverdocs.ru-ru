@@ -1,17 +1,16 @@
 ---
 title: Выбор схемы BranchCache
-description: Эта статья является частью руководства по развертыванию BranchCache для Windows Server 2016, в котором показано, как развернуть BranchCache в распределенном и размещенном режимах кэша для оптимизации использования пропускной способности глобальной сети в филиалах.
-manager: brianlic
+description: Узнайте, как узнать о режимах BranchCache и выбрать оптимальные режимы развертывания.
 ms.topic: get-started-article
 ms.assetid: 86c1ccad-2aa4-40fe-84c1-f77c49eb1216
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: f64d27f3ef36c587e2ec5c08f51723942ba6a28c
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: cfc4632d9e4c8b7904134a9222f9b2d87ea6cdd0
+ms.sourcegitcommit: 029b1e19ce11160d5f988046e04a83e8ab5a60dc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87937513"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97904399"
 ---
 # <a name="choosing-a-branchcache-design"></a>Выбор схемы BranchCache
 

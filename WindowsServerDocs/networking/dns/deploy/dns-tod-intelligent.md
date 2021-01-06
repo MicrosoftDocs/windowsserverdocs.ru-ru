@@ -1,17 +1,17 @@
 ---
 title: Получение интеллектуальных ответов DNS на основе времени дня с помощью политики DNS
-description: Этот раздел является частью руководств по сценариям политики DNS для Windows Server 2016.
+description: Узнайте, как использовать политику DNS для интеллектуальных ответов DNS в зависимости от времени суток.
 manager: brianlic
 ms.topic: article
 ms.assetid: 161446ff-a072-4cc4-b339-00a04857ff3a
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: c2a63133314c0292be414a809f9efdee3e9d8aaa
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.openlocfilehash: 164b983dbf484135cb3ab5d0f3da2c5ef3fa3787
+ms.sourcegitcommit: 029b1e19ce11160d5f988046e04a83e8ab5a60dc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96866083"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97904889"
 ---
 # <a name="use-dns-policy-for-intelligent-dns-responses-based-on-the-time-of-day"></a>Получение интеллектуальных ответов DNS на основе времени дня с помощью политики DNS
 

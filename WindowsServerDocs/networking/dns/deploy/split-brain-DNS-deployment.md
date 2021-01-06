@@ -1,17 +1,17 @@
 ---
 title: Развертывание разделенной системы DNS с помощью политики DNS
-description: Этот раздел является частью руководств по сценариям политики DNS для Windows Server 2016.
+description: Узнайте, как настроить политику DNS в Windows Server 2016 для раздельных развертываний DNS, где есть две версии одной зоны — одна для внутренних пользователей в интрасети организации, а другая — для внешних пользователей, которые обычно являются пользователями в Интернете.
 manager: brianlic
 ms.topic: article
 ms.assetid: a255a4a5-c1a0-4edc-b41a-211bae397e3c
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 5e9187fd549f9982ab8d0bea5ffa9b45d6e1e3c7
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.openlocfilehash: fa4e2d5c5c6cedc33ceb4cc9ff2521fb75fe9af9
+ms.sourcegitcommit: 029b1e19ce11160d5f988046e04a83e8ab5a60dc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96865283"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97904869"
 ---
 # <a name="use-dns-policy-for-split-brain-dns-deployment"></a>Использование политики DNS для разделения раздельного \- развертывания DNS
 

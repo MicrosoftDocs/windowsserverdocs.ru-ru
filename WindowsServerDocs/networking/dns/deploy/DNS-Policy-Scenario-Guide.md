@@ -1,17 +1,17 @@
 ---
 title: Руководство по сценарию политики DNS
-description: Этот раздел является частью руководств по сценариям политики DNS для Windows Server 2016.
+description: Узнайте, как использовать политику DNS для управления обработкой запросов разрешения имен DNS-сервером на основе различных параметров, определенных в политиках.
 manager: brianlic
 ms.topic: article
 ms.assetid: 50fdb08a-bbd8-4107-954a-6699672110ff
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: ed28fe6dd472b505d2a39ac55c74c399ef63e068
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 49a928ab46bc190af279b17eaa23ca0ae04869b5
+ms.sourcegitcommit: 029b1e19ce11160d5f988046e04a83e8ab5a60dc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87966661"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97904629"
 ---
 # <a name="dns-policy-scenario-guide"></a>Руководство по сценарию политики DNS
 
@@ -30,8 +30,8 @@ ms.locfileid: "87966661"
 - [Управление трафиком на основе географического расположения на основных и вспомогательных серверах с помощью политики DNS](primary-secondary-geo-location.md)
 - [Получение интеллектуальных ответов DNS на основе времени дня с помощью политики DNS](dns-tod-intelligent.md)
 - [Ответы DNS на основе времени суток с сервером облачных приложений Azure](dns-tod-azure-cloud-app-server.md)
-- [Использование политики DNS для раздельного развертывания DNS](split-brain-DNS-deployment.md)
-- [Использование политики DNS для разделения DNS-имен в Active Directory](dns-sb-with-ad.md)
+- [Использование политики DNS для Split-Brain развертывания DNS](split-brain-DNS-deployment.md)
+- [Использование политики DNS для Split-Brain DNS в Active Directory](dns-sb-with-ad.md)
 - [Использование политики DNS для применения фильтров к запросам DNS](apply-filters-on-dns-queries.md)
 - [Использование политики DNS для балансировки нагрузки приложений](app-lb.md)
 - [Использование политики DNS для балансировки нагрузки приложений с помощью сведений о географическом расположении](app-lb-geo.md)

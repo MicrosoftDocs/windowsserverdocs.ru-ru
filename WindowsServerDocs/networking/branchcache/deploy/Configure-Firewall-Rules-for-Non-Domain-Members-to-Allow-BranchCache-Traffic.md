@@ -1,17 +1,17 @@
 ---
 title: Настройка правил брандмауэра для элементов, не входящих в домен, для разрешения трафика BranchCache
-description: Эта статья является частью руководства по развертыванию BranchCache для Windows Server 2016, в котором показано, как развернуть BranchCache в распределенном и размещенном режимах кэша для оптимизации использования пропускной способности глобальной сети в филиалах.
+description: Узнайте, как настроить сторонние брандмауэры и настроить клиентский компьютер вручную, используя правила брандмауэра, позволяющие службе BranchCache работать в режиме распределенного кэша.
 manager: brianlic
 ms.topic: get-started-article
 ms.assetid: da956be0-c92d-46ea-99eb-85e2bd67bf07
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 414f28c72817e91c56c91b6fd6acbb48e786cbd8
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: b52a0c212ba7f0d30097aef6c7bd65e6d900b336
+ms.sourcegitcommit: 029b1e19ce11160d5f988046e04a83e8ab5a60dc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87971931"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97904239"
 ---
 # <a name="configure-firewall-rules-for-non-domain-members-to-allow-branchcache-traffic"></a>Настройка правил брандмауэра для элементов, не входящих в домен, для разрешения трафика BranchCache
 

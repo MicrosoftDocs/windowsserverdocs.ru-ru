@@ -1,17 +1,17 @@
 ---
 title: Установка серверов содержимого файловых служб
-description: Эта статья является частью руководства по развертыванию BranchCache для Windows Server 2016, в котором показано, как развернуть BranchCache в распределенном и размещенном режимах кэша для оптимизации использования пропускной способности глобальной сети в филиалах.
+description: Узнайте, как установить службу "BranchCache для сетевых файлов" роли сервера файловых служб и включить BranchCache в общих файловых ресурсах в соответствии с вашими требованиями.
 manager: brianlic
 ms.topic: get-started-article
 ms.assetid: 74b0a5ed-dc20-4974-9d4b-2426987a01a1
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 1b62e18a1ca90008a2fb9b0d52d5a634f13c6dd5
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 85809057c15e0b62aa2b5fdfbf7a8b8209096343
+ms.sourcegitcommit: 029b1e19ce11160d5f988046e04a83e8ab5a60dc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87952648"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97904879"
 ---
 # <a name="install-file-services-content-servers"></a>Установка серверов содержимого файловых служб
 

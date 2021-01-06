@@ -1,17 +1,17 @@
 ---
 title: Настройка роли сервера файловых служб
-description: Эта статья является частью руководства по развертыванию BranchCache для Windows Server 2016, в котором показано, как развернуть BranchCache в распределенном и размещенном режимах кэша для оптимизации использования пропускной способности глобальной сети в филиалах.
+description: Узнайте, как развертывать серверы содержимого на базе файлового сервера BranchCache на компьютерах под управлением Windows Server 2016 и роли сервера файловых служб с установленной службой роли BranchCache для сетевых файлов.
 manager: brianlic
 ms.topic: get-started-article
 ms.assetid: 68b0f5a0-1ae8-489e-b8f8-1190267a0e1d
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: a0147974358f877251722787f75dcb7c19c40f55
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: d0d54417f46855be6da0f155540f7e3096a7e84e
+ms.sourcegitcommit: 029b1e19ce11160d5f988046e04a83e8ab5a60dc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87971901"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97904700"
 ---
 # <a name="configure-the-file-services-server-role"></a>Настройка роли сервера файловых служб
 

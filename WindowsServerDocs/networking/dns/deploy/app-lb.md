@@ -1,17 +1,17 @@
 ---
 title: Использование политики DNS для балансировки нагрузки приложений
-description: Этот раздел является частью руководств по сценариям политики DNS для Windows Server 2016.
+description: Узнайте, как настроить политику DNS для выполнения балансировки нагрузки приложений.
 manager: brianlic
 ms.topic: article
 ms.assetid: f9c313ac-bb86-4e48-b9b9-de5004393e06
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: fa415f6c1b7065b0e5da6e83999ed425d9f6b28e
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.openlocfilehash: 849baf9e95af51d5bd3c3bd4460f181fa8836691
+ms.sourcegitcommit: 029b1e19ce11160d5f988046e04a83e8ab5a60dc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96865360"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97904919"
 ---
 # <a name="use-dns-policy-for-application-load-balancing"></a>Использование политики DNS для балансировки нагрузки приложений
 
@@ -27,7 +27,7 @@ ms.locfileid: "96865360"
 
 Ниже приведен пример того, как можно использовать политику DNS для балансировки нагрузки приложений.
 
-В этом примере используется одна вымышленная компания-служба подарочных услуг Contoso, которая предоставляет сетевые Гифинг службы и веб-сайт с именем **contosogiftservices.com**.
+В этом примере используется одна вымышленная компания-служба подарка компании Contoso, которая предоставляет услуги по электронной почте и веб-сайт с именем **contosogiftservices.com**.
 
 Веб-сайт contosogiftservices.com размещается в нескольких центрах обработки данных, каждый из которых имеет разные IP-адреса.
 

@@ -1,17 +1,17 @@
 ---
 title: Использование политики DNS для применения фильтров к запросам DNS
-description: Этот раздел является частью руководств по сценариям политики DNS для Windows Server 2016.
+description: Узнайте, как настроить политику DNS в Windows Server 2016 для создания фильтров запросов на основе предоставленных условий.
 manager: brianlic
 ms.topic: article
 ms.assetid: b86beeac-b0bb-4373-b462-ad6fa6cbedfa
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 4f309a304e4457b27eec0ae41d581c5a7bf9bd50
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.openlocfilehash: 056211f2753c4c9d445e04d5031ab48d1e18a216
+ms.sourcegitcommit: 029b1e19ce11160d5f988046e04a83e8ab5a60dc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96865343"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97904580"
 ---
 # <a name="use-dns-policy-for-applying-filters-on-dns-queries"></a>Использование политики DNS для применения фильтров к запросам DNS
 
@@ -28,7 +28,7 @@ ms.locfileid: "96865343"
 ## <a name="query-filter-criteria"></a><a name="bkmk_criteria"></a> Условия фильтра запросов
 Фильтры запросов можно создавать с помощью любых логических сочетаний (и/или/или не) следующих критериев.
 
-|Название|Описание:|
+|Имя|Описание|
 |-----------------|---------------------|
 |Подсеть клиента|Имя предопределенной клиентской подсети. Используется для проверки подсети, из которой был отправлен запрос.|
 |Транспортный протокол|Транспортный протокол, используемый в запросе. Возможные значения: UDP и TCP.|

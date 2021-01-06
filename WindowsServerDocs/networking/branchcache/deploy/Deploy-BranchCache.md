@@ -1,17 +1,17 @@
 ---
 title: Развертывание BranchCache
-description: Эта статья является частью руководства по развертыванию BranchCache для Windows Server 2016, в котором показано, как развернуть BranchCache в распределенном и размещенном режимах кэша для оптимизации использования пропускной способности глобальной сети в филиалах.
+description: Узнайте, как развертывать BranchCache в распределенных и размещенных режимах кэша.
 manager: brianlic
 ms.topic: get-started-article
 ms.assetid: 30b0a6d9-d6d5-4019-b8dc-ed5365d9921f
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 9d8426bbaf2b3439ad3347cb08aa64b7deb2206c
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 044e5281f40f8358354607d9c182ce8c037ea1da
+ms.sourcegitcommit: 029b1e19ce11160d5f988046e04a83e8ab5a60dc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87971871"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97904839"
 ---
 # <a name="deploy-branchcache"></a>Развертывание BranchCache
 

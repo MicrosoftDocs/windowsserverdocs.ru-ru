@@ -1,17 +1,17 @@
 ---
 title: Включение возможности публикации хэша для файловых серверов
-description: Эта статья является частью руководства по развертыванию BranchCache для Windows Server 2016, в котором показано, как развернуть BranchCache в распределенном и размещенном режимах кэша для оптимизации использования пропускной способности глобальной сети в филиалах.
+description: Узнайте, как включить публикацию хэша BranchCache на одном файловом сервере или на нескольких файловых серверах.
 manager: brianlic
 ms.topic: get-started-article
 ms.assetid: 5697aefe-1dd2-4ff9-82a9-da0afc182cb3
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 405fe3ea4d7afc771c65442483b1660916aa8d4c
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: c3cbb414b02a9a2ed3c33c617c9d513c93cb1495
+ms.sourcegitcommit: 029b1e19ce11160d5f988046e04a83e8ab5a60dc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87971851"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97904829"
 ---
 # <a name="enable-hash-publication-for-file-servers"></a>Включение возможности публикации хэша для файловых серверов
 

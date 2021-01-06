@@ -1,17 +1,17 @@
 ---
 title: Установка серверов содержимого, использующих компонент BranchCache
-description: Эта статья является частью руководства по развертыванию BranchCache для Windows Server 2016, в котором показано, как развернуть BranchCache в распределенном и размещенном режимах кэша для оптимизации использования пропускной способности глобальной сети в филиалах.
+description: Узнайте, как устанавливать серверы содержимого, использующие функцию BranchCache.
 manager: brianlic
 ms.topic: get-started-article
 ms.assetid: 0f00ae6e-ae1b-41e3-8c50-65226b5b9c9e
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 53763db23bc82e90d81bc493e8d02670a5e6e451
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 10f21729aeede7316c91c11d0dbfbe49013dedba
+ms.sourcegitcommit: 029b1e19ce11160d5f988046e04a83e8ab5a60dc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87952658"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97904809"
 ---
 # <a name="install-content-servers-that-use-the-branchcache-feature"></a>Установка серверов содержимого, использующих компонент BranchCache
 
