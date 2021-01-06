@@ -163,7 +163,6 @@
 ####### [Диагностика при активации многосайтового развертывания](remote-access/ras/multisite/troubleshoot/Troubleshooting-Enabling-Multisite.md)
 ####### [Устранение неполадок добавления точек входа](remote-access/ras/multisite/troubleshoot/Troubleshooting-adding-Entry-Points.md)
 ####### [Устранение неполадок задания контроллера домена для точки входа](remote-access/ras/multisite/troubleshoot/Troubleshooting-Setting-the-Entry-Point-Domain-Controller.md)
-####### [Диагностическая информация об URL-адресах веб-пробы](remote-access/ras/multisite/troubleshoot/Troubleshooting-Web-Probe-URLs.md)
 ####### [Диагностика проблем общего характера](remote-access/ras/multisite/troubleshoot/Troubleshooting-General-Issues.md)
 ##### [Развертывание удаленного доступа с проверкой подлинности методом OTP](remote-access/ras/otp/Deploy-RA-OTP.md)
 ###### [Планирование удаленного доступа с проверкой подлинности OTP](remote-access/ras/otp/plan/Plan-remote-Access-with-OTP-Authentication.md)
