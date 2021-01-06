@@ -5,12 +5,13 @@ ms.topic: article
 ms.assetid: b5715c02-a90f-4de9-a71e-0fc08039ba1d
 ms.author: benarm
 author: BenjaminArmstrong
-ms.openlocfilehash: 7efa404450ffed20cd2a531f5e91905e1a2fcd2b
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.date: 12/08/2020
+ms.openlocfilehash: 087ba6e04efa3055d7f430fbcc49402df9de11fc
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96863993"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97941360"
 ---
 # <a name="cmdlets-for-configuring-persistent-memory-devices-for-hyper-v-vms"></a>Командлеты для настройки устройств постоянной памяти для виртуальных машин Hyper-V
 

@@ -1,17 +1,18 @@
 ---
 title: Процедура развертывания беспроводного доступа
-description: Эта статья является частью сетевого руководством по Windows Server 2016 "развертывание 802.1 с проверкой подлинности на основе пароля"
+description: Эта статья является частью сетевого руководством по Windows Server 2016 "Deploy Password-Based 802.1 X Authenticator Wireless Access"
 manager: brianlic
 ms.topic: article
 ms.assetid: 2555f238-926e-4b20-9bfb-9774831062da
 author: eross-msft
 ms.author: lizross
-ms.openlocfilehash: 9c2326df824288b6adf4453d6ef272ba632eb6c2
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: d8573992748402911a7366cb6e9059ef7b31966a
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87969601"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97943220"
 ---
 # <a name="wireless-access-deployment-process"></a>Процедура развертывания беспроводного доступа
 
@@ -23,7 +24,7 @@ ms.locfileid: "87969601"
 
 Планируйте, развертывайте и настраивайте ТД для подключения беспроводных клиентов и для использования с NPS. В зависимости от предпочтений и зависимостей сети можно предварительно \- настроить параметры на беспроводных ТД, прежде чем устанавливать их в сети, или настроить их удаленно после установки.
 
-## <a name="stage-2--adds-group-configuration"></a>Этап 2 — Конфигурация группы AD DS
+## <a name="stage-2--ad-ds-group-configuration"></a>Этап 2 — Конфигурация группы AD DS
 
 В AD DS необходимо создать одну или несколько групп безопасности беспроводных пользователей.
 

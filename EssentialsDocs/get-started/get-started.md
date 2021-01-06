@@ -6,12 +6,13 @@ ms.assetid: 2d0eb084-09dd-4d85-a41a-5d449cc3b504
 author: nnamuhcs
 ms.author: geschuma
 manager: mtillman
-ms.openlocfilehash: 467468c4636beb3ecf2fe6e0258f172f1f112ca6
-ms.sourcegitcommit: 8e330f9066097451cd40e840d5f5c3317cbc16c2
+ms.date: 12/18/2020
+ms.openlocfilehash: ab19bb4108fa062cb3e2346cfda7f55017301c94
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "97696968"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97942930"
 ---
 # <a name="get-started-with-windows-server-essentials"></a>Начало работы с Windows Server Essentials
 

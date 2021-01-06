@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: 92519b49-0df4-43c1-9717-f13570644212
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 319f5c0b5a85aeaf5a01fff5bb28bd287f13b392
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: 314b6fd64b0fc4035bf402faeae447bc95a2cb68
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87970201"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97942110"
 ---
 # <a name="use-remote-access-monitoring-and-accounting"></a>Мониторинг и учет удаленного доступа
 

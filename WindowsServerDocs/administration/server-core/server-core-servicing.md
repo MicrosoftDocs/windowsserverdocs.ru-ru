@@ -7,12 +7,13 @@ author: pronichkin
 ms.author: artemp
 ms.localizationpriority: medium
 ms.date: 10/17/2017
-ms.openlocfilehash: 7e84d4fa90cc6e95435d2f0e48efd3ac44ccaebe
-ms.sourcegitcommit: 7cacfc38982c6006bee4eb756bcda353c4d3dd75
+ms.topic: how-to
+ms.openlocfilehash: f02db48083cdc8d63c834347a3b80321c0935fa2
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "90077751"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97943720"
 ---
 # <a name="patch-a-server-core-installation"></a>Исправление установки Server Core
 

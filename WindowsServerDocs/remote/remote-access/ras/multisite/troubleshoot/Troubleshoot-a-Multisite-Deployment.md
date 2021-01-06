@@ -1,17 +1,18 @@
 ---
 title: Диагностика многосайтового развертывания
-description: Эта статья является частью руководств по развертыванию нескольких серверов удаленного доступа в многосайтовом развертывании в Windows Server 2016.
+description: Узнайте, как устранять наиболее распространенные ошибки, которые могут возникнуть при настройке развертывания с помощью многосайтового удаленного доступа.
 manager: brianlic
 ms.topic: article
 ms.assetid: f92b1335-ac4a-4501-a5ec-d1851e6f0fc7
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: d4ec26b02d7ceb0f28b8697088b21316dac4e374
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: 466b9f46263387f7d8c990e02f7e3970bfdc68e0
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87958522"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97941600"
 ---
 # <a name="troubleshoot-a-multisite-deployment"></a>Диагностика многосайтового развертывания
 

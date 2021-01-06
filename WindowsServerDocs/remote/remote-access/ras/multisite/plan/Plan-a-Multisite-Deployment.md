@@ -1,17 +1,18 @@
 ---
 title: Планирование многосайтового развертывания
-description: Эта статья является частью руководств по развертыванию нескольких серверов удаленного доступа в многосайтовом развертывании в Windows Server 2016.
+description: Узнайте о шагах планирования, необходимых для развертывания удаленного доступа Windows Server 2016 или Windows Server 2012 в многосайтовой конфигурации.
 manager: brianlic
 ms.topic: article
 ms.assetid: 8387eabe-7363-4367-b5b1-03c67baa2933
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: d1e66cd0b0cec01dc601c29c47225c03fd88ddb6
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: a4a56e430b1b40627aaf0e387c8df8ec122b94fb
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87937033"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97941640"
 ---
 # <a name="plan-a-multisite-deployment"></a>Планирование многосайтового развертывания
 
