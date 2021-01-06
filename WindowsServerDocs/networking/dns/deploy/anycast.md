@@ -5,12 +5,13 @@ ms.topic: article
 ms.assetid: f9c313ac-bb86-4e48-b9b9-de5004393e06
 ms.author: greglin
 author: greg-lindsay
-ms.openlocfilehash: 0944b8a825d10dc1338a698d511af27b8502f776
-ms.sourcegitcommit: 554d274fea48a4d47c19845d969a9ec93dec82de
+ms.date: 10/23/2020
+ms.openlocfilehash: 28241fbcde12070ac1e1c3df42db2813db368df9
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "92524859"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97949460"
 ---
 # <a name="anycast-dns-overview"></a>Обзор DNS-сервера рассылки
 
@@ -218,7 +219,7 @@ Add-BgpCustomRoute -Network 51.51.51.0/24
     [Y] Да [A] Да для всех [N] нет [L] No ко всем [S] приостановить [?] Справка (по умолчанию — "Y"):<br>
     PS C: \> (Get-NetAdapter). Состояние<br>
     Up<br>
-    Выключено
+    Отключено
 
 5.  Убедитесь, что DNS-клиенты, которые ранее получали ответы от DC001, перешли на DC002.
 

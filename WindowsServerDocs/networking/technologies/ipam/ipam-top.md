@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: 6a6291ba-0d39-4434-a8c5-0f0369860faa
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 5c38904c2c994fef741bbf76bdc3eb909fe3efbf
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.date: 08/07/2020
+ms.openlocfilehash: ccd344e99749a229766dc7fce35deb0ba79776dc
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96866233"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97948680"
 ---
 # <a name="ip-address-management-ipam"></a>Управление IP-адресами (IPAM)
 

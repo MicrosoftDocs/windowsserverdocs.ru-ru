@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: 67576533-206b-428a-956c-ed8c53218d9b
 ms.author: anpaul
 author: AnirbanPaul
-ms.openlocfilehash: 40c827282d1145ea711670842e95db3c61139683
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: ccfa33f0956446d9a4fac3a31add8517c088d9db
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87952521"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97949380"
 ---
 # <a name="datacenter-firewall-overview"></a>Обзор брандмауэра центра обработки данных
 

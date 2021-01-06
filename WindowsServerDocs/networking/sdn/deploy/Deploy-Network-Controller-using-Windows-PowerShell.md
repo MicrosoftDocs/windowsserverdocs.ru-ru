@@ -1,18 +1,18 @@
 ---
 title: Развертывание сетевого контроллера с помощью Windows PowerShell
 description: В этом разделе приводятся инструкции по использованию Windows PowerShell для развертывания сетевого контроллера на одном или нескольких компьютерах или виртуальных машинах, работающих под управлением Windows Server 2016.
-ms.topic: get-started-article
+ms.topic: how-to
 ms.assetid: 2448d381-55aa-4c14-997a-202c537c6727
 ms.author: anpaul
 author: AnirbanPaul
 manager: grcusanz
 ms.date: 08/23/2018
-ms.openlocfilehash: e26caa963bfde32be2770577c0745ea3cf3b454a
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 78adaa6182ed24596471cb0ed5f1a736417af4d9
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87993785"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97948390"
 ---
 # <a name="deploy-network-controller-using-windows-powershell"></a>Развертывание сетевого контроллера с помощью Windows PowerShell
 
@@ -82,7 +82,7 @@ New-NetworkControllerNodeObject -Name <string> -Server <String> -FaultDomain <st
 
 |Параметр|Описание|
 |-------------|---------------|
-|name|Параметр **Name** указывает понятное имя сервера, который требуется добавить в кластер.|
+|Имя|Параметр **Name** указывает понятное имя сервера, который требуется добавить в кластер.|
 |Сервер|Параметр **Server** указывает имя узла, полное доменное имя (FQDN) или IP-адрес сервера, который требуется добавить в кластер. Для компьютеров, присоединенных к домену, требуется полное доменное имя.|
 |FaultDomain|Параметр **FaultDomain** указывает домен сбоя для сервера, добавляемого в кластер. Этот параметр определяет серверы, которые могут испытывать сбой одновременно с сервером, добавляемым в кластер. Эта ошибка может быть вызвана общими физическими зависимостями, такими как источники питания и сети. Домены сбоя обычно представляют иерархии, связанные с этими общими зависимостями, с большим количеством серверов, которые, скорее всего, будут завершаться сбоем с более высокой точки в дереве доменов сбоя. Во время выполнения сетевой контроллер считает домены сбоя в кластере и пытается распределить службы сетевого контроллера, чтобы они наводились в отдельные домены сбоя. Этот процесс обеспечивает сохранение доступности и состояния службы в случае отказа какого-либо домена. Домены сбоя указываются в иерархическом формате. Например: "Демон:/DC1/Rack1/host1", где DC1 — это имя центра данных, Rack1 — имя стойки, а host1 — имя узла, на котором размещается узел.|
 |рестинтерфаце|Параметр **рестинтерфаце** указывает имя интерфейса на узле, на котором прекращается обмен данными по передаваемой информации о состоянии (RESTful). Этот интерфейс сетевого контроллера получает запросы API обмена от уровня управления сети.|
@@ -96,7 +96,7 @@ New-NetworkControllerNodeObject -Name <string> -Server <String> -FaultDomain <st
 Install-NetworkControllerCluster -Node <NetworkControllerNode[]> -ClusterAuthentication <ClusterAuthentication> [-ManagementSecurityGroup <string>][-DiagnosticLogLocation <string>][-LogLocationCredential <PSCredential>] [-CredentialEncryptionCertificate <X509Certificate2>][-Credential <PSCredential>][-CertificateThumbprint <String>] [-UseSSL][-ComputerName <string>][-LogSizeLimitInMBs<UInt32>] [-LogTimeLimitInDays<UInt32>]
 ```
 
-В следующей таблице приведены описания всех параметров команды **Install-нетворкконтроллерклустер** .
+В следующей таблице приведены описания всех параметров команды **Install-нетворкконтроллерклустер**  .
 
 |Параметр|Описание|
 |-------------|---------------|
@@ -128,7 +128,7 @@ Install-NetworkController -Node <NetworkControllerNode[]> -ClientAuthentication 
 |Узел|Параметр **node** указывает список узлов сетевого контроллера, созданных с помощью команды **New-нетворкконтроллернодеобжект** .|
 |клиентцертификатесумбпринт|Этот параметр является обязательным только при использовании проверки подлинности на основе сертификатов для клиентов сетевого контроллера. Параметр **клиентцертификатесумбпринт** указывает отпечаток сертификата, который регистрируется на клиентах в слое обмена.|
 |ServerCertificate|Параметр **ServerCertificate** указывает сертификат, используемый сетевым контроллером для подтверждения его подлинности клиентам. Сертификат сервера должен включать в себя назначение проверки подлинности сервера в расширенных расширениях использования ключей и должно быть выдано сетевому контроллеру центром сертификации, который является доверенным для клиентов.|
-|рестипаддресс|Не нужно указывать значение для **рестипаддресс** с развертыванием сетевого контроллера с одним узлом. Для развертываний с несколькими узлами параметр **рестипаддресс** указывает IP-адрес КОНЕЧНОЙ точки RESTful в нотации CIDR. Например, 192.168.1.10/24. Значение имени субъекта **ServerCertificate** должно быть разрешено в значение параметра **рестипаддресс** . Этот параметр должен быть указан для всех развертываний сетевого контроллера с несколькими узлами, если все узлы находятся в одной подсети. Если узлы находятся в разных подсетях, вместо использования **рестипаддресс**необходимо использовать параметр **имя restname** .|
+|рестипаддресс|Не нужно указывать значение для **рестипаддресс** с развертыванием сетевого контроллера с одним узлом. Для развертываний с несколькими узлами параметр **рестипаддресс** указывает IP-адрес КОНЕЧНОЙ точки RESTful в нотации CIDR. Например, 192.168.1.10/24. Значение имени субъекта **ServerCertificate** должно быть разрешено в значение параметра **рестипаддресс** . Этот параметр должен быть указан для всех развертываний сетевого контроллера с несколькими узлами, если все узлы находятся в одной подсети. Если узлы находятся в разных подсетях, вместо использования **рестипаддресс** необходимо использовать параметр **имя restname** .|
 |RestName|Не нужно указывать значение для **имя restname** с развертыванием сетевого контроллера с одним узлом. Единственный момент, когда необходимо указать значение для **имя restname** , — если в развертываниях с несколькими узлами находятся узлы в разных подсетях. Для развертываний с несколькими узлами параметр **имя restname** указывает полное доменное имя кластера сетевого контроллера.|
 |ClientSecurityGroup|Параметр **клиентсекуритиграуп** указывает имя группы безопасности Active Directory, члены которой являются клиентами сетевого контроллера. Этот параметр является обязательным только при использовании проверки подлинности Kerberos для **EKU**. Группа безопасности должна содержать учетные записи, из которых осуществляется доступ к API-интерфейсам, и необходимо создать группу безопасности и добавить членов перед выполнением этой команды.|
 |Учетные данные|Этот параметр является обязательным только при выполнении этой команды с удаленного компьютера. Параметр **Credential** указывает учетную запись пользователя, имеющую разрешение на выполнение этой команды на целевом компьютере.|
@@ -194,16 +194,16 @@ Install-NetworkController -Node <NetworkControllerNode[]> -ClientAuthentication 
 
 |Задача|Get-Help|Синтаксис|
 |--------|-------|----------|
-|Изменение параметров кластера сетевого контроллера|Set-Нетворкконтроллерклустер|`Set-NetworkControllerCluster [-ManagementSecurityGroup <string>][-Credential <PSCredential>] [-computerName <string>][-CertificateThumbprint <String> ] [-UseSSL]`
-|Изменение параметров приложения сетевого контроллера|Set-Нетворкконтроллер|`Set-NetworkController [-ClientAuthentication <ClientAuthentication>] [-Credential <PSCredential>] [-ClientCertificateThumbprint <string[]>] [-ClientSecurityGroup <string>] [-ServerCertificate <X509Certificate2>] [-RestIPAddress <String>] [-ComputerName <String>][-CertificateThumbprint <String> ] [-UseSSL]`
-|Изменение параметров узла сетевого контроллера|Set-Нетворкконтроллерноде|`Set-NetworkControllerNode -Name <string> > [-RestInterface <string>] [-NodeCertificate <X509Certificate2>] [-Credential <PSCredential>] [-ComputerName <string>][-CertificateThumbprint <String> ] [-UseSSL]`
-|Изменение параметров диагностики сетевого контроллера|Set-Нетворкконтроллердиагностик|`Set-NetworkControllerDiagnostic [-LogScope <string>] [-DiagnosticLogLocation <string>] [-LogLocationCredential <PSCredential>] [-UseLocalLogLocation] >] [-LogLevel <loglevel>][-LogSizeLimitInMBs <uint32>] [-LogTimeLimitInDays <uint32>] [-Credential <PSCredential>] [-ComputerName <string>][-CertificateThumbprint <String> ] [-UseSSL]`
-|Удаление приложения сетевого контроллера|Uninstall-Нетворкконтроллер|`Uninstall-NetworkController [-Credential <PSCredential>][-ComputerName <string>] [-CertificateThumbprint <String> ] [-UseSSL]`
-|Удаление кластера сетевого контроллера|Uninstall-Нетворкконтроллерклустер|`Uninstall-NetworkControllerCluster [-Credential <PSCredential>][-ComputerName <string>][-CertificateThumbprint <String> ] [-UseSSL]`
-|Добавление узла в кластер сетевого контроллера|Add-Нетворкконтроллерноде|`Add-NetworkControllerNode -FaultDomain <String> -Name <String> -RestInterface <String> -Server <String> [-CertificateThumbprint <String> ] [-ComputerName <String> ] [-Credential <PSCredential> ] [-Force] [-NodeCertificate <X509Certificate2> ] [-PassThru] [-UseSsl]`
-|Отключение узла кластера сетевого контроллера|Disable-Нетворкконтроллерноде|`Disable-NetworkControllerNode -Name <String> [-CertificateThumbprint <String> ] [-ComputerName <String> ] [-Credential <PSCredential> ] [-PassThru] [-UseSsl]`
-|Включение узла кластера сетевого контроллера|Enable-Нетворкконтроллерноде|`Enable-NetworkControllerNode -Name <String> [-CertificateThumbprint <String> ] [-ComputerName <String> ] [-Credential <PSCredential> ] [-PassThru] [-UseSsl]`
-|Удаление узла сетевого контроллера из кластера|Remove-Нетворкконтроллерноде|`Remove-NetworkControllerNode [-CertificateThumbprint <String> ] [-ComputerName <String> ] [-Credential <PSCredential> ] [-Force] [-Name <String> ] [-PassThru] [-UseSsl]`
+|Изменение параметров кластера сетевого контроллера|Set-NetworkControllerCluster|`Set-NetworkControllerCluster [-ManagementSecurityGroup <string>][-Credential <PSCredential>] [-computerName <string>][-CertificateThumbprint <String> ] [-UseSSL]`
+|Изменение параметров приложения сетевого контроллера|Set-NetworkController|`Set-NetworkController [-ClientAuthentication <ClientAuthentication>] [-Credential <PSCredential>] [-ClientCertificateThumbprint <string[]>] [-ClientSecurityGroup <string>] [-ServerCertificate <X509Certificate2>] [-RestIPAddress <String>] [-ComputerName <String>][-CertificateThumbprint <String> ] [-UseSSL]`
+|Изменение параметров узла сетевого контроллера|Set-NetworkControllerNode|`Set-NetworkControllerNode -Name <string> > [-RestInterface <string>] [-NodeCertificate <X509Certificate2>] [-Credential <PSCredential>] [-ComputerName <string>][-CertificateThumbprint <String> ] [-UseSSL]`
+|Изменение параметров диагностики сетевого контроллера|Set-NetworkControllerDiagnostic|`Set-NetworkControllerDiagnostic [-LogScope <string>] [-DiagnosticLogLocation <string>] [-LogLocationCredential <PSCredential>] [-UseLocalLogLocation] >] [-LogLevel <loglevel>][-LogSizeLimitInMBs <uint32>] [-LogTimeLimitInDays <uint32>] [-Credential <PSCredential>] [-ComputerName <string>][-CertificateThumbprint <String> ] [-UseSSL]`
+|Удаление приложения сетевого контроллера|Uninstall-NetworkController|`Uninstall-NetworkController [-Credential <PSCredential>][-ComputerName <string>] [-CertificateThumbprint <String> ] [-UseSSL]`
+|Удаление кластера сетевого контроллера|Uninstall-NetworkControllerCluster|`Uninstall-NetworkControllerCluster [-Credential <PSCredential>][-ComputerName <string>][-CertificateThumbprint <String> ] [-UseSSL]`
+|Добавление узла в кластер сетевого контроллера|Add-NetworkControllerNode|`Add-NetworkControllerNode -FaultDomain <String> -Name <String> -RestInterface <String> -Server <String> [-CertificateThumbprint <String> ] [-ComputerName <String> ] [-Credential <PSCredential> ] [-Force] [-NodeCertificate <X509Certificate2> ] [-PassThru] [-UseSsl]`
+|Отключение узла кластера сетевого контроллера|Disable-NetworkControllerNode|`Disable-NetworkControllerNode -Name <String> [-CertificateThumbprint <String> ] [-ComputerName <String> ] [-Credential <PSCredential> ] [-PassThru] [-UseSsl]`
+|Включение узла кластера сетевого контроллера|Enable-NetworkControllerNode|`Enable-NetworkControllerNode -Name <String> [-CertificateThumbprint <String> ] [-ComputerName <String> ] [-Credential <PSCredential> ] [-PassThru] [-UseSsl]`
+|Удаление узла сетевого контроллера из кластера|Remove-NetworkControllerNode|`Remove-NetworkControllerNode [-CertificateThumbprint <String> ] [-ComputerName <String> ] [-Credential <PSCredential> ] [-Force] [-Name <String> ] [-PassThru] [-UseSsl]`
 
 >[!NOTE]
 >Команды Windows PowerShell для сетевого контроллера находятся в библиотеке TechNet в [командлетах сетевого контроллера](https://technet.microsoft.com/library/mt576401.aspx).

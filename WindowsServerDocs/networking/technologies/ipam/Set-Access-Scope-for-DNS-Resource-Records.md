@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: a96a8752-5678-49c5-b069-d2cce8042a51
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: cccb2da0e88ce2db6e92514d89644d548461f7ed
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: f2ebe0b05baf98317d432efaebfff7f0f4578d16
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87944716"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97948340"
 ---
 # <a name="set-access-scope-for-dns-resource-records"></a>Задание области доступа для записей ресурсов DNS
 
@@ -23,7 +24,7 @@ ms.locfileid: "87944716"
 
 ### <a name="to-set-access-scope-for-dns-resource-records"></a>Настройка области доступа для записей ресурсов DNS
 
-1.  В диспетчер сервера щелкните **IPAM**. Откроется консоль клиента IPAM.
+1.  В диспетчер сервера щелкните  **IPAM**. Откроется консоль клиента IPAM.
 
 2.  В области навигации щелкните **зоны DNS**.  В нижней области навигации разверните узел **прямой просмотр** и выберите зону, содержащую записи ресурсов, область доступа которой требуется изменить.
 
@@ -35,7 +36,7 @@ ms.locfileid: "87944716"
 
     ![Задание области доступа](../../media/Set-Access-Scope-for-DNS-Resource-Records/ipam_RestrictUserToRRControl_03.jpg)
 
-5.  Откроется диалоговое окно **Установка области доступа** . Если требуется для развертывания, щелкните, чтобы снять флажок **наследовать область доступа от родительского объекта**. В **области выберите область доступа**выберите элемент и нажмите кнопку **ОК**.
+5.  Откроется диалоговое окно **Установка области доступа** . Если требуется для развертывания, щелкните, чтобы снять флажок **наследовать область доступа от родительского объекта**. В **области выберите область доступа** выберите элемент и нажмите кнопку **ОК**.
 
     ![Выберите область доступа](../../media/Set-Access-Scope-for-DNS-Resource-Records/ipam_RestrictUserToRRControl_04.jpg)
 

@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: a0726752-0a78-472b-9667-2f91636c1b3b
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 1a58057937b46452cfae78965cb89b0838b5b652
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.date: 12/08/2020
+ms.openlocfilehash: a5350f6e650320b37a0b7e13d3a7980ec11e1206
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96866093"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97949220"
 ---
 # <a name="branchcache-network-shell-and-windows-powershell-commands"></a>Команды BranchCache Network Shell и Windows PowerShell
 

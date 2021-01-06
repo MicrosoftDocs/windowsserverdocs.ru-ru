@@ -6,12 +6,13 @@ ms.assetid: a754b78c-048d-4be9-a846-cf41ff0bcbc4
 manager: dongill
 author: rpsqrd
 ms.author: ryanpu
-ms.openlocfilehash: cf9cd9775163df4412e0f03dde920640b58fc22c
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.date: 12/10/2020
+ms.openlocfilehash: 1e380c432fb3439b998c73f17644c6bec50ae326
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97043942"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97949730"
 ---
 # <a name="planning-a-guarded-fabric"></a>Планирование защищенной структуры
 

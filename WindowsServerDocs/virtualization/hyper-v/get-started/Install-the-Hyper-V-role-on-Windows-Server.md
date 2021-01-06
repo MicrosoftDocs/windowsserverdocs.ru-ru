@@ -1,17 +1,17 @@
 ---
 title: Установка роли Hyper-V в Windows Server
 description: Содержит инструкции по установке Hyper-V с помощью диспетчер сервера или Windows PowerShell.
-ms.topic: get-started-article
+ms.topic: how-to
 ms.assetid: 8e871317-09d2-4314-a6ec-ced12b7aee89
 ms.author: benarm
 author: BenjaminArmstrong
 ms.date: 12/02/2016
-ms.openlocfilehash: e8b95d744954d477e33322cad8d20ff3ff8d7258
-ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
+ms.openlocfilehash: 909338b6c2f3d57962d91dbdea3a533579d0354c
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "90746009"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97948100"
 ---
 # <a name="install-the-hyper-v-role-on-windows-server"></a>Установка роли Hyper-V в Windows Server
 
@@ -32,7 +32,7 @@ ms.locfileid: "90746009"
 
 1. В **диспетчере серверов** в меню **Управление** выберите **Добавить роли и компоненты**.
 
-2. На странице **Приступая к работе** убедитесь, что конечный сервер и сетевое окружение подготовлены к установке нужной вам роли или компонента. Щелкните **Далее**.
+2. На странице **Приступая к работе** убедитесь, что конечный сервер и сетевое окружение подготовлены к установке нужной вам роли или компонента. Нажмите кнопку **Далее**.
 
 3. На странице **Выбор типа установки** выберите **Установка ролей или компонентов** и нажмите кнопку **Далее**.
 

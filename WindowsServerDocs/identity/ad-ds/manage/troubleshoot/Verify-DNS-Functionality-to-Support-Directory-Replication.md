@@ -5,12 +5,13 @@ title: Проверка работоспособности DNS для подде
 ms.author: daveba
 ms.date: 05/31/2017
 author: Femila
-ms.openlocfilehash: 540b62236acb9a1026219193de208b2948c2b12d
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.topic: troubleshooting
+ms.openlocfilehash: 30a655932d4b19b50cce536545007080b13fd86d
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97046312"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97949240"
 ---
 # <a name="verify-dns-functionality-to-support-directory-replication"></a>Проверка работоспособности DNS для поддержки репликации каталогов
 

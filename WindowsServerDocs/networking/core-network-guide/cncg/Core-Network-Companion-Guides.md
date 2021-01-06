@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: d57af0bd-9301-4f62-9888-f528cd10451d
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: e7595cc91f1bf3c4b2b631398bc97accba8930cc
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.date: 08/07/2020
+ms.openlocfilehash: ffcfbecfa47c39f0bb6e76a6e34953a2ef9140e7
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87997120"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97950240"
 ---
 # <a name="core-network-companion-guidance"></a>Дополнительное руководство по основной сети
 
@@ -36,7 +37,7 @@ ms.locfileid: "87997120"
 - возможность применения сертификатов в дополнительных целях.
 
 Инструкции по развертыванию сертификатов сервера см. в статье [Развертывание сертификатов сервера для беспроводных и беспроводных развертываний 802.1 x](server-certs/Deploy-Server-Certificates-for-802.1X-Wired-and-Wireless-Deployments.md).
-## <a name="core-network-companion-guide-deploy-password-based-8021x-authenticated-wireless-access"></a>Руководство по основным сетям: развертывание 802.1 с проверкой подлинности на основе пароля
+## <a name="core-network-companion-guide-deploy-password-based-8021x-authenticated-wireless-access"></a>Руководство по основным сетевым ресурсам: развертывание Password-Based 802.1 X с проверкой подлинности
 
 В этом руководство объясняется, как выполнить сборку на основе основной сети, предоставив инструкции о том, как развернуть институт инженеров \( по \) беспроводной связи IEEE 802.1 x \- с проверкой подлинности IEEE 802,11 с помощью защищенного протокола проверки \( \- \- \) подлинности.
 
@@ -49,7 +50,7 @@ ms.locfileid: "87997120"
 1. Следуйте инструкциям, приведенным в разделе основное сетевое руководств по развертыванию основной сетевой инфраструктуры, или уже имеются технологии, представленные в этом программном обеспечении, развернутые в сети.
 2. Следуйте инструкциям, приведенным в пошаговом руководств по основным сетевым помощникам по развертыванию сертификатов сервера для беспроводных и беспроводных развертываний 802.1 X, либо у уже есть технологии, представленные в этом программном обеспечении.
 
-Инструкции по развертыванию беспроводного доступа с помощью протокола PEAP \- MS \- CHAP v2 см. в статье развертывание беспроводного [доступа с проверкой подлинности 802.1 x на основе пароля](wireless/a-deploy-8021X-wireless-access.md).
+Инструкции по развертыванию беспроводного доступа с помощью протокола PEAP \- MS \- CHAP v2 см. в разделе [deploy Password-Based 802.1 x аутентифицированный беспроводной доступ](wireless/a-deploy-8021X-wireless-access.md).
 
 ## <a name="core-network-companion-guide-deploy-branchcache-hosted-cache-mode"></a>Руководство по основам сетевого помощника: развертывание режима кэширования службы BranchCache
 

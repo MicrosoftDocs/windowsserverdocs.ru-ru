@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: 013df067-e2a0-4cd5-a08b-29238663ebf8
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: a11a8f3b94eea15d6160152b37619d2ae01538e4
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: c677be9e958a830d12d06ef0f45729b5614fc171
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87944214"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97948960"
 ---
 # <a name="step-5-verify-otp-health-on-edge1"></a>Шаг 5. Проверка работоспособности OTP в EDGE1
 

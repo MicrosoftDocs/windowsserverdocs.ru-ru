@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: eea0aca9-8d89-48fb-8068-fca40c90d34b
 ms.author: anpaul
 author: AnirbanPaul
-ms.openlocfilehash: adb488e97693b42435cc0c23e48f22de7966b517
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: 7be8ccaf791155d1c0a8f07e4549a858bf4b82d8
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87952457"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97949390"
 ---
 # <a name="post-deployment-steps-for-network-controller"></a>Действия после развертывания для сетевого контроллера
 

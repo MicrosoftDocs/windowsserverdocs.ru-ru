@@ -3,16 +3,16 @@ description: 'Дополнительные сведения: часто зада
 title: Часто задаваемые вопросы о реплике хранилища
 manager: siroy
 ms.author: nedpyle
-ms.topic: get-started-article
+ms.topic: how-to
 author: nedpyle
 ms.date: 04/15/2020
 ms.assetid: 12bc8e11-d63c-4aef-8129-f92324b2bf1b
-ms.openlocfilehash: c47f233502383342ffbc57dd5471a64d17cafa86
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: 6cb59e94549aed049a4555ad2d9d7fd0448da4f8
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97049572"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97948620"
 ---
 # <a name="frequently-asked-questions-about-storage-replica"></a>Часто задаваемые вопросы о реплике хранилища
 
@@ -85,7 +85,7 @@ Set-SRNetworkConstraint -SourceComputerName sr-cluster01 -SourceRGName group1 -S
 Нет, Реплика хранилища поддерживает только одну репликацию сервера, кластера или узла растянутого кластера. Возможно, ситуация изменится в более поздней версии. Конечно, вы можете настроить репликацию в любом направлении между разными серверами определенной пары томов. Например, сервер 1 может реплицировать свой том D на сервер 2, а свой том E — с сервера 3.
 
 ## <a name="can-i-grow-or-shrink-replicated-volumes-replicated-by-storage-replica"></a><a name="FAQ5"></a> Можно ли увеличить или уменьшить размер томов, которые реплицирует реплика хранилища?
-Размер тома можно увеличить, но не уменьшить. По умолчанию администраторы не могут увеличивать размер реплицированных томов. Используйте параметр `Set-SRGroup -AllowVolumeResize $TRUE` для исходной группы до изменения размера. Пример.
+Размер тома можно увеличить, но не уменьшить. По умолчанию администраторы не могут увеличивать размер реплицированных томов. Используйте параметр `Set-SRGroup -AllowVolumeResize $TRUE` для исходной группы до изменения размера. Пример:
 
 1. Использовать для исходного компьютера: `Set-SRGroup -Name YourRG -AllowVolumeResize $TRUE`
 2. Увеличьте размер тома с помощью любого метода.
@@ -144,7 +144,7 @@ Set-SRNetworkConstraint -SourceComputerName sr-cluster01 -SourceRGName group1 -S
 
 ## <a name="can-i-delegate-users-to-administer-replication"></a><a name="FAQ13"></a> Можно ли делегировать пользователей для администрирования репликации?
 
-Можно использовать `Grant-SRDelegation` командлет. Он позволяет назначить сценарии межсерверной и межкластерной репликации, а также репликации растянутого кластера конкретным пользователям, которые получат разрешения на создание, изменение или удаление репликации, не являясь при этом членами группы локальных администраторов. Пример.
+Можно использовать `Grant-SRDelegation` командлет. Он позволяет назначить сценарии межсерверной и межкластерной репликации, а также репликации растянутого кластера конкретным пользователям, которые получат разрешения на создание, изменение или удаление репликации, не являясь при этом членами группы локальных администраторов. Пример:
 
 ```
 Grant-SRDelegation -UserName contso\tonywang
@@ -262,7 +262,7 @@ Remove-SmbBandwidthLimit -Category StorageReplication
 - Исходный диск Server1 M: с исходным диском журнала L: репликация на целевой диск Server2 M: с диском журнала назначения L:
 - Исходный диск Server2 O: с исходным диском журнала N: репликация на диск назначения Server1 O: с диском журнала назначения N:
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 - [Общие сведения о реплике хранилища](storage-replica-overview.md)
 - [Растяжение репликации кластера с помощью общего хранилища](stretch-cluster-replication-using-shared-storage.md)
 - [Репликация сервера на серверное хранилище](server-to-server-storage-replication.md)

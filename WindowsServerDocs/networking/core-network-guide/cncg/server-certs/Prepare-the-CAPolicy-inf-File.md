@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: 65b36794-bb09-4c1b-a2e7-8fc780893d97
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 83e2acbc9edfd9ca236f01b1fef3474ffe1bbb51
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: 70921e660383eaf572ee3eae10817287a8bf29f2
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87949458"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97950170"
 ---
 # <a name="capolicyinf-syntax"></a>Синтаксис файла CAPolicy. INF
 >   Область применения. Windows Server (Semi-Annual Channel), Windows Server 2016
@@ -75,7 +76,7 @@ OID=1.1.1.1.1.1.2
 URL=https://pki.wingtiptoys.com/policies/legalpolicy.asp
 ```
 
-Дополнительно
+Кроме того:
 
 -   Поддерживаются несколько ключей URL и уведомлений.
 
@@ -228,7 +229,7 @@ Certutil -setreg CACRLDeltaPeriodUnits 1
    [CRLDistributionPoint]
    [AuthorityInformationAccess]
    ```
-4. В меню **файл**выберите команду **Сохранить как**.
+4. В меню **файл** выберите команду **Сохранить как**.
 
 5. Перейдите в папку% systemroot%.
 
@@ -240,7 +241,7 @@ Certutil -setreg CACRLDeltaPeriodUnits 1
 
    -   В поле **Кодировка** указано **ANSI**
 
-7. Нажмите кнопку **Сохранить**.
+7. Нажмите **Сохранить**.
 
 8. При появлении запроса о перезаписи файла нажмите **Да**.
 

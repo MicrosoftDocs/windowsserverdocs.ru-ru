@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: d6d1ca5e-bde0-4509-9e14-dc3fa9ff447e
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 7def3b69ca638525f53a8286c5cfdf235b2531e3
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: edfdb534843b7b9b81fffb2d0712c65542e6ed3a
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87952079"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97949330"
 ---
 # <a name="access-permission"></a>Разрешение на доступ
 

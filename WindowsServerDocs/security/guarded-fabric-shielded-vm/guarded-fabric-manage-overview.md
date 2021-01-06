@@ -6,12 +6,13 @@ ms.assetid: aee13964-d1d9-471a-bef3-3c76280b9a15
 manager: dongill
 author: rpsqrd
 ms.author: ryanpu
-ms.openlocfilehash: c027b4bd0ced1d4c61a642c15667c2ea3610f805
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.date: 12/10/2020
+ms.openlocfilehash: 6510e791061309dea7cb61e7b62d91bd2201862a
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97044012"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97949740"
 ---
 # <a name="managing-a-guarded-fabric"></a>Управление защищенной структурой
 

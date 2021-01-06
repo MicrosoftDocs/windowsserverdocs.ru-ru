@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: f66ee49a-1fd3-4927-a813-64a15017b63b
 ms.author: anpaul
 author: AnirbanPaul
-ms.openlocfilehash: 679eead1bbdf8f9abee089ff5b3ff035d6641edf
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.date: 12/08/2020
+ms.openlocfilehash: 1dcd639f4c97b48ec03d56a6c3e2dbbd794ea8d1
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96864003"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97949680"
 ---
 # <a name="system-center-technologies-for-sdn"></a>Технологии System Center для SDN
 

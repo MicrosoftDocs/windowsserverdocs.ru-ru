@@ -3,16 +3,16 @@ description: 'Подробнее о: Общие сведения о реплик
 title: Общие сведения о реплике хранилища
 manager: siroy
 ms.author: nedpyle
-ms.topic: get-started-article
+ms.topic: how-to
 author: nedpyle
 ms.date: 4/26/2019
 ms.assetid: e9b18e14-e692-458a-a39f-d5b569ae76c5
-ms.openlocfilehash: 9761117c4fe12450d658297edd411094546d883e
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: cd516e6d762df920c7f43843240ea2045a67753b
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97043272"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97948600"
 ---
 # <a name="storage-replica-overview"></a>Общие сведения о реплике хранилища
 

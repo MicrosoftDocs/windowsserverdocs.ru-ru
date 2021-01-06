@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: 79e87013-7f27-4031-8383-288bcb291731
 ms.author: anpaul
 author: AnirbanPaul
-ms.openlocfilehash: fa8294dce02366815a274d606e2947c0d679f743
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: 205f6aa8d1fb957ad607d205b61c2f039bc43885
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87970851"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97950140"
 ---
 # <a name="microsoft-azure-and-software-defined-networking"></a>Microsoft Azure и программно-конфигурируемая сеть
 

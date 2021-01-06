@@ -1,16 +1,17 @@
 ---
 title: Новые возможности работы с сетями
 description: В этом разделе содержатся общие сведения о новых функциях и технологиях для работы с сетью в Windows Server 2016.
-ms.topic: get-started-article
+ms.topic: how-to
 ms.assetid: 08fb7563-d319-48a9-b181-ca0ca3032c18
 author: dcuomo
 ms.author: dacuo
-ms.openlocfilehash: 69e1fee1a8ae0ff1c878c64790650290b4804351
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.date: 08/07/2020
+ms.openlocfilehash: 45654f1c75705bf4b1cc8b773527c37f11fb7f72
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87993814"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97949230"
 ---
 # <a name="whats-new-in-networking"></a>Новые возможности работы с сетями
 
@@ -47,7 +48,7 @@ UPD этот раздел содержит следующие разделы.
 
     -   **Шлюз RAS**. Вы можете использовать шлюз RAS для маршрутизации трафика между виртуальными сетями и физическими сетями, включая VPN-подключения типа "сеть — сеть" из облачного центра обработки данных к удаленным сайтам клиентов. В частности, можно протокол IKE развернуть виртуальные частные сети (VPN) типа "сеть — сеть" (VPN), уровня 3 (L3) и шлюзы GRE. Кроме того, теперь поддерживаются пулы шлюзов и избыточность шлюза M + N. и протокол BGP (BGP) с возможностями отражения маршрутов обеспечивает динамическую маршрутизацию между сетями для всех сценариев шлюза (IKEv2 VPN, GRE VPN и VPN уровня "L3").
 
-        Дополнительные сведения см. [в статье новые возможности шлюза RAS](sdn/technologies/network-function-virtualization/What-s-New-in-RAS-Gateway.md) и [шлюза RAS для Sdn](sdn/technologies/network-function-virtualization/RAS-Gateway-for-SDN.md).
+        Дополнительные сведения см.  [в статье новые возможности шлюза RAS](sdn/technologies/network-function-virtualization/What-s-New-in-RAS-Gateway.md) и [шлюза RAS для Sdn](sdn/technologies/network-function-virtualization/RAS-Gateway-for-SDN.md).
 
     - **Load Balancer программного обеспечения (SLB) и преобразование сетевых адресов (NAT)**. Балансировщик нагрузки уровня "Север-Юг" и "Восток-Запад 4" и NAT повышает пропускную способность благодаря поддержке прямого возврата сервера, при котором возвращаемый сетевой трафик может обходить мультиплексора балансировки нагрузки.
        Дополнительные сведения см. в разделе [Программная балансировка нагрузки &#40;&#41; SLB для Sdn](./sdn/technologies/network-function-virtualization/software-load-balancing-for-sdn.md).

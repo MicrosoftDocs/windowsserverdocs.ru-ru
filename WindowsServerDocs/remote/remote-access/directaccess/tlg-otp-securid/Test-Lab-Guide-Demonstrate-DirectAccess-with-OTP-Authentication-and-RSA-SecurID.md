@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: 10c7a49c-5671-4bec-b562-13fdd67f4629
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 90ffbb012c927e689f1ae852fdf7704520bc098d
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: 14a7af29c0c927f33cbc36313a080e46e35f3263
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87958542"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97949260"
 ---
 # <a name="test-lab-guide-demonstrate-directaccess-with-otp-authentication-and-rsa-securid"></a>Руководство по лаборатории тестирования: демонстрация DirectAccess с проверкой подлинности OTP и RSA SecurID
 

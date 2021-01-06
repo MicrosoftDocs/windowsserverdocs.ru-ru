@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: 7e79c66a-8555-4d8e-8691-d6c37377aab4
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 45d84103f3b41b08beb207bee570b469a3caf3dc
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: c9f33a53ac7af8a76d8f6d9b018668ebc8b23771
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87964230"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97950230"
 ---
 # <a name="prehash-and-preload-content-on-the-hosted-cache-server-optional"></a>Предварительное хэширование и загрузка содержимого на сервере размещенного кэша \( необязательно\)
 

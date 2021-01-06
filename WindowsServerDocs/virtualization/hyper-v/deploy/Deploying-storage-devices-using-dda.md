@@ -5,12 +5,13 @@ ms.topic: article
 ms.author: benarm
 author: BenjaminArmstrong
 ms.assetid: 1c36107e-78c9-4ec0-a313-6ed557ac0ffc
-ms.openlocfilehash: 66da2888a5d7ce0777cb1976cdd484287362f691
-ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
+ms.date: 09/17/2020
+ms.openlocfilehash: b80a4e18027add69c4f70e63174c571a2aa90c0b
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "90746089"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97948130"
 ---
 # <a name="deploy-nvme-storage-devices-using-discrete-device-assignment"></a>Развертывание устройств хранения NVMe с помощью дискретного назначения устройств
 

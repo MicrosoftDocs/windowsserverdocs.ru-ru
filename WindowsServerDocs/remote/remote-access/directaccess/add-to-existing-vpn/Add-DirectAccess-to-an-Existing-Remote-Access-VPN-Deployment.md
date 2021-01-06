@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: b5db01f7-1ae0-46f2-9be7-8d9e121446b2
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: a4d700efc274abb152f16dbf08efbb560526371f
-ms.sourcegitcommit: 029b1e19ce11160d5f988046e04a83e8ab5a60dc
+ms.date: 01/05/2021
+ms.openlocfilehash: 9174ad15dd60ff2bec7dff537852cab6e4aae54a
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97904299"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97949840"
 ---
 # <a name="add-directaccess-to-an-existing-remote-access-vpn-deployment"></a>Add DirectAccess to an Existing Remote Access (VPN) Deployment
 

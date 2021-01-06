@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: 4b97b2fd-767a-45c1-a64e-5b3edd0c8a47
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: def6fa1b3e252a2fd2ad8b3e00df1c222b9844f0
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: 682c6f7bd829ccdf208271196e5b0b27d660515a
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87958332"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97948210"
 ---
 # <a name="step-4-plan-for-otp-on-the-remote-access-server"></a>Шаг 4. Планирование OTP на сервере удаленного доступа
 

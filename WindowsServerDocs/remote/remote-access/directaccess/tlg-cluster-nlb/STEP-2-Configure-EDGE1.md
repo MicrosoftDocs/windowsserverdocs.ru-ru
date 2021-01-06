@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: 84457351-1ca7-4e7c-8e2c-53d55b1fcdc0
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: cdd0d58f9f664211da44b125a466132ea0301bd2
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: fb0bd2c2f6b043eec28b7b3499c05ead578653fa
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87970291"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97948230"
 ---
 # <a name="step-2-configure-edge1"></a>Шаг 2. Настройка EDGE1
 
@@ -21,7 +22,7 @@ ms.locfileid: "87970291"
 
 ## <a name="to-configure-directaccess-on-edge1"></a>Настройка DirectAccess в EDGE1
 
-1.  На **начальном** экране введите**RAMgmtUI.exe**и нажмите клавишу ВВОД. Если появится диалоговое окно **контроля учетных записей**, подтвердите, что отображаемое в нем действие именно то, которое требуется, и нажмите кнопку **Да**.
+1.  На **начальном** экране введите **RAMgmtUI.exe** и нажмите клавишу ВВОД. Если появится диалоговое окно **контроля учетных записей**, подтвердите, что отображаемое в нем действие именно то, которое требуется, и нажмите кнопку **Да**.
 
 2.  В левой области консоли управления удаленным доступом щелкните элемент **Конфигурация**.
 

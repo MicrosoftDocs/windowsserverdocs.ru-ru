@@ -2,16 +2,16 @@
 title: Настройка пиринговой связи между виртуальными сетями
 description: Настройка пиринга виртуальных сетей предполагает создание двух виртуальных сетей, которые получают пиринг.
 manager: grcusanz
-ms.topic: get-started-article
+ms.topic: how-to
 ms.author: anpaul
 author: AnirbanPaul
 ms.date: 08/08/2018
-ms.openlocfilehash: b78ec1b73625a6064f6330ec6453d75ffea048c8
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 41cd82ec188cb91aac3b1c044e5ca7d3120a4543
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87955851"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97949080"
 ---
 # <a name="configure-virtual-network-peering"></a>Настройка пиринговой связи между виртуальными сетями
 

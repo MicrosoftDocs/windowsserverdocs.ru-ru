@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: 50fdb08a-bbd8-4107-954a-6699672110ff
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 49a928ab46bc190af279b17eaa23ca0ae04869b5
-ms.sourcegitcommit: 029b1e19ce11160d5f988046e04a83e8ab5a60dc
+ms.date: 01/05/2021
+ms.openlocfilehash: ac146ca0381185e091d96577fe61c0f6cbb226d4
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97904629"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97949470"
 ---
 # <a name="dns-policy-scenario-guide"></a>Руководство по сценарию политики DNS
 

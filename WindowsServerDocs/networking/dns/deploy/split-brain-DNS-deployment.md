@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: a255a4a5-c1a0-4edc-b41a-211bae397e3c
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: fa4e2d5c5c6cedc33ceb4cc9ff2521fb75fe9af9
-ms.sourcegitcommit: 029b1e19ce11160d5f988046e04a83e8ab5a60dc
+ms.date: 01/05/2021
+ms.openlocfilehash: 454aa54c6ec48fc76f90d71bedfb306982fe5cea
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97904869"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97948850"
 ---
 # <a name="use-dns-policy-for-split-brain-dns-deployment"></a>Использование политики DNS для разделения раздельного \- развертывания DNS
 

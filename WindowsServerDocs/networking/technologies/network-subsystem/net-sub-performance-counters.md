@@ -6,12 +6,13 @@ ms.assetid: 7ebaa271-2557-4c24-a679-c3d863e6bf9e
 manager: dcscontentpm
 ms.author: v-tea
 author: Teresa-Motiv
-ms.openlocfilehash: e9c4bc76e737c70d3d973e6fa77c57adefc7d5b1
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: df57714980a6dce5187cd01d1da74e703d6cefca
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87953930"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97949030"
 ---
 # <a name="network-related-performance-counters"></a>Счетчики производительности сети
 
@@ -25,7 +26,7 @@ ms.locfileid: "87953930"
 
 -   [Производительность объединения на стороне получения (RSC)](#bkmk_rsc)
 
-##  <a name="resource-utilization"></a><a name="bkmk_ru"></a>Использование ресурсов
+##  <a name="resource-utilization"></a><a name="bkmk_ru"></a> Использование ресурсов
 
 Следующие счетчики производительности относятся к использованию сетевых ресурсов.
 
@@ -67,7 +68,7 @@ ms.locfileid: "87953930"
 
     Этот счетчик представляет собой среднюю скорость добавления DPC в очередь DPC логического процессора. Каждый логический процессор имеет собственную очередь DPC. Этот счетчик измеряет скорость, с которой DPC добавляется в очередь, а не число DPC в очереди. В нем отображается разница между значениями, которые были замечены в двух последних примерах, деленная на длительность интервала выборки.
 
-##  <a name="potential-network-problems"></a><a name="bkmk_np"></a>Потенциальные проблемы с сетью
+##  <a name="potential-network-problems"></a><a name="bkmk_np"></a> Потенциальные проблемы с сетью
 
 Следующие счетчики производительности важны для возможных проблем с сетью.
 
@@ -117,7 +118,7 @@ ms.locfileid: "87953930"
 
     -   Отклонено подключений в секунду
 
-##  <a name="receive-side-coalescing-rsc-performance"></a><a name="bkmk_rsc"></a>Производительность объединения на стороне получения (RSC)
+##  <a name="receive-side-coalescing-rsc-performance"></a><a name="bkmk_rsc"></a> Производительность объединения на стороне получения (RSC)
 
 Следующие счетчики производительности важны для производительности RSC.
 

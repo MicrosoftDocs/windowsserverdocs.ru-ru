@@ -1,17 +1,17 @@
 ---
 title: Создание виртуальной машины в Hyper-V
 description: Содержит инструкции по созданию виртуальной машины с помощью диспетчера Hyper-V или Windows PowerShell.
-ms.topic: get-started-article
+ms.topic: how-to
 ms.assetid: 59297022-a898-456c-b299-d79cd5860238
 ms.author: benarm
 author: BenjaminArmstrong
 ms.date: 10/04/2016
-ms.openlocfilehash: 56688d61f1ab94ed011414e3967a83df070dbaaa
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.openlocfilehash: 72beb053c17e00c69adaa621902fa3252bd38300
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96866133"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97948120"
 ---
 # <a name="create-a-virtual-machine-in-hyper-v"></a>Создание виртуальной машины в Hyper-V
 
@@ -41,7 +41,7 @@ ms.locfileid: "96866133"
 
 2. Щелкните правой кнопкой мыши элемент **Windows PowerShell** и выберите пункт **Запуск от имени администратора**.
 
-3. Получите имя виртуального коммутатора, который виртуальная машина должна использовать с помощью [Get-VMSwitch](/powershell/module/hyper-v/get-vmswitch).  например следующие.
+3. Получите имя виртуального коммутатора, который виртуальная машина должна использовать с помощью [Get-VMSwitch](/powershell/module/hyper-v/get-vmswitch).  Например,
 
    ```
    Get-VMSwitch  * | Format-Table Name
@@ -73,7 +73,7 @@ ms.locfileid: "96866133"
 
        При этом создается виртуальная машина поколения 2 с именем Win10VM с 4 ГБ памяти. Она загружается из папки VMs\Win10.vhdx в текущий каталог и использует виртуальный коммутатор с именем ExternalSwitch. Файлы конфигурации виртуальной машины хранятся в папке VMData.
 
-   - **Новый виртуальный жесткий диск** — чтобы создать виртуальную машину с новым виртуальным жестким диском, замените параметр **-VHDPath** из приведенного выше примера на  **-неввхдпас** и добавьте параметр **-неввхдсизебитес** . например следующие.
+   - **Новый виртуальный жесткий диск** — чтобы создать виртуальную машину с новым виртуальным жестким диском, замените параметр **-VHDPath** из приведенного выше примера на  **-неввхдпас** и добавьте параметр **-неввхдсизебитес** . Например,
 
      ```
      New-VM -Name Win10VM -MemoryStartupBytes 4GB -BootDevice VHD -NewVHDPath .\VMs\Win10.vhdx -Path .\VMData -NewVHDSizeBytes 20GB -Generation 2 -Switch ExternalSwitch

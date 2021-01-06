@@ -4,12 +4,13 @@ description: В этой статье рассматривается пробл�
 ms.date: 05/28/2020
 author: Deland-Han
 ms.author: delhan
-ms.openlocfilehash: da46b39f853476676a06bcaaa20338dd1a178586
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.topic: troubleshooting
+ms.openlocfilehash: f367575cf828e23c6f1624176d359b4590cf4728
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87935574"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97948180"
 ---
 # <a name="nodes-being-removed-from-failover-cluster-membership-on-vmware-esx"></a>Узлы, удаляемые из состава отказоустойчивого кластера в VMWare ESX
 

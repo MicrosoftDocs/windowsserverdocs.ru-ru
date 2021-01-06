@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: c9cecb94-3cd5-4da7-9a3e-084148b8226b
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: a2d38b9f9aaac11f5e4e218e24e4428f97ae2c8f
-ms.sourcegitcommit: 8e330f9066097451cd40e840d5f5c3317cbc16c2
+ms.date: 12/18/2020
+ms.openlocfilehash: ccbce13be36e6f4ff673fec27f25df1e653953bb
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "97696745"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97949490"
 ---
 # <a name="whats-new-in-dns-server-in-windows-server"></a>Новые возможности DNS-сервера в Windows Server
 

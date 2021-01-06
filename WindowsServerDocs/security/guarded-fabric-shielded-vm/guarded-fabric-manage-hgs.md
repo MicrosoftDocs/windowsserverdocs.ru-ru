@@ -6,12 +6,13 @@ ms.assetid: eecb002e-6ae5-4075-9a83-2bbcee2a891c
 manager: dongill
 author: rpsqrd
 ms.author: ryanpu
-ms.openlocfilehash: 415e4980a718bac04925d349aa9bca0773f04a8b
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.date: 12/10/2020
+ms.openlocfilehash: 54f39b309c8853c5fd7a30178dffe0e11d7f8411
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97044042"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97949180"
 ---
 # <a name="managing-the-host-guardian-service"></a>Управление службой защиты узла
 
@@ -137,7 +138,7 @@ Remove-PSSession -Session $session
 
 Во-первых, важно понимать, что насчет HGS важно для резервного копирования.
 HGS хранит несколько частей информации, которые помогают определить, какие узлы имеют право на выполнение экранированных виртуальных машин.
-Сюда входят следующие возможности.
+В том числе:
 1. Active Directory идентификаторы безопасности для групп, содержащих доверенные узлы (при использовании Active Directory аттестации);
 2. Уникальные идентификаторы доверенного платформенного модуля для каждого узла в вашей среде;
 3. Политики TPM для каждой уникальной конфигурации узла; перетаскивани

@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: 22ccd5c3-0a26-484c-88c8-54119d1228cc
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: f282340e33acfb5110d2f0159516244fbc7916cc
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: 055f4a15d440080f7fed0b86744892e90e1174f5
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87951349"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97950060"
 ---
 # <a name="directaccess-deployment-paths-in-windows-server"></a>Возможности развертывания DirectAccess в Windows Server
 

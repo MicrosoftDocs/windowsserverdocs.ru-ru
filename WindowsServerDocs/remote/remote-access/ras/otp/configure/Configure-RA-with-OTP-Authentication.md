@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: 82505b18-dd77-4dd1-aa27-b2962b8241ca
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: a9e0b9fc6847816d55e9bb916fbe8a691daa3fe2
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: 45d33aa5008835d6f8ae840a893bb453825b42dc
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87958352"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97949770"
 ---
 # <a name="configure-remote-access-with-otp-authentication"></a>Настройка удаленного доступа с проверкой подлинности OTP
 

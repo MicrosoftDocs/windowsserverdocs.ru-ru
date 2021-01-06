@@ -2,16 +2,17 @@
 title: Перемещение файловых серверов в подразделение файловых серверов BranchCache
 description: Узнайте, как добавить файловые серверы BranchCache в подразделение (OU) в домен Active Directory Services (AD DS).
 manager: brianlic
-ms.topic: get-started-article
+ms.topic: how-to
 ms.assetid: 56c915ec-edb1-43b0-8ad2-c93841bb566f
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 82a9d9b1d4c65e7058a19b6496ccea348a1117b1
-ms.sourcegitcommit: 029b1e19ce11160d5f988046e04a83e8ab5a60dc
+ms.date: 01/05/2021
+ms.openlocfilehash: b96f417078d46ccdcc75621b24d4853a6695c69f
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97904549"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97949700"
 ---
 # <a name="move-file-servers-to-the-branchcache-file-servers-organizational-unit"></a>Перемещение файловых серверов в подразделение файловых серверов BranchCache
 

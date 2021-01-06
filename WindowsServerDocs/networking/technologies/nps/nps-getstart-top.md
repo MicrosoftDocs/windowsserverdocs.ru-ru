@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: 29976baf-b0e2-4c01-ab4d-f2940e2bc327
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: ef9352cabb91e534c7b8c8546509b22281a25d8a
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: 08c02be1e24213334d8b8f30d6de78dc671fce15
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87969361"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97948650"
 ---
 # <a name="getting-started-with-network-policy-server"></a>Начало работы с сервером политики сети
 

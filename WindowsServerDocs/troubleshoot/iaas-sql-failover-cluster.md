@@ -4,12 +4,13 @@ description: В этой статье описаны решения для на�
 ms.date: 05/28/2020
 author: Deland-Han
 ms.author: delhan
-ms.openlocfilehash: 9f28aa9c10fe64e0b86a405c1feb480396bcb76b
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.topic: troubleshooting
+ms.openlocfilehash: 39469ef6b36af20a2fd8fdab8f3400d5991c2446
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87965811"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97948560"
 ---
 # <a name="iaas-with-sql-alwayson---tuning-failover-cluster-network-thresholds"></a>IaaS with SQL AlwaysOn - Tuning Failover Cluster Network Thresholds (IaaS с SQL AlwaysOn — настройка пороговых значений сети отказоустойчивого кластера)
 
@@ -89,7 +90,7 @@ C:\Windows\system32> get-cluster | fl *subnet*
 
 По умолчанию, минимальное, максимальное и рекомендованное значение для каждой ОС поддержки
 
-| Описание | Операционная система | Min | Max | Значение по умолчанию | Рекомендуется |
+| Описание | OS | Min | Max | По умолчанию | Рекомендуется |
 |--|--|--|--|--|--|
 | CrossSubnetThreshold | 2008 R2 | 3 | 20 | 5 | 20 |
 | Пороговое значение Кросссубнет | 2012 | 3 | 120 | 5 | 20 |

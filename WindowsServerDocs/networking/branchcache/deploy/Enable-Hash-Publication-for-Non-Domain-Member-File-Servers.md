@@ -2,16 +2,17 @@
 title: Включение возможности публикации хэша для файловых серверов, не входящих в домен
 description: Узнайте, как настроить публикацию хэша для BranchCache с помощью локального компьютера групповая политика на файловом сервере, на котором установлена служба роли BranchCache для сетевых файлов в роли сервера файловых служб.
 manager: brianlic
-ms.topic: get-started-article
+ms.topic: how-to
 ms.assetid: 11584b73-f9e2-4530-afa5-b8df970e6b24
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: bee22a7cad20fc32bcb2f0384fdaa9a9a2d8ffce
-ms.sourcegitcommit: 029b1e19ce11160d5f988046e04a83e8ab5a60dc
+ms.date: 01/05/2021
+ms.openlocfilehash: 9da8c5677f3dd137fb682a17adc55da29f973f82
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97904229"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97948440"
 ---
 # <a name="enable-hash-publication-for-non-domain-member-file-servers"></a>Включение возможности публикации хэша для файловых серверов, не входящих в домен
 

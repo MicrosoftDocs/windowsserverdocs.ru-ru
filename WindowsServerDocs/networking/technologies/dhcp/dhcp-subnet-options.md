@@ -2,17 +2,17 @@
 title: Параметры выбора подсети DHCP
 description: В этом разделе содержатся сведения о параметрах выбора подсети DHCP для протокола DHCP в Windows Server 2016.
 manager: dougkim
-ms.topic: get-started-article
+ms.topic: how-to
 ms.assetid: ca19e7d1-e445-48fc-8cf5-e4c45f561607
 ms.author: lizross
 author: eross-msft
 ms.date: 08/17/2018
-ms.openlocfilehash: 5b7a680c77ee7a9002f674d4fc0266c50551abcc
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 076ca8c41616b77cb7503ca960667771c8f6f412
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87949237"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97948800"
 ---
 # <a name="dhcp-subnet-selection-options"></a>Параметры выбора подсети DHCP
 

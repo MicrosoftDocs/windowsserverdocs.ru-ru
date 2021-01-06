@@ -2,16 +2,17 @@
 title: Высокая доступность сетевого контроллера
 description: С помощью этого раздела можно узнать о высокой доступности сетевого контроллера для программно-определяемой сети (SDN) в Windows Server 2016.
 manager: grcusanz
-ms.topic: get-started-article
+ms.topic: how-to
 ms.assetid: 334b090d-bec4-4e67-8307-13831dbdd1d8
 ms.author: anpaul
 author: AnirbanPaul
-ms.openlocfilehash: f266ac90478bb25a540ad3a3b88a5c096fe2de87
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.date: 12/08/2020
+ms.openlocfilehash: fe0967334e993c44d0edc38417998f51c8376262
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96866483"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97949110"
 ---
 # <a name="network-controller-high-availability"></a>Высокая доступность сетевого контроллера
 

@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: 97abf182-4725-4026-801c-122db96964ed
 ms.author: anpaul
 author: AnirbanPaul
-ms.openlocfilehash: 1dc52e6b2bebf66f6a80e846481ec3f1656db443
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.date: 12/08/2020
+ms.openlocfilehash: 0a621d3a856af1a575ece73d7091ef9022e90d42
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96866493"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97948370"
 ---
 # <a name="software-load-balancing-slb-for-sdn"></a>Подсистема балансировки нагрузки программного обеспечения \( \) для Sdn
 

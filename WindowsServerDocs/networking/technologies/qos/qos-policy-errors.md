@@ -6,12 +6,13 @@ ms.assetid: 76974e10-6a57-4533-83be-cfd5a0d364a3
 manager: brianlic
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: dc100c7ae8ff4ab65dc8cacdde9d46ade8d2b20e
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: 5b1c181bba776b8b42433dfb6f407c6c5a584019
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87940025"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97948630"
 ---
 # <a name="qos-policy-error-and-event-messages"></a>Сообщения об ошибках и событиях политики качества обслуживания
 
@@ -137,7 +138,7 @@ ms.locfileid: "87940025"
 |**Уровень серьезности**|Предупреждение|
 |**SymbolicName**|EVENT_EQOS_WARNING_TEST_1|
 |**Язык**|Английский|
-|**Message**|Екос: * * * тестирование \* \* \* [, с одной строкой] "%2".|
+|**Message**|Екос: * * _Testing \_ \* \* [, с одной строкой] "%2".|
 
 |||
 |-|-|
@@ -145,7 +146,7 @@ ms.locfileid: "87940025"
 |**Уровень серьезности**|Предупреждение|
 |**SymbolicName**|EVENT_EQOS_WARNING_TEST_2|
 |**Язык**|Английский|
-|**Message**|Екос: * * * тестирование \* \* \* [, с двумя строками, строка1 —] "%2" [, строка_замены] "%3".|
+|**Message**|Екос: * * _Testing \_ \* \* [, с двумя строками, строка1 имеет значение] "%2" [, строка_замены] "%3".|
 
 |||
 |-|-|

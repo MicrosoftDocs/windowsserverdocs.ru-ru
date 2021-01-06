@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: 375feefc-949e-47c3-9e61-35b79e021966
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 0395033fe009a6bb787761ab3ec47604c94ba6b1
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: 63b05967e35ae878e5002d83ae2c0148f15c589b
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87944646"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97948330"
 ---
 # <a name="view-dns-resource-records-for-a-dns-zone"></a>Просмотр записей ресурсов DNS для зоны DNS
 
@@ -23,9 +24,9 @@ ms.locfileid: "87944646"
 
 ### <a name="to-view-dns-resource-records-for-a-zone"></a>Просмотр записей ресурсов DNS для зоны
 
-1.  В диспетчер сервера щелкните **IPAM**. Откроется консоль клиента IPAM.
+1.  В диспетчер сервера щелкните  **IPAM**. Откроется консоль клиента IPAM.
 
-2.  В области навигации в окне **мониторинг и управление**щелкните **зоны DNS**.  Панель навигации разделяется на верхнюю панель навигации и нижнюю панель навигации.
+2.  В области навигации в окне **мониторинг и управление** щелкните **зоны DNS**.  Панель навигации разделяется на верхнюю панель навигации и нижнюю панель навигации.
 
 3.  В нижней области навигации щелкните **прямой поиск**, а затем разверните список домены и зона, чтобы найти и выбрать зону, которую нужно просмотреть. Например, если имеется зона с именем Dublin, щелкните элемент **Dublin**.
 

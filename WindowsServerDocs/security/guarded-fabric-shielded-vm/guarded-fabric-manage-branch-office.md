@@ -5,12 +5,13 @@ ms.topic: article
 manager: dongill
 author: rpsqrd
 ms.author: ryanpu
-ms.openlocfilehash: 793cbf9e43aa7d8b5842a3d3647253a09997d0b6
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.date: 12/10/2020
+ms.openlocfilehash: 4786d4ba72b2d5a5e6901fc0ffef67c1213c1602
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97047222"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97949190"
 ---
 # <a name="branch-office-considerations"></a>Рекомендации для филиалов
 

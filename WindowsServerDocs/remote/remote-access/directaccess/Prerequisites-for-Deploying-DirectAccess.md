@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: 57c7e039-42ef-4909-867a-b5f669c9e74e
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 2025c2d90d9eef679bf8f51c18c9e1ba32123441
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.date: 08/07/2020
+ms.openlocfilehash: 35dd601a1ca961d39352ca226142cc58c550273e
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87994953"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97948270"
 ---
 # <a name="prerequisites-for-deploying-directaccess"></a>Предварительные требования для развертывания DirectAccess
 

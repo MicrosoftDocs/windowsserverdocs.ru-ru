@@ -1,17 +1,18 @@
 ---
 title: Шаг 4. Проверка многосайтового развертывания
-description: Эта статья является частью руководств по развертыванию нескольких серверов удаленного доступа в многосайтовом развертывании в Windows Server 2016.
+description: Узнайте, как проверить правильность настройки многосайтового развертывания удаленного доступа.
 manager: brianlic
 ms.topic: article
 ms.assetid: 345b676a-a397-4d51-9973-8b25bc05fa55
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 43b4c1ddacbb4263fff0f1b8b57223abf2a9aa68
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: 29c4c65673399b017716b2bfc299742f1d0c1307
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87937073"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97949200"
 ---
 # <a name="step-4-verify-the-multisite-deployment"></a>Шаг 4. Проверка многосайтового развертывания
 
@@ -31,7 +32,7 @@ ms.locfileid: "87937073"
 
     Вы должны иметь доступ ко всем корпоративным ресурсам с каждого многосайтового сервера.
 
-4.  Подключите &reg; клиентский компьютер с Windows 7 к корпоративной сети и получите групповую политику.
+4.  Подключите &reg;  клиентский компьютер с Windows 7 к корпоративной сети и получите групповую политику.
 
 5.  Подключите клиентский компьютер Windows 7 к внешней сети и попытайтесь получить доступ к внутренним ресурсам.
 

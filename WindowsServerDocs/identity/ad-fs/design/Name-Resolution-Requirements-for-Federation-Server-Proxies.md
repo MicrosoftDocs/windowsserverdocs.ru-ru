@@ -7,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: ed871b8fb0f904fee246714a852ab5934c4a6e1c
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: b98d22b18c52ce9f6fd11dd9e7932806dd3726ec
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97046532"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97948520"
 ---
 # <a name="name-resolution-requirements-for-federation-server-proxies"></a>Требования к разрешению имен для прокси-серверов федерации
 
@@ -31,7 +31,7 @@ ms.locfileid: "97046532"
 
 На рисунке ниже и в соответствующей процедуре показано, как выполнить каждое из этих условий для данного примера. На этом рисунке технология балансировки сетевой нагрузки (NLB) Microsoft \( \) обеспечивает единое полное доменное имя кластера и один IP-адрес кластера для существующей фермы серверов федерации.
 
-![требования к имени](media/adfs2_deploy_single_fs.gif)
+![Иллюстрация, на которой показана технология балансировки сетевой нагрузки (Майкрософт), предоставляет один кластер F Q D N и один адрес кластера I P для существующей фермы серверов федерации.](media/adfs2_deploy_single_fs.gif)
 
 Дополнительные сведения о настройке IP-адреса кластера или полного доменного имени кластера с помощью балансировки сетевой нагрузки см. [в разделе Указание параметров кластера](https://go.microsoft.com/fwlink/?LinkId=75282).
 

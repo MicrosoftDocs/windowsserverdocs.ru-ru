@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: aa5b5d11-3921-44f9-8e14-e378c75fca76
 ms.author: anpaul
 author: AnirbanPaul
-ms.openlocfilehash: f972f764324eb478917dc4e27f23b2463faf62f9
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: f2dd6def0b7ec0ee4137ac8e3a4f85362e13c07f
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87952584"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97949950"
 ---
 # <a name="switch-embedded-teaming-for-sdn"></a>Объединение внедренных коммутаторов для SDN
 

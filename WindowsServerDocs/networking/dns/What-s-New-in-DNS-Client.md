@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: 6edaba84-4595-4fd8-95d7-64d4d975a38a
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 772fedf497691834e6b894f61bd01c284ec24c16
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: 0ad32c51b526cdead4b8b2b785dff9040ab1ef37
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87971811"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97949140"
 ---
 # <a name="whats-new-in-dns-client-in-windows-server-2016"></a>Новые возможности DNS-клиента в Windows Server 2016
 

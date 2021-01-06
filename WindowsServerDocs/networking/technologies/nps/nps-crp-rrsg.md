@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: d81678a7-be21-48f2-9b3f-5a75d6aef013
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 36c1f50b840404c16c67a6252826f76ef5e2b5ec
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: b41697afe6d4f4e0c80dce8429bd7a4494c89284
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87969371"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97949010"
 ---
 # <a name="remote-radius-server-groups"></a>Группы удаленных RADIUS-серверов
 

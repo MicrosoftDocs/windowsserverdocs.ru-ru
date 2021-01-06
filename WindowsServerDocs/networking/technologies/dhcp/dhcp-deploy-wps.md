@@ -6,12 +6,13 @@ ms.assetid: 7110ad21-a33e-48d5-bb3c-129982913bc8
 manager: brianlic
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 128c9ce3591f9603ac9085b66fc3359d85a892f2
-ms.sourcegitcommit: 5f234fb15c1d0365b60e83a50bf953e317d6239c
+ms.date: 01/04/2021
+ms.openlocfilehash: c1b01a7b303f05bdd39a30bfd0042cae139a82d8
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97879783"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97948820"
 ---
 # <a name="deploy-dhcp-using-windows-powershell"></a>Развертывание DHCP с помощью Windows PowerShell
 

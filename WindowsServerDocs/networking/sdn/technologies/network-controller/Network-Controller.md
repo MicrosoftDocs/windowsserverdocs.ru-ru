@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: 31f3fa4e-cd25-4bf3-89e9-a01a6cec7893
 ms.author: anpaul
 author: AnirbanPaul
-ms.openlocfilehash: 5f789904903838e838e5de0c8de78266055fbcd6
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.date: 12/08/2020
+ms.openlocfilehash: 8db1514711834430b88a94306189ce03c0036899
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96866503"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97949400"
 ---
 # <a name="network-controller"></a>Сетевой контроллер
 

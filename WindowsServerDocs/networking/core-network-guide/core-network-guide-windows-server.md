@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: 9b3ef3eb-4246-4e0e-8bf1-53224ca5f2f9
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: bfe5b64d2c14d769bc654ba1d7e820eaab4edd28
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: 6bffc303d7d04c95e40d62bf87c9e74ee87812da
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87942595"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97949150"
 ---
 # <a name="core-network-guidance-for-windows-server"></a>Руководство по основной сети для Windows Server
 

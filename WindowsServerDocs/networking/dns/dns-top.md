@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: 1324ba18-4e28-4b9d-bbe7-75707e6d30ab
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 1117e523e23bfc5415754484385d290eb2375d91
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: 1169a86b3f3d0a5d4b8846339215da9fd020ea78
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87954100"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97948410"
 ---
 # <a name="domain-name-system-dns"></a>Служба доменных имен (DNS)
 

@@ -1,17 +1,18 @@
 ---
 title: Шаг 2. Планирование базового развертывания DirectAccess
-description: Эта статья является частью руководств по развертыванию одного сервера DirectAccess с помощью мастера начало работы для Windows Server 2016.
+description: Узнайте, как спланировать параметры мастера начало работы.
 manager: brianlic
 ms.topic: article
 ms.assetid: 7ddcb162-dd92-406c-acab-d3de7239c644
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 832e9eb7621a6ca17edc4fcd8c7450ca558159e1
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: 3f4d41feb2a41226676c12de4cd0e72966ae7077
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87970311"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97948250"
 ---
 # <a name="step-2-plan-the-basic-directaccess-deployment"></a>Шаг 2. Планирование базового развертывания DirectAccess
 

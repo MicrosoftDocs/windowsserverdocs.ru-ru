@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: 4acdc3ad-078e-45cc-b54c-e9456e0c90f5
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: e93c05f4e4a8709e71ac65195983ab0637fcd547
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.date: 08/07/2020
+ms.openlocfilehash: 512653a98ff887b6d7f7d5c1af59ee5310a4df46
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96865383"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97950180"
 ---
 # <a name="install-the-certification-authority"></a>Установка центра сертификации
 

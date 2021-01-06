@@ -2,16 +2,17 @@
 title: Настройка имеющегося файлового сервера в качестве сервера содержимого
 description: Узнайте, как установить службу BranchCache для сетевых файлов роли сервера файловых служб на компьютере под Windows Server 2016.
 manager: brianlic
-ms.topic: get-started-article
+ms.topic: how-to
 ms.assetid: bdac7d2a-25b4-4f61-bed1-b290700c18f3
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 83223ab3f565b3b00fc77accf0da67e82ecce630
-ms.sourcegitcommit: 029b1e19ce11160d5f988046e04a83e8ab5a60dc
+ms.date: 01/05/2021
+ms.openlocfilehash: b00584280f2bf18952b88f88e851cddca8d842f1
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97904739"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97948510"
 ---
 # <a name="configure-an-existing-file-server-as-a-content-server"></a>Настройка имеющегося файлового сервера в качестве сервера содержимого
 

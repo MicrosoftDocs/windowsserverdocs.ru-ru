@@ -3,15 +3,15 @@ title: Основные решения поддержки для Windows Server
 description: Получите ссылки на решения для проблем с Windows Server
 manager: alant
 ms.date: 03/16/2018
-ms.topic: article
+ms.topic: troubleshooting
 author: kaushika-msft
 ms.author: elizapo
-ms.openlocfilehash: 7bc533063c52af2087d822a428458ba8efab94fc
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.openlocfilehash: 5fa270ed274684f14af76eed9770f1a074a719e6
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96864673"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97948540"
 ---
 # <a name="top-support-solutions-for-windows-server-2016"></a>Основные решения поддержки для Windows Server 2016
 

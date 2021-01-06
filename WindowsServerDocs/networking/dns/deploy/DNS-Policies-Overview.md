@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: 566bc270-81c7-48c3-a904-3cba942ad463
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: d913905fe5b40e4e3e24828a0c6b392c1691043d
-ms.sourcegitcommit: 029b1e19ce11160d5f988046e04a83e8ab5a60dc
+ms.date: 01/05/2021
+ms.openlocfilehash: ce4b991dcda83d6448d4a085dcf9e7dc08e04b1d
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97904669"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97949480"
 ---
 # <a name="dns-policies-overview"></a>Обзор политик DNS
 

@@ -6,12 +6,13 @@ author: iangpgh
 ms.author: jgerend
 manager: daveba
 ms.date: 05/07/2019
-ms.openlocfilehash: 9a45b2e6ce84368fdeca9019b7c188b2bc053013
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.topic: article
+ms.openlocfilehash: e79f748149740248021f77eb169101b011cc2e67
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87960897"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97948920"
 ---
 # <a name="deleting-volumes-in-storage-spaces-direct"></a>Удаление томов в Локальные дисковые пространства
 > Применяется к: Windows Server 2019, Windows Server 2016

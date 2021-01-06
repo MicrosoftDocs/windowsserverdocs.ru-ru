@@ -2,16 +2,17 @@
 title: Внутренняя служба DNS (iDNS) для SDN
 description: В этом разделе объясняется, как можно предоставить службы DNS для рабочих нагрузок размещенного клиента с помощью внутренней службы DNS (iDNS), интегрированной с программно-определяемой сетью в Windows Server 2016.
 manager: grcusanz
-ms.topic: get-started-article
+ms.topic: how-to
 ms.assetid: ad848a5b-0811-4c67-afe5-6147489c0384
 ms.author: anpaul
 author: AnirbanPaul
-ms.openlocfilehash: d47a1e7ca434098ffec3b3d3fd602c6ca7934cf7
-ms.sourcegitcommit: 5f234fb15c1d0365b60e83a50bf953e317d6239c
+ms.date: 01/04/2021
+ms.openlocfilehash: 03f8164212cb08bedffd1caf2f35e2dd7814b9aa
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97879773"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97949960"
 ---
 # <a name="internal-dns-service-idns-for-sdn"></a>Внутренняя служба DNS (iDNS) для SDN
 

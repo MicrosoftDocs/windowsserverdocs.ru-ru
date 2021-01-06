@@ -2,16 +2,17 @@
 title: Создание объекта групповой политики публикации хэша BranchCache
 description: Узнайте, как создать публикацию хэша BranchCache групповая политика объекта (GPO).
 manager: brianlic
-ms.topic: get-started-article
+ms.topic: how-to
 ms.assetid: c3d33bed-83ef-4eb8-acf9-0719ecb4a931
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 52ff5028f87c56077fd64e980cb9920ac7673212
-ms.sourcegitcommit: 029b1e19ce11160d5f988046e04a83e8ab5a60dc
+ms.date: 01/05/2021
+ms.openlocfilehash: 0598701ecf060390001bd18ce704df9dfde6ab3c
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97904849"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97948470"
 ---
 # <a name="create-the-branchcache-hash-publication-group-policy-object"></a>Создание объекта групповой политики публикации хэша BranchCache
 

@@ -6,12 +6,13 @@ ms.assetid: da58f312-bd3b-4bb6-98ca-6177869dd6ad
 manager: brianlic
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: eab47e24ad8c2bd5436b3516babee9237c3c80f3
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.date: 12/08/2020
+ms.openlocfilehash: 78a8ff1b4594c2c5cb5d7d655d682e0d80e9ecdf
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96865573"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97949920"
 ---
 # <a name="data-center-bridging-dcb"></a>Мост для центра обработки данных \(DCB\)
 

@@ -7,12 +7,12 @@ ms.date: 04/11/2018
 ms.topic: article
 ms.assetid: 70f279bf-aea1-4f4f-9ab3-e9157233e267
 ms.author: billmath
-ms.openlocfilehash: 6c1638ee628491371409f15d7450df7b77872f7d
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: 5fcc31c0b0f0482a545d17135603efaa97e174d7
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97046142"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97948530"
 ---
 # <a name="upgrading-to-ad-fs-in-windows-server-2016-with-sql-server"></a>Обновление до AD FS в Windows Server 2016 с SQL Server
 
@@ -35,7 +35,7 @@ ms.locfileid: "97046142"
 
 -   В результате возможности смешанной фермы AD FS Организации Windows Server 2012 R2, которые стремятся перейти на Windows Server 2016, не должны развертывать совершенно новую ферму, экспортировать и импортировать данные конфигурации.  Вместо этого они могут добавлять узлы Windows Server 2016 в существующую ферму, пока она находится в режиме «в сети», и при этом возникнет относительно короткое время простоя, вовлеченное в ФБЛ.
 
-Учтите, что в режиме смешанной фермы AD FS ферма не поддерживает новые функции и функции, появившиеся в AD FS в Windows Server 2016.  Это означает, что Организации, желающие испытать новые функции, не смогут сделать это до тех пор, пока не будет вызвано ФБЛ.  Поэтому, если ваша организация планирует протестировать новые функции до того, как Расинг ФБЛ, для этого потребуется развернуть отдельную ферму.
+Учтите, что в режиме смешанной фермы AD FS ферма не поддерживает новые функции и функции, появившиеся в AD FS в Windows Server 2016.  Это означает, что Организации, желающие испытать новые функции, не смогут сделать это до тех пор, пока не будет вызвано ФБЛ.  Поэтому, если ваша организация планирует протестировать новые функции до создания ФБЛ, для этого потребуется развернуть отдельную ферму.
 
 В оставшейся части документа содержатся инструкции по добавлению сервера федерации Windows Server 2016 в среду Windows Server 2012 R2 и последующему порождению ФБЛ к Windows Server 2016.  Эти шаги были выполнены в тестовой среде, описанной в схеме архитектуры ниже.
 
@@ -44,7 +44,7 @@ ms.locfileid: "97046142"
 
 На схеме архитектуры показана программа установки, которая использовалась для проверки и записи описанных ниже действий.
 
-![Архитектура](media/Upgrading-to-AD-FS-in-Windows-Server-2016-SQL/arch.png)
+![Architecture](media/Upgrading-to-AD-FS-in-Windows-Server-2016-SQL/arch.png)
 
 
 #### <a name="join-the-windows-2016-ad-fs-server-to-the-ad-fs-farm"></a>Присоединение сервера AD FS Windows 2016 к ферме AD FS
@@ -52,10 +52,10 @@ ms.locfileid: "97046142"
 1.  С помощью диспетчер сервера установите роль службы федерации Active Directory (AD FS) на Windows Server 2016
 
 2.  С помощью мастера настройки AD FS присоедините новый сервер Windows Server 2016 к существующей ферме AD FS.  На экране **приветствия** нажмите кнопку **Далее**.
- ![Присоединение к ферме](media/Upgrading-to-AD-FS-in-Windows-Server-2016-SQL/configure1.png)
+![Снимок экрана, на котором отображается экран приветствия в мастере настройки AD FS.](media/Upgrading-to-AD-FS-in-Windows-Server-2016-SQL/configure1.png)
 3.  На экране **Подключение к домен Active Directory службам** **адайте учетную запись администратора** с разрешениями на выполнение настройки служб федерации и нажмите кнопку **Далее**.
 4.  На экране **Укажите ферму** введите имя сервера и экземпляра SQL Server, а затем нажмите кнопку **Далее**.
-![Присоединение к ферме](media/Upgrading-to-AD-FS-in-Windows-Server-2016-SQL/configure3.png)
+![Снимок экрана, на котором показан экран указания фермы в мастере настройки AD FS.](media/Upgrading-to-AD-FS-in-Windows-Server-2016-SQL/configure3.png)
 5.  На экране **Указание SSL-сертификата** укажите сертификат и нажмите кнопку **Далее**.
 ![Присоединение к ферме](media/Upgrading-to-AD-FS-in-Windows-Server-2016-SQL/configure4.png)
 6.  На экране **Укажите учетную запись службы** укажите учетную запись службы и нажмите кнопку **Далее**.
@@ -70,7 +70,7 @@ ms.locfileid: "97046142"
 >Не нужно задавать сервер-источник AD FS с помощью Set-AdfsSyncProperties роли при использовании SQL в качестве базы данных.  Это связано с тем, что все узлы считаются первичными в этой конфигурации.
 
 1.  На AD FS сервере Windows Server 2012 R2 в диспетчер сервера используйте команду **Удалить роли и компоненты** в разделе **Управление**.
-![Удалить сервер](media/Upgrading-to-AD-FS-in-Windows-Server-2016-SQL/remove1.png)
+![Снимок экрана, посвященный пункту меню "удалить роли и компоненты".](media/Upgrading-to-AD-FS-in-Windows-Server-2016-SQL/remove1.png)
 2.  На странице **Приступая к работе** нажмите кнопку **Далее**.
 3.  На экране **выбора сервера** нажмите кнопку **Далее**.
 4.  На экране **роли сервера** удалите флажок рядом с **службы федерации Active Directory (AD FS)** и нажмите кнопку **Далее**.
@@ -91,8 +91,8 @@ ms.locfileid: "97046142"
 2. При появлении запроса введите **Y**.  Это начнет повышать уровень.  После завершения этого процесса вы успешно вызвали ФБЛ.
 ![Завершить обновление](media/Upgrading-to-AD-FS-in-Windows-Server-2016-SQL/finish1.png)
 3. Теперь, если вы переходите к AD FS управления, вы увидите новые узлы, добавленные для AD FS в Windows Server 2016.
-4. Аналогичным образом можно использовать PowerShell командлет: Get-AdfsFarmInformation для отображения текущего ФБЛ.
-![Завершить обновление](media/Upgrading-to-AD-FS-in-Windows-Server-2016-SQL/finish2.png)
+4. Аналогичным образом можно использовать командлет PowerShell: Get-AdfsFarmInformation для отображения текущего ФБЛ.
+![Снимок экрана, показывающий, как использовать командлет Get-AdfsFarmInformation для отображения текущего F B L.](media/Upgrading-to-AD-FS-in-Windows-Server-2016-SQL/finish2.png)
 
 #### <a name="upgrade-the-configuration-version-of-existing-wap-servers"></a>Обновление версии существующих серверов WAP
 1. Настройте WAP на каждом прокси-сервере веб приложения, выполнив следующую команду PowerShell в окне с повышенными привилегиями:
@@ -100,11 +100,11 @@ ms.locfileid: "97046142"
     $trustcred = Get-Credential -Message "Enter Domain Administrator credentials"
     Install-WebApplicationProxy -CertificateThumbprint {SSLCert} -fsname fsname -FederationServiceTrustCredential $trustcred
     ```
-2. Удалите старые серверы из кластера и обеспечьте только серверы WAP, на которых работает последняя версия сервера, которая была перенастроена ранее, выполнив следующую командлет PowerShell.
+2. Удалите старые серверы из кластера и обеспечьте только серверы WAP, на которых работает последняя версия сервера, которая была перенастроена ранее, выполнив следующую команду PowerShell.
     ```powershell
     Set-WebApplicationProxyConfiguration -ConnectedServersName WAPServerName1, WAPServerName2
     ```
-3. Проверьте конфигурацию WAP, выполнив Get-WebApplicationProxyConfiguration комммандлет. Коннектедсерверснаме будет отражать запуск сервера из предыдущей команды.
+3. Проверьте конфигурацию WAP, выполнив Get-WebApplicationProxyConfiguration команды. Коннектедсерверснаме будет отражать запуск сервера из предыдущей команды.
     ```powershell
     Get-WebApplicationProxyConfiguration
     ```

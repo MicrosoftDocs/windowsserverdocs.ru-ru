@@ -2,16 +2,17 @@
 title: Установка компонента BranchCache
 description: Узнайте, как установить функцию BranchCache и запустить службу BranchCache на компьютере под Windows Server 2016, Windows Server 2012 R2 или Windows Server 2012.
 manager: brianlic
-ms.topic: get-started-article
+ms.topic: how-to
 ms.assetid: 4f31dc61-2dbe-4c7e-b3f9-85ae49a45049
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: abbc7fe051cda1f18b0baa6ec334ee3b339b2925
-ms.sourcegitcommit: 029b1e19ce11160d5f988046e04a83e8ab5a60dc
+ms.date: 01/05/2021
+ms.openlocfilehash: eb1e6be1801b7ac693f7027e6518cce8a145510b
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97904169"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97949550"
 ---
 # <a name="install-the-branchcache-feature"></a>Установка компонента BranchCache
 

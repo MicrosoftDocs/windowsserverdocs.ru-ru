@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: 150976f0-ccd5-487a-a458-92261444a846
 ms.author: anpaul
 author: AnirbanPaul
-ms.openlocfilehash: 896a14d9a912ec5296151af8186e1f5e165512b5
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: 03931f7e149776abcb6a21a0bb2f033dc43b31b7
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87952564"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97949940"
 ---
 # <a name="hyper-v-network-virtualization"></a>Виртуализация сети Hyper-V
 
@@ -25,6 +26,6 @@ ms.locfileid: "87952564"
 
 - [Новые возможности виртуализации сети Hyper-V в Windows Server 2016](../../../sdn/technologies/hyper-v-network-virtualization/whats-new-hyperv-network-virtualization-windows-server.md)
 
-![Облако](../../../media/Hyper-V-Network-Virtualization/All_Symbols_Cloud.png)
+![Cloud](../../../media/Hyper-V-Network-Virtualization/All_Symbols_Cloud.png)
 - Вы знаете, что Microsoft Azure предоставляет аналогичную функциональность в облаке? Узнать больше о [решениях Microsoft Azure для виртуализации](https://aka.ms/f9bh7g).<p>
 - Создание гибридного решения виртуализации в Microsoft Azure:<br />- [Подключение локальной сети к Azure с помощью VPN типа "сеть — сеть" и расширение Active Directory на контроллере домена виртуальной машины IaaS в Azure](https://aka.ms/d1dinb)|

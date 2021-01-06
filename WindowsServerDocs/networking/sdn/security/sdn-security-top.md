@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: 763d11a8-4225-4d96-b56f-1ec62e256bfd
 ms.author: anpaul
 author: AnirbanPaul
-ms.openlocfilehash: b9adf3dafe23f920be40e62834a84a0abffb1aba
-ms.sourcegitcommit: b0c73df80d7b4ff0c332d77e0cc07f7e6e061600
+ms.date: 12/09/2020
+ms.openlocfilehash: 8af53f7e8c03b8f4e0aa780e4c1944852557bd82
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "96925574"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97949970"
 ---
 # <a name="security-for-sdn"></a>Безопасность в SDN
 

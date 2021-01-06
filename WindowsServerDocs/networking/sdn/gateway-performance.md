@@ -2,16 +2,16 @@
 description: 'Дополнительные сведения: производительность шлюза Windows Server 2019'
 title: Производительность шлюза Windows Server 2019
 manager: grcusanz
-ms.topic: get-started-article
+ms.topic: how-to
 ms.author: anpaul
 author: AnirbanPaul
 ms.date: 08/22/2018
-ms.openlocfilehash: d6e20febf5730d1b0f249e0979037de298157e56
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: bf385cfedf973409c5789c94891240ae643c36d6
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97044362"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97949120"
 ---
 # <a name="windows-server-2019-gateway-performance"></a>Производительность шлюза Windows Server 2019
 

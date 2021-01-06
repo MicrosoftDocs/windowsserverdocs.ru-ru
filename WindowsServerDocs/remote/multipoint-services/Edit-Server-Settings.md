@@ -6,12 +6,13 @@ ms.assetid: afb64b94-9055-4703-b8ce-a8839b2718da
 author: lizap
 manager: dongill
 ms.author: elizapo
-ms.openlocfilehash: 698428c4b8b5ce3283d3a71baf4551f06cf47bf3
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: f6b7f0c5f65ad94d2fe4a7ca54f194b2fb360f4f
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87969311"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97949300"
 ---
 # <a name="edit-server-settings"></a>Изменение параметров сервера
 При установке MultiPoint Services вы настроили параметры своей системы, включая согласие на использование определенных программ. В этой статье описываются параметры, которые можно задать для системы MultiPoint Services, и рассказывается, как их изменить.

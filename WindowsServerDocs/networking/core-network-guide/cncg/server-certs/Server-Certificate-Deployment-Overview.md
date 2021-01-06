@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: ca5c3e04-ae25-4590-97f3-0376a9c2a9a2
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: f8d1536bf3043df4071c01ebb46cd84665b23b8b
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.date: 08/07/2020
+ms.openlocfilehash: b4402611028b10dec6cd6e5ed22206bcec2e0ede
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87992836"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97950160"
 ---
 # <a name="server-certificate-deployment-overview"></a>Обзор развертывания сертификата сервера
 

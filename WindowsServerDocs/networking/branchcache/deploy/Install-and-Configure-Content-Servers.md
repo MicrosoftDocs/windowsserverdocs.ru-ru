@@ -2,16 +2,17 @@
 title: Установка и настройка серверов содержимого
 description: Узнайте, как установить и настроить серверы содержимого.
 manager: brianlic
-ms.topic: get-started-article
+ms.topic: how-to
 ms.assetid: e753c56b-8902-4610-9c53-381e77bf29ab
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 559f9dd3ca3cb388169ee002d9f99f39708047a9
-ms.sourcegitcommit: 029b1e19ce11160d5f988046e04a83e8ab5a60dc
+ms.date: 01/05/2021
+ms.openlocfilehash: c82e72728368914f50f9600c01f43156c6bd8080
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97904655"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97948910"
 ---
 # <a name="install-and-configure-content-servers"></a>Установка и настройка серверов содержимого
 

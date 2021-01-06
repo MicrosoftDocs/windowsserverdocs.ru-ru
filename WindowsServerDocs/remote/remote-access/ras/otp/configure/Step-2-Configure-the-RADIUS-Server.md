@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: 0326818f-9144-496c-b946-f82be4eefbd3
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 8c977a124f118076101c0fde4855e42d6e5030aa
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: fc5fa26a6165fae0c41560b67940b70c22f09b8a
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87969101"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97949750"
 ---
 # <a name="step-2-configure-the-radius-server"></a>Шаг 2. Настройка сервера RADIUS
 

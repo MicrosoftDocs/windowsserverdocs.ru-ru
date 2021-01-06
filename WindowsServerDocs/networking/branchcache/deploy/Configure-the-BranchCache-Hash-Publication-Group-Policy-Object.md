@@ -2,16 +2,17 @@
 title: Настройка объекта групповой политики публикации хэша BranchCache
 description: Узнайте, как настроить публикацию хэша BranchCache групповая политика объекта (GPO), чтобы для всех файловых серверов, добавленных в организационное подразделение, был применен один и тот же параметр политики публикации хэша.
 manager: brianlic
-ms.topic: get-started-article
+ms.topic: how-to
 ms.assetid: da74fea7-52b2-4d6d-9d21-19184eedbe3c
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: c9648165836660ab5d132e95147f6e0233e9c983
-ms.sourcegitcommit: 029b1e19ce11160d5f988046e04a83e8ab5a60dc
+ms.date: 01/05/2021
+ms.openlocfilehash: e14dbede78532b9217ab1434516f9f6ce9fde2db
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97904689"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97948490"
 ---
 # <a name="configure-the-branchcache-hash-publication-group-policy-object"></a>Настройка объекта групповой политики публикации хэша BranchCache
 
@@ -50,7 +51,7 @@ ms.locfileid: "97904689"
 
     3.  Чтобы запретить публикацию хэша для всех общих папок на компьютере, даже если в общих папках включено BranchCache, щелкните **запретить публикацию хэша для всех общих папок**.
 
-10. Нажмите кнопку **ОК**.
+10. Нажмите кнопку **OK**.
 
 > [!NOTE]
 > В большинстве случаев необходимо сохранить консоль MMC и обновить представление, чтобы отобразить внесенные изменения конфигурации.

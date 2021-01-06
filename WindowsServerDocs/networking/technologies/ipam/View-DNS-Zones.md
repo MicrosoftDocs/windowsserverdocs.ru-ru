@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: 2cfe4e40-ec6d-4541-baa9-d772409fe27c
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 922fb23db30f484c40766f283f440e448cb6c522
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: 7b9a5d7c4894f9f9019f0b481ece392ac12e3cd4
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87944544"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97948710"
 ---
 # <a name="view-dns-zones"></a>Просмотр зон DNS
 
@@ -23,9 +24,9 @@ ms.locfileid: "87944544"
 
 ### <a name="to-view-dns-zones-in-the-ipam-client-console"></a>Просмотр зон DNS в консоли клиента IPAM
 
-1.  В диспетчер сервера щелкните **IPAM**. Откроется консоль клиента IPAM.
+1.  В диспетчер сервера щелкните  **IPAM**. Откроется консоль клиента IPAM.
 
-2.  В области навигации в окне **мониторинг и управление**щелкните **зоны DNS**.  Панель навигации разделяется на верхнюю панель навигации и нижнюю панель навигации.
+2.  В области навигации в окне **мониторинг и управление** щелкните **зоны DNS**.  Панель навигации разделяется на верхнюю панель навигации и нижнюю панель навигации.
 
 3.  В нижней области навигации выберите один из следующих вариантов.
 

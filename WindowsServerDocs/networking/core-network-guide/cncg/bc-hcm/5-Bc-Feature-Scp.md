@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: 9adf420b-5a58-4e59-9906-71bd58f757fd
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 7aca1cc28086761b18e559210aeaf21e87612ed3
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: 4a059cad3bc3faf03882030528d85764eb13959d
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87937469"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97949500"
 ---
 # <a name="install-the-branchcache-feature-and-configure-the-hosted-cache-server-by-service-connection-point"></a>Установка компонента BranchCache и настройка сервера размещенного кэша с использованием точки подключения службы
 

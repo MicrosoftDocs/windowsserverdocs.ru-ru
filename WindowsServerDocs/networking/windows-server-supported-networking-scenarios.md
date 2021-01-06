@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: 6de4232d-b0b3-4e43-8735-ebae35ae4f9f
 author: dcuomo
 ms.author: dacuo
-ms.openlocfilehash: 0059e04b79754a3fb183a51cbd75bc03e9a89ae5
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.date: 08/07/2020
+ms.openlocfilehash: b8d6b0c3f983ca4798569b06f0a08c95e82106d4
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87997545"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97949310"
 ---
 # <a name="windows-server-supported-networking-scenarios"></a>Поддерживаемые сценарии сетевого взаимодействия в Windows Server
 
@@ -113,7 +114,7 @@ ms.locfileid: "87997545"
 
 Сценарии DNS-сервера позволяют:
 
--   Задание управления трафиком на основе географического расположения с помощью политик DNS
+-   Настройка управления трафиком на основе Geo-Location с помощью политик DNS
 
 -   Настройка DNS с разделением на использование политик DNS
 
@@ -162,7 +163,7 @@ ms.locfileid: "87997545"
 -   Удаление сетевых адаптеров из группы сетевых АДАПТЕРов
 
 > [!NOTE]
-> В Windows Server 2016 можно использовать объединение сетевых карт в Hyper-V, однако в некоторых случаях очереди виртуальных машин (VMQ) могут не быть автоматически включены на базовых сетевых адаптерах при создании группы сетевых адаптеров. В этом случае можно использовать следующую команду Windows PowerShell, чтобы убедиться, что для адаптеров-членов группы сетевой карты включена функция VMQ:`Set-NetAdapterVmq -Name <NetworkAdapterName> -Enable`
+> В Windows Server 2016 можно использовать объединение сетевых карт в Hyper-V, однако в некоторых случаях очереди виртуальных машин (VMQ) могут не быть автоматически включены на базовых сетевых адаптерах при создании группы сетевых адаптеров. В этом случае можно использовать следующую команду Windows PowerShell, чтобы убедиться, что для адаптеров-членов группы сетевой карты включена функция VMQ: `Set-NetAdapterVmq -Name <NetworkAdapterName> -Enable`
 
 Дополнительные сведения см. в разделе [Объединение сетевых карт](technologies/nic-teaming/NIC-Teaming.md).
 

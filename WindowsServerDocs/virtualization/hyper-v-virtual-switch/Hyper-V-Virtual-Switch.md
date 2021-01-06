@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: 398440ac-5988-41ce-b91e-eab343a255d3
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 296369e50c4bd58f5e6db980e8caede055016420
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.date: 12/08/2020
+ms.openlocfilehash: a5498f197e74274641c5949af3763c7f7b90a196
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96865113"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97948160"
 ---
 # <a name="hyper-v-virtual-switch"></a>Виртуальный коммутатор Hyper-V
 

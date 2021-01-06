@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: f9533204-ad7e-4e49-81c1-559324a16aeb
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: a942407a3b15d13f2a7200a3180484e69630982d
-ms.sourcegitcommit: 029b1e19ce11160d5f988046e04a83e8ab5a60dc
+ms.date: 01/05/2021
+ms.openlocfilehash: a3157aa893623b8cdcbeb577bfb2141089afca8b
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97904249"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97949690"
 ---
 # <a name="use-dns-policy-for-split-brain-dns-in-active-directory"></a>Разделение вычислительных мощностей DNS в Active Directory с помощью политики DNS
 

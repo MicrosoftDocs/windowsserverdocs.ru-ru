@@ -3,16 +3,16 @@ title: Основы DHCP (протокол динамического конфи
 description: 'Дополнительные сведения: основные сведения о DHCP (протокол динамической конфигурации узлов)'
 manager: dcscontentpm
 ms.date: 5/26/2020
-ms.topic: troubleshoot
+ms.topic: troubleshooting
 author: Deland-Han
 ms.author: delhan
 ms.reviewer: ''
-ms.openlocfilehash: 73b79eedf1d792c30c7dc6997c3005db8076d924
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: e86fd0e520a526357737094e152b3aa2c4f58621
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97045992"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97948570"
 ---
 # <a name="dhcp-dynamic-host-configuration-protocol-basics"></a>Основы DHCP (протокол динамического конфигурирования узлов)
 

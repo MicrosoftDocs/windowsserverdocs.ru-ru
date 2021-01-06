@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: ef9828f8-c0ad-431d-ae52-e2065532e68f
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 2aa9e1392f133c5f076eac3b508851ae88c41d03
-ms.sourcegitcommit: 029b1e19ce11160d5f988046e04a83e8ab5a60dc
+ms.date: 01/05/2021
+ms.openlocfilehash: b9acf220668843d648d0b8f5daeae54cb50829d5
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97904199"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97948870"
 ---
 # <a name="use-dns-policy-for-geo-location-based-traffic-management-with-primary-servers"></a>Управление трафиком на основе географического расположения на основных серверах с помощью политики DNS
 

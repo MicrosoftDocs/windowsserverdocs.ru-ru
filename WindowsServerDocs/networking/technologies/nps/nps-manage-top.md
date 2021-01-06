@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: a275b02c-62b3-4b8a-8417-a710f24bebfe
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 9395c33600d879efb7450678ad4e856dccd4f683
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: 979753762cb7cc2938d24d1b7f8bbac9ae104537
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87952171"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97948640"
 ---
 # <a name="manage-network-policy-server-nps"></a>Управление сервером политики сети (NPS)
 
