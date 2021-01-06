@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: 5b80294a-7325-476b-84eb-69f0d051e8b2
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 5c629c4f05e0eb1198a6dc1a2ac074967765ff7b
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: 528c3b8e86eb14c8bc5c08408f1326241b6da9fc
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87971791"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97945300"
 ---
 # <a name="filter-the-view-of-dns-resource-records"></a>Фильтрация представления записей ресурсов DNS
 
@@ -23,9 +24,9 @@ ms.locfileid: "87971791"
 
 ### <a name="to-filter-the-view-of-dns-resource-records"></a>Фильтрация представления записей ресурсов DNS
 
-1.  В диспетчер сервера щелкните **IPAM**. Откроется консоль клиента IPAM.
+1.  В диспетчер сервера щелкните  **IPAM**. Откроется консоль клиента IPAM.
 
-2.  В области навигации в окне **мониторинг и управление**щелкните **зоны DNS**.  Панель навигации разделяется на верхнюю панель навигации и нижнюю панель навигации.
+2.  В области навигации в окне **мониторинг и управление** щелкните **зоны DNS**.  Панель навигации разделяется на верхнюю панель навигации и нижнюю панель навигации.
 
 3.  В нижней области навигации щелкните **прямой поиск**. Все зоны прямого просмотра DNS, управляемые IPAM, отображаются в результатах поиска на панели отображения.
 

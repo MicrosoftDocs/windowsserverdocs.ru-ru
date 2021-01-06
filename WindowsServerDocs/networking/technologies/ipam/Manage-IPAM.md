@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: c68905ef-d54f-4fc8-80ac-1006125db64f
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 8f75b41bdd998e2c6865b8b27e2a1b4f70d8fe64
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.date: 08/07/2020
+ms.openlocfilehash: f761dff3215ac14d6d56272514e78f3a700dffdf
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87997175"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97945140"
 ---
 # <a name="manage-ipam"></a>Управление IPAM
 
@@ -34,4 +35,4 @@ ms.locfileid: "87997175"
 -   [Управление доступом на основе ролей](../../technologies/ipam/Role-based-Access-Control.md)
 
 ## <a name="see-also"></a>См. также:
-[Управление IP-адресами &#40;&#41;IPAM](./ipam-top.md)
+[Управление IP-адресами &#40;&#41;IPAM ](./ipam-top.md)

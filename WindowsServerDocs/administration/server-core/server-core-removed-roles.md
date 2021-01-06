@@ -7,12 +7,13 @@ author: pronichkin
 ms.author: artemp
 ms.localizationpriority: medium
 ms.date: 02/23/2018
-ms.openlocfilehash: b810eb78055eeeeda62ef9e0f7d6fb82efa99d14
-ms.sourcegitcommit: 7cacfc38982c6006bee4eb756bcda353c4d3dd75
+ms.topic: conceptual
+ms.openlocfilehash: 388fef573d6c557889caa3b872b79f42cd1cf8a5
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "90077771"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97943890"
 ---
 # <a name="roles-role-services-and-features-not-in-windows-server---server-core"></a>Роли, службы ролей и компоненты, отсутствующие в Windows Server — Server Core
 
@@ -48,7 +49,7 @@ ms.locfileid: "90077771"
 - Сетевая разблокировка BitLocker (**BitLocker-нетворкунлокк**)
 - Прямое воспроизведение (**прямое воспроизведение**)
 - Клиент печати через Интернет (**Интернет-Print-Client**)
-- Монитор порта LPR (порт**LPR-Monitor**)
+- Монитор порта LPR (порт **LPR-Monitor**)
 - Очередь сообщений \ поддержка многоадресной рассылки служб очередей сообщений (**MSMQ-многоадресная рассылка**)
 - Пакет администрирования диспетчера подключений RAS (**CMAK**)
 - Удаленный помощник (**Удаленная помощь**)
@@ -87,5 +88,5 @@ ms.locfileid: "90077771"
 - Windows PowerShell \ интегрированная среда сценариев Windows PowerShell (**PowerShell — ISE**)
 - Служба поиска Windows (**Поиск — служба**)
 - Windows TIFF IFilter (**Windows-TIFF-IFilter**)
-- Служба беспроводной локальной сети (**беспроводная**сеть)
+- Служба беспроводной локальной сети (**беспроводная** сеть)
 - Средство просмотра XPS (**XPS-Viewer**)

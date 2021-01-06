@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: de3dc14b-164a-49f1-8a57-b9e788046c23
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: f73d525583dd46d69b1a8f0b8120e0470112542f
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: cc982a6731d8a094eccca7f42aba655c6ed8fe4b
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87969501"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97945530"
 ---
 # <a name="dns-zone-management"></a>Управление зоной DNS
 

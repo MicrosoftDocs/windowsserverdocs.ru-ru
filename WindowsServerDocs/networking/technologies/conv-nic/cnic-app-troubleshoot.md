@@ -6,12 +6,13 @@ ms.assetid: 0bc6746f-2adb-43d8-a503-52f473833164
 manager: brianlic
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: a4d62be747859c84247b4afaa9e5a9276c072ea0
-ms.sourcegitcommit: 8e330f9066097451cd40e840d5f5c3317cbc16c2
+ms.date: 12/18/2020
+ms.openlocfilehash: 652c945a4702e851cdfec382ebe31cd2bd7ea148
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "97697023"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97945640"
 ---
 # <a name="troubleshooting-converged-nic-configurations"></a>Устранение неполадок конфигураций Объединенных сетевых адаптеров
 

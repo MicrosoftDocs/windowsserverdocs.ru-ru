@@ -7,12 +7,13 @@ author: pronichkin
 ms.author: artemp
 ms.localizationpriority: medium
 ms.date: 12/18/2018
-ms.openlocfilehash: 2e4e7902a52378f29c4a0a48339618c279b7cc95
-ms.sourcegitcommit: 5f234fb15c1d0365b60e83a50bf953e317d6239c
+ms.topic: how-to
+ms.openlocfilehash: 302492077409e72a093d1328f2e42c3dab478f05
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97879713"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97944020"
 ---
 # <a name="administer-a-server-core-server"></a>Администрирование сервера Server Core
 

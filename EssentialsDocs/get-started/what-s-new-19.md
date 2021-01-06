@@ -6,12 +6,13 @@ ms.assetid: affff774-5fa6-4944-887a-9bfde05f6a3f
 ms.author: lizross
 author: eross-msft
 manager: mtillman
-ms.openlocfilehash: 2600e97a8561c76d6c51980104eec4b0476c3d9a
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.date: 09/09/2020
+ms.openlocfilehash: deeead55a45e220b5bebad11c92edd6625f83906
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89624165"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97944140"
 ---
 # <a name="whats-new-in-windows-server-2019-essentials"></a>Что нового в Windows Server 2019 Essentials
 
