@@ -1,18 +1,18 @@
 ---
 title: Установка компонента BranchCache и настройка сервера размещенного кэша с использованием точки подключения службы
-description: Это краткое описание содержит инструкции по развертыванию BranchCache в режиме размещенного кэша на компьютерах под управлением Windows Server 2016 и Windows 10.
+description: Узнайте, как установить функцию BranchCache на сервере размещенного кэша, HCS1 и настроить сервер для регистрации SCP в AD DS.
 manager: brianlic
 ms.topic: article
 ms.assetid: 9adf420b-5a58-4e59-9906-71bd58f757fd
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: 4a059cad3bc3faf03882030528d85764eb13959d
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: bfee053492e9c28869ec39cc75bdd8d0c376c256
+ms.sourcegitcommit: 605a9b46b74b2c7a9116e631e902467ea02a6e70
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97949500"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97965566"
 ---
 # <a name="install-the-branchcache-feature-and-configure-the-hosted-cache-server-by-service-connection-point"></a>Установка компонента BranchCache и настройка сервера размещенного кэша с использованием точки подключения службы
 

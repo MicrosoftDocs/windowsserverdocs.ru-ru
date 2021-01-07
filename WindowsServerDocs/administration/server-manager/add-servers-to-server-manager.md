@@ -1,6 +1,6 @@
 ---
 title: Add Servers to Server Manager
-description: Диспетчер серверов
+description: Узнайте, как добавить серверы в пул серверов диспетчер сервера.
 ms.topic: article
 ms.assetid: aab895f2-fe4d-4408-b66b-cdeadbd8969e
 ms.author: lizross
@@ -8,12 +8,12 @@ author: eross-msft
 manager: mtillman
 ms.localizationpriority: medium
 ms.date: 02/01/2018
-ms.openlocfilehash: f8c3a2088533924f38b49454ab6f810c7cc9aa2e
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: bca7f9025822854ffb7110d3c7a4999f79759861
+ms.sourcegitcommit: 605a9b46b74b2c7a9116e631e902467ea02a6e70
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89628477"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97965746"
 ---
 # <a name="add-servers-to-server-manager"></a>Add Servers to Server Manager
 
@@ -39,7 +39,7 @@ ms.locfileid: "89628477"
 ## <a name="provide-credentials-with-the-manage-as-command"></a><a name=BKMK_creds></a>Предоставление учетных данных с помощью команды Manage As
 При добавлении удаленных серверов в диспетчер серверов некоторые из добавленных серверов могут требовать учетные данные другой учетной записи пользователя для доступа к ним или управления ими. Чтобы указать учетные данные для управляемого сервера, отличные от используемых для входа на компьютер, на котором работает диспетчер серверов, воспользуйтесь командой **Manage As** после добавления сервера в диспетчер серверов, которую можно вызвать, щелкнув правой кнопкой мыши запись для управляемого сервера в плитке **Серверы** домашней страницы роли или группы. Если щелкнуть команду **Manage As**, откроется диалоговое окно **Безопасность Windows**, в котором можно ввести имя пользователя, имеющего права доступа на управляемом сервере, в одном из следующих форматов.
 
--   *User name*
+-   *Имя пользователя*
 
 -   *Имя пользователя*@example.domain.com
 

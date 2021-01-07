@@ -1,17 +1,17 @@
 ---
 title: Подготовка к миграции изолированного AD FS сервера федерации
-description: Содержит сведения о готовности к миграции изолированного AD FS сервера на Windows Server 2012.
+description: Узнайте, как экспортировать и создать резервную копию данных конфигурации AD FS с этого сервера.
 author: billmath
 ms.author: billmath
 manager: femila
 ms.date: 06/28/2017
 ms.topic: article
-ms.openlocfilehash: a29b9246b32088ce8dcb63cf342c0fd41c912bc5
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 9f48972613e08566adbf2d45beeda315e5bc9862
+ms.sourcegitcommit: 605a9b46b74b2c7a9116e631e902467ea02a6e70
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87940633"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97965646"
 ---
 #  <a name="prepare-to-migrate-a-stand-alone-ad-fs-federation-server-or-a-single-node-ad-fs-farm"></a>Подготовка к миграции изолированного сервера федерации AD FS или фермы AD FS с одним узлом
 

@@ -1,18 +1,18 @@
 ---
 title: Импорт пакетов данных на сервере размещенного кэша (необязательно)
-description: Это краткое описание содержит инструкции по развертыванию BranchCache в режиме размещенного кэша на компьютерах под управлением Windows Server 2016 и Windows 10.
+description: Узнайте, как импортировать пакеты данных и загрузить содержимое на серверы размещенного кэша.
 manager: brianlic
 ms.topic: article
 ms.assetid: d6159e91-f77c-42ec-9180-14bbb230ad17
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: 8812c3008c2563fb8b436740d9fc0116c87c0154
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 1c0626181ebdca7d6e78bb429a8d127089ad4446
+ms.sourcegitcommit: 605a9b46b74b2c7a9116e631e902467ea02a6e70
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97950220"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97965119"
 ---
 # <a name="import-data-packages-on-the-hosted-cache-server-optional"></a>Импорт пакетов данных на сервере размещенного кэша \( необязательно\)
 

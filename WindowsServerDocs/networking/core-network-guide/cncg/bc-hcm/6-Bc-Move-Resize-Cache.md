@@ -1,18 +1,18 @@
 ---
 title: Перемещение и изменение размеров размещенного кэша (необязательно)
-description: Это краткое описание содержит инструкции по развертыванию BranchCache в режиме размещенного кэша на компьютерах под управлением Windows Server 2016 и Windows 10.
+description: Узнайте, как переместить размещенный кэш на нужный диск и в папку, а также указать объем места на диске, который сервер размещенного кэша может использовать для размещенного кэша.
 manager: brianlic
 ms.topic: article
 ms.assetid: bb0eb349-914d-4596-9140-d3aae7597d55
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: 276ab47bc6f4f906aaeafc7779c4e2afdb80b260
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 426a38b0dfb37d6898f8ede9337f912998ec2158
+ms.sourcegitcommit: 605a9b46b74b2c7a9116e631e902467ea02a6e70
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97947890"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97965556"
 ---
 # <a name="move-and-resize-the-hosted-cache-optional"></a>Перемещение и изменение размера размещенного кэша \( необязательно\)
 
@@ -37,7 +37,7 @@ ms.locfileid: "97947890"
     Set-BCCache -Path C:\datacache –MoveTo D:\datacache
     ```
 
-3.  Введите следующую команду, чтобы изменить размер размещенного кэша — в частности кэш типа " \- локальный компьютер". Нажмите клавишу ВВОД.
+3.  Введите следующую команду, чтобы изменить размер размещенного кэша — в частности кэш данных \- на локальном компьютере. Нажмите клавишу ВВОД.
 
     > [!IMPORTANT]
     > Перед выполнением следующей команды замените значения параметров, такие как \- процент, значениями, подходящими для вашего развертывания.

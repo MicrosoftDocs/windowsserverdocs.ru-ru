@@ -1,21 +1,21 @@
 ---
 title: Проверка перехода AD FS 2,0 на Windows Server 2012 R2
-description: Содержит сведения о миграции AD FS Server на Windows Server 2012 R2.
+description: Узнайте, как проверить работоспособность серверов федерации в ферме. то есть любой клиент в той же сети может получить доступ к серверам федерации.
 author: billmath
 ms.author: billmath
 manager: femila
 ms.date: 07/10/2017
 ms.topic: article
-ms.openlocfilehash: 35216baafefc5b304e1fc27b48f99b3afcde32fc
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 59637d2d6ff0fe6e3aca1162831ba6b1959dd882
+ms.sourcegitcommit: 605a9b46b74b2c7a9116e631e902467ea02a6e70
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87940451"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97965636"
 ---
 # <a name="verify-the-ad-fs-20-migration-to-windows-server-2012-r2"></a>Проверка перехода AD FS 2,0 на Windows Server 2012 R2
 
-После того как вы выполните ту же миграцию сервера Active Directory служба федерации (AD FS) на Windows Server 2012 R2, можно использовать следующую процедуру, чтобы убедиться в работоспособности серверов федерации в ферме. то есть любой клиент в той же сети может получить доступ к серверам федертатион.
+После того как вы выполните ту же миграцию сервера Active Directory служба федерации (AD FS) на Windows Server 2012 R2, можно использовать следующую процедуру, чтобы убедиться в работоспособности серверов федерации в ферме. то есть любой клиент в той же сети может получить доступ к серверам федерации.
 
 Минимальным требованием для выполнения этой процедуры является членство в одной из следующих групп: **Пользователи**, **Операторы архива**, **Опытные пользователи**, **Администраторы**, — или эквивалентной группе на локальном компьютере.
 

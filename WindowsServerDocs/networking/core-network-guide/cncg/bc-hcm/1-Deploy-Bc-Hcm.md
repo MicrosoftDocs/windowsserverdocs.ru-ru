@@ -1,18 +1,18 @@
 ---
 title: Развертывание режима размещенного кэша BranchCache
-description: Это краткое описание содержит инструкции по развертыванию BranchCache в режиме размещенного кэша на компьютерах под управлением Windows Server 2016 и Windows 10.
+description: Узнайте, как выполнить сборку в основной сети, предоставив инструкции по развертыванию BranchCache в режиме размещенного кэша в одном или нескольких филиалах с Read-Only контроллером домена, где клиентские компьютеры работают под управлением Windows 10, Windows 8.1 или Windows 8 и присоединяются к домену.
 manager: brianlic
 ms.topic: article
 ms.assetid: 4235231c-4732-4ea9-9330-2a8c8a616d39
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: e9fe6c660c1f5d173bc6d8292a370f8d18979e24
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 51d8b27d77ccc47d4d7ad1a460da88f6be8339b9
+ms.sourcegitcommit: 605a9b46b74b2c7a9116e631e902467ea02a6e70
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97949540"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97965626"
 ---
 # <a name="deploy-branchcache-hosted-cache-mode"></a>Развертывание режима размещенного кэша BranchCache
 

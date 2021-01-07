@@ -1,18 +1,18 @@
 ---
 title: Настройка удаленного управления в диспетчер сервера
-description: Диспетчер серверов
+description: Узнайте, как добавить сервер в пул серверов диспетчер сервера для выполнения задач управления на удаленных серверах.
 ms.topic: article
 ms.assetid: 509182ed-c37d-4b81-84bc-aee43d006873
 ms.author: lizross
 author: eross-msft
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 6f709a30a571a43e6c299dabbfa006c12660fb92
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 71df577f4d1e487204ff25d66c9d3155bc1b9e67
+ms.sourcegitcommit: 605a9b46b74b2c7a9116e631e902467ea02a6e70
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89628352"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97965736"
 ---
 # <a name="configure-remote-management-in-server-manager"></a>Настройка удаленного управления в диспетчер сервера
 
@@ -27,7 +27,7 @@ ms.locfileid: "89628352"
 |Операционная система|Необходимое программное обеспечение|Управляемость|
 |----------|-----------|---------|
 | Windows Server 2012 R2 или Windows Server 2012 |-   [.NET Framework 4,6](https://www.microsoft.com/download/details.aspx?id=45497)<br />-   [Windows Management Framework 5,0](https://go.microsoft.com/fwlink/?LinkID=395058). В Windows Server 2012 R2, Windows Server 2012 и Windows Server 2008 R2 поставщики инструментарий управления Windows (WMI) загрузить обновления для пакета управления Microsoft Management Framework 5,0 (WMI). Обновленные поставщики WMI позволяют диспетчер сервера собираются сведения о ролях и компонентах, установленных на управляемых серверах. До применения обновления серверы, работающие под управлением Windows Server 2012 R2, Windows Server 2012 или Windows Server 2008 R2, имеют состояние управляемости **недоступно**.<br />— Обновление для повышения производительности, связанное с [статьей базы знаний 2682011](https://go.microsoft.com/fwlink/p/?LinkID=245487) , больше не требуется на серверах под управлением windows Server 2012 R2 или windows Server 2012.||
-| Windows Server 2008 R2 |-   [.NET Framework 4,5](https://www.microsoft.com/download/details.aspx?id=30653)<br />-   [Windows Management Framework 4,0](https://go.microsoft.com/fwlink/?LinkId=293881). Windows Management Framework 4,0 downloads Package Updates инструментарий управления Windows (WMI) (WMI) providers in Windows Server 2008 R2. Обновленные поставщики WMI позволяют диспетчер сервера собираются сведения о ролях и компонентах, установленных на управляемых серверах. До применения обновления серверы, работающие под управлением Windows Server 2008 R2, имеют состояние управляемости **недоступно**.<br />— Обновление производительности, связанное с [статьей базы знаний 2682011](https://go.microsoft.com/fwlink/p/?LinkID=245487) , позволяет диспетчер сервера собираются данные производительности с Windows Server 2008 R2.||
+| Windows Server 2008 R2 |-   [.NET Framework 4,5](https://www.microsoft.com/download/details.aspx?id=30653)<br />-   [Windows Management Framework 4,0](https://go.microsoft.com/fwlink/?LinkId=293881). Windows Management Framework 4,0 downloads Package Updates инструментарий управления Windows (WMI) (WMI) providers in Windows Server 2008 R2. Обновленные поставщики WMI позволяют диспетчер сервера собираются сведения о ролях и компонентах, установленных на управляемых серверах. До применения обновления серверы, работающие под управлением Windows Server 2008 R2, имеют состояние управляемости **недоступно**.<br />— Обновление производительности, связанное с [статьей базы знаний 2682011](https://go.microsoft.com/fwlink/p/?LinkID=245487) , позволяет диспетчер сервера собираются данные производительности с Windows Server 2008 R2.||
 | Windows Server 2008 |-   [.NET Framework 4](https://www.microsoft.com/download/en/details.aspx?id=17718)<br />-   [Windows Management Framework 3,0](https://go.microsoft.com/fwlink/p/?LinkID=229019) Windows Management Framework 3,0 downloads Package Updates инструментарий управления Windows (WMI) (WMI) providers in Windows Server 2008. Обновленные поставщики WMI позволяют диспетчер сервера собираются сведения о ролях и компонентах, установленных на управляемых серверах. Пока обновление не будет применено, серверы, работающие под управлением Windows Server 2008, имеют состояние управляемости **недоступно. Проверьте более ранние версии запуска Windows Management Framework 3,0**.<br />— Обновление производительности, связанное с [статьей базы знаний 2682011](https://go.microsoft.com/fwlink/p/?LinkID=245487) , позволяет диспетчер сервера собираются данные производительности с Windows Server 2008.||
 
 подробные сведения о добавлении серверов в рабочих группах для управления и управления удаленными серверами с компьютера рабочей группы, на котором работает диспетчер сервера, см. [в разделе Добавление серверов в Диспетчер сервера](add-servers-to-server-manager.md).
@@ -119,7 +119,7 @@ ms.locfileid: "89628352"
 
     -   В области **Свойства** страницы **локальный сервер** в Диспетчер сервера щелкните значение гипертекст для свойства **Брандмауэр Windows** , а затем щелкните **Дополнительные параметры**.
 
-    -   На **начальном** экране введите **WF. msc**и щелкните плитку оснастки, если она отображается в результатах **приложения** .
+    -   На **начальном** экране введите **WF. msc** и щелкните плитку оснастки, если она отображается в результатах **приложения** .
 
 2.  В древовидном представлении выберите **Правила для входящих подключений**.
 
@@ -141,9 +141,9 @@ ms.locfileid: "89628352"
 
 1.  Выполните одно из следующих действий, чтобы открыть редактор локальных групповая политика.
 
-    -   На сервере под Windows Server 2016, Windows Server 2012 R2 или Windows Server 2012 на **начальном** экране введите **gpedit. msc**и щелкните плитку **gpedit** при отображении.
+    -   На сервере под Windows Server 2016, Windows Server 2012 R2 или Windows Server 2012 на **начальном** экране введите **gpedit. msc** и щелкните плитку **gpedit** при отображении.
 
-    -   На сервере под управлением Windows Server 2008 R2 или Windows Server 2008 в диалоговом окне **выполнить** введите **gpedit. msc**и нажмите клавишу **Ввод**.
+    -   На сервере под управлением Windows Server 2008 R2 или Windows Server 2008 в диалоговом окне **выполнить** введите **gpedit. msc** и нажмите клавишу **Ввод**.
 
 2.  Откройте окно **Конфигурация компьютера \ административные шаблоны \ компоненты Windows \ служба удаленного управления (WinRM) \винрм**.
 
@@ -179,7 +179,7 @@ ms.locfileid: "89628352"
 
 Номер порта по умолчанию для связи WinRM с удаленным компьютером — 5985.
 
-чтобы получить дополнительные сведения о настройке параметров прослушивателя WinRM, в командной строке введите **winrm help config**и нажмите клавишу ВВОД.
+чтобы получить дополнительные сведения о настройке параметров прослушивателя WinRM, в командной строке введите **winrm help config** и нажмите клавишу ВВОД.
 
 ## <a name="see-also"></a>См. также:
 [Добавление серверов в Диспетчер сервера](add-servers-to-server-manager.md) 

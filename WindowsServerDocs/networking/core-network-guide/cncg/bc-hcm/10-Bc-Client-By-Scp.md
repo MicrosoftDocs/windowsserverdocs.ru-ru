@@ -1,18 +1,18 @@
 ---
 title: Настройка автоматического обнаружения размещенного кэша клиентом с использованием точки подключения служб
-description: Это краткое описание содержит инструкции по развертыванию BranchCache в режиме размещенного кэша на компьютерах под управлением Windows Server 2016 и Windows 10.
+description: Узнайте, как использовать групповая политика для включения и настройки режима кэширования службы BranchCache на компьютерах, присоединенных к домену, на которых выполняются следующие операционные системы Windows, поддерживающие BranchCache.
 manager: brianlic
 ms.topic: article
 ms.assetid: ea1c34fd-5a33-4228-9437-9bb3d44230eb
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: 05866d3984dcc8185aca6a40e9402455fb703095
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 00962ad02e78a577e72b4ffd081696b86bbb11b7
+ms.sourcegitcommit: 605a9b46b74b2c7a9116e631e902467ea02a6e70
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97947900"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97965616"
 ---
 #  <a name="configure-client-automatic-hosted-cache-discovery-by-service-connection-point"></a>Настройка автоматического обнаружения размещенного кэша клиентом с использованием точки подключения служб
 

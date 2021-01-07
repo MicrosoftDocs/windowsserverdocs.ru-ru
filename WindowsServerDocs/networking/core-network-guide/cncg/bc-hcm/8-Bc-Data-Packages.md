@@ -1,18 +1,18 @@
 ---
 title: Создание пакетов данных сервера содержимого для содержимого веб-сайтов и файлов (необязательно)
-description: Это краткое описание содержит инструкции по развертыванию BranchCache в режиме размещенного кэша на компьютерах под управлением Windows Server 2016 и Windows 10.
+description: Узнайте, как выполнить предварительное хэширование содержимого на веб-и файловых серверах, а затем создать пакеты данных для импорта на сервере размещенного кэша.
 manager: brianlic
 ms.topic: article
 ms.assetid: 31e8428f-a482-4734-be1b-213912e34825
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: e7b2ba5890eedb6da06977996a58cd67e529fd92
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 638fc98b0d3271918d5d88df9cedd5d33429ad29
+ms.sourcegitcommit: 605a9b46b74b2c7a9116e631e902467ea02a6e70
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97947870"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97965451"
 ---
 # <a name="create-content-server-data-packages-for-web-and-file-content-optional"></a>Создание пакетов данных сервера содержимого для содержимого веб-сайтов и файлов (необязательно)
 

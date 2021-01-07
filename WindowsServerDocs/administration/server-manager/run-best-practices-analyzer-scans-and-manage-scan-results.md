@@ -1,18 +1,18 @@
 ---
 title: Запуск анализатор соответствия рекомендациям сканирование и управление Results_1 сканирования
-description: Диспетчер серверов
+description: Узнайте, как запускать анализатор соответствия рекомендациям (BPA) при сканировании из диспетчер сервера, с помощью ГИП анализатора соответствия рекомендациям или с помощью командлетов в Windows PowerShell и о том, как управлять результатами проверки.
 ms.topic: article
 ms.assetid: 232f1c80-88ef-4a39-8014-14be788c2766
 ms.author: lizross
 author: eross-msft
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 8b8ef48e81daa9c673f42d43b2f95abadec619a8
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 0541a95ad2fd176ecad8565a66db303a4f609fbc
+ms.sourcegitcommit: 605a9b46b74b2c7a9116e631e902467ea02a6e70
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89627801"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97965069"
 ---
 # <a name="run-best-practices-analyzer-scans-and-manage-scan-results"></a>Запуск проверок анализатором соответствия рекомендациям и управление результатами проверок
 
@@ -94,7 +94,7 @@ ms.locfileid: "89627801"
 Используйте следующие процедуры для сканирования одной или нескольких ролей с помощью командлетов Windows PowerShell.
 
 > [!NOTE]
-> В процедурах данного раздела показаны не все командлеты и параметры анализатора соответствия рекомендациям. Чтобы получить дополнительные сведения об операциях BPA в Windows PowerShell, в сеансе Windows PowerShell введите **Get-Help***бпакмдлет***-Full**, где *бпакмдлет* может иметь одно из следующих значений. Разделы справки по командлетам BPA можно также найти в [техническом центре Windows Server](https://go.microsoft.com/fwlink/p/?LinkId=240177).
+> В процедурах данного раздела показаны не все командлеты и параметры анализатора соответствия рекомендациям. Чтобы получить дополнительные сведения об операциях BPA в Windows PowerShell, в сеансе Windows PowerShell введите **Get-Help**_бпакмдлет_*_-Full_*, где *бпакмдлет* может иметь одно из следующих значений. Разделы справки по командлетам BPA можно также найти в [техническом центре Windows Server](https://go.microsoft.com/fwlink/p/?LinkId=240177).
 
 -   **Get-Бпамодел**
 

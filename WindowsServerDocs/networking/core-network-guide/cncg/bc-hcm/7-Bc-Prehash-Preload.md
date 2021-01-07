@@ -1,18 +1,18 @@
 ---
 title: Предварительное хэширование и предварительная загрузка содержимого на сервере размещенного кэша (необязательно)
-description: Это краткое описание содержит инструкции по развертыванию BranchCache в режиме размещенного кэша на компьютерах под управлением Windows Server 2016 и Windows 10.
+description: Узнайте, как выполнить предварительное хэширование содержимого на серверах содержимого, добавить содержимое в пакеты данных, а затем загрузить содержимое на серверы размещенного кэша.
 manager: brianlic
 ms.topic: article
 ms.assetid: 7e79c66a-8555-4d8e-8691-d6c37377aab4
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: c9f33a53ac7af8a76d8f6d9b018668ebc8b23771
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 912b5066b5dc0b3cac9fb40c01f0904e6c63477e
+ms.sourcegitcommit: 605a9b46b74b2c7a9116e631e902467ea02a6e70
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97950230"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97965546"
 ---
 # <a name="prehash-and-preload-content-on-the-hosted-cache-server-optional"></a>Предварительное хэширование и загрузка содержимого на сервере размещенного кэша \( необязательно\)
 

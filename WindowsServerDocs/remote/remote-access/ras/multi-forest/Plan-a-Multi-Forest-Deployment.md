@@ -1,18 +1,18 @@
 ---
 title: Plan a Multi-Forest Deployment
-description: Этот раздел является частью руководств по развертыванию удаленного доступа в среде с несколькими лесами в Windows Server 2016.
+description: Сведения о шагах планирования, необходимых при настройке удаленного доступа в развертывании с несколькими лесами.
 manager: brianlic
 ms.topic: article
 ms.assetid: 8acc260f-d6d1-4d32-9e3a-1fd0b2a71586
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: 92e3abcb0d49f4f6d000cb487dbe43d6075bacd8
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 0d6be971cf65763d0b806ea230b13c0d6c2c26b2
+ms.sourcegitcommit: 605a9b46b74b2c7a9116e631e902467ea02a6e70
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97946960"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97965786"
 ---
 # <a name="plan-a-multi-forest-deployment"></a>Plan a Multi-Forest Deployment
 

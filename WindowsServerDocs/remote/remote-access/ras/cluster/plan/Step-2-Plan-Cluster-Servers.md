@@ -1,18 +1,18 @@
 ---
 title: Шаг 2. Планирование серверов кластера
-description: Этот раздел является частью руководств по развертыванию удаленного доступа в кластере в Windows Server 2016.
+description: Узнайте, как запланировать добавление дополнительных серверов в кластер.
 manager: brianlic
 ms.topic: article
 ms.assetid: 673c5bfb-b590-4932-8e54-ca0a466d90cc
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: cca4e4483875b5a9e8eaebc2b5983087ee8fbbc6
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: c0ec55b17f810964408d1a033a9c45bc99a71b45
+ms.sourcegitcommit: 605a9b46b74b2c7a9116e631e902467ea02a6e70
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97947760"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97965686"
 ---
 # <a name="step-2-plan-cluster-servers"></a>Шаг 2. Планирование серверов кластера
 

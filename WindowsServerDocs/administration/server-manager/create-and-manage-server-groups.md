@@ -1,18 +1,18 @@
 ---
 title: Create and Manage Server Groups
-description: Диспетчер серверов
+description: Узнайте, как создавать настраиваемые, определяемые пользователем группы серверов в диспетчер сервера в Windows Server.
 ms.topic: article
 ms.assetid: 9d5b1be8-49fd-4ff7-9580-e4ff21fe4b17
 ms.author: lizross
 author: eross-msft
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: b9afff5a5080487ee14759d27537b2ce1278f5e1
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: f1c62d0c7fba4dd23512ea5b3100dca9d099abb4
+ms.sourcegitcommit: 605a9b46b74b2c7a9116e631e902467ea02a6e70
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89628334"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97965199"
 ---
 # <a name="create-and-manage-server-groups"></a>Создание групп серверов и управление ими
 
@@ -31,7 +31,7 @@ ms.locfileid: "89628334"
 
 2.  В текстовом поле **Имя группы серверов** укажите понятное имя для вашей группы серверов, например **Серверы учета**.
 
-3.  Добавьте серверы в **выбранный** список из пула серверов или добавьте другие серверы в группу с помощью вкладок **Active Directory**, **DNS**или **Импорт** . Дополнительные сведения об использовании этих вкладок см. в разделе [Добавление серверов в Диспетчер сервера](add-servers-to-server-manager.md) в этом руководство.
+3.  Добавьте серверы в **выбранный** список из пула серверов или добавьте другие серверы в группу с помощью вкладок **Active Directory**, **DNS** или **Импорт** . Дополнительные сведения об использовании этих вкладок см. в разделе [Добавление серверов в Диспетчер сервера](add-servers-to-server-manager.md) в этом руководство.
 
 4.  После добавления серверов в группу нажмите кнопку **ОК**. Новая группа отобразится в области навигации диспетчер сервера в группе **все серверы** .
 

@@ -1,18 +1,18 @@
 ---
 title: Дополнительные ресурсы BranchCache
-description: Это краткое описание содержит инструкции по развертыванию BranchCache в режиме размещенного кэша на компьютерах под управлением Windows Server 2016 и Windows 10.
+description: Познакомьтесь с дополнительными сведениями о технологиях, которые обсуждаются в разделе BranchCache.
 manager: brianlic
 ms.topic: article
 ms.assetid: c7326f5b-87fb-4e57-9b77-72a5d0ab0444
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: e4492299f6b2925d532013ff9056cf1e12984654
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 117e3830b3a4e8bc7b0382c5e11a5e978b987cf8
+ms.sourcegitcommit: 605a9b46b74b2c7a9116e631e902467ea02a6e70
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97949530"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97965606"
 ---
 # <a name="branchcache-additional-resources"></a>Дополнительные ресурсы BranchCache
 

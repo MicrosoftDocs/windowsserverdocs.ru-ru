@@ -1,18 +1,18 @@
 ---
 title: Планирование развертывания режима размещенного кэша BranchCache
-description: Это краткое описание содержит инструкции по развертыванию BranchCache в режиме размещенного кэша на компьютерах под управлением Windows Server 2016 и Windows 10.
+description: Узнайте, как спланировать развертывание BranchCache в режиме размещенного кэша.
 manager: brianlic
 ms.topic: article
 ms.assetid: bc44a7db-f7a5-4e95-9d95-ab8d334e885f
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: 71b4988c488eca5c9cc371b2f3a7e4e5ecc2a145
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: a0dec974fab2f6e4aa112205c199f2a3b306ff05
+ms.sourcegitcommit: 605a9b46b74b2c7a9116e631e902467ea02a6e70
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97949510"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97965586"
 ---
 # <a name="branchcache-hosted-cache-mode-deployment-planning"></a>Планирование развертывания режима размещенного кэша BranchCache
 
