@@ -7,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 08/11/2017
 ms.topic: article
-ms.openlocfilehash: 5b840243a7f17dc65db5d3c0605c3e5a321352f2
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: 7272a25bac04ab864b44f234c69a1554c86d004a
+ms.sourcegitcommit: 528bdff90a7c797cdfc6839e5586f2cd5f0506b0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97049722"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97977339"
 ---
 # <a name="configure-on-premises-conditional-access-using-registered-devices"></a>Настройка локального условного доступа с помощью зарегистрированных устройств
 
@@ -49,7 +49,7 @@ ms.locfileid: "97049722"
 Чтобы проверить уровень схемы, выполните следующие действия.
 
 1.  Можно использовать ADSIEdit или LDP и подключиться к контексту именования схемы.
-2.  С помощью ADSIEdit правой кнопкой мыши щелкните "CN = Schema, CN = Configuration, DC = <domain> , DC = <com> и выберите пункт" Свойства ".  Релпаце домен и com-части с информацией о лесе.
+2.  С помощью ADSIEdit правой кнопкой мыши щелкните "CN = Schema, CN = Configuration, DC = <domain> , DC = <com> и выберите пункт" Свойства ".  Замените Domain и com-части сведениями о лесе.
 3.  В редакторе атрибутов выберите атрибут Обжектверсион, и он сообщит вам о своей версии.
 
 ![Редактирование ADSI](media/Configure-Device-Based-Conditional-Access-on-Premises/adsiedit.png)
@@ -82,13 +82,13 @@ Get-ADObject "cn=schema,cn=configuration,dc=domain,dc=local" -Property objectVer
 ### <a name="create-ad-objects-for-ad-fs-device-authentication"></a>Создание объектов AD для проверки подлинности устройств в AD FS
 Если в вашей ферме AD FS еще не настроена проверка подлинности устройств (это можно проверить в консоли управления AD FS в разделе "Служба" -> "Регистрация устройств"), выполните следующие действия, чтобы создать верные объекты и конфигурацию AD DS.
 
-![Регистрация устройства](media/Configure-Device-Based-Conditional-Access-on-Premises/device1.png)
+![Снимок экрана с экраном "Обзор регистрации устройств".](media/Configure-Device-Based-Conditional-Access-on-Premises/device1.png)
 
 >Примечание. для приведенных ниже команд требуются средства администрирования Active Directory, поэтому если сервер федерации не является контроллером домена, сначала установите средства, используя шаг 1 ниже.  В противном случае можно пропустить этот шаг.
 
 1.  Запустите мастер **добавления ролей и компонентов** и выберите компонент **Средства удаленного администрирования сервер** -> **Средства администрирования ролей** -> **Средства AD DS и AD LDS**, а затем выберите **Модуль Active Directory для Windows PowerShell** и **Средства AD DS**.
 
-![Регистрация устройства](media/Configure-Device-Based-Conditional-Access-on-Premises/device2.png)
+![Снимок экрана, на котором выделены модуль Active Directory для Windows PowerShell и параметры средств AD DS.](media/Configure-Device-Based-Conditional-Access-on-Premises/device2.png)
 
 2. На сервере-источнике AD FS Войдите в систему как AD DS пользователя с правами администратора предприятия и откройте командную строку PowerShell с повышенными привилегиями.  Затем выполните следующие команды PowerShell:
 
@@ -98,7 +98,7 @@ Get-ADObject "cn=schema,cn=configuration,dc=domain,dc=local" -Property objectVer
 
 >Примечание. Если служба AD FS настроена для использования учетной записи GMSA, введите имя учетной записи в формате "домаин\аккаунтнаме $".
 
-![Регистрация устройства](media/Configure-Device-Based-Conditional-Access-on-Premises/device3.png)
+![Снимок экрана, показывающий, как использовать перечисленные команды PowerShell.](media/Configure-Device-Based-Conditional-Access-on-Premises/device3.png)
 
 Указанная выше команда PSH создает следующие объекты:
 
@@ -107,11 +107,11 @@ Get-ADObject "cn=schema,cn=configuration,dc=domain,dc=local" -Property objectVer
 - Контейнер и объект службы регистрации устройств в разделе "Настройка" --> "Службы" --> "Конфигурация регистрации устройств"
 - Контейнер и объект DKM службы регистрации устройств в разделе "Настройка" --> "Службы" --> "Конфигурация регистрации устройств"
 
-![Регистрация устройства](media/Configure-Device-Based-Conditional-Access-on-Premises/device4.png)
+![Снимок экрана, показывающий ход создания объектов.](media/Configure-Device-Based-Conditional-Access-on-Premises/device4.png)
 
 4. После выполнения этой команды отобразится сообщение об успешном завершении.
 
-![Регистрация устройства](media/Configure-Device-Based-Conditional-Access-on-Premises/device5.png)
+![Снимок экрана, на котором показано успешное сообщение о завершении работы.](media/Configure-Device-Based-Conditional-Access-on-Premises/device5.png)
 
 ###        <a name="create-service-connection-point-scp-in-ad"></a>Создание точки подключения службы (SCP) в AD
 Если вы планируете использовать присоединение к домену Windows 10 (с автоматической регистрацией в Azure AD), как описано здесь, выполните следующие команды, чтобы создать точку подключения службы в AD DS
@@ -121,13 +121,13 @@ Get-ADObject "cn=schema,cn=configuration,dc=domain,dc=local" -Property objectVer
 
 >Примечание. при необходимости скопируйте файл Адсинкпреп. PSM1 с сервера Azure AD Connect.  Этот файл находится в каталоге Program Files\Microsoft Azure Active Directory Connect\AdPrep
 
-![Регистрация устройства](media/Configure-Device-Based-Conditional-Access-on-Premises/device6.png)
+![Снимок экрана, на котором показан путь к файлу Адсинкпреп.](media/Configure-Device-Based-Conditional-Access-on-Premises/device6.png)
 
 2. Укажите учетные данные глобального администратора Azure AD
 
     `PS C:>$aadAdminCred = Get-Credential`
 
-![Регистрация устройства](media/Configure-Device-Based-Conditional-Access-on-Premises/device7.png)
+![Снимок экрана, на котором показано, где можно указать учетные данные глобального администратора Azure AD.](media/Configure-Device-Based-Conditional-Access-on-Premises/device7.png)
 
 3. Выполните следующую команду PowerShell
 
@@ -219,7 +219,7 @@ Get-ADObject "cn=schema,cn=configuration,dc=domain,dc=local" -Property objectVer
     3. Изменить **енроллменттипе** на **0**
     4. Попробуйте зарегистрировать устройство или повторить регистрацию
 
-### <a name="related-articles"></a>Похожие статьи
+### <a name="related-articles"></a>Связанные статьи
 * [Защита доступа к Office 365 и другим приложениям, подключенным к Azure Active Directory](/azure/active-directory/conditional-access/overview)
 * [Политики условного доступа к службам Office 365 с устройств](/azure/active-directory/conditional-access/overview)
 * [Настройка локального условного доступа с помощью регистрации устройств в Azure Active Directory](/azure/active-directory/active-directory-device-registration-on-premises-setup)

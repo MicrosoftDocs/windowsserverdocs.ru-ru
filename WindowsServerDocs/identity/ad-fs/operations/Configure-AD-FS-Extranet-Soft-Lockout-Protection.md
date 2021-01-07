@@ -7,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 02/01/2019
 ms.topic: article
-ms.openlocfilehash: d64e30e3d59cf47ad3a8eb448ad5f856d28f1bea
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: 0a4abb4f402a653f8b32a104c2d31f71c6dda589
+ms.sourcegitcommit: 528bdff90a7c797cdfc6839e5586f2cd5f0506b0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97040142"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97977309"
 ---
 # <a name="configure-ad-fs-extranet-lockout-protection"></a>Настройка защиты блокировки экстрасети AD FS
 
@@ -66,7 +66,7 @@ Set-AdfsProperties -EnableExtranetLockout $true -ExtranetLockoutThreshold 15 -Ex
 Давайте рассмотрим два примера и посмотрим, как **badPwdCount** изменяется с течением времени на основе различных параметров и состояний. Предположим, что в обоих примерах **порог блокировки учетной записи** = 4 и **ExtranetLockoutThreshold** = 2. **Красная** стрелка представляет неудачную попытки ввода пароля, **Зеленая** стрелка — удачная попыток ввода пароля. В примере #1 **екстранетобсерватионвиндов** &gt; **сбрасывает счетчик блокировки учетной записи после**. В примере #2 **екстранетобсерватионвиндов** &lt; **сбрасывает счетчик блокировки учетной записи после**.
 
 ### <a name="example-1"></a>Пример 1
-![Example1](media/Configure-AD-FS-Extranet-Lockout-Protection/one.png)
+![Схема, показывающая, как badPwdCount изменяется с течением времени на основе различных параметров и состояний.](media/Configure-AD-FS-Extranet-Lockout-Protection/one.png)
 
 ### <a name="example-2"></a>Пример 2
 ![Example1](media/Configure-AD-FS-Extranet-Lockout-Protection/two.png)

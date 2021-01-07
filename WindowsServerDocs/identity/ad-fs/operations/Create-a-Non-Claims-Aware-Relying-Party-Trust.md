@@ -7,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 5238f93656c1d918122fc9cbb3a6b73232fce548
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: 7a784f63949fd198272ab2df8d11e1f7b990a473
+ms.sourcegitcommit: 528bdff90a7c797cdfc6839e5586f2cd5f0506b0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97048872"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97977359"
 ---
 # <a name="create-a-non-claims-aware-relying-party-trust"></a>Создание отношения доверия с проверяющей стороной, не поддерживающей утверждения
 
@@ -29,22 +29,22 @@ ms.locfileid: "97048872"
 1. В диспетчере сервера щелкните **Средства** и выберите **Управление AD FS**.
 
 2.  В разделе **действия** щелкните **Добавить отношение доверия с проверяющей стороной**.
-![Проверяющая сторона](media/Create-a-Relying-Party-Trust/addtrust1.PNG)
+![Снимок экрана, посвященный действию "Добавление отношения доверия с проверяющей стороной".](media/Create-a-Relying-Party-Trust/addtrust1.PNG)
 
 3.  На странице **приветствия** выберите параметр **не учитывать утверждения** и нажмите кнопку **запустить**.
-![Проверяющая сторона](media/Create-a-Non-Claims-Aware-Relying-Party-Trust/addnon1.PNG)
+![Снимок экрана, посвященный параметру, не поддерживающему утверждения.](media/Create-a-Non-Claims-Aware-Relying-Party-Trust/addnon1.PNG)
 
 4.  На странице **Specify Display Name** (Указание отображаемого имени) введите имя в поле **Отображаемое имя**. В поле **Примечания** введите описание для этого отношения доверия с проверяющей стороной и нажмите кнопку **Далее**.
-![Проверяющая сторона](media/Create-a-Non-Claims-Aware-Relying-Party-Trust/addnon2.PNG)
+![Снимок экрана, на котором показано, где указать имя отношения доверия с проверяющей стороной.](media/Create-a-Non-Claims-Aware-Relying-Party-Trust/addnon2.PNG)
 
 5. На странице **Настройка удостоверений** укажите один или несколько идентификаторов этой проверяющей стороны, нажмите кнопку **Добавить**, чтобы добавить их в список, а затем нажмите кнопку **Далее**.
-![Проверяющая сторона](media/Create-a-Non-Claims-Aware-Relying-Party-Trust/addnon3.PNG)
+![Снимок экрана, на котором показано, где указать один или несколько идентификаторов для отношения доверия с проверяющей стороной.](media/Create-a-Non-Claims-Aware-Relying-Party-Trust/addnon3.PNG)
 
 6.  На странице **Choose Access Control Policy** (Выбрать политику управления доступом) выберите политику и нажмите кнопку **Далее**.  Дополнительные сведения о политиках управления доступом см. [в разделе политики управления доступом в AD FS](Access-Control-Policies-in-AD-FS.md).
-![Проверяющая сторона](media/Create-a-Non-Claims-Aware-Relying-Party-Trust/addnon4.PNG)
+![Снимок экрана, на котором показано, где выбрать политику управления доступом для отношения доверия с проверяющей стороной.](media/Create-a-Non-Claims-Aware-Relying-Party-Trust/addnon4.PNG)
 
 7. На странице **Готовность для добавления отношения доверия** проверьте параметры, а затем нажмите кнопку **Далее**, чтобы сохранить сведения об отношениях доверия с проверяющей стороной.
-   ![Проверяющая сторона](media/Create-a-Non-Claims-Aware-Relying-Party-Trust/addnon5.PNG)
+   ![Снимок экрана, показывающий, как сохранить сведения о доверии проверяющей стороны.](media/Create-a-Non-Claims-Aware-Relying-Party-Trust/addnon5.PNG)
 
 8. На странице **Готово** нажмите кнопку **Закрыть**. После этого автоматически откроется диалоговое окно **Изменение правил утверждений**.
 ![Проверяющая сторона](media/Create-a-Non-Claims-Aware-Relying-Party-Trust/addnon6.PNG)

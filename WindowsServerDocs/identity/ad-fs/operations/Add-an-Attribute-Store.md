@@ -7,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 3672d80b89738b10bcd0e0ef186b33592d6b53e2
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: d35d56bf2a30e023fccd9ea6e5f47e5c4c949f10
+ms.sourcegitcommit: 528bdff90a7c797cdfc6839e5586f2cd5f0506b0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97044282"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97977409"
 ---
 # <a name="add-an-attribute-store"></a>Добавление хранилища атрибутов
 
@@ -29,7 +29,7 @@ ms.locfileid: "97044282"
 
 2.  В разделе **действия** щелкните **Добавить хранилище атрибутов**.
 
-![Добавить хранилище атрибутов](media/Add-an-Attribute-Store/addstore1.PNG)
+![Снимок экрана, который выделяет действие "добавить хранилище атрибутов".](media/Add-an-Attribute-Store/addstore1.PNG)
 
 3. В диалоговом окне **Добавление хранилища атрибутов** настройте следующие свойства для хранилища атрибутов, которое требуется добавить.
 
@@ -44,7 +44,7 @@ ms.locfileid: "97044282"
 
 ![Добавить хранилище атрибутов](media/Add-an-Attribute-Store/addstore2.PNG)
 
-4. Нажмите кнопку **ОК**.
+4. Нажмите кнопку **OK**.
 
 ## <a name="additional-references"></a>Дополнительная справка
 

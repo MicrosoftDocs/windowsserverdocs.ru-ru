@@ -7,12 +7,12 @@ ms.author: cosdar
 manager: eldenc
 ms.date: 03/10/2020
 ms.topic: article
-ms.openlocfilehash: 38ef41ac6cdb35efc72087ad73f08b04c1414c1a
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 8da7bc43d55a78af66f9e73575f7144fbc1a1709
+ms.sourcegitcommit: 528bdff90a7c797cdfc6839e5586f2cd5f0506b0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97948580"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97977329"
 ---
 # <a name="extending-volumes-in-storage-spaces-direct"></a>Расширение томов в локальных дисковых пространствах
 > Применяется к: Windows Server 2019, Windows Server 2016
@@ -48,7 +48,7 @@ ms.locfileid: "97948580"
 
 В локальных дисковых пространствах каждый том состоит из нескольких объектов в стеке: общего тома кластера (CSV), т. е. тома; раздела; диска, т. е. виртуального диска; одного или нескольких уровней хранилища (если применимо). Чтобы изменить размер тома, необходимо изменить размер нескольких из этих объектов.
 
-![volumes-in-smapi](media/resize-volumes/volumes-in-smapi.png)
+![Объекты с накоплением, для которых может потребоваться изменить размер](media/resize-volumes/volumes-in-smapi.png)
 
 Чтобы ознакомиться с ними, выполните командлет **Get-** с соответствующим существительным в PowerShell.
 
@@ -63,7 +63,7 @@ Get-VirtualDisk
 Например, вот как перейти от виртуального диска к его тому:
 
 ```PowerShell
-Get-VirtualDisk <FriendlyName> | Get-Disk | Get-Partition | Get-Volume
+Get-VirtualDisk [friendly_name] | Get-Disk | Get-Partition | Get-Volume
 ```
 
 ### <a name="step-1--resize-the-virtual-disk"></a>Шаг 1. Изменение размера виртуального диска
@@ -73,7 +73,7 @@ Get-VirtualDisk <FriendlyName> | Get-Disk | Get-Partition | Get-Volume
 Чтобы проверить, выполните следующий командлет:
 
 ```PowerShell
-Get-VirtualDisk <FriendlyName> | Get-StorageTier
+Get-VirtualDisk [friendly_name] | Get-StorageTier
 ```
 
 Если командлет ничего не возвращает, у виртуального диска нет уровней хранилища.
@@ -85,12 +85,12 @@ Get-VirtualDisk <FriendlyName> | Get-StorageTier
 Укажите новый размер в параметре **-Size**.
 
 ```PowerShell
-Get-VirtualDisk <FriendlyName> | Resize-VirtualDisk -Size <Size>
+Get-VirtualDisk [friendly_name] | Resize-VirtualDisk -Size [size]
 ```
 
 При изменении размера **VirtualDisk** также автоматически изменяется размер **Disk**.
 
-![Resize-VirtualDisk](media/resize-volumes/Resize-VirtualDisk.gif)
+![Анимация, демонстрирующая автоматическое изменение размера диска](media/resize-volumes/Resize-VirtualDisk.gif)
 
 #### <a name="with-storage-tiers"></a>С уровнями хранилища
 
@@ -99,13 +99,13 @@ Get-VirtualDisk <FriendlyName> | Resize-VirtualDisk -Size <Size>
 Получите имена уровней хранилища, проследив связи с виртуального диска.
 
 ```PowerShell
-Get-VirtualDisk <FriendlyName> | Get-StorageTier | Select FriendlyName
+Get-VirtualDisk [friendly_name] | Get-StorageTier | Select FriendlyName
 ```
 
 Затем укажите новый размер для каждого уровня в параметре **-Size**.
 
 ```PowerShell
-Get-StorageTier <FriendlyName> | Resize-StorageTier -Size <Size>
+Get-StorageTier [friendly_name] | Resize-StorageTier -Size [size]
 ```
 
 > [!TIP]
@@ -113,7 +113,7 @@ Get-StorageTier <FriendlyName> | Resize-StorageTier -Size <Size>
 
 При изменении размера **StorageTier** также автоматически изменяются размеры **VirtualDisk** и **Disk**.
 
-![Resize-StorageTier](media/resize-volumes/Resize-StorageTier.gif)
+![Анимация, демонстрирующая автоматическое изменение размера VirtualDisk и диска](media/resize-volumes/Resize-StorageTier.gif)
 
 ### <a name="step-2--resize-the-partition"></a>Шаг 2. Изменение размера раздела
 
@@ -123,7 +123,7 @@ Get-StorageTier <FriendlyName> | Resize-StorageTier -Size <Size>
 
 ```PowerShell
 # Choose virtual disk
-$VirtualDisk = Get-VirtualDisk <FriendlyName>
+$VirtualDisk = Get-VirtualDisk [friendly_name]
 
 # Get its partition
 $Partition = $VirtualDisk | Get-Disk | Get-Partition | Where PartitionNumber -Eq 2
@@ -134,9 +134,7 @@ $Partition | Resize-Partition -Size ($Partition | Get-PartitionSupportedSize).Si
 
 При изменении размера **Partition** также автоматически изменяются размеры **Volume** и **ClusterSharedVolume**.
 
-![Resize-Partition](media/resize-volumes/Resize-Partition.gif)
-
-Вот и все!
+![Анимация, демонстрирующая автоматическое изменение размера тома и Клустершаредволуме](media/resize-volumes/Resize-Partition.gif)
 
 > [!TIP]
 > Чтобы убедиться, что размер тома изменился, выполните командлет **Get-Volume**.

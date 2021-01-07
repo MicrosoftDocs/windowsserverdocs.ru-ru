@@ -7,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: bdf57eddd1ad76c5bf9217e9aab97cfef9332b61
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: 2890fe14ecd9a4e0b8375475fb740367a36dc01d
+ms.sourcegitcommit: 528bdff90a7c797cdfc6839e5586f2cd5f0506b0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97044302"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97977419"
 ---
 # <a name="add-a-claim-description"></a>Добавление описания утверждения
 
@@ -30,7 +30,7 @@ ms.locfileid: "97044302"
 1. В диспетчере сервера щелкните **Средства** и выберите **Управление AD FS**.
 
 2. Разверните узел **Служба** и справа щелкните **Добавить заявку описание**.
-   ![добавить описание утверждения](media/Add-a-Claim-Description/claimdesc1.png)
+   ![Снимок экрана, на котором показано добавление описания утверждения.](media/Add-a-Claim-Description/claimdesc1.png)
 
 3. В диалоговом окне Добавление описания утверждения в поле **Отображаемое имя** введите уникальное имя, идентифицирующее группу или роль для этого утверждения.
 
@@ -48,7 +48,7 @@ ms.locfileid: "97044302"
 - To publish this claim to make partners aware that this server can issue this claim, click **Publish this claim in federation metadata as a claim type that this Federation Service can send**.
 ~~~
 
-8. Нажмите кнопку **ОК**.
+8. Нажмите кнопку **OK**.
 
 ![добавить описание утверждения](media/Add-a-Claim-Description/claimdesc2.png)
 

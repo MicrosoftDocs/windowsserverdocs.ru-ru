@@ -7,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 04/24/2019
 ms.topic: article
-ms.openlocfilehash: 4d8313d5a086f2a64ea840da49faa9ca22e46466
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: 431f4cd79127758af49d451442d0a62d321abe1a
+ms.sourcegitcommit: 528bdff90a7c797cdfc6839e5586f2cd5f0506b0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97046622"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97977459"
 ---
 # <a name="ad-fs-rapid-restore-tool"></a>Средство ускоренного восстановления AD FS
 
@@ -77,7 +77,7 @@ import-module 'C:\Program Files (x86)\ADFS Rapid Recreation Tool\ADFSRapidRecrea
 
 Наборы параметров
 
-![Средство ускоренного восстановления AD FS](media/AD-FS-Rapid-Restore-Tool/parameter1.png)
+![Снимок экрана, на котором показаны наборы параметров, принимаемые командлетом.](media/AD-FS-Rapid-Restore-Tool/parameter1.png)
 
 ### <a name="detailed-description"></a>Подробное описание
 

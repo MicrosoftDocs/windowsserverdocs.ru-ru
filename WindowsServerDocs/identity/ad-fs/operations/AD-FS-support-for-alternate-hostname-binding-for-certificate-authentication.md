@@ -7,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 468e6934dc69ef2f6f83f052ad288860d7fed46e
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: c6d2ca57dd7ea48f501525c2e358341e9e12c354
+ms.sourcegitcommit: 528bdff90a7c797cdfc6839e5586f2cd5f0506b0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97046612"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97977439"
 ---
 # <a name="ad-fs-support-for-alternate-hostname-binding-for-certificate-authentication"></a>Поддержка привязки альтернативного имени узла для проверки подлинности сертификата в AD FS
 
@@ -25,9 +25,9 @@ ms.locfileid: "97046612"
 ## <a name="how-to-configure-alternate-host-name-binding-for-certificate-authentication"></a>Настройка альтернативной привязки имени узла для проверки подлинности сертификата
 Существует два способа добавления привязки имени альтернативного узла для проверки подлинности сертификата. Во-первых, при настройке новой фермы AD FS с AD FS для Windows Server 2016, если сертификат содержит альтернативное имя субъекта (SAN), он будет автоматически настроен для использования второго метода, упомянутого выше. То есть он автоматически настраивает два разных узла (sts.contoso.com и certauth.sts.contoso.com с одним и тем же портом). Если сертификат не содержит SAN, вы увидите предупреждение о том, что альтернативные имена субъектов сертификатов не поддерживают цертаус. *. См. снимки экрана ниже. В первой показана установка с сертификатом SAN, а второй — сертификатом, который не был.
 
-![альтернативная привязка имени узла](media/AD-FS-support-for-alternate-hostname-binding-for-certificate-authentication/ADFS_CA_1.png)
+![Снимок экрана, на котором показана установка, в которой сертификат имел сеть SAN.](media/AD-FS-support-for-alternate-hostname-binding-for-certificate-authentication/ADFS_CA_1.png)
 
-![альтернативная привязка имени узла](media/AD-FS-support-for-alternate-hostname-binding-for-certificate-authentication/ADFS_CA_2.png)
+![Снимок экрана, на котором показан сертификат без сети хранения данных.](media/AD-FS-support-for-alternate-hostname-binding-for-certificate-authentication/ADFS_CA_2.png)
 
 Кроме того, после развертывания AD FS в Windows Server 2016 можно использовать командлет PowerShell Set-Адфсалтернатетлсклиентбиндинг.
 
