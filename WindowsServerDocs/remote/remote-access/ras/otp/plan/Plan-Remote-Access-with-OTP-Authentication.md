@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: 762bc463-eead-46ac-8b90-32355743c27c
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: f7fa8e9074601222d35baecc7352f245f1ef198c
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: e4b171c628259abe59a6954ef9936b025f10c28e
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87969021"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97950280"
 ---
 # <a name="plan-remote-access-with-otp-authentication"></a>Планирование удаленного доступа с проверкой подлинности OTP
 

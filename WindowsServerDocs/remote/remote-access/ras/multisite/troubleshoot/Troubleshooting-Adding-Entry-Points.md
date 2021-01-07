@@ -1,17 +1,18 @@
 ---
 title: Устранение неполадок добавления точек входа
-description: Эта статья является частью руководств по развертыванию нескольких серверов удаленного доступа в многосайтовом развертывании в Windows Server 2016.
+description: Узнайте, как устранять неполадки, связанные с командой Add-DAEntryPoint.
 manager: brianlic
 ms.topic: article
 ms.assetid: dcc1037f-1a65-4497-99e6-0df9aef748a8
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: e502b6e91225f91cdeffd34444a90f9b164cd5e1
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: d4d9b9722342850b948bd00847fef11cc4b448b1
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87958512"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97950550"
 ---
 # <a name="troubleshooting-adding-entry-points"></a>Устранение неполадок добавления точек входа
 
@@ -98,7 +99,7 @@ ms.locfileid: "87958512"
 ## <a name="directaccess-or-vpn-already-installed"></a>Уже установлен DirectAccess или виртуальная частная сеть (VPN)
 **Произошла ошибка**. Обнаружена установка VPN на сервере <server_name>. Укажите другой сервер, на котором не установлен удаленный доступ, или удалите с этого сервера конфигурацию VPN.
 
-Или
+либо
 
 Удаленный доступ уже установлен на сервере <server_name>. Укажите сервер без DirectAccess или удалите с этого сервера существующую конфигурацию DirectAccess.
 

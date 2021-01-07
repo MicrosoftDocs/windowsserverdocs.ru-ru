@@ -1,17 +1,18 @@
 ---
 title: Диагностика проблем общего характера
-description: Эта статья является частью руководств по развертыванию нескольких серверов удаленного доступа в многосайтовом развертывании в Windows Server 2016.
+description: Узнайте, как устранять общие проблемы, связанные с удаленным доступом.
 manager: brianlic
 ms.topic: article
 ms.assetid: 354ae5e3-bae1-44f9-afd7-7eaba70f2346
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 911d12088acc5071e18e7e24000364d9fe539250
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: d0866ca88f109d6304fe7da4e424506c22defc52
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87958482"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97950530"
 ---
 # <a name="troubleshooting-general-issues"></a>Диагностика проблем общего характера
 
@@ -37,7 +38,7 @@ DirectAccess не может получить доступ к объекту GPO
 > [!NOTE]
 > Этот сценарий не происходит, если объект групповой политики сервера текущей точки входа недоступен.
 
-С помощью `Get-DAEntryPointDC` командлета можно получить список всех контроллеров домена, на которых хранятся объекты групповой политики сервера и `Get-DAMultiSite` в сочетании с `Get-RemoteAccess` для получения полного списка объектов групповой политики сервера в развертывании. Например:
+С помощью `Get-DAEntryPointDC` командлета можно получить список всех контроллеров домена, на которых хранятся объекты групповой политики сервера и `Get-DAMultiSite` в сочетании с `Get-RemoteAccess` для получения полного списка объектов групповой политики сервера в развертывании. Пример:
 
 ```
 $ServerGpos = Get-DAEntryPointDC | ForEach-Object {

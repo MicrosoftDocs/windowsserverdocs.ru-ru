@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: b12dd0e8-1d80-4d4b-bb45-586f19d17ef0
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 2b983933a7bc7fa6e91a77407698fc892c8a62e4
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: 4772097844992317e1549252b11cb614286518b1
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87958462"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97950520"
 ---
 # <a name="troubleshooting-setting-the-entry-point-domain-controller"></a>Устранение неполадок задания контроллера домена для точки входа
 
@@ -27,7 +28,7 @@ ms.locfileid: "87958462"
 ## <a name="remote-access-is-not-configured"></a>Удаленный доступ не настроен
 **Произошла ошибка**. Удаленный доступ не настроен на <server_name>. Укажите имя сервера, включенного в многосайтовое развертывание.
 
-Или
+либо
 
 Удаленный доступ не настроен на сервере <server_name>. Укажите компьютер с включенным DirectAccess.
 
@@ -59,7 +60,7 @@ ms.locfileid: "87958462"
 
 **Произошла ошибка**. Обязательные параметры не указаны. Введите имя точки входа или имя существующего контроллера домена.
 
-Или
+либо
 
 Для командлета `Set-DaEntryPointDC` указаны не все необходимые параметры.
 

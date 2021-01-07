@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: d268dc57-78f8-47ba-9a7a-a607e8b9225c
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 7558a431d2745866d03edbed1346b75604dc20ff
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.date: 08/07/2020
+ms.openlocfilehash: edefeec01e7091c6cb97c1303e2fd978a453e93d
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96866463"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97950400"
 ---
 # <a name="export-an-nps-configuration-for-import-on-another-server"></a>Экспорт конфигурации NPS для импорта на другом сервере
 
@@ -44,7 +45,7 @@ Export-NpsConfiguration -Path <filename>
 
 В следующей таблице перечислены параметры для командлета **Export-нпсконфигуратион** в Windows PowerShell. Параметры, выделенные жирным шрифтом, являются обязательными.
 
-|Параметр|Описание:|
+|Параметр|Описание|
 |---------|-----------|
 |Путь|Задает имя и расположение XML-файла, в который необходимо экспортировать конфигурацию NPS.|
 

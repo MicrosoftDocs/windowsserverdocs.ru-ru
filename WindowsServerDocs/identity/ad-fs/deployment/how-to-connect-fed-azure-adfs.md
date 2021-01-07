@@ -4,15 +4,15 @@ description: Из этого документа вы узнаете, как ра
 author: billmath
 manager: mtillman
 ms.assetid: 692a188c-badc-44aa-ba86-71c0e8074510
-ms.topic: get-started-article
+ms.topic: how-to
 ms.date: 10/28/2018
 ms.author: billmath
-ms.openlocfilehash: a077a76814cc5ed99d4a1c0eb6c23584b22363e1
-ms.sourcegitcommit: 5344adcf9c0462561a4f9d47d80afc1d095a5b13
+ms.openlocfilehash: 9fe31d3cfbed9b81706571c7bc578239453810c9
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90766757"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97950500"
 ---
 # <a name="deploying-active-directory-federation-services-in-azure"></a>Развертывание служб федерации Active Directory в Azure
 В службах федерации Active Directory (AD FS) представлены возможности упрощенной безопасной федерации удостоверений и единого входа. Федерация с Azure AD или O365 дает пользователям возможность выполнять проверку подлинности с использованием локальных учетных данных и получать доступ ко всем ресурсам в облаке. В связи с этим требуется высокодоступная инфраструктура AD FS, обеспечивающая доступ к ресурсам как в локальной, так и в облачной средах. С помощью развертывания AD FS в Azure можно достичь необходимого уровня доступности с минимальными усилиями.
@@ -275,8 +275,8 @@ ms.locfileid: "90766757"
 
 | Правило | Описание | Поток |
 |:--- |:--- |:---:|
-| AllowHTTPSFromDMZ |Разрешение взаимодействия с DMZ по протоколу HTTPS |Входящие |
-| DenyInternetOutbound |Нет доступа к Интернету |Исходящее |
+| AllowHTTPSFromDMZ |Разрешение взаимодействия с DMZ по протоколу HTTPS |Входящий трафик |
+| DenyInternetOutbound |Нет доступа к Интернету |Исходящий трафик |
 
 ![Правила доступа INT (входящий трафик)](./media/how-to-connect-fed-azure-adfs/nsg_int.png)
 
@@ -284,8 +284,8 @@ ms.locfileid: "90766757"
 
 | Правило | Описание | Поток |
 |:--- |:--- |:---:|
-| AllowHTTPSFromInternet |Разрешение обмена данными между DMZ и Интернетом по протоколу HTTPS |Входящие |
-| DenyInternetOutbound |Блокирование всего, кроме HTTPS-трафика, поступающего в Интернет |Исходящее |
+| AllowHTTPSFromInternet |Разрешение обмена данными между DMZ и Интернетом по протоколу HTTPS |Входящий трафик |
+| DenyInternetOutbound |Блокирование всего, кроме HTTPS-трафика, поступающего в Интернет |Исходящий трафик |
 
 ![Правила доступа EXT (входящий трафик)](./media/how-to-connect-fed-azure-adfs/nsg_dmz.png)
 
@@ -346,7 +346,7 @@ ms.locfileid: "90766757"
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 * [Группы доступности](https://aka.ms/Azure/Availability)
 * [Azure Load Balancer](/azure/load-balancer/load-balancer-overview)
-* [Внутренний балансировщик нагрузки](/azure/load-balancer/quickstart-load-balancer-standard-internal-powershell)
+* [Внутренняя Load Balancer](/azure/load-balancer/quickstart-load-balancer-standard-internal-powershell)
 * [Приступая к созданию балансировщика нагрузки для Интернета в диспетчере ресурсов с помощью PowerShell](/azure/load-balancer/quickstart-load-balancer-standard-public-powershell)
 * [Учетные записи хранения](https://aka.ms/Azure/Storage)
 * [Виртуальные сети Azure](/azure/virtual-network/virtual-networks-overview)

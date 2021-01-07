@@ -6,12 +6,13 @@ ms.author: lizross
 author: eross-msft
 manager: mtillman
 ms.date: 10/12/2016
-ms.openlocfilehash: 34a15b768d3143d7083ab62bb9aa537a2c8bdeb4
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.topic: article
+ms.openlocfilehash: 1ae8f97a981296f14ede5f00b46196ba4b5e2465
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89639793"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97950490"
 ---
 # <a name="customize-the-active-directory-administrative-center-navigation-pane"></a>Настройка области навигации центр администрирования Active Directory
 

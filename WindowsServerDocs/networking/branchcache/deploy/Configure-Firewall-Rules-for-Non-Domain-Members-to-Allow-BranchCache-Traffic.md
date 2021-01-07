@@ -2,16 +2,17 @@
 title: Настройка правил брандмауэра для элементов, не входящих в домен, для разрешения трафика BranchCache
 description: Узнайте, как настроить сторонние брандмауэры и настроить клиентский компьютер вручную, используя правила брандмауэра, позволяющие службе BranchCache работать в режиме распределенного кэша.
 manager: brianlic
-ms.topic: get-started-article
+ms.topic: how-to
 ms.assetid: da956be0-c92d-46ea-99eb-85e2bd67bf07
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: b52a0c212ba7f0d30097aef6c7bd65e6d900b336
-ms.sourcegitcommit: 029b1e19ce11160d5f988046e04a83e8ab5a60dc
+ms.date: 01/05/2021
+ms.openlocfilehash: e53601cf7c0a2cd4d88d440aea78843222881b6b
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97904239"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97950310"
 ---
 # <a name="configure-firewall-rules-for-non-domain-members-to-allow-branchcache-traffic"></a>Настройка правил брандмауэра для элементов, не входящих в домен, для разрешения трафика BranchCache
 

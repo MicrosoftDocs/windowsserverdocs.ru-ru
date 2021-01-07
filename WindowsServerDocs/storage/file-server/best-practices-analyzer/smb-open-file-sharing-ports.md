@@ -5,12 +5,13 @@ ms.date: 07/02/2012
 author: JasonGerend
 manager: elizapo
 ms.author: jgerend
-ms.openlocfilehash: ca4e8cb86e567786385da0449223b6282347909b
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.topic: article
+ms.openlocfilehash: acd64b9db1c329a66de887851db1d539f2fc4907
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97041062"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97950430"
 ---
 # <a name="smb-file-and-printer-sharing-ports-should-be-open"></a>SMB: необходимо открыть порты для совместного использования файлов и принтеров
 
@@ -42,7 +43,7 @@ ms.locfileid: "97041062"
 </tr>
 <tr class="even">
 <td><p><strong>Категория</strong></p></td>
-<td><p>Параметр Configuration</p></td>
+<td><p>Конфигурация</p></td>
 </tr>
 </tbody>
 </table>

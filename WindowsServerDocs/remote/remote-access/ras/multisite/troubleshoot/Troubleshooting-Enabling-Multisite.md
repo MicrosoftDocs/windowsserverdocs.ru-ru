@@ -1,17 +1,18 @@
 ---
 title: Диагностика подключения многосайтового развертывания
-description: Эта статья является частью руководств по развертыванию нескольких серверов удаленного доступа в многосайтовом развертывании в Windows Server 2016.
+description: Узнайте, как устранять проблемы, связанные с командой Enable-DAMultisite.
 manager: brianlic
 ms.topic: article
 ms.assetid: 570c81d6-c4f4-464c-bee9-0acbd4993584
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 97e33b08d84b4e1aa4a5cb17aca331456e0402d2
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: abbafdb86edb65efff63eda414baca37e16573fc
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87958492"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97950540"
 ---
 # <a name="troubleshooting-enabling-multisite"></a>Диагностика подключения многосайтового развертывания
 
@@ -134,7 +135,7 @@ DirectAccess не смог определить сайт Active Directory. На 
 Убедитесь, что сервер удаленного доступа подключен к контроллеру домена. Если подключение существует, проверьте, заблокирован ли файл registry.pol для других пользователей на контроллере домена. При необходимости завершите этот сеанс пользователя, чтобы разблокировать файл.
 
 ## <a name="internal-error-occurred"></a><a name="InternalServerError"></a>Обнаружена внутренняя ошибка
-**Произошла ошибка**. Внутренняя ошибка.
+**Произошла ошибка**. Произошла внутренняя ошибка.
 
 **Причина**
 

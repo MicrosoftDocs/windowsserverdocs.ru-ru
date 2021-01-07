@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: aaabdf3b-d926-48d9-9d01-358668da88ba
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: a258987c767054a4127324318778fd5acd6ac42e
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: 516e906edc9dc901911fcb94d79821a7dd24fc7c
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87950959"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97950360"
 ---
 # <a name="configuration-requirements"></a>Требования к конфигурации
 

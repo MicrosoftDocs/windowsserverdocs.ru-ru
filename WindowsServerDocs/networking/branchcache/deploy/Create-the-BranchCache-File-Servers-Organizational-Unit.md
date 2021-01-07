@@ -2,16 +2,17 @@
 title: Создание подразделения файловых серверов BranchCache
 description: Узнайте, как создать подразделение (OU) в домен Active Directory Services (AD DS) для файловых серверов BranchCache.
 manager: brianlic
-ms.topic: get-started-article
+ms.topic: how-to
 ms.assetid: 2cda192f-6b45-4e6c-88d9-70ca179ddb94
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: fd54492766ef157bb07e2ca3f9efbf4d644e60f6
-ms.sourcegitcommit: 029b1e19ce11160d5f988046e04a83e8ab5a60dc
+ms.date: 01/05/2021
+ms.openlocfilehash: ff436166eedb4a3214361267f1d508ebe3acc6e4
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97904859"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97950300"
 ---
 # <a name="create-the-branchcache-file-servers-organizational-unit"></a>Создание подразделения файловых серверов BranchCache
 

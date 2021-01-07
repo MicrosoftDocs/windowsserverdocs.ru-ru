@@ -6,12 +6,13 @@ ms.topic: article
 ms.assetid: eca02eeb-d92d-463e-aae0-1f7038ba26fe
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 2653d316d3407604b2d1034eb71aeae87bd6c112
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: 8c6898b6447e5d8c3a72653435028a7413fbb9c9
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87968941"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97950450"
 ---
 # <a name="step-3-plan-otp-certificate-deployment"></a>Шаг 3. Планирование развертывания сертификатов OTP
 

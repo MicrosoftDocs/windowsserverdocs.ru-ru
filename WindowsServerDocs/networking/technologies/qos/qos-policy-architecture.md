@@ -6,12 +6,13 @@ ms.assetid: 25097cb8-b9b1-41c9-b3c7-3610a032e0d8
 manager: brianlic
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: eca49b5b20e34aca9c5e65b1544f2308295d7445
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: d95ed99889eef110f45f5c672b7491d7bbe1cdcc
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87953870"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97950290"
 ---
 # <a name="qos-policy-architecture"></a>Архитектура политики качества обслуживания
 
@@ -37,7 +38,7 @@ ms.locfileid: "87953870"
 
 - **NDIS 6. x**. Стандартный интерфейс между сетевыми драйверами в режиме ядра и операционной системой Windows Server и клиентскими операционными системами. NDIS 6. x поддерживает упрощенные фильтры, которые представляют собой упрощенную модель драйвера для промежуточных драйверов NDIS и драйверы минипорта, обеспечивающие лучшую производительность.
 
-- **Интерфейс \( поставщика сети QoS NPI \) **. Интерфейс для драйверов режима ядра для взаимодействия с Pacer.sys.
+- **Интерфейс \( поставщика сети QoS NPI \)**. Интерфейс для драйверов режима ядра для взаимодействия с Pacer.sys.
 
 - **Pacer.sys**. Драйвер упрощенного фильтра NDIS 6. x, который управляет планированием пакетов для QoS на основе политик и трафиком приложений, использующих API-интерфейсы службы GQoS общего качества обслуживания \( \) и управления трафиком \( \) . Pacer.sys заменены Psched.sys в Windows Server 2003 и Windows XP. Pacer.sys устанавливается вместе с компонентом Планировщик пакетов QoS из свойств сетевого подключения или адаптера.
 
