@@ -101,6 +101,8 @@
 #### [Устранение неполадок на клиенте DHCP](../troubleshoot/troubleshoot-problems-on-dhcp-client.md)
 #### [Устранение неполадок на сервере DHCP](../troubleshoot/troubleshoot-problems-on-dhcp-server.md)
 
+## [Протокол расширенной проверки подлинности (EAP)](technologies/extensible-authentication-protocol/network-access.md) 
+
 ## [Высокопроизводительные сети](technologies/hpn/hpn-top.md)
 ### [Разгрузка сети и технологии оптимизации](technologies/hpn/network-offload-and-optimization.md)
 #### [Только программные компоненты и технологии](technologies/hpn/hpn-software-only-features.md)
