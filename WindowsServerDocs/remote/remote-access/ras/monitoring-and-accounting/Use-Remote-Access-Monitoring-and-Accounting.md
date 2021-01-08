@@ -1,18 +1,18 @@
 ---
 title: Мониторинг и учет удаленного доступа
-description: Эта статья является частью руководств по мониторингу удаленного доступа и учету в Windows Server 2016.
+description: Узнайте, как использовать возможности мониторинга удаленного доступа с помощью консоли управления DirectAccess и соответствующих командлетов Windows PowerShell.
 manager: brianlic
 ms.topic: article
 ms.assetid: 92519b49-0df4-43c1-9717-f13570644212
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: 314b6fd64b0fc4035bf402faeae447bc95a2cb68
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: eb78cfe5ce07add3e9d235b5a62f1cf12dc42f4b
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97942110"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98039744"
 ---
 # <a name="use-remote-access-monitoring-and-accounting"></a>Мониторинг и учет удаленного доступа
 

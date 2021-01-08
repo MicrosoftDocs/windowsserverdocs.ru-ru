@@ -1,18 +1,18 @@
 ---
 title: Шаг 4. Создание кластера удаленного доступа с балансировкой сетевой нагрузки
-description: Этот раздел является частью руководства по тестовой лаборатории. демонстрация DirectAccess в кластере с Windows NLB для Windows Server 2016
+description: Узнайте, как создать и протестировать кластер удаленного доступа с балансировкой сетевой нагрузки.
 manager: brianlic
 ms.topic: article
 ms.assetid: 509eaa08-c49d-448d-a71e-c1c45519ccd5
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: 01c4593bcd99c3e7e68a434f73fde74d5f01aafc
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: f81b5467180a0df9b522bfc8d156e0e2c4658711
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97946570"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98039344"
 ---
 # <a name="step-4-create-the-network-load-balanced-remote-access-cluster"></a>Шаг 4. Создание кластера удаленного доступа с балансировкой сетевой нагрузки
 
@@ -28,7 +28,7 @@ ms.locfileid: "97946570"
 
 3. Добавьте EDGE2 в кластер с балансировкой нагрузки. После включения балансировки нагрузки теперь можно добавить EDGE2 в кластер, чтобы обеспечить балансировку нагрузки и высокую доступность клиентских подключений DirectAccess.
 
-## <a name="prerequisites"></a>Предварительные требования
+## <a name="prerequisites"></a>Предварительные условия
 
 При создании этой тестовой лаборатории на виртуальных машинах необходимо включить подмену MAC-адресов в EDGE1 и EDGE2.
 

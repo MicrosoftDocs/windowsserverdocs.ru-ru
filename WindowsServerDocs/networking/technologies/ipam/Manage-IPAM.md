@@ -1,18 +1,18 @@
 ---
 title: Управление IPAM
-description: Этот раздел является частью руководства по управлению IP-адресами (IPAM) в Windows Server 2016.
+description: Сведения об администрировании и устранении неполадок для функции управления IP-адресами (IPAM) в Windows Server 2016.
 manager: brianlic
 ms.topic: article
 ms.assetid: c68905ef-d54f-4fc8-80ac-1006125db64f
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: f761dff3215ac14d6d56272514e78f3a700dffdf
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 5467868ac7affd2ea6a1ae4fc37c76fb9a9b1c96
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97945140"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98039514"
 ---
 # <a name="manage-ipam"></a>Управление IPAM
 

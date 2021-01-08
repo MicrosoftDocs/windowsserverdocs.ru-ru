@@ -1,18 +1,18 @@
 ---
 title: Обзор сценария лаборатории тестирования проверка подлинности OTP и RSA SecurID
-description: 'Эта статья является частью руководства по тестовой лаборатории: демонстрация DirectAccess с проверкой подлинности OTP и RSA SecurID для Windows Server 2016.'
+description: Дополнительные сведения о расширении конфигурации с одним сервером DirectAccess с помощью смешанных руководств по тестированию с IPv4 и IPv6 см. в этой статье, чтобы продемонстрировать конфигурацию удаленного доступа одноразового пароля (OTP).
 manager: brianlic
 ms.topic: article
 ms.assetid: ce584811-b209-48fe-ab2b-4c399bd0bd79
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: 282dc78a0849234177cdbaa15ab82ea9eb00fc27
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: fc6f8696401f2284da19a989153ab2b87c453757
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97947000"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98040094"
 ---
 # <a name="overview-of-the-test-lab-scenario-otp-authentication-and-rsa-securid"></a>Обзор сценария лаборатории тестирования проверка подлинности OTP и RSA SecurID
 

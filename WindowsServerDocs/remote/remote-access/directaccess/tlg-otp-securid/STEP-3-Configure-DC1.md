@@ -1,18 +1,18 @@
 ---
 title: Шаг 3. Настройка DC1
-description: 'Эта статья является частью руководства по тестовой лаборатории: демонстрация DirectAccess с проверкой подлинности OTP и RSA SecurID для Windows Server 2016.'
+description: Узнайте, как проверить, имеет ли Пользователь1 имя участника-пользователя, определенное на компьютере DC1.
 manager: brianlic
 ms.topic: article
 ms.assetid: 836a2a08-3d22-48d2-873e-80d7e57ebbd6
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: 642449e9c0c6524aa053cfb73c57b69507e5f4eb
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 7da9496d27b36fdcf9abedeb76f472c6a78a0866
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97950460"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98040064"
 ---
 # <a name="step-3-configure-dc1"></a>Шаг 3. Настройка DC1
 
@@ -26,7 +26,7 @@ DC1 выступает в качестве контроллера домена, 
 
 2.  На вкладке **учетная запись** убедитесь, что для **имени входа пользователя** задано значение Пользователь1. В противном случае введите **Пользователь1** в поле **имя входа пользователя** .
 
-3.  Нажмите кнопку **OK**. Закройте консоль **Active Directory — пользователи и компьютеры**.
+3.  Нажмите **OK**. Закройте консоль **Active Directory — пользователи и компьютеры**.
 
 
 

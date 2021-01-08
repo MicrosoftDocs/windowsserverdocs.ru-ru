@@ -1,18 +1,18 @@
 ---
 title: Развертывание сертификатов сервера для проводных и беспроводных развертываний 802.1 X
-description: Эта статья является частью руководств по развертыванию сертификатов сервера для беспроводных и беспроводных развертываний 802.1 X.
+description: Узнайте, как развертывать сертификаты сервера на серверах инфраструктуры удаленного доступа и сервера политики сети (NPS).
 manager: brianlic
 ms.topic: article
 ms.assetid: 0a39ecae-39cc-4f26-bd6f-b71ed02fc4ad
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: 844a64558d4822c26effddc4b3772ad0a191718c
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: b33f0a6aacb5b956691787816c362e845491a6cc
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97947850"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98038574"
 ---
 # <a name="deploy-server-certificates-for-8021x-wired-and-wireless-deployments"></a>Развертывание сертификатов сервера для проводных и беспроводных развертываний 802.1 X
 

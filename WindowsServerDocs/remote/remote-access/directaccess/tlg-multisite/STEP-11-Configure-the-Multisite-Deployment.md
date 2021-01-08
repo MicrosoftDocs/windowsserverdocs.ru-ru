@@ -1,18 +1,18 @@
 ---
 title: Шаг 11. Настройка многосайтового развертывания
-description: 'Этот раздел является частью руководства по лаборатории тестирования: демонстрация многосайтового развертывания DirectAccess для Windows Server 2016'
+description: Узнайте, как внести изменения в текущий мастер настройки удаленного доступа на EDGE1, включить многосайтовую функцию, а затем добавить 2-EDGE1 в качестве второй точки входа.
 manager: brianlic
 ms.topic: article
 ms.assetid: 8cbdeb1d-5f7c-4360-bcc1-ab40d3cd8040
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: 340029665915dd01766becd4bba9b01a66195969
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 7b70ab6e1f8f28fd0fb1a3a546188de1b4b37cbc
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97947020"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98039174"
 ---
 # <a name="step-11-configure-the-multisite-deployment"></a>Шаг 11. Настройка многосайтового развертывания
 

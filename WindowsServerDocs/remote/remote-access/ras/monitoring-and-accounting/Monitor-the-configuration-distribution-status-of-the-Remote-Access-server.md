@@ -1,18 +1,18 @@
 ---
 title: Мониторинг статуса распределения конфигурации сервера удаленного доступа
-description: Эта статья является частью руководств по мониторингу удаленного доступа и учету в Windows Server 2016.
+description: Узнайте, как использовать панель мониторинга для мониторинга состояния распространения конфигурации сервера удаленного доступа.
 manager: brianlic
 ms.topic: article
 ms.assetid: de285d13-9e54-4c46-88f0-607182e5e3dc
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: 2f38ed8abb4869cf7c9a917a27fdbfe37bf7d453
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 380fe2adece450be3b779d083b0f935cffce849b
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97947340"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98039854"
 ---
 # <a name="monitor-the-configuration-distribution-status-of-the-remote-access-server"></a>Мониторинг статуса распределения конфигурации сервера удаленного доступа
 

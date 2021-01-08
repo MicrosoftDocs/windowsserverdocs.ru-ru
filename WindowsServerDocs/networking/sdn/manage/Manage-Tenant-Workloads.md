@@ -1,18 +1,18 @@
 ---
 title: Управление рабочими нагрузками клиента
-description: Эта статья является частью программно-определяемого сетевого руководства по управлению рабочими нагрузками клиентов и виртуальными сетями в Windows Server 2016.
+description: Сведения о документации, которая позволяет управлять рабочими нагрузками клиента путем добавления виртуальных машин клиента (ВМ), использования сетевых виртуальных модулей, настройки программной балансировки нагрузки и т. д.
 manager: grcusanz
 ms.topic: article
 ms.assetid: 16359b15-a0e4-4f42-9d70-6ef0d851d219
 ms.author: anpaul
 author: AnirbanPaul
 ms.date: 08/26/2018
-ms.openlocfilehash: 4017184de9f74cd0c6d1277cc6b8161b8f3d6e98
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 2a571b6ed9a850f6e81d6cdddeb2f62c5eac1271
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87962237"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98038214"
 ---
 # <a name="manage-tenant-workloads"></a>Управление рабочими нагрузками клиента
 

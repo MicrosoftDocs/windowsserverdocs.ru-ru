@@ -1,18 +1,18 @@
 ---
 title: Пошаговое руководства по тестированию. Демонстрация многосайтового развертывания DirectAccess
-description: 'Этот раздел является частью руководства по лаборатории тестирования: демонстрация многосайтового развертывания DirectAccess для Windows Server 2016'
+description: Дополнительные сведения о расширении лаборатории тестирования см. в статье Настройка одиночного сервера DirectAccess с смешанными IPv4 и IPv6 для демонстрации удаленного доступа в сценарии с несколькими сайтами.
 manager: brianlic
 ms.topic: article
 ms.assetid: 3c98106c-67cc-406a-810e-f2e09f7e2c5e
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: ab74d3f7dd6f3f4069986b80ea749cbd901c1f2c
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 01357e5271932f3b8ad3140f34b3247c426f40e9
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97947940"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98040204"
 ---
 # <a name="test-lab-guide-demonstrate-a-directaccess-multisite-deployment"></a>Руководство по лаборатории тестирования: демонстрация многосайтового развертывания DirectAccess
 

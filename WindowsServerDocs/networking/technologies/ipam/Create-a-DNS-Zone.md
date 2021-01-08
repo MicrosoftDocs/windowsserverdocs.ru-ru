@@ -1,18 +1,18 @@
 ---
 title: Создание зоны DNS
-description: Этот раздел является частью руководства по управлению IP-адресами (IPAM) в Windows Server 2016.
+description: Узнайте, как создать зону DNS с помощью консоли клиента IPAM.
 manager: brianlic
 ms.topic: article
 ms.assetid: a030ff51-a815-4fc4-b26d-aae41c3e4ce5
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: 7131e1334330206dba31830d5966f878ee846bce
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 04e1e393a5f434ae171ed25da4324955bea4e595
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97949050"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98039694"
 ---
 # <a name="create-a-dns-zone"></a>Создание зоны DNS
 

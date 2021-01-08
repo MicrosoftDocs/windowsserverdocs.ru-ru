@@ -1,18 +1,18 @@
 ---
 title: Шаг 2. Планирование развертывания удаленного доступа
-description: Этот раздел является частью руководств по удаленному управлению клиентами DirectAccess в Windows Server 2016.
+description: Узнайте, как планировать параметры, которые будут использоваться мастером установки удаленного доступа.
 manager: brianlic
 ms.topic: article
 ms.assetid: cc9f02b9-8ddd-4cae-b397-a832996144dd
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: 070bc4968638d6fcb0d5e63350fdbed0323df05b
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 3e84e2e7df85a0eea08c3b6bd8cff6ca81be863a
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97947670"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98039914"
 ---
 # <a name="step-2-plan-the-remote-access-deployment"></a>Шаг 2. Планирование развертывания удаленного доступа
 

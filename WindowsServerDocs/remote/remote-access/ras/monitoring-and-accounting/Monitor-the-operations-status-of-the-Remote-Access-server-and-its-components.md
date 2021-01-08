@@ -1,18 +1,18 @@
 ---
 title: Мониторинг статуса работы сервера удаленного доступа и его компонентов
-description: Эта статья является частью руководств по мониторингу удаленного доступа и учету в Windows Server 2016.
+description: Узнайте, как использовать консоль управления на сервере удаленного доступа для отслеживания состояния операций.
 manager: brianlic
 ms.topic: article
 ms.assetid: 077a3a64-2fa3-4994-9711-ec1fbdc081ba
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: 6c3204aee3b10e8871de744ce7db70a0ca81cc0e
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 74d43d4f1feacdeb10eb5e1ee55462187cf628f5
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97947320"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98039784"
 ---
 # <a name="monitor-the-operations-status-of-the-remote-access-server-and-its-components"></a>Мониторинг статуса работы сервера удаленного доступа и его компонентов
 

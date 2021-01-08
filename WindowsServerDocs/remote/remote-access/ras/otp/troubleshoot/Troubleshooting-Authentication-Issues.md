@@ -1,18 +1,18 @@
 ---
 title: Диагностика проблем с проверкой подлинности
-description: Эта статья является частью руководств по развертыванию удаленного доступа с помощью проверки подлинности OTP в Windows Server 2016.
+description: Узнайте, как устранять проблемы, связанные с проблемами, которые могут возникнуть у пользователей при попытке подключиться к DirectAccess с помощью проверки подлинности OTP.
 manager: brianlic
 ms.topic: article
 ms.assetid: 71307757-f8f4-4f82-b8b3-ffd4fd8c5d6d
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: 9717b4c12579564d2c3e567fdce17ac105804217
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 814b48419c394bf42c81ff0f3b05e6442a06a122
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97947240"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98039684"
 ---
 # <a name="troubleshooting-authentication-issues"></a>Диагностика проблем с проверкой подлинности
 

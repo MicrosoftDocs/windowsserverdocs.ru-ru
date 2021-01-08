@@ -1,18 +1,18 @@
 ---
 title: Фильтрация представления записей ресурсов DNS
-description: Этот раздел является частью руководства по управлению IP-адресами (IPAM) в Windows Server 2016.
+description: Узнайте, как отфильтровать представление записей ресурсов DNS в консоли клиента IPAM.
 manager: brianlic
 ms.topic: article
 ms.assetid: 5b80294a-7325-476b-84eb-69f0d051e8b2
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: 528c3b8e86eb14c8bc5c08408f1326241b6da9fc
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: b17c071d78079933a04663e4fd1cd3528a9b86cb
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97945300"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98039564"
 ---
 # <a name="filter-the-view-of-dns-resource-records"></a>Фильтрация представления записей ресурсов DNS
 

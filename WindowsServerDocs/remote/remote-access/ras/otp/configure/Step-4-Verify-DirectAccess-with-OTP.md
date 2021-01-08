@@ -1,18 +1,18 @@
 ---
 title: Шаг 4. Проверка DirectAccess с OTP
-description: Эта статья является частью руководств по развертыванию удаленного доступа с помощью проверки подлинности OTP в Windows Server 2016.
+description: Узнайте, как убедиться, что вы правильно настроили DirectAccess с помощью развертывания OTP.
 manager: brianlic
 ms.topic: article
 ms.assetid: ed49a0a3-1c45-42e5-8f13-cad20c1c1d68
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: c122eb1113d7d4bb63c5e03c3b047b2d88d53be4
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 91bc9f3ebb03d45fa221673b88f2473aa774544e
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97946450"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98040194"
 ---
 # <a name="step-4-verify-directaccess-with-otp"></a>Шаг 4. Проверка DirectAccess с OTP
 

@@ -1,18 +1,18 @@
 ---
 title: Просмотр записей ресурсов DNS для зоны DNS
-description: Этот раздел является частью руководства по управлению IP-адресами (IPAM) в Windows Server 2016.
+description: Узнайте, как просматривать записи ресурсов DNS для зоны DNS в консоли клиента IPAM.
 manager: brianlic
 ms.topic: article
 ms.assetid: 375feefc-949e-47c3-9e61-35b79e021966
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: 63b05967e35ae878e5002d83ae2c0148f15c589b
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 518394310b43f9e1a4ee5be6313a462d41461ff2
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97948330"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98038204"
 ---
 # <a name="view-dns-resource-records-for-a-dns-zone"></a>Просмотр записей ресурсов DNS для зоны DNS
 

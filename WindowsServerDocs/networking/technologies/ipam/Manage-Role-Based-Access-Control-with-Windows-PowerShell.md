@@ -1,18 +1,18 @@
 ---
 title: Контроль управления доступом на основе ролей с помощью Windows PowerShell
-description: Этот раздел является частью руководства по управлению IP-адресами (IPAM) в Windows Server 2016.
+description: Узнайте, как использовать IPAM для управления доступом на основе ролей с помощью Windows PowerShell.
 manager: brianlic
 ms.topic: article
 ms.assetid: 4f13f78e-0114-4e41-9a28-82a4feccecfc
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: 9eda00bc769c32f707f37d2640a48bc7af03f030
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 21c5c10ffd6cebce2f6379d2adef21aacab500ad
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97948020"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98039494"
 ---
 # <a name="manage-role-based-access-control-with-windows-powershell"></a>Контроль управления доступом на основе ролей с помощью Windows PowerShell
 
@@ -25,7 +25,7 @@ ms.locfileid: "97948020"
 
 Новые команды Windows PowerShell IPAM предоставляют возможность извлечения и изменения областей доступа объектов DNS и DHCP. В следующей таблице показана правильная команда, используемая для каждого объекта IPAM.
 
-|Объект IPAM|Get-Help|Описание|
+|Объект IPAM|Команда|Описание|
 |---------------|-----------|---------------|
 |DNS-сервер|Get-IpamDnsServer|Этот командлет возвращает объект DNS-сервера в IPAM|
 |Зона DNS|Get-IpamDnsZone|Этот командлет возвращает объект зоны DNS в IPAM|

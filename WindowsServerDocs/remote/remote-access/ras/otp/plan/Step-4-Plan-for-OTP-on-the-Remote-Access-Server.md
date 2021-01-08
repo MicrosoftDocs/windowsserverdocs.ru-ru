@@ -1,18 +1,18 @@
 ---
 title: Шаг 4. Планирование OTP на сервере удаленного доступа
-description: Эта статья является частью руководств по развертыванию удаленного доступа с помощью проверки подлинности OTP в Windows Server 2016.
+description: Узнайте, как планировать параметры OTP клиента на сервере удаленного доступа.
 manager: brianlic
 ms.topic: article
 ms.assetid: 4b97b2fd-767a-45c1-a64e-5b3edd0c8a47
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: 682c6f7bd829ccdf208271196e5b0b27d660515a
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 2302ae8c1f288fa5da36dec2933fc9d398c45168
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97948210"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98040134"
 ---
 # <a name="step-4-plan-for-otp-on-the-remote-access-server"></a>Шаг 4. Планирование OTP на сервере удаленного доступа
 

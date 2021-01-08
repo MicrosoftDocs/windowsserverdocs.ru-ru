@@ -1,18 +1,18 @@
 ---
 title: Проверка регистрации сертификата сервера на сервере
-description: Эта статья является частью руководств по развертыванию сертификатов сервера для беспроводных и беспроводных развертываний 802.1 X.
+description: Узнайте, как убедиться, что серверы политики сети зарегистрировали сертификат сервера в центре сертификации.
 manager: brianlic
 ms.topic: article
 ms.assetid: bd80a018-5a30-47c3-89fc-aacb9f5ad298
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: 174100f1886492f70fb98abbfcab61e687418133
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 188e75ed58c3adc0249305d669acbb06d0b6c15d
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97947810"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98038344"
 ---
 # <a name="verify-server-enrollment-of-a-server-certificate"></a>Проверка регистрации сертификата сервера на сервере
 

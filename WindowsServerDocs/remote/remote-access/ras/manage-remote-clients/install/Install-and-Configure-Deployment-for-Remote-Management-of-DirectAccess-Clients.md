@@ -1,18 +1,18 @@
 ---
 title: Установка и Настройка развертывания для удаленного управления клиентами DirectAccess
-description: Этот раздел является частью руководств по удаленному управлению клиентами DirectAccess в Windows Server 2016.
+description: Сведения о шагах настройки, необходимых для развертывания одного сервера удаленного доступа, который можно использовать для удаленного управления клиентами DirectAccess.
 manager: brianlic
 ms.topic: article
 ms.assetid: 4adce101-1e30-439e-b78b-65b26479f33e
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: c1b4a7ef7c4e09f075b052c5442465f675e2190d
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 7702341d8b4b7569fdf4a8d62a13006d79f3773a
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97947730"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98040024"
 ---
 # <a name="install-and-configure-deployment-for-remote-management-of-directaccess-clients"></a>Установка и Настройка развертывания для удаленного управления клиентами DirectAccess
 

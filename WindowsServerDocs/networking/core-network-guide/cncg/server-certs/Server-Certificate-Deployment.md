@@ -1,18 +1,18 @@
 ---
 title: Развертывание сертификата сервера
-description: Эта статья является частью руководств по развертыванию сертификатов сервера для беспроводных и беспроводных развертываний 802.1 X.
+description: Сведения о шагах, которые необходимо выполнить для установки корневого центра сертификации предприятия и развертывании сертификатов сервера для использования с PEAP и EAP.
 manager: brianlic
 ms.topic: article
 ms.assetid: 1ae4384b-f4e4-41e8-bc5f-9ac41953bca4
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: c48fb74543ef115d0dc30c9d052bceb5ed390660
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: aaa2f2e780a088e0fc321fb53d3d710df449616b
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97950150"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98038594"
 ---
 # <a name="server-certificate-deployment"></a>Развертывание сертификата сервера
 

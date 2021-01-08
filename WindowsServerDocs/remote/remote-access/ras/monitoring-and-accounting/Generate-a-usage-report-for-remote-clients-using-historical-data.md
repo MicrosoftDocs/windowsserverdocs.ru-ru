@@ -1,18 +1,18 @@
 ---
 title: Создание отчетов по использованию на основе зарегистрированных ранее данных для удаленных клиентов
-description: Эта статья является частью руководств по мониторингу удаленного доступа и учету в Windows Server 2016.
+description: Узнайте, как включить учет на сервере удаленного доступа, чтобы можно было создать отчет об использовании для удаленных клиентов, обращающихся к серверу.
 manager: brianlic
 ms.topic: article
 ms.assetid: 0305467b-ce39-4532-a05a-2cc5ff946f55
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: b8dafad68546cfe20ab1e7704b60694aea4d44e0
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 6234798ca63495d241b7ddb9eb18dd7ac17c3db3
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97947380"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98039904"
 ---
 # <a name="generate-a-usage-report-for-remote-clients-using-historical-data"></a>Создание отчетов по использованию на основе зарегистрированных ранее данных для удаленных клиентов
 

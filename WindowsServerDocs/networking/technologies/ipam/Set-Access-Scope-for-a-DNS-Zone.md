@@ -1,18 +1,18 @@
 ---
 title: Задание области доступа для зоны DNS
-description: Этот раздел является частью руководства по управлению IP-адресами (IPAM) в Windows Server 2016.
+description: Узнайте, как задать область доступа для зоны DNS с помощью консоли клиента IPAM.
 manager: brianlic
 ms.topic: article
 ms.assetid: 6a211dde-80eb-4888-b5bb-4e28fe8dc7df
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: 168bb1be14d51b2728c2a2c258a7fad55362bfb9
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 8d679dcc0e16e1dc3e38e11247637463a26ed0f5
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97948720"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98040144"
 ---
 # <a name="set-access-scope-for-a-dns-zone"></a>Задание области доступа для зоны DNS
 

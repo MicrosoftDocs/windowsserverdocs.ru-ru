@@ -1,18 +1,18 @@
 ---
 title: Задание области доступа для записей ресурсов DNS
-description: Этот раздел является частью руководства по управлению IP-адресами (IPAM) в Windows Server 2016.
+description: Узнайте, как задать область доступа для записей ресурсов DNS с помощью консоли клиента IPAM.
 manager: brianlic
 ms.topic: article
 ms.assetid: a96a8752-5678-49c5-b069-d2cce8042a51
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: f2ebe0b05baf98317d432efaebfff7f0f4578d16
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: ac8ef616587ac214cf75240e88d941f74de03d41
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97948340"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98039394"
 ---
 # <a name="set-access-scope-for-dns-resource-records"></a>Задание области доступа для записей ресурсов DNS
 

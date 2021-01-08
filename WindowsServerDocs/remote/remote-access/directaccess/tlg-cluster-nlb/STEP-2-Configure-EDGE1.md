@@ -1,18 +1,18 @@
 ---
 title: Шаг 2. Настройка EDGE1
-description: Этот раздел является частью руководства по тестовой лаборатории. демонстрация DirectAccess в кластере с Windows NLB для Windows Server 2016
+description: Узнайте, как настроить DirectAccess на сервере EDGE1.
 manager: brianlic
 ms.topic: article
 ms.assetid: 84457351-1ca7-4e7c-8e2c-53d55b1fcdc0
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: fb0bd2c2f6b043eec28b7b3499c05ead578653fa
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 52f94c6625286e9243419a668381995a18b28fae
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97948230"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98039334"
 ---
 # <a name="step-2-configure-edge1"></a>Шаг 2. Настройка EDGE1
 

@@ -1,18 +1,18 @@
 ---
 title: Создание записи псевдонима (CNAME) в DNS для WEB1
-description: Эта статья является частью руководств по развертыванию сертификатов сервера для беспроводных и беспроводных развертываний 802.1 X.
+description: Узнайте, как добавить запись ресурса с каноническим именем псевдонима (CNAME) для веб-сервера в зону в DNS на контроллере домена.
 manager: brianlic
 ms.topic: article
 ms.assetid: bfae23f0-ae12-486b-94fe-50a137e141a5
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: c95efd5d9f0cbe7bbdba79d0971581f2c09ac53e
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: c96322a69379524922f40b04dc85731c4dc7ffde
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97950190"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98038606"
 ---
 # <a name="create-an-alias-cname-record-in-dns-for-web1"></a>Создание псевдонима \( \) записи CNAME в DNS для web1
 

@@ -1,18 +1,18 @@
 ---
 title: Шаг 5. Тестирование подключения DirectAccess из Интернета и через кластер
-description: Этот раздел является частью руководства по тестовой лаборатории. демонстрация DirectAccess в кластере с Windows NLB для Windows Server 2016
+description: Узнайте, как проверить возможность подключения к DirectAccess из Интернета и через кластер.
 manager: brianlic
 ms.topic: article
 ms.assetid: 8399bdfa-809a-45e4-9963-f9b6a631007f
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: 20e4895834d56bfc0cb29700dee38fee9c0b9336
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: e301c9786b0d76e45c8417a7a3c9340937f5f529
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97946560"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98039214"
 ---
 # <a name="step-5-test-directaccess-connectivity-from-the-internet-and-through-the-cluster"></a>Шаг 5. Тестирование подключения DirectAccess из Интернета и через кластер
 

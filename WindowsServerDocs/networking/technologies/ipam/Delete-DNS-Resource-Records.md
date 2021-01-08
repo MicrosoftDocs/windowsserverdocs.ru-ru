@@ -1,18 +1,18 @@
 ---
 title: Удаление записей ресурсов DNS
-description: Этот раздел является частью руководства по управлению IP-адресами (IPAM) в Windows Server 2016.
+description: Узнайте, как удалить одну или несколько записей ресурсов DNS с помощью консоли клиента IPAM.
 manager: brianlic
 ms.topic: article
 ms.assetid: 366e6fd5-d563-4de3-9551-5614cbb8f2cb
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: 70039e266e2696f69c5eee8077bab81ccee72d35
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: a305457d50985c2cefa56dbfe0d243bc9cd8b504
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97945460"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98039574"
 ---
 # <a name="delete-dns-resource-records"></a>Удаление записей ресурсов DNS
 
@@ -38,7 +38,7 @@ ms.locfileid: "97945460"
 
     ![Удаление записей](../../media/Delete-DNS-Resource-Records/ipam_DeleteRR_02.jpg)
 
-6.  Откроется диалоговое окно **Удаление записи ресурса DNS** . Убедитесь, что выбран правильный DNS-сервер. Если это не так, щелкните **DNS-сервер** и выберите сервер, с которого нужно удалить записи ресурсов. Нажмите кнопку **OK**. IPAM удаляет записи ресурсов с DNS-сервера.
+6.  Откроется диалоговое окно **Удаление записи ресурса DNS** . Убедитесь, что выбран правильный DNS-сервер. Если это не так, щелкните **DNS-сервер** и выберите сервер, с которого нужно удалить записи ресурсов. Нажмите **OK**. IPAM удаляет записи ресурсов с DNS-сервера.
 
     ![Убедитесь, что выбран правильный DNS-сервер, и удалите записи.](../../media/Delete-DNS-Resource-Records/ipam_DeleteRR_03.jpg)
 

@@ -7,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 5c88f4ae94002f436cedae74fa32211f701e270e
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: 5bcfa3f73e3aede9917e7f5cb7412cca37728550
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97048202"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98039193"
 ---
 # <a name="create-a-rule-to-permit-or-deny-users-based-on-an-incoming-claim"></a>Создание правила для разрешения или запрета пользователям на основании входящего утверждения
 
@@ -30,49 +30,49 @@ ms.locfileid: "97048202"
 1.  В диспетчере сервера щелкните **Средства** и выберите **Управление AD FS**.
 
 2.  В дереве консоли в разделе **AD FS** щелкните **политики управления доступом**.
-![создать правило](media/Create-a-Rule-to-Permit-or-Deny-Users-Based-on-an-Incoming-Claim/permitdeny3.PNG)
+![Снимок экрана, в котором показаны политики управления доступом в дереве консоли.](media/Create-a-Rule-to-Permit-or-Deny-Users-Based-on-an-Incoming-Claim/permitdeny3.PNG)
 
 3. Щелкните правой кнопкой мыши и выберите **Добавить политику управления доступом**.
-![создать правило](media/Create-a-Rule-to-Permit-or-Deny-Users-Based-on-an-Incoming-Claim/permitdeny4.PNG)
+![Снимок экрана, посвященный пункту меню добавления политики управления доступом.](media/Create-a-Rule-to-Permit-or-Deny-Users-Based-on-an-Incoming-Claim/permitdeny4.PNG)
 
 4. В поле Имя введите имя политики, описание и нажмите кнопку **Добавить**.
-![создать правило](media/Create-a-Rule-to-Permit-or-Deny-Users-Based-on-an-Incoming-Claim/permitdeny5.PNG)
+![Снимок экрана, на котором показано, куда добавить политику управления доступом при создании правила, разрешив пользователям на основе входящего утверждения в Windows Server 2016.](media/Create-a-Rule-to-Permit-or-Deny-Users-Based-on-an-Incoming-Claim/permitdeny5.PNG)
 
 5. В **редакторе правил** в разделе Пользователи Поместите флажок **с конкретными утверждениями в запросе** и щелкните подчеркнутый **в нижней** части.
-![создать правило](media/Create-a-Rule-to-Permit-or-Deny-Users-Based-on-an-Incoming-Claim/permitdeny6.PNG)
+![Снимок экрана, посвященный выделению подчеркивания.](media/Create-a-Rule-to-Permit-or-Deny-Users-Based-on-an-Incoming-Claim/permitdeny6.PNG)
 
 6. На экране **Выбор утверждений** щелкните переключатель **утверждения** , выберите **тип утверждения**, **оператор** и **значение утверждения** , а затем нажмите кнопку **ОК**.
-![создать правило](media/Create-a-Rule-to-Permit-or-Deny-Users-Based-on-an-Incoming-Claim/permitdeny7.PNG)
+![Снимок экрана, на котором показано, где выбрать параметр утверждений.](media/Create-a-Rule-to-Permit-or-Deny-Users-Based-on-an-Incoming-Claim/permitdeny7.PNG)
 
 7.  В **редакторе правил** нажмите кнопку **ОК**.  На экране **Добавить политику управления доступом** нажмите кнопку **ОК**.
 
 8. В дереве консоли **управления AD FS** в разделе **AD FS** щелкните **отношения доверия с проверяющей стороной**.
-![создать правило](media/Create-a-Rule-to-Pass-Through-or-Filter-an-Incoming-Claim/claimrule9.PNG)
+![Снимок экрана, на котором показано, где можно выбрать отношения доверия с проверяющей стороной.](media/Create-a-Rule-to-Pass-Through-or-Filter-an-Incoming-Claim/claimrule9.PNG)
 
 9.  Щелкните правой кнопкой мыши **отношение доверия с проверяющей стороной** , к которому требуется предоставить доступ, и выберите пункт **изменить политику управления доступом**.
-![создать правило](media/Create-a-Rule-to-Permit-All-Users/permitall2.PNG)
+![Снимок экрана, на котором показано, где выбрать пункт меню "изменить политику управления доступом".](media/Create-a-Rule-to-Permit-All-Users/permitall2.PNG)
 
 10. В политике управления доступом выберите политику, а затем нажмите кнопку **Применить** и **ОК**.
-![создать правило](media/Create-a-Rule-to-Permit-or-Deny-Users-Based-on-an-Incoming-Claim/permitdeny8.PNG)
+![Снимок экрана, на котором показано, где выбрать "Применить" и "ОК".](media/Create-a-Rule-to-Permit-or-Deny-Users-Based-on-an-Incoming-Claim/permitdeny8.PNG)
 
 ## <a name="to-create-a-rule-to-deny-users-based-on-an-incoming-claim-on-windows-server-2016"></a>Создание правила для запрета доступа пользователей на основе входящего утверждения в Windows Server 2016
 
 1.  В диспетчере сервера щелкните **Средства** и выберите **Управление AD FS**.
 
 2.  В дереве консоли в разделе **AD FS** щелкните **политики управления доступом**.
-![создать правило](media/Create-a-Rule-to-Permit-or-Deny-Users-Based-on-an-Incoming-Claim/permitdeny3.PNG)
+![Снимок экрана, на котором показано, где выбрать политики управления доступом.](media/Create-a-Rule-to-Permit-or-Deny-Users-Based-on-an-Incoming-Claim/permitdeny3.PNG)
 
 3. Щелкните правой кнопкой мыши и выберите **Добавить политику управления доступом**.
-![создать правило](media/Create-a-Rule-to-Permit-or-Deny-Users-Based-on-an-Incoming-Claim/permitdeny4.PNG)
+![Снимок экрана, на котором показано, куда добавить политику управления доступом.](media/Create-a-Rule-to-Permit-or-Deny-Users-Based-on-an-Incoming-Claim/permitdeny4.PNG)
 
 4. В поле Имя введите имя политики, описание и нажмите кнопку **Добавить**.
-![создать правило](media/Create-a-Rule-to-Permit-or-Deny-Users-Based-on-an-Incoming-Claim/permitdeny9.PNG)
+![Снимок экрана, на котором показано, где ввести имя политики.](media/Create-a-Rule-to-Permit-or-Deny-Users-Based-on-an-Incoming-Claim/permitdeny9.PNG)
 
 5. В **редакторе правил** убедитесь, что выбран параметр все все, а в разделе **за исключением** установите флажок **с конкретными утверждениями в запросе** и щелкните подчеркнутое **в нижней** части.
-![создать правило](media/Create-a-Rule-to-Permit-or-Deny-Users-Based-on-an-Incoming-Claim/permitdeny10.PNG)
+![Снимок экрана, на котором показано, где выбран параметр "все".](media/Create-a-Rule-to-Permit-or-Deny-Users-Based-on-an-Incoming-Claim/permitdeny10.PNG)
 
 6. На экране **Выбор утверждений** щелкните переключатель **утверждения** , выберите **тип утверждения**, **оператор** и **значение утверждения** , а затем нажмите кнопку **ОК**.
-![создать правило](media/Create-a-Rule-to-Permit-or-Deny-Users-Based-on-an-Incoming-Claim/permitdeny11.PNG)
+![Снимок экрана, на котором отображается экран выбора утверждений.](media/Create-a-Rule-to-Permit-or-Deny-Users-Based-on-an-Incoming-Claim/permitdeny11.PNG)
 
 7.  В **редакторе правил** нажмите кнопку **ОК**.  На экране **Добавить политику управления доступом** нажмите кнопку **ОК**.
 
@@ -80,10 +80,10 @@ ms.locfileid: "97048202"
 ![создать правило](media/Create-a-Rule-to-Pass-Through-or-Filter-an-Incoming-Claim/claimrule9.PNG)
 
 9.  Щелкните правой кнопкой мыши **отношение доверия с проверяющей стороной** , к которому требуется предоставить доступ, и выберите пункт **изменить политику управления доступом**.
-![создать правило](media/Create-a-Rule-to-Permit-All-Users/permitall2.PNG)
+![Снимок экрана, на котором показано, где можно щелкнуть правой кнопкой мыши отношение доверия с проверяющей стороной для доступа к пункту меню "изменить политику управления доступом".](media/Create-a-Rule-to-Permit-All-Users/permitall2.PNG)
 
 10. В политике управления доступом выберите политику, а затем нажмите кнопку **Применить** и **ОК**.
-![создать правило](media/Create-a-Rule-to-Permit-or-Deny-Users-Based-on-an-Incoming-Claim/permitdeny12.PNG)
+![Снимок экрана, показывающий, как применить изменения к политике управления доступом.](media/Create-a-Rule-to-Permit-or-Deny-Users-Based-on-an-Incoming-Claim/permitdeny12.PNG)
 
 
 ## <a name="to-create-a-rule-to-permit-or-deny-users-based-on-an-incoming-claim-on-windows-server-2012-r2"></a>Создание правила разрешения или запрета доступа пользователей на основе входящего утверждения в Windows Server 2012 R2
@@ -93,20 +93,20 @@ ms.locfileid: "97048202"
 2.  В дереве консоли в разделе **AD FS отношения \\ доверия с \\ проверяющей стороной** выберите определенное отношение доверия в списке, в котором вы хотите создать это правило.
 
 3.  Щелкните \- Выбранное отношение доверия правой кнопкой мыши и выберите команду **изменить правила утверждений**.
-![создать правило](media/Create-a-Rule-to-Pass-Through-or-Filter-an-Incoming-Claim/claimrule6.PNG)
+![Снимок экрана, показывающий пункт меню "изменить правила утверждений".](media/Create-a-Rule-to-Pass-Through-or-Filter-an-Incoming-Claim/claimrule6.PNG)
 
 4.  В диалоговом окне **изменение правил утверждений** перейдите на вкладку **правила авторизации выдачи** или на вкладку **правила авторизации делегирования** в \( зависимости от требуемого типа правила авторизации \) , а затем нажмите кнопку **Добавить правило** , чтобы запустить **Мастер добавления правила авторизации**.
-![создать правило](media/Create-a-Rule-to-Permit-All-Users/permitall5.PNG)
+![Снимок экрана, показывающий, как запустить мастер добавления правила для утверждения авторизации.](media/Create-a-Rule-to-Permit-All-Users/permitall5.PNG)
 
 5.  На странице **Выбор шаблона правила** в разделе **шаблон правила утверждения** выберите **Разрешить или запретить пользователям на основе входящего утверждения** из списка, а затем нажмите кнопку **Далее**.
-![создать правило](media/Create-a-Rule-to-Permit-or-Deny-Users-Based-on-an-Incoming-Claim/permitdeny1.PNG)
+![Снимок экрана, на котором показано, где можно выбрать разрешение или запрет пользователей на основе входящего шаблона утверждения.](media/Create-a-Rule-to-Permit-or-Deny-Users-Based-on-an-Incoming-Claim/permitdeny1.PNG)
 
 6.  На странице **Настройка правила** в разделе **имя правила утверждения** введите отображаемое имя для этого правила в поле **тип входящего утверждения** выберите тип утверждения в списке, в разделе **значение входящего утверждения** введите значение или нажмите кнопку Обзор, \( если оно доступно, и выберите \) значение, а затем выберите один из следующих вариантов в зависимости от потребностей Организации.
 
     -   **Разрешить доступ пользователям с данным входящим утверждением**
 
     -   **Запретить доступ пользователям с этим входящим утверждением** 
- ![ создать правило](media/Create-a-Rule-to-Permit-or-Deny-Users-Based-on-an-Incoming-Claim/permitdeny2.PNG)
+ ![ Снимок экрана, на котором показано, где выбрать тип входящего утверждения.](media/Create-a-Rule-to-Permit-or-Deny-Users-Based-on-an-Incoming-Claim/permitdeny2.PNG)
 7.  Нажмите кнопку **Готово**.
 
 8.  В диалоговом окне **изменение правил утверждений** нажмите кнопку **ОК** , чтобы сохранить правило.

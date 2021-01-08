@@ -1,18 +1,18 @@
 ---
 title: Шаги по настройке лаборатории тестирования DirectAccess Cluster-NLB
-description: Этот раздел является частью руководства по тестовой лаборатории. демонстрация DirectAccess в кластере с Windows NLB для Windows Server 2016
+description: Узнайте, как настроить инфраструктуру удаленного доступа, настроить серверы удаленного доступа и клиенты, а также проверить возможность подключения DirectAccess из подсетей Интернета и Хоменет.
 manager: brianlic
 ms.topic: article
 ms.assetid: e508d3ee-ffa6-463f-a3dd-9e35e745c005
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: d8502b50d54292adbd74209e5dff2d676d105701
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 7b9a5497803464f8bb3fde02785f09c0b99511a9
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97950370"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98040224"
 ---
 # <a name="steps-for-configuring-the-directaccess-cluster-nlb-test-lab"></a>Шаги по настройке лаборатории тестирования DirectAccess Cluster-NLB
 

@@ -1,18 +1,18 @@
 ---
 title: Процедура развертывания беспроводного доступа
-description: Эта статья является частью сетевого руководством по Windows Server 2016 "Deploy Password-Based 802.1 X Authenticator Wireless Access"
+description: Ознакомьтесь с пятью этапами, используемыми в процессе развертывания беспроводного доступа.
 manager: brianlic
 ms.topic: article
 ms.assetid: 2555f238-926e-4b20-9bfb-9774831062da
 author: eross-msft
 ms.author: lizross
 ms.date: 08/07/2020
-ms.openlocfilehash: d8573992748402911a7366cb6e9059ef7b31966a
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 233c041b5009c88e2c18638427e678e53f7b0627
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97943220"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98038284"
 ---
 # <a name="wireless-access-deployment-process"></a>Процедура развертывания беспроводного доступа
 

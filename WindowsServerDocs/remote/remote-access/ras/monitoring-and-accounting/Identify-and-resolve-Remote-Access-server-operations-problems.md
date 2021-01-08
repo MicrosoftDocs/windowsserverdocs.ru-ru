@@ -1,18 +1,18 @@
 ---
 title: Выявление и ликвидация сбоев в работе сервера удаленного доступа
-description: Эта статья является частью руководств по мониторингу удаленного доступа и учету в Windows Server 2016.
+description: Узнайте, как обнаруживать проблемы с работой сервера удаленного доступа, их основные причины и разрешение, необходимое для устранения проблем.
 manager: brianlic
 ms.topic: article
 ms.assetid: 7ce84c9f-fd1f-4463-8fc7-d2f33344a2c9
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: cae96d3034cb650b84b40a1a35364400b182a619
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 23a79e792b7601b4eeadf05e5844d9ca722f3c6d
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97947370"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98039894"
 ---
 # <a name="identify-and-resolve-remote-access-server-operations-problems"></a>Выявление и ликвидация сбоев в работе сервера удаленного доступа
 

@@ -1,18 +1,18 @@
 ---
 title: Управление записями ресурсов DNS
-description: Этот раздел является частью руководства по управлению IP-адресами (IPAM) в Windows Server 2016.
+description: Узнайте, как управлять записями ресурсов DNS с помощью IPAM.
 manager: brianlic
 ms.topic: article
 ms.assetid: 7b66c09d-e401-4f70-9a2a-6047dd629bfa
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: bd7adbd28801ec7fba85299d7bcf9b7ebf5f7693
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 41ff87cf2a5f957dc8d14d66bea78ffa9f688f04
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97948740"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98039584"
 ---
 # <a name="dns-resource-record-management"></a>Управление записями ресурсов DNS
 

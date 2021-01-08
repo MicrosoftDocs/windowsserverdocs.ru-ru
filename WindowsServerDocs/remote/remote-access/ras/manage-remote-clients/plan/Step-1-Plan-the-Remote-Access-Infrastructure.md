@@ -1,18 +1,18 @@
 ---
 title: Шаг 1. Планирование инфраструктуры удаленного доступа
-description: Этот раздел является частью руководств по удаленному управлению клиентами DirectAccess в Windows Server 2016.
+description: Сведения о планировании инфраструктуры, которую можно использовать для настройки одного сервера удаленного доступа для удаленного управления клиентами DirectAccess.
 manager: brianlic
 ms.topic: article
 ms.assetid: a1ce7af5-f3fe-4fc9-82e8-926800e37bc1
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: add64a49bdc0b4ae0b9cfa0eaece085576013b81
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: d66073b93bbb1f3f73c95443c04900c3e37dd628
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97947680"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98039924"
 ---
 # <a name="step-1-plan-the-remote-access-infrastructure"></a>Шаг 1. Планирование инфраструктуры удаленного доступа
 

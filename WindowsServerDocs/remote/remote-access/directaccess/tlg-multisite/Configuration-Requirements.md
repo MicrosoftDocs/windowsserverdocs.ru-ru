@@ -1,18 +1,18 @@
 ---
 title: Требования к конфигурации
-description: 'Этот раздел является частью руководства по лаборатории тестирования: демонстрация многосайтового развертывания DirectAccess для Windows Server 2016'
+description: Сведения о компонентах, для которых необходимо настроить удаленный доступ в тестовой лаборатории.
 manager: brianlic
 ms.topic: article
 ms.assetid: aaabdf3b-d926-48d9-9d01-358668da88ba
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: 516e906edc9dc901911fcb94d79821a7dd24fc7c
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 026d47a7c33dd4903870516ca1621eba9d85ea39
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97950360"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98040214"
 ---
 # <a name="configuration-requirements"></a>Требования к конфигурации
 

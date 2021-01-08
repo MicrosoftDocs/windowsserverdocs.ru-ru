@@ -1,18 +1,18 @@
 ---
 title: Очистка данных об использовании
-description: Этот раздел является частью руководства по управлению IP-адресами (IPAM) в Windows Server 2016.
+description: Узнайте, как удалить данные об использовании из базы данных IPAM.
 manager: brianlic
 ms.topic: article
 ms.assetid: 45cada9e-69b9-43df-b6f5-6d3942435809
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: 125d91951f5deac4bf7a32591d9f98efbfabae66
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: b144c1896a308eabdd5b8c03c34cc9b43766b699
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97948010"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98039474"
 ---
 # <a name="purge-utilization-data"></a>Очистка данных об использовании
 
@@ -28,4 +28,4 @@ ms.locfileid: "97948010"
 3. Щелкните **задачи**, а затем — **Очистить данные об использовании**. Откроется диалоговое окно « **Очистка данных об использовании** ».
 4. В окне **Очистить все данные об использовании на или ранее** нажмите кнопку **выбрать дату**.
 5. Выберите дату, для которой необходимо удалить все записи базы данных как в, так и до этой даты.
-6. Нажмите кнопку **OK**. IPAM удаляет все указанные записи.
+6. Нажмите **OK**. IPAM удаляет все указанные записи.

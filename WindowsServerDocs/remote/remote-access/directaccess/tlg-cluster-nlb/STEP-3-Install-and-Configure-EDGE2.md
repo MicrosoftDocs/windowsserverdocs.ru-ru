@@ -1,18 +1,18 @@
 ---
 title: Шаг 3. Установка и настройка EDGE2
-description: Этот раздел является частью руководства по тестовой лаборатории. демонстрация DirectAccess в кластере с Windows NLB для Windows Server 2016
+description: Узнайте, как установить и настроить EDGE2, который является вторым членом кластера удаленного доступа.
 manager: brianlic
 ms.topic: article
 ms.assetid: f04eb11e-ed5f-42a1-a77b-57a248ba2d10
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: 431e88c552b0df94808ce5ce0069f569c3a87d8f
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 191c1d20d18b35bdac36f6421f1f6eda5f99a72a
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97950380"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98039304"
 ---
 # <a name="step-3-install-and-configure-edge2"></a>Шаг 3. Установка и настройка EDGE2
 

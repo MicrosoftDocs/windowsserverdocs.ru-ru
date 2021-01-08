@@ -1,18 +1,18 @@
 ---
 title: Управление доступом на основе ролей
-description: Этот раздел является частью руководства по управлению IP-адресами (IPAM) в Windows Server 2016.
+description: Узнайте, как использовать управление доступом на основе ролей в IPAM.
 manager: brianlic
 ms.topic: article
 ms.assetid: ecdfc589-fa14-4bb3-ab7e-456ebc719385
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: 41e9e92bf2a6a1536d355590010589d2da4e5c0f
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: e2a22019ee68d98f8122c79ebe8146c898164f7f
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97948000"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98039364"
 ---
 # <a name="role-based-access-control"></a>Управление доступом на основе ролей
 

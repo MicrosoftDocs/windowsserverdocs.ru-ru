@@ -1,18 +1,18 @@
 ---
 title: Обновление групповой политики
-description: Эта статья является частью руководств по развертыванию сертификатов сервера для беспроводных и беспроводных развертываний 802.1 X.
+description: Узнайте, как вручную обновить групповая политика на локальном компьютере.
 manager: brianlic
 ms.topic: article
 ms.assetid: 65b36794-bb09-4c1b-a2e7-8fc780893d97
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: f379ce07682ceec4dcfff1395b316eee333a3ec5
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: db578b1c36548106fa2995469a7e302d4d029901
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97947820"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98038544"
 ---
 # <a name="refresh-group-policy"></a>Обновление групповой политики
 

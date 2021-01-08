@@ -1,18 +1,18 @@
 ---
 title: Обзор развертывания беспроводного доступа
-description: Эта статья является частью сетевого руководством по Windows Server 2016 "Deploy Password-Based 802.1 X Authenticator Wireless Access"
+description: Сведения о компонентах развертывания беспроводного доступа, необходимых для развертывания 802.1 X с проверкой подлинности с помощью PEAP-MS-CHAP v2.
 manager: brianlic
 ms.topic: article
 ms.assetid: 29ae0f54-f045-465a-a08e-5867979345f2
 author: eross-msft
 ms.author: lizross
 ms.date: 08/07/2020
-ms.openlocfilehash: 336f8af276e14d0f54702f04539f041cf1c71400
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 2eb6bf9b3b51416c5ecc5cc49fb4da41b8fbb52a
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97943280"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98038414"
 ---
 # <a name="wireless-access-deployment-overview"></a>Обзор развертывания беспроводного доступа
 

@@ -1,18 +1,18 @@
 ---
 title: Настройка шаблона сертификата сервера
-description: Эта статья является частью руководств по развертыванию сертификатов сервера для беспроводных и беспроводных развертываний 802.1 X.
+description: Узнайте, как настроить шаблон сертификата, который Active Directory служб сертификации используется в качестве основания для сертификатов сервера, зарегистрированных на серверах в сети.
 manager: brianlic
 ms.topic: article
 ms.assetid: 8ff610e2-43ca-407f-a828-06d9366e02f0
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: 4eaeef21e90a3a0a56c6c136363e102948c31b97
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 94db549130bfa8779739af49c477eca9c401b08f
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97950200"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98038904"
 ---
 # <a name="configure-the-server-certificate-template"></a>Настройка шаблона сертификата сервера
 

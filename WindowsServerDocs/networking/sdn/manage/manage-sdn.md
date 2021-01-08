@@ -1,18 +1,18 @@
 ---
 title: Управление SDN
-description: Эта статья является частью программно-определяемого сетевого руководства по управлению рабочими нагрузками клиентов и виртуальными сетями в Windows Server 2016.
+description: Узнайте, как управлять программно определяемыми сетями, включая рабочие нагрузки клиентов и виртуальные сети.
 manager: grcusanz
 ms.topic: article
 ms.assetid: 7e2b4540-de56-4d5f-bb8e-9f81ca0ea4eb
 ms.author: anpaul
 author: AnirbanPaul
 ms.date: 08/26/2018
-ms.openlocfilehash: 6756ed3ba2b773b4ed1e0e7edd16447117188b84
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 371df0a31c35cb6453cf47ce1ae545ca4e5c261c
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87994775"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98038194"
 ---
 # <a name="manage-sdn"></a>Управление SDN
 

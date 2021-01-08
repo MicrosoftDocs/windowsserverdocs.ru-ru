@@ -1,18 +1,18 @@
 ---
 title: Шаг 2. Настройка сервера RADIUS
-description: Эта статья является частью руководств по развертыванию удаленного доступа с помощью проверки подлинности OTP в Windows Server 2016.
+description: Узнайте, как настроить сервер RADIUS.
 manager: brianlic
 ms.topic: article
 ms.assetid: 0326818f-9144-496c-b946-f82be4eefbd3
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: fc5fa26a6165fae0c41560b67940b70c22f09b8a
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 4dd1ba5d27e3fac32ca5938156d1dc504dd98cfc
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97949750"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98038788"
 ---
 # <a name="step-2-configure-the-radius-server"></a>Шаг 2. Настройка сервера RADIUS
 
