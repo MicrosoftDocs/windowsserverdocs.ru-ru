@@ -5,17 +5,17 @@ ms.topic: article
 ms.assetid: 0c66f1c8-2606-43a3-b4cc-166acaaf2d2a
 ms.author: benarm
 author: BenjaminArmstrong
-ms.date: 01/09/2017
-ms.openlocfilehash: 09b6f532bac2b57fd8334556501c6197fa3036cc
-ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
+ms.date: 01/08/2021
+ms.openlocfilehash: 396366e72dcfda60131267299ac7427ad83b05df
+ms.sourcegitcommit: 209b0995a11c89bb9ece3db0d48a35d7ba5bbd9d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "90747159"
+ms.lasthandoff: 01/09/2021
+ms.locfileid: "98053657"
 ---
 # <a name="best-practices-for-running-freebsd-on-hyper-v"></a>Рекомендации по запуску FreeBSD в Hyper-V
 
->Область применения: Windows Server 2019, Windows Server 2016, Hyper-V Server 2016, Windows Server 2012 R2, Hyper-V Server 2012 R2, Windows Server 2012, Hyper-V Server 2012, Windows Server 2008 R2, Windows 10, Windows 8.1, Windows 8, Windows 7,1, Windows 7
+>Применимо к: Azure Stack ХЦИ, версия 20H2; Windows Server 2019, Windows Server 2016, Hyper-V Server 2016, Windows Server 2012 R2, Hyper-V Server 2012 R2, Windows Server 2012, Hyper-V Server 2012, Windows Server 2008 R2, Windows 10, Windows 8.1, Windows 8, Windows 7,1, Windows 7
 
 В этом разделе содержится список рекомендаций по запуску FreeBSD в качестве гостевой операционной системы на виртуальной машине Hyper-V.
 
@@ -23,13 +23,13 @@ ms.locfileid: "90747159"
 
 Протокол CARP позволяет нескольким узлам использовать один и тот же IP-адрес и идентификатор виртуального узла (ВХИД), чтобы обеспечить высокий уровень доступности для одной или нескольких служб. В случае сбоя одного или нескольких узлов другие узлы прозрачно перейдут, чтобы пользователи не могли заметить сбой службы. Чтобы использовать CARP в FreeBSD 10,2, следуйте инструкциям в руководстве по [FreeBSD](https://www.freebsd.org/doc/en/books/handbook/carp.html) и выполните следующие действия в диспетчере Hyper-V.
 
-* Убедитесь, что виртуальная машина имеет сетевой адаптер, и ей назначен виртуальный коммутатор. Выберите виртуальную машину и щелкните **Actions**  >  **Параметры**действия.
+* Убедитесь, что виртуальная машина имеет сетевой адаптер, и ей назначен виртуальный коммутатор. Выберите виртуальную машину и щелкните   >  **Параметры** действия.
 
 ![Снимок экрана параметров виртуальной машины с выбранным сетевым адаптером](media/Hyper-V_Settings_NetworkAdapter.png)
 
 * Включите подмену MAC-адресов. Для этого сделайте следующее.
 
-   1. Выберите виртуальную машину и щелкните **Actions**  >  **Параметры**действия.
+   1. Выберите виртуальную машину и щелкните   >  **Параметры** действия.
 
    2. Разверните узел **сетевой адаптер** и выберите **Дополнительные функции**.
 
@@ -85,6 +85,6 @@ ms.locfileid: "90747159"
 ```
 
 
-См. также
+См. также раздел
 
 * [Поддерживаемые виртуальные машины FreeBSD в Hyper-V](Supported-FreeBSD-virtual-machines-on-Hyper-V.md)

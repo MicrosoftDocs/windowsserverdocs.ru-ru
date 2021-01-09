@@ -5,17 +5,17 @@ ms.topic: article
 ms.assetid: a08648eb-eea0-4e2b-87fb-52bfe8953491
 ms.author: benarm
 author: BenjaminArmstrong
-ms.date: 04/15/2020
-ms.openlocfilehash: 216bd83eb06cd14b2b2290e3294041b097cfdbd9
-ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
+ms.date: 01/08/2021
+ms.openlocfilehash: a0fdba4c5315ee4cbe00c5fd9dd98f5ae770301d
+ms.sourcegitcommit: 209b0995a11c89bb9ece3db0d48a35d7ba5bbd9d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "90747169"
+ms.lasthandoff: 01/09/2021
+ms.locfileid: "98053627"
 ---
 # <a name="best-practices-for-running-linux-on-hyper-v"></a>Рекомендации по запуску Linux в Hyper-V
 
->Область применения: Windows Server 2019, Windows Server 2016, Hyper-V Server 2016, Windows Server 2012 R2, Hyper-V Server 2012 R2, Windows Server 2012, Hyper-V Server 2012, Windows Server 2008 R2, Windows 10, Windows 8.1, Windows 8, Windows 7,1, Windows 7
+>Применимо к: Azure Stack ХЦИ, версия 20H2; Windows Server 2019, Windows Server 2016, Hyper-V Server 2016, Windows Server 2012 R2, Hyper-V Server 2012 R2, Windows Server 2012, Hyper-V Server 2012, Windows Server 2008 R2, Windows 10, Windows 8.1, Windows 8, Windows 7,1, Windows 7
 
 Этот раздел содержит список рекомендаций по запуску виртуальной машины Linux в Hyper-V.
 
@@ -40,7 +40,7 @@ PS > New-VHD -Path C:\MyVHDs\test.vhdx -SizeBytes 127GB -Dynamic -BlockSizeBytes
 
 ## <a name="grub-menu-timeout-on-generation-2-virtual-machines"></a>Время ожидания меню GRUB на виртуальных машинах поколения 2
 
-Из-за того, что устаревшее оборудование удаляется из эмуляции на виртуальных машинах поколения 2, для отображения меню GRUB слишком быстро вычисляется таймер обратного отсчета, и сразу же загружается запись по умолчанию. Пока GRUB не будет использоваться для использования таймера, поддерживаемого EFI, измените **/Бут/груб/груб.конф**,/**т.п./default/grub**или эквивалентным параметром "Timeout = 100000" вместо значения по умолчанию "timeout = 5".
+Из-за того, что устаревшее оборудование удаляется из эмуляции на виртуальных машинах поколения 2, для отображения меню GRUB слишком быстро вычисляется таймер обратного отсчета, и сразу же загружается запись по умолчанию. Пока GRUB не будет использоваться для использования таймера, поддерживаемого EFI, измените **/Бут/груб/груб.конф**,/**т.п./default/grub** или эквивалентным параметром "Timeout = 100000" вместо значения по умолчанию "timeout = 5".
 
 ## <a name="pxe-boot-on-generation-2-virtual-machines"></a>Загрузка PxE на виртуальных машинах поколения 2
 

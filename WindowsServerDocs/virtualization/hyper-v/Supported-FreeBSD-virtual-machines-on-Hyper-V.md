@@ -5,17 +5,17 @@ ms.topic: article
 ms.assetid: 930e758f-bd50-46b4-a3a4-9857110f17b4
 ms.author: benarm
 author: BenjaminArmstrong
-ms.date: 04/07/2020
-ms.openlocfilehash: f79c2c09f5fdce570ad6e61037756dab0d4056a1
-ms.sourcegitcommit: 48d45b2adf44afb0207214be9c57fe589360d177
+ms.date: 01/08/2021
+ms.openlocfilehash: cfda833dd6c644eec85b3f4914c89449bb906880
+ms.sourcegitcommit: 209b0995a11c89bb9ece3db0d48a35d7ba5bbd9d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/31/2020
-ms.locfileid: "97834869"
+ms.lasthandoff: 01/09/2021
+ms.locfileid: "98053587"
 ---
 # <a name="supported-freebsd-virtual-machines-on-hyper-v"></a>Поддерживаемые виртуальные машины FreeBSD в Hyper-V
 
->Область применения: Windows Server 2019, Hyper-V Server 2019, Windows Server 2016, Hyper-V Server 2016, Windows Server 2012 R2, Hyper-V Server 2012 R2, Windows 10, Windows 8.1
+>Применимо к: Azure Stack ХЦИ, версия 20H2; Windows Server 2019, Hyper-V Server 2019, Windows Server 2016, Hyper-V Server 2016, Windows Server 2012 R2, Hyper-V Server 2012 R2, Windows 10, Windows 8.1
 
 Следующая схема распределения признаков показывает функции в каждой версии. Известные проблемы и способы их решения для каждого распространения перечислены после таблицы.
 
@@ -27,10 +27,10 @@ ms.locfileid: "97834869"
 
 * (*пусто*) — функция недоступна
 
-|**Возможность**|**Версия операционной системы Windows Server**|**12-12,1**|**11.1 — 11.3**|**11,0**|**10,3**|**10.2**|**10,0-10,1**|**9,1-9,3, 8,4**|
+|**Возможность**|**Версия операционной системы Windows Server**|**12-12,1**|**11.1 — 11.3**|**11,0**|**10.3**|**10.2**|**10,0-10,1**|**9,1-9,3, 8,4**|
 |-|-|-|-|-|-|-|-|-|
 |**Доступность**||Встроено|Встроено|Встроено|Встроено|Встроено|Встроено|[Порты](https://svnweb.freebsd.org/ports/branches/2015Q1/emulators/hyperv-is/) |
-|**[Базовая](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#core)**|2019, 2016, 2012 R2|&#10004;|&#10004;|&#10004;|&#10004;|&#10004;|&#10004;|&#10004;|
+|**[Основные сведения](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#core)**|2019, 2016, 2012 R2|&#10004;|&#10004;|&#10004;|&#10004;|&#10004;|&#10004;|&#10004;|
 |Точное время Windows Server 2016|2019, 2016|&#10004;|&#10004;||||||
 |**[Сеть](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#networking)**||||||||
 |Кадры крупного размера|2019, 2016, 2012 R2|&#10004; Примечание 3|&#10004; Примечание 3|&#10004; Примечание 3|&#10004; Примечание 3|&#10004; Примечание 3|&#10004; Примечание 3|&#10004; Примечание 3|
@@ -53,7 +53,7 @@ ms.locfileid: "97834869"
 |Динамическая память Hot-Add|2019, 2016, 2012 R2||||||||
 |Всплывающие подсказки динамическая память|2019, 2016, 2012 R2||||||||
 |Изменение размера памяти среды выполнения|2019, 2016||||||||
-|**[Видеоролик](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#video)**|||||||||
+|**[Роли](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#video)**|||||||||
 |Устройство, относящееся к Hyper-V|2019, 2016, 2012 R2||||||||
 |**[Прочее](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#miscellaneous)**|||||||||
 |Пара "ключ — значение"|2019, 2016, 2012 R2|&#10004;|&#10004;|&#10004;|&#10004;|&#10004;|&#10004; Примечание 5|&#10004;|

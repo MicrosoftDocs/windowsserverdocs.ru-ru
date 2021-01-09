@@ -5,17 +5,17 @@ ms.topic: article
 ms.assetid: 7ec0e14c-4498-4bd9-8fe6-b94260198efc
 ms.author: benarm
 author: BenjaminArmstrong
-ms.date: 04/07/2020
-ms.openlocfilehash: 7bbf64a4c5e1689196024d443c13710d4176d535
-ms.sourcegitcommit: 48d45b2adf44afb0207214be9c57fe589360d177
+ms.date: 01/08/2021
+ms.openlocfilehash: 9e75e48e51b7ae77bd084dc092a27184c303a3ae
+ms.sourcegitcommit: 209b0995a11c89bb9ece3db0d48a35d7ba5bbd9d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/31/2020
-ms.locfileid: "97833839"
+ms.lasthandoff: 01/09/2021
+ms.locfileid: "98053567"
 ---
 # <a name="supported-suse-virtual-machines-on-hyper-v"></a>Поддерживаемые виртуальные машины SUSE в Hyper-V
 
->Область применения: Windows Server 2019, Hyper-V Server 2019, Windows Server 2016, Hyper-V Server 2016, Windows Server 2012 R2, Hyper-V Server 2012 R2, Windows 10, Windows 8.1
+>Применимо к: Azure Stack ХЦИ, версия 20H2; Windows Server 2019, Hyper-V Server 2019, Windows Server 2016, Hyper-V Server 2016, Windows Server 2012 R2, Hyper-V Server 2012 R2, Windows 10, Windows 8.1
 
 Ниже приведена схема распределения компонентов, указывающая компоненты каждой версии. Известные проблемы и способы их решения для каждого распространения перечислены после таблицы.
 
@@ -34,7 +34,7 @@ SLES12 + является только 64-разрядным.
 |**Возможность**|**Версия операционной системы Windows Server**|**SLES 15 С ПАКЕТОМ ОБНОВЛЕНИЯ 2 (SP2)**|**SLES 15**|**SLES 12 SP3-SP5**|**SLES 12 SP2**|**SLES 12 SP1**|**SLES 11 SP4**|**SLES 11 SP3**|
 |-|-|-|-|-|-|-|-|-|
 |**Доступность**||Встроено|Встроено|Встроено|Встроено|Встроено|Встроено|Встроено|
-|**[Базовая](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#core)**|2019, 2016, 2012 R2|&#10004;|&#10004;|&#10004;|&#10004;|&#10004;|&#10004;|&#10004;|
+|**[Основные сведения](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#core)**|2019, 2016, 2012 R2|&#10004;|&#10004;|&#10004;|&#10004;|&#10004;|&#10004;|&#10004;|
 |Точное время Windows Server 2016|2019, 2016|&#10004;|&#10004;|&#10004;|&#10004;||||
 |**[Сеть](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#networking)**|||||||||
 |Кадры крупного размера|2019, 2016, 2012 R2|&#10004;|&#10004;|&#10004;|&#10004;|&#10004;|&#10004;|&#10004;|
@@ -56,7 +56,7 @@ SLES12 + является только 64-разрядным.
 |Динамическая память Hot-Add|2019, 2016, 2012 R2|&#10004; Примечание 6|&#10004;Примечание 6|&#10004; Примечание 6|&#10004; Примечание 6|&#10004; Примечание 6|&#10004; Примечание 4, 5, 6|&#10004; Примечание 4, 5, 6|
 |Всплывающие подсказки динамическая память|2019, 2016, 2012 R2|&#10004; Примечание 6|&#10004; Примечание 6|&#10004; Примечание 6|&#10004; Примечание 6|&#10004; Примечание 6|&#10004; Примечание 4, 5, 6|&#10004; Примечание 4, 5, 6|
 |Изменение размера памяти среды выполнения|2019, 2016|&#10004; Примечание 6|&#10004; Примечание 6|&#10004; Примечание 6|&#10004; Примечание 6||||
-|**[Видеоролик](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#video)**|||||||||
+|**[Роли](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#video)**|||||||||
 |Устройство видеозаписи, определенное Hyper-V|2019, 2016, 2012 R2|&#10004;|&#10004;|&#10004;|&#10004;|&#10004;|&#10004;|&#10004;|
 |**[Прочее](Feature-Descriptions-for-Linux-and-FreeBSD-virtual-machines-on-Hyper-V.md#miscellaneous)**|||||||||
 |Пара "ключ — значение"|2019, 2016, 2012 R2|&#10004;|&#10004;|&#10004;|&#10004;|&#10004;|&#10004; Примечание 7|&#10004; Примечание 7|
