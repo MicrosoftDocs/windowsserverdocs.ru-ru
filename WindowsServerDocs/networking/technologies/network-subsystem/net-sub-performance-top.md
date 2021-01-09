@@ -1,18 +1,18 @@
 ---
 title: Настройка производительности сетевой подсистемы
-description: Этот раздел является частью руководств по настройке производительности сетевой подсистемы для Windows Server 2016.
+description: Сведения о сетевой подсистеме и ссылки на другие разделы данного руководства.
 ms.topic: article
 ms.assetid: 45217fce-bfb9-47e8-9814-88ffdb3c7b7d
 manager: dcscontentpm
 ms.author: v-tea
 author: Teresa-Motiv
 ms.date: 08/07/2020
-ms.openlocfilehash: e07f2a36984b7623e57574108b310638dd385567
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 8684630634dcb1d1a5998f69f98ce16dd32b7f38
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97946840"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98040444"
 ---
 # <a name="network-subsystem-performance-tuning"></a>Настройка производительности сетевой подсистемы
 

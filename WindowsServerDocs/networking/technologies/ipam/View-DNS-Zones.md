@@ -1,18 +1,18 @@
 ---
 title: Просмотр зон DNS
-description: Этот раздел является частью руководства по управлению IP-адресами (IPAM) в Windows Server 2016.
+description: Узнайте, как просматривать зоны DNS в консоли клиента IPAM.
 manager: brianlic
 ms.topic: article
 ms.assetid: 2cfe4e40-ec6d-4541-baa9-d772409fe27c
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: 7b9a5d7c4894f9f9019f0b481ece392ac12e3cd4
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 3d336c9a0a97d8423f604066ef0866dad313c4a5
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97948710"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98040424"
 ---
 # <a name="view-dns-zones"></a>Просмотр зон DNS
 

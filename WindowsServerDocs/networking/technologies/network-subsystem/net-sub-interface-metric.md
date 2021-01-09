@@ -1,18 +1,18 @@
 ---
 title: Настройка порядка сетевых интерфейсов
-description: Этот раздел является частью руководств по настройке производительности сетевой подсистемы для Windows Server 2016.
+description: Узнайте, как использовать метрику интерфейса для настройки порядка сетевых интерфейсов.
 ms.topic: article
 ms.assetid: 3266328c-ca82-40d2-90ca-854b7088ccaa
 manager: dcscontentpm
 ms.author: v-tea
 author: Teresa-Motiv
 ms.date: 08/07/2020
-ms.openlocfilehash: bc52a1c3d1ea01708cb1cac7f2feda8bdc61daa2
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 9f75e68b04ba32421148f4f21e8a6ca5aed8eaad
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97946850"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98040384"
 ---
 # <a name="configure-the-order-of-network-interfaces"></a>Настройка порядка сетевых интерфейсов
 

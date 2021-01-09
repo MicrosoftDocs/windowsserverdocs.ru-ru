@@ -1,18 +1,18 @@
 ---
 title: Шаг 12. Тестирование подключения DirectAccess
-description: 'Этот раздел является частью руководства по лаборатории тестирования: демонстрация многосайтового развертывания DirectAccess для Windows Server 2016'
+description: Узнайте, как убедиться, что клиентские компьютеры, расположенные в Интернете или Хоменет сети, имеют правильные параметры групповой политики.
 manager: brianlic
 ms.topic: article
 ms.assetid: 65ac1c23-3a47-4e58-888d-9dde7fba1586
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: 533ba6aef1c64de60990c3f67c09d3be1996d63b
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 64672bfe50d2f1acfb5ea0013f53114ada9164fa
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97950050"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98040534"
 ---
 # <a name="step-12-test-directaccess-connectivity"></a>Шаг 12. Тестирование подключения DirectAccess
 
@@ -28,7 +28,7 @@ ms.locfileid: "97950050"
 
 - Проверка подключения DirectAccess из Интернета через 2-EDGE1
 
-## <a name="prerequisites"></a>Предварительные требования
+## <a name="prerequisites"></a>Предварительные условия
 Подключите оба клиентских компьютера к корпоративной сети, а затем перезапустите оба клиентских компьютера.
 
 ## <a name="verify-clients-have-the-correct-group-policy"></a><a name="policy"></a>Проверка наличия у клиентов правильной групповой политики

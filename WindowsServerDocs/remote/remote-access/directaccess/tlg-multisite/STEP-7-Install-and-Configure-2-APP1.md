@@ -1,18 +1,18 @@
 ---
 title: Шаг 7. Установка и настройка 2 – APP1
-description: 'Этот раздел является частью руководства по лаборатории тестирования: демонстрация многосайтового развертывания DirectAccess для Windows Server 2016'
+description: Узнайте, как установить и настроить 2 – APP1.
 manager: brianlic
 ms.topic: article
 ms.assetid: 1cc0abc6-be4d-4cbe-bd0c-cc448bf294f6
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: 36973d822f607ac6a62fffc956f1dacee68be60a
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: cd907c44605890936d76d99388703108846072f2
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97947980"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98040294"
 ---
 # <a name="step-7-install-and-configure-2-app1"></a>Шаг 7. Установка и настройка 2 – APP1
 

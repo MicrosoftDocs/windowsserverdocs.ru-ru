@@ -1,18 +1,18 @@
 ---
 title: Средства повышения производительности для рабочих нагрузок сети
-description: Этот раздел является частью руководств по настройке производительности сетевой подсистемы для Windows Server 2016.
+description: Сведения о средствах обеспечения производительности, включая клиент-серверное средство передачи данных, размер окна TCP/IP и советник по производительности Microsoft Server.
 ms.topic: article
 ms.assetid: c7789781-87e8-464e-981b-af887d01badd
 manager: dcscontentpm
 ms.author: v-tea
 author: Teresa-Motiv
 ms.date: 07/16/2018
-ms.openlocfilehash: 4344357db92a65725a7bcdc749966d3889d20695
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 78da354a808d0eefaf283662fa4b31932962e3ac
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87995085"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98040394"
 ---
 # <a name="performance-tools-for-network-workloads"></a>Средства повышения производительности для рабочих нагрузок сети
 
@@ -22,13 +22,13 @@ ms.locfileid: "87995085"
 
 В этом разделе содержатся разделы о клиенте для трафика сервера, размер окна TCP/IP и советник по производительности Microsoft Server.
 
-##  <a name="client-to-server-traffic-tool"></a><a name="bkmk_tuning"></a>Средство трафика от клиента к серверу
+##  <a name="client-to-server-traffic-tool"></a><a name="bkmk_tuning"></a> Средство трафика от клиента к серверу
 
 Средство ктстраффик трафика от клиента к серверу \( \) предоставляет возможность создания и проверки сетевого трафика.
 
 Дополнительные сведения и о загрузке средства см. в разделе [ктстраффик (трафик между клиентом и сервером)](https://github.com/Microsoft/ctsTraffic).
 
-##  <a name="tcpip-window-size"></a><a name="bkmk_size"></a>Размер окна TCP/IP
+##  <a name="tcpip-window-size"></a><a name="bkmk_size"></a> Размер окна TCP/IP
 
 Для адаптеров, использующих 1 ГБ, параметры, показанные в предыдущей таблице, должны обеспечить хорошую пропускную способность, так как NTttcp устанавливает размер окна TCP по умолчанию равным 64 КБ через конкретный параметр логического процессора \( \) , SO_RCVBUF для соединения. Это обеспечивает хорошую производительность в сети с низкой задержкой.
 
@@ -36,7 +36,7 @@ ms.locfileid: "87995085"
 
 Можно статически задать размер окна TCP большим значением с помощью параметра **-RB** . Этот параметр отключает автоматическую настройку окна TCP и рекомендуется использовать его только в том случае, если пользователь полностью понимает результирующее изменение в поведении TCP/IP. По умолчанию размер окна TCP задается в достаточном значении и корректируется только при высокой нагрузке или при использовании ссылок с высокой задержкой.
 
-##  <a name="microsoft-server-performance-advisor"></a><a name="bkmk_advisor"></a>Советник по производительности Microsoft Server
+##  <a name="microsoft-server-performance-advisor"></a><a name="bkmk_advisor"></a> Советник по производительности Microsoft Server
 
 Советник по производительности Microsoft \( Server \) позволяет ИТ-администраторам получать метрики для выявления, сравнения и диагностики потенциальных проблем с производительностью в windows Server 2016, windows Server 2012 R2, windows Server 2012, windows Server 2008 R2 или windows Server 2008.
 

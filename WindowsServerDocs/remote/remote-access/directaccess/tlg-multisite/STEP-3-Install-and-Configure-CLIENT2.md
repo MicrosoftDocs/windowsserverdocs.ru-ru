@@ -1,18 +1,18 @@
 ---
 title: Шаг 3. Установка и настройка КЛИЕНТ2
-description: 'Этот раздел является частью руководства по лаборатории тестирования: демонстрация многосайтового развертывания DirectAccess для Windows Server 2016'
+description: Узнайте, как установить и настроить КЛИЕНТ2.
 manager: brianlic
 ms.topic: article
 ms.assetid: f009fdd1-94e6-4ccb-8c6e-609a5394db53
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: 28c612e3e4b2df5095dcf4abe6f081e11d8722dd
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: e64b54edec32ea7944c04d088fa0a4ac983f98b2
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97950020"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98040474"
 ---
 # <a name="step-3-install-and-configure-client2"></a>Шаг 3. Установка и настройка КЛИЕНТ2
 

@@ -1,18 +1,18 @@
 ---
 title: Шаг 13. Тестирование подключения DirectAccess из устройства NAT
-description: 'Этот раздел является частью руководства по лаборатории тестирования: демонстрация многосайтового развертывания DirectAccess для Windows Server 2016'
+description: Узнайте, как проверить подключение к Teredo и подключение IP-HTTPS на обоих клиентских компьютерах.
 manager: brianlic
 ms.topic: article
 ms.assetid: 796825c3-5e3e-4745-a921-25ab90b95ede
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: 3ad38999df70c7ed8e6088687723090911dccbff
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 60cd8351a877fe2c66fdd2392348e3efbc26e6cc
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97950040"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98040524"
 ---
 # <a name="step-13-test-directaccess-connectivity-from-behind-a-nat-device"></a>Шаг 13. Тестирование подключения DirectAccess из устройства NAT
 
@@ -26,7 +26,7 @@ ms.locfileid: "97950040"
 
 2. Проверьте подключение IP-HTTPS. Второй набор тестов выполняется, когда клиент DirectAccess настроен для использования IP-HTTPS. Чтобы продемонстрировать возможность подключения IP-HTTPS, Teredo на клиентских компьютерах отключается. Сначала запустите тесты на компьютере КЛИЕНТ1, а затем выполните тесты на КЛИЕНТ2.
 
-## <a name="prerequisites"></a>Предварительные требования
+## <a name="prerequisites"></a>Предварительные условия
 Запустите EDGE1 и 2-EDGE1, если они еще не запущены, и убедитесь, что они подключены к подсети Интернета.
 
 Перед выполнением этих тестов отключите подключение КЛИЕНТ1 и КЛИЕНТ2 от коммутатора Интернета и подключите их к коммутатору Хоменет. При появлении запроса на тип сети, для которой необходимо определить текущую сеть, выберите **Домашняя сеть**.

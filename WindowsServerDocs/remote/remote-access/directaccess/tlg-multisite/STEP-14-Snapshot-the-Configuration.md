@@ -1,18 +1,18 @@
 ---
 title: Шаг 14. Создание моментального снимка конфигурации
-description: 'Этот раздел является частью руководства по лаборатории тестирования: демонстрация многосайтового развертывания DirectAccess для Windows Server 2016'
+description: Узнайте, как сохранить моментальный снимок конфигурации лаборатории многосайтового тестирования DirectAccess.
 manager: brianlic
 ms.topic: article
 ms.assetid: 8e17d886-f216-400e-bd31-808aceb88033
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: 2be18e736006d9479735f962360af3db61a45e07
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 4626b850efd62edcf780f7577b7fd94d885461a2
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97946490"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98040504"
 ---
 # <a name="step-14-snapshot-the-configuration"></a>Шаг 14. Создание моментального снимка конфигурации
 

@@ -1,18 +1,18 @@
 ---
 title: Выбор сетевого адаптера
-description: Этот раздел является частью руководств по настройке производительности сетевой подсистемы для Windows Server 2016.
+description: Узнайте, как изучить некоторые функции сетевых адаптеров, которые могут повлиять на варианты приобретения.
 ms.topic: article
 ms.assetid: a6615411-83d9-495f-8a6a-1ebc8b12f164
 manager: dcscontentpm
 ms.author: v-tea
 author: Teresa-Motiv
 ms.date: 08/07/2020
-ms.openlocfilehash: b136adc4e7cfae29ebb0517f83ac763d98bd622c
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 0a1730ccf8aef478d3d82ea9d08b1dd8129f3942
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97949040"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98040414"
 ---
 # <a name="choosing-a-network-adapter"></a>Выбор сетевого адаптера
 

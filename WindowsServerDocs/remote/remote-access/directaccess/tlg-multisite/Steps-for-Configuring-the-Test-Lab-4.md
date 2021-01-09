@@ -1,18 +1,18 @@
 ---
 title: Шаги по настройке лаборатории тестирования
-description: 'Этот раздел является частью руководства по лаборатории тестирования: демонстрация многосайтового развертывания DirectAccess для Windows Server 2016'
+description: Узнайте, как настроить инфраструктуру удаленного доступа, настроить серверы удаленного доступа и клиенты, а также проверить возможность подключения DirectAccess из подсетей Интернета и Хоменет.
 manager: brianlic
 ms.topic: article
 ms.assetid: dc7205b4-a822-4038-ab67-ec0a870737f2
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: 54241bc7cb593fda1f4bfd1f60a20eb0b03694ec
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 7123b4010c34843db4a09d49794a426e109ce22f
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97947950"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98040264"
 ---
 # <a name="steps-for-configuring-the-test-lab"></a>Шаги по настройке лаборатории тестирования
 

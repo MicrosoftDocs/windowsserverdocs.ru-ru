@@ -1,18 +1,18 @@
 ---
 title: Шаг 2. Установка и Настройка компьютера МАРШРУТИЗАТОР1
-description: 'Этот раздел является частью руководства по лаборатории тестирования: демонстрация многосайтового развертывания DirectAccess для Windows Server 2016'
+description: Узнайте, как установить и настроить МАРШРУТИЗАТОР1.
 manager: brianlic
 ms.topic: article
 ms.assetid: dc20b1a0-540d-4531-a176-50b87c071600
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: 88f85d230b26566a0053eb508a1dc8a696a95d6a
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: d505d40af963645bff711956c83e239668668716
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97950030"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98040514"
 ---
 # <a name="step-2-install-and-configure-router1"></a>Шаг 2. Установка и Настройка компьютера МАРШРУТИЗАТОР1
 

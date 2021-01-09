@@ -1,18 +1,18 @@
 ---
 title: Пошаговое руководства по тестированию. демонстрация DirectAccess в кластере с помощью Windows NLB
-description: Этот раздел является частью руководства по тестовой лаборатории. демонстрация DirectAccess в кластере с Windows NLB для Windows Server 2016
+description: Узнайте, как расширить настройку программы установки DirectAccess с помощью смешанного руководства по IPv4 и тестовой лаборатории IPv6, чтобы продемонстрировать балансировку сетевой нагрузки DirectAccess и конфигурацию кластера.
 manager: brianlic
 ms.topic: article
 ms.assetid: db15dcf5-4d64-48d7-818a-06c2839e1289
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: 39d23a08cdf24cbf8c229e45c99e81330c353e79
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: b6876141c55a78e8c6271558b1eb3246b3ebe4d7
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97946530"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98040554"
 ---
 # <a name="test-lab-guide-demonstrate-directaccess-in-a-cluster-with-windows-nlb"></a>Руководство по лаборатории тестирования: демонстрация DirectAccess в кластере с балансировкой сетевой нагрузки Windows
 
@@ -39,7 +39,7 @@ ms.locfileid: "97946530"
 
     3.  Попытайтесь включить балансировку нагрузки, пока не возникнет ошибка. В диалоговом окне "Включение балансировки нагрузки" разверните область сведений, щелкните ее правой кнопкой мыши и выберите команду **Копировать сценарий**.
 
-    4.  Откройте Блокнот и вставьте содержимое буфера обмена. Пример:
+    4.  Откройте Блокнот и вставьте содержимое буфера обмена. Например:
 
         ```
         Set-RemoteAccessLoadBalancer -InternetDedicatedIPAddress @('10.244.4.19/255.255.255.0','fdc4:29bd:abde:3333::2/128') -InternetVirtualIPAddress @('fdc4:29bd:abde:3333::1/128', '10.244.4.21/255.255.255.0') -ComputerName 'DA1.domain1.corp.contoso.com' -Verbose
@@ -47,7 +47,7 @@ ms.locfileid: "97946530"
 
     5.  Закройте все открытые диалоговые окна удаленного доступа и закройте консоль управления удаленным доступом.
 
-    6.  Измените вставленный текст и удалите IPv6-адреса. Пример:
+    6.  Измените вставленный текст и удалите IPv6-адреса. Например:
 
         ```
         Set-RemoteAccessLoadBalancer -InternetDedicatedIPAddress @('10.244.4.19/255.255.255.0') -InternetVirtualIPAddress @('10.244.4.21/255.255.255.0') -ComputerName 'DA1.domain1.corp.contoso.com' -Verbose

@@ -1,18 +1,18 @@
 ---
 title: Шаг 8. Настройка INET1
-description: 'Этот раздел является частью руководства по лаборатории тестирования: демонстрация многосайтового развертывания DirectAccess для Windows Server 2016'
+description: Узнайте, как настроить запись DNS для 2-EDGE1 на INET1.
 ms.topic: article
 ms.assetid: 693acb5c-dffc-4484-8286-163bb67724c9
 ms.author: lizross
 author: eross-msft
 manager: mtillman
 ms.date: 08/07/2020
-ms.openlocfilehash: 5c79f82ae0adf3fc19349da6ead3064376a81a6a
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 0a17e726d200cc344c83f2d4aafed2f5493b294a
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97947970"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98040374"
 ---
 # <a name="step-8-configure-inet1"></a>ШАГ 8. Настройка INET1
 

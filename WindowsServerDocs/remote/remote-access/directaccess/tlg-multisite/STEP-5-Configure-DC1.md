@@ -1,18 +1,18 @@
 ---
 title: Шаг 5. Настройка DC1
-description: 'Этот раздел является частью руководства по лаборатории тестирования: демонстрация многосайтового развертывания DirectAccess для Windows Server 2016'
+description: Узнайте, как настроить шлюз по умолчанию на контроллере домена, создать группы безопасности для клиентов DirectAccess Windows 7 на компьютере DC1 и добавить новый сайт AD DS.
 manager: brianlic
 ms.topic: article
 ms.assetid: 70357156-fcb0-4346-a61e-4ea963e3ffb0
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: b2381f72a8ca2c65c1a80f01788d33a81c83e8ad
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 9939cb397fa7c5386e4058a834a205afaa99cd9f
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97948220"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98040484"
 ---
 # <a name="step-5-configure-dc1"></a>Шаг 5. Настройка DC1
 

@@ -1,18 +1,18 @@
 ---
 title: Действия по настройке лаборатории тестирования с проверкой подлинности OTP и RSA SecurID
-description: 'Эта статья является частью руководства по тестовой лаборатории: демонстрация DirectAccess с проверкой подлинности OTP и RSA SecurID для Windows Server 2016.'
+description: Сведения о настройке инфраструктуры удаленного доступа, настройке сервера удаленного доступа и клиента, а также о тестировании подключения DirectAccess из подсетей Хоменет и Интернета.
 manager: brianlic
 ms.topic: article
 ms.assetid: 0a40183c-afd1-43ca-b306-05745640a37d
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: 5ed481a474203e9436796ffa87a30c41ac9fa1cd
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: a7b4293626ab8ab625e2c6be71d346d34bc44100
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97949790"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98040324"
 ---
 # <a name="steps-for-configuring-the-test-lab-with-otp-authentication-and-rsa-securid"></a>Действия по настройке лаборатории тестирования с проверкой подлинности OTP и RSA SecurID
 

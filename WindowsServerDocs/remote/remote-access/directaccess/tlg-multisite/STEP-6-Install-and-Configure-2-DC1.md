@@ -1,18 +1,18 @@
 ---
 title: Шаг 6. Установка и настройка 2 — DC1
-description: 'Этот раздел является частью руководства по лаборатории тестирования: демонстрация многосайтового развертывания DirectAccess для Windows Server 2016'
+description: Узнайте, как установить и настроить 2 — DC1.
 manager: brianlic
 ms.topic: article
 ms.assetid: 3d66901a-c40b-474c-9948-f989f399cfea
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: 7ef27699d1dbc402937c5ca4ef8c7ac62af8392a
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 0d6626e924ffa915a6768dfc40e28028d22b8937
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97947990"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98040434"
 ---
 # <a name="step-6-install-and-configure-2-dc1"></a>Шаг 6. Установка и настройка 2 — DC1
 

@@ -1,18 +1,18 @@
 ---
 title: Пошаговое руководства по тестированию. демонстрация DirectAccess с проверкой подлинности OTP и RSA SecurID
-description: 'Эта статья является частью руководства по тестовой лаборатории: демонстрация DirectAccess с проверкой подлинности OTP и RSA SecurID для Windows Server 2016.'
+description: Узнайте, как расширить настройку программы установки DirectAccess с помощью смешанного лабораторного руководства по IPv4 и тестированию IPv6, чтобы продемонстрировать конфигурацию удаленного доступа одноразового пароля (OTP).
 manager: brianlic
 ms.topic: article
 ms.assetid: 10c7a49c-5671-4bec-b562-13fdd67f4629
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: 14a7af29c0c927f33cbc36313a080e46e35f3263
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 91f24de07909fabcb0b3d2272d57887cfa12a22e
+ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97949260"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "98040314"
 ---
 # <a name="test-lab-guide-demonstrate-directaccess-with-otp-authentication-and-rsa-securid"></a>Руководство по лаборатории тестирования: демонстрация DirectAccess с проверкой подлинности OTP и RSA SecurID
 
