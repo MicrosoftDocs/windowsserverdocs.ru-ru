@@ -7,12 +7,13 @@ ms.assetid: 9b25b939-1e2c-4bed-a8d3-2a8e8e46b53d
 author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: 30fbac4a8e05bb8c6c2a76481afc3962892f02b3
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: 08ea28459ae58673c0c0e61310cb4bd4adcda675
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87959522"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97942710"
 ---
 # <a name="powershell-on-nano-server"></a>PowerShell на сервере Nano Server
 

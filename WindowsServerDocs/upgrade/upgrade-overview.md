@@ -1,16 +1,16 @@
 ---
 title: Общие сведения об обновлениях Windows Server | Документация Майкрософт
 description: Узнайте об обновлениях Windows Server и некоторых аспектах, которые нужно учитывать перед выполнением фактического обновления.
-ms.topic: upgrade
+ms.topic: how-to
 author: RobHindman
 ms.author: robhind
 ms.date: 09/10/2019
-ms.openlocfilehash: 1aa923287c26aa75916a418b6550e2dec6bbb6cd
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: d460465d7bbeb403d2c094fc7be00eef0073d307
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87939254"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97949610"
 ---
 # <a name="overview-of-windows-server-upgrades"></a>Общие сведения об обновлениях Windows Server
 

@@ -3,17 +3,17 @@ title: Разработка на базе сервера Nano Server
 description: Удаленное взаимодействие и сеансы CIM в PowerShell
 manager: DonGill
 ms.date: 09/06/2017
-ms.topic: get-started-article
+ms.topic: how-to
 ms.assetid: 57079470-a1c1-4fdc-af15-1950d3381860
 author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: c003bf160260e5a3d9ef068ede44dc20cbbbc73f
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: b2f192f45a624c3c6ad26b80a075911abeddfb53
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87959833"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97947580"
 ---
 # <a name="developing-for-nano-server"></a>Разработка на базе сервера Nano Server
 

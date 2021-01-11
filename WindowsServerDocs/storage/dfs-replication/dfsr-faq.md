@@ -5,12 +5,13 @@ ms.date: 06/18/2014
 author: JasonGerend
 manager: elizapo
 ms.author: jgerend
-ms.openlocfilehash: 976539e31fa335a09d834e889ecd6c729b533236
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.topic: article
+ms.openlocfilehash: e8ca17ae49b816e046ca0460d8e0108c54210ff0
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97048782"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97948200"
 ---
 # <a name="dfs-replication-frequently-asked-questions-faq"></a>Репликация DFS. Вопросы и ответы
 

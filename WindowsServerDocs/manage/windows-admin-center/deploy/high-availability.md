@@ -5,12 +5,13 @@ ms.topic: article
 author: jwwool
 ms.author: jeffrew
 ms.localizationpriority: medium
-ms.openlocfilehash: 132f566e8467179c1a58e3555d26ab834dae7129
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: e77277300eedf0a6daf93038f577fc1ef3a0b472
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87970861"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97947550"
 ---
 # <a name="deploy-windows-admin-center-with-high-availability"></a>Развертывание Windows Admin Center с высоким уровнем доступности
 

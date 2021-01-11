@@ -1,18 +1,18 @@
 ---
 title: Начало работы со службами обновления Windows Server (WSUS)
 description: Статья о службах обновления Windows Server (WSUS) с описанием роли сервера и ее применения на практике
-ms.topic: get-started article
+ms.topic: how-to
 ms.assetid: 90e3464c-49d8-4861-96db-ee6f8a09ec5b
 ms.author: lizross
 author: eross-msft
 manager: mtillman
 ms.date: 5/22/2017
-ms.openlocfilehash: 383b4d036ee3600e9876815835737bb9f800e232
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: ca4705255c36ef8ecf51d97bbbc17555f8196119
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89624442"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97947600"
 ---
 # <a name="windows-server-update-services-wsus"></a>Службы Windows Server Update Services (WSUS)
 

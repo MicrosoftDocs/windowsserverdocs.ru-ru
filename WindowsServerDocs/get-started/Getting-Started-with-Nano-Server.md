@@ -3,17 +3,17 @@ title: Установка сервера Nano Server
 description: Чистая установка, обновление, перенос и оценка сервера Nano Server
 manager: dougkim
 ms.date: 09/06/2017
-ms.topic: get-started-article
+ms.topic: how-to
 ms.assetid: 2c2fa45b-6f3b-4663-b421-2da6ecc463bf
 author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: 56944f3672a2caccb208aef4b2db465f354ad528
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: c0666a974cdb36e689a729c748e7aa047dba585f
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87990555"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97947570"
 ---
 # <a name="install-nano-server"></a>Установка сервера Nano Server
 

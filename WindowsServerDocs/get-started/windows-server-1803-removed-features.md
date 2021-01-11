@@ -7,12 +7,13 @@ ms.sitesec: library
 author: jasongerend
 ms.author: jgerend
 ms.date: 10/22/2019
-ms.openlocfilehash: 1d5a439a08cba15bd7ed37be8bb25f415cd16b46
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.topic: article
+ms.openlocfilehash: 9483a0561091686f833875dc23cf895456f97d5e
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87993620"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97948050"
 ---
 # <a name="features-removed-or-planned-for-replacement-starting-with-windows-server-version-1803"></a>Удаленные или подлежащие замене компоненты в Windows Server версии 1803
 

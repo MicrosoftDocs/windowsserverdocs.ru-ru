@@ -6,12 +6,13 @@ ms.assetid: c94e37a4-3637-4613-9eb5-ed604e831eca
 manager: brianlic
 ms.author: lizross
 author: eross-msft
-ms.openlocfilehash: 35690e25fa18512d729bbd323b8983284a41781d
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: 3f03a1c98463b1c6135bdf5ae62dafd91cf60b75
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87953980"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97946870"
 ---
 # <a name="network-shell-netsh-example-batch-file"></a>Пример пакетного файла сетевой оболочки (Netsh)
 

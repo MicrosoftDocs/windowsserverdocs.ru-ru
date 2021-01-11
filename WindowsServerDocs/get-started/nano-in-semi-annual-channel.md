@@ -7,14 +7,14 @@ author: jasongerend
 ms.author: jgerend
 ms.localizationpriority: medium
 ms.date: 05/21/2019
-ms.topic: get-started-article
+ms.topic: how-to
 ms.assetid: a270334d-42a7-46ff-8eed-d8656a276544
-ms.openlocfilehash: 6a0f95743a7be890da8aabc2d4fbd2e38a15952f
-ms.sourcegitcommit: 5344adcf9c0462561a4f9d47d80afc1d095a5b13
+ms.openlocfilehash: f8495867c63482e14add82f72959d8a73b5ec1a6
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90766607"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97946760"
 ---
 # <a name="changes-to-nano-server-in-windows-server-semi-annual-channel"></a>Изменения сервера Nano Server в Semi-Annual Channel для Windows Server
 

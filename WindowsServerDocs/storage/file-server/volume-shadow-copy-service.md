@@ -5,12 +5,13 @@ ms.date: 01/30/2019
 author: JasonGerend
 manager: elizapo
 ms.author: jgerend
-ms.openlocfilehash: fce81dbff86ec06d69a9a684a5f418866fe485c6
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.topic: article
+ms.openlocfilehash: 8d463cd848e4f0bfbfd0d321e15d20dbc2e8f609
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97046042"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97949170"
 ---
 # <a name="volume-shadow-copy-service"></a>Служба теневого копирования томов
 

@@ -1,16 +1,16 @@
 ---
 title: Обновление Windows Server 2008 R2 до Windows Server 2012 R2 | Документация Майкрософт
 description: Узнайте, как выполнить обновление на месте для перехода с Windows Server 2008 R2 на Windows Server 2012 R2.
-ms.topic: upgrade
+ms.topic: how-to
 author: RobHindman
 ms.author: robhind
 ms.date: 09/16/2019
-ms.openlocfilehash: fad4caf75be75bae5361a99f1e6e6520767680cd
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 17e83565636ffabe819965a37ca7423372be2280
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87996098"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97949650"
 ---
 # <a name="upgrade-windows-server-2008-r2-to-windows-server-2012-r2"></a>Обновление Windows Server 2008 R2 до Windows Server 2012 R2
 

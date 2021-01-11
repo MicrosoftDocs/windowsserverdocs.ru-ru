@@ -7,13 +7,13 @@ author: jasongerend
 ms.author: jgerend
 ms.localizationpriority: medium
 ms.date: 11/12/2019
-ms.topic: get-started-article
-ms.openlocfilehash: 399a79588c91be0ab5cf553fc29636e5ab768c16
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.topic: how-to
+ms.openlocfilehash: 6e39590e1581056f741585fa1123d8db9ac764cf
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87959702"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97949250"
 ---
 # <a name="kms-client-setup-keys"></a>Ключи установки клиента KMS
 

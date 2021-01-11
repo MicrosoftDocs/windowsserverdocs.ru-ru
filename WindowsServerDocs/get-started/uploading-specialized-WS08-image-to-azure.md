@@ -6,14 +6,14 @@ ms.sitesec: library
 author: eross-msft
 ms.author: thierryp
 ms.date: 07/11/2018
-ms.topic: get-started-article
+ms.topic: how-to
 ms.localizationpriority: high
-ms.openlocfilehash: 759827d870b4573fc519f85ff890c48be9a28b5e
-ms.sourcegitcommit: 7cacfc38982c6006bee4eb756bcda353c4d3dd75
+ms.openlocfilehash: a34aad872bf52bbca965571e20d4dd3ebb975228
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "90078611"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97948060"
 ---
 # <a name="upload-a-windows-server-20082008-r2-specialized-image-to-azure"></a>Отправка специализированного образа Windows Server 2008 или 2008 R2 в Azure
 

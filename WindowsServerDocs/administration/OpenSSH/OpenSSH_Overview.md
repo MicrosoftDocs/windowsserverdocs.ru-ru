@@ -4,13 +4,13 @@ description: Общие сведения о средствах OpenSSH, испо
 ms.date: 01/07/2019
 ms.author: damaerte
 author: maertendmsft
-ms.type: overview
-ms.openlocfilehash: f39e80bbeb3f610131ffcab67c271a792d5127e9
-ms.sourcegitcommit: 7cacfc38982c6006bee4eb756bcda353c4d3dd75
+ms.topic: overview
+ms.openlocfilehash: bfc51896634c7772586949b9dc516de16679e0df
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "90078371"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97946370"
 ---
 # <a name="openssh-in-windows"></a>OpenSSH в среде Windows
 

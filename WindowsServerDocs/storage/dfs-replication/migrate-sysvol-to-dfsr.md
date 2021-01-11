@@ -5,12 +5,13 @@ ms.date: 07/02/2012
 author: JasonGerend
 manager: elizapo
 ms.author: jgerend
-ms.openlocfilehash: c0ab678542260b9b7d1975a633b2244aac7fe3d7
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.topic: article
+ms.openlocfilehash: 137e8258a8d26792daca5f2148d1de2b7fc62c10
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97048762"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97948190"
 ---
 # <a name="migrate-sysvol-replication-to-dfs-replication"></a>Перенос репликации SYSVOL в репликацию DFS
 

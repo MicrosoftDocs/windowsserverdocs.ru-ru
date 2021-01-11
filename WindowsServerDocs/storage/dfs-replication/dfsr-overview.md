@@ -5,12 +5,13 @@ ms.date: 03/08/2019
 author: JasonGerend
 manager: elizapo
 ms.author: jgerend
-ms.openlocfilehash: 7cc69e3d1b3a141d79a1a0ef036db93762154039
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.topic: article
+ms.openlocfilehash: b6b8563c0d7f4d7cb388fa88d9ec7b8868e946e2
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97048772"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97948950"
 ---
 # <a name="dfs-replication-overview"></a>Обзор репликации DFS
 

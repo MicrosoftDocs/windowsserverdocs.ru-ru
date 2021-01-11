@@ -5,13 +5,14 @@ ms.reviewer: cosmosdarwin
 author: iangpgh
 ms.author: jgerend
 manager: daveba
+ms.topic: article
 ms.date: 06/20/2019
-ms.openlocfilehash: cd7aa3dbb648e5083894f4344ea96ca1c1684aab
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: daa2a0e80a21d28259df6d90b223f6ef9e27579a
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87971171"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97950420"
 ---
 # <a name="using-disk-cleanup-on-windows-server"></a>Использование очистки диска на Windows Server
 

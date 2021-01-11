@@ -6,14 +6,14 @@ ms.sitesec: library
 author: eross-msft
 ms.author: thierryp
 ms.date: 07/12/2018
-ms.topic: get-started-article
+ms.topic: how-to
 ms.localizationpriority: high
-ms.openlocfilehash: 0a65ad1b26017001b61af94af497317c509d20b1
-ms.sourcegitcommit: 5f234fb15c1d0365b60e83a50bf953e317d6239c
+ms.openlocfilehash: 77d4e6d17fe1fe6de7c7d326b5217b47def03c98
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97879793"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97942700"
 ---
 # <a name="upgrade-windows-server-2008-and-windows-server-2008-r2"></a>Обновление Windows Server 2008 и Windows Server 2008 R2
 

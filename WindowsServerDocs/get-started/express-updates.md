@@ -5,17 +5,16 @@ ms.topic: article
 author: lizap
 ms.author: elizapo
 ms.localizationpriority: medium
-ms.openlocfilehash: f6b5e90b2134e21bccb7ed3006037963a77b6338
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.date: 08/07/2020
+ms.openlocfilehash: e35f2d8c80ab31f85dc16d3b8f9b37af3ed105ed
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87941676"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97950320"
 ---
 # <a name="express-updates-for-windows-server-2016-re-enabled-for-november-2018-update"></a>Экспресс-обновления для Windows Server 2016 снова включены в обновлении за ноябрь 2018 г.
 
-> Автор: Джоэл Фраунхайм
->
 > Область применения. Windows Server 2016
 
 Начиная со вторника обновлений, 13 ноября 2018 года, команда разработчиков Windows будет снова публиковать экспресс-обновления для Windows Server 2016. Выпуск экспресс-обновлений для Windows Server 2016 был остановлен в середине 2017 года после обнаружения значительной проблемы, препятствовавшей правильной установке обновлений. Хотя проблема была устранена в ноябре 2017 года, команда разработчиков обновлений применила традиционный подход к публикации пакетов экспресс-обновлений, чтобы большинство клиентов установило на свои серверы обновление от 14 ноября 2017 года ([KB4048953](https://support.microsoft.com/help/4048953/windows-10-update-kb4048953)) и больше не сталкивалось с этой проблемой.

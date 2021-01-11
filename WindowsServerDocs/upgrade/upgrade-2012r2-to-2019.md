@@ -1,16 +1,16 @@
 ---
 title: Обновление Windows Server 2012 R2 до Windows Server 2019 | Документация Майкрософт
 description: Узнайте, как выполнить обновление на месте для перехода с Windows Server 2012 R2 на Windows Server 2019.
-ms.topic: upgrade
+ms.topic: how-to
 author: RobHindman
 ms.author: robhind
 ms.date: 09/16/2019
-ms.openlocfilehash: c23c04682fe796a5d76f487b5ed6d91e81ac3ad1
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: b512380c04a2c97b82d8cf0abf54f2dba6493faf
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87995779"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97949630"
 ---
 # <a name="upgrade-windows-server-2012-r2-to-windows-server-2019"></a>Обновление Windows Server 2012 R2 до Windows Server 2019
 
