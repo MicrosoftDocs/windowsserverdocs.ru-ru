@@ -1,21 +1,21 @@
 ---
-title: Удаленный рабочий стол — сравнение клиентских приложений
-description: Сравните различные приложения удаленных рабочих столов по поддерживаемым возможностям и функциям.
+title: Удаленный рабочий стол — сравнение перенаправлений клиентских приложений
+description: Сведения о различиях в перенаправлениях для разных приложений удаленного рабочего стола.
 ms.topic: article
 ms.assetid: 12efe858-6b76-4e08-9f72-b9603aceb0fc
 author: heidilohr
 manager: lizross
 ms.author: helohr
-ms.date: 10/07/2020
+ms.date: 12/16/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: 2c34ab9c769beb25437e26442d85f75d40db163e
-ms.sourcegitcommit: ed77cfe8140a480b025907716e3635d40a5e3303
+ms.openlocfilehash: 7d06703386b60ad88271f3239700ef1a97e5c82c
+ms.sourcegitcommit: e57536e28902ae52d3040141bbd2aa00e91bbdd3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "91806639"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "97644604"
 ---
-# <a name="compare-the-clients"></a>Сравнение клиентов
+# <a name="compare-the-clients-redirections"></a>Сравнение клиентов: перенаправления
 
 >Применяется к: Windows 10, Windows 8.1, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2
 
@@ -62,3 +62,7 @@ ms.locfileid: "91806639"
 | Speakers            | X                         | X                           | X             | X       | X           | X                               | X (за исключением IE) |
 
 \* Для перенаправления принтера — приложение macOS поддерживает драйвер фотонабора принтера по умолчанию. Не поддерживают перенаправление собственных драйверов принтера.
+
+## <a name="other-resources"></a>Другие ресурсы
+
+Сравнение функций см. в статье [Сравнение клиентов: функции](remote-desktop-features.md).

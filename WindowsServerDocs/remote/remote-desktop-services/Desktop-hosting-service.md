@@ -1,17 +1,17 @@
 ---
 title: Служба размещения рабочих столов
-description: Описывает компоненты службы размещения рабочих столов.
+description: Сведения о компонентах службы размещения рабочих столов в Windows Server.
 ms.author: helohr
 ms.date: 07/06/2018
 ms.topic: article
 author: heidilohr
 manager: lizross
-ms.openlocfilehash: e1973bca8218f1ece287b03fee24486e95fe5492
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 4453c63b364cf664b9f1a0bd0325bcb88b6d3b2b
+ms.sourcegitcommit: 5f234fb15c1d0365b60e83a50bf953e317d6239c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87971641"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97879433"
 ---
 # <a name="desktop-hosting-service"></a>Служба размещения рабочих столов
 
@@ -55,7 +55,7 @@ ms.locfileid: "87971641"
 Дополнительные сведения о настройке инфраструктуры высокой доступности для базы данных SQL см. в следующих статьях:
 
 * [Что такое служба базы данных SQL Azure?](/azure/sql-database/sql-database-technical-overview)
-* [Создание и настройка групп доступности (SQL Server)](/sql/database-engine/availability-groups/windows/creation-and-configuration-of-availability-groups-sql-server?view=sql-server-2017).
+* [Создание и настройка групп доступности (SQL Server)](/sql/database-engine/availability-groups/windows/creation-and-configuration-of-availability-groups-sql-server?view=sql-server-2017&preserve-view=true).
 * [Добавление сервера посредника подключений к удаленному рабочему столу в развертывание и настройка высокого уровня доступности](rds-connection-broker-cluster.md)
 
 ## <a name="file-server"></a>Файловый сервер

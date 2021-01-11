@@ -6,12 +6,12 @@ ms.topic: article
 author: jasongerend
 ms.author: jgerend
 ms.localizationpriority: medium
-ms.openlocfilehash: 51d14aab4b972cc608e9b3afe3e6313e6efffbd8
-ms.sourcegitcommit: 7c0794e257f602bd71af5eb9a11b8a03d2b9adfd
+ms.openlocfilehash: 2ba281106fbc6149b226326e79a41618efbc0fc2
+ms.sourcegitcommit: 4f7308430a69fe7965e16aa5b31f87c5d68e4a09
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "97390252"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "97577396"
 ---
 # <a name="whats-new-in-windows-server"></a>Новые возможности Windows Server
 
@@ -27,7 +27,8 @@ ms.locfileid: "97390252"
 Выпуски Semi-Annual Channel
 
 - [Что нового в Windows Server версий 2004 и 20H2](whats-new-in-windows-server-2004.md)
-- [Новые возможности Windows Server версий 1903 и 1909](../get-started-19/whats-new-in-windows-server-1903-1909.md) (обслуживание прекращено 8 декабря 2020 г.)
+- [Новые возможности Windows Server версии 1909](../get-started-19/whats-new-in-windows-server-1903-1909.md) 
+- [Новые возможности Windows Server версии 1903](../get-started-19/whats-new-in-windows-server-1903-1909.md) (обслуживание прекращено 8 декабря 2020 г.)
 - [Новые возможности Windows Server версии 1809](whats-new-in-windows-server-1809.md) (обслуживание прекращено 10 ноября 2020 г.)
 - [Новые возможности Windows Server версии 1803](whats-new-in-windows-server-1803.md) (обслуживание прекращено 12 ноября 2019 г.)
 - [Новые возможности Windows Server версии 1709](whats-new-in-windows-server-1709.md) (обслуживание прекращено 9 апреля 2019 г.)

@@ -1,17 +1,17 @@
 ---
 title: Управление коллекцией сеансов личных рабочих столов в RDS
-description: Узнайте, как добавить узел сеансов удаленных рабочих столов (RDSH) и удаленные приложения RemoteApp в развертывание RDS.
+description: Сведения об управлении коллекцией сеансов личных удаленных рабочих столов в службах удаленных рабочих столов.
 ms.author: elizapo
 ms.date: 11/08/2016
 ms.topic: article
 author: lizap
 manager: dongill
-ms.openlocfilehash: bd6c91b7f022e60e488c90776e0981523da7bccb
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 7a7d0501aadabba8e650840906275bb4705b6d10
+ms.sourcegitcommit: 48d45b2adf44afb0207214be9c57fe589360d177
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87961658"
+ms.lasthandoff: 12/31/2020
+ms.locfileid: "97833609"
 ---
 # <a name="manage-your-personal-desktop-session-collections"></a>Управление коллекциями сеансов личных рабочих столов
 

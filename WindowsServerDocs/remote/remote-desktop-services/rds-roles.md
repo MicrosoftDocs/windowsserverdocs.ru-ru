@@ -1,17 +1,17 @@
 ---
 title: Роли служб удаленных рабочих столов
-description: Описывает компоненты службы размещения рабочих столов.
+description: Сведения о ролях в среде Служб удаленных рабочих столов в Windows Server.
 ms.author: helohr
 ms.date: 07/06/2018
 ms.topic: article
 author: heidilohr
 manager: lizross
-ms.openlocfilehash: 378e93cb501bc380c33e2cdee4ce85b52d70430b
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: f99ad1529eb0882fc979240bab6f82f8779f0d49
+ms.sourcegitcommit: 9e19436bd8b20af60284071ab512405aebfbec83
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87954901"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97811421"
 ---
 # <a name="remote-desktop-services-roles"></a>Роли служб удаленных рабочих столов
 

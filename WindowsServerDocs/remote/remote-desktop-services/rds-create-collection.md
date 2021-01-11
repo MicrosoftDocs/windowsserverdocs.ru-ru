@@ -1,18 +1,18 @@
 ---
 title: Создание коллекции служб удаленных рабочих столов
-description: Узнайте, как добавить удаленные рабочие столы и приложения RemoteApp для развертывания служб удаленных рабочих столов.
+description: Сведения о создании коллекции сеансов служб удаленных рабочих столов.
 ms.author: elizapo
 ms.date: 10/22/2019
 ms.topic: article
 ms.assetid: ae9767e3-864a-4eb2-96c0-626759ce6d60
 author: lizap
 manager: dongill
-ms.openlocfilehash: 7827d83fdd071cb57b51ee8c04776680e5e29e64
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: d8b262cc183d9f32c436a5ac628933a8b0b2babb
+ms.sourcegitcommit: 48d45b2adf44afb0207214be9c57fe589360d177
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87936953"
+ms.lasthandoff: 12/31/2020
+ms.locfileid: "97834789"
 ---
 # <a name="create-a-remote-desktop-services-collection-for-desktops-and-apps-to-run"></a>Создание коллекции служб удаленных рабочих столов для запуска рабочих столов и приложений
 
