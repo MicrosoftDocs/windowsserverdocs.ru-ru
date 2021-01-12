@@ -7,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: a5b377989315462789b9b33faf5267211c93bf8c
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: e602ae1f188de72ae974e45d8a5f341185216eb5
+ms.sourcegitcommit: 6a62d736e4d9989515c6df85e2577662deb042b6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97039732"
+ms.lasthandoff: 01/11/2021
+ms.locfileid: "98103746"
 ---
 # <a name="remove-the-microsoft-copyright"></a>Удаление авторского права Майкрософт
 
@@ -20,7 +20,7 @@ ms.locfileid: "97039732"
 
 По умолчанию страницы AD FS содержат авторские права Майкрософт. Для удаления этих сведений с настроенных страниц можно воспользоваться следующей процедурой.
 
-![удалить авторские права](media/AD-FS-user-sign-in-customization/ADFS_Blue_Custom1.png)
+![Снимок экрана, на котором показана страница входа с авторским правом внизу.](media/AD-FS-user-sign-in-customization/ADFS_Blue_Custom1.png)
 
 ## <a name="to-remove-the-microsoft-copyright"></a>Удаление сведений об авторских правах Майкрософт
 

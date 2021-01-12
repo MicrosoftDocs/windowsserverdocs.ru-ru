@@ -7,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 74fab5d6d790c4cf8ff4548f723a58dee50a941e
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: 8413f257b91035f8ec01602f1b440bc8cbd75a9a
+ms.sourcegitcommit: 6a62d736e4d9989515c6df85e2577662deb042b6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97044612"
+ms.lasthandoff: 01/11/2021
+ms.locfileid: "98103776"
 ---
 # <a name="scenario-central-access-policy"></a>Сценарий: Централизованная политика доступа
 
@@ -52,11 +52,11 @@ ms.locfileid: "97044612"
 
 На следующих двух рисунках показан рабочий процесс в централизованной политике доступа и в политике аудита.
 
-![руководства по решениям](media/Scenario--Central-Access-Policy/DynamicAccessControl_RevGuide.JPG)
+![Схема, на которой показаны основные понятия политики доступа и аудита.](media/Scenario--Central-Access-Policy/DynamicAccessControl_RevGuide.JPG)
 
 **Рис. 1** Концепции централизованной политики доступа и политики аудита
 
-![руководства по решениям](media/Scenario--Central-Access-Policy/DynamicAccessControl_RevGuide_2.JPG)
+![Схема, на которой показан рабочий процесс централизованной политики доступа.](media/Scenario--Central-Access-Policy/DynamicAccessControl_RevGuide_2.JPG)
 
 **Рис. 2** Рабочий процесс централизованной политики доступа
 

@@ -7,12 +7,12 @@ manager: femila
 ms.date: 05/31/2017
 ms.topic: article
 ms.assetid: 08724d45-9be4-4c56-a5f1-2cf40864e136
-ms.openlocfilehash: 55ae8f4630c21ceb5cde91982970ff52c10047da
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: 5f05abf8c14fc3829fe9a0e99ef12de2cde97f81
+ms.sourcegitcommit: 6a62d736e4d9989515c6df85e2577662deb042b6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97039742"
+ms.lasthandoff: 01/11/2021
+ms.locfileid: "98103726"
 ---
 # <a name="multi-factor-authentication-and-external-authentication-providers-customization"></a>Настройка многофакторной идентификации и внешних поставщиков проверки подлинности
 
@@ -26,7 +26,7 @@ Export-AdfsWebTheme -Name default -DirectoryPath C:\theme
 
 Ниже приведен пример \- интерфейса пользователя для входа, который выделяется красным по отношению к внешнему поставщику проверки подлинности. Пользовательский интерфейс использует классы пользовательского интерфейса в файле AD FS. CSS.
 
-![AD FS и MFA](media/AD-FS-user-sign-in-customization/ADFS_Blue_Custom8.png)
+![Снимок экрана, на котором показан пример пользовательского интерфейса входа.](media/AD-FS-user-sign-in-customization/ADFS_Blue_Custom8.png)
 
 Перед написанием нового пользовательского метода проверки подлинности рекомендуется изучить тему AD FS и определения стилей, чтобы понять требования к разработке содержимого.
 

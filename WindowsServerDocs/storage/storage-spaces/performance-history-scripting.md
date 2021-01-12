@@ -7,12 +7,12 @@ ms.topic: article
 author: cosmosdarwin
 ms.date: 05/15/2018
 ms.localizationpriority: medium
-ms.openlocfilehash: 3894e6ce2e5f89c98d064ceedb3822cf9ab7061a
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: 76820414e98487e3cf046f53d914f090ba037e48
+ms.sourcegitcommit: 6a62d736e4d9989515c6df85e2577662deb042b6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97048932"
+ms.lasthandoff: 01/11/2021
+ms.locfileid: "98103766"
 ---
 # <a name="scripting-with-powershell-and-storage-spaces-direct-performance-history"></a>Создание сценариев с помощью PowerShell и Локальные дисковые пространства журнала производительности
 
@@ -42,13 +42,13 @@ ms.locfileid: "97048932"
 
 На приведенном ниже снимке экрана мы видим, что на прошлой неделе *сервер-02* имел необъяснимый пик:
 
-![Снимок экрана PowerShell](media/performance-history/Show-CpuMinMaxAvg.png)
+![Снимок экрана, на котором показано, что на сервере-02 был необъяснимый пик за прошлую неделю.](media/performance-history/Show-CpuMinMaxAvg.png)
 
 ### <a name="how-it-works"></a>Принцип работы
 
 Выходные данные `Get-ClusterPerf` каналов, хорошо выходящие во встроенном `Measure-Object` командлете, просто указывают `Value` свойство. С помощью `-Maximum` его `-Minimum` `-Average` флагов, и `Measure-Object` предоставляет нам первые три столбца почти бесплатно. Чтобы выполнить анализ квартиль, можно передать по конвейеру `Where-Object` и подсчитать количество значений `-Gt` (больше) 25, 50 или 75. Последним шагом является беаутифи с `Format-Hours` `Format-Percent` вспомогательными функциями и, безусловно, необязательными.
 
-### <a name="script"></a>Скрипт
+### <a name="script"></a>Сценарий
 
 Вот сценарий:
 
@@ -101,7 +101,7 @@ $Output | Sort-Object ClusterNode | Format-Table
 
 На следующем снимке экрана мы видим отсутствие выбросов:
 
-![Снимок экрана PowerShell](media/performance-history/Show-LatencyOutlierHDD.png)
+![Снимок экрана, на котором показано отсутствие выбросов.](media/performance-history/Show-LatencyOutlierHDD.png)
 
 ### <a name="how-it-works"></a>Принцип работы
 
@@ -111,7 +111,7 @@ $Output | Sort-Object ClusterNode | Format-Table
 
 Если какой-либо диск больше, чем +3 σ, мы имеем `Write-Host` красный цвет; в противном случае — зеленым.
 
-### <a name="script"></a>Скрипт
+### <a name="script"></a>Сценарий
 
 Вот сценарий:
 
@@ -208,7 +208,7 @@ Else {
 
 На следующем снимке экрана показаны 10 основных виртуальных машин по действиям хранилища:
 
-![Снимок экрана PowerShell](media/performance-history/Show-TopIopsVMs.png)
+![Снимок экрана, на котором показаны 10 основных виртуальных машин по действиям хранилища.](media/performance-history/Show-TopIopsVMs.png)
 
 ### <a name="how-it-works"></a>Принцип работы
 
@@ -219,7 +219,7 @@ Else {
 
 Результаты с каждого сервера поступают вместе с `$Output` , что можно `Sort-Object` и затем `Select-Object -First 10` . Обратите внимание, что `Invoke-Command` Оформление результатов имеет `PsComputerName` свойство, указывающее, откуда они поступили, что можно распечатать, чтобы понять, где работает виртуальная машина.
 
-### <a name="script"></a>Скрипт
+### <a name="script"></a>Сценарий
 
 Вот сценарий:
 
@@ -260,7 +260,7 @@ $Output | Sort-Object RawIopsTotal -Descending | Select-Object -First 10 | Forma
 
 На следующем снимке экрана показано, что в течение последнего дня одно из следующих выгрузок: *Fabrikam NX-4 Pro #2* .
 
-![Снимок экрана PowerShell](media/performance-history/Show-NetworkSaturation.png)
+![Снимок экрана, на котором показано, что в течение последнего дня Fabrikam NX-4 Pro #2 пик.](media/performance-history/Show-NetworkSaturation.png)
 
 ### <a name="how-it-works"></a>Принцип работы
 
@@ -269,7 +269,7 @@ $Output | Sort-Object RawIopsTotal -Descending | Select-Object -First 10 | Forma
    > [!NOTE]
    > Некоторые поставщики, например Chelsio, включают действие "удаленный доступ к памяти" (RDMA) в счетчиках производительности *сетевого адаптера* , поэтому они включены в `NetAdapter.Bandwidth.Total` серию. Другие, как и Mellanox, могут не иметь. Если поставщик не имеет, просто добавьте `NetAdapter.Bandwidth.RDMA.Total` ряд в свою версию этого сценария.
 
-### <a name="script"></a>Скрипт
+### <a name="script"></a>Сценарий
 
 Вот сценарий:
 
@@ -332,7 +332,7 @@ $Output | Sort-Object PsComputerName, InterfaceDescription | Format-Table PsComp
 
 На следующем снимке экрана показан объем *данных* , добавляемый примерно 15 ГБ в день:
 
-![Снимок экрана PowerShell](media/performance-history/Show-StorageTrend.png)
+![Снимок экрана, на котором показано, что объем резервного копирования составляет около 15 ГБ в день.](media/performance-history/Show-StorageTrend.png)
 
 По этой ставке его емкость будет достигнута в течение еще 42 дней.
 
@@ -345,7 +345,7 @@ $Output | Sort-Object PsComputerName, InterfaceDescription | Format-Table PsComp
    > [!IMPORTANT]
    > Эта оценка линейная и основана только на последних 14 ежедневных измерениях. Существуют более сложные и точные методики. Примите все усилия и не полагайтесь на этот сценарий, чтобы определить, следует ли вкладывать в хранилище расширение. Он представлен здесь только для образовательных целей.
 
-### <a name="script"></a>Скрипт
+### <a name="script"></a>Сценарий
 
 Вот сценарий:
 
@@ -453,7 +453,7 @@ $Output | Format-Table
 
 Мы повторяем наш `Invoke-Command` прием, представленный выше, `Get-VM` на каждом сервере. Мы используем `Measure-Object -Average` для получения ежемесячного среднего значения для каждой виртуальной машины, а затем, `Sort-Object` `Select-Object -First 10` чтобы получить наш список лидеров. (Или, возможно, это *самый самый желаемый* список?)
 
-### <a name="script"></a>Скрипт
+### <a name="script"></a>Сценарий
 
 Вот сценарий:
 
@@ -490,5 +490,5 @@ $Output | Sort-Object RawAvgMemoryUsage -Descending | Select-Object -First 10 | 
 ## <a name="additional-references"></a>Дополнительные ссылки
 
 - [Начало работы с Windows PowerShell](/powershell/scripting/getting-started/getting-started-with-windows-powershell)
-- [Обзор Локальные дисковые пространства](storage-spaces-direct-overview.md)
+- [Обзор Локальных дисковых пространств](storage-spaces-direct-overview.md)
 - [Журнал производительности](performance-history.md)

@@ -7,12 +7,12 @@ ms.author: billmath
 manager: femila
 ms.date: 10/25/2017
 ms.topic: article
-ms.openlocfilehash: 1281ce03b291748b093ea491f54e6e7924e03cde
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: 4254fe1e9e95fbd72fbea049bf6575f76e4b578c
+ms.sourcegitcommit: 6a62d736e4d9989515c6df85e2577662deb042b6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97050402"
+ms.lasthandoff: 01/11/2021
+ms.locfileid: "98103836"
 ---
 # <a name="auditing-enhancements-to-ad-fs-in-windows-server-2016"></a>Усовершенствования аудита в AD FS под управлением Windows Server 2016
 
@@ -21,7 +21,7 @@ ms.locfileid: "97050402"
 В выпуске AD FS в Windows Server 2016 аудит стал более оптимизированным и менее подробным.
 
 ## <a name="auditing-levels-in-ad-fs-for-windows-server-2016"></a>Уровни аудита в AD FS для Windows Server 2016
-По умолчанию для AD FS в Windows Server 2016 включен базовый аудит.  При базовом аудите администраторы увидят 5 или менее событий для одного запроса.  Это означает значительное уменьшение количества событий, которые администраторы должны просматривать, чтобы увидеть один запрос.   Уровень аудита может быть повышен или снижен с помощью PowerShell командлет: Set-AdfsProperties-AuditLevel.  В таблице ниже описываются доступные уровни аудита.
+По умолчанию для AD FS в Windows Server 2016 включен базовый аудит.  При базовом аудите администраторы увидят 5 или менее событий для одного запроса.  Это означает значительное уменьшение количества событий, которые администраторы должны просматривать, чтобы увидеть один запрос.   Уровень аудита может быть повышен или снижен с помощью командлета PowerShell: Set-AdfsProperties-AuditLevel.  В таблице ниже описываются доступные уровни аудита.
 
 | Уровень аудита | Синтаксис PowerShell | Описание |
 |--|--|--|
@@ -29,11 +29,11 @@ ms.locfileid: "97050402"
 | Базовый (по умолчанию) | Set-AdfsProperties AuditLevel Basic | Для одного запроса будет зарегистрировано не более 5 событий. |
 | Подробный | Set-AdfsProperties AuditLevel-verbose | Будут регистрироваться все события.  При этом будет записываться значительный объем информации по запросу. |
 
-Чтобы просмотреть текущий уровень аудита, можно использовать PowerShell командлет: Get-AdfsProperties.
+Чтобы просмотреть текущий уровень аудита, можно использовать командлет PowerShell Get-AdfsProperties.
 
-![усовершенствования аудита](media/Auditing-Enhancements-to-AD-FS-in-Windows-Server-2016/ADFS_Audit_1.PNG)
+![Снимок экрана, показывающий, как использовать командлет Get-AdfsProperties.](media/Auditing-Enhancements-to-AD-FS-in-Windows-Server-2016/ADFS_Audit_1.PNG)
 
-Уровень аудита может быть повышен или снижен с помощью PowerShell командлет: Set-AdfsProperties-AuditLevel.
+Уровень аудита может быть повышен или снижен с помощью командлета PowerShell: Set-AdfsProperties-AuditLevel.
 
 ![усовершенствования аудита](media/Auditing-Enhancements-to-AD-FS-in-Windows-Server-2016/ADFS_Audit_2.png)
 
