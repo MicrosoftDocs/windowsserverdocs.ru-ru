@@ -1,18 +1,18 @@
 ---
 title: What's New for Managed Service Accounts
-description: Безопасность Windows Server
+description: Сведения об изменениях в функциональности управляемых учетных записей служб с введением групповой управляемой учетной записи службы в Windows Server 2012 и Windows 8.
 ms.topic: article
 ms.assetid: 2f2a8b6b-c152-4c40-b712-bfabff0e408b
 ms.author: lizross
 author: eross-msft
 manager: mtillman
 ms.date: 10/12/2016
-ms.openlocfilehash: f3b003ebe9ce766f39e10a21e0fa4002db562773
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: d7ea925975254533ff7b9c6591ddde4a884a79ae
+ms.sourcegitcommit: d42b80f947dbfa8660d982be67d77745a28081e5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89639594"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "98112970"
 ---
 # <a name="what39s-new-for-managed-service-accounts"></a>Новые&#39;для управляемых учетных записей служб
 

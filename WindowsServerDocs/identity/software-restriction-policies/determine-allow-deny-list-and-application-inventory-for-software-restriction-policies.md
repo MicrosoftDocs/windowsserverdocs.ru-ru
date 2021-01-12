@@ -1,18 +1,18 @@
 ---
 title: Определение списка разрешений и запретов и инвентаризации приложений для политик ограниченного использования программ
-description: Безопасность Windows Server
+description: Узнайте, как создать список разрешений и запретов для приложений, управляемых политиками ограниченного использования программ (SRP), начиная с Windows Server 2008 и Windows Vista.
 ms.topic: article
 ms.assetid: 0abb73b6-b5d8-4505-8ab1-2f29e4bf0411
 ms.author: lizross
 author: eross-msft
 manager: mtillman
 ms.date: 10/12/2016
-ms.openlocfilehash: 9da7cc8490f5b660ed5ce327b4572dc968e10c48
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 64b7c085c8bf64aa4d7d9d9de346ac71274f650c
+ms.sourcegitcommit: d42b80f947dbfa8660d982be67d77745a28081e5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89637861"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "98113430"
 ---
 # <a name="determine-allow-deny-list-and-application-inventory-for-software-restriction-policies"></a>Определение списка разрешений и запретов и инвентаризации приложений для политик ограниченного использования программ
 
@@ -46,7 +46,7 @@ ms.locfileid: "89637861"
 
 2.  Создайте следующее значение реестра, чтобы включить функцию расширенного ведения журнала, и задайте путь к месту, где должен быть записан файл журнала.
 
-    **"HKEY_LOCAL_MACHINE \Софтваре\полиЦиес\микрософт\виндовс\сафер\кодеидентифиерс"**
+    **"HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Safer\CodeIdentifiers"**
 
     Строковое значение: *LogFilename путь к LogFilename*
 

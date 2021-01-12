@@ -1,18 +1,18 @@
 ---
 title: Настройка шифрования для виртуальной сети
-description: Шифрование виртуальной сети позволяет выполнять шифрование трафика виртуальной сети между виртуальными машинами, взаимодействующими друг с другом в подсетях, помеченных как "шифрование включено".
+description: Узнайте, как создать сертификат шифрования, создать учетные данные сертификата и настроить виртуальную сеть для шифрования.
 manager: grcusanz
 ms.topic: how-to
 ms.assetid: 378213f5-2d59-4c9b-9607-1fc83f8072f1
 ms.author: anpaul
 author: AnirbanPaul
 ms.date: 08/08/2018
-ms.openlocfilehash: 17ad35c4cb0bdcb89b095334a282e113028937b1
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: a28132747d11c352987638c9db368561897c421f
+ms.sourcegitcommit: d42b80f947dbfa8660d982be67d77745a28081e5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97948830"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "98113410"
 ---
 # <a name="configure-encryption-for-a-virtual-subnet"></a>Настройка шифрования для виртуальной подсети
 

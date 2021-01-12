@@ -1,17 +1,17 @@
 ---
 title: Управление TLS
-description: Безопасность Windows Server
+description: Узнайте, как управлять безопасностью транспортного уровня.
 ms.topic: article
 author: justinha
 ms.author: justinha
 manager: brianlic
 ms.date: 05/16/2018
-ms.openlocfilehash: a6af172f515345a18bbd16f37b8007302ffbab70
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.openlocfilehash: c6dc0bcefda94b8d2b5490fa2378f60d26877bc5
+ms.sourcegitcommit: d42b80f947dbfa8660d982be67d77745a28081e5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96864034"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "98113300"
 ---
 # <a name="manage-transport-layer-security-tls"></a>Управление TLS
 
@@ -33,7 +33,7 @@ ms.locfileid: "96864034"
 
 Вы можете использовать порядок набора шифров SSL групповая политика параметры, чтобы настроить порядок комплекта шифров TLS по умолчанию.
 
-1. На консоль управления групповыми политиками выберите **Конфигурация компьютера**  >  **Административные шаблоны**  >  **Network**  >  **Параметры конфигурации SSL** сети.
+1. На консоль управления групповыми политиками выберите **Конфигурация компьютера**  >  **Административные шаблоны**  >    >  **Параметры конфигурации SSL** сети.
 2. Дважды щелкните SSL-порядок комплекта **шифров** и выберите параметр **включено** .
 3. Щелкните правой кнопкой мыши поле **комплекты шифров SSL** и выберите в раскрывающемся меню пункт **выбрать все** .
 

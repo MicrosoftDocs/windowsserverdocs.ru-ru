@@ -1,18 +1,18 @@
 ---
 title: Общие сведения о паролях
-description: Безопасность Windows Server
+description: Узнайте о паролях, используемых в операционных системах Windows, и найдите ссылки на документацию и обсуждения по использованию паролей в стратегии управления учетными данными.
 ms.topic: article
 ms.assetid: f608960e-2039-4c91-9c8c-9b81053c675e
 ms.author: lizross
 author: eross-msft
 manager: mtillman
 ms.date: 10/12/2016
-ms.openlocfilehash: 1b917691f931836605cfe044c725f5200925d2ca
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 34397f99156f743e4e2ea07e319a1eeadcb5682a
+ms.sourcegitcommit: d42b80f947dbfa8660d982be67d77745a28081e5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89621881"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "98113420"
 ---
 # <a name="passwords-overview"></a>Общие сведения о паролях
 
@@ -33,7 +33,7 @@ ms.locfileid: "89621881"
 
 В Windows Server 2012 и Windows 8 не было изменений в функциональных возможностях паролей. Новые параметры групповая политика не добавлены. Однако усовершенствования и улучшения были внесены в Управление учетными данными \( и паролями \) , например с помощью графических паролей, средства блокировки учетных данных и входа в Windows 8 с помощью учетная запись Майкрософт, ранее известного как идентификатор Windows Live ID.
 
-## <a name="deprecated-functionality"></a><a name="BKMK_DEP"></a>Нерекомендуемые функции.
+## <a name="deprecated-functionality"></a><a name="BKMK_DEP"></a>Устаревшие функции
 В Windows Server 2012 и Windows 8 не рекомендуется использовать функции паролей.
 
 ## <a name="software-requirements"></a><a name="BKMK_SOFT"></a>Требования к программному обеспечению
@@ -47,6 +47,6 @@ ms.locfileid: "89621881"
 |**Документация по сценариям**|[Защита цифрового удостоверения](https://blogs.msdn.com/b/b8/archive/2011/12/14/protecting-your-digital-identity.aspx)|
 |**Операции**|[Active Directory — пользователи и компьютеры](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc754217(v=ws.11))|
 |**Устранение неполадок**|[Узнайте, когда истекает срок действия пароля \- Active Directory блоге PowerShell](https://blogs.msdn.com/b/adpowershell/archive/2010/08/09/9970198.aspx)|
-|**Безопасность**| [Руководство по угрозам и контрмерам](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/hh125920(v=ws.10)) windows Server 2008 R2 и Windows 7: политики учетных записей<p>Руководство по [изменению и созданию надежных паролей](https://www.microsoft.com/security/online-privacy/passwords-create.aspx)|
+|**Security**| [Руководство по угрозам и контрмерам](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/hh125920(v=ws.10)) windows Server 2008 R2 и Windows 7: политики учетных записей<p>Руководство по [изменению и созданию надежных паролей](https://www.microsoft.com/security/online-privacy/passwords-create.aspx)|
 |**Средства и параметры**|[Справочник по параметрам групповая политика для Windows и Windows Server в центре загрузки Майкрософт](https://www.microsoft.com/download/en/details.aspx?amp;displaylang=en&displaylang=en&id=25250)|
 |**Ресурсы сообщества**|[Защита цифрового удостоверения](https://blogs.msdn.com/b/b8/archive/2011/12/14/protecting-your-digital-identity.aspx)<p>[Регистрация в Windows 8 с помощью Windows Live ID](https://blogs.msdn.com/b/b8/archive/2011/09/26/signing-in-to-windows-8-with-a-windows-live-id.aspx)<p>[Вход с помощью графического пароля](/archive/blogs/b8/signing-in-with-a-picture-password)<p>[Оптимизация защиты графических паролей](/archive/blogs/b8/optimizing-picture-password-security)|

@@ -1,18 +1,18 @@
 ---
 title: Настройка дополнительной защиты LSA
-description: Безопасность Windows Server
+description: Узнайте, как настроить дополнительную защиту для процесса локального центра безопасности (LSA), чтобы предотвратить внедрение кода, которое может поставить под угрозу учетные данные.
 ms.topic: article
 ms.assetid: 038e7c2b-c032-491f-8727-6f3f01116ef9
 ms.author: lizross
 author: eross-msft
 manager: mtillman
 ms.date: 10/12/2016
-ms.openlocfilehash: 54bc100c935df2ff0cc7086b258fb395458f259f
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: c88ff82fc1a6e7c1440823539a14d6edc00270a3
+ms.sourcegitcommit: d42b80f947dbfa8660d982be67d77745a28081e5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89638084"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "98113510"
 ---
 # <a name="configuring-additional-lsa-protection"></a>Настройка дополнительной защиты LSA
 
@@ -108,7 +108,7 @@ ms.locfileid: "89638084"
 
 10. В поле **Значение** введите **00000008**.
 
-11. Нажмите кнопку **ОК**.
+11. Нажмите **OK**.
 
 > [!NOTE]
 > Чтобы объект групповой политики вступил в силу, его изменение нужно реплицировать на все контроллеры домена в домене.
@@ -168,7 +168,7 @@ ms.locfileid: "89638084"
 
 10. В поле **данные значения** введите **00000001**.
 
-11. Нажмите кнопку **ОК**.
+11. Нажмите **OK**.
 
 ##### <a name="to-disable-lsa-protection"></a>Отключение защиты LSA
 

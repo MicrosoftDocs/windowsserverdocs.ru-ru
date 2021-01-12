@@ -1,18 +1,18 @@
 ---
 title: Увеличение объема параллельных аутентификаций, обрабатываемых NPS
-description: В этом разделе приводятся инструкции по настройке параллельной проверки подлинности сервера политики сети в Windows Server 2016.
+description: Узнайте, как повысить производительность сервера политики сети, увеличив число одновременных проверок подлинности между сервером политики сети и контроллером домена.
 manager: brianlic
 ms.topic: article
 ms.assetid: 2d9cdada-0625-41c8-8248-a32259b03e47
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: 5036ee3299aec9e57c60b960aa9e25fb53d2f18e
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: fd48dc876cd2b8a24199ffc4fc95b8fa5a6d0d72
+ms.sourcegitcommit: d42b80f947dbfa8660d982be67d77745a28081e5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97948670"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "98113380"
 ---
 # <a name="increase-concurrent-authentications-processed-by-nps"></a>Увеличение объема параллельных аутентификаций, обрабатываемых NPS
 

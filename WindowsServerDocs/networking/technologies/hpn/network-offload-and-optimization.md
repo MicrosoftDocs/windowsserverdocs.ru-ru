@@ -1,18 +1,18 @@
 ---
 title: Разгрузка сети и технологии оптимизации
-description: В этом разделе приводятся общие сведения о технологиях разгрузки и оптимизации в Windows Server 2016, а также ссылки на дополнительные рекомендации по этим технологиям.
+description: Узнайте о различных функциях сетевой разгрузки и оптимизации, доступных в Windows Server 2016, и о том, как они помогают сделать сеть более эффективной.
 ms.topic: article
 ms.assetid: 0cafb1cc-5798-42f5-89b6-3ffe7ac024ba
 manager: dougkim
 ms.author: lizross
 author: eross-msft
 ms.date: 09/20/2018
-ms.openlocfilehash: e6f53fa8462a51e23fa9fc00aad89d8a8a3ee445
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 8d0728dda0bca8188668c1bbb3570390f8608432
+ms.sourcegitcommit: d42b80f947dbfa8660d982be67d77745a28081e5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87947008"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "98112920"
 ---
 # <a name="network-offload-and-optimization-technologies"></a>Разгрузка сети и технологии оптимизации
 

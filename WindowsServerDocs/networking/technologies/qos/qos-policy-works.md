@@ -1,18 +1,18 @@
 ---
 title: Как работает политика качества обслуживания
-description: В этом разделе представлен обзор политики качества обслуживания (QoS), которая позволяет использовать групповая политика для определения приоритета пропускной способности сетевого трафика для конкретных приложений и служб в Windows Server 2016.
+description: Узнайте, как работает политика QoS.
 ms.topic: article
 ms.assetid: 25097cb8-b9b1-41c9-b3c7-3610a032e0d8
 manager: brianlic
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: 41bbf2245143281cd80a46c23c2c6bf704ea3ccc
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: c3042c6e0c6c74e76472962c4bde323e044ff1fd
+ms.sourcegitcommit: d42b80f947dbfa8660d982be67d77745a28081e5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97943170"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "98113370"
 ---
 # <a name="how-qos-policy-works"></a>Как работает политика качества обслуживания
 

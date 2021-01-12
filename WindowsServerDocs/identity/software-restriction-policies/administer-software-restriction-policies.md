@@ -1,18 +1,18 @@
 ---
 title: Администрирование политик ограниченного использования программ
-description: Безопасность Windows Server
+description: Узнайте, как администрировать политики управления приложениями с помощью политик ограниченного использования программ (SRP), начиная с Windows Server 2008 и Windows Vista.
 ms.topic: article
 ms.assetid: 8cc22093-67d1-47b6-9ddd-4569b6761ce9
 ms.author: lizross
 author: eross-msft
 manager: mtillman
 ms.date: 10/12/2016
-ms.openlocfilehash: b67464b2a1b1d9f1828afc7885ddd8e18116c1d6
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 84667034011ee655720e14f370fcd338e29dc98b
+ms.sourcegitcommit: d42b80f947dbfa8660d982be67d77745a28081e5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89637874"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "98112940"
 ---
 # <a name="administer-software-restriction-policies"></a>Администрирование политик ограниченного использования программ
 
@@ -41,7 +41,7 @@ ms.locfileid: "89637874"
 
 Сведения о способах выполнения определенных задач с помощью политик ограниченного использования программ см. в следующих разделах:
 
--   [Определение списка разрешенных и запрещенных инвентаризации приложений для политик ограниченного использования программ](determine-allow-deny-list-and-application-inventory-for-software-restriction-policies.md)
+-   [Определение списка Allow-Deny и инвентаризации приложений для политик ограниченного использования программ](determine-allow-deny-list-and-application-inventory-for-software-restriction-policies.md)
 
 -   [Работа с правилами политик ограниченного использования программ](work-with-software-restriction-policies-rules.md)
 
@@ -80,7 +80,7 @@ ms.locfileid: "89637874"
 
 4.  В окне **Выбор объекта групповой политики** нажмите кнопку **Обзор**.
 
-5.  В окне **поиск групповая политика объекта**выберите объект Групповая политика (GPO) в соответствующем домене, сайте или подразделении или создайте новый, а затем нажмите кнопку **Готово**.
+5.  В окне **поиск групповая политика объекта** выберите объект Групповая политика (GPO) в соответствующем домене, сайте или подразделении или создайте новый, а затем нажмите кнопку **Готово**.
 
 6.  Щелкните **Закрыть**, а затем нажмите кнопку **ОК**.
 

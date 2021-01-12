@@ -1,18 +1,18 @@
 ---
 title: Управление различными доменами в центр администрирования Active Directory
-description: Безопасность Windows Server
+description: Узнайте, как управлять различными доменами в центр администрирования Active Directory.
 ms.assetid: 166351c3-4076-48be-aa8f-797adf1e9d68
 ms.author: lizross
 author: eross-msft
 manager: mtillman
 ms.date: 10/12/2016
 ms.topic: article
-ms.openlocfilehash: e3aaf9a999ba2d87e10eaeaace0d39450b1e13bf
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 35defc771c18753296eb37c96f65086626475a95
+ms.sourcegitcommit: d42b80f947dbfa8660d982be67d77745a28081e5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97950480"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "98113470"
 ---
 # <a name="manage-different-domains-in-active-directory-administrative-center"></a>Управление различными доменами в центр администрирования Active Directory
 

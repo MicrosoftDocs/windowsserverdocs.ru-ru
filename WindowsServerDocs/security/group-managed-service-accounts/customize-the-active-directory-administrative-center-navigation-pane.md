@@ -1,18 +1,18 @@
 ---
 title: Настройка области навигации центр администрирования Active Directory
-description: Безопасность Windows Server
+description: Сведения о настройке области навигации центр администрирования Active Directory.
 ms.assetid: c9933d16-e153-435a-b5b7-3e594db42d5c
 ms.author: lizross
 author: eross-msft
 manager: mtillman
 ms.date: 10/12/2016
 ms.topic: article
-ms.openlocfilehash: 1ae8f97a981296f14ede5f00b46196ba4b5e2465
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: cfc01594a6e1b4ac01d0741069dc02c37df0ef18
+ms.sourcegitcommit: d42b80f947dbfa8660d982be67d77745a28081e5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97950490"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "98113050"
 ---
 # <a name="customize-the-active-directory-administrative-center-navigation-pane"></a>Настройка области навигации центр администрирования Active Directory
 

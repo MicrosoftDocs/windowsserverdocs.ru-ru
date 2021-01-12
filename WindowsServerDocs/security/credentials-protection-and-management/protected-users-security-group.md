@@ -1,18 +1,18 @@
 ---
 title: Группа безопасности "Защищенные пользователи"
-description: Безопасность Windows Server
+description: Сведения о функции защищенных пользователей группы безопасности Active Directory и принципах ее работы.
 ms.topic: article
 ms.assetid: 1b0b5180-f65a-43ac-8ef3-66014116f296
 ms.author: lizross
 author: eross-msft
 manager: mtillman
 ms.date: 10/12/2016
-ms.openlocfilehash: ba53c87119e798c3d3346b8fc245ffcc4e092a4d
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 0e663cf40481fd0c89863cd7cd206e963e2d72e0
+ms.sourcegitcommit: d42b80f947dbfa8660d982be67d77745a28081e5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89639802"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "98113490"
 ---
 # <a name="protected-users-security-group"></a>Группа безопасности "Защищенные пользователи"
 
@@ -59,7 +59,7 @@ ms.locfileid: "89639802"
 |attribute|Значение|
 |-------|-----|
 |Известный SID/RID|S-1-5-21-<domain>-525|
-|Тип|Глобальный домен|
+|Type|Глобальный домен|
 |Контейнер по умолчанию|CN=Пользователи, DC=<domain>, DC=|
 |элементы по умолчанию;|Нет|
 |Является членом по умолчанию.|Нет|

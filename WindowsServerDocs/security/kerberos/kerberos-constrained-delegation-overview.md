@@ -1,18 +1,18 @@
 ---
 title: Kerberos Constrained Delegation Overview
-description: Безопасность Windows Server
+description: Узнайте о новых возможностях ограниченного делегирования Kerberos в Windows Server 2012 R2 и Windows Server 2012.
 ms.topic: article
 ms.assetid: 51923b0a-0c1a-47b2-93a0-d36f8e295589
 ms.author: lizross
 author: eross-msft
 manager: mtillman
 ms.date: 10/12/2016
-ms.openlocfilehash: cdee2aaecf8710b9801b689b141b16d0dbacc691
-ms.sourcegitcommit: 5344adcf9c0462561a4f9d47d80afc1d095a5b13
+ms.openlocfilehash: 20918e31553d7a7802ed466d2663fb42ae99ca3a
+ms.sourcegitcommit: d42b80f947dbfa8660d982be67d77745a28081e5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90766797"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "98113160"
 ---
 # <a name="kerberos-constrained-delegation-overview"></a>Kerberos Constrained Delegation Overview
 
@@ -73,9 +73,9 @@ ms.locfileid: "90766797"
 
 Чтобы настроить службу ресурсов для предоставления доступа к службе интерфейса от имени пользователя, используйте командлеты Windows PowerShell.
 
--   Чтобы получить список участников, используйте командлеты **Get-ADComputer**, **Get-адсервицеаккаунт**и **Get-ADUser** с параметром **PrincipalsAllowedToDelegateToAccount Properties** .
+-   Чтобы получить список участников, используйте командлеты **Get-ADComputer**, **Get-адсервицеаккаунт** и **Get-ADUser** с параметром **PrincipalsAllowedToDelegateToAccount Properties** .
 
--   Чтобы настроить службу ресурсов, используйте командлеты **New-ADComputer**, **New-адсервицеаккаунт**, **New-ADUser**, **Set-ADComputer**, **Set-адсервицеаккаунт**и **Set-ADUser** с параметром **PrincipalsAllowedToDelegateToAccount** .
+-   Чтобы настроить службу ресурсов, используйте командлеты **New-ADComputer**, **New-адсервицеаккаунт**, **New-ADUser**, **Set-ADComputer**, **Set-адсервицеаккаунт** и **Set-ADUser** с параметром **PrincipalsAllowedToDelegateToAccount** .
 
 ## <a name="software-requirements"></a><a name="BKMK_SOFT"></a>Требования к программному обеспечению
 Ограниченное делегирование на основе ресурсов можно настроить только на контроллере домена под управлением Windows Server 2012 R2 и Windows Server 2012, но можно применить в лесу в смешанном режиме.

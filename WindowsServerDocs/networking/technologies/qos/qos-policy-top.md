@@ -1,18 +1,18 @@
 ---
 title: Политика качества обслуживания (QoS)
-description: В этом разделе представлен обзор политики качества обслуживания (QoS), которая позволяет использовать групповая политика для определения приоритета пропускной способности сетевого трафика для конкретных приложений и служб в Windows Server 2016.
+description: Узнайте, как использовать политику QoS в качестве центральной точки управления пропускной способностью сети во всей инфраструктуре Active Directory путем создания профилей QoS, параметры которых распространяются с помощью групповая политика.
 ms.topic: article
 ms.assetid: 16918506-102c-482e-89d3-004ad8d6aabe
 manager: brianlic
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: dd43c38e44a02b3d50bff952b8a174b049c585d8
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 616fe115246b1b6bb6aa4eae6c98265ff6250765
+ms.sourcegitcommit: d42b80f947dbfa8660d982be67d77745a28081e5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97946660"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "98113390"
 ---
 # <a name="quality-of-service-qos-policy"></a>Политика качества обслуживания \( QoS \)
 

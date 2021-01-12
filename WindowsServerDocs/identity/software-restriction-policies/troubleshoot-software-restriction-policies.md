@@ -1,18 +1,18 @@
 ---
 title: Диагностика политик ограниченного использования программ
-description: Безопасность Windows Server
+description: Сведения об общих проблемах и их решениях при устранении неполадок в политиках ограниченного использования программ (SRP), начиная с Windows Server 2008 и Windows Vista.
 ms.topic: article
 ms.assetid: 4fd53736-03e7-4bf9-ba90-d1212d93e19a
 ms.author: lizross
 author: eross-msft
 manager: mtillman
 ms.date: 10/12/2016
-ms.openlocfilehash: 003a71ed8c6b7e8d9b788c4eb8aa5efcc4bd6286
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: b9c96f43ebbcc41a210357b2006d2b153a69545a
+ms.sourcegitcommit: d42b80f947dbfa8660d982be67d77745a28081e5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89640215"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "98113480"
 ---
 # <a name="troubleshoot-software-restriction-policies"></a>Диагностика политик ограниченного использования программ
 
@@ -85,6 +85,6 @@ ms.locfileid: "89640215"
 
 1.  Проверьте журнал системных событий и выполните фильтрацию по источнику "политика ограниченного использования программ". В записях явно указывается, какое правило реализуется для каждого приложения.
 
-2.  Включить расширенное ведение журнала. Дополнительные сведения см. в разделе [Определение списка allow-deny и инвентаризации приложений для политик ограниченного использования программ](software-restriction-policies.md) .
+2.  Включить расширенное ведение журнала. Дополнительные сведения см. в разделе [Определение списка Allow-Deny и инвентаризации приложений для политик ограниченного использования программ](software-restriction-policies.md) .
 
 

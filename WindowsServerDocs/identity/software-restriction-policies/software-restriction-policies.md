@@ -1,18 +1,18 @@
 ---
 title: Software Restriction Policies
-description: Безопасность Windows Server
+description: Узнайте о политиках ограниченного использования программ (SRP) в Windows Server 2012 и Windows 8 и найдите ссылки на технические сведения о наборе исправлений безопасности, начиная с Windows Server 2003.
 ms.topic: article
 ms.assetid: 5c0befad-07c3-4262-b418-372d01850305
 ms.author: lizross
 author: eross-msft
 manager: mtillman
 ms.date: 10/12/2016
-ms.openlocfilehash: f4019902622b667267562a8490b6540a6c27d1e4
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 3d98c52719efeec447d9bdedc4fb824c6dbeca4d
+ms.sourcegitcommit: d42b80f947dbfa8660d982be67d77745a28081e5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89640233"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "98112950"
 ---
 # <a name="software-restriction-policies"></a>Software Restriction Policies
 
@@ -84,10 +84,10 @@ ms.locfileid: "89640233"
 |Тип содержимого|Ссылки|
 |--------|-------|
 |**Оценка продукта**|[Блокировка приложения с помощью политик ограниченного использования программ](/previous-versions/technet-magazine/cc510322(v=msdn.10)?pr=blog)|
-|**Planning**|[Технический обзор политик ограниченного использования программ](software-restriction-policies-technical-overview.md) (Windows Server 2012)<p>[Технический справочник по политикам ограниченного использования программ](/previous-versions/windows/it-pro/windows-server-2003/cc728085(v=ws.10)) (Windows Server 2003)|
-|**Deployment**|Доступные ресурсы отсутствуют.|
+|**Планирование**|[Технический обзор политик ограниченного использования программ](software-restriction-policies-technical-overview.md) (Windows Server 2012)<p>[Технический справочник по политикам ограниченного использования программ](/previous-versions/windows/it-pro/windows-server-2003/cc728085(v=ws.10)) (Windows Server 2003)|
+|**Развертывание**|Доступные ресурсы отсутствуют.|
 |**Операции**|[Администрирование политик ограниченного использования программ](administer-software-restriction-policies.md) (Windows Server 2012)<p>[Справка по политикам ограниченного использования программ](/previous-versions/windows/it-pro/windows-server-2003/cc779607(v=ws.10)) (Windows Server 2003)|
 |**Устранение неполадок**|[Устранение неполадок политик ограниченного использования программ](troubleshoot-software-restriction-policies.md) (Windows Server 2012)<p>[Диагностика политик ограниченного использования программ](/previous-versions/windows/it-pro/windows-server-2003/cc737011(v=ws.10)) (Windows Server 2003)|
-|**Безопасность**|[Угрозы и противодействия для политик ограниченного использования программ](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd349795(v=ws.10)) (Windows Server 2008)<p>[Угрозы и противодействия для политик ограниченного использования программ](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/hh125926(v=ws.10)) (Windows Server 2008 R2)|
+|**Security**|[Угрозы и противодействия для политик ограниченного использования программ](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd349795(v=ws.10)) (Windows Server 2008)<p>[Угрозы и противодействия для политик ограниченного использования программ](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/hh125926(v=ws.10)) (Windows Server 2008 R2)|
 |**Средства и параметры**|[Средства и параметры политик ограниченного использования программ](/previous-versions/windows/it-pro/windows-server-2003/cc782454(v=ws.10)) (Windows Server 2003)|
 |**Ресурсы сообщества**|[Блокировка приложения с помощью политик ограниченного использования программ](/previous-versions/technet-magazine/cc510322(v=msdn.10)?pr=blog)|
