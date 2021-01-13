@@ -7,12 +7,12 @@ ms.author: lizross
 author: eross-msft
 manager: mtillman
 ms.date: 07/25/2018
-ms.openlocfilehash: 7da500d797e3aead8d731bf6a313d5cbea193cb7
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: be5f01036641604e38668b916e52c998dea3b978
+ms.sourcegitcommit: decb6c8caf4851b13af271d926c650d010a6b9e9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97946920"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "98177453"
 ---
 # <a name="migrating-the-wsus-database-from-wid-to-sql"></a>Миграция базы данных WSUS из WID в SQL
 
@@ -23,7 +23,7 @@ ms.locfileid: "97946920"
 ## <a name="prerequisites"></a>Предварительные требования
 
 - Экземпляр SQL. Это может быть **MSSQLServer** или пользовательский экземпляр по умолчанию.
-- SQL Server Management Studio
+- SQL Server Management Studio.
 - WSUS с установленной ролью WID
 - IIS (обычно это включается при установке WSUS с помощью диспетчер сервера). Она еще не установлена, она должна быть.
 
@@ -42,9 +42,9 @@ ms.locfileid: "97946920"
 
 #### <a name="using-sql-management-studio"></a>Использование SQL Management Studio
 
-1. Щелкните правой кнопкой мыши **SUSDB** - &gt; **задачи** и - &gt; выберите пункт **отсоединить**: ![ image1.](images/image1.png)
+1. Щелкните правой кнопкой мыши **SUSDB** - &gt; **задачи** и - &gt; выберите пункт **отсоединить**: ![ снимок экрана SQL Server Management Studio отображения задач SUSDB > задачи > отсоединить.](images/image1.png)
 2. Установите флажок **Удалить существующие подключения** и нажмите кнопку **ОК** (необязательно, если существуют активные соединения).
-    ![image2](images/image2.png)
+    ![Снимок экрана: диалоговое окно "Отсоединение базы данных" с выбранным параметром "удалить существующие соединения" и выделенным параметром "ОК".](images/image2.png)
 
 #### <a name="using-command-prompt"></a>Использование командной строки
 
@@ -73,9 +73,10 @@ ms.locfileid: "97946920"
 ### <a name="attach-susdb-to-the-sql-instance"></a>Присоединение SUSDB к экземпляру SQL
 
 1. В **SQL Server Management Studio** в узле **экземпляр** щелкните правой кнопкой мыши узел **базы данных** и выберите команду **присоединить**.
-    ![image3](images/image3.png)
+    ![Снимок экрана SQL Server Management Studio с выбранным параметром "присоединить > базы данных".](images/image3.png)
 2. В поле **Присоединение баз данных** в разделе **базы данных для присоединения** нажмите кнопку **добавить** , найдите файл **SUSDB. mdf** (скопированный из папки WID) и нажмите кнопку **ОК**.
-    ![image4 ](images/image4.png) ![ image5](images/image5.png)
+    ![Снимок экрана: диалоговое окно "присоединение баз данных" с выделенным параметром "Добавить".](images/image4.png)
+    ![Снимок экрана: диалоговое окно "размещение файлов базы данных" с выделенным файлом S U d B D F.](images/image5.png)
 
 > [!TIP]
 > Это также можно сделать с помощью Transact-SQL.  Дополнительные сведения о [присоединении базы данных](/sql/relational-databases/databases/attach-a-database) см. в документации по SQL.
@@ -111,20 +112,20 @@ ms.locfileid: "97946920"
 ##### <a name="adding-nt-authoritynetwork-service-and-granting-it-rights"></a>Добавление NT AUTHORITY\NETWORK SERVICE и предоставление ей прав доступа
 
 1. Щелкните правой кнопкой мыши **имена входа** и выберите **создать имя входа...**
-    ![image6](images/image6.png)
+    ![Снимок экрана SQL Server Management Studio с выбранным параметром имена входа > новый вход.](images/image6.png)
 2. На странице **Общие** введите **имя входа** (**NT Authority\Network Service**) и задайте для **базы данных по умолчанию** значение SUSDB.
-    ![image7](images/image7.png)
+    ![Снимок экрана: страница "Общие" диалогового окна "вход" с заполненными полями "имя входа" и "база данных Дефуалт".](images/image7.png)
 3. На странице **роли сервера** убедитесь, что выбраны **Общие** и **sysadmin** .
-    ![рисунок 8](images/image8.png)
+    ![Снимок экрана: страница "роли сервера" диалогового окна входа с выбранными параметрами "общедоступный" и "sysadmin".](images/image8.png)
 4. На странице **Сопоставление пользователей** :
     - В разделе **Пользователи, сопоставленные с этим именем входа** выберите **SUSDB** .
     - В разделе **членство в роли базы данных для: SUSDB** убедитесь, что установлены следующие флажки:
         - **public**
-        - **WebService** ![ image9](images/image9.png)
+        - **WebService** ![ Снимок экрана: страница "Сопоставление пользователей" диалогового окна "вход" с выбранными параметрами "общедоступные" и "веб-служба".](images/image9.png)
 5. Нажмите кнопку **ОК**.
 
 Теперь в разделе имена входа будет отображаться **NT Authority\Network Service** .
-![image10](images/image10.png)
+![Снимок экрана: в обозревателе объектов отображается СЕТЕВая служба "N T AUTHORITY" в разделе "имена входа".](images/image10.png)
 
 #### <a name="database-permissions"></a>Разрешения базы данных
 
@@ -142,10 +143,10 @@ ms.locfileid: "97946920"
     > [!TIP]
     > В следующем примере полное доменное имя — **Contosto.com** , а имя машины WSUS — **всусмачине**:
     >
-    > ![image11](images/image11.png)
+    > ![Снимок экрана: диалоговое окно входа, показывающее, что полное доменное имя — Contosto.com * *, а имя компьютера W s U s — W s u s.](images/image11.png)
 
 4. На странице **Сопоставление пользователей** выберите базу данных **SUSDB** в разделе **Пользователи, сопоставленные с этим именем входа** .
-5. Проверьте **службу WebService** в разделе **членство в роли базы данных для: SUSDB**:  ![ image12.](images/image12.png)
+5. Проверьте веб- **службу** в разделе **членство в роли базы данных для: SUSDB**:  ![ снимок экрана страницы сопоставление пользователей диалогового окна имя входа, в котором отображаются выбранные параметры SUSDB и WebService.](images/image12.png)
 6. Нажмите кнопку  **ОК** , чтобы сохранить параметры.
     > [!NOTE]
     > Чтобы изменения вступили в силу, может потребоваться перезапустить службу SQL.
@@ -158,8 +159,8 @@ ms.locfileid: "97946920"
 1. Нажмите кнопку **Пуск**, выберите пункт **Выполнить**, введите **regedit** и нажмите кнопку **ОК**.
 2. Откройте следующий раздел: **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\UpdateServices\Server\Setup\SqlServerName**
 3. В текстовом поле **значение** введите **[SERVERNAME] \\ [имя_экземпляра]** и нажмите кнопку **ОК**. Если имя экземпляра является экземпляром по умолчанию, введите **[SERVERNAME]**.
-4. Откройте следующий раздел: **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Update Services\Server\Setup\Installed Role Services\UpdateServices-WidDatabase** ![ image13](images/image13.png)
-5. Переименуйте ключ в **UpdateServices-Database** ![ image41](images/image14.png)
+4. Откройте следующий раздел: **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Update Services\Server\Setup\Installed Role Services\UpdateServices-WidDatabase** ![ снимке экрана диалогового окна Редактор реестра с выделенным UpdateServices-WidDatabaseным ключом.](images/image13.png)
+5. Переименование раздела **UpdateServices-Database** ![ снимка экрана в диалоговом окне редактора реестра, отображающего обновление имени ключа в UpdateServices-Database.](images/image14.png)
 
     > [!NOTE]
     > Если не обновить этот ключ, **WsusUtil** попытается обслуживать WID, а не экземпляр SQL, с которым был осуществлен перенос.

@@ -1,18 +1,18 @@
 ---
 title: Отмена регистрации сервера политики сети в домене Active Directory
-description: Этот раздел можно использовать для регистрации сервера, на котором выполняется сервер политики сети, в Windows Server 2016 в домене по умолчанию NPS или в другом домене.
+description: Узнайте, как отменить регистрацию NPS в домен Active Directory, чтобы можно было переместить сервер политики сети в другой домен, заменить NPS или снять с учета NPS.
 manager: brianlic
 ms.topic: article
 ms.assetid: 68a94616-3c29-45bd-bd33-e4c578f119e1
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: aff5090a5f9fcd2791835f21e2caf1c0dccaa510
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 032a7b36b207c75955f879b4740a43d32e543228
+ms.sourcegitcommit: decb6c8caf4851b13af271d926c650d010a6b9e9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97949340"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "98177413"
 ---
 # <a name="unregister-an-nps-from-an-active-directory-domain"></a>Отмена регистрации сервера политики сети в домене Active Directory
 

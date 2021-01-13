@@ -1,18 +1,18 @@
 ---
 title: Балансировка нагрузки прокси-сервера NPS
-description: С помощью этого раздела вы узнаете о возможностях и функциях VPN в Windows Server 2016 и Windows 10.
+description: Узнайте о балансировке нагрузки прокси-сервера NPS и методах, которые можно использовать для балансировки нагрузки запросов на подключение, отправляемых в НПСС.
 ms.topic: article
 ms.assetid: 528280e6-b47e-489f-b310-b257d434aa0d
 manager: brianlic
 ms.author: lizross
 author: eross-msft
 ms.date: 08/07/2020
-ms.openlocfilehash: c4e94e943fa3759b813c885b65292079ee086868
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 8788bf67b9688f9938b509eb9683c71ee2030208
+ms.sourcegitcommit: decb6c8caf4851b13af271d926c650d010a6b9e9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97949360"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "98177493"
 ---
 # <a name="nps-proxy-server-load-balancing"></a>Балансировка нагрузки прокси-сервера NPS
 

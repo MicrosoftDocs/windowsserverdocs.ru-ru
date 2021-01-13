@@ -6,12 +6,12 @@ manager: dansimpspaces
 ms.topic: article
 author: cosmosdarwin
 ms.date: 03/15/2019
-ms.openlocfilehash: e433539eced1a9f7a52bbaf9bc45e8a6586586ff
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: f1cb6b458ed01a52478d47e0c8e9d2e8dfdb386e
+ms.sourcegitcommit: decb6c8caf4851b13af271d926c650d010a6b9e9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97039402"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "98177633"
 ---
 # <a name="nested-resiliency-for-storage-spaces-direct"></a>Вложенная устойчивость для Локальные дисковые пространства
 
@@ -79,7 +79,7 @@ RAID 5 + 1 — это установленная форма устойчивос
 
 Обратите внимание, что эффективность классической двусторонней зеркальной копии (около 50%) и вложенная четность с ускорением зеркального отображения (до 40%) не сильно отличаются. В зависимости от ваших требований, существенное повышение уровня доступности хранилища может быть очень эффективным. Вы выбираете устойчивость для каждого тома, поэтому вы можете смешивать вложенные тома устойчивости и классические двусторонние зеркальные тома в одном кластере.
 
-![Выгод](media/nested-resiliency/tradeoff.png)
+![Схема, демонстрирующая компромисс между двусторонним зеркальным отражением и уровнем четности с зеркальным отображением.](media/nested-resiliency/tradeoff.png)
 
 ## <a name="usage-in-powershell"></a>Использование в PowerShell
 
@@ -110,7 +110,7 @@ New-StorageTier -StoragePoolFriendlyName S2D* -FriendlyName NestedParity -Resili
 
 #### <a name="nested-two-way-mirror"></a>Вложенное двустороннее зеркало
 
-Чтобы использовать вложенное двустороннее зеркало, сослаться на `NestedMirror` шаблон уровня и укажите размер. Пример.
+Чтобы использовать вложенное двустороннее зеркало, сослаться на `NestedMirror` шаблон уровня и укажите размер. Пример:
 
 ```PowerShell
 New-Volume -StoragePoolFriendlyName S2D* -FriendlyName Volume01 -StorageTierFriendlyNames NestedMirror -StorageTierSizes 500GB
@@ -150,7 +150,7 @@ Get-StorageSubSystem Cluster* | Set-StorageHealthSetting -Name "System.Storage.N
 | Сервер не работает, первые 30 минут   | Операции чтения и записи в кэше, полная производительность | Нет (временно)               |
 | Через первые 30 минут          | Только чтение кэша, затронутая производительность   | Да (после того как кэш записан на диски емкости)                           |
 
-## <a name="frequently-asked-questions"></a>Часто задаваемые вопросы
+## <a name="frequently-asked-questions"></a>Вопросы и ответы
 
 ### <a name="can-i-convert-an-existing-volume-between-two-way-mirror-and-nested-resiliency"></a>Можно ли преобразовать существующий том между двусторонней зеркальной и вложенной устойчивостью?
 
@@ -185,7 +185,7 @@ Get-StorageSubSystem Cluster* | Set-StorageHealthSetting -Name "System.Storage.N
 
 ## <a name="additional-references"></a>Дополнительные ссылки
 
-- [Обзор Локальные дисковые пространства](storage-spaces-direct-overview.md)
+- [Обзор Локальных дисковых пространств](storage-spaces-direct-overview.md)
 - [Общие сведения о отказоустойчивости в Локальные дисковые пространства](storage-spaces-fault-tolerance.md)
 - [Планирование томов в Локальные дисковые пространства](plan-volumes.md)
 - [Создание томов в локальных дисковых пространствах](create-volumes.md)

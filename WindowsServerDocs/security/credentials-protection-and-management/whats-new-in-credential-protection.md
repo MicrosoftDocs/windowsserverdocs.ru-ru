@@ -1,18 +1,18 @@
 ---
 title: Новые возможности защиты учетных данных
-description: Безопасность Windows Server
+description: Сведения об Credential Guard для пользователей, вошедших в систему, удаленных Credential Guard для пользователей, выполнивших вход в систему, и защите доменов.
 ms.topic: article
 ms.assetid: 1b0b5180-f65a-43ac-8ef3-66014116f297
 author: gitmichiko
 ms.author: michikos
 manager: dongill
 ms.date: 03/06/2017
-ms.openlocfilehash: 521562b938b002e4c5fe5ffee5fcd7c677551f98
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 8f546884ef8400da397a6f2508b9e9ee2e5422e8
+ms.sourcegitcommit: decb6c8caf4851b13af271d926c650d010a6b9e9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87995760"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "98177313"
 ---
 # <a name="whats-new-in-credential-protection"></a>Новые возможности защиты учетных данных
 
@@ -57,7 +57,7 @@ ms.locfileid: "87995760"
 
 ### <a name="rolling-public-key-only-users-ntlm-secrets"></a>Пошаговые секреты NTLM пользователя только открытого ключа
 
-Начиная с Windows Server 2016 режим работы домена (ДФЛ), контроллеры домена могут поддерживать откат секретов NTLM пользователя только открытого ключа. Эта функция недоступен в более низких Дфлс.
+Начиная с Windows Server 2016 режим работы домена (ДФЛ), контроллеры домена могут поддерживать откат секретов NTLM пользователя только открытого ключа. Эта функция недоступна в более низких Дфлс.
 
 > [!WARNING]
 > Добавление контроллера домена в домен с развернутыми секретами NTLM перед обновлением контроллера домена по крайней мере до 8 ноября обслуживание 2016 выполняет риск сбоя контроллера домена.
@@ -68,7 +68,7 @@ ms.locfileid: "87995760"
 
     ![Свойства домена](../media/Credentials-Protection-And-Management/domain-properties.png)
 
-2. Установите флажок **включить истечение срока действия секретов NTLM при входе для пользователей, которым необходимо использовать Microsoft Passport или смарт-карту для интерактивного входа**в систему.
+2. Установите флажок **включить истечение срока действия секретов NTLM при входе для пользователей, которым необходимо использовать Microsoft Passport или смарт-карту для интерактивного входа** в систему.
 
     ![Секреты NTLM срок действия автонакат](../media/Credentials-Protection-And-Management/autoroll-ntlm.png)
 

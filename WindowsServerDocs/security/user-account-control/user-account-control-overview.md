@@ -1,18 +1,18 @@
 ---
 title: Общие сведения о контроле учетных записей
-description: Безопасность Windows Server
+description: Узнайте об управлении учетными записями пользователей, о том, как это фундаментальный компонент общей концепции безопасности корпорации Майкрософт и как он помогает уменьшить воздействие вредоносной программы.
 ms.topic: article
 ms.assetid: 1b7a39cd-fc10-4408-befd-4b2c45806732
 ms.author: lizross
 author: eross-msft
 manager: mtillman
 ms.date: 10/12/2016
-ms.openlocfilehash: 2729bafe910db6814479464a007ce0e49f8b3205
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 7cb2e6bb17ab92dc2ff23ace2de2654f6a2b2197
+ms.sourcegitcommit: decb6c8caf4851b13af271d926c650d010a6b9e9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89638852"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "98177283"
 ---
 # <a name="user-account-control-overview"></a>Общие сведения о контроле учетных записей
 Контроль учетных записей пользователей \( \) — это фундаментальный компонент общей концепции безопасности корпорации Майкрософт.  Контроль учетных записей помогает уменьшить влияние вредоносных программ.

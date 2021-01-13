@@ -7,12 +7,12 @@ ms.topic: article
 author: cosmosdarwin
 ms.date: 10/08/2018
 ms.localizationpriority: medium
-ms.openlocfilehash: 38ab78f24e6900019a134b480ce477b45ca5ff0e
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: aad7c0feb36699bedf7c955cd0172669e56910dd
+ms.sourcegitcommit: decb6c8caf4851b13af271d926c650d010a6b9e9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97039392"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "98177503"
 ---
 # <a name="drive-symmetry-considerations-for-storage-spaces-direct"></a>Рекомендации по симметрии дисков для Локальные дисковые пространства
 
@@ -32,7 +32,7 @@ ms.locfileid: "97039392"
 
 Например, если на одном сервере имеется NVMe *, у них должно быть* nvme.
 
-### <a name="number"></a>Число
+### <a name="number"></a>Number
 
 Все серверы должны иметь одинаковое количество дисков для каждого типа.
 
@@ -41,7 +41,7 @@ ms.locfileid: "97039392"
    > [!NOTE]
    > Количество дисков может временно различаться во время сбоев, а также при добавлении или удалении дисков.
 
-### <a name="model"></a>Моделирование
+### <a name="model"></a>Модель
 
 При возможности рекомендуется использовать диски одной и той же модели и версии встроенного по. Если это невозможно, тщательно выбирайте диски, которые похожи на возможные. Мы не хотим, чтобы совместное использование дисков одного типа с четко отличающимися характеристиками производительности или ендуранце (если только один кэш не является кэшем, а другой — емкость), так как Локальные дисковые пространства распределяет операции ввода-вывода равномерно и не зависит от модели.
 
@@ -90,7 +90,7 @@ ms.locfileid: "97039392"
 
 Ниже приведены некоторые поддерживаемые и неподдерживаемые конфигурации.
 
-### <a name="supported-supported-different-models-between-servers"></a>![Поддерживается](media/drive-symmetry-considerations/supported.png) Поддерживается: разные модели между серверами
+### <a name="image-typeicon-sourcemediadrive-symmetry-considerationssupportedpng-supported-different-models-between-servers"></a>:::image type="icon" source="media/drive-symmetry-considerations/supported.png"::: Поддерживается: разные модели между серверами
 
 Первые два сервера используют модель NVMe "X", но третий сервер использует модель NVMe "Z", которая очень похожа.
 
@@ -101,7 +101,7 @@ ms.locfileid: "97039392"
 
 Поддерживается.
 
-### <a name="supported-supported-different-models-within-server"></a>![Поддерживается](media/drive-symmetry-considerations/supported.png) Поддерживается: разные модели на сервере
+### <a name="image-typeicon-sourcemediadrive-symmetry-considerationssupportedpng-supported-different-models-within-server"></a>:::image type="icon" source="media/drive-symmetry-considerations/supported.png"::: Поддерживается: разные модели на сервере
 
 Каждый сервер использует несколько различных моделей жестких дисков «Y» и «Z», которые очень похожи. На каждом сервере имеется 10 жестких дисков.
 
@@ -113,7 +113,7 @@ ms.locfileid: "97039392"
 
 Поддерживается.
 
-### <a name="supported-supported-different-sizes-across-servers"></a>![Поддерживается](media/drive-symmetry-considerations/supported.png) Поддерживается: разные размеры на серверах
+### <a name="image-typeicon-sourcemediadrive-symmetry-considerationssupportedpng-supported-different-sizes-across-servers"></a>:::image type="icon" source="media/drive-symmetry-considerations/supported.png"::: Поддерживается: разные размеры на серверах
 
 Первые два сервера используют жесткий диск объемом 4 ТБ, но третий сервер использует очень схожий жесткий диск объемом 6 ТБ.
 
@@ -124,7 +124,7 @@ ms.locfileid: "97039392"
 
 Это поддерживается, хотя это приведет к получению потерянной емкости.
 
-### <a name="supported-supported-different-sizes-within-server"></a>![Поддерживается](media/drive-symmetry-considerations/supported.png) Поддерживается: разные размеры на сервере
+### <a name="image-typeicon-sourcemediadrive-symmetry-considerationssupportedpng-supported-different-sizes-within-server"></a>:::image type="icon" source="media/drive-symmetry-considerations/supported.png"::: Поддерживается: разные размеры на сервере
 
 Каждый сервер использует различные сочетания 1,2 ТБ и очень похожих твердотельных накопителей 1,6 ТБ. На каждом сервере имеется 4 общего SSD.
 
@@ -136,7 +136,7 @@ ms.locfileid: "97039392"
 
 Поддерживается.
 
-### <a name="unsupported-not-supported-different-types-of-drives-across-servers"></a>![не поддерживается](media/drive-symmetry-considerations/unsupported.png) Не поддерживается: разные типы дисков для разных серверов
+### <a name="image-typeicon-sourcemediadrive-symmetry-considerationsunsupportedpng-not-supported-different-types-of-drives-across-servers"></a>:::image type="icon" source="media/drive-symmetry-considerations/unsupported.png"::: Не поддерживается: разные типы дисков для разных серверов
 
 Сервер 1 имеет NVMe, но другие — нет.
 
@@ -148,7 +148,7 @@ ms.locfileid: "97039392"
 
 Эта возможность не поддерживается. Типы дисков должны быть одинаковыми на каждом сервере.
 
-### <a name="unsupported-not-supported-different-number-of-each-type-across-servers"></a>![не поддерживается](media/drive-symmetry-considerations/unsupported.png) Не поддерживается: разное количество каждого типа на разных серверах
+### <a name="image-typeicon-sourcemediadrive-symmetry-considerationsunsupportedpng-not-supported-different-number-of-each-type-across-servers"></a>:::image type="icon" source="media/drive-symmetry-considerations/unsupported.png"::: Не поддерживается: разное количество каждого типа на разных серверах
 
 Сервер 3 имеет больше дисков, чем другие.
 
@@ -159,7 +159,7 @@ ms.locfileid: "97039392"
 
 Эта возможность не поддерживается. Количество дисков каждого типа должно быть одинаковым на каждом сервере.
 
-### <a name="unsupported-not-supported-only-hdd-drives"></a>![не поддерживается](media/drive-symmetry-considerations/unsupported.png) Не поддерживается: только накопители на жестких дисках
+### <a name="image-typeicon-sourcemediadrive-symmetry-considerationsunsupportedpng-not-supported-only-hdd-drives"></a>:::image type="icon" source="media/drive-symmetry-considerations/unsupported.png"::: Не поддерживается: только накопители на жестких дисках
 
 На всех серверах подключены только накопители на жестких дисках.
 
@@ -183,4 +183,4 @@ ms.locfileid: "97039392"
 ## <a name="additional-references"></a>Дополнительные ссылки
 
 - [Требования к оборудованию Локальные дисковые пространства](storage-spaces-direct-hardware-requirements.md)
-- [Обзор Локальные дисковые пространства](storage-spaces-direct-overview.md)
+- [Обзор Локальных дисковых пространств](storage-spaces-direct-overview.md)

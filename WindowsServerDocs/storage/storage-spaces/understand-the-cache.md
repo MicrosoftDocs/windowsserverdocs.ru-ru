@@ -8,12 +8,12 @@ ms.topic: article
 author: cosmosdarwin
 ms.date: 09/21/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: a6ab48a2079513e69538eb2673be4cf7d656b94f
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: 633b36da552160e7a72793ace93e554e02d7d468
+ms.sourcegitcommit: decb6c8caf4851b13af271d926c650d010a6b9e9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97047762"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "98177543"
 ---
 # <a name="understanding-the-cache-in-storage-spaces-direct"></a>Общие сведения о кэше локальных дисковых пространств
 
@@ -44,13 +44,13 @@ ms.locfileid: "97047762"
 
 Развертывания на базе флэш-технологии ориентированны на максимальную производительность хранилища и не используют вращающиеся жесткие диски (HDD).
 
-![Варианты развертывания только с флэш-накопителями](media/understand-the-cache/All-Flash-Deployment-Possibilities.png)
+![Схема, показывающая возможности развертывания «все-Flash».](media/understand-the-cache/All-Flash-Deployment-Possibilities.png)
 
 ### <a name="hybrid-deployment-possibilities"></a>Варианты гибридного развертывания
 
 Гибридные развертывания предназначены для обеспечения баланса производительности и емкости или увеличения емкости и включают в себя вращающиеся жесткие диски (HDD).
 
-![Варианты гибридного развертывания](media/understand-the-cache/Hybrid-Deployment-Possibilities.png)
+![Схема, демонстрирующая возможности гибридного развертывания.](media/understand-the-cache/Hybrid-Deployment-Possibilities.png)
 
 ## <a name="cache-drives-are-selected-automatically"></a>Кэш-накопители выбираются автоматически
 
@@ -58,7 +58,7 @@ ms.locfileid: "97047762"
 
 Скорость работы накопителя определяется согласно следующей иерархии.
 
-![Drive-Type-Hierarchy](media/understand-the-cache/Drive-Type-Hierarchy.png)
+![Схема, показывающая иерархию скорости различных дисков с самым медленным жестким диском, а NVMe — самым быстрым.](media/understand-the-cache/Drive-Type-Hierarchy.png)
 
 Например, если у вас есть накопители NVMe и SSD, NVMe будут использоваться в качестве кэша для SSD.
 
@@ -76,7 +76,7 @@ ms.locfileid: "97047762"
 
 Поведение кэша определяется автоматически на основе типов дисков, которые кэшируются. При кэшировании твердотельных накопителей (например, кэширование NVMe для дисков SSD) кэшируются только операции записи. При кэшировании жестких дисков (например, когда жесткие диски кэшируются накопителями SSD) кэшируются операции и чтения, и записи.
 
-![Cache-Read-Write-Behavior](media/understand-the-cache/Cache-Read-Write-Behavior.png)
+![Схема, демонстрирующая поведение кэша, чтения и записи для развертывания "все-Flash" и гибридного развертывания.](media/understand-the-cache/Cache-Read-Write-Behavior.png)
 
 ### <a name="write-only-caching-for-all-flash-deployments"></a>Кэширование только операций записи для развертываний только с флэш-накопителями
 
@@ -117,7 +117,7 @@ ms.locfileid: "97047762"
 
 С учетом того, что устойчивость в локальных дисковых пространствах реализуется как минимум на уровне сервера (то есть, копии данных всегда записываются на разные сервера; не более одной копии на сервер), на данные в кэше распространяются те же преимущества устойчивости, что и на данные не в кэше.
 
-![Cache-Server-Side-Architecture](media/understand-the-cache/Cache-Server-Side-Architecture.png)
+![Схема, на которой показана архитектура кэша на стороне сервера.](media/understand-the-cache/Cache-Server-Side-Architecture.png)
 
 Например, при использовании трехстороннего зеркалирования три копии любых данных записываются на разные серверы и оказываются там в кэше. Вне зависимости от того, будут ли они позднее перенесены из кэша на устройство или нет, три эти копии всегда существуют.
 
@@ -125,7 +125,7 @@ ms.locfileid: "97047762"
 
 Привязка кэш-накопителей к накопителям-хранилищам может иметь любой коэффициент — от 1:1 до 1:12 и так далее. Он настраивается динамически всякий раз, когда добавляются или удаляются накопители, например при увеличении масштаба системы или после сбоев. Это означает, что вы можете добавлять кэш-накопители или накопители-хранилища независимо друг от друга, когда это необходимо.
 
-![Dynamic-Binding](media/understand-the-cache/Dynamic-Binding.gif)
+![Анимация, показывающая, как привязки дисков являются динамическими.](media/understand-the-cache/Dynamic-Binding.gif)
 
 Рекомендуется делать число накопителей-хранилищ кратным числу кэш-накопителей для соблюдения симметрии. Например, если у вас четыре кэш-накопителя, то при наличии восьми накопителей-хранилищ (соотношение 1:2) производительность будет более постоянной, чем при наличии семи или девяти накопителей-хранилищ.
 
@@ -137,7 +137,7 @@ ms.locfileid: "97047762"
 
 Этот сценарий показывает, почему для поддержания работоспособности сервера требуется не менее двух кэш-накопителей на сервер.
 
-![Handling-Failure](media/understand-the-cache/Handling-Failure.gif)
+![Анимация, показывающая, что для сохранения производительности требуется как минимум два диска кэша для каждого сервера.](media/understand-the-cache/Handling-Failure.gif)
 
 Затем можно заменить кэш-накопитель, следуя стандартной процедуре замены любых накопителей.
 
@@ -196,7 +196,7 @@ Enable-ClusterS2D -CacheDeviceModel "FABRIKAM NVME-1710"
 
 Ручная настройка поддерживает следующие варианты развертывания:
 
-![Exotic-Deployment-Possibilities](media/understand-the-cache/Exotic-Deployment-Possibilities.png)
+![Схема, на которой показаны возможности ручного развертывания.](media/understand-the-cache/Exotic-Deployment-Possibilities.png)
 
 ### <a name="set-cache-behavior"></a>Установка режима работы кэша
 

@@ -1,18 +1,18 @@
 ---
 title: Технический справочник по поставщику поддержки безопасности Schannel
-description: Безопасность Windows Server
+description: Сведения о протоколе безопасности транспортного уровня, протоколе SSL и протоколе TLS, реализованном поставщиком поддержки безопасности SChannel.
 ms.topic: article
 ms.assetid: 5bf9c4a5-cdc1-49eb-bf9a-8bf987410b63
 ms.author: lizross
 author: eross-msft
 manager: mtillman
 ms.date: 08/08/2018
-ms.openlocfilehash: 42ed20e3099b06398e56a6ca34a10dd1e2b2449b
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 390157aa7bdc01f0290b3b5013425546bd371a72
+ms.sourcegitcommit: decb6c8caf4851b13af271d926c650d010a6b9e9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89640399"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "98177303"
 ---
 # <a name="schannel-security-support-provider-technical-reference"></a>Технический справочник по поставщику поддержки безопасности Schannel
 

@@ -1,18 +1,18 @@
 ---
 title: Протокол DTLS
-description: Безопасность Windows Server
+description: Узнайте о протоколе протокола безопасности Датаграммного транспортного уровня, который входит в состав поставщика поддержки безопасности SChannel.
 ms.topic: article
 ms.assetid: 57b8873a-ad9c-4f2c-93e0-a2af352c6965
 ms.author: lizross
 author: eross-msft
 manager: mtillman
 ms.date: 05/16/2018
-ms.openlocfilehash: 1cf6c9b504a246f9b0abe344bc596434c0319c3a
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 8a918354a429b1a2061fb6e295b2533af1127713
+ms.sourcegitcommit: decb6c8caf4851b13af271d926c650d010a6b9e9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89640390"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "98177613"
 ---
 # <a name="datagram-transport-layer-security-protocol"></a>Протокол DTLS
 

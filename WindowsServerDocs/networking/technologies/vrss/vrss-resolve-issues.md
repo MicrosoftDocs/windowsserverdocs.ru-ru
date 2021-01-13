@@ -7,12 +7,12 @@ manager: dougkim
 ms.author: lizross
 author: eross-msft
 ms.date: 09/04/2018
-ms.openlocfilehash: a7f0a3b190232cafb68e3a39104c357972831441
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: e0764c3df4ba998936962a619f10180cd9e42bfc
+ms.sourcegitcommit: decb6c8caf4851b13af271d926c650d010a6b9e9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87951954"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "98177423"
 ---
 # <a name="resolve-vrss-issues"></a>Устранение проблем vRSS
 
@@ -45,7 +45,7 @@ ms.locfileid: "87951954"
    Enable-NetAdapterRss *
    ```
 
-   Другим системным способом настройки RSS является использование Netsh. Использование
+   Другим системным способом настройки RSS является использование Netsh. Использовать
 
     ```cmd
    netsh int tcp show global
@@ -58,7 +58,7 @@ ms.locfileid: "87951954"
    - Вммкенаблед = **false**
    - Вммкенабледрекуестед = **true**
 
-   ![вммк — включено](../../media/vmmq-enabled.png)
+   ![Снимок экрана: Окно PowerShell с параметрами на каждом адаптере, подключенном к виртуальному коммутатору.](../../media/vmmq-enabled.png)
 
    **Просмотр текущих параметров:**
 

@@ -8,12 +8,12 @@ author: eldenchristensen
 ms.date: 10/08/2018
 ms.assetid: 73dd8f9c-dcdb-4b25-8540-1d8707e9a148
 ms.localizationpriority: medium
-ms.openlocfilehash: 5f2a8a926fefe68b0afe79c0d120164d97f1eb90
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: 78166006da9936da144c871009e2cf44fb146ea5
+ms.sourcegitcommit: decb6c8caf4851b13af271d926c650d010a6b9e9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97042072"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "98177343"
 ---
 # <a name="taking-a-storage-spaces-direct-server-offline-for-maintenance"></a>Перевод сервера локальных дисковых пространств в автономный режим для обслуживания
 
@@ -68,20 +68,20 @@ Suspend-ClusterNode -Drain
 
 Для этого в диспетчере отказоустойчивости кластера перейдите в раздел **Узлы**, щелкните узел правой кнопкой мыши и выберите **Приостановить** > **Очистить роли**.
 
-![Pause-Drain](media/maintain-servers/pause-drain.png)
+![Снимок экрана диспетчер отказоустойчивости кластеров с выбранным параметром "приостановить сток".](media/maintain-servers/pause-drain.png)
 
 Все виртуальные машины начнут динамическую миграцию на другие серверы в кластере. Это может занять несколько минут.
 
    > [!NOTE]
    > При корректной приостановке и очистке узла кластера Windows выполняет автоматическую проверку безопасности продолжения процесса. Если существуют неработоспособные тома, процесс будет остановлен, а вы увидите предупреждение о том, что продолжать не безопасно.
 
-![Safety-Check](media/maintain-servers/safety-check.png)
+![Снимок экрана с сообщением об ошибке, сообщающим о том, что кластеризованное пространство находится в состоянии деградации и что действие не может быть завершено.](media/maintain-servers/safety-check.png)
 
 ## <a name="shutting-down-the-server"></a>Завершение работы сервера
 
 После завершения очистки сервера в диспетчере отказоустойчивого кластера и PowerShell он будет показан с состоянием **Приостановлено**.
 
-![Пауза](media/maintain-servers/paused.png)
+![Снимок экрана диспетчер отказоустойчивости кластеров показывающего, что один из узлов приостановлен.](media/maintain-servers/paused.png)
 
 Теперь вы можете безопасно перезапустить или завершить работу сервера обычным способом (например, с помощью командлетов PowerShell Stop-Computer или Restart-Computer).
 
@@ -115,7 +115,7 @@ Resume-ClusterNode –Failback Immediate
 
 Для этого в диспетчере отказоустойчивости кластера перейдите в раздел **Узлы**, щелкните узел правой кнопкой мыши и выберите **Возобновить** > **Восстановить размещение ролей**.
 
-![Resume-Failback](media/maintain-servers/resume-failback.png)
+![Снимок экрана диспетчер отказоустойчивости кластеров с выбранным параметром "возобновить роли при сбое".](media/maintain-servers/resume-failback.png)
 
 ## <a name="waiting-for-storage-to-resync"></a>Ожидание синхронизации хранилища
 
@@ -184,5 +184,5 @@ MyVolume3    Mirror                OK                Healthy      True          
 
 ## <a name="additional-references"></a>Дополнительные ссылки
 
-- [Обзор Локальные дисковые пространства](storage-spaces-direct-overview.md)
+- [Обзор Локальных дисковых пространств](storage-spaces-direct-overview.md)
 - [Кластерное обновление (CAU)](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831694(v=ws.11))

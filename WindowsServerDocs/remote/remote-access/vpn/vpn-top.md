@@ -1,18 +1,18 @@
 ---
 title: Виртуальная частная сеть (VPN)
-description: С помощью этого раздела вы узнаете о возможностях и функциях VPN в Windows Server 2016 и Windows 10.
+description: Узнайте, как можно использовать шлюз RAS в качестве VPN-сервера с одним клиентом.
 ms.topic: article
 ms.assetid: cd4908f0-0d6f-4c02-8f98-4dc88c3dcb65
 ms.date: 11/05/2018
 ms.author: v-tea
 author: Teresa-MOTIV
 ms.localizationpriority: medium
-ms.openlocfilehash: 30f08f02bf7a06619b9a32206863a9ddefc0fc2d
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 3e5f8a6a68fc62bb6be02a6a332547c8d301aa95
+ms.sourcegitcommit: decb6c8caf4851b13af271d926c650d010a6b9e9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87968921"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "98177253"
 ---
 # <a name="virtual-private-networking-vpn"></a>Виртуальная частная сеть (VPN)
 

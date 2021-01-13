@@ -5,12 +5,12 @@ ms.date: 05/28/2020
 author: Deland-Han
 ms.author: delhan
 ms.topic: troubleshooting
-ms.openlocfilehash: 5cce39ea42af57bbfd400427f763dfca5da75d7b
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: e24521ac89c0eb1eb4b2063ec7d70384a3755a33
+ms.sourcegitcommit: decb6c8caf4851b13af271d926c650d010a6b9e9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98040304"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "98177513"
 ---
 # <a name="iaas-with-sql-server---tuning-failover-cluster-network-thresholds"></a>IaaS с настройками пороговых значений сети отказоустойчивого кластера SQL Server
 
@@ -90,7 +90,7 @@ C:\Windows\system32> get-cluster | fl *subnet*
 
 По умолчанию, минимальное, максимальное и рекомендованное значение для каждой ОС поддержки
 
-| Описание | ОС | Min | Max | По умолчанию | Рекомендуемая |
+| Описание | OS | Min | Max | Значение по умолчанию | Рекомендуется |
 |--|--|--|--|--|--|
 | CrossSubnetThreshold | 2008 R2 | 3 | 20 | 5 | 20 |
 | Пороговое значение Кросссубнет | 2012 | 3 | 120 | 5 | 20 |
@@ -133,7 +133,7 @@ C:\Windows\system32> get-cluster | fl *subnet*
     C:\Windows\system32> get-cluster | fl *subnet*
     ```
 
-    :::image type="content" source="media/iaas-sql-failover-cluster/cmd.png" alt-text="cmd" border="false":::
+    :::image type="content" source="media/iaas-sql-failover-cluster/cmd.png" alt-text="Снимок экрана окна PowerShell, отображающего результаты выполнения команды." border="false":::
 
 ## <a name="references"></a>Ссылки
 
