@@ -1,17 +1,17 @@
 ---
 title: Поддержка ежемесячного разностного обновления для независимых поставщиков программного обеспечения без службы WSUS
 description: Узнайте о службе (WSUS), в т. ч. о том, как независимые поставщики программного обеспечения могут временно применять ежемесячное разностное обновление вместо экспресс-доставки WSUS для уменьшения размера пакета.
-ms.topic: get-started article
+ms.topic: how-to
 ms.author: lizross
 author: eross-msft
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 2b983b06a9f8bf4c2a6d5c72aef13689a72b3684
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 5c15784e7b276605b09eeb3014cd0d823750afa4
+ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89624471"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97947610"
 ---
 # <a name="monthly-delta-update-isv-support-without-wsus"></a>Поддержка ежемесячного разностного обновления для независимых поставщиков программного обеспечения без службы WSUS
 
@@ -44,8 +44,8 @@ ms.locfileid: "89624471"
 
 Разностные и накопительные обновления имеют одинаковые номера KB, одинаковую классификацию и выпускаются в одно и то же время. Эти обновления можно различить по заголовку в каталоге или по имени MSU:
 
-- 2017-02 *\***Delta Update**\**  for Windows 10 Version 1607 for x64-based Systems (KB1234567)
-- 2017-02 *\***Cumulative Update**\**  for Windows 10 Version 1607 for x86-based Systems (KB1234567)
+- 2017-02 *\***Delta Update**\** for Windows 10 Version 1607 for x64-based Systems (KB1234567)
+- 2017-02 *\***Cumulative Update**\** for Windows 10 Version 1607 for x86-based Systems (KB1234567)
 
 ### <a name="when-to-use-monthly-delta-update"></a>Когда применяется ежемесячное разностное обновление?
 

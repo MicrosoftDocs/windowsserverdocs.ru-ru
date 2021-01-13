@@ -1,18 +1,18 @@
 ---
 title: Обновление узла виртуализации удаленных рабочих столов до Windows Server 2016
-description: В этой статье описывается, как обновить существующие развертывания служб удаленных рабочих столов до Windows Server 2016.
+description: Узнайте, как обновить существующий узел виртуализации удаленных рабочих столов до Windows Server 2016.
 ms.author: spatnaik
 ms.date: 08/01/2016
 ms.topic: article
 ms.assetid: 5aed8ba7-f541-4416-b01c-4d3b1712e2b1
 author: spatnaik
 manager: scottman
-ms.openlocfilehash: 4260748ada0371e637edef23a579e7253721f4f4
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 3f42d078158cf6f78151418836795925e2bdb926
+ms.sourcegitcommit: 605a9b46b74b2c7a9116e631e902467ea02a6e70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87948827"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97965796"
 ---
 # <a name="upgrading-your-remote-desktop-virtualization-host-to-windows-server-2016"></a>Обновление узла виртуализации удаленных рабочих столов до Windows Server 2016
 

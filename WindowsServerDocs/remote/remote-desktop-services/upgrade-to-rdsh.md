@@ -1,18 +1,18 @@
 ---
 title: Обновление узла сеансов удаленных рабочих столов до Windows Server 2016
-description: В этой статье описывается, как обновить существующие развертывания служб удаленных рабочих столов до Windows Server 2016.
+description: Узнайте, как обновить существующий узел сеансов удаленных рабочих столов до Windows Server 2016.
 ms.author: spatnaik
 ms.date: 08/01/2016
 ms.topic: article
 ms.assetid: 5c9b98b8-4eca-4a39-b10b-2bac729f7f44
 author: spatnaik
 manager: scottman
-ms.openlocfilehash: b825c79ac698f2a61c81628180f1d7cc14b826e8
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 37aefa57473b9fe8d16fc399ad9bdc2e2e5d53d0
+ms.sourcegitcommit: 605a9b46b74b2c7a9116e631e902467ea02a6e70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87948847"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97965816"
 ---
 # <a name="upgrading-your-remote-desktop-session-host-to-windows-server-2016"></a>Обновление узла сеансов удаленных рабочих столов до Windows Server 2016
 

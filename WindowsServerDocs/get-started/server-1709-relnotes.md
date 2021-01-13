@@ -1,6 +1,6 @@
 ---
 title: Примечания к выпуску. Важные проблемы в Windows Server версии 1709
-description: Сводные данные о критических проблемах, требующих обходных действий во избежание аварийного завершения, "зависания", ошибки установки и потери данных.
+description: Сведения о критических проблемах, требующих обходных действий во избежание аварийного завершения, "зависания", ошибки установки или потери данных в Windows Server версии 1709.
 ms.date: 04/23/2018
 ms.topic: article
 ms.assetid: 134aab85-664f-4d44-87ef-9e5fd389071f
@@ -8,12 +8,12 @@ author: jaimeo
 ms.author: jaimeo
 manager: dougkim
 ms.localizationpriority: medium
-ms.openlocfilehash: f707dbbe22624489f9c5939987ea9831cc467214
-ms.sourcegitcommit: 5344adcf9c0462561a4f9d47d80afc1d095a5b13
+ms.openlocfilehash: d71a6bd94026615df4966d322e009be0a94d1fc3
+ms.sourcegitcommit: 605a9b46b74b2c7a9116e631e902467ea02a6e70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90766707"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97965776"
 ---
 # <a name="release-notes-important-issues-in-windows-server-version-1709"></a>Заметки о выпуске. Важные проблемы в Windows Server версии 1709
 
