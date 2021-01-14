@@ -7,12 +7,12 @@ ms.author: lizross
 author: eross-msft
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 5fe0f2a5dfd51f3b7689db7b3ad6a38938428a01
-ms.sourcegitcommit: 4165d4a9198228d4ec809ccd7d791f8de2aeb159
+ms.openlocfilehash: 4102971c4490eb42ccd5d17e7cc60f09c95b6878
+ms.sourcegitcommit: e0070b24e0423187eb2b36ba92072fed23880aa8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97091268"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "98186402"
 ---
 # <a name="findstr"></a>findstr
 
@@ -46,11 +46,11 @@ findstr [/b] [/e] [/l | /r] [/s] [/i] [/x] [/v] [/n] [/m] [/o] [/p] [/f:<file>] 
 | /g`<file>` | Возвращает строки поиска из указанного файла. |
 | /d`<dirlist>` | Выполняет поиск в указанном списке каталогов. Каждый каталог должен быть отделен точкой с запятой (например,;) `dir1;dir2;dir3` . |
 | /`<colorattribute>` | Задает атрибуты цвета с двумя шестнадцатеричными цифрами. Введите дополнительные `color /?` сведения. |
-| `<strings>` | Задает текст для поиска в файле *filename*. Обязательный элемент. |
+| `<strings>` | Задает текст для поиска в файле *filename*. Обязательный. |
 | `[\<drive>:][<path>]<filename>[...]` | Указывает расположение и файл или файлы для поиска. Требуется по крайней мере одно имя файла. |
 | /? | Отображает справку в командной строке. |
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Примечания
 
 - Все параметры командной строки **findstr** должны предшествовать *строкам* и *именам файлов* в строке команды.
 
@@ -94,7 +94,7 @@ findstr hello there x.y
 Чтобы найти *Hello* в файле *x. y*, введите:
 
 ```
-findstr /c:hello there x.y
+findstr /c:"hello there" x.y
 ```
 
 Чтобы найти все вхождения слова *Windows* (с заглавной буквой W) в файле *proposal.txt*, введите:

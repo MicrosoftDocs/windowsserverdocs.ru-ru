@@ -6,12 +6,12 @@ ms.author: billmath
 manager: mtillman
 ms.date: 06/13/2018
 ms.topic: article
-ms.openlocfilehash: 3c476de50a10d48757f19c41c80f10411222d885
-ms.sourcegitcommit: 29b8942ea46196c12a67f6b6ad7f8dd46bf94fb2
+ms.openlocfilehash: 2f730fad7996c17dbe7c7130f078492917537efb
+ms.sourcegitcommit: e0070b24e0423187eb2b36ba92072fed23880aa8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "98065660"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "98186412"
 ---
 # <a name="build-a-single-page-web-application-using-oauth-and-adaljs-with-ad-fs-2016-or-later"></a>Создание веб-приложения с одной страницей с помощью OAuth и ADAL.JS с AD FS 2016 или более поздней версии
 
@@ -100,10 +100,11 @@ git clone https://github.com/Azure-Samples/active-directory-angularjs-singlepage
 ```
     adalProvider.init(
         {
-            instance: 'https://fs.contoso.com/', // your STS URL
-            tenant: 'adfs',                      // this should be adfs
-            clientId: 'https://localhost:44326/', // your client ID of the
-            //cacheLocation: 'localStorage', // enable this for IE, as sessionStorage does not work for localhost.
+            instance: 'https://fs.contoso.com/',                // your STS URL
+            tenant: 'adfs',                                     // this should be set to adfs
+            clientId: '150ab73e-0b05-4b78-9e50-0095a992cca9',   // set this to the Client Id generated during application registration in AD FS
+            popUp: false,
+            //cacheLocation: 'localStorage',                    // enable this for IE, as sessionStorage does not work for localhost.
         },
         $httpProvider
     );
