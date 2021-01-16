@@ -5,8 +5,7 @@
 ### [Кворум кластеров и пулов](../storage/storage-spaces/understand-quorum.md)
 ### [Служба сведений о домене сбоя](fault-domains.md)
 ### [Упрощенные сети кластера SMB Multichannel и Multi-NIC](smb-multichannel.md)
-### [Балансировка нагрузки для виртуальных машин](vm-load-balancing-overview.md)
-### [Подробное описание балансировки нагрузки для виртуальных машин](vm-load-balancing-deep-dive.md)
+### [Балансировка нагрузки для виртуальных машин](/azure-stack/hci/manage/vm-load-balancing)
 ### [Наборы кластеров](../storage/storage-spaces/cluster-sets.md)
 ### [Сходство кластеров](cluster-affinity.md)
 ## Планирование
