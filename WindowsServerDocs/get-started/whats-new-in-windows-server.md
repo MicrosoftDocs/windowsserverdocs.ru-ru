@@ -1,17 +1,17 @@
 ---
 title: Новые возможности Windows Server
-description: Новые возможности вычислений, удостоверений, управления, автоматизации, сетей, безопасности и хранения.
+description: Новые возможности для вычислений, удостоверений, управления, автоматизации, сетей, безопасности и хранения в Windows Server.
 ms.date: 10/22/2020
 ms.topic: article
 author: jasongerend
 ms.author: jgerend
 ms.localizationpriority: medium
-ms.openlocfilehash: 2ba281106fbc6149b226326e79a41618efbc0fc2
-ms.sourcegitcommit: 4f7308430a69fe7965e16aa5b31f87c5d68e4a09
+ms.openlocfilehash: 17c538bde793b8b9e548dd181b586a1799acb984
+ms.sourcegitcommit: d42b80f947dbfa8660d982be67d77745a28081e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "97577396"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "98113100"
 ---
 # <a name="whats-new-in-windows-server"></a>Новые возможности Windows Server
 

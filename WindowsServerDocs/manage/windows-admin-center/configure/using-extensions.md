@@ -5,13 +5,13 @@ ms.topic: article
 author: daniellee-msft
 ms.author: jol
 ms.localizationpriority: medium
-ms.date: 08/07/2020
-ms.openlocfilehash: ef5a4df53efeb6e24a86d74906fc5847d1924163
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.date: 01/14/2021
+ms.openlocfilehash: 20e2c1098aaf77559c32cca8f457a3ec5e3080f8
+ms.sourcegitcommit: 17571fb06af2634dbf0163a2c08014cd6e9f9762
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97947560"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "98206063"
 ---
 # <a name="install-and-manage-extensions"></a>Установка расширений и управление ими
 
@@ -62,7 +62,7 @@ Windows Admin Center поддерживает несколько веб-кана
 2. Щелкните имя пакета, который необходимо установить, чтобы просмотреть страницу сведений о пакете.
 3. Нажмите ссылку **Скачать** сверху на панели навигации страницы сведений о пакете и загрузите для расширения файл NUPKG.
 4. Повторите шаги 2 и 3 для всех пакетов, которые необходимо загрузить.
-5. Скопируйте файлы пакета в общую папку, доступ к которой можно получить с компьютера, на котором установлен Windows Admin Center, или на локальный диск компьютера.
+5. Скопируйте файлы пакета в общую папку, доступ к которой можно получить с компьютера, на котором установлен Windows Admin Center, или на локальный диск такого компьютера.
 6. Следуйте инструкциям раздела [Installing extensions from a different feed](#installing-extensions-from-a-different-feed) (Установка расширений из другого веб-канала).
 
 ### <a name="downloading-packages-with-a-powershell-script"></a>Загрузка пакетов с помощью скрипта PowerShell

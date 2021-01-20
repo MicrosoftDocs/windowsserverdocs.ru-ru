@@ -6,12 +6,12 @@ author: dahavey
 ms.author: dahavey
 ms.date: 05/08/2018
 ms.topic: article
-ms.openlocfilehash: c407db49c289414cd92b3ff0316d4097754fac5b
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: 66b24e4f1b99ba13e48520743069fc4aff4abf28
+ms.sourcegitcommit: 6a62d736e4d9989515c6df85e2577662deb042b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97046832"
+ms.lasthandoff: 01/11/2021
+ms.locfileid: "98103666"
 ---
 # <a name="how-the-windows-time-service-works"></a>Принцип работы службы времени Windows
 
@@ -69,7 +69,7 @@ ms.locfileid: "97046832"
 
 **Архитектура Службы времени Windows**
 
-![Служба времени Windows](../media/Windows-Time-Service/How-the-Windows-Time-Service-Works/trnt_sec_arcc.gif)
+![Схема, на которой показана архитектура Службы времени Windows.](../media/Windows-Time-Service/How-the-Windows-Time-Service-Works/trnt_sec_arcc.gif)
 
 Диспетчер служб отвечает за запуск и остановку Службы времени Windows. Диспетчер служб Службы времени Windows отвечает за запуск действий поставщиков времени NTP, включенных в операционную систему. Диспетчер служб Службы времени Windows управляет всеми функциями Службы времени Windows и объединением всех образцов времени. Помимо предоставления информации о текущем состоянии системы, например, об текущем источнике времени или о последнем обновлении системных часов, диспетчер служб Службы времени Windows также отвечает за создание событий в журнале событий.
 

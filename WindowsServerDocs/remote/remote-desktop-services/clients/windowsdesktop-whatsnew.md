@@ -5,14 +5,14 @@ ms.topic: article
 author: heidilohr
 manager: lizross
 ms.author: helohr
-ms.date: 12/15/2020
+ms.date: 01/12/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: 0ce679c49abac80e4d3fa1edef9768ae8abf34b3
-ms.sourcegitcommit: 4f7308430a69fe7965e16aa5b31f87c5d68e4a09
+ms.openlocfilehash: 1d5dc9e76680b6c222f67b8f94c12bedd57af263
+ms.sourcegitcommit: 56297d3b8aa8f4796cb74b736d599d433aeee339
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "97577406"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "98134810"
 ---
 # <a name="whats-new-in-the-windows-desktop-client"></a>Что нового в клиенте для Windows Desktop
 
@@ -24,18 +24,20 @@ ms.locfileid: "97577406"
 
 |Группа пользователей |Последняя версия  |Минимальная поддерживаемая версия |
 |-----------|----------------|--------------------------|
-|Общие     |1.2.1524        |1.2.945                   |
-|Предварительная оценка    |1.2.1526        |1.2.945                   |
+|Общие     |1.2.1525        |1.2.945                   |
+|Предварительная оценка    |1.2.1670        |1.2.945                   |
 
-## <a name="updates-for-version-121526-insider"></a>Обновления для версии 1.2.1526 (в рамках программы предварительной оценки)
+## <a name="updates-for-version-121670-insider"></a>Обновления для версии 1.2.1670 (в рамках программы предварительной оценки)
 
-*Дата публикации: 15.12.2020*
+*Дата публикации: 12.01.2021*
 
 Скачать: [Windows (64-разрядная версия)](https://go.microsoft.com/fwlink/?linkid=2139233), [Windows (32-разрядная версия)](https://go.microsoft.com/fwlink/?linkid=2139144), [Windows (ARM64)](https://go.microsoft.com/fwlink/?linkid=2139368)
 
 - Добавлена поддержка функции для защиты от записи экрана для конечных точек Windows 10. Дополнительные сведения см. в разделе [Рекомендации по безопасности узла сеансов](/azure/virtual-desktop/security-guide#session-host-security-best-practices).
+- Добавлена поддержка прокси-серверов, требующих проверки подлинности для подписки на веб-канал.
+- Теперь в клиенте отображается уведомление с возможностью повторить попытку, если обновление не удалось скачать.
 
-## <a name="updates-for-version-121524"></a>Обновления для версии 1.2.1524
+## <a name="updates-for-version-121525"></a>Обновления для версии 1.2.1525
 
 *Дата публикации: 01.12.2020*
 
