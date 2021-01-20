@@ -7,12 +7,12 @@ ms.author: billmath
 manager: mtillman
 ms.date: 02/22/2018
 ms.topic: article
-ms.openlocfilehash: 24dcb859c35d82ab81460ccaea2ceb1dba5e502c
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: d2cd5f71afdb629b22438258541f91be4817b997
+ms.sourcegitcommit: 7674bbe49517bbfe0e2c00160e08240b60329fd9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97040882"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98603463"
 ---
 # <a name="build-a-multi-tiered-application-using-on-behalf-of-obo-using-oauth-with-ad-fs-2016-or-later"></a>Создание многоуровневого приложения с использованием от имени (OBO) с помощью OAuth с AD FS 2016 или более поздней версии
 
@@ -34,7 +34,7 @@ ms.locfileid: "97040882"
 4. AD FS возвращает маркер доступа к веб-службе среднего уровня. Для получения дополнительных функциональных возможностей службе среднего уровня требуется доступ к серверной WebAPI.
 5. Клиент использует маркер доступа для использования службы среднего уровня.
 6. Служба среднего уровня предоставляет маркер доступа к маркеру AD FS маркера доступа для внутреннего пользователя, прошедшего проверку подлинности WebAPI.
-7. AD FS возвращает маркер доступа для серверной части WebAPI в службу среднего уровня актиинг в качестве клиента
+7. AD FS возвращает маркер доступа для серверной части WebAPI в службу среднего уровня, выступающей в качестве клиента
 8. Служба среднего уровня использует маркер доступа, предоставленный AD FS на шаге 7 для доступа к серверной части WebAPI в качестве клиента и выполнения необходимых функций.
 
 ## <a name="sample-structure"></a>Пример структуры
@@ -94,27 +94,27 @@ git clone https://github.com/Azure-Samples/active-directory-dotnet-webapi-onbeha
 
 Откройте консоль управления AD FS Management MMC и добавьте новую группу приложений. Выберите шаблон собственный — приложение-WebAPI.
 
-![AD FS OBO](media/AD-FS-On-behalf-of-Authentication-in-Windows-Server-2016/ADFS_OBO2.PNG)
+![Снимок экрана со страницей приветствия мастера добавления группы приложений с выделенным собственным приложением-WebAPI.](media/AD-FS-On-behalf-of-Authentication-in-Windows-Server-2016/ADFS_OBO2.PNG)
 
 Нажмите кнопку Далее, чтобы получить сведения о клиентском приложении. Присвойте подходящее имя клиентскому приложению в AD FS. Скопируйте идентификатор клиента и сохраните его там, где вы можете получить доступ позже, так как это потребуется в конфигурации приложения в Visual Studio.
 
 >Примечание. URI перенаправления может быть любым произвольным URI, так как он в действительности не используется в собственных клиентах.
 
-![AD FS OBO](media/AD-FS-On-behalf-of-Authentication-in-Windows-Server-2016/ADFS_OBO11.PNG)
+![Снимок экрана: страница "собственное приложение" мастера добавления группы приложений.](media/AD-FS-On-behalf-of-Authentication-in-Windows-Server-2016/ADFS_OBO11.PNG)
 
 Нажмите кнопку Далее, и появится страница с информацией о WebAPI. Укажите подходящее имя для записи AD FS WebAPI и введите универсальный код ресурса (URI) перенаправления в качестве URI, который вы видите в Visual Studio для ToDoListService
 
-![AD FS OBO](media/AD-FS-On-behalf-of-Authentication-in-Windows-Server-2016/ADFS_OBO16.PNG)
+![Снимок экрана со свойствами проекта службы "список задач", в которых отображается перенаправление U R I.](media/AD-FS-On-behalf-of-Authentication-in-Windows-Server-2016/ADFS_OBO16.PNG)
 
-![AD FS OBO](media/AD-FS-On-behalf-of-Authentication-in-Windows-Server-2016/ADFS_OBO18.PNG)
+![Снимок экрана: страница "Настройка веб-API" мастера добавления группы приложений, отображающая URI перенаправления, заполненный в текстовом поле.](media/AD-FS-On-behalf-of-Authentication-in-Windows-Server-2016/ADFS_OBO18.PNG)
 
 Нажмите кнопку Далее, и вы увидите страницу Выбор политики управления доступом. Убедитесь, что в разделе Политика отображается «разрешение всем».
 
-![AD FS OBO](media/AD-FS-On-behalf-of-Authentication-in-Windows-Server-2016/ADFS_OBO1.PNG)
+![Снимок экрана: страница "Выбор политики управления доступом" мастера добавления группы приложений.](media/AD-FS-On-behalf-of-Authentication-in-Windows-Server-2016/ADFS_OBO1.PNG)
 
 Нажмите кнопку Далее, и появится страница Настройка разрешений приложения. На этой странице Выберите разрешенные области как OpenID Connect (выбрано по умолчанию) и user_impersonation. Область "user_impersonation" необходима для успешного запроса маркера доступа от имени AD FS.
 
-![AD FS OBO](media/AD-FS-On-behalf-of-Authentication-in-Windows-Server-2016/ADFS_OBO12.PNG)
+![Снимок экрана со страницей настройки разрешений приложения в мастере добавления группы приложений.](media/AD-FS-On-behalf-of-Authentication-in-Windows-Server-2016/ADFS_OBO12.PNG)
 
 Нажмите кнопку Далее, чтобы отобразить страницу Сводка. Пройдите остальные шаги мастера и завершите настройку.
 
@@ -129,25 +129,25 @@ c:[]
 => issue(Type = "http://schemas.microsoft.com/identity/claims/scope", Value = "user_impersonation");
 ```
 
-![AD FS OBO](media/AD-FS-On-behalf-of-Authentication-in-Windows-Server-2016/ADFS_OBO10.PNG)
+![Снимок экрана: диалоговое окно "Свойства" с вкладкой "правила преобразования выдачи".](media/AD-FS-On-behalf-of-Authentication-in-Windows-Server-2016/ADFS_OBO10.PNG)
 
 **Добавление ToDoListService в качестве клиента в группу приложений**
 
 На этом этапе необходимо сделать дополнительную запись в AD FS, чтобы приложение-сервер действовало как клиент, а не как ресурс. Откройте только что созданную группу приложений и щелкните Добавить приложение.
 
-![AD FS OBO](media/AD-FS-On-behalf-of-Authentication-in-Windows-Server-2016/ADFS_OBO15.PNG)
+![Снимок экрана: диалоговое окно "Свойства" с параметром "добавить приложение" в левом нижнем углу окна.](media/AD-FS-On-behalf-of-Authentication-in-Windows-Server-2016/ADFS_OBO15.PNG)
 
 Отобразится страница "Добавление нового приложения в Мисамплеграуп". На этой странице выберите "серверное приложение или веб-сайт" в качестве автономного приложения.
 
-![AD FS OBO](media/AD-FS-On-behalf-of-Authentication-in-Windows-Server-2016/ADFS_OBO19.PNG)
+![Снимок экрана со страницей приветствия в мастере добавления нового приложения в Мисамплеграуп с выделенным параметром серверное приложение или веб-сайт.](media/AD-FS-On-behalf-of-Authentication-in-Windows-Server-2016/ADFS_OBO19.PNG)
 
 Нажмите кнопку Далее. Откроется страница с информацией о приложении. Укажите подходящее имя для записи конфигурации в разделе Имя. Убедитесь, что идентификатор клиента совпадает с идентификатором для Тодолистсервицевебапи.
 
-![AD FS OBO](media/AD-FS-On-behalf-of-Authentication-in-Windows-Server-2016/ADFS_OBO20.PNG)
+![Снимок экрана: страница серверное приложение в мастере добавления нового приложения в Мисамплеграуп, показывающая правильный идентификатор клиента.](media/AD-FS-On-behalf-of-Authentication-in-Windows-Server-2016/ADFS_OBO20.PNG)
 
 Нажмите кнопку Далее. Откроется страница, на которой можно настроить учетные данные приложения. Щелкните "создать общий секрет". Появится автоматически созданный секрет. Скопируйте секрет в нужное расположение, так как это потребуется при настройке ToDoListService в Visual Studio.
 
-![AD FS OBO](media/AD-FS-On-behalf-of-Authentication-in-Windows-Server-2016/ADFS_OBO17.PNG)
+![Снимок экрана со страницей настройки учетных данных приложения в мастере добавления нового приложения в Мисамплеграуп, на котором выбран параметр создать общий секрет.](media/AD-FS-On-behalf-of-Authentication-in-Windows-Server-2016/ADFS_OBO17.PNG)
 
 Нажмите кнопку Далее и завершите работу мастера.
 
@@ -216,22 +216,22 @@ authContext = new AuthenticationContext(authority, false);
 * Щелкните правой кнопкой мыши решение "WebAPI-OnBehalfOf-DotNet" в обозревателе решений и выберите Добавить-> новый проект.
 * Выбор шаблона веб-приложения ASP.NET
 
-![AD FS OBO](media/AD-FS-On-behalf-of-Authentication-in-Windows-Server-2016/ADFS_OBO4.PNG)
+![Снимок экрана: диалоговое окно "Добавление нового проекта" с выделенным параметром "S P Dot".](media/AD-FS-On-behalf-of-Authentication-in-Windows-Server-2016/ADFS_OBO4.PNG)
 
 * В следующем запросе щелкните "изменить проверку подлинности".
 * Выберите "рабочие и учебные учетные записи", а затем в раскрывающемся списке справа выберите "локальный".
 * Введите путь federationmetadata.xml для развертывания AD FS и укажите универсальный код ресурса (URI) приложения (в дальнейшем укажите универсальный код ресурса) и нажмите кнопку ОК, чтобы добавить проект в решение.
 
-![AD FS OBO](media/AD-FS-On-behalf-of-Authentication-in-Windows-Server-2016/ADFS_OBO9.PNG)
+![Снимок экрана: диалоговое окно "изменение проверки подлинности" с выделенным значением "приложение I D U R".](media/AD-FS-On-behalf-of-Authentication-in-Windows-Server-2016/ADFS_OBO9.PNG)
 
 * Щелкните правой кнопкой мыши контроллеры в обозревателе решений в созданном новом проекте. Выберите "добавить-> контроллер"
 * В области выбора шаблона выберите "контроллер веб-API 2-Empty" и нажмите кнопку ОК.
 
-![AD FS OBO](media/AD-FS-On-behalf-of-Authentication-in-Windows-Server-2016/ADFS_OBO3.PNG)
+![Снимок экрана с диалоговым окном "Добавление шаблона" с выделенным параметром "веб-контроллер \ I 2 контроллера-Empty".](media/AD-FS-On-behalf-of-Authentication-in-Windows-Server-2016/ADFS_OBO3.PNG)
 
 * Присвойте контроллеру соответствующее имя.
 
-![AD FS OBO](media/AD-FS-On-behalf-of-Authentication-in-Windows-Server-2016/ADFS_OBO13.PNG)
+![Снимок экрана: диалоговое окно "Добавление контроллера" с выделенным значением имени контроллера.](media/AD-FS-On-behalf-of-Authentication-in-Windows-Server-2016/ADFS_OBO13.PNG)
 
 * Добавьте следующий код в контроллер:
 
@@ -261,17 +261,17 @@ authContext = new AuthenticationContext(authority, false);
 
 Откройте группу приложений Мисамплеграуп. Щелкните Добавить приложение и выберите шаблон веб-API и нажмите кнопку Далее.
 
-![AD FS OBO](media/AD-FS-On-behalf-of-Authentication-in-Windows-Server-2016/ADFS_OBO6.PNG)
+![Снимок экрана со страницей приветствия мастера добавления нового приложения в Мисамплеграуп с выделенным параметром веб-API.](media/AD-FS-On-behalf-of-Authentication-in-Windows-Server-2016/ADFS_OBO6.PNG)
 
 На странице Настройка веб-API укажите соответствующее имя для записи WebAPI и идентификатора. Идентификатор должен быть значением URL-адреса SSL из проекта Вебапиобо в Visual Studio (аналогично тому, что мы делали для Баккендвебапиадфсадд).
 
-![AD FS OBO](media/AD-FS-On-behalf-of-Authentication-in-Windows-Server-2016/ADFS_OBO8.PNG)
+![Снимок экрана свойств проекта Вебапиобо с выделенным параметром S S L U R L.](media/AD-FS-On-behalf-of-Authentication-in-Windows-Server-2016/ADFS_OBO8.PNG)
 
-![AD FS OBO](media/AD-FS-On-behalf-of-Authentication-in-Windows-Server-2016/ADFS_OBO7.PNG)
+![Снимок экрана: страница "Настройка веб-сайта A P I" мастера добавления нового приложения в Мисамплеграуп с выделенным значением локального узла.](media/AD-FS-On-behalf-of-Authentication-in-Windows-Server-2016/ADFS_OBO7.PNG)
 
 Продолжайте работу с мастером так же, как и при настройке ToDoListService WebAPI. В конце группы приложений должна выглядеть следующим образом:
 
-![AD FS OBO](media/AD-FS-On-behalf-of-Authentication-in-Windows-Server-2016/ADFS_OBO5.PNG)
+![Снимок экрана: диалоговое окно свойств моего примера группы, в котором отображается ToDoListService WebAPI, перечисленные в разделе "приложение".](media/AD-FS-On-behalf-of-Authentication-in-Windows-Server-2016/ADFS_OBO5.PNG)
 
 ### <a name="modifying-the-todolistservice-code"></a>Изменение кода ToDoListService
 
@@ -364,7 +364,7 @@ private static string OBOWebAPIBase = ConfigurationManager.AppSettings["ida:OBOW
 
 **Изменение утверждения, используемого для имени**
 
-В AD FS мы выдающими утверждение Нмае, но не выдаете утверждение NameIdentifier. В примере используется NameIdentifier для уникального ключа в элементах ToDo. Для простоты можно безопасно удалить NameIdentifier с утверждением имени в коде. Найдите и замените все вхождения NameIdentifier именем.
+С AD FS мы выдаете утверждение имени, но не выдаете утверждение NameIdentifier. В примере используется NameIdentifier для уникального ключа в элементах ToDo. Для простоты можно безопасно удалить NameIdentifier с утверждением имени в коде. Найдите и замените все вхождения NameIdentifier именем.
 
 **Изменение процедуры POST и Каллграфапионбехалфофусер ()**
 
@@ -490,29 +490,29 @@ public async Task Post(TodoItem todo)
 * Щелкните решение правой кнопкой мыши и выберите пункт Свойства.
 * На странице Свойства выберите несколько запускаемых проектов и измените действие на начало для всех трех записей.
 
-![AD FS OBO](media/AD-FS-On-behalf-of-Authentication-in-Windows-Server-2016/ADFS_OBO14.PNG)
+![Снимок экрана: диалоговое окно страниц свойств решения с выбранным параметром несколько запускаемых проектов, а все действия по проектам запускаются.](media/AD-FS-On-behalf-of-Authentication-in-Windows-Server-2016/ADFS_OBO14.PNG)
 
 Нажмите клавишу F5 и выполните решение.
 
-![AD FS OBO](media/AD-FS-On-behalf-of-Authentication-in-Windows-Server-2016/ADFS_OBO24.PNG)
+![Снимок экрана: диалоговое окно "клиент списка задач".](media/AD-FS-On-behalf-of-Authentication-in-Windows-Server-2016/ADFS_OBO24.PNG)
 
 Нажмите кнопку Вход. Появится запрос на вход с помощью AD FS
 
-![AD FS OBO](media/AD-FS-On-behalf-of-Authentication-in-Windows-Server-2016/ADFS_OBO25.PNG)
+![Снимок экрана со страницей входа.](media/AD-FS-On-behalf-of-Authentication-in-Windows-Server-2016/ADFS_OBO25.PNG)
 
 После входа добавьте элемент ToDo в список. В фоновом режиме мы будем выполнять операцию POST к ToDoListService, которая еще больше выполняет запись в веб-API Вебапиобо.
 
-![AD FS OBO](media/AD-FS-On-behalf-of-Authentication-in-Windows-Server-2016/ADFS_OBO26.PNG)
+![Снимок экрана: диалоговое окно "клиент списка задач" с заполненным текстовым полем "создать элемент для выполнения".](media/AD-FS-On-behalf-of-Authentication-in-Windows-Server-2016/ADFS_OBO26.PNG)
 
-При успешной работе вы увидите, что элемент был добавлен в список с дополнительным сообщением из внутреннего веб-API, к которому осуществлялся доступ с помощью OBO auth-Flow.
+При успешной работе вы увидите, что элемент был добавлен в список с дополнительным сообщением из серверного веб-API, к которому осуществлялся доступ с помощью потока OBO.
 
-![AD FS OBO](media/AD-FS-On-behalf-of-Authentication-in-Windows-Server-2016/ADFS_OBO27.PNG)
+![Снимок экрана: диалоговое окно клиента списка задач с новым элементом для выполнения заполнения раздела "задачи".](media/AD-FS-On-behalf-of-Authentication-in-Windows-Server-2016/ADFS_OBO27.PNG)
 
 Вы также можете просмотреть подробные трассировки на Fiddler. Запустите Fiddler и включите расшифровку по протоколу HTTPS. Вы видите, что мы делаем два запроса к конечной точке/адфс/оаутинклудес.
-В первом взаимодействии мы представим код доступа к конечной точке маркера и получаем маркер доступа для https://localhost:44321/ ![ AD FS OBO.](media/AD-FS-On-behalf-of-Authentication-in-Windows-Server-2016/ADFS_OBO22.PNG)
+В первом взаимодействии мы представляем код доступа к конечной точке маркера и получаем маркер доступа для https://localhost:44321/ ![ снимка экрана вкладки WebForms и вкладки RAW в Fiddler U, где отображается представленный код доступа.](media/AD-FS-On-behalf-of-Authentication-in-Windows-Server-2016/ADFS_OBO22.PNG)
 
 Во втором взаимодействии с конечной точкой маркера можно увидеть, что у нас есть **requested_token_use** в качестве **on_behalf_of** и мы используем маркер доступа, полученный для веб-службы среднего уровня, т. е. https://localhost:44321/ утверждение для получения маркера "от имени".
-![AD FS OBO](media/AD-FS-On-behalf-of-Authentication-in-Windows-Server-2016/ADFS_OBO23.PNG)
+![Снимок экрана: вкладка "WebForms" и вкладка "необработанные" в Fiddler U, показывающих, что для запрошенного маркера используется параметр от имени.](media/AD-FS-On-behalf-of-Authentication-in-Windows-Server-2016/ADFS_OBO23.PNG)
 
 ## <a name="next-steps"></a>Next Steps
 [Разработка AD FS](../../ad-fs/AD-FS-Development.md)
