@@ -5,22 +5,22 @@ ms.topic: article
 author: jwwool
 ms.author: jeffrew
 ms.localizationpriority: medium
-ms.date: 06/07/2019
-ms.openlocfilehash: 1775149495871353ef250eff3cb8f6f8cc5c22d6
-ms.sourcegitcommit: 5344adcf9c0462561a4f9d47d80afc1d095a5b13
+ms.date: 01/15/2021
+ms.openlocfilehash: d057a15b54ebabb6ed5e89dab7159aa1fa26c58d
+ms.sourcegitcommit: 58a13a29869b39b6a6ba0db4d7b9fe1ff8371ea7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90766207"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "98625817"
 ---
 # <a name="troubleshooting-windows-admin-center"></a>Устранение неполадок в Windows Admin Center
 
-> Применяется к: Windows Admin Center, ознакомительная версия Windows Admin Center
+> Область применения: центр администрирования Windows, Windows Admin Center, Azure Stack ХЦИ, версия v20H2
 
 > [!Important]
 > Это руководство поможет вам в диагностике и разрешении проблем, которые не позволяют использовать Windows Admin Center. Если у вас возникает проблема с определенным средством, проверьте, возможно, эта проблема [уже известна.](./known-issues.md)
 
-## <a name="installer-fails-with-message-_the-module-microsoftpowershelllocalaccounts-could-not-be-loaded_"></a>Программа установки завершает работу с сообщением: ** _не удалось загрузить модуль Microsoft. PowerShell. LocalAccounts._**
+## <a name="installer-fails-with-message-_the-module-microsoftpowershelllocalaccounts-could-not-be-loaded_"></a>Программа установки завершает работу с сообщением: **_не удалось загрузить модуль Microsoft. PowerShell. LocalAccounts._**
 
 Это может произойти, если путь модуля PowerShell по умолчанию был изменен или удален. Чтобы устранить эту проблему, убедитесь, что ```%SystemRoot%\system32\WindowsPowerShell\v1.0\Modules``` это **первый** элемент в переменной среды PSModulePath. Это можно сделать с помощью следующей строки PowerShell:
 
@@ -32,7 +32,7 @@ ms.locfileid: "90766207"
 
 ### <a name="if-youve-installed-windows-admin-center-as-an-app-on-windows-10"></a>Если вы установили Windows Admin Center в качестве **приложения в Windows 10**
 
-* Убедитесь, что Windows Admin Center запущен. Найдите элемент центр администрирования Windows значок центра администрирования Windows ![ ](../media/trayIcon.PNG) в области уведомлений или **Desktop/SmeDesktop.exeцентра администрирования Windows ** в диспетчере задач. Если ни того, ни другого нет, запустите **Windows Admin Center** из меню "Пуск".
+* Убедитесь, что Windows Admin Center запущен. Найдите элемент центр администрирования Windows значок центра администрирования Windows ![ ](../media/trayIcon.PNG) в области уведомлений или **Desktop/SmeDesktop.exeцентра администрирования Windows** в диспетчере задач. Если ни того, ни другого нет, запустите **Windows Admin Center** из меню "Пуск".
 
 > [!NOTE]
 > После перезагрузки необходимо запустить Windows Admin Center из меню "Пуск".
@@ -85,6 +85,12 @@ ms.locfileid: "90766207"
 * Введите ```services.msc``` и нажмите клавишу ВВОД
 * В открывшемся окне найдите служба удаленного управления Windows (WinRM), убедитесь, что он запущен и настроен на автоматический запуск.
 
+### <a name="if-youre-getting-winrm-error-messages-while-managing-servers-in-windows-admin-center"></a>При получении сообщений об ошибках WinRM при управлении серверами в центре администрирования Windows
+
+По умолчанию WinRM не разрешает делегирование учетных данных. Чтобы разрешить делегирование, на компьютере должен быть временно включен поставщик поддержки безопасности учетных данных (CredSSP).
+
+Если вы получаете сообщения об ошибках WinRM, попробуйте воспользоваться инструкциями по проверке в разделе [Устранение неполадок вручную](https://docs.microsoft.com/azure-stack/hci/manage/troubleshoot-credssp#manual-troubleshooting) статьи [Устранение неполадок CredSSP](https://docs.microsoft.com/azure-stack/hci/manage/troubleshoot-credssp) для их устранения.
+
 ### <a name="did-you-upgrade-your-server-from-2016-to-2019"></a>Вы выполнили обновление сервера с 2016 до 2019?
 
 * Возможно, были удалены параметры доверенных узлов. [Выполните эти инструкции, чтобы обновить параметры доверенных узлов.](#configure-trustedhosts)
@@ -132,7 +138,7 @@ REG ADD HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System /v LocalA
     Set-NetFirewallRule -Name WINRM-HTTP-In-TCP-PUBLIC -RemoteAddress Any
     ```
 
-- **Windows 10**
+- **Windows 10**
 
     ```powershell
     Set-NetFirewallRule -Name WINRM-HTTP-In-TCP -RemoteAddress Any
@@ -194,7 +200,7 @@ netsh http delete urlacl url=https://+:443/
 
 На границе есть [Известные проблемы](https://github.com/AzureAD/azure-activedirectory-library-for-js/wiki/Known-issues-on-Edge) , связанные с зонами безопасности, которые влияют на вход Azure в центре администрирования Windows. Если у вас возникли проблемы с использованием функций Azure при использовании ребра, попробуйте добавить https://login.microsoftonline.com https://login.live.com и URL-адрес шлюза в качестве доверенных сайтов и дочерние сайты для параметров блокирования всплывающих окон в браузере на стороне клиента.
 
-Для этого выполните следующие действия.
+Выполните указанные ниже действия.
 1. Поиск **свойств Интернета** в меню "Пуск" Windows
 2. Перейдите на вкладку **Безопасность** .
 3. В разделе **Доверенные сайты** нажмите кнопку **Сайты** и в открытом диалоговом окне добавьте нужные URL-адреса. Вам потребуется добавить URL-адрес шлюза, а также https://login.microsoftonline.com и https://login.live.com .

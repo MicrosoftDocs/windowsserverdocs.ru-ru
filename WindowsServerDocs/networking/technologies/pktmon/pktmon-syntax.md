@@ -1,22 +1,22 @@
 ---
-title: Синтаксис и форматирование команд пктмон
-description: Эта страница используется для понимания синтаксиса, команд, форматирования и выходных данных пктмон для сборок вибраниум Windows.
+title: Форматирование команды пктмон
+description: Эта страница используется для понимания форматирования и вывода команды пктмон.
 ms.topic: how-to
 author: khdownie
 ms.author: v-kedow
-ms.date: 11/12/2020
-ms.openlocfilehash: 3e4c73af3b00f42301b34e59493f25b6d2ccb95c
-ms.sourcegitcommit: 8808f871c8cf131f819ef5540286218bd425da96
+ms.date: 1/20/2021
+ms.openlocfilehash: f0ad3d743e41a63a53d8bba2c484f7ed32e4a5d5
+ms.sourcegitcommit: 58a13a29869b39b6a6ba0db4d7b9fe1ff8371ea7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/14/2020
-ms.locfileid: "94632660"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "98625807"
 ---
-# <a name="pktmon-command-syntax-and-formatting"></a>Синтаксис и форматирование команд пктмон
+# <a name="pktmon-command-formatting"></a>Форматирование команды пктмон
 
 >Область применения: Windows Server (половина ежегодного канала), Windows Server 2019, Windows 10, Azure Stack ХЦИ, центр Azure Stack, Azure
 
-Монитор пакетов (Пктмон) — это встроенное средство диагностики сети для Windows. Он может использоваться для записи пакетов, обнаружения пакетов, фильтрации пакетов и подсчета. Этот инструмент особенно полезен в сценариях виртуализации, например в сетях контейнеров и SDN, так как он обеспечивает видимость сетевого стека. Монитор пакетов доступен в окне с помощью команды pktmon.exe в вибраниум OS (сборка 19041). С помощью этого раздела вы узнаете, как понять синтаксис пктмон, форматирование команд и выходные данные.
+Монитор пакетов (Пктмон) — это встроенное средство диагностики сети для Windows. Он может использоваться для записи пакетов, обнаружения пакетов, фильтрации пакетов и подсчета. Этот инструмент особенно полезен в сценариях виртуализации, например в сетях контейнеров и SDN, так как он обеспечивает видимость сетевого стека. Монитор пакетов доступен в окне с помощью команды pktmon.exe в вибраниум OS (сборка 19041). С помощью этого раздела можно узнать, как понять синтаксис пктмон, форматирование команд и выходные данные. Полный список команд см. в разделе [синтаксис пктмон](/windows-server/administration/windows-commands/pktmon). 
 
 ## <a name="quick-start"></a>Быстрый запуск
 
@@ -77,76 +77,7 @@ C:\Test> pktmon filter add -i 10.0.0.10 -t tcp syn
 
 - Монитор пакетов может применить фильтр к инкапсулированным внутренним пакетам в дополнение к внешнему пакету, если флаг [-e] был добавлен к любому фильтру. Поддерживаемые методы инкапсуляции: ВКСЛАН, GRE, NVGRE и IP-in-IP. Пользовательский порт ВКСЛАН является необязательным и по умолчанию равен 4789.
 
-### <a name="pktmon-filters-syntax"></a>Синтаксис фильтров пктмон
-
-```PowerShell
-C:\Test> pktmon filter help
-pktmon filter { list | add | remove } [OPTIONS | help]
-
-Commands
-    list      Display active packet filters.
-    add       Add a filter to control which packets are reported.
-    remove    Removes all filters.
-
-help
-    Show help text for a command.
-
-C:\Test> pktmon filter add help
-pktmon filter add <name> [-m mac [mac2]] [-v vlan] [-d { IPv4 | IPv6 | number }]
-                         [-t { TCP [flags...] | UDP | ICMP | ICMPv6 | number }]
-                         [-i ip [ip2]] [-p port [port2]] [-e [port]]
-    Add a filter to control which packets are reported. For a packet to be
-    reported, it must match all conditions specified in at least one filter.
-    Up to 8 filters can be active at once.
-
-    NOTE1: When two MACs (-m), IPs (-i), or ports (-p) are specified, the filter
-           matches packets that contain both. It will not distinguish between source
-           or destination for this purpose.
-
-name
-    Optional name or description of the filter.
-
-Ethernet frame
-    -m, --mac[-address]
-        Match source or destination MAC address. See NOTE1 above.
-
-    -v, --vlan
-        Match by VLAN Id (VID) in the 802.1Q header.
-
-    -d, --data-link[-protocol], --ethertype
-        Match by data link (layer 2) protocol. Can be IPv4, IPv6, ARP, or
-        a protocol number.
-
-IP header
-    -t, --transport[-protocol], --ip-protocol
-        Match by transport (layer 4) protocol. Can be TCP, UDP, ICMP, ICMPv6, or
-        a protocol number.
-        To further filter TCP packets, an optional list of TCP flags to match can
-        be provided. Supported flags are FIN, SYN, RST, PSH, ACK, URG, ECE, and CWR.
-
-    -i, --ip[-address]
-        Match source or destination IP address. See NOTE1 above.
-        To match by subnet, use CIDR notation with the prefix length.
-
-TCP/UDP header
-    -p, --port
-        Match source or destination port number. See NOTE1 above.
-
-Encapsulation
-    -e, --encap
-        This filter also applies to encapsulated inner packets, in addition to the outer
-        packet. Supported encapsulation methods are VXLAN, GRE, NVGRE, and IP-in-IP.
-        Custom VXLAN port is optional, and defaults to 4789.
-
-Example 1: Ping filter
-        pktmon filter add MyPing -i 10.10.10.10 -t ICMP
-
-Example 2: TCP SYN filter for SMB traffic
-    pktmon filter add MySmbSyn -i 10.10.10.10 -t TCP SYN -p 445
-
-Example 3: Subnet filter
-    pktmon filter add MySubnet -i 10.10.10.0/24
-```
+Дополнительные сведения см. в разделе [синтаксис фильтра пктмон](/windows-server/administration/windows-commands/pktmon-filter).
 
 ## <a name="packet-capture-and-logging"></a>Запись пакетов и ведение журнала
 
@@ -179,73 +110,7 @@ C:\Test> pktmon start --etw -c 4,5 -d
 
 - Укажите размер файла журнала с помощью параметра **[-s]** . Это будет максимальный размер файла в циклической записи, прежде чем монитор пакетов начнет перезаписывать старые пакеты с новыми. Это также будет максимальный размер каждого файла в многофайлового режима ведения журнала перед тем, как монитор пакетов создаст новый файл для записи следующих пакетов. С помощью этого параметра можно также задать размер буфера для режима ведения журнала в памяти.
 
-### <a name="pktmon-start-syntax"></a>Синтаксис пктмон Start
-
-```PowerShell
-C:\Test> pktmon start help
-pktmon start [-c { all | nics | [ids...] }] [-d] [--etw [-p size] [-k keywords]]
-             [-f] [-s] [--log-mode {circular | multi-file | real-time | memory}]
-    Start packet monitoring.
-
--c, --components
-    Select components to monitor. Can be all components, NICs only, or a
-    list of component ids. Defaults to all.
-
--d, --drop-only
-    Only report dropped packets. By default, successful packet propagation
-    is reported as well.
-
-ETW Logging
-    --etw
-        Start a logging session for packet capture.
-
-    -p, --packet-size
-        Number of bytes to log from each packet. To always log the entire
-        packet, set this to 0. Default is 128 bytes.
-
-    -k, --keywords
-        Hexadecimal bitmask (i.e. sum of the below flags) that controls
-        which events are logged. Default is 0x012.
-
-        Flags:
-        0x001 - Internal Packet Monitor errors.
-        0x002 - Information about components, counters and filters.
-                This information is added to the end of the log file.
-        0x004 - Source and destination information for the first
-                packet in NET_BUFFER_LIST group.
-        0x008 - Select packet metadata from NDIS_NET_BUFFER_LIST_INFO
-                enumeration.
-        0x010 - Raw packet, truncated to the size specified in
-                [--packet-size] parameter.
-
-    -f, --file-name
-        .etl log file. Default is PktMon.etl.
-
-    -s, --file-size
-        Maximum log file size in megabytes. Default is 512 MB.
-
-    -l, --log-mode
-        Select logging mode. Default is circular.
-
-        circular
-            New events overwrite the oldest ones when
-            when the maximum file size is reached.
-
-        multi-file
-            A new log file is created when the maximum file size is reached.
-            Log files are sequentially numbered. PktMon1.etl, PktMon2.etl, etc.
-
-        real-time
-            Display events and packets on screen at real time. No log file is created.
-            Press Ctrl+C to stop monitoring.
-
-        memory
-            Events are written to a circular memory buffer.
-            Buffer size is specified in [--file-size] parameter.
-            Buffer contents is written to a log file during stop operation.
-
-Example: pktmon start --etw -l real-time
-```
+Дополнительные сведения см. в разделе [синтаксис пктмон Start](/windows-server/administration/windows-commands/pktmon-start).
 
 ## <a name="packet-analysis-and-formatting"></a>Анализ пакетов и форматирование
 
@@ -258,55 +123,7 @@ Example: pktmon start --etw -l real-time
 >[!NOTE]
 >* Используйте гиперссылки выше, чтобы узнать, как анализировать и анализировать журналы монитора пакетов в **Wireshark** и **сетевой монитор**.
 
-### <a name="pktmon-format-syntax"></a>Синтаксис формата пктмон
-
-```PowerShell
-C:\Test> pktmon format help
-pktmon format log.etl [-o log.txt] [-b] [-v [level]] [-x] [-e] [-l [port]
-    Convert log file to text format.
-
--o, --out
-    Name of the formatted text file.
-
--s, --stats-only
-    Display log file statistical information.
-
-Network packet formatting options
-
-    -b, --brief
-        Abbreviated packet format.
-
-    -v, --verbose
-        Verbosity level [1..3].
-
-    -x, --hex
-        Hexadecimal format.
-
-    -e, --no-ethernet
-        Don't print ethernet header.
-
-    -l, --vxlan
-        Custom VXLAN port.
-
-
-Example: pktmon format C:\tmp\PktMon.etl
-
-C:\Test> pktmon pcapng help
-pktmon pcapng log.etl [-o log.pcapng]
-    Convert log file to pcapng format.
-    Dropped packets are not included by default.
-
--o, --out
-    Name of the formatted pcapng file.
-
--d, --drop-only
-    Convert dropped packets only.
-
--c, --component-id
-    Filter packets by a specific component ID.
-
-Example: pktmon pcapng C:\tmp\PktMon.etl -d -c nics
-```
+Дополнительные сведения см. в разделе [Синтаксис формата пктмон](/windows-server/administration/windows-commands/pktmon-format).
 
 ### <a name="analyze-packet-monitor-output"></a>Анализ выходных данных монитора пакетов
 
@@ -367,26 +184,7 @@ Example: pktmon pcapng C:\tmp\PktMon.etl -d -c nics
 
 Как показано в этих примерах, счетчики могут предоставить большой объем информации через диаграмму, которая может быть проанализирована простым поиском.
 
-### <a name="pktmon-counters-syntax"></a>Синтаксис счетчиков пктмон
-
-```PowerShell
-C:\Test> pktmon counters help
-pktmon [comp] counters [-t { all | drop | flow }] [-z] [--json]
-    Display current per-component counters.
-
--t, --counter-type
-    Select which types of counters to show.
-    Supported values are all counters (default), drops only, or flows only.
-
--z, --show-zeros
-    Show counters that are zero in both directions.
-
--i, --show-hidden
-    Show components that are hidden by default.
-
---json
-    Output the counters in JSON format.
-```
+Дополнительные сведения см. в разделе [синтаксис счетчиков пктмон](/windows-server/administration/windows-commands/pktmon-counters).
 
 ## <a name="networking-stack-layout"></a>Макет сетевого стека
 
@@ -407,16 +205,4 @@ pktmon [comp] counters [-t { all | drop | flow }] [-z] [--json]
 >[!NOTE]
 >Идентификаторы не являются постоянными и могут изменяться при перезагрузках, а также при перезапуске драйвера для монитора пакетов.
 
-### <a name="pktmon-list-syntax"></a>Синтаксис списка пктмон
-
-```powershell
-C:\Test> pktmon list help
-pktmon [comp] list
-    List all active components.
-
--i, --show-hidden
-    Show components that are hidden by default.
-
---json
-    Output the list in JSON format.
-```
+Дополнительные сведения см. в разделе [пктмон List Syntax](/windows-server/administration/windows-commands/pktmon-list).
