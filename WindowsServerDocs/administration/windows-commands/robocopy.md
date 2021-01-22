@@ -7,12 +7,12 @@ author: jasongerend
 ms.author: jgerend
 manager: lizapo
 ms.date: 06/07/2020
-ms.openlocfilehash: 23d2742d7afeba630c11545cefa3696da05fbcc6
-ms.sourcegitcommit: 7c0794e257f602bd71af5eb9a11b8a03d2b9adfd
+ms.openlocfilehash: eb3da171f835cf8715fc2f6b3e08020921f31d3d
+ms.sourcegitcommit: eb995fa887ffe1408b9f67caf743c66107173666
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "97390262"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "98666563"
 ---
 # <a name="robocopy"></a>robocopy
 
@@ -24,7 +24,7 @@ ms.locfileid: "97390262"
 robocopy <source> <destination> [<file>[ ...]] [<options>]
 ```
 
-Например, чтобы скопировать файл с именем *еарли-репорт. mov* из *к:\репортс* в общую папку *\\ маркетинг\видеос* , а также включить многопоточность для повышения производительности (с параметром **/MT** ) и возможность перезапуска перемещения в случае его прерывания (с параметром **/z** ), введите:
+Например, чтобы скопировать файл с именем *еарли-репорт. mov* из *к:\репортс* в общую папку *\\ \\ маркетинг\видеос* , а также включить многопоточность для повышения производительности (с параметром **/MT** ) и возможность перезапуска перемещения в случае его прерывания (с параметром **/z** ), введите:
 
 ```dos
 robocopy c:\reports '\\marketing\videos' yearly-report.mov /mt /z

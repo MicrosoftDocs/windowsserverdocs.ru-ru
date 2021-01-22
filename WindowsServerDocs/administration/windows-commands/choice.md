@@ -7,12 +7,12 @@ ms.author: lizross
 author: eross-msft
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 382e3618e66f56e05ebd0a7d6b6034e6d7543d64
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 78cc02dc6c777aa8bcb394d19d2f7c5b2c129c01
+ms.sourcegitcommit: eb995fa887ffe1408b9f67caf743c66107173666
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89629685"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "98666543"
 ---
 # <a name="choice"></a>choice
 
@@ -47,7 +47,7 @@ choice [/c [<choice1><choice2><…>]] [/n] [/cs] [/t <timeout> /d <choice>] [/m 
 
 ## <a name="examples"></a>Примеры
 
-Чтобы предоставить варианты **Y**, **N**и **C**, введите следующую строку в пакетном файле:
+Чтобы предоставить варианты **Y**, **N** и **C**, введите следующую строку в пакетном файле:
 
 ```
 choice /c ync
@@ -59,10 +59,10 @@ choice /c ync
 [Y,N,C]?
 ```
 
-Чтобы скрыть варианты **Y**, **N**и **C**, но отобразить текст **Да**, **нет**или **продолжить**, введите следующую строку в пакетном файле:
+Чтобы скрыть варианты **Y**, **N** и **C**, но отобразить текст **Да**, **нет** или **продолжить**, введите следующую строку в пакетном файле:
 
 ```
-choice /c ync /n /m Yes, No, or Continue?
+choice /c ync /n /m "Yes, No, or Continue?"
 ```
 
 > [!NOTE]
@@ -71,7 +71,7 @@ choice /c ync /n /m Yes, No, or Continue?
 Чтобы отобразить как текст, так и параметры, используемые в предыдущих примерах, введите следующую строку в пакетный файл:
 
 ```
-choice /c ync /m Yes, No, or Continue
+choice /c ync /m "Yes, No, or Continue"
 ```
 
 Чтобы установить ограничение времени, равное пяти секундам, и указать **N** в качестве значения по умолчанию, введите в пакетном файле следующую строку:
