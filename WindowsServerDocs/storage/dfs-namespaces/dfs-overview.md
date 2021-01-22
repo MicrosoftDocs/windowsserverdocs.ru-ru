@@ -4,14 +4,14 @@ ms.author: jgerend
 manager: daveba
 ms.topic: article
 author: jasongerend
-ms.date: 06/07/2019
+ms.date: 01/21/2021
 description: В этом разделе описываются пространства имен DFS — служба роли в Windows Server, которая позволяет объединять общие папки, находящиеся на разных серверах, в одно или несколько логически структурированных пространств имен.
-ms.openlocfilehash: 5f2ab44b902d5ed1d27be9eb14bda8f003387f52
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.openlocfilehash: ffc909f4feb23d26cf496eddca51899a97f4cafe
+ms.sourcegitcommit: fc2a7c69a74edcd79372054c4a9a24237510babd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96866003"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98672946"
 ---
 # <a name="dfs-namespaces-overview"></a>Обзор пространств имен DFS
 
@@ -40,7 +40,7 @@ ms.locfileid: "96866003"
 
 На серверах под управлением следующих операционных систем может размещаться по несколько доменных пространств имен в дополнение к одному изолированному пространству имен:
 
-- Windows Server 2019
+- Windows Server 2019
 - Windows Server 2016
 - Windows Server 2012 R2
 - Windows Server 2012
@@ -106,11 +106,11 @@ Install-WindowsFeature "FS-DFS-Namespace", "RSAT-DFS-Mgmt-Con"
 
 ## <a name="interoperability-with-azure-virtual-machines"></a>Взаимодействие с виртуальными машинами Azure
 
-Использование пространств имен DFS на виртуальной машине в Microsoft Azure было протестировано; однако существуют некоторые ограничения и требования, которые необходимо выполнить.
-
-- Нельзя кластерировать изолированные пространства имен на виртуальных машинах Azure.
+Использование пространств имен DFS на виртуальной машине в Microsoft Azure проверено.
 
 - Пространства имен на основе домена можно размещать на виртуальных машинах Azure, включая среды с Azure Active Directory.
+- Вы можете кластерировать изолированные пространства имен на виртуальных машинах Azure с помощью отказоустойчивых кластеров, использующих [общий диск](/azure/virtual-machines/disks-shared) или [диски Ultra](/azure/virtual-machines/disks-enable-ultra-ssd).
+
 
 Дополнительные сведения о начале работы с виртуальными машинами Azure см. в [документации по виртуальным машинам Azure](/azure/virtual-machines/).
 
