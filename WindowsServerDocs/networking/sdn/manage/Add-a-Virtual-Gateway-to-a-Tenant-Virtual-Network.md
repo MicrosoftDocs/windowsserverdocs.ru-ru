@@ -7,16 +7,16 @@ ms.assetid: b9552054-4eb9-48db-a6ce-f36ae55addcd
 ms.author: anpaul
 author: AnirbanPaul
 ms.date: 08/23/2018
-ms.openlocfilehash: 8b6c109948f472154ceff7d97aef63d0a77f4624
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 73e0868fdf03ac940ab4540671d05614a4fc5221
+ms.sourcegitcommit: fb2ae5e6040cbe6dde3a87aee4a78b08f9a9ea7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87947152"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98716860"
 ---
 # <a name="add-a-virtual-gateway-to-a-tenant-virtual-network"></a>Добавление виртуального шлюза в виртуальную сеть клиента
 
->Применяется к: Windows Server (Semi-Annual Channel), Windows Server 2016
+>Применяется к: Windows Server 2019, Windows Server 2016
 
 Узнайте, как использовать командлеты и сценарии Windows PowerShell для обеспечения подключения "сеть — сеть" к виртуальным сетям вашего клиента. В этом разделе вы добавите виртуальные шлюзы клиента в экземпляры шлюза RAS, которые являются членами пулов шлюзов, используя сетевой контроллер. Шлюз RAS поддерживает до 100 клиентов в зависимости от пропускной способности, используемой каждым клиентом. Сетевой контроллер автоматически определяет оптимальный шлюз RAS для использования при развертывании нового виртуального шлюза для клиентов.
 

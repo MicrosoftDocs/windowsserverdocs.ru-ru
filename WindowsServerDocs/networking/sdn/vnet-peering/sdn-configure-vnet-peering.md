@@ -6,16 +6,16 @@ ms.topic: how-to
 ms.author: anpaul
 author: AnirbanPaul
 ms.date: 08/08/2018
-ms.openlocfilehash: 41cd82ec188cb91aac3b1c044e5ca7d3120a4543
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 5a4468da9121c541cd87a037bea9f94da1cc582d
+ms.sourcegitcommit: fb2ae5e6040cbe6dde3a87aee4a78b08f9a9ea7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97949080"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98716590"
 ---
 # <a name="configure-virtual-network-peering"></a>Настройка пиринговой связи между виртуальными сетями
 
->Область применения: Windows Server
+>Применяется к: Windows Server 2019, Windows Server 2016
 
 В этой процедуре Windows PowerShell используется для создания двух виртуальных сетей, каждая из которых имеет одну подсеть. Затем настройте пиринг между двумя виртуальными сетями, чтобы обеспечить подключение между ними.
 

@@ -7,16 +7,16 @@ ms.assetid: 318659e5-e4a5-4e46-99d6-211dfc46f6b8
 ms.author: anpaul
 author: AnirbanPaul
 ms.date: 09/04/2018
-ms.openlocfilehash: 1cfd326cd2ab5054829b1f4b9df6b072b3856eb7
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 2ecc240cc1886a0355b1bf1785e2f634388474bf
+ms.sourcegitcommit: fb2ae5e6040cbe6dde3a87aee4a78b08f9a9ea7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87996486"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98716870"
 ---
 # <a name="container-networking-overview"></a>Обзор сетевых подключений контейнеров
 
->Применяется к: Windows Server (Semi-Annual Channel), Windows Server 2016
+>Применяется к: Windows Server 2019, Windows Server 2016
 
 В этом разделе представлен обзор сетевого стека для контейнеров Windows, а также приведены ссылки на дополнительные рекомендации по созданию, настройке сетей контейнеров и управлению ими.
 

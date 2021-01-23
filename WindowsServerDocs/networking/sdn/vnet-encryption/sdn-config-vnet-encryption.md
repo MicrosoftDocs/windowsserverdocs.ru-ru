@@ -7,16 +7,16 @@ ms.assetid: 378213f5-2d59-4c9b-9607-1fc83f8072f1
 ms.author: anpaul
 author: AnirbanPaul
 ms.date: 08/08/2018
-ms.openlocfilehash: a28132747d11c352987638c9db368561897c421f
-ms.sourcegitcommit: d42b80f947dbfa8660d982be67d77745a28081e5
+ms.openlocfilehash: 15f47d48ca0e3873433fcaa3e6dd7160bc0f9126
+ms.sourcegitcommit: fb2ae5e6040cbe6dde3a87aee4a78b08f9a9ea7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "98113410"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98716610"
 ---
 # <a name="configure-encryption-for-a-virtual-subnet"></a>Настройка шифрования для виртуальной подсети
 
->Область применения: Windows Server
+>Применяется к: Windows Server 2019, Windows Server 2016
 
 Шифрование виртуальной сети обеспечивает шифрование трафика виртуальной сети между виртуальными машинами, взаимодействующими друг с другом в подсетях, помеченных как "шифрование включено". Для шифрования пакетов с помощью этой возможности также используется протокол DTLS в виртуальной подсети. Протокол DTLS обеспечивает защиту от перехвата, несанкционированных изменений и подделки со стороны любых лиц, имеющих доступ к физической сети.
 

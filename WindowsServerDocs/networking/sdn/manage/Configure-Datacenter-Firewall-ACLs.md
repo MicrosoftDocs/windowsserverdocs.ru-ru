@@ -7,16 +7,16 @@ ms.assetid: 25f18927-a63e-44f3-b02a-81ed51933187
 ms.author: anpaul
 author: AnirbanPaul
 ms.date: 08/23/2018
-ms.openlocfilehash: da5b34556f0a9fd65a4a56adc778666f6911b449
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: e466b84846a9180c9f438eda28aacbdab7b3f6fc
+ms.sourcegitcommit: fb2ae5e6040cbe6dde3a87aee4a78b08f9a9ea7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87995174"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98716840"
 ---
 # <a name="configure-datacenter-firewall-access-control-lists-acls"></a>Настройка списков управления доступом к брандмауэру центра обработки данных (ACL)
 
->Применяется к: Windows Server (Semi-Annual Channel), Windows Server 2016
+>Применяется к: Windows Server 2019, Windows Server 2016
 
 После создания ACL и назначения его виртуальной подсети может потребоваться переопределить список ACL по умолчанию в виртуальной подсети с помощью определенного списка ACL для отдельного сетевого интерфейса.  В этом случае конкретные списки управления доступом применяются непосредственно к сетевым интерфейсам, подключенным к виртуальным ЛС, а не к виртуальной сети. Если в виртуальной подсети, подключенной к сетевому интерфейсу, установлены списки управления доступом, то применяются оба списка ACL и приоритеты ACL сетевых интерфейсов, расположенные выше списков ACL виртуальной подсети.
 

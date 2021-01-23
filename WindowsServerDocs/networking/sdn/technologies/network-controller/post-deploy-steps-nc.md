@@ -1,20 +1,22 @@
 ---
 title: Действия после развертывания для сетевого контроллера
-description: В этом разделе приводятся инструкции по настройке сертификата для развертываний сетевого контроллера, не относящихся к Kerberos, в Windows Server 2016 Datacenter.
+description: В этом разделе приводятся инструкции по настройке сертификата для развертываний сетевого контроллера, не относящихся к Kerberos, в Windows Server 2019 и 2016 Datacenter.
 manager: grcusanz
 ms.topic: article
 ms.assetid: eea0aca9-8d89-48fb-8068-fca40c90d34b
 ms.author: anpaul
 author: AnirbanPaul
 ms.date: 08/07/2020
-ms.openlocfilehash: 7be8ccaf791155d1c0a8f07e4549a858bf4b82d8
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 446b187dfa33a9498b70d1d77eb4d5c7cbd33090
+ms.sourcegitcommit: fb2ae5e6040cbe6dde3a87aee4a78b08f9a9ea7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97949390"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98716340"
 ---
 # <a name="post-deployment-steps-for-network-controller"></a>Действия после развертывания для сетевого контроллера
+
+> Применяется к: Windows Server 2019, Windows Server 2016
 
 При установке сетевого контроллера можно выбрать развертывания Kerberos или не Kerberos.
 

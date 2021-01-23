@@ -7,16 +7,16 @@ ms.assetid: 16359b15-a0e4-4f42-9d70-6ef0d851d219
 ms.author: anpaul
 author: AnirbanPaul
 ms.date: 08/26/2018
-ms.openlocfilehash: 2a571b6ed9a850f6e81d6cdddeb2f62c5eac1271
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: a5a1cac6dc86e9b032601820cd80c36130a4b174
+ms.sourcegitcommit: fb2ae5e6040cbe6dde3a87aee4a78b08f9a9ea7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98038214"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98716680"
 ---
 # <a name="manage-tenant-workloads"></a>Управление рабочими нагрузками клиента
 
->Применяется к: Windows Server (Semi-Annual Channel), Windows Server 2016
+>Применяется к: Windows Server 2019, Windows Server 2016
 
 Этот раздел содержит ссылки на документацию, которая позволяет управлять рабочими нагрузками клиента путем добавления виртуальных машин клиента, использования сетевых виртуальных устройств, настройки программной балансировки нагрузки и т. д.
 

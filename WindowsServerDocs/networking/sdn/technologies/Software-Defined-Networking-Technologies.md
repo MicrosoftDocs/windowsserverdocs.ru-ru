@@ -1,24 +1,24 @@
 ---
 title: Технологии SDN
-description: В подразделах этого раздела содержится обзор и технические сведения о программно определенных сетевых технологиях, которые включены в Windows Server 2016.
+description: Подразделы этого раздела содержат обзор и технические сведения о программно определенных сетевых технологиях, которые включены в Windows Server 2019 и 2016.
 manager: grcusanz
 ms.topic: article
 ms.assetid: b491089c-5bcb-49d4-95b1-915b7ce69f88
 ms.author: anpaul
 author: AnirbanPaul
 ms.date: 02/14/2019
-ms.openlocfilehash: 69e01630cf34a588b6861c833015076bd4a31ef4
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 62a0773fb51397cab2893826939736685eed798b
+ms.sourcegitcommit: fb2ae5e6040cbe6dde3a87aee4a78b08f9a9ea7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87996466"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98716240"
 ---
 # <a name="sdn-technologies"></a>Технологии SDN
 
->Применяется к: Windows Server 2019, Windows Server 2016, Windows Server (Semi-Annual Channel)
+>Применяется к: Windows Server 2019, Windows Server 2016
 
-В подразделах этого раздела содержится обзор и технические сведения о программно определенных сетевых технологиях, которые включены в Windows Server 2016.
+Подразделы этого раздела содержат обзор и технические сведения о программно определенных сетевых технологиях, которые включены в Windows Server 2019 и 2016.
 
 ## <a name="network-controller"></a>[Сетевой контроллер](network-controller/Network-Controller.md)
 

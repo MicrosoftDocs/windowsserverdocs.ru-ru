@@ -6,16 +6,16 @@ ms.topic: how-to
 ms.author: anpaul
 author: AnirbanPaul
 ms.date: 08/22/2018
-ms.openlocfilehash: c4350636c0977b23c94a73fb8bf7a6179736eb5a
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 0bb62eda416d60f130573ee01e75d47f09d4a3c2
+ms.sourcegitcommit: fb2ae5e6040cbe6dde3a87aee4a78b08f9a9ea7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97949130"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98716460"
 ---
 # <a name="gateway-bandwidth-allocation"></a>Распределение пропускной способности шлюза
 
->Область применения: Windows Server
+>Область применения: Windows Server 2019
 
 В Windows Server 2016 отдельная пропускная способность туннеля для IPsec, GRE и L3 была соотношением общей емкости шлюза. Таким образом, клиенты будут предоставлять емкость шлюза на основе стандартной пропускной способности TCP, ожидающей использования виртуальной машины шлюза.
 

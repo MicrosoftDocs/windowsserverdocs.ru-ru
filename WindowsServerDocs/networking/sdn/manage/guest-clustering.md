@@ -7,16 +7,16 @@ ms.assetid: 8e9e5c81-aa61-479e-abaf-64c5e95f90dc
 ms.author: grcusanz
 author: AnirbanPaul
 ms.date: 08/26/2018
-ms.openlocfilehash: 6d597d4ced923c751e54ed4678ffb2d956a7b471
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 5c05a611b19248db46e92b23edf7a02eee05a008
+ms.sourcegitcommit: fb2ae5e6040cbe6dde3a87aee4a78b08f9a9ea7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87994772"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98716100"
 ---
 # <a name="guest-clustering-in-a-virtual-network"></a>Кластеризация гостевых систем в виртуальной сети
 
->Применяется к: Windows Server (Semi-Annual Channel), Windows Server 2016
+>Применяется к: Windows Server 2019, Windows Server 2016
 
 Виртуальные машины, подключенные к виртуальной сети, могут использовать только IP-адреса, назначенные сетевому контроллеру для связи в сети.  Технологии кластеризации, для которых требуется плавающий IP-адрес, например отказоустойчивая кластеризация (Майкрософт), требуются дополнительные действия для правильной работы.
 
@@ -148,13 +148,13 @@ ms.locfileid: "87994772"
 2. Создайте кластер на одном узле.
 
    ```PowerShell
-   New-Cluster -Name $ClusterName -NoStorage -Node $nodes[0]
+   New-Cluster -Name $ClusterName -NoStorage -Node $nodes[0]
    ```
 
 3. Останавливает ресурс кластера.
 
    ```PowerShell
-   Stop-ClusterResource "Cluster Name" 
+   Stop-ClusterResource "Cluster Name" 
    ```
 
 4. Задайте IP-адрес кластера и порт пробы.<p>IP-адрес должен соответствовать интерфейсному IP-адресу, используемому в предыдущем примере, а порт пробы должен соответствовать порту пробы в предыдущем примере.
@@ -166,14 +166,14 @@ ms.locfileid: "87994772"
 5. Запустите ресурсы кластера.
 
    ```PowerShell
-    Start-ClusterResource "Cluster IP Address"  -Wait 60 
-    Start-ClusterResource "Cluster Name"  -Wait 60 
+    Start-ClusterResource "Cluster IP Address"  -Wait 60 
+    Start-ClusterResource "Cluster Name"  -Wait 60 
    ```
 
 6. Добавьте остальные узлы.
 
    ```PowerShell
-   Add-ClusterNode $nodes[1]
+   Add-ClusterNode $nodes[1]
    ```
 
 _**Кластер активен.**_ Трафик, поступающий в виртуальный IP-адрес указанного порта, направляется на активный узел.

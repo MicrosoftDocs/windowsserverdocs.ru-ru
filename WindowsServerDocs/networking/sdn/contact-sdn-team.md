@@ -7,16 +7,16 @@ ms.assetid: f9945c55-c2d0-448f-86dd-8c734e1b2987
 ms.author: anpaul
 author: AnirbanPaul
 ms.date: 08/07/2020
-ms.openlocfilehash: 6acfb6cbd3a8eaa528dd7457d5de008209b99ad3
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: c99da7531df37500e7c1e0d05dfc5f755a1253c0
+ms.sourcegitcommit: fb2ae5e6040cbe6dde3a87aee4a78b08f9a9ea7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97948400"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98716150"
 ---
 # <a name="contact-the-datacenter-and-cloud-networking-team"></a>Как связаться с рабочей группой Datacenter and Cloud Networking
 
-> Область применения. Windows Server 2016
+> Область применения. Windows Server 2019, Windows Server 2016
 
 Сетевые решения Microsoft, **определяемые программным обеспечением для сетей \( Sdn \)** и **Container** , создаются группой центров обработки данных и облачных сетей. Используйте эту страницу для того, чтобы запрашивать вопросы, предоставлять отзывы, сообщать об ошибках или делать запросы на функции.
 

@@ -1,22 +1,22 @@
 ---
 title: Развертывание инфраструктуры программно-конфигурируемой сети
-description: Этот раздел содержит ссылки на разделы, посвященные развертыванию инфраструктуры программно-определяемой сети (SDN) с помощью сценариев в Windows Server 2016.
+description: Этот раздел содержит ссылки на разделы, посвященные развертыванию инфраструктуры программно-определяемой сети (SDN) с помощью сценариев в Windows Server 2019 и 2016.
 ms.topic: how-to
 ms.assetid: 6c665c88-df28-4150-81d4-a47e9fa5255c
 ms.date: 08/23/2018
 ms.author: anpaul
 author: AnirbanPaul
 manager: grcusanz
-ms.openlocfilehash: 43bb1af29735dd1bf8ba911690abb78a09f1cf0d
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: a9ce251488d80b4e5180d1641bc2157227d08d71
+ms.sourcegitcommit: fb2ae5e6040cbe6dde3a87aee4a78b08f9a9ea7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97950120"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98716020"
 ---
 # <a name="deploy-a-software-defined-network-infrastructure"></a>Развертывание программно-определяемой сетевой инфраструктуры
 
->Применяется к: Windows Server (Semi-Annual Channel), Windows Server 2016
+>Применяется к: Windows Server 2019, Windows Server 2016
 
 Развертывание инфраструктуры программно-определяемой сети (SDN) корпорации Майкрософт.
 

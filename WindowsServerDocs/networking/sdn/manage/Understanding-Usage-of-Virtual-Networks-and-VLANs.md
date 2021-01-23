@@ -7,21 +7,18 @@ ms.assetid: 84ac2458-3fcf-4c4f-acfe-6105443dd83f
 ms.author: anpaul
 author: AnirbanPaul
 ms.date: 08/26/2018
-ms.openlocfilehash: 1f1f1f56fbac8c7faa7628ac0adb0cbeef3a78d3
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 58ab0a66e5f08ba9661326b418170563a56a86a4
+ms.sourcegitcommit: fb2ae5e6040cbe6dde3a87aee4a78b08f9a9ea7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87962218"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98716660"
 ---
 # <a name="understand-the-usage-of-virtual-networks-and-vlans"></a>Общие сведения об использовании виртуальных сетей и виртуальных ЛС
 
->Применяется к: Windows Server (Semi-Annual Channel), Windows Server 2016
+>Применяется к: Windows Server 2019, Windows Server 2016
 
 В этом разделе вы узнаете о виртуальных сетях виртуализации сети Hyper-V и о том, чем они отличаются от виртуальных локальных сетей (VLAN). Виртуализация сети Hyper-V позволяет создавать виртуальные сети наложения, также называемые виртуальными сетями.
-
-
-
 
 Программно-определяемая сеть (SDN) в Windows Server 2016 основана на политике программирования для наложения виртуальных сетей в виртуальном коммутаторе Hyper-V. Можно создавать виртуальные сети наложения, также называемые виртуальными сетями, с виртуализацией сети Hyper-V.
 
@@ -34,5 +31,3 @@ ms.locfileid: "87962218"
 Вы можете создать дополнительные логические сети и подсети для целей инфраструктуры, чтобы передавать трафик управления, трафик хранилища, трафик динамической миграции и т. д.
 
 Microsoft SDN не поддерживает изоляцию сетей клиентов с помощью виртуальных ЛС. Изоляция клиентов выполняется исключительно с помощью виртуальных сетей наложения виртуализации сети Hyper-V и инкапсуляции.
-
-

@@ -7,16 +7,16 @@ ms.assetid: 73bff8ba-939d-40d8-b1e5-3ba3ed5439c3
 ms.author: anpaul
 author: AnirbanPaul
 ms.date: 08/23/2018
-ms.openlocfilehash: a5130ab588f46bd8be8174a853b4e1f9cc1a568f
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: 646329bfdf487f96989addb841a3bdaed02438ac
+ms.sourcegitcommit: fb2ae5e6040cbe6dde3a87aee4a78b08f9a9ea7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98038234"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98716820"
 ---
 # <a name="configure-the-software-load-balancer-for-load-balancing-and-network-address-translation-nat"></a>Настройка программного балансировщика нагрузки для балансировки нагрузки и преобразования сетевых адресов (NAT)
 
->Применяется к: Windows Server (Semi-Annual Channel), Windows Server 2016
+>Применяется к: Windows Server 2019, Windows Server 2016
 
 С помощью этого раздела вы узнаете, как использовать программно определяемую сетевую \( \)  подсистему балансировки нагрузки Sdn \( \) для обеспечения исходящего трафика преобразования сетевых адресов \( NAT \) , входящего трафика NAT или балансировки нагрузки между несколькими экземплярами приложения.
 

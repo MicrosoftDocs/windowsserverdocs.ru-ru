@@ -1,22 +1,22 @@
 ---
 title: Высокая доступность сетевого контроллера
-description: С помощью этого раздела можно узнать о высокой доступности сетевого контроллера для программно-определяемой сети (SDN) в Windows Server 2016.
+description: С помощью этого раздела можно узнать о высокой доступности сетевого контроллера для программно-определяемой сети (SDN) в Windows Server 2019 и 2016.
 manager: grcusanz
 ms.topic: how-to
 ms.assetid: 334b090d-bec4-4e67-8307-13831dbdd1d8
 ms.author: anpaul
 author: AnirbanPaul
 ms.date: 12/08/2020
-ms.openlocfilehash: fe0967334e993c44d0edc38417998f51c8376262
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 5990591e087561ff8e327cca8db489fda501b86c
+ms.sourcegitcommit: fb2ae5e6040cbe6dde3a87aee4a78b08f9a9ea7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97949110"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98716400"
 ---
 # <a name="network-controller-high-availability"></a>Высокая доступность сетевого контроллера
 
->Применяется к: Windows Server (Semi-Annual Channel), Windows Server 2016
+>Применяется к: Windows Server 2019, Windows Server 2016
 
 С помощью этого раздела можно узнать о высокой доступности и масштабируемости сетевого контроллера для программно определяемой сетевой конфигурации \( Sdn \) .
 

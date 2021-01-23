@@ -1,22 +1,22 @@
 ---
 title: Виртуализация сети Hyper-V
-description: Этот раздел содержит ссылки на материалы о виртуализации сети Hyper-V в Windows Server 2016.
+description: Этот раздел содержит ссылки на материалы о виртуализации сети Hyper-V в Windows Server 2019 и 2016.
 manager: grcusanz
 ms.topic: article
 ms.assetid: 150976f0-ccd5-487a-a458-92261444a846
 ms.author: anpaul
 author: AnirbanPaul
 ms.date: 08/07/2020
-ms.openlocfilehash: 03931f7e149776abcb6a21a0bb2f033dc43b31b7
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 9dc2ff86cfa7146f9c015c30b69523f28819b02e
+ms.sourcegitcommit: fb2ae5e6040cbe6dde3a87aee4a78b08f9a9ea7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97949940"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98716120"
 ---
 # <a name="hyper-v-network-virtualization"></a>Виртуализация сети Hyper-V
 
->Применяется к: Windows Server (Semi-Annual Channel), Windows Server 2016
+>Применяется к: Windows Server 2019, Windows Server 2016
 
 В Windows Server 2012 виртуализация сети Hyper-V (HNV) обеспечивает виртуализацию сетей клиентов поверх общей инфраструктуры физической сети. Благодаря минимальным изменениям, необходимым в структуре физической сети, HNV предоставляет поставщикам услуг гибкость для развертывания и переноса рабочих нагрузок клиента в любом месте в трех облаках: в облаке поставщика услуг, частном облаке или Microsoft Azure общедоступном облаке.
 

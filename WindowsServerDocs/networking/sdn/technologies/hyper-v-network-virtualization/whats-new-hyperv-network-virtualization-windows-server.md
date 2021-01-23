@@ -7,16 +7,16 @@ ms.assetid: 0254275a-0a77-40a9-b68a-1029284c03fe
 ms.author: anpaul
 author: AnirbanPaul
 ms.date: 03/19/2018
-ms.openlocfilehash: 9daab9358cbfd337b755605e7233b1bcea555f22
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: ceab0e8ea517eb8fa992ec7f41010e9f14bb38bb
+ms.sourcegitcommit: fb2ae5e6040cbe6dde3a87aee4a78b08f9a9ea7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87994263"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98716920"
 ---
 # <a name="whats-new-in-hyper-v-network-virtualization-in-windows-server-2016"></a>Новые возможности виртуализации сети Hyper-V в Windows Server 2016
 
->Применяется к: Windows Server (Semi-Annual Channel), Windows Server 2016
+>Применяется к: Windows Server 2019, Windows Server 2016
 
 В этом разделе описывается новая или измененная функция виртуализации сети Hyper-V (HNV) в Windows Server 2016.
 

@@ -1,22 +1,22 @@
 ---
 title: Архитектура развертывания шлюза RAS-сервера
-description: С помощью этого раздела вы узнаете о развертывании поставщика облачных служб (CSP) в Windows Server 2016, включая пулы шлюзов RAS, отражения маршрутов и развертывание нескольких шлюзов для отдельных клиентов.
+description: С помощью этого раздела вы узнаете о развертывании поставщика облачных служб (CSP) в Windows Server 2019 и 2016, включая пулы шлюзов RAS, отражения маршрутов и развертывание нескольких шлюзов для отдельных клиентов.
 manager: grcusanz
 ms.topic: how-to
 ms.assetid: d46e4e91-ece0-41da-a812-af8ab153edc4
 ms.author: anpaul
 author: AnirbanPaul
 ms.date: 08/07/2020
-ms.openlocfilehash: abc36a7e26ab25f7f121538dcadf9761b111a6e2
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: be8f41b71c1ee1c817e37919cacf33c11128abc4
+ms.sourcegitcommit: fb2ae5e6040cbe6dde3a87aee4a78b08f9a9ea7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97949370"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98716980"
 ---
 # <a name="ras-gateway-deployment-architecture"></a>Архитектура развертывания шлюза RAS-сервера
 
->Применяется к: Windows Server (Semi-Annual Channel), Windows Server 2016
+>Применяется к: Windows Server 2019, Windows Server 2016
 
 С помощью этого раздела вы узнаете о развертывании поставщика облачных служб (CSP), включая пулы шлюзов RAS, отражения маршрутов и развертывание нескольких шлюзов для отдельных клиентов.
 

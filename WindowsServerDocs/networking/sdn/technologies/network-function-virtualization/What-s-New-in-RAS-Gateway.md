@@ -1,24 +1,24 @@
 ---
 title: Новые возможности шлюза RAS-сервера
-description: С помощью этого раздела вы узнаете о новых возможностях шлюза RAS, который является маршрутизатором, поддерживающим программное обеспечение, клиент протокол BGP (BGP) в Windows Server 2016.
+description: С помощью этого раздела вы узнаете о новых возможностях шлюза RAS, который является маршрутизатором, поддерживающим программное обеспечение, клиент протокол BGP (BGP) в Windows Server 2019 и 2016.
 manager: grcusanz
 ms.topic: how-to
 ms.assetid: 709cb192-313a-47b5-954e-eb5f6fee51a7
 ms.author: anpaul
 author: AnirbanPaul
 ms.date: 08/07/2020
-ms.openlocfilehash: c40969f18684dbe3fffff205c9f46582c7a2b3ae
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 3b6ccfa396e0e083bf68ba39e22d093303bd55c1
+ms.sourcegitcommit: fb2ae5e6040cbe6dde3a87aee4a78b08f9a9ea7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97943210"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98716990"
 ---
 # <a name="whats-new-in-ras-gateway"></a>Новые возможности шлюза RAS-сервера
 
->Применяется к: Windows Server (Semi-Annual Channel), Windows Server 2016
+>Применяется к: Windows Server 2019, Windows Server 2016
 
-С помощью этого раздела вы узнаете о новых возможностях шлюза RAS, который является маршрутизатором, поддерживающим программное обеспечение, клиент протокол BGP (BGP) в Windows Server 2016. Маршрутизатор BGP для нескольких клиентов шлюза RAS предназначен для поставщиков облачных служб (CSP) и предприятий, на которых размещаются виртуальные сети клиентов с помощью виртуализации сети Hyper-V.
+С помощью этого раздела вы узнаете о новых возможностях шлюза RAS, который является маршрутизатором, поддерживающим программное обеспечение, клиент протокол BGP (BGP), который появился в Windows Server 2016. Маршрутизатор BGP для нескольких клиентов шлюза RAS предназначен для поставщиков облачных служб (CSP) и предприятий, на которых размещаются виртуальные сети клиентов с помощью виртуализации сети Hyper-V.
 
 > [!NOTE]
 > В Windows Server 2012 R2 шлюз RAS называется шлюзом RRAS. и в System Center Virtual Machine Manager шлюз RAS называется шлюзом Windows Server.

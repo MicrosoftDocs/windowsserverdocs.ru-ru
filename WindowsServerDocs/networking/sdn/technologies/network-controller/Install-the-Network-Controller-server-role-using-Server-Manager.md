@@ -1,22 +1,22 @@
 ---
 title: Установка роли сервера сетевого контроллера с помощью диспетчер сервера
-description: В этом разделе приводятся инструкции по установке роли сервера сетевого контроллера с помощью диспетчер сервера в Windows Server 2016.
+description: В этом разделе приводятся инструкции по установке роли сервера сетевого контроллера с помощью диспетчер сервера в Windows Server 2019 и 2016.
 manager: grcusanz
 ms.topic: how-to
 ms.assetid: 3a6e4352-ff62-4290-b8a4-5c83740070fc
 ms.author: anpaul
 author: AnirbanPaul
 ms.date: 11/02/2020
-ms.openlocfilehash: 5a0b8ac221c30b2f474ea94bbce44849b5fe132a
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 024cfb82aa4d539e5d5cbec0fd956b83e0224766
+ms.sourcegitcommit: fb2ae5e6040cbe6dde3a87aee4a78b08f9a9ea7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97949410"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98716940"
 ---
 # <a name="install-the-network-controller-server-role-using-server-manager"></a>Установка роли сервера сетевого контроллера с помощью диспетчер сервера
 
-> Применяется к: Windows Server (Semi-Annual Channel), Windows Server 2016
+> Применяется к: Windows Server 2019, Windows Server 2016
 
 В этом разделе приводятся инструкции по установке роли сервера сетевого контроллера с помощью диспетчер сервера.
 
@@ -61,5 +61,5 @@ ms.locfileid: "97949410"
 
     ![Диспетчер серверов](../../../media/Install-the-Network-Controller-server-role-using-Server-Manager/nc_013.jpg)
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 [Сетевой контроллер](Network-Controller.md)

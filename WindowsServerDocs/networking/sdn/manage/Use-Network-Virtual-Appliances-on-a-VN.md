@@ -7,16 +7,16 @@ ms.assetid: 3c361575-1050-46f4-ac94-fa42102f83c1
 ms.author: anpaul
 author: AnirbanPaul
 ms.date: 08/30/2018
-ms.openlocfilehash: 3fa6fcd735a2cad6a062d7b2daaa7cf206589c20
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: fc263ea778209da699cc7c78fd6111f512760951
+ms.sourcegitcommit: fb2ae5e6040cbe6dde3a87aee4a78b08f9a9ea7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87954060"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98716900"
 ---
 # <a name="use-network-virtual-appliances-on-a-virtual-network"></a>Использование виртуальных сетевых устройств в виртуальной сети
 
->Применяется к: Windows Server (Semi-Annual Channel), Windows Server 2016
+>Применяется к: Windows Server 2019, Windows Server 2016
 
 В этом разделе вы узнаете, как развертывать сетевые виртуальные устройства в виртуальных сетях клиентов. Сетевые виртуальные устройства можно добавить в сети, которые выполняют функции маршрутизации и зеркального отображения портов, определяемые пользователем.
 

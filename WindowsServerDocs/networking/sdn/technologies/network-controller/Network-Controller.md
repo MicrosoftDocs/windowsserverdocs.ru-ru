@@ -1,22 +1,22 @@
 ---
 title: Сетевой контроллер
-description: В этом разделе приводится обзор сетевого контроллера в Windows Server 2016.
+description: В этом разделе приводятся общие сведения о сетевом контроллере в Windows Server 2019 и 2016.
 manager: grcusanz
 ms.topic: article
 ms.assetid: 31f3fa4e-cd25-4bf3-89e9-a01a6cec7893
 ms.author: anpaul
 author: AnirbanPaul
 ms.date: 12/08/2020
-ms.openlocfilehash: 8db1514711834430b88a94306189ce03c0036899
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 81a85a5625538ccba7de48d78b471f04a9f23d49
+ms.sourcegitcommit: fb2ae5e6040cbe6dde3a87aee4a78b08f9a9ea7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97949400"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98716260"
 ---
 # <a name="network-controller"></a>Сетевой контроллер
 
->Применяется к: Windows Server (Semi-Annual Channel), Windows Server 2016
+>Применяется к: Windows Server 2019, Windows Server 2016
 
 Новый в Windows Server 2016, сетевой контроллер предоставляет централизованную, программируемую точку автоматизации для управления, настройки, мониторинга и устранения неполадок виртуальной и физической сетевой инфраструктуры в центре обработки данных.
 

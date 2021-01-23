@@ -7,16 +7,16 @@ ms.assetid: f7af1eb6-d035-4f74-a25b-d4b7e4ea9329
 ms.author: anpaul
 author: AnirbanPaul
 ms.date: 08/24/2018
-ms.openlocfilehash: af8232de75005ae295079eb2207bce303629acaa
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: a09d3f7002ffd0bb73d39a57caba4e497eafd17a
+ms.sourcegitcommit: fb2ae5e6040cbe6dde3a87aee4a78b08f9a9ea7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87995200"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98716810"
 ---
 # <a name="connect-container-endpoints-to-a-tenant-virtual-network"></a>Подключение конечных точек контейнера к виртуальной сети клиента
 
->Применяется к: Windows Server (Semi-Annual Channel), Windows Server 2016
+>Применяется к: Windows Server 2019, Windows Server 2016
 
 В этом разделе мы покажем, как подключить конечные точки контейнера к существующей виртуальной сети клиента, созданной с помощью SDN. Для создания сети контейнера на виртуальной машине клиента используется драйвер сети *l2bridge* (и, возможно, *l2tunnel*), доступный в подключаемом модуле Windows либнетворк для DOCKER.
 
@@ -26,7 +26,7 @@ ms.locfileid: "87995200"
 
 Политика сети (списки управления доступом, Инкапсуляция и качество обслуживания) для этих конечных точек контейнера применяется на физическом узле Hyper-V, полученном сетевым контроллером, и определяется в системах управления верхнего уровня.
 
-Разница между драйверами *l2bridge* и *l2tunnel* :
+Существуют различия между драйверами *l2bridge* и *l2tunnel* .
 
 
 |                                                                                                                                                                                                                                                                            l2bridge                                                                                                                                                                                                                                                                            |                                                                                                 l2tunnel                                                                                                  |
@@ -39,7 +39,7 @@ ms.locfileid: "87995200"
 >Эти сетевые режимы не работают для подключения конечных точек контейнера Windows к виртуальной сети клиента в общедоступном облаке Azure.
 
 
-## <a name="prerequisites"></a>Предварительные требования
+## <a name="prerequisites"></a>Предварительные условия
 -  Развернутая инфраструктура SDN с сетевым контроллером.
 -  Создана виртуальная сеть клиента.
 -  Развернутая виртуальная машина клиента с включенной функцией контейнеров Windows, установленным DOCKER и включенной функцией Hyper-V. Компонент Hyper-V необходим для установки нескольких двоичных файлов для сетей l2bridge и l2tunnel.

@@ -1,24 +1,24 @@
 ---
 title: Устранение неполадок SDN
-description: В этом разделе приводятся ссылки на содержимое, посвященное устранению неполадок программно определенных сетей в Windows Server 2016.
+description: В этом разделе приводятся ссылки на разделы, посвященные устранению неполадок программно определенных сетей в Windows Server 2019 и 2016.
 manager: grcusanz
 ms.topic: article
 ms.assetid: 427048db-bab6-49b1-9611-099bb547ec0e
 ms.author: anpaul
 author: AnirbanPaul
 ms.date: 08/07/2020
-ms.openlocfilehash: caf9e7e68f5cbfe91932fddbc34508792aecb18a
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 9c5ee9e7bfaf90f330fb8ed6d3f703714049ff04
+ms.sourcegitcommit: fb2ae5e6040cbe6dde3a87aee4a78b08f9a9ea7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97947120"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98716890"
 ---
 # <a name="troubleshoot-sdn"></a>Устранение неполадок SDN
 
->Применяется к: Windows Server (Semi-Annual Channel), Windows Server 2016
+>Применяется к: Windows Server 2019, Windows Server 2016
 
-В подразделах этого раздела содержатся сведения об устранении неполадок с технологиями программно-определяемой сети (SDN), которые входят в Windows Server 2016.
+В подразделах этого раздела содержатся сведения об устранении неполадок с технологиями программно-определяемой сети (SDN), которые включены в Windows Server 2019 и 2016.
 
 > [!NOTE]
 > Чтобы получить дополнительную документацию по программно определенной сети, можно использовать следующие разделы библиотеки.
@@ -35,4 +35,4 @@ ms.locfileid: "97947120"
 - [Устранение неполадок в записи блога: ошибки связи UDP и изменение сертификата сетевого контроллера](https://techcommunity.microsoft.com/t5/Networking-Blog/SDN-Troubleshooting-UDP-Communication-failures-and-changing-the/ba-p/339694)
 - Сообщения [в блоге проблемы с сертификатами в программно-определяемой сети (SDN) ](https://techcommunity.microsoft.com/t5/Networking-Blog/Troubleshooting-certificate-issues-in-Software-Defined/ba-p/339671)
 - Запись блога [, посвященная поиску локального адреса шлюза Sdn для ПИРИНГА BGP в Windows Server 2016 ](https://techcommunity.microsoft.com/t5/Networking-Blog/How-to-find-the-SDN-gateway-local-address-for-BGP-peering-in/ba-p/339663)
-- [Устранение неполадок в записи блога Настройка параметров пропускной способности VPN шлюза RAS для Sdn в Virtual Machine Manager](https://techcommunity.microsoft.com/t5/Networking-Blog/Troubleshoot-Configuring-SDN-RAS-Gateway-VPN-Bandwidth-Settings/ba-p/339661)
+- [Устранение неполадок в записи блога Настройка параметров пропускной способности VPN шлюза RAS для Sdn в Диспетчер виртуальных машин](https://techcommunity.microsoft.com/t5/Networking-Blog/Troubleshoot-Configuring-SDN-RAS-Gateway-VPN-Bandwidth-Settings/ba-p/339661)

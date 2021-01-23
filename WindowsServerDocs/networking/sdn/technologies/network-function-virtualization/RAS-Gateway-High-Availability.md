@@ -1,22 +1,22 @@
 ---
 title: Высокая доступность шлюза RAS-сервера
-description: С помощью этого раздела вы узнаете о конфигурациях высокого уровня доступности для многоклиентского шлюза RAS в Windows Server 2016.
+description: С помощью этого раздела вы узнаете о конфигурациях высокого уровня доступности для многоклиентского шлюза RAS в Windows Server 2019 и 2016.
 manager: grcusanz
 ms.topic: how-to
 ms.assetid: 34d826c9-65bc-401f-889d-cf84e12f0144
 ms.author: anpaul
 author: AnirbanPaul
 ms.date: 08/07/2020
-ms.openlocfilehash: 81eab7d646626d705ae8c57b022309c4864bf6d7
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: e591404d4225ff62fc70440a08445255dfe24d6e
+ms.sourcegitcommit: fb2ae5e6040cbe6dde3a87aee4a78b08f9a9ea7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97948840"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98717020"
 ---
 # <a name="ras-gateway-high-availability"></a>Высокая доступность шлюза RAS-сервера
 
->Применяется к: Windows Server (Semi-Annual Channel), Windows Server 2016
+>Применяется к: Windows Server 2019, Windows Server 2016
 
 С помощью этого раздела вы узнаете о конфигурациях высокого уровня доступности для многоклиентского шлюза RAS для программно-определяемой сети (SDN).
 

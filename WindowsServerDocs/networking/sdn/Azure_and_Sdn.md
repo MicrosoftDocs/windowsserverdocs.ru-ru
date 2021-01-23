@@ -7,16 +7,16 @@ ms.assetid: 79e87013-7f27-4031-8383-288bcb291731
 ms.author: anpaul
 author: AnirbanPaul
 ms.date: 08/07/2020
-ms.openlocfilehash: 205f6aa8d1fb957ad607d205b61c2f039bc43885
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 05c6ce0a16bb9cf63f7510cbaeb5434fee0b24c8
+ms.sourcegitcommit: fb2ae5e6040cbe6dde3a87aee4a78b08f9a9ea7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97950140"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98716140"
 ---
 # <a name="microsoft-azure-and-software-defined-networking"></a>Microsoft Azure и программно-конфигурируемая сеть
 
->Применяется к: Windows Server (Semi-Annual Channel), Windows Server 2016
+>Применяется к: Windows Server 2019, Windows Server 2016
 
 Microsoft Azure облачной платформой Майкрософт: растущей набор интегрированных служб — вычислений, хранилищ, данных, сетей и приложений, которые помогают быстрее перемещаться, выполнять больше и экономить деньги.
 

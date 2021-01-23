@@ -7,16 +7,16 @@ ms.assetid: 6a7ac5af-85e9-4440-a631-6a3a38e9015d
 ms.author: anpaul
 author: AnirbanPaul
 ms.date: 08/27/2018
-ms.openlocfilehash: f96f41f18b57e53ebe01c70b6775d3608d06b28c
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 6810ffac057edce99696a394fc652833e6791796
+ms.sourcegitcommit: fb2ae5e6040cbe6dde3a87aee4a78b08f9a9ea7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87954000"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98716930"
 ---
 # <a name="use-access-control-lists-acls-to-manage-datacenter-network-traffic-flow"></a>Использование списков управления доступом (ACL) для управления потоком сетевого трафика центра обработки данных
 
->Применяется к: Windows Server (Semi-Annual Channel), Windows Server 2016
+>Применяется к: Windows Server 2019, Windows Server 2016
 
 В этом разделе вы узнаете, как настроить списки управления доступом (ACL) для управления потоком трафика данных с помощью брандмауэра и списков ACL в виртуальных подсетях. Брандмауэр центра обработки данных включается и настраивается путем создания списков управления доступом, которые применяются к виртуальной подсети или сетевому интерфейсу.
 

@@ -7,24 +7,19 @@ ms.author: anpaul
 author: AnirbanPaul
 manager: grcusanz
 ms.date: 08/23/2018
-ms.openlocfilehash: 1cc5514bb22c2be8ff13fc38aae3e6b3edc9e1e7
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 1bf74f71a2f06cfcb73e53152944155dd3cdaa37
+ms.sourcegitcommit: fb2ae5e6040cbe6dde3a87aee4a78b08f9a9ea7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97950130"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98716170"
 ---
 # <a name="deploy-software-defined-network-technologies-using-windows-powershell"></a>Развертывание программно определенных сетевых технологий с помощью Windows PowerShell
 
->Применяется к: Windows Server (Semi-Annual Channel), Windows Server 2016
+>Применяется к: Windows Server 2019, Windows Server 2016
 
 Подразделы этого раздела можно использовать для развертывания отдельных технологий SDN с помощью Windows PowerShell.
 
 Этот раздел содержит следующие подразделы.
 
 -   [Развертывание сетевого контроллера с помощью Windows PowerShell](Deploy-Network-Controller-using-Windows-PowerShell.md)
-
-
-
-
-

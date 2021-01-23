@@ -1,24 +1,24 @@
 ---
 title: Развертывание сетевого контроллера с помощью Windows PowerShell
-description: В этом разделе приводятся инструкции по использованию Windows PowerShell для развертывания сетевого контроллера на одном или нескольких компьютерах или виртуальных машинах, работающих под управлением Windows Server 2016.
+description: В этом разделе приведены инструкции по использованию Windows PowerShell для развертывания сетевого контроллера на одном или нескольких компьютерах или виртуальных машинах, работающих под управлением Windows Server 2019 или 2016.
 ms.topic: how-to
 ms.assetid: 2448d381-55aa-4c14-997a-202c537c6727
 ms.author: anpaul
 author: AnirbanPaul
 manager: grcusanz
 ms.date: 08/23/2018
-ms.openlocfilehash: 78adaa6182ed24596471cb0ed5f1a736417af4d9
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 3e7e020dfa5567608c53d41c4478a54ba89fb720
+ms.sourcegitcommit: fb2ae5e6040cbe6dde3a87aee4a78b08f9a9ea7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97948390"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98716230"
 ---
 # <a name="deploy-network-controller-using-windows-powershell"></a>Развертывание сетевого контроллера с помощью Windows PowerShell
 
->Применяется к: Windows Server (Semi-Annual Channel), Windows Server 2016
+>Применяется к: Windows Server 2019, Windows Server 2016
 
-В этом разделе приведены инструкции по использованию Windows PowerShell для развертывания сетевого контроллера на одной или нескольких виртуальных машинах, работающих под Windows Server 2016.
+В этом разделе приведены инструкции по использованию Windows PowerShell для развертывания сетевого контроллера на одной или нескольких виртуальных машинах, работающих под Windows Server 2019 или 2016.
 
 >[!IMPORTANT]
 >Не развертывайте роль сервера сетевого контроллера на физических узлах. Чтобы развернуть сетевой контроллер, необходимо установить роль сервера сетевого контроллера на виртуальной машине Hyper-V \( \) , установленной на узле Hyper-v. После установки сетевого контроллера на виртуальных машинах на трех разных \- узлах Hyper-v необходимо включить узлы Hyper- \- v для программно-определяемой сети \( Sdn \) , добавив узлы к сетевому контроллеру с помощью команды Windows PowerShell **New нетворкконтроллерсервер**. Таким образом, вы включаете программное обеспечение SDN Load Balancer для работы. Дополнительные сведения см. в разделе [New-нетворкконтроллерсервер](https://technet.microsoft.com/itpro/powershell/windows/network-controller/new-networkcontrollerserver).
