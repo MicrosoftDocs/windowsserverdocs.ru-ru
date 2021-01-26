@@ -6,12 +6,12 @@ ms.author: billmath
 manager: femila
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 43c5cbda88f02792a4c0a8f91f84909a3c303c2b
-ms.sourcegitcommit: 9e19436bd8b20af60284071ab512405aebfbec83
+ms.openlocfilehash: 25c0c6f6f13d036ca5bc83df86cd63940d82f46c
+ms.sourcegitcommit: 6717decb5839aa340c81811d6fde020aabaddb3b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/29/2020
-ms.locfileid: "97811451"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "98781849"
 ---
 # <a name="managing-ssltls-protocols-and-cipher-suites-for-ad-fs"></a>Управление протоколами SSL/TLS и комплектами шифров для AD FS
 В следующей документации содержатся сведения о том, как отключить и включить определенные протоколы TLS/SSL и комплекты шифров, используемые AD FS
@@ -42,7 +42,7 @@ AD FS использует Schannel.dll для выполнения взаимо
 
 Приведенные ниже разделы реестра расположены в том же расположении: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols.  Используйте Regedit или PowerShell, чтобы включить или отключить эти протоколы и комплекты шифров.
 
-![Раздел реестра](media/Managing-SSL-Protocols-in-AD-FS/registry.png)
+![Снимок экрана редактора реестра, отображающего разделы реестра, расположенные в папке protocols.](media/Managing-SSL-Protocols-in-AD-FS/registry.png)
 
 ## <a name="enable-and-disable-ssl-20"></a>Включение и отключение SSL 2,0
 Используйте следующие разделы реестра и их значения для включения и отключения SSL 2,0.
@@ -178,7 +178,7 @@ Write-Host 'SSL 2.0 has been disabled.'
     Write-Host 'TLS 1.1 has been disabled.'
 ```
 
-## <a name="enable-and-disable-tls-12"></a>Включение и отключение TLS 1,2
+## <a name="enable-and-disable-tls-12"></a>Включение и отключение TLS 1.2
 
 Используйте следующие разделы реестра и их значения для включения и отключения TLS 1,2.
 
@@ -217,7 +217,7 @@ Write-Host 'SSL 2.0 has been disabled.'
 
 - HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Ciphers\
 
-![Раздел реестра](media/Managing-SSL-Protocols-in-AD-FS/cipher.png)
+![Снимок экрана редактора реестра, отображающего разделы реестра, расположенные в папке ciphers.](media/Managing-SSL-Protocols-in-AD-FS/cipher.png)
 
 
 
@@ -233,7 +233,7 @@ Write-Host 'SSL 2.0 has been disabled.'
 - [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Ciphers\RC4 40/128] "Enabled" = DWORD: 00000000
 - [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Ciphers\RC4 56/128] "Enabled" = DWORD: 00000000
 
-### <a name="using-powershell"></a>Использование PowerShell
+### <a name="using-powershell"></a>Регистрация с помощью PowerShell
 
 ```powershell
     ([Microsoft.Win32.RegistryKey]::OpenRemoteBaseKey([Microsoft.Win32.RegistryHive]::LocalMachine,$env:COMPUTERNAME)).CreateSubKey('SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Ciphers\RC4 128/128')
@@ -250,24 +250,24 @@ Write-Host 'SSL 2.0 has been disabled.'
 
 Некоторые определенные шифры можно отключить, удалив их из HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Cryptography\Configuration\Local\SSL\00010002
 
-![Раздел реестра](media/Managing-SSL-Protocols-in-AD-FS/suites.png)
+![Снимок экрана редактора реестра, в котором отображается диалоговое окно "Изменение многострочного" для папки 00010002.](media/Managing-SSL-Protocols-in-AD-FS/suites.png)
 
 Чтобы включить комплект шифров, добавьте его строковое значение в ключ многострочного значения функций.  Например, если нужно включить TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521 то мы бы добавили его в строку.
 
 Полный список поддерживаемых комплектов шифров см. в разделе комплекты [шифров в TLS/SSL (Schannel SSP)](/windows/win32/secauthn/cipher-suites-in-schannel).  Этот документ содержит таблицу наборов, включенных по умолчанию и поддерживаемых, но не включенных по умолчанию.  Чтобы определить приоритеты для комплектов шифров, см. раздел [Определение приоритетов для комплектов шифров SChannel](/windows/win32/secauthn/prioritizing-schannel-cipher-suites).
 
 ## <a name="enabling-strong-authentication-for-net-applications"></a>Включение строгой проверки подлинности для приложений .NET
-Приложения .NET Framework 3.5/4.0/4.5. x могут переключить протокол по умолчанию на TLS 1,2, включив раздел реестра SchUseStrongCrypto.  Этот раздел реестра принудительно заставит приложения .NET использовать TLS 1,2.
+Приложения платформа .NET Framework 3.5/4.0/4.5. x могут переключить протокол по умолчанию на TLS 1,2, включив раздел реестра SchUseStrongCrypto.  Этот раздел реестра принудительно заставит приложения .NET использовать TLS 1,2.
 
 > [!IMPORTANT]
-> Для AD FS в Windows Server 2016 и Windows Server 2012 R2 необходимо использовать ключ .NET Framework 4.0/4.5. x: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\\ . NETFramework\v4.0.30319
+> Для AD FS в Windows Server 2016 и Windows Server 2012 R2 необходимо использовать ключ платформа .NET Framework 4.0/4.5. x: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\\ . NETFramework\v4.0.30319
 
 
-Для .NET Framework 3,5 Используйте следующий раздел реестра:
+Для платформа .NET Framework 3,5 Используйте следующий раздел реестра:
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\\ . NETFramework\v2.0.50727] "SchUseStrongCrypto" = DWORD: 00000001
 
-Для .NET Framework 4.0/4.5. x используйте следующий раздел реестра: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\\ . NETFramework\v4.0.30319 "SchUseStrongCrypto" = DWORD: 00000001
+Для платформа .NET Framework 4.0/4.5. x используйте следующий раздел реестра: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\\ . NETFramework\v4.0.30319 "SchUseStrongCrypto" = DWORD: 00000001
 
 ![Строгая проверка подлинности](media/Managing-SSL-Protocols-in-AD-FS/strongauth.png)
 

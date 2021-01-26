@@ -6,12 +6,12 @@ ms.author: billmath
 manager: mtillman
 ms.date: 06/13/2018
 ms.topic: article
-ms.openlocfilehash: 2f730fad7996c17dbe7c7130f078492917537efb
-ms.sourcegitcommit: e0070b24e0423187eb2b36ba92072fed23880aa8
+ms.openlocfilehash: 7e3299d9d33690066206a5698958f95663414ae4
+ms.sourcegitcommit: 6717decb5839aa340c81811d6fde020aabaddb3b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "98186412"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "98781812"
 ---
 # <a name="build-a-single-page-web-application-using-oauth-and-adaljs-with-ad-fs-2016-or-later"></a>Создание веб-приложения с одной страницей с помощью OAuth и ADAL.JS с AD FS 2016 или более поздней версии
 
@@ -78,17 +78,17 @@ git clone https://github.com/Azure-Samples/active-directory-angularjs-singlepage
 
 1. Откройте консоль управления AD FS и щелкните **Добавить группу приложений**. В **мастере добавления группы приложений** введите имя приложения, описание и выберите **веб-браузер, обращающийся к** шаблону веб-приложения из раздела **клиент-сервер приложения** , как показано ниже.
 
-    ![Создать новую группу приложений](media/Single-Page-Application-with-AD-FS/appgroup_step1.png)
+    ![Снимок экрана: страница приветствия мастера добавления группы приложений, показывающая веб-браузер, обращающийся к выбранному шаблону веб-приложения.](media/Single-Page-Application-with-AD-FS/appgroup_step1.png)
 
 2. На следующей странице **собственное приложение** укажите идентификатор клиента приложения и URI перенаправления, как показано ниже.
 
-    ![Создать новую группу приложений](media/Single-Page-Application-with-AD-FS/appgroup_step2.png)
+    ![Снимок экрана: страница "собственное приложение" мастера добавления группы приложений, отображающая перенаправление U R I.](media/Single-Page-Application-with-AD-FS/appgroup_step2.png)
 
 3. На следующей странице **Примените политику контроля доступа** , чтобы оставить разрешения для *всех*
 
 4. Страница сводки должна выглядеть примерно так, как показано ниже.
 
-    ![Создать новую группу приложений](media/Single-Page-Application-with-AD-FS/appgroup_step3.png)
+    ![Снимок экрана со страницей "Сводка" мастера добавления группы приложений.](media/Single-Page-Application-with-AD-FS/appgroup_step3.png)
 
 5. Нажмите кнопку **Далее** , чтобы завершить добавление группы приложений и закрыть мастер.
 
@@ -177,11 +177,11 @@ and add:
 
 В Fiddler можно увидеть маркер, возвращаемый как часть URL-адреса в фрагменте #.
 
-![Fiddler](media/Single-Page-Application-with-AD-FS/singleapp5a.png)
+![Снимок экрана Fiddler показывает, что маркер, возвращаемый в качестве части URL-адреса, можно увидеть в фрагменте # Fragment.](media/Single-Page-Application-with-AD-FS/singleapp5a.png)
 
 Теперь вы можете вызвать API серверной части, чтобы добавить элементы списка ToDo для вошедшего в систему пользователя:
 
-![Fiddler](media/Single-Page-Application-with-AD-FS/singleapp6.png)
+![Снимок экрана примера приложения ADAL JS.](media/Single-Page-Application-with-AD-FS/singleapp6.png)
 
 ## <a name="next-steps"></a>Next Steps
 [Разработка AD FS](../../ad-fs/AD-FS-Development.md)

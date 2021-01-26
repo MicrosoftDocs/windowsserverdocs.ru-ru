@@ -6,12 +6,12 @@ ms.author: billmath
 manager: samueld
 ms.date: 10/23/2017
 ms.topic: article
-ms.openlocfilehash: a96b256fbd2f1a5ce3db71bd11de8715eccf60e9
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 9676962e2c0917f950ab81cd0577cd41fea51710
+ms.sourcegitcommit: 6717decb5839aa340c81811d6fde020aabaddb3b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87966911"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "98781852"
 ---
 # <a name="obtain-and-configure-ts-and-td-certificates-for-ad-fs"></a>Получение и настройка сертификатов TS и TD для AD FS
 
@@ -26,7 +26,7 @@ ms.locfileid: "87966911"
 
 Можно выполнить следующую команду Windows PowerShell: `Get-AdfsProperties` .
 
-  ![Get-ADFSProperties](media/configure-TS-TD-certs-ad-fs/ts1.png)
+  ![Снимок экрана окна PowerShell, отображающий результаты выполнения команды Get-ADFSProperties с вызываемыми свойствами порогового значения автоматической смены сертификатов и порогового создания сертификата.](media/configure-TS-TD-certs-ad-fs/ts1.png)
 
 Свойство AutoCertificateRollover описывает, настроена AD FS ли настройка для автоматической подписывания маркера и расшифровки сертификатов.
 
@@ -40,7 +40,7 @@ ms.locfileid: "87966911"
 
 Цертификатепромотионсрешолд определяет, сколько дней после создания нового сертификата, что он будет выдвинут на роль основного сертификата (иными словами, AD FS начнет использовать его для подписи маркеров и расшифровки маркеров от поставщиков удостоверений).
 
-![Get-ADFSProperties](media/configure-TS-TD-certs-ad-fs/ts2.png)
+![Снимок экрана: Окно PowerShell с результатами выполнения команды Get-ADFSProperties с вызываемыми свойствами порогового значения создания сертификата и порогового значения повышения сертификата.](media/configure-TS-TD-certs-ad-fs/ts2.png)
 
 Если AD FS настроен на автоматическое продление подписи маркеров и расшифровки маркеров (AutoCertificateRollover имеет значение TRUE), можно определить, когда они будут обновлены:
 
@@ -50,9 +50,9 @@ ms.locfileid: "87966911"
 ## <a name="determine-when-the-current-certificates-expire"></a>Определение времени истечения срока действия текущих сертификатов
 Следующую процедуру можно использовать для определения сертификатов для подписи основного маркера и расшифровки маркеров, а также для определения сроков истечения срока действия текущих сертификатов.
 
-Можно выполнить следующую команду Windows PowerShell: `Get-AdfsCertificate –CertificateType token-signing` (или `Get-AdfsCertificate –CertificateType token-decrypting ` ). Кроме того, можно просмотреть текущие сертификаты в оснастке MMC: службы->сертификаты.
+Можно выполнить следующую команду Windows PowerShell:  `Get-AdfsCertificate –CertificateType token-signing` (или  `Get-AdfsCertificate –CertificateType token-decrypting ` ). Кроме того, можно просмотреть текущие сертификаты в оснастке MMC: службы->сертификаты.
 
-![Get-ADFSCertificate](media/configure-TS-TD-certs-ad-fs/ts3.png)
+![Снимок экрана окна PowerShell, в котором показаны результаты команды Get-AdfsCertificate – Цертификатетипе Token-Signing с ключевыми свойствами not After и.](media/configure-TS-TD-certs-ad-fs/ts3.png)
 
 Сертификат, для которого установлено значение «The- **PRIMARY** », равно **true** , — это сертификат, который AD FS в настоящее время используется.
 
@@ -64,10 +64,10 @@ ms.locfileid: "87966911"
 Чтобы создать самозаверяющий сертификат вручную до окончания льготного периода, можно выполнить следующие действия.
 
 1. Убедитесь, что вы вошли на основной сервер AD FS.
-2. Откройте Windows PowerShell и выполните следующую команду:`Add-PSSnapin "microsoft.adfs.powershell"`
+2. Откройте Windows PowerShell и выполните следующую команду: `Add-PSSnapin "microsoft.adfs.powershell"`
 3. При необходимости можно проверить текущие сертификаты подписи в AD FS. Для этого выполните следующую команду: `Get-ADFSCertificate –CertificateType token-signing` . Просмотрите выходные данные команды, чтобы просмотреть даты не по истечении всех перечисленных сертификатов.
 4. Чтобы создать новый сертификат, выполните следующую команду, чтобы продлить и обновить сертификаты на AD FS сервере: `Update-ADFSCertificate –CertificateType token-signing` .
-5. Проверьте обновление, выполнив следующую команду еще раз:`Get-ADFSCertificate –CertificateType token-signing`
+5. Проверьте обновление, выполнив следующую команду еще раз: `Get-ADFSCertificate –CertificateType token-signing`
 6. Два сертификата должны быть перечислены сейчас, один из которых имеет дату **не позже** приблизительно в один год в будущем и для **которой значение ISDATE равно** **false**.
 
 >[!IMPORTANT]
@@ -81,13 +81,13 @@ ms.locfileid: "87966911"
 Затем этот сертификат необходимо настроить как вторичный AD FS сертификат подписи или расшифровки маркера. (Вы настраиваете его как дополнительный сертификат, чтобы предоставить партнерам Федерации достаточно времени для использования этого нового сертификата, прежде чем повысить его до основного сертификата).
 
 ### <a name="to-configure-a-new-certificate-as-a-secondary-certificate"></a>Настройка нового сертификата в качестве дополнительного сертификата
-1. Откройте PowerShell и выполните следующую команду:`Set-ADFSProperties -AutoCertificateRollover $false`
+1. Откройте PowerShell и выполните следующую команду: `Set-ADFSProperties -AutoCertificateRollover $false`
 2. После импорта сертификата Откройте консоль **управления AD FS** .
 3. Разверните узел **Служба** и выберите **Сертификаты**.
-4. На панели Действия щелкните **Добавить сертификат подписи маркера**.
-![Get-ADFSCertificate](media/configure-TS-TD-certs-ad-fs/ts4.png)</br>
+4. На панели Действия щелкните **добавить Token-Signing сертификат**.
+    ![Снимок экрана: диалоговое окно «D F S» с вызываемым параметром «Добавление сертификата для подписи маркера».](media/configure-TS-TD-certs-ad-fs/ts4.png)</br>
 5. Выберите новый сертификат из списка и нажмите кнопку ОК.
-6.  Откройте PowerShell и выполните следующую команду:`Set-ADFSProperties -AutoCertificateRollover $true`
+6.  Откройте PowerShell и выполните следующую команду: `Set-ADFSProperties -AutoCertificateRollover $true`
 
 >[!WARNING]
 >Убедитесь, что с новым сертификатом связан закрытый ключ, а учетной записи службы AD FS предоставлены разрешения на чтение закрытого ключа. Проверьте это на каждом сервере федерации. Для этого в оснастке Сертификаты щелкните правой кнопкой новый сертификат, выберите Все задачи и щелкните Управление закрытыми ключами.
@@ -100,7 +100,7 @@ ms.locfileid: "87966911"
 2. Разверните узел **Служба** и выберите **Сертификаты**.
 3. Щелкните дополнительный сертификат подписи токена.
 4. В области **Действия** щелкните **Использовать как основной**. В запросе подтверждения нажмите кнопку Да.
-![Get-ADFSCertificate](media/configure-TS-TD-certs-ad-fs/ts5.png)</br>
+    ![Снимок экрана: диалоговое окно "D F S", в котором отображается параметр "задать как основной" на панели действий "вызываемый".](media/configure-TS-TD-certs-ad-fs/ts5.png)</br>
 
 
 ## <a name="updating-federation-partners"></a>Обновление партнеров Федерации
