@@ -8,12 +8,12 @@ manager: daveba
 ms.reviewer: cahick
 ms.date: 08/20/2019
 ms.topic: article
-ms.openlocfilehash: bbeff22ce85e1c108852a0e978ad56b1e70d10c5
-ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
+ms.openlocfilehash: 36cb5e03e8e9693b4227e2cde650f9a2f6ccbab6
+ms.sourcegitcommit: d1815253b47e776fb96a3e91556fd231bef8ee6d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93070546"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99042510"
 ---
 # <a name="winlogon-automatic-restart-sign-on-arso"></a>Вход автоматического перезапуска Winlogon (АРСО)
 
@@ -48,7 +48,7 @@ ms.locfileid: "93070546"
 
 **Политика Intune:**
 
-- Платформа: Windows 10 и более поздних версий.
+- Платформа. Windows 10 и более поздней версии
 - Тип профиля: административные шаблоны
 - Путь: \Windows \ параметры входа в систему
 
@@ -79,7 +79,7 @@ ms.locfileid: "93070546"
 
 **Тип:** DWORD
 
-![процессу](media/Winlogon-Automatic-Restart-Sign-On--ARSO-/gtr-adds-signinpolicy.png)
+![Снимок экрана входа и автоматической блокировки последнего интерактивного пользователя после диалогового окна перезагрузки.](media/Winlogon-Automatic-Restart-Sign-On--ARSO-/gtr-adds-signinpolicy.png)
 
 ## <a name="policy-2"></a>#2 политики
 
@@ -89,7 +89,7 @@ ms.locfileid: "93070546"
 
 **Политика Intune:**
 
-- Платформа: Windows 10 и более поздних версий.
+- Платформа. Windows 10 и более поздней версии
 - Тип профиля: административные шаблоны
 - Путь: \Windows \ параметры входа в систему
 
@@ -120,7 +120,7 @@ ms.locfileid: "93070546"
 
 **Тип:** DWORD
 
-![процессу](media/Winlogon-Automatic-Restart-Sign-On--ARSO-/arso-policy-setting.png)
+![Снимок экрана: Настройка режима автоматического входа и блокировки последнего интерактивного пользователя после диалогового окна перезагрузка или холодный запуск.](media/Winlogon-Automatic-Restart-Sign-On--ARSO-/arso-policy-setting.png)
 
 ## <a name="troubleshooting"></a>Устранение неполадок
 

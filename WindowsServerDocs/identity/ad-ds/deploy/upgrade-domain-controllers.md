@@ -6,12 +6,12 @@ author: iainfoulds
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 4a00bc2c6eabd8b5419d3a0d867efba9dfc1592a
-ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
+ms.openlocfilehash: eb3d016a3cd0bc7819b58bedd43908b0bc9fa352
+ms.sourcegitcommit: d1815253b47e776fb96a3e91556fd231bef8ee6d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93069176"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99042560"
 ---
 # <a name="upgrade-domain-controllers-to-windows-server-2016"></a>Обновление контроллеров домена до Windows Server 2016
 
@@ -30,8 +30,8 @@ ms.locfileid: "93069176"
 1. Проверьте подключение к целевому серверу с компьютера, где планируется установка.
 1. Проверьте доступность необходимых ролей хозяина операций.
    - Чтобы установить первый контроллер домена под управлением Windows Server 2016 в существующем домене и лесу, на компьютере, где выполняется установка, необходимо подключиться к **хозяину схемы** , чтобы запустить adprep/forestprep и хозяин инфраструктуры для запуска Adprep/домаинпреп.
-   - Чтобы установить первый контроллер домена в домене, где схема леса уже расширена, требуется подключение только к **хозяину инфраструктуры** .
-   - Для установки или удаления домена в существующем лесу необходимо подключение к **хозяину именования доменов** .
+   - Чтобы установить первый контроллер домена в домене, где схема леса уже расширена, требуется подключение только к **хозяину инфраструктуры**.
+   - Для установки или удаления домена в существующем лесу необходимо подключение к **хозяину именования доменов**.
    - Для установки контроллера домена также требуется подключение к **хозяину RID.**
    - Если вы устанавливаете первый контроллер домена только для чтения в существующем лесу, вам потребуется подключение к **хозяину инфраструктуры** для каждого раздела каталога приложений, также известного как контекст именования не в ДОМЕНЕ или нднк.
 
@@ -107,7 +107,7 @@ ms.locfileid: "93069176"
 Доменные службы Active Directory не поддерживаются в следующих операционных системах Windows:
 
 - Windows MultiPoint Server
-- Windows Server 2016 Essentials
+- Windows Server 2016 Essentials
 
 Доменные службы Active Directory нельзя установить на сервере, на котором выполняются следующие роли или службы ролей:
 
@@ -122,31 +122,31 @@ ms.locfileid: "93069176"
 
 Ниже приведен простой пример обновления леса contoso с Windows Server 2012 R2 до Windows Server 2016.
 
-![Обновление](media/Upgrade-Domain-Controllers-to-Windows-Server-2016/upgrade1.png)
+![Образ, отображающий обновление леса contoso с Windows Server 2012 R2 до Windows Server 2016.](media/Upgrade-Domain-Controllers-to-Windows-Server-2016/upgrade1.png)
 
 1. Присоедините новый сервер Windows Server 2016 к лесу. При появлении запроса перезагрузите компьютер.
 
-   ![Обновление](media/Upgrade-Domain-Controllers-to-Windows-Server-2016/upgrade2.png)
+   ![Снимок экрана с диспетчер сервера отображением диалоговых окон "Свойства системы" и "имя компьютера/домен".](media/Upgrade-Domain-Controllers-to-Windows-Server-2016/upgrade2.png)
 
 1. Войдите на новый сервер Windows Server 2016 с учетной записью администратора домена.
 1. В **Диспетчер сервера** в разделе **Добавление ролей и компонентов** установите **службы домен Active Directory** на новом сервере Windows Server 2016. Программа Adprep будет автоматически запущена в лесу и домене 2012 R2.
 
-   ![Обновление](media/Upgrade-Domain-Controllers-to-Windows-Server-2016/upgrade3.png)
+   ![Снимок экрана: страница "Выбор ролей сервера" мастера добавления ролей и компонентов с выделенным параметром домен Active Directory Services.](media/Upgrade-Domain-Controllers-to-Windows-Server-2016/upgrade3.png)
 
-1. В **Диспетчер сервера** щелкните желтый треугольник и в раскрывающемся списке выберите **повысить уровень сервера до контроллера домена** .
+1. В **Диспетчер сервера** щелкните желтый треугольник и в раскрывающемся списке выберите **повысить уровень сервера до контроллера домена**.
 
-   ![Обновление](media/Upgrade-Domain-Controllers-to-Windows-Server-2016/upgrade4.png)
+   ![Снимок экрана: диалоговое окно хода выполнения настройки после развертывания с вызываемым параметром "повысить сервер до контроллера домена"](media/Upgrade-Domain-Controllers-to-Windows-Server-2016/upgrade4.png)
 
 1. На экране **Конфигурация развертывания** выберите **Добавить контроллер домена в существующий лес** и нажмите кнопку Далее.
 
-   ![Обновление](media/Upgrade-Domain-Controllers-to-Windows-Server-2016/upgrade5.png)
+   ![Снимок экрана: страница "Конфигурация развертывания" мастера настройки служб домен Active Directory Services, показывающая выбранный параметр "добавить контроллер домена в существующий лес".](media/Upgrade-Domain-Controllers-to-Windows-Server-2016/upgrade5.png)
 
 1. На экране **параметры контроллера домена** введите пароль в **режиме восстановления служб каталогов (DSRM)** и нажмите кнопку Далее.
-1. В оставшейся части экрана нажмите кнопку **Далее** .
-1. На экране **Проверка готовности** нажмите кнопку **установить** . После завершения перезагрузки можно снова войти в систему.
-1. На сервере Windows Server 2012 R2 в **Диспетчер сервера** в разделе средства выберите **Active Directory модуль для Windows PowerShell** .
+1. В оставшейся части экрана нажмите кнопку **Далее**.
+1. На экране **Проверка готовности** нажмите кнопку **установить**. После завершения перезагрузки можно снова войти в систему.
+1. На сервере Windows Server 2012 R2 в **Диспетчер сервера** в разделе средства выберите **Active Directory модуль для Windows PowerShell**.
 
-   ![Обновление](media/Upgrade-Domain-Controllers-to-Windows-Server-2016/upgrade6.png)
+   ![Снимок экрана с раскрывающимся списком "средства" в диспетчер сервера с вызываемым параметром Active Directory Module для Windows PowerShell.](media/Upgrade-Domain-Controllers-to-Windows-Server-2016/upgrade6.png)
 
 1. В Windows PowerShell используйте Move-ADDirectoryServerOperationMasterRole, чтобы переместить роли FSMO. Можно ввести имя каждого параметра-Оператионмастерроле или использовать числа, чтобы указать роли. Дополнительные сведения см. в разделе [Move-аддиректорисервероператионмастерроле](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd464018(v=ws.10)) .
 
@@ -154,18 +154,18 @@ ms.locfileid: "93069176"
     Move-ADDirectoryServerOperationMasterRole -Identity "DC-W2K16" -OperationMasterRole 0,1,2,3,4
     ```
 
-    ![Обновление](media/Upgrade-Domain-Controllers-to-Windows-Server-2016/upgrade7.png)
+    ![Снимок экрана: Модуль Active Directory для окна Windows PowerShell, в котором отображаются результаты командлета Move-ADDirectoryServerOperationMasterRole.](media/Upgrade-Domain-Controllers-to-Windows-Server-2016/upgrade7.png)
 
-1. Убедитесь, что роли перемещены, перейдя на сервер Windows Server 2016, в **Диспетчер сервера** в разделе **средства** выберите **Active Directory модуль для Windows PowerShell** . Используйте `Get-ADDomain` `Get-ADForest` командлеты и для просмотра владельцев ролей FSMO.
+1. Убедитесь, что роли перемещены, перейдя на сервер Windows Server 2016, в **Диспетчер сервера** в разделе **средства** выберите **Active Directory модуль для Windows PowerShell**. Используйте `Get-ADDomain` `Get-ADForest` командлеты и для просмотра владельцев ролей FSMO.
 
-    ![Обновление](media/Upgrade-Domain-Controllers-to-Windows-Server-2016/upgrade8.png)
+    ![Снимок экрана: Модуль Active Directory для Windows PowerShell, отображающий результаты командлета Get-ADDomain с хозяином инфраструктуры, эмулятором P D C и вызываемыми основными значениями R I D.](media/Upgrade-Domain-Controllers-to-Windows-Server-2016/upgrade8.png)
 
-    ![Обновление](media/Upgrade-Domain-Controllers-to-Windows-Server-2016/upgrade9.png)
+    ![Снимок экрана: Модуль Active Directory для окна Windows PowerShell, в котором отображаются результаты командлета Get-ADForest с именами хозяина именования доменов и хозяина схемы.](media/Upgrade-Domain-Controllers-to-Windows-Server-2016/upgrade9.png)
 
 1. Понизьте и удалите контроллер домена Windows Server 2012 R2. Сведения о понижении роли контроллера домена см. в статье [понижение роли контроллеров доменов и доменов](../../ad-ds/deploy/Demoting-Domain-Controllers-and-Domains--Level-200-.md) .
 1. После понижения и удаления сервера можно повысить функциональные уровни леса и функциональных уровней домена до Windows Server 2016.
 
-## <a name="next-steps"></a>Next Steps
+## <a name="next-steps"></a>Дальнейшие шаги
 
 - [Новые возможности при установке и удалении доменных служб Active Directory](../../ad-ds/deploy/What-s-New-in-Active-Directory-Domain-Services-Installation-and-Removal.md)
 - [Установка домен Active Directory Services &#40;&#41;уровня 100 ](../../ad-ds/deploy/Install-Active-Directory-Domain-Services--Level-100-.md)

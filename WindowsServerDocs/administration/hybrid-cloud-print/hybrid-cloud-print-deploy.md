@@ -7,12 +7,12 @@ author: msjimwu
 ms.author: jimwu
 manager: mtillman
 ms.date: 3/15/2018
-ms.openlocfilehash: 80bc794a5719792941f91d6d50fe35b92006dea6
-ms.sourcegitcommit: 29b8942ea46196c12a67f6b6ad7f8dd46bf94fb2
+ms.openlocfilehash: 143848ed2ea4c9c1b01e3df795faacfcca9c2968
+ms.sourcegitcommit: d1815253b47e776fb96a3e91556fd231bef8ee6d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "98065670"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99042590"
 ---
 # <a name="deploy-windows-server-hybrid-cloud-print"></a>Развертывание функции Hybrid Cloud Print в Windows Server
 
@@ -200,15 +200,15 @@ ms.locfileid: "98065670"
 
     - Чтобы найти Azure Active Directory доменное имя, обратитесь к снимку экрана ниже.
 
-    ![Сервер печати как получить доменное имя AAD](../media/hybrid-cloud-print/PrintServer-GetAADDomainName.png)
+      ![Сервер печати как получить доменное имя AAD](../media/hybrid-cloud-print/PrintServer-GetAADDomainName.png)
 
     - Чтобы найти идентификатор Azure Active Directory, см. снимок экрана ниже.
 
-    ![Развертывание сервера печати в облаке](../media/hybrid-cloud-print/PrintServer-GetAADId.png)
+      ![Снимок экрана Azure с вызываемыми параметрами Azure Active Directory, свойств и каталога I D.](../media/hybrid-cloud-print/PrintServer-GetAADId.png)
 
     - Выходные данные скрипта Клаудпринтдеплой выглядят следующим образом:
 
-    ![Развертывание сервера печати в облаке](../media/hybrid-cloud-print/PrintServer-CloudPrintDeploy.png)
+      ![Снимок экрана окна PowerShell, в котором показано, как выглядит сценарий Клаудпринтдеплой.](../media/hybrid-cloud-print/PrintServer-CloudPrintDeploy.png)
 
     - Проверьте файл журнала, чтобы узнать, есть ли какие-либо ошибки: `C:\Program Files\WindowsPowerShell\Modules\PublishCloudPrinter\1.0.0.0\CloudPrintDeploy.log`
 
@@ -223,7 +223,7 @@ ms.locfileid: "98065670"
     - Убедитесь, что Азуретенант является доменным именем Azure AD.
     - Убедитесь, что URL-адрес — это URI идентификатора приложения для приложения службы Mopria Discovery.
 
-    ![Разделы реестра сервера печати Mopria](../media/hybrid-cloud-print/PrintServer-RegEdit-Mopria.png)
+    ![Снимок экрана, показывающий папку службы Mopria Discovery, отображаемую в редакторе реестра, с именем "аудитория Azure", "клиент Azure" и "URL-адрес".](../media/hybrid-cloud-print/PrintServer-RegEdit-Mopria.png)
 
 6. Запустите **iisreset** в командной строке PowerShell с повышенными привилегиями. Это обеспечит вступление в силу всех изменений, внесенных в реестр на предыдущем шаге.
 
@@ -244,7 +244,7 @@ ms.locfileid: "98065670"
 
    > Примечание. рекомендуется загрузить и установить последнюю версию, выполнив параметр-requiredversion.
 
-    ![Разделы реестра сервера печати Mopria](../media/hybrid-cloud-print/PrintServer-InstallSQLite.png)
+    ![Снимок экрана окна PowerShell, отображающего результаты командлетов Register-PackageSource и Install-Package.](../media/hybrid-cloud-print/PrintServer-InstallSQLite.png)
 
 9. Скопируйте библиотеки DLL SQLite в папку Моприаклаудсервице webapp bin (К:\инетпуб\ввврут\моприаклаудсервице\бин).
     - Создайте файл PS1, содержащий сценарий PowerShell, приведенный ниже.
@@ -299,7 +299,7 @@ ms.locfileid: "98065670"
     - В проводнике откройте свойства файла Моприадевицедб. DB, чтобы добавить пользователей или группы, которым разрешено публиковать в базе данных Mopria на вкладке Безопасность. Пользователи или группы должны существовать в локальной Active Directory и синхронизироваться с Azure AD.
     - Если решение развертывается в домене, не поддерживающем маршрутизацию (например, *mydomain*. local), домен Azure AD (например, *имя_домена*. onmicrosoft.com или приобретенный от стороннего поставщика) необходимо добавить в качестве суффикса имени участника-пользователя в локальную Active Directory. Это так же, как пользователь, который будет публиковать принтеры (например admin@*имя_домена*. onmicrosoft.com), можно добавить в параметр безопасности файла базы данных. См. статью [Подготовка домена без поддержки маршрутизации для синхронизации каталогов](/office365/enterprise/prepare-a-non-routable-domain-for-directory-synchronization).
 
-    ![Разделы реестра сервера печати Mopria](../media/hybrid-cloud-print/PrintServer-SQLiteDB.png)
+    ![Снимок экрана: вкладка "безопасность" в диалоговом окне "Свойства" устройства Mopria D b Dot D b с выделенным значением "Администратор" H C P.](../media/hybrid-cloud-print/PrintServer-SQLiteDB.png)
 
 ### <a name="step-5-optional---configure-pre-authentication-with-azure-ad"></a>Шаг 5 \[ необязательный. \] Настройка предварительной проверки подлинности в Azure AD
 

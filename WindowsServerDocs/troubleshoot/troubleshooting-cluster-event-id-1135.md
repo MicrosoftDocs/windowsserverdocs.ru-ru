@@ -5,12 +5,12 @@ ms.date: 05/28/2020
 author: Deland-Han
 ms.author: delhan
 ms.topic: troubleshooting
-ms.openlocfilehash: f75e6bcca3a4447920d3b3f571fc606ad68752e6
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 902ce4f5e30811d54d986c63fb8ca30cd0803aa5
+ms.sourcegitcommit: d1815253b47e776fb96a3e91556fd231bef8ee6d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97947190"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99042480"
 ---
 # <a name="troubleshooting-cluster-issue-with-event-id-1135"></a>Устранение неполадок с кластером с идентификатором события 1135
 
@@ -69,8 +69,8 @@ Cluster node ' **NODE A** ' was removed from the active failover cluster members
 
 Вы видите все события и все узлы в кластере, указывающие, что узел A потерял связь.
 
-![Сценарий. ](media/troubleshooting-cluster-event-id-1135/18647.png)
- ![ сценарий a](media/troubleshooting-cluster-event-id-1135/18648.png)
+![Схема, показывающая, что узел A, узел B и узел C успешно обмениваются данными. ](media/troubleshooting-cluster-event-id-1135/18647.png)
+ ![ Схема, показывающая, что узел A потерял связь с узлом B и узлом C.](media/troubleshooting-cluster-event-id-1135/18648.png)
 
 Возможно, при просмотре системных журналов на узле A у него есть события для всех оставшихся узлов в кластере.
 
@@ -84,11 +84,11 @@ Cluster node ' **NODE A** ' was removed from the active failover cluster members
 
 Вы просматриваете события на узлах и сообщите, что кластер распределен между двумя сайтами. УЗЕЛ A, узел B и узел C на сайте 1 и узле D & узле E на сайте 2.
 
-![Сценарий Б](media/troubleshooting-cluster-event-id-1135/18649.png)
+![Схема, показывающая, что сайт 1 успешно взаимодействует с сайтом 2 по каналу глобальной сети.](media/troubleshooting-cluster-event-id-1135/18649.png)
 
 На узлах A, B и C видно, что регистрируемые события предназначены для подключения к узлам D & E. Аналогично, когда вы видите события на узлах D & E, события предполагают, что мы потеряли связь с A, B и C.
 
-![Сценарий Б](media/troubleshooting-cluster-event-id-1135/18650.png)
+![Схема, показывающая, что сайт 1 потерял подключение WAN Link с сайтом 2.](media/troubleshooting-cluster-event-id-1135/18650.png)
 
 #### <a name="solution"></a>Решение
 
