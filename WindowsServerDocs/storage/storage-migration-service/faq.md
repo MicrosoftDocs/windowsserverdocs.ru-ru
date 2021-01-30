@@ -4,14 +4,14 @@ description: Часто задаваемые вопросы о службе ми
 author: nedpyle
 ms.author: nedpyle
 manager: siroy
-ms.date: 06/02/2020
+ms.date: 01/29/2021
 ms.topic: article
-ms.openlocfilehash: c59be01c856cac27f4372291b52bd43419c9ac46
-ms.sourcegitcommit: 65eef102021ed2b5abd73dca8a0ffd6eb174d705
+ms.openlocfilehash: 48dd8848f401556dc005727484006a95bf1f51b9
+ms.sourcegitcommit: f89c1bc137ff92eeca2499131854287f28851f63
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93035780"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99084962"
 ---
 # <a name="storage-migration-service-frequently-asked-questions-faq"></a>Служба миграции хранилища: часто задаваемые вопросы
 
@@ -64,7 +64,7 @@ ms.locfileid: "93035780"
 - Шифрование данных
 - Удаленное взаимодействие удостоверений
 - Инфраструктура
-- Имя
+- name
 - Путь
 - Область действия
 - Имя области
@@ -165,6 +165,10 @@ ms.locfileid: "93035780"
 ## <a name="what-do-the-error-numbers-mean-in-the-transfer-csv"></a>Что означают номера ошибок в CSV-файле перемещения?
 
 Большинство ошибок, обнаруженных в CSV-файле для перемещения, являются системными кодами ошибок Windows. Сведения о каждой ошибке можно узнать, просмотрев [документацию по кодам ошибок Win32](/windows/win32/debug/system-error-codes).
+
+## <a name="are-existing-certificates-updated-on-the-destination-server-during-cutover"></a>Были ли существующие сертификаты обновлены на целевом сервере во время прямую миграцию?
+
+Целевой сервер может содержать сертификаты, выданные до прямую миграцию-в своем локальном хранилище сертификатов, с именем сервера, частью которого является часть субъекта, альтернативное имя субъекта или другие поля. Когда происходит прямую миграцию и сервер переименовывается, эти сертификаты не обновляются. Необходимо повторно выдать сертификаты новым переименованным серверам с помощью текущих методов развертывания, например групповая политика или веб-регистрации.    
 
 ## <a name="what-are-my-options-to-give-feedback-file-bugs-or-get-support"></a><a name="give-feedback"></a> Какие варианты можно оставить для отправки отзыва, ошибок в файлах или получения поддержки?
 
