@@ -6,12 +6,12 @@ author: justinha
 ms.author: justinha
 manager: brianlic
 ms.date: 05/16/2018
-ms.openlocfilehash: c6dc0bcefda94b8d2b5490fa2378f60d26877bc5
-ms.sourcegitcommit: d42b80f947dbfa8660d982be67d77745a28081e5
+ms.openlocfilehash: d3e06dbaf61b422779822cce208040601f2e56fa
+ms.sourcegitcommit: 84b97d34d606b6bf4b6ec8760a93107f1b311428
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "98113300"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "99245415"
 ---
 # <a name="manage-transport-layer-security-tls"></a>Управление TLS
 
@@ -123,7 +123,7 @@ Windows не может использовать именованную крив
 4. Настройте вновь созданную коллекцию реестра предпочтений групповая политика, добавив новый **элемент реестра** для каждого значения реестра, указанного в разделе *HKEY_LOCAL_MACHINE\CurrentControlSet\Control\Cryptography\ECCParameters\[ курвенаме]*.
 5. Разверните объект групповая политика, содержащий элемент сбора групповая политика реестра, на компьютерах с Windows 10 и Windows Server 2016, которые должны получить новые именованные кривые.
 
-    ![GPP распределить кривые](../media/Transport-Layer-Security-protocol/gpp-distribute-curves.png)
+    ![Снимок экрана вкладки "настройки" редактор "Управление групповыми политиками".](../media/Transport-Layer-Security-protocol/gpp-distribute-curves.png)
 
     *Рис. 3. Использование параметров групповая политика для распределения кривых*
 
@@ -133,6 +133,6 @@ Windows не может использовать именованную крив
 Используя универсальный код коррекции ошибок и этот параметр, организации могут добавить собственные доверенные именованные кривые (которые утверждены для использования с TLS) в операционную систему, а затем добавить эти именованные кривые к приоритету кривой групповая политика параметр, чтобы обеспечить их использование в будущих подтверждениях TLS.
 Новые списки приоритетов кривых становятся активными при следующей перезагрузке после получения параметров политики.
 
-![GPP распределить кривые](../media/Transport-Layer-Security-protocol/gp-managing-tls-curve-priority-order.png)
+![Снимок экрана: диалоговое окно "порядок кривой ЦКП".](../media/Transport-Layer-Security-protocol/gp-managing-tls-curve-priority-order.png)
 
 *Рис. 4. Управление приоритетом кривой TLS с помощью групповая политика*
