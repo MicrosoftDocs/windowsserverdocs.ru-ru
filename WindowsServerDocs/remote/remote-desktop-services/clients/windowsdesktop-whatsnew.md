@@ -5,14 +5,14 @@ ms.topic: article
 author: heidilohr
 manager: lizross
 ms.author: helohr
-ms.date: 01/12/2021
+ms.date: 01/27/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: 1d5dc9e76680b6c222f67b8f94c12bedd57af263
-ms.sourcegitcommit: 56297d3b8aa8f4796cb74b736d599d433aeee339
+ms.openlocfilehash: c0f316517c722e407e36c489556a4e6069020a23
+ms.sourcegitcommit: 2ede79efbadd109099bb6fdb744796adde123922
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "98134810"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "98923648"
 ---
 # <a name="whats-new-in-the-windows-desktop-client"></a>Что нового в клиенте для Windows Desktop
 
@@ -24,10 +24,10 @@ ms.locfileid: "98134810"
 
 |Группа пользователей |Последняя версия  |Минимальная поддерживаемая версия |
 |-----------|----------------|--------------------------|
-|Общие     |1.2.1525        |1.2.945                   |
-|Предварительная оценка    |1.2.1670        |1.2.945                   |
+|Общие     |1.2.1672        |1.2.945                   |
+|Предварительная оценка    |1.2.1672        |1.2.945                   |
 
-## <a name="updates-for-version-121670-insider"></a>Обновления для версии 1.2.1670 (в рамках программы предварительной оценки)
+## <a name="updates-for-version-121672"></a>Обновления для версии 1.2.1672
 
 *Дата публикации: 12.01.2021*
 
@@ -36,12 +36,13 @@ ms.locfileid: "98134810"
 - Добавлена поддержка функции для защиты от записи экрана для конечных точек Windows 10. Дополнительные сведения см. в разделе [Рекомендации по безопасности узла сеансов](/azure/virtual-desktop/security-guide#session-host-security-best-practices).
 - Добавлена поддержка прокси-серверов, требующих проверки подлинности для подписки на веб-канал.
 - Теперь в клиенте отображается уведомление с возможностью повторить попытку, если обновление не удалось скачать.
+- Устранены некоторые проблемы со специальными возможностями, касающиеся фокуса клавиатуры и режима высокой контрастности.
 
 ## <a name="updates-for-version-121525"></a>Обновления для версии 1.2.1525
 
 *Дата публикации: 01.12.2020*
 
-Скачать: [Windows (64-разрядная версия)](https://go.microsoft.com/fwlink/?linkid=2139369), [Windows (32-разрядная версия)](https://go.microsoft.com/fwlink/?linkid=2139456), [Windows (ARM64)](https://go.microsoft.com/fwlink/?linkid=2139370)
+Скачать: [Windows (64-разрядная версия)](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4M4Qb), [Windows (32-разрядная версия)](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4M4Qc), [Windows (ARM64)](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4M4Qa)
 
 - Добавлено представление списка для удаленных ресурсов, чтобы длинные имена приложений были читабельными.
 - Добавлен значок уведомления, который появляется при наличии обновления для клиента.
@@ -49,8 +50,6 @@ ms.locfileid: "98134810"
 ## <a name="updates-for-version-121446"></a>Обновления для версии 1.2.1446
 
 *Дата публикации: 27.10.2020*
-
-Скачать: [Windows (64-разрядная версия)](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4Hq7C), [Windows (32-разрядная версия)](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4HvgF), [Windows (ARM64)](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4Ho64)
 
 - Добавлена функция автоматического обновления, которая позволяет клиенту автоматически устанавливать последние обновления.
 - Теперь клиент различает разные веб-каналы в центре подключений.

@@ -6,14 +6,14 @@ ms.assetid: b7d8158c-aee1-4c60-8a46-40ce5595b8e8
 author: HeidiLohr
 manager: lizross
 ms.author: helohr
-ms.date: 12/14/2020
+ms.date: 01/29/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: c3598c1371d7b633c8ec91f41defa795f380c08c
-ms.sourcegitcommit: 4f7308430a69fe7965e16aa5b31f87c5d68e4a09
+ms.openlocfilehash: 0fa194b80420ce6bdb3604505f82ecee196f01e5
+ms.sourcegitcommit: 1e94c10ff51f43325fa9184b09bbdfeb8c8fed36
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "97577426"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99081730"
 ---
 # <a name="remote-desktop-clients"></a>Клиенты удаленного рабочего стола
 
@@ -31,11 +31,11 @@ ms.locfileid: "97577426"
 
 | Клиент | Получение приложения | Документация | Последняя версия |
 |-----------------|-------------|------|---|
-| Настольный компьютер с Windows | [Клиент Удаленного рабочего стола](windowsdesktop.md#install-the-client) | [Начало работы](windowsdesktop.md), [Что нового](windowsdesktop-whatsnew.md) | 1.2.1524  |
-| Microsoft Store   | [Клиент Windows 10 в Microsoft Store](https://go.microsoft.com/fwlink/?LinkID=616709) | [Начало работы](windows.md), [Что нового](windows-whatsnew.md)  | 1.2.1535  |
-| Android         | [Клиент Android в Google Play](https://play.google.com/store/apps/details?id=com.microsoft.rdc.android)     | [Начало работы](remote-desktop-android.md), [Что нового](android-whatsnew.md) | 10.0.8 |
+| Настольный компьютер с Windows | [Клиент Удаленного рабочего стола](windowsdesktop.md#install-the-client) | [Начало работы](windowsdesktop.md), [Что нового](windowsdesktop-whatsnew.md) | 1.2.1672  |
+| Microsoft Store   | [Клиент Windows 10 в Microsoft Store](https://go.microsoft.com/fwlink/?LinkID=616709) | [Начало работы](windows.md), [Что нового](windows-whatsnew.md)  | 1.2.1701  |
+| Android         | [Клиент Android в Google Play](https://play.google.com/store/apps/details?id=com.microsoft.rdc.android)     | [Начало работы](remote-desktop-android.md), [Что нового](android-whatsnew.md) | 10.0.9 |
 | iOS             | [Клиент iOS в App Store](https://apps.apple.com/app/microsoft-remote-desktop/id714464092)     | [Начало работы](remote-desktop-ios.md), [Что нового](ios-whatsnew.md)         | 10.2.3 |
-| macOS | [Клиент macOS в App Store](https://apps.apple.com/app/microsoft-remote-desktop/id1295203466?mt=12) | [Начало работы](remote-desktop-mac.md), [Что нового](mac-whatsnew.md)       | 10.5.0 |
+| macOS | [Клиент macOS в App Store](https://apps.apple.com/app/microsoft-remote-desktop/id1295203466?mt=12) | [Начало работы](remote-desktop-mac.md), [Что нового](mac-whatsnew.md)       | 10.5.1 |
 
 ## <a name="configuring-the-remote-pc"></a>Настройка удаленного компьютера
 
