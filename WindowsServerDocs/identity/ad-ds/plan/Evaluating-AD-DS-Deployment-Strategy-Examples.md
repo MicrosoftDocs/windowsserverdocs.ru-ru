@@ -7,12 +7,12 @@ ms.author: daveba
 manager: daveba
 ms.date: 05/31/2017
 ms.topic: article
-ms.openlocfilehash: 5612bc24e3f0662103aae1d831578c7417cc578e
-ms.sourcegitcommit: d2224cf55c5d4a653c18908da4becf94fb01819e
+ms.openlocfilehash: 4455341114c7c4b5f0dd20f4ef8357922426801f
+ms.sourcegitcommit: 658ee0e4cb1c25a6793afb5b64046000eaf6b773
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/21/2020
-ms.locfileid: "97711799"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "99589836"
 ---
 # <a name="evaluating-ad-ds-deployment-strategy-examples"></a>Оценка примеров стратегии развертывания доменных служб Active Directory
 
@@ -28,7 +28,7 @@ ms.locfileid: "97711799"
 
 -   Включение расширенных функций AD DS путем повышения функциональных уровней домена и леса до Windows Server 2008.
 
--   Измените структуру домена africa.concorp.contoso.com в лесу, чтобы консолидировать этот домен с доменом EMEA. Corp. contoso. Con.
+-   Измените структуру домена africa.concorp.contoso.com в лесу для консолидации этого домена с доменом emea.concorp.contoso.com.
 
 Повышение функционального уровня леса до Windows Server 2008 позволит компании Contoso воспользоваться всеми преимуществами новых функций AD DS. При реструктуризации доменов в пределах леса, как показано на следующем рисунке, уменьшается объем администрирования, необходимый для управления доменами.
 
