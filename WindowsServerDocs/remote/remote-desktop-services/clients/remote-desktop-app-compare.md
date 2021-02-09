@@ -6,14 +6,14 @@ ms.assetid: 12efe858-6b76-4e08-9f72-b9603aceb0fc
 author: heidilohr
 manager: lizross
 ms.author: helohr
-ms.date: 12/16/2020
+ms.date: 02/04/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: 7d06703386b60ad88271f3239700ef1a97e5c82c
-ms.sourcegitcommit: e57536e28902ae52d3040141bbd2aa00e91bbdd3
+ms.openlocfilehash: bc387d4adca7ea9020877bd75d8c0e5bd8b453a9
+ms.sourcegitcommit: e58922c8e4cce05bb87e416946ddb2fd6c47d9cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97644604"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "99569713"
 ---
 # <a name="compare-the-clients-redirections"></a>Сравнение клиентов: перенаправления
 
@@ -51,11 +51,11 @@ ms.locfileid: "97644604"
 
 | Перенаправление         | Установленные приложения для Windows</br>(MSTSC) | Настольный компьютер с Windows</br>(MSRDC) | Клиент Microsoft Store</br>(URDC) | Android | iOS         | macOS                           | Веб-клиент    |
 |---------------------|---------------------------|-----------------------------|---------------|---------|-------------|---------------------------------|---------------|
-| Камеры             | X                         | X                           |               |     X    |   X         | X                               |               |
+| Камеры             | X                         | X                           |               |          |   X         | X                               |               |
 | Буфер обмена           | X                         | X                           | X             | Текст    | Текст, изображения | X                               | текст          |
 | Локальный диск /служба хранилища | X                         | X                           |               | X       |   X        | X                               |               |
 | Расположение            | X                         | X                           |               |         |             |                                 |               |
-| Микрофоны         | X                         | X                           | X             |         |  X          | X                               |               |
+| Микрофоны         | X                         | X                           | X             |    X    |  X          | X                               |               |
 | принтеры;            | X                         | X                           |               |         |             | X (только для CUPS)                   | Печать в PDF     |
 | Сканеры            | X                         | X                           |               |         |             |                                 |               |
 | Smart Cards         | X                         | X                           |               |         |             | X (вход в Windows не поддерживается) |               |
