@@ -5,14 +5,14 @@ ms.topic: article
 author: heidilohr
 manager: lizross
 ms.author: helohr
-ms.date: 01/27/2021
+ms.date: 02/02/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: c0f316517c722e407e36c489556a4e6069020a23
-ms.sourcegitcommit: 2ede79efbadd109099bb6fdb744796adde123922
+ms.openlocfilehash: da7bd7fb7adc0e99df448b2c2cc3cc46384ad527
+ms.sourcegitcommit: 5543f795a83e7ca74227d850eba877723d720cf3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "98923648"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "99490681"
 ---
 # <a name="whats-new-in-the-windows-desktop-client"></a>Что нового в клиенте для Windows Desktop
 
@@ -29,7 +29,7 @@ ms.locfileid: "98923648"
 
 ## <a name="updates-for-version-121672"></a>Обновления для версии 1.2.1672
 
-*Дата публикации: 12.01.2021*
+*Дата публикации: 26.01.2021 г.*
 
 Скачать: [Windows (64-разрядная версия)](https://go.microsoft.com/fwlink/?linkid=2139233), [Windows (32-разрядная версия)](https://go.microsoft.com/fwlink/?linkid=2139144), [Windows (ARM64)](https://go.microsoft.com/fwlink/?linkid=2139368)
 

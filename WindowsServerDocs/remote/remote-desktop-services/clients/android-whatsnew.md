@@ -5,18 +5,30 @@ ms.topic: article
 author: heidilohr
 manager: lizross
 ms.author: helohr
-ms.date: 12/02/2020
+ms.date: 02/04/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: 19e2162caff3ee41fd7a96cf2b31a4f15dd13bbb
-ms.sourcegitcommit: dce404a0a4500a693e294e0431c93f0ae90f8b13
+ms.openlocfilehash: cef85c00763d1b8a73a2c79d92347676ffdd25d0
+ms.sourcegitcommit: e58922c8e4cce05bb87e416946ddb2fd6c47d9cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "96563814"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "99569721"
 ---
 # <a name="whats-new-in-the-android-client"></a>Что нового в клиенте Android?
 
 Мы регулярно обновляем [клиент удаленного рабочего стола для Android](remote-desktop-android.md), добавляя новые компоненты и устраняя проблемы. Здесь вы найдете последние обновления.
+
+## <a name="updates-for-version-1009"></a>Обновления для версии 10.0.9
+
+*Дата публикации: 02.02.2020 г.*
+
+- Добавлена поддержка темного режима в Android 10 и более поздних версиях.
+- Исправлены проблемы с синхронизацией перенаправления буфера обмена.
+- Добавлено перенаправление буфера обмена в пользовательский интерфейс "Добавление и изменение ПК".
+- Клиент Android теперь поддерживает клавишу DEL на внешних клавиатурах.
+- Исправлена ошибка, которая приводила к тому, что автозавершение URL-адресов в рабочей области переставало отвечать на запросы.
+- Устранены ошибки, связанные со специальными возможностями для клавиатуры и средства чтения с экрана.
+- Устранены проблемы с надежностью, описанные в отчетах пользователей.
 
 ## <a name="updates-for-version-1008"></a>Обновления для версии 10.0.8
 

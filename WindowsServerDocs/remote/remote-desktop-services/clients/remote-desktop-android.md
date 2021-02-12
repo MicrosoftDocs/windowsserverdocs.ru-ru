@@ -6,19 +6,19 @@ ms.assetid: 64f038e1-40ec-4c67-938b-72edea49e5d8
 author: heidilohr
 manager: lizross
 ms.author: helohr
-ms.date: 12/11/2020
+ms.date: 02/04/2020
 ms.localizationpriority: medium
 ms.custom: contperf-fy21q1
-ms.openlocfilehash: 5e289d1641d5171b4a11526f36aa569baa41980c
-ms.sourcegitcommit: 7c0794e257f602bd71af5eb9a11b8a03d2b9adfd
+ms.openlocfilehash: 30a4964684573d86a899d80404a0b226b9cd63be
+ms.sourcegitcommit: e58922c8e4cce05bb87e416946ddb2fd6c47d9cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "97390312"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "99569729"
 ---
 # <a name="get-started-with-the-android-client"></a>Приступая к работе с клиентом Android
 
->Относится к: Android 6.0 и более поздних версий
+>Относится к: Android 7.0 и более поздних версий
 
 С помощью клиента Удаленного рабочего стола для Android можно работать с приложениями для Windows и рабочими столами Windows непосредственно с устройства Android или Chromebook, которое поддерживает Google Play Маркет.
 
