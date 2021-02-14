@@ -8,11 +8,11 @@ ms.author: anpaul
 author: AnirbanPaul
 ms.date: 12/08/2020
 ms.openlocfilehash: ffa860afaba6399cf17dabadbe0dc90c70f75526
-ms.sourcegitcommit: fb2ae5e6040cbe6dde3a87aee4a78b08f9a9ea7c
+ms.sourcegitcommit: da2508fb978f2686178a08a9b5a65d7ae208da36
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2021
-ms.locfileid: "98717000"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "100335410"
 ---
 # <a name="software-load-balancing-slb-for-sdn"></a>Подсистема балансировки нагрузки программного обеспечения \( \) для Sdn
 

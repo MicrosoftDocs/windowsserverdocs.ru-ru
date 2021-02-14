@@ -8,11 +8,11 @@ ms.author: anpaul
 author: AnirbanPaul
 ms.date: 08/27/2018
 ms.openlocfilehash: 6810ffac057edce99696a394fc652833e6791796
-ms.sourcegitcommit: fb2ae5e6040cbe6dde3a87aee4a78b08f9a9ea7c
+ms.sourcegitcommit: da2508fb978f2686178a08a9b5a65d7ae208da36
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2021
-ms.locfileid: "98716930"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "100335445"
 ---
 # <a name="use-access-control-lists-acls-to-manage-datacenter-network-traffic-flow"></a>Использование списков управления доступом (ACL) для управления потоком сетевого трафика центра обработки данных
 

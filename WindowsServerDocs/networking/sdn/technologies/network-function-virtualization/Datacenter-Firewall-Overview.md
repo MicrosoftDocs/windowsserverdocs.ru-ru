@@ -8,11 +8,11 @@ ms.author: anpaul
 author: AnirbanPaul
 ms.date: 08/07/2020
 ms.openlocfilehash: 32a436ebce2313d7d8aa28a6d2fd4c04061b306f
-ms.sourcegitcommit: fb2ae5e6040cbe6dde3a87aee4a78b08f9a9ea7c
+ms.sourcegitcommit: da2508fb978f2686178a08a9b5a65d7ae208da36
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2021
-ms.locfileid: "98716880"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "100335407"
 ---
 # <a name="datacenter-firewall-overview"></a>Обзор брандмауэра центра обработки данных
 
