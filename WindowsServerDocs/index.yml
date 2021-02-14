@@ -10,12 +10,12 @@ metadata:
   ms.topic: hub-page
   ms.date: 06/06/2019
   ms.author: lizross
-  ms.openlocfilehash: c0820365f1a022545752e90ff01b625f7aa72c98
-  ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+  ms.openlocfilehash: 20f5de835e413194c3def8691cc711f0759db060
+  ms.sourcegitcommit: 8bd9a0dd489a1098c0cf0cf0fbd1f738701103c5
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 08/07/2020
-  ms.locfileid: "87996666"
+  ms.lasthandoff: 02/14/2021
+  ms.locfileid: "100490102"
 highlightedContent:
   items:
   - title: Что нового в Windows Server 2019?
@@ -40,8 +40,8 @@ highlightedContent:
     itemType: how-to-guide
     url: ./get-started/extended-security-updates.md
   - title: Программа предварительной оценки Windows для Server
-    itemType: overview
-    url: /windows-insider/at-work/
+    itemType: how-to-guide
+    url: /windows-insider/business/server-get-started
 conceptualContent:
   items:
   - title: Обновление Windows Server
