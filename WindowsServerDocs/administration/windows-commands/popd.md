@@ -7,12 +7,12 @@ ms.author: lizross
 author: eross-msft
 manager: mtillman
 ms.date: 07/11/2018
-ms.openlocfilehash: 4884e294f878a55125a035d7113ce857e1964634
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: f149858b9281725cb7d63e9298ae16a0f33efd57
+ms.sourcegitcommit: af9381b62f8ae6c78383ed6b81c37f843b5ad7e4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89633658"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "100549314"
 ---
 # <a name="popd"></a>popd
 

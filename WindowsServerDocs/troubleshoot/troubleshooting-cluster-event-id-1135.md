@@ -5,12 +5,12 @@ ms.date: 05/28/2020
 author: Deland-Han
 ms.author: delhan
 ms.topic: troubleshooting
-ms.openlocfilehash: 902ce4f5e30811d54d986c63fb8ca30cd0803aa5
-ms.sourcegitcommit: d1815253b47e776fb96a3e91556fd231bef8ee6d
+ms.openlocfilehash: dc713636b6ba961825f46484045d0e2284f7a882
+ms.sourcegitcommit: af9381b62f8ae6c78383ed6b81c37f843b5ad7e4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "99042480"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "100549360"
 ---
 # <a name="troubleshooting-cluster-issue-with-event-id-1135"></a>Устранение неполадок с кластером с идентификатором события 1135
 
@@ -31,9 +31,9 @@ ms.locfileid: "99042480"
 
 Служба кластеров — это важный компонент программного обеспечения, который управляет всеми аспектами работы отказоустойчивого кластера и управляет базой данных конфигурации кластера. Если отображается событие с ИДЕНТИФИКАТОРом 1135, корпорация Майкрософт рекомендует установить исправления, упомянутые в статьях базы знаний, и перезагрузить все узлы кластера, а затем проверить, не возникает ли проблема.
 
-- [Исправление для Windows Server 2012 R2](https://support.microsoft.com/help/2920151)
-- [Исправление для Windows Server 2012](https://support.microsoft.com/help/2784261)
-- [Исправление для Windows Server 2008 R2](https://support.microsoft.com/help/2545685)
+- [Исправление для Windows Server 2012 R2](https://docs.microsoft.com/troubleshoot/windows-server/high-availability/updates-for-windows-server-2012-r2-failover-cluster)
+- [Исправление для Windows Server 2012](https://docs.microsoft.com/troubleshoot/windows-server/high-availability/updates-for-windows-server-2012-failover-cluster)
+- [Исправление для Windows Server 2008 R2](https://docs.microsoft.com/troubleshoot/windows-server/high-availability/updates-for-windows-server-2008-r2-sp1-failover-cluster)
 
 ### <a name="check-if-the-cluster-service-running-on-all-the-nodes"></a>Проверьте, работает ли служба кластеров на всех узлах.
 
@@ -41,18 +41,17 @@ ms.locfileid: "99042480"
 
 #### <a name="for-windows-server-2008-r2-cluster"></a>Для кластера Windows Server 2008 R2
 
-из командной строки с повышенными привилегиями выполните команду: **cluster.exe node/стат**
+В командной строке с повышенными привилегиями выполните команду: **cluster.exe node/стат**
 
 #### <a name="for-windows-server-2012-and-windows-server-2012-r2-cluster"></a>Для кластера Windows Server 2012 и Windows Server 2012 R2
 
-выполнение команды PS: " **узел кластера"/Status**
+Выполните следующую команду PS: [`Get-ClusterResource`](https://docs.microsoft.com/powershell/module/failoverclusters/get-clusterresource)
 
 Служба кластеров непрерывно работает и доступна на всех узлах?
 
 ## <a name="solution-for-cluster-service-is-failing"></a>Сбой решения для службы кластеров
 
-Если служба кластеров не работает, выполните устранение неполадок с помощью этой статьи: [Параметры запуска отказоустойчивого кластера Windows Server 2008 и 2008R2](/archive/blogs/askcore/windows-server-2008-and-2008r2-failover-cluster-startup-switches).
-
+Если служба кластеров завершается сбоем, выполните устранение неполадок с помощью этой статьи: [Параметры запуска отказоустойчивого кластера Windows Server 2008 и 2008R2](/archive/blogs/askcore/windows-server-2008-and-2008r2-failover-cluster-startup-switches).
 
 ## <a name="several-scenarios-of-event-id-1135"></a>Несколько сценариев с ИДЕНТИФИКАТОРом события 1135
 
@@ -60,7 +59,11 @@ ms.locfileid: "99042480"
 
 ```console
 Event ID 1135
-Cluster node ' **NODE A** ' was removed from the active failover cluster membership. The Cluster service on this node may have stopped. This could also be due to the node having lost communication with other active nodes in the failover cluster. Run the Validate a Configuration wizard to check your network configuration. If the condition persists, check for hardware or software errors related to the network adapters on this node. Also check for failures in any other network components to which the node is connected such as hubs, switches, or bridges.
+Cluster node ' **NODE A** ' was removed from the active failover cluster membership. The Cluster service on this node may have stopped. 
+This could also be due to the node having lost communication with other active nodes in the failover cluster. 
+Run the Validate a Configuration wizard to check your network configuration. 
+If the condition persists, check for hardware or software errors related to the network adapters on this node. 
+Also check for failures in any other network components to which the node is connected such as hubs, switches, or bridges.
 ```
 
 Существует три типичных сценария:
@@ -121,7 +124,7 @@ Cluster node ' **NODE A** ' was removed from the active failover cluster members
 
 - Путь к ресурсу-свидетелю общей папки
 
-- *Папка%системрут%\клустер*
+- Папка *%системрут%\клустер*
 
 Настройте компонент сканирования в режиме реального времени в антивирусной программе, чтобы исключить следующие каталоги и файлы:
 
@@ -140,14 +143,14 @@ Cluster node ' **NODE A** ' was removed from the active failover cluster members
 - mms.exe
 
     > [!NOTE]
-    > Этот файл может быть настроен в качестве исключения процесса в антивирусном программном обеспечении.)
+    > Этот файл может быть настроен в качестве исключения процесса в антивирусном программном обеспечении.
 
 - Vmwp.exe
 
     > [!NOTE]
     > Этот файл может быть настроен в качестве исключения процесса в антивирусном программном обеспечении.
 
-Кроме того, при использовании динамическая миграция вместе с общими томами кластера исключите путь CSV *C:\Clusterstorage* и все его подкаталоги. При устранении неполадок, связанных с отработкой отказа, или общих проблем с службами кластеров и антивирусной программой, временно удалите антивирусную программу или обратитесь к производителю программного обеспечения, чтобы определить, работает ли антивирусная программа со службами кластеров. В большинстве случаев недостаточное Отключение антивирусного программного обеспечения. Даже при отключении антивирусной программы драйвер фильтра по-прежнему загружается при перезагрузке компьютера.
+Кроме того, при использовании динамическая миграция вместе с общими томами кластера исключите путь CSV *C:\Clusterstorage* и все его подкаталоги. При устранении неполадок, связанных с отработкой отказа, или общих проблем с использованием служб кластеров и антивирусной программы, временно удалите антивирусную программу или обратитесь к производителю программного обеспечения, чтобы определить, работает ли антивирусная программа со службами кластеров. В большинстве случаев недостаточное Отключение антивирусного программного обеспечения. Даже при отключении антивирусной программы драйвер фильтра по-прежнему загружается при перезагрузке компьютера.
 
 ### <a name="check-for-network-port-configuration-in-firewall"></a>Проверка конфигурации сетевого порта в брандмауэре
 
@@ -155,23 +158,22 @@ Cluster node ' **NODE A** ' was removed from the active failover cluster members
 
 Имя системной службы: **ClusSvc**
 
-|Приложение|Протокол|порты;|
-|---|---|---|
-|Служба кластеров|UDP|3343|
-|Служба кластеров|TCP|3343 (этот порт необходим во время операции присоединение узла.)|
-|RPC|TCP|135|
-|Администратор кластера|UDP|137|
-|Kerberos|удп\ткп|464 *|
-|SMB|TCP|445|
-|Произвольно выделенные порты UDP с высоким уровнем доступности * *|UDP|Случайный номер порта в диапазоне от 1024 до 65535<br/>Случайный номер порта в диапазоне от 49152 до 65535 * * _|
-||||
+| Приложение | Протокол | порты; |
+| :---------- | :------: | ----- |
+| Служба кластеров | Протокол UDP | 3343 |
+| Служба кластеров | TCP | 3343 (этот порт необходим во время операции присоединение узла.) |
+| RPC | TCP | 135 |
+| Администратор кластера | UDP | 137 |
+| Kerberos | UDP и TCP | 464 * |
+| SMB | TCP | 445 |
+| Случайным образом выделены старшие UDP-порты\*\* | Протокол UDP | Случайный номер порта в диапазоне от 1024 до 65535 <br/>Случайный номер порта в диапазоне от 49152 до 65535\*\*\* |
 
 > [!NOTE]
 > Кроме того, для успешной проверки отказоустойчивых кластеров Windows на Windows Server 2008 и более поздних версий разрешите входящий и исходящий трафик для ICMP4, ICMP6.
 
-- Дополнительные сведения см. в статье [сбой создания отказоустойчивого кластера Windows Server 2012 с ошибкой 0xc000005e](https://support.microsoft.com/help/2830510).
+- Дополнительные сведения см. в статье [сбой создания отказоустойчивого кластера Windows Server 2012 с ошибкой 0xc000005e](https://docs.microsoft.com/troubleshoot/windows-server/high-availability/creating-failover-cluster-fails-error-0xc0000055).
 
-- Дополнительные сведения о настройке этих портов см. в разделе [Общие сведения о службе и требования к сетевым портам для Windows](https://support.microsoft.com/help/832017/) раздела "ссылки".
+- Дополнительные сведения о настройке этих портов см. в разделе [Общие сведения о службе и требования к сетевым портам для Windows](https://docs.microsoft.com/troubleshoot/windows-server/networking/service-overview-and-network-port-requirements) раздела "ссылки".
 
 Это диапазон в Windows Server 2012, Windows 8, Windows Server 2008 R2, Windows 7, Windows Server 2008 и Windows Vista.
 
@@ -187,11 +189,11 @@ netsh advfirewall firewall show rule name="Failover Clusters (UDP-In)" verbose
 
 Следуйте указаниям, приведенным ниже:
 
-1. Запустите отчет о проверке кластера для любых ошибок или предупреждений. Дополнительные сведения см. в разделе [Основные сведения о тестах проверки кластера: сеть.](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc771323(v=ws.11)?redirectedfrom=MSDN)
+1. Запустите отчет о проверке кластера для любых ошибок или предупреждений. Дополнительные сведения см. в разделе [Основные сведения о тестах проверки кластера: сеть.](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc771323(v=ws.11))
 
     ![subhatt1](media/troubleshooting-cluster-event-id-1135/18653.png)
 
-2. Проверьте наличие предупреждений и ошибок для сетей. Дополнительные сведения см. в разделе [Основные сведения о тестах проверки кластера: сеть](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc771323(v=ws.11)?redirectedfrom=MSDN).
+2. Проверьте наличие предупреждений и ошибок для сетей. Дополнительные сведения см. в разделе [Основные сведения о тестах проверки кластера: сеть](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc771323(v=ws.11)).
 
     ![Результаты по категории " ](media/troubleshooting-cluster-event-id-1135/18654.png) ![ сеть"](media/troubleshooting-cluster-event-id-1135/18655.png)
 
@@ -203,7 +205,7 @@ netsh advfirewall firewall show rule name="Failover Clusters (UDP-In)" verbose
 
 Чтобы изменить порядок привязки сетевых адаптеров, выполните указанные ниже действия.
 
-1. Щелкните _ * Пуск * *, выберите **выполнить**, введите ncpa.cpl и нажмите кнопку **ОК**. Доступные подключения можно просмотреть в разделе **Локальная сеть и High-Speed Интернет** окна **Сетевые подключения** .
+1. В меню **Пуск** выберите команду **Выполнить**, введите `ncpa.cpl` и нажмите кнопку **ОК**. Доступные подключения можно просмотреть в разделе **Локальная сеть и High-Speed Интернет** окна **Сетевые подключения** .
 
 2. В меню **Дополнительно** выберите **Дополнительные параметры**, а затем перейдите на вкладку **адаптеры и привязки** .
 
@@ -217,15 +219,17 @@ netsh advfirewall firewall show rule name="Failover Clusters (UDP-In)" verbose
 
 Эта проверка позволяет проверить, что проверенные серверы могут взаимодействовать с допустимой задержкой во всех сетях.
 
-Например, в разделе Проверка сетевого взаимодействия могут отображаться следующие сообщения о проблемах задержки сети.
+Например, в разделе Проверка сетевого взаимодействия могут отображаться следующие сообщения о проблемах с задержкой в сети.
 
 ```console
 Succeeded in pinging network interface node003.contoso.com IP Address 192.168.0.2 from network interface node004.contoso.com IP Address 192.168.0.3 with maximum delay 500 after 1 attempt(s).
-Either address 10.0.0.96 is not reachable from 192.168.0.2 or **the ping latency is greater than the maximum allowed 2000 ms** This may be expected, since network interfaces node003.contoso.com - Heartbeat Network and node004.contoso.com - Production Network are on different cluster networks
-Either address 192.168.0.2 is not reachable from 10.0.0.96 or **the ping latency is greater than the maximum allowed 2000 ms** This may be expected, since network interfaces node004.contoso.com - Production Network and node003.contoso.com - Heartbeat Network for MSCS are on different cluster networks
+Either address 10.0.0.96 is not reachable from 192.168.0.2 or **the ping latency is greater than the maximum allowed 2000 ms** 
+This may be expected, since network interfaces node003.contoso.com - Heartbeat Network and node004.contoso.com - Production Network are on different cluster networks
+Either address 192.168.0.2 is not reachable from 10.0.0.96 or **the ping latency is greater than the maximum allowed 2000 ms** 
+This may be expected, since network interfaces node004.contoso.com - Production Network and node003.contoso.com - Heartbeat Network for MSCS are on different cluster networks
 ```
 
-Для многосайтового кластера вы можете увеличить значения времени ожидания. Дополнительные сведения см. [в статье Настройка параметров пульса и DNS в отказоустойчивом кластере с несколькими сайтами](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd197562(v=ws.10)?redirectedfrom=MSDN).
+Для многосайтового кластера вы можете увеличить значения времени ожидания. Дополнительные сведения см. [в статье Настройка параметров пульса и DNS в отказоустойчивом кластере с несколькими сайтами](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd197562(v=ws.10)).
 
 Проверьте у ISP наличие проблем с подключением к глобальной сети.
 
@@ -239,7 +243,7 @@ Either address 192.168.0.2 is not reachable from 10.0.0.96 or **the ping latency
 
     ![Добавить счетчики](media/troubleshooting-cluster-event-id-1135/18652.png)
 
-    Если сетевой пакет потерян на платформе виртуализации VmWare, см. раздел "кластер, установленный на платформе виртуализации VmWare".
+    Если сетевой пакет потерян на платформе виртуализации VMware, см. раздел "кластер, установленный на платформе виртуализации VMware".
 
 2. Обновление драйверов сетевых адаптеров
 
@@ -247,7 +251,7 @@ Either address 192.168.0.2 is not reachable from 10.0.0.96 or **the ping latency
     Если между узлами на физических компьютерах потеряны сетевые пакеты, обновите драйвер сетевого адаптера. Устаревшие или устаревшие драйверы сетевой карты и/или встроенное по.
     Иногда непростая Настройка сетевой карты или коммутатора также может привести к потере пульса.
 
-##### <a name="cluster-installed-in-the-vmware-virtualization-platform"></a>Кластер, установленный на платформе виртуализации VmWare
+##### <a name="cluster-installed-in-the-vmware-virtualization-platform"></a>Кластер, установленный на платформе виртуализации VMware
 
 Проверьте проблемы с адаптером VMware в случае среды VMware.
 
@@ -256,7 +260,7 @@ Either address 192.168.0.2 is not reachable from 10.0.0.96 or **the ping latency
 Чтобы сократить число сбросов нагрузки, выполните следующие действия.
 
 1. Откройте окно Запуск с помощью клавиши Windows + R.
-2. Введите devmgmt. msc и нажмите клавишу **Ввод**.
+2. Введите `devmgmt.msc` и нажмите клавишу **Ввод**.
 3. Разверните узел **Сетевые адаптеры** .
 4. Щелкните правой кнопкой мыши **vmxnet3 и выберите пункт Свойства.**
 5. Перейдите на вкладку **Дополнительно**.
@@ -265,11 +269,11 @@ Either address 192.168.0.2 is not reachable from 10.0.0.96 or **the ping latency
 
 Проверьте следующие URL-адреса, чтобы проверить проблемы с адаптером VMware в случае среды VMware:
 
-- [Узлы, удаляемые из состава отказоустойчивого кластера в VMware ESX?](/archive/blogs/askcore/nodes-being-removed-from-failover-cluster-membership-on-vmware-esx).
+- [Узлы, удаляемые из состава отказоустойчивого кластера VMware ESX?](/archive/blogs/askcore/nodes-being-removed-from-failover-cluster-membership-on-vmware-esx).
 
 - [Большая потеря пакетов на уровне операционной системы на виртуальной машине в VMXNET3 vNIC в ESXi](https://kb.vmware.com/s/article/2039495)
 
-##### <a name="noticed-any-network-congestion"></a>Замечена любая перегрузка сети
+##### <a name="notice-any-network-congestion"></a>Обратите внимание на любые перегрузки сети.
 
 Перегрузка сети также может вызвать проблемы с сетевым подключением.
 
