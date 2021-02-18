@@ -8,20 +8,20 @@ ms.date: 07/24/2020
 ms.assetid: 8bd0d09a-0421-40a4-b752-40ecb5350ffd
 description: Общие сведения о Локальные дисковые пространства, компоненте Windows Server и Azure Stack ХЦИ, который позволяет выполнять кластерные серверы с внутренним хранилищем в аппаратно-определенном решении для хранения.
 ms.localizationpriority: medium
-ms.openlocfilehash: 6fe9e94b2a2b4e333cd4e363d72ddb211bc087e1
-ms.sourcegitcommit: da2508fb978f2686178a08a9b5a65d7ae208da36
+ms.openlocfilehash: 3b49657b002e40a51529b0cd027c81da7764d9e4
+ms.sourcegitcommit: f50253f0cbe2740d7b7c2cbb57af6c94da2828b9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "100334795"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "100647631"
 ---
 # <a name="storage-spaces-direct-overview"></a>Обзор локальных дисковых пространств
 
->Область применения: Azure Stack ХЦИ, Windows Server 2019, Windows Server 2016
+>Применяется к: Windows Server 2019, Windows Server 2016
 
 Локальные дисковые пространства используют стандартные серверы с локально подключенными дисками для создания программно-определяемого хранилища с высоким уровнем доступности и масштабируемости, причем стоимость такого хранилища значительно ниже стоимости традиционных массивов SAN или NAS. Ее конвергенция или архитектура с поддержкой технологии Hyper-in значительно упрощает закупку и развертывание, в то время как такие функции, как кэширование, уровни хранилища и очисткиное кодирование, а также новейшие нововведения оборудования, такие как сетевые подключения RDMA и накопители NVMe, обеспечивают непревзойденную эффективность и производительность.
 
-Локальные дисковые пространства входит в [Azure Stack хЦи](/azure-stack/hci/), windows Server 2019 Datacenter, windows Server 2016 Datacenter и [сборки Windows Server Insider](https://insider.windows.com/for-business-getting-started-server/)Preview.
+Локальные дисковые пространства входит в сборки Windows Server 2019 Datacenter, Windows Server 2016 Datacenter и [Windows Server Insider Preview](https://insider.windows.com/for-business-getting-started-server/). Он также предоставляет программный уровень хранилища для [Azure Stack хЦи](/azure-stack/hci/).
 
 Дополнительные сведения о других приложениях дисковых пространств, таких как общие кластеры SAS и изолированные серверы, см. в разделе [Обзор дисковых пространств](overview.md). Если вы ищете сведения об использовании дисковых пространств на компьютере с Windows 10, см. раздел [дисковые пространства в Windows 10](https://support.microsoft.com/help/12438/windows-10-storage-spaces).
 
@@ -31,7 +31,7 @@ ms.locfileid: "100334795"
 | **Развертывание**<br><ul><li>[Развертывание локальных дисковых пространств](deploy-storage-spaces-direct.md)</li><li>[Создание томов](create-volumes.md)</li><li>[Вложенная устойчивость](nested-resiliency.md)</li><li>[Настройка кворума](../../failover-clustering/manage-cluster-quorum.md)</li><li>[Обновление кластера Локальных дисковых пространств в Windows Server 2019](upgrade-storage-spaces-direct-to-windows-server-2019.md)</li><li>[Общие сведения о постоянной памяти и ее развертывании](deploy-pmem.md)</li> | **Управление**<br><ul><li>[Управление с помощью Windows Admin Center](../../manage/windows-admin-center/use/manage-hyper-converged.md)</li><li>[Добавление серверов или дисков](add-nodes.md)</li><li>[Перевод сервера в автономный режим для обслуживания](maintain-servers.md)</li><li>[Удаление серверов](remove-servers.md)</li><li>[Увеличение размеров томов](resize-volumes.md)</li><li>[Удаление томов](delete-volumes.md)</li><li>[Обновление встроенного ПО дисков](../update-firmware.md)</li><li>[Журнал производительности](performance-history.md)</li><li>[Разграничение выделения томов](delimit-volume-allocation.md)</li><li>[Использование Azure Monitor в кластере с поддержкой технологии Hyper-in](configure-azure-monitor.md)</li> |
 | **Устранение неполадок**<br><ul><li>[Сценарии устранения неполадок](troubleshooting-storage-spaces.md)</li><li>[Устранение неполадок работоспособности и рабочих состояний](storage-spaces-states.md)</li><li>[Сбор диагностических данных с помощью Локальные дисковые пространства](data-collection.md)</li><li>[Управление работоспособностью памяти класса хранилища](Storage-class-memory-health.md)</li> | **Последние записи в блоге**<br><ul><li>[13 700 000 операций ввода-вывода с Локальные дисковые пространства: Новая запись отрасли для инфраструктуры с технологией Hyper-in](https://techcommunity.microsoft.com/t5/storage-at-microsoft/the-new-hci-industry-record-13-7-million-iops-with-windows/ba-p/428314)</li><li>[Инфраструктура с технологией Hyper-in в Windows Server 2019 — отсчет времени отсчета начинается прямо сейчас!](https://techcommunity.microsoft.com/t5/storage-at-microsoft/bg-p/FileCAB)</li><li>[Пять извещений от конференции Windows Server](https://techcommunity.microsoft.com/t5/storage-at-microsoft/bg-p/FileCAB)</li><li>[10 000 Локальные дисковые пространства кластеры и подсчет...](https://techcommunity.microsoft.com/t5/storage-at-microsoft/storage-spaces-direct-10-000-clusters-and-counting/ba-p/428185)</li></ul> |
 
-## <a name="videos"></a>Видео
+## <a name="videos"></a>Видеоролики
 
 **Краткий обзор видео (5 минут)**
 
@@ -119,7 +119,7 @@ ms.locfileid: "100334795"
 
 Для управления и (или) мониторинга Локальные дисковые пространства можно использовать следующие средства.
 
-| name | Графический или Командная строка? | Оплачивается или включается? |
+| Имя | Графический или Командная строка? | Оплачивается или включается? |
 |-----------------|----------------------------|-------------------|
 | [Windows Admin Center](../../manage/windows-admin-center/overview.md);     | Графический    | Включено |
 | Диспетчер сервера & диспетчер отказоустойчивости кластеров                                 | Графический    | Включено |
