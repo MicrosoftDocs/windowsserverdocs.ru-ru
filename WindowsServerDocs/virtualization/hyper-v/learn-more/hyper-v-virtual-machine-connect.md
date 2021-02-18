@@ -6,28 +6,29 @@ ms.assetid: deae35b9-7647-42b8-b6bf-45645a44c9c4
 ms.author: benarm
 author: BenjaminArmstrong
 ms.date: 10/04/2016
-ms.openlocfilehash: 80e87fcfa38f441491985ba7bb58b25c7e4cc165
-ms.sourcegitcommit: dd1fbb5d7e71ba8cd1b5bfaf38e3123bca115572
+ms.openlocfilehash: e177ee34f2da150f4fe0a63b49f98bcfd334f4eb
+ms.sourcegitcommit: da2508fb978f2686178a08a9b5a65d7ae208da36
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "90745969"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "100334759"
 ---
 # <a name="hyper-v-virtual-machine-connection"></a>Подключение к виртуальной машине Hyper-V
 
->Область применения. Windows Server 2016, Windows 10 Windows Server 8.1, Windows Server 2012 R2, Windows Server 2012, Windows 8
+> **Относится к** Windows Server 2019, Windows Server 2016, Windows 10, Windows 8.1, Windows Server 2012 R2, Windows Server 2012, Windows 8
 
-Средство подключения к виртуальной машине \(VMConnect\) позволяет подключаться к виртуальной машине для установки операционной системы и взаимодействия с ней. Некоторые задачи, которые можно выполнять при помощи подключения к VMConnect, перечислены ниже:
+Средство подключения к виртуальной машине \(VMConnect\) позволяет подключаться к виртуальной машине для установки операционной системы и взаимодействия с ней. Некоторые задачи, которые можно выполнять при помощи VMConnect, перечислены ниже:
 
--   Запуск и завершение работы виртуальной машины.
+- Запуск и завершение работы виртуальной машины.
 
--   Подключение к \(ISO-файлу\) DVD-образа или USB-устройству флэш-памяти.
+- Подключение к \(ISO-файлу\) DVD-образа или USB-устройству флэш-памяти.
 
--   Создание контрольной точки
+- Создание контрольной точки
 
--   Изменение параметров виртуальной машины
+- Изменение параметров виртуальной машины
 
 ## <a name="tips-for-using-vmconnect"></a>Советы по использованию средства VMConnect
+
 Ознакомьтесь с указанными ниже сведениями об использовании VMConnect:
 
 |Для этого…|Сделайте это…|
@@ -47,6 +48,7 @@ ms.locfileid: "90745969"
 
 
 ## <a name="keyboard-shortcuts"></a>Сочетания клавиш
+
 По умолчанию ввод с клавиатуры и щелчки мыши отправляются на виртуальную машину. Поэтому может потребоваться нажать клавиши CTRL + ALT + СТРЕЛКА ВЛЕВО, прежде чем использовать следующие сочетания клавиш.
 
 |Сочетание клавиш|Описание|
@@ -61,6 +63,7 @@ ms.locfileid: "90745969"
 |CTRL\+C|Сделайте снимок экрана|
 
 ## <a name="see-also"></a>См. также
--   [Use local resources on Hyper-V virtual machine with VMConnect](Use-local-resources-on-Hyper-V-virtual-machine-with-VMConnect.md) (Использование локальных ресурсов на виртуальной машине с VMConnect)
--   [Hyper-V в Windows Server 2016](../Hyper-V-on-Windows-Server.md)
--   [Hyper-V в Windows 10](/virtualization/hyper-v-on-windows/)
+
+- [Use local resources on Hyper-V virtual machine with VMConnect](Use-local-resources-on-Hyper-V-virtual-machine-with-VMConnect.md) (Использование локальных ресурсов на виртуальной машине с VMConnect)
+- [Hyper-V в Windows Server 2016](../Hyper-V-on-Windows-Server.md)
+- [Hyper-V в Windows 10](/virtualization/hyper-v-on-windows/)

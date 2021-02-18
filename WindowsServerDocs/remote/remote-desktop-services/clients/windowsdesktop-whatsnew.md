@@ -5,14 +5,14 @@ ms.topic: article
 author: heidilohr
 manager: lizross
 ms.author: helohr
-ms.date: 02/02/2021
+ms.date: 02/09/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: da7bd7fb7adc0e99df448b2c2cc3cc46384ad527
-ms.sourcegitcommit: 5543f795a83e7ca74227d850eba877723d720cf3
+ms.openlocfilehash: 6fab0d26f0366710bcb68864d8030b649c00d039
+ms.sourcegitcommit: 02ce0e219d6c183b07be748e4f2c5fe2b07353d8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "99490681"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "100006503"
 ---
 # <a name="whats-new-in-the-windows-desktop-client"></a>Что нового в клиенте для Windows Desktop
 
@@ -25,7 +25,17 @@ ms.locfileid: "99490681"
 |Группа пользователей |Последняя версия  |Минимальная поддерживаемая версия |
 |-----------|----------------|--------------------------|
 |Общие     |1.2.1672        |1.2.945                   |
-|Предварительная оценка    |1.2.1672        |1.2.945                   |
+|Предварительная оценка    |1.2.1750        |1.2.945                   |
+
+## <a name="updates-for-version-121750-insider"></a>Обновления для версии 1.2.1750 (в рамках программы предварительной оценки)
+
+*Дата публикации: 09.02.2021*
+
+Скачать: [Windows (64-разрядная версия)](https://go.microsoft.com/fwlink/?linkid=2139233), [Windows (32-разрядная версия)](https://go.microsoft.com/fwlink/?linkid=2139144), [Windows (ARM64)](https://go.microsoft.com/fwlink/?linkid=2139368)
+
+- Добавлена точка доступа монитора взаимодействия в меню значка на панели задач.
+- Исправлена проблема, из-за которой при вводе адреса электронной почты на вкладке Subscribe to a Workplace (Подписка на рабочее место) приложение переставало отвечать.
+- Исправлена проблема, из-за которой клиент иногда не отправлял события EventHub и Diagnostics.
 
 ## <a name="updates-for-version-121672"></a>Обновления для версии 1.2.1672
 
