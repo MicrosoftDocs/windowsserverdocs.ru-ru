@@ -7,12 +7,12 @@ manager: lizross
 ms.author: helohr
 ms.date: 01/27/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: 6fd6a464b1f816fbaf93c7c4efed805305ef7aa8
-ms.sourcegitcommit: ebe97af985429ec5cdb86eba75820bc180552811
+ms.openlocfilehash: 520377b4d9acd540ac773a081c95d00af6b5515f
+ms.sourcegitcommit: af9381b62f8ae6c78383ed6b81c37f843b5ad7e4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "98925928"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "100549342"
 ---
 # <a name="whats-new-in-the-macos-client"></a>Что нового в клиенте macOS?
 
@@ -22,7 +22,7 @@ ms.locfileid: "98925928"
 
 ## <a name="updates-for-version-1051"></a>Обновления для версии 10.5.1
 
-*Дата публикации: 29.01.2020*
+*Дата публикации: 29.01.2021*
 
 Пришло время выхода нашего первого выпуска за текущий год! В этой версии были внесены следующие изменения:
 

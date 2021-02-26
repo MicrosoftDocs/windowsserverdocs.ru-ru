@@ -6,12 +6,12 @@ ms.date: 08/27/2019
 ms.topic: article
 author: Heidilohr
 ms.localizationpriority: medium
-ms.openlocfilehash: 7307a4daa3f620f4b7dfc5d0103f0e75715fc1d8
-ms.sourcegitcommit: e57536e28902ae52d3040141bbd2aa00e91bbdd3
+ms.openlocfilehash: 33cdbbc2b82f067d3b8d3a4ee88ebfd46ab5de7f
+ms.sourcegitcommit: af9381b62f8ae6c78383ed6b81c37f843b5ad7e4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97644684"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "100549350"
 ---
 # <a name="get-started-with-the-web-client"></a>Приступая к работе с веб-клиентом
 
@@ -78,4 +78,4 @@ ms.locfileid: "97644684"
 
 ## <a name="get-help-with-the-web-client"></a>Помощь в работе с веб-клиентом
 
-Если возникла проблема, которую не удается устранить при помощи сведений в этой статье, помощь по работе с веб-клиентом можно получить по электронной почте, написав по адресу на странице "О программе" веб-клиента.
+Если у вас возникла проблема, которую не удается устранить, используя сведения из этой статьи, вы можете получить помощь по работе с веб-клиентом, написав на адрес, указанный на странице отзывов веб-клиента.
