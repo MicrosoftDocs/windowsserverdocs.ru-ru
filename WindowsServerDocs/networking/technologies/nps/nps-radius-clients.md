@@ -4,15 +4,15 @@ description: В этом разделе приводятся общие свед
 manager: brianlic
 ms.topic: article
 ms.assetid: d3a09ac9-75f8-4f57-aab4-b0fdfe110118
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 2f664ad42781846ea44cb6b382b0078cbf403a4f
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 78c15a97b24bc2c1b2eaaea9630e2ba9a97f770e
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97947460"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101833021"
 ---
 # <a name="radius-clients"></a>RADIUS-клиенты
 

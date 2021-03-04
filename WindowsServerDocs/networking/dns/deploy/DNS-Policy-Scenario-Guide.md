@@ -4,15 +4,15 @@ description: Узнайте, как использовать политику DN
 manager: brianlic
 ms.topic: article
 ms.assetid: 50fdb08a-bbd8-4107-954a-6699672110ff
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 01/05/2021
-ms.openlocfilehash: ac146ca0381185e091d96577fe61c0f6cbb226d4
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 56da8b78e65e53e439b513fd258d07f28451ca10
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97949470"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101831165"
 ---
 # <a name="dns-policy-scenario-guide"></a>Руководство по сценарию политики DNS
 

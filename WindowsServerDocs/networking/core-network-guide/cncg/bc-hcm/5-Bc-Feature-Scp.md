@@ -4,15 +4,15 @@ description: Узнайте, как установить функцию BranchCa
 manager: brianlic
 ms.topic: article
 ms.assetid: 9adf420b-5a58-4e59-9906-71bd58f757fd
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: bfee053492e9c28869ec39cc75bdd8d0c376c256
-ms.sourcegitcommit: 605a9b46b74b2c7a9116e631e902467ea02a6e70
+ms.openlocfilehash: c1980aa7f5fea01a9e0ca9ac2bdf4bde501a5795
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97965566"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101832043"
 ---
 # <a name="install-the-branchcache-feature-and-configure-the-hosted-cache-server-by-service-connection-point"></a>Установка компонента BranchCache и настройка сервера размещенного кэша с использованием точки подключения службы
 

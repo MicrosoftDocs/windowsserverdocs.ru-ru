@@ -3,16 +3,16 @@ title: Обзор защитника Windows для Windows Server
 description: Узнайте о антивирусной программе защитника Windows и о том, как она обеспечивает защиту от вредоносных программ, которая немедленно и активно защищает Windows Server 2016 от известных вредоносных программ
 ms.topic: article
 ms.assetid: 751efb33-a08e-4e90-9208-6f2bc319e029
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/12/2016
-ms.openlocfilehash: 8ac75cfa4faf2321931b89e5ffb7d0b1325e55c1
-ms.sourcegitcommit: decb6c8caf4851b13af271d926c650d010a6b9e9
+ms.openlocfilehash: c45e512acb14cb7c19bda8dc7d0d8ca251e68867
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "98177523"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101833031"
 ---
 # <a name="windows-defender-antivirus-for-windows-server"></a>Антивирусная программа "Защитник Windows" для Windows Server
 

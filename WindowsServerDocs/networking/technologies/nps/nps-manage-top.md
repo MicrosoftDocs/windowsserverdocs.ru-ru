@@ -4,15 +4,15 @@ description: Этот раздел содержит ссылки на проце
 manager: brianlic
 ms.topic: article
 ms.assetid: a275b02c-62b3-4b8a-8417-a710f24bebfe
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 979753762cb7cc2938d24d1b7f8bbac9ae104537
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 240ec7b65edc653c609d0114a759a43ed6c501b8
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97948640"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101833281"
 ---
 # <a name="manage-network-policy-server-nps"></a>Управление сервером политики сети (NPS)
 

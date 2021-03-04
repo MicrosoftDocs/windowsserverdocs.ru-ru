@@ -4,15 +4,15 @@ description: Узнайте, как установить службы Active Dir
 manager: brianlic
 ms.topic: article
 ms.assetid: 4acdc3ad-078e-45cc-b54c-e9456e0c90f5
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 1e5c093a0c465f1f29cc8fd4606928515ae24091
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: f7c9a18087ff414f0b0093280a6c221d43009ed2
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98038554"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101832479"
 ---
 # <a name="install-the-certification-authority"></a>Установка центра сертификации
 

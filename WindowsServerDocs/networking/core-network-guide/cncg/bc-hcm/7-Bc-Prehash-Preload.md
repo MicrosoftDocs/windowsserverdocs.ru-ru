@@ -4,15 +4,15 @@ description: Узнайте, как выполнить предваритель�
 manager: brianlic
 ms.topic: article
 ms.assetid: 7e79c66a-8555-4d8e-8691-d6c37377aab4
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 912b5066b5dc0b3cac9fb40c01f0904e6c63477e
-ms.sourcegitcommit: 605a9b46b74b2c7a9116e631e902467ea02a6e70
+ms.openlocfilehash: e43d32fa64fb09f0973c524bef39b695c6c08001
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97965546"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101832033"
 ---
 # <a name="prehash-and-preload-content-on-the-hosted-cache-server-optional"></a>Предварительное хэширование и загрузка содержимого на сервере размещенного кэша \( необязательно\)
 

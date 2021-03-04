@@ -4,15 +4,15 @@ description: Узнайте, как настроить политику DNS, ч�
 manager: brianlic
 ms.topic: article
 ms.assetid: ef9828f8-c0ad-431d-ae52-e2065532e68f
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 01/05/2021
-ms.openlocfilehash: b9acf220668843d648d0b8f5daeae54cb50829d5
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 67b87d1246c738fdbfea1bd7a0afe93b3204e3a9
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97948870"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101831125"
 ---
 # <a name="use-dns-policy-for-geo-location-based-traffic-management-with-primary-servers"></a>Управление трафиком на основе географического расположения на основных серверах с помощью политики DNS
 

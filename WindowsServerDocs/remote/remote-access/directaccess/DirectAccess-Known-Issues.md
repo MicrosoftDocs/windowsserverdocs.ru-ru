@@ -4,15 +4,15 @@ description: В этом разделе содержится ссылка на �
 manager: brianlic
 ms.topic: article
 ms.assetid: 3511a91f-1d5d-45a0-97f2-3fc0d6f079b4
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 117e598542ff0140c1cacc533e26d85174f0fcc6
-ms.sourcegitcommit: eb995fa887ffe1408b9f67caf743c66107173666
+ms.openlocfilehash: 27df40396e497c409f67be487e5ceb52c335fb00
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "98666573"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101833467"
 ---
 # <a name="directaccess-known-issues"></a>DirectAccess известные проблемы
 

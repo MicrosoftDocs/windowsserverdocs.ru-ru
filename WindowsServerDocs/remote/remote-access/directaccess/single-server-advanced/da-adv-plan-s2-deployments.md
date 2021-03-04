@@ -4,15 +4,15 @@ description: Узнайте, как спланировать параметры 
 manager: brianlic
 ms.topic: article
 ms.assetid: 3bba28d4-23e2-449f-8319-7d2190f68d56
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: c7215b1916816aa02f6767e45973fff6dd05c973
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: a88e4b4a8126bcb1764b302a498d5171c6bfa2af
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97944720"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101831619"
 ---
 # <a name="step-2-plan-advanced-directaccess-deployments"></a>Шаг 2. Планирование расширенных развертываний DirectAccess
 

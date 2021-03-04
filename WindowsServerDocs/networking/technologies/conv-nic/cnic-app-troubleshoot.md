@@ -4,15 +4,15 @@ description: Этот раздел является частью этого ра
 ms.topic: article
 ms.assetid: 0bc6746f-2adb-43d8-a503-52f473833164
 manager: brianlic
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 12/18/2020
-ms.openlocfilehash: 524d73c759230b375d50cb6645e9c336684a18ea
-ms.sourcegitcommit: 84b97d34d606b6bf4b6ec8760a93107f1b311428
+ms.openlocfilehash: 75bd136e109eae71ddc67ef35ebbf34696f00e6c
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "99245395"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101833407"
 ---
 # <a name="troubleshooting-converged-nic-configurations"></a>Устранение неполадок конфигураций Объединенных сетевых адаптеров
 
@@ -161,7 +161,7 @@ Get-SmbClientNetworkInterface
 
 ![Примеры результатов системного монитора](../../media/Converged-NIC/CNIC-Troubleshooting/cnic-tshoot-08.jpg)
 
-## <a name="related-topics"></a>Связанные темы
+## <a name="related-topics"></a>Связанные разделы
 
 - [Конфигурация с согласованным СЕТЕВЫМ адаптером с одним сетевым адаптером](cnic-single.md)
 - [Конфигурация сетевого адаптера Объединенных сетевых адаптеров](cnic-datacenter.md)

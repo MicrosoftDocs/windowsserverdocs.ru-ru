@@ -4,15 +4,15 @@ description: Узнайте, как использовать политику DN
 manager: brianlic
 ms.topic: article
 ms.assetid: 161446ff-a072-4cc4-b339-00a04857ff3a
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 01/05/2021
-ms.openlocfilehash: 2b524e828ee9536e2066b0770b5cec93ed66a07f
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: b92c60db0cd102f383c6e8487267858ec5febf6a
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97948880"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101832439"
 ---
 # <a name="use-dns-policy-for-intelligent-dns-responses-based-on-the-time-of-day"></a>Получение интеллектуальных ответов DNS на основе времени дня с помощью политики DNS
 

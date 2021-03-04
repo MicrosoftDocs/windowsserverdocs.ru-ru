@@ -3,16 +3,16 @@ title: Сценарии входа в систему Windows
 description: Узнайте о стандартных сценариях входа в Windows и входе в систему.
 ms.topic: article
 ms.assetid: 66b7c568-67b7-4ac9-a479-a5a3b8a66142
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/12/2016
-ms.openlocfilehash: 34d1d70c88395e109a45a1f4a57d2fafb09c07ce
-ms.sourcegitcommit: decb6c8caf4851b13af271d926c650d010a6b9e9
+ms.openlocfilehash: b23ce5833ac79bc83e7db254374507c58749fb33
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "98177553"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101833071"
 ---
 # <a name="windows-logon-scenarios"></a>Сценарии входа в систему Windows
 

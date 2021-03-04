@@ -4,15 +4,15 @@ description: Узнайте, как настроить точку распрос
 manager: dougkim
 ms.topic: article
 ms.assetid: f77a3989-9f92-41ef-92a8-031651dd73a8
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 07/26/2018
-ms.openlocfilehash: 5e8ac26965bdeae2f46551478561be339bfb0bfc
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: bd052647e108f2167cd003bbbf6b23bafa30018a
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98038744"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101831913"
 ---
 # <a name="configure-the-cdp-and-aia-extensions-on-ca1"></a>Настройка расширений CDP и AIA в CA1
 

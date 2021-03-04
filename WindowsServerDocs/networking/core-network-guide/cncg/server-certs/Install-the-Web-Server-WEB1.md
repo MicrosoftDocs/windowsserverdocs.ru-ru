@@ -4,15 +4,15 @@ description: Узнайте, как установить роль сервера
 manager: brianlic
 ms.topic: article
 ms.assetid: f51c9e38-98bb-49c1-9d39-427d07021499
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 12e7aef5399609c554b11d5564fd93478babbfb5
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: 7591081ed554bf7c9301d793831cbf7e018823cc
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98038584"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101832449"
 ---
 # <a name="install-the-web-server-web1"></a>Установка веб-сервера WEB1
 

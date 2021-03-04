@@ -4,15 +4,15 @@ description: С помощью этого раздела можно настро
 manager: brianlic
 ms.topic: article
 ms.assetid: 70569958-d7a7-474e-a817-6b7b5134784a
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 94a8e67056dff497f1adc18d898a6c87f4ab665c
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 9d4177708f233c6ad00722927f26b7c730d023e2
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97947440"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101831403"
 ---
 # <a name="configure-nps-udp-port-information"></a>Настройка сведений о портах UDP сервера политики сети
 

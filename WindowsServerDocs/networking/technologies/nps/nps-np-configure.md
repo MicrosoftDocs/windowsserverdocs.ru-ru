@@ -4,15 +4,15 @@ description: В этом разделе приводятся общие свед
 manager: brianlic
 ms.topic: article
 ms.assetid: fe77655a-e2be-4949-92e1-aaaa215d86ea
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 3b14d290a1bf80b0f72abb2b2043be2e5e53516a
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: bb6b008873c9f2a1e50c59894aaa4c0e7ad16713
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97946690"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101831903"
 ---
 # <a name="configure-network-policies"></a>Настройка политик сети
 

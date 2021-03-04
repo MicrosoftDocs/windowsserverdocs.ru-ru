@@ -4,15 +4,15 @@ description: В этом разделе содержатся сведения о
 manager: brianlic
 ms.topic: article
 ms.assetid: 2900dd2c-0f70-4f8d-9650-ed83d51d509a
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 3c843f4fd5bb7ed88b316fb756534b23af8007c8
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 4e7253094bcffdf12aae9d3de6df737097d3bafb
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97946670"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101832083"
 ---
 # <a name="plan-nps-as-a-radius-server"></a>Планирование сервера политики сети в качестве RADIUS-сервера
 

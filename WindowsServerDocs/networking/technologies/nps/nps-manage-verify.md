@@ -4,15 +4,15 @@ description: С помощью этого раздела можно провер
 manager: brianlic
 ms.topic: article
 ms.assetid: fc77450e-2af1-47ba-bb23-1fd36d9efdbf
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 1bf956a38a15581f1aa2fd257778eccd5e1cf087
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: c23b59288c81817c28afddd8b6a8ddf21d28b957
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97949880"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101833261"
 ---
 # <a name="verify-configuration-after-nps-changes"></a>Проверка конфигурации после изменений NPS
 
@@ -52,7 +52,7 @@ ms.locfileid: "97949880"
 
     а. Дважды щелкните **NPS (локальный)**, дважды щелкните RADIUS- **Клиенты и серверы**, щелкните **RADIUS-клиенты**, а затем в области сведений дважды щелкните RADIUS-клиент, который требуется изменить.
 
-    б. В **свойствах** клиента RADIUS в поле **адрес \( IP или \) DNS** введите новый IP-адрес прокси NPS.
+    b. В **свойствах** клиента RADIUS в поле **адрес \( IP или \) DNS** введите новый IP-адрес прокси NPS.
 
 4. Если вы настроили прокси-сервер NPS для использования ведения журнала SQL Server, убедитесь, что подключение между компьютером, на котором работает SQL Server, и прокси-сервером NPS все еще работает правильно.
 
@@ -74,7 +74,7 @@ ms.locfileid: "97949880"
 
     а. Откройте командную строку или Windows PowerShell.
 
-    б. Введите **gpupdate** и нажмите клавишу ВВОД.
+    b. Введите **gpupdate** и нажмите клавишу ВВОД.
 
 
 3. Получив новый сертификат сервера, запросите его, чтобы администратор ЦС отозвал старый сертификат.

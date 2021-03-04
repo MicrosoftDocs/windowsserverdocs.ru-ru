@@ -4,15 +4,15 @@ description: Узнайте, как импортировать пакеты да
 manager: brianlic
 ms.topic: article
 ms.assetid: d6159e91-f77c-42ec-9180-14bbb230ad17
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 1c0626181ebdca7d6e78bb429a8d127089ad4446
-ms.sourcegitcommit: 605a9b46b74b2c7a9116e631e902467ea02a6e70
+ms.openlocfilehash: 08b47c2ec0fdd8e71ad6c415f4ec62ec2124a99b
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97965119"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101831215"
 ---
 # <a name="import-data-packages-on-the-hosted-cache-server-optional"></a>Импорт пакетов данных на сервере размещенного кэша \( необязательно\)
 

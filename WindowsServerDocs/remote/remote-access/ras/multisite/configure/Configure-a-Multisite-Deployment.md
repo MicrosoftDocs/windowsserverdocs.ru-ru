@@ -4,15 +4,15 @@ description: Сведения о действиях по настройке, н�
 manager: brianlic
 ms.topic: article
 ms.assetid: cb84920e-7cf5-4266-b071-d09e3d5e1f10
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 20a475b7dd48a20f216173ee5a6b4e07dad6d3c3
-ms.sourcegitcommit: 7674bbe49517bbfe0e2c00160e08240b60329fd9
+ms.openlocfilehash: 46f868ba400da6a04ebb2e1d7a5c9a809feeae95
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98603379"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101832851"
 ---
 # <a name="configure-a-multisite-deployment"></a>Настройка многосайтового развертывания
 

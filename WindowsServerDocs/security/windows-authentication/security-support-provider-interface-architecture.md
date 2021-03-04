@@ -3,16 +3,16 @@ title: Архитектура интерфейса поставщика подд
 description: Сведения о протоколах проверки подлинности Windows, которые используются в архитектуре интерфейса поставщика поддержки безопасности (SSPI).
 ms.topic: article
 ms.assetid: de09e099-5711-48f8-adbd-e7b8093a0336
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/12/2016
-ms.openlocfilehash: 9fec62a409db079a3ef6861111b61ba89e190062
-ms.sourcegitcommit: decb6c8caf4851b13af271d926c650d010a6b9e9
+ms.openlocfilehash: 9c6ecc65daa66455bcae02f8ebaeb1a16f35b64c
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "98177325"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101833141"
 ---
 # <a name="security-support-provider-interface-architecture"></a>Архитектура интерфейса поставщика поддержки безопасности
 

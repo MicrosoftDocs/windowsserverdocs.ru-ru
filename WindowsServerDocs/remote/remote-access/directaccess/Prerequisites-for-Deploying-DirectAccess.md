@@ -4,15 +4,15 @@ description: В этом разделе приводятся предварит�
 manager: brianlic
 ms.topic: article
 ms.assetid: 57c7e039-42ef-4909-867a-b5f669c9e74e
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 35dd601a1ca961d39352ca226142cc58c550273e
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 4ebba6052fc42429c15e4509df9fa36b9c3d88f8
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97948270"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101832991"
 ---
 # <a name="prerequisites-for-deploying-directaccess"></a>Предварительные требования для развертывания DirectAccess
 

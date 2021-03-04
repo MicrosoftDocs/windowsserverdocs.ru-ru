@@ -4,15 +4,15 @@ description: Ознакомьтесь с подробными сведениям
 manager: brianlic
 ms.topic: article
 ms.assetid: c635fa48-d064-4b8b-9dce-9f26abfbcfa4
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 9a0d148316e65e266f5e6c5f5dd16f4b49e37845
-ms.sourcegitcommit: 605a9b46b74b2c7a9116e631e902467ea02a6e70
+ms.openlocfilehash: b2c11cd6c900c10608026be0f84e183351640afc
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97965576"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101831833"
 ---
 # <a name="branchcache-hosted-cache-mode-deployment"></a>Развертывание режима размещенного кэша BranchCache
 

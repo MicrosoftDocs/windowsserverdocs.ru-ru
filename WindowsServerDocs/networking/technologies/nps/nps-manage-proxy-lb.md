@@ -4,15 +4,15 @@ description: Узнайте о балансировке нагрузки про�
 ms.topic: article
 ms.assetid: 528280e6-b47e-489f-b310-b257d434aa0d
 manager: brianlic
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 8788bf67b9688f9938b509eb9683c71ee2030208
-ms.sourcegitcommit: decb6c8caf4851b13af271d926c650d010a6b9e9
+ms.openlocfilehash: 9359c632cfb6b9c4a06c6b6d566e828b778e8f2c
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "98177493"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101833331"
 ---
 # <a name="nps-proxy-server-load-balancing"></a>Балансировка нагрузки прокси-сервера NPS
 

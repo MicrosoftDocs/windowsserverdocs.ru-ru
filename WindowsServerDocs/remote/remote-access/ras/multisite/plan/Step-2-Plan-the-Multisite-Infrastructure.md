@@ -4,15 +4,15 @@ description: Узнайте, как выполнить планирование 
 manager: brianlic
 ms.topic: article
 ms.assetid: 64c10107-cb03-41f3-92c6-ac249966f574
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 460cf6c921e50ae0026f742fa92ed252f9eb773b
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: c3f95d114b619becadd0bb3c9da1895f0175aca8
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97941710"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101831695"
 ---
 # <a name="step-2-plan-the-multisite-infrastructure"></a>Шаг 2. Планирование многосайтовой инфраструктуры
 

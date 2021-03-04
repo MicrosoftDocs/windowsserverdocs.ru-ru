@@ -4,15 +4,15 @@ description: В этом разделе представлен обзор ком
 manager: dougkim
 ms.topic: article
 ms.assetid: 244a4b48-06e5-4796-8750-a50e4f88ac72
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 09/13/2018
-ms.openlocfilehash: 2edcd046958854698fbcc61d96f2716a26de3367
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.openlocfilehash: 2333854f3723a06385d6c350b6bef541ca0846d1
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96866273"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101833417"
 ---
 # <a name="network-load-balancing"></a>Network Load Balancing
 

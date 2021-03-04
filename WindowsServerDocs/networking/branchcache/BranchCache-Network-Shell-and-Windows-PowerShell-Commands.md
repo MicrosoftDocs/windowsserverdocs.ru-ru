@@ -4,15 +4,15 @@ description: В этом разделе приводятся ссылки на �
 manager: brianlic
 ms.topic: article
 ms.assetid: a0726752-0a78-472b-9667-2f91636c1b3b
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 12/08/2020
-ms.openlocfilehash: a5350f6e650320b37a0b7e13d3a7980ec11e1206
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 748bca8ee9282a68b2fb16443bcee8ec3fa9801a
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97949220"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101831282"
 ---
 # <a name="branchcache-network-shell-and-windows-powershell-commands"></a>Команды BranchCache Network Shell и Windows PowerShell
 

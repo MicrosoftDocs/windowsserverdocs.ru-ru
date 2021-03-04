@@ -4,15 +4,15 @@ description: Сведения о сценарии DirectAccess, в которо�
 manager: brianlic
 ms.topic: article
 ms.assetid: eb0cf464-0668-40f8-8222-feb6bae6d3d5
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: e947f0a4a6c738937a315face5be97f0c509029a
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 8bbabc66be8a336968acf7a5bf2185b42aa64e37
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97944660"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101831599"
 ---
 # <a name="deploy-a-single-directaccess-server-using-the-getting-started-wizard"></a>Развертывание одного сервера DirectAccess с помощью мастера начальной настройки
 

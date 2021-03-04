@@ -3,16 +3,16 @@ title: Kerberos Constrained Delegation Overview
 description: Узнайте о новых возможностях ограниченного делегирования Kerberos в Windows Server 2012 R2 и Windows Server 2012.
 ms.topic: article
 ms.assetid: 51923b0a-0c1a-47b2-93a0-d36f8e295589
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/12/2016
-ms.openlocfilehash: 20918e31553d7a7802ed466d2663fb42ae99ca3a
-ms.sourcegitcommit: d42b80f947dbfa8660d982be67d77745a28081e5
+ms.openlocfilehash: 98d2906124ead2bc3ad0e278f958cbda1cb68349
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "98113160"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101833221"
 ---
 # <a name="kerberos-constrained-delegation-overview"></a>Kerberos Constrained Delegation Overview
 

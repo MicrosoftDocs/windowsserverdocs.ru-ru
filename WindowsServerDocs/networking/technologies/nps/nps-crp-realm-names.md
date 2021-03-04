@@ -4,15 +4,15 @@ description: В этом разделе приводятся общие свед
 manager: brianlic
 ms.topic: article
 ms.assetid: d011eaad-f72a-4a83-8099-8589c4ee8994
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 0ddd8ab58bcb78a7bf679b4f97b0fff116eabfae
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 93204815c89148f9e35a794de060457d8eed9a33
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97943190"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101831423"
 ---
 # <a name="realm-names"></a>Имена сфер
 

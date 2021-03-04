@@ -4,15 +4,15 @@ description: Узнайте, как создать политику доступ
 manager: brianlic
 ms.topic: article
 ms.assetid: 854bd064-2f86-4678-a940-a04b3e48ae10
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 3fd8490321070dc73658bd6c6cad08f09bb9025c
-ms.sourcegitcommit: 84b97d34d606b6bf4b6ec8760a93107f1b311428
+ms.openlocfilehash: fd2bee17c9b45871b32f797b621d77eaa77ac979
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "99245491"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101832121"
 ---
 # <a name="create-an-access-policy"></a>Создание политики доступа
 

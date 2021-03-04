@@ -4,15 +4,15 @@ description: В этом разделе приводится обзор DNS в W
 manager: brianlic
 ms.topic: article
 ms.assetid: 1324ba18-4e28-4b9d-bbe7-75707e6d30ab
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 1169a86b3f3d0a5d4b8846339215da9fd020ea78
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: b6bbef2d388f9c7de1f74fe5afb8dfb489da2836
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97948410"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101832900"
 ---
 # <a name="domain-name-system-dns"></a>Служба доменных имен (DNS)
 

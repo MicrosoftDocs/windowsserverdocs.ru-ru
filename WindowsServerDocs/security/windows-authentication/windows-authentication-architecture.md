@@ -3,16 +3,16 @@ title: Архитектура проверки подлинности Windows
 description: Сведения о базовой архитектурной схеме для проверки подлинности Windows.
 ms.topic: article
 ms.assetid: 07c9d6bb-9b03-407d-89b6-97c7551b256b
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/12/2016
-ms.openlocfilehash: 3120ee3cb49d9eeb53f37c604de169dd923f8be3
-ms.sourcegitcommit: decb6c8caf4851b13af271d926c650d010a6b9e9
+ms.openlocfilehash: 45b29ae4e5fa7db0b11ae0d2ce48dfe099a2321f
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "98177583"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101833081"
 ---
 # <a name="windows-authentication-architecture"></a>Архитектура проверки подлинности Windows
 

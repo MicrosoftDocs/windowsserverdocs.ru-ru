@@ -4,15 +4,15 @@ description: В этом разделе приводятся инструкци�
 manager: brianlic
 ms.topic: article
 ms.assetid: 989b00c5-4767-4081-ace5-6321f8b2c55e
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 9e86c545fb467e7e6e381f0be5e0d12e43ce775c
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: abf0022bc06193cdd5a7f5d126eda87f5f4fa950
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97949350"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101833301"
 ---
 # <a name="manage-nps-templates"></a>Управление шаблонами сервера политики сети
 

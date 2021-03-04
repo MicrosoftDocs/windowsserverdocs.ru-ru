@@ -3,16 +3,16 @@ title: Процедуры с учетными данными в проверке
 description: Узнайте, как проверка подлинности Windows обрабатывает учетные данные.
 ms.topic: article
 ms.assetid: 48c60816-fb8b-447c-9c8e-800c2e05b14f
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/12/2016
-ms.openlocfilehash: 397294b9dba9535b098dde715e8eef75ae50cad5
-ms.sourcegitcommit: decb6c8caf4851b13af271d926c650d010a6b9e9
+ms.openlocfilehash: ab036a1d726763a0feb1b45a8b051c24040845ab
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "98177603"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101833201"
 ---
 # <a name="credentials-processes-in-windows-authentication"></a>Процедуры с учетными данными в проверке подлинности Windows
 

@@ -4,15 +4,15 @@ description: Узнайте, как развертывать сертифика�
 manager: brianlic
 ms.topic: article
 ms.assetid: 0a39ecae-39cc-4f26-bd6f-b71ed02fc4ad
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: b33f0a6aacb5b956691787816c362e845491a6cc
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: eff9b2452646c33438a786722a98578fccd31e5e
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98038574"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101832459"
 ---
 # <a name="deploy-server-certificates-for-8021x-wired-and-wireless-deployments"></a>Развертывание сертификатов сервера для проводных и беспроводных развертываний 802.1 X
 

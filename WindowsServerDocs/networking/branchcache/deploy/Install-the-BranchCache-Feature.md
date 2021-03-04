@@ -4,15 +4,15 @@ description: Узнайте, как установить функцию BranchCa
 manager: brianlic
 ms.topic: how-to
 ms.assetid: 4f31dc61-2dbe-4c7e-b3f9-85ae49a45049
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 01/05/2021
-ms.openlocfilehash: eb1e6be1801b7ac693f7027e6518cce8a145510b
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: acd9c1485504447d885f672d8042b70e34115a4b
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97949550"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101832693"
 ---
 # <a name="install-the-branchcache-feature"></a>Установка компонента BranchCache
 
@@ -33,7 +33,7 @@ ms.locfileid: "97949550"
 
 ### <a name="to-install-and-enable-the-branchcache-feature"></a>Установка и включение функции BranchCache
 
-1.  Откройте диспетчер серверов, щелкните **Управление**, а затем нажмите кнопку **Добавить роли и компоненты**. Откроется мастер добавления ролей и компонентов. Нажмите кнопку **Далее**.
+1.  Откройте диспетчер серверов, щелкните **Управление**, а затем нажмите кнопку **Добавить роли и компоненты**. Откроется мастер добавления ролей и компонентов. Щелкните **Далее**.
 
 2.  В списке **выберите тип установки** убедитесь, что установлен флажок установить на основе **ролей или компонентов** , а затем нажмите кнопку **Далее**.
 

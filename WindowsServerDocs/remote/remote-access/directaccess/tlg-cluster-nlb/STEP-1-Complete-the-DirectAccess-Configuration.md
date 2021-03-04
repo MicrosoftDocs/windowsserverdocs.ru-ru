@@ -4,15 +4,15 @@ description: Узнайте, как выполнить шаги, описанн�
 manager: brianlic
 ms.topic: article
 ms.assetid: e1e15544-b575-4f39-af0b-771bfae8b0b7
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 2a71248292744514f5e05e928ef373c7ca654b94
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: cb573b90a033f6608996c4d13fe182ce1650a732
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98039354"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101831843"
 ---
 # <a name="step-1-complete-the-directaccess-in-a-cluster-with-windows-nlb-configuration"></a>Шаг 1. Завершение DirectAccess в кластере с конфигурацией балансировки сетевой нагрузки Windows
 

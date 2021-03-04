@@ -4,15 +4,15 @@ description: Узнайте, как выполнить предваритель�
 manager: brianlic
 ms.topic: article
 ms.assetid: 31e8428f-a482-4734-be1b-213912e34825
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 638fc98b0d3271918d5d88df9cedd5d33429ad29
-ms.sourcegitcommit: 605a9b46b74b2c7a9116e631e902467ea02a6e70
+ms.openlocfilehash: 07252687031b0c89e315a087e21e5724bb70c806
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97965451"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101832231"
 ---
 # <a name="create-content-server-data-packages-for-web-and-file-content-optional"></a>Создание пакетов данных сервера содержимого для содержимого веб-сайтов и файлов (необязательно)
 

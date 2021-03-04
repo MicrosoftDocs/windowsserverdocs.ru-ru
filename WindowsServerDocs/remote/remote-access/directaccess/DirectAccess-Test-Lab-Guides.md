@@ -4,15 +4,15 @@ description: В этом разделе приведены ссылки на р�
 manager: brianlic
 ms.topic: article
 ms.assetid: 931a75ac-80f8-434c-8789-1dffb308ee13
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: dfcdab7f2e4084c51d636f7dc8594e63e563ac19
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: c23c5acf8093ccfd40707bc085df06b6ce3ab289
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97946650"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101832329"
 ---
 # <a name="directaccess-test-lab-guides"></a>DirectAccess руководства по лаборатории тестирования
 

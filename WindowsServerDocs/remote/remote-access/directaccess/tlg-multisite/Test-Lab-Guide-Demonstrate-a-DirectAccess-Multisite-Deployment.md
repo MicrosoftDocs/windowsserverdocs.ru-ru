@@ -4,15 +4,15 @@ description: Дополнительные сведения о расширени
 manager: brianlic
 ms.topic: article
 ms.assetid: 3c98106c-67cc-406a-810e-f2e09f7e2c5e
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 01357e5271932f3b8ad3140f34b3247c426f40e9
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: 8c022e596bd69cfe933c43d7279b294e050abe2f
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98040204"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101832638"
 ---
 # <a name="test-lab-guide-demonstrate-a-directaccess-multisite-deployment"></a>Руководство по лаборатории тестирования: демонстрация многосайтового развертывания DirectAccess
 

@@ -4,15 +4,15 @@ description: Узнайте, как настроить параметры кли
 manager: brianlic
 ms.topic: article
 ms.assetid: fe221fc9-c7d9-4508-b8a1-000d2515283c
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: e0419184c07f23faf458af4c37efb7761cc93f47
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: f579b7048d463e6984f686fa5663eb10d6229451
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97947050"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101832665"
 ---
 #  <a name="step-2-configure-the-directaccess-vpn-server"></a>Шаг 2. Настройка VPN-сервера DirectAccess
 
@@ -35,7 +35,7 @@ ms.locfileid: "97947050"
 
 2. Если мастер не запустился автоматически, щелкните правой кнопкой мыши по узлу сервера в дереве Маршрутизация и удаленный доступ и нажмите **Включить DirectAccess**.
 
-3. Нажмите кнопку **Далее**.
+3. Щелкните **Далее**.
 
 ## <a name="configure-directaccess-clients"></a>Настройка клиентов DirectAccess
 
@@ -49,7 +49,7 @@ ms.locfileid: "97947050"
 
 4. Отметьте флажком пункт **Использовать принудительное туннелирование**, чтобы направить весь трафик клиентов (внутренний и внешний) через сервер удаленного доступа.
 
-5. Нажмите кнопку **Далее**.
+5. Щелкните **Далее**.
 
 ## <a name="configure-the-network-topology"></a>Настройка топологии сети
 

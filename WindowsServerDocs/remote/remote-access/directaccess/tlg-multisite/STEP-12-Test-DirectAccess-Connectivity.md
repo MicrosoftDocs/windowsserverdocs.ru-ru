@@ -4,15 +4,15 @@ description: Узнайте, как убедиться, что клиентск�
 manager: brianlic
 ms.topic: article
 ms.assetid: 65ac1c23-3a47-4e58-888d-9dde7fba1586
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 64672bfe50d2f1acfb5ea0013f53114ada9164fa
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: 9603375cf1c1780a2b1385c4188f0f21a73ffaef
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98040534"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101832211"
 ---
 # <a name="step-12-test-directaccess-connectivity"></a>Шаг 12. Тестирование подключения DirectAccess
 
@@ -28,7 +28,7 @@ ms.locfileid: "98040534"
 
 - Проверка подключения DirectAccess из Интернета через 2-EDGE1
 
-## <a name="prerequisites"></a>Предварительные условия
+## <a name="prerequisites"></a>Предварительные требования
 Подключите оба клиентских компьютера к корпоративной сети, а затем перезапустите оба клиентских компьютера.
 
 ## <a name="verify-clients-have-the-correct-group-policy"></a><a name="policy"></a>Проверка наличия у клиентов правильной групповой политики

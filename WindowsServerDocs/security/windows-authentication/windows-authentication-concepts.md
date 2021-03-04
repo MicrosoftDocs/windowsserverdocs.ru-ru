@@ -3,16 +3,16 @@ title: Основные понятия проверки подлинности W
 description: Сведения о концепциях, на которых основана проверка подлинности Windows.
 ms.topic: article
 ms.assetid: 29d1db15-cae0-4e3d-9d8e-241ac206bb8b
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/12/2016
-ms.openlocfilehash: beea01425472353be0a44267e99ec0bd6c0e1ec1
-ms.sourcegitcommit: decb6c8caf4851b13af271d926c650d010a6b9e9
+ms.openlocfilehash: f7eea0a43f93b4f3073aaeb431d920366767fcf6
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "98177233"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101833101"
 ---
 # <a name="windows-authentication-concepts"></a>Основные понятия проверки подлинности Windows
 

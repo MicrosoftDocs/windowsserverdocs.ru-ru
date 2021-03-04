@@ -4,15 +4,15 @@ description: Узнайте о шагах планирования, необхо
 manager: brianlic
 ms.topic: article
 ms.assetid: 8387eabe-7363-4367-b5b1-03c67baa2933
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: a4a56e430b1b40627aaf0e387c8df8ec122b94fb
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 32f6a2cdcf088e85c0cd2b066c6e85b2213b370e
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97941640"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101831685"
 ---
 # <a name="plan-a-multisite-deployment"></a>Планирование многосайтового развертывания
 

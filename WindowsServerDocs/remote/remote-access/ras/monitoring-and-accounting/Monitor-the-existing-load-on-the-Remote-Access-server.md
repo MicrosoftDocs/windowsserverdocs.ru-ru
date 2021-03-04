@@ -4,15 +4,15 @@ description: Узнайте, как использовать панель мон
 manager: brianlic
 ms.topic: article
 ms.assetid: 62fa2895-62ae-42cf-817c-53e06ac2a26c
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 999a4e2a0f660368e0d7f5cfce4e1f7217029311
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: e6478efa1a3106020c4f082e8b747c05236f59c7
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98039844"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101832499"
 ---
 # <a name="monitor-the-existing-load-on-the-remote-access-server"></a>Мониторинг текущей нагрузки сервера удаленного доступа.
 
@@ -53,7 +53,7 @@ ms.locfileid: "98039844"
 
 Теперь **системный монитор** будет отображать выбранную статистику нагрузки на сервер.
 
-![](../../../media/Monitor-the-existing-load-on-the-Remote-Access-server/PowerShellLogoSmall.gif)**_<em>Эквивалентные команды</em> в Windows PowerShell Windows PowerShell_**
+![](../../../media/Monitor-the-existing-load-on-the-Remote-Access-server/PowerShellLogoSmall.gif)***<em>Эквивалентные команды</em> в Windows PowerShell Windows PowerShell***
 
 Следующие командлеты Windows PowerShell выполняют ту же функцию, что и предыдущая процедура. Вводите каждый командлет в одной строке, несмотря на то, что здесь они могут отображаться разбитыми на несколько строк из-за ограничений форматирования.
 

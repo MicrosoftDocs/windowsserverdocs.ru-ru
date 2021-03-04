@@ -3,16 +3,16 @@ title: Обзор TLS/SSL (поставщик общих служб Schannel)
 description: Сведения о реализациях TLS и SSL в Windows с помощью поставщика услуг безопасности SChannel (SSP).
 ms.topic: article
 ms.assetid: 1b7b0432-1bef-4912-8c9a-8989d47a4da9
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 05/16/2018
-ms.openlocfilehash: fc4e4e89be200a2276532b0c4859e4900897a4b5
-ms.sourcegitcommit: decb6c8caf4851b13af271d926c650d010a6b9e9
+ms.openlocfilehash: 6982056131675aa50129454c2d9c21ad1b9d011d
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "98177593"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101831336"
 ---
 # <a name="tlsssl-overview-schannel-ssp"></a>Обзор TLS/SSL (поставщик общих служб Schannel)
 
@@ -27,7 +27,7 @@ ms.locfileid: "98177593"
 
 Версии TLS 1,0, 1,1 и 1,2, SSL-версии 2,0 и 3,0, а также датаграмма транспортного уровня Security \( DTLS \) protocol версии 1,0, а также \( протокол протокола PCT для частного обмена данными \) основаны на криптографии с открытым ключом. Эти протоколы входят в набор протоколов проверки подлинности Schannel. Для всех протоколов канала SCHANNEL используется модель клиент-сервер.
 
-## <a name="applications"></a><a name="BKMK_APP"></a>Приложения
+## <a name="applications"></a><a name="BKMK_APP"></a>Приложений
 Одна из проблем при администрировании сети заключается в обеспечении безопасности данных, которые передаются между приложениями по ненадежной сети. Вы можете использовать TLS и SSL для проверки подлинности серверов и клиентских компьютеров, а затем использовать протокол для шифрования сообщений между сторонами проверки подлинности.
 
 Например, протоколы TLS и SSL позволяют реализовать следующие возможности.

@@ -4,15 +4,15 @@ description: Дополнительные сведения о настройке
 manager: brianlic
 ms.topic: article
 ms.assetid: faec70ac-88c0-4b0a-85c7-f0fe21e28257
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 04181093bac2bb70d9832e88dd90df79155ad5d9
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 280227f5efc40ccbacc2fe91cfddc4a9d2af47cb
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97941740"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101831725"
 ---
 # <a name="step-2-configure-the-multisite-infrastructure"></a>Шаг 2. Настройка межсайтовой инфраструктуры
 
@@ -55,7 +55,7 @@ ms.locfileid: "97941740"
 
 8.  Закройте оснастку Active Directory — сайты и службы.
 
-:::image type="icon" source="../../../../media/Step-2-Configure-the-Multisite-Infrastructure/PowerShellLogoSmall.gif":::**_<em>Эквивалентные команды Windows PowerShell</em>_* _
+:::image type="icon" source="../../../../media/Step-2-Configure-the-Multisite-Infrastructure/PowerShellLogoSmall.gif":::***<em>Эквивалентные команды Windows PowerShell</em>***
 
 Следующие командлеты Windows PowerShell выполняют ту же функцию, что и предыдущая процедура. Вводите каждый командлет в одной строке, несмотря на то, что здесь они могут отображаться разбитыми на несколько строк из-за ограничений форматирования.
 
@@ -96,7 +96,7 @@ New-ADReplicationSubnet -Name "2001:db8:2::/64" -Site "Second-Site"
 
 ### <a name="to-configure-additional-domain-controllers"></a>Настройка дополнительных контроллеров домена
 
-1.  На сервере, который будет работать в качестве контроллера домена, на **панели мониторинга** щелкните **Добавить роли и компоненты, а** затем в строке _ * Диспетчер сервера * *.
+1.  На сервере, который будет работать в качестве контроллера домена, в **Диспетчер сервера** на **панели мониторинга** щелкните **Добавить роли и компоненты**.
 
 2.  Нажмите кнопку " **Далее** три раза", чтобы перейти на экран выбора роли сервера
 
@@ -164,7 +164,7 @@ New-ADReplicationSubnet -Name "2001:db8:2::/64" -Site "Second-Site"
 
 8.  Повторите эту процедуру, чтобы создать группу безопасности для каждой точки входа по мере необходимости.
 
-:::image type="icon" source="../../../../media/Step-2-Configure-the-Multisite-Infrastructure/PowerShellLogoSmall.gif":::**_<em>Эквивалентные команды Windows PowerShell</em>_* _
+:::image type="icon" source="../../../../media/Step-2-Configure-the-Multisite-Infrastructure/PowerShellLogoSmall.gif":::***<em>Эквивалентные команды Windows PowerShell</em>***
 
 Следующие командлеты Windows PowerShell выполняют ту же функцию, что и предыдущая процедура. Вводите каждый командлет в одной строке, несмотря на то, что здесь они могут отображаться разбитыми на несколько строк из-за ограничений форматирования.
 
@@ -221,7 +221,7 @@ Add-ADGroupMember -Identity Win7_Clients_Entrypoint1 -Members CLIENT2$
 
 #### <a name="to-transfer-the-pdc-emulator-role"></a><a name="TransferPDC"></a>Перенос роли эмулятора PDC
 
-1.  На экране _ *Start** введите **DSA. msc** и нажмите клавишу ВВОД.
+1.  На **начальном** экране введите **DSA. msc** и нажмите клавишу ВВОД.
 
 2.  В левой области консоли Active Directory пользователи и компьютеры щелкните правой кнопкой мыши **Active Directory пользователи и компьютеры**, а затем выберите пункт **изменить контроллер домена**. В диалоговом окне Изменение сервера каталога выберите **этот контроллер домена или экземпляр AD LDS** в списке щелкните контроллер домена, который будет новым владельцем роли, и нажмите кнопку **ОК**.
 

@@ -4,15 +4,15 @@ description: Сведения о шагах настройки, необходи
 manager: brianlic
 ms.topic: article
 ms.assetid: 8228d1ed-0efc-4858-89df-eb2c426440f9
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 1f02977c445773f41e0ea9c29a61ae31596bc8aa
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: a8b621ff74d4d01ee64455fa325bbd07cc4da2e7
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97944530"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101831507"
 ---
 # <a name="install-and-configure-basic-directaccess"></a>Установка и настройка базового DirectAccess
 

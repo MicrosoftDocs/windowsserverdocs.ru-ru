@@ -3,16 +3,16 @@ description: 'Дополнительные сведения: Sign-On автом�
 title: Автоматический вход при перезапуске с помощью Winlogon (ARSO)
 ms.topic: article
 ms.assetid: 15cddcfa-8a8e-45e4-bb76-b8e1a14ceac0
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/12/2016
-ms.openlocfilehash: 4a9aec72bd91bc28975dea1c9ba6c28cbb512c6c
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: 8c2873b105f2099c1969a2ed3299e0030951ed29
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97050222"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101833091"
 ---
 # <a name="winlogon-automatic-restart-sign-on-arso"></a>Автоматический вход при перезапуске с помощью Winlogon (ARSO)
 

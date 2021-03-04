@@ -4,15 +4,15 @@ description: Этот раздел можно использовать для о
 manager: brianlic
 ms.topic: article
 ms.assetid: 456e5971-3aa7-4a24-bc5d-0c21fec7687e
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 7f5f88a23939f9aef38765a926ceb0b41a8b22c5
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: a3c616f623264bf5c958ad6e460afbbcb02b0004
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97950070"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101832390"
 ---
 # <a name="directaccess-capacity-planning"></a>Планирование мощности DirectAccess
 
@@ -24,7 +24,7 @@ ms.locfileid: "97950070"
 
 Эти результаты тестов показывают, что в Windows 8 клиенты Teredo демонстрируют большую производительность, чем клиенты IPHTTPS, но использование пропускной способности по сравнению с Windows 7 улучшено и для Teredo, и для IPHTTPS.
 
-![Результаты проверки](../../media/DirectAccess-Capacity-Planning/DACapacityPlanning1.gif)
+![Результаты испытаний](../../media/DirectAccess-Capacity-Planning/DACapacityPlanning1.gif)
 
 ## <a name="high-end-hardware-test-environment"></a>Тестовая среда оборудования с высоким быстродействием
 В следующей таблице показаны результаты в тестовой среде оборудования с высоким быстродействием. В этом документе приводится подробное описание и анализ всех результатов тестов.

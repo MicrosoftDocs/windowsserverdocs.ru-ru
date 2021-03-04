@@ -4,15 +4,15 @@ description: Узнайте, как убедиться, что OTP настро�
 manager: brianlic
 ms.topic: article
 ms.assetid: 013df067-e2a0-4cd5-a08b-29238663ebf8
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 6463bf67a9510f70bf435dedbadd9b28be63909b
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: e7151d84b7e4302d30652b0739e813a516ec73bf
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98040354"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101832607"
 ---
 # <a name="step-5-verify-otp-health-on-edge1"></a>Шаг 5. Проверка работоспособности OTP в EDGE1
 

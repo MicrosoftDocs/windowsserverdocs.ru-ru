@@ -4,15 +4,15 @@ description: Сведения о планировании параметров �
 manager: brianlic
 ms.topic: article
 ms.assetid: 72b5b2af-6925-41e0-a3f9-b8809ed711d1
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 696747b64ee0c3b5412f1397daa3a1acbffd043d
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 8ec9de1629b6463310e61d58d1cc3e431c8a670b
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97947040"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101832063"
 ---
 # <a name="step-2-plan-the-directaccess-deployment"></a>Шаг 2. Планирование развертывания DirectAccess
 

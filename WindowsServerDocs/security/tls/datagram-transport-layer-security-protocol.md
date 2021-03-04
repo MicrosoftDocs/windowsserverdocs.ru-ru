@@ -3,16 +3,16 @@ title: Протокол DTLS
 description: Узнайте о протоколе протокола безопасности Датаграммного транспортного уровня, который входит в состав поставщика поддержки безопасности SChannel.
 ms.topic: article
 ms.assetid: 57b8873a-ad9c-4f2c-93e0-a2af352c6965
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 05/16/2018
-ms.openlocfilehash: 8a918354a429b1a2061fb6e295b2533af1127713
-ms.sourcegitcommit: decb6c8caf4851b13af271d926c650d010a6b9e9
+ms.openlocfilehash: d55cb0c2729d67bbe6217332e78838efcb083be2
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "98177613"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101833437"
 ---
 # <a name="datagram-transport-layer-security-protocol"></a>Протокол DTLS
 

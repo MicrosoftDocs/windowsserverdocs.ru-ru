@@ -4,15 +4,15 @@ description: Узнайте, как планировать параметры, �
 manager: brianlic
 ms.topic: article
 ms.assetid: cc9f02b9-8ddd-4cae-b397-a832996144dd
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 3e84e2e7df85a0eea08c3b6bd8cff6ca81be863a
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: ea644ccff17d60ff2ae846383372d09f1d00ae9e
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98039914"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101831447"
 ---
 # <a name="step-2-plan-the-remote-access-deployment"></a>Шаг 2. Планирование развертывания удаленного доступа
 

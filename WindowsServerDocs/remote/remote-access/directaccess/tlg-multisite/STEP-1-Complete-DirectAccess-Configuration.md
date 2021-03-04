@@ -4,15 +4,15 @@ description: Узнайте, как завершить лабораторное 
 manager: brianlic
 ms.topic: article
 ms.assetid: 68fdc02b-2904-4a67-8bfe-45e426f2bd6c
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: db636a55171da22bc9083ada25a5868c3b43eb16
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: efee0932d2dd36c8330d67e6ceac1ed2407b8379
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98038894"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101831460"
 ---
 # <a name="step-1-complete-the-directaccess-configuration"></a>Шаг 1. Завершение настройки DirectAccess
 

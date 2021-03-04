@@ -4,15 +4,15 @@ description: Сведения об администрировании и уст�
 manager: brianlic
 ms.topic: article
 ms.assetid: c68905ef-d54f-4fc8-80ac-1006125db64f
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 5467868ac7affd2ea6a1ae4fc37c76fb9a9b1c96
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: 9141114d2015ada9b625f936442805b7f54a77ea
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98039514"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101832831"
 ---
 # <a name="manage-ipam"></a>Управление IPAM
 

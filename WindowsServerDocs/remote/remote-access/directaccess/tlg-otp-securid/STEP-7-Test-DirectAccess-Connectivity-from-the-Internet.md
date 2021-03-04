@@ -4,15 +4,15 @@ description: Узнайте, как начать тестирование под
 manager: brianlic
 ms.topic: article
 ms.assetid: ed2a1616-30c6-482a-9a02-4a5023621f58
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: f921a536d229edc6295df2f18d3ab2bda62133aa
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: 0140a08fdc8bc65c91e9445ade6abf75c52da7e7
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98040334"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101832549"
 ---
 # <a name="step-7-test-directaccess-connectivity-from-the-internet"></a>Шаг 7. Тестирование подключения DirectAccess из Интернета
 

@@ -4,15 +4,15 @@ description: Этот раздел можно использовать для к
 manager: brianlic
 ms.topic: article
 ms.assetid: 6b71d18e-1939-4fc0-bb42-29e0e5ffc8da
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 166d56da7127c19636e08b4ac8fe5912530d0c37
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: cb24671451f7a22bf6dc29001f82d040ef46b018
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97947070"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101832289"
 ---
 # <a name="directaccess"></a>DirectAccess
 
@@ -54,7 +54,7 @@ DirectAccess обеспечивает поддержку только для п�
 
 Следующие клиентские операционные системы поддерживают DirectAccess.
 
--   Windows 10 Корпоративная
+-   Windows 10 Корпоративная
 
 -   Windows 10 Корпоративная 2015 Long Term Servicing Branch (LTSB)
 

@@ -4,15 +4,15 @@ description: Узнайте, как спланировать развертыв�
 manager: brianlic
 ms.topic: article
 ms.assetid: bc44a7db-f7a5-4e95-9d95-ab8d334e885f
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: a0dec974fab2f6e4aa112205c199f2a3b306ff05
-ms.sourcegitcommit: 605a9b46b74b2c7a9116e631e902467ea02a6e70
+ms.openlocfilehash: a529722b75010cf41ff7af45f63d286f7bdbebef
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97965586"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101832469"
 ---
 # <a name="branchcache-hosted-cache-mode-deployment-planning"></a>Планирование развертывания режима размещенного кэша BranchCache
 

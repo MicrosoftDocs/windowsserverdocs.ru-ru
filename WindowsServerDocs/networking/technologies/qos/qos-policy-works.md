@@ -4,15 +4,15 @@ description: Узнайте, как работает политика QoS.
 ms.topic: article
 ms.assetid: 25097cb8-b9b1-41c9-b3c7-3610a032e0d8
 manager: brianlic
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: c3042c6e0c6c74e76472962c4bde323e044ff1fd
-ms.sourcegitcommit: d42b80f947dbfa8660d982be67d77745a28081e5
+ms.openlocfilehash: 307ce6ca79debb34c5d923f5a8560e0d47a1b610
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "98113370"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101831893"
 ---
 # <a name="how-qos-policy-works"></a>Как работает политика качества обслуживания
 

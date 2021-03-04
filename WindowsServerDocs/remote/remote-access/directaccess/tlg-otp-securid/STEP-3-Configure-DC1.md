@@ -4,15 +4,15 @@ description: Узнайте, как проверить, имеет ли Поль
 manager: brianlic
 ms.topic: article
 ms.assetid: 836a2a08-3d22-48d2-873e-80d7e57ebbd6
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 7da9496d27b36fdcf9abedeb76f472c6a78a0866
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: 0f7f283b6a7f44a800a764414870a46e3305c256
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98040064"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101832733"
 ---
 # <a name="step-3-configure-dc1"></a>Шаг 3. Настройка DC1
 
@@ -26,7 +26,7 @@ DC1 выступает в качестве контроллера домена, 
 
 2.  На вкладке **учетная запись** убедитесь, что для **имени входа пользователя** задано значение Пользователь1. В противном случае введите **Пользователь1** в поле **имя входа пользователя** .
 
-3.  Нажмите **OK**. Закройте консоль **Active Directory — пользователи и компьютеры**.
+3.  Нажмите кнопку **ОК**. Закройте консоль **Active Directory — пользователи и компьютеры**.
 
 
 

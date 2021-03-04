@@ -4,15 +4,15 @@ description: Узнайте, как начать тестирование под
 manager: brianlic
 ms.topic: article
 ms.assetid: b9b77cfd-8dd4-476b-a118-f3d6bf59e7b1
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 1d0cd5c85ca97ffd7d5275d2402db17a560255fa
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: c366ce24bf8545392391791ad543f4fad2800383
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98040344"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101832597"
 ---
 # <a name="step-6-test-directaccess-connectivity-from-the-homenet-subnet"></a>Шаг 6. Тестирование подключения DirectAccess из подсети Хоменет
 

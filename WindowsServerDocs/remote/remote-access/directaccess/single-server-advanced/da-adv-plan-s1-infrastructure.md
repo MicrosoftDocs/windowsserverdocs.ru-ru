@@ -4,15 +4,15 @@ description: Узнайте, как спланировать инфрастру�
 manager: brianlic
 ms.topic: article
 ms.assetid: aa3174f3-42af-4511-ac2d-d8968b66da87
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: d66a07d5357667b83380f320f77e0cbce56cdde1
-ms.sourcegitcommit: eb995fa887ffe1408b9f67caf743c66107173666
+ms.openlocfilehash: 3e0c4edfab01d145eac22e046c89513830d7a8d9
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "98666583"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101831649"
 ---
 # <a name="step-1-plan-the-advanced-directaccess-infrastructure"></a>Шаг 1. Планирование расширенной инфраструктуры DirectAccess
 
@@ -689,6 +689,6 @@ DirectAccess позволяет использовать сертификаты 
 
 3.  Отобразится сообщение об ошибке, говорящее, что GPO не найден. Щелкните **Удалить параметры конфигурации**. После завершения сервер будет восстановлен в состоянии без настроенных параметров.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 -   [Шаг 2. Планирование развертываний DirectAccess](da-adv-plan-s2-deployments.md)

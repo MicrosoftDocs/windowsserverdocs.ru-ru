@@ -4,15 +4,15 @@ description: Узнайте, как добавить DirectAccess в сущес�
 manager: brianlic
 ms.topic: article
 ms.assetid: b5db01f7-1ae0-46f2-9be7-8d9e121446b2
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 01/05/2021
-ms.openlocfilehash: 9174ad15dd60ff2bec7dff537852cab6e4aae54a
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 945a7ababd776bdb0d059d2d6e74dc19089be474
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97949840"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101832931"
 ---
 # <a name="add-directaccess-to-an-existing-remote-access-vpn-deployment"></a>Add DirectAccess to an Existing Remote Access (VPN) Deployment
 

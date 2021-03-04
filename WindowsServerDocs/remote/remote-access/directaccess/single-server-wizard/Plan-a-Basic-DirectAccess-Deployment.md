@@ -4,15 +4,15 @@ description: Узнайте о шагах планирования, необхо
 manager: brianlic
 ms.topic: article
 ms.assetid: d12632d7-4f47-4b4e-a4ad-f18322d726e2
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 9e7188fe508ff33d44d2e21c9f1468b3761ab443
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 2c2574199ed645fef61f099e56487736006a2f18
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97947010"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101831470"
 ---
 # <a name="plan-a-basic-directaccess-deployment"></a>Планирование развертывания базового DirectAccess
 

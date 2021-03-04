@@ -4,15 +4,15 @@ description: Эта статья, предназначенная для ИТ-с�
 manager: brianlic
 ms.topic: article
 ms.assetid: c051b2ec-de0f-49d1-82b9-5742b259cd7c
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: c34cec47edc2808d16964f3a8f3071c50940a578
-ms.sourcegitcommit: 84b97d34d606b6bf4b6ec8760a93107f1b311428
+ms.openlocfilehash: 8386ab93f8896c4e8fb9d446981d7ad40dcb4f9f
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "99245405"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101832509"
 ---
 # <a name="ras-gateway-gre-tunnel-throughput-and-performance"></a>Производительность и пропускная способность туннеля GRE шлюза RAS-сервера
 

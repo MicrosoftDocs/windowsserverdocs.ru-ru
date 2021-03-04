@@ -4,15 +4,15 @@ description: Узнайте, как проверить подключение к
 manager: brianlic
 ms.topic: article
 ms.assetid: 796825c3-5e3e-4745-a921-25ab90b95ede
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 60cd8351a877fe2c66fdd2392348e3efbc26e6cc
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: 621e50023dcc047c2e868ab8165e92a98d7e1427
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98040524"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101832201"
 ---
 # <a name="step-13-test-directaccess-connectivity-from-behind-a-nat-device"></a>Шаг 13. Тестирование подключения DirectAccess из устройства NAT
 
@@ -26,7 +26,7 @@ ms.locfileid: "98040524"
 
 2. Проверьте подключение IP-HTTPS. Второй набор тестов выполняется, когда клиент DirectAccess настроен для использования IP-HTTPS. Чтобы продемонстрировать возможность подключения IP-HTTPS, Teredo на клиентских компьютерах отключается. Сначала запустите тесты на компьютере КЛИЕНТ1, а затем выполните тесты на КЛИЕНТ2.
 
-## <a name="prerequisites"></a>Предварительные условия
+## <a name="prerequisites"></a>Предварительные требования
 Запустите EDGE1 и 2-EDGE1, если они еще не запущены, и убедитесь, что они подключены к подсети Интернета.
 
 Перед выполнением этих тестов отключите подключение КЛИЕНТ1 и КЛИЕНТ2 от коммутатора Интернета и подключите их к коммутатору Хоменет. При появлении запроса на тип сети, для которой необходимо определить текущую сеть, выберите **Домашняя сеть**.

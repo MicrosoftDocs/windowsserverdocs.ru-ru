@@ -4,15 +4,15 @@ description: Узнайте, как отменить регистрацию NPS 
 manager: brianlic
 ms.topic: article
 ms.assetid: 68a94616-3c29-45bd-bd33-e4c578f119e1
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 032a7b36b207c75955f879b4740a43d32e543228
-ms.sourcegitcommit: decb6c8caf4851b13af271d926c650d010a6b9e9
+ms.openlocfilehash: cf26e85fe042d4a6d7c031e6c1f5512ffef392bd
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "98177413"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101833271"
 ---
 # <a name="unregister-an-nps-from-an-active-directory-domain"></a>Отмена регистрации сервера политики сети в домене Active Directory
 

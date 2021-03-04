@@ -6,12 +6,12 @@ author: nwashburn-ms
 ms.author: niwashbu
 ms.date: 11/21/2019
 ms.localizationpriority: medium
-ms.openlocfilehash: 1438db87cd59e233328422b03d4d9a6a659d4960
-ms.sourcegitcommit: f89639d3861c61620275c69f31f4b02fd48327ab
+ms.openlocfilehash: 65fc3167e1fede0956333ec72e3aefd4cbbf65e1
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91517538"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101832259"
 ---
 # <a name="manage-servers-with-windows-admin-center"></a>Управление серверами с помощью центра администрирования Windows
 
@@ -45,7 +45,7 @@ ms.locfileid: "91517538"
 
 Для подключений к серверу доступны следующие средства.
 
-| Средство | Описание |
+| Инструмент | Описание |
 | ---- | ----------- |
 | [Обзор](#overview) | Просмотр сведений о сервере и контроль состояния сервера |
 | [Active Directory](#active-directory-preview) | Управление Active Directory |
@@ -71,7 +71,7 @@ ms.locfileid: "91517538"
 | [Запланированные задачи](#scheduled-tasks) | Просмотр и изменение запланированных задач |
 | [Службы](#services) | Просмотр и изменение служб |
 | [Параметры](#settings) | Просмотр и изменение служб |
-| [Хранилище](#storage) | Просмотр и изменение запоминающих устройств |
+| [Память](#storage) | Просмотр и изменение запоминающих устройств |
 | [Служба миграции хранилища](#storage-migration-service) | Перенос серверов и файловых ресурсов в Azure или Windows Server 2019 |
 | [Реплика хранилища](#storage-replica) | Использование реплики хранилища для управления репликацией хранилища "сервер-сервер" |
 | [Системная аналитика](#system-insights) | System Insights позволяет получить представление о работе сервера. |
@@ -119,7 +119,7 @@ ms.locfileid: "91517538"
 
 [**Просмотрите Отзывы и предлагаемые функции для Active Directory**](https://windowsserver.uservoice.com/forums/295071/filters/top?category_id=319162&query=%5BActive%20Directory%5D).
 
-## <a name="backup"></a>Backup
+## <a name="backup"></a>Резервное копирование
 
 **Резервное копирование** позволяет защитить сервер Windows Server от повреждений, атак или аварий путем резервного копирования сервера непосредственно на Microsoft Azure.
 [Дополнительные сведения о Azure Backup.](https://aka.ms/windows-admin-center-backup)
@@ -214,6 +214,10 @@ ms.locfileid: "91517538"
 - Просмотр сведений о событии
 - Удалить события из журнала
 - Экспорт событий из журнала
+- Создание рабочих областей (предварительная версия)
+- Сохранить рабочие области (Предварительная версия)
+- Удаление рабочих областей (Предварительная версия)
+- Просмотр событий в линейчатом формате с накоплением (Предварительная версия)
 
 [**Просмотр отзывов и предлагаемых функций для событий**](https://windowsserver.uservoice.com/forums/295071/filters/top?category_id=319162&query=%5BEvents%5D).
 
@@ -405,7 +409,7 @@ ms.locfileid: "91517538"
 
 [**Просмотр отзывов и предлагаемых функций для служб**](https://windowsserver.uservoice.com/forums/295071/filters/top?category_id=319162&query=%5BServices%5D).
 
-## <a name="settings"></a>Параметры
+## <a name="settings"></a>Настройки
 
 **Параметры** — это центральное расположение для управления параметрами на компьютере или сервере.
 

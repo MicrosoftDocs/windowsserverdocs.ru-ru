@@ -4,15 +4,15 @@ description: Узнайте, как использовать ответы DNS н
 manager: brianlic
 ms.topic: article
 ms.assetid: 4846b548-8fbc-4a7f-af13-09e834acdec0
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 01/05/2021
-ms.openlocfilehash: 0cc87d4e98fe5d636a13864b48a7f4967cb03152
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 46d37b9782d9820761ecce6372374391b7d2646e
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97948890"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101831135"
 ---
 # <a name="dns-responses-based-on-time-of-day-with-an-azure-cloud-app-server"></a>Получение ответов DNS на основе времени дня с помощью сервера облачных приложений Azure
 

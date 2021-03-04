@@ -3,16 +3,16 @@ title: Общие сведения о контроле учетных запис
 description: Узнайте об управлении учетными записями пользователей, о том, как это фундаментальный компонент общей концепции безопасности корпорации Майкрософт и как он помогает уменьшить воздействие вредоносной программы.
 ms.topic: article
 ms.assetid: 1b7a39cd-fc10-4408-befd-4b2c45806732
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/12/2016
-ms.openlocfilehash: 7cb2e6bb17ab92dc2ff23ace2de2654f6a2b2197
-ms.sourcegitcommit: decb6c8caf4851b13af271d926c650d010a6b9e9
+ms.openlocfilehash: 5ac0ded6d7d44fa1ca7d2a8af966e4d069d3470a
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "98177283"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101832093"
 ---
 # <a name="user-account-control-overview"></a>Общие сведения о контроле учетных записей
 Контроль учетных записей пользователей \( \) — это фундаментальный компонент общей концепции безопасности корпорации Майкрософт.  Контроль учетных записей помогает уменьшить влияние вредоносных программ.
