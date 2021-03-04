@@ -3,16 +3,16 @@ title: bitsadmin setcustomheaders
 description: Справочная статья по команде битсадмин сеткустомхеадерс, которая добавляет пользовательский заголовок HTTP к запросу GET.
 ms.topic: reference
 ms.assetid: ed926410-80d0-46ed-9a90-f752c164bb9a
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 06e6e580a92f96cbf8588d55ebeb44858174d29c
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 4108fad93e1178fd61281cfabbaaf7fd2c406b56
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89630992"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101821018"
 ---
 # <a name="bitsadmin-setcustomheaders"></a>bitsadmin setcustomheaders
 

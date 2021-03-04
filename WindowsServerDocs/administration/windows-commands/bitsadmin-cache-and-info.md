@@ -3,16 +3,16 @@ title: bitsadmin cache и info
 description: Справочная статья по команде кэша битсадмин и info, которая создает дамп определенной записи кэша.
 ms.topic: reference
 ms.assetid: 15975cbf-dba6-49ca-a725-d15ce1952de5
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 16eda9ddd04a270fbfd754186fd5c9f4a6152cd5
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: bd3793c14239f8b6b8cb586ef71b0fb76a64a660
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89632555"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101822458"
 ---
 # <a name="bitsadmin-cache-and-info"></a>bitsadmin cache и info
 

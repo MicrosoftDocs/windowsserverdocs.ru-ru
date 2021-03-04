@@ -3,16 +3,16 @@ title: bitsadmin getnotifyflags
 description: Справочная статья по команде битсадмин жетнотифифлагс, которая получает флаги уведомления для указанного задания.
 ms.topic: reference
 ms.assetid: d4657e6c-8959-4db7-a4af-e73d3f80ecf8
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: b7cdc2d65316bfcc856bb0fe55a9379d4fc6ba6b
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: d2fec6b2acf68f0c1d54885585a7f7f0126327a1
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89631900"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101821848"
 ---
 # <a name="bitsadmin-getnotifyflags"></a>bitsadmin getnotifyflags
 
@@ -30,7 +30,7 @@ bitsadmin /getnotifyflags <job>
 | -------------- | -------------- |
 | задание | Отображаемое имя задания или идентификатор GUID. |
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Комментарии
 
 Задание может содержать один или несколько следующих флагов уведомления:
 

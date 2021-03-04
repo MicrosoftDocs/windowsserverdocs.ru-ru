@@ -3,16 +3,16 @@ title: bitsadmin getbytestotal
 description: Справочная статья по команде битсадмин жетбитестотал, которая получает размер указанного задания.
 ms.topic: reference
 ms.assetid: 784e0bfa-7b09-4262-9104-adbc9beb479b
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 50b926b8d89e402ef4fd9e58896963edd3c368c9
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 846b0abc4642b44ce0b69493207136625eb8414a
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89632346"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101822258"
 ---
 # <a name="bitsadmin-getbytestotal"></a>bitsadmin getbytestotal
 

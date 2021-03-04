@@ -4,16 +4,16 @@ description: Справочная статья по команде битсад�
 ms.prod: windows-server
 ms.topic: reference
 ms.assetid: cdce64f6-7125-489d-be3c-4af1dfc8c46a
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: ce375582c457f36b7a7e73757caf72ee581c61dd
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 8871dc36987ab72714da09e3ad961d3f68afa988
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89631955"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101822018"
 ---
 # <a name="bitsadmin-getmaxdownloadtime"></a>bitsadmin getmaxdownloadtime
 

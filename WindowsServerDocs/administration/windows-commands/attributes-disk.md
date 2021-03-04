@@ -3,16 +3,16 @@ title: attributes disk
 description: Справочная статья по команде "атрибуты диска", которая отображает, устанавливает или очищает атрибуты диска.
 ms.topic: reference
 ms.assetid: eed57071-c1c6-4394-9542-62b52a878c92
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: c86d499f179453f75e05ae3a871de013e389341a
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 008d4e5a1aa04b7386def5096ee1063f251515dd
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89633301"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101823508"
 ---
 # <a name="attributes-disk"></a>attributes disk
 

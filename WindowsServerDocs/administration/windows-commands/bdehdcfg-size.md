@@ -3,16 +3,16 @@ title: bdehdcfg size
 description: Справочная статья по команде размера BdeHdCfg, которая указывает размер системного раздела при создании нового системного диска.
 ms.topic: reference
 ms.assetid: 80f55b1d-a28d-4edf-9997-1fb918b7b5a1
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: c68322fe999a39c4a2913826f520f0b401a9d0ac
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 6f3fd786d4597f2a4cda327b0413f5793cb27eda
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89632828"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101822778"
 ---
 # <a name="bdehdcfg-size"></a>BdeHdCfg: размер
 

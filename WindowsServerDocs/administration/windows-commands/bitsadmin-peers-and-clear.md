@@ -3,16 +3,16 @@ title: bitsadmin peers и clear
 description: Справочная статья для одноранговых узлов битсадмин и команда Clear, которая очищает список одноранговых узлов.
 ms.topic: reference
 ms.assetid: 71833862-be86-4829-8ce3-11e7869adf29
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 4c304cf6915920f93da2dcf01b9841ef03291f86
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 8cea62c741830abfe72b59bc4b8ad88fe0073e90
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89631332"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101821348"
 ---
 # <a name="bitsadmin-peers-and-clear"></a>bitsadmin peers и clear
 

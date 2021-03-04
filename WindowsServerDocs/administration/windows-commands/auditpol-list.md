@@ -3,16 +3,16 @@ title: auditpol list
 description: Справочная статья для команды auditpol list, в которой перечислены категории и подкатегории политики аудита, а также перечислены пользователи, для которых определена политика аудита на пользователя.
 ms.topic: reference
 ms.assetid: 45502abe-3d6e-4e13-94f0-8e6fcb6db860
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 0f37586835f58a99fd75697acc0daad3ec4a2cf2
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 7ef7546bb3cad3525b13160e0e5318f3f600dd16
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89633206"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101823148"
 ---
 # <a name="auditpol-list"></a>auditpol list
 

@@ -3,16 +3,16 @@ title: bitsadmin getbytestransferred
 description: Справочная статья по команде битсадмин жетбитестрансферред, которая получает число байтов, переданных для указанного задания.
 ms.topic: reference
 ms.assetid: 47bbf184-e06f-4be0-b2ba-d32b10d82002
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: c67185ff147611436dcb75803e2282542f376019
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: c0b8db1e093f144a2480294dc4ce4673cbaf33dd
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89632307"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101822228"
 ---
 # <a name="bitsadmin-getbytestransferred"></a>bitsadmin getbytestransferred
 

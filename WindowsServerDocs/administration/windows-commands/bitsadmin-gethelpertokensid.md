@@ -2,20 +2,20 @@
 title: bitsadmin gethelpertokensid
 description: Справочная статья по команде битсадмин жеселпертокенсид, которая возвращает идентификатор безопасности вспомогательного токена задания передачи BITS, если он задан.
 ms.topic: reference
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 03/01/2019
-ms.openlocfilehash: 645957ab5526c98e806a4e7875e1baece3d375b3
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: b97409f98eba6df61ecf678edc6c1b6e30e47370
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89632042"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101822028"
 ---
 # <a name="bitsadmin-gethelpertokensid"></a>bitsadmin gethelpertokensid
 
-Возвращает идентификатор безопасности [вспомогательного токена](/windows/win32/bits/helper-tokens-for-bits-transfer-jobs)задания передачи BITS, если он задан.
+Возвращает идентификатор безопасности [вспомогательного токена](/windows/win32/bits/helper-tokens-for-bits-transfer-jobs)задания передачи BITS, если он задан.
 
 > [!NOTE]
 > Эта команда не поддерживается в БИТАХ 3,0 и более ранних версиях.

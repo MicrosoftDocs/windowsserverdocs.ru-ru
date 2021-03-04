@@ -3,16 +3,16 @@ title: bitsadmin getcustomheaders
 description: Справочная статья по команде битсадмин жеткустомхеадерс, которая получает пользовательские заголовки HTTP из задания.
 ms.topic: reference
 ms.assetid: 1f0d38d3-e865-4474-81e8-773d65c3d1cc
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: ec061c9e7f195d463525031bcbefc97913d69083
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: b3037fe391b42a36aba608c34f7d0274d24a4d32
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89632197"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101822188"
 ---
 # <a name="bitsadmin-getcustomheaders"></a>bitsadmin getcustomheaders
 

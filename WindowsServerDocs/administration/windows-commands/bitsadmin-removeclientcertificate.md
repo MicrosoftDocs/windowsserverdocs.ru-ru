@@ -3,16 +3,16 @@ title: bitsadmin removeclientcertificate
 description: Справочная статья по команде битсадмин ремовеклиентцертификате, которая удаляет сертификат клиента из задания.
 ms.topic: reference
 ms.assetid: b417c3e5-aadd-4fcc-968f-45d8b67ca516
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: f2c739c1e1b1b3ee31d592adfb17e363dde865bf
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: d98d9f24c30c3550056cd4c2a12a28781c89376f
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89631163"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101821198"
 ---
 # <a name="bitsadmin-removeclientcertificate"></a>bitsadmin removeclientcertificate
 

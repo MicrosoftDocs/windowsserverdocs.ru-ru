@@ -3,16 +3,16 @@ title: bitsadmin getreplyprogress
 description: Справочная статья по команде битсадмин жетреплипрогресс, которая получает размер и ход выполнения отправки и ответа сервера.
 ms.topic: reference
 ms.assetid: 7f7cb0b4-ad95-44fd-a35d-0ddf5fc0b0d0
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 7dffacb53044175b8c65d3832863d17d59853b3a
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: a932f881ef79c5915e390c087399e87aa213b5f5
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89631698"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101821638"
 ---
 # <a name="bitsadmin-getreplyprogress"></a>bitsadmin getreplyprogress
 

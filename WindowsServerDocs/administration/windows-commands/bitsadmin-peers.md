@@ -3,16 +3,16 @@ title: bitsadmin peers
 description: Справочная статья по команде битсадмин Peers, в которой перечислены параметры/Пирс.
 ms.topic: reference
 ms.assetid: 5effbd52-993a-4657-b331-596c64deb8fb
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 572dea9475fa0b701645c59e0d6a3cdd717a847c
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 4accdf34dc4186b9d5dd06dc7a44af1b152ab03d
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89631267"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101821238"
 ---
 # <a name="bitsadmin-peers"></a>bitsadmin peers
 

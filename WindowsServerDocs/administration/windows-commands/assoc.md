@@ -3,16 +3,16 @@ title: assoc
 description: Справочная статья по команде Assoc, которая отображает или изменяет сопоставления расширений имен файлов.
 ms.topic: reference
 ms.assetid: 237bedda-b24c-4fec-a39c-9b7eacf96417
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 1ce1ee97dd386757ab5802ac2f493e25635ff66f
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 58e57596932f8e1935bee1ea778a568bac1c415d
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89633444"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101823688"
 ---
 # <a name="assoc"></a>assoc
 
@@ -36,7 +36,7 @@ assoc [<.ext>[=[<filetype>]]]
 | `<filetype>` | Указывает тип файла, связываемого с указанным расширением имени файла. |
 | /? | Отображение справки в командной строке. |
 
-### <a name="remarks"></a>Примечания
+### <a name="remarks"></a>Комментарии
 
 - Чтобы удалить сопоставление типа файла для расширения имени файла, добавьте пробел после знака равенства, нажав клавишу пробел.
 

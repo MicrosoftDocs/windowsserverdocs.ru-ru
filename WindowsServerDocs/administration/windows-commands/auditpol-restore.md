@@ -3,16 +3,16 @@ title: auditpol restore
 description: Справочная статья по команде auditpol restore, которая восстанавливает параметры политики аудита системы, параметры политики аудита на уровне пользователя для всех пользователей и все параметры аудита из файла, который синтаксически согласуется с форматом файла данных с разделителями-запятыми (CSV), который используется параметром/баккуп.
 ms.topic: reference
 ms.assetid: ad73e520-484f-4cf1-a7f9-ae7488e9edf6
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: d6dc8dde77189cbd1134779bf89f253402f181dc
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 84e1be696def9291a0842078ef656faac2f6af25
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89633111"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101823108"
 ---
 # <a name="auditpol-restore"></a>auditpol restore
 

@@ -3,16 +3,16 @@ title: bitsadmin addfileset
 description: Справочная статья по команде битсадмин аддфилесет, которая добавляет один или несколько файлов к указанному заданию.
 ms.topic: reference
 ms.assetid: 75466994-262f-4724-b14d-f813c5397675
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 2e3e736fe6dcc96b7f81b3b249257f0d23dd78c9
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 4cf0ecda90c8248277fb7c23c8cefd1548b56262
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89632717"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101822628"
 ---
 # <a name="bitsadmin-addfileset"></a>bitsadmin addfileset
 

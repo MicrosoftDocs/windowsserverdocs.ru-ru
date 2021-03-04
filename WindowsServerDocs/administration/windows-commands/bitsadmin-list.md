@@ -3,16 +3,16 @@ title: bitsadmin list
 description: Справочная статья по команде битсадмин List, в которой перечислены задания перемещения, принадлежащие текущему пользователю.
 ms.topic: reference
 ms.assetid: 1416965e-e0e6-49cf-b1d4-b286d3cf8716
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 81fecf15f16cfa28933b63f9de693ba4e07679e8
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 40e7492ea44b23b0093b9a124a1e4f238ee9419b
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89631504"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101821478"
 ---
 # <a name="bitsadmin-list"></a>bitsadmin list
 

@@ -3,16 +3,16 @@ title: autofmt
 description: Справочная статья по команде аутофмт, которая форматирует диск или раздел при вызове из консоли восстановления Windows.
 ms.topic: reference
 ms.assetid: 81f9abac-f927-41d8-8667-f056db4cb2af
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 3c99b9157eb30606c930a74f1c40deb97479769d
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: cdf632723a6f316aa91d7d0a32c5ef3949cda6ce
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89633007"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101822928"
 ---
 # <a name="autofmt"></a>autofmt
 

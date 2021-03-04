@@ -3,16 +3,16 @@ title: bitsadmin resume
 description: Справочная статья по команде битсадмин Resume, которая активирует новое или приостановленное задание в очереди на перемещение.
 ms.topic: reference
 ms.assetid: 7c7540a9-a11a-4910-923a-2a2a61cbf11d
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 2ccab242034af3e0b5e01f0efec60d5309879516
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 3bd2563232041306ec74a3890bcad8cd4c854fc2
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89631108"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101821168"
 ---
 # <a name="bitsadmin-resume"></a>bitsadmin resume
 

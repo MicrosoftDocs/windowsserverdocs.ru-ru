@@ -3,16 +3,16 @@ title: bitsadmin monitor
 description: Справочная статья по команде монитора битсадмин, которая отслеживает задания в очереди на перемещение, принадлежащие текущему пользователю.
 ms.topic: reference
 ms.assetid: 2c424d27-e011-49c2-b579-a2c235467c39
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 2245d9e4375130877755f96eed42a46a479742f3
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: c863b9da7004cdf0d2cd8fa83144f7d010513571
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89631474"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101821438"
 ---
 # <a name="bitsadmin-monitor"></a>bitsadmin monitor
 

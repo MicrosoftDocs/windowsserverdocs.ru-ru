@@ -3,16 +3,16 @@ title: atmadm
 description: Справочная статья по команде atmadm, которая наблюдает за подключениями и адресами, зарегистрированными диспетчером вызовов atM в сети с асинхронным режимом пересылки (atM).
 ms.topic: reference
 ms.assetid: 37156c2e-c4d4-4fd8-a03d-245fb60bf996
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: c77ab10ce7ec628d3a1c820bc644f4b117d82953
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 58e569925d84f7e6f2b5772cb34cb3d3d7671a6d
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89633401"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101823548"
 ---
 # <a name="atmadm"></a>atmadm
 
@@ -35,7 +35,7 @@ atmadm [/c][/a][/s]
 | /s | Отображает статистику для мониторинга состояния активных atM-подключений. |
 | /? | Отображение справки в командной строке. |
 
-### <a name="remarks"></a>Примечания
+### <a name="remarks"></a>Комментарии
 
 - Команда **atmadm/c** выводит примерно следующий результат:
 

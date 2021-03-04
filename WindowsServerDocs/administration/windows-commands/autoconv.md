@@ -3,16 +3,16 @@ title: autoconv
 description: Справочная статья по команде аутоконв, которая преобразует тома FAT и FAT32 в файловую систему NTFS.
 ms.topic: reference
 ms.assetid: 17281e54-0b18-4e84-94ac-24586c82df4e
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: cddb1c3a9f4f172f4fe026400eaa65716e9f3d0e
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 6a3e9da89b45c4adbefc26c0c6965b00bf1b8b0f
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89633011"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101823048"
 ---
 # <a name="autoconv"></a>autoconv
 

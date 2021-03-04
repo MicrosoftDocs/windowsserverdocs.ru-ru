@@ -3,16 +3,16 @@ title: bitsadmin peercaching
 description: Справочная статья по команде битсадмин однорангового кэширования, в которой перечислены параметры/пиркачинг.
 ms.topic: reference
 ms.assetid: c2eaa3c7-9d30-4731-8a78-4b6e6041d29a
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: e0e9bc8d0bf6fcaabdd0ad2ea6febdeb5c827e1f
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 3e39140604546cf5009a047cf0f31c9b5c94f5c9
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89631315"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101821378"
 ---
 # <a name="bitsadmin-peercaching"></a>bitsadmin peercaching
 

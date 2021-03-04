@@ -3,16 +3,16 @@ title: bitsadmin addfilewithranges
 description: Справочная статья по команде битсадмин аддфилевисранжес, которая добавляет файл к указанному заданию. Служба BITS загружает указанные диапазоны из удаленного файла.
 ms.topic: reference
 ms.assetid: df0ce0bf-dff1-4a48-a16f-fd2f4d5f7189
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 5eda860558f43b5f692bd41167617b24dbb6f86b
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 2f8cfd77ab178b7001fb8c06facfa906c50f934f
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89632651"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101822608"
 ---
 # <a name="bitsadmin-addfilewithranges"></a>bitsadmin addfilewithranges
 
@@ -33,7 +33,7 @@ bitsadmin /addfilewithranges <job> <remoteURL> <localname> <rangelist>
 | localname | Имя файла на локальном компьютере. Должен содержать абсолютный путь к файлу. |
 | ранжелист | Разделенный запятыми список пар "смещение: длина". Используйте двоеточие, чтобы разделить значение смещения от значения длины. Например, значение указывает, что `0:100,2000:100,5000:eof` бит передает 100 байт со смещения 0, 100 байт из смещения 2000, а остальные байт от смещения 5000 до конца файла. |
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Комментарии
 
 - Токен **EOF** — это допустимое значение длины в пределах пар смещения и длины в `<rangelist>` . Он указывает службе выполнить чтение до конца указанного файла.
 

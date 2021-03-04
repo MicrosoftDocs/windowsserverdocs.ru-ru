@@ -3,20 +3,20 @@ title: bitsadmin setaclflag
 description: Справочная статья по команде битсадмин сетаклфлаг, которая устанавливает флаги распространения списка управления доступом (ACL).
 ms.topic: reference
 ms.assetid: 6e3bcda0-827d-4dfd-8384-d1da018f3e10
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 0cc0dac9027bd76735592620f89118318548dbdb
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: c5dc6cdec4304cc91a02de5f93d7a4412516ef66
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89631056"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101821078"
 ---
 # <a name="bitsadmin-setaclflag"></a>bitsadmin setaclflag
 
-Задает флаги распространения списка управления доступом (ACL) для задания. Флаги указывают, что вы хотите сохранить сведения о владельце и списке ACL с загружаемым файлом. Например, чтобы сохранить владельца и группу с файлом, установите для параметра **flags** значение `og` .
+Задает флаги распространения списка управления доступом (ACL) для задания. Флаги указывают, что вы хотите сохранить сведения о владельце и списке ACL с загружаемым файлом. Например, чтобы сохранить владельца и группу с файлом, установите для параметра **flags** значение `og` .
 
 ## <a name="syntax"></a>Синтаксис
 

@@ -3,16 +3,16 @@ title: bitsadmin getaclflags
 description: Справочная статья по команде битсадмин жетаклфлагс, которая получает флаги распространения списка управления доступом (ACL).
 ms.topic: reference
 ms.assetid: 99266def-7479-4430-a61c-98ec433fa88b
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 4c5c7101db157b7fa5b56833b8d5f89619bd8d51
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 4d4a643df4d178d6b4ff5e92a576c5374446feee
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89632320"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101822248"
 ---
 # <a name="bitsadmin-getaclflags"></a>bitsadmin getaclflags
 
@@ -30,7 +30,7 @@ bitsadmin /getaclflags <job>
 | --------- | ----------- |
 | задание | Отображаемое имя задания или идентификатор GUID. |
 
-### <a name="remarks"></a>Примечания
+### <a name="remarks"></a>Комментарии
 
 Возвращает одно или несколько из следующих значений флагов:
 

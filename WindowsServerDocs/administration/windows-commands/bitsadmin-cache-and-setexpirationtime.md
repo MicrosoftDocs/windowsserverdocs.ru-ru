@@ -3,16 +3,16 @@ title: bitsadmin cache и setexpirationtime
 description: Справочная статья по битсадмин кэшу и команде сетекспиратионтиме, которая задает срок действия кэша.
 ms.topic: reference
 ms.assetid: 00ea6e4e-b707-4b31-88dd-b61a78565c8d
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 0d9bc67292796afdbcec695ea2e65966b5b5e46d
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 0f739c09c702d6dc765a59ed6ced69e8a3ba1642
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89632534"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101822438"
 ---
 # <a name="bitsadmin-cache-and-setexpirationtime"></a>bitsadmin cache и setexpirationtime
 

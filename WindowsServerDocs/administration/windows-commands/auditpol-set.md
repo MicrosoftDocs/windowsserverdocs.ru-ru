@@ -3,16 +3,16 @@ title: auditpol set
 description: Справочная статья по команде auditpol Set, которая задает политику аудита для отдельных пользователей, политику аудита системы или параметры аудита.
 ms.topic: reference
 ms.assetid: f4947486-87bd-48cb-ba81-7230c8e70895
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: ac9baa7a8936e4b664cb767f7eb626f4f69fafed
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 293460b98db974b63bad473a48dfcd4f941a8256
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89633103"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101823098"
 ---
 # <a name="auditpol-set"></a>auditpol set
 

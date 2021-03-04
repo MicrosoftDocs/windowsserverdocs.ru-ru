@@ -3,16 +3,16 @@ title: attributes volume
 description: Справочная статья по команде атрибуты тома, которая отображает, устанавливает или удаляет атрибуты тома.
 ms.topic: reference
 ms.assetid: e40e8284-3d57-4de8-a46c-e4ade34a0d53
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: dd651732dbf537da31ae5f5343c687868ffb2741
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 70d8577c20bd8ee128b6a186aeadf724784d2e42
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89633288"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101823488"
 ---
 # <a name="attributes-volume"></a>attributes volume
 
@@ -38,11 +38,11 @@ attributes volume [{set | clear}] [{hidden | readonly | nodefaultdriveletter | s
 | SHADOWCOPY | Указывает, что том является томом теневого копирования. |
 | Noerr | Только для сценариев. При возникновении ошибки DiskPart продолжит обрабатывать команды, как если бы ошибка не возникала. Без этого параметра ошибка приводит к выходу из программы DiskPart с кодом ошибки. |
 
-### <a name="remarks"></a>Примечания
+### <a name="remarks"></a>Комментарии
 
-- На основных дисках основной загрузочной записи (MBR) параметры **Hidden**, **ReadOnly**и **нодефаултдривелеттер** применяются ко всем томам на диске.
+- На основных дисках основной загрузочной записи (MBR) параметры **Hidden**, **ReadOnly** и **нодефаултдривелеттер** применяются ко всем томам на диске.
 
-- На основных дисках таблицы разделов GPT, а также на динамических дисках MBR и GPT параметры **Hidden**, **ReadOnly**и **нодефаултдривелеттер** применяются только к выбранному тому.
+- На основных дисках таблицы разделов GPT, а также на динамических дисках MBR и GPT параметры **Hidden**, **ReadOnly** и **нодефаултдривелеттер** применяются только к выбранному тому.
 
 - Чтобы команда **атрибутов тома** была выполнена, необходимо выбрать том. Используйте команду **выбрать том** , чтобы выбрать том и переместить фокус на него.
 

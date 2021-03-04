@@ -3,16 +3,16 @@ title: bitsadmin addfile
 description: Справочная статья по команде битсадмин AddFile, которая добавляет файл к указанному заданию.
 ms.topic: reference
 ms.assetid: 1b31aa93-0364-465b-af36-754968825989
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 74e77f2af220a057ed0ad87da797e9ae88c7aef5
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 80d4a77da8619c39909d31ff4a29f76375c46ac9
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89632741"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101822638"
 ---
 # <a name="bitsadmin-addfile"></a>bitsadmin addfile
 

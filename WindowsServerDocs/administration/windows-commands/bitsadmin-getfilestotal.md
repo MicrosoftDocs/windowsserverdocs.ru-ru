@@ -3,16 +3,16 @@ title: bitsadmin getfilestotal
 description: Справочная статья по команде битсадмин жетфилестотал, которая получает количество файлов в указанном задании.
 ms.topic: reference
 ms.assetid: c5de113e-f29c-4cd3-9392-0e300018d516
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 73a543914f31a7b9e5b028caf273d7945a954fdd
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 37be96f1fa7605aca542735d37dbf4c5617282d8
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89632107"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101822008"
 ---
 # <a name="bitsadmin-getfilestotal"></a>bitsadmin getfilestotal
 

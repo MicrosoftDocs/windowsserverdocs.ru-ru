@@ -3,16 +3,16 @@ title: bitsadmin listfiles
 description: Справочная статья по команде битсадмин листфилес, в которой перечислены файлы в указанном задании.
 ms.topic: reference
 ms.assetid: ad0d1eaa-3bd8-45e5-8f72-4da7366f0d59
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 702c2d3d3370275373a91aef63aa82f7e84bcf14
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 73c2e94ce9872aa05b2c0c897c678e3b1797ffc3
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89631510"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101821468"
 ---
 # <a name="bitsadmin-listfiles"></a>bitsadmin listfiles
 

@@ -3,16 +3,16 @@ title: assign
 description: Справочная статья по команде Assign, которая назначает букву диска или точку подключения тому, имеющему фокус.
 ms.topic: reference
 ms.assetid: 57912b73-622e-489b-b053-a369021ba8e1
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: ff5f911fdaa4fc3703cbef2374b7431925a44fcf
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 3df526aa62a2a9e2be56bf70d97a0706f967745c
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89633464"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101823698"
 ---
 # <a name="assign"></a>assign
 

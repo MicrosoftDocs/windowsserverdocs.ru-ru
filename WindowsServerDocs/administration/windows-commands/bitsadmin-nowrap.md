@@ -3,16 +3,16 @@ title: bitsadmin nowrap
 description: Справочная статья по команде битсадмин "без переноса", которая усекает любую строку выходного текста, выходящего за пределы крайнего правого края окна командной строки.
 ms.topic: reference
 ms.assetid: 85a47b90-783a-41e4-96f2-81f26ae8ca93
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 2e5724f3dedb808898cd070026e2e4a944d4731b
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: db66f9e783c3bf3af79cd81fa477cc2f3a9d24e4
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89631425"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101821428"
 ---
 # <a name="bitsadmin-nowrap"></a>bitsadmin nowrap
 

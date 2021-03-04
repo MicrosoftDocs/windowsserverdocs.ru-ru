@@ -3,16 +3,16 @@ title: bitsadmin peers и help
 description: Справочная статья для одноранговых узлов битсадмин и команды Help, которая отображает сведения об использовании командной строки для параметров/Пирс.
 ms.topic: reference
 ms.assetid: 49016dcb-e3be-44d9-b00a-1a42eb5984ff
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 576b4e72996633a9337068c9b0807ffacf1fcc9b
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: c7cd18d914551685b0b0862fe63a173e41aece6f
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89631280"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101821268"
 ---
 # <a name="bitsadmin-peers-and-help"></a>bitsadmin peers и help
 

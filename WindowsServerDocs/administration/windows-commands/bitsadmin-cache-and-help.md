@@ -3,16 +3,16 @@ title: bitsadmin cache и help
 description: Справочная статья по кэшу битсадмин и команде Help, которая отображает сведения об использовании командной строки для коммутаторов **кэша** .
 ms.topic: reference
 ms.assetid: 0b14db49-84ac-4c2f-bf1f-f65e13cbfb35
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 1c9d2f51e7d25fbf77e565dd7e9dd8d95c0cbc24
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 400f050ef151e2b888120cf764d5b765d26009b9
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89632574"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101822488"
 ---
 # <a name="bitsadmin-cache-and-help"></a>bitsadmin cache и help
 

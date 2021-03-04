@@ -3,16 +3,16 @@ title: bitsadmin info
 description: Справочная статья по команде битсадмин info, в которой отображаются сводные данные об указанном задании.
 ms.topic: reference
 ms.assetid: 5c306677-0d64-41c0-8276-5bba7750cecb
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 815fdc719d584f7d25f88705056e4d5c0c3405aa
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 06a26214660ce8e2b01b7dbb876f0128fd5a306b
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89631532"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101821568"
 ---
 # <a name="bitsadmin-info"></a>bitsadmin info
 

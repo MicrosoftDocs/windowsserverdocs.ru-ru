@@ -3,16 +3,16 @@ title: bitsadmin cache и list
 description: Справочная статья по команде Cache и List битсадмин, в которой перечислены все записи кэша.
 ms.topic: reference
 ms.assetid: 9b4d10a6-42f8-487c-9f0b-65bc15682b7e
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 2f2f876eaa4039b08293bf356f868082276fe0d4
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 3f0a6aca0d0be3309c1f3b7938cbffd1268a8e52
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89632541"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101822448"
 ---
 # <a name="bitsadmin-cache-and-list"></a>bitsadmin cache и list
 

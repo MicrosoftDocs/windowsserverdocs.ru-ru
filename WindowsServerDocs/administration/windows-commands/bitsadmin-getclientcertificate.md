@@ -3,16 +3,16 @@ title: bitsadmin getclientcertificate
 description: Справочная статья по команде битсадмин жетклиентцертификате, которая получает сертификат клиента из задания.
 ms.topic: reference
 ms.assetid: 4fc8f408-085e-43a0-9fa8-3d798ef107b1
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 71f1ed8920ba2bd3aa0a0f48683d8841e08afb6d
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 0c37495eba30e1af09f8ffc1b36fba740376ce46
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89632268"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101822208"
 ---
 # <a name="bitsadmin-getclientcertificate"></a>bitsadmin getclientcertificate
 

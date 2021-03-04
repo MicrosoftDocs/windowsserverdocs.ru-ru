@@ -3,16 +3,16 @@ title: битсадмин жетпроксилист — извлекает сп
 description: Справочная статья по команде битсадмин жетпроксилист, которая получает список прокси-серверов для указанного задания.
 ms.topic: reference
 ms.assetid: eebfa727-d8f1-4ae3-9382-6d8ffe8c3df3
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 4d4cefcb27a9aa18b06bc588d08aba2f2f810636
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 8c96208a036847690c60a00f48dc4201c9d21ff1
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89631741"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101821778"
 ---
 # <a name="bitsadmin-getproxylist"></a>bitsadmin getproxylist
 

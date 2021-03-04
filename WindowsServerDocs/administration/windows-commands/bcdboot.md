@@ -3,16 +3,16 @@ title: bcdboot
 description: Справочная статья по команде BCDboot, которая быстро настраивает системный раздел или восстановление среды загрузки, расположенной в системном разделе.
 ms.topic: reference
 ms.assetid: e62a250e-08e9-47f6-89d1-e6002560ab57
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: b7cc67c47093686882f0a7bfa1fcc47f8c444210
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: ffd8f01bbf021713a38cc567343752d1c5569cd6
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89632981"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101822848"
 ---
 # <a name="bcdboot"></a>bcdboot
 
@@ -34,7 +34,7 @@ bcdboot <source> [/l] [/s]
 
 ## <a name="examples"></a>Примеры
 
-Сведения о том, где найти BCDboot и примеры использования этой команды, см. в разделе [Параметры командной строки BCDboot](/previous-versions/windows/it-pro/windows-8.1-and-8/hh824874(v=win.10)) .
+Сведения о том, где найти BCDboot и примеры использования этой команды, см. в разделе [параметры Command-Line BCDboot](/previous-versions/windows/it-pro/windows-8.1-and-8/hh824874(v=win.10)) .
 
 ## <a name="additional-references"></a>Дополнительные ссылки
 

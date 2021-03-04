@@ -2,16 +2,16 @@
 title: bitsadmin gethttpmethod
 description: Справочная статья по команде битсадмин жесттпмесод, которая получает команду HTTP для использования с заданием.
 ms.topic: reference
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 03/01/2019
-ms.openlocfilehash: 0d96c85aa99330b133954a77ca5584fe2d02cd43
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 41286885153ef6b06185d7934db12fe25cc6beda
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89632035"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101822076"
 ---
 # <a name="bitsadmin-gethttpmethod"></a>bitsadmin gethttpmethod
 

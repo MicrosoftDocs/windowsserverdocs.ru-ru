@@ -3,16 +3,16 @@ title: bitsadmin create
 description: Справочная статья по команде битсадмин Create, которая создает задание перемещения с заданным отображаемым именем.
 ms.topic: reference
 ms.assetid: 9a8c53af-900b-4c24-9265-5b8b08213fac
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 7d621f3c03f2b002c88792bc2cf2b8f2c70351c2
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 9fc2a5613c147f36a291ee06773abee5eb246c82
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89632368"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101822358"
 ---
 # <a name="bitsadmin-create"></a>bitsadmin create
 
@@ -21,7 +21,7 @@ ms.locfileid: "89632368"
 Создает задание перемещения с заданным отображаемым именем.
 
 > [!NOTE]
-> **/Upload**   Типы параметров/upload и **/уплоад-репли** не поддерживаются в битах 1,2 и более ранних версиях.
+> Типы параметров **/upload** и **/уплоад-репли** не поддерживаются в битах 1,2 и более ранних версиях.
 
 ## <a name="syntax"></a>Синтаксис
 

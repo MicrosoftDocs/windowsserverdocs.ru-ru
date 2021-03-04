@@ -3,16 +3,16 @@ title: bdehdcfg target
 description: Справочная статья по команде BdeHdCfg Target, которая готовит раздел для использования в качестве системного диска с помощью BitLocker и восстановления Windows.
 ms.topic: reference
 ms.assetid: f761d25d-8349-4ac7-ac46-6bb340a4348f
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 7cc13e3c224aa1af944c5e9c9550737addcb6980
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 34edd9789b1fe4df24ef6e6d6a319e2769155fb8
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89632814"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101822758"
 ---
 # <a name="bdehdcfg-target"></a>BdeHdCfg: целевой объект
 
