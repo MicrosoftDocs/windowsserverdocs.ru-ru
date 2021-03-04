@@ -3,16 +3,16 @@ title: pubprn
 description: Справочная статья по команде Pubprn, которая публикует принтер в службах домен Active Directory.
 ms.topic: reference
 ms.assetid: 0bc7f7e3-84e1-4359-b477-7b1a1a0bd639
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 36366e91f390ee8afb4884e31951cd5efde9251a
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: e74a91a566286a7a44a0de0fced67e16f909b608
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89640608"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101807873"
 ---
 # <a name="pubprn"></a>pubprn
 
@@ -35,7 +35,7 @@ cscript pubprn {<servername> | <UNCprinterpath>} LDAP://CN=<container>,DC=<conta
 | `LDAP://CN=<Container>,DC=<Container>` | Указывает путь к контейнеру в службах домен Active Directory Services, где требуется опубликовать принтер. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 - Если предоставленные сведения содержат пробелы, заключите его в кавычки (например, "имя компьютера").
 

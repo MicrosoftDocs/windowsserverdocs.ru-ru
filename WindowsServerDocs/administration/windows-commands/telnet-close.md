@@ -3,16 +3,16 @@ title: telnet close
 description: Справочная статья по команде Telnet Close, которая закрывает текущее подключение Telnet.
 ms.topic: reference
 ms.assetid: 9330a5e0-bdb5-446b-8c25-c2c460df8b6b
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 8e25a3a84e96db3e51e02472d726c9c7154bd255
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: fec42c57618d756284dae868f05199780bf66cfe
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91718021"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101805267"
 ---
 # <a name="telnet-close"></a>Telnet: закрыть
 

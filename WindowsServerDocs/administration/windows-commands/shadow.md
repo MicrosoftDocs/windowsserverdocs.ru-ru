@@ -3,16 +3,16 @@ title: shadow
 description: Справочная статья по команде Shadow, которая позволяет удаленно управлять активным сеансом другого пользователя на удаленный рабочий стол сервере узла сеансов.
 ms.topic: reference
 ms.assetid: f81d9717-6883-4e14-9508-4b2a87e48ea7
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 4689806b810fa46ccef3cd73b94c4d729c47f641
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: c8902af5f4b6f2fa14b378ae4a9c916caf0f76de
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91718361"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101805737"
 ---
 # <a name="shadow"></a>shadow
 

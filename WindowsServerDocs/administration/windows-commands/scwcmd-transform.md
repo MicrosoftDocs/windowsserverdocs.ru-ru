@@ -3,16 +3,16 @@ title: scwcmd transform
 description: Справочная статья по команде преобразования команду scwcmd, которая преобразует файл политики безопасности, созданный с помощью мастера настройки безопасности (SCW), в новый объект групповая политика (GPO) в службах домен Active Directory Services.
 ms.topic: reference
 ms.assetid: 640dd892-0bb9-416d-8318-60a26605bcf4
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: bef3d9800d19ac0e3e574b4ef2e1195dcdc3baed
-ms.sourcegitcommit: e164aeffc01069b8f1f3248bf106fcdb7f64f894
+ms.openlocfilehash: d6588f14a83d446a129825c0b7fa07fb109bd517
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91389257"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101806347"
 ---
 # <a name="scwcmd-transform"></a>scwcmd transform
 

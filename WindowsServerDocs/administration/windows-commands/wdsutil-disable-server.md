@@ -3,16 +3,16 @@ title: WDSUTIL Disable — сервер
 description: Справочная статья по команде WDSUTIL Disable-Server, которая отключает все службы для сервера служб развертывания Windows.
 ms.topic: reference
 ms.assetid: b69fcfe0-b744-4794-bc75-2c9218c0ba66
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: d8af0a0c929e2bff341b2b5bff71d0838b09d418
-ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
+ms.openlocfilehash: 64b5f5006bafe54b5492d78e422420c2d789bea0
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93070396"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101803937"
 ---
 # <a name="wdsutil-disable-server"></a>WDSUTIL Disable — сервер
 

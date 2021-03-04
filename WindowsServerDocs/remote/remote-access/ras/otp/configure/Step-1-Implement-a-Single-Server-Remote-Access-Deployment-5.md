@@ -4,15 +4,15 @@ description: Узнайте, как реализовать расширенно�
 manager: brianlic
 ms.topic: article
 ms.assetid: c0f4d665-d44e-4348-a89f-5f9191bd96fd
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 17f0a0f39df6dbe9639752d51806499f2c70d826
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: 2c916398d2391d82a7237b7d18797c830da0f473
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98038855"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101803202"
 ---
 # <a name="step-1-implement-a-single-server-remote-access-deployment-with-otp-authentication"></a>Шаг 1. Реализация развертывания удаленного доступа на одном сервере с проверкой подлинности OTP
 

@@ -3,16 +3,16 @@ title: wdsutil enable
 description: Справочная статья по командам WDSUTIL Enable, которая включает все службы для служб развертывания Windows.
 ms.topic: reference
 ms.assetid: aafebfb2-fff0-41c9-a095-8884acf49f50
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: a8f0250502ab0ffc88268e1c7b5dbfd293b1dea6
-ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
+ms.openlocfilehash: 8e9f70232a84d4e0d73294a842e230f8476cfbba
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93070286"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101803769"
 ---
 # <a name="wdsutil-enable-commands"></a>команды WDSUTIL Enable
 

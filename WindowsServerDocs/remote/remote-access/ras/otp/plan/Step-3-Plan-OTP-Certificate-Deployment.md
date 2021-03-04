@@ -4,15 +4,15 @@ description: Узнайте, как спланировать требовани�
 manager: brianlic
 ms.topic: article
 ms.assetid: eca02eeb-d92d-463e-aae0-1f7038ba26fe
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: d563356d3c3635255a7fab3fcecef77becab53fb
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: c5a6b4818748d1bc225a5264de76055f1a71e42f
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98040154"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101803161"
 ---
 # <a name="step-3-plan-otp-certificate-deployment"></a>Шаг 3. Планирование развертывания сертификатов OTP
 

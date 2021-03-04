@@ -3,16 +3,16 @@ title: wdsutil add
 description: Справочная статья по командам WDSUTIL Add.
 ms.topic: reference
 ms.assetid: 6fcdd154-baaf-4288-a355-2a95a3028bce
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 81b31e3fc8ac9712155ed267d225b49c51110613
-ms.sourcegitcommit: 554d274fea48a4d47c19845d969a9ec93dec82de
+ms.openlocfilehash: 0196e5a221b3430042e41ed4808ee3f366f94a4e
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "92524969"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101804037"
 ---
 # <a name="wdsutil-add-commands"></a>команды WDSUTIL Add
 

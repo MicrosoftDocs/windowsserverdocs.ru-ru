@@ -3,16 +3,16 @@ title: telnet set
 description: Справочная статья по команде Telnet Set, которая задает параметры.
 ms.topic: reference
 ms.assetid: 67316b5f-9c6f-43e3-86d5-dcff9ae2ac3e
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 05678eaa3c4308f72ef4a754cc3e352826fa473a
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: 33d0a51cb8d05ebab8c5c459075d3f488e3e8391
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91717981"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101805157"
 ---
 # <a name="telnet-set"></a>Telnet: задать
 
@@ -36,7 +36,7 @@ set [bsasdel] [crlf] [delasbs] [escape <char>] [localecho] [logfile <filename>] 
 | выполняет `<character>` | Задает escape-символ, используемый для ввода запроса клиента Telnet. Escape-символ может быть одиночным символом или сочетанием клавиши **CTRL** и символа. Чтобы задать сочетание клавиш управления, удерживайте нажатой клавишу **CTRL** при вводе символа, который требуется назначить. |
 | локалечо | Включает локальный вывод. |
 | logfile `<filename>` | Записывает текущий сеанс Telnet в локальный файл. Ведение журнала начинается автоматически при выборе этого параметра. |
-| Ведение журналов | Включает ведение журнала. Если файл журнала не задан, выводится сообщение об ошибке. |
+| Ведение журнала | Включает ведение журнала. Если файл журнала не задан, выводится сообщение об ошибке. |
 | режима `{console | stream}` | Задает режим работы. |
 | NTLM | Включает проверку подлинности NTLM. |
 | термин `{ansi | vt100 | vt52 | vtnt}` | Задает тип терминала. |

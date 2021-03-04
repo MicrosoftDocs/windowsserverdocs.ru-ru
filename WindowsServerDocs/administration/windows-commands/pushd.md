@@ -3,16 +3,16 @@ title: pushd
 description: Справочная статья для команды pushd, в которой хранится текущий каталог для использования командой popd, а затем вносятся изменения в указанный каталог.
 ms.topic: reference
 ms.assetid: 396bc545-0f41-473e-b0ac-76fbbb74d390
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 82e5dcd396a8bd0eb4e530b12e65c9ec8a23cd3b
-ms.sourcegitcommit: da2508fb978f2686178a08a9b5a65d7ae208da36
+ms.openlocfilehash: 18bf9fc1a09f8b45bea0df57c7e20f7d4df8565b
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "100334749"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101807863"
 ---
 # <a name="pushd"></a>pushd
 
@@ -35,7 +35,7 @@ pushd [<path>]
 | `<path>` | Указывает каталог для создания текущего каталога. Эта команда поддерживает относительные пути. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Remarks
+#### <a name="remarks"></a>Комментарии
 
 - Если расширения команд включены, команда **pushd** принимает либо сетевой путь, либо букву локального диска и путь.
 

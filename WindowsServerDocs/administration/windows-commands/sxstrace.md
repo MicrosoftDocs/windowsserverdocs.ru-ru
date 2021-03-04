@@ -3,16 +3,16 @@ title: sxstrace
 description: Справочная статья по команде систраце, которая помогает диагностировать проблемы, связанные с параллельным управлением.
 ms.topic: reference
 ms.assetid: fcd26eeb-fbd9-4a86-b6a9-dfa5e9c6e4fc
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 95f52993db56e61b3a1cd4d26a0ef36626421a15
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: eb73a173caaa13eee2cfeb8bf158089ff774f2bb
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91718211"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101805547"
 ---
 # <a name="sxstrace"></a>sxstrace
 

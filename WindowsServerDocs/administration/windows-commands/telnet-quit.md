@@ -3,16 +3,16 @@ title: telnet quit
 description: Справочная статья по команде Telnet quit, которая завершает работу программы Telnet.
 ms.topic: reference
 ms.assetid: a6e033f2-f0c2-404c-9cb4-abd1d7af0eea
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: cb53a9b894fb050f51a85dbed869c1e850897bea
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: d9ee96752c8e052dd5e556b0d8b08792a4472504
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91718001"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101805176"
 ---
 # <a name="telnet-quit"></a>Telnet: Quit
 

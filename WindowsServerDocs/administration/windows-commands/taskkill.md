@@ -3,16 +3,16 @@ title: taskkill
 description: Справочная статья по команде Taskkill, которая завершает одну или несколько задач или процессов.
 ms.topic: reference
 ms.assetid: 2b71e792-08b6-46d4-95a5-cb6336a79524
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: e022bc980e2acd7fb70bf13af52f8096fd6aaa1f
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: 621736cba7f4034f8dc3d3cace915a58c199dfd1
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91718081"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101805337"
 ---
 # <a name="taskkill"></a>taskkill
 
@@ -69,7 +69,7 @@ taskkill [/s <computer> [/u [<domain>\]<username> [/p [<password>]]]] {[/fi <fil
 
 ## <a name="examples"></a>Примеры
 
-Чтобы завершить процессы с идентификаторами *1230*, *1241*и *1253*, введите:
+Чтобы завершить процессы с идентификаторами *1230*, *1241* и *1253*, введите:
 
 ```
 taskkill /pid 1230 /pid 1241 /pid 1253
@@ -81,7 +81,7 @@ taskkill /pid 1230 /pid 1241 /pid 1253
 taskkill /f /fi "USERNAME eq NT AUTHORITY\SYSTEM" /im notepad.exe
 ```
 
-Чтобы завершить все процессы на удаленном компьютере *срвмаин* с именем образа, начинающимся с *заметки*, используя учетные данные для *хироплн*учетной записи пользователя, введите:
+Чтобы завершить все процессы на удаленном компьютере *срвмаин* с именем образа, начинающимся с *заметки*, используя учетные данные для *хироплн* учетной записи пользователя, введите:
 
 ```
 taskkill /s srvmain /u maindom\hiropln /p p@ssW23 /fi "IMAGENAME eq note*" /im *

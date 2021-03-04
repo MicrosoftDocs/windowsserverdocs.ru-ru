@@ -3,16 +3,16 @@ title: takeown
 description: Справочная статья по команде takeown, которая позволяет администратору восстановить доступ к файлу, который ранее был отклонен.
 ms.topic: reference
 ms.assetid: 0683cd65-a6db-4cab-962b-45a0ff61f43c
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 34fce5000a0a8c91123a2ebd4765bf4cbb00a289
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: 83568ba954777c59a8623ec37cca05feb9de6a62
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91718241"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101805507"
 ---
 # <a name="takeown"></a>takeown
 

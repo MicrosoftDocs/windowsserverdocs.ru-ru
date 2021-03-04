@@ -4,15 +4,15 @@ description: Узнайте, как спланировать и настроит
 manager: brianlic
 ms.topic: article
 ms.assetid: 96538cbb-7d6c-4860-9ec7-b1834284ad10
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: c4a23a5ef05d512fb3e5a482912bac0cc268966f
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: 724b790d08e5ed0ba30c420f32ac13d75b0a536d
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98040174"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101803141"
 ---
 # <a name="step-1-plan-an-advanced-single-server-deployment"></a>Шаг 1. Планирование расширенного развертывания с одним сервером
 

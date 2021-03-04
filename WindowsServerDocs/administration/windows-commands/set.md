@@ -3,16 +3,16 @@ title: команды Set
 description: Справочная статья по командам Set, которая задает контекст, параметры, режим подробного протоколирования и файл метаданных для создания теневой копии.
 ms.topic: reference
 ms.assetid: acf24663-1a50-4321-b48d-1717655e9476
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 9dd6cc30b2a1d1032300382efeb42b0f2fec5a02
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: d105314ac7c3458ddc74608cb699947fb8ee5021
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91718351"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101805787"
 ---
 # <a name="set-commands-shadow-copy-creation"></a>Задание команд (создание теневой копии)
 

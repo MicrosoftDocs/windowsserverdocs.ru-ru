@@ -1,19 +1,19 @@
 ---
-title: Установка Tapicfg
+title: tapicfg install
 description: Справочная статья по команде Tapicfg install, которая создает раздел каталога приложений TAPI.
 ms.topic: reference
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 09/29/2020
-ms.openlocfilehash: 4f1f208406e7f616eb317687c24bb45218f3ba06
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: 7553fcdea9d89f5f717a0e392c75a694599d9ac5
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91731223"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101805467"
 ---
-# <a name="tapicfg-install"></a>Установка Tapicfg
+# <a name="tapicfg-install"></a>tapicfg install
 
 > Область применения: Windows Server (половина ежегодного канала), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
@@ -59,12 +59,12 @@ tapicfg install /directory:tapifiction.testdom.microsoft.com /server:testdc.test
 
 - [Условные обозначения синтаксиса команд командной строки](command-line-syntax-key.md)
 
-- [Удаление Tapicfg](tapicfg-remove.md)
+- [tapicfg remove](tapicfg-remove.md)
 
-- [Tapicfg публишскп](tapicfg-publishscp.md)
+- [tapicfg publishscp](tapicfg-publishscp.md)
 
-- [Tapicfg ремовескп](tapicfg-removescp.md)
+- [tapicfg removescp](tapicfg-removescp.md)
 
-- [вывод Tapicfg](tapicfg-show.md)
+- [tapicfg show](tapicfg-show.md)
 
-- [Tapicfg македефаулт](tapicfg-makedefault.md)
+- [tapicfg makedefault](tapicfg-makedefault.md)

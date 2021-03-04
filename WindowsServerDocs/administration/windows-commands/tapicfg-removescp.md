@@ -1,19 +1,19 @@
 ---
-title: Tapicfg ремовескп
+title: tapicfg removescp
 description: Справочная статья по команде Tapicfg ремовескп, которая удаляет точку подключения службы для раздела каталога приложений TAPI.
 ms.topic: reference
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 09/29/2020
-ms.openlocfilehash: 250bcf83fe2da51cfc518d893e01e04968fa5f21
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: 4bb46dfc5f13314d9e3a5fc0ed2f0d586bcf778c
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91731183"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101805367"
 ---
-# <a name="tapicfg-removescp"></a>Tapicfg ремовескп
+# <a name="tapicfg-removescp"></a>tapicfg removescp
 
 > Область применения: Windows Server (половина ежегодного канала), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
@@ -47,12 +47,12 @@ tapicfg removescp /directory:<partitionname> [/domain:<domainname>]
 
 - [Условные обозначения синтаксиса команд командной строки](command-line-syntax-key.md)
 
-- [Установка Tapicfg](tapicfg-install.md)
+- [tapicfg install](tapicfg-install.md)
 
-- [Удаление Tapicfg](tapicfg-remove.md)
+- [tapicfg remove](tapicfg-remove.md)
 
-- [Tapicfg публишскп](tapicfg-publishscp.md)
+- [tapicfg publishscp](tapicfg-publishscp.md)
 
-- [вывод Tapicfg](tapicfg-show.md)
+- [tapicfg show](tapicfg-show.md)
 
-- [Tapicfg македефаулт](tapicfg-makedefault.md)
+- [tapicfg makedefault](tapicfg-makedefault.md)

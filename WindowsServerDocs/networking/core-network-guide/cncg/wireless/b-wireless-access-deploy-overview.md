@@ -4,15 +4,15 @@ description: Сведения о компонентах развертывани
 manager: brianlic
 ms.topic: article
 ms.assetid: 29ae0f54-f045-465a-a08e-5867979345f2
-author: eross-msft
-ms.author: lizross
+author: JasonGerend
+ms.author: jgerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 2eb6bf9b3b51416c5ecc5cc49fb4da41b8fbb52a
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: 7196d80d66daa79fa020017e15a9594d3e6674ab
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98038414"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101803541"
 ---
 # <a name="wireless-access-deployment-overview"></a>Обзор развертывания беспроводного доступа
 

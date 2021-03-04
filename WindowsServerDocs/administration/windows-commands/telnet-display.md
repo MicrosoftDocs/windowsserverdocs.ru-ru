@@ -3,16 +3,16 @@ title: telnet display
 description: Справочная статья по команде Telnet Display, которая отображает рабочие параметры.
 ms.topic: reference
 ms.assetid: 9272086c-3aaa-405d-ac71-652f25e2eb34
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 0eca6480f09ae1b773ce76520d3bbe6a24f9edba
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: 8daf7f8b37f3900e2b4da2864bb816816b490718
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91718031"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101805237"
 ---
 # <a name="telnet-display"></a>Telnet: отображение
 

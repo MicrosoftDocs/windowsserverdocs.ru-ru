@@ -3,16 +3,16 @@ title: WDSUTIL Add-Image
 description: Справочная статья по команде WDSUTIL Add-Image, которая добавляет образы на сервер служб развертывания Windows.
 ms.topic: reference
 ms.assetid: d5b6f4da-90ba-4b0e-9423-66c8ef5172e2
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: e0d80c0a3aa9cfc6a5b9e05f11542dfcc8621946
-ms.sourcegitcommit: 554d274fea48a4d47c19845d969a9ec93dec82de
+ms.openlocfilehash: 3544e2e7443e55b14abddf2538e34d221ba41171
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "92524523"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101804127"
 ---
 # <a name="wdsutil-add-image"></a>WDSUTIL Add-Image
 

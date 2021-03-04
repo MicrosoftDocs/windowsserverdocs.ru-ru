@@ -3,16 +3,16 @@ title: WDSUTIL Export-Image
 description: Справочная статья по команде WDSUTIL Export-Image, которая экспортирует существующий образ из хранилища образов в другой файл образа Windows (WIM).
 ms.topic: reference
 ms.assetid: a9b8b467-0f2d-4754-8998-55503a262778
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 8c3c390e43cc8707d8d94ade757130276b5f2753
-ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
+ms.openlocfilehash: 10207c966980542b9dda9feba3048111f19055d4
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93071046"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101803789"
 ---
 # <a name="wdsutil-export-image"></a>WDSUTIL Export-Image
 

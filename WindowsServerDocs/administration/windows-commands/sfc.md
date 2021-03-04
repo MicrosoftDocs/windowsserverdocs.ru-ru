@@ -3,16 +3,16 @@ title: sfc
 description: Справочная статья по команде SFC, которая сканирует и проверяет целостность всех защищенных системных файлов и заменяет неверные версии на правильные версии.
 ms.topic: reference
 ms.assetid: c58c25da-e028-42a6-9e10-973484a4b953
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 829c6e328ad0ea993e11cb5eb5d96d99f0d52476
-ms.sourcegitcommit: e164aeffc01069b8f1f3248bf106fcdb7f64f894
+ms.openlocfilehash: 980f3949515f6b5799ce5b9a3de7f1fd47ad64ca
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91388944"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101805757"
 ---
 # <a name="sfc"></a>sfc
 
@@ -43,7 +43,7 @@ sfc [/scannow] [/verifyonly] [/scanfile=<file>] [/verifyfile=<file>] [/offwindir
 
 ## <a name="examples"></a>Примеры
 
-Чтобы проверить * файлkernel32.dll*, введите:
+Чтобы проверить *файлkernel32.dll*, введите:
 
 ```
 sfc /verifyfile=c:\windows\system32\kernel32.dll

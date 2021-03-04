@@ -3,16 +3,16 @@ title: subst
 description: Справочная статья по команде subst, которая связывает путь с буквой диска.
 ms.topic: reference
 ms.assetid: 3e69234c-2312-4343-868b-afc1017c622a
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 52d45c9139c70c4f513a972f7789f872145c8b63
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: cff6dff23e1569092f7bf00dab8e4a6c8108ded7
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91718231"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101805557"
 ---
 # <a name="subst"></a>subst
 

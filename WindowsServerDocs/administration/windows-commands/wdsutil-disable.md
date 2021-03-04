@@ -3,16 +3,16 @@ title: wdsutil disable
 description: Справочная статья по командам WDSUTIL Disable, которая отключает все службы для служб развертывания Windows.
 ms.topic: reference
 ms.assetid: 08d1b9ea-1e25-486a-b7df-ad26c53b4e77
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: ff35c2011cb5ba9db019a26064e662e87028b7d0
-ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
+ms.openlocfilehash: 9c711bbe72e3916bfa104cfc4a757f9133a94daa
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93070346"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101803917"
 ---
 # <a name="wdsutil-disable-commands"></a>команды WDSUTIL Disable
 

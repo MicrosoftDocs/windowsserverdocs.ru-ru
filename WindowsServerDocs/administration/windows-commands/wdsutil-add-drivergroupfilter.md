@@ -3,16 +3,16 @@ title: Add-Дриверграупфилтер
 description: Справочная статья по команде Add-Дриверграупфилтер, которая добавляет фильтр в группу драйверов на сервере.
 ms.topic: reference
 ms.assetid: a66c5e68-99ea-4e47-b68d-8109633ae336
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: bd9e26e7bdf6b1a03d01b2993c969bbbcf5b8754
-ms.sourcegitcommit: 554d274fea48a4d47c19845d969a9ec93dec82de
+ms.openlocfilehash: 0402db6c153fd6a9ee6979c3641ef2ca76dbf5b5
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "92524609"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101804207"
 ---
 # <a name="add-drivergroupfilter"></a>Add-Дриверграупфилтер
 

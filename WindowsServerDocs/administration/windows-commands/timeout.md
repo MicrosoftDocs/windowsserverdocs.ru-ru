@@ -3,16 +3,16 @@ title: timeout
 description: Справочная статья по команде timeout, которая приостанавливает работу процессора команд в течение указанного числа секунд.
 ms.topic: reference
 ms.assetid: e26b4a84-0e30-46e1-aa10-0667b7d3cb4c
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: edb4d14614099b0e501df175e619285928344c78
-ms.sourcegitcommit: f45640cf4fda621b71593c63517cfdb983d1dc6a
+ms.openlocfilehash: 0813e0bae6f5de2ba15cc3a512755a930013c150
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2020
-ms.locfileid: "92156716"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101805017"
 ---
 # <a name="timeout"></a>timeout
 

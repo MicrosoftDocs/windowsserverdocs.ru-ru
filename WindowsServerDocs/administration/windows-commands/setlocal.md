@@ -3,16 +3,16 @@ title: setlocal
 description: Справочная статья по команде setlocal, которая запускает локализацию переменных среды в пакетном файле.
 ms.topic: reference
 ms.assetid: e4e4b6d3-3f1a-4851-a782-25ee2470e16e
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 2ad4e4c6bd023a5722d823a3bf67c5503329bda5
-ms.sourcegitcommit: e164aeffc01069b8f1f3248bf106fcdb7f64f894
+ms.openlocfilehash: ad37abba5444bb2a28e44b4f081e89d27679c8fa
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91389004"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101805767"
 ---
 # <a name="setlocal"></a>setlocal
 

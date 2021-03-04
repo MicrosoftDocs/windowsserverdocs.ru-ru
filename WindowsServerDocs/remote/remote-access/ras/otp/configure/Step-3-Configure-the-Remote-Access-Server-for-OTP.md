@@ -4,15 +4,15 @@ description: Узнайте, как настроить сервер удален
 manager: brianlic
 ms.topic: article
 ms.assetid: df1e87f2-6a0f-433b-8e42-816ae75395f9
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 51fe01ab53fbad09a0993c84eae97fb8e3ef52ae
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: 9cd74d081d5b0f6fb909c811a588d6f498ce73de
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98039034"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101803221"
 ---
 # <a name="step-3-configure-the-remote-access-server-for-otp"></a>Шаг 3. Настройка сервера удаленного доступа для OTP
 

@@ -4,15 +4,15 @@ description: Узнайте, как настроить сервер RADIUS.
 manager: brianlic
 ms.topic: article
 ms.assetid: 0326818f-9144-496c-b946-f82be4eefbd3
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 4dd1ba5d27e3fac32ca5938156d1dc504dd98cfc
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: 7915a6ec2ef0499b4f2c73859079fc0c77e3943c
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98038788"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101803192"
 ---
 # <a name="step-2-configure-the-radius-server"></a>Шаг 2. Настройка сервера RADIUS
 

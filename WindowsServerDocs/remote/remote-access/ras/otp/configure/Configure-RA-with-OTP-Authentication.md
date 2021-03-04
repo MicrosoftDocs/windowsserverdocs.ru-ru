@@ -4,15 +4,15 @@ description: Узнайте о шагах настройки, необходим
 manager: brianlic
 ms.topic: article
 ms.assetid: 82505b18-dd77-4dd1-aa27-b2962b8241ca
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: b9b73b894456de75ae55e55b58cbc40c3f91489e
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: ba61175672ca79ba07fa7fc00a447af95a4dd516
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98038874"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101803181"
 ---
 # <a name="configure-remote-access-with-otp-authentication"></a>Настройка удаленного доступа с проверкой подлинности OTP
 

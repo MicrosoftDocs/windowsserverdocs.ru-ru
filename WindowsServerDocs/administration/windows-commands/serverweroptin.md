@@ -3,16 +3,16 @@ title: serverweroptin
 description: Справочная статья по команде сервервероптин, которая позволяет включить отчеты об ошибках.
 ms.topic: reference
 ms.assetid: f3c0b0af-cafb-4f09-8b36-5a357ddf392d
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: c8a2fe32634704a22f12430b8516ed7f6cae4e82
-ms.sourcegitcommit: e164aeffc01069b8f1f3248bf106fcdb7f64f894
+ms.openlocfilehash: d45c8376a31b1554499b89fae0c64af45e6cb629
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91389136"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101805937"
 ---
 # <a name="serverweroptin"></a>serverweroptin
 

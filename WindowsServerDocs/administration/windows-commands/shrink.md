@@ -3,16 +3,16 @@ title: shrink
 description: Справочная статья по команде DiskPart Shrink, которая уменьшает размер выбранного тома на указанный вами объем.
 ms.topic: reference
 ms.assetid: ec87cc7c-9846-465e-a10d-4ee10db4f4e6
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 8b03c006243f263a4f1c7fe991580d5e74f9a7a7
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: 108271934f5fb4cb459acfcca1983e53c12ba338
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91718321"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101805687"
 ---
 # <a name="shrink"></a>shrink
 

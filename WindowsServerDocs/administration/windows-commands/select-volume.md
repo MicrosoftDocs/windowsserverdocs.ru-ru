@@ -3,16 +3,16 @@ title: select volume
 description: Справочная статья для команды Выбор тома, которая выбирает указанный том и перемещает фокус на него.
 ms.topic: reference
 ms.assetid: 5d70d776-80ad-4f20-8288-a7997fb1df28
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 643db6484842e8a67462b0460a1ecdeac653e577
-ms.sourcegitcommit: e164aeffc01069b8f1f3248bf106fcdb7f64f894
+ms.openlocfilehash: 7a42699ef276a2715482ea59e24b12436e892101
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91389192"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101806007"
 ---
 # <a name="select-volume"></a>select volume
 

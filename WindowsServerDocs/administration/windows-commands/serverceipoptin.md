@@ -3,16 +3,16 @@ title: serverceipoptin
 description: Справочная статья по серверцеипоптин, которая позволяет участвовать в программа улучшения качества программного обеспечения (CEIP).
 ms.topic: reference
 ms.assetid: 3d7d7fa7-0689-4797-b802-36fe260d21a0
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 6df387158a9630ab767dda655346836355fae936
-ms.sourcegitcommit: e164aeffc01069b8f1f3248bf106fcdb7f64f894
+ms.openlocfilehash: f1bb7e747ff45fcffa0a6454312f70e3170014ed
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91389172"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101805987"
 ---
 # <a name="serverceipoptin"></a>serverceipoptin
 

@@ -3,16 +3,16 @@ title: WDSUTIL Add-имажедриверпаккаже
 description: Справочная статья по команде WDSUTIL Add-имажедриверпаккаже, которая добавляет пакет драйверов, который находится в хранилище драйверов, в существующий образ загрузки на сервере.
 ms.topic: reference
 ms.assetid: 6c2a4833-6427-47f8-9ffb-20b3786cb406
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 5d441007f673a194799e245bb704d31add81a483
-ms.sourcegitcommit: 554d274fea48a4d47c19845d969a9ec93dec82de
+ms.openlocfilehash: d1f84bcc7715969da6964bca82c15a5f8a39040f
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "92524509"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101804147"
 ---
 # <a name="wdsutil-add-imagedriverpackage"></a>WDSUTIL Add-имажедриверпаккаже
 

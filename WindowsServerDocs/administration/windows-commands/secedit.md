@@ -3,16 +3,16 @@ title: команды secedit
 description: Справочная статья по командам Secedit, которые сравнивают текущие конфигурации безопасности с заданными шаблонами безопасности.
 ms.topic: reference
 ms.assetid: 58ed57ed-08e3-403d-a363-0620b358637a
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: ceb1a28376c17ab9d08689c7b0367dd90fdecc4f
-ms.sourcegitcommit: e164aeffc01069b8f1f3248bf106fcdb7f64f894
+ms.openlocfilehash: 5d8fcd36a39b78f6eed4b08218be17cad5a9e743
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91388291"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101806147"
 ---
 # <a name="secedit-commands"></a>команды secedit
 

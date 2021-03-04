@@ -3,16 +3,16 @@ title: pathping
 description: Справочная статья по команде Pathping, которая получает сведения о задержке сети и сетевой утрате в промежуточных прыжках между источником и назначением.
 ms.topic: reference
 ms.assetid: ec430125-b1dc-4aad-a7c9-b70f486d9e3c
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 07/11/2018
-ms.openlocfilehash: ed63467c8eba2d65a6408e08762357275dfef7f8
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: b24cb3aa2362f1fd2338aa5da58940a116a3f300
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89628629"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101808925"
 ---
 # <a name="pathping"></a>pathping
 
@@ -47,7 +47,7 @@ pathping [/n] [/h <maximumhops>] [/g <hostlist>] [/p <Period>] [/q <numqueries> 
 | `<targetname>` | Указывает назначение, которое определяется по IP-адресу или имени узла. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 - Все параметры учитывают регистр.
 

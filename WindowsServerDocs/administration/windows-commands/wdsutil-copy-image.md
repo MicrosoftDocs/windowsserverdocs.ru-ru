@@ -3,16 +3,16 @@ title: WDSUTIL Copy-Image
 description: Справочная статья по команде WDSUTIL Copy-Image, которая копирует образы, которые находятся в одной и той же группе образов.
 ms.topic: reference
 ms.assetid: bea41cf4-36e6-4181-afa5-00170ebd4fdc
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 690040a5f6624e33e01969a77806afb01c815ea9
-ms.sourcegitcommit: 554d274fea48a4d47c19845d969a9ec93dec82de
+ms.openlocfilehash: 0848906431aac66061c75affd1dc8ddfdf09471f
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "92524909"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101803967"
 ---
 # <a name="wdsutil-copy-image"></a>WDSUTIL Copy-Image
 

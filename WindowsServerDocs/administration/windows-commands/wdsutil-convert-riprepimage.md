@@ -3,16 +3,16 @@ title: Convert-рипрепимаже
 description: Справочная статья по команде Convert-рипрепимаже, которая преобразует существующий образ подготовки удаленной установки (RIPrep) в формат образа Windows (WIM).
 ms.topic: reference
 ms.assetid: 88c2b96f-5947-4b64-9dcf-1946b3c013cf
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 4062aa747bd02956a498c16c9e8aa15e96d8170d
-ms.sourcegitcommit: 554d274fea48a4d47c19845d969a9ec93dec82de
+ms.openlocfilehash: 98b9b5d2543fd95a9ebfbbc9bc742e40d5600530
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "92524929"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101804017"
 ---
 # <a name="convert-riprepimage"></a>Convert-рипрепимаже
 

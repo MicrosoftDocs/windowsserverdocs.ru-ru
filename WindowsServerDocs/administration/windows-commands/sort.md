@@ -3,16 +3,16 @@ title: sort
 description: Справочная статья по команде Sort, которая считывает входные данные, сортирует их и записывает результаты на экран, в файл или на другое устройство.
 ms.topic: reference
 ms.assetid: 77116469-4790-4442-8a21-9fa73b65ef9f
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 721a166123d7611a545ea143152f65b6d1e91865
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: e487ee0367248fa2016d09579c19cbc858480b4f
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91718291"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101805577"
 ---
 # <a name="sort"></a>sort
 
@@ -58,13 +58,13 @@ sort [/r] [/+<N>] [/m <kilobytes>] [/l <locale>] [/rec <characters>] [[<drive1>:
 
 ## <a name="examples"></a>Примеры
 
-- Для сортировки и вывода в обратную сортировку строк в файле с именем *expenses.txt*введите:
+- Для сортировки и вывода в обратную сортировку строк в файле с именем *expenses.txt* введите:
 
     ```
     sort /r expenses.txt
     ```
 
-- Чтобы выполнить поиск в большом файле с именем *maillist.txt* для текстового *Jones*и отсортировать результаты поиска с помощью канала (), `|` чтобы направить выходные данные команды **Find** в команду **Sort** , введите:
+- Чтобы выполнить поиск в большом файле с именем *maillist.txt* для текстового *Jones* и отсортировать результаты поиска с помощью канала (), `|` чтобы направить выходные данные команды **Find** в команду **Sort** , введите:
 
     ```
     find Jones maillist.txt | sort

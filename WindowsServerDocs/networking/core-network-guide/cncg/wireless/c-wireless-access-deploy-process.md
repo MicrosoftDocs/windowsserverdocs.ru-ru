@@ -4,15 +4,15 @@ description: Ознакомьтесь с пятью этапами, исполь
 manager: brianlic
 ms.topic: article
 ms.assetid: 2555f238-926e-4b20-9bfb-9774831062da
-author: eross-msft
-ms.author: lizross
+author: JasonGerend
+ms.author: jgerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 233c041b5009c88e2c18638427e678e53f7b0627
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: 815437b6f8a9ed15235c36e7196d0de09c841dbf
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98038284"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101803521"
 ---
 # <a name="wireless-access-deployment-process"></a>Процедура развертывания беспроводного доступа
 

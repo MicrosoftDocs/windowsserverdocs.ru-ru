@@ -3,16 +3,16 @@ title: set id
 description: Справочная статья по команде DiskPart Set ID, которая изменяет поле типа раздела для секции, имеющей фокус.
 ms.topic: reference
 ms.assetid: 5793d7ad-827e-4285-b2c6-ae60eeb0e886
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 0f25498a89cdb7347a40825af70621d5cd09440a
-ms.sourcegitcommit: e164aeffc01069b8f1f3248bf106fcdb7f64f894
+ms.openlocfilehash: d1bc799980c7efb6d30b54394458ab23cab719bf
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91389088"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101805947"
 ---
 # <a name="set-id-diskpart"></a>Идентификатор набора (DiskPart)
 

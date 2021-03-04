@@ -3,16 +3,16 @@ title: verifier
 description: Справочная статья по команде Verifier, которая запускает программу диспетчера проверки драйверов.
 ms.topic: reference
 ms.assetid: 782173d6-f196-4bc4-a547-76109829453c
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: df3a9826463ea4062fb661e04e8fb774275c09d7
-ms.sourcegitcommit: f45640cf4fda621b71593c63517cfdb983d1dc6a
+ms.openlocfilehash: 8642162bda16bf2a82cc0fa277c64b6cec429d29
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2020
-ms.locfileid: "92156262"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101804648"
 ---
 # <a name="verifier"></a>verifier
 

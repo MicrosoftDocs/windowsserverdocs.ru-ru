@@ -3,16 +3,16 @@ title: tcmsetup
 description: Справочная статья по команде tcmsetup, которая устанавливает и отключает клиент TAPI.
 ms.topic: reference
 ms.assetid: 15e0c10f-996f-4301-92e5-943f7ee8212d
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 315c13310d8059d5553dff9c780fbdd656867a57
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: fe8f5db16446ed75864411ad25356e5fc0fb7ee2
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91718071"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101805307"
 ---
 # <a name="tcmsetup"></a>tcmsetup
 

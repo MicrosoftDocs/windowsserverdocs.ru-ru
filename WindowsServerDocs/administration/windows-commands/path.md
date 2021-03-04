@@ -3,16 +3,16 @@ title: path
 description: Справочная статья по настройке пути к команде в переменной среды PATH с указанием набора каталогов, используемых для поиска исполняемых файлов (exe).
 ms.topic: reference
 ms.assetid: 1bfa1349-e79a-472b-a9e6-d7a91149ae8f
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: a6eeeba05b69530091525c65c49606902ca8c165
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 54a62b0e2da1dd21eb567bb59e20e194dcce2af7
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89640670"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101808905"
 ---
 # <a name="path"></a>path
 
@@ -34,7 +34,7 @@ path ;
 | `%PATH%` | Добавляет путь команды к существующему набору каталогов, перечисленных в переменной среды PATH. Если включить этот параметр, Cmd.exe заменит его значениями пути к командам, найденными в переменной среды PATH, что устраняет необходимость вручную вводить эти значения в командной строке. |
 | /? | Отображение справки в командной строке. |
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Комментарии
 
 
 - Операционная система Windows выполняет поиск по расширениям имен файлов по умолчанию в следующем порядке приоритета: exe, com, bat и cmd. Это означает, что если вы ищете пакетный файл с именем, acct.bat, но у вас есть приложение с именем acct.exe в том же каталоге, необходимо включить расширение bat в командную строку.
@@ -45,7 +45,7 @@ path ;
 
 ## <a name="examples"></a>Примеры
 
-Для поиска по путям *к:\усер\таксес*, *б:\усер\инвест*и *б:\бин* для внешних команд введите:
+Для поиска по путям *к:\усер\таксес*, *б:\усер\инвест* и *б:\бин* для внешних команд введите:
 
 ```
 path c:\user\taxes;b:\user\invest;b:\bin

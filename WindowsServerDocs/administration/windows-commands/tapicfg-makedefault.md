@@ -1,19 +1,19 @@
 ---
-title: Tapicfg македефаулт
+title: tapicfg makedefault
 description: Справочная статья по команде Tapicfg македефаулт, которая задает раздел каталога приложений TAPI по умолчанию для домена.
 ms.topic: reference
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 09/29/2020
-ms.openlocfilehash: 298abd8d649e30269bd1a4c984b6b04bfa919e6c
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: 28db57c5fed67f2ba154d805c9b81f6b675f755c
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91731203"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101805407"
 ---
-# <a name="tapicfg-makedefault"></a>Tapicfg македефаулт
+# <a name="tapicfg-makedefault"></a>tapicfg makedefault
 
 > Область применения: Windows Server (половина ежегодного канала), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
@@ -47,12 +47,12 @@ tapicfg makedefault /directory:<partitionname> [/domain:<domainname>]
 
 - [Условные обозначения синтаксиса команд командной строки](command-line-syntax-key.md)
 
-- [Установка Tapicfg](tapicfg-install.md)
+- [tapicfg install](tapicfg-install.md)
 
-- [Удаление Tapicfg](tapicfg-remove.md)
+- [tapicfg remove](tapicfg-remove.md)
 
-- [Tapicfg публишскп](tapicfg-publishscp.md)
+- [tapicfg publishscp](tapicfg-publishscp.md)
 
-- [Tapicfg ремовескп](tapicfg-removescp.md)
+- [tapicfg removescp](tapicfg-removescp.md)
 
-- [вывод Tapicfg](tapicfg-show.md)
+- [tapicfg show](tapicfg-show.md)

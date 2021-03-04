@@ -3,16 +3,16 @@ title: unlodctr
 description: Справочная статья по команде lodctr, которая удаляет имена счетчиков производительности и поясняющий текст для службы или драйвера устройства из системного реестра.
 ms.topic: reference
 ms.assetid: fc8aa6f0-c1d9-47ea-937a-28152148e774
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 3983f98df0de6a8048f78b6ebdb16cccafea8da4
-ms.sourcegitcommit: f45640cf4fda621b71593c63517cfdb983d1dc6a
+ms.openlocfilehash: a57a8ffa143c73970ff82ec2c5894678e3829fd3
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2020
-ms.locfileid: "92156691"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101804727"
 ---
 # <a name="unlodctr"></a>unlodctr
 

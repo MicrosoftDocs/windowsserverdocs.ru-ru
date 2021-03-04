@@ -3,16 +3,16 @@ title: WDSUTIL Add-аллдриверпаккажес
 description: Справочная статья по команде WDSUTIL Add-аллдриверпаккажес, которая добавляет все пакеты драйверов, хранящиеся в папке, на сервер.
 ms.topic: reference
 ms.assetid: ba6641c1-d7e9-43a9-9819-702dad5484ed
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 07d958fb382f040db34f486a28fed4b924ce45d8
-ms.sourcegitcommit: 554d274fea48a4d47c19845d969a9ec93dec82de
+ms.openlocfilehash: e4170c445156680dc395f911ebae25143b302900
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "92524659"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101804236"
 ---
 # <a name="wdsutil-add-alldriverpackages"></a>WDSUTIL Add-аллдриверпаккажес
 

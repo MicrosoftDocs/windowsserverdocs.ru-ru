@@ -4,15 +4,15 @@ description: Узнайте, как вручную настроить клиен
 manager: brianlic
 ms.topic: how-to
 ms.assetid: 1b511e1a-686d-441f-a1c7-d4d029e1a061
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 01/05/2021
-ms.openlocfilehash: 5b745dcda699753c15d8c96af500633142f56add
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: e6a668ab1f0ad252c23ca4c4cbc611b8810efab0
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97946750"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101803551"
 ---
 # <a name="use-windows-powershell-to-configure-non-domain-member-client-computers"></a>Настройка клиентских компьютеров, не являющихся членами домена, с помощью Windows PowerShell
 

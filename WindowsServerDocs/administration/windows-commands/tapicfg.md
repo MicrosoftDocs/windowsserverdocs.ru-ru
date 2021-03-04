@@ -3,16 +3,16 @@ title: tapicfg
 description: Справочная статья по командам Tapicfg, которая создает, удаляет или отображает раздел каталога приложений TAPI или задает раздел каталога приложений TAPI по умолчанию.
 ms.topic: reference
 ms.assetid: c0e642ce-5d98-4edb-9a65-1dff09aef4e1
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 07/11/2018
-ms.openlocfilehash: 17b596036251d6ea8588de3b70359ea161b67c58
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: eadce4f145e57f0e6cf6e7ac1291e42bdd92b82d
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91718131"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101805347"
 ---
 # <a name="tapicfg"></a>tapicfg
 
@@ -37,12 +37,12 @@ tapicfg makedefault
 
 | Параметры | Описание |
 |--|--|
-| [Установка Tapicfg](tapicfg-install.md) | Создает раздел каталога приложений TAPI. |
-| [Удаление Tapicfg](tapicfg-remove.md) | Удаляет раздел каталога приложений TAPI.|
-| [Tapicfg публишскп](tapicfg-publishscp.md) | Создает точку подключения службы для публикации раздела каталога приложений TAPI. |
-| [Tapicfg ремовескп](tapicfg-removescp.md) | Удаляет точку подключения службы для раздела каталога приложений TAPI. |
-| [вывод Tapicfg](tapicfg-show.md) | Отображает имена и расположение разделов каталога приложений TAPI в домене. |
-| [Tapicfg македефаулт](tapicfg-makedefault.md) | Задает раздел каталога приложений TAPI по умолчанию для домена. |
+| [tapicfg install](tapicfg-install.md) | Создает раздел каталога приложений TAPI. |
+| [tapicfg remove](tapicfg-remove.md) | Удаляет раздел каталога приложений TAPI.|
+| [tapicfg publishscp](tapicfg-publishscp.md) | Создает точку подключения службы для публикации раздела каталога приложений TAPI. |
+| [tapicfg removescp](tapicfg-removescp.md) | Удаляет точку подключения службы для раздела каталога приложений TAPI. |
+| [tapicfg show](tapicfg-show.md) | Отображает имена и расположение разделов каталога приложений TAPI в домене. |
+| [tapicfg makedefault](tapicfg-makedefault.md) | Задает раздел каталога приложений TAPI по умолчанию для домена. |
 
 #### <a name="remarks"></a>Комментарии
 
@@ -58,14 +58,14 @@ tapicfg makedefault
 
 - [Условные обозначения синтаксиса команд командной строки](command-line-syntax-key.md)
 
-- [Установка Tapicfg](tapicfg-install.md)
+- [tapicfg install](tapicfg-install.md)
 
-- [Удаление Tapicfg](tapicfg-remove.md)
+- [tapicfg remove](tapicfg-remove.md)
 
-- [Tapicfg публишскп](tapicfg-publishscp.md)
+- [tapicfg publishscp](tapicfg-publishscp.md)
 
-- [Tapicfg ремовескп](tapicfg-removescp.md)
+- [tapicfg removescp](tapicfg-removescp.md)
 
-- [вывод Tapicfg](tapicfg-show.md)
+- [tapicfg show](tapicfg-show.md)
 
-- [Tapicfg македефаулт](tapicfg-makedefault.md)
+- [tapicfg makedefault](tapicfg-makedefault.md)

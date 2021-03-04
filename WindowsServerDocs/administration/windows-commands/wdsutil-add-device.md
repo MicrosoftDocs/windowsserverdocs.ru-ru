@@ -3,16 +3,16 @@ title: WDSUTIL Add-Device
 description: Справочная статья по команде WDSUTIL Add-Device, которая предварительно размещает компьютер в домен Active Directory Services.
 ms.topic: reference
 ms.assetid: 1e599cc4-464a-421b-b6bb-c101af154131
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: de05d5510e61f5cba0813a7e11215935fd380968
-ms.sourcegitcommit: 554d274fea48a4d47c19845d969a9ec93dec82de
+ms.openlocfilehash: b8dc8509138e3b41b1265f66716ea4e48e270cb2
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "92524640"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101804247"
 ---
 # <a name="wdsutil-add-device"></a>WDSUTIL Add-Device
 
@@ -33,7 +33,7 @@ wdsutil /add-Device /Device:<Devicename> /ID:<UUID | MAC address> [/ReferralServ
 | Модем`<Devicename>` | Указывает имя добавляемого устройства. |
 | Удостоверения`<UUID|MAC address>` | Указывает идентификатор GUID/UUID или MAC-адрес компьютера. GUID/UUID должны иметь один из двух форматов: двоичная строка ( `/ID:ACEFA3E81F20694E953EB2DAA1E8B1B6` ) или строка GUID ( `/ID:E8A3EFAC-201F-4E69-953E-B2DAA1E8B1B6` ). MAC-адрес должен иметь следующий формат: **00B056882FDC** (без дефисов) или **00-B0-56-88-2F-DC** (с тире) |
 | [/Реферралсервер: `<Servername>` ] | Указывает имя сервера, к которому нужно подключиться для загрузки программы сетевой загрузки и загрузочного образа с помощью тривиальных протокол FTP (TFTP). |
-| [/Бутпрограм: `<Relativepath>` ] | Указывает относительный путь от папки **remoteInstall** к программе сетевой загрузки, которую должен получить этот компьютер. Пример: `boot\x86\pxeboot.com` |
+| [/Бутпрограм: `<Relativepath>` ] | Указывает относительный путь от папки **remoteInstall** к программе сетевой загрузки, которую должен получить этот компьютер. Например: `boot\x86\pxeboot.com` |
 | [/Вдсклиентунаттенд: `<Relativepath>` ] | Указывает относительный путь от папки **remoteInstall** к файлу автоматической установки, который автоматизирует экраны установки клиента служб развертывания Windows. |
 | [/User: `<Domain\User|User@Domain>` ] | Задает разрешения для объекта учетной записи компьютера, чтобы предоставить указанному пользователю необходимые права для приподключения компьютера к домену. |
 | [/Жоинригхтс: `{JoinOnly|Full}` ] | Указывает тип прав, назначаемых пользователю.<ul><li>**Жоинонли** — требует от администратора сброса учетной записи компьютера, прежде чем пользователь сможет присоединить компьютер к домену.</li><li>**Full** — предоставляет полный доступ пользователю, который включает в себя право присоединить компьютер к домену. |

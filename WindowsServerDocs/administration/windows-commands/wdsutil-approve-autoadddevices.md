@@ -3,16 +3,16 @@ title: WDSUTIL утвердить — аутоадддевицес
 description: Справочная статья по команде WDSUTIL reаутоадддевицес, которая утверждает компьютеры, ожидающие административного утверждения.
 ms.topic: reference
 ms.assetid: 8d76e8d3-ab35-429c-be7b-904f95d0782d
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 31dba6d0a0bb585f61433f86d1aa0ae4388fe484
-ms.sourcegitcommit: 554d274fea48a4d47c19845d969a9ec93dec82de
+ms.openlocfilehash: 95261a9897cba9252b92336a656d878dcd6c42ba
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "92524939"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101804027"
 ---
 # <a name="wdsutil-approve-autoadddevices"></a>WDSUTIL утвердить — аутоадддевицес
 

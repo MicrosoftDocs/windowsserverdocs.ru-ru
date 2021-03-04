@@ -3,16 +3,16 @@ title: WDSUTIL Add-имажеграуп
 description: Справочная статья по команде WDSUTIL Add-имажеграуп, которая добавляет группу образов на сервер служб развертывания Windows.
 ms.topic: reference
 ms.assetid: 6ca88671-51de-4924-b969-88f3dfd84270
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 3bffb562ba019bb55c783541b78c906dd4a08dc7
-ms.sourcegitcommit: 554d274fea48a4d47c19845d969a9ec93dec82de
+ms.openlocfilehash: 7c7ad22ac67e0fdbdea50ea642eaafba167f20bb
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "92524469"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101804047"
 ---
 # <a name="wdsutil-add-imagegroup"></a>WDSUTIL Add-имажеграуп
 

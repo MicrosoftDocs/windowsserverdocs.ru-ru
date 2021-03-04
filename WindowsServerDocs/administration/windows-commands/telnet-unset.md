@@ -3,16 +3,16 @@ title: telnet unset
 description: Справочная статья по команде Telnet Set, которая отключает ранее установленные параметры.
 ms.topic: reference
 ms.assetid: da9a0d99-1930-4858-93c7-0e9c3797ee09
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 51604615e989325b2e5719d02c51f70dfd84bd0c
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: c10b497dd6321692ae5935a218d728ccd6e7b377
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91717921"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101805127"
 ---
 # <a name="telnet-unset"></a>Telnet: не задано
 
@@ -35,7 +35,7 @@ u {bsasdel | crlf | delasbs | escape | localecho | logging | ntlm} [?]
 | деласбс | Отправляет **Удаление** как **Удаление**. |
 | escape-знак | Удаляет параметр escape-символа. |
 | локалечо | Отключает локалечо. |
-| Ведение журналов | Отключает ведение журнала. |
+| Ведение журнала | Отключает ведение журнала. |
 | NTLM | Отключает проверку подлинности NTLM. |
 | ? | Отображает справку для этой команды. |
 

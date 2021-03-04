@@ -4,15 +4,15 @@ description: Узнайте, как спланировать сервер про
 manager: brianlic
 ms.topic: article
 ms.assetid: 2d6ad863-02a5-49b0-9aff-d189e78b2b80
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 5658c4c3a323bf9e0df5af8cf57dad85d98fe8dd
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: 2926eb72f5e730a78c99c0d2e4c452fe12ad8934
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98040164"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101803151"
 ---
 # <a name="step-2-plan-the-radius-server-deployment"></a>Шаг 2. Планирование развертывания сервера RADIUS
 

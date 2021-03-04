@@ -3,16 +3,16 @@ title: set verbose
 description: Справочная статья по команде Set Verbose, указывающей, следует ли предоставлять подробный вывод при создании теневой копии.
 ms.topic: reference
 ms.assetid: 93cb93c9-666f-4c74-814b-1c404a949935
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 2e0b4d4cca66b20125c1aa0bbb67a7806133f6d8
-ms.sourcegitcommit: e164aeffc01069b8f1f3248bf106fcdb7f64f894
+ms.openlocfilehash: e45b100d3e841f643844a75051b1ca7c0d486d9b
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91389046"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101805817"
 ---
 # <a name="set-verbose"></a>Задать verbose
 

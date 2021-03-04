@@ -3,16 +3,16 @@ title: WDSUTIL Add-дриверграуп
 description: Справочная статья по команде WDSUTIL Add-дриверграуп, которая добавляет группу драйверов на сервер.
 ms.topic: reference
 ms.assetid: 2a92fe8f-03f9-462a-b99e-f23275259807
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 68583ba35c141df03cbc5e351da6c4dc8ea4e161
-ms.sourcegitcommit: 554d274fea48a4d47c19845d969a9ec93dec82de
+ms.openlocfilehash: 270c122605bdadddddbfdc45d09ff09f8896d3ab
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "92524619"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101804235"
 ---
 # <a name="wdsutil-add-drivergroup"></a>WDSUTIL Add-дриверграуп
 

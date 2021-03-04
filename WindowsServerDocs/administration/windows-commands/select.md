@@ -3,16 +3,16 @@ title: выбор команд
 description: Справочная статья по командам SELECT, которая перемещает фокус на диск, раздел, том или виртуальный жесткий диск (VHD).
 ms.topic: reference
 ms.assetid: 9eeb40c0-4258-46e2-8dbc-94f63497e771
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 2b322fc7bf9355e64fbe14a0823c85dddadd6171
-ms.sourcegitcommit: e164aeffc01069b8f1f3248bf106fcdb7f64f894
+ms.openlocfilehash: d4107d5ffdc6b25806f2d2ba2bf329ae680adfdc
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91389182"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101805997"
 ---
 # <a name="select-commands"></a>выбор команд
 

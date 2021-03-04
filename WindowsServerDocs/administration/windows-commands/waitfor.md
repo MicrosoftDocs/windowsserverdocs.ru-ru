@@ -3,16 +3,16 @@ title: waitfor
 description: Справочная статья по команде WAITFOR, которая отправляет или ожидает сигнала в системе.
 ms.topic: reference
 ms.assetid: a48ef70d-4d28-4035-b6b0-7d7b46ac2157
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 157861a02abe8fbf851a6ef12460b257a7628803
-ms.sourcegitcommit: f45640cf4fda621b71593c63517cfdb983d1dc6a
+ms.openlocfilehash: 6e7130d8707e0a29b0aa3af1c06fd3ea7a506cc5
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2020
-ms.locfileid: "92156127"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101804577"
 ---
 # <a name="waitfor"></a>waitfor
 

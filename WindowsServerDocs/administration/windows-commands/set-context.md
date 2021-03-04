@@ -3,16 +3,16 @@ title: Задать контекст
 description: Справочная статья по команде Set Context, которая задает контекст для создания теневой копии.
 ms.topic: reference
 ms.assetid: fc16c7dd-e8f0-4c2a-8742-0bddb2848bfd
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: ce1414ab90f116f58618fcd67bc203f25dc58e46
-ms.sourcegitcommit: e164aeffc01069b8f1f3248bf106fcdb7f64f894
+ms.openlocfilehash: 23517c7fbfe64fcab0e0072c2b3d8ef79494a196
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91389098"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101805927"
 ---
 # <a name="set-context"></a>Задать контекст
 

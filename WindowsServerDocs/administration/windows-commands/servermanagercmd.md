@@ -3,16 +3,16 @@ title: servermanagercmd
 description: Справочная статья по команде ServerManagerCmd, которая устанавливает и удаляет роли, службы ролей и компоненты.
 ms.topic: reference
 ms.assetid: 507c4b87-8e13-4872-8b34-0c7508eecbc1
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 07/11/2018
-ms.openlocfilehash: 4a00294b70728a41cc68ae15d35a8c19fd768cf7
-ms.sourcegitcommit: e164aeffc01069b8f1f3248bf106fcdb7f64f894
+ms.openlocfilehash: 21bdb054de4d3f64843f6cf4761d6ab1c60ee461
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91389162"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101805977"
 ---
 # <a name="servermanagercmd"></a>servermanagercmd
 

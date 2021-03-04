@@ -3,16 +3,16 @@ title: Add-Дриверпаккаже
 description: Справочная статья по команде Add-Дриверпаккаже, которая добавляет пакет драйверов на сервер.
 ms.topic: reference
 ms.assetid: 3ac9e8d5-63ec-4ce8-86fc-85d28011050b
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: c85279cc160ca12b52f4cf7225d0ac41700973bc
-ms.sourcegitcommit: 554d274fea48a4d47c19845d969a9ec93dec82de
+ms.openlocfilehash: d1cb060eebe973db099f9d26812ce9e3e1d33d83
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "92524528"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101804137"
 ---
 # <a name="add-driverpackage"></a>Add-Дриверпаккаже
 

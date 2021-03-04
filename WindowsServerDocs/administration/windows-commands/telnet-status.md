@@ -3,16 +3,16 @@ title: telnet status
 description: Справочная статья по команде Telnet status, в которой отображаются сведения о состоянии.
 ms.topic: reference
 ms.assetid: 4e819f11-3dc4-44d1-957b-1bcecf9fc1fc
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: bd55020fd276fc07d2f4d16c0d78690305fdb554
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: 382767e214a9e50713b2e359a1bbe4ef46523236
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91717971"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101805147"
 ---
 # <a name="telnet-status"></a>Telnet: состояние
 

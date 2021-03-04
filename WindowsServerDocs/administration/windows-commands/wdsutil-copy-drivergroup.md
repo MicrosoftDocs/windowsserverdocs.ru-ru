@@ -3,16 +3,16 @@ title: Copy-дриверграуп
 description: Справочная статья по команде Copy-дриверграуп, которая дублирует существующую группу драйверов на сервере, включая фильтры, пакеты драйверов и состояние enabled/disabled.
 ms.topic: reference
 ms.assetid: 0aaf6fa5-8b5b-4a1e-ae9b-8b5c6d89f571
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 924f6181e424dad88a33f1421098e658275d1fa3
-ms.sourcegitcommit: 554d274fea48a4d47c19845d969a9ec93dec82de
+ms.openlocfilehash: de02938c837409c9afa2f972d34cc67035c1175f
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "92524919"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101803957"
 ---
 # <a name="copy-drivergroup"></a>Copy-дриверграуп
 

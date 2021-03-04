@@ -3,16 +3,16 @@ title: pwlauncher
 description: Справочная статья по команде пвлаунчер, которая включает или отключает параметры запуска Windows To Go (пвлаунчер).
 ms.topic: reference
 ms.assetid: 0917bb7b-408a-40f7-a1c5-20e94c10d38b
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 8bdc4f7b3b5c91cb804f6760a60ec421652d1642
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 469dfc9b1e2f2220377f5bc08a20e180baf39f3c
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89639925"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101807738"
 ---
 # <a name="pwlauncher"></a>pwlauncher
 

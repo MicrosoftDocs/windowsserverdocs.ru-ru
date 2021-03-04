@@ -4,15 +4,15 @@ description: Узнайте, как убедиться, что вы правил
 manager: brianlic
 ms.topic: article
 ms.assetid: ed49a0a3-1c45-42e5-8f13-cad20c1c1d68
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 91bc9f3ebb03d45fa221673b88f2473aa774544e
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: 11d7bfef9e57e1f390fb293d5b369e6a6eedf77f
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98040194"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101803131"
 ---
 # <a name="step-4-verify-directaccess-with-otp"></a>Шаг 4. Проверка DirectAccess с OTP
 

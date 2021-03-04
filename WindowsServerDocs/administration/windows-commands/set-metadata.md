@@ -3,16 +3,16 @@ title: set metadata
 description: Справочная статья по команде Set metadata, которая задает имя и расположение файла метаданных теневого копирования, используемого для перемещения теневых копий с одного компьютера на другой.
 ms.topic: reference
 ms.assetid: 67e6f60a-b42a-451a-95cf-b22ace7d50c2
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 2ff03661d953ae7afc39117ced89734c5df02c14
-ms.sourcegitcommit: e164aeffc01069b8f1f3248bf106fcdb7f64f894
+ms.openlocfilehash: d3dc9e860c1fb43f54920eae27216297b7983e27
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91389078"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101805907"
 ---
 # <a name="set-metadata"></a>set metadata
 

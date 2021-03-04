@@ -3,16 +3,16 @@ title: showmount
 description: Справочная статья по команде шовмаунт, которая отображает сведения о подключенных файловых системах, экспортированных сервером для NFS на указанном компьютере.
 ms.topic: reference
 ms.assetid: a6dd562e-e3bd-4ee6-be3b-6d29e29fd20e
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 3af87ba4ed42789cf07a2ae63ce9e720043a196e
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: b7032b23c0908c27e9f220050ab92a0e2f127351
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91718331"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101805707"
 ---
 # <a name="showmount"></a>showmount
 

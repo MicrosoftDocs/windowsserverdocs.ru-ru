@@ -3,16 +3,16 @@ title: select vdisk
 description: Справочная статья по команде Select vdisk, которая выбирает указанный виртуальный жесткий диск (VHD) и перемещает фокус на него.
 ms.topic: reference
 ms.assetid: 8808872a-3523-4205-a6c6-83fa738ee37a
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 19e842115f914711cc59cfb770ee19f732b3a388
-ms.sourcegitcommit: e164aeffc01069b8f1f3248bf106fcdb7f64f894
+ms.openlocfilehash: db876e7492449e40c68756dd5701ad6f4ba629b7
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91389210"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101806087"
 ---
 # <a name="select-vdisk"></a>select vdisk
 

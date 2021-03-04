@@ -3,16 +3,16 @@ title: telnet open
 description: Справочная статья по команде Telnet Open, которая подключается к серверу Telnet.
 ms.topic: article
 ms.assetid: e30ad68c-2366-4754-ac36-311a2392902a
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 3ce606395530fee08de7ceaf6fe2a0f7243b5b97
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 881f34902841c8c5368dc0c64fff5dc4669022ef
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97946890"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101805169"
 ---
 # <a name="telnet-open"></a>Telnet: открыть
 

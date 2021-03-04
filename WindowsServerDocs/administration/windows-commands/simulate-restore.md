@@ -3,16 +3,16 @@ title: simulate restore
 description: Справочная статья по команде "имитировать восстановление", которая проверяет успешность выполнения операции записи в сеансах восстановления на компьютере без выдачи событий, выполняемых при предварительном восстановлении или восстановлении, в модули записи.
 ms.topic: reference
 ms.assetid: d883d94c-3cb1-4848-9d74-1b4378044b31
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: e9ca1760cd1d6a125267e152274ea26e1a9ae11f
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: 3d551429e6c01386e5857fe70c600fd2d6ad54e2
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91718301"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101805587"
 ---
 # <a name="simulate-restore"></a>Имитировать восстановление
 

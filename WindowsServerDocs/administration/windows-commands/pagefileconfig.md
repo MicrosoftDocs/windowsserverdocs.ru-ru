@@ -3,16 +3,16 @@ title: pagefileconfig
 description: Справочная статья по команде пажефилеконфиг. Эта команда устарела и не гарантируется, что она будет поддерживаться в будущих выпусках Windows.
 ms.topic: reference
 ms.assetid: a18c98ce-a0dc-41cc-8d44-dc7eee0131e8
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: f56e55273cd967ee969610ad45c398e18842871c
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 368e8911b3aa6fcf8333f580e92f1dbda1d94c74
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89621577"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101808915"
 ---
 # <a name="pagefileconfig"></a>pagefileconfig
 

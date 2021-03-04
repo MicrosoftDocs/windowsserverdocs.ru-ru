@@ -3,20 +3,20 @@ title: WDSUTIL Disconnect — клиент
 description: Справочная статья по команде WDSUTIL Disconnect-Client, которая отключает клиент от многоадресной передачи или пространства имен.
 ms.topic: reference
 ms.assetid: 876bbe6c-76ab-4de5-879b-d2066e700326
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: dd837fd9a677f78b5890cd1f2092529d44a2bc68
-ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
+ms.openlocfilehash: 7d2ff909fdd2c34ba5f5e3c0e2dea38fd0658b1f
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93070336"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101803927"
 ---
 # <a name="wdsutil-disconnect-client"></a>WDSUTIL Disconnect — клиент
 
-Отключает клиент от многоадресной передачи или пространства имен. Если не указано значение **/Force** , клиент будет возвращаться к другому методу передачи (если он поддерживается клиентом).
+Отключает клиент от многоадресной передачи или пространства имен. Если не указано значение **/Force**, клиент будет возвращаться к другому методу передачи (если он поддерживается клиентом).
 
 ## <a name="syntax"></a>Синтаксис
 

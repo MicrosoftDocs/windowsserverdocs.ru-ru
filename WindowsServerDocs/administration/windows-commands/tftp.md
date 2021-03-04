@@ -3,16 +3,16 @@ title: tftp
 description: Справочная статья по команде TFTP, которая передает файлы на удаленный компьютер и с удаленного компьютера.
 ms.topic: reference
 ms.assetid: 772f19a8-dafe-45cd-878a-f5691f6568ef
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 89a4edb69753ae34814d13f90f21332c6f748244
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: 71d109d2673fa113c0b189924ca61167e5a61d4d
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91717911"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101805117"
 ---
 # <a name="tftp"></a>tftp
 

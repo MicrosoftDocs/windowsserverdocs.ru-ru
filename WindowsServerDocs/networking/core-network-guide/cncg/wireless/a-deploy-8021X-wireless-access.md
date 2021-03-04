@@ -4,15 +4,15 @@ description: Узнайте, как развертывать институт и
 manager: brianlic
 ms.topic: article
 ms.assetid: ff06ba23-9c0f-49ec-8f7b-611cf8d73a1b
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 6a861bf9df9d80efc5fd82b8c74ea54b71c8aef5
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: 07703b8a53667b9fd3b0e85925841a03a219a55b
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98038404"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101803561"
 ---
 # <a name="deploy-password-based-8021x-authenticated-wireless-access"></a>Развернуть \- беспроводной доступ с проверкой подлинности 802.1 x на основе пароля
 

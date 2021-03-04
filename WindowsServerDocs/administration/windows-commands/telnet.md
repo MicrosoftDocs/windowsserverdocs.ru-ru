@@ -3,16 +3,16 @@ title: telnet
 description: Справочная статья по команде Telnet, которая взаимодействует с компьютером, на котором работает служба Telnet-сервера.
 ms.topic: reference
 ms.assetid: b70a6156-9413-4300-84ce-a34c467e2b4e
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: cf4fa5754aec18662800f4536afd16a427ca0952
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: 4ff06070dcfc291376a78195d3825254b380d11d
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91717931"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101805137"
 ---
 # <a name="telnet"></a>telnet
 
@@ -37,7 +37,7 @@ telnet [/a] [/e <escapechar>] [/f <filename>] [/l <username>] [/t {vt100 | vt52 
 | /e `<escapechar>` | Указывает escape-символ, используемый для ввода запроса клиента Telnet. |
 | /f `<filename>` | Указывает имя файла, используемого для ведения журнала на стороне клиента. |
 | /l `<username>` | Указывает имя пользователя для входа на удаленный компьютер. |
-| /t `{vt100 | vt52 | ansi | vtnt}` | Указывает тип терминала. Поддерживаются следующие типы терминалов: **VT100**, **VT52**, **ANSI**и **VTNT**. |
+| /t `{vt100 | vt52 | ansi | vtnt}` | Указывает тип терминала. Поддерживаются следующие типы терминалов: **VT100**, **VT52**, **ANSI** и **VTNT**. |
 | `<host> [<port>]` | Указывает имя узла или IP-адрес удаленного компьютера, к которому необходимо подключиться, и при необходимости используемый TCP-порт (по умолчанию это TCP-порт 23). |
 | /? | Отображение справки в командной строке. |
 

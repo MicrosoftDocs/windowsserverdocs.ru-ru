@@ -4,15 +4,15 @@ description: Узнайте, как настроить сервер удален
 manager: brianlic
 ms.topic: article
 ms.assetid: b1b2fe70-7956-46e8-a3e3-43848868df09
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 14b546cf7a0fecbff94c6778e3731d02f57bddf6
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: d094176ae12c9be007162589c8a1561f3ec76a5a
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98038884"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101803321"
 ---
 # <a name="deploy-remote-access-with-otp-authentication"></a>Развертывание удаленного доступа с проверкой подлинности методом OTP
 
@@ -23,7 +23,7 @@ ms.locfileid: "98038884"
 ## <a name="scenario-description"></a><a name="BKMK_OVER"></a>Описание сценария
 В этом сценарии сервер удаленного доступа с включенной возможностью DirectAccess настроен для проверки подлинности пользователей клиента DirectAccess с двумя \- факторами одноразовой \( \) проверки подлинности одноразового пароля, а также учетных данных стандартного Active Directory.
 
-## <a name="prerequisites"></a>Предварительные условия
+## <a name="prerequisites"></a>Предварительные требования
 Перед началом развертывания этого сценария ознакомьтесь со списком важных требований.
 
 -   Перед развертыванием OTP необходимо [развернуть один сервер DirectAccess с дополнительными параметрами](../../directaccess/single-server-advanced/Deploy-a-Single-DirectAccess-Server-with-Advanced-Settings.md) .

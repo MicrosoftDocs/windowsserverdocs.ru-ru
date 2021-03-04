@@ -3,16 +3,16 @@ title: qappsrv
 description: Справочная статья по команде каппсрв, в которой отображается список всех удаленный рабочий стол серверов узлов сеансов в сети.
 ms.topic: reference
 ms.assetid: 7df68283-2484-418c-a8f0-d273884919ad
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: c00d321f5818a30fb683de81911e2e8d6474d61a
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: eac34b3e5b6846b5078eccfb403d4a0b52f3d413
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89639912"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101807667"
 ---
 # <a name="qappsrv"></a>qappsrv
 

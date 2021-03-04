@@ -3,16 +3,16 @@ title: select disk
 description: Справочная статья для команды выбора диска, которая выбирает указанный диск и перемещает фокус на него.
 ms.topic: reference
 ms.assetid: a0da614b-09d9-433b-b4eb-9127f84431cb
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 194bd36305060c8adfec27435ef05bf87605b45c
-ms.sourcegitcommit: e164aeffc01069b8f1f3248bf106fcdb7f64f894
+ms.openlocfilehash: b9b5dc544d8bcaa9605309cd481f6c78a94c9e6c
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91389247"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101806127"
 ---
 # <a name="select-disk"></a>select disk
 

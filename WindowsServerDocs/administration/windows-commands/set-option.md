@@ -1,20 +1,20 @@
 ---
-title: Параметр Set
+title: set option
 description: Справочная статья по команде Set Option, которая задает параметры создания теневой копии.
 ms.topic: reference
 ms.assetid: 4d8d4921-9fdd-4a3c-bb0f-9df5458c4b84
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: a37e993700169f0268e68822be3a7fbaf6e58361
-ms.sourcegitcommit: e164aeffc01069b8f1f3248bf106fcdb7f64f894
+ms.openlocfilehash: b4611070eb81ca3a2a19d991ddf0fba2dabe6ace
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91389060"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101805877"
 ---
-# <a name="set-option"></a>Параметр Set
+# <a name="set-option"></a>set option
 
 Задает параметры для создания теневой копии. Если используется без параметров, **параметр SET** отображает справку в командной строке.
 

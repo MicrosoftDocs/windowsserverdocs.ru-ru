@@ -3,16 +3,16 @@ title: WDSUTIL Add-дриверграуппаккаже
 description: Справочная статья по команде WDSUTIL Add-дриверграуппаккаже, которая добавляет пакет драйверов в группу драйверов.
 ms.topic: reference
 ms.assetid: 7cd323ae-9049-448e-a460-6c7d6462d4c8
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 4bf7b7c6cae4551e09fa5aa7d0244e5e4f0407e4
-ms.sourcegitcommit: 554d274fea48a4d47c19845d969a9ec93dec82de
+ms.openlocfilehash: 7d478db93fb39eee6cc3e9f6a48df6690ef02ad5
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "92524549"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101804167"
 ---
 # <a name="wdsutil-add-drivergrouppackage"></a>WDSUTIL Add-дриверграуппаккаже
 

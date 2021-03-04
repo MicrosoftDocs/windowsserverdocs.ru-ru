@@ -4,15 +4,15 @@ description: Узнайте, как создать и сохранить мом�
 manager: brianlic
 ms.topic: article
 ms.assetid: 915ef7dd-169d-4d58-9174-438d8ffa3584
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: c9eb0664d878c0050aae238cd0ab3fbc7a716d89
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: ea02eae450f2fab612fb9614171f9f3f1e7a3219
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98040234"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101803581"
 ---
 # <a name="step-8-snapshot-the-directaccess-cluster-nlb-configuration"></a>Моментальный снимок на шаге 8. Конфигурация NLB кластера DirectAccess
 

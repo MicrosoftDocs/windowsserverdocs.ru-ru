@@ -3,16 +3,16 @@ title: set
 description: Справочная статья по набору, который отображает, устанавливает или удаляет переменные среды cmd.exe.
 ms.topic: reference
 ms.assetid: 5fdd60d6-addf-4574-8c92-8aa53fa73d76
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 2f53655aa344e1770c9483e5302885734c389837
-ms.sourcegitcommit: e164aeffc01069b8f1f3248bf106fcdb7f64f894
+ms.openlocfilehash: d2da6fc76cce95603a04b09722e22d9404d11ec0
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91389032"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101805797"
 ---
 # <a name="set-environment-variable"></a>Set (переменная среды)
 

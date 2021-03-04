@@ -3,16 +3,16 @@ title: vol
 description: Справочная статья для команды Vol, которая отображает метку тома диска и серийный номер, если они существуют.
 ms.topic: reference
 ms.assetid: 398b3aa1-2442-42be-a4fb-78701080b0df
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 68c4453d9a6569a6713d1e464195fb0575c664f2
-ms.sourcegitcommit: f45640cf4fda621b71593c63517cfdb983d1dc6a
+ms.openlocfilehash: 246a0e7f42ba3b52941bbd9870cc1e71c584658a
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2020
-ms.locfileid: "92156258"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101804587"
 ---
 # <a name="vol"></a>vol
 

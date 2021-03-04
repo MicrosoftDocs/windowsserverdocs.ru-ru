@@ -3,16 +3,16 @@ title: pause
 description: Справочная статья по команде Pause, которая приостанавливает обработку пакетных программ.
 ms.topic: reference
 ms.assetid: cab3afc3-d046-432f-a0bf-6282f0099032
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 4611980b0f805843b1f93c20450163f01e362cf8
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: ffc047b43e543627dd10cc6421cdbc0e0d73f257
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89640657"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101808952"
 ---
 # <a name="pause"></a>pause
 
@@ -30,7 +30,7 @@ pause
 |--|--|
 | /? | Отображение справки в командной строке. |
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Комментарии
 
 - Если нажать клавиши CTRL + C для завершения пакетной программы, появится следующее сообщение: `Terminate batch job (Y/N)?` . Если нажать клавишу **Y** (да) в ответ на это сообщение, пакетная программа завершает работу и управление возвращается операционной системе.
 
