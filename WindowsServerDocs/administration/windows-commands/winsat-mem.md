@@ -3,16 +3,16 @@ title: winsat mem
 description: Справочная статья по MEM в службе WinSAT, которая проверяет пропускную способность системной памяти в виде отражения больших объемов памяти для копирования буферов памяти, как используется при обработке мультимедийных данных.
 ms.topic: reference
 ms.assetid: cda017bf-6193-43c1-b71f-e379c23e1152
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: f75fda37e87d0e1c6e8783cb5604b864339914ac
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 96cfb48ac22b8561b149e592fd61f331fd40a5bc
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97947640"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101826653"
 ---
 # <a name="winsat-mem"></a>winsat mem
 

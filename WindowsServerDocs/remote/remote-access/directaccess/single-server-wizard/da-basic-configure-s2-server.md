@@ -4,15 +4,15 @@ description: Узнайте, как настроить параметры кли
 manager: brianlic
 ms.topic: article
 ms.assetid: 82bf5fed-93b3-4fa6-8e71-522146eccdb1
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 5e42d6c73701e7aa07e2f69b3d867258723bc7fd
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 275ccd037cab24f0d9157810aa8c280783481bc7
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97950470"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101827576"
 ---
 # <a name="step-2-configure-the-basic-directaccess-server"></a>Шаг 2. Настройка базового сервера DirectAccess
 
@@ -48,7 +48,7 @@ ms.locfileid: "97950470"
 
 7.  В диалоговом окне **Ход установки** убедитесь в успешном завершении установки, а затем нажмите кнопку **Закрыть**.
 
-![Windows PowerShell Windows PowerShell — ](../../../media/Step-2-Configure-the-DirectAccess-Server/PowerShellLogoSmall.gif) * *_<em>эквивалентные команды</em>_* _
+![](../../../media/Step-2-Configure-the-DirectAccess-Server/PowerShellLogoSmall.gif)***<em>Эквивалентные команды</em> в Windows PowerShell Windows PowerShell***
 
 Следующий командлет Windows PowerShell или командлет устанавливает роль удаленного доступа:
 
@@ -79,13 +79,13 @@ ms.locfileid: "97950470"
 
 #### <a name="to-configure-directaccess-using-the-getting-started-wizard"></a>Настройка DirectAccess с помощью Мастера начальной настройки
 
-1.  В диспетчер сервера щелкните значок _ * сервис * *, а затем выберите **Управление удаленным доступом**.
+1.  В Диспетчере сервера щелкните **"Средства"**, затем выберите **"Управление удаленным доступом"**.
 
 2.  В консоли управления удаленным доступом выберите службу роли для настройки в левой области навигации, а затем нажмите кнопку **запустить мастер начало работы**.
 
 3.  Щелкните **"Развернуть только DirectAccess"**.
 
-4.  Выберите топологию параметров вашей сети и введите открытое имя, к которому будут подключаться клиенты удаленного доступа. Нажмите кнопку **Далее**.
+4.  Выберите топологию параметров вашей сети и введите открытое имя, к которому будут подключаться клиенты удаленного доступа. Щелкните **Далее**.
 
     > [!NOTE]
     > По умолчанию Мастер начальной настройки разворачивает DirectAccess на всех полноразмерных ноутбуках и переносных компьютерах в домене, применяя фильтр WMI к объектам групповой политики параметров клиента.

@@ -3,16 +3,16 @@ title: WDSUTIL Get-аллнамеспацес
 description: Справочная статья по WDSUTIL Get-аллнамеспацес, в которой отображаются сведения обо всех пространствах имен на сервере.
 ms.topic: reference
 ms.assetid: e8fe896d-a69a-4180-923b-9f18185f5941
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: ddad534e46c4ca30311ad497a9fa66d60a4cda60
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: f56ba5c1eaae6b4d428aa5d78d8b1f8fd16f91ae
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91730863"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101825891"
 ---
 # <a name="wdsutil-get-allnamespaces"></a>WDSUTIL Get-аллнамеспацес
 

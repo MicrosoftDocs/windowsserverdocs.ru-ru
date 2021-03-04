@@ -3,16 +3,16 @@ title: Remove-Дриверграупфилтер
 description: Справочная статья по Remove-Дриверграупфилтер, которая удаляет правило фильтрации из группы драйверов на сервере.
 ms.topic: reference
 ms.assetid: 837bd5d4-c79d-4714-942d-9875bd8e61dc
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 6fa543d353f425ee41b836ecc97e562d77d9c19d
-ms.sourcegitcommit: 554d274fea48a4d47c19845d969a9ec93dec82de
+ms.openlocfilehash: a3c78219fb8f1aecf8d7a7bf4216f24e3e4ed87d
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "92524299"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101825571"
 ---
 # <a name="remove-drivergroupfilter"></a>Remove-Дриверграупфилтер
 

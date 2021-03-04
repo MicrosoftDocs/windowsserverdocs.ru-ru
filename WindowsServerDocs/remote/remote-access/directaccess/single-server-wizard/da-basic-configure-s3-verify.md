@@ -4,15 +4,15 @@ description: Узнайте, как убедиться, что вы правил
 manager: brianlic
 ms.topic: article
 ms.assetid: 45e9edd6-acca-4d59-851a-a0cc8bd8b4c6
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 36db79413c774700e2d164ad22146b8b06f83198
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 7ed58bbfae65762fd315777497dcc7aac610bd13
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97947250"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101827548"
 ---
 # <a name="step-3-verify-deployments"></a>Шаг 3. Проверка развертываний
 

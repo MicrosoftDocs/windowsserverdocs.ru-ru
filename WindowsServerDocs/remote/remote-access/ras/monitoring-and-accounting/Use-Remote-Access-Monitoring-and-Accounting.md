@@ -4,15 +4,15 @@ description: Узнайте, как использовать возможнос�
 manager: brianlic
 ms.topic: article
 ms.assetid: 92519b49-0df4-43c1-9717-f13570644212
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: eb78cfe5ce07add3e9d235b5a62f1cf12dc42f4b
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: e62740795781485fc973c0033efe4acf5e8981ab
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98039744"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101828173"
 ---
 # <a name="use-remote-access-monitoring-and-accounting"></a>Мониторинг и учет удаленного доступа
 

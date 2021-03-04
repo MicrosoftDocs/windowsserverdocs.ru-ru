@@ -3,16 +3,16 @@ title: Мастер очистки сервера
 description: Раздел о службе Windows Server Update Service (WSUS). Использование мастера очистки сервера для управления дисковым пространством
 ms.topic: article
 ms.assetid: 7c351797-2716-4442-a668-60d5b4e77751
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 967df91afdf7bab1f6fd4d6c1daabcf04f104d23
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 85ae240204bc030cf74069dca08cef43dc656e3f
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89624406"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101827269"
 ---
 # <a name="the-server-cleanup-wizard"></a>Мастер очистки сервера
 

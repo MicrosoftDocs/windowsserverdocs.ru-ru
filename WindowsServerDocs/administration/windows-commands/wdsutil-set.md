@@ -3,16 +3,16 @@ title: Использование команды Set
 description: Справочная статья по набору, который задает свойства и атрибуты для серверов служб развертывания Windows, предварительно подготовленных компьютеров, образов, групп образов и транспортных серверов.
 ms.topic: reference
 ms.assetid: 5def6be0-83b9-4133-bc1b-bbe6d407eca7
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 365c46eb45b0b571dcb8ca87f01fccfbbb79cd8c
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: 4e04891be5f9077d47f86fe59cf01fba262ddce8
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91731298"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101826263"
 ---
 # <a name="using-the-set-command"></a>Использование команды Set
 

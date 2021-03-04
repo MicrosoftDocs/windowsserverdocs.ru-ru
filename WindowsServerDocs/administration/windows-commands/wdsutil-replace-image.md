@@ -3,16 +3,16 @@ title: WDSUTIL Replace-Image
 description: Справочная статья по WDSUTIL Replace-Image, которая заменяет существующий образ новой версией этого образа.
 ms.topic: reference
 ms.assetid: 68ded3df-e309-420f-9f5d-caeb609385a5
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: b03bf133fa84f1a37578889ef8f3b3fefd5a8d16
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: d0f12b4e3f06848329984a8a6676897695b67c26
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91730639"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101826363"
 ---
 # <a name="wdsutil-replace-image"></a>WDSUTIL Replace-Image
 

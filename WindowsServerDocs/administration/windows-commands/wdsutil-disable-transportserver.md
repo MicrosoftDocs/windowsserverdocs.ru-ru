@@ -3,16 +3,16 @@ title: WDSUTIL Disable-транспортсервер
 description: Справочная статья по команде WDSUTIL Disable-транспортсервер, которая отключает все службы для транспортного сервера.
 ms.topic: reference
 ms.assetid: a009706b-8e89-486b-8e3d-512cd9f4de74
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 4bbb177897e3a779de275957949b0dcf62e53478
-ms.sourcegitcommit: b115e5edc545571b6ff4f42082cc3ed965815ea4
+ms.openlocfilehash: a9cbfbef6ae7071bdbe2520deb8356c1f7d524e2
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93070356"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101825921"
 ---
 # <a name="wdsutil-disable-transportserver"></a>WDSUTIL Disable-транспортсервер
 

@@ -4,15 +4,15 @@ description: Узнайте, как спланировать развертыв�
 manager: brianlic
 ms.topic: article
 ms.assetid: 7eb746e0-1046-4123-b532-77d5683ded44
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: c46ede801c590614b9144bead0539f56d31db384
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: 4afcbe2acc12437cbf42c7f16c97f0f8e2b9efb1
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98038684"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101825481"
 ---
 # <a name="server-certificate-deployment-planning"></a>Планирование развертывания сертификата сервера
 

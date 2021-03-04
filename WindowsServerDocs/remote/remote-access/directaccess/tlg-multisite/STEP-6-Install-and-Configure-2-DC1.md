@@ -4,15 +4,15 @@ description: Узнайте, как установить и настроить 2
 manager: brianlic
 ms.topic: article
 ms.assetid: 3d66901a-c40b-474c-9948-f989f399cfea
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 0d6626e924ffa915a6768dfc40e28028d22b8937
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: 2b3f43df7a4d58cac8ad0727a27868394633b54d
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98040434"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101827528"
 ---
 # <a name="step-6-install-and-configure-2-dc1"></a>Шаг 6. Установка и настройка 2 — DC1
 

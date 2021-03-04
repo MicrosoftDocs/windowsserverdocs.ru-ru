@@ -3,16 +3,16 @@ title: Работа в режиме реплики служб WSUS
 description: Раздел "Настройка режима реплики" службы Windows Server Update Service (WSUS)
 ms.topic: article
 ms.assetid: d218cd6b-3b6b-4429-913b-31d412ce3356
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 1a2d16ddfbd563ae8ef1abf3829849b81e867972
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 28feb0654c2baca3991d0198f8415a5fbd9357c8
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89641209"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101827297"
 ---
 # <a name="running-wsus-replica-mode"></a>Работа в режиме реплики служб WSUS
 

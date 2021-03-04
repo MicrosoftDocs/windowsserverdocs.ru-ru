@@ -4,15 +4,15 @@ description: Узнайте, как создать новую роль поль�
 manager: brianlic
 ms.topic: article
 ms.assetid: ae6a42db-a104-401b-a8e6-b85c47d30b46
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 88c0f82c6e6168d97681e0d6f795dd4101afc6a7
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: c2cb39ca59a80759bbff9baee03c366fa4061f45
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98039724"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101827897"
 ---
 # <a name="create-a-user-role-for-access-control"></a>Создание роли пользователя для управления доступом
 

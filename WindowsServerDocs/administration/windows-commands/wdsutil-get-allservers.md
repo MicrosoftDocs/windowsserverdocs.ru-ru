@@ -3,16 +3,16 @@ title: Get-Аллсерверс
 description: Справочная статья по Get-Аллсерверс, которая извлекает сведения обо всех серверах служб развертывания Windows.
 ms.topic: reference
 ms.assetid: fe2e3c69-8f2e-457d-af55-d249ebf70f53
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 450c864bef3b3f17f3912a06aa72aa56ce6e529a
-ms.sourcegitcommit: 554d274fea48a4d47c19845d969a9ec93dec82de
+ms.openlocfilehash: 46828513aceb0bff62f3d2af065d7808f16204b6
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "92524449"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101825881"
 ---
 # <a name="get-allservers"></a>Get-Аллсерверс
 
@@ -31,8 +31,8 @@ wdsutil [Options] /Get-AllServers /Show:{Config | Images | All} [/Detailed] [/Fo
 
 |   Параметр   |                                                                                                                 Описание                                                                                                                  |
 |---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| /Show: {config |                                                                                                                    изображения;                                                                                                                    |
-|  [/Детаилед]  | При использовании в сочетании с параметром **/Show: Images** или **/Show: ALL**возвращает все метаданные образа из каждого изображения. Если параметр **/детаилед** не указан, по умолчанию возвращается имя образа, описание и имя файла. |
+| /Show: {config |                                                                                                                    Изображения                                                                                                                    |
+|  [/Детаилед]  | При использовании в сочетании с параметром **/Show: Images** или **/Show: ALL** возвращает все метаданные образа из каждого изображения. Если параметр **/детаилед** не указан, по умолчанию возвращается имя образа, описание и имя файла. |
 | [/Forest: {Да |                                                                                                                     Нет}]                                                                                                                     |
 
 ## <a name="examples"></a>Примеры

@@ -3,16 +3,16 @@ title: Службы WSUS и сайт каталога
 description: Раздел, посвященный службам Windows Server Update Service (WSUS), для импорта исправлений в службы WSUS с помощью доступа к сайту каталога Центр обновления Майкрософт
 ms.topic: article
 ms.assetid: f19a8659-5a96-4fdd-a052-29e4547fe51a
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 7e0d3c76e66275fe052d5d337dd30c67d7980638
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 55856b6e8a75306eeb4a1d8cdb665dceb823d0fe
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89624269"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101827175"
 ---
 # <a name="wsus-and-the-catalog-site"></a>Службы WSUS и сайт каталога
 

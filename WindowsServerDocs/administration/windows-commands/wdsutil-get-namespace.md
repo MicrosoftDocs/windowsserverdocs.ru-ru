@@ -3,16 +3,16 @@ title: WDSUTIL Get — пространство имен
 description: Справочная статья по WDSUTIL Get-Namespace, в которой отображаются сведения о пользовательском пространстве имен.
 ms.topic: reference
 ms.assetid: ea641bab-e97b-4909-918e-447730027dc1
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 2c88bd26af900950c33b059822c08f5afb40de77
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: b24ccae5e1aef5c24eafdcb8991d75648bfc0592
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91730783"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101825801"
 ---
 # <a name="wdsutil-get-namespace"></a>WDSUTIL Get — пространство имен
 

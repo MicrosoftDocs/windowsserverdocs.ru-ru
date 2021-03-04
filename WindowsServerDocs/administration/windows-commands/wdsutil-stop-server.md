@@ -3,16 +3,16 @@ title: останавливаемый сервер WDSUTIL
 description: Справочная статья для подкоманды Stop-Server, которая останавливает все службы на сервере служб развертывания Windows.
 ms.topic: reference
 ms.assetid: 09f411c0-099f-4591-95fd-b77b3fd9118a
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 0c1288900cdc5eaa46c27b6eb05fd64b9a1b16a4
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: 1ad76c92c4077f23dbc4175d3a7a12007882bdc8
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91730636"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101826153"
 ---
 # <a name="wdsutil-stop-server"></a>останавливаемый сервер WDSUTIL
 

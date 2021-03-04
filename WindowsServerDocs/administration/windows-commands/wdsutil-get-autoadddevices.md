@@ -3,16 +3,16 @@ title: WDSUTIL Get-аутоадддевицес
 description: Справочная статья по WDSUTIL Get-аутоадддевицес, в которой отображаются все компьютеры, которые находятся в базе данных автоматического добавления на сервере служб развертывания Windows.
 ms.topic: reference
 ms.assetid: 24b4b688-55b0-4bd9-a2f5-7ef4b3dfe2f2
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: c7d5be85ce29a41714d70d8bdfa11e3afa1661d6
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: e7d24786d2a24702f233993e59650fd2d7751bce
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91730855"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101825861"
 ---
 # <a name="wdsutil-get-autoadddevices"></a>WDSUTIL Get-аутоадддевицес
 

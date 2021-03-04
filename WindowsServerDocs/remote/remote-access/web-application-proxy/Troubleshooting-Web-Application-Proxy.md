@@ -2,16 +2,16 @@
 description: Дополнительные сведения см. в статье Устранение неполадок прокси веб-приложения
 title: Диагностика прокси-службы веб-приложения
 ms.author: kgremban
-author: eross-msft
+author: JasonGerend
 ms.date: 07/13/2016
 ms.topic: article
 ms.assetid: a2fef55d-747b-4e20-8f21-5f8807e7ef87
-ms.openlocfilehash: 6c0ba93afe21c1a1c9c24b3986afa6628690197a
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: b3b44e8a8c5651a006365ee549d77b736e18805a
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97044892"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101828223"
 ---
 # <a name="troubleshooting-web-application-proxy"></a>Диагностика прокси-службы веб-приложения
 

@@ -3,16 +3,16 @@ title: New-Каптуреимаже
 description: Справочная статья по New-Каптуреимаже, которая создает новый образ записи из существующего образа загрузки.
 ms.topic: reference
 ms.assetid: 2dfd08f0-be59-4715-96e6-c498305873f4
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 28dfc8d64a1027eced15fb3d09a607a41535975c
-ms.sourcegitcommit: 554d274fea48a4d47c19845d969a9ec93dec82de
+ms.openlocfilehash: 6dbe247ccebe7b31779f1d9ff17883deec28e48b
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "92524349"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101825701"
 ---
 # <a name="new-captureimage"></a>New-Каптуреимаже
 

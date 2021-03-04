@@ -3,16 +3,16 @@ title: WDSUTIL Get-аллимажес
 description: Справочная статья по команде WDSUTIL Get-аллимажес, которая получает сведения обо всех изображениях на сервере.
 ms.topic: reference
 ms.assetid: 19de3720-4315-415a-8dc6-486caa0b2100
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 2fe93036c5493baed122fede4b25b71349996536
-ms.sourcegitcommit: 28b5ab74cb0b40539ccc1a83998d6391e87fe51f
+ms.openlocfilehash: 632d16be639394f5e251eaa2ec98b388f200b13d
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "96614936"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101825901"
 ---
 # <a name="wdsutil-get-allimages"></a>WDSUTIL Get-аллимажес
 

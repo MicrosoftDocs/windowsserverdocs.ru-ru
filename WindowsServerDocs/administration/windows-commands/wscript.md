@@ -3,16 +3,16 @@ title: wscript
 description: Справочная статья по WScript, которая предоставляет среду, в которой пользователи могут выполнять сценарии на различных языках, использующих разнообразные объектные модели для выполнения задач.
 ms.topic: reference
 ms.assetid: 2fbaf193-cdbd-414c-84c9-bb5720f84c29
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 08/21/2018
-ms.openlocfilehash: af39abab4d493e0bd4a5ed9227c68e2e2e34dc2b
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 75905bbe9baf5c3842d8681b67a5649068ec2454
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89628464"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101827486"
 ---
 # <a name="wscript"></a>wscript
 
@@ -46,7 +46,7 @@ wscript [<scriptname>] [/b] [/d] [/e:<engine>] [{/h:cscript|/h:wscript}] [/i] [/
 |скриптаргументс|Задает аргументы, передаваемые в скрипт. Каждому аргументу сценария должна предшествовать косая черта (/).|
 |/?|Отображает справку в командной строке.|
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Комментарии
 
 -   Для выполнения этой задачи не требуются административные учетные данные. Поэтому рекомендуется выполнять эту задачу от имени пользователя без административных учетных данных.
 -   Чтобы открыть окно командной строки, на **начальном экране** введите **cmd**, а затем щелкните **командную строку**.

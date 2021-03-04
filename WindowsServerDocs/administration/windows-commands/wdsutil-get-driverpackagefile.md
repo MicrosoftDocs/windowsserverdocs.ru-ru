@@ -3,16 +3,16 @@ title: WDSUTIL Get-дриверпаккажефиле
 description: Справочная статья по WDSUTIL Get-дриверпаккажефиле, в которой отображаются сведения о пакете драйверов, включая драйверы и файлы, которые он содержит.
 ms.topic: reference
 ms.assetid: f01a2c67-7e9c-4aad-b625-383f5a1fca25
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 900fc109c52908870733d4892e6d70f4a7b84c07
-ms.sourcegitcommit: 554d274fea48a4d47c19845d969a9ec93dec82de
+ms.openlocfilehash: 9fdb603c6716d80f2359e5e008c9fb7053809608
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "92524269"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101825831"
 ---
 # <a name="wdsutil-get-driverpackagefile"></a>WDSUTIL Get-дриверпаккажефиле
 

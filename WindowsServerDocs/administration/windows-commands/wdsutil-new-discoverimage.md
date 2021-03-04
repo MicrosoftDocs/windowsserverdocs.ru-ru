@@ -3,16 +3,16 @@ title: New-Дисковеримаже
 description: Справочная статья по New-Дисковеримаже, которая создает новый образ обнаружения из существующего образа загрузки.
 ms.topic: reference
 ms.assetid: ede9fbbb-0bba-4309-8c21-3cc13e1dc3cd
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 693b9866dbd19fa649622d5b97b3474351c96a35
-ms.sourcegitcommit: 554d274fea48a4d47c19845d969a9ec93dec82de
+ms.openlocfilehash: 5dbf96337067e58d1fc99486feaab3cfea25529c
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "92524259"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101825691"
 ---
 # <a name="new-discoverimage"></a>New-Дисковеримаже
 

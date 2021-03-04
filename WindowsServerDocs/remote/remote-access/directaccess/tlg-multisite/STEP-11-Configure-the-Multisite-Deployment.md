@@ -4,15 +4,15 @@ description: Узнайте, как внести изменения в теку�
 manager: brianlic
 ms.topic: article
 ms.assetid: 8cbdeb1d-5f7c-4360-bcc1-ab40d3cd8040
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 7b70ab6e1f8f28fd0fb1a3a546188de1b4b37cbc
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: da6ec15bce57d6db9f53060e886cc5bc746a3ec1
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98039174"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101827037"
 ---
 # <a name="step-11-configure-the-multisite-deployment"></a>Шаг 11. Настройка многосайтового развертывания
 

@@ -1,24 +1,24 @@
 ---
 title: WDSUTIL Start-мултикасттрансмиссион
-description: Справочная статья по подкоманде Start-Мултикасттрансмиссион, которая запускает пересылку образа по расписанию.
+description: Справочная статья для подкоманды Start-Мултикасттрансмиссион, которая запускает Scheduled-Castную передачу образа.
 ms.topic: reference
 ms.assetid: a1b2d459-1ece-49d4-997c-9d206c463b61
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: a60f708dcba51cad109c050c8cc6fa331db293fe
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: 74d5619e160f7584779791d6427161a70eacf38c
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91731293"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101826233"
 ---
 # <a name="wdsutil-start-multicasttransmission"></a>WDSUTIL Start-мултикасттрансмиссион
 
 > Область применения: Windows Server (половина ежегодного канала), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
-Запускает пересылку образа по расписанию.
+Запускает Scheduled-Castную передачу изображения.
 
 ## <a name="syntax"></a>Синтаксис
 **Windows Server 2008**

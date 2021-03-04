@@ -4,16 +4,16 @@ description: Обзор обеспечения безопасности в Windo
 ms.topic: article
 ms.date: 07/27/2018
 ms.assetid: b886b2fd-3567-4f0a-8aa3-4ba7923d2d21
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.localizationpriority: medium
-ms.openlocfilehash: 86011cbe4ba748347e049699a716ec38d462a788
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 601a2b35f7e73d92f7adf22bd76e20e701d9a8aa
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89641198"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101825981"
 ---
 # <a name="security-and-assurance-in-windows-server"></a>Безопасность и контроль в Windows Server
 

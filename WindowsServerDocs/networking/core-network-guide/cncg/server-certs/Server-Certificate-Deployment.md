@@ -4,15 +4,15 @@ description: Сведения о шагах, которые необходимо
 manager: brianlic
 ms.topic: article
 ms.assetid: 1ae4384b-f4e4-41e8-bc5f-9ac41953bca4
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: aaa2f2e780a088e0fc321fb53d3d710df449616b
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: 5e1c79160df359f57bdc4a243874b06716a19ffc
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98038594"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101825471"
 ---
 # <a name="server-certificate-deployment"></a>Развертывание сертификата сервера
 

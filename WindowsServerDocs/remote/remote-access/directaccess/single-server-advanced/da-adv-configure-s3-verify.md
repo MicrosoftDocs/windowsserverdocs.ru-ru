@@ -4,15 +4,15 @@ description: Узнайте, как проверить правильность 
 manager: brianlic
 ms.topic: article
 ms.assetid: ae8bbff0-c981-4bc6-8df1-861621d0627f
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 38e93e9c40b1e87557bd077f7b9d2129a2e9bae4
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 033e7d4c7ddc1f35953754e841350ebf671669d3
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97949820"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101827596"
 ---
 # <a name="step-3-verify-the-advanced-directaccess-deployment"></a>Шаг 3. Проверка расширенного развертывания DirectAccess
 

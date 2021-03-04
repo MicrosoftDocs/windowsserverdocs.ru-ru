@@ -4,15 +4,15 @@ description: Узнайте, как повысить производитель�
 manager: brianlic
 ms.topic: article
 ms.assetid: 2d9cdada-0625-41c8-8248-a32259b03e47
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: fd48dc876cd2b8a24199ffc4fc95b8fa5a6d0d72
-ms.sourcegitcommit: d42b80f947dbfa8660d982be67d77745a28081e5
+ms.openlocfilehash: 0c6b8bf5efe4fbf6594b01ea8cc715fdebe0b9b5
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "98113380"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101828193"
 ---
 # <a name="increase-concurrent-authentications-processed-by-nps"></a>Увеличение объема параллельных аутентификаций, обрабатываемых NPS
 

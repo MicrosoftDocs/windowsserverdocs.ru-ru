@@ -3,16 +3,16 @@ title: Общие сведения о службах домен Active Directory
 description: Узнайте о том, как службы домен Active Directory Services предоставляют методы для хранения данных каталога и предоставления доступа к этим данным сетевым пользователям и администраторам.
 ms.topic: article
 ms.assetid: 6cfe9479-5d17-41d5-939a-891e5233fdca
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/12/2016
-ms.openlocfilehash: 7bf44fc77dfa89c3663b74c5fd1a7468e9ffa82c
-ms.sourcegitcommit: d42b80f947dbfa8660d982be67d77745a28081e5
+ms.openlocfilehash: b887dcb0ca11ee1cab0c03c9a562e11c1403a75c
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "98112980"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101827837"
 ---
 # <a name="overview-of-active-directory-domain-services"></a>Общие сведения о службах домен Active Directory
 

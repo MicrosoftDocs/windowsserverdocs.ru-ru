@@ -4,15 +4,15 @@ description: В этом разделе приводятся общие свед
 manager: dougkim
 ms.topic: article
 ms.assetid: 9c7a67e0-0953-479c-8736-ccb356230bde
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 06/20/2018
-ms.openlocfilehash: 815bc9d01f8e5e8b85cfeecb9beb70963b18d14f
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.openlocfilehash: 7652a7a7ed469679ec55e7d63bf255611ba68cfe
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96865483"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101826633"
 ---
 # <a name="network-policy-server-nps"></a>Сервер политики сети
 

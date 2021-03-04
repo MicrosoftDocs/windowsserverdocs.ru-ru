@@ -3,16 +3,16 @@ title: WDSUTIL Initialize-Server
 description: Справочная статья по WDSUTIL Initialize-Server, которая настраивает сервер служб развертывания Windows для первоначального использования после установки роли сервера.
 ms.topic: reference
 ms.assetid: 68a26ad9-5eb2-4490-b782-b7cd46b8000d
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: c61da4f608e825a7cb19c8fb80f8f4b3a5c26fed
-ms.sourcegitcommit: 554d274fea48a4d47c19845d969a9ec93dec82de
+ms.openlocfilehash: 09c55907186c4271a629c684da4d4f344e22b024
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "92524279"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101825731"
 ---
 # <a name="wdsutil-initialize-server"></a>WDSUTIL Initialize-Server
 

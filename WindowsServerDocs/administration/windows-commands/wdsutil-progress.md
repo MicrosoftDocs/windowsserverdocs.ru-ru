@@ -1,18 +1,18 @@
 ---
-title: ход выполнения WDSUTIL
+title: wdsutil progress
 description: Справочная статья с ходом выполнения WDSUTIL, которая отображает ход выполнения команды.
 ms.topic: reference
 ms.assetid: 8ce5e77b-e13f-4ac3-948d-31770a6c7e25
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 4a7ddc18db35b110c8b5c513f798e3408aafd93f
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: e9bd24479cd2d6ab538e8a7810f9dab28e27db54
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91730695"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101825601"
 ---
 # <a name="wdsutil-progress"></a>WDSUTIL/прогресс
 

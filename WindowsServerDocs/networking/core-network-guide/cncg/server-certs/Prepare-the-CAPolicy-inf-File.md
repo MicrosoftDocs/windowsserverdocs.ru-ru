@@ -4,15 +4,15 @@ description: Файл CAPolicy. inf содержит различные пара
 manager: alanth
 ms.topic: article
 ms.assetid: 65b36794-bb09-4c1b-a2e7-8fc780893d97
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 70921e660383eaf572ee3eae10817287a8bf29f2
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 7fe6e3a80b689f504db36794c0d2f8a26fa325ef
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97950170"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101825501"
 ---
 # <a name="capolicyinf-syntax"></a>Синтаксис файла CAPolicy. INF
 >   Область применения. Windows Server (Semi-Annual Channel), Windows Server 2016
@@ -241,7 +241,7 @@ Certutil -setreg CACRLDeltaPeriodUnits 1
 
    -   В поле **Кодировка** указано **ANSI**
 
-7. Нажмите **Сохранить**.
+7. Выберите команду **Сохранить**.
 
 8. При появлении запроса о перезаписи файла нажмите **Да**.
 

@@ -3,16 +3,16 @@ title: WDSUTIL New — Namespace
 description: Справочная статья по WDSUTIL New-Namespace, которая создает и настраивает новое пространство имен.
 ms.topic: reference
 ms.assetid: 6df60703-30bd-4d59-a8d9-9fe3efe96add
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 67f479af3644cad5c587a4c6eb17dbf43e1fbe0c
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: 01c8a35b3dcbf469cbfe4627cfd299356db4aa43
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91730703"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101825661"
 ---
 # <a name="wdsutil-new-namespace"></a>WDSUTIL New — Namespace
 
@@ -40,13 +40,13 @@ wdsutil [Options] /New-Namespace [/Server:<Server name>]
 |Имен<Namespace name>|Указывает имя пространства имен. Обратите внимание, что это не понятное имя, оно должно быть уникальным.<p>-   **Служба роли сервера развертывания**. для этого параметра используется следующий синтаксис:/namespace: WDS: <Image group> / <Image name> / <Index> . Например: **WDS: ImageGroup1/install. wim/1**<br />-   **Служба роли транспортного сервера**: это значение должно совпадать с именем, заданным при создании пространства имен на сервере.|
 |/Контентпровидер: <Name> ]|Указывает имя поставщика содержимого, который предоставит содержимое для пространства имен.|
 |[/Конфигстринг: <Configuration string> ]|Задает строку конфигурации для поставщика содержимого.|
-|/Намеспацетипе: {автотрансляция &#124; Счедуледкаст}|Задает параметры передачи. Параметры задаются с помощью следующих параметров.<p>-[/Тиме: <time> ] — задает время начала передачи с использованием следующего формата: гггг/мм/дд: чч: мм. Этот параметр применяется только к передачам по расписанию.<br />-[/Клиентс: <Number of clients> ] — задает минимальное число клиентов для ожидания перед началом передачи. Этот параметр применяется только к передачам по расписанию.|
+|/Намеспацетипе: {автотрансляция &#124; Счедуледкаст}|Задает параметры передачи. Параметры задаются с помощью следующих параметров.<p>-[/Тиме: <time> ] — задает время начала передачи с использованием следующего формата: гггг/мм/дд: чч: мм. Этот параметр применяется только к Scheduled-Castным передачам.<br />-[/Клиентс: <Number of clients> ] — задает минимальное число клиентов для ожидания перед началом передачи. Этот параметр применяется только к Scheduled-Castным передачам.|
 ## <a name="examples"></a>Примеры
 Чтобы создать пространство имен автоматического приведения, введите:
 ```
 wdsutil /New-Namespace /FriendlyName:Custom AutoCast Namespace /Namespace:Custom Auto 1 /ContentProvider:MyContentProvider /Namespacetype:AutoCast
 ```
-Чтобы создать пространство имен с расписанием, введите:
+Чтобы создать пространство имен Scheduled-Cast, введите:
 ```
 wdsutil /New-Namespace /Server:MyWDSServer /FriendlyName:Custom Scheduled Namespace /Namespace:Custom Auto 1 /ContentProvider:MyContentProvider
 /Namespacetype:ScheduledCast /time:2006/11/20:17:00 /Clients:20

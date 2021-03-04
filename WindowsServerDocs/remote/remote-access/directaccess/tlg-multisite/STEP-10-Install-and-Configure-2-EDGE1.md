@@ -4,15 +4,15 @@ description: Узнайте, как установить и настроить 2
 manager: brianlic
 ms.topic: article
 ms.assetid: d98d6f7a-a2e6-45b1-9c63-08e2986a5c03
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 00d80da77cc959a16824b580507f2d57cbf554b9
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: 4b01bea50c8a81cd5dab53bb5e2af459243ced23
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98039191"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101827057"
 ---
 # <a name="step-10-install-and-configure-2-edge1"></a>Шаг 10. Установка и настройка 2-EDGE1
 

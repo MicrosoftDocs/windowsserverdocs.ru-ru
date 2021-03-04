@@ -4,15 +4,15 @@ description: Узнайте, как убедиться, что серверы п
 manager: brianlic
 ms.topic: article
 ms.assetid: bd80a018-5a30-47c3-89fc-aacb9f5ad298
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 188e75ed58c3adc0249305d669acbb06d0b6c15d
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: 26e54c0d2d5354392f54efee2df2ba85a756fcb6
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98038344"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101825431"
 ---
 # <a name="verify-server-enrollment-of-a-server-certificate"></a>Проверка регистрации сертификата сервера на сервере
 

@@ -3,16 +3,16 @@ title: WDSUTIL Get-Image
 description: Справочная статья по WDSUTIL Get-Image, которая получает сведения о изображении.
 ms.topic: reference
 ms.assetid: 0ecaa999-72ad-4191-adb5-a418de42a001
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 0f6cfcf3783ef49f2dd57941ae9a2ae4feb3742e
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: b7d57e031df85f1ba8c9e61d6532105fe690b679
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91730812"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101826543"
 ---
 # <a name="wdsutil-get-image"></a>WDSUTIL Get-Image
 

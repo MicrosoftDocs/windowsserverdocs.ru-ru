@@ -3,16 +3,16 @@ title: WDSUTIL Remove-дриверпаккаже
 description: Справочная статья по WDSUTIL Remove-дриверпаккаже, которая удаляет пакет драйверов с сервера.
 ms.topic: reference
 ms.assetid: 6b201e91-0d44-4e4a-8252-8b0235df1002
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: fe40c9a1dbbf4a5f0bd09e61f39e6b9314a09337
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: 5bba6969fcb0704db56cba2ca0a557e9e3d199ea
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91730628"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101825531"
 ---
 # <a name="wdsutil-remove-driverpackage"></a>WDSUTIL Remove-дриверпаккаже
 

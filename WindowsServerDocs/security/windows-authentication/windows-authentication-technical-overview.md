@@ -3,16 +3,16 @@ title: Технический обзор проверки подлинности
 description: Найдите ссылки на статьи с техническим обзором проверки подлинности Windows.
 ms.topic: article
 ms.assetid: 286d3e41-434f-4703-9320-706d06ebda51
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/12/2016
-ms.openlocfilehash: e7dd9f927667b72e256572a5856c0a363e0ef09b
-ms.sourcegitcommit: decb6c8caf4851b13af271d926c650d010a6b9e9
+ms.openlocfilehash: 6da98c9b42d799ec92b47ed8aa8045c99b4712f6
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "98177113"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101828073"
 ---
 # <a name="windows-authentication-technical-overview"></a>Технический обзор проверки подлинности Windows
 

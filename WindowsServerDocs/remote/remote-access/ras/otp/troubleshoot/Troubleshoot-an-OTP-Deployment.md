@@ -4,15 +4,15 @@ description: Узнайте, как устранять наиболее расп
 manager: brianlic
 ms.topic: article
 ms.assetid: 4b9569b8-a366-43ad-a52a-b35d88a08d41
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: f33ef21a338380afa97f1725b32e4b4f3d344278
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: 013b528e057ad5814065a064854e83150411ea2a
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98038974"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101826713"
 ---
 # <a name="troubleshoot-an-otp-deployment"></a>Диагностика развертывания OTP
 

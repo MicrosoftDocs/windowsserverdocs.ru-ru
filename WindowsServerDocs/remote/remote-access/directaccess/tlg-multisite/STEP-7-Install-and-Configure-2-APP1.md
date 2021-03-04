@@ -4,15 +4,15 @@ description: Узнайте, как установить и настроить 2
 manager: brianlic
 ms.topic: article
 ms.assetid: 1cc0abc6-be4d-4cbe-bd0c-cc448bf294f6
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: cd907c44605890936d76d99388703108846072f2
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: 12fd3185f4ba7d8509d8101f9ea1ecc3500c8f34
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98040294"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101828103"
 ---
 # <a name="step-7-install-and-configure-2-app1"></a>Шаг 7. Установка и настройка 2 – APP1
 

@@ -3,16 +3,16 @@ title: Запуск WDSUTIL-сервер
 description: Справочная статья для команды Start-Server, запускающей все службы для сервера служб развертывания Windows.
 ms.topic: reference
 ms.assetid: 1e4343e2-0a16-4e65-8769-c09adaef5680
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 03791bd3a313f1ab2a5a2e076036d0aaddb18a8e
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: 3b123cb1ce7ffa8745f1eda4ee465bed40438388
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91731368"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101826193"
 ---
 # <a name="wdsutil-start-server"></a>Запуск WDSUTIL-сервер
 

@@ -4,15 +4,15 @@ description: В этом разделе содержится список неп
 manager: brianlic
 ms.topic: article
 ms.assetid: 23d05e61-95c3-4e70-aa83-b9a8cae92304
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 827af9315a73bb67cdb017b62150a5fb42c5d69a
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: a3dc4a79ace30dc2431ca266ed387ba501f9c786
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97946640"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101828243"
 ---
 # <a name="directaccess-unsupported-configurations"></a>DirectAccess неподдерживаемые конфигурации
 

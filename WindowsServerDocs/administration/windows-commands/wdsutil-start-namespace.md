@@ -1,24 +1,24 @@
 ---
 title: WDSUTIL Start — пространство имен
-description: Справочная статья для подкоманды Start-Namespace, которая запускает пространство имен, запланированное для приведения.
+description: Справочная статья для подкоманды Start-Namespace, которая запускает Scheduled-Cast пространство имен.
 ms.topic: reference
 ms.assetid: 2dd1c11e-6ab7-4129-9e3a-3f80e0ba59c0
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 7463b062bf3322d6cf4f9c481effde825cb2979a
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: a11f0309e5299a26e80b786a6fe10dd849ec4dea
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91731288"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101826203"
 ---
 # <a name="wdsutil-start-namespace"></a>WDSUTIL Start — пространство имен
 
 > Область применения: Windows Server (половина ежегодного канала), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
-Запускает пространство имен, запланированное для приведения.
+Запускает Scheduled-Cast пространство имен.
 
 ## <a name="syntax"></a>Синтаксис
 ```

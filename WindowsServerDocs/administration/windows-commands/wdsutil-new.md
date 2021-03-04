@@ -1,20 +1,20 @@
 ---
-title: WDSUTIL New
+title: wdsutil new
 description: Справочная статья по WDSUTIL New, в котором создаются образы для записи и обнаружения, многоадресные передачи и пространства имен.
 ms.topic: reference
 ms.assetid: 0f06f310-c585-42f4-9d15-4680b4a3355d
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: cb369c6f3234c55ad5a56c8cd4c582ff25ded776
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: 0b441110bf7fddb98ca0f24fd00b360b8e486fa5
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91730719"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101825641"
 ---
-# <a name="wdsutil-new"></a>WDSUTIL New
+# <a name="wdsutil-new"></a>wdsutil new
 
 > Область применения: Windows Server (половина ежегодного канала), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 

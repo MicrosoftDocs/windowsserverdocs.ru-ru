@@ -3,16 +3,16 @@ title: What's New for Managed Service Accounts
 description: Сведения об изменениях в функциональности управляемых учетных записей служб с введением групповой управляемой учетной записи службы в Windows Server 2012 и Windows 8.
 ms.topic: article
 ms.assetid: 2f2a8b6b-c152-4c40-b712-bfabff0e408b
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/12/2016
-ms.openlocfilehash: d7ea925975254533ff7b9c6591ddde4a884a79ae
-ms.sourcegitcommit: d42b80f947dbfa8660d982be67d77745a28081e5
+ms.openlocfilehash: 9123718829467bf1d4f11c79af607b6942140ad5
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "98112970"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101827747"
 ---
 # <a name="what39s-new-for-managed-service-accounts"></a>Новые&#39;для управляемых учетных записей служб
 

@@ -3,16 +3,16 @@ title: WDSUTIL-транспортсервер
 description: Справочная статья для Транспортсервер
 ms.topic: reference
 ms.assetid: dc1b1eec-6893-445e-81dc-16b3fae287fa
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 800c99cba18ed2158749b1638627b31f8fdbaf5f
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: 6fd02b92316eee15bb3947eca6084cb43f514aad
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91731253"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101826130"
 ---
 # <a name="wdsutil-stop-transportserver"></a>WDSUTIL-транспортсервер
 

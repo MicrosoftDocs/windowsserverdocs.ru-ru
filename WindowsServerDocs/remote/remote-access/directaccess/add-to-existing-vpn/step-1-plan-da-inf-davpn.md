@@ -4,15 +4,15 @@ description: Узнайте, как выполнить планирование 
 manager: brianlic
 ms.topic: article
 ms.assetid: 4ca50ea8-6987-4081-acd5-5bf9ead62acd
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 02f332c2e8d2511aad17b63413a71cc572b0b0b3
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 9f39c0600529b1b4eb049ed6a11b116cac35d4d2
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97947060"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101827691"
 ---
 # <a name="step-1-plan-directaccess-infrastructure"></a>Шаг 1. Планирование инфраструктуры DirectAccess
 

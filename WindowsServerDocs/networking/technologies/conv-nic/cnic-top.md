@@ -4,15 +4,15 @@ description: Согласованная сетевая карта позволя
 ms.topic: article
 ms.assetid: d7642338-9b33-4dce-8100-8b2c38d7127a
 manager: dougkim
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 09/13/2018
-ms.openlocfilehash: 2b077b911d3721907e70b198c62970aafe25e58d
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: afe624e336a54241b288f87a4eca6a906df0950d
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87944758"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101826077"
 ---
 # <a name="converged-network-interface-card-nic-configuration-guidance"></a>\(Руководство по настройке сетевого адаптера с согласованным сетевым интерфейсом \)
 
@@ -56,7 +56,7 @@ ms.locfileid: "87944758"
 - Роль сервера Hyper-V, установленная на каждом сервере.
 - Вы должны быть знакомы с набором коммутаторов \( Embedded \) , альтернативным решением для объединения сетевых карт, используемым в средах, включающих Hyper-V и стек программно-определяемых сетей (SDN) в Windows Server 2016. Установите некоторые функции объединения сетевых карт в виртуальный коммутатор Hyper-V. Дополнительные сведения см. в разделе [Удаленный доступ к памяти (RDMA) и объединение коммутаторов (Set) Embedded](../../../virtualization/hyper-v-virtual-switch/RDMA-and-Switch-Embedded-Teaming.md).
 
-## <a name="related-topics"></a>Связанные темы
+## <a name="related-topics"></a>Связанные разделы
 - [Конфигурация с согласованным СЕТЕВЫМ адаптером с одним сетевым адаптером](cnic-single.md)
 - [Конфигурация сетевого адаптера Объединенных сетевых адаптеров](cnic-datacenter.md)
 - [Конфигурация физического коммутатора для Объединенных сетевых адаптеров](cnic-app-switch-config.md)

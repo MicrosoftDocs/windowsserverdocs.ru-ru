@@ -3,16 +3,16 @@ title: Просмотр обновлений и управление ими
 description: 'Раздел о службе Windows Server Update Service (WSUS): Просмотр обновлений и управление ими в консоли WSUS'
 ms.topic: article
 ms.assetid: ac70192b-0309-4385-b697-2e8eda51911c
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: cc2c81e1b534c25ea0aa6a6abd6c2089620b920e
-ms.sourcegitcommit: 84b97d34d606b6bf4b6ec8760a93107f1b311428
+ms.openlocfilehash: 8451aaf805eaf6aafe5b950ed845e1a1dee14bae
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "99245385"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101827223"
 ---
 # <a name="viewing-and-managing-updates"></a>Просмотр обновлений и управление ими
 

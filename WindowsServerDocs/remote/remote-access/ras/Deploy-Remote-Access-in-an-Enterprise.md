@@ -4,15 +4,15 @@ description: В этом разделе приводятся общие свед
 manager: brianlic
 ms.topic: article
 ms.assetid: 4781df0a-158b-4562-b8f5-32b27615a4f8
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 8da7f989bec6a0a14a87d503afb976459a073d94
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: b2da874ee0b242ac84322bc17ef265282af9a6a6
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97947410"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101826909"
 ---
 # <a name="deploy-remote-access-in-an-enterprise"></a>Развертывание удаленного доступа на предприятии
 

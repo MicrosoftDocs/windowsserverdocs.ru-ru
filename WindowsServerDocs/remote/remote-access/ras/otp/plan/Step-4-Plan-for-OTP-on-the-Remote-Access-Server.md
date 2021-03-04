@@ -4,15 +4,15 @@ description: Узнайте, как планировать параметры OT
 manager: brianlic
 ms.topic: article
 ms.assetid: 4b97b2fd-767a-45c1-a64e-5b3edd0c8a47
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 2302ae8c1f288fa5da36dec2933fc9d398c45168
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: e2c6660a06facc749c5c11f44d9edb3c107af7e8
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98040134"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101826741"
 ---
 # <a name="step-4-plan-for-otp-on-the-remote-access-server"></a>Шаг 4. Планирование OTP на сервере удаленного доступа
 

@@ -1,20 +1,20 @@
 ---
-title: WDSUTIL Get
+title: wdsutil get
 description: Справочная статья по WDSUTIL Get, которая извлекает свойства или атрибуты указанного объекта.
 ms.topic: reference
 ms.assetid: fbd44c67-0670-4dfe-a1c0-2ab8abe327b5
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: b091eeacd8205d131a4b0dceea6ad53d3b5fd270
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: ba76319c140b95f2ab8a03556a34e438892c4bdb
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91730764"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101825771"
 ---
-# <a name="wdsutil-get"></a>WDSUTIL Get
+# <a name="wdsutil-get"></a>wdsutil get
 
 > Область применения: Windows Server (половина ежегодного канала), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 

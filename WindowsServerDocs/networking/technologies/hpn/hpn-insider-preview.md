@@ -1,17 +1,17 @@
 ---
 title: Предварительная версия функции предварительной оценки для функций ХПН в Windows Server 2019
-description: Узнайте о новых высокопроизводительных сетевых функциях в Windows Server 2019.
+description: Узнайте о новых High-Performance сетевых функциях в Windows Server 2019.
 manager: dougkim
-author: eross-msft
-ms.author: lizross
+author: JasonGerend
+ms.author: jgerend
 ms.date: 09/12/2018
 ms.topic: article
-ms.openlocfilehash: 2eb6ec82d9127e89f1d7871d0143ae3716b4355e
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: e8d7e5dcea5de9b816b0e57169f336b4283f6c64
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87955651"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101827887"
 ---
 # <a name="new-hpn-features-in-windows-server-2019"></a>Новые функции ХПН в Windows Server 2019
 
@@ -24,7 +24,7 @@ ms.locfileid: "87955651"
 
 В Windows Server 2019 эти оптимизации усовершенствованы за счет динамического распределения и настройки обработки сетевых нагрузок по мере необходимости. Windows Server 2019 обеспечивает пиковую эффективность и устраняет нагрузку на конфигурацию для ИТ администраторов.
 
-Дополнительные сведения можно найти в разделе
+Дополнительные сведения см. в разделе:
 
 -   [Блог объявлений](https://blogs.technet.microsoft.com/networking/2018/08/22/netperf4vw/)
 
@@ -40,7 +40,7 @@ ms.locfileid: "87955651"
 
 По умолчанию RSC в vSwitch включен на внешних виртуальных коммутаторах.
 
-Дополнительные сведения можно найти в разделе
+Дополнительные сведения см. в разделе:
 
 -  [Блог объявлений](https://blogs.technet.microsoft.com/networking/2018/08/22/netperf4vw/)
 

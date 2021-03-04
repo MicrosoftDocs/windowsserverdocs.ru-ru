@@ -3,16 +3,16 @@ title: WDSUTIL Remove-мултикасттрансмиссион
 description: Справочная статья по WDSUTIL Remove-мултикасттрансмиссион, которая отключает многоадресную передачу изображения.
 ms.topic: reference
 ms.assetid: 9a7f5c31-bfbf-425d-9129-a6f9173fe83d
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: a7ed8d9ef26deb0a50baa8511cd07f250561d579
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: ade7e47f06a480539d3ac301d3ba73b176f51023
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91731378"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101826433"
 ---
 # <a name="wdsutil-remove-multicasttransmission"></a>WDSUTIL Remove-мултикасттрансмиссион
 

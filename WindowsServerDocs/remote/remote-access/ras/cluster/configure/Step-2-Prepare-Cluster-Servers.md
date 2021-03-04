@@ -4,15 +4,15 @@ description: Узнайте, как подготовить дополнител�
 manager: brianlic
 ms.topic: article
 ms.assetid: 35d68abb-6914-42e0-91e8-803933cf785e
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 09c2a1a05d6800a3497bc6b8b15536eb73466770
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 779f2328f0ca644495a33e290c6edeb7e38d0ed6
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97947390"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101826831"
 ---
 # <a name="step-2-prepare-cluster-servers"></a>Шаг 2. Подготовка серверов кластера
 

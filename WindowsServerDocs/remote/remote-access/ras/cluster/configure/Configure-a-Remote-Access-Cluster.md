@@ -4,15 +4,15 @@ description: Сведения о шагах настройки, необходи
 manager: dougkim
 ms.topic: article
 ms.assetid: e8df3619-f365-4070-8117-888c88db13eb
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 05/25/2018
-ms.openlocfilehash: 15777ee75ac1e4dbcf3ed256ae2eb390d7e9b761
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: e920f87fefcf3b6e580ca141818b55c458b4df4b
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97942341"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101826859"
 ---
 # <a name="configure-a-remote-access-cluster"></a>Настройка кластера удаленного доступа
 

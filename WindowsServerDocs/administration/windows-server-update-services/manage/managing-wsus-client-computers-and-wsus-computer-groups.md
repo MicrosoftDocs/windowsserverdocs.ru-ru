@@ -3,16 +3,16 @@ title: Управление клиентскими компьютерами и �
 description: Руководство по службам Windows Server Update Service (WSUS) — Управление клиентскими компьютерами и группами
 ms.topic: article
 ms.assetid: 4b1ea915-0f9f-4f0e-8913-a1dd460d07ab
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: f5045df7ec213e459b5f3d2aa1b8b2dedb76b8f4
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 77f84a608842c4e0485139cf5ea5ae9f35738dc2
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89624434"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101827315"
 ---
 # <a name="managing-wsus-client-computers-and-wsus-computer-groups"></a>Управление клиентскими компьютерами и группами компьютеров служб WSUS
 

@@ -5,15 +5,15 @@ metadata:
   title: Документация по безопасности Windows Server
   description: Общие сведения о безопасности в Windows Server.
   ms.topic: landing-page
-  author: eross-msft
-  ms.author: lizross
+  author: JasonGerend
+  ms.author: jgerend
   ms.date: 5/19/2020
-  ms.openlocfilehash: d0412e55d72b34326df69f20f9282256f8120805
-  ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+  ms.openlocfilehash: 4d401c2e64c5d6e4249809e55c5b32e392ce981e
+  ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
   ms.translationtype: MT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 09/10/2020
-  ms.locfileid: "89640205"
+  ms.lasthandoff: 03/04/2021
+  ms.locfileid: "101825961"
 landingContent:
 - title: Обзор обеспечения безопасности в Windows Server
   linkLists:

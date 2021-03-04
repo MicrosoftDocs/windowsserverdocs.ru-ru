@@ -4,15 +4,15 @@ description: Узнайте о шагах планирования и настр
 manager: brianlic
 ms.topic: article
 ms.assetid: c44fecc9-fe39-40bd-b6da-d8f8afe1a01d
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: c64d0fa2e9c0c00e253ca9b227b49e0815dae4c6
-ms.sourcegitcommit: 605a9b46b74b2c7a9116e631e902467ea02a6e70
+ms.openlocfilehash: 1afcc9b413fc5eb55b0cb12fe4d5aee9e0d23b84
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97964889"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101828143"
 ---
 # <a name="deploy-remote-access-in-a-multi-forest-environment"></a>Deploy Remote Access in a Multi-Forest Environment
 

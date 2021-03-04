@@ -3,16 +3,16 @@ title: Управление обновлениями с помощью служ�
 description: Раздел по службам Windows Server Update Service (WSUS). Общие сведения о Управление обновлениями со ссылками на соответствующие разделы
 ms.topic: article
 ms.assetid: 28fde77a-f5fc-4e51-835d-8bc304dcfa54
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: a18d1f46c782a07a32f8402ec7f1eacc0a2ae682
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 88429eda2ee4513bab0c0f4550e5ab37c6175d03
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89624376"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101827251"
 ---
 # <a name="update-management-with-windows-server-update-services"></a>Управление обновлениями с помощью служб Windows Server Update Services
 

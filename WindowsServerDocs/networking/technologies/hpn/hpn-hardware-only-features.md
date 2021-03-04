@@ -4,15 +4,15 @@ description: Узнайте о высокопроизводительных се
 ms.topic: article
 ms.assetid: 0cafb1cc-5798-42f5-89b6-3ffe7ac024ba
 manager: dougkim
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 09/12/2018
-ms.openlocfilehash: 13ab5cec3ef8ec035351f0a2a30c2152b1f48499
-ms.sourcegitcommit: d42b80f947dbfa8660d982be67d77745a28081e5
+ms.openlocfilehash: 54a35166e18ed70acf4e3a0b30dff39d8890892d
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "98113086"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101827907"
 ---
 # <a name="hardware-only-ho-features-and-technologies"></a>Только аппаратные функции и технологии
 

@@ -3,16 +3,16 @@ title: wmic
 description: Справочная статья по WMIC, которая отображает сведения WMI в интерактивной командной оболочке.
 ms.topic: reference
 ms.assetid: 76397c72-d06f-4cea-88cf-c7603315a983
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: d79f00798b3901d1b8cc44d313824130b1c8fb62
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: bf305941f673fcf8eb53f85601e34fc519ac8899
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89638868"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101827017"
 ---
 # <a name="wmic"></a>wmic
 

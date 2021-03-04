@@ -3,16 +3,16 @@ title: WDSUTIL Remove-Image
 description: Справочная статья по WDSUTIL Remove-Image, которая удаляет образ с сервера.
 ms.topic: reference
 ms.assetid: ce5e2384-2264-4b22-92af-74eec8c10ae0
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: f1d955f54f345b6d2832eabe2334dd77f32633e7
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: 6df982f3db3ff4ff014837ce668013ce5af20d9d
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91731238"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101826453"
 ---
 # <a name="wdsutil-remove-image"></a>WDSUTIL Remove-Image
 

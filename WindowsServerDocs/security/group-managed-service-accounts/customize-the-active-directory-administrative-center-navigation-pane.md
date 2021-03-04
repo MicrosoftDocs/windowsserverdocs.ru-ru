@@ -2,17 +2,17 @@
 title: Настройка области навигации центр администрирования Active Directory
 description: Сведения о настройке области навигации центр администрирования Active Directory.
 ms.assetid: c9933d16-e153-435a-b5b7-3e594db42d5c
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/12/2016
 ms.topic: article
-ms.openlocfilehash: cfc01594a6e1b4ac01d0741069dc02c37df0ef18
-ms.sourcegitcommit: d42b80f947dbfa8660d982be67d77745a28081e5
+ms.openlocfilehash: d4b1553b8820628eccacabf33756ad5b063cf237
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "98113050"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101827807"
 ---
 # <a name="customize-the-active-directory-administrative-center-navigation-pane"></a>Настройка области навигации центр администрирования Active Directory
 
@@ -33,11 +33,11 @@ ms.locfileid: "98113050"
 
 2. Щелкните одну из следующих команд:
 
-   -   **Переименование**
+   -   **Переименовать**
 
    -   **Создать узел-дубликат**
 
-   -   **Удалить**
+   -   **Remove**
 
    -   **Вверх**
 

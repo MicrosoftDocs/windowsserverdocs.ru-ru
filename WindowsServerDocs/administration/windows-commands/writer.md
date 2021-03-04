@@ -3,16 +3,16 @@ title: writer
 description: Справочная статья для команды Writer, которая проверяет, включен ли модуль записи или компонента, или исключает модуль записи или компонент из процедуры резервного копирования или восстановления.
 ms.topic: reference
 ms.assetid: 7cf98295-411d-4705-8573-f898ff45c140
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: d6af778ca49f8be88a08e04ecfe4165752cc796d
-ms.sourcegitcommit: 554d274fea48a4d47c19845d969a9ec93dec82de
+ms.openlocfilehash: 4276022f7b1e748da07767af5c9ea99898ed1069
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "92524869"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101826623"
 ---
 # <a name="writer"></a>writer
 
@@ -40,7 +40,7 @@ writer exclude [<writer> | <component>]
 writer verify {4dc3bdd4-ab48-4d07-adb0-3bee2926fd7f}
 ```
 
-Чтобы исключить модуль записи с *модулем записи системы*имен, введите:
+Чтобы исключить модуль записи с *модулем записи системы* имен, введите:
 
 ```
 writer exclude System Writer

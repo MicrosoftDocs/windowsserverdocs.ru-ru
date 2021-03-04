@@ -4,15 +4,15 @@ description: В этом разделе приводятся рекоменда�
 manager: brianlic
 ms.topic: article
 ms.assetid: 90e544bd-e826-4093-8c3b-6a6fc2dfd1d6
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 12/08/2020
-ms.openlocfilehash: e3521dc61fef52f93f096df9aa145e2c4b43de8b
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 6a9e5353dd553f8be4a32d116ad0ff3c5b2ecfeb
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97947500"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101828203"
 ---
 # <a name="network-policy-server-best-practices"></a>Передовые практики по работе с сервером политики сети
 

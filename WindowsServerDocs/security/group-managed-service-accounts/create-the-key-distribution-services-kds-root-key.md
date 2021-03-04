@@ -3,16 +3,16 @@ title: Создать корневой ключ KDS службы распрос�
 description: Узнайте, как создать корневой ключ службы распространения ключей (Майкрософт) (kdssvc.dll) на контроллере домена с помощью Windows PowerShell, чтобы создать групповые управляемые пароли учетных записей служб в Windows Server 2012 или более поздней версии.
 ms.topic: article
 ms.assetid: 42e5db8f-1516-4d42-be0a-fa932f5588e9
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/12/2016
-ms.openlocfilehash: 84b925cb44aa8f1da43ac71beff3341da3ff3880
-ms.sourcegitcommit: d42b80f947dbfa8660d982be67d77745a28081e5
+ms.openlocfilehash: abb39452d9306b2d81010f8b60f408d25b6ecf87
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "98112930"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101827827"
 ---
 # <a name="create-the-key-distribution-services-kds-root-key"></a>Создать корневой ключ KDS службы распространения ключей
 

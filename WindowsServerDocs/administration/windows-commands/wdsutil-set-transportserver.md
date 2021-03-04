@@ -3,16 +3,16 @@ title: WDSUTIL Set-транспортсервер
 description: Справочная статья по подкоманде Set-Транспортсервер, которая задает параметры конфигурации для транспортного сервера.
 ms.topic: reference
 ms.assetid: 7863225c-f4b2-4cd0-b929-78a454bef249
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: fd2c1a82dbb83dc45b08fca6259a4aa6b18a4f1b
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: 0a843aa59507ad5959195c20880136a457cdfe49
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91731248"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101826303"
 ---
 # <a name="wdsutil-set-transportserver"></a>WDSUTIL Set-транспортсервер
 

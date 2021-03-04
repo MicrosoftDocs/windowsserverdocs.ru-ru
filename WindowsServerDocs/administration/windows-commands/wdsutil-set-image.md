@@ -3,16 +3,16 @@ title: WDSUTIL Set-Image
 description: Справочная статья по WDSUTIL Set-Image, в котором изменяются атрибуты изображения.
 ms.topic: reference
 ms.assetid: 2ae03c86-7a13-4e38-9182-32e55fffd504
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: fa85c4500475cf9f6e184d0ed0f3b3d6e4dc51aa
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: e068e8a6979ef609f7876ef0ee8cdd1fd59ab19f
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91731388"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101826341"
 ---
 # <a name="wdsutil-set-image"></a>WDSUTIL Set-Image
 

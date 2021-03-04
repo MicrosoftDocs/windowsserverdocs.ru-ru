@@ -4,15 +4,15 @@ description: Узнайте, как настроить инфраструкту�
 manager: brianlic
 ms.topic: article
 ms.assetid: dc7205b4-a822-4038-ab67-ec0a870737f2
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: b78c92f46963291794f69d92a2ec8e04e0248edd
-ms.sourcegitcommit: 658ee0e4cb1c25a6793afb5b64046000eaf6b773
+ms.openlocfilehash: 355917bd7425a1f595d34865714ac8720f62d20b
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "99589826"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101828233"
 ---
 # <a name="steps-for-configuring-the-test-lab"></a>Шаги по настройке лаборатории тестирования
 

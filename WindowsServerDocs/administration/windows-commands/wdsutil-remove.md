@@ -1,20 +1,20 @@
 ---
-title: Удаление WDSUTIL
+title: wdsutil remove
 description: Справочная статья по WDSUTIL Remove, которая удаляет различные сведения, относящиеся к драйверу.
 ms.topic: reference
 ms.assetid: e3f1644d-6028-4c47-a9fd-227bcdcc6123
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: af5cb754ffca13ada7e60ea953b7498684e95192
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: c5342aee2d89b9bd53c1e49a646cbf0a8f57d5af
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91730631"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101826403"
 ---
-# <a name="wdsutil-remove"></a>Удаление WDSUTIL
+# <a name="wdsutil-remove"></a>wdsutil remove
 
 > Область применения: Windows Server (половина ежегодного канала), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 

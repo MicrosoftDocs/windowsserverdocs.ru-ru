@@ -4,15 +4,15 @@ description: Узнайте, как настроить DNS-серверы в EDG
 manager: brianlic
 ms.topic: article
 ms.assetid: f6e8d85b-de65-43b3-bf3e-ec84471a1fcc
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 634b58c53ffc30c20d1bf4f63b4f8fba5d285db1
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: 551640935b9d675827f68a9640b4c9b8ce8c575f
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98040284"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101827027"
 ---
 # <a name="step-9-configure-edge1"></a>Шаг 9. Настройка EDGE1
 

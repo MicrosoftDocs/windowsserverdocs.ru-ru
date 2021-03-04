@@ -3,16 +3,16 @@ title: WDSUTIL отклонения — аутоадддевицес
 description: Справочная статья по WDSUTIL Reject-аутоадддевицес, которая отклоняет компьютеры, ожидающие административного утверждения.
 ms.topic: reference
 ms.assetid: ea25a4b2-5fad-4360-9c47-c2c9df7ea31f
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 2cb970ce6b51933e72f208f6fbcc50bcb7b3164b
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: 714990ff81a65d42f43ac2392e86cd0b54ebede5
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91730692"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101826523"
 ---
 # <a name="wdsutil-reject-autoadddevices"></a>WDSUTIL отклонения — аутоадддевицес
 

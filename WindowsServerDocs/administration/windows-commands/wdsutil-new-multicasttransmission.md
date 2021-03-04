@@ -3,16 +3,16 @@ title: WDSUTIL New-мултикасттрансмиссион
 description: Справочная статья по WDSUTIL New-мултикасттрансмиссион, которая создает новую многоадресную передачу для образа.
 ms.topic: reference
 ms.assetid: c1f1dc46-dd50-4eb9-9f72-cf0e5d71bd3d
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 4b02668a6e714ce090a013a34d9dee73121f7a89
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: 5e362caf76cbfeed91ca20bcaa96cfc023a6092c
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91730711"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101825681"
 ---
 # <a name="wdsutil-new-multicasttransmission"></a>WDSUTIL New-мултикасттрансмиссион
 
@@ -70,7 +70,7 @@ wdsutil /New-MulticastTransmission /FriendlyName:WDS Boot Transmission
 wdsutil /New-MulticastTransmission /FriendlyName:WDS AutoCast Transmission
 /Image:Vista with Officeimage imagetype:Install /Transmissiontype:AutoCast
 ```
-Чтобы создать запланированную передачу образа установки, введите:
+Чтобы создать Scheduled-Castную передачу образа установки, введите:
 ```
 wdsutil /New-MulticastTransmission /FriendlyName:WDS SchedCast Transmission /Server:MyWDSServer Image:Vista with Office imagetype:Install
 /Transmissiontype:ScheduledCast /time:2006/11/20:17:00 /Clients:100

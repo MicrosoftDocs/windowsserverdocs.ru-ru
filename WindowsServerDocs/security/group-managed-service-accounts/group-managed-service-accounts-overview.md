@@ -3,16 +3,16 @@ title: Group Managed Service Accounts Overview
 description: Сведения о групповой управляемой учетной записи службы. в частности, это практические приложения, изменения в реализации корпорации Майкрософт, требования к оборудованию и программному обеспечению.
 ms.topic: article
 ms.assetid: cef0693c-f861-48a7-a1c0-8d1bc06143ce
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/12/2016
-ms.openlocfilehash: ad6fc6ff95fda08369d88bd76606b523a56cd0b2
-ms.sourcegitcommit: d42b80f947dbfa8660d982be67d77745a28081e5
+ms.openlocfilehash: 70ba26e94dbd3e9ad111dfb5cac94530fa4a2a6d
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "98113440"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101827767"
 ---
 # <a name="group-managed-service-accounts-overview"></a>Group Managed Service Accounts Overview
 

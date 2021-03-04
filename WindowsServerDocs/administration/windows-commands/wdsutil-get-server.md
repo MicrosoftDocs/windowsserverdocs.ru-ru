@@ -3,16 +3,16 @@ title: WDSUTIL Get-Server
 description: Справочная статья по WDSUTIL Get-Server, которая получает сведения с указанного сервера служб развертывания Windows.
 ms.topic: reference
 ms.assetid: bef60db4-d58d-4304-ab4b-be53dd3271c3
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: e855724833a90c64dfb3692ccd82fad67a572873
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: 9c697ee8823d8f97765f3bed82a887d793e940d5
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91730780"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101825751"
 ---
 # <a name="wdsutil-get-server"></a>WDSUTIL Get-Server
 

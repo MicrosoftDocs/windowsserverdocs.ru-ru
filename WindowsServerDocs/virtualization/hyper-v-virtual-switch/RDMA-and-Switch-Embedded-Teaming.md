@@ -4,15 +4,15 @@ description: В этом разделе приводятся сведения о
 manager: brianlic
 ms.topic: how-to
 ms.assetid: 68c35b64-4d24-42be-90c9-184f2b5f19be
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 12/08/2020
-ms.openlocfilehash: f671496cab42cc24c35539d5adbfaff7fb90bea7
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: a48c7a7045f7e1cb862d93492848072646fb349e
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97946910"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101828053"
 ---
 # <a name="remote-direct-memory-access-rdma-and-switch-embedded-teaming-set"></a>RDMA с удаленным доступом к памяти \( \) и переключенный \( набор команд внедрения\)
 

@@ -3,16 +3,16 @@ title: WDSUTIL Set-Device
 description: Справочная статья по WDSUTIL Set-Device, в котором изменяются атрибуты предварительно подготовленного компьютера.
 ms.topic: reference
 ms.assetid: 401567f8-eaeb-4a2d-b811-140bb007028d
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 9844df011a01419599463a26cc4b78761af7cdbd
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: 131d8de0255b55b7c35ecc7323bdae83251ecf3d
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91730660"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101826353"
 ---
 # <a name="wdsutil-set-device"></a>WDSUTIL Set-Device
 

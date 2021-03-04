@@ -3,16 +3,16 @@ title: Remove-Дриверграуп
 description: Справочная статья по Remove-Дриверграуп, которая удаляет группу драйверов с сервера.
 ms.topic: reference
 ms.assetid: 1fefe9df-9782-433c-8abe-3f1a35e50da2
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 9bfec1636594f69ed9ea173cd2a0fcb95415296f
-ms.sourcegitcommit: 554d274fea48a4d47c19845d969a9ec93dec82de
+ms.openlocfilehash: e13d521fa79f56a1b4e7aefb84d5bcc51b991ad7
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "92524329"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101826513"
 ---
 # <a name="remove-drivergroup"></a>Remove-Дриверграуп
 

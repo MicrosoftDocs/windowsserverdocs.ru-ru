@@ -3,16 +3,16 @@ title: WDSUTIL Uninitialize-Server
 description: Справочная статья для отмены инициализации сервера, которая возвращает изменения, внесенные в сервер во время первоначальной настройки сервера.
 ms.topic: reference
 ms.assetid: 015efb04-fe84-469f-bd81-49d0046296b2
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 4f8f7623c31f355ece5df389af474001d996e755
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: 7481c31c3dcd6cf6b76c26246fb9b103c7882d37
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91730620"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101826110"
 ---
 # <a name="wdsutil-uninitialize-server"></a>WDSUTIL Uninitialize-Server
 

@@ -4,15 +4,15 @@ description: Узнайте, как устранять проблемы, свя�
 manager: brianlic
 ms.topic: article
 ms.assetid: 71307757-f8f4-4f82-b8b3-ffd4fd8c5d6d
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 814b48419c394bf42c81ff0f3b05e6442a06a122
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: 4016404c256a851ad880d25569ddecd8f33386b5
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98039684"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101827510"
 ---
 # <a name="troubleshooting-authentication-issues"></a>Диагностика проблем с проверкой подлинности
 

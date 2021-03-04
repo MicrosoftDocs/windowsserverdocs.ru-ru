@@ -4,15 +4,15 @@ description: Этот раздел содержит общие сведения 
 manager: brianlic
 ms.topic: article
 ms.assetid: 9b3ef3eb-4246-4e0e-8bf1-53224ca5f2f9
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 6bffc303d7d04c95e40d62bf87c9e74ee87812da
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: c5281f131665017846d12f04ffaba8d9e04a0f93
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97949150"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101827125"
 ---
 # <a name="core-network-guidance-for-windows-server"></a>Руководство по основной сети для Windows Server
 
