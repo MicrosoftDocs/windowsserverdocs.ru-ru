@@ -4,15 +4,15 @@ description: С помощью этого раздела можно получи
 manager: brianlic
 ms.topic: article
 ms.assetid: df2023bf-ba64-481e-b222-6f709edaa5c1
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: de33ba380da611dd4bece67da382ffd72d56e5eb
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: f2f81325153264c2be5513b6a366dd4e32029141
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97947420"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101833893"
 ---
 # <a name="gre-tunneling-in-windows-server-2016"></a>Туннелирование GRE в Windows Server 2016
 

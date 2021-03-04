@@ -4,15 +4,15 @@ description: Сведения о сценарии лаборатории тес�
 manager: brianlic
 ms.topic: article
 ms.assetid: cd1e9efd-19e9-49e7-8432-881f661c9792
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 7c4b0aac8c5d16826a5e173fb28424333887f6be
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: cc2bad98b9a3c7976d53d056c4580e1dc386165c
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98040274"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101833873"
 ---
 # <a name="overview-of-the-directaccess-cluster-nlb-test-lab-scenario"></a>Обзор сценария лаборатории тестирования DirectAccess Cluster-NLB
 

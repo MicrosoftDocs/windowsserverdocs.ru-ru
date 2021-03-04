@@ -4,15 +4,15 @@ description: Узнайте, как можно использовать шлюз
 ms.topic: article
 ms.assetid: cd4908f0-0d6f-4c02-8f98-4dc88c3dcb65
 ms.date: 11/05/2018
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.localizationpriority: medium
-ms.openlocfilehash: 39b4af187e8649723a7c065215fd13f1b8cd783f
-ms.sourcegitcommit: 34f292cf40f1bd698786cf05a2b27ffe184a55b8
+ms.openlocfilehash: 9bb649ad7f0fb48c7481ce2b954d3a0545ab570c
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "98192702"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101833668"
 ---
 # <a name="virtual-private-networking-vpn"></a>Виртуальная частная сеть (VPN)
 
@@ -35,7 +35,7 @@ ms.locfileid: "98192702"
 >[!NOTE]
 >Вы также можете развернуть шлюз RAS в качестве VPN-сервера с многопользовательским интерфейсом для использования с программно заданной сетью (SDN) или как сервер DirectAccess. Дополнительные сведения см. в статье [шлюз RAS](../ras-gateway/ras-gateway.md), [программно-определяемая сеть (SDN)](../../../networking/sdn/software-defined-networking.md)и [DirectAccess](../directaccess/directaccess.md).
 
-## <a name="related-topics"></a>Связанные темы
+## <a name="related-topics"></a>Связанные разделы
 - [Always on функции и функции VPN](vpn-map-da.md). в этом разделе вы узнаете о функциях и функциях Always on VPN.
 
 - [Настройка туннелей VPN-устройств в Windows 10](vpn-device-tunnel-config.md): Always on VPN предоставляет возможность создания выделенного профиля VPN для устройства или компьютера. Always On VPN-подключения включают два типа туннелей: _туннель устройства_ и _туннель пользователя_. Туннель устройства используется для сценариев подключения предварительного входа и управления устройствами. Пользовательский туннель позволяет пользователям получать доступ к ресурсам Организации через VPN-серверы.

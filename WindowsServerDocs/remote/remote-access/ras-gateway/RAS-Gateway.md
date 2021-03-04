@@ -4,15 +4,15 @@ description: Этот раздел, предназначенный для ИТ-�
 manager: dougkim
 ms.topic: article
 ms.assetid: acaa46b7-09b1-4707-9562-116df8db17eb
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 05/23/2018
-ms.openlocfilehash: 977507afb0cc74d55163e049965b431254e6d6b2
-ms.sourcegitcommit: 7c0794e257f602bd71af5eb9a11b8a03d2b9adfd
+ms.openlocfilehash: f96c46a9efded55e5c84dc7ec0bee9dafd940bba
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "97390302"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101833853"
 ---
 # <a name="ras-gateway"></a>Шлюз RAS-сервера
 
@@ -129,9 +129,9 @@ ms.locfileid: "97390302"
 
 - В Windows Server 2016 для развертывания маршрутизатора шлюза RAS необходимо использовать команды Windows PowerShell. Дополнительные сведения см. в разделе  [Командлеты удаленного доступа](https://docs.microsoft.com/powershell/module/remoteaccess) для windows Server 2016 и Windows 10.
 
-- В System Center 2012 R2 Virtual Machine Manager (VMM) шлюз RAS называется шлюзом Windows Server. В программном интерфейсе VMM доступен ограниченный набор параметров конфигурации протокол BGP (BGP), включая **локальный IP-адрес BGP** и **номера автономных систем (ASN)**, **список одноранговых IP-адресов BGP** и **значения ASN**. Тем не менее вы можете использовать команды удаленного доступа Windows PowerShell для BGP, чтобы настроить все остальные функции шлюза Windows Server. Дополнительные сведения см. в разделе  [Virtual Machine Manager (VMM)](https://docs.microsoft.com/system-center/vmm/overview) и [Командлеты удаленного доступа](https://docs.microsoft.com/powershell/module/remoteaccess) для Windows Server 2016 и Windows 10.
+- В System Center 2012 R2 диспетчер виртуальных машин (VMM) шлюз RAS называется шлюзом Windows Server. В программном интерфейсе VMM доступен ограниченный набор параметров конфигурации протокол BGP (BGP), включая **локальный IP-адрес BGP** и **номера автономных систем (ASN)**, **список одноранговых IP-адресов BGP** и **значения ASN**. Тем не менее вы можете использовать команды удаленного доступа Windows PowerShell для BGP, чтобы настроить все остальные функции шлюза Windows Server. Дополнительные сведения см. в разделе  [Диспетчер виртуальных машин (VMM)](https://docs.microsoft.com/system-center/vmm/overview) и [Командлеты удаленного доступа](https://docs.microsoft.com/powershell/module/remoteaccess) для Windows Server 2016 и Windows 10.
 
-## <a name="related-topics"></a>Связанные темы
+## <a name="related-topics"></a>Связанные разделы
 
 - [Высокий уровень доступности шлюза RAS](../../../networking/sdn/technologies/network-function-virtualization/RAS-Gateway-High-Availability.md)
 - [Туннелирование GRE в Windows Server 2016](gre-tunneling-windows-server.md)

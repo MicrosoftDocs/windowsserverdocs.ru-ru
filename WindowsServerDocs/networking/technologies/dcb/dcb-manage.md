@@ -4,15 +4,15 @@ description: В этом разделе приведены инструкции 
 ms.topic: article
 ms.assetid: 1575cc7c-62a7-4add-8f78-e5d93effe93f
 manager: brianlic
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 12/08/2020
-ms.openlocfilehash: 51f4b70dfc81010bfb2989f925a9f6508b6eb1c1
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 95613a9656945213c1e22ad14085a50c75a4aa63
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97949930"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101833813"
 ---
 # <a name="manage-data-center-bridging-dcb"></a>Управление мостом центра обработки данных (DCB)
 
@@ -82,9 +82,9 @@ ms.locfileid: "97949930"
 
     а. Управление классами трафика
 
-    б. Параметры управления потоком приоритета (коэффициент мощности)
+    b. Параметры управления потоком приоритета (коэффициент мощности)
 
-    в. Назначение приоритета приложения
+    c. Назначение приоритета приложения
 
     d. Параметры ДКБКС
 

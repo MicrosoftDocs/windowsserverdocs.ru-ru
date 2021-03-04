@@ -4,15 +4,15 @@ description: Этот раздел содержит ссылки на содер
 manager: brianlic
 ms.topic: article
 ms.assetid: 6cfb50e0-7088-4295-97c5-14ff8776cbf8
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 379ad808223a94abda2367a3e2184a5ff6d93f74
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 77444185e41ad4f3c5b247afba1c9a1b89ed4661
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97949890"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101833623"
 ---
 # <a name="deploy-network-policy-server"></a>Развертывание сервера политики сети
 

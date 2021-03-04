@@ -4,15 +4,15 @@ description: Узнайте, как проверить подключение к
 manager: brianlic
 ms.topic: article
 ms.assetid: aded2881-99ed-4f18-868b-b765ab926597
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 4aa5c784b69ba3dd9a7824c77d080a6829e32ebf
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: f081ba36bb4bd8d13595184b058fafd1fb889778
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98040254"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101834035"
 ---
 # <a name="step-6-test-directaccess-client-connectivity-from-behind-a-nat-device"></a>Шаг 6. Тестирование подключения клиента DirectAccess из устройства NAT
 
@@ -33,7 +33,7 @@ ms.locfileid: "98040254"
 > [!TIP]
 > Перед выполнением этих процедур рекомендуется очистить кэш Internet Explorer, чтобы убедиться в том, что вы тестируете подключение и не получаете страницы веб-сайта из кэша.
 
-## <a name="prerequisites"></a>Предварительные условия
+## <a name="prerequisites"></a>Предварительные требования
 
 Перед проведением этих тестов, отключите CLIENT1 от интернет-коммутатора и подключите его к коммутатору Homenet. Если будет задан вопрос, какой тип задать для текущей сети, выберите **Домашняя сеть**.
 

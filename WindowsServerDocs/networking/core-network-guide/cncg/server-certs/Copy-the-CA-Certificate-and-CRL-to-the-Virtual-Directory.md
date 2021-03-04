@@ -4,15 +4,15 @@ description: Узнайте, как скопировать список отзы
 manager: dougkim
 ms.topic: article
 ms.assetid: a1b5fa23-9cb1-4c32-916f-2d75f48b42c7
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 07/19/2018
-ms.openlocfilehash: 47d0e72b06d60b8865356d74c041a26f62635046
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: 9169c7e9bfb976584f1b52da4449c00fd2b592cd
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98038564"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101833633"
 ---
 # <a name="copy-the-ca-certificate-and-crl-to-the-virtual-directory"></a>Копирование сертификата ЦС и списка отзыва сертификатов в виртуальный каталог
 

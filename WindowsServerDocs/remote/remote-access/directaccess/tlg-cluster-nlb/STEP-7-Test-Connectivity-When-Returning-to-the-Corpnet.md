@@ -4,15 +4,15 @@ description: Узнайте, как проверить подключение п
 manager: brianlic
 ms.topic: article
 ms.assetid: 5a7252d0-6db8-4a9d-98ee-75082ecd2929
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: c4b9392c6234d1b99f65dd0a133dc2e6be4be893
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: 241adc187eb4926f0d597fafec26a8315269e335
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98040544"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101833984"
 ---
 # <a name="step-7-test-connectivity-when-returning-to-the-corpnet"></a>Шаг 7. Проверка подключения при возврате к корпоративной сети
 

@@ -4,15 +4,15 @@ description: В этом разделе приводятся ссылки на �
 manager: brianlic
 ms.topic: article
 ms.assetid: a7a06a7d-b8f3-4c9d-a69e-762bbb0dec72
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: fc77c220b9e6b7b69d33277440d2edf816255c7a
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: dd7da4bce269e93b804734080c2c167bfe3da4a8
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97948150"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101833783"
 ---
 # <a name="manage-hyper-v-virtual-switch"></a>Управление виртуальным коммутатором Hyper-V
 

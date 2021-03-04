@@ -4,15 +4,15 @@ description: Узнайте, как переместить размещенны�
 manager: brianlic
 ms.topic: article
 ms.assetid: bb0eb349-914d-4596-9140-d3aae7597d55
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 426a38b0dfb37d6898f8ede9337f912998ec2158
-ms.sourcegitcommit: 605a9b46b74b2c7a9116e631e902467ea02a6e70
+ms.openlocfilehash: 6b3c674f8b1e35efd88907d3652f821299ac805b
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97965556"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101833653"
 ---
 # <a name="move-and-resize-the-hosted-cache-optional"></a>Перемещение и изменение размера размещенного кэша \( необязательно\)
 
