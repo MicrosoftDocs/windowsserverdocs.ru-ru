@@ -3,16 +3,16 @@ title: logman update alert
 description: Справочная статья по команде Logman Update Alert, которая обновляет свойства существующего сборщика данных оповещений.
 ms.topic: reference
 ms.assetid: ede94a76-931c-40ed-9fda-6766bed8ff72
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 9c870ba5699ec0c804d387f1d1c723032a6ac335
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 66a6780c4ef061df38594835a65a7506bcbb8225
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89639955"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101813645"
 ---
 # <a name="logman-update-alert"></a>logman update alert
 
@@ -56,7 +56,7 @@ logman update alert <[-n] <name>> [options]
 | -[-] коне `<argument>` | Указывает аргументы задачи, которые будут использоваться с задачей, заданной с помощью-тн. |
 | /? | Отображает контекстную справку. |
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 - Где [-] присутствует, Добавление дополнительного дефиса (-) инвертирует параметр.
 

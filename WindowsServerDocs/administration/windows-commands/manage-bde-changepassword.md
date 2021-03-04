@@ -3,16 +3,16 @@ title: Manage-bde ChangePassword
 description: Справочная статья по команде Manage-bde ChangePassword, которая изменяет пароль для диска данных.
 ms.topic: reference
 ms.assetid: b174e152-8442-4fba-8b33-56a81ff4f547
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 8c262b6ca123d76af6ebdca09e5546f41350686d
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 757e17c5db6805c48a8e23a2a18d669546ab481e
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89622707"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101812943"
 ---
 # <a name="manage-bde-changepassword"></a>Manage-bde ChangePassword
 

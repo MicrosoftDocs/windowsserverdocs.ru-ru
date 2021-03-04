@@ -3,16 +3,16 @@ title: irftp
 description: Справочная статья по команде ирфтп, которая отправляет файлы по инфракрасной связи.
 ms.topic: reference
 ms.assetid: e15c60a7-546d-4e9f-9871-43aaa1b569d6
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: c9546dad7bcba60ab73a9bef50c8d4347ef6dc97
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 23a366f398e62d23fd09f774eb0e236a9fb9c689
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89634410"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101816013"
 ---
 # <a name="irftp"></a>irftp
 

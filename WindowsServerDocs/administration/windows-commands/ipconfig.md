@@ -3,16 +3,16 @@ title: ipconfig
 description: Справочная статья по команде ipconfig, которая отображает все текущие значения конфигурации сети TCP/IP и обновляет параметры протокола DHCP и системы доменных имен (DNS).
 ms.topic: reference
 ms.assetid: 15071c2c-4815-4893-93b2-ab30232e312e
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 20005fff04df421e5f3699600278d51b8711337d
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: af21fd99b59906928f8a9932e3ec5775b8b36046
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89639584"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101816023"
 ---
 # <a name="ipconfig"></a>ipconfig
 
@@ -40,7 +40,7 @@ ipconfig [/allcompartments] [/all] [/renew [<adapter>]] [/release [<adapter>]] [
 | /шовклассид `<adapter>` | Отображает идентификатор класса DHCP для указанного адаптера. Чтобы просмотреть идентификатор класса DHCP для всех адаптеров, используйте подстановочный знак звездочки (**&#42;**) вместо *адаптера*. Этот параметр доступен только на компьютерах с адаптерами, настроенными для автоматического получения IP-адреса. |
 | /? | Отображает справку в командной строке. |
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 - Эта команда наиболее полезна на компьютерах, настроенных для автоматического получения IP-адреса. Это позволяет пользователям определить, какие значения конфигурации TCP/IP были настроены службой DHCP, автоматическим частным IP-адресом (APIPA) или альтернативной конфигурацией.
 

@@ -3,23 +3,23 @@ title: klist
 description: Справочная статья по команде klist, в которой отображается список кэшированных билетов Kerberos.
 ms.topic: reference
 ms.assetid: 4689b4a9-1740-47dd-9240-02105efca428
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: abb088230e37eb2806380ec65e12bd3b5017e5a2
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 2f3212df04f394d806faba2e781607290ff95094
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89639779"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101815922"
 ---
 # <a name="klist"></a>klist
 
 Отображает список кэшированных в настоящее время билетов Kerberos.
 
 > [!IMPORTANT]
-> Для выполнения всех параметров этой команды необходимо быть по крайней мере **администратором домена**или эквивалентным ему.
+> Для выполнения всех параметров этой команды необходимо быть по крайней мере **администратором домена** или эквивалентным ему.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -45,7 +45,7 @@ klist [-lh <logonID.highpart>] [-li <logonID.lowpart>] tickets | tgt | purge | s
 | кдкоптионс | Отображает параметры центр распространения ключей (KDC), указанные в RFC 4120. |
 | /? | Отображает справку для этой команды. |
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 - Если параметры не указаны, **klist** извлекает все билеты для текущего пользователя.
 

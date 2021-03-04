@@ -3,16 +3,16 @@ title: mqsvc
 description: Справочная статья по команде мксвк, которая позволяет приложениям, работающим в разное время, взаимодействовать с разнородными сетями и системами, которые могут быть временно автономными.
 ms.topic: reference
 ms.assetid: 8bfd7874-ccb4-453f-b908-3a5b9aee0ad6
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 11129fbc3ea74c2e9e5f029e397357212e1c548d
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.openlocfilehash: 1662c67552a1332dba7c184ea1c749b63c5c66f4
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96865423"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101811768"
 ---
 # <a name="mqsvc"></a>mqsvc
 

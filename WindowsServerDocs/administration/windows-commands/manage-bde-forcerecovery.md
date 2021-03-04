@@ -3,16 +3,16 @@ title: Управление — BDE форцерековери
 description: Справочная статья по команде Manage-bde форцерековери, которая обеспечивает принудительную перезагрузку диска, защищенного с помощью BitLocker, в режим восстановления.
 ms.topic: reference
 ms.assetid: eecae37c-c9a3-46c5-b615-a0ace1f1d778
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: b88aa4bb52ea6bcb50f34a6e8d42c6e14e0b1e59
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 35f2d630186c1b9e9891b6e62e6a92daea3b16ca
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89622614"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101812788"
 ---
 # <a name="manage-bde-forcerecovery"></a>Управление — BDE форцерековери
 

@@ -3,16 +3,16 @@ title: list shadows
 description: Справочная статья по команде List Shadows, в которой перечислены постоянные и существующие непостоянные теневые копии, которые находятся в системе.
 ms.topic: reference
 ms.assetid: fe568423-00ae-4ede-a1e7-07977cb50ad1
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 4781587fd7bb82525746184c3fee2f0f9258c510
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 54aa39e5a8c7553cdf28b2bcd775693a01a5de7e
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89635270"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101814403"
 ---
 # <a name="list-shadows"></a>list shadows
 

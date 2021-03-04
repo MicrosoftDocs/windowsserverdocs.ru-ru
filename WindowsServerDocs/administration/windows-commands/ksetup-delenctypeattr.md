@@ -3,16 +3,16 @@ title: ksetup delenctypeattr
 description: Справочная статья по ksetup деленктипеаттр, которая удаляет атрибут типа шифрования для домена.
 ms.topic: reference
 ms.assetid: 4fc25ef3-e271-4229-a712-72c507df55aa
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: fe8b97fc2ea6d25dc547ccf8742e9e49d2b6e1bc
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 7ddabfca0289f786a49e93712bdee3ed71aca19e
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89639709"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101815510"
 ---
 # <a name="ksetup-delenctypeattr"></a>ksetup delenctypeattr
 

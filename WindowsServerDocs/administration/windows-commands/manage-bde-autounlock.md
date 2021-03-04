@@ -3,16 +3,16 @@ title: Управление — автоматическое разблокир�
 description: Справочная статья по команде "Управление автоматическим разблокированием — BDE", которая управляет автоматической разблокировкой дисков с данными, защищенными BitLocker.
 ms.topic: reference
 ms.assetid: 063528bf-d235-4b44-887a-52a7d983e01a
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: e6035b9d4a851631770b01ba525759d1d61992f5
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: ed805d65288c6c1d220502086c17429eacca93d8
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89633750"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101813068"
 ---
 # <a name="manage-bde-autounlock"></a>Управление — автоматическое разблокирование BDE
 

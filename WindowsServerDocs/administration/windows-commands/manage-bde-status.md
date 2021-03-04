@@ -3,22 +3,22 @@ title: Управление — состояние BDE
 description: Справочная статья по команде Manage-bde status, которая предоставляет сведения обо всех дисках на компьютере независимо от того, защищены ли они с помощью BitLocker.
 ms.topic: reference
 ms.assetid: 1444a360-fabf-4dd3-b67f-188e6ea3fa5b
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: ad22cf542aaf3f61d9fe861d20ad25087adfe0a1
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: bb520fbd8f0a89f97acd61a37261e10f769ad806
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89639284"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101812624"
 ---
 # <a name="manage-bde-status"></a>Управление — состояние BDE
 
 Предоставляет сведения обо всех дисках на компьютере; защищены ли они с помощью BitLocker, включая:
 
-- Size
+- Размер
 
 - Версия BitLocker
 

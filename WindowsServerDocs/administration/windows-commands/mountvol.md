@@ -3,16 +3,16 @@ title: mountvol
 description: Справочная статья по команде mountvol, которая создает, удаляет или перечисляет точку подключения тома.
 ms.topic: reference
 ms.assetid: fea8ad4d-f04a-4aaa-a3e5-75931e867b39
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 4da7562bd50072dc91538bd08b5462222857830d
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 9b5b98fa092a13fd3ecd44655163562705d7e59c
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89640140"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101811910"
 ---
 # <a name="mountvol"></a>mountvol
 
@@ -45,7 +45,7 @@ mountvol <drive>: /s
 | /s | Подключает системный раздел EFI на указанном диске. |
 | /? | Отображение справки в командной строке. |
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Комментарии
 
 - Если отключить том при использовании параметра **/p** , то список томов будет отображать том как не подключенный до создания точки подключения тома.
 

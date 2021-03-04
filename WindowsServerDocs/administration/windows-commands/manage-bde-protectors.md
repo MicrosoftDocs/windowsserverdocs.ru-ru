@@ -3,16 +3,16 @@ title: Управление — предохранители BDE
 description: Справочная статья по команде "Manage-bde protectors", которая управляет методами защиты, используемыми для ключа шифрования BitLocker.
 ms.topic: reference
 ms.assetid: 1f9b22c5-cc93-45df-9165-bedee94998da
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 08/06/2018
-ms.openlocfilehash: 7d9b91f5c5031abd34b5ec8452a82921bad37d68
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 22654a87da3fc8f2d08f1ba07e05664597085e9f
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89636548"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101812681"
 ---
 # <a name="manage-bde-protectors"></a>Управление — предохранители BDE
 

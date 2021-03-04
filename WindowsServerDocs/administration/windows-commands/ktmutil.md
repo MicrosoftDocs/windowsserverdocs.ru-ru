@@ -3,16 +3,16 @@ title: ktmutil
 description: Справочная статья по команде ктмутил, запускающей служебную программу диспетчера транзакций ядра.
 ms.topic: reference
 ms.assetid: 53bc56df-f0e5-443b-ab20-bbf8b11d4a9a
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 07067415406a0f8ba88d24362ec1b6252f8b88cc
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 33978534b301f01e112e67928b5beaac153e3beb
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89627590"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101814514"
 ---
 # <a name="ktmutil"></a>ktmutil
 

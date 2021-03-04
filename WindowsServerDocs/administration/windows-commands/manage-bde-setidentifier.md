@@ -3,16 +3,16 @@ title: Управление — BDE сетидентифиер
 description: Справочная статья по команде Manage-bde сетидентифиер, которая задает в поле идентификатор диска значение, указанное в поле укажите уникальные идентификаторы для вашей организации групповая политика параметр.
 ms.topic: reference
 ms.assetid: 7092d18f-4ac9-4c73-a20f-1246ca60e75e
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 861eca94cb15c70857138b6f9c76b5dcf59089a9
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 3d332c1ff6e0d28e30631f8d53e955d894ad6735
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89634342"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101812661"
 ---
 # <a name="manage-bde-setidentifier"></a>Управление — BDE сетидентифиер
 

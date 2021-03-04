@@ -3,16 +3,16 @@ title: mklink
 description: Справочная статья по команде Mklink, которая создает символьную или жесткую связь в каталоге или файле.
 ms.topic: reference
 ms.assetid: 0ce4df22-2dbc-48fc-9c16-b721ae85f857
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: dd605283396757f1ef0de05d620583c895f71f1a
-ms.sourcegitcommit: f18097c21e50a09aef2f1937f52608b0042ef0e1
+ms.openlocfilehash: f7d4e8dd4a7c9b8fa43d099c140a8bdcf4856e4f
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "96755311"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101812099"
 ---
 # <a name="mklink"></a>mklink
 

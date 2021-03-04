@@ -3,16 +3,16 @@ title: logman create api
 description: Справочная статья по команде Logman Create API, которая создает сборщик данных трассировки API.
 ms.topic: reference
 ms.assetid: 2ecc0a75-2613-464a-8616-c5dc404bb736
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 75c9a582073fe9c3647567ba6b035c81b0ae10dc
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 645065c47cccbb5ff1ce12ef34b88c0947689943
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89639991"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101814130"
 ---
 # <a name="logman-create-api"></a>logman create api
 
@@ -57,7 +57,7 @@ logman create api <[-n] <name>> [options]
 | -exe `<value>` | Указывает полный путь к исполняемому файлу для трассировки API. |
 | /? | Отображает контекстную справку. |
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 - Где [-] присутствует, Добавление дополнительного дефиса (-) инвертирует параметр.
 

@@ -3,22 +3,22 @@ title: ksetup addkdc
 description: Справочная статья по команде ksetup аддкдк, которая содержит сведения о центр распространения ключей (KDC) для данной области Kerberos.
 ms.topic: reference
 ms.assetid: 98bfc23a-14c4-401c-bcb3-9903c5cdde64
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: d86c494f3326f2d1fbc74eb81670b791004669fc
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 818864510b03afd09b7388cdd08aef9cadabf425
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89639742"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101815723"
 ---
 # <a name="ksetup-addkdc"></a>ksetup addkdc
 
 Добавляет адрес центр распространения ключей (KDC) для данной области Kerberos.
 
-Сопоставление хранится в реестре в разделе **HKEY_LOCAL_MACHINE \систем\куррентконтролсет\контрол\лса\керберос\домаинс** , а компьютер должен быть перезагружен, прежде чем будет использоваться новый параметр сферы.
+Сопоставление сохраняется в реестре в разделе **HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\LSA\Kerberos\Domains** и компьютер необходимо перезапустить, прежде чем будет использоваться новый параметр сферы.
 
 > [!NOTE]
 > Чтобы развернуть данные конфигурации области Kerberos на нескольких компьютерах, необходимо явно использовать оснастку " **шаблоны конфигурации безопасности** " и "распределение политик" на отдельных компьютерах. Эту команду нельзя использовать.

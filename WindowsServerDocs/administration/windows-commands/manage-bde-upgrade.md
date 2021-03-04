@@ -3,16 +3,16 @@ title: Управление обновлением BDE
 description: Справочная статья по команде управления-BDE Upgrade, которая обновляет версию BitLocker.
 ms.topic: reference
 ms.assetid: 23bfa824-6ff0-44cc-9b8b-b199a769fb8d
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: a031c06068a8dc1b66b4065e19d85ab5b62ea7e6
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 2da91d71136e0f12d224909a373ee3ad631c0a03
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89635252"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101812412"
 ---
 # <a name="manage-bde-upgrade"></a>Управление обновлением BDE
 

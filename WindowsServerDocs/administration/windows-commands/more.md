@@ -3,16 +3,16 @@ title: многом другом
 description: Справочная статья, посвященная команде more, которая отображает один экран вывода за раз.
 ms.topic: reference
 ms.assetid: ded14f6a-d82f-4aeb-a2d8-7ec1c94dfb8f
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 07/26/2019
-ms.openlocfilehash: 18e40ff1f3281967e05b47e41f3de405d7009691
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 8337e2f846977664724140aa17e9a582af22fe4d
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89640154"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101812018"
 ---
 # <a name="more"></a>многом другом
 
@@ -43,7 +43,7 @@ more [/c] [/p] [/s] [/t<n>] [+<n>] [<files>]
 | `<files>` | Указывает список отображаемых файлов. Файлы должны быть разделены пробелами. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 - Следующие подкоманды принимаются в командной строке **More** ( `-- More --` ), включая:
 
@@ -60,7 +60,7 @@ more [/c] [/p] [/s] [/t<n>] [+<n>] [<files>]
 
 - Если используется символ перенаправления ( `<` ), необходимо также указать имя файла в качестве источника.
 
-- При использовании канала ( `|` ) можно использовать такие команды, как **dir**, **Sort**и **Type**.
+- При использовании канала ( `|` ) можно использовать такие команды, как **dir**, **Sort** и **Type**.
 
 ### <a name="examples"></a>Примеры
 

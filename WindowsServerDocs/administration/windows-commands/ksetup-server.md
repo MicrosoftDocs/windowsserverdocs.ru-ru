@@ -3,16 +3,16 @@ title: ksetup server
 description: Справочная статья по команде сервера ksetup, которая позволяет указать имя компьютера под управлением операционной системы Windows, поэтому изменения, внесенные командой ksetup, обновляют конечный компьютер.
 ms.topic: reference
 ms.assetid: e3407111-ac92-457f-aa1f-a04fe9109d59
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 4be82315bc0d683b5399350c618aa87e615067ba
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: bab6306cd933840416c263e7a94122a87a3705dd
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89639575"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101814858"
 ---
 # <a name="ksetup-server"></a>ksetup server
 

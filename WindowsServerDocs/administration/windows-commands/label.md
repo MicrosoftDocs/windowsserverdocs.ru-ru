@@ -3,16 +3,16 @@ title: метка
 description: Справочная статья по команде Label, которая создает, изменяет или удаляет метку тома (то есть имя) диска.
 ms.topic: reference
 ms.assetid: bbae8bdd-97d4-4566-9118-7c95aa07645f
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 70e26a89d679c499dbe0eaa7fcd04aa4b9994e98
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: d80be3e0faefd7ec8b60e6bdcbc1696060e903a8
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89636595"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101814422"
 ---
 # <a name="label"></a>метка
 
@@ -33,7 +33,7 @@ label [/mp] [<volume>] [<label>]
 | `<label>` | Указывает метку для тома. |
 | /? | Отображение справки в командной строке. |
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Комментарии
 
 - Windows отображает метку тома и серийный номер (если они есть) в составе списка каталогов.
 
@@ -49,7 +49,7 @@ label a:sales-july
 
 Чтобы просмотреть и удалить текущую метку для диска C, выполните следующие действия.
 
-1. В командной строке введите следующее:
+1. В командной строке введите:
 
    ```
    label

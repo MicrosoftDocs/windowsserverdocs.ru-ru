@@ -3,16 +3,16 @@ title: перенос
 description: Справочная статья по команде Move, которая перемещает один или несколько файлов из одного каталога в другой.
 ms.topic: reference
 ms.assetid: fde290a8-d385-450f-8987-ee837fed667d
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: cd68c7bcfa1f33eeb977a46a1687bbbab678420f
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 7f421f313fc95e23c0efac20cf3250ed8c271973
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89640563"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101811900"
 ---
 # <a name="move"></a>перенос
 

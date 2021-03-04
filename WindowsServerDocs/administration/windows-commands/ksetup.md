@@ -3,16 +3,16 @@ title: ksetup
 description: Справочная статья по команде ksetup, которая выполняет задачи, связанные с настройкой и обслуживанием протокола Kerberos и центр распространения ключей (KDC) для поддержки сфер Kerberos.
 ms.topic: reference
 ms.assetid: 4e046f8a-811b-48dc-9a69-18d8e097f353
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: cb748e841854a096a0c0622658e781fd545f6c15
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: ffe23447a3d6134ebddc276e48bdcbbd76d2a4cc
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89627611"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101814571"
 ---
 # <a name="ksetup"></a>ksetup
 

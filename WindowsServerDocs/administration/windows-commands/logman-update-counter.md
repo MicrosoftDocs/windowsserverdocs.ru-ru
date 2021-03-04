@@ -3,16 +3,16 @@ title: logman update counter
 description: Справочная статья по команде Logman Update Counter, которая обновляет существующие свойства сборщика данных счетчиков.
 ms.topic: reference
 ms.assetid: 607df6d5-876c-428d-a0b3-f59cb244e2ce
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: c164fdaf8e9a22b6072555a893fb6c41c69f177b
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: d4c2de4e933befd00aacbda698791bf755916224
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89640362"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101813591"
 ---
 # <a name="logman-update-counter"></a>logman update counter
 
@@ -55,7 +55,7 @@ logman update counter <[-n] <name>> [options]
 | -SC `<value>` | Указывает максимальное число выборок, которые должны быть собраны с помощью сборщика данных счетчика производительности. |
 | /? | Отображает контекстную справку. |
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 - Где [-] присутствует, Добавление дополнительного дефиса (-) инвертирует параметр.
 

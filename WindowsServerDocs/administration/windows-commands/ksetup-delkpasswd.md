@@ -3,16 +3,16 @@ title: ksetup delkpasswd
 description: Справочная статья по команде ksetup делкпассвд, которая удаляет сервер паролей Kerberos (кпассвд) для области.
 ms.topic: reference
 ms.assetid: 2db0bfcd-bc08-48e3-9f30-65b6411839c6
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 52624252953770ebe131a7c31618058232a21d05
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 3532914306dff656521ea8fcf0304caf0f730a8b
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89639679"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101815297"
 ---
 # <a name="ksetup-delkpasswd"></a>ksetup delkpasswd
 

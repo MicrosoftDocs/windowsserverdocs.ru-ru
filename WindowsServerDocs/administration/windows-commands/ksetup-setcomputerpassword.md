@@ -3,16 +3,16 @@ title: ksetup setcomputerpassword
 description: Справочная статья по команде ksetup сеткомпутерпассворд, которая задает пароль для локального компьютера.
 ms.topic: reference
 ms.assetid: e307d8f6-3b93-4c24-ac04-f31549f7dc7d
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 9bd9d9fafae57c1c7804f7a214d9729cdb232b2d
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: b9c68a2c976dd119fcbb9a725884f376335fe863
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89627435"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101814804"
 ---
 # <a name="ksetup-setcomputerpassword"></a>ksetup setcomputerpassword
 

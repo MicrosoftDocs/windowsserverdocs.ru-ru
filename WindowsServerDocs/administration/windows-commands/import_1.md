@@ -3,16 +3,16 @@ title: Импорт программы DiskPart
 description: Справочная статья по команде Import, которая импортирует группу внешних дисков в группу дисков локального компьютера.
 ms.topic: reference
 ms.assetid: 4b9d2751-7637-4738-83b0-8c578eb28f27
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: c20154e4f687aaaba5639baf4cbbbc6b536c72bd
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: a19e0414aa5d41cd441d2378dce0b1743faab726
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89634511"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101816202"
 ---
 # <a name="import-diskpart"></a>import (diskpart)
 

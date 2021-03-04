@@ -3,16 +3,16 @@ title: logman create alert
 description: Справочная статья по команде Logman Create Alert, которая создает сборщик данных предупреждений.
 ms.topic: reference
 ms.assetid: 93e6fc2b-5bf5-413b-84b4-be8b9dd3a57d
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 6309f5ee868ac3bebed6edd8ddbca5493584abce
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 4c914ad82ea03bd5a66bef5c019d32e4024a039e
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89640003"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101814100"
 ---
 # <a name="logman-create-alert"></a>logman create alert
 
@@ -56,7 +56,7 @@ logman create alert <[-n] <name>> [options]
 | -[-] коне `<argument>` | Указывает аргументы задачи, которые будут использоваться с задачей, заданной с помощью-тн. |
 | /? | Отображает контекстную справку. |
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 - Где [-] присутствует, Добавление дополнительного дефиса (-) инвертирует параметр.
 

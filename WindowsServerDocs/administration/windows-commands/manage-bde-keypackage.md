@@ -3,16 +3,16 @@ title: Управление — BDE кэйпаккаже
 description: Справочная статья по команде Manage-bde кэйпаккаже, которая создает пакет ключей для диска.
 ms.topic: reference
 ms.assetid: c631ef10-2a2f-4541-8578-292f2d4e9e80
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: b183c06dfa73d20f7dc3236b88d5346a8694ec61
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: b8018b2b6a95b58dc222b8529a4b2fdd5eca21ae
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89639307"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101812778"
 ---
 # <a name="manage-bde-keypackage"></a>Управление — BDE кэйпаккаже
 

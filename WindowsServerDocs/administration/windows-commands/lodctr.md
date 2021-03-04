@@ -3,16 +3,16 @@ title: lodctr
 description: Справочная статья по команде lodctr, которая позволяет зарегистрировать или сохранить имя счетчика производительности и параметры реестра в файле и назначить Доверенные службы.
 ms.topic: reference
 ms.assetid: 5a849abd-6b31-4833-bc8a-306c05eca29a
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: db458fea0a4a291c999ae88b6180b5da4c887033
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 7a222935d61f33ce66b76cba2a9852e439a76d9b
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89640019"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101814151"
 ---
 # <a name="lodctr"></a>lodctr
 
@@ -37,7 +37,7 @@ lodctr <filename> [/s:<filename>] [/r:<filename>] [/t:<servicename>]
 | /t:`<servicename>` | Указывает, что служба `<servicename>` является доверенной. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 - Если предоставленные сведения содержат пробелы, заключите его в кавычки (например, "имя файла 1").
 

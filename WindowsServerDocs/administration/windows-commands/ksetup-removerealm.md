@@ -3,16 +3,16 @@ title: ksetup removerealm
 description: Справочная статья по команде ksetup ремовереалм, которая удаляет из реестра все сведения об указанной области.
 ms.topic: reference
 ms.assetid: 39f0c6f0-4c50-4781-941e-0893495405e8
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 324eb79fee80e53da4dd1bc331e5af49c64c1574
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 18e40174187a96e82b10d8d92d464ee2d07ce0c1
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89622768"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101814868"
 ---
 # <a name="ksetup-removerealm"></a>ksetup removerealm
 

@@ -3,16 +3,16 @@ title: lpq
 description: Справочная статья по команде lpq, которая отображает состояние очереди печати на компьютере, на котором запущена управляющая программа командной строки (LPD).
 ms.topic: reference
 ms.assetid: bb6abcc4-310a-4fa4-927b-4084b62ca02e
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: f112216f2692f1bef5156566c39431f4ecebc7a8
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 5ce8af91ffa678bac8c011ee6779006eabb6c367
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89636576"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101813166"
 ---
 # <a name="lpq"></a>lpq
 

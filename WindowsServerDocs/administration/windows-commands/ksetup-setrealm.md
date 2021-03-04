@@ -3,16 +3,16 @@ title: ksetup setrealm
 description: Справочная статья по команде ksetup сетреалм, которая задает имя области Kerberos.
 ms.topic: reference
 ms.assetid: ab268c40-276b-46ef-ab16-d5ce7667fbed
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: a06c5fef1127236319b580fbd6810269c58d1377
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 52ff1c8d8df2c4aa33cc76b5d1fa33a364be0679
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89627134"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101814625"
 ---
 # <a name="ksetup-setrealm"></a>ksetup setrealm
 

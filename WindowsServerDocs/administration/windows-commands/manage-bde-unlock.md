@@ -3,16 +3,16 @@ title: Управление-BDE Unlock
 description: Справочная статья по команде Manage-bde Unlock, которая разблокирует диск, защищенный BitLocker, с помощью пароля восстановления или ключа восстановления.
 ms.topic: reference
 ms.assetid: 7852bf7d-9102-40be-adcb-71e8f4dfde72
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 23b7a593b450265b2547acd6fea0bbe8241e993b
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 2c4dc3d14d95e62591d8c2805991c441c08a88a3
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89635244"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101812493"
 ---
 # <a name="manage-bde-unlock"></a>Управление-BDE Unlock
 

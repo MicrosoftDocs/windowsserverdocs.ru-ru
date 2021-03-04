@@ -3,16 +3,16 @@ title: Импорт сценария DiskShadow
 description: Справочная статья по команде Import, которая импортирует переносимую теневую копию из загруженного файла метаданных в систему.
 ms.topic: reference
 ms.assetid: 7bd78d76-0560-4d47-944c-fe960be2c10b
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: bf86c069bf0f5de4d6fa773d319bdd75beeb93eb
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: e169acd0cc2904e0d9629567ad5a1cf19e60802e
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89634527"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101816300"
 ---
 # <a name="import-diskshadow"></a>Импорт (Diskshadow)
 
@@ -26,7 +26,7 @@ ms.locfileid: "89634527"
 import
 ```
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Remarks
 
 - Перепереносимые теневые копии не сохраняются немедленно в системе. Их сведения хранятся в XML-файле документа компонентов резервного копирования, который DiskShadow автоматически запрашивает и сохраняет в файле метаданных. cab в рабочем каталоге. Используйте [команду Set Metadata](set-metadata.md) , чтобы изменить путь и имя этого XML-файла.
 

@@ -3,16 +3,16 @@ title: logman delete
 description: Справочная статья по команде Logman DELETE, которая удаляет существующий сборщик данных.
 ms.topic: reference
 ms.assetid: 8f3b2422-3dce-4fb4-adbb-8536b1d7da2b
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 57d909a23e65de3c74daff4fe82f42943cb3875d
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 3d10b76077df3ba16ca94eae823a7f5623ad3ee3
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89634370"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101813810"
 ---
 # <a name="logman-delete"></a>logman delete
 
@@ -39,7 +39,7 @@ logman delete <[-n] <name>> [options]
 
 ### <a name="examples"></a>Примеры
 
-Чтобы удалить *perf_log*сборщика данных, введите:
+Чтобы удалить *perf_log* сборщика данных, введите:
 
 ```
 logman delete perf_log

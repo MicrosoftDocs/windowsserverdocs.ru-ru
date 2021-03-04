@@ -3,16 +3,16 @@ title: logman create trace
 description: Справочная статья по команде Logman Create Trace, которая создает сборщик данных трассировки событий.
 ms.topic: reference
 ms.assetid: 1b4dfecd-6f56-4c51-b622-c2054b4aabd7
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 31a286d90873d76ad604de27ac94a0668939d8da
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 91b59fea804c4dbae09aae64bfc396b63b1f0eb5
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89622756"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101813982"
 ---
 # <a name="logman-create-trace"></a>logman create trace
 
@@ -61,7 +61,7 @@ logman create trace <[-n] <name>> [options]
 | -Mode `<globalsequence|localsequence|pagedmemory>` | Указывает режим ведения журнала сеанса трассировки событий, в том числе:<ul><li>**Глобалсекуенце** — указывает, что трассировщик событий добавляет порядковый номер к каждому событию, которое оно получает независимо от того, какой сеанс трассировки получил событие.</li><li>**Локалсекуенце** — указывает, что трассировщик событий добавляет порядковые номера для событий, полученных в определенном сеансе трассировки. При использовании этого параметра повторяющиеся порядковые номера могут существовать во всех сеансах, но они будут уникальны в пределах каждого сеанса трассировки.</li><li>**Пажедмемори** — указывает, что трассировка событий использует страничную память, а не пул нестраничных памяти по умолчанию для выделения внутренних буферов.</li></ul> |
 | /? | Отображает контекстную справку. |
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 - Где [-] присутствует, Добавление дополнительного дефиса (-) инвертирует параметр.
 

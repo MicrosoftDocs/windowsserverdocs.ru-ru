@@ -3,16 +3,16 @@ title: logman create counter
 description: Справочная статья по команде Logman Create Counter, которая создает сборщик данных счетчиков.
 ms.topic: reference
 ms.assetid: 1e214c32-b704-43c1-b548-e1cf43b583c3
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 6e0d30cc175d2450a77a747985281cb8d9a8558f
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 97fec35db05cacd18cda6eaf64c86ba8130bea18
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89640190"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101813992"
 ---
 # <a name="logman-create-counter"></a>logman create counter
 
@@ -54,7 +54,7 @@ logman create counter <[-n] <name>> [options]
 | -SC `<value>` | Указывает максимальное число выборок, которые должны быть собраны с помощью сборщика данных счетчика производительности. |
 | /? | Отображает контекстную справку. |
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 - Где [-] присутствует, Добавление дополнительного дефиса (-) инвертирует параметр.
 

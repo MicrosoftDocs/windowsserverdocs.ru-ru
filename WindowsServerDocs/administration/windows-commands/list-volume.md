@@ -2,16 +2,16 @@
 title: list volume
 description: Справочная статья по команде list volume, в которой отображается список базовых и динамических томов на всех дисках.
 ms.topic: reference
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: b7f87bbf0f6c83ef8eecb89b689148b6e7a6d7b0
-ms.sourcegitcommit: e164aeffc01069b8f1f3248bf106fcdb7f64f894
+ms.openlocfilehash: 74a239b67b5deac2e8467c66b4c328c7ff35ed5b
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91390797"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101814332"
 ---
 # <a name="list-volume"></a>list volume
 

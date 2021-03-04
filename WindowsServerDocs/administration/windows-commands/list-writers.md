@@ -3,16 +3,16 @@ title: list writers
 description: Справочная статья по команде модуля записи списка, в которой перечислены модули записи в системе.
 ms.topic: reference
 ms.assetid: 1c30cbc4-f568-4fa7-b564-66c41d3ca82d
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: b6e8fd300b2592a0ffee317f7d325482250fcfc6
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 81b1f7e43e225d55affff9e3e33bdaf150a34065
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89639558"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101814295"
 ---
 # <a name="list-writers"></a>list writers
 

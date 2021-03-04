@@ -3,22 +3,22 @@ title: ksetup addhosttorealmmap
 description: Справочная статья по команде ksetup аддхосттореалммап, которая добавляет сопоставление имени участника-службы (SPN) между указанным узлом и областью.
 ms.topic: reference
 ms.assetid: 237742d5-fa68-466c-b97e-636f489248ea
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 16ffe4431167ef63c73d4889febed49c40344e8b
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: bdbc6b7b1a18e0c6db45dccfebc5e90c2aaa21b5
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89639752"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101815797"
 ---
 # <a name="ksetup-addhosttorealmmap"></a>ksetup addhosttorealmmap
 
 Добавляет сопоставление имени участника-службы (SPN) между указанным узлом и областью. Эта команда также позволяет сопоставлять узел или несколько узлов, совместно использующих один и тот же DNS-суффикс к области.
 
-Сопоставление сохраняется в реестре в разделе **HKEY_LOCAL_MACHINE \систем\куррентконтолсет\лса\керберос\хосттореалм**.
+Сопоставление сохраняется в реестре в разделе **HKEY_LOCAL_MACHINE\SYSTEM\CurrentContolSet\Lsa\Kerberos\HostToRealm**.
 
 ## <a name="syntax"></a>Синтаксис
 

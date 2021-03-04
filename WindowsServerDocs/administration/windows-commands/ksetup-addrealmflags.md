@@ -3,16 +3,16 @@ title: ksetup addrealmflags
 description: Справочная статья по команде ksetup аддреалмфлагс, которая добавляет дополнительные флаги сферы в указанную область.
 ms.topic: reference
 ms.assetid: 80ca1e16-8871-494b-b9be-6bc9d63de860
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 44d03abea67011e7ef5544def8cb26655b4b41d1
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 4abe13c8d38060082717dc17e7a40d7c75a7c984
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89639721"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101815618"
 ---
 # <a name="ksetup-addrealmflags"></a>ksetup addrealmflags
 
@@ -30,14 +30,14 @@ ksetup /addrealmflags <realmname> [sendaddress] [tcpsupported] [delegate] [ncsup
 | --------- | ----------- |
 | `<realmname>` | Указывает DNS-имя в верхнем регистре, например CORP. CONTOSO.COM. |
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 - Флаги сферы задают дополнительные возможности области Kerberos, которые не основаны на операционной системе Windows Server. Компьютеры под управлением Windows Server могут использовать сервер Kerberos для администрирования проверки подлинности в области Kerberos вместо использования домена под управлением операционной системы Windows Server. Эта запись устанавливает функции области и имеет следующие значения:
 
 | Значение | Флаг области | Описание |
 | ----- | ---------- | ----------- |
 | 0xF | Все | Заданы все флаги сферы. |
-| 0x00 | Нет | Флаги области не заданы, а дополнительные функции не включены. |
+| 0x00 | None | Флаги области не заданы, а дополнительные функции не включены. |
 | 0x01 | сендаддресс | IP-адрес будет включаться в билеты предоставления билетов. |
 | 0x02 | ткпсуппортед | В этой области поддерживаются протоколы TCP и UDP (User Datagram Protocol). |
 | 0x04 | delegate | Все пользователи в этой области являются доверенными для делегирования. |

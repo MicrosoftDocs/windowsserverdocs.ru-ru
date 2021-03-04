@@ -3,16 +3,16 @@ title: mqbkup
 description: Справочная статья по команде мкбкуп, которая создает резервную копию файлов сообщений MSMQ и параметров реестра на устройстве хранения и восстанавливает ранее сохраненные сообщения и параметры.
 ms.topic: reference
 ms.assetid: 7bdd41c4-75ef-455f-b241-1d64a4c7acf5
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 90eabbcaa878f65a6df087d6eaeded6c279eb039
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.openlocfilehash: 1e29531ac3e3cb0d209061fac991683c134664d8
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96865013"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101811795"
 ---
 # <a name="mqbkup"></a>mqbkup
 
@@ -32,14 +32,14 @@ mqbkup {/b | /r} <folder path_to_storage_device>
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | ------- | -------- |
 | /b | Указывает операцию резервного копирования. |
 | /r | Указывает операцию восстановления. |
 | `<folder path_to_storage_device>` | Указывает путь, по которому хранятся файлы сообщений MSMQ и параметры реестра. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Remarks
+#### <a name="remarks"></a>Комментарии
 
 - Если указанная папка не существует при выполнении операции резервного копирования или восстановления, то эта папка автоматически создается программой.
 

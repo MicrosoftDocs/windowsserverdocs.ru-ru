@@ -3,16 +3,16 @@ title: Управление — BDE випефриспаце
 description: Справочная статья по команде Manage-bde випефриспаце, которая очищает свободное место на томе, удаляя фрагменты данных, которые могли существовать в пространстве.
 ms.topic: reference
 ms.assetid: b8d83a2a-c5c8-4019-9041-23d1d6abf282
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: d263a38545cd5cc59298c7e8bfdf7bc9a35b1b84
-ms.sourcegitcommit: 6fbe337587050300e90340f9aa3e899ff5ce1028
+ms.openlocfilehash: f92cfd912bd419a85689fb16fa12afd0e9f27575
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "97599667"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101812402"
 ---
 # <a name="manage-bde-wipefreespace"></a>Управление — BDE випефриспаце
 

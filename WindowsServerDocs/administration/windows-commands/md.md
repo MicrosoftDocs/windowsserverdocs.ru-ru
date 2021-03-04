@@ -3,16 +3,16 @@ title: md
 description: Справочная статья по команде MD, которая создает каталог или подкаталог.
 ms.topic: reference
 ms.assetid: 82162d00-cc34-4776-9e55-4b4836dbd6a9
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 1026d14c39b4058ba3e775356d27f3be8d4e8bf9
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 2bc70beb199e826627370726a107c7479d0f439a
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89633702"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101812291"
 ---
 # <a name="md"></a>md
 

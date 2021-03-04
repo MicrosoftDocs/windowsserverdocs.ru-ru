@@ -3,16 +3,16 @@ title: logman query
 description: Справочная статья по команде Logman Query, которая запрашивает свойства сборщика данных или группы сборщиков данных.
 ms.topic: reference
 ms.assetid: 1116a0f0-5415-4369-a045-12f79f8f66de
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: d71db298961409ddd3ebd968fda4c84e6a4e4fba
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: e23b79ef4042f7ac8316db1c9b7dc60b539eab8d
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89639978"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101813675"
 ---
 # <a name="logman-query"></a>logman query
 

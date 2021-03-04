@@ -3,16 +3,16 @@ title: inuse
 description: Справочная статья по команде inuse. Эта команда устарела и не гарантируется, что она будет поддерживаться в будущих выпусках Windows.
 ms.topic: reference
 ms.assetid: 62ff1af0-adba-4beb-8e3c-d1c87e0b38f3
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 55793611c8ee676a07c55bc2a8280ae4e64f7ba6
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 8634804a38c986dd717a4f2bd0adc1b31fc4b235
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89634486"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101816192"
 ---
 # <a name="inuse"></a>inuse
 

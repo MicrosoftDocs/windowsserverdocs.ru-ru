@@ -3,16 +3,16 @@ title: ksetup getenctypeattr
 description: Справочная статья по команде ksetup жетенктипеаттр, которая получает атрибут типа шифрования для домена.
 ms.topic: reference
 ms.assetid: 6c7ec002-355e-474d-bc27-27215049f1a8
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: f8dc2a1c7c4a2d17ca1fb0e5099fdb25a818d2aa
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 4a6354b80e45dcfd497d76d9606053c33547a7d0
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89640032"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101815074"
 ---
 # <a name="ksetup-getenctypeattr"></a>ksetup getenctypeattr
 

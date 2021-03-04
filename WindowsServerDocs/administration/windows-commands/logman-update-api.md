@@ -3,16 +3,16 @@ title: logman update api
 description: Справочная статья по команде Logman Update API, которая обновляет свойства существующего сборщика данных отслеживания API.
 ms.topic: reference
 ms.assetid: 6f322e52-0f9f-42b1-bd64-8b8f8fe086fc
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 016a6728d032393990e1ff1fd0cb5e4e9a20df94
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: fc504dfab30acf4e6b75d555e5057186d112eccd
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89639947"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101813655"
 ---
 # <a name="logman-update-api"></a>logman update api
 
@@ -57,7 +57,7 @@ logman update api <[-n] <name>> [options]
 | -exe `<value>` | Указывает полный путь к исполняемому файлу для трассировки API. |
 | /? | Отображает контекстную справку. |
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 - Где [-] присутствует, Добавление дополнительного дефиса (-) инвертирует параметр.
 

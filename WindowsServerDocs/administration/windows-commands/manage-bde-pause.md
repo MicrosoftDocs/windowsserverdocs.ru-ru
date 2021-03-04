@@ -3,16 +3,16 @@ title: Управление — BDE-Pause
 description: Справочная статья по команде Manage-bde-Pause, которая приостанавливает шифрование или расшифровку BitLocker.
 ms.topic: reference
 ms.assetid: efda0e08-b9ff-4e71-83d8-bb666b3032bd
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: b4f4255c544f6881ea7d023bbf03c92dc817ab34
-ms.sourcegitcommit: 3181fcb69a368f38e0d66002e8bc6fd9628b1acc
+ms.openlocfilehash: e271d26b86b438aeef43814e73ef2fadaec42c45
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "96330385"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101812701"
 ---
 # <a name="manage-bde--pause"></a>Управление — BDE-Pause
 

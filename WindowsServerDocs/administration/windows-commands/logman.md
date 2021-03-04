@@ -3,16 +3,16 @@ title: logman
 description: Справочная статья по команде logman, которая создает сеанс трассировки событий и журналы производительности и управляет ими, а также поддерживает многие функции системного монитора из командной строки.
 ms.topic: reference
 ms.assetid: 574a5203-5b3b-4759-a678-f26d00dde447
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: ac3e541436ca6f3b0e9d7c0dc03154ffefdfda0d
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: d8ebd56c2da5bc833d6bb0b08b7847626d33e741
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89639517"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101813253"
 ---
 # <a name="logman"></a>logman
 

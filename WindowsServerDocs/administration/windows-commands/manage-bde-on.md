@@ -3,16 +3,16 @@ title: Управление — BDE в
 description: Справочная статья по команде Manage-bde on, которая шифрует диск и включает BitLocker.
 ms.topic: reference
 ms.assetid: f6a12814-df74-416c-a04a-62ea8512263e
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 2774c44542889210a06420949813bdb67564d70a
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 5cd3a994d5e932f497ef9e29ad9e1cb2a9f7cc45
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89634279"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101812721"
 ---
 # <a name="manage-bde-on"></a>Управление — BDE в
 

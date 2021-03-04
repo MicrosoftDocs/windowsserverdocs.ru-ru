@@ -3,16 +3,16 @@ title: маска
 description: Справочная статья по команде Mask, которая удаляет аппаратные теневые копии, импортированные с помощью команды Import.
 ms.topic: reference
 ms.assetid: bf301474-d74a-44e7-9fad-c8a11e7ca3bd
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: ee0e4207a7c5cf6ad81ece39e9134881ad3c0239
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: f7735b08fff9f1e5931bb0af98c7e38b2b0e0076
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89633718"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101812372"
 ---
 # <a name="mask"></a>маска
 
@@ -30,9 +30,9 @@ mask <shadowsetID>
 | --------- | ----------- |
 | шадовсетид | Удаляет теневые копии, принадлежащие указанному ИДЕНТИФИКАТОРу набора теневых копий. |
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
-- Вместо *шадовсетид*можно использовать существующий псевдоним или переменную среды. Чтобы просмотреть существующие псевдонимы, используйте параметр **Добавить** без параметров.
+- Вместо *шадовсетид* можно использовать существующий псевдоним или переменную среды. Чтобы просмотреть существующие псевдонимы, используйте параметр **Добавить** без параметров.
 
 ### <a name="examples"></a>Примеры
 

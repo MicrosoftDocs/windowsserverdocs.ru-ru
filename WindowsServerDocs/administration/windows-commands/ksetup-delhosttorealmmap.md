@@ -3,16 +3,16 @@ title: ksetup delhosttorealmmap
 description: Справочная статья по команде ksetup делхосттореалммап, которая удаляет сопоставление имени участника-службы (SPN) между указанным узлом и областью.
 ms.topic: reference
 ms.assetid: 3faee482-a96c-4614-86fd-aaa446643ec4
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 321d468169005d5b183e3b3d4149872a731b8cfa
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: f3052b5dadd7ce8789ac7d65a7d74bb37b3ebb03
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89639700"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101815500"
 ---
 # <a name="ksetup-delhosttorealmmap"></a>ksetup delhosttorealmmap
 

@@ -3,16 +3,16 @@ title: load metadata
 description: Справочная статья по команде Load metadata, которая загружает файл metadata. cab перед импортом транспортной теневой копии или загружает метаданные модуля записи в случае восстановления.
 ms.topic: reference
 ms.assetid: 2c535487-668b-44fc-babb-ff59cf7d190e
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 1d2895b4122d54de92dd595c5dc7218b5579acb6
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 0acb8fc0b564b16c0a69c6d5176ef229a7e6edd7
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89639535"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101814110"
 ---
 # <a name="load-metadata"></a>Загрузить метаданные
 
@@ -31,7 +31,7 @@ load metadata [<drive>:][<path>]<metadata.cab>
 | `[<drive>:][<path>]` | Указывает расположение файла метаданных. |
 | metadata.cab | Указывает файл metadata. cab для загрузки. |
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Комментарии
 
 - С помощью команды **Import** можно импортировать транспортную теневую копию на основе метаданных, указанных в параметре **загрузить метаданные**.
 

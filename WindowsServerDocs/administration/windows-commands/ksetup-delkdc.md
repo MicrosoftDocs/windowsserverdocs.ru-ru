@@ -3,16 +3,16 @@ title: ksetup delkdc
 description: Справочная статья по команде ksetup делкдк, которая удаляет экземпляры имен центр распространения ключей (KDC) для области Kerberos.
 ms.topic: reference
 ms.assetid: 7d6ec389-094c-4a7b-a78b-605497ddc289
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 6bdc53a77f822130553af9d88e18658227c899fa
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: b3d926021761abf608b7e9deafd8ca97d276161e
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89639689"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101815452"
 ---
 # <a name="ksetup-delkdc"></a>ksetup delkdc
 

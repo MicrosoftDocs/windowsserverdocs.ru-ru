@@ -3,16 +3,16 @@ title: logman create
 description: Справочная статья по команде Logman Create, которая создает счетчик, трассировку, сборщик данных конфигурации или API.
 ms.topic: reference
 ms.assetid: 972f0126-7bc4-4b14-9265-062864f3ffd4
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 1115591f097c81b9b23dedbf3739c10346d4932e
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 39b8abfb11c5d5cf5de0c574a02aa72ff363fa88
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89640377"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101813955"
 ---
 # <a name="logman-create"></a>logman create
 

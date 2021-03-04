@@ -3,16 +3,16 @@ title: merge vdisk
 description: Справочная статья по команде merge vdisk, которая объединяет разностный виртуальный жесткий диск (VHD) с соответствующим родительским VHD.
 ms.topic: reference
 ms.assetid: 5865bb08-89a3-406c-8328-0ef8868d03e8
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 99a51b422c0e4bb19be4227b43fba6a5ef430628
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: ad858edc440d64a2275411ce43c02c481462518d
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89635168"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101812335"
 ---
 # <a name="merge-vdisk"></a>merge vdisk
 

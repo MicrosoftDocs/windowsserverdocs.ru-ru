@@ -3,16 +3,16 @@ title: logman start and logman stop
 description: Справочная статья по командам Logman Start и Logman Stop, которая запускает сборщик данных и устанавливает время начала вручную или останавливает группу сборщиков данных и устанавливает для времени окончания значение вручную.
 ms.topic: reference
 ms.assetid: a40006a1-876e-474b-aaf1-f365c730deea
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 9a684eb010d52e5aba01fee609f878cc5485a7d5
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: fc887ca5a79910a0af664cc3a6ee7018c158fa76
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89639963"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101813635"
 ---
 # <a name="logman-start-and-logman-stop"></a>logman start and logman stop
 
@@ -40,7 +40,7 @@ logman stop <[-n] <name>> [options]
 
 ### <a name="examples"></a>Примеры
 
-Чтобы запустить сборщик данных *perf_log*, на удаленном компьютере *server_1*введите:
+Чтобы запустить сборщик данных *perf_log*, на удаленном компьютере *server_1* введите:
 
 ```
 logman start perf_log -s server_1

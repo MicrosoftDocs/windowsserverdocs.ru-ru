@@ -3,16 +3,16 @@ title: Управление — BDE чанжепин
 description: Справочная статья по команде Manage-bde чанжепин, которая изменяет ПИН-код для диска операционной системы.
 ms.topic: reference
 ms.assetid: c85aa1c7-3485-4839-a292-99dfcd6db252
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 7b920e9c4580fced678e9d7dddd30fff66dad802
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: ede2ef332354792260f902506b41083c929e24bd
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89622633"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101812980"
 ---
 # <a name="manage-bde-changepin"></a>Управление — BDE чанжепин
 
