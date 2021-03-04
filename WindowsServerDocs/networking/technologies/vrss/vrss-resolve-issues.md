@@ -4,15 +4,15 @@ description: Устраните проблемы vRSS, если вы не вид
 ms.topic: article
 ms.localizationpriority: medium
 manager: dougkim
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 09/04/2018
-ms.openlocfilehash: e0764c3df4ba998936962a619f10180cd9e42bfc
-ms.sourcegitcommit: decb6c8caf4851b13af271d926c650d010a6b9e9
+ms.openlocfilehash: 03d310081b6f8d5b55c67f93fa59c6ea04af37f8
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "98177423"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101803441"
 ---
 # <a name="resolve-vrss-issues"></a>Устранение проблем vRSS
 
@@ -45,7 +45,7 @@ ms.locfileid: "98177423"
    Enable-NetAdapterRss *
    ```
 
-   Другим системным способом настройки RSS является использование Netsh. Использовать
+   Другим системным способом настройки RSS является использование Netsh. Назначение
 
     ```cmd
    netsh int tcp show global

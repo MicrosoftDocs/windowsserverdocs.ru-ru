@@ -3,16 +3,16 @@ title: risetup
 description: Справочная статья по команде RISETUP, которая создает образ операционной системы путем извлечения файлов с оригинального компакт-диска Windows Server 2003 или из настроенной дистрибутивной папки, содержащей эти файлы.
 ms.topic: reference
 ms.assetid: ce81ac89-a929-40a5-87c2-6a64a3b27a7a
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 1c0face0b8da1b647dd75deb8a275bf63c932069
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: ddafc44691e21287fcf89a103facbe335008aacc
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89637222"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101806767"
 ---
 # <a name="risetup"></a>risetup
 

@@ -3,16 +3,16 @@ title: tskill
 description: Справочная статья по команде тскилл, которая завершает процесс, выполняющийся в сеансе на удаленный рабочий стол сервере узла сеансов.
 ms.topic: reference
 ms.assetid: 08986e6a-6900-4ece-85a1-8f73b14db1b3
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: b281df4852bc5fbc0756e7b052d82ea2f9bab6d5
-ms.sourcegitcommit: f45640cf4fda621b71593c63517cfdb983d1dc6a
+ms.openlocfilehash: 700c6db6266756ce1752827c0673e8c79a699a3e
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2020
-ms.locfileid: "92156371"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101804847"
 ---
 # <a name="tskill"></a>tskill
 

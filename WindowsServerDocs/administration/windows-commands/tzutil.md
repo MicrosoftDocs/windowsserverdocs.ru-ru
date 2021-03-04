@@ -3,16 +3,16 @@ title: tzutil
 description: Справочная статья по команде tzutil, которая отображает служебную программу часового пояса Windows.
 ms.topic: reference
 ms.assetid: bcf6e007-c9b6-4df5-83c5-ed7b4b1b5913
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 8778758c2e3b72827a7dba5844539d27519a19da
-ms.sourcegitcommit: f45640cf4fda621b71593c63517cfdb983d1dc6a
+ms.openlocfilehash: 5fa7a68dad772abb5bbf35003da7081ac337db13
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2020
-ms.locfileid: "92156339"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101804737"
 ---
 # <a name="tzutil"></a>tzutil
 

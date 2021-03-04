@@ -1,20 +1,20 @@
 ---
-title: запуск
+title: start
 description: Справочная статья по команде Start, которая запускает отдельное окно командной строки для запуска указанной программы или команды.
 ms.topic: reference
 ms.assetid: 0173f9b3-5cd7-4edb-b01e-d02193b4fadc
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 6c154cd0c3cab4520f64c77d2ecc920dfc8bdcc9
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: 39b6d16fa4b936dfdd9b4f0f3f59e5500dbb16ec
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91718271"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101805567"
 ---
-# <a name="start"></a>запуск
+# <a name="start"></a>start
 
 Запускает отдельное окно командной строки для запуска указанной программы или команды.
 

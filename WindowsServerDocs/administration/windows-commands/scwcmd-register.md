@@ -3,16 +3,16 @@ title: scwcmd register
 description: Справочная статья по команде команду scwcmd Register, которая расширяет или настраивает базу данных конфигурации безопасности мастера настройки безопасности (SCW) путем регистрации файла базы данных конфигурации безопасности, содержащего определения ролей, задач, служб или портов.
 ms.topic: reference
 ms.assetid: fe4d126a-9f27-4076-b7b1-fbefa45f378a
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: b1e981ef2a428174406fd793d5c959de57a8067c
-ms.sourcegitcommit: e164aeffc01069b8f1f3248bf106fcdb7f64f894
+ms.openlocfilehash: bc24173d845885ada4db2c3e19a8ecb17ee77a13
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91388580"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101806337"
 ---
 # <a name="scwcmd-register"></a>scwcmd register
 

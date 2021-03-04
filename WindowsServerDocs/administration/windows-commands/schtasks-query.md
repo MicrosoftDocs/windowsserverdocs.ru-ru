@@ -2,16 +2,16 @@
 title: запрос SchTasks
 description: Справочная статья по команде Schtasks Query, в которой перечислены все задачи, запланированные для выполнения на компьютере.
 ms.topic: reference
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 09/16/2020
-ms.openlocfilehash: c1bff666f762b21e8dbcf2bff59383d49cab6409
-ms.sourcegitcommit: e164aeffc01069b8f1f3248bf106fcdb7f64f894
+ms.openlocfilehash: 20c77950871795a61348b8e23477e4d29b3a4de9
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91390804"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101806407"
 ---
 # <a name="schtasks-query"></a>запрос SchTasks
 
@@ -28,7 +28,7 @@ schtasks [/query] [/fo {TABLE | LIST | CSV}] [/nh] [/v] [/s <computer> [/u [<dom
 | Параметр | Описание |
 |--|--|
 | /Query | При необходимости указывает имя операции. Использование этого запроса без параметров выполняет запрос. |
-| #b1 `<format>` | Задает формат выходных данных. Допустимые значения: *Table*, *List*или *CSV*. |
+| #b1 `<format>` | Задает формат выходных данных. Допустимые значения: *Table*, *List* или *CSV*. |
 | использован | Удаляет заголовки столбцов из отображаемой таблицы. Этот параметр допустим с выходными форматами *таблицы* или *CSV* . |
 | /v | Добавляет дополнительные свойства задачи к отображению. Этот параметр является допустимым для выходных форматов *списка* или *CSV* . |
 | ключ `<computer>` | Указывает имя или IP-адрес удаленного компьютера (с обратными косыми чертами или без них). По умолчанию это локальный компьютер. |

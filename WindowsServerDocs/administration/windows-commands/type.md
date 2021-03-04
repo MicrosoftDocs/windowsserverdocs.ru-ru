@@ -1,20 +1,20 @@
 ---
-title: тип
+title: type
 description: Справочная статья по команде Type, которая отображает содержимое текстового файла.
 ms.topic: reference
 ms.assetid: c44fe905-a865-4c97-8cc5-fb95fec7d4d5
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2020
-ms.openlocfilehash: 911a7bc36f3aa4cc1be9dbbcba58432abed9bb14
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 5429f3fe28c4c567f044c647e7e6b87da323fb0a
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97947300"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101804767"
 ---
-# <a name="type"></a>тип
+# <a name="type"></a>type
 
 В командной оболочке Windows **введите** встроенную команду, которая отображает содержимое текстового файла. Используйте команду **Type** , чтобы просмотреть текстовый файл, не изменяя его.
 

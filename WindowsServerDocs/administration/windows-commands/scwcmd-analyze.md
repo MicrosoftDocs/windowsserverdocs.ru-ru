@@ -3,16 +3,16 @@ title: scwcmd analyze
 description: Справочная статья по команде команду scwcmd Analyze, которая определяет, соответствует ли компьютер политике.
 ms.topic: reference
 ms.assetid: 0259271b-be5b-48d7-a51d-8b9b6786efb4
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 0d891262ebf04b1b8e604bc4756a3ca05888f8fa
-ms.sourcegitcommit: e164aeffc01069b8f1f3248bf106fcdb7f64f894
+ms.openlocfilehash: 0b8a6057bbdb8a470ee01d9d203a3977fe76b77e
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91388610"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101806367"
 ---
 # <a name="scwcmd-analyze"></a>scwcmd analyze
 
@@ -58,7 +58,7 @@ scwcmd analyze /p:webpolicy.xml
 scwcmd analyze /m:webserver /p:webpolicy.xml /u:webadmin
 ```
 
-Чтобы проанализировать политику безопасности по *webpolicy.xmlу *файла, не *более 100 потоков*, и вывести результаты в файл с именем Results в общей папке *ресултсервер* , введите:
+Чтобы проанализировать политику безопасности по *webpolicy.xmlу* файла, не *более 100 потоков*, и вывести результаты в файл с именем Results в общей папке *ресултсервер* , введите:
 
 ```
 scwcmd analyze /i:webpolicy.xml /t:100 /o:\\resultserver\results

@@ -3,16 +3,16 @@ title: rmdir
 description: Справочная статья по команде rmdir, которая удаляет каталог.
 ms.topic: reference
 ms.assetid: e4d7162b-7132-413c-a416-6eb3dc032a26
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 524ca632c11c7d861ed431c4bc86dbdb2b35abc8
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 1b7967f17a505f9a9d7e05926eae31b4f019bf70
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89640283"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101806757"
 ---
 # <a name="rmdir"></a>rmdir
 
@@ -38,7 +38,7 @@ rmdir [<drive>:]<path> [/s [/q]]
 | /q | Задает тихий режим. Не запрашивает подтверждение при удалении дерева каталогов. Параметр **/q** работает только при указании параметра **/s** .<p>**Внимание!** При запуске в тихом режиме полное дерево каталогов удаляется без подтверждения. Перед использованием параметра командной строки **/q** убедитесь, что были перемещены или архивированы важные файлы. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 - Нельзя удалить каталог, содержащий файлы, включая скрытые или системные файлы. При попытке сделать это появится следующее сообщение:
 

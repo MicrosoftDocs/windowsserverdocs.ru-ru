@@ -3,16 +3,16 @@ title: sc.exe создать
 description: Справочная статья по команде sc.exe Create, которая создает подраздел и записи для службы в реестре и в базе данных диспетчера управления службами.
 ms.topic: reference
 ms.assetid: 59416460-0661-4fef-85cc-73e9d8f4beb4
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 2be59f0d91abdf91984985c536e45abb3cdc0d3f
-ms.sourcegitcommit: e164aeffc01069b8f1f3248bf106fcdb7f64f894
+ms.openlocfilehash: 59f3926acdd93f38dd63de631db94c283d340dcb
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91388513"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101806577"
 ---
 # <a name="scexe-create"></a>sc.exe создать
 

@@ -3,16 +3,16 @@ title: unexpose
 description: Справочная статья по команде Unexpose, унекспосес доступную теневую копию.
 ms.topic: reference
 ms.assetid: 58dc7d0f-52e9-4587-9487-d3b4c3e52640
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 35e545d632790f8c4d7d69d6e9fea1e7e1a07dc4
-ms.sourcegitcommit: f45640cf4fda621b71593c63517cfdb983d1dc6a
+ms.openlocfilehash: 5a41dadc3a3fab146a977f7f4b8746a1e3238008
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2020
-ms.locfileid: "92156310"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101804747"
 ---
 # <a name="unexpose"></a>unexpose
 

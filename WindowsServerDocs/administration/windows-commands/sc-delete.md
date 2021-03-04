@@ -3,16 +3,16 @@ title: sc.exe удалить
 description: Справочная статья по команде sc.exe DELETE, которая удаляет подраздел службы из реестра.
 ms.topic: reference
 ms.assetid: 2fe94fb3-e4d1-47b5-b999-39995ecbb644
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 12c09bd72259a8e4b58f134ca19f1fc825f2f1bb
-ms.sourcegitcommit: e164aeffc01069b8f1f3248bf106fcdb7f64f894
+ms.openlocfilehash: bdc567122f45572fa28aed0e45e1a15fa1ff0599
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91388465"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101806537"
 ---
 # <a name="scexe-delete"></a>sc.exe удалить
 

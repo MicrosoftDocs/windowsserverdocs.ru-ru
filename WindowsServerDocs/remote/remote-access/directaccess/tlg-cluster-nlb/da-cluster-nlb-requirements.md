@@ -4,15 +4,15 @@ description: Дополнительные сведения о кластере D
 manager: brianlic
 ms.topic: article
 ms.assetid: a09ec1a9-38e1-4c6c-8213-cf5b6ae44043
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 989b35204d31cea2f07e760b2d5b5a92c543e935
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: e7dd224f1f777e071916cf7b5d918dad97666aec
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98040244"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101803601"
 ---
 # <a name="directaccess-cluster-nlb-test-lab-configuration-requirements"></a>Требования к конфигурации лаборатории тестирования DirectAccess Cluster-NLB
 

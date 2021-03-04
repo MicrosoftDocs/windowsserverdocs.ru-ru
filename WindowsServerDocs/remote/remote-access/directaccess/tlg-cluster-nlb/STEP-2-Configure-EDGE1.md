@@ -4,15 +4,15 @@ description: Узнайте, как настроить DirectAccess на сер�
 manager: brianlic
 ms.topic: article
 ms.assetid: 84457351-1ca7-4e7c-8e2c-53d55b1fcdc0
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 52f94c6625286e9243419a668381995a18b28fae
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: c41fd2abea937baba8ebc94fba1f4628111af60d
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98039334"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101803631"
 ---
 # <a name="step-2-configure-edge1"></a>Шаг 2. Настройка EDGE1
 

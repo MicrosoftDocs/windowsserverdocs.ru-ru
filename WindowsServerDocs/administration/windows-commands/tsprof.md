@@ -3,16 +3,16 @@ title: tsprof
 description: Справочная статья по команде тспроф, которая копирует данные пользовательской конфигурации службы удаленных рабочих столов от одного пользователя к другому.
 ms.topic: reference
 ms.assetid: 27047868-b706-4208-b7e0-1437a2325dd3
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: e18f736a31af3cc649d4921197710f713e7df6af
-ms.sourcegitcommit: f45640cf4fda621b71593c63517cfdb983d1dc6a
+ms.openlocfilehash: ec191636eb041ab5f123c8777866668007792716
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2020
-ms.locfileid: "92156348"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101804807"
 ---
 # <a name="tsprof"></a>tsprof
 

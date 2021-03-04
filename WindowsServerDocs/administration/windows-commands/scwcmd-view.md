@@ -3,16 +3,16 @@ title: scwcmd view
 description: Справочная статья по команде команду scwcmd view, которая визуализирует XML-файл с помощью указанного преобразования XSL.
 ms.topic: reference
 ms.assetid: 7995959a-d93e-4865-a6a0-2ab18c2bb47f
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: e411bf06015684e7dedb94d109f5e4294f46af84
-ms.sourcegitcommit: e164aeffc01069b8f1f3248bf106fcdb7f64f894
+ms.openlocfilehash: b2afa8e43d727333b3bb6db5e8ca3a348e587ee5
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91388934"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101806307"
 ---
 # <a name="scwcmd-view"></a>scwcmd view
 

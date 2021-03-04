@@ -4,15 +4,15 @@ description: Узнайте, как устранять неполадки, св�
 manager: brianlic
 ms.topic: article
 ms.assetid: b12dd0e8-1d80-4d4b-bb45-586f19d17ef0
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 9398bb52804f91229f0038ce4eee4ba5c6717434
-ms.sourcegitcommit: 7674bbe49517bbfe0e2c00160e08240b60329fd9
+ms.openlocfilehash: 77943b6b960b6d81ee0ba71fadb4b6d6c17a1fd4
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98603407"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101803331"
 ---
 # <a name="troubleshooting-setting-the-entry-point-domain-controller"></a>Устранение неполадок задания контроллера домена для точки входа
 

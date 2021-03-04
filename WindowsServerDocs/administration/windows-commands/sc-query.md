@@ -3,16 +3,16 @@ title: Запрос Sc.exe
 description: Справочная статья по команде sc.exe Query, которая получает и отображает сведения о указанной службе, драйвере, типе службы или типе драйвера.
 ms.topic: reference
 ms.assetid: ac365f89-4b20-4de6-a582-b204c5e7d0eb
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 7d5994c54914165cb79ba0f505f1a44b2d7f019a
-ms.sourcegitcommit: e164aeffc01069b8f1f3248bf106fcdb7f64f894
+ms.openlocfilehash: fa53ef365a3e2a9b6a0849b5cd13854af033c1f7
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91388217"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101806547"
 ---
 # <a name="scexe-query"></a>Запрос Sc.exe
 

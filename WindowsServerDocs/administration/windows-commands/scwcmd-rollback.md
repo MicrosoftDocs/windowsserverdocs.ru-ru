@@ -3,16 +3,16 @@ title: scwcmd rollback
 description: Справочная статья по команде отката команду scwcmd, которая применяет последнюю доступную политику отката, а затем удаляет эту политику отката.
 ms.topic: reference
 ms.assetid: 4fd9f89b-0420-420a-ad20-4a328636b1e7
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: e8f50995131ca01ea2bb58ee9371b12d9ec9a917
-ms.sourcegitcommit: e164aeffc01069b8f1f3248bf106fcdb7f64f894
+ms.openlocfilehash: fc4fe285a3ede026a76fafc72b708326d84afdb1
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91388914"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101806327"
 ---
 # <a name="scwcmd-rollback"></a>scwcmd rollback
 

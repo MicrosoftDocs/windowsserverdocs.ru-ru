@@ -2,16 +2,16 @@
 title: команды SchTasks
 description: Справочная статья по командам Schtasks, которая планирует периодическое выполнение команд и программ в определенное время, Добавление и удаление задач по расписанию, запуск и остановка задач по требованию, а также отображение и изменение запланированных задач.
 ms.topic: reference
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 09/16/2020
-ms.openlocfilehash: 50b0bd7f7a55a7aa5889c39e4bf9f4e582af7f3b
-ms.sourcegitcommit: e164aeffc01069b8f1f3248bf106fcdb7f64f894
+ms.openlocfilehash: 89c3d3ec7b8c40612a587eaba6ad367a2a791ba8
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91388640"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101806392"
 ---
 # <a name="schtasks-commands"></a>команды SchTasks
 

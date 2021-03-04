@@ -3,16 +3,16 @@ title: tscon
 description: Справочная статья по тскон, которая подключается к другому сеансу на удаленный рабочий стол сервере узла сеансов.
 ms.topic: reference
 ms.assetid: 315a9793-cd10-4987-bb68-89a9d13f7fce
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 17b18aea265ff7c703c2ef6c9c3d0021a9d9ea00
-ms.sourcegitcommit: f45640cf4fda621b71593c63517cfdb983d1dc6a
+ms.openlocfilehash: 8b3e31ec99b3c59013eea543ca93541b8787bcb8
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2020
-ms.locfileid: "92156398"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101804926"
 ---
 # <a name="tscon"></a>tscon
 
@@ -58,7 +58,7 @@ tscon {<sessionID> | <sessionname>} [/dest:<sessionname>] [/password:<pw> | /pas
 tscon 12
 ```
 
-Чтобы подключиться к *сеансу 23* на текущем службы удаленных рабочих столов сервере узла сеансов с помощью пароля *мипасс*и отключить текущий сеанс, введите:
+Чтобы подключиться к *сеансу 23* на текущем службы удаленных рабочих столов сервере узла сеансов с помощью пароля *мипасс* и отключить текущий сеанс, введите:
 
 ```
 tscon 23 /password:mypass

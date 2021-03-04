@@ -3,16 +3,16 @@ title: uniqueid
 description: Справочная статья по UniqueId, которая отображает или задает идентификатор таблицы разделов GUID (GPT) или подпись основной загрузочной записи (MBR) для диска с фокусом.
 ms.topic: reference
 ms.assetid: 64235a4a-b91c-46da-b9b0-68ee90571c2a
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 73721316747ffd0380f178622d37dc4fdbefc2fb
-ms.sourcegitcommit: f45640cf4fda621b71593c63517cfdb983d1dc6a
+ms.openlocfilehash: b38a76b41fc2732b16d296d4e8fd4eca6f885d62
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2020
-ms.locfileid: "92156290"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101804757"
 ---
 # <a name="uniqueid"></a>uniqueid
 

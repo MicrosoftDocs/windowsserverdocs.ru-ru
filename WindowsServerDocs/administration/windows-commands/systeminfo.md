@@ -3,16 +3,16 @@ title: systeminfo
 description: Справочная статья по команде systeminfo, которая отображает подробные сведения о конфигурации компьютера и его операционной системы, включая конфигурацию операционной системы, сведения о безопасности, идентификатор продукта и свойства оборудования (например, ОЗУ, дисковое пространство и сетевые карты).
 ms.topic: reference
 ms.assetid: 39954968-3c2e-4d3e-9d89-c9c43347461e
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 9c104d3114eae6170e3fbbd60ab718fa0013ea85
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: 87d3db75ec1a3b67c9c9edbaf1ebf19a8044da40
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91718201"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101805527"
 ---
 # <a name="systeminfo"></a>systeminfo
 

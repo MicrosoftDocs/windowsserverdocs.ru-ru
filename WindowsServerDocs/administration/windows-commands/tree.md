@@ -3,16 +3,16 @@ title: tree
 description: Справочная статья по дереву, которая отображает структуру каталогов пути или диска в накопителе графически.
 ms.topic: reference
 ms.assetid: 345d3192-401e-4a3b-a8ac-36a85c7be79d
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: c9f586dbcf9072feffe71e1c3d792f10afc951a4
-ms.sourcegitcommit: f45640cf4fda621b71593c63517cfdb983d1dc6a
+ms.openlocfilehash: 1750220c0eff3cd06eaac749c42cf72cafbd0fa2
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2020
-ms.locfileid: "92156408"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101804947"
 ---
 # <a name="tree"></a>tree
 

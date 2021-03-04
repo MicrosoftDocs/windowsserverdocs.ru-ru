@@ -4,15 +4,15 @@ description: Сведения о планировании инфраструкт
 manager: brianlic
 ms.topic: article
 ms.assetid: a1ce7af5-f3fe-4fc9-82e8-926800e37bc1
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: d66073b93bbb1f3f73c95443c04900c3e37dd628
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: 6d4fac250be5d3a19a6765865e0d9d16eef87ff9
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98039924"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101803411"
 ---
 # <a name="step-1-plan-the-remote-access-infrastructure"></a>Шаг 1. Планирование инфраструктуры удаленного доступа
 

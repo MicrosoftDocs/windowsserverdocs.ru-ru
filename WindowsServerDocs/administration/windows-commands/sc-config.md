@@ -3,16 +3,16 @@ title: Конфигурация sc.exe
 description: Справочная статья по команде sc.exe config, которая изменяет конфигурации службы, изменяя значения записей службы в реестре и в базе данных диспетчера управления службами.
 ms.topic: reference
 ms.assetid: ad4d68a6-efe5-452b-8501-7f1f1c552a4a
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 06/05/2018
-ms.openlocfilehash: 55587314e87f8eca50b94ad9f102aebc72324dd2
-ms.sourcegitcommit: e164aeffc01069b8f1f3248bf106fcdb7f64f894
+ms.openlocfilehash: 4bd66fb86cd8f7f0b8772853e5b933e054a0398b
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91388830"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101806596"
 ---
 # <a name="scexe-config"></a>Конфигурация sc.exe
 

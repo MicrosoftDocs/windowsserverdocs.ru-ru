@@ -6,14 +6,14 @@ ms.assetid: 0fe5bfc3-591f-4a19-b98a-0668d4c9f93a
 ms.localizationpriority: medium
 manager: dougkim
 ms.date: 09/05/2018
-ms.author: lizross
-author: eross-msft
-ms.openlocfilehash: 553be94dd3fe94a74ee9deb84a5ac6d47265afec
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.author: jgerend
+author: JasonGerend
+ms.openlocfilehash: 37916458c9fd16005f237452a6b5af5113cef523
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87955541"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101803719"
 ---
 # <a name="manage-vrss"></a>Управление vRSS
 

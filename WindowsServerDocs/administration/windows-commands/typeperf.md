@@ -3,16 +3,16 @@ title: typeperf
 description: Справочная статья по команде типеперф, которая записывает данные о производительности в командное окно или в файл журнала.
 ms.topic: reference
 ms.assetid: 0c7ca89a-03b3-4626-afcf-ef8565e90043
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 6a06d422db5f681c3e1775facc4f8d0eee422244
-ms.sourcegitcommit: f45640cf4fda621b71593c63517cfdb983d1dc6a
+ms.openlocfilehash: 3c1c4b7504eec71d6f30364af433b5a5a00d32fe
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2020
-ms.locfileid: "92156355"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101804777"
 ---
 # <a name="typeperf"></a>typeperf
 

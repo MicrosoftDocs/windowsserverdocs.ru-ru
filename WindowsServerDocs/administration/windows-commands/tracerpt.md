@@ -3,16 +3,16 @@ title: tracerpt
 description: Справочная статья по команде Tracerpt, которая анализирует журналы трассировки событий, файлы журналов, созданные монитором производительности, и поставщики трассировки событий в реальном времени.
 ms.topic: reference
 ms.assetid: cb9eaf86-0ef6-4197-b6c8-9cca8a1d723c
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 1e468dab3c99219560047668f9f1bd001e8e451e
-ms.sourcegitcommit: f45640cf4fda621b71593c63517cfdb983d1dc6a
+ms.openlocfilehash: 068dbb7b396d18efb5c355db3fec7508cb421bc4
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2020
-ms.locfileid: "92156715"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101804957"
 ---
 # <a name="tracerpt"></a>tracerpt
 
@@ -58,7 +58,7 @@ tracerpt <[-l] <value [value [...]]>|-rt <session_name [session_name [...]]>> [o
 tracerpt logfile1.etl logfile2.etl -o logdump.xml -of XML
 ```
 
-Чтобы создать отчет на основе журнала событий *logfile. ETL*, создать файл дампа *logdmp.xml* в формате XML, чтобы использовать оптимальные действия для обнаружения событий, не включенных в схему, а также для создания файла сводного отчета *logdump.txt* и файла отчета, *logrpt.xml*введите:
+Чтобы создать отчет на основе журнала событий *logfile. ETL*, создать файл дампа *logdmp.xml* в формате XML, чтобы использовать оптимальные действия для обнаружения событий, не включенных в схему, а также для создания файла сводного отчета *logdump.txt* и файла отчета, *logrpt.xml* введите:
 
 ```
 tracerpt logfile.etl -o logdmp.xml -of XML -lr -summary logdmp.txt -report logrpt.xml

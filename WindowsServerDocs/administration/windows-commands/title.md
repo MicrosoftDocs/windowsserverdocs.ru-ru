@@ -3,16 +3,16 @@ title: title
 description: Справочная статья по команде Title, которая создает заголовок для окна командной строки.
 ms.topic: reference
 ms.assetid: c0bbe8bd-201a-4b6c-b617-5d9809881dc8
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: f4aaaf198a898589699547c522a734e9e3e5aba2
-ms.sourcegitcommit: f45640cf4fda621b71593c63517cfdb983d1dc6a
+ms.openlocfilehash: 81d5fdbf875733696dff93e6abec968db34a40cb
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2020
-ms.locfileid: "92156725"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101805027"
 ---
 # <a name="title"></a>title
 

@@ -2,16 +2,16 @@
 title: команда Schtasks Delete
 description: Справочная статья по команде Schtasks DELETE, которая удаляет запланированную задачу из расписания.
 ms.topic: reference
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 09/16/2020
-ms.openlocfilehash: a5b090ac9520aeae5e603e0c47c0c225b8bd0eff
-ms.sourcegitcommit: e164aeffc01069b8f1f3248bf106fcdb7f64f894
+ms.openlocfilehash: 189b3c5192f2af878473d2687347a1fb67eda7c4
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91390813"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101806507"
 ---
 # <a name="schtasks-delete"></a>команда Schtasks Delete
 

@@ -3,16 +3,16 @@ title: rpcinfo
 description: Справочная статья по команде rpcinfo, в которой перечислены программы на удаленном компьютере.
 ms.topic: reference
 ms.assetid: 7c342232-a8f0-42ff-8f11-d18c4981f5ca
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 07/11/2018
-ms.openlocfilehash: 3e5865bb976f71b9fbb90e4dd77008f00056a455
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 569633bc5bea4ae650bdbf3d3d24e8165c5f5376
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89639826"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101806747"
 ---
 # <a name="rpcinfo"></a>rpcinfo
 

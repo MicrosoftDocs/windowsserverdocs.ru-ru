@@ -3,16 +3,16 @@ title: rwinsta
 description: Справочная статья по команде рвинста, которая сбрасывает (удаляет) сеанс на удаленный рабочий стол сервере узла сеансов.
 ms.topic: reference
 ms.assetid: 82bee0e4-1c2c-43fe-afd3-04a6ce0f4518
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 5ebe7f0cbb861ea9463dc62768c0e260198efb8d
-ms.sourcegitcommit: e164aeffc01069b8f1f3248bf106fcdb7f64f894
+ms.openlocfilehash: 330b975a9f5385c58a34cd0b8bcb2c76664c8457
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91388408"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101806617"
 ---
 # <a name="rwinsta"></a>rwinsta
 

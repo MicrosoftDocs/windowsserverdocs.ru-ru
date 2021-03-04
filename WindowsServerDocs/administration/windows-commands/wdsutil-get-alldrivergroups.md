@@ -3,16 +3,16 @@ title: WDSUTIL Get-аллдриверграупс
 description: Справочная статья по команде WDSUTIL Get-аллдриверграупс, которая отображает сведения обо всех группах драйверов на сервере.
 ms.topic: reference
 ms.assetid: f245ba53-f150-41b1-8418-38dcf0410a05
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: b6d407e91af9132d6d2bc87ccb86320e3fe42b76
-ms.sourcegitcommit: 28b5ab74cb0b40539ccc1a83998d6391e87fe51f
+ms.openlocfilehash: 4fdcb5b271a118622a6fe4dea60bf6225f6f4b36
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "96614946"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101803749"
 ---
 # <a name="wdsutil-get-alldrivergroups"></a>WDSUTIL Get-аллдриверграупс
 

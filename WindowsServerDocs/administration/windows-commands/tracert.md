@@ -3,16 +3,16 @@ title: tracert
 description: Справочная статья по tracert, которая определяет путь к назначению, путем отправки эхо-запросов протокола ICMP или ICMPv6-сообщений в целевое расположение с добавочным увеличением срока жизни (TTL) значений полей.
 ms.topic: reference
 ms.assetid: 9032a032-2e5e-49d4-9e86-f821600e4ba6
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 767871e9100d8b14c8a893fd9d9dbb5862810ace
-ms.sourcegitcommit: f45640cf4fda621b71593c63517cfdb983d1dc6a
+ms.openlocfilehash: b6bcb651cbdcb41751c80e40c6b28d4c61116188
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2020
-ms.locfileid: "92156412"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101804937"
 ---
 # <a name="tracert"></a>tracert
 

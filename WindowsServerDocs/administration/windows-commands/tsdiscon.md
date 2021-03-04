@@ -3,16 +3,16 @@ title: tsdiscon
 description: Справочная статья по тсдискон, которая отключает сеанс от сервера узла сеансов удаленный рабочий стол.
 ms.topic: reference
 ms.assetid: 13139674-7dee-4965-8cac-32f4928e8b9a
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 8b7126e2e9d1f5185ea64566843c523bf0570891
-ms.sourcegitcommit: f45640cf4fda621b71593c63517cfdb983d1dc6a
+ms.openlocfilehash: c8e7b239d02dc8e79b53242f9770b5ce885e7825
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2020
-ms.locfileid: "92156385"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101804925"
 ---
 # <a name="tsdiscon"></a>tsdiscon
 

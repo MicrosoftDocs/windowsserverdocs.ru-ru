@@ -3,16 +3,16 @@ title: WDSUTIL Get-аллдевицес
 description: Справочная статья по команде WDSUTIL Get-аллдевицес, которая отображает свойства служб развертывания Windows для всех предварительно подготовленных компьютеров.
 ms.topic: reference
 ms.assetid: 5824b3d2-2df1-4ed6-a289-e6c47c13fea2
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: a960a30fd61056e2e2eb183e8a873223daa78be2
-ms.sourcegitcommit: 28b5ab74cb0b40539ccc1a83998d6391e87fe51f
+ms.openlocfilehash: 45c93f77dc0a77cdaec3974bfabea069684437ad
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "96614876"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101803759"
 ---
 # <a name="wdsutil-get-alldevices"></a>WDSUTIL Get-аллдевицес
 

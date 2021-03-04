@@ -3,16 +3,16 @@ title: tlntadmn
 description: Справочная статья по команде tlntadmn, которая управляет локальным или удаленным компьютером, на котором запущена служба Telnet-сервера.
 ms.topic: reference
 ms.assetid: 78b61e8d-b953-44bb-8d57-f3b42da9e7a8
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 9a4de6903d5a9979f45677176d023c694e20cdfd
-ms.sourcegitcommit: f45640cf4fda621b71593c63517cfdb983d1dc6a
+ms.openlocfilehash: ee66352d2c5ee7787f6ee904b09bc3e929f019b8
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2020
-ms.locfileid: "92156440"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101805037"
 ---
 # <a name="tlntadmn"></a>tlntadmn
 
@@ -34,7 +34,7 @@ tlntadmn [<computername>] [-u <username>] [-p <password>] [{start | stop | pause
 |--|--|
 | `<computername>` | Указывает имя сервера для подключения. По умолчанию это локальный компьютер. |
 | -u `<username> -p <password>` | Указывает учетные данные администратора для удаленного сервера, который требуется администрировать. Этот параметр является обязательным, если требуется администрировать удаленный сервер, к которому вы не выполнили вход с учетными данными администратора. |
-| запуск | запускает службу Telnet Server. |
+| start | запускает службу Telnet Server. |
 | stop | Останавливает службу сервера Telnet |
 | pause | Приостанавливает работу службы Telnet Server. Новые подключения приниматься не будут. |
 | continue | Возобновляет работу службы Telnet Server. |

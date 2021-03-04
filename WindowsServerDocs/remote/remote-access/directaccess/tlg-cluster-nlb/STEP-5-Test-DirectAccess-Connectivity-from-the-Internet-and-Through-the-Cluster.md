@@ -4,15 +4,15 @@ description: Узнайте, как проверить возможность п
 manager: brianlic
 ms.topic: article
 ms.assetid: 8399bdfa-809a-45e4-9963-f9b6a631007f
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: e301c9786b0d76e45c8417a7a3c9340937f5f529
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: f0a6c1ab418ed4348cadaf94db062e42d1e153b3
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98039214"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101803621"
 ---
 # <a name="step-5-test-directaccess-connectivity-from-the-internet-and-through-the-cluster"></a>Шаг 5. Тестирование подключения DirectAccess из Интернета и через кластер
 

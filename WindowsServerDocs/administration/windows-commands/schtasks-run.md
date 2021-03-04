@@ -2,16 +2,16 @@
 title: команда Schtasks Run
 description: Справочная статья по команде Schtasks Run, которая
 ms.topic: reference
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 09/16/2020
-ms.openlocfilehash: 9304e41c21899ce49bd6d4d4409ae3b47d3746aa
-ms.sourcegitcommit: e164aeffc01069b8f1f3248bf106fcdb7f64f894
+ms.openlocfilehash: ec1e0a44b619327bc3177587fc39f9dc3ba13239
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91390801"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101806396"
 ---
 # <a name="schtasks-run"></a>команда Schtasks Run
 

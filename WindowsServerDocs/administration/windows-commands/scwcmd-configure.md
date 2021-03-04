@@ -3,16 +3,16 @@ title: scwcmd configure
 description: Справочная статья по команде команду scwcmd configure, которая применяет к компьютеру политику безопасности, созданную с помощью мастера настройки безопасности (SCW).
 ms.topic: reference
 ms.assetid: 6528b9dc-3d82-4228-b734-ed717458d74c
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: a57d2142f8fc7fd788a5669c5318ff6444c34734
-ms.sourcegitcommit: e164aeffc01069b8f1f3248bf106fcdb7f64f894
+ms.openlocfilehash: 8fda9959a4a191fcb8fdb23661a5af6dbd01152a
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91388591"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101806377"
 ---
 # <a name="scwcmd-configure"></a>scwcmd configure
 
@@ -43,7 +43,7 @@ scwcmd configure [[[/m:<computername> | /ou:<OuName>] /p:<policy>] | /i:<compute
 
 ## <a name="examples"></a>Примеры
 
-Чтобы настроить политику безопасности для *webpolicy.xml*файлов, введите:
+Чтобы настроить политику безопасности для *webpolicy.xml* файлов, введите:
 
 ```
 scwcmd configure /p:webpolicy.xml

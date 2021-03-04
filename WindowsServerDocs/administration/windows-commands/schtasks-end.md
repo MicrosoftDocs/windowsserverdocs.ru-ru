@@ -2,16 +2,16 @@
 title: команда Schtasks End
 description: Справочная статья по команде Schtasks End, которая останавливает только экземпляры программы, запущенной запланированной задачей.
 ms.topic: reference
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 09/16/2020
-ms.openlocfilehash: 7075c8689a39c7bc9eba917298678977916e29fa
-ms.sourcegitcommit: e164aeffc01069b8f1f3248bf106fcdb7f64f894
+ms.openlocfilehash: b475a33dc431fc4a90515f8c8b0d41a53b1c1365
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91390805"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101806467"
 ---
 # <a name="schtasks-end"></a>команда Schtasks End
 

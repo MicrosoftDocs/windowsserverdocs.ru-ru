@@ -3,16 +3,16 @@ title: scwcmd
 description: Справочная статья по средству командной строки scwcmd.exe, входящему в состав мастера настройки безопасности (SCW).
 ms.topic: reference
 ms.assetid: 188ae881-c7d4-4a7a-b967-8fdc79f5f345
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 87bd2c718bec18810026c5701b955d5ef655b53e
-ms.sourcegitcommit: e164aeffc01069b8f1f3248bf106fcdb7f64f894
+ms.openlocfilehash: f968ffb1f840404768564b337467ecfff78d4a47
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91388924"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101806267"
 ---
 # <a name="scwcmd"></a>scwcmd
 
