@@ -6,15 +6,15 @@ metadata:
   description: Узнайте о функциях, технологиях и развертывании Always On VPN.
   ms.service: help
   ms.topic: landing-page
-  author: eross-msft
-  ms.author: lizross
+  author: JasonGerend
+  ms.author: jgerend
   ms.date: 06/10/2020
-  ms.openlocfilehash: b39e06af80b8e44ce0b115ff562c5456c131da59
-  ms.sourcegitcommit: d99bc78524f1ca287b3e8fc06dba3c915a6e7a24
+  ms.openlocfilehash: 6a1e49d50becbe368f5320ec8563f8f749430c4f
+  ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 07/27/2020
-  ms.locfileid: "87182000"
+  ms.lasthandoff: 03/04/2021
+  ms.locfileid: "101831863"
 landingContent:
 - title: Сведения об Always On VPN
   linkLists:

@@ -7,18 +7,18 @@ metadata:
   ms.service: help
   ms.prod: windows-server
   ms.technology: manage-rsat
-  author: eross-msft
-  ms.author: lizross
+  author: JasonGerend
+  ms.author: jgerend
   manager: mtillman
   ms.localizationpriority: high
   ms.topic: landing-page
   ms.date: 06/29/2020
-  ms.openlocfilehash: 037feaf0cef05a2e04b616e9879372594eabad0b
-  ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+  ms.openlocfilehash: 7832c6167ebe9bfc841ed3b50bcea481c099d2a2
+  ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 09/10/2020
-  ms.locfileid: "89635434"
+  ms.lasthandoff: 03/04/2021
+  ms.locfileid: "101830344"
 landingContent:
 - title: Службы MultiPoint
   linkLists:

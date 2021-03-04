@@ -7,15 +7,15 @@ metadata:
   description: Объедините программно-определяемые вычислительные ресурсы, хранилище и сети в один кластер, чтобы обеспечить высокопроизводительную, экономичную и легко масштабируемую виртуализацию.
   ms.service: help
   ms.topic: hub-page
-  author: eross-msft
-  ms.author: lizross
+  author: JasonGerend
+  ms.author: jgerend
   ms.date: 06/10/2020
-  ms.openlocfilehash: 34faa74941b798a9c0eddb05fb01cae349824b51
-  ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+  ms.openlocfilehash: ee383252c9ff34d324af6d4140fcc07991c244e2
+  ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 09/10/2020
-  ms.locfileid: "89639383"
+  ms.lasthandoff: 03/04/2021
+  ms.locfileid: "101827985"
 productDirectory:
   items:
   - title: Hyper-V

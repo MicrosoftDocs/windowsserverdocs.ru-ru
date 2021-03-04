@@ -4,18 +4,18 @@ summary: 'Windows Server является платформой для созда
 metadata:
   title: Документация по Windows Server | Документация Майкрософт
   description: 'Windows Server является платформой для создания инфраструктуры подключенных приложений, сетей и веб-служб: от рабочей группы до центра обработки данных.'
-  author: eross-msft
+  author: JasonGerend
   manager: daveba
   ms.service: windows-server
   ms.topic: hub-page
   ms.date: 06/06/2019
-  ms.author: lizross
-  ms.openlocfilehash: 20f5de835e413194c3def8691cc711f0759db060
-  ms.sourcegitcommit: 8bd9a0dd489a1098c0cf0cf0fbd1f738701103c5
+  ms.author: jgerend
+  ms.openlocfilehash: 4841f9ba22d1bac997634b56c387b4ade5cf488c
+  ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 02/14/2021
-  ms.locfileid: "100490102"
+  ms.lasthandoff: 03/04/2021
+  ms.locfileid: "101830775"
 highlightedContent:
   items:
   - title: Что нового в Windows Server 2019?
