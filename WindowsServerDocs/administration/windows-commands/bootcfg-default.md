@@ -3,16 +3,16 @@ title: bootcfg default
 description: Справочная статья по команде bootcfg по умолчанию, которая указывает запись операционной системы для обозначения по умолчанию.
 ms.topic: reference
 ms.assetid: e21824d7-8278-41d7-a2c5-ce09803d513a
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: f96a7d09f580614763d7dc6803012969daa144c9
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: f0cc9bb0df002cf3b674571bc289b04fd5969c89
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89630231"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101820388"
 ---
 # <a name="bootcfg-default"></a>bootcfg default
 

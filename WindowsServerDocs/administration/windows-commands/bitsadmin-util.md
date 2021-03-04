@@ -3,16 +3,16 @@ title: bitsadmin util
 description: Справочная статья по команде битсадмин util, в которой перечислены переключатели util.
 ms.topic: reference
 ms.assetid: e8278a28-1ecc-42be-92e2-c93dee59751d
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 895cf6674324376da533dfee580eadfba9f609e0
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 2a3d9bc01598c607e801f1b307c951261296a726
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89630394"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101820478"
 ---
 # <a name="bitsadmin-util"></a>bitsadmin util
 

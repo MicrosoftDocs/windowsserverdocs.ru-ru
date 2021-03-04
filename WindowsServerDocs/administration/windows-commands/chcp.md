@@ -3,16 +3,16 @@ title: chcp
 description: Справочная статья по команде chcp, которая изменяет текущую кодовую страницу консоли.
 ms.topic: reference
 ms.assetid: dc7b1c71-7b80-443d-9cf1-9bcf305aa1fd
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: ef70d73253782528bcd54f7cfd6f98de9d941702
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: f6ba7151c4542265d8c2cdaf84cace189e3318de
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89629838"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101819998"
 ---
 # <a name="chcp"></a>chcp
 
@@ -42,13 +42,13 @@ chcp [<nnn>]
 | 857 | Турецкий |
 | 860 | Португальский |
 | 861 | Исландский |
-| 863 | Канада — французский |
+| 863 | Canadian-French |
 | 865 | Скандинавская |
 | 866 | русском языке |
 | 869 | Современный греческий |
 | 936 | Китайский |
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 - В окне командной строки, использующем растровые шрифты, правильно отображается только кодовая страница изготовителя оборудования (OEM), установленная вместе с Windows. Другие кодовые страницы отображаются правильно в полноэкранном режиме или в окнах командной строки, в которых используются шрифты TrueType.
 

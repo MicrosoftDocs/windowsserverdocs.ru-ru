@@ -3,16 +3,16 @@ title: создать секцию расширенной
 description: Справочная статья по расширенной команде CREATE PARTITION, которая создает дополнительный раздел на диске с фокусом.
 ms.topic: reference
 ms.assetid: 4ad7cb66-9c66-4153-b94e-1030a7225070
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: b04e9ad75161dbde02046ad0a0c5392b19473fa9
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 3da175f8f95ccbdefc03f11c1f907c29ba298449
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89629189"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101819438"
 ---
 # <a name="create-partition-extended"></a>создать секцию расширенной
 

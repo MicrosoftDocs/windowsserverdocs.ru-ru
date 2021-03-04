@@ -3,16 +3,16 @@ title: bootcfg rmsw
 description: Справочная статья по команде bootcfg рмсв, которая удаляет параметры загрузки операционной системы для указанной записи операционной системы.
 ms.topic: reference
 ms.assetid: fd7e4248-880e-4e2b-929e-87f8d44b9a63
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 9dabe87fe9e56933de1f522728934a7c1dc946f6
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: b95a9c1f0e2cf45c3f71ee13e730612072e9a235
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89630128"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101820248"
 ---
 # <a name="bootcfg-rmsw"></a>bootcfg rmsw
 

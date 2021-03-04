@@ -3,16 +3,16 @@ title: bitsadmin util и help
 description: Справочная статья по команде битсадмин util and Help, которая отображает сведения об использовании командной строки для параметров/утил.
 ms.topic: reference
 ms.assetid: 806e377a-3022-4764-b451-0aa4f754f195
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 95abb20adc945785718f85bb70787be0ba5daf13
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 3064c459675db3bd746eb3a5f7da546bc070d8e5
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89630466"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101820598"
 ---
 # <a name="bitsadmin-util-and-help"></a>bitsadmin util и help
 

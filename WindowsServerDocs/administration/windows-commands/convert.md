@@ -3,16 +3,16 @@ title: convert
 description: Справочная статья по команде Convert, которая преобразует диск с одного типа диска в другой.
 ms.topic: reference
 ms.assetid: ae151297-af21-4701-bd69-21d775518e03
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 654d5266fff3a3fffadb9d176eb07a792f22fa01
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: cb53e03f748a01a223a0401cc8248406572db13a
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89629275"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101819508"
 ---
 # <a name="convert"></a>convert
 

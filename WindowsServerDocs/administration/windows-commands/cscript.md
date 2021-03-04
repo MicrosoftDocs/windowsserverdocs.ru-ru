@@ -3,16 +3,16 @@ title: cscript
 description: Справочная статья по команде cscript, которая запускает сценарий, чтобы он выполнялся в среде командной строки.
 ms.topic: reference
 ms.assetid: fba3cbca-594e-4663-bb22-4ee0f63a1ac6
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 2e35efeccc219a7e678e2eccab74de5d0c4d6837
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: bf63bdcd1ac343b77d0d22207e27d33a98693727
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89628991"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101819228"
 ---
 # <a name="cscript"></a>cscript
 
@@ -50,7 +50,7 @@ cscript <scriptname.extension> [/b] [/d] [/e:<engine>] [{/h:cscript | /h:wscript
 | /? | Отображает доступные параметры команды и предоставляет справку по их использованию. Это то же самое, что ввод **cscript.exe** без параметров и скрипта. |
 | скриптаргументс | Задает аргументы, передаваемые в скрипт. Каждому аргументу сценария должна предшествовать косая черта ( **/** ). |
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 - Каждый параметр является необязательным; Однако нельзя указать аргументы скрипта без указания скрипта. Если не указать скрипт или какие-либо аргументы скрипта, cscript.exe отображает синтаксис cscript.exe и допустимые параметры узла.
 

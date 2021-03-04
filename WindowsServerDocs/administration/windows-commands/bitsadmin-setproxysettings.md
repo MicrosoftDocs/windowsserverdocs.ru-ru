@@ -3,16 +3,16 @@ title: bitsadmin setproxysettings
 description: Справочная статья по команде битсадмин setproxysettings, которая задает параметры прокси-сервера для указанного задания.
 ms.topic: reference
 ms.assetid: be8edb1b-614e-4d0b-a8f8-64b4bde3e64b
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 199cb3f4b4259a52a8960cac23b9e408e71ded23
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 44e8ce8a70cf8b14ee32c9e5f2d90eafb7fe3a2e
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89630682"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101820778"
 ---
 # <a name="bitsadmin-setproxysettings"></a>bitsadmin setproxysettings
 
@@ -42,14 +42,14 @@ bitsadmin /setproxysettings myDownloadJob PRECONFIG
 ```
 
 ```
-bitsadmin /setproxysettings myDownloadJob NO_PROXY
+bitsadmin /setproxysettings myDownloadJob NO_PROXY
 ```
 ```
-bitsadmin /setproxysettings myDownloadJob OVERRIDE proxy1:80
+bitsadmin /setproxysettings myDownloadJob OVERRIDE proxy1:80
 ```
 
 ```
-bitsadmin /setproxysettings myDownloadJob OVERRIDE proxy1,proxy2,proxy3 NULL
+bitsadmin /setproxysettings myDownloadJob OVERRIDE proxy1,proxy2,proxy3 NULL
 ```
 
 ## <a name="additional-references"></a>Дополнительные ссылки

@@ -3,16 +3,16 @@ title: bitsadmin setsecurityflags
 description: Справочная статья по команде битсадмин сетсекуритифлагс, которая устанавливает флаги безопасности для HTTP, чтобы определить, должен ли BITS проверять список отзыва сертификатов, игнорировать определенные ошибки сертификата и определить политику, которая будет использоваться, когда сервер перенаправит HTTP-запрос.
 ms.topic: reference
 ms.assetid: 0da5cbf5-5f7f-4833-bbbe-c4e8379a78ab
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 771ff8ba34f82e942877158d351ed8ff760bda9d
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 2fb5f28182117dc986c6db3858c23aaa75746b7e
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89630637"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101820738"
 ---
 # <a name="bitsadmin-setsecurityflags"></a>bitsadmin setsecurityflags
 

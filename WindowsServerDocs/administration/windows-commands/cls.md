@@ -3,16 +3,16 @@ title: cls
 description: Справочная статья по команде CLS, которая очищает окно командной строки.
 ms.topic: reference
 ms.assetid: ce9bf55c-bed4-47fb-8f79-a134202c4ed3
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 9db90a81128aa8455adef50d0787501bddaa5db2
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: bc8d6cd2405530f03e41804348cc2a9068ea4be5
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89629579"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101819787"
 ---
 # <a name="cls"></a>cls
 

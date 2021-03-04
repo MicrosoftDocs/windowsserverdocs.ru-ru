@@ -3,16 +3,16 @@ title: bitsadmin takeownership
 description: Справочная статья по команде битсадмин такеовнершип, которая позволяет пользователю с правами администратора становиться владельцем указанного задания.
 ms.topic: reference
 ms.assetid: ea0ce7cb-440a-498f-a3ef-8368fa43e399
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: a4998ce3c28c839bb035a04c5472aae7c98b4eac
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 20fa23f7ae02f50d36349c43b50336d9c2412957
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89630577"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101820638"
 ---
 # <a name="bitsadmin-takeownership"></a>bitsadmin takeownership
 

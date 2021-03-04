@@ -3,16 +3,16 @@ title: create partition primary
 description: Справочная статья по команде CREATE PARTITION Primary, которая создает основной раздел на базовом диске с фокусом.
 ms.topic: reference
 ms.assetid: 6d652d8e-3935-4a91-8ced-b17c0e7937be
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 567dd32abc7b34bc6d5f9b4cbfb579672422df06
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 23cd68d6a8224f2191cc61850a2fde52656b96d8
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89629112"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101819388"
 ---
 # <a name="create-partition-primary"></a>create partition primary
 

@@ -3,16 +3,16 @@ title: bitsadmin setmaxdownloadtime
 description: Справочная статья по команде битсадмин сетмаксдовнлоадтиме, которая задает время ожидания загрузки в секундах.
 ms.topic: reference
 ms.assetid: 16b96cf1-5738-415c-9b9d-c4ea8d5e4fec
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 9937a4f2945e45d351cfa3506a9aefbd4723f37c
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 9de5498416bdb24c0c2282ad26997ccfc3120aa0
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89630812"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101820898"
 ---
 # <a name="bitsadmin-setmaxdownloadtime"></a>bitsadmin setmaxdownloadtime
 

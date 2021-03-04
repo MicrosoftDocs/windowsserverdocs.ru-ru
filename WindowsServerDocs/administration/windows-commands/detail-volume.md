@@ -3,16 +3,16 @@ title: detail volume
 description: Справочная статья для подробного тома, в котором отображаются диски, на которых находится текущий том.
 ms.topic: reference
 ms.assetid: 38f2bc75-2ed6-4e80-aa74-ab83133db1cd
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: b486e20c71a8147a4d97be1dd7fe6a7d07ff2084
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: d4be66ea73be384c46039960cd283f4b579dd8c4
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89628676"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101818988"
 ---
 # <a name="detail-volume"></a>detail volume
 

@@ -3,16 +3,16 @@ title: bootcfg
 description: Справочная статья по команде bootcfg, которая настраивает, запрашивает или изменяет Boot.ini параметры файлов.
 ms.topic: reference
 ms.assetid: 3deb354c-5717-4066-bc79-b9323d559e44
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 6f187015ab3c8cba18e34601faebc1637ecf7896
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: ec856ce49279acc956b742cdb42a5477b4ff33c3
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89630096"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101820218"
 ---
 # <a name="bootcfg"></a>bootcfg
 

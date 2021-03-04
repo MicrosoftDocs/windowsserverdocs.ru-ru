@@ -3,16 +3,16 @@ title: create partition logical
 description: Справочная статья по логической команде CREATE PARTITION, которая создает логическую секцию в существующем расширенном разделе.
 ms.topic: reference
 ms.assetid: 1f59b79a-d690-4d0e-ad38-40df5a0ce38e
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: a36cac4c74840e9f92ed5fc286988da72c69d488
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 62a873934b13e0ed62ffe8426fd15190e02b79ea
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89629177"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101819408"
 ---
 # <a name="create-partition-logical"></a>create partition logical
 
@@ -40,7 +40,7 @@ create partition logical [size=<n>] [offset=<n>] [align=<n>] [noerr]
 | Выровняйте =`<n>` | Выравнивает все экстенты томов или секций до ближайшей границы выравнивания. Обычно используется с массивами LUN аппаратного RAID-массива для повышения производительности. `<n>` количество килобайтов (КБ) от начала диска до ближайшей границы выравнивания. |
 | Noerr | Только для сценариев. При возникновении ошибки DiskPart продолжит обрабатывать команды, как если бы ошибка не возникала. Без этого параметра ошибка приводит к выходу из программы DiskPart с кодом ошибки. |
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 - Если параметры **size** и **offset** не указаны, логическая секция создается в самой крупной области диска, доступной в расширенном разделе.
 

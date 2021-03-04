@@ -3,16 +3,16 @@ title: create partition efi
 description: Справочная статья по команде создания раздела EFI, которая создает системный раздел интерфейса EFI на диске с таблицей разделов GPT на компьютерах на базе процессоров Itanium.
 ms.topic: reference
 ms.assetid: 3cfc1fca-6515-4a4d-bfae-615fa8045ea9
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: a3eacad949a4a5c14c40da0469155e277cb274b6
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 639101981246d6007de0cd050adaeb96ed727bf9
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89629202"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101819418"
 ---
 # <a name="create-partition-efi"></a>create partition efi
 
@@ -37,7 +37,7 @@ create partition efi [size=<n>] [offset=<n>] [noerr]
 | offset =`<n>` | Смещение в килобайтах (КБ), в котором создается секция. Если смещение не задано, раздел помещается в первый экстент диска, достаточно большой для его хранения. |
 | Noerr | Только для сценариев. При возникновении ошибки DiskPart продолжит обрабатывать команды, как если бы ошибка не возникала. Без этого параметра ошибка приводит к выходу из программы DiskPart с кодом ошибки. |
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 - Перед использованием команды " **создать** " необходимо добавить по крайней мере один том с помощью команды " **Добавить том** ".
 

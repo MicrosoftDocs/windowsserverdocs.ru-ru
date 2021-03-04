@@ -3,16 +3,16 @@ title: compact vdisk
 description: Справочная статья по команде Compact vdisk, которая сокращает физический размер динамически расширяемого файла виртуального жесткого диска (VHD).
 ms.topic: reference
 ms.assetid: 40ca0820-67de-4160-b62a-e9bf63fe2790
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 459ffb1940d6e4b7fcce5c3fa97a89c5c938b205
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 31d1c11c9ed8b015b8a262227fe1e3a0d9ffe5e3
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89629412"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101819618"
 ---
 # <a name="compact-vdisk"></a>compact vdisk
 
@@ -26,7 +26,7 @@ ms.locfileid: "89629412"
 compact vdisk
 ```
 
-### <a name="remarks"></a>Примечания
+### <a name="remarks"></a>Remarks
 
 - Для выполнения этой операции необходимо выбрать динамически расширяемый виртуальный жесткий диск. Используйте [команду SELECT VDISK](select-vdisk.md) , чтобы выбрать виртуальный жесткий диск и переместить фокус на него.
 

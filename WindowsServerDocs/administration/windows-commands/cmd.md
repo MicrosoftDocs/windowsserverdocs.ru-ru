@@ -3,16 +3,16 @@ title: cmd
 description: Справочная статья по команде cmd, запускающей новый экземпляр интерпретатора команд Cmd.exe.
 ms.topic: reference
 ms.assetid: 6ec588db-31a9-4a73-a970-65a2c6f4abbe
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: f0217951a3be25e34aeac20081719f49d60b846e
-ms.sourcegitcommit: 3d8d154c518145feeabf97dbde523557ddd9bb66
+ms.openlocfilehash: a4b1906f1e63247357f1008ede023307528de419
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "100630279"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101819786"
 ---
 # <a name="cmd"></a>cmd
 

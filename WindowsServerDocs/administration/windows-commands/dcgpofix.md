@@ -3,16 +3,16 @@ title: dcgpofix
 description: Справочная статья по команде Dcgpofix, которая воссоздает объекты групповая политика по умолчанию (GPO) для домена.
 ms.topic: reference
 ms.assetid: 81d5fa65-2aea-49d3-b353-357441846c00
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 3ee90daa4e0bc6100c28f06c892694e015976f8a
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 8c6cc0d88b24e273bf22455b11e078d4718accd1
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89628944"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101819218"
 ---
 # <a name="dcgpofix"></a>dcgpofix
 

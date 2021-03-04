@@ -3,16 +3,16 @@ title: convert dynamic
 description: Справочная статья по динамической команде Convert, преобразующая базовый диск в динамический диск.
 ms.topic: reference
 ms.assetid: 7b8fa4b1-850f-4e48-b05f-871c883ea33c
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 7a67b7e900ce57e7551d8c565022aa80be5d714a
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 4aa2f12b42db2efd522f4eeebfb824e6855d5273
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89629351"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101819588"
 ---
 # <a name="convert-dynamic"></a>convert dynamic
 
@@ -33,7 +33,7 @@ convert dynamic [noerr]
 | --------- | ----------- |
 | Noerr | Только для сценариев. При возникновении ошибки DiskPart продолжит обрабатывать команды, как если бы ошибка не возникала. Без этого параметра ошибка приводит к выходу из программы DiskPart с кодом ошибки. |
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 - Все существующие разделы на базовом диске становятся простыми томами.
 

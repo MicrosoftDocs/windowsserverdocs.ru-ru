@@ -3,16 +3,16 @@ title: delete partition
 description: Справочная статья по команде удаления секции, которая удаляет раздел с фокусом.
 ms.topic: reference
 ms.assetid: 65752312-cb16-46f6-870f-1b95c507b101
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 2833039c9237a271910c43ff8acb7b8fb94828f1
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 1864a2b09fee82a13924cdac7baa844c46de4afd
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89628832"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101819158"
 ---
 # <a name="delete-partition"></a>delete partition
 
@@ -36,7 +36,7 @@ delete partition [noerr] [override]
 | Noerr | Только для сценариев. При возникновении ошибки DiskPart продолжит обрабатывать команды, как если бы ошибка не возникала. Без этого параметра ошибка приводит к выходу из программы DiskPart с кодом ошибки. |
 | override | Позволяет программе DiskPart удалять любые разделы независимо от типа. Как правило, DiskPart позволяет удалять только известные разделы данных. |
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 - Чтобы удалить динамический том, вместо него следует использовать команду [Удалить том](delete-volume.md) .
 

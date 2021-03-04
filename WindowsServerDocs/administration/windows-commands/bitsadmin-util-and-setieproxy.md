@@ -3,16 +3,16 @@ title: bitsadmin util и setieproxy
 description: Справочная статья по команде битсадмин util and сетиепрокси, которая задает параметры прокси-сервера, используемые при передаче файлов с помощью учетной записи службы.
 ms.topic: reference
 ms.assetid: 0e9f31ba-3070-4ffd-a94c-388c8d78f688
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 7c341a3fffad0951b800c618605c15b47d4d9308
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 712d0f9b930a22b6981f4bb18a4a8f7078112840
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89630427"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101820578"
 ---
 # <a name="bitsadmin-util-and-setieproxy"></a>bitsadmin util и setieproxy
 
@@ -35,9 +35,9 @@ bitsadmin /util /setieproxy <account> <usage> [/conn <connectionname>]
 | usage | Указывает используемую форму обнаружения прокси-сервера. Ниже перечислены возможные значения.<ul><li>**NO_PROXY.** Не используйте прокси-сервер.</li><li>**Автообнаружение.** Автоматическое определение параметров прокси-сервера.</li><li>**MANUAL_PROXY.** Использовать указанный список прокси-серверов и список обхода. Списки необходимо указывать сразу после тега Usage. Например, `MANUAL_PROXY proxy1,proxy2 NULL`.<ul><li>**Список прокси-серверов.** Разделенный запятыми список прокси-серверов для использования.</li><li>**Список обхода.** Разделенный пробелами список имен узлов или IP-адресов, для которых передачи не направляются через прокси-сервер. Это может быть \<local> ссылка на все серверы в одной локальной сети. Значения NULL или могут использоваться для пустого списка обхода прокси-сервера.</li></ul><li>**Автоскрипт.** То же, что и **Автоматическое обнаружение**, за исключением того, что он также выполняет сценарий. Необходимо указать URL-адрес скрипта сразу после тега Usage. Например, `AUTOSCRIPT http://server/proxy.js`.</li><li>**Перезапуск.** То же, что и **NO_PROXY**, за исключением того, что он удаляет URL-адреса ручного прокси (если они заданы) и все URL-адреса, обнаруженные</li></ul> |
 | connectionName | Необязательный параметр. Используется с параметром **/conn** для указания используемого подключения модема. Если параметр **/conn** не указан, служба BITS использует подключение по локальной сети. |
 
-### <a name="remarks"></a>Примечания
+### <a name="remarks"></a>Комментарии
 
-Каждый последовательный вызов, использующий этот параметр, заменяет ранее заданное использование, но не параметры ранее определенного использования. Например, если указать **NO_PROXY**, **автоматическое обнаружение**и **MANUAL_PROXY** в отдельных вызовах, BITS использует Последнее переданное использование, но сохраняет параметры из ранее определенного использования.
+Каждый последовательный вызов, использующий этот параметр, заменяет ранее заданное использование, но не параметры ранее определенного использования. Например, если указать **NO_PROXY**, **автоматическое обнаружение** и **MANUAL_PROXY** в отдельных вызовах, BITS использует Последнее переданное использование, но сохраняет параметры из ранее определенного использования.
 
 ## <a name="examples"></a>Примеры
 
@@ -48,11 +48,11 @@ bitsadmin /util /setieproxy localsystem AUTODETECT
 ```
 
 ```
-bitsadmin /util /setieproxy localsystem MANUAL_PROXY proxy1,proxy2,proxy3 NULL
+bitsadmin /util /setieproxy localsystem MANUAL_PROXY proxy1,proxy2,proxy3 NULL
 ```
 
 ```
-bitsadmin /util /setieproxy localsystem MANUAL_PROXY proxy1:80
+bitsadmin /util /setieproxy localsystem MANUAL_PROXY proxy1:80
 ```
 
 ## <a name="additional-references"></a>Дополнительные ссылки

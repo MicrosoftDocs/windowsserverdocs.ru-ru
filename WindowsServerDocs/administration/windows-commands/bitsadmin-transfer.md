@@ -3,16 +3,16 @@ title: bitsadmin transfer
 description: Справочная статья по команде передачи битсадмин, которая передает один или несколько файлов.
 ms.topic: reference
 ms.assetid: fe302141-b33a-4a05-835e-dc4fc4db7d5a
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 6f4171e5544b468012e308910b4601cd9bde1406
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 4af41d47b698899ab859d5193a4fc55fd8f16ec4
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89630553"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101820648"
 ---
 # <a name="bitsadmin-transfer"></a>bitsadmin transfer
 
@@ -34,7 +34,7 @@ bitsadmin /transfer <name> [<type>] [/priority <job_priority>] [/ACLflags <flags
 | Параметр | Описание |
 | --------- | ----------- |
 | name | Имя задания. Эта команда не может быть идентификатором GUID. |
-| тип | Необязательный параметр. Задает тип задания, включая:<ul><li>**Обновление.** Значение по умолчанию. Выберите этот тип для скачивания заданий.</li><li>**Дают.** Выберите этот тип для заданий отправки.</li></ul> |
+| type | Необязательный параметр. Задает тип задания, включая:<ul><li>**Обновление.** Значение по умолчанию. Выберите этот тип для скачивания заданий.</li><li>**Дают.** Выберите этот тип для заданий отправки.</li></ul> |
 | priority | Необязательный параметр. Задает приоритет задания, включая:<ul><li>FOREGROUND</li><li>HIGH.</li><li>NORMAL</li><li>LOW</li></ul> |
 | аклфлагс | Необязательный параметр. Указывает, что вы хотите сохранить сведения о владельце и списке ACL с загружаемым файлом. Укажите одно или несколько значений, включая:<ul><li>**o** — копирование сведений о владельце с помощью файла.</li><li>**g** — копирование сведений о группе с помощью файла.</li><li>**d** — копирование сведений о избирательном списке управления доступом (DACL) с помощью файла.</li><li>**s** -копирование данных системного списка управления доступом (SACL) с помощью файла.</li></ul> |
 | /динамик | Настраивает задание с помощью [**BITS_JOB_PROPERTY_DYNAMIC_CONTENT**](/windows/win32/api/bits5_0/ne-bits5_0-bits_job_property_id), что снижает требования на стороне сервера. |

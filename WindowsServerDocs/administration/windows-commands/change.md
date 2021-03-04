@@ -3,16 +3,16 @@ title: Изменить
 description: Справочная статья по команде Change, которая изменяет удаленный рабочий стол параметры сервера узла сеансов для входа в систему, сопоставления COM-портов и режима установки.
 ms.topic: reference
 ms.assetid: 90012116-0fb3-4f34-a819-cf4d4b4f8981
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: bda2f4507b4ad6b6bcca7cc0ab58efcc91a8cc02
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 3877a010f1a9f85c4c67165e6f2e84add987824b
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89629845"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101820018"
 ---
 # <a name="change"></a>Изменить
 

@@ -3,16 +3,16 @@ title: detail partition
 description: Справочная статья для команды подробной секции, в которой отображаются свойства выбранной секции.
 ms.topic: reference
 ms.assetid: 672a2c7a-1721-4845-9c23-7af50367170e
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 4e26ab5571aee4de6dee49f5bdb7e39e91e99580
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: ef8a19b252572e1fd8f694834b7e6f523dd25f8a
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89628701"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101819008"
 ---
 # <a name="detail-partition"></a>detail partition
 

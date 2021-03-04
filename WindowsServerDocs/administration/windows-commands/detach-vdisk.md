@@ -3,16 +3,16 @@ title: detach vdisk
 description: Справочная статья по команде Detach vdisk, которая останавливает выбранный виртуальный жесткий диск (VHD) в качестве локального жесткого диска на главном компьютере.
 ms.topic: reference
 ms.assetid: 5f01dcb8-9237-4564-ad94-8a8dd0fd0cca
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: af3608cfa3f92ecbda3c62401f5c5a85fa5a2ffe
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: b3383cffbc7c0ea58945ff26fb634614843877b0
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89628766"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101819038"
 ---
 # <a name="detach-vdisk"></a>detach vdisk
 

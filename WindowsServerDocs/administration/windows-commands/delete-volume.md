@@ -3,16 +3,16 @@ title: delete volume
 description: Справочная статья по команде удаления тома, которая удаляет выбранный том.
 ms.topic: reference
 ms.assetid: f625933d-0f47-409e-93b2-a3e234049a5d
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 66793e9d7c22b337164807bf76ee82c10d70547c
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: d441aafd549a6e167751a2aa53685090d788fc30
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89628801"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101819048"
 ---
 # <a name="delete-volume"></a>delete volume
 

@@ -3,16 +3,16 @@ title: create partition msr
 description: Справочная статья по созданию раздела MSR, который создает MSR-раздел на диске с таблицей разделов GUID (GPT).
 ms.topic: reference
 ms.assetid: 04fba033-23cb-4521-bd5d-db96131f2e73
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 25187f6bfee63b7b7b39519db9eddd82900a19c3
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: ccc67f0f170d0a0ef38a19784fd6dcdced16dcf5
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89629120"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101819398"
 ---
 # <a name="create-partition-msr"></a>create partition msr
 
@@ -39,7 +39,7 @@ create partition msr [size=<n>] [offset=<n>] [noerr]
 | offset =`<n>` | Задает смещение в килобайтах (КБ), в котором создается секция. Смещение округляется до полного заполнения любого размера сектора. Если смещение не задано, раздел помещается в первый экстент диска, достаточно большой для его хранения. |
 | Noerr | Только для сценариев. При возникновении ошибки DiskPart продолжит обрабатывать команды, как если бы ошибка не возникала. Без этого параметра ошибка приводит к выходу из программы DiskPart с кодом ошибки. |
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 - На дисках GPT, которые используются для загрузки операционной системы Windows, системный раздел EFI — это первый раздел на диске, за которым следует зарезервированный раздел Майкрософт. диски GPT, используемые только для хранения данных, не имеют системного раздела EFI. в этом случае зарезервированный раздел Майкрософт является первой секцией.
 

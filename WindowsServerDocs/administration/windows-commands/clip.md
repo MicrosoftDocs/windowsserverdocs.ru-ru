@@ -3,16 +3,16 @@ title: clip
 description: Справочная статья для команды Clip, которая перенаправляет выходные данные команды из командной строки в буфер обмена Windows.
 ms.topic: reference
 ms.assetid: 85322d85-3376-4806-845b-93ac77fe27bf
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 9f6820d60a8c94ed07bbb23bbbd86be3f1f289b7
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 84a5ac1e726f2842e9258357bf636b4f4a95e6df
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89629624"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101819808"
 ---
 # <a name="clip"></a>clip
 

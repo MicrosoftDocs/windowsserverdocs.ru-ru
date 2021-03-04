@@ -3,16 +3,16 @@ title: certutil
 description: Справочная статья по команде certutil, которая является программой командной строки, которая выводит дампы и отображает сведения о конфигурации центра сертификации (ЦС), настраивает службы сертификации, компоненты ЦС для резервного копирования и восстановления, а также проверяет сертификаты, пары ключей и цепочки сертификатов.
 ms.topic: reference
 ms.assetid: c264ccf0-ba1e-412b-9dd3-d77dd9345ad9
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 3cd3c5f73a6642ed4ce754cb8529ae3e1e990c75
-ms.sourcegitcommit: f18097c21e50a09aef2f1937f52608b0042ef0e1
+ms.openlocfilehash: f35a4a9617e695d6d3331af88bd1511cc375017d
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "96755371"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101820084"
 ---
 # <a name="certutil"></a>certutil
 
@@ -250,7 +250,7 @@ certutil [options] -cainfo [infoname [index | errorcode]]
 
 - **инфонаме** указывает отображаемое свойство CA на основе следующего синтаксиса аргумента инфонаме:
 
-  - **file** версия файла
+  -  версия файла
 
   - **продукт** — версия продукта
 
@@ -791,7 +791,7 @@ certutil [options] -store [certificatestorename [certID [outputfile]]]
 [-f] [-user] [-enterprise] [-service] [-grouppolicy] [-silent] [-split] [-dc DCName]
 ```
 
-#### <a name="options"></a>Варианты
+#### <a name="options"></a>Параметры
 
 - `-user`Параметр обращается к хранилищу пользователей вместо хранилища компьютера.
 
@@ -928,7 +928,7 @@ certutil [options] -viewstore [certificatestorename [certID [outputfile]]]
 [-f] [-user] [-enterprise] [-service] [-grouppolicy] [-dc DCName]
 ```
 
-#### <a name="options"></a>Варианты
+#### <a name="options"></a>Параметры
 
 - `-user`Параметр обращается к хранилищу пользователей вместо хранилища компьютера.
 
@@ -968,7 +968,7 @@ certutil [options] -viewdelstore [certificatestorename [certID [outputfile]]]
 [-f] [-user] [-enterprise] [-service] [-grouppolicy] [-dc DCName]
 ```
 
-#### <a name="options"></a>Варианты
+#### <a name="options"></a>Параметры
 
 - `-user`Параметр обращается к хранилищу пользователей вместо хранилища компьютера.
 
@@ -1962,7 +1962,7 @@ certutil -? -v
 
 - **-?-v** отображает полный список параметров и параметров.
 
-## <a name="options"></a>Варианты
+## <a name="options"></a>Параметры
 
 В этом разделе определяются все параметры, которые вы можете указать, в зависимости от команды. Каждый параметр содержит сведения о том, какие параметры являются допустимыми для использования.
 

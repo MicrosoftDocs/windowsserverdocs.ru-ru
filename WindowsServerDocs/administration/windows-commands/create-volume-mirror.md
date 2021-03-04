@@ -3,16 +3,16 @@ title: create volume mirror
 description: Справочная статья по команде создания зеркальной копии тома, которая создает зеркало тома с использованием двух указанных динамических дисков.
 ms.topic: reference
 ms.assetid: 48776917-783a-47ff-8da4-1cab77cea34b
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 8002896bdd84c0fba7dc8eaf2680c100b62ebda9
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 341726d9583e796aca9b84d667c4239a4a803f6c
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89629091"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101819368"
 ---
 # <a name="create-volume-mirror"></a>create volume mirror
 

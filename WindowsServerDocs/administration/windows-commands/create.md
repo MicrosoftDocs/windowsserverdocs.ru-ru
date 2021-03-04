@@ -3,16 +3,16 @@ title: create
 description: Справочная статья по команде CREATE, которая создает раздел или теневую секцию на диске, том на одном или нескольких дисках или виртуальный жесткий диск (VHD).
 ms.topic: reference
 ms.assetid: b45acde1-8f4f-4ec3-b905-d8188f884af8
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 8a836320f9fe699beac20990ad60ade5f06e37f6
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 762606348accebc2296c6fd1e3486fda6eab35f1
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89629015"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101819248"
 ---
 # <a name="create"></a>create
 

@@ -3,16 +3,16 @@ title: Команды по роли сервера
 description: Справочная статья для команд по роли сервера, описывающей основную функцию сервера.
 ms.topic: reference
 ms.assetid: 343597ec-9b92-4b92-8d6c-faef4b565068
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: c24255153727e8d083da54d63cc93ffad0c42ab7
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 15b794a3ab53f75dd720a84dca604f754f2840af
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89629441"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101819638"
 ---
 # <a name="commands-by-server-role"></a>Команды по роли сервера
 

@@ -3,16 +3,16 @@ title: bitsadmin setminretrydelay
 description: Справочная статья по команде битсадмин сетминретриделай, которая задает минимальный интервал времени (в секундах), в течение которого BITS ожидает после возникновения временной ошибки, прежде чем пытаться переместить файл.
 ms.topic: reference
 ms.assetid: ce8674ca-6cc5-4bb2-8dda-7dfbb1cd6830
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 7ddce1aea607ed279aaa6c582ddc1661d269204e
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 9bb194ff9a347d5e2a2caadeb22cf94f6a8fa9c1
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89630824"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101820868"
 ---
 # <a name="bitsadmin-setminretrydelay"></a>bitsadmin setminretrydelay
 

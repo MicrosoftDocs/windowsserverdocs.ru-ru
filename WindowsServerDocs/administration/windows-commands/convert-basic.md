@@ -3,16 +3,16 @@ title: convert basic
 description: Справочная статья по команде Convert Basic, которая преобразует пустой динамический диск в базовый.
 ms.topic: reference
 ms.assetid: 61329896-3b56-4959-8d58-45cbe18ba860
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 18b5a447a9003b051f398a9943f235d217851fe8
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 40272dc22d526bac90a59776f3cc3d1023d29d7b
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89629368"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101819598"
 ---
 # <a name="convert-basic"></a>convert basic
 

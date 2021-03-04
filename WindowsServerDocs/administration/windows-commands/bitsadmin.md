@@ -3,16 +3,16 @@ title: bitsadmin
 description: Справочная статья по команде битсадмин, которая представляет собой средство командной строки, используемое для создания, загрузки и передачи заданий и отслеживания хода выполнения.
 ms.topic: reference
 ms.assetid: 4853036e-1df8-45ad-8be6-cfb097b8dd27
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 90a0d02bc06cc994f704328402ee03cc55407365
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: b9eebade2d8032c271307d63b55a4a245baa435e
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89630374"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101820448"
 ---
 # <a name="bitsadmin"></a>bitsadmin
 

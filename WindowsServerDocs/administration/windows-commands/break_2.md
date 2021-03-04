@@ -3,16 +3,16 @@ title: останов (том теневой копии)
 description: Справочная статья по команде Break, которая отменяет связь тома теневых копий с VSS и делает его доступным как обычный том.
 ms.topic: reference
 ms.assetid: de2b6c95-1c2e-4a43-bec5-341a9014371b
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: fa698a91ec7ddcabba7bcaaa6a80dac0831312af
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: d605b633d92582b9f9ea5a5e437ede5dea5b857a
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89630030"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101820208"
 ---
 # <a name="break-shadow-copy-volume"></a>останов (том теневой копии)
 

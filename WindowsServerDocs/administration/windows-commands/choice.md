@@ -3,16 +3,16 @@ title: choice
 description: Справочная статья по команде Choice, которая предлагает пользователю выбрать один элемент из списка односимвольных вариантов в пакетной программе, а затем возвращает индекс выбранного варианта.
 ms.topic: reference
 ms.assetid: c65a9119-410b-4dcf-9fa7-4e07d2a7238b
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 78cc02dc6c777aa8bcb394d19d2f7c5b2c129c01
-ms.sourcegitcommit: eb995fa887ffe1408b9f67caf743c66107173666
+ms.openlocfilehash: 0c16675aa3cf9de8222aa61040c9ce6723d73537
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "98666543"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101819818"
 ---
 # <a name="choice"></a>choice
 
@@ -36,7 +36,7 @@ choice [/c [<choice1><choice2><…>]] [/n] [/cs] [/t <timeout> /d <choice>] [/m 
 | /m `<text>` | Указывает сообщение, отображаемое перед списком вариантов. Если параметр **/m** не указан, отображается только запрос Choice. |
 | /? | Отображение справки в командной строке. |
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Комментарии
 
 - Переменной среды **ERRORLEVEL** присваивается индекс ключа, который пользователь выбирает из списка вариантов. Первый вариант в списке возвращает значение `1` , второе значение `2` и т. д. Если пользователь нажимает клавишу, которая является недопустимым, **выбирает** звук предупреждения.
 

@@ -3,16 +3,16 @@ title: cmstp
 description: Справочная статья для cmstp, который устанавливает или удаляет профиль службы диспетчера подключений.
 ms.topic: reference
 ms.assetid: 34aad544-11c3-4e85-8bbf-5bc5a971da93
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 72c874597bfcb92dfe26ee300621dcac435b5081
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 866858d76e998f03da8543836ff2c38d21091c08
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89629526"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101819797"
 ---
 # <a name="cmstp"></a>cmstp
 

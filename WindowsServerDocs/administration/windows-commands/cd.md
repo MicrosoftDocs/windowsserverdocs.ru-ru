@@ -3,16 +3,16 @@ title: компакт-диск
 description: Справочная статья по команде CD, которая отображает имя или изменяет текущий каталог.
 ms.topic: reference
 ms.assetid: 932d9cc1-3dff-40da-835c-1cb0894874f1
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 27c7f9c60bafb8edf78a156c5d763d3bffc295c3
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: ccbb0dc91c182488b7ce34e3428beb6c105c25e4
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89629974"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101820168"
 ---
 # <a name="cd"></a>компакт-диск
 
@@ -42,13 +42,13 @@ chdir [..]
 | [..] | Указывает, что вы хотите перейти к родительской папке. |
 | /? | Отображение справки в командной строке. |
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Комментарии
 
 Если расширения команд включены, для команды **CD** применяются следующие условия.
 
 - Строка текущего каталога преобразуется в использование того же регистра, что и имена на диске. Например, `cd c:\temp` если это так на диске, в качестве текущего каталога будет указан C:\temp.
 
-- Пробелы не считаются разделителями, поэтому `<path>` могут содержать пробелы, не заключенные в кавычки. Пример:
+- Пробелы не считаются разделителями, поэтому `<path>` могут содержать пробелы, не заключенные в кавычки. Пример.
 
   ```
   cd username\programs\start menu

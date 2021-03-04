@@ -3,16 +3,16 @@ title: delete disk
 description: Справочная статья по команде "удалить диск", которая удаляет отсутствующий динамический диск из списка дисков.
 ms.topic: reference
 ms.assetid: 44079900-e4ed-49d0-81e4-d652c38cd636
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: f26bd239c1248630da4ce684547961a239f96b8e
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 9acfd72797c8139a17331735a94da0968e38238b
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89628860"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101819178"
 ---
 # <a name="delete-disk"></a>delete disk
 

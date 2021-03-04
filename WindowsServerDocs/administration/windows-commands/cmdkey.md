@@ -3,16 +3,16 @@ title: cmdkey
 description: Справочная статья по команде cmdkey, которая создает, перечисляет и удаляет сохраненные имена пользователей и пароли или учетные данные.
 ms.topic: reference
 ms.assetid: 5fcd68ee-a14a-4b71-9300-c3f5c5d31e8e
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 833414053b6235d82149ef41f9fd8dbfbf3896c5
-ms.sourcegitcommit: 658ee0e4cb1c25a6793afb5b64046000eaf6b773
+ms.openlocfilehash: 501c4fe96aae445e43ce493a4c57014f3c41fe85
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "99589816"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101819768"
 ---
 # <a name="cmdkey"></a>cmdkey
 

@@ -3,16 +3,16 @@ title: change logon
 description: Справочная статья по команде change logon, которая включает или отключает вход из сеансов клиентов или отображает текущее состояние входа в систему.
 ms.topic: reference
 ms.assetid: 41466260-aee9-4333-bcb6-178112c22afd
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 55732dc5803f4ac783828293f5da839cca364b40
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: e41cf495ef47f4671d0a4a451f83dd6443510e1b
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89629901"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101820038"
 ---
 # <a name="change-logon"></a>change logon
 
@@ -40,7 +40,7 @@ change logon {/query | /enable | /disable | /drain | /drainuntilrestart}
 | /драинунтилрестарт | Отключает вход из новых клиентских сеансов, пока компьютер не будет перезагружен, но допускает повторное подключение к существующим сеансам. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 - При перезагрузке системы снова включаются входы в систему.
 

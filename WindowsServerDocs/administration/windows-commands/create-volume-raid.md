@@ -3,16 +3,16 @@ title: create volume raid
 description: Справочная статья по команде создания тома RAID, которая создает том RAID-5, используя три или более указанных динамических диска.
 ms.topic: reference
 ms.assetid: 9f257950-9240-4d5f-9537-8ad653d48ebf
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: dc971212bf620ba3abd176b8fb3c2b98e3634344
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 204fcba078c15ef3a1c5a89076c212214d2d1ef3
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89629075"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101819358"
 ---
 # <a name="create-volume-raid"></a>create volume raid
 

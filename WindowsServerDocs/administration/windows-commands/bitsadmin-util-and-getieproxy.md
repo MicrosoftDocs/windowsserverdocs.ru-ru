@@ -3,16 +3,16 @@ title: bitsadmin util и getieproxy
 description: Справочная статья по команде битсадмин util and жетиепрокси, которая получает сведения об использовании прокси-сервера для данной учетной записи службы.
 ms.topic: reference
 ms.assetid: 6d50c7e3-f4eb-4ca5-9f0c-4ed396087db6
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: c10fa442f19ff7d5de44e12986b8af4be3f39e19
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: b9b54e67e6fe67445cb3312ebf7fc2d3fffbd2b6
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89630493"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101820627"
 ---
 # <a name="bitsadmin-util-and-getieproxy"></a>bitsadmin util и getieproxy
 

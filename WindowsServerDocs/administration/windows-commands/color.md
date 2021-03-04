@@ -3,16 +3,16 @@ title: color
 description: Справочная статья по команде Color, которая изменяет цвет переднего плана и фона в окне командной строки для текущего сеанса.
 ms.topic: reference
 ms.assetid: f5b67131-d196-45ec-a3f9-b5d9f091fd86
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: feb4d4a2de9491636a1c96b7a16c80e2e18f5865
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 0af58ea8af296bb629952863b901f632f3f6eaef
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89629506"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101819698"
 ---
 # <a name="color"></a>color
 
@@ -45,17 +45,17 @@ color [[<b>]<f>]
 | 4 | Красный |
 | 5 | Сиреневый |
 | 6 | Желтый |
-| 7 | White |
+| 7 | Белый |
 | 8 | Серый |
 | 9 | Светло-синий |
 | а | светло-зеленый |
 | b | Светло-голубой |
-| c | Светло-красный |
+| с | Светло-красный |
 | d | Светло-фиолетовый |
 | й | Светло-желтый |
 | f | Светлое белое |
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 - Не используйте пробелы между `<b>` и `<f>` .
 

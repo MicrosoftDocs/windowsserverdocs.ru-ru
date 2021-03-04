@@ -3,16 +3,16 @@ title: delete shadows
 description: Справочная статья по команде delete Shadows, которая удаляет теневые копии.
 ms.topic: reference
 ms.assetid: e29a84d2-04d1-4eb1-910a-5a47bddbc24d
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: f8fe95ac21c36f4605a544c97036c0a02bddaf42
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: be88ca7d82ffb51ae814a02173412c1ca38d0fa2
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89628851"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101819098"
 ---
 # <a name="delete-shadows"></a>delete shadows
 

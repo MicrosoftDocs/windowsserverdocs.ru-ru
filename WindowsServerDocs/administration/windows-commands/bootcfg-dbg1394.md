@@ -3,16 +3,16 @@ title: bootcfg dbg1394
 description: Справочная статья по команде bootcfg dbg1394, которая настраивает отладку порта 1394 для указанной записи операционной системы.
 ms.topic: reference
 ms.assetid: 35724697-90dd-4dbe-85b0-337fbd369dcc
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 56d91256a74bc247749956bc8948245636b085d1
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 85cd442dc4d29291f33194c76c2f336b4d180d9e
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89630269"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101820408"
 ---
 # <a name="bootcfg-dbg1394"></a>bootcfg dbg1394
 

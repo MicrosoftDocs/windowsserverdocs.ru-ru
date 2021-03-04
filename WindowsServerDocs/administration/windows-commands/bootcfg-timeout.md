@@ -3,16 +3,16 @@ title: bootcfg timeout
 description: Справочная статья по команде bootcfg timeout, которая изменяет значение времени ожидания операционной системы.
 ms.topic: reference
 ms.assetid: aa858eac-2bb7-4a27-a9bc-3e4a6eb8b2c6
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 520889fce38eb48fe56b9b4c0a38277b5c7f8c8c
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 8809e7b14d8986beccd62575aff5effeb0b880e2
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89630116"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101820238"
 ---
 # <a name="bootcfg-timeout"></a>bootcfg timeout
 

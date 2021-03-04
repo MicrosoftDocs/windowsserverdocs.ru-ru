@@ -3,16 +3,16 @@ title: bitsadmin setnotifyflags
 description: Справочная статья по команде битсадмин сетнотифифлагс, которая задает флаги уведомления о событии для указанного задания.
 ms.topic: reference
 ms.assetid: d5763d95-94a6-45ca-9e03-891c20047e06
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 48eb165ecb32e53868f9636418437d66c56542c0
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 80e7f83c1a99d4ea2daba57b12d1f7f225ffca1d
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89630776"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101820818"
 ---
 # <a name="bitsadmin-setnotifyflags"></a>bitsadmin setnotifyflags
 

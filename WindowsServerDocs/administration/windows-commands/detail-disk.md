@@ -3,16 +3,16 @@ title: detail disk
 description: Справочная статья по команде "сведения о диске", которая отображает свойства выбранного диска и томов на этом диске.
 ms.topic: reference
 ms.assetid: 6b09cf40-8d93-452b-b449-5242e62a4102
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: a9b8c5b84de2fc0a0e4188ac3c6d055a2e023577
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: f2c19bed969125eef2af4e5aa7200a18203e9a0e
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89628788"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101819028"
 ---
 # <a name="detail-disk"></a>detail disk
 

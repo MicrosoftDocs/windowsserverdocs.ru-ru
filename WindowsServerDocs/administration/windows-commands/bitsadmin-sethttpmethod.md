@@ -2,16 +2,16 @@
 title: bitsadmin sethttpmethod
 description: Справочная статья по команде битсадмин сесттпмесод, которая задает используемый HTTP-команду.
 ms.topic: reference
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 03/01/2019
-ms.openlocfilehash: 0c8d2357e35831db89365eabbe0b97cdec88b6aa
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 547f800c33f6d3fca63c2ec03efee051848e2333
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89630872"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101820968"
 ---
 # <a name="bitsadmin-sethttpmethod"></a>bitsadmin sethttpmethod
 

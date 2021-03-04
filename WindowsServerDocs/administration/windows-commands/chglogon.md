@@ -4,15 +4,15 @@ description: Справочная статья по команде чглого�
 ms.topic: reference
 ms.assetid: 8280c5b3-ac10-48ae-87ca-678594837f03
 ms.date: 10/16/2017
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
-ms.openlocfilehash: e54baf6ec79033f0a8301e8b38edf2cde6d12db5
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 5ee88320e9a6882dc440d44030fa3695bc1d3158
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89629756"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101819978"
 ---
 # <a name="chglogon"></a>chglogon
 

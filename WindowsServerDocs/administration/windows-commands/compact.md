@@ -3,16 +3,16 @@ title: compact
 description: Справочная статья по команде Compact, которая отображает или изменяет сжатие файлов или каталогов в разделах NTFS.
 ms.topic: reference
 ms.assetid: 429b3752-df0a-43a4-a210-df2f3ad03c3b
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 12c835071c06255a638e65f0bdb78b0d8816cb4d
-ms.sourcegitcommit: 528bdff90a7c797cdfc6839e5586f2cd5f0506b0
+ms.openlocfilehash: 5b080a5c9a77e48a7347616fdfd0114bd254cf52
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97977249"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101819608"
 ---
 # <a name="compact"></a>compact
 

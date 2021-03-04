@@ -3,16 +3,16 @@ title: bootcfg raw
 description: Справочная статья по команде bootcfg RAW, которая добавляет параметры загрузки операционной системы, указанные в виде строки, в запись операционной системы в разделе операционной системы файла Boot.ini.
 ms.topic: reference
 ms.assetid: e3458749-b0a0-460f-a022-3ff199a71f27
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: b86945a126c73742982ea01442101c6d1250226d
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: eaaed2ccb82c1fb26206b895597ac1cf8a8ab36d
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89630145"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101820268"
 ---
 # <a name="bootcfg-raw"></a>bootcfg raw
 
@@ -40,7 +40,7 @@ bootcfg /raw [/s <computer> [/u <domain>\<user> /p <password>]] <osloadoptionsst
 
 ## <a name="examples"></a>Примеры
 
-Этот текст должен содержать допустимые параметры загрузки ОС, такие как **/Debug**, **/фастдетект**, **/нодебуг**, **/баудрате**, **/крашдебуг**и **/SOS**.
+Этот текст должен содержать допустимые параметры загрузки ОС, такие как **/Debug**, **/фастдетект**, **/нодебуг**, **/баудрате**, **/крашдебуг** и **/SOS**.
 
 Чтобы добавить **/Debug/фастдетект** в конец первой записи операционной системы, замените все предыдущие параметры записи операционной системы:
 

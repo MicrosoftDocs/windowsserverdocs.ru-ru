@@ -3,16 +3,16 @@ title: chgport
 description: Справочная статья по команде чгпорт, которая перечисляет или изменяет сопоставления COM-портов для совместимости с приложениями MS-DOS.
 ms.topic: reference
 ms.assetid: 8adb145f-6c53-4549-9253-9a966794a4f3
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: f218263ed24837fc727be72a87e261ab2a073fab
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: fdf4e51cc54a7a98cc31f74ceef561a3d53e84b1
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89629742"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101819968"
 ---
 # <a name="chgport"></a>chgport
 

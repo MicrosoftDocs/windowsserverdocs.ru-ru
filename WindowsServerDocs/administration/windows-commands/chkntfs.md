@@ -3,23 +3,23 @@ title: chkntfs
 description: Справочная статья по команде chkntfs, которая отображает или изменяет автоматическую проверку диска при запуске компьютера.
 ms.topic: reference
 ms.assetid: 93eca810-8699-4716-8e9d-aecd54f704be
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 202594ebef8f65ae8c508fa8a00e83314dbdb38b
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 348b45572996ff62d263bd8f4caa65c86f64fe69
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89629694"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101819868"
 ---
 # <a name="chkntfs"></a>chkntfs
 
 Отображает или изменяет автоматическую проверку диска при запуске компьютера. Если параметр используется без параметров, средство **chkntfs** Отображает файловую систему указанного тома. Если запланирована автоматическая проверка файлов, средство **chkntfs** отображает, является ли указанный том грязным или запланированным для проверки при следующей загрузке компьютера.
 
 > [!NOTE]
-> Для запуска **chkntfs**необходимо быть членом группы "Администраторы".
+> Для запуска **chkntfs** необходимо быть членом группы "Администраторы".
 
 ## <a name="syntax"></a>Синтаксис
 

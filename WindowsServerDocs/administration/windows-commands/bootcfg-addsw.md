@@ -3,16 +3,16 @@ title: bootcfg addsw
 description: Справочная статья по команде bootcfg аддсв, которая добавляет параметры загрузки операционной системы для указанной записи операционной системы.
 ms.topic: reference
 ms.assetid: d8389293-ecd9-42f0-b84b-b9ead4cf52e6
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 45f8d0b567e1fa2bd9e5ddd084e7f63c5d6c6c74
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 1da5be37b028991563ebb973fd1472384d7c6b32
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89630365"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101820438"
 ---
 # <a name="bootcfg-addsw"></a>bootcfg addsw
 

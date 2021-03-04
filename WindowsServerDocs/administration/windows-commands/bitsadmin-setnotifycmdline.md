@@ -3,16 +3,16 @@ title: bitsadmin setnotifycmdline
 description: Справочная статья по команде битсадмин сетнотификмдлине, которая задает команду командной строки, которая будет выполняться, когда задание завершает передачу данных или когда задание переходит в состояние.
 ms.topic: reference
 ms.assetid: 415ae6ef-8549-48b2-9693-2368a6e24075
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: b086775edb57f9d1b1e6fbe80e38ad011b439b97
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 0bc7f64ae2b6ba752f29d0b7104f472b9a6899c0
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89630790"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101820838"
 ---
 # <a name="bitsadmin-setnotifycmdline"></a>bitsadmin setnotifycmdline
 

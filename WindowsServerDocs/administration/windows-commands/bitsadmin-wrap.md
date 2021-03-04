@@ -3,16 +3,16 @@ title: bitsadmin wrap
 description: Справочная статья по команде битсадмин Wrap, которая заключает в оболочку любую строку выходного текста, выходящего за пределы крайнего правого края окна команд, на следующую строку.
 ms.topic: reference
 ms.assetid: 14e57522-539d-4621-ad15-09f7a44ccab7
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 24fa50e153d52ec74ab728a132aadd1b95c7a9da
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: c259a6f1102f2bfb5d4ed1e1de0e6c4a74cedb26
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89630382"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101820488"
 ---
 # <a name="bitsadmin-wrap"></a>bitsadmin wrap
 

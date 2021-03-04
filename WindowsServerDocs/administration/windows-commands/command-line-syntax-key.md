@@ -3,16 +3,16 @@ title: Ключ синтаксиса командной строки
 description: Справочная статья по ключу синтаксиса командной строки, описывающей нотацию, используемую для указания синтаксиса командной строки.
 ms.topic: reference
 ms.assetid: 338c0381-ad63-4a4c-bd2c-42c7a93821fe
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 3b9e2ebe6734a92efc061928500ed5bd0581f9c7
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 478a0d133eadb08b73c56ae42472d5c62e4c479f
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89629496"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101819688"
 ---
 # <a name="command-line-syntax-key"></a>Ключ синтаксиса командной строки
 
