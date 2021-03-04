@@ -3,16 +3,16 @@ title: quser
 description: Справочная статья по команде Кусер, которая отображает сведения о пользовательских сеансах на сервере узла сеансов удаленный рабочий стол.
 ms.topic: reference
 ms.assetid: 8056204f-ed11-4c91-bb1d-c799283a48a4
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 89820143ffaf656b2f022e1f19796a03576b615b
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 4aa6a46350af74827469d370cf1bfb008a3b411a
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89637431"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101807546"
 ---
 # <a name="quser"></a>quser
 
@@ -51,7 +51,7 @@ quser [<username> | <sessionname> | <sessionID>] [/server:<servername>]
 | /server:`<servername>` | Указывает удаленный рабочий стол сервер узла сеансов, к которому требуется выполнить запрос. В противном случае используется текущий сервер узла сеансов удаленный рабочий стол. Этот параметр является обязательным только при использовании этой команды с удаленного сервера. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 - Чтобы использовать эту команду, необходимо иметь разрешение на полный доступ или специальное разрешение доступа.
 

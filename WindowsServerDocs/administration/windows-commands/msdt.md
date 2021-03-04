@@ -3,16 +3,16 @@ title: msdt
 description: Справочная статья по команде MSDT, которая вызывает пакет устранения неполадок в командной строке или в составе автоматизированного скрипта и включает дополнительные параметры без ввода данных пользователем.
 ms.topic: reference
 ms.assetid: ead1b672-a120-4e16-94aa-a8e13602c1d0
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 0270039fcbc9f99ff2569635ddd75918baed783e
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.openlocfilehash: c31b133cf6dc4973c47072cc7813b929cbc74b85
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96865413"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101811542"
 ---
 # <a name="msdt"></a>msdt
 
@@ -26,7 +26,7 @@ msdt </id <name> | /path <name> | /cab < name>> <</parameter> [options] … <par
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | /ID `<packagename>` | Указывает, какой пакет диагностики следует запустить. Список доступных пакетов см. в разделе [Доступные диагностические пакеты](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/ee424379(v=ws.11)#available-troubleshooting-packs). |
 | /path `<directory|.diagpkg file|.diagcfg file>` | Указывает полный путь к пакету диагностики. Если указан каталог, то каталог должен содержать пакет диагностики. Параметр **/path** нельзя использовать совместно с параметрами * */ID * *, **/дЦи** или **/каб** . |                                                                                   |

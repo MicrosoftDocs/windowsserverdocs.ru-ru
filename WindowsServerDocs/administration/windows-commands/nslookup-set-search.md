@@ -3,16 +3,16 @@ title: nslookup set search
 description: Справочная статья по команде nslookup set Search, которая добавляет имена доменов службы доменных имен (DNS) в список поиска доменов DNS для запроса, пока не будет получен ответ.
 ms.topic: reference
 ms.assetid: 064ac660-8b04-4af9-8b2c-e4e0549771b8
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 91efbb50ab54a920be4c2942db1ea8b9cea71fbe
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: a3de4abb9b6ea00694605b8237ea43497b92dce8
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89637458"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101809720"
 ---
 # <a name="nslookup-set-search"></a>nslookup set search
 

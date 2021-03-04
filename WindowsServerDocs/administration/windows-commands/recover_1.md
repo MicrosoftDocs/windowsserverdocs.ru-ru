@@ -3,16 +3,16 @@ title: восстановление (DiskPart)
 description: Справочная статья по команде DiskPart Refresh, которая обновляет состояние всех дисков в группе дисков, пытается восстановить диски в недействительной группе дисков и повторно синхронизирует зеркальные тома и тома RAID-5 с устаревшими данными.
 ms.topic: reference
 ms.assetid: 8cc3a73d-9456-41a0-b375-2b4cc37c3992
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 55b31333f03ec90ba9c37b7d2e31c251893b18d8
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 72224832c60634223930486ef012a9c1e0bc9213
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89637266"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101807397"
 ---
 # <a name="recover-diskpart"></a>восстановление (DiskPart)
 

@@ -3,16 +3,16 @@ title: netcfg
 description: Справочная статья по команде netcfg, которая устанавливает среда предустановки Windows (WinPE), облегченную версию Windows, используемую для развертывания рабочих станций.
 ms.topic: reference
 ms.assetid: e2daaab7-12db-4e36-b70c-db8906d084f7
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 8680e2e4265f36058f8f0d7c57be144633060bba
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: ed9acff1faa357a64c5f7c98221e7e721849be0b
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89640339"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101811162"
 ---
 # <a name="netcfg"></a>netcfg
 
@@ -34,7 +34,7 @@ netcfg [/v] [/e] [/winpe] [/l ] /c /i
 | /e | Использует переменные среды обслуживания во время установки и удаления. |
 | /винпе | Устанавливает протоколы TCP/IP, NetBIOS и Microsoft Client для среды предустановки Windows (WinPE). |
 | /l | Задает расположение INF-файла. |
-| /C | Предоставляет класс устанавливаемого компонента. **протокол**, **Служба**или **клиент**. |
+| /C | Предоставляет класс устанавливаемого компонента. **протокол**, **Служба** или **клиент**. |
 | /i | Предоставляет идентификатор компонента. |
 | /s | Предоставляет тип отображаемых компонентов, включая **\та** для адаптеров или **n** для сетевых компонентов. |
 | /b | Отображает пути привязки, за которым следует строка, содержащая имя пути. |
@@ -66,7 +66,7 @@ netcfg /v /winpe
 netcfg /q MS_IPX
 ```
 
-Чтобы удалить *MS_IPX*компонента, введите:
+Чтобы удалить *MS_IPX* компонента, введите:
 
 ```
 netcfg /u MS_IPX

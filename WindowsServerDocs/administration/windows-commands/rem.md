@@ -3,16 +3,16 @@ title: rem
 description: Справочная статья по команде REM, которая записывает комментарии в скрипт, пакет или файл config.sys.
 ms.topic: reference
 ms.assetid: 1a45b585-a83c-4ff6-badd-ff40f34cec23
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: c56595a45eba3fd841f1f455c189164b240191e8
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: afe52258ee343e9a8e6b349255f24f9c1cce9d32
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89640648"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101807107"
 ---
 # <a name="rem"></a>rem
 
@@ -31,7 +31,7 @@ rem [<comment>]
 | `<comment>` | Указывает строку символов, включаемую в качестве комментария. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 - Команда **REM** не отображает комментарии на экране. Чтобы отобразить комментарии на экране, необходимо включить команду **echo on** в файл.
 

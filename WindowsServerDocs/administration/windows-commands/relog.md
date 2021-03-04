@@ -3,16 +3,16 @@ title: relog
 description: Справочная статья по команде Relog, которая извлекает данные счетчиков производительности из файлов журналов счетчиков производительности.
 ms.topic: reference
 ms.assetid: 7480f6c0-9953-4d70-9b1c-b27e09d8db13
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 07/11/2018
-ms.openlocfilehash: 9ced8c1c4f0eb2cabaf65c98f5a9c4ecb0135c11
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 62d3de2a233db7d8de4c75ae38b46b80c8615480
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89640294"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101807127"
 ---
 # <a name="relog"></a>relog
 
@@ -47,7 +47,7 @@ relog [<filename> [<filename> ...]] [/a] [/c <path> [<path> ...]] [/cf <filename
 | -y | Обходит запрос, отвечая на все вопросы, ответив на "Да". |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 - Общий формат для путей счетчиков выглядит следующим образом: `[\<computer>] \<object>[<parent>\<instance#index>] \<counter>]` Если родительские элементы, экземпляры, индексы и счетчики формата могут содержать либо допустимое имя, либо подстановочный знак. Компоненты «компьютер», «родительский», «экземпляр» и «индекс» не нужны для всех счетчиков.
 

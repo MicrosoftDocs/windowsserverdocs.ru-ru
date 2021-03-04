@@ -3,16 +3,16 @@ title: pnputil
 description: Справочная статья по команде pnputil, которая добавляет пакеты драйверов, удаляет пакеты драйверов и перечисляет пакеты драйверов, которые находятся в хранилище драйверов, с помощью служебной программы pnputil.exe.
 ms.topic: reference
 ms.assetid: fab686b8-09d3-4f6c-afa2-630e6036f44c
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 07/11/2018
-ms.openlocfilehash: d88d48fe1fc5aa838bbe04f320ea4cac55e09eaa
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 885b4894d0e7f912eff459e4de22929fe81b1408
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89628627"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101808503"
 ---
 # <a name="pnputil"></a>pnputil
 

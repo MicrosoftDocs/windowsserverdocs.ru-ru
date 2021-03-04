@@ -3,16 +3,16 @@ title: nslookup view
 description: Справочная статья по команде nslookup View, которая сортирует и перечисляет выходные данные предыдущих команд **Ls** или подкоманд.
 ms.topic: reference
 ms.assetid: c1d9fff7-b567-451c-af80-6be8f604e193
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 4c779d0a1aba18755553766bc4e234400bb13d51
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: c26e372df00840c406ca6df14133c1074be05c59
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89636485"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101809464"
 ---
 # <a name="nslookup-view"></a>nslookup view
 

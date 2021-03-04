@@ -3,16 +3,16 @@ title: query user
 description: Справочная статья по команде запроса пользователя, которая отображает сведения о пользовательских сеансах на удаленный рабочий стол сервере узла сеансов.
 ms.topic: reference
 ms.assetid: a670fb78-c055-464a-b61d-3a85632c52c5
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: bacc14f6945c9f1257763121b66a77d072b51803
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 3564d11b4863fd643b28643b3fa652f122878329
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89637416"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101807557"
 ---
 # <a name="query-user"></a>query user
 
@@ -51,7 +51,7 @@ query user [<username> | <sessionname> | <sessionID>] [/server:<servername>]
 | /server:`<servername>` | Указывает удаленный рабочий стол сервер узла сеансов, к которому требуется выполнить запрос. В противном случае используется текущий сервер узла сеансов удаленный рабочий стол. Этот параметр является обязательным только при использовании этой команды с удаленного сервера. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 - Чтобы использовать эту команду, необходимо иметь разрешение на полный доступ или специальное разрешение доступа.
 

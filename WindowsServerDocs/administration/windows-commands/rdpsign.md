@@ -3,16 +3,16 @@ title: rdpsign
 description: Справочная статья по команде рдпсигн, которая позволяет подписать файл протокол удаленного рабочего стола (. RDP).
 ms.topic: reference
 ms.assetid: 4a6fa8ce-3d32-49a5-b056-bcc1a23391f5
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 07/11/2018
-ms.openlocfilehash: a98619c468ce26e7af3406512be54937c8aa799d
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: bcb82edd716be2e4065c1507bfd79108cf82fd93
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89637340"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101807427"
 ---
 # <a name="rdpsign"></a>rdpsign
 
@@ -41,7 +41,7 @@ rdpsign /sha1 <hash> [/q | /v |] [/l] <file_name.rdp>
 | `<file_name.rdp>` | Имя RDP-файла. Необходимо указать RDP-файл (или файлы) для подписи, используя полное имя файла. Подстановочные знаки не допускаются. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 - Отпечаток сертификата SHA1 или SHA256 должен представлять собой доверенный издатель RDP-файла. Чтобы получить отпечаток сертификата, откройте оснастку " **Сертификаты** " и дважды щелкните нужный сертификат (в хранилище сертификатов на локальном компьютере или в хранилище личных сертификатов), перейдите на вкладку " **сведения** ", а затем в списке **полей** щелкните **отпечаток**.
 
@@ -69,7 +69,7 @@ rdpsign /sha1 hash file1.rdp
 rdpsign /sha1 hash /l file1.rdp
 ```
 
-Чтобы подписать несколько RDP-файлов с именами, *file1. RDP*, *file2. RDP*и *файл3. RDP*, введите (включая пробелы между именами файлов):
+Чтобы подписать несколько RDP-файлов с именами, *file1. RDP*, *file2. RDP* и *файл3. RDP*, введите (включая пробелы между именами файлов):
 
 ```
 rdpsign /sha1 hash file1.rdp file2.rdp file3.rdp

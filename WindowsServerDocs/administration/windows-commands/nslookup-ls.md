@@ -3,16 +3,16 @@ title: nslookup ls
 description: Справочная статья по команде nslookup Ls, которая содержит сведения о домене DNS.
 ms.topic: reference
 ms.assetid: f15f06fe-67e7-41a9-93b5-192ab14ab380
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 6910fa753ff394416f1cbf201db690647cebe9a0
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 017e6afed0598c87b6b6977ffd285c560e7ffe8a
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89635682"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101810401"
 ---
 # <a name="nslookup-ls"></a>nslookup ls
 
@@ -36,7 +36,7 @@ ls [<option>] <DNSdomain> [{[>] <filename>|[>>] <filename>}]
 | /? | Отображение справки в командной строке. |
 | /help | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 - Выход по умолчанию этой команды включает в себя имена компьютеров и связанные с ними IP-адреса.
 

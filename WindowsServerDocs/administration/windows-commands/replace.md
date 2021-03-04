@@ -3,16 +3,16 @@ title: replace
 description: Справочная статья по команде Replace, которая может заменить существующие или добавить новые файлы в каталог.
 ms.topic: reference
 ms.assetid: 6143661e-d90f-4812-b265-6669b567dd1f
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 07/11/2018
-ms.openlocfilehash: 44ece657b87b61bc9be6333644d05b8201061014
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 249cae2f76c3c38e94d1a9a6ef9e273e8e9fcffe
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89626987"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101806946"
 ---
 # <a name="replace"></a>replace
 
@@ -39,7 +39,7 @@ replace [<drive1>:][<path1>]<filename> [<drive2>:][<path2>] [/p] [/r] [/s] [/w] 
 | /U | Заменяет только те файлы в конечном каталоге, которые старше, чем в исходном каталоге. Нельзя использовать **/u** с параметром командной строки **/a** . |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 - Так как эта команда добавляет или заменяет файлы, имена файлов отображаются на экране. По завершении этой команды отображается строка сводки в одном из следующих форматов:
 

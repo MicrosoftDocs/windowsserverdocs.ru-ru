@@ -3,16 +3,16 @@ title: Справочник по средствам командной стро�
 description: Справочная статья по средствам командной строки службы удаленных рабочих столов (RDS).
 ms.topic: reference
 ms.assetid: 2f371848-5c48-470c-908c-afbc95d3a805
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 3c857345e196d2ea4c3389fc9c97b620d20cd642
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 32b345146da8e57676f4ff9a29e791630d9c18d3
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89641047"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101807057"
 ---
 # <a name="remote-desktop-services-terminal-services-command-line-tools-reference"></a>Справочник по средствам командной строки для службы удаленных рабочих столов (службы терминалов)
 

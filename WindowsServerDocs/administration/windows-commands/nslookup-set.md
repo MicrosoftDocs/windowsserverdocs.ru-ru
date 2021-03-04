@@ -3,16 +3,16 @@ title: nslookup set
 description: Справочная статья по команде nslookup set, которая изменяет параметры конфигурации, влияющие на поведение уточняющих запросов.
 ms.topic: reference
 ms.assetid: 1fe5b36d-e93e-468b-abca-43b0204b32d1
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 70850cd40f7eb54212b112a6e1410a25628a3d7f
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: bb86fa6fbba54e39acf08f521544be66d2ea6836
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89636477"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101809562"
 ---
 # <a name="nslookup-set"></a>nslookup set
 

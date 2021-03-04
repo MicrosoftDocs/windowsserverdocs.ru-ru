@@ -3,16 +3,16 @@ title: повторное сканирование
 description: Справочная статья по команде Rescan, которая находит новые диски, добавленные на компьютер.
 ms.topic: reference
 ms.assetid: 87d7f7a1-104c-4a5d-b4ec-7d532263888c
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: bd6e3fdda91d2f31fa8a8b01125fc3bb83b475d0
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 6180bde5478d25479933efa3d0a16d36f29510b1
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89626920"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101806957"
 ---
 # <a name="rescan"></a>повторное сканирование
 

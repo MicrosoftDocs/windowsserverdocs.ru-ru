@@ -3,16 +3,16 @@ title: rd
 description: Справочная статья по команде Rd, которая удаляет каталог.
 ms.topic: reference
 ms.assetid: 42e672f6-5bc2-4c16-af25-18e7ed2dd555
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 41e5b22d089a07f5248bece208b04a123a3f3f17
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: dd87fe3988d3a595c095790659a55290b662de13
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89637352"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101807437"
 ---
 # <a name="rd"></a>rd
 
@@ -38,7 +38,7 @@ rd [<drive>:]<path> [/s [/q]]
 | /q | Задает тихий режим. Не запрашивает подтверждение при удалении дерева каталогов. Параметр **/q** работает только при указании параметра **/s** .<p>**Внимание!** При запуске в тихом режиме полное дерево каталогов удаляется без подтверждения. Перед использованием параметра командной строки **/q** убедитесь, что были перемещены или архивированы важные файлы. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 - Нельзя удалить каталог, содержащий файлы, включая скрытые или системные файлы. При попытке сделать это появится следующее сообщение:
 

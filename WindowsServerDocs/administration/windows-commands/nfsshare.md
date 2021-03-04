@@ -3,16 +3,16 @@ title: nfsshare
 description: Справочная статья по команде нфсшаре, которая управляет общими сетевыми ресурсами файловой системы (NFS).
 ms.topic: reference
 ms.assetid: 437a2615-335a-442f-9713-d50d5f3983a3
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: f41c9e4dfd14219ceac9c42741d372beb8defb9b
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 324a37eb62222000a08b5876e8ddf454e2650572
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89635811"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101810848"
 ---
 # <a name="nfsshare"></a>nfsshare
 
@@ -39,7 +39,7 @@ nfsshare {<sharename> | <drive>:<path> | * } /delete
 | /delete | Если указано *ShareName* или `<drive>:<path>` , этот параметр удаляет указанную общую папку. Если указан подстановочный знак (*), этот параметр удаляет все общие папки NFS. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 - Если параметр *ShareName* является единственным, эта команда выводит список свойств общего ресурса NFS, идентифицируемого *ShareName*.
 

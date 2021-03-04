@@ -3,16 +3,16 @@ title: msiexec
 description: Справочная статья по команде msiexec, которая предоставляет средства для установки, изменения и выполнения операций с установщик Windows из командной строки.
 ms.topic: reference
 ms.assetid: 122eb0ce-ecbc-4909-a52a-15c3413619af
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: a59e48a4c368a33e0d0e751b9b818f263b470b90
-ms.sourcegitcommit: 7cacfc38982c6006bee4eb756bcda353c4d3dd75
+ms.openlocfilehash: 880ea231fca5afbf4bf2e2f090b72d38cad64828
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "90078441"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101811498"
 ---
 # <a name="msiexec"></a>msiexec
 
@@ -73,13 +73,13 @@ msiexec.exe /i <path_to_package> [/quiet][/passive][/q{n|b|r|f}]
 | /кр | Указывает сокращенный интерфейс пользователя во время процесса установки. |
 | /кф | Указывает полный интерфейс интерфейса пользователя во время установки. |
 
-##### <a name="remarks"></a>Remarks
+##### <a name="remarks"></a>Комментарии
 
 - Модальное окно не отображается, если установка отменена пользователем. Вы можете использовать **QB +!** или **QB! +** , чтобы скрыть кнопку **Отмена** .
 
 #### <a name="examples"></a>Примеры
 
-Чтобы установить пакетную *C:\example.msi*с обычным процессом установки без пользовательского интерфейса, введите:
+Чтобы установить пакетную *C:\example.msi* с обычным процессом установки без пользовательского интерфейса, введите:
 
 ```
 msiexec.exe /i "C:\example.msi" /qn
@@ -170,7 +170,7 @@ msiexec.exe [/p][/update][/uninstall[/package<product_code_of_package>]] <path_t
 
 | Параметр | Описание |
 | ------- | -------- |
-| /p | Устанавливает исправление. При установке в автоматическом режиме необходимо также присвоить свойству REINSTALLMODE значение *екмус* и переустановить для *всех*компонентов. В противном случае исправление обновляет только MSI, кэшированный на целевом устройстве. |
+| /p | Устанавливает исправление. При установке в автоматическом режиме необходимо также присвоить свойству REINSTALLMODE значение *екмус* и переустановить для *всех* компонентов. В противном случае исправление обновляет только MSI, кэшированный на целевом устройстве. |
 | /update | Параметр установки исправлений. Если вы применяете несколько обновлений, их необходимо разделять точкой с запятой (;). |
 | /Package | Устанавливает или настраивает продукт. |
 
@@ -229,6 +229,6 @@ msiexec.exe /fa {AAD3D77A-7476-469F-ADF4-04424124E91D}
 
 - [Условные обозначения синтаксиса команд командной строки](command-line-syntax-key.md)
 
-- [ Параметры командной строкиMsiexec.exe](/windows/win32/msi/command-line-options)
+- [Msiexec.exe параметры Command-Line](/windows/win32/msi/command-line-options)
 
-- [Стандартные параметры командной строки установщика](/windows/win32/msi/standard-installer-command-line-options)
+- [Параметры Command-Line стандартного установщика](/windows/win32/msi/standard-installer-command-line-options)

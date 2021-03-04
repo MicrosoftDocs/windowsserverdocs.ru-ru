@@ -3,16 +3,16 @@ title: nslookup set timeout
 description: Справочная статья по команде nslookup set timeout, которая изменяет начальное число секунд ожидания ответа на запрос поиска.
 ms.topic: reference
 ms.assetid: 07afdaf4-ffec-496f-a188-4e91cf1a28f8
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: b470598378f1b338da209ea16a0d8102177c573c
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 4ac3a8e4aa9aabbe32fcefa9b1a1d2331e162f8d
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89640530"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101809629"
 ---
 # <a name="nslookup-set-timeout"></a>nslookup set timeout
 

@@ -3,16 +3,16 @@ title: автономно
 description: Справочная статья по команде offline, которая переводит сетевой диск или том в состояние "вне сети".
 ms.topic: reference
 ms.assetid: 44b265b2-fb08-4e7a-8939-c004258196b2
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 50fc5436f65ca612ac278af5398fa3ad09665eeb
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 65b79b51f8654fd757546dda47fbc9366e5ad60c
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89627360"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101809198"
 ---
 # <a name="offline"></a>автономно
 

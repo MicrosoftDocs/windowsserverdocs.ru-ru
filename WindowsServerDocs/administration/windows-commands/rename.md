@@ -3,16 +3,16 @@ title: переименовать
 description: Справочная статья по команде Rename, которая переименовывает файл или каталог.
 ms.topic: reference
 ms.assetid: 7f2ea658-0fa9-4015-8031-22c2b0089231
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 24c63a275073217a4212f465a268d517d07cc0e6
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 6769406550adfcaece12d2d1dcbe477816a698f9
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89641017"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101806997"
 ---
 # <a name="rename"></a>переименовать
 
@@ -37,7 +37,7 @@ rename [<drive>:][<path>]<filename1> <filename2>
 | `<filename2>` | Указывает новое имя для файла. Для указания новых имен нескольких файлов можно использовать подстановочные знаки. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 - При переименовании файлов нельзя указывать новый диск или путь. Эту команду также нельзя использовать для переименования файлов на дисках или для перемещения файлов в другой каталог.
 

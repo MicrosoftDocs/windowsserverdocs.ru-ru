@@ -3,16 +3,16 @@ title: prnqctl
 description: Справочная статья по команде прнкктл, которая выводит тестовую страницу и приостанавливает или возобновляет работу принтера.
 ms.topic: reference
 ms.assetid: 8df9dfa7-984c-4276-bb7d-e7675e7c399e
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 07/11/2018
-ms.openlocfilehash: bf828a346a8cc4a8987f4171f087e6ee0f08d7c4
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 9bed724b6241963f47168b82b3b7c88107d50e4f
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89641059"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101807923"
 ---
 # <a name="prnqctl"></a>prnqctl
 
@@ -39,7 +39,7 @@ cscript Prnqctl {-z | -m | -e | -x | -?} [-s <Servername>] [-p <Printername>] [-
 | -u `<Username>` -w `<password>` | Указывает учетную запись с разрешениями на подключение к компьютеру, на котором размещен принтер, которым требуется управлять. Все члены локальной группы администраторов целевого компьютера имеют эти разрешения, но разрешения также могут быть предоставлены другим пользователям. Если учетная запись не указана, для работы команды необходимо войти в систему с учетной записью с этими разрешениями. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 - Если предоставленные сведения содержат пробелы, заключите его в кавычки (например, "имя компьютера").
 

@@ -3,16 +3,16 @@ title: msinfo32
 description: Справочная статья по команде msinfo32, которая открывает средство «сведения о системе» для отображения полного представления об оборудовании, компонентах системы и программной среде на локальном компьютере.
 ms.topic: reference
 ms.assetid: a38f31d7-1766-4103-becc-9d0b87c2826d
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: c3f82d95a3a2d62c03ebe78a6ac067e0574bc8c3
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 2d985dc7e2c03931aac86228d76a8b58cf9aaf71
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89640555"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101811444"
 ---
 # <a name="msinfo32"></a>msinfo32
 
@@ -32,7 +32,7 @@ msinfo32 [/pch] [/nfo <path>] [/report <path>] [/computer <computername>] [/show
 
 | Параметр | Описание |
 | --------- | ----------- |
-| `<path>` | Указывает файл, который должен быть открыт в формате *C:\Folder1\File1.XXX*, где *C* — буква диска, *папка1* — папка, *file1* — имя файла, а *xxx* — это расширение имени файла.<p>Этот файл может иметь формат **NFO**, **XML**, **txt**или **CAB** . |
+| `<path>` | Указывает файл, который должен быть открыт в формате *C:\Folder1\File1.XXX*, где *C* — буква диска, *папка1* — папка, *file1* — имя файла, а *xxx* — это расширение имени файла.<p>Этот файл может иметь формат **NFO**, **XML**, **txt** или **CAB** . |
 | `<computername>` | Указывает имя целевого или локального компьютера. Это может быть имя UNC, IP-адрес или полное имя компьютера. |
 | `<categoryID>` | Указывает идентификатор элемента категории. Идентификатор категории можно получить с помощью **/шовкатегориес**. |
 | /пч | Отображает представление журнала системы в средстве "сведения о системе". |

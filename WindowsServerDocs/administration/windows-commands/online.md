@@ -3,16 +3,16 @@ title: в сети
 description: Справочная статья для команды Online, которая принимает автономный диск или том в состояние "в сети".
 ms.topic: reference
 ms.assetid: aacc3f75-bbc8-4ae2-bf92-420a82594da2
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 092e527c7a06595542107419911a5e28a6f3de85
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: dc6c4ce88230eddf9ee632d108ae3e3adb21d087
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89627246"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101809009"
 ---
 # <a name="online"></a>в сети
 

@@ -3,16 +3,16 @@ title: nslookup set srchlist
 description: Справочная статья по команде nslookup set срчлист, которая изменяет доменное имя и список поиска доменных имен (DNS) по умолчанию.
 ms.topic: reference
 ms.assetid: 8486266d-22ac-4ce5-aad6-1cd0c08110a2
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 0d2798cd97b561ec5da7e515587978a4b19403c0
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 410a608f9caf5a17a61bcb1ef976042848623dde
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89640539"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101809750"
 ---
 # <a name="nslookup-set-srchlist"></a>nslookup set srchlist
 
@@ -34,7 +34,7 @@ set srchlist=<domainname>[/...]
 | /? | Отображение справки в командной строке. |
 | /help | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 - Используйте команду [nslookup set ALL](nslookup-set-all.md) , чтобы отобразить список.
 

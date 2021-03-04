@@ -3,16 +3,16 @@ title: ntfrsutl
 description: Справочная статья по команде нтфрсутл, которая выводит сведения о внутренних таблицах, потоках и памяти для службы репликации файлов NT (NTFRS).
 ms.topic: reference
 ms.assetid: d7721a19-5a87-4ab6-b816-65d2da2c811f
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: c59563329edc57a785c02329d8cd93110cd8abaf
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 8b2f4929082cc7f61e943fed4ed6841ccdfcbc89
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89627421"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101809330"
 ---
 # <a name="ntfrsutl"></a>ntfrsutl
 

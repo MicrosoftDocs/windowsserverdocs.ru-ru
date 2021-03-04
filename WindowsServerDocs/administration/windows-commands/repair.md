@@ -3,16 +3,16 @@ title: восстановление.
 description: Справочная статья по команде Repair, которая восстанавливает тома RAID-5, заменяя неисправный регион диска на указанный динамический диск.
 ms.topic: reference
 ms.assetid: 9f84f661-f3cd-48c8-bf08-87819cf626fe
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 969a677f72af9ab5e99770983308db6e88c28c29
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 113f98c768102d2b8e2586acc3d8b18efdfd7964
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89640994"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101806938"
 ---
 # <a name="repair"></a>восстановление.
 

@@ -3,16 +3,16 @@ title: query termserver
 description: Справочная статья по команде Query термсервер, в которой отображается список всех удаленный рабочий стол серверов узлов сеансов в сети.
 ms.topic: reference
 ms.assetid: 3b89d3b4-236f-4376-90b6-939a0ec4b288
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 33abf76e66b2d42cf0368503fa3a6e119dc1fd1c
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: defb05c3be18ea6b598a1987108664e647b3b853
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89639874"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101807567"
 ---
 # <a name="query-termserver"></a>query termserver
 

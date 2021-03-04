@@ -3,16 +3,16 @@ title: nslookup root
 description: Справочная статья по команде nslookup root, которая изменяет сервер по умолчанию на сервер для корневого каталога пространства имен домена системы доменных имен (DNS).
 ms.topic: reference
 ms.assetid: 9c29edc3-ec49-43f2-bc49-86bf0612d816
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 2e3dbbdf970143ce1e82f0c817fc1f53c5b22749
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: b0d80326d9023dd006deb6f6c5cf8beb9058f4a8
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89635658"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101810232"
 ---
 # <a name="nslookup-root"></a>nslookup root
 

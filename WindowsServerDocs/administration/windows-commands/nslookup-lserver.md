@@ -3,16 +3,16 @@ title: nslookup lserver
 description: Справочная статья по команде nslookup лсервер, которая изменяет первоначальный сервер на указанный домен службы доменных имен (DNS).
 ms.topic: reference
 ms.assetid: aee5ea0b-bb17-4c14-bde7-2f7a91f2f22b
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: d1f507b1a61e9fd4fc506fb4e74f869c83e95335
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: bf7729dd0d61b3895f6d5d44d35d89b7b9150119
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89635671"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101810391"
 ---
 # <a name="nslookup-lserver"></a>nslookup lserver
 

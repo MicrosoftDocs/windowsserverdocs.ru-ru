@@ -3,16 +3,16 @@ title: nslookup set class
 description: Справочная статья по команде nslookup set Class, которая изменяет класс запроса.
 ms.topic: reference
 ms.assetid: ed826400-40da-42b6-b7f0-95db73790723
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 5f4eb309c3972230247bf231b0e731e146d8159a
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 6de0c21e72a2bb1712c62052d18d1440473fd3f2
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89634029"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101810087"
 ---
 # <a name="nslookup-set-class"></a>nslookup set class
 

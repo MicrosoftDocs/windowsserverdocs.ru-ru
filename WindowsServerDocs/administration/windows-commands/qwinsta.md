@@ -3,16 +3,16 @@ title: qwinsta
 description: Справочная статья по команде квинста, которая отображает сведения о сеансах на сервере узла сеансов удаленный рабочий стол.
 ms.topic: reference
 ms.assetid: a793212a-7ecd-44cb-a77b-c5c2edb34979
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: def8a43822e1f7baf544b9f0da3ab84e42bbfb0f
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 8e674f4c0384bf51a9de890b033a5734371c285a
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89637401"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101807517"
 ---
 # <a name="qwinsta"></a>qwinsta
 
@@ -43,7 +43,7 @@ qwinsta [<sessionname> | <username> | <sessionID>] [/server:<servername>] [/mode
 | /Counter | Отображает сведения о текущих счетчиках, включая общее число созданных, отключенных и повторно подключенных сеансов. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 - Пользователь всегда может запрашивать сеанс, в который в данный момент вошел пользователь. Чтобы запросить другие сеансы, пользователь должен иметь специальное разрешение на доступ.
 
@@ -77,7 +77,7 @@ qwinsta [<sessionname> | <username> | <sessionID>] [/server:<servername>] [/mode
 qwinsta /server:Server2
 ```
 
-Чтобы отобразить сведения о *modeM02*активного сеанса, введите:
+Чтобы отобразить сведения о *modeM02* активного сеанса, введите:
 
 ```
 qwinsta modeM02

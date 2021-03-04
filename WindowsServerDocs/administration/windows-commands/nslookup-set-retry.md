@@ -3,16 +3,16 @@ title: nslookup set retry
 description: Справочная статья по команде nslookup set retry, которая задает число попыток получения сведений с указанного сервера.
 ms.topic: reference
 ms.assetid: 615fdfa2-fa29-47a8-8c9e-a6c5b45b3b71
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: fa8b588c49b61c2269325b1b9e67d350f837c5ad
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 65e12aeec1aa0b888e9c15172329cfdf379a2b4d
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89637526"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101809740"
 ---
 # <a name="nslookup-set-retry"></a>nslookup set retry
 

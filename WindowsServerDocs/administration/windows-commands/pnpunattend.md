@@ -3,16 +3,16 @@ title: pnpunattend
 description: Справочная статья по команде пнпунаттенд, которая осуществляет аудит драйверов устройств на компьютере, а также выполняет автоматическую установку драйверов.
 ms.topic: reference
 ms.assetid: 4fa88932-cff0-4dfc-936c-98c0e3dfbeb8
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 07/11/2018
-ms.openlocfilehash: 6e3e0f0dfd1b689a62bf59956d3934e5ea74d177
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 6de72cbe5d1ae1977e2739df0fb14c3cc0e56a8e
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89633678"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101808530"
 ---
 # <a name="pnpunattend"></a>pnpunattend
 
@@ -30,7 +30,7 @@ ms.locfileid: "89633678"
 
 4. Создайте следующий раздел реестра, а затем для созданного ключа **дриверпасс** присвойте **параметру значение** **1**.
 
-5. Для Windows® 7 перейдите по пути реестра: **HKEY_LOCAL_Machine \Софтваре\микрософт\виндовс нт\куррентверсион \\ **, а затем создайте ключи: **унаттендсеттингс\пнпунаттенд\дриверпасс \\ **
+5. Для Windows® 7 перейдите по пути реестра: **HKEY_LOCAL_Machine \Софтваре\микрософт\виндовс нт\куррентверсион \\**, а затем создайте ключи: **унаттендсеттингс\пнпунаттенд\дриверпасс \\**
 
 ## <a name="syntax"></a>Синтаксис
 

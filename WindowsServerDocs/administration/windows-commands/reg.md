@@ -3,16 +3,16 @@ title: команды reg
 description: Справочная статья по командам reg, которые выполняют операции с данными подраздела реестра и значениями в записях реестра.
 ms.topic: reference
 ms.assetid: c97496b2-d1ff-4887-b5d2-6e1524be465a
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 619f6ae1d03197754145d0daad029deb817efffe
-ms.sourcegitcommit: e164aeffc01069b8f1f3248bf106fcdb7f64f894
+ms.openlocfilehash: 135c1f915a798ccd981c5ace1942f179c1287a22
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91388840"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101807147"
 ---
 # <a name="reg-commands"></a>команды reg
 

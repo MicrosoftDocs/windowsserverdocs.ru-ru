@@ -3,16 +3,16 @@ title: nslookup set root
 description: Справочная статья по команде nslookup set root, которая изменяет имя корневого сервера, используемого для запросов.
 ms.topic: reference
 ms.assetid: 8ad5393c-d4fd-4594-8187-576b1dcde60a
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: d7e1251b7e13320a77a4c59736a6bd985bd248af
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 7fb9e6b838ded6081aeaa957851a951fcc5bb200
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89637484"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101809730"
 ---
 # <a name="nslookup-set-root"></a>nslookup set root
 

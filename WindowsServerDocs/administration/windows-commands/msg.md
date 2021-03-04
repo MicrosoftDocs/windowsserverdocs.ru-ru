@@ -3,16 +3,16 @@ title: msg
 description: Справочная статья по команде MSG, которая отправляет сообщение пользователю на удаленный рабочий стол сервере узла сеансов
 ms.topic: reference
 ms.assetid: 9501cf3e-568e-4982-9987-8daecc6c17ff
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 34b51bb82fdac6b847d69b4d59a345777054839f
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 9d70de8ecb637a71d90586979b6979f106c3358b
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89639640"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101811488"
 ---
 # <a name="msg"></a>msg
 

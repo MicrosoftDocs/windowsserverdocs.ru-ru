@@ -3,16 +3,16 @@ title: offline volume
 description: Справочная статья по команде "автономный том", которая принимает оперативный том с фокусом на состояние "вне сети".
 ms.topic: reference
 ms.assetid: b8f7192f-ea38-47d0-9d4e-58ef68336ae6
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 7902ef109c7e893d2610ae308a391d9efafbabfd
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 6f4d71fb5ac71b4dae72664416272167ce09adc3
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89627373"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101809188"
 ---
 # <a name="offline-volume"></a>offline volume
 

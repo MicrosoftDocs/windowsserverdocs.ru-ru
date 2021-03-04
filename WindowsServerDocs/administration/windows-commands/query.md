@@ -3,16 +3,16 @@ title: команды запроса
 description: Справочная статья по командам запроса, в которой отображаются сведения о процессах, сеансах и удаленный рабочий стол серверах узлов сеансов.
 ms.topic: reference
 ms.assetid: 675c5128-f3cf-4e8f-8a3f-b29ab2a8b6de
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 7be1b62c8963a7a828a8710e3c01afd722557ce1
-ms.sourcegitcommit: e164aeffc01069b8f1f3248bf106fcdb7f64f894
+ms.openlocfilehash: bbbb9d35a9f2648f5e0990f27bca24acbe12b3c5
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91388144"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101807543"
 ---
 # <a name="query-commands"></a>команды запроса
 

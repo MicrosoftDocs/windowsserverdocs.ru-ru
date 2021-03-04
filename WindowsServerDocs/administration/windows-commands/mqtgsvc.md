@@ -3,16 +3,16 @@ title: mqtgsvc
 description: Справочная статья по команде мктгсвк, которая наблюдает за очередью входящих сообщений и выполняет действие в виде исполняемого файла или компонента COM, когда правила триггера оцениваются как истинные.
 ms.topic: reference
 ms.assetid: a6f78ffa-ad38-475b-8ed5-f5404b1658ab
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: d5c2e1c3f42785ca8036bc82fc17a987193835a6
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.openlocfilehash: f0e8702197a917034e34f5f761635e774bba6e67
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96865003"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101811623"
 ---
 # <a name="mqtgsvc"></a>mqtgsvc
 

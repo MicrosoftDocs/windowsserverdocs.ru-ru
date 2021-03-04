@@ -3,16 +3,16 @@ title: query session
 description: Справочная статья по команде запроса Session, в которой отображаются сведения о сеансах на удаленный рабочий стол сервере узла сеансов.
 ms.topic: reference
 ms.assetid: abc0ace8-0b74-4b6e-a937-a78bb4b61a1f
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 2842aa9b0a38438a92ee2b7072b1a1054642fd62
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: ee5d65c358d1cf730b4acecb3a95ab7b0945f588
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89639889"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101807578"
 ---
 # <a name="query-session"></a>query session
 
@@ -43,7 +43,7 @@ query session [<sessionname> | <username> | <sessionID>] [/server:<servername>] 
 | /Counter | Отображает сведения о текущих счетчиках, включая общее число созданных, отключенных и повторно подключенных сеансов. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 - Пользователь всегда может запрашивать сеанс, в который в данный момент вошел пользователь. Чтобы запросить другие сеансы, пользователь должен иметь специальное разрешение на доступ.
 
@@ -77,7 +77,7 @@ query session [<sessionname> | <username> | <sessionID>] [/server:<servername>] 
 query session /server:Server2
 ```
 
-Чтобы отобразить сведения о *modeM02*активного сеанса, введите:
+Чтобы отобразить сведения о *modeM02* активного сеанса, введите:
 
 ```
 query session modeM02

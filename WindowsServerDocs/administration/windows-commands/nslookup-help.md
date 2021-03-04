@@ -3,16 +3,16 @@ title: nslookup help
 description: Справочная статья по команде nslookup Help, которая отображает содержимое справки по подкомандам.
 ms.topic: reference
 ms.assetid: 20ffe3e4-4cf3-4bc4-9392-a6be4ccd2c23
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: f0b4fed96d09afafde354dbec5f177b4d2b99d8f
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 2b9075e230393b40b378d8df9896a9fb0e57d8cc
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89635690"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101810411"
 ---
 # <a name="nslookup-help"></a>nslookup help
 

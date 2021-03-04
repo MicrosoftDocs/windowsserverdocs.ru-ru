@@ -3,16 +3,16 @@ title: popd
 description: Справочная статья по команде pnputil, которая изменяет текущий каталог на каталог, который был последним сохранен командой pushd.
 ms.topic: reference
 ms.assetid: 8a4c52d5-9fd1-4eac-9c0c-5767b25728ed
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 07/11/2018
-ms.openlocfilehash: f149858b9281725cb7d63e9298ae16a0f33efd57
-ms.sourcegitcommit: af9381b62f8ae6c78383ed6b81c37f843b5ad7e4
+ms.openlocfilehash: 84f009bb2a636e9bf655fbbf9c93b5c97198e8a4
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/16/2021
-ms.locfileid: "100549314"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101808419"
 ---
 # <a name="popd"></a>popd
 

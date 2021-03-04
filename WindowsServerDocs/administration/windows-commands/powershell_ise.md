@@ -3,16 +3,16 @@ title: PowerShell_ise
 description: Справочная статья по команде PowerShell_ise, которая запускает сеанс интегрированной среды сценариев (ISE) Windows PowerShell.
 ms.topic: reference
 ms.assetid: 32c41b5b-a210-47d9-bd8c-91eb9830b4f0
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 44fb06ae7a072730f2c364ce3287996ad1af90e8
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 534f73a667f874bcad2c232216a2514b5e402013
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89627252"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101808382"
 ---
 # <a name="powershell_ise"></a>PowerShell_ise
 
@@ -20,7 +20,7 @@ ms.locfileid: "89627252"
 
 ## <a name="using-powershellexe"></a>Использование PowerShell.exe
 
-Средство **PowerShell_ISE.exe** запускает сеанс интегрированной среды сценариев Windows PowerShell. При использовании **PowerShell_ISE.exe**можно использовать его необязательные параметры, чтобы открыть файлы в интегрированной среде сценариев Windows PowerShell или запустить сеанс интегрированной среды сценариев Windows PowerShell без профиля или с многопоточным апартаментом.
+Средство **PowerShell_ISE.exe** запускает сеанс интегрированной среды сценариев Windows PowerShell. При использовании **PowerShell_ISE.exe** можно использовать его необязательные параметры, чтобы открыть файлы в интегрированной среде сценариев Windows PowerShell или запустить сеанс интегрированной среды сценариев Windows PowerShell без профиля или с многопоточным апартаментом.
 
 - Чтобы запустить сеанс интегрированной среды сценариев Windows PowerShell в окне командной строки, в Windows PowerShell или в меню " **Пуск** ", введите:
 
@@ -54,7 +54,7 @@ ms.locfileid: "89627252"
     PowerShell_Ise.exe /?
     ```
 
-### <a name="remarks"></a>Примечания
+### <a name="remarks"></a>Комментарии
 
 - Полный список параметров командной строки **PowerShell_ISE.exe** см. в разделе [about_PowerShell_Ise.Exe](/powershell/module/microsoft.powershell.core/about/about_powershell_ise_exe).
 

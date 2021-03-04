@@ -3,16 +3,16 @@ title: offline disk
 description: Справочная статья по команде "автономный диск", которая переводит сетевой диск в состояние "вне сети".
 ms.topic: reference
 ms.assetid: 8fb9b3c3-0b2c-4192-a2e7-f706292653e3
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 678ab63327523e06ae4946413557cc7d45466de0
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 71abf8e74b0c49023e23740781c8a570f7d23463
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89627405"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101809252"
 ---
 # <a name="offline-disk"></a>offline disk
 

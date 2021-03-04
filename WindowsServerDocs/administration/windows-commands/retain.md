@@ -3,16 +3,16 @@ title: retain
 description: Справочная статья по команде "хранить", которая готовит существующий динамический том к использованию в качестве загрузочного или системного тома.
 ms.topic: reference
 ms.assetid: eeab0aef-2ba5-441a-a10d-bbef6f0d7e3e
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 201aa8b79f8ac0f89d44be7db3f84c9f3059e206
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 17ecb4dea256184d0711662f966dc798ea40b644
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89626908"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101806867"
 ---
 # <a name="retain"></a>retain
 

@@ -3,16 +3,16 @@ title: nslookup set domain
 description: Справочная статья по команде nslookup set domain, которая изменяет доменное имя DNS по умолчанию на указанное имя.
 ms.topic: reference
 ms.assetid: 9d4d28e8-6e88-42cc-801f-94e9d8e051f4
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 6bc71bc61d5329f73cf5a5dc82993cdfb0f77b50
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 6e42167dde4f7d42d7961279358ecea7125a27f5
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89639626"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101809932"
 ---
 # <a name="nslookup-set-domain"></a>nslookup set domain
 
@@ -34,7 +34,7 @@ set domain=<domainname>
 | /? | Отображение справки в командной строке. |
 | /help | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 - Доменное имя DNS по умолчанию добавляется к поисковому запросу в зависимости от состояния параметров **дефнаме** и **поиска** .
 

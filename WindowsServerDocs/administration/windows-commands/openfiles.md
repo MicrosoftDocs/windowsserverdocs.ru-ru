@@ -3,16 +3,16 @@ title: openfiles
 description: Справочная статья по команде openfiles, которая позволяет администратору запрашивать, отображать или отключать файлы и каталоги, открытые в системе.
 ms.topic: reference
 ms.assetid: c3be561d-a11f-4bf1-9835-8e4e96fe98ec
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: eb7d67d082c948c5f91d7551033143a2aac79f2a
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 65f835a71167e81d4ef0b7cd6266c7edf625542f
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89633681"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101808979"
 ---
 # <a name="openfiles"></a>openfiles
 

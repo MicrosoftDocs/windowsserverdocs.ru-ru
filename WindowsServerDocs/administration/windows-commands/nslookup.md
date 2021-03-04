@@ -3,16 +3,16 @@ title: nslookup
 description: Справочная статья по команде nslookup, которая отображает сведения, которые можно использовать для диагностики инфраструктуры системы доменных имен (DNS).
 ms.topic: reference
 ms.assetid: 41516932-7833-434a-aa92-b4cf0f9a7ef7
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: a8132bfb01bf05b1a92042ea804c2206f009c2fd
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 7b19fe952dde44d38aeac90956df3bcc6d6940f2
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89639272"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101809437"
 ---
 # <a name="nslookup"></a>nslookup
 
@@ -67,11 +67,11 @@ nslookup [exit | finger | help | ls | lserver | root | server | set | view] [opt
 | [nslookup set vc](nslookup-set-vc.md) | Указывает, следует ли использовать виртуальный канал при отправке запросов на сервер. |
 | [nslookup view](nslookup-view.md) | Сортирует и перечисляет выходные данные предыдущей подкоманды **Ls** или команд. |
 
-### <a name="remarks"></a>Примечания
+### <a name="remarks"></a>Комментарии
 
 - Если *компутертофинд* является IP-адресом и запрос предназначен для типа записи ресурса **A** или **ptr** , возвращается имя компьютера.
 
-- Если *компутертофинд* является именем и не имеет точки в конце, имя домена DNS по умолчанию добавляется к имени. Это поведение зависит от состояния следующих подкоманд **Set** : **domain**, **срчлист**, **дефнаме**и **Search**.
+- Если *компутертофинд* является именем и не имеет точки в конце, имя домена DNS по умолчанию добавляется к имени. Это поведение зависит от состояния следующих подкоманд **Set** : **domain**, **срчлист**, **дефнаме** и **Search**.
 
 - Если ввести дефис (-) вместо *компутертофинд*, Командная строка изменится на интерактивный режим **nslookup** .
 

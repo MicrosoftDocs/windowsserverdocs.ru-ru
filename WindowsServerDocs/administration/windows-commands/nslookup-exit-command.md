@@ -3,16 +3,16 @@ title: выход из nslookup
 description: Справочная статья по команде nslookup Exit, которая выходит из программы командной строки Nslookup.
 ms.topic: reference
 ms.assetid: 970ece99-fc5e-4103-9f97-ca080af1f212
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 53941b00518c4595b54708490bfb959ef66ccd28
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 8bea2a7c76893cfaa966ff1339edf9b962c64703
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89635718"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101810448"
 ---
 # <a name="nslookup-exit"></a>nslookup/Ексит
 

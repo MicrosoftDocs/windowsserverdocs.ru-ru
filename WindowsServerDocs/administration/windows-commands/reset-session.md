@@ -3,16 +3,16 @@ title: reset session
 description: Справочная статья по команде сброса сеанса, которая позволяет сбросить сеанс на удаленный рабочий стол сервере узла сеансов.
 ms.topic: reference
 ms.assetid: 4f029ecc-874e-415a-95a8-8b731bae35f9
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 07/11/2018
-ms.openlocfilehash: 745a3ba51714ad3f5431dedbe9cebedf77e4ae72
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: d0b68794128914187d05f2248f4426dca5b31cd3
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89626912"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101806927"
 ---
 # <a name="reset-session"></a>reset session
 
@@ -39,7 +39,7 @@ reset session {<sessionname> | <sessionID>} [/server:<servername>] [/v]
 | /v | Отображает сведения о выполняемых действиях. |
 | /? | Отображение справки в командной строке. |
 
-### <a name="remarks"></a>Примечания
+### <a name="remarks"></a>Комментарии
 
 - Вы всегда можете сбросить собственные сеансы, но для сброса сеанса другого пользователя необходимо иметь разрешение « **полный** доступ». Имейте в виду, что сброс сеанса пользователя без предупреждения пользователь может привести к утрате данных в сеансе.
 

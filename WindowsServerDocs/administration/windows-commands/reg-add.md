@@ -3,16 +3,16 @@ title: reg add
 description: Справочная статья по команде reg Add, которая добавляет новый подраздел или запись в реестр.
 ms.topic: reference
 ms.assetid: d9ad143e-dc10-4e2e-a229-408393c40079
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: bf1dcf7f37fd6c5852897d187f701f06189cb867
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: ff37c302f493d25345d6737db96fb6020831ff79
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89637229"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101807383"
 ---
 # <a name="reg-add"></a>reg add
 
@@ -28,7 +28,7 @@ reg add <keyname> [{/v Valuename | /ve}] [/t datatype] [/s Separator] [/d Data] 
 
 | Параметр | Описание |
 |--|--|
-| `<keyname>` | Задает полный путь к добавляемому подразделу или записи. Чтобы указать удаленный компьютер, включите имя компьютера (в формате `\\<computername>\` ) в состав имени *keyName*. Пропуск `\\<computername>\` приводит к тому, что по умолчанию операция выполняется на локальном компьютере. *KeyName* должен содержать допустимый корневой ключ. Допустимые корневые ключи для локального компьютера: **HKLM**, **HKCU**, **HKCR**, **HKU**и **хккк**. Если указан удаленный компьютер, допустимые корневые ключи: **HKLM** и **HKU**. Если имя раздела реестра содержит пробел, заключите имя ключа в кавычки. |
+| `<keyname>` | Задает полный путь к добавляемому подразделу или записи. Чтобы указать удаленный компьютер, включите имя компьютера (в формате `\\<computername>\` ) в состав имени *keyName*. Пропуск `\\<computername>\` приводит к тому, что по умолчанию операция выполняется на локальном компьютере. *KeyName* должен содержать допустимый корневой ключ. Допустимые корневые ключи для локального компьютера: **HKLM**, **HKCU**, **HKCR**, **HKU** и **хккк**. Если указан удаленный компьютер, допустимые корневые ключи: **HKLM** и **HKU**. Если имя раздела реестра содержит пробел, заключите имя ключа в кавычки. |
 | /v `<Valuename>` | Указывает имя для добавления записи в реестр. |
 | /ве | Указывает, что добавленная запись реестра имеет значение null. |
 | /t `<Type>` | Указывает тип для записи реестра. *Тип* должен быть одним из следующих:<ul><li>REG_SZ</li><li>REG_MULTI_SZ</li><li>REG_DWORD_BIG_ENDIAN</li><li>REG_DWORD</li><li>REG_BINARY</li><li>REG_DWORD_LITTLE_ENDIAN</li><li>REG_LINK</li><li>REG_FULL_RESOURCE_DESCRIPTOR</li><li>REG_EXPAND_SZ</li></ul> |
@@ -37,7 +37,7 @@ reg add <keyname> [{/v Valuename | /ve}] [/t datatype] [/s Separator] [/d Data] 
 | /f | Добавляет запись реестра без запроса подтверждения. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 - С этой операцией нельзя добавлять поддеревья. Эта версия **reg** не запрашивает подтверждение при добавлении подраздела.
 
@@ -45,7 +45,7 @@ reg add <keyname> [{/v Valuename | /ve}] [/t datatype] [/s Separator] [/d Data] 
 
 | Значение | Описание |
 |--|--|
-| 0 | Успех |
+| 0 | Успешное завершение |
 | 1 | Сбой |
 
 - Для **REG_EXPAND_SZ** типа ключа используйте символ крышки ( **^** ) с **%** параметром/d.
@@ -58,19 +58,19 @@ reg add <keyname> [{/v Valuename | /ve}] [/t datatype] [/s Separator] [/d Data] 
 reg add \\ABC\HKLM\Software\MyCo
 ```
 
-Чтобы добавить запись реестра в *хклм\софтваре\мико* со значением с именем *Data*, *REG_BINARY*типа и данными *fe340ead*, введите:
+Чтобы добавить запись реестра в *хклм\софтваре\мико* со значением с именем *Data*, *REG_BINARY* типа и данными *fe340ead*, введите:
 
 ```
 reg add HKLM\Software\MyCo /v Data /t REG_BINARY /d fe340ead
 ```
 
-Чтобы добавить многозначную запись реестра в  *хклм\софтваре\мико* со значением *MRU*, Type *REG_MULTI_SZ*и Data of *fax\0mail\0\0*, введите:
+Чтобы добавить многозначную запись реестра в  *хклм\софтваре\мико* со значением *MRU*, Type *REG_MULTI_SZ* и Data of *fax\0mail\0\0*, введите:
 
 ```
 reg add HKLM\Software\MyCo /v MRU /t REG_MULTI_SZ /d fax\0mail\0\0
 ```
 
-Чтобы добавить развернутую запись реестра в *хклм\софтваре\мико* со значением *path*, *REG_EXPAND_SZ*типа и данными *% systemroot%*, введите:
+Чтобы добавить развернутую запись реестра в *хклм\софтваре\мико* со значением *path*, *REG_EXPAND_SZ* типа и данными *% systemroot%*, введите:
 
 ```
 reg add HKLM\Software\MyCo /v Path /t REG_EXPAND_SZ /d ^%systemroot^%

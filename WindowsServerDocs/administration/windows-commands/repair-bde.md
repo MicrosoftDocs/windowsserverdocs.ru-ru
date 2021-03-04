@@ -3,16 +3,16 @@ title: repair-bde
 description: Справочная статья по команде Repair-bde, которая может попытаться восстановить критически важные части сильно поврежденного диска и восстановить восстанавливаемые данные, если диск был зашифрован с помощью BitLocker.
 ms.topic: reference
 ms.assetid: 534dca1a-05f7-4ea8-ac24-4fe5f14f988a
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: b7eb1128a34f366d5a096558118f43473252c8d4
-ms.sourcegitcommit: 029b1e19ce11160d5f988046e04a83e8ab5a60dc
+ms.openlocfilehash: 03667b851f828cb7a265653c79c2c077d401fcb6
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97904089"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101806967"
 ---
 # <a name="repair-bde"></a>repair-bde
 

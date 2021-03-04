@@ -3,16 +3,16 @@ title: обработка запросов
 description: Справочная статья по команде запроса Process, в которой отображаются сведения о процессах, выполняемых на сервере узла удаленный рабочий стол сеансов.
 ms.topic: reference
 ms.assetid: 36ce3ffc-0092-4eb1-a374-28e6616ca946
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: eb2deaeac012eba4dad06ae6084474942536adfd
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 8ed40188a361c2d10ac2a24ca422687796f9c0b7
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89639892"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101807617"
 ---
 # <a name="query-process"></a>обработка запросов
 
@@ -52,7 +52,7 @@ query process [*|<processID>|<username>|<sessionname>|/id:<nn>|<programname>] [/
 | /server:`<servername>` | Указывает удаленный рабочий стол сервер узла сеансов, процессы которого необходимо перечислить. Если не указано, используется сервер, на котором вы выполнили вход в систему. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 - Администраторы имеют полный доступ ко всем функциям **обработки запросов** .
 

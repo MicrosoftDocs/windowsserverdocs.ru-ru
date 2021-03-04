@@ -3,16 +3,16 @@ title: remove
 description: Справочная статья по команде Remove, которая удаляет букву диска или точку подключения из тома.
 ms.topic: reference
 ms.assetid: b0886140-da8b-4231-8cb2-f280874d99c0
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: ba7d625c5908af4a209266293495e6d472cb730b
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: e023b091c8b86a0f664004cfc77db8f45c00bb33
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89641034"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101807007"
 ---
 # <a name="remove"></a>remove
 
