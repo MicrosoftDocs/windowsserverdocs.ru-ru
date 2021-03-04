@@ -3,16 +3,16 @@ title: ftp mget
 description: Справочная статья по команде FTP mget, которая копирует удаленные файлы на локальный компьютер, используя текущий тип перемещения файлов.
 ms.topic: reference
 ms.assetid: 6c85ae96-ec51-48a9-a227-7f02c7332c69
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: ca56e43df4a03fd52f8028d390cb2da62901ca06
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: d5685aac163ee0a62205d5448bf01ca0a57affb7
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89621627"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101817638"
 ---
 # <a name="ftp-mget"></a>ftp mget
 

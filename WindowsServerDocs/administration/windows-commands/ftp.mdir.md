@@ -3,16 +3,16 @@ title: ftp mdir
 description: Справочная статья по команде FTP мдир, которая отображает список каталогов файлов и подкаталогов в удаленном каталоге.
 ms.topic: reference
 ms.assetid: 90eec45b-558b-4b8d-bbe4-b56d98e1ca70
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 40c64d82f07a763dec3dd690780438eb2db35753
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 48d29d6b1d26ccf09643b6845b2addde3ee5795f
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89636659"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101817106"
 ---
 # <a name="ftp-mdir"></a>ftp mdir
 
@@ -31,7 +31,7 @@ mdir <remotefile>[...] <localfile>
 | Параметр | Описание |
 | --------- | ----------- |
 | `<remotefile>` | Указывает каталог или файл, для которого требуется просмотреть список. Можно указать несколько *ремотефилес*. Введите дефис (-), чтобы использовать текущий рабочий каталог на удаленном компьютере. |
-| `<localfile>` | Указывает локальный файл для хранения списка. Это обязательный параметр. Введите дефис (-) для отображения списка на экране. |
+| `<localfile>` | Указывает локальный файл для хранения списка. Этот параметр обязателен. Введите дефис (-) для отображения списка на экране. |
 
 ### <a name="examples"></a>Примеры
 

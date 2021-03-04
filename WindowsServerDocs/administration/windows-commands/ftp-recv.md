@@ -3,16 +3,16 @@ title: ftp recv
 description: Справочная статья по команде FTP recv, которая копирует удаленный файл на локальный компьютер, используя текущий тип перемещения файлов.
 ms.topic: reference
 ms.assetid: f249ce61-247d-421b-9b93-48bce5108800
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 65acf6bae09d9b1cad1bf89028b4a51232116c60
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 90cc6cb95f6d8a69342b0eb801b4d596c769a318
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89624657"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101817458"
 ---
 # <a name="ftp-recv"></a>ftp recv
 

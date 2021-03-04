@@ -3,16 +3,16 @@ title: ftp quit
 description: Справочная статья по команде FTP quit, которая завершает сеанс FTP с удаленным компьютером, а затем завершает работу.
 ms.topic: reference
 ms.assetid: f5de9a79-5177-4e3a-80d9-df8f4d7660b7
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: cc25f1c18e520efdac19b9ae647c5c77d248ec85
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 653100beeb64c8429946bacc401446a8e7dfbdef
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89624728"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101817478"
 ---
 # <a name="ftp-quit"></a>ftp quit
 

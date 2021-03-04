@@ -3,16 +3,16 @@ title: ftp bye
 description: Справочная статья по команде FTP Bye, которая завершает сеанс FTP на удаленном компьютере, а затем завершает работу.
 ms.topic: reference
 ms.assetid: f20e2bf2-7d12-4606-942a-8ed555eb8e90
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 88e3af9c953cad9f007066aaa4cab4fa31345164
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 8bf9eda85cacf94908b34f2f2333981c26c3f858
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89638539"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101817908"
 ---
 # <a name="ftp-bye"></a>ftp bye
 

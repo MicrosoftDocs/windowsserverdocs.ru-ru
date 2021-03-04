@@ -3,16 +3,16 @@ title: Описание
 description: Справочная статья по команде Detail, которая отображает сведения о выбранном диске, разделе, томе или виртуальном жестком диске (VHD).
 ms.topic: reference
 ms.assetid: 305755bd-1a51-486b-8515-62d3f227c291
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 728e411840cb2583fd746f17c6e0e2a8ffba82b5
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 4736c2cddc9ab42a36543ad52b833d45bed0408c
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89628643"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101818968"
 ---
 # <a name="detail"></a>Описание
 

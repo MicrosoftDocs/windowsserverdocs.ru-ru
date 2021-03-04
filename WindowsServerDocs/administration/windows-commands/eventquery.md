@@ -3,16 +3,16 @@ title: eventquery
 description: Справочная статья по команде евенткуери. Эта команда устарела и не гарантируется, что она будет поддерживаться в будущих выпусках Windows.
 ms.topic: reference
 ms.assetid: f765a564-081f-4cdf-bbf4-cbc5eb9c6fe1
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 9abc3139f1725f105c8359ed4cfa4f0ec24a6d8d
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: d18f2c76b0cb1bbe96737e6058c97a3e726043f5
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89636056"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101818396"
 ---
 # <a name="eventquery"></a>eventquery
 

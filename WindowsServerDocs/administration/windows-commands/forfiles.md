@@ -3,16 +3,16 @@ title: forfiles
 description: Справочная статья по команде forfiles, которая выбирает и выполняет команду для файла или набора файлов.
 ms.topic: reference
 ms.assetid: 43f6b004-446d-4fdd-91c5-5653613524a4
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 05/20/2020
-ms.openlocfilehash: 29858d1f8dcbb3a6ba99dec0c520fd147115a0ec
-ms.sourcegitcommit: 1e94c10ff51f43325fa9184b09bbdfeb8c8fed36
+ms.openlocfilehash: 1f2754afaf8591439509c476e61541b2c80260c3
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "99081672"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101818028"
 ---
 # <a name="forfiles"></a>forfiles
 
@@ -35,7 +35,7 @@ forfiles [/P pathname] [/M searchmask] [/S] [/C command] [/D [+ | -] [{<date> | 
 | /D `[{+\|-}][{<date> | <days>}]` | Выбирает файлы с датой последнего изменения в течение заданного промежутка времени:<ul><li>Выбирает файлы с датой последнего изменения позже или равным () **+** или ранее или равной ( **-** ) указанной даты, где *Дата* соответствует формату mm/дд/гггг.</li><li>Выбирает файлы с датой последнего изменения позже или равным ( **+** ) текущей датой плюс указанное число дней, а также до или менее ( **-** ) текущей датой минус указанное число дней.</li><li>Допустимые значения *дней* включают любое число в диапазоне от 0 до 32768. Если знак не указан, **+** по умолчанию используется.</li></ul> |
 | /? | Отображает текст справки в окне cmd. |
 
-#### <a name="remarks"></a>Замечания
+#### <a name="remarks"></a>Комментарии
 
 - `forfiles /S`Команда аналогична `dir /S` .
 

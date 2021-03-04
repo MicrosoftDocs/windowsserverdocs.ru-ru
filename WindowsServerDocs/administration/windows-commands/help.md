@@ -3,16 +3,16 @@ title: help
 description: Справочная статья по команде Help, в которой отображается список доступных команд или подробные справочные сведения об указанной команде.
 ms.topic: reference
 ms.assetid: c65b5ac3-711a-4368-95b8-ba82e2d00713
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 5e1ee94be773d546b2ef441d370c7cb91ee6c167
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: ac651769082b5df65b29bc7c86b6129a097b8c84
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89634620"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101816590"
 ---
 # <a name="help"></a>help
 

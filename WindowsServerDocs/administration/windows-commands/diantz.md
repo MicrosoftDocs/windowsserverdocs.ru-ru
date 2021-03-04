@@ -3,16 +3,16 @@ title: diantz
 description: Справочная статья по команде диантз, которая упаковывает существующие файлы в CAB-файл.
 ms.topic: reference
 ms.assetid: 218ed5d7-1203-4d68-ad9b-65cdd022d54f
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 033bfb59bbd33fee44bb307d1a905dc6c8d658c7
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 10cad6a58c7c16d409b4419ff347687da4a72e3e
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89635014"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101818798"
 ---
 # <a name="diantz"></a>diantz
 

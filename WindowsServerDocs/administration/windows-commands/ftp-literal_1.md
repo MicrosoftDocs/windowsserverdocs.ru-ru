@@ -3,16 +3,16 @@ title: ftp literal
 description: Справочная статья по команде FTP Literal, которая отправляет точные аргументы на удаленный FTP-сервер.
 ms.topic: reference
 ms.assetid: fb81aa2d-07fa-4e79-bf44-1fb5526fdf14
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 67c881788e96ef825ad097e2ebd68ae20d753ebe
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 7cb30cd0f2821dc98488018cf3c5d01a60e76d18
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89621590"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101817658"
 ---
 # <a name="ftp-literal"></a>ftp literal
 

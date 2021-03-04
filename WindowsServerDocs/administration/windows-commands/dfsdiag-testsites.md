@@ -3,16 +3,16 @@ title: dfsdiag testsites
 description: Справочная статья по дфсдиаг тестситес, которая проверяет конфигурацию сайтов доменных служб Active Directory (AD DS) путем проверки того, что серверы, выполняющие роль серверов пространства имен или целевых объектов (ссылок), имеют одинаковые связи сайтов на всех контроллерах домена.
 ms.topic: reference
 ms.assetid: 39a0d415-7eb7-4a26-861b-7ff00c45dcda
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: c4c1b2eb578245b3d5f1ece443a78e9c0c00372b
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 283cdff45dd9f36d0c0ece6602e0428b6154666c
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89634325"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101818838"
 ---
 # <a name="dfsdiag-testsites"></a>dfsdiag testsites
 

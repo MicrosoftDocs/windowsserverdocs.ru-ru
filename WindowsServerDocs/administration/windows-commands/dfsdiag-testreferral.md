@@ -3,16 +3,16 @@ title: dfsdiag testreferral
 description: Справочная статья по команде дфсдиаг тестреферрал, которая проверяет ссылки на распределенная файловая система (DFS).
 ms.topic: reference
 ms.assetid: 877c60dc-e993-4bd5-87dd-e892e3f98a1a
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: e1fb5526f49994ddbfb35c0c64f53933ab67674f
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 48df6138bdca87bd9c1a9ba0b5883322c9091a68
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89634138"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101818848"
 ---
 # <a name="dfsdiag-testreferral"></a>dfsdiag testreferral
 
@@ -40,7 +40,7 @@ dfsdiag /testreferral /DFSpath:<DFS path to get referrals> [/full]
 
 | Параметр | Описание |
 | --------- | ----------- |
-| /Дфспас:`<path to get referrals>` | Может применяться один из перечисленных ниже типов.<ul><li>**Пусто:** Проверяет только доверенные домены.</li><li>`\\Domain:` Проверяет только ссылки на контроллеры домена.</li><li>`\\Domain\SYSvol:` Проверяет только ссылки SYSvol.</li><li>`\\Domain\NETLOGON:` Проверяет только ссылки NETLOGON.</li><li>`\\<domain or server>\<namespace root>:` Проверяет только корневые ссылки пространства имен.</li><li>`\\<domain or server>\<namespace root>\<DFS folder>:` Проверяет только ссылки на папку DFS (Link).</li></ul> |
+| /Дфспас:`<path to get referrals>` | Может принимать следующие значения:<ul><li>**Пусто:** Проверяет только доверенные домены.</li><li>`\\Domain:` Проверяет только ссылки на контроллеры домена.</li><li>`\\Domain\SYSvol:` Проверяет только ссылки SYSvol.</li><li>`\\Domain\NETLOGON:` Проверяет только ссылки NETLOGON.</li><li>`\\<domain or server>\<namespace root>:` Проверяет только корневые ссылки пространства имен.</li><li>`\\<domain or server>\<namespace root>\<DFS folder>:` Проверяет только ссылки на папку DFS (Link).</li></ul> |
 | /Full | Применимо только к доменным и корневым ссылкам. Проверяет согласованность сведений о связи сайтов между реестром и доменными службами Active Directory (AD DS). |
 
 ## <a name="examples"></a>Примеры

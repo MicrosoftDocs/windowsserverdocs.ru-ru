@@ -3,16 +3,16 @@ title: expand
 description: Справочная статья по команде Expand, которая расширяет один или несколько сжатых файлов.
 ms.topic: reference
 ms.assetid: 66de0488-a0c4-40c2-9b03-e40c107ba343
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: b64303d2a7cd38c86d8f5c99d319e46f837f2970
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 2cada201982e90126783f7abd1a71ef60d71401e
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89635897"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101818248"
 ---
 # <a name="expand"></a>expand
 

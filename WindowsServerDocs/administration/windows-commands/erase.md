@@ -3,16 +3,16 @@ title: erase
 description: Справочная статья по команде erase, которая удаляет один или несколько файлов.
 ms.topic: reference
 ms.assetid: 024a4d0f-8679-4e06-b46f-61fdaf5464bc
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: a47817c43e8130091922a775b7844d9ea596f79b
-ms.sourcegitcommit: e164aeffc01069b8f1f3248bf106fcdb7f64f894
+ms.openlocfilehash: aa9b49008ba38d5996b80635d0691dd3924165b2
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91388257"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101818428"
 ---
 # <a name="erase"></a>erase
 

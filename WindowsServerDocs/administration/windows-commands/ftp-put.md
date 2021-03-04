@@ -3,16 +3,16 @@ title: ftp put
 description: Справочная статья по команде FTP-размещения, которая копирует локальный файл на удаленный компьютер, используя текущий тип перемещения файлов.
 ms.topic: reference
 ms.assetid: 95cc1e3f-523d-4374-98b8-16e6c276b2ca
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 03/30/2020
-ms.openlocfilehash: 24877dc154d7e88796eb3fc685351eee0c38c377
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 8d0a12b24589855447d9592b4383ac0af99d3859
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89624738"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101817548"
 ---
 # <a name="ftp-put"></a>ftp put
 

@@ -3,16 +3,16 @@ title: ftp mls
 description: Справочная статья по команде FTP MLS, которая отображает сокращенный список файлов и подкаталогов в удаленном каталоге.
 ms.topic: reference
 ms.assetid: 4738fd49-0e80-4bdf-a773-0f973db3a710
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: b46e3fdd525676eb99ddc25d771027508f02f678
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: f8a7fcf0a14950999795189d21c9d4d46b0a4388
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89635349"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101817586"
 ---
 # <a name="ftp-mls"></a>ftp mls
 
@@ -30,8 +30,8 @@ mls <remotefile>[ ] <localfile>
 
 | Параметр | Описание |
 | --------- | ----------- |
-| `<remotefile>` | Указывает файл, для которого требуется просмотреть список. При указании *ремотефилес*Используйте дефис для представления текущего рабочего каталога на удаленном компьютере. |
-| `<localfile>` | Указывает локальный файл для хранения списка. При указании параметра *локальный_файл*Используйте дефис для отображения списка на экране. |
+| `<remotefile>` | Указывает файл, для которого требуется просмотреть список. При указании *ремотефилес* Используйте дефис для представления текущего рабочего каталога на удаленном компьютере. |
+| `<localfile>` | Указывает локальный файл для хранения списка. При указании параметра *локальный_файл* Используйте дефис для отображения списка на экране. |
 
 ### <a name="examples"></a>Примеры
 

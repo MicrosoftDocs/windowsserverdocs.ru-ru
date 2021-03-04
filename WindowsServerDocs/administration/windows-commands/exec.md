@@ -3,16 +3,16 @@ title: exec
 description: Справочная статья по команде Exec, которая запускает файл скрипта на локальном компьютере.
 ms.topic: reference
 ms.assetid: 364e8baf-576f-401b-a431-7d3c06621614
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 668dc3cf3d93d11066d7dece4309f586b3a5b964
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 840829584299826bd30007347251485760b1cce8
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89635963"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101818358"
 ---
 # <a name="exec"></a>exec
 

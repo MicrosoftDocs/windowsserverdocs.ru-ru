@@ -3,16 +3,16 @@ title: ftp type
 description: Справочная статья по команде типа FTP, которая задает или отображает тип перемещения файла.
 ms.topic: reference
 ms.assetid: 6e96dcd4-08f8-4e7b-90b7-1e1761fea4c7
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 943ac3ca85c1e99118ea772338ea427d758927cb
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 9a083ea3d43dcde2496563e4848bb7e44fc7acc7
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89639391"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101817308"
 ---
 # <a name="ftp-type"></a>ftp type
 

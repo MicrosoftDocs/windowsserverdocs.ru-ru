@@ -3,16 +3,16 @@ title: diskperf
 description: Справочная статья по команде diskperf, которую можно использовать для удаленного включения или отключения счетчиков производительности физических или логических дисков на компьютерах под управлением Windows.
 ms.topic: reference
 ms.assetid: f06916e8-069b-4ec8-a6eb-59f1d9f77111
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: f0e7700b3fbe1cec79aa9cf2b5c93eab9bd8372d
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: e03dc9e39ee201de51b88b522f41482d8553519c
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89624813"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101818648"
 ---
 # <a name="diskperf"></a>diskperf
 

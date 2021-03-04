@@ -3,16 +3,16 @@ title: изменение;
 description: Справочная статья по команде Edit, запускающей редактор MS-DOS, что позволяет создавать и изменять текстовые файлы ASCII.
 ms.topic: reference
 ms.assetid: 4e0ff2e8-3518-47c1-8c69-5e93f895fa0e
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: b3723c65456fd7e17395cd7a9bc931ddc56a09b3
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: ea31ffe8483946bdaad2122fd8a51717798066e8
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89636175"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101818518"
 ---
 # <a name="edit"></a>изменение;
 
@@ -36,7 +36,7 @@ edit [/b] [/h] [/r] [/s] [/<nnn>] [[<drive>:][<path>]<filename> [<filename2> [..
 | `<nnn>` | Загружает двоичные файлы, заключив строки в *nnn* символов в ширину. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 - Для получения дополнительной справки откройте редактор MS-DOS и нажмите клавишу F1.
 

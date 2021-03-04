@@ -3,16 +3,16 @@ title: ftp remotehelp
 description: Справочная статья по команде FTP ремотехелп, которая отображает справку по удаленным командам.
 ms.topic: reference
 ms.assetid: ef23adf3-ead4-44c8-ac1d-c8a6f4b2bf73
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: c91fda83ea988f79237b27f6df6bd6062748e37c
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: b248447a66549685fa86ca599906f6d8b41ff230
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89639374"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101817428"
 ---
 # <a name="ftp-remotehelp"></a>ftp remotehelp
 

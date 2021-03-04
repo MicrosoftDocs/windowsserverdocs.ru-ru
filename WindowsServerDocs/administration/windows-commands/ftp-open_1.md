@@ -3,16 +3,16 @@ title: ftp open
 description: Справочная статья по команде FTP Open, которая подключается к указанному FTP-серверу.
 ms.topic: reference
 ms.assetid: 4b61926a-dc60-4b4c-96d3-64e5c91c18ba
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 24fabf61e57a0dda00837a15702dfe9ef5ee6862
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 7770752d47d14f795b99f954b57a511bd439ec9b
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89635285"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101817587"
 ---
 # <a name="ftp-open"></a>ftp open
 

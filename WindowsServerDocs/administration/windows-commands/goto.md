@@ -3,16 +3,16 @@ title: goto
 description: Справочная статья по команде goto, которая направляет cmd.exe на помеченную строку в пакетной программе.
 ms.topic: reference
 ms.assetid: e0de1458-1f78-48ff-a746-c285a945a510
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 537026fc2b4faafa57b7a4f2842d79775759cdc9
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 3c7b49e6e9a5cd21a40526cb8ef0717db25cc79a
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89634802"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101816955"
 ---
 # <a name="goto"></a>goto
 
@@ -31,7 +31,7 @@ goto <label>
 | `<label>` | Задает текстовую строку, используемую в качестве метки в пакетной программе. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 -  Если расширения команд включены (по умолчанию) и используется команда **goto** с целевой меткой **: EOF**, то управление передается в конец файла текущего пакетного скрипта и выход из файла пакетного сценария без определения метки. При использовании этой команды с меткой **: EOF** необходимо вставить двоеточие перед меткой. Например: `goto:EOF`.
 

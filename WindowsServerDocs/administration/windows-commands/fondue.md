@@ -3,16 +3,16 @@ title: фондю
 description: Справочная статья по команде фондуе, которая включает дополнительные компоненты Windows, загружая необходимые файлы из Центр обновления Windows или другого источника, указанного групповая политика.
 ms.topic: reference
 ms.assetid: fc4467f6-ddbb-4d6d-b51e-5a50a957b8c0
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: c80c6b1aef9ea37bdb4ff497ff7a7b5e54f8c468
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 6b78de1d6e11ae8bd0aa494881530e36ed33c39e
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89634847"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101818048"
 ---
 # <a name="fondue"></a>фондю
 

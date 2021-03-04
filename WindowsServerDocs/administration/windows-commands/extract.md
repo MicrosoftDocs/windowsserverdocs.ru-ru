@@ -3,16 +3,16 @@ title: extract
 description: Справочная статья по команде Extract, которая извлекает файлы из исходного расположения.
 ms.topic: reference
 ms.assetid: 20dab03e-f6e1-4eb8-b8a1-fd6f1d97ee83
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 12/29/2020
-ms.openlocfilehash: 5fd35a547cd14b69f51bb26380e2fd2e72443446
-ms.sourcegitcommit: af9381b62f8ae6c78383ed6b81c37f843b5ad7e4
+ms.openlocfilehash: 47a31ae1d406aa08a6cab8271d8c94695b416758
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/16/2021
-ms.locfileid: "100549334"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101818198"
 ---
 # <a name="extract--extrac32"></a>Extract/extrac32
 

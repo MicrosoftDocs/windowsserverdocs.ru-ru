@@ -3,16 +3,16 @@ title: gpfixup
 description: Справочная статья по команде гпфиксуп, которая устраняет зависимости имен доменов в групповая политика объектах и групповая политика ссылки после операции переименования домена.
 ms.topic: reference
 ms.assetid: 2b145410-fc75-4526-932d-f16b7ee3aaef
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: b55d783034bd5adf2032db7b895e9bf485c664df
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 14c4231c6caa05e4a5490e34bf17181cc49ab9d3
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89634765"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101816850"
 ---
 # <a name="gpfixup"></a>gpfixup
 

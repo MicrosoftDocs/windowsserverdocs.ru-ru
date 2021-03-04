@@ -3,16 +3,16 @@ title: Dfsutil
 description: Справочная статья по команде Dfsutil, которая управляет пространствами имен, серверами и клиентами DFS.
 ms.topic: reference
 ms.assetid: ef5093a4-0d24-4b21-9d04-59933ad98e2c
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 7ea0cd5c73ad9b415d121fb7f6e3ffee317b07b3
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.openlocfilehash: 4e5b6347569f525cfb223c89e8fb08ea4361c44b
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96864223"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101818788"
 ---
 # <a name="dfsutil"></a>Dfsutil
 
@@ -37,7 +37,7 @@ ms.locfileid: "96864223"
 
 Следующие функциональные возможности доступны только в качестве параметров Dfsutil:
 
-| Параметр | Описание: |
+| Параметр | Описание |
 | --------- | ----------- |
 | клиент | Отображает или изменяет сведения о клиенте или разделы реестра. |
 | диагностик | Выполните диагностику или просмотрите дфсдирс/дфспас. |

@@ -3,16 +3,16 @@ title: echo (вывод на экран)
 description: Справочная статья по команде Echo, которая отображает сообщения или включает или отключает функцию вывода команд.
 ms.topic: reference
 ms.assetid: fb9fcd0f-5e73-4504-aa95-78204e1a79d3
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 6adafeeca8284aa240a59db0eb6c64553203ca12
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: f6f02dcc547fe113d0db2d02f7964d4013832ec9
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89636226"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101818558"
 ---
 # <a name="echo"></a>echo (вывод на экран)
 
@@ -33,7 +33,7 @@ echo [on | off]
 | `<message>` | Задает текст, отображаемый на экране. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 - `echo <message>`Команда особенно полезна при отключенном **эхо** . Чтобы отобразить сообщение, которое содержит несколько строк без отображения команд, можно включить несколько `echo <message>` команд после команды **echo off** в пакетной программе.
 

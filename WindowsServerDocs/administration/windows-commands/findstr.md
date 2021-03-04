@@ -3,16 +3,16 @@ title: findstr
 description: Справочная статья по команде findstr, которая выполняет поиск шаблонов текста в файлах.
 ms.topic: reference
 ms.assetid: c2d803fb-4cd2-46a1-a1b7-6f5e0249c418
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 4102971c4490eb42ccd5d17e7cc60f09c95b6878
-ms.sourcegitcommit: e0070b24e0423187eb2b36ba92072fed23880aa8
+ms.openlocfilehash: ebdbb30b5486fb49aad5271a09b2c9a67d743073
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "98186402"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101818158"
 ---
 # <a name="findstr"></a>findstr
 
@@ -46,11 +46,11 @@ findstr [/b] [/e] [/l | /r] [/s] [/i] [/x] [/v] [/n] [/m] [/o] [/p] [/f:<file>] 
 | /g`<file>` | Возвращает строки поиска из указанного файла. |
 | /d`<dirlist>` | Выполняет поиск в указанном списке каталогов. Каждый каталог должен быть отделен точкой с запятой (например,;) `dir1;dir2;dir3` . |
 | /`<colorattribute>` | Задает атрибуты цвета с двумя шестнадцатеричными цифрами. Введите дополнительные `color /?` сведения. |
-| `<strings>` | Задает текст для поиска в файле *filename*. Обязательный. |
+| `<strings>` | Задает текст для поиска в файле *filename*. Обязательный элемент. |
 | `[\<drive>:][<path>]<filename>[...]` | Указывает расположение и файл или файлы для поиска. Требуется по крайней мере одно имя файла. |
 | /? | Отображает справку в командной строке. |
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 - Все параметры командной строки **findstr** должны предшествовать *строкам* и *именам файлов* в строке команды.
 

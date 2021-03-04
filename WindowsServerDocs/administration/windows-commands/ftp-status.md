@@ -3,16 +3,16 @@ title: ftp status
 description: Справочная статья по команде FTP status, в которой отображается текущее состояние FTP-подключений.
 ms.topic: reference
 ms.assetid: d78c5629-6f73-4587-af0b-bd3cc3af5225
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: a37da9590912cb91cd2c9935416414dbb940f93f
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: d2d2a66726a5edefb209fb350d2de7c1a50a5f15
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89639366"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101817378"
 ---
 # <a name="ftp-status"></a>ftp status
 

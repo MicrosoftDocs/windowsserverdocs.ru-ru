@@ -3,16 +3,16 @@ title: dfsrmig
 description: Справочная статья по команде Dfsrmig, которая переносит репликацию SYSvol с FRS на репликация DFS, предоставляет сведения о ходе выполнения миграции и изменяет объекты AD DS для поддержки миграции.
 ms.topic: reference
 ms.assetid: e1b6a464-6a93-4e66-9969-04f175226d8d
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 5c97132a078f1459890062fa1f99a58b6718bd84
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 63d01f111f60eaa5d5ba47e769364c2643b1a79f
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89635023"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101818808"
 ---
 # <a name="dfsrmig"></a>dfsrmig
 
@@ -39,7 +39,7 @@ dfsrmig [/setglobalstate <state> | /getglobalstate | /getmigrationstate | /creat
 | `/deleterodfsrmember [<read_only_domain_controller_name>]` | Удаляет глобальные параметры AD DS для репликация DFS, соответствующих указанному контроллеру домена только для чтения, или удаляет глобальные параметры AD DS для репликация DFS для всех контроллеров домена только для чтения, если для параметра не указано значение `<read_only_domain_controller_name>` .<p>Используйте этот параметр, чтобы вручную удалить параметры AD DS только в случае сбоя автоматического удаления на контроллере домена только для чтения и зависания контроллера домена только для чтения в течение длительного времени при откате миграции с подготовленного состояния на состояние запуска. |
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 - Используйте `/setglobalstate <state>` команду, чтобы задать глобальное состояние миграции в AD DS эмуляторе основного контроллера домена, чтобы инициировать процесс миграции и управлять им. Если эмулятор основного контроллера домена недоступен, эта команда завершается с ошибкой.
 

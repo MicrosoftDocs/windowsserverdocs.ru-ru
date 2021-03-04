@@ -3,16 +3,16 @@ title: ftp mput
 description: Справочная статья по команде FTP мпут, которая копирует локальные файлы на удаленный компьютер, используя текущий тип перемещения файлов.
 ms.topic: reference
 ms.assetid: 980f15e7-7cf1-4813-9946-a8cc4edfb198
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: cd799e713b71f23c7ce22a9ee81dc19cd78f8c31
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: b7bd468a8001149c946cdc059d4a25e34daaa0c3
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89635317"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101817608"
 ---
 # <a name="ftp-mput"></a>ftp mput
 

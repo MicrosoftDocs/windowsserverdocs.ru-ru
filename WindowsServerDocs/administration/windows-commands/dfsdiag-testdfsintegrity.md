@@ -3,16 +3,16 @@ title: dfsdiag testdfsintegrity
 description: Справочная статья по команде дфсдиаг тестдфсинтегрити, которая проверяет целостность пространства имен распределенная файловая система (DFS).
 ms.topic: reference
 ms.assetid: 173ee832-26e1-4ec8-a23a-38a7d6229ac3
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 4aa6eb44084ec939ebed708982e527b237d407c7
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 1f67a6bfe56dd14f24e141fed83d2ccfcb11959b
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89634158"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101818858"
 ---
 # <a name="dfsdiag-testdfsintegrity"></a>dfsdiag testdfsintegrity
 

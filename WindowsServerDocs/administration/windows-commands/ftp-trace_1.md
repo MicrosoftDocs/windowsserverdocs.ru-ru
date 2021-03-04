@@ -3,16 +3,16 @@ title: ftp trace
 description: Справочная статья по команде FTP Trace, которая переключает трассировку пакетов.
 ms.topic: reference
 ms.assetid: 8740c1fb-a7bf-45c8-b2f9-61fae4f3506e
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: f11771c28284238712a6da30609e171d86451463
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 9513780b751082299696a0772af7557cea0b38a1
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89636707"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101817328"
 ---
 # <a name="ftp-trace"></a>ftp trace
 

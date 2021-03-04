@@ -3,16 +3,16 @@ title: dfsdiag testdcs
 description: Справочная статья по команде дфсдиаг тестдкс, которая проверяет конфигурацию контроллеров домена в указанном домене.
 ms.topic: reference
 ms.assetid: abb915ab-23eb-45d7-9a2e-b6b9a5756a70
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 0c2796cc149d905abae56bb909d337862c5fd7f2
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 86f387d85ee7a8f4a63d806a06fcd10cd9a7a931
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89633851"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101818958"
 ---
 # <a name="dfsdiag-testdcs"></a>dfsdiag testdcs
 
@@ -36,7 +36,7 @@ dfsdiag /testdcs [/domain:<domain_name>]
 
 | Параметр | Описание |
 | --------- | ----------- |
-| /Domain`<domain_name>` | Имя проверяемого домена. Этот параметр является необязательным. Значение по умолчанию — локальный домен, к которому присоединен локальный узел. |
+| /Domain`<domain_name>` | Имя проверяемого домена. Это необязательный параметр. Значение по умолчанию — локальный домен, к которому присоединен локальный узел. |
 
 ## <a name="examples"></a>Примеры
 

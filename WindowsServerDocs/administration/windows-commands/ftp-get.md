@@ -3,16 +3,16 @@ title: ftp get
 description: Справочная статья по команде FTP Get, которая копирует удаленный файл на локальный компьютер, используя текущий тип перемещения файлов.
 ms.topic: reference
 ms.assetid: d70355c4-58ef-43e0-916b-c7ecf77e6ee4
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 749c32160c58e2d59563b2355fa0b4c6e6a4c82a
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: cd8b39b596398cb670f5ec5b37932cfdaef65895
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89621778"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101817808"
 ---
 # <a name="ftp-get"></a>ftp get
 

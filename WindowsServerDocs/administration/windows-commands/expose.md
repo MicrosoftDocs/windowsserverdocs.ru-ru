@@ -3,16 +3,16 @@ title: expose
 description: Справочная статья по команде предоставления, которая предоставляет постоянную теневую копию в виде буквы диска, общего ресурса или точки подключения.
 ms.topic: reference
 ms.assetid: 9b0a21cf-3bef-4ade-b8f1-ac42f9203947
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 3d36ec0a1c4f85282c1949700dad1f4568356748
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: e0fe667d6220d9064bcd5cc8ef7dc5971adc5e97
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89635903"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101818258"
 ---
 # <a name="expose"></a>expose
 

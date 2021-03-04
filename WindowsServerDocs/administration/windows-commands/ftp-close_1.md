@@ -3,16 +3,16 @@ title: ftp close
 description: Справочная статья по команде FTP Close, которая завершает сеанс FTP с удаленным сервером и остается в строке FTP.
 ms.topic: reference
 ms.assetid: 1dc344a9-64f7-45bc-9d44-a48afc844e36
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 84aa3a2ce9917cf9e59918d176751d535e526c41
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: c607e1f86986a5fbabae061a9e9bfe4d5fc5ff02
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89638513"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101817839"
 ---
 # <a name="ftp-close"></a>ftp close
 

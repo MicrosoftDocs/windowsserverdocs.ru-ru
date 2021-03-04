@@ -3,16 +3,16 @@ title: ftype
 description: Справочная статья по команде ftype, которая отображает или изменяет тип файла, используемый в сопоставлении расширений имен файлов.
 ms.topic: reference
 ms.assetid: 6fb53cee-9bed-44dd-af5d-bc7cec1dd114
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: db5781eccb4fc54fea42586b5e7aab779509bffd
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 2e91918e1bbf65ae3638d077dd1141b77db058f6
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89636650"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101817096"
 ---
 # <a name="ftype"></a>ftype
 
@@ -36,13 +36,13 @@ ftype [<filetype>[=[<opencommandstring>]]]
 | `<opencommandstring>` | Указывает командную строку открытия, используемую при открытии файлов указанного типа.|
 | /? | Отображение справки в командной строке. |
 
-#### <a name="remarks"></a>Примечания
+#### <a name="remarks"></a>Комментарии
 
 В следующей таблице описано, как команда **ftype** заменяет переменные в строке открытой команды:
 
 | Переменная | Заменяющее значение |
 | -------- | ----------------- |
-| `%0` или `%1` | Заменяется именем файла, запускаемым через ассоциацию. |
+| `%0` либо `%1` | Заменяется именем файла, запускаемым через ассоциацию. |
 | `%*` | Возвращает все параметры. |
 | `%2`, `%3`, ... | Получает первый параметр ( `%2` ), второй параметр ( `%3` ) и т. д. |
 | `%~<n>` | Возвращает все оставшиеся параметры, начиная с *n*-го параметра, где *n* может быть любым числом от 2 до 9. |

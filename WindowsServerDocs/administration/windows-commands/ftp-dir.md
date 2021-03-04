@@ -3,16 +3,16 @@ title: ftp dir
 description: Справочная статья по команде FTP dir, которая отображает список файлов каталога и подкаталогов на удаленном компьютере.
 ms.topic: reference
 ms.assetid: a29a92a5-7b79-4e6e-95cf-2ccb38bb6fb2
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 8641fdca55976eb5998cdfbba58eddd3e6d8f286
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: aee07906ff43e235f0513b4139426e83ca9d4054
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89621785"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101817788"
 ---
 # <a name="ftp-dir"></a>ftp dir
 
@@ -41,7 +41,7 @@ dir [<remotedirectory>] [<localfile>]
 dir dir1
 ```
 
-Чтобы сохранить список текущего каталога на удаленном компьютере в *dirlist.txt*локального файла, введите:
+Чтобы сохранить список текущего каталога на удаленном компьютере в *dirlist.txt* локального файла, введите:
 
 ```
 dir . dirlist.txt

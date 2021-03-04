@@ -3,16 +3,16 @@ title: dfsdiag
 description: Справочная статья по команде дфсдиаг, которая предоставляет диагностические сведения для пространств имен DFS.
 ms.topic: reference
 ms.assetid: c0891e67-0187-4f18-923d-5623e6127f90
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 05ca89a2ad2984ec7e47002489f26968e7d2d69b
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 1edf5bc387a424a83162c93bc4d9036ffddb72c6
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89635031"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101818818"
 ---
 # <a name="dfsdiag"></a>dfsdiag
 

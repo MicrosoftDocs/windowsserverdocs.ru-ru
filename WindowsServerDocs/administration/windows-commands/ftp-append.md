@@ -3,16 +3,16 @@ title: ftp append
 description: Справочная статья по команде FTP Append, которая добавляет локальный файл в файл на удаленном компьютере с использованием текущего параметра типа файла.
 ms.topic: reference
 ms.assetid: 7c1a133c-31dc-41a4-9eb9-258efd79804d
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 42270b8f3633158e12d472a234fcf1904cee86de
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: b28248100d146e6e9faafdb45efccdd3cf18c6ce
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89638573"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101818008"
 ---
 # <a name="ftp-append"></a>ftp append
 

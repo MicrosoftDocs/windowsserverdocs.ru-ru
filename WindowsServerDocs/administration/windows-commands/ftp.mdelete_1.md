@@ -3,16 +3,16 @@ title: ftp mdelete
 description: Справочная статья по команде FTP мделете, которая удаляет файлы на удаленном компьютере.
 ms.topic: reference
 ms.assetid: 8a80a8f5-e880-40a8-abc9-29a41836844f
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 4b9ca1843fd405aef2a1c28c8b7f94bbc650f2d4
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 65e7d924a624af079ec7254179c847297669bc8d
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89627627"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101817211"
 ---
 # <a name="ftp-mdelete"></a>ftp mdelete
 

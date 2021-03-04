@@ -3,16 +3,16 @@ title: сценарии и примеры для DiskPart
 description: Справочная статья по сценариям DiskPart и примеры автоматизации задач, связанных с диском, таких как создание томов или преобразование дисков в динамические диски.
 ms.topic: reference
 ms.assetid: 319c0795-11df-47c8-b203-eadb0577ee0d
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 51ebd58874e2bf56c391fe7ec9a6d257ab5a0567
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.openlocfilehash: 128e76717803792d54e5770cfd913a4b5e0c343b
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96864213"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101818658"
 ---
 # <a name="diskpart-scripts-and-examples"></a>сценарии и примеры для DiskPart
 
@@ -45,7 +45,7 @@ diskpart /s scriptname.txt
 diskpart /s scriptname.txt > logfile.txt
 ```
 
-### <a name="remarks"></a>Remarks
+### <a name="remarks"></a>Комментарии
 
 - При использовании команды **DiskPart** в составе скрипта рекомендуется выполнять все операции DiskPart вместе в рамках одного сценария DiskPart. Можно выполнять последовательные скрипты DiskPart, но по крайней мере 15 секунд между каждым сценарием необходимо выполнить полное завершение работы, прежде чем запускать команду **DiskPart** в последующих сценариях. В противном случае последующие сценарии могут завершиться ошибкой. Можно добавить паузу между последовательными сценариями DiskPart, добавив `timeout /t 15` команду в пакетный файл вместе с сценариями DiskPart.
 

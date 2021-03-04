@@ -3,16 +3,16 @@ title: ftp send
 description: Справочная статья по команде FTP Send, которая копирует локальный файл на удаленный компьютер с использованием текущего типа передачи файлов.
 ms.topic: reference
 ms.assetid: 000aa80a-60a0-4b51-815f-3237a4f3e0f4
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: bd2451ba12e2b8017c50bd22df2f61bba253808a
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 0eba9b57f0401606afcbe84448683395140ceb3a
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89621601"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101817398"
 ---
 # <a name="ftp-send"></a>ftp send
 
