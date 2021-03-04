@@ -4,15 +4,15 @@ description: Узнайте, как установить и настроить E
 manager: brianlic
 ms.topic: article
 ms.assetid: f04eb11e-ed5f-42a1-a77b-57a248ba2d10
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 191c1d20d18b35bdac36f6421f1f6eda5f99a72a
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: c074091b608f44634900ab70ea0fabcf0fc7d823
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98039304"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101834104"
 ---
 # <a name="step-3-install-and-configure-edge2"></a>Шаг 3. Установка и настройка EDGE2
 

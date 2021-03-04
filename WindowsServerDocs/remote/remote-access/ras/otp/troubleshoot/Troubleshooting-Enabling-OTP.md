@@ -4,15 +4,15 @@ description: Узнайте, как устранить неполадки, св�
 manager: brianlic
 ms.topic: article
 ms.assetid: b58252ca-4c1d-4664-a3c4-7301e2121517
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: a7189238da0c318b89876955913c2cf687c7a5f5
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: 4b2f925d4ce921587412a333e6511d3f79ac34c4
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98039674"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101834096"
 ---
 # <a name="troubleshooting-enabling-otp"></a>Диагностика включения OTP
 

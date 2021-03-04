@@ -4,15 +4,15 @@ description: Узнайте, как настроить шлюз по умолч�
 manager: brianlic
 ms.topic: article
 ms.assetid: 70357156-fcb0-4346-a61e-4ea963e3ffb0
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 9939cb397fa7c5386e4058a834a205afaa99cd9f
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: 5a5d93a7127a5837da7795648af09ebf4a94dfba
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98040484"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101834372"
 ---
 # <a name="step-5-configure-dc1"></a>Шаг 5. Настройка DC1
 

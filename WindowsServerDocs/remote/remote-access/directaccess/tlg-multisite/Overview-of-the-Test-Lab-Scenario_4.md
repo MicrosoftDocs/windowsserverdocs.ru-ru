@@ -4,15 +4,15 @@ description: Узнайте, что такое развертывание Direct
 manager: brianlic
 ms.topic: article
 ms.assetid: 9afeced4-1a9b-4cb3-9fc4-d7e44c675755
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 12d6868334bafba881531fd2d5cdaa99d10555f8
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: b83086ebcb0624a78bfa606cf71140083fdeb78b
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98040104"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101834265"
 ---
 # <a name="overview-of-the-test-lab-scenario"></a>Обзор сценария лаборатории тестирования
 

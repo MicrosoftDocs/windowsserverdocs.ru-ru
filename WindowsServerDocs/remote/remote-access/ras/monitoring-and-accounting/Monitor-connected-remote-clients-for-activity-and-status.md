@@ -4,15 +4,15 @@ description: Узнайте, как использовать консоль уп
 manager: brianlic
 ms.topic: article
 ms.assetid: beb94475-b21f-46a9-ac51-bf2bb28ca94e
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 01d53fee8f5649b1d3fe03a78728ac04da465e87
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: 687209c1708ebc298a6ed8109df6460893a6e90b
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98039884"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101834205"
 ---
 # <a name="monitor-connected-remote-clients-for-activity-and-status"></a>Мониторинг активности и статуса подключенных удаленных клиентов.
 
@@ -35,7 +35,7 @@ ms.locfileid: "98039884"
 
 4.  Вы увидите список пользователей, подключенных к серверу удаленного доступа, и подробную статистику по ним. Щелкните первую строку в списке, соответствующую клиенту. При выборе строки на панели предварительного просмотра отображается активность удаленных пользователей.
 
-![Windows PowerShell Windows PowerShell — ](../../../media/Monitor-connected-remote-clients-for-activity-and-status/PowerShellLogoSmall.gif) * *_<em>эквивалентные команды</em>_* _
+![](../../../media/Monitor-connected-remote-clients-for-activity-and-status/PowerShellLogoSmall.gif)***<em>Эквивалентные команды</em> в Windows PowerShell Windows PowerShell***
 
 Следующие командлеты Windows PowerShell выполняют ту же функцию, что и предыдущая процедура. Вводите каждый командлет в одной строке, несмотря на то, что здесь они могут отображаться разбитыми на несколько строк из-за ограничений форматирования.
 
@@ -47,7 +47,7 @@ PS> Get-RemoteAccessConnectionStatistics
 
 |Имя поля|Значение|
 |-------|-----|
-|Имя пользователя|Имя пользователя или псевдоним удаленного пользователя. Для выбора группы пользователей, например contoso \\ _ или \Администратор., можно использовать подстановочные знаки. \*|
+|Имя пользователя|Имя пользователя или псевдоним удаленного пользователя. Для выбора группы пользователей, например contoso \\ * или \Администратор., можно использовать подстановочные знаки. \*|
 |Hostname (Имя узла)|Имя учетной записи компьютера удаленного пользователя. Можно также указать адрес IPv4 или IPv6.|
 |Тип|DirectAccess или VPN. Если выбран параметр DirectAccess, будут перечислены все удаленные пользователи, подключенные с помощью DirectAccess. Если выбран параметр VPN, будут перечислены все удаленные пользователи, подключенные с помощью VPN.|
 |ISP-адрес|IPv4- или IPv6-адрес удаленного пользователя.|

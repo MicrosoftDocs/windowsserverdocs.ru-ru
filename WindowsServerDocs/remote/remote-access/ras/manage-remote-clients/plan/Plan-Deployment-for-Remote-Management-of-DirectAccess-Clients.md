@@ -4,15 +4,15 @@ description: Узнайте о шагах планирования для раз
 manager: brianlic
 ms.topic: article
 ms.assetid: ab518c0d-a496-414e-b9c7-f4378d8b13aa
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: c23e747ccc86f0e3e080df8e352dd2c33a3484ee
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: fd10c5ddde5ed6c13383ef66aabdd67582913aa4
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98039994"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101834158"
 ---
 # <a name="plan-deployment-for-remote-management-of-directaccess-clients"></a>Планирование развертывания для удаленного управления клиентами DirectAccess
 

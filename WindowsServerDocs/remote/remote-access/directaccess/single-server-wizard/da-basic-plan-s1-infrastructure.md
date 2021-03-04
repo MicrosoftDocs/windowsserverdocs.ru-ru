@@ -3,15 +3,15 @@ title: Шаг 1. Планирование базовой инфраструкт�
 description: Узнайте, как выполнить планирование инфраструктуры, необходимой для базового развертывания DirectAccess.
 manager: brianlic
 ms.topic: article
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 834259ce4d7349359c54a8cd2d4219feff4a31d3
-ms.sourcegitcommit: eb995fa887ffe1408b9f67caf743c66107173666
+ms.openlocfilehash: 3c93aa714687a2b62448e0113fca2174fff2d627
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "98666553"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101834295"
 ---
 # <a name="step-1-plan-the-basic-directaccess-infrastructure"></a>Шаг 1. Планирование базовой инфраструктуры DirectAccess
 Первым шагом для базового развертывания DirectAccess на одном сервере является планирование инфраструктуры, необходимой для развертывания. В этом разделе пошагово описывается планирование инфраструктуры:

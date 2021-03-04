@@ -4,15 +4,15 @@ description: В этом разделе приводятся общие свед
 manager: brianlic
 ms.topic: how-to
 ms.assetid: c6f36998-5b64-45d1-b1f0-0f0d6604dbe3
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 12/09/2020
-ms.openlocfilehash: 19d36c075ca6059e9fb39556d89322f222139359
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 33b86a3e25e19c7e82669142d5edce1bcaed71d1
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97949910"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101834285"
 ---
 # <a name="whats-new-in-dhcp"></a>Новые возможности DHCP
 
@@ -59,7 +59,7 @@ DHCP теперь поддерживает параметр 82 \( подвари
 |--------------------|---------------|
 | Windows Server 2008 |Поддерживается|
 | Windows Server 2008 R2 |Поддерживается|
-| Windows Server 2012 |Поддерживается|
+| Windows Server 2012 |Поддерживается|
 | Windows Server 2012 R2 |Поддерживается|
 | Windows Server 2016|Не поддерживается|
 
@@ -71,4 +71,4 @@ DHCP теперь поддерживает параметр 82 \( подвари
 
 ## <a name="additional-references"></a>Дополнительные ссылки
 
--   [Dynamic Host Configuration Protocol (DHCP)](./dhcp-top.md) (Протокол DHCP)
+-   [Протокол DHCP](./dhcp-top.md)

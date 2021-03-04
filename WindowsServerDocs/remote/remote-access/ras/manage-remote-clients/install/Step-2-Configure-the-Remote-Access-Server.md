@@ -4,15 +4,15 @@ description: Узнайте, как настроить параметры кли
 manager: brianlic
 ms.topic: article
 ms.assetid: c0257b98-5633-4264-9df6-b6ffae80592c
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 7d7b2a29ef22f8768861eb456e0ded2c0e9a9432
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: 31452e45557879923a911994dff37b1ea68f33d1
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98040044"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101834185"
 ---
 # <a name="step-2-configure-the-remote-access-server"></a>Шаг 2. Настройка сервера удаленного доступа
 
@@ -56,7 +56,7 @@ ms.locfileid: "98040044"
 
 8.  В диалоговом окне **Ход установки** убедитесь в успешном завершении установки, а затем нажмите кнопку **Закрыть**.
 
-![Windows PowerShell Windows PowerShell — ](../../../../media/Step-2-Configure-the-Remote-Access-Server/PowerShellLogoSmall.gif) * *_<em>эквивалентные команды</em>_* _
+![](../../../../media/Step-2-Configure-the-Remote-Access-Server/PowerShellLogoSmall.gif)***<em>Эквивалентные команды</em> в Windows PowerShell Windows PowerShell***
 
 Следующие командлеты Windows PowerShell выполняют ту же функцию, что и предыдущая процедура. Вводите каждый командлет в одной строке, несмотря на то, что здесь они могут отображаться разбитыми на несколько строк из-за ограничений форматирования.
 
@@ -78,7 +78,7 @@ Install-WindowsFeature RemoteAccess -IncludeManagementTools
 
 #### <a name="to-configure-the-deployment-type"></a>Настройка типа развертывания
 
-1.  На сервере удаленного доступа откройте консоль управления удаленным доступом: на экране _ *Запуск** введите, введите в **командной строке консоль управления удаленным доступом** и нажмите клавишу ВВОД. Если появится диалоговое окно **контроля учетных записей**, подтвердите, что отображаемое в нем действие именно то, которое требуется, и нажмите кнопку **Да**.
+1.  На сервере удаленного доступа откройте консоль управления удаленным доступом: на **начальном** экране введите, введите **консоль управления удаленным доступом** и нажмите клавишу ВВОД. Если появится диалоговое окно **контроля учетных записей**, подтвердите, что отображаемое в нем действие именно то, которое требуется, и нажмите кнопку **Да**.
 
 2.  В средней области консоли управления удаленным доступом щелкните **Запустить мастер настройки удаленного доступа**.
 

@@ -2,16 +2,16 @@
 description: 'Дополнительные сведения: Настройка защищенных учетных записей'
 title: Настройка защищенных учетных записей
 ms.topic: article
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/12/2016
-ms.openlocfilehash: c9f5e16d6dc6ccdc8233ad6daac1d917d47fdec8
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: 2c7e37afe9c798d52ca44324662c26bd4e283e9a
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97039582"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101834442"
 ---
 # <a name="how-to-configure-protected-accounts"></a>Настройка защищенных учетных записей
 

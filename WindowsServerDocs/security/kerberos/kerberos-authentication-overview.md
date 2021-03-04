@@ -3,16 +3,16 @@ title: Kerberos Authentication Overview
 description: Сведения о проверке подлинности Kerberos в Windows Server 2012 и Windows 8.
 ms.topic: article
 ms.assetid: 646c6309-e865-4be2-b415-44dd125af5c2
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/12/2016
-ms.openlocfilehash: dd3ce34602f39ea678e78a958d3efaa016c38d74
-ms.sourcegitcommit: d42b80f947dbfa8660d982be67d77745a28081e5
+ms.openlocfilehash: 4624ab1270bbbfaf8b59c97fb2ace3ab477a78c5
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "98113170"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101834382"
 ---
 # <a name="kerberos-authentication-overview"></a>Kerberos Authentication Overview
 

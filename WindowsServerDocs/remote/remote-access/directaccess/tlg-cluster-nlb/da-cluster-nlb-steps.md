@@ -4,15 +4,15 @@ description: Узнайте, как настроить инфраструкту�
 manager: brianlic
 ms.topic: article
 ms.assetid: e508d3ee-ffa6-463f-a3dd-9e35e745c005
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 7b9a5497803464f8bb3fde02785f09c0b99511a9
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: e124790acbc9d2383e145656e18485e7de1bc9fd
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98040224"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101834422"
 ---
 # <a name="steps-for-configuring-the-directaccess-cluster-nlb-test-lab"></a>Шаги по настройке лаборатории тестирования DirectAccess Cluster-NLB
 

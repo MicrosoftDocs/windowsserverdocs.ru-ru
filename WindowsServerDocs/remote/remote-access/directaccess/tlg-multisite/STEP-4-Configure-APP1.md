@@ -4,15 +4,15 @@ description: Узнайте, как настроить шлюз по умолч�
 manager: brianlic
 ms.topic: article
 ms.assetid: 7000e80f-31b1-43c5-b51e-1469d26909e5
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 43b77e32bae337ee1751ed9e6c12e2fa30f0c52c
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: 05458d794c9dfbaf502283734c24db09daeaf426
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98040464"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101834402"
 ---
 # <a name="step-4-configure-app1"></a>Шаг 4. Настройка APP1
 

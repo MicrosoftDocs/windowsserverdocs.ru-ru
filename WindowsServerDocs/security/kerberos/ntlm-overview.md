@@ -3,16 +3,16 @@ title: NTLM Overview
 description: Узнайте о NTLM, любых изменениях в функциональных возможностях и найдите ссылки на технические ресурсы для проверки подлинности Windows и NTLM для Windows Server 2012 и предыдущих версий.
 ms.topic: article
 ms.assetid: 773909fd-c0bc-498a-95fc-bb452ec04d90
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/12/2016
-ms.openlocfilehash: c639176afb1886cef2509d1747a94a79dfc3a017
-ms.sourcegitcommit: d42b80f947dbfa8660d982be67d77745a28081e5
+ms.openlocfilehash: 9ff0c372d64aa621147488bdf301b68b2913a8a3
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "98112880"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101834392"
 ---
 # <a name="ntlm-overview"></a>NTLM Overview
 

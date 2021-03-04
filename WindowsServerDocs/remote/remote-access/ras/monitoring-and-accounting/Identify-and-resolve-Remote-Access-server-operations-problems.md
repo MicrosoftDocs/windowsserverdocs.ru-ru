@@ -4,15 +4,15 @@ description: Узнайте, как обнаруживать проблемы с
 manager: brianlic
 ms.topic: article
 ms.assetid: 7ce84c9f-fd1f-4463-8fc7-d2f33344a2c9
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 23a79e792b7601b4eeadf05e5844d9ca722f3c6d
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: f378be3489791513a9f2e3bc79f232a17e6c3d2f
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98039894"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101834195"
 ---
 # <a name="identify-and-resolve-remote-access-server-operations-problems"></a>Выявление и ликвидация сбоев в работе сервера удаленного доступа
 
@@ -59,7 +59,7 @@ ms.locfileid: "98039894"
 
 4.  Вы увидите список компонентов с зеленым или красным значком, который указывает их рабочее состояние. Щелкните строку **IP-HTTPS** в списке. При выборе строки сведения об этой операции отображаются в области **сведений** следующим образом:
 
-    **Error**
+    **Ошибка**
 
     Служба вспомогательного приложения IP (IPHlpSvc) остановлена. DirectAccess может работать не так, как ожидалось. Служба поддержки IP-адресов обеспечивает туннельное подключение с помощью платформы подключения, технологий туннелирования IPv6 и IP-HTTPS.
 
@@ -86,10 +86,10 @@ ms.locfileid: "98039894"
 
 2.  В списке **служб** прокрутите вниз и щелкните правой кнопкой мыши **вспомогательный метод IP** и выберите пункт **запустить**.
 
-![Windows PowerShell Windows PowerShell — ](../../../media/Identify-and-resolve-Remote-Access-server-operations-problems/PowerShellLogoSmall.gif) * *_<em>эквивалентные команды</em>_* _
+![](../../../media/Identify-and-resolve-Remote-Access-server-operations-problems/PowerShellLogoSmall.gif)***<em>Эквивалентные команды</em> в Windows PowerShell Windows PowerShell***
 
 Следующие командлеты Windows PowerShell выполняют ту же функцию, что и предыдущая процедура. Вводите каждый командлет в одной строке, несмотря на то, что здесь они могут отображаться разбитыми на несколько строк из-за ограничений форматирования.
 
 ```PowerShell
-PS> Get-RemoteAccessHealth | Where-Object {$_.Component -eq "IP-HTTPS"} | Format-List -Property _
+PS> Get-RemoteAccessHealth | Where-Object {$_.Component -eq "IP-HTTPS"} | Format-List -Property *
 ```

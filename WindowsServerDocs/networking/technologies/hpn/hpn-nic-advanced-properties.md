@@ -4,15 +4,15 @@ description: Управлять сетевыми картами и всеми ф
 ms.topic: article
 ms.assetid: 0cafb1cc-5798-42f5-89b6-3ffe7ac024ba
 manager: dougkim
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 09/20/2018
-ms.openlocfilehash: a08de5815a364dc39dd975a37ac3be594978ea88
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.openlocfilehash: 9db01cb9365e098dae2f58a68f9a6b83cf3c82aa
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96864493"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101834362"
 ---
 # <a name="nic-advanced-properties"></a>Дополнительные свойства NIC
 
