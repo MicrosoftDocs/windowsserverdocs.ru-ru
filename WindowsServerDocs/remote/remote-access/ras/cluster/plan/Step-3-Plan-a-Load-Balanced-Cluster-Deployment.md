@@ -4,15 +4,15 @@ description: Узнайте, как спланировать конфигура�
 manager: brianlic
 ms.topic: article
 ms.assetid: 7540c17b-81de-47de-a04f-3247afa26f70
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 84d33c25bec9c6b81c5fe36c34c22cbf82ccac62
-ms.sourcegitcommit: 605a9b46b74b2c7a9116e631e902467ea02a6e70
+ms.openlocfilehash: 907d18833992f86b6a7d62700fc5d0611b44eaf1
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97964959"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101830975"
 ---
 # <a name="step-3-plan-a-load-balanced-cluster-deployment"></a>Шаг 3. Планирование развертывания кластера Load-Balanced
 

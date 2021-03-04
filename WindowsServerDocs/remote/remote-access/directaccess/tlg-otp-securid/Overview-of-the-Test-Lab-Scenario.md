@@ -4,15 +4,15 @@ description: Дополнительные сведения о расширени
 manager: brianlic
 ms.topic: article
 ms.assetid: ce584811-b209-48fe-ab2b-4c399bd0bd79
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: fc6f8696401f2284da19a989153ab2b87c453757
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: b23ae20a6d5f9cbd2d19c2cc66ec82c84a3716d3
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98040094"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101831065"
 ---
 # <a name="overview-of-the-test-lab-scenario-otp-authentication-and-rsa-securid"></a>Обзор сценария лаборатории тестирования проверка подлинности OTP и RSA SecurID
 

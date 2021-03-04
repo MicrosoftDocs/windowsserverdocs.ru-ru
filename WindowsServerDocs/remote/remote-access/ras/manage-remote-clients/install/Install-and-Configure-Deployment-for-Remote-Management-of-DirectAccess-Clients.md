@@ -4,15 +4,15 @@ description: Сведения о шагах настройки, необходи
 manager: brianlic
 ms.topic: article
 ms.assetid: 4adce101-1e30-439e-b78b-65b26479f33e
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 7702341d8b4b7569fdf4a8d62a13006d79f3773a
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: 6df00a67082a2131b9bbe39c319aac1167510f79
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98040024"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101830935"
 ---
 # <a name="install-and-configure-deployment-for-remote-management-of-directaccess-clients"></a>Установка и Настройка развертывания для удаленного управления клиентами DirectAccess
 

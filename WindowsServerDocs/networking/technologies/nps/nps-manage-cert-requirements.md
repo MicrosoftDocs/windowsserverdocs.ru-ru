@@ -4,15 +4,15 @@ description: В этом разделе содержатся сведения о
 manager: brianlic
 ms.topic: article
 ms.assetid: 2af0a1df-5c44-496b-ab11-5bc340dc96f0
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 4f1680c37510a0a45dfc4ce1ce34ca62859a8f09
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: eb59d2f7d9ee2889d6b69e6d96f32adb6012c26d
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97948990"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101831105"
 ---
 # <a name="configure-certificate-templates-for-peap-and-eap-requirements"></a>Настройка шаблонов сертификатов для требований PEAP и EAP
 
@@ -52,7 +52,7 @@ ms.locfileid: "97948990"
        - **Поставщики:** Поставщик криптографии платформы (Майкрософт)
        - **Минимальный размер ключа:** 2048
        - **Хэш-алгоритм:** SHA2
-    4. Нажмите кнопку **Далее**.
+    4. Щелкните **Далее**.
 
 - Расширение альтернативного имени субъекта (SubjectAltName), если оно используется, должно содержать DNS-имя сервера. Чтобы настроить шаблон сертификата с помощью службы доменных имен (DNS) сервера регистрации, выполните следующие действия.
 

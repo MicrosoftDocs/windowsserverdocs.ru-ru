@@ -4,15 +4,15 @@ description: Узнайте, как запланировать добавлен�
 manager: brianlic
 ms.topic: article
 ms.assetid: 673c5bfb-b590-4932-8e54-ca0a466d90cc
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: c0ec55b17f810964408d1a033a9c45bc99a71b45
-ms.sourcegitcommit: 605a9b46b74b2c7a9116e631e902467ea02a6e70
+ms.openlocfilehash: 995c54a8be560ad028c56773e7a9d6a69f44cf26
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97965686"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101830965"
 ---
 # <a name="step-2-plan-cluster-servers"></a>Шаг 2. Планирование серверов кластера
 

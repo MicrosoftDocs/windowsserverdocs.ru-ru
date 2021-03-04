@@ -3,16 +3,16 @@ title: Использование политик ограниченного ис
 description: Узнайте, как настроить политики управления приложениями с помощью политик ограниченного использования программ (SRP), чтобы защитить компьютер от вируса электронной почты, начиная с Windows Server 2008 и Windows Vista.
 ms.topic: article
 ms.assetid: 02f23979-f832-4e46-bdea-21fd77db35b2
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/12/2016
-ms.openlocfilehash: bf7da1388ecbe65269ee6d847c86e643b3bc39bd
-ms.sourcegitcommit: d42b80f947dbfa8660d982be67d77745a28081e5
+ms.openlocfilehash: 4fcf2d9b554144a32def377cbdb6efa954d4983e
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "98113460"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101830845"
 ---
 # <a name="use-software-restriction-policies-to-help-protect-your-computer-against-an-email-virus"></a>Использование политик ограниченного использования программ для защиты компьютера от вирусов, распространяемых по электронной почте
 

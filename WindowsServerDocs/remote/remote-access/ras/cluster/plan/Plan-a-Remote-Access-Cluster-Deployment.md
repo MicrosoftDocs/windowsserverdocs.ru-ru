@@ -4,15 +4,15 @@ description: Узнайте о шагах планирования, необхо
 manager: brianlic
 ms.topic: article
 ms.assetid: 88ffd598-2fde-402c-bd12-be790f84dc96
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: ffdc46681470c7fc762a35cb432337804437c79d
-ms.sourcegitcommit: 605a9b46b74b2c7a9116e631e902467ea02a6e70
+ms.openlocfilehash: 034a1738f67c452ba54cc0a1bf06a412120f2906
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97965766"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101830995"
 ---
 # <a name="plan-a-remote-access-cluster-deployment"></a>Планирование развертывания кластера удаленного доступа
 

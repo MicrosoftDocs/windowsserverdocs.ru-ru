@@ -4,15 +4,15 @@ description: Узнайте, как использовать возможнос�
 manager: brianlic
 ms.topic: article
 ms.assetid: 36255d80-a13e-4af7-a5c0-ab4c8f302622
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 45e1497de0041957df5e06e1a6c93cc58abbba70
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: 40bfbf62ec10924fddbe82f474f6320ae60b09f0
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98040054"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101830955"
 ---
 # <a name="manage-directaccess-clients-remotely"></a>Удаленное управление клиентами DirectAccess
 

@@ -3,16 +3,16 @@ title: Диагностика политик ограниченного испо
 description: Сведения об общих проблемах и их решениях при устранении неполадок в политиках ограниченного использования программ (SRP), начиная с Windows Server 2008 и Windows Vista.
 ms.topic: article
 ms.assetid: 4fd53736-03e7-4bf9-ba90-d1212d93e19a
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/12/2016
-ms.openlocfilehash: b9c96f43ebbcc41a210357b2006d2b153a69545a
-ms.sourcegitcommit: d42b80f947dbfa8660d982be67d77745a28081e5
+ms.openlocfilehash: b1a4ba0e65c778a914afd30674e41db2a3744878
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "98113480"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101830875"
 ---
 # <a name="troubleshoot-software-restriction-policies"></a>Диагностика политик ограниченного использования программ
 
