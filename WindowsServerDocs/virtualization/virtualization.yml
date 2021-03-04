@@ -5,19 +5,19 @@ metadata:
   title: Документация по виртуализации
   description: Виртуализация в Windows Server — это одна из базовых технологий, необходимых для создания программно-определяемой инфраструктуры.
   ms.topic: landing-page
-  author: eross-msft
-  ms.author: lizross
+  author: JasonGerend
+  ms.author: jgerend
   ms.prod: windows-server
   manager: brianlic
   ms.technology: compute
   ms.assetid: c248b41f-0de3-7136-9a25-b4b07e41ebf0
   ms.localizationpriority: high
-  ms.openlocfilehash: a7b740ebb040ad9787b41a46ed40ebd9ea277f6a
-  ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+  ms.openlocfilehash: 863032103a9a34b71ed26bc05548e4b13cc7110c
+  ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
   ms.translationtype: MT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 08/07/2020
-  ms.locfileid: "87994037"
+  ms.lasthandoff: 03/04/2021
+  ms.locfileid: "101829929"
 landingContent:
 - title: Контейнеры Windows
   linkLists:

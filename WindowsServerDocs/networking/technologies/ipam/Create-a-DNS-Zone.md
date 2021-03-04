@@ -4,15 +4,15 @@ description: Узнайте, как создать зону DNS с помощь�
 manager: brianlic
 ms.topic: article
 ms.assetid: a030ff51-a815-4fc4-b26d-aae41c3e4ce5
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 04e1e393a5f434ae171ed25da4324955bea4e595
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: 8b24e64686aa8b3d8812452970e06ac2899b9666
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98039694"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101828443"
 ---
 # <a name="create-a-dns-zone"></a>Создание зоны DNS
 

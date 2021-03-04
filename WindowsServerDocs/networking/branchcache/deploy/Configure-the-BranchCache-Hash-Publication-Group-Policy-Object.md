@@ -4,15 +4,15 @@ description: Узнайте, как настроить публикацию хэ
 manager: brianlic
 ms.topic: how-to
 ms.assetid: da74fea7-52b2-4d6d-9d21-19184eedbe3c
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 01/05/2021
-ms.openlocfilehash: e14dbede78532b9217ab1434516f9f6ce9fde2db
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 63f1c57eecda1d199a482c624ad2a7e6e1cd9a1e
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97948490"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101828793"
 ---
 # <a name="configure-the-branchcache-hash-publication-group-policy-object"></a>Настройка объекта групповой политики публикации хэша BranchCache
 
@@ -51,7 +51,7 @@ ms.locfileid: "97948490"
 
     3.  Чтобы запретить публикацию хэша для всех общих папок на компьютере, даже если в общих папках включено BranchCache, щелкните **запретить публикацию хэша для всех общих папок**.
 
-10. Нажмите кнопку **OK**.
+10. Нажмите кнопку **ОК**.
 
 > [!NOTE]
 > В большинстве случаев необходимо сохранить консоль MMC и обновить представление, чтобы отобразить внесенные изменения конфигурации.

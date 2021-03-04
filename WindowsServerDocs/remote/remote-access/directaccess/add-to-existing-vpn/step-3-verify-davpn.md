@@ -4,15 +4,15 @@ description: Узнайте, как проверить правильность 
 manager: brianlic
 ms.topic: article
 ms.assetid: 43ac612e-2e77-418c-8171-ebb2086b7cb6
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 75ca3194132b8869d40b40e150eb9ae7fe9a6376
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 82e22299dc0298115bea2db8149ca986ceabf044
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97947030"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101829523"
 ---
 # <a name="step-3-verify-the-remote-access-vpn-deployment"></a>Шаг 3. Проверка развертывания с помощью удаленного доступа (VPN)
 

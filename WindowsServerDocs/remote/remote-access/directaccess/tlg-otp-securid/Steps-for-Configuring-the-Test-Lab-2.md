@@ -4,15 +4,15 @@ description: Сведения о настройке инфраструктуры
 manager: brianlic
 ms.topic: article
 ms.assetid: 0a40183c-afd1-43ca-b306-05745640a37d
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: a7b4293626ab8ab625e2c6be71d346d34bc44100
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: 43445f758fb1473b23e0163827d87e27ab8aae8b
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98040324"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101828623"
 ---
 # <a name="steps-for-configuring-the-test-lab-with-otp-authentication-and-rsa-securid"></a>Действия по настройке лаборатории тестирования с проверкой подлинности OTP и RSA SecurID
 

@@ -4,15 +4,15 @@ description: Узнайте, как использовать политику Qo
 ms.topic: article
 ms.assetid: 16918506-102c-482e-89d3-004ad8d6aabe
 manager: brianlic
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 616fe115246b1b6bb6aa4eae6c98265ff6250765
-ms.sourcegitcommit: d42b80f947dbfa8660d982be67d77745a28081e5
+ms.openlocfilehash: 032cc74fd606812ebe0dda4a9271c3874fc5b16d
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "98113390"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101830365"
 ---
 # <a name="quality-of-service-qos-policy"></a>Политика качества обслуживания \( QoS \)
 

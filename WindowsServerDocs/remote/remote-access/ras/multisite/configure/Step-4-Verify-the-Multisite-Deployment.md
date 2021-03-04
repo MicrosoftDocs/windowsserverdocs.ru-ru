@@ -4,15 +4,15 @@ description: Узнайте, как проверить правильность 
 manager: brianlic
 ms.topic: article
 ms.assetid: 345b676a-a397-4d51-9973-8b25bc05fa55
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 29c4c65673399b017716b2bfc299742f1d0c1307
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 69b1986210708ca35273a6e9e86d01e3bc7fb58f
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97949200"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101828813"
 ---
 # <a name="step-4-verify-the-multisite-deployment"></a>Шаг 4. Проверка многосайтового развертывания
 

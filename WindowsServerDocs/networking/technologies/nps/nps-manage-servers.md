@@ -4,15 +4,15 @@ description: В этом разделе приведены ссылки на п�
 manager: brianlic
 ms.topic: article
 ms.assetid: 6005dc27-f49e-427f-92f7-b0e558ffe3ff
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: f3b209757792c9add81d5ecb3a1c541435d262f1
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: c3656d125a5f37ff2f8521d66a0b2407b3f27c19
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97948290"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101829453"
 ---
 # <a name="manage-npss"></a>Управление NPS
 

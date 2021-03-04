@@ -6,14 +6,14 @@ ms.assetid: 61ae242e-82a8-430d-b07d-52b86c01e686
 ms.localizationpriority: medium
 manager: dougkim
 ms.date: 09/05/2018
-ms.author: lizross
-author: eross-msft
-ms.openlocfilehash: f703c11be44e8f55d96ee0a06332554dec6947cf
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.author: jgerend
+author: JasonGerend
+ms.openlocfilehash: a26ea69e9725d2fa0ac999a7ff61f908e7310f97
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87996802"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101829949"
 ---
 # <a name="vrss-frequently-asked-questions"></a>Часто задаваемые вопросы по vRSS
 

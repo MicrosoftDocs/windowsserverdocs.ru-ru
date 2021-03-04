@@ -2,18 +2,20 @@
 title: Развертывание шлюза центра администрирования Windows в Azure
 description: Развертывание шлюза центра администрирования Windows в Azure
 ms.topic: article
-author: jwwool
-ms.author: jeffrew
-ms.date: 04/12/2019
+author: jasongerend
+ms.author: jgerend
+ms.date: 02/18/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: 4fd03195feb275bd56c6958f8436c607829c8392
-ms.sourcegitcommit: 5344adcf9c0462561a4f9d47d80afc1d095a5b13
+ms.openlocfilehash: cb3badab84e0ad5001a2972fd21ffb44d212b379
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90766667"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101830765"
 ---
-# <a name="deploy-windows-admin-center-in-azure"></a>Развертывание Windows Admin Center в Azure
+# <a name="manually-deploy-windows-admin-center-in-azure-for-managing-multiple-servers"></a>Развертывание центра администрирования Windows в Azure вручную для управления несколькими серверами
+
+В этой статье описывается, как вручную развернуть центр администрирования Windows на виртуальной машине Azure для использования при управлении несколькими виртуальными машинами Azure. Для управления одной виртуальной машиной вместо этого используйте функцию центра администрирования Windows, встроенную в портал Azure, как описано в разделе [Использование центра администрирования Windows в портал Azure](manage-vm.md).
 
 ## <a name="deploy-using-script"></a>Развертывание с помощью скрипта
 
@@ -21,7 +23,7 @@ ms.locfileid: "90766667"
 
 [Переход к шагам по развертыванию вручную](#deploy-manually-on-an-existing-azure-virtual-machine)
 
-### <a name="prerequisites"></a>Предварительные условия
+### <a name="prerequisites"></a>Предварительные требования
 
 * Настройте учетную запись в [Azure Cloud Shell](https://shell.azure.com). Если вы впервые используете Cloud Shell, вам будет предложено связать или создать учетную запись хранения Azure с Cloud Shell.
 * В Cloud Shell **PowerShell** перейдите к домашнему каталогу: ```PS Azure:\> cd ~```
@@ -29,9 +31,9 @@ ms.locfileid: "90766667"
 
 При указании собственного сертификата:
 
-* Отправьте сертификат в [Azure Key Vault](/azure/key-vault/key-vault-whatis). Сначала создайте хранилище ключей на портале Azure, а затем отправьте сертификат в хранилище ключей. Кроме того, для создания сертификата можно использовать портал Azure.
+* Отправьте сертификат в [Azure Key Vault](/azure/key-vault/key-vault-whatis). Сначала создайте хранилище ключей в портал Azure, а затем отправьте сертификат в хранилище ключей. Кроме того, можно использовать портал Azure для создания сертификата.
 
-### <a name="script-parameters"></a>Параметры скрипта
+### <a name="script-parameters"></a>Параметры сценария
 
 * **ResourceGroupName** -[строка] указывает имя группы ресурсов, в которой будет создана виртуальная машина.
 

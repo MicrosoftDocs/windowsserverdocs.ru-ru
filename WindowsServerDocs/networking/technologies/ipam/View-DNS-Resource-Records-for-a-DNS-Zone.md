@@ -4,15 +4,15 @@ description: Узнайте, как просматривать записи ре
 manager: brianlic
 ms.topic: article
 ms.assetid: 375feefc-949e-47c3-9e61-35b79e021966
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 518394310b43f9e1a4ee5be6313a462d41461ff2
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: d1d7193855e4476fe84f915d9cc1cd487b37f3be
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98038204"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101829989"
 ---
 # <a name="view-dns-resource-records-for-a-dns-zone"></a>Просмотр записей ресурсов DNS для зоны DNS
 

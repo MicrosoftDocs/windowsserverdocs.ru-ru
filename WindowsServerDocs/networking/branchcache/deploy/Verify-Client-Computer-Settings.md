@@ -4,15 +4,15 @@ description: Узнайте, как проверить, правильно ли 
 manager: brianlic
 ms.topic: how-to
 ms.assetid: 31ea58b0-d407-4f62-8ec6-6a1b19174042
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 01/05/2021
-ms.openlocfilehash: 944a36f2215ec9bfba4a7d90ef7708d3c38b8a77
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: ca7794f3a90d20ef2bb42a880ac4346f0b59f592
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97946740"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101830297"
 ---
 # <a name="verify-client-computer-settings"></a>Проверка параметров клиентского компьютера
 

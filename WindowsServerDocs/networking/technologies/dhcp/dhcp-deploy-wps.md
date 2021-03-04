@@ -4,15 +4,15 @@ description: Этот раздел можно использовать для р
 ms.topic: article
 ms.assetid: 7110ad21-a33e-48d5-bb3c-129982913bc8
 manager: brianlic
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 01/04/2021
-ms.openlocfilehash: c1b01a7b303f05bdd39a30bfd0042cae139a82d8
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 50e18cde4c4cd59028200f7f3b2f4822d88af9e4
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97948820"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101828963"
 ---
 # <a name="deploy-dhcp-using-windows-powershell"></a>Развертывание DHCP с помощью Windows PowerShell
 

@@ -4,15 +4,15 @@ description: Узнайте о различных функциях сетево�
 ms.topic: article
 ms.assetid: 0cafb1cc-5798-42f5-89b6-3ffe7ac024ba
 manager: dougkim
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 09/20/2018
-ms.openlocfilehash: 8d0728dda0bca8188668c1bbb3570390f8608432
-ms.sourcegitcommit: d42b80f947dbfa8660d982be67d77745a28081e5
+ms.openlocfilehash: 738a6bda94e625ad391744e8295a25cf0bb3bcbf
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "98112920"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101828463"
 ---
 # <a name="network-offload-and-optimization-technologies"></a>Разгрузка сети и технологии оптимизации
 

@@ -4,15 +4,15 @@ description: Узнайте, как установить и настроить �
 manager: brianlic
 ms.topic: article
 ms.assetid: dc20b1a0-540d-4531-a176-50b87c071600
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: d505d40af963645bff711956c83e239668668716
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: 771bf0683ff4305e9594c629a90c6575d8fbc792
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98040514"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101829563"
 ---
 # <a name="step-2-install-and-configure-router1"></a>Шаг 2. Установка и Настройка компьютера МАРШРУТИЗАТОР1
 

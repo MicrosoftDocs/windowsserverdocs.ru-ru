@@ -4,15 +4,15 @@ description: Узнайте, как просматривать зоны DNS в �
 manager: brianlic
 ms.topic: article
 ms.assetid: 2cfe4e40-ec6d-4541-baa9-d772409fe27c
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 3d336c9a0a97d8423f604066ef0866dad313c4a5
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: 37473199a5bef4a9d482512d2265937c902befe0
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98040424"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101829959"
 ---
 # <a name="view-dns-zones"></a>Просмотр зон DNS
 

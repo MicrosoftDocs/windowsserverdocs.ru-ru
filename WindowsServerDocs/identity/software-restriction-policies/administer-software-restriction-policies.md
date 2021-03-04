@@ -3,16 +3,16 @@ title: Администрирование политик ограниченно�
 description: Узнайте, как администрировать политики управления приложениями с помощью политик ограниченного использования программ (SRP), начиная с Windows Server 2008 и Windows Vista.
 ms.topic: article
 ms.assetid: 8cc22093-67d1-47b6-9ddd-4569b6761ce9
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/12/2016
-ms.openlocfilehash: 84667034011ee655720e14f370fcd338e29dc98b
-ms.sourcegitcommit: d42b80f947dbfa8660d982be67d77745a28081e5
+ms.openlocfilehash: 10e27228e8800beca514da0df3109a1d73a0293c
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "98112940"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101829791"
 ---
 # <a name="administer-software-restriction-policies"></a>Администрирование политик ограниченного использования программ
 

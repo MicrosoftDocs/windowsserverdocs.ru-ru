@@ -4,15 +4,15 @@ description: Узнайте, как принудительно создават�
 manager: brianlic
 ms.topic: how-to
 ms.assetid: 5a09d9f1-1049-447f-a9bf-74adf779af27
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 01/05/2021
-ms.openlocfilehash: d903338f58cd7a01967902243f79f4eb28e58882
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: b350e5237bd94464015b1273e7c691870b8a9a57
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97942510"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101830139"
 ---
 # <a name="prehashing-and-preloading-content-on-hosted-cache-servers-optional"></a>Предварительное хэширование и предварительная загрузка содержимого на серверах размещенного кэша (необязательно)
 

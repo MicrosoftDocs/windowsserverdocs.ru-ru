@@ -4,15 +4,15 @@ description: Узнайте, как планировать установки б
 manager: brianlic
 ms.topic: article
 ms.assetid: 8c632d02-2270-4a82-8fc4-74ea3747f079
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 8a6c651abc7d4a02c402db8845ed442f7d746d05
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: c32d06ba6a8e032924f9b5e9df529aaefb7b8f67
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98038294"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101828743"
 ---
 # <a name="wireless-access-deployment-planning"></a>Планирование развертывания беспроводного доступа
 

@@ -4,15 +4,15 @@ description: Узнайте, как управлять записями ресу
 manager: brianlic
 ms.topic: article
 ms.assetid: 7b66c09d-e401-4f70-9a2a-6047dd629bfa
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 41ff87cf2a5f957dc8d14d66bea78ffa9f688f04
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: e99161b50bc2972a52acd679900f2fea06eaa378
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98039584"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101828713"
 ---
 # <a name="dns-resource-record-management"></a>Управление записями ресурсов DNS
 
@@ -46,7 +46,7 @@ ms.locfileid: "98039584"
 
 -   ATM-адрес
 
--   CNAME.
+-   CNAME
 
 -   DHCID
 
@@ -74,7 +74,7 @@ ms.locfileid: "98039584"
 
 -   SRV
 
--   Текст
+-   текст
 
 -   Хорошо известные службы
 

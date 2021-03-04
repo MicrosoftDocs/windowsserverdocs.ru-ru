@@ -4,15 +4,15 @@ description: В этом разделе содержатся ответы на �
 ms.topic: article
 ms.assetid: 74c97a14-b957-4568-b48e-8963a674fdb3
 manager: brianlic
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: a8e7fb93a10fe1d37845d1297c79ae7e389e8444
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: fac5cb0dfdde95c6d8761e56d17e124d4101cdac
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97947270"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101829413"
 ---
 # <a name="qos-policy-frequently-asked-questions"></a>Часто задаваемые вопросы о политике качества обслуживания
 

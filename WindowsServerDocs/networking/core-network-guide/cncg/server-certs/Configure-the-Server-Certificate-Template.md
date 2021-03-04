@@ -4,15 +4,15 @@ description: Узнайте, как настроить шаблон сертиф
 manager: brianlic
 ms.topic: article
 ms.assetid: 8ff610e2-43ca-407f-a828-06d9366e02f0
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 94db549130bfa8779739af49c477eca9c401b08f
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: 8debf090c1136648dc57802d0ae4aa419cc2dab1
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98038904"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101829681"
 ---
 # <a name="configure-the-server-certificate-template"></a>Настройка шаблона сертификата сервера
 

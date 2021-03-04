@@ -4,15 +4,15 @@ description: Сведения о настройке членов домена и
 manager: brianlic
 ms.topic: how-to
 ms.assetid: e16dbea9-0f0a-41db-b460-14a1a7ad7540
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 01/05/2021
-ms.openlocfilehash: 326e8b61dbb930588f0ebe8461a6d374c4d418bf
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 2a7c0e19cc8b0fb1b004c433d16f21d7126e3feb
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97948500"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101830595"
 ---
 # <a name="configure-branchcache-client-computers"></a>Настройка клиентских компьютеров BranchCache
 

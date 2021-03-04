@@ -4,15 +4,15 @@ description: Узнайте, как расширить настройку про
 manager: brianlic
 ms.topic: article
 ms.assetid: 10c7a49c-5671-4bec-b562-13fdd67f4629
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 91f24de07909fabcb0b3d2272d57887cfa12a22e
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: 6f1ae571d65887bbdb769db13d902ba367cfb3de
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98040314"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101829553"
 ---
 # <a name="test-lab-guide-demonstrate-directaccess-with-otp-authentication-and-rsa-securid"></a>Руководство по лаборатории тестирования: демонстрация DirectAccess с проверкой подлинности OTP и RSA SecurID
 

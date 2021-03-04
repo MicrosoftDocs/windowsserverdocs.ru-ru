@@ -4,15 +4,15 @@ description: Узнайте, как задать область доступа �
 manager: brianlic
 ms.topic: article
 ms.assetid: 6a211dde-80eb-4888-b5bb-4e28fe8dc7df
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 8d679dcc0e16e1dc3e38e11247637463a26ed0f5
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: e89fe6fb6748dd7efeb29d83bfdbf6d5e0620526
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98040144"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101829979"
 ---
 # <a name="set-access-scope-for-a-dns-zone"></a>Задание области доступа для зоны DNS
 

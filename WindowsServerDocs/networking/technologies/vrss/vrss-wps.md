@@ -5,15 +5,15 @@ ms.topic: article
 ms.assetid: 49e93b9f-46d9-4cee-bcda-1c4634893ddd
 ms.localizationpriority: medium
 manager: dougkim
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 09/05/2018
-ms.openlocfilehash: a5cc6d3b95b842e806c9f2c9a5762e5f29ce4c7b
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.openlocfilehash: 4a31b52909aa009f40201d97a40419f13f1fb525
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96863973"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101829203"
 ---
 # <a name="windows-powershell-commands-for-rss-and-vrss"></a>Команды Windows PowerShell для RSS и vRSS
 
@@ -115,7 +115,7 @@ ms.locfileid: "96863973"
    ```
 
 
-## <a name="related-topics"></a>Связанные темы
+## <a name="related-topics"></a>Связанные разделы
 Дополнительные сведения см. в следующих справочных разделах.
 
 - [Get-VMNetworkAdapter](/powershell/module/hyper-v/get-vmnetworkadapter)

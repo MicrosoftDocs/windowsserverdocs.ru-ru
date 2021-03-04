@@ -4,15 +4,15 @@ description: Узнайте, как настроить публикацию хэ
 manager: brianlic
 ms.topic: how-to
 ms.assetid: 11584b73-f9e2-4530-afa5-b8df970e6b24
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 01/05/2021
-ms.openlocfilehash: 9da8c5677f3dd137fb682a17adc55da29f973f82
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 7f99591d2b9038d4cde7f1004877e4f4ad512db9
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97948440"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101830495"
 ---
 # <a name="enable-hash-publication-for-non-domain-member-file-servers"></a>Включение возможности публикации хэша для файловых серверов, не входящих в домен
 

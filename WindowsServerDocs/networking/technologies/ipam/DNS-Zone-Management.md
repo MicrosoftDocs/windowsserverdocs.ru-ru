@@ -4,15 +4,15 @@ description: Узнайте, как управлять зонами DNS с по�
 manager: brianlic
 ms.topic: article
 ms.assetid: de3dc14b-164a-49f1-8a57-b9e788046c23
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: db13c03a6d5701a43038f6b1b03f77a338ddc6c3
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: cb386dc7cd6f5fbc662493d99e4d66bfdf82defd
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98039554"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101828693"
 ---
 # <a name="dns-zone-management"></a>Управление зоной DNS
 

@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.author: delhan
 ms.date: 10/29/2020
 ms.custom: contperf-fy21q2
-ms.openlocfilehash: 6ff7fe56cdb95bb35ccce39abdd800f9665d86dc
-ms.sourcegitcommit: 36559331b20b7965a95fe26cb19a635f6e4a9723
+ms.openlocfilehash: c827df361a3b14eaa9a658847f47a1c47e6ea8a3
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "97364255"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101828663"
 ---
 # <a name="how-to-detect-enable-and-disable-smbv1-smbv2-and-smbv3-in-windows"></a>Как обнаруживать, включать и отключать SMBv1, SMB и SMBv3 в Windows
 
@@ -429,7 +429,7 @@ Default: 1 = Enabled (No registry key is created)
 
 ### <a name="auditing-smbv1-usage"></a>Аудит использования SMBv1
 
-Чтобы определить, какие клиенты пытаются подключиться к серверу SMB с помощью SMBv1, можно включить аудит в Windows Server 2016, Windows 10 и Windows Server 2019. Вы также можете проводить аудит в Windows 7 и Windows Server 2008 R2, если они установили обновление Май 2018 ежемесячно и в Windows 8, Windows 8.1, Windows Server 2012 и Windows Server 2012 R2, если они установили ежемесячное обновление за Июль 2017.
+Чтобы определить, какие клиенты пытаются подключиться к серверу SMB с помощью SMBv1, можно включить аудит в Windows Server 2016, Windows 10 и Windows Server 2019. Вы также можете проводить аудит в Windows 7 и Windows Server 2008 R2, если они установили ежемесячное обновление Май 2018, а также на Windows 8.1 и Windows Server 2012 R2, если они установили ежемесячное обновление за Июль 2017.
 
 - Включите параметр
 
@@ -451,7 +451,7 @@ Default: 1 = Enabled (No registry key is created)
 
 Если включен аудит SMBv1, в журнале событий Микрософт-Виндовс-смбсервер\аудит появляется событие 3000, определяющее каждого клиента, который пытается подключиться с помощью SMBv1.
 
-### <a name="summary"></a>Сводка
+### <a name="summary"></a>Итоги
 
 Если все параметры находятся в одном объекте групповая политика (GPO), групповая политика управления отображает следующие параметры.
 

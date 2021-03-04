@@ -3,16 +3,16 @@ title: Защита учетных данных и управление ими
 description: Сведения о функциях и методах, появившихся в Windows Server 2012 R2 и Windows 8.1 для защиты учетных данных и элементов управления проверки подлинности домена для сокращения кражи учетных данных
 ms.topic: article
 ms.assetid: e457229c-0126-40fe-948c-101c943e1b57
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/12/2016
-ms.openlocfilehash: 12d4c0372ad6c5a0f67dde5c8e7eac7cc651cd49
-ms.sourcegitcommit: d42b80f947dbfa8660d982be67d77745a28081e5
+ms.openlocfilehash: f2ad9a8f5fd45906baa7738aec24ab435f1f7e82
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "98113500"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101829363"
 ---
 # <a name="credentials-protection-and-management"></a>Защита учетных данных и управление ими
 
@@ -54,7 +54,7 @@ ms.locfileid: "98113500"
 
 Новый класс объектов Active Directory, политика проверки подлинности, позволяет применять конфигурацию проверки подлинности к классам учетных записей в доменах с режимом работы домена Windows Server 2012 R2. Политики проверки подлинности применяются при обмене Kerberos типа AS и TGS. Классы учетных записей Active Directory.
 
--   User (Пользователь)
+-   Пользователь
 
 -   Компьютер
 

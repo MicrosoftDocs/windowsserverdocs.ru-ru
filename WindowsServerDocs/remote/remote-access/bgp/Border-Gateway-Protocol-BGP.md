@@ -4,15 +4,15 @@ description: С помощью этого раздела можно получи
 manager: brianlic
 ms.topic: article
 ms.assetid: 78cc2ce3-a48e-45db-b402-e480b493fab1
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: b6cbf1780e35b1181648761990a344093aaa8f58
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 2b269cc66244ca8dde309b1348e30875624a8387
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97950080"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101829583"
 ---
 # <a name="border-gateway-protocol-bgp"></a>Протокол BGP
 

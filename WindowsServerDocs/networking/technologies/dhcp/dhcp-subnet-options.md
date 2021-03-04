@@ -4,15 +4,15 @@ description: В этом разделе содержатся сведения о
 manager: dougkim
 ms.topic: how-to
 ms.assetid: ca19e7d1-e445-48fc-8cf5-e4c45f561607
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/17/2018
-ms.openlocfilehash: 076ca8c41616b77cb7503ca960667771c8f6f412
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: aff71b3fafe0dae4b3a4dbdf22a451e7d905cd6c
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97948800"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101828883"
 ---
 # <a name="dhcp-subnet-selection-options"></a>Параметры выбора подсети DHCP
 

@@ -4,15 +4,15 @@ description: Узнайте, как использовать IPAM для упр�
 manager: brianlic
 ms.topic: article
 ms.assetid: 82f8f382-246e-4164-8306-437f7a019e0f
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: cf80ca939722a73b3a3de058a483f95ea3760fd4
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: 23b60402833c5df97882de35909425edaff93d9d
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98039524"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101830169"
 ---
 # <a name="manage-resources-in-multiple-active-directory-forests"></a>Управление ресурсами в нескольких лесах Active Directory
 

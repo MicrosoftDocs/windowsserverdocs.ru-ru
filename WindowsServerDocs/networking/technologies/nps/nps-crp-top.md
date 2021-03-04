@@ -4,15 +4,15 @@ description: В этом разделе приводится обзор обра
 manager: brianlic
 ms.topic: article
 ms.assetid: 849d661a-42c1-4f93-b669-6009d52aad39
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 228eebc3ad3d81868e13137ab9803d04b15df238
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: c2305c6b4714fa2c37369180b70b324456bbec7c
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97949900"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101828393"
 ---
 # <a name="connection-request-processing"></a>Обработка запросов на подключение
 

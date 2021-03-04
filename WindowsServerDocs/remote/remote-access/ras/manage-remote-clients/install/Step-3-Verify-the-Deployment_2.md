@@ -4,15 +4,15 @@ description: Узнайте, как проверить, правильно ли 
 manager: brianlic
 ms.topic: article
 ms.assetid: 6a78a078-d2e7-4cbd-b8d5-20cfb6d1524b
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 7b59a37eb6d24c6de61acdff9fa544f1ec6f0fce
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: 334e8a425a1019d02e2cc0e23da7fd74777d983b
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98040014"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101829483"
 ---
 # <a name="step-3-verify-the-deployment"></a>Шаг 3. Проверка развертывания
 

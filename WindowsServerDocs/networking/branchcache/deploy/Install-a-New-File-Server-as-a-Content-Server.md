@@ -4,15 +4,15 @@ description: Узнайте, как установить роль сервера
 manager: brianlic
 ms.topic: how-to
 ms.assetid: 1f49fc3c-28a6-4d3d-b787-1be9e61e792f
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 01/05/2021
-ms.openlocfilehash: 29687cd09795b2b2a3b65b6d659fc9d047c80cf0
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 7ad5d75014bfa814b10e697bd2a8f9ca5af630c1
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97949710"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101830385"
 ---
 # <a name="install-a-new-file-server-as-a-content-server"></a>Установка нового файлового сервера в качестве сервера содержимого
 
@@ -48,7 +48,7 @@ ms.locfileid: "97949710"
     > [!TIP]
     > Рекомендуется также установить флажок для **дедупликации данных**.
 
-    Нажмите кнопку **Далее**.
+    Щелкните **Далее**.
 
 6.  В окне **Выбор компонентов** нажмите кнопку **Далее**.
 

@@ -4,15 +4,15 @@ description: Узнайте, как создать подразделение (O
 manager: brianlic
 ms.topic: how-to
 ms.assetid: 2cda192f-6b45-4e6c-88d9-70ca179ddb94
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 01/05/2021
-ms.openlocfilehash: ff436166eedb4a3214361267f1d508ebe3acc6e4
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: f5b94681731504f520acd597ec90ef6f52e06fc5
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97950300"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101828773"
 ---
 # <a name="create-the-branchcache-file-servers-organizational-unit"></a>Создание подразделения файловых серверов BranchCache
 

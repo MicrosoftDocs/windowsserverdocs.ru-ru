@@ -4,15 +4,15 @@ description: Эти функции реализуются как часть оп
 ms.topic: article
 ms.assetid: 0cafb1cc-5798-42f5-89b6-3ffe7ac024ba
 manager: dougkim
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 09/20/2018
-ms.openlocfilehash: ec4867b0c2ca760babd2b07062c9b8ee3d73e8f7
-ms.sourcegitcommit: d08965d64f4a40ac20bc81b14f2d2ea89c48c5c8
+ms.openlocfilehash: 2c18c1694ba80c88ee0e6474242b78a10483ea2b
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96864883"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101828543"
 ---
 # <a name="software-only-so-features-and-technologies"></a>Только программные функции и технологии
 Функции только программного обеспечения реализуются как часть операционной системы и не зависят от базовых сетевых адаптеров. Иногда для оптимальной работы эти функции нуждаются в некоторой настройке сетевой карты. К таким примерам относятся такие компоненты Hyper-v, как качество обслуживания виртуальной машины (Вмкос), списки управления доступом (ACL) и компоненты, отличные от Hyper-V, такие как объединение сетевых карт.

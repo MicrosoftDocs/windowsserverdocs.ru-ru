@@ -4,15 +4,15 @@ description: В этом разделе содержится краткий об
 manager: brianlic
 ms.topic: article
 ms.assetid: 0ff29ef3-c458-4432-9065-e50a7de5b4b9
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 085c3955e88a9f03e50bc019e938650cf9e36a99
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: f76f8138e6aadd86fa6119d5bf526dcc892a6c16
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97948790"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101828863"
 ---
 # <a name="dynamic-host-configuration-protocol-dhcp"></a>Протокол DHCP
 

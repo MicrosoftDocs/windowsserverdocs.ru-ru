@@ -4,15 +4,15 @@ description: Узнайте, как добавить одну или неско�
 manager: brianlic
 ms.topic: article
 ms.assetid: 5379373f-a3d9-4f51-b6fc-bf0f6df1d244
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 99cad9f3ad2e746c1f3a530c89c67e2bb39b80a6
-ms.sourcegitcommit: 84b97d34d606b6bf4b6ec8760a93107f1b311428
+ms.openlocfilehash: 495e3cbb4c7e68d05311ef94487b33e889332630
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "99245466"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101828483"
 ---
 # <a name="add-a-dns-resource-record"></a>Добавление записи ресурса DNS
 

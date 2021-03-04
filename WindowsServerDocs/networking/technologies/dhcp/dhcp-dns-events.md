@@ -4,15 +4,15 @@ description: В этом разделе содержатся сведения о
 manager: brianlic
 ms.topic: how-to
 ms.assetid: beb8c188-6fcf-4520-8825-d17f8ee9fb04
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 51ca6af9b060b754f75de63089464d8310263734
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 0a2584f4292d1aca31324f3a983c1a3b8357d5c1
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97948810"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101828943"
 ---
 # <a name="dhcp-logging-events-for-dns-registrations"></a>События ведения журнала DHCP для регистрации DNS
 

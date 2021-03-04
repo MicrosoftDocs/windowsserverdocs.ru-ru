@@ -4,15 +4,15 @@ description: Переход с DirectAccess на Always On VPN требует а
 manager: dougkim
 ms.topic: article
 ms.assetid: eeca4cf7-90f0-485d-843c-76c5885c54b0
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 05/29/2018
-ms.openlocfilehash: 57b44b90213ca756666b83aa934bc6fd42fa609b
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: d7da516f354a2e977d91b75b651fcefb7c2dc5a3
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87951429"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101828313"
 ---
 # <a name="plan-the-directaccess-to-always-on-vpn-migration"></a>Планирование переноса DirectAccess в постоянно подключенный VPN-профиль
 

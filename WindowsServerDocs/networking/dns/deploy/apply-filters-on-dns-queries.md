@@ -4,15 +4,15 @@ description: Узнайте, как настроить политику DNS в W
 manager: brianlic
 ms.topic: article
 ms.assetid: b86beeac-b0bb-4373-b462-ad6fa6cbedfa
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 01/05/2021
-ms.openlocfilehash: 6d31f204dac5397c4ac455a3970cb33447211ecc
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 31cd7e4b015640a32a0f137bd39c4f138d2eeb04
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97949420"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101828593"
 ---
 # <a name="use-dns-policy-for-applying-filters-on-dns-queries"></a>Использование политики DNS для применения фильтров к запросам DNS
 

@@ -4,15 +4,15 @@ description: Узнайте, как зарегистрировать серве�
 manager: brianlic
 ms.topic: article
 ms.assetid: 2de954fd-a7d8-4cc6-85b1-b0c3c06f788f
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 1cd7f5432cc1b141fc2b202170d2cc4ebd4b4f82
-ms.sourcegitcommit: decb6c8caf4851b13af271d926c650d010a6b9e9
+ms.openlocfilehash: 0d145aac91cca5346f8d979422ff8d73fe224334
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "98177483"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101829473"
 ---
 # <a name="register-an-nps-in-an-active-directory-domain"></a>Регистрация сервера политики сети в домене Active Directory
 

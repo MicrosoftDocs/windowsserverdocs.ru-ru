@@ -3,16 +3,16 @@ title: Работа с правилами политик ограниченно�
 description: Сведения о процедурах, которые работают с сертификатами, путями, зонами Интернета и хэш-правилами с помощью политик ограниченного использования программ.
 ms.topic: article
 ms.assetid: 4a8047d5-9bb9-4bed-bc8f-583a237731e2
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/12/2016
-ms.openlocfilehash: d36483dec8d5802df042d3444e477bcb508a9819
-ms.sourcegitcommit: d42b80f947dbfa8660d982be67d77745a28081e5
+ms.openlocfilehash: cbc6bb676ea699cbfaa3ed3f83c6bbf664c60528
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "98113450"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101830815"
 ---
 # <a name="work-with-software-restriction-policies-rules"></a>Работа с правилами политик ограниченного использования программ
 

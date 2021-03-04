@@ -4,15 +4,15 @@ description: В этом разделе содержатся сведения о
 manager: brianlic
 ms.topic: article
 ms.assetid: a92e61c3-f7d4-4e42-8575-79d75d05a218
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 52d0214732d5317d4885415d9764ff77d924a272
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: c2ca5bc8334b23c009bb43d47a25bc3f5a2246db
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97948170"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101830327"
 ---
 # <a name="create-security-policies-with-extended-port-access-control-lists"></a>Создание политик безопасности с использованием расширенных списков управления доступом для портов
 
@@ -187,8 +187,8 @@ Add-VMNetworkAdapterExtendedAcl -VMName "ServerName" -Action "Allow" -Direction 
 |Конечный порт|*|*|80|
 |Направление|В|Исходящий|Исходящий|
 |Действие|Запрет|Запрет|Allow|
-|С отслеживанием состояния|нет|нет|Да|
-|Время ожидания (сек)|Недоступно|Недоступно|3600|
+|С отслеживанием состояния|Нет|Нет|Да|
+|Время ожидания (сек)|Н/Д|Н/Д|3600|
 
 Правило с отслеживанием состояния разрешает серверу приложений виртуальной машины подключаться к удаленному веб-серверу. При отправке первого пакета виртуальный коммутатор Hyper-V динамически создает два состояния потока, чтобы разрешить все пакеты, отправляемые на удаленный веб-сервер, и все пакеты, возвращающиеся с него. Когда поток пакетов между серверами прекращается, срок действия состояний потока истекает через назначенное время ожидания — 3600 секунд (один час).
 

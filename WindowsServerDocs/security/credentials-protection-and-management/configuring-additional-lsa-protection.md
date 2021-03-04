@@ -3,16 +3,16 @@ title: Настройка дополнительной защиты LSA
 description: Узнайте, как настроить дополнительную защиту для процесса локального центра безопасности (LSA), чтобы предотвратить внедрение кода, которое может поставить под угрозу учетные данные.
 ms.topic: article
 ms.assetid: 038e7c2b-c032-491f-8727-6f3f01116ef9
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/12/2016
-ms.openlocfilehash: c88ff82fc1a6e7c1440823539a14d6edc00270a3
-ms.sourcegitcommit: d42b80f947dbfa8660d982be67d77745a28081e5
+ms.openlocfilehash: f0c7b34ac403f4ac71fd89f5f48e6b36682a3d78
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "98113510"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101829373"
 ---
 # <a name="configuring-additional-lsa-protection"></a>Настройка дополнительной защиты LSA
 
@@ -108,7 +108,7 @@ ms.locfileid: "98113510"
 
 10. В поле **Значение** введите **00000008**.
 
-11. Нажмите **OK**.
+11. Нажмите кнопку **ОК**.
 
 > [!NOTE]
 > Чтобы объект групповой политики вступил в силу, его изменение нужно реплицировать на все контроллеры домена в домене.
@@ -168,7 +168,7 @@ ms.locfileid: "98113510"
 
 10. В поле **данные значения** введите **00000001**.
 
-11. Нажмите **OK**.
+11. Нажмите кнопку **ОК**.
 
 ##### <a name="to-disable-lsa-protection"></a>Отключение защиты LSA
 

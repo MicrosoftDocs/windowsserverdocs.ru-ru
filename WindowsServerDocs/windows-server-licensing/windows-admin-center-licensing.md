@@ -2,15 +2,15 @@
 title: Лицензирование содержимого Windows Server и центра администрирования Windows
 description: Узнайте о лицензионных соглашениях центра администрирования Windows.
 ms.topic: reference
-author: eross-msft
-ms.author: lizross
+author: JasonGerend
+ms.author: jgerend
 ms.date: 06/11/2019
-ms.openlocfilehash: 706bd8799e2dd99940803be8bbb76cb84709412c
-ms.sourcegitcommit: 401771fbc22988727a97e51c47ffceded7b45516
+ms.openlocfilehash: bd5629a775ecd67f51f6abec41247911604b71ed
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "95000517"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101829919"
 ---
 # <a name="windows-admin-center---license-terms"></a>Центр администрирования Windows — условия лицензии
 

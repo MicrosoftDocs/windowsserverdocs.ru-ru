@@ -4,15 +4,15 @@ description: С помощью этого раздела вы узнаете о 
 manager: brianlic
 ms.topic: article
 ms.assetid: 69e0e28a-98ae-4ade-bd27-ce2ad7eb310f
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 12/08/2020
-ms.openlocfilehash: 5dea78fba26f34fbfd8d9e9de40563abafbf4fce
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 0f14b765f41bcadeb0661d5453c2ad8f7f21f98a
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97949600"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101828603"
 ---
 # <a name="configure-and-view-vlan-settings-on-hyper-v-virtual-switch-ports"></a>Настройка и просмотр параметров виртуальной локальной сети на портах виртуального коммутатора Hyper-V
 

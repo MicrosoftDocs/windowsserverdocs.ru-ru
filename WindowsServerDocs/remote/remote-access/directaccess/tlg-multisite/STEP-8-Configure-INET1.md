@@ -3,16 +3,16 @@ title: Шаг 8. Настройка INET1
 description: Узнайте, как настроить запись DNS для 2-EDGE1 на INET1.
 ms.topic: article
 ms.assetid: 693acb5c-dffc-4484-8286-163bb67724c9
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 08/07/2020
-ms.openlocfilehash: 0a17e726d200cc344c83f2d4aafed2f5493b294a
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: 1b04fc85ef6fe5405269a429096bda08d7d87cf8
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98040374"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101828643"
 ---
 # <a name="step-8-configure-inet1"></a>ШАГ 8. Настройка INET1
 

@@ -2,15 +2,15 @@
 title: Лицензирование содержимого для Windows Server
 description: Узнайте о соглашениях о лицензировании Windows Server.
 ms.topic: reference
-author: eross-msft
-ms.author: lizross
+author: JasonGerend
+ms.author: jgerend
 ms.date: 06/11/2019
-ms.openlocfilehash: 1097c92d316574e1d27150cb97e3e8b8cf6581fc
-ms.sourcegitcommit: 68444968565667f86ee0586ed4c43da4ab24aaed
+ms.openlocfilehash: 1003f528320bfe77e0deb9ffb4b6f352de0b119f
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87989276"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101829909"
 ---
 # <a name="windows-server---license-terms"></a>Windows Server — условия лицензии
 

@@ -4,15 +4,15 @@ description: Узнайте, как использовать консоль уп
 manager: brianlic
 ms.topic: article
 ms.assetid: 077a3a64-2fa3-4994-9711-ec1fbdc081ba
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 74d43d4f1feacdeb10eb5e1ee55462187cf628f5
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: d86e146b7e20a2bced3a90a89c9a993b312ec920
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98039784"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101829193"
 ---
 # <a name="monitor-the-operations-status-of-the-remote-access-server-and-its-components"></a>Мониторинг статуса работы сервера удаленного доступа и его компонентов
 
@@ -35,7 +35,7 @@ ms.locfileid: "98039784"
 
 4.  Нажмите кнопку **Обновить** в разделе **задачи** на правой панели, чтобы перезагрузить состояние операции. Состояние операций автоматически обновляется каждые пять минут, то есть интервалом обновления по умолчанию. Чтобы изменить интервал обновления по умолчанию, щелкните **настроить интервал обновления**.
 
-![](../../../media/Monitor-the-operations-status-of-the-Remote-Access-server-and-its-components/PowerShellLogoSmall.gif)**_<em>Эквивалентные команды</em> в Windows PowerShell Windows PowerShell_**
+![](../../../media/Monitor-the-operations-status-of-the-Remote-Access-server-and-its-components/PowerShellLogoSmall.gif)***<em>Эквивалентные команды</em> в Windows PowerShell Windows PowerShell***
 
 Следующие командлеты Windows PowerShell выполняют ту же функцию, что и предыдущая процедура. Вводите каждый командлет в одной строке, несмотря на то, что здесь они могут отображаться разбитыми на несколько строк из-за ограничений форматирования.
 

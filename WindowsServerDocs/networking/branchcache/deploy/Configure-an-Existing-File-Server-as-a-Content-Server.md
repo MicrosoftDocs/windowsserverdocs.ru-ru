@@ -4,15 +4,15 @@ description: Узнайте, как установить службу BranchCach
 manager: brianlic
 ms.topic: how-to
 ms.assetid: bdac7d2a-25b4-4f61-bed1-b290700c18f3
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 01/05/2021
-ms.openlocfilehash: b00584280f2bf18952b88f88e851cddca8d842f1
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 7ab3cfb22fb1c974dc3c9c54bba5fe27ba05aeb3
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97948510"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101830575"
 ---
 # <a name="configure-an-existing-file-server-as-a-content-server"></a>Настройка имеющегося файлового сервера в качестве сервера содержимого
 
@@ -36,7 +36,7 @@ ms.locfileid: "97948510"
 
 ### <a name="to-install-the-branchcache-for-network-files-role-service"></a>Установка службы роли BranchCache для сетевых файлов
 
-1.  Откройте диспетчер серверов, щелкните **Управление**, а затем нажмите кнопку **Добавить роли и компоненты**. Откроется мастер добавления ролей и компонентов. Нажмите кнопку **Далее**.
+1.  Откройте диспетчер серверов, щелкните **Управление**, а затем нажмите кнопку **Добавить роли и компоненты**. Откроется мастер добавления ролей и компонентов. Щелкните **Далее**.
 
 2.  В списке **выберите тип установки** убедитесь, что установлен флажок установить на основе **ролей или компонентов** , а затем нажмите кнопку **Далее**.
 
@@ -49,7 +49,7 @@ ms.locfileid: "97948510"
     > [!TIP]
     > Если вы еще не сделали этого, рекомендуется также установить флажок для **дедупликации данных**.
 
-    Нажмите кнопку **Далее**.
+    Щелкните **Далее**.
 
 6.  В окне **Выбор компонентов** нажмите кнопку **Далее**.
 

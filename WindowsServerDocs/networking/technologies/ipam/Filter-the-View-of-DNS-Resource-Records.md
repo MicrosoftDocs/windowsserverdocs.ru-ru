@@ -4,15 +4,15 @@ description: Узнайте, как отфильтровать представ�
 manager: brianlic
 ms.topic: article
 ms.assetid: 5b80294a-7325-476b-84eb-69f0d051e8b2
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: b17c071d78079933a04663e4fd1cd3528a9b86cb
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: 67511d7844d8b33ee94879a2fed5c7e6a8087c5b
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98039564"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101830199"
 ---
 # <a name="filter-the-view-of-dns-resource-records"></a>Фильтрация представления записей ресурсов DNS
 

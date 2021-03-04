@@ -4,15 +4,15 @@ description: Узнайте, как включить BranchCache в общей �
 manager: brianlic
 ms.topic: how-to
 ms.assetid: 9c465a9e-c504-44ec-9ebc-4e06ba54db30
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 01/05/2021
-ms.openlocfilehash: d66192168cffcdab54d61c659fd53084d5b12a5a
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: a9ebbc59b2c9a043cd7f7946a3e0046633a39bd1
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97946720"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101830149"
 ---
 # <a name="enable-branchcache-on-a-file-share-optional"></a>Включение BranchCache в общем файловом ресурсе (необязательно)
 

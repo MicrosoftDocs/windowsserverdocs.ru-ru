@@ -4,15 +4,15 @@ description: Узнайте, как использовать управлени�
 manager: brianlic
 ms.topic: article
 ms.assetid: ecdfc589-fa14-4bb3-ab7e-456ebc719385
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: e2a22019ee68d98f8122c79ebe8146c898164f7f
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: 77b5896c7bbf700febbad5bb42f718a2990965e9
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98039364"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101828843"
 ---
 # <a name="role-based-access-control"></a>Управление доступом на основе ролей
 

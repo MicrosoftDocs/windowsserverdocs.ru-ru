@@ -3,15 +3,15 @@ title: Выбор схемы BranchCache
 description: Узнайте, как узнать о режимах BranchCache и выбрать оптимальные режимы развертывания.
 ms.topic: how-to
 ms.assetid: 86c1ccad-2aa4-40fe-84c1-f77c49eb1216
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 01/05/2021
-ms.openlocfilehash: 972f2941afa2544307933ec422eb40578e084672
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: d8d5222ebcd38ddb1a1e68c99ef6cba81ce1ebb4
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97946710"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101829313"
 ---
 # <a name="choosing-a-branchcache-design"></a>Выбор схемы BranchCache
 

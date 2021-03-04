@@ -4,15 +4,15 @@ description: Узнайте, как просмотреть записи ресу
 manager: brianlic
 ms.topic: article
 ms.assetid: f590fb86-4195-4f90-98cb-e90459d4c1e3
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 9ad301081ae286c72e26a567970ac4f8a1a99aa2
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: c190df0fa5ae3263b8f00373d3e4d1eb9c81115f
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98040124"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101829969"
 ---
 # <a name="view-dns-resource-records-for-a-specific-ip-address"></a>Просмотр записей ресурсов DNS для определенного IP-адреса
 

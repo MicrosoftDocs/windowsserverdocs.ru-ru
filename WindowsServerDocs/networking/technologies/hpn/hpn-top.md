@@ -4,15 +4,15 @@ title: Высокопроизводительная сеть (ХПН)
 ms.topic: article
 ms.assetid: 0cafb1cc-5798-42f5-89b6-3ffe7ac024ba
 manager: dougkim
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 09/20/2018
-ms.openlocfilehash: c2427c01d7e5ee6433de1764ffac1d0c071b4dd7
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: 0fd0d09d1795f3ca58fda4ce8e3b2eadd1ff51bc
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97045242"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101828503"
 ---
 # <a name="high-performance-networking-hpn"></a>Высокопроизводительная сеть (ХПН)
 

@@ -4,15 +4,15 @@ description: Узнайте, как использовать IPAM для упр�
 manager: brianlic
 ms.topic: article
 ms.assetid: 4f13f78e-0114-4e41-9a28-82a4feccecfc
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 21c5c10ffd6cebce2f6379d2adef21aacab500ad
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: f74ef14c5d58e8629a7d1200856daf76db12a87b
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98039494"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101830099"
 ---
 # <a name="manage-role-based-access-control-with-windows-powershell"></a>Контроль управления доступом на основе ролей с помощью Windows PowerShell
 
@@ -25,7 +25,7 @@ ms.locfileid: "98039494"
 
 Новые команды Windows PowerShell IPAM предоставляют возможность извлечения и изменения областей доступа объектов DNS и DHCP. В следующей таблице показана правильная команда, используемая для каждого объекта IPAM.
 
-|Объект IPAM|Команда|Описание|
+|Объект IPAM|Get-Help|Описание|
 |---------------|-----------|---------------|
 |DNS-сервер|Get-IpamDnsServer|Этот командлет возвращает объект DNS-сервера в IPAM|
 |Зона DNS|Get-IpamDnsZone|Этот командлет возвращает объект зоны DNS в IPAM|

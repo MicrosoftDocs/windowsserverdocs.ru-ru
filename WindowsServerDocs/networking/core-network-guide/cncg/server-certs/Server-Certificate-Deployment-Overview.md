@@ -4,15 +4,15 @@ description: Сведения о компонентах развертывани
 manager: brianlic
 ms.topic: article
 ms.assetid: ca5c3e04-ae25-4590-97f3-0376a9c2a9a2
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: adb644114e7a1bb73ea68dc658fcc50693743f22
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: 3c127e5a5b73270da820160cf7e02c7c4345c231
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98038704"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101829293"
 ---
 # <a name="server-certificate-deployment-overview"></a>Обзор развертывания сертификата сервера
 

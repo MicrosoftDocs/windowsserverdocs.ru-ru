@@ -3,16 +3,16 @@ title: Определение списка разрешений и запрет�
 description: Узнайте, как создать список разрешений и запретов для приложений, управляемых политиками ограниченного использования программ (SRP), начиная с Windows Server 2008 и Windows Vista.
 ms.topic: article
 ms.assetid: 0abb73b6-b5d8-4505-8ab1-2f29e4bf0411
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/12/2016
-ms.openlocfilehash: 64b7c085c8bf64aa4d7d9d9de346ac71274f650c
-ms.sourcegitcommit: d42b80f947dbfa8660d982be67d77745a28081e5
+ms.openlocfilehash: 971057af81b199aa24291e5261f570a7b629462e
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "98113430"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101829731"
 ---
 # <a name="determine-allow-deny-list-and-application-inventory-for-software-restriction-policies"></a>Определение списка разрешений и запретов и инвентаризации приложений для политик ограниченного использования программ
 

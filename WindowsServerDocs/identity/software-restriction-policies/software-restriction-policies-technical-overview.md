@@ -3,16 +3,16 @@ title: Технический обзор политик ограниченног
 description: Сведения о политиках ограниченного использования программ, о том, когда и как использовать эту функцию, а также об изменениях, реализованных в прошлых выпусках.
 ms.topic: article
 ms.assetid: dc7013b0-0efd-40fd-bd6d-75128adbd0b8
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/12/2016
-ms.openlocfilehash: f8167814376e630ce45097c1fc6abfdd562dce57
-ms.sourcegitcommit: d42b80f947dbfa8660d982be67d77745a28081e5
+ms.openlocfilehash: 93de0d57033df8f1751bb9ab232ff37af7c4bde5
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "98113280"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101829711"
 ---
 # <a name="software-restriction-policies-technical-overview"></a>Технический обзор политик ограниченного использования программ
 
@@ -174,6 +174,6 @@ ms.locfileid: "98113280"
 |**Планирование**|[Технический справочник по политикам ограниченного использования программ](/previous-versions/windows/it-pro/windows-server-2003/cc728085(v=ws.10))|
 |**Операции**|[Администрирование политик ограниченного использования программ](administer-software-restriction-policies.md)|
 |**Устранение неполадок**|[Диагностика политик ограниченного использования программ (2003)](/previous-versions/windows/it-pro/windows-server-2003/cc737011(v=ws.10))|
-|**Security**|[Угрозы и противодействия для политик ограниченного использования программ (2008)](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd349795(v=ws.10))<p>[Угрозы и противодействия для политик ограниченного использования программ (2008 R2)](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/hh125926(v=ws.10))|
+|**Безопасность**|[Угрозы и противодействия для политик ограниченного использования программ (2008)](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd349795(v=ws.10))<p>[Угрозы и противодействия для политик ограниченного использования программ (2008 R2)](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/hh125926(v=ws.10))|
 |**Средства и параметры**|[Средства и параметры политик ограниченного использования программ (2003)](/previous-versions/windows/it-pro/windows-server-2003/cc782454(v=ws.10))|
 |**Ресурсы сообщества**|[Блокировка приложения с помощью политик ограниченного использования программ](/previous-versions/technet-magazine/cc510322(v=msdn.10)?pr=blog)|

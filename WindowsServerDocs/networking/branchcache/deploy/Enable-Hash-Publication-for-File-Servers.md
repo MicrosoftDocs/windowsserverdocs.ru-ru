@@ -4,15 +4,15 @@ description: Узнайте, как включить публикацию хэш
 manager: brianlic
 ms.topic: how-to
 ms.assetid: 5697aefe-1dd2-4ff9-82a9-da0afc182cb3
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 01/05/2021
-ms.openlocfilehash: 489b38eb4466887ecde57c8de98816b316748ae5
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: b967b043f3dc6a58ee2c82584f5a55a256fd26c6
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97948450"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101830515"
 ---
 # <a name="enable-hash-publication-for-file-servers"></a>Включение возможности публикации хэша для файловых серверов
 

@@ -6,12 +6,12 @@ author: nwashburn-ms
 ms.author: niwashbu
 ms.date: 09/18/2018
 ms.localizationpriority: medium
-ms.openlocfilehash: 293fa8a617d7ceb1628ec72df2f015b6b2547f16
-ms.sourcegitcommit: f89639d3861c61620275c69f31f4b02fd48327ab
+ms.openlocfilehash: 8338077c3da1aad5545fc6035b3eb9930b2347fe
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91517590"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101830725"
 ---
 # <a name="develop-a-solution-extension"></a>Разработка расширения решения
 
@@ -86,7 +86,7 @@ npm install
 
     ```
     gulp build
-    gulp serve -p 4201
+    gulp serve --port 4201
     ```
 
 Обратите внимание, что необходимо выбрать порт, который в данный момент будет не занят. Убедитесь, что вы не используете порт, на котором работает Windows Admin Center.

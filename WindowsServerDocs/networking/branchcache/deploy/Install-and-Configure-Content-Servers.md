@@ -4,15 +4,15 @@ description: Узнайте, как установить и настроить �
 manager: brianlic
 ms.topic: how-to
 ms.assetid: e753c56b-8902-4610-9c53-381e77bf29ab
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 01/05/2021
-ms.openlocfilehash: c82e72728368914f50f9600c01f43156c6bd8080
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: b57d20d5e788b601166023d5bcaf28e7bf135834
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97948910"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101828753"
 ---
 # <a name="install-and-configure-content-servers"></a>Установка и настройка серверов содержимого
 
