@@ -4,15 +4,15 @@ description: Познакомьтесь с дополнительными све
 manager: brianlic
 ms.topic: article
 ms.assetid: c7326f5b-87fb-4e57-9b77-72a5d0ab0444
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 117e3830b3a4e8bc7b0382c5e11a5e978b987cf8
-ms.sourcegitcommit: 605a9b46b74b2c7a9116e631e902467ea02a6e70
+ms.openlocfilehash: 9e9d076a36376e4a25d3dd85624930a1035dd14a
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97965606"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101824868"
 ---
 # <a name="branchcache-additional-resources"></a>Дополнительные ресурсы BranchCache
 

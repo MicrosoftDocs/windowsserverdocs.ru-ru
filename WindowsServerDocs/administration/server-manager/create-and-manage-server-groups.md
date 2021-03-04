@@ -3,16 +3,16 @@ title: Create and Manage Server Groups
 description: Узнайте, как создавать настраиваемые, определяемые пользователем группы серверов в диспетчер сервера в Windows Server.
 ms.topic: article
 ms.assetid: 9d5b1be8-49fd-4ff7-9580-e4ff21fe4b17
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: f1c62d0c7fba4dd23512ea5b3100dca9d099abb4
-ms.sourcegitcommit: 605a9b46b74b2c7a9116e631e902467ea02a6e70
+ms.openlocfilehash: 7278a55b66f7e4acc16bf2954fca5e90d6babc91
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97965199"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101824368"
 ---
 # <a name="create-and-manage-server-groups"></a>Создание групп серверов и управление ими
 

@@ -3,16 +3,16 @@ title: WDSUTIL Get-аллдриверпаккажес
 description: Справочная статья по команде WDSUTIL Get-аллдриверпаккажес, которая отображает сведения обо всех пакетах драйверов на сервере, соответствующих указанным условиям поиска.
 ms.topic: reference
 ms.assetid: 9eb8fcb7-ef46-4c8d-9623-8969a3c8b8a4
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: dd144d9abc2776f7e56913efd40775c1eef4d3ac
-ms.sourcegitcommit: 28b5ab74cb0b40539ccc1a83998d6391e87fe51f
+ms.openlocfilehash: 64d64319a95e61953d6e3109ad367c101475b7b2
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "96614926"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101825288"
 ---
 # <a name="wdsutil-get-alldriverpackages"></a>WDSUTIL Get-аллдриверпаккажес
 

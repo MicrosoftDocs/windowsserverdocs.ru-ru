@@ -3,16 +3,16 @@ title: where
 description: Справочная статья для WHERE, в котором отображается расположение файлов, соответствующих заданному шаблону поиска.
 ms.topic: reference
 ms.assetid: 0b3486a5-896b-4d92-84b8-e463a0b76487
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 683f467e3f023e7f859bb7543e1a3feef17ce294
-ms.sourcegitcommit: f45640cf4fda621b71593c63517cfdb983d1dc6a
+ms.openlocfilehash: 01de50462dd8a37a6e6298583500e5b9ed165ecb
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2020
-ms.locfileid: "92156745"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101824938"
 ---
 # <a name="where"></a>where
 

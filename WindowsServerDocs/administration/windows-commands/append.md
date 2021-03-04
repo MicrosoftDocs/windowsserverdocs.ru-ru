@@ -3,16 +3,16 @@ title: append
 description: Справочная статья по команде Append, которая позволяет программам открывать файлы данных в указанных каталогах, как если бы они находились в текущем каталоге.
 ms.topic: reference
 ms.assetid: 9c3fea20-9502-40ad-a442-7a927aad88eb
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 0002adabaa8c9cbd2235383d997c77670d33d522
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 4b123e500a8b4bf9a97708f605c780d7d5861ded
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89633478"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101823868"
 ---
 # <a name="append"></a>append
 

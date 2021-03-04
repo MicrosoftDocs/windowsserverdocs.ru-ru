@@ -3,16 +3,16 @@ title: WDSUTIL Get-аллимажеграупс
 description: Справочная статья по команде WDSUTIL Get-аллимажеграупс, которая извлекает сведения обо всех группах образов на сервере и всех образах в этих группах образов.
 ms.topic: reference
 ms.assetid: 2ca06533-bcf5-4590-ac8e-263d6c9874f8
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 7209b0f806b0fd86167e8fbcf36f717a0d069195
-ms.sourcegitcommit: 28b5ab74cb0b40539ccc1a83998d6391e87fe51f
+ms.openlocfilehash: 579c71738d2f7b82cdc2e4623053569590106770
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "96614866"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101825268"
 ---
 # <a name="wdsutil-get-allimagegroups"></a>WDSUTIL Get-аллимажеграупс
 

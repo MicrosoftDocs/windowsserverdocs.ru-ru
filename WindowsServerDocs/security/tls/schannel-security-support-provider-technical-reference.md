@@ -3,16 +3,16 @@ title: Технический справочник по поставщику п�
 description: Сведения о протоколе безопасности транспортного уровня, протоколе SSL и протоколе TLS, реализованном поставщиком поддержки безопасности SChannel.
 ms.topic: article
 ms.assetid: 5bf9c4a5-cdc1-49eb-bf9a-8bf987410b63
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 08/08/2018
-ms.openlocfilehash: 390157aa7bdc01f0290b3b5013425546bd371a72
-ms.sourcegitcommit: decb6c8caf4851b13af271d926c650d010a6b9e9
+ms.openlocfilehash: c4968990368f695920ede60037bc1e89a4c40a8a
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "98177303"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101825341"
 ---
 # <a name="schannel-security-support-provider-technical-reference"></a>Технический справочник по поставщику поддержки безопасности Schannel
 

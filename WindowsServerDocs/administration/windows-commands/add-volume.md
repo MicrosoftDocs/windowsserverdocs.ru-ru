@@ -3,16 +3,16 @@ title: add volume
 description: Справочная статья по команде "добавить том", которая добавляет тома в набор теневых копий, который представляет собой набор томов для теневого копирования.
 ms.topic: reference
 ms.assetid: b7d4d35d-8bda-46d2-8df5-eb598cecaaba
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 2a1dc6f00ebc497e9276d1f3b5a74a1f1a10dbfc
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 2aec13aeddebd629547ed95b781fbc3262654e73
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89633542"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101823888"
 ---
 # <a name="add-volume"></a>add volume
 

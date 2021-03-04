@@ -3,16 +3,16 @@ title: Просмотр сведений о задачах и уведомлен
 description: Узнайте, как просмотреть состояние пользовательских задач или запросов, определить, не удалось ли выполнить задачу, и устранить неполадки, обращаясь к подробным сообщениям об ошибках задач.
 ms.topic: article
 ms.assetid: 95117407-2dd3-4f9a-841f-4331be3544c3
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 3937f3536fbd5751150e3b02e8cb37b9fd0c70c0
-ms.sourcegitcommit: 605a9b46b74b2c7a9116e631e902467ea02a6e70
+ms.openlocfilehash: 30808b84d346aa76012fda80c5a38f5cee806b8a
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97965706"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101824048"
 ---
 # <a name="view-task-details-and-notifications"></a>Просмотр сведений о задачах и уведомлений
 

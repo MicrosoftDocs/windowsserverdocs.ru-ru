@@ -4,15 +4,15 @@ description: В этом разделе приводятся общие свед
 manager: brianlic
 ms.topic: article
 ms.assetid: d57af0bd-9301-4f62-9888-f528cd10451d
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: ffcfbecfa47c39f0bb6e76a6e34953a2ef9140e7
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 4392ed7bef5be3c1d694b87fc1cb0bf78677c7cb
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97950240"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101824888"
 ---
 # <a name="core-network-companion-guidance"></a>Дополнительное руководство по основной сети
 

@@ -3,16 +3,16 @@ title: active
 description: Справочная статья по активной команде, которая на базовых дисках помечает раздел фокусом как активный.
 ms.topic: reference
 ms.assetid: 1f25da2e-87fc-4392-a7ee-f38d09b7873c
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 8c8a90b2341bd74cf37c1431987d0d47403e1de6
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: a8fbfc14617d4cc82297c9adb9f8dff7e7d61bdb
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89633596"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101823938"
 ---
 # <a name="active"></a>active
 

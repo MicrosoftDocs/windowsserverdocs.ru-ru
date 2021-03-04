@@ -3,16 +3,16 @@ title: Запуск анализатор соответствия рекомен
 description: Узнайте, как запускать анализатор соответствия рекомендациям (BPA) при сканировании из диспетчер сервера, с помощью ГИП анализатора соответствия рекомендациям или с помощью командлетов в Windows PowerShell и о том, как управлять результатами проверки.
 ms.topic: article
 ms.assetid: 232f1c80-88ef-4a39-8014-14be788c2766
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 0541a95ad2fd176ecad8565a66db303a4f609fbc
-ms.sourcegitcommit: 605a9b46b74b2c7a9116e631e902467ea02a6e70
+ms.openlocfilehash: 98fd6431469943c1e529b5548559c403f4667d3f
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97965069"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101824278"
 ---
 # <a name="run-best-practices-analyzer-scans-and-manage-scan-results"></a>Запуск проверок анализатором соответствия рекомендациям и управление результатами проверок
 

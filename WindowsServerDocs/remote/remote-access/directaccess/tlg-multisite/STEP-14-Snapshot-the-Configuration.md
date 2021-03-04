@@ -4,15 +4,15 @@ description: Узнайте, как сохранить моментальный 
 manager: brianlic
 ms.topic: article
 ms.assetid: 8e17d886-f216-400e-bd31-808aceb88033
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 4626b850efd62edcf780f7577b7fd94d885461a2
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: aee28275d0174e3a7a084b5d5e75f75ad2d593b1
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98040504"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101824648"
 ---
 # <a name="step-14-snapshot-the-configuration"></a>Шаг 14. Создание моментального снимка конфигурации
 

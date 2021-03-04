@@ -3,16 +3,16 @@ title: whoami
 description: Справочная статья для whoami, отображающая сведения о пользователе, группе и привилегии для пользователя, который в данный момент вошел в локальную систему.
 ms.topic: reference
 ms.assetid: 6e3f4d5c-f1f5-4429-b602-afad2b3488bf
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: baeb3781cb35f7066224dc19e9ce3ae4edf714ec
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: bb3892dffd2077614195933e25046f006bc859aa
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89641215"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101824928"
 ---
 # <a name="whoami"></a>whoami
 

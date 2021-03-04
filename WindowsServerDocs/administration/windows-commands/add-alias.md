@@ -3,16 +3,16 @@ title: add alias
 description: Справочная статья по команде добавления псевдонима, которая добавляет псевдонимы в среду псевдонима.
 ms.topic: reference
 ms.assetid: 5fe12f5d-11e9-4f3d-b7f9-40b26c8685e5
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 1cc9b7c5395c29ac917a0b25b97fb091dc66a699
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 938a3c58e72791c65bae4d3938b14aa5d298580b
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89633553"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101823908"
 ---
 # <a name="add-alias"></a>add alias
 

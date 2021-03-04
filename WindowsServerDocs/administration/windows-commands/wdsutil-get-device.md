@@ -3,16 +3,16 @@ title: WDSUTIL Get-Device
 description: Справочная статья по WDSUTIL Get-Device, которая извлекает данные служб развертывания Windows о предварительно подготовленном компьютере (т. е. физическом компьютере, который был подключен к учетной записи компьютера в доменных службах Active Directory).
 ms.topic: reference
 ms.assetid: 1da79286-7e1d-45f2-aea2-d446e16a6911
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 875ab5053ebbb1708f7b51896c9d82b9eba8f725
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: 469f61ed31b9d31039b9b73e81d9a630ba013e35
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91730844"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101825258"
 ---
 # <a name="wdsutil-get-device"></a>WDSUTIL Get-Device
 

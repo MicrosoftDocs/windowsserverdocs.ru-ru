@@ -3,16 +3,16 @@ title: Get-ImageFile
 description: Справочная статья по Get-ImageFile, которая получает сведения об образах, содержащихся в WIM-файле образа Windows.
 ms.topic: reference
 ms.assetid: e1e296fb-20cf-4a60-9db4-4cbac7d4dab5
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 41183f92d75736afc32dfbbee9d31871b3ef24f9
-ms.sourcegitcommit: 554d274fea48a4d47c19845d969a9ec93dec82de
+ms.openlocfilehash: 94205a21bdc1a2c2138e3eca45b9d98ea2d3ab35
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "92524339"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101825148"
 ---
 # <a name="get-imagefile"></a>Get-ImageFile
 

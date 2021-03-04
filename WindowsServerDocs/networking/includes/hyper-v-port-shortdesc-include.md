@@ -1,13 +1,13 @@
 ---
-author: eross-msft
-ms.author: lizross
+author: JasonGerend
+ms.author: jgerend
 ms.date: 10/02/2018
 ms:topic: include
-ms.openlocfilehash: 43a4149d44bd24a7d8b3d68ed9e3c2b68c99e285
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 18bf938d10dff527a97c8c88892191bf5983d737
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87952402"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101824739"
 ---
 При использовании порта Hyper-V группы сетевых адаптеров, настроенные на узлах Hyper-V, предоставляют независимые от виртуальных машин MAC-адреса.  Для разделения сетевого трафика между членами группы сетевой карты можно использовать MAC-адрес виртуальных машин или виртуальную машину, подключенную к коммутатору Hyper/V. Вы не можете настроить команды сетевой карты, создаваемые в виртуальных машинах, с помощью режима балансировки нагрузки портов Hyper-V. Вместо этого используйте режим хэширования адреса.

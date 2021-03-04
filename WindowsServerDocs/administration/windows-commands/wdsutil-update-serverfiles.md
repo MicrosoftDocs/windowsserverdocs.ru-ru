@@ -3,16 +3,16 @@ title: Update-ServerFiles
 description: Справочная статья по Update-Серверфилес, которая обновляет файлы в общей папке REMINST с использованием последних файлов, которые хранятся в папке%Windir%\System32\RemInst сервера.
 ms.topic: reference
 ms.assetid: 23aa79df-38c6-401e-91bd-cd23811b30b4
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 7684dfb694ac6814d00c91363d6573be5cf7be7f
-ms.sourcegitcommit: 554d274fea48a4d47c19845d969a9ec93dec82de
+ms.openlocfilehash: 912e2fc4079209355872fbc99ec9d0f1396d6a52
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "92524899"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101825068"
 ---
 # <a name="update-serverfiles"></a>Update-ServerFiles
 

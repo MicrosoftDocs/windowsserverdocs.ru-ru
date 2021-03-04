@@ -3,15 +3,15 @@ description: Дополнительные сведения о публикаци
 ms.assetid: 5f733510-c96e-4d3a-85d2-4407de95926e
 title: Публикация приложений с использованием предварительной проверки подлинности AD FS
 ms.author: kgremban
-author: eross-msft
+author: JasonGerend
 ms.date: 07/13/2016
 ms.topic: article
-ms.openlocfilehash: 774e621d1cc6a6449c758673a6bb1424ae3f2f17
-ms.sourcegitcommit: 65b6de6b44d41f1180c45db11cdd60cb2a093b46
+ms.openlocfilehash: 0902a1713b5e87f1327f6b41bd12326774fa1a72
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97044932"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101824628"
 ---
 # <a name="publishing-applications-using-ad-fs-preauthentication"></a>Публикация приложений с использованием предварительной проверки подлинности AD FS
 

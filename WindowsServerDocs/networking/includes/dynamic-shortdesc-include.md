@@ -1,14 +1,14 @@
 ---
-author: eross-msft
-ms.author: lizross
+author: JasonGerend
+ms.author: jgerend
 ms.date: 10/02/2018
 ms:topic: include
-ms.openlocfilehash: f07840220dbbe955a47879b3090ddd340c8c514f
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 0cd7451933be2b182210b32e2f9a00260f18d661
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87952403"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101824736"
 ---
 Благодаря динамической нагрузке исходящие нагрузки распределяются на основе хэша TCP-портов и адресов IP. Динамический режим также обеспечивает повторную балансировку нагрузки в режиме реального времени, чтобы заданный исходящий поток мог перемещаться между членами группы. Входящие нагрузки, с другой стороны, распределяются так же, как порт Hyper-V. В двух словах, динамический режим использует лучшие аспекты хэш-адреса и порта Hyper-V, а также самый высокий режим балансировки нагрузки.
 

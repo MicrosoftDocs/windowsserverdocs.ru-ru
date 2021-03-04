@@ -3,16 +3,16 @@ title: Сочетание клавиш для диспетчера сервер�
 description: Узнайте о новых сочетаниях клавиш и ключах доступа для диспетчер сервера в Windows Server 2012 и более новых выпусках Windows Server.
 ms.topic: article
 ms.assetid: 96a2a8be-cbeb-4799-9034-284ea057915c
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 1f21e8f749b91ea93afd964019dd25081fe68444
-ms.sourcegitcommit: 605a9b46b74b2c7a9116e631e902467ea02a6e70
+ms.openlocfilehash: dc9592d8631ee988ebdec4e7885b42b4ff7250e5
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97965716"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101824308"
 ---
 # <a name="keyboard-shortcuts-for-server-manager"></a>Сочетание клавиш для диспетчера серверов
 

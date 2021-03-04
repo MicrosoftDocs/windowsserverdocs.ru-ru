@@ -4,15 +4,15 @@ description: Узнайте, как добавить запись ресурса
 manager: brianlic
 ms.topic: article
 ms.assetid: bfae23f0-ae12-486b-94fe-50a137e141a5
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: c96322a69379524922f40b04dc85731c4dc7ffde
-ms.sourcegitcommit: f8da45df984f0400922a8306855b0adfdaec71af
+ms.openlocfilehash: ede74a5c0e0c1e2b1527cc528ff3a617d829f673
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "98038606"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101824828"
 ---
 # <a name="create-an-alias-cname-record-in-dns-for-web1"></a>Создание псевдонима \( \) записи CNAME в DNS для web1
 

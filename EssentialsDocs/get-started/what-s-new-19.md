@@ -3,16 +3,15 @@ title: Что нового в Windows Server 2019 Essentials
 description: Описание изменений в Windows Server Essentials 2019
 ms.topic: article
 ms.assetid: affff774-5fa6-4944-887a-9bfde05f6a3f
-ms.author: lizross
-author: eross-msft
-manager: mtillman
+ms.author: jgerend
+author: JasonGerend
 ms.date: 09/09/2020
-ms.openlocfilehash: deeead55a45e220b5bebad11c92edd6625f83906
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: e71c7aa76357b3ec3d3c4c3d796b57d6cceb511a
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97944140"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101824598"
 ---
 # <a name="whats-new-in-windows-server-2019-essentials"></a>Что нового в Windows Server 2019 Essentials
 

@@ -3,16 +3,16 @@ title: WDSUTIL Get-имажеграуп
 description: Справочная статья по WDSUTIL Get-имажеграуп, которая извлекает сведения о группе образов и изображениях в ней.
 ms.topic: reference
 ms.assetid: 0fc25aca-a529-44ee-bc8e-96bc8affb458
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: d40fef643ebbb8fd48f36fc048ddefc0b4b3229f
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: 2e0e90c3640967b4226e75d9d1906bdbb4e806a1
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91730820"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101825138"
 ---
 # <a name="wdsutil-get-imagegroup"></a>WDSUTIL Get-имажеграуп
 

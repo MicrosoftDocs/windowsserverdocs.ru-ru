@@ -4,15 +4,15 @@ description: Узнайте, как развернуть сервер разме
 manager: brianlic
 ms.topic: article
 ms.assetid: 55686a9c-60dd-47f4-9f1f-fe72c2873a44
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 8abb25c7d2b8e3bcf0e5361bbc4fc4da2a2e7567
-ms.sourcegitcommit: 605a9b46b74b2c7a9116e631e902467ea02a6e70
+ms.openlocfilehash: f19ac9b9d44e25b14e9df27740fd4a37fd2f9dce
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97965596"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101824858"
 ---
 # <a name="branchcache-hosted-cache-mode-deployment-overview"></a>Обзор развертывания режима размещенного кэша BranchCache
 

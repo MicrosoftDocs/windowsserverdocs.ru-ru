@@ -3,16 +3,16 @@ title: WDSUTIL Delete — аутоадддевицес
 description: Справочная статья по команде WDSUTIL Delete-аутоадддевицес, которая удаляет компьютеры, которые ожидают, отклонены или утверждены из базы данных автоматического добавления.
 ms.topic: reference
 ms.assetid: 8dcaca6a-212e-4c36-98e3-00938eef6b9c
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 610b57c7db49c5d8cf354502634cf82212d52c19
-ms.sourcegitcommit: 554d274fea48a4d47c19845d969a9ec93dec82de
+ms.openlocfilehash: 68a4d7bfbc311ee0052fc360f4e05a47b94ed0e4
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "92524819"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101825319"
 ---
 # <a name="wdsutil-delete-autoadddevices"></a>WDSUTIL Delete — аутоадддевицес
 

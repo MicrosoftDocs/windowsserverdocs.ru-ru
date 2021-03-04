@@ -3,16 +3,16 @@ title: wecutil
 description: Справочная статья по команде wecutil, которая позволяет создавать и администрировать подписки на события, пересылаемые с удаленных компьютеров.
 ms.topic: reference
 ms.assetid: 0c82a6cb-d652-429c-9c3d-0f568c78d54b
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 12/04/2020
-ms.openlocfilehash: b6068135d8a097e6e849ec2e2234a76accd50bbf
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 9e0b480395cd6dd431a021300820bf9b4387c3c1
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97947290"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101825038"
 ---
 # <a name="wecutil"></a>wecutil
 

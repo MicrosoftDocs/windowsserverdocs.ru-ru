@@ -3,17 +3,17 @@ title: Add Servers to Server Manager
 description: Узнайте, как добавить серверы в пул серверов диспетчер сервера.
 ms.topic: article
 ms.assetid: aab895f2-fe4d-4408-b66b-cdeadbd8969e
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.localizationpriority: medium
 ms.date: 02/01/2018
-ms.openlocfilehash: bca7f9025822854ffb7110d3c7a4999f79759861
-ms.sourcegitcommit: 605a9b46b74b2c7a9116e631e902467ea02a6e70
+ms.openlocfilehash: 2c0bda2f767858bae9144ad9793a724dd9c60240
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97965746"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101824588"
 ---
 # <a name="add-servers-to-server-manager"></a>Add Servers to Server Manager
 

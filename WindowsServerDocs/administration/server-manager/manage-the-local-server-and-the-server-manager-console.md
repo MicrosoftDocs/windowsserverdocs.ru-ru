@@ -3,16 +3,16 @@ title: Manage the Local Server and the Server Manager Console
 description: Узнайте, как управлять локальным сервером и удаленными серверами под управлением Windows Server 2008 и более поздних версий операционной системы Windows Server.
 ms.topic: article
 ms.assetid: eeb32f65-d588-4ed5-82ba-1ca37f517139
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 92434d59abf1373ac87f869b99552409cfeb22b9
-ms.sourcegitcommit: 605a9b46b74b2c7a9116e631e902467ea02a6e70
+ms.openlocfilehash: b04b16c707c0cc7b896901c7865c66ca51d39365
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97965696"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101824288"
 ---
 # <a name="manage-the-local-server-and-the-server-manager-console"></a>Manage the Local Server and the Server Manager Console
 

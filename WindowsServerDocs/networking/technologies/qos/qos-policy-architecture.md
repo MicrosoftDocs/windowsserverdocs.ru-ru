@@ -4,15 +4,15 @@ description: Узнайте об архитектуре политики QoS.
 ms.topic: article
 ms.assetid: 25097cb8-b9b1-41c9-b3c7-3610a032e0d8
 manager: brianlic
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 68b61610a28c81141e336826229793f681276ade
-ms.sourcegitcommit: d42b80f947dbfa8660d982be67d77745a28081e5
+ms.openlocfilehash: 3d9a5eaa371887b0b5fdf424f05e26f6817e296c
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "98113290"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101824668"
 ---
 # <a name="qos-policy-architecture"></a>Архитектура политики качества обслуживания
 

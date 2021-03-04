@@ -3,16 +3,16 @@ title: WDSUTIL Set-имажеграуп
 description: Справочная статья по подкоманде Set-Имажеграуп, которая изменяет атрибуты группы образов.
 ms.topic: reference
 ms.assetid: 4d86946a-e261-4d41-8b0c-1ab0ba2e3430
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 6f3b2b3790ecc126f8be48ade61d305d44011f68
-ms.sourcegitcommit: 720455aad2bac78cf64997d196a13f35ea0acb73
+ms.openlocfilehash: e10bd9014b8faa57562b158dee784b01beef1de8
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "91731323"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101825078"
 ---
 # <a name="wdsutil-set-imagegroup"></a>WDSUTIL Set-имажеграуп
 

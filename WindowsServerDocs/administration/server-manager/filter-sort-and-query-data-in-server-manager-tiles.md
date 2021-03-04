@@ -3,16 +3,16 @@ title: Фильтрация, сортировка и запросы данных
 description: Узнайте, как использовать плитки в диспетчер сервера для фильтрации и сортировки данных, а затем создавать и сохранять пользовательские запросы.
 ms.topic: article
 ms.assetid: 8786f791-73e5-4c75-8d12-46e88a196976
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 7d63d195c075e022ef908df6450960ed5f7b1b3d
-ms.sourcegitcommit: 605a9b46b74b2c7a9116e631e902467ea02a6e70
+ms.openlocfilehash: 5395447fe80cbe70868db9acfe6f3fb11b3316d2
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97965726"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101824338"
 ---
 # <a name="filter-sort-and-query-data-in-server-manager-tiles"></a>Фильтрация, сортировка и запросы данных на плитках диспетчера серверов
 

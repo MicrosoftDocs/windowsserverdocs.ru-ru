@@ -3,16 +3,16 @@ title: Configure Features on Demand in Windows Server
 description: Узнайте, как удалить файлы компонентов в конфигурации компонентов по требованию с помощью командлета Uninstall-WindowsFeature.
 ms.topic: article
 ms.assetid: e663bbea-d025-41fa-b16c-c2bff00a88e8
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 8a2737aec1729bc30bba571a222cc659ff04d8af
-ms.sourcegitcommit: 605a9b46b74b2c7a9116e631e902467ea02a6e70
+ms.openlocfilehash: e293936141263ad500534754f7a7f70e4efd96e7
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97965099"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101824568"
 ---
 # <a name="configure-features-on-demand-in-windows-server"></a>Configure Features on Demand in Windows Server
 

@@ -3,16 +3,16 @@ title: WDSUTIL Get-аллмултикасттрансмиссионс
 description: Справочная статья по WDSUTIL Get-аллмултикасттрансмиссионс, в которой отображаются сведения обо всех многоадресных передачах на сервере.
 ms.topic: reference
 ms.assetid: 95b8fb79-7a8a-4f0c-88f4-92bc1111c67f
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 39405952aac938a7d02ff0f4d1d0c3593df88326
-ms.sourcegitcommit: 28b5ab74cb0b40539ccc1a83998d6391e87fe51f
+ms.openlocfilehash: 49480846404b5160d5cde61c3f3a94daa5871c9e
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "96614856"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101825278"
 ---
 # <a name="wdsutil-get-allmulticasttransmissions"></a>WDSUTIL Get-аллмултикасттрансмиссионс
 

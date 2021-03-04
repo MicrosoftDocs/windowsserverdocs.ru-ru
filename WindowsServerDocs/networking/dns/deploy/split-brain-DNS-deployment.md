@@ -4,15 +4,15 @@ description: Узнайте, как настроить политику DNS в W
 manager: brianlic
 ms.topic: article
 ms.assetid: a255a4a5-c1a0-4edc-b41a-211bae397e3c
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 01/05/2021
-ms.openlocfilehash: 454aa54c6ec48fc76f90d71bedfb306982fe5cea
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: aac9a48e1902561baa3566742f8109f16f6098c0
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97948850"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101824778"
 ---
 # <a name="use-dns-policy-for-split-brain-dns-deployment"></a>Использование политики DNS для разделения раздельного \- развертывания DNS
 

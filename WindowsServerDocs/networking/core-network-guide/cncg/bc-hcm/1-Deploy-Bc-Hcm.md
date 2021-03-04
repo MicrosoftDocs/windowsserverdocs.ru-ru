@@ -4,15 +4,15 @@ description: Узнайте, как выполнить сборку в осно�
 manager: brianlic
 ms.topic: article
 ms.assetid: 4235231c-4732-4ea9-9330-2a8c8a616d39
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 51d8b27d77ccc47d4d7ad1a460da88f6be8339b9
-ms.sourcegitcommit: 605a9b46b74b2c7a9116e631e902467ea02a6e70
+ms.openlocfilehash: 7c7d418357716c21605256dea27c21ea45ebbacc
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97965626"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101824878"
 ---
 # <a name="deploy-branchcache-hosted-cache-mode"></a>Развертывание режима размещенного кэша BranchCache
 
