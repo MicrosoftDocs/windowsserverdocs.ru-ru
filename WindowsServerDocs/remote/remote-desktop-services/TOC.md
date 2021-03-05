@@ -94,6 +94,7 @@
 #### [Предоставление доступа к компьютеру через удаленный рабочий стол](clients/remote-desktop-allow-access.md)
 #### [Предоставление доступа к компьютеру за пределами сети](clients/remote-desktop-allow-outside-access.md)
 #### [Изменение прослушивающего порта удаленного рабочего стола на вашем компьютере](clients/change-listening-port.md)
+#### [Настройка роли шлюза удаленных рабочих столов](remote-desktop-gateway-role.md)
 ### Дополнительные сведения
 #### [Сравнение клиентов: функции](clients/remote-desktop-features.md)
 #### [Сравнение клиентов: перенаправления](clients/remote-desktop-app-compare.md)

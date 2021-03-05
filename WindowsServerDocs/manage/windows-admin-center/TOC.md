@@ -15,7 +15,6 @@
 ### [Установка Windows Admin Center](deploy/install.md)
 ### [Высокая доступность](deploy/high-availability.md)
 
-
 ## Настройка
 ### [Параметры Windows Admin Center](configure/settings.md)
 ### [Управление доступом пользователей и разрешениями](configure/user-access-control.md)
@@ -39,10 +38,11 @@
 #### [Синхронизация файлов Azure](azure/azure-file-sync.md)
 #### [Azure Monitor](azure/azure-monitor.md)
 #### [Управление обновлениями Azure](azure/azure-update-management.md)
-### [Подключение Windows Admin Center к Azure](azure/azure-integration.md)
-### [Развертывание Windows Admin Center в Azure](azure/deploy-wac-in-azure.md)
-### [Создание виртуальных машин Azure с помощью Windows Admin Center](azure/create-azure-vms.md)
-### [Управление виртуальными машинами Azure с помощью Windows Admin Center](azure/manage-azure-vms.md)
+### [Подключение к Azure](azure/azure-integration.md)
+### [Создание виртуальных машин Azure](azure/create-azure-vms.md)
+### [Управление виртуальными машинами Azure](azure/manage-azure-vms.md)
+### [Управление виртуальной машиной в Azure](azure/manage-vm.md)
+### [Развертывание сервера Windows Admin Center в Azure вручную](azure/deploy-wac-in-azure.md)
 
 ## Поддержка
 ### [История выпусков](support/release-history.md)
@@ -82,5 +82,3 @@
 #### [Pure Storage](extend/case-studies/purestorage.md)
 #### [QCT](extend/case-studies/qct.md)
 #### [Thomas-Krenn](extend/case-studies/thomas-krenn.md)
-
-
