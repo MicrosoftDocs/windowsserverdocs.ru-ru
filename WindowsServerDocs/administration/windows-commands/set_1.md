@@ -7,12 +7,12 @@ ms.author: jgerend
 author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: d2da6fc76cce95603a04b09722e22d9404d11ec0
-ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
+ms.openlocfilehash: 9ae66cf7d8edbb0c667952e1b3387a07cf84c526
+ms.sourcegitcommit: 09f664580714bc46f91771907a2e3ce7018bfb9d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "101805797"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102237721"
 ---
 # <a name="set-environment-variable"></a>Set (переменная среды)
 
@@ -33,7 +33,7 @@ set /a <variable>=<expression>
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 |--|--|
 | `<variable>` | Задает переменную среды, которую необходимо задать или изменить. |
 | `<string>` | Указывает строку, связываемую с указанной переменной среды. |
@@ -85,7 +85,7 @@ set /a <variable>=<expression>
 
 ## <a name="examples"></a>Примеры
 
-Чтобы задать переменную среды с именем *Test ^ 1*, введите:
+Чтобы задать значение *Test ^ 1* для переменной среды с именем `testVar` , введите:
 
 ```
 set testVar=test^^1
@@ -93,7 +93,7 @@ set testVar=test^^1
 
 Команда **Set** назначает значение переменной всем, что следует за знаком равенства (=). Поэтому при вводе `set testVar=test^1` вы получите следующий результат: `testVar=test^1` .
 
-Чтобы задать переменную среды с именем *TEST&1*, введите:
+Чтобы задать значение *TEST&1* для переменной среды `testVar` , введите:
 
 ```
 set testVar=test^&1

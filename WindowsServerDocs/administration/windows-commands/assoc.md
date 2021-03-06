@@ -7,12 +7,12 @@ ms.author: jgerend
 author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 58e57596932f8e1935bee1ea778a568bac1c415d
-ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
+ms.openlocfilehash: 5db816d0b1792cb0e0eb0c8347c740999b07ff69
+ms.sourcegitcommit: 09f664580714bc46f91771907a2e3ce7018bfb9d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "101823688"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102237711"
 ---
 # <a name="assoc"></a>assoc
 
@@ -25,12 +25,12 @@ ms.locfileid: "101823688"
 ## <a name="syntax"></a>Синтаксис
 
 ```
-assoc [<.ext>[=[<filetype>]]]
+assoc [<.[ext]>[=[<filetype>]]]
 ```
 
 ### <a name="parameters"></a>Параметры
 
-| Параметр | Описание |
+| Параметр | Описание: |
 | --------- | ----------- |
 | `<.ext>` | Указывает расширение имени файла. |
 | `<filetype>` | Указывает тип файла, связываемого с указанным расширением имени файла. |
@@ -38,7 +38,11 @@ assoc [<.ext>[=[<filetype>]]]
 
 ### <a name="remarks"></a>Комментарии
 
+- Для внесения изменений в связи требуются права администратора.
+
 - Чтобы удалить сопоставление типа файла для расширения имени файла, добавьте пробел после знака равенства, нажав клавишу пробел.
+
+- Чтобы связать файлы без расширения с типом файла, используйте только точку (см. примеры).
 
 - Для просмотра текущих типов файлов с определенными командными строками открытия используйте команду **ftype** .
 
@@ -71,6 +75,18 @@ assoc | more
 
 ```
 assoc>assoc.txt
+```
+
+Связывание **журнала. log** с текстовыми файлами:
+
+```
+assoc .log=txtfile
+```
+
+Связывание файлов без расширения с текстовыми файлами:
+
+```
+assoc .=txtfile
 ```
 
 ## <a name="additional-references"></a>Дополнительные ссылки
