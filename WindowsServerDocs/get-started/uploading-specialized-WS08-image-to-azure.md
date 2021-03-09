@@ -3,17 +3,17 @@ title: Отправка специализированного образа Wind
 description: Поддержка Windows Server 2008 и 2008 R2 вскоре будет прекращена. Узнайте, как перейти в Azure путем размещения Windows Server в облаке.
 ms.mktglfcycl: manage
 ms.sitesec: library
-author: eross-msft
+author: JasonGerend
 ms.author: thierryp
 ms.date: 07/11/2018
 ms.topic: how-to
 ms.localizationpriority: high
-ms.openlocfilehash: a34aad872bf52bbca965571e20d4dd3ebb975228
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 95e818d2fe4f4c87c266672334f03fdb59ab1f2e
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97948060"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101827729"
 ---
 # <a name="upload-a-windows-server-20082008-r2-specialized-image-to-azure"></a>Отправка специализированного образа Windows Server 2008 или 2008 R2 в Azure
 

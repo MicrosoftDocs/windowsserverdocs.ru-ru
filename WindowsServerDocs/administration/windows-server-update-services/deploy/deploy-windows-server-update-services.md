@@ -3,16 +3,16 @@ title: Развертывание служб Windows Server Update Services
 description: Узнайте о службе Windows Server Update Service (WSUS), в т. ч. о процессе развертывания (ниже приведены ссылки на соответствующие разделы).
 ms.topic: how-to
 ms.assetid: 2708f6b2-4252-4b8f-9b7e-84c9b4222075
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 86ec94c832dcd894a18a60a7fc3c351072893448
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: efe6a83f2e9fbd80d2d387238ec28b6ae0a125b9
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97947630"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101827375"
 ---
 # <a name="deploy-windows-server-update-services"></a>Развертывание служб Windows Server Update Services
 

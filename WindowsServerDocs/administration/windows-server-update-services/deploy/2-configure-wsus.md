@@ -3,16 +3,16 @@ title: Шаг 2. Настройка WSUS
 description: Статья о службе обновления Windows Server (WSUS) с описанием настройки WSUS, второго из четырех шагов процесса развертывания WSUS
 ms.topic: article
 ms.assetid: d4adc568-1f23-49f3-9a54-12a7bec5f27c
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 9/18/2020
-ms.openlocfilehash: a5ae571e8f3e884231e294e2f09a8371fb329a53
-ms.sourcegitcommit: 7c0794e257f602bd71af5eb9a11b8a03d2b9adfd
+ms.openlocfilehash: 46f36fe87e4197ab9618cfa914be2b05f1fffea0
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "97390292"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101827429"
 ---
 # <a name="step-2-configure-wsus"></a>Шаг 2. Настройка WSUS
 

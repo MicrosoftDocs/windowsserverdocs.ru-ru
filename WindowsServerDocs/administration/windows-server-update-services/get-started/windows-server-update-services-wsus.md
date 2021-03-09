@@ -3,16 +3,16 @@ title: Начало работы со службами обновления Wind
 description: Статья о службах обновления Windows Server (WSUS) с описанием роли сервера и ее применения на практике
 ms.topic: how-to
 ms.assetid: 90e3464c-49d8-4861-96db-ee6f8a09ec5b
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 5/22/2017
-ms.openlocfilehash: ca4705255c36ef8ecf51d97bbbc17555f8196119
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 6aee660071d41e935b66e8baa0ada800666482b9
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97947600"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101827323"
 ---
 # <a name="windows-server-update-services-wsus"></a>Службы Windows Server Update Services (WSUS)
 

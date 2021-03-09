@@ -4,15 +4,15 @@ description: В этой статье вы узнаете, как создать
 ms.topic: article
 ms.assetid: c94e37a4-3637-4613-9eb5-ed604e831eca
 manager: brianlic
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 3f03a1c98463b1c6135bdf5ae62dafd91cf60b75
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: a8aa4f2964e74e15d8386c4bc7d4f4560db0a62e
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97946870"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101832239"
 ---
 # <a name="network-shell-netsh-example-batch-file"></a>Пример пакетного файла сетевой оболочки (Netsh)
 

@@ -3,17 +3,17 @@ title: Активация Windows Server 2019
 description: Сведения о том, как активировать Windows Server 2019
 ms.topic: article
 ms.assetid: 99f7daa4-30ce-4d13-be65-0a4d55cca754
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.localizationpriority: medium
 ms.date: 09/09/2020
-ms.openlocfilehash: 441e620935cccba477fdd0b486f49fc72ed3c4f2
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 1136a35ee1975c150dc07b06971e46e89e468db6
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "99510502"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101828043"
 ---
 # <a name="windows-server-2019-activation"></a>Активация Windows Server 2019
 

@@ -3,15 +3,15 @@ title: Преимущество гибридного использования 
 description: Используйте локальные лицензии Windows Server для экономии на виртуальных машинах Azure
 ms.date: 11/10/2017
 ms.topic: article
-author: eross-msft
+author: JasonGerend
 ms.author: chrisrin
 ms.localizationpriority: high
-ms.openlocfilehash: a997f60d4b36d85a895dedd567560be4edcd4d98
-ms.sourcegitcommit: fa325ef993e62fba59de803d8998922db1cb1dc8
+ms.openlocfilehash: decac51893ae965c6d21b580fa951977b7ba5eaf
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "96482585"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101828035"
 ---
 # <a name="azure-hybrid-benefit-for-windows-server"></a>Преимущество гибридного использования Azure для Windows Server
 

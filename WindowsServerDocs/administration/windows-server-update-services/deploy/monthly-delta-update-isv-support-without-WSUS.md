@@ -2,16 +2,16 @@
 title: Поддержка ежемесячного разностного обновления для независимых поставщиков программного обеспечения без службы WSUS
 description: Узнайте о службе (WSUS), в т. ч. о том, как независимые поставщики программного обеспечения могут временно применять ежемесячное разностное обновление вместо экспресс-доставки WSUS для уменьшения размера пакета.
 ms.topic: how-to
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 6b5b63cabc33e5aa97fca27695839467a9dbd205
-ms.sourcegitcommit: 84b97d34d606b6bf4b6ec8760a93107f1b311428
+ms.openlocfilehash: 739b2568b34d810795c2aa9ab5a897bee78ebcb7
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "99245423"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101827357"
 ---
 # <a name="monthly-delta-update-isv-support-without-wsus"></a>Поддержка ежемесячного разностного обновления для независимых поставщиков программного обеспечения без службы WSUS
 

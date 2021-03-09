@@ -3,16 +3,16 @@ title: Средства удаленного администрирования 
 description: Основная статья о средствах удаленного администрирования сервера
 ms.topic: how-to
 ms.assetid: d54a1f5e-af68-497e-99be-97775769a7a7
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 09/09/2020
-ms.openlocfilehash: 1b74b746e0b6ddde9590b00f22b42b45d75ada79
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: 1b158fd9c5c5d10c2cf9c41723dc5666904ba308
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97950250"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101833475"
 ---
 # <a name="remote-server-administration-tools"></a>Средства удаленного администрирования сервера
 

@@ -4,15 +4,15 @@ description: Сведения о том, как активировать Windows
 ms.date: 09/19/2018
 ms.topic: article
 ms.assetid: 99f7daa4-30ce-4d13-be65-0a45d5cc7a54
-author: eross-msft
+author: JasonGerend
 ms.author: thierryp
 ms.localizationpriority: medium
-ms.openlocfilehash: 232afbbb190227d25f7f1da2b3b9a105dbc3a312
-ms.sourcegitcommit: 554d274fea48a4d47c19845d969a9ec93dec82de
+ms.openlocfilehash: 5568bafa740b7de85548a6c4569b76f61d73148c
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "92524949"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101827737"
 ---
 # <a name="windows-server-2016-activation"></a>Активация Windows Server 2016
 

@@ -6,12 +6,12 @@ ms.date: 10/20/2020
 author: jasongerend
 ms.author: jgerend
 ms.localizationpriority: high
-ms.openlocfilehash: 1be5447047b838196861107fa59bf2e5dd0c9463
-ms.sourcegitcommit: b82dfbfdc5df1327feb8be053a760739b01e3031
+ms.openlocfilehash: 6c3d7a69a99f874c3ad8d09d394a31c7866905be
+ms.sourcegitcommit: 960010e0636953601aea7c88cb1370d46e2b8212
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92255881"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101883450"
 ---
 # <a name="windows-server-release-information"></a>Информация о выпуске Windows Server
 
@@ -24,7 +24,7 @@ ms.locfileid: "92255881"
 | Выпуск Windows Server | Версия | Сборка ОС | доступность; | Дата окончания основной фазы поддержки|Дата окончания дополнительной фазы поддержки |
 |----------------|---------|----------|----------|---------|----------|
 | Windows Server версии 20H2 (Semi-Annual Channel) (Datacenter Core, Standard Core) | 20H2 | 19042.508.200927-1902 | 20.10.2020 | 10.05.2022 | См. заметку |
-| Windows Server версии 2004 (Semi-Annual Channel) (Datacenter Core, Standard Core) | 2004 | 19041.264.200508-2205 | 27.05.20 | 14.12.2021 | См. заметку |
+| Windows Server версии 2004 (Semi-Annual Channel) (Datacenter Core, Standard Core) | 2004 | 19041.264.200508-2205 | 27.05.2020 | 14.12.2021 | См. заметку |
 | Windows Server версии 1909 (Semi-Annual Channel) (Datacenter Core, Standard Core) | 1909  | 18363.418.191007-0143 | 12.11.2019 | 11.05.2021 | См. заметку |
 | Windows Server версии 1903 (Semi-Annual Channel) (Datacenter Core, Standard Core) | 1903  | 18362.30.190401-1528 | 21.05.2019 | 08.12.2020 | См. заметку |
 |Windows Server 2019 (Long-Term Servicing Channel) (Datacenter, Essentials, Standard)|1809|17763.107.1010129-1455|13.11.2018|09.01.2024|09.01.2029|

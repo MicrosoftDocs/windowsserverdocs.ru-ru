@@ -6,12 +6,12 @@ ms.date: 07/06/2018
 ms.topic: article
 author: heidilohr
 manager: lizross
-ms.openlocfilehash: f99ad1529eb0882fc979240bab6f82f8779f0d49
-ms.sourcegitcommit: 9e19436bd8b20af60284071ab512405aebfbec83
+ms.openlocfilehash: bb7d78f71bf7b0c92b79c679064933f84ac52a7a
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/29/2020
-ms.locfileid: "97811421"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101803121"
 ---
 # <a name="remote-desktop-services-roles"></a>Роли служб удаленных рабочих столов
 
@@ -69,6 +69,7 @@ ms.locfileid: "97811421"
 * [Реализация высокой доступности в веб-интерфейсе удаленного рабочего стола и веб-интерфейсе шлюза удаленного рабочего стола](rds-rdweb-gateway-ha.md)
 * [Службы удаленных рабочих столов — доступ из любого места](rds-plan-access-from-anywhere.md)
 * [Службы удаленных рабочих столов — многофакторная проверка подлинности](rds-plan-mfa.md)
+* [Настройка роли шлюза RD](remote-desktop-gateway-role.md)
 
 ## <a name="remote-desktop-web-access"></a>Веб-доступ к удаленным рабочим столам
 

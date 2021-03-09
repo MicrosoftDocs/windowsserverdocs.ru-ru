@@ -3,16 +3,16 @@ title: Шаг 4. Настройка параметров групповой п�
 description: Раздел службы Windows Server Update Service (WSUS). Настройка параметров групповой политики для автоматического обновления является четвертым шагом в четырехэтапном процессе развертывания служб WSUS
 ms.topic: article
 ms.assetid: 62177d05-d832-4ea8-bca4-47a8cd34a19c
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 10/16/2017
-ms.openlocfilehash: 3beaea0ff9d0ab3851cfadbd516f36b45bd697ce
-ms.sourcegitcommit: db2d46842c68813d043738d6523f13d8454fc972
+ms.openlocfilehash: 257209f0da10233dcb061aa993f6449915cfe802
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89624578"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101827403"
 ---
 # <a name="step-4-configure-group-policy-settings-for-automatic-updates"></a>Шаг 4. Настройка параметров групповой политики для автоматического обновления
 

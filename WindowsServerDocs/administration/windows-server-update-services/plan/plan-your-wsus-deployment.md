@@ -3,16 +3,16 @@ title: Планирование развертывания WSUS
 description: Статья о службе обновления Windows Server (WSUS) с общими сведениями о процессе планирования развертывания со ссылками на соответствующие разделы
 ms.topic: article
 ms.assetid: 35865398-b011-447a-b781-1c52bc0c9e3a
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 05/24/2018
-ms.openlocfilehash: cac6c2af4f0cf900abcfea82f80b07e627c7e1e4
-ms.sourcegitcommit: e164aeffc01069b8f1f3248bf106fcdb7f64f894
+ms.openlocfilehash: 757016f8143b4c6bc9c91480e44d3c80aafc6a51
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91388428"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101827095"
 ---
 # <a name="plan-your-wsus-deployment"></a>Планирование развертывания WSUS
 

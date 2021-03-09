@@ -3,15 +3,15 @@ title: Команды Netsh для порта прокси-сервера инт
 description: Используйте команды порта прокси-сервера интерфейса Netsh, чтобы действовать в качестве прокси-серверов в сетях IPv4, IPv6 и приложениях.
 ms.topic: article
 manager: dougkim
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/30/2018
-ms.openlocfilehash: 2b05db55ef914130a337b38ea92b41e0cef81dc9
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: ca8e5f92fb4322f5e4baf49b3f26a94ea4858c27
+ms.sourcegitcommit: 09f664580714bc46f91771907a2e3ce7018bfb9d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87964030"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102237736"
 ---
 # <a name="netsh-interface-portproxy-commands"></a>Команды порта прокси-сервера интерфейса Netsh
 
@@ -28,7 +28,7 @@ ms.locfileid: "87964030"
 Используя эти команды при записи пакетных файлов или скриптов, каждая команда должна начинаться с **netsh interface portproxy**. Например, при использовании команды **delete v4tov6**, чтобы указать, что прокси-сервер порта удаляет порт IPv4 и адрес из списка IPv4-адресов, прослушиваемых сервером, в пакетном файле или скрипте должен использоваться следующий синтаксис:
 
 ```PowerShell
-netsh interface portproxy delete v4tov6listenport= {Integer | ServiceName} [[listenaddress=] {IPv4Address| HostName}] [[protocol=]tcp]
+netsh interface portproxy delete v4tov6 listenport= {Integer | ServiceName} [[listenaddress=] {IPv4Address| HostName}] [[protocol=]tcp]
 ```
 
 Доступны следующие команды порта прокси-сервера интерфейса netsh:

@@ -3,17 +3,17 @@ title: Обновление Windows Server 2008 и Windows Server 2008 R2
 description: Поддержка Windows Server 2008 и 2008 R2 вскоре будет прекращена. Из этой статьи вы узнаете, как выполнить обновление в локальной среде или разместить эти ОС в Azure.
 ms.mktglfcycl: manage
 ms.sitesec: library
-author: eross-msft
+author: JasonGerend
 ms.author: thierryp
 ms.date: 07/12/2018
 ms.topic: how-to
 ms.localizationpriority: high
-ms.openlocfilehash: 77d4e6d17fe1fe6de7c7d326b5217b47def03c98
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: a77d65ccf61b424f6a87d9d110dcabe8acf4a173
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97942700"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101828025"
 ---
 # <a name="upgrade-windows-server-2008-and-windows-server-2008-r2"></a>Обновление Windows Server 2008 и Windows Server 2008 R2
 
