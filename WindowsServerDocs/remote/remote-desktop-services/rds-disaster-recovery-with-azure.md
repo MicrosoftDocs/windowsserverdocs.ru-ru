@@ -6,12 +6,12 @@ ms.date: 06/12/2017
 ms.topic: article
 author: lizap
 manager: dongill
-ms.openlocfilehash: 6c0e9b97a436f51babf679d6ce0aa67c09bcfe26
-ms.sourcegitcommit: dfa48f77b751dbc34409aced628eb2f17c912f08
+ms.openlocfilehash: 509ee136c4fde628cdca342fd1edaffcce7ce292
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87936909"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101831667"
 ---
 # <a name="set-up-disaster-recovery-for-rds-using-azure-site-recovery"></a>Настройка аварийного восстановления RDS с помощью Azure Site Recovery
 
@@ -48,7 +48,7 @@ ms.locfileid: "87936909"
 | **Шаг 1. Настройка виртуальных машин для аварийного восстановления**                                                                                                                                                                                               |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Hyper-V: скачайте поставщик Microsoft Azure Site Recovery. Установите его на сервер VMM или узел Hyper-V. Дополнительные сведения см. в разделе [Таблица поддержки аварийного восстановления виртуальных машин VMware и физических серверов в Azure](/azure/site-recovery/site-recovery-prereq).                                                                                                                             |
-| VMWare: настройте сервер защиты, сервер конфигурации и главные целевые серверы.                                                                                                                                                      |
+| VMWare: настройте сервер защиты, сервер конфигурации и целевые серверы.                                                                                                                                                      |
 | **Шаг 2. Подготовка ресурсов**                                                                                                                                                                                                           |
 | Добавьте [учетную запись хранения Azure](/azure/storage/storage-create-storage-account).                                                                                                                                                                                                              |
 | Hyper-V: скачайте агент служб восстановления Microsoft Azure и установите его на серверах узлов Hyper-V.                                                                                                                                     |
