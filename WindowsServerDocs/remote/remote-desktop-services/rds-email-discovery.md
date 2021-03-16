@@ -6,12 +6,12 @@ ms.date: 8/28/2020
 ms.localizationpriority: medium
 ms.topic: article
 author: christianmontoya
-ms.openlocfilehash: a3a38581a257007d9e6afbf4059c88c485ac5a04
-ms.sourcegitcommit: 97af0c18f5868567a1435658bce9c7751454caea
+ms.openlocfilehash: 5964aa1f5bebb6c557349425e994c193a3ddb88a
+ms.sourcegitcommit: 89afa94ea51b84329a062e91d2363a4967a53249
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "96913414"
+ms.lasthandoff: 03/13/2021
+ms.locfileid: "103422299"
 ---
 # <a name="set-up-email-discovery-to-subscribe-to-your-rds-feed"></a>Настройка обнаружения электронной почты для оформления подписки на RDS-канал
 
@@ -25,7 +25,7 @@ ms.locfileid: "96913414"
 >[!NOTE]
 >Если вы работаете с Виртуальным рабочим столом Windows, а не Удаленным рабочим столом, используйте следующие URL-адреса:
 >
->- Если вы работаете с Виртуальным рабочим столом Windows (классическая модель), используйте <https://rdweb.wvd.microsoft.com/api/feeddiscovery/webfedddiscovery.aspx>.
+>- Если вы работаете с Виртуальным рабочим столом Windows (классическая модель), используйте <https://rdweb.wvd.microsoft.com/api/feeddiscovery/webfeeddiscovery.aspx>.
 >- Если вы работаете с Виртуальным рабочим столом Windows, используйте <https://rdweb.wvd.microsoft.com/api/arm/feeddiscovery>.
 
 Теперь выполните следующие действия, чтобы настроить обнаружение электронной почты:

@@ -3,17 +3,17 @@ title: Программный ЦОД Windows Server
 description: Обзор программного ЦОД Windows Server
 ms.prod: windows-server
 ms.topic: how-to
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 manager: mtillman
 ms.date: 06/04/2019
 ms.localizationpriority: medium
-ms.openlocfilehash: 774d93647d2be6ed5944683802abb910a8e223d5
-ms.sourcegitcommit: 6a62d736e4d9989515c6df85e2577662deb042b6
+ms.openlocfilehash: 6d2f243846e21fd6c07c4297a1a5865394158cf1
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "98103816"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101833583"
 ---
 # <a name="windows-server-software-defined-datacenter"></a>Программно-определяемый ЦОД Windows Server
 

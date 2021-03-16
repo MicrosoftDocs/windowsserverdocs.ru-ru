@@ -3,15 +3,15 @@ title: Команды Netsh для протокола HTTP
 description: netsh http можно использовать для запроса и настройки параметров HTTP.sys.
 ms.topic: article
 manager: dougkim
-ms.author: lizross
-author: eross-msft
+ms.author: jgerend
+author: JasonGerend
 ms.date: 08/07/2020
-ms.openlocfilehash: 68a8fdefe90e5d1f15ac4c2566015315bde39c77
-ms.sourcegitcommit: 40905b1f9d68f1b7d821e05cab2d35e9b425e38d
+ms.openlocfilehash: a59354008a649fd194f38080b78e835c536fb2fa
+ms.sourcegitcommit: db4c35ebe56d561768d2a657da9e6d6a791457bd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97947110"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101803797"
 ---
 # <a name="netsh-http-commands"></a>Команды HTTP для Netsh
 
